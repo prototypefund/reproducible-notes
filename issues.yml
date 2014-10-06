@@ -1,9 +1,9 @@
 timestamps_from_cpp_macros:
- description: |
-   The C pre-processor macros `__DATE__`, `__TIME__`, and `__TIMESTAMP__`
-   captures the current time, and thus will obviously make a build
-   unreproducible.
- url: https://wiki.debian.org/ReproducibleBuilds/TimestampFromCPPMacros
+  description: |
+    The C pre-processor macros `__DATE__`, `__TIME__`, and `__TIMESTAMP__`
+    captures the current time, and thus will obviously make a build
+    unreproducible.
+  url: https://wiki.debian.org/ReproducibleBuilds/TimestampFromCPPMacros
 timestamps_in_documentation_generated_by_doxygen:
   description: |
     If Doxyfile contains HTML_TIMESTAMP = YES, Doxygen will add a
