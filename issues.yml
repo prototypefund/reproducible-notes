@@ -1,0 +1,6 @@
+timestamps_from_cpp_macros:
+ description: |
+   The C pre-processor macros `__DATE__`, `__TIME__`, and `__TIMESTAMP__`
+   captures the current time, and thus will obviously make a build
+   unreproducible.
+ url: https://wiki.debian.org/ReproducibleBuilds/TimestampFromCPPMacros

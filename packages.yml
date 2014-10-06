@@ -1,0 +1,16 @@
+socat:
+  version: 1.7.2.4-1
+  issues:
+  - timestamps_from_cpp_macros
+  bugs:
+  - 764251
+  comments: |
+    Patch submitted.
+mlpost:
+  version: 0.8.1-6
+  comments: |
+    Path to temporary filename in mlpost.a
+stgit:
+  version: 0.17.1-1
+  comments: |
+    Timestamp in HTML files
