@@ -29,3 +29,15 @@ djvulibre:
   version: 3.5.25.4-4
   comments: |
     Timestamp in gzip header of a compressed SVG (.svgz)
+openclipart:
+  version: 1:0.18+dfsg-14
+  comments: |
+    Build hangs at inkscape processing ./office/telephone/mobile_phone_01.svg
+    Not sure if this is toolchain related or not
+    Package has been blacklisted for now
+cups:
+  version: 1.7.5-4
+  comments: |
+    Build hangs endlessly in the test suite
+    Reproducible with plain sid toolchain on different systems
+    Package has been blacklisted for now
