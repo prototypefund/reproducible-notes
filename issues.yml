@@ -9,3 +9,11 @@ timestamps_in_documentation_generated_by_doxygen:
     If Doxyfile contains HTML_TIMESTAMP = YES, Doxygen will add a
     timestamp to its generated documentation. 
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampInDocumentationGeneratedByDoxygen
+variables_in_build_info_py:
+  description: |
+    build_info.py contains several variables which need to be made deterministic, eg:
+    BUILD_DATE='2014-10-08'
+    BUILT_BY='pbuilder'
+    BUILD_TIME='15:55'
+    BUILT_ON='jenkins'
+    BUILD_CPU='AMD Opteron 62xx (Gen 4 Class Opteron)'
