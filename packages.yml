@@ -39,6 +39,11 @@ openclipart:
     Build hangs at inkscape processing ./office/telephone/mobile_phone_01.svg
     Not sure if this is toolchain related or not
     Package has been blacklisted for now
+eigen3:
+  version: 3.2.2-3
+  comments: |
+    Build fails but leaves a process called 'eigenvalues' running, which consumes all available cpu from all cores
+    Package has been blacklisted for now
 cups:
   version: 1.7.5-4
   comments: |
