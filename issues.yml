@@ -22,3 +22,8 @@ cc_failures_due_to__DATE__and__TIME__warnings:
   description: |
     latest reproducible builds dpkg-dev branch causes using __DATE__/__TIME__
     to become an error (-Werror=date-time) and this is on by default
+randomness_in_minimal_required_version_for_dependencies_when_no_symbols_are_used:
+  description: |
+    dpkg-shlibdeps does not always output the minimum dependency when a package
+    does not use any symbols.
+  url: https://bugs.debian.org/764721
