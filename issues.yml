@@ -17,3 +17,8 @@ variables_in_build_info_py:
     BUILD_TIME='15:55'
     BUILT_ON='jenkins'
     BUILD_CPU='AMD Opteron 62xx (Gen 4 Class Opteron)'
+cc_failures_due_to__DATE__and__TIME__warnings:
+  url: https://wiki.debian.org/ReproducibleBuilds/TimestampFromCPPMacros
+  description: |
+    latest reproducible builds dpkg-dev branch causes using __DATE__/__TIME__
+    to become an error (-Werror=date-time) and this is on by default

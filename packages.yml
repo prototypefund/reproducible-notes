@@ -45,3 +45,47 @@ cups:
     Build hangs endlessly in the test suite
     Reproducible with plain sid toolchain on different systems
     Package has been blacklisted for now
+noblenote:
+  version: 1.0.8-1
+  issues:
+  - cc_failures_due_to__DATE__and__TIME__warnings
+gom:
+  version: 0.30.2-6
+  issues:
+  - cc_failures_due_to__DATE__and__TIME__warnings
+giflib:
+  version: 4.1.6-11
+  issues:
+  - cc_failures_due_to__DATE__and__TIME__warnings
+awesome:
+  version: 3.4.15-1
+  issues:
+  - cc_failures_due_to__DATE__and__TIME__warnings
+dwb:
+  version: 20140702hg-1
+  issues:
+  - cc_failures_due_to__DATE__and__TIME__warnings
+gdbm:
+  version: 1.8.3-13
+  issues:
+  - cc_failures_due_to__DATE__and__TIME__warnings
+incron:
+  version: 0.5.10-2
+  issues:
+  - cc_failures_due_to__DATE__and__TIME__warnings
+infiniband-diags:
+  version: 1.6.4-3
+  issues:
+  - cc_failures_due_to__DATE__and__TIME__warnings
+hybserv:
+  version: 1.9.5-1
+  issues:
+  - cc_failures_due_to__DATE__and__TIME__warnings
+ht:
+  version: 2.0.22-2
+  issues:
+  - cc_failures_due_to__DATE__and__TIME__warnings
+aegis:
+  version: 4.24.3-3
+  issues:
+  - cc_failures_due_to__DATE__and__TIME__warnings
