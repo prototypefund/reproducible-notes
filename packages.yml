@@ -49,11 +49,6 @@ xmds2:
   comments: |
     Build hangs forever...
     Package has been blacklisted for now.
-
-  version: 3.2.2-3
-  comments: |
-    Build fails but leaves a process called 'eigenvalues' running, which consumes all available cpu from all cores
-    Package has been blacklisted for now
 cups:
   version: 1.7.5-4
   comments: |
