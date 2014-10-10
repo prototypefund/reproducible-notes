@@ -179,3 +179,7 @@ vlc:
   version: 2.2.0~pre4-1
   issues:
   - randomness_in_minimal_required_version_for_dependencies_when_no_symbols_are_used
+asn1c:
+  version: 0.9.24+dfsg-1
+  comments: |
+    The only issue is in `asn1c-usage.pdf`.
