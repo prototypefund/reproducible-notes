@@ -34,3 +34,7 @@ timestamps_in_dvi_generated_by_latex:
   description: |
     The creation date of the DVI file is the current time.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampInDviGeneratedByLaTeX
+blacklisted_on_jenkins:
+  description: |
+    Some packages have been blacklisted not to be tested for build reproducibility on jenkins.debian.net,
+    either because their build hangs, spawns processes and doesnt kill them or because they use too much ressources.

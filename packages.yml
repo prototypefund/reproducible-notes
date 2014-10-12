@@ -39,22 +39,44 @@ openclipart:
     Build hangs at inkscape processing ./office/telephone/mobile_phone_01.svg
     Not sure if this is toolchain related or not
     Package has been blacklisted for now
+  issues:
+  - blacklisted_on_jenkins
 eigen3:
   version: 3.2.2-3
   comments: |
     Build end and fails but leaves a process called 'eigenvalues' running, which consumes all available cpu from all cores
     Package has been blacklisted for now.
+  issues:
+  - blacklisted_on_jenkins
+linux:
+  version: 3.16.5-1
+  comments: |
+    Probably uses to much space to build...
+    Package has been blacklisted for now.
+  issues:
+  - blacklisted_on_jenkins
+zurl:
+  version: 1.3.1-3
+  comments: |
+    Build hangs forever...
+    Package has been blacklisted for now.
+  issues:
+  - blacklisted_on_jenkins
 xmds2:
   version: 2.2.1+dfsg-1
   comments: |
     Build hangs forever...
     Package has been blacklisted for now.
+  issues:
+  - blacklisted_on_jenkins
 cups:
   version: 1.7.5-4
   comments: |
     Build hangs endlessly in the test suite
     Reproducible with plain sid toolchain on different systems
     Package has been blacklisted for now
+  issues:
+  - blacklisted_on_jenkins
 noblenote:
   version: 1.0.8-1
   issues:
