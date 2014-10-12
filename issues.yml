@@ -30,3 +30,7 @@ randomness_in_minimal_required_version_for_dependencies_when_no_symbols_are_used
     dpkg-shlibdeps does not always output the minimum dependency when a package
     does not use any symbols.
   url: https://bugs.debian.org/764721
+timestamps_in_dvi_generated_by_latex:
+  description: |
+    The creation date of the DVI file is the current time.
+  url: https://wiki.debian.org/ReproducibleBuilds/TimestampInDviGeneratedByLaTeX
