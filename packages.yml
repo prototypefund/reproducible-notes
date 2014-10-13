@@ -267,3 +267,8 @@ xracer:
   version: 0.96.9.1-7
   issues:
   - timestamps_generated_by_docbook_to_man
+openssl:
+  version: 1.0.1i-2
+  comments: |
+    There's at least a timestamp embedded in libcrypto coming from:
+    http://sources.debian.net/src/openssl/1.0.1i-2/crypto/Makefile/?hl=60#L60
