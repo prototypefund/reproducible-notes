@@ -39,3 +39,11 @@ blacklisted_on_jenkins:
   description: |
     Some packages have been blacklisted not to be tested for build reproducibility on jenkins.debian.net,
     either because their build hangs, spawns processes and doesnt kill them or because they use too much ressources.
+random_ordering_of_conffiles:
+  description: |
+    conffiles are listed in random order in control.tar.gz.
+    For packages which else build reproducible this can lead to randomly reproducible builds...
+randomly_reproducible:
+  description: |
+    Some packages sometimes build reproducible and sometimes not.
+    This can be caused by https://jenkins.debian.net/userContent/issues/random_ordering_of_conffiles_issue.html
