@@ -389,3 +389,8 @@ php-imagick:
   version: 3.2.0~rc1-1
   issues:
   - timestamps_in_php_registry_files
+salt:
+  version: 2014.1.13+ds-1
+  comments: |
+    `/usr/lib/python2.7/dist-packages/salt/_syspaths.py` contains
+    a timestamp.
