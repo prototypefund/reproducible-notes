@@ -39,3 +39,10 @@ blacklisted_on_jenkins:
   description: |
     Some packages have been blacklisted not to be tested for build reproducibility on jenkins.debian.net,
     either because their build hangs, spawns processes and doesnt kill them or because they use too much ressources.
+debbindiff_runs_forever:
+  description: |
+    Some packages cannot be analysed by debbindiff due to it running "forever".
+    Currently it's killed after 15m but we also tried an hour, didn't help.
+    To find affected packages:
+      grep -l "debbindiff was killed after running into timeout" *rbuild.log
+  url: https://bugs.debian.org/764131
