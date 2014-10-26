@@ -394,3 +394,23 @@ salt:
   comments: |
     `/usr/lib/python2.7/dist-packages/salt/_syspaths.py` contains
     a timestamp.
+litl:
+  version: 0.1.5+dfsg-1
+  issues:
+  - timestamps_in_documentation_generated_by_doxygen
+php-horde-lock:
+  version: 2.1.1-4
+  issues:
+  - timestamps_in_php_registry_files
+php-horde-role:
+  version: 1.0.1-7
+  issues:
+  - timestamps_in_php_registry_files
+gnome-terminal:
+  version: 3.14.1-1
+  issues:
+  - timestamps_generated_by_docbook_to_man
+php-horde-sessionhandler:
+  version: 2.2.4-4
+  issues:
+  - timestamps_in_php_registry_files
