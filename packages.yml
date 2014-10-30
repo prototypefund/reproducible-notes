@@ -3,7 +3,9 @@ ck:
   bugs:
   - 764827
   comments: |
-    Building it takes 12h each currently...
+    Building ck takes >12h each currently because of #764827... and actually the timeout doesnt kill it, so I'm blacklisting the package now.
+  issues:
+  - blacklisted_on_jenkins
 socat:
   version: 1.7.2.4-1
   issues:
