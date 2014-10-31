@@ -490,3 +490,27 @@ libindicate:
   version: 0.6.92-2
   issues:
   - timestamps_in_pe_binaries
+maven-javadoc-plugin:
+  version: 2.9.1-2
+  issues:
+  - timestamps_in_maven_pom_files
+libmtp:
+  version: 1.1.8-1
+  issues:
+  - timestamps_in_documentation_generated_by_doxygen
+maven-common-artifact-filters:
+  version: 1.4-1
+  issues:
+  - timestamps_in_maven_pom_files
+jdependency:
+  version: 0.7-1
+  issues:
+  - timestamps_in_maven_pom_files
+freehep-graphicsio-svg:
+  version: 2.1.1-3
+  issues:
+  - timestamps_in_maven_pom_files
+doxia-maven-plugin:
+  version: 1.1.4-2
+  issues:
+  - timestamps_in_maven_pom_files
