@@ -1069,3 +1069,67 @@ php-msgpack:
   version: 0.5.5-2
   issues:
   - timestamps_in_php_registry_files
+mysql-connector-net:
+  version: 6.4.3-2
+  issues:
+  - timestamps_in_pe_binaries
+xml-maven-plugin:
+  version: 1.0-2
+  issues:
+  - timestamps_in_maven_pom_files
+uima-as:
+  version: 2.3.1-3
+  issues:
+  - timestamps_in_maven_pom_files
+qct:
+  version: 1.7-3
+  issues:
+  - timestamps_in_source_generated_by_pyqt4_ui
+plexus-containers:
+  version: 1.0~beta3.0.7-7
+  issues:
+  - timestamps_in_maven_pom_files
+plexus-ant-factory:
+  version: 1.0~alpha2.1-3
+  issues:
+  - timestamps_in_maven_pom_files
+noggit:
+  version: 0.6-1
+  issues:
+  - timestamps_in_maven_pom_files
+libcommons-lang3-java:
+  version: 3.3.2-1
+  issues:
+  - timestamps_in_maven_pom_files
+jenkins-instance-identity:
+  version: 1.4-1
+  issues:
+  - timestamps_in_maven_pom_files
+jasypt:
+  version: 1.8-2
+  issues:
+  - timestamps_in_maven_pom_files
+hachoir-metadata:
+  version: 1.3.3-2
+  issues:
+  - timestamps_in_source_generated_by_pyqt4_ui
+freehep-util:
+  version: 2.0.2-5
+  issues:
+  - timestamps_in_maven_pom_files
+freehep-export:
+  version: 2.1.1-2
+  issues:
+  - timestamps_in_maven_pom_files
+freehep-graphicsio-ps:
+  version: 2.1.1-1
+  issues:
+  - timestamps_in_maven_pom_files
+cdtool:
+  version: 2.1.8-release-2
+  issues:
+  - timestamps_from_cpp_macros
+  comments: |
+    Culprits
+    https://sources.debian.net/src/cdtool/2.1.8-release-2/cdctrl.c/?hl=72#L72
+    https://sources.debian.net/src/cdtool/2.1.8-release-2/cdown.c/?hl=725#L725
