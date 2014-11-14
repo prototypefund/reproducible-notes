@@ -1133,3 +1133,16 @@ cdtool:
     Culprits
     https://sources.debian.net/src/cdtool/2.1.8-release-2/cdctrl.c/?hl=72#L72
     https://sources.debian.net/src/cdtool/2.1.8-release-2/cdown.c/?hl=725#L725
+linux:
+  version: 3.16.7-2
+  comments: |
+    (Partial findings.)
+
+    Build timestamps are currently stored in usr/initramfs_data.cpio.gz. The
+    infrastructure to have fixed timestamps is there:
+    http://sources.debian.net/src/linux/3.16.7-2/scripts/gen_initramfs_list.sh/?hl302:308#L302
+    But it will not work because KBUILD_BUILD_TIMESTAMP currently is something like
+    “Debian 3.16.7-2 (2014-11-06)”:
+    http://sources.debian.net/src/linux/3.16.7-2/debian/rules.real/?hl=42#L42
+    Unfortunately, this value is not parseable by `date` and `usr/gen_init_cpio`
+    does not get a `-t` parameter.
