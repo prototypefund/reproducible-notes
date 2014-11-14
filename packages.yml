@@ -813,9 +813,9 @@ varnish:
 modplugtools:
   version: 0.5.3-1.1
   comments: |
-  Uses __DATE__ and __TIME__:
-  https://sources.debian.net/src/modplugtools/0.5.3-1.1/mp123/modplug123.c/?hl=164,171#L164
-  Does not fail to build, so does not use dpkg-buildflags.
+    Uses __DATE__ and __TIME__:
+    https://sources.debian.net/src/modplugtools/0.5.3-1.1/mp123/modplug123.c/?hl=164,171#L164
+    Does not fail to build, so does not use dpkg-buildflags.
 phpunit-exporter:
   version: 1.0.0-1
   issues:
