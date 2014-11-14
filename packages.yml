@@ -954,6 +954,8 @@ php-horde-timezone:
   - timestamps_in_php_registry_files
 wavemon:
   version: 0.7.6-2
+  issues:
+  - timestamps_from_cpp_macros
   comments: |
     Include build timestamp in binary.
     https://sources.debian.net/src/wavemon/0.7.6-2/configure.ac/?hl=10#L10
@@ -968,5 +970,102 @@ annotation-indexer:
   - timestamps_in_maven_pom_files
 php-horde-dav:
   version: 1.1.0-1
+  issues:
+  - timestamps_in_php_registry_files
+banshee:
+  version: 2.6.2-2
+  issues:
+  - timestamps_in_pe_binaries
+open-cobol:
+  version: 1.1-1
+  issues:
+  - timestamps_from_cpp_macros
+  comments: |
+    Uses __DATE__ and __TIME__:
+    https://sources.debian.net/src/open-cobol/1.1-1/cobc/cobc.c/?hl=1733:1738#L1733
+    https://sources.debian.net/src/open-cobol/1.1-1/bin/cobcrun.c/?hl=40:45#L40
+    Does not use dpkg-buildflags.
+plexus-compiler:
+  version: 1.9.2-2
+  issues:
+  - timestamps_in_maven_pom_files
+php-horde-scribe:
+  version: 2.0.1-4
+  issues:
+  - timestamps_in_php_registry_files
+keepassx:
+  version: 0.4.3+dfsg-0.1
+  bugs:
+  - 763699
+vorbis-java:
+  version: 0.6-1
+  issues:
+  - timestamps_in_maven_pom_files
+casablanca:
+  version: 2.2.0-1
+  issues:
+  - timestamps_in_documentation_generated_by_doxygen
+mp4parser:
+  version: 1.0.4.2-1
+  issues:
+  - timestamps_in_maven_pom_files
+apertium-dbus:
+  version: 0.1-1.1
+  comments: |
+    Package installs Python bytecode.
+jlha-utils:
+  version: 0.1.6-4
+  issues:
+  - timestamps_generated_by_docbook_to_man
+moap:
+  version: 0.2.7-1
+  issues:
+  - timestamps_in_documentation_generated_by_epydoc
+plexus-resources:
+  version: 1.0~alpha7-1
+  issues:
+  - timestamps_in_maven_pom_files
+libcommons-discovery-java:
+  version: 0.5-3
+  issues:
+  - timestamps_in_maven_pom_files
+notify-sharp:
+  version: 0.4.0~r3032-7
+  issues:
+  - timestamps_in_pe_binaries
+plexus-cipher:
+  version: 1.5-4
+  issues:
+  - timestamps_in_pe_binaries
+php-zmq:
+  version: 1.1.2-1
+  issues:
+  - timestamps_in_php_registry_files
+pocketsphinx:
+  version: 0.8-5
+  issues:
+  - timestamps_in_documentation_generated_by_doxygen
+  - timestamps_from_cpp_macros
+  comments: |
+    Embeds timestamp in binary:
+    https://sources.debian.net/src/pocketsphinx/0.8-5/src/programs/continuous.c/?hl=371#L371
+php-horde-cssminify:
+  version: 1.0.2-1
+  issues:
+  - timestamps_in_php_registry_files
+sphinxtrain:
+  version: 1.0.8-4
+  issues:
+  - timestamps_from_cpp_macros
+  comments: |
+    Uses __DATE__ and __TIME__:
+    https://sources.debian.net/src/sphinxtrain/1.0.8-4/src/programs/bw/main.c/?hl=229#L229
+    https://sources.debian.net/src/sphinxtrain/1.0.8-4/src/programs/mllr_transform/main.c/?hl=342#L342
+php-horde-ldap:
+  version: 2.2.0-4
+  issues:
+  - timestamps_in_php_registry_files
+php-msgpack:
+  version: 0.5.5-2
   issues:
   - timestamps_in_php_registry_files

@@ -56,3 +56,7 @@ timestamps_in_pe_binaries:
   description: |
     PE binaries contain a timestamp and maybe randomness in an UUID.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampInPEBinaries
+timestamps_in_documentation_generated_by_epydoc:
+  description: |
+    Epydoc will add timestamps to the HTML file it produces.
+  url: https://wiki.debian.org/ReproducibleBuilds/TimestampInDocumentationGeneratedByEpydoc
