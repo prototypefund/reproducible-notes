@@ -1146,3 +1146,111 @@ linux:
     http://sources.debian.net/src/linux/3.16.7-2/debian/rules.real/?hl=42#L42
     Unfortunately, this value is not parseable by `date` and `usr/gen_init_cpio`
     does not get a `-t` parameter.
+libjaxen-java:
+  version: 1.1.6-1
+  issues:
+  - timestamps_in_maven_pom_files
+php-net-dnsbl:
+  version: 1.3.3-1
+  issues:
+  - timestamps_in_php_registry_files
+php-horde-compress:
+  version: 2.0.8-5
+  issues:
+  - timestamps_in_php_registry_files
+pymilter:
+  version: 1.0-1
+  issues:
+  - timestamps_in_documentation_generated_by_doxygen
+librabbitmq:
+  version: 0.5.2-2
+  issues:
+  - timestamps_generated_by_docbook_to_man
+sipxtapi:
+  version: 3.3.0~test17-1
+  issues:
+  - timestamps_in_documentation_generated_by_doxygen
+  comments: |
+    Also recording build time. See:
+    https://sources.debian.net/src/sipxtapi/3.3.0~test17-1/config/sipXpkgtop.mak/
+clementine:
+  version: 1.2.3+dfsg-2
+  issues:
+  - timestamps_generated_by_docbook_to_man
+dune-grid:
+  version: 2.3.1-1
+  issues:
+  - timestamps_in_documentation_generated_by_doxygen
+php-xml-rpc2:
+  version: 1.1.2-1
+  issues:
+  - timestamps_in_php_registry_files
+maven-embedder:
+  version: 2.0.4-3
+  issues:
+  - timestamps_in_maven_pom_files
+maven-antrun-plugin:
+  version: 1.7-1
+  issues:
+  - timestamps_in_maven_pom_files
+jenkins-executable-war:
+  version: 1.29-1
+  issues:
+  - timestamps_in_maven_pom_files
+tupi:
+  version: 0.2+git04-2
+  comments: |
+    dh_makeshlibs output is dependent on readdir order.
+php-horde-http:
+  version: 2.1.1-4b
+  issues:
+  - timestamps_in_php_registry_files
+php-horde-text-flowed:
+  version: 2.0.1-6
+  issues:
+  - timestamps_in_php_registry_files
+zeitgeist-sharp:
+  version: 0.8.0.0-5
+  issues:
+  - timestamps_in_pe_binaries
+clutter-imcontext:
+  version: 0.1.4-3
+  issues:
+  - timestamps_generated_by_docbook_to_man
+php-http-webdav-server:
+  version: 1.0.0RC6-2
+  issues:
+  - timestamps_in_php_registry_files
+gnome-osd:
+  version: 0.12.2-1.1
+  issues:
+  - timestamps_generated_by_docbook_to_man
+php-horde-lz4:
+  version: 1.0.7-2
+  issues:
+  - timestamps_in_php_registry_files
+php-horde-notification:
+  version: 2.0.1-6
+  issues:
+  - timestamps_in_php_registry_files
+php-horde-listheaders:
+  version: 1.1.5-4
+  issues:
+  - timestamps_in_php_registry_files
+alpine:
+  version: 2.11+dfsg1-3
+  comments: |
+    Build timestamp is written in alpine binary:
+    https://sources.debian.net/src/alpine/2.11%2Bdfsg1-3/alpine/Makefile.am/?hl=46:48#L46
+php-net-ldap2:
+  version: 2.0.12-1
+  issues:
+  - timestamps_in_php_registry_files
+acegi-security:
+  version: 1.0.7-3
+  issues:
+  - timestamps_in_maven_pom_files
+docky:
+  version: 2.2.0-2
+  issues:
+  - timestamps_in_pe_binaries
