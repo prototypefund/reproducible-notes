@@ -63,3 +63,13 @@ timestamps_in_documentation_generated_by_epydoc:
 timestamps_in_source_generated_by_pyqt4_ui:
   description: |
     PyQt4 UI code generator writes a timestamp to the source files it creates.
+random_order_in_egg_info_top_level_txt:
+  description: |
+    Python packages have components in `PACKAGE.egg-info/top_level.txt`
+    written in a random order.
+timestamps_in_documentation_generated_by_yard:
+  description: |
+    YARD writes timestamps in HTML files it produces.
+shlibs_order_varies:
+  description: |
+    dh_makeshlibs output is dependent on readdir order.
