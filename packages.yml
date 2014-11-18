@@ -1,3 +1,9 @@
+libsys-gamin-perl:
+  version: 0.1-2
+  comments: |
+    Single build killed after more than 34h... hung at test-suite...
+  issues:
+  - blacklisted_on_jenkins
 tbb:
   version: 4.2~20140122-3
   comments: |
