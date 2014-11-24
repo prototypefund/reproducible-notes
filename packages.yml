@@ -3400,3 +3400,44 @@ saxonhe:
   version: 9.5.1.1+dfsg-1
   issues:
   - timestamps_in_maven_pom_files
+python-debian:
+  version: 0.1.25
+  issues:
+  - random_order_in_egg_info_top_level_txt
+libcommons-fileupload-java:
+  version: 1.3.1-1
+  issues:
+  - timestamps_in_maven_pom_files
+libccss:
+  version: 0.5.0-4
+  issues:
+  - timestamps_generated_by_docbook_to_man
+amideco:
+  version: 0.31e-3.1
+  issues:
+  - timestamps_from_cpp_macros
+php-mime-type:
+  version: 1.3.1-1
+  issues:
+  - timestamps_in_php_registry_files
+libphonenumber:
+  version: 6.3~svn698-3
+  issues:
+  - timestamps_in_maven_pom_files
+birdfont:
+  version: 1.7-1
+  comments: |
+    Embed build time:
+    http://sources.debian.net/src/birdfont/1.7-1/scripts/configfile.py/?hl=28#L28
+dbus-sharp-glib:
+  version: 0.6.0-1
+  issues:
+  - timestamps_in_pe_binaries
+aconnectgui:
+  version: 0.9.0rc2-1-9
+  issues:
+  - timestamps_generated_by_docbook_to_man
+hugin:
+  version: 2014.0.0+dfsg-3
+  issues:
+  - shlibs_order_varies
