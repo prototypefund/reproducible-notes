@@ -3441,3 +3441,105 @@ hugin:
   version: 2014.0.0+dfsg-3
   issues:
   - shlibs_order_varies
+drbd-utils:
+  version: 8.9.2~rc1-2
+  comments: |
+    Embed build time, user, and hostname:
+    https://sources.debian.net/src/drbd-utils/8.9.2~rc1-2/user/shared/Makefile.in/?hl=86#L65
+python-repoze.who-plugins:
+  version: 20090913-2
+  issues:
+  - random_order_in_egg_info_top_level_txt
+php-horde-kolab-session:
+  version: 2.0.1-7
+  issues:
+  - timestamps_in_php_registry_files
+libasyncns:
+  version: 0.8-5
+  issues:
+  - timestamps_in_documentation_generated_by_doxygen
+maven-invoker:
+  version: 2.1.1-1
+  issues:
+  - timestamps_in_maven_pom_files
+libjtype-java:
+  version: 0.1.3-2
+  issues:
+  - timestamps_in_maven_pom_files
+dtd-parser:
+  version: 1.2~svn20110404-1
+  issues:
+  - timestamps_in_maven_pom_files
+magic:
+  version: 7.5.241-1
+  comments: |
+    Embed build time:
+    https://sources.debian.net/src/magic/7.5.241-1/tcltk/Makefile/?hl=11#L11
+php-mail:
+  version: 1.2.0-7
+  issues:
+  - timestamps_in_php_registry_files
+pd-hcs:
+  version: 0.1-2
+  issues:
+  - timestamps_from_cpp_macros
+php-services-weather:
+  version: 1.4.2-5
+  issues:
+  - timestamps_in_php_registry_files
+php-horde-elasticsearch:
+  version: 1.0.2-3
+  issues:
+  - timestamps_in_php_registry_files
+hpcc:
+  version: 1.4.1-3
+  issues:
+  - timestamps_from_cpp_macros
+cowbell:
+  version: 0.2.7.1-7
+  issues:
+  - timestamps_in_pe_binaries
+cairo-dock-plug-ins:
+  version: 3.4.0-1
+  issues:
+  - timestamps_in_pe_binaries
+ampsharp:
+  version: 2.0.4-2
+  issues:
+  - timestamps_in_pe_binaries
+bisho:
+  version: 0.27.2+git20111122.9e68ef3d-2
+  issues:
+  - timestamps_generated_by_docbook_to_man
+flashgot:
+  version: 1.5.6.7+dfsg-1
+  issues:
+  - xpi_pack_saves_extra_attributes_in_jar
+php-net-ipv6:
+  version: 1.2.2b2-3
+  issues:
+  - timestamps_in_php_registry_files
+php-dropbox:
+  version: 1.0.0-3
+  issues:
+  - timestamps_in_php_registry_files
+gnome-keyring-sharp:
+  version: 1.0.0-4
+  issues:
+  - timestamps_in_pe_binaries
+editorconfig-core:
+  version: 0.11.5-2
+  issues:
+  - timestamps_in_documentation_generated_by_doxygen
+php-mdb2-driver-pgsql:
+  version: 1.5.0b4-1
+  issues:
+  - timestamps_in_php_registry_files
+javatuples:
+  version: 1.2-1
+  issues:
+  - timestamps_in_maven_pom_files
+alsamixergui:
+  version: 0.9.0rc2-1-9.1
+  issues:
+  - timestamps_generated_by_docbook_to_man
