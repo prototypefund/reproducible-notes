@@ -3855,3 +3855,175 @@ python-coffin:
   version: 0.3.8-1
   issues:
   - random_order_in_egg_info_top_level_txt
+maven-filtering:
+  version: 1.1-1
+  issues:
+  - timestamps_in_maven_pom_files
+mayavi2:
+  verion: 4.3.1-3.1
+  comments: |
+    Contain .pyc files
+jackson-module-jaxb-annotations:
+  version: 2.4.2-1
+  issues:
+  - timestamps_in_maven_pom_files
+armory:
+  version: 0.92.3-1
+  issues:
+  - timestamps_in_source_generated_by_pyqt4_ui
+pycurl:
+  version: 7.19.5-3
+  issues:
+  - timestamps_from_cpp_macros
+eclipse-aether:
+  version: 0.9.0.M2-1
+  issues:
+  - timestamps_in_maven_pom_files
+opencsv:
+  version: 2.3-1
+  issues:
+  - timestamps_in_maven_pom_files
+commons-jci:
+  version: 1.1-2
+  issues:
+  - timestamps_in_maven_pom_files
+openmpi:
+  version: 1.6.5-9.2
+  issues:
+  - timestamps_from_cpp_macros
+bsaf:
+  version: 1.9-4
+  issues:
+  - timestamps_in_maven_pom_files
+ninix-aya:
+  version: 4.4-1
+  issues:
+  - timestamps_generated_by_docbook_to_man
+ripmime:
+  version: 1.4.0.10.debian.1-1
+  comments: |
+    Embed build timestamp, hostname and kernel version:
+    https://sources.debian.net/src/ripmime/1.4.0.10.debian.1-1/generate-buildcodes.sh/
+gnome-ppp:
+  version: 0.3.23-1.2
+  issues:
+  - timestamps_generated_by_docbook_to_man
+maven-dependency-tree:
+  version: 1.2-4
+  issues:
+  - timestamps_in_maven_pom_files
+php-horde-util:
+  version: 2.5.1-5
+  issues:
+  - timestamps_in_php_registry_files
+php-horde-stream-filter:
+  version: 2.0.2-4
+  issues:
+  - timestamps_in_php_registry_files
+felix-gogo-runtime:
+  version: 0.10.0-2
+  issues:
+  - timestamps_in_maven_pom_files
+pyinotify:
+  version: 0.9.4-1
+  issues:
+  - timestamps_in_documentation_generated_by_epydoc
+mozilla-noscript:
+  version: 2.6.9.3-1
+  issues:
+  - xpi_pack_saves_extra_attributes_in_jar
+libmusicbrainz3:
+  version: 3.0.2-2.1
+  issues:
+  - timestamps_in_documentation_generated_by_doxygen
+avahi-sharp:
+  version: 0.6.19-4.2
+  issues:
+  - timestamps_in_pe_binaries
+ifupdown:
+  version: 0.7.50
+  bugs:
+  - 762388
+pgbouncer:
+  version: 1.5.4-6
+  comments: |
+    Embed build timestamp, user and hostname:
+    https://sources.debian.net/src/pgbouncer/1.5.4-6/Makefile/?hl=79#L79
+maven-archiver:
+  version: 2.5-1
+  issues:
+  - timestamps_in_maven_pom_files
+portlet-api-2.0-spec:
+  version: 1.0-2
+  issues:
+  - timestamps_in_maven_pom_files
+freehep-graphicsio-java:
+  version: 2.1.1-1
+  issues:
+  - timestamps_in_maven_pom_files
+jcodings:
+  version: 1.0.11-2
+  issues:
+  - timestamps_in_maven_pom_files
+maven:
+  version: 3.0.5-1
+  issues:
+  - timestamps_in_maven_pom_files
+maven2:
+  version: 2.2.1-21
+  issues:
+  - timestamps_in_maven_pom_files
+robust-http-client:
+  version: 1.2-2
+  issues:
+  - timestamps_in_maven_pom_files
+maven-docck-plugin:
+  version: 1.0-4
+  issues:
+  - timestamps_in_maven_pom_files
+disruptor:
+  version: 3.3.0-2
+  issues:
+  - timestamps_in_maven_pom_files
+php-html-common:
+  version: 1.2.5-2
+  issues:
+  - timestamps_in_php_registry_files
+stressapptest:
+  version: 1.0.6-1
+  comments: |
+    Embed build timestamp, username and hostname:
+    https://sources.debian.net/src/stressapptest/1.0.6-1/configure.ac/?hl=98:100#L98
+clirr:
+  version: 0.6-5
+  issues:
+  - timestamps_in_maven_pom_files
+modello1.4:
+  version: 1.4.1-2
+  issues:
+  - timestamps_in_maven_pom_files
+tkgate:
+  version: 2.0~b10-4
+  issues:
+  - timestamps_from_cpp_macros
+owx:
+  version: 0~20110415-3.1
+  issues:
+  - timestamps_from_cpp_macros
+pngcrush:
+  version: 1.7.65-0.1
+  issues:
+  - timestamps_generated_by_docbook_to_man
+snake4:
+  version: 1.0.14-1
+  comments: |
+    Embed build timestamp and username:
+    https://sources.debian.net/src/snake4/1.0.14-1/Makefile/?hl=8:9,59:63#L8
+gshare:
+  version: 0.94-12
+  issues:
+  - timestamps_in_pe_binaries
+libkarma:
+  version: 0.1.2-2.3
+  issues:
+  - timestamps_in_pe_binaries
