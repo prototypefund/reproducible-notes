@@ -4027,3 +4027,122 @@ libkarma:
   version: 0.1.2-2.3
   issues:
   - timestamps_in_pe_binaries
+jaxb-api:
+  version: 2.2.9-1
+  issues:
+  - timestamps_in_maven_pom_files
+classworlds:
+  version: 1.1-final-5
+  issues:
+  - timestamps_in_maven_pom_files
+freehep-swing:
+  version: 2.0.3-3
+  issues:
+  - timestamps_in_maven_pom_files
+nicovideo-dl:
+  version: 0.0.20120212-2
+  issues:
+  - timestamps_generated_by_docbook_to_man
+lsof:
+  version: 4.86+dfsg-1
+  bugs:
+  - 762433
+roarplaylistd:
+  version: 0.1.9-1
+  comments: |
+    Embed build time:
+    http://codesearch.debian.net/search?q=package%3Aroarplaylistd+BUILD_STAMP
+localizer:
+  version: 1.13-2
+  issues:
+  - timestamps_in_maven_pom_files
+ncompress:
+  version: 4.2.4.4-9
+  comments: |
+    Embed build time:
+    https://sources.debian.net/src/ncompress/4.2.4.4-9/Makefile.def/?hl=41#L41
+mono-debugger-libs:
+  version: 0+20131201.3459502-1
+  issues:
+  - timestamps_in_pe_binaries
+tomboy:
+  version: 1.14.1-3
+  issues:
+  - timestamps_in_pe_binaries
+libxbean-java:
+  version: 4.0-2
+  issues:
+  - timestamps_in_maven_pom_files
+semweb:
+  version: 1.05+dfsg-5
+  issues:
+  - timestamps_in_pe_binaries
+php-horde-service-urlshortener:
+  version: 2.0.1-4
+  issues:
+  - timestamps_in_php_registry_files
+dfo:
+  version: 0.8+svn52-7
+  issues:
+  - timestamps_in_pe_binaries
+maven-install-plugin:
+  version: 2.4-1
+  issues:
+  - timestamps_in_maven_pom_files
+bareftp:
+  version: 0.3.9-1
+  issues:
+  - timestamps_in_pe_binaries
+xmlbeans-maven-plugin:
+  version: 2.3.3-3
+  issues:
+  - timestamps_in_maven_pom_files
+password-gorilla:
+  version: 1.5.3.7-1
+  issues:
+  - timestamps_generated_by_docbook_to_man
+  comments: |
+    Timestamps in PNG images.
+boo:
+  version: 0.9.5~git20110729.r1.202a430-2
+  issues:
+  - timestamps_in_pe_binaries
+tomboy-latex:
+  version: 0.5-4
+  issues:
+  - timestamps_in_pe_binaries
+maven-shared-io:
+  version: 1.1-4
+  issues:
+  - timestamps_in_maven_pom_files
+exifprobe:
+  version: 2.0.1-3
+  comments: |
+    Embed build time:
+    https://sources.debian.net/src/exifprobe/2.0.1-4/mkcomptime/
+welcome2l:
+  version: 3.04-25
+  comments: |
+    Embed build time, username, hostname:
+    https://sources.debian.net/src/welcome2l/3.04-25/Makefile/?hl=49:52#L49
+cov-core:
+  version: 1.14.0-1
+  issues:
+  - random_order_in_egg_info_top_level_txt
+plexus-interactivity-api:
+  version: 1.0-alpha-6-7
+  issues:
+  - timestamps_in_maven_pom_files
+libjuniversalchardet-java:
+  version: 1.0.3-1
+  issues:
+  - timestamps_in_maven_pom_files
+olsrd:
+  version: 0.6.6.2-1
+  comments: |
+    Embed build time, and hostname:
+    https://sources.debian.net/src/olsrd/0.6.6.2-1/Makefile/?hl92:93#L92
+php-horde-smtp:
+  version: 1.6.0-4
+  issues:
+  - timestamps_in_php_registry_files
