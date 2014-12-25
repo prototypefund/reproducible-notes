@@ -4164,7 +4164,7 @@ joda-convert:
   - timestamps_in_maven_pom_files
 litecoin:
   version: 0.8.7.4-1
-  comments:
+  comments: |
     Embed build time:
     http://sources.debian.net/src/litecoin/0.8.7.4-1/src/version.cpp/?hl=61#L61
     Contain timestamps in PNG file.
@@ -4186,6 +4186,6 @@ mono-fuse:
   - timestamps_in_pe_binaries
 pd-boids:
   version: 1.1.1-2
-  comments:
+  comments: |
     Embed build time:
     http://sources.debian.net/src/pd-boids/1.1.1-2/boids2d.c/?hl=180#L180
