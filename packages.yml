@@ -4146,3 +4146,46 @@ php-horde-smtp:
   version: 1.6.0-4
   issues:
   - timestamps_in_php_registry_files
+djangorestframework:
+  version: 2.4.3-2
+  issues:
+  - random_order_in_egg_info_top_level_txt
+jenkins-memory-monitor:
+  version: 1.8-1
+  issues:
+  - timestamps_in_maven_pom_files
+gsw:
+  version: 3.0.3-1
+  issues:
+  - random_order_in_egg_info_top_level_txt
+joda-convert:
+  version: 1.5-1
+  issues:
+  - timestamps_in_maven_pom_files
+litecoin:
+  version: 0.8.7.4-1
+  comments:
+    Embed build time:
+    http://sources.debian.net/src/litecoin/0.8.7.4-1/src/version.cpp/?hl=61#L61
+    Contain timestamps in PNG file.
+maven-stapler-plugin:
+  version: 1.17-1
+  issues:
+  - timestamps_in_maven_pom_files
+jsoup:
+  version: 1.8.1-1
+  issues:
+  - timestamps_in_maven_pom_files
+tortoisehg:
+  version: 3.1.1-1
+  issues:
+  - timestamps_in_source_generated_by_pyqt4_ui
+mono-fuse:
+  version: 0.4.2+dfsg-3
+  issues:
+  - timestamps_in_pe_binaries
+pd-boids:
+  version: 1.1.1-2
+  comments:
+    Embed build time:
+    http://sources.debian.net/src/pd-boids/1.1.1-2/boids2d.c/?hl=180#L180
