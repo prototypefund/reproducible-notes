@@ -4189,3 +4189,23 @@ pd-boids:
   comments: |
     Embed build time:
     http://sources.debian.net/src/pd-boids/1.1.1-2/boids2d.c/?hl=180#L180
+mvel:
+  version: 2.0.18-4
+  issues:
+  - timestamps_in_maven_pom_files
+pyacoustid:
+  version: 1.1.0-3
+  issues:
+  - random_order_in_egg_info_top_level_txt
+pysubnettree:
+  version: 0.23-1
+  issues:
+  - random_order_in_egg_info_top_level_txt
+libical:
+  version: 1.0-1.1
+  bugs:
+  - 773916
+lightproof:
+  version: 1.5+git20140515-1
+  bugs:
+  - 773919
