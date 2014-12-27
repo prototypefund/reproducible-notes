@@ -225,10 +225,6 @@ ecl:
   version: 13.5.1+dfsg2-4.2
   issues:
   - debbindiff_runs_forever
-elementary:
-  version: 1.8.5-2
-  issues:
-  - debbindiff_runs_forever
 freefoam:
   version: 0.1.0+dfsg+1-3
   issues:
@@ -248,43 +244,43 @@ lapack:
 phing:
   version: 2.8.2+dfsg-1
   issues:
-  - debbindiff_runs_forever
+  - timestamps_in_php_registry_files
 php-horde-data:
   version: 2.1.0-5
   issues:
-  - debbindiff_runs_forever
+  - timestamps_in_php_registry_files
 php-horde-feed:
   version: 2.0.2-4
   issues:
-  - debbindiff_runs_forever
+  - timestamps_in_php_registry_files
 php-horde-imsp:
   version: 2.0.5-2
   issues:
-  - debbindiff_runs_forever
+  - timestamps_in_php_registry_files
 php-horde-kolab-format:
   version: 2.0.5-4
   issues:
-  - debbindiff_runs_forever
+  - timestamps_in_php_registry_files
 php-horde-logintasks:
   version: 2.0.3-4
   issues:
-  - debbindiff_runs_forever
+  - timestamps_in_php_registry_files
 php-horde-perms:
   version: 2.1.2-4
   issues:
-  - debbindiff_runs_forever
+  - timestamps_in_php_registry_files
 php-horde-prefs:
   version: 2.7.0-3
   issues:
-  - debbindiff_runs_forever
+  - timestamps_in_php_registry_files
 php-horde-service-facebook:
   version: 2.0.6-2
   issues:
-  - debbindiff_runs_forever
+  - timestamps_in_php_registry_files
 phpunit-selenium:
   version: 1.3.3-1
   issues:
-  - debbindiff_runs_forever
+  - timestamps_in_php_registry_files
 pyqt5:
   version: 5.3.2+dfsg-3
   issues:
