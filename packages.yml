@@ -4475,3 +4475,40 @@ yahtzeesharp:
   version: 1.1-5
   issues:
   - timestamps_in_pe_binaries
+jenkins-trilead-ssh2:
+  version: 217-jenkins-7-1
+  issues:
+  - timestamps_in_maven_pom_files
+php-horde-javascriptminify:
+  version: 1.1.0-2
+  issues:
+  - timestamps_in_php_registry_files
+owasp-java-html-sanitizer:
+  version: 0.1+r88-1
+  issues:
+  - timestamps_in_maven_pom_files
+tiptop:
+  version: 2.2-2
+  comments: |
+    Embed build time and hostname:
+    http://sources.debian.net/src/tiptop/2.2-2/src/Makefile.in/?hl=50:53#L50
+    Not defining the constants should be enough:
+    http://sources.debian.net/src/tiptop/2.2-2/src/version.c/?hl=23:33#L23
+openhackware:
+  version: 0.4.1+git-20140423.c559da7c-2
+  comments: |
+    Embed build time:
+    https://codesearch.debian.net/results/package%3Aopenhackware%20BUILD_%28DATE|TIME%29
+why:
+  version: 2.34-2
+  comments: |
+    Embed build time:
+    https://sources.debian.net/src/why/2.34-2/version.sh/
+libandroid-json-org-java:
+  version: 20121204-20090211-1
+  issues:
+  - timestamps_in_maven_pom_files
+libhibernate-commons-annotations-java:
+  version: 3.2.0.Final-2
+  issues:
+  - timestamps_in_maven_pom_files
