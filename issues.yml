@@ -74,3 +74,8 @@ update_icons_order_varies:
   description: |
     dh_icons output is dependent on readdir order.
   url: https://bugs.debian.org/774102
+dh_fixmtimes_runs_before_dh_always_exclude:
+  description: |
+    When DH_ALWAYS_EXCLUDE is used, directorie's mtimes get modified
+    after dh_fixmtimes run. Resulting in unreproducible packages.
+  url: https://bugs.debian.org/759886#36
