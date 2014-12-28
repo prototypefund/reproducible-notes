@@ -4512,3 +4512,22 @@ libhibernate-commons-annotations-java:
   version: 3.2.0.Final-2
   issues:
   - timestamps_in_maven_pom_files
+fldigi:
+  version: 3.22.01-1
+  comments: |
+    Embed build time, username, and hostname:
+    http://sources.debian.net/src/fldigi/3.22.01-1/m4/build.m4/?hl=78:85#L78
+    http://sources.debian.net/src/fldigi/3.22.01-1/src/flarq-src/flarqenv.cxx/?hl=277#L277
+    http://sources.debian.net/src/fldigi/3.22.01-1/src/main.cxx/?hl=1319#L1319
+bcel:
+  version: 6.0~rc3-1
+  issues:
+  - timestamps_in_maven_pom_files
+kanatest:
+  version: 0.4.8-3
+  issues:
+  - timestamps_from_cpp_macros
+nant:
+  version: 0.92~rc1+dfsg-4
+  issues:
+  - timestamps_in_pe_binaries
