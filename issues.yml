@@ -79,3 +79,8 @@ dh_fixmtimes_runs_before_dh_always_exclude:
     When DH_ALWAYS_EXCLUDE is used, directorie's mtimes get modified
     after dh_fixmtimes run. Resulting in unreproducible packages.
   url: https://bugs.debian.org/759886#36
+fontforge_reset_modification_time:
+  description: |
+    When a fontforge script is used, if the font loaded is modified
+    in any way, then the font modification time is set to the current
+    time.

@@ -4535,3 +4535,86 @@ r-cran-gbm:
   version: 2.1-1
   issues:
   - dh_fixmtimes_runs_before_dh_always_exclude
+plexus-classworlds2:
+  version: 2.5.2-1
+  issues:
+  - timestamps_in_maven_pom_files
+https-finder:
+  version: 091-1
+  issues:
+  - xpi_pack_saves_extra_attributes_in_jar
+r-cran-ncdf4:
+  version: 1.13-1
+  issues:
+  - dh_fixmtimes_runs_before_dh_always_exclude
+subliminal:
+  version: 0.7.4-1
+  bugs:
+  - 773381
+fonts-arphic-bkai00mp:
+  version: 2.10-13
+  issues:
+  - fontforge_reset_modification_time
+fonts-prociono:
+  version: 2.3-3
+  issues:
+  - fontforge_reset_modification_time
+  comments: |
+    Uses sortsmill-tools.
+ttf-goudybookletter:
+  version: 2010.07.03-1
+  issues:
+  - fontforge_reset_modification_time
+  comments: |
+    fontforge scripts:
+    https://sources.debian.net/src/ttf-goudybookletter/2010.07.03-1/debian/scripts/sfd2otf.ff/
+    https://sources.debian.net/src/ttf-goudybookletter/2010.07.03-1/debian/scripts/sfd2ttf.ff/
+ttf-atarismall:
+  version: 2.1-4
+  issues:
+  - fontforge_reset_modification_time
+  comments: |
+    fontforge script:
+    https://sources.debian.net/src/ttf-atarismall/2.1-4/debian/scripts/ConvertFont.ff/
+fonts-pecita:
+  version: 4.3-1
+  issues:
+  - fontforge_reset_modification_time
+  comments: |
+    fontforge script:
+    https://sources.debian.net/src/fonts-pecita/4.3-1/
+fonts-ocr-a:
+  version: 1.0-6
+  issues:
+  - fontforge_reset_modification_time
+  comments: |
+    fontforge script:
+    https://sources.debian.net/src/fonts-ocr-a/1.0-6/debian/scripts/ConvertFont.ff/
+fonts-junicode:
+  version: 0.7.8-2
+  issues:
+  - fontforge_reset_modification_time
+  comments: |
+    Python script using fontforge module:
+    https://sources.debian.net/src/fonts-junicode/0.7.8-2/util/simplegen.py/
+fonts-fantasque-sans:
+  version: 1.6.4~dfsg-1
+  issues:
+  - fontforge_reset_modification_time
+  comments: |
+    Python script using fontforge module (embeded in a shell script, yay):
+    https://sources.debian.net/src/fonts-fantasque-sans/1.6.4~dfsg-1/validate-generate.sh/
+fonts-ebgaramond:
+  version: 0.015+git20130628-3
+  issues:
+  - fontforge_reset_modification_time
+  comments: |
+    Python script using fontforge module:
+    https://sources.debian.net/src/fonts-ebgaramond/0.015%2Bgit20130628-3/tools/makefont.py/
+fonts-arphic-bsmi00lp:
+  version: 2.10-14
+  issues:
+  - fontforge_reset_modification_time
+  comments: |
+    fontforge script:
+    https://sources.debian.net/src/fonts-arphic-bsmi00lp/2.10-14/fix-0uFE4F.pe/
