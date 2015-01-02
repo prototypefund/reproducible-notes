@@ -85,3 +85,12 @@ fontforge_reset_modification_time:
     in any way, then the font modification time is set to the current
     time.
   url: https://bugs.debian.org/774274
+not_using_dh_builddeb:
+  description: |
+    We currently adjust the file mtimes in dh_builddeb. Packages which
+    calls `dpkg --build` directly should have a prior call to:
+    `BUILD_DATE := $(shell dpkg-parsechangelog | sed -n -e 's/^Date: //p')`
+    and
+    `find debian/tmp -depth -newermt '$(BUILD_DATE)' -print0 | \
+		xargs -0r touch --no-dereference --date='$(BUILD_DATE)'`
+    Another option is to convert the build system to `dh`.

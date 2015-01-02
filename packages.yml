@@ -2805,6 +2805,8 @@ perl:
   version: 5.20.1-2
   issues:
   - timestamps_from_cpp_macros
+  bugs:
+  - 774422
 libav:
   version: 6:11-2
   issues:
@@ -4651,3 +4653,37 @@ gnupg:
   version: 1.4.18-6
   issues:
   - timestamps_in_pe_binaries
+libfakekey:
+  version: 0.1-8.1
+  issues:
+  - timestamps_in_documentation_generated_by_doxygen
+debhelper:
+  version: 9.20150101
+  comments: |
+    debhelper is self-hosted. So until our “build reproducibility” patches
+    makes there way in unstable, it will not build reproducibly.
+netxx:
+  version: 0.3.2-2
+  comments: |
+    Embed build time:
+    https://sources.debian.net/src/netxx/0.3.2-2/tools/genconfig/?hl=59,131#L59
+librcc:
+  version: 0.2.12-0.1
+  issues:
+  - timestamps_in_documentation_generated_by_doxygen
+liblip:
+  version: 2.0.0-1.2
+  issues:
+  - not_using_dh_builddeb
+t-prot:
+  version: 3.3-1
+  issues:
+  - not_using_dh_builddeb
+gettext:
+  version: 0.19.3-2
+  issues:
+  - not_using_dh_builddeb
+base-files:
+  version: 8
+  issues:
+  - not_using_dh_builddeb
