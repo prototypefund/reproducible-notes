@@ -4753,3 +4753,62 @@ tar:
   version: 1.27.1-2
   bugs:
   - 774463
+cuyo:
+  version: 2.0.0brl1-3
+  issues:
+  - timestamps_in_gzip_headers
+xuxen-eu-spell:
+  version: 0.4.20081029-9
+  issues:
+  - timestamps_in_gzip_headers
+rockdodger:
+  version: 1.0.0-1
+  issues:
+  - not_using_dh_builddeb
+abook:
+  version: 0.6.0~pre2-3
+  issues:
+  - not_using_dh_builddeb
+  - timestamps_in_gzip_headers
+vpb-driver:
+  version: 4.2.58-1
+  issues:
+  - timestamps_in_documentation_generated_by_doxygen
+  comments: |
+    Build time gets captured when creating the source tarball. File mtimes
+    need to be fixed manually.
+connect-proxy:
+  version: 1.101-1
+  issues:
+  - timestamps_generated_by_docbook_to_man
+tinydyndns:
+  version: 0.4.2.debian1-1
+  issues:
+  - timestamps_in_gzip_headers
+  - not_using_dh_builddeb
+gerbv:
+  version: 2.6.0-1
+  comments: |
+    Embed build time:
+    http://sources.debian.net/src/gerbv/2.6.0-1/src/callbacks.c/?hl=1541#L1541
+debian-builder:
+  version: 1.8
+  issues:
+  - timestamps_in_gzip_headers
+opendnssec:
+  version: 1:1.4.6-5
+  issues:
+  - timestamps_in_documentation_generated_by_doxygen
+ssmtp:
+  version: 2.64-8
+  issues:
+  - timestamps_in_gzip_headers
+  - not_using_dh_builddeb
+chuck:
+  version: 1.2.0.8.dfsg-1.4
+  issues:
+  - timestamps_generated_by_docbook_to_man
+pcp:
+  version: 3.10.1
+  issues:
+  - timestamps_in_gzip_headers

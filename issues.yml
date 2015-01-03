@@ -94,3 +94,7 @@ not_using_dh_builddeb:
     `find debian/tmp -depth -newermt '$(BUILD_DATE)' -print0 | \
          xargs -0r touch --no-dereference --date='$(BUILD_DATE)'`
     Another option is to convert the build system to `dh`.
+timestamps_in_gzip_headers:
+  description: |
+    gzip stores a timestamp by default in its header.
+  url: https://wiki.debian.org/ReproducibleBuilds/TimestampInGzipHeaders
