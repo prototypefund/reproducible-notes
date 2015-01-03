@@ -4687,6 +4687,8 @@ base-files:
   version: 8
   issues:
   - not_using_dh_builddeb
+  bugs:
+  - 774498
 dash:
   version: 0.5.8-2
   bugs:
@@ -4816,3 +4818,45 @@ ncurses:
   version: 5.9+20140913-1
   bugs:
   - 774496
+dvbsnoop:
+  version: 1.4.50-5
+  issues:
+  - timestamps_from_cpp_macros
+debianutils:
+  version: 4.4
+  bugs:
+  - 774504
+fish:
+  version: 2.1.1.dfsg-2
+  issues:
+  - timestamps_in_documentation_generated_by_doxygen
+xtrlock:
+  version: 2.6
+  issues:
+  - timestamps_in_gzip_headers
+  - not_using_dh_builddeb
+cyclades-serial-client:
+  version: 0.92
+  comments: |
+    Embed build time:
+    https://sources.debian.net/src/cyclades-serial-client/0.92/configure.in/?hl=6:7#L6
+    http://sources.debian.net/src/cyclades-serial-client/0.92/inc/misc.h.in/?hl=26#L26
+    http://sources.debian.net/src/cyclades-serial-client/0.92/cyclades-ser-cli.c/?hl=46#L46
+pxlib:
+  version: 0.6.5-1
+  issues:
+  - timestamps_in_gzip_headers
+  - not_using_dh_builddeb
+tcpwatch-httpproxy:
+  version: 1.3b-3
+  issues:
+  - timestamps_in_gzip_headers
+luakit:
+  version: 2012.09.13-r1-3
+  issues:
+  - timestamps_in_gzip_headers
+  - not_using_dh_builddeb
+diploma:
+  version: 1.2.11
+  issues:
+  - timestamps_in_gzip_headers
