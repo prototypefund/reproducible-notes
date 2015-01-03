@@ -4860,3 +4860,45 @@ diploma:
   version: 1.2.11
   issues:
   - timestamps_in_gzip_headers
+authbind:
+  version: 2.1.1
+  issues:
+  - not_using_dh_builddeb
+xfonts-mplus:
+  version: 2.2.4-1
+  issues:
+  - timestamps_in_gzip_headers
+spe:
+  version: 0.8.4.h-3.1
+  issues:
+  - timestamps_generated_by_docbook_to_man
+vpim:
+  version: 0.695-1.1
+  issues:
+  - timestamps_in_gzip_headers
+  - not_using_dh_builddeb
+xvier:
+  version: 1.0-7.5
+  issues:
+  - timestamps_in_gzip_headers
+  - not_using_dh_builddeb
+sauce:
+  version: 0.9.0+nmu3
+  issues:
+  - timestamps_in_gzip_headers
+  - not_using_dh_builddeb
+signify:
+  version: 1.14-1
+  issues:
+  - timestamps_in_gzip_headers
+  - not_using_dh_builddeb
+zorp:
+  version: 3.9.5-4
+  comments: |
+    Embed build time:
+    http://sources.debian.net/src/zorp/3.9.5-4/zorp/main.c/?hl=203#L203
+ccze:
+  version: 0.2.1-2
+  issues:
+  - timestamps_in_gzip_headers
+  - not_using_dh_builddeb
