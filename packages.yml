@@ -2564,7 +2564,7 @@ mysql-connector-net:
 nacl:
   version: 20110221-4.1
   bugs:
-  - 774581
+    - 774581
 nagios-nrpe:
   version: 2.15-1
   comments: |
@@ -4366,7 +4366,11 @@ springlobby:
   issues:
     - timestamps_from_cpp_macros
 squid:
-  version: 2.7.STABLE9-4.1 - timestamps_in_gzip_headers - not_using_dh_builddeb - timestamps_from_cpp_macros
+  version: 2.7.STABLE9-4.1
+  issues:
+    - timestamps_in_gzip_headers
+    - not_using_dh_builddeb
+    - timestamps_from_cpp_macros
 squid3:
   version: 3.4.8-2
   issues:
