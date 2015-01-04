@@ -509,6 +509,10 @@ coinor-symphony:
   version: 5.6.1-1
   issues:
     - timestamps_from_cpp_macros
+coldfire:
+  version: 0.2.2-2.3
+  issues:
+    - timestamps_generated_by_docbook_to_man
 commons-beanutils:
   version: 1.9.2-1
   issues:
@@ -907,6 +911,10 @@ f-irc:
     - timestamps_from_cpp_macros
 faad2:
   version: 2.7-8
+  issues:
+    - timestamps_from_cpp_macros
+fakepop:
+  version: 11
   issues:
     - timestamps_from_cpp_macros
 fatresize:
@@ -1561,6 +1569,10 @@ ircd-ratbox:
     https://sources.debian.net/src/ircd-ratbox/3.0.8.dfsg-3/libratbox/src/version.c.SH/
     https://sources.debian.net/src/ircd-ratbox/3.0.8.dfsg-3/src/version.c.SH/
     
+irda-utils:
+  version: 0.9.18-12
+  issues:
+    - timestamps_in_gzip_headers
 jaaa:
   version: 0.8.4-1
   issues:
@@ -1900,6 +1912,11 @@ libical:
   version: 1.0-1.1
   bugs:
     - 773916
+libident:
+  version: 0.22-3
+  issues:
+    - timestamps_in_gzip_headers
+    - not_using_dh_builddeb
 libindicate:
   version: 0.6.92-2
   issues:
@@ -2183,6 +2200,12 @@ log4shib:
   version: 1.0.8-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+logapp:
+  version: 0.15-1
+  issues:
+    - timestamps_in_gzip_headers
+    - not_using_dh_builddeb
+    - timestamps_from_cpp_macros
 longomatch:
   version: 0.16.8+git20110626-2
   issues:
@@ -2621,6 +2644,10 @@ ncurses:
   version: 5.9+20140913-1
   bugs:
     - 774496
+ndesk-dbus-glib:
+  version: 0.4.1-4
+  issues:
+    - timestamps_in_pe_binaries
 ndisc6:
   version: 1.0.1-1
   issues:
@@ -2818,6 +2845,10 @@ openrpt:
   version: 3.3.7-1
   issues:
     - timestamps_from_cpp_macros
+openscenegraph:
+  version: 3.2.1-5
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 opensm:
   version: 3.3.18-1
   issues:
@@ -2848,6 +2879,11 @@ openvswitch:
   version: 2.3.0+git20140819-2
   issues:
     - timestamps_from_cpp_macros
+original-awk:
+  version: 2012-12-20-2
+  issues:
+    - timestamps_in_gzip_headers
+    - not_using_dh_builddeb
 osmo:
   version: 0.2.12-1
   issues:
@@ -3863,6 +3899,10 @@ postbooks-updater:
   version: 2.2.5-8
   issues:
     - timestamps_from_cpp_macros
+postfix:
+  version: 2.11.3-1
+  issues:
+    - timestamps_in_gzip_headers
 powertop:
   version: 2.6.1-1
   issues:
@@ -4181,6 +4221,10 @@ rungetty:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+rxvt-unicode:
+  version: 9.20-1
+  issues:
+    - timestamps_in_gzip_headers
 sa-exim:
   version: 4.2.1-14
   comments: |
@@ -4307,6 +4351,11 @@ sludge:
   version: 2.2.1-1
   issues:
     - timestamps_from_cpp_macros
+smartlist:
+  version: 3.15-23
+  issues:
+    - timestamps_in_gzip_headers
+    - not_using_dh_builddeb
 snake4:
   version: 1.0.14-1
   comments: |
@@ -4379,6 +4428,8 @@ springlobby:
   version: 0.201-1
   issues:
     - timestamps_from_cpp_macros
+squid:
+  version: 2.7.STABLE9-4.1 - timestamps_in_gzip_headers - not_using_dh_builddeb - timestamps_from_cpp_macros
 squid3:
   version: 3.4.8-2
   issues:
@@ -4620,6 +4671,13 @@ travis:
   version: 140902-1
   issues:
     - timestamps_from_cpp_macros
+trigger-rally:
+  version: 0.6.1-0.1
+  comments: |
+    Unidentified variation in main binary.
+    
+  issues:
+    - timestamps_generated_by_docbook_to_man
 tsdecrypt:
   version: 10.0-2
   comments: |
@@ -4659,6 +4717,12 @@ tvoe:
   version: 0.1-1
   issues:
     - timestamps_from_cpp_macros
+tworld:
+  version: 1.3.0-6 - timestamps_in_gzip_headers - not_using_dh_builddeb
+  comments: |
+    Embed build time:
+    https://sources.debian.net/src/tworld/1.3.0-6/Makefile.in/?hl=73:74#L73
+    
 uanytun:
   version: 0.3.5-1
   comments: |
@@ -4898,6 +4962,11 @@ xbase64:
   version: 3.1.2-4
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+xblast-tnt-musics:
+  version: 20050106-2
+  issues:
+    - timestamps_in_gzip_headers
+    - not_using_dh_builddeb
 xbmc:
   version: 2:13.2+dfsg1-4
   issues:
@@ -4911,6 +4980,10 @@ xcfa:
   version: 4.3.8-1
   issues:
     - timestamps_from_cpp_macros
+xd:
+  version: 3.22.09-2
+  issues:
+    - timestamps_in_gzip_headers
 xfonts-mplus:
   version: 2.2.4-1
   issues:
