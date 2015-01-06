@@ -1403,6 +1403,10 @@ havp:
   version: 0.92a-3
   issues:
     - timestamps_generated_by_docbook_to_man
+hedgewars:
+  version: 0.9.21-3
+  bugs:
+    - 774633
 herbstluftwm:
   version: 0.6.2-1
   issues:
@@ -2025,6 +2029,12 @@ libuninum:
   version: 2.7-1.1
   issues:
     - timestamps_from_cpp_macros
+libupnp6-doc:
+  version: 1:1.6.19+git20141001-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+  bugs:
+    - 774518
 libvdpau:
   version: 0.8-3
   issues:
