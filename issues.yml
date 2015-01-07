@@ -99,3 +99,12 @@ timestamps_in_gzip_headers:
   description: |
     gzip stores a timestamp by default in its header.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampInGzipHeaders
+timestamps_in_png:
+  description: |
+    PNG can capture build time with the tIME chunk or custom keywords.
+  url: https://wiki.debian.org/ReproducibleBuilds/TimestampInPNG
+timestamps_in_static_libraries:
+  description: |
+    .a files are ar archives. By default, they will contain a timestamp for
+    each member (.o) and for the function index. 
+  url: https://wiki.debian.org/ReproducibleBuilds/TimestampInStaticLibraries
