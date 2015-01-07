@@ -108,3 +108,6 @@ timestamps_in_static_libraries:
     .a files are ar archives. By default, they will contain a timestamp for
     each member (.o) and for the function index. 
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampInStaticLibraries
+timestamps_in_tarball:
+  description: |
+    Tarball capture build time in mtime of its members.

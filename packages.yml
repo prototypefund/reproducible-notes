@@ -47,6 +47,10 @@ aether:
   version: 1.13.1-2
   issues:
     - timestamps_in_maven_pom_files
+aewm++-goodies:
+  version: 1.0-9
+  issues:
+    - timestamps_in_gzip_headers
 aghermann:
   version: 1.0.2-1
   issues:
@@ -174,6 +178,10 @@ autodocksuite:
   version: 4.2.6-2
   issues:
     - timestamps_from_cpp_macros
+autorun4linuxcd:
+  version: 0.13+nmu1
+  issues:
+    - timestamps_in_pe_binaries
 avahi-sharp:
   version: 0.6.19-4.2
   issues:
@@ -723,10 +731,20 @@ dfo:
   version: 0.8+svn52-7
   issues:
     - timestamps_in_pe_binaries
+dh-make-php:
+  version: 0.4.0
+  issues:
+    - timestamps_in_gzip_headers
 dia:
   version: 0.97.3-1
   issues:
     - timestamps_from_cpp_macros
+dietlibc:
+  version: 0.33~cvs20120325-6
+  issues:
+    - not_using_dh_builddeb
+    - timestamps_in_static_libraries
+    - timestamps_in_gzip_headers
 digikam:
   version: 4:4.4.0-1
   issues:
@@ -789,6 +807,11 @@ drbd-utils:
   comments: |
     Embed build time, user, and hostname:
     https://sources.debian.net/src/drbd-utils/8.9.2~rc1-2/user/shared/Makefile.in/?hl=86#L65
+dropbear:
+  version: 2014.65-1
+  issues:
+    - timestamps_in_gzip_headers
+    - not_using_dh_builddeb
 drumkv1:
   version: 0.5.1-1
   issues:
@@ -867,6 +890,11 @@ elfutils:
   version: 0.159-4
   issues:
     - timestamps_from_cpp_macros
+elida:
+  version: 0.4+nmu1
+  issues:
+    - not_using_dh_builddeb
+    - timestamps_in_gzip_headers
 elinks:
   version: 0.12~pre6-5
   issues:
@@ -887,6 +915,15 @@ ensymble:
   version: 0.29-1
   issues:
     - timestamps_generated_by_docbook_to_man
+eo-spell:
+  version: 2.1.2000.02.25-49
+  issues:
+    - timestamps_in_gzip_headers
+epic4:
+  version: 1:2.10.5-2
+  comments: |
+    Embed build time, username, and hostname:
+    http://sources.debian.net/src/epic4/1:2.10.5-2/source/info.c.sh.in/
 eureka:
   version: 1.00-3
   issues:
@@ -1282,6 +1319,10 @@ gle-graphics:
   version: 4.2.4c-6
   issues:
     - timestamps_from_cpp_macros
+glob2:
+  version: 0.9.4.4-2.3
+  issues:
+    - timestamps_from_cpp_macros
 glusterfs:
   version: 3.5.2-1
   issues:
@@ -1366,6 +1407,10 @@ gobby-infinote:
   version: 0.5.0-4
   issues:
     - update_icons_order_varies
+gogoc:
+  version: 1:1.2-5
+  issues:
+    - timestamps_from_cpp_macros
 goldencheetah:
   version: 3.1.0-1
   issues:
@@ -1431,6 +1476,10 @@ gudev-sharp-1.0:
   version: 0.1-3
   issues:
     - timestamps_in_pe_binaries
+guncat:
+  version: 0.92.00-3
+  issues:
+    - timestamps_in_gzip_headers
 gvpe:
   version: 2.25-2
   issues:
@@ -1593,6 +1642,10 @@ ircd-ratbox:
     https://sources.debian.net/src/ircd-ratbox/3.0.8.dfsg-3/src/version.c.SH/
 irda-utils:
   version: 0.9.18-12
+  issues:
+    - timestamps_in_gzip_headers
+ispell-gl:
+  version: 0.5-40
   issues:
     - timestamps_in_gzip_headers
 jaaa:
@@ -1923,6 +1976,10 @@ libffado:
   version: 2.2.1-2
   issues:
     - timestamps_from_cpp_macros
+libflickrnet:
+  version: 1:2.2.0-4
+  issues:
+    - timestamps_in_pe_binaries
 libgettext-commons-java:
   version: 0.9.6-2
   issues:
@@ -1992,6 +2049,10 @@ libmimic:
   version: 1.0.4-2.2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libmoe:
+  version: 1.5.8-1
+  issues:
+    - timestamps_in_gzip_headers
 libmtp:
   version: 1.1.8-1
   issues:
@@ -2682,6 +2743,10 @@ ncurses:
   version: 5.9+20140913-1
   bugs:
     - 774496
+ndesk-dbus:
+  version: 0.6.0-6
+  issues:
+    - timestamps_in_pe_binaries
 ndesk-dbus-glib:
   version: 0.4.1-4
   issues:
@@ -2694,6 +2759,16 @@ nedit:
   version: 1:5.6~cvs20081118-9
   issues:
     - timestamps_from_cpp_macros
+netcfg:
+  version: 1.127
+  comments: |
+    Embed build time:
+    http://sources.debian.net/src/netcfg/1.127/Makefile/?hl=2,10#L2
+netmaze:
+  version: 0.81+jpg0.82-14.1
+  issues:
+    - not_using_dh_builddeb
+    - timestamps_in_gzip_headers
 netrw:
   version: 1.3.2-2
   comments: |
@@ -2729,10 +2804,20 @@ ninja-build:
   version: 1.5.1-0.1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+nitpic:
+  version: 0.1-15
+  issues:
+    - not_using_dh_builddeb
+    - timestamps_in_gzip_headers
 nkf:
   version: 2.13-4
   issues:
     - timestamps_from_cpp_macros
+nmh:
+  version: 1.6-2
+  comments: |
+    Embed build time, and hostname:
+    http://sources.debian.net/src/nmh/1.5-release-6/config/version.sh/
 noblenote:
   version: 1.0.8-1
   issues:
@@ -2761,6 +2846,11 @@ nss:
   version: 2:3.17.2-1
   issues:
     - timestamps_from_cpp_macros
+ntlmaps:
+  version: 0.9.9.0.1-11.3
+  comments: |
+    Random order of Python files in
+    `/usr/share/python-support/ntlmaps.private`.
 ntop:
   version: 3:5.0.1+dfsg1-2.1
   issues:
@@ -4222,6 +4312,10 @@ retext:
   version: 5.0.1-1
   issues:
     - timestamps_in_png
+rfdump:
+  version: 1.6-3
+  issues:
+    - timestamps_generated_by_docbook_to_man
 ripmime:
   version: 1.4.0.10.debian.1-1
   comments: |
@@ -4244,6 +4338,15 @@ root-system:
   version: 5.34.19+dfsg-1.1
   issues:
     - timestamps_from_cpp_macros
+routeplanner:
+  version: 0.19+nmu1
+  issues:
+    - timestamps_generated_by_docbook_to_man
+rsync:
+  version: 3.1.1-2
+  issues:
+    - timestamps_in_gzip_headers
+    - not_using_dh_builddeb
 rt-tests:
   version: 0.89-1
   issues:
@@ -4284,6 +4387,10 @@ saxonhe:
   version: 9.5.1.1+dfsg-1
   issues:
     - timestamps_in_maven_pom_files
+schism:
+  version: 2:0+20110101-1
+  issues:
+    - timestamps_from_cpp_macros
 scilab:
   version: 5.5.1-4
   issues:
@@ -4328,6 +4435,10 @@ sgf2dg:
   version: 4.026-10
   issues:
     - timestamps_in_dvi_generated_by_latex
+sgml2x:
+  version: 1.0.0-11.3
+  issues:
+    - timestamps_generated_by_docbook_to_man
 shelxle:
   version: 1.0.677-1
   issues:
@@ -4593,6 +4704,11 @@ testdisk:
   version: 6.14-3
   issues:
     - timestamps_from_cpp_macros
+tf:
+  version: 1:4.0s1-17
+  issues:
+    - timestamps_in_gzip_headers
+    - not_using_dh_builddeb
 theseus:
   version: 3.0.0-1
   issues:
@@ -4677,6 +4793,10 @@ tortoisehg:
   version: 3.1.1-1
   issues:
     - timestamps_in_source_generated_by_pyqt4_ui
+tp-smapi:
+  version: 0.41-1
+  issues:
+    - timestamps_in_tarball
 traceroute:
   version: 1:2.0.20-2
   issues:
@@ -4737,6 +4857,11 @@ tvoe:
   version: 0.1-1
   issues:
     - timestamps_from_cpp_macros
+twoftpd:
+  version: 1.42-1
+  issues:
+    - not_using_dh_builddeb
+    - timestamps_in_gzip_headers
 tworld:
   version: 1.3.0-6 - timestamps_in_gzip_headers - not_using_dh_builddeb
   comments: |
@@ -4931,6 +5056,11 @@ wikipediafs:
   version: 0.4-6
   issues:
     - timestamps_generated_by_docbook_to_man
+wily:
+  version: 0.13.41-7.2
+  issues:
+    - timestamps_in_gzip_headers
+    - timestamps_in_tarball
 wise:
   version: 2.4.1-17
   issues:
@@ -4993,8 +5123,28 @@ xd:
   version: 3.22.09-2
   issues:
     - timestamps_in_gzip_headers
+xfonts-100dpi:
+  version: 1:1.0.3
+  issues:
+    - timestamps_in_gzip_headers
+xfonts-75dpi:
+  version: 1:1.0.3
+  issues:
+    - timestamps_in_gzip_headers
+xfonts-base:
+  version: 1:1.0.3
+  issues:
+    - timestamps_in_gzip_headers
+xfonts-kappa20:
+  version: 0.396-3
+  issues:
+    - timestamps_in_gzip_headers
 xfonts-mplus:
   version: 2.2.4-1
+  issues:
+    - timestamps_in_gzip_headers
+xfonts-nexus:
+  version: 0.0.2-16
   issues:
     - timestamps_in_gzip_headers
 xmds2:
