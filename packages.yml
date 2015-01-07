@@ -386,6 +386,9 @@ cd-hit:
   version: 4.6.1-2012-08-27-2
   issues:
     - timestamps_from_cpp_macros
+cdbs:
+  bugs:
+    - 764478
 cdo:
   version: 1.6.5+dfsg.1-1
   issues:
@@ -681,6 +684,9 @@ debhelper:
   comments: |
     debhelper is self-hosted. So until our “build reproducibility” patches
     makes there way in unstable, it will not build reproducibly.
+  bugs:
+    - 759886
+    - 759895
 debian-builder:
   version: 1.8
   issues:
@@ -729,6 +735,9 @@ diploma:
   version: 1.2.11
   issues:
     - timestamps_in_gzip_headers
+discount:
+  bugs:
+    - 762622
 disruptor:
   version: 3.3.0-2
   issues:
@@ -757,6 +766,11 @@ doxia-maven-plugin:
   version: 1.1.4-2
   issues:
     - timestamps_in_maven_pom_files
+dpkg:
+  bugs:
+    - 759999
+    - 719845
+    - 138409
 drbd-utils:
   version: 8.9.2~rc1-2
   comments: |
@@ -1204,6 +1218,9 @@ gem:
   version: 1:0.93.3-8
   issues:
     - timestamps_from_cpp_macros
+gem2deb:
+  bugs:
+    - 722154
 gerbv:
   version: 2.6.0-1
   comments: |
@@ -1221,6 +1238,9 @@ gfs2-utils:
   version: 3.1.3-1.1
   issues:
     - timestamps_from_cpp_macros
+ghc:
+  bugs:
+    - 769893
 giflib:
   version: 4.1.6-11
   issues:
@@ -1351,6 +1371,9 @@ grive:
   version: 0.2.0-1.1
   issues:
     - timestamps_from_cpp_macros
+groff:
+  bugs:
+    - 762854
 gshare:
   version: 0.94-12
   issues:
@@ -1591,6 +1614,9 @@ javacc:
   version: 5.0-5
   issues:
     - timestamps_generated_by_docbook_to_man
+javatools:
+  bugs:
+    - 764988
 javatuples:
   version: 1.2-1
   issues:
@@ -1837,6 +1863,9 @@ libdbi-drivers:
   version: 0.9.0-3
   issues:
     - timestamps_from_cpp_macros
+libdebian-installer:
+  bugs:
+    - 762732
 libebml:
   version: 1.3.0-2
   issues:
@@ -2107,6 +2136,9 @@ links2:
   version: 2.8-2
   issues:
     - timestamps_from_cpp_macros
+lintian:
+  bugs:
+    - 762105
 linux:
   version: 3.16.7-2
   bugs:
