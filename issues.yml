@@ -51,10 +51,12 @@ timestamps_in_pe_binaries:
   description: |
     PE binaries contain a timestamp and maybe randomness in an UUID.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampInPEBinaries
-timestamps_in_documentation_generated_by_epydoc:
+use_epydoc:
   description: |
-    Epydoc will add timestamps to the HTML file it produces.
-  url: https://wiki.debian.org/ReproducibleBuilds/TimestampInDocumentationGeneratedByEpydoc
+    Epydoc will add timestamps to the HTML file it produces. It can also generates
+    different class index depending on filesystem ordering. It might also output
+    references to object with a memory address.
+  url: https://wiki.debian.org/ReproducibleBuilds/EpydocIssues
 timestamps_in_source_generated_by_pyqt4_ui:
   description: |
     PyQt4 UI code generator writes a timestamp to the source files it creates.
