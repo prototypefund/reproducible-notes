@@ -113,3 +113,11 @@ timestamps_in_static_libraries:
 timestamps_in_tarball:
   description: |
     Tarball capture build time in mtime of its members.
+timestamps_in_documentation_generated_by_javadoc:
+  description: |
+    javadoc will add timestamps to the HTML file it produces.
+  url: https://wiki.debian.org/ReproducibleBuilds/TimestampInDocumentationGeneratedByJavadoc?action=edit&editor=text
+timestamps_in_jar:
+  description: |
+    jar (Java Archive) file stores mtimes. Most often of files generated during
+    the build.
