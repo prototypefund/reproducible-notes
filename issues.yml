@@ -121,3 +121,16 @@ timestamps_in_jar:
   description: |
     jar (Java Archive) file stores mtimes. Most often of files generated during
     the build.
+timestamps_in_documentation_generated_by_groff:
+  description: |
+    groff will add a timestamps to documentation it produces.
+  url: https://bugs.debian.org/762854
+timestamps_in_pdf_generated_by_latex:
+  description: |
+    PDF files generated with pdftex and pdflatex will contain CreationDate and
+    ModDate set to the current date and time.
+  url: https://wiki.debian.org/ReproducibleBuilds/TimestampInPDFGeneratedByLaTeX
+timestamps_in_documentation_generated_by_htmldoc:
+  description: |
+    PDF files generated with htmldoc will contain CreationDate set to the current
+    date and time.
