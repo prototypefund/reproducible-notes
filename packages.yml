@@ -2812,6 +2812,10 @@ modplugtools:
     Uses __DATE__ and __TIME__:
     https://sources.debian.net/src/modplugtools/0.5.3-1.1/mp123/modplug123.c/?hl=164,171#L164
     Does not fail to build, so does not use dpkg-buildflags.
+moin:
+  version: 1.9.8-1
+  issues:
+    - timestamps_in_zip
 mono-debugger-libs:
   version: 0+20131201.3459502-1
   issues:
@@ -4473,6 +4477,10 @@ python-rtslib-fb:
   version: 2.1.45-4
   issues:
     - use_epydoc
+python-setuptools:
+  version: 5.5.1-1
+  bugs:
+    - 773969
 python-ssdeep:
   version: 3.1+dfsg-1
   issues:

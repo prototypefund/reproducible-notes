@@ -121,6 +121,10 @@ timestamps_in_jar:
   description: |
     jar (Java Archive) file stores mtimes. Most often of files generated during
     the build.
+timestamps_in_zip:
+  description: |
+    Zip archives stores mtimes. Most often of files generated during
+    the build.
 timestamps_in_documentation_generated_by_groff:
   description: |
     groff will add a timestamps to documentation it produces.
