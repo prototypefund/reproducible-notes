@@ -5545,8 +5545,13 @@ xmoto:
     - timestamps_from_cpp_macros
 xpra:
   version: 0.14.9+dfsg-1
-  issues:
-    - variables_in_build_info_py
+  comments: |
+    build_info.py contains several variables which need to be made deterministic, eg:
+    BUILD_DATE='2014-10-08'
+    BUILT_BY='pbuilder'
+    BUILD_TIME='15:55'
+    BUILT_ON='jenkins'
+    BUILD_CPU='AMD Opteron 62xx (Gen 4 Class Opteron)'
 xracer:
   version: 0.96.9.1-7
   issues:

@@ -12,14 +12,7 @@ timestamps_in_documentation_generated_by_doxygen:
 timestamps_generated_by_docbook_to_man:
   description: |
     docbook-to-man adds a timestamp at the end of manpages it generates.
-variables_in_build_info_py:
-  description: |
-    build_info.py contains several variables which need to be made deterministic, eg:
-    BUILD_DATE='2014-10-08'
-    BUILT_BY='pbuilder'
-    BUILD_TIME='15:55'
-    BUILT_ON='jenkins'
-    BUILD_CPU='AMD Opteron 62xx (Gen 4 Class Opteron)'
+  url: https://wiki.debian.org/ReproducibleBuilds/TimestampsGeneratedByDocbookToMan
 timestamps_in_dvi_generated_by_latex:
   description: |
     The creation date of the DVI file is the current time.
@@ -39,7 +32,7 @@ xpi_pack_saves_extra_attributes_in_jar:
   description: |
     xpi-pack, part of mozilla-devscripts, saves extra attributes when creating
     jar files. The fix is pending an upload.
-  url: http://anonscm.debian.org/cgit/pkg-mozext/mozilla-devscripts.git/commit/?id=bc9f279909ac9c7e47f2b4599630565fe03230ec
+  url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInJarFiles
 timestamps_in_php_registry_files:
   description: |
     PHP registry files contain a timestamp in the _lastmodified field.
@@ -47,6 +40,7 @@ timestamps_in_php_registry_files:
 timestamps_in_maven_pom_files:
   description: |
     Maven writes a timestamp to pom.properties files
+  url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInMavenPomProperties
 timestamps_in_pe_binaries:
   description: |
     PE binaries contain a timestamp and maybe randomness in an UUID.
@@ -60,15 +54,16 @@ use_epydoc:
 timestamps_in_source_generated_by_pyqt4_ui:
   description: |
     PyQt4 UI code generator writes a timestamp to the source files it creates.
-  url: https://bugs.debian.org/774509
+  url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInSourceGeneratedByPyQt
 random_order_in_egg_info_top_level_txt:
   description: |
     Python packages have components in `PACKAGE.egg-info/top_level.txt`
     written in a random order.
-  url: https://bugs.debian.org/773969
+  url: https://wiki.debian.org/ReproducibleBuilds/EggInfoTopLevelTxt
 timestamps_in_documentation_generated_by_yard:
   description: |
     YARD writes timestamps in HTML files it produces.
+  url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInDocumentationGeneratedByYard
 shlibs_order_varies:
   description: |
     dh_makeshlibs output is dependent on readdir order.
@@ -81,7 +76,7 @@ dh_fixmtimes_runs_before_dh_always_exclude:
   description: |
     When DH_ALWAYS_EXCLUDE is used, directorie's mtimes get modified
     after dh_fixmtimes run. Resulting in unreproducible packages.
-  url: https://bugs.debian.org/759886#36
+  url: https://bugs.debian.org/759886#3
 fontforge_reset_modification_time:
   description: |
     When a fontforge script is used, if the font loaded is modified
@@ -121,6 +116,7 @@ timestamps_in_jar:
   description: |
     jar (Java Archive) file stores mtimes. Most often of files generated during
     the build.
+  url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInJarFiles
 timestamps_in_zip:
   description: |
     Zip archives stores mtimes. Most often of files generated during
@@ -128,7 +124,7 @@ timestamps_in_zip:
 timestamps_in_documentation_generated_by_groff:
   description: |
     groff will add a timestamps to documentation it produces.
-  url: https://bugs.debian.org/762854
+  url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInDocumentationGeneratedByGroff
 timestamps_in_pdf_generated_by_latex:
   description: |
     PDF files generated with pdftex and pdflatex will contain CreationDate and
@@ -138,3 +134,4 @@ timestamps_in_documentation_generated_by_htmldoc:
   description: |
     PDF files generated with htmldoc will contain CreationDate set to the current
     date and time.
+  url: https://wiki.debian.org/ReproducibleBuilds/TimestmapsInDocumentationGeneratedByHtmldoc
