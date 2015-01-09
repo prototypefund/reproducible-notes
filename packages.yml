@@ -35,6 +35,10 @@ acpica-unix:
   version: 20140926-1
   issues:
     - timestamps_from_cpp_macros
+activiz.net:
+  version: 1:1.0~git20111214-2
+  issues:
+    - debbindiff_runs_forever
 aegis:
   version: 4.24.3-3
   issues:
@@ -435,9 +439,6 @@ cd-hit:
   version: 4.6.1-2012-08-27-2
   issues:
     - timestamps_from_cpp_macros
-cdbs:
-  bugs:
-    - 764478
 cdo:
   version: 1.6.5+dfsg.1-1
   issues:
@@ -523,6 +524,10 @@ clirr:
   version: 0.6-5
   issues:
     - timestamps_in_maven_pom_files
+clisp:
+  version: 1:2.49-10
+  issues:
+    - debbindiff_runs_forever
 clp:
   version: 1.15.10-1
   issues:
@@ -626,8 +631,6 @@ cpio:
     - 774426
 cppreference-doc:
   version: 20140208+dfsg1-1
-  issues:
-    - debbindiff_runs_forever
   bugs:
     - 774537
 cputool:
@@ -758,9 +761,6 @@ debhelper:
   comments: |
     debhelper is self-hosted. So until our “build reproducibility” patches
     makes there way in unstable, it will not build reproducibly.
-  bugs:
-    - 759886
-    - 759895
 debian-builder:
   version: 1.8
   issues:
@@ -835,13 +835,14 @@ din:
   version: 5.2.1-3
   issues:
     - timestamps_generated_by_docbook_to_man
+ding:
+  version: 1.7-3
+  issues:
+    - debbindiff_runs_forever
 diploma:
   version: 1.2.11
   issues:
     - timestamps_in_gzip_headers
-discount:
-  bugs:
-    - 762622
 disruptor:
   version: 3.3.0-2
   issues:
@@ -874,11 +875,6 @@ doxia-maven-plugin:
   version: 1.1.4-2
   issues:
     - timestamps_in_maven_pom_files
-dpkg:
-  bugs:
-    - 759999
-    - 719845
-    - 138409
 dput:
   version: 0.9.6.4
   issues:
@@ -1006,6 +1002,10 @@ epic4:
   comments: |
     Embed build time, username, and hostname:
     http://sources.debian.net/src/epic4/1:2.10.5-2/source/info.c.sh.in/
+esys-particle:
+  version: 2.3-2
+  issues:
+    - debbindiff_runs_forever
 eureka:
   version: 1.00-3
   issues:
@@ -1355,6 +1355,10 @@ gdbm:
     - timestamps_from_cpp_macros
   bugs:
     - 774394
+gdcm:
+  version: 2.4.4.-3
+  issues:
+    - debbindiff_runs_forever
 geany:
   version: 1.24.1+dfsg-1
   issues:
@@ -1375,9 +1379,6 @@ gem:
   version: 1:0.93.3-8
   issues:
     - timestamps_from_cpp_macros
-gem2deb:
-  bugs:
-    - 722154
 gerbv:
   version: 2.6.0-1
   comments: |
@@ -1405,6 +1406,7 @@ gfs2-utils:
   issues:
     - timestamps_from_cpp_macros
 ghc:
+  version: 7.6.3-20
   bugs:
     - 769893
 giflib:
@@ -1571,6 +1573,7 @@ grive:
   issues:
     - timestamps_from_cpp_macros
 groff:
+  version: 1.22.3-1
   bugs:
     - 762854
 gshare:
@@ -1637,10 +1640,6 @@ heartbeat:
   version: 1:3.0.5+hg12629-1.2
   issues:
     - timestamps_in_static_libraries
-hedgewars:
-  version: 0.9.21-3
-  bugs:
-    - 774633
 hello-traditional:
   version: 2.9-2
   issues:
@@ -1731,10 +1730,6 @@ iipimage:
   version: 0.9.9-3
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-ikarus:
-  version: 0.0.3+bzr.2010.01.26-4
-  issues:
-    - debbindiff_runs_forever
 imagemagick:
   version: 8:6.8.9.9-5
   issues:
@@ -1776,6 +1771,10 @@ ioquake3:
   version: 1.36+u20140802+gca9eebb-2
   issues:
     - timestamps_from_cpp_macros
+ipadic:
+  version: 2.7.0+main-3
+  issues:
+    - debbindiff_runs_forever
 ircd-hybrid:
   version: 1:8.2.0+dfsg.1-2
   issues:
@@ -1807,6 +1806,10 @@ jaaa:
   version: 0.8.4-1
   issues:
     - timestamps_generated_by_docbook_to_man
+javatools:
+  version: 0.47
+  bugs:
+    - 764988
 jabber-muc:
   version: 0.8-4
   issues:
@@ -1860,9 +1863,6 @@ javacc:
   version: 5.0-5
   issues:
     - timestamps_generated_by_docbook_to_man
-javatools:
-  bugs:
-    - 764988
 javatuples:
   version: 1.2-1
   issues:
@@ -1971,10 +1971,6 @@ jtidy:
   version: 7+svn20110807-4
   issues:
     - timestamps_in_maven_pom_files
-julia:
-  version: 0.3.1-1
-  issues:
-    - debbindiff_runs_forever
 jumpnbump:
   version: 1.51+dfsg1-2
   issues:
@@ -2011,10 +2007,6 @@ kwin-style-crystal:
   version: 2.2.1-2
   issues:
     - timestamps_from_cpp_macros
-lapack:
-  version: 3.5.0-4
-  issues:
-    - debbindiff_runs_forever
 lcdproc:
   version: 0.5.7-2
   issues:
@@ -2122,9 +2114,6 @@ libdbi-drivers:
   version: 0.9.0-3
   issues:
     - timestamps_from_cpp_macros
-libdebian-installer:
-  bugs:
-    - 762732
 libebml:
   version: 1.3.0-2
   issues:
@@ -2216,6 +2205,10 @@ liblscp:
   version: 0.5.6-7
   issues:
     - timestamps_from_cpp_macros
+libmarc-charset-perl:
+  version: 1.35-1
+  issues:
+    - debbindiff_runs_forever
 libmarpa-r2-perl:
   version: 2.086000~dfsg-3
   issues:
@@ -2298,6 +2291,10 @@ libquartz-java:
   version: 1:1.7.3-5
   issues:
     - timestamps_in_maven_pom_files
+libqxt:
+  version: 0.6.2-1
+  issues:
+    - debbindiff_runs_forever
 librabbitmq:
   version: 0.5.2-2
   issues:
@@ -2438,11 +2435,10 @@ links2:
   version: 2.8-2
   issues:
     - timestamps_from_cpp_macros
-lintian:
-  bugs:
-    - 762105
 linux:
   version: 3.16.7-2
+  issues:
+    - debbindiff_runs_forever
   bugs:
     - 769844
 litecoin:
@@ -2597,6 +2593,10 @@ mathomatic:
   version: 15.8.2-2
   issues:
     - timestamps_in_documentation_generated_by_htmldoc
+matplotlib:
+  version: 1.4.2-3
+  issues:
+    - debbindiff_runs_forever
 maude:
   version: 2.6-6
   issues:
@@ -3250,6 +3250,10 @@ openttd:
   version: 1.4.4-2
   issues:
     - timestamps_from_cpp_macros
+openturns:
+  version: 1.3-2
+  issues:
+    - debbindiff_runs_forever
 openvdb:
   version: 2.3.0-2
   issues:
@@ -3403,6 +3407,10 @@ pgbouncer:
   comments: |
     Embed build timestamp, user and hostname:
     https://sources.debian.net/src/pgbouncer/1.5.4-6/Makefile/?hl=79#L79
+pgloader:
+  version: 3.1.1+dfsg-1
+  issues:
+    - debbindiff_runs_forever
 pgn-extract:
   version: 17.14-1
   issues:
@@ -4372,10 +4380,6 @@ pymilter:
   version: 1.0-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-pyqt5:
-  version: 5.3.2+dfsg-3
-  issues:
-    - debbindiff_runs_forever
 pysatellites:
   version: 2.1-1
   issues:
@@ -4679,6 +4683,10 @@ saxonhe:
   version: 9.5.1.1+dfsg-1
   issues:
     - timestamps_in_maven_pom_files
+scheme48:
+  version: 1.9-5
+  issues:
+    - debbindiff_runs_forever
 schism:
   version: 2:0+20110101-1
   issues:
@@ -5327,6 +5335,10 @@ vpim:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+vtk:
+  version: 5.8.0-17.5
+  issues:
+    - debbindiff_runs_forever
 vxl:
   version: 1.17.0.dfsg-1
   issues:
@@ -5386,6 +5398,14 @@ wily:
   issues:
     - timestamps_in_gzip_headers
     - timestamps_in_tarball
+wine-development:
+  version: 1.7.29-4
+  issues:
+    - debbindiff_runs_forever
+wine-gecko-2.24:
+  version: 2.24+dfsg-1
+  issues:
+    - debbindiff_runs_forever
 wise:
   version: 2.4.1-17
   issues:
