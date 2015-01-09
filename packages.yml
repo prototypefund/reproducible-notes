@@ -761,6 +761,9 @@ debhelper:
   comments: |
     debhelper is self-hosted. So until our “build reproducibility” patches
     makes there way in unstable, it will not build reproducibly.
+  bugs:
+    - 759886
+    - 759895
 debian-builder:
   version: 1.8
   issues:
