@@ -73,7 +73,7 @@ update_icons_order_varies:
     dh_icons output is dependent on readdir order.
   url: https://bugs.debian.org/774102
 dh_usrlocal_order_varies:
-  desrciption: |
+  description: |
     dh_usrlocal output is dependent on readdir order.
   url: https://bugs.debian.org/775020
 dh_fixmtimes_runs_before_dh_always_exclude:
