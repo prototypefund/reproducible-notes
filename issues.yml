@@ -72,6 +72,10 @@ update_icons_order_varies:
   description: |
     dh_icons output is dependent on readdir order.
   url: https://bugs.debian.org/774102
+dh_usrlocal_order_varies: |
+  desrciption: |
+    dh_usrlocal output is dependent on readdir order.
+  url: https://bugs.debian.org/775020
 dh_fixmtimes_runs_before_dh_always_exclude:
   description: |
     When DH_ALWAYS_EXCLUDE is used, directorie's mtimes get modified
@@ -135,3 +139,6 @@ timestamps_in_documentation_generated_by_htmldoc:
     PDF files generated with htmldoc will contain CreationDate set to the current
     date and time.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestmapsInDocumentationGeneratedByHtmldoc
+pdf_created_by_ghostscript:
+  description: |
+    PDF files created by Ghostscript contain timestamps and ids.
