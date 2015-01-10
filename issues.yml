@@ -96,6 +96,7 @@ not_using_dh_builddeb:
     `find debian/tmp -depth -newermt '$(BUILD_DATE)' -print0 | \
          xargs -0r touch --no-dereference --date='$(BUILD_DATE)'`
     Another option is to convert the build system to `dh`.
+  url: https://wiki.debian.org/ReproducibleBuilds/Howto#Members_of_control.tar_and_data.tar_have_varying_mtimes
 timestamps_in_gzip_headers:
   description: |
     gzip stores a timestamp by default in its header.
@@ -112,6 +113,7 @@ timestamps_in_static_libraries:
 timestamps_in_tarball:
   description: |
     Tarball capture build time in mtime of its members.
+  url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInTarball
 timestamps_in_documentation_generated_by_javadoc:
   description: |
     javadoc will add timestamps to the HTML file it produces.
@@ -125,6 +127,7 @@ timestamps_in_zip:
   description: |
     Zip archives stores mtimes. Most often of files generated during
     the build.
+  url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInZip
 timestamps_in_documentation_generated_by_groff:
   description: |
     groff will add a timestamps to documentation it produces.
@@ -142,3 +145,4 @@ timestamps_in_documentation_generated_by_htmldoc:
 pdf_created_by_ghostscript:
   description: |
     PDF files created by Ghostscript contain timestamps and ids.
+  url: https://wiki.debian.org/ReproducibleBuilds/PdfGeneratedByGhostscript#preview
