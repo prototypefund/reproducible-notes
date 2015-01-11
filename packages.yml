@@ -373,6 +373,10 @@ boost1.55:
   version: 1.55.0+dfsg-3
   issues:
     - timestamps_from_cpp_macros
+bootchart:
+  version: 0.10~svn407-4.1
+  issues:
+    - timestamps_in_jar
 box2d:
   version: 2.3.1+ds-1
   issues:
@@ -540,6 +544,10 @@ ckermit:
   version: 302-5
   issues:
     - timestamps_from_cpp_macros
+cl-asdf:
+  version: 2:3.1.4-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 clamav:
   version: 0.98.5~rc1+dfsg-4
   issues:
@@ -754,6 +762,10 @@ dact:
   version: 0.8.42-4
   issues:
     - timestamps_from_cpp_macros
+dancer-xml:
+  version: 0.8.2.1-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 dar:
   version: 2.4.15-1
   issues:
@@ -1417,6 +1429,11 @@ gap-autpgrp:
   issues:
     - timestamps_in_gzip_headers
     - timestamps_in_pdf_generated_by_latex
+gap-polycyclic:
+  version: 2.11-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
+    - timestamps_in_gzip_headers
 gcal:
   version: 3.6.3-3
   issues:
@@ -1534,6 +1551,86 @@ glob2:
   version: 0.9.4.4-2.3
   issues:
     - timestamps_from_cpp_macros
+globus-authz:
+  version: 3.10-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+globus-authz-callout-error:
+  version: 3.5-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+globus-callout:
+  version: 3.13-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+globus-common:
+  version: 15.26-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+globus-gass-cache:
+  version: 9.5-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+globus-gass-transfer:
+  version: 8.8-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+globus-gram-job-manager-callout-error:
+  version: 3.5-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+globus-gridmap-callout-error:
+  version: 2.4-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+globus-gsi-callback:
+  version: 5.6-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+globus-gsi-cert-utils:
+  version: 9.10-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+globus-gsi-credential:
+  version: 7.7-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+globus-gsi-openssl-error:
+  version: 3.5-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+globus-gsi-proxy-core:
+  version: 7.7-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+globus-gsi-proxy-ssl:
+  version: 5.7-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+globus-gsi-sysconfig:
+  version: 6.8-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+globus-gssapi-error:
+  version: 5.4-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+globus-openssl-module:
+  version: 4.6-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+globus-rsl:
+  version: 10.9-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+globus-xio-gridftp-driver:
+  version: 2.8-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+globus-xio-gsi-driver:
+  version: 3.6-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 glusterfs:
   version: 3.5.2-1
   issues:
@@ -1657,6 +1754,7 @@ gpsmanshp:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
 graphmonkey:
+  version: 1.7-3
   issues:
     - timestamps_in_pe_binaries
 graphviz:
@@ -1671,6 +1769,10 @@ gretl:
   version: 1.9.92-1
   issues:
     - timestamps_in_static_libraries
+gridsite:
+  version: 2.2.5-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 grisbi:
   version: 1.0.0-2
   issues:
@@ -1805,6 +1907,10 @@ hugin:
   version: 2014.0.0+dfsg-3
   issues:
     - shlibs_order_varies
+hwloc:
+  version: 1.10.0-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 hybserv:
   version: 1.9.5-1
   issues:
@@ -1813,6 +1919,10 @@ hyena:
   version: 0.5-3
   issues:
     - timestamps_in_pe_binaries
+hyperestraier:
+  version: 1.4.13-13
+  issues:
+    - timestamps_in_jar
 hypre:
   version: 2.8.0b-2
   issues:
@@ -1943,6 +2053,10 @@ jabber-muc:
   version: 0.8-4
   issues:
     - timestamps_from_cpp_macros
+jack-audio-connection-kit:
+  version: 1:0.124.1+20140122git5013bed0-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 jackson-jaxrs-providers:
   version: 2.4.2-1
   issues:
@@ -2000,6 +2114,11 @@ jaxb-api:
   version: 2.2.9-1
   issues:
     - timestamps_in_maven_pom_files
+jaxe:
+  version: 3.5-5
+  issues:
+    - timestamps_in_jar
+    - timestamps_in_documentation_generated_by_javadoc
 jcodings:
   version: 1.0.11-2
   issues:
@@ -2132,6 +2251,10 @@ keepassx:
   version: 0.4.3+dfsg-0.1
   bugs:
     - 763699
+kimwitu++:
+  version: 2.3.13-2
+  issues:
+    - pdf_created_by_ghostscript
 knews:
   version: 1.0b.1-29
   issues:
@@ -5212,6 +5335,10 @@ sniffit:
   version: 0.3.7.beta-17
   issues:
     - timestamps_from_cpp_macros
+snort:
+  version: 2.9.7.0-4
+  issues:
+    - pdf_created_by_ghostscript
 soapdenovo2:
   version: 240+dfsg-2
   issues:
@@ -5865,6 +5992,7 @@ wmcoincoin:
   issues:
     - timestamps_from_cpp_macros
 wmwork:
+  version: 0.2.6-1
   issues:
     - not_using_dh_builddeb
     - timestamps_in_gzip_headers
