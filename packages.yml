@@ -502,6 +502,10 @@ cd-hit:
   version: 4.6.1-2012-08-27-2
   issues:
     - timestamps_from_cpp_macros
+cdebootstrap:
+  version: 0.6.4
+  issues:
+    - not_using_dh_builddeb
 cdo:
   version: 1.6.5+dfsg.1-1
   issues:
@@ -711,6 +715,10 @@ console-cyrillic:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+convmv:
+  version: 1.12-2
+  issues:
+    - timestamps_in_gzip_headers
 corosync:
   version: 1.4.6-1.1
   issues:
@@ -913,6 +921,11 @@ deng:
   version: 1.9.0-beta6.9+dfsg1-2.1
   issues:
     - timestamps_from_cpp_macros
+device-tree-compiler:
+  version: 1.4.0+dfsg-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
+    - timestamps_in_dvi_generated_by_latex
 dff:
   version: 1.3.0+dfsg.1-4.1
   issues:
@@ -1032,6 +1045,10 @@ drumkv1:
   version: 0.5.1-1
   issues:
     - timestamps_from_cpp_macros
+dtc-xen:
+  version: 0.5.17-1
+  issues:
+    - timestamps_in_gzip_headers
 dtd-parser:
   version: 1.2~svn20110404-1
   issues:
@@ -1064,6 +1081,10 @@ dx:
   version: 1:4.4.4-7
   issues:
     - timestamps_from_cpp_macros
+echoping:
+  version: 6.0.2-8
+  issues:
+    - timestamps_in_static_libraries
 ecl:
   version: 13.5.1+dfsg2-4.2
   issues:
@@ -1314,6 +1335,11 @@ flightgear:
   version: 3.0.0-4
   issues:
     - timestamps_from_cpp_macros
+flowscan:
+  version: 1.006-13.2
+  issues:
+    - timestamps_in_gzip_headers
+    - not_using_dh_builddeb
 flute:
   version: 1:1.1.6-3
   issues:
@@ -1492,6 +1518,10 @@ gambas3:
   version: 3.5.4-2
   issues:
     - timestamps_from_cpp_macros
+gamera:
+  version: 3.4.1+svn1423-4
+  bugs:
+    - 775228
 gammu:
   version: 1.33.0-3
   issues:
@@ -1642,6 +1672,10 @@ globus-callout:
     - timestamps_in_documentation_generated_by_doxygen
 globus-common:
   version: 15.26-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+globus-ftp-control:
+  version: 6.3-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
 globus-gass-cache:
@@ -2289,6 +2323,10 @@ joptsimple:
   version: 4.5-1
   issues:
     - timestamps_in_maven_pom_files
+joy2key:
+  version: 1.6.3-1
+  issues:
+    - timestamps_from_cpp_macros
 jpilot:
   version: 1.8.2-1
   issues:
@@ -2512,6 +2550,12 @@ libexif:
   version: 0.6.21-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libf2c2:
+  version: 20090411-2
+  issues:
+    - timestamps_in_static_libraries
+    - timestamps_in_gzip_headers
+    - not_using_dh_builddeb
 libfakekey:
   version: 0.1-8.1
   issues:
@@ -2576,6 +2620,12 @@ libjgoodies-common-java:
 libjna-posix-java:
   version: 1.0.1-2
   issues:
+    - timestamps_in_jar
+    - timestamps_in_documentation_generated_by_javadoc
+libjnr-posix-java:
+  version: 1.1.8-2
+  issues:
+    - timestamps_in_maven_pom_files
     - timestamps_in_jar
     - timestamps_in_documentation_generated_by_javadoc
 libjoda-time-java:
@@ -3907,6 +3957,10 @@ pax-utils:
   version: 0.8.1-1
   issues:
     - timestamps_from_cpp_macros
+paxtest:
+  version: 1:0.9.11-2
+  issues:
+    - timestamps_generated_by_docbook_to_man
 pcb:
   version: 20140316-3
   issues:
@@ -5409,6 +5463,10 @@ sgmltools-lite:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+sheepdog:
+  version: 0.8.3-3
+  bugs:
+    - 775229
 shelxle:
   version: 1.0.677-1
   issues:
