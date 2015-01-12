@@ -272,6 +272,16 @@ basex:
   version: 7.9-1
   issues:
     - timestamps_in_maven_pom_files
+bash:
+  version: 4.3-11
+  issues:
+   - timestamps_in_documentation_generated_by_groff
+   - pdf_created_by_ghostscript
+  comments: |
+    Timestamp in man2html output:
+    https://sources.debian.net/src/bash/4.3-11/support/man2html.c/?hl=110#L110
+    bashref.pdf can be reproduced when fixing the same time using faketime. So
+    it might be that dvipdfm seeds stuff using time…
 basket:
   version: 2.10~beta+git6fed731-1
   issues:
