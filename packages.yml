@@ -307,6 +307,11 @@ bcel:
   version: 6.0~rc3-1
   issues:
     - timestamps_in_maven_pom_files
+beav:
+  version: 1:1.40-18
+  issues:
+    - not_using_dh_builddeb
+    - timestamps_in_gzip_headers
 berkeley-abc:
   version: 1.01+20140822hg4d547a5+dfsg-1
   issues:
@@ -1569,6 +1574,10 @@ g15daemon:
   comments: |
     Embed build time, and kernel version:
     https://sources.debian.net/src/g15daemon/1.9.5.3-8.3/configure.in/?hl=118:119#L118
+g3data:
+  version: 1:1.5.3-2.1
+  issues:
+    - timestamps_generated_by_docbook_to_man
 gambas3:
   version: 3.5.4-2
   issues:
@@ -1583,6 +1592,11 @@ gammu:
     - timestamps_from_cpp_macros
 gap:
   version: 4r7p5-2
+  issues:
+    - timestamps_in_pdf_generated_by_latex
+    - timestamps_in_gzip_headers
+gap-alnuth:
+  version: 3.0.0-1
   issues:
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_gzip_headers
@@ -2225,6 +2239,11 @@ inspircd:
   version: 2.0.17-1
   issues:
     - timestamps_from_cpp_macros
+integrit:
+  version: 4.1-1
+  issues:
+    - not_using_dh_builddeb
+    - timestamps_in_gzip_headers
 intlfonts:
   version: 1.2.1-8
   issues:
@@ -2887,6 +2906,12 @@ librabbitmq:
   version: 0.5.2-2
   issues:
     - timestamps_generated_by_docbook_to_man
+libranlip:
+  version: 1.0-4.1
+  issues:
+    - not_using_dh_builddeb
+    - timestamps_in_static_libraries
+    - timestamps_in_gzip_headers
 librcc:
   version: 0.2.12-0.1
   issues:
@@ -4021,6 +4046,10 @@ opticalraytracer:
   version: 3.2-1.1
   issues:
     - timestamps_in_jar
+opus:
+  version: 1.1-2
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 opusfile:
   version: 0.6-1
   issues:
