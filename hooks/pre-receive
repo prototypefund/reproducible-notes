@@ -5,11 +5,7 @@ from __future__ import print_function
 import os.path
 import subprocess
 import sys
-
-# not available on Aliath (yet?)
-#import yaml
-# XXX:
-import json
+import yaml
 
 def read_from_git(ref, path):
     return subprocess.check_output(
@@ -29,21 +25,11 @@ def ensure_issues_are_known(issues, packages):
                 print('ERROR: issue %s not listed in issues.yml' % issue, file=sys.stderr)
                 sys.exit(1)
 
-def yaml_load(content):
-    cmd = ['ruby', '-ryaml', '-rjson', '-e', 'print JSON.dump(YAML.load($stdin))']
-    p = subprocess.Popen(cmd, shell=False, close_fds=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-    out, err = p.communicate(content)
-    p.wait()
-    if p.returncode != 0:
-        print("%s failed with %d. Output:\n%s\n" % (cmd, p.returncode, out), file=sys.stderr)
-        sys.exit(2)
-    return json.loads(out)
-
 def main():
     for ref_line in sys.stdin:
         old_value, new_value, ref_name = ref_line.strip().split(' ', 3)
-        issues = yaml_load(read_from_git(new_value, 'issues.yml'))
-        packages = yaml_load(read_from_git(new_value, 'packages.yml'))
+        issues = yaml.load(read_from_git(new_value, 'issues.yml'))
+        packages = yaml.load(read_from_git(new_value, 'packages.yml'))
         validate_issues(issues)
         ensure_issues_are_known(issues, packages)
 
