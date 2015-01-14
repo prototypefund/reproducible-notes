@@ -2633,6 +2633,10 @@ javacc:
   version: 5.0-5
   issues:
     - timestamps_generated_by_docbook_to_man
+javamail:
+  version: 1.5.2-3
+  issues:
+    - timestamps_in_maven_pom_files
 javatuples:
   version: 1.2-1
   issues:
@@ -2931,6 +2935,10 @@ libcommoncpp2:
   version: 1.8.1-6
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libcommons-cli-java:
+  version: 1.2-3
+  issues:
+    - timestamps_in_maven_pom_files
 libcommons-dbcp-java:
   version: 1.4-5
   issues:
@@ -2992,6 +3000,10 @@ libdbix-fulltextsearch-perl:
 libdebian-installer:
   bugs:
     - 762732
+libdecentxml-java:
+  version: 1.4-1
+  issues:
+    - timestamps_in_maven_pom_files
 libdshconfig:
   version: 0.20.13-1.1
   issues:
@@ -3062,6 +3074,10 @@ libhibernate-commons-annotations-java:
   version: 3.2.0.Final-2
   issues:
     - timestamps_in_maven_pom_files
+libhibernate3-java:
+  version: 3.6.10.Final-3
+  issues:
+    - timestamps_in_maven_pom_files
 libident:
   version: 0.22-3
   issues:
@@ -3071,12 +3087,28 @@ libindicate:
   version: 0.6.92-2
   issues:
     - timestamps_in_pe_binaries
+libjavaewah-java:
+  version: 0.6.12-1
+  issues:
+    - timestamps_in_maven_pom_files
 libjaxen-java:
   version: 1.1.6-1
   issues:
     - timestamps_in_maven_pom_files
+libjboss-marshalling-java:
+  version: 1.1.3.GA-3
+  issues:
+    - timestamps_in_maven_pom_files
 libjgoodies-common-java:
   version: 1.4.0-2
+  issues:
+    - timestamps_in_maven_pom_files
+libjgoodies-forms-java:
+  version: 1.6.0-4
+  issues:
+    - timestamps_in_maven_pom_files
+libjgoodies-looks-java:
+  version: 2.5.2-3
   issues:
     - timestamps_in_maven_pom_files
 libjna-posix-java:
@@ -3137,6 +3169,10 @@ libmatroska:
   version: 1.4.1-2
   issues:
     - timestamps_from_cpp_macros
+libmiglayout-java:
+  version: 4.2-1
+  issues:
+    - timestamps_in_maven_pom_files
 libmimic:
   version: 1.0.4-2.2
   issues:
@@ -3194,6 +3230,10 @@ libopenobex:
     - timestamps_in_documentation_generated_by_doxygen
 libopensaml2-java:
   version: 2.6.2-1
+  issues:
+    - timestamps_in_maven_pom_files
+libopenws-java:
+  version: 1.5.1-3
   issues:
     - timestamps_in_maven_pom_files
 libowasp-esapi-java:
@@ -3260,6 +3300,14 @@ librep:
   version: 0.90.2-1.4
   issues:
     - timestamps_in_static_libraries
+librosetta-java:
+  version: 1.0.4-4
+  issues:
+    - timestamps_in_maven_pom_files
+libsequence-library-java:
+  version: 1.0.2-1
+  issues:
+    - timestamps_in_maven_pom_files
 libshib-common-java:
   version: 1.4.0-3
   issues:
@@ -3377,8 +3425,32 @@ libxdg-basedir:
   version: 1.2.0-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libxerces2-java:
+  version: 2.11.0-7
+  issues:
+    - timestamps_in_maven_pom_files
+libxml-commons-resolver1.1-java:
+  version: 1.2-7
+  issues:
+    - timestamps_in_maven_pom_files
+libxml-security-java:
+  version: 1.5.6-1
+  issues:
+    - timestamps_in_maven_pom_files
+libxmlrpc3-java:
+  version: 3.1.3-7
+  issues:
+    - timestamps_in_maven_pom_files
+libxmlstream-java:
+  version: 1.4.7-2
+  issues:
+    - timestamps_in_maven_pom_files
 libxmltooling-java:
   version: 1.4.2-4
+  issues:
+    - timestamps_in_maven_pom_files
+libxmpcore-java:
+  version: 5.1.2-2
   issues:
     - timestamps_in_maven_pom_files
 libyaml:
@@ -3887,6 +3959,10 @@ moin:
   version: 1.9.8-1
   issues:
     - timestamps_in_zip
+mongo-driver-java:
+  version: 2.12.4-1
+  issues:
+    - timestamps_in_maven_pom_files
 mono:
   version: 3.2.8+dfsg-9
   issues:
@@ -4012,6 +4088,10 @@ mupen64plus-video-glide64mk2:
   version: 2.0-3
   issues:
     - timestamps_from_cpp_macros
+mustache-java:
+  version: 0.8.17-1
+  issues:
+    - timestamps_in_maven_pom_files
 muttprint:
   version: 0.73-5.1
   issues:
