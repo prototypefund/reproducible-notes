@@ -195,6 +195,11 @@ args4j:
   version: 2.0.30-1
   issues:
     - timestamps_in_maven_pom_files
+argus-client:
+  version: 2.0.6.fixes.1-3
+  issues:
+    - not_using_dh_builddeb
+    - timestamps_in_gzip_headers
 aria2:
   version: 1.18.8-1
   issues:
@@ -330,6 +335,11 @@ bglibs:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
     - timestamps_in_static_libraries
+bibclean:
+  version: 2.11.4.1-4
+  comments: |
+    Embed build time, username, and hostname:
+    http://sources.debian.net/src/bibclean/2.11.4.1-4/option.c/?hl=567:586#L567
 bible-kjv:
   version: 4.26
   issues:
@@ -674,6 +684,10 @@ cnrun:
   version: 1.1.14-1
   issues:
     - timestamps_from_cpp_macros
+coco-cs:
+  version: 20110419-5
+  issues:
+    - timestamps_in_pe_binaries
 code-saturne:
   version: 3.3.2-2
   issues:
@@ -813,6 +827,11 @@ cvs-buildpackage:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+cvs-mailcommit:
+  version: 1.19-2
+  issues:
+    - not_using_dh_builddeb
+    - timestamps_in_gzip_headers
 cwirc:
   version: 2.0.0-7
   issues:
@@ -950,6 +969,11 @@ deejayd:
   version: 0.10.0-6
   issues:
     - xpi_pack_saves_extra_attributes_in_jar
+deets:
+  version: 0.2.1-1
+  issues:
+    - not_using_dh_builddeb
+    - timestamps_in_gzip_headers
 deng:
   version: 1.9.0-beta6.9+dfsg1-2.1
   issues:
@@ -967,6 +991,10 @@ dfo:
   version: 0.8+svn52-7
   issues:
     - timestamps_in_pe_binaries
+dh-kpatches:
+  version: 0.99.36+nmu1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 dh-make-php:
   version: 0.4.0
   issues:
@@ -1277,6 +1305,10 @@ faad2:
   version: 2.7-8
   issues:
     - timestamps_from_cpp_macros
+fake:
+  version: 1.1.11-1
+  issues:
+    - timestamps_in_gzip_headers
 fakepop:
   version: 11
   issues:
@@ -1343,6 +1375,10 @@ fgetty:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+filepp:
+  version: 1.8.0-4
+  comments: |
+    Contain timestamp in /usr/share/man/man1/filepp.1.gz
 filezilla:
   version: 3.9.0.5-1
   issues:
@@ -1448,6 +1484,10 @@ fonts-prociono:
     Uses sortsmill-tools.
   issues:
     - fontforge_reset_modification_time
+fonty-rg:
+  version: 0.5
+  issues:
+    - timestamps_in_gzip_headers
 fossil:
   version: 1:1.29-1
   issues:
@@ -1552,6 +1592,10 @@ fsharp:
   version: 3.1.1.26+dfsg2-2
   issues:
     - timestamps_in_pe_binaries
+fstrcmp:
+  version: 0.7.D001-1.1
+  issues:
+    - pdf_created_by_ghostscript
 fsvs:
   version: 1.2.5-1
   issues:
@@ -1945,6 +1989,19 @@ gnuplot-mode:
   version: 1:0.7.0-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+gnupod-tools:
+  version: 0.99.8-2.1
+  issues:
+    - timestamps_generated_by_docbook_to_man
+gnustep-base:
+  version: 1.24.7-1
+  comments: |
+    Random path from /tmp in
+    /usr/share/doc/libgnustep-base1.24-dbg/config.log.gz
+    Timestamps and different order in
+    /usr/share/doc/libgnustep-base1.24-dbg/tests.log.gz
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 goaccess:
   version: 1:0.8.3-1
   issues:
@@ -2044,6 +2101,11 @@ gtk-sharp-beans:
   version: 2.14.1-3
   issues:
     - timestamps_in_pe_binaries
+gtk-sharp2:
+  version: 2.12.10-5
+  issues:
+    - timestamps_in_pe_binaries
+    - timestamps_in_zip
 gtkglarea-sharp:
   version: 0.0.17-6
   issues:
@@ -2173,6 +2235,10 @@ icedove:
   version: 31.2.0-1
   issues:
     - timestamps_from_cpp_macros
+icedtea-web:
+  version: 1.5.2-1
+  issues:
+    - timestamps_in_jar
 iceweasel:
   version: 31.2.0esr-3
   issues:
@@ -2535,6 +2601,10 @@ kwin-style-crystal:
   version: 2.2.1-2
   issues:
     - timestamps_from_cpp_macros
+latexml:
+  version: 0.8.0-1
+  comments: |
+    Random hash order in /usr/share/perl5/LaTeXML/MathGrammar.pm
 lcdproc:
   version: 0.5.7-2
   issues:
@@ -2790,6 +2860,11 @@ liblockfile:
     - timestamps_in_static_libraries
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+liblouisutdml:
+  version: 2.5.0-1
+  issues:
+    - timestamps_in_jar
+    - timestamps_in_documentation_generated_by_javadoc
 liblscp:
   version: 0.5.6-7
   issues:
@@ -3129,6 +3204,10 @@ localizer:
   version: 1.13-2
   issues:
     - timestamps_in_maven_pom_files
+lockdev:
+  version: 1.0.3-1.6
+  issues:
+    - timestamps_in_static_libraries
 log4c:
   version: 1.2.1-3
   comments: |
@@ -3153,6 +3232,15 @@ lprng:
   version: 3.8.B-2
   bugs:
     - 773916
+lprng-doc:
+  version: 3.8.A~rc2-3
+  issues:
+    - pdf_created_by_ghostscript
+lrzsz:
+  version: 0.12.21-7
+  issues:
+    - not_using_dh_builddeb
+    - timestamps_in_gzip_headers
 lshell:
   version: 0.9.16-1
   comments: |
@@ -3166,6 +3254,10 @@ luakit:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+luasseq:
+  version: 2.1-6
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 lwatch:
   version: 0.6.2-1
   issues:
@@ -3489,6 +3581,11 @@ modello1.4:
   version: 1.4.1-2
   issues:
     - timestamps_in_maven_pom_files
+modglue:
+  version: 1.17-2.2
+  comments: |
+    Embed build time and hostname:
+    https://sources.debian.net/src/modglue/1.17-2.2/src/Makefile.in/?hl=24#L24
 modplugtools:
   version: 0.5.3-1.1
   comments: |
@@ -3620,6 +3717,12 @@ mupen64plus-video-glide64mk2:
   version: 2.0-3
   issues:
     - timestamps_from_cpp_macros
+muttprint:
+  version: 0.73-5.1
+  issues:
+    - timestamps_in_dvi_generated_by_latex
+    - timestamps_in_pdf_generated_by_latex
+    - timestamps_in_png
 mvel:
   version: 2.0.18-4
   issues:
@@ -3737,11 +3840,20 @@ nethack:
   version: 3.4.3-15
   issues:
     - timestamps_from_cpp_macros
+netmask:
+  version: 2.3.12
+  issues:
+    - timestamps_from_cpp_macros
 netmaze:
   version: 0.81+jpg0.82-14.1
   issues:
     - not_using_dh_builddeb
     - timestamps_in_gzip_headers
+netqmail:
+  version: 1.06-5
+  issues:
+    - timestamps_in_gzip_headers
+    - not_using_dh_builddeb
 netrw:
   version: 1.3.2-2
   comments: |
@@ -3761,6 +3873,10 @@ newsbeuter:
   version: 2.8-2
   issues:
     - timestamps_from_cpp_macros
+nexus:
+  version: 4.3.2-svn1921-2
+  issues:
+    - timestamps_in_jar
 ngircd:
   version: 22-2
   issues:
@@ -3924,6 +4040,10 @@ open-cobol:
     Does not use dpkg-buildflags.
   issues:
     - timestamps_from_cpp_macros
+openais:
+  version: 1.1.4-4.2
+  issues:
+    - timestamps_in_documentation_generated_by_groff
 openbabel:
   version: 2.3.2+dfsg-2
   issues:
@@ -5217,6 +5337,13 @@ pycurl:
   version: 7.19.5-3
   issues:
     - timestamps_from_cpp_macros
+pyfits:
+  version: 1:3.3-2
+  comments: |
+    Timestamp in /usr/lib/python2.7/dist-packages/pyfits/version.py
+    and /usr/lib/python3/dist-packages/pyfits/version.py
+    “automatically generated file created by
+    stsci.distutils.hooks.version_setup_hook”
 pyinotify:
   version: 0.9.4-1
   issues:
@@ -5229,6 +5356,11 @@ pymilter:
   version: 1.0-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+pyntor:
+  version: 0.6-4
+  issues:
+    - timestamps_in_gzip_headers
+    - not_using_dh_builddeb
 pysatellites:
   version: 2.1-1
   issues:
@@ -5495,6 +5627,10 @@ rfdump:
   version: 1.6-3
   issues:
     - timestamps_generated_by_docbook_to_man
+rheolef:
+  version: 6.5-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 ripmime:
   version: 1.4.0.10.debian.1-1
   comments: |
@@ -5549,6 +5685,11 @@ rungetty:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+runit:
+  version: 2.1.2-3
+  issues:
+    - not_using_dh_builddeb
+    - timestamps_in_gzip_headers
 rxvt-unicode:
   version: 9.20-1
   issues:
@@ -5558,6 +5699,11 @@ sa-exim:
   comments: |
     Embed build time:
     https://sources.debian.net/src/sa-exim/4.2.1-14/Makefile/?hl=66#L66
+sacjava:
+  version: 1.3-6
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
+    - timestamps_in_jar
 salome-kernel:
   version: 6.5.0-8.1
   comments: |
@@ -5774,6 +5920,10 @@ socklog:
   issues:
     - not_using_dh_builddeb
     - timestamps_in_gzip_headers
+softcatala-spell:
+  version: 0.20111230b-7
+  issues:
+    - timestamps_in_gzip_headers
 sombok:
   version: 2.3.2-1
   issues:
@@ -5818,6 +5968,12 @@ sphinxtrain:
     https://sources.debian.net/src/sphinxtrain/1.0.8-4/src/programs/mllr_transform/main.c/?hl=342#L342
   issues:
     - timestamps_from_cpp_macros
+spl:
+  version: 1.0~pre6-4
+  issues:
+    - not_using_dh_builddeb
+    - timestamps_in_gzip_headers
+    - timestamps_in_static_libraries
 spring:
   version: 98.0+dfsg-1
   issues:
@@ -6171,6 +6327,10 @@ tvoe:
   version: 0.1-1
   issues:
     - timestamps_from_cpp_macros
+twidge:
+  version: 1.1.2
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 twoftpd:
   version: 1.42-1
   issues:
@@ -6244,6 +6404,10 @@ unar:
   version: 1.8.1-3
   issues:
     - timestamps_from_cpp_macros
+uni2ascii:
+  version: 4.18-2
+  issues:
+    - timestamps_from_cpp_macros
 uniutils:
   version: 2.27-2
   issues:
@@ -6256,6 +6420,11 @@ unzip:
   version: 6.0-12
   issues:
     - timestamps_from_cpp_macros
+uruk:
+  version: 20140627-1
+  issues:
+    - not_using_dh_builddeb
+    - timestamps_in_gzip_headers
 util-vserver:
   version: 0.30.216-pre3054-1
   issues:
@@ -6319,6 +6488,11 @@ voms:
   version: 2.0.11-5
   issues:
     - timestamps_from_cpp_macros
+voms-api-java:
+  version: 3.0.5-1
+  issues:
+    - timestamps_in_jar
+    - timestamps_in_documentation_generated_by_javadoc
 voms-clients-java:
   version: 3.0.5-1
   issues:
@@ -6439,6 +6613,11 @@ wmcoincoin:
   version: 2.6.2+20140602-1
   issues:
     - timestamps_from_cpp_macros
+wmpuzzle:
+  version: 0.5.2-1
+  issues:
+    - timestamps_in_gzip_headers
+    - not_using_dh_builddeb
 wmwork:
   version: 0.2.6-1
   issues:
@@ -6513,6 +6692,11 @@ xdotool:
   version: 1:3.20140805.1-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+xfaces:
+  version: 3.3-28
+  issues:
+    - not_using_dh_builddeb
+    - timestamps_in_gzip_headers
 xfig:
   version: 1:3.2.5.c-3
   issues:
@@ -6614,6 +6798,11 @@ xmoto:
   version: 0.5.11+dfsg-1
   issues:
     - timestamps_from_cpp_macros
+xnecview:
+  version: 1.35-7.1
+  issues:
+    - not_using_dh_builddeb
+    - timestamps_in_gzip_headers
 xnetcardconfig:
   version: 0.2.1-1
   issues:
@@ -6663,6 +6852,10 @@ xzgv:
   version: 0.9.1-3
   issues:
     - timestamps_in_gzip_headers
+yacas:
+  version: 1.3.3-2
+  issues:
+    - timestamps_generated_by_docbook_to_man
 yafc:
   version: 1.3.5-2
   issues:
@@ -6688,12 +6881,21 @@ yersinia:
   comments: |
     Embed build time, kernel version and build architecture:
     https://sources.debian.net/src/yersinia/0.7.3-1/configure.in/?hl=832:845#L832
+yocto-reader:
+  version: 0.9.4
+  issues:
+    - timestamps_in_gzip_headers
+    - timestamps_in_tarball
 yorick-spydr:
   version: 0.8.2-3
   comments: |
     Timestamp in PNG file.
   bugs:
     - 764993
+ytree:
+  version: 1.94-1.1
+  issues:
+    - timestamps_in_gzip_headers
 yubikey-personalization-gui:
   version: 3.1.16-1
   issues:
@@ -6726,6 +6928,15 @@ zipios++:
   version: 0.1.5.9+cvs.2007.04.28-5.1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+zomg:
+  version: 0.7.1-1
+  issues:
+    - not_using_dh_builddeb
+    - timestamps_in_gzip_headers
+zope-mysqlda:
+  version: 3.1.1-1
+  comments: |
+    Random field order in /usr/share/zope/Products/ZMySQLDA/.dzproduct
 zope-replacesupport:
   version: 1.0.3-6
   comments: |
