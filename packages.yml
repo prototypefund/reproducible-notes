@@ -95,16 +95,16 @@ alpine:
   comments: |
     Build timestamp is written in alpine binary:
     https://sources.debian.net/src/alpine/2.11%2Bdfsg1-3/alpine/Makefile.am/?hl=46:48#L46
+alsa-lib:
+  version: 1.0.28-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 alsamixergui:
   version: 0.9.0rc2-1-9.1
   issues:
     - timestamps_generated_by_docbook_to_man
 alsaplayer:
   version: 0.99.81-1
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
-alsa-lib:
-  version: 1.0.28-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
 amanda:
@@ -178,10 +178,6 @@ apache2:
   version: 2.4.10-7
   issues:
     - timestamps_from_cpp_macros
-apparmor:
-  version: 2.9.0-3
-  issues:
-    - timestamps_in_pdf_generated_by_latex
 apbs:
   version: 1.4-1
   issues:
@@ -190,6 +186,10 @@ apertium-dbus:
   version: 0.1-1.1
   comments: |
     Package installs Python bytecode.
+apparmor:
+  version: 2.9.0-3
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 apr-util:
   version: 1.5.4-1
   issues:
@@ -1909,6 +1909,11 @@ git:
   issues:
     - not_using_dh_builddeb
     - timestamps_in_gzip_headers
+git-dpm:
+  version: 0.9.1-1
+  issues:
+    - timestamps_in_documentation_generated_by_groff
+    - pdf_created_by_ghostscript
 gitolite:
   version: 2.3-1
   issues:
@@ -1919,11 +1924,6 @@ gitolite3:
   issues:
     - not_using_dh_builddeb
     - timestamps_in_gzip_headers
-git-dpm:
-  version: 0.9.1-1
-  issues:
-    - timestamps_in_documentation_generated_by_groff
-    - pdf_created_by_ghostscript
 gkeyfile-sharp:
   version: 0.1-4
   issues:
@@ -6250,6 +6250,10 @@ singularity:
   version: 0.30c-1
   issues:
     - timestamps_generated_by_docbook_to_man
+sip-tester:
+  version: 3.2-1
+  issues:
+    - timestamps_from_cpp_macros
 sipxtapi:
   version: 3.3.0~test17-1
   comments: |
@@ -6257,10 +6261,6 @@ sipxtapi:
     https://sources.debian.net/src/sipxtapi/3.3.0~test17-1/config/sipXpkgtop.mak/
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-sip-tester:
-  version: 3.2-1
-  issues:
-    - timestamps_from_cpp_macros
 sisu-inject:
   version: 0.0.0.M5-1
   issues:
