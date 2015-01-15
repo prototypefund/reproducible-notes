@@ -353,6 +353,11 @@ bcel:
   version: 6.0~rc3-1
   issues:
     - timestamps_in_maven_pom_files
+bcron:
+  version: 0.10-3
+  issues:
+    - not_using_dh_builddeb
+    - timestamps_in_gzip_headers
 beav:
   version: 1:1.40-18
   issues:
@@ -482,6 +487,11 @@ boo:
   version: 0.9.5~git20110729.r1.202a430-2
   issues:
     - timestamps_in_pe_binaries
+boolector:
+  version: 1.5.118.6b56be4.121013-1
+  comments: |
+    Embed build time, hostname, and kernel version:
+    http://sources.debian.net/src/boolector/1.5.118.6b56be4.121013-1/lingeling/mkconfig/?hl=16:17#L16
 boost1.54:
   version: 1.54.0-5
   issues:
@@ -672,6 +682,11 @@ cherrypy3:
   version: 3.5.0-1
   issues:
     - use_epydoc
+chiark-utils:
+  version: 4.4.2
+  issues:
+    - timestamps_in_gzip_headers
+    - not_using_dh_builddeb
 chimera2:
   version: 2.0a19-8
   issues:
@@ -1088,6 +1103,10 @@ device-tree-compiler:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_dvi_generated_by_latex
+device3dfx:
+  version: 2013.08.08-1
+  issues:
+    - timestamps_in_tarball
 dff:
   version: 1.3.0+dfsg.1-4.1
   issues:
@@ -1241,6 +1260,10 @@ dutch:
   version: 1:2.10-2
   issues:
     - timestamps_in_gzip_headers
+dvbackup:
+  version: 1:0.0.4-7
+  issues:
+    - timestamps_generated_by_docbook_to_man
 dvbsnoop:
   version: 1.4.50-5
   issues:
@@ -1786,6 +1809,11 @@ gap-alnuth:
     - timestamps_in_gzip_headers
 gap-autpgrp:
   version: 1.5-1
+  issues:
+    - timestamps_in_gzip_headers
+    - timestamps_in_pdf_generated_by_latex
+gap-ctbllib:
+  version: 1r2p2.dfsg.0-2
   issues:
     - timestamps_in_gzip_headers
     - timestamps_in_pdf_generated_by_latex
@@ -2706,6 +2734,10 @@ jenkins-trilead-ssh2:
   version: 217-jenkins-7-1
   issues:
     - timestamps_in_maven_pom_files
+jfractionlab:
+  version: 0.91-3
+  issues:
+    - timestamps_in_jar
 jglobus:
   version: 2.1.0-1
   issues:
@@ -3091,6 +3123,11 @@ libindicate:
   version: 0.6.92-2
   issues:
     - timestamps_in_pe_binaries
+libjama:
+  version: 1.2.4-2
+  issues:
+    - timestamps_in_gzip_headers
+    - not_using_dh_builddeb
 libjavaewah-java:
   version: 0.6.12-1
   issues:
@@ -4242,6 +4279,11 @@ netqmail:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+netris:
+  version: 0.52-9
+  issues:
+    - not_using_dh_builddeb
+    - timestamps_in_gzip_headers
 netrw:
   version: 1.3.2-2
   comments: |
@@ -4711,6 +4753,10 @@ pentaho-reporting-flow-engine:
   issues:
     - timestamps_in_jar
     - timestamps_in_documentation_generated_by_javadoc
+perdition:
+  version: 2.1-2
+  issues:
+    - timestamps_in_gzip_headers
 performous:
   version: 0.7.0+git20140715-2
   issues:
@@ -5822,6 +5868,10 @@ python-graph:
   issues:
     - use_epydoc
     - random_order_in_egg_info_top_level_txt
+python-kinterbasdb:
+  version: 3.3.0-3
+  comments: |
+    Build time in /usr/lib/python2.7/dist-packages/kinterbasdb/__init__.py
 python-mockito:
   version: 0.5.2-4
   issues:
@@ -5924,6 +5974,10 @@ qpid-proton:
   version: 0.7-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+qrfcview:
+  version: 0.62-5.2
+  issues:
+    - timestamps_in_png
 qsampler:
   version: 0.2.2-5
   issues:
@@ -5952,6 +6006,11 @@ quakespasm:
   version: 0.85.9-1
   issues:
     - timestamps_from_cpp_macros
+quantlib:
+  version: 1.4.1-1
+  comments: |
+    Test duration in
+    /usr/share/doc/libquantlib0/examples/test-suite/quantlib-test-suite.log.gz
 quassel:
   version: 1:0.10.0-2.2
   issues:
@@ -6045,6 +6104,10 @@ ripmime:
   comments: |
     Embed build timestamp, hostname and kernel version:
     https://sources.debian.net/src/ripmime/1.4.0.10.debian.1-1/generate-buildcodes.sh/
+rlpr:
+  version: 2.05-4
+  issues:
+    - timestamps_from_cpp_macros
 roarplaylistd:
   version: 0.1.9-1
   comments: |
@@ -6394,6 +6457,13 @@ spe:
   version: 0.8.4.h-3.1
   issues:
     - timestamps_generated_by_docbook_to_man
+speech-tools:
+  version: 1:2.1~release-8
+  comments: |
+    Build time in /usr/lib/speech_tools/config/modincludes.inc and
+    /usr/lib/speech_tools/config/system.mak
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 speex:
   version: 1.2~rc1.2-1
   issues:
@@ -6438,6 +6508,10 @@ srtp:
   version: 1.4.5~20130609~dfsg-1.1
   issues:
     - timestamps_in_pdf_generated_by_latex
+ssh-cron:
+  version: 0.92.00-1
+  issues:
+    - timestamps_in_gzip_headers
 ssmtp:
   version: 2.64-8
   issues:
@@ -6903,6 +6977,11 @@ util-vserver:
   version: 0.30.216-pre3054-1
   issues:
     - timestamps_from_cpp_macros
+uucpsend:
+  version: 1.1-4
+  issues:
+    - not_using_dh_builddeb
+    - timestamps_in_gzip_headers
 uudeview:
   version: 0.5.20-3.4
   issues:
@@ -7101,6 +7180,10 @@ wmpuzzle:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+wmweather:
+  version: 2.4.5-2
+  issues:
+    - not_using_dh_builddeb
 wmwork:
   version: 0.2.6-1
   issues:
@@ -7218,6 +7301,10 @@ xfonts-bolkhov:
   version: 1.1.20001007-7
   issues:
     - timestamps_in_gzip_headers
+xfonts-cronyx:
+  version: 2.3.8-6
+  issues:
+    - timestamps_in_gzip_headers
 xfonts-cyrillic:
   version: 1:1.0.3
   issues:
@@ -7324,6 +7411,11 @@ xracer:
   version: 0.96.9.1-7
   issues:
     - timestamps_generated_by_docbook_to_man
+xscavenger:
+  version: 1.4.4-9
+  issues:
+    - not_using_dh_builddeb
+    - timestamps_in_gzip_headers
 xsddiagram:
   version: 0.16-1
   issues:
@@ -7332,6 +7424,11 @@ xslthl:
   version: 2.1.0-4
   issues:
     - timestamps_in_maven_pom_files
+xtel:
+  version: 3.3.0-17.1
+  issues:
+    - timestamps_in_gzip_headers
+    - timestamps_in_png
 xtrlock:
   version: 2.6
   issues:
