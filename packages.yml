@@ -913,6 +913,10 @@ cvm:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
     - timestamps_in_static_libraries
+cvs:
+  version: 2:1.12.13+real-15
+  issues:
+    - pdf_created_by_ghostscript
 cvs-buildpackage:
   version: 5.23
   issues:
@@ -3912,6 +3916,11 @@ mkcue:
   version: 1-4
   issues:
     - timestamps_generated_by_docbook_to_man
+mksh:
+  version: 50d-3
+  comments: |
+    Puts output from $(date) into README.Debian; fix committed and queued
+    for 50d-4.
 mkvtoolnix:
   version: 7.2.0-1
   issues:
@@ -4618,6 +4627,12 @@ password-gorilla:
     Timestamps in PNG images.
   issues:
     - timestamps_generated_by_docbook_to_man
+pax:
+  version: 1:20140703-2
+  comments: |
+    Use gcc to go from .c to final executable directly, having
+    temporary .o files in debug symbols, resulting in different
+    build id.
 pax-utils:
   version: 0.8.1-1
   issues:
