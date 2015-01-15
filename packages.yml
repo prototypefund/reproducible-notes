@@ -103,6 +103,10 @@ alsaplayer:
   version: 0.99.81-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+alsa-lib:
+  version: 1.0.28-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 amanda:
   version: 1:3.3.6-4
   comments: |
@@ -124,6 +128,10 @@ analog:
   version: 2:6.0-20
   issues:
     - timestamps_from_cpp_macros
+angband:
+  version: 3.3.2-2.1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 angband-doc:
   version: 3.0.3.5
   issues:
@@ -170,6 +178,10 @@ apache2:
   version: 2.4.10-7
   issues:
     - timestamps_from_cpp_macros
+apparmor:
+  version: 2.9.0-3
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 apbs:
   version: 1.4-1
   issues:
@@ -865,6 +877,10 @@ crashmail:
     - timestamps_from_cpp_macros
 crawl:
   version: 2:0.15.1-1
+  issues:
+    - timestamps_from_cpp_macros
+criticalmass:
+  version: 1.0.0-2
   issues:
     - timestamps_from_cpp_macros
 crrcsim:
@@ -1725,6 +1741,10 @@ ftpcopy:
   issues:
     - not_using_dh_builddeb
     - timestamps_in_gzip_headers
+fusionforge:
+  version: 5.3.2+20141104-3
+  issues:
+    - timestamps_generated_by_docbook_to_man
 fvwm:
   version: 1:2.6.5.ds-3
   issues:
@@ -1899,6 +1919,11 @@ gitolite3:
   issues:
     - not_using_dh_builddeb
     - timestamps_in_gzip_headers
+git-dpm:
+  version: 0.9.1-1
+  issues:
+    - timestamps_in_documentation_generated_by_groff
+    - pdf_created_by_ghostscript
 gkeyfile-sharp:
   version: 0.1-4
   issues:
@@ -3749,6 +3774,10 @@ mffm-fftw:
   version: 1.7-3
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+mgetty:
+  version: 1.1.36-2.1
+  issues:
+    - timestamps_from_cpp_macros
 mgm:
   version: 1.1.svn.20080520-1
   issues:
@@ -6148,6 +6177,10 @@ sipxtapi:
     https://sources.debian.net/src/sipxtapi/3.3.0~test17-1/config/sipXpkgtop.mak/
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+sip-tester:
+  version: 3.2-1
+  issues:
+    - timestamps_from_cpp_macros
 sisu-inject:
   version: 0.0.0.M5-1
   issues:
@@ -6306,6 +6339,10 @@ squid3:
   version: 3.4.8-2
   issues:
     - timestamps_from_cpp_macros
+srtp:
+  version: 1.4.5~20130609~dfsg-1.1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 ssmtp:
   version: 2.64-8
   issues:
@@ -6538,6 +6575,10 @@ tinydyndns:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+tinymux:
+  version: 2.6.5.28-1
+  issues:
+    - timestamps_from_cpp_macros
 tipa:
   version: 2:1.3-20
   issues:
