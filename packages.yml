@@ -1343,6 +1343,14 @@ eigen3:
     Package has been blacklisted for now.
   issues:
     - blacklisted_on_jenkins
+ejabberd:
+  version: 14.07-4
+  issues:
+    - timestamps_in_beam_files
+ejabberd-contrib:
+  version: 0.2014.09.22-1
+  issues:
+    - timestamps_in_beam_files
 ekg:
   version: 1:1.9~pre+r2855-2
   issues:
@@ -3726,6 +3734,10 @@ makepp:
   version: 2.0.98.5-1
   issues:
     - timestamps_in_gzip_headers
+manderlbot:
+  version: 0.9.2-19
+  issues:
+    - timestamps_in_beam_files
 manpages:
   version: 3.74-1
   bugs:
@@ -6051,6 +6063,10 @@ r-cran-ncdf4:
   version: 1.13-1
   issues:
     - dh_fixmtimes_runs_before_dh_always_exclude
+rabbitmq-server:
+  version: 3.4.2-2
+  issues:
+    - timestamps_in_beam_files
 radeontool:
   version: 1.6.3-1
   issues:
@@ -6855,6 +6871,10 @@ tsdecrypt:
   comments: |
     Embed build time:
     https://sources.debian.net/src/tsdecrypt/10.0-2/Makefile/?hl=7#L7
+tsung:
+  version: 1.5.1-1
+  issues:
+    - timestamps_in_beam_files
 ttf-atarismall:
   version: 2.1-4
   comments: |
@@ -7179,6 +7199,10 @@ wine-gecko-2.24:
   version: 2.24+dfsg-1
   issues:
     - debbindiff_runs_forever
+wings3d:
+  version: 1.5.3-2
+  issues:
+    - timestamps_in_beam_files
 wise:
   version: 2.4.1-17
   issues:
@@ -7493,6 +7517,10 @@ yasm:
   version: 1.2.0-2
   issues:
     - timestamps_from_cpp_macros
+yaws:
+  version: 1.98-4
+  issues:
+    - timestamps_in_beam_files
 yelp:
   version: 3.14.1-1
   issues:
