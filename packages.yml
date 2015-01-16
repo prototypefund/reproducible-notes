@@ -471,6 +471,10 @@ blosxom:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+boa-constructor:
+  version: 0.6.1-13
+  issues:
+    - timestamps_in_zip
 bochs:
   version: 2.6-2
   issues:
@@ -898,6 +902,10 @@ criticalmass:
   version: 1.0.0-2
   issues:
     - timestamps_from_cpp_macros
+critterding:
+  version: 1.0-beta12.1-1.2
+  issues:
+    - timestamps_in_png
 crrcsim:
   version: 0.9.12-6.1
   issues:
@@ -910,6 +918,10 @@ csvimp:
   version: 0.5.0-2
   issues:
     - timestamps_from_cpp_macros
+ctpp2:
+  version: 2.8.3-15
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 cups:
   version: 1.7.5-4
   comments: |
