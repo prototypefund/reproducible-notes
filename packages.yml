@@ -4436,6 +4436,10 @@ obexftp:
   version: 0.23-4
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+ocaml-atd:
+  version: 1.1.2-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 ocaml-curses:
   version: 1.0.3-2
   issues:
@@ -4767,6 +4771,10 @@ pdp:
   version: 1:0.14.1-2
   issues:
     - timestamps_generated_by_docbook_to_man
+pecomato:
+  version: 0.0.15-7
+  issues:
+    - pdf_created_by_ghostscript
 pekwm:
   version: 0.1.17-1
   comments: |
@@ -6189,6 +6197,10 @@ rtai:
   issues:
     - timestamps_in_static_libraries
     - timestamps_in_tarball
+ruby-builder:
+  version: 3.2.2-4
+  comments: |
+    Build time in /usr/share/doc/ruby-builder-doc/rdoc/created.rid
 rungetty:
   version: 1.2-15
   issues:
