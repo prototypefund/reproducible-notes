@@ -59,6 +59,11 @@ timestamps_in_source_generated_by_pyqt4_ui:
   description: |
     PyQt4 UI code generator writes a timestamp to the source files it creates.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInSourceGeneratedByPyQt
+timestamps_in_python_code_generated_by_cheetah:
+  description: |
+    Cheetah is embedding two timestamps into generated Python code by default.
+    This can be disabled with a compiler flag.
+  url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInPythonCodeGeneratedByCheetah
 random_order_in_egg_info_top_level_txt:
   description: |
     Python packages have components in `PACKAGE.egg-info/top_level.txt`
