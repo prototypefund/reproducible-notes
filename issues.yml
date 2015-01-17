@@ -191,3 +191,7 @@ python_wheel_package:
     the fields of which are written in random order. They also have the
     usual problems of zip files.
   url: https://wiki.debian.org/ReproducibleBuilds/PythonWheelPackage
+gtk_doc_api_index_full:
+  description: |
+    GTK-Doc generated HTML differs between runs.
+
