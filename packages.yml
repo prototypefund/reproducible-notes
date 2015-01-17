@@ -4196,6 +4196,8 @@ mayavi2:
   version: 4.3.1-3.1
   comments: |
     Contain .pyc files
+  issues:
+    - random_order_in_python_environment_pickle
 mcl:
   version: 1:14-137-1
   issues:
@@ -4402,6 +4404,10 @@ morfologik-stemming:
   version: 1.9.0+dfsg-0.1
   issues:
     - timestamps_in_maven_pom_files
+morse-simulator:
+  version: 1.2.1-2
+  issues:
+    - random_order_in_python_environment_pickle
 mozilla-dom-inspector:
   version: 1:2.0.14-1
   issues:
@@ -5020,6 +5026,10 @@ palo:
   comments: |
     Embed username, hostname and build time.
     https://sources.debian.net/src/palo/1.95/palo/Makefile/?hl=31#L31
+paramiko:
+  version: 1.15.1-1
+  issues:
+    - random_order_in_python_environment_pickle
 paraview:
   version: 4.1.0+dfsg+1-1
   issues:
@@ -5116,6 +5126,10 @@ pdp:
   version: 1:0.14.1-2
   issues:
     - timestamps_generated_by_docbook_to_man
+pebl:
+  version: 1.0.2-2
+  issues:
+    - random_order_in_python_environment_pickle
 pecomato:
   version: 0.0.15-7
   issues:
@@ -6177,6 +6191,10 @@ pxlib:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+py-postgresql:
+  version: 1.1.0-2
+  issues:
+    - random_order_in_python_environment_pickle
 pyacidobasic:
   version: 2.2-1
   issues:
@@ -6274,6 +6292,10 @@ python-django-bootstrap-form:
   version: 3.1.0-5
   issues:
     - random_order_in_egg_info_top_level_txt
+python-fitbit:
+  version: 0.1.2-1
+  issues:
+    - random_order_in_python_environment_pickle
 python-gflags:
   version: 1.5.1-2
   issues:
@@ -6315,6 +6337,10 @@ python-pip:
   version: 1.5.6-4
   issues:
     - python_wheel_package
+python-pyaudio:
+  version: 0.2.8-1
+  issues:
+    - random_order_in_python_environment_pickle
 python-qt4:
   version: 4.11.2+dfsg-1
   bugs:
@@ -6381,6 +6407,10 @@ qemu-launcher:
   version: 1.7.4-1
   issues:
     - timestamps_in_gzip_headers
+qiime:
+  version: 1.8.0+dfsg-4
+  issues:
+    - random_order_in_python_environment_pickle
 qjackctl:
   version: 0.3.12-1
   issues:
