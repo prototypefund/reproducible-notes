@@ -159,3 +159,9 @@ pdf_created_by_ghostscript:
   description: |
     PDF files created by Ghostscript contain timestamps and ids.
   url: https://wiki.debian.org/ReproducibleBuilds/PdfGeneratedByGhostscript#preview
+serial_numbers_in_ogg:
+  description: |
+    Ogg streams must include unique serial numbers. By default oggenc includes
+    random serial numbers in the header, which are seeded by the current time
+    and the pid. 
+  url: https://wiki.debian.org/ReproducibleBuilds/OggSerialNumbers
