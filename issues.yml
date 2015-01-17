@@ -194,4 +194,10 @@ python_wheel_package:
 gtk_doc_api_index_full:
   description: |
     GTK-Doc generated HTML differs between runs.
+random_order_in_java_jar_manifest_mf:
+  description: |
+    Java .jar files written by some tools have a random order in MANIFEST.MF.
+timestamp_in_java_bnd_manifest:
+  description: |
+    bndtools bnd outputs Bnd-LastModified and other entropy
 
