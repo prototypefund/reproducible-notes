@@ -200,4 +200,10 @@ random_order_in_java_jar_manifest_mf:
 timestamp_in_java_bnd_manifest:
   description: |
     bndtools bnd outputs Bnd-LastModified and other entropy
+timestamps_in_python_docutils:
+  description: |
+    Python docutils writes timestamps into its generated documentation.
+random_ids_in_docbook_xsl:
+  description: |
+    DocBook generates random ids for some links in generated html documentation.
 

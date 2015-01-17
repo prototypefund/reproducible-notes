@@ -78,6 +78,10 @@ airport-utils:
   version: 2-3
   issues:
     - timestamps_in_jar
+aisleriot:
+  version: 3.14.1-1
+  issues:
+    - timestamps_in_gzip_headers
 albatross:
   version: 1.36-5.5
   issues:
@@ -203,6 +207,10 @@ apertium-dbus:
   version: 0.1-1.1
   comments: |
     Package installs Python bytecode.
+apg:
+  version: 2.2.3.dfsg.1-2
+  issues:
+    - timestamps_in_tarball
 apparmor:
   version: 2.9.0-3
   issues:
@@ -308,6 +316,10 @@ authbind:
   version: 2.1.1
   issues:
     - not_using_dh_builddeb
+autoconf:
+  version: 2.69-8
+  issues:
+    - pdf_created_by_ghostscript
 autodocksuite:
   version: 4.2.6-2
   issues:
@@ -560,6 +572,10 @@ bridge-method-injector:
   version: 1.13-1
   issues:
     - timestamps_in_maven_pom_files
+brltty:
+  version: 5.2~20141018-2
+  comments: |
+    Entropy from (gcc) compile or link order
 bsaf:
   version: 1.9-4
   issues:
@@ -856,6 +872,10 @@ codelite:
   version: 6.1.1+dfsg-4
   issues:
     - timestamps_from_cpp_macros
+cogl:
+  version: 1.18.2-3
+  issues:
+    - gtk_doc_api_index_full
 coinor-symphony:
   version: 5.6.1-1
   issues:
@@ -1089,6 +1109,10 @@ dbus:
   version: 1.8.14-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+dbus-python:
+  version: 1.2.0-2
+  issues:
+    - timestamps_in_python_docutils
 dbus-sharp:
   version: 0.8.1-1
   issues:
@@ -1251,6 +1275,10 @@ diploma:
   version: 1.2.11
   issues:
     - timestamps_in_gzip_headers
+directfb:
+  version: 1.2.10.0-5.1
+  issues:
+    - timestamps_from_cpp_macros
 disruptor:
   version: 3.3.0-2
   issues:
@@ -1794,6 +1822,10 @@ flowscan:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+fltk1.1:
+  version: 1.1.10-19
+  issues:
+    - timestamps_in_documentation_generated_by_htmldoc
 flute:
   version: 1:1.1.6-3
   issues:
@@ -2373,6 +2405,10 @@ gnome-settings-daemon:
   comments: |
     POT-Creation-Date has time of the build. Probably updated by
     intltool-extract.
+gnome-sharp2:
+  version: 2.24.2-3
+  issues:
+    - timestamps_in_pe_binaries
 gnome-subtitles:
   version: 1.2-4
   issues:
@@ -2551,6 +2587,10 @@ gstreamer-sharp:
   version: 0.9.2-4
   issues:
     - timestamps_in_pe_binaries
+gstreamer0.10:
+  version: 0.10.36-1.5
+  issues:
+    - pdf_created_by_ghostscript
 gstreamer1.0:
   version: 1.4.4-2
   issues:
@@ -3395,6 +3435,10 @@ libffado:
   version: 2.2.1-2
   issues:
     - timestamps_from_cpp_macros
+libffi:
+  version: 3.1-2
+  comments: |
+    Timestamp in custom test script
 libflickrnet:
   version: 1:2.2.0-4
   issues:
@@ -3650,6 +3694,10 @@ libpixels-java:
   issues:
     - timestamps_in_jar
     - timestamps_in_documentation_generated_by_javadoc
+libplist:
+  version: 1.11-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 libproxy:
   version: 0.4.11-4
   issues:
@@ -3787,6 +3835,10 @@ libupnp:
     - timestamps_in_documentation_generated_by_doxygen
   bugs:
     - 774518
+libusb-1.0:
+  version: 1.0.19-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 libvdpau:
   version: 0.8-3
   issues:
@@ -3843,6 +3895,14 @@ libxerces2-java:
   version: 2.11.0-7
   issues:
     - timestamps_in_maven_pom_files
+libxext:
+  version: 1.3.3-1
+  comments: |
+    Generated ids in documentation
+libxfont:
+  version: 1.4.99.901-1
+  comments: |
+    Generated ids in documentation
 libxml-commons-resolver1.1-java:
   version: 1.2-7
   issues:
@@ -3867,6 +3927,10 @@ libxstream-java:
   version: 1.4.7-2
   issues:
     - timestamps_in_maven_pom_files
+libxtst:
+  version: 1.2.2-1
+  comments: |
+    Generated ids in documentation
 libyaml:
   version: 0.1.6-2
   issues:
