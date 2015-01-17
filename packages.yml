@@ -861,6 +861,10 @@ console-cyrillic:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+console-setup:
+  version: 1.116
+  bugs:
+    - 775531
 convmv:
   version: 1.12-2
   issues:
