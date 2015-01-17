@@ -163,5 +163,10 @@ serial_numbers_in_ogg:
   description: |
     Ogg streams must include unique serial numbers. By default oggenc includes
     random serial numbers in the header, which are seeded by the current time
-    and the pid. 
+    and the pid.
   url: https://wiki.debian.org/ReproducibleBuilds/OggSerialNumbers
+timestamps_in_pdf_generated_by_apache_fop:
+  description: |
+    PDF files generated with Apache FOP will contain CreationDate and
+    ModDate set to the current date and time.
+  url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInPDFGeneratedByApacheFOP
