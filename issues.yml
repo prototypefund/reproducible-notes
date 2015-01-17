@@ -179,3 +179,9 @@ randomness_in_gcj_output:
   description: |
     gcj's output varies, cause unknown
   url: https://wiki.debian.org/ReproducibleBuilds/RandomnessInBuildIdGeneratedByGcj
+python_wheel_package:
+  description: |
+    Python Wheel packages (renamed zip files) contain a metadata.json file,
+    the fields of which are written in random order. They also have the
+    usual problems of zip files.
+  url: https://wiki.debian.org/ReproducibleBuilds/PythonWheelPackage

@@ -6223,6 +6223,10 @@ python-pcs:
   version: 0.5+debian-1.2
   issues:
     - timestamps_in_pdf_generated_by_latex
+python-pip:
+  version: 1.5.6-4
+  issues:
+    - python_wheel_package
 python-qt4:
   version: 4.11.2+dfsg-1
   bugs:
@@ -6243,6 +6247,10 @@ python-ssdeep:
   version: 3.1+dfsg-1
   issues:
     - random_order_in_egg_info_top_level_txt
+python-urllib3:
+  version: 1.9.1-3
+  issues:
+    - python_wheel_package
 python-wsme:
   version: 0.6-3
   issues:
@@ -6698,6 +6706,10 @@ sisu-plexus:
   version: 0.0.0.M5-1
   issues:
     - timestamps_in_tarball
+six:
+  version: 1.8.0-1
+  issues:
+    - python_wheel_package
 skalibs:
   version: 0.47-1
   issues:
