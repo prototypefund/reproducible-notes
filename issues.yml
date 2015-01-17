@@ -175,3 +175,7 @@ randomness_in_html_generated_by_texi2html:
     texi2html's output varies, probably because of elements being processed
     in Perl hash order.
   url: https://wiki.debian.org/ReproducibleBuilds/RandomnessInHTMLGeneratedByTexi2html
+randomness_in_gcj_output:
+  description: |
+    gcj's output varies, cause unknown
+  url: https://wiki.debian.org/ReproducibleBuilds/RandomnessInBuildIdGeneratedByGcj
