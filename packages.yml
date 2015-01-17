@@ -111,6 +111,11 @@ altree:
   version: 1.3.1-2
   issues:
     - pdf_created_by_ghostscript
+am-utils:
+  version: 6.2+rc20110530-3.2
+  issues:
+    - randomness_in_html_generated_by_texi2html
+    - timestamps_from_cpp_macros
 amanda:
   version: 1:3.3.6-4
   comments: |
@@ -198,6 +203,12 @@ apr-util:
   version: 1.5.4-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+apron:
+  version: 0.9.10-6
+  comments: |
+    apron.a contains a random path in /tmp. ocaml issue?
+  issues:
+    - randomness_in_html_generated_by_texi2html
 apt:
   version: 1.0.9.3
   issues:
@@ -338,12 +349,12 @@ basex:
 bash:
   version: 4.3-11
   comments: |
-    Timestamp in man2html output:
-    https://sources.debian.net/src/bash/4.3-11/support/man2html.c/?hl=110#L110
     bashref.pdf can be reproduced when fixing the same time using faketime. So
     it might be that dvipdfm seeds stuff using time…
   issues:
-    - timestamps_in_documentation_generated_by_groff
+    - timestamps_in_documentation_generated_by_man2html
+    - randomness_in_html_generated_by_texi2html
+    - timestamps_in_pdf_generated_by_latex
     - pdf_created_by_ghostscript
 basket:
   version: 2.10~beta+git6fed731-1
@@ -2533,6 +2544,11 @@ iipimage:
   version: 0.9.9-3
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+ilisp:
+  version: 5.12.0+cvs.2004.12.26-21
+  issues:
+    - timestamps_in_pdf_generated_by_latex
+    - randomness_in_html_generated_by_texi2html
 imagemagick:
   version: 8:6.8.9.9-5
   issues:
@@ -3141,6 +3157,11 @@ libflickrnet:
   version: 1:2.2.0-4
   issues:
     - timestamps_in_pe_binaries
+libforms:
+  version: 1.2.3-1.2
+  issues:
+    - timestamps_in_pdf_generated_by_latex
+    - randomness_in_html_generated_by_texi2html
 libfreenect:
   version: 1:0.2.0+dfsg-2
   issues:
@@ -3811,6 +3832,10 @@ manpages:
   version: 3.74-1
   bugs:
     - 774852
+maria:
+  version: 1.3.5-4
+  issues:
+    - randomness_in_html_generated_by_texi2html
 mariadb-10.0:
   version: 10.0.14-2
   issues:

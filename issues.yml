@@ -170,3 +170,8 @@ timestamps_in_pdf_generated_by_apache_fop:
     PDF files generated with Apache FOP will contain CreationDate and
     ModDate set to the current date and time.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInPDFGeneratedByApacheFOP
+randomness_in_html_generated_by_texi2html:
+  description: |
+    texi2html's output varies, probably because of elements being processed
+    in Perl hash order.
+  url: https://wiki.debian.org/ReproducibleBuilds/RandomnessInHTMLGeneratedByTexi2html
