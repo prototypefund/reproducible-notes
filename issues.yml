@@ -155,6 +155,10 @@ timestamps_in_documentation_generated_by_htmldoc:
     PDF files generated with htmldoc will contain CreationDate set to the current
     date and time.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestmapsInDocumentationGeneratedByHtmldoc
+timestamps_in_erlc_beam:
+  description: |
+    The Erlang erlc compiler embeds the current timestamp into the build output.
+  url: https://wiki.debian.org/ReproducibleBuilds/TimestampInErlangBeam
 pdf_created_by_ghostscript:
   description: |
     PDF files created by Ghostscript contain timestamps and ids.
