@@ -3312,9 +3312,8 @@ libav:
     - timestamps_from_cpp_macros
 libb-hooks-op-check-entersubforcv-perl:
   version: 0.09-3
-  comments: |
-    Random Perl hash order in
-    /usr/lib/x86_64-linux-gnu/perl5/5.20/B/Hooks/OP/Check/EntersubForCV/Install/Files.pm
+  issues:
+    - random_order_in_files_generated_by_extutils_depends
 libbluray:
   version: 0.6.2-1
   issues:
@@ -3528,19 +3527,16 @@ libgpod:
     - timestamps_in_pe_binaries
 libgtk2-gladexml-perl:
   version: 1.007-2
-  comments: |
-    Random Perl hash order in
-    /usr/lib/x86_64-linux-gnu/perl5/5.20/Gtk2/GladeXML/Install/Files.pm
+  issues:
+    - random_order_in_files_generated_by_extutils_depends
 libgtk2-spell-perl:
   version: 1.04-2
-  comments: |
-    Random Perl hash order in
-    /usr/lib/x86_64-linux-gnu/perl5/5.20/Gtk2/Spell/Install/Files.pm
+  issues:
+    - random_order_in_files_generated_by_extutils_depends
 libgtk2-trayicon-perl:
   version: 0.06-2
-  comments: |
-    Random Perl hash order in
-    /usr/lib/x86_64-linux-gnu/perl5/5.20/Gtk2/TrayIcon/Install/Files.pm
+  issues:
+    - random_order_in_files_generated_by_extutils_depends
 libhibernate-commons-annotations-java:
   version: 3.2.0.Final-2
   issues:

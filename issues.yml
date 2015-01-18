@@ -203,4 +203,8 @@ timestamp_in_java_bnd_manifest:
 timestamps_in_python_docutils:
   description: |
     Python docutils writes timestamps into its generated documentation.
+random_order_in_files_generated_by_extutils_depends:
+  description: |
+    Perl files generated with ExtUtils::Depends contain an unsorted dependency list.
+  url: https://wiki.debian.org/ReproducibleBuilds/RandomOrderInPerlFilesGeneratedByExtUtilsDepends
 
