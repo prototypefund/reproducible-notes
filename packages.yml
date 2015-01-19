@@ -354,8 +354,8 @@ awesome:
     - timestamps_from_cpp_macros
 babiloo:
   version: 2.0.11-1
-  comments: |
-    File order variation in /usr/share/python-support/babiloo.private
+  issues:
+    - unsorted_filelist_python_support_private
 ballerburg:
   version: 1.1.0-1
   issues:
@@ -959,8 +959,8 @@ condor:
     - timestamps_from_cpp_macros
 conduit:
   version: 0.3.17-1.1
-  comments: |
-    Randomness in order of /usr/share/python-support/conduit.private
+  issues:
+    - unsorted_filelist_python_support_private
 config-manager:
   version: 0.4-2.1
   issues:
@@ -5000,9 +5000,8 @@ nss:
     - timestamps_from_cpp_macros
 ntlmaps:
   version: 0.9.9.0.1-11.3
-  comments: |
-    Random order of Python files in
-    `/usr/share/python-support/ntlmaps.private`.
+  issues:
+    - unsorted_filelist_python_support_private
 ntop:
   version: 3:5.0.1+dfsg1-2.1
   issues:
@@ -6681,8 +6680,8 @@ python3.4:
     - timestamps_from_cpp_macros
 pytone:
   version: 3.0.0-1
-  comments: |
-    Order of files vary in /usr/share/python-support/pytone.private
+  issues:
+    - unsorted_filelist_python_support_private
 pyxb:
   version: 1.2.4+dfsg-1
   issues:
@@ -6942,8 +6941,8 @@ sacjava:
     - timestamps_in_jar
 salome-kernel:
   version: 6.5.0-8.1
-  comments: |
-    Order of files vary in /usr/share/python-support/salome-kernel.private
+  issues:
+    - unsorted_filelist_python_support_private
 salt:
   version: 2014.1.13+ds-1
   comments: |
@@ -7270,8 +7269,8 @@ sphinxtrain:
     - timestamps_from_cpp_macros
 spkproxy:
   version: 1.4.8-4.2
-  comments: |
-    Variation of order in /usr/share/python-support/spikeproxy.private
+  issues:
+    - unsorted_filelist_python_support_private
 spl:
   version: 1.0~pre6-4
   issues:
