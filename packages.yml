@@ -45,6 +45,10 @@ acpica-unix:
   version: 20140926-1
   issues:
     - timestamps_from_cpp_macros
+activemq-protobuf:
+  version: 1.1-3
+  issues:
+    - timestamps_in_maven_pom_files
 activiz.net:
   version: 1:1.0~git20111214-2
   issues:
@@ -137,6 +141,10 @@ ampsharp:
   version: 2.0.4-2
   issues:
     - timestamps_in_pe_binaries
+amsynth:
+  version: 1.4.2-2
+  issues:
+    - timestamps_from_cpp_macros
 analog:
   version: 2:6.0-20
   issues:
@@ -344,6 +352,10 @@ awesome:
   version: 3.4.15-1
   issues:
     - timestamps_from_cpp_macros
+babiloo:
+  version: 2.0.11-1
+  comments: |
+    File order variation in /usr/share/python-support/babiloo.private
 ballerburg:
   version: 1.1.0-1
   issues:
@@ -571,6 +583,10 @@ bootchart:
   version: 0.10~svn407-4.1
   issues:
     - timestamps_in_jar
+bossa:
+  version: 1.3~20120408-5
+  issues:
+    - timestamps_in_png
 botan1.10:
   version: 1.10.8-2
   comments: |
@@ -752,6 +768,12 @@ chardet:
   version: 2.3.0-1
   issues:
     - python_wheel_package
+charybdis:
+  version: 3.4.2-4
+  comments: |
+    Embed build time, hostname, kernel version:
+    https://sources.debian.net/src/charybdis/3.4.2-4/src/version.c.SH/
+    https://sources.debian.net/src/charybdis/3.4.2-4/libratbox/src/version.c.SH/
 checkinstall:
   version: 1.6.2-4
   issues:
@@ -1488,10 +1510,19 @@ elinks:
   version: 0.12~pre6-5
   issues:
     - timestamps_from_cpp_macros
+elkcode:
+  version: 2.3.22-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 elog:
   version: 2.9.2+2014.05.11git44800a7-2
   issues:
     - timestamps_from_cpp_macros
+elvis-tiny:
+  version: 1.4-23
+  comments: |
+    Embed build time:
+    http://sources.debian.net/src/elvis-tiny/1.4-23/Makefile.mix/?hl=52#L52
 elza:
   version: 1.4.3-17
   issues:
@@ -1661,6 +1692,10 @@ eureka:
   version: 1.00-3
   issues:
     - timestamps_from_cpp_macros
+evernote-mode:
+  version: 0.41-3.1
+  comments: |
+    Timestamps in /usr/share/doc/evernote-mode/rdoc/created.rid
 exec-maven-plugin:
   version: 1.1.1+dfsg-3
   issues:
@@ -1755,6 +1790,11 @@ felix-gogo-runtime:
 felix-shell:
   version: 1.4.3-1
   issues:
+    - timestamps_in_maven_pom_files
+felix-utils:
+  version: 1.6.0-1
+  issues:
+    - user_in_java_jar_manifest
     - timestamps_in_maven_pom_files
 fenix:
   version: 0.92a.dfsg1-10
@@ -2851,6 +2891,10 @@ infon:
   version: 0~r198-8
   issues:
     - timestamps_from_cpp_macros
+ini4j:
+  version: 0.5.2-SNAPSHOT-5
+  issues:
+    - timestamps_in_maven_pom_files
 inkscape:
   version: 0.48.5-3
   issues:
@@ -3184,6 +3228,14 @@ kannel-sqlbox:
   version: 0.7.2-3
   issues:
     - timestamps_in_pdf_generated_by_latex
+karlyriceditor:
+  version: 1.11-1
+  issues:
+    - timestamps_generated_by_docbook_to_man
+kawari8:
+  version: 8.2.8-8
+  issues:
+    - timestamps_generated_by_docbook_to_man
 kbuild:
   version: 1:0.1.9998svn2695+dfsg-2
   issues:
@@ -3285,6 +3337,10 @@ leocad:
   version: 0.80.3-1
   issues:
     - timestamps_from_cpp_macros
+leveldb-sharp:
+  version: 1.9.1-1
+  issues:
+    - timestamps_in_pe_binaries
 libajaxtags-java:
   version: 1.5.1-2
   issues:
@@ -4276,6 +4332,10 @@ maven-archiver:
   version: 2.5-1
   issues:
     - timestamps_in_maven_pom_files
+maven-clean-plugin:
+  version: 2.5-1
+  issues:
+    - timestamps_in_maven_pom_files
 maven-common-artifact-filters:
   version: 1.4-1
   issues:
@@ -4294,6 +4354,10 @@ maven-dependency-tree:
     - timestamps_in_maven_pom_files
 maven-docck-plugin:
   version: 1.0-4
+  issues:
+    - timestamps_in_maven_pom_files
+maven-doxia-tools:
+  version: 1.2.1-2
   issues:
     - timestamps_in_maven_pom_files
 maven-ejb-plugin:
@@ -4590,6 +4654,11 @@ morse-simulator:
   version: 1.2.1-2
   issues:
     - random_order_in_python_environment_pickle
+mosquitto:
+  version: 1.3.4-2
+  comments: |
+    Embed build time:
+    http://sources.debian.net/src/mosquitto/1.3.4-2/config.mk/?hl=81,108#L81
 mozilla-dom-inspector:
   version: 1:2.0.14-1
   issues:
@@ -4811,6 +4880,10 @@ netcfg:
   comments: |
     Embed build time:
     http://sources.debian.net/src/netcfg/1.127/Makefile/?hl=2,10#L2
+netgen:
+  version: 4.9.13.dfsg-8
+  issues:
+    - timestamps_generated_by_docbook_to_man
 nethack:
   version: 3.4.3-15
   issues:
@@ -5462,6 +5535,10 @@ php-guzzle:
   version: 3.9.2+dfsg-5
   issues:
     - timestamps_in_pdf_generated_by_latex
+php-horde:
+  version: 5.2.1+debian0-2
+  issues:
+    - timestamps_in_php_registry_files
 php-horde-activesync:
   version: 2.19.2-2
   issues:
@@ -5504,6 +5581,10 @@ php-horde-content:
     - timestamps_in_php_registry_files
 php-horde-controller:
   version: 2.0.1-7
+  issues:
+    - timestamps_in_php_registry_files
+php-horde-crypt-blowfish:
+  version: 1.0.2-6
   issues:
     - timestamps_in_php_registry_files
 php-horde-css-parser:
@@ -6054,6 +6135,10 @@ php-text-figlet:
   version: 1.0.2-3
   issues:
     - timestamps_in_php_registry_files
+php-text-password:
+  version: 1.1.1-2
+  issues:
+    - timestamps_in_php_registry_files
 php-text-template:
   version: 1.2.0-1
   issues:
@@ -6421,6 +6506,10 @@ pylibssh2:
   version: 1.0.0-1.1
   issues:
     - use_epydoc
+pylogsparser:
+  version: 0.4-1
+  issues:
+    - use_epydoc
 pymilter:
   version: 1.0-1
   issues:
@@ -6459,6 +6548,10 @@ python-coffin:
   version: 0.3.8-1
   issues:
     - random_order_in_egg_info_top_level_txt
+python-cogent:
+  version: 1.5.3-2
+  issues:
+    - random_order_in_python_environment_pickle
 python-colorama:
   version: 0.3.2-1
   issues:
@@ -6928,6 +7021,11 @@ seqdiag:
   version: 0.9.3-4
   issues:
     - random_order_in_egg_info_top_level_txt
+serp:
+  version: 1.14.1-2
+  issues:
+    - timestamps_in_maven_pom_files
+    - user_in_java_jar_manifest
 sezpoz:
   version: 1.9-2
   issues:
@@ -7069,6 +7167,10 @@ smartlist:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+smuxi:
+  version: 0.11~rc5-2
+  issues:
+    - timestamps_in_pe_binaries
 snake4:
   version: 1.0.14-1
   comments: |
@@ -7262,6 +7364,10 @@ swaks:
   issues:
     - not_using_dh_builddeb
     - timestamps_in_gzip_headers
+sweethome3d:
+  version: 4.5+dfsg-2
+  issues:
+    - timestamps_in_png
 swi-prolog:
   version: 6.6.6-5
   issues:
@@ -7753,6 +7859,10 @@ vips:
   version: 7.40.6-2
   issues:
     - timestamps_from_cpp_macros
+viridian:
+  version: 1.2-3
+  issues:
+    - timestamps_in_png
 virtualjaguar:
   version: 2.1.2-1
   issues:
@@ -7769,10 +7879,18 @@ vit:
   version: 1.2-2
   comments: |
     Timestamp in /usr/bin/vit (as comment in source header)
+vite:
+  version: 1.2+svn1430-2
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 vlc:
   version: 2.2.0~rc1-1
   issues:
     - timestamps_from_cpp_macros
+vlfeat:
+  version: 0.9.17+dfsg0-6
+  issues:
+    - timestamps_in_png
 vmpk:
   version: 0.4.0-3
   issues:
@@ -8142,6 +8260,10 @@ xmorph:
     - timestamps_from_cpp_macros
 xmoto:
   version: 0.5.11+dfsg-1
+  issues:
+    - timestamps_from_cpp_macros
+xmount:
+  version: 0.7.2-1
   issues:
     - timestamps_from_cpp_macros
 xnecview:

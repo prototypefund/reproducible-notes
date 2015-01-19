@@ -197,6 +197,9 @@ gtk_doc_api_index_full:
 random_order_in_java_jar_manifest_mf:
   description: |
     Java .jar files written by some tools have a random order in MANIFEST.MF.
+user_in_java_jar_manifest:
+  description: |
+    Java .jar files contain user login in the `Built-By` of `MANIFEST.MF`.
 timestamp_in_java_bnd_manifest:
   description: |
     bndtools bnd outputs Bnd-LastModified and other entropy
