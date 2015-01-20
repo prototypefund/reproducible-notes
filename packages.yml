@@ -391,6 +391,7 @@ bash:
   comments: |
     bashref.pdf can be reproduced when fixing the same time using faketime. So
     it might be that dvipdfm seeds stuff using time…
+    Uses a private copy of man2html.
   issues:
     - timestamps_in_documentation_generated_by_man2html
     - randomness_in_html_generated_by_texi2html
@@ -1531,6 +1532,10 @@ elza:
   version: 1.4.3-17
   issues:
     - timestamps_generated_by_docbook_to_man
+emms:
+  version: 4.0-2
+  issues:
+    - timestamps_in_emacs_autoloads
 enemies-of-carlotta:
   version: 1.2.6-4
   issues:
@@ -2278,6 +2283,10 @@ git:
   issues:
     - not_using_dh_builddeb
     - timestamps_in_gzip_headers
+git-buildpackage:
+  version: 0.6.22
+  issues:
+    - use_epydoc
 git-dpm:
   version: 0.9.1-1
   issues:
@@ -2732,6 +2741,10 @@ hardlink:
   version: 0.3.0
   issues:
     - timestamps_from_cpp_macros
+haskell-mode:
+  version: 13.10-3
+  issues:
+    - timestamps_in_emacs_autoloads
 hatari:
   version: 1.8.0+dfsg-1
   issues:
@@ -4494,6 +4507,10 @@ mh-book:
   version: 200605-1
   issues:
     - timestamps_in_gzip_headers
+mh-e:
+  version: 8.5-2
+  issues:
+    - timestamps_in_emacs_autoloads
 mia:
   version: 2.2.2-1
   issues:
@@ -4752,6 +4769,10 @@ munge-maven-plugin:
   version: 1.0-1
   issues:
     - timestamps_in_maven_pom_files
+mupen64plus-core:
+  version: 2.0-7
+  comments: |
+    Fails to build reproducibly due to link-time optimization (-flto)
 mupen64plus-video-glide64mk2:
   version: 2.0-3
   issues:
@@ -5354,6 +5375,10 @@ pchar:
   comments: |
     Embed build time, and hostname:
     https://sources.debian.net/src/pchar/1.5-2/Makefile.in/?hl=186#L186
+pcl:
+  version: 1.7.2-6
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 pcp:
   version: 3.10.1
   issues:
@@ -6933,10 +6958,79 @@ rtai:
   issues:
     - timestamps_in_static_libraries
     - timestamps_in_tarball
+ruby-activeldap:
+  version: 4.0.3-2
+  issues:
+    - timestamps_in_ruby_documentation
+ruby-bdb:
+  version: 0.6.6-1
+  issues:
+    - timestamps_in_ruby_documentation
+ruby-benchmark-ips:
+  version: 1.2.0+git.20130609.e47e416-2
+  issues:
+    - timestamps_in_ruby_documentation
+ruby-benchmark-suite:
+  version: 1.0.0+git.20130122.5bded6-2
+  issues:
+    - timestamps_in_ruby_documentation
 ruby-builder:
   version: 3.2.2-4
-  comments: |
-    Build time in /usr/share/doc/ruby-builder-doc/rdoc/created.rid
+  issues:
+    - timestamps_in_ruby_documentation
+ruby-em-hiredis:
+  version: 0.2.1-2.1
+  issues:
+    - timestamps_in_ruby_documentation
+ruby-expression-parser:
+  version: 0.9.1-2
+  issues:
+    - timestamps_in_ruby_documentation
+ruby-facets:
+  version: 2.9.3-2
+  issues:
+    - timestamps_in_ruby_documentation
+ruby-http-parser.rb:
+  version: 0.6.0-2
+  issues:
+    - timestamps_in_ruby_documentation
+ruby-literati:
+  version: 0.0.4~git.20130318.3b3ea30-2
+  issues:
+    - timestamps_in_ruby_documentation
+ruby-redcloth:
+  version: 4.2.9-3
+  issues:
+    - timestamps_in_ruby_documentation
+ruby-rinku:
+  version: 1.7.3-1
+  issues:
+    - timestamps_in_ruby_documentation
+ruby-rubypants:
+  version: 0.2.0-1
+  issues:
+    - timestamps_in_ruby_documentation
+ruby-settingslogic:
+  version: 2.0.9-2
+  issues:
+    - timestamps_in_ruby_documentation
+ruby-tioga:
+  version: 1.18-1
+  issues:
+    - timestamps_in_ruby_documentation
+ruby-uuidtools:
+  version: 2.1.4-2
+  issues:
+    - timestamps_in_ruby_documentation
+ruby2.1:
+  version: 2.1.5-1
+  issues:
+    - timestamps_from_cpp_macros
+    - timestamps_in_ruby_documentation
+rubyluabridge:
+  version: 0.8.0-1
+  issues:
+    - timestamps_in_ruby_documentation
 rungetty:
   version: 1.2-15
   issues:
@@ -6992,6 +7086,10 @@ saxonhe:
   version: 9.5.1.1+dfsg-1
   issues:
     - timestamps_in_maven_pom_files
+scala-mode-el:
+  version: 20111005-2.1
+  issues:
+    - timestamps_in_emacs_autoloads
 scheme48:
   version: 1.9-5
   issues:
@@ -7192,6 +7290,10 @@ smartlist:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+sml-mode:
+  version: 5.0-1
+  issues:
+    - timestamps_in_emacs_autoloads
 smuxi:
   version: 0.11~rc5-2
   issues:

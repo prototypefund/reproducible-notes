@@ -219,3 +219,10 @@ users_and_groups_in_tarball:
   description: |
     Tarballs capture user and group for each of its members.
   url: https://wiki.debian.org/ReproducibleBuilds/UsersAndGroupsInTarballs
+timestamps_in_emacs_autoloads:
+  description: |
+    Emacs "autoloads" comments contain a timestamp.
+timestamps_in_ruby_documentation:
+  description: |
+    Ruby's documentation generator outputs a file called "created.rid", which contains
+    the time the documentation was generated.
