@@ -6822,8 +6822,9 @@ rapidsvn:
 raster3d:
   version: 3.0-3-1
   issues:
-    - timestamps_in_tarball
     - users_and_groups_in_tarball
+  bugs:
+    - 775810
 ratfor:
   version: 1.0-15
   issues:
