@@ -401,6 +401,10 @@ base-files:
     - not_using_dh_builddeb
   bugs:
     - 774498
+basenji:
+  version: 1.0.1-3
+  issues:
+    - timestamps_in_pe_binaries
 basex:
   version: 7.9-1
   issues:
@@ -455,6 +459,10 @@ berusky2:
   version: 0.10-3
   issues:
     - timestamps_from_cpp_macros
+between:
+  version: 6+dfsg1-3
+  issues:
+    - timestamps_in_png
 bglibs:
   version: 1.106-1.1
   issues:
@@ -1395,6 +1403,10 @@ djvulibre:
   version: 3.5.25.4-4
   comments: |
     Timestamp in gzip header of a compressed SVG (.svgz)
+dkg-handwriting:
+  version: 0.15-1
+  issues:
+    - fontforge_reset_modification_time
 dnsmasq:
   version: 2.72-2
   issues:
@@ -1851,6 +1863,12 @@ fceux:
   version: 2.2.2+dfsg0-1
   issues:
     - timestamps_from_cpp_macros
+fedmsg:
+  version: 0.9.3-1
+  comments: |
+    Random content in
+    /usr/lib/python2.7/dist-packages/fedmsg/tests/test_certs/gpg/random_seed
+    Should probably not be shipped at all.
 felix-bundlerepository:
   version: 1.6.6-2
   issues:
@@ -2076,6 +2094,11 @@ freehep-graphics2d:
   version: 2.1.1-4
   issues:
     - timestamps_in_maven_pom_files
+freehep-graphicsio:
+  version: 2.1.1-3
+  issues:
+    - timestamps_in_maven_pom_files
+    - user_in_java_jar_manifest
 freehep-graphicsio-emf:
   version: 2.1.1-emfplus+dfsg1-2
   issues:
@@ -2995,6 +3018,10 @@ imaptool:
   version: 0.9-14
   issues:
     - timestamps_from_cpp_macros
+impressive:
+  version: 0.10.5-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 imview:
   version: 1.1.9c-12
   issues:
@@ -3082,6 +3109,11 @@ irda-utils:
   version: 0.9.18-12
   issues:
     - timestamps_in_gzip_headers
+irsim:
+  version: 9.7.87-1
+  comments: |
+    Capture build time:
+    http://sources.debian.net/src/irsim/9.7.87-1/irsim/Makefile/?hl=11#L11
 ispell-fo:
   version: 0.4.2-6
   issues:
@@ -3365,6 +3397,11 @@ kbuild:
   version: 1:0.1.9998svn2695+dfsg-2
   issues:
     - timestamps_from_cpp_macros
+kdgcommons-java:
+  version: 1.0.13-1
+  issues:
+    - timestamps_in_maven_pom_files
+    - user_in_java_jar_manifest
 keepass2:
   version: 2.28+dfsg-1
   issues:
@@ -3507,6 +3544,10 @@ libappindicator:
   version: 0.4.92-3.1
   issues:
     - timestamps_in_pe_binaries
+libaria:
+  version: 2.8.0+repack-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 libassa:
   version: 3.5.1-4
   issues:
@@ -3681,6 +3722,11 @@ libfakekey:
   version: 0.1-8.1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libfann:
+  version: 2.1.0~beta+dfsg-1
+  comments: |
+    Random hash order in
+    /usr/share/doc/libfann-doc/html/javascript/searchdata.js
 libffado:
   version: 2.2.1-2
   issues:
@@ -3833,6 +3879,11 @@ libjrosetta-java:
   version: 1.0.4-4
   issues:
     - timestamps_in_maven_pom_files
+libjspeex-java:
+  version: 0.9.7-3
+  issues:
+    - timestamp_in_java_bnd_manifest
+    - user_in_java_jar_manifest
 libjtype-java:
   version: 0.1.3-2
   issues:
@@ -3931,6 +3982,11 @@ libopendbx:
   version: 1.4.6-8
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libopengl-perl:
+  version: 0.6703+dfsg-1
+  comments: |
+    Random Perl hash order in
+    /usr/lib/x86_64-linux-gnu/perl5/5.20/OpenGL/Config.pm
 libopenobex:
   version: 1.5-2.1
   issues:
@@ -4917,6 +4973,10 @@ munge-maven-plugin:
   version: 1.0-1
   issues:
     - timestamps_in_maven_pom_files
+munkres:
+  version: 1.0.6-1
+  issues:
+    - use_epydoc
 mupen64plus-core:
   version: 2.0-7
   comments: |
@@ -5480,6 +5540,10 @@ paramiko:
     - random_order_in_python_environment_pickle
 paraview:
   version: 4.1.0+dfsg+1-1
+  issues:
+    - timestamps_from_cpp_macros
+parsinsert:
+  version: 1.04-1
   issues:
     - timestamps_from_cpp_macros
 pasmo:
@@ -6722,6 +6786,10 @@ pysatellites:
   version: 2.1-1
   issues:
     - timestamps_in_source_generated_by_pyqt4_ui
+pyscanfcs:
+  version: 0.2.2-2
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 pysubnettree:
   version: 0.23-1
   issues:
@@ -6893,6 +6961,10 @@ qemu-launcher:
   version: 1.7.4-1
   issues:
     - timestamps_in_gzip_headers
+qgis:
+  version: 2.4.0-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 qiime:
   version: 1.8.0+dfsg-4
   issues:
@@ -7277,6 +7349,10 @@ scummvm:
   version: 1.7.0+dfsg-1
   issues:
     - timestamps_from_cpp_macros
+sdlbasic:
+  version: 0.0.20070714-5
+  issues:
+    - timestamps_from_cpp_macros
 sed:
   version: 4.2.2-4
   bugs:
@@ -7522,10 +7598,18 @@ spatial4j-0.4:
   version: 0.4.1-1
   issues:
     - timestamps_in_maven_pom_files
+spd:
+  version: 1.3.0-1
+  issues:
+    - timestamps_from_cpp_macros
 spe:
   version: 0.8.4.h-3.1
   issues:
     - timestamps_generated_by_docbook_to_man
+speaklater:
+  version: 1.3-2
+  issues:
+    - use_epydoc
 spectacle:
   version: 0.22-3
   issues:
@@ -7769,6 +7853,10 @@ testdisk:
   version: 6.14-3
   issues:
     - timestamps_from_cpp_macros
+tetex-brev:
+  version: 4.22.github.20140417-2
+  issues:
+    - timestamps_in_dvi_generated_by_latex
 tetradraw:
   version: 2.0.3-8.2
   issues:
@@ -8612,6 +8700,10 @@ xnetcardconfig:
   version: 0.2.1-1
   issues:
     - timestamps_generated_by_docbook_to_man
+xom:
+  version: 1.2.10-1
+  issues:
+    - user_in_java_jar_manifest
 xorp:
   version: 1.8.5-4
   comments: |
@@ -8645,6 +8737,10 @@ xslthl:
   version: 2.1.0-4
   issues:
     - timestamps_in_maven_pom_files
+xsp:
+  version: 3.8-2
+  issues:
+    - timestamps_in_pe_binaries
 xtel:
   version: 3.3.0-17.1
   issues:
