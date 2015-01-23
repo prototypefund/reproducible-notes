@@ -182,6 +182,10 @@ ant:
   version: 1.9.4-3
   issues:
     - randomness_in_gcj_output
+ant-contrib:
+  version: 1.0~b3+svn177-6
+  issues:
+    - timestamp_in_java_bnd_manifest
 antlr:
   version: 2.7.7+dfsg-6
   issues:
@@ -1169,6 +1173,11 @@ dact:
   version: 0.8.42-4
   issues:
     - timestamps_from_cpp_macros
+dactyl:
+  version: 1.1+hg7904-0+nmu1
+  comments: |
+    Capture build time in
+    /usr/share/xul-ext/pentadactyl/chrome/common/modules/config.jsm
 daemontools:
   version: 1:0.76-6
   issues:
@@ -1638,6 +1647,11 @@ epic4:
   comments: |
     Embed build time, username, and hostname:
     http://sources.debian.net/src/epic4/1:2.10.5-2/source/info.c.sh.in/
+epubcheck:
+  version: 4.0.0~alpha11-1
+  issues:
+    - timestamp_in_java_bnd_manifest
+    - timestamps_in_maven_pom_files
 erc:
   version: 5.3-1
   issues:
@@ -1777,8 +1791,8 @@ eureka:
     - timestamps_from_cpp_macros
 evernote-mode:
   version: 0.41-3.1
-  comments: |
-    Timestamps in /usr/share/doc/evernote-mode/rdoc/created.rid
+  issues:
+    - timestamps_in_ruby_documentation
 exec-maven-plugin:
   version: 1.1.1+dfsg-3
   issues:
@@ -2023,6 +2037,10 @@ fonts-fantasque-sans:
   comments: |
     Python script using fontforge module (embeded in a shell script, yay):
     https://sources.debian.net/src/fonts-fantasque-sans/1.6.4~dfsg-1/validate-generate.sh/
+  issues:
+    - fontforge_reset_modification_time
+fonts-georgewilliams:
+  version: 20031023-2
   issues:
     - fontforge_reset_modification_time
 fonts-junicode:
@@ -2905,6 +2923,13 @@ hoichess:
   version: 0.10.3-6.1
   issues:
     - timestamps_from_cpp_macros
+horizon:
+  version: 2014.1.3-7
+  comments: |
+    Write random keys in
+    /usr/share/openstack-dashboard/openstack_dashboard/local/.secret_key_store
+    and
+    /usr/share/openstack-dashboard/openstack_dashboard/test/.secret_key_store
 hpcc:
   version: 1.4.1-3
   issues:
@@ -2978,6 +3003,13 @@ icon:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+icu:
+  version: 52.1-7
+  comments: |
+    Capture build time in
+    /usr/bin/icu-config
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 icu4j:
   version: 4.2.1.1-3
   comments: |
@@ -3433,7 +3465,7 @@ knews:
     - timestamps_from_cpp_macros
 kombu:
   version: 3.0.21-2
-  issue:
+  issues:
     - randomness_in_documentation_generated_by_sphinx
 krb5:
   version: 1.12.1+dfsg-16
@@ -4867,6 +4899,10 @@ mono.reflection:
   version: 1.0+git20110407+d2343843-2
   issues:
     - timestamps_in_pe_binaries
+monobristol:
+  version: 0.60.3-2.1
+  issues:
+    - timestamps_in_pe_binaries
 monodevelop:
   version: 5.5.0.227-1
   issues:
@@ -4999,6 +5035,10 @@ mvel:
   version: 2.0.18-4
   issues:
     - timestamps_in_maven_pom_files
+mwrap:
+  version: 0.33-2
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 mx:
   version: 1.4.7-1
   issues:
@@ -5307,6 +5347,10 @@ ode:
   version: 2:0.11.1-4.1
   issues:
     - timestamps_generated_by_docbook_to_man
+oidua:
+  version: 0.16.1-7
+  issues:
+    - timestamps_in_gzip_headers
 olsrd:
   version: 0.6.6.2-1
   comments: |
@@ -5725,6 +5769,10 @@ php-cache:
     - timestamps_in_php_registry_files
 php-cache-lite:
   version: 1.7.15-3
+  issues:
+    - timestamps_in_php_registry_files
+php-calendar:
+  version: 0.5.5-2
   issues:
     - timestamps_in_php_registry_files
 php-compat:
@@ -6221,6 +6269,10 @@ php-invoker:
     - timestamps_in_php_registry_files
 php-letodms-core:
   version: 3.3.11-1
+  issues:
+    - timestamps_in_php_registry_files
+php-log:
+  version: 1.12.8-2
   issues:
     - timestamps_in_php_registry_files
 php-mail:
@@ -7204,6 +7256,10 @@ ruby-builder:
   version: 3.2.2-4
   issues:
     - timestamps_in_ruby_documentation
+ruby-dbus:
+  version: 0.11.0-1
+  issues:
+    - timestamps_in_ruby_documentation
 ruby-em-hiredis:
   version: 0.2.1-2.1
   issues:
@@ -7541,6 +7597,10 @@ snappy1.0.3-java:
   version: 1.0.3-rc3~dfsg-4
   issues:
     - timestamps_in_maven_pom_files
+snd:
+  version: 11.7-3
+  issues:
+    - timestamps_from_cpp_macros
 sniffit:
   version: 0.3.7.beta-17
   issues:
@@ -7881,6 +7941,10 @@ the:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+themonospot:
+  version: 0.7.3.1-6
+  issues:
+    - timestamps_in_pe_binaries
 theseus:
   version: 3.0.0-1
   issues:
@@ -8050,6 +8114,10 @@ triplea:
     The Java MANIFEST.MF file has a list of SHA-1 digests in random order.
   issues:
     - timestamps_in_png
+trove3:
+  version: 3.0.3-1
+  issues:
+    - user_in_java_jar_manifest
 trscripts:
   version: 1.16
   issues:
@@ -8217,6 +8285,7 @@ uruk:
     - timestamps_in_gzip_headers
 user-agent-utils:
   version: 1.15-1
+  issues:
     - timestamps_in_maven_pom_files
     - user_in_java_jar_manifest
 util-vserver:
@@ -8449,6 +8518,11 @@ winpdb:
   version: 1.4.8-2.1
   issues:
     - timestamps_generated_by_docbook_to_man
+winswitch:
+  version: 0.12.20+dfsg-1
+  comments: |
+    Capture username, hostname, build date, CPUID in
+    /usr/lib/winswitch/winswitch/build_info.py
 wise:
   version: 2.4.1-17
   issues:
@@ -8874,7 +8948,7 @@ zomg:
     - timestamps_in_gzip_headers
 zookeeper:
   version: 3.4.5+dfsg-2
-  comment: |
+  comments: |
     The build system generates a Java class containing a timestamp. This
     timestamp is also copied into the documentation.
   issues:
