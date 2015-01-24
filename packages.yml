@@ -5755,6 +5755,14 @@ php-apcu:
   version: 4.0.7-1
   issues:
     - timestamps_from_cpp_macros
+php-apigen:
+  version: 2.8.0+dfsg-3
+  issues:
+    - timestamps_in_php_registry_files
+php-auth:
+  version: 1.6.4-1
+  issues:
+    - timestamps_in_php_registry_files
 php-auth-http:
   version: 2.1.8-1
   issues:
@@ -5811,8 +5819,16 @@ php-fdomdocument:
   version: 1.6.0-1
   issues:
     - timestamps_in_php_registry_files
+php-file:
+  version: 1.3.0-2
+  issues:
+    - timestamps_in_php_registry_files
 php-file-iterator:
   version: 1.3.4-1
+  issues:
+    - timestamps_in_php_registry_files
+php-fshl:
+  version: 2.1.0-1
   issues:
     - timestamps_in_php_registry_files
 php-fxsl:
@@ -5847,8 +5863,16 @@ php-horde-alarm:
   version: 2.2.1-5
   issues:
     - timestamps_in_php_registry_files
+php-horde-ansel:
+  version: 3.0.1+debian0-4
+  issues:
+    - timestamps_in_php_registry_files
 php-horde-argv:
   version: 2.0.9-4
+  issues:
+    - timestamps_in_php_registry_files
+php-horde-auth:
+  version: 2.1.5-5
   issues:
     - timestamps_in_php_registry_files
 php-horde-autoloader:
@@ -5857,6 +5881,10 @@ php-horde-autoloader:
     - timestamps_in_php_registry_files
 php-horde-browser:
   version: 2.0.7-2
+  issues:
+    - timestamps_in_php_registry_files
+php-horde-cache:
+  version: 2.5.0-2
   issues:
     - timestamps_in_php_registry_files
 php-horde-cli:
@@ -5883,6 +5911,10 @@ php-horde-controller:
   version: 2.0.1-7
   issues:
     - timestamps_in_php_registry_files
+php-horde-crypt:
+  version: 2.5.0-5
+  issues:
+    - timestamps_in_php_registry_files
 php-horde-crypt-blowfish:
   version: 1.0.2-6
   issues:
@@ -5901,6 +5933,10 @@ php-horde-data:
     - timestamps_in_php_registry_files
 php-horde-date:
   version: 2.0.12-5
+  issues:
+    - timestamps_in_php_registry_files
+php-horde-date-parser:
+  version: 2.0.2-5
   issues:
     - timestamps_in_php_registry_files
 php-horde-dav:
@@ -5925,6 +5961,10 @@ php-horde-feed:
     - timestamps_in_php_registry_files
 php-horde-form:
   version: 2.0.8-2
+  issues:
+    - timestamps_in_php_registry_files
+php-horde-gollem:
+  version: 3.0.3-2
   issues:
     - timestamps_in_php_registry_files
 php-horde-group:
@@ -5955,8 +5995,16 @@ php-horde-image:
   version: 2.1.0-4
   issues:
     - timestamps_in_php_registry_files
+php-horde-imap-client:
+  version: 2.25.2-1
+  issues:
+    - timestamps_in_php_registry_files
 php-horde-imsp:
   version: 2.0.5-2
+  issues:
+    - timestamps_in_php_registry_files
+php-horde-ingo:
+  version: 3.2.1-3
   issues:
     - timestamps_in_php_registry_files
 php-horde-injector:
@@ -6003,6 +6051,10 @@ php-horde-lock:
   version: 2.1.1-4
   issues:
     - timestamps_in_php_registry_files
+php-horde-log:
+  version: 2.1.0-4
+  issues:
+    - timestamps_in_php_registry_files
 php-horde-logintasks:
   version: 2.0.3-4
   issues:
@@ -6011,12 +6063,24 @@ php-horde-lz4:
   version: 1.0.7-2
   issues:
     - timestamps_in_php_registry_files
+php-horde-mail:
+  version: 2.4.0-4
+  issues:
+    - timestamps_in_php_registry_files
 php-horde-mail-autoconfig:
   version: 1.0.1-3
   issues:
     - timestamps_in_php_registry_files
 php-horde-mapi:
   version: 1.0.3-4
+  issues:
+    - timestamps_in_php_registry_files
+php-horde-memcache:
+  version: 2.0.6-2
+  issues:
+    - timestamps_in_php_registry_files
+php-horde-mime:
+  version: 2.4.5-3
   issues:
     - timestamps_in_php_registry_files
 php-horde-mime-viewer:
@@ -6029,6 +6093,10 @@ php-horde-mnemo:
     - timestamps_in_php_registry_files
 php-horde-mongo:
   version: 1.0.2-2
+  issues:
+    - timestamps_in_php_registry_files
+php-horde-nag:
+  version: 4.2.1-4
   issues:
     - timestamps_in_php_registry_files
 php-horde-nls:
@@ -6049,6 +6117,10 @@ php-horde-openxchange:
     - timestamps_in_php_registry_files
 php-horde-pack:
   version: 1.0.4-2
+  issues:
+    - timestamps_in_php_registry_files
+php-horde-passwd:
+  version: 5.0.2-3
   issues:
     - timestamps_in_php_registry_files
 php-horde-pdf:
@@ -6183,6 +6255,10 @@ php-horde-thrift:
   version: 2.0.1-4
   issues:
     - timestamps_in_php_registry_files
+php-horde-timeobjects:
+  version: 2.1.0-2
+  issues:
+    - timestamps_in_php_registry_files
 php-horde-timezone:
   version: 1.0.8-2
   issues:
@@ -6201,6 +6277,10 @@ php-horde-trean:
     - timestamps_in_php_registry_files
 php-horde-tree:
   version: 2.0.2-3
+  issues:
+    - timestamps_in_php_registry_files
+php-horde-turba:
+  version: 4.2.2-3
   issues:
     - timestamps_in_php_registry_files
 php-horde-url:
@@ -6223,6 +6303,12 @@ php-horde-webmail:
   version: 5.2.2-1
   issues:
     - timestamps_in_php_registry_files
+php-horde-whups:
+  version: 3.0.0-2
+  issues:
+    - timestamps_in_php_registry_files
+php-horde-wicked:
+  version: 2.0.1-4
 php-horde-xml-wbxml:
   version: 2.0.1-6
   issues:
@@ -6233,6 +6319,10 @@ php-html-common:
     - timestamps_in_php_registry_files
 php-html-safe:
   version: 0.10.1-3
+  issues:
+    - timestamps_in_php_registry_files
+php-html-table:
+  version: 1.8.3-1
   issues:
     - timestamps_in_php_registry_files
 php-htmlpurifier:
@@ -6323,6 +6413,10 @@ php-msgpack:
   version: 0.5.5-2
   issues:
     - timestamps_in_php_registry_files
+php-mysqlnd-ms:
+  version: 1.6.0-1
+  issues:
+    - timestamps_in_php_registry_files
 php-net-checkip:
   version: 1.2.2-1
   issues:
@@ -6361,6 +6455,10 @@ php-net-nntp:
     - timestamps_in_php_registry_files
 php-net-portscan:
   version: 1.0.3-2
+  issues:
+    - timestamps_in_php_registry_files
+php-net-sieve:
+  version: 1.3.2-4
   issues:
     - timestamps_in_php_registry_files
 php-net-smartirc:
@@ -6461,6 +6559,14 @@ php-text-wiki:
     - timestamps_in_php_registry_files
 php-timer:
   version: 1.0.5-1
+  issues:
+    - timestamps_in_php_registry_files
+php-tokenreflection:
+  version: 1.3.1-1
+  issues:
+    - timestamps_in_php_registry_files
+php-validate:
+  version: 0.8.5-4
   issues:
     - timestamps_in_php_registry_files
 php-xml-dtd:
