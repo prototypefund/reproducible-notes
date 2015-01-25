@@ -298,6 +298,11 @@ argus-client:
   issues:
     - not_using_dh_builddeb
     - timestamps_in_gzip_headers
+argyll:
+  version: 1.6.3-4
+  comments: |
+    Embed build time:
+    http://sources.debian.net/src/argyll/1.6.3-4/cgats/cgats.c/#L1323
 aria2:
   version: 1.18.8-1
   issues:
@@ -391,6 +396,10 @@ babiloo:
   version: 2.0.11-1
   issues:
     - unsorted_filelist_python_support_private
+babl:
+  version: 0.1.10-2
+  comments: |
+    Random order in apparently custom generated HTML
 ballerburg:
   version: 1.1.0-1
   issues:
@@ -562,6 +571,10 @@ blam:
   version: 1.8.9-4
   issues:
     - timestamps_in_pe_binaries
+blas:
+  version: 1.2.20110419-10
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 blender:
   version: 2.72.b+dfsg0-3
   comments: |
@@ -903,6 +916,10 @@ clhep:
   version: 2.1.4.1-1.1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+cli-common:
+  version: 0.9
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 clirr:
   version: 0.6-5
   issues:
@@ -995,6 +1012,10 @@ collectd:
   version: 5.4.1-6
   issues:
     - timestamps_in_jar
+colord:
+  version: 1.2.1-1
+  issues:
+    - randomness_in_icc_colour_profiles
 commons-beanutils:
   version: 1.9.2-1
   issues:
@@ -1230,6 +1251,10 @@ dballe:
     Probably a timestamp in guide.pdf. There's a timestamp in a string in libdballe.a.
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+dbconfig-common:
+  version: 1.8.47+nmu3
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 dbus:
   version: 1.8.14-1
   issues:
@@ -1285,6 +1310,10 @@ debian-edu-artwork:
   version: 0.52-2
   issues:
     - timestamps_in_png
+debian-faq:
+  version: 5.0.3
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 debian-keyring:
   version: 2014.12.10
   issues:
@@ -1663,6 +1692,10 @@ epic4:
   comments: |
     Embed build time, username, and hostname:
     http://sources.debian.net/src/epic4/1:2.10.5-2/source/info.c.sh.in/
+epson-inkjet-printer-escpr:
+  version: 1.4.1-2
+  issues:
+    - ppds_compressed_b64
 epubcheck:
   version: 4.0.0~alpha11-1
   issues:
@@ -1809,6 +1842,10 @@ evernote-mode:
   version: 0.41-3.1
   issues:
     - timestamps_in_ruby_documentation
+evolution-data-server:
+  version: 3.12.9~git20141128.5242b0-2
+  comments: |
+    Embeds the build username into documentation.
 exec-maven-plugin:
   version: 1.1.1+dfsg-3
   issues:
@@ -2047,6 +2084,10 @@ fonts-cantarell:
   version: 0.0.16-1
   issues:
     - fontforge_reset_modification_time
+fonts-dejavu:
+  version: 2.34-1
+  issues:
+    - fontforge_reset_modification_time
 fonts-ebgaramond:
   version: 0.015+git20130628-3
   comments: |
@@ -2059,6 +2100,10 @@ fonts-fantasque-sans:
   comments: |
     Python script using fontforge module (embeded in a shell script, yay):
     https://sources.debian.net/src/fonts-fantasque-sans/1.6.4~dfsg-1/validate-generate.sh/
+  issues:
+    - fontforge_reset_modification_time
+fonts-freefont:
+  version: 20120503-4
   issues:
     - fontforge_reset_modification_time
 fonts-georgewilliams:
@@ -2093,6 +2138,15 @@ fonty-rg:
   version: 0.5
   issues:
     - timestamps_in_gzip_headers
+foo2zjs:
+  version: 20140925dfsg0-3
+  issues:
+    - ppds_compressed_b64
+    - timestamps_in_documentation_generated_by_groff
+foomatic-db:
+  version: 20141016-1
+  issues:
+    - ppds_compressed_b64
 fossil:
   version: 1:1.29-1
   issues:
@@ -2318,6 +2372,17 @@ gcal:
   version: 3.6.3-3
   issues:
     - timestamps_from_cpp_macros
+gcc-4.4:
+  version: 4.4.7-8
+  comments: |
+    Also GFORTRAN module timestamps, and libstdc++ has file times in metadata
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+    - timestamps_in_dvi_generated_by_latex
+gcc-defaults:
+  version: 1.135
+  comments: |
+    Randomness in CA certificates bundle
 gcin:
   version: 2.8.2+dfsg1-1
   issues:
@@ -2619,6 +2684,10 @@ gnarwl:
     and /var/lib/gnarwl/blacklist.db
   issues:
     - timestamps_in_gzip_headers
+gnash:
+  version: 0.8.11~git20140708-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 gnokii:
   version: 0.6.30+dfsg-1
   issues:
@@ -2643,6 +2712,10 @@ gnome-do-plugins:
   version: 0.8.5-3
   issues:
     - timestamps_in_pe_binaries
+gnome-documents:
+  version: 3.14.2-1
+  comments: |
+    pdfunite (poppler) pdf has unknown changes in
 gnome-keyring-sharp:
   version: 1.0.0-4
   issues:
@@ -2730,6 +2803,12 @@ gnupg-doc:
     - not_using_dh_builddeb
     - timestamps_in_gzip_headers
     - timestamps_in_dvi_generated_by_latex
+gnuplot:
+  version: 4.6.6-1
+  comments: |
+    Timestamps in test log file.
+  issues:
+    - timestamps_in_dvi_generated_by_latex
 gnuplot-mode:
   version: 1:0.7.0-1
   issues:
@@ -2797,6 +2876,10 @@ gpsmanshp:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+graphite2:
+  version: 1.2.4-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 graphmonkey:
   version: 1.7-3
   issues:
@@ -2899,6 +2982,10 @@ gudev-sharp-1.0:
   version: 0.1-3
   issues:
     - timestamps_in_pe_binaries
+guile-1.8:
+  version: 1.8.8+1-10
+  comments: |
+    Timestamp in custom .a header(?), and hence messed-up Build-Ids(?)
 guncat:
   version: 0.92.00-3
   issues:
@@ -2989,6 +3076,14 @@ hpcc:
   version: 1.4.1-3
   issues:
     - timestamps_from_cpp_macros
+hplip:
+  version: 3.14.6-1
+  issues:
+    - ppds_compressed_b64
+hsqldb:
+  version: 2.2.9+dfsg-4
+  comments: |
+    User and timestamp embedded in metadata.
 ht:
   version: 2.0.22-2
   issues:
@@ -3665,6 +3760,10 @@ libassa:
   version: 3.5.1-4
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libassuan:
+  version: 2.1.2-2
+  comments: |
+    Manually embeds BUILD_TIMESTAMP from custom configure.ac
 libasyncns:
   version: 0.8-5
   issues:
@@ -3685,6 +3784,10 @@ libburn:
   version: 1.3.2-1.1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libcaca:
+  version: 0.99.beta19-2
+  comments: |
+    Non-deterministic pdf generated by doxygen, but not obviously timestamps
 libccrtp:
   version: 2.0.9-2
   issues:
@@ -3786,6 +3889,10 @@ libdbix-fulltextsearch-perl:
   comments: |
     Variation in Perl hash order in
     /usr/share/perl5/DBIx/FullTextSearch/TestConfig.pm
+libdbusmenu-qt:
+  version: 0.9.2-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 libdc1394-22:
   version: 2.2.3-1
   issues:
@@ -3803,6 +3910,10 @@ libdiscid:
     - timestamps_in_documentation_generated_by_doxygen
 libdshconfig:
   version: 0.20.13-1.1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+libdvdnav:
+  version: 5.0.1-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
 libebml:
@@ -3869,6 +3980,12 @@ libgadu:
   version: 1:1.12.0-5
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libgcrypt11:
+  version: 1.5.4-3
+  comments: |
+    Manually embeds BUILD_TIMESTAMP from custom configure.ac
+  issues:
+    - timestamps_in_dvi_generated_by_latex
 libgcrypt20:
   version: 1.6.2-4
   comments: |
@@ -4275,6 +4392,11 @@ libtomcrypt:
   version: 1.17-6
   issues:
     - timestamps_from_cpp_macros
+libtool:
+  version: 2.4.2-1.11
+  issues:
+    - timestamps_in_gzip_headers
+    - timestamps_in_tarball
 libuninum:
   version: 2.7-1.1
   issues:
@@ -4560,6 +4682,10 @@ lzop:
   version: 1.03-3
   issues:
     - timestamps_from_cpp_macros
+m2300w:
+  version: 0.51-12
+  issues:
+    - ppds_compressed_b64
 maelstrom:
   version: 1.4.3-L3.0.6+main-6
   issues:
@@ -6992,6 +7118,10 @@ ptlib:
   version: 2.10.10~dfsg-4.1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+ptouch-driver:
+  version: 1.3-8
+  issues:
+    - ppds_compressed_b64
 puredata:
   version: 0.46.2-1
   issues:
@@ -7005,6 +7135,10 @@ pxlib:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+pxljr:
+  version: 1.4+repack0-4
+  issues:
+    - ppds_compressed_b64
 py-postgresql:
   version: 1.1.0-2
   issues:
@@ -7141,6 +7275,10 @@ python-musicbrainz2:
   version: 0.7.4-1
   issues:
     - use_epydoc
+python-numpy:
+  version: 1.8.2-2
+  comments: |
+    Timestamps in PDF, apparently generated by matplotlib pdf backend
 python-oauth2client:
   version: 1.2-3
   issues:
@@ -7573,6 +7711,10 @@ samplv1:
   version: 0.5.1-1
   issues:
     - timestamps_from_cpp_macros
+sane-backends:
+  version: 1.0.24-9
+  comments: |
+    Timestamps in custom doc tool (sane-desc) and dvips
 sapphire:
   version: 0.15.8-9
   issues:
@@ -7812,6 +7954,10 @@ sludge:
   version: 2.2.1-1
   issues:
     - timestamps_from_cpp_macros
+slv2:
+  version: 0.6.6+dfsg1-2
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 smartlist:
   version: 3.15-23
   issues:
@@ -7922,6 +8068,10 @@ speex:
   version: 1.2~rc1.2-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+sphinx:
+  version: 1.2.3+dfsg-1
+  issues:
+    - randomness_in_documentation_generated_by_sphinx
 sphinxtrain:
   version: 1.0.8-4
   comments: |
@@ -8121,6 +8271,10 @@ tbb:
     Build ran for more than 36h...
   issues:
     - blacklisted_on_jenkins
+tcltk-defaults:
+  version: 8.6.0+8
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 tcode:
   version: 0.1.20080918-2
   issues:
@@ -8390,6 +8544,10 @@ ttf-atarismall:
     - fontforge_reset_modification_time
 ttf-dejavu:
   version: 2.33-3
+  issues:
+    - fontforge_reset_modification_time
+ttf-freefont:
+  version: 20100919-1
   issues:
     - fontforge_reset_modification_time
 ttf-goudybookletter:

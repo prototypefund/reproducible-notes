@@ -237,3 +237,9 @@ randomness_in_documentation_generated_by_sphinx:
     Sphinx might output references to memory addresses and generate a json index file
     with entries in random order.
   url: https://wiki.debian.org/ReproducibleBuilds/SphinxIssues
+randomness_in_icc_colour_profiles:
+  description: |
+    International Color Consortium .icc colour profiles have some issue.
+ppds_compressed_b64:
+  description: |
+    cups drivers have a field named ppds_compressed_b64 which has some issue.
