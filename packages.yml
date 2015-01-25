@@ -358,6 +358,10 @@ avahi-sharp:
   version: 0.6.19-4.2
   issues:
     - timestamps_in_pe_binaries
+avarice:
+  version: 2.11-1.1
+  issues:
+    - timestamps_from_cpp_macros
 avis:
   version: 1.2.2-4
   comments: |
@@ -1877,6 +1881,12 @@ fceux:
   version: 2.2.2+dfsg0-1
   issues:
     - timestamps_from_cpp_macros
+fdroidserver:
+  version: 0.2.1-4
+  issues:
+    - timestamps_in_dvi_generated_by_latex
+    - timestamps_in_tarball
+    - timestamps_in_pdf_generated_by_latex
 fedmsg:
   version: 0.9.3-1
   comments: |
@@ -2096,6 +2106,10 @@ freedoom:
   version: 0.9-1
   issues:
     - timestamps_in_png
+freefem3d:
+  version: 1.0pre10-3.2
+  issues:
+    - timestamps_in_dvi_generated_by_latex
 freefoam:
   version: 0.1.0+dfsg+1-3
   issues:
@@ -2104,6 +2118,10 @@ freehdl:
   version: 0.0.8-2.1
   issues:
     - timestamps_from_cpp_macros
+freehep-chartableconverter-plugin:
+  version: 2.0-6
+  issues:
+    - timestamps_in_maven_pom_files
 freehep-export:
   version: 2.1.1-2
   issues:
@@ -2308,6 +2326,14 @@ gdal:
   version: 1.10.1+dfsg-8
   issues:
     - timestamps_from_cpp_macros
+gdb:
+  version: 7.7.1+dfsg-5
+  comments: |
+    Capture build time and hostname in
+    /usr/share/doc/gdb/check.log.gz
+  issues:
+    - timestamps_in_jar
+    - timestamps_in_dvi_generated_by_latex
 gdb-mingw-w64:
   version: 9
   issues:
@@ -2700,6 +2726,10 @@ gnupod-tools:
   version: 0.99.8-2.1
   issues:
     - timestamps_generated_by_docbook_to_man
+gnuradio:
+  version: 3.7.5-5
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 gnustep-base:
   version: 1.24.7-1
   comments: |
@@ -2808,6 +2838,10 @@ gsmlib:
   version: 1.10+20120414.gita5e5ae9a-0.2
   issues:
     - timestamps_from_cpp_macros
+gss:
+  version: 1.0.3-1
+  issues:
+    - timestamps_in_dvi_generated_by_latex
 gstreamer-sharp:
   version: 0.9.2-4
   issues:
@@ -2946,6 +2980,10 @@ htmldoc:
   version: 1.8.27-8
   issues:
     - timestamps_in_documentation_generated_by_htmldoc
+htsengine:
+  version: 1.08-1
+  issues:
+    - timestamps_generated_by_docbook_to_man
 httpcomponents-core:
   version: 4.3.3-1
   issues:
@@ -2992,6 +3030,10 @@ icedove:
     - timestamps_from_cpp_macros
 icedtea-web:
   version: 1.5.2-1
+  issues:
+    - timestamps_in_jar
+iceowl-l10n:
+  version: 3.3-1
   issues:
     - timestamps_in_jar
 iceweasel:
@@ -3572,6 +3614,11 @@ libapache2-authcookie-perl:
   comments: |
     Build time in
     /usr/share/doc/libapache2-authcookie-perl/examples/htdocs/index.html
+libapache2-mod-rivet:
+  version: 2.2.1-1
+  comments: |
+    Capture build time in
+    https://reproducible.debian.net/dbd/libapache2-mod-rivet_2.2.1-1.debbindiff.html
 libappindicator:
   version: 0.4.92-3.1
   issues:
@@ -3911,6 +3958,7 @@ libjrosetta-java:
   version: 1.0.4-4
   issues:
     - timestamps_in_maven_pom_files
+    - user_in_java_jar_manifest
 libjspeex-java:
   version: 0.9.7-3
   issues:
@@ -4136,6 +4184,10 @@ libsocketcan:
   version: 0.0.9+git20140207-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libstax-java:
+  version: 1.2.0-3
+  issues:
+    - user_in_java_jar_manifest
 libstoragemgmt:
   version: 0.0.20-2
   issues:
@@ -4162,6 +4214,11 @@ libsysactivity:
   version: 0.6.5-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libterm-size-perl-perl:
+  version: 0.029-1
+  comments: |
+    Capture build time in
+    /usr/share/perl5/Term/Size/Perl/Params.pm
 libthai:
   version: 0.1.21-1
   issues:
@@ -5409,6 +5466,10 @@ openclipart:
     Package has been blacklisted for now
   issues:
     - blacklisted_on_jenkins
+opencolorio:
+  version: 1.0.9~dfsg0-3
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 opencsv:
   version: 2.3-1
   issues:
@@ -6537,6 +6598,10 @@ php-structures-datagrid-renderer-pager:
   version: 0.1.6-1
   issues:
     - timestamps_in_php_registry_files
+php-svn:
+  version: 1.0.2-2
+  issues:
+    - timestamps_in_php_registry_files
 php-text-captcha:
   version: 0.4.3-1
   issues:
@@ -7590,6 +7655,11 @@ shiro:
   version: 1.2.3-1
   issues:
     - timestamps_in_maven_pom_files
+shishi:
+  version: 1.0.2-5
+  issues:
+    - timestamps_in_dvi_generated_by_latex
+    - timestamps_in_pdf_generated_by_latex
 signify:
   version: 1.14-1
   issues:
@@ -7603,6 +7673,11 @@ simbody:
   version: 3.4.1+dfsg-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+simplepie:
+  version: 1.3.1+dfsg-2
+  comments: |
+    Capture build time in
+    /usr/share/php/simplepie/SimplePie.compiled.php
 simplyhtml:
   version: 0.16.08-1
   issues:
@@ -8015,6 +8090,10 @@ templayer:
   version: 1.5.1-1
   comments: |
     Timestamps (and bogus HTML) in tutorial.html.
+terraintool:
+  version: 1.12a-1
+  issues:
+    - timestamps_generated_by_docbook_to_man
 testdisk:
   version: 6.14-3
   issues:
@@ -8313,6 +8392,10 @@ uclibc:
   version: 0.9.32-1
   issues:
     - timestamps_in_tarball
+ucommon:
+  version: 6.1.10-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 ucspi-proxy:
   version: 0.99-1
   issues:
@@ -8859,6 +8942,10 @@ xmltooling:
   version: 1.5.3-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+xmlunit:
+  version: 1.5-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 xmorph:
   version: 1:20140707+nmu1
   issues:
@@ -8970,6 +9057,10 @@ yajl:
   version: 2.1.0-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+yard:
+  version: 0.8.7.4-1
+  issues:
+    - timestamps_in_documentation_generated_by_yard
 yasm:
   version: 1.2.0-2
   issues:
