@@ -3005,6 +3005,11 @@ htsengine:
   version: 1.08-1
   issues:
     - timestamps_generated_by_docbook_to_man
+http-icons:
+  version: 0~20041010-1
+  comments: |
+    GIF images are optimized while building by converting to PNM and back to GIF.
+    The conversion back to GIF introduces the variation.
 httpcomponents-core:
   version: 4.3.3-1
   issues:
