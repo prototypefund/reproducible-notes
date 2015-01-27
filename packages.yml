@@ -1407,6 +1407,10 @@ dialog:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
     - timestamps_in_static_libraries
+dict-elements:
+  version: 20001107-a-6
+  bugs:
+    - 776351
 dietlibc:
   version: 0.33~cvs20120325-6
   issues:
