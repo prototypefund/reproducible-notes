@@ -8898,6 +8898,11 @@ vera:
   version: 1.21-1
   bugs:
     - 776367
+verilator:
+  version: 3.864-1
+  comments: |
+    Adds timestamp. Not sure if used anywhere. Patch for toggle would be rather invasive.
+    http://sources.debian.net/src/verilator/3.864-1/include/verilated_vcd_c.cpp/?hl=350#L352
 videolan-doc:
   version: 20070626-1
   issues:
