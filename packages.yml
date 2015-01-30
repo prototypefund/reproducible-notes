@@ -9522,12 +9522,12 @@ zookeeper:
     - user_in_java_jar_manifest
 zope-mysqlda:
   version: 3.1.1-1
-  comments: |
-    Random field order in /usr/share/zope/Products/ZMySQLDA/.dzproduct
+  issues:
+    - zope_random_field_order_in_dzproduct
 zope-replacesupport:
   version: 1.0.3-6
-  comments: |
-    Random order of entries in /usr/share/zope/Products/ReplaceSupport/.dzproduct
+  issues:
+    - zope_random_field_order_in_dzproduct
 zorp:
   version: 3.9.5-4
   comments: |
