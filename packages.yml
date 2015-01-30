@@ -1187,6 +1187,10 @@ cvs-mailcommit:
   issues:
     - not_using_dh_builddeb
     - timestamps_in_gzip_headers
+cwebx:
+  version: 3.52-1
+  issues:
+    - timestamps_in_dvi_generated_by_latex
 cwirc:
   version: 2.0.0-7
   issues:
