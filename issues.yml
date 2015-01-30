@@ -246,4 +246,6 @@ ppds_compressed_b64:
   url: https://wiki.debian.org/ReproducibleBuilds/CupsPpdsIssues
 zope_random_field_order_in_dzproduct:
   description: |
-    Random order of entries in /usr/share/zope/Products/$package/.dzproduct
+    Random order of entries in /usr/share/zope/Products/$package/.dzproduct generated
+    by dh_installzope
+  url: https://bugs.debian.org/776619
