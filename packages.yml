@@ -3892,6 +3892,8 @@ libcec:
   comments: |
     Embed build time.
     https://sources.debian.net/src/libcec/2.2.0%2Bdfsg1-1/configure.ac/?hl=351:255#L351
+    Can be removed by passing HAVE_DATE=no HAVE_WHOAMI=no HAVE_HOSTNAME=no HAVE_UNAME=no
+    to ./configure but the binaries are also non-determinstic.
 libcolor-calc-perl:
   version: 1.074-1
   issues:
