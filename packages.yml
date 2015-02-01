@@ -4866,6 +4866,12 @@ manpages:
   version: 3.74-1
   bugs:
     - 774852
+manpages-tr:
+  version: 1.0.5.1-2
+  comments: |
+    Uses xslt to embed buildtime into manpages. Patch to remove timestamps
+    would be easy but to make it determinstic would require modifying 3/4
+    files.
 maria:
   version: 1.3.5-4
   issues:
