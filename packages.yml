@@ -3805,6 +3805,10 @@ leave:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+ledit:
+  version: 2.03-2
+  comments: |
+    Some kind of timestamp in ledit.a. Seems to be added by ocaml itself?
 leds-alix:
   version: 0.0.1-1.1
   issues:
