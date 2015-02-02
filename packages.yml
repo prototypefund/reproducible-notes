@@ -2962,6 +2962,12 @@ graphviz:
   version: 2.38.0-7
   issues:
     - pdf_created_by_ghostscript
+gravitation:
+  version: 3+dfsg1-4
+  issues:
+    - timestamps_in_png
+  bugs:
+    - 776872
 grcompiler:
   version: 4.2-4
   issues:
@@ -5821,6 +5827,10 @@ openhackware:
   comments: |
     Embed build time:
     https://codesearch.debian.net/results/package%3Aopenhackware%20BUILD_%28DATE|TIME%29
+openimageio:
+  version: 1.4.14~dfsg0-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 openjdk-7:
   version: 7u71-2.5.3-2
   issues:
@@ -8412,6 +8422,12 @@ sweethome3d:
   version: 4.5+dfsg-2
   issues:
     - timestamps_in_png
+sweethome3d-furniture-editor:
+  version: 1.15-1
+  issues:
+    - timestamps_in_png
+  bugs:
+    - 776873
 swi-prolog:
   version: 6.6.6-5
   issues:
@@ -9483,6 +9499,12 @@ xsp:
   version: 3.8-2
   issues:
     - timestamps_in_pe_binaries
+xtables-addons:
+  version: 2.6-1
+  issues:
+    - timestamps_in_tarball
+  bugs:
+    - 776879
 xtel:
   version: 3.3.0-17.1
   issues:
