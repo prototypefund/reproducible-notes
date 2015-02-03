@@ -4703,7 +4703,7 @@ linux:
 linux-patch-grsecurity2:
   version: 3.0+3.14.22-201410250026-1
   issues:
-    - timestamps_in_gzip_headers
+    - timestamps_in_files_installed_by_dh_kpatches
 litecoin:
   version: 0.8.7.4-1
   comments: |
