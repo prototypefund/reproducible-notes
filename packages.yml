@@ -2082,6 +2082,8 @@ fgetty:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+  bugs:
+    - 776966
 filepp:
   version: 1.8.0-4
   comments: |
