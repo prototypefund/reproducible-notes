@@ -8774,6 +8774,8 @@ trscripts:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+  bugs:
+    - 776927
 tsdecrypt:
   version: 10.0-2
   comments: |
