@@ -262,3 +262,6 @@ zope_random_field_order_in_dzproduct:
     Random order of entries in /usr/share/zope/Products/$package/.dzproduct generated
     by dh_installzope
   url: https://bugs.debian.org/776619
+timestamps_in_files_installed_by_dh_kpatches:
+  description: |
+    Calls gzip without -n
