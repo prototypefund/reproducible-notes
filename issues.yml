@@ -72,6 +72,9 @@ random_order_in_egg_info_top_level_txt:
 random_order_in_python_environment_pickle:
   description: |
     Python doctrees writes a `environment.pickle.gz`, in a random order.
+random_order_in_python_namespace_packages:
+  description: |
+    dh-python writes to `/usr/share/python/ns/PACKAGE` in a random order
 random_order_in_naturaldocs:
   description: |
     Natural Docs generates its documentation in a random order.
