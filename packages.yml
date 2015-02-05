@@ -672,6 +672,10 @@ br.ispell:
   version: 3.0~beta4-17
   issues:
     - timestamps_in_gzip_headers
+brailleutils:
+  version: 1.2.3-1
+  issues:
+    - user_in_java_jar_manifest
 breathe:
   version: 3.1.0-1
   issues:
@@ -892,6 +896,10 @@ chipw:
   version: 2.0.6-1.2
   issues:
     - timestamps_from_cpp_macros
+chktex:
+  version: 1.7.2-1
+  issues:
+    - timestamps_in_dvi_generated_by_latex
 chuck:
   version: 1.2.0.8.dfsg-1.4
   issues:
@@ -1649,6 +1657,10 @@ dx:
   version: 1:4.4.4-7
   issues:
     - timestamps_from_cpp_macros
+ecb:
+  version: 2.40+git20140216-1
+  issues:
+    - timestamps_in_emacs_autoloads
 echoping:
   version: 6.0.2-8
   issues:
@@ -2066,6 +2078,11 @@ felix-shell:
   version: 1.4.3-1
   issues:
     - timestamps_in_maven_pom_files
+felix-shell-tui:
+  version: 1.4.1-3
+  issues:
+    - timestamps_in_maven_pom_files
+    - timestamp_in_java_bnd_manifest
 felix-utils:
   version: 1.6.0-1
   issues:
@@ -2238,6 +2255,10 @@ fonts-prociono:
   version: 2.3-3
   comments: |
     Uses sortsmill-tools.
+  issues:
+    - fontforge_reset_modification_time
+fonts-sil-abyssinica:
+  version: 1.500-1
   issues:
     - fontforge_reset_modification_time
 fonty-rg:
@@ -5033,6 +5054,11 @@ maven-embedder:
   version: 2.0.4-3
   issues:
     - timestamps_in_maven_pom_files
+maven-enforcer:
+  version: 1.0-1
+  issues:
+    - timestamps_in_maven_pom_files
+    - user_in_java_jar_manifest
 maven-file-management:
   version: 1.2.1-3
   issues:
@@ -5335,6 +5361,10 @@ monodevelop-database:
   version: 5.5.0.227+dfsg-1
   issues:
     - timestamps_in_pe_binaries
+monotone:
+  version: 1.1-4
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 monster-masher:
   version: 1.8.1-6
   issues:
@@ -5650,6 +5680,10 @@ ngircd:
   version: 22-2
   issues:
     - timestamps_from_cpp_macros
+nickle:
+  version: 2.77-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 nicovideo-dl:
   version: 0.0.20120212-2
   issues:
@@ -5835,6 +5869,10 @@ oolite:
   version: 1.77.1-3
   issues:
     - timestamps_from_cpp_macros
+opal:
+  version: 3.10.10~dfsg2-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 opam:
   version: 1.2.0-1
   issues:
@@ -5848,6 +5886,13 @@ open-cobol:
     Does not use dpkg-buildflags.
   issues:
     - timestamps_from_cpp_macros
+openafs:
+  version: 1.6.10-4
+  issues:
+    - timestamps_in_pdf_generated_by_latex
+    - timestamps_in_documentation_generated_by_doxygen
+  comments: |
+    openafs-modules-source package contains a tarball with differing timestamps.
 openais:
   version: 1.1.4-4.2
   issues:
@@ -6104,6 +6149,10 @@ pchar:
   comments: |
     Embed build time, and hostname:
     https://sources.debian.net/src/pchar/1.5-2/Makefile.in/?hl=186#L186
+pciutils:
+  version: 3.2.1-3
+  issues:
+    - timestamps_in_gzip_headers
 pcl:
   version: 1.7.2-6
   issues:
@@ -7329,6 +7378,10 @@ privoxy:
   version: 3.0.21-5
   issues:
     - timestamps_in_documentation_generated_by_man2html
+probabel:
+  version: 0.4.3-2
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 procenv:
   version: 0.36-1
   issues:
@@ -9374,6 +9427,11 @@ xblast-tnt-images:
     - not_using_dh_builddeb
 xblast-tnt-levels:
   version: 20050106-2
+  issues:
+    - not_using_dh_builddeb
+    - timestamps_in_gzip_headers
+xblast-tnt-models:
+  version: 20050106-3
   issues:
     - not_using_dh_builddeb
     - timestamps_in_gzip_headers
