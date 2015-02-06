@@ -408,7 +408,9 @@ aws-sdk-for-php:
   version: 0.93-4
   comments: |
     PDF CreationDate header is a repr of a Python instance that contains a
-    non-deterministic memory address.
+    non-deterministic memory address. This is caused by a bug in rst2pdf.
+  bugs:
+    - 777251
 babiloo:
   version: 2.0.11-1
   issues:
