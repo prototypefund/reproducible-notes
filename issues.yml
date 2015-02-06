@@ -277,3 +277,6 @@ randomness_in_dh_cligacpolicy_scripts:
 unreproducible_by_design:
   description: |
     Packages which fail to build from source because they are unreproducible by design.
+needs_internet_access_to_build:
+  description: |
+    Packages which need to access sites on the internet during build.
