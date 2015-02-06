@@ -3142,6 +3142,12 @@ guile-1.8:
   version: 1.8.8+1-10
   comments: |
     Timestamp in custom .a header(?), and hence messed-up Build-Ids(?)
+gui-apt-key:
+  version: 0.4-2
+  issues:
+    - timestamps_in_gzip_headers
+  bugs:
+    - 777240
 guncat:
   version: 0.92.00-3
   issues:
