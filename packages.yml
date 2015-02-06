@@ -639,6 +639,7 @@ boo:
   version: 0.9.5~git20110729.r1.202a430-2
   issues:
     - timestamps_in_pe_binaries
+    - randomness_in_dh_cligacpolicy_scripts
 boolector:
   version: 1.5.118.6b56be4.121013-1
   comments: |
@@ -2540,6 +2541,10 @@ gdal:
   version: 1.10.1+dfsg-8
   issues:
     - timestamps_from_cpp_macros
+gdata-sharp:
+  version: 2.2.0.0-2
+  issues:
+    - randomness_in_dh_cligacpolicy_scripts
 gdb:
   version: 7.7.1+dfsg-5
   comments: |
@@ -3111,6 +3116,7 @@ gtk-sharp2:
   issues:
     - timestamps_in_pe_binaries
     - timestamps_in_zip
+    - randomness_in_dh_cligacpolicy_scripts
 gtkglarea-sharp:
   version: 0.0.17-6
   issues:
