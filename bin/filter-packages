@@ -4,6 +4,8 @@ import sys
 import yaml
 import optparse
 
+from os.path import join, dirname, abspath
+
 def main():
     parser = optparse.OptionParser(usage='%prog [options]')
     parser.add_option('--issues', dest='issues', default=None,
@@ -25,7 +27,9 @@ def main():
     if options.issues is not None:
         options.issues = set(options.issues.split(','))
 
-    with open('./packages.yml') as f:
+    filename = join(dirname(dirname(abspath(__file__))), 'packages.yml')
+
+    with open(filename) as f:
         packages = yaml.safe_load(f)
 
     for x, y in sorted(packages.iteritems()):
