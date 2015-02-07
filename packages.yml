@@ -31,14 +31,10 @@ abook:
     - timestamps_in_gzip_headers
   bugs:
     - 777271
-access-modifier-checker:
-  version: 1.4-2
 ace:
   version: 6.2.8+dfsg-1
   issues:
     - timestamps_generated_by_docbook_to_man
-acegi-security:
-  version: 1.0.7-3
 aconnectgui:
   version: 0.9.0rc2-1-9
   issues:
@@ -47,8 +43,6 @@ acpica-unix:
   version: 20140926-1
   issues:
     - timestamps_from_cpp_macros
-activemq-protobuf:
-  version: 1.1-3
 activiz.net:
   version: 1:1.0~git20111214-2
   issues:
@@ -68,8 +62,6 @@ aegisub:
   version: 3.1.2-1
   issues:
     - timestamps_from_cpp_macros
-aether:
-  version: 1.13.1-2
 aewm++-goodies:
   version: 1.0-9
   issues:
@@ -179,8 +171,6 @@ anjuta:
   version: 2:3.14.0-1
   issues:
     - timestamps_from_cpp_macros
-annotation-indexer:
-  version: 1.9-1
 ant:
   version: 1.9.4-3
   issues:
@@ -198,8 +188,6 @@ antlr-maven-plugin:
   version: 2.2-2
   issues:
     - timestamps_in_maven_pom_files
-antlr3:
-  version: 3.2-10
 antpm:
   version: 1.16-8
   issues:
@@ -289,8 +277,6 @@ arduino:
   version: 2:1.0.5+dfsg2-4
   issues:
     - timestamps_in_jar
-args4j:
-  version: 2.0.30-1
 argus-client:
   version: 2.0.6.fixes.1-3
   issues:
@@ -449,8 +435,6 @@ basenji:
   version: 1.0.1-3
   issues:
     - timestamps_in_pe_binaries
-basex:
-  version: 7.9-1
 bash:
   version: 4.3-11
   comments: |
@@ -475,8 +459,6 @@ bb:
   version: 1.3rc1-8.1
   issues:
     - timestamps_from_cpp_macros
-bcel:
-  version: 6.0~rc3-1
 bcfg2:
   version: 1.3.5-1
   issues:
@@ -696,14 +678,10 @@ breathe:
   version: 3.1.0-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
-bridge-method-injector:
-  version: 1.13-1
 brltty:
   version: 5.2~20141018-2
   comments: |
     Entropy from (gcc) compile or link order
-bsaf:
-  version: 1.9-4
 bsh:
   version: 2.0b4-15
   comments: |
@@ -711,8 +689,6 @@ bsh:
     /usr/share/java/bsh-2.0b4.jar:META-INF/MANIFEST.MF
   issues:
     - timestamps_in_tarball
-build-helper-maven-plugin:
-  version: 1.8-1
 bup:
   version: 0.25-1
   comments: |
@@ -730,8 +706,6 @@ bytecode:
   issues:
     - timestamps_in_jar
     - timestamps_in_documentation_generated_by_javadoc
-bytecode-compatibility-transformer:
-  version: 1.5-1
 bzflag:
   version: 2.4.2+ds1-5
   issues:
@@ -774,8 +748,6 @@ carmetal:
   version: 3.5.2+dfsg-1.1
   issues:
     - timestamps_generated_by_docbook_to_man
-carrotsearch-hppc:
-  version: 0.6.1-1
 casablanca:
   version: 2.2.0-1
   issues:
@@ -996,8 +968,6 @@ cnrun:
   version: 1.1.14-1
   issues:
     - timestamps_from_cpp_macros
-cobertura-maven-plugin:
-  version: 2.3+dfsg-2
 coco-cs:
   version: 20110419-5
   issues:
@@ -1042,20 +1012,14 @@ colord:
   version: 1.2.1-1
   issues:
     - randomness_in_icc_colour_profiles
-commons-beanutils:
-  version: 1.9.2-1
 commons-configuration:
   version: 1.10-2
   issues:
     - user_in_java_jar_manifest
-commons-exec:
-  version: 1.2-1
 commons-jci:
   version: 1.1-2
   issues:
     - timestamps_in_maven_pom_files
-commons-vfs:
-  version: 2.0-3
 composite:
   version: 0.006.2+dfsg0-4
   issues:
@@ -1520,8 +1484,6 @@ directfb:
   version: 1.2.10.0-5.1
   issues:
     - timestamps_from_cpp_macros
-disruptor:
-  version: 3.3.0-2
 distcc:
   version: 3.1-6.1
   issues:
@@ -1614,8 +1576,6 @@ dtc-xen:
   version: 0.5.17-1
   issues:
     - timestamps_in_gzip_headers
-dtd-parser:
-  version: 1.2~svn20110404-1
 dune-grid:
   version: 2.3.1-1
   issues:
@@ -1668,8 +1628,6 @@ eclib:
   version: 2014-09-21-1
   issues:
     - timestamps_from_cpp_macros
-eclipse-aether:
-  version: 0.9.0.M2-1
 eclipse-emf:
   version: 2.8.3-1
   issues:
@@ -1945,8 +1903,6 @@ evolution-data-server:
   version: 3.12.9~git20141128.5242b0-2
   comments: |
     Embeds the build username into documentation.
-exec-maven-plugin:
-  version: 1.1.1+dfsg-3
 exifprobe:
   version: 2.0.1-3
   comments: |
@@ -2081,10 +2037,6 @@ fenix:
   version: 0.92a.dfsg1-10
   issues:
     - timestamps_from_cpp_macros
-fest-test:
-  version: 2.1.0-1
-fest-util:
-  version: 1.2.5-1
 festival:
   version: 1:2.1~release-8
   issues:
@@ -2298,38 +2250,10 @@ freehdl:
   version: 0.0.8-2.1
   issues:
     - timestamps_from_cpp_macros
-freehep-chartableconverter-plugin:
-  version: 2.0-6
-freehep-export:
-  version: 2.1.1-2
-freehep-graphics2d:
-  version: 2.1.1-4
 freehep-graphicsio:
   version: 2.1.1-3
   issues:
     - user_in_java_jar_manifest
-freehep-graphicsio-emf:
-  version: 2.1.1-emfplus+dfsg1-2
-freehep-graphicsio-java:
-  version: 2.1.1-1
-freehep-graphicsio-pdf:
-  version: 2.1.1+dfsg-1
-freehep-graphicsio-ps:
-  version: 2.1.1-1
-freehep-graphicsio-svg:
-  version: 2.1.1-3
-freehep-graphicsio-swf:
-  version: 2.1.1+dfsg-1
-freehep-graphicsio-tests:
-  version: 2.1.1+dfsg1-3
-freehep-io:
-  version: 2.0.2-4
-freehep-swing:
-  version: 2.0.3-3
-freehep-util:
-  version: 2.0.2-5
-freehep-xml:
-  version: 2.1.2+dfsg1-3
 freemedforms-project:
   version: 0.9.4-1
   issues:
@@ -2953,8 +2877,6 @@ goobox:
   version: 3.3.1-6
   issues:
     - timestamps_generated_by_docbook_to_man
-gossip:
-  version: 1.8-1
 gpgme1.0:
   version: 1.5.1-6
   comments: |
@@ -3220,8 +3142,6 @@ http-icons:
   comments: |
     GIF images are optimized while building by converting to PNM and back to GIF.
     The conversion back to GIF introduces the variation.
-httpcomponents-core:
-  version: 4.3.3-1
 https-finder:
   version: 091-1
   issues:
@@ -3346,8 +3266,6 @@ infon:
   version: 0~r198-8
   issues:
     - timestamps_from_cpp_macros
-ini4j:
-  version: 0.5.2-SNAPSHOT-5
 inkscape:
   version: 0.48.5-3
   issues:
@@ -3436,8 +3354,6 @@ ispell-gl:
   version: 0.5-40
   issues:
     - timestamps_in_gzip_headers
-istack-commons:
-  version: 2.17-1
 jaaa:
   version: 0.8.4-1
   issues:
@@ -3460,8 +3376,6 @@ jackson-annotations:
   issues:
     - timestamps_in_maven_pom_files
     - user_in_java_jar_manifest
-jackson-jaxrs-providers:
-  version: 2.4.2-1
 jackson-module-jaxb-annotations:
   version: 2.4.2-1
   issues:
@@ -3491,20 +3405,10 @@ jamnntpd:
   version: 1.2-1
   issues:
     - timestamps_from_cpp_macros
-jarjar-maven-plugin:
-  version: 1.9-3
-jas-plotter:
-  version: 2.2.6+dfsg1-2
-jasypt:
-  version: 1.8-2
-java-comment-preprocessor:
-  version: 5.3.3-1
 java-common:
   version: 0.52
   issues:
     - timestamps_in_dvi_generated_by_latex
-java-xmlbuilder:
-  version: 0.4-2
 javacc:
   version: 5.0-5
   issues:
@@ -3513,47 +3417,19 @@ javacc-maven-plugin:
   version: 2.6-2
   issues:
     - timestamps_in_maven_pom_files
-javamail:
-  version: 1.5.2-3
-javatuples:
-  version: 1.2-1
-jaxb-api:
-  version: 2.2.9-1
 jaxe:
   version: 3.5-5
   issues:
     - timestamps_in_jar
     - timestamps_in_documentation_generated_by_javadoc
-jcodings:
-  version: 1.0.11-2
 jd:
   version: 1:2.8.8-140601-4
   issues:
     - timestamps_from_cpp_macros
-jdeb:
-  version: 1.0.2~git20130829-3
-jdependency:
-  version: 0.7-1
 jedit:
   version: 5.1.0+dfsg-2
   issues:
     - timestamps_in_png
-jenkins-constant-pool-scanner:
-  version: 1.2-1
-jenkins-crypto-util:
-  version: 1.4-1
-jenkins-executable-war:
-  version: 1.29-1
-jenkins-instance-identity:
-  version: 1.4-1
-jenkins-matrix-auth-plugin:
-  version: 1.2-1
-jenkins-memory-monitor:
-  version: 1.8-1
-jenkins-task-reactor:
-  version: 1.4-1
-jenkins-trilead-ssh2:
-  version: 217-jenkins-7-1
 jfractionlab:
   version: 0.91-3
   issues:
@@ -3582,8 +3458,6 @@ jmxetric:
   version: 1.0.6-1
   issues:
     - timestamps_in_maven_pom_files
-joda-convert:
-  version: 1.5-1
 jodconverter-cli:
   version: 2.2.2-8
   issues:
@@ -3592,8 +3466,6 @@ joe:
   version: 3.7-2.4
   issues:
     - not_using_dh_builddeb
-joptsimple:
-  version: 4.5-1
 joy2key:
   version: 1.6.3-1
   issues:
@@ -3602,16 +3474,10 @@ jpilot:
   version: 1.8.2-1
   issues:
     - timestamps_from_cpp_macros
-jquery:
-  version: 1.7.2+dfsg-3.2
-jsch-agent-proxy:
-  version: 0.0.7-1
 json-simple:
   version: 1.1.1-3
   issues:
     - timestamps_in_maven_pom_files
-jsoup:
-  version: 1.8.1-1
 jss:
   version: 4.3.1-6
   issues:
@@ -3623,8 +3489,6 @@ jsxgraph:
     Timestamp in documentation generated by JsDoc Toolkit.
   issues:
     - timestamps_in_zip
-jtidy:
-  version: 7+svn20110807-4
 jumpnbump:
   version: 1.51+dfsg1-2
   issues:
@@ -3820,8 +3684,6 @@ leveldb-sharp:
   version: 1.9.1-1
   issues:
     - timestamps_in_pe_binaries
-libajaxtags-java:
-  version: 1.5.1-2
 libalien-sdl-perl:
   version: 1.444-1
   issues:
@@ -3908,8 +3770,6 @@ libcitygml:
   version: 0.14+svn134-2+3p2p1
   issues:
     - timestamps_from_cpp_macros
-libcodemodel-java:
-  version: 2.6-1
 libcolor-calc-perl:
   version: 1.074-1
   issues:
@@ -3926,25 +3786,15 @@ libcommons-collections3-java:
   version: 3.2.1-7
   issues:
     - timestamp_in_java_bnd_manifest
-libcommons-dbcp-java:
-  version: 1.4-5
-libcommons-discovery-java:
-  version: 0.5-3
-libcommons-fileupload-java:
-  version: 1.3.1-1
 libcommons-lang-java:
   version: 2.6-4
   issues:
     - timestamps_in_jar
     - timestamps_in_documentation_generated_by_javadoc
-libcommons-lang3-java:
-  version: 3.3.2-1
 libcommons-net2-java:
   version: 2.2-2
   issues:
     - timestamps_in_maven_pom_files
-libcommons-validator-java:
-  version: 1:1.4.0-2
 libconstantine-java:
   version: 0.7-6
   issues:
@@ -3990,8 +3840,6 @@ libdc1394-22:
 libdebian-installer:
   bugs:
     - 762732
-libdecentxml-java:
-  version: 1.4-1
 libdiscid:
   version: 0.6.1-3
   issues:
@@ -4082,8 +3930,6 @@ libgcrypt20:
   version: 1.6.2-4
   comments: |
     Timestamp in .ps generated by dvips
-libgettext-commons-java:
-  version: 0.9.6-2
 libgig:
   version: 3.3.0-3
   issues:
@@ -4116,10 +3962,6 @@ libgwenhywfar:
   version: 4.12.0beta-3
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-libhibernate-commons-annotations-java:
-  version: 3.2.0.Final-2
-libhibernate3-java:
-  version: 3.6.10.Final-3
 libident:
   version: 0.22-3
   issues:
@@ -4148,8 +3990,6 @@ libjavaewah-java:
   version: 0.6.12-1
   issues:
     - timestamps_in_maven_pom_files
-libjaxen-java:
-  version: 1.1.6-1
 libjaxp1.3-java:
   version: 1.3.05-2
   issues:
@@ -4166,12 +4006,6 @@ libjcommon-java:
   version: 1.0.16-4
   issues:
     - timestamps_in_jar
-libjgoodies-common-java:
-  version: 1.4.0-2
-libjgoodies-forms-java:
-  version: 1.6.0-4
-libjgoodies-looks-java:
-  version: 2.5.2-3
 libjna-posix-java:
   version: 1.0.1-2
   issues:
@@ -4183,8 +4017,6 @@ libjnr-posix-java:
     - timestamps_in_maven_pom_files
     - timestamps_in_jar
     - timestamps_in_documentation_generated_by_javadoc
-libjoda-time-java:
-  version: 2.4-1
 libjrosetta-java:
   version: 1.0.4-4
   issues:
@@ -4194,10 +4026,6 @@ libjspeex-java:
   issues:
     - timestamp_in_java_bnd_manifest
     - user_in_java_jar_manifest
-libjtype-java:
-  version: 0.1.3-2
-libjuniversalchardet-java:
-  version: 1.0.3-1
 libkarma:
   version: 0.1.2-2.3
   issues:
@@ -4241,8 +4069,6 @@ libmediainfo:
   version: 0.7.70-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-libmiglayout-java:
-  version: 4.2-1
 libmimic:
   version: 1.0.4-2.2
   issues:
@@ -4309,21 +4135,11 @@ libopenobex:
   version: 1.5-2.1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-libopensaml2-java:
-  version: 2.6.2-1
-libopenws-java:
-  version: 1.5.1-3
-libowasp-esapi-java:
-  version: 2.1.0-2
-libpdf-fdf-simple-perl:
-  version: 0.21-1
 libpgm:
   version: 5.1.118-1~dfsg-1
   comments: |
     Embed build time:
     https://sources.debian.net/src/libpgm/5.1.118-1~dfsg-1/openpgm/pgm/version_generator.py/
-libphonenumber:
-  version: 6.3~svn698-3
 libpixels-java:
   version: 2.1.3+svn.42-2
   issues:
@@ -4346,8 +4162,6 @@ libpwiz:
   version: 3.0.6585-2
   issues:
     - timestamps_from_cpp_macros
-libquartz-java:
-  version: 1:1.7.3-5
 libquicktime:
   version: 2:1.2.4-7
   issues:
@@ -4394,14 +4208,10 @@ libsdl2:
   version: 2.0.2+dfsg1-6
   bugs:
     - 777186
-libsequence-library-java:
-  version: 1.0.2-1
 libshevek:
   version: 1.4-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-libshib-common-java:
-  version: 1.4.0-3
 libsidplayfp:
   version: 1.6.0-1
   issues:
@@ -4434,8 +4244,6 @@ libsvn-notify-mirror-perl:
   version: 0.03800-2
   issues:
     - random_order_in_files_generated_by_module_build
-libswingx-java:
-  version: 1:1.6.2-2
 libswingx1-java:
   version: 1:1.0-1
   issues:
@@ -4508,8 +4316,6 @@ libvsqlitepp:
   version: 0.3.13-3
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-libvt-ldap-java:
-  version: 3.3.8-1
 libwebsockets:
   version: 1.2.2-1
   comments: |
@@ -4546,18 +4352,6 @@ libxdg-basedir:
   version: 1.2.0-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-libxerces2-java:
-  version: 2.11.0-7
-libxml-commons-resolver1.1-java:
-  version: 1.2-7
-libxml-security-java:
-  version: 1.5.6-1
-libxmlrpc3-java:
-  version: 3.1.3-7
-libxmltooling-java:
-  version: 1.4.2-4
-libxmpcore-java:
-  version: 5.1.2-2
 libxstream-java:
   version: 1.4.7-2
   issues:
@@ -4588,8 +4382,6 @@ lifelines:
   version: 3.0.61-2
   issues:
     - timestamps_in_pdf_generated_by_latex
-lightcouch:
-  version: 0.0.6-1
 lightproof:
   version: 1.5+git20140515-1
   bugs:
@@ -4630,8 +4422,6 @@ livehttpheaders:
   version: 0.17-3
   issues:
     - xpi_pack_saves_extra_attributes_in_jar
-livetribe-jsr223:
-  version: 2.0.6-1
 llvm-toolchain-3.4:
   version: 1:3.4.2-13
   issues:
@@ -4652,8 +4442,6 @@ lmemory:
   version: 0.6c-7
   issues:
     - timestamps_from_cpp_macros
-localizer:
-  version: 1.13-2
 lockdev:
   version: 1.0.3-1.6
   issues:
@@ -4845,20 +4633,6 @@ maude:
   version: 2.6-6
   issues:
     - timestamps_from_cpp_macros
-maven:
-  version: 3.0.5-1
-maven-ant-tasks:
-  version: 2.1.3-3
-maven-antrun-extended-plugin:
-  version: 1.42-1
-maven-antrun-plugin:
-  version: 1.7-1
-maven-archiver:
-  version: 2.5-1
-maven-clean-plugin:
-  version: 2.5-1
-maven-common-artifact-filters:
-  version: 1.4-1
 maven-compiler-plugin:
   version: 2.5.1-1
   issues:
@@ -4867,29 +4641,15 @@ maven-dependency-plugin:
   version: 2.4-1
   issues:
     - timestamps_in_maven_pom_files
-maven-dependency-tree:
-  version: 1.2-4
-maven-docck-plugin:
-  version: 1.0-4
-maven-doxia-tools:
-  version: 1.2.1-2
-maven-ejb-plugin:
-  version: 2.2-2
-maven-embedder:
-  version: 2.0.4-3
 maven-enforcer:
   version: 1.0-1
   issues:
     - timestamps_in_maven_pom_files
     - user_in_java_jar_manifest
-maven-file-management:
-  version: 1.2.1-3
 maven-filtering:
   version: 1.1-1
   issues:
     - timestamps_in_maven_pom_files
-maven-install-plugin:
-  version: 2.4-1
 maven-invoker:
   version: 2.1.1-1
   issues:
@@ -4900,34 +4660,14 @@ maven-invoker-plugin:
     maven/plugin.xml file has random order
   issues:
     - timestamps_in_maven_pom_files
-maven-javadoc-plugin:
-  version: 2.9.1-2
 maven-plugin-tools:
   version: 3.2-2
   issues:
     - timestamps_in_maven_pom_files
-maven-replacer-plugin:
-  version: 1.5.3-1
-maven-reporting-impl:
-  version: 2.1-1
-maven-repository-builder:
-  version: 1.0~alpha2-3
-maven-shared-io:
-  version: 1.1-4
-maven-shared-utils:
-  version: 0.4-1
-maven-source-plugin:
-  version: 2.2.1-1
-maven-stapler-plugin:
-  version: 1.17-1
-maven-verifier:
-  version: 1.2-1
 maven-war-plugin:
   version: 2.1.1-2
   issues:
     - timestamps_in_maven_pom_files
-maven2:
-  version: 2.2.1-21
 mayavi2:
   version: 4.3.1-3.1
   comments: |
@@ -4958,8 +4698,6 @@ meshlab:
   version: 1.3.2+dfsg1-2
   issues:
     - timestamps_from_cpp_macros
-metainf-services:
-  version: 1.5-1
 metis:
   version: 5.1.0.dfsg-4
   issues:
@@ -5134,8 +4872,6 @@ mono-fuse:
   version: 0.4.2+dfsg-3
   issues:
     - timestamps_in_pe_binaries
-mono-upnp:
-  version: 0.1.2-2
 mono-zeroconf:
   version: 0.9.0-4
   issues:
@@ -5164,8 +4900,6 @@ monster-masher:
   version: 1.8.1-6
   issues:
     - timestamps_generated_by_docbook_to_man
-morfologik-stemming:
-  version: 1.9.0+dfsg-0.1
 morse-simulator:
   version: 1.2.1-2
   issues:
@@ -5187,8 +4921,6 @@ mozjs24:
   version: 24.2.0-2
   issues:
     - timestamps_from_cpp_macros
-mp4parser:
-  version: 1.0.4.2-1
 mpack:
   version: 1.6-8
   issues:
@@ -5223,8 +4955,6 @@ mstflint:
   version: 3.7.0+1.18.gcdb9f80-3
   issues:
     - timestamps_from_cpp_macros
-msv:
-  version: 2009.1+dfsg1-4
 mtink:
   version: 1.0.16-8
   issues:
@@ -5252,8 +4982,6 @@ mummy:
   issues:
     - timestamps_in_documentation_generated_by_doxygen
     - timestamps_in_pe_binaries
-munge-maven-plugin:
-  version: 1.0-1
 munkres:
   version: 1.0.6-1
   issues:
@@ -5266,16 +4994,12 @@ mupen64plus-video-glide64mk2:
   version: 2.0-3
   issues:
     - timestamps_from_cpp_macros
-mustache-java:
-  version: 0.8.17-1
 muttprint:
   version: 0.73-5.1
   issues:
     - timestamps_in_dvi_generated_by_latex
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_png
-mvel:
-  version: 2.0.18-4
 mwrap:
   version: 0.33-2
   issues:
@@ -5506,8 +5230,6 @@ noblenote:
   version: 1.0.8-1
   issues:
     - timestamps_from_cpp_macros
-noggit:
-  version: 0.6-1
 nosquint:
   version: 2.1.9-2
   issues:
@@ -5569,8 +5291,6 @@ oar:
   version: 2.5.4-1
   comments: |
     Timestamp in documentation generated by Docutils.
-oauth-signpost:
-  version: 1.2.1.2-1.2
 obexftp:
   version: 0.23-4
   issues:
@@ -5688,8 +5408,6 @@ opencolorio:
   version: 1.0.9~dfsg0-3
   issues:
     - timestamps_in_pdf_generated_by_latex
-opencsv:
-  version: 2.3-1
 opendnssec:
   version: 1:1.4.6-5
   issues:
@@ -5821,8 +5539,6 @@ osptoolkit:
   version: 3.4.2-1.2
   issues:
     - timestamps_generated_by_docbook_to_man
-owasp-java-html-sanitizer:
-  version: 0.1+r88-1
 owx:
   version: 0~20110415-3.1
   issues:
@@ -6599,8 +6315,6 @@ php-horde-whups:
   version: 3.0.0-2
   issues:
     - timestamps_in_php_registry_files
-php-horde-wicked:
-  version: 2.0.1-4
 php-horde-xml-wbxml:
   version: 2.0.1-6
   issues:
@@ -6967,8 +6681,6 @@ plee-the-bear:
   version: 0.6.0-3.1
   issues:
     - timestamps_generated_by_docbook_to_man
-plexus-active-collections:
-  version: 1.0~beta2-3
 plexus-ant-factory:
   version: 1.0~alpha2.1-3
   issues:
@@ -6977,8 +6689,6 @@ plexus-archiver:
   version: 1.2-1
   issues:
     - timestamps_in_maven_pom_files
-plexus-build-api:
-  version: 0.0.7-1
 plexus-cdc:
   version: 1.0~alpha14-6
   issues:
@@ -6991,12 +6701,6 @@ plexus-classworlds2:
   version: 2.5.2-1
   issues:
     - timestamps_in_maven_pom_files
-plexus-cli:
-  version: 1.2-5
-plexus-compiler:
-  version: 1.9.2-2
-plexus-component-api:
-  version: 1.0.0~alpha22-3
 plexus-container-default:
   version: 1.0-alpha-9-stable-1-7
   issues:
@@ -7009,20 +6713,10 @@ plexus-containers1.5:
   version: 1.5.5-6
   issues:
     - timestamps_in_maven_pom_files
-plexus-interactivity-api:
-  version: 1.0-alpha-6-7
-plexus-interpolation:
-  version: 1.19-1
 plexus-io:
   version: 1.0~alpha5-2
   issues:
     - timestamps_in_maven_pom_files
-plexus-maven-plugin:
-  version: 1.3.8-9
-plexus-resources:
-  version: 1.0~alpha7-1
-plexus-sec-dispatcher:
-  version: 1.3.1-6
 plib-doc:
   version: 1:1.8.5-3
   issues:
@@ -7074,8 +6768,6 @@ portaudio19:
   issues:
     - timestamps_from_cpp_macros
     - timestamps_in_documentation_generated_by_doxygen
-portlet-api-2.0-spec:
-  version: 1.0-2
 posh:
   version: 0.12.3
   issues:
@@ -7106,8 +6798,6 @@ praat:
   version: 5.4.0-1
   issues:
     - timestamps_from_cpp_macros
-practicalxml-java:
-  version: 1.1.17-1
 prboom-plus:
   version: 2:2.5.1.4~svn4403+dfsg1-1
   issues:
@@ -7584,8 +7274,6 @@ rest2web:
   version: 0.5.2~alpha+svn-r248-2
   comments: |
     Random HTML ids in /usr/share/doc/rest2web/html/test_site/section1/index.html
-resteasy:
-  version: 3.0.6-1
 retext:
   version: 5.0.1-1
   issues:
@@ -7616,8 +7304,6 @@ robojournal:
   version: 0.5-1
   issues:
     - timestamps_from_cpp_macros
-robust-http-client:
-  version: 1.2-2
 rockdodger:
   version: 1.0.0-1
   issues:
@@ -7802,8 +7488,6 @@ sawfish:
   issues:
     - timestamps_in_gzip_headers
     - timestamps_in_static_libraries
-saxonhe:
-  version: 9.5.1.1+dfsg-1
 scala-mode-el:
   version: 20111005-2.1
   issues:
@@ -7872,8 +7556,6 @@ serp:
   version: 1.14.1-2
   issues:
     - user_in_java_jar_manifest
-sezpoz:
-  version: 1.9-2
 sffview:
   version: 0.5.0-1
   issues:
@@ -7973,8 +7655,6 @@ sipxtapi:
     https://sources.debian.net/src/sipxtapi/3.3.0~test17-1/config/sipXpkgtop.mak/
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-sisu-inject:
-  version: 0.0.0.M5-1
 sisu-ioc:
   version: 2.3.0-5
   issues:
@@ -8048,8 +7728,6 @@ snake4:
   comments: |
     Embed build timestamp and username:
     https://sources.debian.net/src/snake4/1.0.14-1/Makefile/?hl=8:9,59:63#L8
-snappy1.0.3-java:
-  version: 1.0.3-rc3~dfsg-4
 snd:
   version: 11.7-3
   issues:
@@ -8109,8 +7787,6 @@ sparkleshare:
   version: 1.2-0.1
   issues:
     - timestamps_in_pe_binaries
-spatial4j:
-  version: 0.3-1
 spatial4j-0.4:
   version: 0.4.1-1
   issues:
@@ -8202,8 +7878,6 @@ ssvnc:
   version: 1.0.29-2
   issues:
     - timestamps_in_jar
-stapler-adjunct-timeline:
-  version: 1.4+dfsg-1
 statnews:
   version: 2.5
   comments: |
@@ -8459,8 +8133,6 @@ tig:
   version: 2.0.2-1
   issues:
     - timestamps_from_cpp_macros
-tiger-types:
-  version: 1.4-1
 tika:
   version: 1.5-1
   issues:
@@ -8756,12 +8428,6 @@ ui-utilcpp:
   version: 1.8.3-2
   issues:
     - timestamps_from_cpp_macros
-uima-addons:
-  version: 2.3.1-3
-uima-as:
-  version: 2.3.1-3
-uimaj:
-  version: 2.6.0-1
 ultracopier:
   version: 0.3.1.0-1
   issues:
@@ -8835,8 +8501,6 @@ vdk2:
   issues:
     - timestamps_in_documentation_generated_by_doxygen
     - timestamps_in_static_libraries
-velocity:
-  version: 1.7-4
 venkman:
   version: 0.9.89-1
   issues:
@@ -8932,8 +8596,6 @@ voms-clients-java:
   issues:
     - timestamps_in_maven_pom_files
     - timestamps_in_jar
-vorbis-java:
-  version: 0.6-1
 votca-csg:
   version: 1.2.4-1
   issues:
@@ -9006,8 +8668,6 @@ west-chamber:
   version: 20100405+svn20111107.r124-5
   issues:
     - timestamps_in_tarball
-weupnp:
-  version: 0.1.2-1
 wfmath:
   version: 1.0.2+dfsg1-0.3
   issues:
@@ -9254,8 +8914,6 @@ xml-maven-plugin:
   version: 1.0-2
   issues:
     - timestamps_in_maven_pom_files
-xmlbeans-maven-plugin:
-  version: 2.3.3-3
 xmlcopyeditor:
   version: 1.2.1.3-1
   comments: |
@@ -9332,8 +8990,6 @@ xsddiagram:
   version: 0.16-1
   issues:
     - timestamps_in_pe_binaries
-xslthl:
-  version: 2.1.0-4
 xsp:
   version: 3.8-2
   issues:
