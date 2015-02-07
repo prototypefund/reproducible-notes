@@ -881,6 +881,8 @@ checkpw:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+  bugs:
+    - 777299
 checkstyle:
   version: 5.9-1
   comments: |
