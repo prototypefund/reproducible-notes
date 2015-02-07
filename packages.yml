@@ -7550,6 +7550,8 @@ ssmtp:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+  bugs:
+    - 777398
 ssvnc:
   version: 1.0.29-2
   issues:
