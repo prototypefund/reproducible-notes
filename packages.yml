@@ -1384,6 +1384,8 @@ debian-keyring:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+  bugs:
+    - 777310
 debian-policy:
   version: 3.9.6.1
   comments: |
