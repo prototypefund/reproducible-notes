@@ -12,6 +12,11 @@ def main():
         help="only print packages with bug(s) listed")
     parser.add_option('--no-bugs', dest='bugs', action='store_false',
         help="only print packages without bug(s) listed")
+    parser.add_option('--has-comments', dest='comments', action='store_true',
+        help="only print packages with comments")
+    parser.add_option('--no-comments', dest='comments', action='store_false',
+        help="only print packages without comments")
+
     options, args = parser.parse_args()
 
     if args:
@@ -25,6 +30,9 @@ def main():
             continue
 
         if options.bugs is not None and options.bugs ^ ('bugs' in y):
+            continue
+
+        if options.comments is not None and options.comments ^ ('comments' in y):
             continue
 
         print x
