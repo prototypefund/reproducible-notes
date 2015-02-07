@@ -8,6 +8,10 @@ def main():
     parser = optparse.OptionParser()
     parser.add_option('--issue', dest='issue', default=None,
         help="only print packages with issue ISSUE")
+    parser.add_option('--has-bugs', dest='bugs', action='store_true',
+        help="only print packages with bug(s) listed")
+    parser.add_option('--no-bugs', dest='bugs', action='store_false',
+        help="only print packages without bug(s) listed")
     options, args = parser.parse_args()
 
     if args:
@@ -18,6 +22,9 @@ def main():
     for x, y in sorted(packages.iteritems()):
         if options.issue is not None and \
                 options.issue not in y.get('issues', ()):
+            continue
+
+        if options.bugs is not None and options.bugs ^ ('bugs' in y):
             continue
 
         print x
