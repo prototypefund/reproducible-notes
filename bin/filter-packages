@@ -25,7 +25,8 @@ def main():
     if options.issues is not None:
         options.issues = set(options.issues.split(','))
 
-    packages = yaml.safe_load(open('./packages.yml'))
+    with open('./packages.yml') as f:
+        packages = yaml.safe_load(f)
 
     for x, y in sorted(packages.iteritems()):
         if not options.issues <= set(y.get('issues', ())):
