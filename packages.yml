@@ -349,6 +349,10 @@ async-http-client:
   version: 1.6.5-3
   issues:
     - timestamps_in_maven_pom_files
+atdgen:
+  version: 1.3.1-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 attic:
   version: 0.13-1
   issues:
@@ -475,6 +479,10 @@ bb:
   version: 1.3rc1-8.1
   issues:
     - timestamps_from_cpp_macros
+bbdb3:
+  version: 3.1.2-1
+  issues:
+    - timestamps_in_emacs_autoloads
 bcfg2:
   version: 1.3.5-1
   issues:
@@ -640,6 +648,11 @@ blosxom:
     - not_using_dh_builddeb
   bugs:
     - 777292
+bnd:
+  version: 1.50.0-8
+  issues:
+    - timestamps_in_jar
+    - timestamp_in_java_bnd_manifest
 boa-constructor:
   version: 0.6.1-13
   issues:
@@ -848,6 +861,10 @@ cffi:
     - timestamps_in_dvi_generated_by_latex
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_tarball
+cfi:
+  version: 3.0-10
+  issues:
+    - timestamps_in_dvi_generated_by_latex
 cfingerd:
   version: 1.4.3-3.1
   comments: |
@@ -1292,6 +1309,10 @@ darkplaces:
   version: 0~20130304+svn11952-2
   issues:
     - timestamps_from_cpp_macros
+darktable:
+  version: 1.4.2-1
+  issues:
+    - timestamps_in_documentation_generated_by_podman
 dash:
   version: 0.5.8-2
   bugs:
@@ -1429,6 +1450,10 @@ deets:
     - timestamps_in_gzip_headers
   bugs:
     - 777307
+dejagnu:
+  version: 1.5.1-2
+  comments: |
+    Timestamps in PDF/PS embedded by docbook2pdf / docbook2ps
 deng:
   version: 1.9.0-beta6.9+dfsg1-2.1
   issues:
@@ -1697,6 +1722,10 @@ dx:
   version: 1:4.4.4-7
   issues:
     - timestamps_from_cpp_macros
+ecasound:
+  version: 2.9.1-4
+  issues:
+    - timestamps_in_dvi_generated_by_latex
 ecb:
   version: 2.40+git20140216-1
   issues:
@@ -1778,6 +1807,11 @@ elinks:
   version: 0.12~pre6-5
   issues:
     - timestamps_from_cpp_macros
+elk:
+  version: 3.99.8-2.1
+  issues:
+    - timestamps_in_static_libraries
+    - timestamps_in_documentation_generated_by_groff
 elkcode:
   version: 2.3.22-1
   issues:
@@ -2472,6 +2506,10 @@ gap-polycyclic:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_gzip_headers
+gavl:
+  version: 1.4.0-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 gbrainy:
   version: 2.2.3-1
   issues:
@@ -2559,6 +2597,10 @@ geda-gaf:
     - timestamps_from_cpp_macros
 geis:
   version: 2.2.16-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+gelemental:
+  version: 1.2.0-9
   issues:
     - timestamps_in_documentation_generated_by_doxygen
 gem:
@@ -2655,6 +2697,10 @@ gitolite3:
     - timestamps_in_gzip_headers
   bugs:
     - 777060
+givaro:
+  version: 3.7.2-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 gkeyfile-sharp:
   version: 0.1-4
   issues:
@@ -2777,6 +2823,10 @@ globus-xio-gridftp-driver:
     - timestamps_in_documentation_generated_by_doxygen
 globus-xio-gsi-driver:
   version: 3.6-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+gloox:
+  version: 1.0.11-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
 glusterfs:
@@ -3381,6 +3431,10 @@ inkscape:
   version: 0.48.5-3
   issues:
     - timestamps_from_cpp_macros
+inn:
+  version: 1.7.2q-44
+  issues:
+    - timestamps_in_documentation_generated_by_podman
 ino-headers:
   version: 0.4.0-1
   comments: |
@@ -3841,6 +3895,10 @@ lam:
   issues:
     - timestamps_in_gzip_headers
     - timestamps_in_static_libraries
+lat:
+  version: 1.2.4-2
+  issues:
+    - timestamps_in_pe_binaries
 latex2html:
   version: 2008-debian1-10
   comments: |
@@ -4613,6 +4671,10 @@ libxstream-java:
     - timestamps_in_maven_pom_files
 libyaml:
   version: 0.1.6-2
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+libzen:
+  version: 0.4.29-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
 libzorpll:
@@ -5598,6 +5660,10 @@ numactl:
   version: 2.0.10-1
   issues:
     - timestamps_from_cpp_macros
+nunit:
+  version: 2.6.3+dfsg-1
+  issues:
+    - timestamps_in_pe_binaries
 nvram-wakeup:
   version: 1.1-1
   issues:
@@ -6012,6 +6078,10 @@ pdfmod:
   version: 0.9.1-8
   issues:
     - timestamps_in_pe_binaries
+pdfsam:
+  version: 1.1.4-2
+  issues:
+    - user_in_java_jar_manifest
 pdns:
   version: 3.4.1-3
   issues:
@@ -7008,6 +7078,10 @@ scilab:
   version: 5.5.1-4
   issues:
     - timestamps_from_cpp_macros
+scim:
+  version: 1.4.15-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 scite:
   version: 3.5.0-1
   issues:
@@ -7119,6 +7193,10 @@ signify:
     - not_using_dh_builddeb
   bugs:
     - 777062
+sigx:
+  version: 2.0.2-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 silly:
   version: 0.1.0-3.1
   issues:
@@ -7638,6 +7716,10 @@ themonospot:
   version: 0.7.3.1-6
   issues:
     - timestamps_in_pe_binaries
+thepeg:
+  version: 1.8.0-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 theseus:
   version: 3.0.0-1
   issues:
@@ -7867,6 +7949,10 @@ tupi:
   version: 0.2+git04-2
   issues:
     - shlibs_order_varies
+turnin-ng:
+  version: 1.2-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 tvoe:
   version: 0.1-1
   issues:
@@ -8156,6 +8242,10 @@ vtk:
   version: 5.8.0-17.5
   issues:
     - debbindiff_runs_forever
+vtprint:
+  version: 2.0.2-13
+  issues:
+    - timestamps_in_documentation_generated_by_groff
 vtwm:
   version: 5.4.7-2.2
   comments: |
@@ -8268,6 +8358,10 @@ wmcoincoin:
   version: 2.6.2+20140602-1
   issues:
     - timestamps_from_cpp_macros
+wmii-doc:
+  version: 1-14
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 wmpuzzle:
   version: 0.5.2-1
   issues:
