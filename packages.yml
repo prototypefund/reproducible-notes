@@ -4250,6 +4250,14 @@ libgig:
   version: 3.3.0-3
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libgnome2-perl:
+  version: 1.045-1+b1
+  issues:
+    - randomness_in_glib_signals_in_generated_perl_pod_files
+libgoo-canvas-perl:
+  version: 0.06-2+b1
+  issues:
+    - randomness_in_glib_signals_in_generated_perl_pod_files
 libgphoto2:
   version: 2.5.4-1.1
   issues:
@@ -4266,6 +4274,10 @@ libgtk2-gladexml-perl:
   version: 1.007-2
   issues:
     - random_order_in_files_generated_by_extutils_depends
+libgtk2-perl:
+  version: 2:1.2492-3
+  issues:
+    - randomness_in_glib_signals_in_generated_perl_pod_files
 libgtk2-spell-perl:
   version: 1.04-2
   issues:
