@@ -1091,6 +1091,8 @@ console-cyrillic:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+  bugs:
+    - 777304
 console-setup:
   version: 1.116
   bugs:
