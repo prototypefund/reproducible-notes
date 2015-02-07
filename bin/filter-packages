@@ -7,7 +7,7 @@ import optparse
 from os.path import join, dirname, abspath
 
 def main():
-    parser = optparse.OptionParser(usage='%prog [options]')
+    parser = optparse.OptionParser(usage='%prog [options] [packages.yml]')
     parser.add_option('--issues', dest='issues', default=None,
         help="only print packages with comma-separated issues ISSUES")
     parser.add_option('--has-bugs', dest='bugs', action='store_true',
@@ -21,13 +21,14 @@ def main():
 
     options, args = parser.parse_args()
 
-    if args:
-        parser.error("command does not take any arguments")
+    if len(args) > 1:
+        parser.error("command can only take one argument")
 
     if options.issues is not None:
         options.issues = set(options.issues.split(','))
 
-    filename = join(dirname(dirname(abspath(__file__))), 'packages.yml')
+    filename = args[0] if len(args) == 1 else \
+        join(dirname(dirname(abspath(__file__))), 'packages.yml')
 
     with open(filename) as f:
         packages = yaml.safe_load(f)
