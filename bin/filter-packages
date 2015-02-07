@@ -6,8 +6,8 @@ import optparse
 
 def main():
     parser = optparse.OptionParser()
-    parser.add_option('--issue', dest='issue', default=None,
-        help="only print packages with issue ISSUE")
+    parser.add_option('--issues', dest='issues', default=None,
+        help="only print packages with comma-separated issues ISSUES")
     parser.add_option('--has-bugs', dest='bugs', action='store_true',
         help="only print packages with bug(s) listed")
     parser.add_option('--no-bugs', dest='bugs', action='store_false',
@@ -22,11 +22,13 @@ def main():
     if args:
         parser.error("command does not take any arguments")
 
+    if options.issues is not None:
+        options.issues = set(options.issues.split(','))
+
     packages = yaml.safe_load(open('./packages.yml'))
 
     for x, y in sorted(packages.iteritems()):
-        if options.issue is not None and \
-                options.issue not in y.get('issues', ()):
+        if not options.issues <= set(y.get('issues', ())):
             continue
 
         if options.bugs is not None and options.bugs ^ ('bugs' in y):
