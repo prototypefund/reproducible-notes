@@ -33,16 +33,12 @@ abook:
     - 777271
 access-modifier-checker:
   version: 1.4-2
-  issues:
-    - timestamps_in_maven_pom_files
 ace:
   version: 6.2.8+dfsg-1
   issues:
     - timestamps_generated_by_docbook_to_man
 acegi-security:
   version: 1.0.7-3
-  issues:
-    - timestamps_in_maven_pom_files
 aconnectgui:
   version: 0.9.0rc2-1-9
   issues:
@@ -53,8 +49,6 @@ acpica-unix:
     - timestamps_from_cpp_macros
 activemq-protobuf:
   version: 1.1-3
-  issues:
-    - timestamps_in_maven_pom_files
 activiz.net:
   version: 1:1.0~git20111214-2
   issues:
@@ -76,8 +70,6 @@ aegisub:
     - timestamps_from_cpp_macros
 aether:
   version: 1.13.1-2
-  issues:
-    - timestamps_in_maven_pom_files
 aewm++-goodies:
   version: 1.0-9
   issues:
@@ -99,7 +91,6 @@ aisleriot:
 akuma:
   version: 1.9-1
   issues:
-    - timestamps_in_maven_pom_files
     - user_in_java_jar_manifest
 albatross:
   version: 1.36-5.5
@@ -190,8 +181,6 @@ anjuta:
     - timestamps_from_cpp_macros
 annotation-indexer:
   version: 1.9-1
-  issues:
-    - timestamps_in_maven_pom_files
 ant:
   version: 1.9.4-3
   issues:
@@ -211,8 +200,6 @@ antlr-maven-plugin:
     - timestamps_in_maven_pom_files
 antlr3:
   version: 3.2-10
-  issues:
-    - timestamps_in_maven_pom_files
 antpm:
   version: 1.16-8
   issues:
@@ -233,7 +220,6 @@ aolserver4-nssqlite3:
 apache-mime4j:
   version: 0.7.2-3
   issues:
-    - timestamps_in_maven_pom_files
     - user_in_java_jar_manifest
 apache2:
   version: 2.4.10-7
@@ -305,8 +291,6 @@ arduino:
     - timestamps_in_jar
 args4j:
   version: 2.0.30-1
-  issues:
-    - timestamps_in_maven_pom_files
 argus-client:
   version: 2.0.6.fixes.1-3
   issues:
@@ -467,8 +451,6 @@ basenji:
     - timestamps_in_pe_binaries
 basex:
   version: 7.9-1
-  issues:
-    - timestamps_in_maven_pom_files
 bash:
   version: 4.3-11
   comments: |
@@ -495,8 +477,6 @@ bb:
     - timestamps_from_cpp_macros
 bcel:
   version: 6.0~rc3-1
-  issues:
-    - timestamps_in_maven_pom_files
 bcfg2:
   version: 1.3.5-1
   issues:
@@ -718,16 +698,12 @@ breathe:
     - randomness_in_documentation_generated_by_sphinx
 bridge-method-injector:
   version: 1.13-1
-  issues:
-    - timestamps_in_maven_pom_files
 brltty:
   version: 5.2~20141018-2
   comments: |
     Entropy from (gcc) compile or link order
 bsaf:
   version: 1.9-4
-  issues:
-    - timestamps_in_maven_pom_files
 bsh:
   version: 2.0b4-15
   comments: |
@@ -737,8 +713,6 @@ bsh:
     - timestamps_in_tarball
 build-helper-maven-plugin:
   version: 1.8-1
-  issues:
-    - timestamps_in_maven_pom_files
 bup:
   version: 0.25-1
   comments: |
@@ -758,8 +732,6 @@ bytecode:
     - timestamps_in_documentation_generated_by_javadoc
 bytecode-compatibility-transformer:
   version: 1.5-1
-  issues:
-    - timestamps_in_maven_pom_files
 bzflag:
   version: 2.4.2+ds1-5
   issues:
@@ -804,8 +776,6 @@ carmetal:
     - timestamps_generated_by_docbook_to_man
 carrotsearch-hppc:
   version: 0.6.1-1
-  issues:
-    - timestamps_in_maven_pom_files
 casablanca:
   version: 2.2.0-1
   issues:
@@ -912,8 +882,6 @@ checkstyle:
   comments: |
     Capture build time in
     /usr/share/java/checkstyle.jar:checkstylecompilation.properties
-  issues:
-    - timestamps_in_maven_pom_files
 chemical-structures:
   version: 2.2.dfsg.0-12
   issues:
@@ -1030,8 +998,6 @@ cnrun:
     - timestamps_from_cpp_macros
 cobertura-maven-plugin:
   version: 2.3+dfsg-2
-  issues:
-    - timestamps_in_maven_pom_files
 coco-cs:
   version: 20110419-5
   issues:
@@ -1078,25 +1044,18 @@ colord:
     - randomness_in_icc_colour_profiles
 commons-beanutils:
   version: 1.9.2-1
-  issues:
-    - timestamps_in_maven_pom_files
 commons-configuration:
   version: 1.10-2
   issues:
-    - timestamps_in_maven_pom_files
     - user_in_java_jar_manifest
 commons-exec:
   version: 1.2-1
-  issues:
-    - timestamps_in_maven_pom_files
 commons-jci:
   version: 1.1-2
   issues:
     - timestamps_in_maven_pom_files
 commons-vfs:
   version: 2.0-3
-  issues:
-    - timestamps_in_maven_pom_files
 composite:
   version: 0.006.2+dfsg0-4
   issues:
@@ -1563,8 +1522,6 @@ directfb:
     - timestamps_from_cpp_macros
 disruptor:
   version: 3.3.0-2
-  issues:
-    - timestamps_in_maven_pom_files
 distcc:
   version: 3.1-6.1
   issues:
@@ -1659,8 +1616,6 @@ dtc-xen:
     - timestamps_in_gzip_headers
 dtd-parser:
   version: 1.2~svn20110404-1
-  issues:
-    - timestamps_in_maven_pom_files
 dune-grid:
   version: 2.3.1-1
   issues:
@@ -1715,8 +1670,6 @@ eclib:
     - timestamps_from_cpp_macros
 eclipse-aether:
   version: 0.9.0.M2-1
-  issues:
-    - timestamps_in_maven_pom_files
 eclipse-emf:
   version: 2.8.3-1
   issues:
@@ -1845,7 +1798,6 @@ epubcheck:
   version: 4.0.0~alpha11-1
   issues:
     - timestamp_in_java_bnd_manifest
-    - timestamps_in_maven_pom_files
 erc:
   version: 5.3-1
   issues:
@@ -1995,8 +1947,6 @@ evolution-data-server:
     Embeds the build username into documentation.
 exec-maven-plugin:
   version: 1.1.1+dfsg-3
-  issues:
-    - timestamps_in_maven_pom_files
 exifprobe:
   version: 2.0.1-3
   comments: |
@@ -2065,7 +2015,6 @@ fastforward:
 fastinfoset:
   version: 1.2.12-1
   issues:
-    - timestamps_in_maven_pom_files
     - users_and_groups_in_tarball
 fastjet:
   version: 3.0.6+dfsg-1
@@ -2128,19 +2077,14 @@ felix-utils:
   version: 1.6.0-1
   issues:
     - user_in_java_jar_manifest
-    - timestamps_in_maven_pom_files
 fenix:
   version: 0.92a.dfsg1-10
   issues:
     - timestamps_from_cpp_macros
 fest-test:
   version: 2.1.0-1
-  issues:
-    - timestamps_in_maven_pom_files
 fest-util:
   version: 1.2.5-1
-  issues:
-    - timestamps_in_maven_pom_files
 festival:
   version: 1:2.1~release-8
   issues:
@@ -2356,65 +2300,36 @@ freehdl:
     - timestamps_from_cpp_macros
 freehep-chartableconverter-plugin:
   version: 2.0-6
-  issues:
-    - timestamps_in_maven_pom_files
 freehep-export:
   version: 2.1.1-2
-  issues:
-    - timestamps_in_maven_pom_files
 freehep-graphics2d:
   version: 2.1.1-4
-  issues:
-    - timestamps_in_maven_pom_files
 freehep-graphicsio:
   version: 2.1.1-3
   issues:
-    - timestamps_in_maven_pom_files
     - user_in_java_jar_manifest
 freehep-graphicsio-emf:
   version: 2.1.1-emfplus+dfsg1-2
-  issues:
-    - timestamps_in_maven_pom_files
 freehep-graphicsio-java:
   version: 2.1.1-1
-  issues:
-    - timestamps_in_maven_pom_files
 freehep-graphicsio-pdf:
   version: 2.1.1+dfsg-1
-  issues:
-    - timestamps_in_maven_pom_files
 freehep-graphicsio-ps:
   version: 2.1.1-1
-  issues:
-    - timestamps_in_maven_pom_files
 freehep-graphicsio-svg:
   version: 2.1.1-3
-  issues:
-    - timestamps_in_maven_pom_files
 freehep-graphicsio-swf:
   version: 2.1.1+dfsg-1
-  issues:
-    - timestamps_in_maven_pom_files
 freehep-graphicsio-tests:
   version: 2.1.1+dfsg1-3
-  issues:
-    - timestamps_in_maven_pom_files
 freehep-io:
   version: 2.0.2-4
-  issues:
-    - timestamps_in_maven_pom_files
 freehep-swing:
   version: 2.0.3-3
-  issues:
-    - timestamps_in_maven_pom_files
 freehep-util:
   version: 2.0.2-5
-  issues:
-    - timestamps_in_maven_pom_files
 freehep-xml:
   version: 2.1.2+dfsg1-3
-  issues:
-    - timestamps_in_maven_pom_files
 freemedforms-project:
   version: 0.9.4-1
   issues:
@@ -3040,8 +2955,6 @@ goobox:
     - timestamps_generated_by_docbook_to_man
 gossip:
   version: 1.8-1
-  issues:
-    - timestamps_in_maven_pom_files
 gpgme1.0:
   version: 1.5.1-6
   comments: |
@@ -3309,8 +3222,6 @@ http-icons:
     The conversion back to GIF introduces the variation.
 httpcomponents-core:
   version: 4.3.3-1
-  issues:
-    - timestamps_in_maven_pom_files
 https-finder:
   version: 091-1
   issues:
@@ -3437,8 +3348,6 @@ infon:
     - timestamps_from_cpp_macros
 ini4j:
   version: 0.5.2-SNAPSHOT-5
-  issues:
-    - timestamps_in_maven_pom_files
 inkscape:
   version: 0.48.5-3
   issues:
@@ -3529,8 +3438,6 @@ ispell-gl:
     - timestamps_in_gzip_headers
 istack-commons:
   version: 2.17-1
-  issues:
-    - timestamps_in_maven_pom_files
 jaaa:
   version: 0.8.4-1
   issues:
@@ -3555,8 +3462,6 @@ jackson-annotations:
     - user_in_java_jar_manifest
 jackson-jaxrs-providers:
   version: 2.4.2-1
-  issues:
-    - timestamps_in_maven_pom_files
 jackson-module-jaxb-annotations:
   version: 2.4.2-1
   issues:
@@ -3588,28 +3493,18 @@ jamnntpd:
     - timestamps_from_cpp_macros
 jarjar-maven-plugin:
   version: 1.9-3
-  issues:
-    - timestamps_in_maven_pom_files
 jas-plotter:
   version: 2.2.6+dfsg1-2
-  issues:
-    - timestamps_in_maven_pom_files
 jasypt:
   version: 1.8-2
-  issues:
-    - timestamps_in_maven_pom_files
 java-comment-preprocessor:
   version: 5.3.3-1
-  issues:
-    - timestamps_in_maven_pom_files
 java-common:
   version: 0.52
   issues:
     - timestamps_in_dvi_generated_by_latex
 java-xmlbuilder:
   version: 0.4-2
-  issues:
-    - timestamps_in_maven_pom_files
 javacc:
   version: 5.0-5
   issues:
@@ -3620,16 +3515,10 @@ javacc-maven-plugin:
     - timestamps_in_maven_pom_files
 javamail:
   version: 1.5.2-3
-  issues:
-    - timestamps_in_maven_pom_files
 javatuples:
   version: 1.2-1
-  issues:
-    - timestamps_in_maven_pom_files
 jaxb-api:
   version: 2.2.9-1
-  issues:
-    - timestamps_in_maven_pom_files
 jaxe:
   version: 3.5-5
   issues:
@@ -3637,56 +3526,34 @@ jaxe:
     - timestamps_in_documentation_generated_by_javadoc
 jcodings:
   version: 1.0.11-2
-  issues:
-    - timestamps_in_maven_pom_files
 jd:
   version: 1:2.8.8-140601-4
   issues:
     - timestamps_from_cpp_macros
 jdeb:
   version: 1.0.2~git20130829-3
-  issues:
-    - timestamps_in_maven_pom_files
 jdependency:
   version: 0.7-1
-  issues:
-    - timestamps_in_maven_pom_files
 jedit:
   version: 5.1.0+dfsg-2
   issues:
     - timestamps_in_png
 jenkins-constant-pool-scanner:
   version: 1.2-1
-  issues:
-    - timestamps_in_maven_pom_files
 jenkins-crypto-util:
   version: 1.4-1
-  issues:
-    - timestamps_in_maven_pom_files
 jenkins-executable-war:
   version: 1.29-1
-  issues:
-    - timestamps_in_maven_pom_files
 jenkins-instance-identity:
   version: 1.4-1
-  issues:
-    - timestamps_in_maven_pom_files
 jenkins-matrix-auth-plugin:
   version: 1.2-1
-  issues:
-    - timestamps_in_maven_pom_files
 jenkins-memory-monitor:
   version: 1.8-1
-  issues:
-    - timestamps_in_maven_pom_files
 jenkins-task-reactor:
   version: 1.4-1
-  issues:
-    - timestamps_in_maven_pom_files
 jenkins-trilead-ssh2:
   version: 217-jenkins-7-1
-  issues:
-    - timestamps_in_maven_pom_files
 jfractionlab:
   version: 0.91-3
   issues:
@@ -3717,8 +3584,6 @@ jmxetric:
     - timestamps_in_maven_pom_files
 joda-convert:
   version: 1.5-1
-  issues:
-    - timestamps_in_maven_pom_files
 jodconverter-cli:
   version: 2.2.2-8
   issues:
@@ -3729,8 +3594,6 @@ joe:
     - not_using_dh_builddeb
 joptsimple:
   version: 4.5-1
-  issues:
-    - timestamps_in_maven_pom_files
 joy2key:
   version: 1.6.3-1
   issues:
@@ -3743,16 +3606,12 @@ jquery:
   version: 1.7.2+dfsg-3.2
 jsch-agent-proxy:
   version: 0.0.7-1
-  issues:
-    - timestamps_in_maven_pom_files
 json-simple:
   version: 1.1.1-3
   issues:
     - timestamps_in_maven_pom_files
 jsoup:
   version: 1.8.1-1
-  issues:
-    - timestamps_in_maven_pom_files
 jss:
   version: 4.3.1-6
   issues:
@@ -3766,8 +3625,6 @@ jsxgraph:
     - timestamps_in_zip
 jtidy:
   version: 7+svn20110807-4
-  issues:
-    - timestamps_in_maven_pom_files
 jumpnbump:
   version: 1.51+dfsg1-2
   issues:
@@ -3823,7 +3680,6 @@ kbuild:
 kdgcommons-java:
   version: 1.0.13-1
   issues:
-    - timestamps_in_maven_pom_files
     - user_in_java_jar_manifest
 keepass2:
   version: 2.28+dfsg-1
@@ -3966,8 +3822,6 @@ leveldb-sharp:
     - timestamps_in_pe_binaries
 libajaxtags-java:
   version: 1.5.1-2
-  issues:
-    - timestamps_in_maven_pom_files
 libalien-sdl-perl:
   version: 1.444-1
   issues:
@@ -4056,8 +3910,6 @@ libcitygml:
     - timestamps_from_cpp_macros
 libcodemodel-java:
   version: 2.6-1
-  issues:
-    - timestamps_in_maven_pom_files
 libcolor-calc-perl:
   version: 1.074-1
   issues:
@@ -4076,16 +3928,10 @@ libcommons-collections3-java:
     - timestamp_in_java_bnd_manifest
 libcommons-dbcp-java:
   version: 1.4-5
-  issues:
-    - timestamps_in_maven_pom_files
 libcommons-discovery-java:
   version: 0.5-3
-  issues:
-    - timestamps_in_maven_pom_files
 libcommons-fileupload-java:
   version: 1.3.1-1
-  issues:
-    - timestamps_in_maven_pom_files
 libcommons-lang-java:
   version: 2.6-4
   issues:
@@ -4093,16 +3939,12 @@ libcommons-lang-java:
     - timestamps_in_documentation_generated_by_javadoc
 libcommons-lang3-java:
   version: 3.3.2-1
-  issues:
-    - timestamps_in_maven_pom_files
 libcommons-net2-java:
   version: 2.2-2
   issues:
     - timestamps_in_maven_pom_files
 libcommons-validator-java:
   version: 1:1.4.0-2
-  issues:
-    - timestamps_in_maven_pom_files
 libconstantine-java:
   version: 0.7-6
   issues:
@@ -4150,8 +3992,6 @@ libdebian-installer:
     - 762732
 libdecentxml-java:
   version: 1.4-1
-  issues:
-    - timestamps_in_maven_pom_files
 libdiscid:
   version: 0.6.1-3
   issues:
@@ -4244,8 +4084,6 @@ libgcrypt20:
     Timestamp in .ps generated by dvips
 libgettext-commons-java:
   version: 0.9.6-2
-  issues:
-    - timestamps_in_maven_pom_files
 libgig:
   version: 3.3.0-3
   issues:
@@ -4280,12 +4118,8 @@ libgwenhywfar:
     - timestamps_in_documentation_generated_by_doxygen
 libhibernate-commons-annotations-java:
   version: 3.2.0.Final-2
-  issues:
-    - timestamps_in_maven_pom_files
 libhibernate3-java:
   version: 3.6.10.Final-3
-  issues:
-    - timestamps_in_maven_pom_files
 libident:
   version: 0.22-3
   issues:
@@ -4316,8 +4150,6 @@ libjavaewah-java:
     - timestamps_in_maven_pom_files
 libjaxen-java:
   version: 1.1.6-1
-  issues:
-    - timestamps_in_maven_pom_files
 libjaxp1.3-java:
   version: 1.3.05-2
   issues:
@@ -4336,16 +4168,10 @@ libjcommon-java:
     - timestamps_in_jar
 libjgoodies-common-java:
   version: 1.4.0-2
-  issues:
-    - timestamps_in_maven_pom_files
 libjgoodies-forms-java:
   version: 1.6.0-4
-  issues:
-    - timestamps_in_maven_pom_files
 libjgoodies-looks-java:
   version: 2.5.2-3
-  issues:
-    - timestamps_in_maven_pom_files
 libjna-posix-java:
   version: 1.0.1-2
   issues:
@@ -4359,12 +4185,9 @@ libjnr-posix-java:
     - timestamps_in_documentation_generated_by_javadoc
 libjoda-time-java:
   version: 2.4-1
-  issues:
-    - timestamps_in_maven_pom_files
 libjrosetta-java:
   version: 1.0.4-4
   issues:
-    - timestamps_in_maven_pom_files
     - user_in_java_jar_manifest
 libjspeex-java:
   version: 0.9.7-3
@@ -4373,12 +4196,8 @@ libjspeex-java:
     - user_in_java_jar_manifest
 libjtype-java:
   version: 0.1.3-2
-  issues:
-    - timestamps_in_maven_pom_files
 libjuniversalchardet-java:
   version: 1.0.3-1
-  issues:
-    - timestamps_in_maven_pom_files
 libkarma:
   version: 0.1.2-2.3
   issues:
@@ -4424,8 +4243,6 @@ libmediainfo:
     - timestamps_in_documentation_generated_by_doxygen
 libmiglayout-java:
   version: 4.2-1
-  issues:
-    - timestamps_in_maven_pom_files
 libmimic:
   version: 1.0.4-2.2
   issues:
@@ -4494,20 +4311,12 @@ libopenobex:
     - timestamps_in_documentation_generated_by_doxygen
 libopensaml2-java:
   version: 2.6.2-1
-  issues:
-    - timestamps_in_maven_pom_files
 libopenws-java:
   version: 1.5.1-3
-  issues:
-    - timestamps_in_maven_pom_files
 libowasp-esapi-java:
   version: 2.1.0-2
-  issues:
-    - timestamps_in_maven_pom_files
 libpdf-fdf-simple-perl:
   version: 0.21-1
-  issues:
-    - timestamps_in_maven_pom_files
 libpgm:
   version: 5.1.118-1~dfsg-1
   comments: |
@@ -4515,8 +4324,6 @@ libpgm:
     https://sources.debian.net/src/libpgm/5.1.118-1~dfsg-1/openpgm/pgm/version_generator.py/
 libphonenumber:
   version: 6.3~svn698-3
-  issues:
-    - timestamps_in_maven_pom_files
 libpixels-java:
   version: 2.1.3+svn.42-2
   issues:
@@ -4541,8 +4348,6 @@ libpwiz:
     - timestamps_from_cpp_macros
 libquartz-java:
   version: 1:1.7.3-5
-  issues:
-    - timestamps_in_maven_pom_files
 libquicktime:
   version: 2:1.2.4-7
   issues:
@@ -4591,16 +4396,12 @@ libsdl2:
     - 777186
 libsequence-library-java:
   version: 1.0.2-1
-  issues:
-    - timestamps_in_maven_pom_files
 libshevek:
   version: 1.4-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
 libshib-common-java:
   version: 1.4.0-3
-  issues:
-    - timestamps_in_maven_pom_files
 libsidplayfp:
   version: 1.6.0-1
   issues:
@@ -4635,8 +4436,6 @@ libsvn-notify-mirror-perl:
     - random_order_in_files_generated_by_module_build
 libswingx-java:
   version: 1:1.6.2-2
-  issues:
-    - timestamps_in_maven_pom_files
 libswingx1-java:
   version: 1:1.0-1
   issues:
@@ -4711,8 +4510,6 @@ libvsqlitepp:
     - timestamps_in_documentation_generated_by_doxygen
 libvt-ldap-java:
   version: 3.3.8-1
-  issues:
-    - timestamps_in_maven_pom_files
 libwebsockets:
   version: 1.2.2-1
   comments: |
@@ -4751,28 +4548,16 @@ libxdg-basedir:
     - timestamps_in_documentation_generated_by_doxygen
 libxerces2-java:
   version: 2.11.0-7
-  issues:
-    - timestamps_in_maven_pom_files
 libxml-commons-resolver1.1-java:
   version: 1.2-7
-  issues:
-    - timestamps_in_maven_pom_files
 libxml-security-java:
   version: 1.5.6-1
-  issues:
-    - timestamps_in_maven_pom_files
 libxmlrpc3-java:
   version: 3.1.3-7
-  issues:
-    - timestamps_in_maven_pom_files
 libxmltooling-java:
   version: 1.4.2-4
-  issues:
-    - timestamps_in_maven_pom_files
 libxmpcore-java:
   version: 5.1.2-2
-  issues:
-    - timestamps_in_maven_pom_files
 libxstream-java:
   version: 1.4.7-2
   issues:
@@ -4805,8 +4590,6 @@ lifelines:
     - timestamps_in_pdf_generated_by_latex
 lightcouch:
   version: 0.0.6-1
-  issues:
-    - timestamps_in_maven_pom_files
 lightproof:
   version: 1.5+git20140515-1
   bugs:
@@ -4849,8 +4632,6 @@ livehttpheaders:
     - xpi_pack_saves_extra_attributes_in_jar
 livetribe-jsr223:
   version: 2.0.6-1
-  issues:
-    - timestamps_in_maven_pom_files
 llvm-toolchain-3.4:
   version: 1:3.4.2-13
   issues:
@@ -4873,8 +4654,6 @@ lmemory:
     - timestamps_from_cpp_macros
 localizer:
   version: 1.13-2
-  issues:
-    - timestamps_in_maven_pom_files
 lockdev:
   version: 1.0.3-1.6
   issues:
@@ -5068,32 +4847,18 @@ maude:
     - timestamps_from_cpp_macros
 maven:
   version: 3.0.5-1
-  issues:
-    - timestamps_in_maven_pom_files
 maven-ant-tasks:
   version: 2.1.3-3
-  issues:
-    - timestamps_in_maven_pom_files
 maven-antrun-extended-plugin:
   version: 1.42-1
-  issues:
-    - timestamps_in_maven_pom_files
 maven-antrun-plugin:
   version: 1.7-1
-  issues:
-    - timestamps_in_maven_pom_files
 maven-archiver:
   version: 2.5-1
-  issues:
-    - timestamps_in_maven_pom_files
 maven-clean-plugin:
   version: 2.5-1
-  issues:
-    - timestamps_in_maven_pom_files
 maven-common-artifact-filters:
   version: 1.4-1
-  issues:
-    - timestamps_in_maven_pom_files
 maven-compiler-plugin:
   version: 2.5.1-1
   issues:
@@ -5104,24 +4869,14 @@ maven-dependency-plugin:
     - timestamps_in_maven_pom_files
 maven-dependency-tree:
   version: 1.2-4
-  issues:
-    - timestamps_in_maven_pom_files
 maven-docck-plugin:
   version: 1.0-4
-  issues:
-    - timestamps_in_maven_pom_files
 maven-doxia-tools:
   version: 1.2.1-2
-  issues:
-    - timestamps_in_maven_pom_files
 maven-ejb-plugin:
   version: 2.2-2
-  issues:
-    - timestamps_in_maven_pom_files
 maven-embedder:
   version: 2.0.4-3
-  issues:
-    - timestamps_in_maven_pom_files
 maven-enforcer:
   version: 1.0-1
   issues:
@@ -5129,16 +4884,12 @@ maven-enforcer:
     - user_in_java_jar_manifest
 maven-file-management:
   version: 1.2.1-3
-  issues:
-    - timestamps_in_maven_pom_files
 maven-filtering:
   version: 1.1-1
   issues:
     - timestamps_in_maven_pom_files
 maven-install-plugin:
   version: 2.4-1
-  issues:
-    - timestamps_in_maven_pom_files
 maven-invoker:
   version: 2.1.1-1
   issues:
@@ -5151,52 +4902,32 @@ maven-invoker-plugin:
     - timestamps_in_maven_pom_files
 maven-javadoc-plugin:
   version: 2.9.1-2
-  issues:
-    - timestamps_in_maven_pom_files
 maven-plugin-tools:
   version: 3.2-2
   issues:
     - timestamps_in_maven_pom_files
 maven-replacer-plugin:
   version: 1.5.3-1
-  issues:
-    - timestamps_in_maven_pom_files
 maven-reporting-impl:
   version: 2.1-1
-  issues:
-    - timestamps_in_maven_pom_files
 maven-repository-builder:
   version: 1.0~alpha2-3
-  issues:
-    - timestamps_in_maven_pom_files
 maven-shared-io:
   version: 1.1-4
-  issues:
-    - timestamps_in_maven_pom_files
 maven-shared-utils:
   version: 0.4-1
-  issues:
-    - timestamps_in_maven_pom_files
 maven-source-plugin:
   version: 2.2.1-1
-  issues:
-    - timestamps_in_maven_pom_files
 maven-stapler-plugin:
   version: 1.17-1
-  issues:
-    - timestamps_in_maven_pom_files
 maven-verifier:
   version: 1.2-1
-  issues:
-    - timestamps_in_maven_pom_files
 maven-war-plugin:
   version: 2.1.1-2
   issues:
     - timestamps_in_maven_pom_files
 maven2:
   version: 2.2.1-21
-  issues:
-    - timestamps_in_maven_pom_files
 mayavi2:
   version: 4.3.1-3.1
   comments: |
@@ -5229,8 +4960,6 @@ meshlab:
     - timestamps_from_cpp_macros
 metainf-services:
   version: 1.5-1
-  issues:
-    - timestamps_in_maven_pom_files
 metis:
   version: 5.1.0.dfsg-4
   issues:
@@ -5407,8 +5136,6 @@ mono-fuse:
     - timestamps_in_pe_binaries
 mono-upnp:
   version: 0.1.2-2
-  issues:
-    - timestamps_in_maven_pom_files
 mono-zeroconf:
   version: 0.9.0-4
   issues:
@@ -5439,8 +5166,6 @@ monster-masher:
     - timestamps_generated_by_docbook_to_man
 morfologik-stemming:
   version: 1.9.0+dfsg-0.1
-  issues:
-    - timestamps_in_maven_pom_files
 morse-simulator:
   version: 1.2.1-2
   issues:
@@ -5464,8 +5189,6 @@ mozjs24:
     - timestamps_from_cpp_macros
 mp4parser:
   version: 1.0.4.2-1
-  issues:
-    - timestamps_in_maven_pom_files
 mpack:
   version: 1.6-8
   issues:
@@ -5502,8 +5225,6 @@ mstflint:
     - timestamps_from_cpp_macros
 msv:
   version: 2009.1+dfsg1-4
-  issues:
-    - timestamps_in_maven_pom_files
 mtink:
   version: 1.0.16-8
   issues:
@@ -5533,8 +5254,6 @@ mummy:
     - timestamps_in_pe_binaries
 munge-maven-plugin:
   version: 1.0-1
-  issues:
-    - timestamps_in_maven_pom_files
 munkres:
   version: 1.0.6-1
   issues:
@@ -5549,8 +5268,6 @@ mupen64plus-video-glide64mk2:
     - timestamps_from_cpp_macros
 mustache-java:
   version: 0.8.17-1
-  issues:
-    - timestamps_in_maven_pom_files
 muttprint:
   version: 0.73-5.1
   issues:
@@ -5559,8 +5276,6 @@ muttprint:
     - timestamps_in_png
 mvel:
   version: 2.0.18-4
-  issues:
-    - timestamps_in_maven_pom_files
 mwrap:
   version: 0.33-2
   issues:
@@ -5793,8 +5508,6 @@ noblenote:
     - timestamps_from_cpp_macros
 noggit:
   version: 0.6-1
-  issues:
-    - timestamps_in_maven_pom_files
 nosquint:
   version: 2.1.9-2
   issues:
@@ -5858,8 +5571,6 @@ oar:
     Timestamp in documentation generated by Docutils.
 oauth-signpost:
   version: 1.2.1.2-1.2
-  issues:
-    - timestamps_in_maven_pom_files
 obexftp:
   version: 0.23-4
   issues:
@@ -5979,8 +5690,6 @@ opencolorio:
     - timestamps_in_pdf_generated_by_latex
 opencsv:
   version: 2.3-1
-  issues:
-    - timestamps_in_maven_pom_files
 opendnssec:
   version: 1:1.4.6-5
   issues:
@@ -6114,8 +5823,6 @@ osptoolkit:
     - timestamps_generated_by_docbook_to_man
 owasp-java-html-sanitizer:
   version: 0.1+r88-1
-  issues:
-    - timestamps_in_maven_pom_files
 owx:
   version: 0~20110415-3.1
   issues:
@@ -7262,8 +6969,6 @@ plee-the-bear:
     - timestamps_generated_by_docbook_to_man
 plexus-active-collections:
   version: 1.0~beta2-3
-  issues:
-    - timestamps_in_maven_pom_files
 plexus-ant-factory:
   version: 1.0~alpha2.1-3
   issues:
@@ -7274,8 +6979,6 @@ plexus-archiver:
     - timestamps_in_maven_pom_files
 plexus-build-api:
   version: 0.0.7-1
-  issues:
-    - timestamps_in_maven_pom_files
 plexus-cdc:
   version: 1.0~alpha14-6
   issues:
@@ -7290,16 +6993,10 @@ plexus-classworlds2:
     - timestamps_in_maven_pom_files
 plexus-cli:
   version: 1.2-5
-  issues:
-    - timestamps_in_maven_pom_files
 plexus-compiler:
   version: 1.9.2-2
-  issues:
-    - timestamps_in_maven_pom_files
 plexus-component-api:
   version: 1.0.0~alpha22-3
-  issues:
-    - timestamps_in_maven_pom_files
 plexus-container-default:
   version: 1.0-alpha-9-stable-1-7
   issues:
@@ -7314,28 +7011,18 @@ plexus-containers1.5:
     - timestamps_in_maven_pom_files
 plexus-interactivity-api:
   version: 1.0-alpha-6-7
-  issues:
-    - timestamps_in_maven_pom_files
 plexus-interpolation:
   version: 1.19-1
-  issues:
-    - timestamps_in_maven_pom_files
 plexus-io:
   version: 1.0~alpha5-2
   issues:
     - timestamps_in_maven_pom_files
 plexus-maven-plugin:
   version: 1.3.8-9
-  issues:
-    - timestamps_in_maven_pom_files
 plexus-resources:
   version: 1.0~alpha7-1
-  issues:
-    - timestamps_in_maven_pom_files
 plexus-sec-dispatcher:
   version: 1.3.1-6
-  issues:
-    - timestamps_in_maven_pom_files
 plib-doc:
   version: 1:1.8.5-3
   issues:
@@ -7389,8 +7076,6 @@ portaudio19:
     - timestamps_in_documentation_generated_by_doxygen
 portlet-api-2.0-spec:
   version: 1.0-2
-  issues:
-    - timestamps_in_maven_pom_files
 posh:
   version: 0.12.3
   issues:
@@ -7423,8 +7108,6 @@ praat:
     - timestamps_from_cpp_macros
 practicalxml-java:
   version: 1.1.17-1
-  issues:
-    - timestamps_in_maven_pom_files
 prboom-plus:
   version: 2:2.5.1.4~svn4403+dfsg1-1
   issues:
@@ -7903,8 +7586,6 @@ rest2web:
     Random HTML ids in /usr/share/doc/rest2web/html/test_site/section1/index.html
 resteasy:
   version: 3.0.6-1
-  issues:
-    - timestamps_in_maven_pom_files
 retext:
   version: 5.0.1-1
   issues:
@@ -7937,8 +7618,6 @@ robojournal:
     - timestamps_from_cpp_macros
 robust-http-client:
   version: 1.2-2
-  issues:
-    - timestamps_in_maven_pom_files
 rockdodger:
   version: 1.0.0-1
   issues:
@@ -8125,8 +7804,6 @@ sawfish:
     - timestamps_in_static_libraries
 saxonhe:
   version: 9.5.1.1+dfsg-1
-  issues:
-    - timestamps_in_maven_pom_files
 scala-mode-el:
   version: 20111005-2.1
   issues:
@@ -8194,12 +7871,9 @@ seqdiag:
 serp:
   version: 1.14.1-2
   issues:
-    - timestamps_in_maven_pom_files
     - user_in_java_jar_manifest
 sezpoz:
   version: 1.9-2
-  issues:
-    - timestamps_in_maven_pom_files
 sffview:
   version: 0.5.0-1
   issues:
@@ -8301,8 +7975,6 @@ sipxtapi:
     - timestamps_in_documentation_generated_by_doxygen
 sisu-inject:
   version: 0.0.0.M5-1
-  issues:
-    - timestamps_in_maven_pom_files
 sisu-ioc:
   version: 2.3.0-5
   issues:
@@ -8378,8 +8050,6 @@ snake4:
     https://sources.debian.net/src/snake4/1.0.14-1/Makefile/?hl=8:9,59:63#L8
 snappy1.0.3-java:
   version: 1.0.3-rc3~dfsg-4
-  issues:
-    - timestamps_in_maven_pom_files
 snd:
   version: 11.7-3
   issues:
@@ -8441,8 +8111,6 @@ sparkleshare:
     - timestamps_in_pe_binaries
 spatial4j:
   version: 0.3-1
-  issues:
-    - timestamps_in_maven_pom_files
 spatial4j-0.4:
   version: 0.4.1-1
   issues:
@@ -8536,8 +8204,6 @@ ssvnc:
     - timestamps_in_jar
 stapler-adjunct-timeline:
   version: 1.4+dfsg-1
-  issues:
-    - timestamps_in_maven_pom_files
 statnews:
   version: 2.5
   comments: |
@@ -8795,8 +8461,6 @@ tig:
     - timestamps_from_cpp_macros
 tiger-types:
   version: 1.4-1
-  issues:
-    - timestamps_in_maven_pom_files
 tika:
   version: 1.5-1
   issues:
@@ -8936,7 +8600,6 @@ trigger-rally:
 trilead-putty-extension:
   version: 1.2-1
   issues:
-    - timestamps_in_maven_pom_files
     - user_in_java_jar_manifest
 triplane:
   version: 1.0.8-1
@@ -9036,7 +8699,6 @@ txtorcon:
 txw2:
   version: 0.1+20110809-1
   issues:
-    - timestamps_in_maven_pom_files
     - user_in_java_jar_manifest
 uanytun:
   version: 0.3.5-1
@@ -9096,16 +8758,10 @@ ui-utilcpp:
     - timestamps_from_cpp_macros
 uima-addons:
   version: 2.3.1-3
-  issues:
-    - timestamps_in_maven_pom_files
 uima-as:
   version: 2.3.1-3
-  issues:
-    - timestamps_in_maven_pom_files
 uimaj:
   version: 2.6.0-1
-  issues:
-    - timestamps_in_maven_pom_files
 ultracopier:
   version: 0.3.1.0-1
   issues:
@@ -9144,7 +8800,6 @@ uruk:
 user-agent-utils:
   version: 1.15-1
   issues:
-    - timestamps_in_maven_pom_files
     - user_in_java_jar_manifest
 util-vserver:
   version: 0.30.216-pre3054-1
@@ -9182,8 +8837,6 @@ vdk2:
     - timestamps_in_static_libraries
 velocity:
   version: 1.7-4
-  issues:
-    - timestamps_in_maven_pom_files
 venkman:
   version: 0.9.89-1
   issues:
@@ -9281,8 +8934,6 @@ voms-clients-java:
     - timestamps_in_jar
 vorbis-java:
   version: 0.6-1
-  issues:
-    - timestamps_in_maven_pom_files
 votca-csg:
   version: 1.2.4-1
   issues:
@@ -9357,8 +9008,6 @@ west-chamber:
     - timestamps_in_tarball
 weupnp:
   version: 0.1.2-1
-  issues:
-    - timestamps_in_maven_pom_files
 wfmath:
   version: 1.0.2+dfsg1-0.3
   issues:
@@ -9607,8 +9256,6 @@ xml-maven-plugin:
     - timestamps_in_maven_pom_files
 xmlbeans-maven-plugin:
   version: 2.3.3-3
-  issues:
-    - timestamps_in_maven_pom_files
 xmlcopyeditor:
   version: 1.2.1.3-1
   comments: |
@@ -9622,7 +9269,6 @@ xmlgraphics-commons:
 xmlstreambuffer:
   version: 1.5.1-1
   issues:
-    - timestamps_in_maven_pom_files
     - user_in_java_jar_manifest
 xmltex:
   version: 1.9.debian.1-3
@@ -9688,8 +9334,6 @@ xsddiagram:
     - timestamps_in_pe_binaries
 xslthl:
   version: 2.1.0-4
-  issues:
-    - timestamps_in_maven_pom_files
 xsp:
   version: 3.8-2
   issues:
