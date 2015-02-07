@@ -6989,6 +6989,8 @@ rsbackup:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+  bugs:
+    - 777394
 rsync:
   version: 3.1.1-2
   issues:
