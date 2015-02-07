@@ -1732,10 +1732,7 @@ efl:
 eigen3:
   version: 3.2.2-3
   comments: |
-    Build end and fails but leaves a process called 'eigenvalues' running, which consumes all available cpu from all cores
-    Package has been blacklisted for now.
-  issues:
-    - blacklisted_on_jenkins
+    This package build used to fails and leave a process called 'eigenvalues' running, which consumed all available cpu from all cores, so it was blacklisted. On Feb 07 2015 we noticed this isn't the case anymore, despite no changes to the package, so some library must have been fixed, so the blacklisting was removed. Keeping this note for now.
 ejabberd:
   version: 14.07-4
   issues:
