@@ -5807,8 +5807,8 @@ opensp:
 openssl:
   version: 1.0.1i-2
   comments: |
-    There's at least a timestamp embedded in libcrypto coming from:
-    http://sources.debian.net/src/openssl/1.0.1i-2/crypto/Makefile/?hl=60#L60
+    Fixed upstream and in experimental:
+    https://git.openssl.org/gitweb/?p=openssl.git;a=commit;h=264212b643c621d7e89079c1d2b76f87beec7ceb
   issues:
     - timestamps_in_static_libraries
 opentk:
