@@ -312,6 +312,8 @@ argus-client:
   issues:
     - not_using_dh_builddeb
     - timestamps_in_gzip_headers
+  bugs:
+    - 777283
 argyll:
   version: 1.6.3-4
   comments: |
