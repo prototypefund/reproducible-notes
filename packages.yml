@@ -1203,6 +1203,8 @@ cvs-buildpackage:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+  bugs:
+    - 777301
 cvs-mailcommit:
   version: 1.19-2
   issues:
