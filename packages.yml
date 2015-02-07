@@ -894,6 +894,10 @@ checkstyle:
     /usr/share/java/checkstyle.jar:checkstylecompilation.properties
   issues:
     - timestamps_in_maven_pom_files
+chemical-structures:
+  version: 2.2.dfsg.0-12
+  issues:
+    - timestamps_in_mdl_molfile
 cherrypy3:
   version: 3.5.0-1
   issues:
@@ -2590,6 +2594,10 @@ geany-plugins:
   version: 1.24+dfsg-5
   issues:
     - timestamps_from_cpp_macros
+gecode:
+  version: 4.2.1-2
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 geda-gaf:
   version: 1:1.8.2-4
   issues:
@@ -4249,6 +4257,10 @@ libgtk2-trayicon-perl:
   version: 0.06-2
   issues:
     - random_order_in_files_generated_by_extutils_depends
+libgwenhywfar:
+  version: 4.12.0beta-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 libhibernate-commons-annotations-java:
   version: 3.2.0.Final-2
   issues:
@@ -4381,10 +4393,18 @@ libmarpa-r2-perl:
   version: 2.086000~dfsg-3
   issues:
     - timestamps_from_cpp_macros
+libmath++:
+  version: 0.0.4-5
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 libmatroska:
   version: 1.4.1-2
   issues:
     - timestamps_from_cpp_macros
+libmediainfo:
+  version: 0.7.70-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 libmiglayout-java:
   version: 4.2-1
   issues:
@@ -4556,6 +4576,10 @@ libsequence-library-java:
   version: 1.0.2-1
   issues:
     - timestamps_in_maven_pom_files
+libshevek:
+  version: 1.4-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 libshib-common-java:
   version: 1.4.0-3
   issues:
@@ -7820,6 +7844,10 @@ qutemol:
     - timestamps_from_cpp_macros
 qwtplot3d:
   version: 0.2.7+svn191-7
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+qxmlrpc:
+  version: 0.0.svn6-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
 r-cran-gbm:
