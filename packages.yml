@@ -421,6 +421,10 @@ babl:
   version: 0.1.10-2
   comments: |
     Random order in apparently custom generated HTML
+bacula:
+  version: 5.2.6+dfsg-9.3
+  issues:
+    - randomness_in_gnu_build_id
 ballerburg:
   version: 1.1.0-1
   issues:
@@ -1366,10 +1370,6 @@ debdelta:
   version: 0.55
   issues:
     - not_using_dh_builddeb
-debirf:
-  version: 0.34
-  bugs:
-    - 777183
 debhelper:
   version: 9.20150101
   comments: |
@@ -1392,6 +1392,10 @@ debian-faq:
   version: 5.0.3
   issues:
     - timestamps_in_pdf_generated_by_latex
+debian-installer-netboot-images:
+  version: 20150107
+  issues:
+    - needs_internet_access_to_build
 debian-keyring:
   version: 2014.12.10
   issues:
@@ -1410,6 +1414,10 @@ debianutils:
   version: 4.4
   bugs:
     - 774504
+debirf:
+  version: 0.34
+  bugs:
+    - 777183
 debpartial-mirror:
   version: 0.3.1
   issues:
@@ -1507,14 +1515,6 @@ dict-moby-thesaurus:
   version: 1.0-6.2
   bugs:
     - 776375
-dict-stardic:
-  version: 1.3.1-4
-  bugs:
-    - 776432
-dict-xdict:
-  version: 0.1-4.2
-  bugs:
-    - 776370
 dietlibc:
   version: 0.33~cvs20120325-6
   issues:
@@ -1787,6 +1787,10 @@ emms:
   version: 4.0-2
   issues:
     - timestamps_in_emacs_autoloads
+encfs:
+  version: 1.7.4-5
+  issues:
+    - randomness_in_gnu_build_id
 enemies-of-carlotta:
   version: 1.2.6-4
   issues:
@@ -3156,16 +3160,16 @@ gudev-sharp-1.0:
   version: 0.1-3
   issues:
     - timestamps_in_pe_binaries
-guile-1.8:
-  version: 1.8.8+1-10
-  comments: |
-    Timestamp in custom .a header(?), and hence messed-up Build-Ids(?)
 gui-apt-key:
   version: 0.4-2
   issues:
     - timestamps_in_gzip_headers
   bugs:
     - 777240
+guile-1.8:
+  version: 1.8.8+1-10
+  comments: |
+    Timestamp in custom .a header(?), and hence messed-up Build-Ids(?)
 guncat:
   version: 0.92.00-3
   issues:
@@ -4027,10 +4031,6 @@ libcec:
     https://sources.debian.net/src/libcec/2.2.0%2Bdfsg1-1/configure.ac/?hl=351:255#L351
     Can be removed by passing HAVE_DATE=no HAVE_WHOAMI=no HAVE_HOSTNAME=no HAVE_UNAME=no
     to ./configure but the binaries are also non-determinstic.
-libcolor-calc-perl:
-  version: 1.074-1
-  issues:
-    - random_order_in_files_generated_by_module_build
 libcgicc:
   version: 3.2.9-3
   issues:
@@ -4044,6 +4044,10 @@ libcodemodel-java:
   version: 2.6-1
   issues:
     - timestamps_in_maven_pom_files
+libcolor-calc-perl:
+  version: 1.074-1
+  issues:
+    - random_order_in_files_generated_by_module_build
 libcommoncpp2:
   version: 1.8.1-6
   issues:
@@ -4563,14 +4567,14 @@ librep:
   version: 0.90.2-1.4
   issues:
     - timestamps_in_static_libraries
-libsdl2:
-  version: 2.0.2+dfsg1-6
-  bugs:
-    - 777186
 libsdl-perl:
   version: 2.542-1
   issues:
     - random_order_in_files_generated_by_module_build
+libsdl2:
+  version: 2.0.2+dfsg1-6
+  bugs:
+    - 777186
 libsequence-library-java:
   version: 1.0.2-1
   issues:
@@ -4735,14 +4739,6 @@ libxerces2-java:
   version: 2.11.0-7
   issues:
     - timestamps_in_maven_pom_files
-libxext:
-  version: 1.3.3-1
-  comments: |
-    Generated ids in documentation
-libxfont:
-  version: 1.4.99.901-1
-  comments: |
-    Generated ids in documentation
 libxml-commons-resolver1.1-java:
   version: 1.2-7
   issues:
@@ -4767,10 +4763,6 @@ libxstream-java:
   version: 1.4.7-2
   issues:
     - timestamps_in_maven_pom_files
-libxtst:
-  version: 1.2.2-1
-  comments: |
-    Generated ids in documentation
 libyaml:
   version: 0.1.6-2
   issues:
@@ -5797,10 +5789,6 @@ notify-sharp:
   version: 0.4.0~r3032-7
   issues:
     - timestamps_in_pe_binaries
-nova:
-  version: 2014.1.3-9
-  issues:
-    - randomness_in_documentation_generated_by_sphinx
 nqc:
   version: 3.1.r6-2
   issues:
@@ -5950,11 +5938,11 @@ open-cobol:
     - timestamps_from_cpp_macros
 openafs:
   version: 1.6.10-4
+  comments: |
+    openafs-modules-source package contains a tarball with differing timestamps.
   issues:
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_documentation_generated_by_doxygen
-  comments: |
-    openafs-modules-source package contains a tarball with differing timestamps.
 openais:
   version: 1.1.4-4.2
   issues:
@@ -6314,11 +6302,6 @@ pgadmin3:
   version: 1.20.0~beta2-1
   issues:
     - timestamps_from_cpp_macros
-pgbouncer:
-  version: 1.5.4-6
-  comments: |
-    Embed build timestamp, user and hostname:
-    https://sources.debian.net/src/pgbouncer/1.5.4-6/Makefile/?hl=79#L79
 pgloader:
   version: 3.1.1+dfsg-1
   issues:
@@ -6429,10 +6412,6 @@ php-fxsl:
     - timestamps_in_php_registry_files
 php-gearman:
   version: 1.1.2-1
-  issues:
-    - timestamps_in_php_registry_files
-php-geoip:
-  version: 1.1.0-1
   issues:
     - timestamps_in_php_registry_files
 php-gnupg:
@@ -7085,10 +7064,6 @@ php-oauth:
   version: 1.2.3-1
   issues:
     - timestamps_in_php_registry_files
-php-pager:
-  version: 2.4.8-2
-  issues:
-    - timestamps_in_php_registry_files
 php-pinba:
   version: 1.0.0-2
   issues:
@@ -7384,7 +7359,7 @@ pocketsphinx:
     - timestamps_in_documentation_generated_by_doxygen
     - timestamps_from_cpp_macros
 polygen:
-  version:  1.0.6.ds2-13
+  version: 1.0.6.ds2-13
   comments: |
     Random documentation (by design)
   bugs:
@@ -7624,10 +7599,6 @@ python-django-bootstrap-form:
   version: 3.1.0-5
   issues:
     - random_order_in_egg_info_top_level_txt
-python-fitbit:
-  version: 0.1.2-1
-  issues:
-    - random_order_in_python_environment_pickle
 python-gflags:
   version: 1.5.1-2
   issues:
@@ -7716,8 +7687,7 @@ python-x2go:
   issues:
     - use_epydoc
 python-xstatic-smart-table:
-  version:
-    - 1.4.5.3-1
+  version: ['1.4.5.3-1']
   issues:
     - random_order_in_python_namespace_packages
 python-yaql:
@@ -9362,10 +9332,6 @@ webkit-sharp:
   version: 0.3-6
   issues:
     - timestamps_in_pe_binaries
-websocketpp:
-  version: 0.3.0-2
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 welcome2l:
   version: 3.04-25
   comments: |
@@ -9422,6 +9388,13 @@ winswitch:
   comments: |
     Capture username, hostname, build date, CPUID in
     /usr/lib/winswitch/winswitch/build_info.py
+wireless-regdb:
+  version: 2014.11.18-1
+  issues:
+    - unreproducible_by_design
+    - blacklisted_on_jenkins
+  bugs:
+    - 725803
 wise:
   version: 2.4.1-17
   issues:
@@ -9553,14 +9526,6 @@ xfireworks:
   version: 1.3-9
   issues:
     - timestamps_in_gzip_headers
-xfonts-100dpi:
-  version: 1:1.0.3
-  issues:
-    - timestamps_in_gzip_headers
-xfonts-75dpi:
-  version: 1:1.0.3
-  issues:
-    - timestamps_in_gzip_headers
 xfonts-ayu:
   version: 1.7+0a+0debian1-2.1
   issues:
@@ -9571,10 +9536,6 @@ xfonts-bolkhov:
     - timestamps_in_gzip_headers
 xfonts-cronyx:
   version: 2.3.8-6
-  issues:
-    - timestamps_in_gzip_headers
-xfonts-cyrillic:
-  version: 1:1.0.3
   issues:
     - timestamps_in_gzip_headers
 xfonts-kaname:
@@ -9678,10 +9639,6 @@ xnecview:
   issues:
     - not_using_dh_builddeb
     - timestamps_in_gzip_headers
-xnetcardconfig:
-  version: 0.2.1-1
-  issues:
-    - timestamps_generated_by_docbook_to_man
 xom:
   version: 1.2.10-1
   issues:
@@ -9886,12 +9843,12 @@ zope-mysqlda:
   version: 3.1.1-1
   issues:
     - zope_random_field_order_in_dzproduct
-zope-replacesupport:
-  version: 1.0.3-6
-  issues:
-    - zope_random_field_order_in_dzproduct
 zope-quotafolder:
   version: 1:0.1.1-1
+  issues:
+    - zope_random_field_order_in_dzproduct
+zope-replacesupport:
+  version: 1.0.3-6
   issues:
     - zope_random_field_order_in_dzproduct
 zorp:
@@ -9927,22 +9884,3 @@ zynaddsubfx:
   version: 2.4.3-4
   issues:
     - timestamps_from_cpp_macros
-wireless-regdb:
-  version: 2014.11.18-1
-  issues:
-    - unreproducible_by_design
-    - blacklisted_on_jenkins
-  bugs:
-    - 725803
-debian-installer-netboot-images:
-  version: 20150107
-  issues:
-    - needs_internet_access_to_build
-encfs:
-  version: 1.7.4-5
-  issues:
-    - randomness_in_gnu_build_id
-bacula:
-  version: 5.2.6+dfsg-9.3
-  issues:
-    - randomness_in_gnu_build_id
