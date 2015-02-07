@@ -538,6 +538,8 @@ biff:
   issues:
     - not_using_dh_builddeb
     - timestamps_in_gzip_headers
+  bugs:
+    - 777290
 bind-dyndb-ldap:
   version: 6.0-4
   issues:
