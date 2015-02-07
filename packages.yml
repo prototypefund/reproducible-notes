@@ -1082,6 +1082,11 @@ config-manager:
   version: 0.4-2.1
   issues:
     - timestamps_generated_by_docbook_to_man
+conkeror:
+  version: 1.0~~pre-1+git141025-1
+  comments: |
+    Should be fixed in git:
+    http://repo.or.cz/w/conkeror.git/commitdiff/a1d87faa81cc910112a2906c03e23876a57f7d18
 connect-proxy:
   version: 1.101-1
   issues:
