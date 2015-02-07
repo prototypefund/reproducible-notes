@@ -1659,6 +1659,8 @@ dput:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+  bugs:
+    - 777375
 drbd-utils:
   version: 8.9.2~rc1-2
   comments: |
