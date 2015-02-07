@@ -6,6 +6,8 @@ import optparse
 
 def main():
     parser = optparse.OptionParser()
+    parser.add_option('--issue', dest='issue', default=None,
+        help="only print packages with issue ISSUE")
     options, args = parser.parse_args()
 
     if args:
@@ -14,6 +16,10 @@ def main():
     packages = yaml.safe_load(open('./packages.yml'))
 
     for x, y in sorted(packages.iteritems()):
+        if options.issue is not None and \
+                options.issue not in y.get('issues', ()):
+            continue
+
         print x
 
     return 0
