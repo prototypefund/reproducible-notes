@@ -37,10 +37,6 @@ xpi_pack_saves_extra_attributes_in_jar:
     xpi-pack, part of mozilla-devscripts, saves extra attributes when creating
     jar files. The fix is pending an upload.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInJarFiles
-timestamps_in_php_registry_files:
-  description: |
-    PHP registry files contain a timestamp in the _lastmodified field.
-  url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInPhpRegistryFiles
 timestamps_in_maven_pom_files:
   description: |
     Maven writes a timestamp to pom.properties files
