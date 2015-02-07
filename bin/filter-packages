@@ -5,7 +5,7 @@ import yaml
 import optparse
 
 def main():
-    parser = optparse.OptionParser()
+    parser = optparse.OptionParser(usage='%prog [options]')
     parser.add_option('--issues', dest='issues', default=None,
         help="only print packages with comma-separated issues ISSUES")
     parser.add_option('--has-bugs', dest='bugs', action='store_true',
