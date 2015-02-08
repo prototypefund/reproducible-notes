@@ -7127,6 +7127,8 @@ rungetty:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+  bugs:
+    - 777447
 runit:
   version: 2.1.2-3
   issues:
