@@ -7707,6 +7707,9 @@ t-digest:
     - timestamps_in_maven_pom_files
 t-prot:
   version: 3.3-1
+  comments: |
+    Fixed in git
+    http://git.deb.at/w/pkg/t-prot.git/commitdiff/11c9459470c8ca6202d85107f8bca040675348e7
   issues:
     - not_using_dh_builddeb
 tachyon:
