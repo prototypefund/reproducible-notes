@@ -3435,11 +3435,9 @@ ifupdown:
     - 762388
 igerman98:
   version: 20131206-5
-  comments: |
-    Variation in order of Default field for ingerman and iswiss debconf
-    templates.
   issues:
     - timestamps_in_gzip_headers
+    - random_order_in_dictionary_debconf_templates
 iipimage:
   version: 0.9.9-3
   issues:
