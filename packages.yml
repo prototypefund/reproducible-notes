@@ -2380,6 +2380,11 @@ foomatic-db:
   version: 20141016-1
   issues:
     - ppds_compressed_b64
+fortunes-bg:
+  version: 1.1
+  issues:
+    - timestamps_in_gzip_headers
+    - not_using_dh_builddeb
 fossil:
   version: 1:1.29-1
   issues:
@@ -3050,6 +3055,20 @@ gnustep-base:
     /usr/share/doc/libgnustep-base1.24-dbg/tests.log.gz
   issues:
     - timestamps_in_pdf_generated_by_latex
+gnustep-dl2:
+  version: 0.12.0-13
+  issues:
+    - timestamps_in_pdf_generated_by_latex
+  comments: |
+    Username is also embedded in documentation files.
+gnustep-gui:
+  version: 0.24.0-3
+  issues:
+    - timestamps_in_pdf_generated_by_latex
+gnustep-make:
+  version: 2.6.6-3
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 goaccess:
   version: 1:0.8.3-1
   issues:
@@ -3157,6 +3176,10 @@ gsmlib:
   version: 1.10+20120414.gita5e5ae9a-0.2
   issues:
     - timestamps_from_cpp_macros
+gsoap:
+  version: 2.8.17-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 gss:
   version: 1.0.3-1
   issues:
@@ -3235,7 +3258,8 @@ guncat:
 gutenprint:
   version: 5.2.10-3
   comments: |
-    Patch has been submitted upstream on 07.02.2015.
+    Patch has been submitted upstream:
+    http://permalink.gmane.org/gmane.linux.printing.gimp-print.devel/11877
 gvpe:
   version: 2.25-2
   issues:
@@ -3577,6 +3601,15 @@ ispell-gl:
   version: 0.5-40
   issues:
     - timestamps_in_gzip_headers
+ispell-it:
+  version: 1.2.1-4
+  issues:
+    - timestamps_in_gzip_headers
+isorelax:
+  version: 20041111-8
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
+    - timestamps_in_jar
 jaaa:
   version: 0.8.4-1
   issues:
@@ -3652,6 +3685,11 @@ jamnntpd:
   version: 1.2-1
   issues:
     - timestamps_from_cpp_macros
+jargon:
+  version: 4.0.0-5.1
+  issues:
+    - timestamps_in_gzip_headers
+    - not_using_dh_builddeb
 jatl:
   version: 0.2.2-1
   issues:
@@ -3769,6 +3807,10 @@ jimtcl:
   version: 0.75-1
   comments: |
     Timestamp in unrecognised documentation generator
+jing-trang:
+  version: 20131210+dfsg+1-1
+  issues:
+    - timestamps_in_jar
 jlha-utils:
   version: 0.1.6-4
   issues:
@@ -3911,6 +3953,10 @@ klatexformula:
   version: 3.2.7-1
   issues:
     - timestamps_generated_by_docbook_to_man
+klone:
+  version: 2.1.0~rc1-1
+  issues:
+    - users_and_groups_in_tarball
 knews:
   version: 1.0b.1-29
   issues:
@@ -4716,6 +4762,10 @@ libvsqlitepp:
   version: 0.3.13-3
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libwebcam:
+  version: 0.2.4-1.1
+  issues:
+    - timestamps_in_gzip_headers
 libwebsockets:
   version: 1.2.2-1
   comments: |
@@ -5154,6 +5204,10 @@ mcl:
   version: 1:14-137-1
   issues:
     - timestamps_in_documentation_generated_by_groff
+mclibs:
+  version: 20061220+dfsg3-3
+  issues:
+    - timestamps_in_dvi_generated_by_latex
 meanwhile:
   version: 1.0.2-5
   issues:
@@ -5211,6 +5265,13 @@ mime-support:
     - not_using_dh_builddeb
   bugs:
     - 776939
+mimefilter:
+  version: 1.7+nmu1
+  issues:
+    - timestamps_in_gzip_headers
+    - not_using_dh_builddeb
+  comments: |
+    README.Debian also contains an embedded timestamp.
 minbif:
   version: 1:1.0.5+git20120508-4
   issues:
@@ -6475,6 +6536,10 @@ powertop:
   version: 2.6.1-1
   issues:
     - timestamps_from_cpp_macros
+powstatd:
+  version: 1.5.1-9.1
+  issues:
+    - timestamps_in_documentation_generated_by_groff
 praat:
   version: 5.4.0-1
   issues:
@@ -6542,6 +6607,11 @@ putty:
   version: 0.63-8
   issues:
     - timestamps_from_cpp_macros
+pvm:
+  version: 3.4.5-12.6
+  issues:
+    - timestamps_in_tarball
+    - timestamps_in_gzip_headers
 pxlib:
   version: 0.6.5-1
   issues:
