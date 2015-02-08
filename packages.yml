@@ -8498,6 +8498,14 @@ wmcoincoin:
   version: 2.6.2+20140602-1
   issues:
     - timestamps_from_cpp_macros
+wml:
+  version: 2.0.12ds1-8
+  comments: |
+   Partially fixed in
+   https://anonscm.debian.org/cgit/pkg-wml/wml.git/commit/?id=81d1b3d042adb2d6986643184cf003dbb4b054c2
+   and the remaining issues filed against pod2man
+  bugs:
+    - 777405
 wmii-doc:
   version: 1-14
   issues:
