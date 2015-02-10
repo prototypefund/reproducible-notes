@@ -296,3 +296,6 @@ random_order_in_dictionary_debconf_templates:
     dictionaries-common-dev generates Debconf templates with a
     non-deterministic Default: key.
   url: https://bugs.debian.org/777420
+timestamps_in_ada_library_information_files:
+  description: |
+    Ada Library Information (.ali) files contain the mtime of the Ada source (.ads) files that they index.
