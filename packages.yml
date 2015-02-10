@@ -9044,8 +9044,8 @@ yocto-reader:
     - 777357
 yorick-spydr:
   version: 0.8.2-3
-  comments: |
-    Timestamp in PNG file.
+  issues:
+    - timestamps_in_png
   bugs:
     - 764993
 ytree:
