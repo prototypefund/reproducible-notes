@@ -2216,8 +2216,11 @@ felix-utils:
 fence-agents:
   version: 4.0.7.1-2.1
   comments: |
-    Timestamps in filenames can be easily fixed by patching scripts/fenceparse
-    but usr/sbin/fence_rackswitch has some uninvestigated randomness.
+    Timestamps in generated scripts can be easily fixed by patching
+    scripts/fenceparse but usr/sbin/fence_rackswitch (only) has differing GNU
+    Build ID after that
+  issues:
+    - randomness_in_gnu_build_id
 fenix:
   version: 0.92a.dfsg1-10
   issues:
