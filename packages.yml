@@ -2213,6 +2213,11 @@ felix-utils:
   version: 1.6.0-1
   issues:
     - user_in_java_jar_manifest
+fence-agents:
+  version: 4.0.7.1-2.1
+  comments: |
+    Timestamps in filenames can be easily fixed by patching scripts/fenceparse
+    but usr/sbin/fence_rackswitch has some uninvestigated randomness.
 fenix:
   version: 0.92a.dfsg1-10
   issues:
