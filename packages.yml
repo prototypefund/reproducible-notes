@@ -2588,6 +2588,11 @@ gbrainy:
   version: 2.2.3-1
   issues:
     - timestamps_in_pe_binaries
+gbrowse:
+  version: 2.54+dfsg-3
+  comments: |
+    ConfigData.pm not dumped in determinstic order and some of the values are
+    generated using rand()
 gcal:
   version: 3.6.3-3
   issues:
