@@ -41,6 +41,10 @@ timestamps_in_maven_pom_files:
   description: |
     Maven writes a timestamp to pom.properties files
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInMavenPomProperties
+timestamps_in_maven_version_files:
+  description: |
+    Maven writes a timestamp to version.properties files.  Probably related
+    to timestamps_in_maven_pom_files issue.
 timestamps_in_pe_binaries:
   description: |
     PE binaries contain a timestamp and maybe randomness in an UUID.
