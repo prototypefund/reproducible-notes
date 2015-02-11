@@ -550,6 +550,8 @@ bglibs:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
     - timestamps_in_static_libraries
+  bugs:
+    - 776942
 bibclean:
   version: 2.11.4.1-4
   comments: |
@@ -912,6 +914,8 @@ cgilib:
     - not_using_dh_builddeb
     - timestamps_in_static_libraries
     - timestamps_in_gzip_headers
+  bugs:
+    - 776935
 cgoban:
   version: 1.9.14-17
   issues:
@@ -2100,13 +2104,6 @@ exiv2:
   version: 0.24-4
   issues:
     - timestamps_from_cpp_macros
-exmh:
-  version: 1:2.8.0-4
-  issues:
-    - not_using_dh_builddeb
-    - timestamps_in_gzip_headers
-  bugs:
-    - 776953
 expat:
   version: 2.1.0-6
   issues:
@@ -3109,10 +3106,10 @@ gnustep-base:
     - timestamps_in_pdf_generated_by_latex
 gnustep-dl2:
   version: 0.12.0-13
-  issues:
-    - timestamps_in_pdf_generated_by_latex
   comments: |
     Username is also embedded in documentation files.
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 gnustep-gui:
   version: 0.24.0-3
   issues:
@@ -3647,6 +3644,11 @@ irsim:
   comments: |
     Capture build time:
     http://sources.debian.net/src/irsim/9.7.87-1/irsim/Makefile/?hl=11#L11
+isorelax:
+  version: 20041111-8
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
+    - timestamps_in_jar
 ispell-fo:
   version: 0.4.2-6
   issues:
@@ -3659,11 +3661,6 @@ ispell-lt:
   version: 1.2.1-4
   issues:
     - timestamps_in_gzip_headers
-isorelax:
-  version: 20041111-8
-  issues:
-    - timestamps_in_documentation_generated_by_javadoc
-    - timestamps_in_jar
 jaaa:
   version: 0.8.4-1
   issues:
@@ -4996,6 +4993,7 @@ lprng:
   version: 3.8.B-2
   bugs:
     - 773916
+    - 773981
 lprng-doc:
   version: 3.8.A~rc2-3
   issues:
@@ -5345,11 +5343,11 @@ mime-support:
     - 776939
 mimefilter:
   version: 1.7+nmu1
+  comments: |
+    README.Debian also contains an embedded timestamp.
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
-  comments: |
-    README.Debian also contains an embedded timestamp.
   bugs:
     - 777486
 minbif:
@@ -5863,11 +5861,6 @@ nkf:
   version: 2.13-4
   issues:
     - timestamps_from_cpp_macros
-nmh:
-  version: 1.6-2
-  comments: |
-    Embed build time, and hostname:
-    http://sources.debian.net/src/nmh/1.5-release-6/config/version.sh/
 nn:
   version: 6.7.3-8
   bugs:
@@ -6294,7 +6287,7 @@ paxtest:
 pcal:
   version: 4.11.0-3
   issues:
-   - timestamps_in_documentation_generated_by_groff
+    - timestamps_in_documentation_generated_by_groff
 pcb:
   version: 20140316-3
   issues:
@@ -7212,10 +7205,6 @@ rsync:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
-rt-tests:
-  version: 0.89-1
-  issues:
-    - timestamps_from_cpp_macros
 rt-extension-calendar:
   version: 0.17-1
   comments: |
@@ -7228,6 +7217,10 @@ rt-extension-spawnlinkedticketinqueue:
   version: 0.06-1
   comments: |
     timestamp added to perllocal.pod by ExtUtils::MM_Unix
+rt-tests:
+  version: 0.89-1
+  issues:
+    - timestamps_from_cpp_macros
 rtai:
   version: 3.9.1-4
   issues:
@@ -7974,6 +7967,7 @@ tar:
   version: 1.27.1-2
   bugs:
     - 774463
+    - 774484
 tart:
   version: 3.10-1
   issues:
@@ -8738,18 +8732,19 @@ wmcoincoin:
   version: 2.6.2+20140602-1
   issues:
     - timestamps_from_cpp_macros
-wml:
-  version: 2.0.12ds1-8
-  comments: |
-   Partially fixed in
-   https://anonscm.debian.org/cgit/pkg-wml/wml.git/commit/?id=81d1b3d042adb2d6986643184cf003dbb4b054c2
-   and the remaining issues filed against pod2man
-  bugs:
-    - 777405
 wmii-doc:
   version: 1-14
   issues:
     - timestamps_in_pdf_generated_by_latex
+wml:
+  version: 2.0.12ds1-8
+  comments: |
+    Partially fixed in
+    https://anonscm.debian.org/cgit/pkg-wml/wml.git/commit/?id=81d1b3d042adb2d6986643184cf003dbb4b054c2
+    and the remaining issues filed against pod2man
+  bugs:
+    - 777405
+    - 777469
 wmpuzzle:
   version: 0.5.2-1
   issues:
