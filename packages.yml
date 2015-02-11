@@ -1717,6 +1717,11 @@ dpatch:
     - not_using_dh_builddeb
   bugs:
     - 776937
+dpsycho:
+  version: 1.0.36
+  issues:
+    - timestamps_in_gzip_headers
+    - timestamps_in_documentation_generated_by_podman
 dput:
   version: 0.9.6.4
   issues:
