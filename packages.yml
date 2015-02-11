@@ -885,6 +885,10 @@ cegui-mk2:
   version: 0.7.6-3.3
   issues:
     - timestamps_from_cpp_macros
+celery:
+  version: 3.1.13-3
+  issues:
+    - randomness_in_documentation_generated_by_sphinx
 cenon.app:
   version: 4.0.2-1
   issues:
@@ -1651,6 +1655,10 @@ dita-ot:
   version: 1.5.3-1
   comments: |
     Capture build time in /usr/share/dita-ot/lib/configuration.properties
+django-celery:
+  version: 3.1.16-1
+  issues:
+    - randomness_in_documentation_generated_by_sphinx
 djangorestframework:
   version: 2.4.3-2
   issues:
@@ -5845,6 +5853,14 @@ ninja-build:
   issues:
     - timestamps_in_documentation_generated_by_doxygen
     - random_anchor_names_generated_by_docbook_to_man
+nipy:
+  version: 0.3.0+git262-gbb838d7-1
+  issues:
+    - randomness_in_documentation_generated_by_sphinx
+nipype:
+  version: 0.10.0-2
+  issues:
+    - randomness_in_documentation_generated_by_sphinx
 nis:
   version: 3.17-34
   issues:
@@ -6360,6 +6376,7 @@ pebl:
   version: 1.0.2-2
   issues:
     - random_order_in_python_environment_pickle
+    - randomness_in_documentation_generated_by_sphinx
 pecomato:
   version: 0.0.15-7
   issues:
@@ -6621,6 +6638,10 @@ postgis:
   version: 2.1.4+dfsg-2
   issues:
     - timestamps_in_maven_pom_files
+powerline:
+  version: 1.2-2
+  issues:
+    - randomness_in_documentation_generated_by_sphinx
 powertop:
   version: 2.6.1-1
   issues:
@@ -6674,6 +6695,10 @@ psgml:
     - timestamps_in_gzip_headers
   bugs:
     - 777505
+psi4:
+  version: 4.0~beta5+dfsg-2
+  issues:
+    - randomness_in_documentation_generated_by_sphinx
 pslib:
   version: 0.4.5-3
   issues:
@@ -6764,6 +6789,10 @@ pymvpa:
   version: 0.4.8-3
   issues:
     - use_epydoc
+pymvpa2:
+  version: 2.3.1-2
+  issues:
+    - randomness_in_documentation_generated_by_sphinx
 pyntor:
   version: 0.6-4
   issues:
@@ -6838,6 +6867,10 @@ python-django-bootstrap-form:
   version: 3.1.0-5
   issues:
     - random_order_in_egg_info_top_level_txt
+python-django-mptt:
+  version: 0.6.0-1
+  issues:
+    - randomness_in_documentation_generated_by_sphinx
 python-gflags:
   version: 1.5.1-2
   issues:
@@ -6893,6 +6926,10 @@ python-qt4:
   version: 4.11.2+dfsg-1
   bugs:
     - 774509
+python-reconfigure:
+  version: 0.1.59+git20140824-1
+  issues:
+    - randomness_in_documentation_generated_by_sphinx
 python-repoze.who-plugins:
   version: 20090913-2
   issues:
@@ -7117,6 +7154,10 @@ rbootd:
     - timestamps_in_gzip_headers
   bugs:
     - 776951
+rdflib:
+  version: 4.1.2-3
+  issues:
+    - randomness_in_documentation_generated_by_sphinx
 refpolicy:
   version: 2:2.20140421-7
   issues:
@@ -7362,6 +7403,10 @@ sapphire:
   version: 0.15.8-9
   issues:
     - timestamps_generated_by_docbook_to_man
+sardana:
+  version: 1.4.2-1
+  issues:
+    - randomness_in_documentation_generated_by_sphinx
 sauce:
   version: 0.9.0+nmu3
   issues:
@@ -7809,6 +7854,10 @@ statnews:
     Embed build time in /usr/share/doc/statnews/README.Debian
   bugs:
     - 775993
+statsmodels:
+  version: 0.6.0~rc2-1
+  issues:
+    - randomness_in_documentation_generated_by_sphinx
 stax-ex:
   version: 1.7.1-1
   issues:
@@ -7980,6 +8029,10 @@ tasque:
   version: 0.1.12-4
   issues:
     - timestamps_in_pe_binaries
+taurus:
+  version: 3.3.1+dfsg-1
+  issues:
+    - randomness_in_documentation_generated_by_sphinx
 tbb:
   version: 4.2~20140122-3
   comments: |
