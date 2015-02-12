@@ -14,24 +14,22 @@ A full entry looks like the following:
     socat:
       version: 1.7.2.4-1
       issues:
-      - timestamps_from_cpp_macros
+        - timestamps_from_cpp_macros
       bugs:
-      - 764251
+        - 764251
       comments: |
         Patch submitted.
 
-Every field is optional, although a version number might be useful
-to automate future cleanups.
+Every field is optional, although a version number would be useful to do
+cleanups.
 
-`version` is the Debian version number of the examined source package.
+ - `version`: is the Debian version number of the examined source package.
 
-`issues` is a list of tags as described in the `issues.yml`
-file.
+ - `issues`: is a list of tags as described in the `issues.yml` file.
 
-`bugs` is a list of Debian bug numbers reported about the
-package.
+ - `bugs`: is a list of Debian bug numbers reported about the package.
 
-`comments` is a free-form multi-line field to leave comments.
+ - `comments`: is a free-form multi-line field to leave comments.
 
 issues.yml
 ----------
@@ -41,18 +39,16 @@ issues.yml
 A full entry looks like the following:
 
     timestamps_from_cpp_macros:
-     description: |
-       The C pre-processor macros `__DATE__`, `__TIME__`, and `__TIMESTAMP__`
-       captures the current time, and thus will obviously make a build
-       unreproducible.
-     url: https://wiki.debian.org/ReproducibleBuilds/TimestampFromCPPMacros
+      description: |
+        The C pre-processor macros `__DATE__`, `__TIME__`, and `__TIMESTAMP__`
+        captures the current time, and thus will obviously make a build
+        unreproducible.
+      url: https://wiki.debian.org/ReproducibleBuilds/TimestampFromCPPMacros
 
 The name of the issue should contain underscores instead of hyphens as
 text editor autocompletion works better with the former.
 
-Every field is optional.
+ - `description`:  is a mandatory free-form multi-line description of the issue.
 
-`description` is a free-form multi-line description of the issue.
-
-`url` is a pointer to a page (ideally on the Debian wiki) describing the
-issue in more details.
+ - `url`: is an optional field pointer to a page (ideally on the Debian wiki)
+    describing the issue in more details.
