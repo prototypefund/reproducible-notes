@@ -867,12 +867,12 @@ cddlib:
     - timestamps_in_pdf_generated_by_latex
 cdebootstrap:
   version: 0.6.4
-  issues:
-    - not_using_dh_builddeb
-    - timestamps_in_gzip_headers
   comments: |
     Some trivial gzip and tar --mtime issues, then the nested helper .debs each
     have fresh timestamps as they are built as part of the package build.
+  issues:
+    - not_using_dh_builddeb
+    - timestamps_in_gzip_headers
   bugs:
     - 777737
 cdo:
