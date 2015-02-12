@@ -869,6 +869,8 @@ cdebootstrap:
   comments: |
     Some trivial gzip and tar --mtime issues, then the nested helper .debs each
     have fresh timestamps as they are built as part of the package build.
+  bugs:
+    - 777737
 cdo:
   version: 1.6.5+dfsg.1-1
   issues:
