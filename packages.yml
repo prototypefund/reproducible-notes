@@ -861,6 +861,11 @@ cdebootstrap:
   version: 0.6.4
   issues:
     - not_using_dh_builddeb
+  comments: |
+    Some trivial gzip and tar --mtime issues, but it's unclear then
+    why control.tar.gz in the nested helper .debs that are created with
+    dpkg-deb have timestamps in them given that it should be within our own
+    toolchain.
 cdo:
   version: 1.6.5+dfsg.1-1
   issues:
@@ -3901,6 +3906,8 @@ joe:
   version: 3.7-2.4
   issues:
     - not_using_dh_builddeb
+  bugs:
+    - 777726
 joy2key:
   version: 1.6.3-1
   issues:
