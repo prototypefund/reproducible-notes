@@ -332,3 +332,7 @@ port_8080_in_use:
 ftbfs_missing_dependencies:
   description: |
     Package has missing dependencies in sid, a proper FTBFS bug is almost certainly necessary.
+lc_messages_randomness:
+  description: |
+    Some unknown variation in LC_MESSAGES/....mo, not diagnosed by debbindiff.
+

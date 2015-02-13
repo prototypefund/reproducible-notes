@@ -318,10 +318,18 @@ aptitude:
   version: 0.6.11-1
   issues:
     - timestamps_from_cpp_macros
+aptoncd:
+  version: 0.1.98+bzr117-1.4
+  issues:
+    - lc_messages_randomness
 aqsis:
   version: 1.8.2-1
   issues:
     - timestamps_from_cpp_macros
+ardour:
+  version: 2.8.16+git20131003-4
+  issues:
+    - lc_messages_randomness
 arduino:
   version: 2:1.0.5+dfsg2-4
   issues:
@@ -1335,6 +1343,10 @@ cpl:
   version: 6.5-1
   issues:
     - timestamps_from_cpp_macros
+cpm:
+  version: 0.32-1
+  issues:
+    - lc_messages_randomness
 cppreference-doc:
   version: 20140208+dfsg1-1
   bugs:
@@ -1538,6 +1550,10 @@ dash:
   version: 0.5.8-2
   bugs:
     - 774425
+davical:
+  version: 1.1.3.1-1
+  issues:
+    - lc_messages_randomness
 davix:
   version: 0.4.0-1
   issues:
@@ -1785,6 +1801,10 @@ dict-moby-thesaurus:
   version: 1.0-6.2
   bugs:
     - 776375
+diction:
+  version: 1.11-1
+  issues:
+    - lc_messages_randomness
 dietlibc:
   version: 0.33~cvs20120325-6
   issues:
@@ -2014,6 +2034,10 @@ dvdauthor:
   version: 0.7.0-1.3
   issues:
     - timestamps_generated_by_docbook_to_man
+dvdisaster:
+  version: 0.72.4-1
+  issues:
+    - lc_messages_randomness
 dwb:
   version: 20140702hg-1
   issues:
@@ -2827,6 +2851,10 @@ galax:
     /usr/share/doc/libgalax-ocaml-dev/config/Makefile.conf.gz
   issues:
     - timestamps_in_pdf_generated_by_latex
+galternatives:
+  version: 0.13.5+nmu3
+  issues:
+    - lc_messages_randomness
 gambas3:
   version: 3.5.4-2
   issues:
@@ -2956,6 +2984,10 @@ gdebi:
   version: 0.9.5.5+nmu1
   comments: |
     POT-Creation-Date has time of the build in .mo files.
+gdm3:
+  version: 3.14.1-3
+  issues:
+    - lc_messages_randomness
 gdmap:
   version: 0.8.1-3
   issues:
@@ -3250,6 +3282,14 @@ gmime:
   version: 2.6.20-1
   issues:
     - timestamps_in_pe_binaries
+gmtkbabel:
+  version: 0.1-1
+  issues:
+    - lc_messages_randomness
+gmusicbrowser:
+  version: 1.1.13~ds0-1
+  issues:
+    - lc_messages_randomness
 gnarwl:
   version: 3.6.dfsg-6.2
   comments: |
@@ -3351,6 +3391,10 @@ gnubiff:
   version: 2.2.15-4
   issues:
     - timestamps_from_cpp_macros
+gnubik:
+  version: 2.4.1-0.1
+  issues:
+    - lc_messages_randomness
 gnudatalanguage:
   version: 0.9.5-2
   issues:
@@ -3458,6 +3502,14 @@ gpgme1.0:
   comments: |
     Embed build time:
     https://sources.debian.net/src/gpgme1.0/1.5.1-6/configure.ac/?hl=264:267#L264
+gplanarity:
+  version: 17906-5
+  issues:
+    - lc_messages_randomness
+gpodder:
+  version: 3.8.1-1
+  issues:
+    - lc_messages_randomness
 gprolog:
   version: 1.3.0-6.1
   issues:
@@ -3714,6 +3766,10 @@ herculesstudio:
   version: 1.5.0-2
   issues:
     - timestamps_from_cpp_macros
+hex-a-hop:
+  version: 0.0.20070315-8
+  issues:
+    - lc_messages_randomness
 hexbox:
   version: 1.5.0-3
   issues:
@@ -3823,6 +3879,10 @@ i2util:
   version: 1.2-1
   issues:
     - timestamps_from_cpp_macros
+ibus-table:
+  version: 1.9.1-3
+  issues:
+    - lc_messages_randomness
 icedove:
   version: 31.2.0-1
   issues:
@@ -5151,11 +5211,19 @@ libpam4j:
   version: 1.4-2
   issues:
     - timestamps_in_maven_pom_files
+libparse-debianchangelog-perl:
+  version: 1.2.0-1.1
+  issues:
+    - lc_messages_randomness
 libpgm:
   version: 5.1.118-1~dfsg-1
   comments: |
     Embed build time:
     https://sources.debian.net/src/libpgm/5.1.118-1~dfsg-1/openpgm/pgm/version_generator.py/
+libphone-ui-shr:
+  version: 0.1+git20130901-3
+  issues:
+    - lc_messages_randomness
 libphysfs:
   version: 2.0.3-2
   issues:
@@ -5502,6 +5570,10 @@ livehttpheaders:
   version: 0.17-3
   issues:
     - xpi_pack_saves_extra_attributes_in_jar
+lives:
+  version: 2.2.6~ds0-1
+  issues:
+    - lc_messages_randomness
 lldpd:
   version: 0.7.11-2
   issues:
@@ -5590,6 +5662,10 @@ lsof:
   version: 4.86+dfsg-1
   bugs:
     - 762433
+ltsp:
+  version: 5.5.4-2
+  issues:
+    - lc_messages_randomness
 ltsp-docs:
   version: 1.1-1
   issues:
@@ -5890,6 +5966,10 @@ mayavi2:
     Contain .pyc files
   issues:
     - random_order_in_python_environment_pickle
+mc:
+  version: 4.8.13-3
+  issues:
+    - lc_messages_randomness
 mcl:
   version: 1:14-137-1
   issues:
@@ -5949,6 +6029,10 @@ mia:
   version: 2.2.2-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+microdc2:
+  version: 0.15.6-2
+  issues:
+    - lc_messages_randomness
 mime-support:
   version: 3.58
   issues:
@@ -6345,6 +6429,10 @@ natbraille:
   issues:
     - timestamps_in_jar
     - timestamps_in_documentation_generated_by_javadoc
+navit:
+  version: 0.5.0~svn5900+dfsg.1-1
+  issues:
+    - lc_messages_randomness
 nbc:
   version: 1.2.1.r4+dfsg-1
   comments: |
@@ -7536,6 +7624,10 @@ psocksxx:
   version: 0.0.6-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+pspp:
+  version: 0.8.4-1
+  issues:
+    - lc_messages_randomness
 pstoedit:
   version: 3.62-2
   issues:
@@ -7968,6 +8060,10 @@ quickplot:
   version: 0.10.6-1
   issues:
     - timestamps_from_cpp_macros
+quodlibet:
+  version: 3.2.2-1
+  issues:
+    - lc_messages_randomness
 qutemol:
   version: 0.4.1~cvs20081111-3.2
   issues:
@@ -8370,6 +8466,10 @@ scite:
   version: 3.5.0-1
   issues:
     - timestamps_from_cpp_macros
+scmxx:
+  version: 0.9.0-2.3
+  issues:
+    - lc_messages_randomness
 scorched3d:
   version: 43.3.d+dfsg-1.1
   issues:
@@ -8963,6 +9063,10 @@ taggrepper:
     - not_using_dh_builddeb
   bugs:
     - 777725
+tagua:
+  version: 1.0~alpha2-12
+  issues:
+    - lc_messages_randomness
 tangerine:
   version: 0.3.4-6
   issues:
@@ -9129,6 +9233,10 @@ tika:
   version: 1.5-1
   issues:
     - timestamps_in_maven_pom_files
+tilda:
+  version: 1.2.2-1
+  issues:
+    - lc_messages_randomness
 tiles:
   version: 2.2.2-5
   issues:
@@ -9483,6 +9591,10 @@ unzip:
   version: 6.0-12
   issues:
     - timestamps_from_cpp_macros
+urjtag:
+  version: 0.10+r2007-1.2
+  issues:
+    - lc_messages_randomness
 uruk:
   version: 20140627-1
   issues:
@@ -9532,6 +9644,30 @@ vdkbuilder2:
   version: 2.4.0-4.4
   issues:
     - ftbfs_missing_dependencies
+vdr-plugin-dvd:
+  version: 0.3.6~b03+cvs20090426.0013-20
+  issues:
+    - lc_messages_randomness
+vdr-plugin-epgsearch:
+  version: 1.0.1~beta3-6
+  issues:
+    - lc_messages_randomness
+vdr-plugin-remote:
+  version: 0.5.0-6
+  issues:
+    - lc_messages_randomness
+vdr-plugin-streamdev:
+  version: 0.6.1-1
+  issues:
+    - lc_messages_randomness
+vdr-plugin-sudoku:
+  version: 0.3.5-18
+  issues:
+    - lc_messages_randomness
+vdr-plugin-xineliboutput:
+  version: 1.1.0-2
+  issues:
+    - lc_messages_randomness
 venkman:
   version: 0.9.89-1
   issues:
@@ -9549,6 +9685,10 @@ verilator:
   comments: |
     Adds timestamp. Not sure if used anywhere. Patch for toggle would be rather invasive.
     http://sources.debian.net/src/verilator/3.864-1/include/verilated_vcd_c.cpp/?hl=350#L352
+veromix:
+  version: 0.18.3-1.1
+  issues:
+    - lc_messages_randomness
 videolan-doc:
   version: 20070626-1
   issues:
@@ -9717,6 +9857,10 @@ webkit-sharp:
   version: 0.3-6
   issues:
     - timestamps_in_pe_binaries
+weechat:
+  version: 1.1.1-1
+  issues:
+    - lc_messages_randomness
 welcome2l:
   version: 3.04-25
   comments: |
@@ -9864,6 +10008,10 @@ x264:
   version: 2:0.142.2431+gita5831aa-1
   issues:
     - timestamps_from_cpp_macros
+xaos:
+  version: 3.5+ds1-2
+  issues:
+    - lc_messages_randomness
 xapian-omega:
   version: 1.2.19-1
   issues:
@@ -9933,6 +10081,10 @@ xcfa:
   version: 4.3.8-1
   issues:
     - timestamps_from_cpp_macros
+xcftools:
+  version: 1.0.7-4
+  issues:
+    - lc_messages_randomness
 xd:
   version: 3.22.09-2
   issues:
