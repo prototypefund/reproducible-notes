@@ -460,6 +460,10 @@ aws-sdk-for-php:
     non-deterministic memory address. This is caused by a bug in rst2pdf.
   bugs:
     - 777251
+axis:
+  version: 1.4-22
+  issues:
+    - timestamp_in_java_bnd_manifest
 babel:
   version: 1.4.0.dfsg-8.2
   bugs:
@@ -611,6 +615,10 @@ bindechexascii:
   version: 0.0+20140524.git7dcd86-1
   issues:
     - timestamps_from_cpp_macros
+bindex:
+  version: 2.2+svn101-1
+  issues:
+    - timestamp_in_java_bnd_manifest
 binkd:
   version: 1.0.4-1
   issues:
@@ -1845,6 +1853,10 @@ dkg-handwriting:
   version: 0.15-1
   issues:
     - fontforge_reset_modification_time
+dnsjava:
+  version: 2.1.5-0.1
+  issues:
+    - timestamp_in_java_bnd_manifest
 dnsmasq:
   version: 2.72-2
   issues:
@@ -4080,6 +4092,10 @@ jadetex:
   version: 3.13-14
   issues:
     - timestamps_in_pdf_generated_by_latex
+jaffl:
+  version: 0.5.9-5
+  issues:
+    - timestamp_in_java_bnd_manifest
 jags:
   version: 3.4.0-1
   issues:
@@ -4205,6 +4221,10 @@ jetty8:
   version: 8.1.16-4
   issues:
     - timestamps_in_maven_pom_files
+jffi:
+  version: 1.0.2-11
+  issues:
+    - timestamp_in_java_bnd_manifest
 jfractionlab:
   version: 0.91-3
   issues:
@@ -4263,6 +4283,10 @@ joy2key:
   version: 1.6.3-1
   issues:
     - timestamps_from_cpp_macros
+jpathwatch:
+  version: 0.95-1
+  issues:
+    - timestamp_in_java_bnd_manifest
 jpilot:
   version: 1.8.2-1
   issues:
@@ -4271,6 +4295,7 @@ jruby:
   version: 1.5.6-9
   issues:
     - user_in_java_jar_manifest
+    - timestamp_in_java_bnd_manifest
 jruby-joni:
   version: 2.1.5-1
   issues:
@@ -4802,6 +4827,10 @@ libforms:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - randomness_in_html_generated_by_texi2html
+libfreemarker-java:
+  version: 2.3.20-4
+  issues:
+    - timestamp_in_java_bnd_manifest
 libfreenect:
   version: 1:0.2.0+dfsg-2
   issues:
@@ -4836,6 +4865,10 @@ libgnomecanvasmm2.6:
   version: 2.26.0-1.1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libgnumail-java:
+  version: 1.1.2-9
+  issues:
+    - timestamp_in_java_bnd_manifest
 libgoo-canvas-perl:
   version: 0.06-2+b1
   issues:
@@ -4953,6 +4986,10 @@ libjcommon-java:
   version: 1.0.16-4
   issues:
     - timestamps_in_jar
+libjfreechart-java:
+  version: 1.0.13-7
+  issues:
+    - timestamp_in_java_bnd_manifest
 libjgoodies-animation-java:
   version: 1.2.0-5
   issues:
@@ -8842,6 +8879,10 @@ surefire:
   version: 2.10-5
   issues:
     - timestamps_in_maven_pom_files
+svnclientadapter:
+  version: 1.10.3-2
+  issues:
+    - timestamp_in_java_bnd_manifest
 swaks:
   version: 20130209.0-3
   issues:
@@ -9790,6 +9831,10 @@ wreport:
   version: 2.14-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+wsdl4j:
+  version: 1.6.3-1
+  issues:
+    - timestamp_in_java_bnd_manifest
 wsjt:
   version: 9.7.r3639+dfsg-1
   issues:
