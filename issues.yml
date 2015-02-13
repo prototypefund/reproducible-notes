@@ -312,4 +312,6 @@ ocaml_configure_not_as_root:
 bad_handling_of_extra_warnings:
   description: |
     FTBFS if CPPFLAGS is multiple words, which breaks our CI.
-
+ftbfs_werror_equals:
+  description: |
+    FTBFS if dpkg-buildflags contains -Werror=
