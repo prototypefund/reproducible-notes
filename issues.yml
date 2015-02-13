@@ -306,3 +306,7 @@ random_order_in_dictionary_debconf_templates:
 timestamps_in_ada_library_information_files:
   description: |
     Ada Library Information (.ali) files contain the mtime of the Ada source (.ads) files that they index.
+ocaml_configure_not_as_root:
+  description: |
+    OCaml's configure script checks it's not running as root, which breaks our CI.
+
