@@ -346,6 +346,10 @@ armory:
   version: 0.92.3-1
   issues:
     - timestamps_in_source_generated_by_pyqt4_ui
+aroarfw:
+  version: 0.1~beta5-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 asc:
   version: 2.6.0.0-1
   issues:
@@ -797,6 +801,10 @@ bsl:
   version: 0.6.0-1
   issues:
     - ftbfs_missing_dependencies
+bullet:
+  version: 2.82-r2704+dfsg-2
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 bup:
   version: 0.25-1
   comments: |
@@ -849,6 +857,10 @@ calligra:
   version: 1:2.8.5+dfsg-1
   issues:
     - timestamps_from_cpp_macros
+camitk:
+  version: 3.4.0-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 camping:
   version: 2.1.580-1
   issues:
@@ -874,6 +886,10 @@ casablanca:
   version: 2.2.0-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+cassiopee:
+  version: 1.0.1+dfsg-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 castle-game-engine:
   version: 5.0.0-3
   comments: |
@@ -882,6 +898,10 @@ cbootimage:
   version: 1.4-1
   issues:
     - timestamps_generated_by_docbook_to_man
+ccfits:
+  version: 2.4+dfsg-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 ccseapps:
   version: 2.5-5
   issues:
@@ -1077,6 +1097,10 @@ cli-common:
   version: 0.9
   issues:
     - timestamps_in_pdf_generated_by_latex
+clipper:
+  version: 2.1.20130601-2
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 clirr:
   version: 0.6-5
   issues:
@@ -1161,14 +1185,38 @@ cogl:
   version: 1.18.2-3
   issues:
     - gtk_doc_api_index_full
+coin3:
+  version: 3.1.4~abc9f50-7
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 coinor-cbc:
   version: 2.8.12-1
   issues:
     - timestamps_from_cpp_macros
+coinor-cgl:
+  version: 0.58.9-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+coinor-flopc++:
+  version: 1.0.6-3.1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+coinor-ipopt:
+  version: 3.11.9-2
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+coinor-osi:
+  version: 0.106.9-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 coinor-symphony:
   version: 5.6.1-1
   issues:
     - timestamps_from_cpp_macros
+coinutils:
+  version: 2.9.15-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 coldfire:
   version: 0.2.2-2.3
   issues:
@@ -1478,6 +1526,10 @@ dash:
   version: 0.5.8-2
   bugs:
     - 774425
+davix:
+  version: 0.4.0-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 db4o:
   version: 8.0.184.15484+dfsg-2
   issues:
@@ -1530,6 +1582,10 @@ dcap:
   version: 2.47.8-2
   issues:
     - timestamps_from_cpp_macros
+deal.ii:
+  version: 8.1.0-4
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 debarchiver:
   version: 0.10.3
   comments: |
@@ -1863,6 +1919,10 @@ drumkv1:
   version: 0.5.1-1
   issues:
     - timestamps_from_cpp_macros
+dsdp:
+  version: 5.8-9.1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 dtach:
   version: 0.8-2.1
   issues:
@@ -1880,11 +1940,35 @@ dtc-xen:
     - timestamps_in_gzip_headers
   bugs:
     - 777322
+dune-common:
+  version: 2.3.1-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+dune-geometry:
+  version: 2.3.1-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 dune-grid:
   version: 2.3.1-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+dune-grid-glue:
+  version: 2.3.1-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+dune-istl:
+  version: 2.3.1-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 dune-localfunctions:
+  version: 2.3.1-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+dune-pdelab:
+  version: 2.0.0-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+dune-typetree:
   version: 2.3.1-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
@@ -1992,6 +2076,10 @@ ekg2:
   version: 1:0.4~pre+20120506.1-8
   issues:
     - timestamps_from_cpp_macros
+elektra:
+  version: 0.8.7-4
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 elfutils:
   version: 0.159-4
   issues:
@@ -2048,6 +2136,10 @@ enemylines3:
   version: 1.2-7
   issues:
     - timestamps_generated_by_docbook_to_man
+enet:
+  version: 1.3.12+ds-2
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 enigma:
   version: 1.20-dfsg.1-2
   issues:
@@ -2377,6 +2469,10 @@ festival:
   version: 1:2.1~release-8
   issues:
     - timestamps_in_dvi_generated_by_latex
+fflas-ffpack:
+  version: 1.6.0-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 ffmpeg:
   version: 7:2.4.3-1
   issues:
@@ -2560,6 +2656,10 @@ fortunes-bg:
     - not_using_dh_builddeb
   bugs:
     - 777484
+fosfat:
+  version: 0.4.0-5
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 fossil:
   version: 1:1.29-1
   issues:
@@ -2583,6 +2683,10 @@ freecdb:
     - timestamps_in_gzip_headers
   bugs:
     - 777410
+freecontact:
+  version: 1.0.21-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 freedink-dfarc:
   version: 3.12-1
   issues:
@@ -2663,6 +2767,10 @@ fsvs:
   version: 1.2.5-1
   issues:
     - timestamps_from_cpp_macros
+ftgl:
+  version: 2.1.3~rc5-4+nmu1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 ftjam:
   version: 2.5.2-1.1
   issues:
@@ -2928,6 +3036,10 @@ gio-sharp:
   version: 2.22.3-2
   issues:
     - timestamps_in_pe_binaries
+girara:
+  version: 0.2.3-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 git:
   version: 1:2.1.4-2
   comments: |
@@ -3102,6 +3214,10 @@ glyr:
   version: 1.0.6+git20140423-1
   issues:
     - timestamps_from_cpp_macros
+gmerlin-avdecoder:
+  version: 1.2.0~dfsg-5
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 gmetric4j:
   version: 1.0.6-2
   issues:
@@ -3458,6 +3574,10 @@ gtkpod:
   version: 2.1.4-4
   issues:
     - timestamps_from_cpp_macros
+gtkspellmm:
+  version: 3.0.3+dfsg-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 guacamole:
   version: 0.6.0-1
   issues:
@@ -3508,6 +3628,10 @@ gwhere:
   version: 0.2.3.dfsg.1-4
   issues:
     - ftbfs_missing_dependencies
+gyoto:
+  version: 0.2.3-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 hachoir-metadata:
   version: 1.3.3-2
   issues:
@@ -3532,6 +3656,10 @@ havp:
   version: 0.92a-3
   issues:
     - timestamps_generated_by_docbook_to_man
+hdf5:
+  version: 1.8.13+docs-15
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 heartbeat:
   version: 1:3.0.5+hg12629-1.2
   issues:
@@ -3703,6 +3831,10 @@ icu4j:
   version: 4.2.1.1-3
   comments: |
     Timestamp in generated code comment
+id3lib3.8.3:
+  version: 3.8.3-16
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 idm-console-framework:
   version: 1.1.7-2
   issues:
@@ -3770,6 +3902,10 @@ ino-headers:
   comments: |
     `/usr/share/doc/ino-headers/html/javascript/searchdata.js` in not
     written in a stable order.
+inotify-tools:
+  version: 3.14-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 insighttoolkit:
   version: 3.20.1+git20120521-5
   issues:
@@ -4356,6 +4492,10 @@ leveldb-sharp:
   version: 1.9.1-1
   issues:
     - timestamps_in_pe_binaries
+lhapdf:
+  version: 5.9.1-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 libalien-sdl-perl:
   version: 1.444-1
   issues:
@@ -4384,6 +4524,10 @@ libappindicator:
   version: 0.4.92-3.1
   issues:
     - timestamps_in_pe_binaries
+libaqbanking:
+  version: 5.4.3beta-2
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 libaria:
   version: 2.8.0+repack-1
   issues:
@@ -4408,8 +4552,16 @@ libb-hooks-op-check-entersubforcv-perl:
   version: 0.09-3
   issues:
     - random_order_in_files_generated_by_extutils_depends
+libbash:
+  version: 0.9.11-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 libbluray:
   version: 0.6.2-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+libbuffy:
+  version: 1.9.2-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
 libburn:
@@ -4448,6 +4600,10 @@ libcitygml:
   version: 0.14+svn134-2+3p2p1
   issues:
     - timestamps_from_cpp_macros
+libclaw:
+  version: 1.7.3-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 libcolor-calc-perl:
   version: 1.074-1
   issues:
@@ -4558,12 +4714,20 @@ libept:
   version: 1.0.12.1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libevhtp:
+  version: 1.2.9-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 libewf:
   version: 20140608-2
   issues:
     - timestamps_from_cpp_macros
 libexif:
   version: 0.6.21-2
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+libexosip2:
+  version: 4.1.0-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
 libf2c2:
@@ -4632,6 +4796,10 @@ libgnome2-perl:
   version: 1.045-1+b1
   issues:
     - randomness_in_glib_signals_in_generated_perl_pod_files
+libgnomecanvasmm2.6:
+  version: 2.26.0-1.1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 libgoo-canvas-perl:
   version: 0.06-2+b1
   issues:
@@ -4680,6 +4848,10 @@ libhibernate-validator-java:
   version: 4.0.2.GA-8
   issues:
     - timestamps_in_maven_pom_files
+libhmsbeagle:
+  version: 2.1.2-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 libident:
   version: 0.22-3
   issues:
@@ -4689,6 +4861,10 @@ libindicate:
   version: 0.6.92-2
   issues:
     - timestamps_in_pe_binaries
+libisoburn:
+  version: 1.3.2-1.1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 libisofs:
   version: 1.3.2-1.1
   issues:
@@ -4697,6 +4873,10 @@ libitext5-java:
   version: 5.5.3-2
   issues:
     - timestamps_in_maven_pom_files
+libitpp:
+  version: 4.3.1-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 libjackson-json-java:
   version: 1.9.2-3
   issues:
@@ -4756,6 +4936,10 @@ liblip:
   version: 2.0.0-1.2
   issues:
     - not_using_dh_builddeb
+liblo:
+  version: 0.28-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 liblockfile:
   version: 1.09-6
   issues:
@@ -4779,6 +4963,10 @@ libmarpa-r2-perl:
   version: 2.086000~dfsg-3
   issues:
     - timestamps_from_cpp_macros
+libmatchbox:
+  version: 1.9-osso8-3.1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 libmath++:
   version: 0.0.4-5
   issues:
@@ -4805,6 +4993,10 @@ libmoe:
   version: 1.5.8-1
   issues:
     - timestamps_in_gzip_headers
+libmongo-client:
+  version: 0.1.8-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 libmpdclient:
   version: 2.9-1
   issues:
@@ -4825,6 +5017,10 @@ libmusicbrainz3:
     - timestamps_in_documentation_generated_by_doxygen
 libmusicbrainz5:
   version: 5.1.0-2
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+libmwaw:
+  version: 0.3.1-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
 libnanoxml2-java:
@@ -4870,11 +5066,19 @@ libpgm:
   comments: |
     Embed build time:
     https://sources.debian.net/src/libpgm/5.1.118-1~dfsg-1/openpgm/pgm/version_generator.py/
+libphysfs:
+  version: 2.0.3-2
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 libpixels-java:
   version: 2.1.3+svn.42-2
   issues:
     - timestamps_in_jar
     - timestamps_in_documentation_generated_by_javadoc
+libplayer:
+  version: 2.0.1-2.4
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 libplist:
   version: 1.11-3
   issues:
@@ -4922,6 +5126,10 @@ librcc:
   version: 0.2.12-0.1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+librcsb-core-wrapper:
+  version: 1.005-2
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 librecad:
   version: 2.0.4-1
   issues:
@@ -4934,6 +5142,14 @@ librest:
   version: 0.7.92-2
   issues:
     - broken_libicu_dev
+librostlab:
+  version: 1.0.20-4
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+librostlab-blast:
+  version: 1.0.1-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 libsbml:
   version: 5.10.0+dfsg-1
   issues:
@@ -5160,6 +5376,10 @@ lighttpd:
   version: 1.4.35-4
   issues:
     - timestamps_from_cpp_macros
+linbox:
+  version: 1.3.2-1.1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 links2:
   version: 2.8-2
   issues:
@@ -5295,10 +5515,18 @@ luasseq:
   version: 2.1-6
   issues:
     - timestamps_in_pdf_generated_by_latex
+lvtk:
+  version: 1.2.0~dfsg0-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 lwatch:
   version: 0.6.2-1
   issues:
     - timestamps_generated_by_docbook_to_man
+lxc:
+  version: 1.0.6-6
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 lynx-cur:
   version: 2.8.9dev1-2
   issues:
@@ -5384,6 +5612,10 @@ maitreya:
   version: 7.0.7-1
   issues:
     - timestamps_from_cpp_macros
+makehuman:
+  version: 1.0.0~alpha6-5
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 makejail:
   version: 0.0.5-10
   issues:
@@ -5394,6 +5626,10 @@ makepp:
     - timestamps_in_gzip_headers
   bugs:
     - 777407
+maloc:
+  version: 0.2-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 man-db:
   version: 2.7.0.2-5
   issues:
@@ -6169,6 +6405,10 @@ nicovideo-dl:
   version: 0.0.20120212-2
   issues:
     - timestamps_generated_by_docbook_to_man
+nifticlib:
+  version: 2.0.0-2
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 ninix-aya:
   version: 4.4-1
   issues:
@@ -6415,6 +6655,10 @@ offlineimap:
   version: 6.5.5-0.1
   issues:
     - randomness_in_documentation_generated_by_sphinx
+ohcount:
+  version: 3.0.0-8
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 oidua:
   version: 0.16.1-7
   issues:
@@ -6469,6 +6713,10 @@ open-cobol:
     Does not use dpkg-buildflags.
   issues:
     - timestamps_from_cpp_macros
+open-vm-tools:
+  version: 9.4.6-1770165-7
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 openafs:
   version: 1.6.10-4
   comments: |
@@ -6545,6 +6793,10 @@ openmpi:
   version: 1.6.5-9.2
   issues:
     - timestamps_from_cpp_macros
+openmprtl:
+  version: 0.20140926-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 openms:
   version: 1.11.1-5
   issues:
@@ -6645,6 +6897,10 @@ original-awk:
     - not_using_dh_builddeb
   bugs:
     - 778203
+orthanc:
+  version: 0.8.4+dfsg-2
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 osmo:
   version: 0.2.12-1
   issues:
@@ -7056,6 +7312,10 @@ pocketsphinx:
   issues:
     - timestamps_in_documentation_generated_by_doxygen
     - timestamps_from_cpp_macros
+polybori:
+  version: 0.8.3-4
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 polygen:
   version: 1.0.6.ds2-13
   comments: |
@@ -7147,6 +7407,10 @@ proftpd-dfsg:
     Embed build time in /usr/include/proftpd/buildstamp.h (sic)
   issues:
     - timestamps_in_static_libraries
+proj:
+  version: 4.8.0-5
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 proll:
   version: 18-6
   issues:
@@ -7174,6 +7438,10 @@ pslib:
   version: 0.4.5-3
   issues:
     - timestamps_generated_by_docbook_to_man
+psocksxx:
+  version: 0.0.6-2
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 pstoedit:
   version: 3.62-2
   issues:
@@ -7496,6 +7764,10 @@ qdbm:
   version: 1.8.78-5
   issues:
     - timestamps_in_jar
+qdjango:
+  version: 0.5.0-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 qdox:
   version: 1.12-1
   issues:
@@ -7537,6 +7809,10 @@ qmidinet:
   version: 0.2.0-1
   issues:
     - timestamps_from_cpp_macros
+qof:
+  version: 0.8.8-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 qpid-proton:
   version: 0.7-2
   issues:
@@ -7549,10 +7825,18 @@ qsampler:
   version: 0.2.2-5
   issues:
     - timestamps_from_cpp_macros
+qsapecng:
+  version: 2.0.0-5
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 qsynth:
   version: 0.3.8-1
   issues:
     - timestamps_from_cpp_macros
+qt-gstreamer:
+  version: 0.10.2-2.1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 qtbase-opensource-src:
   version: 5.3.2+dfsg-4
   issues:
@@ -7644,6 +7928,10 @@ ratpoison:
   version: 1.4.8-1
   issues:
     - timestamps_from_cpp_macros
+raul:
+  version: 0.8.0+dfsg0-0.1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 rbootd:
   version: 2.0-10
   issues:
@@ -7655,6 +7943,10 @@ rdflib:
   version: 4.1.2-3
   issues:
     - randomness_in_documentation_generated_by_sphinx
+readosm:
+  version: 1.0.0b+dfsg1-2
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 refpolicy:
   version: 2:2.20140421-7
   issues:
@@ -7699,6 +7991,10 @@ ripmime:
   comments: |
     Embed build timestamp, hostname and kernel version:
     https://sources.debian.net/src/ripmime/1.4.0.10.debian.1-1/generate-buildcodes.sh/
+rivet:
+  version: 1.8.3-1.1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 rlpr:
   version: 2.05-4
   issues:
@@ -7750,6 +8046,10 @@ rsbackup:
     - not_using_dh_builddeb
   bugs:
     - 777394
+rsskit:
+  version: 0.4-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 rsync:
   version: 3.1.1-2
   issues:
@@ -7956,6 +8256,10 @@ schism:
   version: 2:0+20110101-1
   issues:
     - timestamps_from_cpp_macros
+schroot:
+  version: 1.6.10-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 scidavis:
   version: 1.D8-1
   issues:
@@ -8442,6 +8746,10 @@ stsci.distutils:
   version: 0.3.7-1
   comments: |
     Embed build time in `stsci/distutils/version.py`.
+stx-btree:
+  version: 0.9-1.1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 styx:
   version: 2.0.1-1
   issues:
@@ -9143,6 +9451,10 @@ videolan-doc:
   version: 20070626-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+viennacl:
+  version: 1.5.2-2
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 vifm:
   version: 0.7.8-3
   issues:
