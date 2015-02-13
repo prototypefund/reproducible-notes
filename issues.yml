@@ -329,4 +329,6 @@ broken_libicu_dev:
 port_8080_in_use:
   description: |
     FTBFS trying to bind to port 8080, which is in-use on jenkins (?), breaking CI.
-
+ftbfs_missing_dependencies:
+  description: |
+    Package has missing dependencies in sid, a proper FTBFS bug is almost certainly necessary.
