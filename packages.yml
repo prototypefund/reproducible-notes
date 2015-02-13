@@ -452,6 +452,10 @@ aws-sdk-for-php:
     non-deterministic memory address. This is caused by a bug in rst2pdf.
   bugs:
     - 777251
+babel:
+  version: 1.4.0.dfsg-8.2
+  bugs:
+    - 759848
 babiloo:
   version: 2.0.11-1
   issues:
@@ -4960,6 +4964,10 @@ libtool:
   issues:
     - timestamps_in_gzip_headers
     - timestamps_in_tarball
+libtruth-java:
+  version: 0.7.0-1
+  bugs:
+    - 761544
 libuninum:
   version: 2.7-1.1
   issues:
@@ -8012,6 +8020,12 @@ slime:
   issues:
     - timestamps_in_dvi_generated_by_latex
     - timestamps_in_pdf_generated_by_latex
+slof:
+  version: 20140630+dfsg-1
+  comments: |
+    Must be built on PowerPC.
+  issues:
+    - blacklisted_on_jenkins
 slrn:
   version: 1.0.2-2
   issues:
