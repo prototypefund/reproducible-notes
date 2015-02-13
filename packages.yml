@@ -4329,6 +4329,10 @@ jnr-netdb:
   version: 1.0.3-3
   issues:
     - timestamps_in_maven_pom_files
+jodconverter:
+  version: 2.2.2-7
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 jodconverter-cli:
   version: 2.2.2-8
   issues:
@@ -8354,6 +8358,10 @@ roarplaylistd:
   comments: |
     Embed build time:
     http://codesearch.debian.net/search?q=package%3Aroarplaylistd+BUILD_STAMP
+robocode:
+  version: 1.6.2+dfsg2-1
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 robojournal:
   version: 0.5-1
   issues:
