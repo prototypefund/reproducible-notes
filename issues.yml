@@ -322,3 +322,8 @@ ftbfs_pbuilder_malformed_dsc:
 ftbfs_pbuilder_depends_indep:
   description: |
     Package FTBFS in pbuilder due to Build-Depends_Indep (??).
+broken_libicu_dev:
+  description: |
+    FTBFS due to bug in libxml2-dev, now fixed.
+  url: https://bugs.debian.org/776741
+
