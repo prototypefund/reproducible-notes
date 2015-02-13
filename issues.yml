@@ -309,4 +309,7 @@ timestamps_in_ada_library_information_files:
 ocaml_configure_not_as_root:
   description: |
     OCaml's configure script checks it's not running as root, which breaks our CI.
+bad_handling_of_extra_warnings:
+  description: |
+    FTBFS if CPPFLAGS is multiple words, which breaks our CI.
 
