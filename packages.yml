@@ -4935,6 +4935,10 @@ libterm-size-perl-perl:
     /usr/share/perl5/Term/Size/Perl/Params.pm
   bugs:
     - 778270
+libtest-http-server-simple-stashwarnings-perl:
+  version: 0.04-2
+  issues:
+    - port_8080_in_use
 libthai:
   version: 0.1.21-1
   issues:
@@ -7664,6 +7668,10 @@ ruby-em-hiredis:
   version: 0.2.1-2.1
   issues:
     - timestamps_in_ruby_documentation
+ruby-em-socksify:
+  version: 0.3.0-1
+  issues:
+    - port_8080_in_use
 ruby-expression-parser:
   version: 0.9.1-2
   issues:
@@ -7676,6 +7684,10 @@ ruby-haml:
   version: 4.0.5-2
   issues:
     - timestamps_in_documentation_generated_by_yard
+ruby-http:
+  version: 0.6.1-1
+  issues:
+    - port_8080_in_use
 ruby-http-parser.rb:
   version: 0.6.0-2
   issues:
@@ -8134,6 +8146,10 @@ spandsp:
   version: 0.0.6-2.1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+spark:
+  version: 2012.0.deb-9
+  issues:
+    - bad_handling_of_extra_warnings
 sparkleshare:
   version: 1.2-0.1
   issues:
@@ -8630,6 +8646,10 @@ tomcat6:
   issues:
     - timestamps_in_documentation_generated_by_javadoc
     - timestamps_in_jar
+tomcat7:
+  version: 7.0.56-1
+  issues:
+    - port_8080_in_use
 tomcat8:
   version: 8.0.14-1
   issues:
@@ -9473,6 +9493,10 @@ xmlgraphics-commons:
   comments: |
     The build script adds a custom 'Build-Id' header including a
     timestamp, the hostname, etc. to MANIFEST.MF files.
+xmlrpc-c:
+  version: 1.33.14-0.2
+  issues:
+    - port_8080_in_use
 xmlstreambuffer:
   version: 1.5.1-1
   issues:

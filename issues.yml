@@ -326,4 +326,7 @@ broken_libicu_dev:
   description: |
     FTBFS due to bug in libxml2-dev, now fixed.
   url: https://bugs.debian.org/776741
+port_8080_in_use:
+  description: |
+    FTBFS trying to bind to port 8080, which is in-use on jenkins (?), breaking CI.
 
