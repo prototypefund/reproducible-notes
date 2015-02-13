@@ -1,3 +1,7 @@
+0ad:
+  version: 0.0.17-1
+  issues:
+    - timestamps_from_cpp_macros
 !!str 0xffff:
   version: 0.6-1
   issues:
@@ -1117,6 +1121,10 @@ cogl:
   version: 1.18.2-3
   issues:
     - gtk_doc_api_index_full
+coinor-cbc:
+  version: 2.8.12-1
+  issues:
+    - timestamps_from_cpp_macros
 coinor-symphony:
   version: 5.6.1-1
   issues:
@@ -1223,6 +1231,10 @@ cpio:
   version: 2.11+dfsg-4
   bugs:
     - 774426
+cpl:
+  version: 6.5-1
+  issues:
+    - timestamps_from_cpp_macros
 cppreference-doc:
   version: 20140208+dfsg1-1
   bugs:
@@ -5015,6 +5027,10 @@ lordsawar:
     tarball with .lwa extension, and this tarball captures file mtime
   issues:
     - timestamps_in_tarball
+lpc21isp:
+  version: 1.97-1
+  issues:
+    - timestamps_from_cpp_macros
 lpe:
   version: 1.2.7-2
   issues:
@@ -6100,6 +6116,10 @@ openais:
   version: 1.1.4-4.2
   issues:
     - timestamps_in_documentation_generated_by_groff
+openarena:
+  version: 0.8.8-9
+  issues:
+    - timestamps_from_cpp_macros
 openbabel:
   version: 2.3.2+dfsg-2
   issues:
@@ -6182,6 +6202,10 @@ opensaml2:
   version: 2.5.3-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+openscad:
+  version: 2014.03+dfsg-1
+  issues:
+    - timestamps_from_cpp_macros
 openscenegraph:
   version: 3.2.1-5
   issues:
@@ -7511,6 +7535,10 @@ scotch:
     - timestamps_in_gzip_headers
 scummvm:
   version: 1.7.0+dfsg-1
+  issues:
+    - timestamps_from_cpp_macros
+sdcc:
+  version: 3.4.0+dfsg-2
   issues:
     - timestamps_from_cpp_macros
 sdlbasic:
