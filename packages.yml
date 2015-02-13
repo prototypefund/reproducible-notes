@@ -428,6 +428,10 @@ avarice:
   version: 2.11-1.1
   issues:
     - timestamps_from_cpp_macros
+avfs:
+  version: 1.0.1-2
+  issues:
+    - bad_handling_of_extra_warnings
 avis:
   version: 1.2.2-4
   comments: |
@@ -8286,6 +8290,10 @@ subliminal:
   version: 0.7.4-1
   bugs:
     - 773381
+subversion:
+  version: 1.8.10-5
+  issues:
+    - ftbfs_werror_equals
 subvertpy:
   version: 0.9.1-7
   issues:
@@ -8869,6 +8877,10 @@ unar:
   version: 1.8.1-3
   issues:
     - timestamps_from_cpp_macros
+unbound:
+  version: 1.4.22-3
+  issues:
+    - ftbfs_werror_equals
 uni2ascii:
   version: 4.18-2
   issues:
@@ -9229,6 +9241,10 @@ wreport:
   version: 2.14-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+wsjt:
+  version: 9.7.r3639+dfsg-1
+  issues:
+    - ftbfs_werror_equals
 wss4j:
   version: 1.6.15-1
   issues:
@@ -9315,6 +9331,10 @@ xbs:
     - not_using_dh_builddeb
   bugs:
     - 777007
+xca:
+  version: 1.0.0-2
+  issues:
+    - bad_handling_of_extra_warnings
 xcfa:
   version: 4.3.8-1
   issues:
@@ -9406,6 +9426,10 @@ xfonts-terminus:
     - timestamps_in_gzip_headers
   bugs:
     - 778229
+xindy:
+  version: 2.4-1.3
+  issues:
+    - bad_handling_of_extra_warnings
 xiphos:
   version: 3.2.2+dfsg1-1
   issues:
