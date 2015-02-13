@@ -319,4 +319,6 @@ ftbfs_pbuilder_malformed_dsc:
   description: |
     Package FTBFS in pbuilder due to a malformed .dsc, breaking CI.
   url: https://bugs.debian.org/741617
-
+ftbfs_pbuilder_depends_indep:
+  description: |
+    Package FTBFS in pbuilder due to Build-Depends_Indep (??).
