@@ -678,6 +678,10 @@ blockdiag:
   version: 1.4.7-1
   issues:
     - timestamps_from_cpp_macros
+blockfinder:
+  version: 3.14159-1
+  issues:
+    - ftbfs_in_pbuilder
 blosxom:
   version: 2.1.2-1
   issues:
@@ -3181,6 +3185,10 @@ gogoc:
   version: 1:1.2-5
   issues:
     - timestamps_from_cpp_macros
+golang-xmpp-dev:
+  version: 0.0~git20140304-1
+  issues:
+    - ftbfs_in_pbuilder
 goldencheetah:
   version: 3.1.0-1
   issues:
@@ -5970,6 +5978,10 @@ notify-sharp:
   version: 0.4.0~r3032-7
   issues:
     - timestamps_in_pe_binaries
+novena-eeprom:
+  version: 1.0-1
+  issues:
+    - ftbfs_in_pbuilder
 nqc:
   version: 3.1.r6-2
   issues:
