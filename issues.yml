@@ -335,4 +335,7 @@ ftbfs_missing_dependencies:
 lc_messages_randomness:
   description: |
     Some unknown variation in LC_MESSAGES/....mo, not diagnosed by debbindiff.
+timestamps_in_octave_doc_cache:
+  description: |
+    Octave insterts the build time, user and hostname into the doc-cache.
 
