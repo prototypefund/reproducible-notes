@@ -681,7 +681,7 @@ blockdiag:
 blockfinder:
   version: 3.14159-1
   issues:
-    - ftbfs_in_pbuilder
+    - ftbfs_pbuilder_malformed_dsc
 blosxom:
   version: 2.1.2-1
   issues:
@@ -3188,7 +3188,7 @@ gogoc:
 golang-xmpp-dev:
   version: 0.0~git20140304-1
   issues:
-    - ftbfs_in_pbuilder
+    - ftbfs_pbuilder_malformed_dsc
 goldencheetah:
   version: 3.1.0-1
   issues:
@@ -5981,7 +5981,7 @@ notify-sharp:
 novena-eeprom:
   version: 1.0-1
   issues:
-    - ftbfs_in_pbuilder
+    - ftbfs_pbuilder_malformed_dsc
 nqc:
   version: 3.1.r6-2
   issues:

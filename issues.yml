@@ -315,6 +315,8 @@ bad_handling_of_extra_warnings:
 ftbfs_werror_equals:
   description: |
     FTBFS if dpkg-buildflags contains -Werror=
-ftbfs_in_pbuilder:
+ftbfs_pbuilder_malformed_dsc:
   description: |
-    Package FTBFS in pbuilder, breaking CI.  e.g. https://bugs.debian.org/741617
+    Package FTBFS in pbuilder due to a malformed .dsc, breaking CI.
+  url: https://bugs.debian.org/741617
+
