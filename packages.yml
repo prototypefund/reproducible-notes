@@ -5200,6 +5200,8 @@ liblscp:
     - timestamps_from_cpp_macros
 libmarc-charset-perl:
   version: 1.35-1
+  comments: |
+    usr/lib/libmarc-charset-perl/Table is a large DBM file.
   issues:
     - debbindiff_runs_forever
 libmarpa-r2-perl:
