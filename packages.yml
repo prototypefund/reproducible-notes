@@ -7842,6 +7842,10 @@ postgis:
   version: 2.1.4+dfsg-2
   issues:
     - timestamps_in_maven_pom_files
+postgres-xc:
+  version: 1.1-2
+  bugs:
+    - 733367
 powerline:
   version: 1.2-2
   issues:
@@ -9945,6 +9949,10 @@ varnish:
     Modules contain a random `file_id`:
     https://sources.debian.net/src/varnish/4.0.2-1/lib/libvcc/vmodtool.py/?hl=237:244#L237
     Should discuss with upstream on replacing this with a constant hash.
+varnish-agent:
+  version: 2.2~git20130708-1
+  bugs:
+    - 725597
 vdk2:
   version: 2.4.0-5.3
   issues:
