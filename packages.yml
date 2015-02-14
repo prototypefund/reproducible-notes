@@ -1424,6 +1424,10 @@ crrcsim:
   version: 0.9.12-6.1
   issues:
     - timestamps_from_cpp_macros
+crystalspace:
+  version: 2.0+dfsg-2
+  bugs:
+    - 765157
 csound:
   version: 1:6.03.2~dfsg-1
   issues:
@@ -1748,6 +1752,10 @@ device3dfx:
     - timestamps_in_tarball
   bugs:
     - 778213
+devtodo:
+  version: 0.1.20-6
+  bugs:
+    - 723964
 dff:
   version: 1.3.0+dfsg.1-4.1
   issues:
@@ -2403,6 +2411,10 @@ expat:
   version: 2.1.0-6
   issues:
     - timestamps_generated_by_docbook_to_man
+expeyes:
+  version: 3.3.2-1
+  issues:
+    - ftbfs_werror_equals
 extremetuxracer:
   version: 0.4-6
   issues:
@@ -3782,6 +3794,10 @@ hardlink:
   version: 0.3.0
   issues:
     - timestamps_from_cpp_macros
+haskell-hscurses:
+  version: 1.4.2.0-1
+  comments: |
+    FTBFS in unstable: depends on package in experimental.  BTS hates me.
 haskell-mode:
   version: 13.10-3
   issues:
@@ -3929,6 +3945,10 @@ hybserv:
   version: 1.9.5-1
   issues:
     - timestamps_from_cpp_macros
+hyde:
+  version: 0.8.5a1-4
+  issues:
+    - needs_internet_access_to_build
 hyena:
   version: 0.5-3
   issues:
@@ -4031,6 +4051,10 @@ incron:
   version: 0.5.10-2
   issues:
     - timestamps_from_cpp_macros
+indicator-messages:
+  version: 0.6.0-1.1
+  bugs:
+    - 741798
 infiniband-diags:
   version: 1.6.4-3
   issues:
@@ -6416,6 +6440,10 @@ mozjs24:
   version: 24.2.0-2
   issues:
     - timestamps_from_cpp_macros
+mp3splt-gtk:
+  version: 0.7.2-2
+  bugs:
+    - 759888
 mpack:
   version: 1.6-8
   issues:
@@ -8119,6 +8147,10 @@ python-demgengeo:
   version: 1.0-2
   issues:
     - use_epydoc
+python-django:
+  version: 1.7.4-1
+  issues:
+    - needs_internet_access_to_build
 python-django-bootstrap-form:
   version: 3.1.0-5
   issues:
