@@ -338,4 +338,8 @@ lc_messages_randomness:
 timestamps_in_octave_doc_cache:
   description: |
     Octave insterts the build time, user and hostname into the doc-cache.
+ftbfs_jenkins_squid:
+  description: |
+    Attempts to connect to somewhere, and hits a machine claiming to be squid on jenkins.d.n.
+    Also hit for jobs that try to connect to localhost (9129?).
 
