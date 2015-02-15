@@ -3850,8 +3850,8 @@ hardlink:
     - timestamps_from_cpp_macros
 haskell-hscurses:
   version: 1.4.2.0-1
-  comments: |
-    FTBFS in unstable: depends on package in experimental.  BTS hates me.
+  bugs:
+    - 778421
 haskell-mode:
   version: 13.10-3
   issues:
