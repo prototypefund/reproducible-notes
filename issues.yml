@@ -352,4 +352,7 @@ fonts_in_pdf_files:
   description: |
     The internally used names/identifiers of fonts embedded into PDF files varies.
     The order of embedded fonts can also be different.
-
+timestamps_in_groovy_class_files:
+  description: |
+    groovyc includes timestamps in class files.
+  url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInClassFilesCompiledByGroovy
