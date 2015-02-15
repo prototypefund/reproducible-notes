@@ -127,6 +127,12 @@ alembic:
   version: 0.6.5+ds-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
+alienblaster:
+  version: 1.1.0-8
+  issues:
+    - timestamps_in_png
+  bugs:
+    - 778479
 allegro4.4:
   version: 2:4.4.2-5
   issues:
@@ -3094,6 +3100,10 @@ gdmap:
   version: 0.8.1-3
   issues:
     - broken_libicu_dev
+gdnsd:
+  version: 2.1.0-1
+  issues:
+    - timestamps_in_documentation_generated_by_podman
 geany:
   version: 1.24.1+dfsg-1
   issues:
@@ -3174,6 +3184,12 @@ gfm:
   version: 1.07-1
   issues:
     - timestamps_from_cpp_macros
+gfpoken:
+  version: 1-2
+  comments: |
+    Most of the PNG files are created with Gimp in art/mktiles.
+  issues:
+    - timestamps_in_png
 gfs2-utils:
   version: 3.1.3-1.1
   issues:
@@ -3226,6 +3242,10 @@ git-dpm:
   issues:
     - timestamps_in_documentation_generated_by_groff
     - pdf_created_by_ghostscript
+gitmagic:
+  version: 20140125-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 gitolite:
   version: 2.3-1
   issues:
@@ -4029,6 +4049,10 @@ icedove:
   version: 31.2.0-1
   issues:
     - timestamps_from_cpp_macros
+icedove-l10n:
+  version: 31.4.0-1
+  issues:
+    - xpi_pack_saves_extra_attributes_in_jar
 icedtea-web:
   version: 1.5.2-1
   issues:
@@ -4218,6 +4242,10 @@ ironic:
   version: 2014.1-10
   comments: |
     Timestamps in HTML documentation.
+irrlicht:
+  version: 1.8.1+dfsg1-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 irsim:
   version: 9.7.87-1
   comments: |
@@ -4527,6 +4555,10 @@ joe:
     - not_using_dh_builddeb
   bugs:
     - 777726
+josm:
+  version: 0.0.svn7643+dfsg1-1
+  comments: |
+    Timestamp of build date in file inside jar.
 josql:
   version: 2.2-1
   issues:
@@ -5558,6 +5590,10 @@ libsdl2:
   version: 2.0.2+dfsg1-6
   bugs:
     - 777186
+libsdl2-gfx:
+  version: 1.0.1+dfsg-1
+  issues:
+    - users_and_groups_in_tarball
 libshevek:
   version: 1.4-1
   issues:
@@ -6395,6 +6431,10 @@ moc:
   version: 1:2.5.0-1
   issues:
     - timestamps_from_cpp_macros
+mochiweb:
+  version: 2.9.2-1
+  issues:
+    - timestamps_in_beam_files
 mockito:
   version: 1.9.5+ds-2
   issues:
@@ -6547,7 +6587,7 @@ mpfr4:
 mpich:
   version: 3.1-5
   issues:
-    - fontnames_in_pdf_files
+    - fonts_in_pdf_files
 mpqc:
   version: 2.3.1-16
   issues:
@@ -7353,6 +7393,14 @@ openarena:
   version: 0.8.8-9
   issues:
     - timestamps_from_cpp_macros
+openarena-085-data:
+  version: 0.8.5split-3
+  issues:
+    - timestamps_in_zip
+openarena-misc:
+  version: 0.8.5split-3
+  issues:
+    - timestamps_in_zip
 openbabel:
   version: 2.3.2+dfsg-2
   issues:
@@ -8046,6 +8094,12 @@ prboom-plus:
   version: 2:2.5.1.4~svn4403+dfsg1-1
   issues:
     - timestamps_from_cpp_macros
+primrose:
+  version: 6+dfsg1-3
+  issues:
+    - timestamps_in_png
+  bugs:
+    - 778481
 privoxy:
   version: 3.0.21-5
   issues:
@@ -8208,6 +8262,10 @@ pyntor:
     - timestamps_in_gzip_headers
   bugs:
     - 777488
+pyotherside:
+  version: 1.2.0-1
+  issues:
+    - randomness_in_documentation_generated_by_sphinx
 pyptlib:
   version: 0.0.6-1
   issues:
@@ -8418,6 +8476,10 @@ pytone:
   version: 3.0.0-1
   issues:
     - unsorted_filelist_python_support_private
+pyx:
+  version: 0.12.1-3
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 pyxb:
   version: 1.2.4+dfsg-1
   issues:
@@ -8926,6 +8988,10 @@ sawfish:
   issues:
     - timestamps_in_gzip_headers
     - timestamps_in_static_libraries
+sbuild:
+  version: 0.65.0-1
+  bugs:
+    - 778482
 scala-mode-el:
   version: 20111005-2.1
   issues:
@@ -9364,6 +9430,10 @@ springlobby:
   version: 0.201-1
   issues:
     - timestamps_from_cpp_macros
+sqlalchemy:
+  version: 0.9.8+dfsg-0.1
+  issues:
+    - randomness_in_documentation_generated_by_sphinx
 sqljet:
   version: 1.1.10-1
   issues:
@@ -9460,6 +9530,10 @@ subliminal:
   version: 0.7.4-1
   bugs:
     - 773381
+substance:
+  version: 5.3-3
+  issues:
+    - timestamp_in_java_bnd_manifest
 subversion:
   version: 1.8.10-5
   issues:
@@ -10422,6 +10496,12 @@ wine-gecko-2.24:
   version: 2.24+dfsg-1
   issues:
     - debbindiff_runs_forever
+winff:
+  version: 1.5.3-4
+  comments: |
+    PDF files are converted with libreoffice from odt files.
+  issues:
+    - fonts_in_pdf_files
 wings3d:
   version: 1.5.3-2
   issues:
@@ -10524,6 +10604,10 @@ x11proto-core:
   version: 7.0.26-1
   issues:
     - timestamps_in_pdf_generated_by_apache_fop
+x11vnc:
+  version: 0.9.13-1.2
+  comments: |
+    Signature META-INF/SWKEY.DSA in jar files differs.
 x264:
   version: 2:0.142.2431+gita5831aa-1
   issues:
@@ -10615,6 +10699,13 @@ xdotool:
   version: 1:3.20140805.1-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+xen:
+  version: 4.4.1-6
+  comments: |
+    There is also a small difference in a binary.
+  issues:
+    - timestamps_in_pe_binaries
+    - timestamps_in_gzip_headers
 xfaces:
   version: 3.3-28
   issues:

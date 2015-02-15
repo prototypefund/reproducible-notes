@@ -348,7 +348,8 @@ timestamps_in_manpage_generated_by_help2man:
   description: |
     Manpages generated with help2man embed the month and year by default.
     This is currently not detected by jenkins.
-fontnames_in_pdf_files:
+fonts_in_pdf_files:
   description: |
     The internally used names/identifiers of fonts embedded into PDF files varies.
+    The order of embedded fonts can also be different.
 
