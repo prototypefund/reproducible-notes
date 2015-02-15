@@ -343,4 +343,11 @@ ftbfs_jenkins_squid:
     Attempts to connect to somewhere, and hits a machine claiming to be squid on jenkins.d.n.
     Also hit for jobs that try to connect to localhost (9129?).
     Maybe the same as needs_internet_access_to_build.
+timestamps_in_manpage_generated_by_help2man:
+  description: |
+    Manpages generated with help2man embed the month and year by default.
+    This is currently not detected by jenkins.
+fontnames_in_pdf_files:
+  description: |
+    The internally used names/identifiers of fonts embedded into PDF files varies.
 
