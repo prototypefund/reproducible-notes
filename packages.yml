@@ -6914,6 +6914,11 @@ novena-eeprom:
   version: 1.0-1
   issues:
     - ftbfs_pbuilder_malformed_dsc
+npm:
+  version: 1.4.21+ds-2
+  comments: |
+    Markdown files are converted with marked to HTML.
+    marked html-encodes email addresses in an unreproducible way.
 nqc:
   version: 3.1.r6-2
   issues:
