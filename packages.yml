@@ -225,6 +225,10 @@ antlr:
   issues:
     - timestamps_in_jar
     - timestamps_in_pe_binaries
+antlr3:
+  version: 3.2-10
+  comments: |
+    ANTLRv3Parser.java is generated at build time and can have reordered source lines.
 antpm:
   version: 1.16-8
   issues:
@@ -4668,8 +4672,8 @@ latex2html:
     - randomness_in_html_generated_by_texi2html
 latexml:
   version: 0.8.0-1
-  comments: |
-    Random hash order in /usr/share/perl5/LaTeXML/MathGrammar.pm
+  issues:
+    - random_order_in_grammar
 lcdproc:
   version: 0.5.7-2
   issues:
@@ -4878,6 +4882,10 @@ libconcurrentlinkedhashmap-java:
   version: 1.1~jdk5-1
   issues:
     - timestamps_in_maven_pom_files
+libconfig-model-dpkg-perl:
+  version: 2.059
+  issues:
+    - timestamps_in_documentation_generated_by_podman
 libconstantine-java:
   version: 0.7-6
   issues:
@@ -5234,6 +5242,10 @@ liblscp:
   version: 0.5.6-7
   issues:
     - timestamps_from_cpp_macros
+libmail-imapclient-perl:
+  version: 3.35-1
+  issues:
+    - random_order_in_grammar
 libmarc-charset-perl:
   version: 1.35-1
   comments: |
@@ -5274,6 +5286,10 @@ libmodule-build-perl:
     - random_order_in_files_generated_by_module_build
   bugs:
     - 774869
+libmodule-extractuse-perl:
+  version: 0.33-1
+  issues:
+    - random_order_in_grammar
 libmoe:
   version: 1.5.8-1
   issues:
@@ -5358,6 +5374,10 @@ libparse-debianchangelog-perl:
   version: 1.2.0-1.1
   issues:
     - lc_messages_randomness
+libpdf-fdf-simple-perl:
+  version: 0.21-1
+  issues:
+    - random_order_in_grammar
 libpgm:
   version: 5.1.118-1~dfsg-1
   comments: |
@@ -5553,6 +5573,8 @@ libtm-perl:
   version: 1.56-7
   comments: |
     Random hash order in /usr/share/perl5/TM/AsTMa/Fact.pm
+  issues:
+    - random_order_in_grammar
 libtnt:
   version: 1.2.6-1
   issues:

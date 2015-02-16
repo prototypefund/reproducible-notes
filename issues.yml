@@ -352,3 +352,7 @@ timestamps_in_groovy_class_files:
   description: |
     groovyc includes timestamps in class files.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInClassFilesCompiledByGroovy
+random_order_in_grammar:
+  description: |
+    Perl modules generated with libparse-recdescent-perl have elements in random order.
+  url: https://bugs.debian.org/778575
