@@ -1221,6 +1221,12 @@ clisp:
   version: 1:2.49-10
   issues:
     - debbindiff_runs_forever
+cloud-init:
+  version: 0.7.6~bzr976-2
+  comments: |
+    Seems to actually require being built on ec2; uses their private IP space.
+  issues:
+    - needs_internet_access_to_build
 clp:
   version: 1.15.10-1
   issues:
@@ -8597,6 +8603,10 @@ python-networkx:
     Also contains differing png files.
   issues:
     - timestamps_in_pdf_generated_by_latex
+python-novaclient:
+  version: 2:2.18.1-1
+  issues:
+    - ftbfs_jenkins_squid
 python-numpy:
   version: 1.8.2-2
   comments: |
