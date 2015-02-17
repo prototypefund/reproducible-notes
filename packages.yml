@@ -119,6 +119,9 @@ akuma:
   version: 1.9-1
   issues:
     - user_in_java_jar_manifest
+  comments: |
+    it builds fine on jenkins.d.n, but when building locally it embeds the username into the manifest file
+    unclear, why this is hidden on jenkins.d.n
 albatross:
   version: 1.36-5.5
   issues:
