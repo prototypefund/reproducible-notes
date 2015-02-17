@@ -356,3 +356,6 @@ random_order_in_grammar:
   description: |
     Perl modules generated with libparse-recdescent-perl have elements in random order.
   url: https://bugs.debian.org/778575
+random_order_in_maven_plugin_xml:
+  description: |
+    mvn plugin.xml (-plugin packages) is generated in a random order.
