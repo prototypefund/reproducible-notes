@@ -140,6 +140,9 @@ timestamps_in_tarball:
   description: |
     Tarball capture build time in mtime of its members.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInTarball
+random_order_in_tarball:
+  description: |
+    The order of members inside the tarball varies.
 timestamps_in_documentation_generated_by_javadoc:
   description: |
     javadoc will add timestamps to the HTML file it produces.
@@ -359,3 +362,11 @@ random_order_in_grammar:
 random_order_in_maven_plugin_xml:
   description: |
     mvn plugin.xml (-plugin packages) is generated in a random order.
+timestamps_in_documentation_generated_by_edoc:
+  description: |
+    The Erland documentation generator EDoc is embedding timestamps in its documentation.
+timestamps_in_qch:
+  description: |
+    qhelpgenerator inserts a timestamp into documentation (qch) files,
+    which are sqlite3 databases.
+  url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInDatabaseGeneratedByQhelpgenerator

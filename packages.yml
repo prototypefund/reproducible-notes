@@ -67,6 +67,10 @@ activiz.net:
   version: 1:1.0~git20111214-2
   issues:
     - debbindiff_runs_forever
+ada-reference-manual:
+  version: 2012.2-3
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 adasockets:
   version: 1.9-1
   comments: |
@@ -227,6 +231,10 @@ ant-contrib:
   version: 1.0~b3+svn177-6
   issues:
     - timestamp_in_java_bnd_manifest
+antelope:
+  version: 3.5.1-3
+  issues:
+    - user_in_java_jar_manifest
 antlr:
   version: 2.7.7+dfsg-6
   issues:
@@ -450,6 +458,13 @@ aubio:
   version: 0.4.1-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+auctex:
+  version: 11.88-1.1
+  comments: |
+    Contains timestamp in README.Debian.
+  issues:
+    - timestamps_in_emacs_autoloads
+    - timestamps_in_pdf_generated_by_latex
 audacity:
   version: 2.0.6-2
   issues:
@@ -1180,6 +1195,10 @@ chktex:
   version: 1.7.2-1
   issues:
     - timestamps_in_dvi_generated_by_latex
+choreonoid:
+  version: 1.1.0+dfsg-6.1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 chuck:
   version: 1.2.0.8.dfsg-1.4
   issues:
@@ -1208,6 +1227,10 @@ classworlds:
   version: 1.1-final-5
   issues:
     - timestamps_in_maven_pom_files
+classycle:
+  version: 1.4-2
+  issues:
+    - timestamps_in_jar
 clementine:
   version: 1.2.3+dfsg-2
   issues:
@@ -1327,6 +1350,11 @@ coinor-cgl:
   version: 0.58.9-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+coinor-dylp:
+  version: 1.6.0-1.1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
+    - timestamps_in_documentation_generated_by_doxygen
 coinor-flopc++:
   version: 1.0.6-3.1
   issues:
@@ -1343,6 +1371,10 @@ coinor-symphony:
   version: 5.6.1-1
   issues:
     - timestamps_from_cpp_macros
+coinor-vol:
+  version: 1.1.7-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 coinutils:
   version: 2.9.15-3
   issues:
@@ -1800,6 +1832,10 @@ debian-history:
   version: 2.19
   bugs:
     - 778486
+debian-installer:
+  version: 20150107
+  issues:
+    - debbindiff_runs_forever
 debian-installer-netboot-images:
   version: 20150107
   issues:
@@ -1819,6 +1855,11 @@ debian-policy:
     - not_using_dh_builddeb
     - timestamps_in_gzip_headers
     - timestamps_in_pdf_generated_by_latex
+    - timestamps_in_dvi_generated_by_latex
+debian-zh-faq:
+  version: 1.13
+  issues:
+    - timestamps_in_gzip_headers
     - timestamps_in_dvi_generated_by_latex
 debianutils:
   version: 4.4
@@ -2077,6 +2118,10 @@ dput:
     - not_using_dh_builddeb
   bugs:
     - 777375
+drbd-doc:
+  version: 8.4~20140825-1
+  issues:
+    - timestamps_in_pdf_generated_by_apache_fop
 drbd-utils:
   version: 8.9.2~rc1-2
   comments: |
@@ -2270,6 +2315,10 @@ ekg2:
   version: 1:0.4~pre+20120506.1-8
   issues:
     - timestamps_from_cpp_macros
+elasticsearch:
+  version: 1.0.3+dfsg-5
+  issues:
+    - timestamps_in_jar
 elektra:
   version: 0.8.7-4
   issues:
@@ -2315,6 +2364,10 @@ emacs-chess:
   version: 2.0b6-1.1
   bugs:
     - 720838
+emacspeak:
+  version: 40.0+dfsg-3
+  issues:
+    - use_epydoc
 emms:
   version: 4.0-2
   issues:
@@ -2487,6 +2540,11 @@ erlang-p1-yaml:
 erlang-p1-zlib:
   version: 0.2014.05.06-1
   issues:
+    - timestamps_in_beam_files
+erlang-proper:
+  version: 1.1+dfsg-1
+  issues:
+    - timestamps_in_documentation_generated_by_edoc
     - timestamps_in_beam_files
 erlang-ranch:
   version: 1.0.0-1
@@ -2697,6 +2755,10 @@ festvox-czech-machac:
   version: 1.0.0-2
   bugs:
     - 753179
+feynmf:
+  version: 1.08-9
+  issues:
+    - timestamps_in_dvi_generated_by_latex
 fflas-ffpack:
   version: 1.6.0-1
   issues:
@@ -2724,6 +2786,11 @@ filezilla:
   version: 3.9.0.5-1
   issues:
     - timestamps_from_cpp_macros
+filler:
+  version: 1.02-6.2
+  issues:
+    - timestamps_in_gzip_headers
+    - timestamps_in_jar
 filters:
   version: 2.53
   comments: |
@@ -3116,6 +3183,10 @@ gap-ctbllib:
     - timestamps_in_pdf_generated_by_latex
 gap-float:
   version: 0.6.3+ds-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
+gap-openmath:
+  version: 11.2.0+ds-1
   issues:
     - timestamps_in_pdf_generated_by_latex
 gap-polycyclic:
@@ -3790,6 +3861,10 @@ gpsmanshp:
     - not_using_dh_builddeb
   bugs:
     - 777446
+grace:
+  version: 5.1.24-3
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 gradle:
   version: 1.5-2
   issues:
@@ -4779,6 +4854,10 @@ kbuild:
   version: 1:0.1.9998svn2695+dfsg-2
   issues:
     - timestamps_from_cpp_macros
+kdevelop:
+  version: 4:4.7.0-1
+  issues:
+    - users_and_groups_in_tarball
 kdevelop-python:
   version: 1.7.0-1
   issues:
@@ -4804,6 +4883,11 @@ keystone:
   version: 2014.1.3-6
   issues:
     - randomness_in_documentation_generated_by_sphinx
+kfreebsd-10:
+  version: 10.1~svn274115-2
+  issues:
+    - timestamps_in_tarball
+    - random_order_in_tarball
 khmerconverter:
   version: 1.4-1
   issues:
@@ -4852,6 +4936,10 @@ krename:
   version: 4.0.9-3
   issues:
     - timestamps_from_cpp_macros
+ktikz:
+  version: 0.10-4
+  issues:
+    - timestamps_in_qch
 kvirc:
   version: 4.2.0-2
   comments: |
@@ -5127,6 +5215,10 @@ libconcurrentlinkedhashmap-java:
   version: 1.1~jdk5-1
   issues:
     - timestamps_in_maven_pom_files
+libconfig:
+  version: 1.4.9-2
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 libconfig-model-dpkg-perl:
   version: 2.059
   issues:
@@ -5373,6 +5465,10 @@ libindicate:
   version: 0.6.92-2
   issues:
     - timestamps_in_pe_binaries
+libint:
+  version: 1.1.5-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 libisoburn:
   version: 1.3.2-1.1
   issues:
@@ -5966,6 +6062,13 @@ libxml-validate-perl:
   version: 1.025-2
   bugs:
     - 720666
+libxray-absorption-perl:
+  version: 3.0.1-1
+  comments: |
+    db files are generated by scripts in data/.
+    They are hashes of hashes saved with Storable::nstore.
+    Setting "$Storable::canonical = 1;" does not work, because the hashes
+    contain hashes.
 libxstream-java:
   version: 1.4.7-2
   issues:
@@ -6026,6 +6129,11 @@ linux-patch-grsecurity2:
   version: 3.0+3.14.22-201410250026-1
   issues:
     - timestamps_in_files_installed_by_dh_kpatches
+linuxdoc-tools:
+  version: 0.9.69-3
+  issues:
+    - timestamps_in_gzip_headers
+    - timestamps_in_dvi_generated_by_latex
 lio-utils:
   version: 3.1+git2.fd0b34fd-2
   bugs:
@@ -6089,6 +6197,10 @@ log4c:
     There's also issues with a PDF, at least.
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+log4net:
+  version: 1.2.10+dfsg-6
+  issues:
+    - timestamps_in_pe_binaries
 log4shib:
   version: 1.0.8-1
   issues:
@@ -6103,6 +6215,10 @@ logback:
   version: 1.1.2-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+logilab-common:
+  version: 0.62.0-1
+  issues:
+    - use_epydoc
 longomatch:
   version: 0.16.8+git20110626-2
   issues:
@@ -6166,6 +6282,11 @@ luasseq:
   version: 2.1-6
   issues:
     - timestamps_in_pdf_generated_by_latex
+lucene4:
+  version: 4.6.1+dfsg-3
+  issues:
+    - user_in_java_jar_manifest
+    - timestamp_in_java_bnd_manifest
 lvtk:
   version: 1.2.0~dfsg0-1
   issues:
@@ -6526,6 +6647,10 @@ minc:
   version: 2.2.00-6
   issues:
     - timestamps_from_cpp_macros
+mingw-ocaml:
+  version: 4.01.0~20140328-1
+  issues:
+    - timestamps_in_pe_binaries
 mingw-w64:
   version: 3.2.0-2
   issues:
@@ -6731,6 +6856,10 @@ monster-masher:
   version: 1.8.1-6
   issues:
     - timestamps_generated_by_docbook_to_man
+moon-buggy:
+  version: 1.0.51-10
+  issues:
+    - timestamps_in_dvi_generated_by_latex
 morse-simulator:
   version: 1.2.1-2
   issues:
@@ -7173,6 +7302,10 @@ nrefactory:
   version: 5.3.0+20130718.73b6d0f-1
   issues:
     - timestamps_in_pe_binaries
+ns3:
+  version: 3.17+dfsg-1
+  issues:
+    - debbindiff_runs_forever
 nsis:
   version: 2.46-10
   issues:
@@ -7206,6 +7339,10 @@ nunit:
   version: 2.6.3+dfsg-1
   issues:
     - timestamps_in_pe_binaries
+nut:
+  version: 2.7.2-3
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 nvram-wakeup:
   version: 1.1-1
   issues:
@@ -7607,11 +7744,27 @@ openarena-085-data:
   version: 0.8.5split-3
   issues:
     - timestamps_in_zip
+openarena-088-data:
+  version: 0.8.8-2
+  issues:
+    - timestamps_in_zip
+openarena-maps:
+  version: 0.8.5split-3
+  issues:
+    - timestamps_in_zip
 openarena-misc:
   version: 0.8.5split-3
   issues:
     - timestamps_in_zip
+openarena-players:
+  version: 0.8.5split-3
+  issues:
+    - timestamps_in_zip
 openarena-players-mature:
+  version: 0.8.5split-3
+  issues:
+    - timestamps_in_zip
+openarena-textures:
   version: 0.8.5split-3
   issues:
     - timestamps_in_zip
@@ -7927,6 +8080,10 @@ paxtest:
   version: 1:0.9.11-2
   issues:
     - timestamps_generated_by_docbook_to_man
+pbuilder:
+  version: 0.215+nmu3
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 pcal:
   version: 4.11.0-3
   issues:
@@ -8124,6 +8281,10 @@ pidgin-librvp:
   version: 0.9.7cvs-1
   issues:
     - timestamps_from_cpp_macros
+piespy:
+  version: 0.4.0-3
+  issues:
+    - timestamps_in_jar
 pirl:
   version: 2.3.8-1
   issues:
@@ -8471,6 +8632,10 @@ pyacoustid:
   version: 1.1.0-3
   issues:
     - random_order_in_egg_info_top_level_txt
+pyblosxom:
+  version: 1.5.3-1
+  issues:
+    - randomness_in_documentation_generated_by_sphinx
 pycairo:
   version: 1.8.8-1
   issues:
@@ -8502,6 +8667,10 @@ pyg:
   version: 0.9.8
   bugs:
     - 713183
+pygtkmvc:
+  version: 1.99.1-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 pyimport-relative:
   version: 0.1.0-2
   bugs:
@@ -8548,6 +8717,10 @@ pyptlib:
   version: 0.0.6-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
+pyro4:
+  version: 4.23-1
+  issues:
+    - randomness_in_documentation_generated_by_sphinx
 pysatellites:
   version: 2.1-1
   issues:
@@ -8568,6 +8741,10 @@ pysubnettree:
   version: 0.23-1
   issues:
     - random_order_in_egg_info_top_level_txt
+pytango:
+  version: 8.1.5-1
+  issues:
+    - randomness_in_documentation_generated_by_sphinx
 pytest:
   version: 2.6.3-2
   issues:
@@ -8634,6 +8811,10 @@ python-django-feincms:
     - 750335
 python-django-mptt:
   version: 0.6.0-1
+  issues:
+    - randomness_in_documentation_generated_by_sphinx
+python-fabio:
+  version: 0.1.4-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
 python-getdns:
@@ -8912,6 +9093,10 @@ qtruby:
   version: 4:4.11.3-4
   issues:
     - timestamps_in_tarball
+qttools-opensource-src:
+  version: 5.3.2-3
+  issues:
+    - timestamps_in_qch
 quakespasm:
   version: 0.85.9-1
   issues:
@@ -9396,6 +9581,10 @@ scotch:
   issues:
     - timestamps_in_static_libraries
     - timestamps_in_gzip_headers
+scscp-imcce:
+  version: 1.0.1+ds-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 scsh-install-lib:
   version: 1.3.0-1
   issues:
@@ -9598,6 +9787,12 @@ slepc:
   issues:
     - timestamps_in_gzip_headers
     - timestamps_in_tarball
+slib:
+  version: 3b1-4
+  issues:
+    - timestamps_in_gzip_headers
+    - not_using_dh_builddeb
+    - randomness_in_html_generated_by_texi2html
 slime:
   version: 2:2.10.1-3
   issues:
@@ -9919,6 +10114,12 @@ sumo:
   version: 0.21.0+dfsg-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+sunflow:
+  version: 0.07.2.svn396+dfsg-13
+  issues:
+    - timestamps_in_png
+  bugs:
+    - 778702
 sunpinyin:
   version: 2.0.3+git20140127-1
   issues:
@@ -10799,6 +11000,10 @@ vpim:
     - not_using_dh_builddeb
   bugs:
     - 776930
+vserver-debiantools:
+  version: 0.8.1
+  issues:
+    - timestamps_in_documentation_generated_by_podman
 vtk:
   version: 5.8.0-17.5
   issues:
@@ -11134,6 +11339,10 @@ xfireworks:
     - timestamps_in_gzip_headers
   bugs:
     - 777402
+xfonts-a12k12:
+  version: 1-11
+  issues:
+    - timestamps_in_gzip_headers
 xfonts-ayu:
   version: 1.7+0a+0debian1-2.1
   issues:
@@ -11216,6 +11425,10 @@ xloadimage:
   comments: |
     Embed build time, user & groups, kernel version and hostname:
     https://sources.debian.net/src/xloadimage/4.1-23/build-info/
+xmds-doc:
+  version: 0~svn.1884-3.1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 xmds2:
   version: 2.2.1+dfsg-1
   comments: |
