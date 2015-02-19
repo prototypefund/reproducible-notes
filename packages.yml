@@ -677,6 +677,10 @@ bglibs:
     - timestamps_in_static_libraries
   bugs:
     - 776942
+bgoffice:
+  version: 4.1-3
+  issues:
+    - timestamps_in_gzip_headers
 bibclean:
   version: 2.11.4.1-4
   comments: |
