@@ -371,3 +371,7 @@ timestamps_in_qch:
     qhelpgenerator inserts a timestamp into documentation (qch) files,
     which are sqlite3 databases.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInDatabaseGeneratedByQhelpgenerator
+random_ispell_hash_files:
+  description: |
+    buildhash from ispell produces undeterministic .hash files.
+  url: http://bugs.debian.org/778862
