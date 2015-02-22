@@ -379,3 +379,8 @@ random_ispell_hash_files:
 randomness_in_ghc_build_id_only:
   description: |
     ghc produces binaries which vary only in the build-id
+timestamps_in_ghc_interfaces:
+  description: |
+    ghc includes the modification time of various files in --show-iface output.
+  url: https://wiki.debian.org/ReproducibleBuilds/TimestampInGhcInterfaces
+

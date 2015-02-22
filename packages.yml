@@ -4137,14 +4137,26 @@ hardlink:
   version: 0.3.0
   issues:
     - timestamps_from_cpp_macros
+haskell-comonad:
+  version: 4.2-1
+  issues:
+    - timestamps_in_ghc_interfaces
 haskell-debian:
   version: 3.83.3.1-1
   issues:
     - randomness_in_ghc_build_id_only
+haskell-distributive:
+  version: 0.4.4-1
+  issues:
+    - timestamps_in_ghc_interfaces
 haskell-ghc-events:
   version: 0.4.2.0-3
   issues:
     - randomness_in_ghc_build_id_only
+haskell-hint:
+  version: 0.3.3.6-3
+  issues:
+    - timestamps_in_ghc_interfaces
 haskell-hjsmin:
   version: 0.1.4.7-2
   issues:
@@ -4157,6 +4169,18 @@ haskell-hoogle:
   version: 4.2.33-4
   issues:
     - randomness_in_ghc_build_id_only
+haskell-leksah:
+  version: 0.12.1.3-6
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-leksah-server:
+  version: 0.12.1.2-3
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-lens:
+  version: 4.1.2.1-3
+  issues:
+    - timestamps_in_ghc_interfaces
 haskell-mode:
   version: 13.10-3
   issues:
@@ -4169,6 +4193,10 @@ haskell-pandoc-citeproc:
   version: 0.4.0.1-1
   issues:
     - randomness_in_ghc_build_id_only
+haskell-parsers:
+  version: 0.10.3-1
+  issues:
+    - timestamps_in_ghc_interfaces
 haskell-pretty-show:
   version: 1.6.6-1
   issues:
@@ -4185,6 +4213,10 @@ haskell-swish:
   version: 0.9.0.15-1
   issues:
     - randomness_in_ghc_build_id_only
+haskell-trifecta:
+  version: 1.4.3-1
+  issues:
+    - timestamps_in_ghc_interfaces
 haskell-unlambda:
   version: 0.1.3-4
   issues:
@@ -4193,6 +4225,10 @@ haskell-wai-app-static:
   version: 3.0.0.1-1
   issues:
     - randomness_in_ghc_build_id_only
+haskell-warp:
+  version: 3.0.0.5-1
+  issues:
+    - timestamps_in_ghc_interfaces
 haskell98-report:
   version: 20080907-5
   issues:
