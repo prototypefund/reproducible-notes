@@ -266,6 +266,10 @@ aolserver4-nsmysql:
   version: 0.6-9
   issues:
     - timestamps_from_cpp_macros
+aolserver4-nsopenssl:
+  version: 3.0beta26-5
+  issues:
+    - randomness_in_build_id_only
 aolserver4-nssqlite3:
   version: 0.9-2
   issues:
@@ -1283,6 +1287,10 @@ clisp:
   version: 1:2.49-10
   issues:
     - debbindiff_runs_forever
+clojure-contrib:
+  version: 1.2.0-2
+  issues:
+    - user_in_java_jar_manifest
 clojure-maven-plugin:
   version: 1.3.3-3
   issues:
@@ -2116,6 +2124,10 @@ dnsmasq:
     - timestamps_in_gzip_headers
   bugs:
     - 777323
+docbook-xsl-saxon:
+  version: 1.00.dfsg.1-5
+  issues:
+    - randomness_in_build_id_only
 docky:
   version: 2.2.0-2
   issues:
@@ -5317,6 +5329,10 @@ libasyncns:
   version: 0.8-5
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libaunit:
+  version: 3.7.1-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 libav:
   version: 6:11-2
   issues:
@@ -5911,6 +5927,10 @@ libnanoxml2-java:
   issues:
     - timestamps_in_jar
     - timestamps_in_documentation_generated_by_javadoc
+libnb-platform18-java:
+  version: 7.4+dfsg1-2
+  issues:
+    - timestamps_in_pe_binaries
 libnet-twitter-lite-perl:
   version: 0.12006-1
   issues:
@@ -9557,6 +9577,10 @@ remote-tty:
   comments: |
     Embed build time, hostname, and username:
     http://sources.debian.net/src/remote-tty/4.0-13/Makefile/?hl=115:124#L115
+rep-gtk:
+  version: 1:0.90.0-2.2
+  issues:
+    - timestamps_in_static_libraries
 requestpolicy:
   version: 0.5.28-1
   issues:
@@ -9901,6 +9925,10 @@ sbuild:
   version: 0.65.0-1
   bugs:
     - 778482
+scala:
+  version: 2.9.2+dfsg-2
+  issues:
+    - timestamps_in_maven_version_files
 scala-mode-el:
   version: 20111005-2.1
   issues:
