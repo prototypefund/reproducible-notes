@@ -290,7 +290,7 @@ needs_internet_access_to_build:
 timestamps_in_mdl_molfile:
   description: |
     MDL Molfiles (https://en.wikipedia.org/wiki/Chemical_table_file) contain a timestamp.
-randomness_in_gnu_build_id:
+build_id_variation_requiring_further_investigation:
   description: |
     GCC embedds a Build ID in elf binaries which varies with every build.
 randomness_in_glib_signals_in_generated_perl_pod_files:
@@ -376,9 +376,6 @@ random_ispell_hash_files:
   description: |
     buildhash from ispell produces undeterministic .hash files.
   url: http://bugs.debian.org/778862
-randomness_in_build_id_only:
-  description: |
-    Something's producing binaries which vary only in the build-id
 timestamps_in_ghc_interfaces:
   description: |
     ghc includes the modification time of various files in --show-iface output.
