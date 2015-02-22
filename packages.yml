@@ -831,6 +831,10 @@ blosxom:
     - not_using_dh_builddeb
   bugs:
     - 777292
+bmake:
+  version: 20140620-3
+  issues:
+    - timestamps_in_documentation_generated_by_groff
 bnd:
   version: 1.50.0-8
   issues:
@@ -1450,6 +1454,10 @@ conkeror:
   comments: |
     Should be fixed in git:
     http://repo.or.cz/w/conkeror.git/commitdiff/a1d87faa81cc910112a2906c03e23876a57f7d18
+conky:
+  version: 1.9.0-6
+  issues:
+    - randomness_in_build_id_only
 connect-proxy:
   version: 1.101-1
   issues:
@@ -4341,6 +4349,10 @@ hsqldb:
   version: 2.2.9+dfsg-4
   comments: |
     User and timestamp embedded in metadata.
+hsqldb1.8.0:
+  version: 1.8.0.10+dfsg-3
+  issues:
+    - user_in_java_jar_manifest
 ht:
   version: 2.0.22-2
   issues:
@@ -4765,6 +4777,10 @@ jansi:
   version: 1.4-3
   issues:
     - random_order_in_documentation_generated_by_javadoc
+jansi-native:
+  version: 1.0-4
+  issues:
+    - timestamps_in_jar
 jargon:
   version: 4.0.0-5.1
   issues:
@@ -5615,6 +5631,10 @@ libgwenhywfar:
   version: 4.12.0beta-3
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libgwibber:
+  version: 0.1.1-1.3
+  issues:
+    - timestamps_in_pe_binaries
 libhmsbeagle:
   version: 2.1.2-1
   issues:
@@ -6634,6 +6654,10 @@ mariadb-10.0:
   version: 10.0.14-2
   issues:
     - timestamps_from_cpp_macros
+marionnet:
+  version: 0.90.6+bzr457-1
+  issues:
+    - randomness_in_build_id_only
 markdown:
   version: 1.0.1-7
   issues:
@@ -8070,6 +8094,10 @@ openni:
     - timestamps_from_cpp_macros
 openni-sensor-pointclouds:
   version: 5.1.0.41.3-1
+  issues:
+    - randomness_in_build_id_only
+openni-sensor-primesense:
+  version: 5.1.0.41-3
   issues:
     - randomness_in_build_id_only
 openresolv:
