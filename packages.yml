@@ -327,10 +327,6 @@ apt-listchanges:
   version: 2.85.13+nmu1
   issues:
     - timestamps_generated_by_docbook_to_man
-apt-p2p:
-  version: 0.1.7
-  issues:
-    - timestamps_generated_by_docbook_to_man
 apt-zip:
   version: 0.18
   issues:
@@ -2807,10 +2803,6 @@ fflas-ffpack:
   version: 1.6.0-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-ffmpeg:
-  version: 7:2.4.3-1
-  issues:
-    - timestamps_from_cpp_macros
 fgetty:
   version: 0.6-5
   issues:
@@ -2839,6 +2831,10 @@ filters:
   version: 2.53
   comments: |
     Sample file has its own undeterministic filters applied.
+findbugs:
+  version: 2.0.3+repack-1
+  issues:
+    - timestamps_in_maven_version_files
 findbugs-bcel:
   version: 6.0~20130831-1
   issues:
@@ -5797,6 +5793,10 @@ libmath++:
   version: 0.0.4-5
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libmatio:
+  version: 1.5.2-3
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 libmatroska:
   version: 1.4.1-2
   issues:
@@ -8068,6 +8068,10 @@ openni:
   issues:
     - timestamps_in_documentation_generated_by_doxygen
     - timestamps_from_cpp_macros
+openni-sensor-pointclouds:
+  version: 5.1.0.41.3-1
+  issues:
+    - randomness_in_build_id_only
 openresolv:
   version: 3.5.2-1
   bugs:
@@ -9054,10 +9058,6 @@ python-fabio:
   version: 0.1.4-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
-python-getdns:
-  version: 0.2.0-1
-  issues:
-    - ftbfs_missing_dependencies
 python-gflags:
   version: 1.5.1-2
   issues:
@@ -10417,12 +10417,6 @@ sumo:
   version: 0.21.0+dfsg-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-sunflow:
-  version: 0.07.2.svn396+dfsg-13
-  issues:
-    - timestamps_in_png
-  bugs:
-    - 778702
 sunpinyin:
   version: 2.0.3+git20140127-1
   issues:
