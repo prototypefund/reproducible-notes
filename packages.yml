@@ -4137,10 +4137,62 @@ hardlink:
   version: 0.3.0
   issues:
     - timestamps_from_cpp_macros
+haskell-debian:
+  version: 3.83.3.1-1
+  issues:
+    - randomness_in_ghc_build_id_only
+haskell-ghc-events:
+  version: 0.4.2.0-3
+  issues:
+    - randomness_in_ghc_build_id_only
+haskell-hjsmin:
+  version: 0.1.4.7-2
+  issues:
+    - randomness_in_ghc_build_id_only
+haskell-hledger:
+  version: 0.23.3-1
+  issues:
+    - randomness_in_ghc_build_id_only
+haskell-hoogle:
+  version: 4.2.33-4
+  issues:
+    - randomness_in_ghc_build_id_only
 haskell-mode:
   version: 13.10-3
   issues:
     - timestamps_in_emacs_autoloads
+haskell-mueval:
+  version: 0.9.1.1-1
+  issues:
+    - randomness_in_ghc_build_id_only
+haskell-pandoc-citeproc:
+  version: 0.4.0.1-1
+  issues:
+    - randomness_in_ghc_build_id_only
+haskell-pretty-show:
+  version: 1.6.6-1
+  issues:
+    - randomness_in_ghc_build_id_only
+haskell-snap:
+  version: 0.13.2.5-1
+  issues:
+    - randomness_in_ghc_build_id_only
+haskell-snap-loader-dynamic:
+  version: 0.10.0.2-1
+  issues:
+    - randomness_in_ghc_build_id_only
+haskell-swish:
+  version: 0.9.0.15-1
+  issues:
+    - randomness_in_ghc_build_id_only
+haskell-unlambda:
+  version: 0.1.3-4
+  issues:
+    - randomness_in_ghc_build_id_only
+haskell-wai-app-static:
+  version: 3.0.0.1-1
+  issues:
+    - randomness_in_ghc_build_id_only
 haskell98-report:
   version: 20080907-5
   issues:
