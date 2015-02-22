@@ -388,6 +388,10 @@ asc:
   version: 2.6.0.0-1
   issues:
     - timestamps_from_cpp_macros
+ascii2binary:
+  version: 2.14-1
+  issues:
+    - randomness_in_build_id_only
 asciidoc:
   version: 8.6.9-3
   bugs:
@@ -2755,6 +2759,10 @@ fdroidserver:
     - timestamps_in_dvi_generated_by_latex
     - timestamps_in_tarball
     - timestamps_in_pdf_generated_by_latex
+fdutils:
+  version: 5.5-20060227-7
+  issues:
+    - timestamps_in_dvi_generated_by_latex
 fedmsg:
   version: 0.9.3-1
   comments: |
@@ -5202,6 +5210,10 @@ latex2html:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - randomness_in_html_generated_by_texi2html
+latex2rtf:
+  version: 2.3.8-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 latexdiff:
   version: 1.0.4-1
   issues:
@@ -8613,6 +8625,10 @@ piespy:
   version: 0.4.0-3
   issues:
     - timestamps_in_jar
+pinta:
+  version: 1.3-3
+  issues:
+    - timestamps_in_pe_binaries
 pirl:
   version: 2.3.8-1
   issues:
@@ -9448,6 +9464,10 @@ qtruby:
   version: 4:4.11.3-4
   issues:
     - timestamps_in_tarball
+qtsvg-opensource-src:
+  version: 5.3.2-2
+  issues:
+    - timestamps_in_qch
 qttools-opensource-src:
   version: 5.3.2-3
   issues:
