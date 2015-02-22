@@ -3267,6 +3267,8 @@ gbrowse:
   comments: |
     ConfigData.pm not dumped in determinstic order and some of the values are
     generated using rand()
+  issues:
+    - random_order_in_files_generated_by_module_build
 gcal:
   version: 3.6.3-3
   issues:
