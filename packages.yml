@@ -1728,6 +1728,10 @@ darkplaces:
   version: 0~20130304+svn11952-2
   issues:
     - timestamps_from_cpp_macros
+darkstat:
+  version: 3.0.718-2
+  issues:
+    - randomness_in_build_id_only
 darktable:
   version: 1.4.2-1
   issues:
@@ -5905,6 +5909,10 @@ libpdf-fdf-simple-perl:
   version: 0.21-1
   issues:
     - random_order_in_grammar
+libpdfbox-java:
+  version: 1:1.8.7+dfsg-1
+  issues:
+    - timestamps_in_maven_version_files
 libperl-apireference-perl:
   version: 0.18-1
   bugs:
@@ -7148,6 +7156,10 @@ mupen64plus-core:
   version: 2.0-7
   comments: |
     Fails to build reproducibly due to link-time optimization (-flto)
+mupen64plus-rsp-z64:
+  version: 2.0.0-2
+  issues:
+    - randomness_in_build_id_only
 mupen64plus-video-glide64mk2:
   version: 2.0-3
   issues:
@@ -8227,6 +8239,10 @@ palo:
     https://sources.debian.net/src/palo/1.95/palo/Makefile/?hl=31#L31
   bugs:
     - 778437
+pandas:
+  version: 0.15.1+git125-ge463818-1
+  issues:
+    - randomness_in_build_id_only
 paramiko:
   version: 1.15.1-1
   issues:
@@ -8323,6 +8339,10 @@ pd-hcs:
   version: 0.1-2
   issues:
     - timestamps_from_cpp_macros
+pd-iemmatrix:
+  version: 0.2-2
+  issues:
+    - randomness_in_build_id_only
 pd-iemnet:
   version: 0.1-3
   issues:
@@ -8587,6 +8607,10 @@ plib-doc:
     - timestamps_in_png
   bugs:
     - 778971
+plplot:
+  version: 5.10.0+dfsg-1
+  issues:
+    - timestamps_in_jar
 plymouth:
   version: 0.9.0-8
   issues:
@@ -8702,6 +8726,10 @@ prboom-plus:
   version: 2:2.5.1.4~svn4403+dfsg1-1
   issues:
     - timestamps_from_cpp_macros
+prewikka:
+  version: 1.0.0-1.3
+  issues:
+    - timestamps_in_python_code_generated_by_cheetah
 prima:
   version: 1.28-1.3
   bugs:
@@ -9429,6 +9457,10 @@ red5:
   version: 1.0~svn4374-4
   issues:
     - random_order_in_documentation_generated_by_javadoc
+refcard:
+  version: 5.0.9
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 refpolicy:
   version: 2:2.20140421-7
   issues:
@@ -9824,6 +9856,10 @@ scite:
   version: 3.5.0-1
   issues:
     - timestamps_from_cpp_macros
+scm:
+  version: 5e5-3.3
+  issues:
+    - timestamps_in_gzip_headers
 scmxx:
   version: 0.9.0-2.3
   issues:
@@ -10047,6 +10083,10 @@ skalibs:
     - not_using_dh_builddeb
     - timestamps_in_static_libraries
     - timestamps_in_gzip_headers
+sketch:
+  version: 1:0.3.7-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 slang2:
   version: 2.3.0-2
   issues:
@@ -11059,6 +11099,10 @@ user-agent-utils:
   version: 1.15-1
   issues:
     - user_in_java_jar_manifest
+uthash:
+  version: 1.9.7-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 util-vserver:
   version: 0.30.216-pre3054-1
   issues:
@@ -12022,6 +12066,10 @@ zshdb:
     - not_using_dh_builddeb
   bugs:
     - 777400
+zssh:
+  version: 1.5c.debian.1-3.2
+  issues:
+    - randomness_in_build_id_only
 zsync:
   version: 0.6.2-1
   issues:
