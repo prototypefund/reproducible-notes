@@ -376,9 +376,9 @@ random_ispell_hash_files:
   description: |
     buildhash from ispell produces undeterministic .hash files.
   url: http://bugs.debian.org/778862
-randomness_in_ghc_build_id_only:
+randomness_in_build_id_only:
   description: |
-    ghc produces binaries which vary only in the build-id
+    Something's producing binaries which vary only in the build-id
 timestamps_in_ghc_interfaces:
   description: |
     ghc includes the modification time of various files in --show-iface output.

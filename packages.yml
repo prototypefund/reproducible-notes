@@ -4144,7 +4144,7 @@ haskell-comonad:
 haskell-debian:
   version: 3.83.3.1-1
   issues:
-    - randomness_in_ghc_build_id_only
+    - randomness_in_build_id_only
 haskell-distributive:
   version: 0.4.4-1
   issues:
@@ -4152,7 +4152,11 @@ haskell-distributive:
 haskell-ghc-events:
   version: 0.4.2.0-3
   issues:
-    - randomness_in_ghc_build_id_only
+    - randomness_in_build_id_only
+haskell-haskore:
+  version: 0.2.0.4-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 haskell-hint:
   version: 0.3.3.6-3
   issues:
@@ -4160,15 +4164,15 @@ haskell-hint:
 haskell-hjsmin:
   version: 0.1.4.7-2
   issues:
-    - randomness_in_ghc_build_id_only
+    - randomness_in_build_id_only
 haskell-hledger:
   version: 0.23.3-1
   issues:
-    - randomness_in_ghc_build_id_only
+    - randomness_in_build_id_only
 haskell-hoogle:
   version: 4.2.33-4
   issues:
-    - randomness_in_ghc_build_id_only
+    - randomness_in_build_id_only
 haskell-leksah:
   version: 0.12.1.3-6
   issues:
@@ -4188,11 +4192,11 @@ haskell-mode:
 haskell-mueval:
   version: 0.9.1.1-1
   issues:
-    - randomness_in_ghc_build_id_only
+    - randomness_in_build_id_only
 haskell-pandoc-citeproc:
   version: 0.4.0.1-1
   issues:
-    - randomness_in_ghc_build_id_only
+    - randomness_in_build_id_only
 haskell-parsers:
   version: 0.10.3-1
   issues:
@@ -4200,19 +4204,19 @@ haskell-parsers:
 haskell-pretty-show:
   version: 1.6.6-1
   issues:
-    - randomness_in_ghc_build_id_only
+    - randomness_in_build_id_only
 haskell-snap:
   version: 0.13.2.5-1
   issues:
-    - randomness_in_ghc_build_id_only
+    - randomness_in_build_id_only
 haskell-snap-loader-dynamic:
   version: 0.10.0.2-1
   issues:
-    - randomness_in_ghc_build_id_only
+    - randomness_in_build_id_only
 haskell-swish:
   version: 0.9.0.15-1
   issues:
-    - randomness_in_ghc_build_id_only
+    - randomness_in_build_id_only
 haskell-trifecta:
   version: 1.4.3-1
   issues:
@@ -4220,11 +4224,11 @@ haskell-trifecta:
 haskell-unlambda:
   version: 0.1.3-4
   issues:
-    - randomness_in_ghc_build_id_only
+    - randomness_in_build_id_only
 haskell-wai-app-static:
   version: 3.0.0.1-1
   issues:
-    - randomness_in_ghc_build_id_only
+    - randomness_in_build_id_only
 haskell-warp:
   version: 3.0.0.5-1
   issues:
@@ -4236,7 +4240,7 @@ haskell98-report:
 haskelldb-hdbc-postgresql:
   version: 2.1.2-3
   issues:
-    - randomness_in_ghc_build_id_only
+    - randomness_in_build_id_only
 hatari:
   version: 1.8.0+dfsg-1
   issues:
