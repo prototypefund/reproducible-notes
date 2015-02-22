@@ -973,6 +973,11 @@ cabal-debian:
   issues:
     - not_using_dh_builddeb
     - timestamps_in_gzip_headers
+cain:
+  version: 1.9-8
+  comments: |
+    mtime of UserSolvers.htm seems to be bumped by patching, but my reading of
+    quilt and Dpkg::Source::Quilt suggests this shouldn't happen.
 cairo-5c:
   version: 1.8.1
   bugs:
