@@ -7409,11 +7409,31 @@ munkres:
   version: 1.0.6-1
   issues:
     - use_epydoc
+mupen64plus-audio-sdl:
+  version: 2.0-2
+  issues:
+    - build_id_variation_requiring_further_investigation
 mupen64plus-core:
   version: 2.0-7
   comments: |
     Fails to build reproducibly due to link-time optimization (-flto)
+mupen64plus-input-sdl:
+  version: 2.0-4
+  issues:
+    - build_id_variation_requiring_further_investigation
+mupen64plus-rsp-hle:
+  version: 2.0-3
+  issues:
+    - build_id_variation_requiring_further_investigation
 mupen64plus-rsp-z64:
+  version: 2.0.0-2
+  issues:
+    - build_id_variation_requiring_further_investigation
+mupen64plus-ui-console:
+  version: 2.0-2
+  issues:
+    - build_id_variation_requiring_further_investigation
+mupen64plus-video-arachnoid:
   version: 2.0.0-2
   issues:
     - build_id_variation_requiring_further_investigation
@@ -7425,6 +7445,10 @@ mupen64plus-video-glide64mk2:
   version: 2.0-3
   issues:
     - timestamps_from_cpp_macros
+mupen64plus-video-rice:
+  version: 2.0-3
+  issues:
+    - build_id_variation_requiring_further_investigation
 mupen64plus-video-z64:
   version: 2.0.0-2
   issues:
