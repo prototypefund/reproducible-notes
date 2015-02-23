@@ -420,3 +420,10 @@ timestamps_in_jsdoc_toolkit_documentation:
 randomness_in_objects_inv:
   description: |
     Some Python documentation tool writes objects.inv files in a random order.
+timestamps_in_ada_ali_files:
+  description: |
+    Some Ada tool writes .ali files with D s-oscons.ads 20150119160803-style fragments.
+randomness_in_ocaml_a_files:
+  description: |
+    Some OCaml tool writes /tmp/caml*[randomness].o into its .a archives.
+
