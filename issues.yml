@@ -391,3 +391,12 @@ timestamps_in_java_stapler_files:
   description: |
     Another variation of timestamps_in_maven_version_files where someone's
     used the same doomed properties writer.
+timestamps_manually_added_needs_further_investigation:
+  description: |
+    Packages which intentionally add the timestamp to their build or files,
+    but aren't obviously using any tool or system which has this as a core issue.
+    Interesting because they could be fixed by faketime'ing up the whole system.
+uid_and_gid_in_jar:
+  description: |
+    Some tool has managed to write uid and gid as an extended attribute into a jar file.
+

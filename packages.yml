@@ -1455,6 +1455,10 @@ colord:
   version: 1.2.1-1
   issues:
     - randomness_in_icc_colour_profiles
+colorediffs-extension:
+  version: 0.6.2012.01.27.14.07.45-1
+  issues:
+    - uid_and_gid_in_jar
 commons-configuration:
   version: 1.10-2
   issues:
@@ -7227,6 +7231,10 @@ mp3splt-gtk:
   version: 0.7.2-2
   bugs:
     - 759888
+mp4v2:
+  version: 2.0.0~dfsg0-3
+  issues:
+    - timestamps_manually_added_needs_further_investigation
 mpack:
   version: 1.6-8
   issues:
@@ -7325,6 +7333,10 @@ mupen64plus-video-glide64mk2:
   version: 2.0-3
   issues:
     - timestamps_from_cpp_macros
+mupen64plus-video-z64:
+  version: 2.0.0-2
+  issues:
+    - build_id_variation_requiring_further_investigation
 muse-el:
   version: 3.20+dfsg-0.1
   issues:
