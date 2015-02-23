@@ -320,6 +320,7 @@ ocaml_configure_not_as_root:
 randomness_in_ocaml_lintian_info_files:
   description: |
     dh-ocaml generates lintian info files with a non-deterministic order
+  url: https://bugs.debian.org/779037
 bad_handling_of_extra_warnings:
   description: |
     FTBFS if CPPFLAGS is multiple words, which breaks our CI.
