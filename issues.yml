@@ -407,3 +407,6 @@ user_hostname_manually_added_requiring_further_investigation:
     Packages which intentionally capture the username or hostname into a custom format,
     but aren't obviously using any tool or system which has this as a core issue.
     Interesting because they could be fixed by fixing these things at build time.
+random_order_in_plexus_comonents_xml:
+  description: |
+    Plexus, a Java plugin framework, writes its components.xml in a random order.
