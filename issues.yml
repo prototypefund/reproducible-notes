@@ -410,3 +410,13 @@ user_hostname_manually_added_requiring_further_investigation:
 random_order_in_plexus_comonents_xml:
   description: |
     Plexus, a Java plugin framework, writes its components.xml in a random order.
+timestamps_in_epub:
+  description: |
+    epub files look like zip files (although debbindiff doesn't recognise them as such),
+    and hence have a timestamp in them.
+timestamps_in_jsdoc_toolkit_documentation:
+  description: |
+    JsDoc Toolkit writes the documentation generation time into generated HTML.
+randomness_in_objects_inv:
+  description: |
+    Some Python documentation tool writes objects.inv files in a random order.
