@@ -625,6 +625,10 @@ bareos:
   version: 14.2.1+20141017gitc6c5b56-4
   issues:
     - build_id_variation_requiring_further_investigation
+barnowl:
+  version: 1.9-1
+  comments: |
+    Random order of files and timestamps in zip file with .par extension.
 base-files:
   version: 8
   issues:
@@ -1697,6 +1701,10 @@ crystalspace:
   version: 2.0+dfsg-2
   bugs:
     - 765157
+csh:
+  version: 20110502-2.1
+  issues:
+    - timestamps_in_documentation_generated_by_groff
 csound:
   version: 1:6.03.2~dfsg-1
   issues:
@@ -2189,6 +2197,10 @@ dita-ot:
     Capture build time in /usr/share/dita-ot/lib/configuration.properties
 django-celery:
   version: 3.1.16-1
+  issues:
+    - randomness_in_documentation_generated_by_sphinx
+django-guardian:
+  version: 1.2.4+git20141127-0.2
   issues:
     - randomness_in_documentation_generated_by_sphinx
 djangorestframework:
@@ -4569,6 +4581,10 @@ horst:
   version: 4.0-1
   issues:
     - ftbfs_missing_dependencies
+hp-search-mac:
+  version: 0.1.3
+  issues:
+    - timestamps_in_documentation_generated_by_podman
 hpcc:
   version: 1.4.1-3
   issues:
@@ -7987,6 +8003,10 @@ norwegian:
   issues:
     - random_ispell_hash_files
     - random_order_in_dictionary_debconf_templates
+nose2:
+  version: 0.5.0-1
+  issues:
+    - timestamps_in_manpage_generated_by_help2man
 nosquint:
   version: 2.1.9-2
   issues:
@@ -10780,6 +10800,10 @@ sipxtapi:
   comments: |
     Also recording build time. See:
     https://sources.debian.net/src/sipxtapi/3.3.0~test17-1/config/sipXpkgtop.mak/
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
+siscone:
+  version: 2.0.6-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
 sisu-ioc:
