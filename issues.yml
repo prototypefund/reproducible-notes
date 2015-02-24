@@ -391,6 +391,10 @@ timestamps_in_java_stapler_files:
   description: |
     Another variation of timestamps_in_maven_version_files where someone's
     used the same doomed properties writer.
+timestamps_in_gjdoc_properties_files:
+  description: |
+    Another variation of timestamps_in_maven_version_files where someone's
+    used the same doomed properties writer, this time in GNU Gjdoc API Documentation.
 timestamps_manually_added_needs_further_investigation:
   description: |
     Packages which intentionally add the timestamp to their build or files,
