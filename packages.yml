@@ -573,6 +573,10 @@ aws-sdk-for-php:
     non-deterministic memory address. This is caused by a bug in rst2pdf.
   bugs:
     - 777251
+axiom:
+  version: 20140801-6
+  issues:
+    - debbindiff_runs_forever
 axis:
   version: 1.4-22
   issues:
