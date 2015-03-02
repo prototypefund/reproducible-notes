@@ -3674,6 +3674,8 @@ gfs2-utils:
     - timestamps_from_cpp_macros
 ghc:
   version: 7.6.3-20
+  issues:
+    - debbindiff_runs_forever
   bugs:
     - 769893
 ghdl:
