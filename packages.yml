@@ -10139,6 +10139,10 @@ python-dugong:
   version: 3.5+dfsg-1
   issues:
     - randomness_in_objects_inv
+python-expyriment:
+  version: 0.7.0+git34-g55a4e7e-3
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 python-fabio:
   version: 0.1.4-1
   issues:
@@ -12203,6 +12207,9 @@ txw2:
   version: 0.1+20110809-1
   issues:
     - user_in_java_jar_manifest
+u-boot:
+  comments: |
+    Maintainer explained that it's only reproducible on arches that only build a u-boot-tools .deb
 uanytun:
   version: 0.3.5-1
   comments: |
@@ -13369,6 +13376,3 @@ zynaddsubfx:
   version: 2.4.3-4
   issues:
     - timestamps_from_cpp_macros
-u-boot:
-  comments: |
-    Maintainer explained that it's only reproducible on arches that only build a u-boot-tools .deb
