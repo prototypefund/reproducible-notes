@@ -434,4 +434,6 @@ randomness_in_objects_inv:
 randomness_in_ocaml_a_files:
   description: |
     Some OCaml tool writes /tmp/caml*[randomness].o into its .a archives.
-
+timestamps_in_php_apigen_documentation:
+  description: |
+    APIgen documentation generation time into the .zip archive comment
