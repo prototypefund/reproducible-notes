@@ -10035,6 +10035,13 @@ pyptlib:
   version: 0.0.6-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
+pyqt5:
+  version: 5.3.2+dfsg-3
+  comments: |
+    Debbindiff reaches max output, but also searchindex.js +
+    /usr/share/doc/pyqt5-examples/examples/animation/animatedtiles/animatedtiles_rc.py
+  issues:
+    - randomness_in_objects_inv
 pyro4:
   version: 4.23-1
   issues:
