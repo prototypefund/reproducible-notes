@@ -13369,3 +13369,6 @@ zynaddsubfx:
   version: 2.4.3-4
   issues:
     - timestamps_from_cpp_macros
+u-boot:
+  comments: |
+    Maintainer explained that it's only reproducible on arches that only build a u-boot-tools .deb
