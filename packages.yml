@@ -10842,6 +10842,12 @@ runit:
   issues:
     - not_using_dh_builddeb
     - timestamps_in_gzip_headers
+s3ql:
+  version: 2.13+dfsg-1
+  comments: |
+    The FTBFS problem is specific to building on jenkins.d.n,
+    building on both the Debian buildds as well as ci.d.n works fine.
+    Maintainer is aware and looking into it.
 sa-exim:
   version: 4.2.1-14
   comments: |
