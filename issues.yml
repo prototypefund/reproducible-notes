@@ -253,7 +253,8 @@ timestamps_in_ruby_documentation:
     the time the documentation was generated.
 timestamps_in_gemspec_files:
   description:
-    Gemspec timestamps changes, although the year doesn't change (!)
+    Gemspec timestamps changes due to timezone changes (?). Caused by/around
+    rubygems/specification.rb
 timestamps_in_documentation_generated_by_sphinx:
   description: |
     "Last updated," etc.
