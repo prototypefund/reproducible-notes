@@ -10807,9 +10807,8 @@ ruby-benchmark-suite:
     - timestamps_in_ruby_documentation
 ruby-bert:
   version: 1.1.6-1
-  comments: |
-    Not sure how the gemfile's date changes at all, yet alone changes from
-    from 2010-02-07 -> 2010-02-08 (nb. year)
+  issues:
+    - timestamps_in_gemspec_files
 ruby-bio:
   version: 1.4.3.0001-2
   issues:
