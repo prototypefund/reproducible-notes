@@ -442,3 +442,7 @@ timestamps_in_php_apigen_documentation:
     APIgen documentation adds the time into the .zip archive comment as well as
     inherits mtimes.
   url: https://bugs.debian.org/779605
+timestamp_in_pear_registry_files:
+  description: |
+    PEAR registry files are serialized PHP objects that contain a timestamp.
+  url: https://bugs.debian.org/750697
