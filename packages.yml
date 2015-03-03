@@ -8325,6 +8325,13 @@ libsort-key-top-perl:
   version: 0.08-1
   issues:
     - timezones_manpages_podman
+libsoup2.4:
+  version: 2.49.1-1
+  comments: |
+    Blacklisted in experimental as the build hung forever at 
+    "PASS: coding-test 20 /coding/request/deflate-raw/bad-server"
+  issues:
+    - blacklisted_on_jenkins
 libspreadsheet-wright-perl:
   version: 0.105-1
   issues:
