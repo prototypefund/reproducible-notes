@@ -251,6 +251,9 @@ timestamps_in_ruby_documentation:
   description: |
     Ruby's documentation generator outputs a file called "created.rid", which contains
     the time the documentation was generated.
+timestamps_in_documentation_generated_by_sphinx:
+  description: |
+    "Last updated," etc.
 randomness_in_documentation_generated_by_sphinx:
   description: |
     Sphinx might output references to memory addresses and generate a json index file
