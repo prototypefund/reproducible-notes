@@ -11875,6 +11875,9 @@ prolix:
     - timezones_manpages_podman
 proll:
   version: 18-6
+  comments: |
+    This package build-depends on a arch:sparc
+    It'd be great something like http://pad.lv/217427
   issues:
     - ftbfs_missing_dependencies
 properties-maven-plugin:
