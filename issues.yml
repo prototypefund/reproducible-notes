@@ -436,6 +436,6 @@ randomness_in_ocaml_a_files:
     Some OCaml tool writes /tmp/caml*[randomness].o into its .a archives.
 timestamps_in_php_apigen_documentation:
   description: |
-    APIgen documentation generation time into the .zip archive comment (fixed
-    by something like https://gist.github.com/da231d3f624fd3327425) but the zipfile
-    also has mtimes, etc.
+    APIgen documentation adds the time into the .zip archive comment as well as
+    inherits mtimes.
+  url: https://bugs.debian.org/779605
