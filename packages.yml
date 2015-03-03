@@ -1705,6 +1705,8 @@ cpm:
     - lc_messages_randomness
 cppreference-doc:
   version: 20140208+dfsg1-1
+  issues:
+    - timestamps_in_qch
   bugs:
     - 774537
 cputool:
@@ -12429,6 +12431,8 @@ qbs:
   comments: |
     Random order in docs. Written by
     http://sources.debian.net/src/qtbase-opensource-src/5.3.2%2Bdfsg-4/src/tools/qdoc/helpprojectwriter.cpp/?hl=630#L787
+  issues:
+    - timestamps_in_qch
 qct:
   version: 1.7-3
   issues:
@@ -12478,6 +12482,10 @@ qmail-tools:
     - timestamps_in_gzip_headers
   bugs:
     - 776936
+qmf:
+  version: 1.0.7~2011w23.2-2.1
+  issues:
+    - timestamps_in_qch
 qmidinet:
   version: 0.2.0-1
   issues:
@@ -12518,6 +12526,14 @@ qtcreator:
   version: 3.2.1+dfsg-6
   issues:
     - timestamps_from_cpp_macros
+qtdoc-opensource-src:
+  version: 5.3.2-3
+  issues:
+    - timestamps_in_qch
+qtenginio-opensource-src:
+  version: 5.4.0-2
+  issues:
+    - timestamps_in_qch
 qterm:
   version: 1:0.5.12-1.1
   issues:
@@ -12526,10 +12542,26 @@ qtexengine:
   version: 0.3-3
   issues:
     - timestamps_in_qmake_makefiles
+qtgraphicaleffects-opensource-src:
+  version: 5.3.2-2
+  issues:
+    - timestamps_in_qch
 qtiplot:
   version: 0.9.8.9-9
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+qtlocation-opensource-src:
+  version: 5.3.2-2
+  issues:
+    - timestamps_in_qch
+qtmultimedia-opensource-src:
+  version: 5.3.2-5
+  issues:
+    - timestamps_in_qch
+qtquickcontrols-opensource-src:
+  version: 5.3.2-2
+  issues:
+    - timestamps_in_qch
 qtractor:
   version: 0.6.3-1
   issues:
@@ -12538,12 +12570,32 @@ qtruby:
   version: 4:4.11.3-4
   issues:
     - timestamps_in_tarball
+qtsensors-opensource-src:
+  version: 5.3.2+dfsg-2
+  issues:
+    - timestamps_in_qch
+qtserialport-opensource-src:
+  version: 5.3.2-2
+  issues:
+    - timestamps_in_qch
 qtsvg-opensource-src:
   version: 5.3.2-2
   issues:
     - timestamps_in_qch
 qttools-opensource-src:
   version: 5.3.2-3
+  issues:
+    - timestamps_in_qch
+qtwebkit-examples-opensource-src:
+  version: 5.3.2+dfsg-2
+  issues:
+    - timestamps_in_qch
+qtwebsockets-opensource-src:
+  version: 5.3.2-5
+  issues:
+    - timestamps_in_qch
+qtx11extras-opensource-src:
+  version: 5.3.2-2
   issues:
     - timestamps_in_qch
 quakespasm:
