@@ -92,6 +92,10 @@ adasockets:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_ada_library_information_files
+adcli:
+  version: 0.7.5-1
+  issues:
+    - timestamps_generated_by_docbook_to_man
 adduser:
   version: 3.113+nmu3
   issues:
@@ -1294,6 +1298,10 @@ checkstyle:
   comments: |
     Capture build time in
     /usr/share/java/checkstyle.jar:checkstylecompilation.properties
+cheese:
+  version: 3.14.1-2
+  issues:
+    - timestamps_generated_by_docbook_to_man
 chemical-structures:
   version: 2.2.dfsg.0-12
   issues:
@@ -1789,6 +1797,7 @@ cryptsetup:
   version: 2:1.6.6-5
   issues:
     - timezones_manpages_podman
+    - timestamps_generated_by_docbook_to_man
 crystalspace:
   version: 2.0+dfsg-2
   bugs:
@@ -1898,6 +1907,10 @@ cyrus-sasl2:
   version: 2.1.26.dfsg1-12
   issues:
     - timestamps_generated_by_docbook_to_man
+d-conf:
+  version: 0.22.0-1
+  issues:
+    - timestamps_generated_by_docbook_to_man
 d-itg:
   version: 2.8.1-r1023-3
   issues:
@@ -1986,6 +1999,7 @@ dbus:
   version: 1.8.14-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - timestamps_generated_by_docbook_to_man
 dbus-java:
   version: 2.8-5
   issues:
@@ -3234,6 +3248,10 @@ flashgot:
   version: 1.5.6.7+dfsg-1
   issues:
     - xpi_pack_saves_extra_attributes_in_jar
+flashproxy:
+  version: 1.7-2
+  issues:
+    - timestamps_generated_by_docbook_to_man
 flask-wtf:
   version: 0.10.2-1
   issues:
@@ -3771,6 +3789,10 @@ gentlyweb-utils:
   version: 1.5-1
   issues:
     - timestamps_in_jar
+geogebra:
+  version: 4.0.34.0+dfsg1-3
+  issues:
+    - timestamps_generated_by_docbook_to_man
 geos:
   version: 3.4.2-6
   issues:
@@ -3893,6 +3915,14 @@ git-dpm:
   issues:
     - timestamps_in_documentation_generated_by_groff
     - pdf_created_by_ghostscript
+git-remote-hg:
+  version: 0.2+git20140603.185852e-1
+  issues:
+    - timestamps_generated_by_docbook_to_man
+gitit:
+  version: 0.10.4-2
+  issues:
+    - timestamps_generated_by_docbook_to_man
 gitmagic:
   version: 20140125-1
   issues:
@@ -4169,6 +4199,10 @@ gnome-sharp2:
   version: 2.24.2-3
   issues:
     - timestamps_in_pe_binaries
+gnome-shell:
+  version: 3.14.2-3
+  issues:
+    - timestamps_generated_by_docbook_to_man
 gnome-subtitles:
   version: 1.2-4
   issues:
@@ -4989,6 +5023,10 @@ imagemagick:
   version: 8:6.8.9.9-5
   issues:
     - timestamps_in_png
+imapcopy:
+  version: 1.04-2
+  issues:
+    - timestamps_generated_by_docbook_to_man
 imaptool:
   version: 0.9-14
   issues:
@@ -5622,6 +5660,10 @@ klone:
     - users_and_groups_in_tarball
   bugs:
     - 777464
+kmymoney:
+  version: 4.6.6-1
+  issues:
+    - timestamps_generated_by_docbook_to_man
 knews:
   version: 1.0b.1-29
   issues:
@@ -5833,6 +5875,7 @@ libam7xxx:
   version: 0.1.5-3
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - timestamps_generated_by_docbook_to_man
 libandroid-json-org-java:
   version: 20121204-20090211-1
   issues:
@@ -5915,6 +5958,7 @@ libaqbanking:
   issues:
     - timestamps_in_documentation_generated_by_doxygen
     - timezones_manpages_podman
+    - timestamps_generated_by_docbook_to_man
 libarchive-ar-perl:
   version: 2.02-1
   issues:
@@ -7069,6 +7113,7 @@ libgwenhywfar:
   version: 4.12.0beta-3
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - timestamps_generated_by_docbook_to_man
 libgwibber:
   version: 0.1.1-1.3
   issues:
@@ -11219,6 +11264,10 @@ packaging-tutorial:
   version: 0.15
   issues:
     - timestamps_in_pdf_generated_by_latex
+padevchooser:
+  version: 0.9.4-1.1
+  issues:
+    - timestamps_generated_by_docbook_to_man
 pads:
   version: 1.2-11
   issues:
@@ -12299,6 +12348,7 @@ python-odf:
   version: 1.2.0-6
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - timestamps_generated_by_docbook_to_man
   bugs:
     - 777635
 python-openid:
@@ -12426,6 +12476,10 @@ pytone:
   version: 3.0.0-1
   issues:
     - unsorted_filelist_python_support_private
+pywbem:
+  version: 0.8.0~dev650-1
+  issues:
+    - timestamps_generated_by_docbook_to_man
 pyx:
   version: 0.12.1-3
   issues:
@@ -12735,6 +12789,10 @@ readosm:
   version: 1.0.0b+dfsg1-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+realmd:
+  version: 0.15.1-1
+  issues:
+    - timestamps_generated_by_docbook_to_man
 red5:
   version: 1.0~svn4374-4
   issues:
@@ -13189,6 +13247,10 @@ scala-mode-el:
   version: 20111005-2.1
   issues:
     - timestamps_in_emacs_autoloads
+scantailor:
+  version: 0.9.11.1-2
+  issues:
+    - timestamps_generated_by_docbook_to_man
 scantool:
   version: 1.21+dfsg-4
   issues:
@@ -13503,6 +13565,7 @@ skytools3:
   version: 3.2-2
   issues:
     - timestamps_manually_added_needs_further_investigation
+    - timestamps_generated_by_docbook_to_man
 slang2:
   version: 2.3.0-2
   issues:
@@ -13639,6 +13702,10 @@ sozi:
   version: 12.05-1
   bugs:
     - 776255
+spacezero:
+  version: 0.80.06-1
+  issues:
+    - timestamps_generated_by_docbook_to_man
 spandsp:
   version: 0.0.6-2.1
   issues:
@@ -14872,6 +14939,10 @@ vxl:
   version: 1.17.0.dfsg-1
   issues:
     - timestamps_from_cpp_macros
+waffle:
+  version: 1.5.1-1
+  issues:
+    - timestamps_generated_by_docbook_to_man
 warzone2100:
   version: 3.1.1-1
   issues:
@@ -15186,6 +15257,10 @@ xd:
     - timestamps_in_gzip_headers
   bugs:
     - 777366
+xdg-user-dirs:
+  version: 0.15-2
+  issues:
+    - timestamps_generated_by_docbook_to_man
 xdotool:
   version: 1:3.20140805.1-2
   issues:
@@ -15436,6 +15511,10 @@ xsp:
   issues:
     - timestamps_in_pe_binaries
     - timezones_manpages_podman
+xsystem35:
+  version: 1.7.3-pre5-5
+  issues:
+    - timestamps_generated_by_docbook_to_man
 xtables-addons:
   version: 2.6-1
   issues:
