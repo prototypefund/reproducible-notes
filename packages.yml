@@ -669,6 +669,7 @@ bash:
     - randomness_in_html_generated_by_texi2html
     - timestamps_in_pdf_generated_by_latex
     - pdf_created_by_ghostscript
+    - timestamps_in_documentation_generated_by_texi2html
 bashdb:
   version: 4.2.0.8-1.1
   bugs:
@@ -2561,6 +2562,7 @@ dynare:
   version: 4.4.3-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - timestamps_in_documentation_generated_by_texi2html
 easymock:
   version: 3.2+ds-4
   issues:
@@ -14428,6 +14430,10 @@ twitter-bootstrap:
   version: 2.0.2+dfsg-5
   bugs:
     - 776299
+twittering-mode:
+  version: 3.0.0-1
+  issues:
+    - timestamps_in_documentation_generated_by_texi2html
 twoftpd:
   version: 1.42-1
   issues:
