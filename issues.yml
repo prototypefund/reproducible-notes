@@ -443,7 +443,8 @@ randomness_in_objects_inv:
     Some Python documentation tool writes objects.inv files in a random order.
 randomness_in_ocaml_a_files:
   description: |
-    Some OCaml tool writes /tmp/caml*[randomness].o into its .a archives.
+    Some OCaml tool writes /tmp/caml*[randomness].o into its .a archives. Not stripped
+    by dh_strip as the filenames are not ^lib(.+).a$.
 timestamps_in_php_apigen_documentation:
   description: |
     APIgen documentation adds the time into the .zip archive comment as well as
