@@ -2120,12 +2120,11 @@ debian-installer-netboot-images:
   issues:
     - needs_internet_access_to_build
 debian-keyring:
-  version: 2014.12.10
+  version: 2015.03.04
   issues:
-    - timestamps_in_gzip_headers
     - not_using_dh_builddeb
   bugs:
-    - 777310
+    - 779963
 debian-policy:
   version: 3.9.6.1
   comments: |
