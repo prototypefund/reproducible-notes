@@ -465,6 +465,6 @@ berkeley_db_variation_requiring_further_investigation:
     This issue requires further poking to understand way.
     https://github.com/libzhuyin/libzhuyin/issues/7
   url: http://lists.alioth.debian.org/pipermail/reproducible-builds/Week-of-Mon-20150302/001188.html
-different_umasks:
+different_due_to_umask:
   description: |
     Files have varying permissions because of different umasks.
