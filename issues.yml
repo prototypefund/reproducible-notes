@@ -468,3 +468,8 @@ berkeley_db_variation_requiring_further_investigation:
 different_due_to_umask:
   description: |
     Files have varying permissions because of different umasks.
+randomness_in_qdoc:
+  description: |
+    Deterministic order of tags, files in XML. See
+    http://sources.debian.net/src/qtbase-opensource-src/5.3.2%2Bdfsg-4/src/tools/qdoc/helpprojectwriter.cpp/?hl=630#L787
+    etc.
