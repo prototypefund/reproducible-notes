@@ -13234,10 +13234,12 @@ runit:
     - timestamps_in_gzip_headers
 s3ql:
   version: 2.13+dfsg-1
+  version: 2.11.1+dfsg-1
   comments: |
-    The FTBFS problem is specific to building on jenkins.d.n,
-    building on both the Debian buildds as well as ci.d.n works fine.
-    Maintainer is aware and looking into it.
+    The FTBFS problem is probably specific to building with a pbuilder
+    in a wheezy environment as used on jenkins.d.n and reproduced elsewhere.
+    Building on both the Debian buildds as well as ci.d.n works fine.
+    Maintainer is aware.
 sa-exim:
   version: 4.2.1-14
   comments: |
