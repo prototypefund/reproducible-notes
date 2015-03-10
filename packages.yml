@@ -10902,8 +10902,15 @@ octave-struct:
     - timestamps_in_octave_doc_cache
 octave-symbolic:
   version: 1.1.0-3
+  version: 2.0.0-1
   issues:
     - timestamps_in_octave_doc_cache
+    - blacklisted_on_jenkins
+  comments: |
+    octave-symbolic has been blacklisted on reproducible.debian.net only for
+    testing the experimental suite
+    https://jenkins.debian.net/view/reproducible/job/reproducible_builder_gamma/33210/console shows where the build was hanging...
+    (This build log has been manually preserved using the jenkins UI.)
 octave-tsa:
   version: 4.2.7-2
   issues:
