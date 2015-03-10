@@ -7440,16 +7440,16 @@ libjnr-posix-java:
     - timestamps_in_maven_pom_files
     - timestamps_in_jar
     - timestamps_in_documentation_generated_by_javadoc
-libjogl2-java:
-  version: 2.2.4+dfsg-1
-  issues:
-    - random_order_in_documentation_generated_by_javadoc
 libjoda-time-java:
   version: 2.7-1
   issues:
     - timestamps_in_jar
     - different_due_to_umask
     - timestamps_in_maven_pom_files
+libjogl2-java:
+  version: 2.2.4+dfsg-1
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 libjrosetta-java:
   version: 1.0.4-4
   issues:
@@ -7458,6 +7458,10 @@ libjs-jcrop:
   version: 0.9.12+dfsg-1
   bugs:
     - 779588
+libjson-rpc-cpp:
+  version: 0.4.2-4
+  issues:
+    - ftbfs_in_jenkins_setup
 libjson-xs-perl:
   version: 2.340-1
   issues:
@@ -10903,14 +10907,14 @@ octave-struct:
 octave-symbolic:
   version: 1.1.0-3
   version: 2.0.0-1
-  issues:
-    - timestamps_in_octave_doc_cache
-    - blacklisted_on_jenkins
   comments: |
     octave-symbolic has been blacklisted on reproducible.debian.net only for
     testing the experimental suite
     https://jenkins.debian.net/view/reproducible/job/reproducible_builder_gamma/33210/console shows where the build was hanging...
     (This build log has been manually preserved using the jenkins UI.)
+  issues:
+    - timestamps_in_octave_doc_cache
+    - blacklisted_on_jenkins
 octave-tsa:
   version: 4.2.7-2
   issues:
@@ -13243,6 +13247,8 @@ s3ql:
     in a wheezy environment as used on jenkins.d.n and reproduced elsewhere.
     Building on both the Debian buildds as well as ci.d.n works fine.
     Maintainer is aware.
+  issues:
+    - ftbfs_in_jenkins_setup
 sa-exim:
   version: 4.2.1-14
   comments: |

@@ -367,6 +367,7 @@ ftbfs_in_jenkins_setup:
     1) an attempt to connect to somewhere, and hits a machine claiming to be squid on jenkins.d.n.
     2) jobs that try to bound to localhost port which are in use by somethin in the
        jenkins machines. The occupied ports are: 22, 25, 80, 443, 3128, 3129, 4949, 8080, 34167
+    3) there is some trouble with pbuilder in wheeze for a handful of packages
     Maybe also needs_internet_access_to_build.
 timestamps_in_manpage_generated_by_help2man:
   description: |
