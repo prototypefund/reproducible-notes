@@ -692,6 +692,10 @@ batik:
   comments: |
     The build script adds a custom 'Build-Id' header including a
     timestamp, the hostname, etc. to MANIFEST.MF files.
+batmand:
+  version: 0.3.2-15
+  issues:
+    - build_id_variation_requiring_further_investigation
 bb:
   version: 1.3rc1-8.1
   issues:
