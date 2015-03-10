@@ -13260,9 +13260,6 @@ pyxb:
     - timestamps_generated_by_docbook_to_man
 qbs:
   version: 1.3.3+dfsg-4
-  comments: |
-    Random order in docs. Written by
-    http://sources.debian.net/src/qtbase-opensource-src/5.3.2%2Bdfsg-4/src/tools/qdoc/helpprojectwriter.cpp/?hl=630#L787
   issues:
     - timestamps_in_qch
 qct:
@@ -13354,10 +13351,15 @@ qtbase-opensource-src:
   version: 5.3.2+dfsg-4
   issues:
     - timestamps_from_cpp_macros
+    - randomness_in_qdoc
 qtcreator:
   version: 3.2.1+dfsg-6
   issues:
     - timestamps_from_cpp_macros
+qtdeclarative-opensource-src:
+  version: 5.4.1-1
+  issues:
+    - randomness_in_qdoc
 qtdoc-opensource-src:
   version: 5.3.2-3
   issues:
@@ -13366,6 +13368,7 @@ qtenginio-opensource-src:
   version: 5.4.0-2
   issues:
     - timestamps_in_qch
+    - randomness_in_qdoc
 qterm:
   version: 1:0.5.12-1.1
   issues:
@@ -13386,14 +13389,17 @@ qtlocation-opensource-src:
   version: 5.3.2-2
   issues:
     - timestamps_in_qch
+    - randomness_in_qdoc
 qtmultimedia-opensource-src:
   version: 5.3.2-5
   issues:
     - timestamps_in_qch
+    - randomness_in_qdoc
 qtquickcontrols-opensource-src:
   version: 5.3.2-2
   issues:
     - timestamps_in_qch
+    - randomness_in_qdoc
 qtractor:
   version: 0.6.3-1
   issues:
@@ -13406,18 +13412,22 @@ qtsensors-opensource-src:
   version: 5.3.2+dfsg-2
   issues:
     - timestamps_in_qch
+    - randomness_in_qdoc
 qtserialport-opensource-src:
   version: 5.3.2-2
   issues:
     - timestamps_in_qch
+    - randomness_in_qdoc
 qtsvg-opensource-src:
   version: 5.3.2-2
   issues:
     - timestamps_in_qch
+    - randomness_in_qdoc
 qttools-opensource-src:
   version: 5.3.2-3
   issues:
     - timestamps_in_qch
+    - randomness_in_qdoc
 qtwebkit-examples-opensource-src:
   version: 5.3.2+dfsg-2
   issues:
@@ -13426,10 +13436,15 @@ qtwebsockets-opensource-src:
   version: 5.3.2-5
   issues:
     - timestamps_in_qch
+    - randomness_in_qdoc
 qtx11extras-opensource-src:
   version: 5.3.2-2
   issues:
     - timestamps_in_qch
+qtxmlpatterns-opensource-src:
+  version: 5.4.1-1
+  issues:
+    - randomness_in_qdoc
 quakespasm:
   version: 0.85.9-1
   issues:
