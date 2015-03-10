@@ -351,9 +351,6 @@ ftbfs_pbuilder_malformed_dsc:
 ftbfs_pbuilder_depends_indep:
   description: |
     Package FTBFS in pbuilder due to Build-Depends_Indep (??).
-port_8080_in_use:
-  description: |
-    FTBFS trying to bind to port 8080, which is in-use on jenkins (?), breaking CI.
 ftbfs_missing_dependencies:
   description: |
     Package has missing dependencies in sid, a proper FTBFS bug is almost certainly necessary.
@@ -364,11 +361,13 @@ timestamps_in_octave_doc_cache:
   description: |
     Octave insterts the build time, user and hostname into the doc-cache.
   url: https://bugs.debian.org/778458
-ftbfs_jenkins_squid:
+ftbfs_in_jenkins_setup:
   description: |
-    Attempts to connect to somewhere, and hits a machine claiming to be squid on jenkins.d.n.
-    Also hit for jobs that try to connect to localhost (9129?).
-    Maybe the same as needs_internet_access_to_build.
+    Could be:
+    1) an attempt to connect to somewhere, and hits a machine claiming to be squid on jenkins.d.n.
+    2) jobs that try to bound to localhost port which are in use by somethin in the
+       jenkins machines. The occupied ports are: 22, 25, 80, 443, 3128, 3129, 4949, 8080, 34167
+    Maybe also needs_internet_access_to_build.
 timestamps_in_manpage_generated_by_help2man:
   description: |
     Manpages generated with help2man embed the month and year by default.

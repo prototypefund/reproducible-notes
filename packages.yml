@@ -8600,7 +8600,7 @@ libtest-filename-perl:
 libtest-http-server-simple-stashwarnings-perl:
   version: 0.04-2
   issues:
-    - port_8080_in_use
+    - ftbfs_in_jenkins_setup
 libtest-leaktrace-perl:
   version: 0.14-2
   issues:
@@ -12329,7 +12329,7 @@ python-demgengeo:
 python-django:
   version: 1.7.4-1
   issues:
-    - port_8080_in_use
+    - ftbfs_in_jenkins_setup
 python-django-bootstrap-form:
   version: 3.1.0-5
   issues:
@@ -12404,7 +12404,7 @@ python-networkx:
 python-novaclient:
   version: 2:2.18.1-1
   issues:
-    - ftbfs_jenkins_squid
+    - ftbfs_in_jenkins_setup
 python-numpy:
   version: 1.8.2-2
   comments: |
@@ -13064,7 +13064,7 @@ ruby-cri:
 ruby-curb:
   version: 0.8.6-1
   issues:
-    - ftbfs_jenkins_squid
+    - ftbfs_in_jenkins_setup
 ruby-dbi:
   version: 0.4.5-3
   issues:
@@ -13085,7 +13085,7 @@ ruby-em-hiredis:
 ruby-em-socksify:
   version: 0.3.0-1
   issues:
-    - port_8080_in_use
+    - ftbfs_in_jenkins_setup
 ruby-expression-parser:
   version: 0.9.1-2
   issues:
@@ -13113,7 +13113,7 @@ ruby-hoe:
 ruby-http:
   version: 0.6.1-1
   issues:
-    - port_8080_in_use
+    - ftbfs_in_jenkins_setup
 ruby-http-connection:
   version: 1.4.4-1
   issues:
@@ -14412,7 +14412,7 @@ tomcat6:
 tomcat7:
   version: 7.0.56-1
   issues:
-    - port_8080_in_use
+    - ftbfs_in_jenkins_setup
 tomcat8:
   version: 8.0.14-1
   issues:
@@ -15506,7 +15506,7 @@ xmlgraphics-commons:
 xmlrpc-c:
   version: 1.33.14-0.2
   issues:
-    - port_8080_in_use
+    - ftbfs_in_jenkins_setup
 xmlstreambuffer:
   version: 1.5.1-1
   issues:
