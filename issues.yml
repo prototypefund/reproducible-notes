@@ -324,6 +324,7 @@ timezones_manpages_podman:
     This issue is similar to timestamps_in_documentation_generated_by_podman.
     The embedded timestamps are not from the actual build time, but instead deterministic ones
     that are only varying because of differing timezones between builds.
+  url: https://bugs.debian.org/780259
 random_order_in_dictionary_debconf_templates:
   description: |
     dictionaries-common-dev generates Debconf templates with a
