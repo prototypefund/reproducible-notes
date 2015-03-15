@@ -371,6 +371,9 @@ ftbfs_in_jenkins_setup:
        jenkins machines. The occupied ports are: 22, 25, 80, 443, 3128, 3129, 4949, 8080, 34167
     3) there is some trouble with pbuilder in wheezy for a handful of packages
     Maybe also needs_internet_access_to_build.
+timestamps_in_manpage_generated_by_txt2man:
+  description: |
+    Manpages generated with txt2man embed the date.
 timestamps_in_manpage_generated_by_help2man:
   description: |
     Manpages generated with help2man embed the month and year by default.
