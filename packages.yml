@@ -7272,12 +7272,6 @@ libgadu:
   version: 1:1.12.0-5
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-libgcrypt11:
-  version: 1.5.4-3
-  comments: |
-    Manually embeds BUILD_TIMESTAMP from custom configure.ac
-  issues:
-    - timestamps_in_dvi_generated_by_latex
 libgcrypt20:
   version: 1.6.2-4
   comments: |
