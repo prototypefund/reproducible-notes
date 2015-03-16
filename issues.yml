@@ -371,6 +371,10 @@ ftbfs_in_jenkins_setup:
        jenkins machines. The occupied ports are: 22, 25, 80, 443, 3128, 3129, 4949, 8080, 34167
     3) there is some trouble with pbuilder in wheezy for a handful of packages
     Maybe also needs_internet_access_to_build.
+timestamps_in_description_files_generated_by_r-base-dev:
+  description: |
+    r-base-dev leaves a build timestamp (showing date + time + timezone) in
+    the /usr/lib/R/library/*/Description files it generates.
 timestamps_in_manpage_generated_by_txt2man:
   description: |
     Manpages generated with txt2man embed the date.
