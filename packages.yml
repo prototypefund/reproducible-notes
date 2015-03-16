@@ -16263,6 +16263,13 @@ xmds-doc:
   version: 0~svn.1884-3.1
   issues:
     - timestamps_in_pdf_generated_by_latex
+libfurl-perl:
+  version: 3.05-1
+  comments: |
+    Build hangs forever...
+    Package has been blacklisted for now.
+  issues:
+    - blacklisted_on_jenkins
 xmds2:
   version: 2.2.1+dfsg-1
   comments: |
