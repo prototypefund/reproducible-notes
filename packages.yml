@@ -14458,8 +14458,8 @@ simplyhtml:
     - timestamps_generated_by_docbook_to_man
 simutrans-pak128.britain:
   version: 1.09-1
-  issues:
-    - ftbfs_pbuilder_depends_indep
+  comments: |
+    Seems like a ftbfs bug should be filed. h01ger is on it.
 sinfo:
   version: 0.0.47-3
   issues:
