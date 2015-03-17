@@ -356,9 +356,10 @@ ftbfs_build_depends_not_available_on_amd64:
     Relevant URLs:
     - https://wiki.debian.org/Build-Depends-Indep
     - https://bugs.launchpad.net/launchpad/+bug/217427
-ftbfs_missing_dependencies:
+ftbfs_due_to_virtual_dependencies:
   description: |
-    Package has missing dependencies in sid, a proper FTBFS bug is almost certainly necessary.
+    Package has virtual build dependencies or conflicts without listing a real package as alternative first. This causes pbuilder to fail the build and it also makes it virtually impossible to reproducible build the package.
+  url: https://lintian.debian.org/tags/virtual-package-depends-without-real-package-depends.html
 lc_messages_randomness:
   description: |
     Some unknown variation in LC_MESSAGES/....mo, not diagnosed by debbindiff.

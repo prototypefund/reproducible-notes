@@ -1182,7 +1182,7 @@ botan1.10:
 botch:
   version: 0.5-1~experimental1
   issues:
-    - ftbfs_missing_dependencies
+    - ftbfs_due_to_virtual_dependencies
     - timezones_manpages_podman
 box2d:
   version: 2.3.1+ds-1
@@ -1234,7 +1234,7 @@ bsh:
 bsl:
   version: 0.6.0-1
   issues:
-    - ftbfs_missing_dependencies
+    - ftbfs_due_to_virtual_dependencies
 buildapp:
   version: 1.5-1
   issues:
@@ -1696,7 +1696,7 @@ cmucl:
   comments: |
     It build-depends on itself for the arch:i386 package
   issues:
-    - ftbfs_missing_dependencies
+    - ftbfs_due_to_virtual_dependencies
 cnrun:
   version: 1.1.14-1
   issues:
@@ -1993,31 +1993,31 @@ cross-binutils:
 cross-gcc-4.9-arm64:
   version: 11
   issues:
-    - ftbfs_missing_dependencies
+    - ftbfs_due_to_virtual_dependencies
 cross-gcc-4.9-armel:
   version: 11
   issues:
-    - ftbfs_missing_dependencies
+    - ftbfs_due_to_virtual_dependencies
 cross-gcc-4.9-armhf:
   version: 11
   issues:
-    - ftbfs_missing_dependencies
+    - ftbfs_due_to_virtual_dependencies
 cross-gcc-4.9-mips:
   version: 11
   issues:
-    - ftbfs_missing_dependencies
+    - ftbfs_due_to_virtual_dependencies
 cross-gcc-4.9-mipsel:
   version: 11
   issues:
-    - ftbfs_missing_dependencies
+    - ftbfs_due_to_virtual_dependencies
 cross-gcc-4.9-powerpc:
   version: 11
   issues:
-    - ftbfs_missing_dependencies
+    - ftbfs_due_to_virtual_dependencies
 cross-gcc-4.9-ppc64el:
   version: 11
   issues:
-    - ftbfs_missing_dependencies
+    - ftbfs_due_to_virtual_dependencies
 crrcsim:
   version: 0.9.12-6.1
   issues:
@@ -3949,7 +3949,7 @@ gcin:
 gcj-4.6:
   version: 4.6.4-2
   issues:
-    - ftbfs_missing_dependencies
+    - ftbfs_due_to_virtual_dependencies
 gcl:
   version: 2.6.12-1
   issues:
@@ -4127,7 +4127,7 @@ ghc:
 ghdl:
   version: 0.29+gcc4.3.4+dfsg-1.1
   issues:
-    - ftbfs_missing_dependencies
+    - ftbfs_due_to_virtual_dependencies
 giflib:
   version: 4.1.6-11
   issues:
@@ -4638,7 +4638,7 @@ gpsd:
 gpsdrive:
   version: 2.10~pre4-6.dfsg-5.2
   issues:
-    - ftbfs_missing_dependencies
+    - ftbfs_due_to_virtual_dependencies
 gpsmanshp:
   version: 1.2.3-4
   issues:
@@ -4846,7 +4846,7 @@ guile-1.8:
 guile-gnome-platform:
   version: 2.16.2-1.1
   issues:
-    - ftbfs_missing_dependencies
+    - ftbfs_due_to_virtual_dependencies
 gutenprint:
   version: 5.2.10-3
   comments: |
@@ -4869,7 +4869,7 @@ gwave:
 gwhere:
   version: 0.2.3.dfsg.1-4
   issues:
-    - ftbfs_missing_dependencies
+    - ftbfs_due_to_virtual_dependencies
 gyoto:
   version: 0.2.3-1
   issues:
@@ -5094,7 +5094,7 @@ horizon:
 horst:
   version: 4.0-1
   issues:
-    - ftbfs_missing_dependencies
+    - ftbfs_due_to_virtual_dependencies
 hp-search-mac:
   version: 0.1.3
   issues:
@@ -5480,7 +5480,7 @@ isrcsubmit:
 iulib:
   version: 0.3-3.1
   issues:
-    - ftbfs_missing_dependencies
+    - ftbfs_due_to_virtual_dependencies
 ivtools:
   version: 1.2.11a1-5
   issues:
@@ -6496,7 +6496,7 @@ libcatalyst-plugin-authorization-roles-perl:
 libcatalyst-plugin-email-perl:
   version: 0.08-1
   issues:
-    - ftbfs_missing_dependencies
+    - ftbfs_due_to_virtual_dependencies
 libcatalyst-plugin-session-perl:
   version: 0.39-2
   issues:
@@ -9292,7 +9292,7 @@ libterm-size-perl-perl:
 libtest-cgi-multipart-perl:
   version: 0.0.3-1
   issues:
-    - ftbfs_missing_dependencies
+    - ftbfs_due_to_virtual_dependencies
 libtest-checkchanges-perl:
   version: 0.14-1
   issues:
@@ -10681,7 +10681,7 @@ mockito:
 mod-auth-mysql:
   version: 4.3.9-13.1
   issues:
-    - ftbfs_missing_dependencies
+    - ftbfs_due_to_virtual_dependencies
 mod-authn-webid:
   version: 0~20110301-2
   issues:
@@ -11312,7 +11312,7 @@ node-tap:
 node-xmpp:
   version: 0.3.2-1
   issues:
-    - ftbfs_missing_dependencies
+    - ftbfs_due_to_virtual_dependencies
 node-zlib:
   version: 1.0.5-1
   bugs:
@@ -11994,7 +11994,7 @@ openmsx-catapult:
 opennebula:
   version: 3.4.1-4.1
   issues:
-    - ftbfs_missing_dependencies
+    - ftbfs_due_to_virtual_dependencies
 openni:
   version: 1.5.4.0-8
   issues:
@@ -12155,7 +12155,7 @@ p3scan:
 pacemaker-mgmt:
   version: 2.0.0+hg1141-2.3
   issues:
-    - ftbfs_missing_dependencies
+    - ftbfs_due_to_virtual_dependencies
 pachi:
   version: 1:1.0-7
   issues:
@@ -12555,11 +12555,11 @@ pirl:
 pixbros:
   version: 0.6.3-1
   issues:
-    - ftbfs_missing_dependencies
+    - ftbfs_due_to_virtual_dependencies
 pixfrogger:
   version: 1.0-3
   issues:
-    - ftbfs_missing_dependencies
+    - ftbfs_due_to_virtual_dependencies
 pixmap:
   version: 2.6pl4-18
   issues:
@@ -12973,7 +12973,7 @@ py3cairo:
 pyabiword:
   version: 0.8.0-11
   issues:
-    - ftbfs_missing_dependencies
+    - ftbfs_due_to_virtual_dependencies
 pyacidobasic:
   version: 2.2-1
   issues:
@@ -13217,7 +13217,7 @@ python-gflags:
 python-glance-store:
   version: 0.1.10-1
   issues:
-    - ftbfs_missing_dependencies
+    - ftbfs_due_to_virtual_dependencies
 python-glpk:
   version: 0.4.52-1.1
   bugs:
@@ -15730,7 +15730,7 @@ vdk2:
 vdkbuilder2:
   version: 2.4.0-4.4
   issues:
-    - ftbfs_missing_dependencies
+    - ftbfs_due_to_virtual_dependencies
 vdr-plugin-dvd:
   version: 0.3.6~b03+cvs20090426.0013-20
   issues:
