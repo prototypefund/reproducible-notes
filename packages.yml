@@ -12872,7 +12872,7 @@ prolix:
 proll:
   version: 18-6
   comments: |
-    This package build-depends on a arch:sparc
+    This package build-depends on sparc-utils which is only available on arch:sparc.
   issues:
     - ftbfs_build_depends_not_available_on_amd64
 properties-maven-plugin:
