@@ -350,9 +350,12 @@ ftbfs_pbuilder_malformed_dsc:
   description: |
     Package FTBFS in pbuilder due to a malformed .dsc, breaking CI.
   url: https://bugs.debian.org/741617
-ftbfs_pbuilder_depends_indep:
+ftbfs_build_depends_not_available_on_amd64:
   description: |
-    Package FTBFS in pbuilder due to Build-Depends_Indep (??).
+    Package build depends on some package(s), which are not available on amd64.
+    Relevant URLs:
+    - https://wiki.debian.org/Build-Depends-Indep
+    - https://bugs.launchpad.net/launchpad/+bug/217427
 ftbfs_missing_dependencies:
   description: |
     Package has missing dependencies in sid, a proper FTBFS bug is almost certainly necessary.

@@ -10812,6 +10812,8 @@ mozart-stdlib:
   version: 20060615-6
   comments: |
     build-depends on mozart, which is not available on amd64
+  issues:
+    - ftbfs_build_depends_not_available_on_amd64
 mozilla-dom-inspector:
   version: 1:2.0.14-1
   issues:
@@ -12871,9 +12873,8 @@ proll:
   version: 18-6
   comments: |
     This package build-depends on a arch:sparc
-    It'd be great something like http://pad.lv/217427
   issues:
-    - ftbfs_missing_dependencies
+    - ftbfs_build_depends_not_available_on_amd64
 properties-maven-plugin:
   version: 1.0~alpha2-2
   issues:
@@ -14284,7 +14285,9 @@ scscp-imcce:
 scsh-install-lib:
   version: 1.3.0-1
   issues:
-    - ftbfs_missing_dependencies
+    - ftbfs_build_depends_not_available_on_amd64
+  bugs:
+    - 534059
 scummvm:
   version: 1.7.0+dfsg-1
   issues:
