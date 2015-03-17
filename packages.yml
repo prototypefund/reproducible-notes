@@ -230,7 +230,6 @@ activemq-activeio:
 activiz.net:
   version: 1:1.0~git20111214-2
   issues:
-    - debbindiff_runs_forever
     - timestamps_in_documentation_generated_by_doxygen
 ada-reference-manual:
   version: 2012.2-3
@@ -1626,10 +1625,6 @@ clirr-maven-plugin:
   version: 2.3-1
   issues:
     - random_order_in_maven_plugin_xml
-clisp:
-  version: 1:2.49-10
-  issues:
-    - debbindiff_runs_forever
 clojure-contrib:
   version: 1.2.0-2
   issues:
@@ -2549,10 +2544,6 @@ din:
   version: 5.2.1-3
   issues:
     - timestamps_generated_by_docbook_to_man
-ding:
-  version: 1.7-3
-  issues:
-    - debbindiff_runs_forever
 diploma:
   version: 1.2.11
   issues:
@@ -2855,10 +2846,6 @@ echoping:
   version: 6.0.2-8
   issues:
     - timestamps_in_static_libraries
-ecl:
-  version: 13.5.1+dfsg2-4.2
-  issues:
-    - debbindiff_runs_forever
 eclib:
   version: 2014-09-21-1
   issues:
@@ -3216,10 +3203,6 @@ estic:
   version: 1.61-20.1
   bugs:
     - 759844
-esys-particle:
-  version: 2.3-2
-  issues:
-    - debbindiff_runs_forever
 eterm:
   version: 0.9.6-1
   issues:
@@ -3932,6 +3915,14 @@ gcc-4.4:
   issues:
     - timestamps_in_documentation_generated_by_doxygen
     - timestamps_in_dvi_generated_by_latex
+gcc-5:
+  version:  5-20150316-1
+  comments: |
+    Temporarily blacklisted as the build takes 14h and as debbindiff produces no output and thus will be killed after running into timeout anyway...
+    Should be unblacklisted once testing has been fully tested.
+  issues:
+    - blacklisted_on_jenkins
+    - debbindiff_runs_forever
 gcc-arm-none-eabi:
   version: 11
   bugs:
@@ -3993,7 +3984,7 @@ gdbm:
 gdcm:
   version: 2.4.4.-3
   issues:
-    - debbindiff_runs_forever
+    - timestamps_in_documentation_generated_by_doxygen
 gdebi:
   version: 0.9.5.5+nmu1
   comments: |
@@ -5377,10 +5368,6 @@ ioquake3:
   version: 1.36+u20140802+gca9eebb-2
   issues:
     - timestamps_from_cpp_macros
-ipadic:
-  version: 2.7.0+main-3
-  issues:
-    - debbindiff_runs_forever
 iproute2:
   version: 3.16.0-2
   issues:
@@ -8138,8 +8125,6 @@ libmarc-charset-perl:
   version: 1.35-1
   comments: |
     usr/lib/libmarc-charset-perl/Table is a large DBM file.
-  issues:
-    - debbindiff_runs_forever
 libmarpa-r2-perl:
   version: 2.086000~dfsg-3
   issues:
@@ -8892,10 +8877,6 @@ libquvi:
   version: 0.4.1-3
   issues:
     - random_order_in_naturaldocs
-libqxt:
-  version: 0.6.2-1
-  issues:
-    - debbindiff_runs_forever
 librabbitmq:
   version: 0.5.2-2
   issues:
@@ -10332,10 +10313,6 @@ mathomatic:
   version: 15.8.2-2
   issues:
     - timestamps_in_documentation_generated_by_htmldoc
-matplotlib:
-  version: 1.4.2-3
-  issues:
-    - debbindiff_runs_forever
 matroxset:
   version: 0.4-8
   issues:
@@ -12060,10 +12037,6 @@ openttd:
   version: 1.4.4-2
   issues:
     - timestamps_from_cpp_macros
-openturns:
-  version: 1.3-2
-  issues:
-    - debbindiff_runs_forever
 openvdb:
   version: 2.3.0-2
   issues:
@@ -14220,10 +14193,6 @@ scheme2c:
   version: 2012.10.14-1
   issues:
     - timestamps_in_pdf_generated_by_latex
-scheme48:
-  version: 1.9-5
-  issues:
-    - debbindiff_runs_forever
 schism:
   version: 2:0+20110101-1
   issues:
@@ -15917,7 +15886,6 @@ vserver-debiantools:
 vtk:
   version: 5.8.0-17.5
   issues:
-    - debbindiff_runs_forever
     - timestamps_in_documentation_generated_by_doxygen
 vtk-dicom:
   version: 0.5.5-2
