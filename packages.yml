@@ -4046,6 +4046,10 @@ geogebra:
   version: 4.0.34.0+dfsg1-3
   issues:
     - timestamps_generated_by_docbook_to_man
+geoip-database:
+  version: 20150317-1
+  comments: |
+    Embeds the build date (mangled by local timezone) into the geoip databases it ships.
 geos:
   version: 3.4.2-6
   issues:
