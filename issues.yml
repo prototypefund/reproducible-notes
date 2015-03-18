@@ -374,6 +374,7 @@ ftbfs_in_jenkins_setup:
     2) jobs that try to bind to localhost port which are in use by something in the
        jenkins machines. The occupied ports are: 22, 25, 80, 443, 3128, 3129, 4949, 8080, 34167
     3) there is some trouble with pbuilder in wheezy for a handful of packages, usually with tests involving networking.
+    4.) something else, eg #780725
   url: https://bugs.debian.org/780587
 timestamps_in_description_files_generated_by_r-base-dev:
   description: |

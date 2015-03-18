@@ -14444,7 +14444,12 @@ simplyhtml:
 simutrans-pak128.britain:
   version: 1.09-1
   comments: |
-    Seems like a ftbfs bug should be filed. h01ger is on it.
+    Fails to build due to /usr/games not in PATH, see bug #780724
+  bugs:
+    - 780724
+    - 780725
+  issues:
+    - ftbfs_in_jenkins_setup
 sinfo:
   version: 0.0.47-3
   issues:
