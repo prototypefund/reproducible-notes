@@ -2752,6 +2752,10 @@ dtc-xen:
     - timestamps_in_gzip_headers
   bugs:
     - 777322
+dtd-parser:
+  version: 1.2~svn20110404-1
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 dune-common:
   version: 2.3.1-1
   issues:
