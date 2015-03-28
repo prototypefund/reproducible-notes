@@ -9190,12 +9190,6 @@ libsys-cpu-perl:
   version: 0.61-1
   issues:
     - timezones_manpages_podman
-libsys-gamin-perl:
-  version: 0.1-2
-  comments: |
-    First build killed after more than 34h... hung at test-suite...
-  issues:
-    - blacklisted_on_jenkins
 libsys-hostname-long-perl:
   version: 1.4-3
   issues:
