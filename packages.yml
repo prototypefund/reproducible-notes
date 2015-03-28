@@ -1,167 +1,3 @@
-python-glanceclient:
-  version: 0.15.0-1
-  issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
-notmuch:
-  version: 0.19-1
-  issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
-lava-dispatcher:
-  version: 2015.03-1
-  issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
-openstack-doc-tools:
-  version: 0.19-2
-  issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
-python-muranoclient:
-  version: 0.5.5-1
-  issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
-python-keystoneclient:
-  version: 0.11.1-1
-  issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
-zathura:
-  version: 0.3.2-1
-  issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
-python-saharaclient:
-  version: 0.7.3-1
-  issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
-owncloud-client:
-  version: 1.7.1+dfsg-1
-  issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
-lava-server:
-  version: 2015.03-1
-  issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
-python-openstackclient:
-  version: 1.0.2-2
-  issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
-nova:
-  version: 2014.2.2-4
-  issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
-salt:
-  version: 2014.7.0+ds-2
-  issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
-munin:
-  version: 2.1.9-1
-  issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
-pyqi:
-  version: 0.3.2+dfsg-1
-  issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
-python-tuskarclient:
-  version: 0.1.4-1
-  issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
-syncevolution:
-  version: 1.4.99.4-3
-  issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
-pyqi:
-  version: 0.3.2+dfsg-1
-  issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
-python-flask-httpauth:
-  version: 2.2.1-1
-  issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
-isrcsubmit:
-  version: 2.0.0-1
-  issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
-nova:
-  version: 2014.1.3-11
-  issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
-livestreamer:
-  version: 1.12.0-1
-  issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
-powerline:
-  version: 2.1-1
-  issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
-htseq:
-  version: 0.5.4p3-2
-  issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
-cmake:
-  version: 3.0.2-1
-  issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
-hy:
-  version: 0.10.1-1
-  issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
-zathura:
-  version: 0.3.1-2
-  issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
-codetools:
-  version: 0.2-11-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-digest:
-  version: 0.6.8-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-mass:
-  version: 7.3.40-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-readmzxmldata:
-  version: 2.8-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-abind:
-  version: 1.4-3-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-pscl:
-  version: 1.4.8-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-coda:
-  version: 0.17-1-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-rquantlib:
-  version: 0.4.0-2
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-vgam:
-  version: 0.9-7-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-oss4:
-  version: 4.2-build2010-2
-  issues:
-    - timestamps_in_manpage_generated_by_txt2man
-calibre:
-  version: 2.20.0+dfsg-1
-  issues:
-    - timestamps_in_manpage_generated_by_txt2man
-aubio:
-  version: 0.4.1-2
-  issues:
-    - timestamps_in_manpage_generated_by_txt2man
-txt2man:
-  version: 1.5.6-1
-  issues:
-    - timestamps_in_manpage_generated_by_txt2man
-daisy-player:
-  version: 10.2.1-1
-  issues:
-    - timestamps_in_manpage_generated_by_txt2man
 0ad:
   version: 0.0.17-1
   issues:
@@ -188,6 +24,10 @@ abcm2ps:
   version: 7.8.9-1
   issues:
     - timestamps_from_cpp_macros
+abind:
+  version: 1.4-3-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 abinit:
   version: 7.8.2-2
   issues:
@@ -1323,6 +1163,10 @@ calendar:
   version: 2.03.2-3
   issues:
     - randomness_in_ocaml_a_files
+calibre:
+  version: 2.20.0+dfsg-1
+  issues:
+    - timestamps_in_manpage_generated_by_txt2man
 calligra:
   version: 1:2.8.5+dfsg-1
   issues:
@@ -1743,6 +1587,10 @@ codenarc:
   version: 0.17-2
   issues:
     - timestamps_in_documentation_generated_by_groovydoc
+codetools:
+  version: 0.2-11-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 cogl:
   version: 1.18.2-3
   issues:
@@ -2177,6 +2025,10 @@ dahdi-linux:
   version: 1:2.10.0.1~dfsg-1
   bugs:
     - 776622
+daisy-player:
+  version: 10.2.1-1
+  issues:
+    - timestamps_in_manpage_generated_by_txt2man
 dancer-xml:
   version: 0.8.2.1-3
   issues:
@@ -3621,6 +3473,10 @@ fonts-junicode:
   version: 0.7.8-2
   bugs:
     - 774275
+fonts-kacst-one:
+  version: 5.0+svn11846-7
+  issues:
+    - fontforge_reset_modification_time
 fonts-ocr-a:
   version: 1.0-6
   comments: |
@@ -3943,7 +3799,7 @@ gcc-4.4:
     - timestamps_in_documentation_generated_by_doxygen
     - timestamps_in_dvi_generated_by_latex
 gcc-5:
-  version:  5-20150316-1
+  version: 5-20150316-1
   comments: |
     Temporarily blacklisted as the build takes 14h and as debbindiff produces no output and thus will be killed after running into timeout anyway...
     Should be unblacklisted once testing has been fully tested.
@@ -5182,6 +5038,10 @@ hwloc:
   version: 1.10.0-3
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+hy:
+  version: 0.10.1-1
+  issues:
+    - timestamps_in_manpage_generated_by_restructuredtext
 hybserv:
   version: 1.9.5-1
   issues:
@@ -6076,6 +5936,14 @@ latexml:
   version: 0.8.0-1
   issues:
     - random_order_in_grammar
+lava-dispatcher:
+  version: 2015.03-1
+  issues:
+    - timestamps_in_manpage_generated_by_restructuredtext
+lava-server:
+  version: 2015.03-1
+  issues:
+    - timestamps_in_manpage_generated_by_restructuredtext
 lcdproc:
   version: 0.5.7-2
   issues:
@@ -7437,6 +7305,13 @@ libftdi:
   version: 0.20-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libfurl-perl:
+  version: 3.05-1
+  comments: |
+    Build hangs forever...
+    Package has been blacklisted for now.
+  issues:
+    - blacklisted_on_jenkins
 libgadu:
   version: 1:1.12.0-5
   issues:
@@ -10927,6 +10802,10 @@ munge-maven-plugin:
   version: 1.0-1
   issues:
     - random_order_in_maven_plugin_xml
+munin:
+  version: 2.1.9-1
+  issues:
+    - timestamps_in_manpage_generated_by_restructuredtext
 munin-c:
   version: 0.0.9-1
   issues:
@@ -11354,6 +11233,10 @@ notmuch:
   version: 0.19-1
   issues:
     - timezones_manpages_podman
+nova:
+  version: 2014.1.3-11
+  issues:
+    - timestamps_in_manpage_generated_by_restructuredtext
 novena-eeprom:
   version: 1.0-1
   issues:
@@ -12056,6 +11939,10 @@ openssl:
   issues:
     - timestamps_in_static_libraries
     - timezones_manpages_podman
+openstack-doc-tools:
+  version: 0.19-2
+  issues:
+    - timestamps_in_manpage_generated_by_restructuredtext
 openstack-trove:
   version: 2014.1.3-8
   bugs:
@@ -12124,6 +12011,10 @@ osptoolkit:
   version: 3.4.2-1.2
   issues:
     - timestamps_generated_by_docbook_to_man
+oss4:
+  version: 4.2-build2010-2
+  issues:
+    - timestamps_in_manpage_generated_by_txt2man
 owncloud:
   version: 7.0.5~rc1+dfsg-1
   issues:
@@ -13226,6 +13117,10 @@ python-glance-store:
   version: 0.1.10-1
   issues:
     - ftbfs_due_to_virtual_dependencies
+python-glanceclient:
+  version: 0.15.0-1
+  issues:
+    - timestamps_in_manpage_generated_by_restructuredtext
 python-glpk:
   version: 0.4.52-1.1
   bugs:
@@ -13239,6 +13134,10 @@ python-igraph:
   version: 0.6.5-1
   bugs:
     - 759858
+python-keystoneclient:
+  version: 0.11.1-1
+  issues:
+    - timestamps_in_manpage_generated_by_restructuredtext
 python-kinterbasdb:
   version: 3.3.0-3
   comments: |
@@ -13247,6 +13146,10 @@ python-mockito:
   version: 0.5.2-4
   issues:
     - random_order_in_egg_info_top_level_txt
+python-muranoclient:
+  version: 0.5.5-1
+  issues:
+    - timestamps_in_manpage_generated_by_restructuredtext
 python-musicbrainz2:
   version: 0.7.4-1
   issues:
@@ -13284,6 +13187,10 @@ python-openid:
   version: 2.2.5-6
   issues:
     - use_epydoc
+python-openstackclient:
+  version: 1.0.2-2
+  issues:
+    - timestamps_in_manpage_generated_by_restructuredtext
 python-oslo.db:
   version: 1.0.2-1
   issues:
@@ -13338,6 +13245,10 @@ python-rtslib-fb:
   version: 2.1.45-4
   issues:
     - use_epydoc
+python-saharaclient:
+  version: 0.7.3-1
+  issues:
+    - timestamps_in_manpage_generated_by_restructuredtext
 python-scipy:
   version: 0.14.1-1
   issues:
@@ -13368,6 +13279,10 @@ python-tldap:
   version: 0.3.9-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
+python-tuskarclient:
+  version: 0.1.4-1
+  issues:
+    - timestamps_in_manpage_generated_by_restructuredtext
 python-urllib3:
   version: 1.9.1-3
   issues:
@@ -13665,14 +13580,38 @@ r-base:
   version: 3.1.2-2
   issues:
     - timestamps_in_gzip_headers
+r-cran-coda:
+  version: 0.17-1-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-digest:
+  version: 0.6.8-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 r-cran-gbm:
   version: 2.1-1
   issues:
     - dh_fixmtimes_runs_before_dh_always_exclude
+r-cran-mass:
+  version: 7.3.40-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 r-cran-ncdf4:
   version: 1.13-1
   issues:
     - dh_fixmtimes_runs_before_dh_always_exclude
+r-cran-pscl:
+  version: 1.4.8-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-readmzxmldata:
+  version: 2.8-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-vgam:
+  version: 0.9-7-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 r5rs-doc:
   version: 20010328-7
   bugs:
@@ -13868,6 +13807,10 @@ rpy:
   version: 1.0.3-30
   issues:
     - timestamps_in_pdf_generated_by_latex
+rquantlib:
+  version: 0.4.0-2
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 rrdtool:
   version: 1.4.8-1.2
   issues:
@@ -14468,11 +14411,11 @@ simutrans-pak128.britain:
   version: 1.09-1
   comments: |
     Fails to build due to /usr/games not in PATH, see bug #780724
+  issues:
+    - ftbfs_in_jenkins_setup
   bugs:
     - 780724
     - 780725
-  issues:
-    - ftbfs_in_jenkins_setup
 sinfo:
   version: 0.0.47-3
   issues:
@@ -15017,6 +14960,10 @@ sylpheed:
   version: 3.5.0~beta1~r3426-1
   issues:
     - timezones_manpages_podman
+syncevolution:
+  version: 1.4.99.4-3
+  issues:
+    - timestamps_in_manpage_generated_by_restructuredtext
 synfig:
   version: 0.64.2-1
   issues:
@@ -15538,6 +15485,10 @@ tworld:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+txt2man:
+  version: 1.5.6-1
+  issues:
+    - timestamps_in_manpage_generated_by_txt2man
 txtorcon:
   version: 0.11.0-1
   issues:
@@ -15786,7 +15737,8 @@ velvet:
     - timestamps_in_pdf_generated_by_latex
 vera:
   version: 1.21-1
-  comments: fixed in unstable
+  comments: |
+    fixed in unstable
   bugs:
     - 776367
 verilator:
@@ -16356,10 +16308,6 @@ xfonts-kaname:
     - timestamps_in_gzip_headers
   bugs:
     - 778227
-fonts-kacst-one:
-  version: 5.0+svn11846-7
-  issues:
-    - fontforge_reset_modification_time
 xfonts-kappa20:
   version: 0.396-3
   issues:
@@ -16422,13 +16370,6 @@ xmds-doc:
   version: 0~svn.1884-3.1
   issues:
     - timestamps_in_pdf_generated_by_latex
-libfurl-perl:
-  version: 3.05-1
-  comments: |
-    Build hangs forever...
-    Package has been blacklisted for now.
-  issues:
-    - blacklisted_on_jenkins
 xmds2:
   version: 2.2.1+dfsg-1
   comments: |
