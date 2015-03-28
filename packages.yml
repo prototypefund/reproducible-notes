@@ -4207,13 +4207,6 @@ gitmagic:
   version: 20140125-1
   issues:
     - timestamps_in_pdf_generated_by_latex
-gitolite:
-  version: 2.3-1
-  issues:
-    - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
-  bugs:
-    - 777406
 gitolite3:
   version: 3.6.1-2
   issues:
@@ -15791,10 +15784,6 @@ velvet:
   version: 1.2.10+dfsg1-1
   issues:
     - timestamps_in_pdf_generated_by_latex
-venkman:
-  version: 0.9.89-1
-  issues:
-    - xpi_pack_saves_extra_attributes_in_jar
 vera:
   version: 1.21-1
   comments: fixed in unstable
