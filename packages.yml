@@ -2378,7 +2378,7 @@ dict-foldoc:
   bugs:
     - 776397
 dict-gazetteer2k:
-  version: 776376
+  version: 1.0.0-5.2
   bugs:
     - 776376
 dict-moby-thesaurus:
@@ -3865,7 +3865,7 @@ gdbm:
   bugs:
     - 774394
 gdcm:
-  version: 2.4.4.-3
+  version: 2.4.4-3
   issues:
     - timestamps_in_documentation_generated_by_doxygen
 gdebi:
@@ -7393,7 +7393,7 @@ libgnome2-gconf-perl:
   issues:
     - timezones_manpages_podman
 libgnome2-perl:
-  version: 1.045-1+b1
+  version: 1.045-1
   issues:
     - randomness_in_glib_signals_in_generated_perl_pod_files
     - timezones_manpages_podman
@@ -7410,7 +7410,7 @@ libgnumail-java:
   issues:
     - timestamp_in_java_bnd_manifest
 libgoo-canvas-perl:
-  version: 0.06-2+b1
+  version: 0.06-2
   issues:
     - randomness_in_glib_signals_in_generated_perl_pod_files
     - timezones_manpages_podman
@@ -13584,7 +13584,7 @@ r-cran-gbm:
   issues:
     - dh_fixmtimes_runs_before_dh_always_exclude
 r-cran-mass:
-  version: 7.3.40-1
+  version: 7.3-40-1
   issues:
     - timestamps_in_description_files_generated_by_r-base-dev
 r-cran-ncdf4:
@@ -15493,8 +15493,10 @@ tyxml:
   issues:
     - randomness_in_ocaml_a_files
 u-boot:
+  version: 2014.10+dfsg1-4
   comments: |
-    Maintainer explained that it's only reproducible on arches that only build a u-boot-tools .deb
+    Maintainer explained that it's only reproducible on arches that only build the
+    u-boot-tools binary (the others binaries are for !amd64
 uanytun:
   version: 0.3.5-1
   comments: |
