@@ -14398,15 +14398,6 @@ simplyhtml:
   version: 0.16.08-1
   issues:
     - timestamps_generated_by_docbook_to_man
-simutrans-pak128.britain:
-  version: 1.09-1
-  comments: |
-    Fails to build due to /usr/games not in PATH, see bug #780724
-  issues:
-    - ftbfs_in_jenkins_setup
-  bugs:
-    - 780724
-    - 780725
 sinfo:
   version: 0.0.47-3
   issues:
