@@ -16379,6 +16379,10 @@ xmlrpc-c:
   version: 1.33.14-0.2
   issues:
     - ftbfs_in_jenkins_setup
+  comments: |
+    There is a wishlist bug (#722503) to not use port 8080 for the abyss tests.
+  bugs:
+    - 722503
 xmlstreambuffer:
   version: 1.5.1-1
   issues:
