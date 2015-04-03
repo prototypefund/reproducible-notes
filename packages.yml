@@ -13981,6 +13981,13 @@ ruby-mocha:
   version: 1.1.0-1
   issues:
     - timestamps_in_documentation_generated_by_yard
+ruby-patron:
+  version: 0.4.18-2
+  comments: |
+    Builds hangs forever in testsuite, see
+    https://jenkins.debian.net/view/reproducible/job/reproducible_builder_theta/3156/console
+  issues:
+    - blacklisted_on_jenkins
 ruby-pg:
   version: 0.17.1-2
   issues:
