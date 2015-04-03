@@ -7717,6 +7717,12 @@ libio-socket-ssl-perl:
   version: 2.012-1
   issues:
     - timezones_manpages_podman
+libipc-run-perl:
+  version: 0.92-1
+  bugs:
+    - 688314
+  comments: |
+    Testcase is racy, sometimes causing ftbfs.
 libipc-run-safehandles-perl:
   version: 0.04-1
   issues:
