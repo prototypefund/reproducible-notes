@@ -34,7 +34,7 @@ blacklisted_on_jenkins:
 debbindiff_runs_forever:
   description: |
     Some packages cannot be analysed by debbindiff due to it running "forever".
-    Currently it's killed after 15m but we also tried an hour, didn't help.
+    Currently it's killed after 30 mins but we also tried an hour, didn't help.
     To find affected packages:
       grep -l "debbindiff was killed after running into timeout" *rbuild.log
   url: https://bugs.debian.org/764131
