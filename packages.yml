@@ -1882,13 +1882,13 @@ crrcsim:
     - timestamps_from_cpp_macros
 cryptsetup:
   version: 2:1.6.6-5
+  comments: |
+    Patch submitted.
   issues:
     - timezones_manpages_podman
     - timestamps_generated_by_docbook_to_man
   bugs:
     - 780864
-  comments: |
-    Patch submitted.
 crystalspace:
   version: 2.0+dfsg-2
   bugs:
@@ -7723,10 +7723,10 @@ libio-socket-ssl-perl:
     - timezones_manpages_podman
 libipc-run-perl:
   version: 0.92-1
-  bugs:
-    - 688314
   comments: |
     Testcase is racy, sometimes causing ftbfs.
+  bugs:
+    - 688314
 libipc-run-safehandles-perl:
   version: 0.04-1
   issues:
@@ -16394,10 +16394,10 @@ xmlgraphics-commons:
     timestamp, the hostname, etc. to MANIFEST.MF files.
 xmlrpc-c:
   version: 1.33.14-0.2
-  issues:
-    - ftbfs_in_jenkins_setup
   comments: |
     There is a wishlist bug (#722503) to not use port 8080 for the abyss tests.
+  issues:
+    - ftbfs_in_jenkins_setup
   bugs:
     - 722503
 xmlstreambuffer:
