@@ -343,7 +343,10 @@ randomness_in_ocaml_lintian_info_files:
   url: https://bugs.debian.org/779037
 bad_handling_of_extra_warnings:
   description: |
-    FTBFS if CPPFLAGS is multiple words, which breaks our CI.
+    FTBFS if CPPFLAGS is multiple words, which breaks our CI. The package needs to be updated
+    to correctly quote the output of dpkg-buildflags --get CPPFLAGS. e.g. note the lack of double quotes
+    around CPPFLAGS=$(.. in https://sources.debian.net/src/avfs/1.0.1-2/debian/rules/#L20 .  Can be
+    tested with: DEB_CPPFLAGS_APPEND='-D__TOTALL_FAKE_VARIABLE__=5' dpkg-buildpackage
 ftbfs_werror_equals:
   description: |
     FTBFS if dpkg-buildflags contains -Werror=
