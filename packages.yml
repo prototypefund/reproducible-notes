@@ -5789,6 +5789,13 @@ kfreebsd-10:
   issues:
     - timestamps_in_tarball
     - random_order_in_tarball
+kgb-bot:
+  version: 1.33-2
+  issues:
+    - blacklisted_on_jenkins
+  comments: |
+    Testsuite hangs forever, see
+    https://jenkins.debian.net/view/reproducible/job/reproducible_builder_zeta/2745/
 khmerconverter:
   version: 1.4-1
   issues:
