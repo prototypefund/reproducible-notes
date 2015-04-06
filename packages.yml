@@ -2931,6 +2931,14 @@ eris:
   issues:
     - timestamps_in_documentation_generated_by_javadoc
     - timestamps_in_documentation_generated_by_doxygen
+ergo:
+  version: 3.4.0-1
+  issues:
+    - blacklisted_on_jenkins
+  comments: |
+      Blacklisted because of #775362.
+  bugs:
+    - 775362
 erlang:
   version: 1:17.3-dfsg-3
   issues:
