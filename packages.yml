@@ -5804,6 +5804,9 @@ kgb-bot:
   comments: |
     Testsuite hangs forever, see
     https://jenkins.debian.net/view/reproducible/job/reproducible_builder_zeta/2745/
+    Confirmed by upstream.
+  bugs:
+    - 782079
 khmerconverter:
   version: 1.4-1
   issues:
