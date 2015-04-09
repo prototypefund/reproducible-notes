@@ -2005,6 +2005,8 @@ cwirc:
   version: 2.0.0-7
   issues:
     - timestamps_from_cpp_macros
+  bugs:
+    - 782233
 cxref:
   version: 0.16
   issues:
@@ -10576,6 +10578,8 @@ miwm:
   version: 1.1-3
   issues:
     - timestamps_from_cpp_macros
+  bugs:
+    - 782234
 mixxx:
   version: 1.11.0~dfsg-4
   issues:
@@ -16797,6 +16801,14 @@ zorp:
   comments: |
     Embed build time:
     http://sources.debian.net/src/zorp/3.9.5-4/zorp/main.c/?hl=203#L203
+zp:
+  version: 1.0-1
+  bugs:
+    - 782231
+zpaq:
+  version: 1.10-1
+  bugs:
+    - 782232
 zsh:
   version: 5.0.7-5
   comments: |
