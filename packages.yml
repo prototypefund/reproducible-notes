@@ -6064,6 +6064,10 @@ libalien-wxwidgets-perl:
     - timezones_manpages_podman
   bugs:
     - 778949
+libalog:
+  version: 0.5.0-1
+  issues:
+    - timestamps_in_documentation_generated_by_asciidoc
 libalzabo-perl:
   version: 0.92-3
   issues:
@@ -9012,7 +9016,7 @@ libsort-key-top-perl:
 libsoup2.4:
   version: 2.49.1-1
   comments: |
-    Blacklisted in experimental as the build hung forever at 
+    Blacklisted in experimental as the build hung forever at
     "PASS: coding-test 20 /coding/request/deflate-raw/bad-server"
   issues:
     - blacklisted_on_jenkins
