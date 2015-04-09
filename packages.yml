@@ -325,6 +325,14 @@ apg:
     - timestamps_in_tarball
   bugs:
     - 778215
+apng2gif:
+  version: 1.5-3
+  bugs:
+    - 782199
+apngasm:
+  version: 2.7-1
+  bugs:
+    - 782200
 apngdis:
   version: 2.5-1
   bugs:
@@ -4030,6 +4038,10 @@ ghdl:
   version: 0.29+gcc4.3.4+dfsg-1.1
   issues:
     - ftbfs_due_to_virtual_dependencies
+gif2apng:
+  version: 1.7-3
+  bugs:
+    - 782201
 giflib:
   version: 4.1.6-11
   issues:
