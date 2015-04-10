@@ -503,3 +503,8 @@ timestamps_in_python_version_numbers:
   description: |
     python-setuptools is appending the build date to a Python version number.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInPythonVersionNumbers
+timezone_variance_because_of_automake_mdate:
+  description: |
+    automake's mdate-sh script pretty-prints the modification time of a file.
+    This output can influence further steps in the build process and make it unreproducible.
+  url: https://wiki.debian.org/ReproducibleBuilds/TimezoneVarianceBecauseOfAutomakeMdate
