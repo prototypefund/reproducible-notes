@@ -55,6 +55,10 @@ ace:
   version: 6.2.8+dfsg-1
   issues:
     - timestamps_generated_by_docbook_to_man
+ace-of-penguins:
+  version: 1.3-13
+  bugs:
+    - 782316
 ack-grep:
   version: 2.15.01-1
   issues:
@@ -1944,6 +1948,10 @@ cultivation:
   version: 9+dfsg1-2
   issues:
     - timestamps_in_png
+cup:
+  version: 0.11a+20060608-3
+  issues:
+    - timestamps_in_jar
 cups:
   version: 1.7.5-4
   comments: |
@@ -2538,6 +2546,10 @@ dolfin:
   version: 1.4.0+dfsg-4
   issues:
     - ftbfs_werror_equals
+dom4j:
+  version: 1.6.1+dfsg.3-2
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 doomsday:
   version: 1.10.4-2
   issues:
@@ -5539,6 +5551,10 @@ jargon:
     - not_using_dh_builddeb
   bugs:
     - 777483
+jasperreports:
+  version: 4.1.3+dfsg-3
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 java-common:
   version: 0.52
   issues:
@@ -5656,6 +5672,11 @@ jlha-utils:
   version: 0.1.6-4
   issues:
     - timestamps_generated_by_docbook_to_man
+jmagick:
+  version: 6.6.9~20130201-svn99-2
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
+    - timestamps_in_jar
 jmxetric:
   version: 1.0.6-1
   issues:
@@ -10833,6 +10854,10 @@ mpfr4:
   version: 3.1.2-2
   issues:
     - timestamps_in_pdf_generated_by_latex
+mpi4py:
+  version: 1.3.1+hg20131106-2
+  issues:
+    - timestamps_in_documentation_generated_by_sphinx
 mpich:
   version: 3.1-5
   issues:
@@ -10989,6 +11014,10 @@ mygui:
   version: 3.2.1-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+mylvmbackup:
+  version: 0.15-1
+  bugs:
+    - 782318
 myrepos:
   version: 1.20141024.1
   issues:
@@ -12046,6 +12075,10 @@ opentk:
   version: 1.0.20101006+dfsg1-1
   issues:
     - timestamps_in_pe_binaries
+opentoken:
+  version: 5.0a-1
+  comments: |
+    Random order of objects in static library.
 openttd:
   version: 1.4.4-2
   issues:
@@ -12920,6 +12953,10 @@ ptouch-driver:
   version: 1.3-8
   issues:
     - ppds_compressed_b64
+puppet-lint:
+  version: 1.1.0-1
+  issues:
+    - timestamps_in_gemspec_files
 pure-ftpd:
   version: 1.0.36-3.2
   issues:
@@ -13124,6 +13161,10 @@ pytest:
   version: 2.6.3-2
   issues:
     - random_order_in_egg_info_top_level_txt
+python-apt:
+  version: 0.9.3.11
+  issues:
+    - timestamps_in_documentation_generated_by_sphinx
 python-byteplay:
   version: 0.2-2
   bugs:
@@ -13394,6 +13435,10 @@ python-x2go:
   version: 0.5.0.1-2
   issues:
     - use_epydoc
+python-xmp-toolkit:
+  version: 2.0.1~git20140309.5437b0a-1
+  issues:
+    - timestamps_in_documentation_generated_by_sphinx
 python-xstatic-smart-table:
   version: 1.4.5.3-1
   issues:
@@ -14085,6 +14130,10 @@ ruby-mocha:
   version: 1.1.0-1
   issues:
     - timestamps_in_documentation_generated_by_yard
+ruby-ole:
+  version: 1.2.11.7-3
+  issues:
+    - timestamps_in_gemspec_files
 ruby-patron:
   version: 0.4.18-2
   comments: |
@@ -16761,6 +16810,10 @@ zephyr:
   version: 3.1.2-1
   comments: |
     Non-deterministic (gcc) compilation of some constant-looking values
+zemberek-server:
+  version: 0.7.1-12.1
+  issues:
+    - timestamps_in_jar
 zerofree:
   version: 1.0.3-1
   issues:
