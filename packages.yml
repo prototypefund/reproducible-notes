@@ -1227,6 +1227,8 @@ carmetal:
     - timestamps_generated_by_docbook_to_man
 casablanca:
   version: 2.2.0-1
+  comments: |
+    fixed in git https://anonscm.debian.org/cgit/collab-maint/casablanca.git/commit/?id=3517d4ac11bd7f45ff9deaba3fbcf2e9f67ee7b0
   issues:
     - timestamps_in_documentation_generated_by_doxygen
 cassiopee:
@@ -2975,19 +2977,19 @@ erc:
     - not_using_dh_builddeb
   bugs:
     - 776967
+ergo:
+  version: 3.4.0-1
+  comments: |
+    Blacklisted because of #775362.
+  issues:
+    - blacklisted_on_jenkins
+  bugs:
+    - 775362
 eris:
   version: 1.3.21-0.1
   issues:
     - timestamps_in_documentation_generated_by_javadoc
     - timestamps_in_documentation_generated_by_doxygen
-ergo:
-  version: 3.4.0-1
-  issues:
-    - blacklisted_on_jenkins
-  comments: |
-      Blacklisted because of #775362.
-  bugs:
-    - 775362
 erlang:
   version: 1:17.3-dfsg-3
   issues:
@@ -5877,12 +5879,12 @@ kfreebsd-10:
     - random_order_in_tarball
 kgb-bot:
   version: 1.33-2
-  issues:
-    - blacklisted_on_jenkins
   comments: |
     Testsuite hangs forever, see
     https://jenkins.debian.net/view/reproducible/job/reproducible_builder_zeta/2745/
     Confirmed by upstream.
+  issues:
+    - blacklisted_on_jenkins
   bugs:
     - 782079
 khmerconverter:
@@ -16807,14 +16809,14 @@ zeitgeist-sharp:
   version: 0.8.0.0-5
   issues:
     - timestamps_in_pe_binaries
-zephyr:
-  version: 3.1.2-1
-  comments: |
-    Non-deterministic (gcc) compilation of some constant-looking values
 zemberek-server:
   version: 0.7.1-12.1
   issues:
     - timestamps_in_jar
+zephyr:
+  version: 3.1.2-1
+  comments: |
+    Non-deterministic (gcc) compilation of some constant-looking values
 zerofree:
   version: 1.0.3-1
   issues:
