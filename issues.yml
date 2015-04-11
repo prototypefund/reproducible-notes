@@ -103,10 +103,6 @@ shlibs_order_varies:
   description: |
     dh_makeshlibs output is dependent on readdir order.
   url: https://bugs.debian.org/774100
-update_icons_order_varies:
-  description: |
-    dh_icons output is dependent on readdir order.
-  url: https://bugs.debian.org/774102
 dh_usrlocal_order_varies:
   description: |
     dh_usrlocal output is dependent on readdir order.
