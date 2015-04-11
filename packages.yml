@@ -5128,7 +5128,7 @@ hwloc:
 hy:
   version: 0.10.1-1
   issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
+    - timestamps_in_manpage_generated_by_sphinx
 hybserv:
   version: 1.9.5-1
   issues:
@@ -6045,11 +6045,11 @@ latexml:
 lava-dispatcher:
   version: 2015.03-1
   issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
+    - timestamps_in_manpage_generated_by_sphinx
 lava-server:
   version: 2015.03-1
   issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
+    - timestamps_in_manpage_generated_by_sphinx
 lcdproc:
   version: 0.5.7-2
   issues:
@@ -10241,6 +10241,12 @@ mailfront:
     - not_using_dh_builddeb
   bugs:
     - 777431
+mailman-api:
+  version: 0.2.9-1
+  issues:
+    - timestamps_in_manpage_generated_by_sphinx
+  bugs:
+    - 782380
 mailto:
   version: 1.3.2-3
   issues:
@@ -10928,7 +10934,7 @@ munge-maven-plugin:
 munin:
   version: 2.1.9-1
   issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
+    - timestamps_in_manpage_generated_by_sphinx
 munin-c:
   version: 0.0.9-1
   issues:
@@ -11363,7 +11369,7 @@ notmuch:
 nova:
   version: 2014.1.3-11
   issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
+    - timestamps_in_manpage_generated_by_sphinx
 novena-eeprom:
   version: 1.0-1
   issues:
@@ -12069,7 +12075,7 @@ openssl:
 openstack-doc-tools:
   version: 0.19-2
   issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
+    - timestamps_in_manpage_generated_by_sphinx
 openstack-trove:
   version: 2014.1.3-8
   bugs:
@@ -13259,7 +13265,7 @@ python-glance-store:
 python-glanceclient:
   version: 0.15.0-1
   issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
+    - timestamps_in_manpage_generated_by_sphinx
 python-glpk:
   version: 0.4.52-1.1
   bugs:
@@ -13276,7 +13282,7 @@ python-igraph:
 python-keystoneclient:
   version: 0.11.1-1
   issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
+    - timestamps_in_manpage_generated_by_sphinx
 python-kinterbasdb:
   version: 3.3.0-3
   comments: |
@@ -13288,7 +13294,7 @@ python-mockito:
 python-muranoclient:
   version: 0.5.5-1
   issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
+    - timestamps_in_manpage_generated_by_sphinx
 python-musicbrainz2:
   version: 0.7.4-1
   issues:
@@ -13329,7 +13335,7 @@ python-openid:
 python-openstackclient:
   version: 1.0.2-2
   issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
+    - timestamps_in_manpage_generated_by_sphinx
 python-oslo.db:
   version: 1.0.2-1
   issues:
@@ -13387,7 +13393,7 @@ python-rtslib-fb:
 python-saharaclient:
   version: 0.7.3-1
   issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
+    - timestamps_in_manpage_generated_by_sphinx
 python-scipy:
   version: 0.14.1-1
   issues:
@@ -13421,7 +13427,7 @@ python-tldap:
 python-tuskarclient:
   version: 0.1.4-1
   issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
+    - timestamps_in_manpage_generated_by_sphinx
 python-urllib3:
   version: 1.9.1-3
   issues:
@@ -15114,7 +15120,7 @@ sylpheed:
 syncevolution:
   version: 1.4.99.4-3
   issues:
-    - timestamps_in_manpage_generated_by_restructuredtext
+    - timestamps_in_manpage_generated_by_sphinx
 synfig:
   version: 0.64.2-1
   issues:
