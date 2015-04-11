@@ -16156,6 +16156,12 @@ wget:
   version: 1.16.2-1
   issues:
     - timezones_manpages_podman
+wheel:
+  version: 0.24.0-1
+  issues:
+    - timestamps_in_manpage_generated_by_sphinx
+  bugs:
+    - 782405
 when:
   version: 1.1.33-1
   issues:
