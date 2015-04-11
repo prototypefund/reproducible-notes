@@ -2516,9 +2516,11 @@ django-guardian:
   issues:
     - randomness_in_documentation_generated_by_sphinx
 djangorestframework:
-  version: 2.4.3-2
+  version: 3.0.5-0.2
   issues:
-    - random_order_in_egg_info_top_level_txt
+    - ftbfs_due_to_virtual_dependencies
+  bugs:
+    - 782415
 djbdns:
   version: 1:1.05-8
   issues:
