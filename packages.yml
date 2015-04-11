@@ -1163,6 +1163,11 @@ cabal-debian:
   issues:
     - not_using_dh_builddeb
     - timestamps_in_gzip_headers
+cableswig:
+  version: 0.1.0+cvs20111009-1.1
+  comments: |
+    Captures the Linux kernel version.
+    https://sources.debian.net/src/cableswig/0.1.0%2Bcvs20111009-1.1/SWIG/Tools/WAD/configure.in/#L24
 cain:
   version: 1.9-8
   comments: |
