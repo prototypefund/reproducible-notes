@@ -1166,8 +1166,9 @@ cabal-debian:
 cableswig:
   version: 0.1.0+cvs20111009-1.1
   comments: |
-    Captures the Linux kernel version.
-    https://sources.debian.net/src/cableswig/0.1.0%2Bcvs20111009-1.1/SWIG/Tools/WAD/configure.in/#L24
+    Captures the Linux kernel version and compiler path.
+    https://sources.debian.net/src/cableswig/0.1.0%2Bcvs20111009-1.1/SWIG/Source/Modules/main.cxx/#L422
+    https://sources.debian.net/src/cableswig/0.1.0%2Bcvs20111009-1.1/SWIG/CMakeLists.txt/#L26
 cain:
   version: 1.9-8
   comments: |
