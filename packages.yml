@@ -5371,12 +5371,12 @@ ipsvd:
     - 777417
 iptotal:
   version: 0.3.3-13
-  issues:
-    - timestamps_from_cpp_macros
   comments: |
     Not detected by -Werror=date-time
     https://sources.debian.net/src/iptotal/0.3.3-13/iptotal.c/#L530
     https://sources.debian.net/src/iptotal/0.3.3-13/iptotal.c/#L619
+  issues:
+    - timestamps_from_cpp_macros
 ipython:
   version: 2.3.0-2
   issues:
@@ -10906,7 +10906,7 @@ mpich:
     - fonts_in_pdf_files
 mpmath:
   version: 0.19-2
-  issue:
+  issues:
     - timestamps_in_documentation_generated_by_sphinx
 mpqc:
   version: 2.3.1-16
@@ -16768,12 +16768,12 @@ xvier:
     - 777330
 xyscan:
   version: 3.33-1
-  issues:
-    - timestamps_from_cpp_macros
   comments: |
     Not detected by -Werror=date-time
     https://sources.debian.net/src/xyscan/3.33-1/xyscanWindow.cpp/#L88
     https://sources.debian.net/src/xyscan/3.33-1/xyscanAbout.cpp/#L31
+  issues:
+    - timestamps_from_cpp_macros
 xz-utils:
   version: 5.1.1alpha+20120614-2
   comments: |
