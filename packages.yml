@@ -345,6 +345,10 @@ apngopt:
   version: 1.2-1
   bugs:
     - 782193
+apophenia:
+  version: 0.999b+ds3-2
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 apparmor:
   version: 2.9.0-3
   issues:
@@ -1104,6 +1108,10 @@ breathe:
   version: 3.1.0-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
+brian:
+  version: 1.4.1-2
+  issues:
+    - timestamps_in_documentation_generated_by_sphinx
 brickos:
   version: 0.9.0.dfsg-10
   issues:
@@ -4601,6 +4609,10 @@ gosmore:
   version: 0.0.0.20100711-2.1
   issues:
     - build_id_variation_requiring_further_investigation
+gperf:
+  version: 3.0.4-1
+  issues:
+    - timestamps_in_documentation_generated_by_texi2html
 gpgme1.0:
   version: 1.5.1-6
   comments: |
@@ -5608,6 +5620,10 @@ jansi-native:
   version: 1.0-4
   issues:
     - timestamps_in_jar
+jansson:
+  version: 2.7-1
+  issues:
+    - timestamps_in_documentation_generated_by_sphinx
 jargon:
   version: 4.0.0-5.1
   issues:
@@ -5679,6 +5695,12 @@ jenkins-antisamy-markup-formatter-plugin:
   version: 1.2-1
   issues:
     - timestamps_in_java_stapler_files
+jenkins-job-builder:
+  version: 0.9.0-0.2
+  issues:
+    - timestamps_in_manpage_generated_by_sphinx
+  bugs:
+    - 782472
 jenkins-mailer-plugin:
   version: 1.11-1
   issues:
@@ -13430,6 +13452,12 @@ python-oslo.db:
   version: 1.0.2-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
+python-pathlib:
+  version: 1.0.1-1
+  issues:
+    - timestamps_in_manpage_generated_by_sphinx
+  bugs:
+    - 782471
 python-pcs:
   version: 0.5+debian-1.2
   issues:
@@ -14282,6 +14310,10 @@ ruby-redcloth:
   version: 4.2.9-3
   issues:
     - timestamps_in_ruby_documentation
+ruby-remcached:
+  version: 0.4.1-2
+  issues:
+    - timestamps_in_gemspec_files
 ruby-rinku:
   version: 1.7.3-1
   issues:
