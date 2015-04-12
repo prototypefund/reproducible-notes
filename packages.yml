@@ -2521,10 +2521,10 @@ django-guardian:
     - randomness_in_documentation_generated_by_sphinx
 djangorestframework:
   version: 3.0.5-0.2
-  issues:
-    - ftbfs_due_to_virtual_dependencies
   bugs:
     - 782415
+  comments: |
+    build-dep on a package stuck in NEW
 djbdns:
   version: 1:1.05-8
   issues:
