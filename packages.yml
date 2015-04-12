@@ -695,6 +695,10 @@ base-files:
     - not_using_dh_builddeb
   bugs:
     - 774498
+basemap:
+  version: 1.0.7+dfsg-1
+  issues:
+    - timestamps_in_documentation_generated_by_sphinx
 basenji:
   version: 1.0.1-3
   issues:
@@ -2865,6 +2869,10 @@ elasticsearch:
   version: 1.0.3+dfsg-5
   issues:
     - timestamps_in_jar
+elastix:
+  version: 4.7-2
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 elektra:
   version: 0.8.7-4
   issues:
@@ -3491,6 +3499,12 @@ flow-tools:
   version: 1:0.68-12.1
   issues:
     - variation_in_compilation
+flower:
+  version: 0.7.0+dfsg-1
+  issues:
+    - timestamps_in_manpage_generated_by_sphinx
+  bugs:
+    - 782449
 flowscan:
   version: 1.006-13.2
   issues:
@@ -3635,6 +3649,12 @@ fox1.6:
   version: 1.6.50-1
   issues:
     - timestamps_from_cpp_macros
+frama-c:
+  version: 20140301+neon+dfsg-3
+  comments: |
+    Embeds the build time.
+    https://sources.debian.net/src/frama-c/20140301%2Bneon%2Bdfsg-3/Makefile/#L2234
+    https://sources.debian.net/src/frama-c/20140301%2Bneon%2Bdfsg-3/src/aorai/Makefile.in/#L111
 freebirth:
   version: 0.3.2-9.1
   issues:
@@ -4757,6 +4777,10 @@ gtk+3.0:
   version: 3.14.5-1
   issues:
     - gtk_doc_api_index_full
+gtk-gnutella:
+  version: 1.1.1-1
+  issues:
+    - timestamps_from_cpp_macros
 gtk-sharp-beans:
   version: 2.14.1-3
   issues:
@@ -4849,6 +4873,12 @@ hachoir-metadata:
   version: 1.3.3-2
   issues:
     - timestamps_in_source_generated_by_pyqt4_ui
+halibut:
+  version: 1.0+svn20090906-9
+  issues:
+    - timestamps_from_cpp_macros
+  comments: |
+    https://sources.debian.net/src/halibut/1.0%2Bsvn20090906-9/version.c/#L8
 hamlib:
   version: 1.2.15.3-2
   issues:
@@ -5156,6 +5186,10 @@ hyde:
   version: 0.8.5a1-4
   issues:
     - needs_internet_access_to_build
+hydrogen:
+  version: 0.9.6.1-1
+  issues:
+    - timestamps_from_cpp_macros
 hyena:
   version: 0.5-3
   issues:
@@ -9988,6 +10022,11 @@ linux:
     - debbindiff_runs_forever
   bugs:
     - 769844
+linux-minidisc:
+  version: 0.9.13-1
+  comments: |
+    Embeds the build date.
+    https://sources.debian.net/src/linux-minidisc/0.9.13-1/qhimdtransfer/qhimdtransfer.pro/#L23
 linux-patch-grsecurity2:
   version: 3.0+3.14.22-201410250026-1
   issues:
@@ -13081,6 +13120,10 @@ pycurl:
   version: 7.19.5-3
   issues:
     - timestamps_from_cpp_macros
+pyevolve:
+  version: 0.6~rc1+svn398+dfsg-6
+  issues:
+    - timestamps_in_documentation_generated_by_sphinx
 pyfai:
   version: 0.10.2-1
   issues:
@@ -13441,6 +13484,10 @@ python-scipy:
   version: 0.14.1-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+python-scrapy:
+  version: 0.24.2-1
+  issues:
+    - timestamps_in_documentation_generated_by_sphinx
 python-secretstorage:
   version: 2.1.1-1
   issues:
@@ -15373,6 +15420,11 @@ tf:
     - not_using_dh_builddeb
   bugs:
     - 777368
+tf5:
+  version: 5.0beta8-5
+  comments: |
+    Captures the Linux kernel version.
+    https://sources.debian.net/src/tf5/5.0beta8-5/configure.in/#L160
 the:
   version: 3.3~rc1-2
   issues:
@@ -15622,6 +15674,10 @@ trscripts:
     - not_using_dh_builddeb
   bugs:
     - 776927
+trueprint:
+  version: 5.4-1
+  issues:
+    - timezone_variance_because_of_automake_mdate
 tsdecrypt:
   version: 10.0-2
   comments: |
@@ -15919,6 +15975,11 @@ v4l2loopback:
     - timestamps_in_tarball
   bugs:
     - 778456
+valknut:
+  version: 0.4.9-2
+  comments: |
+    Embeds the build date.
+    https://sources.debian.net/src/valknut/0.4.9-2/configure.in/#L127
 vamp-plugin-sdk:
   version: 2.5+repack0-2
   issues:
@@ -16269,6 +16330,10 @@ winswitch:
   comments: |
     Capture username, hostname, build date, CPUID in
     /usr/lib/winswitch/winswitch/build_info.py
+wipe:
+  version: 0.22-1
+  issues:
+    - timestamps_from_cpp_macros
 wireless-regdb:
   version: 2014.11.18-1
   issues:
