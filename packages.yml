@@ -2527,12 +2527,6 @@ django-guardian:
   version: 1.2.4+git20141127-0.2
   issues:
     - randomness_in_documentation_generated_by_sphinx
-djangorestframework:
-  version: 3.0.5-0.2
-  bugs:
-    - 782415
-  comments: |
-    build-dep on a package stuck in NEW
 djbdns:
   version: 1:1.05-8
   issues:
@@ -4895,10 +4889,10 @@ hachoir-metadata:
     - timestamps_in_source_generated_by_pyqt4_ui
 halibut:
   version: 1.0+svn20090906-9
-  issues:
-    - timestamps_from_cpp_macros
   comments: |
     https://sources.debian.net/src/halibut/1.0%2Bsvn20090906-9/version.c/#L8
+  issues:
+    - timestamps_from_cpp_macros
 hamlib:
   version: 1.2.15.3-2
   issues:
@@ -11237,10 +11231,10 @@ ncbi-tools6:
     - timestamps_from_cpp_macros
 ncftp:
   version: 2:3.2.5-1.1
-  issues:
-    - timestamps_from_cpp_macros
   comments: |
     Also embeds kernel version (uname).
+  issues:
+    - timestamps_from_cpp_macros
 ncl:
   version: 6.2.0-3
   issues:
