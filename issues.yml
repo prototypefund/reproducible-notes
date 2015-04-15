@@ -505,3 +505,11 @@ timezone_variance_because_of_automake_mdate:
     automake's mdate-sh script pretty-prints the modification time of a file.
     This output can influence further steps in the build process and make it unreproducible.
   url: https://wiki.debian.org/ReproducibleBuilds/TimezoneVarianceBecauseOfAutomakeMdate
+randomness_in_lto_debug_symbols:
+  description: |
+    GCC-produced binaries that use link time optimization (LTO) embed
+    randomized intermediate filenames (e.g. cc<randomness>.ltrans.[0-9]+)
+    in generated debug symbols.
+    .
+    see also: https://gcc.gnu.org/bugzilla/show_bug.cgi?id=65015
+  url: https://bugs.debian.org/777753
