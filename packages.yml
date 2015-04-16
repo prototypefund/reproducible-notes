@@ -1533,6 +1533,10 @@ cli-common:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - timezones_manpages_podman
+clif:
+  version: 0.93-9
+  issues:
+    - timestamps_in_dvi_generated_by_latex
 clipper:
   version: 2.1.20130601-2
   issues:
@@ -2451,10 +2455,14 @@ dialog:
     - timestamps_in_static_libraries
 dict-bouvier:
   version: 6.revised-3.2
+  issues:
+    - timestamps_in_dictionaries
   bugs:
     - 776399
 dict-devil:
   version: 1.0-12
+  issues:
+    - timestamps_in_dictionaries
   bugs:
     - 776433
 dict-elements:
@@ -2463,14 +2471,20 @@ dict-elements:
     - 776351
 dict-foldoc:
   version: 20140720-1
+  issues:
+    - timestamps_in_dictionaries
   bugs:
     - 776397
 dict-gazetteer2k:
   version: 1.0.0-5.2
+  issues:
+    - timestamps_in_dictionaries
   bugs:
     - 776376
 dict-moby-thesaurus:
   version: 1.0-6.2
+  issues:
+    - timestamps_in_dictionaries
   bugs:
     - 776375
 diction:
@@ -2499,6 +2513,10 @@ din:
   version: 5.2.1-3
   issues:
     - timestamps_generated_by_docbook_to_man
+ding:
+  version: 1.7-3
+  issues:
+    - timestamps_in_dictionaries
 diploma:
   version: 1.2.11
   issues:
@@ -3700,6 +3718,10 @@ freecontact:
   issues:
     - timestamps_in_documentation_generated_by_doxygen
     - timezones_manpages_podman
+freedict:
+  version: 2014.10.22-2
+  issues:
+    - timestamps_in_dictionaries
 freedink-dfarc:
   version: 3.12-1
   issues:
@@ -4191,6 +4213,10 @@ git-buildpackage:
   issues:
     - use_epydoc
     - timezones_manpages_podman
+git-cola:
+  version: 2.0.6-1
+  issues:
+    - timestamps_in_manpage_generated_by_sphinx
 git-dpm:
   version: 0.9.1-1
   issues:
@@ -12754,6 +12780,10 @@ piespy:
   version: 0.4.0-3
   issues:
     - timestamps_in_jar
+pilot-link:
+  version: 0.12.5-dfsg-1
+  issues:
+    - timestamps_from_cpp_macros
 pinta:
   version: 1.3-3
   issues:
@@ -15505,7 +15535,7 @@ testdisk:
   issues:
     - timestamps_from_cpp_macros
 testng:
-  version: 6.8.20-1
+  version: 6.8.8-4
   issues:
     - timestamps_in_maven_pom_files
 tetex-brev:

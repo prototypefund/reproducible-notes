@@ -513,3 +513,12 @@ randomness_in_lto_debug_symbols:
     .
     see also: https://gcc.gnu.org/bugzilla/show_bug.cgi?id=65015
   url: https://bugs.debian.org/777753
+timestamps_in_dictionaries:
+  description: |
+    Dictionaries built with dictfmt/dictzip (often called .dict.dz) contain timestamps:
+      This file was converted from the original database on:
+        $DATE
+    dictzip gzip-compresses the dictionary and includes a timestamp in the header.
+    .
+    Call dictfmt with --without-time to prevent the timestamp in the dictionary.
+  url: https://bugs.debian.org/776430
