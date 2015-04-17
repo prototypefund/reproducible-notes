@@ -13954,6 +13954,42 @@ r-base:
   version: 3.1.2-2
   issues:
     - timestamps_in_gzip_headers
+r-cran-amore:
+  version: 0.2-15-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-ape:
+  version: 3.1-4-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-base64enc:
+  version: 0.1-2-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-batchjobs:
+  version: 1.4-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-bayesm:
+  version: 2.2-5-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-bbmisc:
+  version: 1.7-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-beeswarm:
+  version: 0.1.6-2
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-boolnet:
+  version: 2.0-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-brew:
+  version: 1.0-6-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 r-cran-coda:
   version: 0.17-1-1
   issues:
@@ -13976,6 +14012,10 @@ r-cran-ncdf4:
     - dh_fixmtimes_runs_before_dh_always_exclude
 r-cran-pscl:
   version: 1.4.8-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-readbrukerflexdata:
+  version: 1.8-1
   issues:
     - timestamps_in_description_files_generated_by_r-base-dev
 r-cran-readmzxmldata:
