@@ -13954,6 +13954,10 @@ r-base:
   version: 3.1.2-2
   issues:
     - timestamps_in_gzip_headers
+r-cran-amelia:
+  version: 1.7.3-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 r-cran-amore:
   version: 0.2-15-1
   issues:
@@ -14094,12 +14098,168 @@ r-cran-expm:
   version: 0.99-1.1-1
   issues:
     - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-fail:
+  version: 1.2-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-fastcluster:
+  version: 1.1.13-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-foreach:
+  version: 1.4.2-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-formula:
+  version: 1.2-1-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-g.data:
+  version: 2.4-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-gam:
+  version: 1.09.1-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 r-cran-gbm:
   version: 2.1-1
   issues:
     - dh_fixmtimes_runs_before_dh_always_exclude
+r-cran-genabel:
+  version: 1.8-0-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-genabel.data:
+  version: 1.0.0-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-genetics:
+  version: 1.3.8.1-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-getopt:
+  version: 1.20.0-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-ggplot2:
+  version: 1.0.0-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-gmaps:
+  version: 0.2-2
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-gsl:
+  version: 1.9-10-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-gss:
+  version: 2.1-4-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-haplo.stats:
+  version: 1.6.11-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-hdf5:
+  version: 1.6.10-3
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-hwriter:
+  version: 1.3.2-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-inline:
+  version: 0.3.13-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-int64:
+  version: 1.1.2-2
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-iterators:
+  version: 1.0.7-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-labeling:
+  version: 0.3-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-learnbayes:
+  version: 2.15-2
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-lpsolve:
+  version: 5.6.11-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-maldiquant:
+  version: 1.11-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-maldiquantforeign:
+  version: 0.9-2
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-mapdata:
+  version: 2.2-3-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-mapproj:
+  version: 1.2-2-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-maps:
+  version: 2.3-9-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 r-cran-mass:
   version: 7.3-40-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-matrixstats:
+  version: 0.10.3-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-maxlik:
+  version: 1.2-0-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-medadherence:
+  version: 1.03-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-mfilter:
+  version: 0.1.3-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-minqa:
+  version: 1.2.4-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-misctools:
+  version: 0.6-16-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-mnp:
+  version: 2.6-4-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-msm:
+  version: 1.4-2
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-multicore:
+  version: 0.2-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-munsell:
+  version: 0.4.2-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-mvnormtest:
+  version: 0.1-9-1
   issues:
     - timestamps_in_description_files_generated_by_r-base-dev
 r-cran-ncdf4:
