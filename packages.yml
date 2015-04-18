@@ -16290,6 +16290,12 @@ tagua:
   version: 1.0~alpha2-12
   issues:
     - lc_messages_randomness
+talloc:
+  version: 2.1.1-2
+  issues:
+    - timestamps_generated_by_docbook_to_man
+  comments: |
+    Fix sent to upstream (https://samba.org/~jelmer/talloc-reproducible.diff)
 tangerine:
   version: 0.3.4-6
   issues:
