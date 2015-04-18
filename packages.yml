@@ -1175,6 +1175,12 @@ bzflag:
   version: 2.4.2+ds1-5
   issues:
     - timestamps_from_cpp_macros
+bzr:
+  version: 2.6.0+bzr6595-6
+  comments: |
+    fix submitted upstream (https://code.launchpad.net/~jelmer/bzr/reproducible-builds-1/+merge/256747)
+  bugs:
+    - 782858
 c++-annotations:
   version: 10.1.0-1
   issues:
