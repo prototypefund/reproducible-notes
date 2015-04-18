@@ -16918,6 +16918,9 @@ unzip:
   version: 6.0-12
   issues:
     - timestamps_from_cpp_macros
+    - not_using_dh_builddeb
+  bugs:
+    - 782851
 urca:
   version: 1.2-8-1
   issues:
