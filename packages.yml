@@ -2183,6 +2183,10 @@ dbconfig-common:
   version: 1.8.47+nmu3
   issues:
     - timestamps_in_pdf_generated_by_latex
+dbi:
+  version: 0.3.1-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 dbus:
   version: 1.8.14-1
   issues:
@@ -2873,6 +2877,10 @@ efax-gtk:
   version: 3.2.8-2
   issues:
     - timestamps_from_cpp_macros
+effects:
+  version: 3.0.3-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 efl:
   version: 1.8.6-2.1
   issues:
@@ -3187,6 +3195,10 @@ erlang-xmlrpc:
   version: 0.2014.03.17-2
   issues:
     - timestamps_in_beam_files
+erm:
+  version: 0.14-0-6
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 esajpip:
   version: 0.1~bzr33-2
   issues:
@@ -3296,6 +3308,14 @@ fakeroot:
   version: 1.20.2-1
   issues:
     - not_using_dh_builddeb
+fasianoptions:
+  version: 3010.79-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+fassets:
+  version: 3011.83-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 fastforward:
   version: 1:0.51-3
   issues:
@@ -3319,6 +3339,10 @@ faumachine:
   version: 20120707-3
   bugs:
     - 746843
+fbasics:
+  version: 3011.87-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 fbb:
   version: 7.05f-2
   issues:
@@ -3327,10 +3351,18 @@ fbi:
   version: 2.09-1
   issues:
     - timestamps_from_cpp_macros
+fbonds:
+  version: 3010.77-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 fceux:
   version: 2.2.2+dfsg0-1
   issues:
     - timestamps_from_cpp_macros
+fcopulae:
+  version: 3011.81-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 fcrackzip:
   version: 1.0-5
   bugs:
@@ -3422,6 +3454,14 @@ festvox-czech-machac:
   version: 1.0.0-2
   bugs:
     - 753179
+fexoticoptions:
+  version: 2152.78-
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+fextremes:
+  version: 3010.81-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 feynmf:
   version: 1.08-9
   issues:
@@ -3430,6 +3470,10 @@ fflas-ffpack:
   version: 1.6.0-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+fgarch:
+  version: 3010.82-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 fgetty:
   version: 0.6-5
   issues:
@@ -3462,6 +3506,10 @@ filters:
   version: 2.53
   comments: |
     Sample file has its own undeterministic filters applied.
+fimport:
+  version: 3000.82-2
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 findbugs:
   version: 2.0.3+repack-1
   issues:
@@ -3581,6 +3629,10 @@ fmit:
   version: 0.99.2-1
   issues:
     - timestamps_from_cpp_macros
+fmultivar:
+  version: 3011.78-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 fonts-arphic-bkai00mp:
   version: 2.10-13
   issues:
@@ -3681,6 +3733,10 @@ fop:
     - timestamps_in_documentation_generated_by_podman
     - user_in_java_jar_manifest
     - timezones_manpages_podman
+foptions:
+  version: 3010.83-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 fortunes-bg:
   version: 1.1
   issues:
@@ -3790,6 +3846,10 @@ freewnn:
   version: 1.1.1~a021+cvs20130302-4
   issues:
     - user_hostname_manually_added_requiring_further_investigation
+fregression:
+  version: 3011.81-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 frei0r:
   version: 1.4-3
   issues:
@@ -3837,6 +3897,14 @@ ftpcopy:
     - timestamps_in_gzip_headers
   bugs:
     - 777409
+ftrading:
+  version: 3010.78-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+funitroots:
+  version: 3010.78-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 fuse-posixovl:
   version: 1.2.20120215+gitf5bfe35-1
   bugs:
@@ -4013,6 +4081,10 @@ gdal:
   version: 1.10.1+dfsg-8
   issues:
     - timestamps_from_cpp_macros
+gdata:
+  version: 2.13.3-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 gdata-sharp:
   version: 2.2.0.0-2
   issues:
@@ -4421,6 +4493,10 @@ gmime:
   version: 2.6.20-1
   issues:
     - timestamps_in_pe_binaries
+gmodels:
+  version: 2.15.4.1-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 gmsh:
   version: 2.8.5+dfsg-1.1
   issues:
@@ -4746,6 +4822,10 @@ grcompiler:
   version: 4.2-4
   issues:
     - timestamps_from_cpp_macros
+gregmisc:
+  version: 2.1.5-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 gretl:
   version: 1.9.92-1
   issues:
@@ -4874,6 +4954,10 @@ gtml:
   version: 3.5.4-12
   issues:
     - timezones_manpages_podman
+gtools:
+  version: 3.4.2-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 guacamole:
   version: 0.6.0-1
   issues:
@@ -5559,6 +5643,10 @@ isrcsubmit:
   version: 2.0.0-1
   issues:
     - timestamps_in_python_docutils
+its:
+  version: 1.1.8-5
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 iulib:
   version: 0.3-3.1
   issues:
@@ -6193,6 +6281,14 @@ latexml:
   version: 0.8.0-1
   issues:
     - random_order_in_grammar
+lattice:
+  version: 0.20-31-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+latticeextra:
+  version: 0.6-26-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 lava-dispatcher:
   version: 2015.03-1
   issues:
@@ -10187,10 +10283,18 @@ lmdb:
   version: 0.9.14-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+lme4:
+  version: 1.1-7-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 lmemory:
   version: 0.6c-7
   issues:
     - timestamps_from_cpp_macros
+lmtest:
+  version: 0.9.33-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 loadlin:
   version: 1.6f-3
   issues:
@@ -10651,6 +10755,10 @@ mffm-fftw:
   version: 1.7-3
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+mgcv:
+  version: 1.8-6-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 mgetty:
   version: 1.1.36-2.1
   issues:
@@ -10768,6 +10876,10 @@ miro:
     /usr/share/miro/resources/app.config
   bugs:
     - 778275
+misc3d:
+  version: 0.8-4-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 miscfiles:
   version: 1.4.2.dfsg.1-9.1
   issues:
@@ -10826,6 +10938,10 @@ mm3d:
   version: 1.3.7-1.4
   issues:
     - build_id_variation_requiring_further_investigation
+mnormt:
+  version: 1.5-2-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 moap:
   version: 0.2.7-1
   issues:
@@ -11193,6 +11309,10 @@ muttprint:
     - timestamps_in_dvi_generated_by_latex
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_png
+mvtnorm:
+  version: 1.0-2-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 mwrap:
   version: 0.33-2
   issues:
@@ -12692,6 +12812,10 @@ perlpanel:
     - timestamps_in_gzip_headers
   bugs:
     - 777444
+permute:
+  version: 0.8-3-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 pescetti:
   version: 0.5-1
   issues:
@@ -12965,6 +13089,10 @@ podbrowser:
   version: 0.12-2
   issues:
     - timezones_manpages_podman
+polspline:
+  version: 1.1.9-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 polybori:
   version: 0.8.3-4
   issues:
@@ -13194,6 +13322,10 @@ putty:
   version: 0.63-8
   issues:
     - timestamps_from_cpp_macros
+pvclust:
+  version: 1.3-0-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 pvm:
   version: 3.4.5-12.6
   issues:
@@ -13917,6 +14049,10 @@ qtxmlpatterns-opensource-src:
   version: 5.4.1-1
   issues:
     - randomness_in_qdoc
+quadprog:
+  version: 1.5-5-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 quakespasm:
   version: 0.85.9-1
   issues:
@@ -13962,6 +14098,18 @@ r-base:
   version: 3.1.2-2
   issues:
     - timestamps_in_gzip_headers
+r-bioc-affy:
+  version: 1.42.3-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-bioc-affyio:
+  version: 1.32.0-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-bioc-annotationdbi:
+  version: 1.26.1-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 r-bioc-biobase:
   version: 2.24.0-1
   issues:
@@ -13970,16 +14118,96 @@ r-bioc-biocgenerics:
   version: 0.10.0-1
   issues:
     - timestamps_in_description_files_generated_by_r-base-dev
+r-bioc-biocinstaller:
+  version: 1.14.2-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-bioc-biocparallel:
+  version: 0.6.1-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-bioc-biomart:
+  version: 2.20.0-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-bioc-biostrings:
+  version: 2.32.1-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-bioc-bsgenome:
+  version: 1.32.0-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 r-bioc-edger:
   version: 3.8.2+dfsg-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-bioc-genomeinfodb:
+  version: 1.0.2-2
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-bioc-genomicalignments:
+  version: 1.0.6-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-bioc-genomicfeatures:
+  version: 1.16.3-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-bioc-graph:
+  version: 1.42.0-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-bioc-hilbertvis:
+  version: 1.24.0-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-bioc-hypergraph:
+  version: 1.36.0-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-bioc-iranges:
+  version: 1.22.10-1
   issues:
     - timestamps_in_description_files_generated_by_r-base-dev
 r-bioc-limma:
   version: 3.22.1+dfsg-1
   issues:
     - timestamps_in_description_files_generated_by_r-base-dev
+r-bioc-makecdfenv:
+  version: 1.40.0-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-bioc-preprocesscore:
+  version: 1.26.1-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 r-bioc-qvalue:
   version: 1.40.0-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-bioc-rsamtools:
+  version: 1.16.1-2
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-bioc-rtracklayer:
+  version: 1.24.2-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-bioc-shortread:
+  version: 1.22.0-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-bioc-snpstats:
+  version: 1.14.0+dfsg-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-bioc-variantannotation:
+  version: 1.10.5-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-bioc-xvector:
+  version: 0.4.0-1
   issues:
     - timestamps_in_description_files_generated_by_r-base-dev
 r-cran-amelia:
@@ -14580,6 +14808,10 @@ rapidsvn:
   version: 0.12.1dfsg-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+raschsampler:
+  version: 0.8-6-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 raster3d:
   version: 3.0-3-1
   issues:
@@ -14612,6 +14844,10 @@ rbootd:
     - timestamps_in_gzip_headers
   bugs:
     - 776951
+rcolorbrewer:
+  version: 1.1-2-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 rdflib:
   version: 4.1.2-3
   issues:
@@ -14685,6 +14921,14 @@ rfdump:
   version: 1.6-3
   issues:
     - timestamps_generated_by_docbook_to_man
+rgl:
+  version: 0.95.1201-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+rgtk2:
+  version: 2.20.31-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 rheolef:
   version: 6.5-1
   issues:
@@ -14702,10 +14946,22 @@ rivet:
   version: 1.8.3-1.1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+rjava:
+  version: 0.9-6-3
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 rlpr:
   version: 2.05-4
   issues:
     - timestamps_from_cpp_macros
+rmatrix:
+  version: 1.2-0-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+rmpi:
+  version: 0.6-5-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 rna-star:
   version: 2.4.0i-1
   issues:
@@ -14762,6 +15018,14 @@ rsbackup:
     - not_using_dh_builddeb
   bugs:
     - 777394
+rserve:
+  version: 1.7-3-3
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+rsprng:
+  version: 1.0-3
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 rsskit:
   version: 0.4-1
   issues:
@@ -15093,6 +15357,10 @@ samplv1:
   version: 0.5.1-1
   issues:
     - timestamps_from_cpp_macros
+sandwich:
+  version: 2.3-3-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 sane-backends:
   version: 1.0.24-9
   comments: |
@@ -15528,6 +15796,10 @@ slv2:
   version: 0.6.6+dfsg1-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+sm:
+  version: 2.2-5.4-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 smartlist:
   version: 3.15-23
   issues:
@@ -15822,6 +16094,10 @@ stressapptest:
   comments: |
     Embed build timestamp, username and hostname:
     https://sources.debian.net/src/stressapptest/1.0.6-1/configure.ac/?hl=98:100#L98
+strucchange:
+  version: 1.5-0-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 stsci.distutils:
   version: 0.3.7-1
   comments: |
@@ -16638,6 +16914,10 @@ unzip:
   version: 6.0-12
   issues:
     - timestamps_from_cpp_macros
+urca:
+  version: 1.2-8-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 urjtag:
   version: 0.10+r2007-1.2
   issues:
