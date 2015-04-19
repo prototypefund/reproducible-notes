@@ -7826,6 +7826,12 @@ libgstreamer-perl:
   version: 0.19-1
   issues:
     - timezones_manpages_podman
+libgtk2-appindicator-perl:
+  version: 0.15-1
+  issues:
+    - timestamps_in_documentation_generated_by_podman
+  bugs:
+    - 782877
 libgtk2-ex-podviewer-perl:
   version: 0.18-1
   issues:
