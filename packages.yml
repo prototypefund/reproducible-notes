@@ -14706,12 +14706,22 @@ r-cran-rnetcdf:
   version: 1.6.3-1-1
   issues:
     - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-rniftilib:
+  version: 0.0-32-1
+  issues:
+    - build_id_variation_requiring_further_investigation
+    - randomness_in_lto_debug_symbols
+    - timestamps_in_description_files_generated_by_r-base-dev
 r-cran-rocr:
   version: 1.0-5-1
   issues:
     - timestamps_in_description_files_generated_by_r-base-dev
 r-cran-rsclient:
   version: 0.7-2.0-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-rsdmx:
+  version: 0.4.5+dfsg-1
   issues:
     - timestamps_in_description_files_generated_by_r-base-dev
 r-cran-rsolnp:
@@ -14768,6 +14778,10 @@ r-cran-surveillance:
     - timestamps_in_description_files_generated_by_r-base-dev
 r-cran-tcltk2:
   version: 1.2-11-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-teachingdemos:
+  version: 2.9-1
   issues:
     - timestamps_in_description_files_generated_by_r-base-dev
 r-cran-tensor:
@@ -14993,6 +15007,10 @@ rgl:
   version: 0.95.1201-1
   issues:
     - timestamps_in_description_files_generated_by_r-base-dev
+rglpk:
+  version: 0.6-0-1
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
 rgtk2:
   version: 2.20.31-1
   issues:
@@ -15016,6 +15034,10 @@ rivet:
     - timestamps_in_documentation_generated_by_doxygen
 rjava:
   version: 0.9-6-3
+  issues:
+    - timestamps_in_description_files_generated_by_r-base-dev
+rkward:
+  version: 0.6.2~rc1-2
   issues:
     - timestamps_in_description_files_generated_by_r-base-dev
 rlpr:
@@ -16375,10 +16397,10 @@ tagua:
     - lc_messages_randomness
 talloc:
   version: 2.1.1-2
-  issues:
-    - timestamps_generated_by_docbook_to_man
   comments: |
     Fix sent to upstream (https://samba.org/~jelmer/talloc-reproducible.diff)
+  issues:
+    - timestamps_generated_by_docbook_to_man
   bugs:
     - 782864
 tangerine:
