@@ -14712,10 +14712,14 @@ r-cran-readbrukerflexdata:
   version: 1.8-1
   issues:
     - timestamps_in_description_files_generated_by_r-base-dev
+  bugs:
+    - 783056
 r-cran-readmzxmldata:
   version: 2.8-1
   issues:
     - timestamps_in_description_files_generated_by_r-base-dev
+  bugs:
+    - 783057
 r-cran-reshape:
   version: 0.8.5-1
   issues:
@@ -15126,6 +15130,8 @@ rquantlib:
   version: 0.4.0-2
   issues:
     - timestamps_in_description_files_generated_by_r-base-dev
+  bugs:
+    - 783058
 rrdtool:
   version: 1.4.8-1.2
   issues:
