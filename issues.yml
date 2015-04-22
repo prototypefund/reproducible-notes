@@ -524,3 +524,7 @@ timestamps_in_dictionaries:
     .
     Call dictfmt with --without-time to prevent the timestamp in the dictionary.
   url: https://bugs.debian.org/776430
+timestamps_in_manpages_generated_by_docbook2x:
+  description: |
+    docbook2x-man embeds the build date into generated manpages.
+  url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInManpagesGeneratedByDocbook2x
