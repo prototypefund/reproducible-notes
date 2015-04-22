@@ -2694,6 +2694,12 @@ dput:
     - not_using_dh_builddeb
   bugs:
     - 777375
+dracut:
+  version: 040+1-1
+  issues:
+    - timestamps_in_documentation_generated_by_asciidoc
+  bugs:
+    - 783131
 drbd-doc:
   version: 8.4~20140825-1
   issues:
