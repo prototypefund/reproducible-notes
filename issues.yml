@@ -528,3 +528,7 @@ timestamps_in_manpages_generated_by_docbook2x:
   description: |
     docbook2x-man embeds the build date into generated manpages.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInManpagesGeneratedByDocbook2x
+timestamps_generated_by_yorick_mkdoc:
+  description: |
+    yorick function's mkdoc documented in i/README and defined in i/mkdoc.i use the function
+    mkdoc_title, which uses the timestamp function for the document header.
