@@ -385,8 +385,9 @@ timestamps_in_description_files_generated_by_r-base-dev:
   description: |
     r-base-dev leaves a build timestamp (showing date + time + timezone) in
     the /usr/lib/R/library/*/Description files it generates.
-    This is fixable with GNU R >= 3.2.0 from unstable but it's not jet decided how exactly it is done.
-    See https://bugs.debian.org/774031 and https://bugs.debian.org/782764 for reference.
+    This is fixable with GNU R >= 3.2.0 from unstable. If your package uses the
+    r-cran.mk template in debian/rules you should be fine. If not, see
+    https://bugs.debian.org/782764 for reference how to fix your package.
 timestamps_in_manpage_generated_by_sphinx:
   description: |
     Manpages generated with Sphinx embed the build date.
