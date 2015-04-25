@@ -128,6 +128,12 @@ aewm++-goodies:
     - timestamps_in_gzip_headers
   bugs:
     - 777282
+afnix:
+  version: 2.2.0-2
+  comments: |
+    In the file ./prj/std/adp/src/std-adp-manpg.als of afnix package (afnix:adp nroff
+    manual page module), the line 97: "text:+= (afnix:adp:get-date)" adds a timestamp
+    in the generated manpage from the xml doc.
 aft:
   version: 2:5.098-2
   comments: |
