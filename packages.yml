@@ -5257,6 +5257,7 @@ heimdal:
     - timestamps_from_cpp_macros
   comments: |
     Embeds build time, hostname and kernel version.
+    Fixed in unstable, 1.6~rc2+dfsg-10
 hello-traditional:
   version: 2.9-2
   issues:
@@ -16428,6 +16429,8 @@ subvertpy:
   version: 0.9.1-7
   issues:
     - timestamps_in_documentation_generated_by_pydoctor
+  comments: |
+    fix present in git, waiting with upload until pydoctor hits unstable
 sumo:
   version: 0.21.0+dfsg-1
   issues:
@@ -16585,7 +16588,7 @@ tagua:
 talloc:
   version: 2.1.1-2
   comments: |
-    Fix sent to upstream (https://samba.org/~jelmer/talloc-reproducible.diff)
+    Fixed in 2.1.2-3
   issues:
     - timestamps_generated_by_docbook_to_man
   bugs:
@@ -16664,6 +16667,12 @@ tcpwatch-httpproxy:
     - timestamps_in_gzip_headers
   bugs:
     - 776969
+tdb:
+  version: 1.3.4-1
+  issues:
+    - timestamps_generated_by_docbook_to_man
+  comments: |
+    Fixed in 1.3.4-2 (unstable)
 tdiary:
   version: 3.2.2-3
   issues:
