@@ -339,6 +339,10 @@ apg:
     - timestamps_in_tarball
   bugs:
     - 778215
+apgdiff:
+  version: 2.4-3
+  issues:
+    - timestamps_generated_by_docbook_to_man
 apng2gif:
   version: 1.5-3
   bugs:
@@ -473,6 +477,8 @@ ascii2binary:
     - build_id_variation_requiring_further_investigation
 asciidoc:
   version: 8.6.9-3
+  issues:
+    - timestamps_generated_by_docbook_to_man
   bugs:
     - 777177
     - 782294
@@ -556,6 +562,10 @@ atdgen:
   version: 1.3.1-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+atheist:
+  version: 0.20110402-2
+  issues:
+    - timestamps_generated_by_docbook_to_man
 atinject-jsr330:
   version: 1.0+ds1-1
   issues:
@@ -820,6 +830,7 @@ ben:
   version: 0.7.0
   issues:
     - build_id_variation_requiring_further_investigation
+    - timestamps_generated_by_docbook_to_man
 berkeley-abc:
   version: 1.01+20140822hg4d547a5+dfsg-1
   issues:
@@ -1068,6 +1079,10 @@ boost1.55:
   version: 1.55.0+dfsg-3
   issues:
     - timestamps_from_cpp_macros
+boot-info-script:
+  version: 0.61-2
+  issues:
+    - timestamps_generated_by_docbook_to_man
 bootchart:
   version: 0.10~svn407-4.1
   issues:
@@ -1219,6 +1234,10 @@ cableswig:
     Captures the Linux kernel version and compiler path.
     https://sources.debian.net/src/cableswig/0.1.0%2Bcvs20111009-1.1/SWIG/Source/Modules/main.cxx/#L422
     https://sources.debian.net/src/cableswig/0.1.0%2Bcvs20111009-1.1/SWIG/CMakeLists.txt/#L26
+cadencii:
+  version: 3.3.9+svn20110818.r1732-2
+  issues:
+    - timestamps_generated_by_docbook_to_man
 cain:
   version: 1.9-8
   comments: |
@@ -1273,6 +1292,10 @@ canna-shion:
   version: 0.0.20010204-12
   comments: |
     timestamps added by mkbindic from canna package
+capnproto:
+  version: 0.4.1-3
+  issues:
+    - timestamps_generated_by_docbook_to_man
 cardstories:
   version: 1.0.6-1.3
   bugs:
@@ -1623,6 +1646,7 @@ cluster-glue:
   version: 1.0.12~rc1+hg2777-1.2
   issues:
     - timestamps_in_static_libraries
+    - timestamps_generated_by_docbook_to_man
 clutter-1.0:
   version: 1.20.0-1
   issues:
@@ -1806,6 +1830,10 @@ compress-lzf:
   version: 1.0.3-1
   issues:
     - timestamps_in_maven_pom_files
+compton:
+  version: 0.1~beta2-1
+  issues:
+    - timestamps_generated_by_docbook_to_man
 condor:
   version: 8.2.3~dfsg.1-3
   issues:
@@ -1913,6 +1941,10 @@ cpm:
   version: 0.32-1
   issues:
     - lc_messages_randomness
+cppcheck:
+  version: 1.68-1
+  issues:
+    - timestamps_generated_by_docbook_to_man
 cppreference-doc:
   version: 20140208+dfsg1-1
   issues:
@@ -1948,6 +1980,10 @@ critterding:
   version: 1.0-beta12.1-1.2
   issues:
     - timestamps_in_png
+criu:
+  version: 1.5.1-2
+  issues:
+    - timestamps_generated_by_docbook_to_man
 cronometer:
   version: 0.9.9+dfsg-1
   issues:
@@ -2367,6 +2403,10 @@ debian-policy:
     - timestamps_in_gzip_headers
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_dvi_generated_by_latex
+debian-security-support:
+  version: 2015.04.04
+  issues:
+    - timestamps_generated_by_docbook_to_man
 debian-zh-faq:
   version: 1.13
   issues:
@@ -2401,6 +2441,10 @@ deets:
     - timestamps_in_gzip_headers
   bugs:
     - 777307
+deheader:
+  version: 1.1-1
+  issues:
+    - timestamps_generated_by_docbook_to_man
 dejagnu:
   version: 1.5.1-2
   comments: |
@@ -2649,6 +2693,10 @@ dnsruby:
   version: 1.54-2
   issues:
     - timestamps_in_gemspec_files
+doc-linux-fr:
+  version: 2013.01-2
+  issues:
+    - timestamps_generated_by_docbook_to_man
 docbook-xsl-saxon:
   version: 1.00.dfsg.1-5
   issues:
@@ -2730,6 +2778,7 @@ drbd-doc:
   version: 8.4~20140825-1
   issues:
     - timestamps_in_pdf_generated_by_apache_fop
+    - timestamps_generated_by_docbook_to_man
 drbd-utils:
   version: 8.9.2~rc1-2
   comments: |
@@ -2878,6 +2927,10 @@ easymock:
   version: 3.2+ds-4
   issues:
     - random_order_in_documentation_generated_by_javadoc
+easytag:
+  version: 2.3.1-1
+  issues:
+    - timestamps_generated_by_docbook_to_man
 ebook-speaker:
   version: 2.8.1-1
   issues:
@@ -3316,6 +3369,7 @@ exactimage:
   version: 0.8.9-7
   issues:
     - randomness_in_lto_debug_symbols
+    - timestamps_generated_by_docbook_to_man
 exifprobe:
   version: 2.0.1-3
   comments: |
@@ -3402,6 +3456,10 @@ fatresize:
   version: 1.0.2-7
   issues:
     - timestamps_generated_by_docbook_to_man
+fauhdlc:
+  version: 20130704-1
+  issues:
+    - timestamps_generated_by_docbook_to_man
 faumachine:
   version: 20120707-3
   bugs:
@@ -3414,6 +3472,10 @@ fbb:
   version: 7.05f-2
   issues:
     - timestamps_from_cpp_macros
+fbcat:
+  version: 0.3-1
+  issues:
+    - timestamps_generated_by_docbook_to_man
 fbi:
   version: 2.09-1
   issues:
@@ -3869,6 +3931,7 @@ freedoom:
   version: 0.9-1
   issues:
     - timestamps_in_png
+    - timestamps_generated_by_docbook_to_man
 freefem:
   version: 3.5.8-5.1
   issues:
@@ -4235,6 +4298,10 @@ geneweb:
   version: 6.08dfsg-3
   issues:
     - build_id_variation_requiring_further_investigation
+genometools:
+  version: 1.5.4-1
+  issues:
+    - timestamps_generated_by_docbook_to_man
 gentlyweb-utils:
   version: 1.5-1
   issues:
@@ -4363,6 +4430,7 @@ git:
     - not_using_dh_builddeb
     - timestamps_in_gzip_headers
     - random_anchor_names_generated_by_docbook_to_man
+    - timestamps_generated_by_docbook_to_man
 git-buildpackage:
   version: 0.6.22
   issues:
@@ -4704,6 +4772,10 @@ gnubik:
   version: 2.4.1-0.1
   issues:
     - lc_messages_randomness
+gnucash-docs:
+  version: 2.6.4-1
+  issues:
+    - timestamps_generated_by_docbook_to_man
 gnudatalanguage:
   version: 0.9.5-2
   issues:
@@ -4845,6 +4917,10 @@ gprolog:
   version: 1.3.0-6.1
   issues:
     - pdf_created_by_ghostscript
+gpsbabel:
+  version: 1.5.0-3
+  issues:
+    - timestamps_generated_by_docbook_to_man
 gpsd:
   version: 3.11-3
   issues:
@@ -4868,6 +4944,7 @@ gradle:
   version: 1.5-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
+    - timestamps_generated_by_docbook_to_man
 gradle-propdeps-plugin:
   version: 0.0.7-1
   issues:
@@ -4939,6 +5016,14 @@ grive:
   version: 0.2.0-1.1
   issues:
     - timestamps_from_cpp_macros
+grml-debootstrap:
+  version: 0.69
+  issues:
+    - timestamps_generated_by_docbook_to_man
+grml2usb:
+  version: 0.14.11
+  issues:
+    - timestamps_generated_by_docbook_to_man
 groff:
   version: 1.22.3-1
   bugs:
@@ -5077,6 +5162,14 @@ guile-gnome-platform:
   version: 2.16.2-1.1
   issues:
     - ftbfs_due_to_virtual_dependencies
+guilt:
+  version: 0.35-1.2
+  issues:
+    - timestamps_generated_by_docbook_to_man
+gummiboot:
+  version: 45-2
+  issues:
+    - timestamps_generated_by_docbook_to_man
 gutenprint:
   version: 5.2.10-3
   comments: |
@@ -5088,6 +5181,10 @@ guymager:
   version: 0.7.3-3
   issues:
     - variation_in_compilation
+gvfs:
+  version: 1.24.1-1
+  issues:
+    - timestamps_generated_by_docbook_to_man
 gvpe:
   version: 2.25-2
   issues:
@@ -5296,6 +5393,10 @@ herculesstudio:
   version: 1.5.0-2
   issues:
     - timestamps_from_cpp_macros
+herold:
+  version: 6.1.0-1
+  issues:
+    - timestamps_generated_by_docbook_to_man
 hex-a-hop:
   version: 0.0.20070315-8
   issues:
@@ -5452,6 +5553,10 @@ i2util:
   version: 1.2-1
   issues:
     - timestamps_from_cpp_macros
+i3status:
+  version: 2.9-1
+  issues:
+    - timestamps_generated_by_docbook_to_man
 ibus-table:
   version: 1.9.1-3
   issues:
@@ -6021,6 +6126,10 @@ jmagick:
   issues:
     - timestamps_in_documentation_generated_by_javadoc
     - timestamps_in_jar
+jmapviewer:
+  version: 1.07+dfsg-1~exp1
+  issues:
+    - timestamps_generated_by_docbook_to_man
 jmxetric:
   version: 1.0.6-1
   issues:
@@ -6174,6 +6283,10 @@ kapptemplate:
     - users_and_groups_in_tarball
 karlyriceditor:
   version: 1.11-1
+  issues:
+    - timestamps_generated_by_docbook_to_man
+katarakt:
+  version: 0.0+git2014.09.11-1
   issues:
     - timestamps_generated_by_docbook_to_man
 katoob:
@@ -6432,6 +6545,10 @@ lava-server:
     - timestamps_in_manpage_generated_by_sphinx
   bugs:
     - 782386
+lavapdu:
+  version: 0.0.4-1
+  issues:
+    - timestamps_generated_by_docbook_to_man
 lcdproc:
   version: 0.5.7-2
   issues:
@@ -6455,6 +6572,10 @@ ldapvi:
     - timestamps_in_gzip_headers
   bugs:
     - 777490
+ldb:
+  version: 2:1.1.20-1
+  issues:
+    - timestamps_generated_by_docbook_to_man
 ldns:
   version: 1.6.17-5
   bugs:
@@ -6487,6 +6608,10 @@ leocad:
   version: 0.80.3-1
   issues:
     - timestamps_from_cpp_macros
+letterize:
+  version: 1.3-6
+  issues:
+    - timestamps_generated_by_docbook_to_man
 leveldb-sharp:
   version: 1.9.1-1
   issues:
@@ -6604,6 +6729,7 @@ libapache2-mod-rivet:
     https://reproducible.debian.net/dbd/libapache2-mod-rivet_2.2.1-1.debbindiff.html
   issues:
     - random_anchor_names_generated_by_docbook_to_man
+    - timestamps_generated_by_docbook_to_man
 libapp-cmd-perl:
   version: 0.327-1
   issues:
@@ -8654,6 +8780,10 @@ libmixin-extrafields-perl:
   version: 0.140001-1
   issues:
     - timezones_manpages_podman
+libmodbus:
+  version: 3.0.6-1
+  issues:
+    - timestamps_generated_by_docbook_to_man
 libmodule-build-perl:
   version: 0.421000-2
   issues:
@@ -9512,6 +9642,10 @@ libspreadsheet-wright-perl:
   version: 0.105-1
   issues:
     - timezones_manpages_podman
+libspring-security-2.0-java:
+  version: 2.0.7.RELEASE-3
+  issues:
+    - timestamps_generated_by_docbook_to_man
 libstatistics-distributions-perl:
   version: 1.02-1
   issues:
@@ -11259,6 +11393,10 @@ moreutils:
   version: 0.55-1
   issues:
     - timezones_manpages_podman
+morse:
+  version: 2.4-2
+  issues:
+    - timestamps_generated_by_docbook_to_man
 morse-simulator:
   version: 1.2.1-2
   issues:
@@ -11702,6 +11840,10 @@ netty-3.9:
   version: 3.9.0.Final-1
   issues:
     - timestamps_in_maven_pom_files
+network-manager:
+  version: 1.0.0-4
+  issues:
+    - timestamps_generated_by_docbook_to_man
 network-manager-strongswan:
   version: 1.3.0-1.1
   bugs:
@@ -11896,6 +12038,14 @@ nss:
   version: 2:3.17.2-1
   issues:
     - timestamps_from_cpp_macros
+nss-wrapper:
+  version: 1.0.3-1
+  issues:
+    - timestamps_generated_by_docbook_to_man
+ntdb:
+  version: 1.0-5
+  issues:
+    - timestamps_generated_by_docbook_to_man
 ntlmaps:
   version: 0.9.9.0.1-11.3
   issues:
@@ -12548,6 +12698,10 @@ opensaml2:
   version: 2.5.3-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+opensc:
+  version: 0.14.0-2
+  issues:
+    - timestamps_generated_by_docbook_to_man
 openscad:
   version: 2014.03+dfsg-1
   issues:
@@ -12741,6 +12895,10 @@ paje.app:
     with dvips from a dvi file that includes a timestamp.
   issues:
     - timestamps_in_dvi_generated_by_latex
+pajeng:
+  version: 1.1+git20140604.1d5509f042-2
+  issues:
+    - timestamps_generated_by_docbook_to_man
 palo:
   version: 1.95
   comments: |
@@ -13135,6 +13293,10 @@ pixmap:
     - not_using_dh_builddeb
   bugs:
     - 777430
+pixz:
+  version: 1.0.2-2
+  issues:
+    - timestamps_generated_by_docbook_to_man
 pkg-components:
   version: 0.6
   issues:
@@ -13502,6 +13664,10 @@ ptouch-driver:
   version: 1.3-8
   issues:
     - ppds_compressed_b64
+publican:
+  version: 4.2.6-1
+  issues:
+    - timestamps_generated_by_docbook_to_man
 puppet-lint:
   version: 1.1.0-1
   issues:
@@ -13563,6 +13729,7 @@ pyacidobasic:
   version: 2.2-1
   issues:
     - timestamps_in_source_generated_by_pyqt4_ui
+    - timestamps_generated_by_docbook_to_man
 pyacoustid:
   version: 1.1.0-3
   issues:
@@ -13735,6 +13902,10 @@ python-byteplay:
   version: 0.2-2
   bugs:
     - 735826
+python-caja:
+  version: 1.8.1-2
+  issues:
+    - timestamps_generated_by_docbook_to_man
 python-cffi:
   version: 0.8.6-1
   issues:
@@ -13799,6 +13970,10 @@ python-dugong:
   version: 3.5+dfsg-1
   issues:
     - randomness_in_objects_inv
+python-ethtool:
+  version: 0.11-2
+  issues:
+    - timestamps_generated_by_docbook_to_man
 python-expyriment:
   version: 0.7.0+git34-g55a4e7e-3
   issues:
@@ -15062,6 +15237,7 @@ rapidsvn:
   version: 0.12.1dfsg-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - timestamps_generated_by_docbook_to_man
 raschsampler:
   version: 0.8-6-1
   issues:
@@ -15128,6 +15304,10 @@ refcard:
   version: 5.0.9
   issues:
     - timestamps_in_pdf_generated_by_latex
+refdb:
+  version: 1.0.2-3
+  issues:
+    - timestamps_generated_by_docbook_to_man
 refdb-sru:
   version: 0.7-2
   issues:
@@ -15167,6 +15347,7 @@ resource-agents:
   version: 1:3.9.5+git+a626847-1
   issues:
     - timezones_manpages_podman
+    - timestamps_generated_by_docbook_to_man
 rest2web:
   version: 0.5.2~alpha+svn-r248-2
   comments: |
@@ -15638,6 +15819,10 @@ salt:
   comments: |
     `/usr/lib/python2.7/dist-packages/salt/_syspaths.py` contains
     a timestamp.
+sam2p:
+  version: 0.49.2-3
+  issues:
+    - timestamps_generated_by_docbook_to_man
 samba:
   version: 2:4.1.17+dfsg-2
   issues:
@@ -15751,6 +15936,7 @@ scolasync:
   issues:
     - timestamps_in_documentation_generated_by_doxygen
     - timestamps_in_pdf_generated_by_latex
+    - timestamps_generated_by_docbook_to_man
 scons-doc:
   version: 2.3.1-1
   issues:
@@ -15885,6 +16071,10 @@ shelldap:
   version: 1.3.1-1
   issues:
     - timezones_manpages_podman
+shellex:
+  version: 0.1-1
+  issues:
+    - timestamps_generated_by_docbook_to_man
 shelxle:
   version: 1.0.677-1
   issues:
@@ -15911,6 +16101,14 @@ shorewall-core:
   version: 4.6.4.3-1
   bugs:
     - 776808
+shorewall-doc:
+  version: 4.6.4-1
+  issues:
+    - timestamps_generated_by_docbook_to_man
+shunit2:
+  version: 2.1.6-1
+  issues:
+    - timestamps_generated_by_docbook_to_man
 signify:
   version: 1.14-1
   issues:
@@ -16567,6 +16765,10 @@ systemd:
   version: 215-14
   issues:
     - randomness_in_lto_debug_symbols
+systemtap:
+  version: 2.6-0.2
+  issues:
+    - timestamps_generated_by_docbook_to_man
 systraq:
   version: 0.0.20081217-7
   issues:
@@ -16918,6 +17120,10 @@ topal:
     http://sources.debian.net/src/topal/75-2/Makefile/?hl=19#L19
   issues:
     - timestamps_in_pdf_generated_by_latex
+tor:
+  version: 0.2.6.7-1
+  issues:
+    - timestamps_generated_by_docbook_to_man
 torque:
   version: 2.4.16+dfsg-1.5
   comments: |
@@ -17079,6 +17285,10 @@ tvoe:
   version: 0.1-1
   issues:
     - timestamps_from_cpp_macros
+tweeper:
+  version: 0.3-1
+  issues:
+    - timestamps_generated_by_docbook_to_man
 twidge:
   version: 1.1.2
   issues:
@@ -17258,6 +17468,10 @@ universalindentgui:
   version: 1.2.0-1
   issues:
     - timestamps_from_cpp_macros
+unknown-horizons:
+  version: 2014.1+ds1-1
+  issues:
+    - timestamps_generated_by_docbook_to_man
 unzip:
   version: 6.0-12
   issues:
@@ -17588,6 +17802,10 @@ wavemon:
     https://sources.debian.net/src/wavemon/0.7.6-2/about_scr.c/?hl=27#L27
   issues:
     - timestamps_from_cpp_macros
+wavtool-pl:
+  version: 0.20140305-1
+  issues:
+    - timestamps_generated_by_docbook_to_man
 webassets:
   version: 3:0.10.1-2
   bugs:
@@ -17608,6 +17826,7 @@ weechat:
   version: 1.1.1-1
   issues:
     - lc_messages_randomness
+    - timestamps_generated_by_docbook_to_man
 welcome2l:
   version: 3.04-25
   comments: |
@@ -17821,6 +18040,7 @@ x11proto-core:
   version: 7.0.26-1
   issues:
     - timestamps_in_pdf_generated_by_apache_fop
+    - timestamps_generated_by_docbook_to_man
 x11vnc:
   version: 0.9.13-1.2
   comments: |
@@ -17910,6 +18130,10 @@ xd:
     - 777366
 xdg-user-dirs:
   version: 0.15-2
+  issues:
+    - timestamps_generated_by_docbook_to_man
+xdg-utils:
+  version: 1.1.0~rc1+git20111210-7.4
   issues:
     - timestamps_generated_by_docbook_to_man
 xdotool:
@@ -18261,6 +18485,10 @@ yaws:
   version: 1.98-4
   issues:
     - timestamps_in_beam_files
+yaz:
+  version: 4.2.30-4
+  issues:
+    - timestamps_generated_by_docbook_to_man
 yecht:
   version: 0.0.2-2
   issues:
