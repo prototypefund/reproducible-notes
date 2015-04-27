@@ -3737,16 +3737,16 @@ fonts-georgewilliams:
   version: 20031023-2
   issues:
     - fontforge_reset_modification_time
-fonts-linuxlibertine:
-  version: 5.3.0-2
-  issues:
-    - fontforge_reset_modification_time
 fonts-junicode:
   version: 0.7.8-2
   bugs:
     - 774275
 fonts-kacst-one:
   version: 5.0+svn11846-7
+  issues:
+    - fontforge_reset_modification_time
+fonts-linuxlibertine:
+  version: 5.3.0-2
   issues:
     - fontforge_reset_modification_time
 fonts-ocr-a:
@@ -5261,11 +5261,11 @@ heat:
     - randomness_in_documentation_generated_by_sphinx
 heimdal:
   version: 1.6~rc2+dfsg-9
-  issues:
-    - timestamps_from_cpp_macros
   comments: |
     Embeds build time, hostname and kernel version.
     Fixed in unstable, 1.6~rc2+dfsg-10
+  issues:
+    - timestamps_from_cpp_macros
 hello-traditional:
   version: 2.9-2
   issues:
@@ -16435,10 +16435,10 @@ subversion:
     - ftbfs_werror_equals
 subvertpy:
   version: 0.9.1-7
-  issues:
-    - timestamps_in_documentation_generated_by_pydoctor
   comments: |
     fix present in git, waiting with upload until pydoctor hits unstable
+  issues:
+    - timestamps_in_documentation_generated_by_pydoctor
 sumo:
   version: 0.21.0+dfsg-1
   issues:
@@ -16677,10 +16677,10 @@ tcpwatch-httpproxy:
     - 776969
 tdb:
   version: 1.3.4-1
-  issues:
-    - timestamps_generated_by_docbook_to_man
   comments: |
     Fixed in 1.3.4-2 (unstable)
+  issues:
+    - timestamps_generated_by_docbook_to_man
 tdiary:
   version: 3.2.2-3
   issues:
@@ -17056,15 +17056,15 @@ turnin-ng:
   version: 1.2-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+tuxguitar:
+  version: 1.2-20
+  issues:
+    - timestamps_in_jar
 tuxpaint-config:
   version: 0.0.13-1
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/tuxpaint-config/0.0.13-1/Makefile/?hl=18#L18
-tuxguitar:
-  version: 1.2-20
-  issues:
-    - timestamps_in_jar
 tvoe:
   version: 0.1-1
   issues:
