@@ -901,6 +901,12 @@ bind-dyndb-ldap:
   version: 6.0-4
   issues:
     - timestamps_from_cpp_macros
+bind9:
+  version: 1:9.9.5.dfsg-9
+  issues:
+    - timestamps_from_cpp_macros
+  bugs:
+    - 783885
 bindechexascii:
   version: 0.0+20140524.git7dcd86-1
   issues:
