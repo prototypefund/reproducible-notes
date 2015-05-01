@@ -2770,6 +2770,10 @@ dput:
     - not_using_dh_builddeb
   bugs:
     - 777375
+dput-ng:
+  version: 1.9
+  issues:
+    - timestamps_in_manpage_generated_by_sphinx
 dracut:
   version: 040+1-1
   issues:
@@ -5650,7 +5654,9 @@ imagemagick:
   version: 8:6.8.9.9-5
   issues:
     - timestamps_in_png
-    - timezones_manpages_podman
+    - timestamps_from_cpp_macros
+  bugs:
+    - 783933
 imapcopy:
   version: 1.04-2
   issues:
@@ -11647,6 +11653,10 @@ mxallowd:
   version: 1.9-2
   issues:
     - timestamps_in_pdf_generated_by_latex
+mydumper:
+  version: 0.6.1-1
+  issues:
+    - timestamps_in_manpage_generated_by_sphinx
 mygui:
   version: 3.2.1-1
   issues:
@@ -12538,6 +12548,10 @@ openarena-085-data:
     - timestamps_in_zip
 openarena-088-data:
   version: 0.8.8-2
+  issues:
+    - timestamps_in_zip
+openarena-data:
+  version: 0.8.5split-4
   issues:
     - timestamps_in_zip
 openarena-maps:
@@ -15640,6 +15654,10 @@ ruby-imagesize:
   version: 1:0.1.1-5
   bugs:
     - 747688
+ruby-ipaddress:
+  version: 0.8.0-3
+  issues:
+    - timestamps_in_gemspec_files
 ruby-kakasi-ffi:
   version: 1.0.1-1
   bugs:
