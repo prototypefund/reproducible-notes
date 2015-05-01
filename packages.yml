@@ -6136,6 +6136,8 @@ jodconverter:
   version: 2.2.2-7
   issues:
     - timestamps_in_documentation_generated_by_javadoc
+  comments: |
+    The timestamps_in_documentation_generated_by_javadoc issue is worked around by strip-nondeterminism but jodconverter uses neither dh, nor cdbs, so strip-nondeterminism is not called.
   bugs:
     - 783882
 jodconverter-cli:
