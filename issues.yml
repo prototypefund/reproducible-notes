@@ -534,3 +534,7 @@ timestamps_generated_by_yorick_mkdoc:
   description: |
     yorick function's mkdoc documented in i/README and defined in i/mkdoc.i use the function
     mkdoc_title, which uses the timestamp function for the document header.
+timestamps_in_documentation_generated_by_rdtool:
+  description: |
+    RD is a document formatter used for ruby programs. When generating manpages, it embeds the
+    current month and year.
