@@ -20,6 +20,10 @@ a2ps:
     Also a timestamp in /usr/share/a2ps/README
   issues:
     - timestamps_generated_by_docbook_to_man
+a52dec:
+  version: 0.7.4-17
+  issues:
+    - different_due_to_umask
 abcm2ps:
   version: 7.8.9-1
   issues:
@@ -58,6 +62,8 @@ ace:
     - timestamps_generated_by_docbook_to_man
 ace-of-penguins:
   version: 1.3-13
+  issues:
+    - different_due_to_umask
   bugs:
     - 782316
 aconnectgui:
@@ -112,6 +118,10 @@ adduser:
     - different_due_to_umask
   bugs:
     - 777281
+adios:
+  version: 1.7.0-4
+  issues:
+    - different_due_to_umask
 aegis:
   version: 4.24.3-3
   issues:
@@ -142,6 +152,14 @@ aghermann:
   version: 1.0.2-1
   issues:
     - timestamps_from_cpp_macros
+ahven:
+  version: 2.4+repack-1
+  issues:
+    - different_due_to_umask
+aiksaurus:
+  version: 1.2.1+dev-0.12-6.2
+  issues:
+    - different_due_to_umask
 airport-utils:
   version: 2-3
   issues:
@@ -201,6 +219,7 @@ alsaplayer:
   version: 0.99.81-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
 altree:
   version: 1.3.1-2
   issues:
@@ -236,6 +255,18 @@ analog:
   version: 2:6.0-20
   issues:
     - timestamps_from_cpp_macros
+android-platform-frameworks-base:
+  version: 21-2
+  issues:
+    - different_due_to_umask
+android-platform-frameworks-native:
+  version: 21-3
+  issues:
+    - different_due_to_umask
+android-platform-system-core:
+  version: 21-6
+  issues:
+    - different_due_to_umask
 androidsdk-tools:
   version: 22.2+git20130830~92d25d6-1
   issues:
@@ -297,6 +328,7 @@ aolserver4:
   version: 4.5.1-18
   issues:
     - timestamps_in_gzip_headers
+    - different_due_to_umask
 aolserver4-nsmysql:
   version: 0.6-9
   issues:
@@ -573,6 +605,14 @@ atlas:
   version: 3.10.2-7
   issues:
     - variation_in_compilation
+ats-lang-anairiats:
+  version: 0.2.11-1
+  issues:
+    - different_due_to_umask
+ats2-lang:
+  version: 0.1.3-1
+  issues:
+    - different_due_to_umask
 attic:
   version: 0.13-1
   issues:
@@ -918,6 +958,7 @@ bin-prot:
   version: 111.03.00-1
   issues:
     - randomness_in_ocaml_a_files
+    - different_due_to_umask
 bind-dyndb-ldap:
   version: 6.0-4
   issues:
@@ -942,6 +983,8 @@ binkd:
     - timestamps_from_cpp_macros
 binutils:
   version: 2.25-6
+  issues:
+    - different_due_to_umask
   bugs:
     - 774429
 binutils-m68hc1x:
@@ -997,6 +1040,10 @@ bittornado:
   version: 0.3.18-10.1
   issues:
     - timestamps_generated_by_docbook_to_man
+blacs-pvm:
+  version: 1.1-21
+  issues:
+    - different_due_to_umask
 blam:
   version: 1.8.9-4
   issues:
@@ -1066,6 +1113,7 @@ boa-constructor:
   version: 0.6.1-13
   issues:
     - timestamps_in_zip
+    - different_due_to_umask
 bochs:
   version: 2.6-2
   issues:
@@ -1088,6 +1136,10 @@ boolector:
   comments: |
     Embed build time, hostname, and kernel version:
     http://sources.debian.net/src/boolector/1.5.118.6b56be4.121013-1/lingeling/mkconfig/?hl=16:17#L16
+boolstuff:
+  version: 0.1.14-2
+  issues:
+    - different_due_to_umask
 boost1.54:
   version: 1.54.0-5
   issues:
@@ -1117,6 +1169,8 @@ botan1.10:
   version: 1.10.8-2
   comments: |
     Embed build time in /usr/include/botan-1.10/botan/build.h
+  issues:
+    - different_due_to_umask
 botch:
   version: 0.5-1~experimental1
   issues:
@@ -1182,6 +1236,7 @@ bsh:
     /usr/share/java/bsh-2.0b4.jar:META-INF/MANIFEST.MF
   issues:
     - timestamps_in_tarball
+    - different_due_to_umask
 bsl:
   version: 0.6.0-1
   issues:
@@ -1198,6 +1253,10 @@ bullet:
   version: 2.82-r2704+dfsg-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+bulletml:
+  version: 0.0.6-6
+  issues:
+    - different_due_to_umask
 bup:
   version: 0.25-1
   comments: |
@@ -1290,10 +1349,15 @@ camitk:
   version: 3.4.0-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
 camlp5:
   version: 6.11+dfsg-3
   issues:
     - randomness_in_ocaml_lintian_info_files
+camlzip:
+  version: 1.05-3
+  issues:
+    - different_due_to_umask
 camping:
   version: 2.1.580-1
   issues:
@@ -1303,6 +1367,7 @@ canl-c:
   issues:
     - timestamps_in_static_libraries
     - timestamps_in_pdf_generated_by_latex
+    - different_due_to_umask
 canna-shion:
   version: 0.0.20010204-12
   comments: |
@@ -1345,6 +1410,7 @@ ccfits:
   version: 2.4+dfsg-3
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
 ccseapps:
   version: 2.5-5
   issues:
@@ -1391,6 +1457,10 @@ cdo:
   version: 1.6.4+dfsg.1-5.1
   issues:
     - timestamps_from_cpp_macros
+cdparanoia:
+  version: 3.10.2+debian-11
+  issues:
+    - different_due_to_umask
 cdtool:
   version: 2.1.8-release-2
   comments: |
@@ -1419,6 +1489,10 @@ cenon.app:
   version: 4.0.2-1
   issues:
     - timestamps_from_cpp_macros
+ceph:
+  version: 0.80.7-2
+  issues:
+    - different_due_to_umask
 certmaster:
   version: 0.25-1.1
   issues:
@@ -1459,12 +1533,17 @@ cgilib:
     - not_using_dh_builddeb
     - timestamps_in_static_libraries
     - timestamps_in_gzip_headers
+    - different_due_to_umask
   bugs:
     - 776935
 cgoban:
   version: 1.9.14-17
   issues:
     - not_using_dh_builddeb
+cgsi-gsoap:
+  version: 1.3.6-1
+  issues:
+    - different_due_to_umask
 chaksem:
   version: 1.7b-5.1
   comments: |
@@ -1494,6 +1573,7 @@ checkpw:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+    - different_due_to_umask
   bugs:
     - 777299
 checkstyle:
@@ -1547,6 +1627,10 @@ ciderwebmail:
   version: 1.05-5
   issues:
     - timezones_manpages_podman
+cinder:
+  version: 2014.1.3-11
+  issues:
+    - different_due_to_umask
 cipux-rbac:
   version: 3.4.0~svn2868-1
   issues:
@@ -1658,6 +1742,7 @@ cluster-glue:
   issues:
     - timestamps_in_static_libraries
     - timestamps_generated_by_docbook_to_man
+    - different_due_to_umask
 clutter-1.0:
   version: 1.20.0-1
   issues:
@@ -1762,6 +1847,7 @@ coinor-osi:
   version: 0.106.9-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
 coinor-symphony:
   version: 5.6.1-1
   issues:
@@ -1802,6 +1888,10 @@ colortest-python:
   version: 2.2-1
   bugs:
     - 782208
+colpack:
+  version: 1.0.9-3
+  issues:
+    - different_due_to_umask
 commons-configuration:
   version: 1.10-2
   issues:
@@ -1842,6 +1932,7 @@ conduit:
   version: 0.3.17-1.1
   issues:
     - unsorted_filelist_python_support_private
+    - different_due_to_umask
 config-manager:
   version: 0.4-2.1
   issues:
@@ -1911,6 +2002,10 @@ courier:
   issues:
     - build_id_variation_requiring_further_investigation
     - timezones_manpages_podman
+courier-authlib:
+  version: 0.66.1-1
+  issues:
+    - different_due_to_umask
 courier-filter-perl:
   version: 0.200+ds-2
   issues:
@@ -1951,6 +2046,10 @@ cputool:
   version: 0.0.7-1
   issues:
     - timestamps_generated_by_docbook_to_man
+cqrlib:
+  version: 1.1.2-2.1
+  issues:
+    - different_due_to_umask
 crash:
   version: 7.0.8-1
   comments: |
@@ -1986,6 +2085,7 @@ cross-binutils:
     - timestamps_in_static_libraries
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+    - different_due_to_umask
 cross-gcc-4.9-arm64:
   version: 11
   issues:
@@ -2043,6 +2143,10 @@ csvimp:
   version: 0.5.0-2
   issues:
     - timestamps_from_cpp_macros
+ctemplate:
+  version: 2.2-4
+  issues:
+    - different_due_to_umask
 ctpp2:
   version: 2.8.3-15
   issues:
@@ -2064,6 +2168,10 @@ cups:
     Package has been blacklisted in sid and experimental (2.0.2-2)
   issues:
     - blacklisted_on_jenkins
+cups-filters:
+  version: 1.0.61-5
+  issues:
+    - different_due_to_umask
 cupt:
   version: 2.8.4
   issues:
@@ -2071,6 +2179,10 @@ cupt:
     - timezones_manpages_podman
   bugs:
     - 777576
+curlpp:
+  version: 0.7.3-6
+  issues:
+    - different_due_to_umask
 curtain:
   version: 0.3-1
   bugs:
@@ -2091,6 +2203,7 @@ cvm:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
     - timestamps_in_static_libraries
+    - different_due_to_umask
 cvs:
   version: 2:1.12.13+real-15
   issues:
@@ -2113,6 +2226,10 @@ cwebx:
   version: 3.52-1
   issues:
     - timestamps_in_dvi_generated_by_latex
+cwidget:
+  version: 0.5.17-2
+  issues:
+    - different_due_to_umask
 cwirc:
   version: 2.0.0-7
   issues:
@@ -2237,6 +2354,7 @@ db5.3:
   issues:
     - timestamps_in_jar
     - randomness_in_gcj_output
+    - different_due_to_umask
 dballe:
   version: 6.8-1
   comments: |
@@ -2398,6 +2516,10 @@ debian-policy:
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_dvi_generated_by_latex
     - different_due_to_umask
+debian-reference:
+  version: 2.58
+  issues:
+    - different_due_to_umask
 debian-security-support:
   version: 2015.04.04
   issues:
@@ -2466,6 +2588,10 @@ desproxy:
   version: 0.1.0~pre3-8
   bugs:
     - 782211
+developers-reference:
+  version: 3.4.14
+  issues:
+    - different_due_to_umask
 device-tree-compiler:
   version: 1.4.0+dfsg-1
   issues:
@@ -2478,6 +2604,10 @@ device3dfx:
     - different_due_to_umask
   bugs:
     - 778213
+devil:
+  version: 1.7.8-9
+  issues:
+    - different_due_to_umask
 devtodo:
   version: 0.1.20-6
   bugs:
@@ -2532,6 +2662,11 @@ dialog:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
     - timestamps_in_static_libraries
+    - different_due_to_umask
+dico:
+  version: 2.2-8
+  issues:
+    - different_due_to_umask
 dict-bouvier:
   version: 6.revised-3.2
   issues:
@@ -2656,6 +2791,14 @@ dkg-handwriting:
   version: 0.15-1
   issues:
     - fontforge_reset_modification_time
+dmalloc:
+  version: 5.5.2-6
+  issues:
+    - different_due_to_umask
+dnprogs:
+  version: 2.64
+  issues:
+    - different_due_to_umask
 dnsjava:
   version: 2.1.5-0.1
   issues:
@@ -2711,6 +2854,10 @@ dot-forward:
     - different_due_to_umask
   bugs:
     - 776760
+dotconf:
+  version: 1.3-0.2
+  issues:
+    - different_due_to_umask
 doxia:
   version: 1.1.4-2
   issues:
@@ -2735,6 +2882,10 @@ dpatch:
     - not_using_dh_builddeb
   bugs:
     - 776937
+dpkg:
+  version: 1.18.0~reproducible1
+  issues:
+    - different_due_to_umask
 dpsyco:
   version: 1.0.36
   issues:
@@ -2826,6 +2977,7 @@ dune-common:
   version: 2.3.1-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
 dune-geometry:
   version: 2.3.1-1
   issues:
@@ -2834,6 +2986,7 @@ dune-grid:
   version: 2.3.1-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
 dune-grid-glue:
   version: 2.3.1-1
   issues:
@@ -2854,6 +3007,7 @@ dune-typetree:
   version: 2.3.1-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
 dutch:
   version: 1:2.10-2
   issues:
@@ -2892,6 +3046,10 @@ dx:
   version: 1:4.4.4-7
   issues:
     - timestamps_from_cpp_macros
+dxflib:
+  version: 2.5.0.0-2
+  issues:
+    - different_due_to_umask
 dymo-cups-drivers:
   version: 1.4.0-5
   issues:
@@ -2953,6 +3111,10 @@ edfbrowser:
   version: 1.54-2
   issues:
     - timestamps_from_cpp_macros
+editline:
+  version: 1.12-6.1
+  issues:
+    - different_due_to_umask
 editorconfig-core:
   version: 0.11.5-2
   issues:
@@ -3045,6 +3207,10 @@ elog:
   version: 2.9.2+2014.05.11git44800a7-2
   issues:
     - timestamps_from_cpp_macros
+elpa:
+  version: 2013.11.008-2
+  issues:
+    - different_due_to_umask
 elvis-tiny:
   version: 1.4-23
   comments: |
@@ -3310,6 +3476,10 @@ esdl:
   version: 1.2-2
   issues:
     - timestamps_in_beam_files
+eso-midas:
+  version: 13.09pl1.4-1
+  issues:
+    - different_due_to_umask
 espa-nol:
   version: 1.11-9
   issues:
@@ -3328,6 +3498,7 @@ esys-particle:
   version: 2.3-2
   issues:
     - use_epydoc
+    - different_due_to_umask
 eterm:
   version: 0.9.6-1
   issues:
@@ -3340,6 +3511,10 @@ eurephia:
   version: 1.1.0-4
   issues:
     - variation_in_compilation
+event-dance:
+  version: 0.1.28-4
+  issues:
+    - different_due_to_umask
 evernote-mode:
   version: 0.41-3.1
   issues:
@@ -3406,6 +3581,10 @@ faad2:
   version: 2.7-8
   issues:
     - timestamps_from_cpp_macros
+fai:
+  version: 4.3.2
+  issues:
+    - different_due_to_umask
 fake:
   version: 1.1.11-1
   issues:
@@ -3420,6 +3599,10 @@ fakeroot:
   version: 1.20.2-1
   issues:
     - not_using_dh_builddeb
+    - different_due_to_umask
+farstream:
+  version: 0.1.2-3
+  issues:
     - different_due_to_umask
 fasianoptions:
   version: 3010.79-1
@@ -3654,6 +3837,10 @@ fityk:
   version: 1.2.1-0.1
   issues:
     - timestamps_from_cpp_macros
+flam3:
+  version: 3.0.1-3
+  issues:
+    - different_due_to_umask
 flamingo:
   version: 5.0-1
   issues:
@@ -3662,6 +3849,7 @@ flann:
   version: 1.8.4-4.1
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - different_due_to_umask
 flashblock:
   version: 1.5.17-1
   issues:
@@ -3697,6 +3885,11 @@ flex:
   version: 2.5.39-8
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - different_due_to_umask
+flex-old:
+  version: 2.5.4a-10
+  issues:
+    - different_due_to_umask
 flickrfs:
   version: 1.3.9.1-9.2
   bugs:
@@ -3709,6 +3902,7 @@ flite:
   version: 1.4-release-12
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - different_due_to_umask
 flow-tools:
   version: 1:0.68-12.1
   issues:
@@ -3732,6 +3926,7 @@ fltk1.1:
   version: 1.1.10-19
   issues:
     - timestamps_in_documentation_generated_by_htmldoc
+    - different_due_to_umask
 fltk1.3:
   version: 1.3.2-6
   issues:
@@ -3891,6 +4086,10 @@ fox1.6:
   version: 1.6.50-1
   issues:
     - timestamps_from_cpp_macros
+fpc:
+  version: 2.6.4+dfsg-4
+  issues:
+    - different_due_to_umask
 frama-c:
   version: 20140301+neon+dfsg-3
   comments: |
@@ -3901,6 +4100,10 @@ freebirth:
   version: 0.3.2-9.1
   issues:
     - timestamps_generated_by_docbook_to_man
+freebsd-buildutils:
+  version: 10.0-5
+  issues:
+    - different_due_to_umask
 freecdb:
   version: 0.75
   issues:
@@ -3918,6 +4121,7 @@ freecontact:
   issues:
     - timestamps_in_documentation_generated_by_doxygen
     - timezones_manpages_podman
+    - different_due_to_umask
 freedict:
   version: 2014.10.22-2
   issues:
@@ -3943,6 +4147,10 @@ freefoam:
   version: 0.1.0+dfsg+1-3
   issues:
     - debbindiff_runs_forever
+freeglut:
+  version: 2.8.1-2
+  issues:
+    - different_due_to_umask
 freehdl:
   version: 0.0.8-2.1
   issues:
@@ -3951,6 +4159,10 @@ freehep-graphicsio:
   version: 2.1.1-3
   issues:
     - user_in_java_jar_manifest
+freeimage:
+  version: 3.15.4-4.1
+  issues:
+    - different_due_to_umask
 freemedforms-project:
   version: 0.9.4-1
   issues:
@@ -3971,6 +4183,10 @@ freetts:
   version: 1.2.2-3
   issues:
     - user_in_java_jar_manifest
+freetuxtv:
+  version: 0.6.6~dfsg1-1
+  issues:
+    - different_due_to_umask
 freetype:
   version: 2.5.2-2
   issues:
@@ -4015,6 +4231,7 @@ fstrcmp:
   version: 0.7.D001-1.1
   issues:
     - pdf_created_by_ghostscript
+    - different_due_to_umask
 fsvs:
   version: 1.2.5-1
   issues:
@@ -4023,6 +4240,7 @@ ftgl:
   version: 2.1.3~rc5-4+nmu1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
 ftjam:
   version: 2.5.2-1.1
   issues:
@@ -4051,6 +4269,7 @@ fusionforge:
   version: 5.3.2+20141104-3
   issues:
     - timestamps_generated_by_docbook_to_man
+    - different_due_to_umask
 fvwm:
   version: 1:2.6.5.ds-3
   issues:
@@ -4171,10 +4390,18 @@ gcc-4.4:
   issues:
     - timestamps_in_documentation_generated_by_doxygen
     - timestamps_in_dvi_generated_by_latex
+gcc-4.6:
+  version: 4.6.4-7
+  issues:
+    - different_due_to_umask
 gcc-arm-none-eabi:
   version: 11
   bugs:
     - 775425
+gcc-avr:
+  version: 1:4.8.1+Atmel3.4.4-2
+  issues:
+    - different_due_to_umask
 gcc-defaults:
   version: 1.135
   comments: |
@@ -4189,8 +4416,16 @@ gcc-m68hc1x:
   version: 1:3.3.6+3.1+dfsg-3
   issues:
     - different_due_to_umask
+gcc-mingw-w64:
+  version: 15.1
+  issues:
+    - different_due_to_umask
 gcc-msp430:
   version: 4.6.3~mspgcc-20120406-7
+  issues:
+    - different_due_to_umask
+gccxml:
+  version: 0.9.0+git20140716-2
   issues:
     - different_due_to_umask
 gcin:
@@ -4205,6 +4440,7 @@ gcl:
   version: 2.6.12-1
   issues:
     - timestamps_from_cpp_macros
+    - different_due_to_umask
 gco:
   version: 0.5.0-6
   issues:
@@ -4266,6 +4502,10 @@ gdnsd:
   issues:
     - timestamps_in_documentation_generated_by_podman
     - timezones_manpages_podman
+geant321:
+  version: 1:3.21.14.dfsg-11
+  issues:
+    - different_due_to_umask
 geany:
   version: 1.24.1+dfsg-1
   issues:
@@ -4286,6 +4526,7 @@ geis:
   version: 2.2.16-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
 gelemental:
   version: 1.2.0-9
   issues:
@@ -4310,6 +4551,10 @@ geogebra:
   version: 4.0.34.0+dfsg1-3
   issues:
     - timestamps_generated_by_docbook_to_man
+geoip:
+  version: 1.6.2-4
+  issues:
+    - different_due_to_umask
 geoip-database:
   version: 20150317-1
   comments: |
@@ -4318,11 +4563,14 @@ geos:
   version: 3.4.2-6
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
 gerbv:
   version: 2.6.0-1
   comments: |
     Embed build time:
     http://sources.debian.net/src/gerbv/2.6.0-1/src/callbacks.c/?hl=1541#L1541
+  issues:
+    - different_due_to_umask
 geronimo-jpa-2.0-spec:
   version: 1.1-2
   issues:
@@ -4355,6 +4603,11 @@ gettext:
   version: 0.19.3-2
   issues:
     - not_using_dh_builddeb
+    - different_due_to_umask
+gexiv2:
+  version: 0.10.2-2
+  issues:
+    - different_due_to_umask
 gfal2:
   version: 2.7.8-2
   issues:
@@ -4371,6 +4624,7 @@ gforth:
   version: 0.7.2+dfsg1-1.1
   issues:
     - variation_in_compilation
+    - different_due_to_umask
 gfpoken:
   version: 1-2
   comments: |
@@ -4391,6 +4645,14 @@ ghdl:
   version: 0.29+gcc4.3.4+dfsg-1.1
   issues:
     - ftbfs_due_to_virtual_dependencies
+ghostscript:
+  version: 9.06~dfsg-2.0~reproducible1
+  issues:
+    - different_due_to_umask
+giblib:
+  version: 1.2.4-10
+  issues:
+    - different_due_to_umask
 gif2apng:
   version: 1.7-3
   bugs:
@@ -4419,6 +4681,7 @@ girara:
   version: 0.2.3-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
 git:
   version: 1:2.1.4-2
   comments: |
@@ -4477,12 +4740,18 @@ glance:
   issues:
     - timestamps_in_manpage_generated_by_sphinx
     - timestamps_in_documentation_generated_by_sphinx
+gle:
+  version: 3.1.0-7.1
+  issues:
+    - different_due_to_umask
 gle-graphics:
   version: 4.2.4c-6
   issues:
     - timestamps_from_cpp_macros
 glibc:
   version: 2.19-18
+  issues:
+    - different_due_to_umask
   bugs:
     - 783210
 glob2:
@@ -4617,6 +4886,10 @@ glusterfs:
   version: 3.5.2-1
   issues:
     - timestamps_from_cpp_macros
+glw:
+  version: 8.0.0-1.1
+  issues:
+    - different_due_to_umask
 glyr:
   version: 1.0.6+git20140423-1
   issues:
@@ -4678,10 +4951,12 @@ gnat-mingw-w64:
   version: 15
   issues:
     - timestamps_in_ada_library_information_files
+    - different_due_to_umask
 gnokii:
   version: 0.6.30+dfsg-1
   issues:
     - timestamps_from_cpp_macros
+    - different_due_to_umask
 gnome-applets:
   version: 3.8.1-1
   issues:
@@ -4722,6 +4997,10 @@ gnome-rdp:
   version: 0.3.0.9-3
   issues:
     - timestamps_in_pe_binaries
+gnome-schedule:
+  version: 2.1.1-4
+  issues:
+    - different_due_to_umask
 gnome-session:
   version: 3.14.0-2
   comments: |
@@ -4852,6 +5131,7 @@ gnustep-gui:
   version: 0.24.0-3
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - different_due_to_umask
 gnustep-make:
   version: 2.6.6-3
   issues:
@@ -4860,6 +5140,10 @@ goaccess:
   version: 1:0.8.3-1
   issues:
     - timestamps_from_cpp_macros
+goffice-0.8:
+  version: 0.8.17-3
+  issues:
+    - different_due_to_umask
 gofigure2:
   version: 0.9.0-3
   issues:
@@ -4969,6 +5253,7 @@ grass:
   version: 7.0.0-1~exp1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
 gravitation:
   version: 3+dfsg1-4
   issues:
@@ -4987,6 +5272,7 @@ gretl:
   version: 1.9.92-1
   issues:
     - timestamps_in_static_libraries
+    - different_due_to_umask
 gri:
   version: 2.12.23-8
   issues:
@@ -5077,6 +5363,10 @@ gsw:
   version: 3.0.3-1
   issues:
     - random_order_in_egg_info_top_level_txt
+gthumb:
+  version: 3:3.3.1-2
+  issues:
+    - different_due_to_umask
 gtk+3.0:
   version: 3.14.5-1
   issues:
@@ -5095,10 +5385,15 @@ gtk-sharp2:
     - timestamps_in_pe_binaries
     - timestamps_in_zip
     - randomness_in_dh_cligacpolicy_scripts
+    - different_due_to_umask
 gtk-sharp3:
   version: 2.99.3-2
   issues:
     - timestamps_in_pe_binaries
+gtkgl2:
+  version: 2.0.1-2.2
+  issues:
+    - different_due_to_umask
 gtkglarea-sharp:
   version: 0.0.17-6
   issues:
@@ -5148,6 +5443,8 @@ guile-1.8:
   version: 1.8.8+1-10
   comments: |
     Timestamp in custom .a header(?), and hence messed-up Build-Ids(?)
+  issues:
+    - different_due_to_umask
 guile-gnome-platform:
   version: 2.16.2-1.1
   issues:
@@ -5167,6 +5464,10 @@ gutenprint:
     http://permalink.gmane.org/gmane.linux.printing.gimp-print.devel/11877
     Fixed in upstream vcs:
     http://gimp-print.cvs.sourceforge.net/viewvc/gimp-print/print/src/foomatic/foomatic-generator.in?r1=1.83&r2=1.84
+guvcview:
+  version: 2.0.1+debian-1
+  issues:
+    - different_due_to_umask
 guymager:
   version: 0.7.3-3
   issues:
@@ -5195,6 +5496,10 @@ gzip:
   version: 1.6-4
   issues:
     - timezone_variance_because_of_automake_mdate
+h323plus:
+  version: 1.24.0~dfsg2-1
+  issues:
+    - different_due_to_umask
 hachoir-metadata:
   version: 1.3.3-2
   issues:
@@ -5556,6 +5861,7 @@ haskell-hledger-web:
   version: 0.23.3-1
   issues:
     - timestamps_in_ghc_interfaces
+    - different_due_to_umask
 haskell-hmatrix:
   version: 0.16.0.3-2
   issues:
@@ -6141,6 +6447,10 @@ havp:
   version: 0.92a-3
   issues:
     - timestamps_generated_by_docbook_to_man
+hawknl:
+  version: 1.6.8+dfsg2-1
+  issues:
+    - different_due_to_umask
 hawtjni:
   version: 1.10-1
   issues:
@@ -6153,6 +6463,7 @@ heartbeat:
   version: 1:3.0.5+hg12629-1.2
   issues:
     - timestamps_in_static_libraries
+    - different_due_to_umask
 heat:
   version: 2014.1.3-7
   issues:
@@ -6190,6 +6501,10 @@ herold:
   version: 6.1.0-1
   issues:
     - timestamps_generated_by_docbook_to_man
+hershey-fonts:
+  version: 0.1-1
+  issues:
+    - different_due_to_umask
 hex-a-hop:
   version: 0.0.20070315-8
   issues:
@@ -6211,6 +6526,10 @@ highlight.js:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - timestamps_in_pdf_generated_by_latex
+hiredis:
+  version: 0.11.0-4
+  issues:
+    - different_due_to_umask
 hkgerman:
   version: 2-28
   issues:
@@ -6265,6 +6584,10 @@ ht:
   version: 2.0.22-2
   issues:
     - timestamps_from_cpp_macros
+htdig:
+  version: 1:3.2.0b6-12
+  issues:
+    - different_due_to_umask
 html5lib:
   version: 0.999-3
   issues:
@@ -6290,6 +6613,10 @@ http-icons:
   comments: |
     GIF images are optimized while building by converting to PNM and back to GIF.
     The conversion back to GIF introduces the variation.
+http-parser:
+  version: 2.1-2
+  issues:
+    - different_due_to_umask
 https-finder:
   version: 091-1
   issues:
@@ -6302,6 +6629,10 @@ hugin:
   version: 2014.0.0+dfsg-3
   issues:
     - shlibs_order_varies
+hunspell:
+  version: 1.3.3-3
+  issues:
+    - different_due_to_umask
 hwinfo:
   version: 21.11-1
   issues:
@@ -6353,6 +6684,10 @@ ibus-table:
   version: 1.9.1-3
   issues:
     - lc_messages_randomness
+ibutils:
+  version: 1.5.7-3
+  issues:
+    - different_due_to_umask
 icedove:
   version: 31.2.0-1
   issues:
@@ -6406,6 +6741,10 @@ ifrench-gut:
   issues:
     - random_order_in_dictionary_debconf_templates
     - random_ispell_hash_files
+ifstat:
+  version: 1.1-8
+  issues:
+    - different_due_to_umask
 ifupdown:
   version: 0.7.50
   bugs:
@@ -6440,6 +6779,10 @@ ilisp:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - randomness_in_html_generated_by_texi2html
+ilmbase:
+  version: 1.0.1-6.1
+  issues:
+    - different_due_to_umask
 imagemagick:
   version: 8:6.8.9.9-5
   issues:
@@ -6455,6 +6798,10 @@ imaptool:
   version: 0.9-14
   issues:
     - timestamps_from_cpp_macros
+iml:
+  version: 1.0.3-5
+  issues:
+    - different_due_to_umask
 impressive:
   version: 0.10.5-1
   issues:
@@ -6480,6 +6827,10 @@ indicator-messages:
   version: 0.6.0-1.1
   bugs:
     - 741798
+indigo:
+  version: 1.1.12-1
+  issues:
+    - different_due_to_umask
 infiniband-diags:
   version: 1.6.4-3
   issues:
@@ -6503,6 +6854,7 @@ inn:
   issues:
     - timestamps_in_documentation_generated_by_podman
     - timezones_manpages_podman
+    - different_due_to_umask
 ino-headers:
   version: 0.4.0-1
   comments: |
@@ -6518,6 +6870,10 @@ insighttoolkit:
   version: 3.20.1+git20120521-5
   issues:
     - timestamps_from_cpp_macros
+insighttoolkit4:
+  version: 4.6.0-3
+  issues:
+    - different_due_to_umask
 inspircd:
   version: 2.0.17-1
   issues:
@@ -6659,6 +7015,14 @@ isrcsubmit:
   version: 2.0.0-1
   issues:
     - timestamps_in_python_docutils
+itcl3:
+  version: 3.4.1-2
+  issues:
+    - different_due_to_umask
+itk3:
+  version: 3.3-5.1
+  issues:
+    - different_due_to_umask
 its:
   version: 1.1.8-5
   issues:
@@ -6671,6 +7035,10 @@ ivtools:
   version: 1.2.11a1-5
   issues:
     - timestamps_in_tarball
+    - different_due_to_umask
+ivykis:
+  version: 0.36.2-1
+  issues:
     - different_due_to_umask
 jaaa:
   version: 0.8.4-1
@@ -6777,6 +7145,7 @@ jansson:
   version: 2.7-1
   issues:
     - timestamps_in_documentation_generated_by_sphinx
+    - different_due_to_umask
 jargon:
   version: 4.0.0-5.1
   issues:
@@ -6792,6 +7161,10 @@ jasperreports:
   version: 4.1.3+dfsg-3
   issues:
     - timestamps_in_documentation_generated_by_javadoc
+jaula:
+  version: 1.4.0-3
+  issues:
+    - different_due_to_umask
 java-common:
   version: 0.52
   issues:
@@ -6828,6 +7201,10 @@ jaxe:
   issues:
     - timestamps_in_jar
     - timestamps_in_documentation_generated_by_javadoc
+jcal:
+  version: 0.4.1-2
+  issues:
+    - different_due_to_umask
 jclic:
   version: 0.2.1.0-1
   issues:
@@ -6841,6 +7218,10 @@ jedit:
   version: 5.1.0+dfsg-2
   issues:
     - timestamps_in_png
+jellyfish:
+  version: 2.1.4-1
+  issues:
+    - different_due_to_umask
 jenkins:
   version: 1.565.3-3
   issues:
@@ -6901,6 +7282,10 @@ jhead:
   version: 1:2.97-1
   issues:
     - timestamps_from_cpp_macros
+jigit:
+  version: 1.20-1
+  issues:
+    - different_due_to_umask
 jimtcl:
   version: 0.75-1
   comments: |
@@ -7017,6 +7402,10 @@ jtreg:
   version: 4.1-b09-1
   issues:
     - user_in_java_jar_manifest
+judy:
+  version: 1.0.5-4
+  issues:
+    - different_due_to_umask
 juman:
   version: 7.0-3.2
   issues:
@@ -7255,14 +7644,26 @@ kwin-style-crystal:
   version: 2.2.1-2
   issues:
     - timestamps_from_cpp_macros
+kxl:
+  version: 1.1.7-16
+  issues:
+    - different_due_to_umask
 kxml2:
   version: 2.3.0+ds1-2
   issues:
     - timestamps_in_jar
+kyotocabinet:
+  version: 1.2.76-4
+  issues:
+    - different_due_to_umask
 lacheck:
   version: 1.26-15
   comments: |
     Injects a timestamp into README.Debian during build.
+ladr:
+  version: 0.0.200911a-2.1
+  issues:
+    - different_due_to_umask
 lam:
   version: 7.1.4-3.1
   comments: |
@@ -7343,6 +7744,7 @@ lava-dispatcher:
   version: 2015.03-1
   issues:
     - timestamps_in_manpage_generated_by_sphinx
+    - different_due_to_umask
 lava-server:
   version: 2015.03-1
   issues:
@@ -7384,6 +7786,10 @@ ldb:
     and cherry-picked in 2:2.1.2-2
   issues:
     - timestamps_generated_by_docbook_to_man
+ldm:
+  version: 2:2.2.15-2
+  issues:
+    - different_due_to_umask
 ldns:
   version: 1.6.17-5
   bugs:
@@ -7421,6 +7827,10 @@ letterize:
   version: 1.3-6
   issues:
     - timestamps_generated_by_docbook_to_man
+leveldb:
+  version: 1.17-1
+  issues:
+    - different_due_to_umask
 leveldb-sharp:
   version: 1.9.1-1
   issues:
@@ -7429,6 +7839,10 @@ lhapdf:
   version: 5.9.1-3
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libaal:
+  version: 1.0.6-1
+  issues:
+    - different_due_to_umask
 libace-perl:
   version: 1.92-3
   issues:
@@ -7456,6 +7870,7 @@ libalog:
   version: 0.5.0-1
   issues:
     - timestamps_in_documentation_generated_by_asciidoc
+    - different_due_to_umask
 libam7xxx:
   version: 0.1.5-3
   issues:
@@ -7519,6 +7934,10 @@ libappindicator:
   version: 0.4.92-3.1
   issues:
     - timestamps_in_pe_binaries
+libapreq2:
+  version: 2.13-4
+  issues:
+    - different_due_to_umask
 libaqbanking:
   version: 5.4.3beta-2
   issues:
@@ -7550,6 +7969,8 @@ libassuan:
   version: 2.1.2-2
   comments: |
     Manually embeds BUILD_TIMESTAMP from custom configure.ac
+  issues:
+    - different_due_to_umask
 libasyncns:
   version: 0.8-5
   issues:
@@ -7606,6 +8027,10 @@ libavg:
   version: 1.8.1-1
   issues:
     - variation_in_compilation
+libax25:
+  version: 0.0.12-rc2+cvs20120204-3
+  issues:
+    - different_due_to_umask
 libb-hooks-op-check-entersubforcv-perl:
   version: 0.09-3
   issues:
@@ -7618,6 +8043,10 @@ libbash:
   version: 0.9.11-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libbinio:
+  version: 1.4+dfsg1-4
+  issues:
+    - different_due_to_umask
 libbio-das-lite-perl:
   version: 2.04-1.1
   issues:
@@ -7630,6 +8059,10 @@ libbluray:
   version: 0.6.2-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libbpp-raa:
+  version: 2.1.0-1
+  issues:
+    - different_due_to_umask
 libbrowser-open-perl:
   version: 0.04-1
   issues:
@@ -7674,6 +8107,14 @@ libcairo-perl:
   version: 1.104-2
   issues:
     - timezones_manpages_podman
+libcap-ng:
+  version: 0.7.4-2
+  issues:
+    - different_due_to_umask
+libcap2:
+  version: 1:2.24-8
+  issues:
+    - different_due_to_umask
 libcarp-always-perl:
   version: 0.12-1
   issues:
@@ -7734,6 +8175,14 @@ libccss:
   version: 0.5.0-4
   issues:
     - timestamps_generated_by_docbook_to_man
+libcdaudio:
+  version: 0.99.12p2-13
+  issues:
+    - different_due_to_umask
+libcdk5:
+  version: 5.0.20060507-4
+  issues:
+    - different_due_to_umask
 libcec:
   version: 2.1.4-2
   comments: |
@@ -7741,6 +8190,8 @@ libcec:
     https://sources.debian.net/src/libcec/2.2.0%2Bdfsg1-1/configure.ac/?hl=351:255#L351
     Can be removed by passing HAVE_DATE=no HAVE_WHOAMI=no HAVE_HOSTNAME=no HAVE_UNAME=no
     to ./configure but the binaries are also non-determinstic.
+  issues:
+    - different_due_to_umask
 libcgi-application-dispatch-perl:
   version: 3.12-1
   issues:
@@ -7786,6 +8237,10 @@ libchild-perl:
   version: 0.010-1
   issues:
     - timestamps_in_documentation_generated_by_podman
+libcitadel:
+  version: 8.24-1
+  issues:
+    - different_due_to_umask
 libcitygml:
   version: 0.14+svn134-2+3p2p1
   issues:
@@ -7850,6 +8305,7 @@ libclaw:
   version: 1.7.3-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
 libclone-perl:
   version: 0.37-1
   issues:
@@ -7869,6 +8325,7 @@ libcommoncpp2:
   version: 1.8.1-6
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
 libcommons-cli-java:
   version: 1.2-3
   issues:
@@ -7967,6 +8424,7 @@ libcrypto++:
   version: 5.6.1-6
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
 libcss-packer-perl:
   version: 1.002001-1
   issues:
@@ -8063,6 +8521,7 @@ libdatrie:
   version: 0.2.8-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
 libdb-file-lock-perl:
   version: 0.05-3
   issues:
@@ -8130,6 +8589,11 @@ libdc1394-22:
   version: 2.2.3-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
+libdebug:
+  version: 0.4.4-1.1
+  issues:
+    - different_due_to_umask
 libdevel-nytprof-perl:
   version: 5.06+dfsg-2
   issues:
@@ -8146,6 +8610,14 @@ libdiscid:
   version: 0.6.1-3
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libdivecomputer:
+  version: 0.4.2-1
+  issues:
+    - different_due_to_umask
+libdjconsole:
+  version: 0.1.3-1.1
+  issues:
+    - different_due_to_umask
 libdshconfig:
   version: 0.20.13-1.1
   issues:
@@ -8154,10 +8626,15 @@ libdvdnav:
   version: 5.0.1-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
 libebml:
   version: 1.3.0-2
   issues:
     - timestamps_from_cpp_macros
+libebur128:
+  version: 1.0.2-1
+  issues:
+    - different_due_to_umask
 libelixirfm-perl:
   version: 1.1.976-3
   issues:
@@ -8184,6 +8661,10 @@ libemail-simple-perl:
   version: 2.203-1
   issues:
     - timezones_manpages_podman
+libemu:
+  version: 0.2.0+git20120122-1.2
+  issues:
+    - different_due_to_umask
 libencode-detect-perl:
   version: 1.01-3
   issues:
@@ -8196,6 +8677,15 @@ libept:
   version: 1.0.12.1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
+libesmtp:
+  version: 1.0.6-4
+  issues:
+    - different_due_to_umask
+libev:
+  version: 1:4.15-3
+  issues:
+    - different_due_to_umask
 libevhtp:
   version: 1.2.9-1
   issues:
@@ -8253,6 +8743,10 @@ libfann:
     /usr/share/doc/libfann-doc/html/javascript/searchdata.js
   issues:
     - random_order_in_naturaldocs
+libfcgi:
+  version: 2.4.0-8.3
+  issues:
+    - different_due_to_umask
 libffado:
   version: 2.2.1-2
   issues:
@@ -8302,6 +8796,10 @@ libfinance-bank-ie-permanenttsb-perl:
   version: 0.4-2
   issues:
     - timezones_manpages_podman
+libfixbuf:
+  version: 1.6.0+ds-1
+  issues:
+    - different_due_to_umask
 libflickrnet:
   version: 1:2.2.0-4
   issues:
@@ -8319,6 +8817,10 @@ libforms:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - randomness_in_html_generated_by_texi2html
+libfreefare:
+  version: 0.4.0-2
+  issues:
+    - different_due_to_umask
 libfreemarker-java:
   version: 2.3.20-4
   issues:
@@ -8342,14 +8844,27 @@ libgadu:
   version: 1:1.12.0-5
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
+libgaiagraphics:
+  version: 0.5-3
+  issues:
+    - different_due_to_umask
 libgcrypt20:
   version: 1.6.2-4
   comments: |
     Timestamp in .ps generated by dvips
+libgctp:
+  version: 2.0-1
+  issues:
+    - different_due_to_umask
 libgd-securityimage-perl:
   version: 1.72-2
   issues:
     - timezones_manpages_podman
+libgenome:
+  version: 1.3.1-7
+  issues:
+    - different_due_to_umask
 libgenome-model-tools-music-perl:
   version: 0.04-1
   issues:
@@ -8359,6 +8874,10 @@ libgeo-coordinates-utm-perl:
   version: 0.11-1
   issues:
     - timezones_manpages_podman
+libgeotiff-dfsg:
+  version: 1.4.0-5
+  issues:
+    - different_due_to_umask
 libgfshare:
   version: 1.0.5-3
   comments: |
@@ -8377,6 +8896,10 @@ libglazedlists-java:
   version: 1.9.0+dfsg-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+libgnatcoll:
+  version: 1.6gpl2014-6
+  issues:
+    - different_due_to_umask
 libgnome2-canvas-perl:
   version: 1.002-3
   issues:
@@ -8439,6 +8962,10 @@ libgssapi-perl:
   version: 0.28-2
   issues:
     - timezones_manpages_podman
+libgssglue:
+  version: 0.4-2
+  issues:
+    - different_due_to_umask
 libgtk2-appindicator-perl:
   version: 0.15-1
   issues:
@@ -8471,6 +8998,10 @@ libgtk2-trayicon-perl:
   version: 0.06-2
   issues:
     - random_order_in_files_generated_by_extutils_depends
+libgtkdatabox:
+  version: 1:0.9.2.0+dfsg-1
+  issues:
+    - different_due_to_umask
 libgtop2:
   version: 2.28.5-2
   issues:
@@ -8490,6 +9021,10 @@ libgwibber:
   version: 0.1.1-1.3
   issues:
     - timestamps_in_pe_binaries
+libhangul:
+  version: 0.1.0-3
+  issues:
+    - different_due_to_umask
 libhash-asobject-perl:
   version: 0.13-2
   issues:
@@ -8577,11 +9112,28 @@ libhttp-date-perl:
   version: 6.02-1
   issues:
     - timezones_manpages_podman
+libibcm:
+  version: 1.0.5-1
+  issues:
+    - different_due_to_umask
+libibmad:
+  version: 1.3.11-3
+  issues:
+    - different_due_to_umask
+libibverbs:
+  version: 1.1.8-1.1
+  issues:
+    - different_due_to_umask
 libident:
   version: 0.22-3
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+    - different_due_to_umask
+libieee1284:
+  version: 0.2.11-12
+  issues:
+    - different_due_to_umask
 libimage-librsvg-perl:
   version: 0.07-8
   issues:
@@ -8590,10 +9142,18 @@ libimdb-film-perl:
   version: 0.53-1
   issues:
     - timezones_manpages_podman
+libimobiledevice:
+  version: 1.1.6+dfsg-3.1
+  issues:
+    - different_due_to_umask
 libimport-into-perl:
   version: 1.002004-1
   issues:
     - timezones_manpages_podman
+libindi:
+  version: 0.9.8.1-5.1
+  issues:
+    - different_due_to_umask
 libindicate:
   version: 0.6.92-2
   issues:
@@ -8616,6 +9176,7 @@ libint:
   version: 1.1.5-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - different_due_to_umask
 libio-bufferedselect-perl:
   version: 1.0-1
   issues:
@@ -8656,6 +9217,10 @@ libio-socket-inet6-perl:
   version: 2.72-1
   issues:
     - timezones_manpages_podman
+libipathverbs:
+  version: 1.3-1
+  issues:
+    - different_due_to_umask
 libipc-run-perl:
   version: 0.92-1
   comments: |
@@ -8670,10 +9235,19 @@ libiptables-chainmgr-perl:
   version: 1.2-1
   issues:
     - timezones_manpages_podman
+libiscsi:
+  version: 1.12.0-2
+  issues:
+    - different_due_to_umask
 libisoburn:
   version: 1.3.2-1.1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
+libisocodes:
+  version: 1.2.1-1
+  issues:
+    - different_due_to_umask
 libisofs:
   version: 1.3.2-1.1
   issues:
@@ -8682,10 +9256,22 @@ libitext5-java:
   version: 5.5.3-2
   issues:
     - timestamps_in_maven_pom_files
+libitl-gobject:
+  version: 0.2.1-1
+  issues:
+    - different_due_to_umask
 libitpp:
   version: 4.3.1-3
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libixion:
+  version: 0.7.0-3
+  issues:
+    - different_due_to_umask
+libixp:
+  version: 0.6~20121202+hg148-2
+  issues:
+    - different_due_to_umask
 libjackson-json-java:
   version: 1.9.2-3
   issues:
@@ -8809,6 +9395,14 @@ libkarma:
   version: 0.1.2-2.3
   issues:
     - timestamps_in_pe_binaries
+libkate:
+  version: 0.4.1-4
+  issues:
+    - different_due_to_umask
+libkdeedu:
+  version: 4:4.14.1-1
+  issues:
+    - different_due_to_umask
 libkinosearch1-perl:
   version: 1.01-1
   issues:
@@ -8818,6 +9412,10 @@ libkiokudb-perl:
   version: 0.57-1
   issues:
     - timezones_manpages_podman
+libkml:
+  version: 1.3.0~r864+dfsg-1
+  issues:
+    - different_due_to_umask
 libkolabxml:
   version: 1.0.2-2
   issues:
@@ -8842,6 +9440,10 @@ liblexical-var-perl:
   version: 0.009-1
   issues:
     - timezones_manpages_podman
+liblinear:
+  version: 1.8+dfsg-4
+  issues:
+    - different_due_to_umask
 liblingua-en-fathom-perl:
   version: 1.15-1
   issues:
@@ -8859,6 +9461,7 @@ liblip:
   issues:
     - not_using_dh_builddeb
     - timestamps_in_gzip_headers
+    - different_due_to_umask
 liblo:
   version: 0.28-3
   issues:
@@ -8886,15 +9489,21 @@ liblog-report-lexicon-perl:
   version: 1.03-1
   issues:
     - timezones_manpages_podman
+libloki:
+  version: 0.1.7-3
+  issues:
+    - different_due_to_umask
 liblouis:
   version: 2.5.3-3
   issues:
     - timezone_variance_because_of_automake_mdate
+    - different_due_to_umask
 liblouisutdml:
   version: 2.5.0-1
   issues:
     - timestamps_in_jar
     - timestamps_in_documentation_generated_by_javadoc
+    - different_due_to_umask
 liblscp:
   version: 0.5.6-7
   issues:
@@ -9016,6 +9625,10 @@ libmediainfo:
   version: 0.7.70-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libmemcached:
+  version: 1.0.18-4
+  issues:
+    - different_due_to_umask
 libmemoize-expirelru-perl:
   version: 0.55-1
   issues:
@@ -9032,6 +9645,7 @@ libmicrohttpd:
   version: 0.9.37+dfsg-1
   issues:
     - timezone_variance_because_of_automake_mdate
+    - different_due_to_umask
 libmime-base32-perl:
   version: 1.02a-1
   issues:
@@ -9040,6 +9654,14 @@ libmimic:
   version: 1.0.4-2.2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libmlx4:
+  version: 1.0.6-1
+  issues:
+    - different_due_to_umask
+libmnl:
+  version: 1.0.3-5
+  issues:
+    - different_due_to_umask
 libmock-quick-perl:
   version: 1.108-1
   issues:
@@ -9161,12 +9783,21 @@ libmpdclient:
   version: 2.9-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libmpeg3:
+  version: 1.8.dfsg-2
+  issues:
+    - different_due_to_umask
+libmpikmeans:
+  version: 1.5+dfsg-3
+  issues:
+    - different_due_to_umask
 libmsv:
   version: 1.1-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
     - not_using_dh_builddeb
     - timestamps_in_gzip_headers
+    - different_due_to_umask
 libmtp:
   version: 1.1.8-1
   issues:
@@ -9200,6 +9831,10 @@ libnanoxml2-java:
   issues:
     - timestamps_in_jar
     - timestamps_in_documentation_generated_by_javadoc
+libnatpmp:
+  version: 20110808-3
+  issues:
+    - different_due_to_umask
 libnb-platform18-java:
   version: 7.4+dfsg1-2
   issues:
@@ -9337,6 +9972,22 @@ libobject-signature-perl:
   version: 1.07-1
   issues:
     - timezones_manpages_podman
+libomxcamera:
+  version: 0.1-2
+  issues:
+    - different_due_to_umask
+libomxfbdevsink:
+  version: 0.1-2
+  issues:
+    - different_due_to_umask
+libomxvorbis:
+  version: 0.1-3
+  issues:
+    - different_due_to_umask
+liboop:
+  version: 1.0-11
+  issues:
+    - different_due_to_umask
 libopendbx:
   version: 1.4.6-8
   issues:
@@ -9354,10 +10005,30 @@ libopenobex:
   version: 1.5-2.1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libopenraw:
+  version: 0.0.9-3.5
+  issues:
+    - different_due_to_umask
+libopenusb:
+  version: 1.1.11-1
+  issues:
+    - different_due_to_umask
 liboptions-java:
   version: 0.0.20120113-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+libotr:
+  version: 4.1.0-2
+  issues:
+    - different_due_to_umask
+libowfat:
+  version: 0.29-4
+  issues:
+    - different_due_to_umask
+libp11:
+  version: 0.2.8-5
+  issues:
+    - different_due_to_umask
 libpackage-pkg-perl:
   version: 0.0020-1
   issues:
@@ -9382,6 +10053,10 @@ libparse-win32registry-perl:
   version: 1.0-1
   issues:
     - timezones_manpages_podman
+libpcl1:
+  version: 1.6-1
+  issues:
+    - different_due_to_umask
 libpdf-create-perl:
   version: 1.10-1
   issues:
@@ -9534,10 +10209,22 @@ libpsl:
   comments: |
     Embed build time:
     http://sources.debian.net/src/libpsl/0.5.1-1/src/psl2c.c/?hl=178#L178
+libpuzzle:
+  version: 0.9-6
+  issues:
+    - different_due_to_umask
 libpwiz:
   version: 3.0.6585-2
   issues:
     - timestamps_from_cpp_macros
+libpwquality:
+  version: 1.2.3-1
+  issues:
+    - different_due_to_umask
+libqmi:
+  version: 1.10.2-2
+  issues:
+    - different_due_to_umask
 libquicktime:
   version: 2:1.2.4-7
   issues:
@@ -9546,6 +10233,7 @@ libquvi:
   version: 0.4.1-3
   issues:
     - random_order_in_naturaldocs
+    - different_due_to_umask
 librabbitmq:
   version: 0.5.2-2
   issues:
@@ -9572,6 +10260,7 @@ librcsb-core-wrapper:
   version: 1.005-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
 librdf-helper-perl:
   version: 2.0-1
   bugs:
@@ -9592,6 +10281,7 @@ librep:
   version: 0.90.2-1.4
   issues:
     - timestamps_in_static_libraries
+    - different_due_to_umask
 libreply-perl:
   version: 0.35-1
   issues:
@@ -9624,6 +10314,14 @@ librrd-simple-perl:
   version: 1.44-1
   issues:
     - timezones_manpages_podman
+librtfcomp:
+  version: 1.1-5.1
+  issues:
+    - different_due_to_umask
+libs3:
+  version: 2.0-2
+  issues:
+    - different_due_to_umask
 libsafe-isa-perl:
   version: 1.000005-1
   issues:
@@ -9640,6 +10338,10 @@ libscope-guard-perl:
   version: 0.20-1
   issues:
     - timezones_manpages_podman
+libsdl-console:
+  version: 2.1-4
+  issues:
+    - different_due_to_umask
 libsdl-perl:
   version: 2.542-1
   issues:
@@ -9651,12 +10353,27 @@ libsdl1.2:
     - 777186
 libsdl2:
   version: 2.0.2+dfsg1-6
+  issues:
+    - different_due_to_umask
   bugs:
     - 777186
 libsdl2-gfx:
   version: 1.0.1+dfsg-1
   issues:
     - users_and_groups_in_tarball
+    - different_due_to_umask
+libsdl2-image:
+  version: 2.0.0+dfsg-3
+  issues:
+    - different_due_to_umask
+libsdl2-mixer:
+  version: 2.0.0+dfsg1-5
+  issues:
+    - different_due_to_umask
+libsdl2-net:
+  version: 2.0.0+dfsg1-2
+  issues:
+    - different_due_to_umask
 libsearch-estraier-perl:
   version: 0.09-5
   bugs:
@@ -9681,22 +10398,37 @@ libshevek:
   version: 1.4-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
 libsidplayfp:
   version: 1.6.0-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libsigrok:
+  version: 0.3.0-1
+  issues:
+    - different_due_to_umask
 libskinlf-java:
   version: 6.7-8
   issues:
     - user_in_java_jar_manifest
+libsm:
+  version: 2:1.2.2-1
+  issues:
+    - different_due_to_umask
 libsmbios:
   version: 2.2.28-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
+libsmi:
+  version: 0.4.8+dfsg2-10
+  issues:
+    - different_due_to_umask
 libsndfile:
   version: 1.0.25-9
   issues:
     - timestamps_in_static_libraries
+    - different_due_to_umask
 libsnmp-info-perl:
   version: 3.20-1
   issues:
@@ -9720,6 +10452,14 @@ libsoup2.4:
     "PASS: coding-test 20 /coding/request/deflate-raw/bad-server"
   issues:
     - blacklisted_on_jenkins
+libspectre:
+  version: 0.2.7-3
+  issues:
+    - different_due_to_umask
+libspnav:
+  version: 0.2.2-1
+  issues:
+    - different_due_to_umask
 libspreadsheet-read-perl:
   version: 0.54-1
   issues:
@@ -9732,6 +10472,10 @@ libsql-abstract-more-perl:
   version: 1.26-1
   issues:
     - timezones_manpages_podman
+libssh:
+  version: 0.6.3-4
+  issues:
+    - different_due_to_umask
 libstatistics-online-perl:
   version: 0.02-1
   issues:
@@ -9785,6 +10529,10 @@ libsvn-notify-perl:
   version: 2.84-1
   issues:
     - timezones_manpages_podman
+libswe:
+  version: 1.80.00.0002-1
+  issues:
+    - different_due_to_umask
 libswingx1-java:
   version: 1:1.0-1
   issues:
@@ -10070,6 +10818,10 @@ libtk-dirselect-perl:
   version: 1.12-1
   issues:
     - timezones_manpages_podman
+libtk-img:
+  version: 1:1.4.2+dfsg-2
+  issues:
+    - different_due_to_umask
 libtk-pod-perl:
   version: 0.9942-1
   issues:
@@ -10096,6 +10848,7 @@ libtommath:
   version: 0.42.0-1.1
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - different_due_to_umask
 libtool:
   version: 2.4.2-1.11
   issues:
@@ -10114,6 +10867,14 @@ libtruth-java:
   version: 0.7.0-1
   bugs:
     - 761544
+libtsm:
+  version: 3-1
+  issues:
+    - different_due_to_umask
+libtwin:
+  version: 13.05.03.15.06-g287d16c-2
+  issues:
+    - different_due_to_umask
 libu2f-host:
   version: 0.0.4-1
   issues:
@@ -10156,6 +10917,10 @@ libusb-1.0:
   version: 1.0.19-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libva:
+  version: 1.4.1-1
+  issues:
+    - different_due_to_umask
 libvdpau:
   version: 0.8-3
   issues:
@@ -10184,6 +10949,14 @@ libvldocking-java:
   version: 2.1.4-4
   issues:
     - timestamps_in_documentation_generated_by_javadoc
+libvoikko:
+  version: 3.7.1-1
+  issues:
+    - different_due_to_umask
+libvorbisidec:
+  version: 1.0.2+svn18153-0.2
+  issues:
+    - different_due_to_umask
 libvpx:
   version: 1.3.0-3
   issues:
@@ -10197,6 +10970,10 @@ libwebcam:
   issues:
     - timestamps_in_gzip_headers
     - timestamps_in_static_libraries
+libwebp:
+  version: 0.4.1-1.2
+  issues:
+    - different_due_to_umask
 libwebsockets:
   version: 1.2.2-1
   comments: |
@@ -10205,6 +10982,7 @@ libwibble:
   version: 1.1-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
 libwiki-toolkit-plugin-rss-reader-perl:
   version: 1.6-2
   issues:
@@ -10217,6 +10995,14 @@ libwnckmm:
   version: 0.1.1-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libwpd:
+  version: 0.10.0-2
+  issues:
+    - different_due_to_umask
+libwpg:
+  version: 0.3.0-3
+  issues:
+    - different_due_to_umask
 libwps:
   version: 0.3.0-2
   issues:
@@ -10257,10 +11043,19 @@ libxcb:
   version: 1.10-3
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
+libxcrypt:
+  version: 1:2.4-3.1
+  issues:
+    - different_due_to_umask
 libxdg-basedir:
   version: 1.2.0-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libxdmcp:
+  version: 1:1.1.1-1
+  issues:
+    - different_due_to_umask
 libxml-atom-perl:
   version: 0.41-1
   issues:
@@ -10321,14 +11116,30 @@ libxml-xql-perl:
   version: 0.68-6
   issues:
     - timezones_manpages_podman
+libxml2:
+  version: 2.9.1+dfsg1-5
+  issues:
+    - different_due_to_umask
 libxmlada:
   version: 4.4.2014-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+libxmltok:
+  version: 1.2-3
+  issues:
+    - different_due_to_umask
+libxmu:
+  version: 2:1.1.2-1
+  issues:
+    - different_due_to_umask
 libxr:
   version: 1.0-2.1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libxrandr:
+  version: 2:1.4.2-1
+  issues:
+    - different_due_to_umask
 libxray-absorption-perl:
   version: 3.0.1-1
   comments: |
@@ -10336,10 +11147,26 @@ libxray-absorption-perl:
     They are hashes of hashes saved with Storable::nstore.
     Setting "$Storable::canonical = 1;" does not work, because the hashes
     contain hashes.
+libxres:
+  version: 2:1.0.7-1
+  issues:
+    - different_due_to_umask
+libxs:
+  version: 1.2.0-1.1
+  issues:
+    - different_due_to_umask
+libxslt:
+  version: 1.1.28-2.0~reproducible2
+  issues:
+    - different_due_to_umask
 libxstream-java:
   version: 1.4.7-2
   issues:
     - timestamps_in_maven_pom_files
+libxvmc:
+  version: 2:1.0.8-2
+  issues:
+    - different_due_to_umask
 libyaml:
   version: 0.1.6-2
   issues:
@@ -10348,6 +11175,10 @@ libyaml-tiny-perl:
   version: 1.64-1
   issues:
     - timezones_manpages_podman
+libytnef:
+  version: 1.5-6
+  issues:
+    - different_due_to_umask
 libzen:
   version: 0.4.29-1
   issues:
@@ -10473,6 +11304,10 @@ livestreamer:
   version: 1.11.1-1
   issues:
     - timestamps_in_python_docutils
+lksctp-tools:
+  version: 1.0.16+dfsg-2
+  issues:
+    - different_due_to_umask
 llvm-toolchain-3.4:
   version: 1:3.4.2-13
   issues:
@@ -10505,18 +11340,25 @@ loadlin:
   version: 1.6f-3
   issues:
     - timestamps_in_gzip_headers
+    - different_due_to_umask
   bugs:
     - 779146
 lockdev:
   version: 1.0.3-1.6
   issues:
     - timestamps_in_static_libraries
+    - different_due_to_umask
 log4c:
   version: 1.2.1-3
   comments: |
     There's also issues with a PDF, at least.
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
+log4cxx:
+  version: 0.10.0-4
+  issues:
+    - different_due_to_umask
 log4net:
   version: 1.2.10+dfsg-6
   issues:
@@ -10598,6 +11440,70 @@ ltsp-docs:
   version: 1.1-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+ltt-control:
+  version: 2.5.2-1
+  issues:
+    - different_due_to_umask
+lua-curl:
+  version: 0.3.0-9
+  issues:
+    - different_due_to_umask
+lua-cyrussasl:
+  version: 1.0.0-6
+  issues:
+    - different_due_to_umask
+lua-dbi:
+  version: 0.5.hg5ba1dd988961-2
+  issues:
+    - different_due_to_umask
+lua-event:
+  version: 0.4.3-1
+  issues:
+    - different_due_to_umask
+lua-filesystem:
+  version: 1.6.2-3
+  issues:
+    - different_due_to_umask
+lua-lgi:
+  version: 0.8.0-2
+  issues:
+    - different_due_to_umask
+lua-posix:
+  version: 31-2
+  issues:
+    - different_due_to_umask
+lua-sec:
+  version: 0.5-1
+  issues:
+    - different_due_to_umask
+lua-sql:
+  version: 2.3.0-4
+  issues:
+    - different_due_to_umask
+lua-term:
+  version: 0.03.20140426.g1ba9a8e-1
+  issues:
+    - different_due_to_umask
+lua-wsapi:
+  version: 1.6.0-2
+  issues:
+    - different_due_to_umask
+lua5.1:
+  version: 5.1.5-7.1
+  issues:
+    - different_due_to_umask
+lua5.2:
+  version: 5.2.3-1.1
+  issues:
+    - different_due_to_umask
+luabind:
+  version: 0.9.1+dfsg-9
+  issues:
+    - different_due_to_umask
+luajit:
+  version: 2.0.3+dfsg-3
+  issues:
+    - different_due_to_umask
 luakit:
   version: 2012.09.13-r1-3
   issues:
@@ -10605,6 +11511,10 @@ luakit:
     - not_using_dh_builddeb
   bugs:
     - 777491
+luasocket:
+  version: 3.0~rc1-3
+  issues:
+    - different_due_to_umask
 luasseq:
   version: 2.1-6
   issues:
@@ -10685,6 +11595,10 @@ magicfilter:
     - timestamps_in_gzip_headers
   bugs:
     - 777448
+magics++:
+  version: 2.22.7.dfsg.1-4
+  issues:
+    - different_due_to_umask
 magit:
   version: 1.2.1-1
   issues:
@@ -10705,12 +11619,14 @@ maildirsync:
   issues:
     - timestamps_in_gzip_headers
     - timezones_manpages_podman
+    - different_due_to_umask
   bugs:
     - 776933
 mailfilter:
   version: 0.8.3-1
   issues:
     - timestamps_in_tarball
+    - different_due_to_umask
   bugs:
     - 778264
 mailfront:
@@ -10778,6 +11694,10 @@ manderlbot:
   version: 0.9.2-19
   issues:
     - timestamps_in_beam_files
+mangler:
+  version: 1.2.5-2
+  issues:
+    - different_due_to_umask
 manpages:
   version: 3.74-1
   issues:
@@ -10810,6 +11730,10 @@ marionnet:
   version: 0.90.6+bzr457-1
   issues:
     - build_id_variation_requiring_further_investigation
+marisa:
+  version: 0.2.4-8
+  issues:
+    - different_due_to_umask
 markdown:
   version: 1.0.1-7
   issues:
@@ -10838,6 +11762,8 @@ maude:
     - timestamps_from_cpp_macros
 mauve:
   version: 20140821-1
+  issues:
+    - different_due_to_umask
   bugs:
     - 778274
 maven-antrun-extended-plugin:
@@ -11134,11 +12060,23 @@ minicom:
   version: 2.7-1
   issues:
     - timestamps_from_cpp_macros
+minidjvu:
+  version: 0.8.svn.2010.05.06+dfsg-5
+  issues:
+    - different_due_to_umask
 minidlna:
   version: 1.1.4+dfsg-3
   comments: |
     Embeds the Linux kernel version.
     https://sources.debian.net/src/minidlna/1.1.4%2Bdfsg-3/configure.ac/#L527
+miniupnpc:
+  version: 1.9.20140610-2
+  issues:
+    - different_due_to_umask
+minizip:
+  version: 1.1-5
+  issues:
+    - different_due_to_umask
 minlog:
   version: 4.0.99.20100221-5.2
   issues:
@@ -11197,6 +12135,10 @@ mkvtoolnix:
   version: 7.2.0-1
   issues:
     - timestamps_from_cpp_macros
+mlgmp:
+  version: 20021123-17
+  issues:
+    - different_due_to_umask
 mlpack:
   version: 1.0.10-1
   issues:
@@ -11285,12 +12227,18 @@ modglue:
   comments: |
     Embed build time and hostname:
     https://sources.debian.net/src/modglue/1.17-2.2/src/Makefile.in/?hl=24#L24
+  issues:
+    - different_due_to_umask
 modplugtools:
   version: 0.5.3-1.1
   comments: |
     Uses __DATE__ and __TIME__:
     https://sources.debian.net/src/modplugtools/0.5.3-1.1/mp123/modplug123.c/?hl=164,171#L164
     Does not fail to build, so does not use dpkg-buildflags.
+module-assistant:
+  version: 0.11.7
+  issues:
+    - different_due_to_umask
 moin:
   version: 1.9.8-1
   issues:
@@ -11363,10 +12311,18 @@ monster-masher:
   version: 1.8.1-6
   issues:
     - timestamps_generated_by_docbook_to_man
+moodbar:
+  version: 0.1.2-6
+  issues:
+    - different_due_to_umask
 moon-buggy:
   version: 1.0.51-10
   issues:
     - timestamps_in_dvi_generated_by_latex
+mopac7:
+  version: 1.15-6
+  issues:
+    - different_due_to_umask
 mopidy:
   version: 1.0.2-1
   bugs:
@@ -11406,6 +12362,10 @@ mozilla-noscript:
   version: 2.6.9.3-1
   issues:
     - xpi_pack_saves_extra_attributes_in_jar
+mozjs:
+  version: 1.8.5-1.0.0+dfsg-4.3
+  issues:
+    - different_due_to_umask
 mozjs24:
   version: 24.2.0-2
   issues:
@@ -11429,6 +12389,10 @@ mpack:
     - not_using_dh_builddeb
   bugs:
     - 777376
+mpb:
+  version: 1.5-2
+  issues:
+    - different_due_to_umask
 mpfr4:
   version: 3.1.2-2
   issues:
@@ -11509,6 +12473,7 @@ mummy:
   issues:
     - timestamps_in_documentation_generated_by_doxygen
     - timestamps_in_pe_binaries
+    - different_due_to_umask
 munge-maven-plugin:
   version: 1.0-1
   issues:
@@ -11577,6 +12542,10 @@ mupen64plus-video-z64:
   issues:
     - build_id_variation_requiring_further_investigation
     - randomness_in_lto_debug_symbols
+muroard:
+  version: 0.1.14-1
+  issues:
+    - different_due_to_umask
 muse-el:
   version: 3.20+dfsg-0.1
   issues:
@@ -11587,6 +12556,14 @@ museek+:
     - timestamps_in_png
   bugs:
     - 778977
+music:
+  version: 1.0.7-1.2
+  issues:
+    - different_due_to_umask
+musl:
+  version: 1.1.5-2
+  issues:
+    - different_due_to_umask
 mutrace:
   version: 0.2.0-2
   bugs:
@@ -11613,6 +12590,10 @@ mxallowd:
   version: 1.9-2
   issues:
     - timestamps_in_pdf_generated_by_latex
+mxml:
+  version: 2.6-2
+  issues:
+    - different_due_to_umask
 mydumper:
   version: 0.6.1-1
   issues:
@@ -11641,6 +12622,10 @@ myspell.pt:
     - timestamps_in_gzip_headers
   bugs:
     - 778258
+mysql-connector-c++:
+  version: 1.1.3-6
+  issues:
+    - different_due_to_umask
 mysql-connector-net:
   version: 6.4.3-2
   issues:
@@ -11720,6 +12705,10 @@ ncompress:
   comments: |
     Embed build time:
     https://sources.debian.net/src/ncompress/4.2.4.4-9/Makefile.def/?hl=41#L41
+ncurses:
+  version: 5.9+20140913-1
+  issues:
+    - different_due_to_umask
 ndesk-dbus:
   version: 0.6.0-6
   issues:
@@ -11749,6 +12738,10 @@ nedit:
   version: 1:5.6~cvs20081118-9
   issues:
     - timestamps_from_cpp_macros
+neon27:
+  version: 0.30.1-1
+  issues:
+    - different_due_to_umask
 netcdf:
   version: 1:4.1.3-7.2
   issues:
@@ -11875,6 +12868,10 @@ nifticlib:
   version: 2.0.0-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+nilfs-tools:
+  version: 2.2.1-1
+  issues:
+    - different_due_to_umask
 ninix-aya:
   version: 4.4-1
   issues:
@@ -12003,6 +13000,7 @@ nsis:
   version: 2.46-10
   issues:
     - timestamps_in_pe_binaries
+    - different_due_to_umask
 nspr:
   version: 2:4.10.7-1
   issues:
@@ -12025,6 +13023,7 @@ ntlmaps:
   version: 0.9.9.0.1-11.3
   issues:
     - unsorted_filelist_python_support_private
+    - different_due_to_umask
 ntop:
   version: 3:5.0.1+dfsg1-2.1
   issues:
@@ -12053,6 +13052,7 @@ nvidia-settings:
   version: 340.46-2
   issues:
     - variation_in_compilation
+    - different_due_to_umask
 nvram-wakeup:
   version: 1.1-1
   issues:
@@ -12085,6 +13085,7 @@ obexftp:
   version: 0.23-4
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
 objenesis:
   version: 1.2+full-3
   issues:
@@ -12094,6 +13095,7 @@ ocaml:
   issues:
     - users_and_groups_in_tarball
     - randomness_in_ocaml_lintian_info_files
+    - different_due_to_umask
   bugs:
     - 779086
 ocaml-atd:
@@ -12112,6 +13114,7 @@ ocaml-curses:
   version: 1.0.3-2
   issues:
     - timestamps_in_static_libraries
+    - different_due_to_umask
 ocaml-dssi:
   version: 0.1.1-2
   issues:
@@ -12189,6 +13192,14 @@ ocaml-soundtouch:
   version: 0.1.7-1
   issues:
     - ocaml_configure_not_as_root
+ocaml-sqlite3:
+  version: 2.0.5-1
+  issues:
+    - different_due_to_umask
+ocaml-ssl:
+  version: 0.4.7-1
+  issues:
+    - different_due_to_umask
 ocaml-taglib:
   version: 0.3.1-1
   issues:
@@ -12197,10 +13208,19 @@ ocaml-vorbis:
   version: 0.6.1-3
   issues:
     - ocaml_configure_not_as_root
+ocaml-zarith:
+  version: 1.2.1-2
+  issues:
+    - different_due_to_umask
 ocamlagrep:
   version: 1.0-11
   issues:
     - timestamps_in_static_libraries
+    - different_due_to_umask
+ocamlbricks:
+  version: 0.90+bzr400-1
+  issues:
+    - different_due_to_umask
 ocamlduce:
   version: 3.12.1.0-1
   bugs:
@@ -12209,10 +13229,15 @@ ocamlgraph:
   version: 1.8.5-1
   issues:
     - randomness_in_ocaml_a_files
+ocamlnet:
+  version: 3.7.3-4
+  issues:
+    - different_due_to_umask
 ocamlodbc:
   version: 2.15-5
   issues:
     - timestamps_in_static_libraries
+    - different_due_to_umask
 ocamlviz:
   version: 1.01-2
   issues:
@@ -12225,6 +13250,14 @@ ocp:
   version: 1:0.1.21-1.1
   issues:
     - timestamps_in_gzip_headers
+ocp-indent:
+  version: 1.4.2-1
+  issues:
+    - different_due_to_umask
+ocsigenserver:
+  version: 2.4.0-1
+  issues:
+    - different_due_to_umask
 octave-audio:
   version: 1.1.4-5
   issues:
@@ -12403,6 +13436,10 @@ ode:
   version: 2:0.11.1-4.1
   issues:
     - timestamps_generated_by_docbook_to_man
+odin:
+  version: 1.8.8-1
+  issues:
+    - different_due_to_umask
 offlineimap:
   version: 6.5.5-0.1
   issues:
@@ -12468,10 +13505,15 @@ opal:
   version: 3.10.10~dfsg2-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
 opam:
   version: 1.2.0-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+opari:
+  version: 1.1+dfsg-3
+  issues:
+    - different_due_to_umask
 open-cobol:
   version: 1.1-1
   comments: |
@@ -12481,6 +13523,7 @@ open-cobol:
     Does not use dpkg-buildflags.
   issues:
     - timestamps_from_cpp_macros
+    - different_due_to_umask
 open-vm-tools:
   version: 9.4.6-1770165-7
   issues:
@@ -12545,6 +13588,7 @@ opencc:
   version: 1.0.2-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
 openchange:
   version: 2.2-5
   comments: |
@@ -12588,6 +13632,14 @@ openimageio:
   version: 1.4.14~dfsg0-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+openipmi:
+  version: 2.0.16-1.4
+  issues:
+    - different_due_to_umask
+openjade:
+  version: 1.4devel1-21.1
+  issues:
+    - different_due_to_umask
 openjdk-7:
   version: 7u71-2.5.3-2
   issues:
@@ -12666,6 +13718,10 @@ openocd:
   version: 0.8.0-4
   issues:
     - timestamps_in_pdf_generated_by_latex
+openr2:
+  version: 1.3.3-1
+  issues:
+    - different_due_to_umask
 openresolv:
   version: 3.5.2-1
   bugs:
@@ -12740,10 +13796,15 @@ openvrml:
   issues:
     - timestamps_in_documentation_generated_by_doxygen
     - timestamps_in_static_libraries
+    - different_due_to_umask
 openvswitch:
   version: 2.3.0+git20140819-2
   issues:
     - timestamps_from_cpp_macros
+opt:
+  version: 3.19-1.2
+  issues:
+    - different_due_to_umask
 opticalraytracer:
   version: 3.2-1.1
   issues:
@@ -12756,6 +13817,7 @@ opusfile:
   version: 0.6-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
 original-awk:
   version: 2012-12-20-2
   issues:
@@ -12794,6 +13856,18 @@ oss4:
   issues:
     - timestamps_in_manpage_generated_by_txt2man
     - different_due_to_umask
+ossp-uuid:
+  version: 1.6.2-1.5
+  issues:
+    - different_due_to_umask
+osspsa:
+  version: 1.2.6-1
+  issues:
+    - different_due_to_umask
+otcl:
+  version: 1.14+dfsg-3
+  issues:
+    - different_due_to_umask
 owncloud:
   version: 7.0.4+dfsg-2
   issues:
@@ -12802,6 +13876,7 @@ owncloud-client:
   version: 1.7.0~beta1+really1.6.4+dfsg-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - different_due_to_umask
 owncloud-doc:
   version: 0~20141208-2
   issues:
@@ -12826,6 +13901,14 @@ p3scan:
     - timestamps_in_gzip_headers
   bugs:
     - 778433
+pa-bench:
+  version: 111.28.00-1
+  issues:
+    - different_due_to_umask
+pa-test:
+  version: 111.08.00-1
+  issues:
+    - different_due_to_umask
 pacemaker-mgmt:
   version: 2.0.0+hg1141-2.3
   issues:
@@ -12843,6 +13926,10 @@ packaging-tutorial:
   version: 0.15
   issues:
     - timestamps_in_pdf_generated_by_latex
+paco:
+  version: 2.0.9-3
+  issues:
+    - different_due_to_umask
 padevchooser:
   version: 0.9.4-1.1
   issues:
@@ -12891,10 +13978,18 @@ pandas:
   version: 0.15.1+git125-ge463818-1
   issues:
     - build_id_variation_requiring_further_investigation
+papi:
+  version: 5.3.2-2
+  issues:
+    - different_due_to_umask
 paprefs:
   version: 0.9.10-1
   issues:
     - timestamps_generated_by_docbook_to_man
+papyrus:
+  version: 3.7.1-1
+  issues:
+    - different_due_to_umask
 paramiko:
   version: 1.15.1-1
   issues:
@@ -12912,6 +14007,10 @@ pari:
   version: 2.7.2-1
   issues:
     - timestamps_in_gzip_headers
+parrot:
+  version: 6.6.0-1
+  issues:
+    - different_due_to_umask
 parsinsert:
   version: 1.04-1
   issues:
@@ -12997,6 +14096,14 @@ pcp:
   version: 3.10.1
   issues:
     - timestamps_in_gzip_headers
+pcre-ocaml:
+  version: 7.0.4-1
+  issues:
+    - different_due_to_umask
+pcsc-cyberjack:
+  version: 3.99.5final.sp05-2
+  issues:
+    - different_due_to_umask
 pcsc-perl:
   version: 1.4.13-1
   issues:
@@ -13129,6 +14236,10 @@ perl:
     - timestamps_from_cpp_macros
   bugs:
     - 774422
+perl-byacc:
+  version: 2.0-7
+  issues:
+    - different_due_to_umask
 perlpanel:
   version: 1:0.9.1+cvs20051225-2
   issues:
@@ -13147,10 +14258,18 @@ pgadmin3:
   version: 1.20.0~beta2-1
   issues:
     - timestamps_from_cpp_macros
+pgapack:
+  version: 1.1.1-3
+  issues:
+    - different_due_to_umask
 pgn-extract:
   version: 17.14-1
   issues:
     - timestamps_from_cpp_macros
+pgpool2:
+  version: 3.3.4-1
+  issues:
+    - different_due_to_umask
 pgrouting:
   version: 2.0.0-3
   issues:
@@ -13231,6 +14350,10 @@ pilot-link:
   version: 0.12.5-dfsg-1
   issues:
     - timestamps_from_cpp_macros
+pinball:
+  version: 0.3.1-13.2
+  issues:
+    - different_due_to_umask
 pinta:
   version: 1.3-3
   issues:
@@ -13247,6 +14370,10 @@ pixfrogger:
   version: 1.0-3
   issues:
     - ftbfs_due_to_virtual_dependencies
+pixman:
+  version: 0.32.6-3
+  issues:
+    - different_due_to_umask
 pixmap:
   version: 2.6pl4-18
   issues:
@@ -13258,6 +14385,10 @@ pixz:
   version: 1.0.2-2
   issues:
     - timestamps_generated_by_docbook_to_man
+pkcs11-helper:
+  version: 1.11-2
+  issues:
+    - different_due_to_umask
 plainbox:
   version: 0.5.4-1
   issues:
@@ -13333,6 +14464,10 @@ plexus-utils2:
   version: 3.0.15-1
   issues:
     - timestamps_in_maven_pom_files
+plib:
+  version: 1.8.5-7
+  issues:
+    - different_due_to_umask
 plib-doc:
   version: 1:1.8.5-3
   issues:
@@ -13343,6 +14478,10 @@ plm:
   version: 2.4.11+repack-2
   issues:
     - timestamps_in_png
+ploop:
+  version: 1.12.1-1
+  issues:
+    - different_due_to_umask
 plplot:
   version: 5.10.0+dfsg-1
   issues:
@@ -13393,6 +14532,10 @@ pocl:
   version: 0.10-10
   bugs:
     - 764563
+polarssl:
+  version: 1.3.9-2.1
+  issues:
+    - different_due_to_umask
 polspline:
   version: 1.1.9-1
   issues:
@@ -13415,6 +14558,10 @@ polygraph:
   version: 4.3.2-1.2
   issues:
     - timestamps_from_cpp_macros
+poppler:
+  version: 0.26.5-2
+  issues:
+    - different_due_to_umask
 poppler-sharp:
   version: 0.0.3-2
   issues:
@@ -13428,6 +14575,11 @@ portaudio19:
   issues:
     - timestamps_from_cpp_macros
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
+portsmf:
+  version: 0.1~svn20101010-4
+  issues:
+    - different_due_to_umask
 posh:
   version: 0.12.3
   issues:
@@ -13534,10 +14686,12 @@ proftpd-dfsg:
     Embed build time in /usr/include/proftpd/buildstamp.h (sic)
   issues:
     - timestamps_in_static_libraries
+    - different_due_to_umask
 proj:
   version: 4.8.0-5
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
 proll:
   version: 18-6
   comments: |
@@ -13553,6 +14707,14 @@ prophet:
   version: 0.750-1
   bugs:
     - 720794
+protobuf:
+  version: 2.6.1-1
+  issues:
+    - different_due_to_umask
+protobuf-c:
+  version: 1.0.2-1
+  issues:
+    - different_due_to_umask
 psgml:
   version: 1.4.0-5
   issues:
@@ -13588,6 +14750,7 @@ ptlib:
   version: 2.10.10~dfsg-4.1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
 ptouch-driver:
   version: 1.3-8
   issues:
@@ -14148,10 +15311,12 @@ python2.7:
   version: 2.7.8-11
   issues:
     - timestamps_from_cpp_macros
+    - different_due_to_umask
 python3.4:
   version: 3.4.2-2
   issues:
     - timestamps_from_cpp_macros
+    - different_due_to_umask
 pythondialog:
   version: 3.2.0-2
   issues:
@@ -14161,6 +15326,7 @@ pytone:
   version: 3.0.0-1
   issues:
     - unsorted_filelist_python_support_private
+    - different_due_to_umask
 pywbem:
   version: 0.8.0~dev650-1
   issues:
@@ -14192,6 +15358,7 @@ qdbm:
   version: 1.8.78-5
   issues:
     - timestamps_in_jar
+    - different_due_to_umask
 qdjango:
   version: 0.5.0-1
   issues:
@@ -14224,6 +15391,7 @@ qmail-run:
   issues:
     - not_using_dh_builddeb
     - timestamps_in_gzip_headers
+    - different_due_to_umask
   bugs:
     - 776952
 qmail-tools:
@@ -14254,6 +15422,10 @@ qrfcview:
   version: 0.62-5.2
   issues:
     - timestamps_in_png
+qrupdate:
+  version: 1.1.2-1
+  issues:
+    - different_due_to_umask
 qsampler:
   version: 0.2.2-5
   issues:
@@ -14283,6 +15455,7 @@ qtdeclarative-opensource-src:
   version: 5.4.1-1
   issues:
     - randomness_in_qdoc
+    - different_due_to_umask
 qtdoc-opensource-src:
   version: 5.3.2-3
   issues:
@@ -14331,6 +15504,7 @@ qtruby:
   version: 4:4.11.3-4
   issues:
     - timestamps_in_tarball
+    - different_due_to_umask
 qtscript-opensource-src:
   version: 5.4.1+dfsg-3
   issues:
@@ -15166,6 +16340,7 @@ rapidsvn:
   issues:
     - timestamps_in_documentation_generated_by_doxygen
     - timestamps_generated_by_docbook_to_man
+    - different_due_to_umask
 raschsampler:
   version: 0.8-6-1
   issues:
@@ -15210,6 +16385,10 @@ rdflib:
   version: 4.1.2-3
   issues:
     - randomness_in_documentation_generated_by_sphinx
+readline5:
+  version: 5.2+dfsg-2
+  issues:
+    - different_due_to_umask
 readline6:
   version: 6.3-8
   issues:
@@ -15224,6 +16403,10 @@ realmd:
   version: 0.15.1-1
   issues:
     - timestamps_generated_by_docbook_to_man
+recutils:
+  version: 1.7-1
+  issues:
+    - different_due_to_umask
 red5:
   version: 1.0~svn4374-4
   issues:
@@ -15257,6 +16440,7 @@ rep-gtk:
   version: 1:0.90.0-2.2
   issues:
     - timestamps_in_static_libraries
+    - different_due_to_umask
 requestpolicy:
   version: 0.5.28-1
   issues:
@@ -15308,6 +16492,10 @@ rheolef:
   version: 6.5-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+riemann-c-client:
+  version: 1.2.0-2
+  issues:
+    - different_due_to_umask
 ripmime:
   version: 1.4.0.10.debian.1-1
   comments: |
@@ -15390,6 +16578,7 @@ rrdtool:
   issues:
     - timestamps_from_cpp_macros
     - timestamps_from_cpp_macros
+    - different_due_to_umask
 rs:
   version: 20140609-3
   issues:
@@ -15440,10 +16629,22 @@ rtai:
     - timestamps_in_static_libraries
     - timestamps_in_tarball
     - different_due_to_umask
+rtl-sdr:
+  version: 0.5.3-3
+  issues:
+    - different_due_to_umask
+rtmpdump:
+  version: 2.4+20150115.gita107cef-1
+  issues:
+    - different_due_to_umask
 rtslib:
   version: 3.0+git0.86e46bc6-5
   issues:
     - use_epydoc
+rubberband:
+  version: 1.8.1-6
+  issues:
+    - different_due_to_umask
 ruby-activeldap:
   version: 4.0.3-2
   issues:
@@ -15869,6 +17070,10 @@ rubyluabridge:
   version: 0.8.0-1
   issues:
     - timestamps_in_ruby_documentation
+ruli:
+  version: 0.33-1.1
+  issues:
+    - different_due_to_umask
 rungetty:
   version: 1.2-15
   issues:
@@ -16002,6 +17207,7 @@ schroot:
   version: 1.6.10-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
 scidavis:
   version: 1.D8-1
   issues:
@@ -16014,6 +17220,19 @@ scim:
   version: 1.4.15-3
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
+scim-canna:
+  version: 1.0.0-4.2
+  issues:
+    - different_due_to_umask
+scim-skk:
+  version: 0.5.2-7.2
+  issues:
+    - different_due_to_umask
+sciplot:
+  version: 1.36-16
+  issues:
+    - different_due_to_umask
 scite:
   version: 3.5.0-1
   issues:
@@ -16057,6 +17276,7 @@ scscp-imcce:
   version: 1.0.1+ds-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - different_due_to_umask
 scsh-install-lib:
   version: 1.3.0-1
   issues:
@@ -16079,6 +17299,18 @@ sdcc:
   version: 3.4.0+dfsg-2
   issues:
     - timestamps_from_cpp_macros
+sdl-mixer1.2:
+  version: 1.2.12-11
+  issues:
+    - different_due_to_umask
+sdl-net1.2:
+  version: 1.2.8-4
+  issues:
+    - different_due_to_umask
+sdl-ttf2.0:
+  version: 2.0.11-3
+  issues:
+    - different_due_to_umask
 sdlbasic:
   version: 0.0.20070714-5
   issues:
@@ -16087,6 +17319,10 @@ sdlgfx:
   version: 2.0.25-4
   issues:
     - users_and_groups_in_tarball
+sdlpango:
+  version: 0.1.2-6
+  issues:
+    - different_due_to_umask
 seabios:
   version: 1.7.5-1
   bugs:
@@ -16162,10 +17398,15 @@ shadow:
   version: 1:4.2-2
   bugs:
     - 783149
+shapelib:
+  version: 1.3.0-4
+  issues:
+    - different_due_to_umask
 shapetools:
   version: 1.4pl6-11
   issues:
     - timestamps_in_static_libraries
+    - different_due_to_umask
 shared-mime-info:
   version: 1.3-1
   issues:
@@ -16226,6 +17467,7 @@ silly:
   version: 0.1.0-3.1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
 silo-llnl:
   version: 4.9.1-3
   issues:
@@ -16335,6 +17577,10 @@ sketch:
   version: 1:0.3.7-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+skycat:
+  version: 3.1.2+starlink1~b-8
+  issues:
+    - different_due_to_umask
 skytools3:
   version: 3.2-2
   issues:
@@ -16393,6 +17639,7 @@ slurm-llnl:
   version: 14.03.9-5
   issues:
     - timezones_manpages_podman
+    - different_due_to_umask
 slv2:
   version: 0.6.6+dfsg1-2
   issues:
@@ -16413,10 +17660,22 @@ sml-mode:
   version: 5.0-1
   issues:
     - timestamps_in_emacs_autoloads
+smp-utils:
+  version: 0.98-1
+  issues:
+    - different_due_to_umask
+smpeg:
+  version: 0.4.5+cvs20030824-7.1
+  issues:
+    - different_due_to_umask
 smuxi:
   version: 0.11~rc5-2
   issues:
     - timestamps_in_pe_binaries
+snack:
+  version: 2.2.10.20090623-dfsg-4
+  issues:
+    - different_due_to_umask
 snake4:
   version: 1.0.14-1
   comments: |
@@ -16438,6 +17697,10 @@ snort:
   version: 2.9.7.0-4
   issues:
     - pdf_created_by_ghostscript
+snp-sites:
+  version: 1.5.0-1
+  issues:
+    - different_due_to_umask
 soapdenovo2:
   version: 240+dfsg-2
   issues:
@@ -16500,6 +17763,10 @@ sozi:
   version: 12.05-1
   bugs:
     - 776255
+sp-gxmlcpp:
+  version: 1.0.20040603-5.1
+  issues:
+    - different_due_to_umask
 spacezero:
   version: 0.80.06-1
   issues:
@@ -16522,10 +17789,18 @@ sparkleshare:
   version: 1.2-0.1
   issues:
     - timestamps_in_pe_binaries
+sparskit:
+  version: 2.0.0-2
+  issues:
+    - different_due_to_umask
 spatial4j-0.4:
   version: 0.4.1-1
   issues:
     - timestamps_in_maven_pom_files
+spatialite:
+  version: 4.1.1-10
+  issues:
+    - different_due_to_umask
 spd:
   version: 1.3.0-1
   issues:
@@ -16544,6 +17819,10 @@ spectacle:
     - timestamps_in_python_code_generated_by_cheetah
   bugs:
     - 775996
+speech-dispatcher:
+  version: 0.8-7
+  issues:
+    - different_due_to_umask
 speech-tools:
   version: 1:2.1~release-8
   comments: |
@@ -16584,6 +17863,10 @@ sphinxtrain:
     https://sources.debian.net/src/sphinxtrain/1.0.8-4/src/programs/mllr_transform/main.c/?hl=342#L342
   issues:
     - timestamps_from_cpp_macros
+spice:
+  version: 0.12.5-1
+  issues:
+    - different_due_to_umask
 spip:
   version: 3.0.18-1
   issues:
@@ -16625,6 +17908,10 @@ springlobby:
   version: 0.201-1
   issues:
     - timestamps_from_cpp_macros
+sprng:
+  version: 2.0a-8
+  issues:
+    - different_due_to_umask
 spykeviewer:
   version: 0.4.2-1
   issues:
@@ -16653,6 +17940,10 @@ squid3:
   version: 3.4.8-2
   issues:
     - timestamps_from_cpp_macros
+squizz:
+  version: 0.99b+dfsg-3
+  issues:
+    - different_due_to_umask
 srtp:
   version: 1.4.5~20130609~dfsg-1.1
   issues:
@@ -16668,6 +17959,10 @@ ssvnc:
   version: 1.0.29-2
   issues:
     - timestamps_in_jar
+starlink-ast:
+  version: 8.0.2+dfsg-2
+  issues:
+    - different_due_to_umask
 statnews:
   version: 2.5
   comments: |
@@ -16686,6 +17981,10 @@ stealth:
   issues:
     - timestamps_in_dvi_generated_by_latex
     - timestamps_in_pdf_generated_by_latex
+stfl:
+  version: 0.22-1.2
+  issues:
+    - different_due_to_umask
 stgit:
   version: 0.17.1-1
   comments: |
@@ -16766,6 +18065,10 @@ supercat:
     - different_due_to_umask
   bugs:
     - 777396
+superlu:
+  version: 4.3+dfsg-3
+  issues:
+    - different_due_to_umask
 surefire:
   version: 2.10-5
   issues:
@@ -16849,6 +18152,10 @@ synthv1:
   version: 0.5.1-1
   issues:
     - timestamps_from_cpp_macros
+syrthes:
+  version: 4.1.1-dfsg1-5
+  issues:
+    - different_due_to_umask
 sysinfo:
   version: 0.7-8
   issues:
@@ -16896,6 +18203,10 @@ tachyon:
   version: 0.99~b2+dfsg-0.4
   issues:
     - timestamps_in_pdf_generated_by_latex
+tagcoll2:
+  version: 2.0.14-1
+  issues:
+    - different_due_to_umask
 taggrepper:
   version: 0.05-1
   issues:
@@ -16927,6 +18238,10 @@ tango-icon-theme:
   version: 0.8.90-5
   issues:
     - timestamps_in_png
+taningia:
+  version: 0.2.2-1
+  issues:
+    - different_due_to_umask
 taoframework:
   version: 2.1.svn20090801-10
   issues:
@@ -16958,10 +18273,22 @@ tbb:
     Build ran for more than 36h...
   issues:
     - blacklisted_on_jenkins
+tcl8.5:
+  version: 8.5.17-1
+  issues:
+    - different_due_to_umask
+tclcl:
+  version: 1.20-8
+  issues:
+    - different_due_to_umask
 tcltk-defaults:
   version: 8.6.0+8
   issues:
     - timestamps_in_pdf_generated_by_latex
+tclxml:
+  version: 3.3~svn11-3
+  issues:
+    - different_due_to_umask
 tcode:
   version: 0.1.20080918-2
   issues:
@@ -16995,6 +18322,10 @@ tdiary:
   version: 3.2.2-3
   issues:
     - timestamps_generated_by_docbook_to_man
+tdom:
+  version: 0.8.3-1
+  issues:
+    - different_due_to_umask
 templayer:
   version: 1.5.1-1
   comments: |
@@ -17150,6 +18481,10 @@ tinc:
   version: 1.0.24-2.1
   issues:
     - timestamps_from_cpp_macros
+tinycdb:
+  version: 0.78
+  issues:
+    - different_due_to_umask
 tinydyndns:
   version: 0.4.2.debian1-1
   issues:
@@ -17177,6 +18512,10 @@ tiptop:
     http://sources.debian.net/src/tiptop/2.2-2/src/Makefile.in/?hl=50:53#L50
     Not defining the constants should be enough:
     http://sources.debian.net/src/tiptop/2.2-2/src/version.c/?hl=23:33#L23
+tircd:
+  version: 0.30-1
+  issues:
+    - different_due_to_umask
 tkgate:
   version: 2.0~b10-4
   issues:
@@ -17199,6 +18538,10 @@ tntdb:
     - timestamps_in_documentation_generated_by_doxygen
 tntnet:
   version: 2.2.1-1
+  issues:
+    - different_due_to_umask
+tolua++:
+  version: 1.0.93-3
   issues:
     - different_due_to_umask
 tomboy:
@@ -17239,6 +18582,10 @@ tor:
   version: 0.2.6.7-1
   issues:
     - timestamps_generated_by_docbook_to_man
+torch3:
+  version: 3.1-2.1
+  issues:
+    - different_due_to_umask
 torque:
   version: 2.4.16+dfsg-1.5
   comments: |
@@ -17287,6 +18634,14 @@ travis:
   version: 140902-1
   issues:
     - timestamps_from_cpp_macros
+tre:
+  version: 0.8.0-4
+  issues:
+    - different_due_to_umask
+treeline:
+  version: 1.4.1-1
+  issues:
+    - different_due_to_umask
 trident:
   version: 1.3+dfsg-5
   issues:
@@ -17311,6 +18666,10 @@ triplea:
     The Java MANIFEST.MF file has a list of SHA-1 digests in random order.
   issues:
     - timestamps_in_png
+trousers:
+  version: 0.3.13-3
+  issues:
+    - different_due_to_umask
 trove:
   version: 2.1.0-2
   issues:
@@ -17423,6 +18782,10 @@ twittering-mode:
   version: 3.0.0-1
   issues:
     - timestamps_in_documentation_generated_by_texi2html
+twofish:
+  version: 0.3-4
+  issues:
+    - different_due_to_umask
 twoftpd:
   version: 1.42-1
   issues:
@@ -17453,6 +18816,10 @@ txw2:
   version: 0.1+20110809-1
   issues:
     - user_in_java_jar_manifest
+typerep:
+  version: 111.17.00-1
+  issues:
+    - different_due_to_umask
 tyxml:
   version: 3.0.0-1
   issues:
@@ -17523,6 +18890,18 @@ udj-desktop-client:
   version: 0.6.3-1
   bugs:
     - 778966
+udns:
+  version: 0.4-1
+  issues:
+    - different_due_to_umask
+udt:
+  version: 4.11+dfsg1-1
+  issues:
+    - different_due_to_umask
+udunits:
+  version: 2.2.17-1
+  issues:
+    - different_due_to_umask
 uhd:
   version: 3.7.3-1
   comments: |
@@ -17596,6 +18975,10 @@ unzip:
     - not_using_dh_builddeb
   bugs:
     - 782851
+upower:
+  version: 0.99.1-3.2
+  issues:
+    - different_due_to_umask
 urca:
   version: 1.2-8-1
   issues:
@@ -17660,6 +19043,10 @@ v4l2loopback:
     - timestamps_in_tarball
   bugs:
     - 778456
+valgrind:
+  version: 1:3.10.0-4
+  issues:
+    - different_due_to_umask
 valknut:
   version: 0.4.9-2
   comments: |
@@ -17669,6 +19056,10 @@ vamp-plugin-sdk:
   version: 2.5+repack0-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+vanessa-socket:
+  version: 0.0.12-2
+  issues:
+    - different_due_to_umask
 varnish:
   version: 4.0.2-1
   comments: |
@@ -17684,6 +19075,7 @@ vdk2:
   issues:
     - timestamps_in_documentation_generated_by_doxygen
     - timestamps_in_static_libraries
+    - different_due_to_umask
 vdkbuilder2:
   version: 2.4.0-4.4
   issues:
@@ -17741,6 +19133,10 @@ veusz:
   version: 1.21.1-1
   issues:
     - timestamps_in_documentation_generated_by_podman
+vflib3:
+  version: 3.6.14.dfsg-3+nmu2
+  issues:
+    - different_due_to_umask
 videolan-doc:
   version: 20070626-1
   issues:
@@ -17827,6 +19223,10 @@ vnc4:
   version: 4.1.1+X4.3.0-37.4
   issues:
     - timestamps_from_cpp_macros
+vo-aacenc:
+  version: 0.1.3-1
+  issues:
+    - different_due_to_umask
 voms:
   version: 2.0.11-5
   issues:
@@ -17851,6 +19251,10 @@ votca-tools:
   version: 1.2.4-1
   issues:
     - timestamps_from_cpp_macros
+vowpal-wabbit:
+  version: 7.3-1.1
+  issues:
+    - different_due_to_umask
 vpb-driver:
   version: 4.2.58-1
   comments: |
@@ -17895,6 +19299,10 @@ vtwm:
   comments: |
     Embed build time, kernel version:
     http://sources.debian.net/src/vtwm/5.4.7-2.2/Imakefile/?hl=177:178#L177
+vxi:
+  version: 0.0.20121221-2
+  issues:
+    - different_due_to_umask
 vxl:
   version: 1.17.0.dfsg-1
   issues:
@@ -17928,6 +19336,10 @@ wavtool-pl:
   version: 0.20140305-1
   issues:
     - timestamps_generated_by_docbook_to_man
+wcslib:
+  version: 4.24-1
+  issues:
+    - different_due_to_umask
 webassets:
   version: 3:0.10.1-2
   bugs:
@@ -17944,6 +19356,10 @@ webkitgtk:
   version: 2.4.8-1
   issues:
     - debbindiff_runs_forever
+webrtc-audio-processing:
+  version: 0.1-3
+  issues:
+    - different_due_to_umask
 websvn:
   version: 2.3.3-1.2
   bugs:
@@ -17992,6 +19408,10 @@ wikipediafs:
   version: 0.4-6
   issues:
     - timestamps_generated_by_docbook_to_man
+wildmidi:
+  version: 0.3.7-1
+  issues:
+    - different_due_to_umask
 wily:
   version: 0.13.41-7.2
   issues:
@@ -18136,6 +19556,7 @@ wvstreams:
     - timestamps_in_static_libraries
     - timestamps_in_documentation_generated_by_javadoc
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
 wxwidgets2.8:
   version: 2.8.12.1+dfsg2-2
   issues:
@@ -18165,6 +19586,10 @@ xaos:
   version: 3.5+ds1-2
   issues:
     - lc_messages_randomness
+xapian-core:
+  version: 1.2.19-1
+  issues:
+    - different_due_to_umask
 xapian-omega:
   version: 1.2.19-1
   issues:
@@ -18232,6 +19657,10 @@ xca:
   version: 1.0.0-2
   issues:
     - bad_handling_of_extra_warnings
+xcb-util-cursor:
+  version: 0.1.1-3
+  issues:
+    - different_due_to_umask
 xcfa:
   version: 4.3.8-1
   issues:
@@ -18246,6 +19675,10 @@ xd:
     - timestamps_in_gzip_headers
   bugs:
     - 777366
+xdelta:
+  version: 1.1.3-9.1
+  issues:
+    - different_due_to_umask
 xdg-user-dirs:
   version: 0.15-2
   issues:
@@ -18275,6 +19708,7 @@ xen:
     - timestamps_in_pe_binaries
     - timestamps_in_gzip_headers
     - timezones_manpages_podman
+    - different_due_to_umask
 xenomai:
   version: 2.6.3-2
   comments: |
@@ -18290,6 +19724,10 @@ xfaces:
     - timestamps_in_gzip_headers
   bugs:
     - 777063
+xfce4-notes-plugin:
+  version: 1.7.7-5
+  issues:
+    - different_due_to_umask
 xfig:
   version: 1:3.2.5.c-3
   issues:
@@ -18426,6 +19864,10 @@ xmlrpc-c:
     - ftbfs_in_jenkins_setup
   bugs:
     - 722503
+xmlsec1:
+  version: 1.2.20-2
+  issues:
+    - different_due_to_umask
 xmlstreambuffer:
   version: 1.5.1-1
   issues:
@@ -18488,6 +19930,10 @@ xorp:
     http://sources.debian.net/src/xorp/1.8.5-4/libxorp/create_buildinfo.sh/
   issues:
     - timestamps_generated_by_docbook_to_man
+xosd:
+  version: 2.2.14-2.1
+  issues:
+    - different_due_to_umask
 xpra:
   version: 0.14.9+dfsg-1
   comments: |
@@ -18534,6 +19980,10 @@ xtables-addons:
     - different_due_to_umask
   bugs:
     - 776879
+xtalk:
+  version: 1.3-15.2
+  issues:
+    - different_due_to_umask
 xtel:
   version: 3.3.0-17.1
   issues:
@@ -18703,6 +20153,8 @@ zephyr:
   version: 3.1.2-1
   comments: |
     Non-deterministic (gcc) compilation of some constant-looking values
+  issues:
+    - different_due_to_umask
 zerofree:
   version: 1.0.3-1
   issues:
@@ -18752,6 +20204,12 @@ zorp:
   comments: |
     Embed build time:
     http://sources.debian.net/src/zorp/3.9.5-4/zorp/main.c/?hl=203#L203
+  issues:
+    - different_due_to_umask
+zotero-standalone-build:
+  version: 4.0.22-1
+  issues:
+    - different_due_to_umask
 zp:
   version: 1.0-1
   bugs:
@@ -18785,6 +20243,10 @@ zsync:
   version: 0.6.2-1
   issues:
     - timestamps_from_cpp_macros
+zthreads:
+  version: 2.3.2-7.2
+  issues:
+    - different_due_to_umask
 zurl:
   version: 1.3.1-3
   comments: |
@@ -18796,6 +20258,7 @@ zvbi:
   version: 0.2.35-3
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+    - different_due_to_umask
 zynaddsubfx:
   version: 2.4.3-4
   issues:
