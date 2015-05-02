@@ -704,6 +704,10 @@ avahi-sharp:
   version: 0.6.19-4.2
   issues:
     - timestamps_in_pe_binaries
+avalon-framework:
+  version: 4.2.0-9
+  issues:
+    - timestamps_in_jar
 avarice:
   version: 2.11-1.1
   issues:
@@ -1746,6 +1750,10 @@ classworlds:
     - timestamps_in_maven_pom_files
 classycle:
   version: 1.4-2
+  issues:
+    - timestamps_in_jar
+clean-crypto:
+  version: 1-1
   issues:
     - timestamps_in_jar
 clementine:
@@ -2943,6 +2951,10 @@ doctorj:
   version: 5.0.0-5
   issues:
     - timestamps_in_jar
+dogtag-pki:
+  version: 10.2.0-4
+  issues:
+    - timestamps_in_jar
 dolfin:
   version: 1.4.0+dfsg-4
   issues:
@@ -3217,8 +3229,20 @@ eclipse-mylyn:
   version: 3.12.0-1
   issues:
     - timestamps_manually_added_needs_further_investigation
+eclipse-subclipse:
+  version: 1.10.3-1
+  issues:
+    - timestamps_in_jar
+eclipse-wtp:
+  version: 3.6.0-1
+  issues:
+    - timestamps_in_jar
 eclipse-xsd:
   version: 2.9.0-1
+  issues:
+    - timestamps_in_jar
+eclipselink-jpa-2.1-spec:
+  version: 2.1.0.v201304241213-1
   issues:
     - timestamps_in_jar
 edfbrowser:
@@ -3293,6 +3317,10 @@ elastix:
   version: 4.7-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+electric:
+  version: 9.05+dfsg-1
+  issues:
+    - timestamps_in_jar
 elektra:
   version: 0.8.7-4
   issues:
@@ -3654,6 +3682,10 @@ exactimage:
   issues:
     - randomness_in_lto_debug_symbols
     - timestamps_generated_by_docbook_to_man
+excalibur-logkit:
+  version: 2.0-11
+  issues:
+    - timestamps_in_jar
 exec-maven-plugin:
   version: 1.1.1+dfsg-3
   issues:
@@ -3722,6 +3754,10 @@ fakeroot:
   issues:
     - not_using_dh_builddeb
     - different_due_to_umask
+fannj:
+  version: 0.3-1
+  issues:
+    - timestamps_in_jar
 farstream:
   version: 0.1.2-3
   issues:
@@ -3746,6 +3782,10 @@ fastjet:
   version: 3.0.6+dfsg-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+fastqc:
+  version: 0.11.2+dfsg-3
+  issues:
+    - timestamps_in_jar
 fatrat:
   version: 1.1.3-5
   bugs:
@@ -3844,6 +3884,10 @@ felix-main:
   version: 4.4.0-1
   issues:
     - timestamps_in_maven_pom_files
+felix-osgi-obr:
+  version: 1.0.2-3
+  issues:
+    - timestamps_in_jar
 felix-shell:
   version: 1.4.3-1
   issues:
@@ -3917,6 +3961,10 @@ fhist:
   version: 1.18-1
   issues:
     - timestamps_in_documentation_generated_by_groff
+figtree:
+  version: 1.4-2
+  issues:
+    - timestamps_in_jar
 file-rc:
   version: 0.8.16
   issues:
@@ -4465,6 +4513,10 @@ gant:
   version: 1.9.9-3
   issues:
     - user_in_java_jar_manifest
+ganymed-ssh2:
+  version: 250-2
+  issues:
+    - timestamps_in_jar
 gap:
   version: 4r7p5-2
   issues:
@@ -4718,10 +4770,22 @@ gerbv:
     http://sources.debian.net/src/gerbv/2.6.0-1/src/callbacks.c/?hl=1541#L1541
   issues:
     - different_due_to_umask
+geronimo-interceptor-3.0-spec:
+  version: 1.0.1-1
+  issues:
+    - timestamps_in_jar
+geronimo-javamail-1.4-provider:
+  version: 1.8.3-1
+  issues:
+    - timestamps_in_jar
 geronimo-jpa-2.0-spec:
   version: 1.1-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
+geronimo-osgi-support:
+  version: 1.0-2
+  issues:
+    - timestamps_in_jar
 geronimo-validation-1.0-spec:
   version: 1.1-2
   issues:
@@ -4751,6 +4815,10 @@ gettext:
   issues:
     - not_using_dh_builddeb
     - different_due_to_umask
+gettext-ant-tasks:
+  version: 0.9.7+svn206-1
+  issues:
+    - timestamps_in_jar
 gexiv2:
   version: 0.10.2-2
   issues:
@@ -4812,6 +4880,10 @@ giflib:
   version: 4.1.6-11
   issues:
     - timestamps_from_cpp_macros
+giira:
+  version: 0.0.20140210-2
+  issues:
+    - timestamps_in_jar
 gimp-dimage-color:
   version: 1.1.0-3.2
   bugs:
@@ -5613,6 +5685,10 @@ gui-apt-key:
     - timestamps_in_gzip_headers
   bugs:
     - 777240
+guice:
+  version: 4.0~beta5-1
+  issues:
+    - timestamps_in_jar
 guile-1.8:
   version: 1.8.8+1-10
   comments: |
@@ -6963,6 +7039,10 @@ icu4j:
   version: 4.2.1.1-3
   comments: |
     Timestamp in generated code comment
+icu4j-4.4:
+  version: 4.4.2.2-2
+  issues:
+    - timestamps_in_jar
 id3lib3.8.3:
   version: 3.8.3-16
   issues:
@@ -7022,6 +7102,10 @@ ilmbase:
   version: 1.0.1-6.1
   issues:
     - different_due_to_umask
+imagej:
+  version: 1.49i+dfsg-1
+  issues:
+    - timestamps_in_jar
 imagemagick:
   version: 8:6.8.9.9-5
   issues:
@@ -7147,6 +7231,10 @@ ioquake3:
   version: 1.36+u20140802+gca9eebb-2
   issues:
     - timestamps_from_cpp_macros
+ipig:
+  version: 0.0.r5-1
+  issues:
+    - timestamps_in_jar
 iproute2:
   version: 3.16.0-2
   issues:
@@ -7356,6 +7444,10 @@ jags:
   version: 3.4.0-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+jakarta-ecs:
+  version: 1.4.2-4
+  issues:
+    - timestamps_in_jar
 jakarta-jmeter:
   version: 2.11-2
   issues:
@@ -7364,10 +7456,18 @@ jakarta-taglibs-standard:
   version: 1.1.2-2
   issues:
     - timestamps_in_jar
+jalview:
+  version: 2.7.dfsg-4
+  issues:
+    - timestamps_in_jar
 jam:
   version: 2.6-1
   issues:
     - variation_in_compilation
+jam-lib:
+  version: 0.0.r304-1
+  issues:
+    - timestamps_in_jar
 jaminid:
   version: 0.99a-1.1
   issues:
@@ -7385,6 +7485,10 @@ janest-core:
   version: 107.01-5
   bugs:
     - 731817
+janino:
+  version: 2.7.0-2
+  issues:
+    - timestamps_in_jar
 jansi:
   version: 1.4-3
   issues:
@@ -7405,10 +7509,22 @@ jargon:
     - not_using_dh_builddeb
   bugs:
     - 777483
+jargs:
+  version: 1.0.0-4
+  issues:
+    - timestamps_in_jar
+jarjar:
+  version: 1.4+svn142-4
+  issues:
+    - timestamps_in_jar
 jarjar-maven-plugin:
   version: 1.9-3
   issues:
     - date_in_maven_plugin_xml
+jas:
+  version: 2.5.4408-1
+  issues:
+    - timestamps_in_jar
 jasperreports:
   version: 4.1.3+dfsg-3
   issues:
@@ -7462,10 +7578,22 @@ jclic:
   issues:
     - timestamps_in_jar
     - user_in_java_jar_manifest
+jcm:
+  version: 1.0-1
+  issues:
+    - timestamps_in_jar
+jcsp:
+  version: 1.1-rc4-2
+  issues:
+    - timestamps_in_jar
 jd:
   version: 1:2.8.8-140601-4
   issues:
     - timestamps_from_cpp_macros
+jebl2:
+  version: 0.0.r22-1
+  issues:
+    - timestamps_in_jar
 jedit:
   version: 5.1.0+dfsg-2
   issues:
@@ -7487,6 +7615,10 @@ jenkins-antisamy-markup-formatter-plugin:
   version: 1.2-1
   issues:
     - timestamps_in_java_stapler_files
+jenkins-dom4j:
+  version: 1.6.1-jenkins-4-1
+  issues:
+    - timestamps_in_jar
 jenkins-job-builder:
   version: 0.9.0-0.2
   issues:
@@ -7509,6 +7641,10 @@ jenkins-winstone:
   version: 2.8-1
   issues:
     - timestamps_in_maven_pom_files
+jesd:
+  version: 0.0.7-4
+  issues:
+    - timestamps_in_jar
 jets3t:
   version: 0.8.1+dfsg-1
   issues:
@@ -7522,10 +7658,18 @@ jfractionlab:
   version: 0.91-3
   issues:
     - timestamps_in_jar
+jfugue:
+  version: 4.0.3-3
+  issues:
+    - timestamps_in_jar
 jglobus:
   version: 2.1.0-1
   issues:
     - timestamps_in_documentation_generated_by_javadoc
+jgromacs:
+  version: 1.0-1
+  issues:
+    - timestamps_in_jar
 jhdf:
   version: 2.9-3
   issues:
@@ -7546,14 +7690,26 @@ jing-trang:
   version: 20131210+dfsg+1-1
   issues:
     - timestamps_in_jar
+jinput:
+  version: 20100502+dfsg-7
+  issues:
+    - timestamps_in_jar
 jitsi:
   version: 2.4.4997-1.2
   bugs:
     - 759835
+jlex:
+  version: 1.2.6-7
+  issues:
+    - timestamps_in_jar
 jlha-utils:
   version: 0.1.6-4
   issues:
     - timestamps_generated_by_docbook_to_man
+jline:
+  version: 1.0-2
+  issues:
+    - timestamps_in_jar
 jmagick:
   version: 6.6.9~20130201-svn99-2
   issues:
@@ -7564,6 +7720,18 @@ jmapviewer:
   issues:
     - timestamps_generated_by_docbook_to_man
     - timestamps_in_manpages_generated_by_docbook_xsl
+jmdns:
+  version: 3.4.1-2
+  issues:
+    - timestamps_in_jar
+jmock:
+  version: 1.2.0-3
+  issues:
+    - timestamps_in_jar
+jmol:
+  version: 12.2.32+dfsg2-1
+  issues:
+    - timestamps_in_jar
 jmxetric:
   version: 1.0.6-1
   issues:
@@ -7586,6 +7754,10 @@ jodconverter:
     - 783882
 jodconverter-cli:
   version: 2.2.2-8
+  issues:
+    - timestamps_in_jar
+jodreports:
+  version: 2.4.0-3
   issues:
     - timestamps_in_jar
 joe:
@@ -7632,6 +7804,10 @@ js-of-ocaml:
   version: 2.2-2
   issues:
     - randomness_in_ocaml_a_files
+jsilver:
+  version: 1.0.0.dfsg-1
+  issues:
+    - timestamps_in_jar
 jsjac:
   version: 1.3.4+dfsg-1
   issues:
@@ -7649,12 +7825,28 @@ jss:
   issues:
     - timestamps_from_cpp_macros
     - timestamps_in_jar
+jssc:
+  version: 2.6.0-5
+  issues:
+    - timestamps_in_jar
 jsxgraph:
   version: 0.98~dfsg1-3
   comments: |
     Timestamp in documentation generated by JsDoc Toolkit.
   issues:
     - timestamps_in_zip
+jsymphonic:
+  version: 0.3.0.Ode.To.Freedom+svn387-8
+  issues:
+    - timestamps_in_jar
+jtb:
+  version: 1.4.4-2
+  issues:
+    - timestamps_in_jar
+jtharness:
+  version: 4.4.1-1
+  issues:
+    - timestamps_in_jar
 jthread:
   version: 1.3.1-3
   issues:
@@ -7685,6 +7877,14 @@ junit:
   version: 3.8.2-8
   issues:
     - timestamps_in_jar
+junitperf:
+  version: 1.9.1-8
+  issues:
+    - timestamps_in_jar
+jutils:
+  version: 20100502+dfsg-2
+  issues:
+    - timestamps_in_jar
 jvyamlb:
   version: 0.2.5-2
   issues:
@@ -7706,6 +7906,14 @@ jython:
     in /usr/share/java/jython-2.5.3.jar
   issues:
     - timestamps_in_documentation_generated_by_javadoc
+    - timestamps_in_jar
+jzlib:
+  version: 1.1.3-1
+  issues:
+    - timestamps_in_jar
+jzmq:
+  version: 3.1.0-3
+  issues:
     - timestamps_in_jar
 k3d:
   version: 0.8.0.3-7
@@ -7845,6 +8053,10 @@ kimwitu-doc:
   version: 10a+1-2.2
   issues:
     - timestamps_in_pdf_generated_by_latex
+king:
+  version: 2.21.120420+dfsg-1
+  issues:
+    - timestamps_in_jar
 kiwi:
   version: 1.9.22-2
   issues:
@@ -8048,6 +8260,10 @@ ldap-haskell:
   version: 0.6.10-1
   issues:
     - timestamps_in_ghc_interfaces
+ldapjdk:
+  version: 4.18+dfsg1-1
+  issues:
+    - timestamps_in_jar
 ldaptor:
   version: 0.0.43+debian1-7
   issues:
@@ -8325,6 +8541,10 @@ libb-keywords-perl:
   version: 1.13-1
   issues:
     - timezones_manpages_podman
+libbase:
+  version: 1.1.6-2
+  issues:
+    - timestamps_in_jar
 libbash:
   version: 0.9.11-1
   issues:
@@ -8357,6 +8577,10 @@ libbuffy:
   version: 1.9.2-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libbultitude-clojure:
+  version: 0.2.0-2
+  issues:
+    - timestamps_in_jar
 libburn:
   version: 1.3.2-1.1
   issues:
@@ -8596,6 +8820,10 @@ libclone-perl:
   version: 0.37-1
   issues:
     - timezones_manpages_podman
+libcodesize-java:
+  version: 1.1+git20130603-1
+  issues:
+    - timestamps_in_jar
 libcolor-calc-perl:
   version: 1.074-1
   issues:
@@ -8620,6 +8848,10 @@ libcommons-collections3-java:
   version: 3.2.1-7
   issues:
     - timestamp_in_java_bnd_manifest
+libcommons-compress-java:
+  version: 1.9-1
+  issues:
+    - timestamps_in_jar
 libcommons-lang-java:
   version: 2.6-4
   issues:
@@ -8719,6 +8951,10 @@ libcss-tiny-perl:
   version: 1.19-1
   issues:
     - timezones_manpages_podman
+libcsv-java:
+  version: 2.0-12
+  issues:
+    - timestamps_in_jar
 libcurses-widgets-perl:
   version: 1.997-6
   issues:
@@ -8913,6 +9149,10 @@ libdvdnav:
   issues:
     - timestamps_in_documentation_generated_by_doxygen
     - different_due_to_umask
+libdynapath-clojure:
+  version: 0.2.1-2
+  issues:
+    - timestamps_in_jar
 libebml:
   version: 1.3.0-2
   issues:
@@ -9082,6 +9322,10 @@ libfinance-bank-ie-permanenttsb-perl:
   version: 0.4-2
   issues:
     - timezones_manpages_podman
+libfits-java:
+  version: 1.10.0-1
+  issues:
+    - timestamps_in_jar
 libfixbuf:
   version: 1.6.0+ds-1
   issues:
@@ -9094,6 +9338,10 @@ libfont-freetype-perl:
   version: 0.03-2
   issues:
     - timezones_manpages_podman
+libfonts-java:
+  version: 1.1.6.dfsg-3
+  issues:
+    - timestamps_in_jar
 libformat-human-bytes-perl:
   version: 0.06-1
   issues:
@@ -9103,6 +9351,10 @@ libforms:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - randomness_in_html_generated_by_texi2html
+libformula:
+  version: 1.1.7.dfsg-2
+  issues:
+    - timestamps_in_jar
 libfreefare:
   version: 0.4.0-2
   issues:
@@ -9164,6 +9416,10 @@ libgeotiff-dfsg:
   version: 1.4.0-5
   issues:
     - different_due_to_umask
+libgetopt-java:
+  version: 1.0.14+dfsg-2
+  issues:
+    - timestamps_in_jar
 libgfshare:
   version: 1.0.5-3
   comments: |
@@ -9203,6 +9459,10 @@ libgnomecanvasmm2.6:
   version: 2.26.0-1.1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libgnujaf-java:
+  version: 1.1.1-8
+  issues:
+    - timestamps_in_jar
 libgnumail-java:
   version: 1.1.2-9
   issues:
@@ -9307,6 +9567,10 @@ libgwibber:
   version: 0.1.1-1.3
   issues:
     - timestamps_in_pe_binaries
+libhac-java:
+  version: 0.20110510-1
+  issues:
+    - timestamps_in_jar
 libhangul:
   version: 0.1.0-3
   issues:
@@ -9382,6 +9646,10 @@ libhtml-wikiconverter-moinmoin-perl:
     - timezones_manpages_podman
   bugs:
     - 720018
+libhtmlcleaner-java:
+  version: 2.2-1
+  issues:
+    - timestamps_in_jar
 libhttp-async-perl:
   version: 0.26-1
   issues:
@@ -9416,6 +9684,10 @@ libident:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
     - different_due_to_umask
+libidw-java:
+  version: 1.6.1-1
+  issues:
+    - timestamps_in_jar
 libieee1284:
   version: 0.2.11-12
   issues:
@@ -9525,6 +9797,18 @@ libiscsi:
   version: 1.12.0-2
   issues:
     - different_due_to_umask
+libiscwt-java:
+  version: 5.3.20100629-3
+  issues:
+    - timestamps_in_jar
+libisfreetype-java:
+  version: 5.3.20100629-3
+  issues:
+    - timestamps_in_jar
+libisnativec-java:
+  version: 5.3.20100629+fix-1
+  issues:
+    - timestamps_in_jar
 libisoburn:
   version: 1.3.2-1.1
   issues:
@@ -9538,10 +9822,18 @@ libisofs:
   version: 1.3.2-1.1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libisrt-java:
+  version: 4.8.20100629-2
+  issues:
+    - timestamps_in_jar
 libitext-java:
   version: 2.1.7-9
   issues:
     - randomness_in_gcj_output
+libitext1-java:
+  version: 1.4-6
+  issues:
+    - timestamps_in_jar
 libitext5-java:
   version: 5.5.3-2
   issues:
@@ -9562,6 +9854,14 @@ libixp:
   version: 0.6~20121202+hg148-2
   issues:
     - different_due_to_umask
+libj2ssh-java:
+  version: 0.2.9-4
+  issues:
+    - timestamps_in_jar
+libjaba-client-java:
+  version: 0+dfsg-1
+  issues:
+    - timestamps_in_jar
 libjackson-json-java:
   version: 1.9.2-3
   issues:
@@ -9598,12 +9898,24 @@ libjboss-marshalling-java:
   version: 1.1.3.GA-3
   issues:
     - timestamps_in_maven_pom_files
+libjbzip2-java:
+  version: 0.9.1-3
+  issues:
+    - timestamps_in_jar
 libjchart2d-java:
   version: 3.2.2+dfsg-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
 libjcommon-java:
   version: 1.0.16-4
+  issues:
+    - timestamps_in_jar
+libjemmy2-java:
+  version: 2.3.1.1-2
+  issues:
+    - timestamps_in_jar
+libjena-iri-java:
+  version: 0.8-1
   issues:
     - timestamps_in_jar
 libjettison-java:
@@ -9622,6 +9934,18 @@ libjgoodies-binding-java:
   version: 2.1.0-1
   issues:
     - user_in_java_jar_manifest
+libjgrapht0.8-java:
+  version: 0.8.3-4
+  issues:
+    - timestamps_in_jar
+libjhlabs-filters-java:
+  version: 2.0.235-3
+  issues:
+    - timestamps_in_jar
+libjna-java:
+  version: 4.1.0-1
+  issues:
+    - timestamps_in_jar
 libjna-posix-java:
   version: 1.0.1-2
   issues:
@@ -9643,10 +9967,22 @@ libjogl2-java:
   version: 2.2.4+dfsg-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+libjopendocument-java:
+  version: 1.3repack-1
+  issues:
+    - timestamps_in_jar
 libjpeg-turbo:
   version: 1:1.3.1-12
   bugs:
     - 782893
+libjpf-java:
+  version: 1.5.1+dfsg-4
+  issues:
+    - timestamps_in_jar
+libjpfcodegen-java:
+  version: 0.4+dfsg1-1
+  issues:
+    - timestamps_in_jar
 libjrosetta-java:
   version: 1.0.4-4
   issues:
@@ -9681,6 +10017,18 @@ libjsr311-api-java:
   version: 1.1.1-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+libjstun-java:
+  version: 0.7.3+dfsg-1
+  issues:
+    - timestamps_in_jar
+libjswingreader-java:
+  version: 0.3-1
+  issues:
+    - timestamps_in_jar
+libjsyntaxpane-java:
+  version: 0.9.6~r156-5
+  issues:
+    - timestamps_in_jar
 libkarma:
   version: 0.1.2-2.3
   issues:
@@ -9706,6 +10054,10 @@ libkml:
   version: 1.3.0~r864+dfsg-1
   issues:
     - different_due_to_umask
+libkmlframework-java:
+  version: 0.0.20090718-1
+  issues:
+    - timestamps_in_jar
 libkolabxml:
   version: 1.0.2-2
   issues:
@@ -9756,6 +10108,10 @@ liblo:
   version: 0.28-3
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libloader:
+  version: 1.1.6.dfsg-4
+  issues:
+    - timestamps_in_jar
 liblocales-perl:
   version: 0.32+ds-1
   issues:
@@ -9911,6 +10267,10 @@ libmatroska:
   version: 1.4.1-2
   issues:
     - timestamps_from_cpp_macros
+libmatthew-java:
+  version: 0.7.3-1
+  issues:
+    - timestamps_in_jar
 libmediainfo:
   version: 0.7.70-1
   issues:
@@ -9927,6 +10287,10 @@ libmemoize-memcached-perl:
   version: 0.03-2
   issues:
     - timezones_manpages_podman
+libmetadata-extractor-java:
+  version: 2.6.4-2
+  issues:
+    - timestamps_in_jar
 libmicroba-java:
   version: 0.4.4.3-4
   issues:
@@ -9944,6 +10308,10 @@ libmimic:
   version: 1.0.4-2.2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libminlog-java:
+  version: 1.2-2
+  issues:
+    - timestamps_in_jar
 libmlx4:
   version: 1.0.6-1
   issues:
@@ -10108,6 +10476,10 @@ libmwaw:
   version: 0.3.1-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libmx4j-java:
+  version: 3.0.2-14
+  issues:
+    - timestamps_in_jar
 libmysql-diff-perl:
   version: 0.43-2
   issues:
@@ -10129,6 +10501,10 @@ libnatpmp:
   version: 20110808-3
   issues:
     - different_due_to_umask
+libnb-javaparser-java:
+  version: 7.4-1
+  issues:
+    - timestamps_in_jar
 libnb-platform18-java:
   version: 7.4+dfsg1-2
   issues:
@@ -10233,6 +10609,10 @@ libnet-twitter-lite-perl:
   version: 0.12006-1
   issues:
     - timestamps_in_documentation_generated_by_podman
+libnetx-java:
+  version: 0.5-2
+  issues:
+    - timestamps_in_jar
 libnfo:
   version: 1.0.1-1.1
   issues:
@@ -10307,6 +10687,10 @@ libopenusb:
   version: 1.1.11-1
   issues:
     - different_due_to_umask
+liboptimization-java:
+  version: 0.1-1
+  issues:
+    - timestamps_in_jar
 liboptions-java:
   version: 0.0.20120113-1
   issues:
@@ -10327,10 +10711,18 @@ libpackage-pkg-perl:
   version: 0.0020-1
   issues:
     - timezones_manpages_podman
+libpal-java:
+  version: 1.5.1-2
+  issues:
+    - timestamps_in_jar
 libpam-abl:
   version: 0.6.0-3
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
+libparanamer-java:
+  version: 2.7-1
+  issues:
+    - timestamps_in_jar
 libparse-cpan-packages-perl:
   version: 2.38-1
   issues:
@@ -10396,6 +10788,10 @@ libperl6-slurp-perl:
   version: 0.051005-1
   issues:
     - timezones_manpages_podman
+libpgjava:
+  version: 9.2-1002-1
+  issues:
+    - timestamps_in_jar
 libpgm:
   version: 5.1.118-1~dfsg-1
   comments: |
@@ -10507,6 +10903,10 @@ libpsl:
   comments: |
     Embed build time:
     http://sources.debian.net/src/libpsl/0.5.1-1/src/psl2c.c/?hl=178#L178
+libpulse-java:
+  version: 2.4.7-1
+  issues:
+    - timestamps_in_jar
 libpuzzle:
   version: 0.9-6
   issues:
@@ -10567,6 +10967,10 @@ librdf-vcard-perl:
   version: 0.010-2
   issues:
     - timestamps_in_documentation_generated_by_podman
+libreadline-java:
+  version: 0.8.0.1+dfsg-4
+  issues:
+    - timestamps_in_jar
 libreadonly-xs-perl:
   version: 1.05-1
   issues:
@@ -10575,6 +10979,10 @@ librecad:
   version: 2.0.4-1
   issues:
     - timestamps_from_cpp_macros
+libreflectasm-java:
+  version: 1.05-2
+  issues:
+    - timestamps_in_jar
 librep:
   version: 0.90.2-1.4
   issues:
@@ -10584,6 +10992,10 @@ libreply-perl:
   version: 0.35-1
   issues:
     - timezones_manpages_podman
+librepository:
+  version: 1.1.6-2
+  issues:
+    - timestamps_in_jar
 libreturn-multilevel-perl:
   version: 0.04-1
   issues:
@@ -10688,6 +11100,10 @@ libsemver-perl:
   version: 0.6.0-1
   issues:
     - timezones_manpages_podman
+libserializer:
+  version: 1.1.6-4
+  issues:
+    - timestamps_in_jar
 libset-tiny-perl:
   version: 0.02-1
   issues:
@@ -10713,6 +11129,10 @@ libsigrok:
   version: 0.3.0-1
   issues:
     - different_due_to_umask
+libsimple-validation-java:
+  version: 0.9-1
+  issues:
+    - timestamps_in_jar
 libskinlf-java:
   version: 6.7-8
   issues:
@@ -11099,6 +11519,10 @@ libtext-vimcolor-perl:
   version: 0.11-2
   bugs:
     - 720663
+libtggraphlayout-java:
+  version: 122-2
+  issues:
+    - timestamps_in_jar
 libthai:
   version: 0.1.21-1
   issues:
@@ -11116,6 +11540,10 @@ libthread-sigmask-perl:
   version: 0.004-1
   issues:
     - timezones_manpages_podman
+libthrift-java:
+  version: 0.9.1-2
+  issues:
+    - timestamps_in_jar
 libtie-ical-perl:
   version: 0.15-1
   issues:
@@ -11235,6 +11663,10 @@ libva:
   version: 1.4.1-1
   issues:
     - different_due_to_umask
+libvamsas-client-java:
+  version: 0.2~git2011.10.17+1b42648-1
+  issues:
+    - timestamps_in_jar
 libvdpau:
   version: 0.8-3
   issues:
@@ -11399,6 +11831,10 @@ libxml-handler-trees-perl:
   version: 0.02-6
   issues:
     - timezones_manpages_podman
+libxml-java:
+  version: 1.1.6.dfsg-3
+  issues:
+    - timestamps_in_jar
 libxml-libxml-iterator-perl:
   version: 1.04-1
   issues:
@@ -11451,6 +11887,10 @@ libxmu:
   version: 2:1.1.2-1
   issues:
     - different_due_to_umask
+libxpp2-java:
+  version: 2.1.10-7
+  issues:
+    - timestamps_in_jar
 libxr:
   version: 1.0-2.1
   issues:
@@ -11713,6 +12153,10 @@ logilab-common:
   version: 0.62.0-1
   issues:
     - use_epydoc
+logisim:
+  version: 2.7.1~dfsg-1
+  issues:
+    - timestamps_in_jar
 longomatch:
   version: 0.16.8+git20110626-2
   issues:
@@ -11854,6 +12298,10 @@ luasseq:
   version: 2.1-6
   issues:
     - timestamps_in_pdf_generated_by_latex
+lucene-solr:
+  version: 3.6.2+dfsg-5
+  issues:
+    - timestamps_in_jar
 lucene4:
   version: 4.6.1+dfsg-3
   issues:
@@ -11871,6 +12319,10 @@ lwatch:
   version: 0.6.2-1
   issues:
     - timestamps_generated_by_docbook_to_man
+lwjgl:
+  version: 2.7.1+dfsg-4
+  issues:
+    - timestamps_in_jar
 lxc:
   version: 1.0.6-6
   issues:
@@ -12085,6 +12537,10 @@ mathomatic:
   version: 15.8.2-2
   issues:
     - timestamps_in_documentation_generated_by_htmldoc
+mathpiper:
+  version: 0.81f+svn4469+dfsg3-3
+  issues:
+    - timestamps_in_jar
 matroxset:
   version: 0.4-8
   issues:
@@ -12254,6 +12710,10 @@ maven-war-plugin:
   issues:
     - random_order_in_maven_plugin_xml
     - date_in_maven_plugin_xml
+maven2:
+  version: 2.2.1-22
+  issues:
+    - timestamps_in_jar
 maven2-core:
   version: 2.2.1-16
   issues:
@@ -12390,6 +12850,10 @@ mimefilter:
     - not_using_dh_builddeb
   bugs:
     - 777486
+mina:
+  version: 1.1.7.dfsg-11
+  issues:
+    - timestamps_in_jar
 mina2:
   version: 2.0.7+dfsg-2
   issues:
@@ -12488,6 +12952,10 @@ mkcue:
   version: 1-4
   issues:
     - timestamps_generated_by_docbook_to_man
+mkgmap:
+  version: 0.0.0+svn3333-1
+  issues:
+    - timestamps_in_jar
 mknbi:
   version: 1.4.4-10
   issues:
@@ -12560,6 +13028,10 @@ mockito:
   version: 1.9.5+ds-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
+mockobjects:
+  version: 0.09-5
+  issues:
+    - timestamps_in_jar
 mod-auth-mysql:
   version: 4.3.9-13.1
   issues:
@@ -12779,6 +13251,10 @@ mpich:
   version: 3.1-5
   issues:
     - fonts_in_pdf_files
+mpj:
+  version: 0.42+dfsg-1
+  issues:
+    - timestamps_in_jar
 mpmath:
   version: 0.19-2
   issues:
@@ -13124,10 +13600,18 @@ nedit:
   version: 1:5.6~cvs20081118-9
   issues:
     - timestamps_from_cpp_macros
+neobio:
+  version: 0.0.20030929-1.1
+  issues:
+    - timestamps_in_jar
 neon27:
   version: 0.30.1-1
   issues:
     - different_due_to_umask
+net-luminis-build-plugin:
+  version: 0.2.0-1
+  issues:
+    - timestamps_in_jar
 netcdf:
   version: 1:4.1.3-7.2
   issues:
@@ -14005,6 +14489,10 @@ opencolorio:
   version: 1.0.9~dfsg0-3
   issues:
     - timestamps_in_pdf_generated_by_latex
+opencv:
+  version: 2.4.9.1+dfsg-1
+  issues:
+    - timestamps_in_jar
 opendkim:
   version: 2.9.2-2
   bugs:
@@ -14018,6 +14506,10 @@ openhackware:
   comments: |
     Embed build time:
     https://codesearch.debian.net/results/package%3Aopenhackware%20BUILD_%28DATE|TIME%29
+openid4java:
+  version: 0.9.6.662-2
+  issues:
+    - timestamps_in_jar
 openigtlink:
   version: 1.10.5-1
   issues:
@@ -14046,12 +14538,20 @@ openjdk-8:
   version: 8u40~b09-1
   issues:
     - timestamps_from_cpp_macros
+openjfx:
+  version: 8u40-b25-1
+  issues:
+    - timestamps_in_jar
 openjpa:
   version: 2.2.2-1
   issues:
     - timestamps_in_maven_pom_files
 openjpeg:
   version: 1:1.5.2-3
+  issues:
+    - timestamps_in_jar
+openjpeg2:
+  version: 2.1.0-2
   issues:
     - timestamps_in_jar
 openlayers:
@@ -14165,6 +14665,10 @@ openstack-trove:
   version: 2014.1.3-8
   bugs:
     - 775637
+openstereogram:
+  version: 0.1+20080921-2
+  issues:
+    - timestamps_in_jar
 opentk:
   version: 1.0.20101006+dfsg1-1
   issues:
@@ -14195,6 +14699,10 @@ openvswitch:
   version: 2.3.0+git20140819-2
   issues:
     - timestamps_from_cpp_macros
+opsin:
+  version: 1.5.0-1
+  issues:
+    - timestamps_in_jar
 opt:
   version: 3.19-1.2
   issues:
@@ -14241,6 +14749,14 @@ osgi-compendium:
   version: 4.3.0-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+osgi-core:
+  version: 4.3.1-1
+  issues:
+    - timestamps_in_jar
+osgi-foundation-ee:
+  version: 4.2.0-1
+  issues:
+    - timestamps_in_jar
 oslo-config:
   version: 1:1.3.0-2
   issues:
@@ -14486,6 +15002,10 @@ pcal:
   version: 4.11.0-3
   issues:
     - timestamps_in_documentation_generated_by_groff
+pcalendar:
+  version: 3.4.0-1
+  issues:
+    - timestamps_in_jar
 pcb:
   version: 20140316-3
   issues:
@@ -14772,8 +15292,16 @@ phylip:
   version: 1:3.696+dfsg-1
   issues:
     - timestamps_in_jar
+phyutility:
+  version: 2.7.3-1
+  issues:
+    - timestamps_in_jar
 picard-tools:
   version: 1.113-1
+  issues:
+    - timestamps_in_jar
+piccolo:
+  version: 1.2-1
   issues:
     - timestamps_in_jar
 pidgin-librvp:
@@ -14954,6 +15482,10 @@ png++:
     - timestamps_in_documentation_generated_by_doxygen
   bugs:
     - 777632
+png-sixlegs:
+  version: 2.0-1
+  issues:
+    - timestamps_in_jar
 pngcheck:
   version: 2.3.0-7
   issues:
@@ -15013,6 +15545,10 @@ polygraph:
   version: 4.3.2-1.2
   issues:
     - timestamps_from_cpp_macros
+pomegranate-clojure:
+  version: 0.2.0-1
+  issues:
+    - timestamps_in_jar
 poppler:
   version: 0.26.5-2
   issues:
@@ -15121,6 +15657,10 @@ procenv:
   version: 0.36-1
   issues:
     - timestamps_from_cpp_macros
+processing-core:
+  version: 1.2.1-1
+  issues:
+    - timestamps_in_jar
 procmail:
   version: 3.22-23
   issues:
@@ -15517,6 +16057,10 @@ python-dugong:
   version: 3.5+dfsg-1
   issues:
     - randomness_in_objects_inv
+python-enable:
+  version: 4.3.0-2
+  issues:
+    - timestamps_in_jar
 python-ethtool:
   version: 0.11-2
   issues:
@@ -16775,6 +17319,10 @@ racket:
   version: 6.1-4
   issues:
     - debbindiff_runs_forever
+radare2-bindings:
+  version: 0.9.6-4
+  issues:
+    - timestamps_in_jar
 radeontool:
   version: 1.6.3-1
   issues:
@@ -16881,16 +17429,28 @@ refpolicy:
     - different_due_to_umask
   bugs:
     - 778232
+regex-clojure:
+  version: 0.0~git20130321.1.433265f-2
+  issues:
+    - timestamps_in_jar
 regina-rexx:
   version: 3.6-2
   issues:
     - timestamps_from_cpp_macros
     - different_due_to_umask
+relaxngcc:
+  version: 1.12-1
+  issues:
+    - timestamps_in_jar
 remote-tty:
   version: 4.0-13
   comments: |
     Embed build time, hostname, and username:
     http://sources.debian.net/src/remote-tty/4.0-13/Makefile/?hl=115:124#L115
+remuco:
+  version: 0.9.6-2
+  issues:
+    - timestamps_in_jar
 rep-gtk:
   version: 1:0.90.0-2.2
   issues:
@@ -16952,6 +17512,10 @@ rheolef:
   version: 6.5-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+rhino:
+  version: 1.7R4-3
+  issues:
+    - timestamps_in_jar
 riemann-c-client:
   version: 1.2.0-2
   issues:
@@ -16997,6 +17561,10 @@ roarplaylistd:
   comments: |
     Embed build time:
     http://codesearch.debian.net/search?q=package%3Aroarplaylistd+BUILD_STAMP
+robert-hooke:
+  version: 1.3.0-2
+  issues:
+    - timestamps_in_jar
 robocode:
   version: 1.6.2+dfsg2-1
   issues:
@@ -17011,6 +17579,10 @@ rockdodger:
     - not_using_dh_builddeb
   bugs:
     - 778205
+rome:
+  version: 1.0-6
+  issues:
+    - timestamps_in_jar
 root-system:
   version: 5.34.19+dfsg-1.1
   issues:
@@ -17067,6 +17639,10 @@ rsync:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+rsyntaxtextarea:
+  version: 2.5.0-1
+  issues:
+    - timestamps_in_jar
 rt-extension-calendar:
   version: 0.17-1
   comments: |
@@ -17580,6 +18156,10 @@ rurple-ng:
   version: 0.5+16-1.2
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
+rxtx:
+  version: 2.2pre2-13
+  issues:
+    - timestamps_in_jar
 s3ql:
   version: 2.13+dfsg-1
   comments: |
@@ -17594,6 +18174,10 @@ sa-exim:
   comments: |
     Embed build time:
     https://sources.debian.net/src/sa-exim/4.2.1-14/Makefile/?hl=66#L66
+sablecc:
+  version: 3.2-1
+  issues:
+    - timestamps_in_jar
 sacjava:
   version: 1.3-6
   issues:
@@ -17663,6 +18247,10 @@ sawfish:
     - timestamps_in_gzip_headers
     - timestamps_in_static_libraries
     - different_due_to_umask
+sbbi-upnplib:
+  version: 1.0.4+triplea-1
+  issues:
+    - timestamps_in_jar
 sbuild:
   version: 0.65.0-1
   bugs:
@@ -17764,6 +18352,10 @@ scotch:
   issues:
     - timestamps_in_static_libraries
     - timestamps_in_gzip_headers
+scout-clojure:
+  version: 0.1.1-2
+  issues:
+    - timestamps_in_jar
 scscp-imcce:
   version: 1.0.1+ds-1
   issues:
@@ -17815,6 +18407,10 @@ sdlpango:
   version: 0.1.2-6
   issues:
     - different_due_to_umask
+sdo-api-java:
+  version: 1.1.1-1
+  issues:
+    - timestamps_in_jar
 seabios:
   version: 1.7.5-1
   bugs:
@@ -17858,6 +18454,10 @@ serverstats:
     - different_due_to_umask
   bugs:
     - 783688
+service-wrapper-java:
+  version: 3.5.25-2
+  issues:
+    - timestamps_in_jar
 sffview:
   version: 0.5.0-1
   issues:
@@ -17940,6 +18540,10 @@ shotwell:
   version: 0.22.0-1
   issues:
     - different_due_to_umask
+shrinksafe:
+  version: 1.7.2-1.1
+  issues:
+    - timestamps_in_jar
 shunit2:
   version: 2.1.6-1
   issues:
@@ -17955,6 +18559,10 @@ sigx:
   version: 2.0.2-3
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+sikuli:
+  version: 1.0~x~rc3.tesseract3-dfsg1-8
+  issues:
+    - timestamps_in_jar
 silly:
   version: 0.1.0-3.1
   issues:
@@ -18086,6 +18694,10 @@ slang2:
   version: 2.3.0-2
   issues:
     - timestamps_generated_by_docbook_to_man
+slashtime:
+  version: 0.5.13-1
+  issues:
+    - timestamps_in_jar
 slepc:
   version: 3.4.2.dfsg-2
   comments: |
@@ -18109,6 +18721,10 @@ slimrat:
   version: 1.0-1
   bugs:
     - 724173
+slingshot-clojure:
+  version: 0.10.3-3
+  issues:
+    - timestamps_in_jar
 slof:
   version: 20140630+dfsg-1
   comments: |
@@ -18481,6 +19097,14 @@ statsmodels:
   version: 0.6.0~rc2-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
+statsvn:
+  version: 0.7.0.dfsg-7
+  issues:
+    - timestamps_in_jar
+stax-utils:
+  version: 20110309+svn238-1
+  issues:
+    - timestamps_in_jar
 stealth:
   version: 3.00.00-2
   comments: |
@@ -18581,6 +19205,10 @@ surefire:
   version: 2.10-5
   issues:
     - timestamps_in_maven_pom_files
+svgsalamander:
+  version: 0~svn95-1
+  issues:
+    - timestamps_in_jar
 svnclientadapter:
   version: 1.10.3-2
   issues:
@@ -18644,6 +19272,22 @@ swt-gtk:
   version: 3.8.2-3
   issues:
     - build_id_variation_requiring_further_investigation
+swt-paperclips:
+  version: 1.0.4-1
+  issues:
+    - timestamps_in_jar
+swt4-gtk:
+  version: 4.3.2-1
+  issues:
+    - timestamps_in_jar
+swtcalendar:
+  version: 0.5-1
+  issues:
+    - timestamps_in_jar
+swtchart:
+  version: 0.8.0-1
+  issues:
+    - timestamps_in_jar
 syfi:
   version: 1.0.0.dfsg-1.2
   issues:
@@ -18726,6 +19370,10 @@ taggrepper:
     - different_due_to_umask
   bugs:
     - 777725
+tagsoup:
+  version: 1.2.1+-1
+  issues:
+    - timestamps_in_jar
 tagua:
   version: 1.0~alpha2-12
   issues:
@@ -19025,6 +19673,10 @@ tinymux:
   version: 2.6.5.28-1
   issues:
     - timestamps_from_cpp_macros
+tinyos:
+  version: 2.1.2+dfsg-1
+  issues:
+    - timestamps_in_jar
 tinyproxy:
   version: 1.8.3-3
   issues:
@@ -19102,6 +19754,10 @@ tomcat8:
   version: 8.0.14-1
   issues:
     - timestamps_in_documentation_generated_by_javadoc
+    - timestamps_in_jar
+tools-cli-clojure:
+  version: 0.2.4-2
+  issues:
     - timestamps_in_jar
 topal:
   version: 75-2
@@ -19193,6 +19849,14 @@ trilead-putty-extension:
   version: 1.2-1
   issues:
     - user_in_java_jar_manifest
+trilead-ssh2:
+  version: 6401+svn158-1
+  issues:
+    - timestamps_in_jar
+trimmomatic:
+  version: 0.32+dfsg-4
+  issues:
+    - timestamps_in_jar
 triplane:
   version: 1.0.8-1
   bugs:
@@ -19683,6 +20347,10 @@ veromix:
   version: 0.18.3-1.1
   issues:
     - lc_messages_randomness
+versioneer-clojure:
+  version: 0.1.1-2
+  issues:
+    - timestamps_in_jar
 veusz:
   version: 1.21.1-1
   issues:
@@ -19739,6 +20407,10 @@ virtuoso-opensource:
   version: 6.1.6+dfsg2-2
   issues:
     - timestamps_from_cpp_macros
+visolate:
+  version: 2.1.6~svn8+dfsg1-1
+  issues:
+    - timestamps_in_jar
 visp:
   version: 2.9.0-3
   issues:
@@ -19933,11 +20605,19 @@ weechat:
   issues:
     - lc_messages_randomness
     - timestamps_generated_by_docbook_to_man
+weirdx:
+  version: 1.0.32-6
+  issues:
+    - timestamps_in_jar
 welcome2l:
   version: 3.04-25
   comments: |
     Embed build time, username, hostname:
     https://sources.debian.net/src/welcome2l/3.04-25/Makefile/?hl=49:52#L49
+werken.xpath:
+  version: 0.9.4-15
+  issues:
+    - timestamps_in_jar
 west-chamber:
   version: 20100405+svn20111107.r124-5
   issues:
@@ -20102,10 +20782,18 @@ writer2latex:
   issues:
     - user_in_java_jar_manifest
     - timestamps_in_jar
+wsdl2c:
+  version: 0.1-3
+  issues:
+    - timestamps_in_jar
 wsdl4j:
   version: 1.6.3-1
   issues:
     - timestamp_in_java_bnd_manifest
+wsil4j:
+  version: 1.0.0-1
+  issues:
+    - timestamps_in_jar
 wsjt:
   version: 9.7.r3639+dfsg-1
   issues:
@@ -20372,6 +21060,10 @@ xfonts-terminus:
     - timestamps_in_gzip_headers
   bugs:
     - 778229
+xhtmlrenderer:
+  version: 0.0~R8-1
+  issues:
+    - timestamps_in_jar
 xindy:
   version: 2.4-1.3
   issues:
@@ -20597,6 +21289,10 @@ xyscan:
     https://sources.debian.net/src/xyscan/3.33-1/xyscanAbout.cpp/#L31
   issues:
     - timestamps_from_cpp_macros
+xz-java:
+  version: 1.5-1
+  issues:
+    - timestamps_in_jar
 xz-utils:
   version: 5.1.1alpha+20120614-2
   comments: |
@@ -20725,6 +21421,10 @@ zeitgeist-sharp:
   version: 0.8.0.0-5
   issues:
     - timestamps_in_pe_binaries
+zemberek:
+  version: 2.1.1-8.1
+  issues:
+    - timestamps_in_jar
 zemberek-server:
   version: 0.7.1-12.1
   issues:
