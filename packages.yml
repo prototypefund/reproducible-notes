@@ -3118,6 +3118,10 @@ erlang-goldrush:
   version: 0.1.6-2
   issues:
     - timestamps_in_beam_files
+erlang-hyperloglog:
+  version: 0.2013.10.12-2
+  issues:
+    - timestamps_in_beam_files
 erlang-ibrowse:
   version: 4.1.1-1
   issues:
@@ -8473,6 +8477,10 @@ libinline-java-perl:
     - timezones_manpages_podman
   bugs:
     - 778983
+libinnodb:
+  version: 1.0.6.6750-1
+  issues:
+    - different_due_to_umask
 libint:
   version: 1.1.5-1
   issues:
@@ -8647,6 +8655,11 @@ libjson-rpc-cpp:
   version: 0.4.2-4
   issues:
     - ftbfs_in_jenkins_setup
+libjsoncpp:
+  version: 0.6.0~rc2-3.1
+  issues:
+    - different_due_to_umask
+    - timestamps_in_static_libraries
 libjspeex-java:
   version: 0.9.7-3
   issues:
