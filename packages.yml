@@ -1398,6 +1398,14 @@ camitk:
   issues:
     - timestamps_in_documentation_generated_by_doxygen
     - different_due_to_umask
+caml2html:
+  version: 1.4.3-1
+  issues:
+    - randomness_in_ocaml_a_files
+camlmix:
+  version: 1.3.1-3
+  issues:
+    - randomness_in_ocaml_a_files
 camlp5:
   version: 6.11+dfsg-3
   issues:
@@ -2023,6 +2031,10 @@ configshell:
   version: 1.5+git0.0827baa6-2
   issues:
     - use_epydoc
+confluence:
+  version: 0.10.6-7
+  issues:
+    - randomness_in_ocaml_a_files
 conkeror:
   version: 1.0~~pre-1+git141025-1
   comments: |
@@ -2117,6 +2129,10 @@ cppcheck:
   version: 1.68-1
   issues:
     - timestamps_generated_by_docbook_to_man
+cppo:
+  version: 0.9.3-3
+  issues:
+    - randomness_in_ocaml_a_files
 cppreference-doc:
   version: 20140208+dfsg1-1
   issues:
@@ -2237,6 +2253,10 @@ ctpp2:
   issues:
     - timestamps_in_static_libraries
     - timestamps_in_documentation_generated_by_doxygen
+cudf:
+  version: 0.7-2
+  issues:
+    - randomness_in_ocaml_a_files
 cultivation:
   version: 9+dfsg1-2
   issues:
@@ -3931,6 +3951,10 @@ findbugs-bcel:
   issues:
     - timestamps_in_maven_pom_files
     - timestamps_in_jar
+findlib:
+  version: 1.4.1-1
+  issues:
+    - randomness_in_ocaml_a_files
 firebird3.0:
   version: 3.0.0~svn+53030.ds3-1
   issues:
@@ -7548,6 +7572,10 @@ jnr-x86asm:
   version: 0.1-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+jocaml:
+  version: 4.01.0-3
+  issues:
+    - randomness_in_ocaml_a_files
 jodconverter:
   version: 2.2.2-7
   comments: |
@@ -7612,6 +7640,10 @@ json-simple:
   version: 1.1.1-3
   issues:
     - timestamps_in_maven_pom_files
+json-wheel:
+  version: 1.0.6-2
+  issues:
+    - randomness_in_ocaml_a_files
 jss:
   version: 4.3.1-6
   issues:
@@ -11554,6 +11586,10 @@ lio-utils:
   version: 3.1+git2.fd0b34fd-2
   bugs:
     - 750255
+liquidsoap:
+  version: 1.1.1-7
+  issues:
+    - randomness_in_ocaml_a_files
 litecoin:
   version: 0.8.7.4-1
   comments: |
@@ -12243,6 +12279,10 @@ meanwhile:
   issues:
     - timestamps_in_documentation_generated_by_doxygen
     - timestamps_in_static_libraries
+mediawiki-math:
+  version: 2:1.0+git20120528-8
+  issues:
+    - randomness_in_ocaml_a_files
 mednafen:
   version: 0.9.36.4-1
   issues:
@@ -12257,6 +12297,10 @@ memtest86+:
     Timestamps in /usr/lib/memtest86+/memtest86+.iso
   bugs:
     - 783515
+menhir:
+  version: 20140422.dfsg-1
+  issues:
+    - randomness_in_ocaml_a_files
 meshlab:
   version: 1.3.2+dfsg1-2
   issues:
@@ -12621,6 +12665,10 @@ monotone:
   version: 1.1-4
   issues:
     - timestamps_in_pdf_generated_by_latex
+monotone-viz:
+  version: 1.0.2-3
+  issues:
+    - randomness_in_ocaml_a_files
 monster-masher:
   version: 1.8.1-6
   issues:
@@ -12768,6 +12816,10 @@ mstflint:
   version: 3.7.0+1.18.gcdb9f80-3
   issues:
     - timestamps_from_cpp_macros
+mtasc:
+  version: 1.14-3
+  issues:
+    - randomness_in_ocaml_a_files
 mtink:
   version: 1.0.16-8
   issues:
@@ -13551,6 +13603,10 @@ ocamlbricks:
   version: 0.90+bzr400-1
   issues:
     - different_due_to_umask
+ocamldsort:
+  version: 0.16.0-2
+  issues:
+    - randomness_in_ocaml_a_files
 ocamlduce:
   version: 3.12.1.0-1
   bugs:
@@ -14135,6 +14191,10 @@ opt:
   version: 3.19-1.2
   issues:
     - different_due_to_umask
+optcomp:
+  version: 1.6-1
+  issues:
+    - randomness_in_ocaml_a_files
 opticalraytracer:
   version: 3.2-1.1
   issues:
@@ -14155,6 +14215,10 @@ original-awk:
     - not_using_dh_builddeb
   bugs:
     - 778203
+orpie:
+  version: 1.5.1-10
+  issues:
+    - randomness_in_ocaml_a_files
 orthanc:
   version: 0.8.4+dfsg-2
   issues:
@@ -18173,6 +18237,10 @@ spamassassin-heatu:
     - timezones_manpages_podman
   bugs:
     - 782220
+spamoracle:
+  version: 1.4-14
+  issues:
+    - randomness_in_ocaml_a_files
 spamprobe:
   version: 1.4d-13
   issues:
@@ -19381,6 +19449,14 @@ unifont:
   version: 7.0.06-1
   issues:
     - fontforge_reset_modification_time
+unison:
+  version: 2.40.102-2
+  issues:
+    - randomness_in_ocaml_a_files
+unison2.32.52:
+  version: 2.32.52-7
+  issues:
+    - randomness_in_ocaml_a_files
 units-filter:
   version: 3.7-1
   issues:
@@ -20619,6 +20695,10 @@ zerofree:
   version: 1.0.3-1
   issues:
     - timestamps_generated_by_docbook_to_man
+zeroinstall-injector:
+  version: 2.8-1
+  issues:
+    - randomness_in_ocaml_a_files
 zip:
   version: 3.0-8
   issues:
