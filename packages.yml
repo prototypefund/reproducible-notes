@@ -5237,32 +5237,334 @@ hardlink:
   version: 0.3.0
   issues:
     - timestamps_from_cpp_macros
+haskell-abstract-deque:
+  version: 0.3-3
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-acid-state:
+  version: 0.12.2-4
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-alut:
+  version: 2.3.0.1-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-ansi-terminal:
+  version: 0.6.2.1-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-async:
+  version: 2.0.2-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-augeas:
+  version: 0.6.1-6
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-authenticate:
+  version: 1.3.2.9-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-authenticate-oauth:
+  version: 1.4.0.8-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-auto-update:
+  version: 0.1.2.1-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-binary-conduit:
+  version: 1.2.3-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-binary-shared:
+  version: 0.8.3-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-blaze-builder:
+  version: 0.3.3.2-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-blaze-textual:
+  version: 0.2.0.9-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-bool-extras:
+  version: 0.4.0-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-bytestring-lexing:
+  version: 0.4.3.2-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-bytestring-mmap:
+  version: 0.2.2-4
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-cabal:
+  version: 1.20.0.2-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-case-insensitive:
+  version: 1.1.0.2-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-categories:
+  version: 1.0.6-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-cautious-file:
+  version: 1.0.2-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-cgi:
+  version: 3001.1.8.5-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-chell-quickcheck2:
+  version: 0.2.4-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-chunked-data:
+  version: 0.1.0.1-4
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-cipher-aes:
+  version: 0.2.8-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-cipher-blowfish:
+  version: 0.0.3-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-cipher-des:
+  version: 0.0.6-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-clientsession:
+  version: 0.9.0.3-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-clocked:
+  version: 0.4.1.2-3
+  issues:
+    - timestamps_in_ghc_interfaces
 haskell-comonad:
   version: 4.2-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-conduit-extra:
+  version: 1.1.3-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-config-value:
+  version: 0.4-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-contravariant:
+  version: 0.6.1.1-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-cpu:
+  version: 0.1.2-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-crypto-conduit:
+  version: 0.5.4-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-crypto-numbers:
+  version: 0.2.3-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-cryptohash-cryptoapi:
+  version: 0.1.3-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-data-accessor-template:
+  version: 0.2.1.11-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-data-lens:
+  version: 2.10.5-2
   issues:
     - timestamps_in_ghc_interfaces
 haskell-debian:
   version: 3.83.3.1-1
   issues:
     - build_id_variation_requiring_further_investigation
+    - timestamps_in_ghc_interfaces
+haskell-dependent-map:
+  version: 0.1.1.2-1
+  issues:
+    - timestamps_in_ghc_interfaces
 haskell-devscripts:
   version: 0.9.2
   issues:
     - timezones_manpages_podman
+haskell-diagrams-svg:
+  version: 1.1-1
+  issues:
+    - timestamps_in_ghc_interfaces
 haskell-distributive:
   version: 0.4.4-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-djinn-ghc:
+  version: 0.0.2.2-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-djinn-lib:
+  version: 0.0.1.2-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-dns:
+  version: 1.3.0-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-doctest:
+  version: 0.9.10-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-dyre:
+  version: 0.8.11-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-edison-core:
+  version: 1.2.2.1-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-edit-distance:
+  version: 0.2.1.2-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-either:
+  version: 4.3-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-entropy:
+  version: 0.2.1-5
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-enumerator:
+  version: 0.4.19-3
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-executable-path:
+  version: 0.0.3-3
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-fast-logger:
+  version: 2.1.5-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-fb:
+  version: 1.0.1-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-filestore:
+  version: 0.6.0.3-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-fingertree:
+  version: 0.1.0.2-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-gconf:
+  version: 0.12.1.1-3
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-geniplate:
+  version: 0.6.0.4-1
   issues:
     - timestamps_in_ghc_interfaces
 haskell-ghc-events:
   version: 0.4.2.0-3
   issues:
     - build_id_variation_requiring_further_investigation
+    - timestamps_in_ghc_interfaces
+haskell-ghc-syb-utils:
+  version: 0.2.1.2-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-gio:
+  version: 0.12.5.3-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-gitlib:
+  version: 3.1.0-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-glfw:
+  version: 0.5.2.2-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-glib:
+  version: 0.12.5.3-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-glut:
+  version: 2.7.0.0-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-gtk3:
+  version: 0.12.5.6-3
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-hakyll:
+  version: 4.5.4.0-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-hamlet:
+  version: 1.1.9.2-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-happstack-server:
+  version: 7.3.7-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-hashable:
+  version: 1.2.3.2-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-hashed-storage:
+  version: 0.5.11-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-hashmap:
+  version: 1.3.0.1-5
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-hashtables:
+  version: 1.1.2.1-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-haskeline:
+  version: 0.7.1.3-3
+  issues:
+    - timestamps_in_ghc_interfaces
 haskell-haskore:
   version: 0.2.0.4-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+haskell-heist:
+  version: 0.13.1.2-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-hgl:
+  version: 3.2.0.5-3
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-hinotify:
+  version: 0.3.7-2
+  issues:
+    - timestamps_in_ghc_interfaces
 haskell-hint:
   version: 0.3.3.6-3
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-hit:
+  version: 0.6.1-1
   issues:
     - timestamps_in_ghc_interfaces
 haskell-hjsmin:
@@ -5273,10 +5575,87 @@ haskell-hledger:
   version: 0.23.3-1
   issues:
     - build_id_variation_requiring_further_investigation
+    - timestamps_in_ghc_interfaces
+haskell-hledger-web:
+  version: 0.23.3-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-hmatrix:
+  version: 0.16.0.3-2
+  issues:
+    - timestamps_in_ghc_interfaces
 haskell-hoogle:
   version: 4.2.33-4
   issues:
     - build_id_variation_requiring_further_investigation
+haskell-hourglass:
+  version: 0.2.2-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-hs-bibutils:
+  version: 4.12-9
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-hsh:
+  version: 2.1.0-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-hsmagick:
+  version: 0.5-6
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-hspec:
+  version: 2.1.5-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-hsql:
+  version: 1.8.2-4
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-hsx2hs:
+  version: 0.13.2-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-html-conduit:
+  version: 1.1.0.5-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-hunit:
+  version: 1.2.5.2-3
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-iconv:
+  version: 0.4.1.2-3
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-intervals:
+  version: 0.7.1-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-iteratee:
+  version: 0.8.9.6-3
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-json:
+  version: 0.5-6
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-lambdabot-utils:
+  version: 4.2.2-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-language-c:
+  version: 0.4.7-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-language-javascript:
+  version: 0.5.13.3-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-language-python:
+  version: 0.4.1-2
+  issues:
+    - timestamps_in_ghc_interfaces
 haskell-leksah:
   version: 0.12.1.3-6
   issues:
@@ -5289,53 +5668,485 @@ haskell-lens:
   version: 4.1.2.1-3
   issues:
     - timestamps_in_ghc_interfaces
+haskell-libtagc:
+  version: 0.12.0-5
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-libxml-sax:
+  version: 0.7.5-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-lrucache:
+  version: 1.2.0.0-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-ltk:
+  version: 0.14.3.0-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-memoize:
+  version: 0.7-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-memotrie:
+  version: 0.6.2-3
+  issues:
+    - timestamps_in_ghc_interfaces
 haskell-mode:
   version: 13.10-3
   issues:
     - timestamps_in_emacs_autoloads
+haskell-monad-control:
+  version: 0.3.2.2-3
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-monad-logger:
+  version: 0.3.6.1-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-monad-loops:
+  version: 0.4.2.1-3
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-monad-par:
+  version: 0.1.0.3-4
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-mono-traversable:
+  version: 0.9.1-2
+  issues:
+    - timestamps_in_ghc_interfaces
 haskell-mueval:
   version: 0.9.1.1-1
   issues:
     - build_id_variation_requiring_further_investigation
+haskell-mwc-random:
+  version: 0.13.2.2-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-nettle:
+  version: 0.1.0-3
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-network-conduit-tls:
+  version: 1.1.0.2-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-network-multicast:
+  version: 0.0.10-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-network-protocol-xmpp:
+  version: 0.4.6-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-notmuch-web:
+  version: 0.2.0-7
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-numeric-extras:
+  version: 0.0.3-3
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-openal:
+  version: 1.7.0.0-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-openglraw:
+  version: 2.4.1.0-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-openpgp:
+  version: 0.6.1-3
+  issues:
+    - timestamps_in_ghc_interfaces
 haskell-pandoc-citeproc:
   version: 0.4.0.1-1
   issues:
     - build_id_variation_requiring_further_investigation
+haskell-pandoc-types:
+  version: 1.12.4.2-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-pango:
+  version: 0.13.1.0-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-parallel:
+  version: 3.2.0.6-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-parsec:
+  version: 3.1.9-2
+  issues:
+    - timestamps_in_ghc_interfaces
 haskell-parsers:
   version: 0.10.3-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-patience:
+  version: 0.1.1-5
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-persistent:
+  version: 1.3.1.1-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-persistent-sqlite:
+  version: 1.3.0.5-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-persistent-template:
+  version: 1.3.1.4-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-pointed:
+  version: 4.0-3
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-prelude-extras:
+  version: 0.4-3
   issues:
     - timestamps_in_ghc_interfaces
 haskell-pretty-show:
   version: 1.6.6-1
   issues:
     - build_id_variation_requiring_further_investigation
+haskell-primitive:
+  version: 0.5.4.0-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-profunctors:
+  version: 4.4.1-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-puremd5:
+  version: 2.1.2.1-5
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-pwstore-fast:
+  version: 2.4.1-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-quickcheck:
+  version: 2.7.6-6
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-reflection:
+  version: 1.5.1.2-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-regex-posix:
+  version: 0.95.2-5
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-regex-tdfa:
+  version: 1.2.0-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-resourcet:
+  version: 1.1.4.1-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-rsa:
+  version: 2.1.0.1-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-safesemaphore:
+  version: 0.10.1-3
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-scientific:
+  version: 0.3.3.8-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-sdl:
+  version: 0.6.5-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-sdl-gfx:
+  version: 0.6.0-7
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-semigroups:
+  version: 0.15.3-3
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-sendfile:
+  version: 0.7.9-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-sha:
+  version: 1.6.4.2-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-shake:
+  version: 0.13.2+dfsg-5
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-shakespeare-i18n:
+  version: 1.0.0.5-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-shakespeare-js:
+  version: 1.2.0.4-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-skein:
+  version: 1.0.9.2-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-smallcheck:
+  version: 1.1.1-3
+  issues:
+    - timestamps_in_ghc_interfaces
 haskell-snap:
   version: 0.13.2.5-1
   issues:
     - build_id_variation_requiring_further_investigation
+    - timestamps_in_ghc_interfaces
 haskell-snap-loader-dynamic:
   version: 0.10.0.2-1
   issues:
     - build_id_variation_requiring_further_investigation
     - timestamps_in_ghc_interfaces
+haskell-snap-server:
+  version: 0.9.4.5-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-src-meta:
+  version: 0.6.0.4-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-statistics:
+  version: 0.10.2.0-3
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-stm:
+  version: 2.4.4-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-stm-chans:
+  version: 3.0.0.3-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-stmonadtrans:
+  version: 0.3.2-3
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-strict-concurrency:
+  version: 0.2.4.1-4
+  issues:
+    - timestamps_in_ghc_interfaces
 haskell-swish:
   version: 0.9.0.15-1
   issues:
     - build_id_variation_requiring_further_investigation
+    - timestamps_in_ghc_interfaces
+haskell-syb:
+  version: 0.4.4-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-system-fileio:
+  version: 0.3.16.2-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-system-filepath:
+  version: 0.4.13.2-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-tagged:
+  version: 0.7.3-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-tar:
+  version: 0.4.1.0-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-temporary:
+  version: 1.2.0.3-3
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-test-framework-th-prime:
+  version: 0.0.6-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-text-icu:
+  version: 0.7.0.1-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-tf-random:
+  version: 0.5-3
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-th-extras:
+  version: 0.0.0.2-5
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-th-lift:
+  version: 0.7.2-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-th-orphans:
+  version: 0.7.0.1-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-threads:
+  version: 0.5.1.3-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-tls:
+  version: 1.2.9-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-transformers-base:
+  version: 0.4.4-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-transformers-compat:
+  version: 0.4.0.4-3
+  issues:
+    - timestamps_in_ghc_interfaces
 haskell-trifecta:
   version: 1.4.3-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-type-level:
+  version: 0.2.4-7
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-unbounded-delays:
+  version: 0.1.0.9-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-uniplate:
+  version: 1.6.12-2
   issues:
     - timestamps_in_ghc_interfaces
 haskell-unlambda:
   version: 0.1.3-4
   issues:
     - build_id_variation_requiring_further_investigation
+    - timestamps_in_ghc_interfaces
+haskell-unordered-containers:
+  version: 0.2.5.1-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-utf8-light:
+  version: 0.4.2-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-uuagc-cabal:
+  version: 1.0.4.0-5
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-vault:
+  version: 0.3.0.4-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-vector-space:
+  version: 0.8.6-5
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-void:
+  version: 0.6.1-3
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-vte:
+  version: 0.12.1-4
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-vty:
+  version: 5.2.3-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-wai-app-file-cgi:
+  version: 3.0.1-1
+  issues:
+    - timestamps_in_ghc_interfaces
 haskell-wai-app-static:
   version: 3.0.0.1-1
   issues:
     - build_id_variation_requiring_further_investigation
+    - timestamps_in_ghc_interfaces
+haskell-wai-handler-fastcgi:
+  version: 3.0.0-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-wai-handler-launch:
+  version: 3.0.0-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-wai-logger:
+  version: 2.1.1-1
+  issues:
+    - timestamps_in_ghc_interfaces
 haskell-warp:
   version: 3.0.0.5-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-web-routes-hsp:
+  version: 0.24.5-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-web-routes-th:
+  version: 0.22.1-3
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-webkit:
+  version: 0.13.1.0-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-weighted-regexp:
+  version: 0.3.1.2-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-wl-pprint-terminfo:
+  version: 3.7.1.3-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-word8:
+  version: 0.1.2-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-x509-system:
+  version: 1.5.0-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-xdg-basedir:
+  version: 0.2.2-4
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-xhtml:
+  version: 3000.2.1-6
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-xml-conduit:
+  version: 1.2.3.3-2
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-yesod:
+  version: 1.2.6.1-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-yesod-auth:
+  version: 1.3.4-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-yesod-auth-hashdb:
+  version: 1.3.2-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-yesod-core:
+  version: 1.4.3.1-3
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-yesod-test:
+  version: 1.2.3.2-1
+  issues:
+    - timestamps_in_ghc_interfaces
+haskell-zeromq4-haskell:
+  version: 0.6.3-2
   issues:
     - timestamps_in_ghc_interfaces
 haskell98-report:
