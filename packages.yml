@@ -12545,6 +12545,10 @@ mauve:
     - different_due_to_umask
   bugs:
     - 778274
+maven:
+  version: 3.0.5-3
+  issues:
+    - random_order_in_plexus_comonents_xml
 maven-antrun-extended-plugin:
   version: 1.42-1
   issues:
@@ -12558,6 +12562,7 @@ maven-assembly-plugin:
   issues:
     - random_order_in_maven_plugin_xml
     - date_in_maven_plugin_xml
+    - random_order_in_plexus_comonents_xml
 maven-bundle-plugin:
   version: 2.3.7-2
   issues:
@@ -12635,6 +12640,10 @@ maven-javadoc-plugin:
   version: 2.9.1-2
   issues:
     - date_in_maven_plugin_xml
+maven-plugin-testing:
+  version: 1.3-2
+  issues:
+    - random_order_in_plexus_comonents_xml
 maven-plugin-tools:
   version: 3.2-2
   issues:
@@ -12666,6 +12675,10 @@ maven-shade-plugin:
   version: 1.7.1-1
   issues:
     - date_in_maven_plugin_xml
+maven-shared-jar:
+  version: 1.1-1
+  issues:
+    - random_order_in_plexus_comonents_xml
 maven-site-plugin:
   version: 2.1-3
   issues:
@@ -12689,6 +12702,7 @@ maven2-core:
   version: 2.2.1-16
   issues:
     - timestamps_in_maven_pom_files
+    - random_order_in_plexus_comonents_xml
 mayavi2:
   version: 4.3.1-3.1
   comments: |
@@ -15247,6 +15261,14 @@ plexus-containers1.5:
   version: 1.5.5-6
   issues:
     - timestamps_in_maven_pom_files
+plexus-digest:
+  version: 1.1-3
+  issues:
+    - random_order_in_plexus_comonents_xml
+plexus-i18n:
+  version: 1.0-beta-10-3
+  issues:
+    - random_order_in_plexus_comonents_xml
 plexus-io:
   version: 1.0~alpha5-2
   issues:
@@ -15354,6 +15376,7 @@ polyglot-maven:
   version: 0.8~tobrien+git20120905-3
   issues:
     - timestamps_in_groovy_class_files
+    - random_order_in_plexus_comonents_xml
 polygraph:
   version: 4.3.2-1.2
   issues:
@@ -20135,6 +20158,14 @@ waffle:
   version: 1.4.0-1
   issues:
     - timestamps_generated_by_docbook_to_man
+wagon:
+  version: 1.0.0-5
+  issues:
+    - random_order_in_plexus_comonents_xml
+wagon2:
+  version: 2.7-1
+  issues:
+    - random_order_in_plexus_comonents_xml
 waitress:
   version: 0.8.9-2
   issues:
