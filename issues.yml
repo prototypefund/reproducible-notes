@@ -7,20 +7,24 @@ timestamps_from_cpp_macros:
     captures the current time, and thus will obviously make a build
     unreproducible.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsFromCPPMacros
+  deterministic: True
 timestamps_in_documentation_generated_by_doxygen:
   description: |
     If Doxyfile contains HTML_TIMESTAMP = YES, Doxygen will add a
     timestamp to its generated documentation.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInDocumentationGeneratedByDoxygen
+  deterministic: True
 timestamps_in_documentation_generated_by_asciidoc:
   description: |
     asciidoc adds a timestamp at the end of a generated HTML file.
     This timestamp is based in the date of the file, but can change depending on the TZ environment variable.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInDocumentationGeneratedByAsciidoc
+  deterministic: True
 timestamps_generated_by_docbook_to_man:
   description: |
     docbook-to-man adds a timestamp at the end of manpages it generates.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsGeneratedByDocbookToMan
+  deterministic: True
 random_anchor_names_generated_by_docbook_to_man:
   description: |
     docbook-to-man uses non-deterministic <a> anchor names
@@ -52,6 +56,7 @@ timestamps_in_maven_pom_files:
   description: |
     Maven writes a timestamp to pom.properties files
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInMavenPomProperties
+  deterministic: True
 timestamps_in_maven_version_files:
   description: |
     Maven writes a timestamp to version.properties files.  Probably related
@@ -95,6 +100,7 @@ timestamps_in_documentation_generated_by_yard:
   description: |
     YARD writes timestamps in HTML files it produces. (Patch in 776648)
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInDocumentationGeneratedByYard
+  deterministic: True
 timestamps_in_beam_files:
   description: |
     Erlang source files compiled by erlc into BEAM files contain timestamps and the build path.
@@ -164,11 +170,13 @@ timestamps_in_jar:
     jar (Java Archive) file stores mtimes. Most often of files generated during
     the build.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInJarFiles
+  deterministic: True
 timestamps_in_zip:
   description: |
     Zip archives stores mtimes. Most often of files generated during
     the build.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInZip
+  deterministic: True
 timestamps_in_documentation_generated_by_groff:
   description: |
     groff will add a timestamps to documentation it produces.
