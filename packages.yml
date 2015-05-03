@@ -8623,6 +8623,8 @@ libcairo-gobject-perl:
     - timezones_manpages_podman
 libcairo-perl:
   version: 1.104-2
+  comments: |
+    typedef's and types map are not ordered in a deterministic way.
 libcap-ng:
   version: 0.7.4-2
   issues:
