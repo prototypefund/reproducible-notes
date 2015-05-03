@@ -7533,10 +7533,6 @@ libalien-sdl-perl:
   issues:
     - random_order_in_files_generated_by_module_build
     - timezones_manpages_podman
-libalien-wxwidgets-perl:
-  version: 0.65+dfsg-4
-  bugs:
-    - 778949
 libalog:
   version: 0.5.0-1
   issues:
@@ -7894,10 +7890,6 @@ libclass-load-perl:
   version: 0.22-1
   issues:
     - timezones_manpages_podman
-libclass-methodmaker-perl:
-  version: 2.21-1
-  bugs:
-    - 778979
 libclass-ooorno-perl:
   version: 0.011-1
   issues:
@@ -7932,10 +7924,6 @@ libcolor-calc-perl:
   issues:
     - random_order_in_files_generated_by_module_build
     - timezones_manpages_podman
-libcommon-sense-perl:
-  version: 3.73-2
-  bugs:
-    - 778952
 libcommoncpp2:
   version: 1.8.1-6
   issues:
@@ -8209,10 +8197,6 @@ libebml:
   version: 1.3.0-2
   issues:
     - timestamps_from_cpp_macros
-libelixirfm-perl:
-  version: 1.1.976-3
-  bugs:
-    - 778953
 libemail-date-format-perl:
   version: 1.005-1
   issues:
@@ -9445,13 +9429,6 @@ libopendbx:
   version: 1.4.6-8
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-libopengl-perl:
-  version: 0.6703+dfsg-1
-  comments: |
-    Random Perl hash order in
-    /usr/lib/x86_64-linux-gnu/perl5/5.20/OpenGL/Config.pm
-  bugs:
-    - 778961
 liboptimization-java:
   version: 0.1-1
   issues:
@@ -9953,13 +9930,6 @@ libterm-readkey-perl:
   version: 2.32-1
   issues:
     - timezones_manpages_podman
-libterm-size-perl-perl:
-  version: 0.029-1
-  comments: |
-    Capture build time in
-    /usr/share/perl5/Term/Size/Perl/Params.pm
-  bugs:
-    - 778270
 libterm-visual-perl:
   version: 0.08-2
   issues:
@@ -10372,10 +10342,6 @@ libxml-parser-lite-tree-perl:
   version: 0.14-1
   issues:
     - timestamps_in_documentation_generated_by_podman
-libxml-sax-expatxs-perl:
-  version: 1.33-1
-  bugs:
-    - 778978
 libxml-validate-perl:
   version: 1.025-2
   bugs:
