@@ -1554,7 +1554,7 @@ cipux-rbac:
 ck:
   version: 0.4.4-1
   comments: |
-    Building ck takes >12h each currently because of #764827... and actually the timeout doesnt kill it, so I'm blacklisting the package now.
+    Building ck takes >12h each currently because of #764827...
   issues:
     - blacklisted_on_jenkins
   bugs:
@@ -11232,15 +11232,9 @@ octave-struct:
   issues:
     - timestamps_in_octave_doc_cache
 octave-symbolic:
-  version: 2.0.0-1
-  comments: |
-    octave-symbolic has been blacklisted on reproducible.debian.net only for
-    testing the experimental suite
-    https://jenkins.debian.net/view/reproducible/job/reproducible_builder_gamma/33210/console shows where the build was hanging...
-    (This build log has been manually preserved using the jenkins UI.)
+  version: 1.1.0-3
   issues:
     - timestamps_in_octave_doc_cache
-    - blacklisted_on_jenkins
 octave-tsa:
   version: 4.2.7-2
   issues:
@@ -14563,8 +14557,9 @@ slof:
   version: 20140630+dfsg-1
   comments: |
     Must be built on PowerPC.
+    (the issue is to have the launchpad bug url near)
   issues:
-    - blacklisted_on_jenkins
+    - ftbfs_build_depends_not_available_on_amd64
 slrn:
   version: 1.0.2-2
   issues:
