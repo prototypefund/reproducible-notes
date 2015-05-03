@@ -16859,10 +16859,10 @@ tuxguitar:
     - timestamps_in_jar
 tuxpaint:
   version: 1:0.9.22-2
-  issues:
-    - timestamps_from_cpp_macros
   comments: |
     https://sources.debian.net/src/tuxpaint/1:0.9.22-2/Makefile/#L13
+  issues:
+    - timestamps_from_cpp_macros
 tuxpaint-config:
   version: 0.0.13-1
   comments: |
@@ -18240,10 +18240,10 @@ zomg:
     - 777272
 zoneminder:
   version: 1.28.1-5
-  issues:
-    - timestamps_in_manpage_generated_by_sphinx
   comments: |
     Some random strings are also embedded as salts/seeds in /usr/share/zoneminder/www/api/app/Config/core.php.
+  issues:
+    - timestamps_in_manpage_generated_by_sphinx
 zookeeper:
   version: 3.4.5+dfsg-2
   comments: |
