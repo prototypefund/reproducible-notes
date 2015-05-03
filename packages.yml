@@ -2079,7 +2079,6 @@ convmv:
   version: 1.12-2
   issues:
     - timestamps_in_gzip_headers
-    - timezones_manpages_podman
   bugs:
     - 777059
 cookie-monster:
@@ -8372,8 +8371,6 @@ libalien-sdl-perl:
     - timezones_manpages_podman
 libalien-wxwidgets-perl:
   version: 0.65+dfsg-4
-  issues:
-    - timezones_manpages_podman
   bugs:
     - 778949
 libalog:
@@ -8747,10 +8744,6 @@ libchado-perl:
   version: 1.23-2
   issues:
     - timezones_manpages_podman
-libchi-perl:
-  version: 0.58-1
-  issues:
-    - timezones_manpages_podman
 libchild-perl:
   version: 0.010-1
   issues:
@@ -8839,8 +8832,6 @@ libcolor-calc-perl:
     - timezones_manpages_podman
 libcommon-sense-perl:
   version: 3.73-2
-  issues:
-    - timezones_manpages_podman
   bugs:
     - 778952
 libcommoncpp2:
@@ -8885,10 +8876,6 @@ libconfig-model-dpkg-perl:
   version: 2.059
   issues:
     - timestamps_in_documentation_generated_by_podman
-libconfig-model-itself-perl:
-  version: 1.241-1
-  issues:
-    - timezones_manpages_podman
 libconfig-simple-perl:
   version: 4.59-6
   issues:
@@ -8944,10 +8931,6 @@ libcrypt-dh-gmp-perl:
     - timezones_manpages_podman
 libcrypt-mysql-perl:
   version: 0.04-5
-  issues:
-    - timezones_manpages_podman
-libcrypt-unixcrypt-perl:
-  version: 1.0-6
   issues:
     - timezones_manpages_podman
 libcrypto++:
@@ -9060,10 +9043,6 @@ libdb-file-lock-perl:
   version: 0.05-3
   issues:
     - timezones_manpages_podman
-libdbd-firebird-perl:
-  version: 1.18-2
-  issues:
-    - timezones_manpages_podman
 libdbi-drivers:
   version: 0.9.0-3
   issues:
@@ -9074,10 +9053,6 @@ libdbix-abstract-perl:
     - timezones_manpages_podman
 libdbix-class-dynamicdefault-perl:
   version: 0.04-1
-  issues:
-    - timezones_manpages_podman
-libdbix-class-resultset-recursiveupdate-perl:
-  version: 0.34-2
   issues:
     - timezones_manpages_podman
 libdbix-class-timestamp-perl:
@@ -9103,10 +9078,6 @@ libdbix-password-perl:
   version: 1.9-1
   issues:
     - timestamps_in_documentation_generated_by_podman
-libdbix-profile-perl:
-  version: 1.0-4
-  issues:
-    - timezones_manpages_podman
 libdbix-searchbuilder-perl:
   version: 1.66-1
   issues:
@@ -9132,10 +9103,6 @@ libdevel-nytprof-perl:
   version: 5.06+dfsg-2
   issues:
     - timestamps_in_documentation_generated_by_podman
-libdevel-ptkdb-perl:
-  version: 1.1091-2
-  issues:
-    - timezones_manpages_podman
 libdevel-stacktrace-ashtml-perl:
   version: 0.14-1
   issues:
@@ -9175,8 +9142,6 @@ libebur128:
     - different_due_to_umask
 libelixirfm-perl:
   version: 1.1.976-3
-  issues:
-    - timezones_manpages_podman
   bugs:
     - 778953
 libemail-date-format-perl:
@@ -9358,10 +9323,6 @@ libfonts-java:
   version: 1.1.6.dfsg-3
   issues:
     - timestamps_in_jar
-libformat-human-bytes-perl:
-  version: 0.06-1
-  issues:
-    - timezones_manpages_podman
 libforms:
   version: 1.2.3-1.2
   issues:
@@ -9550,7 +9511,6 @@ libgtk2-perl:
   version: 2:1.2492-3
   issues:
     - randomness_in_glib_signals_in_generated_perl_pod_files
-    - timezones_manpages_podman
 libgtk2-spell-perl:
   version: 1.04-2
   issues:
@@ -10006,10 +9966,6 @@ libjs-jcrop:
   version: 0.9.12+dfsg-1
   bugs:
     - 779588
-libjson-perl:
-  version: 2.61-1
-  issues:
-    - timezones_manpages_podman
 libjson-rpc-cpp:
   version: 0.4.2-4
   issues:
@@ -10193,7 +10149,6 @@ libmail-imapclient-perl:
   version: 3.35-1
   issues:
     - random_order_in_grammar
-    - timezones_manpages_podman
 libmail-sendeasy-perl:
   version: 1.2-2
   issues:
@@ -10339,10 +10294,6 @@ libmock-quick-perl:
   version: 1.108-1
   issues:
     - timezones_manpages_podman
-libmocked-perl:
-  version: 0.09-4
-  issues:
-    - timezones_manpages_podman
 libmodbus:
   version: 3.0.6-1
   issues:
@@ -10361,7 +10312,6 @@ libmodule-extractuse-perl:
   version: 0.33-1
   issues:
     - random_order_in_grammar
-    - timezones_manpages_podman
 libmodule-load-conditional-perl:
   version: 0.62-1
   issues:
@@ -10422,10 +10372,6 @@ libmoosex-role-timer-perl:
     - timezones_manpages_podman
 libmoosex-role-withoverloading-perl:
   version: 0.15-1
-  issues:
-    - timezones_manpages_podman
-libmoosex-simpleconfig-perl:
-  version: 0.10-1
   issues:
     - timezones_manpages_podman
 libmoosex-storage-perl:
@@ -10548,10 +10494,6 @@ libnet-facebook-oauth2-perl:
   version: 0.08-1
   issues:
     - timezones_manpages_podman
-libnet-frame-layer-ipv6-perl:
-  version: 1.05-1
-  issues:
-    - timezones_manpages_podman
 libnet-frame-perl:
   version: 1.11-1
   issues:
@@ -10586,10 +10528,6 @@ libnet-mac-vendor-perl:
     - timezones_manpages_podman
 libnet-openid-server-perl:
   version: 1.09-1
-  issues:
-    - timezones_manpages_podman
-libnet-openssh-perl:
-  version: 0.62-1
   issues:
     - timezones_manpages_podman
 libnet-smtp-ssl-perl:
@@ -10644,10 +10582,6 @@ libnss-ldap:
   version: 265-3
   issues:
     - build_id_variation_requiring_further_investigation
-libnumber-format-perl:
-  version: 1.73-2
-  issues:
-    - timezones_manpages_podman
 libnumber-range-perl:
   version: 0.12-1
   issues:
@@ -10656,7 +10590,6 @@ libobject-id-perl:
   version: 0.1.2-1
   issues:
     - random_order_in_files_generated_by_module_build
-    - timezones_manpages_podman
 libobject-signature-perl:
   version: 1.07-1
   issues:
@@ -10686,8 +10619,6 @@ libopengl-perl:
   comments: |
     Random Perl hash order in
     /usr/lib/x86_64-linux-gnu/perl5/5.20/OpenGL/Config.pm
-  issues:
-    - timezones_manpages_podman
   bugs:
     - 778961
 libopenobex:
@@ -10722,10 +10653,6 @@ libp11:
   version: 0.2.8-5
   issues:
     - different_due_to_umask
-libpackage-pkg-perl:
-  version: 0.0020-1
-  issues:
-    - timezones_manpages_podman
 libpal-java:
   version: 1.5.1-2
   issues:
@@ -10770,7 +10697,6 @@ libpdf-fdf-simple-perl:
   version: 0.21-1
   issues:
     - random_order_in_grammar
-    - timezones_manpages_podman
 libpdf-report-perl:
   version: 1.36-1
   issues:
@@ -10871,10 +10797,6 @@ libpod-tests-perl:
     - timezones_manpages_podman
 libpoe-component-jabber-perl:
   version: 3.00-2
-  issues:
-    - timezones_manpages_podman
-libpoe-component-pubsub-perl:
-  version: 0.05-1
   issues:
     - timezones_manpages_podman
 libpoe-component-resolver-perl:
@@ -11003,10 +10925,6 @@ librep:
   issues:
     - timestamps_in_static_libraries
     - different_due_to_umask
-libreply-perl:
-  version: 0.35-1
-  issues:
-    - timezones_manpages_podman
 librepository:
   version: 1.1.6-2
   issues:
@@ -11055,10 +10973,6 @@ libsaxon-java:
   version: 1:6.5.5-10
   issues:
     - different_due_to_umask
-libscalar-defer-perl:
-  version: 0.23-1
-  issues:
-    - timezones_manpages_podman
 libscalar-number-perl:
   version: 0.006-1
   bugs:
@@ -11201,10 +11115,6 @@ libspnav:
   version: 0.2.2-1
   issues:
     - different_due_to_umask
-libspreadsheet-read-perl:
-  version: 0.54-1
-  issues:
-    - timezones_manpages_podman
 libspring-ldap-java:
   version: 1.3.1.RELEASE-5
   issues:
@@ -11213,10 +11123,6 @@ libspring-security-2.0-java:
   version: 2.0.7.RELEASE-3
   issues:
     - timestamps_generated_by_docbook_to_man
-libsql-abstract-more-perl:
-  version: 1.26-1
-  issues:
-    - timezones_manpages_podman
 libssh:
   version: 0.6.3-4
   issues:
@@ -11263,10 +11169,6 @@ libsub-recursive-perl:
     - timezones_manpages_podman
 libsvg-tt-graph-perl:
   version: 0.24-1
-  issues:
-    - timezones_manpages_podman
-libsvn-class-perl:
-  version: 0.18-1
   issues:
     - timezones_manpages_podman
 libsvn-notify-mirror-perl:
@@ -11318,10 +11220,6 @@ libtap-harness-archive-perl:
   version: 0.15-1
   issues:
     - timezones_manpages_podman
-libtemplate-plugin-gravatar-perl:
-  version: 0.08-1
-  issues:
-    - timezones_manpages_podman
 libtemplate-plugin-number-format-perl:
   version: 1.02-1
   issues:
@@ -11347,17 +11245,11 @@ libterm-readkey-perl:
   version: 2.32-1
   issues:
     - timezones_manpages_podman
-libterm-shellui-perl:
-  version: 0.92-1
-  issues:
-    - timezones_manpages_podman
 libterm-size-perl-perl:
   version: 0.029-1
   comments: |
     Capture build time in
     /usr/share/perl5/Term/Size/Perl/Params.pm
-  issues:
-    - timezones_manpages_podman
   bugs:
     - 778270
 libterm-visual-perl:
@@ -11400,10 +11292,6 @@ libtest-differences-perl:
   version: 0.62-1
   issues:
     - timezones_manpages_podman
-libtest-dir-perl:
-  version: 1.013-1
-  issues:
-    - timezones_manpages_podman
 libtest-file-sharedir-perl:
   version: 1.000005-2
   issues:
@@ -11426,8 +11314,6 @@ libtest-lectrotest-perl:
     - timezones_manpages_podman
 libtest-log4perl-perl:
   version: 0.1001-3
-  issues:
-    - timezones_manpages_podman
   bugs:
     - 782879
 libtest-module-used-perl:
@@ -11500,10 +11386,6 @@ libtex-encode-perl:
     - timezones_manpages_podman
 libtext-bibtex-perl:
   version: 0.69-1
-  issues:
-    - timezones_manpages_podman
-libtext-context-eitherside-perl:
-  version: 1.4-1
   issues:
     - timezones_manpages_podman
 libtext-csv-encoded-perl:
@@ -11789,10 +11671,6 @@ libwww-opensearch-perl:
   version: 0.17-1
   issues:
     - timezones_manpages_podman
-libwx-perl-processstream-perl:
-  version: 0.32-1
-  issues:
-    - timezones_manpages_podman
 libx11-freedesktop-desktopentry-perl:
   version: 0.04-3
   issues:
@@ -11842,10 +11720,6 @@ libxml-easy-perl:
   version: 0.009-2
   issues:
     - timezones_manpages_podman
-libxml-filter-xslt-perl:
-  version: 0.03-8
-  issues:
-    - timezones_manpages_podman
 libxml-handler-trees-perl:
   version: 0.02-6
   issues:
@@ -11876,10 +11750,6 @@ libxml-validate-perl:
     - 720666
 libxml-validator-schema-perl:
   version: 1.10-1
-  issues:
-    - timezones_manpages_podman
-libxml-writer-string-perl:
-  version: 0.1-1
   issues:
     - timezones_manpages_podman
 libxml-xpathengine-perl:
@@ -11949,10 +11819,6 @@ libyaml:
   version: 0.1.6-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-libyaml-tiny-perl:
-  version: 1.64-1
-  issues:
-    - timezones_manpages_podman
 libytnef:
   version: 1.5-6
   issues:
@@ -18789,7 +18655,6 @@ sludge:
 slurm-llnl:
   version: 14.03.9-5
   issues:
-    - timezones_manpages_podman
     - different_due_to_umask
 slv2:
   version: 0.6.6+dfsg1-2
