@@ -28,10 +28,6 @@ abcm2ps:
   version: 7.8.9-1
   issues:
     - timestamps_from_cpp_macros
-abind:
-  version: 1.4-3-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 abinit:
   version: 7.8.2-2
   issues:
@@ -1674,10 +1670,6 @@ clustalo:
   version: 1.2.1-1
   issues:
     - timestamps_from_cpp_macros
-cluster:
-  version: 2.0.1-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 cluster-glue:
   version: 1.0.12~rc1+hg2777-1.2
   issues:
@@ -1739,10 +1731,6 @@ codenarc:
   version: 0.17-2
   issues:
     - timestamps_in_documentation_generated_by_groovydoc
-codetools:
-  version: 0.2-11-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 cogl:
   version: 1.18.2-3
   issues:
@@ -2214,10 +2202,6 @@ dash:
     - different_due_to_umask
   bugs:
     - 774425
-date:
-  version: 1.2.34-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 davical:
   version: 1.1.3.1-1
   issues:
@@ -2246,10 +2230,6 @@ dbconfig-common:
   version: 1.8.47+nmu3
   issues:
     - timestamps_in_pdf_generated_by_latex
-dbi:
-  version: 0.3.1-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 dbus:
   version: 1.8.14-1
   issues:
@@ -2949,10 +2929,6 @@ efax-gtk:
   version: 3.2.8-2
   issues:
     - timestamps_from_cpp_macros
-effects:
-  version: 3.0.3-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 efl:
   version: 1.8.6-2.1
   issues:
@@ -3267,10 +3243,6 @@ erlang-xmlrpc:
   version: 0.2014.03.17-2
   issues:
     - timestamps_in_beam_files
-erm:
-  version: 0.14-0-6
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 esajpip:
   version: 0.1~bzr33-2
   issues:
@@ -3391,14 +3363,6 @@ fannj:
   version: 0.3-1
   issues:
     - timestamps_in_jar
-fasianoptions:
-  version: 3010.79-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-fassets:
-  version: 3011.83-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 fastforward:
   version: 1:0.51-3
   issues:
@@ -3435,10 +3399,6 @@ faumachine:
   version: 20120707-3
   bugs:
     - 746843
-fbasics:
-  version: 3011.87-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 fbb:
   version: 7.05f-2
   issues:
@@ -3451,18 +3411,10 @@ fbi:
   version: 2.09-1
   issues:
     - timestamps_from_cpp_macros
-fbonds:
-  version: 3010.77-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 fceux:
   version: 2.2.2+dfsg0-1
   issues:
     - timestamps_from_cpp_macros
-fcopulae:
-  version: 3011.81-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 fcrackzip:
   version: 1.0-5
   bugs:
@@ -3558,14 +3510,6 @@ festvox-czech-machac:
   version: 1.0.0-2
   bugs:
     - 753179
-fexoticoptions:
-  version: 2152.78-
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-fextremes:
-  version: 3010.81-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 feynmf:
   version: 1.08-9
   issues:
@@ -3574,10 +3518,6 @@ fflas-ffpack:
   version: 1.6.0-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-fgarch:
-  version: 3010.82-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 fgetty:
   version: 0.6-5
   issues:
@@ -3615,10 +3555,6 @@ filters:
   version: 2.53
   comments: |
     Sample file has its own undeterministic filters applied.
-fimport:
-  version: 3000.82-2
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 findbugs:
   version: 2.0.3+repack-1
   issues:
@@ -3754,10 +3690,6 @@ fmit:
   version: 0.99.2-1
   issues:
     - timestamps_from_cpp_macros
-fmultivar:
-  version: 3011.78-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 fontforge:
   version: 20120731.b-5.0~reproducible2
   issues:
@@ -3866,10 +3798,6 @@ fop:
     - timestamps_in_documentation_generated_by_podman
     - user_in_java_jar_manifest
     - timezones_manpages_podman
-foptions:
-  version: 3010.83-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 fortunes-bg:
   version: 1.1
   issues:
@@ -3978,10 +3906,6 @@ freewnn:
   version: 1.1.1~a021+cvs20130302-4
   issues:
     - user_hostname_manually_added_requiring_further_investigation
-fregression:
-  version: 3011.81-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 frozen-bubble:
   version: 2.212-4
   issues:
@@ -4024,14 +3948,6 @@ ftphs:
   version: 1.0.9.1-1
   issues:
     - timestamps_in_ghc_interfaces
-ftrading:
-  version: 3010.78-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-funitroots:
-  version: 3010.78-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 fuse-posixovl:
   version: 1.2.20120215+gitf5bfe35-1
   bugs:
@@ -4218,10 +4134,6 @@ gdal:
   version: 1.10.1+dfsg-8
   issues:
     - timestamps_from_cpp_macros
-gdata:
-  version: 2.13.3-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 gdata-sharp:
   version: 2.2.0.0-2
   issues:
@@ -4661,10 +4573,6 @@ gmime:
   version: 2.6.20-1
   issues:
     - timestamps_in_pe_binaries
-gmodels:
-  version: 2.15.4.1-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 gmsh:
   version: 2.8.5+dfsg-1.1
   issues:
@@ -4984,10 +4892,6 @@ grcompiler:
   version: 4.2-4
   issues:
     - timestamps_from_cpp_macros
-gregmisc:
-  version: 2.1.5-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 gretl:
   version: 1.9.92-1
   issues:
@@ -5123,10 +5027,6 @@ gtkspellmm:
   version: 3.0.3+dfsg-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-gtools:
-  version: 3.4.2-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 gtranslator:
   version: 2.91.6-1
   bugs:
@@ -6734,10 +6634,6 @@ isrcsubmit:
   version: 2.0.0-1
   issues:
     - timestamps_in_python_docutils
-its:
-  version: 1.1.8-5
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 iulib:
   version: 0.3-3.1
   issues:
@@ -7527,14 +7423,6 @@ latexml:
   version: 0.8.0-1
   issues:
     - random_order_in_grammar
-lattice:
-  version: 0.20-31-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-latticeextra:
-  version: 0.6-26-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 lava-dispatcher:
   version: 2015.03-1
   issues:
@@ -10676,18 +10564,10 @@ lmdb:
   version: 0.9.14-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-lme4:
-  version: 1.1-7-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 lmemory:
   version: 0.6c-7
   issues:
     - timestamps_from_cpp_macros
-lmtest:
-  version: 0.9.33-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 loadlin:
   version: 1.6f-3
   issues:
@@ -11256,10 +11136,6 @@ metis:
   version: 5.1.0.dfsg-4
   issues:
     - timestamps_from_cpp_macros
-mgcv:
-  version: 1.8-6-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 mgetty:
   version: 1.1.36-2.1
   issues:
@@ -11378,10 +11254,6 @@ miro:
     /usr/share/miro/resources/app.config
   bugs:
     - 778275
-misc3d:
-  version: 0.8-4-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 miscfiles:
   version: 1.4.2.dfsg.1-9.1
   issues:
@@ -11450,10 +11322,6 @@ mm3d:
   version: 1.3.7-1.4
   issues:
     - build_id_variation_requiring_further_investigation
-mnormt:
-  version: 1.5-2-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 moap:
   version: 0.2.7-1
   issues:
@@ -11851,10 +11719,6 @@ muttprint:
     - timestamps_in_dvi_generated_by_latex
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_png
-mvtnorm:
-  version: 1.0-2-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 mwrap:
   version: 0.33-2
   issues:
@@ -13410,10 +13274,6 @@ perlpanel:
     - timestamps_in_gzip_headers
   bugs:
     - 777444
-permute:
-  version: 0.8-3-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 perroquet:
   version: 1.1.1-3
   issues:
@@ -13694,10 +13554,6 @@ pocl:
   version: 0.10-10
   bugs:
     - 764563
-polspline:
-  version: 1.1.9-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 polybori:
   version: 0.8.3-4
   issues:
@@ -13918,10 +13774,6 @@ putty:
   version: 0.63-8
   issues:
     - timestamps_from_cpp_macros
-pvclust:
-  version: 1.3-0-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 pvm:
   version: 3.4.5-12.6
   issues:
@@ -14681,10 +14533,6 @@ qtxmlpatterns-opensource-src:
   version: 5.4.1-1
   issues:
     - randomness_in_qdoc
-quadprog:
-  version: 1.5-5-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 quakespasm:
   version: 0.85.9-1
   issues:
@@ -14724,538 +14572,16 @@ r-base:
     - timestamps_in_gzip_headers
   bugs:
     - 783130
-r-bioc-affy:
-  version: 1.42.3-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-bioc-affyio:
-  version: 1.32.0-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-bioc-altcdfenvs:
-  version: 2.26.0-2
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-bioc-annotationdbi:
-  version: 1.26.1-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-bioc-biobase:
-  version: 2.24.0-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-bioc-biocgenerics:
-  version: 0.10.0-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-bioc-biocinstaller:
-  version: 1.14.2-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-bioc-biocparallel:
-  version: 0.6.1-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-bioc-biomart:
-  version: 2.20.0-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-bioc-biostrings:
-  version: 2.32.1-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-bioc-bsgenome:
-  version: 1.32.0-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-bioc-edger:
-  version: 3.8.2+dfsg-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-bioc-genomeinfodb:
-  version: 1.0.2-2
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-bioc-genomicalignments:
-  version: 1.0.6-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-bioc-genomicfeatures:
-  version: 1.16.3-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-bioc-genomicranges:
-  version: 1.16.4-2
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-bioc-graph:
-  version: 1.42.0-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-bioc-hilbertvis:
-  version: 1.24.0-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-bioc-hypergraph:
-  version: 1.36.0-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-bioc-iranges:
-  version: 1.22.10-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-bioc-limma:
-  version: 3.22.1+dfsg-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-bioc-makecdfenv:
-  version: 1.40.0-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-bioc-preprocesscore:
-  version: 1.26.1-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-bioc-qvalue:
-  version: 1.40.0-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-bioc-rsamtools:
-  version: 1.16.1-2
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-bioc-rtracklayer:
-  version: 1.24.2-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-bioc-shortread:
-  version: 1.22.0-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-bioc-snpstats:
-  version: 1.14.0+dfsg-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-bioc-variantannotation:
-  version: 1.10.5-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-bioc-xvector:
-  version: 0.4.0-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 r-cran-amelia:
   version: 1.7.3-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-amore:
-  version: 0.2-15-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-ape:
-  version: 3.1-4-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-base64enc:
-  version: 0.1-2-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-batchjobs:
-  version: 1.4-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-bayesm:
-  version: 2.2-5-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-bbmisc:
-  version: 1.7-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-beeswarm:
-  version: 0.1.6-2
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-boolnet:
-  version: 2.0-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-brew:
-  version: 1.0-6-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-catools:
-  version: 1.17.1-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-checkmate:
-  version: 1.5.0-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-coda:
-  version: 0.17-1-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-colorspace:
-  version: 1.2-4-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-combinat:
-  version: 0.0-8-4
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-cubature:
-  version: 1.1-2-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-deldir:
-  version: 0.1-6-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-deoptimr:
-  version: 1.0-2-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-diagnosismed:
-  version: 0.2.3-3
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-digest:
-  version: 0.6.8-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-domc:
-  version: 1.3.3-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-doparallel:
-  version: 1.0.8-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-dosefinding:
-  version: 0.9-12-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-dosnow:
-  version: 1.0.12-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-downloader:
-  version: 0.3-3
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-e1071:
-  version: 1.6-4-2
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-eco:
-  version: 3.1-7-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-ecodist:
-  version: 1.2.9-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-energy:
-  version: 1.6.2-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-epi:
-  version: 1.1.67-3
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-epibasix:
-  version: 1.3-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-epicalc:
-  version: 2.15.1.0-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-epir:
-  version: 0.9-59-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-evaluate:
-  version: 0.5.5-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-evd:
-  version: 2.3-0-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-expm:
-  version: 0.99-1.1-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-fail:
-  version: 1.2-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-fastcluster:
-  version: 1.1.13-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-foreach:
-  version: 1.4.2-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-formula:
-  version: 1.2-1-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-g.data:
-  version: 2.4-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-gam:
-  version: 1.09.1-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-gbm:
-  version: 2.1-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-genabel:
-  version: 1.8-0-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-genabel.data:
-  version: 1.0.0-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-genetics:
-  version: 1.3.8.1-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-getopt:
-  version: 1.20.0-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-ggplot2:
-  version: 1.0.0-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-gmaps:
-  version: 0.2-2
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-gsl:
-  version: 1.9-10-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-gss:
-  version: 2.1-4-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-haplo.stats:
-  version: 1.6.11-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-hdf5:
-  version: 1.6.10-3
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-hwriter:
-  version: 1.3.2-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-inline:
-  version: 0.3.13-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-int64:
-  version: 1.1.2-2
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-iterators:
-  version: 1.0.7-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-kernlab:
-  version: 0.9-20-3
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-labeling:
-  version: 0.3-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-learnbayes:
-  version: 2.15-2
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-lhs:
-  version: 0.10-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-lpsolve:
-  version: 5.6.11-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-maldiquant:
-  version: 1.11-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-maldiquantforeign:
-  version: 0.9-2
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-mapdata:
-  version: 2.2-3-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-mapproj:
-  version: 1.2-2-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-maps:
-  version: 2.3-9-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-mass:
-  version: 7.3-40-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-matrixstats:
-  version: 0.10.3-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-maxlik:
-  version: 1.2-0-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-medadherence:
-  version: 1.03-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-mfilter:
-  version: 0.1.3-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-minqa:
-  version: 1.2.4-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-misctools:
-  version: 0.6-16-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-mixtools:
-  version: 1.0.2-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-mnp:
-  version: 2.6-4-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-msm:
-  version: 1.4-2
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-multicore:
-  version: 0.2-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-munsell:
-  version: 0.4.2-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-mvnormtest:
-  version: 0.1-9-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-ncdf4:
-  version: 1.13-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-nloptr:
-  version: 1.0.4-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-numderiv:
-  version: 2012.9-1-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-nws:
-  version: 2.0.0.3-3
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-optparse:
-  version: 1.2.0-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-pbkrtest:
-  version: 0.4-2-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-pkgkitten:
-  version: 0.1.2-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-plotrix:
-  version: 3.5-7-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-plyr:
-  version: 1.8.1-2
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-polyclip:
-  version: 1.3-0-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-polycub:
-  version: 0.5-1-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-proto:
-  version: 0.3-10-1
   issues:
     - timestamps_in_description_files_generated_by_r-base-dev
 r-cran-pscl:
   version: 1.4.8-1
   issues:
     - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-psy:
-  version: 1.1-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-pwt:
-  version: 7.1.1-2
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-pwt8:
-  version: 8.0.0-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-qtl:
-  version: 1.33-7-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-r.methodss3:
-  version: 1.6.1-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-randomfields:
-  version: 3.0.44-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-randomforest:
-  version: 4.6-10-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-rcmdrmisc:
-  version: 1.0-2-2
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-rcurl:
-  version: 1.95-4.3-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 r-cran-readbrukerflexdata:
   version: 1.8-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
   bugs:
     - 783056
 r-cran-readmzxmldata:
@@ -15264,174 +14590,22 @@ r-cran-readmzxmldata:
     - timestamps_in_description_files_generated_by_r-base-dev
   bugs:
     - 783057
-r-cran-reshape:
-  version: 0.8.5-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-reshape2:
-  version: 1.4-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-rjson:
-  version: 0.2.14-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-rneos:
-  version: 0.2-8-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-rnetcdf:
-  version: 1.6.3-1-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 r-cran-rniftilib:
   version: 0.0-32-1
   issues:
     - build_id_variation_requiring_further_investigation
     - randomness_in_lto_debug_symbols
     - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-rocr:
-  version: 1.0-5-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-rsclient:
-  version: 0.7-2.0-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 r-cran-rsdmx:
   version: 0.4.5+dfsg-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-rsolnp:
-  version: 1.14+dfsg-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-rsqlite:
-  version: 0.11.4-3
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-scales:
-  version: 0.2.4-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-segmented:
-  version: 0.5-0.0-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-sendmailr:
-  version: 1.2-1-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-slam:
-  version: 0.1-32-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-sn:
-  version: 1.2-0-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-spam:
-  version: 1.0-1-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-spatstat:
-  version: 1.37-0-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-stabledist:
-  version: 0.6-6-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-statmod:
-  version: 1.4.20-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-stringr:
-  version: 0.6.2-2
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-surveillance:
-  version: 1.8-0-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-tcltk2:
-  version: 1.2-11-1
   issues:
     - timestamps_in_description_files_generated_by_r-base-dev
 r-cran-teachingdemos:
   version: 2.9-1
   issues:
     - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-tensor:
-  version: 1.5-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-testthat:
-  version: 0.9.1-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-tgp:
-  version: 2.4-9-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-truncnorm:
-  version: 1.0-7-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-vegan:
-  version: 2.0-10-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-vgam:
-  version: 0.9-7-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-vioplot:
-  version: 0.2-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-wdi:
-  version: 2.4-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 r-cran-xml:
   version: 3.98-1.1-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-xts:
-  version: 0.9-7-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-omegahat-xmlrpc:
-  version: 0.3-0-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-other-amsmercury:
-  version: 1.3.0-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-other-bio3d:
-  version: 1.1-5-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-other-curvefdp:
-  version: 2.0-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-other-iwrlars:
-  version: 0.9-5-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-other-mott-happy:
-  version: 2.4-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-other-nitpick:
-  version: 2.0-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-r-zoo:
-  version: 1.7-12-1
   issues:
     - timestamps_in_description_files_generated_by_r-base-dev
 r5rs-doc:
@@ -15467,10 +14641,6 @@ rapidsvn:
     - timestamps_in_documentation_generated_by_doxygen
     - timestamps_generated_by_docbook_to_man
     - different_due_to_umask
-raschsampler:
-  version: 0.8-6-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 raster3d:
   version: 3.0-3-1
   issues:
@@ -15499,10 +14669,6 @@ rbootd:
     - timestamps_in_gzip_headers
   bugs:
     - 776951
-rcolorbrewer:
-  version: 1.1-2-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 rdflib:
   version: 4.1.2-3
   issues:
@@ -15602,18 +14768,6 @@ revelation:
   version: 0.4.14-2
   issues:
     - different_due_to_umask
-rgl:
-  version: 0.95.1201-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-rglpk:
-  version: 0.6-0-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-rgtk2:
-  version: 2.20.31-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 rheolef:
   version: 6.5-1
   issues:
@@ -15631,10 +14785,6 @@ rivet:
   version: 1.8.3-1.1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-rjava:
-  version: 0.9-6-3
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 rkward:
   version: 0.6.2~rc1-2
   issues:
@@ -15645,14 +14795,6 @@ rlpr:
   version: 2.05-4
   issues:
     - timestamps_from_cpp_macros
-rmatrix:
-  version: 1.2-0-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-rmpi:
-  version: 0.6-5-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 rna-star:
   version: 2.4.0i-1
   issues:
@@ -15699,8 +14841,6 @@ rpy:
     - timestamps_in_pdf_generated_by_latex
 rquantlib:
   version: 0.4.0-2
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
   bugs:
     - 783058
 rrdtool:
@@ -15720,14 +14860,6 @@ rsbackup:
     - not_using_dh_builddeb
   bugs:
     - 777394
-rserve:
-  version: 1.7-3-3
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
-rsprng:
-  version: 1.0-3
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 rsync:
   version: 3.1.1-2
   issues:
@@ -16284,10 +15416,6 @@ samplv1:
   version: 0.5.1-1
   issues:
     - timestamps_from_cpp_macros
-sandwich:
-  version: 2.3-3-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 sane-backends:
   version: 1.0.24-9
   comments: |
@@ -16341,10 +15469,6 @@ scantool:
   version: 1.21+dfsg-4
   issues:
     - timestamps_manually_added_needs_further_investigation
-scatterplot3d:
-  version: 0.3-35-2
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 scheme2c:
   version: 2012.10.14-1
   issues:
@@ -16729,10 +15853,6 @@ sludge:
   version: 2.2.1-1
   issues:
     - timestamps_from_cpp_macros
-sm:
-  version: 2.2-5.4-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 smartlist:
   version: 3.15-23
   issues:
@@ -17051,10 +16171,6 @@ stressapptest:
   comments: |
     Embed build timestamp, username and hostname:
     https://sources.debian.net/src/stressapptest/1.0.6-1/configure.ac/?hl=98:100#L98
-strucchange:
-  version: 1.5-0-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 stsci.distutils:
   version: 0.3.7-1
   comments: |
@@ -17549,10 +16665,6 @@ tkrat:
   version: 1:2.2cvs20100105-true-dfsg-6
   bugs:
     - 778431
-tkrplot:
-  version: 0.0.23-2
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 tla:
   version: 1.3.5+dfsg1-1
   issues:
@@ -17986,10 +17098,6 @@ unzip:
     - not_using_dh_builddeb
   bugs:
     - 782851
-urca:
-  version: 1.2-8-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 urjtag:
   version: 0.10+r2007-1.2
   issues:
