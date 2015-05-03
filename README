@@ -52,3 +52,7 @@ text editor autocompletion works better with the former.
 
  - `url`: is an optional field pointer to a page (ideally on the Debian wiki)
     describing the issue in more details.
+
+ - `deterministic` (default False): is an optional field indicating whether
+    we expect that this issue would always happen on Jenkins; i.e. if
+    there is a successful build, then the issue is fixed.
