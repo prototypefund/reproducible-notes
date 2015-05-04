@@ -190,6 +190,10 @@ alliance:
   version: 5.0-20120515-6
   issues:
     - timestamps_from_cpp_macros
+alot:
+  version: 0.3.6-1
+  issues:
+    - timestamps_in_manpage_generated_by_sphinx
 alpine:
   version: 2.11+dfsg1-3
   comments: |
@@ -1139,6 +1143,10 @@ brickos:
   version: 0.9.0.dfsg-10
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+bridge-method-injector:
+  version: 1.13-1
+  issues:
+    - date_in_maven_plugin_xml
 brltty:
   version: 5.2~20141018-2
   comments: |
@@ -4752,6 +4760,10 @@ gramadoir:
   version: 0.7-2
   bugs:
     - 778937
+grapefruit:
+  version: 0.1~a3+dfsg-1
+  issues:
+    - timestamps_in_documentation_generated_by_sphinx
 graphite2:
   version: 1.2.4-3
   issues:
@@ -4765,7 +4777,7 @@ graphviz:
   issues:
     - pdf_created_by_ghostscript
 grass:
-  version: 7.0.0-1~exp1
+  version: 6.4.4-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
     - different_due_to_umask
@@ -6644,6 +6656,10 @@ javamail:
   version: 1.5.2-3
   bugs:
     - 770744
+javamorph:
+  version: 0.0.20100201-1.3
+  issues:
+    - timestamps_in_jar
 javaparser:
   version: 1.0.8-1
   issues:
@@ -8728,6 +8744,10 @@ logilab-common:
   version: 0.62.0-1
   issues:
     - use_epydoc
+londonlaw:
+  version: 0.2.1-18
+  issues:
+    - pdf_created_by_ghostscript
 longomatch:
   version: 0.16.8+git20110626-2
   issues:
@@ -9805,6 +9825,14 @@ museek+:
     - timestamps_in_png
   bugs:
     - 778977
+musicbrainzngs:
+  version: 0.5-2
+  issues:
+    - timestamps_in_documentation_generated_by_sphinx
+mustache-java:
+  version: 0.8.17-1
+  issues:
+    - date_in_maven_plugin_xml
 mutrace:
   version: 0.2.0-2
   bugs:
@@ -9855,6 +9883,11 @@ mysql-mmm:
   version: 2.2.1-1.1
   issues:
     - different_due_to_umask
+n2n:
+  version: 1.3.1~svn3789-5
+  comments: |
+    Embeds the build date.
+    https://sources.debian.net/src/n2n/1.3.1%7Esvn3789-5/Makefile/?hl=60#L60
 nacl:
   version: 20110221-4.1
   bugs:
@@ -12862,6 +12895,10 @@ rrdtool:
     - timestamps_from_cpp_macros
     - timestamps_from_cpp_macros
     - different_due_to_umask
+rrep:
+  version: 1.3.6-1
+  issues:
+    - timezone_variance_because_of_automake_mdate
 rs:
   version: 20140609-3
   issues:
