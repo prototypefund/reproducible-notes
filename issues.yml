@@ -427,6 +427,10 @@ random_order_in_grammar:
 random_order_in_maven_plugin_xml:
   description: |
     mvn plugin.xml (-plugin packages) is generated in a random order.
+    .
+    Should be fixed in 3.3-1.
+    https://sources.debian.net/src/maven-plugin-tools/3.2-2/maven-plugin-tools-generators/src/main/java/org/apache/maven/tools/plugin/generator/PluginDescriptorGenerator.java/#L167
+    https://sources.debian.net/src/maven-plugin-tools/3.3-1/maven-plugin-tools-generators/src/main/java/org/apache/maven/tools/plugin/generator/PluginDescriptorGenerator.java/#L166
 date_in_maven_plugin_xml:
   description: |
     maven-plugin-tools includes the date in plugin.xml and plugin-help.xml.  Visible with timezone changes.
