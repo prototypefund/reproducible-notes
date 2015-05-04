@@ -15798,8 +15798,13 @@ warzone2100:
     - different_due_to_umask
 watchdog:
   version: 5.14-3
+  comments: |
+    FTBFS due to using dh_gencontrol but not dh_builddeb, thus conflicting with
+    the ddeb process.
   issues:
     - not_using_dh_builddeb
+  bugs:
+    - 784211
 wavemon:
   version: 0.7.6-2
   comments: |
