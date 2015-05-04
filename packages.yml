@@ -10217,6 +10217,11 @@ ntop:
   version: 3:5.0.1+dfsg1-2.1
   issues:
     - timestamps_from_cpp_macros
+ntp:
+  version: 1:4.2.6.p5+dfsg-7
+  comments: |
+    Records build time:
+    https://sources.debian.net/src/ntp/1:4.2.6.p5%2Bdfsg-7/scripts/mkver.in/?hl=20#L20
 nuget:
   version: 2.8.1+md54+dhx3-1
   issues:
