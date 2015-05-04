@@ -70,6 +70,10 @@ activemq-activeio:
   version: 3.1.1-1
   issues:
     - timestamps_in_maven_pom_files
+activemq-protobuf:
+  version: 1.1-3
+  issues:
+    - date_in_maven_plugin_xml
 activiz.net:
   version: 1:1.0~git20111214-2
   issues:
@@ -1486,6 +1490,10 @@ charybdis:
     Embed build time, hostname, kernel version:
     https://sources.debian.net/src/charybdis/3.4.2-4/src/version.c.SH/
     https://sources.debian.net/src/charybdis/3.4.2-4/libratbox/src/version.c.SH/
+checkbox-ng:
+  version: 0.18-1
+  issues:
+    - timestamps_in_manpage_generated_by_sphinx
 checkpw:
   version: 1.02-1
   issues:
@@ -4310,6 +4318,10 @@ gle-graphics:
   version: 4.2.4c-6
   issues:
     - timestamps_from_cpp_macros
+glfw3:
+  version: 3.0.4-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 glibc:
   version: 2.19-18
   issues:
@@ -6520,6 +6532,10 @@ jabber-muc:
   version: 0.8-4
   issues:
     - timestamps_from_cpp_macros
+jacal:
+  version: 1b9-5
+  issues:
+    - timestamps_in_documentation_generated_by_texi2html
 jackrabbit:
   version: 2.3.6-1
   issues:
@@ -6762,6 +6778,11 @@ jitsi:
   version: 2.4.4997-1.2
   bugs:
     - 759835
+jlint:
+  version: 3.0-4.5
+  issues:
+    - timestamps_in_documentation_generated_by_texi2html
+    - timestamps_from_cpp_macros
 jmagick:
   version: 6.6.9~20130201-svn99-2
   issues:
@@ -7089,6 +7110,10 @@ krb5:
     - timestamps_in_static_libraries
 krename:
   version: 4.0.9-3
+  issues:
+    - timestamps_from_cpp_macros
+kscope:
+  version: 1.9.4-2
   issues:
     - timestamps_from_cpp_macros
 ktikz:
@@ -8254,6 +8279,10 @@ librep:
   issues:
     - timestamps_in_static_libraries
     - different_due_to_umask
+librelaxng-datatype-java:
+  version: 1.0+ds1-3
+  issues:
+    - timestamps_in_jar
 librostlab:
   version: 1.0.20-4
   issues:
@@ -8715,6 +8744,10 @@ loadlin:
     - different_due_to_umask
   bugs:
     - 779146
+localizer:
+  version: 1.13-2
+  issues:
+    - date_in_maven_plugin_xml
 lockdev:
   version: 1.0.3-1.6
   issues:
@@ -10197,6 +10230,10 @@ nose2:
     - timestamps_in_manpage_generated_by_help2man
 nosquint:
   version: 2.1.9-2
+  issues:
+    - xpi_pack_saves_extra_attributes_in_jar
+nostalgy:
+  version: 0.2.33-1
   issues:
     - xpi_pack_saves_extra_attributes_in_jar
 not-yet-commons-ssl:
@@ -12633,6 +12670,10 @@ qupzilla:
   version: 1.8.3.1~dfsg1-4
   issues:
     - build_id_variation_requiring_further_investigation
+qutecom:
+  version: 2.2.1+dfsg1-5.2
+  issues:
+    - timestamps_from_cpp_macros
 qutemol:
   version: 0.4.1~cvs20081111-3.2
   issues:
