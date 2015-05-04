@@ -431,6 +431,7 @@ date_in_maven_plugin_xml:
   description: |
     maven-plugin-tools includes the date in plugin.xml and plugin-help.xml.  Visible with timezone changes.
   deterministic: True
+  url: http://bugs.debian.org/784265
 timestamps_in_documentation_generated_by_edoc:
   description: |
     The Erland documentation generator EDoc is embedding timestamps in its documentation.
