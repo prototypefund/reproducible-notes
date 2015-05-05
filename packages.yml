@@ -398,7 +398,6 @@ apt:
 apt-cacher-ng:
   version: 0.8.2-1
   issues:
-    - randomness_in_lto_debug_symbols
     - different_due_to_umask
 apt-dater:
   version: 0.9.0-8
@@ -642,7 +641,7 @@ avfs:
 avian:
   version: 1.1.0-4
   issues:
-    - randomness_in_lto_debug_symbols
+    - build_id_variation_requiring_further_investigation
 avinfo:
   version: 1.0.a15+20090102-1
   bugs:
@@ -786,11 +785,6 @@ batik:
   comments: |
     The build script adds a custom 'Build-Id' header including a
     timestamp, the hostname, etc. to MANIFEST.MF files.
-batmand:
-  version: 0.3.2-15
-  issues:
-    - build_id_variation_requiring_further_investigation
-    - randomness_in_lto_debug_symbols
 bb:
   version: 1.3rc1-8.1
   issues:
@@ -1624,8 +1618,6 @@ cloop:
   version: 3.14.1.1
   issues:
     - timestamps_in_tarball
-    - build_id_variation_requiring_further_investigation
-    - randomness_in_lto_debug_symbols
 closure-compiler:
   version: 20130227+dfsg1-8
   issues:
@@ -2979,11 +2971,6 @@ emms:
   version: 4.0-2
   issues:
     - timestamps_in_emacs_autoloads
-encfs:
-  version: 1.7.4-5
-  issues:
-    - build_id_variation_requiring_further_investigation
-    - randomness_in_lto_debug_symbols
 enemies-of-carlotta:
   version: 1.2.6-4
   issues:
@@ -3246,10 +3233,12 @@ evolution-webcal:
   bugs:
     - 759823
 exactimage:
-  version: 0.8.9-7
+  version: 0.9.1-3
   issues:
-    - randomness_in_lto_debug_symbols
     - timestamps_generated_by_docbook_to_man
+  comments: |
+    Records build date:
+    https://sources.debian.net/src/exactimage/0.9.1-3/config/functions/?hl=177#L177
 exec-maven-plugin:
   version: 1.1.1+dfsg-3
   issues:
@@ -7129,10 +7118,6 @@ kvpnc:
   version: 0.9.6a-2.1
   issues:
     - build_id_variation_requiring_further_investigation
-kwalletcli:
-  version: 2.12-3
-  issues:
-    - randomness_in_lto_debug_symbols
 kwin-style-crystal:
   version: 2.2.1-2
   issues:
@@ -8996,10 +8981,6 @@ maitreya:
   version: 7.0.7-1
   issues:
     - timestamps_from_cpp_macros
-makefs:
-  version: 20100306-5
-  issues:
-    - randomness_in_lto_debug_symbols
 makepp:
   version: 2.0.98.5-1
   issues:
@@ -9802,57 +9783,6 @@ munkres:
   version: 1.0.6-1
   issues:
     - use_epydoc
-mupen64plus-audio-sdl:
-  version: 2.0-2
-  issues:
-    - build_id_variation_requiring_further_investigation
-    - randomness_in_lto_debug_symbols
-mupen64plus-core:
-  version: 2.0-7
-  comments: |
-    Fails to build reproducibly due to link-time optimization (-flto)
-  issues:
-    - randomness_in_lto_debug_symbols
-mupen64plus-input-sdl:
-  version: 2.0-4
-  issues:
-    - build_id_variation_requiring_further_investigation
-    - randomness_in_lto_debug_symbols
-mupen64plus-rsp-hle:
-  version: 2.0-3
-  issues:
-    - build_id_variation_requiring_further_investigation
-    - randomness_in_lto_debug_symbols
-mupen64plus-rsp-z64:
-  version: 2.0.0-2
-  issues:
-    - build_id_variation_requiring_further_investigation
-    - randomness_in_lto_debug_symbols
-mupen64plus-ui-console:
-  version: 2.0-2
-  issues:
-    - build_id_variation_requiring_further_investigation
-    - randomness_in_lto_debug_symbols
-mupen64plus-video-arachnoid:
-  version: 2.0.0-2
-  issues:
-    - build_id_variation_requiring_further_investigation
-    - randomness_in_lto_debug_symbols
-mupen64plus-video-glide64:
-  version: 2.0.0-2
-  issues:
-    - build_id_variation_requiring_further_investigation
-    - randomness_in_lto_debug_symbols
-mupen64plus-video-rice:
-  version: 2.0-3
-  issues:
-    - build_id_variation_requiring_further_investigation
-    - randomness_in_lto_debug_symbols
-mupen64plus-video-z64:
-  version: 2.0.0-2
-  issues:
-    - build_id_variation_requiring_further_investigation
-    - randomness_in_lto_debug_symbols
 muse-el:
   version: 3.20+dfsg-0.1
   issues:
@@ -11225,14 +11155,6 @@ pavumeter:
   version: 0.9.3-4
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-pax:
-  version: 1:20140703-2
-  comments: |
-    Use gcc to go from .c to final executable directly, having
-    temporary .o files in debug symbols, resulting in different
-    build id.
-  issues:
-    - randomness_in_lto_debug_symbols
 pbuilder:
   version: 0.215+nmu3
   issues:
@@ -11911,7 +11833,6 @@ py3cairo:
   version: 1.10.0+dfsg-4
   issues:
     - randomness_in_documentation_generated_by_sphinx
-    - randomness_in_lto_debug_symbols
 pyabiword:
   version: 0.8.0-11
   issues:
@@ -12701,9 +12622,9 @@ r-cran-readmzxmldata:
 r-cran-rniftilib:
   version: 0.0-32-1
   issues:
-    - build_id_variation_requiring_further_investigation
-    - randomness_in_lto_debug_symbols
     - timestamps_in_description_files_generated_by_r-base-dev
+  comments: |
+    There is also a date in Rniftilib.so
 r-cran-rsdmx:
   version: 0.4.5+dfsg-1
   issues:
@@ -12897,9 +12818,10 @@ rlpr:
     - timestamps_from_cpp_macros
 rna-star:
   version: 2.4.0i-1
-  issues:
-    - build_id_variation_requiring_further_investigation
-    - randomness_in_lto_debug_symbols
+  comments: |
+    Records the build date and time in STAR:
+    https://sources.debian.net/src/rna-star/2.4.0k-1/source/Makefile/?hl=27#L27
+    https://sources.debian.net/src/rna-star/2.4.0k-1/source/Parameters.cpp/?hl=275#L275
 roarplaylistd:
   version: 0.1.9-1
   comments: |
@@ -12945,10 +12867,6 @@ rrep:
   version: 1.3.6-1
   issues:
     - timezone_variance_because_of_automake_mdate
-rs:
-  version: 20140609-3
-  issues:
-    - randomness_in_lto_debug_symbols
 rsbackup:
   version: 1.1-4
   issues:
@@ -13782,8 +13700,6 @@ simgrid:
   version: 3.11.1-9
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-    - timezones_manpages_podman
-    - randomness_in_lto_debug_symbols
 simh:
   version: 3.8.1-5
   issues:
@@ -14379,10 +14295,6 @@ sysstat:
   version: 11.0.1-1
   issues:
     - timestamps_from_cpp_macros
-systemd:
-  version: 215-14
-  issues:
-    - randomness_in_lto_debug_symbols
 systemtap:
   version: 2.6-0.2
   issues:
