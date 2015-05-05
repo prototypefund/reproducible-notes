@@ -316,10 +316,6 @@ aolserver4-nssqlite3:
   version: 0.9-2
   issues:
     - timestamps_from_cpp_macros
-apache-log4j1.2:
-  version: 1.2.17-5
-  issues:
-    - timestamp_in_java_bnd_manifest
 apache-mime4j:
   version: 0.7.2-3
   issues:
@@ -928,10 +924,6 @@ binkd:
   version: 1.0.4-1
   issues:
     - timestamps_from_cpp_macros
-binutils:
-  version: 2.25-6
-  bugs:
-    - 774429
 binutils-m68hc1x:
   version: 1:2.18-4
   issues:
@@ -1119,12 +1111,6 @@ bpython:
   version: 0.12-1.2
   issues:
     - random_order_in_egg_info_top_level_txt
-br.ispell:
-  version: 3.0~beta4-17
-  issues:
-    - timestamps_in_gzip_headers
-  bugs:
-    - 777715
 brailleutils:
   version: 1.2.3-1
   issues:
@@ -2276,14 +2262,6 @@ debdelta:
     - different_due_to_umask
   bugs:
     - 777730
-debhelper:
-  version: 9.20150101
-  comments: |
-    debhelper is self-hosted. So until our “build reproducibility” patches
-    makes there way in unstable, it will not build reproducibly.
-  bugs:
-    - 759886
-    - 759895
 debian-builder:
   version: 1.8
   issues:
@@ -2763,12 +2741,6 @@ dune-localfunctions:
   version: 2.3.1-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-dutch:
-  version: 1:2.10-2
-  issues:
-    - timestamps_in_gzip_headers
-  bugs:
-    - 777325
 dvbsnoop:
   version: 1.4.50-5
   issues:
@@ -2992,12 +2964,6 @@ ent:
   version: 1.1debian-4
   issues:
     - timestamps_in_documentation_generated_by_asciidoc
-eo-spell:
-  version: 2.1.2000.02.25-49
-  issues:
-    - timestamps_in_gzip_headers
-  bugs:
-    - 779161
 eperl:
   version: 2.2.14-21
   issues:
@@ -3193,12 +3159,6 @@ eso-midas:
   version: 13.09pl1.4-1
   issues:
     - different_due_to_umask
-espa-nol:
-  version: 1.11-9
-  issues:
-    - timestamps_in_gzip_headers
-  bugs:
-    - 779162
 espresso:
   version: 5.1+dfsg-3
   issues:
@@ -3402,10 +3362,6 @@ felix-shell-tui:
   issues:
     - timestamps_in_maven_pom_files
     - timestamp_in_java_bnd_manifest
-felix-utils:
-  version: 1.6.0-1
-  issues:
-    - user_in_java_jar_manifest
 fence-agents:
   version: 4.0.7.1-2.1
   comments: |
@@ -8484,10 +8440,6 @@ libuninum:
   version: 2.7-1.1
   issues:
     - timestamps_from_cpp_macros
-libupnp:
-  version: 1:1.6.19+git20141001-1
-  bugs:
-    - 774518
 libvirt-python:
   version: 1.2.9-1
   bugs:
@@ -9831,18 +9783,6 @@ mysecureshell:
   version: 2.0-1
   issues:
     - timestamps_from_cpp_macros
-myspell-pt-br:
-  version: 20131030-4
-  issues:
-    - timestamps_in_gzip_headers
-  bugs:
-    - 778259
-myspell.pt:
-  version: 20091013-7
-  issues:
-    - timestamps_in_gzip_headers
-  bugs:
-    - 778258
 mysql-connector-net:
   version: 6.4.3-2
   issues:
@@ -10887,13 +10827,6 @@ opensp:
   version: 1.5.2-11.1
   issues:
     - timestamps_in_pdf_generated_by_latex
-openssl:
-  version: 1.0.1i-2
-  comments: |
-    Fixed upstream and in experimental:
-    https://git.openssl.org/gitweb/?p=openssl.git;a=commit;h=264212b643c621d7e89079c1d2b76f87beec7ceb
-  issues:
-    - timestamps_in_static_libraries
 openstack-doc-tools:
   version: 0.19-2
   issues:
@@ -11717,10 +11650,6 @@ procmail:
     - timestamps_in_gzip_headers
   bugs:
     - 774367
-procps:
-  version: 2:3.3.9-8
-  bugs:
-    - 775624
 profitbricks-client:
   version: 1.0.0-2
   issues:
@@ -13214,11 +13143,6 @@ ruby-popen4:
   version: 0.1.4-1
   issues:
     - timestamps_in_gemspec_files
-ruby-prawn:
-  version: 1.3.0
-  bugs:
-    - 782890
-    - 782891
 ruby-pygments.rb:
   version: 0.5.4~ds1-3
   issues:
@@ -15968,12 +15892,6 @@ xtrlock:
     - not_using_dh_builddeb
   bugs:
     - 777351
-xuxen-eu-spell:
-  version: 0.4.20081029-9
-  issues:
-    - timestamps_in_gzip_headers
-  bugs:
-    - 777352
 xvier:
   version: 1.0-7.5
   issues:
