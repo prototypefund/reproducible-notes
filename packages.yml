@@ -6169,6 +6169,10 @@ http-icons:
   comments: |
     GIF images are optimized while building by converting to PNM and back to GIF.
     The conversion back to GIF introduces the variation.
+httperf:
+  version: 0.9.0-2
+  issues:
+    - timestamps_from_cpp_macros
 httpfs2:
   version: 0.1.4-1
   issues:
