@@ -1478,6 +1478,10 @@ charybdis:
     Embed build time, hostname, kernel version:
     https://sources.debian.net/src/charybdis/3.4.2-4/src/version.c.SH/
     https://sources.debian.net/src/charybdis/3.4.2-4/libratbox/src/version.c.SH/
+check:
+  version: 0.9.10-6.1
+  issues:
+    - timezone_variance_because_of_automake_mdate
 checkbox-ng:
   version: 0.18-1
   issues:
@@ -1499,6 +1503,11 @@ cheese:
   version: 3.14.1-2
   issues:
     - timestamps_generated_by_docbook_to_man
+chemical-mime-data:
+  version: 0.1.94-6
+  comments: |
+    Capture build time:
+    https://sources.debian.net/src/chemical-mime-data/0.1.94-6/xsl/cmd_website.xsl/?hl=231#L231
 chemical-structures:
   version: 2.2.dfsg.0-12
   issues:
@@ -4820,6 +4829,10 @@ groovy2:
   version: 2.2.2+dfsg-3
   issues:
     - random_order_in_documentation_generated_by_javadoc
+grub:
+  version: 0.97-70
+  issues:
+    - timestamps_in_documentation_generated_by_texi2html
 gsasl:
   version: 1.8.0-6
   issues:
@@ -7926,6 +7939,13 @@ libkarma:
   version: 0.1.2-2.3
   issues:
     - timestamps_in_pe_binaries
+libkcompactdisc:
+  version: 4:4.12.3-2
+  issues:
+    - timestamps_from_cpp_macros
+  comments: |
+    __DATE__ used:
+    https://sources.debian.net/src/libkcompactdisc/4:4.12.3-2/wmlib/wm_helpers.c/?hl=70#L70
 libkinosearch1-perl:
   version: 1.01-1
   issues:
@@ -8468,6 +8488,10 @@ libuninum:
   version: 2.7-1.1
   issues:
     - timestamps_from_cpp_macros
+libvigraimpex:
+  version: 1.9.0+dfsg-10
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 libvirt-python:
   version: 1.2.9-1
   bugs:
@@ -8953,6 +8977,10 @@ mailto:
     - not_using_dh_builddeb
   bugs:
     - 777413
+mailutils:
+  version: 1:2.99.98-2
+  issues:
+    - timezone_variance_because_of_automake_mdate
 maint-guide:
   version: 1.2.35
   issues:
@@ -9928,6 +9956,10 @@ nedit:
   version: 1:5.6a-2
   comments: |
     Contain dates in HTML documentation.
+nepomuk-core:
+  version: 4:4.14.0-1
+  issues:
+    - timestamps_in_h_generated_by_qdbusxml2cpp
 netcdf:
   version: 1:4.1.3-7.2
   issues:

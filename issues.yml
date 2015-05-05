@@ -8,6 +8,12 @@ timestamps_from_cpp_macros:
     unreproducible.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsFromCPPMacros
   deterministic: True
+timestamps_in_h_generated_by_qdbusxml2cpp:
+  description: |
+    qdbusxml2cpp uses a timestamp for its anti-double-inclusion
+    definition in C header it generates.
+    e.g. '#define QUERYINTERFACE_H_1425457739'
+  deterministic: True
 timestamps_in_documentation_generated_by_doxygen:
   description: |
     If Doxyfile contains HTML_TIMESTAMP = YES, Doxygen will add a
