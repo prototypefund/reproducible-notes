@@ -4526,6 +4526,10 @@ gnome-documents:
   version: 3.14.2-1
   comments: |
     pdfunite (poppler) pdf has unknown changes in
+gnome-keyring:
+  version: 3.16.0-2
+  issues:
+   - timestamps_in_manpages_generated_by_docbook_xsl
 gnome-keyring-sharp:
   version: 1.0.0-4
   issues:
