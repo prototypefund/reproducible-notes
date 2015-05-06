@@ -7116,6 +7116,10 @@ kiwi:
   version: 1.9.22-2
   issues:
     - timestamps_in_documentation_generated_by_pydoctor
+  bugs:
+    - 784586
+  commentS: |
+    fixed in 1.9.22-3, uploaded to unstable.
 klibc:
   version: 2.0.4-2
   issues:
@@ -14266,7 +14270,9 @@ substance:
 subversion:
   version: 1.8.10-5
   issues:
-    - timestamps_in_documentation_generated_by_pydoctor
+    - ftbfs_werror_equals
+  comments: |
+    passes build flags onto swig, which doesn't support -Werror=date-time
 sunpinyin:
   version: 2.0.3+git20140127-1
   issues:
