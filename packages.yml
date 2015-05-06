@@ -13888,6 +13888,12 @@ smartlist:
     - different_due_to_umask
   bugs:
     - 777445
+smcroute:
+  version: 2.0.0-5
+  comments: |
+    Embeds build time:
+    https://sources.debian.net/src/smcroute/2.0.0-5/configure.ac/?hl=184#L184
+    https://sources.debian.net/src/smcroute/2.0.0-5/smcroute.c/?hl=49#L49
 sml-mode:
   version: 5.0-1
   issues:
