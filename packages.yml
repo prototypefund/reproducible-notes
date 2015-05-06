@@ -2543,6 +2543,10 @@ dispmua:
   version: 1.6.9-2
   issues:
     - timestamps_in_jar
+disruptor:
+  version: 3.3.2-1
+  issues:
+    - timestamps_in_maven_pom_files
 distcc:
   version: 3.1-6.1
   issues:
@@ -6327,6 +6331,10 @@ imagemagick:
     - timestamps_from_cpp_macros
   bugs:
     - 783933
+imagetooth:
+  version: 2.0.1-1.1
+  issues:
+    - timestamps_in_gemspec_files
 imapcopy:
   version: 1.04-2
   issues:
@@ -7259,6 +7267,10 @@ lava-server:
     - timestamps_in_manpage_generated_by_sphinx
   bugs:
     - 782386
+lava-tool:
+  version: 0.12-1
+  issues:
+    - timestamps_in_manpage_generated_by_sphinx
 lavapdu:
   version: 0.0.4-1
   issues:
@@ -8644,6 +8656,10 @@ lifelines:
   version: 3.0.61-2
   issues:
     - timestamps_in_pdf_generated_by_latex
+lift:
+  version: 2.0.0-1
+  issues:
+    - timestamps_in_manpage_generated_by_sphinx
 lightproof:
   version: 1.5+git20140515-1
   bugs:
@@ -9228,6 +9244,11 @@ maven-plugin-tools:
   version: 3.2-2
   issues:
     - timestamps_in_maven_pom_files
+    - date_in_maven_plugin_xml
+maven-processor-plugin:
+  version: 2.0.8-1
+  issues:
+    - random_order_in_maven_plugin_xml
     - date_in_maven_plugin_xml
 maven-project-info-reports-plugin:
   version: 2.4-2
@@ -9840,6 +9861,10 @@ munkres:
   version: 1.0.6-1
   issues:
     - use_epydoc
+murano:
+  version: 2015.1.0-1
+  issues:
+    - timestamps_in_documentation_generated_by_sphinx
 muse-el:
   version: 3.20+dfsg-0.1
   issues:
@@ -12898,6 +12923,10 @@ root-system:
   version: 5.34.19+dfsg-1.1
   issues:
     - timestamps_from_cpp_macros
+routino:
+  version: 2.7.3-1
+  issues:
+    - timestamps_in_manpages_generated_by_docbook2x
 rp-pppoe:
   version: 3.8-3
   issues:
