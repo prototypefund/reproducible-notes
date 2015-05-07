@@ -784,6 +784,10 @@ basket:
   version: 2.10~beta+git6fed731-1
   issues:
     - timestamps_from_cpp_macros
+bastet:
+  version: 0.43-3
+  issues:
+    - different_due_to_umask
 batik:
   version: 1.7+dfsg-4
   comments: |
@@ -2023,6 +2027,10 @@ curtain:
   version: 0.3-1
   bugs:
     - 747785
+cutechess:
+  version: 20111114+0.4.2+0.0.1-1
+  issues:
+    - timestamps_in_documentation_generated_by_asciidoc
 cutter-testing-framework:
   version: 1.2.4-1
   bugs:
@@ -6048,6 +6056,10 @@ heat:
   version: 2014.1.3-7
   issues:
     - randomness_in_documentation_generated_by_sphinx
+heat-cfntools:
+  version: 1.2.7-2
+  issues:
+    - timestamps_in_manpage_generated_by_sphinx
 heimdal:
   version: 1.6~rc2+dfsg-9
   comments: |
@@ -6431,6 +6443,10 @@ ioquake3:
   version: 1.36+u20150412+dfsg1-1
   comments: |
     Embed date in binary.
+ipband:
+  version: 0.8.1-3
+  issues:
+    - timestamps_from_cpp_macros
 iproute2:
   version: 3.16.0-2
   issues:
@@ -6606,6 +6622,10 @@ jacktrip:
   version: 1.0.5.patch2-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+jacktools:
+  version: 20131226-1
+  issues:
+    - timestamps_in_documentation_generated_by_asciidoc
 jadetex:
   version: 3.13-14
   issues:
@@ -7118,7 +7138,7 @@ kiwi:
     - timestamps_in_documentation_generated_by_pydoctor
   bugs:
     - 784586
-  commentS: |
+  comments: |
     fixed in 1.9.22-3, uploaded to unstable.
 klibc:
   version: 2.0.4-2
@@ -9621,6 +9641,10 @@ mongo-java-driver:
   version: 2.12.4-1
   issues:
     - timestamps_in_maven_pom_files
+monkeysign:
+  version: 2.0.2
+  bugs:
+    - 784602
 mono:
   version: 3.2.8+dfsg-9
   issues:
@@ -9943,6 +9967,10 @@ nagios-nrpe:
   comments: |
     Embed build time:
     https://sources.debian.net/src/nagios-nrpe/2.15-1/update-version/
+nailgun:
+  version: 0.9.1-2
+  issues:
+    - date_in_maven_plugin_xml
 namazu2:
   version: 2.0.21-10
   comments: |
@@ -12306,6 +12334,10 @@ python-pyaudio:
   version: 0.2.8-1
   issues:
     - random_order_in_python_environment_pickle
+python-pypump:
+  version: 0.3+git20130823.1.97bffc6-1
+  issues:
+    - timestamps_in_documentation_generated_by_sphinx
 python-pysam:
   version: 0.7.7-1
   bugs:
@@ -13029,6 +13061,10 @@ ruby-benchmark-suite:
     - timestamps_in_ruby_documentation
 ruby-bert:
   version: 1.1.6-1
+  issues:
+    - timestamps_in_gemspec_files
+ruby-blankstate:
+  version: 2.1.2.4-4
   issues:
     - timestamps_in_gemspec_files
 ruby-builder:
@@ -14012,6 +14048,10 @@ sox:
   version: 14.4.1-4
   issues:
     - timestamps_from_cpp_macros
+soya-doc:
+  version: 0.14-2
+  issues:
+    - different_due_to_umask
 sozi:
   version: 12.05-1
   bugs:
@@ -14094,6 +14134,10 @@ sphinxbase:
   version: 0.8-6
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+sphinxcontrib-youtube:
+  version: 1.0-1
+  issues:
+    - timestamps_in_python_version_numbers
 sphinxsearch:
   version: 2.2.5-1
   issues:
@@ -14692,6 +14736,10 @@ tiptop:
     http://sources.debian.net/src/tiptop/2.2-2/src/Makefile.in/?hl=50:53#L50
     Not defining the constants should be enough:
     http://sources.debian.net/src/tiptop/2.2-2/src/version.c/?hl=23:33#L23
+tircd:
+  version: 0.30-1
+  issues:
+    - different_due_to_umask
 tkgate:
   version: 2.0~b10-4
   issues:
