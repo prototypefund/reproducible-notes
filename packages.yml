@@ -3265,6 +3265,11 @@ expeyes:
   version: 3.3.2-1
   issues:
     - ftbfs_werror_equals
+eyed3:
+  version: 0.6.18-1
+  comments: |
+    Embeds build date into manpage.
+    https://sources.debian.net/src/eyed3/0.6.18-1/configure/#L1677
 ezstream:
   version: 0.5.6~dfsg-1
   issues:
@@ -8868,8 +8873,8 @@ logback:
     - random_order_in_documentation_generated_by_javadoc
 logbook:
   version: 0.7.0-1
-  comments: |
-    Record build date in Python package version!
+  issues:
+    - timestamps_in_python_version_numbers
 logidee-tools:
   version: 1.2.16
   issues:
@@ -12785,6 +12790,11 @@ racket:
   version: 6.1-4
   issues:
     - debbindiff_runs_forever
+radare2:
+  version: 0.9.6-3.1
+  comments: |
+    Embeds build date into source.
+    https://sources.debian.net/src/radare2/0.9.6-3.1/binr/blob/version.c/#L7
 radare2-bindings:
   version: 0.9.6-4
   issues:
@@ -14679,6 +14689,10 @@ ticcutils:
   version: 0.7-2
   issues:
     - timestamps_from_cpp_macros
+ticgit:
+  version: 1.0.2.17-2
+  issues:
+    - timestamps_in_gemspec_files
 tickr:
   version: 0.6.4-1
   issues:
