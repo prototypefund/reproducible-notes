@@ -1560,6 +1560,12 @@ cipux-rbac:
   version: 3.4.0~svn2868-1
   issues:
     - timezones_manpages_podman
+sofia-sip:
+  version: 1.12.11+20110422.1-2
+  comments: |
+    Blacklisted because helmut said so because doxygen is somehow broken...
+  issues:
+    - blacklisted_on_jenkins
 ck:
   version: 0.4.4-1
   comments: |
