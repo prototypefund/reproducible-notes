@@ -4814,6 +4814,10 @@ gramadoir:
   version: 0.7-2
   bugs:
     - 778937
+grap:
+  version: 1.44-1
+  issues:
+    - captures_kernel_version
 grapefruit:
   version: 0.1~a3+dfsg-1
   issues:
@@ -6408,6 +6412,8 @@ kde4libs:
     https://sources.debian.net/src/kde4libs/4:4.14.2-5/config-compiler.h.cmake/?hl=4#L4
     https://sources.debian.net/src/kde4libs/4:4.14.2-5/kdeui/dialogs/kbugreport.cpp/?hl=494#L494
     Also the build date is recorded in kdecmake.1 manpage.
+  issues:
+    - captures_kernel_version
 kdevelop:
   version: 4:4.7.0-1
   issues:
@@ -14774,6 +14780,7 @@ virtuoso-opensource:
   version: 6.1.6+dfsg2-2
   issues:
     - timestamps_from_cpp_macros
+    - captures_kernel_version
 visp:
   version: 2.9.0-3
   issues:

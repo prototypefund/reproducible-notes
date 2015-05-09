@@ -576,3 +576,6 @@ timestamps_in_documentation_generated_by_rdtool:
     RD is a document formatter used for ruby programs. When generating manpages, it embeds the
     current month and year.
     This is currently only detected on the 1st of a month, because we are varying the timezone to span more than a day.
+captures_kernel_version:
+  description: |
+    Stores the kernel version (uname -a, /proc/version, etc.) output, normally for debugging purposes.
