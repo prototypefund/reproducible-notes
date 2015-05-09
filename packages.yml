@@ -8433,8 +8433,8 @@ magyarispell:
 mailcrypt:
   version: 3.5.9-7
   issues:
-    - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+    - timestamps_in_documentation_generated_by_texi2html
   bugs:
     - 777506
 maildir-utils:

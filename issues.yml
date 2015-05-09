@@ -214,7 +214,7 @@ timestamps_in_pdf_generated_by_apache_fop:
 timestamps_in_documentation_generated_by_texi2html:
   description: |
     eg. "Created on March 1, 2015 by texi2html 1.82"
-    Wait for https://bugs.debian.org/783475, then use --use-date=`dpkg-parsechangelog -S date`
+    Wait for https://bugs.debian.org/783475 - then use --use-date=`dpkg-parsechangelog -S date`
 randomness_in_html_generated_by_texi2html:
   description: |
     texi2html's output varies, probably because of elements being processed
