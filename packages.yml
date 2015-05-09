@@ -2674,6 +2674,10 @@ dot-forward:
     - different_due_to_umask
   bugs:
     - 776760
+downthemall:
+  version: 2.0.18-1
+  issues:
+    - xpi_pack_saves_extra_attributes_in_jar
 doxia:
   version: 1.1.4-2
   issues:
@@ -3276,6 +3280,10 @@ exo:
   version: 0.10.2-4
   comments: |
     No clue. But seems to be similar to garcon.
+exonerate:
+  version: 2.2.0-6
+  issues:
+    - timestamps_from_cpp_macros
 expeyes:
   version: 3.3.2-1
   issues:
@@ -6425,6 +6433,10 @@ kapptemplate:
   issues:
     - users_and_groups_in_tarball
     - different_due_to_umask
+katarakt:
+  version: 0.0+git2014.09.11-1
+  issues:
+    - timestamps_in_documentation_generated_by_asciidoc
 katoob:
   version: 0.5.9.1-4.1
   bugs:
@@ -9042,6 +9054,10 @@ modplugtools:
     Uses __DATE__ and __TIME__:
     https://sources.debian.net/src/modplugtools/0.5.3-1.1/mp123/modplug123.c/?hl=164,171#L164
     Does not fail to build, so does not use dpkg-buildflags.
+module-assistant:
+  version: 0.11.7
+  issues:
+    - different_due_to_umask
 moin:
   version: 1.9.8-1
   issues:
@@ -9267,6 +9283,10 @@ muddleftpd:
     Embed build time:
     http://sources.debian.net/src/muddleftpd/1.3.13.1-4.3/src/version.c/?hl=23#L23
     http://sources.debian.net/src/muddleftpd/1.3.13.1-4.3/src/Makefile.in/?hl87#L87
+multiboot:
+  version: 0.6.96+20101113-1
+  issues:
+    - timezone_variance_because_of_automake_mdate
 multiverse-core:
   version: 0.7.0-3
   issues:
@@ -12265,6 +12285,10 @@ realmd:
   version: 0.15.1-1
   issues:
     - timestamps_generated_by_docbook_to_man
+reclass:
+  version: 1.4.1-1
+  issues:
+    - timestamps_in_manpage_generated_by_sphinx
 recutils:
   version: 1.7-1
   issues:
@@ -14639,7 +14663,7 @@ universalindentgui:
   issues:
     - timestamps_from_cpp_macros
 unknown-horizons:
-  version: 2014.1+ds1-1
+  version: 2013.3+ds1-1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
 unzip:
