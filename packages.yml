@@ -12544,6 +12544,10 @@ ruby-facets:
   version: 2.9.3-2
   issues:
     - timestamps_in_ruby_documentation
+ruby-fast-xs:
+  version: 0.8.0-3
+  issues:
+    - timestamps_in_gemspec_files
 ruby-flexmock:
   version: 0.9.0-1
   issues:
@@ -12566,6 +12570,10 @@ ruby-github-markup:
     - timestamps_in_ruby_documentation
 ruby-globalhotkeys:
   version: 0.3.2-4
+  issues:
+    - timestamps_in_gemspec_files
+ruby-god:
+  version: 0.13.6-1
   issues:
     - timestamps_in_gemspec_files
 ruby-haml:
@@ -12657,6 +12665,10 @@ ruby-merb-haml:
   version: 1.1.3-3
   issues:
     - timestamps_in_gemspec_files
+ruby-merb-helpers:
+  version: 1.1.3-1
+  issues:
+    - timestamps_in_gemspec_files
 ruby-merb-param-protection:
   version: 1.1.3-2
   issues:
@@ -12689,8 +12701,16 @@ ruby-net-netrc:
   version: 0.2.2-2
   issues:
     - timestamps_in_gemspec_files
+ruby-odbc:
+  version: 0.99995-2
+  issues:
+    - timestamps_in_gemspec_files
 ruby-ole:
   version: 1.2.11.7-3
+  issues:
+    - timestamps_in_gemspec_files
+ruby-opengl:
+  version: 0.60.1+dfsg2-3
   issues:
     - timestamps_in_gemspec_files
 ruby-org:
