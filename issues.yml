@@ -459,6 +459,7 @@ timestamps_in_ghc_interfaces:
   description: |
     ghc includes the modification time of various files in --show-iface output.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampInGhcInterfaces
+  deterministic: True
 timestamps_in_java_stapler_files:
   description: |
     Another variation of timestamps_in_maven_version_files where someone's
