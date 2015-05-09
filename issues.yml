@@ -460,6 +460,9 @@ timestamps_in_ghc_interfaces:
     ghc includes the modification time of various files in --show-iface output.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampInGhcInterfaces
   deterministic: True
+random_filenames_in_ghc_debug_symbols:
+  description: |
+    ghc includes a random filename like /tmp/ghc12345_0/ghc12345_ in its debugsym packages' files.
 timestamps_in_java_stapler_files:
   description: |
     Another variation of timestamps_in_maven_version_files where someone's
