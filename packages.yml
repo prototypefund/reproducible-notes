@@ -6878,6 +6878,10 @@ libaqbanking:
     - timestamps_in_documentation_generated_by_doxygen
     - timezones_manpages_podman
     - timestamps_generated_by_docbook_to_man
+  comments: |
+    Embeds build time:
+    https://sources.debian.net/src/libaqbanking/5.4.3beta-2/configure.ac/#L131
+    https://sources.debian.net/src/libaqbanking/5.4.3beta-2/src/plugins/backends/aqhbci/plugin/header.xml.in/#L4
 libasm4-java:
   version: 5.0.3-1
   issues:
@@ -13457,6 +13461,8 @@ smcroute:
     Embeds build time:
     https://sources.debian.net/src/smcroute/2.0.0-5/configure.ac/?hl=184#L184
     https://sources.debian.net/src/smcroute/2.0.0-5/smcroute.c/?hl=49#L49
+  bugs:
+    - 784694
 sml-mode:
   version: 5.0-1
   issues:
