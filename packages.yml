@@ -8159,6 +8159,8 @@ linux:
     - debbindiff_runs_forever
   bugs:
     - 769844
+  comments: |
+    The linux kernel package can be build reproducibly if the patches from #769844 are applied.
 linux-minidisc:
   version: 0.9.13-1
   comments: |
