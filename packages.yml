@@ -11866,6 +11866,12 @@ python-ssdeep:
   version: 3.1+dfsg-1
   issues:
     - random_order_in_egg_info_top_level_txt
+python-support:
+  version: 1.0.15
+  bugs:
+    - 588746
+  comments: |
+    dh_pysupport doesn't reset the umask, this makes packages using it build unreproducible when the umask varies...
 python-tidylib:
   version: 0.2.1~dfsg-2
   issues:
