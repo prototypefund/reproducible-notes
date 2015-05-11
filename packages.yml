@@ -367,10 +367,11 @@ apophenia:
   issues:
     - timestamps_in_documentation_generated_by_doxygen
 apparmor:
-  version: 2.9.0-3
+  version: 2.9.2-3
   issues:
     - timestamps_in_pdf_generated_by_latex
-    - timezones_manpages_podman
+  comments: |
+    `/ID` value actually seems to be timezone dependent.
 apport:
   version: 2.16.2-1
   issues:
@@ -6717,13 +6718,7 @@ lava-coordinator:
 lava-dispatcher:
   version: 2015.03-1
   issues:
-    - timestamps_in_manpage_generated_by_sphinx
-lava-server:
-  version: 2015.03-1
-  issues:
-    - timestamps_in_manpage_generated_by_sphinx
-  bugs:
-    - 782386
+    - different_due_to_umask
 lava-tool:
   version: 0.12-1
   issues:
@@ -13035,8 +13030,8 @@ samplv1:
     - timestamps_from_cpp_macros
 sane-backends:
   version: 1.0.24-9
-  comments: |
-    Timestamps in custom doc tool (sane-desc) and dvips
+  issues:
+    - timestamps_in_dvi_generated_by_latex
 sanlock:
   version: 2.2-2
   issues:
