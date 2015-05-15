@@ -1464,10 +1464,6 @@ cfourcc:
     - timezones_manpages_podman
   bugs:
     - 782206
-cgal:
-  version: 4.5-2
-  issues:
-    - different_due_to_umask
 cgiemail:
   version: 1.6-37
   issues:
@@ -8380,12 +8376,6 @@ mailfront:
     - different_due_to_umask
   bugs:
     - 777431
-mailman:
-  version: 2.1.18-2
-  issues:
-    - different_due_to_umask
-  bugs:
-    - 783151
 mailman-api:
   version: 0.2.9-1
   issues:
