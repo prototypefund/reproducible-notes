@@ -122,7 +122,7 @@ not_using_dh_builddeb:
     calls `dpkg --build` directly should have a prior call to:
     `BUILD_DATE := $(shell dpkg-parsechangelog --show-field Date)`
     and
-    `find debian/tmp -depth -newermt '$(BUILD_DATE)' -print0 | \
+    `find debian/tmp -newermt '$(BUILD_DATE)' -print0 | \
          xargs -0r touch --no-dereference --date='$(BUILD_DATE)'`
     Another option is to convert the build system to `dh`.
   url: https://wiki.debian.org/ReproducibleBuilds/Howto#Members_of_control.tar_and_data.tar_have_varying_mtimes
