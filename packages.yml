@@ -992,12 +992,6 @@ bisonc++:
     - timestamps_in_gzip_headers
   bugs:
     - 777318
-bitmap-mule:
-  version: 8.5+0.20030825.0433-15
-  issues:
-    - timestamps_in_gzip_headers
-  bugs:
-    - 777293
 blam:
   version: 1.8.9-4
   issues:
@@ -2295,14 +2289,6 @@ deap:
   version: 1.0.1-3+deb8u1
   issues:
     - timestamps_in_pdf_generated_by_latex
-debarchiver:
-  version: 0.10.3
-  comments: |
-    Embed build time in debarchiver.1
-  issues:
-    - timestamps_in_gzip_headers
-  bugs:
-    - 777015
 debconf:
   version: 1.5.55
   bugs:
