@@ -120,7 +120,7 @@ not_using_dh_builddeb:
   description: |
     We currently adjust the file mtimes in dh_builddeb. Packages which
     calls `dpkg --build` directly should have a prior call to:
-    `BUILD_DATE := $(shell dpkg-parsechangelog --show-field Date)`
+    `BUILD_DATE := $(shell dpkg-parsechangelog --show-field Date|date -u)`
     and
     `find debian/tmp -depth -newermt '$(BUILD_DATE)' -print0 | \
          xargs -0r touch --no-dereference --date='$(BUILD_DATE)'`
@@ -201,7 +201,7 @@ timestamps_in_pdf_generated_by_apache_fop:
 timestamps_in_documentation_generated_by_texi2html:
   description: |
     eg. "Created on March 1, 2015 by texi2html 1.82"
-    Wait for https://bugs.debian.org/783475 - then use --use-date=`dpkg-parsechangelog -S date`
+    Wait for https://bugs.debian.org/783475 - then use --use-date=`dpkg-parsechangelog -S date|date -u`
 randomness_in_html_generated_by_texi2html:
   description: |
     texi2html's output varies, probably because of elements being processed
