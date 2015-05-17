@@ -185,12 +185,9 @@ alienblaster:
   bugs:
     - 778479
 allegro4.4:
-  version: 2:4.4.2-5
+  version: 2:4.4.2-6
   issues:
-    - timestamps_in_tarball
     - different_due_to_umask
-  bugs:
-    - 778231
 alliance:
   version: 5.0-20120515-6
   issues:
@@ -764,13 +761,6 @@ barnowl:
     Random order of files and timestamps in zip file with .par extension.
   issues:
     - different_due_to_umask
-base-files:
-  version: 9
-  issues:
-    - not_using_dh_builddeb
-    - different_due_to_umask
-  bugs:
-    - 774498
 basemap:
   version: 1.0.7+dfsg-1
   issues:
@@ -2415,12 +2405,9 @@ device-tree-compiler:
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_dvi_generated_by_latex
 device3dfx:
-  version: 2013.08.08-1
+  version: 2013.08.08-2
   issues:
-    - timestamps_in_tarball
     - different_due_to_umask
-  bugs:
-    - 778213
 devtodo:
   version: 0.1.20-6
   bugs:
@@ -13065,13 +13052,9 @@ sludge:
   issues:
     - timestamps_from_cpp_macros
 smartlist:
-  version: 3.15-23
+  version: 3.15-24
   issues:
-    - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
     - different_due_to_umask
-  bugs:
-    - 777445
 smcroute:
   version: 2.0.0-5
   comments: |
@@ -14294,12 +14277,9 @@ urjtag:
   issues:
     - lc_messages_randomness
 uruk:
-  version: 20140627-1
+  version: 20150401-1
   issues:
     - not_using_dh_builddeb
-    - timestamps_in_gzip_headers
-  bugs:
-    - 776968
 usb-modeswitch-data:
   version: 20150115-1
   issues:
