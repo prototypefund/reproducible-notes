@@ -485,7 +485,7 @@ asciidoc:
 asciidoctor:
   version: 0.1.4-3
   issues:
-    - timestamps_manually_added_needs_further_investigation
+    - timestamps_in_ruby_documentation
 asis:
   version: 2014-4
   issues:
@@ -899,7 +899,6 @@ bibclean:
 bible-kjv:
   version: 4.26
   issues:
-    - timestamps_in_gzip_headers
     - not_using_dh_builddeb
   bugs:
     - 777294
@@ -1015,7 +1014,10 @@ bliss:
 blitz++:
   version: 1:0.10-3.2
   issues:
-    - timestamps_manually_added_needs_further_investigation
+    - captures_kernel_version
+  comments: |
+    Embeds build date and kernel version.
+    https://sources.debian.net/src/blitz%2B%2B/1:0.10-3.2/m4/ac_check_cxx_features.m4/#L29-L30
 blktrace:
   version: 1.0.5-1
   issues:
@@ -1835,7 +1837,10 @@ conkeror:
 conky:
   version: 1.9.0-6
   issues:
-    - build_id_variation_requiring_further_investigation
+    - captures_kernel_version
+  comments: |
+    Embeds build date/time and kernel version.
+    https://sources.debian.net/src/conky/1.9.0-6/configure.ac.in/#L93-L94
 console-cyrillic:
   version: 0.9-16.2
   issues:
@@ -1875,9 +1880,9 @@ couchdb:
     - 746053
 courier:
   version: 0.73.1-1.6
-  issues:
-    - build_id_variation_requiring_further_investigation
-    - timezones_manpages_podman
+  comments: |
+    Embeds the build date.
+    https://sources.debian.net/src/courier/0.73.1-1.6/libs/imap/configure.ac/#L333
 courier-filter-perl:
   version: 0.200+ds-2
   issues:
@@ -2170,10 +2175,6 @@ darcs:
   version: 2.8.5-2
   issues:
     - timestamps_in_ghc_interfaces
-darkstat:
-  version: 3.0.718-2
-  issues:
-    - build_id_variation_requiring_further_investigation
 darktable:
   version: 1.4.2-1
   issues:
@@ -2262,7 +2263,7 @@ dc-qt:
 dc3dd:
   version: 7.2.641-3
   issues:
-    - timestamps_manually_added_needs_further_investigation
+    - timestamps_in_manpage_generated_by_help2man
 dcap:
   version: 2.47.8-2
   issues:
@@ -3200,8 +3201,9 @@ esys-particle:
     - different_due_to_umask
 eterm:
   version: 0.9.6-1
-  issues:
-    - build_id_variation_requiring_further_investigation
+  comments: |
+    Embeds the build date.
+    https://sources.debian.net/src/eterm/0.9.6-1/configure.ac/#L28-L31
 eurephia:
   version: 1.1.0-4
   issues:
@@ -3396,14 +3398,6 @@ felix-shell-tui:
   issues:
     - timestamps_in_maven_pom_files
     - timestamp_in_java_bnd_manifest
-fence-agents:
-  version: 4.0.7.1-2.1
-  comments: |
-    Timestamps in generated scripts can be easily fixed by patching
-    scripts/fenceparse but usr/sbin/fence_rackswitch (only) has differing GNU
-    Build ID after that
-  issues:
-    - build_id_variation_requiring_further_investigation
 fenix:
   version: 0.92a.dfsg1-10
   issues:
@@ -4746,7 +4740,7 @@ gorm.app:
 gosmore:
   version: 0.0.0.20100711-2.1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - timestamps_from_cpp_macros
 gperf:
   version: 3.0.4-1
   issues:
@@ -5283,10 +5277,6 @@ haskell-mode:
   version: 13.10-3
   issues:
     - timestamps_in_emacs_autoloads
-haskell-mueval:
-  version: 0.9.1.1-1
-  issues:
-    - build_id_variation_requiring_further_investigation
 haskell-notmuch-web:
   version: 0.2.0-7
   issues:
@@ -5332,14 +5322,6 @@ haskell-snap:
   issues:
     - build_id_variation_requiring_further_investigation
     - timestamps_in_ghc_interfaces
-haskell-snap-loader-dynamic:
-  version: 0.10.0.2-1
-  issues:
-    - build_id_variation_requiring_further_investigation
-haskell-swish:
-  version: 0.9.0.15-1
-  issues:
-    - build_id_variation_requiring_further_investigation
 haskell-type-level:
   version: 0.2.4-7
   issues:
@@ -7538,8 +7520,10 @@ libnfo:
     - timestamps_in_documentation_generated_by_doxygen
 libnss-ldap:
   version: 265-3
-  issues:
-    - build_id_variation_requiring_further_investigation
+  comments: |
+    Embeds username and build date.
+    https://sources.debian.net/src/libnss-ldap/265-3/vers_string/#L10
+    https://sources.debian.net/src/libnss-ldap/265-3/vers_string/#L16
 libobject-id-perl:
   version: 0.1.2-1
   issues:
@@ -8403,6 +8387,10 @@ maitreya:
   version: 7.0.7-1
   issues:
     - timestamps_from_cpp_macros
+makehuman:
+  version: 1.0.2-5
+  issues:
+    - timestamps_in_documentation_generated_by_sphinx
 makepp:
   version: 2.0.98.5-1
   issues:
@@ -8691,7 +8679,7 @@ mh-e:
 mhwaveedit:
   version: 1.4.23-1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - timestamps_from_cpp_macros
 mia:
   version: 2.2.2-1
   issues:
@@ -9044,8 +9032,9 @@ mp4h:
     - timezones_manpages_podman
 mp4v2:
   version: 2.0.0~dfsg0-3
-  issues:
-    - timestamps_manually_added_needs_further_investigation
+  comments: |
+    Embeds the build date.
+    https://sources.debian.net/src/mp4v2/2.0.0~dfsg0-3/configure.ac/#L140
 mpack:
   version: 1.6-8
   issues:
@@ -10449,7 +10438,8 @@ pcp:
 pcscada:
   version: 0.7.2-1
   issues:
-    - timestamps_manually_added_needs_further_investigation
+    - timestamps_in_documentation_generated_by_asciidoc
+    - timestamps_in_ada_library_information_files
 pcsxr:
   version: 1.9.92-4
   issues:
@@ -10461,8 +10451,9 @@ pd-boids:
     http://sources.debian.net/src/pd-boids/1.1.1-2/boids2d.c/?hl=180#L180
 pd-flite:
   version: 0.02.3-1
-  issues:
-    - build_id_variation_requiring_further_investigation
+  comments: |
+    Embeds build date and user.
+    https://sources.debian.net/src/pd-flite/0.02.3-1/common/m4/ax_pd_external.m4/#L245-L246
 pd-hcs:
   version: 0.1-2
   issues:
@@ -10470,11 +10461,11 @@ pd-hcs:
 pd-hid:
   version: 0.7-1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - timestamps_from_cpp_macros
 pd-iemmatrix:
   version: 0.2-2
   issues:
-    - build_id_variation_requiring_further_investigation
+    - timestamps_from_cpp_macros
 pd-iemnet:
   version: 0.1-3
   issues:
@@ -10571,7 +10562,13 @@ pepper:
 percona-xtradb-cluster-5.5:
   version: 5.5.39-25.11+dfsg-1
   issues:
-    - user_hostname_manually_added_requiring_further_investigation
+    - captures_kernel_version
+  comments: |
+    Embeds build date/time, hostname and kernel version.
+    https://sources.debian.net/src/percona-xtradb-cluster-5.5/5.5.39-25.11%2Bdfsg-1/cmake/info_macros.cmake.in/#L94
+    https://sources.debian.net/src/percona-xtradb-cluster-5.5/5.5.39-25.11%2Bdfsg-1/cmake/info_macros.cmake.in/#L100
+    .
+    Storing the INFO_BIN (and other generated files) in /usr/share/doc/$package is not necessary and could be removed.
 perdition:
   version: 2.1-2
   issues:
@@ -11047,7 +11044,7 @@ pstoedit:
 psychtoolbox-3:
   version: 3.0.11.20140816.dfsg1-1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - timestamps_from_cpp_macros
 ptlib:
   version: 2.10.10~dfsg-4.1
   issues:
@@ -11068,12 +11065,12 @@ puppet-lint:
     - timestamps_in_gemspec_files
 puredata:
   version: 0.46.6-1
-  comments: |
-    Embed date in binary.
+  issues:
+    - timestamps_from_cpp_macros
 puredata-import:
   version: 1.3-3
   issues:
-    - build_id_variation_requiring_further_investigation
+    - timestamps_from_cpp_macros
 putty:
   version: 0.63-8
   issues:
@@ -12724,7 +12721,7 @@ sane-backends:
 sanlock:
   version: 2.2-2
   issues:
-    - build_id_variation_requiring_further_investigation
+    - timestamps_from_cpp_macros
 sardana:
   version: 1.4.2-1
   issues:
@@ -12738,8 +12735,9 @@ sauce:
     - 777401
 savi:
   version: 1.4.6-1
-  issues:
-    - build_id_variation_requiring_further_investigation
+  comments: |
+    Embeds the build date.
+    https://sources.debian.net/src/savi/1.4.6-1/src/Makefile/#L126
 sawfish:
   version: 1:1.5.3-2.4
   issues:
@@ -13081,7 +13079,7 @@ sketch:
 skytools3:
   version: 3.2-2
   issues:
-    - timestamps_manually_added_needs_further_investigation
+    - use_epydoc
     - timestamps_generated_by_docbook_to_man
 slepc:
   version: 3.4.2.dfsg-2
@@ -13546,7 +13544,7 @@ swaks:
 swarm-cluster:
   version: 1.2.19+dfsg-1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - timestamps_from_cpp_macros
 swarp:
   version: 2.38.0+dfsg-1
   comments: |
@@ -14381,8 +14379,9 @@ userv:
     - timestamps_in_gzip_headers
 uswsusp:
   version: 1.0+20120915-6
-  issues:
-    - build_id_variation_requiring_further_investigation
+  comments: |
+    Embeds the build date/time.
+    https://sources.debian.net/src/uswsusp/1.0%2B20120915-6/wlcsv2c.pl/#L70
 uthash:
   version: 1.9.7-1
   issues:
@@ -14651,8 +14650,9 @@ vtk:
     - timestamps_in_documentation_generated_by_doxygen
 vtk-dicom:
   version: 0.5.5-2
-  issues:
-    - build_id_variation_requiring_further_investigation
+  comments: |
+    Embeds the build date.
+    https://sources.debian.net/src/vtk-dicom/0.5.5-2/CMakeLists.txt/#L131-L136
 vtk6:
   version: 6.1.0+dfsg2-5
   issues:
@@ -15571,8 +15571,9 @@ zshdb:
     - 777400
 zssh:
   version: 1.5c.debian.1-3.2
-  issues:
-    - build_id_variation_requiring_further_investigation
+  comments: |
+    Embeds the build date.
+    https://sources.debian.net/src/zssh/1.5c.debian.1-3.2/Makefile.in/#L113
 zsync:
   version: 0.6.2-1
   issues:
