@@ -1022,10 +1022,6 @@ blktrace:
   version: 1.0.5-1
   issues:
     - timestamps_from_cpp_macros
-blobby:
-  version: 1.0-1
-  issues:
-    - timestamps_in_png
 blockfinder:
   version: 3.14159-1
   issues:
@@ -1856,12 +1852,6 @@ console-setup:
   version: 1.116
   bugs:
     - 775531
-convmv:
-  version: 1.12-2
-  issues:
-    - timestamps_in_gzip_headers
-  bugs:
-    - 777059
 cookie-monster:
   version: 1.2.0-1
   issues:
@@ -2314,7 +2304,6 @@ debian-history:
 debian-installer:
   version: 20150422
   issues:
-    - debbindiff_runs_forever
     - different_due_to_umask
 debian-installer-netboot-images:
   version: 20150107
@@ -3037,10 +3026,6 @@ eris:
   version: 1.3.21-0.1
   issues:
     - timestamps_in_documentation_generated_by_javadoc
-erlang:
-  version: 1:17.3-dfsg-3
-  issues:
-    - debbindiff_runs_forever
 erlang-bear:
   version: 0.8.2+dfsg-1
   issues:
@@ -4208,7 +4193,6 @@ gfs2-utils:
 ghc:
   version: 7.6.3-20
   issues:
-    - debbindiff_runs_forever
     - random_filenames_in_ghc_debug_symbols
   bugs:
     - 769893
@@ -5404,11 +5388,6 @@ heimdal:
   comments: |
     Embeds build time, hostname and kernel version.
     Fixed in unstable, 1.6~rc2+dfsg-10
-hello-traditional:
-  version: 2.9-2
-  issues:
-    - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
 hepmc:
   version: 2.06.09-1
   issues:
@@ -5550,10 +5529,6 @@ httpunit:
   version: 1.7+dfsg-10
   comments: |
     Capture build time in /usr/share/java/httpunit-1.7.jar:META-INF/MANIFEST.MF
-hwinfo:
-  version: 21.11-1
-  issues:
-    - variation_in_compilation
 hwloc:
   version: 1.10.0-3
   issues:
@@ -5887,18 +5862,6 @@ ispell-czech:
   version: 20040229-5.1
   issues:
     - random_ispell_hash_files
-ispell-fo:
-  version: 0.4.2-6
-  issues:
-    - timestamps_in_gzip_headers
-  bugs:
-    - 778260
-ispell-gl:
-  version: 0.5-40
-  issues:
-    - timestamps_in_gzip_headers
-  bugs:
-    - 778262
 ispell-lt:
   version: 1.2.1-4
   issues:
@@ -6056,12 +6019,6 @@ javacc-maven-plugin:
   version: 2.6-2
   issues:
     - random_order_in_maven_plugin_xml
-javahelp2:
-  version: 2.0.05.ds1-7
-  issues:
-    - timestamps_in_png
-  bugs:
-    - 779056
 javamorph:
   version: 0.0.20100201-1.3
   issues:
@@ -8684,12 +8641,6 @@ mia:
   version: 2.2.2-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-miceamaze:
-  version: 1.8-1
-  issues:
-    - timestamps_in_png
-  bugs:
-    - 778491
 micro-httpd:
   version: 20051212-15
   bugs:
@@ -9583,7 +9534,8 @@ nrefactory:
 ns3:
   version: 3.17+dfsg-1
   issues:
-    - debbindiff_runs_forever
+    - timestamps_in_manpage_generated_by_sphinx
+    - timestamps_in_documentation_generated_by_sphinx
 nsis:
   version: 2.46-10
   issues:
@@ -10194,13 +10146,6 @@ opus:
   version: 1.1-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-original-awk:
-  version: 2012-12-20-2
-  issues:
-    - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
-  bugs:
-    - 778203
 orpie:
   version: 1.5.1-10
   issues:
@@ -10979,12 +10924,6 @@ procenv:
   version: 0.36-1
   issues:
     - timestamps_from_cpp_macros
-procmail:
-  version: 3.22-23
-  issues:
-    - timestamps_in_gzip_headers
-  bugs:
-    - 774367
 profitbricks-client:
   version: 1.0.0-2
   issues:
@@ -11121,10 +11060,6 @@ pycairo:
   version: 1.8.8-1
   issues:
     - random_order_in_python_environment_pickle
-pycode-browser:
-  version: 20120614+git+b041dd2-7
-  issues:
-    - debbindiff_runs_forever
 pycorrfit:
   version: 0.8.3-2
   issues:
@@ -12058,12 +11993,6 @@ rest2web:
   version: 0.5.2~alpha+svn-r248-2
   comments: |
     Random HTML ids in /usr/share/doc/rest2web/html/test_site/section1/index.html
-retext:
-  version: 5.0.1-1
-  issues:
-    - timestamps_in_png
-  bugs:
-    - 778972
 revelation:
   version: 0.4.14-2
   issues:
@@ -13214,12 +13143,6 @@ sofia-sip:
     Blacklisted because helmut said so because doxygen is somehow broken...
   issues:
     - blacklisted_on_jenkins
-softcatala-spell:
-  version: 0.20111230b-7
-  issues:
-    - timestamps_in_gzip_headers
-  bugs:
-    - 776970
 solarwolf:
   version: 1.5-2
   issues:
@@ -13628,10 +13551,6 @@ syslinux:
     Please leave this one to a newcomer. It should be a nice one-liner.
 syslog-ng:
   version: 3.5.6-2
-  issues:
-    - timestamps_from_cpp_macros
-sysstat:
-  version: 11.0.1-1
   issues:
     - timestamps_from_cpp_macros
 systemtap:
@@ -14350,13 +14269,6 @@ unknown-horizons:
   version: 2013.3+ds1-1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-unzip:
-  version: 6.0-12
-  issues:
-    - timestamps_from_cpp_macros
-    - not_using_dh_builddeb
-  bugs:
-    - 782851
 urjtag:
   version: 0.10+r2007-1.2
   issues:
@@ -14653,10 +14565,6 @@ vtk-dicom:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/vtk-dicom/0.5.5-2/CMakeLists.txt/#L131-L136
-vtk6:
-  version: 6.1.0+dfsg2-5
-  issues:
-    - debbindiff_runs_forever
 vtprint:
   version: 2.0.2-13
   issues:
@@ -14783,10 +14691,6 @@ wims-modules-es:
     - 778637
 wine-development:
   version: 1.7.29-4
-  issues:
-    - debbindiff_runs_forever
-wine-gecko-2.24:
-  version: 2.24+dfsg-1
   issues:
     - debbindiff_runs_forever
 winff:
@@ -15027,12 +14931,6 @@ xchat:
   version: 2.8.8-7.3
   issues:
     - timestamps_from_cpp_macros
-xd:
-  version: 3.22.09-2
-  issues:
-    - timestamps_in_gzip_headers
-  bugs:
-    - 777366
 xdg-user-dirs:
   version: 0.15-2
   issues:
@@ -15128,12 +15026,6 @@ xfonts-kappa20:
     - timestamps_in_gzip_headers
   bugs:
     - 778223
-xfonts-marumoji:
-  version: 0.2-10
-  issues:
-    - timestamps_in_gzip_headers
-  bugs:
-    - 778224
 xfonts-mplus:
   version: 2.2.4-1
   issues:
@@ -15380,10 +15272,6 @@ y-u-no-validate:
   issues:
     - timestamps_in_jar
     - different_due_to_umask
-yafc:
-  version: 1.3.5-2
-  issues:
-    - timestamps_from_cpp_macros
 yahtzeesharp:
   version: 1.1-5
   issues:
@@ -15487,10 +15375,6 @@ zeroinstall-injector:
   version: 2.8-1
   issues:
     - randomness_in_ocaml_a_files
-zip:
-  version: 3.0-8
-  issues:
-    - timestamps_from_cpp_macros
 zipios++:
   version: 0.1.5.9+cvs.2007.04.28-5.1
   issues:
