@@ -1013,11 +1013,11 @@ bliss:
     - timestamps_from_cpp_macros
 blitz++:
   version: 1:0.10-3.2
-  issues:
-    - captures_kernel_version
   comments: |
     Embeds build date and kernel version.
     https://sources.debian.net/src/blitz%2B%2B/1:0.10-3.2/m4/ac_check_cxx_features.m4/#L29-L30
+  issues:
+    - captures_kernel_version
 blktrace:
   version: 1.0.5-1
   issues:
@@ -1064,11 +1064,11 @@ boo:
     - randomness_in_dh_cligacpolicy_scripts
 boolector:
   version: 1.5.118.6b56be4.121013-1
-  issues:
-    - captures_kernel_version
   comments: |
     Embed build time, hostname, and kernel version:
     http://sources.debian.net/src/boolector/1.5.118.6b56be4.121013-1/lingeling/mkconfig/?hl=16:17#L16
+  issues:
+    - captures_kernel_version
 boost1.54:
   version: 1.54.0-5
   issues:
@@ -1226,12 +1226,12 @@ cabal-debian:
     - timestamps_in_ghc_interfaces
 cableswig:
   version: 0.1.0+cvs20111009-1.1
-  issues:
-    - captures_kernel_version
   comments: |
     Captures the Linux kernel version and compiler path.
     https://sources.debian.net/src/cableswig/0.1.0%2Bcvs20111009-1.1/SWIG/Source/Modules/main.cxx/#L422
     https://sources.debian.net/src/cableswig/0.1.0%2Bcvs20111009-1.1/SWIG/CMakeLists.txt/#L26
+  issues:
+    - captures_kernel_version
 cadencii:
   version: 3.3.9+svn20110818.r1732-2
   issues:
@@ -1491,12 +1491,12 @@ chardet:
     - python_wheel_package
 charybdis:
   version: 3.4.2-4
-  issues:
-    - captures_kernel_version
   comments: |
     Embed build time, hostname, kernel version:
     https://sources.debian.net/src/charybdis/3.4.2-4/src/version.c.SH/
     https://sources.debian.net/src/charybdis/3.4.2-4/libratbox/src/version.c.SH/
+  issues:
+    - captures_kernel_version
 check:
   version: 0.9.10-6.1
   issues:
@@ -1832,11 +1832,11 @@ conkeror:
     http://repo.or.cz/w/conkeror.git/commitdiff/a1d87faa81cc910112a2906c03e23876a57f7d18
 conky:
   version: 1.9.0-6
-  issues:
-    - captures_kernel_version
   comments: |
     Embeds build date/time and kernel version.
     https://sources.debian.net/src/conky/1.9.0-6/configure.ac.in/#L93-L94
+  issues:
+    - captures_kernel_version
 console-cyrillic:
   version: 0.9-16.2
   issues:
@@ -2313,7 +2313,6 @@ debian-keyring:
   version: 2015.04.10
   issues:
     - not_using_dh_builddeb
-    - different_due_to_umask
   bugs:
     - 779963
 debian-policy:
@@ -2609,10 +2608,6 @@ dogtag-pki:
   version: 10.2.0-4
   issues:
     - timestamps_in_jar
-dolfin:
-  version: 1.4.0+dfsg-4
-  issues:
-    - ftbfs_werror_equals
 dom4j:
   version: 1.6.1+dfsg.3-2
   issues:
@@ -3860,11 +3855,11 @@ fvwm:
     - timestamps_from_cpp_macros
 g15daemon:
   version: 1.9.5.3-8.3
-  issues:
-    - captures_kernel_version
   comments: |
     Embed build time, and kernel version:
     https://sources.debian.net/src/g15daemon/1.9.5.3-8.3/configure.in/?hl=118:119#L118
+  issues:
+    - captures_kernel_version
 galax:
   version: 1.1-12
   comments: |
@@ -5141,10 +5136,6 @@ haskell-debian:
   issues:
     - build_id_variation_requiring_further_investigation
     - timestamps_in_ghc_interfaces
-haskell-enumerator:
-  version: 0.4.19-3
-  issues:
-    - timestamps_in_ghc_interfaces
 haskell-gconf:
   version: 0.12.1.1-3
   issues:
@@ -5281,10 +5272,6 @@ haskell-persistent-sqlite:
   version: 1.3.0.5-1
   issues:
     - timestamps_in_ghc_interfaces
-haskell-persistent-template:
-  version: 1.3.1.4-1
-  issues:
-    - timestamps_in_ghc_interfaces
 haskell-pretty-show:
   version: 1.6.6-1
   issues:
@@ -5383,11 +5370,11 @@ hedgewars:
     - random_filenames_in_ghc_debug_symbols
 heimdal:
   version: 1.6~rc2+dfsg-9
-  issues:
-    - captures_kernel_version
   comments: |
     Embeds build time, hostname and kernel version.
     Fixed in unstable, 1.6~rc2+dfsg-10
+  issues:
+    - captures_kernel_version
 hepmc:
   version: 2.06.09-1
   issues:
@@ -5818,12 +5805,12 @@ ircd-ircu:
     http://sources.debian.net/src/ircd-ircu/2.10.12.10.dfsg1-1.1/ircd/version.c.SH/?hl=17#L17
 ircd-ratbox:
   version: 3.0.8.dfsg-3
-  issues:
-    - captures_kernel_version
   comments: |
     Embed build time, hostname and kernel version.
     https://sources.debian.net/src/ircd-ratbox/3.0.8.dfsg-3/libratbox/src/version.c.SH/
     https://sources.debian.net/src/ircd-ratbox/3.0.8.dfsg-3/src/version.c.SH/
+  issues:
+    - captures_kernel_version
 irda-utils:
   version: 0.9.18-12
   issues:
@@ -6417,11 +6404,11 @@ khmerconverter:
     - 779164
 khronos-api:
   version: 0~svn29577-2
-  issues:
-    - timestamps_in_pdf_generated_by_latex
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/khronos-api/0~svn29577-2/genheaders.py/#L236-L261
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 khronos-opencl-man:
   version: 1.0~svn27110-1
   issues:
@@ -6609,10 +6596,6 @@ lavapdu:
   version: 0.0.4-1
   issues:
     - timestamps_generated_by_docbook_to_man
-lcdproc:
-  version: 0.5.7-2
-  issues:
-    - timestamps_from_cpp_macros
 lcgdm:
   version: 1.8.7-3.1
   issues:
@@ -7463,10 +7446,6 @@ libnet-dri-perl:
   version: 0.96-1
   bugs:
     - 730917
-libnet-ssleay-perl:
-  version: 1.65-1
-  issues:
-    - timezones_manpages_podman
 libnet-twitter-lite-perl:
   version: 0.12006-1
   issues:
@@ -7759,10 +7738,6 @@ libtest-log4perl-perl:
   version: 0.1001-3
   bugs:
     - 782879
-libtest-yaml-valid-perl:
-  version: 0.04-1
-  issues:
-    - timezones_manpages_podman
 libtext-vimcolor-perl:
   version: 0.11-2
   bugs:
@@ -8703,21 +8678,21 @@ minicom:
     - timestamps_from_cpp_macros
 minidlna:
   version: 1.1.4+dfsg-3
-  issues:
-    - captures_kernel_version
   comments: |
     https://sources.debian.net/src/minidlna/1.1.4%2Bdfsg-3/configure.ac/#L527
+  issues:
+    - captures_kernel_version
 minlog:
   version: 4.0.99.20100221-5.2
   issues:
     - timestamps_in_pdf_generated_by_latex
 mira:
   version: 4.0.2-1
-  issues:
-    - captures_kernel_version
   comments: |
     Embed build time, username, hostname and kernel version:
     http://sources.debian.net/src/mira/4.0.2-1/src/progs/Makefile.am/?hl=17:22#L17
+  issues:
+    - captures_kernel_version
 miredo:
   version: 1.2.6-2
   issues:
@@ -10506,14 +10481,14 @@ pepper:
     - timestamps_in_manpages_generated_by_docbook_xsl
 percona-xtradb-cluster-5.5:
   version: 5.5.39-25.11+dfsg-1
-  issues:
-    - captures_kernel_version
   comments: |
     Embeds build date/time, hostname and kernel version.
     https://sources.debian.net/src/percona-xtradb-cluster-5.5/5.5.39-25.11%2Bdfsg-1/cmake/info_macros.cmake.in/#L94
     https://sources.debian.net/src/percona-xtradb-cluster-5.5/5.5.39-25.11%2Bdfsg-1/cmake/info_macros.cmake.in/#L100
     .
     Storing the INFO_BIN (and other generated files) in /usr/share/doc/$package is not necessary and could be removed.
+  issues:
+    - captures_kernel_version
 perdition:
   version: 2.1-2
   issues:
@@ -11434,14 +11409,14 @@ python-reportlab:
   comments: |
     Timestamp in PDF content.
     CreationDate and ID varying.
-python-repoze.tm2:
-  version: 2.0-1
-  issues:
-    - timestamps_in_documentation_generated_by_sphinx
 python-repoze.sphinx.autointerface:
   version: 0.6.2-2
   issues:
     - random_order_in_python_namespace_packages
+python-repoze.tm2:
+  version: 2.0-1
+  issues:
+    - timestamps_in_documentation_generated_by_sphinx
 python-repoze.what:
   version: 1.0.9-5
   issues:
@@ -12011,11 +11986,11 @@ rhino:
     - timestamps_in_jar
 ripmime:
   version: 1.4.0.10.debian.1-1
-  issues:
-    - captures_kernel_version
   comments: |
     Embed build timestamp, hostname and kernel version:
     https://sources.debian.net/src/ripmime/1.4.0.10.debian.1-1/generate-buildcodes.sh/
+  issues:
+    - captures_kernel_version
 rivet:
   version: 1.8.3-1.1
   issues:
@@ -12385,10 +12360,6 @@ ruby-mkrf:
   version: 0.2.3+dfsg-5
   issues:
     - timestamps_in_gemspec_files
-ruby-mocha:
-  version: 1.1.0-1
-  issues:
-    - timestamps_in_documentation_generated_by_yard
 ruby-net-irc:
   version: 0.0.9-3
   issues:
@@ -12814,8 +12785,6 @@ serp:
     - user_in_java_jar_manifest
 serverstats:
   version: 0.8.2-10
-  issues:
-    - different_due_to_umask
   bugs:
     - 783688
 service-wrapper-java:
@@ -13513,10 +13482,6 @@ swtchart:
   version: 0.8.0-1
   issues:
     - timestamps_in_jar
-syfi:
-  version: 1.0.0.dfsg-1.2
-  issues:
-    - ftbfs_werror_equals
 sympy:
   version: 0.7.5-4
   issues:
@@ -13597,9 +13562,8 @@ taoframework:
     - timestamps_in_pe_binaries
 taopm:
   version: 1.0-3
-  comments:
-    Embeds the build date.
-    https://sources.debian.net/src/taopm/1.0-3/configure.in/#L27
+  comments: |
+    Embeds the build date. https://sources.debian.net/src/taopm/1.0-3/configure.in/#L27
 tar:
   version: 1.27.1-2
   bugs:
@@ -13711,10 +13675,10 @@ tf:
     - 777368
 tf5:
   version: 5.0beta8-5
-  issues:
-    - captures_kernel_version
   comments: |
     https://sources.debian.net/src/tf5/5.0beta8-5/configure.in/#L160
+  issues:
+    - captures_kernel_version
 tgt:
   version: 1.0.57-1
   issues:
@@ -14351,9 +14315,7 @@ varnish-agent:
 vdk2:
   version: 2.4.0-5.3
   issues:
-    - timestamps_in_documentation_generated_by_doxygen
     - timestamps_in_static_libraries
-    - different_due_to_umask
 vdkbuilder2:
   version: 2.4.0-4.4
   issues:
@@ -14571,11 +14533,11 @@ vtprint:
     - timestamps_in_documentation_generated_by_groff
 vtwm:
   version: 5.4.7-2.2
-  issues:
-    - captures_kernel_version
   comments: |
     Embed build time, kernel version:
     http://sources.debian.net/src/vtwm/5.4.7-2.2/Imakefile/?hl=177:178#L177
+  issues:
+    - captures_kernel_version
 waffle:
   version: 1.4.0-1
   issues:
@@ -14817,8 +14779,6 @@ wvstreams:
   issues:
     - timestamps_in_static_libraries
     - timestamps_in_documentation_generated_by_javadoc
-    - timestamps_in_documentation_generated_by_doxygen
-    - different_due_to_umask
 wxwidgets2.8:
   version: 2.8.12.1+dfsg2-2
   issues:
@@ -15069,11 +15029,11 @@ xjump:
     - 777354
 xloadimage:
   version: 4.1-23
-  issues:
-    - captures_kernel_version
   comments: |
     Embed build time, user & groups, kernel version and hostname:
     https://sources.debian.net/src/xloadimage/4.1-23/build-info/
+  issues:
+    - captures_kernel_version
 xmds-doc:
   version: 0~svn.1884-3.1
   issues:
@@ -15300,11 +15260,11 @@ yecht:
     - user_in_java_jar_manifest
 yersinia:
   version: 0.7.3-1
-  issues:
-    - captures_kernel_version
   comments: |
     Embed build time, kernel version and build architecture:
     https://sources.debian.net/src/yersinia/0.7.3-1/configure.in/?hl=832:845#L832
+  issues:
+    - captures_kernel_version
 yi:
   version: 0.7.1-5
   issues:
