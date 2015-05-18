@@ -979,12 +979,6 @@ birdfont:
   comments: |
     Embed build time:
     http://sources.debian.net/src/birdfont/1.7-1/scripts/configfile.py/?hl=28#L28
-bisonc++:
-  version: 4.09.02-1
-  issues:
-    - timestamps_in_gzip_headers
-  bugs:
-    - 777318
 blam:
   version: 1.8.9-4
   issues:
@@ -1118,10 +1112,6 @@ bowtie2:
   version: 2.2.5-1
   issues:
     - bad_handling_of_extra_warnings
-box2d:
-  version: 2.3.1+ds-1
-  bugs:
-    - 779223
 boxbackup:
   version: 0.11.1~r2837-1
   issues:
@@ -2309,12 +2299,6 @@ debian-installer-netboot-images:
   version: 20150107
   issues:
     - needs_internet_access_to_build
-debian-keyring:
-  version: 2015.04.10
-  issues:
-    - not_using_dh_builddeb
-  bugs:
-    - 779963
 debian-policy:
   version: 3.9.6.1
   comments: |
@@ -2465,12 +2449,6 @@ dict-elements:
   version: 20001107-a-6
   bugs:
     - 776351
-dict-foldoc:
-  version: 20140720-1
-  issues:
-    - timestamps_in_dictionaries
-  bugs:
-    - 776397
 dict-gazetteer2k:
   version: 1.0.0-5.2
   issues:
@@ -3880,6 +3858,7 @@ gamera:
   version: 3.4.1+svn1423-4
   bugs:
     - 775228
+    - 785529
 gammu:
   version: 1.33.0-3
   issues:
@@ -5505,12 +5484,6 @@ hwloc:
   version: 1.10.0-3
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-hy:
-  version: 0.10.1-1
-  issues:
-    - timestamps_in_manpage_generated_by_sphinx
-  bugs:
-    - 782385
 hyde:
   version: 0.8.5a1-4
   issues:
@@ -6688,10 +6661,6 @@ libapache2-mod-authn-yubikey:
   version: 1.0-1.1
   bugs:
     - 725536
-libapache2-mod-perl2:
-  version: 2.0.9~1624218-2
-  bugs:
-    - 784335
 libapache2-mod-rivet:
   version: 2.2.1-1
   comments: |
@@ -6893,13 +6862,6 @@ libdbi-drivers:
   version: 0.9.0-3
   issues:
     - timestamps_from_cpp_macros
-libdbix-fulltextsearch-perl:
-  version: 0.73-10
-  comments: |
-    Variation in Perl hash order in
-    /usr/share/perl5/DBIx/FullTextSearch/TestConfig.pm
-  bugs:
-    - 778959
 libdbix-password-perl:
   version: 1.9-1
   issues:
@@ -7237,10 +7199,6 @@ libjrosetta-java:
   version: 1.0.4-4
   issues:
     - user_in_java_jar_manifest
-libjs-jcrop:
-  version: 0.9.12+dfsg-1
-  bugs:
-    - 779588
 libjsoncpp:
   version: 0.6.0~rc2-3.1
   issues:
@@ -8345,12 +8303,6 @@ mapsembler2:
   comments: |
     Stores date and uname:
     https://sources.debian.net/src/mapsembler2/2.2.3%2Bdfsg-2/mapsembler2_extremities/thirdparty/gatb-core/src/gatb/system/api/config.hpp.in/?hl=23,27
-mapserver:
-  version: 6.4.1-5
-  issues:
-    - timestamps_in_manpages_generated_by_docbook2x
-  bugs:
-    - 783146
 maradns:
   version: 2.0.09-4
   bugs:
@@ -8890,10 +8842,6 @@ moon-buggy:
   version: 1.0.51-10
   issues:
     - timestamps_in_dvi_generated_by_latex
-mopidy:
-  version: 1.0.2-1
-  bugs:
-    - 783574
 morse:
   version: 2.4-2
   issues:
@@ -9164,10 +9112,6 @@ namazu2:
   version: 2.0.21-10
   comments: |
     Embeds the hostname into several files.
-nano:
-  version: 2.2.6-3
-  bugs:
-    - 774388
 nant:
   version: 0.92~rc1+dfsg-4
   issues:
@@ -9231,12 +9175,6 @@ ndisc6:
   version: 1.0.1-1
   issues:
     - timestamps_from_cpp_macros
-ndiswrapper:
-  version: 1.59-2
-  issues:
-    - timestamps_in_tarball
-  bugs:
-    - 778222
 nec:
   version: 2-16
   comments: |
@@ -9905,12 +9843,6 @@ openais:
   version: 1.1.4-4.2
   issues:
     - timestamps_in_documentation_generated_by_groff
-openarena:
-  version: 0.8.8-12
-  comments: |
-    Embed date in binary.
-  bugs:
-    - 784163
 openbabel:
   version: 2.3.2+dfsg-2
   issues:
@@ -11473,12 +11405,6 @@ python-tldap:
   version: 0.3.9-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
-python-tuskarclient:
-  version: 0.1.4-1
-  issues:
-    - timestamps_in_manpage_generated_by_sphinx
-  bugs:
-    - 782388
 python-urllib3:
   version: 1.9.1-3
   issues:
@@ -12037,10 +11963,6 @@ rpy:
   version: 1.0.3-30
   issues:
     - timestamps_in_pdf_generated_by_latex
-rquantlib:
-  version: 0.4.0-2
-  bugs:
-    - 783058
 rrdtool:
   version: 1.4.8-1.2
   issues:
@@ -12780,10 +12702,6 @@ serp:
   version: 1.14.1-2
   issues:
     - user_in_java_jar_manifest
-serverstats:
-  version: 0.8.2-10
-  bugs:
-    - 783688
 service-wrapper-java:
   version: 3.5.25-2
   issues:
@@ -13417,13 +13335,6 @@ svtplay-dl:
     whose members have differing mtimes.
   issues:
     - timestamps_in_zip
-swaks:
-  version: 20130209.0-3
-  issues:
-    - not_using_dh_builddeb
-    - timestamps_in_gzip_headers
-  bugs:
-    - 776923
 swarm-cluster:
   version: 1.2.19+dfsg-1
   issues:
@@ -14634,10 +14545,6 @@ wims:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/wims/1:4.08~dfsg1-1/wims/src/configure.ac/#L219
-wims-modules-es:
-  version: 3.64-1
-  bugs:
-    - 778637
 wine-development:
   version: 1.7.29-4
   issues:
