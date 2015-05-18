@@ -12577,6 +12577,12 @@ s3ql:
     Maintainer is aware.
   issues:
     - ftbfs_in_jenkins_setup
+s5:
+  version: 1.1.dfsg.2-5
+  issues:
+    - timestamps_difference_by_unzip
+  bugs:
+    - 785583
 sa-exim:
   version: 4.2.1-14
   comments: |
