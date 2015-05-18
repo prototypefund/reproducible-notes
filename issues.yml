@@ -20,6 +20,11 @@ timestamps_in_documentation_generated_by_doxygen:
     timestamp to its generated documentation.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInDocumentationGeneratedByDoxygen
   deterministic: True
+timestamps_in_manpages_generated_by_doxygen:
+  description: |
+    Doxygen uses timestamp in manpages it generates
+  url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInManpagesGeneratedByDoxygen
+  deterministic: True
 timestamps_in_documentation_generated_by_asciidoc:
   description: |
     asciidoc adds a timestamp at the end of a generated HTML file.
