@@ -169,6 +169,11 @@ timestamps_in_zip:
     the build.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInZip
   deterministic: True
+timestamps_difference_by_unzip:
+  description: |
+    When unzip files as part of the build package process the current timezone is used
+    to calculate the time of the file.
+    Using TZ=UTC when unzip the file can fix this.
 timestamps_in_documentation_generated_by_groff:
   description: |
     groff will add a timestamps to documentation it produces.
