@@ -4269,6 +4269,12 @@ glance:
   issues:
     - timestamps_in_manpage_generated_by_sphinx
     - timestamps_in_documentation_generated_by_sphinx
+glassfish:
+  version: 1:2.1.1-b31g+dfsg1-2
+  issues:
+    - tstamp_task_used_in_ant_build_xml
+  bugs:
+    - 785719
 glaurung:
   version: 2.2-2
   issues:

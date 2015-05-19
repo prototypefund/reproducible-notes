@@ -552,3 +552,7 @@ timestamps_in_documentation_generated_by_rdtool:
 captures_kernel_version:
   description: |
     Stores the kernel version (uname -a, /proc/version, etc.) output, normally for debugging purposes.
+tstamp_task_used_in_ant_build_xml:
+  description: |
+    uses the current timestamp (or some offset) to set a property in the ant build process, which then gets embedded elsewhere in the package.
+  url: https://ant.apache.org/manual/Tasks/tstamp.html
