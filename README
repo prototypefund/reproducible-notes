@@ -23,13 +23,15 @@ A full entry looks like the following:
 Every field is optional, although a version number would be useful to do
 cleanups.
 
- - `version`: is the Debian version number of the examined source package.
+ - `version`: is the earliest Debian version number of the examined source package, usually the one in unstable.
 
  - `issues`: is a list of tags as described in the `issues.yml` file.
 
  - `bugs`: is a list of Debian bug numbers reported about the package.
 
  - `comments`: is a free-form multi-line field to leave comments.
+
+If an issue for the package been fixed in sid, it should be removed from `packages.yml`.
 
 issues.yml
 ----------
