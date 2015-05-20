@@ -13574,12 +13574,9 @@ texlive-extra:
   issues:
     - debbindiff_runs_forever
 tf:
-  version: 1:4.0s1-17
+  version: 1:4.0s1-18
   issues:
-    - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
-  bugs:
-    - 777368
+    - captures_kernel_version
 tf5:
   version: 5.0beta8-5
   comments: |
