@@ -317,10 +317,10 @@ timestamps_in_mdl_molfile:
 build_id_variation_requiring_further_investigation:
   description: |
     ld adds a Build ID in ELF binaries used to link external debug symbols.
-    See <https://fedoraproject.org/wiki/Releases/FeatureBuildId#Unique_build_ID> for
+    See https://fedoraproject.org/wiki/Releases/FeatureBuildId#Unique_build_ID for
     the spec.
     The default value is a SHA1 hash over the content of the binary. See
-    the `--build-id` option in <https://sourceware.org/binutils/docs-2.25/ld/Options.html>
+    the `--build-id` option in https://sourceware.org/binutils/docs-2.25/ld/Options.html
     for other behavior.
     Unless a different way to compute Build IDs has been specified, different Build IDs
     are the symptom of different binary content. The actual source of the
