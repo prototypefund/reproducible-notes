@@ -1848,10 +1848,6 @@ console-setup:
   version: 1.116
   bugs:
     - 775531
-cookie-monster:
-  version: 1.2.0-1
-  issues:
-    - xpi_pack_saves_extra_attributes_in_jar
 coquelicot:
   version: 0.9.2-4
   bugs:
@@ -2344,10 +2340,6 @@ debomatic:
   version: 0.13-1
   issues:
     - timestamps_in_pdf_generated_by_latex
-deejayd:
-  version: 0.10.0-6
-  issues:
-    - xpi_pack_saves_extra_attributes_in_jar
 deets:
   version: 0.2.1-1
   issues:
@@ -2608,10 +2600,6 @@ dot-forward:
     - different_due_to_umask
   bugs:
     - 776760
-downthemall:
-  version: 2.0.18-1
-  issues:
-    - xpi_pack_saves_extra_attributes_in_jar
 doxia:
   version: 1.1.4-2
   issues:
@@ -2946,11 +2934,10 @@ enigma:
   issues:
     - timestamps_in_png
 enigmail:
-  version: 2:1.7.2-3
+  version: 2:1.8.2-2
   comments: |
     Translations DTD are in random order.
-  issues:
-    - xpi_pack_saves_extra_attributes_in_jar
+    `content/enigmail/enigmailBuildDate.js` contains build date.
 ent:
   version: 1.1debian-4
   issues:
@@ -3460,18 +3447,10 @@ flann:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - different_due_to_umask
-flashblock:
-  version: 1.5.17-1
-  issues:
-    - xpi_pack_saves_extra_attributes_in_jar
 flashcache:
   version: 3.1.2+git20140801-1
   bugs:
     - 780883
-flashgot:
-  version: 1.5.6.7+dfsg-1
-  issues:
-    - xpi_pack_saves_extra_attributes_in_jar
 flashproxy:
   version: 1.7-2
   issues:
@@ -5484,10 +5463,6 @@ httpfs2:
   version: 0.1.4-1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-https-finder:
-  version: 091-1
-  issues:
-    - xpi_pack_saves_extra_attributes_in_jar
 hwloc:
   version: 1.10.0-3
   issues:
@@ -5536,10 +5511,6 @@ icedove:
   version: 31.2.0-1
   issues:
     - timestamps_from_cpp_macros
-icedove-l10n:
-  version: 31.4.0-1
-  issues:
-    - xpi_pack_saves_extra_attributes_in_jar
 icedtea-web:
   version: 1.5.2-1
   issues:
@@ -7966,10 +7937,6 @@ live-manual:
     - fonts_in_pdf_files
     - timestamps_in_zip
     - different_due_to_umask
-livehttpheaders:
-  version: 0.17-3
-  issues:
-    - xpi_pack_saves_extra_attributes_in_jar
 lives:
   version: 2.2.6~ds0-1
   issues:
@@ -8878,14 +8845,6 @@ mozart-stdlib:
     build-depends on mozart, which is not available on amd64
   issues:
     - ftbfs_build_depends_not_available_on_amd64
-mozilla-dom-inspector:
-  version: 1:2.0.14-1
-  issues:
-    - xpi_pack_saves_extra_attributes_in_jar
-mozilla-noscript:
-  version: 2.6.9.3-1
-  issues:
-    - xpi_pack_saves_extra_attributes_in_jar
 mozjs24:
   version: 24.2.0-2
   issues:
@@ -9397,14 +9356,11 @@ nose2:
   version: 0.5.0-1
   issues:
     - timestamps_in_manpage_generated_by_help2man
-nosquint:
-  version: 2.1.9-2
-  issues:
-    - xpi_pack_saves_extra_attributes_in_jar
 nostalgy:
   version: 0.2.33-1
-  issues:
-    - xpi_pack_saves_extra_attributes_in_jar
+  comments: |
+    Timestamps are probably introduced by zip:
+    https://sources.debian.net/src/nostalgy/0.2.33-1/build.sh/#L75
 not-yet-commons-ssl:
   version: 0.3.15-1
   issues:
@@ -11867,10 +11823,6 @@ repsnapper:
   version: 2.3.2a5-1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-requestpolicy:
-  version: 0.5.28-1
-  issues:
-    - xpi_pack_saves_extra_attributes_in_jar
 requests:
   version: 2.4.3-5
   issues:
@@ -14633,10 +14585,6 @@ wordwarvi:
   version: 1.00+dfsg1-3
   issues:
     - variation_in_compilation
-wot:
-  version: 20131118-1
-  issues:
-    - xpi_pack_saves_extra_attributes_in_jar
 wpa:
   version: 2.3-1
   issues:
