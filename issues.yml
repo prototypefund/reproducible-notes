@@ -316,9 +316,20 @@ timestamps_in_mdl_molfile:
     MDL Molfiles (https://en.wikipedia.org/wiki/Chemical_table_file) contain a timestamp.
 build_id_variation_requiring_further_investigation:
   description: |
-    GCC embedds a Build ID in elf binaries which varies with every build, this is specified in https://fedoraproject.org/wiki/Releases/FeatureBuildId#Unique_build_ID
-    Further explaination are at https://sourceware.org/binutils/docs-2.25/ld/Options.html - look at --build-id=style
-    It's totally unclear how to resolve this at the moment, hints welcome.
+    ld adds a Build ID in ELF binaries used to link external debug symbols.
+    See <https://fedoraproject.org/wiki/Releases/FeatureBuildId#Unique_build_ID> for
+    the spec.
+    The default value is a SHA1 hash over the content of the binary. See
+    the `--build-id` option in <https://sourceware.org/binutils/docs-2.25/ld/Options.html>
+    for other behavior.
+    Unless a different way to compute Build IDs has been specified, different Build IDs
+    are the symptom of different binary content. The actual source of the
+    difference might not be visible because the debug symbols might have been stripped
+    (and they can contain filenames which can differ if the build path is different).
+    There is no general solution for this problem. The source of the variation must
+    be tracked and fixed. The issue can come from variations in order of object
+    members or objects themselves, different content (e.g. `__DATE__` CPP
+    macros or similar), or other interesting things.
 timestamps_in_documentation_generated_by_podman:
   description: |
     The module Pod::Man includes timestamps in its embedded manpages:
