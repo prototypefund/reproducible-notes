@@ -7840,6 +7840,13 @@ lift:
   version: 2.0.0-1
   issues:
     - timestamps_in_manpage_generated_by_sphinx
+lightdm-gtk-greeter:
+  version: 2.0.1-1
+  issues:
+    - timestamps_from_cpp_macros
+  comments: |
+    See:
+    https://sources.debian.net/src/lightdm-gtk-greeter/2.0.1-1/src/lightdm-gtk-greeter.c/?hl=2608#L2608
 lightproof:
   version: 1.5+git20140515-1
   bugs:
