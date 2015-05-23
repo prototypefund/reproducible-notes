@@ -260,10 +260,6 @@ angband-doc:
     - not_using_dh_builddeb
   bugs:
     - 777729
-animal-sniffer:
-  version: 1.11-1
-  issues:
-    - date_in_maven_plugin_xml
 anjuta:
   version: 2:3.14.0-1
   issues:
@@ -4542,14 +4538,14 @@ gnudatalanguage:
   version: 0.9.5-2
   issues:
     - timestamps_from_cpp_macros
-gnugo:
-  version: 3.8-8
-  issues:
-    - timestamps_in_documentation_generated_by_texi2html
 gnugk:
   version: 2:3.6-1
   issues:
     - timestamps_from_cpp_macros
+gnugo:
+  version: 3.8-8
+  issues:
+    - timestamps_in_documentation_generated_by_texi2html
 gnuift:
   version: 0.1.14-12.1
   issues:
@@ -5950,10 +5946,6 @@ jd:
   version: 1:2.8.8-140601-4
   issues:
     - timestamps_from_cpp_macros
-jdeb:
-  version: 1.0.2~git20130829-3
-  issues:
-    - date_in_maven_plugin_xml
 jedit:
   version: 5.1.0+dfsg-2
   issues:
@@ -7819,11 +7811,11 @@ lift:
     - timestamps_in_manpage_generated_by_sphinx
 lightdm-gtk-greeter:
   version: 2.0.1-1
-  issues:
-    - timestamps_from_cpp_macros
   comments: |
     See:
     https://sources.debian.net/src/lightdm-gtk-greeter/2.0.1-1/src/lightdm-gtk-greeter.c/?hl=2608#L2608
+  issues:
+    - timestamps_from_cpp_macros
 lightproof:
   version: 1.5+git20140515-1
   bugs:
@@ -8330,10 +8322,6 @@ maven:
   version: 3.0.5-3
   issues:
     - random_order_in_plexus_comonents_xml
-maven2:
-  version: 2.2.1-25
-  issues:
-    - timestamps_in_maven_pom_files
 maven-assembly-plugin:
   version: 2.2~beta5-3
   issues:
@@ -8362,7 +8350,6 @@ maven-dependency-plugin:
   version: 2.4-1
   issues:
     - random_order_in_maven_plugin_xml
-    - date_in_maven_plugin_xml
 maven-docck-plugin:
   version: 1.0-4
   issues:
@@ -8371,10 +8358,6 @@ maven-ear-plugin:
   version: 2.3.2-3
   issues:
     - random_order_in_maven_plugin_xml
-maven-ejb-plugin:
-  version: 2.2-2
-  issues:
-    - date_in_maven_plugin_xml
 maven-enforcer:
   version: 1.0-1
   issues:
@@ -8438,6 +8421,10 @@ maven-war-plugin:
   version: 2.1.1-2
   issues:
     - random_order_in_maven_plugin_xml
+maven2:
+  version: 2.2.1-25
+  issues:
+    - timestamps_in_maven_pom_files
 maven2-core:
   version: 2.2.1-16
   issues:
@@ -14586,11 +14573,11 @@ wordnet:
     - timestamps_in_dictionaries
 wordwarvi:
   version: 1.00+dfsg1-3
-  issues:
-    - variation_in_compilation
   comments: |
     Captures the build time for a joke.
     https://sources.debian.net/src/wordwarvi/1.00%2Bdfsg1-3/wordwarvi.c/#L9947
+  issues:
+    - variation_in_compilation
 wpa:
   version: 2.3-1
   issues:
