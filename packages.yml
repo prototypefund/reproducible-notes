@@ -569,7 +569,15 @@ atinject-jsr330:
 atlas:
   version: 3.10.2-7
   issues:
-    - variation_in_compilation
+    - timestamps_in_pdf_generated_by_latex
+  comments: |
+    Embed build time, username, hostname, kernel version:
+    https://sources.debian.net/src/atlas/3.10.2-7/tune/sysinfo/emit_buildinfo.c/?hl=206:208#L206
+    https://sources.debian.net/src/atlas/3.10.2-7/src/auxil/ATL_buildinfo.c/?hl=7:9#L7
+    CPU dependent parameters recorded at build time:
+    https://sources.debian.net/src/atlas/3.10.2-7/tune/blas/ger/s1nxtune.c/?hl=367:377#L367
+    https://sources.debian.net/src/atlas/3.10.2-7/tune/blas/ger/s2nxtune.c/?hl=368:377#L368
+    https://sources.debian.net/src/atlas/3.10.2-7/tune/sysinfo/GetSysSum.c/?hl=104:122#L104
 attic:
   version: 0.13-1
   issues:
