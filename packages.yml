@@ -14574,10 +14574,12 @@ wordnet:
 wordwarvi:
   version: 1.00+dfsg1-3
   comments: |
-    Captures the build time for a joke.
+    Captures the build time for a time limited joke.
     https://sources.debian.net/src/wordwarvi/1.00%2Bdfsg1-3/wordwarvi.c/#L9947
   issues:
     - variation_in_compilation
+  bugs:
+    - 786593
 wpa:
   version: 2.3-1
   issues:
