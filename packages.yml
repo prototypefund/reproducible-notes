@@ -12501,6 +12501,12 @@ sbuild:
   version: 0.65.0-1
   bugs:
     - 778482
+sbcl:
+  version: 2:1.2.11-2
+  issues:
+    - ftbfs_in_jenkins_setup
+  bugs:
+    - 786601
 scala:
   version: 2.9.2+dfsg-2
   issues:
