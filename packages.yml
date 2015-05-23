@@ -2935,8 +2935,9 @@ ent:
     - timestamps_in_documentation_generated_by_asciidoc
 eperl:
   version: 2.2.14-21
-  issues:
-    - variation_in_compilation
+  comments: |
+    Embed build time, username, and hostname:
+    https://sources.debian.net/src/eperl/2.2.14-21/eperl_perl5.c/?hl=55:56#L55
 epic4:
   version: 1:2.10.5-2
   comments: |
