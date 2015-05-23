@@ -1341,8 +1341,10 @@ ccseapps:
     - timestamps_from_cpp_macros
 cctools:
   version: 4.0-1
-  issues:
-    - variation_in_compilation
+  comments: |
+    Embed build time, username, hostname, and kernel version:
+    https://sources.debian.net/src/cctools/4.0-1/configure/?hl=43,45,46,1003#L43
+    https://sources.debian.net/src/cctools/4.0-1/dttools/src/cctools.c/?hl=24#L24
 ccze:
   version: 0.2.1-2
   issues:
