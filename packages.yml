@@ -7670,7 +7670,7 @@ libparse-debianchangelog-perl:
     with xgettext in Build.PL. All that happens in the ACTION_binpo
     sub. 1.2.0-2 improves this a bit: the time in these timestamps
     is always the same; however, it is expressed in the timezone
-    used by the build environment.
+    used by the build environment, which should be fixed in 1.2.0-3.
   issues:
     - lc_messages_randomness
 libpdfbox-java:
