@@ -317,10 +317,6 @@ antlr:
   issues:
     - timestamps_in_jar
     - timestamps_in_pe_binaries
-antlr-maven-plugin:
-  version: 2.2-2
-  issues:
-    - random_order_in_maven_plugin_xml
 antlr3:
   version: 3.2-10
   comments: |
@@ -546,10 +542,6 @@ aspectc++:
   version: 1:1.2-1
   issues:
     - timestamps_generated_by_docbook_to_man
-aspectj-maven-plugin:
-  version: 1.7-1
-  issues:
-    - random_order_in_maven_plugin_xml
 aspell-ar-large:
   version: 1.2-0-3
   issues:
@@ -1692,18 +1684,10 @@ clirr:
   version: 0.6-5
   issues:
     - timestamps_in_maven_pom_files
-clirr-maven-plugin:
-  version: 2.3-1
-  issues:
-    - random_order_in_maven_plugin_xml
 clojure-contrib:
   version: 1.2.0-2
   issues:
     - user_in_java_jar_manifest
-clojure-maven-plugin:
-  version: 1.3.3-3
-  issues:
-    - random_order_in_maven_plugin_xml
 cloog:
   version: 0.18.3-1
   issues:
@@ -1765,10 +1749,6 @@ cobbler:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/cobbler/2.6.6%2Bdfsg1-2/setup.py/#L66
-cobertura-maven-plugin:
-  version: 2.3+dfsg-2
-  issues:
-    - random_order_in_maven_plugin_xml
 coccinelle:
   version: 1.0.0~rc22
   issues:
@@ -2678,10 +2658,6 @@ doxia:
   version: 1.1.4-2
   issues:
     - random_order_in_plexus_comonents_xml
-doxia-maven-plugin:
-  version: 1.1.4-2
-  issues:
-    - random_order_in_maven_plugin_xml
 doxia-sitetools:
   version: 1.1.4-1
   issues:
@@ -6184,10 +6160,6 @@ java-common:
   version: 0.52
   issues:
     - timestamps_in_dvi_generated_by_latex
-javacc-maven-plugin:
-  version: 2.6-2
-  issues:
-    - random_order_in_maven_plugin_xml
 javamorph:
   version: 0.0.20100201-1.3
   issues:
@@ -8645,14 +8617,6 @@ maven-assembly-plugin:
     - random_order_in_maven_plugin_xml
     - date_in_maven_plugin_xml
     - random_order_in_plexus_comonents_xml
-maven-bundle-plugin:
-  version: 2.3.7-2
-  issues:
-    - random_order_in_maven_plugin_xml
-maven-compiler-plugin:
-  version: 2.5.1-1
-  issues:
-    - random_order_in_maven_plugin_xml
 maven-debian-helper:
   version: 1.6.9
   issues:
@@ -8663,18 +8627,10 @@ maven-dependency-analyzer:
   version: 1.2-2
   issues:
     - timestamps_in_maven_pom_files
-maven-dependency-plugin:
-  version: 2.4-1
-  issues:
-    - random_order_in_maven_plugin_xml
 maven-docck-plugin:
   version: 1.0-4
   issues:
     - date_in_maven_plugin_xml
-maven-ear-plugin:
-  version: 2.3.2-3
-  issues:
-    - random_order_in_maven_plugin_xml
 maven-enforcer:
   version: 1.0-1
   issues:
@@ -8693,10 +8649,6 @@ maven-invoker:
   version: 2.1.1-1
   issues:
     - timestamps_in_maven_pom_files
-maven-invoker-plugin:
-  version: 1.5-3
-  issues:
-    - random_order_in_maven_plugin_xml
 maven-plugin-testing:
   version: 1.3-2
   issues:
@@ -8706,18 +8658,6 @@ maven-plugin-tools:
   issues:
     - timestamps_in_maven_pom_files
     - date_in_maven_plugin_xml
-maven-processor-plugin:
-  version: 2.0.8-1
-  issues:
-    - random_order_in_maven_plugin_xml
-maven-project-info-reports-plugin:
-  version: 2.4-2
-  issues:
-    - random_order_in_maven_plugin_xml
-maven-resources-plugin:
-  version: 2.3-8
-  issues:
-    - random_order_in_maven_plugin_xml
 maven-scm:
   version: 1.3-5
   issues:
@@ -8730,18 +8670,6 @@ maven-shared-utils:
   version: 0.4-1
   issues:
     - timestamps_in_maven_pom_files
-maven-site-plugin:
-  version: 2.1-3
-  issues:
-    - random_order_in_maven_plugin_xml
-maven-stapler-plugin:
-  version: 1.17-1
-  issues:
-    - random_order_in_maven_plugin_xml
-maven-war-plugin:
-  version: 2.1.1-2
-  issues:
-    - random_order_in_maven_plugin_xml
 maven2:
   version: 2.2.1-25
   issues:
@@ -9007,14 +8935,6 @@ modello:
   version: 1.1-3
   issues:
     - timestamps_in_maven_pom_files
-modello-maven-plugin:
-  version: 1.1-2
-  issues:
-    - random_order_in_maven_plugin_xml
-modello-maven-plugin1.4:
-  version: 1.4.1-1
-  issues:
-    - random_order_in_maven_plugin_xml
 modello1.4:
   version: 1.4.1-2
   issues:
@@ -9284,10 +9204,6 @@ mummy:
     - timestamps_in_documentation_generated_by_doxygen
     - timestamps_in_pe_binaries
     - different_due_to_umask
-munge-maven-plugin:
-  version: 1.0-1
-  issues:
-    - random_order_in_maven_plugin_xml
 munin:
   version: 2.1.9-1
   issues:
@@ -10914,10 +10830,6 @@ plexus-io:
   version: 1.0~alpha5-2
   issues:
     - timestamps_in_maven_pom_files
-plexus-maven-plugin:
-  version: 1.3.8-9
-  issues:
-    - random_order_in_maven_plugin_xml
 plexus-utils2:
   version: 3.0.15-1
   issues:
@@ -11128,10 +11040,6 @@ propellor:
   version: 0.9.2
   comments: |
     Includes an unreproducible git bundle.
-properties-maven-plugin:
-  version: 1.0~alpha2-2
-  issues:
-    - random_order_in_maven_plugin_xml
 prophet:
   version: 0.750-1
   bugs:
@@ -13232,10 +13140,6 @@ sisu-ioc:
   version: 2.3.0-5
   issues:
     - timestamps_in_maven_pom_files
-sisu-maven-plugin:
-  version: 1.1-1
-  issues:
-    - random_order_in_maven_plugin_xml
 sisu-plexus:
   version: 0.0.0.M5-1
   issues:
@@ -15372,10 +15276,6 @@ xmds2:
     Package has been blacklisted for now.
   issues:
     - blacklisted_on_jenkins
-xml-maven-plugin:
-  version: 1.0-2
-  issues:
-    - random_order_in_maven_plugin_xml
 xmlcopyeditor:
   version: 1.2.1.3-1
   comments: |
