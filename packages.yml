@@ -8201,10 +8201,10 @@ liquidwar:
   version: 5.6.4-3
   issues:
     - timestamps_from_cpp_macros
+    - timestamps_in_allegro_dat_files
   comments: |
     See
     https://sources.debian.net/src/liquidwar/5.6.4-3/src/basicopt.c/?hl=126#L126
-    Some timestamps might also be added by `convert`.
 litecoin:
   version: 0.8.7.4-1
   comments: |

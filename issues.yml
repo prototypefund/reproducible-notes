@@ -573,3 +573,7 @@ timestamps_generated_by_asdocgen:
   description: |
     ASDocGen (in the package afterstep) adds timestamps to the generated file.
   url: https://bugs.debian.org/785774
+timestamps_in_allegro_dat_files:
+  description: |
+    `.dat` files from the Allegro framework are basically archives. The `dat`
+    command line tool will add a DATE property with the file modification time.
