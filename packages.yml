@@ -3611,6 +3611,8 @@ flowscan:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+  bugs:
+    - 786927
 flowscan-cuflow:
   version: 1.7-8
   issues:
