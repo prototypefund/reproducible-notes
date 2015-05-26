@@ -620,8 +620,6 @@ atinject-jsr330:
     - random_order_in_documentation_generated_by_javadoc
 atlas:
   version: 3.10.2-7
-  issues:
-    - timestamps_in_pdf_generated_by_latex
   comments: |
     Embed build time, username, hostname, kernel version:
     https://sources.debian.net/src/atlas/3.10.2-7/tune/sysinfo/emit_buildinfo.c/?hl=206:208#L206
@@ -630,6 +628,8 @@ atlas:
     https://sources.debian.net/src/atlas/3.10.2-7/tune/blas/ger/s1nxtune.c/?hl=367:377#L367
     https://sources.debian.net/src/atlas/3.10.2-7/tune/blas/ger/s2nxtune.c/?hl=368:377#L368
     https://sources.debian.net/src/atlas/3.10.2-7/tune/sysinfo/GetSysSum.c/?hl=104:122#L104
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 attic:
   version: 0.13-1
   issues:
@@ -2087,13 +2087,13 @@ cups:
     - blacklisted_on_jenkins
 cupt:
   version: 2.9.0
-  issues:
-    - timezones_manpages_podman
   comments: |
     Uses txt2tags `%%date` macro in some documentation:
     https://sources.debian.net/src/cupt/2.9.0/doc/functionalselectors.t2t/?hl=3
     https://sources.debian.net/src/cupt/2.9.0/doc/tutorial.t2t/?hl=3
     `%%mtime` could probably be used instead.
+  issues:
+    - timezones_manpages_podman
 curtain:
   version: 0.3-1
   bugs:
@@ -6282,10 +6282,6 @@ jhead:
   version: 1:2.97-1
   issues:
     - timestamps_from_cpp_macros
-jline2:
-  version: 2.11-3
-  issues:
-    - timestamps_in_maven_pom_files
 jimtcl:
   version: 0.75-1
   comments: |
@@ -6298,6 +6294,10 @@ jitsi:
   version: 2.4.4997-1.2
   bugs:
     - 759835
+jline2:
+  version: 2.11-3
+  issues:
+    - timestamps_in_maven_pom_files
 jlint:
   version: 3.0-4.5
   issues:
@@ -8201,12 +8201,12 @@ liquidsoap:
     - randomness_in_ocaml_a_files
 liquidwar:
   version: 5.6.4-3
-  issues:
-    - timestamps_from_cpp_macros
-    - timestamps_in_allegro_dat_files
   comments: |
     See
     https://sources.debian.net/src/liquidwar/5.6.4-3/src/basicopt.c/?hl=126#L126
+  issues:
+    - timestamps_from_cpp_macros
+    - timestamps_in_allegro_dat_files
 litecoin:
   version: 0.8.7.4-1
   comments: |
@@ -11733,7 +11733,7 @@ python-xmp-toolkit:
   issues:
     - timestamps_in_documentation_generated_by_sphinx
 python-xstatic-angular-bootstrap:
-  version:  0.11.0.3-1
+  version: 0.11.0.3-1
   issues:
     - random_order_in_python_namespace_packages
 python-xstatic-smart-table:
@@ -12918,16 +12918,16 @@ saxonb:
   version: 9.1.0.8+dfsg-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-sbuild:
-  version: 0.65.0-1
-  bugs:
-    - 778482
 sbcl:
   version: 2:1.2.11-2
   issues:
     - ftbfs_in_jenkins_setup
   bugs:
     - 786601
+sbuild:
+  version: 0.65.0-1
+  bugs:
+    - 778482
 scala:
   version: 2.9.2+dfsg-2
   issues:
