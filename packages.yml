@@ -224,6 +224,12 @@ alpine:
   comments: |
     Build timestamp is written in alpine binary:
     https://sources.debian.net/src/alpine/2.11%2Bdfsg1-3/alpine/Makefile.am/?hl=46:48#L46
+alt-ergo:
+  version: 0.99.1+dfsg1-2
+  issues:
+    - randomness_in_ocaml_a_files
+  bugs:
+    - 786846
 altos:
   version: 1.6-1
   issues:
