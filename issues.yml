@@ -395,8 +395,14 @@ ftbfs_in_jenkins_setup:
     2) jobs that try to bind to localhost port which are in use by something in the
        jenkins machines. The occupied ports are: 22, 25, 80, 443, 3128, 3129, 4949, 8080, 34167
     3) there is some trouble with pbuilder in wheezy for a handful of packages, usually with tests involving networking.
-    4.) something else, eg #780725
-  url: https://bugs.debian.org/780587
+    4) https://bugs.debian.org/780725 is worked around like described in msg#60 of that bug, that is, apt in pbuilder is configured to use thte proxy and http_proxy is unset.
+    5) something else, the machine is heavily loaded all the time...
+    .
+    This issue should probably be split into ftbfs_in_jenkins_setup and ftbfs_in_jenkins_setup_due_to_network_issues.
+ftbfs_on_2nd_build:
+  description: |
+    Packages builds fine in the first build attempt and fails in the second.
+    Packages affected by this issue need to be further investigated, the cause is likely due to changed parameters.
 timestamps_in_description_files_generated_by_r-base-dev:
   description: |
     r-base-dev leaves a build timestamp (showing date + time + timezone) in

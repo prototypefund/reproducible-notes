@@ -12762,12 +12762,17 @@ rurple-ng:
 s3ql:
   version: 2.13+dfsg-1
   comments: |
+    2015-03-10
     The FTBFS problem is probably specific to building with a pbuilder
     in a wheezy environment as used on jenkins.d.n and reproduced elsewhere.
     Building on both the Debian buildds as well as ci.d.n works fine.
     Maintainer is aware.
+    2015-05-27
+    On unstable, the first build fails, but not anymore as in #780587.
+    In testing, the first build succeeds, but the second fails - different than in unstable.
   issues:
     - ftbfs_in_jenkins_setup
+    - ftbfs_on_2nd_build
 s5:
   version: 1.1.dfsg.2-5
   issues:
