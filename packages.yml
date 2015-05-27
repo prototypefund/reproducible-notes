@@ -11663,10 +11663,14 @@ python2.7:
     - timestamps_from_cpp_macros
     - different_due_to_umask
 python3.4:
-  version: 3.4.2-2
+  version: 3.4.3-6
   issues:
+    - randomness_in_fat_lto_objects
     - timestamps_from_cpp_macros
-    - different_due_to_umask
+    - timestamps_in_documentation_generated_by_sphinx
+    - timestamps_in_gzip_headers
+  bugs:
+    - 786965
 python3.5:
   version: 3.5.0~b1-1
   issues:
