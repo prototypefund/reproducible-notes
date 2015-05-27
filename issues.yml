@@ -583,4 +583,6 @@ randomness_in_fat_lto_objects:
     in the form of `.gnu.lto_.inline.24c30dabb443e726`. They will change at
     each build.
     Upstream bug report: https://gcc.gnu.org/bugzilla/show_bug.cgi?id=66305
+    Temporary (?) solution: pass the full path of the source as the argument
+    to `-frandom-seed`.
   deterministic: True
