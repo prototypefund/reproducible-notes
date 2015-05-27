@@ -1073,7 +1073,7 @@ blockattack:
 blockfinder:
   version: 3.14159-1
   issues:
-    - ftbfs_pbuilder_malformed_dsc
+    - ftbfs_with_pbuilder_due_malformed_dsc
 blosxom:
   version: 2.1.2-1
   issues:
@@ -4861,7 +4861,7 @@ gogoc:
 golang-xmpp-dev:
   version: 0.0~git20140304-1
   issues:
-    - ftbfs_pbuilder_malformed_dsc
+    - ftbfs_with_pbuilder_due_malformed_dsc
 goldencheetah:
   version: 3.1.0-1
   issues:
@@ -9611,7 +9611,7 @@ nova:
 novena-eeprom:
   version: 1.0-1
   issues:
-    - ftbfs_pbuilder_malformed_dsc
+    - ftbfs_with_pbuilder_due_malformed_dsc
 npm:
   version: 1.4.21+ds-2
   comments: |

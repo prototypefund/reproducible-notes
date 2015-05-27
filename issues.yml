@@ -367,7 +367,7 @@ ftbfs_werror_equals:
   description: |
     FTBFS if dpkg-buildflags contains -Werror=
   deterministic: True
-ftbfs_pbuilder_malformed_dsc:
+ftbfs_with_pbuilder_due_malformed_dsc:
   description: |
     Package FTBFS in pbuilder due to a malformed .dsc, breaking CI.
   url: https://bugs.debian.org/741617
