@@ -577,3 +577,9 @@ timestamps_in_allegro_dat_files:
   description: |
     `.dat` files from the Allegro framework are basically archives. The `dat`
     command line tool will add a DATE property with the file modification time.
+randomness_in_fat_lto_objects:
+  description: |
+    Objects built with `gcc -flto -ffat-lto-objects` will contain random strings
+    in the form of `.gnu.lto_.inline.24c30dabb443e726`. They will change at
+    each build.
+  deterministic: True
