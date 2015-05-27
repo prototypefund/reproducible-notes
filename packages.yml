@@ -11657,10 +11657,20 @@ python-xstatic-smart-table:
   issues:
     - random_order_in_python_namespace_packages
 python2.7:
-  version: 2.7.8-11
+  version: 2.7.10-1
   issues:
+    - randomness_in_fat_lto_objects
     - timestamps_from_cpp_macros
-    - different_due_to_umask
+    - timestamps_in_documentation_generated_by_sphinx
+    - timestamps_in_gzip_headers
+  bugs:
+    - 786978
+  comments: |
+    Test result in python2.7-dev, but this is already deactivated
+    on buildds or when `nobench` is given in `DEB_BUILD_OPTIONS`.
+    Guess it could be made turned off by defaults? Also, it
+    doesn't show up for python3.4 and python3.5, but not
+    investigated.
 python3.4:
   version: 3.4.3-6
   issues:
