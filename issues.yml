@@ -247,6 +247,8 @@ timestamps_in_python_docutils:
 random_order_in_files_generated_by_module_build:
   description: |
     Perl files generated with Module::Build contain an unsorted dependency list.
+    .
+    Fixed in libmodule-build-perl, but not in the module shipped by perl itself.
   url: https://bugs.debian.org/774869
 unsorted_filelist_python_support_private:
   description: |
