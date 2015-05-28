@@ -6627,6 +6627,12 @@ kscope:
   version: 1.9.4-2
   issues:
     - timestamps_from_cpp_macros
+ksshaskpass:
+  version: 4:5.2.2-1
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
+  bugs:
+    - 787115
 ktikz:
   version: 0.10-4
   issues:
