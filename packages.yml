@@ -9531,6 +9531,8 @@ nis:
   issues:
     - not_using_dh_builddeb
     - timestamps_in_gzip_headers
+  bugs:
+    - 787126
 nitpic:
   version: 0.1-15
   issues:
@@ -10313,6 +10315,8 @@ pachi:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+  bugs:
+    - 787125
 packaging-tutorial:
   version: 0.15
   issues:
@@ -12245,6 +12249,8 @@ rsync:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+  bugs:
+    - 787123
 rt-extension-calendar:
   version: 0.17-1
   comments: |
@@ -15454,6 +15460,7 @@ xtrlock:
     - not_using_dh_builddeb
   bugs:
     - 777351
+    - 787122
 xvier:
   version: 1.0-7.5
   issues:
