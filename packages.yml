@@ -1802,6 +1802,11 @@ coldfire:
   version: 0.2.2-2.3
   issues:
     - timestamps_generated_by_docbook_to_man
+collabtive:
+  version: 2.0+dfsg-6
+  comments: |
+    While removing duplicate images and replacing them with symlinks,
+    rdfind chooses a random one as target.
 collectd:
   version: 5.4.1-6
   issues:
@@ -2834,6 +2839,12 @@ eclib:
   version: 2014-09-21-1
   issues:
     - timestamps_from_cpp_macros
+eclipse:
+  version: 3.8.1-8
+  issues:
+    - timestamps_in_jar
+  comments: |
+    Also embeds kernel version and has timestamps in properties files.
 eclipse-emf:
   version: 2.8.3-1
   issues:
@@ -4642,6 +4653,10 @@ gnash:
   version: 0.8.11~git20140708-3
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+gnat-4.6:
+  version: 4.6.4-4
+  issues:
+    - timestamps_in_ada_library_information_files
 gnat-gps:
   version: 5.3dfsg-1
   issues:
@@ -8877,6 +8892,10 @@ mksh:
   comments: |
     Puts output from $(date) into README.Debian; fix committed and queued
     for 50d-4.
+mldonkey:
+  version: 3.1.5-2
+  issues:
+    - randomness_in_ocaml_a_files
 mlpack:
   version: 1.0.10-1
   issues:
@@ -10263,6 +10282,10 @@ oslo-config:
   version: 1:1.3.0-2
   issues:
     - timestamps_in_documentation_generated_by_sphinx
+oslo.messaging:
+  version: 1.8.1-1
+  issues:
+    - timestamps_in_documentation_generated_by_sphinx
 osmo:
   version: 0.2.12-1
   issues:
@@ -10752,6 +10775,10 @@ piespy:
   version: 0.4.0-3
   issues:
     - timestamps_in_jar
+pike7.8:
+  version: 7.8.866-3
+  issues:
+    - timestamps_from_cpp_macros
 pilot-link:
   version: 0.12.5-dfsg-1
   issues:
@@ -11012,6 +11039,11 @@ praat:
   version: 5.4.0-1
   issues:
     - timestamps_from_cpp_macros
+pretzel:
+  version: 2.0n-2-0.3
+  comments: |
+    strsave.o.gz differs, but only the gzip file (at the end).
+    The uncompressed file is identical. Reason unknown.
 prewikka:
   version: 1.0.0-1.3
   issues:
@@ -11891,7 +11923,7 @@ qtruby:
     - timestamps_in_tarball
     - different_due_to_umask
 qtscript-opensource-src:
-  version: 5.4.1+dfsg-3
+  version: 5.3.2+dfsg-2
   issues:
     - randomness_in_qdoc
 qtsensors-opensource-src:
@@ -11914,6 +11946,10 @@ qttools-opensource-src:
   issues:
     - timestamps_in_qch
     - randomness_in_qdoc
+qtwebkit:
+  version: 2.3.4.dfsg-3
+  issues:
+    - timestamps_from_cpp_macros
 qtwebkit-examples-opensource-src:
   version: 5.3.2+dfsg-2
   issues:
@@ -11929,7 +11965,7 @@ qtx11extras-opensource-src:
     - timestamps_in_qch
     - randomness_in_qdoc
 qtxmlpatterns-opensource-src:
-  version: 5.4.1-1
+  version: 5.3.2-2
   issues:
     - randomness_in_qdoc
 quantlib:
