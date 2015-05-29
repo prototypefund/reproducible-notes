@@ -10704,6 +10704,8 @@ php-xml-serializer:
     - 759972
 php5:
   version: 5.6.2+dfsg-1
+  comments: |
+    upstream bug: https://bugs.php.net/bug.php?id=69727
   issues:
     - timestamps_from_cpp_macros
 phpbb3:
@@ -11652,6 +11654,12 @@ python-xstatic-smart-table:
     - random_order_in_python_namespace_packages
 python2.7:
   version: 2.7.10-1
+  comments: |
+    Test result in python2.7-dev, but this is already deactivated
+    on buildds or when `nobench` is given in `DEB_BUILD_OPTIONS`.
+    Guess it could be made turned off by defaults? Also, it
+    doesn't show up for python3.4 and python3.5, but not
+    investigated.
   issues:
     - randomness_in_fat_lto_objects
     - timestamps_from_cpp_macros
@@ -11659,12 +11667,6 @@ python2.7:
     - timestamps_in_gzip_headers
   bugs:
     - 786978
-  comments: |
-    Test result in python2.7-dev, but this is already deactivated
-    on buildds or when `nobench` is given in `DEB_BUILD_OPTIONS`.
-    Guess it could be made turned off by defaults? Also, it
-    doesn't show up for python3.4 and python3.5, but not
-    investigated.
 python3.4:
   version: 3.4.3-6
   issues:
