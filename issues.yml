@@ -594,3 +594,9 @@ randomness_in_fat_lto_objects:
     Temporary (?) solution: pass the full path of the source as the argument
     to `-frandom-seed`.
   deterministic: True
+random_import_order_in_ui_generated_by_pyuic:
+  description: |
+    UI files generated with python-qt's ui compiler contain unsorted imports.
+    .
+    python-qt4: https://bugs.debian.org/787250
+    pyqt5: https://bugs.debian.org/787251
