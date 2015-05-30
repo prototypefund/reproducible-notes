@@ -8854,10 +8854,6 @@ mingw-ocaml:
   version: 4.01.0~20140328-1
   issues:
     - timestamps_in_pe_binaries
-mingw-w64:
-  version: 3.2.0-2
-  issues:
-    - timestamps_from_cpp_macros
 mini-buildd:
   version: 1.0.5
   issues:
@@ -14681,12 +14677,6 @@ velvet:
   version: 1.2.10+dfsg1-1
   issues:
     - timestamps_in_pdf_generated_by_latex
-vera:
-  version: 1.21-1
-  comments: |
-    fixed in unstable
-  bugs:
-    - 776367
 verilator:
   version: 3.864-1
   comments: |
