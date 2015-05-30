@@ -600,3 +600,7 @@ random_import_order_in_ui_generated_by_pyuic:
     .
     python-qt4: https://bugs.debian.org/787250
     pyqt5: https://bugs.debian.org/787251
+randomness_in_c_files_generated_by_extutils_parsexs:
+  description: |
+    ExtUtils::ParseXS generates undeterministic C files (differing order) out of .xs files.
+    This leads to differently compiled objects.
