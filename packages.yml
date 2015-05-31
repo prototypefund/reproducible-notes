@@ -5909,9 +5909,9 @@ insighttoolkit4:
   issues:
     - different_due_to_umask
 inspircd:
-  version: 2.0.17-1
+  version: 2.0.20-1
   issues:
-    - timestamps_from_cpp_macros
+    - build_id_variation_requiring_further_investigation
 installation-guide:
   version: 20150423
   issues:
@@ -8970,7 +8970,7 @@ mod-auth-mysql:
   issues:
     - ftbfs_due_to_virtual_dependencies
 mod-authn-webid:
-  version: 0~20110301-2
+  version: 0~20110301-3
   issues:
     - not_using_dh_builddeb
   bugs:
@@ -13739,7 +13739,7 @@ svnkit:
     - timestamps_manually_added_needs_further_investigation
     - timezones_manpages_podman
 svtplay-dl:
-  version: 0.9.2014.10.13-1
+  version: 0.10.2015.05.24-1
   comments: |
     The svtplay-dl python "script" contains a zip archive,
     whose members have differing mtimes.
