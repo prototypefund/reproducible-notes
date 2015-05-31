@@ -13601,6 +13601,13 @@ sqlline:
   version: 1.0.2-5
   issues:
     - timestamps_manually_added_needs_further_investigation
+squeak-vm:
+  version: 4.10.2.2614-1.1
+  issues:
+    - timestamps_from_cpp_macros
+  comments: |
+    Too, in the cmake file unix/vm/config.cmake is defined the macro
+    VM_BUILD_STRING that includes the __DATE__ and __TIME__ macros.
 squid3:
   version: 3.4.8-2
   issues:
