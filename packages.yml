@@ -1738,6 +1738,12 @@ cmatrix:
   version: 1.2a-5
   issues:
     - timestamps_from_cpp_macros
+cmor:
+  version: 2.9.1-5
+  comments: |
+    This library adds timestamps inside function methods.
+    When the example files are generated the current time is saved.
+    Command to find where are set the timestamps: ack-grep -B3 snprintf.*ptr
 cmucl:
   version: 20c-2.1
   comments: |
