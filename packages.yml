@@ -8883,10 +8883,6 @@ mira:
     http://sources.debian.net/src/mira/4.0.2-1/src/progs/Makefile.am/?hl=17:22#L17
   issues:
     - captures_kernel_version
-miredo:
-  version: 1.2.6-2
-  issues:
-    - timestamps_from_cpp_macros
 miro:
   version: 6.0-1
   comments: |
@@ -9687,11 +9683,6 @@ nsis:
   issues:
     - timestamps_in_pe_binaries
     - different_due_to_umask
-nspr:
-  version: 2:4.10.7-1
-  issues:
-    - timestamps_in_static_libraries
-    - timestamps_from_cpp_macros
 nss:
   version: 2:3.17.2-1
   issues:
@@ -11172,10 +11163,6 @@ puppet-lint:
   version: 1.1.0-1
   issues:
     - timestamps_in_gemspec_files
-puredata:
-  version: 0.46.6-1
-  issues:
-    - timestamps_from_cpp_macros
 puredata-import:
   version: 1.3-3
   issues:

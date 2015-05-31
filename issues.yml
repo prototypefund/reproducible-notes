@@ -58,11 +58,6 @@ debbindiff_runs_forever:
     Currently it's killed after 30 mins but we also tried an hour, didn't help.
     This page https://reproducible.debian.net/index_breakages.html also collects
     a list of "undiffable" packages.
-xpi_pack_saves_extra_attributes_in_jar:
-  description: |
-    xpi-pack, part of mozilla-devscripts, saves extra attributes when creating
-    jar files. The fix is pending an upload.
-  url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInJarFiles
 timestamps_in_maven_pom_files:
   description: |
     Maven writes a timestamp to pom.properties files
@@ -102,11 +97,6 @@ random_order_in_naturaldocs:
   description: |
     Natural Docs generates its documentation in a random order.
   url: https://bugs.debian.org/778962
-timestamps_in_documentation_generated_by_yard:
-  description: |
-    YARD writes timestamps in HTML files it produces. (Patch in 776648)
-  url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInDocumentationGeneratedByYard
-  deterministic: True
 timestamps_in_beam_files:
   description: |
     Erlang source files compiled by erlc into BEAM files contain timestamps and the build path.
