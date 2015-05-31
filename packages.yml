@@ -3264,11 +3264,6 @@ evolution-webcal:
   version: 2.32.0-2
   bugs:
     - 759823
-exactimage:
-  version: 0.9.1-3
-  comments: |
-    Records build date:
-    https://sources.debian.net/src/exactimage/0.9.1-3/config/functions/?hl=177#L177
 exim4:
   version: 4.84-3
   issues:
@@ -10600,6 +10595,11 @@ pdns-recursor:
     Embed build time, hostname and username:
     https://sources.debian.net/src/pdns-recursor/3.6.2-2/version.cc/?hl=67,107#L67
     http://sources.debian.net/src/pdns-recursor/3.6.2-1/Makefile/?hl=72:84#L72
+pdnsd:
+  version: 1.2.9a-par-2
+  comments: |
+    Embeds the month and year into manpage.
+    https://sources.debian.net/src/pdnsd/1.2.9a-par-2/doc/html2confman.pl/#L53
 pear-channels:
   version: 0~20141011-1
   issues:
@@ -14906,12 +14906,6 @@ watchdog:
     - not_using_dh_builddeb
   bugs:
     - 784211
-wavemon:
-  version: 0.7.6-2
-  comments: |
-    Include build timestamp in binary.
-    https://sources.debian.net/src/wavemon/0.7.6-2/configure.ac/?hl=10#L10
-    https://sources.debian.net/src/wavemon/0.7.6-2/about_scr.c/?hl=27#L27
 wavtool-pl:
   version: 0.20140305-1
   issues:
