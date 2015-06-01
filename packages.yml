@@ -326,6 +326,10 @@ antpm:
   version: 1.16-8
   issues:
     - timestamps_from_cpp_macros
+ants:
+  version: 2.1.0~rc2+git3-g9103999-4
+  issues:
+    - timestamps_in_manpage_generated_by_help2man
 anytun:
   version: 0.3.5-1
   comments: |
@@ -753,6 +757,10 @@ awesome-extra:
   version: 2012061101
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
+awffull:
+  version: 3.10.2-4
+  issues:
+    - timestamps_in_manpage_generated_by_help2man
 aws-sdk-for-php:
   version: 0.93-4
   comments: |
@@ -1789,6 +1797,10 @@ codenarc:
   version: 0.17-2
   issues:
     - timestamps_in_documentation_generated_by_groovydoc
+codespell:
+  version: 1.7-2
+  issues:
+    - timestamps_in_manpage_generated_by_help2man
 cogl:
   version: 1.18.2-3
   issues:
@@ -2790,6 +2802,10 @@ dune-localfunctions:
   version: 2.3.1-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+dupload:
+  version: 2.7.0
+  issues:
+    - timestamps_in_manpage_generated_by_help2man
 dvbsnoop:
   version: 1.4.50-5
   issues:
@@ -3537,6 +3553,12 @@ findlib:
   version: 1.4.1-1
   issues:
     - randomness_in_ocaml_a_files
+firebird2.5:
+  version: 2.5.4.26856.ds4-1
+  issues:
+    - timestamps_in_manpage_generated_by_help2man
+  comments: |
+    Also has unreproducible .fdb files.
 firebird3.0:
   version: 3.0.0~svn+53030.ds3-1
   issues:
@@ -4147,6 +4169,10 @@ gbrowse:
     generated using rand()
   issues:
     - random_order_in_files_generated_by_module_build
+gcalcli:
+  version: 3.2-2
+  issues:
+    - timestamps_in_manpage_generated_by_help2man
 gcc-4.4:
   version: 4.4.7-8
   comments: |
@@ -9641,8 +9667,8 @@ node-stringprep:
     - 719382
 node-tap:
   version: 0.4.13-2
-  bugs:
-    - 775627
+  issues:
+    - timestamps_in_manpage_generated_by_help2man
 node-zlib:
   version: 1.0.5-1
   bugs:
@@ -9680,7 +9706,7 @@ notify-sharp:
 notmuch:
   version: 0.19-1
   issues:
-    - timezones_manpages_podman
+    - timestamps_in_manpage_generated_by_sphinx
 nova:
   version: 2014.1.3-11
   issues:
@@ -10167,6 +10193,10 @@ openjpa:
   version: 2.2.2-1
   issues:
     - timestamps_in_maven_pom_files
+openjpeg2:
+  version: 2.1.0-2
+  issues:
+    - timestamps_in_manpage_generated_by_help2man
 openlayers:
   version: 2.11+ds1-1
   issues:
@@ -12312,10 +12342,6 @@ roarplaylistd:
   comments: |
     Embed build time:
     http://codesearch.debian.net/search?q=package%3Aroarplaylistd+BUILD_STAMP
-robocode:
-  version: 1.6.2+dfsg2-1
-  issues:
-    - timestamps_in_documentation_generated_by_javadoc
 robojournal:
   version: 0.5-1
   issues:
@@ -14944,6 +14970,10 @@ wavtool-pl:
   version: 0.20140305-1
   issues:
     - timestamps_generated_by_docbook_to_man
+wayland:
+  version: 1.7.0-2
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 wcd:
   version: 5.2.5-1
   issues:
