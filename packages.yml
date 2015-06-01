@@ -3227,6 +3227,10 @@ eso-midas:
   version: 13.09pl1.4-1
   issues:
     - different_due_to_umask
+esorex:
+  version: 3.12-1
+  issues:
+    - timestamps_in_manpage_generated_by_help2man
 espresso:
   version: 5.1+dfsg-3
   issues:
@@ -4921,6 +4925,11 @@ gpgme1.0:
   comments: |
     Embed build time:
     https://sources.debian.net/src/gpgme1.0/1.5.1-6/configure.ac/?hl=264:267#L264
+gpick:
+  version: 0.2.5-1
+  comments: |
+    Embed build time:
+    https://sources.debian.net/src/gpick/0.2.5-1/tools/gpick.py/?hl=141:151#L141
 gplanarity:
   version: 17906-5
   issues:
@@ -7329,6 +7338,10 @@ libhtml-popuptreeselect-perl:
   version: 1.6-7
   issues:
     - timestamps_in_documentation_generated_by_podman
+libhtml-tidy-perl:
+  version: 1.56-1
+  issues:
+    - timestamps_in_manpage_generated_by_help2man
 libhtml-wikiconverter-moinmoin-perl:
   version: 0.53-4
   issues:
@@ -8273,6 +8286,10 @@ llvm-toolchain-snapshot:
   version: 1:3.6~svn218612-1
   issues:
     - timestamps_from_cpp_macros
+lm4tools:
+  version: 20140816~a565880+dfsg-1
+  issues:
+    - timestamps_in_manpage_generated_by_help2man
 lmdb:
   version: 0.9.14-1
   issues:
@@ -9123,6 +9140,13 @@ mozjs24:
   version: 24.2.0-2
   issues:
     - timestamps_from_cpp_macros
+mp3fs:
+  version: 0.91-1
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
+  comments: |
+    Fix should be quite easy:
+    https://sources.debian.net/src/mp3fs/0.91-1/Makefile.am/?hl=11#L11
 mp3splt-gtk:
   version: 0.7.2-2
   bugs:
@@ -9342,6 +9366,10 @@ nagios-nrpe:
   comments: |
     Embed build time:
     https://sources.debian.net/src/nagios-nrpe/2.15-1/update-version/
+nagios-plugin-check-multi:
+  version: 0.26-2
+  issues:
+    - timestamps_in_manpage_generated_by_help2man
 nailgun:
   version: 0.9.1-2
   issues:
