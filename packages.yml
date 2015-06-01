@@ -7999,9 +7999,11 @@ libtheora:
     - timestamps_in_documentation_generated_by_doxygen
     - timestamps_in_pdf_generated_by_latex
 libtime-y2038-perl:
-  version: 20100403-3
+  version: 20100403-4
   issues:
     - timezones_manpages_podman
+  comments: |
+    check_max.c is sensitive to TZ, results embedded in y2038/time64_limits.h by munge_config
 libtnt:
   version: 1.2.6-1
   issues:
