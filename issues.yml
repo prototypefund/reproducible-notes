@@ -414,6 +414,7 @@ timestamps_in_manpage_generated_by_help2man:
   description: |
     Manpages generated with help2man embed the month and year by default.
     This is currently only detected on the 1st of a month, because we are varying the timezone to span more than a day.
+  url: https://bugs.debian.org/787444
 fonts_in_pdf_files:
   description: |
     The internally used names/identifiers of fonts embedded into PDF files varies.
