@@ -7700,6 +7700,9 @@ libnet-twitter-lite-perl:
   version: 0.12006-1
   issues:
     - timestamps_in_documentation_generated_by_podman
+    - random_order_in_manifying_with_module_build
+  comments: |
+    Duplicated documentation for Net::Twitter::Lite
 libnfo:
   version: 1.0.1-1.1
   issues:
@@ -8053,8 +8056,10 @@ libuninum:
     - timestamps_from_cpp_macros
 libur-perl:
   version: 0.430-1
+  issues:
+    - random_order_in_manifying_with_module_build
   comments: |
-    Non-deterministically uses outdated .pod file over embedded POD in the .pl?
+    Duplicated documentation for UR::Object::Type
 libvigraimpex:
   version: 1.9.0+dfsg-10
   issues:
