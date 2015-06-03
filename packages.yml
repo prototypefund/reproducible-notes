@@ -8474,6 +8474,13 @@ lucene4:
   issues:
     - user_in_java_jar_manifest
     - timestamp_in_java_bnd_manifest
+lush:
+  version: 1.2.1-9+cvs20110227+nmu1
+  issues:
+    - timestamps_from_cpp_macros
+  bugs:
+    - 787650
+    - 787651
 lvtk:
   version: 1.2.0~dfsg0-1
   issues:
