@@ -60,7 +60,9 @@ debbindiff_runs_forever:
     a list of "undiffable" packages.
 timestamps_in_maven_pom_files:
   description: |
-    Maven writes a timestamp to pom.properties files
+    Maven writes a timestamp to pom.properties files.  This has been fixed in Maven itself, but these files are
+    also written by e.g. org.apache.felix.bundleplugin.  Additionally, anything that writes .properties files is
+    likely to have the same issue.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInMavenPomProperties
   deterministic: True
 timestamps_in_maven_version_files:
