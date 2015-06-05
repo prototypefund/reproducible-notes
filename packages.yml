@@ -10249,6 +10249,12 @@ oss4:
   issues:
     - timestamps_in_manpage_generated_by_txt2man
     - different_due_to_umask
+ossim:
+  version: 1.8.16-3
+  comments: |
+    Use custom cmake macro TODAYS_DATE to add timestamp in build.
+  bugs:
+    - 787790
 owncloud:
   version: 7.0.4+dfsg-2
   issues:
