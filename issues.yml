@@ -460,11 +460,6 @@ random_ispell_hash_files:
   description: |
     buildhash from ispell produces undeterministic .hash files.
   url: http://bugs.debian.org/778862
-timestamps_in_ghc_interfaces:
-  description: |
-    ghc includes the modification time of various files in --show-iface output.
-  url: https://wiki.debian.org/ReproducibleBuilds/TimestampInGhcInterfaces
-  deterministic: True
 random_filenames_in_ghc_debug_symbols:
   description: |
     ghc includes a random filename like /tmp/ghc12345_0/ghc12345_ or ghc12345_0.c in its debugsym packages' files.
