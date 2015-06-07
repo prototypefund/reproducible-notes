@@ -11594,7 +11594,7 @@ python-xstatic-term.js:
   issues:
     - random_order_in_python_namespace_packages
 python2.7:
-  version: 2.7.10-1
+  version: 2.7.10-2
   comments: |
     Test result in python2.7-dev, but this is already deactivated
     on buildds or when `nobench` is given in `DEB_BUILD_OPTIONS`.
@@ -11603,27 +11603,18 @@ python2.7:
     investigated.
   issues:
     - randomness_in_fat_lto_objects
-    - timestamps_from_cpp_macros
-    - timestamps_in_documentation_generated_by_sphinx
-    - timestamps_in_gzip_headers
   bugs:
     - 786978
 python3.4:
-  version: 3.4.3-6
+  version: 3.4.3-7
   issues:
     - randomness_in_fat_lto_objects
-    - timestamps_from_cpp_macros
-    - timestamps_in_documentation_generated_by_sphinx
-    - timestamps_in_gzip_headers
   bugs:
     - 786965
 python3.5:
-  version: 3.5.0~b1-1
+  version: 3.5.0~b1-2
   issues:
     - randomness_in_fat_lto_objects
-    - timestamps_from_cpp_macros
-    - timestamps_in_documentation_generated_by_sphinx
-    - timestamps_in_gzip_headers
   bugs:
     - 786959
 pythondialog:
@@ -14905,14 +14896,7 @@ wmii-doc:
 wml:
   version: 2.0.12ds1-8
   comments: |
-    Partially fixed in
-    https://anonscm.debian.org/cgit/pkg-wml/wml.git/commit/?id=81d1b3d042adb2d6986643184cf003dbb4b054c2
-    and the remaining issues filed against pod2man
-  issues:
-    - timezones_manpages_podman
-  bugs:
-    - 777405
-    - 777469
+    Embed hostname.
 wmpuzzle:
   version: 0.5.2-1
   issues:
