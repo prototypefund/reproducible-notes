@@ -1893,11 +1893,6 @@ confuse:
   version: 2.7-5
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-conkeror:
-  version: 1.0~~pre-1+git141025-1
-  comments: |
-    Should be fixed in git:
-    http://repo.or.cz/w/conkeror.git/commitdiff/a1d87faa81cc910112a2906c03e23876a57f7d18
 conky:
   version: 1.9.0-6
   comments: |
@@ -3855,6 +3850,11 @@ fox1.6:
   version: 1.6.50-1
   issues:
     - timestamps_from_cpp_macros
+foxeye:
+  version: 0.10.1-1
+  comments: |
+    Embeds the build date.
+    https://sources.debian.net/src/foxeye/0.10.1-1/configure.ac/#L310
 frama-c:
   version: 20140301+neon+dfsg-3
   comments: |
@@ -7037,6 +7037,10 @@ libgwibber:
   version: 0.1.1-1.3
   issues:
     - timestamps_in_pe_binaries
+libhdate:
+  version: 1.6-2.2
+  comments: |
+    Embeds PATH.
 libhmsbeagle:
   version: 2.1.2-1
   issues:
@@ -8698,12 +8702,6 @@ mod-auth-mysql:
   version: 4.3.9-13.1
   issues:
     - ftbfs_due_to_virtual_dependencies
-mod-authn-webid:
-  version: 0~20110301-3
-  issues:
-    - not_using_dh_builddeb
-  bugs:
-    - 778199
 modello:
   version: 1.1-3
   issues:
@@ -11443,10 +11441,6 @@ python-xlib:
   version: 0.14+20091101-1
   issues:
     - timestamps_in_documentation_generated_by_texi2html
-python-xmp-toolkit:
-  version: 2.0.1~git20140309.5437b0a-1
-  issues:
-    - timestamps_in_documentation_generated_by_sphinx
 python-xstatic-angular-bootstrap:
   version: 0.11.0.3-1
   issues:
@@ -11861,6 +11855,10 @@ rdflib:
   version: 4.1.2-3
   issues:
     - randomness_in_documentation_generated_by_sphinx
+rdkit:
+  version: 201503-1
+  issues:
+    - use_epydoc
 re2c:
   version: 0.13.5-1
   comments: |
@@ -13987,6 +13985,10 @@ trueprint:
   issues:
     - timezone_variance_because_of_automake_mdate
 truffle:
+  version: 0.6-2
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
+truffle-dsl-processor:
   version: 0.6-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
