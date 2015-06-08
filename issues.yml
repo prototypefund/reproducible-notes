@@ -588,9 +588,9 @@ randomness_in_fat_lto_objects:
     Objects built with `gcc -flto -ffat-lto-objects` will contain random strings
     in the form of `.gnu.lto_.inline.24c30dabb443e726`. They will change at
     each build.
-    Upstream bug report: https://gcc.gnu.org/bugzilla/show_bug.cgi?id=66305
     Temporary (?) solution: pass the full path of the source as the argument
     to `-frandom-seed`.
+  url: https://gcc.gnu.org/bugzilla/show_bug.cgi?id=66305
   deterministic: True
 random_import_order_in_ui_generated_by_pyuic:
   description: |
