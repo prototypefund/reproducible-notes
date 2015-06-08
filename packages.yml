@@ -6927,6 +6927,11 @@ libfile-scan-perl:
   version: 1.43-2
   issues:
     - timezones_manpages_podman
+  comments: |
+    Makefile.PL embeds a timestamp
+    Makefile.PL generates code in an undefined hash key order
+  bugs:
+    - 788122
 libfile-searchpath-perl:
   version: 0.06-2
   issues:
