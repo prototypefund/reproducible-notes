@@ -2577,8 +2577,8 @@ djbdns:
     - 777022
 djvulibre:
   version: 3.5.25.4-4
-  comments: |
-    Timestamp in gzip header of a compressed SVG (.svgz)
+  issues:
+    - timestamps_in_gzip_headers
 dkg-handwriting:
   version: 0.15-1
   issues:
@@ -4286,8 +4286,8 @@ geogebra:
     - timestamps_generated_by_docbook_to_man
 geoip-database:
   version: 20150317-1
-  comments: |
-    Embeds the build date (mangled by local timezone) into the geoip databases it ships.
+  bugs:
+    - 788275
 gerbv:
   version: 2.6.0-1
   comments: |
