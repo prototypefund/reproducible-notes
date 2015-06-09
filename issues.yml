@@ -552,6 +552,10 @@ timestamps_in_manpages_generated_by_docbook2x:
   description: |
     docbook2x-man embeds the build date into generated manpages.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInManpagesGeneratedByDocbook2x
+leaks_path_environment_variable:
+  description: |
+    The environment variable PATH is embedded in the build result.
+    Sometimes it's just leaked into some file (so "just" causing reproducibility issues), while sometimes this PATH is also used for building, which might give unexpected and broken results.
 timestamps_in_manpages_generated_by_docbook_xsl:
   description: |
     docbook-xsl writes the build date into the header; sometimes driven by asciidoc, sometimes by xsltproc.
