@@ -262,6 +262,10 @@ androidsdk-tools:
   version: 22.2+git20130830~92d25d6-1
   issues:
     - timestamp_in_java_bnd_manifest
+anet:
+  version: 0.3.1-1
+  comments: |
+    Random order of object files in static library produced by gnatmake.
 angband:
   version: 3.3.2-2.1
   issues:
