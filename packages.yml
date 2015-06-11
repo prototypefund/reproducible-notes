@@ -67,6 +67,14 @@ acedb:
   version: 4.9.39+dfsg.01-5
   issues:
     - timestamps_from_cpp_macros
+acl2:
+  version: 7.1-1
+  comments: |
+    it spawns a handful of saved_acl2 which eats the memory.
+    Weirdly it looks like the build ends fine in testing, but always fails in unstable
+    blacklisted for now...
+  issues:
+    - blacklisted_on_jenkins
 acpica-unix:
   version: 20140926-1
   issues:
