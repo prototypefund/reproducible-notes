@@ -1747,11 +1747,11 @@ cmor:
     When the example files are generated the current time is saved.
     Command to find where are set the timestamps: ack-grep -B3 snprintf.*ptr
 cmucl:
-  version: 20c-2.1
+  version: 20f-1
   comments: |
     It build-depends on itself for the arch:i386 package
   issues:
-    - ftbfs_due_to_virtual_dependencies
+    - ftbfs_build_depends_not_available_on_amd64
 cnrun:
   version: 1.1.14-1
   issues:
@@ -4830,6 +4830,10 @@ gnujump:
     - timestamps_in_png
   bugs:
     - 778968
+gnumach:
+  version: 2:1.4+git20150409-2
+  issues:
+    - ftbfs_build_depends_not_available_on_amd64
 gnumeric:
   version: 1.12.18-2
   issues:
@@ -5497,7 +5501,7 @@ httpfs2:
 hurd:
   version: 1:0.6.git20150523-1
   issues:
-    - ftbfs_due_to_virtual_dependencies
+    - ftbfs_build_depends_not_available_on_amd64
 hwloc:
   version: 1.10.0-3
   issues:
@@ -10640,11 +10644,11 @@ piuparts:
 pixbros:
   version: 0.6.3-1
   issues:
-    - ftbfs_due_to_virtual_dependencies
+    - ftbfs_build_depends_not_available_on_amd64
 pixfrogger:
   version: 1.0-3
   issues:
-    - ftbfs_due_to_virtual_dependencies
+    - ftbfs_build_depends_not_available_on_amd64
 pixmap:
   version: 2.6pl4-18
   issues:
