@@ -1990,7 +1990,7 @@ crash:
   issues:
     - debbindiff_runs_forever
   comments: |
-    debbindiff runs forever on unstable, FTBR on testing
+    debbindiff runs forever on unstable, FTBR in testing
     Embed build time, user, and groups:
     https://sources.debian.net/src/crash/7.0.8-1/configure.c/?hl=1183:1184#L1183
 crashmail:
@@ -7347,7 +7347,7 @@ liblucy-perl:
     - debbindiff_runs_forever
     - timezones_manpages_podman
   comments: |
-    debbindiff runs forever on unstable, FTBR on testing
+    debbindiff runs forever on unstable, FTBR in testing
 libmakefile-parser-perl:
   version: 0.215-2
   bugs:
@@ -7566,7 +7566,7 @@ libqxt:
   issues:
     - debbindiff_crashes
   comments: |
-    debbindiff crashes on unstable, FTBR on testing
+    debbindiff crashes on unstable, FTBR in testing
 librabbitmq:
   version: 0.5.2-2
   issues:
@@ -7627,7 +7627,7 @@ libsbml:
   issues:
     - debbindiff_runs_forever
   comments: |
-    debbindiff runs forever on testing, FTBR on unstable
+    debbindiff runs forever in testing, FTBR on unstable
 libscalar-defer-perl:
   version: 0.23-1
   bugs:
@@ -7984,7 +7984,7 @@ lintian:
 linux:
   version: 4.0.2-1
   comments: |
-    debbindiff runs forever with 4.0.2-1 on testing and experimental, FTBFS with 4.0.4-1 on unstable
+    debbindiff runs forever with 4.0.2-1 in testing and experimental, FTBFS with 4.0.4-1 on unstable
     The linux kernel package can be build reproducibly if the patches from #769844 are applied.
   issues:
     - debbindiff_runs_forever
@@ -8594,7 +8594,7 @@ metview:
   issues:
     - debbindiff_runs_forever
   comments: |
-    debbindiff runs forever on unstable, FTBR on testing
+    debbindiff runs forever on unstable, FTBR in testing
 mgetty:
   version: 1.1.36-2.1
   issues:
@@ -9951,7 +9951,7 @@ openjfx:
     - debbindiff_runs_forever
     - timestamps_in_jar
   comments: |
-    debbindiff runs forever on unstable, FTBR on testing
+    debbindiff runs forever on unstable, FTBR in testing
 openjpa:
   version: 2.2.2-1
   issues:
@@ -10985,7 +10985,7 @@ publican:
   issues:
     - debbindiff_crashes
   comments: |
-    debbindiff crashes on unstable, FTBFS due to failed tests on testing
+    debbindiff crashes on unstable, FTBFS due to failed tests in testing
 puppet-lint:
   version: 1.1.0-1
   issues:
@@ -11705,7 +11705,7 @@ qt4-x11:
   issues:
     - debbindiff_runs_forever
   comments: |
-    debbindiff runs forever with 4:4.8.7+dfsg-1 on unstable, FTBR with 4:4.8.6+git155-g716fbae+dfsg-2 on testing
+    debbindiff runs forever with 4:4.8.7+dfsg-1 on unstable, FTBR with 4:4.8.6+git155-g716fbae+dfsg-2 in testing
 qtbase-opensource-src:
   version: 5.3.2+dfsg-5
   issues:
@@ -11713,7 +11713,7 @@ qtbase-opensource-src:
     - timestamps_from_cpp_macros
     - randomness_in_qdoc
   comments: |
-    debbindiff runs forever with 5.3.2+dfsg-5 on unstable, FTBR with 5.3.2+dfsg-5 on testing and 5.4.2+dfsg-2 on experimental
+    debbindiff runs forever with 5.3.2+dfsg-5 on unstable, FTBR with 5.3.2+dfsg-5 in testing and 5.4.2+dfsg-2 on experimental
 qtcreator:
   version: 3.2.1+dfsg-6
   issues:
@@ -11918,7 +11918,7 @@ rakudo:
   issues:
     - debbindiff_runs_forever
   comments: |
-    debbindiff runs forever on testing, FTBR on unstable
+    debbindiff runs forever in testing, FTBR on unstable
 rampart:
   version: 1.3.0-3
   bugs:
@@ -13813,7 +13813,7 @@ texlive-lang:
   issues:
     - debbindiff_runs_forever
   comments: |
-    debbindiff runs forever with 2014.20141024-1 on testing, FTBR with 2014.20141024-1 on unstable, builds reproducibly with 2015.20150524-1 on experimental
+    debbindiff runs forever with 2014.20141024-1 in testing, FTBR with 2014.20141024-1 on unstable, builds reproducibly with 2015.20150524-1 on experimental
 texmacs:
   version: 1:1.0.7.18-1
   comments: |
@@ -15087,7 +15087,7 @@ xemacs21:
     - debbindiff_runs_forever
     - timestamps_in_gzip_headers
   comments: |
-    debbindiff runs forever on unstable, FTBR on testing
+    debbindiff runs forever on unstable, FTBR in testing
 xemacs21-packages:
   version: 2009.02.17.dfsg.2-2
   issues:
