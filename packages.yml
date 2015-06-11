@@ -7531,6 +7531,12 @@ libquvi:
   issues:
     - random_order_in_naturaldocs
     - different_due_to_umask
+libqxt:
+  version: 0.6.2-1
+  issues:
+    - debbindiff_crashes
+  comments: |
+    debbindiff crashes on unstable, FTBR on testing
 librabbitmq:
   version: 0.5.2-2
   issues:
@@ -9955,9 +9961,9 @@ openni-sensor-primesense:
   issues:
     - build_id_variation_requiring_further_investigation
 openocd:
-  version: 0.8.0-4
+  version: 0.9.0-1
   issues:
-    - timestamps_in_pdf_generated_by_latex
+    - debbindiff_crashes
 openresolv:
   version: 3.5.2-1
   bugs:
@@ -10923,9 +10929,11 @@ ptouch-driver:
   issues:
     - ppds_compressed_b64
 publican:
-  version: 4.2.6-1
+  version: 4.3.0-1
   issues:
-    - timestamps_generated_by_docbook_to_man
+    - debbindiff_crashes
+  comments: |
+    debbindiff crashes on unstable, FTBFS due to failed tests on testing
 puppet-lint:
   version: 1.1.0-1
   issues:

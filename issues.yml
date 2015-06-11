@@ -607,3 +607,6 @@ timestamps_generated_by_eigenbase_resgen:
   description: |
     XOMGenTask adds timestamps to generated files, see src/org/eigenbase/xom/MetaGenerator.java line 1202.
     ResourceGenTask adds timestamps too but can be avoided using commentstyle with scm-safe value.
+debbindiff_crashes:
+  description: |
+    Packages with this issue can be built successfully, but debbindiff crashes while comparing the results.
