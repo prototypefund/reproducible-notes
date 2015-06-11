@@ -1995,12 +1995,12 @@ crack:
     https://sources.debian.net/src/crack/5.0a-9.3/src/util/Makefile/#L45
 crash:
   version: 7.1.1-1
-  issues:
-    - debbindiff_runs_forever
   comments: |
     debbindiff runs forever on unstable, FTBR in testing
     Embed build time, user, and groups:
     https://sources.debian.net/src/crash/7.0.8-1/configure.c/?hl=1183:1184#L1183
+  issues:
+    - debbindiff_runs_forever
 crashmail:
   version: 1.5-1
   issues:
@@ -5259,13 +5259,13 @@ gupnp:
     - timestamps_in_manpages_generated_by_docbook_xsl
 gutenprint:
   version: 5.2.10-3
-  issues:
-    - debbindiff_runs_forever
   comments: |
     Patch has been submitted upstream:
     http://permalink.gmane.org/gmane.linux.printing.gimp-print.devel/11877
     Fixed in upstream vcs:
     http://gimp-print.cvs.sourceforge.net/viewvc/gimp-print/print/src/foomatic/foomatic-generator.in?r1=1.83&r2=1.84
+  issues:
+    - debbindiff_runs_forever
 guymager:
   version: 0.7.3-3
   issues:
@@ -7273,21 +7273,21 @@ liblscp:
     - timestamps_from_cpp_macros
 liblucy-perl:
   version: 0.3.3-5
+  comments: |
+    debbindiff runs forever on unstable, FTBR in testing
   issues:
     - debbindiff_runs_forever
     - timezones_manpages_podman
-  comments: |
-    debbindiff runs forever on unstable, FTBR in testing
 libmakefile-parser-perl:
   version: 0.215-2
   bugs:
     - 749357
 libmarc-charset-perl:
   version: 1.35-1
-  issues:
-    - debbindiff_runs_forever
   comments: |
     usr/lib/libmarc-charset-perl/Table is a large DBM file.
+  issues:
+    - debbindiff_runs_forever
 libmarpa-r2-perl:
   version: 2.086000~dfsg-3
   issues:
@@ -7485,10 +7485,10 @@ libquvi:
     - different_due_to_umask
 libqxt:
   version: 0.6.2-1
-  issues:
-    - debbindiff_crashes
   comments: |
     debbindiff crashes on unstable, FTBR in testing
+  issues:
+    - debbindiff_crashes
 librabbitmq:
   version: 0.5.2-2
   issues:
@@ -7542,10 +7542,10 @@ libsaxon-java:
     - different_due_to_umask
 libsbml:
   version: 5.10.0+dfsg-1
-  issues:
-    - debbindiff_runs_forever
   comments: |
     debbindiff runs forever in testing, FTBR on unstable
+  issues:
+    - debbindiff_runs_forever
 libscalar-defer-perl:
   version: 0.23-1
   bugs:
@@ -8501,10 +8501,10 @@ metis:
     - timestamps_from_cpp_macros
 metview:
   version: 4.4.8+dfsg.1-8
-  issues:
-    - debbindiff_runs_forever
   comments: |
     debbindiff runs forever on unstable, FTBR in testing
+  issues:
+    - debbindiff_runs_forever
 mgetty:
   version: 1.1.36-2.1
   issues:
@@ -9849,11 +9849,11 @@ openjdk-8:
     - timestamps_from_cpp_macros
 openjfx:
   version: 8u40-b25-1
+  comments: |
+    debbindiff runs forever on unstable, FTBR in testing
   issues:
     - debbindiff_runs_forever
     - timestamps_in_jar
-  comments: |
-    debbindiff runs forever on unstable, FTBR in testing
 openjpa:
   version: 2.2.2-1
   issues:
@@ -10880,10 +10880,10 @@ ptouch-driver:
     - ppds_compressed_b64
 publican:
   version: 4.3.0-1
-  issues:
-    - debbindiff_crashes
   comments: |
     debbindiff crashes on unstable, FTBFS due to failed tests in testing
+  issues:
+    - debbindiff_crashes
 puppet-lint:
   version: 1.1.0-1
   issues:
@@ -11596,18 +11596,18 @@ qsynth:
     - timestamps_from_cpp_macros
 qt4-x11:
   version: 4:4.8.6+git155-g716fbae+dfsg-2
-  issues:
-    - debbindiff_runs_forever
   comments: |
     debbindiff runs forever with 4:4.8.7+dfsg-1 on unstable, FTBR with 4:4.8.6+git155-g716fbae+dfsg-2 in testing
+  issues:
+    - debbindiff_runs_forever
 qtbase-opensource-src:
   version: 5.3.2+dfsg-5
+  comments: |
+    debbindiff runs forever with 5.3.2+dfsg-5 on unstable, FTBR with 5.3.2+dfsg-5 in testing and 5.4.2+dfsg-2 on experimental
   issues:
     - debbindiff_runs_forever
     - timestamps_from_cpp_macros
     - randomness_in_qdoc
-  comments: |
-    debbindiff runs forever with 5.3.2+dfsg-5 on unstable, FTBR with 5.3.2+dfsg-5 in testing and 5.4.2+dfsg-2 on experimental
 qtcreator:
   version: 3.2.1+dfsg-6
   issues:
@@ -11809,10 +11809,10 @@ radiance:
     - different_due_to_umask
 rakudo:
   version: 2014.07-4
-  issues:
-    - debbindiff_runs_forever
   comments: |
     debbindiff runs forever in testing, FTBR on unstable
+  issues:
+    - debbindiff_runs_forever
 rampart:
   version: 1.3.0-3
   bugs:
@@ -13700,10 +13700,10 @@ texlive-extra:
     - debbindiff_runs_forever
 texlive-lang:
   version: 2014.20141024-1
-  issues:
-    - debbindiff_runs_forever
   comments: |
     debbindiff runs forever with 2014.20141024-1 in testing, FTBR with 2014.20141024-1 on unstable, builds reproducibly with 2015.20150524-1 on experimental
+  issues:
+    - debbindiff_runs_forever
 texmacs:
   version: 1:1.0.7.18-1
   comments: |
@@ -14960,11 +14960,11 @@ xdotool:
     - timezones_manpages_podman
 xemacs21:
   version: 21.4.22-14
+  comments: |
+    debbindiff runs forever on unstable, FTBR in testing
   issues:
     - debbindiff_runs_forever
     - timestamps_in_gzip_headers
-  comments: |
-    debbindiff runs forever on unstable, FTBR in testing
 xemacs21-packages:
   version: 2009.02.17.dfsg.2-2
   issues:
