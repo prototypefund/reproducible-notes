@@ -2106,6 +2106,11 @@ curtain:
   version: 0.3-1
   bugs:
     - 747785
+custom-tab-width:
+  version: 1.0.1-2
+  comments: |
+    Calling zip without normalizing timezone.
+    https://sources.debian.net/src/custom-tab-width/1.0.1-2/debian/rules/#L6
 cutechess:
   version: 20111114+0.4.2+0.0.1-1
   issues:
@@ -2196,7 +2201,7 @@ dact:
 dactyl:
   version: 1.2~hg7166-1
   comments: |
-    Capture build time in
+    Timezone difference in
     /usr/share/xul-ext/pentadactyl/chrome/common/modules/config.jsm
   bugs:
     - 776618
@@ -7032,6 +7037,7 @@ libguestfs:
     - randomness_in_ocaml_a_files
     - timezones_manpages_podman
     - different_due_to_umask
+    - timestamps_in_beam_files
 libgwenhywfar:
   version: 4.12.0beta-3
   issues:
@@ -8838,6 +8844,11 @@ mozjs24:
   version: 24.2.0-2
   issues:
     - timestamps_from_cpp_macros
+mozvoikko:
+  version: 2.0.1-1
+  comments: |
+    Calling zip without normalizing timezone.
+    https://sources.debian.net/src/mozvoikko/2.0.1-1/Makefile/#L21
 mp3fs:
   version: 0.91-1
   comments: |
@@ -11514,7 +11525,6 @@ qdbm:
   version: 1.8.78-5
   issues:
     - timestamps_in_jar
-    - different_due_to_umask
 qdjango:
   version: 0.5.0-1
   issues:
@@ -11735,6 +11745,9 @@ quodlibet:
     - lc_messages_randomness
 quotecolors:
   version: 0.3-4
+  comments: |
+    Calling zip without normalizing timezone.
+    https://sources.debian.net/src/quotecolors/0.3-4/debian/rules/#L11
   issues:
     - timestamps_in_jar
 qupzilla:
@@ -12678,8 +12691,8 @@ sbcl:
     - 786601
 sbuild:
   version: 0.65.0-1
-  bugs:
-    - 778482
+  comments: |
+    Embeds the username.
 scala:
   version: 2.9.2+dfsg-2
   issues:
