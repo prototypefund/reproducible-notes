@@ -11356,9 +11356,11 @@ python-pyaudio:
   issues:
     - random_order_in_python_environment_pickle
 python-pypump:
-  version: 0.3+git20130823.1.97bffc6-1
+  version: 0.6-1
   issues:
     - timestamps_in_documentation_generated_by_sphinx
+  bugs:
+    - 788505
 python-pysam:
   version: 0.7.7-1
   bugs:
