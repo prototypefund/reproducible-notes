@@ -9180,6 +9180,12 @@ novena-eeprom:
   version: 1.0-1
   issues:
     - ftbfs_with_pbuilder_due_malformed_dsc
+noweb:
+  version: 2.11b-9
+  issues:
+    - timestamps_in_dvi_generated_by_latex
+  bugs:
+    - 788536
 npm:
   version: 1.4.21+ds-2
   comments: |
