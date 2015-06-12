@@ -1153,8 +1153,10 @@ bsh:
     - different_due_to_umask
 bsl:
   version: 0.6.0-1
+  comments: |
+    Build-depends on libbuzztard-dev which no longer exists
   issues:
-    - ftbfs_due_to_virtual_dependencies
+    - ftbfs_due_to_obsolete_dependencies
 btrfs-tools:
   version: 3.17-1.1
   issues:
@@ -4179,8 +4181,10 @@ gfs2-utils:
     - timestamps_from_cpp_macros
 ghdl:
   version: 0.29+gcc4.3.4+dfsg-1.1
+  comments: |
+    Build-depends on gnat-4.4 which no longer exists
   issues:
-    - ftbfs_due_to_virtual_dependencies
+    - ftbfs_due_to_obsolete_dependencies
 gif2apng:
   version: 1.7-3
   bugs:
@@ -4752,8 +4756,10 @@ gpsd:
     - bad_handling_of_extra_warnings
 gpsdrive:
   version: 2.10~pre4-6.dfsg-5.2
+  comments: |
+    Build-depends on automake1.9 which no longer exists
   issues:
-    - ftbfs_due_to_virtual_dependencies
+    - ftbfs_due_to_obsolete_dependencies
 gpsmanshp:
   version: 1.2.3-4
   issues:
@@ -5054,8 +5060,10 @@ gvpe:
     - timestamps_from_cpp_macros
 gwhere:
   version: 0.2.3.dfsg.1-4
+  comments: |
+    Build-depends on automake1.9 which no longer exists
   issues:
-    - ftbfs_due_to_virtual_dependencies
+    - ftbfs_due_to_obsolete_dependencies
 gyoto:
   version: 0.2.3-1
   issues:

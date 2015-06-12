@@ -610,3 +610,10 @@ timestamps_generated_by_eigenbase_resgen:
 debbindiff_crashes:
   description: |
     Packages with this issue can be built successfully, but debbindiff crashes while comparing the results.
+ftbfs_due_to_obsolete_dependencies:
+  description: |
+    FTBFS because of build dependencies that used to exist at some point but no longer exist on testing/unstable/experimental.
+    Known examples include:
+    - automake1.9
+    - gnat-4.4
+    - libbuzztard-dev
