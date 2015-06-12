@@ -1701,6 +1701,7 @@ closure-compiler:
   issues:
     - timestamps_in_jar
 cloud-init:
+  version: 0.7.6~bzr976-2
   bugs:
     - 780637
 clp:
@@ -4019,7 +4020,6 @@ gambas3:
   version: 3.5.4-2
   issues:
     - timestamps_from_cpp_macros
-
 gamera:
   version: 3.4.2+svn1431-1
   bugs:
@@ -4769,6 +4769,7 @@ gnuit:
   issues:
     - timestamps_from_cpp_macros
 gnujump:
+  version: 1.0.8-2
   bugs:
     - 778968
 gnumach:
@@ -6257,6 +6258,7 @@ keepass2:
     - timestamps_in_pe_binaries
     - timestamps_in_png
 keepassx:
+  version: 0.4.3+dfsg-0.1
   bugs:
     - 763699
 kerberos-configs:
@@ -6914,6 +6916,7 @@ libgroboutils-java:
   bugs:
     - 738399
 libgtk2-appindicator-perl:
+  version: 0.15-1
   bugs:
     - 782877
 libgtop2:
@@ -7515,6 +7518,7 @@ libtest-http-server-simple-stashwarnings-perl:
   issues:
     - ftbfs_in_jenkins_setup
 libtest-log4perl-perl:
+  version: 0.1001-3.1
   bugs:
     - 782879
 libtext-vimcolor-perl:
@@ -10012,6 +10016,7 @@ parsinsert:
   issues:
     - timestamps_from_cpp_macros
 passage:
+  version: 4+dfsg1-2
   bugs:
     - 779136
 passepartout:
@@ -10481,6 +10486,7 @@ pmw:
   issues:
     - pdf_created_by_ghostscript
 png++:
+  version: 0.2.5-1
   bugs:
     - 777632
 pngcheck:
@@ -13946,9 +13952,11 @@ uddi4j:
   comments: |
     Includes a file BuildDate.txt that contains the build date.
 udev-discover:
+  version: 0.2.2-1
   bugs:
     - 779061
 udj-desktop-client:
+  version: 0.6.3-1
   bugs:
     - 778966
 uhd:
@@ -14191,6 +14199,7 @@ vips:
   issues:
     - timestamps_from_cpp_macros
 viridian:
+  version: 1.2-3
   bugs:
     - 778967
 virtualjaguar:
