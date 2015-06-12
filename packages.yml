@@ -1700,6 +1700,9 @@ closure-compiler:
   version: 20130227+dfsg1-8
   issues:
     - timestamps_in_jar
+cloud-init:
+  bugs:
+    - 780637
 clp:
   version: 1.15.10-1
   issues:
@@ -1817,10 +1820,6 @@ colord:
   version: 1.2.1-1
   issues:
     - randomness_in_icc_colour_profiles
-colorediffs-extension:
-  version: 0.6.2012.01.27.14.07.45-1
-  issues:
-    - uid_and_gid_in_jar
 colortest:
   version: 20110624-4
   bugs:
@@ -2532,10 +2531,6 @@ directfb:
   version: 1.2.10.0-5.1
   issues:
     - timestamps_from_cpp_macros
-dispmua:
-  version: 1.6.9-2
-  issues:
-    - timestamps_in_jar
 dist:
   version: 1:3.5-36-2
   bugs:
@@ -4024,6 +4019,11 @@ gambas3:
   version: 3.5.4-2
   issues:
     - timestamps_from_cpp_macros
+
+gamera:
+  version: 3.4.2+svn1431-1
+  bugs:
+    - 785529
 gammu:
   version: 1.33.0-3
   issues:
@@ -4768,6 +4768,9 @@ gnuit:
   version: 4.9.5-3
   issues:
     - timestamps_from_cpp_macros
+gnujump:
+  bugs:
+    - 778968
 gnumach:
   version: 2:1.4+git20150409-2
   issues:
@@ -5551,10 +5554,6 @@ iitalian:
   version: 2.3-3
   issues:
     - random_ispell_hash_files
-ikiwiki:
-  version: 3.20141016.2
-  bugs:
-    - 785738
 ikvm:
   version: 7.2.4630.5+ds-1
   issues:
@@ -6257,6 +6256,9 @@ keepass2:
   issues:
     - timestamps_in_pe_binaries
     - timestamps_in_png
+keepassx:
+  bugs:
+    - 763699
 kerberos-configs:
   version: 2.3
   bugs:
@@ -6911,6 +6913,9 @@ libgroboutils-java:
   version: 5-2
   bugs:
     - 738399
+libgtk2-appindicator-perl:
+  bugs:
+    - 782877
 libgtop2:
   version: 2.28.5-2
   issues:
@@ -7509,6 +7514,9 @@ libtest-http-server-simple-stashwarnings-perl:
   version: 0.04-2
   issues:
     - ftbfs_in_jenkins_setup
+libtest-log4perl-perl:
+  bugs:
+    - 782879
 libtext-vimcolor-perl:
   version: 0.11-2
   bugs:
@@ -10003,6 +10011,9 @@ parsinsert:
   version: 1.04-1
   issues:
     - timestamps_from_cpp_macros
+passage:
+  bugs:
+    - 779136
 passepartout:
   version: 0.7.1-1.1
   issues:
@@ -10469,6 +10480,9 @@ pmw:
   version: 1:4.28-1
   issues:
     - pdf_created_by_ghostscript
+png++:
+  bugs:
+    - 777632
 pngcheck:
   version: 2.3.0-7
   issues:
@@ -13931,6 +13945,12 @@ uddi4j:
   version: 2.0.5-2
   comments: |
     Includes a file BuildDate.txt that contains the build date.
+udev-discover:
+  bugs:
+    - 779061
+udj-desktop-client:
+  bugs:
+    - 778966
 uhd:
   version: 3.7.3-1
   comments: |
@@ -14170,6 +14190,9 @@ vips:
   version: 7.40.6-2
   issues:
     - timestamps_from_cpp_macros
+viridian:
+  bugs:
+    - 778967
 virtualjaguar:
   version: 2.1.2-1
   issues:
