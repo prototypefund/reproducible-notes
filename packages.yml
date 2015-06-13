@@ -455,6 +455,11 @@ aqsis:
   version: 1.8.2-1
   issues:
     - timestamps_from_cpp_macros
+ara:
+  version: 1.0.31
+  comments: |
+    Embeds the build date.
+    https://sources.debian.net/src/ara/1.0.31/common/mkversion.sh/#L4
 arbtt:
   version: 0.8.1-1
   issues:
@@ -1735,6 +1740,12 @@ cmor:
     This library adds timestamps inside function methods.
     When the example files are generated the current time is saved.
     Command to find where are set the timestamps: ack-grep -B3 snprintf.*ptr
+cmtk:
+  version: 3.2.2-1.3
+  issues:
+    - timestamps_from_cpp_macros
+  comments: |
+    Also timestamps embedded into several manpages.
 cmucl:
   version: 20f-1
   comments: |
@@ -2427,6 +2438,10 @@ devtodo:
   version: 0.1.20-6
   bugs:
     - 723964
+dfc:
+  version: 3.0.5-0.1
+  issues:
+    - lc_messages_randomness
 dfo:
   version: 0.8+svn52-7
   issues:
@@ -2531,6 +2546,10 @@ diploma:
     - different_due_to_umask
   bugs:
     - 776956
+dipy:
+  version: 0.7.1-2
+  issues:
+    - timestamps_in_documentation_generated_by_sphinx
 directfb:
   version: 1.2.10.0-5.1
   issues:
@@ -2772,6 +2791,10 @@ dvbstreamer:
     - timestamps_from_cpp_macros
 dvdisaster:
   version: 0.72.4-1
+  issues:
+    - lc_messages_randomness
+dvdwizard:
+  version: 0.7.1-2
   issues:
     - lc_messages_randomness
 dvswitch:
@@ -3814,6 +3837,11 @@ fop:
     - timestamps_in_documentation_generated_by_podman
     - user_in_java_jar_manifest
     - timezones_manpages_podman
+foremancli:
+  version: 1.0-2
+  comments: |
+    Timestamp embedded into manpage by ronn.
+    https://sources.debian.net/src/foremancli/1.0-2/debian/rules/#L22
 fortunes-bg:
   version: 1.1
   issues:
@@ -4399,6 +4427,11 @@ git-dpm:
   issues:
     - timestamps_in_documentation_generated_by_groff
     - pdf_created_by_ghostscript
+git-hub:
+  version: 0.9.0-1
+  comments: |
+    Timestamp embedded in manpage by rst2man.
+    https://sources.debian.net/src/git-hub/0.9.0-1/Makefile/#L25
 git-reintegrate:
   version: 0.3-2
   issues:
@@ -6115,6 +6148,10 @@ jsjac:
   version: 1.3.4+dfsg-1
   issues:
     - timestamps_in_jsdoc_toolkit_documentation
+jsmath:
+  version: 3.6e-1
+  issues:
+    - timestamps_difference_by_unzip
 json-simple:
   version: 1.1.1-3
   issues:
@@ -8584,6 +8621,10 @@ mona:
   version: 1.4-15-1
   issues:
     - leaks_path_environment_variable
+monajat:
+  version: 2.6.5-1
+  issues:
+    - lc_messages_randomness
 mondrian:
   version: 3.4.1-1
   issues:
@@ -9151,6 +9192,12 @@ nis:
     - timestamps_in_gzip_headers
   bugs:
     - 787126
+nitime:
+  version: 0.5-1
+  issues:
+    - timestamps_in_documentation_generated_by_sphinx
+  comments: |
+    Randomness in example images because of random() without constant seed.
 nitpic:
   version: 0.1-15
   issues:
@@ -9162,6 +9209,11 @@ nkf:
   version: 2.13-4
   issues:
     - timestamps_from_cpp_macros
+nmh:
+  version: 1.6-7
+  comments: |
+    Timestamp embedded by script generating a manpage.
+    https://sources.debian.net/src/nmh/1.6-7/man/mh-chart-gen.sh/#L12
 nn:
   version: 6.7.3-8
   bugs:
@@ -10686,6 +10738,10 @@ prover9-manual:
   version: 0.0.200902a-2
   issues:
     - timestamps_in_documentation_generated_by_htmldoc
+proxycheck:
+  version: 0.49a-4
+  issues:
+    - different_due_to_umask
 psgml:
   version: 1.4.0-5
   issues:
@@ -10937,6 +10993,12 @@ pystemmer:
   version: 1.3.0+dfsg-1
   issues:
     - use_epydoc
+pytables:
+  version: 3.1.1-3
+  issues:
+    - timestamps_in_documentation_generated_by_sphinx
+  comments: |
+    There is also a timestamp in the content of a PDF file (usersguide.pdf).
 pytango:
   version: 8.1.5-1
   issues:
@@ -11679,6 +11741,10 @@ rats:
   version: 2.3-1
   bugs:
     - 746109
+rbdoom3bfg:
+  version: 1.0.3+repack1-2
+  issues:
+    - timestamps_from_cpp_macros
 rbootd:
   version: 2.0-10
   issues:
@@ -13417,6 +13483,10 @@ tcpwatch-httpproxy:
     - timestamps_in_gzip_headers
   bugs:
     - 776969
+tempest:
+  version: 4-1
+  issues:
+    - timestamps_in_documentation_generated_by_sphinx
 templayer:
   version: 1.5.1-1
   comments: |
