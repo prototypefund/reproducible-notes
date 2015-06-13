@@ -614,6 +614,14 @@ ftbfs_due_to_obsolete_dependencies:
   description: |
     FTBFS because of build dependencies that used to exist at some point but no longer exist on testing/unstable/experimental.
     Known examples include:
+    - apache2-threaded-dev
     - automake1.9
     - gnat-4.4
+    - libabiword-2.9-dev
     - libbuzztard-dev
+    - libemail-send-perl
+    - libgd-gd2-perl
+    - libgnutls-dev
+    - libtiff4-dev
+    - libvdkxdb2-dev
+    - libxmlrpc-c++4-dev
