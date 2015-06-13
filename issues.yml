@@ -612,8 +612,8 @@ debbindiff_crashes:
     Packages with this issue can be built successfully, but debbindiff crashes while comparing the results.
 ftbfs_due_to_obsolete_dependencies:
   description: |
-    FTBFS because of build dependencies that used to exist at some point but no longer exist on testing/unstable/experimental.
-    Known examples include:
+    FTBFS because of build dependencies that used to exist at some point but no longer exist in testing/unstable/experimental.
+    Known examples (of dependencies which used to exist):
     - apache2-threaded-dev
     - automake1.9
     - gnat-4.4
