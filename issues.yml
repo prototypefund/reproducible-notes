@@ -626,3 +626,12 @@ ftbfs_due_to_obsolete_dependencies:
     - libvdkxdb2-dev
     - libxmlrpc-c++4-dev
     Someone should file serious bugs about these issues, if those bugs haven't been filed already. Once they are filed, the bugs should be annotated to packages.yml.
+timestamps_in_documentation_generated_by_ur:
+  description: |
+    UR::Namespace::Command::Update::Doc in the libur-perl package generates documentation with embedded timestamps.
+    .
+    See doc_sections() in lib/Command/V1.pm and lib/Command/View/DocMethods.pm in the libur-perl source.
+    .
+    http://sources.debian.net/src/libur-perl/latest/lib/Command/V1.pm/#L755
+    .
+    http://sources.debian.net/src/libur-perl/latest/lib/Command/View/DocMethods.pm/#L185
