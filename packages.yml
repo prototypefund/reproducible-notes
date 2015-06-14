@@ -435,8 +435,8 @@ apt-dater:
     - timestamps_from_cpp_macros
 apt-dpkg-ref:
   version: 5.3.1
-  bugs:
-    - 738415
+  issues:
+    - timestamps_in_gzip_headers
 apt-zip:
   version: 0.18
   issues:
