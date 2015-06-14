@@ -79,10 +79,6 @@ use_epydoc:
     different class index depending on filesystem ordering. It might also output
     references to object with a memory address.
   url: https://wiki.debian.org/ReproducibleBuilds/EpydocIssues
-timestamps_in_source_generated_by_pyqt4_ui:
-  description: |
-    PyQt4 UI code generator writes a timestamp to the source files it creates.
-  url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInSourceGeneratedByPyQt
 timestamps_in_python_code_generated_by_cheetah:
   description: |
     Cheetah embeds two timestamps into generated Python code by default.
@@ -589,12 +585,6 @@ randomness_in_fat_lto_objects:
     to `-frandom-seed`.
   url: https://gcc.gnu.org/bugzilla/show_bug.cgi?id=66305
   deterministic: True
-random_import_order_in_ui_generated_by_pyuic:
-  description: |
-    UI files generated with python-qt's ui compiler contain unsorted imports.
-    .
-    python-qt4: https://bugs.debian.org/787250
-    pyqt5: https://bugs.debian.org/787251
 randomness_in_c_files_generated_by_extutils_parsexs:
   description: |
     ExtUtils::ParseXS generates undeterministic C files (differing order) out of .xs files.

@@ -501,10 +501,6 @@ armada-backlight:
   version: 1.1-8
   bugs:
     - 786710
-armory:
-  version: 0.92.3-1
-  issues:
-    - timestamps_in_source_generated_by_pyqt4_ui
 asc:
   version: 2.6.0.0-1
   issues:
@@ -3035,10 +3031,6 @@ ergo:
     - blacklisted_on_jenkins
   bugs:
     - 775362
-eric:
-  version: 5.4.5-1
-  issues:
-    - random_import_order_in_ui_generated_by_pyuic
 erlang-bear:
   version: 0.8.2+dfsg-1
   issues:
@@ -10776,7 +10768,6 @@ pyabiword:
 pyacidobasic:
   version: 2.2-1
   issues:
-    - timestamps_in_source_generated_by_pyqt4_ui
     - timestamps_generated_by_docbook_to_man
 pybit:
   version: 1.0.0-2.1
@@ -10912,10 +10903,6 @@ pyqt5:
     /usr/share/doc/pyqt5-examples/examples/animation/animatedtiles/animatedtiles_rc.py
   issues:
     - randomness_in_objects_inv
-pysatellites:
-  version: 2.1-1
-  issues:
-    - timestamps_in_source_generated_by_pyqt4_ui
 pyscanfcs:
   version: 0.2.2-2
   issues:
@@ -11343,7 +11330,7 @@ qbs:
 qct:
   version: 1.7-3
   issues:
-    - timestamps_in_source_generated_by_pyqt4_ui
+    - timestamps_in_documentation_generated_by_asciidoc
 qdbm:
   version: 1.8.78-5
   issues:
@@ -13498,10 +13485,6 @@ texmacs:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/texmacs/1:1.0.7.18-1/configure.in/#L552
-tf:
-  version: 1:4.0s1-18
-  issues:
-    - captures_kernel_version
 tf5:
   version: 5.0beta8-5
   comments: |
