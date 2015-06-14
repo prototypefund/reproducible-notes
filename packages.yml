@@ -158,12 +158,6 @@ aft:
     Timestamp and random hash order in files produced by compile.pl
   bugs:
     - 777587
-afterstep:
-  version: 2.2.12-5
-  issues:
-    - timestamps_generated_by_asdocgen
-  bugs:
-    - 785774
 aghermann:
   version: 1.0.2-1
   issues:
@@ -1030,11 +1024,6 @@ bird:
   version: 1.4.5-1
   issues:
     - timestamps_in_pdf_generated_by_latex
-birdfont:
-  version: 1.7-1
-  comments: |
-    Embed build time:
-    http://sources.debian.net/src/birdfont/1.7-1/scripts/configfile.py/?hl=28#L28
 blam:
   version: 1.8.9-4
   issues:
@@ -1822,7 +1811,7 @@ collectd:
 colobot:
   version: 0.1.3-1
   issues:
-    - timestamps_in_documentation_generated_by_doxygen
+    - serial_numbers_in_ogg
 colord:
   version: 1.2.1-1
   issues:
@@ -1907,10 +1896,6 @@ console-cyrillic:
     - not_using_dh_builddeb
   bugs:
     - 777304
-console-data:
-  version: 2:1.12-5
-  issues:
-    - different_due_to_umask
 console-setup:
   version: 1.116
   bugs:
@@ -2386,11 +2371,6 @@ debomatic:
   version: 0.13-1
   issues:
     - timestamps_in_pdf_generated_by_latex
-deets:
-  version: 0.2.1-1
-  issues:
-    - not_using_dh_builddeb
-    - different_due_to_umask
 dejagnu:
   version: 1.5.1-2
   comments: |
@@ -2449,12 +2429,6 @@ dh-make-php:
     - different_due_to_umask
   bugs:
     - 776934
-dhcp-helper:
-  version: 1.1-2
-  issues:
-    - not_using_dh_builddeb
-  bugs:
-    - 777308
 dhcpdump:
   version: 1.8-2
   issues:
@@ -2947,10 +2921,6 @@ elida:
     - timestamps_in_gzip_headers
   bugs:
     - 776955
-elinks:
-  version: 0.12~pre6-5
-  issues:
-    - timestamps_from_cpp_macros
 elk:
   version: 3.99.8-2.1
   issues:
@@ -2964,10 +2934,6 @@ elmerfem:
   version: 6.1.0.svn.5396.dfsg2-4
   issues:
     - timestamps_in_description_files_generated_by_r-base-dev
-elog:
-  version: 2.9.2+2014.05.11git44800a7-2
-  issues:
-    - timestamps_from_cpp_macros
 elvis-tiny:
   version: 1.4-23
   comments: |
@@ -3543,10 +3509,6 @@ flann:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - different_due_to_umask
-flashcache:
-  version: 3.1.2+git20140801-1
-  bugs:
-    - 780883
 flashproxy:
   version: 1.7-2
   issues:
@@ -5662,10 +5624,6 @@ insighttoolkit4:
   version: 4.6.0-3
   issues:
     - different_due_to_umask
-inspircd:
-  version: 2.0.20-1
-  issues:
-    - build_id_variation_requiring_further_investigation
 installation-guide:
   version: 20150423
   issues:
@@ -5821,6 +5779,10 @@ jabber-muc:
   version: 0.8-4
   issues:
     - timestamps_from_cpp_macros
+jabref:
+  version: 2.10+ds-3
+  comments: |
+    Embeds built date into build.properties file contained in jar.
 jacal:
   version: 1b9-5
   issues:
@@ -6134,6 +6096,10 @@ jsmath:
   version: !!str 3.6e-1
   issues:
     - timestamps_difference_by_unzip
+jsmath-fonts-sprite:
+  version: 1.0-3
+  issues:
+    - timestamps_difference_by_unzip
 json-simple:
   version: 1.1.1-3
   issues:
@@ -6377,6 +6343,10 @@ kmymoney:
   version: 4.6.6-1
   issues:
     - timestamps_generated_by_docbook_to_man
+knopflerfish-osgi:
+  version: 5.1.0+dfsg1-2
+  comments: |
+    Embeds build dates into MANIFEST.MF and tstamp files in jar.
 knot:
   version: 1.6.3-1
   issues:
@@ -6561,10 +6531,6 @@ ledger:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_documentation_generated_by_man2html
-ledit:
-  version: 2.03-2
-  comments: |
-    Some kind of timestamp in ledit.a. Seems to be added by ocaml itself?
 leds-alix:
   version: 0.0.1-1.1
   issues:
@@ -6638,16 +6604,6 @@ libapreq2:
   version: 2.13-4
   issues:
     - different_due_to_umask
-libaqbanking:
-  version: 5.4.3beta-2
-  comments: |
-    Embeds build time:
-    https://sources.debian.net/src/libaqbanking/5.4.3beta-2/configure.ac/#L131
-    https://sources.debian.net/src/libaqbanking/5.4.3beta-2/src/plugins/backends/aqhbci/plugin/header.xml.in/#L4
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
-    - timezones_manpages_podman
-    - timestamps_generated_by_docbook_to_man
 libasm4-java:
   version: 5.0.3-1
   issues:
@@ -6727,11 +6683,6 @@ libclaw:
   issues:
     - timestamps_in_documentation_generated_by_doxygen
     - different_due_to_umask
-libcolor-calc-perl:
-  version: 1.074-1
-  issues:
-    - random_order_in_files_generated_by_module_build
-    - timezones_manpages_podman
 libcommoncpp2:
   version: 1.8.1-6
   issues:
@@ -6853,11 +6804,6 @@ libffi:
   version: 3.1-2
   comments: |
     Timestamp in custom test script
-libfile-changenotify-perl:
-  version: 0.24-1
-  issues:
-    - random_order_in_files_generated_by_module_build
-    - timezones_manpages_podman
 libfile-scan-perl:
   version: 1.43-2
   comments: |
@@ -7277,6 +7223,12 @@ libnb-platform18-java:
   version: 7.4+dfsg1-2
   issues:
     - timestamps_in_pe_binaries
+libncurses-ada:
+  version: 5.9.20140726-1
+  issues:
+    - timestamps_in_ada_library_information_files
+  comments: |
+    Also random order of files contained in static library.
 libnet-dri-perl:
   version: 0.96-1
   bugs:
@@ -7510,11 +7462,6 @@ libstxxl:
   version: 1.4.0-3
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-libsvn-notify-mirror-perl:
-  version: 0.03800-2
-  issues:
-    - random_order_in_files_generated_by_module_build
-    - timezones_manpages_podman
 libswe-doc:
   version: 1.80.00.0001-1
   issues:
@@ -7885,10 +7832,6 @@ loadlin:
     - different_due_to_umask
   bugs:
     - 779146
-lockdev:
-  version: 1.0.3-1.6
-  issues:
-    - timestamps_in_static_libraries
 log4c:
   version: 1.2.1-3
   comments: |
@@ -7972,11 +7915,6 @@ lrslib:
   version: 0.43-1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-lrzsz:
-  version: 0.12.21-7
-  issues:
-    - not_using_dh_builddeb
-    - timestamps_in_gzip_headers
 lsof:
   version: 4.86+dfsg-1
   bugs:
@@ -9882,12 +9820,6 @@ orthanc:
   version: 0.8.4+dfsg-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-osgearth:
-  version: 2.5.0+dfsg-2
-  issues:
-    - timestamps_in_manpages_generated_by_docbook2x
-  bugs:
-    - 783026
 osgi-annotation:
   version: 6.0.0-1
   issues:
@@ -9981,10 +9913,6 @@ pagekite:
   comments: |
     FTBFS, as does upstream:
     https://github.com/pagekite/PySocksipyChain/issues/4
-pagodacf:
-  version: 0.10-3
-  issues:
-    - timestamps_in_static_libraries
 pairs:
   version: 4:4.14.1-1
   issues:
@@ -10585,13 +10513,6 @@ portaudio19:
     - timestamps_from_cpp_macros
     - timestamps_in_documentation_generated_by_doxygen
     - different_due_to_umask
-posh:
-  version: 0.12.3
-  issues:
-    - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
-  bugs:
-    - 777395
 posixtestsuite:
   version: 1.5.2-5
   comments: |
@@ -12573,10 +12494,6 @@ scons-doc:
   version: 2.3.1-1
   issues:
     - timestamps_in_pdf_generated_by_apache_fop
-scoop:
-  version: 0.7.1-2
-  issues:
-    - timestamps_in_documentation_generated_by_sphinx
 scorched3d:
   version: 43.3.d+dfsg-1.1
   issues:
@@ -12682,10 +12599,6 @@ shadow:
   version: 1:4.2-2
   bugs:
     - 783149
-shapetools:
-  version: 1.4pl6-11
-  issues:
-    - timestamps_in_static_libraries
 shared-mime-info:
   version: 1.3-1
   issues:
@@ -15176,14 +15089,6 @@ zlibc:
   version: 0.9k-4.2
   issues:
     - timestamps_in_documentation_generated_by_texi2html
-zomg:
-  version: 0.7.1-1
-  issues:
-    - not_using_dh_builddeb
-    - timestamps_in_gzip_headers
-    - different_due_to_umask
-  bugs:
-    - 777272
 zoneminder:
   version: 1.28.1-5
   comments: |

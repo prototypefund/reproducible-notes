@@ -576,10 +576,6 @@ tstamp_task_used_in_ant_build_xml:
   description: |
     uses the current timestamp (or some offset) to set a property in the ant build process, which then gets embedded elsewhere in the package.
   url: https://ant.apache.org/manual/Tasks/tstamp.html
-timestamps_generated_by_asdocgen:
-  description: |
-    ASDocGen (in the package afterstep) adds timestamps to the generated file.
-  url: https://bugs.debian.org/785774
 timestamps_in_allegro_dat_files:
   description: |
     `.dat` files from the Allegro framework are basically archives. The `dat`
