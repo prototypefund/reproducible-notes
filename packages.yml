@@ -6,6 +6,8 @@
   version: 0.6-1
   issues:
     - timestamps_from_cpp_macros
+  bugs:
+    - 788747
 3270font:
   version: 1.2-1
   issues:
@@ -29,6 +31,8 @@ abcm2ps:
   version: 7.8.9-1
   issues:
     - timestamps_from_cpp_macros
+  bugs:
+    - 788748
 abinit:
   version: 7.8.2-2
   issues:
@@ -247,6 +251,8 @@ amideco:
   version: 0.31e-3.1
   issues:
     - timestamps_from_cpp_macros
+  bugs:
+    - 788750
 amora-server:
   version: 1.2~svn+git2015.04.25-1
   comments: |
@@ -260,10 +266,14 @@ amsynth:
   version: 1.4.2-2
   issues:
     - timestamps_from_cpp_macros
+  bugs:
+    - 788751
 analog:
   version: 2:6.0-20
   issues:
     - timestamps_from_cpp_macros
+  bugs:
+    - 788752
 anet:
   version: 0.3.1-1
   comments: |
@@ -315,6 +325,8 @@ antpm:
   version: 1.16-8
   issues:
     - timestamps_from_cpp_macros
+  bugs:
+    - 788754
 ants:
   version: 2.1.0~rc2+git3-g9103999-4
   issues:
@@ -333,6 +345,8 @@ aolserver4-nsmysql:
   version: 0.6-9
   issues:
     - timestamps_from_cpp_macros
+  bugs:
+    - 788753
 aolserver4-nsopenssl:
   version: 3.0beta26-5
   issues:
@@ -341,6 +355,8 @@ aolserver4-nssqlite3:
   version: 0.9-2
   issues:
     - timestamps_from_cpp_macros
+  bugs:
+    - 788756
 apache-curator:
   version: 2.7.1-1
   issues:
@@ -5603,6 +5619,9 @@ inkscape:
   version: 0.48.5-3
   issues:
     - timestamps_from_cpp_macros
+  comments: |
+    pending a valuable upload
+    https://anonscm.debian.org/cgit/pkg-multimedia/inkscape.git/commit/?id=fa78c00
 inn:
   version: 1.7.2q-44
   issues:
