@@ -2071,9 +2071,12 @@ cssc:
     All Tests in /tmp/buildd/cssc-1.4.0/tests/get/writable.sh are now completed on tools in '/tmp/buildd/cssc-1.4.0/src'
     PASS writable.sh:
     """
+    https://jenkins.debian.net/view/reproducible/job/reproducible_builder_theta/15582/consoleFull
     Blacklisted for now.
   issues:
     - blacklisted_on_jenkins
+  bugs:
+    - 788863
 csvimp:
   version: 0.5.0-2
   issues:
