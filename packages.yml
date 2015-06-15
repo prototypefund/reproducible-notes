@@ -79,10 +79,6 @@ acl2:
     blacklisted for now...
   issues:
     - blacklisted_on_jenkins
-acorn:
-  version: 0.11.0-1
-  bugs:
-    - 788717
 acpica-unix:
   version: 20140926-1
   issues:
@@ -2628,13 +2624,6 @@ dnsjava:
   version: 2.1.5-0.1
   issues:
     - timestamp_in_java_bnd_manifest
-dnsmasq:
-  version: 2.72-2
-  issues:
-    - not_using_dh_builddeb
-    - timestamps_in_gzip_headers
-  bugs:
-    - 777323
 dnsruby:
   version: 1.54-2
   issues:
@@ -9308,10 +9297,6 @@ noblenote:
   version: 1.0.8-1
   issues:
     - timestamps_from_cpp_macros
-node-expat:
-  version: 1.6.0-2
-  bugs:
-    - 707510
 node-raptor:
   version: 0~0git20130108-1
   bugs:
@@ -10876,10 +10861,6 @@ puppet-lint:
     - timestamps_in_gemspec_files
 puredata-import:
   version: 1.3-3
-  issues:
-    - timestamps_from_cpp_macros
-putty:
-  version: 0.63-8
   issues:
     - timestamps_from_cpp_macros
 pvm:
@@ -13713,10 +13694,6 @@ threadscope:
     FTBFS on testing because haskell-devscripts 0.9 is not there yet
   issues:
     - ftbfs_on_testing_due_to_unmigrated_dependencies
-thuban:
-  version: 1.2.2-6
-  bugs:
-    - 788722
 thunar-vcs-plugin:
   version: 0.1.4-2
   issues:
