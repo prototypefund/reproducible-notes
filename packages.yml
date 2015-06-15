@@ -2062,6 +2062,22 @@ csound:
   version: 1:6.03.2~dfsg-1
   issues:
     - timestamps_from_cpp_macros
+cssc:
+  version: 1.4.0-3
+  comments: |
+    This package used to build very fine, but suddenly started to hang at
+    """
+    get/writable.sh:W4...passed
+    W5...passed
+    get/writable.sh:W6...passed
+    W7...passed
+    
+    All Tests in /tmp/buildd/cssc-1.4.0/tests/get/writable.sh are now completed on tools in '/tmp/buildd/cssc-1.4.0/src'
+    PASS writable.sh:
+    """
+    Blacklisted for now.
+  issues:
+    - blacklisted_on_jenkins
 csvimp:
   version: 0.5.0-2
   issues:
