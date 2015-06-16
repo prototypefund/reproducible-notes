@@ -127,6 +127,7 @@ timestamps_in_gzip_headers:
 timestamps_in_png:
   description: |
     PNG can capture build time with the tIME chunk or custom keywords.
+    This timestamps are currently removed by strip-nondetermism, so are not visible on debbindiff anymore. Yet fixing the root cause would be nice.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInPNG
 timestamps_in_static_libraries:
   description: |
