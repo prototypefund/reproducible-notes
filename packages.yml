@@ -189,12 +189,6 @@ alembic:
   version: 0.6.5+ds-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
-alex:
-  version: 3.1.4-2
-  comments: |
-    FTBFS on testing because haskell-devscripts 0.9 is not there yet
-  issues:
-    - ftbfs_on_testing_due_to_unmigrated_dependencies
 alienblaster:
   version: 1.1.0-8
   issues:
@@ -640,12 +634,6 @@ attic:
   version: 0.13-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
-attica-kf5:
-  version: 5.0.0-1
-  comments: |
-    FTBFS on testing because extra-cmake-modules is not there yet
-  issues:
-    - ftbfs_on_testing_due_to_unmigrated_dependencies
 aubio:
   version: 0.4.1-2
   issues:
@@ -1109,12 +1097,6 @@ bnd:
     - timestamps_in_jar
     - timestamp_in_java_bnd_manifest
     - timezones_manpages_podman
-bnfc:
-  version: 2.6.0.3-4
-  comments: |
-    FTBFS on testing because haskell-devscripts 0.9 is not there yet
-  issues:
-    - ftbfs_on_testing_due_to_unmigrated_dependencies
 boa-constructor:
   version: 0.6.1-13
   issues:
@@ -1280,12 +1262,6 @@ c++-annotations:
   issues:
     - timestamps_in_dvi_generated_by_latex
     - pdf_created_by_ghostscript
-c2hs:
-  version: 0.25.2-2
-  comments: |
-    FTBFS on testing because haskell-devscripts 0.9 is not there yet
-  issues:
-    - ftbfs_on_testing_due_to_unmigrated_dependencies
 ca-certificates-java:
   version: 20140324
   issues:
@@ -2237,10 +2213,7 @@ dar:
     - timestamps_from_cpp_macros
 darcs:
   version: 2.10.0-1
-  comments: |
-    FTBFS on testing because haskell-devscripts 0.9 is not there yet
   issues:
-    - ftbfs_on_testing_due_to_unmigrated_dependencies
     - timestamps_from_cpp_macros
 darktable:
   version: 1.4.2-1
@@ -2605,12 +2578,6 @@ djbdns:
     - different_due_to_umask
   bugs:
     - 777022
-djinn:
-  version: 2011.7.23-3
-  comments: |
-    FTBFS on testing because haskell-devscripts 0.9 is not there yet
-  issues:
-    - ftbfs_on_testing_due_to_unmigrated_dependencies
 djvulibre:
   version: 3.5.25.4-4
   issues:
@@ -2956,11 +2923,8 @@ ekg2:
   issues:
     - timestamps_from_cpp_macros
 elasticsearch:
-  version: 1.4.5+dfsg-2
-  comments: |
-    FTBFS on testing because libguava18-java is not there yet
+  version: 1.0.3+dfsg-5
   issues:
-    - ftbfs_on_testing_due_to_unmigrated_dependencies
     - timestamps_in_jar
 elastix:
   version: 4.7-2
@@ -3384,12 +3348,6 @@ fceux:
   version: 2.2.2+dfsg0-1
   issues:
     - timestamps_from_cpp_macros
-fcoe-utils:
-  version: 1.0.29+git20140505-1
-  comments: |
-    FTBFS on testing because lldpad-dev is not there yet
-  issues:
-    - ftbfs_on_testing_due_to_unmigrated_dependencies
 fcrackzip:
   version: 1.0-5
   bugs:
@@ -5180,12 +5138,6 @@ gtk-sharp3:
   version: 2.99.3-2
   issues:
     - timestamps_in_pe_binaries
-gtk2hs-buildtools:
-  version: 0.13.0.3-2
-  comments: |
-    FTBFS on testing because haskell-devscripts 0.9 is not there yet
-  issues:
-    - ftbfs_on_testing_due_to_unmigrated_dependencies
 gtkdataboxmm:
   version: 0.9.4-3
   issues:
@@ -5310,18 +5262,9 @@ halibut:
     https://sources.debian.net/src/halibut/1.0%2Bsvn20090906-9/version.c/#L8
   issues:
     - timestamps_from_cpp_macros
-happy:
-  version: 1.19.4-3
-  comments: |
-    FTBFS on testing because haskell-devscripts 0.9 is not there yet
-  issues:
-    - ftbfs_on_testing_due_to_unmigrated_dependencies
 harden-doc:
   version: 3.18
-  comments: |
-    FTBFS on testing because dpsyco-devel is not there yet
   issues:
-    - ftbfs_on_testing_due_to_unmigrated_dependencies
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_dvi_generated_by_latex
 hardlink:
@@ -5336,12 +5279,6 @@ haskell-hjsmin:
   version: 0.1.4.7-2
   issues:
     - build_id_variation_requiring_further_investigation
-haskell-hledger-interest:
-  version: 1.4.4-2
-  comments: |
-    FTBFS on testing because haskell-devscripts 0.9 is not there yet
-  issues:
-    - ftbfs_on_testing_due_to_unmigrated_dependencies
 haskell-hledger-web:
   version: 0.23.3-1
   issues:
@@ -5350,18 +5287,6 @@ haskell-hoogle:
   version: 4.2.33-4
   issues:
     - build_id_variation_requiring_further_investigation
-haskell-hopenpgp-tools:
-  version: 0.14.1-1
-  comments: |
-    FTBFS on testing because haskell-devscripts 0.9 is not there yet
-  issues:
-    - ftbfs_on_testing_due_to_unmigrated_dependencies
-haskell-hspec-discover:
-  version: 2.1.5-3
-  comments: |
-    FTBFS on testing because haskell-devscripts 0.9 is not there yet
-  issues:
-    - ftbfs_on_testing_due_to_unmigrated_dependencies
 haskell-mode:
   version: 13.10-3
   issues:
@@ -5370,28 +5295,10 @@ haskell-pandoc-citeproc:
   version: 0.4.0.1-1
   issues:
     - build_id_variation_requiring_further_investigation
-haskell-x509-util:
-  version: 1.5.0-4
-  comments: |
-    FTBFS on testing because haskell-devscripts 0.9 is not there yet
-  issues:
-    - ftbfs_on_testing_due_to_unmigrated_dependencies
-haskell-yesod-bin:
-  version: 1.4.7.1-1
-  comments: |
-    FTBFS on testing because haskell-devscripts 0.9 is not there yet
-  issues:
-    - ftbfs_on_testing_due_to_unmigrated_dependencies
 haskell98-report:
   version: 20080907-5
   issues:
     - timestamps_in_pdf_generated_by_latex
-hasktags:
-  version: 0.69.0-4
-  comments: |
-    FTBFS on testing because haskell-devscripts 0.9 is not there yet
-  issues:
-    - ftbfs_on_testing_due_to_unmigrated_dependencies
 hatari:
   version: 1.8.0+dfsg-1
   issues:
@@ -6148,30 +6055,6 @@ jmxetric:
   version: 1.0.6-1
   issues:
     - timestamps_in_maven_pom_files
-jnr-enxio:
-  version: 0.4-2
-  comments: |
-    FTBFS on testing because libjffi-java 1.2.7 is not there yet
-  issues:
-    - ftbfs_on_testing_due_to_unmigrated_dependencies
-jnr-ffi:
-  version: 1.0.10-2
-  comments: |
-    FTBFS on testing because libjffi-java 1.2.7 is not there yet
-  issues:
-    - ftbfs_on_testing_due_to_unmigrated_dependencies
-jnr-netdb:
-  version: 1.1.4-1
-  comments: |
-    FTBFS on testing because libjffi-java 1.2.7 is not there yet
-  issues:
-    - ftbfs_on_testing_due_to_unmigrated_dependencies
-jnr-unixsocket:
-  version: 0.3-2
-  comments: |
-    FTBFS on testing because libjffi-java 1.2.7 is not there yet
-  issues:
-    - ftbfs_on_testing_due_to_unmigrated_dependencies
 jnr-x86asm:
   version: 0.1-1
   issues:
@@ -7615,13 +7498,8 @@ libstxxl:
     - timestamps_in_documentation_generated_by_doxygen
 libswe-doc:
   version: 1.80.00.0001-1
-  comments: |
-    Build-depends on python-uno which no longer exists.
   issues:
-    - ftbfs_due_to_obsolete_dependencies
-  bugs:
-    - 772726
-    - 783936
+    - timestamps_in_pdf_generated_by_latex
 libswingx1-java:
   version: 1:1.0-1
   issues:
@@ -8503,12 +8381,6 @@ microdc2:
   version: 0.15.6-2
   issues:
     - lc_messages_randomness
-mighttpd2:
-  version: 3.2.7-1
-  comments: |
-    FTBFS on testing because haskell-devscripts 0.9 is not there yet
-  issues:
-    - ftbfs_on_testing_due_to_unmigrated_dependencies
 migrate:
   version: 0.9.6-1
   issues:
@@ -10990,12 +10862,6 @@ pylogsparser:
   version: 0.4-1
   issues:
     - use_epydoc
-pymappergui:
-  version: 0.1-1
-  comments: |
-    FTBFS on testing because python-libmapper is not there yet
-  issues:
-    - ftbfs_on_testing_due_to_unmigrated_dependencies
 pymia:
   version: 0.1.6-1
   comments: |
@@ -12100,12 +11966,6 @@ ruby-blankslate:
   version: 2.1.2.4-4
   issues:
     - timestamps_in_gemspec_files
-ruby-bootstrap-sass:
-  version: 3.3.4.1-1
-  comments: |
-    FTBFS on testing because phantomjs is not there yet
-  issues:
-    - ftbfs_on_testing_due_to_unmigrated_dependencies
 ruby-builder:
   version: 3.2.2-4
   issues:
@@ -12811,22 +12671,10 @@ sheepdog:
   comments: |
     Embeds the build date into the manpage with sed via Makefile.
     https://sources.debian.net/src/sheepdog/0.8.3-4/man/Makefile.am/#L13-L16
-shellcheck:
-  version: 0.3.7-1
-  comments: |
-    FTBFS on testing because haskell-devscripts 0.9 is not there yet
-  issues:
-    - ftbfs_on_testing_due_to_unmigrated_dependencies
 shellex:
   version: 0.1-1
   issues:
     - timestamps_generated_by_docbook_to_man
-shelltestrunner:
-  version: 1.3.5-2
-  comments: |
-    FTBFS on testing because haskell-devscripts 0.9 is not there yet
-  issues:
-    - ftbfs_on_testing_due_to_unmigrated_dependencies
 shelxle:
   version: 1.0.677-1
   issues:
@@ -13696,12 +13544,6 @@ thin:
   version: 1.3.1-5
   issues:
     - timestamps_in_gemspec_files
-threadscope:
-  version: 0.2.6-2
-  comments: |
-    FTBFS on testing because haskell-devscripts 0.9 is not there yet
-  issues:
-    - ftbfs_on_testing_due_to_unmigrated_dependencies
 thunar-vcs-plugin:
   version: 0.1.4-2
   issues:
@@ -14258,12 +14100,6 @@ utopia-documents:
   version: 2.4.4-2
   issues:
     - timestamps_in_zip
-uuagc:
-  version: 0.9.42.3-4
-  comments: |
-    FTBFS on testing because haskell-devscripts 0.9 is not there yet
-  issues:
-    - ftbfs_on_testing_due_to_unmigrated_dependencies
 uucpsend:
   version: 1.1-4
   issues:
