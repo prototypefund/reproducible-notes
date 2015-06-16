@@ -2898,8 +2898,6 @@ efl:
     - timestamps_from_cpp_macros
 eigen3:
   version: 3.2.2-3
-  comments: |
-    This package build used to fails and leave a process called 'eigenvalues' running, which consumed all available cpu from all cores, so it was blacklisted. On Feb 07 2015 we noticed this isn't the case anymore, despite no changes to the package, so some library must have been fixed, so the blacklisting was removed. Keeping this note for now.
   issues:
     - timestamps_in_documentation_generated_by_doxygen
 eigenbase-resgen:
