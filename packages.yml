@@ -3407,6 +3407,10 @@ fedmsg:
     Should probably not be shipped at all.
   bugs:
     - 778419
+fedmsg-meta-fedora-infrastructure:
+  version: 0.2.18-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 feh:
   version: 2.12.1-1
   comments: |
@@ -5393,6 +5397,10 @@ hexchat:
   version: 2.10.1-1
   issues:
     - timestamps_from_cpp_macros
+hgsubversion:
+  version: 1.8-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 hgview:
   version: 1.8.1-1
   issues:
@@ -6477,6 +6485,10 @@ kwin-style-crystal:
   version: 2.2.1-2
   issues:
     - timestamps_from_cpp_macros
+kxd:
+  version: 0.12-4
+  issues:
+    - ftbfs_uninvestigated_test_problems
 kxml2:
   version: 2.3.0+ds1-2
   issues:
@@ -8230,6 +8242,10 @@ makepp:
     - timestamps_in_gzip_headers
   bugs:
     - 777407
+mako:
+  version: 1.0.0+dfsg-0.1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 man-db:
   version: 2.7.0.2-5
   issues:
@@ -10252,6 +10268,10 @@ pathological:
     - serial_numbers_in_ogg
   bugs:
     - 775995
+patsy:
+  version: 0.3.0-3
+  issues:
+    - ftbfs_uninvestigated_test_problems
 pavucontrol:
   version: 3.0-2
   issues:
@@ -13308,6 +13328,10 @@ sketch:
   version: 1:0.3.7-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+skimage:
+  version: 0.10.1-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 sks:
   version: 1.1.5-4
   issues:
@@ -14627,6 +14651,10 @@ uruk:
   version: 20150401-1
   issues:
     - not_using_dh_builddeb
+urwid:
+  version: 1.2.1-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 usb-modeswitch-data:
   version: 20150115-1
   issues:
