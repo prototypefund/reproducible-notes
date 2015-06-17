@@ -627,7 +627,12 @@ ftbfs_uninvestigated_test_problems:
     The package FTBFS, but only because of its tests.  These are probably all RC bugs, unless the
     tests have been broken by pbuilder weirdness.  They all require further investigation.
 ftbfs_due_to_root_username:
-  description:
+  description: |
     The package FTBFS on purpose, because it thinks it's being built as root.  This could be an
     incompatability with fakeroot(1), or due to #677666: pbuilder: using BUILDUSERNAME does not change USER
+ftbfs_due_to_python_packaging_problems:
+  description: |
+    There seem to be some packaging problems in sid for Python and Zope, that remain uninvestigated,
+    and there doesn't seem to be a bug for them.  "ImportError: cannot import name component_re" and
+    "NameError: name '_multiarch' is not defined" are symptoms.  Please delete this issue if anything builds.
 
