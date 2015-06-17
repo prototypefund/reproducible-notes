@@ -5968,6 +5968,10 @@ jedit:
   version: 5.1.0+dfsg-2
   issues:
     - timestamps_in_png
+jekyll:
+  version: 2.2.0+dfsg-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 jenkins:
   version: 1.565.3-3
   issues:
@@ -8923,6 +8927,10 @@ namazu2:
   version: 2.0.21-10
   comments: |
     Embeds the hostname into several files.
+nanoc:
+  version: 3.7.3-2~exp1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 nant:
   version: 0.92~rc1+dfsg-4
   issues:
@@ -11628,6 +11636,10 @@ rabbitmq-server:
   version: 3.4.2-2
   issues:
     - timestamps_in_beam_files
+racc:
+  version: 1.4.9-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 racket:
   version: 6.1.1-3
   issues:
@@ -11644,6 +11656,10 @@ radiance:
   issues:
     - timestamps_generated_by_docbook_to_man
     - different_due_to_umask
+rake:
+  version: 10.3.2-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 rakudo:
   version: 2014.07-4
   comments: |
@@ -11950,6 +11966,14 @@ ruby-bdb:
   version: 0.6.6-1
   issues:
     - timestamps_in_ruby_documentation
+ruby-beaneater:
+  version: 0.3.3-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
+ruby-beautify:
+  version: 0.92.2-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-benchmark-ips:
   version: 1.2.0+git.20130609.e47e416-2
   issues:
@@ -11962,14 +11986,26 @@ ruby-bert:
   version: 1.1.6-1
   issues:
     - timestamps_in_gemspec_files
+ruby-bio:
+  version: 1.4.3.0001-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-blankslate:
   version: 2.1.2.4-4
   issues:
     - timestamps_in_gemspec_files
+ruby-bluecloth:
+  version: 2.2.0-5
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-builder:
   version: 3.2.2-4
   issues:
     - timestamps_in_ruby_documentation
+ruby-cassiopee:
+  version: 0.1.12-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-celluloid:
   version: 0.16.0-2
   issues:
@@ -11984,6 +12020,22 @@ ruby-colored:
   version: 1.2-2
   issues:
     - timestamps_in_gemspec_files
+ruby-colorize:
+  version: 0.7.3-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
+ruby-cookiejar:
+  version: 0.3.1-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
+ruby-cstruct:
+  version: 1.0.1-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
+ruby-dataobjects-sqlite3:
+  version: 0.10.14-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-dbd-mysql:
   version: 0.4.4+gem2deb-2
   issues:
@@ -12009,6 +12061,10 @@ ruby-dbus:
   version: 0.11.0-1
   issues:
     - timestamps_in_ruby_documentation
+ruby-delayed-job:
+  version: 4.0.6-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-delorean:
   version: 2.1.0-2
   issues:
@@ -12029,6 +12085,10 @@ ruby-eim-xml:
   version: 0.0.4-3
   issues:
     - timestamps_in_ruby_documentation
+ruby-elasticsearch:
+  version: 1.0.5-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-em-hiredis:
   version: 0.2.1-2.1
   issues:
@@ -12037,6 +12097,10 @@ ruby-em-socksify:
   version: 0.3.0-1
   issues:
     - ftbfs_in_jenkins_setup
+ruby-enumerize:
+  version: 0.11.0-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-erubis:
   version: 2.7.0-3
   issues:
@@ -12053,6 +12117,10 @@ ruby-extlib:
   version: 0.9.15-3
   issues:
     - timestamps_in_gemspec_files
+ruby-fakefs:
+  version: 0.6.7-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-fast-xs:
   version: 0.8.0-3
   issues:
@@ -12061,6 +12129,14 @@ ruby-flexmock:
   version: 0.9.0-1
   issues:
     - timestamps_in_gemspec_files
+ruby-foreman:
+  version: 0.77.0-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
+ruby-fssm:
+  version: 0.2.10-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-fusefs:
   version: 0.7.0-4
   issues:
@@ -12085,10 +12161,18 @@ ruby-god:
   version: 0.13.6-1
   issues:
     - timestamps_in_gemspec_files
+ruby-handlebars-assets:
+  version: 2:0.20.1-5
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-hike:
   version: 1.2.1-3
   issues:
     - timestamps_in_gemspec_files
+ruby-hitimes:
+  version: 1.2.1-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-hmac:
   version: 0.4.0-4
   issues:
@@ -12097,10 +12181,18 @@ ruby-html2haml:
   version: 1.0.1-3
   issues:
     - timestamps_in_gemspec_files
+ruby-htree:
+  version: 0.8+dfsg-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-http:
   version: 0.6.1-1
   issues:
     - ftbfs_in_jenkins_setup
+ruby-http-accept-language:
+  version: 2.0.5-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-http-connection:
   version: 1.4.4-1
   issues:
@@ -12109,10 +12201,22 @@ ruby-http-parser.rb:
   version: 0.6.0-2
   issues:
     - timestamps_in_ruby_documentation
+ruby-httpauth:
+  version: 0.2.1+gh-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
+ruby-i18n:
+  version: 0.6.11-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-imagesize:
   version: 1:0.1.1-5
   bugs:
     - 747688
+ruby-instantiator:
+  version: 0.0.6+git9cbbe70-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-integration:
   version: 0.1.0-1
   issues:
@@ -12125,6 +12229,10 @@ ruby-jnunemaker-matchy:
   version: 0.4.0-1
   issues:
     - timestamps_in_gemspec_files
+ruby-jsonify:
+  version: 0.4.1-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-kakasi-ffi:
   version: 1.0.1-1
   bugs:
@@ -12133,6 +12241,18 @@ ruby-kramdown:
   version: 1.4.2-1
   issues:
     - timestamps_in_ruby_documentation
+ruby-levenshtein:
+  version: 0.2.2-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
+ruby-liquid:
+  version: 2.6.1-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
+ruby-listen:
+  version: 2.4.0-4
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-magic:
   version: 0.2.8-1
   issues:
@@ -12142,6 +12262,10 @@ ruby-mathml:
   issues:
     - timestamps_in_ruby_documentation
     - timestamps_in_gemspec_files
+ruby-mechanize:
+  version: 2.7.2-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-memcache-client:
   version: 1.8.5-3
   issues:
@@ -12170,6 +12294,10 @@ ruby-merb-param-protection:
   version: 1.1.3-2
   issues:
     - timestamps_in_gemspec_files
+ruby-messagebus-api:
+  version: 3.0.7+git.20130130.97b34ece-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-metaid:
   version: 1.0-8
   issues:
@@ -12186,6 +12314,14 @@ ruby-mkrf:
   version: 0.2.3+dfsg-5
   issues:
     - timestamps_in_gemspec_files
+ruby-mysql2:
+  version: 0.3.16-3
+  issues:
+    - ftbfs_uninvestigated_test_problems
+ruby-net-http-persistent:
+  version: 2.9-3
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-net-irc:
   version: 0.0.9-3
   issues:
@@ -12202,6 +12338,10 @@ ruby-ole:
   version: 1.2.11.7-3
   issues:
     - timestamps_in_gemspec_files
+ruby-omniauth-openid:
+  version: 1.0.1-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-opengl:
   version: 0.60.1+dfsg2-3
   issues:
@@ -12210,6 +12350,10 @@ ruby-org:
   version: 0.9.1-2
   issues:
     - timestamps_in_gemspec_files
+ruby-packable:
+  version: 1.3.6-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-packet:
   version: 0.1.15-5
   issues:
@@ -12241,6 +12385,14 @@ ruby-popen4:
   version: 0.1.4-1
   issues:
     - timestamps_in_gemspec_files
+ruby-powerpack:
+  version: 0.1.0-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
+ruby-protected-attributes:
+  version: 1.0.8-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-pygments.rb:
   version: 0.5.4~ds1-3
   issues:
@@ -12249,10 +12401,18 @@ ruby-rack-mobile-detect:
   version: 0.4.0-3
   issues:
     - timestamps_in_gemspec_files
+ruby-rack-rewrite:
+  version: 1.5.0-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-rack-ssl:
   version: 1.4.1-2
   issues:
     - timestamps_in_gemspec_files
+ruby-rails-timeago:
+  version: 2.11.1-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-rash:
   version: 0.4.0-1
   issues:
@@ -12261,14 +12421,30 @@ ruby-rchardet:
   version: 1.3-3
   issues:
     - timestamps_in_gemspec_files
+ruby-redis:
+  version: 3.1.0-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
+ruby-redis-activesupport:
+  version: 4.0.0-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-redis-namespace:
   version: 1.4.1-2
   issues:
     - timestamps_in_gemspec_files
+ruby-redis-rack:
+  version: 1.5.0-5
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-remcached:
   version: 0.4.1-2
   issues:
     - timestamps_in_gemspec_files
+ruby-rest-client:
+  version: 1.8.0-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-rinku:
   version: 1.7.3-1
   issues:
@@ -12281,6 +12457,10 @@ ruby-ronn:
   version: 0.7.3-3
   issues:
     - timestamps_in_gemspec_files
+ruby-rspec:
+  version: 3.3.0c0e0m0s0-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-rubyforge:
   version: 2.0.4-1
   issues:
@@ -12293,6 +12473,14 @@ ruby-samuel:
   version: 0.3.3-1
   issues:
     - timestamps_in_gemspec_files
+ruby-sanitize:
+  version: 2.1.0-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
+ruby-sawyer:
+  version: 0.6.0-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-settingslogic:
   version: 2.0.9-2
   issues:
@@ -12313,6 +12501,10 @@ ruby-stomp:
   version: 1.3.3-1
   issues:
     - timestamps_in_gemspec_files
+ruby-stringex:
+  version: 2.5.2-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-test-declarative:
   version: 0.0.5-2
   issues:
@@ -12321,10 +12513,22 @@ ruby-test-spec:
   version: 0.10.0-3
   issues:
     - timestamps_in_gemspec_files
+ruby-thread-safe:
+  version: 0.3.3-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
+ruby-timecop:
+  version: 0.7.3-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-tioga:
   version: 1.18-1
   issues:
     - timestamps_in_ruby_documentation
+ruby-twitter-stream:
+  version: 0.1.16-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-uuidtools:
   version: 2.1.4-2
   issues:
@@ -12351,6 +12555,14 @@ ruby-xml-simple:
   version: 1.1.1-1
   issues:
     - timestamps_in_gemspec_files
+ruby-yaml-db:
+  version: 0.2.3-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
+ruby-zip:
+  version: 1.1.6-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-zoom:
   version: 0.4.1-6
   issues:
@@ -13084,6 +13296,10 @@ spooles:
   version: 2.2-11
   issues:
     - timestamps_in_dvi_generated_by_latex
+spork:
+  version: 0.9.2-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 spring:
   version: 98.0+dfsg-1
   issues:
@@ -14039,6 +14255,10 @@ unicon:
   version: 3.0.4-14
   bugs:
     - 777441
+unicorn:
+  version: 4.8.3-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 unifont:
   version: 7.0.06-1
   issues:
