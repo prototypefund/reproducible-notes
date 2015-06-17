@@ -626,4 +626,8 @@ ftbfs_uninvestigated_test_problems:
   description: |
     The package FTBFS, but only because of its tests.  These are probably all RC bugs, unless the
     tests have been broken by pbuilder weirdness.  They all require further investigation.
+ftbfs_due_to_root_username:
+  description:
+    The package FTBFS on purpose, because it thinks it's being built as root.  This could be an
+    incompatability with fakeroot(1), or due to #677666: pbuilder: using BUILDUSERNAME does not change USER
 
