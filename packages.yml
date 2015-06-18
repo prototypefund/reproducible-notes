@@ -3490,8 +3490,6 @@ fflas-ffpack:
     - 787992
 fftw:
   version: 2.1.5-1
-  issues:
-    - ftbfs_in_jenkins_setup
   bugs:
     - 786694
 fgetty:
@@ -7649,10 +7647,6 @@ libtest-cgi-multipart-perl:
     Build-depends on libgd-gd2-perl which no longer exists
   issues:
     - ftbfs_due_to_obsolete_dependencies
-libtest-http-server-simple-stashwarnings-perl:
-  version: 0.04-2
-  issues:
-    - ftbfs_in_jenkins_setup
 libtest-log4perl-perl:
   version: 0.1001-3.1
   bugs:
@@ -12083,8 +12077,6 @@ rc:
     https://sources.debian.net/src/rc/1.7.2-1/configure.ac/#L5
 rcs:
   version: 5.9.4-1
-  issues:
-    - ftbfs_in_jenkins_setup
   bugs:
     - 786694
 rdflib:
@@ -12467,10 +12459,6 @@ ruby-em-hiredis:
   version: 0.2.1-2.1
   issues:
     - timestamps_in_ruby_documentation
-ruby-em-socksify:
-  version: 0.3.0-1
-  issues:
-    - ftbfs_in_jenkins_setup
 ruby-enumerize:
   version: 0.11.0-1
   issues:
@@ -12559,10 +12547,6 @@ ruby-htree:
   version: 0.8+dfsg-2
   issues:
     - ftbfs_uninvestigated_test_problems
-ruby-http:
-  version: 0.6.1-1
-  issues:
-    - ftbfs_in_jenkins_setup
 ruby-http-accept-language:
   version: 2.0.5-2
   issues:
@@ -12983,16 +12967,9 @@ ryu:
 s3ql:
   version: 2.13+dfsg-1
   comments: |
-    2015-03-10
-    The FTBFS problem is probably specific to building with a pbuilder
-    in a wheezy environment as used on jenkins.d.n and reproduced elsewhere.
-    Building on both the Debian buildds as well as ci.d.n works fine.
-    Maintainer is aware.
-    2015-05-27
     On unstable, the first build fails, but not anymore as in #780587.
     In testing, the first build succeeds, but the second fails - different than in unstable.
   issues:
-    - ftbfs_in_jenkins_setup
     - ftbfs_on_2nd_build
 s5:
   version: 1.1.dfsg.2-5
@@ -13080,8 +13057,6 @@ saxonb:
     - random_order_in_documentation_generated_by_javadoc
 sbcl:
   version: 2:1.2.11-2
-  issues:
-    - ftbfs_in_jenkins_setup
   bugs:
     - 786601
 sbuild:
@@ -15545,9 +15520,9 @@ xmlgraphics-commons:
 xmlrpc-c:
   version: 1.33.14-0.2
   comments: |
-    There is a wishlist bug (#722503) to not use port 8080 for the abyss tests.
-  issues:
-    - ftbfs_in_jenkins_setup
+    The wishlist bug #722503 is to not use port 8080 for the abyss tests, as
+    that port is usually used by system running services (like proxies) and
+    used to be occupied in jenkins too.
   bugs:
     - 722503
 xmlstarlet:
