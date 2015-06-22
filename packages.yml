@@ -10950,8 +10950,11 @@ psocksxx:
     - 789399
 pspp:
   version: 0.8.4-1
+  comments: |
+    it created a 94 GB pbuilder/26426/tmp/buildd/pspp-0.8.5/tests/testsuite.dir/at-groups/167/stderr file which filled the disk.
   issues:
     - lc_messages_randomness
+    - blacklisted_on_jenkins
 pstoedit:
   version: 3.62-2
   issues:
