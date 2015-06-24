@@ -5151,6 +5151,11 @@ gromacs:
   comments: |
     Embed build time, username, and hostname:
     http://sources.debian.net/src/gromacs/5.0.2-1/cmake/gmxSetBuildInformation.cmake/
+groovebasin:
+  version: 1.4.0-1
+  comments: |
+    Caused by node-browserify-lite serialising JS(ON) arrays in
+    non-deterministic order.
 groovy:
   version: 1.8.6-4
   issues:
