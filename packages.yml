@@ -11278,6 +11278,11 @@ pyacidobasic:
   version: 2.2-1
   issues:
     - timestamps_generated_by_docbook_to_man
+pybik:
+  version: 2.0-1
+  comments: |
+    Embeds output of sys.argv in buildlib/translation_from_ui.py. Could be
+    simply stripped.
 pybit:
   version: 1.0.0-2.1
   issues:
