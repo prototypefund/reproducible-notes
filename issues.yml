@@ -504,6 +504,10 @@ randomness_in_ocaml_a_files:
     also be done in dh_strip - there is already an ocaml-specific exception).
     .
     However, there are still timestamps (as strings) in .a files afterwards.
+    .
+    * asmcomp/asmlink.ml (eg. /tmp/camlstartupef12cc.o)
+    * debian/patches/0008-Embed-bytecode-in-C-object-when-using-custom.patch
+      (eg. camlobj754fda.c)
 timestamps_in_php_apigen_documentation:
   description: |
     APIgen documentation adds the time into the .zip archive comment as well as
