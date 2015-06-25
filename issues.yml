@@ -216,9 +216,8 @@ randomness_in_gcj_output:
   url: https://wiki.debian.org/ReproducibleBuilds/RandomnessInBuildIdGeneratedByGcj
 python_wheel_package:
   description: |
-    Python Wheel packages (renamed zip files) contain a metadata.json file,
-    the fields of which are written in random order. They also have the
-    usual problems of zip files.
+    Wheel is embedding timestamps into whl files. The timestamp can be overridden
+    by setting the WHEEL_FORCE_TIMESTAMP environment variable to an epoch value.
   url: https://wiki.debian.org/ReproducibleBuilds/PythonWheelPackage
 gtk_doc_api_index_full:
   description: |
