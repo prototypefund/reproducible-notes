@@ -15789,6 +15789,7 @@ xtel:
   issues:
     - timestamps_in_gzip_headers
     - timestamps_in_png
+    - timestamps_from_imake_in_xutils
   bugs:
     - 789965
 xtrlock:
@@ -15799,13 +15800,6 @@ xtrlock:
   bugs:
     - 777351
     - 787122
-xutils-dev:
-  version: 1:7.7+3
-  comments: |
-    Imake defines GzipCmd as `gzip` which is used by other packages like
-    xtel, making them not build reproducibly.
-  bugs:
-    - 789964
 xvier:
   version: 1.0-7.5
   issues:

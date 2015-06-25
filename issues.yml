@@ -642,3 +642,6 @@ ftbfs_due_to_python_packaging_problems:
 timestamps_from_tex4ht:
   description: |
     Tex4ht adds timestamps into the HTML output files.
+timestamps_from_imake_in_xutils:
+  description: |
+    The imake tool from xutils-dev defines a gzip command without `-n` that is used when compressing font files by other packages
