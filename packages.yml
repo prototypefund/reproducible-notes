@@ -11931,6 +11931,8 @@ qrfcview:
   version: 0.62-5.2
   issues:
     - timestamps_in_png
+  bugs:
+    - 789963
 qsampler:
   version: 0.2.2-5
   issues:
@@ -14238,6 +14240,8 @@ tex4ht:
   version: 20090611-1.1
   issues:
     - timestamps_in_jar
+  bugs:
+    - 789843
 texi2html:
   version: 1.82+dfsg1
   bugs:
@@ -15800,6 +15804,8 @@ xtel:
   issues:
     - timestamps_in_gzip_headers
     - timestamps_in_png
+  bugs:
+    - 789965
 xtrlock:
   version: 2.6
   issues:
@@ -15808,6 +15814,13 @@ xtrlock:
   bugs:
     - 777351
     - 787122
+xutils-dev:
+  version: 1:7.7+3
+  comments: |
+    Imake defines GzipCmd as `gzip` which is used by other packages like
+    xtel, making them not build reproducibly.
+  bugs:
+    - 789964
 xvier:
   version: 1.0-7.5
   issues:
