@@ -7699,6 +7699,11 @@ libquvi:
   issues:
     - random_order_in_naturaldocs
     - different_due_to_umask
+libqxt:
+  version: 0.6.2-1
+  comments: |
+    Randomness in pageindex.gz file which shouldn't even be generated anymore?
+    https://bugreports.qt.io/browse/QTBUG-24911
 librabbitmq:
   version: 0.5.2-2
   issues:
