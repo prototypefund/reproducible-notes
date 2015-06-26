@@ -643,5 +643,6 @@ timestamps_from_tex4ht:
   description: |
     Tex4ht adds timestamps into the HTML output files.
 timestamps_from_imake_in_xutils:
+  url: https://bugs.debian.org/789964
   description: |
     The imake tool from xutils-dev defines a gzip command without `-n` that is used when compressing font files by other packages
