@@ -647,3 +647,7 @@ timestamps_from_imake_in_xutils:
   url: https://bugs.debian.org/789964
   description: |
     The imake tool from xutils-dev defines a gzip command without `-n` that is used when compressing font files by other packages
+random_order_in_texinfo_indices:
+  description: |
+    texinfo/makeinfo can generate internal indices in a non-deterministic order
+    as the sorting is not stable with respect to line numbers.
