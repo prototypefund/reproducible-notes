@@ -10838,6 +10838,10 @@ phyml:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/phyml/2:20120412-2/configure.ac/#L5
+picolisp:
+  version: 3.1.11.1-1
+  comments: |
+    date added by `(prinl "/* " (datSym (date)) " */")` in src64/lib/asm.l
 pidentd:
   version: 3.0.19.ds1-7
   issues:
