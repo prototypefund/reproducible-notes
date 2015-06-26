@@ -7682,12 +7682,6 @@ libquvi:
   issues:
     - random_order_in_naturaldocs
     - different_due_to_umask
-libqxt:
-  version: 0.6.2-1
-  comments: |
-    debbindiff crashes on unstable, FTBR in testing
-  issues:
-    - debbindiff_crashes
 librabbitmq:
   version: 0.5.2-2
   issues:
