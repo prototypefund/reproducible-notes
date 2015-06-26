@@ -421,6 +421,10 @@ apparmor:
     `/ID` value actually seems to be timezone dependent.
   issues:
     - timestamps_in_pdf_generated_by_latex
+approx:
+  version: 5.5-2
+  issues:
+    - randomness_in_ocaml_a_files
 appstream-glib:
   version: 0.3.2-1
   issues:
@@ -6269,7 +6273,7 @@ jsjac:
   issues:
     - timestamps_in_jsdoc_toolkit_documentation
 jsmath:
-  version: !!str 3.6e-1
+  version: 3.6e-1
   issues:
     - timestamps_difference_by_unzip
 jsmath-fonts-sprite:
