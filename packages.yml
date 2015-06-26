@@ -4092,6 +4092,11 @@ fwknop:
   version: 2.6.0-2.1
   issues:
     - timezone_variance_because_of_automake_mdate
+fwupdate:
+  version: 0.4-1
+  comments: |
+    Generates (?) and signs a certificate in efi/Makefile. Perhaps if pesign
+    gained a -reproducible flag?
 fxload:
   version: 0.0.20081013-1
   issues:
