@@ -496,7 +496,7 @@ randomness_in_objects_inv:
     Some Python documentation tool writes objects.inv files in a random order.
 randomness_in_ocaml_a_files:
   description: |
-    Some OCaml tool writes /tmp/caml*[randomness].o into its .a archives. Not stripped
+    ocamlopt writes /tmp/caml*[randomness].o into its .a archives. Not stripped
     by dh_strip as the filenames are not ^lib(.+).a$.
     .
     Patch to strip could be https://gist.github.com/9df3804fa51b9bf78faf (could
