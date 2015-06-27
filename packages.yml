@@ -291,6 +291,10 @@ anjuta:
   version: 2:3.14.0-1
   issues:
     - timestamps_from_cpp_macros
+anon-proxy:
+  version: 00.05.38+20081230-2.3
+  bugs:
+    - 789296
 anope:
   version: 2.0.2-1
   issues:
@@ -676,6 +680,10 @@ audtty:
   version: 0.1.12-4
   bugs:
     - 759825
+aufs-tools:
+  version: 1:3.2+20130722-1.1
+  bugs:
+    - 788513
 augeas:
   version: 1.2.0-0.2
   issues:
@@ -1396,6 +1404,10 @@ canna-shion:
   version: 0.0.20010204-12
   comments: |
     timestamps added by mkbindic from canna package
+cantor:
+  version: 4:4.14.2-2
+  bugs:
+    - 788976
 capnproto:
   version: 0.4.1-3
   issues:
@@ -1408,6 +1420,10 @@ caret:
   version: 5.6.4~dfsg.1-3
   issues:
     - timestamps_from_cpp_macros
+carettah:
+  version: 0.3.0-1
+  bugs:
+    - 788781
 casablanca:
   version: 2.2.0-1
   comments: |
@@ -1969,6 +1985,10 @@ console-setup:
   version: 1.116
   bugs:
     - 775531
+cook:
+  version: 2.33-1
+  bugs:
+    - 789294
 coquelicot:
   version: 0.9.2-4
   bugs:
@@ -2681,6 +2701,10 @@ docbook-xsl-saxon:
   version: 1.00.dfsg.1-5
   issues:
     - build_id_variation_requiring_further_investigation
+docker.io:
+  version: 1.6.2~dfsg1-1
+  bugs:
+    - 789736
 docky:
   version: 2.2.0-2
   issues:
@@ -2718,6 +2742,11 @@ dot-forward:
     - different_due_to_umask
   bugs:
     - 776760
+dovecot-antispam:
+  version: 2.0+20130912-2
+  bugs:
+    - 765943
+    - 784741
 doxia:
   version: 1.1.4-2
   issues:
@@ -2933,6 +2962,10 @@ eclipse-mylyn:
   version: 3.12.0-1
   issues:
     - timestamps_manually_added_needs_further_investigation
+eclipse-mylyn-tasks-github:
+  version: 3.3.0-1
+  bugs:
+    - 789988
 eclipse-ptp:
   version: 8.0.0-1
   bugs:
@@ -3542,6 +3575,10 @@ fflas-ffpack:
     - timestamps_in_documentation_generated_by_doxygen
   bugs:
     - 787992
+ffrenzy:
+  version: 1.0.2~svn20070530-5
+  bugs:
+    - 776292
 fftw:
   version: 2.1.5-1
   bugs:
@@ -3689,6 +3726,10 @@ fltk1.3:
   version: 1.3.2-6
   issues:
     - timestamps_in_pdf_generated_by_latex
+flush:
+  version: 0.9.12-3.1
+  bugs:
+    - 790094
 flute:
   version: 1:1.1.6-3
   issues:
@@ -4964,6 +5005,14 @@ gogoc:
   version: 1:1.2-5
   issues:
     - timestamps_from_cpp_macros
+golang-blackfriday:
+  version: 1.2-1
+  bugs:
+    - 789944
+golang-doozer:
+  version: 0.0~git20130909-1
+  bugs:
+    - 789834
 golang-gocheck:
   version: 0.0~bzr20131118+85-2
   bugs:
@@ -5265,6 +5314,14 @@ gtkglarea-sharp:
   version: 0.0.17-6
   issues:
     - timestamps_in_pe_binaries
+gtkimageview:
+  version: 1.6.4+dfsg-0.1
+  bugs:
+    - 789101
+gtkmathview:
+  version: 0.8.0-10+nmu2
+  bugs:
+    - 785485
 gtkpod:
   version: 2.1.4-4
   issues:
@@ -5508,6 +5565,10 @@ horizon:
     /usr/share/openstack-dashboard/openstack_dashboard/local/.secret_key_store
     and
     /usr/share/openstack-dashboard/openstack_dashboard/test/.secret_key_store
+hothasktags:
+  version: 0.3.2-1
+  bugs:
+    - 789104
 hp-search-mac:
   version: 0.1.3
   issues:
@@ -5654,6 +5715,10 @@ ifrench-gut:
   issues:
     - random_order_in_dictionary_debconf_templates
     - random_ispell_hash_files
+ifrit:
+  version: 3.4.2-1
+  bugs:
+    - 788766
 ifupdown:
   version: 0.7.50
   bugs:
@@ -5928,6 +5993,10 @@ jack-tools:
   version: 20131226-1
   issues:
     - timestamps_in_documentation_generated_by_asciidoc
+jackd2:
+  version: 1.9.10+20140719git3eb0ae6a~dfsg-2
+  bugs:
+    - 788973
 jackrabbit:
   version: 2.3.6-1
   issues:
@@ -6062,6 +6131,10 @@ java-common:
   version: 0.52
   issues:
     - timestamps_in_dvi_generated_by_latex
+java-gnome:
+  version: 4.1.3-3
+  bugs:
+    - 789851
 java3d:
   version: 1.5.2+dfsg-11
   issues:
@@ -6290,6 +6363,10 @@ jsmath-fonts-sprite:
   version: 1.0-3
   issues:
     - timestamps_difference_by_unzip
+jsmpp:
+  version: 2.1.2-1
+  bugs:
+    - 788181
 json-simple:
   version: 1.1.1-3
   issues:
@@ -6358,6 +6435,10 @@ k3d:
   version: 0.8.0.3-7
   issues:
     - timestamps_from_cpp_macros
+kadu:
+  version: 1.3-1
+  bugs:
+    - 789840
 kalzium:
   version: 4:4.14.2-1
   issues:
@@ -6523,6 +6604,10 @@ kitchen:
   version: 1.1.1-1
   issues:
     - ftbfs_uninvestigated_test_problems
+kivy:
+  version: 1.9.0-1
+  bugs:
+    - 790092
 klibc:
   version: 2.0.4-2
   issues:
@@ -6624,6 +6709,10 @@ lam:
   issues:
     - timestamps_in_gzip_headers
     - timestamps_in_static_libraries
+lambdabot:
+  version: 4.3.0.1-1
+  bugs:
+    - 789412
 lapack:
   version: 3.5.0-4
   issues:
@@ -7421,6 +7510,10 @@ libkcompactdisc:
     https://sources.debian.net/src/libkcompactdisc/4:4.12.3-2/wmlib/wm_helpers.c/?hl=70#L70
   issues:
     - timestamps_from_cpp_macros
+libkdcraw:
+  version: 4:4.14.0-1
+  bugs:
+    - 788975
 libkinosearch1-perl:
   version: 1.01-1
   issues:
@@ -7717,6 +7810,10 @@ libraw1394:
   version: 2.1.0-3
   issues:
     - timestamps_in_dvi_generated_by_latex
+librdkafka:
+  version: 0.8.5-2
+  bugs:
+    - 788742
 librecad:
   version: 2.0.4-1
   issues:
@@ -8563,6 +8660,10 @@ mat:
   version: 0.5.2-3
   issues:
     - ftbfs_uninvestigated_test_problems
+mathgl:
+  version: 2.2.2.1-3
+  bugs:
+    - 788776
 mathjax-docs:
   version: 2.5+20150415-1
   issues:
@@ -8607,6 +8708,10 @@ maven-assembly-plugin:
     - random_order_in_maven_plugin_xml
     - date_in_maven_plugin_xml
     - random_order_in_plexus_comonents_xml
+maven-common-artifact-filters:
+  version: 1.4-1
+  bugs:
+    - 788980
 maven-compiler-plugin:
   version: 3.2-4
   issues:
@@ -8695,6 +8800,10 @@ mediawiki-math:
   version: 2:1.0+git20120528-8
   issues:
     - randomness_in_ocaml_a_files
+meep-mpi-default:
+  version: 1.2.1-2
+  bugs:
+    - 788691
 megaglest:
   version: 3.9.1-1
   issues:
@@ -8939,6 +9048,10 @@ monajat:
   version: 2.6.5-1
   issues:
     - lc_messages_randomness
+monav:
+  version: 0.3-8
+  bugs:
+    - 788767
 mondrian:
   version: 3.4.1-1
   issues:
@@ -9015,6 +9128,10 @@ moon-buggy:
   version: 1.0.51-10
   issues:
     - timestamps_in_dvi_generated_by_latex
+moonshot-ui:
+  version: 0.7.1-3
+  bugs:
+    - 787880
 morse:
   version: 2.4-2
   issues:
@@ -9169,6 +9286,10 @@ muddleftpd:
     Embed build time:
     http://sources.debian.net/src/muddleftpd/1.3.13.1-4.3/src/version.c/?hl=23#L23
     http://sources.debian.net/src/muddleftpd/1.3.13.1-4.3/src/Makefile.in/?hl87#L87
+mule:
+  version: 2.0.1-7
+  bugs:
+    - 789846
 multiboot:
   version: 0.6.96+20101113-1
   issues:
@@ -9661,6 +9782,10 @@ ntop:
   version: 3:5.0.1+dfsg1-2.1
   issues:
     - timestamps_from_cpp_macros
+ntopng:
+  version: 1.2.1+dfsg1-1.1
+  bugs:
+    - 790091
 ntp:
   version: 1:4.2.6.p5+dfsg-7
   comments: |
@@ -11002,6 +11127,10 @@ plymouth:
   version: 0.9.0-8
   issues:
     - timestamps_from_cpp_macros
+pmacct:
+  version: 1.5.1-1
+  bugs:
+    - 790090
 pmw:
   version: 1:4.28-1
   issues:
@@ -12236,6 +12365,10 @@ radiance:
   issues:
     - timestamps_generated_by_docbook_to_man
     - different_due_to_umask
+raincat:
+  version: 1.1.1.2-1
+  bugs:
+    - 789108
 rake:
   version: 10.3.2-2
   issues:
@@ -12264,6 +12397,10 @@ raster3d:
     - users_and_groups_in_tarball
   bugs:
     - 775810
+rasterio:
+  version: 0.15.1-1
+  bugs:
+    - 788408
 ratfor:
   version: 1.0-15
   issues:
@@ -12339,6 +12476,10 @@ red5:
   issues:
     - random_order_in_documentation_generated_by_javadoc
     - locale_in_documentation_generated_by_javadoc
+redhat-cluster:
+  version: 3.1.8-1.2
+  bugs:
+    - 780199
 refcard:
   version: 5.0.9
   issues:
@@ -12828,6 +12969,8 @@ ruby-liquid:
   version: 2.6.1-2
   issues:
     - ftbfs_uninvestigated_test_problems
+  bugs:
+    - 788694
 ruby-listen:
   version: 2.4.0-4
   issues:
@@ -13112,6 +13255,10 @@ ruby-validatable:
   version: 1.6.7-10
   issues:
     - timestamps_in_gemspec_files
+ruby-vegas:
+  version: 0.1.11-2
+  bugs:
+    - 789837
 ruby-webmock:
   version: 1.19.0-1
   issues:
@@ -13418,6 +13565,10 @@ seyon:
   comments: |
     Embeds the build date, time, user, hostname, ...
     https://sources.debian.net/src/seyon/2.20c-31/makever.sh/#L41-L46
+sflphone:
+  version: 1.4.1-0.1
+  bugs:
+    - 787390
 sgabios:
   version: 0.0~svn8-3
   bugs:
@@ -14018,10 +14169,18 @@ stressapptest:
   comments: |
     Embed build timestamp, username and hostname:
     https://sources.debian.net/src/stressapptest/1.0.6-1/configure.ac/?hl=98:100#L98
+stretchplayer:
+  version: 0.503-2
+  bugs:
+    - 745224
 stsci.distutils:
   version: 0.3.7-1
   comments: |
     Embed build time in `stsci/distutils/version.py`.
+stumpwm:
+  version: 2:0.9.9-1
+  bugs:
+    - 790089
 stx-btree:
   version: 0.9-1.1
   issues:
@@ -14079,6 +14238,10 @@ svgsalamander:
   version: 0~svn95-1
   issues:
     - timestamps_in_jar
+svgtune:
+  version: 0.2.0-1
+  bugs:
+    - 784933
 svnclientadapter:
   version: 1.10.3-2
   issues:
@@ -14229,6 +14392,10 @@ task:
   version: 2.3.0+dfsg-3
   issues:
     - timestamps_from_cpp_macros
+taskcoach:
+  version: 1.4.2-1
+  bugs:
+    - 788974
 tasque:
   version: 0.1.12-4
   issues:
@@ -14331,6 +14498,10 @@ texmacs:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/texmacs/1:1.0.7.18-1/configure.in/#L552
+texworks:
+  version: 0.5~svn1363-5
+  bugs:
+    - 789842
 tf5:
   version: 5.0beta8-5
   comments: |
@@ -14507,6 +14678,10 @@ tomcat8:
   version: 8.0.23-1
   issues:
     - locale_in_documentation_generated_by_javadoc
+tomcatjss:
+  version: 7.1.1-2
+  bugs:
+    - 789109
 topal:
   version: 75-2
   comments: |
@@ -14594,6 +14769,10 @@ trilead-putty-extension:
   version: 1.2-1
   issues:
     - user_in_java_jar_manifest
+trinity:
+  version: 1.3-1
+  bugs:
+    - 788695
 triplane:
   version: 1.0.8-1
   bugs:
@@ -14679,6 +14858,10 @@ ttf-tiresias:
   version: 0.1-2
   comments: |
     Varying mtimes for font files
+tty-clock:
+  version: 2.0-2
+  bugs:
+    - 788749
 ttyload:
   version: 0.5-8
   bugs:
@@ -14871,6 +15054,10 @@ unbound:
   version: 1.4.22-3
   issues:
     - ftbfs_wdatetime_due_to_swig
+unburden-home-dir:
+  version: 0.3.3
+  bugs:
+    - 789832
 undbx:
   version: 0.20-1
   issues:
@@ -14935,6 +15122,10 @@ user-agent-utils:
   version: 1.15-1
   issues:
     - user_in_java_jar_manifest
+user-mode-linux:
+  version: 3.16-1um-0.1
+  bugs:
+    - 787979
 userv:
   version: 1.1.1
   issues:
@@ -15112,6 +15303,8 @@ visp:
   version: 2.9.0-3
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+  bugs:
+    - 790074
 vit:
   version: 1.2-2
   comments: |
@@ -15227,6 +15420,10 @@ vtwm:
     http://sources.debian.net/src/vtwm/5.4.7-2.2/Imakefile/?hl=177:178#L177
   issues:
     - captures_kernel_version
+vxl:
+  version: 1.17.0.dfsg-1
+  bugs:
+    - 788559
 waffle:
   version: 1.4.0-1
   issues:
@@ -15318,6 +15515,8 @@ wfmath:
   version: 1.0.2+dfsg1-0.3
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+  bugs:
+    - 790081
 whatmaps:
   version: 0.0.9-1
   issues:
@@ -15445,6 +15644,8 @@ wreport:
   version: 2.14-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+  bugs:
+    - 790082
 writer2latex:
   version: 1.0.2-10
   issues:
