@@ -2484,10 +2484,6 @@ debomatic:
   version: 0.13-1
   issues:
     - timestamps_in_pdf_generated_by_latex
-debram:
-  version: 2.0.0.3
-  issues:
-    - ftbfs_with_pbuilder_due_malformed_dsc
 dejagnu:
   version: 1.5.1-2
   comments: |
@@ -3589,10 +3585,6 @@ ffrenzy:
   version: 1.0.2~svn20070530-5
   bugs:
     - 776292
-fftw:
-  version: 2.1.5-1
-  bugs:
-    - 786694
 fgetty:
   version: 0.6-5
   issues:
@@ -8685,9 +8677,7 @@ mathgl:
 mathjax-docs:
   version: 2.5+20150415-1
   issues:
-    - timestamps_in_documentation_generated_by_sphinx
-  bugs:
-    - 789752
+    - randomness_in_documentation_generated_by_sphinx
 mathomatic:
   version: 15.8.2-2
   issues:
@@ -8744,10 +8734,6 @@ maven-debian-helper:
     - timestamps_in_maven_pom_files
     - timezones_manpages_podman
     - date_in_maven_plugin_xml
-maven-dependency-analyzer:
-  version: 1.2-2
-  issues:
-    - timestamps_in_maven_pom_files
 maven-filtering:
   version: 1.1-1
   issues:
@@ -8879,12 +8865,6 @@ microdc2:
   version: 0.15.6-2
   issues:
     - lc_messages_randomness
-migrate:
-  version: 0.9.6-1
-  issues:
-    - timestamps_in_documentation_generated_by_sphinx
-  bugs:
-    - 789733
 mime-support:
   version: 3.58
   issues:
@@ -11898,12 +11878,6 @@ python-pysam:
   version: 0.7.7-1
   bugs:
     - 763218
-python-pysaml2:
-  version: 2.4.0-1
-  issues:
-    - timestamps_in_documentation_generated_by_sphinx
-  bugs:
-    - 789751
 python-pysqlite2:
   version: 2.6.3-3
   issues:
@@ -11960,12 +11934,6 @@ python-scipy:
   issues:
     - timestamps_in_documentation_generated_by_sphinx
     - timestamps_in_pdf_generated_by_latex
-python-scrapy:
-  version: 0.24.2-1
-  issues:
-    - timestamps_in_documentation_generated_by_sphinx
-  bugs:
-    - 788593
 python-secretstorage:
   version: 2.1.1-1
   issues:
@@ -14476,12 +14444,6 @@ tcpwatch-httpproxy:
     - timestamps_in_gzip_headers
   bugs:
     - 776969
-tempest:
-  version: 4-1
-  issues:
-    - timestamps_in_documentation_generated_by_sphinx
-  bugs:
-    - 789749
 templayer:
   version: 1.5.1-1
   comments: |
@@ -15549,11 +15511,6 @@ weirdx:
   version: 1.0.32-6
   issues:
     - locale_in_documentation_generated_by_javadoc
-welcome2l:
-  version: 3.04-25
-  comments: |
-    Embed build time, username, hostname:
-    https://sources.debian.net/src/welcome2l/3.04-25/Makefile/?hl=49:52#L49
 west-chamber:
   version: 20100405+svn20111107.r124-5
   issues:
@@ -16325,10 +16282,6 @@ zope-replacesupport:
     - zope_random_field_order_in_dzproduct
 zope.copy:
   version: 3.5.0-6
-  issues:
-    - ftbfs_due_to_python_packaging_problems
-zope.i18n:
-  version: 3.7.4-2
   issues:
     - ftbfs_due_to_python_packaging_problems
 zope.publisher:
