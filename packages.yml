@@ -14055,7 +14055,7 @@ subversion:
   comments: |
     passes build flags onto swig, which doesn't support -Wdate-time
   issues:
-    - ftbfs_wdatetime
+    - ftbfs_wdatetime_due_to_swig
 sunpinyin:
   version: 2.0.3+git20140127-1
   issues:
@@ -14868,7 +14868,7 @@ umockdev:
 unbound:
   version: 1.4.22-3
   issues:
-    - ftbfs_wdatetime
+    - ftbfs_wdatetime_due_to_swig
 undbx:
   version: 0.20-1
   issues:

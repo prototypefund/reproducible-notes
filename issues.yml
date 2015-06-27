@@ -370,6 +370,12 @@ ftbfs_wdatetime:
   description: |
     FTBFS if dpkg-buildflags contains -Wdate-time.
   deterministic: True
+ftbfs_wdatetime_due_to_swig:
+  url: https://bugs.debian.org/790102
+  description: |
+    FTBFS if dpkg-buildflags contains -Wdate-time and those buildflags are passed
+    unchanged to swig.
+  deterministic: True
 ftbfs_with_pbuilder_due_malformed_dsc:
   description: |
     Package FTBFS in pbuilder due to a malformed .dsc, breaking CI.
