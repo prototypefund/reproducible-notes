@@ -5417,8 +5417,8 @@ gutenprint:
     http://gimp-print.cvs.sourceforge.net/viewvc/gimp-print/print/src/foomatic/foomatic-generator.in?r1=1.83&r2=1.84
 guymager:
   version: 0.7.3-3
-  issues:
-    - variation_in_compilation
+  bugs:
+    - 790258
 gvfs:
   version: 1.22.2-1
   issues:
@@ -5467,10 +5467,6 @@ haskell-haskore:
   version: 0.2.0.4-1
   issues:
     - timestamps_in_pdf_generated_by_latex
-haskell-hjsmin:
-  version: 0.1.4.7-2
-  issues:
-    - build_id_variation_requiring_further_investigation
 haskell-hoogle:
   version: 4.2.33-4
   issues:
@@ -5479,10 +5475,6 @@ haskell-mode:
   version: 13.10-3
   issues:
     - timestamps_in_emacs_autoloads
-haskell-pandoc-citeproc:
-  version: 0.4.0.1-1
-  issues:
-    - build_id_variation_requiring_further_investigation
 haskell98-report:
   version: 20080907-5
   issues:
