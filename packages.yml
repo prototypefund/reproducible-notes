@@ -11370,7 +11370,10 @@ psocksxx:
 pspp:
   version: 0.8.4-1
   comments: |
-    it created a 94 GB pbuilder/26426/tmp/buildd/pspp-0.8.5/tests/testsuite.dir/at-groups/167/stderr file which filled the disk.
+    it created a 94 GB pbuilder/26426/tmp/buildd/pspp-0.8.5/tests/testsuite.dir/at-groups/167/stderr file,
+    which filled the disk, which happens to be a tmpfs, thus filling the ram and swapping quite a lot,
+    thus also preventing us to have an usable shell (which would have been useful for debugging foo).
+    Will be debugged/retried someday...
   issues:
     - lc_messages_randomness
     - blacklisted_on_jenkins
@@ -15583,9 +15586,6 @@ wipe:
     - timestamps_from_cpp_macros
 wireless-regdb:
   version: 2014.11.18-1
-  issues:
-    - unreproducible_by_design
-    - blacklisted_on_jenkins
   bugs:
     - 725803
 wise:
