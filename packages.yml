@@ -7996,6 +7996,12 @@ libtime-y2038-perl:
     check_max.c is sensitive to TZ, results embedded in y2038/time64_limits.h by munge_config
   issues:
     - timezones_manpages_podman
+libtm-perl:
+  version: 1.56-7
+  comments: |
+    Caused by Lalr.pm in libparse-yapp-perl, but the problem is deeper than
+    just the outputting in a stable order - we need to deterministically
+    generate the LR state numbers too.
 libtnt:
   version: 1.2.6-1
   issues:
