@@ -7649,6 +7649,11 @@ libmodbus:
   version: 3.0.6-1
   issues:
     - timestamps_generated_by_docbook_to_man
+libmodule-extractuse-perl:
+  version: 0.33-1
+  comments: |
+    Caused by non-determinism in libparse-recdescent-perl. Patch sent in
+    \#790397
 libmoe:
   version: 1.5.8-1
   issues:
