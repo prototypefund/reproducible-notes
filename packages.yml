@@ -10580,6 +10580,8 @@ pacemaker-mgmt:
     Build-depends on libgnutls-dev which no longer exists
   issues:
     - ftbfs_due_to_obsolete_dependencies
+  bugs:
+    - 790381
 pachi:
   version: 1:1.0-7
   issues:
