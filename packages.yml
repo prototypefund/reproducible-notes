@@ -10660,10 +10660,6 @@ paste:
   version: 1.7.5.1-6
   issues:
     - randomness_in_documentation_generated_by_sphinx
-pastedeploy:
-  version: 1.5.2-1
-  issues:
-    - ftbfs_due_to_python_packaging_problems
 pastescript:
   version: 1.7.5-3
   issues:
@@ -11848,14 +11844,6 @@ python-oslo.db:
   version: 1.0.2-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
-python-oslo.middleware:
-  version: 2.1.0-1
-  issues:
-    - ftbfs_due_to_python_packaging_problems
-python-oslo.serialization:
-  version: 1.6.0-1
-  issues:
-    - ftbfs_due_to_python_packaging_problems
 python-padme:
   version: 1.1.1-1
   issues:
@@ -14022,22 +14010,10 @@ sphinxbase:
   version: 0.8-6
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-sphinxcontrib-actdiag:
-  version: 0.8.0-1.1
-  issues:
-    - ftbfs_due_to_python_packaging_problems
 sphinxcontrib-docbookrestapi:
   version: 0.2.1-1
   issues:
     - ftbfs_uninvestigated_test_problems
-sphinxcontrib-nwdiag:
-  version: 0.9.0-1.1
-  issues:
-    - ftbfs_due_to_python_packaging_problems
-sphinxcontrib-seqdiag:
-  version: 0.8.0-1.1
-  issues:
-    - ftbfs_due_to_python_packaging_problems
 sphinxcontrib-youtube:
   version: 1.0-1
   issues:
