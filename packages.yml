@@ -8363,6 +8363,12 @@ logilab-common:
   version: 0.62.0-1
   issues:
     - use_epydoc
+logol:
+  version: 1.7.2-1
+  comments: |
+    build hangs https://jenkins.debian.net/view/reproducible/job/reproducible_builder_gamma/53270/console
+  issues:
+    - blacklisted_on_jenkins
 londonlaw:
   version: 0.2.1-18
   issues:
