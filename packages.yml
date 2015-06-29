@@ -1373,10 +1373,9 @@ calligra:
   issues:
     - timestamps_from_cpp_macros
 camitk:
-  version: 3.4.0-1
+  version: 3.4.0-2
   issues:
-    - timestamps_in_documentation_generated_by_doxygen
-    - different_due_to_umask
+    - timestamps_in_manpages_generated_by_doxygen
 caml-crush:
   version: 1.0.6-1
   issues:
@@ -4403,13 +4402,6 @@ geda-gaf:
   version: 1:1.8.2-4
   issues:
     - timestamps_from_cpp_macros
-geis:
-  version: 2.2.16-1
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
-    - different_due_to_umask
-  bugs:
-    - 788012
 gem:
   version: 1:0.93.3-8
   issues:
@@ -7743,10 +7735,6 @@ liboptions-java:
   version: 0.0.20120113-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-libosmium:
-  version: 2.1.0-3
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 libpam-abl:
   version: 0.6.0-3
   issues:
@@ -8706,9 +8694,10 @@ maria:
   issues:
     - randomness_in_html_generated_by_texi2html
 mariadb-10.0:
-  version: 10.0.14-2
-  issues:
-    - timestamps_from_cpp_macros
+  version: 10.0.20-1
+  comments:
+    Unsorted symbol list in ./usr/share/doc/mariadb-server-10.0/mysqld.sym.gz
+    Is this file really of any use?
 marionnet:
   version: 0.90.6+bzr457-1
   issues:
@@ -8742,7 +8731,7 @@ mathgl:
   bugs:
     - 788776
 mathjax-docs:
-  version: 2.5+20150415-1
+  version: 2.5+20150518-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
 mathomatic:
@@ -10554,11 +10543,6 @@ oslo.messaging:
     - timestamps_in_documentation_generated_by_sphinx
   bugs:
     - 788480
-osmcoastline:
-  version: 2.0.1-1
-  comments: |
-    Embeds the build date into manpage.
-    https://sources.debian.net/src/osmcoastline/2.0.1-1/CMakeLists.txt/#L192
 osmium-tool:
   version: 1.0.1-1
   bugs:
@@ -15760,9 +15744,12 @@ wxwidgets2.8:
   issues:
     - timestamps_from_cpp_macros
 wxwidgets3.0:
-  version: 3.0.2-1
+  version: 3.0.2-3
+  comments:
+    Timestamp in
+    ./usr/share/doc/wx3.0-examples/examples/samples/docview/chart.icns.gz?
   issues:
-    - timestamps_from_cpp_macros
+    - build_id_variation_requiring_further_investigation
 wyrd:
   version: 1.4.4-1
   bugs:
