@@ -622,3 +622,6 @@ snapshot_placeholder_replaced_with_timestamp_in_pom_properties:
     pom.xml uses a <version> like 0.1-SNAPSHOT which is then replaced with the
     timestamp in the filename of the finished .jar. For example
     /usr/share/eclipse/dropins/cdt-pkg-config/eclipse/plugins/org.eclipse.cdt.managedbuilder.pkgconfig_0.8.0.201506071017.jar
+different_encoding:
+  description: |
+    Files were built with different encoding (non-UTF-8 vs. UTF-8).
