@@ -3476,6 +3476,10 @@ evolution-webcal:
   version: 2.32.0-2
   bugs:
     - 759823
+exabgp:
+  version: 3.4.11-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 exim4:
   version: 4.84-3
   issues:
@@ -12754,6 +12758,8 @@ python-requirements-detector:
   version: 0.4-1
   issues:
     - ftbfs_uninvestigated_test_problems
+  bugs:
+    - 790569
 python-rtslib-fb:
   version: 2.1.45-4
   issues:
