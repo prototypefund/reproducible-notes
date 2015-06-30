@@ -2976,16 +2976,16 @@ eclipse:
     Also embeds kernel version and has timestamps in properties files.
   issues:
     - timestamps_in_jar
+eclipse-cdt-pkg-config:
+  version: 1.0.0~git
+  issues:
+    - snapshot_placeholder_replaced_with_timestamp_in_pom_properties
 eclipse-emf:
   version: 2.8.3-1
   issues:
     - timestamps_in_jar
 eclipse-mylyn:
   version: 3.12.0-1
-  issues:
-    - snapshot_placeholder_replaced_with_timestamp_in_pom_properties
-eclipse-cdt-pkg-config:
-  version: 1.0.0~git
   issues:
     - snapshot_placeholder_replaced_with_timestamp_in_pom_properties
 eclipse-mylyn-tasks-github:
