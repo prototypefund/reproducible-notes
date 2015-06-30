@@ -14906,6 +14906,12 @@ ttyload:
   version: 0.5-8
   bugs:
     - 786508
+tupi:
+  version: 0.2+git05-3
+  comments: |
+    Filesystem ordering caused by
+      icons.commands = cp *.png $(INSTALL_ROOT)/themes/default/icons
+    in src/themes/default/icons/icons.pro
 turbogears2-doc:
   version: 2.1.5-1
   bugs:
