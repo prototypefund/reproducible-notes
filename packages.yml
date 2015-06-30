@@ -493,6 +493,10 @@ apt-dpkg-ref:
   issues:
     - timestamps_in_dvi_generated_by_latex
     - timestamps_in_pdf_generated_by_latex
+apt-xapian-index:
+  version: 0.47
+  issues:
+    - timestamps_in_manpage_generated_by_help2man
 apt-zip:
   version: 0.18
   issues:
