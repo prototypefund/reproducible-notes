@@ -4067,6 +4067,10 @@ foo2zjs:
   issues:
     - ppds_compressed_b64
     - timestamps_in_documentation_generated_by_groff
+foodcritic:
+  version: 4.0.0-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 foomatic-db:
   version: 20141016-1
   issues:
@@ -4365,6 +4369,10 @@ gap-scscp:
   version: 2.1.4+ds-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+gawk:
+  version: 1:4.1.1+dfsg-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 gbrainy:
   version: 2.2.3-1
   issues:
@@ -4735,6 +4743,10 @@ glhack:
   version: 1.2-2
   issues:
     - timestamps_from_cpp_macros
+glib2.0:
+  version: 2.44.1-1.1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 glibc:
   version: 2.19-18
   issues:
@@ -7447,6 +7459,10 @@ lcrack:
   version: 20040914-1
   issues:
     - timestamps_from_cpp_macros
+ldap-git-backup:
+  version: 1.0.7-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ldaptor:
   version: 0.0.43+debian1-7
   issues:
@@ -7578,6 +7594,10 @@ libassuan:
   version: 2.1.2-2
   comments: |
     Manually embeds BUILD_TIMESTAMP from custom configure.ac
+libaudio-mpd-perl:
+  version: 2.000-4
+  issues:
+    - ftbfs_uninvestigated_test_problems
 libaunit:
   version: 3.7.1-1
   issues:
@@ -8009,6 +8029,10 @@ libident:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
     - different_due_to_umask
+libidn:
+  version: 1.30-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 libindicate:
   version: 0.6.92-2
   issues:
@@ -8573,10 +8597,18 @@ libskinlf-java:
   version: 6.7-8
   issues:
     - user_in_java_jar_manifest
+libsms-aql-perl:
+  version: 1.02-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 libsndfile:
   version: 1.0.25-9
   issues:
     - timestamps_in_static_libraries
+libsoup2.4:
+  version: 2.50.0-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 libspring-java:
   version: 3.2.13-2
   issues:
@@ -10246,6 +10278,10 @@ neo:
   version: 0.3.3-1
   issues:
     - ftbfs_uninvestigated_test_problems
+neon27:
+  version: 0.30.1-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 nepomuk-core:
   version: 4:4.14.0-1
   issues:
@@ -10558,6 +10594,10 @@ numactl:
   version: 2.0.10-1
   issues:
     - timestamps_from_cpp_macros
+numexpr:
+  version: 2.4-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 numm:
   version: 0.5-1
   issues:
@@ -12290,6 +12330,10 @@ pygtkmvc:
   version: 1.99.1-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+pyicu:
+  version: 1.8-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 pyimport-relative:
   version: 0.1.0-2
   bugs:
@@ -12678,6 +12722,10 @@ python-repoze.what:
     - timestamps_in_documentation_generated_by_sphinx
   bugs:
     - 788592
+python-requirements-detector:
+  version: 0.4-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 python-rtslib-fb:
   version: 2.1.45-4
   issues:
@@ -13512,8 +13560,16 @@ ruby-cookiejar:
   version: 0.3.1-1
   issues:
     - ftbfs_uninvestigated_test_problems
+ruby-crack:
+  version: 0.4.2-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-cstruct:
   version: 1.0.1-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
+ruby-dataobjects-mysql:
+  version: 0.10.14-1
   issues:
     - ftbfs_uninvestigated_test_problems
 ruby-dataobjects-sqlite3:
@@ -13557,6 +13613,10 @@ ruby-dep-selector:
   version: 0.0.8-2
   issues:
     - timestamps_in_gemspec_files
+ruby-diff-lcs:
+  version: 1.2.5-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-dirty-memoize:
   version: 0.0.4-1
   issues:
@@ -13565,6 +13625,10 @@ ruby-distribution:
   version: 0.7.0+dfsg-1
   issues:
     - timestamps_in_gemspec_files
+ruby-dust:
+  version: 0.1.7-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-eim-xml:
   version: 0.0.4-3
   issues:
@@ -13585,6 +13649,10 @@ ruby-erubis:
   version: 2.7.0-3
   issues:
     - timestamps_in_gemspec_files
+ruby-execjs:
+  version: 2.2.1-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-expression-parser:
   version: 0.9.1-2
   issues:
@@ -13599,6 +13667,10 @@ ruby-extlib:
     - timestamps_in_gemspec_files
 ruby-fakefs:
   version: 0.6.7-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
+ruby-fakeweb:
+  version: 1.3.0+git20131202.48208f9+dfsg-1
   issues:
     - ftbfs_uninvestigated_test_problems
 ruby-fast-xs:
@@ -13625,6 +13697,10 @@ ruby-gd:
   version: 0.8.0-7
   issues:
     - timestamps_in_gemspec_files
+ruby-gelf:
+  version: 1.4.0-3
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-git:
   version: 1.2.8-1
   issues:
@@ -13637,6 +13713,10 @@ ruby-globalhotkeys:
   version: 0.3.2-4
   issues:
     - timestamps_in_gemspec_files
+ruby-gnuplot:
+  version: 2.6.2-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-god:
   version: 0.13.6-1
   issues:
@@ -13681,8 +13761,16 @@ ruby-httpauth:
   version: 0.2.1+gh-1
   issues:
     - ftbfs_uninvestigated_test_problems
+ruby-httpclient:
+  version: 2.3.3-3.1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-i18n:
   version: 0.6.11-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
+ruby-ice-nine:
+  version: 0.11.0-1
   issues:
     - ftbfs_uninvestigated_test_problems
 ruby-imagesize:
@@ -13713,6 +13801,10 @@ ruby-kakasi-ffi:
   version: 1.0.1-1
   bugs:
     - 762133
+ruby-kgio:
+  version: 2.9.2-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-kramdown:
   version: 1.4.2-1
   issues:
@@ -13788,6 +13880,10 @@ ruby-mkrf:
   version: 0.2.3+dfsg-5
   issues:
     - timestamps_in_gemspec_files
+ruby-mono-logger:
+  version: 1.1.0-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-mysql2:
   version: 0.3.16-3
   issues:
@@ -13808,10 +13904,18 @@ ruby-odbc:
   version: 0.99995-2
   issues:
     - timestamps_in_gemspec_files
+ruby-ogginfo:
+  version: 0.7.2-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-ole:
   version: 1.2.11.7-3
   issues:
     - timestamps_in_gemspec_files
+ruby-omniauth-oauth:
+  version: 1.0.1-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-omniauth-openid:
   version: 1.0.1-2
   issues:
@@ -13887,6 +13991,10 @@ ruby-rails-timeago:
   version: 2.11.1-2
   issues:
     - ftbfs_uninvestigated_test_problems
+ruby-raindrops:
+  version: 0.13.0-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-rash:
   version: 0.4.0-1
   issues:
@@ -13919,6 +14027,10 @@ ruby-rinku:
   version: 1.7.3-1
   issues:
     - timestamps_in_ruby_documentation
+ruby-rjb:
+  version: 1.4.9-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-romkan:
   version: 0.4.0-1
   issues:
@@ -13935,6 +14047,10 @@ ruby-rubyforge:
   version: 2.0.4-1
   issues:
     - timestamps_in_gemspec_files
+ruby-rubymail:
+  version: 1.0.0-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-rubytorrent:
   version: 0.3-5
   issues:
@@ -13959,6 +14075,10 @@ ruby-shoulda-matchers:
   version: 1.0.0~beta2-1
   issues:
     - timestamps_in_gemspec_files
+ruby-sinatra-contrib:
+  version: 1.4.2-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-sourcify:
   version: 0.5.0-2
   issues:
@@ -13967,6 +14087,10 @@ ruby-sqlite3:
   version: 1.3.9-2
   bugs:
     - 782884
+ruby-stamp:
+  version: 0.6.0-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-stomp:
   version: 1.3.3-1
   issues:
@@ -13983,6 +14107,10 @@ ruby-test-spec:
   version: 0.10.0-3
   issues:
     - timestamps_in_gemspec_files
+ruby-thor:
+  version: 0.19.1-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-thread-safe:
   version: 0.3.3-1
   issues:
@@ -13995,6 +14123,10 @@ ruby-tioga:
   version: 1.18-1
   issues:
     - timestamps_in_ruby_documentation
+ruby-twitter:
+  version: 5.11.0-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-twitter-stream:
   version: 0.1.16-1
   issues:
@@ -14029,6 +14161,14 @@ ruby-xml-simple:
   version: 1.1.1-1
   issues:
     - timestamps_in_gemspec_files
+ruby-xpath:
+  version: 2.0.0-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
+ruby-yajl:
+  version: 1.2.0-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-yaml-db:
   version: 0.2.3-2
   issues:
@@ -15200,6 +15340,10 @@ tcpwatch-httpproxy:
     - timestamps_in_gzip_headers
   bugs:
     - 776969
+telepathy-glib:
+  version: 0.24.1-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 telepathy-qt:
   version: 0.9.5+dfsg-6
   issues:
