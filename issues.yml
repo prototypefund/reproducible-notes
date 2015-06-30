@@ -617,3 +617,8 @@ random_order_in_texinfo_indices:
   description: |
     texinfo/makeinfo can generate internal indices in a non-deterministic order
     as the sorting is not stable with respect to line numbers.
+snapshot_placeholder_replaced_with_timestamp_in_pom_properties:
+  description: |
+    pom.xml uses a <version> like 0.1-SNAPSHOT which is then replaced with the
+    timestamp in the filename of the finished .jar. For example
+    /usr/share/eclipse/dropins/cdt-pkg-config/eclipse/plugins/org.eclipse.cdt.managedbuilder.pkgconfig_0.8.0.201506071017.jar
