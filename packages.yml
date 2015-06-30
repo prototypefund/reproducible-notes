@@ -380,6 +380,38 @@ apertium-dbus:
   version: 0.1-1.1
   comments: |
     Package installs Python bytecode.
+apertium-en-es:
+  version: 0.6.0-1.1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+apertium-es-ca:
+  version: 1.1.0-1.1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+apertium-es-pt:
+  version: 1.0.3-2.1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+apertium-es-ro:
+  version: 0.7.1-2.1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+apertium-eu-es:
+  version: 0.3.1-1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+apertium-fr-ca:
+  version: 1.0.2-1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+apertium-fr-es:
+  version: 0.9.0-1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+apertium-oc-ca:
+  version: 1.0.5-1.1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 apg:
   version: 2.2.3.dfsg.1-2
   issues:
@@ -1634,6 +1666,10 @@ cheese:
   version: 3.14.1-2
   issues:
     - timestamps_generated_by_docbook_to_man
+chef-server-api:
+  version: 10.12.0-1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 chemical-mime-data:
   version: 0.1.94-6
   comments: |
@@ -1681,6 +1717,10 @@ cinder:
   version: 2014.1.3-11
   issues:
     - different_due_to_umask
+cinnamon-screensaver:
+  version: 2.6.3-1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 cinnamon-settings-daemon:
   version: 2.2.4.repack-7
   issues:
@@ -2093,6 +2133,18 @@ cross-binutils:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
     - different_due_to_umask
+cross-gcc-4.9-arm64:
+  version: 39
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+cross-gcc-4.9-armel:
+  version: 39
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+cross-gcc-4.9-armhf:
+  version: 39
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 cross-gcc-4.9-mips:
   version: 11
   issues:
@@ -2101,6 +2153,14 @@ cross-gcc-4.9-mipsel:
   version: 11
   issues:
     - ftbfs_due_to_virtual_dependencies
+cross-gcc-4.9-powerpc:
+  version: 39
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+cross-gcc-4.9-ppc64el:
+  version: 31
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 crrcsim:
   version: 0.9.12-6.1
   issues:
@@ -2149,6 +2209,10 @@ csvimp:
   version: 0.5.0-2
   issues:
     - timestamps_from_cpp_macros
+cucumber:
+  version: 2.0.0-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 cudf:
   version: 0.7-2
   issues:
@@ -2869,6 +2933,10 @@ dsdo:
   version: 1.6.36-5
   issues:
     - random_ispell_hash_files
+dsyslog:
+  version: 0.6.0+nmu1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 dtach:
   version: 0.8-2.1
   issues:
@@ -3056,6 +3124,10 @@ efax-gtk:
   version: 3.2.8-2
   issues:
     - timestamps_from_cpp_macros
+efibootmgr:
+  version: 0.12-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 efl:
   version: 1.8.6-2.1
   issues:
@@ -4319,6 +4391,10 @@ gcc-4.6:
   version: 4.6.4-7
   issues:
     - different_due_to_umask
+gcc-5-cross:
+  version: 5
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 gcc-arm-none-eabi:
   version: 11
   bugs:
@@ -5365,6 +5441,10 @@ gtk-sharp3:
   version: 2.99.3-2
   issues:
     - timestamps_in_pe_binaries
+gtk2hs-buildtools:
+  version: 0.13.0.3-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 gtkdataboxmm:
   version: 0.9.4-3
   issues:
@@ -5510,18 +5590,522 @@ hardlink:
   version: 0.3.0
   issues:
     - timestamps_from_cpp_macros
+haskell-adjunctions:
+  version: 4.2-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-attoparsec:
+  version: 0.12.1.5-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-attoparsec-enumerator:
+  version: 0.3.3-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-aws:
+  version: 0.11.3-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-basic-prelude:
+  version: 0.3.11.1-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-blaze-builder-enumerator:
+  version: 0.2.0.6-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-blaze-html:
+  version: 0.7.0.2-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-blaze-markup:
+  version: 0.6.1.0-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-blaze-svg:
+  version: 0.3.4-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-cassava:
+  version: 0.4.2.3-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-cipher-aes:
+  version: 0.2.10-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-classy-prelude:
+  version: 0.10.2-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-classy-prelude-conduit:
+  version: 0.10.2-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-comonad:
+  version: 4.2.5-4
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-conduit:
+  version: 1.2.4-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-conduit-combinators:
+  version: 0.3.0.6-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-conduit-extra:
+  version: 1.1.7.1-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-configurator:
+  version: 0.2.0.2-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-connection:
+  version: 0.2.3-4
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-contravariant:
+  version: 1.3.1-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-cookie:
+  version: 0.4.1.2-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-cprng-aes:
+  version: 0.5.2-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-data-lens:
+  version: 2.10.5-4
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-dav:
+  version: 1.0.5-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-diagrams-gtk:
+  version: 1.0.1.3-4
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-either:
+  version: 4.3.3.2-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-exception-transformers:
+  version: 0.3.0.3-4
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-fb:
+  version: 1.0.8-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-foldl:
+  version: 1.0.9-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-gio:
+  version: 0.13.0.4-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-github:
+  version: 0.8-4
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-gitlib:
+  version: 3.1.0-4
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-glut:
+  version: 2.7.0.0-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-hakyll:
+  version: 4.6.8.1-1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-happstack-hsp:
+  version: 7.3.4-1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-happstack-server:
+  version: 7.3.9-6
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-hashable:
+  version: 1.2.3.2-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-hashtables:
+  version: 1.1.2.1-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 haskell-haskore:
   version: 0.2.0.4-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+haskell-heist:
+  version: 0.13.1.2-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-hledger:
+  version: 0.24-5
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-hledger-lib:
+  version: 0.24-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-hoauth2:
+  version: 0.4.6-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 haskell-hoogle:
   version: 4.2.33-4
   issues:
     - build_id_variation_requiring_further_investigation
+haskell-hspec:
+  version: 2.1.5-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-hspec-core:
+  version: 2.1.5-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-html-conduit:
+  version: 1.1.1.1-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-http:
+  version: 1:4000.2.19-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-http-client:
+  version: 0.3.8.2-5
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-http-conduit:
+  version: 2.1.4.7-4
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-http-date:
+  version: 0.0.2-5
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-http-reverse-proxy:
+  version: 0.4.0.1-4
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-http-types:
+  version: 0.8.5-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-jmacro:
+  version: 0.6.11-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-keys:
+  version: 3.10.1-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-leksah:
+  version: 0.12.1.3-6
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-leksah-server:
+  version: 0.12.1.2-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-lens:
+  version: 4.6.0.1-11
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-libsystemd-journal:
+  version: 1.2.0-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-lifted-async:
+  version: 0.7.0-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-markdown:
+  version: 0.1.13.1-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-mime-mail:
+  version: 0.4.1.2-5
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-mime-mail-ses:
+  version: 0.3.2.1-4
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 haskell-mode:
   version: 13.10-3
   issues:
     - timestamps_in_emacs_autoloads
+haskell-monad-journal:
+  version: 0.7-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-monadcatchio-mtl:
+  version: 0.3.1.0-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-monoid-subclasses:
+  version: 0.4.0.4-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-musicbrainz:
+  version: 0.2.3-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-nats:
+  version: 0.1.2-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-network-conduit-tls:
+  version: 1.1.0.2-4
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-pandoc-types:
+  version: 1.12.4.2-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-parsers:
+  version: 0.12.1.1-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-path-pieces:
+  version: 0.1.4-4
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-persistent-postgresql:
+  version: 2.1.3-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-persistent-sqlite:
+  version: 2.1.4-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-persistent-template:
+  version: 2.1.1-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-pipes-aeson:
+  version: 0.4.1.2-4
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-pipes-attoparsec:
+  version: 0.5.1.1-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-pointed:
+  version: 4.0-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-process-extras:
+  version: 0.3.3.4-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-quickcheck-instances:
+  version: 0.3.8-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-reducers:
+  version: 3.10.3.1-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-reform-blaze:
+  version: 0.2.3-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-reform-hamlet:
+  version: 0.0.4-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-reform-happstack:
+  version: 0.2.4-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-resourcet:
+  version: 1.1.4.1-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-semigroupoids:
+  version: 4.2-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-shakespeare:
+  version: 2.0.4.1-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-simple-sendfile:
+  version: 0.2.18-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-skein:
+  version: 1.0.9.2-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-snap:
+  version: 0.13.2.9-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-snap-core:
+  version: 0.9.6.3-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-snap-loader-dynamic:
+  version: 0.10.0.2-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-snap-server:
+  version: 0.9.5.0-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-snaplet-acid-state:
+  version: 0.2.6.1-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-src-meta:
+  version: 0.6.0.9-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-streaming-commons:
+  version: 0.1.10.0-5
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-system-fileio:
+  version: 0.3.16.2-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-texmath:
+  version: 0.8.1-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-tls:
+  version: 1.2.16-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-uuid:
+  version: 1.3.9-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-vector-instances:
+  version: 3.3-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-vector-space:
+  version: 0.8.6-5
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-vector-space-points:
+  version: 0.2-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-void:
+  version: 0.6.1-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-wai-app-file-cgi:
+  version: 3.0.7-1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-wai-app-static:
+  version: 3.0.1-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-wai-extra:
+  version: 3.0.7-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-wai-handler-launch:
+  version: 3.0.0-4
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-wai-logger:
+  version: 2.2.4-1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-warp:
+  version: 3.0.12-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-warp-tls:
+  version: 3.0.3-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-web-routes:
+  version: 0.27.8-4
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-web-routes-happstack:
+  version: 0.23.7-4
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-websockets:
+  version: 0.9.3.1-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-wl-pprint-extras:
+  version: 3.5.0.4-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-x509:
+  version: 1.5.0.1-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-x509-validation:
+  version: 1.5.1-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-xml-conduit:
+  version: 1.2.3.3-5
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-xml-hamlet:
+  version: 0.4.0.10-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-yaml:
+  version: 0.8.10.1-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-yesod:
+  version: 1.4.1.4-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-yesod-auth:
+  version: 1.4.4-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-yesod-auth-hashdb:
+  version: 1.4.2.1-1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-yesod-auth-oauth:
+  version: 1.4.0-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-yesod-bin:
+  version: 1.4.7.1-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-yesod-core:
+  version: 1.4.9.1-1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-yesod-markdown:
+  version: 0.9.3.1-1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+haskell-yesod-persistent:
+  version: 1.4.0.2-4
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 haskell98-report:
   version: 20080907-5
   issues:
@@ -5602,6 +6186,10 @@ hkgerman:
     - random_ispell_hash_files
     - timestamps_in_gzip_headers
     - random_order_in_dictionary_debconf_templates
+hlint:
+  version: 1.9.20-1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 hocr:
   version: 0.10.17-2
   comments: |
@@ -5622,6 +6210,10 @@ horizon:
     /usr/share/openstack-dashboard/openstack_dashboard/local/.secret_key_store
     and
     /usr/share/openstack-dashboard/openstack_dashboard/test/.secret_key_store
+horst:
+  version: 4.0-1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 hothasktags:
   version: 0.3.2-1
   bugs:
@@ -6510,12 +7102,12 @@ kanatest:
     - timestamps_from_cpp_macros
 kannel:
   version: 1.4.3-2
+  comments: |
+    The build date is also embedded into the content of a PDF file.
   issues:
     - timestamps_from_cpp_macros
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_dvi_generated_by_latex
-  comments: |
-    The build date is also embedded into the content of a PDF file.
 kannel-sqlbox:
   version: 0.7.2-3
   issues:
@@ -6731,6 +7323,10 @@ ktikz:
   version: 0.10-4
   issues:
     - timestamps_in_qch
+ktp-common-internals:
+  version: 0.9.0-1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 kvirc:
   version: 4.2.0-2
   comments: |
@@ -6781,6 +7377,8 @@ lam:
     - timestamps_in_static_libraries
 lambdabot:
   version: 4.3.0.1-1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
   bugs:
     - 789412
 lapack:
@@ -7233,6 +7831,10 @@ libffi:
   version: 3.1-2
   comments: |
     Timestamp in custom test script
+libfile-find-rule-filesys-virtual-perl:
+  version: 1.22-1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 libfile-flock-perl:
   version: 2014.01-2
   issues:
@@ -7244,6 +7846,10 @@ libfile-scan-perl:
     Makefile.PL generates code in an undefined hash key order
   bugs:
     - 788122
+libfilesys-virtual-plain-perl:
+  version: 0.10-1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 libflexdock-java:
   version: 1.2.4-1
   issues:
@@ -7712,6 +8318,10 @@ libmwaw:
   version: 0.3.1-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libmx4j-java:
+  version: 3.0.2-14
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 libnanoxml2-java:
   version: 2.2.3.dfsg-4
   issues:
@@ -7791,6 +8401,10 @@ libpdfbox-java:
   version: 1:1.8.7+dfsg-1
   issues:
     - timestamps_in_maven_version_files
+libperl-critic-perl:
+  version: 1.125-1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 libpgm:
   version: 5.1.118-1~dfsg-1
   comments: |
@@ -7963,6 +8577,10 @@ libsndfile:
   version: 1.0.25-9
   issues:
     - timestamps_in_static_libraries
+libspring-java:
+  version: 3.2.13-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 libspring-ldap-java:
   version: 1.3.1.RELEASE-5
   issues:
@@ -8251,6 +8869,10 @@ lilypond:
   version: 2.18.2-4
   issues:
     - debbindiff_runs_forever
+limba:
+  version: 0.4.2-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 linbox:
   version: 1.3.2-1.1
   issues:
@@ -8286,6 +8908,10 @@ linux:
     - debbindiff_runs_forever
   bugs:
     - 769844
+linux-latest:
+  version: 65
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 linux-minidisc:
   version: 0.9.13-1
   comments: |
@@ -9000,6 +9626,10 @@ mingw-ocaml:
   version: 4.01.0~20140328-1
   issues:
     - timestamps_in_pe_binaries
+mingw-w64:
+  version: 4.0.2-5
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 mini-buildd:
   version: 1.0.5
   issues:
@@ -9433,6 +10063,10 @@ munkres:
   version: 1.0.6-1
   issues:
     - use_epydoc
+murano:
+  version: 2015.1.0-6
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 muse-el:
   version: 3.20+dfsg-0.1
   issues:
@@ -9616,6 +10250,10 @@ nepomuk-core:
   version: 4:4.14.0-1
   issues:
     - timestamps_in_h_generated_by_qdbusxml2cpp
+netbeans:
+  version: 8.0.2+dfsg1-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 netcdf:
   version: 1:4.1.3-7.2
   issues:
@@ -9681,6 +10319,10 @@ netxx:
   comments: |
     Embed build time:
     https://sources.debian.net/src/netxx/0.3.2-2/tools/genconfig/?hl=59,131#L59
+neutron:
+  version: 2015.1.0+2015.06.24.git61.bdf194a0e1-1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 newmail:
   version: 0.5-2
   issues:
@@ -10126,6 +10768,10 @@ ocp-indent:
   version: 1.4.2-1
   issues:
     - different_due_to_umask
+ocrfeeder:
+  version: 0.7.11-6
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 ocsigenserver:
   version: 2.4.0-1
   issues:
@@ -10997,6 +11643,10 @@ pgbouncer:
   version: 1.5.4-8
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
+pgmodeler:
+  version: 0.8.1~alpha1-1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 pgn-extract:
   version: 17.14-1
   issues:
@@ -11017,6 +11667,10 @@ phnxdeco:
   version: 0.33-3
   issues:
     - timestamps_from_cpp_macros
+phonon:
+  version: 4:4.8.0-5
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 photopc:
   version: 3.05-7
   issues:
@@ -11037,10 +11691,18 @@ php-guzzlehttp:
   version: 5.3.0-1
   bugs:
     - 790438
+php-guzzlehttp-psr7:
+  version: 1.0.0-1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 php-htmlpurifier:
   version: 4.6.0-1
   issues:
     - different_due_to_umask
+php-sabre-dav-2.1:
+  version: 2.1.4-1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 php-smb:
   version: 1.0.1-1
   issues:
@@ -11053,6 +11715,10 @@ php-suhosin:
   version: 0.9.33-3
   bugs:
     - 718145
+php-timer:
+  version: 1.0.6-1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 php-xml-serializer:
   version: 0.20.2-3
   bugs:
@@ -11072,6 +11738,14 @@ phpldapadmin:
   version: 1.2.2-5.2
   issues:
     - different_due_to_umask
+phpunit:
+  version: 4.7.5-1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+phpunit-global-state:
+  version: 1.0.0-1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 phpwebcounter:
   version: 1.0-3
   issues:
@@ -12602,6 +13276,10 @@ rest2web:
   version: 0.5.2~alpha+svn-r248-2
   comments: |
     Random HTML ids in /usr/share/doc/rest2web/html/test_site/section1/index.html
+retext:
+  version: 5.0.2-1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 revelation:
   version: 0.4.14-2
   issues:
@@ -12699,6 +13377,10 @@ rsbackup:
     - not_using_dh_builddeb
   bugs:
     - 777394
+rss2irc:
+  version: 1.0.6-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 rsync:
   version: 3.1.1-2
   issues:
@@ -12822,6 +13504,10 @@ ruby-colorize:
   version: 0.7.3-1
   issues:
     - ftbfs_uninvestigated_test_problems
+ruby-commander:
+  version: 4.3.4-1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 ruby-cookiejar:
   version: 0.3.1-1
   issues:
@@ -13499,6 +14185,10 @@ scala-mode-el:
   version: 20111005-2.1
   issues:
     - timestamps_in_emacs_autoloads
+scala-xml:
+  version: 1.0.3-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 scantool:
   version: 1.21+dfsg-4
   issues:
@@ -14510,6 +15200,10 @@ tcpwatch-httpproxy:
     - timestamps_in_gzip_headers
   bugs:
     - 776969
+telepathy-qt:
+  version: 0.9.5+dfsg-6
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 templayer:
   version: 1.5.1-1
   comments: |
@@ -14565,6 +15259,10 @@ texmacs:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/texmacs/1:1.0.7.18-1/configure.in/#L552
+texstudio:
+  version: 2.9.4+debian-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 texworks:
   version: 0.5~svn1363-5
   bugs:
@@ -15214,6 +15912,8 @@ user-agent-utils:
     - user_in_java_jar_manifest
 user-mode-linux:
   version: 3.16-1um-0.1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
   bugs:
     - 787979
 userv:
@@ -16290,6 +16990,10 @@ yersinia:
     https://sources.debian.net/src/yersinia/0.7.3-1/configure.in/?hl=832:845#L832
   issues:
     - captures_kernel_version
+yi:
+  version: 0.12.0-1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 yocto-reader:
   version: 0.9.4
   issues:
