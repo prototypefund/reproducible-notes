@@ -5066,6 +5066,10 @@ gnome-keyring-sharp:
   version: 1.0.0-4
   issues:
     - timestamps_in_pe_binaries
+gnome-packagekit:
+  version: 3.14.0-1
+  bugs:
+    - 790687
 gnome-rdp:
   version: 0.3.0.9-3
   issues:
@@ -8526,6 +8530,10 @@ libnss-ldap:
     Embeds username and build date.
     https://sources.debian.net/src/libnss-ldap/265-3/vers_string/#L10
     https://sources.debian.net/src/libnss-ldap/265-3/vers_string/#L16
+libodb-qt:
+  version: 2.4.0-1
+  bugs:
+    - 790684
 libofx:
   version: 1:0.9.10-1
   issues:
@@ -17028,6 +17036,10 @@ xenwatch:
   version: 0.5.4-3
   bugs:
     - 750298
+xf86-input-wacom:
+  version: 0.26.0+20140918-1
+  bugs:
+    - 790631
 xfaces:
   version: 3.3-28
   issues:
