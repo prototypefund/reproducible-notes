@@ -397,6 +397,9 @@ timestamps_in_manpage_generated_by_sphinx:
 timestamps_in_manpage_generated_by_txt2man:
   description: |
     Manpages generated with txt2man embed the date.
+    .
+    Pass "-d $date" to txt2man to force a (reproducible) date.
+  url: http://bugs.debian.org/790801
 timestamps_in_manpage_generated_by_help2man:
   description: |
     Manpages generated with help2man embed the month and year by default.
