@@ -7132,6 +7132,10 @@ junior-doc:
     - not_using_dh_builddeb
     - timestamps_in_gzip_headers
     - timestamps_in_dvi_generated_by_latex
+jwm:
+  version: 2.1.0+svn579-2
+  issues:
+    - timestamps_in_documentation_generated_by_groff
 jxplorer:
   version: 3.3.2+dfsg-2
   issues:
