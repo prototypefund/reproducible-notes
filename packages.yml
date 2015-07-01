@@ -14938,6 +14938,10 @@ sonnet:
   comments: |
     Caused by QHash usage (instead of QMap?) in data/parsetrigrams.cpp. Could
     also be filesystem ordering here too.
+soqt:
+  version: 1.6.0~e8310f-2
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 sord:
   version: 0.12.2~dfsg0-1
   issues:
