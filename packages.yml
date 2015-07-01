@@ -16044,6 +16044,11 @@ udj-desktop-client:
   version: 0.6.3-1
   bugs:
     - 778966
+udpcast:
+  version: 20120424-1
+  comments: |
+    Current date in docs. Package has a mechanism in for putting a determinstic
+    date in there via version.h but that file doesn't appear.
 uhd:
   version: 3.7.3-1
   comments: |
