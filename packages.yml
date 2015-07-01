@@ -388,12 +388,28 @@ apertium-dbus:
   version: 0.1-1.1
   comments: |
     Package installs Python bytecode.
+apertium-en-ca:
+  version: 0.8.9-1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 apertium-en-es:
   version: 0.6.0-1.1
   issues:
     - ftbfs_uninvestigated_unsatisfiable_dependencies
+apertium-eo-ca:
+  version: 0.9.0-1.1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+apertium-eo-es:
+  version: 0.9.0-1.1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 apertium-es-ca:
   version: 1.1.0-1.1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+apertium-es-gl:
+  version: 1.0.7-1
   issues:
     - ftbfs_uninvestigated_unsatisfiable_dependencies
 apertium-es-pt:
@@ -418,6 +434,18 @@ apertium-fr-es:
     - ftbfs_uninvestigated_unsatisfiable_dependencies
 apertium-oc-ca:
   version: 1.0.5-1.1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+apertium-oc-es:
+  version: 1.0.5-1.1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+apertium-pt-ca:
+  version: 0.8.1-1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
+apertium-pt-gl:
+  version: 0.9.1-1
   issues:
     - ftbfs_uninvestigated_unsatisfiable_dependencies
 apg:
@@ -1176,6 +1204,10 @@ blosxom:
     - different_due_to_umask
   bugs:
     - 777292
+bluedevil:
+  version: 2.0~rc1-44-gb7697a7-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 bmake:
   version: 20140620-3
   issues:
@@ -7830,6 +7862,10 @@ libcrypto++:
   issues:
     - timestamps_in_documentation_generated_by_doxygen
     - different_due_to_umask
+libcsfml:
+  version: 2.1-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 libdaemon:
   version: 0.14-6
   issues:
@@ -11699,6 +11735,10 @@ pdftk:
   version: 2.02-2
   issues:
     - build_id_variation_requiring_further_investigation
+pdl:
+  version: 1:2.007-4
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 pdmenu:
   version: 1.3.4
   issues:
@@ -12081,6 +12121,10 @@ plm:
   version: 2.4.11+repack-2
   issues:
     - timestamps_in_png
+ploticus:
+  version: 2.42-3
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 plplot:
   version: 5.10.0+dfsg-1
   issues:
@@ -13701,6 +13745,10 @@ ruby-celluloid:
     - blacklisted_on_jenkins
   bugs:
     - 786669
+ruby-celluloid-io:
+  version: 0.15.0-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-coffee-script:
   version: 2.2.0-2
   issues:
