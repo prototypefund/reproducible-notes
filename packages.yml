@@ -487,6 +487,10 @@ apparmor:
     `/ID` value actually seems to be timezone dependent.
   issues:
     - timestamps_in_pdf_generated_by_latex
+apper:
+  version: 0.9.2-2
+  bugs:
+    - 790800
 approx:
   version: 5.5-2
   issues:
@@ -3063,6 +3067,10 @@ dvdwizard:
   version: 0.7.1-2
   issues:
     - lc_messages_randomness
+dvi2dvi:
+  version: 2.0alpha-9.2
+  bugs:
+    - 790657
 dvswitch:
   version: 0.8.3.6-1.2
   bugs:
