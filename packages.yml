@@ -4802,6 +4802,10 @@ glade:
   version: 3.18.3-1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
+glance:
+  version: 2015.1.0-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 glaurung:
   version: 2.2-2
   issues:
@@ -7476,6 +7480,10 @@ kvpnc:
   version: 0.9.6a-2.1
   issues:
     - build_id_variation_requiring_further_investigation
+kwalify:
+  version: 0.7.2-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 kwin-style-crystal:
   version: 2.2.1-2
   issues:
@@ -8491,6 +8499,10 @@ libmoe:
     - timestamps_in_gzip_headers
   bugs:
     - 779167
+libmojomojo-perl:
+  version: 1.10+dfsg1-4
+  issues:
+    - ftbfs_uninvestigated_test_problems
 libmoosex-attribute-chained-perl:
   version: 1.0.1-1
   issues:
@@ -12965,6 +12977,10 @@ python-repoze.who:
   version: 1.0.18-4
   bugs:
     - 790697
+python-requirements-detector:
+  version: 0.4-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 python-rtslib-fb:
   version: 2.1.45-4
   issues:
@@ -13376,6 +13392,10 @@ r5rs-doc:
   version: 20010328-7
   bugs:
     - 712334
+rabbit:
+  version: 2.1.6-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 rabbitmq-server:
   version: 3.4.2-2
   issues:
@@ -13765,10 +13785,18 @@ ruby-bluecloth:
   version: 2.2.0-5
   issues:
     - ftbfs_uninvestigated_test_problems
+ruby-bluefeather:
+  version: 0.41-3
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-builder:
   version: 3.2.2-4
   issues:
     - timestamps_in_ruby_documentation
+ruby-capybara:
+  version: 2.2.1-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-cassiopee:
   version: 0.1.12-1
   issues:
@@ -13928,6 +13956,10 @@ ruby-flexmock:
   version: 0.9.0-1
   issues:
     - timestamps_in_gemspec_files
+ruby-fog-xml:
+  version: 0.1.1-4
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-foreman:
   version: 0.77.0-1
   issues:
@@ -13968,6 +14000,10 @@ ruby-god:
   version: 0.13.6-1
   issues:
     - timestamps_in_gemspec_files
+ruby-haml-magic-translations:
+  version: 4.0.3-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-handlebars-assets:
   version: 2:0.20.1-5
   issues:
@@ -14131,6 +14167,10 @@ ruby-mono-logger:
   version: 1.1.0-1
   issues:
     - ftbfs_uninvestigated_test_problems
+ruby-multi-xml:
+  version: 0.5.5-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-mysql2:
   version: 0.3.16-3
   issues:
@@ -14286,8 +14326,16 @@ ruby-ronn:
   version: 0.7.3-3
   issues:
     - timestamps_in_gemspec_files
+ruby-roxml:
+  version: 3.3.1-3
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-rspec:
   version: 3.3.0c0e0m0s0-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
+ruby-rspec-core:
+  version: 2.14.7-2
   issues:
     - ftbfs_uninvestigated_test_problems
 ruby-rubyforge:
@@ -14302,6 +14350,10 @@ ruby-rubytorrent:
   version: 0.3-5
   issues:
     - timestamps_in_gemspec_files
+ruby-rubyvis:
+  version: 0.6.1+dfsg1-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-samuel:
   version: 0.3.3-1
   issues:
@@ -14318,6 +14370,10 @@ ruby-settingslogic:
   version: 2.0.9-2
   issues:
     - timestamps_in_ruby_documentation
+ruby-sham-rack:
+  version: 1.3.6-5
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-shoulda-matchers:
   version: 1.0.0~beta2-1
   issues:
@@ -14396,6 +14452,10 @@ ruby-webmock:
     - timestamps_in_gemspec_files
   bugs:
     - 765113
+ruby-webrobots:
+  version: 0.1.1-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-wikicloth:
   version: 0.8.1+dfsg-2
   issues:
@@ -14521,6 +14581,10 @@ samhain:
   version: 3.1.0-7
   issues:
     - timestamps_from_cpp_macros
+samizdat:
+  version: 0.7.0-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 samplv1:
   version: 0.5.1-1
   issues:
@@ -14692,6 +14756,10 @@ sensible-utils:
     - different_due_to_umask
   bugs:
     - 774449
+sepia:
+  version: 0.992-3
+  issues:
+    - ftbfs_uninvestigated_test_problems
 serp:
   version: 1.14.1-2
   issues:
