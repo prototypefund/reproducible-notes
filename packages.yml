@@ -6643,6 +6643,10 @@ intlfonts:
     - timestamps_in_gzip_headers
   bugs:
     - 777012
+iodine:
+  version: 0.7.0-3
+  issues:
+    - ftbfs_uninvestigated_on_jenkins_only
 ipband:
   version: 0.8.1-3
   issues:
@@ -8650,6 +8654,10 @@ libphone-ui-shr:
   version: 0.1+git20130901-3
   issues:
     - lc_messages_randomness
+libphonenumber:
+  version: 6.3~svn698-3
+  issues:
+    - ftbfs_uninvestigated_on_jenkins_only
 libphp-jpgraph:
   version: 1.5.2-12.1
   issues:
@@ -15389,6 +15397,10 @@ srtp:
   version: 1.4.5~20130609~dfsg-1.1
   issues:
     - timestamps_in_pdf_generated_by_latex
+sslstrip:
+  version: 0.9-1
+  issues:
+    - ftbfs_uninvestigated_on_jenkins_only
 ssmtp:
   version: 2.64-8
   issues:
