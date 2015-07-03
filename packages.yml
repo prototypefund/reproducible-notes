@@ -6843,6 +6843,10 @@ jackson-datatype-guava:
   version: 2.4.2+dfsg-1
   issues:
     - locale_in_documentation_generated_by_javadoc
+jackson-datatype-joda:
+  version: 2.4.3-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 jackson-module-afterburner:
   version: 2.4.3-1
   issues:
@@ -8871,6 +8875,10 @@ libsyncml:
   version: 0.5.4-2.2
   issues:
     - timestamps_in_manpages_generated_by_doxygen
+libsysactivity:
+  version: 0.6.5-4
+  issues:
+    - ftbfs_uninvestigated_test_problems
 libtango:
   version: 0.99.9.dfsg-1
   bugs:
