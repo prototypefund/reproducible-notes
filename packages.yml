@@ -1058,7 +1058,6 @@ bglibs:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
-    - timestamps_in_static_libraries
     - different_due_to_umask
   bugs:
     - 776942
@@ -1496,7 +1495,6 @@ camping:
 canl-c:
   version: 2.1.5-1.1
   issues:
-    - timestamps_in_static_libraries
     - timestamps_in_pdf_generated_by_latex
     - different_due_to_umask
 canl-java:
@@ -1667,9 +1665,7 @@ cgilib:
   version: 0.6-1
   issues:
     - not_using_dh_builddeb
-    - timestamps_in_static_libraries
     - timestamps_in_gzip_headers
-    - different_due_to_umask
   bugs:
     - 776935
 cgit:
@@ -1900,9 +1896,7 @@ clustalo:
 cluster-glue:
   version: 1.0.12~rc1+hg2777-1.2
   issues:
-    - timestamps_in_static_libraries
     - timestamps_generated_by_docbook_to_man
-    - different_due_to_umask
 clutter-sharp:
   version: 1.0.0~alpha3~git20090817.r1.349dba6-8
   issues:
@@ -2209,8 +2203,6 @@ crmsh:
 cross-binutils:
   version: 0.22
   issues:
-    - timestamps_in_static_libraries
-    - timestamps_in_gzip_headers
     - not_using_dh_builddeb
     - different_due_to_umask
 cross-gcc-4.9-arm64:
@@ -2346,7 +2338,6 @@ cvm:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
-    - timestamps_in_static_libraries
     - different_due_to_umask
 cvs:
   version: 2:1.12.13+real-15
@@ -2777,9 +2768,7 @@ dietlibc:
   version: 0.33~cvs20120325-6
   issues:
     - not_using_dh_builddeb
-    - timestamps_in_static_libraries
     - timestamps_in_gzip_headers
-    - different_due_to_umask
 digikam:
   version: 4:4.4.0-1
   issues:
@@ -3129,8 +3118,9 @@ ecere-sdk:
     - variation_in_compilation
 echoping:
   version: 6.0.2-8
-  issues:
-    - timestamps_in_static_libraries
+  comments: |
+    Embeds build date and hostname.
+    https://sources.debian.net/src/echoping/6.0.2-8/configure.ac/#L337-L338
 eclib:
   version: 2014-09-21-1
   issues:
@@ -3257,7 +3247,6 @@ elida:
 elk:
   version: 3.99.8-2.1
   issues:
-    - timestamps_in_static_libraries
     - timestamps_in_documentation_generated_by_groff
 elkcode:
   version: 2.3.22-1
@@ -5441,9 +5430,9 @@ greed:
     - timestamps_in_manpages_generated_by_docbook_xsl
 gretl:
   version: 1.9.92-1
-  issues:
-    - timestamps_in_static_libraries
-    - different_due_to_umask
+  comments: |
+    Embeds the build date.
+    https://sources.debian.net/src/gretl/1.10.1-2/builddate.c/
 gri:
   version: 2.12.23-8
   issues:
@@ -6283,10 +6272,6 @@ hdf5:
   version: 1.8.13+docs-15
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-heartbeat:
-  version: 1:3.0.5+hg12629-1.2
-  issues:
-    - timestamps_in_static_libraries
 heat:
   version: 2014.1.3-7
   issues:
@@ -7507,9 +7492,9 @@ konwert:
   bugs:
     - 778945
 krb5:
-  version: 1.12.1+dfsg-16
+  version: 1.13.2+dfsg-2
   issues:
-    - timestamps_in_static_libraries
+    - timestamps_in_pdf_generated_by_latex
 krename:
   version: 4.0.9-3
   issues:
@@ -7583,7 +7568,6 @@ lam:
     /usr/share/doc/lam4-dev/examples/main/wave1d/Makefile.gz.
   issues:
     - timestamps_in_gzip_headers
-    - timestamps_in_static_libraries
 lambdabot:
   version: 4.3.0.1-1
   issues:
@@ -8052,7 +8036,6 @@ libextractor:
 libf2c2:
   version: 20090411-2
   issues:
-    - timestamps_in_static_libraries
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
   bugs:
@@ -8498,10 +8481,8 @@ liblo:
 liblockfile:
   version: 1.09-6
   issues:
-    - timestamps_in_static_libraries
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
-    - different_due_to_umask
 liblouis:
   version: 2.5.3-3
   issues:
@@ -8775,7 +8756,6 @@ libranlip:
   version: 1.0-4.1
   issues:
     - not_using_dh_builddeb
-    - timestamps_in_static_libraries
     - timestamps_in_gzip_headers
   bugs:
     - 788000
@@ -8807,9 +8787,9 @@ libreoffice-canzeley-client:
     - timestamps_difference_by_unzip
 librep:
   version: 0.90.2-1.4
-  issues:
-    - timestamps_in_static_libraries
-    - different_due_to_umask
+  comments: |
+    Captures the build date/time, user and hostname.
+    https://sources.debian.net/src/librep/0.90.2-1.4/build-info/#L20-L21
 librostlab:
   version: 1.0.20-4
   issues:
@@ -8884,10 +8864,6 @@ libsms-aql-perl:
   version: 1.02-1
   issues:
     - ftbfs_uninvestigated_test_problems
-libsndfile:
-  version: 1.0.25-9
-  issues:
-    - timestamps_in_static_libraries
 libsoup2.4:
   version: 2.50.0-2
   issues:
@@ -9047,7 +9023,6 @@ libwebcam:
   version: 0.2.4-1.1
   issues:
     - timestamps_in_gzip_headers
-    - timestamps_in_static_libraries
   bugs:
     - 787999
 libwebsockets:
@@ -10996,10 +10971,6 @@ ocaml-csv:
   version: 1.3.3-1
   issues:
     - randomness_in_ocaml_a_files
-ocaml-curses:
-  version: 1.0.3-2
-  issues:
-    - timestamps_in_static_libraries
 ocaml-deriving-ocsigen:
   version: 0.6.2-1
   issues:
@@ -11014,10 +10985,6 @@ ocaml-reins:
   version: 0.1a-5
   issues:
     - randomness_in_ocaml_a_files
-ocamlagrep:
-  version: 1.0-11
-  issues:
-    - timestamps_in_static_libraries
 ocamlbricks:
   version: 0.90+bzr400-1
   issues:
@@ -11038,10 +11005,6 @@ ocamlnet:
   version: 3.7.3-4
   issues:
     - different_due_to_umask
-ocamlodbc:
-  version: 2.15-5
-  issues:
-    - timestamps_in_static_libraries
 ocamlviz:
   version: 1.01-2
   issues:
@@ -11496,7 +11459,6 @@ openvrml:
   version: 0.18.9-7
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-    - timestamps_in_static_libraries
     - different_due_to_umask
 openvswitch:
   version: 2.3.0+git20140819-2
@@ -11757,7 +11719,6 @@ pciutils:
   version: 3.2.1-3
   issues:
     - timestamps_in_gzip_headers
-    - timestamps_in_static_libraries
   bugs:
     - 783144
 pcl:
@@ -11916,7 +11877,6 @@ perdition:
   version: 2.1-2
   issues:
     - timestamps_in_gzip_headers
-    - timestamps_in_static_libraries
   bugs:
     - 787998
 performous:
@@ -12409,9 +12369,6 @@ proftpd-dfsg:
   version: 1.3.5-1.1
   comments: |
     Embed build time in /usr/include/proftpd/buildstamp.h (sic)
-  issues:
-    - timestamps_in_static_libraries
-    - different_due_to_umask
 proll:
   version: 18-6
   comments: |
@@ -12510,7 +12467,6 @@ pvm:
   issues:
     - timestamps_in_tarball
     - timestamps_in_gzip_headers
-    - timestamps_in_static_libraries
     - different_due_to_umask
 pxe:
   version: 1.4.2-7
@@ -13765,7 +13721,6 @@ rt-tests:
 rtai:
   version: 3.9.1-4
   issues:
-    - timestamps_in_static_libraries
     - timestamps_in_tarball
     - different_due_to_umask
 rtslib:
@@ -14358,7 +14313,7 @@ sawfish:
   version: 1:1.5.3-2.4
   issues:
     - timestamps_in_gzip_headers
-    - timestamps_in_static_libraries
+    - timestamps_in_tarball
     - different_due_to_umask
 saxonb:
   version: 9.1.0.8+dfsg-1
@@ -14436,7 +14391,6 @@ scorched3d:
 scotch:
   version: 5.1.12b.dfsg-2
   issues:
-    - timestamps_in_static_libraries
     - timestamps_in_gzip_headers
   bugs:
     - 787997
@@ -14699,9 +14653,7 @@ skalibs:
   version: 0.47-1
   issues:
     - not_using_dh_builddeb
-    - timestamps_in_static_libraries
     - timestamps_in_gzip_headers
-    - different_due_to_umask
 sketch:
   version: 1:0.3.7-1
   issues:
@@ -15006,7 +14958,6 @@ spl:
   issues:
     - not_using_dh_builddeb
     - timestamps_in_gzip_headers
-    - timestamps_in_static_libraries
     - different_due_to_umask
 splash:
   version: 2.5.0-1
