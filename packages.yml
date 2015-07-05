@@ -3255,6 +3255,10 @@ emacspeak:
   version: 40.0+dfsg-3
   issues:
     - use_epydoc
+embassy-domainatrix:
+  version: 0.1.650-1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 emms:
   version: 4.0-2
   issues:
@@ -6264,6 +6268,10 @@ jabber-muc:
   version: 0.8-4
   issues:
     - timestamps_from_cpp_macros
+jabberd2:
+  version: 2.3.3-2
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 jabref:
   version: 2.10+ds-3
   comments: |
@@ -7575,6 +7583,10 @@ libgda5:
   comments: |
     Embeds the build date into manpage.
     https://sources.debian.net/src/libgda5/5.2.2-2/configure.ac/#L74-L75
+libgdchart-gd2:
+  version: 0.11.5-7.1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 libgenome-model-tools-music-perl:
   version: 0.04-1
   issues:
@@ -10940,6 +10952,10 @@ osgi-compendium:
   version: 4.3.0-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+osmium:
+  version: 0.0~20150428-7f23002-1
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 osmo:
   version: 0.2.12-1
   issues:
