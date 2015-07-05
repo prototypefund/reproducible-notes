@@ -7666,6 +7666,10 @@ libgtk2-appindicator-perl:
   version: 0.15-1
   bugs:
     - 782877
+libgtk2-perl:
+  version: 2:1.2495-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 libgtkada:
   version: 2.24.4dfsg-1
   comments: |
@@ -15800,6 +15804,7 @@ vim-addon-manager:
   version: 0.5.3
   issues:
     - timestamps_in_documentation_generated_by_rdtool
+    - ftbfs_uninvestigated_test_problems
 vim-latexsuite:
   version: 20130116.788-1
   bugs:
