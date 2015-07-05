@@ -5261,14 +5261,26 @@ golang-github-glacjay-goini:
   version: 0.0~git20141123-1
   issues:
     - ftbfs_uninvestigated_test_problems
+golang-go.tools:
+  version: 0.0~hg20140703-4
+  issues:
+    - ftbfs_uninvestigated_test_problems
 golang-gocheck:
   version: 0.0~bzr20131118+85-2
   bugs:
     - 789991
+golang-goleveldb:
+  version: 0+git20150214.e9e2c8f-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 golang-raft:
   version: 0.0~git20140427-4
   bugs:
     - 789987
+golang-uuid:
+  version: 0.0~hg20140512-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 golang-xmpp-dev:
   version: 0.0~git20140304-1
   issues:
@@ -7869,6 +7881,10 @@ libjrosetta-java:
   version: 1.0.4-4
   issues:
     - user_in_java_jar_manifest
+libjson-perl:
+  version: 2.61-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 libjspeex-java:
   version: 0.9.7-3
   issues:
