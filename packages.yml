@@ -12331,6 +12331,10 @@ python-oslo.db:
   version: 1.0.2-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
+python-oslo.i18n:
+  version: 1.5.0-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 python-padme:
   version: 1.1.1-1
   issues:
@@ -12821,6 +12825,10 @@ r-cran-teachingdemos:
   version: 2.9-1
   issues:
     - timestamps_in_description_files_generated_by_r-base-dev
+r10k:
+  version: 1.1.4-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 r5rs-doc:
   version: 20010328-7
   bugs:
@@ -13155,6 +13163,10 @@ ruby-activerecord-nulldb-adapter:
   version: 0.3.1-1
   bugs:
     - 759918
+ruby-albino:
+  version: 1.3.3-3
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-bdb:
   version: 0.6.6-1
   issues:
@@ -13177,6 +13189,10 @@ ruby-benchmark-suite:
   version: 1.0.0+git.20130122.5bded6-2
   issues:
     - timestamps_in_ruby_documentation
+ruby-bert:
+  version: 1.1.6-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-bio:
   version: 1.4.3.0001-2
   issues:
@@ -13247,8 +13263,16 @@ ruby-delayed-job:
   version: 4.0.6-1
   issues:
     - ftbfs_uninvestigated_test_problems
+ruby-delorean:
+  version: 2.1.0-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-diff-lcs:
   version: 1.2.5-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
+ruby-distribution:
+  version: 0.7.0+dfsg-1
   issues:
     - ftbfs_uninvestigated_test_problems
 ruby-dust:
@@ -13279,12 +13303,20 @@ ruby-expression-parser:
   version: 0.9.1-2
   issues:
     - timestamps_in_ruby_documentation
+ruby-extendmatrix:
+  version: 0.3.1-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-fakefs:
   version: 0.6.7-1
   issues:
     - ftbfs_uninvestigated_test_problems
 ruby-fakeweb:
   version: 1.3.0+git20131202.48208f9+dfsg-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
+ruby-flexmock:
+  version: 0.9.0-1
   issues:
     - ftbfs_uninvestigated_test_problems
 ruby-fog-xml:
@@ -13325,6 +13357,10 @@ ruby-handlebars-assets:
     - ftbfs_uninvestigated_test_problems
 ruby-hitimes:
   version: 1.2.1-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
+ruby-html2haml:
+  version: 1.0.1-3
   issues:
     - ftbfs_uninvestigated_test_problems
 ruby-htree:
@@ -13371,6 +13407,10 @@ ruby-jsonify:
   version: 0.4.1-2
   issues:
     - ftbfs_uninvestigated_test_problems
+ruby-jwt:
+  version: 1.0.0-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-kakasi-ffi:
   version: 1.0.1-1
   bugs:
@@ -13405,8 +13445,24 @@ ruby-mathml:
   version: 0.14-3
   issues:
     - timestamps_in_ruby_documentation
+ruby-memcache-client:
+  version: 1.8.5-3
+  issues:
+    - ftbfs_uninvestigated_test_problems
+ruby-merb-assets:
+  version: 1.1.3-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
+ruby-merb-param-protection:
+  version: 1.1.3-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-messagebus-api:
   version: 3.0.7+git.20130130.97b34ece-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
+ruby-mkrf:
+  version: 0.2.3+dfsg-5
   issues:
     - ftbfs_uninvestigated_test_problems
 ruby-mono-logger:
@@ -13429,12 +13485,20 @@ ruby-ogginfo:
   version: 0.7.2-1
   issues:
     - ftbfs_uninvestigated_test_problems
+ruby-ole:
+  version: 1.2.11.7-3
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-omniauth-oauth:
   version: 1.0.1-2
   issues:
     - ftbfs_uninvestigated_test_problems
 ruby-omniauth-openid:
   version: 1.0.1-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
+ruby-org:
+  version: 0.9.1-2
   issues:
     - ftbfs_uninvestigated_test_problems
 ruby-packable:
@@ -13456,6 +13520,10 @@ ruby-powerpack:
   version: 0.1.0-1
   issues:
     - ftbfs_uninvestigated_test_problems
+ruby-prawn:
+  version: 2.0.1+dfsg-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-protected-attributes:
   version: 1.0.8-2
   issues:
@@ -13464,6 +13532,14 @@ ruby-pygments.rb:
   version: 0.5.4~ds1-3
   issues:
     - timestamps_in_ruby_documentation
+ruby-rack-cors:
+  version: 0.3.1-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
+ruby-rack-mobile-detect:
+  version: 0.4.0-3
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-rack-rewrite:
   version: 1.5.0-1
   issues:
@@ -13476,12 +13552,24 @@ ruby-raindrops:
   version: 0.13.0-1
   issues:
     - ftbfs_uninvestigated_test_problems
+ruby-rash:
+  version: 0.4.0-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-redis:
   version: 3.1.0-1
   issues:
     - ftbfs_uninvestigated_test_problems
+ruby-redis-namespace:
+  version: 1.4.1-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-redis-rack:
   version: 1.5.0-5
+  issues:
+    - ftbfs_uninvestigated_test_problems
+ruby-remcached:
+  version: 0.4.1-2
   issues:
     - ftbfs_uninvestigated_test_problems
 ruby-rest-client:
@@ -13494,6 +13582,10 @@ ruby-rinku:
     - timestamps_in_ruby_documentation
 ruby-rjb:
   version: 1.4.9-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
+ruby-ronn:
+  version: 0.7.3-3
   issues:
     - ftbfs_uninvestigated_test_problems
 ruby-roxml:
@@ -13544,8 +13636,16 @@ ruby-stamp:
   version: 0.6.0-1
   issues:
     - ftbfs_uninvestigated_test_problems
+ruby-stomp:
+  version: 1.3.4-1
+  issues:
+    - ftbfs_uninvestigated_test_problems
 ruby-stringex:
   version: 2.5.2-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
+ruby-test-declarative:
+  version: 0.0.5-2
   issues:
     - ftbfs_uninvestigated_test_problems
 ruby-thor:
