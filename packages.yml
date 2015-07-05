@@ -7982,6 +7982,10 @@ libcommons-openpgp-java:
   version: 0+svn533492-5
   issues:
     - locale_in_documentation_generated_by_javadoc
+libcommons-validator-java:
+  version: 1:1.4.1-1
+  bugs:
+    - 785515
 libconfig:
   version: 1.4.9-2
   issues:
@@ -8314,6 +8318,7 @@ libinline-java-perl:
     - timezones_manpages_podman
   bugs:
     - 778983
+    - 791431
 libinnodb:
   version: 1.0.6.6750-1
   issues:
@@ -9577,6 +9582,10 @@ m-tx:
   version: 0.60d.ctan20131224-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+m17n-db:
+  version: 1.6.5-1
+  bugs:
+    - 791410
 m2300w:
   version: 0.51-12
   issues:
@@ -12427,6 +12436,10 @@ practicalxml-java:
   version: 1.1.17-1
   issues:
     - ftbfs_uninvestigated_test_problems
+presage:
+  version: 0.9-1
+  bugs:
+    - 791409
 prettytable:
   version: 0.7.2-3
   issues:
@@ -16110,6 +16123,10 @@ transfig:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - pdf_created_by_ghostscript
+transgui:
+  version: 5.0.1-1
+  bugs:
+    - 791407
 translate-toolkit:
   version: 1.12.0+dfsg1-2
   issues:
