@@ -2942,11 +2942,6 @@ dot-forward:
     - different_due_to_umask
   bugs:
     - 776760
-dovecot-antispam:
-  version: 2.0+20130912-2
-  bugs:
-    - 765943
-    - 784741
 doxia:
   version: 1.1.4-2
   issues:
@@ -6804,10 +6799,6 @@ isakmpd:
   version: 20041012-7.2
   bugs:
     - 749354
-ismrmrd:
-  version: 1.2.1-1
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 isorelax:
   version: 20041111-8
   issues:
@@ -8696,10 +8687,6 @@ libnss-ldap:
     Embeds username and build date.
     https://sources.debian.net/src/libnss-ldap/265-3/vers_string/#L10
     https://sources.debian.net/src/libnss-ldap/265-3/vers_string/#L16
-libodb-qt:
-  version: 2.4.0-1
-  bugs:
-    - 790684
 libofx:
   version: 1:0.9.10-1
   issues:
@@ -8930,6 +8917,10 @@ libskk:
   version: 1.0.2-3
   issues:
     - ftbfs_uninvestigated_test_problems
+libsm:
+  version: 2:1.2.2-1
+  issues:
+    - different_encoding
 libsms-aql-perl:
   version: 1.02-1
   issues:
@@ -9128,6 +9119,10 @@ libxalan2-java:
   version: 2.7.1-9
   issues:
     - random_order_in_java_jar_manifest_mf
+libxaw:
+  version: 2:1.0.12-2
+  issues:
+    - different_encoding
 libxbean-java:
   version: 4.0-2
   issues:
@@ -9140,8 +9135,16 @@ libxerces2-java:
   version: 2.11.0-7
   issues:
     - randomness_in_gcj_output
+libxext:
+  version: 2:1.3.3-1
+  issues:
+    - different_encoding
 libxfont:
   version: 1:1.5.1-1
+  issues:
+    - different_encoding
+libxi:
+  version: 2:1.7.4-1
   issues:
     - different_encoding
 libxkbcommon:
@@ -11569,10 +11572,6 @@ orpie:
   version: 1.5.1-10
   issues:
     - randomness_in_ocaml_a_files
-orthanc:
-  version: 0.8.4+dfsg-2
-  bugs:
-    - 788920
 osgi-annotation:
   version: 6.0.0-1
   issues:
@@ -12592,10 +12591,6 @@ pxljr:
   version: 1.4+repack0-4
   issues:
     - ppds_compressed_b64
-py-lmdb:
-  version: 0.84-1
-  bugs:
-    - 790738
 py-postgresql:
   version: 1.1.0-2
   issues:
@@ -15551,12 +15546,6 @@ stunnel4:
   version: 3:5.18-1
   issues:
     - timezones_manpages_podman
-stx-btree:
-  version: 0.9-1.1
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
-  bugs:
-    - 790023
 styx:
   version: 2.0.1-1
   issues:
@@ -17272,10 +17261,6 @@ xenwatch:
   version: 0.5.4-3
   bugs:
     - 750298
-xf86-input-wacom:
-  version: 0.26.0+20140918-1
-  bugs:
-    - 790631
 xfaces:
   version: 3.3-28
   issues:
@@ -17669,10 +17654,6 @@ ytree:
     - timestamps_in_gzip_headers
   bugs:
     - 777273
-yudit:
-  version: 2.9.6-3
-  bugs:
-    - 790088
 z88dk:
   version: 1.8.ds1-10
   issues:
