@@ -3927,6 +3927,10 @@ fntsample:
   comments: |
     Embeds the build date into manpage.
     https://sources.debian.net/src/fntsample/3.2-6/configure.ac/#L38
+fontchooser:
+  version: 1.0.0-1
+  issues:
+    - locale_in_documentation_generated_by_javadoc
 fontforge:
   version: 20120731.b-5
   issues:
@@ -6359,6 +6363,10 @@ jam:
   version: 2.6-1
   issues:
     - variation_in_compilation
+jama:
+  version: 1.0.3-1
+  issues:
+    - locale_in_documentation_generated_by_javadoc
 jaminid:
   version: 0.99a-1.1
   issues:
@@ -6445,6 +6453,10 @@ jboss-modules:
     - locale_in_documentation_generated_by_javadoc
 jcharts:
   version: 0.7.5-4
+  issues:
+    - locale_in_documentation_generated_by_javadoc
+jcifs:
+  version: 1.3.18-2
   issues:
     - locale_in_documentation_generated_by_javadoc
 jclic:
@@ -6700,6 +6712,10 @@ jtreg:
   version: 4.1-b09-1
   issues:
     - user_in_java_jar_manifest
+jts:
+  version: 1.11-1
+  issues:
+    - locale_in_documentation_generated_by_javadoc
 juman:
   version: 7.0-3.2
   issues:
@@ -7346,6 +7362,10 @@ libcommons-codec-java:
   version: 1.10-1
   issues:
     - locale_in_documentation_generated_by_javadoc
+libcommons-digester-java:
+  version: 1.8.1-4
+  issues:
+    - locale_in_documentation_generated_by_javadoc
 libcommons-el-java:
   version: 1.0-8
   issues:
@@ -7955,6 +7975,10 @@ libmatio:
   version: 1.5.2-3
   issues:
     - timestamps_in_pdf_generated_by_latex
+libmetadata-extractor-java:
+  version: 2.7.2-2
+  issues:
+    - locale_in_documentation_generated_by_javadoc
 libmicroba-java:
   version: 1:0.4.4.3-4
   issues:
@@ -8533,6 +8557,10 @@ libxmu:
   version: 2:1.1.2-1
   issues:
     - different_encoding
+libxpp3-java:
+  version: 1.1.4c-2
+  issues:
+    - locale_in_documentation_generated_by_javadoc
 libxr:
   version: 1.0-2.1
   issues:
