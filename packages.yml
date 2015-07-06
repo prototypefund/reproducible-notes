@@ -12651,6 +12651,10 @@ pyx3:
     Also contains differing images and PDF file.
   issues:
     - randomness_in_documentation_indices_generated_by_sphinx
+pyxplot:
+  version: 0.9.2-5
+  comments: |
+    Output of ctime(time(NULL)) is written by src/epsMaker/canvasDraw.c:686
 pyzmq:
   version: 14.4.0-1
   issues:
