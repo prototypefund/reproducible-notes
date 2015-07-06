@@ -2854,6 +2854,10 @@ dms:
   version: 1.0.3-2
   issues:
     - randomness_in_documentation_generated_by_sphinx
+dmtcp:
+  version: 2.3.1-6
+  issues:
+    - ftbfs_uninvestigated_test_problems
 dnsjava:
   version: 2.1.5-0.1
   issues:
@@ -5299,6 +5303,10 @@ golang-gocheck:
   version: 0.0~bzr20131118+85-2
   bugs:
     - 789991
+golang-golang-x-oauth2:
+  version: 0.0~git20150527-2
+  issues:
+    - ftbfs_uninvestigated_test_problems
 golang-goleveldb:
   version: 0+git20150214.e9e2c8f-1
   issues:
