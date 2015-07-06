@@ -10395,6 +10395,10 @@ nss:
   issues:
     - timestamps_from_cpp_macros
     - different_due_to_umask
+nss-passwords:
+  version: 0.2-1
+  issues:
+    - randomness_in_ocaml_a_files
 nted:
   version: 1.10.18-8
   issues:
