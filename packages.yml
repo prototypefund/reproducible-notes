@@ -12289,6 +12289,10 @@ python-django-voting:
     - ftbfs_uninvestigated_test_problems
   bugs:
     - 755632
+python-docutils:
+  version: 0.12+dfsg-1
+  comments: |
+    Caused by dynamic locale selection being written into the manpage at build time.
 python-dogpile.core:
   version: 0.4.1+dfsg1-2
   issues:
