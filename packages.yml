@@ -2171,6 +2171,10 @@ crack:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/crack/5.0a-9.3/src/util/Makefile/#L45
+crack-attack:
+  version: 1.1.14-9.1
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 crash:
   version: 7.1.1-1
   comments: |
