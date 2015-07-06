@@ -12291,7 +12291,8 @@ python-django-voting:
     - 755632
 python-docutils:
   version: 0.12+dfsg-1
-  bugs: 791587
+  bugs:
+    - 791587
   comments: |
     Caused by dynamic locale selection being written into the manpage at build time.
 python-dogpile.core:
