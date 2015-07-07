@@ -846,6 +846,10 @@ avis:
   comments: |
     Capture build time in
     /usr/share/avis/avis-router.jar:avis.properties
+avogadro:
+  version: 1.0.3-10.1
+  bugs:
+    - 790859
 avr-libc:
   version: 1:1.8.0+Atmel3.4.5-1
   issues:
@@ -1827,6 +1831,10 @@ cl-asdf:
   version: 2:3.1.4-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+cl-plplot:
+  version: 0.6.0-5
+  issues:
+    - ftbfs_uninvestigated_unsatisfiable_dependencies
 clanlib:
   version: 1.0~svn3827-3
   bugs:
@@ -2183,6 +2191,10 @@ cpqarrayd:
   version: 2.3-3
   bugs:
     - 791618
+cqrlog:
+  version: 1.9.0-1
+  bugs:
+    - 791731
 crack:
   version: 5.0a-9.3
   comments: |
@@ -4740,6 +4752,10 @@ ghdl:
     - ftbfs_due_to_obsolete_dependencies
   bugs:
     - 695303
+giada:
+  version: 0.9.6~dfsg1-2
+  issues:
+    - timestamps_from_cpp_macros
 gif2apng:
   version: 1.7-3
   bugs:
@@ -12065,6 +12081,10 @@ powstatd:
   version: 1.5.1-9.1
   issues:
     - timestamps_in_documentation_generated_by_groff
+ppl:
+  version: 1:1.1-4
+  bugs:
+    - 787486
 pppconfig:
   version: 2.3.21
   issues:
@@ -15853,6 +15873,10 @@ udev-discover:
   version: 0.2.2-1
   bugs:
     - 779061
+udevil:
+  version: 0.4.3-1
+  bugs:
+    - 790630
 udj-desktop-client:
   version: 0.6.3-1
   bugs:
@@ -16597,6 +16621,10 @@ x264:
   version: 2:0.142.2431+gita5831aa-1
   issues:
     - timestamps_from_cpp_macros
+x4d-icons:
+  version: 1.2-1
+  issues:
+    - ftbfs_uninvestigated_on_jenkins_only
 xaos:
   version: 3.5+ds1-2
   issues:
