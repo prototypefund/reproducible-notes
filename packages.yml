@@ -12638,6 +12638,10 @@ python-xlib:
   version: 0.14+20091101-1
   issues:
     - timestamps_in_documentation_generated_by_texi2html
+python-xlrd:
+  version: 0.9.2-1
+  comments: |
+    Non-deterministically selects python vs python3.X in shebang
 python-yaql:
   version: 0.2.6-3
   issues:
