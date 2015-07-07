@@ -6437,6 +6437,10 @@ jam:
   version: 2.6-1
   issues:
     - variation_in_compilation
+jam-lib:
+  version: 0.0.r304-1
+  issues:
+    - locale_in_documentation_generated_by_javadoc
 jama:
   version: 1.0.3-1
   issues:
@@ -6459,6 +6463,10 @@ janest-core:
   version: 107.01-5
   bugs:
     - 731817
+janino:
+  version: 2.7.0-2
+  issues:
+    - locale_in_documentation_generated_by_javadoc
 jansi:
   version: 1.4-3
   issues:
@@ -6486,6 +6494,14 @@ jargon-text:
     - different_encoding
   bugs:
     - 790783
+jargs:
+  version: 1.0.0-4
+  issues:
+    - locale_in_documentation_generated_by_javadoc
+jarjar:
+  version: 1.4+svn142-4
+  issues:
+    - locale_in_documentation_generated_by_javadoc
 jasperreports:
   version: 4.1.3+dfsg-3
   issues:
@@ -6538,6 +6554,14 @@ jclic:
   issues:
     - timestamps_in_jar
     - user_in_java_jar_manifest
+jcsp:
+  version: 1.1-rc4-2
+  issues:
+    - locale_in_documentation_generated_by_javadoc
+jebl2:
+  version: 0.0.r22-1
+  issues:
+    - locale_in_documentation_generated_by_javadoc
 jedit:
   version: 5.1.0+dfsg-2
   issues:
@@ -6561,6 +6585,10 @@ jenkins-antisamy-markup-formatter-plugin:
   version: 1.2-1
   issues:
     - timestamps_in_java_stapler_files
+jenkins-dom4j:
+  version: 1.6.1-jenkins-4-1
+  issues:
+    - locale_in_documentation_generated_by_javadoc
 jenkins-instance-identity:
   version: 1.4-1
   bugs:
@@ -6636,6 +6664,10 @@ jlibeps:
   version: 0.1+2-2
   issues:
     - timestamps_in_gjdoc_properties_files
+jline:
+  version: 1.0-2
+  issues:
+    - locale_in_documentation_generated_by_javadoc
 jlint:
   version: 3.0-4.5
   issues:
@@ -6650,6 +6682,14 @@ jmapviewer:
   version: 1.07+dfsg-1~exp1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
+jmdns:
+  version: 3.4.1-2
+  issues:
+    - locale_in_documentation_generated_by_javadoc
+jmock2:
+  version: 2.7~snapshot+201309170925-gitd7fe69b5+dfsg-2
+  issues:
+    - locale_in_documentation_generated_by_javadoc
 jmol:
   version: 12.2.32+dfsg2-1
   issues:
@@ -6814,10 +6854,22 @@ junior-doc:
     - not_using_dh_builddeb
     - timestamps_in_gzip_headers
     - timestamps_in_dvi_generated_by_latex
+junitperf:
+  version: 1.9.1-8
+  issues:
+    - locale_in_documentation_generated_by_javadoc
+jutils:
+  version: 20100502+dfsg-2
+  issues:
+    - locale_in_documentation_generated_by_javadoc
 jwm:
   version: 2.1.0+svn579-2
   issues:
     - timestamps_in_documentation_generated_by_groff
+jxgrabkey:
+  version: 0.3.2-7
+  issues:
+    - locale_in_documentation_generated_by_javadoc
 jxplorer:
   version: 3.3.2+dfsg-2
   issues:
@@ -6832,6 +6884,10 @@ jython:
   issues:
     - timestamps_in_documentation_generated_by_javadoc
     - timestamps_in_jar
+jzmq:
+  version: 3.1.0-3
+  issues:
+    - locale_in_documentation_generated_by_javadoc
 k3d:
   version: 0.8.0.3-7
   issues:
@@ -7640,6 +7696,10 @@ libforms:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - randomness_in_html_generated_by_texi2html
+libformula:
+  version: 1.1.7.dfsg-2
+  issues:
+    - locale_in_documentation_generated_by_javadoc
 libfreemarker-java:
   version: 2.3.20-4
   issues:
@@ -7678,6 +7738,10 @@ libgenome-model-tools-music-perl:
     - timestamps_in_documentation_generated_by_podman
     - timezones_manpages_podman
     - timestamps_in_documentation_generated_by_ur
+libgetopt-java:
+  version: 1.0.14+dfsg-2
+  issues:
+    - locale_in_documentation_generated_by_javadoc
 libgfshare:
   version: 1.0.5-3
   comments: |
@@ -7699,6 +7763,10 @@ libgnatcoll:
     - different_due_to_umask
 libgnuinet-java:
   version: 1.1.2-2
+  issues:
+    - locale_in_documentation_generated_by_javadoc
+libgnujaf-java:
+  version: 1.1.1-8
   issues:
     - locale_in_documentation_generated_by_javadoc
 libgnumail-java:
@@ -7852,6 +7920,10 @@ libitpp:
   version: 4.3.1-3
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+libj2ssh-java:
+  version: 0.2.9-4
+  issues:
+    - locale_in_documentation_generated_by_javadoc
 libjackson-json-java:
   version: 1.9.2-3
   issues:
@@ -7917,6 +7989,10 @@ libjgoodies-binding-java:
   issues:
     - user_in_java_jar_manifest
     - locale_in_documentation_generated_by_javadoc
+libjgrapht0.8-java:
+  version: 0.8.3-4
+  issues:
+    - locale_in_documentation_generated_by_javadoc
 libjgraphx-java:
   version: 2.1.0.7-1
   issues:
@@ -7931,6 +8007,10 @@ libjlatexmath-java:
     - locale_in_documentation_generated_by_javadoc
 libjlayer-java:
   version: 1.0.1-2
+  issues:
+    - locale_in_documentation_generated_by_javadoc
+libjna-java:
+  version: 4.1.0-1
   issues:
     - locale_in_documentation_generated_by_javadoc
 libjna-posix-java:
@@ -7950,6 +8030,10 @@ libjogl2-java:
   version: 2.2.4+dfsg-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+libjpf-java:
+  version: 1.5.1+dfsg-4
+  issues:
+    - locale_in_documentation_generated_by_javadoc
 libjrosetta-java:
   version: 1.0.4-4
   issues:
@@ -8035,6 +8119,10 @@ liblo:
     - timestamps_in_documentation_generated_by_doxygen
   bugs:
     - 789040
+libloader:
+  version: 1.1.6.dfsg-4
+  issues:
+    - locale_in_documentation_generated_by_javadoc
 liblockfile:
   version: 1.09-6
   issues:
@@ -8084,6 +8172,10 @@ libmatio:
   version: 1.5.2-3
   issues:
     - timestamps_in_pdf_generated_by_latex
+libmatthew-java:
+  version: 0.7.3-1
+  issues:
+    - locale_in_documentation_generated_by_javadoc
 libmetadata-extractor-java:
   version: 2.7.2-2
   issues:
@@ -8220,6 +8312,10 @@ liboptions-java:
   version: 0.0.20120113-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+libpal-java:
+  version: 1.5.1-2
+  issues:
+    - locale_in_documentation_generated_by_javadoc
 libpam-abl:
   version: 0.6.0-3
   issues:
@@ -8243,6 +8339,10 @@ libpdfbox-java:
   version: 1:1.8.7+dfsg-1
   issues:
     - timestamps_in_maven_version_files
+libpgjava:
+  version: 9.2-1002-1
+  issues:
+    - locale_in_documentation_generated_by_javadoc
 libpgm:
   version: 5.1.118-1~dfsg-1
   comments: |
@@ -8367,6 +8467,10 @@ librep:
   comments: |
     Captures the build date/time, user and hostname.
     https://sources.debian.net/src/librep/0.90.2-1.4/build-info/#L20-L21
+librepository:
+  version: 1.1.6-2
+  issues:
+    - locale_in_documentation_generated_by_javadoc
 librostlab:
   version: 1.0.20-4
   issues:
@@ -8682,6 +8786,10 @@ libxmu:
   version: 2:1.1.2-1
   issues:
     - different_encoding
+libxpp2-java:
+  version: 2.1.10-7
+  issues:
+    - locale_in_documentation_generated_by_javadoc
 libxpp3-java:
   version: 1.1.4c-2
   issues:
@@ -9066,6 +9174,10 @@ lvtk:
     - timestamps_in_documentation_generated_by_doxygen
   bugs:
     - 789076
+lwjgl:
+  version: 2.7.1+dfsg-4
+  issues:
+    - locale_in_documentation_generated_by_javadoc
 lxc:
   version: 1.0.6-6
   issues:
@@ -9649,6 +9761,10 @@ mockito:
   version: 1.9.5+ds-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
+mockobjects:
+  version: 0.09-5
+  issues:
+    - locale_in_documentation_generated_by_javadoc
 mod-gnutls:
   version: 0.6-1.4
   issues:
@@ -10902,6 +11018,10 @@ openhackware:
   comments: |
     Embed build time:
     https://codesearch.debian.net/results/package%3Aopenhackware%20BUILD_%28DATE|TIME%29
+openid4java:
+  version: 0.9.6.662-2
+  issues:
+    - locale_in_documentation_generated_by_javadoc
 openigtlink:
   version: 1.10.5-1
   issues:
@@ -11781,6 +11901,10 @@ png++:
   version: 0.2.5-1
   bugs:
     - 777632
+png-sixlegs:
+  version: 2.0-1
+  issues:
+    - locale_in_documentation_generated_by_javadoc
 pnm2ppa:
   version: 1.13-6
   issues:
@@ -13313,6 +13437,10 @@ rsync:
     - not_using_dh_builddeb
   bugs:
     - 787123
+rsyntaxtextarea:
+  version: 2.5.0-1
+  issues:
+    - locale_in_documentation_generated_by_javadoc
 rsyslog:
   version: 8.9.0-3
   issues:
@@ -13922,6 +14050,10 @@ rurple-ng:
   version: 0.5+16-1.2
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
+rxtx:
+  version: 2.2pre2-13
+  issues:
+    - locale_in_documentation_generated_by_javadoc
 ryu:
   version: 3.19-1
   issues:
@@ -14773,6 +14905,10 @@ statsmodels:
   version: 0.6.0~rc2-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
+stax-utils:
+  version: 20110309+svn238-1
+  issues:
+    - locale_in_documentation_generated_by_javadoc
 stealth:
   version: 3.00.00-2
   comments: |
