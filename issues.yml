@@ -628,6 +628,10 @@ ftbfs_uninvestigated_unsatisfiable_dependencies:
 ftbfs_uninvestigated_on_jenkins_only:
   description: |
     Packages which fail to build, but seemingly only on Jenkins.
+ftbfs_uninvestigated_scary_big_packages:
+  description: |
+    Some large packages that seem to fail for compound reasons that haven't been fully understood.  (temporary issue)
+  deterministic: True
 timestamps_in_documentation_generated_by_org_mode:
   description: |
     Org-mode adds timestamps (which also vary by TZ)

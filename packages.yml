@@ -743,6 +743,10 @@ atlas:
     https://sources.debian.net/src/atlas/3.10.2-7/tune/sysinfo/GetSysSum.c/?hl=104:122#L104
   issues:
     - timestamps_in_pdf_generated_by_latex
+attal:
+  version: 1.0~rc2-2
+  issues:
+    - ftbfs_uninvestigated_scary_big_packages
 attic:
   version: 0.13-1
   issues:
@@ -2266,6 +2270,10 @@ cross-gcc-4.9-ppc64el:
   version: 31
   issues:
     - ftbfs_uninvestigated_unsatisfiable_dependencies
+cross-toolchain-base:
+  version: 5
+  issues:
+    - ftbfs_uninvestigated_scary_big_packages
 crrcsim:
   version: 0.9.12-6.1
   issues:
@@ -2973,6 +2981,10 @@ dpatch:
     - different_due_to_umask
   bugs:
     - 776937
+dpkg:
+  version: 1.18.1.0~reproducible5
+  issues:
+    - ftbfs_uninvestigated_scary_big_packages
 dpsyco:
   version: 1.0.36
   issues:
@@ -3185,6 +3197,10 @@ eclipse-mylyn-tasks-github:
   version: 3.3.0-1
   bugs:
     - 789988
+eclipse-pydev:
+  version: 3.9.2-2
+  issues:
+    - ftbfs_uninvestigated_scary_big_packages
 eclipse-rse:
   version: 3.4.2-1
   issues:
@@ -4536,6 +4552,10 @@ gcc-4.6:
   version: 4.6.4-7
   issues:
     - different_due_to_umask
+gcc-5:
+  version: 5.1.1-12
+  issues:
+    - ftbfs_uninvestigated_scary_big_packages
 gcc-5-cross:
   version: 5
   issues:
@@ -4566,6 +4586,10 @@ gcc-msp430:
   version: 4.6.3~mspgcc-20120406-7
   issues:
     - different_due_to_umask
+gcc-snapshot:
+  version: 20150701-1
+  issues:
+    - ftbfs_uninvestigated_scary_big_packages
 gccxml:
   version: 0.9.0+git20140716-2
   issues:
@@ -4780,6 +4804,10 @@ gimp-help:
   version: 2.6.1-1
   bugs:
     - 747958
+ginac:
+  version: 1.6.4-1
+  issues:
+    - ftbfs_uninvestigated_scary_big_packages
 ginkgocadx:
   version: 3.7.0.1465.37+dfsg-1
   issues:
@@ -5380,6 +5408,10 @@ gom:
   version: 0.30.2-6
   issues:
     - timestamps_from_cpp_macros
+google-perftools:
+  version: 2.2.1-0.2
+  issues:
+    - ftbfs_uninvestigated_scary_big_packages
 gopchop:
   version: 1.1.8-5
   issues:
@@ -9212,6 +9244,10 @@ lucene-solr:
   version: 3.6.2+dfsg-5
   issues:
     - timestamps_in_jar
+lucene2:
+  version: 2.9.4+ds1-4
+  issues:
+    - ftbfs_uninvestigated_scary_big_packages
 lucene4:
   version: 4.6.1+dfsg-3
   issues:
@@ -10197,6 +10233,10 @@ mysecureshell:
   version: 2.0-1
   issues:
     - timestamps_from_cpp_macros
+mysql-5.5:
+  version: 5.5.43-0+deb8u1
+  issues:
+    - ftbfs_uninvestigated_scary_big_packages
 mysql-connector-net:
   version: 6.4.3-2
   issues:
@@ -10711,6 +10751,10 @@ obexftp:
   issues:
     - timestamps_in_documentation_generated_by_doxygen
     - different_due_to_umask
+obfs4proxy:
+  version: 0.0.5-2
+  issues:
+    - ftbfs_uninvestigated_scary_big_packages
 obfsproxy:
   version: 0.2.12-1
   issues:
@@ -10970,6 +11014,10 @@ offlineimap:
   version: 6.5.5-0.1
   issues:
     - randomness_in_documentation_generated_by_sphinx
+ogamesim:
+  version: 20130107-1
+  issues:
+    - ftbfs_uninvestigated_scary_big_packages
 ognl:
   version: 2.7.3-5
   issues:
@@ -11274,6 +11322,10 @@ osmo:
   version: 0.2.12-1
   issues:
     - timestamps_from_cpp_macros
+osmosis:
+  version: 0.44.1-1
+  issues:
+    - ftbfs_uninvestigated_scary_big_packages
 oss4:
   version: 4.2-build2010-2
   issues:
@@ -11691,6 +11743,10 @@ pgbouncer:
   version: 1.5.4-8
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
+pgloader:
+  version: 3.2.0+dfsg-1
+  issues:
+    - ftbfs_uninvestigated_scary_big_packages
 pgn-extract:
   version: 17.14-1
   issues:
@@ -12905,6 +12961,10 @@ pyzmq:
   version: 14.4.0-1
   issues:
     - ftbfs_uninvestigated_test_problems
+qapt:
+  version: 1.3.0-2.1
+  issues:
+    - ftbfs_uninvestigated_scary_big_packages
 qbs:
   version: 1.3.3+dfsg-4
   issues:
@@ -12982,6 +13042,10 @@ qof:
     - timestamps_in_documentation_generated_by_doxygen
   bugs:
     - 789406
+qpid-cpp:
+  version: 0.16-9
+  issues:
+    - ftbfs_uninvestigated_scary_big_packages
 qpid-proton:
   version: 0.7-2
   issues:
@@ -13803,6 +13867,10 @@ ruby-kramdown:
   version: 1.4.2-1
   issues:
     - timestamps_in_ruby_documentation
+ruby-lapack:
+  version: 1.6-2
+  issues:
+    - ftbfs_uninvestigated_scary_big_packages
 ruby-levenshtein:
   version: 0.2.2-2
   issues:
@@ -15516,6 +15584,10 @@ tomcat6:
   issues:
     - timestamps_in_documentation_generated_by_javadoc
     - timestamps_in_jar
+tomcat7:
+  version: 7.0.62-1
+  issues:
+    - ftbfs_uninvestigated_scary_big_packages
 tomcat8:
   version: 8.0.23-1
   issues:
@@ -15734,6 +15806,10 @@ tuskar-ui:
   version: 0.1.0-2
   issues:
     - ftbfs_uninvestigated_test_problems
+tuxcmd:
+  version: 0.6.70+dfsg-2
+  issues:
+    - ftbfs_uninvestigated_scary_big_packages
 tuxguitar:
   version: 1.2-20
   issues:
@@ -17175,6 +17251,10 @@ zconfig:
   version: 2.8.0-1
   issues:
     - ftbfs_due_to_python_packaging_problems
+zeitgeist:
+  version: 0.9.14-2.2
+  issues:
+    - ftbfs_uninvestigated_scary_big_packages
 zeitgeist-sharp:
   version: 0.8.0.0-5
   issues:
