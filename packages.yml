@@ -367,6 +367,10 @@ apache-curator:
   version: 2.7.1-1
   issues:
     - timestamps_in_maven_pom_files
+apache-log4j1.2:
+  version: 1.2.17-5
+  issues:
+    - locale_in_documentation_generated_by_javadoc
 apache-log4j2:
   version: 2.2-1
   issues:
