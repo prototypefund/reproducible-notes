@@ -1046,10 +1046,6 @@ beep:
     - different_due_to_umask
   bugs:
     - 777253
-beets:
-  version: 1.3.8+dfsg-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
 ben:
   version: 0.7.0
   issues:
@@ -1412,14 +1408,6 @@ bzflag:
   version: 2.4.2+ds1-5
   issues:
     - timestamps_from_cpp_macros
-bzr-explorer:
-  version: 1.3.0-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
-bzr-xmloutput:
-  version: 0.8.8+bzr162-5
-  issues:
-    - ftbfs_uninvestigated_test_problems
 c++-annotations:
   version: 10.1.0-1
   issues:
@@ -1642,10 +1630,6 @@ cegui-mk2:
   version: 0.7.6-3.3
   issues:
     - timestamps_from_cpp_macros
-ceilometer:
-  version: 2015.1.0-5
-  issues:
-    - ftbfs_uninvestigated_test_problems
 celery:
   version: 3.1.13-3
   issues:
@@ -1811,10 +1795,6 @@ cinnamon-settings-daemon:
   version: 2.2.4.repack-7
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-circuits:
-  version: 2.1.0-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
 cjk:
   version: 4.8.3+git20140831-1
   comments: |
@@ -1888,10 +1868,6 @@ clojure-contrib:
   version: 1.2.0-2
   issues:
     - user_in_java_jar_manifest
-clojure1.2:
-  version: 1.2.1+dfsg-5
-  issues:
-    - ftbfs_uninvestigated_test_problems
 cloog:
   version: 0.18.3-1
   issues:
@@ -2763,10 +2739,6 @@ dia:
   version: 0.97.3-1
   issues:
     - timestamps_from_cpp_macros
-diagnostics:
-  version: 0.3.3-10
-  issues:
-    - ftbfs_uninvestigated_test_problems
 dict-bouvier:
   version: 6.revised-3.2
   issues:
@@ -2864,14 +2836,6 @@ django-guardian:
   version: 1.2.4+git20141127-0.2
   issues:
     - randomness_in_documentation_generated_by_sphinx
-django-ldapdb:
-  version: 0.2.0-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-django-model-utils:
-  version: 2.0.3-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
 djbdns:
   version: 1:1.05-8
   issues:
@@ -2887,10 +2851,6 @@ dms:
   version: 1.0.3-2
   issues:
     - randomness_in_documentation_generated_by_sphinx
-dmtcp:
-  version: 2.3.1-6
-  issues:
-    - ftbfs_uninvestigated_test_problems
 dnsjava:
   version: 2.1.5-0.1
   issues:
@@ -3594,10 +3554,6 @@ eweouz:
   version: 0.9
   bugs:
     - 787378
-exabgp:
-  version: 3.4.11-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
 excalibur-logkit:
   version: 2.0-11
   issues:
@@ -3730,10 +3686,6 @@ fedmsg:
     Should probably not be shipped at all.
   bugs:
     - 778419
-fedmsg-meta-fedora-infrastructure:
-  version: 0.2.18-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 feh:
   version: 2.12.1-1
   comments: |
@@ -4211,10 +4163,6 @@ foo2zjs:
   issues:
     - ppds_compressed_b64
     - timestamps_in_documentation_generated_by_groff
-foodcritic:
-  version: 4.0.0-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 foomatic-db:
   version: 20141016-1
   issues:
@@ -4350,10 +4298,6 @@ freewnn:
   version: 1.1.1~a021+cvs20130302-4
   issues:
     - user_hostname_manually_added_requiring_further_investigation
-freezegun:
-  version: 0.3.4-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 fritzing:
   version: 0.9.0b+dfsg-1.1
   bugs:
@@ -4463,10 +4407,6 @@ gamera:
   version: 3.4.2+svn1431-1
   bugs:
     - 785529
-gammaray:
-  version: 2.2.1-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 gammu:
   version: 1.33.0-3
   issues:
@@ -4529,10 +4469,6 @@ gap-scscp:
   version: 2.1.4+ds-1
   issues:
     - timestamps_in_pdf_generated_by_latex
-gawk:
-  version: 1:4.1.1+dfsg-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 gbrainy:
   version: 2.2.3-1
   issues:
@@ -4895,10 +4831,6 @@ glade:
   version: 3.18.3-1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-glance:
-  version: 2015.1.0-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
 glaurung:
   version: 2.2-2
   issues:
@@ -4917,10 +4849,6 @@ glhack:
   version: 1.2-2
   issues:
     - timestamps_from_cpp_macros
-glib2.0:
-  version: 2.44.1-1.1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 glibc:
   version: 2.19-18
   issues:
@@ -5344,10 +5272,6 @@ golang-blackfriday:
   version: 1.2-1
   bugs:
     - 789944
-golang-check.v1:
-  version: 0.0+git20150627.b3d3430-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
 golang-doozer:
   version: 0.0~git20130909-1
   bugs:
@@ -5356,46 +5280,18 @@ golang-ed25519-dev:
   version: 0~20140907.d2b94fd-1
   bugs:
     - 791513
-golang-git2go:
-  version: 0.0~git20150623-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-golang-github-glacjay-goini:
-  version: 0.0~git20141123-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-golang-go.tools:
-  version: 0.0~hg20140703-4
-  issues:
-    - ftbfs_uninvestigated_test_problems
 golang-gocheck:
   version: 0.0~bzr20131118+85-2
   bugs:
     - 789991
-golang-golang-x-oauth2:
-  version: 0.0~git20150527-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
-golang-goleveldb:
-  version: 0+git20150214.e9e2c8f-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 golang-mreiferson-httpclient:
   version: 0.0~git20140425-2
   bugs:
     - 791514
-golang-prometheus-client:
-  version: 0.6.0+ds-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 golang-raft:
   version: 0.0~git20140427-4
   bugs:
     - 789987
-golang-uuid:
-  version: 0.0~hg20140512-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 golang-xmpp-dev:
   version: 0.0~git20140304-1
   issues:
@@ -5568,10 +5464,6 @@ grilo:
   version: 0.2.11-2
   issues:
     - gtk_doc_api_index_full
-grilo-plugins:
-  version: 0.2.14-5
-  issues:
-    - ftbfs_uninvestigated_test_problems
 grisbi:
   version: 1.0.0-2
   issues:
@@ -5930,10 +5822,6 @@ hexchat:
   version: 2.10.1-1
   issues:
     - timestamps_from_cpp_macros
-hgsubversion:
-  version: 1.8-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 hgview:
   version: 1.8.1-1
   issues:
@@ -6472,10 +6360,6 @@ jackson-datatype-guava:
   version: 2.4.2+dfsg-1
   issues:
     - locale_in_documentation_generated_by_javadoc
-jackson-datatype-joda:
-  version: 2.4.3-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 jackson-module-afterburner:
   version: 2.4.3-1
   issues:
@@ -6639,10 +6523,6 @@ jedit:
   version: 5.1.0+dfsg-2
   issues:
     - timestamps_in_png
-jekyll:
-  version: 2.2.0+dfsg-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
 jenkins:
   version: 1.565.3-3
   issues:
@@ -7089,10 +6969,6 @@ keystone:
   version: 2014.1.3-6
   issues:
     - randomness_in_documentation_generated_by_sphinx
-keyutils:
-  version: 1.5.9-5
-  issues:
-    - ftbfs_uninvestigated_test_problems
 kfreebsd-10:
   version: 10.1~svn274115-2
   issues:
@@ -7151,10 +7027,6 @@ king:
   version: 2.21.120420+dfsg-1
   issues:
     - timestamps_in_jar
-kitchen:
-  version: 1.1.1-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 klibc:
   version: 2.0.4-2
   issues:
@@ -7216,18 +7088,10 @@ kvpnc:
   version: 0.9.6a-2.1
   issues:
     - build_id_variation_requiring_further_investigation
-kwalify:
-  version: 0.7.2-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
 kwin-style-crystal:
   version: 2.2.1-2
   issues:
     - timestamps_from_cpp_macros
-kxd:
-  version: 0.12-4
-  issues:
-    - ftbfs_uninvestigated_test_problems
 kxmlgui:
   version: 5.11.0-1
   comments: |
@@ -7334,10 +7198,6 @@ lcrack:
   version: 20040914-1
   issues:
     - timestamps_from_cpp_macros
-ldap-git-backup:
-  version: 1.0.7-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 ldaptor:
   version: 0.0.43+debian1-7
   issues:
@@ -7411,10 +7271,6 @@ libandroid-json-org-java:
     - timestamps_in_maven_pom_files
     - different_due_to_umask
     - locale_in_documentation_generated_by_javadoc
-libanyevent-tools-perl:
-  version: 0.12-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 libaopalliance-java:
   version: 20070526-5
   issues:
@@ -7455,10 +7311,6 @@ libapreq2:
   version: 2.13-4
   issues:
     - different_due_to_umask
-libarchive:
-  version: 3.1.2-11
-  issues:
-    - ftbfs_uninvestigated_test_problems
 libasm4-java:
   version: 5.0.4-1
   issues:
@@ -7468,10 +7320,6 @@ libassuan:
   version: 2.1.2-2
   comments: |
     Manually embeds BUILD_TIMESTAMP from custom configure.ac
-libaudio-mpd-perl:
-  version: 2.000-4
-  issues:
-    - ftbfs_uninvestigated_test_problems
 libaunit:
   version: 3.7.1-1
   issues:
@@ -7488,10 +7336,6 @@ libbasicplayer-java:
   version: 3.0-6
   issues:
     - locale_in_documentation_generated_by_javadoc
-libbenchmark-timer-perl:
-  version: 0.7102-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 libbluray:
   version: 0.6.2-1
   issues:
@@ -7504,10 +7348,6 @@ libcaca:
   version: 0.99.beta19-2
   comments: |
     Non-deterministic pdf generated by doxygen, but not obviously timestamps
-libcatalyst-plugin-cache-store-fastmmap-perl:
-  version: 0.02-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
 libcatalyst-plugin-email-perl:
   version: 0.08-1
   comments: |
@@ -7520,10 +7360,6 @@ libccrtp:
   version: 2.0.9-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-libcdio:
-  version: 0.83-4.2
-  issues:
-    - ftbfs_uninvestigated_test_problems
 libcec:
   version: 2.1.4-2
   comments: |
@@ -7554,10 +7390,6 @@ libcitygml:
   version: 0.14+svn134-2+3p2p1
   issues:
     - timestamps_from_cpp_macros
-libclass-dbi-sweet-perl:
-  version: 0.11-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 libclaw:
   version: 1.7.3-1
   issues:
@@ -7686,10 +7518,6 @@ libdecentxml-java:
   version: 1.4-1
   issues:
     - locale_in_documentation_generated_by_javadoc
-libdevel-gdb-perl:
-  version: 2.02-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
 libdtdparser-java:
   version: 1.21a-5
   issues:
@@ -7756,10 +7584,6 @@ libffi:
   version: 3.1-2
   comments: |
     Timestamp in custom test script
-libfile-flock-perl:
-  version: 2014.01-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
 libflexdock-java:
   version: 1.2.4-1
   issues:
@@ -7826,10 +7650,6 @@ libgfshare:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - timestamps_from_tex4ht
-libgit2:
-  version: 0.22.2-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
 libglazedlists-java:
   version: 1.9.0+dfsg-1
   issues:
@@ -7880,10 +7700,6 @@ libgtk2-appindicator-perl:
   version: 0.15-1
   bugs:
     - 782877
-libgtk2-perl:
-  version: 2:1.2495-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 libgtkada:
   version: 2.24.4dfsg-1
   comments: |
@@ -7933,10 +7749,6 @@ libhttp-daemon-ssl-perl:
   version: 1.04-3
   bugs:
     - 711628
-libhttp-proxy-perl:
-  version: 0.303-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
 libice:
   version: 2:1.0.9-1
   issues:
@@ -7947,10 +7759,6 @@ libident:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
     - different_due_to_umask
-libidn:
-  version: 1.30-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 libindicate:
   version: 0.6.92-2
   issues:
@@ -7971,24 +7779,14 @@ libint:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - different_due_to_umask
-libio-async-perl:
-  version: 0.67-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 libio-event-perl:
   version: 0.813-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
   bugs:
     - 730908
 libio-socket-multicast6-perl:
   version: 0.03-3
   bugs:
     - 788759
-libisocodes:
-  version: 1.2.2-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 libitext-java:
   version: 2.1.7-9
   issues:
@@ -8119,10 +7917,6 @@ libjrosetta-java:
   version: 1.0.4-4
   issues:
     - user_in_java_jar_manifest
-libjson-perl:
-  version: 2.61-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 libjspeex-java:
   version: 0.9.7-3
   issues:
@@ -8245,10 +8039,6 @@ libmath++:
   version: 0.0.4-5
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-libmath-planepath-perl:
-  version: 119-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 libmatio:
   version: 1.5.2-3
   issues:
@@ -8294,10 +8084,6 @@ libmoe:
     - timestamps_in_gzip_headers
   bugs:
     - 779167
-libmojomojo-perl:
-  version: 1.10+dfsg1-4
-  issues:
-    - ftbfs_uninvestigated_test_problems
 libmoosex-attribute-chained-perl:
   version: 1.0.1-1
   issues:
@@ -8343,10 +8129,6 @@ libncursesada:
     Also random order of files contained in static library.
   issues:
     - timestamps_in_ada_library_information_files
-libnet-frame-device-perl:
-  version: 1.10-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 libnet-interface-perl:
   version: 1.012-1
   bugs:
@@ -8355,10 +8137,6 @@ libnet-route-perl:
   version: 0.02-1
   bugs:
     - 788758
-libnet-tclink-perl:
-  version: 3.4.0-6
-  issues:
-    - ftbfs_uninvestigated_test_problems
 libnetx-java:
   version: 0.5-2
   issues:
@@ -8470,14 +8248,6 @@ libplayer:
   version: 2.0.1-2.4
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-libpoe-loop-event-perl:
-  version: 1.305-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-libpqtypes:
-  version: 1.5.1-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
 libproxool-java:
   version: 0.9.1-8
   issues:
@@ -8622,22 +8392,10 @@ libskinlf-java:
   version: 6.7-8
   issues:
     - user_in_java_jar_manifest
-libskk:
-  version: 1.0.2-3
-  issues:
-    - ftbfs_uninvestigated_test_problems
 libsm:
   version: 2:1.2.2-1
   issues:
     - different_encoding
-libsms-aql-perl:
-  version: 1.02-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-libsoup2.4:
-  version: 2.50.0-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
 libspring-ldap-java:
   version: 1.3.1.RELEASE-5
   issues:
@@ -8667,8 +8425,6 @@ libsyncml:
     - timestamps_in_manpages_generated_by_doxygen
 libsysactivity:
   version: 0.6.5-4
-  issues:
-    - ftbfs_uninvestigated_test_problems
   bugs:
     - 790256
 libtango:
@@ -8688,10 +8444,6 @@ libtest-log4perl-perl:
   version: 0.1001-3.1
   bugs:
     - 782879
-libtest-poe-client-tcp-perl:
-  version: 1.12-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 libtext-vimcolor-perl:
   version: 0.11-2
   bugs:
@@ -8701,14 +8453,6 @@ libtheora:
   issues:
     - timestamps_in_documentation_generated_by_doxygen
     - timestamps_in_pdf_generated_by_latex
-libthread-pool-perl:
-  version: 0.33-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-libticket-simple-perl:
-  version: 0.0.2-4
-  issues:
-    - ftbfs_uninvestigated_test_problems
 libtime-y2038-perl:
   version: 20100403-4
   comments: |
@@ -8766,14 +8510,6 @@ libuninum:
   version: 2.7-1.1
   issues:
     - timestamps_from_cpp_macros
-libuv:
-  version: 0.10.36-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
-libuv1:
-  version: 1.6.1-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
 libvigraimpex:
   version: 1.9.0+dfsg-10
   issues:
@@ -9409,8 +9145,6 @@ maitreya:
     - timestamps_from_cpp_macros
 make-dfsg:
   version: 4.0-8.1
-  issues:
-    - ftbfs_uninvestigated_test_problems
   bugs:
     - 782750
 makepp:
@@ -9419,10 +9153,6 @@ makepp:
     - timestamps_in_gzip_headers
   bugs:
     - 777407
-mako:
-  version: 1.0.0+dfsg-0.1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 malaga:
   version: 7.12-5.2
   issues:
@@ -9507,8 +9237,6 @@ massxpert:
     - timestamps_in_pdf_generated_by_latex
 mat:
   version: 0.5.2-3
-  issues:
-    - ftbfs_uninvestigated_test_problems
   bugs:
     - 789833
 mathgl:
@@ -9671,8 +9399,6 @@ menhir:
     - randomness_in_ocaml_a_files
 mercurial:
   version: 3.4-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
   bugs:
     - 790266
 meshlab:
@@ -9862,10 +9588,6 @@ mockobjects:
   version: 0.09-5
   issues:
     - locale_in_documentation_generated_by_javadoc
-mod-gnutls:
-  version: 0.6-1.4
-  issues:
-    - ftbfs_uninvestigated_test_problems
 modello:
   version: 1.1-3
   issues:
@@ -10279,10 +10001,6 @@ namazu2:
   version: 2.0.21-10
   comments: |
     Embeds the hostname into several files.
-nanoc:
-  version: 3.7.3-2~exp1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 nant:
   version: 0.92~rc1+dfsg-4
   issues:
@@ -10370,14 +10088,6 @@ nedit:
   version: 1:5.6a-2
   comments: |
     Contain dates in HTML documentation.
-neo:
-  version: 0.3.3-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-neon27:
-  version: 0.30.1-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 nepomuk-core:
   version: 4:4.14.0-1
   issues:
@@ -10551,18 +10261,6 @@ noblenote:
   version: 1.0.8-1
   issues:
     - timestamps_from_cpp_macros
-node-crc:
-  version: 3.0.0-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
-node-mocha:
-  version: 1.20.1-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-node-oauth:
-  version: 0.9.11-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 node-raptor:
   version: 0~0git20130108-1
   bugs:
@@ -10692,8 +10390,6 @@ nuget:
     - timestamps_in_pe_binaries
 nuitka:
   version: 0.5.13+ds-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
   bugs:
     - 761530
 numactl:
@@ -10702,14 +10398,8 @@ numactl:
     - timestamps_from_cpp_macros
 numexpr:
   version: 2.4-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
   bugs:
     - 790812
-numm:
-  version: 0.5-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 nunit:
   version: 2.6.3+dfsg-1
   issues:
@@ -11029,10 +10719,6 @@ oidua:
     - timestamps_in_gzip_headers
   bugs:
     - 777067
-ola:
-  version: 0.9.1-1.1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 olap4j:
   version: 1.0.1.500-2
   issues:
@@ -11505,10 +11191,6 @@ pathological:
     - serial_numbers_in_ogg
   bugs:
     - 775995
-patsy:
-  version: 0.3.0-3
-  issues:
-    - ftbfs_uninvestigated_test_problems
 pavucontrol:
   version: 3.0-2
   issues:
@@ -11791,18 +11473,10 @@ php-htmlpurifier:
   version: 4.6.0-1
   issues:
     - different_due_to_umask
-php-log:
-  version: 1.12.8-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
 php-ps:
   version: 1.3.7-1
   issues:
     - ftbfs_uninvestigated_unsatisfiable_dependencies
-php-smb:
-  version: 1.0.1-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 php-solr:
   version: 1.0.2-2
   issues:
@@ -11907,10 +11581,6 @@ plainbox:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - randomness_in_documentation_indices_generated_by_sphinx
-plainbox-provider-checkbox:
-  version: 0.4-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 plan:
   version: 1.10.1-5
   issues:
@@ -12149,10 +11819,6 @@ praat:
   version: 5.4.0-1
   issues:
     - timestamps_from_cpp_macros
-practicalxml-java:
-  version: 1.1.17-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 preload:
   version: 0.6.4-2
   issues:
@@ -12161,10 +11827,6 @@ presage:
   version: 0.9-1
   bugs:
     - 791409
-prettytable:
-  version: 0.7.2-3
-  issues:
-    - ftbfs_uninvestigated_test_problems
 pretzel:
   version: 2.0n-2-0.3
   comments: |
@@ -12406,10 +12068,6 @@ pygtkmvc:
   version: 1.99.1-1
   issues:
     - timestamps_in_pdf_generated_by_latex
-pyicu:
-  version: 1.8-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 pyimport-relative:
   version: 0.1.0-2
   bugs:
@@ -12483,18 +12141,10 @@ pyqt5:
     /usr/share/doc/pyqt5-examples/examples/animation/animatedtiles/animatedtiles_rc.py
   issues:
     - randomness_in_objects_inv
-pyresample:
-  version: 1.1.0-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 pyscanfcs:
   version: 0.2.2-2
   issues:
     - timestamps_in_pdf_generated_by_latex
-pysdl2:
-  version: 0.9.3+dfsg2-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 pyside:
   version: 1.2.2-1
   issues:
@@ -12531,18 +12181,10 @@ python-apt:
   version: 0.9.3.11
   issues:
     - timestamps_in_documentation_generated_by_sphinx
-python-babel:
-  version: 1.3+dfsg.1-5
-  issues:
-    - ftbfs_uninvestigated_test_problems
 python-biom-format:
   version: 2.1+dfsg-1
   issues:
     - timestamps_in_documentation_generated_by_sphinx
-python-biopython:
-  version: 1.65+dfsg-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 python-bottle:
   version: 0.12.7-1
   issues:
@@ -12561,10 +12203,6 @@ python-cogent:
   version: 1.5.3-2
   issues:
     - random_order_in_python_environment_pickle
-python-concurrent.futures:
-  version: 2.2.0-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 python-couchdb:
   version: 0.10-1.1
   issues:
@@ -12589,10 +12227,6 @@ python-django:
   version: 1.7.4-1
   issues:
     - ftbfs_in_jenkins_setup
-python-django-audit-log:
-  version: 0.7.0-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 python-django-feincms:
   version: 1.7.4-1
   bugs:
@@ -12603,8 +12237,6 @@ python-django-mptt:
     - randomness_in_documentation_generated_by_sphinx
 python-django-voting:
   version: 0.2-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
   bugs:
     - 755632
 python-docutils:
@@ -12613,10 +12245,6 @@ python-docutils:
     Caused by dynamic locale selection being written into the manpage at build time.
   bugs:
     - 791587
-python-dogpile.core:
-  version: 0.4.1+dfsg1-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
 python-dugong:
   version: 3.5+dfsg-1
   issues:
@@ -12716,10 +12344,6 @@ python-networkx:
     Also contains differing png files.
   issues:
     - timestamps_in_pdf_generated_by_latex
-python-nose-timer:
-  version: 0.3.0-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 python-numpy:
   version: 1.8.2-2
   issues:
@@ -12743,10 +12367,6 @@ python-oslo.db:
   version: 1.0.2-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
-python-oslo.i18n:
-  version: 1.5.0-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
 python-padme:
   version: 1.1.1-1
   issues:
@@ -12773,14 +12393,6 @@ python-pyaudio:
   version: 0.2.8-1
   issues:
     - random_order_in_python_environment_pickle
-python-pyftpdlib:
-  version: 1.2.0-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-python-pygit2:
-  version: 0.22.0-3
-  issues:
-    - ftbfs_uninvestigated_test_problems
 python-pygraphviz:
   version: 1.3~rc2-3
   bugs:
@@ -12822,8 +12434,6 @@ python-repoze.who:
     - 790697
 python-requirements-detector:
   version: 0.4-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
   bugs:
     - 790569
 python-rtslib-fb:
@@ -12855,10 +12465,6 @@ python-shapely:
   version: 1.4.3-1
   issues:
     - timestamps_in_pdf_generated_by_latex
-python-sure:
-  version: 1.2.5-4
-  issues:
-    - ftbfs_uninvestigated_test_problems
 python-tidylib:
   version: 0.2.1~dfsg-2
   issues:
@@ -12895,10 +12501,6 @@ python-xlrd:
   version: 0.9.2-1
   comments: |
     Non-deterministically selects python vs python3.X in shebang
-python-yaql:
-  version: 0.2.6-3
-  issues:
-    - ftbfs_uninvestigated_test_problems
 python2.7:
   version: 2.7.10-2
   comments: |
@@ -12957,10 +12559,6 @@ pyxplot:
   version: 0.9.2-5
   comments: |
     Output of ctime(time(NULL)) is written by src/epsMaker/canvasDraw.c:686
-pyzmq:
-  version: 14.4.0-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 qapt:
   version: 1.3.0-2.1
   issues:
@@ -13257,26 +12855,14 @@ r-cran-teachingdemos:
   version: 2.9-1
   issues:
     - timestamps_in_description_files_generated_by_r-base-dev
-r10k:
-  version: 1.1.4-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 r5rs-doc:
   version: 20010328-7
   bugs:
     - 712334
-rabbit:
-  version: 2.1.6-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
 rabbitmq-server:
   version: 3.4.2-2
   issues:
     - timestamps_in_beam_files
-racc:
-  version: 1.4.9-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
 racket:
   version: 6.1.1-3
   issues:
@@ -13297,22 +12883,10 @@ raincat:
   version: 1.1.1.2-1
   bugs:
     - 789108
-rake:
-  version: 10.3.2-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
-rally:
-  version: 0.0.3-3
-  issues:
-    - ftbfs_uninvestigated_test_problems
 rampart:
   version: 1.3.0-3
   bugs:
     - 765121
-rapidjson:
-  version: 0.12~git20141031-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 rapidsvn:
   version: 0.12.1dfsg-2
   issues:
@@ -13387,10 +12961,6 @@ realmd:
   version: 0.15.1-1
   issues:
     - timestamps_generated_by_docbook_to_man
-rebar:
-  version: 2.5.1-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
 reclass:
   version: 1.4.1-1
   issues:
@@ -13574,10 +13144,6 @@ rsyntaxtextarea:
   version: 2.5.0-1
   issues:
     - locale_in_documentation_generated_by_javadoc
-rsyslog:
-  version: 8.9.0-3
-  issues:
-    - ftbfs_uninvestigated_test_problems
 rt-extension-customfieldsonupdate:
   version: 0.01-1
   comments: |
@@ -13607,24 +13173,14 @@ ruby-activerecord-nulldb-adapter:
   version: 0.3.1-1
   bugs:
     - 759918
-ruby-albino:
-  version: 1.3.3-3
-  issues:
-    - ftbfs_uninvestigated_test_problems
 ruby-bdb:
   version: 0.6.6-1
   issues:
     - timestamps_in_ruby_documentation
 ruby-beaneater:
   version: 0.3.3-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
   bugs:
     - 789088
-ruby-beautify:
-  version: 0.92.2-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 ruby-benchmark-ips:
   version: 1.2.0+git.20130609.e47e416-2
   issues:
@@ -13633,68 +13189,16 @@ ruby-benchmark-suite:
   version: 1.0.0+git.20130122.5bded6-2
   issues:
     - timestamps_in_ruby_documentation
-ruby-bert:
-  version: 1.1.6-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-bio:
-  version: 1.4.3.0001-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-bluecloth:
-  version: 2.2.0-5
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-bluefeather:
-  version: 0.41-3
-  issues:
-    - ftbfs_uninvestigated_test_problems
 ruby-builder:
   version: 3.2.2-4
   issues:
     - timestamps_in_ruby_documentation
-ruby-capybara:
-  version: 2.2.1-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-cassiopee:
-  version: 0.1.12-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 ruby-celluloid:
   version: 0.16.0-2
   issues:
     - blacklisted_on_jenkins
   bugs:
     - 786669
-ruby-celluloid-io:
-  version: 0.15.0-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-colorize:
-  version: 0.7.3-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-cookiejar:
-  version: 0.3.1-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-crack:
-  version: 0.4.2-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-cstruct:
-  version: 1.0.1-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-dataobjects-mysql:
-  version: 0.10.14-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-dataobjects-sqlite3:
-  version: 0.10.14-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 ruby-dbi:
   version: 0.4.5-3
   issues:
@@ -13703,82 +13207,18 @@ ruby-dbus:
   version: 0.11.0-1
   issues:
     - timestamps_in_ruby_documentation
-ruby-delayed-job:
-  version: 4.0.6-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-delorean:
-  version: 2.1.0-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-diff-lcs:
-  version: 1.2.5-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-distribution:
-  version: 0.7.0+dfsg-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-dust:
-  version: 0.1.7-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
 ruby-eim-xml:
   version: 0.0.4-3
   issues:
     - timestamps_in_ruby_documentation
-ruby-elasticsearch:
-  version: 1.0.5-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
 ruby-em-hiredis:
   version: 0.2.1-2.1
   issues:
     - timestamps_in_ruby_documentation
-ruby-enumerize:
-  version: 0.11.0-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-execjs:
-  version: 2.2.1-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 ruby-expression-parser:
   version: 0.9.1-2
   issues:
     - timestamps_in_ruby_documentation
-ruby-extendmatrix:
-  version: 0.3.1-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-fakefs:
-  version: 0.6.7-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-fakeweb:
-  version: 1.3.0+git20131202.48208f9+dfsg-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-flexmock:
-  version: 0.9.0-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-fog-xml:
-  version: 0.1.1-4
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-foreman:
-  version: 0.77.0-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-fssm:
-  version: 0.2.10-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-gelf:
-  version: 1.4.0-3
-  issues:
-    - ftbfs_uninvestigated_test_problems
 ruby-github-markup:
   version: 1.2.1+dfsg-1
   issues:
@@ -13787,34 +13227,6 @@ ruby-gnome2:
   version: 2.2.0-5
   bugs:
     - 790910
-ruby-gnuplot:
-  version: 2.6.2-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-haml-magic-translations:
-  version: 4.0.3-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-handlebars-assets:
-  version: 2:0.20.1-5
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-hitimes:
-  version: 1.2.1-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-html2haml:
-  version: 1.0.1-3
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-htree:
-  version: 0.8+dfsg-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-http-accept-language:
-  version: 2.0.5-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
 ruby-http-connection:
   version: 1.4.4-1
   issues:
@@ -13823,46 +13235,14 @@ ruby-http-parser.rb:
   version: 0.6.0-2
   issues:
     - timestamps_in_ruby_documentation
-ruby-httpauth:
-  version: 0.2.1+gh-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-httpclient:
-  version: 2.3.3-3.1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-i18n:
-  version: 0.6.11-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-ice-nine:
-  version: 0.11.0-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 ruby-imagesize:
   version: 1:0.1.1-5
   bugs:
     - 747688
-ruby-instantiator:
-  version: 0.0.6+git9cbbe70-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-jsonify:
-  version: 0.4.1-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-jwt:
-  version: 1.0.0-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
 ruby-kakasi-ffi:
   version: 1.0.1-1
   bugs:
     - 762133
-ruby-kgio:
-  version: 2.9.2-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
 ruby-kramdown:
   version: 1.4.2-1
   issues:
@@ -13871,20 +13251,10 @@ ruby-lapack:
   version: 1.6-2
   issues:
     - ftbfs_uninvestigated_scary_big_packages
-ruby-levenshtein:
-  version: 0.2.2-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
 ruby-liquid:
   version: 2.6.1-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
   bugs:
     - 788694
-ruby-listen:
-  version: 2.4.0-4
-  issues:
-    - ftbfs_uninvestigated_test_problems
 ruby-magic:
   version: 0.2.8-1
   issues:
@@ -13893,70 +13263,10 @@ ruby-mathml:
   version: 0.14-3
   issues:
     - timestamps_in_ruby_documentation
-ruby-memcache-client:
-  version: 1.8.5-3
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-merb-assets:
-  version: 1.1.3-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-merb-param-protection:
-  version: 1.1.3-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-messagebus-api:
-  version: 3.0.7+git.20130130.97b34ece-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-mkrf:
-  version: 0.2.3+dfsg-5
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-mono-logger:
-  version: 1.1.0-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-multi-xml:
-  version: 0.5.5-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-mysql2:
-  version: 0.3.16-3
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-net-http-persistent:
-  version: 2.9-3
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-ogginfo:
-  version: 0.7.2-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-ole:
-  version: 1.2.11.7-3
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-omniauth-oauth:
-  version: 1.0.1-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-omniauth-openid:
-  version: 1.0.1-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
 ruby-opengl:
   version: 0.60.1+dfsg2-3
   bugs:
     - 791521
-ruby-org:
-  version: 0.9.1-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-packable:
-  version: 1.3.6-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
 ruby-patron:
   version: 0.4.18-2
   comments: |
@@ -13968,162 +13278,26 @@ ruby-pg:
   version: 0.17.1-2
   issues:
     - timestamps_in_ruby_documentation
-ruby-powerpack:
-  version: 0.1.0-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-prawn:
-  version: 2.0.1+dfsg-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-protected-attributes:
-  version: 1.0.8-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
 ruby-pygments.rb:
   version: 0.5.4~ds1-3
   issues:
     - timestamps_in_ruby_documentation
-ruby-rack-cors:
-  version: 0.3.1-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-rack-mobile-detect:
-  version: 0.4.0-3
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-rack-rewrite:
-  version: 1.5.0-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-rails-timeago:
-  version: 2.11.1-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-raindrops:
-  version: 0.13.0-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-rash:
-  version: 0.4.0-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-redis:
-  version: 3.1.0-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-redis-namespace:
-  version: 1.4.1-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-redis-rack:
-  version: 1.5.0-5
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-remcached:
-  version: 0.4.1-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-rest-client:
-  version: 1.8.0-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 ruby-rinku:
   version: 1.7.3-1
   issues:
     - timestamps_in_ruby_documentation
-ruby-rjb:
-  version: 1.4.9-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-ronn:
-  version: 0.7.3-3
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-roxml:
-  version: 3.3.1-3
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-rspec:
-  version: 3.3.0c0e0m0s0-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-rspec-core:
-  version: 2.14.7-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-rubymail:
-  version: 1.0.0-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-rubyvis:
-  version: 0.6.1+dfsg1-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-sanitize:
-  version: 2.1.0-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-sawyer:
-  version: 0.6.0-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 ruby-settingslogic:
   version: 2.0.9-2
   issues:
     - timestamps_in_ruby_documentation
-ruby-sham-rack:
-  version: 1.3.6-5
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-sinatra-contrib:
-  version: 1.4.2-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 ruby-sqlite3:
   version: 1.3.9-2
   bugs:
     - 782884
-ruby-stamp:
-  version: 0.6.0-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-stomp:
-  version: 1.3.4-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-stringex:
-  version: 2.5.2-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-test-declarative:
-  version: 0.0.5-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-thor:
-  version: 0.19.1-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-thread-safe:
-  version: 0.3.3-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-timecop:
-  version: 0.7.3-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 ruby-tioga:
   version: 1.18-1
   issues:
     - timestamps_in_ruby_documentation
-ruby-twitter:
-  version: 5.11.0-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-twitter-stream:
-  version: 0.1.16-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 ruby-uuidtools:
   version: 2.1.4-2
   issues:
@@ -14136,30 +13310,10 @@ ruby-webmock:
   version: 1.19.0-1
   bugs:
     - 765113
-ruby-webrobots:
-  version: 0.1.1-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 ruby-wikicloth:
   version: 0.8.1+dfsg-2
   issues:
     - timestamps_in_ruby_documentation
-ruby-xpath:
-  version: 2.0.0-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-yajl:
-  version: 1.2.0-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-yaml-db:
-  version: 0.2.3-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
-ruby-zip:
-  version: 1.1.6-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 ruby2.1:
   version: 2.1.5-1
   issues:
@@ -14253,10 +13407,6 @@ samhain:
   version: 3.1.0-7
   issues:
     - timestamps_from_cpp_macros
-samizdat:
-  version: 0.7.0-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 samplv1:
   version: 0.5.1-1
   issues:
@@ -14441,8 +13591,6 @@ sensible-utils:
     - 774449
 sepia:
   version: 0.992-3
-  issues:
-    - ftbfs_uninvestigated_test_problems
   bugs:
     - 789836
 serp:
@@ -14638,10 +13786,6 @@ sketch:
   version: 1:0.3.7-1
   issues:
     - timestamps_in_pdf_generated_by_latex
-skimage:
-  version: 0.10.1-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
 sks:
   version: 1.1.5-4
   issues:
@@ -14809,10 +13953,6 @@ sord:
   version: 0.12.2~dfsg0-1
   issues:
     - timestamps_in_documentation_generated_by_groff
-sorl-thumbnail:
-  version: 12.2-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 sourcecodegen:
   version: 0.6.14-1
   issues:
@@ -14905,10 +14045,6 @@ sphinxbase:
   version: 0.8-6
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-sphinxcontrib-docbookrestapi:
-  version: 0.2.1-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 sphinxcontrib-youtube:
   version: 1.0-1
   issues:
@@ -14961,10 +14097,6 @@ spooles:
   version: 2.2-11
   issues:
     - timestamps_in_dvi_generated_by_latex
-spork:
-  version: 0.9.2-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
 spring:
   version: 98.0+dfsg-1
   issues:
@@ -15353,10 +14485,6 @@ tcpwatch-httpproxy:
     - timestamps_in_gzip_headers
   bugs:
     - 776969
-telepathy-glib:
-  version: 0.24.1-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 templayer:
   version: 1.5.1-1
   comments: |
@@ -15802,10 +14930,6 @@ turnin-ng:
   version: 1.2-1
   issues:
     - timestamps_in_pdf_generated_by_latex
-tuskar-ui:
-  version: 0.1.0-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
 tuxcmd:
   version: 0.6.70+dfsg-2
   issues:
@@ -15996,10 +15120,6 @@ umlet:
   version: 12.1-1
   issues:
     - timestamps_in_jar
-umockdev:
-  version: 0.8.10-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
 unbound:
   version: 1.4.22-3
   issues:
@@ -16024,10 +15144,6 @@ unicon:
   version: 3.0.4-14
   bugs:
     - 777441
-unicorn:
-  version: 4.8.3-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 unifont:
   version: 7.0.06-1
   issues:
@@ -16064,10 +15180,6 @@ uruk:
   version: 20150401-1
   issues:
     - not_using_dh_builddeb
-urwid:
-  version: 1.2.1-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
 usb-modeswitch-data:
   version: 20150115-1
   issues:
@@ -16236,7 +15348,6 @@ vim-addon-manager:
   version: 0.5.3
   issues:
     - timestamps_in_documentation_generated_by_rdtool
-    - ftbfs_uninvestigated_test_problems
 vim-latexsuite:
   version: 20130116.788-1
   bugs:
@@ -16449,8 +15560,6 @@ webauth:
     - timezones_manpages_podman
 webdis:
   version: 0.1.1-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
   bugs:
     - 790811
 webkit-sharp:
@@ -16489,10 +15598,6 @@ wfmath:
     - timestamps_in_documentation_generated_by_doxygen
   bugs:
     - 790081
-whatmaps:
-  version: 0.0.9-1
-  issues:
-    - ftbfs_uninvestigated_test_problems
 why:
   version: 2.34-2
   comments: |
@@ -16998,10 +16103,6 @@ xmltex:
   version: 1.9.debian.1-3
   issues:
     - timestamps_in_dvi_generated_by_latex
-xmltv:
-  version: 0.5.63-2
-  issues:
-    - ftbfs_uninvestigated_test_problems
 xmlunit:
   version: 1.5-1
   issues:

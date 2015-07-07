@@ -590,10 +590,6 @@ timestamps_in_documentation_generated_by_ur:
     http://sources.debian.net/src/libur-perl/latest/lib/Command/V1.pm/#L755
     .
     http://sources.debian.net/src/libur-perl/latest/lib/Command/View/DocMethods.pm/#L185
-ftbfs_uninvestigated_test_problems:
-  description: |
-    The package FTBFS, but only because of its tests.  These are probably all RC bugs, unless the
-    tests have been broken by pbuilder weirdness.  They all require further investigation.
 ftbfs_due_to_python_packaging_problems:
   description: |
     There seem to be some packaging problems in sid for Python and Zope, that remain uninvestigated,
