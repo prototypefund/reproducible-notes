@@ -388,6 +388,10 @@ apbs:
   version: 1.4-1
   issues:
     - timestamps_from_cpp_macros
+apcupsd:
+  version: 3.14.12-1.1
+  issues:
+    - different_encoding
 apertium-dbus:
   version: 0.1-1.1
   comments: |
@@ -8689,6 +8693,10 @@ licq:
   version: 1.8.2-1
   issues:
     - timestamps_from_cpp_macros
+lie:
+  version: 2.2.2+dfsg-2
+  issues:
+    - timestamps_from_cpp_macros
 lifelines:
   version: 3.0.61-2
   issues:
@@ -9065,6 +9073,12 @@ mach:
   version: 0.9.1-3.1
   bugs:
     - 759829
+macsyfinder:
+  version: 1.0.2-1
+  comments: |
+    Build date is also embedded in the PDF content.
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 madlib:
   version: 1.3.0-2.1
   bugs:
@@ -13546,6 +13560,10 @@ scotch:
     - timestamps_in_gzip_headers
   bugs:
     - 787997
+scowl:
+  version: 7.1-1
+  bugs:
+    - 791851
 scratchbox2:
   version: 2.2.4-1debian1
   issues:
@@ -14249,6 +14267,10 @@ stunnel4:
   version: 3:5.18-1
   issues:
     - timezones_manpages_podman
+stx2any:
+  version: 1.56-2
+  issues:
+    - different_encoding
 styx:
   version: 2.0.1-1
   issues:
@@ -16305,6 +16327,10 @@ xzgv:
     - timestamps_in_gzip_headers
   bugs:
     - 777274
+yacas:
+  version: 1.3.3-2
+  bugs:
+    - 791845
 yahtzeesharp:
   version: 1.1-5
   issues:
