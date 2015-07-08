@@ -5250,6 +5250,10 @@ gnutls28:
   version: 3.3.14-2
   issues:
     - timezone_variance_because_of_automake_mdate
+go-md2man:
+  version: 1.0.2-1
+  bugs:
+    - 791755
 goaccess:
   version: 1:0.8.3-1
   issues:
@@ -6969,6 +6973,10 @@ keystone:
   version: 2014.1.3-6
   issues:
     - randomness_in_documentation_generated_by_sphinx
+keyutils:
+  version: 1.5.9-5
+  bugs:
+    - 768905
 kfreebsd-10:
   version: 10.1~svn274115-2
   issues:
@@ -7700,6 +7708,10 @@ libgtk2-appindicator-perl:
   version: 0.15-1
   bugs:
     - 782877
+libgtk2-perl:
+  version: 2:1.2495-1
+  bugs:
+    - 790532
 libgtkada:
   version: 2.24.4dfsg-1
   comments: |
@@ -12393,6 +12405,10 @@ python-pyaudio:
   version: 0.2.8-1
   issues:
     - random_order_in_python_environment_pickle
+python-pyftpdlib:
+  version: 1.2.0-1
+  bugs:
+    - 790274
 python-pygraphviz:
   version: 1.3~rc2-3
   bugs:
@@ -12961,6 +12977,10 @@ realmd:
   version: 0.15.1-1
   issues:
     - timestamps_generated_by_docbook_to_man
+rebar:
+  version: 2.5.1-2
+  bugs:
+    - 790633
 reclass:
   version: 1.4.1-1
   issues:
