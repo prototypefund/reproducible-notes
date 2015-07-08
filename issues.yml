@@ -386,17 +386,17 @@ timestamps_in_description_files_generated_by_r-base-dev:
     r-cran.mk template in debian/rules you should be fine. If not, see
     https://bugs.debian.org/782764 for reference how to fix your package.
   deterministic: True
-timestamps_in_manpage_generated_by_sphinx:
+timestamps_in_manpages_generated_by_sphinx:
   description: |
     Manpages generated with Sphinx embed the build date.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInManpagesGeneratedBySphinx
-timestamps_in_manpage_generated_by_txt2man:
+timestamps_in_manpages_generated_by_txt2man:
   description: |
     Manpages generated with txt2man embed the date.
     .
     Pass "-d $date" to txt2man to force a (reproducible) date.
   url: http://bugs.debian.org/790801
-timestamps_in_manpage_generated_by_help2man:
+timestamps_in_manpages_generated_by_help2man:
   description: |
     Manpages generated with help2man embed the month and year by default.
     This is currently only detected on the 1st of a month, because we are varying the timezone to span more than a day.
