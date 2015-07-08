@@ -2502,6 +2502,13 @@ db5.3:
     - timestamps_in_jar
     - randomness_in_gcj_output
     - different_due_to_umask
+dbab:
+  version: 1.2.2-1
+  comments: |
+    Localized date embedded into manpage by ronn.
+    https://sources.debian.net/src/dbab/1.2.2-1/Makefile/#L20
+  issues:
+    - timestamps_in_manpages_generated_by_ronn
 dballe:
   version: 6.8-1
   comments: |
@@ -4178,8 +4185,10 @@ fop:
 foremancli:
   version: 1.0-2
   comments: |
-    Timestamp embedded into manpage by ronn.
+    Localized date embedded into manpage by ronn.
     https://sources.debian.net/src/foremancli/1.0-2/debian/rules/#L22
+  issues:
+    - timestamps_in_manpages_generated_by_ronn
 fortunes-bg:
   version: 1.1
   issues:

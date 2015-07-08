@@ -26,6 +26,10 @@ timestamps_in_manpages_generated_by_doxygen:
     https://bugs.debian.org/785624
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInManpagesGeneratedByDoxygen
   deterministic: True
+timestamps_in_manpages_generated_by_ronn:
+  description: |
+    ronn embed localized dates in manpages it generates. Someone should file a bug against ronn about this and then update this note.
+  deterministic: True
 timestamps_in_documentation_generated_by_asciidoc:
   description: |
     asciidoc adds a timestamp at the end of a generated HTML file.
