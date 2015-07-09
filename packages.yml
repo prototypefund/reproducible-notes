@@ -1646,6 +1646,10 @@ cenon.app:
   version: 4.0.2-1
   issues:
     - timestamps_from_cpp_macros
+ceph:
+  version: 0.80.9-2
+  comments: |
+    Non-deterministic order of dh_installinit snippet in postinst etc.
 cffi:
   version: 1:0.14.0-1
   issues:
