@@ -15581,6 +15581,10 @@ vtk-dicom:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/vtk-dicom/0.5.5-2/CMakeLists.txt/#L131-L136
+vtk6:
+  version: 6.1.0+dfsg2-6
+  comments: |
+    captures kernel version in header
 vtprint:
   version: 2.0.2-13
   issues:
