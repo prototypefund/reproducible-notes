@@ -15584,7 +15584,7 @@ vtk-dicom:
 vtk6:
   version: 6.1.0+dfsg2-6
   comments: |
-    captures kernel version in header
+    captures kernel version in header and includes useless doc generation log at /usr/share/doc/vtk6-doc/html/_formulas.log that also contains timezones
   issues:
     - timestamps_in_dvi_generated_by_latex
 vtprint:
