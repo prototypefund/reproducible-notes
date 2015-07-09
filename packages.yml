@@ -21,6 +21,12 @@
   version: 2.0.3+dfsg-3
   issues:
     - timestamps_in_manpages_generated_by_help2man
+4ti2:
+  version: 1.6.2+ds1-1
+  comments: |
+    Also embeds the build date into the content of the PDF file.
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 a2ps:
   version: 1:4.14-1.3
   comments: |
@@ -1267,6 +1273,10 @@ bochs:
   version: 2.6-2
   issues:
     - timestamps_from_cpp_macros
+boilerpipe:
+  version: 1.2.0-1
+  issues:
+    - different_encoding
 boinc:
   version: 7.4.23+dfsg-1
   issues:
@@ -2193,6 +2203,10 @@ cppcheck:
   version: 1.68-1
   issues:
     - timestamps_generated_by_docbook_to_man
+cppformat:
+  version: 1.1.0+ds-3
+  issues:
+    - randomness_in_documentation_generated_by_sphinx
 cppo:
   version: 0.9.3-3
   issues:
@@ -2414,6 +2428,12 @@ cvs2svn:
   comments: |
     Embeds locale-dependent timestamps into manpage with its own generator.
     https://sources.debian.net/src/cvs2svn/2.4.0-2/cvs2svn_lib/man_writer.py/#L96
+cvxopt:
+  version: 1.1.4-1.3
+  comments: |
+    Also embeds a timestamp in the content of the PDF file.
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 cwebx:
   version: 3.52-1
   issues:
@@ -5875,6 +5895,11 @@ hgview:
   version: 1.8.1-1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
+hibernate:
+  version: 2.0+15+g88d54a8-1
+  comments: |
+    Embeds the build date into manpage.
+    https://sources.debian.net/src/hibernate/2.0%2B15%2Bg88d54a8-1/gen-manpages.sh/#L3
 highlight.js:
   version: 8.2+ds-4
   issues:
@@ -6071,6 +6096,12 @@ idzebra:
   version: 2.0.59-1
   issues:
     - timestamps_from_cpp_macros
+ifmail:
+  version: 2.14tx8.10-22
+  comments: |
+    Embeds the modification date of source files.
+    https://sources.debian.net/src/ifmail/2.14tx8.10-22/ifcico/Makefile/#L171
+    https://sources.debian.net/src/ifmail/2.14tx8.10-22/ifgate/Makefile/#L129
 ifrench-gut:
   version: 1.0-30
   issues:
@@ -7323,6 +7354,10 @@ letterize:
   issues:
     - timestamps_generated_by_docbook_to_man
     - timestamps_in_manpages_generated_by_docbook_xsl
+leveldb:
+  version: 1.18-2.1
+  bugs:
+    - 791960
 leveldb-sharp:
   version: 1.9.1-1
   issues:
@@ -7491,6 +7526,10 @@ libcommons-codec-java:
   version: 1.10-1
   issues:
     - locale_in_documentation_generated_by_javadoc
+libcommons-compress-java:
+  version: 1.9-1
+  issues:
+    - different_encoding
 libcommons-digester-java:
   version: 1.8.1-4
   issues:
@@ -7545,9 +7584,10 @@ libconfig-model-dpkg-perl:
   issues:
     - timestamps_in_documentation_generated_by_podman
 libconstantine-java:
-  version: 0.8.5-1
+  version: 0.7-6
   issues:
     - timestamps_in_documentation_generated_by_javadoc
+    - random_order_in_documentation_generated_by_javadoc
     - timestamps_in_jar
     - locale_in_documentation_generated_by_javadoc
 libcoyotl:
@@ -7842,6 +7882,13 @@ libident:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
     - different_due_to_umask
+libidn2-0:
+  version: 0.10-3
+  comments: |
+    Also embeds the build date into the content of the PDF file
+    and has the timestamp in the info page.
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 libindicate:
   version: 0.6.92-2
   issues:
@@ -10477,6 +10524,11 @@ nsis:
   issues:
     - timestamps_in_pe_binaries
     - different_due_to_umask
+nsnake:
+  version: 3.0.1-2
+  comments: |
+    Embeds the build date.
+    https://sources.debian.net/src/nsnake/3.0.1-2/Makefile/#L42
 nss:
   version: 2:3.17.2-1
   issues:
@@ -12338,6 +12390,10 @@ python-cyclone:
   version: 1.1-1
   issues:
     - different_due_to_umask
+python-daemon:
+  version: 2.0.5-1
+  issues:
+    - different_encoding
 python-demgengeo:
   version: 1.0-2
   issues:
@@ -12588,6 +12644,10 @@ python-shapely:
   version: 1.4.3-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+python-simpy:
+  version: 2.3.1-1
+  issues:
+    - timestamps_in_documentation_generated_by_sphinx
 python-tidylib:
   version: 0.2.1~dfsg-2
   issues:
@@ -12710,6 +12770,10 @@ qdox:
   issues:
     - timestamps_in_maven_pom_files
     - locale_in_documentation_generated_by_javadoc
+qelectrotech:
+  version: 1:0.4-2
+  issues:
+    - timestamps_from_cpp_macros
 qemu-launcher:
   version: 1.7.4-1
   issues:
@@ -13769,6 +13833,10 @@ sgmltools-lite:
     - not_using_dh_builddeb
   bugs:
     - 777011
+sgrep:
+  version: 1.94a-4
+  issues:
+    - timestamps_from_cpp_macros
 shadow:
   version: 1:4.2-2
   bugs:
@@ -15457,6 +15525,10 @@ vecmath:
   version: 1.5.2-5
   issues:
     - locale_in_documentation_generated_by_javadoc
+velocity:
+  version: 1.7-4
+  issues:
+    - different_encoding
 velvet:
   version: 1.2.10+dfsg1-1
   issues:
@@ -16384,6 +16456,10 @@ xtel:
     - timestamps_from_imake_in_xutils
   bugs:
     - 789965
+xterm:
+  version: 318-2
+  issues:
+    - different_encoding
 xtide:
   version: 2.13.2-1
   comments: |
