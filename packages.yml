@@ -11,6 +11,8 @@
   comments: |
     BuildNumber is affected by timezone. `--utc` must be added to `date` in
     `debian/rules`.
+  bugs:
+    - 791922
 389-ds-console:
   version: 1.2.7-1
   bugs:
