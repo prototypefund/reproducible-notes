@@ -281,6 +281,7 @@ analog:
     - timestamps_from_cpp_macros
   bugs:
     - 788752
+    - 791850
 anet:
   version: 0.3.1-1
   comments: |
@@ -1412,6 +1413,10 @@ bytecode:
     - timestamps_in_jar
     - timestamps_in_documentation_generated_by_javadoc
     - locale_in_documentation_generated_by_javadoc
+byzanz:
+  version: 0.3.0+git20140619-1
+  bugs:
+    - 791910
 bzflag:
   version: 2.4.2+ds1-5
   issues:
@@ -7684,8 +7689,8 @@ libgda5:
     https://sources.debian.net/src/libgda5/5.2.2-2/configure.ac/#L74-L75
 libgdchart-gd2:
   version: 0.11.5-7.1
-  issues:
-    - ftbfs_uninvestigated_unsatisfiable_dependencies
+  bugs:
+    - 791842
 libgenome-model-tools-music-perl:
   version: 0.04-1
   issues:
@@ -8323,6 +8328,8 @@ libpwiz:
   version: 3.0.6585-2
   issues:
     - timestamps_from_cpp_macros
+  bugs:
+    - 791841
 libqb:
   version: 0.17.1-3
   issues:
@@ -10071,6 +10078,10 @@ nagios-plugin-check-multi:
   version: 0.26-2
   issues:
     - timestamps_in_manpages_generated_by_help2man
+nagios3:
+  version: 3.5.1.dfsg-2
+  bugs:
+    - 791840
 namazu2:
   version: 2.0.21-10
   comments: |
@@ -11553,8 +11564,8 @@ php-htmlpurifier:
     - different_due_to_umask
 php-ps:
   version: 1.3.7-1
-  issues:
-    - ftbfs_uninvestigated_unsatisfiable_dependencies
+  bugs:
+    - 791838
 php-solr:
   version: 1.0.2-2
   issues:
