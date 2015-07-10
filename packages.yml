@@ -367,7 +367,7 @@ aolserver4-nsmysql:
 aolserver4-nsopenssl:
   version: 3.0beta26-5
   issues:
-    - build_id_variation_requiring_further_investigation
+    - timestamps_from_cpp_macros
 aolserver4-nssqlite3:
   version: 0.9-2
   issues:
@@ -643,7 +643,7 @@ ascii:
 ascii2binary:
   version: 2.14-1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - timestamps_from_cpp_macros
 asciidoc:
   version: 8.6.9-3
   issues:
@@ -849,8 +849,8 @@ avfs:
     - bad_handling_of_extra_warnings
 avian:
   version: 1.1.0-4
-  issues:
-    - build_id_variation_requiring_further_investigation
+  comments: |
+    Contains embedded jar file.
 avifile:
   version: 1:0.7.48~20090503.ds-16.2
   comments: |
@@ -888,7 +888,7 @@ avrprog:
 awardeco:
   version: 0.2-3.1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - timestamps_from_cpp_macros
 awesome:
   version: 3.4.15-1
   issues:
@@ -932,7 +932,7 @@ backup-manager:
 bacula:
   version: 5.2.6+dfsg-9.3
   issues:
-    - build_id_variation_requiring_further_investigation
+    - timestamps_from_cpp_macros
 bacula-doc:
   version: 5.2.6-3
   issues:
@@ -966,8 +966,7 @@ bareftp:
 bareos:
   version: 14.2.1+20141017gitc6c5b56-4
   issues:
-    - build_id_variation_requiring_further_investigation
-    - different_due_to_umask
+    - timestamps_from_cpp_macros
 barnowl:
   version: 1.9-1
   comments: |
@@ -1063,9 +1062,8 @@ beep:
     - 777253
 ben:
   version: 0.7.0
-  issues:
-    - build_id_variation_requiring_further_investigation
-    - timestamps_generated_by_docbook_to_man
+  bugs:
+    - 792054
 berusky:
   version: 1.4-1
   issues:
@@ -5070,7 +5068,7 @@ gmetrics:
 gmic:
   version: 1.6.0.1-1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - timestamps_from_cpp_macros
 gmime:
   version: 2.6.20-1
   issues:
@@ -7182,7 +7180,7 @@ kvirc:
 kvpnc:
   version: 0.9.6a-2.1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - timestamps_from_cpp_macros
 kwin-style-crystal:
   version: 2.2.1-2
   issues:
@@ -11071,12 +11069,14 @@ openni:
     - timestamps_from_cpp_macros
 openni-sensor-pointclouds:
   version: 5.1.0.41.3-1
-  issues:
-    - build_id_variation_requiring_further_investigation
+  comments: |
+    Embeds the build date and platform.
+    https://sources.debian.net/src/openni-sensor-pointclouds/5.1.0.41.5-1/Include/XnPsVersion.h/#L55
 openni-sensor-primesense:
   version: 5.1.0.41-3
-  issues:
-    - build_id_variation_requiring_further_investigation
+  comments: |
+    Embeds the build date and platform.
+    https://sources.debian.net/src/openni-sensor-primesense/5.1.0.41-5/Include/XnPsVersion.h/#L55
 openocd:
   version: 0.9.0-1
   issues:
@@ -12998,7 +12998,7 @@ quotecolors:
 qupzilla:
   version: 1.8.3.1~dfsg1-4
   issues:
-    - build_id_variation_requiring_further_investigation
+    - timestamps_from_cpp_macros
 qutecom:
   version: 2.2.1+dfsg1-5.2
   issues:
@@ -15986,13 +15986,6 @@ wxwidgets2.8:
   version: 2.8.12.1+dfsg2-2
   issues:
     - timestamps_from_cpp_macros
-wxwidgets3.0:
-  version: 3.0.2-3
-  comments: |
-    Timestamp in
-    ./usr/share/doc/wx3.0-examples/examples/samples/docview/chart.icns.gz?
-  issues:
-    - build_id_variation_requiring_further_investigation
 wyrd:
   version: 1.4.4-1
   bugs:
