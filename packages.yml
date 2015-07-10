@@ -697,9 +697,9 @@ aspic:
     - pdf_created_by_ghostscript
 asterisk:
   version: 1:13.1.0~dfsg-1
-  issues:
-    - user_hostname_manually_added_requiring_further_investigation
-    - timestamps_manually_added_needs_further_investigation
+  comments: |
+    Captures hostname, kernel, date, time, username.
+    https://sources.debian.net/src/asterisk/1:13.1.0~dfsg-1/build_tools/make_build_h/
 asterisk-chan-capi:
   version: 1.1.6-1
   bugs:
@@ -4726,9 +4726,9 @@ getdp:
     - 747109
 getfem++:
   version: 4.2.1~beta1~svn4635~dfsg-3
-  issues:
-    - timestamps_manually_added_needs_further_investigation
-    - user_hostname_manually_added_requiring_further_investigation
+  comments: |
+    Captures username and build date/time.
+    https://sources.debian.net/src/getfem%2B%2B/4.2.1~beta1~svn4635~dfsg-3/configure.ac/#L753-L756
 gettext:
   version: 0.19.3-2
   issues:
@@ -14509,6 +14509,7 @@ svnkit:
   issues:
     - timestamps_manually_added_needs_further_investigation
     - timezones_manpages_podman
+    - locale_in_documentation_generated_by_javadoc
 svtplay-dl:
   version: 0.10.2015.05.24-1
   comments: |
