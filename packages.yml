@@ -7596,6 +7596,13 @@ libconfig-model-dpkg-perl:
   version: 2.059
   issues:
     - timestamps_in_documentation_generated_by_podman
+libconfig-model-itself-perl:
+  version: 1.244-2
+  comments: |
+    https://jenkins.debian.net/view/reproducible/job/reproducible_builder_beta/55114/console
+    needs more investigation + bug
+  issues:
+    - blacklisted_on_jenkins
 libconstantine-java:
   version: 0.7-6
   issues:
