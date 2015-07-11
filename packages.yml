@@ -11366,6 +11366,12 @@ palo:
     https://sources.debian.net/src/palo/1.95/palo/Makefile/?hl=31#L31
   bugs:
     - 778437
+pam:
+  version: 1.1.8-3.1
+  comments: |
+    w3m output change depending on the locale.
+  bugs:
+    - 792127
 paman:
   version: 0.9.4-1
   issues:
