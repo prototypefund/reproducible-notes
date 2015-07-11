@@ -821,6 +821,10 @@ automake-1.14:
   version: 1:1.14.1-4
   issues:
     - timezone_variance_because_of_automake_mdate
+automake-1.15:
+  version: 1:1.15-1
+  issues:
+    - timestamps_in_manpages_generated_by_help2man
 automake1.11:
   version: 1:1.11.6-3
   issues:
