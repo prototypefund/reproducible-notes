@@ -1375,15 +1375,6 @@ bsh:
   issues:
     - timestamps_in_tarball
     - different_due_to_umask
-bsl:
-  version: 0.6.0-1
-  comments: |
-    Build-depends on libbuzztard-dev which no longer exists
-  issues:
-    - ftbfs_due_to_obsolete_dependencies
-  bugs:
-    - 755876
-    - 759922
 btrfs-tools:
   version: 3.17-1.1
   issues:
