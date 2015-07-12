@@ -5933,6 +5933,10 @@ hibernate:
   comments: |
     Embeds the build date into manpage.
     https://sources.debian.net/src/hibernate/2.0%2B15%2Bg88d54a8-1/gen-manpages.sh/#L3
+hiera:
+  version: 2.0.0-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
 highlight.js:
   version: 8.2+ds-4
   issues:
@@ -13185,10 +13189,18 @@ r-cran-teachingdemos:
   version: 2.9-1
   issues:
     - timestamps_in_description_files_generated_by_r-base-dev
+r10k:
+  version: 1.1.4-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
 r5rs-doc:
   version: 20010328-7
   bugs:
     - 712334
+rabbit:
+  version: 2.1.6-2
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
 rabbitmq-server:
   version: 3.4.2-2
   issues:
@@ -14157,6 +14169,10 @@ samhain:
   version: 3.1.0-7
   issues:
     - timestamps_from_cpp_macros
+samizdat:
+  version: 0.7.0-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
 samplv1:
   version: 0.5.1-1
   issues:
@@ -15041,6 +15057,10 @@ sunxi-tools:
   version: 1.2-2
   comments: |
     Caused by mkimage in u-boot-tools, most likely misc memory contents.
+sup-mail:
+  version: 0.20.0-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
 supercat:
   version: 0.5.5-4
   issues:
@@ -16325,6 +16345,10 @@ vxl:
   version: 1.17.0.dfsg-1
   bugs:
     - 788559
+wader:
+  version: 0.5.12-2
+  bugs:
+    - 792192
 waffle:
   version: 1.4.0-1
   issues:
@@ -17114,6 +17138,10 @@ yapsy:
   version: 1.10.423-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
+yard:
+  version: 0.8.7.6-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
 yasm:
   version: 1.2.0-2
   issues:
