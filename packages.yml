@@ -8861,6 +8861,10 @@ libxkbcommon:
     - timestamps_in_documentation_generated_by_doxygen
   bugs:
     - 789071
+libxml++2.6:
+  version: 2.38.1-1
+  comments: |
+    Installs examples with varying environments - can probably just be distcleaned after build
 libxml-commons-resolver1.1-java:
   version: 1.2-7
   issues:
