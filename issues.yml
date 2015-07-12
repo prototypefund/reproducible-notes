@@ -73,6 +73,9 @@ timestamps_in_maven_version_files:
   description: |
     Maven writes a timestamp to version.properties files.  Probably related
     to timestamps_in_maven_pom_files issue.
+locale_differences_in_pom:
+  description: |
+    Some tool isn't writing non-ASCII characters in pom.xml/foo.pom properly.
 timestamps_in_pe_binaries:
   description: |
     PE binaries contain a timestamp and maybe randomness in an UUID.
