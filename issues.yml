@@ -640,6 +640,6 @@ timestamps_in_pdf_generated_by_matplotlib:
     eg. Creator (matplotlib 1.4.2, http://matplotlib.org)
 ftbfs_uninvestigated_ruby_transition:
   description: |
-    ruby2.2 transition is causing things to fail tests.
-    Everything with this tag will be looked at only once the transition finishes.
+    The currently ongoing ruby2.2 transition is causing test failures and thus build failures.
+    Packages with this issue will be looked at (again) once this transition has finished.
   url: https://release.debian.org/transitions/html/ruby2.2.html
