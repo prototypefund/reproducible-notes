@@ -2735,6 +2735,8 @@ debian-zh-faq:
     - timestamps_in_dvi_generated_by_latex
 debmake-doc:
   version: 1.0-1
+  comments: |
+    Dynamically includes generates directory listings with umask, etc.
   issues:
     - fonts_in_pdf_files
 debomatic:
