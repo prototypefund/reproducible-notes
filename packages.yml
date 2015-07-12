@@ -4816,6 +4816,10 @@ gfs2-utils:
   version: 3.1.3-1.1
   issues:
     - timestamps_from_cpp_macros
+ghc-testsuite:
+  version: 7.8.4-1
+  comments: |
+    Contains testsuite output by design that has non-deterministic ordering (parallelism?)
 ghdl:
   version: 0.29+gcc4.3.4+dfsg-1.1
   comments: |
