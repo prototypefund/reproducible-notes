@@ -643,3 +643,7 @@ ftbfs_uninvestigated_ruby_transition:
     The currently ongoing ruby2.2 transition is causing test failures and thus build failures.
     Packages with this issue will be looked at (again) once this transition has finished.
   url: https://release.debian.org/transitions/html/ruby2.2.html
+lynx_dump_varies_output_with_locale:
+  description: |
+    Packages use `lynx -dump in.html > out.txt`, but this varies by locale. See
+    https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=770011
