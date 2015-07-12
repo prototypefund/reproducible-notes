@@ -7124,10 +7124,9 @@ keyutils:
   bugs:
     - 768905
 kfreebsd-10:
-  version: 10.1~svn274115-2
+  version: 10.1~svn274115-6
   issues:
-    - timestamps_in_tarball
-    - random_order_in_tarball
+    - different_due_to_umask
   bugs:
     - 786615
     - 788238
@@ -12551,10 +12550,6 @@ python-demgengeo:
   version: 1.0-2
   issues:
     - use_epydoc
-python-django:
-  version: 1.7.4-1
-  issues:
-    - ftbfs_in_jenkins_setup
 python-django-feincms:
   version: 1.7.4-1
   bugs:
@@ -17083,11 +17078,9 @@ xtalk:
   bugs:
     - 588746
 xtel:
-  version: 3.3.0-17.1
+  version: 3.3.0-18
   issues:
     - timestamps_in_gzip_headers
-    - timestamps_in_png
-    - timestamps_from_imake_in_xutils
   bugs:
     - 789965
 xterm:
