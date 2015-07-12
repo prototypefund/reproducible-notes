@@ -13495,6 +13495,10 @@ ruby-bdb:
   issues:
     - timestamps_in_ruby_documentation
     - ftbfs_uninvestigated_ruby_transition
+ruby-beautify:
+  version: 0.92.2-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
 ruby-benchmark-ips:
   version: 1.2.0+git.20130609.e47e416-2
   issues:
@@ -13507,16 +13511,44 @@ ruby-bert:
   version: 1.1.6-1
   issues:
     - ftbfs_uninvestigated_ruby_transition
+ruby-bluefeather:
+  version: 0.41-3
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
 ruby-builder:
   version: 3.2.2-4
   issues:
     - timestamps_in_ruby_documentation
+ruby-cal-heatmap-rails:
+  version: 0.0.1~dfsg-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-capybara:
+  version: 2.2.1-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
 ruby-celluloid:
   version: 0.16.0-2
   issues:
     - blacklisted_on_jenkins
   bugs:
     - 786669
+ruby-celluloid-io:
+  version: 0.16.2-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-clamp:
+  version: 0.6.3-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-cookiejar:
+  version: 0.3.1-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-cstruct:
+  version: 1.0.1-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
 ruby-dataobjects-mysql:
   version: 0.10.14-1
   issues:
@@ -13537,6 +13569,14 @@ ruby-defaults:
   version: 1:2.1.5.1
   issues:
     - ftbfs_uninvestigated_ruby_transition
+ruby-diff-lcs:
+  version: 1.2.5-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-distribution:
+  version: 0.7.0+dfsg-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
 ruby-dotenv:
   version: 1.0.2-2
   issues:
@@ -13549,8 +13589,20 @@ ruby-em-hiredis:
   version: 0.2.1-2.1
   issues:
     - timestamps_in_ruby_documentation
+ruby-em-http-request:
+  version: 1.1.2-2
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-em-spec:
+  version: 0.2.6-3
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
 ruby-em-synchrony:
   version: 1.0.3-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-enumerize:
+  version: 0.11.0-1
   issues:
     - ftbfs_uninvestigated_ruby_transition
 ruby-eventmachine:
@@ -13565,8 +13617,20 @@ ruby-expression-parser:
   version: 0.9.1-2
   issues:
     - timestamps_in_ruby_documentation
+ruby-extendmatrix:
+  version: 0.3.1-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
 ruby-factory-girl:
   version: 4.4.0-2
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-fakeweb:
+  version: 1.3.0+git20131202.48208f9+dfsg-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-faraday-middleware:
+  version: 0.9.1-1
   issues:
     - ftbfs_uninvestigated_ruby_transition
 ruby-fast-gettext:
@@ -13575,6 +13639,22 @@ ruby-fast-gettext:
     - ftbfs_uninvestigated_ruby_transition
 ruby-ferret:
   version: 0.11.8.5-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-flexmock:
+  version: 0.9.0-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-foreman:
+  version: 0.77.0-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-fssm:
+  version: 0.2.10-2
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-gelf:
+  version: 1.4.0-3
   issues:
     - ftbfs_uninvestigated_ruby_transition
 ruby-github-markup:
@@ -13587,12 +13667,36 @@ ruby-gnome2:
     - ftbfs_uninvestigated_ruby_transition
   bugs:
     - 790910
+ruby-gnuplot:
+  version: 2.6.2-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
 ruby-grib:
   version: 0.2.2-3
   issues:
     - ftbfs_uninvestigated_ruby_transition
 ruby-gsl:
   version: 1.16.0.4+dfsg1-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-haml-magic-translations:
+  version: 4.0.3-2
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-handlebars-assets:
+  version: 2:0.20.1-5
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-hashie:
+  version: 2.0.5-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-hitimes:
+  version: 1.2.1-2
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-html2haml:
+  version: 1.0.1-3
   issues:
     - ftbfs_uninvestigated_ruby_transition
 ruby-http-connection:
@@ -13604,14 +13708,34 @@ ruby-http-parser.rb:
   issues:
     - timestamps_in_ruby_documentation
     - ftbfs_uninvestigated_ruby_transition
+ruby-httpclient:
+  version: 2.3.3-3.1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-i18n:
+  version: 0.6.11-2
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
 ruby-imagesize:
   version: 1:0.1.1-5
   bugs:
     - 747688
+ruby-jsonify:
+  version: 0.4.1-2
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-jwt:
+  version: 1.0.0-2
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
 ruby-kakasi-ffi:
   version: 1.0.1-1
   bugs:
     - 762133
+ruby-kgio:
+  version: 2.9.3-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
 ruby-kramdown:
   version: 1.4.2-1
   issues:
@@ -13632,6 +13756,10 @@ ruby-liquid:
   version: 2.6.1-2
   bugs:
     - 788694
+ruby-listen:
+  version: 2.4.0-4
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
 ruby-magic:
   version: 0.2.8-1
   issues:
@@ -13644,12 +13772,68 @@ ruby-mathml:
   version: 0.14-3
   issues:
     - timestamps_in_ruby_documentation
+ruby-memcache-client:
+  version: 1.8.5-3
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-merb-assets:
+  version: 1.1.3-2
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-merb-param-protection:
+  version: 1.1.3-2
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-messagebus-api:
+  version: 3.0.7+git.20130130.97b34ece-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-mkrf:
+  version: 0.2.3+dfsg-5
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-mongo:
+  version: 1.10.0-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-multi-xml:
+  version: 0.5.5-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
 ruby-multimap:
   version: 1.1.2+gh-1
   issues:
     - ftbfs_uninvestigated_ruby_transition
 ruby-mysql2:
   version: 0.3.16-3
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-net-ssh-multi:
+  version: 1.2.1-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-ogginfo:
+  version: 0.7.2-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-omniauth-github:
+  version: 1.1.2-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-omniauth-oauth:
+  version: 1.0.1-2
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-omniauth-openid:
+  version: 1.0.1-2
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-org:
+  version: 0.9.1-2
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-packable:
+  version: 1.3.6-2
   issues:
     - ftbfs_uninvestigated_ruby_transition
 ruby-patron:
@@ -13664,16 +13848,80 @@ ruby-pg:
   version: 0.17.1-2
   issues:
     - timestamps_in_ruby_documentation
+ruby-powerpack:
+  version: 0.1.0-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-prawn:
+  version: 2.0.1+dfsg-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
 ruby-pygments.rb:
   version: 0.5.4~ds1-3
   issues:
     - timestamps_in_ruby_documentation
+ruby-rack-cors:
+  version: 0.3.1-2
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-rack-mobile-detect:
+  version: 0.4.0-3
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-rack-rewrite:
+  version: 1.5.0-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-rash:
+  version: 0.4.0-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-redis:
+  version: 3.1.0-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-redis-namespace:
+  version: 1.4.1-2
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-remcached:
+  version: 0.4.1-2
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-rest-client:
+  version: 1.8.0-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
 ruby-rinku:
   version: 1.7.3-1
   issues:
     - timestamps_in_ruby_documentation
+ruby-rjb:
+  version: 1.4.9-2
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-roxml:
+  version: 3.3.1-3
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-rspec:
+  version: 3.3.0c0e0m0s0-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-rspec-core:
+  version: 2.14.7-2
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
 ruby-rspec-retry:
   version: 0.3.0-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-rubyvis:
+  version: 0.6.1+dfsg1-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-sawyer:
+  version: 0.6.0-1
   issues:
     - ftbfs_uninvestigated_ruby_transition
 ruby-serialport:
@@ -13684,12 +13932,48 @@ ruby-settingslogic:
   version: 2.0.9-2
   issues:
     - timestamps_in_ruby_documentation
+ruby-sham-rack:
+  version: 1.3.6-5
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-sinatra-contrib:
+  version: 1.4.2-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
 ruby-sqlite3:
   version: 1.3.9-2
   bugs:
     - 782884
+ruby-sshkit:
+  version: 1.7.1-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-stomp:
+  version: 1.3.4-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
 ruby-taglib2:
   version: 0.1.5-2
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-test-declarative:
+  version: 0.0.5-2
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-text-table:
+  version: 1.2.3-2
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-thor:
+  version: 0.19.1-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-thread-safe:
+  version: 0.3.3-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-timecop:
+  version: 0.7.3-1
   issues:
     - ftbfs_uninvestigated_ruby_transition
 ruby-timfel-krb5-auth:
@@ -13703,6 +13987,14 @@ ruby-tioga:
     - ftbfs_uninvestigated_ruby_transition
 ruby-tokyocabinet:
   version: 1.31-3
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-twitter:
+  version: 5.11.0-2
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-twitter-stream:
+  version: 0.1.16-1
   issues:
     - ftbfs_uninvestigated_ruby_transition
 ruby-uuidtools:
@@ -13721,10 +14013,26 @@ ruby-webmock:
   version: 1.19.0-1
   bugs:
     - 765113
+ruby-webrobots:
+  version: 0.1.1-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
 ruby-wikicloth:
   version: 0.8.1+dfsg-2
   issues:
     - timestamps_in_ruby_documentation
+ruby-xpath:
+  version: 2.0.0-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-yaml-db:
+  version: 0.2.3-2
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-zip:
+  version: 1.1.6-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
 ruby2.1:
   version: 2.1.5-1
   issues:
