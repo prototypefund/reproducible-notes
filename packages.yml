@@ -12520,6 +12520,10 @@ pyntor:
     - timestamps_in_gzip_headers
   bugs:
     - 777488
+pyopencl:
+  version: 2015.1-2
+  comments: |
+    Non-deterministic order in depends, probably written by dh-python
 pyotherside:
   version: 1.2.0-1
   issues:
