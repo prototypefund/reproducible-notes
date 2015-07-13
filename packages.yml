@@ -4633,6 +4633,10 @@ gap-scscp:
   version: 2.1.4+ds-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+garcon:
+  version: 0.4.0-2
+  comments: |
+    Desktop launcher file missing a whole bunch of entries when run with a non-utf8 locale
 gbrainy:
   version: 2.2.3-1
   issues:
