@@ -1394,12 +1394,10 @@ brltty:
     Entropy from (gcc) compile or link order
 bsh:
   version: 2.0b4-15
-  comments: |
-    Capture build time in Implementation-Version in
-    /usr/share/java/bsh-2.0b4.jar:META-INF/MANIFEST.MF
   issues:
     - timestamps_in_tarball
     - different_due_to_umask
+    - implementation_version_in_java_manifest_mf
 btrfs-tools:
   version: 3.17-1.1
   issues:
