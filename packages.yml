@@ -10366,6 +10366,10 @@ nagios-plugin-check-multi:
   version: 0.26-2
   issues:
     - timestamps_in_manpages_generated_by_help2man
+nagios-plugins-contrib:
+  version: 14.20141104
+  comments: |
+    Non-determistic flattening of Perl modules, but can't quite see why as the order is determinstic here: http://sources.debian.net/src/nagios-plugins-contrib/14.20141104/check_hpasm/check_hpasm-4.6.3.2/plugins-scripts/Makefile.am/#L93
 nagios3:
   version: 3.5.1.dfsg-2
   bugs:
