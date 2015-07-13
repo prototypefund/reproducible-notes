@@ -12046,10 +12046,10 @@ pixz:
     - timestamps_generated_by_docbook_to_man
 pkgconf:
   version: 0.9.7-1
-  bugs:
-    - 792285
   comments: |
     Output of sort command in debian/rules changes according to locale.
+  bugs:
+    - 792285
 plainbox:
   version: 0.5.4-1
   issues:
@@ -16223,6 +16223,10 @@ uruk:
   version: 20150401-1
   issues:
     - not_using_dh_builddeb
+urweb:
+  version: 20150214+dfsg-1
+  issues:
+    - fonts_in_pdf_files
 usb-modeswitch-data:
   version: 20150115-1
   issues:
