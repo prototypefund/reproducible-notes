@@ -658,3 +658,6 @@ debiandoc_sgml_timestamp:
   description: |
     <date> element in debiandoc-sgml results in build timestamp which
     additionally varies by locale.
+docbook2txt_locale:
+  description: |
+    docbook2txt varies output based on locale, usually with non-ascii chars.
