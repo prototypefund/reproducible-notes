@@ -668,3 +668,7 @@ texinfo_mdate_sh_varies_by_timezone:
   description:
     If you use version.texi, mdate-sh will output a TZ-sensitive updated date.
     http://www.delorie.com/gnu/docs/automake/automake_81.html
+implementation_version_in_java_manifest_mf:
+  description: |
+    Captures build time, build host and kernel version with
+    Implementation-Version and Implentation-Vendor in META-INF/MANIFEST.MF
