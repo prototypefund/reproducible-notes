@@ -654,3 +654,7 @@ plist_weirdness:
   description: |
     Gnustep (?) plist files can have missing/non-determistic ordering depending
     on locale (?)
+debiandoc_sgml_timestamp:
+  description: |
+    <date> element in debiandoc-sgml results in build timestamp which
+    additionally varies by locale.
