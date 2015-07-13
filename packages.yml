@@ -1706,6 +1706,10 @@ ceph:
     Non-deterministic order of dh_installinit snippet in postinst etc.
   bugs:
     - 791913
+cfengine2:
+  version: 2.2.10-5
+  issues:
+    - texinfo_mdate_sh_varies_by_timezone
 cffi:
   version: 1:0.14.0-1
   issues:
