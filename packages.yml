@@ -4408,6 +4408,10 @@ freefem:
   version: 3.5.8-5.1
   issues:
     - timestamps_in_pdf_generated_by_latex
+freefem++:
+  version: 3.37.1-1
+  comments: |
+    Lots of for x in ls * that need piping through sort in examples++*/Makefile.am
 freefem3d:
   version: 1.0pre10-3.2
   issues:
