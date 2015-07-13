@@ -3834,6 +3834,10 @@ fedmsg:
     Should probably not be shipped at all.
   bugs:
     - 778419
+feel++:
+  version: 1:0.99.0-final.1-1
+  comments: |
+    extract_command.sh needs LC_ALL=C before calls to sort and the call to date to use changelog date
 feh:
   version: 2.12.1-1
   comments: |
