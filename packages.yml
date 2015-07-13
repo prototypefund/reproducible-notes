@@ -11905,6 +11905,10 @@ php-htmlpurifier:
   version: 4.6.0-1
   issues:
     - different_due_to_umask
+php-opencloud:
+  version: 1.14.2+dfsg-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 php-ps:
   version: 1.3.7-1
   bugs:
