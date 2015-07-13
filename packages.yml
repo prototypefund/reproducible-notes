@@ -404,6 +404,10 @@ apbs:
   version: 1.4-1
   issues:
     - timestamps_from_cpp_macros
+apcalc:
+  version: 2.12.5.0-1
+  comments: |
+    UTF-8 issue, probably due to the nroff call in ./Makefille
 apcupsd:
   version: 3.14.12-1.1
   issues:
