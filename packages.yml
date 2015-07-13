@@ -12024,6 +12024,12 @@ pixz:
   version: 1.0.2-2
   issues:
     - timestamps_generated_by_docbook_to_man
+pkgconf:
+  version: 0.9.7-1
+  bugs:
+    - 792285
+  comments: |
+    Output of sort command in debian/rules changes according to locale.
 plainbox:
   version: 0.5.4-1
   issues:
