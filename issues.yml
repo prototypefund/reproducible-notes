@@ -650,6 +650,9 @@ lynx_dump_varies_output_with_locale:
   description: |
     Packages use `lynx -dump in.html > out.txt`, but this varies by locale. See
     https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=770011
+elinks_dump_varies_output_with_locale:
+  description: |
+    Packages use `elinks -dump in.html > out.txt`, but this varies by locale.
 plist_weirdness:
   description: |
     Gnustep (?) plist files can have missing/non-determistic ordering depending
