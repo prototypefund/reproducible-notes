@@ -14259,6 +14259,10 @@ rurple-ng:
   version: 0.5+16-1.2
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
+rustc:
+  version: 1.0.0+dfsg1-1
+  comments: |
+    Non-determistic JSON serialisation http://sources.debian.net/src/rustc/1.0.0%2Bdfsg1-1/src/librustdoc/html/render.rs/#L1299
 rxtx:
   version: 2.2pre2-13
   issues:
