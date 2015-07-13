@@ -7533,6 +7533,10 @@ libapache-mod-auth-radius:
   version: 1.5.8-1.2
   bugs:
     - 765062
+libapache-mod-jk:
+  version: 1:1.2.40+svn150520-1
+  issues:
+    - lynx_dump_varies_output_with_locale
 libapache-poi-java:
   version: 3.10.1-2
   bugs:
