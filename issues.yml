@@ -98,9 +98,9 @@ random_order_in_dh_python_autoscripts:
   url: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=792436
   description: |
     dh-python outputs autoscripts in a non-deterministic order (eg. pycompile)
-random_order_in_dh_python_depends:
+random_order_in_shlibs_depends:
   description: |
-    dh-python can output depends in a non-deterministic order
+    shlibs:Depends can appear in a non-deterministic order
 random_order_in_naturaldocs:
   description: |
     Natural Docs generates its documentation in a random order.
