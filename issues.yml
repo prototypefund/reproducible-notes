@@ -95,6 +95,7 @@ random_order_in_python_environment_pickle:
   description: |
     Python doctrees writes a `environment.pickle.gz`, in a random order.
 random_order_in_dh_python_autoscripts:
+  url: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=792436
   description: |
     dh-python outputs autoscripts in a non-deterministic order (eg. pycompile)
 random_order_in_dh_python_depends:
