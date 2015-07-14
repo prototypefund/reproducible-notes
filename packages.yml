@@ -11885,16 +11885,6 @@ pepper:
   version: 0.3.2-3
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-percona-xtradb-cluster-5.5:
-  version: 5.5.39-25.11+dfsg-1
-  comments: |
-    Embeds build date/time, hostname and kernel version.
-    https://sources.debian.net/src/percona-xtradb-cluster-5.5/5.5.39-25.11%2Bdfsg-1/cmake/info_macros.cmake.in/#L94
-    https://sources.debian.net/src/percona-xtradb-cluster-5.5/5.5.39-25.11%2Bdfsg-1/cmake/info_macros.cmake.in/#L100
-    .
-    Storing the INFO_BIN (and other generated files) in /usr/share/doc/$package is not necessary and could be removed.
-  issues:
-    - captures_kernel_version
 perdition:
   version: 2.1-2
   issues:
