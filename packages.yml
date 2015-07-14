@@ -17103,8 +17103,6 @@ xchat:
     - timestamps_from_cpp_macros
 xcolorsel:
   version: 1.1a-18
-  comments: |
-    UTF-8 issue, probably due to the nroff call in ./Makefille
   issues:
     - nroff_output_varies_by_locale_or_utf8
 xdemorse:
