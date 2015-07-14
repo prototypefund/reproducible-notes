@@ -97,6 +97,9 @@ random_order_in_python_environment_pickle:
 random_order_in_dh_python_autoscripts:
   description: |
     dh-python outputs autoscripts in a non-deterministic order (eg. pycompile)
+random_order_in_dh_python_depends:
+  description: |
+    dh-python can output depends in a non-deterministic order
 random_order_in_naturaldocs:
   description: |
     Natural Docs generates its documentation in a random order.
