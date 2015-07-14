@@ -686,3 +686,6 @@ random_order_in_javahelper_depends:
   description:
     javahelper (jh_*, etc.) can generate Depends substvars in a
     non-determinstic order. Untested patch is https://gist.github.com/4a219d84e8a4091acf58
+nroff_output_varies_by_locale_or_utf8:
+  description:
+    .. either in terms of non-ASCII chars and effects on text wrapping
