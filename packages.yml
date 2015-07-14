@@ -16801,6 +16801,12 @@ wims:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/wims/1:4.08~dfsg1-1/wims/src/configure.ac/#L219
+wims-modules-es:
+  version: 3.64-2
+  comments: |
+    https://sources.debian.net/src/wims-modules-es/3.64-2/debian/makedebiancopyright.sh/
+    missing -l switch to grep on the surface but it doesn't seem to be finding
+    the right results anyway.
 wine:
   version: 1.6.2-21
   issues:
