@@ -5952,6 +5952,12 @@ hardlink:
   version: 0.3.0
   issues:
     - timestamps_from_cpp_macros
+haskell-concrete-typerep:
+  version: 0.1.0.2-4
+  comments: |
+    needs pbuilder 0.216 due to #791991
+  issues:
+    - ftbfs_in_jenkins_setup
 haskell-haskore:
   version: 0.2.0.4-1
   issues:
@@ -13567,6 +13573,12 @@ recode:
   version: 3.6-21
   issues:
     - timezone_variance_because_of_automake_mdate
+reconf-inetd:
+  version: 1.120603
+  comments: |
+    needs pbuilder 0.216 due to #791991
+  issues:
+    - ftbfs_in_jenkins_setup
 recutils:
   version: 1.7-1
   issues:
