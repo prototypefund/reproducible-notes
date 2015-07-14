@@ -406,8 +406,6 @@ apbs:
     - timestamps_from_cpp_macros
 apcalc:
   version: 2.12.5.0-1
-  comments: |
-    UTF-8 issue, probably due to the nroff call in ./Makefille
   issues:
     - nroff_output_varies_by_locale_or_utf8
 apcupsd:
