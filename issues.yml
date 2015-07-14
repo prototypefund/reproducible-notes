@@ -679,3 +679,7 @@ texinfo_mdate_sh_varies_by_timezone:
   description:
     If you use version.texi, mdate-sh will output a TZ-sensitive updated date.
     http://www.delorie.com/gnu/docs/automake/automake_81.html
+random_order_in_javahelper_depends:
+  description:
+    javahelper (jh_*, etc.) can generate Depends substvars in a
+    non-determinstic order.
