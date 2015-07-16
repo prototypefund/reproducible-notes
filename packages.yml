@@ -1942,10 +1942,6 @@ classycle:
   issues:
     - timestamps_in_jar
     - locale_in_documentation_generated_by_javadoc
-clblas:
-  version: 2.4-1
-  bugs:
-    - 790122
 clfswm:
   version: 20111015.git51b0a02-2
   issues:
@@ -4874,10 +4870,6 @@ geogebra:
   version: 4.0.34.0+dfsg1-3
   issues:
     - timestamps_generated_by_docbook_to_man
-geoip-database:
-  version: 20150317-1
-  bugs:
-    - 788275
 geomview:
   version: 1.9.5-1
   comments: |
@@ -5528,18 +5520,10 @@ golang:
     Broken by #791574 in strip-nondeterminism
   bugs:
     - 791574
-golang-blackfriday:
-  version: 1.2-1
-  bugs:
-    - 789944
 golang-doozer:
   version: 0.0~git20130909-1
   bugs:
     - 789834
-golang-ed25519-dev:
-  version: 0~20140907.d2b94fd-1
-  bugs:
-    - 791513
 golang-git2go:
   version: 0.0~git20150623-1
   bugs:
@@ -7186,10 +7170,6 @@ k3d:
   version: 0.8.0.3-7
   issues:
     - timestamps_from_cpp_macros
-kadu:
-  version: 1.3-1
-  bugs:
-    - 789840
 kalzium:
   version: 4:4.14.2-1
   issues:
@@ -8469,12 +8449,6 @@ liblip:
     - not_using_dh_builddeb
     - timestamps_in_gzip_headers
     - different_due_to_umask
-liblo:
-  version: 0.28-3
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
-  bugs:
-    - 789040
 libloader:
   version: 1.1.6.dfsg-4
   issues:
@@ -8559,12 +8533,6 @@ libmodule-extractuse-perl:
   comments: |
     Caused by non-determinism in libparse-recdescent-perl. Patch sent in
     \#790397
-libmoe:
-  version: 1.5.8-1
-  issues:
-    - timestamps_in_gzip_headers
-  bugs:
-    - 779167
 libmoosex-attribute-chained-perl:
   version: 1.0.1-1
   issues:
@@ -8618,10 +8586,6 @@ libnet-frame-device-perl:
   version: 1.10-1
   bugs:
     - 792221
-libnet-interface-perl:
-  version: 1.012-1
-  bugs:
-    - 790503
 libnet-route-perl:
   version: 0.02-1
   bugs:
@@ -8948,10 +8912,6 @@ libtango:
   version: 0.99.9.dfsg-1
   bugs:
     - 665017
-libtecla:
-  version: 1.6.2-2
-  bugs:
-    - 791525
 libtemplates-parser:
   version: 11.8.2014-3
   issues:
@@ -9254,12 +9214,6 @@ links2:
   version: 2.8-2
   issues:
     - timestamps_from_cpp_macros
-linop:
-  version: 0.8.2-2
-  issues:
-    - timestamps_in_documentation_generated_by_sphinx
-  bugs:
-    - 788402
 linthesia:
   version: 0.4.3-1
   issues:
@@ -9315,15 +9269,6 @@ liquidwar:
   issues:
     - timestamps_from_cpp_macros
     - timestamps_in_allegro_dat_files
-litecoin:
-  version: 0.8.7.4-1
-  comments: |
-    Embed build time:
-    http://sources.debian.net/src/litecoin/0.8.7.4-1/src/version.cpp/?hl=61#L61
-  issues:
-    - timestamps_in_png
-  bugs:
-    - 778984
 litl:
   version: 0.1.5+dfsg-1
   issues:
@@ -9370,13 +9315,6 @@ lm4tools:
   version: 20140816~a565880+dfsg-1
   issues:
     - timestamps_in_manpages_generated_by_help2man
-lmdb:
-  version: 0.9.14-1
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
-    - timestamps_in_manpages_generated_by_doxygen
-  bugs:
-    - 789087
 lmemory:
   version: 0.6c-7
   issues:
@@ -10282,10 +10220,6 @@ moon-buggy:
   version: 1.0.51-10
   issues:
     - timestamps_in_dvi_generated_by_latex
-moonshot-ui:
-  version: 0.7.1-3
-  bugs:
-    - 787880
 morfologik-stemming:
   version: 1.9.0+dfsg-0.1
   issues:
@@ -11008,10 +10942,6 @@ ntop:
   version: 3:5.0.1+dfsg1-2.1
   issues:
     - timestamps_from_cpp_macros
-ntopng:
-  version: 1.2.1+dfsg1-1.1
-  bugs:
-    - 790091
 ntp:
   version: 1:4.2.6.p5+dfsg-7
   comments: |
@@ -13115,10 +13045,6 @@ python-repoze.who:
   version: 1.0.18-4
   bugs:
     - 790697
-python-requirements-detector:
-  version: 0.4-1
-  bugs:
-    - 790569
 python-rtslib-fb:
   version: 2.1.45-4
   issues:
@@ -14735,10 +14661,6 @@ schroot:
   issues:
     - timestamps_in_documentation_generated_by_doxygen
     - different_due_to_umask
-scikit-learn:
-  version: 0.15.2-3
-  bugs:
-    - 791615
 scilab:
   version: 5.5.1-4
   issues:
@@ -16117,10 +16039,6 @@ transfig:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - pdf_created_by_ghostscript
-transgui:
-  version: 5.0.1-1
-  bugs:
-    - 791407
 translate-toolkit:
   version: 1.12.0+dfsg1-2
   issues:
@@ -16884,10 +16802,6 @@ vtwm:
     http://sources.debian.net/src/vtwm/5.4.7-2.2/Imakefile/?hl=177:178#L177
   issues:
     - captures_kernel_version
-vxl:
-  version: 1.17.0.dfsg-1
-  bugs:
-    - 788559
 wader:
   version: 0.5.12-2
   bugs:
