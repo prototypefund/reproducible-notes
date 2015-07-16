@@ -9853,6 +9853,10 @@ maven-plugin-tools:
   issues:
     - timestamps_in_maven_pom_files
     - date_in_maven_plugin_xml
+maven-project-info-reports-plugin:
+  version: 2.4-2
+  issues:
+    - locale_differences_in_pom
 maven-scm:
   version: 1.3-5
   issues:
