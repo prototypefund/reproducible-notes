@@ -14571,6 +14571,10 @@ runit:
     - not_using_dh_builddeb
     - timestamps_in_gzip_headers
     - different_due_to_umask
+runsnakerun:
+  version: 2.0.4-2
+  issues:
+    - different_encoding
 rurple-ng:
   version: 0.5+16-1.2
   issues:
