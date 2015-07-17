@@ -96,7 +96,7 @@ timestamps_in_python_code_generated_by_cheetah:
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInPythonCodeGeneratedByCheetah
 random_order_in_python_environment_pickle:
   description: |
-    Python doctrees writes a `environment.pickle.gz`, in a random order.
+    Python doctrees writes a `environment.pickle.gz`, in a random order and embeds encoding in some `*.doctree.gz` files.
 random_order_in_dh_python_autoscripts:
   url: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=792436
   description: |
