@@ -16830,6 +16830,10 @@ vtwm:
     http://sources.debian.net/src/vtwm/5.4.7-2.2/Imakefile/?hl=177:178#L177
   issues:
     - captures_kernel_version
+w3c-markup-validator:
+  version: 1.3+dfsg-2
+  issues:
+    - lynx_dump_varies_output_with_locale
 wader:
   version: 0.5.12-2
   bugs:
