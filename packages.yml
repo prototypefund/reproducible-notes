@@ -11778,6 +11778,10 @@ parsinsert:
   version: 1.04-1
   issues:
     - timestamps_from_cpp_macros
+parted:
+  version: 3.2-7
+  comments: |
+    Curious Make issue where the second build autoreconfs (or equivalent) whilst the first build does not, picking up new versions - timezone issues?
 passage:
   version: 4+dfsg1-2
   bugs:
