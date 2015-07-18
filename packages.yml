@@ -11786,6 +11786,8 @@ parted:
   version: 3.2-7
   comments: |
     Curious Make issue where the second build autoreconfs (or equivalent) whilst the first build does not, picking up new versions - timezone issues?
+  issues:
+    - timezone_variance_because_of_automake_mdate
 passage:
   version: 4+dfsg1-2
   bugs:
