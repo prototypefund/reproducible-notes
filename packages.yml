@@ -16023,6 +16023,12 @@ tig:
   version: 2.0.2-1
   issues:
     - timestamps_from_cpp_macros
+tiger:
+  version: 1:3.2.3-12.1
+  issues:
+    - collation_order_varies_by_locale
+  bugs:
+    - 792828
 tika:
   version: 1.5-1
   issues:
