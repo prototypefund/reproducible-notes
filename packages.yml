@@ -13921,6 +13921,10 @@ ruby-activerecord-nulldb-adapter:
   version: 0.3.1-1
   bugs:
     - 759918
+ruby-addressable:
+  version: 2.3.6-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
 ruby-aruba:
   version: 0.5.4-2
   issues:
@@ -13952,6 +13956,10 @@ ruby-bert:
     - ftbfs_uninvestigated_ruby_transition
 ruby-bluefeather:
   version: 0.41-3
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-bogus:
+  version: 0.1.5-3
   issues:
     - ftbfs_uninvestigated_ruby_transition
 ruby-builder:
@@ -14276,6 +14284,10 @@ ruby-mkrf:
   version: 0.2.3+dfsg-5
   issues:
     - ftbfs_uninvestigated_ruby_transition
+ruby-mocha:
+  version: 1.1.0-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
 ruby-mongo:
   version: 1.10.0-1
   issues:
@@ -14392,8 +14404,16 @@ ruby-redis:
   version: 3.1.0-1
   issues:
     - ftbfs_uninvestigated_ruby_transition
+ruby-redis-activesupport:
+  version: 4.0.0-2
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
 ruby-redis-namespace:
   version: 1.4.1-2
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-redis-rack:
+  version: 1.5.0-6
   issues:
     - ftbfs_uninvestigated_ruby_transition
 ruby-remcached:
@@ -14551,6 +14571,10 @@ ruby-vegas:
     - 789837
 ruby-virtus:
   version: 1.0.2-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-warden:
+  version: 1.2.3-1
   issues:
     - ftbfs_uninvestigated_ruby_transition
 ruby-webmock:
