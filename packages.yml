@@ -2955,6 +2955,8 @@ dict-jargon:
   version: 4.4.7-2
   issues:
     - timestamps_in_dictionaries
+  bugs:
+    - 792709
 dict-moby-thesaurus:
   version: 1.0-6.2
   issues:
@@ -12486,6 +12488,10 @@ presage:
   version: 0.9-1
   bugs:
     - 791409
+prettytable:
+  version: 0.7.2-3
+  bugs:
+    - 792591
 pretzel:
   version: 2.0n-2-0.3
   comments: |
@@ -12956,6 +12962,10 @@ python-fudge:
     - timestamps_in_documentation_generated_by_sphinx
   bugs:
     - 788501
+python-geopandas:
+  version: 0.1.1-1
+  bugs:
+    - 792589
 python-gflags:
   version: 1.5.1-2
   comments: |
@@ -14719,8 +14729,6 @@ sam2p:
   version: 0.49.2-3
   issues:
     - timestamps_generated_by_docbook_to_man
-samba:
-  version: 2:4.1.17+dfsg-2
 samhain:
   version: 3.1.0-7
   issues:
@@ -15303,6 +15311,10 @@ sord:
   version: 0.12.2~dfsg0-1
   issues:
     - timestamps_in_documentation_generated_by_groff
+sorl-thumbnail:
+  version: 12.2-1
+  bugs:
+    - 792576
 sourcecodegen:
   version: 0.6.14-1
   issues:
@@ -17016,6 +17028,7 @@ webdis:
   version: 0.1.1-2
   bugs:
     - 790811
+    - 785476
 webkit-sharp:
   version: 0.3-6
   issues:
