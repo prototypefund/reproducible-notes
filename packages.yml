@@ -8926,6 +8926,10 @@ libsyncml:
   version: 0.5.4-2.2
   issues:
     - timestamps_in_manpages_generated_by_doxygen
+libsynthesis:
+  version: 3.4.0.47.4-2
+  bugs:
+    - 792856
 libsysactivity:
   version: 0.6.5-4
   bugs:
@@ -10079,6 +10083,11 @@ mk-configure:
   version: 0.28.0-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+mknbi:
+  version: 1.4.4-11
+  comments: |
+    Embeds the build date into manpages.
+    https://sources.debian.net/src/mknbi/1.4.4-11/Makefile/#L213-L215
 mksh:
   version: 50d-3
   comments: |
