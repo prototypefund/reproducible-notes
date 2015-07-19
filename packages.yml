@@ -4082,7 +4082,9 @@ fis-gtm:
   bugs:
     - 791405
 fish:
-  version: 2.1.2+dfsg1-2
+  version: 2.2.0-1
+  comments: |
+    Date in several manpages affected by timezone.
   bugs:
     - 791648
 fityk:
@@ -17724,9 +17726,8 @@ xsystem35:
   issues:
     - timestamps_generated_by_docbook_to_man
 xtables-addons:
-  version: 2.6-1
+  version: 2.7-2
   issues:
-    - timestamps_in_tarball
     - different_due_to_umask
   bugs:
     - 776879
