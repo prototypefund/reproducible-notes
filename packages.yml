@@ -2955,6 +2955,8 @@ dict-jargon:
   version: 4.4.7-2
   issues:
     - timestamps_in_dictionaries
+  bugs:
+    - 792709
 dict-moby-thesaurus:
   version: 1.0-6.2
   issues:
@@ -4916,10 +4918,6 @@ geronimo-osgi-support:
   version: 1.0-2
   issues:
     - locale_in_documentation_generated_by_javadoc
-geronimo-stax-1.2-spec:
-  version: 1.1-1
-  bugs:
-    - 792158
 geronimo-validation-1.0-spec:
   version: 1.1-2
   issues:
@@ -8928,6 +8926,10 @@ libsyncml:
   version: 0.5.4-2.2
   issues:
     - timestamps_in_manpages_generated_by_doxygen
+libsynthesis:
+  version: 3.4.0.47.4-2
+  bugs:
+    - 792856
 libsysactivity:
   version: 0.6.5-4
   bugs:
@@ -10081,6 +10083,11 @@ mk-configure:
   version: 0.28.0-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+mknbi:
+  version: 1.4.4-11
+  comments: |
+    Embeds the build date into manpages.
+    https://sources.debian.net/src/mknbi/1.4.4-11/Makefile/#L213-L215
 mksh:
   version: 50d-3
   comments: |
@@ -12487,6 +12494,10 @@ presage:
   version: 0.9-1
   bugs:
     - 791409
+prettytable:
+  version: 0.7.2-3
+  bugs:
+    - 792591
 pretzel:
   version: 2.0n-2-0.3
   comments: |
@@ -12957,6 +12968,10 @@ python-fudge:
     - timestamps_in_documentation_generated_by_sphinx
   bugs:
     - 788501
+python-geopandas:
+  version: 0.1.1-1
+  bugs:
+    - 792589
 python-gflags:
   version: 1.5.1-2
   comments: |
@@ -14203,6 +14218,10 @@ ruby-i18n:
   version: 0.6.11-2
   issues:
     - ftbfs_uninvestigated_ruby_transition
+ruby-i18n-inflector-rails:
+  version: 1.0.7-2
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
 ruby-imagesize:
   version: 1:0.1.1-5
   bugs:
@@ -14405,6 +14424,10 @@ ruby-rack-protection:
     - ftbfs_uninvestigated_ruby_transition
 ruby-rack-rewrite:
   version: 1.5.0-1
+  issues:
+    - ftbfs_uninvestigated_ruby_transition
+ruby-rack-test:
+  version: 0.6.2-3
   issues:
     - ftbfs_uninvestigated_ruby_transition
 ruby-rash:
@@ -14720,8 +14743,6 @@ sam2p:
   version: 0.49.2-3
   issues:
     - timestamps_generated_by_docbook_to_man
-samba:
-  version: 2:4.1.17+dfsg-2
 samhain:
   version: 3.1.0-7
   issues:
@@ -15124,6 +15145,10 @@ sisu-ioc:
   version: 2.3.0-5
   issues:
     - timestamps_in_maven_pom_files
+sitemesh:
+  version: 2.4.1+dfsg-4
+  bugs:
+    - 792838
 skalibs:
   version: 0.47-1
   issues:
@@ -15304,6 +15329,10 @@ sord:
   version: 0.12.2~dfsg0-1
   issues:
     - timestamps_in_documentation_generated_by_groff
+sorl-thumbnail:
+  version: 12.2-1
+  bugs:
+    - 792576
 sourcecodegen:
   version: 0.6.14-1
   issues:
@@ -16012,6 +16041,12 @@ tig:
   version: 2.0.2-1
   issues:
     - timestamps_from_cpp_macros
+tiger:
+  version: 1:3.2.3-12.1
+  issues:
+    - collation_order_varies_by_locale
+  bugs:
+    - 792828
 tika:
   version: 1.5-1
   issues:
@@ -17017,6 +17052,7 @@ webdis:
   version: 0.1.1-2
   bugs:
     - 790811
+    - 785476
 webkit-sharp:
   version: 0.3-6
   issues:

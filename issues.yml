@@ -697,3 +697,8 @@ random_order_in_javahelper_depends:
 nroff_output_varies_by_locale_or_utf8:
   description:
     .. either in terms of non-ASCII chars and effects on text wrapping
+collation_order_varies_by_locale:
+  description:
+    LC_COLLATE (or LC_ALL) causes a variation in the deterministic
+    order produced by invocations like ls *.  This can usually be
+    fixed with LC_COLLATE=C.UTF-8 or LC_COLLATE=C.
