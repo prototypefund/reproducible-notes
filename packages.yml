@@ -12222,7 +12222,8 @@ pixz:
 pkg-config:
   version: 0.28-1
   comments: |
-    Captures paths, somewhat ironically. Also, appears to embed build time.
+    debian/rules captures library directories, whose order depends
+    of the locale.
   bugs:
     - 792821
 pkgconf:
