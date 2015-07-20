@@ -702,3 +702,6 @@ collation_order_varies_by_locale:
     LC_COLLATE (or LC_ALL) causes a variation in the deterministic
     order produced by invocations like ls *.  This can usually be
     fixed with LC_COLLATE=C.UTF-8 or LC_COLLATE=C.
+random_order_in_ruby_rdoc_indices:
+  description:
+    ruby's rdoc doesn't output methods in a determinstic order.
