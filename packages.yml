@@ -621,6 +621,7 @@ argus-client:
     - timestamps_in_gzip_headers
   bugs:
     - 777283
+    - 792943
 argvalidate:
   version: 0.9.0-2
   issues:
@@ -828,6 +829,7 @@ authbind:
     - not_using_dh_builddeb
   bugs:
     - 777727
+    - 792945
 auto-multiple-choice:
   version: 1.2.1-3
   issues:
@@ -1428,6 +1430,10 @@ brltty:
   version: 5.2~20141018-2
   comments: |
     Entropy from (gcc) compile or link order
+bsdmainutils:
+  version: 9.0.6
+  bugs:
+    - 792874
 bsh:
   version: 2.0b4-15
   issues:
@@ -2580,6 +2586,7 @@ cvs-mailcommit:
     - timestamps_in_gzip_headers
   bugs:
     - 776940
+    - 792947
 cvs2svn:
   version: 2.4.0-2
   comments: |
