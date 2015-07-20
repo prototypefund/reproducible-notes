@@ -7,7 +7,6 @@ timestamps_from_cpp_macros:
     captures the current time, and thus will obviously make a build
     unreproducible.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsFromCPPMacros
-  deterministic: True
 timestamps_in_h_generated_by_qdbusxml2cpp:
   description: |
     qdbusxml2cpp uses a timestamp for its anti-double-inclusion
