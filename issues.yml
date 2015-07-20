@@ -160,6 +160,7 @@ random_order_in_documentation_generated_by_javadoc:
 locale_in_documentation_generated_by_javadoc:
   description: |
     javadoc embed the current locale in a "lang" attribute of the html document.
+  deterministic: True
 timestamps_in_documentation_generated_by_groovydoc:
   description: |
     Groovydoc will add timestamps to the HTML file it produces.
