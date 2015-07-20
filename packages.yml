@@ -60,6 +60,7 @@ abook:
     - different_due_to_umask
   bugs:
     - 777271
+    - 792995
 aboot:
   version: 1.0~pre20040408-4
   issues:
@@ -315,6 +316,7 @@ angband-doc:
     - not_using_dh_builddeb
   bugs:
     - 777729
+    - 792994
 anjuta:
   version: 2:3.14.0-1
   issues:
@@ -1090,6 +1092,7 @@ bcron:
     - different_due_to_umask
   bugs:
     - 777288
+    - 792996
 beansbinding:
   version: 1.2.1-1
   issues:
@@ -1101,6 +1104,7 @@ beav:
     - timestamps_in_gzip_headers
   bugs:
     - 777287
+    - 793000
 beep:
   version: 1.3-3
   issues:
@@ -1304,6 +1308,7 @@ blosxom:
     - different_due_to_umask
   bugs:
     - 777292
+    - 793001
 bmake:
   version: 20140620-3
   issues:
@@ -1677,6 +1682,7 @@ ccze:
     - different_due_to_umask
   bugs:
     - 777297
+    - 792950
 cd-hit:
   version: 4.6.1-2012-08-27-2
   issues:
@@ -1790,6 +1796,7 @@ cgilib:
     - timestamps_in_gzip_headers
   bugs:
     - 776935
+    - 793002
 cgit:
   version: 0.10.2.git2.0.1-3
   issues:
@@ -1806,6 +1813,8 @@ cgoban:
   version: 1.9.14-17
   issues:
     - not_using_dh_builddeb
+  bugs:
+    - 792993
 cgsi-gsoap:
   version: 1.3.6-1
   issues:
@@ -1849,6 +1858,7 @@ checkpw:
     - different_due_to_umask
   bugs:
     - 777299
+    - 793005
 checkstyle:
   version: 5.9-1
   comments: |
@@ -1879,6 +1889,7 @@ chiark-utils:
     - not_using_dh_builddeb
   bugs:
     - 777300
+    - 792998
 chimera2:
   version: 2.0a19-8
   issues:
@@ -1886,6 +1897,7 @@ chimera2:
     - timestamps_in_gzip_headers
   bugs:
     - 777302
+    - 792949
 chipw:
   version: 2.0.6-1.2
   issues:
@@ -2254,6 +2266,7 @@ console-cyrillic:
     - not_using_dh_builddeb
   bugs:
     - 777304
+    - 792999
 console-setup:
   version: 1.116
   bugs:
@@ -2641,6 +2654,7 @@ daemontools:
     - different_due_to_umask
   bugs:
     - 776876
+    - 793003
 dahdi-linux:
   version: 1:2.10.0.1~dfsg-1
   issues:
@@ -2761,6 +2775,7 @@ dbview:
     - timestamps_in_gzip_headers
   bugs:
     - 777058
+    - 792951
 dc-qt:
   version: 0.2.0.alpha-4.2
   bugs:
@@ -2814,6 +2829,7 @@ debdelta:
     - different_due_to_umask
   bugs:
     - 777730
+    - 793004
 debian-builder:
   version: 1.8
   issues:
@@ -2943,6 +2959,7 @@ dhcpdump:
     - not_using_dh_builddeb
   bugs:
     - 777309
+    - 792952
 dhcping:
   version: 1.2-4.1
   issues:
@@ -2950,6 +2967,7 @@ dhcping:
     - not_using_dh_builddeb
   bugs:
     - 777320
+    - 792953
 dia:
   version: 0.97.3-1
   issues:
@@ -3179,6 +3197,7 @@ dpatch:
     - different_due_to_umask
   bugs:
     - 776937
+    - 792954
 dpkg:
   version: 1.18.1.0~reproducible5
   issues:
@@ -3197,6 +3216,7 @@ dput:
     - different_due_to_umask
   bugs:
     - 777375
+    - 792955
 dput-ng:
   version: 1.9
   issues:
@@ -3233,6 +3253,7 @@ dropbear:
     - different_due_to_umask
   bugs:
     - 777324
+    - 793006
 drumkv1:
   version: 0.5.1-1
   issues:
@@ -3256,6 +3277,7 @@ dtaus:
     - timestamps_in_gzip_headers
   bugs:
     - 777321
+    - 792958
 dtc-xen:
   version: 0.5.17-1
   issues:
@@ -3493,6 +3515,7 @@ elida:
     - timestamps_in_gzip_headers
   bugs:
     - 776955
+    - 792959
 elk:
   version: 3.99.8-2.1
   issues:
@@ -3549,6 +3572,7 @@ enemies-of-carlotta:
     - timestamps_in_gzip_headers
   bugs:
     - 777449
+    - 792961
 enigma:
   version: 1.20-dfsg.1-2
   issues:
@@ -3601,6 +3625,7 @@ erc:
     - different_due_to_umask
   bugs:
     - 776967
+    - 792963
 ergo:
   version: 3.4.0-1
   comments: |
@@ -3877,6 +3902,7 @@ fastforward:
     - different_due_to_umask
   bugs:
     - 776972
+    - 792965
 fastjet:
   version: 3.0.6+dfsg-1
   issues:
@@ -4046,6 +4072,7 @@ fgetty:
     - different_due_to_umask
   bugs:
     - 776966
+    - 792967
 fhist:
   version: 1.18-1
   issues:
@@ -4190,6 +4217,7 @@ flowscan:
     - not_using_dh_builddeb
   bugs:
     - 786927
+    - 792969
 flowscan-cuflow:
   version: 1.7-8
   issues:
@@ -4460,6 +4488,7 @@ fortunes-bg:
     - not_using_dh_builddeb
   bugs:
     - 777484
+    - 792970
 fortunes-es:
   version: 1.32
   issues:
@@ -4495,6 +4524,7 @@ freecdb:
     - different_due_to_umask
   bugs:
     - 777410
+    - 792989
 freecol:
   version: 0.10.7+dfsg-3
   issues:
@@ -4630,6 +4660,7 @@ ftpcopy:
     - different_due_to_umask
   bugs:
     - 777409
+    - 792982
 ftplib:
   version: 3.1-1-9
   comments: |
@@ -4965,6 +4996,7 @@ gerstensaft:
     - not_using_dh_builddeb
   bugs:
     - 777414
+    - 792983
 getdp:
   version: 2.4.2-1
   bugs:
@@ -5673,6 +5705,7 @@ gpsmanshp:
     - different_due_to_umask
   bugs:
     - 777446
+    - 792991
 gpt:
   version: 1.1-2
   bugs:
@@ -6475,6 +6508,7 @@ integrit:
     - different_due_to_umask
   bugs:
     - 776973
+    - 792984
 intercal:
   version: 30:0.30-1
   issues:
@@ -6511,6 +6545,7 @@ ipsvd:
     - different_due_to_umask
   bugs:
     - 777417
+    - 792985
 iptotal:
   version: 0.3.3-13
   comments: |
@@ -6781,6 +6816,7 @@ jargon:
     - not_using_dh_builddeb
   bugs:
     - 777483
+    - 792987
 jargon-text:
   version: 4.4.7-4
   issues:
@@ -7190,6 +7226,8 @@ junior-doc:
     - not_using_dh_builddeb
     - timestamps_in_gzip_headers
     - timestamps_in_dvi_generated_by_latex
+  bugs:
+    - 792971
 junitperf:
   version: 1.9.1-8
   issues:
@@ -8289,6 +8327,8 @@ libjama:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
     - different_due_to_umask
+  bugs:
+    - 792972
 libjava-jdbc-clojure:
   version: 0.2.2-2
   issues:
@@ -8511,6 +8551,8 @@ liblip:
     - not_using_dh_builddeb
     - timestamps_in_gzip_headers
     - different_due_to_umask
+  bugs:
+    - 792973
 libloader:
   version: 1.1.6.dfsg-4
   issues:
@@ -8520,6 +8562,8 @@ liblockfile:
   issues:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
+  bugs:
+    - 792974
 liblouis:
   version: 2.5.3-3
   issues:
@@ -8614,6 +8658,8 @@ libmsv:
     - not_using_dh_builddeb
     - timestamps_in_gzip_headers
     - different_due_to_umask
+  bugs:
+    - 792975
 libmtp:
   version: 1.1.8-1
   issues:
@@ -9423,6 +9469,8 @@ logapp:
     - not_using_dh_builddeb
     - timestamps_from_cpp_macros
     - different_due_to_umask
+  bugs:
+    - 792976
 logback:
   version: 1.1.2-1
   issues:
@@ -9520,6 +9568,8 @@ luakit:
   issues:
     - not_using_dh_builddeb
     - different_due_to_umask
+  bugs:
+    - 792977
 luarocks:
   version: 2.2.0+dfsg-1
   issues:
@@ -10696,6 +10746,8 @@ nec:
   issues:
     - not_using_dh_builddeb
     - timestamps_in_gzip_headers
+  bugs:
+    - 792978
 nedit:
   version: 1:5.6a-2
   comments: |
@@ -14715,6 +14767,8 @@ runit:
     - not_using_dh_builddeb
     - timestamps_in_gzip_headers
     - different_due_to_umask
+  bugs:
+    - 792979
 runsnakerun:
   version: 2.0.4-2
   issues:
@@ -15198,6 +15252,8 @@ skalibs:
   issues:
     - not_using_dh_builddeb
     - timestamps_in_gzip_headers
+  bugs:
+    - 792990
 sketch:
   version: 1:0.3.7-1
   issues:
@@ -16496,6 +16552,8 @@ tworld:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
     - different_due_to_umask
+  bugs:
+    - 792980
 txtorcon:
   version: 0.11.0-1
   issues:
@@ -16686,6 +16744,8 @@ uruk:
   version: 20150401-1
   issues:
     - not_using_dh_builddeb
+  bugs:
+    - 792986
 urweb:
   version: 20150214+dfsg-1
   issues:
@@ -17231,6 +17291,8 @@ wmweather:
   version: 2.4.5-2
   issues:
     - not_using_dh_builddeb
+  bugs:
+    - 792981
 wmweather+:
   version: 2.15-1.1
   comments: |
@@ -17422,6 +17484,7 @@ xbs:
     - not_using_dh_builddeb
   bugs:
     - 777007
+    - 792988
 xca:
   version: 1.0.0-2
   issues:
