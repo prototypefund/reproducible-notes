@@ -3553,6 +3553,10 @@ ergo:
     - blacklisted_on_jenkins
   bugs:
     - 775362
+erlang:
+  version: 1:18.0-dfsg-1
+  issues:
+    - timestamps_in_beam_files
 erlang-bear:
   version: 0.8.2+dfsg-1
   issues:
