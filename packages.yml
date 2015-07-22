@@ -14462,6 +14462,10 @@ seyon:
   comments: |
     Embeds the build date, time, user, hostname, ...
     https://sources.debian.net/src/seyon/2.20c-31/makever.sh/#L41-L46
+sfepy:
+  version: 2015.1-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 sflphone:
   version: 1.4.1-0.1
   bugs:
