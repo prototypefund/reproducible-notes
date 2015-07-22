@@ -2839,6 +2839,12 @@ debomatic:
   version: 0.13-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+deejayd:
+  version: 0.10.0-6
+  issues:
+    - timestamps_in_zip
+  bugs:
+    - 793300
 dejagnu:
   version: 1.5.1-2
   comments: |
@@ -11496,6 +11502,8 @@ pdf.js:
   version: 1.1.215+dfsg-1
   issues:
     - timestamps_difference_by_unzip
+  bugs:
+    - 793127
 pdfminer:
   version: 20110515+dfsg-1
   issues:
@@ -15643,6 +15651,8 @@ torbutton:
     https://sources.debian.net/src/torbutton/1.4.6.3-1/makexpi.sh/#L22
   issues:
     - timestamps_difference_by_unzip
+  bugs:
+    - 793126
 torque:
   version: 2.4.16+dfsg-1.5
   comments: |
