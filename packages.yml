@@ -1440,9 +1440,10 @@ buildapp:
   issues:
     - variation_in_compilation
 bullet:
-  version: 2.82-r2704+dfsg-2
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
+  version: 2.83.5+dfsg-1
+  comments: |
+    Some images in the documentation are sometimes called `*__coll__*.png`, and
+    sometimes `*__inherit__*.png`.
 bup:
   version: 0.25-1
   comments: |
