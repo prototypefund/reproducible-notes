@@ -695,14 +695,14 @@ asn1c:
     The only issue is in `asn1c-usage.pdf`.
   issues:
     - fonts_in_pdf_files
-aspectj:
-  version: 1.8.5-1
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 aspectc++:
   version: 1:1.2-1
   issues:
     - timestamps_generated_by_docbook_to_man
+aspectj:
+  version: 1.8.5-1
+  issues:
+    - locale_in_documentation_generated_by_javadoc
 aspectj-maven-plugin:
   version: 1.7-1
   issues:
@@ -1602,6 +1602,8 @@ canl-java:
   version: 2.1.1-1
   issues:
     - timestamps_in_documentation_generated_by_javadoc
+  bugs:
+    - 793318
 canna-shion:
   version: 0.0.20010204-12
   comments: |
@@ -17422,10 +17424,14 @@ zope.sqlalchemy:
   version: 0.6.1-2
   issues:
     - ftbfs_due_to_python_packaging_problems
+  bugs:
+    - 793319
 zope.traversing:
   version: 3.13.2-2
   issues:
     - ftbfs_due_to_python_packaging_problems
+  bugs:
+    - 788697
 zorp:
   version: 3.9.5-4
   comments: |
