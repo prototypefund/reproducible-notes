@@ -10145,6 +10145,10 @@ mydumper:
   version: 0.6.1-1
   issues:
     - timestamps_in_manpages_generated_by_sphinx
+myghty:
+  version: 1.1-5
+  comments: |
+    https://sources.debian.net/src/myghty/1.1-5/doc/components/doclib.myt/#L171 embeds the last modification of the source file into the generated html documents, but sadly it does so in a timezone dependending way...
 mylvmbackup:
   version: 0.15-1
   bugs:
