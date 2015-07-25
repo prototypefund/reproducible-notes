@@ -2817,6 +2817,10 @@ debian-builder:
     - timestamps_in_gzip_headers
   bugs:
     - 777009
+debian-edu:
+  version: 1.812
+  comments: |
+    I think this is caused by blends:devtools/blend-install-helper+36 missing -a switch to grep but cannot reproduce locally atm
 debian-edu-artwork:
   version: 0.52-2
   issues:
