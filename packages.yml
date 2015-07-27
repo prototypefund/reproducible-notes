@@ -1624,10 +1624,6 @@ caret:
   version: 5.6.4~dfsg.1-3
   issues:
     - timestamps_from_cpp_macros
-carettah:
-  version: 0.3.0-1
-  bugs:
-    - 788781
 carrotsearch-hppc:
   version: 0.6.1-1
   issues:
@@ -6016,24 +6012,10 @@ haskell-concrete-typerep:
     needs pbuilder 0.216 due to #791991
   issues:
     - ftbfs_in_jenkins_setup
-haskell-haskore:
-  version: 0.2.0.4-1
-  issues:
-    - timestamps_in_pdf_generated_by_latex
 haskell-hoogle:
   version: 4.2.33-4
   issues:
     - build_id_variation_requiring_further_investigation
-haskell-leksah:
-  version: 0.12.1.3-6
-  issues:
-    - ftbfs_uninvestigated_unsatisfiable_dependencies
-haskell-leksah-server:
-  version: 0.12.1.2-3
-  issues:
-    - ftbfs_uninvestigated_unsatisfiable_dependencies
-  bugs:
-    - 790138
 haskell-mode:
   version: 13.10-3
   issues:
