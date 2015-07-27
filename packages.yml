@@ -1624,6 +1624,10 @@ caret:
   version: 5.6.4~dfsg.1-3
   issues:
     - timestamps_from_cpp_macros
+carettah:
+  version: 0.3.0-1
+  bugs:
+    - 788781
 carrotsearch-hppc:
   version: 0.6.1-1
   issues:
@@ -6016,6 +6020,10 @@ haskell-hoogle:
   version: 4.2.33-4
   issues:
     - build_id_variation_requiring_further_investigation
+haskell-leksah-server:
+  version: 0.12.1.2-3
+  bugs:
+    - 790138
 haskell-mode:
   version: 13.10-3
   issues:
@@ -6987,6 +6995,7 @@ joe:
     - timestamps_in_gzip_headers
   bugs:
     - 777726
+    - 793696
 josm:
   version: 0.0.svn7643+dfsg1-1
   comments: |
@@ -7506,6 +7515,7 @@ ldapvi:
     - different_due_to_umask
   bugs:
     - 777490
+    - 793702
 ldns:
   version: 1.6.17-5
   bugs:
@@ -7525,6 +7535,7 @@ leave:
     - not_using_dh_builddeb
   bugs:
     - 777403
+    - 793694
 ledger:
   version: 3.1+dfsg1-2
   issues:
@@ -8698,6 +8709,7 @@ libtnt:
     - different_due_to_umask
   bugs:
     - 777428
+    - 793695
 libtomcrypt:
   version: 1.17-6
   issues:
@@ -9132,6 +9144,7 @@ lpe:
     - different_due_to_umask
   bugs:
     - 778197
+    - 793697
 lprng:
   version: 3.8.B-2
   bugs:
@@ -9293,6 +9306,7 @@ magicfilter:
     - timestamps_in_gzip_headers
   bugs:
     - 777448
+    - 793698
 magics++:
   version: 2.22.7.dfsg.1-4
   issues:
@@ -9337,6 +9351,7 @@ mailfront:
     - different_due_to_umask
   bugs:
     - 777431
+    - 793699
 mailman-api:
   version: 0.2.9-1
   issues:
@@ -9350,6 +9365,7 @@ mailto:
     - not_using_dh_builddeb
   bugs:
     - 777413
+    - 793700
 mailutils:
   version: 1:2.99.98-2
   issues:
@@ -9450,6 +9466,7 @@ markdown:
     - timezones_manpages_podman
   bugs:
     - 776925
+    - 793701
 marsshooter:
   version: 0.7.5-2
   issues:
@@ -9696,6 +9713,7 @@ mime-support:
     - not_using_dh_builddeb
   bugs:
     - 776939
+    - 793705
 mimefilter:
   version: 1.7+nmu1
   comments: |
@@ -9705,6 +9723,7 @@ mimefilter:
     - not_using_dh_builddeb
   bugs:
     - 777486
+    - 793704
 mina2:
   version: 2.0.7+dfsg-2
   issues:
@@ -10026,6 +10045,7 @@ mpack:
     - not_using_dh_builddeb
   bugs:
     - 777376
+    - 793706
 mpfi:
   version: 1.5.1+ds-1
   issues:
@@ -10385,6 +10405,7 @@ netmaze:
     - timestamps_in_gzip_headers
   bugs:
     - 778200
+    - 793731
 netmrg:
   version: 0.20-7
   comments: |
@@ -10406,6 +10427,7 @@ netris:
     - different_due_to_umask
   bugs:
     - 778201
+    - 793707
 netrw:
   version: 1.3.2-2
   comments: |
@@ -10516,6 +10538,7 @@ nitpic:
     - timestamps_in_gzip_headers
   bugs:
     - 777492
+    - 793708
 nkf:
   version: 2.13-4
   issues:
@@ -11874,6 +11897,7 @@ pixmap:
     - not_using_dh_builddeb
   bugs:
     - 777430
+    - 793709
 pkg-config:
   version: 0.28-1
   comments: |
@@ -12085,6 +12109,7 @@ postfix-gld:
     - timestamps_in_gzip_headers
   bugs:
     - 777504
+    - 793710
 postgis:
   version: 2.1.4+dfsg-2
   issues:
@@ -12964,6 +12989,7 @@ qmail-run:
     - different_due_to_umask
   bugs:
     - 776952
+    - 793711
 qmail-tools:
   version: 0.1.0
   issues:
@@ -13292,6 +13318,7 @@ ratfor:
     - timestamps_in_gzip_headers
   bugs:
     - 778204
+    - 793712
 ratpoison:
   version: 1.4.8-1
   issues:
@@ -13315,6 +13342,7 @@ rbootd:
     - timestamps_in_gzip_headers
   bugs:
     - 776951
+    - 793713
 rc:
   version: 1.7.2-1
   comments: |
@@ -13500,6 +13528,7 @@ rockdodger:
     - not_using_dh_builddeb
   bugs:
     - 778205
+    - 793714
 root-system:
   version: 5.34.19+dfsg-1.1
   issues:
@@ -13530,6 +13559,7 @@ rsbackup:
     - not_using_dh_builddeb
   bugs:
     - 777394
+    - 793716
 rss2irc:
   version: 1.0.6-3
   issues:
@@ -14308,6 +14338,7 @@ rungetty:
     - different_due_to_umask
   bugs:
     - 777447
+    - 793717
 runit:
   version: 2.1.2-3
   issues:
@@ -14411,6 +14442,7 @@ sauce:
     - not_using_dh_builddeb
   bugs:
     - 777401
+    - 793718
 savi:
   version: 1.4.6-1
   comments: |
@@ -14567,6 +14599,7 @@ sendfile:
     - timestamps_in_gzip_headers
   bugs:
     - 776938
+    - 793719
 sensible-utils:
   version: 0.0.9
   issues:
@@ -14631,6 +14664,7 @@ sgmltools-lite:
     - not_using_dh_builddeb
   bugs:
     - 777011
+    - 793720
 sgrep:
   version: 1.94a-4
   issues:
@@ -14685,6 +14719,7 @@ signify:
     - not_using_dh_builddeb
   bugs:
     - 777062
+    - 793721
 sikuli:
   version: 1.0~x~rc3.tesseract3-dfsg1-8
   issues:
@@ -14851,6 +14886,7 @@ slrnface:
     - different_due_to_umask
   bugs:
     - 777425
+    - 793722
 sludge:
   version: 2.2.1-1
   issues:
@@ -14923,6 +14959,7 @@ socklog:
     - different_due_to_umask
   bugs:
     - 777419
+    - 793723
 socks4-server:
   version: 4.3.beta2-18
   bugs:
@@ -15151,6 +15188,7 @@ ssmtp:
     - not_using_dh_builddeb
   bugs:
     - 777398
+    - 793724
 ssvnc:
   version: 1.0.29-2
   issues:
@@ -15285,6 +15323,7 @@ supercat:
     - different_due_to_umask
   bugs:
     - 777396
+    - 793725
 supermin:
   version: 5.1.13-3
   issues:
@@ -15425,6 +15464,7 @@ taggrepper:
     - different_due_to_umask
   bugs:
     - 777725
+    - 793726
 tagsoup:
   version: 1.2.1+-1
   issues:
@@ -15535,6 +15575,7 @@ tetradraw:
     - different_due_to_umask
   bugs:
     - 777426
+    - 793727
 tetrinet:
   version: 0.11+CVS20070911-1
   issues:
@@ -15580,6 +15621,7 @@ the:
     - different_due_to_umask
   bugs:
     - 777370
+    - 793728
 themonospot:
   version: 0.7.3.1-6
   issues:
@@ -15676,6 +15718,7 @@ tinydyndns:
     - different_due_to_umask
   bugs:
     - 776929
+    - 793729
 tinyirc:
   version: 1:1.1.dfsg.1-3
   bugs:
@@ -15875,6 +15918,7 @@ trscripts:
     - not_using_dh_builddeb
   bugs:
     - 776927
+    - 793730
 trueprint:
   version: 5.4-1
   issues:
