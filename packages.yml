@@ -9636,6 +9636,12 @@ mediawiki-math:
   version: 2:1.0+git20120528-8
   issues:
     - randomness_in_ocaml_a_files
+medicalterms:
+  version: 20110608-1
+  issues:
+    - collation_order_varies_by_locale
+  bugs:
+    - 793813
 megaglest:
   version: 3.9.1-1
   issues:
