@@ -14704,6 +14704,10 @@ siege:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/siege/3.0.8-1/configure.ac/#L22
+sigil:
+  version: 0.8.4+dfsg-1
+  issues:
+    - timestamps_from_cpp_macros
 signify:
   version: 1.14-1
   issues:
