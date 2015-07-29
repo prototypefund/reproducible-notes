@@ -709,3 +709,4 @@ haskell_devscripts_locale_substvars:
   description:
     dh_haskell_depends doesn't support UTF-8 encoded debian/control files
     resulting in differing dependencies when building {in,outside} UTF-8.
+  url: https://bugs.debian.org/793944
