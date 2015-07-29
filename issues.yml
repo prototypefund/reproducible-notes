@@ -705,3 +705,7 @@ collation_order_varies_by_locale:
 random_order_in_ruby_rdoc_indices:
   description:
     ruby's rdoc doesn't output methods in a determinstic order.
+haskell_devscripts_locale_substvars:
+  description:
+    dh_haskell_depends doesn't support UTF-8 encoded debian/control files
+    resulting in differing dependencies when building {in,outside} UTF-8.
