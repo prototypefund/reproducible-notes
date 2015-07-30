@@ -1009,12 +1009,6 @@ barnowl:
     Random order of files and timestamps in zip file with .par extension.
   issues:
     - different_due_to_umask
-base-passwd:
-  version: 3.5.37
-  comments: |
-    locale/utf-8 varying output due to sgmltools (?)
-  bugs:
-    - 792520
 basemap:
   version: 1.0.7+dfsg-1
   issues:
