@@ -386,6 +386,10 @@ apache-curator:
   version: 2.7.1-1
   issues:
     - timestamps_in_maven_pom_files
+apache-log4j-extras1.2:
+  version: 1.2.17-1
+  issues:
+    - different_encoding
 apache-log4j2:
   version: 2.2-1
   issues:
@@ -3013,6 +3017,10 @@ dime:
   version: 0.20111205-2
   bugs:
     - 787918
+ding:
+  version: 1.8-1
+  issues:
+    - different_encoding
 diploma:
   version: 1.2.11
   issues:
@@ -3749,6 +3757,10 @@ esorex:
     - timestamps_in_manpages_generated_by_help2man
 espresso:
   version: 5.1+dfsg-3
+  issues:
+    - timestamps_in_pdf_generated_by_latex
+ess:
+  version: 15.03-1-2
   issues:
     - timestamps_in_pdf_generated_by_latex
 essays1743:
@@ -6909,6 +6921,10 @@ jglobus:
   version: 2.1.0-1
   issues:
     - timestamps_in_documentation_generated_by_javadoc
+jgromacs:
+  version: 1.0-1
+  issues:
+    - different_encoding
 jhdf:
   version: 2.9-3
   issues:
@@ -8068,6 +8084,14 @@ libio-socket-multicast6-perl:
   version: 0.03-3
   bugs:
     - 788759
+libiscwt-java:
+  version: 5.3.20100629-3
+  issues:
+    - different_encoding
+libisrt-java:
+  version: 4.8.20100629-2
+  issues:
+    - different_encoding
 libitext-java:
   version: 2.1.7-9
   issues:
@@ -8297,6 +8321,10 @@ liblockfile:
     - not_using_dh_builddeb
   bugs:
     - 792974
+liblog4ada:
+  version: 1.2-5
+  issues:
+    - fonts_in_pdf_files
 liblouis:
   version: 2.5.3-3
   issues:
@@ -11488,6 +11516,10 @@ parted:
     Curious Make issue where the second build autoreconfs (or equivalent) whilst the first build does not, picking up new versions - timezone issues?
   issues:
     - timezone_variance_because_of_automake_mdate
+pasdoc:
+  version: 0.13.0-1
+  issues:
+    - fonts_in_pdf_files
 passage:
   version: 4+dfsg1-2
   bugs:
@@ -11782,6 +11814,10 @@ php-guzzlehttp:
   version: 5.3.0-1
   bugs:
     - 790438
+php-guzzlehttp-ringphp:
+  version: 1.1.0-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 php-htmlpurifier:
   version: 4.6.0-1
   issues:
@@ -12834,6 +12870,10 @@ python-webob:
   version: 1.4-2
   issues:
     - randomness_in_documentation_generated_by_sphinx
+python-whoosh:
+  version: 2.7.0-1
+  issues:
+    - randomness_in_objects_inv
 python-wsgi-intercept:
   version: 0.8.1-2
   bugs:
@@ -14977,6 +15017,10 @@ sorl-thumbnail:
   version: 12.2-1
   bugs:
     - 792576
+soundscaperenderer:
+  version: 0.4.2~dfsg-2
+  issues:
+    - fonts_in_pdf_files
 sourcecodegen:
   version: 0.6.14-1
   issues:
@@ -15398,6 +15442,10 @@ sympy:
   version: 0.7.5-4
   issues:
     - timestamps_in_pdf_generated_by_latex
+synaptic:
+  version: 0.81.4
+  issues:
+    - different_encoding
 syncevolution:
   version: 1.4.99.4-3
   issues:
@@ -17409,6 +17457,10 @@ zeitgeist-sharp:
   version: 0.8.0.0-5
   issues:
     - timestamps_in_pe_binaries
+zemberek-ooo:
+  version: 1.0~rc2-10.4
+  issues:
+    - different_encoding
 zephyr:
   version: 3.1.2-1
   comments: |
