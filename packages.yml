@@ -754,6 +754,8 @@ at:
   version: 3.1.16-1
   issues:
     - different_due_to_umask
+  bugs:
+    - 793996
 atdgen:
   version: 1.3.1-1
   issues:
@@ -3295,6 +3297,10 @@ dvswitch:
   version: 0.8.3.6-1.2
   bugs:
     - 747868
+dwarves-dfsg:
+  version: 1.10-2
+  bugs:
+    - 764484
 dwb:
   version: 20140702hg-1
   issues:
@@ -5987,6 +5993,8 @@ gzip:
   version: 1.6-4
   issues:
     - timezone_variance_because_of_automake_mdate
+  bugs:
+    - 794011
 halibut:
   version: 1.0+svn20090906-9
   comments: |
@@ -9155,6 +9163,7 @@ lsof:
   version: 4.86+dfsg-1
   bugs:
     - 762433
+    - 793980
 ltsp:
   version: 5.5.4-2
   issues:
@@ -9879,6 +9888,8 @@ moin:
   version: 1.9.8-1
   issues:
     - timestamps_in_zip
+  bugs:
+    - 794014
 mojarra:
   version: 2.2.8-1
   issues:
