@@ -3184,10 +3184,10 @@ dpatch:
     - 792954
 dpkg:
   version: 1.18.1.0~reproducible5
-  issues:
-    - ftbfs_in_jenkins_setup
   comments: |
     see http://lists.alioth.debian.org/pipermail/reproducible-builds/Week-of-Mon-20150727/002569.html for more info…
+  issues:
+    - ftbfs_in_jenkins_setup
 dpsyco:
   version: 1.0.36
   issues:
@@ -4537,6 +4537,13 @@ freeplane:
   version: 1.3.12-1
   issues:
     - timestamps_in_png
+freeplayer:
+  version: 20070531+dfsg.1-3
+  comments: |
+    The macro used (__DATE__) is in the sources of a compressed file,
+    share/fbx-playlist-1.1.tar.gz.
+  issues:
+    - timestamps_from_cpp_macros
 freeradius:
   version: 2.2.5+dfsg-0.2
   issues:
