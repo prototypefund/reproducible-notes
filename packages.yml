@@ -4976,6 +4976,10 @@ gfs2-utils:
   version: 3.1.3-1.1
   issues:
     - timestamps_from_cpp_macros
+gfxboot:
+  version: 4.5.2-1.1-5
+  issues:
+    - different_encoding
 ghc-testsuite:
   version: 7.8.4-1
   comments: |
@@ -13336,6 +13340,10 @@ rdkit:
   version: 201503-1
   issues:
     - use_epydoc
+rdp-readseq:
+  version: 2.0.2-1
+  issues:
+    - different_encoding
 re2c:
   version: 0.13.5-1
   comments: |
@@ -16413,6 +16421,10 @@ xcolorsel:
   version: 1.1a-18
   issues:
     - nroff_output_varies_by_locale_or_utf8
+xcrysden:
+  version: 1.5.60-1
+  issues:
+    - different_encoding
 xdemorse:
   version: 2.9-2
   bugs:
