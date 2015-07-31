@@ -3185,7 +3185,9 @@ dpatch:
 dpkg:
   version: 1.18.1.0~reproducible5
   issues:
-    - ftbfs_uninvestigated_big_packages
+    - ftbfs_in_jenkins_setup
+  comments: |
+    h01ger will write a mail explaining this soon and then link to this mail here.
 dpsyco:
   version: 1.0.36
   issues:
