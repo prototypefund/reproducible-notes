@@ -13717,6 +13717,12 @@ ruby-kakasi-ffi:
   version: 1.0.1-1
   bugs:
     - 762133
+ruby-kgio:
+  version: 2.9.3-1
+  comments: |
+    needs /proc/sys/net/ipv4/tcp_fastopen
+  issues:
+    - ftbfs_in_jenkins_setup
 ruby-kramdown:
   version: 1.4.2-1
   issues:
