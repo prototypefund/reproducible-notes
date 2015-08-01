@@ -12278,12 +12278,6 @@ ptouch-driver:
   version: 1.3-8
   issues:
     - ppds_compressed_b64
-publican:
-  version: 4.3.0-1
-  comments: |
-    debbindiff crashes on unstable, FTBFS due to failed tests in testing
-  issues:
-    - debbindiff_crashes
 puppet-lint:
   version: 1.1.0-1
   comments: |
