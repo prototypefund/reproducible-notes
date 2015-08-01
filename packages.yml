@@ -6436,8 +6436,11 @@ insighttoolkit:
     - timestamps_from_cpp_macros
 insighttoolkit4:
   version: 4.6.0-3
+  comments: |
+    this go -ENOSCP way too often. unblacklist once something wiser to build big packages has been found
   issues:
     - different_due_to_umask
+    - blacklisted_on_jenkins
 installation-guide:
   version: 20150423
   issues:
