@@ -834,7 +834,6 @@ authbind:
     - not_using_dh_builddeb
   bugs:
     - 777727
-    - 792945
 auto-multiple-choice:
   version: 1.2.1-3
   issues:
@@ -1475,10 +1474,6 @@ bytecode:
     - timestamps_in_jar
     - timestamps_in_documentation_generated_by_javadoc
     - locale_in_documentation_generated_by_javadoc
-byzanz:
-  version: 0.3.0+git20140619-1
-  bugs:
-    - 791910
 bzflag:
   version: 2.4.2+ds1-5
   issues:
@@ -1500,11 +1495,6 @@ ca-certificates-java:
   version: 20140324
   issues:
     - timestamps_in_jar
-cabal-debian:
-  version: 4.17.4-1
-  issues:
-    - not_using_dh_builddeb
-    - timestamps_in_gzip_headers
 cableswig:
   version: 0.1.0+cvs20111009-1.1
   comments: |
@@ -2314,52 +2304,18 @@ cpio:
     - timestamps_in_gzip_headers
   bugs:
     - 774426
-cpl-plugin-amber:
-  version: 4.3.3+dfsg-3
-  bugs:
-    - 792932
-cpl-plugin-fors:
-  version: 5.0.11+dfsg-3
-  bugs:
-    - 792933
-cpl-plugin-giraf:
-  version: 2.14+dfsg-3
-  bugs:
-    - 792935
-cpl-plugin-hawki:
-  version: 1.8.18+dfsg-3
-  bugs:
-    - 792936
-cpl-plugin-kmos:
-  version: 1.3.12+dfsg-3
-  bugs:
-    - 792937
-cpl-plugin-muse:
-  version: 1.0.4+dfsg-3
-  bugs:
-    - 792938
 cpl-plugin-sinfo:
   version: 2.6.0+dfsg-3
   issues:
     - randomness_in_documentation_generated_by_sphinx
-  bugs:
-    - 792939
 cpl-plugin-uves:
   version: 5.5.2+dfsg-3
   issues:
     - randomness_in_documentation_generated_by_sphinx
-  bugs:
-    - 792940
-cpl-plugin-vimos:
-  version: 2.9.15+dfsg-4
-  bugs:
-    - 792941
 cpl-plugin-visir:
   version: 3.5.1+dfsg-2
   issues:
     - randomness_in_documentation_indices_generated_by_sphinx
-  bugs:
-    - 792942
 cpm:
   version: 0.32-1
   issues:
@@ -2687,10 +2643,6 @@ dash:
     - different_due_to_umask
   bugs:
     - 774425
-datanommer.consumer:
-  version: 0.6.1-1
-  bugs:
-    - 793520
 datapacker:
   version: 1.0.1+nmu2
   issues:
@@ -3121,10 +3073,6 @@ doc-linux-fr:
   version: 2013.01-2
   issues:
     - timestamps_generated_by_docbook_to_man
-docbook-dsssl:
-  version: 1.79-7
-  bugs:
-    - 792763
 docbook-utils:
   version: 0.6.14-3
   issues:
@@ -3318,10 +3266,6 @@ dvdwizard:
   version: 0.7.1-2
   issues:
     - lc_messages_randomness
-dvi2dvi:
-  version: 2.0alpha-9.2
-  bugs:
-    - 790657
 dvswitch:
   version: 0.8.3.6-1.2
   bugs:
@@ -3356,10 +3300,6 @@ easymock:
   issues:
     - random_order_in_documentation_generated_by_javadoc
     - locale_in_documentation_generated_by_javadoc
-easymp3gain:
-  version: 0.5.0+svn135-5
-  bugs:
-    - 791517
 eb:
   version: 4.4.3-8
   issues:
@@ -3530,10 +3470,6 @@ emacs24:
   version: 24.4+1-5
   bugs:
     - 787424
-embassy-domainatrix:
-  version: 0.1.650-1
-  issues:
-    - ftbfs_uninvestigated_unsatisfiable_dependencies
 emboss:
   version: 6.6.0+dfsg-1
   issues:
@@ -3822,10 +3758,6 @@ eweouz:
   version: 0.9
   bugs:
     - 787378
-exabgp:
-  version: 3.4.12-1
-  bugs:
-    - 793509
 excalibur-logkit:
   version: 2.0-11
   issues:
@@ -4045,10 +3977,6 @@ fflas-ffpack:
   version: 1.6.0-1
   bugs:
     - 787992
-ffrenzy:
-  version: 1.0.2~svn20070530-5
-  bugs:
-    - 776292
 fftw:
   version: 2.1.5-2
   issues:
@@ -4800,10 +4728,6 @@ gcc-4.9:
   version: 4.9.3-1
   comments: |
     Contains test output in boehmm-gc.log.xz which is non-determinstic and contains timestamps
-gcc-5-cross:
-  version: 5
-  issues:
-    - ftbfs_uninvestigated_unsatisfiable_dependencies
 gcc-arm-none-eabi:
   version: 11
   bugs:
@@ -5049,10 +4973,6 @@ gimp-help:
   version: 2.6.1-1
   bugs:
     - 747958
-ginac:
-  version: 1.6.4-1
-  issues:
-    - ftbfs_uninvestigated_big_packages
 ginkgocadx:
   version: 3.7.0.1465.37+dfsg-1
   issues:
@@ -5333,10 +5253,6 @@ gmusicbrowser:
   version: 1.1.13~ds0-1
   issues:
     - lc_messages_randomness
-gmysqlcc:
-  version: 0.3.0-4
-  bugs:
-    - 790451
 gnarwl:
   version: 3.6.dfsg-6.2
   comments: |
@@ -5555,10 +5471,6 @@ gnutls28:
   version: 3.3.14-2
   issues:
     - timezone_variance_because_of_automake_mdate
-go-md2man:
-  version: 1.0.2-1
-  bugs:
-    - 791755
 goaccess:
   version: 1:0.8.3-1
   issues:
@@ -6052,10 +5964,6 @@ haskell-concrete-typerep:
     needs pbuilder 0.216 due to #791991
   issues:
     - ftbfs_in_jenkins_setup
-haskell-hoogle:
-  version: 4.2.33-4
-  issues:
-    - build_id_variation_requiring_further_investigation
 haskell-mode:
   version: 13.10-3
   issues:
@@ -6193,10 +6101,6 @@ horst:
   version: 4.0-1
   issues:
     - ftbfs_uninvestigated_unsatisfiable_dependencies
-hothasktags:
-  version: 0.3.2-1
-  bugs:
-    - 789104
 hp-search-mac:
   version: 0.1.3
   issues:
@@ -6645,10 +6549,6 @@ jabber-muc:
   version: 0.8-4
   issues:
     - timestamps_from_cpp_macros
-jabberd2:
-  version: 2.3.3-2
-  issues:
-    - ftbfs_uninvestigated_unsatisfiable_dependencies
 jabref:
   version: 2.10+ds-3
   comments: |
@@ -6892,10 +6792,6 @@ jenkins-dom4j:
   version: 1.6.1-jenkins-4-1
   issues:
     - locale_in_documentation_generated_by_javadoc
-jenkins-instance-identity:
-  version: 1.4-1
-  bugs:
-    - 789946
 jenkins-job-builder:
   version: 0.9.0-0.2
   issues:
@@ -7672,10 +7568,6 @@ libasm4-java:
   issues:
     - timestamps_in_documentation_generated_by_javadoc
     - locale_in_documentation_generated_by_javadoc
-libassuan:
-  version: 2.1.2-2
-  comments: |
-    Manually embeds BUILD_TIMESTAMP from custom configure.ac
 libaunit:
   version: 3.7.1-1
   issues:
@@ -7847,10 +7739,6 @@ libdevel-gdb-perl:
   version: 2.02-2
   bugs:
     - 784845
-libdevice-cdio-perl:
-  version: 0.3.0-4
-  bugs:
-    - 793680
 libept:
   version: 1.0.12.1
   bugs:
@@ -7944,10 +7832,6 @@ libgda5:
   comments: |
     Embeds the build date into manpage.
     https://sources.debian.net/src/libgda5/5.2.2-2/configure.ac/#L74-L75
-libgdchart-gd2:
-  version: 0.11.5-7.1
-  bugs:
-    - 791842
 libgee:
   version: 0.6.8-2
   bugs:
@@ -8292,10 +8176,6 @@ libkcompactdisc:
     https://sources.debian.net/src/libkcompactdisc/4:4.12.3-2/wmlib/wm_helpers.c/?hl=70#L70
   issues:
     - timestamps_from_cpp_macros
-libkdcraw:
-  version: 4:4.14.0-1
-  bugs:
-    - 788975
 libkinosearch1-perl:
   version: 1.01-1
   issues:
@@ -8446,10 +8326,6 @@ libncursesada:
     Also random order of files contained in static library.
   issues:
     - timestamps_in_ada_library_information_files
-libnet-frame-device-perl:
-  version: 1.10-1
-  bugs:
-    - 792221
 libnet-route-perl:
   version: 0.02-1
   bugs:
@@ -8550,11 +8426,6 @@ libproxy:
   version: 0.4.11-4
   issues:
     - timestamps_in_pe_binaries
-libpsl:
-  version: 0.5.1-1
-  comments: |
-    Embed build time:
-    http://sources.debian.net/src/libpsl/0.5.1-1/src/psl2c.c/?hl=178#L178
 libpwiz:
   version: 3.0.6585-2
   issues:
@@ -8586,10 +8457,6 @@ libraw1394:
   version: 2.1.0-3
   issues:
     - timestamps_in_dvi_generated_by_latex
-librdkafka:
-  version: 0.8.5-2
-  bugs:
-    - 788742
 libreadline-java:
   version: 0.8.0.1+dfsg-4
   issues:
@@ -8715,10 +8582,6 @@ libsynthesis:
   version: 3.4.0.47.4-2
   bugs:
     - 792856
-libsysactivity:
-  version: 0.6.5-4
-  bugs:
-    - 790256
 libtango:
   version: 0.99.9.dfsg-1
   bugs:
@@ -8795,10 +8658,6 @@ libusb-java:
   version: 0.8+ztex20090101-7
   issues:
     - locale_in_documentation_generated_by_javadoc
-libuv:
-  version: 0.10.36-2
-  bugs:
-    - 792064
 libvigraimpex:
   version: 1.9.0+dfsg-10
   issues:
@@ -9041,10 +8900,6 @@ linuxdoc-tools:
   issues:
     - timestamps_in_gzip_headers
     - timestamps_in_dvi_generated_by_latex
-linuxlogo:
-  version: 5.11-7
-  bugs:
-    - 792783
 linuxtv-dvb-apps:
   version: 1.1.1+rev1500-1
   bugs:
@@ -9710,10 +9565,6 @@ menhir:
   version: 20140422.dfsg-1
   issues:
     - randomness_in_ocaml_a_files
-mercurial:
-  version: 3.4-1
-  bugs:
-    - 790266
 meshlab:
   version: 1.3.2+dfsg1-2
   issues:
@@ -10182,10 +10033,6 @@ mtasc:
   version: 1.14-3
   issues:
     - randomness_in_ocaml_a_files
-mtink:
-  version: 1.0.16-8
-  issues:
-    - timestamps_from_cpp_macros
 mu-cade:
   version: 0.11.dfsg1-8
   bugs:
@@ -10547,10 +10394,6 @@ nickle:
   version: 2.77-1
   issues:
     - timestamps_in_pdf_generated_by_latex
-nikola:
-  version: 7.1.0-1
-  bugs:
-    - 790906
 nini:
   version: 1.1.0+dfsg.2-4
   issues:
@@ -10757,10 +10600,6 @@ numactl:
   version: 2.0.10-1
   issues:
     - timestamps_from_cpp_macros
-numexpr:
-  version: 2.4-1
-  bugs:
-    - 790812
 nunit:
   version: 2.6.3+dfsg-1
   issues:
@@ -10875,10 +10714,6 @@ ocamlviz:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - randomness_in_ocaml_a_files
-ocamlweb:
-  version: 1.38-2
-  bugs:
-    - 776643
 ocp:
   version: 1:0.1.21-1.1
   issues:
@@ -11366,10 +11201,6 @@ osgi-compendium:
   version: 4.3.0-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-osmium:
-  version: 0.0~20150428-7f23002-1
-  issues:
-    - ftbfs_uninvestigated_unsatisfiable_dependencies
 osmo:
   version: 0.2.12-1
   issues:
@@ -11562,10 +11393,6 @@ pathological:
     - serial_numbers_in_ogg
   bugs:
     - 775995
-patsy:
-  version: 0.3.0-3
-  bugs:
-    - 792066
 pavucontrol:
   version: 3.0-2
   issues:
@@ -11684,10 +11511,6 @@ pdftk:
   version: 2.02-2
   issues:
     - build_id_variation_requiring_further_investigation
-pdl:
-  version: 1:2.007-4
-  issues:
-    - ftbfs_uninvestigated_unsatisfiable_dependencies
 pdmenu:
   version: 1.3.4
   issues:
@@ -11966,10 +11789,6 @@ plainbox:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - randomness_in_documentation_indices_generated_by_sphinx
-plainbox-provider-checkbox:
-  version: 0.4-1
-  bugs:
-    - 792067
 plan:
   version: 1.10.1-5
   issues:
@@ -12053,10 +11872,6 @@ plm:
   version: 2.4.11+repack-2
   issues:
     - timestamps_in_png
-ploticus:
-  version: 2.42-3
-  issues:
-    - ftbfs_uninvestigated_unsatisfiable_dependencies
 plplot:
   version: 5.10.0+dfsg-1
   issues:
@@ -12197,10 +12012,6 @@ praat:
   version: 5.4.0-1
   issues:
     - timestamps_from_cpp_macros
-preload:
-  version: 0.6.4-2
-  issues:
-    - ftbfs_uninvestigated_on_jenkins_only
 presage:
   version: 0.9-1
   bugs:
@@ -12507,10 +12318,6 @@ pyqt5:
     /usr/share/doc/pyqt5-examples/examples/animation/animatedtiles/animatedtiles_rc.py
   issues:
     - randomness_in_objects_inv
-pyresample:
-  version: 1.1.0-1
-  bugs:
-    - 792068
 pyscanfcs:
   version: 0.2.2-2
   issues:
@@ -12645,10 +12452,6 @@ python-expyriment:
   version: 0.7.0+git34-g55a4e7e-3
   issues:
     - timestamps_in_pdf_generated_by_latex
-python-fedora:
-  version: 0.3.36-1
-  bugs:
-    - 789982
 python-flask-httpauth:
   version: 2.2.1-1
   issues:
@@ -12736,10 +12539,6 @@ python-numpy:
   version: 1.8.2-2
   issues:
     - timestamps_in_pdf_generated_by_matplotlib
-python-odf:
-  version: 1.2.0-6
-  bugs:
-    - 777635
 python-openid:
   version: 2.2.5-6
   issues:
@@ -12792,10 +12591,6 @@ python-pypump:
     - timestamps_in_documentation_generated_by_sphinx
   bugs:
     - 788505
-python-pysam:
-  version: 0.7.7-1
-  bugs:
-    - 763218
 python-reconfigure:
   version: 0.1.59+git20140824-1
   issues:
@@ -12854,10 +12649,6 @@ python-simpy:
   version: 2.3.1-1
   issues:
     - timestamps_in_documentation_generated_by_sphinx
-python-sqlsoup:
-  version: 0.9.0+dfsg-2
-  bugs:
-    - 793510
 python-tidylib:
   version: 0.2.1~dfsg-2
   issues:
@@ -12882,14 +12673,6 @@ python-whoosh:
   version: 2.7.0-1
   issues:
     - randomness_in_objects_inv
-python-wsgi-intercept:
-  version: 0.8.1-2
-  bugs:
-    - 792161
-python-wsme:
-  version: 0.6-3
-  issues:
-    - ftbfs_uninvestigated_unsatisfiable_dependencies
 python-x2go:
   version: 0.5.0.1-2
   issues:
@@ -13058,10 +12841,6 @@ qsampler:
   version: 0.2.2-5
   issues:
     - timestamps_from_cpp_macros
-qsapecng:
-  version: 2.0.0-5
-  bugs:
-    - 789428
 qsf:
   version: 1.2.7-1
   bugs:
@@ -13238,10 +13017,6 @@ r-cran-amelia:
   version: 1.7.3-1
   issues:
     - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-bayesm:
-  version: 3.0-2-1
-  bugs:
-    - 794144
 r-cran-gam:
   version: 1.12-1
   bugs:
@@ -13306,10 +13081,6 @@ raincat:
   version: 1.1.1.2-1
   bugs:
     - 789108
-rake:
-  version: 10.3.2-2
-  bugs:
-    - 794150
 rake-compiler:
   version: 0.9.5-1
   bugs:
@@ -13716,10 +13487,6 @@ ruby-enumerize:
   version: 0.11.0-1
   bugs:
     - 794170
-ruby-execjs:
-  version: 2.2.1-1
-  bugs:
-    - 792059
 ruby-expression-parser:
   version: 0.9.1-2
   issues:
@@ -13744,10 +13511,6 @@ ruby-github-markup:
   version: 1.2.1+dfsg-1
   issues:
     - timestamps_in_ruby_documentation
-ruby-gnome2:
-  version: 2.2.0-5
-  bugs:
-    - 790910
 ruby-haml-magic-translations:
   version: 4.0.3-2
   bugs:
@@ -13791,10 +13554,6 @@ ruby-kyotocabinet:
   version: 1.32-1
   bugs:
     - 791778
-ruby-liquid:
-  version: 2.6.1-2
-  bugs:
-    - 788694
 ruby-listen:
   version: 2.4.0-4
   bugs:
@@ -13886,10 +13645,6 @@ ruby-sqlite3:
   version: 1.3.9-2
   bugs:
     - 782884
-ruby-standalone:
-  version: 0.5
-  bugs:
-    - 792525
 ruby-tioga:
   version: 1.18-1
   issues:
@@ -13898,10 +13653,6 @@ ruby-uuidtools:
   version: 2.1.4-2
   issues:
     - timestamps_in_ruby_documentation
-ruby-vegas:
-  version: 0.1.11-2
-  bugs:
-    - 789837
 ruby-webmock:
   version: 1.19.0-1
   bugs:
@@ -14192,10 +13943,6 @@ sensible-utils:
     - different_due_to_umask
   bugs:
     - 774449
-sepia:
-  version: 0.992-3
-  bugs:
-    - 789836
 serp:
   version: 1.14.1-2
   issues:
@@ -14221,10 +13968,6 @@ sfepy:
   version: 2015.1-1
   issues:
     - timestamps_in_pdf_generated_by_latex
-sflphone:
-  version: 1.4.1-0.1
-  bugs:
-    - 787390
 sgabios:
   version: 0.0~svn8-3
   bugs:
@@ -14551,10 +14294,6 @@ socklog:
   bugs:
     - 777419
     - 793723
-socks4-server:
-  version: 4.3.beta2-18
-  bugs:
-    - 750274
 sofia-sip:
   version: 1.12.11+20110422.1-2
   comments: |
@@ -15043,10 +14782,6 @@ systraq:
   issues:
     - timestamps_in_dvi_generated_by_latex
     - timestamps_in_pdf_generated_by_latex
-tabble:
-  version: 0.43-2
-  bugs:
-    - 782222
 tachyon:
   version: 0.99~b2+dfsg-0.4
   issues:
@@ -15086,10 +14821,6 @@ tar:
     - 774484
 tart:
   version: 3.10-1
-  issues:
-    - timestamps_from_cpp_macros
-task:
-  version: 2.3.0+dfsg-3
   issues:
     - timestamps_from_cpp_macros
 taskcoach:
@@ -15386,10 +15117,6 @@ tomcat8:
   version: 8.0.23-1
   issues:
     - locale_in_documentation_generated_by_javadoc
-tomcatjss:
-  version: 7.1.1-2
-  bugs:
-    - 789109
 topal:
   version: 75-2
   comments: |
@@ -15577,10 +15304,6 @@ tth:
   version: 4.05+ds-1
   bugs:
     - 792181
-tty-clock:
-  version: 2.0-2
-  bugs:
-    - 788749
 ttyload:
   version: 0.5-8
   bugs:
@@ -15595,10 +15318,6 @@ tupi:
     Filesystem ordering caused by
       icons.commands = cp *.png $(INSTALL_ROOT)/themes/default/icons
     in src/themes/default/icons/icons.pro
-turbogears2-doc:
-  version: 2.1.5-1
-  bugs:
-    - 750259
 turnin-ng:
   version: 1.2-1
   issues:
@@ -15861,12 +15580,6 @@ user-agent-utils:
   version: 1.15-1
   issues:
     - user_in_java_jar_manifest
-user-mode-linux:
-  version: 3.16-1um-0.1
-  issues:
-    - ftbfs_uninvestigated_unsatisfiable_dependencies
-  bugs:
-    - 787979
 userv:
   version: 1.1.1
   issues:
@@ -16024,10 +15737,6 @@ virtuoso-opensource:
   issues:
     - timestamps_from_cpp_macros
     - captures_kernel_version
-visp:
-  version: 2.9.0-3
-  bugs:
-    - 790074
 vit:
   version: 1.2-2
   comments: |
@@ -16203,11 +15912,6 @@ webauth:
   version: 4.6.1-1
   issues:
     - timezones_manpages_podman
-webdis:
-  version: 0.1.1-2
-  bugs:
-    - 790811
-    - 785476
 webkit-sharp:
   version: 0.3-6
   issues:
@@ -16543,10 +16247,6 @@ xcrysden:
   version: 1.5.60-1
   issues:
     - different_encoding
-xdemorse:
-  version: 2.9-2
-  bugs:
-    - 792048
 xdg-user-dirs:
   version: 0.15-2
   issues:
@@ -16580,10 +16280,6 @@ xenomai:
   version: 2.6.3-2
   comments: |
     Timestamps in a patch that is generated at build time.
-xenwatch:
-  version: 0.5.4-3
-  bugs:
-    - 750298
 xfaces:
   version: 3.3-28
   issues:
@@ -16827,10 +16523,6 @@ xsddiagram:
   version: 0.16-1
   issues:
     - timestamps_in_pe_binaries
-xserver-xorg-video-intel:
-  version: 2:2.99.917-1
-  bugs:
-    - 790911
 xshisen:
   version: 1:1.51-4.1
   comments: |
