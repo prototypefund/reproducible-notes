@@ -7262,6 +7262,10 @@ knot:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_manpages_generated_by_sphinx
+kodi:
+  version: 14.2+dfsg1-2
+  issues:
+    - timestamps_from_cpp_macros
 kombu:
   version: 3.0.21-2
   issues:
@@ -13753,6 +13757,11 @@ scheme2c:
   version: 2012.10.14-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - pdf_created_by_ghostscript
+scheme9:
+  version: 2015.07.14-1
+  issues:
+    - pdf_created_by_ghostscript
 schism:
   version: 2:0+20110101-1
   issues:
