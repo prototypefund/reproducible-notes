@@ -8738,10 +8738,6 @@ libxray-absorption-perl:
     They are hashes of hashes saved with Storable::nstore.
     Setting "$Storable::canonical = 1;" does not work, because the hashes
     contain hashes.
-libxray-scattering-perl:
-  version: 3.0.1-1
-  bugs:
-    - 786634
 libxstream-java:
   version: 1.4.7-2
   issues:
