@@ -104,6 +104,10 @@ activiz.net:
   version: 1:1.0~git20111214-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+actor-framework:
+  version: 0.13.2-3
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 ada-reference-manual:
   version: 2012.2-4
   issues:
@@ -1949,6 +1953,10 @@ clanlib:
   version: 1.0~svn3827-3
   bugs:
     - 790357
+classified-ads:
+  version: 0.07-1
+  bugs:
+    - 794395
 classworlds:
   version: 1.1-final-5
   issues:
@@ -1963,6 +1971,10 @@ clfswm:
   version: 20111015.git51b0a02-2
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
+clhep:
+  version: 2.1.4.1-1.1
+  bugs:
+    - 794398
 cli-common:
   version: 0.9
   issues:
@@ -3146,6 +3158,10 @@ dogtag-pki:
   version: 10.2.0-4
   issues:
     - timestamps_in_jar
+dolphin-emu:
+  version: 4.0.2+dfsg-2
+  issues:
+    - timestamps_from_cpp_macros
 dom4j:
   version: 1.6.1+dfsg.3-2
   issues:
@@ -4576,6 +4592,11 @@ fritzing:
   version: 0.9.0b+dfsg-1.1
   bugs:
     - 791691
+frobby:
+  version: 0.9.0-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
+    - timestamps_in_ps_generated_by_dvips
 frown:
   version: 0.6.1-14
   issues:
@@ -6021,6 +6042,10 @@ hardlink:
   version: 0.3.0
   issues:
     - timestamps_from_cpp_macros
+hashrat:
+  version: 1.6.1-1
+  issues:
+    - timestamps_from_cpp_macros
 haskell-concrete-typerep:
   version: 0.1.0.2-4
   comments: |
@@ -6112,6 +6137,10 @@ hgview:
   version: 1.8.1-1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
+hhvm:
+  version:  3.2.0+dfsg1-2
+  issues:
+    - timestamps_from_cpp_macros
 hibernate:
   version: 2.0+15+g88d54a8-1
   comments: |
@@ -9449,6 +9478,10 @@ manuel:
   version: 1.8.0-2
   bugs:
     - 788941
+mapivi:
+  version: 0.9.7-1.1
+  issues:
+    - timestamps_in_documentation_generated_by_podman
 mapnik:
   version: 3.0.0~rc3+ds-2
   bugs:
@@ -11241,6 +11274,17 @@ openni-sensor-primesense:
   comments: |
     Embeds the build date and platform.
     https://sources.debian.net/src/openni-sensor-primesense/5.1.0.41-5/Include/XnPsVersion.h/#L55
+openni2:
+  version: 2.2.0.33+dfsg-1
+  issues:
+    - timestamps_from_cpp_macros
+openocd:
+  version: 0.9.0-1
+  comments: |
+    Embeds the build date.
+    https://sources.debian.net/src/openocd/0.9.0-1/src/Makefile.am/#L41
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 openrpt:
   version: 3.3.7-1
   issues:
@@ -11412,6 +11456,10 @@ pads:
   version: 1.2-11
   issues:
     - timestamps_from_cpp_macros
+paexec:
+  version: 1.0.1-3
+  issues:
+    - pdf_created_by_ghostscript
 pagekite:
   version: 0.5.6d-3
   comments: |
@@ -11472,6 +11520,10 @@ parrot:
   version: 6.6.0-1
   issues:
     - different_due_to_umask
+parsec47:
+  version: 0.2.dfsg1-6
+  bugs:
+    - 794399
 parsinsert:
   version: 1.04-1
   issues:
@@ -14895,6 +14947,10 @@ svtplay-dl:
     whose members have differing mtimes.
   issues:
     - timestamps_in_zip
+svxlink:
+  version: 14.08.1-1
+  issues:
+    - timestamps_from_cpp_macros
 swarm-cluster:
   version: 1.2.19+dfsg-1
   issues:
@@ -15529,6 +15585,10 @@ ttyload:
   version: 0.5-8
   bugs:
     - 786508
+tumiki-fighters:
+  version: 0.2.dfsg1-6
+  bugs:
+    - 794400
 tupi:
   version: 0.2+git05-3
   comments: |
@@ -16946,6 +17006,10 @@ zconfig:
   version: 2.8.0-1
   issues:
     - ftbfs_due_to_python_packaging_problems
+zeal:
+  version: 1:0.1.1-1
+  issues:
+    - timestamps_from_cpp_macros
 zeitgeist-sharp:
   version: 0.8.0.0-5
   issues:
