@@ -6018,7 +6018,7 @@ hgview:
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
 hhvm:
-  version:  3.2.0+dfsg1-2
+  version: 3.2.0+dfsg1-2
   issues:
     - timestamps_from_cpp_macros
 hibernate:
@@ -12079,8 +12079,8 @@ ptouch-driver:
     - ppds_compressed_b64
 puppet-lint:
   version: 1.1.0-1
-  comments: |
-    Timespec in gemspec- return of timestamps_in_gemspec_files / https://bugs.debian.org/779631 ?
+  issues:
+    - timestamps_in_gemspec_files
 puredata-import:
   version: 1.3-3
   issues:
@@ -13445,6 +13445,10 @@ ruby-haml-magic-translations:
   version: 4.0.3-2
   bugs:
     - 794257
+ruby-html2haml:
+  version: 1.0.1-3
+  issues:
+    - timestamps_in_gemspec_files
 ruby-http-connection:
   version: 1.4.4-1
   issues:
@@ -13559,6 +13563,14 @@ ruby-pygments.rb:
   version: 0.5.4~ds1-3
   issues:
     - timestamps_in_ruby_documentation
+ruby-rack-mobile-detect:
+  version: 0.4.0-3
+  issues:
+    - timestamps_in_gemspec_files
+ruby-remcached:
+  version: 0.4.1-2
+  issues:
+    - timestamps_in_gemspec_files
 ruby-rinku:
   version: 1.7.3-1
   issues:
