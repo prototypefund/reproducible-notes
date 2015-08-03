@@ -275,6 +275,10 @@ timestamps_in_ruby_documentation:
   description: |
     Ruby's documentation generator outputs a file called "created.rid", which contains
     the time the documentation was generated.
+timestamps_in_gemspec_files:
+  description:
+    .gemspec timestamp changes due to timezone changes.
+  url: https://bugs.debian.org/779631
 timestamps_in_documentation_generated_by_sphinx:
   description: |
     "Last updated," etc.
