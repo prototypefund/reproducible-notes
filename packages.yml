@@ -400,9 +400,9 @@ apache-mime4j:
     - user_in_java_jar_manifest
     - locale_in_documentation_generated_by_javadoc
 apache2:
-  version: 2.4.10-7
-  issues:
-    - timestamps_from_cpp_macros
+  version: 2.4.16-1
+  comments: |
+    Symbol order varies.
 apbs:
   version: 1.4-1
   issues:
@@ -503,9 +503,11 @@ apngopt:
   bugs:
     - 782193
 apophenia:
-  version: 0.999b+ds3-2
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
+  version: 0.999e+ds-2
+  comments: |
+    Ship a log of pdflatex in
+    ./usr/share/doc/apophenia-doc/html/_formulas.log.gz
+    Probably should be remoed.
   bugs:
     - 788868
 apparmor:
@@ -1060,9 +1062,8 @@ bbdb3:
   issues:
     - timestamps_in_emacs_autoloads
 bbswitch:
-  version: 0.8-1
+  version: 0.8-2
   issues:
-    - timestamps_in_tarball
     - different_due_to_umask
   bugs:
     - 778455
@@ -16201,10 +16202,9 @@ xboxdrv:
   issues:
     - ftbfs_uninvestigated_on_jenkins_only
 xbs:
-  version: 0-8
+  version: 0-10
   issues:
-    - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - different_due_to_umask
   bugs:
     - 777007
     - 792988
