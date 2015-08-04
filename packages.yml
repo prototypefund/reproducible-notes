@@ -950,6 +950,10 @@ ayttm:
   version: 0.6.3-3
   issues:
     - timestamps_from_cpp_macros
+azureus:
+  version: 4.3.0.6-5
+  issues:
+    - different_encoding
 babel:
   version: 1.4.0.dfsg-8.2
   bugs:
@@ -5911,6 +5915,10 @@ gzip:
     - timezone_variance_because_of_automake_mdate
   bugs:
     - 794011
+h2database:
+  version: 1.4.185-1
+  issues:
+    - timestamps_in_zip
 halibut:
   version: 1.0+svn20090906-9
   comments: |
@@ -6123,6 +6131,10 @@ http-icons:
   comments: |
     GIF images are optimized while building by converting to PNM and back to GIF.
     The conversion back to GIF introduces the variation.
+httpcomponents-client:
+  version: 4.4.1-1
+  issues:
+    - different_encoding
 httperf:
   version: 0.9.0-2
   issues:
@@ -6924,6 +6936,10 @@ josql:
   issues:
     - timestamps_in_jar
     - locale_in_documentation_generated_by_javadoc
+jove:
+  version: 4.16.0.73-2
+  issues:
+    - different_encoding
 joy2key:
   version: 1.6.3-1
   issues:
@@ -7149,6 +7165,10 @@ kdgcommons-java:
   version: 1.0.13-1
   issues:
     - user_in_java_jar_manifest
+kdiff3:
+  version: 0.9.98-1
+  issues:
+    - different_encoding
 keepalived:
   version: 1:1.2.13-1
   bugs:
@@ -8042,6 +8062,10 @@ libjemmy2-java:
   version: 2.3.1.1-2
   issues:
     - timestamps_in_jar
+libjena-iri-java:
+  version: 0.8-1
+  issues:
+    - different_encoding
 libjfreechart-java:
   version: 1.0.13-7
   issues:
@@ -10256,6 +10280,10 @@ netqmail:
     - different_due_to_umask
   bugs:
     - 777021
+netrik:
+  version: 1.16.1-1.1
+  issues:
+    - different_encoding
 netris:
   version: 0.52-9
   issues:
@@ -10669,6 +10697,10 @@ ocsigenserver:
   issues:
     - different_due_to_umask
     - randomness_in_ocaml_a_files
+octave:
+  version: 4.0.0-3
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 octave-audio:
   version: 1.1.4-5
   issues:
@@ -12563,6 +12595,10 @@ python-secretstorage:
   version: 2.1.1-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
+python-setproctitle:
+  version: 1.1.8-1
+  issues:
+    - different_encoding
 python-setuptools:
   version: 5.5.1-1
   issues:
@@ -13641,6 +13677,10 @@ ryu:
   version: 3.19-1
   issues:
     - timestamps_in_manpages_generated_by_sphinx
+s3d:
+  version: 0.2.2-10
+  issues:
+    - different_encoding
 s3ql:
   version: 2.13+dfsg-1
   comments: |
@@ -14043,6 +14083,10 @@ sinfo:
   version: 0.0.47-3
   issues:
     - timestamps_from_cpp_macros
+singular:
+  version: 4.0.2+ds-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 sip-tester:
   version: 3.2-1
   issues:
