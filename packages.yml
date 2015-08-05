@@ -712,6 +712,13 @@ aspell-fr:
     - timestamps_in_gzip_headers
   bugs:
     - 777285
+aspell-en:
+  version: 7.1-0-1.1
+  issues:
+    - collation_order_varies_by_locale
+  comments: |
+    /usr/share/aspell/en-common.cwl.gz appears to be sorted dependent
+    on the build environment
 aspic:
   version: 1.05-4
   issues:
