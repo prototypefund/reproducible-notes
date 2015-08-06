@@ -706,19 +706,19 @@ aspell-ar-large:
     - timestamps_in_gzip_headers
   bugs:
     - 777284
+aspell-en:
+  version: 7.1-0-1.1
+  comments: |
+    /usr/share/aspell/en-common.cwl.gz appears to be sorted dependent
+    on the build environment
+  issues:
+    - collation_order_varies_by_locale
 aspell-fr:
   version: 0.50-3-7
   issues:
     - timestamps_in_gzip_headers
   bugs:
     - 777285
-aspell-en:
-  version: 7.1-0-1.1
-  issues:
-    - collation_order_varies_by_locale
-  comments: |
-    /usr/share/aspell/en-common.cwl.gz appears to be sorted dependent
-    on the build environment
 aspic:
   version: 1.05-4
   issues:
@@ -4411,6 +4411,12 @@ foxeye:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/foxeye/0.10.1-1/configure.ac/#L310
+foxyproxy:
+  version: 3.4-1.1
+  issues:
+    - timestamps_in_zip
+  bugs:
+    - 794779
 fprobe-ulog:
   version: 1.1-7.3
   bugs:
@@ -16583,6 +16589,12 @@ xtrlock:
   bugs:
     - 777351
     - 787122
+xul-ext-monkeysphere:
+  version: 0.8-1
+  issues:
+    - timestamps_in_zip
+  bugs:
+    - 794781
 xvier:
   version: 1.0-7.5
   issues:
