@@ -1559,8 +1559,10 @@ calligra:
     - timestamps_from_cpp_macros
 camitk:
   version: 3.4.0-2
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
+  comments: |
+    timestamp found in manpages generated from a cmake script
+  bugs:
+    - 794740
 caml-crush:
   version: 1.0.6-1
   issues:
