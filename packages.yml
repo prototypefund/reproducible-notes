@@ -249,8 +249,6 @@ alt-ergo:
   version: 0.99.1+dfsg1-3
   issues:
     - randomness_in_ocaml_a_files
-  bugs:
-    - 786846
 altos:
   version: 1.6-1
   issues:
@@ -293,8 +291,6 @@ amsynth:
   version: 1.4.2-2
   issues:
     - timestamps_from_cpp_macros
-  bugs:
-    - 788751
 anarchism:
   version: 14.0-3
   issues:
@@ -1156,8 +1152,6 @@ bible-kjv:
   version: 4.27
   issues:
     - not_using_dh_builddeb
-  bugs:
-    - 777294
 bibtex2html:
   version: 1.98-1
   issues:
@@ -2277,10 +2271,6 @@ console-setup:
   version: 1.116
   bugs:
     - 775531
-cook:
-  version: 2.33-1
-  bugs:
-    - 789294
 coq:
   version: 8.4pl4dfsg-1
   issues:
@@ -2453,25 +2443,6 @@ csound:
   version: 1:6.03.2~dfsg-1
   issues:
     - timestamps_from_cpp_macros
-cssc:
-  version: 1.4.0-3
-  comments: |
-    This package used to build very fine, but suddenly started to hang at
-    """
-    get/writable.sh:W4...passed
-    W5...passed
-    get/writable.sh:W6...passed
-    W7...passed
-    
-    All Tests in /tmp/buildd/cssc-1.4.0/tests/get/writable.sh are now completed on tools in '/tmp/buildd/cssc-1.4.0/src'
-    PASS writable.sh:
-    """
-    https://jenkins.debian.net/view/reproducible/job/reproducible_builder_theta/15582/consoleFull
-    Blacklisted for now.
-  issues:
-    - blacklisted_on_jenkins
-  bugs:
-    - 788863
 csvimp:
   version: 0.5.0-2
   issues:
@@ -3108,10 +3079,6 @@ dochelp:
   version: 0.1.2
   issues:
     - randomness_in_ocaml_a_files
-docker.io:
-  version: 1.6.2~dfsg1-1
-  bugs:
-    - 789736
 docky:
   version: 2.2.0-2
   issues:
@@ -4077,10 +4044,6 @@ firehol:
   version: 2.0.1+ds-1
   issues:
     - timestamps_in_pdf_generated_by_latex
-fis-gtm:
-  version: 6.2-002A-1
-  bugs:
-    - 791405
 fityk:
   version: 1.2.1-0.1
   issues:
@@ -4754,10 +4717,6 @@ gcc-4.9:
   version: 4.9.3-1
   comments: |
     Contains test output in boehmm-gc.log.xz which is non-determinstic and contains timestamps
-gcc-arm-none-eabi:
-  version: 11
-  bugs:
-    - 775425
 gcc-avr:
   version: 1:4.8.1+Atmel3.4.4-2
   issues:
@@ -5066,8 +5025,6 @@ gitolite3:
   version: 3.6.1-2
   issues:
     - not_using_dh_builddeb
-  bugs:
-    - 777060
 givaro:
   version: 3.7.2-1
   bugs:
@@ -6896,10 +6853,6 @@ jing-trang:
   version: 20131210+dfsg+1-1
   issues:
     - timestamps_in_jar
-jitsi:
-  version: 2.4.4997-1.2
-  bugs:
-    - 759835
 jlibeps:
   version: 0.1+2-2
   issues:
@@ -9075,7 +9028,6 @@ lpe:
 lprng:
   version: 3.8.B-2
   bugs:
-    - 773916
     - 773981
 lprng-doc:
   version: 3.8.A~rc2-3
@@ -9442,8 +9394,6 @@ mauve:
   version: 20140821-1
   issues:
     - different_due_to_umask
-  bugs:
-    - 778274
 mauve-aligner:
   version: 2.4.0+4734-1
   issues:
@@ -12711,20 +12661,14 @@ python2.7:
     investigated.
   issues:
     - randomness_in_fat_lto_objects
-  bugs:
-    - 786978
 python3.4:
   version: 3.4.3-7
   issues:
     - randomness_in_fat_lto_objects
-  bugs:
-    - 786965
 python3.5:
   version: 3.5.0~b1-2
   issues:
     - randomness_in_fat_lto_objects
-  bugs:
-    - 786959
 pythondialog:
   version: 3.2.0-2
   issues:
@@ -13216,10 +13160,6 @@ red5:
   issues:
     - random_order_in_documentation_generated_by_javadoc
     - locale_in_documentation_generated_by_javadoc
-redhat-cluster:
-  version: 3.1.8-1.2
-  bugs:
-    - 780199
 refcard:
   version: 5.0.9
   issues:
@@ -13337,7 +13277,6 @@ rockdodger:
   issues:
     - not_using_dh_builddeb
   bugs:
-    - 778205
     - 793714
 root-system:
   version: 5.34.19+dfsg-1.1
@@ -13772,8 +13711,6 @@ sahara:
   version: 2015.1.0-2
   issues:
     - timestamps_in_documentation_generated_by_sphinx
-  bugs:
-    - 788595
 salome-kernel:
   version: 6.5.0-8.1
   comments: |
@@ -13827,10 +13764,6 @@ saxonb:
   issues:
     - random_order_in_documentation_generated_by_javadoc
     - locale_in_documentation_generated_by_javadoc
-sbcl:
-  version: 2:1.2.11-2
-  bugs:
-    - 786601
 sbuild:
   version: 0.65.0-1
   comments: |
@@ -13957,10 +13890,6 @@ sdlgfx:
   version: 2.0.25-4
   issues:
     - users_and_groups_in_tarball
-seabios:
-  version: 1.7.5-1
-  bugs:
-    - 782905
 semweb:
   version: 1.05+dfsg-5
   issues:
@@ -14113,8 +14042,6 @@ simgrid:
   issues:
     - locale_in_documentation_generated_by_javadoc
     - different_due_to_umask
-  bugs:
-    - 789715
 simh:
   version: 3.8.1-5
   issues:
@@ -15188,8 +15115,6 @@ tox:
   version: 1.9.2-1
   issues:
     - timestamps_in_manpages_generated_by_sphinx
-  bugs:
-    - 783757
 tp-smapi:
   version: 0.41-1
   issues:
@@ -16078,8 +16003,6 @@ wmpuzzle:
   version: 0.5.2-1
   issues:
     - not_using_dh_builddeb
-  bugs:
-    - 777362
 wmweather:
   version: 2.4.5-2
   issues:
@@ -16095,8 +16018,6 @@ wmwork:
   version: 0.2.6-1
   issues:
     - not_using_dh_builddeb
-  bugs:
-    - 777363
 wordgrinder:
   version: 0.5.1-1
   comments: |
@@ -16261,7 +16182,6 @@ xbs:
   issues:
     - different_due_to_umask
   bugs:
-    - 777007
     - 792988
 xca:
   version: 1.0.0-2
@@ -16621,7 +16541,6 @@ xtrlock:
     - timestamps_in_gzip_headers
     - not_using_dh_builddeb
   bugs:
-    - 777351
     - 787122
 xul-ext-monkeysphere:
   version: 0.8-1
