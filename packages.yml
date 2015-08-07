@@ -179,6 +179,10 @@ aft:
     Timestamp and random hash order in files produced by compile.pl
   bugs:
     - 777587
+agave:
+  version: 0.4.7-2.1
+  bugs:
+    - 794377
 aghermann:
   version: 1.0.2-1
   issues:
@@ -849,6 +853,8 @@ autogen:
   version: 1:5.18.4-3
   issues:
     - different_due_to_umask
+  bugs:
+    - 794892
 automake-1.14:
   version: 1:1.14.1-4
   issues:
@@ -2474,6 +2480,10 @@ cuba:
   version: 3.0+20111124-2
   bugs:
     - 791516
+cucumber:
+  version: 2.0.0-2
+  bugs:
+    - 794375
 cudf:
   version: 0.7-2
   issues:
@@ -4429,6 +4439,10 @@ fprobe-ulog:
   version: 1.1-7.3
   bugs:
     - 785518
+fracplanet:
+  version: 0.4.0-3
+  bugs:
+    - 794376
 frama-c:
   version: 20140301+neon+dfsg-3
   comments: |
@@ -4851,6 +4865,10 @@ geda-gaf:
   version: 1:1.8.2-4
   issues:
     - timestamps_from_cpp_macros
+geeqie:
+  version: 1:1.2-3
+  bugs:
+    - 794374
 gem:
   version: 1:0.93.3-8
   issues:
@@ -13631,6 +13649,10 @@ ruby-rack-mobile-detect:
   version: 0.4.0-3
   issues:
     - timestamps_in_gemspec_files
+ruby-rash:
+  version: 0.4.0-1
+  bugs:
+    - 792548
 ruby-remcached:
   version: 0.4.1-2
   issues:
