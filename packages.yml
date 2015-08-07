@@ -2829,6 +2829,10 @@ debian-zh-faq:
   issues:
     - timestamps_in_gzip_headers
     - timestamps_in_dvi_generated_by_latex
+debiandoc-sgml-doc:
+  version: 1.1.23
+  bugs:
+    - 794795
 debmake-doc:
   version: 1.0-1
   comments: |
@@ -3069,6 +3073,10 @@ dnssec-trigger:
   comments: |
     Embeds the build date into manpage.
     https://sources.debian.net/src/dnssec-trigger/0.13~svn685-4/configure.ac/#L678
+doc-base:
+  version: 0.10.6
+  bugs:
+    - 794793
 doc-debian:
   version: 6.3
   issues:
@@ -4477,6 +4485,10 @@ freehep-graphicsio:
   version: 2.1.1-3
   issues:
     - user_in_java_jar_manifest
+freeipmi:
+  version: 1.4.9-1
+  bugs:
+    - 794792
 freemedforms-project:
   version: 0.9.4-1
   issues:
