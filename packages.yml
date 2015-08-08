@@ -2212,6 +2212,10 @@ commons-pool:
   issues:
     - user_in_java_jar_manifest
     - locale_in_documentation_generated_by_javadoc
+compass-breakpoint-plugin:
+  version: 2.6.1-1
+  issues:
+    - ftbfs_in_jenkins_setup
 composite:
   version: 0.006.2+dfsg0-4
   issues:
@@ -5960,7 +5964,7 @@ haskell98-report:
 hasktags:
   version: 0.69.0-4
   issues:
-    - ftbfs_uninvestigated_unsatisfiable_dependencies
+    - ftbfs_in_jenkins_setup
 hatari:
   version: 1.8.0+dfsg-1
   issues:
