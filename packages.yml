@@ -7913,11 +7913,6 @@ libhdate:
   version: 1.6-2.2
   comments: |
     Embeds PATH.
-libhmsbeagle:
-  version: 2.1.2-1
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
-    - user_in_java_jar_manifest
 libhtml-lint-perl:
   version: 2.20+dfsg-1
   issues:
@@ -7955,13 +7950,6 @@ libindicate:
   version: 0.6.92-2
   issues:
     - timestamps_in_pe_binaries
-libinline-java-perl:
-  version: 0.56-1
-  issues:
-    - timezones_manpages_podman
-  bugs:
-    - 778983
-    - 791431
 libinnodb:
   version: 1.0.6.6750-1
   issues:
@@ -11178,10 +11166,6 @@ osgi-compendium:
   version: 4.3.0-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-osmo:
-  version: 0.2.12-1
-  issues:
-    - timestamps_from_cpp_macros
 oss4:
   version: 4.2-build2010-2
   issues:
