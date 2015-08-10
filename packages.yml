@@ -7950,6 +7950,11 @@ libindicate:
   version: 0.6.92-2
   issues:
     - timestamps_in_pe_binaries
+libinline-java-perl:
+  version: 0.56-2
+  bugs:
+    - 778983
+    - 791431
 libinnodb:
   version: 1.0.6.6750-1
   issues:
@@ -9469,6 +9474,8 @@ maxima:
   version: 5.35.1-3
   issues:
     - timestamps_in_documentation_generated_by_texi2html
+  bugs:
+    - 795056
 mayavi2:
   version: 4.3.1-3.1
   comments: |
@@ -12635,6 +12642,8 @@ python-xlib:
   version: 0.14+20091101-1
   issues:
     - timestamps_in_documentation_generated_by_texi2html
+  bugs:
+    - 795057
 python-xlrd:
   version: 0.9.2-1
   comments: |
@@ -13382,6 +13391,10 @@ ruby-cal-heatmap-rails:
   version: 0.0.1~dfsg-1
   bugs:
     - 794162
+ruby-capybara:
+  version: 2.2.1-1
+  bugs:
+    - 795029
 ruby-celluloid:
   version: 0.16.0-2
   issues:
@@ -13392,6 +13405,14 @@ ruby-clamp:
   version: 0.6.3-1
   bugs:
     - 794163
+ruby-coercible:
+  version: 1.0.0-1
+  bugs:
+    - 795031
+ruby-cstruct:
+  version: 1.0.1-1
+  bugs:
+    - 795032
 ruby-dbi:
   version: 0.4.5-3
   issues:
@@ -13400,6 +13421,10 @@ ruby-dbus:
   version: 0.11.0-1
   issues:
     - timestamps_in_ruby_documentation
+ruby-dependor:
+  version: 1.0.1-1
+  bugs:
+    - 795030
 ruby-diff-lcs:
   version: 1.2.5-1
   bugs:
@@ -13438,18 +13463,46 @@ ruby-facets:
   version: 2.9.3-2
   issues:
     - random_order_in_ruby_rdoc_indices
+ruby-factory-girl:
+  version: 4.4.0-2
+  bugs:
+    - 795033
+ruby-fakeweb:
+  version: 1.3.0+git20131202.48208f9+dfsg-1
+  bugs:
+    - 795034
 ruby-faraday-middleware:
   version: 0.9.1-1
   bugs:
     - 792548
+ruby-fast-gettext:
+  version: 0.9.0-1
+  bugs:
+    - 795035
+ruby-filepath:
+  version: 0.6-2
+  bugs:
+    - 795037
+ruby-fission:
+  version: 0.5.0-1
+  bugs:
+    - 795040
 ruby-flexmock:
   version: 0.9.0-1
   bugs:
     - 794171
+ruby-fssm:
+  version: 0.2.10-2
+  bugs:
+    - 795041
 ruby-github-markup:
   version: 1.2.1+dfsg-1
   issues:
     - timestamps_in_ruby_documentation
+ruby-gnuplot:
+  version: 2.6.2-1
+  bugs:
+    - 795042
 ruby-haml-magic-translations:
   version: 4.0.3-2
   bugs:
@@ -13521,6 +13574,10 @@ ruby-merb-assets:
   version: 1.1.3-2
   bugs:
     - 794267
+ruby-merb-param-protection:
+  version: 1.1.3-2
+  bugs:
+    - 795043
 ruby-mercenary:
   version: 0.3.4-1
   bugs:
@@ -13557,6 +13614,14 @@ ruby-org:
   version: 0.9.1-2
   bugs:
     - 794275
+ruby-orm-adapter:
+  version: 0.5.0-1
+  bugs:
+    - 795045
+ruby-parslet:
+  version: 1.6.1-1
+  bugs:
+    - 795046
 ruby-patron:
   version: 0.4.18-2
   comments: |
@@ -13568,6 +13633,10 @@ ruby-pg:
   version: 0.17.1-2
   issues:
     - timestamps_in_ruby_documentation
+ruby-powerpack:
+  version: 0.1.0-1
+  bugs:
+    - 795047
 ruby-pygments.rb:
   version: 0.5.4~ds1-3
   issues:
@@ -13588,10 +13657,22 @@ ruby-rinku:
   version: 1.7.3-1
   issues:
     - timestamps_in_ruby_documentation
+ruby-roxml:
+  version: 3.3.1-3
+  bugs:
+    - 795048
 ruby-rspec-retry:
   version: 0.3.0-1
   bugs:
     - 794135
+ruby-rubyvis:
+  version: 0.6.1+dfsg1-1
+  bugs:
+    - 795049
+ruby-semverse:
+  version: 1.1.0-2
+  bugs:
+    - 795050
 ruby-settingslogic:
   version: 2.0.9-2
   issues:
