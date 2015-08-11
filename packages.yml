@@ -16426,6 +16426,12 @@ xloadimage:
     https://sources.debian.net/src/xloadimage/4.1-23/build-info/
   issues:
     - captures_kernel_version
+xlsx2csv:
+  version: 0.20+20121013+gitfa44ba6-1
+  issues:
+    - timestamps_in_documentation_generated_by_podman
+  bugs:
+    - 795203
 xmds-doc:
   version: 0~svn.1884-3.1
   issues:
