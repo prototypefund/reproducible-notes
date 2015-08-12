@@ -5769,6 +5769,10 @@ gstreamer1.0:
   issues:
     - pdf_created_by_ghostscript
     - timestamps_in_ps_generated_by_dvips
+gstreamermm-1.0:
+  version: 1.4.3+dfsg-3
+  issues:
+    - leaks_path_environment_variable
 gtg-trace:
   version: 0.2-2+dfsg-1
   issues:
