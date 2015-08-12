@@ -4138,6 +4138,8 @@ fltk1.3:
   version: 1.3.2-6
   issues:
     - timestamps_in_pdf_generated_by_latex
+  bugs:
+    - 793517
 flush:
   version: 0.9.12-3.1
   bugs:
@@ -13862,6 +13864,10 @@ samhain:
   version: 3.1.0-7
   issues:
     - timestamps_from_cpp_macros
+samizdat:
+  version: 0.7.0-1
+  bugs:
+    - 795207
 samplv1:
   version: 0.5.1-1
   issues:
