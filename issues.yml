@@ -438,6 +438,17 @@ fonts_in_pdf_files:
   description: |
     The internally used names/identifiers of fonts embedded into PDF files varies.
     The order of embedded fonts can also be different.
+    .
+    The order is only different if the date differs (set by TZ environment
+    variable for example). If the date is the same, then the font name
+    is reproducible. Difference in hour/minute/second resolution seems
+    to be irrelevant.
+    .
+    The font name occurs in the /BaseFont field and in the /Fontname field.
+    The name is of the form XXXXXX+YYY where the XXXXXX part is the one that
+    varies and is called the subset_tag. It is generated in
+    texk/web2c/pdftexdir/utils.c function make_subset_tag() from an MD5 sum
+    over the font glyphs.
 timestamps_in_groovy_class_files:
   description: |
     groovyc includes timestamps in class files.
