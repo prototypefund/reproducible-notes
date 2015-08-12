@@ -1038,6 +1038,7 @@ bash:
     - timestamps_in_pdf_generated_by_latex
     - pdf_created_by_ghostscript
     - timestamps_in_documentation_generated_by_texi2html
+    - fonts_in_pdf_files
 bashdb:
   version: 4.2.0.8-1.1
   bugs:
@@ -4681,6 +4682,7 @@ gap-guava:
   version: 3.12+ds1-2
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - fonts_in_pdf_files
 gap-io:
   version: 4.4.2+ds-1
   issues:
