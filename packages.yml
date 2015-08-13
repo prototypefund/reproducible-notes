@@ -11967,6 +11967,8 @@ png++:
     - 777632
 pngcheck:
   version: 2.3.0-7
+  comments: |
+    Also requires changes to debian/pod2man.mk, eg. https://gist.github.com/b2cb9fc57f06cd9cbef6
   issues:
     - timestamps_in_documentation_generated_by_podman
 pnm2ppa:
