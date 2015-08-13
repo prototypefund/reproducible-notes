@@ -3470,6 +3470,10 @@ elida:
   bugs:
     - 776955
     - 792959
+eliom:
+  version: 4.0.0-2
+  issues:
+    - timestamps_in_documentation_generated_by_ocamldoc
 elk:
   version: 3.99.8-2.1
   issues:
@@ -11444,8 +11448,8 @@ pari:
     - timestamps_in_gzip_headers
 parmap:
   version: 1.0~rc4-5
-  comments: |
-    Timestamp embedded into manpage by ocamldoc.
+  issues:
+    - timestamps_in_documentation_generated_by_ocamldoc
 parrot:
   version: 6.6.0-1
   issues:
