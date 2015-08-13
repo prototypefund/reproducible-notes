@@ -7415,6 +7415,10 @@ kwayland:
   version: 4:5.3.2-1
   bugs:
     - 791745
+kwidgetsaddons:
+  version: 5.12.0-1
+  comments: |
+    Whilst the package uses kde cdbs helpers etc., it should -- after all that -- use dh_builddeb and thus have the mtimes set correctly.. but they are not
 kxmlgui:
   version: 5.11.0-1
   comments: |
