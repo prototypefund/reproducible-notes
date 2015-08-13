@@ -291,6 +291,9 @@ randomness_in_documentation_generated_by_sphinx:
 randomness_in_documentation_indices_generated_by_sphinx:
   description: |
     Sphinx can output genindex.html index entries in non-deterministic order.
+    .
+    There might be other missing sorts or dict key sorting beyond the pull
+    request already sent.
   url: https://github.com/sphinx-doc/sphinx/pull/1699
 randomness_in_icc_colour_profiles:
   description: |
