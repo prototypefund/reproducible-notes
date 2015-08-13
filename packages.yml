@@ -15823,6 +15823,10 @@ unixcw:
   version: 3.4.2-1
   comments: |
     Signatures and functions in manpage are generated in src/libcw/Makefile.am without a locale-independent sort
+unoconv:
+  version: 0.6-6
+  issues:
+    - timestamps_in_documentation_generated_by_asciidoc
 urjtag:
   version: 0.10+r2007-1.2
   issues:
