@@ -718,3 +718,6 @@ haskell_devscripts_locale_substvars:
     dh_haskell_depends doesn't support UTF-8 encoded debian/control files
     resulting in differing dependencies when building {in,outside} UTF-8.
   url: https://bugs.debian.org/793944
+timestamps_in_documentation_generated_by_ocamldoc:
+  description:
+    ocamldoc includes timezone-sensitive build timestamp in the headers.
