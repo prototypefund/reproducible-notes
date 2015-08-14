@@ -3081,6 +3081,10 @@ dnsjava:
   version: 2.1.5-0.1
   issues:
     - timestamp_in_java_bnd_manifest
+dnsruby:
+  version: 1.54-2
+  issues:
+    - timestamps_in_gemspec_files
 dnssec-trigger:
   version: 0.13~svn685-4
   comments: |
@@ -6370,6 +6374,10 @@ imagemagick:
     - timestamps_from_cpp_macros
   bugs:
     - 783933
+imagetooth:
+  version: 2.0.1-1.1
+  issues:
+    - timestamps_in_gemspec_files
 imaprowl:
   version: 1.2.1-1.1
   issues:
@@ -13521,6 +13529,10 @@ ruby-addressable:
   version: 2.3.6-1
   bugs:
     - 794133
+ruby-aggregate:
+  version: 0.2.2-1
+  issues:
+    - timestamps_in_gemspec_files
 ruby-aruba:
   version: 0.5.4-2
   bugs:
@@ -13529,6 +13541,10 @@ ruby-awesome-print:
   version: 1.2.0-1
   bugs:
     - 794159
+ruby-bcat:
+  version: 0.6.2-3
+  issues:
+    - timestamps_in_gemspec_files
 ruby-bdb:
   version: 0.6.6-1
   issues:
@@ -13551,6 +13567,10 @@ ruby-bert:
   version: 1.1.6-1
   bugs:
     - 791768
+ruby-blankslate:
+  version: 2.1.2.4-4
+  issues:
+    - timestamps_in_gemspec_files
 ruby-bluefeather:
   version: 0.41-3
   bugs:
@@ -13581,10 +13601,26 @@ ruby-coercible:
   version: 1.0.0-1
   bugs:
     - 795031
+ruby-colored:
+  version: 1.2-2
+  issues:
+    - timestamps_in_gemspec_files
 ruby-cstruct:
   version: 1.0.1-1
   bugs:
     - 795032
+ruby-dbd-mysql:
+  version: 0.4.4+gem2deb-2
+  issues:
+    - timestamps_in_gemspec_files
+ruby-dbd-pg:
+  version: 0.3.9+gem2deb-1
+  issues:
+    - timestamps_in_gemspec_files
+ruby-dbd-sqlite3:
+  version: 1.2.5+gem2deb-3
+  issues:
+    - timestamps_in_gemspec_files
 ruby-dbi:
   version: 0.4.5-3
   issues:
@@ -13601,6 +13637,10 @@ ruby-diff-lcs:
   version: 1.2.5-1
   bugs:
     - 794164
+ruby-dirty-memoize:
+  version: 0.0.4-1
+  issues:
+    - timestamps_in_gemspec_files
 ruby-distribution:
   version: 0.7.0+dfsg-1
   bugs:
@@ -13619,10 +13659,18 @@ ruby-em-hiredis:
   version: 0.2.1-2.1
   issues:
     - timestamps_in_ruby_documentation
+ruby-encryptor:
+  version: 1.3.0-1
+  issues:
+    - timestamps_in_gemspec_files
 ruby-enumerize:
   version: 0.11.0-1
   bugs:
     - 794170
+ruby-erubis:
+  version: 2.7.0-3
+  issues:
+    - timestamps_in_gemspec_files
 ruby-expression-parser:
   version: 0.9.1-2
   issues:
@@ -13651,6 +13699,10 @@ ruby-fast-gettext:
   version: 0.9.0-1
   bugs:
     - 795035
+ruby-fast-xs:
+  version: 0.8.0-3
+  issues:
+    - timestamps_in_gemspec_files
 ruby-filepath:
   version: 0.6-2
   bugs:
@@ -13667,10 +13719,26 @@ ruby-fssm:
   version: 0.2.10-2
   bugs:
     - 795041
+ruby-fusefs:
+  version: 0.7.0-4
+  issues:
+    - timestamps_in_gemspec_files
+ruby-gd:
+  version: 0.8.0-7
+  issues:
+    - timestamps_in_gemspec_files
+ruby-git:
+  version: 1.2.8-1
+  issues:
+    - timestamps_in_gemspec_files
 ruby-github-markup:
   version: 1.2.1+dfsg-1
   issues:
     - timestamps_in_ruby_documentation
+ruby-globalhotkeys:
+  version: 0.3.2-4
+  issues:
+    - timestamps_in_gemspec_files
 ruby-gnuplot:
   version: 2.6.2-1
   bugs:
