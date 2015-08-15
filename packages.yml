@@ -6039,6 +6039,10 @@ haskell-concrete-typerep:
     needs pbuilder 0.216 due to #791991
   issues:
     - ftbfs_in_jenkins_setup
+haskell-glib:
+  version: 0.13.2.1-1
+  bugs:
+    - 795582
 haskell-mode:
   version: 13.10-3
   issues:
