@@ -824,6 +824,10 @@ auctex:
   issues:
     - timestamps_in_emacs_autoloads
     - timestamps_in_pdf_generated_by_latex
+audacity:
+  version: 2.0.6-2
+  issues:
+    - timestamps_from_cpp_macros
 audtty:
   version: 0.1.12-4
   bugs:
@@ -2642,6 +2646,10 @@ dar:
     - timestamps_from_cpp_macros
 darcs:
   version: 2.10.0-1
+  issues:
+    - timestamps_from_cpp_macros
+darkradiant:
+  version: 2.0.2-2
   issues:
     - timestamps_from_cpp_macros
 darktable:
@@ -7475,6 +7483,10 @@ lambdabot:
     - ftbfs_uninvestigated_unsatisfiable_dependencies
   bugs:
     - 789412
+lammps:
+  version: 0~20150313.gitfa668e1-1
+  issues:
+    - timestamps_from_cpp_macros
 lastpass-cli:
   version: 0.3.0-2
   issues:
@@ -8369,6 +8381,10 @@ libmatio:
   version: 1.5.2-3
   issues:
     - timestamps_in_pdf_generated_by_latex
+libmatroska:
+  version: 1.4.2-4
+  issues:
+    - timestamps_from_cpp_macros
 libmetadata-extractor-java:
   version: 2.7.2-2
   issues:
@@ -8508,6 +8524,10 @@ libphp-jpgraph:
   version: 1.5.2-12.1
   issues:
     - different_due_to_umask
+libphysfs:
+  version: 2.0.3-3
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 libpicocontainer-java:
   version: 2.15-1
   issues:
@@ -9807,6 +9827,10 @@ mksh:
   version: 50d-3
   comments: |
     Puts output from $(date) and others into README.Debian
+mkvtoolnix:
+  version: 8.2.0-2
+  issues:
+    - timestamps_from_cpp_macros
 mldonkey:
   version: 3.1.5-2
   issues:
@@ -9916,6 +9940,10 @@ mongo-java-driver:
   version: 2.12.4-1
   issues:
     - timestamps_in_maven_pom_files
+mongodb:
+  version: 1:2.4.14-3
+  issues:
+    - timestamps_from_cpp_macros
 monkeysign:
   version: 2.0.2
   bugs:
@@ -13529,6 +13557,10 @@ rtslib:
   version: 3.0+git0.86e46bc6-5
   issues:
     - use_epydoc
+rttool:
+  version: 1.0.3.0-5
+  issues:
+    - timestamps_in_gemspec_files
 ruby-activeldap:
   version: 4.0.3-2
   issues:
@@ -16278,6 +16310,11 @@ vnc4:
   version: 4.1.1+X4.3.0-37.4
   issues:
     - timestamps_from_cpp_macros
+volk:
+  version: 1.0.2-1
+  comments: |
+    Embeds the build date.
+    https://sources.debian.net/src/volk/1.0.2-1/lib/CMakeLists.txt/#L479-L482
 voms:
   version: 2.0.11-5
   issues:
