@@ -1989,6 +1989,10 @@ classycle:
   issues:
     - timestamps_in_jar
     - locale_in_documentation_generated_by_javadoc
+clblas:
+  version: 2.6-1
+  issues:
+    - random_order_in_shlibs_depends
 clfswm:
   version: 20111015.git51b0a02-2
   issues:
