@@ -2644,6 +2644,11 @@ daisy-player:
   version: 9.0.0-1
   issues:
     - timestamps_in_manpages_generated_by_txt2man
+dapl:
+  version: 2.1.5-1
+  comments: |
+    Embeds the build date.
+    https://sources.debian.net/src/dapl/2.1.5-1/Makefile.am/#L51
 dar:
   version: 2.4.15-1
   issues:
@@ -3894,6 +3899,10 @@ fbcat:
   version: 0.3-1
   issues:
     - timestamps_generated_by_docbook_to_man
+fbi:
+  version: 2.10-1
+  issues:
+    - timestamps_from_cpp_macros
 fceux:
   version: 2.2.2+dfsg0-1
   issues:
@@ -5089,6 +5098,10 @@ givaro:
   version: 3.7.2-1
   bugs:
     - 788010
+gjiten:
+  version: 2.6-2.3
+  issues:
+    - different_encoding
 gkeyfile-sharp:
   version: 0.1-4
   issues:
@@ -6208,6 +6221,11 @@ httpunit:
   version: 1.7+dfsg-11
   issues:
     - locale_in_documentation_generated_by_javadoc
+httraqt:
+  version: 1.4.4-1
+  comments: |
+    Embeds the build date.
+    https://sources.debian.net/src/httraqt/1.4.4-1/CMakeLists.txt/#L60-L64
 hunspell-br:
   version: 0.12-1
   bugs:
@@ -13987,6 +14005,10 @@ ruby-shoulda-matchers:
   version: 1.0.0~beta2-1
   issues:
     - timestamps_in_gemspec_files
+ruby-sigar:
+  version: 0.7.2-3.1
+  issues:
+    - timestamps_from_cpp_macros
 ruby-simple-navigation:
   version: 3.11.0-1
   bugs:
