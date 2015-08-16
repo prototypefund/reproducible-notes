@@ -4813,6 +4813,10 @@ gcc-4.9:
   version: 4.9.3-1
   comments: |
     Contains test output in boehmm-gc.log.xz which is non-determinstic and contains timestamps
+gcc-arm-none-eabi:
+  version: 14
+  bugs:
+    - 791541
 gcc-avr:
   version: 1:4.8.1+Atmel3.4.4-2
   issues:
