@@ -2167,9 +2167,8 @@ coldfire:
     - timestamps_generated_by_docbook_to_man
 collabtive:
   version: 2.0+dfsg-6
-  comments: |
-    While removing duplicate images and replacing them with symlinks,
-    rdfind chooses a random one as target.
+  issues:
+    - undeterministic_symlinking_by_rdfind
 collectd:
   version: 5.4.1-6
   issues:
@@ -4474,6 +4473,10 @@ foxyproxy:
     - timestamps_in_zip
   bugs:
     - 794779
+fpc:
+  version: 2.6.4+dfsg-8
+  issues:
+    - undeterministic_symlinking_by_rdfind
 fprobe-ulog:
   version: 1.1-7.3
   bugs:

@@ -726,3 +726,7 @@ timestamps_in_documentation_generated_by_ocamldoc:
     ocamldoc includes timezone-sensitive build timestamp in the headers.
     (fixed in experimental)
   url: https://bugs.debian.org/794586
+undeterministic_symlinking_by_rdfind:
+  description:
+    While removing duplicate files and replacing them with symlinks,
+    rdfind chooses a random one as target.
