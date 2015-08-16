@@ -205,8 +205,6 @@ akuma:
   comments: |
     it builds fine on jenkins.d.n, but when building locally it embeds the username into the manifest file
     unclear, why this is hidden on jenkins.d.n
-  issues:
-    - user_in_java_jar_manifest
 alacarte:
   version: 3.11.91-2
   issues:
@@ -1035,10 +1033,6 @@ basemap:
     - timestamps_in_documentation_generated_by_sphinx
   bugs:
     - 790235
-basex:
-  version: 7.9-1
-  issues:
-    - user_in_java_jar_manifest
 bash:
   version: 4.3-11
   comments: |
@@ -1241,10 +1235,6 @@ biojava3-live:
   version: 3.1.0+dfsg-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
-biomaj:
-  version: 1.2.3-4
-  issues:
-    - user_in_java_jar_manifest
 bird:
   version: 1.4.5-1
   issues:
@@ -2042,10 +2032,6 @@ cloc:
   version: 1.60-1
   bugs:
     - 787669
-clojure-contrib:
-  version: 1.2.0-2
-  issues:
-    - user_in_java_jar_manifest
 cloog:
   version: 0.18.3-1
   issues:
@@ -2209,10 +2195,6 @@ commons-beanutils:
   version: 1.9.2-1
   issues:
     - locale_differences_in_pom
-commons-configuration:
-  version: 1.10-2
-  issues:
-    - user_in_java_jar_manifest
 commons-csv:
   version: 0.1-SNAPSHOT+svn678580-3
   issues:
@@ -4553,10 +4535,6 @@ freehdl:
   version: 0.0.8-2.1
   issues:
     - timestamps_from_cpp_macros
-freehep-graphicsio:
-  version: 2.1.1-3
-  issues:
-    - user_in_java_jar_manifest
 freeipmi:
   version: 1.4.9-1
   bugs:
@@ -6955,10 +6933,6 @@ jenkins-ssh-cli-auth:
   version: 1.2-1
   issues:
     - timestamps_in_java_stapler_files
-jenkins-winstone:
-  version: 2.8-1
-  issues:
-    - user_in_java_jar_manifest
 jericho-html:
   version: 3.1-2
   issues:
@@ -7118,10 +7092,6 @@ jruby:
   issues:
     - user_in_java_jar_manifest
     - timestamp_in_java_bnd_manifest
-jruby-joni:
-  version: 2.1.5-1
-  issues:
-    - user_in_java_jar_manifest
 jruby-openssl:
   version: 0.9.7-1
   bugs:
@@ -7192,10 +7162,6 @@ jthread:
   version: 1.3.1-3
   issues:
     - timestamps_in_pdf_generated_by_latex
-jtreg:
-  version: 4.1-b09-1
-  issues:
-    - user_in_java_jar_manifest
 jts:
   version: 1.11-1
   issues:
@@ -8095,10 +8061,6 @@ libgnumail-java:
   issues:
     - timestamp_in_java_bnd_manifest
     - locale_in_documentation_generated_by_javadoc
-libgoogle-gson-java:
-  version: 2.2.4-1
-  issues:
-    - user_in_java_jar_manifest
 libgpars-groovy-java:
   version: 0.10-1
   issues:
@@ -8262,10 +8224,6 @@ libjaxp1.3-java:
   version: 1.3.05-2
   issues:
     - randomness_in_gcj_output
-libjazzy-java:
-  version: 0.5.2-1
-  issues:
-    - user_in_java_jar_manifest
 libjbcrypt-java:
   version: 0.3-4
   issues:
@@ -8364,10 +8322,6 @@ libjpf-java:
   version: 1.5.1+dfsg-4
   issues:
     - locale_in_documentation_generated_by_javadoc
-libjrosetta-java:
-  version: 1.0.4-4
-  issues:
-    - user_in_java_jar_manifest
 libjspeex-java:
   version: 0.9.7-3
   issues:
@@ -10958,10 +10912,6 @@ obfsproxy:
   version: 0.2.12-1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-objenesis:
-  version: 1.2+full-3
-  issues:
-    - user_in_java_jar_manifest
 obus:
   version: 1.1.5-3
   issues:
@@ -14648,10 +14598,6 @@ sensible-utils:
     - different_due_to_umask
   bugs:
     - 774449
-serp:
-  version: 1.14.1-2
-  issues:
-    - user_in_java_jar_manifest
 service-wrapper-java:
   version: 3.5.25-2
   issues:
@@ -15953,10 +15899,6 @@ trove:
   issues:
     - locale_in_documentation_generated_by_javadoc
     - different_encoding
-trove3:
-  version: 3.0.3-1
-  issues:
-    - user_in_java_jar_manifest
 trscripts:
   version: 1.16
   issues:
@@ -16310,10 +16252,6 @@ usb-modeswitch-data:
   version: 20150115-1
   issues:
     - different_due_to_umask
-user-agent-utils:
-  version: 1.15-1
-  issues:
-    - user_in_java_jar_manifest
 userv:
   version: 1.1.1
   issues:
@@ -17401,10 +17339,6 @@ yaws:
   version: 1.98-4
   issues:
     - timestamps_in_beam_files
-yecht:
-  version: 0.0.2-2
-  issues:
-    - user_in_java_jar_manifest
 yersinia:
   version: 0.7.3-1
   comments: |
