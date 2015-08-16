@@ -68,7 +68,8 @@ timestamps_in_maven_pom_files:
   description: |
     Maven writes a timestamp to pom.properties files.  This has been fixed in Maven itself, but these files are
     also written by e.g. org.apache.felix.bundleplugin.  Additionally, anything that writes .properties files is
-    likely to have the same issue.
+    likely to have the same issue.  Fixed by strip-nondeterminism 0.007 [2015-05] for ant/maven,
+    and >0.009 [>2015-07] for bundleplugin.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInMavenPomProperties
   deterministic: True
 timestamps_in_maven_version_files:
