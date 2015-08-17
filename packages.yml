@@ -2330,6 +2330,11 @@ cowbell:
   version: 0.2.7.1-7
   issues:
     - timestamps_in_pe_binaries
+cp2k:
+  version: 2.6.1-2
+  comments: |
+    Embeds the build date and hostname.
+    https://sources.debian.net/src/cp2k/2.6.1-2/makefiles/Makefile/#L360-L361
 cpio:
   version: 2.11+dfsg-4
   issues:
