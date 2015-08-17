@@ -8098,13 +8098,13 @@ libgtk2-appindicator-perl:
     - 782877
 libgtk2-perl:
   version: 2:1.2495-1
-  bugs:
-    - 790532
   comments: |
     790532 fixed in experimental with 2:1.2496-1, that has another problem:
     strings extracted from gtk+2.0 differ in manpages -- one build seems
     to have the en_GB version, while the other one has the en_US version
     => should be export LANG or LC_MESSAGES in debian/rules, or what?
+  bugs:
+    - 790532
 libgtkada:
   version: 2.24.4dfsg-1
   comments: |
