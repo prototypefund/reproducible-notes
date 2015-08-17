@@ -6045,6 +6045,11 @@ halibut:
     https://sources.debian.net/src/halibut/1.0%2Bsvn20090906-9/version.c/#L8
   issues:
     - timestamps_from_cpp_macros
+handbrake:
+  version: 0.10.2+ds1-1
+  comments: |
+    Embeds the build date.
+    https://sources.debian.net/src/handbrake/0.10.2%2Bds1-1/make/configure.py/#L810
 harden-doc:
   version: 3.18
   issues:
