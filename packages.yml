@@ -2922,10 +2922,6 @@ dh-kpatches:
   version: 0.99.36+nmu1
   issues:
     - timestamps_in_pdf_generated_by_latex
-dh-make-golang:
-  version: 0.0~git20150803.0.bd09cd9-1
-  issues:
-    - random_build_path_by_golang_compiler
 dh-make-php:
   version: 0.4.0
   issues:
@@ -3132,6 +3128,10 @@ dochelp:
   version: 0.1.2
   issues:
     - randomness_in_ocaml_a_files
+docker.io:
+  version: 1.6.2~dfsg1-2
+  issues:
+    - random_build_path_by_golang_compiler
 docky:
   version: 2.2.0-2
   issues:
