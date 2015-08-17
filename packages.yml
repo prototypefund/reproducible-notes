@@ -9949,6 +9949,11 @@ minidlna:
     https://sources.debian.net/src/minidlna/1.1.4%2Bdfsg-3/configure.ac/#L527
   issues:
     - captures_kernel_version
+miniupnpd:
+  version: 1.8.20140523-4
+  comments: |
+    Embeds the build date.
+    https://sources.debian.net/src/miniupnpd/1.8.20140523-4/genconfig.sh/#L45
 minlog:
   version: 4.0.99.20100221-5.2
   issues:
