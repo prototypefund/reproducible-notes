@@ -1663,7 +1663,7 @@ cc1111:
   issues:
     - timestamps_from_cpp_macros
 ccfits:
-  version: 2.4+dfsg-5
+  version: 2.4+dfsg-3
   issues:
     - timestamps_in_documentation_generated_by_doxygen
 cconv:
@@ -10575,6 +10575,11 @@ netqmail:
     - different_due_to_umask
   bugs:
     - 777021
+netrek-client-cow:
+  version: 3.3.0-3.1
+  comments: |
+    Embeds the build date.
+    https://sources.debian.net/src/netrek-client-cow/3.3.0-3.1/mkcflags.c/#L52-L53
 netrik:
   version: 1.16.1-1.1
   issues:
