@@ -6051,6 +6051,11 @@ harden-doc:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_dvi_generated_by_latex
+hardinfo:
+  version: 0.5.1-1.5
+  comments: |
+    Embeds system information.
+    https://sources.debian.net/src/hardinfo/0.5.1-1.5/configure/#L189-L191
 hardlink:
   version: 0.3.0
   issues:
