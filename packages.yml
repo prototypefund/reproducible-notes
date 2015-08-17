@@ -2922,6 +2922,10 @@ dh-kpatches:
   version: 0.99.36+nmu1
   issues:
     - timestamps_in_pdf_generated_by_latex
+dh-make-golang:
+  version: 0.0~git20150803.0.bd09cd9-1
+  issues:
+    - random_build_path_by_golang_compiler
 dh-make-php:
   version: 0.4.0
   issues:
@@ -14749,6 +14753,10 @@ simplyhtml:
   version: 0.16.08-1
   issues:
     - locale_in_documentation_generated_by_javadoc
+simutrans:
+  version: 111.2.2-1
+  issues:
+    - timestamps_from_cpp_macros
 sinfo:
   version: 0.0.47-3
   issues:

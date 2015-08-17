@@ -732,3 +732,8 @@ undeterministic_symlinking_by_rdfind:
     While removing duplicate files and replacing them with symlinks,
     rdfind chooses a random one as target.
   url: https://bugs.debian.org/795790
+random_build_path_by_golang_compiler:
+  description: |
+    The golang compiler embeds paths with a random component into object files.
+    Example:
+    DW_AT_name        : (indirect string, offset: 0x1b1): /tmp/go-build175461345/github.com/docker/docker/pkg/term/_obj/tc_linux_cgo.cgo2.c
