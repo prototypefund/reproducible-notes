@@ -2653,6 +2653,8 @@ dahdi-tools:
   version: 1:2.10.2-2
   issues:
     - timestamps_in_documentation_generated_by_asciidoc
+  bugs:
+    - 795977
 daisy-player:
   version: 9.0.0-1
   issues:
@@ -2759,6 +2761,8 @@ dbusada:
   version: 0.3-1
   issues:
     - timestamps_in_documentation_generated_by_asciidoc
+  bugs:
+    - 795983
 dbuskit:
   version: 0.1.1-2
   comments: |
@@ -12261,6 +12265,8 @@ pngcheck:
     Also requires changes to debian/pod2man.mk, eg. https://gist.github.com/b2cb9fc57f06cd9cbef6
   issues:
     - timestamps_in_documentation_generated_by_podman
+  bugs:
+    - 795987
 pnm2ppa:
   version: 1.13-6
   issues:
@@ -12365,6 +12371,8 @@ postgresql-plproxy:
   version: 2.5-5
   issues:
     - timestamps_in_documentation_generated_by_asciidoc
+  bugs:
+    - 795984
 pound:
   version: 2.6-6.1
   comments: |
@@ -16384,6 +16392,8 @@ unoconv:
   version: 0.6-6
   issues:
     - timestamps_in_documentation_generated_by_asciidoc
+  bugs:
+    - 795975
 urjtag:
   version: 0.10+r2007-1.2
   issues:
@@ -16973,6 +16983,8 @@ x11proto-input:
   version: 2.3.1-1
   issues:
     - timestamps_in_documentation_generated_by_asciidoc
+  bugs:
+    - 795981
 x11proto-kb:
   version: 1.0.6-2
   issues:
@@ -17345,6 +17357,8 @@ xorg:
   version: 1:7.7+7
   issues:
     - timestamps_in_documentation_generated_by_asciidoc
+  bugs:
+    - 795985
 xorg-docs:
   version: 1.7-1
   issues:
