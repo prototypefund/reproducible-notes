@@ -5603,6 +5603,10 @@ gogoc:
   version: 1:1.2-5
   issues:
     - timestamps_from_cpp_macros
+golang:
+  version: 2:1.4.2-3
+  issues:
+    - random_build_path_by_golang_compiler
 golang-doozer:
   version: 0.0~git20130909-1
   bugs:
@@ -16834,6 +16838,11 @@ wise:
   version: 2.4.1-17
   issues:
     - timestamps_from_cpp_macros
+wit:
+  version: 2.22b-1
+  comments: |
+    Embeds the build date.
+    https://sources.debian.net/src/wit/2.22b-1/setup.sh/#L19
 witalian:
   version: 1.7.6
   comments: |
