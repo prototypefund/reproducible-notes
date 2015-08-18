@@ -8617,6 +8617,10 @@ libnet-route-perl:
   version: 0.02-1
   bugs:
     - 788758
+libnet-tclink-perl:
+  version: 3.4.0-6
+  comments: |
+    segfaults, but see also #796027 and #796028
 libnfo:
   version: 1.0.1-1.1
   issues:
