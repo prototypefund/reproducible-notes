@@ -820,7 +820,7 @@ aubio:
   bugs:
     - 779216
 auctex:
-  version: 11.88-1.1
+  version: 11.87-3+deb8u1
   comments: |
     Contains timestamp in README.Debian.
   issues:
@@ -14017,6 +14017,10 @@ ruby-dbus:
   version: 0.11.0-1
   issues:
     - timestamps_in_ruby_documentation
+ruby-delorean:
+  version: 2.1.0-2
+  issues:
+    - timestamps_in_gemspec_files
 ruby-dirty-memoize:
   version: 0.0.4-1
   issues:
@@ -14276,6 +14280,10 @@ ruby-net-irc:
     - timestamps_in_gemspec_files
 ruby-odbc:
   version: 0.99995-2
+  issues:
+    - timestamps_in_gemspec_files
+ruby-ole:
+  version: 1.2.11.7-3
   issues:
     - timestamps_in_gemspec_files
 ruby-omniauth-openid:
