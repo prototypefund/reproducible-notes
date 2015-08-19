@@ -13804,6 +13804,12 @@ rna-star:
     Records the build date and time in STAR:
     https://sources.debian.net/src/rna-star/2.4.0k-1/source/Makefile/?hl=27#L27
     https://sources.debian.net/src/rna-star/2.4.0k-1/source/Parameters.cpp/?hl=275#L275
+roaraudio:
+  version: 1.0~beta11-3
+  comments: |
+    Embeds the build date, username and hostname.
+    https://sources.debian.net/src/roaraudio/1.0%7Ebeta11-3/build-system/configure.tests/#L55
+    https://sources.debian.net/src/roaraudio/1.0%7Ebeta11-3/configure/#L531
 roarplaylistd:
   version: 0.1.9-1
   comments: |
