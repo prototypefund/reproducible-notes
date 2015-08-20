@@ -6266,9 +6266,9 @@ horizon:
     and
     /usr/share/openstack-dashboard/openstack_dashboard/test/.secret_key_store
 horst:
-  version: 4.0-1
+  version: 3.0-2
   issues:
-    - ftbfs_uninvestigated_unsatisfiable_dependencies
+    - timestamps_from_cpp_macros
 hp-search-mac:
   version: 0.1.3
   issues:
@@ -9717,7 +9717,7 @@ maria:
   issues:
     - randomness_in_html_generated_by_texi2html
 mariadb-10.0:
-  version: 10.0.20-1
+  version: 10.0.19-1
   comments: |
     Unsorted symbol list in ./usr/share/doc/mariadb-server-10.0/mysqld.sym.gz
     Is this file really of any use?
@@ -15785,6 +15785,10 @@ tcpwatch-httpproxy:
     - timestamps_in_gzip_headers
   bugs:
     - 776969
+tcsh:
+  version: 6.18.01-3
+  bugs:
+    - 796271
 templayer:
   version: 1.5.1-1
   comments: |
