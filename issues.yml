@@ -482,6 +482,9 @@ timestamps_in_documentation_generated_by_edoc:
     The Erland documentation generator EDoc is embedding timestamps in its documentation.
 timestamps_in_qch:
   description: |
+    There has been done a lot of reproducible fixes in 5.5.0, so it is worth to
+    wait entering this version sid before retrying.
+    .
     qhelpgenerator inserts a timestamp into documentation (qch) files,
     which are sqlite3 databases.
     .
