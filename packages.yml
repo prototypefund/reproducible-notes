@@ -6470,12 +6470,9 @@ ifmail:
     https://sources.debian.net/src/ifmail/2.14tx8.10-22/ifcico/Makefile/#L171
     https://sources.debian.net/src/ifmail/2.14tx8.10-22/ifgate/Makefile/#L129
 ifrench-gut:
-  version: 1.0-30
+  version: 1.0-31
   issues:
-    - random_order_in_dictionary_debconf_templates
     - random_ispell_hash_files
-  bugs:
-    - 795581
 ifupdown:
   version: 0.7.50
   bugs:
@@ -13476,11 +13473,6 @@ qtop:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/qtop/2.2.5-1/base-cmake/Macros.cmake/#L22-L38
-qtquickcontrols-opensource-src:
-  version: 5.3.2-2
-  issues:
-    - timestamps_in_qch
-    - randomness_in_qdoc
 qtractor:
   version: 0.6.3-1
   issues:
@@ -15286,7 +15278,7 @@ spd:
   issues:
     - timestamps_from_cpp_macros
 spectacle:
-  version: 0.22-3
+  version: 0.25-1
   issues:
     - timestamps_in_python_code_generated_by_cheetah
   bugs:
