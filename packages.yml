@@ -16556,11 +16556,15 @@ unifont:
 unison:
   version: 2.40.102-2
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 unison2.32.52:
   version: 2.32.52-7
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
+unison2.40.102:
+  version: 2.40.102-3
+  issues:
+    - randomness_in_ocaml_startup_files
 units-filter:
   version: 3.7-1
   issues:
