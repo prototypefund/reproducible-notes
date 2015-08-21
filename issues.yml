@@ -109,6 +109,10 @@ random_order_in_shlibs_depends:
   description: |
     shlibs:Depends can appear in a non-deterministic order due to
     non-exhaustive sorting in dpkg-shlibdeps.
+locale_dependent_order_in_devlibs_depends:
+  url: http://bugs.debian.org/796330
+  description: |
+    devlibs:Depends is sorted in a locale-dependent way.
 random_order_in_naturaldocs:
   description: |
     Natural Docs generates its documentation in a random order.
