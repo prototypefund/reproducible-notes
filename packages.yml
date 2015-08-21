@@ -4983,6 +4983,16 @@ geeqie:
   version: 1:1.2-3
   bugs:
     - 794374
+gegl:
+  version: 0.2.0-7.1
+  comments: |
+    Computation times in:
+    /usr/share/doc/libgegl-doc/gallery/OpenRaster-00.txt
+    /usr/share/doc/libgegl-doc/gallery/OpenRaster-01.txt
+    /usr/share/doc/libgegl-doc/gallery/OpenRaster-04.txt
+    /usr/share/doc/libgegl-doc/gallery/clones.txt
+  issues:
+    - gtk_doc_api_index_full
 gem:
   version: 1:0.93.3-8
   issues:
