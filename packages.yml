@@ -11689,8 +11689,10 @@ owncloud:
     - different_due_to_umask
 owncloud-client:
   version: 1.8.4+dfsg-1
+  comments: |
+    Unknown changes in pdf file where images are embedded.
   issues:
-    - timestamps_in_pdf_generated_by_latex
+    - timestamps_from_cpp_macros
 owncloud-doc:
   version: 0~20141208-2
   issues:
