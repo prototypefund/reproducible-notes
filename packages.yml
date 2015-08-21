@@ -7571,6 +7571,13 @@ kvpnc:
   version: 0.9.6a-2.1
   issues:
     - timestamps_from_cpp_macros
+kwave:
+  version: 0.8.12-1-2
+  comments: |
+    Embeds the build date.
+    https://sources.debian.net/src/kwave/0.8.12-1-2/cmake/FindKwaveVersion.cmake/#L55-L61
+    https://sources.debian.net/src/kwave/0.8.12-1-2/CMakeLists.txt/#L399-L404
+    https://sources.debian.net/src/kwave/0.8.12-1-2/bin/set_version.sh/#L93
 kwayland:
   version: 4:5.3.2-1
   bugs:
