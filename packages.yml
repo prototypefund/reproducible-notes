@@ -16177,15 +16177,6 @@ tor:
   issues:
     - timestamps_generated_by_docbook_to_man
     - timestamps_in_manpages_generated_by_docbook_xsl
-torbutton:
-  version: 1.4.6.3-1
-  comments: |
-    Timestamps embedded by manually calling zip, instead of using mozilla-devscripts.
-    https://sources.debian.net/src/torbutton/1.4.6.3-1/makexpi.sh/#L22
-  issues:
-    - timestamps_difference_by_unzip
-  bugs:
-    - 793126
 tornado-pyvows:
   version: 0.6.0-1
   bugs:
