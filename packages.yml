@@ -11409,13 +11409,13 @@ olsrd:
     https://sources.debian.net/src/olsrd/0.6.6.2-1/Makefile/?hl92:93#L92
 omake:
   version: 0.9.8.5-3
+  comments: |
+    Some other strange non-determinism to be checked after #795784 and #796380
+    are closed.
   issues:
     - randomness_in_ocaml_startup_files
   bugs:
     - 796380
-  comments: |
-    Some other strange non-determinism to be checked after #795784 and #796380
-    are closed.
 omega-rpg:
   version: 1:0.90-pa9-15
   issues:
