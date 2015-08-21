@@ -1757,6 +1757,12 @@ cdtool:
     https://sources.debian.net/src/cdtool/2.1.8-release-2/cdown.c/?hl=725#L725
   issues:
     - timestamps_from_cpp_macros
+cduce:
+  version: 0.6.0-1
+  issues:
+    - randomness_in_ocaml_startup_files
+  bugs:
+    - 796418
 cecil:
   version: 0.9.5+dfsg-2
   issues:
