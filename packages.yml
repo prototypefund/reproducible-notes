@@ -221,6 +221,8 @@ alembic:
   version: 0.6.5+ds-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
+  bugs:
+    - 796413
 alienblaster:
   version: 1.1.0-8
   issues:
@@ -1066,6 +1068,8 @@ basket:
   version: 2.10~beta+git6fed731-1
   issues:
     - timestamps_from_cpp_macros
+  bugs:
+    - 796415
 bastet:
   version: 0.43-3
   issues:
@@ -2343,6 +2347,7 @@ coquelicot:
   version: 0.9.2-4
   bugs:
     - 776312
+    - 796416
 corosync:
   version: 1.4.6-1.1
   issues:
@@ -3495,6 +3500,8 @@ efl:
   version: 1.8.6-2.1
   issues:
     - timestamps_from_cpp_macros
+  bugs:
+    - 796426
 eigenbase-farrago:
   version: 0.9.0-1
   issues:
@@ -4142,6 +4149,8 @@ findbugs:
   version: 2.0.3+repack-1
   issues:
     - timestamps_in_maven_version_files
+  bugs:
+    - 796430
 findbugs-bcel:
   version: 6.0~20130831-1
   issues:
@@ -4597,6 +4606,8 @@ freefem3d:
   version: 1.0pre10-3.2
   issues:
     - timestamps_in_dvi_generated_by_latex
+  bugs:
+    - 796431
 freefoam:
   version: 0.1.0+dfsg+1-3
   issues:
@@ -6038,6 +6049,7 @@ guessit:
   version: 0.10.3-1
   bugs:
     - 796403
+    - 796404
 guessnet:
   version: 0.56
   bugs:
@@ -6099,6 +6111,10 @@ gvpe:
   version: 2.25-2
   issues:
     - timestamps_from_cpp_macros
+gvrng:
+  version: 4.4-1
+  bugs:
+    - 796433
 gwenview:
   version: 4:4.14.2-1
   bugs:
@@ -7338,6 +7354,8 @@ jython:
   issues:
     - timestamps_in_documentation_generated_by_javadoc
     - timestamps_in_jar
+  bugs:
+    - 796437
 k3d:
   version: 0.8.0.3-7
   issues:
@@ -7567,6 +7585,8 @@ kombu:
   version: 3.0.21-2
   issues:
     - randomness_in_documentation_generated_by_sphinx
+  bugs:
+    - 796438
 konclude:
   version: 0.6.1-1
   issues:
@@ -7995,6 +8015,8 @@ libcommons-net2-java:
   version: 2.2-2
   issues:
     - timestamps_in_maven_pom_files
+  bugs:
+    - 796439
 libcommons-validator-java:
   version: 1:1.4.1-1
   bugs:
@@ -8567,6 +8589,8 @@ libldm:
   version: 0.2.3-3
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
+  bugs:
+    - 796440
 liblip:
   version: 2.0.0-1.2
   issues:
@@ -9538,6 +9562,8 @@ luarocks:
   version: 2.2.0+dfsg-1
   issues:
     - timestamps_in_manpages_generated_by_txt2man
+  bugs:
+    - 796443
 luasseq:
   version: 2.1-6
   issues:
@@ -9781,6 +9807,8 @@ mapivi:
   version: 0.9.7-1.1
   issues:
     - timestamps_in_documentation_generated_by_podman
+  bugs:
+    - 796376
 mapnik:
   version: 3.0.0~rc3+ds-2
   bugs:
@@ -9840,10 +9868,15 @@ mate-control-center:
   version: 1.8.3+dfsg1-2
   bugs:
     - 796424
+    - 796444
 mate-menu:
   version: 5.6.5a-1
   issues:
     - random_order_in_dh_python_autoscripts
+mate-screensaver:
+  version: 1.8.1-2
+  bugs:
+    - 796452
 mathgl:
   version: 2.2.2.1-3
   bugs:
@@ -9933,6 +9966,8 @@ maven-plugin-tools:
   issues:
     - timestamps_in_maven_pom_files
     - date_in_maven_plugin_xml
+  bugs:
+    - 796445
 maven-project-info-reports-plugin:
   version: 2.4-2
   issues:
@@ -10098,6 +10133,8 @@ mina2:
   version: 2.0.7+dfsg-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 796456
 minbif:
   version: 1:1.0.5+git20120508-4
   issues:
@@ -12125,6 +12162,8 @@ pepper:
   version: 0.3.2-3
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
+  bugs:
+    - 796466
 perdition:
   version: 2.1-2
   issues:
@@ -12493,6 +12532,8 @@ polyglot-maven:
   issues:
     - timestamps_in_groovy_class_files
     - random_order_in_plexus_comonents_xml
+  bugs:
+    - 796454
 polygraph:
   version: 4.3.2-1.1
   issues:
@@ -12786,6 +12827,7 @@ pyavm:
   version: 0.9.2-1
   bugs:
     - 796468
+    - 796482
 pybik:
   version: 2.0-1
   comments: |
@@ -12963,6 +13005,8 @@ python-apt:
   version: 0.9.3.11
   issues:
     - timestamps_in_documentation_generated_by_sphinx
+  bugs:
+    - 796458
 python-astropy:
   version: 1.0.3-3
   comments: |
@@ -13109,6 +13153,8 @@ python-glanceclient:
   version: 0.15.0-1
   issues:
     - timestamps_in_manpages_generated_by_sphinx
+  bugs:
+    - 796460
 python-glpk:
   version: 0.4.52-1.1
   bugs:
@@ -13176,6 +13222,8 @@ python-muranoclient:
   version: 0.5.5-1
   issues:
     - timestamps_in_manpages_generated_by_sphinx
+  bugs:
+    - 796463
 python-mzml:
   version: 0.7.4-dfsg-3
   issues:
@@ -13805,6 +13853,8 @@ rapidsvn:
     - timestamps_in_documentation_generated_by_doxygen
     - timestamps_generated_by_docbook_to_man
     - different_due_to_umask
+  bugs:
+    - 796450
 raster3d:
   version: 3.0-3-1
   issues:
@@ -14199,6 +14249,10 @@ ruby-cookiejar:
   version: 0.3.1-1
   bugs:
     - 795781
+ruby-cri:
+  version: 2.7.0-1
+  bugs:
+    - 796457
 ruby-cstruct:
   version: 1.0.1-1
   bugs:
@@ -17040,6 +17094,8 @@ wcd:
   version: 5.2.5-1
   issues:
     - timestamps_in_documentation_generated_by_podman
+  bugs:
+    - 796375
 webassets:
   version: 3:0.10.1-2
   issues:
