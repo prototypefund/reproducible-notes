@@ -520,9 +520,12 @@ apophenia:
   bugs:
     - 788868
 apparmor:
-  version: 2.9.2-3
+  version: 2.10-1
   comments: |
     `/ID` value actually seems to be timezone dependent.
+    Also, apparmor.vim is generated in a locale dependent way, at least
+    in 2.10-1: the sort in CAPABILITIES= in common/Make.rules should
+    be run in a locale-indenpendent environment.
   issues:
     - timestamps_in_pdf_generated_by_latex
 apper:
