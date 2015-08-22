@@ -17126,9 +17126,6 @@ warzone2100:
     - different_due_to_umask
 watchdog:
   version: 5.14-3
-  comments: |
-    FTBFS due to using dh_gencontrol but not dh_builddeb, thus conflicting with
-    the ddeb process.
   issues:
     - not_using_dh_builddeb
   bugs:
@@ -17882,8 +17879,8 @@ xyscan:
     - timestamps_from_cpp_macros
 xz-utils:
   version: 5.1.1alpha+20120614-2
-  comments: |
-    Timestamps in .mo files.
+  issues:
+    - lc_messages_randomness
 xzgv:
   version: 0.9.1-3
   issues:
@@ -17998,7 +17995,8 @@ zemberek-ooo:
 zephyr:
   version: 3.1.2-1
   comments: |
-    Non-deterministic (gcc) compilation of some constant-looking values
+    Embeds the build date, hostname and username.
+    https://sources.debian.net/src/zephyr/3.1.2-1/new_vers.sh/#L5-L7
   issues:
     - different_due_to_umask
 zeroc-ice:
