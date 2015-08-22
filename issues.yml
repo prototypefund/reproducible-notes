@@ -772,3 +772,10 @@ random_build_path_by_golang_compiler:
     The golang compiler embeds paths with a random component into object files.
     Example:
     DW_AT_name        : (indirect string, offset: 0x1b1): /tmp/go-build175461345/github.com/docker/docker/pkg/term/_obj/tc_linux_cgo.cgo2.c
+images_in_pdf_generated_by_latex:
+  description: |
+    pdflatex does not generate reproducible pdfs, when there are more than four pictures and a tableofcontent.
+
+    The workaround so far is to use either optipng to optimize the pngs or switch to jpges.
+
+  url: https://bugs.debian.org/796490
