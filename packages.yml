@@ -7949,6 +7949,10 @@ libcec:
     to ./configure but the binaries are also non-determinstic.
   issues:
     - different_due_to_umask
+libcgi-simple-perl:
+  version: 1.115-1
+  bugs:
+    - 796537
 libcgicc:
   version: 3.2.9-3
   issues:
