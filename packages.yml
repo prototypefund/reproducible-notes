@@ -571,12 +571,6 @@ apt-cacher-ng:
   version: 0.8.2-1
   issues:
     - different_due_to_umask
-apt-dater:
-  version: 0.9.0-8
-  issues:
-    - timestamps_from_cpp_macros
-  bugs:
-    - 789648
 apt-dpkg-ref:
   version: 5.3.1+nmu1
   issues:
@@ -1004,12 +998,6 @@ bacula-doc:
   version: 5.2.6-3
   issues:
     - fonts_in_pdf_files
-ball:
-  version: 1.4.2+20140406-1
-  issues:
-    - timestamps_in_pdf_generated_by_latex
-  bugs:
-    - 787746
 ballerburg:
   version: 1.1.0-1
   issues:
@@ -1504,10 +1492,6 @@ bup:
     /usr/lib/bup/bup/_version.py contains a timestamp.
   bugs:
     - 792673
-bustle:
-  version: 0.4.8-1
-  bugs:
-    - 792504
 buxon:
   version: 0.0.5-4
   issues:
@@ -4525,7 +4509,6 @@ fortunes-bg:
     - not_using_dh_builddeb
   bugs:
     - 777484
-    - 792970
 fortunes-es:
   version: 1.32
   issues:
@@ -6822,10 +6805,6 @@ jack-tools:
   version: 20131226-1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-jackd2:
-  version: 1.9.10+20140719git3eb0ae6a~dfsg-2
-  bugs:
-    - 788973
 jackrabbit:
   version: 2.3.6-1
   issues:
@@ -6973,10 +6952,6 @@ java-common:
   version: 0.52
   issues:
     - timestamps_in_dvi_generated_by_latex
-java-gnome:
-  version: 4.1.3-3
-  bugs:
-    - 789851
 java3d:
   version: 1.5.2+dfsg-11
   issues:
@@ -7041,8 +7016,6 @@ jenkins:
   issues:
     - timestamps_in_maven_pom_files
     - different_due_to_umask
-  bugs:
-    - 789946
 jenkins-ant-plugin:
   version: 1.2-1
   issues:
@@ -8878,12 +8851,6 @@ libproxy:
   version: 0.4.11-4
   issues:
     - timestamps_in_pe_binaries
-libpwiz:
-  version: 3.0.6585-2
-  issues:
-    - timestamps_from_cpp_macros
-  bugs:
-    - 791841
 libquvi:
   version: 0.4.1-3
   issues:
@@ -11680,14 +11647,6 @@ openms:
   issues:
     - timestamps_from_cpp_macros
     - different_due_to_umask
-opennebula:
-  version: 3.4.1-4.1
-  comments: |
-    Build-depends on libxmlrpc-c++4-dev which no longer exists
-  issues:
-    - ftbfs_due_to_obsolete_dependencies
-  bugs:
-    - 762040
 openni:
   version: 1.5.4.0-8
   issues:
@@ -13968,10 +13927,6 @@ realmd:
   version: 0.15.1-1
   issues:
     - timestamps_generated_by_docbook_to_man
-rebar:
-  version: 2.5.1-2
-  bugs:
-    - 790633
 reclass:
   version: 1.4.1-1
   issues:
@@ -17820,8 +17775,6 @@ xtables-addons:
   version: 2.7-2
   issues:
     - different_due_to_umask
-  bugs:
-    - 776879
 xtalk:
   version: 1.3-15.2
   issues:
@@ -17832,8 +17785,6 @@ xtel:
   version: 3.3.0-18
   issues:
     - timestamps_in_gzip_headers
-  bugs:
-    - 789965
 xterm:
   version: 318-2
   issues:
