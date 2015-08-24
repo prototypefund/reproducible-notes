@@ -300,7 +300,7 @@ timestamps_in_documentation_generated_by_sphinx:
 randomness_in_documentation_generated_by_sphinx:
   description: |
     Sphinx might output references to memory addresses and generate a json index file
-    with entries in random order.
+    with entries in random order or with non-determinstic values (eg. searchindex.js)
   url: https://wiki.debian.org/ReproducibleBuilds/SphinxIssues
 randomness_in_documentation_indices_generated_by_sphinx:
   description: |
