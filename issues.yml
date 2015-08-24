@@ -289,8 +289,10 @@ timestamps_in_ruby_documentation:
     the time the documentation was generated.
 timestamps_in_gemspec_files:
   description:
-    .gemspec timestamp changes due to timezone changes. Will be fixed once 2.2
-    becomes the default.
+    .gemspec timestamp changes due to timezone changes.
+    .
+    Will be fixed once ruby2.2 becomes the default (blocking on GCC 5
+    transition; see https://bugs.debian.org/779631).
   url: https://bugs.debian.org/779631
 timestamps_in_documentation_generated_by_sphinx:
   description: |
