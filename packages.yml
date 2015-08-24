@@ -5656,6 +5656,10 @@ golang:
   version: 2:1.4.2-3
   issues:
     - random_build_path_by_golang_compiler
+golang-check.v1:
+  version: 0.0+git20150729.11d3bc7-1
+  bugs:
+    - 796806
 golang-doozer:
   version: 0.0~git20130909-1
   bugs:
