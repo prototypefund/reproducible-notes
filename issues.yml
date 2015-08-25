@@ -542,22 +542,6 @@ timestamps_in_jsdoc_toolkit_documentation:
 randomness_in_objects_inv:
   description: |
     Some Python documentation tool writes objects.inv files in a random order.
-randomness_in_ocaml_a_files:
-  description: |
-    ocamlopt writes /tmp/caml*[randomness].o into its .a archives. Not stripped
-    by dh_strip as the filenames are not ^lib(.+).a$.
-    .
-    Patch to strip could be https://gist.github.com/9df3804fa51b9bf78faf (could
-    also be done in dh_strip - there is already an ocaml-specific exception).
-    .
-    However, there are still timestamps (as strings) in .a files afterwards.
-    .
-    * asmcomp/asmlink.ml (eg. /tmp/camlstartupef12cc.o), see also
-      randomness_in_ocaml_startup_files
-    * debian/patches/0008-Embed-bytecode-in-C-object-when-using-custom.patch
-      (eg. camlobj754fda.c), see also randomness_in_ocaml_custom_executables
-    * asmcomp/asmpackager.ml (eg. /tmp/camlCalendarLib__8f1, I /think/), see
-      also randomness_in_ocaml_packed_libraries
 randomness_in_ocaml_startup_files:
   description: |
     ocamlopt generates startup files with random names that end up in the

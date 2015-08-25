@@ -29,7 +29,7 @@ a7xpg:
 aac-tactics:
   version: 0.4-3
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_packed_libraries
 aafigure:
   version: 0.5-4
   issues:
@@ -257,7 +257,7 @@ alpine:
 alt-ergo:
   version: 0.99.1+dfsg1-3
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 altos:
   version: 1.6-1
   issues:
@@ -535,7 +535,7 @@ apper:
 approx:
   version: 5.5-2
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 appstream-glib:
   version: 0.3.2-1
   issues:
@@ -552,7 +552,7 @@ apron:
   version: 0.9.10-6
   issues:
     - randomness_in_html_generated_by_texi2html
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_packed_libraries
 aprsdigi:
   version: 3.5.1-1
   issues:
@@ -781,7 +781,7 @@ atdgen:
   version: 1.3.1-1
   issues:
     - timestamps_in_pdf_generated_by_latex
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 atheist:
   version: 0.20110402-2
   issues:
@@ -1129,6 +1129,9 @@ beets:
     - 792060
 ben:
   version: 0.7.0
+  issues:
+    - randomness_in_ocaml_startup_files
+    - timestamps_in_documentation_generated_by_asciidoc
   bugs:
     - 792054
 berusky:
@@ -1193,7 +1196,7 @@ biff:
 bin-prot:
   version: 111.03.00-1
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_packed_libraries
     - different_due_to_umask
 bind-dyndb-ldap:
   version: 6.0-4
@@ -1216,7 +1219,7 @@ bindex:
 biniou:
   version: 1.0.9-1
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 binkd:
   version: 1.0.4-1
   issues:
@@ -1418,7 +1421,7 @@ botch:
   version: 0.5-1~experimental1
   issues:
     - timezones_manpages_podman
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 bouncycastle:
   version: 1.49+dfsg-3
   issues:
@@ -1584,7 +1587,7 @@ cal3d:
 calendar:
   version: 2.04-1
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_packed_libraries
 calibre:
   version: 2.20.0+dfsg-1
   issues:
@@ -1602,24 +1605,24 @@ camitk:
 caml-crush:
   version: 1.0.6-1
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 caml2html:
   version: 1.4.3-1
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 camlmix:
   version: 1.3.1-3
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 camlp4:
   version: 4.02.1+3-1
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 camlp5:
   version: 6.11+dfsg-3
   issues:
     - randomness_in_ocaml_lintian_info_files
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 camping:
   version: 2.1.580-1
   issues:
@@ -2137,7 +2140,7 @@ coccinelle:
   version: 1.0.0~rc22
   issues:
     - timestamps_in_pdf_generated_by_latex
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 coco-cs:
   version: 20110419-5
   issues:
@@ -2186,7 +2189,7 @@ coinor-symphony:
 coinst:
   version: 1.9.1-1
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 coldfire:
   version: 0.2.2-2.3
   issues:
@@ -2307,7 +2310,9 @@ configshell:
 confluence:
   version: 0.10.6-7
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
+  comments: |
+    Order in generated documentation
 confuse:
   version: 2.7-5
   issues:
@@ -2398,7 +2403,7 @@ cppformat:
 cppo:
   version: 0.9.3-3
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 cppreference-doc:
   version: 20140208+dfsg1-1
   issues:
@@ -2529,7 +2534,7 @@ cucumber:
 cudf:
   version: 0.7-2
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 cultivation:
   version: 9+dfsg1-2
   issues:
@@ -3182,7 +3187,7 @@ docbook-xsl-saxon:
 dochelp:
   version: 0.1.2
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 docker.io:
   version: 1.6.2~dfsg1-2
   issues:
@@ -4117,7 +4122,7 @@ fhist:
 fieldslib:
   version: 109.20.03-1
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_packed_libraries
 file-rc:
   version: 0.8.16
   bugs:
@@ -4162,7 +4167,7 @@ findbugs-bcel:
 findlib:
   version: 1.4.1-1
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 firebird2.5:
   version: 2.5.4.26856.ds4-1
   comments: |
@@ -4771,7 +4776,7 @@ galax:
     /usr/share/doc/libgalax-ocaml-dev/config/Makefile.conf.gz
   issues:
     - timestamps_in_pdf_generated_by_latex
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 gally:
   version: 0.5.1-1
   bugs:
@@ -5015,8 +5020,7 @@ gem:
 geneweb:
   version: 6.08dfsg-3
   issues:
-    - build_id_variation_requiring_further_investigation
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 genometools:
   version: 1.5.4-1
   issues:
@@ -7191,7 +7195,7 @@ jnr-x86asm:
 jocaml:
   version: 4.01.0-3
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 jodconverter:
   version: 2.2.2-7
   comments: |
@@ -7254,7 +7258,10 @@ jruby-openssl:
 js-of-ocaml:
   version: 2.2-2
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
+    - randomness_in_ocaml_packed_libraries
+  comments: |
+    Ordering of symbols in dlljs_of_ocaml.so
 jsdoc-toolkit:
   version: 2.4.0+dfsg-6
   issues:
@@ -7369,7 +7376,7 @@ k3d:
 kalzium:
   version: 4:4.14.2-1
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 kamailio:
   version: 4.2.0-1.1
   issues:
@@ -7661,7 +7668,7 @@ kxmlgui:
 laby:
   version: 0.6.3-1
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 lacheck:
   version: 1.26-15
   comments: |
@@ -8293,7 +8300,7 @@ libgtop2:
 libguestfs:
   version: 1:1.28.6-1
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
     - timezones_manpages_podman
     - different_due_to_umask
     - timestamps_in_beam_files
@@ -9379,7 +9386,7 @@ linuxtv-dvb-apps:
 liquidsoap:
   version: 1.1.1-7
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 liquidwar:
   version: 5.6.4-3
   comments: |
@@ -9908,7 +9915,7 @@ mathpiper:
 matita:
   version: 0.99.1-3
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 matroxset:
   version: 0.4-8
   bugs:
@@ -10042,7 +10049,7 @@ mdbtools:
 mediawiki-math:
   version: 2:1.0+git20120528-8
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 medicalterms:
   version: 20110608-1
   issues:
@@ -10062,7 +10069,8 @@ memtest86+:
 menhir:
   version: 20140422.dfsg-1
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_packed_libraries
+    - randomness_in_ocaml_startup_files
 mercurial-server:
   version: 1.2-2
   bugs:
@@ -10203,7 +10211,7 @@ miro:
 misery:
   version: 0.2-1
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 miwm:
   version: 1.1-3
   issues:
@@ -10408,7 +10416,7 @@ monotone:
 monotone-viz:
   version: 1.0.2-3
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 moon-buggy:
   version: 1.0.51-10
   issues:
@@ -10563,7 +10571,7 @@ mstflint:
 mtasc:
   version: 1.14-3
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 mu-cade:
   version: 0.11.dfsg1-8
   bugs:
@@ -11174,7 +11182,7 @@ nunit:
 nurpawiki:
   version: 1.2.3-8
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_packed_libraries
 nut:
   version: 2.7.2-3
   issues:
@@ -11223,7 +11231,7 @@ obfsproxy:
 obus:
   version: 1.1.5-3
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 ocaml:
   version: 4.01.0-5
   issues:
@@ -11248,17 +11256,17 @@ ocaml-csv:
 ocaml-deriving-ocsigen:
   version: 0.6.2-1
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_packed_libraries
 ocaml-melt:
   version: 1.4.0-1
   issues:
     - randomness_in_ocaml_lintian_info_files
     - timestamps_in_pdf_generated_by_latex
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 ocaml-reins:
   version: 0.1a-5
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_packed_libraries
 ocamlbricks:
   version: 0.90+bzr400-1
   issues:
@@ -11266,7 +11274,7 @@ ocamlbricks:
 ocamldsort:
   version: 0.16.0-2
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 ocamlduce:
   version: 3.12.1.0-1
   bugs:
@@ -11274,7 +11282,7 @@ ocamlduce:
 ocamlgraph:
   version: 1.8.5-1
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_packed_libraries
 ocamlnet:
   version: 3.7.3-4
   issues:
@@ -11287,7 +11295,7 @@ ocamlviz:
   version: 1.01-2
   issues:
     - timestamps_in_pdf_generated_by_latex
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 ocp:
   version: 1:0.1.21-1.1
   issues:
@@ -11296,12 +11304,12 @@ ocp-indent:
   version: 1.4.2-1
   issues:
     - different_due_to_umask
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 ocsigenserver:
   version: 2.4.0-1
   issues:
     - different_due_to_umask
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 octave:
   version: 4.0.0-3
   issues:
@@ -11539,7 +11547,7 @@ opam:
   version: 1.2.0-1
   issues:
     - timestamps_in_pdf_generated_by_latex
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 open-axiom:
   version: 1.5.0~svn3056+ds-1
   bugs:
@@ -11771,7 +11779,7 @@ openvswitch:
 optcomp:
   version: 1.6-1
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 opticalraytracer:
   version: 3.2-1.1
   issues:
@@ -11783,7 +11791,9 @@ opus:
 orpie:
   version: 1.5.1-10
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
+  comments: |
+    Other issue to sort out later
 osgi-annotation:
   version: 6.0.0-1
   issues:
@@ -11804,7 +11814,7 @@ oss4:
 otags:
   version: 4.01.1-1
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 owncloud:
   version: 7.0.4+dfsg-2
   issues:
@@ -11859,7 +11869,7 @@ pa-ounit:
 pa-test:
   version: 111.08.00-1
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_packed_libraries
 pacemaker:
   version: 1.1.10+git20130802-4.1
   issues:
@@ -12725,7 +12735,7 @@ proofgeneral:
 prooftree:
   version: 0.12-1
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 propellor:
   version: 0.9.2
   comments: |
@@ -15015,7 +15025,6 @@ scilab:
   version: 5.5.1-4
   issues:
     - timestamps_from_cpp_macros
-    - randomness_in_ocaml_a_files
 scite:
   version: 3.5.0-1
   issues:
@@ -15129,7 +15138,7 @@ setools:
 sexplib310:
   version: 111.25.00-1
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_packed_libraries
 seyon:
   version: 2.20c-31
   comments: |
@@ -15344,8 +15353,7 @@ sketch:
 sks:
   version: 1.1.5-4
   issues:
-    - variation_in_compilation
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 sks-ecc:
   version: 0.93-3
   issues:
@@ -15537,7 +15545,7 @@ spamassassin-heatu:
 spamoracle:
   version: 1.4-14
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 spamprobe:
   version: 1.4d-13
   issues:
@@ -15875,7 +15883,7 @@ supercollider:
 supermin:
   version: 5.1.13-3
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 surefire:
   version: 2.10-5
   issues:
@@ -16624,7 +16632,7 @@ typerep:
 tyxml:
   version: 3.0.0-1
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_packed_libraries
 u-boot:
   version: 2014.10+dfsg1-4
   comments: |
@@ -16978,7 +16986,7 @@ viridian:
 virt-top:
   version: 1.0.7-1
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 virtualjaguar:
   version: 2.1.2-1
   issues:
@@ -17224,8 +17232,6 @@ why:
   comments: |
     Embed build time:
     https://sources.debian.net/src/why/2.34-2/version.sh/
-  issues:
-    - randomness_in_ocaml_a_files
 widemargin:
   version: 1.1.13-2
   issues:
@@ -17725,7 +17731,7 @@ xmlgraphics-commons:
 xmlm:
   version: 1.2.0-1
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 xmlrpc-c:
   version: 1.33.14-0.2
   comments: |
@@ -17962,7 +17968,7 @@ yodl:
 yojson:
   version: 1.1.8-1
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 yorick-spydr:
   version: 0.8.2-3
   issues:
@@ -18025,7 +18031,7 @@ zeroc-ice:
 zeroinstall-injector:
   version: 2.8-1
   issues:
-    - randomness_in_ocaml_a_files
+    - randomness_in_ocaml_startup_files
 zim:
   version: 0.63-1
   comments: |
