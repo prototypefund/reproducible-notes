@@ -4181,7 +4181,7 @@ firehol:
 fis-gtm:
   version: 6.2-002A-2
   comments: |
-    Really curious debbindiff where a very large number of 0x01 bytes in the a build 0x02 in the b build. Possibly an offset difference rather than literal difference?
+    Really curious diffoscope where a very large number of 0x01 bytes in the a build 0x02 in the b build. Possibly an offset difference rather than literal difference?
 fityk:
   version: 1.2.1-0.1
   issues:
@@ -9334,7 +9334,7 @@ linthesia:
 linux:
   version: 4.1.6-1
   comments: |
-    debbindiff runs forever with 4.1.6-1 from sid, though 4.2~rc8-1~exp1 is proceeded til maximum output size is reached. according to Ben the next upload to experimental will be reproducible.
+    diffoscope runs forever with 4.1.6-1 from sid, though 4.2~rc8-1~exp1 is proceeded til maximum output size is reached. according to Ben the next upload to experimental will be reproducible.
     The linux kernel package can be build reproducibly if the patches from #769844 are applied.
   issues:
     - debbindiff_runs_forever
