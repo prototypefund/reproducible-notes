@@ -12603,14 +12603,6 @@ postfix:
     - timestamps_in_gzip_headers
   bugs:
     - 777503
-postfix-gld:
-  version: 1.7-6
-  issues:
-    - not_using_dh_builddeb
-    - timestamps_in_gzip_headers
-  bugs:
-    - 777504
-    - 793710
 postgis:
   version: 2.1.4+dfsg-2
   issues:
