@@ -9332,9 +9332,9 @@ linthesia:
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
 linux:
-  version: 4.0.2-1
+  version: 4.1.6-1
   comments: |
-    debbindiff runs forever with 4.0.2-1 in testing and experimental, FTBFS with 4.0.4-1 on unstable
+    debbindiff runs forever with 4.1.6-1 from sid, though 4.2~rc8-1~exp1 is proceeded til maximum output size is reached. according to Ben the next upload to experimental will be reproducible.
     The linux kernel package can be build reproducibly if the patches from #769844 are applied.
   issues:
     - debbindiff_runs_forever
