@@ -11575,14 +11575,12 @@ owncloud:
   issues:
     - different_due_to_umask
 owncloud-client:
-  version: 2.0.0~rc1+dfsg-2
+  version: 2.0.0+dfsg-1
   comments: |
     patched out use of timestamps_from_cpp_macros, but if this issue is fixed
     properly the patch is not needed anymore.
-    .
+
     images_in_pdf_generated_by_latex - used opipng
-  issues:
-    - timestamps_in_pdf_generated_by_latex
 owncloud-doc:
   version: 0~20141208-2
   issues:
