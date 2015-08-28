@@ -774,7 +774,7 @@ random_build_path_by_golang_compiler:
 images_in_pdf_generated_by_latex:
   description: |
     pdflatex does not generate reproducible pdfs, when there are more than four pictures and a tableofcontent.
-
+    .
     The workaround so far is to use either optipng to optimize the pngs or switch to jpges.
-
+    .
   url: https://bugs.debian.org/796490
