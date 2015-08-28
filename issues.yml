@@ -778,3 +778,6 @@ images_in_pdf_generated_by_latex:
     The workaround so far is to use either optipng to optimize the pngs or switch to jpges.
     .
   url: https://bugs.debian.org/796490
+random_order_in_python_doit_completion:
+  description: |
+    python-doit generates Bash and Zsh completion output in arbitrary order.
