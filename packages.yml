@@ -14003,6 +14003,14 @@ relaxngcc:
   version: 1.12-1
   issues:
     - timestamps_in_jar
+relion:
+  version: 1.3+dfsg-3
+  comments: |
+    Dependencies are different (nb. not reordered) between builds. Note the
+    symmetry too between the relion-bin+gui and relion-bin. Build log that
+    calls dpkg-shlibdeps with -v is here
+    .
+    https://gist.github.com/lamby/93e7d28104209f6abbdc (longish build time)
 remote-tty:
   version: 4.0-13
   comments: |
