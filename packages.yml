@@ -87,10 +87,6 @@ acpica-unix:
   version: 20140926-1
   issues:
     - timestamps_from_cpp_macros
-activemq:
-  version: 5.6.0+dfsg1-3
-  issues:
-    - timestamps_in_maven_pom_files
 activiz.net:
   version: 1:1.0~git20111214-2
   issues:
@@ -387,18 +383,10 @@ aolserver4-nssqlite3:
     - timestamps_from_cpp_macros
   bugs:
     - 788756
-apache-curator:
-  version: 2.7.1-1
-  issues:
-    - timestamps_in_maven_pom_files
 apache-log4j-extras1.2:
   version: 1.2.17-1
   issues:
     - different_encoding
-apache-log4j2:
-  version: 2.2-1
-  issues:
-    - timestamps_in_maven_pom_files
 apache-mime4j:
   version: 0.7.2-3
   issues:
@@ -2222,7 +2210,6 @@ commons-javaflow:
 commons-jci:
   version: 1.1-2
   issues:
-    - timestamps_in_maven_pom_files
     - locale_in_documentation_generated_by_javadoc
 commons-math:
   version: 2.2-4
@@ -3467,10 +3454,6 @@ efl:
     - timestamps_from_cpp_macros
   bugs:
     - 796426
-eigenbase-farrago:
-  version: 0.9.0-1
-  issues:
-    - timestamps_in_maven_pom_files
 eigenbase-resgen:
   version: 1.3.0.13768-1
   issues:
@@ -5941,18 +5924,12 @@ gtranslator:
 guacamole:
   version: 0.6.0-1
   issues:
-    - timestamps_in_maven_pom_files
     - different_due_to_umask
 guacamole-client:
   version: 0.8.3-1.1
   issues:
-    - timestamps_in_maven_pom_files
     - random_order_in_java_jar_manifest_mf
     - different_due_to_umask
-guava-libraries:
-  version: 17.0-1
-  issues:
-    - timestamps_in_maven_pom_files
 gucharmap:
   version: 1:3.16.2-1
   bugs:
@@ -6718,23 +6695,19 @@ jackd2:
 jackrabbit:
   version: 2.3.6-1
   issues:
-    - timestamps_in_maven_pom_files
     - timestamps_in_jar
 jackson-annotations:
   version: 2.4.2-2
   issues:
-    - timestamps_in_maven_pom_files
     - user_in_java_jar_manifest
     - locale_in_documentation_generated_by_javadoc
 jackson-core:
   version: 2.4.2-2
   issues:
-    - timestamps_in_maven_pom_files
     - locale_in_documentation_generated_by_javadoc
 jackson-databind:
   version: 2.4.2-2
   issues:
-    - timestamps_in_maven_pom_files
     - locale_in_documentation_generated_by_javadoc
 jackson-dataformat-cbor:
   version: 2.4.3-1
@@ -6743,12 +6716,10 @@ jackson-dataformat-cbor:
 jackson-dataformat-smile:
   version: 2.4.2-1
   issues:
-    - timestamps_in_maven_pom_files
     - locale_in_documentation_generated_by_javadoc
 jackson-dataformat-xml:
   version: 2.5.3+dfsg-1
   issues:
-    - timestamps_in_maven_pom_files
     - locale_in_documentation_generated_by_javadoc
 jackson-dataformat-yaml:
   version: 2.4.3-2
@@ -6918,7 +6889,6 @@ jellyfish:
 jenkins:
   version: 1.565.3-3
   issues:
-    - timestamps_in_maven_pom_files
     - different_due_to_umask
 jenkins-ant-plugin:
   version: 1.2-1
@@ -7701,7 +7671,6 @@ libam7xxx:
 libandroid-json-org-java:
   version: 20121204-20090211-1
   issues:
-    - timestamps_in_maven_pom_files
     - different_due_to_umask
     - locale_in_documentation_generated_by_javadoc
 libapache-mod-auth-radius:
@@ -7881,8 +7850,6 @@ libcommons-net1-java:
     - locale_in_documentation_generated_by_javadoc
 libcommons-net2-java:
   version: 2.2-2
-  issues:
-    - timestamps_in_maven_pom_files
   bugs:
     - 796439
 libcommons-validator-java:
@@ -8245,10 +8212,6 @@ libitext-java:
   version: 2.1.7-9
   issues:
     - randomness_in_gcj_output
-libitext5-java:
-  version: 5.5.3-2
-  issues:
-    - timestamps_in_maven_pom_files
 libitpp:
   version: 4.3.1-3
   issues:
@@ -8276,7 +8239,6 @@ libjama:
 libjavaewah-java:
   version: 0.6.12-1
   issues:
-    - timestamps_in_maven_pom_files
     - locale_in_documentation_generated_by_javadoc
 libjaxen-java:
   version: 1.1.6-1
@@ -8879,7 +8841,6 @@ libswe-doc:
 libswingx1-java:
   version: 1:1.0-1
   issues:
-    - timestamps_in_maven_pom_files
     - locale_in_documentation_generated_by_javadoc
 libsyncml:
   version: 0.5.4-2.2
@@ -9023,10 +8984,6 @@ libxaw:
   version: 2:1.0.12-2
   issues:
     - different_encoding
-libxbean-java:
-  version: 4.0-2
-  issues:
-    - timestamps_in_maven_pom_files
 libxdmcp:
   version: 1:1.1.2-1
   issues:
@@ -9811,7 +9768,6 @@ maven-plugin-testing:
 maven-plugin-tools:
   version: 3.2-2
   issues:
-    - timestamps_in_maven_pom_files
     - date_in_maven_plugin_xml
   bugs:
     - 796445
@@ -9838,7 +9794,6 @@ maven-shared-utils:
 maven2-core:
   version: 2.2.1-16
   issues:
-    - timestamps_in_maven_pom_files
     - random_order_in_plexus_comonents_xml
     - locale_in_documentation_generated_by_javadoc
 maxima:
@@ -10122,10 +10077,6 @@ mockito:
   version: 1.9.5+ds-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
-modello:
-  version: 1.1-3
-  issues:
-    - timestamps_in_maven_pom_files
 modglue:
   version: 1.17-2.2
   comments: |
@@ -11460,10 +11411,6 @@ openjfx:
     com/oracle/tools/packager/linux/libpackager.so
   issues:
     - random_order_in_documentation_generated_by_javadoc
-openjpa:
-  version: 2.2.2-1
-  issues:
-    - timestamps_in_maven_pom_files
 openjpeg2:
   version: 2.1.0-2
   issues:
@@ -12259,12 +12206,10 @@ plexus-container-default:
 plexus-containers:
   version: 1.0~beta3.0.7-7
   issues:
-    - timestamps_in_maven_pom_files
     - locale_in_documentation_generated_by_javadoc
 plexus-containers1.5:
   version: 1.5.5-6
   issues:
-    - timestamps_in_maven_pom_files
     - locale_in_documentation_generated_by_javadoc
 plexus-digest:
   version: 1.1-3
@@ -12281,7 +12226,6 @@ plexus-utils:
 plexus-utils2:
   version: 3.0.15-1
   issues:
-    - timestamps_in_maven_pom_files
     - locale_in_documentation_generated_by_javadoc
 plib-doc:
   version: 1:1.8.5-3
@@ -12405,7 +12349,6 @@ postfix:
 postgis:
   version: 2.1.4+dfsg-2
   issues:
-    - timestamps_in_maven_pom_files
     - different_due_to_umask
 postgresql-multicorn:
   version: 1.2.2-1
@@ -13378,7 +13321,6 @@ qdjango:
 qdox:
   version: 1.12-1
   issues:
-    - timestamps_in_maven_pom_files
     - locale_in_documentation_generated_by_javadoc
 qelectrotech:
   version: 1:0.4-2
@@ -14980,10 +14922,6 @@ shinken:
   version: 2.0.3-3
   issues:
     - randomness_in_documentation_generated_by_sphinx
-shiro:
-  version: 1.2.3-1
-  issues:
-    - timestamps_in_maven_pom_files
 shishi:
   version: 1.0.2-5
   issues:
@@ -15230,7 +15168,6 @@ snake4:
 snakeyaml:
   version: 1.12-2
   issues:
-    - timestamps_in_maven_pom_files
     - locale_in_documentation_generated_by_javadoc
 snd:
   version: 11.7-3
@@ -15642,10 +15579,6 @@ supermin:
   version: 5.1.13-3
   issues:
     - randomness_in_ocaml_startup_files
-surefire:
-  version: 2.10-5
-  issues:
-    - timestamps_in_maven_pom_files
 surf-alggeo:
   version: 1.0.6+ds-2
   issues:
@@ -16006,7 +15939,6 @@ tilda:
 tiles:
   version: 2.2.2-5
   issues:
-    - timestamps_in_maven_pom_files
     - locale_in_documentation_generated_by_javadoc
 tilp2:
   version: 1.17-1
@@ -16806,12 +16738,10 @@ voms-api-java:
   issues:
     - timestamps_in_jar
     - timestamps_in_documentation_generated_by_javadoc
-    - timestamps_in_maven_pom_files
     - locale_in_documentation_generated_by_javadoc
 voms-clients-java:
   version: 3.0.5-1
   issues:
-    - timestamps_in_maven_pom_files
     - timestamps_in_jar
     - different_due_to_umask
 votca-csg:

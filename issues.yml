@@ -62,14 +62,6 @@ debbindiff_runs_forever:
     Currently it's killed after 30 mins but we also tried an hour, didn't help.
     This page https://reproducible.debian.net/index_breakages.html also collects
     a list of "undiffable" packages.
-timestamps_in_maven_pom_files:
-  description: |
-    Maven writes a timestamp to pom.properties files.  This has been fixed in Maven itself, but these files are
-    also written by e.g. org.apache.felix.bundleplugin.  Additionally, anything that writes .properties files is
-    likely to have the same issue.  Fixed by strip-nondeterminism 0.007 [2015-05] for ant/maven,
-    and >0.009 [>2015-07] for bundleplugin.
-  url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInMavenPomProperties
-  deterministic: True
 timestamps_in_maven_version_files:
   description: |
     Maven writes a timestamp to version.properties files.  Probably related
