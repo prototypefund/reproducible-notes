@@ -676,10 +676,6 @@ asciidoctor:
   version: 0.1.4-3
   issues:
     - timestamps_in_ruby_documentation
-asis:
-  version: 2014-4
-  issues:
-    - variation_in_compilation
 ask:
   version: 1.0.1-2
   issues:
@@ -1485,10 +1481,6 @@ buici-clock:
   comments: |
     Embeds the build date into README.
     https://sources.debian.net/src/buici-clock/0.4.9.2/Makefile.in/#L219
-buildapp:
-  version: 1.5-1
-  issues:
-    - variation_in_compilation
 bullet:
   version: 2.83.5+dfsg-1
   issues:
@@ -1544,10 +1536,6 @@ cableswig:
     https://sources.debian.net/src/cableswig/0.1.0%2Bcvs20111009-1.1/SWIG/CMakeLists.txt/#L26
   issues:
     - captures_kernel_version
-cadabra:
-  version: 1.39-0.2
-  issues:
-    - variation_in_compilation
 cadencii:
   version: 3.3.9+svn20110818.r1732-2
   issues:
@@ -3423,10 +3411,6 @@ ecb:
   version: 2.40+git20140216-1
   issues:
     - timestamps_in_emacs_autoloads
-ecere-sdk:
-  version: 0.44.10-1
-  issues:
-    - variation_in_compilation
 echoping:
   version: 6.0.2-8
   comments: |
@@ -3837,10 +3821,6 @@ eterm:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/eterm/0.9.6-1/configure.ac/#L28-L31
-eurephia:
-  version: 1.1.0-4
-  issues:
-    - variation_in_compilation
 evernote-mode:
   version: 0.41-3.1
   issues:
@@ -4234,10 +4214,6 @@ flite:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - different_due_to_umask
-flow-tools:
-  version: 1:0.68-12.1
-  issues:
-    - variation_in_compilation
 flower:
   version: 0.7.0+dfsg-2
   bugs:
@@ -5089,11 +5065,6 @@ gfm:
   version: 1.07-1
   issues:
     - timestamps_from_cpp_macros
-gforth:
-  version: 0.7.2+dfsg1-1.1
-  issues:
-    - variation_in_compilation
-    - different_due_to_umask
 gfpoken:
   version: 1-2
   comments: |
@@ -6446,10 +6417,6 @@ hyperestraier:
   version: 1.4.13-13
   issues:
     - timestamps_in_jar
-hyperic-sigar:
-  version: 1.6.4+dfsg-2.1
-  issues:
-    - variation_in_compilation
 hyphy:
   version: 2.2.5+dfsg-2
   issues:
@@ -6905,10 +6872,6 @@ jakarta-jmeter:
   version: 2.11-2
   issues:
     - user_in_java_jar_manifest
-jam:
-  version: 2.6-1
-  issues:
-    - variation_in_compilation
 jama:
   version: 1.0.3-1
   issues:
@@ -7908,10 +7871,6 @@ libav:
   version: 6:11-2
   issues:
     - timestamps_from_cpp_macros
-libavg:
-  version: 1.8.1-1
-  issues:
-    - variation_in_compilation
 libbasicplayer-java:
   version: 3.0-6
   issues:
@@ -8567,7 +8526,6 @@ libkcompactdisc:
 libkinosearch1-perl:
   version: 1.01-1
   issues:
-    - variation_in_compilation
     - timezones_manpages_podman
 libkolabxml:
   version: 1.0.2-2
@@ -10248,10 +10206,6 @@ mlpy:
   version: 2.2.0~dfsg1-2.1
   issues:
     - timestamps_in_pdf_generated_by_latex
-mlton:
-  version: 20100608-5.1
-  issues:
-    - variation_in_compilation
 mm-common:
   version: 0.9.7-1
   issues:
@@ -12892,10 +12846,6 @@ pyepr:
     - timestamps_in_documentation_generated_by_sphinx
   bugs:
     - 788246
-pyfai:
-  version: 0.10.2-1
-  issues:
-    - variation_in_compilation
 pyfits:
   version: 1:3.3-2
   comments: |
@@ -14062,10 +14012,6 @@ request-tracker4:
   version: 4.2.11-2
   bugs:
     - 796385
-resiprocate:
-  version: 1:1.9.7-4
-  issues:
-    - variation_in_compilation
 resource-agents:
   version: 1:3.9.5+git+a626847-1
   issues:
@@ -15238,10 +15184,6 @@ sikuli:
   issues:
     - timestamps_in_jar
     - locale_in_documentation_generated_by_javadoc
-silo-llnl:
-  version: 4.9.1-3
-  issues:
-    - variation_in_compilation
 simba:
   version: 0.8.4-4.2
   bugs:
@@ -15588,10 +15530,6 @@ speex:
   version: 1.2~rc1.2-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-spherepack:
-  version: 3.2-7
-  issues:
-    - variation_in_compilation
 sphinx:
   version: 1.2.3+dfsg-1
   issues:
@@ -15615,10 +15553,6 @@ sphinxcontrib-youtube:
   version: 1.0-1
   issues:
     - timestamps_in_python_version_numbers
-sphinxsearch:
-  version: 2.2.5-1
-  issues:
-    - variation_in_compilation
 sphinxtrain:
   version: 1.0.8-4
   comments: |
@@ -15646,10 +15580,6 @@ splash:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_manpages_generated_by_help2man
-splint:
-  version: 3.1.2.dfsg1-2
-  issues:
-    - variation_in_compilation
 spock:
   version: 0.6-groovy-1.8-3
   issues:
