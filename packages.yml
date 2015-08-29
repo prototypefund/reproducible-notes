@@ -55,7 +55,7 @@ abntex:
 abook:
   version: 0.6.0~pre2-3
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
     - different_due_to_umask
   bugs:
@@ -132,7 +132,7 @@ adcli:
 adduser:
   version: 3.113+nmu3
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
     - different_due_to_umask
   bugs:
@@ -307,7 +307,7 @@ angband:
 angband-doc:
   version: 3.0.3.5
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 777729
     - 792994
@@ -612,7 +612,7 @@ arduino-mighty-1284p:
 argus-client:
   version: 2.0.6.fixes.1-3
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 777283
@@ -832,7 +832,7 @@ augeas:
 authbind:
   version: 2.1.1
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 777727
 auto-multiple-choice:
@@ -1082,7 +1082,7 @@ bcfg2:
 bcron:
   version: 0.10-3
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
     - different_due_to_umask
   bugs:
@@ -1091,7 +1091,7 @@ bcron:
 beav:
   version: 1:1.40-18
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 777287
@@ -1136,7 +1136,7 @@ bglibs:
   version: 1.106-1.1
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
   bugs:
     - 776942
@@ -1153,7 +1153,7 @@ bibclean:
 bible-kjv:
   version: 4.27
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
 bibtex2html:
   version: 1.98-1
   issues:
@@ -1169,7 +1169,7 @@ bidiui:
 biff:
   version: 1:0.17.pre20000412-5
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 777290
@@ -1306,7 +1306,7 @@ blosxom:
   version: 2.1.2-1
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
   bugs:
     - 777292
@@ -1664,7 +1664,7 @@ ccze:
   version: 0.2.1-2
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
   bugs:
     - 777297
@@ -1691,7 +1691,7 @@ cdebootstrap:
     Some trivial gzip and tar --mtime issues, then the nested helper .debs each
     have fresh timestamps as they are built as part of the package build.
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
     - different_due_to_umask
   bugs:
@@ -1768,7 +1768,7 @@ cfingerd:
     http://sources.debian.net/src/cfingerd/1.4.3-3.1/Configure/?hl=66,77#L66
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
 cflow:
   version: 1:1.4+dfsg1-3
   issues:
@@ -1788,7 +1788,7 @@ cgiemail:
 cgilib:
   version: 0.6-1
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 776935
@@ -1808,7 +1808,7 @@ cglib3:
 cgoban:
   version: 1.9.14-17
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 792993
 cgsi-gsoap:
@@ -1850,7 +1850,7 @@ checkpw:
   version: 1.02-1
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
   bugs:
     - 777299
@@ -1890,14 +1890,14 @@ chiark-utils:
   version: 4.4.2
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 777300
     - 792998
 chimera2:
   version: 2.0a19-8
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 777302
@@ -2269,7 +2269,7 @@ console-cyrillic:
   version: 0.9-16.2
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 777304
     - 792999
@@ -2395,7 +2395,7 @@ crmsh:
 cross-binutils:
   version: 0.22
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
 cross-gcc-4.9-arm64:
   version: 39
@@ -2518,7 +2518,7 @@ cvm:
   version: 0.96-1.1
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
 cvs:
   version: 2:1.12.13+real-15
@@ -2528,13 +2528,13 @@ cvs-buildpackage:
   version: 5.23
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 777301
 cvs-mailcommit:
   version: 1.19-2
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 776940
@@ -2609,7 +2609,7 @@ daemontools:
   version: 1:0.76-6
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
   bugs:
     - 776876
@@ -2743,7 +2743,7 @@ dbuskit:
 dbview:
   version: 1.0.4-1
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 777058
@@ -2792,7 +2792,7 @@ deap:
 debdelta:
   version: 0.55
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
     - different_due_to_umask
   bugs:
@@ -2840,7 +2840,7 @@ debian-parl:
 debian-policy:
   version: 3.9.6.1
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_dvi_generated_by_latex
@@ -2942,7 +2942,7 @@ dhcpdump:
   version: 1.8-2
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 777309
     - 792952
@@ -2950,7 +2950,7 @@ dhcping:
   version: 1.2-4.1
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 777320
     - 792953
@@ -2988,7 +2988,7 @@ dict-gcide:
   version: 0.48.1
   issues:
     - timestamps_in_dictionaries
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
 dict-jargon:
   version: 4.4.7-2
   issues:
@@ -3012,7 +3012,7 @@ diet:
 dietlibc:
   version: 0.33~cvs20120325-6
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
 digikam:
   version: 4:4.4.0-1
@@ -3221,7 +3221,7 @@ dput:
   version: 0.9.6.4
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
   bugs:
     - 777375
@@ -3258,7 +3258,7 @@ dropbear:
   version: 2014.65-1
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
   bugs:
     - 777324
@@ -3286,7 +3286,7 @@ dtach:
 dtaus:
   version: 0.9-1
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 777321
@@ -3493,7 +3493,7 @@ elektra:
 elida:
   version: 0.4+nmu1
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 776955
@@ -3544,7 +3544,7 @@ enblend-enfuse:
 enemies-of-carlotta:
   version: 1.2.6-4
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 777449
@@ -3597,7 +3597,7 @@ erc:
   version: 5.3-1
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
   bugs:
     - 776967
@@ -3842,7 +3842,7 @@ ezmlm-idx:
   version: 7.1.1-1~exp0
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
 ezstream:
   version: 0.5.6~dfsg-1
   issues:
@@ -3868,7 +3868,7 @@ fakepop:
 fakeroot:
   version: 1.20.2-1
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
   bugs:
     - 795861
@@ -3876,7 +3876,7 @@ fastforward:
   version: 1:0.51-3
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
   bugs:
     - 776972
@@ -4016,7 +4016,7 @@ fgetty:
   version: 0.6-5
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
   bugs:
     - 776966
@@ -4155,7 +4155,7 @@ flowscan:
   version: 1.006-13.2
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 786927
 fltk1.1:
@@ -4427,7 +4427,7 @@ fortunes-bg:
   version: 1.1
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 777484
 fortunes-es:
@@ -4474,7 +4474,7 @@ frama-c:
 freecdb:
   version: 0.75
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
     - different_due_to_umask
   bugs:
@@ -4629,7 +4629,7 @@ ftgl:
 ftpcopy:
   version: 0.6.7-3
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
     - different_due_to_umask
   bugs:
@@ -4961,7 +4961,7 @@ gerstensaft:
   version: 0.3-4
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 777414
     - 792983
@@ -5068,7 +5068,7 @@ git:
     elements with non-deterministic name="" attributes generated by
     docbook-to-man. The gzip headers are trivial.
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
     - random_anchor_names_generated_by_docbook_to_man
     - timestamps_generated_by_docbook_to_man
@@ -5114,7 +5114,7 @@ gitmagic:
 gitolite3:
   version: 3.6.1-2
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
 givaro:
   version: 3.7.2-1
   bugs:
@@ -5477,7 +5477,7 @@ gnupg-doc:
     Contain random path in /tmp in
     /usr/share/doc/gnupg-doc/mini-HOWTO/GPGMiniHowto.ps.gz
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
     - timestamps_in_dvi_generated_by_latex
 gnuplot:
@@ -5667,7 +5667,7 @@ gpsmanshp:
   version: 1.2.3-4
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
   bugs:
     - 777446
@@ -6373,7 +6373,7 @@ icon:
   version: 9.4.3-4.2
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
 icu:
   version: 52.1-9
   comments: |
@@ -6521,7 +6521,7 @@ installation-guide:
 integrit:
   version: 4.1-1
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
     - different_due_to_umask
   bugs:
@@ -6552,7 +6552,7 @@ ips:
 ipsvd:
   version: 1.0.0-3
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
     - different_due_to_umask
   bugs:
@@ -6795,7 +6795,7 @@ jargon:
   version: 4.0.0-5.1
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 777483
     - 792987
@@ -7051,7 +7051,7 @@ jodconverter-cli:
 joe:
   version: 3.7-2.4
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 777726
@@ -7175,7 +7175,7 @@ jumpnbump:
 junior-doc:
   version: 1.16.1
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
     - timestamps_in_dvi_generated_by_latex
   bugs:
@@ -7599,7 +7599,7 @@ ldaptor:
 ldapvi:
   version: 1.7-9
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
     - different_due_to_umask
   bugs:
@@ -7621,7 +7621,7 @@ leave:
   version: 1.12-2.1
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 777403
     - 793694
@@ -7963,7 +7963,7 @@ libf2c2:
   version: 20090411-2
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 788001
 libfann:
@@ -8165,7 +8165,7 @@ libident:
   version: 0.22-3
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
 libidn2-0:
   version: 0.10-3
@@ -8239,7 +8239,7 @@ libjama:
   version: 1.2.4-2
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
   bugs:
     - 792972
@@ -8429,7 +8429,7 @@ libldm:
 liblip:
   version: 2.0.0-1.2
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
     - different_due_to_umask
   bugs:
@@ -8446,7 +8446,7 @@ liblockfile:
   version: 1.09-6
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 792974
 liblog4ada:
@@ -8539,7 +8539,7 @@ libmsv:
   version: 1.1-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
     - different_due_to_umask
   bugs:
@@ -8719,7 +8719,7 @@ librabbitmq:
 libranlip:
   version: 1.0-4.1
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 788000
@@ -8899,7 +8899,7 @@ libtnt:
   version: 1.2.6-1
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
   bugs:
     - 777428
@@ -9273,7 +9273,7 @@ logapp:
   version: 0.15-1
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_from_cpp_macros
     - different_due_to_umask
   bugs:
@@ -9332,7 +9332,7 @@ lpc21isp:
 lpe:
   version: 1.2.7-2
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
     - different_due_to_umask
   bugs:
@@ -9413,7 +9413,7 @@ lush:
 lvm2:
   version: 2.02.122-2
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
 lvtk:
   version: 1.2.0~dfsg0-1
   bugs:
@@ -9495,7 +9495,7 @@ magic:
 magicfilter:
   version: 1.2-64
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 777448
@@ -9540,7 +9540,7 @@ mailfront:
   version: 1.16-1
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
   bugs:
     - 777431
@@ -9555,7 +9555,7 @@ mailto:
   version: 1.3.2-3
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 777413
     - 793700
@@ -9656,7 +9656,7 @@ markdown:
   version: 1.0.1-7
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timezones_manpages_podman
   bugs:
     - 776925
@@ -9918,7 +9918,7 @@ mime-support:
   version: 3.58
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 776939
     - 793705
@@ -9928,7 +9928,7 @@ mimefilter:
     README.Debian also contains an embedded timestamp.
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 777486
     - 793704
@@ -10256,7 +10256,7 @@ mpack:
   version: 1.6-8
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 777376
     - 793706
@@ -10573,7 +10573,7 @@ nec:
   comments: |
     Looks like Fortran binaries are not reproducible…
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 792978
@@ -10618,7 +10618,7 @@ netmask:
 netmaze:
   version: 0.81+jpg0.82-14.1
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 778200
@@ -10632,7 +10632,7 @@ netqmail:
   version: 1.06-5
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
   bugs:
     - 777021
@@ -10648,7 +10648,7 @@ netrik:
 netris:
   version: 0.52-9
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
     - different_due_to_umask
   bugs:
@@ -10672,7 +10672,7 @@ netxx:
 newmail:
   version: 0.5-2
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 778202
@@ -10747,7 +10747,7 @@ nipype:
 nis:
   version: 3.17-34
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 787126
@@ -10760,7 +10760,7 @@ nitime:
 nitpic:
   version: 0.1-15
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 777492
@@ -11643,7 +11643,7 @@ pachi:
   version: 1:1.0-7
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 787125
 packaging-tutorial:
@@ -12169,7 +12169,7 @@ pixmap:
   version: 2.6pl4-18
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 777430
     - 793709
@@ -12486,7 +12486,7 @@ proxycheck:
 psgml:
   version: 1.4.0-5
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 777505
@@ -12558,7 +12558,7 @@ pxlib:
   version: 0.6.5-1
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
 pxljr:
   version: 1.4+repack0-4
   issues:
@@ -13358,7 +13358,7 @@ qjackctl:
 qmail-run:
   version: 2.0.2
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
     - different_due_to_umask
   bugs:
@@ -13367,7 +13367,7 @@ qmail-run:
 qmail-tools:
   version: 0.1.0
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
     - different_due_to_umask
   bugs:
@@ -13660,7 +13660,7 @@ raster3d:
 ratfor:
   version: 1.0-15
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 778204
@@ -13684,7 +13684,7 @@ rblcheck:
 rbootd:
   version: 2.0-10
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 776951
@@ -13885,7 +13885,7 @@ rockdodger:
     Embed build date:
     https://sources.debian.net/src/rockdodger/1.0.0-2/Makefile/?hl=42#L42
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 793714
 root-system:
@@ -13913,7 +13913,7 @@ rsbackup:
   version: 1.1-4
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 777394
     - 793716
@@ -13925,7 +13925,7 @@ rsync:
   version: 3.1.1-2
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 787123
 rt-extension-customfieldsonupdate:
@@ -14590,7 +14590,7 @@ rungetty:
   version: 1.2-15
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
   bugs:
     - 777447
@@ -14598,7 +14598,7 @@ rungetty:
 runit:
   version: 2.1.2-3
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
     - different_due_to_umask
   bugs:
@@ -14697,7 +14697,7 @@ sauce:
   version: 0.9.0+nmu3
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 777401
     - 793718
@@ -14849,7 +14849,7 @@ semweb:
 sendfile:
   version: 2.1b.20080616-5.3
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 776938
@@ -14907,7 +14907,7 @@ sgmltools-lite:
   version: 3.0.3.0.cvs.20010909-17
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 777011
     - 793720
@@ -14972,7 +14972,7 @@ signify:
   version: 1.14-1
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 777062
     - 793721
@@ -15072,7 +15072,7 @@ sitemesh:
 skalibs:
   version: 0.47-1
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 792990
@@ -15113,7 +15113,7 @@ slib:
   version: 3b1-4
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - randomness_in_html_generated_by_texi2html
 slic3r:
   version: 1.1.7+dfsg-2
@@ -15147,7 +15147,7 @@ slrnface:
   version: 2.1.1-6
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
   bugs:
     - 777425
@@ -15214,7 +15214,7 @@ sockjs-client:
 socklog:
   version: 2.1.0-8
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
     - different_due_to_umask
   bugs:
@@ -15356,7 +15356,7 @@ spkproxy:
 spl:
   version: 1.0~pre6-4
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
     - different_due_to_umask
 splash:
@@ -15443,7 +15443,7 @@ ssmtp:
   version: 2.64-8
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 777398
     - 793724
@@ -15588,7 +15588,7 @@ supercat:
   version: 0.5.5-4
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
   bugs:
     - 777396
@@ -15733,7 +15733,7 @@ tachyon:
 taggrepper:
   version: 0.05-1
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
   bugs:
     - 777725
@@ -15851,7 +15851,7 @@ tetex-brev:
 tetradraw:
   version: 2.0.3-8.2
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
     - different_due_to_umask
   bugs:
@@ -15861,7 +15861,7 @@ tetrinet:
   version: 0.11+CVS20070911-1
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
   bugs:
     - 777397
@@ -15894,7 +15894,7 @@ the:
   version: 3.3~rc1-2
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
   bugs:
     - 777370
@@ -15990,7 +15990,7 @@ tinydyndns:
   version: 0.4.2.debian1-1
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
   bugs:
     - 776929
@@ -16176,7 +16176,7 @@ trscripts:
   version: 1.16
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 776927
     - 793730
@@ -16312,7 +16312,7 @@ twittering-mode:
 twoftpd:
   version: 1.42-1
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
     - different_due_to_umask
   bugs:
@@ -16324,7 +16324,7 @@ tworld:
     https://sources.debian.net/src/tworld/1.3.0-6/Makefile.in/?hl=73:74#L73
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
   bugs:
     - 792980
@@ -16374,7 +16374,7 @@ uclibc:
 ucspi-proxy:
   version: 0.99-1
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
     - different_due_to_umask
   bugs:
@@ -16382,7 +16382,7 @@ ucspi-proxy:
 ucspi-tcp:
   version: 1:0.88-3
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
     - different_due_to_umask
   bugs:
@@ -16390,7 +16390,7 @@ ucspi-tcp:
 ucspi-unix:
   version: 0.36-4
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
     - different_due_to_umask
   bugs:
@@ -16532,7 +16532,7 @@ urjtag:
 uruk:
   version: 20150401-1
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 792986
 urweb:
@@ -16567,7 +16567,7 @@ utopia-documents:
 uucpsend:
   version: 1.1-4
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 777008
@@ -16801,7 +16801,7 @@ vpim:
   version: 0.695-1.1
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 776930
 vserver-debiantools:
@@ -16872,7 +16872,7 @@ warzone2100:
 watchdog:
   version: 5.14-3
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 784211
 wayland:
@@ -17030,11 +17030,11 @@ wml:
 wmpuzzle:
   version: 0.5.2-1
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
 wmweather:
   version: 2.4.5-2
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 792981
 wmweather+:
@@ -17045,7 +17045,7 @@ wmweather+:
 wmwork:
   version: 0.2.6-1
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
 wordgrinder:
   version: 0.5.1-1
   comments: |
@@ -17157,7 +17157,7 @@ xblast-tnt:
   version: 2.10.4-3
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
   bugs:
     - 778211
@@ -17165,14 +17165,14 @@ xblast-tnt-images:
   version: 20050106-2
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
   bugs:
     - 778206
 xblast-tnt-levels:
   version: 20050106-2
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
     - different_due_to_umask
   bugs:
@@ -17180,7 +17180,7 @@ xblast-tnt-levels:
 xblast-tnt-models:
   version: 20050106-3
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
     - different_due_to_umask
   bugs:
@@ -17189,7 +17189,7 @@ xblast-tnt-musics:
   version: 20050106-2
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
   bugs:
     - 778209
@@ -17197,7 +17197,7 @@ xblast-tnt-sounds:
   version: 20040429-2
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
   bugs:
     - 778210
@@ -17287,7 +17287,7 @@ xenomai:
 xfaces:
   version: 3.3-28
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 777063
@@ -17372,7 +17372,7 @@ xiphos:
 xjig:
   version: 2.4-14
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 777355
@@ -17475,7 +17475,7 @@ xmount:
 xnecview:
   version: 1.35-7.1
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 777332
@@ -17525,7 +17525,7 @@ xpra:
 xscavenger:
   version: 1.4.4-9
   issues:
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 777331
@@ -17583,7 +17583,7 @@ xtrlock:
   version: 2.6
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 787122
 xul-ext-monkeysphere:
@@ -17596,7 +17596,7 @@ xvier:
   version: 1.0-7.5
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 777330
 xyscan:
@@ -17840,7 +17840,7 @@ zshdb:
   version: 0.05+git20101031-3
   issues:
     - timestamps_in_gzip_headers
-    - not_using_dh_builddeb
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 777400
 zssh:

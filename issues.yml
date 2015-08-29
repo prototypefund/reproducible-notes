@@ -117,7 +117,7 @@ fontforge_reset_modification_time:
     in any way, then the font modification time is set to the current
     time.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInFontsGeneratedWithFontForge
-not_using_dh_builddeb:
+varying_mtimes_in_data_tar_gz_or_control_tar_gz:
   description: |
     We currently adjust the file mtimes in dh_builddeb. Packages which
     calls `dpkg --build` directly should have a prior call to:
