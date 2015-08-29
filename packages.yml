@@ -5942,6 +5942,10 @@ guacamole-client:
   issues:
     - random_order_in_java_jar_manifest_mf
     - different_due_to_umask
+guava-libraries:
+  version: 18.0-4
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 gucharmap:
   version: 1:3.16.2-1
   bugs:
@@ -8224,6 +8228,10 @@ libitext-java:
   version: 2.1.7-9
   issues:
     - randomness_in_gcj_output
+libitext5-java:
+  version: 5.5.6-1
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 libitpp:
   version: 4.3.1-3
   issues:
