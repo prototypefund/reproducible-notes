@@ -547,10 +547,6 @@ aprsdigi:
   version: 3.5.1-1
   issues:
     - timestamps_in_documentation_generated_by_groff
-aprx:
-  version: 2.08.svn593+dfsg-1
-  bugs:
-    - 795441
 apt:
   version: 1.0.9.3
   issues:
@@ -723,10 +719,6 @@ aspic:
   version: 1.05-4
   issues:
     - pdf_created_by_ghostscript
-assimp:
-  version: 3.0~dfsg-4
-  bugs:
-    - 794835
 asterisk:
   version: 1:13.1.0~dfsg-1
   comments: |
@@ -1280,12 +1272,6 @@ blitz++:
     https://sources.debian.net/src/blitz%2B%2B/1:0.10-3.2/m4/ac_check_cxx_features.m4/#L29-L30
   issues:
     - captures_kernel_version
-blkreplay:
-  version: 1.0-2
-  issues:
-    - timezones_manpages_podman
-  bugs:
-    - 795392
 blktrace:
   version: 1.0.5-1
   issues:
@@ -1542,12 +1528,6 @@ cairo-dock-plug-ins:
   version: 3.4.0-1
   issues:
     - timestamps_in_pe_binaries
-cal3d:
-  version: 0.11.0-4.2
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
-  bugs:
-    - 787916
 calendar:
   version: 2.04-1
   issues:
@@ -2435,10 +2415,6 @@ cruft:
   version: 0.9.20
   bugs:
     - 790844
-cryptmount:
-  version: 5.1-1
-  bugs:
-    - 795322
 cryptsetup:
   version: 2:1.6.6-5
   comments: |
@@ -2927,10 +2903,6 @@ dh-kpatches:
   version: 0.99.36+nmu1
   issues:
     - timestamps_in_pdf_generated_by_latex
-dh-lua:
-  version: 21
-  bugs:
-    - 796803
 dh-make-php:
   version: 0.4.0
   issues:
@@ -2963,10 +2935,6 @@ dia:
   version: 0.97.3-1
   issues:
     - timestamps_from_cpp_macros
-diagnostics:
-  version: 0.3.3-10
-  bugs:
-    - 792196
 dict-bouvier:
   version: 6.revised-3.2
   issues:
@@ -4118,10 +4086,6 @@ flann:
   version: 1.8.4-4.1
   issues:
     - timestamps_in_pdf_generated_by_latex
-flask-migrate:
-  version: 1.2.0-1
-  bugs:
-    - 792157
 flasm:
   version: 1.62-7
   issues:
@@ -4700,10 +4664,6 @@ gamera:
   version: 3.4.2+svn1431-1
   bugs:
     - 785529
-gammaray:
-  version: 2.2.1-1
-  bugs:
-    - 793604
 gammu:
   version: 1.33.0-3
   issues:
@@ -5585,10 +5545,6 @@ golang-mreiferson-httpclient:
   version: 0.0~git20140425-2
   bugs:
     - 791514
-golang-prometheus-client:
-  version: 0.6.0+ds-1
-  bugs:
-    - 796421
 golang-raft:
   version: 0.0~git20140427-4
   bugs:
@@ -5911,10 +5867,6 @@ gtkimageview:
   version: 1.6.4+dfsg-0.1
   bugs:
     - 789101
-gtkmathview:
-  version: 0.8.0-10+nmu2
-  bugs:
-    - 785485
 gtkpod:
   version: 2.1.4-4
   issues:
@@ -6169,10 +6121,6 @@ hibernate:
   comments: |
     Embeds the build date into manpage.
     https://sources.debian.net/src/hibernate/2.0%2B15%2Bg88d54a8-1/gen-manpages.sh/#L3
-hiera:
-  version: 2.0.0-1
-  bugs:
-    - 794132
 highlight.js:
   version: 8.2+ds-4
   issues:
@@ -6303,10 +6251,6 @@ hwloc:
   version: 1.10.0-3
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-hy:
-  version: 0.11.0-1
-  bugs:
-    - 796434
 hyde:
   version: 0.8.5a1-4
   issues:
@@ -6698,10 +6642,6 @@ jack-tools:
   version: 20131226-1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-jackd2:
-  version: 1.9.10+20140719git3eb0ae6a~dfsg-3
-  bugs:
-    - 796807
 jackrabbit:
   version: 2.3.6-1
   issues:
@@ -7788,10 +7728,6 @@ libcec:
     to ./configure but the binaries are also non-determinstic.
   issues:
     - different_due_to_umask
-libcgi-simple-perl:
-  version: 1.115-1
-  bugs:
-    - 796537
 libcgicc:
   version: 3.2.9-3
   issues:
@@ -7996,10 +7932,6 @@ libflexdock-java:
   version: 1.2.4-1
   issues:
     - locale_in_documentation_generated_by_javadoc
-libflickr-upload-perl:
-  version: 1.40-1
-  bugs:
-    - 796315
 libflickrnet:
   version: 1:2.2.0-4
   issues:
@@ -8185,10 +8117,6 @@ libidn2-0:
     and has the timestamp in the info page.
   issues:
     - timestamps_in_pdf_generated_by_latex
-libimage-info-perl:
-  version: 1.28-1
-  bugs:
-    - 796354
 libindicate:
   version: 0.6.92-2
   issues:
@@ -8500,10 +8428,6 @@ libmarpa-r2-perl:
   version: 2.086000~dfsg-3
   issues:
     - timestamps_from_cpp_macros
-libmath-planepath-perl:
-  version: 119-1
-  bugs:
-    - 795589
 libmatio:
   version: 1.5.2-3
   issues:
@@ -8611,14 +8535,6 @@ libopendbx:
   version: 1.4.6-8
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-libopengl-image-perl:
-  version: 1.03-1
-  bugs:
-    - 796422
-libopengl-perl:
-  version: 0.6704+dfsg-1
-  bugs:
-    - 795741
 libopenraw:
   version: 0.0.9-3.5
   bugs:
@@ -8810,10 +8726,6 @@ libsecret:
   version: 0.18-1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-libsignatures-perl:
-  version: 0.12-1
-  bugs:
-    - 793580
 libskinlf-java:
   version: 6.7-8
   issues:
@@ -8848,10 +8760,6 @@ libstax-java:
   version: 1.2.0-3
   issues:
     - locale_in_documentation_generated_by_javadoc
-libsvn-hooks-perl:
-  version: 1.28-1
-  bugs:
-    - 795756
 libswe-doc:
   version: 1.80.00.0001-1
   issues:
@@ -9038,11 +8946,6 @@ libxml-validate-perl:
   version: 1.025-2
   bugs:
     - 720666
-libxml2:
-  version: 2.9.2+dfsg1-3
-  bugs:
-    - 766884
-    - 796031
 libxmlada:
   version: 4.4.2014-1
   issues:
@@ -9117,10 +9020,6 @@ lift:
   version: 2.0.0-1
   issues:
     - timestamps_in_manpages_generated_by_sphinx
-lightdm:
-  version: 1.14.2-1
-  bugs:
-    - 777981
 lightdm-gtk-greeter:
   version: 2.0.1-1
   comments: |
@@ -9582,10 +9481,6 @@ maitreya:
   version: 7.0.7-1
   issues:
     - timestamps_from_cpp_macros
-make-dfsg:
-  version: 4.0-8.1
-  bugs:
-    - 782750
 makepp:
   version: 2.0.98.5-1
   issues:
@@ -9693,10 +9588,6 @@ mate-menu:
   version: 5.6.5a-1
   issues:
     - random_order_in_dh_python_autoscripts
-mate-screensaver:
-  version: 1.8.1-2
-  bugs:
-    - 796452
 mathgl:
   version: 2.2.2.1-3
   bugs:
@@ -9925,14 +9816,6 @@ milter-greylist:
   comments: |
     Records the build environment.
     https://sources.debian.net/src/milter-greylist/4.5.11-1/configure.ac/#L1323-L1325
-mime-support:
-  version: 3.58
-  issues:
-    - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-  bugs:
-    - 776939
-    - 793705
 mimefilter:
   version: 1.7+nmu1
   comments: |
@@ -10293,10 +10176,6 @@ mpmath:
   version: 0.19-1
   issues:
     - timestamps_in_documentation_generated_by_sphinx
-mpqc:
-  version: 2.3.1-16
-  bugs:
-    - 789049
 mpris-remote:
   version: 0.0~1.gpb7c7f5c6-1
   issues:
@@ -10789,10 +10668,6 @@ nmh:
   comments: |
     Timestamp embedded by script generating a manpage.
     https://sources.debian.net/src/nmh/1.6-7/man/mh-chart-gen.sh/#L12
-nn:
-  version: 6.7.3-8
-  bugs:
-    - 776764
 noblenote:
   version: 1.0.8-1
   issues:
@@ -11393,12 +11268,6 @@ openid4java:
   version: 0.9.6.662-2
   issues:
     - locale_in_documentation_generated_by_javadoc
-openigtlink:
-  version: 1.10.5-1
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
-  bugs:
-    - 789184
 openimageio:
   version: 1.4.14~dfsg0-1
   issues:
@@ -11686,10 +11555,6 @@ paje.app:
   issues:
     - timestamps_in_dvi_generated_by_latex
     - timestamps_in_ps_generated_by_dvips
-pajeng:
-  version: 1.1+git20140604.1d5509f042-2
-  bugs:
-    - 796258
 palo:
   version: 1.95
   comments: |
@@ -12799,10 +12664,6 @@ python-babel:
   version: 1.3+dfsg.1-5
   bugs:
     - 795997
-python-barbicanclient:
-  version: 3.0.3-1
-  bugs:
-    - 795128
 python-biom-format:
   version: 2.1+dfsg-1
   issues:
@@ -12929,8 +12790,6 @@ python-glanceclient:
   version: 0.15.0-1
   issues:
     - timestamps_in_manpages_generated_by_sphinx
-  bugs:
-    - 796460
 python-glpk:
   version: 0.4.52-1.1
   bugs:
@@ -12971,18 +12830,10 @@ python-kinterbasdb:
   version: 3.3.0-3
   comments: |
     Build time in /usr/lib/python2.7/dist-packages/kinterbasdb/__init__.py
-python-librtmp:
-  version: 0.2.2-1
-  bugs:
-    - 792631
 python-llfuse:
   version: 0.40+dfsg-2
   issues:
     - randomness_in_documentation_generated_by_sphinx
-python-memcache:
-  version: 1.56-1
-  bugs:
-    - 795565
 python-memprof:
   version: 0.3.3-3
   bugs:
@@ -13112,10 +12963,6 @@ python-pykmip:
   version: 0.3.1-1
   bugs:
     - 796160
-python-pymemcache:
-  version: 1.3.2-1
-  bugs:
-    - 795565
 python-pymysql:
   version: 0.6.2-1
   bugs:
@@ -13126,10 +12973,6 @@ python-pypump:
     - timestamps_in_documentation_generated_by_sphinx
   bugs:
     - 788505
-python-pyscss:
-  version: 1.3.4-2
-  bugs:
-    - 795521
 python-reconfigure:
   version: 0.1.59+git20140824-1
   issues:
@@ -13630,10 +13473,6 @@ rabbitmq-server:
   version: 3.4.2-2
   issues:
     - timestamps_in_beam_files
-racc:
-  version: 1.4.9-2
-  bugs:
-    - 794142
 racket:
   version: 6.1.1-3
   issues:
@@ -13788,10 +13627,6 @@ regina-rexx:
   issues:
     - timestamps_from_cpp_macros
     - different_due_to_umask
-relatorio:
-  version: 0.6.1-3
-  bugs:
-    - 795132
 relaxngcc:
   version: 1.12-1
   issues:
@@ -14061,10 +13896,6 @@ ruby-colored:
   version: 1.2-2
   issues:
     - timestamps_in_gemspec_files
-ruby-cookiejar:
-  version: 0.3.1-1
-  bugs:
-    - 795781
 ruby-cri:
   version: 2.7.0-1
   bugs:
@@ -14159,10 +13990,6 @@ ruby-fast-xs:
   version: 0.8.0-3
   issues:
     - timestamps_in_gemspec_files
-ruby-fission:
-  version: 0.5.0-1
-  bugs:
-    - 795040
 ruby-flexmock:
   version: 0.9.0-1
   bugs:
@@ -14278,10 +14105,6 @@ ruby-kramdown:
   version: 1.4.2-1
   issues:
     - timestamps_in_ruby_documentation
-ruby-kyotocabinet:
-  version: 1.32-1
-  bugs:
-    - 791778
 ruby-literati:
   version: 0.0.4~git.20130318.3b3ea30-2
   bugs:
@@ -14290,10 +14113,6 @@ ruby-magic:
   version: 0.2.8-1
   issues:
     - timestamps_in_ruby_documentation
-ruby-mail:
-  version: 2.6.1+dfsg1-1
-  bugs:
-    - 794262
 ruby-mathml:
   version: 0.14-3
   issues:
@@ -14326,10 +14145,6 @@ ruby-merb-param-protection:
   version: 1.1.3-2
   bugs:
     - 795043
-ruby-mercenary:
-  version: 0.3.4-1
-  bugs:
-    - 794268
 ruby-messagebus-api:
   version: 3.0.7+git.20130130.97b34ece-1
   bugs:
@@ -14346,14 +14161,6 @@ ruby-minimization:
   version: 0.2.1-1
   issues:
     - timestamps_in_gemspec_files
-ruby-multi-xml:
-  version: 0.5.5-1
-  bugs:
-    - 794272
-ruby-multimap:
-  version: 1.1.2+gh-1
-  bugs:
-    - 791781
 ruby-mysql2:
   version: 0.3.18-1
   bugs:
@@ -14409,10 +14216,6 @@ ruby-plist:
   version: 3.1.0-2
   issues:
     - timestamps_in_gemspec_files
-ruby-powerpack:
-  version: 0.1.0-1
-  bugs:
-    - 795047
 ruby-pygments.rb:
   version: 0.5.4~ds1-3
   issues:
@@ -14477,18 +14280,10 @@ ruby-rubytorrent:
   version: 0.3-5
   issues:
     - timestamps_in_gemspec_files
-ruby-rubyvis:
-  version: 0.6.1+dfsg1-1
-  bugs:
-    - 795049
 ruby-samuel:
   version: 0.3.3-1
   issues:
     - timestamps_in_gemspec_files
-ruby-semverse:
-  version: 1.1.0-2
-  bugs:
-    - 795050
 ruby-settingslogic:
   version: 2.0.9-2
   issues:
@@ -14509,10 +14304,6 @@ ruby-simple-navigation:
   version: 3.11.0-1
   bugs:
     - 795116
-ruby-sinatra-contrib:
-  version: 1.4.2-1
-  bugs:
-    - 795117
 ruby-sqlite3:
   version: 1.3.9-2
   bugs:
@@ -14561,10 +14352,6 @@ ruby-validatable:
   version: 1.6.7-10
   issues:
     - timestamps_in_gemspec_files
-ruby-virtus:
-  version: 1.0.2-1
-  bugs:
-    - 795122
 ruby-warden:
   version: 1.2.3-1
   bugs:
@@ -14919,14 +14706,6 @@ sgml2x:
   version: 1.0.0-11.3
   issues:
     - elinks_dump_varies_output_with_locale
-sgmltools-lite:
-  version: 3.0.3.0.cvs.20010909-17
-  issues:
-    - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-  bugs:
-    - 777011
-    - 793720
 sgrep:
   version: 1.94a-4
   issues:
@@ -14948,10 +14727,6 @@ shelxle:
   version: 1.0.677-1
   issues:
     - timestamps_from_cpp_macros
-shiboken:
-  version: 1.2.2-1
-  bugs:
-    - 778118
 shinken:
   version: 2.0.3-3
   issues:
@@ -16157,12 +15932,6 @@ translate-toolkit:
   version: 1.12.0+dfsg1-2
   issues:
     - randomness_in_documentation_generated_by_sphinx
-transmissionrpc:
-  version: 0.11-1
-  issues:
-    - timestamps_in_documentation_generated_by_sphinx
-  bugs:
-    - 788598
 transtermhp:
   version: 2.09-2
   issues:
@@ -16435,10 +16204,6 @@ udev-discover:
   version: 0.2.2-1
   bugs:
     - 779061
-udevil:
-  version: 0.4.3-1
-  bugs:
-    - 790630
 udj-desktop-client:
   version: 0.6.3-1
   bugs:
@@ -16457,12 +16222,6 @@ ufw:
   version: 0.33-2
   bugs:
     - 797020
-uhd:
-  version: 3.7.3-1
-  comments: |
-    Also timestamps in HTML manual.
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 uhub:
   version: 0.4.1-3
   issues:
@@ -16551,12 +16310,6 @@ unixcw:
   version: 3.4.2-1
   comments: |
     Signatures and functions in manpage are generated in src/libcw/Makefile.am without a locale-independent sort
-unoconv:
-  version: 0.6-6
-  issues:
-    - timestamps_in_documentation_generated_by_asciidoc
-  bugs:
-    - 795975
 urjtag:
   version: 0.10+r2007-1.2
   issues:
@@ -16921,8 +16674,6 @@ webassets:
   version: 3:0.10.1-2
   issues:
     - timestamps_in_manpages_generated_by_help2man
-  bugs:
-    - 775135
 webauth:
   version: 4.6.1-1
   issues:
@@ -16961,10 +16712,6 @@ west-chamber:
     - different_due_to_umask
   bugs:
     - 778358
-wfmath:
-  version: 1.0.2+dfsg1-0.3
-  bugs:
-    - 790081
 wheel:
   version: 0.24.0-3
   bugs:
@@ -17488,10 +17235,6 @@ xmltex:
   version: 1.9.debian.1-3
   issues:
     - timestamps_in_dvi_generated_by_latex
-xmltv:
-  version: 0.5.63-2
-  bugs:
-    - 792193
 xmlunit:
   version: 1.5-1
   issues:
@@ -17622,12 +17365,6 @@ xtrlock:
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 787122
-xul-ext-monkeysphere:
-  version: 0.8-1
-  issues:
-    - timestamps_in_zip
-  bugs:
-    - 794781
 xvier:
   version: 1.0-7.5
   issues:
