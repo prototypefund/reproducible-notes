@@ -2,7 +2,7 @@ Notes on build reproducibility of Debian packages
 =================================================
 
 This repository contains notes concerning the status of build
-reproducibility of Deban packages.
+reproducibility of Debian packages.
 
 packages.yml
 ------------
@@ -31,7 +31,7 @@ cleanups.
 
  - `comments`: is a free-form multi-line field to leave comments.
 
-If an issue for the package been fixed in sid, it should be removed from `packages.yml`.
+If an issue for the package has been fixed in sid, it should be removed from `packages.yml`.
 
 issues.yml
 ----------
