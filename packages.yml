@@ -13728,6 +13728,11 @@ realmd:
   version: 0.15.1-1
   issues:
     - timestamps_generated_by_docbook_to_man
+rebar:
+  version: 2.6.0-1
+  comments: |
+    Embeds the build time.
+    https://sources.debian.net/src/rebar/2.6.0-1/bootstrap/#L123-L126
 reclass:
   version: 1.4.1-1
   issues:
