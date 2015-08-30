@@ -2478,11 +2478,10 @@ cultivation:
   issues:
     - timestamps_in_png
 cups:
-  version: 1.7.5-4
+  version: 1.7.5-10
   comments: |
-    Build hangs endlessly in the test suite
-    Reproducible with plain sid toolchain on different systems
-    Package has been blacklisted in sid and experimental (2.0.2-2)
+    Build hangs endlessly in the test suite, so cups has been blacklisted in sid and testing.
+    2.1~rc1-4 from experimental builds fine.
   issues:
     - blacklisted_on_jenkins
 cupt:
