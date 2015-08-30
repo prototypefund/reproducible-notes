@@ -509,6 +509,8 @@ apophenia:
     - 788868
 apparmor:
   version: 2.10-1
+  bugs:
+    - 797415
   comments: |
     `/ID` value actually seems to be timezone dependent.
     Also, apparmor.vim is generated in a locale dependent way, at least
@@ -3457,6 +3459,12 @@ efl:
     - timestamps_from_cpp_macros
   bugs:
     - 796426
+eigenbase-farrago:
+  version: 0.9.0-1
+  bugs:
+    - 797410
+  issues:
+    - timestamps_generated_by_eigenbase_resgen
 eigenbase-resgen:
   version: 1.3.0.13768-1
   issues:
@@ -11851,6 +11859,10 @@ pd-lua:
   version: 0.6.0-2
   issues:
     - timestamps_from_cpp_macros
+pd-mediasettings:
+  version: 0.1-1
+  issues:
+    - timestamps_from_cpp_macros
 pd-pdstring:
   version: 0.10.2-1
   comments: |
@@ -15351,6 +15363,10 @@ splint:
   version: 3.1.2.dfsg1-2
   bugs:
     - 797254
+splitpatch:
+  version: 0.0+20131223+gitb13d810-1
+  bugs:
+    - 797408
 spock:
   version: 0.6-groovy-1.8-3
   issues:
