@@ -1590,6 +1590,12 @@ canl-java:
     - timestamps_in_documentation_generated_by_javadoc
   bugs:
     - 793318
+canna:
+  version: 3.7p3-13
+  comments: |
+    Tool executed during build adds timestamps. I thik it is http://sources.debian.net/src/canna/3.7p3-13/cmd/crxdic/crxdic.c/#L966
+  issues:
+    - timestamps_in_dvi_generated_by_latex
 canna-shion:
   version: 0.0.20010204-12
   comments: |
