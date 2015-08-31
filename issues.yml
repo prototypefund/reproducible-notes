@@ -773,3 +773,8 @@ random_order_in_python_doit_completion:
     .
     Forwarded upstream https://github.com/pydoit/doit/pull/100
   url: https://bugs.debian.org/797180
+random_order_in_ibus_table_createdb_output:
+  description: |
+   ibus-table-createdb in ibus-table creates sqlite databases with
+   non-deterministic order.
+  url: https://bugs.debian.org/797521
