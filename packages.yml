@@ -12447,6 +12447,10 @@ proll:
     This package build-depends on sparc-utils which is only available on arch:sparc.
   issues:
     - ftbfs_build_depends_not_available_on_amd64
+prometheus-pushgateway:
+  version: 0.2.0+ds-1
+  bugs:
+    - 797622
 proofgeneral:
   version: 4.3~pre131011-0.2
   issues:
