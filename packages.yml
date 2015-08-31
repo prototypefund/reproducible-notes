@@ -351,8 +351,8 @@ antlr:
     - timestamps_in_pe_binaries
 antlr3:
   version: 3.2-10
-  comments: |
-    ANTLRv3Parser.java is generated at build time and can have reordered source lines.
+  issues:
+    - random_order_in_antlr_output
 ants:
   version: 2.1.0~rc2+git3-g9103999-4
   issues:
@@ -15427,6 +15427,10 @@ stressapptest:
   comments: |
     Embed build timestamp, username and hostname:
     https://sources.debian.net/src/stressapptest/1.0.6-1/configure.ac/?hl=98:100#L98
+stringtemplate4:
+  version: 4.0.8-2
+  issues:
+    - random_order_in_antlr_output
 stsci.distutils:
   version: 0.3.7-1
   comments: |
