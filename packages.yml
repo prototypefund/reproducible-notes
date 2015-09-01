@@ -40,6 +40,10 @@ abcm2ps:
     - timestamps_from_cpp_macros
   bugs:
     - 788748
+abi-compliance-checker:
+  version: 1.99.9-2
+  issues:
+    - timestamps_in_manpages_generated_by_help2man
 abinit:
   version: 7.8.2-2
   issues:
