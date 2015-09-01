@@ -777,3 +777,7 @@ random_order_in_ibus_table_createdb_output:
 random_order_in_antlr_output:
   description: |
     The ANTLR parser generaor can have reordered source lines.
+nondetermistic_link_order_in_module_build:
+  description: |
+    Module::Build links object files in readdir order, which is nondeterministic.
+  url: https://bugs.debian.org/797709
