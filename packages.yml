@@ -8357,9 +8357,11 @@ libkcompactdisc:
   issues:
     - timestamps_from_cpp_macros
 libkinosearch1-perl:
-  version: 1.01-1
+  version: 1.01-2
   issues:
-    - timezones_manpages_podman
+    - nondetermistic_link_order_in_module_build
+  bugs:
+    - 797711
 libkolabxml:
   version: 1.0.2-2
   issues:
