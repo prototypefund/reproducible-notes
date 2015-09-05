@@ -781,3 +781,8 @@ nondetermistic_link_order_in_module_build:
   description: |
     Module::Build links object files in readdir order, which is nondeterministic.
   url: https://bugs.debian.org/797709
+timestamps_in_tex_documents:
+  description: |
+    The TeX \today macro embeds the build date in the files generated
+    from it (DVI, PS, PDF, etc.). This should probably be changed to
+    honour SOURCE_DATE_EPOCH from the environment.
