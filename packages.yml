@@ -3458,16 +3458,10 @@ ejabberd-contrib:
   version: 0.2014.09.22-1
   issues:
     - timestamps_in_beam_files
-ekg:
-  version: 1:1.9~pre+r2855-2
-  issues:
-    - timestamps_from_cpp_macros
 ekg2:
-  version: 1:0.4~pre+20120506.1-8
+  version: 1:0.4~pre+20120506.1-10
   issues:
-    - timestamps_from_cpp_macros
-  bugs:
-    - 797230
+    - different_pot_creation_date_in_gettext_mo_files
 elasticsearch:
   version: 1.0.3+dfsg-5
   issues:
