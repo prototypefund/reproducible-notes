@@ -406,9 +406,9 @@ ftbfs_due_to_virtual_dependencies:
   description: |
     Package has virtual build dependencies or conflicts without listing a real package as alternative first. This causes pbuilder to fail the build and it also makes it virtually impossible to reproducible build the package.
   url: https://lintian.debian.org/tags/virtual-package-depends-without-real-package-depends.html
-lc_messages_randomness:
+different_pot_creation_date_in_gettext_mo_files:
   description: |
-    Some unknown variation in LC_MESSAGES/....mo, not diagnosed by diffoscope.
+    Gettext .mo files in /usr/share/locale/*/LC_MESSAGES differ in their POT-Creation-Date.
 ftbfs_in_jenkins_setup:
   description: |
     Could be:
