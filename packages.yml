@@ -111,21 +111,21 @@ ada-reference-manual:
     - timestamps_in_pdf_generated_by_latex
 adabrowse:
   version: 4.0.3-6
-  issues:
-    - build_id_variation_requiring_further_investigation
   comments: |
     Many Ada-related packages have similar build id variations.
+  issues:
+    - build_id_variation_requiring_further_investigation
 adacgi:
   version: 1.6-19
   issues:
     - timestamps_in_ada_library_information_files
 adacontrol:
   version: 1.16r11-3
+  comments: |
+    Many Ada-related packages have similar build id variations.
   issues:
     - build_id_variation_requiring_further_investigation
     - timestamps_in_pdf_generated_by_latex
-  comments: |
-    Many Ada-related packages have similar build id variations.
 adasockets:
   version: 1.9-1
   comments: |
@@ -678,10 +678,10 @@ asciidoctor:
     - timestamps_in_ruby_documentation
 asis:
   version: 2014-4
-  issues:
-    - build_id_variation_requiring_further_investigation
   comments: |
     Many Ada-related packages have similar build id variations.
+  issues:
+    - build_id_variation_requiring_further_investigation
 ask:
   version: 1.0.1-2
   issues:
@@ -5341,10 +5341,10 @@ gnome-session:
     - different_pot_creation_date_in_gettext_mo_files
 gnome-settings-daemon:
   version: 3.14.2-2
-  issues:
-    - different_pot_creation_date_in_gettext_mo_files
   comments: |
     Probably updated by intltool-extract.
+  issues:
+    - different_pot_creation_date_in_gettext_mo_files
 gnome-sharp2:
   version: 2.24.2-3
   issues:
@@ -5580,10 +5580,10 @@ gpointing-device-settings:
     - 725593
 gprbuild:
   version: 2014dfsg-1
-  issues:
-    - build_id_variation_requiring_further_investigation
   comments: |
     Many Ada-related packages have similar build id variations.
+  issues:
+    - build_id_variation_requiring_further_investigation
 gprolog:
   version: 1.3.0-6.1
   issues:
@@ -7680,10 +7680,10 @@ libavg:
     - 797440
 libaws:
   version: 3.2.0-3
-  issues:
-    - build_id_variation_requiring_further_investigation
   comments: |
     Many Ada-related packages have similar build id variations.
+  issues:
+    - build_id_variation_requiring_further_investigation
 libbasicplayer-java:
   version: 3.0-6
   issues:
@@ -7919,10 +7919,10 @@ libflickrnet:
     - timestamps_in_pe_binaries
 libflorist:
   version: 2014-2
-  issues:
-    - build_id_variation_requiring_further_investigation
   comments: |
     Many Ada-related packages have similar build id variations.
+  issues:
+    - build_id_variation_requiring_further_investigation
 libforms:
   version: 1.2.3-1.2
   issues:
@@ -7993,10 +7993,10 @@ libglazedlists-java:
     - random_order_in_documentation_generated_by_javadoc
 libgmpada:
   version: 0.0.20131223-4
-  issues:
-    - build_id_variation_requiring_further_investigation
   comments: |
     Many Ada-related packages have similar build id variations.
+  issues:
+    - build_id_variation_requiring_further_investigation
 libgnatcoll:
   version: 1.6gpl2014-6
   issues:
@@ -8798,10 +8798,10 @@ libtext-vimcolor-perl:
     - 720663
 libtexttools:
   version: 2.1.0-6
-  issues:
-    - build_id_variation_requiring_further_investigation
   comments: |
     Many Ada-related packages have similar build id variations.
+  issues:
+    - build_id_variation_requiring_further_investigation
 libtheora:
   version: 1.1.1+dfsg.1-6
   issues:
@@ -8972,11 +8972,11 @@ libxmlada:
     - timestamps_in_pdf_generated_by_latex
 libxmlezout:
   version: 1.06.1-7
+  comments: |
+    Many Ada-related packages have similar build id variations.
   issues:
     - build_id_variation_requiring_further_investigation
     - timestamps_in_ada_library_information_files
-  comments: |
-    Many Ada-related packages have similar build id variations.
 libxmlrpc3-java:
   version: 3.1.3-7
   issues:
@@ -9066,6 +9066,8 @@ lilo:
   version: 1:24.1-1
   issues:
     - timestamps_from_cpp_macros
+  bugs:
+    - 798366
 lilypond:
   version: 2.18.2-4
   issues:
@@ -10094,11 +10096,11 @@ monogame:
     - 765120
 monotone:
   version: 1.1-4.1
-  issues:
-    - build_id_variation_requiring_further_investigation
   comments: |
     The freshly build executable produces its own manpage in Makefile.am,
     embedding timestamps.
+  issues:
+    - build_id_variation_requiring_further_investigation
 monotone-viz:
   version: 1.0.2-3
   issues:
@@ -10477,6 +10479,10 @@ nekohtml:
   version: 1.9.21-2
   issues:
     - locale_in_documentation_generated_by_javadoc
+neo:
+  version: 0.3.3-1
+  bugs:
+    - 798058
 nepomuk-core:
   version: 4:4.14.0-1
   issues:
@@ -14369,6 +14375,10 @@ scalable-cyrfonts:
   version: 4.16+nmu1
   issues:
     - fontforge_reset_modification_time
+scantailor:
+  version: 0.9.11.1-3
+  bugs:
+    - 798049
 scantool:
   version: 1.21+dfsg-4
   issues:
@@ -15894,6 +15904,10 @@ tupi:
     Filesystem ordering caused by
       icons.commands = cp *.png $(INSTALL_ROOT)/themes/default/icons
     in src/themes/default/icons/icons.pro
+turbojson:
+  version: 1.3.2-2.1
+  bugs:
+    - 798059
 turnin-ng:
   version: 1.2-1
   issues:
