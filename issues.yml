@@ -786,3 +786,8 @@ timestamps_in_tex_documents:
     The TeX \today macro embeds the build date in the files generated
     from it (DVI, PS, PDF, etc.). This should probably be changed to
     honour SOURCE_DATE_EPOCH from the environment.
+ftbfs_due_udeb_dbgsym:
+  description: |
+    udeb -dbgsym packages are created with the wrong file extension, which
+    causes an eventual FTBFS when dpkg-deb is called.
+  url: https://bugs.debian.org/797391
