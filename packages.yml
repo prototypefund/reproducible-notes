@@ -1452,6 +1452,10 @@ bup:
     /usr/lib/bup/bup/_version.py contains a timestamp.
   bugs:
     - 792673
+busybox:
+  version: 1:1.22.0-15
+  issues:
+    - ftbfs_due_to_udeb_dbgsym
 bwctl:
   version: 1.4.1~rc2-1
   issues:
