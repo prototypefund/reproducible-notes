@@ -1347,10 +1347,6 @@ boolector:
     http://sources.debian.net/src/boolector/1.5.118.6b56be4.121013-1/lingeling/mkconfig/?hl=16:17#L16
   issues:
     - captures_kernel_version
-boost1.54:
-  version: 1.54.0-5
-  issues:
-    - timestamps_from_cpp_macros
 boost1.55:
   version: 1.55.0+dfsg-3
   issues:
@@ -15113,10 +15109,6 @@ statsmodels:
   version: 0.4.2-1.2
   issues:
     - randomness_in_documentation_generated_by_sphinx
-steadyflow:
-  version: 0.2.0-1.1
-  bugs:
-    - 787875
 stealth:
   version: 3.00.00-2
   comments: |
