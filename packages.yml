@@ -9268,7 +9268,7 @@ lowmem:
   comments: |
     Issue with ddebs and udebs? - see Subject: debhelper 9.20150811.0~reproducible2 incorrectly creating udeb -dbgsym packages in Jenkins
   issues:
-    - ftbfs_due_udeb_dbgsym
+    - ftbfs_due_to_udeb_dbgsym
 lpc21isp:
   version: 1.97-1
   issues:
@@ -10423,7 +10423,7 @@ nbc:
 nbd:
   version: 1:3.10-1
   issues:
-    - ftbfs_due_udeb_dbgsym
+    - ftbfs_due_to_udeb_dbgsym
 nbibtex:
   version: 0.9.18-11
   comments: |
@@ -16191,7 +16191,7 @@ usb-modeswitch-data:
 usbutils:
   version: 1:007-4
   issues:
-    - ftbfs_due_udeb_dbgsym
+    - ftbfs_due_to_udeb_dbgsym
 userv:
   version: 1.1.1
   issues:
