@@ -9254,6 +9254,8 @@ lowmem:
   version: 1.43
   comments: |
     Issue with ddebs and udebs? - see Subject: debhelper 9.20150811.0~reproducible2 incorrectly creating udeb -dbgsym packages in Jenkins
+  issues:
+    - ftbfs_due_udeb_dbgsym
 lpc21isp:
   version: 1.97-1
   issues:
@@ -10405,6 +10407,10 @@ nbc:
   comments: |
     Makefile writes `date` into include file:
     https://sources.debian.net/src/nbc/1.2.1.r4%2Bdfsg-1/NXT/nbcunix.mak/#L37
+nbd:
+  version: 1:3.10-1
+  issues:
+    - ftbfs_due_udeb_dbgsym
 nbibtex:
   version: 0.9.18-11
   comments: |
@@ -16153,6 +16159,10 @@ usb-modeswitch-data:
   version: 20150115-1
   issues:
     - different_due_to_umask
+usbutils:
+  version: 1:007-4
+  issues:
+    - ftbfs_due_udeb_dbgsym
 userv:
   version: 1.1.1
   issues:
