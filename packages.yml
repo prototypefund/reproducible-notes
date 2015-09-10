@@ -9821,8 +9821,8 @@ meshlab:
     - timestamps_from_cpp_macros
 metastudent-data:
   version: 2.0.0-3
-  comments: |
-    Timestamps added by formatdb from blast2
+  issues:
+    - timestamps_added_by_blast2
 metis:
   version: 5.1.0.dfsg-4
   issues:
@@ -9858,6 +9858,10 @@ micro-httpd:
   version: 20051212-15
   bugs:
     - 782218
+microbiomeutil:
+  version: 20101212+dfsg-1
+  issues:
+    - timestamps_added_by_blast2
 microdc2:
   version: 0.15.6-2
   issues:
