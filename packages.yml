@@ -7633,10 +7633,14 @@ libapache-authznetldap-perl:
   version: 0.07-5
   issues:
     - timestamps_in_documentation_generated_by_podman
+  bugs:
+    - 798558
 libapache-dbi-perl:
   version: 1.12-1
   issues:
     - timestamps_in_documentation_generated_by_podman
+  bugs:
+    - 798557
 libapache-mod-auth-radius:
   version: 1.5.8-1.2
   bugs:
