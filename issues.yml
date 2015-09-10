@@ -800,3 +800,6 @@ umask_and_timestamp_variation_in_tgz_generated_by_abi_compliance_checker:
     abi-compliance-checker generates foo.abi.tar.gz with varying embedded
     umask and timestamp
   url: https://bugs.debian.org/798481
+timestamps_added_by_blast2:
+  description: |
+    formatdb from blast2 adds a timestamp.
