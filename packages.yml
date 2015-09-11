@@ -8937,6 +8937,10 @@ libtexttools:
     Many Ada-related packages have similar build id variations.
   issues:
     - build_id_variation_requiring_further_investigation
+libtextwrap:
+  version: 0.1-14
+  issues:
+    - ftbfs_due_to_udeb_dbgsym
 libtheora:
   version: 1.1.1+dfsg.1-6
   issues:
