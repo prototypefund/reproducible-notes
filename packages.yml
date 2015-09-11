@@ -5151,8 +5151,9 @@ gle-graphics:
     - timestamps_from_cpp_macros
 glhack:
   version: 1.2-2
-  issues:
-    - timestamps_from_cpp_macros
+  comments: |
+    Hopefully fixed in version 1.2-3.
+    Not really timestamps_from_cpp_macros after all.
 glib2.0:
   version: 2.44.1-1.1
   issues:
