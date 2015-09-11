@@ -1697,7 +1697,7 @@ cddlib:
   issues:
     - timestamps_in_pdf_generated_by_latex
 cdebconf-entropy:
-  version: 0.30
+  version: !!str 0.30
   issues:
     - ftbfs_due_to_udeb_dbgsym
 cdebconf-terminal:
