@@ -1454,6 +1454,10 @@ buici-clock:
   comments: |
     Embeds the build date into README.
     https://sources.debian.net/src/buici-clock/0.4.9.2/Makefile.in/#L219
+buildbot:
+  version: 0.8.9-2
+  bugs:
+    - 794300
 bullet:
   version: 2.83.5+dfsg-1
   issues:
