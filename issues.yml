@@ -372,10 +372,6 @@ timestamps_in_ada_library_information_files:
     Ada Library Information (.ali) files contain the mtime of the Ada source (.ads) files that they index.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInAdaLibraryInformationFiles
   deterministic: False
-randomness_in_ocaml_lintian_info_files:
-  description: |
-    dh-ocaml generates lintian info files with a non-deterministic order
-  url: https://bugs.debian.org/779037
 bad_handling_of_extra_warnings:
   description: |
     FTBFS if CPPFLAGS is multiple words, which breaks our CI. The package needs to be updated
@@ -551,6 +547,15 @@ randomness_in_ocaml_custom_executables:
     ocamlc -custom generates intermediate files with random names that end
     up in the executable.
   url: https://bugs.debian.org/786913
+randomness_in_ocaml_lintian_info_files:
+  description: |
+    dh-ocaml generates lintian info files with a non-deterministic order
+  url: https://bugs.debian.org/779037
+timestamps_in_documentation_generated_by_ocamldoc:
+  description:
+    ocamldoc includes timezone-sensitive build timestamp in the headers.
+    (fixed in experimental)
+  url: https://bugs.debian.org/794586
 timestamp_in_pear_registry_files:
   description: |
     PEAR registry files are serialized PHP objects that contain a timestamp.
@@ -741,11 +746,6 @@ haskell_devscripts_locale_substvars:
     dh_haskell_depends doesn't support UTF-8 encoded debian/control files
     resulting in differing dependencies when building {in,outside} UTF-8.
   url: https://bugs.debian.org/793944
-timestamps_in_documentation_generated_by_ocamldoc:
-  description:
-    ocamldoc includes timezone-sensitive build timestamp in the headers.
-    (fixed in experimental)
-  url: https://bugs.debian.org/794586
 undeterministic_symlinking_by_rdfind:
   description:
     While removing duplicate files and replacing them with symlinks,
