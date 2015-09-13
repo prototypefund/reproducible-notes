@@ -2998,9 +2998,9 @@ dict-gcide:
     - timestamps_in_dictionaries
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
 dict-jargon:
-  version: 4.4.7-2
+  version: 4.4.7-3
   issues:
-    - timestamps_in_dictionaries
+    - different_encoding
   bugs:
     - 792709
 dict-moby-thesaurus:
@@ -3971,7 +3971,9 @@ fenix:
   bugs:
     - 795731
 ferret-vis:
-  version: 6.9.3-2.1
+  version: 6.9.3-3
+  issues:
+    - build_id_variation_requiring_further_investigation
   bugs:
     - 797579
 fest-assert:
