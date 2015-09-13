@@ -4611,10 +4611,6 @@ fstrcmp:
   issues:
     - pdf_created_by_ghostscript
     - different_due_to_umask
-fsvs:
-  version: 1.2.5-1
-  issues:
-    - timestamps_from_cpp_macros
 ftgl:
   version: 2.1.3~rc5-4+nmu1
   issues:
@@ -5117,10 +5113,6 @@ gle-graphics:
   version: 4.2.4c-6
   issues:
     - timestamps_from_cpp_macros
-glhack:
-  version: 1.2-2
-  comments: |
-    Hopefully fixed in version 1.2-3.
 glibc:
   version: 2.19-18
   issues:
@@ -6222,10 +6214,6 @@ hsqldb1.8.0:
   version: 1.8.0.10+dfsg-3
   issues:
     - user_in_java_jar_manifest
-htdig:
-  version: 1:3.2.0b6-13
-  bugs:
-    - 793648
 htmlcxx:
   version: 0.85-3
   issues:
@@ -10743,14 +10731,6 @@ nitime:
     Randomness in example images because of random() without constant seed.
   issues:
     - timestamps_in_documentation_generated_by_sphinx
-nitpic:
-  version: 0.1-15
-  issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-    - timestamps_in_gzip_headers
-  bugs:
-    - 777492
-    - 793708
 nkf:
   version: 2.13-4
   issues:
@@ -14862,10 +14842,6 @@ sks:
   version: 1.1.5-4
   issues:
     - randomness_in_ocaml_startup_files
-sks-ecc:
-  version: 0.93-3
-  issues:
-    - timestamps_from_cpp_macros
 skytools3:
   version: 3.2-2
   issues:
