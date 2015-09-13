@@ -16110,10 +16110,12 @@ tyxml:
   issues:
     - randomness_in_ocaml_packed_libraries
 u-boot:
-  version: 2014.10+dfsg1-4
+  version: 2015.07+dfsg1-1
   comments: |
-    Maintainer explained that it's only reproducible on arches that only build the
-    u-boot-tools binary (the other binaries are for !amd64).
+    On armhf, tools/mkimage is used to generate u-boot.img and
+    u-boot-sunxi-with-spl.bin targets, and embeds a date string using
+    the local timezone. Adding "export TZ=UTC" in debian/rules works
+    around the issue.
 uanytun:
   version: 0.3.5-1
   comments: |
