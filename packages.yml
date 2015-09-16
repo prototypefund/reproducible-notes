@@ -13044,6 +13044,10 @@ python-tooz:
   version: 0.13.1-2
   comments: |
     I think Jenkins is doing something funny with file descriptors so that the technique for waiting for the test mysqld instance to start doesn\'t work correctly, resulting in FTBFS. The refernce to /pg_ctl is a red herring btw.
+python-traceback2:
+  version: 1.4.0-2
+  bugs:
+    - 799163
 python-udiskie:
   version: 1.2.0-2
   issues:
