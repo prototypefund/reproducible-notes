@@ -281,6 +281,8 @@ users_and_groups_in_tarball:
 timestamps_in_emacs_autoloads:
   description: |
     Emacs "autoloads" comments contain a timestamp.
+    At least some of these would be resolved by a fix for
+    https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=799168
 timestamps_in_ruby_documentation:
   description: |
     Ruby's documentation generator outputs a file called "created.rid", which contains
