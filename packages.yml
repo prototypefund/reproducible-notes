@@ -12668,7 +12668,9 @@ python-crypto:
 python-cryptography:
   version: 1.0-2
   comments: |
-    Does not (re-?)build the _openssl module under some timezones. Not immediately obvious what to delete in, say, a clean target
+    output of python-cffi varies
+  bugs:
+    - python-cffi
 python-csb:
   version: 1.2.3+dfsg-1
   issues:
