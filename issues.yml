@@ -800,3 +800,9 @@ umask_and_timestamp_variation_in_tgz_generated_by_abi_compliance_checker:
 timestamps_added_by_blast2:
   description: |
     formatdb from blast2 adds a timestamp.
+randomness_in_r_rdb_rds_databases:
+  description: |
+    R creates .rdb files and .rds with some randomness. They are a serialisation of some
+    sorts, related to lazy loading of modules?
+    .
+    Seems related to https://bugs.debian.org/774031 ?
