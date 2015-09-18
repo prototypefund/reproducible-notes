@@ -810,3 +810,6 @@ python-ply_compiled_parse_tables:
   description: |
     python-ply generates parse tables (eg. parsetab.py) that are
     non-deterministic.
+    .
+    This is a deeper issue than simply writing them out determinstically
+    ("write_table" in yacc.py) but rather further up the chain within PLY.
