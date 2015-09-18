@@ -533,7 +533,7 @@ timestamps_in_jsdoc_toolkit_documentation:
     JsDoc Toolkit writes the documentation generation time into generated HTML.
 randomness_in_objects_inv:
   description: |
-    Some Python documentation tool writes objects.inv files in a random order.
+    Some Gython documentation tool writes objects.inv files in a random order.
 randomness_in_ocaml_startup_files:
   description: |
     ocamlopt generates startup files with random names that end up in the
@@ -806,3 +806,7 @@ randomness_in_r_rdb_rds_databases:
     sorts, related to lazy loading of modules?
     .
     Seems related to https://bugs.debian.org/774031 ?
+python-ply_compiled_parse_tables:
+  description: |
+    python-ply generates parse tables (eg. parsetab.py) that are
+    non-deterministic.
