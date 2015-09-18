@@ -13741,6 +13741,10 @@ root-system:
   version: 5.34.19+dfsg-1.1
   issues:
     - timestamps_from_cpp_macros
+routino:
+  version: 2.7.3-3
+  comments: |
+    Uses Perl::Magick to write deterministic-looking PNGs presumably with timetamps, but strip-nondeterminism should strip them
 rp-pppoe:
   version: 3.8-3
   issues:
