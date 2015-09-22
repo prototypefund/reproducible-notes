@@ -2535,13 +2535,6 @@ cultivation:
   version: 9+dfsg1-2
   issues:
     - timestamps_in_png
-cups:
-  version: 1.7.5-10
-  comments: |
-    Build hangs endlessly in the test suite, so cups has been blacklisted in sid and testing.
-    2.1~rc1-4 from experimental builds fine.
-  issues:
-    - blacklisted_on_jenkins
 cupt:
   version: 2.9.0
   comments: |
