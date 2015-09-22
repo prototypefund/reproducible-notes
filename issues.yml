@@ -815,3 +815,6 @@ python-ply_compiled_parse_tables:
     ("write_table" in yacc.py) but rather further up the chain within PLY.
     .
   url: https://github.com/dabeaz/ply/issues/79
+ftbfs_due_to_gcc5:
+  description: |
+    Not a reproducibility issue but it tidies up the FTBFS issues.
