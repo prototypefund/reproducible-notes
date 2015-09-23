@@ -960,6 +960,10 @@ aws-sdk-for-php:
     non-deterministic memory address. This is caused by a bug in rst2pdf.
   bugs:
     - 777251
+axel:
+  version: 2.4-2
+  issues:
+    - different_pot_creation_date_in_gettext_mo_files
 axis:
   version: 1.4-22
   issues:
