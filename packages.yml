@@ -14112,6 +14112,10 @@ ruby-expression-parser:
   version: 0.9.1-2
   issues:
     - timestamps_in_ruby_documentation
+ruby-extendmatrix:
+  version: 0.3.1-3
+  issues:
+    - timestamps_in_gemspec_files
 ruby-facets:
   version: 2.9.3-2
   issues:
@@ -14468,6 +14472,10 @@ ruby-sshkit:
     - 795118
 ruby-stomp:
   version: 1.3.4-2
+  issues:
+    - timestamps_in_gemspec_files
+ruby-test-declarative:
+  version: 0.0.5-3
   issues:
     - timestamps_in_gemspec_files
 ruby-test-spec:
@@ -16603,6 +16611,14 @@ vdkbuilder2:
     - ftbfs_due_to_obsolete_dependencies
   bugs:
     - 751700
+vdr-plugin-dvd:
+  version: 0.3.6~b03+cvs20090426.0013-23
+  issues:
+    - different_pot_creation_date_in_gettext_mo_files
+vdr-plugin-epgsearch:
+  version: 1.0.1~beta6+git20150211-4
+  issues:
+    - different_pot_creation_date_in_gettext_mo_files
 vdr-plugin-infosatepg:
   version: 0.0.12-5
   issues:
@@ -16611,10 +16627,26 @@ vdr-plugin-live:
   version: 0.3.0+git20141029-1
   issues:
     - build_id_variation_requiring_further_investigation
+vdr-plugin-remote:
+  version: 0.6.0-1
+  issues:
+    - different_pot_creation_date_in_gettext_mo_files
+vdr-plugin-spider:
+  version: 0.2.2-21
+  issues:
+    - different_pot_creation_date_in_gettext_mo_files
+vdr-plugin-sudoku:
+  version: 0.3.5-19
+  issues:
+    - different_pot_creation_date_in_gettext_mo_files
 vdr-plugin-xine:
   version: 0.9.4-13
   issues:
     - timestamps_in_manpages_generated_by_txt2man
+vdr-plugin-xineliboutput:
+  version: 1.1.0+cvs20150907-1
+  issues:
+    - different_pot_creation_date_in_gettext_mo_files
 vecmath:
   version: 1.5.2-5
   issues:
