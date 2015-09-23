@@ -817,7 +817,7 @@ python-ply_compiled_parse_tables:
   url: https://github.com/dabeaz/ply/issues/79
 ftbfs_with_gcc5:
   description: |
-    Not a reproducibility issue but it tidies up the FTBFS issues.
+    Not a reproducibility issue itself, but this is causing many FTBFS issues. Tracking these like this, helps to tidy up the view on other FTBFS causes.
 ftbfs_due_to_disorderfs:
   description: |
     eg. read errors, etc.
