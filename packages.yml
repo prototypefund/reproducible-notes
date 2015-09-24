@@ -4903,6 +4903,10 @@ gdb:
   issues:
     - timestamps_in_jar
     - timestamps_in_dvi_generated_by_latex
+gdb-arm-none-eabi:
+  version: 8
+  bugs:
+    - 798754
 gdb-msp430:
   version: 7.2a~mspgcc-20111205-3
   bugs:
