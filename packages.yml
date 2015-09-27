@@ -9345,10 +9345,6 @@ linux-patch-grsecurity2:
   issues:
     - timestamps_in_files_installed_by_dh_kpatches
     - timestamps_in_gzip_headers
-linux-tools:
-  version: 3.16-3
-  issues:
-    - timestamps_in_manpages_generated_by_docbook_xsl
 linux86:
   version: 0.16.17-3.1
   issues:
