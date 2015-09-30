@@ -16365,6 +16365,9 @@ u-boot:
     u-boot-sunxi-with-spl.bin targets, and embeds a date string using
     the local timezone. Adding "export TZ=UTC" in debian/rules works
     around the issue.
+    Patch included in 2015.10~rc4+dfsg1-1 uploaded to Debian, and sent
+    to upstream mailing list:
+    http://lists.denx.de/pipermail/u-boot/2015-September/228985.html
 uanytun:
   version: 0.3.5-1
   comments: |
