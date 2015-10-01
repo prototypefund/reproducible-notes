@@ -1343,10 +1343,6 @@ bnd1.50:
   version: 1.50.0-10
   issues:
     - timestamp_in_java_bnd_manifest
-bobo:
-  version: 0.2.2-3
-  issues:
-    - ftbfs_due_to_python_packaging_problems
 boilerpipe:
   version: 1.2.0-1
   issues:
@@ -15187,10 +15183,6 @@ soundscaperenderer:
   version: 0.4.2~dfsg-2
   issues:
     - fonts_in_pdf_files
-sourcecodegen:
-  version: 0.6.14-1
-  issues:
-    - ftbfs_due_to_python_packaging_problems
 sox:
   version: 14.4.1-4
   issues:
@@ -17691,10 +17683,6 @@ zathura:
   version: 0.3.1-2
   issues:
     - timestamps_in_python_docutils
-zconfig:
-  version: 2.8.0-1
-  issues:
-    - ftbfs_due_to_python_packaging_problems
 zeal:
   version: 1:0.1.1-1
   issues:
@@ -17745,10 +17733,6 @@ zlibc:
   version: 0.9k-4.2
   issues:
     - timestamps_in_documentation_generated_by_texi2html
-zodb:
-  version: 1:3.9.7-5
-  issues:
-    - ftbfs_due_to_python_packaging_problems
 zoneminder:
   version: 1.28.1-7
   comments: |
@@ -17769,24 +17753,12 @@ zope-replacesupport:
   version: 1.0.3-6
   issues:
     - zope_random_field_order_in_dzproduct
-zope.copy:
-  version: 3.5.0-6
-  issues:
-    - ftbfs_due_to_python_packaging_problems
-zope.publisher:
-  version: 3.12.6-2
-  issues:
-    - ftbfs_due_to_python_packaging_problems
 zope.sqlalchemy:
   version: 0.6.1-2
-  issues:
-    - ftbfs_due_to_python_packaging_problems
   bugs:
     - 793319
 zope.traversing:
   version: 3.13.2-2
-  issues:
-    - ftbfs_due_to_python_packaging_problems
   bugs:
     - 788697
 zorp:

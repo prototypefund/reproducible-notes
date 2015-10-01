@@ -662,11 +662,6 @@ timestamps_in_documentation_generated_by_ur:
     http://sources.debian.net/src/libur-perl/latest/lib/Command/V1.pm/#L755
     .
     http://sources.debian.net/src/libur-perl/latest/lib/Command/View/DocMethods.pm/#L185
-ftbfs_due_to_python_packaging_problems:
-  description: |
-    There seem to be some packaging problems in sid for Python and Zope, that remain uninvestigated,
-    and there doesn't seem to be a bug for them.  "ImportError: cannot import name component_re" and
-    "NameError: name '_multiarch' is not defined" are symptoms.  Please delete this issue if anything builds
 timestamps_from_tex4ht:
   description: |
     Tex4ht adds timestamps into the HTML output files.
