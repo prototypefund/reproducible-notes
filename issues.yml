@@ -413,7 +413,7 @@ ftbfs_in_jenkins_setup:
     1) an attempt to connect to somewhere, and hits a machine claiming to be squid on jenkins.d.n.
     2) jobs that try to bind to localhost port which are in use by something in the
        jenkins machines. The occupied ports are: 22, 25, 80, 443, 3128, 3129, 4949, 34167
-    3) there is some trouble with pbuilder in wheezy for a handful of packages, usually with tests involving networking.
+    3) https://bugs.debian.org/791991 in pbuilder (strict-erlier versioned build-deps makes pbuidler badly parse the whole field and not fulill the build-deps)
     4) https://bugs.debian.org/780725 is worked around like described in msg#60 of that bug, that is, apt in pbuilder is configured to use thte proxy and http_proxy is unset.
     5) something else, the machine is heavily loaded all the time...
 ftbfs_on_2nd_build:
