@@ -460,7 +460,7 @@ fonts_in_pdf_files:
     over the font glyphs.
 timestamps_in_groovy_class_files:
   description: |
-    groovyc includes timestamps in class files.
+    groovyc up to the version 2.3.9 includes timestamps in class files. Upgrading to Groovy 2.4 will fix this issue.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInClassFilesCompiledByGroovy
 random_order_in_maven_plugin_xml:
   description: |
