@@ -693,9 +693,6 @@ ftbfs_uninvestigated_unsatisfiable_dependencies:
     Packages which fail to satisfy dependencies.  Some of these (but probably not all that many)
     actually have ftbfs_due_to_virtual_dependencies.
   deterministic: True
-ftbfs_uninvestigated_on_jenkins_only:
-  description: |
-    Packages which fail to build, but seemingly only on Jenkins.
 ftbfs_uninvestigated_big_packages:
   description: |
     Some large packages that seem to fail for compound reasons that haven't been fully understood. (These are usually temporary issues too.)
