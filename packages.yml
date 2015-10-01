@@ -5736,10 +5736,6 @@ gradle:
   issues:
     - random_order_in_documentation_generated_by_javadoc
     - timestamps_generated_by_docbook_to_man
-gradle-propdeps-plugin:
-  version: 0.0.7-1
-  issues:
-    - timestamps_in_groovy_class_files
 grads:
   version: 2:2.0.2-3
   comments: |
@@ -8236,7 +8232,6 @@ libgpars-groovy-java:
   version: 0.10-1
   issues:
     - timestamps_in_documentation_generated_by_groovydoc
-    - timestamps_in_groovy_class_files
 libgpod:
   version: 0.8.3-1.1
   issues:
@@ -15354,7 +15349,6 @@ splitpatch:
 spock:
   version: 0.6-groovy-1.8-3
   issues:
-    - timestamps_in_groovy_class_files
     - timestamps_in_jar
 spooles:
   version: 2.2-11
