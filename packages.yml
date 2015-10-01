@@ -14056,6 +14056,12 @@ ruby-colored:
   version: 1.2-2
   issues:
     - timestamps_in_gemspec_files
+ruby-compass:
+  version: 1.0.3~dfsg-2
+  comments: |
+    needs pbuilder 0.216 due to #791991
+  issues:
+    - ftbfs_in_jenkins_setup
 ruby-cri:
   version: 2.7.0-1
   bugs:
