@@ -16936,10 +16936,6 @@ wyrd:
   version: 1.4.4-1
   bugs:
     - 735832
-xaos:
-  version: 3.5+ds1-2
-  issues:
-    - different_pot_creation_date_in_gettext_mo_files
 x11-xserver-utils:
   version: 7.7+4
   bugs:
@@ -16990,6 +16986,10 @@ x264:
   version: 2:0.142.2431+gita5831aa-1
   issues:
     - timestamps_from_cpp_macros
+xaos:
+  version: 3.5+ds1-2
+  issues:
+    - different_pot_creation_date_in_gettext_mo_files
 xbae:
   version: 4.60.4-6
   bugs:
