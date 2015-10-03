@@ -2315,6 +2315,11 @@ coquelicot:
   bugs:
     - 776312
     - 796416
+coreutils:
+  version: 8.23-4
+  comments: |
+    Uses embedded/old help2man. Should also export SOURCE_DATE_EPOCH.
+    https://sources.debian.net/src/coreutils/8.23-4/man/help2man/
 corosync:
   version: 1.4.6-1.1
   issues:
