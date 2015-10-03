@@ -815,3 +815,7 @@ ftbfs_due_to_disorderfs:
   description: |
     eg. read errors, etc.
   url: https://bugs.debian.org/799866
+timestamps_in_manpages_generated_by_docbook_utils:
+  description: |
+    docbook2man from docbook-utils adds the build date into generated manpages, which also contain locale variations.
+  url: https://bugs.debian.org/800797
