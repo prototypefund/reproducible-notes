@@ -4411,8 +4411,8 @@ foremancli:
 forkstat:
   version: 0.01.11-1
   comments: |
-    Compiles differently depending on the host kernel.
-    https://sources.debian.net/src/forkstat/0.01.11-1/forkstat.c/#L986
+    Invoking dpkg-buildflags incorrectly.
+    https://sources.debian.net/src/forkstat/0.01.11-1/debian/rules/#L4
 fortunes-bg:
   version: 1.1
   issues:
