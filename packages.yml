@@ -6491,7 +6491,7 @@ insighttoolkit:
 insighttoolkit4:
   version: 4.6.0-3
   comments: |
-    this go -ENOSCP way too often. unblacklist once something wiser to build big packages has been found
+    blacklisted because it needs 60gb diskspace to build, or more. see https://lists.debian.org/debian-wb-team/2015/10/msg00007.html
   issues:
     - different_due_to_umask
     - blacklisted_on_jenkins
