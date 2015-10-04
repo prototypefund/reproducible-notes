@@ -3854,6 +3854,10 @@ exonerate:
   version: 2.2.0-6
   issues:
     - timestamps_from_cpp_macros
+expand-region-el:
+  version: 0.10.0-6
+  issues:
+    - timestamps_in_emacs_autoloads
 expeyes:
   version: 3.3.2-1
   issues:
@@ -6546,6 +6550,10 @@ iputils:
   version: 20121221
   bugs:
     - 783219
+ipv6calc:
+  version: 0.99.1-1
+  issues:
+    - timestamps_from_cpp_macros
 ipython:
   version: 2.3.0-2
   issues:
@@ -15761,6 +15769,10 @@ tetrinet:
     - different_due_to_umask
   bugs:
     - 777397
+tex-common:
+  version: 6.03
+  issues:
+    - timestamps_in_manpages_generated_by_help2man
 tex4ht:
   version: 20090611-1.1
   issues:
