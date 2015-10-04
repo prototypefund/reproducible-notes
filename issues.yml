@@ -819,3 +819,8 @@ timestamps_in_manpages_generated_by_docbook_utils:
   description: |
     docbook2man from docbook-utils adds the build date into generated manpages, which also contain locale variations.
   url: https://bugs.debian.org/800797
+random_buildpath_by_octave:
+  description: |
+    When octave programs are built, they are first copied into a temporary directory (/tmp/oct-xxxxxx) and compiled there.
+    This leads to a variation of the build id.
+    https://sources.debian.net/src/octave/4.0.0-5/scripts/pkg/private/install.m/?hl=67,70,96#L67
