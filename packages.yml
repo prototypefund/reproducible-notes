@@ -5032,6 +5032,9 @@ gfxboot:
   version: 4.5.2-1.1-5
   issues:
     - different_encoding
+    - timestamps_in_cpio_archive
+    - users_and_groups_in_cpio_archive
+    - different_due_to_umask
 ghc-testsuite:
   version: 7.8.4-1
   comments: |
