@@ -844,3 +844,7 @@ timestamps_in_directories:
     Timestamps of one or more directories change from build1 to build2. This is probably a debhelper issue
     and it's different from varying_mtimes_in_data_tar_gz_or_control_tar_gz which is mainly for packages that
     do not try to build reproducibly yet.
+random_order_in_dh_systemd_unit_files_list:
+  description: |
+    dh_systemd doesn't sort the list of unit/service files when generating sections for postinst/prerm.
+  url: https://bugs.debian.org/801470

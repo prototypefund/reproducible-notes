@@ -3974,6 +3974,10 @@ fbb:
   version: 7.05f-2
   issues:
     - timestamps_from_cpp_macros
+fbcat:
+  version: 0.3-1
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 fbi:
   version: 2.10-1
   issues:
@@ -5660,6 +5664,10 @@ gprolog:
   version: 1.3.0-6.1
   issues:
     - pdf_created_by_ghostscript
+gpsbabel:
+  version: 1.5.0-3
+  issues:
+    - timestamps_in_pdf_generated_by_apache_fop
 gpsd:
   version: 3.11-3
   issues:
@@ -10321,6 +10329,10 @@ morse-simulator:
   version: 1.2.1-2
   issues:
     - random_order_in_python_environment_pickle
+morse:
+  version: 2.5-1
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 morsegen:
   version: 0.2.1-1
   bugs:
@@ -13401,6 +13413,10 @@ pywavelets:
     - timestamps_in_documentation_generated_by_sphinx
   bugs:
     - 788594
+pywebm:
+  version: 0.8.0~dev650-1
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 pyx:
   version: 0.12.1-3
   issues:
@@ -13881,6 +13897,12 @@ refcard:
   version: 5.0.9
   issues:
     - timestamps_in_pdf_generated_by_latex
+refdb:
+  version: 1.0.2-3
+  comments: |
+    Also stores timestamps in sqlite3 dbs.
+  issues:
+    - timestamps_in_pdf_generated_by_apache_fop
 refpolicy:
   version: 2:2.20140421-7
   issues:
@@ -15782,6 +15804,10 @@ swtchart:
   version: 0.8.0-1
   issues:
     - timestamps_in_jar
+sympa:
+  version: 6.1.24~dfsg-1
+  issues:
+    - random_order_in_dh_systemd_unit_files_list
 sympy:
   version: 0.7.5-4
   issues:
