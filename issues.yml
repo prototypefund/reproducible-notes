@@ -848,3 +848,6 @@ random_order_in_dh_systemd_unit_files_list:
   description: |
     dh_systemd doesn't sort the list of unit/service files when generating sections for postinst/prerm.
   url: https://bugs.debian.org/801470
+random_order_in_static_libraries:
+  description: |
+    order of members in a static library change between build1 and build2
