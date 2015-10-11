@@ -403,10 +403,6 @@ aolserver4-nssqlite3:
     - timestamps_from_cpp_macros
   bugs:
     - 788756
-apache-curator:
-  version: 2.7.1-1
-  bugs:
-    - 797319
 apache-log4j-extras1.2:
   version: 1.2.17-1
   issues:
@@ -432,14 +428,6 @@ apcupsd:
   version: 3.14.12-1.1
   issues:
     - different_encoding
-apertium-af-nl:
-  version: 0.2.0~r57554-1
-  bugs:
-    - 788352
-apertium-cy-en:
-  version: 0.1.1~r57554-2
-  bugs:
-    - 788352
 apertium-en-ca:
   version: 0.8.9-1
   issues:
@@ -1057,8 +1045,6 @@ basket:
   version: 2.10~beta+git6fed731-1
   issues:
     - timestamps_from_cpp_macros
-  bugs:
-    - 796415
 bastet:
   version: 0.43-3
   issues:
@@ -1087,10 +1073,6 @@ bbswitch:
   version: 0.8-2
   issues:
     - different_due_to_umask
-bcel:
-  version: 6.0~rc3-1
-  bugs:
-    - 797489
 bcfg2:
   version: 1.3.5-1
   issues:
@@ -1421,8 +1403,6 @@ brian:
   version: 1.4.1-2
   issues:
     - timestamps_in_documentation_generated_by_sphinx
-  bugs:
-    - 788393
 brltty:
   version: 5.2~20141018-2
   comments: |
@@ -1881,10 +1861,6 @@ chemical-structures:
   version: 2.2.dfsg.0-12
   issues:
     - timestamps_in_mdl_molfile
-chemps2:
-  version: 1.5-1
-  bugs:
-    - 795138
 cherrypy3:
   version: 3.5.0-1
   issues:
@@ -2203,10 +2179,6 @@ commons-beanutils:
   version: 1.9.2-1
   issues:
     - locale_differences_in_pom
-commons-configuration:
-  version: 1.10-2
-  bugs:
-    - 797853
 commons-csv:
   version: 0.1-SNAPSHOT+svn678580-3
   issues:
@@ -2240,10 +2212,6 @@ commons-pool:
   issues:
     - user_in_java_jar_manifest
     - locale_in_documentation_generated_by_javadoc
-commons-vfs:
-  version: 2.0-3
-  bugs:
-    - 797459
 company-mode:
   version: 0.8.12-1
   issues:
@@ -2514,10 +2482,6 @@ cuba:
   version: 3.0+20111124-2
   bugs:
     - 791516
-cucumber:
-  version: 2.0.0-2
-  bugs:
-    - 794375
 cudf:
   version: 0.7-2
   issues:
@@ -3029,8 +2993,6 @@ dict-jargon:
   version: 4.4.7-3
   issues:
     - different_encoding
-  bugs:
-    - 792709
 dict-moby-thesaurus:
   version: 1.0-6.2
   issues:
@@ -4847,10 +4809,6 @@ gcc-4.9:
   version: 4.9.3-1
   comments: |
     Contains test output in boehmm-gc.log.xz which is non-determinstic and contains timestamps
-gcc-arm-none-eabi:
-  version: 14
-  bugs:
-    - 791541
 gcc-avr:
   version: 1:4.8.1+Atmel3.4.4-2
   issues:
@@ -4997,10 +4955,6 @@ gerbv:
     http://sources.debian.net/src/gerbv/2.6.0-1/src/callbacks.c/?hl=1541#L1541
   issues:
     - different_due_to_umask
-geronimo-javamail-1.4-spec:
-  version: 1.7.1-2
-  bugs:
-    - 793582
 geronimo-jpa-2.0-spec:
   version: 1.1-2
   issues:
@@ -5557,10 +5511,6 @@ golang:
   version: 2:1.4.2-3
   issues:
     - random_build_path_by_golang_compiler
-golang-check.v1:
-  version: 0.0+git20150729.11d3bc7-1
-  bugs:
-    - 796806
 golang-doozer:
   version: 0.0~git20130909-1
   bugs:
@@ -5589,10 +5539,6 @@ golang-gocheck:
   version: 0.0~bzr20131118+85-2
   bugs:
     - 789991
-golang-uuid:
-  version: 0.0~hg20140512-1
-  bugs:
-    - 795520
 golang-xmpp-dev:
   version: 0.0~git20140304-1
   issues:
@@ -5952,10 +5898,6 @@ guessit:
   bugs:
     - 796403
     - 796404
-guessnet:
-  version: 0.56
-  bugs:
-    - 796303
 gui-apt-key:
   version: 0.4-2
   issues:
@@ -6206,10 +6148,6 @@ hol88:
   version: 2.02.19940316-28
   issues:
     - timestamps_in_dvi_generated_by_latex
-homesick:
-  version: 1.1.2-2
-  bugs:
-    - 794131
 horizon:
   version: 2014.1.3-7
   comments: |
@@ -7316,10 +7254,6 @@ kdegraphics-mobipocket:
   version: 4:4.14.2-1
   bugs:
     - 791741
-kdepimlibs:
-  version: 4:4.14.10-1
-  bugs:
-    - 777926
 kdesdk-kioslaves:
   version: 4:4.12.3-2
   bugs:
@@ -7391,8 +7325,6 @@ keyutils:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/keyutils/1.5.9-5/Makefile/#L115
-  bugs:
-    - 768905
 kftpgrabber:
   version: 0.8.99~svn1214766-1
   bugs:
@@ -7767,10 +7699,6 @@ libace-perl:
   version: 1.92-3
   issues:
     - timezones_manpages_podman
-libajaxtags-java:
-  version: 1.5.1-2
-  bugs:
-    - 797454
 libalog:
   version: 0.5.0-1
   bugs:
@@ -7856,10 +7784,6 @@ libaunit:
   version: 3.7.1-2
   issues:
     - timestamps_in_pdf_generated_by_latex
-libavg:
-  version: 1.8.1-1
-  bugs:
-    - 797440
 libaws:
   version: 3.2.0-3
   comments: |
@@ -8211,10 +8135,6 @@ libgrip:
   version: 0.3.8-1
   bugs:
     - 789940
-libgroboutils-java:
-  version: 5-2
-  bugs:
-    - 738399
 libgtk2-appindicator-perl:
   version: 0.15-1
   bugs:
@@ -8249,10 +8169,6 @@ libhdate:
   version: 1.6-2.2
   comments: |
     Embeds PATH.
-libhibernate3-java:
-  version: 3.6.10.Final-3
-  bugs:
-    - 797439
 libhtml-lint-perl:
   version: 2.20+dfsg-1
   issues:
@@ -8518,10 +8434,6 @@ libkryo-java:
   version: 2.20-3
   issues:
     - random_order_in_documentation_generated_by_javadoc
-libktorrent:
-  version: 1.3.1-3
-  bugs:
-    - 777954
 liblaf-widget-java:
   version: 4.3-2
   issues:
@@ -8690,10 +8602,6 @@ libncursesada:
     Also random order of files contained in static library.
   issues:
     - timestamps_in_ada_library_information_files
-libnet-duo-perl:
-  version: 1.00-1
-  bugs:
-    - 795734
 libnet-route-perl:
   version: 0.02-1
   bugs:
@@ -8887,10 +8795,6 @@ librepository:
   version: 1.1.6-2
   issues:
     - locale_in_documentation_generated_by_javadoc
-librostlab-blast:
-  version: 1.0.1-3
-  bugs:
-    - 795485
 libsaxon-java:
   version: 1:6.5.5-10
   issues:
@@ -8926,10 +8830,6 @@ libsecret:
   version: 0.18-1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-libsixel:
-  version: 1.4.2-1
-  bugs:
-    - 797854
 libskinlf-java:
   version: 6.7-8
   issues:
@@ -9075,10 +8975,6 @@ libuninum:
   version: 2.7-1.1
   issues:
     - timestamps_from_cpp_macros
-liburi-find-delimited-perl:
-  version: 0.03-1
-  bugs:
-    - 796313
 libusb-java:
   version: 0.8+ztex20090101-7
   issues:
@@ -9089,10 +8985,6 @@ libvigraimpex:
     - timestamps_in_documentation_generated_by_doxygen
   bugs:
     - 783230
-libvirt:
-  version: 1.2.16-2
-  bugs:
-    - 797447
 libvldocking-java:
   version: 2.1.4-4
   issues:
@@ -10325,14 +10217,14 @@ morfologik-stemming:
   version: 1.9.0+dfsg-0.1
   issues:
     - different_encoding
-morse-simulator:
-  version: 1.2.1-2
-  issues:
-    - random_order_in_python_environment_pickle
 morse:
   version: 2.5-1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
+morse-simulator:
+  version: 1.2.1-2
+  issues:
+    - random_order_in_python_environment_pickle
 morsegen:
   version: 0.2.1-1
   bugs:
@@ -11334,10 +11226,6 @@ oidua:
     - timestamps_in_gzip_headers
   bugs:
     - 777067
-okteta:
-  version: 4:4.14.2-1
-  bugs:
-    - 778036
 olap4j:
   version: 1.0.1.500-2
   issues:
@@ -11836,10 +11724,6 @@ paste:
   version: 1.7.5.1-6
   issues:
     - randomness_in_documentation_generated_by_sphinx
-pastedeploy:
-  version: 1.5.2-1
-  bugs:
-    - 796412
 pastescript:
   version: 1.7.5-3
   issues:
@@ -12125,10 +12009,6 @@ php-ps:
   version: 1.3.7-1
   bugs:
     - 791838
-php-sabre-dav-2.1:
-  version: 2.1.6-1
-  bugs:
-    - 796423
 php-solr:
   version: 1.0.2-2
   issues:
@@ -12164,10 +12044,6 @@ phpldapadmin:
   version: 1.2.2-5.2
   issues:
     - different_due_to_umask
-phpunit-dbunit:
-  version: 1.4.0-1
-  bugs:
-    - 793590
 phpwebcounter:
   version: 1.0-3
   issues:
@@ -12452,8 +12328,6 @@ postgresql-plproxy:
   version: 2.5-5
   issues:
     - timestamps_in_documentation_generated_by_asciidoc
-  bugs:
-    - 795984
 pound:
   version: 2.6-6.1
   comments: |
@@ -12512,10 +12386,6 @@ primrose:
     - timestamps_in_png
   bugs:
     - 778481
-print-manager:
-  version: 4:4.14.0-1
-  bugs:
-    - 796847
 probabel:
   version: 0.4.3-2
   issues:
@@ -12542,10 +12412,6 @@ proll:
     This package build-depends on sparc-utils which is only available on arch:sparc.
   issues:
     - ftbfs_build_depends_not_available_on_amd64
-prometheus-pushgateway:
-  version: 0.2.0+ds-1
-  bugs:
-    - 797622
 promoe:
   version: 0.1.1-3
   issues:
@@ -13010,10 +12876,6 @@ python-dogpile.core:
   version: 0.4.1+dfsg1-2
   bugs:
     - 795974
-python-dtcwt:
-  version: 0.10.1+dfsg1-2
-  bugs:
-    - 794005
 python-dugong:
   version: 3.5+dfsg-1
   issues:
@@ -13139,10 +13001,6 @@ python-numpy:
   version: 1.8.2-2
   issues:
     - timestamps_in_pdf_generated_by_matplotlib
-python-oauthlib:
-  version: 1.0.0-1
-  bugs:
-    - 796305
 python-odf:
   version: 1.3.1+dfsg-1
   issues:
@@ -13193,10 +13051,6 @@ python-psutil:
     - timestamps_in_documentation_generated_by_sphinx
   bugs:
     - 788504
-python-publicsuffix:
-  version: 1.1.0-1
-  bugs:
-    - 795978
 python-pyasn1-modules:
   version: 0.0.5-0.1
   bugs:
@@ -13705,10 +13559,6 @@ r-cran-futile.logger:
   version: 1.4.1-1
   issues:
     - randomness_in_r_rdb_rds_databases
-r-cran-gam:
-  version: 1.12-1
-  bugs:
-    - 793588
 r-cran-lambda.r:
   version: 1.1.7-2
   issues:
@@ -14196,10 +14046,6 @@ ruby-compass:
     needs pbuilder 0.216 due to #791991
   issues:
     - ftbfs_in_jenkins_setup
-ruby-cri:
-  version: 2.7.0-1
-  bugs:
-    - 796457
 ruby-dbd-mysql:
   version: 0.4.4+gem2deb-2
   issues:
@@ -14232,10 +14078,6 @@ ruby-dirty-memoize:
   version: 0.0.4-1
   issues:
     - timestamps_in_gemspec_files
-ruby-docker-api:
-  version: 1.10.10-1
-  bugs:
-    - 795728
 ruby-dotenv:
   version: 1.0.2-2
   bugs:
@@ -14322,10 +14164,6 @@ ruby-god:
   version: 0.13.6-1
   issues:
     - timestamps_in_gemspec_files
-ruby-haml-magic-translations:
-  version: 4.0.3-2
-  bugs:
-    - 794257
 ruby-haml-rails:
   version: 0.9.0-2
   bugs:
@@ -14370,10 +14208,6 @@ ruby-i18n:
   version: 0.6.11-2
   bugs:
     - 784699
-ruby-i18n-inflector-rails:
-  version: 1.0.7-2
-  bugs:
-    - 796021
 ruby-integration:
   version: 0.1.0-1
   issues:
@@ -14542,10 +14376,6 @@ ruby-rack-mobile-detect:
   version: 0.4.0-3
   issues:
     - timestamps_in_gemspec_files
-ruby-rack-protection:
-  version: 1.5.2-1
-  bugs:
-    - 797257
 ruby-rash:
   version: 0.4.0-1
   bugs:
@@ -14652,10 +14482,6 @@ ruby-test-spec:
   version: 0.10.0-3
   issues:
     - timestamps_in_gemspec_files
-ruby-thor:
-  version: 0.19.1-1
-  bugs:
-    - 795717
 ruby-thread-safe:
   version: 0.3.3-1
   bugs:
@@ -14676,10 +14502,6 @@ ruby-validatable:
   version: 1.6.7-10
   issues:
     - timestamps_in_gemspec_files
-ruby-warden:
-  version: 1.2.3-1
-  bugs:
-    - 795123
 ruby-webmock:
   version: 1.19.0-1
   bugs:
@@ -15431,8 +15253,6 @@ sphinx:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - randomness_in_documentation_indices_generated_by_sphinx
-  bugs:
-    - 795976
 sphinx-paramlinks:
   version: 0.2.2-2
   bugs:
@@ -15604,10 +15424,6 @@ stealth:
   issues:
     - timestamps_in_dvi_generated_by_latex
     - timestamps_in_pdf_generated_by_latex
-step:
-  version: 4:4.14.2-1
-  bugs:
-    - 796053
 stgit:
   version: 0.17.1-1
   comments: |
@@ -15728,10 +15544,6 @@ svgsalamander:
   version: 0~svn95-1
   issues:
     - timestamps_in_jar
-svgtune:
-  version: 0.2.0-1
-  bugs:
-    - 784933
 svnclientadapter:
   version: 1.10.3-2
   issues:
@@ -15891,10 +15703,6 @@ taopm:
   version: 1.0-3
   comments: |
     Embeds the build date. https://sources.debian.net/src/taopm/1.0-3/configure.in/#L27
-tar:
-  version: 1.27.1-2
-  bugs:
-    - 774484
 tart:
   version: 3.10-1
   issues:
@@ -16477,8 +16285,6 @@ txtorcon:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - timestamps_in_documentation_generated_by_sphinx
-  bugs:
-    - 797261
 typerep:
   version: 111.17.00-1
   issues:
@@ -16846,8 +16652,6 @@ vim-addon-manager:
   version: 0.5.3
   issues:
     - timestamps_in_documentation_generated_by_rdtool
-  bugs:
-    - 797262
 vimoutliner:
   version: 0.3.4+pristine-9.1
   issues:
@@ -16875,10 +16679,6 @@ visolate:
   version: 2.1.6~svn8+dfsg1-1
   bugs:
     - 791866
-visualvm:
-  version: 1.3.8-1
-  bugs:
-    - 797318
 vit:
   version: 1.2-2
   comments: |
@@ -17010,8 +16810,6 @@ wagon:
   version: 1.0.0-5
   issues:
     - random_order_in_plexus_comonents_xml
-  bugs:
-    - 797264
 wagon2:
   version: 2.7-1
   issues:
@@ -17180,10 +16978,6 @@ witty:
   version: 3.3.3+dfsg-4.1
   bugs:
     - 778563
-wmgtemp:
-  version: 1.1-2
-  bugs:
-    - 797540
 wmii-doc:
   version: 1-14
   issues:
