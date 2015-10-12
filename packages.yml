@@ -12060,8 +12060,10 @@ paraview:
   issues:
     - timestamps_from_cpp_macros
 pari:
-  version: 2.7.2-1
+  version: 2.7.4-2
   issues:
+    - collation_order_varies_by_locale
+    - timestamps_from_cpp_macros
     - timestamps_in_gzip_headers
 parmap:
   version: 1.0~rc4-5
