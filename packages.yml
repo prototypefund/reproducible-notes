@@ -1376,6 +1376,10 @@ bossa:
   version: 1.3~20120408-5
   issues:
     - timestamps_in_png
+boswars:
+  version: 2.7-1
+  issues:
+    - build_id_variation_requiring_further_investigation
 botan1.10:
   version: 1.10.8-2
   comments: |
@@ -1421,6 +1425,10 @@ brailleutils:
   issues:
     - user_in_java_jar_manifest
     - locale_in_documentation_generated_by_javadoc
+brainparty:
+  version: 0.61+dfsg-2
+  issues:
+    - build_id_variation_requiring_further_investigation
 breathe:
   version: 3.1.0-1
   issues:
@@ -2109,6 +2117,10 @@ cnrun:
   version: 1.1.14-1
   issues:
     - timestamps_from_cpp_macros
+coala:
+  version: 1.0.1-5
+  issues:
+    - build_id_variation_requiring_further_investigation
 cobbler:
   version: 2.6.6+dfsg1-2
   comments: |
@@ -2520,6 +2532,10 @@ csound:
   version: 1:6.03.2~dfsg-1
   issues:
     - timestamps_from_cpp_macros
+csstidy:
+  version: 1.4-3
+  issues:
+    - build_id_variation_requiring_further_investigation
 csvimp:
   version: 0.5.0-2
   issues:
@@ -2974,6 +2990,10 @@ dfo:
   version: 0.8+svn52-7
   issues:
     - timestamps_in_pe_binaries
+dh-ada-library:
+  version: 6.4
+  issues:
+    - build_id_variation_requiring_further_investigation
 dh-elpa:
   version: 0.0.4
   issues:
@@ -3236,6 +3256,10 @@ doit:
   version: 0.28.0-1
   issues:
     - python_3_dot_5_becomes_python_3
+dolfin:
+  version: 1.5.0-4
+  issues:
+    - build_id_variation_requiring_further_investigation
 dolphin-emu:
   version: 4.0.2+dfsg-2
   issues:
@@ -4023,6 +4047,10 @@ faumachine:
   version: 20120707-3
   bugs:
     - 746843
+faust:
+  version: 0.9.46-2
+  issues:
+    - build_id_variation_requiring_further_investigation
 fbb:
   version: 7.05f-2
   issues:
@@ -4043,6 +4071,10 @@ fceux:
   version: 2.2.2+dfsg0-1
   issues:
     - timestamps_from_cpp_macros
+fcl:
+  version: 0.3.0-1
+  issues:
+    - build_id_variation_requiring_further_investigation
 fdclone:
   version: 3.01b-1
   issues:
@@ -4610,6 +4642,10 @@ freebsd-libs:
   version: 10.1~svn273304-1
   issues:
     - build_id_variation_requiring_further_investigation
+freecad:
+  version: 0.15.4671+dfsg1-1
+  issues:
+    - build_id_variation_requiring_further_investigation
 freecdb:
   version: 0.75
   issues:
@@ -5139,6 +5175,10 @@ gfax:
   version: 0.7.7+ds-2
   issues:
     - timestamps_in_pe_binaries
+gff2aplot:
+  version: 2.0-7
+  issues:
+    - build_id_variation_requiring_further_investigation
 gfm:
   version: 1.07-1
   issues:
@@ -5212,6 +5252,10 @@ gio-sharp:
   version: 2.22.3-2
   issues:
     - timestamps_in_pe_binaries
+girara:
+  version: 0.2.4-3
+  issues:
+    - build_id_variation_requiring_further_investigation
 git:
   version: 1:2.1.4-2
   comments: |
@@ -5520,6 +5564,10 @@ gnome-keyring-sharp:
   version: 1.0.0-4
   issues:
     - timestamps_in_pe_binaries
+gnome-pie:
+  version: 0.6.6-1
+  issues:
+    - build_id_variation_requiring_further_investigation
 gnome-schedule:
   version: 2.1.1-4
   issues:
@@ -5900,6 +5948,10 @@ grilo:
   version: 0.2.11-2
   issues:
     - gtk_doc_api_index_full
+gringo:
+  version: 4.5.3-1
+  issues:
+    - build_id_variation_requiring_further_investigation
 grisbi:
   version: 1.0.0-2
   issues:
@@ -6187,6 +6239,10 @@ handlersocket:
   version: 1.1.0-7-g1044a28-2
   bugs:
     - 793314
+hannah:
+  version: 1.0-3
+  issues:
+    - build_id_variation_requiring_further_investigation
 harden-doc:
   version: 3.18
   issues:
@@ -6211,10 +6267,18 @@ haskell-concrete-typerep:
     needs pbuilder 0.216 due to #791991
   issues:
     - ftbfs_in_jenkins_setup
+haskell-hledger-web:
+  version: 0.24.1-1
+  issues:
+    - build_id_variation_requiring_further_investigation
 haskell-mode:
   version: 13.10-3
   issues:
     - timestamps_in_emacs_autoloads
+haskell-snap:
+  version: 0.14.0.6-1
+  issues:
+    - build_id_variation_requiring_further_investigation
 haskell-stack:
   version: 0.1.2.0-2
   issues:
@@ -6323,6 +6387,10 @@ hkl:
   version: 4.0.3-4
   issues:
     - timestamps_in_documentation_generated_by_org_mode
+hnb:
+  version: 1.9.18+ds1-1
+  issues:
+    - build_id_variation_requiring_further_investigation
 hocr:
   version: 0.10.17-2
   comments: |
@@ -6470,6 +6538,10 @@ i3status:
   version: 2.8-1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
+ibus-rime:
+  version: 1.2-1
+  issues:
+    - build_id_variation_requiring_further_investigation
 ibus-sharada-braille:
   version: 0.1.2.99+git0.c90ffb02-2
   comments: |
@@ -7226,6 +7298,10 @@ joe:
   bugs:
     - 777726
     - 793696
+john:
+  version: 1.8.0-2
+  issues:
+    - build_id_variation_requiring_further_investigation
 joptsimple:
   version: 4.5-1
   bugs:
@@ -8372,6 +8448,10 @@ libgrip:
   version: 0.3.8-1
   bugs:
     - 789940
+libgroove:
+  version: 4.2.1-1
+  issues:
+    - build_id_variation_requiring_further_investigation
 libgtk2-appindicator-perl:
   version: 0.15-1
   bugs:
@@ -9019,6 +9099,10 @@ libraw1394:
   version: 2.1.0-3
   issues:
     - timestamps_in_dvi_generated_by_latex
+librcsb-core-wrapper:
+  version: 1.005-4
+  issues:
+    - build_id_variation_requiring_further_investigation
 librdkafka:
   version: 0.8.6-1
   bugs:
@@ -9056,6 +9140,10 @@ librepository:
   version: 1.1.6-2
   issues:
     - locale_in_documentation_generated_by_javadoc
+librime:
+  version: 1.2+dfsg-2
+  issues:
+    - build_id_variation_requiring_further_investigation
 libsaxon-java:
   version: 1:6.5.5-10
   issues:
@@ -9436,6 +9524,10 @@ limereg:
   version: 1.4.0-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+lincity-ng:
+  version: 2.9~git20150314-1
+  issues:
+    - build_id_variation_requiring_further_investigation
 linkchecker:
   version: 9.3-1
   issues:
@@ -9726,6 +9818,10 @@ lucene4.10:
   issues:
     - user_in_java_jar_manifest
     - timestamp_in_java_bnd_manifest
+luminance-hdr:
+  version: 2.4.0-6
+  issues:
+    - build_id_variation_requiring_further_investigation
 lush:
   version: 1.2.1-9+cvs20110227+nmu1
   issues:
@@ -11321,6 +11417,10 @@ oauth-signpost:
   version: 1.2.1.2-1.2
   issues:
     - locale_differences_in_pom
+obdgpslogger:
+  version: 0.16-1.2
+  issues:
+    - build_id_variation_requiring_further_investigation
 obexftp:
   version: 0.23-4
   issues:
@@ -11355,6 +11455,10 @@ ocaml-csv:
   version: 1.3.3-1
   issues:
     - randomness_in_ocaml_startup_files
+ocaml-ctypes:
+  version: 0.2.3-1
+  issues:
+    - build_id_variation_requiring_further_investigation
 ocaml-deriving-ocsigen:
   version: 0.6.2-1
   issues:
@@ -11705,6 +11809,10 @@ openjpeg2:
   version: 2.1.0-2
   issues:
     - timestamps_in_manpages_generated_by_help2man
+openlayer:
+  version: 2.1-1.1
+  issues:
+    - build_id_variation_requiring_further_investigation
 openlayers:
   version: 2.11+ds1-1
   issues:
@@ -11859,6 +11967,10 @@ orpie:
     Other issue to sort out later
   issues:
     - randomness_in_ocaml_startup_files
+orthanc:
+  version: 0.9.4+dfsg-1
+  issues:
+    - build_id_variation_requiring_further_investigation
 osgi-annotation:
   version: 6.0.0-1
   issues:
@@ -12093,6 +12205,10 @@ pastescript:
     - timestamps_in_documentation_generated_by_sphinx
   bugs:
     - 788249
+pathogen:
+  version: 1.1.1-3
+  issues:
+    - build_id_variation_requiring_further_investigation
 pathological:
   version: 1.1.3-12
   issues:
@@ -12319,6 +12435,10 @@ pescetti:
   version: 0.5-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+petri-foo:
+  version: 0.1.87-3
+  issues:
+    - build_id_variation_requiring_further_investigation
 petsc:
   version: 3.4.2.dfsg1-8.2
   issues:
@@ -13304,6 +13424,10 @@ python-expyriment:
   version: 0.7.0+git34-g55a4e7e-3
   issues:
     - timestamps_in_pdf_generated_by_latex
+python-fabio:
+  version: 0.2.2+dfsg-3
+  issues:
+    - build_id_variation_requiring_further_investigation
 python-fedora:
   version: 0.3.36-2
   bugs:
@@ -14046,6 +14170,10 @@ radare2:
   comments: |
     Embeds build date into source.
     https://sources.debian.net/src/radare2/0.9.6-3.1/binr/blob/version.c/#L7
+radeontop:
+  version: 0.9-1
+  issues:
+    - build_id_variation_requiring_further_investigation
 radiance:
   version: 4R1+20120125-1.1
   comments: |
@@ -14578,10 +14706,18 @@ ruby-fast-xs:
   version: 0.8.0-3
   issues:
     - timestamps_in_gemspec_files
+ruby-ferret:
+  version: 0.11.8.6-1
+  issues:
+    - build_id_variation_requiring_further_investigation
 ruby-ffi-rzmq:
   version: 2.0.1-1
   bugs:
     - 798934
+ruby-filesystem:
+  version: 0.5-5.1
+  issues:
+    - build_id_variation_requiring_further_investigation
 ruby-flexmock:
   version: 0.9.0-1
   bugs:
@@ -14822,6 +14958,10 @@ ruby-rack-mobile-detect:
   version: 0.4.0-3
   issues:
     - timestamps_in_gemspec_files
+ruby-raindrops:
+  version: 0.14.0-1
+  issues:
+    - build_id_variation_requiring_further_investigation
 ruby-rash:
   version: 0.4.0-1
   bugs:
@@ -14972,6 +15112,10 @@ ruby-xpath:
   version: 2.0.0-1
   bugs:
     - 795714
+ruby-yajl:
+  version: 1.2.0-3
+  issues:
+    - build_id_variation_requiring_further_investigation
 ruby-zoom:
   version: 0.4.1-6
   issues:
@@ -15283,6 +15427,10 @@ sexplib310:
   version: 111.25.00-1
   issues:
     - randomness_in_ocaml_packed_libraries
+sfcgal:
+  version: 1.1.0-5
+  issues:
+    - build_id_variation_requiring_further_investigation
 sfepy:
   version: 2015.1-1
   issues:
@@ -15657,6 +15805,10 @@ sozi:
   version: 12.05-1
   bugs:
     - 776255
+spacenavd:
+  version: 0.6-1
+  issues:
+    - build_id_variation_requiring_further_investigation
 spamassassin-heatu:
   version: 3.02+20101108-2
   bugs:
@@ -16858,6 +17010,10 @@ udpcast:
   comments: |
     Current date in docs. Package has a mechanism in for putting a determinstic
     date in there via version.h but that file doesn't appear.
+udpkg:
+  version: 1.17
+  issues:
+    - build_id_variation_requiring_further_investigation
 uhub:
   version: 0.4.1-3
   issues:
@@ -17399,6 +17555,10 @@ why:
   comments: |
     Embed build time:
     https://sources.debian.net/src/why/2.34-2/version.sh/
+widelands:
+  version: 18-3
+  issues:
+    - build_id_variation_requiring_further_investigation
 widemargin:
   version: 1.1.13-2
   issues:
@@ -17807,6 +17967,10 @@ xfsdump:
   version: 3.1.4
   bugs:
     - 799201
+xgks:
+  version: 2.6.1+dfsg.2-3
+  issues:
+    - build_id_variation_requiring_further_investigation
 xhtmlrenderer:
   version: 0.0~R8+dfsg-1
   issues:
@@ -17966,6 +18130,10 @@ xotcl:
   version: 1.6.8-1
   bugs:
     - 797543
+xplc:
+  version: 0.3.13-5
+  issues:
+    - build_id_variation_requiring_further_investigation
 xpra:
   version: 0.14.9+dfsg-1
   comments: |
