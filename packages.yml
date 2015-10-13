@@ -75,6 +75,10 @@ aboot:
   version: 1.0~pre20040408-4
   issues:
     - timestamps_in_manpages_generated_by_docbook_utils
+ace:
+  version: 6.3.2+dfsg-1
+  issues:
+    - build_id_variation_requiring_further_investigation
 ace-of-penguins:
   version: 1.3-13
   issues:
@@ -224,6 +228,10 @@ aircrack-ng:
   version: 1:1.2-0~beta3-4
   issues:
     - build_id_variation_requiring_further_investigation
+airstrike:
+  version: 0.99+1.0pre6a-6
+  issues:
+    - build_id_variation_requiring_further_investigation
 akuma:
   version: 1.9-1
   comments: |
@@ -233,6 +241,10 @@ alacarte:
   version: 3.11.91-2
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
+alglib:
+  version: 3.10.0-1
+  issues:
+    - build_id_variation_requiring_further_investigation
 alienblaster:
   version: 1.1.0-8
   issues:
@@ -706,6 +718,10 @@ asn1c:
     The only issue is in `asn1c-usage.pdf`.
   issues:
     - fonts_in_pdf_files
+aspcud:
+  version: 1.9.1-2
+  issues:
+    - build_id_variation_requiring_further_investigation
 aspectc++:
   version: 1.2+svn20150823-1
   issues:
@@ -818,6 +834,10 @@ attic:
   version: 0.13-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
+aubio:
+  version: 0.4.1-2
+  issues:
+    - build_id_variation_requiring_further_investigation
 auctex:
   version: 11.87-3+deb8u1
   comments: |
@@ -994,6 +1014,10 @@ bacula-doc:
   version: 5.2.6-3
   issues:
     - fonts_in_pdf_files
+balder2d:
+  version: 1.0-1.2
+  issues:
+    - build_id_variation_requiring_further_investigation
 ball:
   version: 1.4.2+20140406-1.1
   bugs:
@@ -5335,6 +5359,10 @@ gle-graphics:
   version: 4.2.4c-6
   issues:
     - timestamps_from_cpp_macros
+glib2.0:
+  version: 2.46.0-2
+  issues:
+    - build_id_variation_requiring_further_investigation
 glibc:
   version: 2.19-18
   issues:
@@ -12337,6 +12365,10 @@ pd-zexy:
   version: 2.2.5-2
   issues:
     - timestamps_from_cpp_macros
+pdf-presenter-console:
+  version: 4.0.0-1
+  issues:
+    - build_id_variation_requiring_further_investigation
 pdf.js:
   version: 1.1.215+dfsg-1
   issues:
@@ -13256,6 +13288,10 @@ pyqt5:
     /usr/share/doc/pyqt5-examples/examples/animation/animatedtiles/animatedtiles_rc.py
   issues:
     - randomness_in_objects_inv
+pyqwt3d:
+  version: 0.1.7~cvs20090625-13
+  issues:
+    - build_id_variation_requiring_further_investigation
 pyroma:
   version: 1.8.2-1
   bugs:
@@ -13442,6 +13478,10 @@ python-dugong:
   version: 3.5+dfsg-1
   issues:
     - randomness_in_objects_inv
+python-enable:
+  version: 4.5.1-2
+  issues:
+    - build_id_variation_requiring_further_investigation
 python-ethtool:
   version: 0.11-2
   issues:
@@ -14584,6 +14624,10 @@ ruby-bcat:
   version: 0.6.2-3
   issues:
     - timestamps_in_gemspec_files
+ruby-bcrypt:
+  version: 3.1.10-1
+  issues:
+    - build_id_variation_requiring_further_investigation
 ruby-bdb:
   version: 0.6.6-1
   issues:
@@ -14644,6 +14688,10 @@ ruby-compass:
     needs pbuilder 0.216 due to #791991
   issues:
     - ftbfs_in_jenkins_setup
+ruby-curb:
+  version: 0.8.8-1
+  issues:
+    - build_id_variation_requiring_further_investigation
 ruby-dbd-mysql:
   version: 0.4.4+gem2deb-2
   issues:
@@ -14845,6 +14893,10 @@ ruby-kramdown:
   version: 1.4.2-1
   issues:
     - timestamps_in_ruby_documentation
+ruby-libxml:
+  version: 2.8.0-1
+  issues:
+    - build_id_variation_requiring_further_investigation
 ruby-literati:
   version: 0.0.4~git.20130318.3b3ea30-2
   bugs:
@@ -14915,6 +14967,10 @@ ruby-net-irc:
   version: 0.0.9-3
   issues:
     - timestamps_in_gemspec_files
+ruby-nfc:
+  version: 3.1.1-1
+  issues:
+    - build_id_variation_requiring_further_investigation
 ruby-nokogiri:
   version: 1.6.6.2+ds-2
   bugs:
@@ -16349,6 +16405,10 @@ tagua:
   version: 1.0~alpha2-12
   issues:
     - different_pot_creation_date_in_gettext_mo_files
+tandem-mass:
+  version: 2013.09.01-2
+  issues:
+    - build_id_variation_requiring_further_investigation
 tangerine:
   version: 0.3.4-6
   issues:
@@ -17252,6 +17312,10 @@ vdr-plugin-epgsearch:
   version: 1.0.1~beta6+git20150211-4
   issues:
     - different_pot_creation_date_in_gettext_mo_files
+vdr-plugin-fritzbox:
+  version: 1.5.3-4
+  issues:
+    - build_id_variation_requiring_further_investigation
 vdr-plugin-infosatepg:
   version: 0.0.12-5
   issues:
