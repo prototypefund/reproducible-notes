@@ -1335,6 +1335,10 @@ bnd1.50:
   version: 1.50.0-10
   issues:
     - timestamp_in_java_bnd_manifest
+boa-constructor:
+  version: 0.6.1-15
+  issues:
+    - timestamps_in_directories
 boilerpipe:
   version: 1.2.0-1
   issues:
@@ -2503,6 +2507,10 @@ cross-gcc-4.9-ppc64el:
   version: 49
   issues:
     - ftbfs_due_to_virtual_multiarch_dependencies
+crossfire-maps-small:
+  version: 1.5.0-3
+  issues:
+    - timestamps_in_directories
 crrcsim:
   version: 0.9.12-6.1
   issues:
@@ -10033,6 +10041,10 @@ mapsembler2:
   comments: |
     Stores date and uname:
     https://sources.debian.net/src/mapsembler2/2.2.3%2Bdfsg-2/mapsembler2_extremities/thirdparty/gatb-core/src/gatb/system/api/config.hpp.in/?hl=23,27
+mapserver:
+  version: 7.0.0-4
+  issues:
+    - timestamps_in_directories
 marble:
   version: 4:4.14.2-1
   bugs:
@@ -11357,6 +11369,10 @@ ntp:
   comments: |
     Records build time:
     https://sources.debian.net/src/ntp/1:4.2.6.p5%2Bdfsg-7/scripts/mkver.in/?hl=20#L20
+nufw:
+  version: 2.4.3-3.3
+  issues:
+    - timestamps_in_directories
 nuget:
   version: 2.8.1+md54+dhx3-1
   issues:
@@ -11524,6 +11540,10 @@ ocsigenserver:
   issues:
     - different_due_to_umask
     - randomness_in_ocaml_startup_files
+ocsinventory-server:
+  version: 2.1.2-1
+  issues:
+    - timestamps_in_directories
 octave:
   version: 4.0.0-3
   issues:
@@ -12527,6 +12547,10 @@ php-xml-serializer:
   version: 0.20.2-3
   bugs:
     - 759972
+php-zend-db:
+  version: 2.3.7-1
+  issues:
+    - timestamps_in_directories
 php5:
   version: 5.6.9+dfsg-1
   comments: |
@@ -12542,6 +12566,10 @@ phpbb3:
   version: 3.0.12-5
   issues:
     - different_due_to_umask
+phpdox:
+  version: 0.8.1.1-1
+  issues:
+    - timestamps_in_directories
 phpldapadmin:
   version: 1.2.2-5.2
   issues:
@@ -16230,6 +16258,10 @@ swift-im:
   version: 2.0+dev6-1
   bugs:
     - 797279
+swig:
+  version: 3.0.2-1
+  issues:
+    - timestamps_in_directories
 switchconf:
   version: 0.0.9-2
   issues:
@@ -17519,6 +17551,10 @@ webkitkde:
   version: 1.3.4-2
   bugs:
     - 799522
+weboob:
+  version: 1.0-3
+  issues:
+    - timestamps_in_directories
 weechat:
   version: 1.1.1-1
   issues:
@@ -18308,6 +18344,10 @@ ytree:
     - timestamps_in_gzip_headers
   bugs:
     - 777273
+yui3:
+  version: 3.5.1-1
+  issues:
+    - timestamps_in_directories
 z88dk:
   version: 1.8.ds1-10
   issues:
