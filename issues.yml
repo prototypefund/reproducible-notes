@@ -851,3 +851,12 @@ random_order_in_dh_systemd_unit_files_list:
 random_order_in_static_libraries:
   description: |
     order of members in a static library change between build1 and build2
+random_order_in_md5sums:
+  description: |
+    order of files in md5sums (in control.tar.gz) differ from build1 to build2. This only happens in
+    packages not using dh_md5sums and it's easily fixed by sorting the output of "find" before
+    piping it to md5sum. Example:
+    .
+    cd debian/tmp && \
+        find * -type f ! -regex "^DEBIAN/.*" -print0 |\
+        LC_ALL=C sort -z | xargs -0r md5sum > DEBIAN/md5sums
