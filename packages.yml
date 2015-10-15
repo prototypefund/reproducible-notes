@@ -11008,8 +11008,8 @@ ncompress:
     https://sources.debian.net/src/ncompress/4.2.4.4-9/Makefile.def/?hl=41#L41
 ncurses:
   version: 6.0+20150810-1
-  issues:
-    - build_id_variation_requiring_further_investigation
+  bugs:
+    - 801864
 ndesk-dbus:
   version: 0.6.0-6
   issues:
