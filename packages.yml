@@ -6182,8 +6182,8 @@ guile-2.0:
     https://sources.debian.net/src/guile-2.0/2.0.11%2B1-9/libguile/Makefile.am/?hl=720#L720
 guile-gnome-platform:
   version: 2.16.2-1.1
-  issues:
-    - ftbfs_due_to_virtual_dependencies
+  comments: |
+    builds fine, ftbfs due to test failure
 guilt:
   version: 0.35-1.2
   issues:
