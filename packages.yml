@@ -533,17 +533,6 @@ apophenia:
     Ship a log of pdflatex in
     ./usr/share/doc/apophenia-doc/html/_formulas.log.gz
     Probably should be remoed.
-apparmor:
-  version: 2.10-1
-  comments: |
-    `/ID` value actually seems to be timezone dependent.
-    Also, apparmor.vim is generated in a locale dependent way, at least
-    in 2.10-1: the sort in CAPABILITIES= in common/Make.rules should
-    be run in a locale-indenpendent environment.
-  issues:
-    - timestamps_in_pdf_generated_by_latex
-  bugs:
-    - 797415
 apper:
   version: 0.9.2-2
   bugs:
