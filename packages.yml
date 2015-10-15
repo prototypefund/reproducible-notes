@@ -169,10 +169,6 @@ adduser:
     - different_due_to_umask
   bugs:
     - 777281
-adun.app:
-  version: 0.81-6
-  bugs:
-    - 777766
 advi:
   version: 1.10.2-2
   comments: |
@@ -973,10 +969,10 @@ axel:
     - different_pot_creation_date_in_gettext_mo_files
 axiom:
   version: 20140801-10
-  issues:
-    - timestamps_in_dvi_generated_by_latex
   comments: |
     Warning: The debbindiff.txt for this package has a size of 1039300134 bytes
+  issues:
+    - timestamps_in_dvi_generated_by_latex
 axis:
   version: 1.4-22
   issues:
@@ -2431,10 +2427,6 @@ cpio:
     - timestamps_in_gzip_headers
   bugs:
     - 774426
-cpl-plugin-naco:
-  version: 4.4.0+dfsg-1
-  bugs:
-    - 797851
 cpl-plugin-sinfo:
   version: 2.6.0+dfsg-3
   issues:
@@ -2843,10 +2835,6 @@ dbview:
   bugs:
     - 777058
     - 792951
-dc-qt:
-  version: 0.2.0.alpha-4.2
-  bugs:
-    - 741840
 dc3dd:
   version: 7.2.641-3
   issues:
@@ -4179,8 +4167,6 @@ ferret-vis:
   version: 6.9.3-3
   issues:
     - build_id_variation_requiring_further_investigation
-  bugs:
-    - 797579
 fest-assert:
   version: 2.0~M10-1
   issues:
@@ -5141,10 +5127,6 @@ geda-gaf:
   version: 1:1.8.2-4
   issues:
     - timestamps_from_cpp_macros
-geeqie:
-  version: 1:1.2-3
-  bugs:
-    - 794374
 gegl:
   version: 0.2.0-7.1
   comments: |
@@ -6185,7 +6167,6 @@ gudev-sharp-1.0:
 guessit:
   version: 0.10.3-1
   bugs:
-    - 796403
     - 796404
 gui-apt-key:
   version: 0.4-2
@@ -7761,10 +7742,6 @@ kitchen:
   version: 1.1.1-1
   bugs:
     - 749208
-kiten:
-  version: 4:4.14.0-1
-  bugs:
-    - 777927
 klibc:
   version: 2.0.4-2
   issues:
@@ -8176,10 +8153,6 @@ libbluray:
   version: 0.6.2-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-libbuffy-bindings:
-  version: 0.16
-  bugs:
-    - 796403
 libburn:
   version: 1.3.2-1.1
   issues:
@@ -8435,10 +8408,6 @@ libformula:
   version: 1.1.7.dfsg-2
   issues:
     - locale_in_documentation_generated_by_javadoc
-libfreecontact-perl:
-  version: 0.08-2
-  bugs:
-    - 795586
 libfreemarker-java:
   version: 2.3.20-4
   issues:
@@ -8895,10 +8864,6 @@ liblscp:
   version: 0.5.6-7
   issues:
     - timestamps_from_cpp_macros
-liblucy-perl:
-  version: 0.3.3-5
-  bugs:
-    - 796251
 libmail-gnupg-perl:
   version: 0.21-1
   bugs:
@@ -9924,10 +9889,6 @@ lxc:
   version: 1.0.6-6
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-lynx-cur:
-  version: 2.8.9dev6-3
-  bugs:
-    - 792770
 lyx:
   version: 2.1.2-2
   comments: |
@@ -10215,10 +10176,6 @@ maven-dependency-plugin:
   version: 2.7-1
   bugs:
     - 799003
-maven-dependency-tree:
-  version: 2.0-1
-  bugs:
-    - 795142
 maven-hpi-plugin:
   version: 1.93-2
   issues:
@@ -13718,10 +13675,6 @@ python-psutil:
     - timestamps_in_documentation_generated_by_sphinx
   bugs:
     - 788504
-python-pyasn1-modules:
-  version: 0.0.5-0.1
-  bugs:
-    - 796473
 python-pyaudio:
   version: 0.2.8-1
   issues:
@@ -14677,10 +14630,6 @@ ruby-aruba:
   version: 0.5.4-2
   bugs:
     - 794157
-ruby-awesome-print:
-  version: 1.2.0-1
-  bugs:
-    - 794159
 ruby-bcat:
   version: 0.6.2-3
   issues:
@@ -14721,10 +14670,6 @@ ruby-byebug:
   version: 5.0.0-1
   issues:
     - build_id_variation_requiring_further_investigation
-ruby-capybara:
-  version: 2.2.1-1
-  bugs:
-    - 795029
 ruby-carrierwave:
   version: 0.10.0+gh-1
   issues:
@@ -14785,10 +14730,6 @@ ruby-dirty-memoize:
   version: 0.0.4-1
   issues:
     - timestamps_in_gemspec_files
-ruby-dotenv:
-  version: 1.0.2-2
-  bugs:
-    - 794168
 ruby-eim-xml:
   version: 0.0.4-3
   issues:
@@ -15253,10 +15194,6 @@ ruby-xml-simple:
   version: 1.1.1-1
   issues:
     - timestamps_in_gemspec_files
-ruby-xpath:
-  version: 2.0.0-1
-  bugs:
-    - 795714
 ruby-yajl:
   version: 1.2.0-3
   issues:
@@ -16363,10 +16300,6 @@ swfmill:
   version: 0.3.2-1.1
   issues:
     - timestamps_in_manpages_generated_by_help2man
-swh-plugins:
-  version: 0.4.15+1-7
-  bugs:
-    - 792424
 swi-prolog:
   version: 6.6.6-5
   issues:
@@ -17904,10 +17837,6 @@ wyrd:
   version: 1.4.4-1
   bugs:
     - 735832
-x11-xserver-utils:
-  version: 7.7+4
-  bugs:
-    - 778176
 x11proto-bigreqs:
   version: 1:1.1.2-1
   issues:
