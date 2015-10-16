@@ -5218,8 +5218,6 @@ ghdl:
   version: 0.29+gcc4.3.4+dfsg-1.1
   comments: |
     Build-depends on gnat-4.4 which no longer exists
-  issues:
-    - ftbfs_due_to_obsolete_dependencies
   bugs:
     - 695303
 giada:
@@ -5856,14 +5854,6 @@ gpsd:
   version: 3.11-3
   issues:
     - bad_handling_of_extra_warnings
-gpsdrive:
-  version: 2.10~pre4-6.dfsg-5.2
-  comments: |
-    Build-depends on automake1.9 which no longer exists
-  issues:
-    - ftbfs_due_to_obsolete_dependencies
-  bugs:
-    - 724382
 gpsmanshp:
   version: 1.2.3-4
   issues:
@@ -6211,8 +6201,6 @@ gwhere:
   version: 0.2.3.dfsg.1-4
   comments: |
     Build-depends on automake1.9 which no longer exists
-  issues:
-    - ftbfs_due_to_obsolete_dependencies
   bugs:
     - 724387
 gworkspace:
@@ -6915,8 +6903,6 @@ iulib:
   version: 0.3-3.1
   comments: |
     Build-depends on libtiff4-dev which no longer exists
-  issues:
-    - ftbfs_due_to_obsolete_dependencies
   bugs:
     - 736015
 ivtools:
@@ -12098,8 +12084,6 @@ pacemaker-mgmt:
   version: 2.0.0+hg1141-2.3
   comments: |
     Build-depends on libgnutls-dev which no longer exists
-  issues:
-    - ftbfs_due_to_obsolete_dependencies
   bugs:
     - 790381
 pachi:
@@ -13100,8 +13084,6 @@ pyabiword:
   version: 0.8.0-11
   comments: |
     Build-depends on libabiword-2.9-dev which no longer exists
-  issues:
-    - ftbfs_due_to_obsolete_dependencies
   bugs:
     - 727084
 pyavm:
@@ -17271,8 +17253,6 @@ vdkbuilder2:
   version: 2.4.0-4.4
   comments: |
     Build-depends on libvdkxdb2-dev which no longer exists
-  issues:
-    - ftbfs_due_to_obsolete_dependencies
   bugs:
     - 751700
 vdr-plugin-dvd:

@@ -642,22 +642,6 @@ timestamps_generated_by_eigenbase_resgen:
   description: |
     XOMGenTask adds timestamps to generated files, see src/org/eigenbase/xom/MetaGenerator.java line 1202.
     ResourceGenTask adds timestamps too but can be avoided using commentstyle with scm-safe value.
-ftbfs_due_to_obsolete_dependencies:
-  description: |
-    FTBFS because of build dependencies that used to exist at some point but no longer exist in testing/unstable/experimental.
-    Known examples (of dependencies which used to exist):
-    - apache2-threaded-dev
-    - automake1.9
-    - gnat-4.4
-    - libabiword-2.9-dev
-    - libbuzztard-dev
-    - libemail-send-perl
-    - libgd-gd2-perl
-    - libgnutls-dev
-    - libtiff4-dev
-    - libvdkxdb2-dev
-    - libxmlrpc-c++4-dev
-    Someone should file serious bugs about these issues, if those bugs haven't been filed already. Once they are filed, the bugs should be annotated to packages.yml.
 timestamps_in_documentation_generated_by_ur:
   description: |
     UR::Namespace::Command::Update::Doc in the libur-perl package generates documentation with embedded timestamps.
