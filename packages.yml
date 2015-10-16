@@ -2132,12 +2132,6 @@ cmtk:
     Also timestamps embedded into several manpages.
   issues:
     - timestamps_from_cpp_macros
-cmucl:
-  version: 20f-1
-  comments: |
-    It build-depends on itself for the arch:i386 package
-  issues:
-    - ftbfs_build_depends_not_available_on_amd64
 cnrun:
   version: 1.1.14-1
   issues:
@@ -5651,10 +5645,6 @@ gnuit:
   version: 4.9.5-3
   issues:
     - timestamps_from_cpp_macros
-gnumach:
-  version: 2:1.4+git20150409-2
-  issues:
-    - ftbfs_build_depends_not_available_on_amd64
 gnupg-doc:
   version: 2003.04.06+dak1-1
   comments: |
@@ -6491,10 +6481,6 @@ httraqt:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/httraqt/1.4.4-1/CMakeLists.txt/#L60-L64
-hurd:
-  version: 1:0.6.git20150523-1
-  issues:
-    - ftbfs_build_depends_not_available_on_amd64
 hwloc:
   version: 1.10.0-3
   issues:
@@ -10630,12 +10616,6 @@ mozart:
   version: 1.4.0-8.1
   comments: |
     should not be build on amd64, this is a bug in the jenkins setup in bin/reproducible_build.sh
-mozart-stdlib:
-  version: 20060615-6
-  comments: |
-    build-depends on mozart, which is not available on amd64
-  issues:
-    - ftbfs_build_depends_not_available_on_amd64
 mozjs24:
   version: 24.2.0-2
   issues:
@@ -12624,18 +12604,10 @@ pisa:
   version: 3.0.32-2
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-pixbros:
-  version: 0.6.3-1
-  issues:
-    - ftbfs_build_depends_not_available_on_amd64
 pixelmed:
   version: 20140816-1
   issues:
     - locale_in_documentation_generated_by_javadoc
-pixfrogger:
-  version: 1.0-3
-  issues:
-    - ftbfs_build_depends_not_available_on_amd64
 pixmap:
   version: 2.6pl4-18
   issues:
@@ -12949,12 +12921,6 @@ projectl:
   version: 1.001.dfsg1-7
   bugs:
     - 795945
-proll:
-  version: 18-6
-  comments: |
-    This package build-depends on sparc-utils which is only available on arch:sparc.
-  issues:
-    - ftbfs_build_depends_not_available_on_amd64
 promoe:
   version: 0.1.1-3
   issues:
@@ -15389,12 +15355,6 @@ scsh-0.6:
   version: 0.6.7-8
   comments: |
     Shouldn't be trying to build on amd64
-scsh-install-lib:
-  version: 1.3.0-1
-  issues:
-    - ftbfs_build_depends_not_available_on_amd64
-  bugs:
-    - 534059
 scummvm:
   version: 1.7.0+dfsg-1
   issues:
