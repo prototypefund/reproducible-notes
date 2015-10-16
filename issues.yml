@@ -409,9 +409,6 @@ ftbfs_due_to_virtual_dependencies:
   description: |
     Package has virtual build dependencies or conflicts without listing a real package as alternative first. This causes pbuilder to fail the build and it also makes it virtually impossible to reproducible build the package.
   url: https://lintian.debian.org/tags/virtual-package-depends-without-real-package-depends.html
-ftbfs_due_to_virtual_multiarch_dependencies:
-  description: |
-    Package has virtual build dependencies on packages from a architecture different than the host. This causes pbuilder to fail the build currently as it doesn't know about multiarch.
 different_pot_creation_date_in_gettext_mo_files:
   description: |
     Gettext .mo files in /usr/share/locale/*/LC_MESSAGES differ in their POT-Creation-Date.

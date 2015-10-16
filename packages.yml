@@ -2499,34 +2499,6 @@ cross-binutils:
   issues:
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
-cross-gcc-4.9-arm64:
-  version: 49
-  issues:
-    - ftbfs_due_to_virtual_multiarch_dependencies
-cross-gcc-4.9-armel:
-  version: 49
-  issues:
-    - ftbfs_due_to_virtual_multiarch_dependencies
-cross-gcc-4.9-armhf:
-  version: 44
-  issues:
-    - ftbfs_due_to_virtual_multiarch_dependencies
-cross-gcc-4.9-mips:
-  version: 49
-  issues:
-    - ftbfs_due_to_virtual_multiarch_dependencies
-cross-gcc-4.9-mipsel:
-  version: 44
-  issues:
-    - ftbfs_due_to_virtual_multiarch_dependencies
-cross-gcc-4.9-powerpc:
-  version: 49
-  issues:
-    - ftbfs_due_to_virtual_multiarch_dependencies
-cross-gcc-4.9-ppc64el:
-  version: 49
-  issues:
-    - ftbfs_due_to_virtual_multiarch_dependencies
 crossfire-maps-small:
   version: 1.5.0-3
   issues:
