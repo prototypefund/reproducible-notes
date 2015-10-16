@@ -3389,10 +3389,6 @@ dsdo:
   version: 1.6.36-5
   issues:
     - random_ispell_hash_files
-dsyslog:
-  version: 0.6.0+nmu1
-  issues:
-    - ftbfs_uninvestigated_unsatisfiable_dependencies
 dtach:
   version: 0.8-2.1
   issues:
@@ -7857,12 +7853,6 @@ lam:
     /usr/share/doc/lam4-dev/examples/main/wave1d/Makefile.gz.
   issues:
     - timestamps_in_gzip_headers
-lambdabot:
-  version: 4.3.0.1-1
-  issues:
-    - ftbfs_uninvestigated_unsatisfiable_dependencies
-  bugs:
-    - 789412
 lammps:
   version: 0~20150313.gitfa668e1-1
   issues:
@@ -14489,10 +14479,6 @@ rsbackup:
   bugs:
     - 777394
     - 793716
-rss2irc:
-  version: 1.0.6-3
-  issues:
-    - ftbfs_uninvestigated_unsatisfiable_dependencies
 rsync:
   version: 3.1.1-2
   issues:
