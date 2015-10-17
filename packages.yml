@@ -3030,6 +3030,11 @@ dh-elpa:
   version: 0.0.4
   issues:
     - timestamps_in_emacs_autoloads
+dh-exec:
+  version: 0.21
+  bugs:
+    - 802034
+    - 802068
 dh-kpatches:
   version: 0.99.36+nmu1
   issues:
@@ -5723,6 +5728,10 @@ gnucash:
   version: 2.6.8-1
   issues:
     - build_id_variation_requiring_further_investigation
+gnucash-docs:
+  version: 2.6.7-1
+  bugs:
+    - 802071
 gnudatalanguage:
   version: 0.9.5-2
   issues:
@@ -5859,6 +5868,10 @@ golang-gocheck:
   version: 0.0~bzr20131118+85-2
   bugs:
     - 789991
+golang-logrus:
+  version: 0.7.3-2
+  bugs:
+    - 802073
 golang-xmpp-dev:
   version: 0.0~git20140304-1
   issues:
@@ -6274,6 +6287,10 @@ guitarix:
   version: 0.32.1-1
   issues:
     - build_id_variation_requiring_further_investigation
+gumbo-parser:
+  version: 0.10.1+dfsg-2
+  bugs:
+    - 802075
 gummiboot:
   version: 45-2
   issues:
@@ -6488,6 +6505,10 @@ hgview:
   version: 1.8.1-1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
+hhsuite:
+  version: 2.0.16-5
+  bugs:
+    - 802076
 hhvm:
   version: 3.2.0+dfsg1-2
   issues:
@@ -6833,6 +6854,10 @@ infiniband-diags:
   version: 1.6.4-3
   issues:
     - timestamps_from_cpp_macros
+influxdb-python:
+  version: 2.8.0-1
+  bugs:
+    - 802079
 infon:
   version: 0~r198-8
   issues:
@@ -6890,6 +6915,10 @@ invesalius:
   version: 3.0-1
   issues:
     - build_id_variation_requiring_further_investigation
+iodine:
+  version: 0.7.0-3
+  bugs:
+    - 802105
 ion:
   version: 3.2.1+dfsg-1
   issues:
@@ -7296,6 +7325,10 @@ jenkins-matrix-project-plugin:
   version: 1.3-1
   issues:
     - timestamps_in_java_stapler_files
+jenkins-memory-monitor:
+  version: 1.8-1
+  bugs:
+    - 802077
 jenkins-remoting:
   version: 2.45-1
   comments: |
@@ -7408,6 +7441,10 @@ jnr-x86asm:
   version: 0.1-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+joblib:
+  version: 0.8.3-1
+  bugs:
+    - 802106
 jodconverter:
   version: 2.2.2-7
   comments: |
@@ -7601,6 +7638,10 @@ k3d:
   version: 0.8.0.3-7
   issues:
     - timestamps_from_cpp_macros
+kadu-mime-tex:
+  version: 1.0-2
+  bugs:
+    - 802080
 kalgebra:
   version: 4:4.14.2-1
   bugs:
@@ -7846,6 +7887,10 @@ kmess:
   version: 2.0.6.1-3
   bugs:
     - 799503
+kmetronome:
+  version: 0.10.1-1
+  bugs:
+    - 802081
 kmix:
   version: 4:15.08.1-1
   bugs:
@@ -9154,6 +9199,10 @@ libpdl-stats-perl:
   version: 0.6.5.1-1
   issues:
     - build_id_variation_requiring_further_investigation
+libpeas:
+  version: 1.16.0-1
+  bugs:
+    - 802095
 libpgf:
   version: 6.14.12-3
   bugs:
@@ -9359,6 +9408,10 @@ libstax-java:
   version: 1.2.0-3
   issues:
     - locale_in_documentation_generated_by_javadoc
+libstoragemgmt:
+  version: 1.2.3-1
+  bugs:
+    - 802094
 libswe-doc:
   version: 1.80.00.0001-1
   issues:
@@ -9807,6 +9860,10 @@ lmemory:
   version: 0.6c-7
   issues:
     - timestamps_from_cpp_macros
+lmfit-py:
+  version: 0.8.0+dfsg.1-1
+  bugs:
+    - 802085
 lmms:
   version: 1.0.3-5
   bugs:
@@ -9955,6 +10012,10 @@ lua-ldoc:
   version: 1.4.2-1
   issues:
     - timestamps_in_manpages_generated_by_txt2man
+lua-lgi:
+  version: 0.9.0-1
+  bugs:
+    - 802090
 lua-penlight:
   version: 1.2.1-1
   issues:
@@ -10867,6 +10928,10 @@ mpris-remote:
   version: 0.0~1.gpb7c7f5c6-1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
+mps-youtube:
+  version: 0.2.5-3
+  bugs:
+    - 802102
 mpv:
   version: 0.11.0-1
   issues:
@@ -11348,6 +11413,10 @@ noblenote:
   version: 1.0.8-1
   issues:
     - timestamps_from_cpp_macros
+node-contextify:
+  version: 0.1.6-1
+  bugs:
+    - 802101
 node-crc:
   version: 3.0.0-2
   bugs:
@@ -11356,6 +11425,10 @@ node-expat:
   version: 2.3.1-1
   bugs:
     - 799774
+node-groove:
+  version: 2.2.6-2
+  bugs:
+    - 802087
 node-iconv:
   version: 2.1.8-1
   bugs:
@@ -12065,6 +12138,10 @@ openocd:
     https://sources.debian.net/src/openocd/0.9.0-1/src/Makefile.am/#L41
   issues:
     - timestamps_in_pdf_generated_by_latex
+openpyxl:
+  version: 2.3.0~b1-1
+  bugs:
+    - 802088
 openrpt:
   version: 3.3.7-1
   issues:
@@ -12678,6 +12755,10 @@ phnxdeco:
   version: 0.33-3
   issues:
     - timestamps_from_cpp_macros
+phonon-backend-gstreamer:
+  version: 4:4.8.2-1
+  bugs:
+    - 802107
 php-apcu:
   version: 4.0.7-1
   issues:
@@ -13236,6 +13317,10 @@ puredata-import:
   version: 1.3-3
   issues:
     - timestamps_from_cpp_macros
+purl:
+  version: 1.1-1
+  bugs:
+    - 802108
 pvm:
   version: 3.4.5-12.6
   issues:
@@ -13358,6 +13443,10 @@ pyinotify:
   version: 0.9.4-1
   issues:
     - use_epydoc
+pyjunitxml:
+  version: 0.6-1.1
+  bugs:
+    - 802124
 pyke:
   version: 1.1.1-5
   bugs:
@@ -13370,10 +13459,18 @@ pylibmc:
   version: 1.5.0-2
   bugs:
     - 799576
+pylint:
+  version: 1.4.4-1
+  bugs:
+    - 802126
 pylint-django:
   version: 0.6-1
   bugs:
     - 800675
+pylint-plugin-utils:
+  version: 0.2.3-1
+  bugs:
+    - 802142
 pylucene:
   version: 3.5.0-1.2
   issues:
@@ -13408,6 +13505,10 @@ pyopencl:
   version: 2015.1-2
   issues:
     - random_order_in_shlibs_depends
+pyopengl:
+  version: 3.0.2-1
+  bugs:
+    - 802117
 pyoperators:
   version: 0.13.6-1
   bugs:
@@ -13435,6 +13536,10 @@ pyqwt3d:
   version: 0.1.7~cvs20090625-13
   issues:
     - build_id_variation_requiring_further_investigation
+pyregion:
+  version: 1.1.4-1
+  bugs:
+    - 802134
 pyroma:
   version: 1.8.2-1
   bugs:
@@ -13463,6 +13568,10 @@ pystatgrab:
   version: 0.5-4
   bugs:
     - 735573
+pysvn:
+  version: 1.7.8-1
+  bugs:
+    - 802121
 pysycache:
   version: 3.1-3.1
   issues:
@@ -13543,12 +13652,20 @@ python-bottle:
   version: 0.12.7-1
   issues:
     - timestamps_in_manpages_generated_by_sphinx
+python-cachecontrol:
+  version: 0.11.5-1
+  bugs:
+    - 802145
 python-carrot:
   version: 0.10.7-1
   issues:
     - timestamps_in_documentation_generated_by_sphinx
   bugs:
     - 785617
+python-chameleon:
+  version: 2.22-1
+  bugs:
+    - 802130
 python-changelog:
   version: 0.3.4-1
   bugs:
@@ -13571,6 +13688,10 @@ python-cpl:
   version: 0.7-4
   bugs:
     - 800727
+python-crank:
+  version: 0.7.2-1
+  bugs:
+    - 802128
 python-crypto:
   version: 2.6.1-5
   comments: |
@@ -13595,10 +13716,22 @@ python-daemon:
   version: 2.0.5-1
   issues:
     - different_encoding
+python-diaspy:
+  version: 0.5.0.1-1
+  bugs:
+    - 802119
+python-django-braces:
+  version: 1.8.0-1
+  bugs:
+    - 802135
 python-django-contact-form:
   version: 1.0-1
   bugs:
     - 800673
+python-django-extensions:
+  version: 1.5.0-1
+  bugs:
+    - 802131
 python-django-feincms:
   version: 1.7.4-1
   bugs:
@@ -13677,6 +13810,10 @@ python-glpk:
   version: 0.4.52-1.1
   bugs:
     - 750228
+python-greenio:
+  version: 0.6.0-1
+  bugs:
+    - 802148
 python-guacamole:
   version: 0.9-1
   issues:
@@ -13693,6 +13830,10 @@ python-igraph:
   version: 0.6.5-1
   bugs:
     - 759858
+python-invocations:
+  version: 0.6.2-1
+  bugs:
+    - 802147
 python-keystoneclient:
   version: 0.11.1-1
   issues:
@@ -13705,6 +13846,10 @@ python-kinterbasdb:
   version: 3.3.0-3
   comments: |
     Build time in /usr/lib/python2.7/dist-packages/kinterbasdb/__init__.py
+python-launchpadlib:
+  version: 1.10.3-2
+  bugs:
+    - 802136
 python-libdiscid:
   version: 0.4.1-3
   bugs:
@@ -13736,6 +13881,14 @@ python-morris:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - randomness_in_objects_inv
+python-mpld3:
+  version: 0.3git+20140910dfsg-2
+  bugs:
+    - 802120
+python-mplexporter:
+  version: 0.0.1+20140921-1
+  bugs:
+    - 802149
 python-muranoclient:
   version: 0.5.5-1
   issues:
@@ -13744,6 +13897,10 @@ python-mzml:
   version: 0.7.4-dfsg-3
   issues:
     - timestamps_in_pdf_generated_by_latex
+python-nbxmpp:
+  version: 0.5.1-2
+  bugs:
+    - 802146
 python-networkx:
   version: 1.9+dfsg1-1
   comments: |
@@ -13846,6 +14003,10 @@ python-redmine:
   version: 1.1.1-1
   bugs:
     - 801205
+python-releases:
+  version: 0.7.0-1
+  bugs:
+    - 802137
 python-reportlab:
   version: 3.1.8-3
   comments: |
@@ -13950,10 +14111,22 @@ python-tooz:
   version: 0.13.1-2
   comments: |
     I think Jenkins is doing something funny with file descriptors so that the technique for waiting for the test mysqld instance to start doesn\'t work correctly, resulting in FTBFS. The refernce to /pg_ctl is a red herring btw.
+python-tosca-parser:
+  version: 0.1.0-2
+  bugs:
+    - 802150
 python-traceback2:
   version: 1.4.0-2
   bugs:
     - 799163
+python-tzlocal:
+  version: 1.2-1
+  bugs:
+    - 802122
+python-u2flib-server:
+  version: 3.2.0-1
+  bugs:
+    - 802129
 python-udiskie:
   version: 1.2.0-2
   issues:
@@ -14346,6 +14519,10 @@ r-cran-rinside:
   version: 0.2.13-1
   issues:
     - build_id_variation_requiring_further_investigation
+r-cran-rjags:
+  version: 1:3-15-2
+  bugs:
+    - 802109
 r-cran-rniftilib:
   version: 0.0-32-1
   comments: |
@@ -14747,6 +14924,10 @@ rtai:
   issues:
     - timestamps_in_tarball
     - different_due_to_umask
+rtkit:
+  version: 0.11-2
+  bugs:
+    - 802110
 rtslib:
   version: 3.0+git0.86e46bc6-5
   issues:
@@ -14843,6 +15024,10 @@ ruby-compass:
     needs pbuilder 0.216 due to #791991
   issues:
     - ftbfs_in_jenkins_setup
+ruby-coveralls:
+  version: 0.7.0-1
+  bugs:
+    - 802116
 ruby-curb:
   version: 0.8.8-1
   issues:
@@ -15193,6 +15378,10 @@ ruby-rack-mobile-detect:
   version: 0.4.0-3
   issues:
     - timestamps_in_gemspec_files
+ruby-rack-oauth2:
+  version: 1.2.0-3
+  bugs:
+    - 802132
 ruby-raindrops:
   version: 0.14.0-1
   issues:
@@ -15576,6 +15765,10 @@ scowl:
   version: 7.1-1
   bugs:
     - 791851
+screenlets:
+  version: 0.1.2-8
+  bugs:
+    - 802139
 scscp-imcce:
   version: 1.0.1+ds-1
   issues:
@@ -15939,6 +16132,10 @@ slurm-llnl:
   version: 15.08.1-1
   issues:
     - build_id_variation_requiring_further_investigation
+smash:
+  version: 0.0.14-1
+  bugs:
+    - 802111
 smb4k:
   version: 1.1.2-1
   bugs:
@@ -16120,6 +16317,10 @@ sphinx-paramlinks:
   version: 0.2.2-2
   bugs:
     - 800139
+sphinx-patchqueue:
+  version: 0.4.0-1
+  bugs:
+    - 802141
 sphinxbase:
   version: 0.8-6
   issues:
@@ -17435,6 +17636,10 @@ vala-mode-el:
   version: 0.1-2
   issues:
     - timestamps_in_emacs_autoloads
+valabind:
+  version: 0.9.2-1
+  bugs:
+    - 802112
 valgrind:
   version: 1:3.10.0-4
   issues:
@@ -18000,6 +18205,10 @@ wtforms:
     - timestamps_in_documentation_generated_by_sphinx
   bugs:
     - 788599
+wxglade:
+  version: 0.7.1~rc1-1
+  bugs:
+    - 802115
 wxwidgets2.8:
   version: 2.8.12.1+dfsg2-2
   issues:
@@ -18593,6 +18802,10 @@ ytree:
     - timestamps_in_gzip_headers
   bugs:
     - 777273
+yubikey-server-c:
+  version: 0.5-1
+  bugs:
+    - 802114
 yui3:
   version: 3.5.1-1
   issues:
@@ -18687,6 +18900,10 @@ zope-replacesupport:
   version: 1.0.3-6
   issues:
     - zope_random_field_order_in_dzproduct
+zope.i18n:
+  version: 4.0.1-2
+  bugs:
+    - 802113
 zope.sqlalchemy:
   version: 0.6.1-2
   bugs:
