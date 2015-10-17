@@ -17556,6 +17556,10 @@ why:
   comments: |
     Embed build time:
     https://sources.debian.net/src/why/2.34-2/version.sh/
+wireshark:
+  version: 1.12.7+g7fc8978-1
+  comments: |
+    from irc: "haha, fun: wiresharks embeds the build date *without timezone*, so atm we only notice when its build around UTC midnight…" - please continue investigating from here.
 widelands:
   version: 18-3
   issues:
