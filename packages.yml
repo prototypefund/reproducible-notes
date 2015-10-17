@@ -50,6 +50,8 @@ abgate:
   version: 1.1.7-1
   issues:
     - ftbfs_temporary_glibmm24_bug
+  bugs:
+    - 802059
 abi-compliance-checker:
   version: 1.99.9-2
   issues:
@@ -224,6 +226,10 @@ ahven:
   version: 2.4+repack-1
   issues:
     - different_due_to_umask
+aiopg:
+  version: 0.7.0-1
+  bugs:
+    - 802060
 aiozmq:
   version: 0.7.1-1
   issues:
@@ -1385,6 +1391,10 @@ boo:
   issues:
     - timestamps_in_pe_binaries
     - randomness_in_dh_cligacpolicy_scripts
+bookkeeper:
+  version: 4.2.4-2
+  bugs:
+    - 802061
 boolector:
   version: 1.5.118.6b56be4.121013-1
   comments: |
@@ -2509,6 +2519,10 @@ cross-binutils:
   issues:
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
+cross-toolchain-base:
+  version: 6
+  bugs:
+    - 802062
 crossfire-maps-small:
   version: 1.5.0-3
   issues:
@@ -2546,6 +2560,10 @@ csstidy:
   version: 1.4-3
   issues:
     - build_id_variation_requiring_further_investigation
+cssutils:
+  version: 1.0-2
+  bugs:
+    - 802063
 csvimp:
   version: 0.5.0-2
   issues:
@@ -2961,6 +2979,10 @@ dejagnu:
   version: 1.5.1-2
   comments: |
     Timestamps in PDF/PS embedded by docbook2pdf / docbook2ps
+denemo:
+  version: 1.1.8-2
+  bugs:
+    - 802064
 derby:
   version: 10.10.2.0-1
   issues:
@@ -3153,6 +3175,10 @@ dita-ot:
   version: 1.5.3-1
   comments: |
     Capture build time in /usr/share/dita-ot/lib/configuration.properties
+ditaa:
+  version: 0.10+ds1-1
+  bugs:
+    - 802065
 django-ajax-selects:
   version: 1.3.6-3
   bugs:
@@ -3173,6 +3199,10 @@ django-guardian:
   version: 1.2.4+git20141127-0.2
   issues:
     - randomness_in_documentation_generated_by_sphinx
+django-jinja:
+  version: 1.4.1-1
+  bugs:
+    - 802066
 django-ldapdb:
   version: 0.2.0-1
   bugs:
@@ -3185,6 +3215,10 @@ django-session-security:
   version: 2.2.4+dfsg-1
   issues:
     - randomness_in_documentation_indices_generated_by_sphinx
+django-shortuuidfield:
+  version: 0.1.2-3
+  bugs:
+    - 802067
 django-sitetree:
   version: 1.4.0-1
   bugs:
@@ -3331,6 +3365,10 @@ doxygen:
   version: 1.8.9.1-1
   issues:
     - timezones_manpages_podman
+dphys-config:
+  version: 20130301~current-1
+  bugs:
+    - 802068
 dpkg:
   version: 1.18.1.0~reproducible5
   comments: |
@@ -4779,6 +4817,10 @@ freewnn:
     - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 797242
+freezegun:
+  version: 0.3.5-1
+  bugs:
+    - 802070
 fritzing:
   version: 0.9.0b+dfsg-1.1
   bugs:
@@ -5908,6 +5950,10 @@ gpsd:
   version: 3.11-3
   issues:
     - bad_handling_of_extra_warnings
+gpsdrive:
+  version: 2.10~pre4-6.dfsg-5.3
+  bugs:
+    - 724382
 gpsmanshp:
   version: 1.2.3-4
   issues:
@@ -7965,6 +8011,10 @@ lam:
     /usr/share/doc/lam4-dev/examples/main/wave1d/Makefile.gz.
   issues:
     - timestamps_in_gzip_headers
+lambdabot:
+  version: 4.3.0.1-1
+  bugs:
+    - 789412
 lammps:
   version: 0~20150313.gitfa668e1-1
   issues:
@@ -11786,6 +11836,8 @@ ognl:
   issues:
     - timestamps_in_pdf_generated_by_apache_fop
     - locale_in_documentation_generated_by_javadoc
+  bugs:
+    - 801855
 ogre-1.9:
   version: 1.9.0+dfsg1-4
   bugs:
@@ -15537,6 +15589,10 @@ scsh-0.6:
   version: 0.6.7-8
   comments: |
     Shouldn't be trying to build on amd64
+scsh-install-lib:
+  version: 1.3.0-1
+  bugs:
+    - 534059
 scummvm:
   version: 1.7.0+dfsg-1
   issues:
