@@ -16752,6 +16752,10 @@ sysstat:
   version: 11.1.6-1
   bugs:
     - 798469
+systemd:
+  version: 227-2
+  comments: |
+    random file order in postinst added by dh_installinit
 systraq:
   version: 0.0.20081217-7
   issues:
