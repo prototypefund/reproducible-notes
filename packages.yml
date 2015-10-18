@@ -946,10 +946,6 @@ avis:
   comments: |
     Capture build time in
     /usr/share/avis/avis-router.jar:avis.properties
-avogadro:
-  version: 1.0.3-10.1
-  bugs:
-    - 790859
 avr-libc:
   version: 1:1.8.0+Atmel3.4.5-1
   issues:
@@ -1368,10 +1364,6 @@ bmake:
   version: 20140620-3
   issues:
     - timestamps_in_documentation_generated_by_groff
-bmon:
-  version: 1:3.8-1
-  bugs:
-    - 799165
 bnd:
   version: 1.50.0-8
   issues:
@@ -2018,10 +2010,6 @@ cinder:
   version: 2014.1.3-11
   issues:
     - different_due_to_umask
-cinnamon-control-center:
-  version: 2.6.0-1
-  bugs:
-    - 799404
 cinnamon-settings-daemon:
   version: 2.2.4.repack-7
   issues:
@@ -2897,8 +2885,6 @@ deap:
   version: 1.0.1-3+deb8u1
   issues:
     - timestamps_in_pdf_generated_by_latex
-  bugs:
-    - 775303
 debconf:
   version: 1.5.57
   issues:
@@ -3477,10 +3463,6 @@ dtd-parser:
   version: 1.2~svn20110404-1
   issues:
     - timestamps_in_documentation_generated_by_javadoc
-dulwich:
-  version: 0.11.1-1
-  bugs:
-    - 799076
 dune-istl:
   version: 2.3.1-1
   bugs:
@@ -4062,7 +4044,7 @@ ezstream:
 eztrace:
   version: 1.1-2
   issues:
-   - timestamps_in_directories
+    - timestamps_in_directories
 f-irc:
   version: 1.36-1
   issues:
@@ -6141,10 +6123,6 @@ gshare:
   version: 0.94-12
   issues:
     - timestamps_in_pe_binaries
-gsm0710muxd:
-  version: 1.13-2
-  bugs:
-    - 798663
 gsmartcontrol:
   version: 0.8.7-1.1
   issues:
@@ -7562,10 +7540,6 @@ jsmath-fonts-sprite:
     - timestamps_difference_by_unzip
   bugs:
     - 792597
-jsmpp:
-  version: 2.1.2-1
-  bugs:
-    - 788181
 jss:
   version: 4.3.1-6
   issues:
@@ -7743,10 +7717,6 @@ kde4libs:
     - captures_kernel_version
   bugs:
     - 799520
-kdegraphics-mobipocket:
-  version: 4:4.14.2-1
-  bugs:
-    - 791741
 kdelibs4support:
   version: 5.14.0-1
   issues:
@@ -8227,8 +8197,6 @@ libapache-authznetldap-perl:
   version: 0.07-5
   issues:
     - timestamps_in_documentation_generated_by_podman
-  bugs:
-    - 798558
 libapache-dbi-perl:
   version: 1.12-1
   issues:
@@ -8285,8 +8253,6 @@ libaqbanking:
     https://sources.debian.net/src/libaqbanking/5.6.1beta-1/Doxyfile.in/#L573
     This should be fixed upstrea:
     http://git.aqbanking.de/gitweb/?p=aqbanking.git;a=commitdiff;h=4127ab7619aa03ac70dbc06838589278f2a03ca0
-  bugs:
-    - 792727
 libasm4-java:
   version: 5.0.4-1
   issues:
@@ -8668,8 +8634,6 @@ libgtk2-perl:
   comments: |
     790532 fixed in experimental with 2:1.2496-1, and the remaining
     reproducibility issue should be fixed with 2:1.2496-2
-  bugs:
-    - 790532
 libgtkada:
   version: 2.24.4dfsg-1
   comments: |
@@ -10297,10 +10261,6 @@ mapnik:
   version: 3.0.6+ds-1
   issues:
     - build_id_variation_requiring_further_investigation
-mapnik-vector-tile:
-  version: 0.5.1+dfsg-1.3
-  bugs:
-    - 789942
 mapsembler2:
   version: 2.2.3+dfsg-2
   comments: |
@@ -10423,10 +10383,6 @@ maven-plugin-tools:
     - date_in_maven_plugin_xml
   bugs:
     - 796445
-maven-processor-plugin:
-  version: 2.0.8-1
-  bugs:
-    - 798720
 maven-project-info-reports-plugin:
   version: 2.4-2
   issues:
@@ -10575,10 +10531,6 @@ microdc2:
   version: 0.15.6-2
   issues:
     - different_pot_creation_date_in_gettext_mo_files
-midori:
-  version: 0.4.3+dfsg-0.2
-  bugs:
-    - 787878
 milter-greylist:
   version: 4.5.11-1
   comments: |
@@ -11046,10 +10998,6 @@ munin:
   version: 2.1.9-1
   issues:
     - timestamps_in_manpages_generated_by_sphinx
-mupdf:
-  version: 1.7-1
-  bugs:
-    - 796420
 murano-dashboard:
   version: 2015.1.0-1
   bugs:
@@ -11748,10 +11696,6 @@ ocaml-deriving-ocsigen:
   version: 0.6.2-1
   issues:
     - randomness_in_ocaml_packed_libraries
-ocaml-estring:
-  version: 20130822-3
-  bugs:
-    - 798549
 ocaml-melt:
   version: 1.4.0-1
   issues:
@@ -12279,10 +12223,6 @@ oslo.messaging:
   version: 1.8.3-3
   bugs:
     - 799996
-osrm:
-  version: 4.6.1-1
-  bugs:
-    - 796544
 oss4:
   version: 4.2-build2010-2
   issues:
@@ -14054,10 +13994,6 @@ python-requirements-detector:
     Affected by #800788 in python3-astroid
   bugs:
     - 800788
-python-riemann-client:
-  version: 5.1.1-2
-  bugs:
-    - 798486
 python-rtslib-fb:
   version: 2.1.45-4
   issues:
@@ -14171,10 +14107,6 @@ python-webob:
   version: 1.4-2
   issues:
     - randomness_in_documentation_generated_by_sphinx
-python-werkzeug:
-  version: 0.10.4+dfsg1-1
-  bugs:
-    - 796517
 python-whoosh:
   version: 2.7.0-1
   issues:
@@ -15126,18 +15058,10 @@ ruby-facets:
   version: 2.9.3-2
   issues:
     - random_order_in_ruby_rdoc_indices
-ruby-factory-girl:
-  version: 4.4.0-2
-  bugs:
-    - 795033
 ruby-faraday-middleware:
   version: 0.9.1-1
   bugs:
     - 792548
-ruby-fast-gettext:
-  version: 0.9.0-1
-  bugs:
-    - 795035
 ruby-fast-xs:
   version: 0.8.0-3
   issues:
@@ -15351,10 +15275,6 @@ ruby-omniauth-ldap:
   version: 1.0.4-1
   bugs:
     - 801252
-ruby-omniauth-openid:
-  version: 1.0.1-2
-  bugs:
-    - 795726
 ruby-opengraph-parser:
   version: 0.2.3+gh-1
   bugs:
@@ -15857,10 +15777,6 @@ seq24:
   version: 0.9.2-2
   issues:
     - ftbfs_temporary_glibmm24_bug
-seqdiag:
-  version: 0.9.3-4
-  bugs:
-    - 796481
 seqprep:
   version: 1.1-2
   bugs:
@@ -16211,10 +16127,6 @@ snort:
   version: 2.9.7.0-4
   issues:
     - pdf_created_by_ghostscript
-snp-sites:
-  version: 2.0.1-1
-  bugs:
-    - 799164
 soapdenovo2:
   version: 240+dfsg-2
   issues:
