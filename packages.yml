@@ -11258,6 +11258,10 @@ netcdf:
   version: 1:4.1.3-7.2
   issues:
     - timestamps_from_cpp_macros
+netcdf-cxx:
+  version: 4.2.1-1
+  issues:
+    - leaks_path_environment_variable
 netcdf-fortran:
   version: 4.4.2-1~exp3
   comments: |
