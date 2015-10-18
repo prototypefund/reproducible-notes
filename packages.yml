@@ -3439,15 +3439,6 @@ drobo-utils:
   version: 0.6.1+repack-1
   issues:
     - timestamps_in_documentation_generated_by_groff
-dropbear:
-  version: 2014.65-1
-  issues:
-    - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-    - different_due_to_umask
-  bugs:
-    - 777324
-    - 793006
 drumkv1:
   version: 0.5.1-1
   issues:
@@ -4065,9 +4056,9 @@ ezstream:
     Embeds the build date into manpages.
     https://sources.debian.net/src/ezstream/0.5.6%7Edfsg-1/configure.in/#L20
 eztrace:
-  version: 1.0.6-6
-  bugs:
-    - 798753
+  version: 1.1-2
+  issues:
+   - timestamps_in_directories
 f-irc:
   version: 1.36-1
   issues:
@@ -5671,10 +5662,6 @@ gnome-color-chooser:
   version: 0.2.5-1
   issues:
     - ftbfs_temporary_glibmm24_bug
-gnome-control-center:
-  version: 1:3.14.4-1
-  issues:
-    - timestamps_in_manpages_generated_by_docbook_xsl
 gnome-desktop3:
   version: 3.14.1-1
   bugs:
@@ -7826,10 +7813,6 @@ kexec-tools:
     https://sources.debian.net/src/kexec-tools/1:2.0.7-5/configure.ac/?hl=12#L12
   bugs:
     - 783239
-keystone:
-  version: 2014.1.3-6
-  issues:
-    - randomness_in_documentation_generated_by_sphinx
 keyutils:
   version: 1.5.9-5
   comments: |
@@ -11683,10 +11666,6 @@ nvidia-settings:
   version: 340.46-2
   bugs:
     - 786637
-nvram-wakeup:
-  version: 1.1-1
-  issues:
-    - timestamps_from_cpp_macros
 nwchem:
   version: 6.5+r26243-4
   issues:
@@ -11771,10 +11750,6 @@ ocaml-melt:
     - randomness_in_ocaml_lintian_info_files
     - timestamps_in_pdf_generated_by_latex
     - randomness_in_ocaml_startup_files
-ocaml-reins:
-  version: 0.1a-5
-  issues:
-    - randomness_in_ocaml_packed_libraries
 ocamlbricks:
   version: 0.90+bzr400-1
   issues:
@@ -12305,10 +12280,6 @@ oss4:
   issues:
     - timestamps_in_manpages_generated_by_txt2man
     - different_due_to_umask
-otags:
-  version: 4.01.1-1
-  issues:
-    - randomness_in_ocaml_startup_files
 ovirt-guest-agent:
   version: 1.0.10.2.dfsg-2
   bugs:
@@ -13100,12 +13071,6 @@ polybori:
   version: 0.8.3-4
   issues:
     - timestamps_from_tex4ht
-polygen:
-  version: 1.0.6.ds2-13
-  comments: |
-    Random documentation (by design)
-  bugs:
-    - 776576
 polyglot-maven:
   version: 0.8~tobrien+git20120905-3
   issues:
@@ -14823,10 +14788,6 @@ request-tracker4:
   version: 4.2.11-2
   bugs:
     - 796385
-resiprocate:
-  version: 1:1.10.0~alpha2-1
-  bugs:
-    - 797419
 resource-agents:
   version: 1:3.9.5+git+a626847-1
   issues:
@@ -15731,10 +15692,6 @@ sbcl:
   version: 2:1.2.14-1
   issues:
     - pdf_created_by_ghostscript
-sbuild:
-  version: 0.65.0-1
-  comments: |
-    Embeds the username.
 scala:
   version: 2.9.2+dfsg-2
   issues:
@@ -17454,10 +17411,6 @@ typerep:
   version: 111.17.00-1
   issues:
     - different_due_to_umask
-tyxml:
-  version: 3.0.0-1
-  issues:
-    - randomness_in_ocaml_packed_libraries
 uanytun:
   version: 0.3.5-1
   comments: |
@@ -18621,10 +18574,6 @@ xmlunit:
     - timestamps_in_pdf_generated_by_latex
 xmorph:
   version: 1:20140707+nmu1
-  issues:
-    - timestamps_from_cpp_macros
-xmoto:
-  version: 0.5.11+dfsg-1
   issues:
     - timestamps_from_cpp_macros
 xmount:
