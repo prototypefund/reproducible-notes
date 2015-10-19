@@ -15552,13 +15552,6 @@ s3d:
   version: 0.2.2-10
   issues:
     - different_encoding
-s3ql:
-  version: 2.13+dfsg-1
-  comments: |
-    On unstable, the first build fails, but not anymore as in #780587.
-    In testing, the first build succeeds, but the second fails - different than in unstable.
-  issues:
-    - ftbfs_on_2nd_build
 s5:
   version: 1.1.dfsg.2-5
   issues:
