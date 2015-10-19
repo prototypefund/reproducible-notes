@@ -2260,6 +2260,8 @@ collectd:
   version: 5.4.1-6
   issues:
     - timestamps_in_jar
+  bugs:
+    - 802249
 colobot:
   version: 0.1.3-1
   issues:
@@ -5276,6 +5278,8 @@ gfs2-utils:
   version: 3.1.3-1.1
   issues:
     - timestamps_from_cpp_macros
+  bugs:
+    - 802250
 gfxboot:
   version: 4.5.2-1.1-5
   issues:
@@ -11567,10 +11571,6 @@ ntop:
   version: 3:5.0.1+dfsg1-2.1
   issues:
     - timestamps_from_cpp_macros
-ntopng:
-  version: 1.2.1+dfsg1-2
-  bugs:
-    - 797777
 ntp:
   version: 1:4.2.6.p5+dfsg-7
   comments: |
@@ -11851,10 +11851,6 @@ octave-tsa:
   version: 4.2.9-1
   issues:
     - build_id_variation_requiring_further_investigation
-odb:
-  version: 2.4.0-3
-  bugs:
-    - 798554
 offlineimap:
   version: 6.5.5-0.1
   issues:
@@ -12827,10 +12823,6 @@ pike7.8:
   version: 7.8.866-3
   issues:
     - timestamps_from_cpp_macros
-pike8.0:
-  version: 8.0.28-3
-  bugs:
-    - 799514
 pilot-link:
   version: 0.12.5-dfsg-1
   issues:
@@ -15050,10 +15042,6 @@ ruby-filesystem:
   version: 0.5-5.1
   issues:
     - build_id_variation_requiring_further_investigation
-ruby-flexmock:
-  version: 0.9.0-1
-  bugs:
-    - 794171
 ruby-fssm:
   version: 0.2.10-2
   bugs:
@@ -15656,6 +15644,10 @@ scons-doc:
   version: 2.3.1-1
   issues:
     - timestamps_in_pdf_generated_by_apache_fop
+scoop:
+  version: 0.7.1-3
+  bugs:
+    - 802318
 scorched3d:
   version: 43.3.d+dfsg-1.1
   issues:
