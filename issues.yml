@@ -411,12 +411,9 @@ different_pot_creation_date_in_gettext_mo_files:
 ftbfs_in_jenkins_setup:
   description: |
     Could be:
-    1) an attempt to connect to somewhere, and hits a machine claiming to be squid on jenkins.d.n.
-    2) jobs that try to bind to localhost port which are in use by something in the
+    1) jobs that try to bind to localhost ports which are in use by something in the
        jenkins machines. The occupied ports are: 22, 25, 80, 443, 3128, 3129, 4949, 34167
-    3) https://bugs.debian.org/791991 in pbuilder (strict-erlier versioned build-deps makes pbuidler badly parse the whole field and not fulill the build-deps)
-    4) https://bugs.debian.org/780725 is worked around like described in msg#60 of that bug, that is, apt in pbuilder is configured to use thte proxy and http_proxy is unset.
-    5) something else, the machine is heavily loaded all the time...
+    2) something else, the machine is heavily loaded all the time...
 timestamps_in_description_files_generated_by_r-base-dev:
   description: |
     r-base-dev leaves a build timestamp (showing date + time + timezone) in
