@@ -792,8 +792,7 @@ ftbfs_with_gcc5:
     Not a reproducibility issue itself, but this is causing many FTBFS issues. Tracking these like this, helps to tidy up the view on other FTBFS causes.
 ftbfs_due_to_disorderfs:
   description: |
-    eg. read errors, etc.
-  url: https://bugs.debian.org/799866
+    collect FTBFS related to disorderfs, eg. read errors, etc.
 timestamps_in_manpages_generated_by_docbook_utils:
   description: |
     docbook2man from docbook-utils adds the build date into generated manpages, which also contain locale variations.
