@@ -13633,6 +13633,10 @@ python-couchdb:
   version: 0.10-1.1
   issues:
     - timestamps_in_manpages_generated_by_help2man
+python-coverage:
+  version: 3.7.1+dfsg.1-1
+  issues:
+    - ftbfs_uninvestigated_test_failures
 python-cpl:
   version: 0.7-4
   bugs:
@@ -13685,6 +13689,10 @@ python-django-feincms:
   version: 1.7.4-1
   bugs:
     - 750335
+python-django-formtools:
+  version: 1.0-1
+  issues:
+    - ftbfs_uninvestigated_test_failures
 python-django-mptt:
   version: 0.6.0-1
   issues:
@@ -17469,6 +17477,10 @@ unicon:
   version: 3.0.4-14
   bugs:
     - 777441
+unidecode:
+  version: 0.04.18-1
+  issues:
+    - ftbfs_uninvestigated_test_failures
 unifont:
   version: 7.0.06-1
   issues:
