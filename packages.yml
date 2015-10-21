@@ -1540,6 +1540,10 @@ bzr:
   version: 2.6.0+bzr6602-3
   issues:
     - randomness_in_documentation_generated_by_sphinx
+bzr-builddeb:
+  version: 2.8.9
+  issues:
+    - ftbfs_uninvestigated_test_failures
 bzr-loom:
   version: 2.2.0-5
   bugs:
@@ -3225,6 +3229,10 @@ django-sitetree:
   version: 1.4.0-1
   bugs:
     - 800808
+django-testscenarios:
+  version: 0.7.4-2
+  issues:
+    - ftbfs_uninvestigated_test_failures
 djbdns:
   version: 1:1.05-8
   issues:
@@ -10226,6 +10234,10 @@ manpages-tr:
     files.
   issues:
     - timestamps_in_gzip_headers
+manuel:
+  version: 1.8.0-3
+  issues:
+    - ftbfs_uninvestigated_test_failures
 mapivi:
   version: 0.9.7-1.1
   issues:
@@ -13735,6 +13747,10 @@ python-hiredis:
   version: 0.2.0-1
   issues:
     - build_id_variation_requiring_further_investigation
+python-html2text:
+  version: 2015.6.21-1
+  issues:
+    - ftbfs_uninvestigated_test_failures
 python-igraph:
   version: 0.6.5-1
   bugs:
