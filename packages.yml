@@ -6753,6 +6753,10 @@ idzebra:
   version: 2.0.59-1
   issues:
     - timestamps_from_cpp_macros
+iep:
+  version: 3.7-1
+  issues:
+    - ftbfs_uninvestigated_test_failures
 ifmail:
   version: 2.14tx8.10-22
   comments: |
@@ -10694,6 +10698,10 @@ mod-dnssd:
   version: 0.6-3.1
   issues:
     - lynx_dump_varies_output_with_locale
+mod-gnutls:
+  version: 0.7-1
+  issues:
+    - ftbfs_uninvestigated_test_failures
 modglue:
   version: 1.17-2.2
   comments: |
@@ -14843,6 +14851,10 @@ rsync:
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 787123
+rsyslog:
+  version: 8.12.0-3
+  issues:
+    - ftbfs_uninvestigated_test_failures
 rt-extension-customfieldsonupdate:
   version: 0.01-1
   comments: |
