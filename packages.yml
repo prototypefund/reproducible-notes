@@ -1552,6 +1552,10 @@ bzr-xmloutput:
   version: 0.8.8+bzr162-5
   issues:
     - ftbfs_uninvestigated_test_failures
+bzrtools:
+  version: 2.6.0-2
+  issues:
+    - ftbfs_uninvestigated_test_failures
 c++-annotations:
   version: 10.1.0-1
   issues:
@@ -5874,6 +5878,10 @@ golang-github-jacobsa-ratelimit:
   version: 0.0~git20150723.0.2ca5e0c-1
   bugs:
     - 796400
+golang-github-jacobsa-syncutil:
+  version: 0.0~git20150615-1
+  issues:
+    - ftbfs_uninvestigated_test_failures
 golang-go.tools:
   version: 0.0~hg20140703-4
   bugs:
@@ -11308,6 +11316,10 @@ netw-ib-ox-ag:
   version: 5.39.0-1
   issues:
     - build_id_variation_requiring_further_investigation
+networking-arista:
+  version: 2015.1.3-2
+  issues:
+    - ftbfs_uninvestigated_test_failures
 networking-mlnx:
   version: 2015.1~b1+git20150502+400747aa20-1
   issues:
