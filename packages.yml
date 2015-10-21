@@ -3249,6 +3249,10 @@ django-testscenarios:
   version: 0.7.4-2
   issues:
     - ftbfs_uninvestigated_test_failures
+djangorestframework:
+  version: 3.0.5-2
+  issues:
+    - ftbfs_uninvestigated_test_failures
 djbdns:
   version: 1:1.05-8
   issues:
@@ -5898,6 +5902,10 @@ golang-logrus:
   version: 0.7.3-2
   bugs:
     - 802073
+golang-uuid:
+  version: 0.0~hg20140512-1
+  issues:
+    - ftbfs_uninvestigated_test_failures
 goldencheetah:
   version: 3.1.0-1
   issues:
@@ -11038,6 +11046,10 @@ munin:
   version: 2.1.9-1
   issues:
     - timestamps_in_manpages_generated_by_sphinx
+murano:
+  version: 2015.1.0-9
+  issues:
+    - ftbfs_uninvestigated_test_failures
 murano-dashboard:
   version: 2015.1.0-1
   bugs:
