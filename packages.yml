@@ -5877,7 +5877,7 @@ gom:
 google-perftools:
   version: 2.2.1-0.2
   issues:
-    - ftbfs_uninvestigated_big_packages
+    - ftbfs_uninvestigated_test_failures
 gopchop:
   version: 1.1.8-5
   issues:
@@ -6263,9 +6263,9 @@ guile-2.0:
     At least, time of build recorded at:
     https://sources.debian.net/src/guile-2.0/2.0.11%2B1-9/libguile/Makefile.am/?hl=720#L720
 guile-gnome-platform:
-  version: 2.16.2-1.1
-  comments: |
-    builds fine, ftbfs due to test failure
+  version: 2.16.2-2
+  issues:
+    - ftbfs_uninvestigated_test_failures
 guilt:
   version: 0.35-1.2
   issues:
@@ -11031,9 +11031,9 @@ mysecureshell:
   issues:
     - timestamps_from_cpp_macros
 mysql-5.5:
-  version: 5.5.43-0+deb8u1
+  version: 5.5.44-0+deb8u1
   issues:
-    - ftbfs_uninvestigated_big_packages
+    - ftbfs_uninvestigated_test_failures
 mysql-connector-net:
   version: 6.4.3-2
   issues:
@@ -16664,6 +16664,10 @@ taopm:
   version: 1.0-3
   comments: |
     Embeds the build date. https://sources.debian.net/src/taopm/1.0-3/configure.in/#L27
+tar:
+  version: 1.28-2
+  issues:
+    - ftbfs_uninvestigated_test_failures
 tart:
   version: 3.10-1
   issues:

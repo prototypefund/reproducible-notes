@@ -822,3 +822,7 @@ random_order_in_md5sums:
     cd debian/tmp && \
         find * -type f ! -regex "^DEBIAN/.*" -print0 |\
         LC_ALL=C sort -z | xargs -0r md5sum > DEBIAN/md5sums
+ftbfs_uninvestigated_test_failures:
+  description: |
+    Packages that can compile their binaries without problems but then fail
+    one or more tests for unidentified reasons.
