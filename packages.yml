@@ -1548,6 +1548,10 @@ bzr-loom:
   version: 2.2.0-5
   bugs:
     - 802199
+bzr-stats:
+  version: 0.1.0+bzr51-1
+  issues:
+    - ftbfs_uninvestigated_test_failures
 bzr-xmloutput:
   version: 0.8.8+bzr162-5
   issues:
@@ -14682,6 +14686,10 @@ readline6:
     - different_due_to_umask
   bugs:
     - 783136
+realmd:
+  version: 0.16.2-1
+  issues:
+    - ftbfs_uninvestigated_test_failures
 rebar:
   version: 2.6.0-1
   comments: |
@@ -18895,6 +18903,10 @@ zope.sqlalchemy:
   version: 0.6.1-2
   bugs:
     - 793319
+zope.security:
+  version: 4.0.3-1
+  issues:
+    - ftbfs_uninvestigated_test_failures
 zope.traversing:
   version: 3.13.2-2
   bugs:
