@@ -2980,6 +2980,10 @@ debram:
   version: 2.0.0.4
   bugs:
     - 797706
+debtags:
+  version: 2.0.1
+  issues:
+    - ftbfs_uninvestigated_test_failures
 dejagnu:
   version: 1.5.1-2
   comments: |
@@ -8404,6 +8408,10 @@ libdata-hal-perl:
   version: 1.000-1
   bugs:
     - 768687
+libdata-uuid-perl:
+  version: 1.220-1
+  issues:
+    - ftbfs_uninvestigated_test_failures
 libdbi-drivers:
   version: 0.9.0-3
   issues:
@@ -11272,6 +11280,10 @@ netw-ib-ox-ag:
   version: 5.39.0-1
   issues:
     - build_id_variation_requiring_further_investigation
+networking-mlnx:
+  version: 2015.1~b1+git20150502+400747aa20-1
+  issues:
+    - ftbfs_uninvestigated_test_failures
 netxx:
   version: 0.3.2-2
   comments: |
