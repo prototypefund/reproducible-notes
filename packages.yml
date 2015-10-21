@@ -5671,6 +5671,10 @@ gnome-keyring-sharp:
   version: 1.0.0-4
   issues:
     - timestamps_in_pe_binaries
+gnome-mousetrap:
+  version: 3.17.3-1
+  issues:
+    - ftbfs_uninvestigated_test_failures
 gnome-pie:
   version: 0.6.6-1
   issues:
@@ -11273,6 +11277,10 @@ netxx:
   comments: |
     Embed build time:
     https://sources.debian.net/src/netxx/0.3.2-2/tools/genconfig/?hl=59,131#L59
+neutron-vpnaas:
+  version: 2015.1.1-1
+  issues:
+    - ftbfs_uninvestigated_test_failures
 newmail:
   version: 0.5-2
   issues:
@@ -16769,6 +16777,10 @@ tellico:
   version: 2.3.9+dfsg.1-1
   bugs:
     - 799520
+tempest:
+  version: 4-2
+  issues:
+    - ftbfs_uninvestigated_test_failures
 templayer:
   version: 1.5.1-1
   comments: |
