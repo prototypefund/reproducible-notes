@@ -460,9 +460,11 @@ apcupsd:
   issues:
     - different_encoding
 apertium-en-ca:
-  version: 0.8.9-1
+  version: 0.9.3~r61232-1
   issues:
     - ftbfs_uninvestigated_unsatisfiable_dependencies
+  bugs:
+    - 802481
 apertium-en-es:
   version: 0.6.0-1.1
   issues:
