@@ -8004,6 +8004,10 @@ kwidgetsaddons:
   version: 5.12.0-1
   comments: |
     Whilst the package uses kde cdbs helpers etc., it should -- after all that -- use dh_builddeb and thus have the mtimes set correctly.. but they are not
+kxd:
+  version: 0.12-4
+  issues:
+    - ftbfs_uninvestigated_test_failures
 kxmlgui:
   version: 5.11.0-1
   comments: |
@@ -8252,6 +8256,10 @@ libaqbanking:
     https://sources.debian.net/src/libaqbanking/5.6.1beta-1/Doxyfile.in/#L573
     This should be fixed upstrea:
     http://git.aqbanking.de/gitweb/?p=aqbanking.git;a=commitdiff;h=4127ab7619aa03ac70dbc06838589278f2a03ca0
+libarchive:
+  version: 3.1.2-11
+  issues:
+    - ftbfs_uninvestigated_test_failures
 libasm4-java:
   version: 5.0.4-1
   issues:
@@ -13751,6 +13759,14 @@ python-fudge:
     - timestamps_in_documentation_generated_by_sphinx
   bugs:
     - 788501
+python-futurist:
+  version: 0.5.0-2
+  issues:
+    - ftbfs_uninvestigated_test_failures
+python-gammu:
+  version: 2.4-1
+  issues:
+    - ftbfs_uninvestigated_test_failures
 python-geopandas:
   version: 0.1.1-1
   bugs:
