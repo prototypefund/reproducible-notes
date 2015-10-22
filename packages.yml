@@ -6192,6 +6192,10 @@ gstreamer1.0:
   issues:
     - pdf_created_by_ghostscript
     - timestamps_in_ps_generated_by_dvips
+gstreamermm-1.0:
+  version: 1.4.3+dfsg-5
+  issues:
+    - ftbfs_temporary_glibmm24_bug
 gtg-trace:
   version: 0.2-2+dfsg-1
   issues:
@@ -6250,6 +6254,10 @@ gtkimageview:
     - 789101
 gtkmm2.4:
   version: 1:2.24.4-2
+  issues:
+    - ftbfs_temporary_glibmm24_bug
+gtkspellmm:
+  version: 3.0.3+dfsg-2
   issues:
     - ftbfs_temporary_glibmm24_bug
 gtkpod:
@@ -10105,6 +10113,10 @@ lush:
   bugs:
     - 787650
     - 787651
+lv2-c++-tools:
+  version: 1.0.5-1
+  issues:
+    - ftbfs_temporary_glibmm24_bug
 lvm2:
   version: 2.02.122-2
   issues:
