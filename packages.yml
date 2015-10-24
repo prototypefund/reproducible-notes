@@ -5907,6 +5907,10 @@ golang-github-hanwen-usb:
   version: 0.0~git20141217.0.69aee45-1
   bugs:
     - 799075
+golang-github-hashicorp-mdns:
+  version: 0.0~git20150317.0.2b439d3-1
+  issues:
+    - ftbfs_uninvestigated_test_failures
 golang-github-hashicorp-memberlist:
   version: 0.0~git20150921.0.28424fb-1
   issues:
@@ -5975,6 +5979,10 @@ gosu:
   version: 1.6-1
   issues:
     - build_id_variation_requiring_further_investigation
+gparted:
+  version: 0.19.0-3
+  issues:
+    - ftbfs_temporary_glibmm24_bug
 gperf:
   version: 3.0.4-1
   issues:
