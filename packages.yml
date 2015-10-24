@@ -5907,6 +5907,10 @@ golang-github-hanwen-usb:
   version: 0.0~git20141217.0.69aee45-1
   bugs:
     - 799075
+golang-github-hashicorp-memberlist:
+  version: 0.0~git20150921.0.28424fb-1
+  issues:
+    - ftbfs_uninvestigated_test_failures
 golang-github-jacobsa-ratelimit:
   version: 0.0~git20150723.0.2ca5e0c-1
   bugs:
@@ -15142,6 +15146,10 @@ ruby-colored:
   version: 1.2-2
   issues:
     - timestamps_in_gemspec_files
+ruby-connection-pool:
+  version: 2.2.0-1
+  issues:
+    - ftbfs_uninvestigated_test_failures
 ruby-coveralls:
   version: 0.7.0-1
   bugs:
@@ -15702,6 +15710,10 @@ s3d:
   version: 0.2.2-10
   issues:
     - different_encoding
+s3ql:
+  version: 2.15+dfsg-1
+  issues:
+    - ftbfs_uninvestigated_test_failures
 s5:
   version: 1.1.dfsg.2-5
   issues:
