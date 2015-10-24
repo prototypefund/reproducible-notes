@@ -1264,6 +1264,8 @@ bino:
   version: 1.6.0-1
   issues:
     - timestamps_in_documentation_generated_by_texi2html
+  bugs:
+    - 802374
 bintray-client-java:
   version: 0.8.1-1
   issues:
@@ -2984,6 +2986,8 @@ debmake-doc:
     Dynamically includes generates directory listings with umask, etc.
   issues:
     - fonts_in_pdf_files
+  bugs:
+    - 802395
 debomatic:
   version: 0.13-1
   issues:
@@ -3012,6 +3016,8 @@ derivations:
   version: 0.53.20120414-1.2
   issues:
     - timestamps_in_dvi_generated_by_latex
+  bugs:
+    - 802397
 desktop-profiles:
   version: 1.4.20
   issues:
@@ -3177,6 +3183,7 @@ dipy:
     - timestamps_in_documentation_generated_by_sphinx
   bugs:
     - 789747
+    - 802398
 directfb:
   version: 1.2.10.0-5.1
   issues:
@@ -3383,6 +3390,8 @@ doxia:
   version: 1.1.4-2
   issues:
     - random_order_in_plexus_comonents_xml
+  bugs:
+    - 649772
 doxia-sitetools:
   version: 1.1.4-1
   issues:
@@ -3817,6 +3826,8 @@ erlang:
   version: 1:18.0-dfsg-1
   issues:
     - timestamps_in_beam_files
+  bugs:
+    - 802400
 erlang-bear:
   version: 0.8.2+dfsg-1
   issues:
@@ -4178,6 +4189,8 @@ feel++:
   version: 1:0.99.0-final.1-1
   comments: |
     extract_command.sh needs LC_ALL=C before calls to sort and the call to date to use changelog date
+  bugs:
+    - 777848
 feh:
   version: 2.12.1-1
   comments: |
@@ -5894,6 +5907,10 @@ golang-github-jacobsa-syncutil:
   version: 0.0~git20150615-1
   issues:
     - ftbfs_uninvestigated_test_failures
+golang-github-spf13-fsync:
+  version: 0.0~git20141101.0.1fdf08f-1
+  bugs:
+    - 802340
 golang-go.tools:
   version: 0.0~hg20140703-4
   bugs:
@@ -5950,6 +5967,10 @@ gperf:
   version: 3.0.4-1
   issues:
     - timestamps_in_documentation_generated_by_texi2html
+gphoto2-cffi:
+  version: 0.2-2
+  bugs:
+    - 793328
 gphpedit:
   version: 0.9.98-3
   issues:
@@ -6256,14 +6277,14 @@ gtkmm2.4:
   version: 1:2.24.4-2
   issues:
     - ftbfs_temporary_glibmm24_bug
-gtkspellmm:
-  version: 3.0.3+dfsg-2
-  issues:
-    - ftbfs_temporary_glibmm24_bug
 gtkpod:
   version: 2.1.4-4
   issues:
     - timestamps_from_cpp_macros
+gtkspellmm:
+  version: 3.0.3+dfsg-2
+  issues:
+    - ftbfs_temporary_glibmm24_bug
 gtools:
   version: 3.5.0-1
   issues:
@@ -9207,6 +9228,10 @@ libpam-sshauth:
   version: 0.3.1-1
   bugs:
     - 789106
+libpar2:
+  version: 0.4-4
+  bugs:
+    - 802343
 libparse-debianchangelog-perl:
   version: 1.2.0-1.1
   comments: |
@@ -9944,6 +9969,12 @@ logbook:
   version: 0.7.0-1
   issues:
     - timestamps_in_python_version_numbers
+  bugs:
+    - 802404
+loggerhead:
+  version: 1.19~bzr479+dfsg-1
+  issues:
+    - ftbfs_uninvestigated_test_failures
 logidee-tools:
   version: 1.2.16
   issues:
@@ -9952,10 +9983,6 @@ logilab-common:
   version: 0.62.0-1
   issues:
     - use_epydoc
-loggerhead:
-  version: 1.19~bzr479+dfsg-1
-  issues:
-    - ftbfs_uninvestigated_test_failures
 logol:
   version: 1.7.2-1
   comments: |
@@ -10446,6 +10473,8 @@ maven-project-info-reports-plugin:
   version: 2.4-2
   issues:
     - locale_differences_in_pom
+  bugs:
+    - 802405
 maven-scm:
   version: 1.3-5
   issues:
@@ -10853,6 +10882,8 @@ monodevelop:
   version: 5.5.0.227-1
   issues:
     - timestamps_in_pe_binaries
+  bugs:
+    - 802406
 monodevelop-database:
   version: 5.5.0.227+dfsg-1
   issues:
@@ -11412,6 +11443,8 @@ nibabel:
   version: 2.0.1-1
   issues:
     - timestamps_in_pdf_generated_by_matplotlib
+  bugs:
+    - 802408
 nickle:
   version: 2.77-1
   issues:
@@ -11440,6 +11473,8 @@ nipype:
   version: 0.10.0-2
   issues:
     - randomness_in_documentation_generated_by_sphinx
+  bugs:
+    - 802409
 nis:
   version: 3.17-34
   issues:
@@ -11453,6 +11488,8 @@ nitime:
     Randomness in example images because of random() without constant seed.
   issues:
     - timestamps_in_documentation_generated_by_sphinx
+  bugs:
+    - 802524
 nitrogen:
   version: 1.5.2-2
   issues:
@@ -11530,6 +11567,10 @@ node-raw-body:
   version: 1.2.0-1
   bugs:
     - 800096
+node-sqlite3:
+  version: 2.2.0+ds1-1
+  bugs:
+    - 802349
 node-srs:
   version: 0.4.8+dfsg-1
   bugs:
@@ -11550,6 +11591,10 @@ node-yawl:
   version: 1.0.2-1
   bugs:
     - 802350
+node-zipfile:
+  version: 0.5.0+ds-1
+  bugs:
+    - 802351
 node-zlib:
   version: 1.0.5-1
   bugs:
@@ -12049,6 +12094,8 @@ openais:
   version: 1.1.4-4.2
   issues:
     - timestamps_in_documentation_generated_by_groff
+  bugs:
+    - 802410
 openbabel:
   version: 2.3.2+dfsg-2
   issues:
@@ -12928,6 +12975,10 @@ pinball:
   version: 0.3.1-13.2
   issues:
     - timestamps_in_manpages_generated_by_docbook_utils
+pink-pony:
+  version: 1.4.1-1
+  bugs:
+    - 802352
 pinta:
   version: 1.3-3
   issues:
@@ -13296,6 +13347,7 @@ psocksxx:
     - timestamps_in_documentation_generated_by_doxygen
   bugs:
     - 789399
+    - 802523
 pspp:
   version: 0.8.4-1
   comments: |
@@ -13514,6 +13566,8 @@ pymvpa2:
   version: 2.3.1-2
   issues:
     - randomness_in_documentation_generated_by_sphinx
+  bugs:
+    - 802526
 pynifti:
   version: 0.20100607.1-4
   issues:
@@ -13867,6 +13921,10 @@ python-igraph:
   version: 0.6.5-1
   bugs:
     - 759858
+python-imaplib2:
+  version: 2.50-1
+  bugs:
+    - 802353
 python-invocations:
   version: 0.6.2-1
   bugs:
@@ -14075,6 +14133,7 @@ python-requirements-detector:
     Affected by #800788 in python3-astroid
   bugs:
     - 800788
+    - 802414
 python-rtslib-fb:
   version: 2.1.45-4
   issues:
@@ -14855,6 +14914,7 @@ rivet:
     - timestamps_in_pdf_generated_by_latex
   bugs:
     - 788955
+    - 802355
 rkward:
   version: 0.6.2~rc1-2
   issues:
@@ -15176,6 +15236,8 @@ ruby-github-markup:
   version: 1.2.1+dfsg-1
   issues:
     - timestamps_in_ruby_documentation
+  bugs:
+    - 802421
 ruby-god:
   version: 0.13.6-1
   issues:
@@ -15833,6 +15895,10 @@ sdlgfx:
   version: 2.0.25-4
   issues:
     - users_and_groups_in_tarball
+seaborn:
+  version: 0.6.0-1
+  bugs:
+    - 802412
 sed:
   version: 4.2.2-6.1
   issues:
@@ -16246,6 +16312,10 @@ sonnet:
   comments: |
     Caused by QHash usage (instead of QMap?) in data/parsetrigrams.cpp. Could
     also be filesystem ordering here too.
+sooperlooper:
+  version: 1.7.3~dfsg0-1
+  bugs:
+    - 802365
 sord:
   version: 0.12.2~dfsg0-1
   issues:
@@ -16655,6 +16725,8 @@ svnkit:
     - timestamps_manually_added_needs_further_investigation
     - timezones_manpages_podman
     - locale_in_documentation_generated_by_javadoc
+  bugs:
+    - 802356
 svtplay-dl:
   version: 0.10.2015.05.24-1
   comments: |
@@ -17008,6 +17080,7 @@ thepeg:
     - timestamps_in_documentation_generated_by_doxygen
   bugs:
     - 790035
+    - 802418
 therion:
   version: 5.3.15-2
   comments: |
@@ -17920,6 +17993,8 @@ votca-csg:
   version: 1.2.4-1
   issues:
     - timestamps_from_cpp_macros
+  bugs:
+    - 802357
 votca-tools:
   version: 1.2.4-1
   issues:
@@ -18437,6 +18512,8 @@ xenomai:
   version: 2.6.3-2
   comments: |
     Timestamps in a patch that is generated at build time.
+  bugs:
+    - 802420
 xfaces:
   version: 3.3-28
   issues:
@@ -18897,6 +18974,8 @@ zemberek-ooo:
   version: 1.0~rc2-10.4
   issues:
     - different_encoding
+  bugs:
+    - 802416
 zephyr:
   version: 3.1.2-1
   comments: |
@@ -18955,14 +19034,18 @@ zope.i18n:
   version: 4.0.1-2
   bugs:
     - 802113
-zope.sqlalchemy:
-  version: 0.6.1-2
+zope.schema:
+  version: 4.4.2-2
   bugs:
-    - 793319
+    - 802415
 zope.security:
   version: 4.0.3-1
   issues:
     - ftbfs_uninvestigated_test_failures
+zope.sqlalchemy:
+  version: 0.6.1-2
+  bugs:
+    - 793319
 zope.traversing:
   version: 3.13.2-2
   bugs:
