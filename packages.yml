@@ -4646,10 +4646,6 @@ fossil:
   version: 1:1.29-1
   issues:
     - timestamps_from_cpp_macros
-foundry:
-  version: 0.0.20130809-2
-  bugs:
-    - 799817
 fox1.6:
   version: 1.6.50-1
   issues:
@@ -10777,10 +10773,6 @@ monajat:
   version: 2.6.5-1
   issues:
     - different_pot_creation_date_in_gettext_mo_files
-monav:
-  version: 0.3-8
-  bugs:
-    - 788767
 mondrian:
   version: 3.4.1-1
   issues:
@@ -11223,10 +11215,10 @@ ncompress:
     https://sources.debian.net/src/ncompress/4.2.4.4-9/Makefile.def/?hl=41#L41
 ncurses:
   version: 6.0+20151017-1
-  bugs:
-    - 801864
   comments: |
     Capture user id, group id, and permissions in static libraries.
+  bugs:
+    - 801864
 ndesk-dbus:
   version: 0.6.0-6
   issues:
@@ -12751,10 +12743,6 @@ perlpanel:
     - timestamps_in_gzip_headers
   bugs:
     - 777444
-perroquet:
-  version: 1.1.1-3
-  issues:
-    - timestamps_in_manpages_generated_by_docbook_xsl
 pescetti:
   version: 0.5-1
   issues:
