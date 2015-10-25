@@ -121,6 +121,8 @@ activemq:
     also timestamps_in_maven_pom_files, probably fixed by a rebuild
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 802858
 activiz.net:
   version: 1:1.0~git20111214-2
   issues:
@@ -2030,10 +2032,6 @@ clanlib:
   version: 1.0~svn3827-3
   bugs:
     - 790357
-clasp:
-  version: 3.1.2-1
-  bugs:
-    - 799989
 classified-ads:
   version: 0.07-1
   bugs:
@@ -2501,6 +2499,8 @@ cross-binutils:
   issues:
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
+  bugs:
+    - 802859
 cross-toolchain-base:
   version: 6
   bugs:
@@ -2859,10 +2859,6 @@ ddd:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/ddd/1:3.3.12-5/ddd/config-info/#L53-L63
-deal.ii:
-  version: 8.1.0-4
-  bugs:
-    - 789975
 deap:
   version: 1.0.1-3+deb8u1
   issues:
@@ -3157,10 +3153,6 @@ directfb:
   version: 1.2.10.0-5.1
   issues:
     - timestamps_from_cpp_macros
-dirspec:
-  version: 4.2.0-2
-  bugs:
-    - 798666
 dist:
   version: 1:3.5-36-2
   bugs:
@@ -3411,10 +3403,6 @@ drbd-utils:
   comments: |
     Embed build time, user, and hostname:
     https://sources.debian.net/src/drbd-utils/8.9.2~rc1-2/user/shared/Makefile.in/?hl=86#L65
-drift:
-  version: 2.2.3-2.2
-  bugs:
-    - 713313
 drmips:
   version: 1.3.0-2
   comments: |
@@ -3673,6 +3661,8 @@ eliom:
   version: 4.0.0-2
   issues:
     - timestamps_in_documentation_generated_by_ocamldoc
+  bugs:
+    - 802860
 elixir-lang:
   version: 1.1.0-1
   issues:
@@ -6610,10 +6600,6 @@ hplip:
   version: 3.14.6-1
   issues:
     - ppds_compressed_b64
-hspell:
-  version: 1.2-2.1
-  bugs:
-    - 796275
 hsqldb:
   version: 2.2.9+dfsg-4
   comments: |
@@ -7343,12 +7329,6 @@ jenkins-dom4j:
   version: 1.6.1-jenkins-4-1
   issues:
     - locale_in_documentation_generated_by_javadoc
-jenkins-job-builder:
-  version: 0.9.0-0.2
-  issues:
-    - timestamps_in_manpages_generated_by_sphinx
-  bugs:
-    - 782472
 jenkins-mailer-plugin:
   version: 1.11-1
   issues:
@@ -7682,6 +7662,8 @@ kalzium:
   version: 4:4.14.2-1
   issues:
     - randomness_in_ocaml_startup_files
+  bugs:
+    - 802861
 kamailio:
   version: 4.2.0-1.1
   issues:
@@ -8495,10 +8477,6 @@ libdevel-gdb-perl:
   version: 2.02-2
   bugs:
     - 784845
-libdevice-cdio-perl:
-  version: 0.3.0-5
-  bugs:
-    - 798927
 libdr-tarantool-perl:
   version: 0.43-1
   bugs:
@@ -8650,6 +8628,8 @@ libgnatcoll:
   version: 1.6gpl2014-8
   issues:
     - build_id_variation_requiring_further_investigation
+  bugs:
+    - 802862
 libgnome2-perl:
   version: 1.045-3
   comments: |
@@ -9103,10 +9083,6 @@ libmodule-extractuse-perl:
     Original issue caused by non-determinism in libparse-recdescent-perl.
     Original patch sent in \#790397 but now the issue seems to be that sometimes
     the file is not regenerated (TZ?) but I cannot reproduce.
-libmodule-starter-plugin-cgiapp-perl:
-  version: 0.42-1
-  bugs:
-    - 796535
 libmoosex-app-cmd-perl:
   version: 0.27-2
   bugs:
@@ -9675,7 +9651,6 @@ libxml2:
     - 766884
     - 781232
     - 795279
-    - 796031
     - 797450
     - 797490
 libxmlada:
@@ -9917,10 +9892,6 @@ lmfit-py:
   version: 0.8.0+dfsg.1-1
   bugs:
     - 802085
-lmms:
-  version: 1.0.3-5
-  bugs:
-    - 777989
 loadlin:
   version: 1.6f-3
   issues:
@@ -10046,7 +10017,6 @@ lrzsz:
 lsof:
   version: 4.86+dfsg-1
   bugs:
-    - 762433
     - 793980
 ltsp:
   version: 5.5.4-2
@@ -10815,6 +10785,8 @@ mondrian:
   version: 3.4.1-1
   issues:
     - timestamps_generated_by_eigenbase_resgen
+  bugs:
+    - 802863
 mongodb:
   version: 1:2.4.14-3
   issues:
@@ -11681,6 +11653,8 @@ nss-passwords:
   version: 0.2-1
   issues:
     - randomness_in_ocaml_custom_executables
+  bugs:
+    - 802865
 nted:
   version: 1.10.18-8
   issues:
@@ -12415,10 +12389,6 @@ pachi:
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 787125
-packagesearch:
-  version: 2.7.4
-  bugs:
-    - 798808
 packaging-tutorial:
   version: 0.15
   issues:
@@ -13362,10 +13332,6 @@ ptouch-driver:
   version: 1.3-8
   issues:
     - ppds_compressed_b64
-publican:
-  version: 4.3.1-1
-  bugs:
-    - 796031
 pudb:
   version: 2015.1-1
   issues:
@@ -13516,10 +13482,6 @@ pyliblo:
   version: 0.10.0-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
-pylibmc:
-  version: 1.5.0-2
-  bugs:
-    - 799576
 pylint:
   version: 1.4.4-1
   bugs:
@@ -13665,10 +13627,6 @@ python-3to2:
   version: 1.1.1-1
   issues:
     - python_3_dot_5_becomes_python_3
-python-admesh:
-  version: 0.98.4-1
-  bugs:
-    - 799657
 python-apt:
   version: 0.9.3.11
   issues:
@@ -13697,6 +13655,8 @@ python-biom-format:
   version: 2.1+dfsg-1
   issues:
     - timestamps_in_documentation_generated_by_sphinx
+  bugs:
+    - 802867
 python-biopython:
   version: 1.65+dfsg-1
   bugs:
@@ -13835,12 +13795,6 @@ python-enable:
   version: 4.5.1-2
   issues:
     - build_id_variation_requiring_further_investigation
-python-ethtool:
-  version: 0.11-2
-  issues:
-    - timestamps_in_manpages_generated_by_docbook_xsl
-  bugs:
-    - 797250
 python-expyriment:
   version: 0.7.0+git34-g55a4e7e-3
   issues:
@@ -13943,10 +13897,6 @@ python-launchpadlib:
   version: 1.10.3-2
   bugs:
     - 802136
-python-libdiscid:
-  version: 0.4.1-3
-  bugs:
-    - 799839
 python-llfuse:
   version: 0.40+dfsg-2
   issues:
@@ -14217,10 +14167,6 @@ python-tosca-parser:
   version: 0.1.0-2
   bugs:
     - 802150
-python-traceback2:
-  version: 1.4.0-2
-  bugs:
-    - 799163
 python-tzlocal:
   version: 1.2-1
   bugs:
@@ -14400,10 +14346,6 @@ qsampler:
   version: 0.2.2-5
   issues:
     - timestamps_from_cpp_macros
-qsapecng:
-  version: 2.0.0-6
-  bugs:
-    - 799998
 qsf:
   version: 1.2.7-1
   bugs:
@@ -14550,6 +14492,8 @@ quassel:
   version: 1:0.10.0-2.2
   issues:
     - timestamps_from_cpp_macros
+  bugs:
+    - 802868
 quelcom:
   version: 0.4.0-13
   issues:
@@ -14573,6 +14517,8 @@ qupzilla:
   version: 1.8.3.1~dfsg1-4
   issues:
     - timestamps_from_cpp_macros
+  bugs:
+    - 802869
 qutecom:
   version: 2.2.1+dfsg1-5.2
   issues:
@@ -15417,10 +15363,6 @@ ruby-opengraph-parser:
   version: 0.2.3+gh-1
   bugs:
     - 800030
-ruby-org:
-  version: 0.9.1-2
-  bugs:
-    - 794275
 ruby-parseconfig:
   version: 1.0.2-1
   issues:
@@ -16135,10 +16077,6 @@ siscone:
     - timestamps_in_documentation_generated_by_doxygen
   bugs:
     - 790034
-sitemesh:
-  version: 2.4.1+dfsg-4
-  bugs:
-    - 792838
 skalibs:
   version: 0.47-1
   issues:
@@ -16527,10 +16465,6 @@ srtp:
   version: 1.4.5~20130609~dfsg-1.1
   issues:
     - timestamps_in_pdf_generated_by_latex
-sslsniff:
-  version: 0.8-4.2
-  bugs:
-    - 795511
 sslsplit:
   version: 0.4.11+dfsg-1
   issues:
@@ -17444,10 +17378,6 @@ tumiki-fighters:
   version: 0.2.dfsg1-6
   bugs:
     - 794400
-tunnelx:
-  version: 20140102-2
-  bugs:
-    - 799221
 tupi:
   version: 0.2+git05-3
   comments: |
@@ -18331,12 +18261,6 @@ wsjt:
   version: 9.7.r3639+dfsg-1
   issues:
     - ftbfs_wdatetime
-wtforms:
-  version: 2.0.1-1
-  issues:
-    - timestamps_in_documentation_generated_by_sphinx
-  bugs:
-    - 788599
 wxglade:
   version: 0.7.1~rc1-1
   bugs:
@@ -18502,6 +18426,9 @@ xen:
     - timestamps_in_gzip_headers
     - timezones_manpages_podman
     - different_due_to_umask
+  bugs:
+    - 793132
+    - 802870
 xenomai:
   version: 2.6.3-2
   comments: |
@@ -18952,6 +18879,8 @@ zeal:
   version: 1:0.1.1-1
   issues:
     - timestamps_from_cpp_macros
+  bugs:
+    - 802871
 zeitgeist-explorer:
   version: 0.2-1
   bugs:
