@@ -9526,6 +9526,10 @@ libtemplates-parser:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_ada_library_information_files
+libtest-expect-perl:
+  version: 0.33-1
+  issues:
+    - ftbfs_uninvestigated_test_failures
 libtest-log4perl-perl:
   version: 0.1001-3.1
   bugs:
@@ -13326,6 +13330,10 @@ projectl:
   version: 1.001.dfsg1-7
   bugs:
     - 795945
+prometheus-pushgateway:
+  version: 0.2.0+ds-2
+  issues:
+    - ftbfs_uninvestigated_test_failures
 proofgeneral:
   version: 4.3~pre131011-0.2
   issues:
