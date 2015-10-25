@@ -11416,6 +11416,10 @@ netxx:
   comments: |
     Embed build time:
     https://sources.debian.net/src/netxx/0.3.2-2/tools/genconfig/?hl=59,131#L59
+neutron-lbaas:
+  version: 2015.1.0-3
+  issues:
+    - ftbfs_uninvestigated_test_failures
 neutron-vpnaas:
   version: 2015.1.1-1
   issues:
@@ -16597,6 +16601,10 @@ staden:
   version: 2.0.0+b10-1.1
   bugs:
     - 793514
+starlet:
+  version: 0.26-1
+  issues:
+    - ftbfs_uninvestigated_test_failures
 starlink-ast:
   version: 8.0.2+dfsg-2
   issues:
