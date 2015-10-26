@@ -800,11 +800,11 @@ random_buildpath_by_octave:
     When octave programs are built, they are first copied into a temporary directory (/tmp/oct-xxxxxx) and compiled there.
     This leads to a variation of the build id.
     https://sources.debian.net/src/octave/4.0.0-5/scripts/pkg/private/install.m/?hl=67,70,96#L67
-python_3_dot_5_becomes_python_3:
+python_shebang_and_dependency_nondeterministically_3_or_3_point_5:
   description: |
     The initial line of python programs is #!/usr/bin/python3.5 in build1 and #!/usr/bin/python3 in build2.
     I believe this is actually a bug in easy_install, although there was also a
-    bug in pyversions.
+    bug pyversions.
   url: https://bugs.debian.org/801376
 timestamps_in_directories:
   description: |
