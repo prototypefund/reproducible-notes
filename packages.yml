@@ -3037,10 +3037,6 @@ dfc:
   version: 3.0.5-0.1
   issues:
     - different_pot_creation_date_in_gettext_mo_files
-dfo:
-  version: 0.8+svn52-7
-  issues:
-    - timestamps_in_pe_binaries
 dh-ada-library:
   version: 6.4
   issues:
@@ -6737,11 +6733,6 @@ ibus-rime:
   version: 1.2-1
   issues:
     - build_id_variation_requiring_further_investigation
-ibus-sharada-braille:
-  version: 0.1.2.99+git0.c90ffb02-2
-  comments: |
-    Embeds the build date.
-    https://sources.debian.net/src/ibus-sharada-braille/0.1.2.99%2Bgit0.c90ffb02-2/configure.ac/#L27-L31
 ibus-table:
   version: 1.9.1-3
   issues:
@@ -9996,10 +9987,6 @@ londonlaw:
   version: 0.2.1-18
   issues:
     - pdf_created_by_ghostscript
-longomatch:
-  version: 0.16.8+git20110626-2
-  issues:
-    - timestamps_in_pe_binaries
 lookup:
   version: 1.08b-11
   issues:
@@ -10969,10 +10956,6 @@ mp3fs:
     https://sources.debian.net/src/mp3fs/0.91-1/Makefile.am/?hl=11#L11
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-mp3splt-gtk:
-  version: 0.7.2-2
-  bugs:
-    - 759888
 mp4h:
   version: 1.3.1-9
   issues:
