@@ -812,10 +812,6 @@ timestamps_in_directories:
     and it's different from varying_mtimes_in_data_tar_gz_or_control_tar_gz which is mainly for packages that
     do not try to build reproducibly yet.
   url: https://bugs.debian.org/802005
-random_order_in_dh_systemd_unit_files_list:
-  description: |
-    dh_systemd doesn't sort the list of unit/service files when generating sections for postinst/prerm.
-  url: https://bugs.debian.org/801470
 random_order_in_static_libraries:
   description: |
     order of members in a static library change between build1 and build2
