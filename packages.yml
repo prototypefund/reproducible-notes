@@ -11716,6 +11716,11 @@ ntop:
   version: 3:5.0.1+dfsg1-2.1
   issues:
     - timestamps_from_cpp_macros
+ntopng:
+  version: 2.0+dfsg1-1
+  comments: |
+    Embeds the build date.
+    https://sources.debian.net/src/ntopng/2.0%2Bdfsg1-1/autogen.sh/#L3-L8
 ntp:
   version: 1:4.2.6.p5+dfsg-7
   comments: |
