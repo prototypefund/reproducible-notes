@@ -1609,6 +1609,10 @@ calendar:
   version: 2.04-1
   issues:
     - randomness_in_ocaml_packed_libraries
+calendarserver:
+  version: 5.2.2+dfsg-2
+  bugs:
+    - 803061
 calibre:
   version: 2.20.0+dfsg-1
   issues:
@@ -3427,6 +3431,10 @@ drbd-utils:
   comments: |
     Embed build time, user, and hostname:
     https://sources.debian.net/src/drbd-utils/8.9.2~rc1-2/user/shared/Makefile.in/?hl=86#L65
+drift:
+  version: 2.2.3-2.3
+  issues:
+    - timestamps_in_ps_generated_by_dvips
 drmips:
   version: 1.3.0-2
   comments: |
@@ -14583,6 +14591,10 @@ qutecom:
     - timestamps_from_cpp_macros
 qutemol:
   version: 0.4.1~cvs20081111-3.2
+  issues:
+    - timestamps_from_cpp_macros
+qxgedit:
+  version: 0.3.0-1
   issues:
     - timestamps_from_cpp_macros
 r-base:
