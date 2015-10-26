@@ -2880,6 +2880,10 @@ debdelta:
   bugs:
     - 777730
     - 793004
+debdry:
+  version: 0.2.1-1
+  issues:
+    - python_3_dot_5_becomes_python_3
 debian-builder:
   version: 1.8
   issues:
@@ -13647,6 +13651,10 @@ python-authkit:
   version: 0.4.3-2
   issues:
     - timestamps_in_directories
+python-avro:
+  version: 1.8.0~rc0+dfsg-1
+  issues:
+    - python_3_dot_5_becomes_python_3
 python-babel:
   version: 1.3+dfsg.1-5
   bugs:
