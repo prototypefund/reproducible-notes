@@ -36,11 +36,6 @@ timestamps_in_documentation_generated_by_asciidoc:
     This timestamp is based in the date of the file, but can change depending on the TZ environment variable.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInDocumentationGeneratedByAsciidoc
   deterministic: True
-timestamps_generated_by_docbook_to_man:
-  description: |
-    docbook-to-man adds a timestamp at the end of manpages it generates.
-  url: https://wiki.debian.org/ReproducibleBuilds/TimestampsGeneratedByDocbookToMan
-  deterministic: True
 random_anchor_names_generated_by_docbook_to_man:
   description: |
     docbook-to-man uses non-deterministic <a> anchor names
@@ -752,24 +747,11 @@ random_order_in_ibus_table_createdb_output:
 random_order_in_antlr_output:
   description: |
     The ANTLR parser generaor can have reordered source lines.
-nondetermistic_link_order_in_module_build:
-  description: |
-    Module::Build links object files in readdir order, which is nondeterministic.
-  url: https://bugs.debian.org/797709
 timestamps_in_tex_documents:
   description: |
     The TeX \today macro embeds the build date in the files generated
     from it (DVI, PS, PDF, etc.). This should probably be changed to
     honour SOURCE_DATE_EPOCH from the environment.
-timestamps_in_reports_generated_by_abi_compliance_checker:
-  description: |
-    abi-compliance-checker generates HTML reports with embedded timestamps.
-  url: https://bugs.debian.org/798470
-umask_and_timestamp_variation_in_tgz_generated_by_abi_compliance_checker:
-  description: |
-    abi-compliance-checker generates foo.abi.tar.gz with varying embedded
-    umask and timestamp
-  url: https://bugs.debian.org/798481
 timestamps_added_by_blast2:
   description: |
     formatdb from blast2 adds a timestamp.
