@@ -326,6 +326,10 @@ amora-server:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/amora-server/1.2~svn%2Bgit2015.04.25-1/amora-cli/m4/auxdevel.m4/#L126
+ampache:
+  version: 3.6-rzb2752+dfsg-6
+  issues:
+    - timestamps_in_directories
 ampsharp:
   version: 2.0.4-2
   issues:
@@ -2016,6 +2020,10 @@ circuits:
   version: 3.1.0+ds1-1
   issues:
     - timestamps_in_documentation_generated_by_sphinx
+citeproc-py:
+  version: 0.3.0-1
+  issues:
+    - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
 cjk:
   version: 4.8.3+git20140831-1
   comments: |
@@ -7591,6 +7599,10 @@ jsmath-fonts-sprite:
     - timestamps_difference_by_unzip
   bugs:
     - 792597
+jsrender:
+  version: 1.0~pre21-1
+  issues:
+    - timestamps_in_directories
 jss:
   version: 4.3.1-6
   issues:
@@ -10682,6 +10694,10 @@ minc-tools:
   version: 2.3.00+dfsg-1
   issues:
     - build_id_variation_requiring_further_investigation
+minetest-mod-mobf:
+  version: 2.3.6-1
+  issues:
+    - timestamps_in_directories
 mingw-ocaml:
   version: 4.01.0~20140328-1
   issues:
@@ -14195,10 +14211,6 @@ python-setproctitle:
   version: 1.1.8-1
   issues:
     - different_encoding
-python-setuptools:
-  version: 5.5.1-1
-  issues:
-    - python_wheel_package
 python-sfml:
   version: 1.5.1.is.1.3+dfsg-1
   issues:
@@ -14267,10 +14279,6 @@ python-udiskie:
   version: 1.2.0-2
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-python-urllib3:
-  version: 1.10.4-1
-  issues:
-    - python_wheel_package
 python-visual:
   version: 1:5.12-1.6
   issues:
