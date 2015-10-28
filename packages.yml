@@ -5918,6 +5918,10 @@ golang-github-jacobsa-syncutil:
   version: 0.0~git20150615-1
   issues:
     - ftbfs_uninvestigated_test_failures
+golang-github-mattn-go-sqlite3:
+  version: 1.0.0~dfsg1-2
+  issues:
+    - ftbfs_uninvestigated_test_failures
 golang-github-spf13-fsync:
   version: 0.0~git20141101.0.1fdf08f-1
   bugs:
@@ -8336,6 +8340,10 @@ libasm4-java:
   issues:
     - timestamps_in_documentation_generated_by_javadoc
     - locale_in_documentation_generated_by_javadoc
+libatombus-perl:
+  version: 1.0405-2
+  issues:
+    - ftbfs_uninvestigated_test_failures
 libaunit:
   version: 3.7.1-2
   issues:
