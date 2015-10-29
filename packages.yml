@@ -5910,6 +5910,10 @@ golang-git2go:
   version: 0.0~git20150731.0.ed62fda-1
   bugs:
     - 799454
+golang-github-armon-go-metrics:
+  version: 0.0~git20150601-1
+  issues:
+    - ftbfs_uninvestigated_test_failures
 golang-github-golang-leveldb:
   version: 0.0~git20150720.0.df57eb2-1
   bugs:
@@ -10029,6 +10033,10 @@ lmfit-py:
   version: 0.8.0+dfsg.1-1
   bugs:
     - 802085
+lnav:
+  version: 0.7.0-3
+  issues:
+    - ftbfs_uninvestigated_test_failures
 loadlin:
   version: 1.6f-3
   issues:
