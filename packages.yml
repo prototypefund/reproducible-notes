@@ -1988,10 +1988,6 @@ chocolate-doom:
   version: 2.2.0-1
   issues:
     - timestamps_from_cpp_macros
-choqok:
-  version: 1.5-2
-  bugs:
-    - 799491
 chrony:
   version: 1.31.1-2
   issues:
@@ -4767,10 +4763,6 @@ freedict:
   version: 2014.10.22-2
   issues:
     - timestamps_in_dictionaries
-freedink:
-  version: 108.4-1
-  bugs:
-    - 799991
 freedink-dfarc:
   version: 3.12-1
   issues:
@@ -4965,10 +4957,6 @@ galax:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - randomness_in_ocaml_startup_files
-galera-3:
-  version: 25.3.10-1
-  bugs:
-    - 799150
 gally:
   version: 0.5.1-1
   bugs:
@@ -5918,10 +5906,6 @@ golang-github-golang-leveldb:
   version: 0.0~git20150720.0.df57eb2-1
   bugs:
     - 799472
-golang-github-hanwen-usb:
-  version: 0.0~git20141217.0.69aee45-1
-  bugs:
-    - 799075
 golang-github-hashicorp-mdns:
   version: 0.0~git20150317.0.2b439d3-1
   issues:
@@ -9218,6 +9202,8 @@ libmicrohttpd:
   issues:
     - timezone_variance_because_of_automake_mdate
     - different_due_to_umask
+  bugs:
+    - 802094
 libmime-util-java:
   version: 2.1.3-1
   bugs:
@@ -13150,6 +13136,7 @@ pjproject:
   version: 2.4~dfsg-1
   bugs:
     - 794711
+    - 795825
 pkg-config:
   version: 0.28-1
   comments: |
@@ -15562,10 +15549,6 @@ ruby-ole:
   version: 1.2.11.7-3
   issues:
     - timestamps_in_gemspec_files
-ruby-omniauth-kerberos:
-  version: 0.3.0-1
-  bugs:
-    - 796735
 ruby-omniauth-ldap:
   version: 1.0.4-1
   bugs:
@@ -19069,6 +19052,10 @@ ycmd:
   version: 0+20150804+git6f4dbb4-1
   issues:
     - build_id_variation_requiring_further_investigation
+yelp:
+  version: 3.16.1-1
+  bugs:
+    - 803104
 yersinia:
   version: 0.7.3-1
   comments: |
