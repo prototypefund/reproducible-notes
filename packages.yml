@@ -16679,6 +16679,10 @@ systemd:
   version: 227-2
   comments: |
     random file order in postinst added by dh_installinit
+systemtap:
+  version: 2.9-1
+  issues:
+    - different_encoding_in_html_by_docbook_xsl
 systraq:
   version: 0.0.20081217-7
   issues:
@@ -17882,9 +17886,10 @@ watchdog:
   bugs:
     - 784211
 wayland:
-  version: 1.7.0-2
+  version: 1.9.0-1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
+    - different_encoding_in_html_by_docbook_xsl
 wcd:
   version: 5.2.5-1
   issues:
