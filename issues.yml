@@ -814,3 +814,6 @@ ftbfs_uninvestigated_test_failures:
   description: |
     Packages that can compile their binaries without problems but then fail
     one or more tests for unidentified reasons.
+timestamps_in_pdf_content:
+  description: |
+    The timestamp is not in the PDF metadata, but embedded in the actual content (text).
