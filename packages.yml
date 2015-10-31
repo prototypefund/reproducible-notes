@@ -11367,11 +11367,12 @@ ncompress:
     Embed build time:
     https://sources.debian.net/src/ncompress/4.2.4.4-9/Makefile.def/?hl=41#L41
 ncurses:
-  version: 6.0+20151017-1
+  version: 6.0+20151024-1
   comments: |
     Capture user id, group id, and permissions in static libraries.
   bugs:
     - 801864
+    - 803482
 ndesk-dbus:
   version: 0.6.0-6
   issues:
