@@ -12948,8 +12948,9 @@ plowshare4:
   bugs:
     - 798806
 plplot:
-  version: 5.10.0+dfsg-1
+  version: 5.10.0+dfsg2-0.1
   issues:
+    - different_encoding_in_html_by_docbook_xsl
     - timestamps_in_jar
 plymouth:
   version: 0.9.0-8
@@ -15536,7 +15537,7 @@ rustc:
 s3d:
   version: 0.2.2-10
   issues:
-    - different_encoding
+    - different_encoding_in_html_by_docbook_xsl
 s3ql:
   version: 2.15+dfsg-1
   issues:
@@ -15744,6 +15745,10 @@ sdcc:
   version: 3.4.0+dfsg-2
   issues:
     - timestamps_from_cpp_macros
+sdl-stretch:
+  version: 0.3.1-4
+  issues:
+    - different_encoding_in_html_by_docbook_xsl
 sdlbasic:
   version: 0.0.20070714-5
   issues:
@@ -16625,9 +16630,9 @@ sympy:
   issues:
     - timestamps_in_pdf_generated_by_latex
 synaptic:
-  version: 0.81.4
+  version: 0.82
   issues:
-    - different_encoding
+    - different_encoding_in_html_by_docbook_xsl
 syncevolution:
   version: 1.4.99.4-3
   issues:
