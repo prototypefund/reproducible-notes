@@ -2029,10 +2029,6 @@ classycle:
   issues:
     - timestamps_in_jar
     - locale_in_documentation_generated_by_javadoc
-clblas:
-  version: 2.6-1
-  issues:
-    - random_order_in_shlibs_depends
 clfswm:
   version: 20111015.git51b0a02-2
   issues:
@@ -3481,8 +3477,7 @@ dymo-cups-drivers:
 dynare:
   version: 4.4.3-1
   issues:
-    - timestamps_in_pdf_generated_by_latex
-    - timestamps_in_documentation_generated_by_texi2html
+    - timestamps_in_pdf_content
 easyconf:
   version: 0.9.5-5
   issues:
@@ -4982,10 +4977,7 @@ gbrainy:
 gbrowse:
   version: 2.54+dfsg-3
   comments: |
-    ConfigData.pm not dumped in determinstic order and some of the values are
-    generated using rand()
-  issues:
-    - random_order_in_files_generated_by_module_build
+    ConfigData.pm embeds a random 'OpenIDConsumerSecret'.
 gcalcli:
   version: 3.2-2
   issues:
@@ -5687,10 +5679,6 @@ gnugk:
   version: 2:3.6-1
   issues:
     - timestamps_from_cpp_macros
-gnugo:
-  version: 3.8-8
-  issues:
-    - timestamps_in_documentation_generated_by_texi2html
 gnuift:
   version: 0.1.14-12.1
   issues:
@@ -5894,10 +5882,6 @@ gparted:
   version: 0.19.0-3
   issues:
     - ftbfs_temporary_glibmm24_bug
-gperf:
-  version: 3.0.4-1
-  issues:
-    - timestamps_in_documentation_generated_by_texi2html
 gphoto2-cffi:
   version: 0.2-2
   bugs:
@@ -6097,7 +6081,6 @@ groovy2:
 grub:
   version: 0.97-70
   issues:
-    - timestamps_in_documentation_generated_by_texi2html
     - timestamps_in_manpages_generated_by_help2man
 grub2:
   version: 2.02~beta2-23
@@ -6508,8 +6491,6 @@ hkgerman:
   version: 2-28
   issues:
     - random_ispell_hash_files
-    - timestamps_in_gzip_headers
-    - random_order_in_dictionary_debconf_templates
 hkl:
   version: 4.0.3-4
   issues:
@@ -6749,11 +6730,6 @@ ifupdown:
   version: 0.7.50
   bugs:
     - 762388
-igerman98:
-  version: 20131206-5
-  issues:
-    - timestamps_in_gzip_headers
-    - random_order_in_dictionary_debconf_templates
 igstk:
   version: 4.4.0-6
   bugs:
@@ -6810,10 +6786,6 @@ incron:
   version: 0.5.10-2
   issues:
     - timestamps_from_cpp_macros
-indent:
-  version: 2.2.11-4
-  issues:
-    - timestamps_in_documentation_generated_by_texi2html
 indicator-applet:
   version: 0.5.0-1.1
   bugs:
@@ -7034,10 +7006,6 @@ jabref:
   version: 2.10+ds-3
   comments: |
     Embeds built date into build.properties file contained in jar.
-jacal:
-  version: 1b9-5
-  issues:
-    - timestamps_in_documentation_generated_by_texi2html
 jack-audio-connection-kit:
   version: 1:0.124.1+20140122git5013bed0-3
   comments: |
@@ -7367,7 +7335,6 @@ jline:
 jlint:
   version: 3.0-4.5
   issues:
-    - timestamps_in_documentation_generated_by_texi2html
     - timestamps_from_cpp_macros
 jmagick:
   version: 6.6.9~20130201-svn99-2
@@ -10371,15 +10338,9 @@ maven-assembly-plugin:
   version: 2.2~beta5-3
   issues:
     - random_order_in_maven_plugin_xml
-    - date_in_maven_plugin_xml
     - random_order_in_plexus_comonents_xml
   bugs:
     - 797245
-maven-debian-helper:
-  version: 1.6.9
-  issues:
-    - timezones_manpages_podman
-    - date_in_maven_plugin_xml
 maven-dependency-plugin:
   version: 2.7-1
   bugs:
@@ -10400,12 +10361,6 @@ maven-plugin-testing:
   version: 1.3-2
   issues:
     - random_order_in_plexus_comonents_xml
-maven-plugin-tools:
-  version: 3.2-2
-  issues:
-    - date_in_maven_plugin_xml
-  bugs:
-    - 796445
 maven-project-info-reports-plugin:
   version: 2.4-2
   issues:
@@ -11545,7 +11500,6 @@ norwegian:
   version: 2.0.10-5.2
   issues:
     - random_ispell_hash_files
-    - random_order_in_dictionary_debconf_templates
 nose2:
   version: 0.5.0-1
   issues:
@@ -13430,10 +13384,6 @@ pyntor:
     - timestamps_in_gzip_headers
   bugs:
     - 777488
-pyopencl:
-  version: 2015.1-2
-  issues:
-    - random_order_in_shlibs_depends
 pyopengl:
   version: 3.0.2-1
   bugs:
@@ -14101,10 +14051,6 @@ python-x2go:
   version: 0.5.0.1-2
   issues:
     - use_epydoc
-python-xlib:
-  version: 0.14+20091101-1
-  issues:
-    - timestamps_in_documentation_generated_by_texi2html
 python-xlrd:
   version: 0.9.2-1
   comments: |
@@ -17311,10 +17257,6 @@ twinkle:
   version: 1:1.4.2-4
   bugs:
     - 746054
-twittering-mode:
-  version: 3.0.0-1
-  issues:
-    - timestamps_in_documentation_generated_by_texi2html
 twoftpd:
   version: 1.42-1
   issues:
@@ -18808,10 +18750,6 @@ zipios++:
     - timestamps_in_manpages_generated_by_doxygen
   bugs:
     - 794239
-zlibc:
-  version: 0.9k-4.2
-  issues:
-    - timestamps_in_documentation_generated_by_texi2html
 zoneminder:
   version: 1.28.1-7
   comments: |
