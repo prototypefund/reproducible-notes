@@ -1938,6 +1938,10 @@ check:
   version: 0.9.10-6.1
   issues:
     - timezone_variance_because_of_automake_mdate
+check-postgres:
+  version: 2.22.0-1
+  issues:
+    - ftbfs_uninvestigated_test_failures
 checkbox-ng:
   version: 0.18-1
   issues:
@@ -5897,6 +5901,10 @@ golang-git2go:
     - 799454
 golang-github-armon-go-metrics:
   version: 0.0~git20150601-1
+  issues:
+    - ftbfs_uninvestigated_test_failures
+golang-github-azure-azure-sdk-for-go:
+  version: 1.2~git20150611.0.97d9593-2
   issues:
     - ftbfs_uninvestigated_test_failures
 golang-github-golang-leveldb:
