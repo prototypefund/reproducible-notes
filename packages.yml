@@ -9234,6 +9234,10 @@ libpqtypes:
   version: 1.5.1-2
   bugs:
     - 795729
+pibpqxx:
+  version: 4.0.1+dfsg-5
+  issues:
+    - different_encoding_in_html_by_docbook_xsl
 libpreludedb:
   version: 1.0.0-2.3
   bugs:
@@ -9384,10 +9388,12 @@ libspring-ldap-java:
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
     - locale_in_documentation_generated_by_javadoc
+    - different_encoding_in_html_by_docbook_xsl
 libspring-security-2.0-java:
   version: 2.0.7.RELEASE-3
   issues:
     - locale_in_documentation_generated_by_javadoc
+    - different_encoding_in_html_by_docbook_xsl
 libspring-webflow-2.0-java:
   version: 2.0.9.RELEASE-6
   issues:
@@ -11623,7 +11629,7 @@ nss-passwords:
 nted:
   version: 1.10.18-8
   issues:
-    - different_encoding
+    - different_encoding_in_html_by_docbook_xsl
 ntlmaps:
   version: 0.9.9.0.1-11.3
   issues:
