@@ -265,10 +265,10 @@ alienblaster:
     - 778479
 allegro4.4:
   version: 2:4.4.2-6
-  bugs:
-    - 803546
   issues:
     - different_due_to_umask
+  bugs:
+    - 803546
 allegro5:
   version: 2:5.0.11-1
   comments: |
@@ -1129,10 +1129,10 @@ bbdb3:
     - timestamps_in_emacs_autoloads
 bbswitch:
   version: 0.8-2
-  bugs:
-    - 803547
   issues:
     - different_due_to_umask
+  bugs:
+    - 803547
 bcfg2:
   version: 1.3.5-1
   issues:
@@ -2493,10 +2493,6 @@ crrcsim:
   version: 0.9.12-6.1
   issues:
     - timestamps_from_cpp_macros
-cruft:
-  version: 0.9.20
-  bugs:
-    - 790844
 cryptsetup:
   version: 2:1.6.6-5
   comments: |
@@ -3430,10 +3426,6 @@ dtd-parser:
   version: 1.2~svn20110404-1
   issues:
     - timestamps_in_documentation_generated_by_javadoc
-dune-istl:
-  version: 2.3.1-1
-  bugs:
-    - 795963
 dupload:
   version: 2.7.0
   issues:
@@ -13485,8 +13477,6 @@ python-apt:
   version: 0.9.3.11
   issues:
     - timestamps_in_documentation_generated_by_sphinx
-  bugs:
-    - 796458
 python-astropy:
   version: 1.0.3-3
   comments: |
@@ -16473,10 +16463,6 @@ supercat:
   bugs:
     - 777396
     - 793725
-supercollider:
-  version: 1:3.6.6~repack-2-1
-  bugs:
-    - 795968
 superlu:
   version: 4.3+dfsg-3
   issues:
@@ -17460,8 +17446,6 @@ uruk:
   version: 20150401-1
   issues:
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-  bugs:
-    - 792986
 urweb:
   version: 20150214+dfsg-1
   issues:
@@ -17901,10 +17885,6 @@ west-chamber:
     - different_due_to_umask
   bugs:
     - 778358
-wheel:
-  version: 0.24.0-3
-  bugs:
-    - 796520
 whizzytex:
   version: 1.3.2-1.3
   bugs:
