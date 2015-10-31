@@ -165,6 +165,10 @@ adblock-plus:
     - timestamps_in_zip
   bugs:
     - 795395
+adcli:
+  version: 0.7.5-1
+  issues:
+    - different_encoding_in_html_by_docbook_xsl
 adduser:
   version: 3.113+nmu3
   issues:
@@ -2232,6 +2236,7 @@ comedilib:
   version: 0.10.2-2
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
+    - different_encoding_in_html_by_docbook_xsl
 comix:
   version: 4.0.4-1
   bugs:
@@ -2319,7 +2324,7 @@ confuse:
   version: 2.7-5
   issues:
     - timestamps_in_manpages_generated_by_doxygen
-    - different_encoding
+    - different_encoding_in_html_by_docbook_xsl
 conky:
   version: 1.9.0-6
   comments: |
