@@ -531,30 +531,11 @@ timestamps_in_jsdoc_toolkit_documentation:
 randomness_in_objects_inv:
   description: |
     Some Gython documentation tool writes objects.inv files in a random order.
-randomness_in_ocaml_startup_files:
-  description: |
-    ocamlopt generates startup files with random names that end up in the
-    executable.
-  url: https://bugs.debian.org/795784
-randomness_in_ocaml_packed_libraries:
-  description: |
-    ocamlopt -pack generates intermediate files with random names that end
-    up in the library.
-  url: https://bugs.debian.org/796336
 randomness_in_ocaml_custom_executables:
   description: |
     ocamlc -custom generates intermediate files with random names that end
     up in the executable.
   url: https://bugs.debian.org/786913
-randomness_in_ocaml_lintian_info_files:
-  description: |
-    dh-ocaml generates lintian info files with a non-deterministic order
-  url: https://bugs.debian.org/779037
-timestamps_in_documentation_generated_by_ocamldoc:
-  description:
-    ocamldoc includes timezone-sensitive build timestamp in the headers.
-    (fixed in experimental)
-  url: https://bugs.debian.org/794586
 timestamp_in_pear_registry_files:
   description: |
     PEAR registry files are serialized PHP objects that contain a timestamp.

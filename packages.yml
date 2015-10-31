@@ -28,10 +28,6 @@ a7xpg:
   version: 0.11.dfsg1-8
   bugs:
     - 796092
-aac-tactics:
-  version: 0.4-3
-  issues:
-    - randomness_in_ocaml_packed_libraries
 aafigure:
   version: 0.5-4
   issues:
@@ -567,7 +563,6 @@ apron:
   version: 0.9.10-6
   issues:
     - randomness_in_html_generated_by_texi2html
-    - randomness_in_ocaml_packed_libraries
 aprsdigi:
   version: 3.5.1-1
   issues:
@@ -805,7 +800,6 @@ atdgen:
   version: 1.3.1-1
   issues:
     - timestamps_in_pdf_generated_by_latex
-    - randomness_in_ocaml_startup_files
 atheist:
   version: 0.20110402-2
   issues:
@@ -1243,10 +1237,6 @@ bindex:
   version: 2.2+svn101-1
   issues:
     - timestamp_in_java_bnd_manifest
-biniou:
-  version: 1.0.9-1
-  issues:
-    - randomness_in_ocaml_startup_files
 binkd:
   version: 1.0.4-1
   issues:
@@ -1433,7 +1423,6 @@ botch:
   version: 0.5-1~experimental1
   issues:
     - timezones_manpages_podman
-    - randomness_in_ocaml_startup_files
 bouncycastle:
   version: 1.49+dfsg-3
   issues:
@@ -1610,10 +1599,6 @@ cakephp:
   version: 2.7.2-1
   issues:
     - timestamps_in_directories
-calendar:
-  version: 2.04-1
-  issues:
-    - randomness_in_ocaml_packed_libraries
 calendarserver:
   version: 5.2.2+dfsg-2
   bugs:
@@ -1632,23 +1617,6 @@ camitk:
     timestamp found in manpages generated from a cmake script
   bugs:
     - 794740
-caml-crush:
-  version: 1.0.6-1
-  issues:
-    - randomness_in_ocaml_startup_files
-camlmix:
-  version: 1.3.1-3
-  issues:
-    - randomness_in_ocaml_startup_files
-camlp4:
-  version: 4.02.1+3-1
-  issues:
-    - randomness_in_ocaml_startup_files
-camlp5:
-  version: 6.11+dfsg-3
-  issues:
-    - randomness_in_ocaml_lintian_info_files
-    - randomness_in_ocaml_startup_files
 camp:
   version: 0.7.1.1-1
   bugs:
@@ -1793,8 +1761,6 @@ cdrkit:
     - build_id_variation_requiring_further_investigation
 cduce:
   version: 0.6.0-1
-  issues:
-    - randomness_in_ocaml_startup_files
   bugs:
     - 796418
 cecil:
@@ -2171,7 +2137,6 @@ coccinelle:
   version: 1.0.0~rc22
   issues:
     - timestamps_in_pdf_generated_by_latex
-    - randomness_in_ocaml_startup_files
 coco-cs:
   version: 20110419-5
   issues:
@@ -2229,10 +2194,6 @@ coinor-symphony:
   version: 5.6.1-1
   issues:
     - timestamps_from_cpp_macros
-coinst:
-  version: 1.9.1-1
-  issues:
-    - randomness_in_ocaml_startup_files
 coldfire:
   version: 0.2.2-2.3
   issues:
@@ -2354,8 +2315,6 @@ confluence:
   version: 0.10.6-7
   comments: |
     Order in generated documentation
-  issues:
-    - randomness_in_ocaml_startup_files
 confuse:
   version: 2.7-5
   issues:
@@ -2390,8 +2349,6 @@ cook:
     - 797320
 coq:
   version: 8.4pl4dfsg-1
-  issues:
-    - randomness_in_ocaml_startup_files
   bugs:
     - 794130
 coreutils:
@@ -2471,10 +2428,6 @@ cppman:
   version: 0.4.5-1
   issues:
     - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
-cppo:
-  version: 0.9.3-3
-  issues:
-    - randomness_in_ocaml_startup_files
 cppreference-doc:
   version: 20140208+dfsg1-1
   issues:
@@ -2584,10 +2537,6 @@ cuba:
   version: 3.0+20111124-2
   bugs:
     - 791516
-cudf:
-  version: 0.7-2
-  issues:
-    - randomness_in_ocaml_startup_files
 cultivation:
   version: 9+dfsg1-2
   issues:
@@ -3313,10 +3262,6 @@ docbook-xsl-saxon:
   issues:
     - build_id_variation_requiring_further_investigation
     - locale_in_documentation_generated_by_javadoc
-dochelp:
-  version: 0.1.2
-  issues:
-    - randomness_in_ocaml_startup_files
 docker-registry:
   version: 2.1.1~ds1-2
   issues:
@@ -3370,7 +3315,6 @@ dose3:
   version: 3.3~beta1-3
   issues:
     - timezones_manpages_podman
-    - randomness_in_ocaml_packed_libraries
 dot-forward:
   version: 1:0.71-2
   issues:
@@ -3694,8 +3638,6 @@ elida:
     - 792959
 eliom:
   version: 4.0.0-2
-  issues:
-    - timestamps_in_documentation_generated_by_ocamldoc
   bugs:
     - 802860
 elixir-lang:
@@ -4255,10 +4197,6 @@ fhist:
   version: 1.18-1
   issues:
     - timestamps_in_documentation_generated_by_groff
-fieldslib:
-  version: 109.20.03-1
-  issues:
-    - randomness_in_ocaml_packed_libraries
 fife:
   version: 0.3.5-1
   issues:
@@ -4299,10 +4237,6 @@ findbugs-bcel:
   version: 6.0~20130831-1
   issues:
     - timestamps_in_jar
-findlib:
-  version: 1.4.1-1
-  issues:
-    - randomness_in_ocaml_startup_files
 firebird2.5:
   version: 2.5.4.26856.ds4-1
   comments: |
@@ -4807,10 +4741,6 @@ freerdp:
   version: 1.1.0~git20140921.1.440916e+dfsg1-4
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-freetennis:
-  version: 0.4.8-9
-  issues:
-    - randomness_in_ocaml_startup_files
 freetts:
   version: 1.2.2-3
   issues:
@@ -4933,7 +4863,6 @@ galax:
     /usr/share/doc/libgalax-ocaml-dev/config/Makefile.conf.gz
   issues:
     - timestamps_in_pdf_generated_by_latex
-    - randomness_in_ocaml_startup_files
 gally:
   version: 0.5.1-1
   bugs:
@@ -5202,10 +5131,6 @@ gem:
   version: 1:0.93.3-8
   issues:
     - timestamps_from_cpp_macros
-geneweb:
-  version: 6.08dfsg-3
-  issues:
-    - randomness_in_ocaml_startup_files
 genometools:
   version: 1.5.4-1
   issues:
@@ -5592,10 +5517,6 @@ gmchess:
   version: 0.29.6-2
   issues:
     - ftbfs_temporary_glibmm24_bug
-gmetadom:
-  version: 0.2.6-6.1
-  issues:
-    - randomness_in_ocaml_lintian_info_files
 gmetrics:
   version: 0.5-1
   issues:
@@ -7543,9 +7464,6 @@ js-of-ocaml:
   version: 2.2-2
   comments: |
     Ordering of symbols in dlljs_of_ocaml.so
-  issues:
-    - randomness_in_ocaml_startup_files
-    - randomness_in_ocaml_packed_libraries
 js2-mode:
   version: 0~20150909-1
   issues:
@@ -7695,8 +7613,6 @@ kalgebra:
     - 799494
 kalzium:
   version: 4:4.14.2-1
-  issues:
-    - randomness_in_ocaml_startup_files
   bugs:
     - 802861
 kanatest:
@@ -8068,10 +7984,6 @@ kxmlgui:
   comments: |
     Embeds the kernel version.
     https://sources.debian.net/src/kxmlgui/5.11.0-1/src/config-xmlgui.h.cmake/#L2
-laby:
-  version: 0.6.3-1
-  issues:
-    - randomness_in_ocaml_startup_files
 lacheck:
   version: 1.26-15
   comments: |
@@ -9865,10 +9777,6 @@ linuxtv-dvb-apps:
   version: 1.1.1+rev1500-1
   bugs:
     - 791423
-liquidsoap:
-  version: 1.1.1-7
-  issues:
-    - randomness_in_ocaml_startup_files
 liquidwar:
   version: 5.6.4-3
   comments: |
@@ -10428,10 +10336,6 @@ mathpiper:
   version: 0.81f+svn4469+dfsg3-3
   issues:
     - timestamps_in_jar
-matita:
-  version: 0.99.1-3
-  issues:
-    - randomness_in_ocaml_startup_files
 matroxset:
   version: 0.4-8
   bugs:
@@ -10553,10 +10457,6 @@ me-tv:
   version: 1.3.7-1
   issues:
     - ftbfs_temporary_glibmm24_bug
-mediawiki-math:
-  version: 2:1.0+git20120528-8
-  issues:
-    - randomness_in_ocaml_startup_files
 mediawiki2latex:
   version: 7.21-1
   issues:
@@ -10581,11 +10481,6 @@ memtest86+:
     Timestamps in /usr/lib/memtest86+/memtest86+.iso
   bugs:
     - 783515
-menhir:
-  version: 20140422.dfsg-1
-  issues:
-    - randomness_in_ocaml_packed_libraries
-    - randomness_in_ocaml_startup_files
 mercurial-server:
   version: 1.2-2
   bugs:
@@ -10757,10 +10652,6 @@ mkvtoolnix:
   version: 8.2.0-2
   issues:
     - timestamps_from_cpp_macros
-mldonkey:
-  version: 3.1.5-2
-  issues:
-    - randomness_in_ocaml_startup_files
 mlpack:
   version: 1.0.10-1
   issues:
@@ -10768,9 +10659,9 @@ mlpack:
 mlpost:
   version: 0.8.1-6
   issues:
-    - randomness_in_ocaml_packed_libraries
     - different_due_to_umask
     - timestamps_in_tarball
+    - users_and_groups_in_tarball
 mlpy:
   version: 2.2.0~dfsg1-2.1
   issues:
@@ -10936,10 +10827,6 @@ monotone:
     embedding timestamps.
   issues:
     - build_id_variation_requiring_further_investigation
-monotone-viz:
-  version: 1.0.2-3
-  issues:
-    - randomness_in_ocaml_startup_files
 monster-masher:
   version: 1.8.1-6
   bugs:
@@ -11082,10 +10969,6 @@ mstflint:
   version: 3.7.0+1.18.gcdb9f80-3
   issues:
     - timestamps_from_cpp_macros
-mtasc:
-  version: 1.14-3
-  issues:
-    - randomness_in_ocaml_startup_files
 mu-cade:
   version: 0.11.dfsg1-8
   bugs:
@@ -11782,10 +11665,6 @@ nunit:
   version: 2.6.3+dfsg-1
   issues:
     - timestamps_in_pe_binaries
-nurpawiki:
-  version: 1.2.3-8
-  issues:
-    - randomness_in_ocaml_packed_libraries
 nut:
   version: 2.7.2-3
   issues:
@@ -11832,55 +11711,28 @@ obfsproxy:
     - timestamps_in_manpages_generated_by_docbook_xsl
 ocaml:
   version: 4.01.0-5
-  issues:
-    - users_and_groups_in_tarball
-    - randomness_in_ocaml_lintian_info_files
-    - different_due_to_umask
-    - randomness_in_ocaml_startup_files
-    - randomness_in_ocaml_packed_libraries
   bugs:
-    - 779086
     - 794583
-    - 794586
 ocaml-atd:
   version: 1.1.2-1
   issues:
     - timestamps_in_pdf_generated_by_latex
-    - randomness_in_ocaml_startup_files
-ocaml-csv:
-  version: 1.3.3-1
-  issues:
-    - randomness_in_ocaml_startup_files
 ocaml-ctypes:
   version: 0.2.3-1
   issues:
     - build_id_variation_requiring_further_investigation
-ocaml-deriving-ocsigen:
-  version: 0.6.2-1
-  issues:
-    - randomness_in_ocaml_packed_libraries
 ocaml-melt:
   version: 1.4.0-1
   issues:
-    - randomness_in_ocaml_lintian_info_files
     - timestamps_in_pdf_generated_by_latex
-    - randomness_in_ocaml_startup_files
 ocamlbricks:
   version: 0.90+bzr400-1
   issues:
     - different_due_to_umask
-ocamldsort:
-  version: 0.16.0-2
-  issues:
-    - randomness_in_ocaml_startup_files
 ocamlduce:
   version: 3.12.1.0-1
   bugs:
     - 738423
-ocamlgraph:
-  version: 1.8.5-1
-  issues:
-    - randomness_in_ocaml_packed_libraries
 ocamlnet:
   version: 3.7.3-4
   issues:
@@ -11893,7 +11745,6 @@ ocamlviz:
   version: 1.01-2
   issues:
     - timestamps_in_pdf_generated_by_latex
-    - randomness_in_ocaml_startup_files
 oce:
   version: 0.15-6
   bugs:
@@ -12050,8 +11901,6 @@ omake:
   comments: |
     Some other strange non-determinism to be checked after #795784 and #796380
     are closed.
-  issues:
-    - randomness_in_ocaml_startup_files
   bugs:
     - 796380
 omega-rpg:
@@ -12095,7 +11944,6 @@ opam:
   version: 1.2.0-1
   issues:
     - timestamps_in_pdf_generated_by_latex
-    - randomness_in_ocaml_startup_files
 open-axiom:
   version: 1.5.0~svn3056+ds-1
   bugs:
@@ -12336,10 +12184,6 @@ openwalnut:
   version: 1.4.0~rc1+hg3a3147463ee2-1
   bugs:
     - 778050
-optcomp:
-  version: 1.6-1
-  issues:
-    - randomness_in_ocaml_startup_files
 opticalraytracer:
   version: 3.2-1.1
   issues:
@@ -12348,12 +12192,6 @@ opus:
   version: 1.1-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-orpie:
-  version: 1.5.1-10
-  comments: |
-    Other issue to sort out later
-  issues:
-    - randomness_in_ocaml_startup_files
 orthanc:
   version: 0.9.4+dfsg-1
   issues:
@@ -12432,14 +12270,6 @@ p3scan:
     - timestamps_in_gzip_headers
   bugs:
     - 778433
-pa-ounit:
-  version: 111.28.00-1
-  issues:
-    - randomness_in_ocaml_packed_libraries
-pa-test:
-  version: 111.08.00-1
-  issues:
-    - randomness_in_ocaml_packed_libraries
 pacemaker:
   version: 1.1.10+git20130802-4.1
   issues:
@@ -12542,10 +12372,6 @@ pari:
     - collation_order_varies_by_locale
     - timestamps_from_cpp_macros
     - timestamps_in_gzip_headers
-parmap:
-  version: 1.0~rc4-5
-  issues:
-    - timestamps_in_documentation_generated_by_ocamldoc
 parrot:
   version: 6.6.0-1
   issues:
@@ -13323,10 +13149,6 @@ proofgeneral:
   version: 4.3~pre131011-0.2
   issues:
     - timestamps_in_pdf_generated_by_latex
-prooftree:
-  version: 0.12-1
-  issues:
-    - randomness_in_ocaml_startup_files
 propellor:
   version: 0.9.2
   comments: |
@@ -15966,10 +15788,6 @@ setools:
   version: 3.3.8-3.2
   comments: |
     filesystem order in libqpol_a_LIBADD ?
-sexplib310:
-  version: 111.25.00-1
-  issues:
-    - randomness_in_ocaml_packed_libraries
 sfcgal:
   version: 1.1.0-5
   issues:
@@ -16166,10 +15984,6 @@ skrooge:
   version: 1.9.3-1
   bugs:
     - 799516
-sks:
-  version: 1.1.5-4
-  issues:
-    - randomness_in_ocaml_startup_files
 skytools3:
   version: 3.2-2
   issues:
@@ -16354,10 +16168,6 @@ spamassassin-heatu:
   version: 3.02+20101108-2
   bugs:
     - 782220
-spamoracle:
-  version: 1.4-14
-  issues:
-    - randomness_in_ocaml_startup_files
 spamprobe:
   version: 1.4d-13
   issues:
@@ -16709,10 +16519,6 @@ superlu:
   version: 4.3+dfsg-3
   issues:
     - build_id_variation_requiring_further_investigation
-supermin:
-  version: 5.1.13-3
-  issues:
-    - randomness_in_ocaml_startup_files
 surf-alggeo:
   version: 1.0.6+ds-2
   issues:
@@ -17660,14 +17466,6 @@ unifont:
   version: 7.0.06-1
   issues:
     - fontforge_reset_modification_time
-unison:
-  version: 2.40.102-2
-  issues:
-    - randomness_in_ocaml_startup_files
-unison2.32.52:
-  version: 2.32.52-7
-  issues:
-    - randomness_in_ocaml_startup_files
 units-filter:
   version: 3.7-1
   issues:
@@ -17738,10 +17536,6 @@ uudeview:
   version: 0.5.20-3.4
   issues:
     - timestamps_from_cpp_macros
-uuidm:
-  version: 0.9.5-1
-  issues:
-    - randomness_in_ocaml_startup_files
 uwsgi:
   version: 2.0.7-1
   issues:
@@ -17767,10 +17561,6 @@ valknut:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/valknut/0.4.9-2/configure.in/#L127
-variantslib:
-  version: 109.15.03-1
-  issues:
-    - randomness_in_ocaml_packed_libraries
 varnish:
   version: 4.0.2-1
   comments: |
@@ -17900,10 +17690,6 @@ vips:
   version: 7.40.6-2
   issues:
     - timestamps_from_cpp_macros
-virt-top:
-  version: 1.0.7-1
-  issues:
-    - randomness_in_ocaml_startup_files
 virtualjaguar:
   version: 2.1.2-1
   issues:
@@ -18659,10 +18445,6 @@ xmlgraphics-commons:
   comments: |
     The build script adds a custom 'Build-Id' header including a
     timestamp, the hostname, etc. to MANIFEST.MF files.
-xmlm:
-  version: 1.2.0-1
-  issues:
-    - randomness_in_ocaml_startup_files
 xmlroff:
   version: 0.6.2-1.3
   issues:
@@ -18986,10 +18768,6 @@ zeroc-ice:
   version: 3.5.1-6
   issues:
     - timestamps_in_pe_binaries
-zeroinstall-injector:
-  version: 2.8-1
-  issues:
-    - randomness_in_ocaml_startup_files
 zeromq3:
   version: 4.0.5+dfsg-3
   issues:
