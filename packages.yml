@@ -9600,6 +9600,8 @@ libxml++2.6:
   version: 2.38.1-1
   comments: |
     Installs examples with varying environments - can probably just be distcleaned after build
+  issues:
+    - leaks_path_environment_variable
 libxml-commons-resolver1.1-java:
   version: 1.2-7
   issues:
@@ -11384,6 +11386,7 @@ nipy:
   version: 0.3.0+git262-gbb838d7-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
+    - leaks_path_environment_variable
 nipype:
   version: 0.10.0-2
   issues:
@@ -12634,9 +12637,10 @@ petri-foo:
   issues:
     - build_id_variation_requiring_further_investigation
 petsc:
-  version: 3.4.2.dfsg1-8.2
+  version: 3.6.2.dfsg1-3
   issues:
     - build_id_variation_requiring_further_investigation
+    - leaks_path_environment_variable
 pgadmin3:
   version: 1.20.0~beta2-1
   issues:
@@ -17019,9 +17023,10 @@ tmispell-voikko:
   issues:
     - ftbfs_temporary_glibmm24_bug
 tntnet:
-  version: 2.2.1-1
+  version: 2.2.1-2
   issues:
     - different_due_to_umask
+    - leaks_path_environment_variable
 tomahawk:
   version: 0.7.1-2
   issues:
