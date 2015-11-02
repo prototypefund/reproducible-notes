@@ -783,6 +783,8 @@ ftbfs_uninvestigated_test_failures:
 timestamps_in_pdf_content:
   description: |
     The timestamp is not in the PDF metadata, but embedded in the actual content (text).
+    Note: Use timestamps_in_tex_documents instead, which is more specific, if the PDF was created
+    by a TeX/LaTeX document using \today macro.
 different_encoding_in_html_by_docbook_xsl:
   description: |
     Docbook XSL can vary the encoding it uses depending on locale.
