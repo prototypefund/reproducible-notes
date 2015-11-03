@@ -5842,6 +5842,14 @@ golang-logrus:
   version: 0.7.3-2
   bugs:
     - 802073
+golang-prometheus-client:
+  version: 0.7.0+ds-2
+  issues:
+    - ftbfs_uninvestigated_test_failures
+golang-protobuf-extensions:
+  version: 0+git20150513.fc2b8d3-4
+  issues:
+    - ftbfs_uninvestigated_test_failures
 golang-uuid:
   version: 0.0~hg20140512-1
   issues:
@@ -13145,6 +13153,10 @@ projectl:
   version: 1.001.dfsg1-7
   bugs:
     - 795945
+prometheus:
+  version: 0.15.1+ds-2
+  issues:
+    - ftbfs_uninvestigated_test_failures
 prometheus-pushgateway:
   version: 0.2.0+ds-2
   issues:
