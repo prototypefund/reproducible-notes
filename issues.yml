@@ -802,3 +802,6 @@ timestamps_in_ppu_generated_by_fpc:
   description: |
     The freepascal compiler (fpc) embeds timestamps into unit files (ppu).
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInPPUGeneratedByFPC
+gettext_creates_ChangeLog_files_and_entries_with_current_date:
+  description: |
+    http://sources.debian.net/src/gettext/0.19.6-1/gettext-tools/misc/gettextize.in/#L401
