@@ -18613,6 +18613,11 @@ yubikey-server-c:
   version: 0.5-1
   bugs:
     - 802114
+yudit:
+  version: 2.9.6-4
+  comments: |
+    Timestamp removed in 790088 but there is some uninitialised memory
+    immediately after.
 yui3:
   version: 3.5.1-1
   issues:
