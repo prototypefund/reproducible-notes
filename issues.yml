@@ -560,6 +560,10 @@ timestamps_in_python_version_numbers:
   description: |
     python-setuptools is appending the build date to a Python version number.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInPythonVersionNumbers
+randomness_in_python_setuptools_requires_txt:
+  description: |
+    python-setuptools generates requires.txt files with contents in arbitrary
+    order.
 timezone_variance_because_of_automake_mdate:
   description: |
     automake's mdate-sh script pretty-prints the modification time of a file.
