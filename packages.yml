@@ -543,10 +543,6 @@ apophenia:
     Ship a log of pdflatex in
     ./usr/share/doc/apophenia-doc/html/_formulas.log.gz
     Probably should be remoed.
-apper:
-  version: 0.9.2-2
-  bugs:
-    - 790800
 appstream-dep11:
   version: 0.3.0-1
   issues:
@@ -1050,10 +1046,6 @@ bam:
   version: 0.4.0-3
   issues:
     - timestamps_from_cpp_macros
-bangarang:
-  version: 2.1-2
-  bugs:
-    - 799362
 banshee:
   version: 2.6.2-2
   issues:
@@ -1809,10 +1801,6 @@ ceph:
     Non-deterministic order of dh_installinit snippet in postinst etc.
   bugs:
     - 791913
-cervisia:
-  version: 4:4.14.0-1
-  bugs:
-    - 799490
 cfengine2:
   version: 2.2.10-5
   issues:
@@ -2096,10 +2084,6 @@ cloud-init:
   version: 0.7.6~bzr976-2
   bugs:
     - 780637
-cloudprint:
-  version: 0.13-1
-  bugs:
-    - 797505
 clp:
   version: 1.15.10-1
   issues:
@@ -2539,6 +2523,7 @@ csoundqt:
   version: 0.9.0-1
   bugs:
     - 803756
+    - 803757
 csstidy:
   version: 1.4-3
   issues:
@@ -2846,10 +2831,6 @@ dctrl-tools:
   version: 2.24-1
   comments: |
     Uses po4a --force
-dctrl2xml:
-  version: 0.18+nmu1
-  bugs:
-    - 800142
 dd2:
   version: 0.2.2-2
   issues:
@@ -3328,10 +3309,6 @@ dolphin-emu:
   version: 4.0.2+dfsg-2
   issues:
     - timestamps_from_cpp_macros
-dolphin-plugins:
-  version: 4:4.13.3-1
-  bugs:
-    - 799360
 dom4j:
   version: 1.6.1+dfsg.3-2
   issues:
@@ -3459,10 +3436,6 @@ dupload:
   version: 2.7.0
   issues:
     - timestamps_in_manpages_generated_by_help2man
-dutch:
-  version: 1:2.10-3
-  bugs:
-    - 800107
 dvbsnoop:
   version: 1.4.50-5
   issues:
@@ -3754,10 +3727,6 @@ eq10q:
   version: 2.0~beta7.1~repack0-1
   issues:
     - ftbfs_temporary_glibmm24_bug
-eqonomize:
-  version: 0.6-7
-  bugs:
-    - 799492
 equivs:
   version: 2.0.9
   bugs:
@@ -4560,12 +4529,6 @@ fonts-smc:
   version: 6.0-1
   issues:
     - fontforge_reset_modification_time
-fonts-stix:
-  version: 1.1.1-3
-  issues:
-    - timestamps_difference_by_unzip
-  bugs:
-    - 792602
 fonts-tibetan-machine:
   version: 1.901b-5
   issues:
@@ -5699,6 +5662,9 @@ gnudatalanguage:
   version: 0.9.5-2
   issues:
     - timestamps_from_cpp_macros
+  bugs:
+    - 803760
+    - 803762
 gnugk:
   version: 2:3.6-1
   issues:
@@ -5856,10 +5822,6 @@ golang-github-spf13-fsync:
   version: 0.0~git20141101.0.1fdf08f-1
   bugs:
     - 802340
-golang-go.tools:
-  version: 0.0~hg20140703-4
-  bugs:
-    - 799797
 golang-gocheck:
   version: 0.0~bzr20131118+85-2
   bugs:
@@ -6152,10 +6114,6 @@ gss:
   version: 1.0.3-1
   issues:
     - timestamps_in_dvi_generated_by_latex
-gst-plugins-bad0.10:
-  version: 0.10.23-8.1
-  bugs:
-    - 800097
 gst-plugins-base1.0:
   version: 1.5.0.1+git20150513-1
   bugs:
@@ -7601,10 +7559,6 @@ jython:
     - timestamps_in_jar
   bugs:
     - 796437
-k3b:
-  version: 2.0.2-8
-  bugs:
-    - 799493
 k3d:
   version: 0.8.0.3-7
   issues:
@@ -7617,10 +7571,6 @@ kadu-mime-tex:
   version: 1.0-2
   bugs:
     - 802080
-kalgebra:
-  version: 4:4.14.2-1
-  bugs:
-    - 799494
 kalzium:
   version: 4:4.14.2-1
   bugs:
@@ -7654,10 +7604,6 @@ kawari8:
   version: 8.2.8-8
   issues:
     - timestamps_difference_by_unzip
-kbibtex:
-  version: 0.4-4
-  bugs:
-    - 799495
 kbtin:
   version: 1.0.15-1.1
   bugs:
@@ -7670,18 +7616,14 @@ kcov:
   version: 25+dfsg-1
   bugs:
     - 790912
-kde-baseapps:
-  version: 4:15.04.3-1
-  bugs:
-    - 799496
-kde-dev-utils:
-  version: 4:4.12.2-2
-  bugs:
-    - 799497
 kde-l10n:
   version: 4:4.14.0-1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
+kde-workspace:
+  version: 4:4.11.22-3
+  bugs:
+    - 784325
 kde4libs:
   version: 4:4.14.2-5
   comments: |
@@ -7691,8 +7633,6 @@ kde4libs:
     Also the build date is recorded in kdecmake.1 manpage.
   issues:
     - captures_kernel_version
-  bugs:
-    - 799520
 kdelibs4support:
   version: 5.14.0-1
   issues:
@@ -7722,19 +7662,11 @@ kdevelop-php:
   version: 1.7.0-1
   issues:
     - different_due_to_umask
-kdevelop-php-docs:
-  version: 1.7.0-1
-  bugs:
-    - 799499
 kdevelop-python:
   version: 1.7.0-1
   issues:
     - users_and_groups_in_tarball
     - different_due_to_umask
-kdewebdev:
-  version: 4:4.14.1-1
-  bugs:
-    - 799500
 kdgcommons-java:
   version: 1.0.13-1
   issues:
@@ -7772,10 +7704,6 @@ keyutils:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/keyutils/1.5.9-5/Makefile/#L115
-kftpgrabber:
-  version: 0.8.99~svn1214766-1
-  bugs:
-    - 799501
 kgb-bot:
   version: 1.33-2
   comments: |
@@ -7820,7 +7748,6 @@ kiki-the-nano-bot:
 kile:
   version: 4:2.1.3-2
   bugs:
-    - 799502
     - 799395
 kimwitu++:
   version: 2.3.13-2
@@ -7854,10 +7781,6 @@ klone:
     - different_due_to_umask
   bugs:
     - 777464
-kmess:
-  version: 2.0.6.1-3
-  bugs:
-    - 799503
 kmetronome:
   version: 0.10.1-1
   bugs:
@@ -7880,10 +7803,6 @@ kmymoney:
   version: 4.6.6-2
   issues:
     - build_id_variation_requiring_further_investigation
-knights:
-  version: 2.5.0-1
-  bugs:
-    - 799505
 knopflerfish-osgi:
   version: 5.1.0+dfsg1-2
   comments: |
@@ -7905,42 +7824,18 @@ konclude:
   version: 0.6.1-1
   issues:
     - timestamps_from_cpp_macros
-konsole4:
-  version: 4:4.14.2-3
-  bugs:
-    - 799506
 konwert:
   version: 1.8-11.2
   bugs:
     - 778945
-kpartsplugin:
-  version: 20120605-1
-  bugs:
-    - 799507
-kplayer:
-  version: 1:0.7-2.1
-  bugs:
-    - 799508
-kraft:
-  version: 0.55-1
-  bugs:
-    - 799509
 krb5:
   version: 1.13.2+dfsg-2
   issues:
     - timestamps_in_pdf_generated_by_latex
-krecipes:
-  version: 2.0~beta2-3
-  bugs:
-    - 799658
 krename:
   version: 4.0.9-3
   issues:
     - timestamps_from_cpp_macros
-krusader:
-  version: 1:2.4.0~beta3-2
-  bugs:
-    - 799510
 kscope:
   version: 1.9.4-2
   issues:
@@ -7953,18 +7848,6 @@ ktikz:
   version: 0.10-4
   issues:
     - timestamps_in_qch
-ktp-auth-handler:
-  version: 0.9.0-1
-  bugs:
-    - 799511
-ktp-common-internals:
-  version: 0.9.0-1
-  bugs:
-    - 799512
-ktp-text-ui:
-  version: 0.9.0+dfsg-1
-  bugs:
-    - 799513
 kvirc:
   version: 4.2.0-2
   comments: |
@@ -8996,10 +8879,6 @@ libloader:
   version: 1.1.6.dfsg-4
   issues:
     - locale_in_documentation_generated_by_javadoc
-liblocale-gettext-perl:
-  version: 1.05-9
-  bugs:
-    - 796152
 liblockfile:
   version: 1.09-6
   issues:
@@ -9569,12 +9448,6 @@ libview:
   version: 0.6.6-2.1
   issues:
     - ftbfs_temporary_glibmm24_bug
-libvigraimpex:
-  version: 1.9.0+dfsg-10
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
-  bugs:
-    - 783230
 libvirt:
   version: 1.2.19-1
   issues:
@@ -11506,10 +11379,6 @@ node-groove:
   version: 2.2.6-2
   bugs:
     - 802087
-node-iconv:
-  version: 2.1.8-1
-  bugs:
-    - 798439
 node-leveldown:
   version: 1.0.0+dfsg-1
   bugs:
@@ -12923,10 +12792,6 @@ planetfilter:
   version: 0.5.0-1
   issues:
     - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
-plasma-widget-adjustableclock:
-  version: 4.1.4-1
-  bugs:
-    - 799515
 plastex:
   version: 0.9.2-1
   bugs:
@@ -13803,6 +13668,7 @@ python-igraph:
   version: 0.6.5-1
   bugs:
     - 759858
+    - 797829
 python-imaplib2:
   version: 2.50-1
   bugs:
@@ -15846,10 +15712,6 @@ seq24:
   version: 0.9.2-2
   issues:
     - ftbfs_temporary_glibmm24_bug
-seqprep:
-  version: 1.1-2
-  bugs:
-    - 789829
 service-wrapper-java:
   version: 3.5.25-2
   issues:
@@ -15921,10 +15783,6 @@ shorewall-core:
   version: 4.6.4.3-1
   bugs:
     - 776808
-shortuuid:
-  version: 0.4.2-3
-  bugs:
-    - 799310
 shotwell:
   version: 0.22.0-1
   issues:
@@ -15956,10 +15814,6 @@ sikuli:
   issues:
     - timestamps_in_jar
     - locale_in_documentation_generated_by_javadoc
-silo-llnl:
-  version: 4.10.2-1
-  bugs:
-    - 797414
 simba:
   version: 0.8.4-4.2
   bugs:
@@ -16051,10 +15905,6 @@ skimage:
   version: 0.10.1-2
   bugs:
     - 788965
-skrooge:
-  version: 1.9.3-1
-  bugs:
-    - 799516
 skytools3:
   version: 3.2-2
   issues:
@@ -16119,10 +15969,6 @@ smash:
   version: 0.0.14-1
   bugs:
     - 802111
-smb4k:
-  version: 1.1.2-1
-  bugs:
-    - 799517
 smcroute:
   version: 2.0.0-5
   comments: |
@@ -16547,10 +16393,6 @@ substance:
   version: 5.3-3
   issues:
     - timestamp_in_java_bnd_manifest
-subtitlecomposer:
-  version: 0.5.3-4
-  bugs:
-    - 799518
 subtitleeditor:
   version: 0.52.1-1
   issues:
@@ -16590,10 +16432,6 @@ surf-alggeo:
   version: 1.0.6+ds-2
   issues:
     - timestamps_in_pdf_generated_by_latex
-svgpart:
-  version: 4:4.11.3-2
-  bugs:
-    - 799519
 svgsalamander:
   version: 0~svn95-1
   issues:
@@ -16855,18 +16693,10 @@ telegnome:
   version: 0.1.1-9
   bugs:
     - 803141
-telepathy-qt:
-  version: 0.9.6.1-2
-  bugs:
-    - 800629
 telepathy-salut:
   version: 0.8.1-4
   issues:
     - build_id_variation_requiring_further_investigation
-tellico:
-  version: 2.3.9+dfsg.1-1
-  bugs:
-    - 799520
 tempest:
   version: 4-2
   issues:
@@ -17489,10 +17319,6 @@ ultracopier:
   version: 0.3.1.0-1
   issues:
     - timestamps_from_cpp_macros
-umbrello:
-  version: 4:4.14.2-1
-  bugs:
-    - 799521
 umlet:
   version: 12.1-1
   issues:
@@ -17980,10 +17806,6 @@ webkit2pdf:
     - timestamps_in_documentation_generated_by_podman
   bugs:
     - 786633
-webkitkde:
-  version: 1.3.4-2
-  bugs:
-    - 799522
 weboob:
   version: 1.0-3
   issues:
@@ -18803,10 +18625,6 @@ zabbix:
   version: 1:2.2.7+dfsg-1
   issues:
     - timestamps_from_cpp_macros
-zanshin:
-  version: 0.2.1-1
-  bugs:
-    - 799523
 zathura:
   version: 0.3.1-2
   issues:
@@ -18895,10 +18713,6 @@ zope.sqlalchemy:
   version: 0.6.1-2
   bugs:
     - 793319
-zope.traversing:
-  version: 3.13.2-2
-  bugs:
-    - 788697
 zorp:
   version: 3.9.5-4
   comments: |
