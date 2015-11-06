@@ -3263,6 +3263,10 @@ dnssec-trigger:
   comments: |
     Embeds the build date into manpage.
     https://sources.debian.net/src/dnssec-trigger/0.13~svn685-4/configure.ac/#L678
+dnsval:
+  version: 2.0-2
+  bugs:
+    - 803886
 doc-base:
   version: 0.10.6
   bugs:
