@@ -550,6 +550,12 @@ randomness_in_qdoc:
     Non-deterministic order of <tag> and <file> elements in XML. See
     http://sources.debian.net/src/qtbase-opensource-src/5.3.2%2Bdfsg-4/src/tools/qdoc/helpprojectwriter.cpp/?hl=630#L787
     etc.
+randomness_in_qdoc_page_id:
+  description: |
+    eg.
+    <qtPageIndex>
+      <page id="{0f990824-d820-4f11-a82f-790abc23751b}">
+    ..etc
 timestamps_in_python_version_numbers:
   description: |
     python-setuptools is appending the build date to a Python version number.
