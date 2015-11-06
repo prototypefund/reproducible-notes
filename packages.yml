@@ -5796,6 +5796,10 @@ golang-doozer:
   version: 0.0~git20130909-1
   bugs:
     - 789834
+golang-fsnotify:
+  version: 1.2.1-1
+  issues:
+    - ftbfs_uninvestigated_test_failures
 golang-git2go:
   version: 0.0~git20150731.0.ed62fda-1
   bugs:
@@ -9033,6 +9037,10 @@ libmarpa-r2-perl:
   version: 2.086000~dfsg-3
   issues:
     - timestamps_from_cpp_macros
+libmath-bigint-gmp-perl:
+  version: 1.43-1
+  issues:
+    - ftbfs_uninvestigated_test_failures
 libmatio:
   version: 1.5.2-3
   issues:
