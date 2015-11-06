@@ -4647,6 +4647,8 @@ foxyproxy:
     - 794779
 fpc:
   version: 2.6.4+dfsg-8
+  comments: |
+    Uses fpdoc to create documentation. The sorting in the index files depends on the locale. Unrecognized characters (e.g. source file is UTF-8 encoded while locale is C) are replaced by ?.
   issues:
     - undeterministic_symlinking_by_rdfind
     - timestamps_in_ppu_generated_by_fpc
@@ -8078,7 +8080,7 @@ lava-tool:
 lazarus:
   version: 1.4.0+dfsg-5
   comments: |
-    Ships its own documentation maker--tools/chmmaker--that varies ordering and writes the locale to an encoding file
+    Uses fpdoc (from the fpc package) to create documentation. The sorting in the index files depends on the locale. Unrecognized characters (e.g. source file is UTF-8 encoded while locale is C) are replaced by ?.
   issues:
     - timestamps_in_ppu_generated_by_fpc
 lcgdm:
