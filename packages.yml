@@ -3114,6 +3114,10 @@ dietlibc:
   issues:
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
+diffoscope:
+  version: 38
+  issues:
+    - ftbfs_uninvestigated_test_failures
 digikam:
   version: 4:4.4.0-1
   issues:
@@ -3184,6 +3188,10 @@ django-ldapdb:
   version: 0.2.0-1
   bugs:
     - 755601
+django-localflavor:
+  version: 1.1-1
+  issues:
+    - ftbfs_uninvestigated_test_failures
 django-polymorphic:
   version: 0.7.1-1
   bugs:
@@ -3940,6 +3948,10 @@ evolvotron:
   version: 0.6.3-2
   issues:
     - build_id_variation_requiring_further_investigation
+exabgp:
+  version: 3.4.13-1
+  issues:
+    - ftbfs_uninvestigated_test_failures
 exactimage:
   version: 0.9.1-6
   issues:
