@@ -6931,14 +6931,6 @@ ircd-ircu:
   comments: |
     Embed build time:
     http://sources.debian.net/src/ircd-ircu/2.10.12.10.dfsg1-1.1/ircd/version.c.SH/?hl=17#L17
-ircd-ratbox:
-  version: 3.0.8.dfsg-3
-  comments: |
-    Embed build time, hostname and kernel version.
-    https://sources.debian.net/src/ircd-ratbox/3.0.8.dfsg-3/libratbox/src/version.c.SH/
-    https://sources.debian.net/src/ircd-ratbox/3.0.8.dfsg-3/src/version.c.SH/
-  issues:
-    - captures_kernel_version
 irker:
   version: 2.12+dfsg-1
   issues:
@@ -14507,10 +14499,6 @@ raster3d:
     - users_and_groups_in_tarball
   bugs:
     - 775810
-ratbox-services:
-  version: 1.2.4+repack-2
-  bugs:
-    - 778099
 ratfor:
   version: 1.0-15
   issues:
@@ -17919,16 +17907,6 @@ wims:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/wims/1:4.08~dfsg1-1/wims/src/configure.ac/#L219
-wims-extra:
-  version: 3.62-6
-  bugs:
-    - 795438
-wims-modules-es:
-  version: 3.64-2
-  comments: |
-    https://sources.debian.net/src/wims-modules-es/3.64-2/debian/makedebiancopyright.sh/
-    missing -l switch to grep on the surface but it doesn't seem to be finding
-    the right results anyway.
 wine:
   version: 1.6.2-21
   issues:
