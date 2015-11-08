@@ -5866,6 +5866,10 @@ golang-github-spf13-fsync:
   version: 0.0~git20141101.0.1fdf08f-1
   bugs:
     - 802340
+golang-github-tinylib-msgp:
+  version: 1.0~beta-1
+  comments: |
+    Looks like its due to random variable numbers in generated code but these are actually deterministic due to golangs implicit rand.Seed(1) - I believe its some kind of arbitrary dict ordering instead
 golang-gocheck:
   version: 0.0~bzr20131118+85-2
   bugs:
