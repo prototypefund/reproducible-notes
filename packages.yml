@@ -7069,6 +7069,8 @@ ipython:
   version: 2.3.0-2
   issues:
     - randomness_in_documentation_generated_by_sphinx
+  bugs:
+    - 803082
 ircd-irc2:
   version: 2.11.2p3~dfsg-4
   comments: |
@@ -10405,6 +10407,8 @@ mapsembler2:
   comments: |
     Stores date and uname:
     https://sources.debian.net/src/mapsembler2/2.2.3%2Bdfsg-2/mapsembler2_extremities/thirdparty/gatb-core/src/gatb/system/api/config.hpp.in/?hl=23,27
+  bugs:
+    - 797526
 mapserver:
   version: 7.0.0-4
   issues:
@@ -18535,6 +18539,8 @@ xemacs21:
   version: 21.4.22-14
   issues:
     - timestamps_in_gzip_headers
+  bugs:
+    - 778180
 xemacs21-packages:
   version: 2009.02.17.dfsg.2-2
   issues:
