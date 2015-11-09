@@ -106,6 +106,8 @@ actiona:
   version: 3.9.0-2
   issues:
     - timestamps_from_cpp_macros
+  bugs:
+    - 804456
 activemq:
   version: 5.6.0+dfsg1-4
   comments: |
@@ -773,6 +775,8 @@ asterisk:
     https://sources.debian.net/src/asterisk/1:13.1.0~dfsg-1/build_tools/make_build_h/
   issues:
     - ftbfs_openssl_transition
+  bugs:
+    - 804460
 asterisk-chan-capi:
   version: 1.1.6-1
   bugs:
@@ -1655,6 +1659,8 @@ canl-java:
   version: 2.1.1-1
   issues:
     - timestamps_in_documentation_generated_by_javadoc
+  bugs:
+    - 804462
 canna:
   version: 3.7p3-13
   comments: |
@@ -2027,6 +2033,8 @@ ckermit:
   issues:
     - timestamps_from_cpp_macros
     - ftbfs_openssl_transition
+  bugs:
+    - 804463
 cl-asdf:
   version: 2:3.1.4-1
   issues:
@@ -2323,6 +2331,8 @@ cone:
     https://sources.debian.net/src/cone/0.89-1/cone/Makefile.am/#L159
   issues:
     - ftbfs_openssl_transition
+  bugs:
+    - 804334
 config-manager:
   version: 0.4-2.1
   issues:
@@ -2671,6 +2681,8 @@ cyphesis-cpp:
   version: 0.6.0-2
   issues:
     - timestamps_from_cpp_macros
+  bugs:
+    - 802049
 cyrus-imapd-2.4:
   version: 2.4.17+caldav~beta10-7
   issues:
@@ -2785,6 +2797,8 @@ dballe:
     Probably a timestamp in guide.pdf. There's a timestamp in a string in libdballe.a.
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+  bugs:
+    - 804051
 dbar:
   version: 0.0.20100524-3
   bugs:
@@ -3223,6 +3237,8 @@ django-guardian:
   version: 1.2.4+git20141127-0.2
   issues:
     - randomness_in_documentation_generated_by_sphinx
+  bugs:
+    - 801933
 django-jinja:
   version: 1.4.1-1
   bugs:
@@ -3360,6 +3376,8 @@ dolfin:
   version: 1.5.0-4
   issues:
     - build_id_variation_requiring_further_investigation
+  bugs:
+    - 804465
 dolphin-emu:
   version: 4.0.2+dfsg-2
   issues:
@@ -3817,6 +3835,8 @@ erlang-bitcask:
   version: 1.6.7+dfsg-1
   issues:
     - timestamps_in_beam_files
+  bugs:
+    - 791369
 erlang-cherly:
   version: 0.12.8+dfsg-4
   issues:
@@ -4950,6 +4970,8 @@ gambas3:
   issues:
     - timestamps_from_cpp_macros
     - ftbfs_openssl_transition
+  bugs:
+    - 804467
 gamera:
   version: 3.4.2+svn1431-1
   bugs:
@@ -5087,6 +5109,8 @@ gcc-msp430:
   version: 4.6.3~mspgcc-20120406-7
   issues:
     - different_due_to_umask
+  bugs:
+    - 777863
 gcc-python-plugin:
   version: 0.14-3
   issues:
@@ -5859,6 +5883,8 @@ gofigure2:
   version: 0.9.0-3
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+  bugs:
+    - 789930
 gogoc:
   version: 1:1.2-5
   issues:
@@ -6079,6 +6105,8 @@ gradle:
   version: 1.5-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 804470
 grads:
   version: 2:2.0.2-3
   comments: |
@@ -6331,6 +6359,8 @@ guacamole:
   issues:
     - timestamps_in_jar
     - user_in_java_jar_manifest
+  bugs:
+    - 804471
 guacamole-client:
   version: 0.8.3-1.1
   issues:
@@ -8689,6 +8719,8 @@ libgpod:
   version: 0.8.3-1.1
   issues:
     - timestamps_in_pe_binaries
+  bugs:
+    - 804472
 libgrip:
   version: 0.3.8-1
   bugs:
@@ -9746,6 +9778,8 @@ libzhuyin:
   version: 0.9.99.20140929-1
   issues:
     - berkeley_db_variation_requiring_further_investigation
+  bugs:
+    - 804473
 libzypp:
   version: 14.29.1-2
   issues:
