@@ -8149,11 +8149,10 @@ lava-tool:
   issues:
     - timestamps_in_manpages_generated_by_sphinx
 lazarus:
-  version: 1.4.0+dfsg-5
+  version: 1.4.4+dfsg-1
   comments: |
-    Uses fpdoc (from the fpc package) to create documentation. The sorting in the index files depends on the locale. Unrecognized characters (e.g. source file is UTF-8 encoded while locale is C) are replaced by ?.
-  issues:
-    - timestamps_in_ppu_generated_by_fpc
+    Unknown differences in chm files.
+    Timestamps of some directories is either the build time or some time in the past (but different directories have the timestamp diff in the reversed order.
 lcgdm:
   version: 1.8.7-3.1
   issues:
