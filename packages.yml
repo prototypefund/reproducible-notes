@@ -2034,10 +2034,6 @@ clanlib:
   version: 1.0~svn3827-3
   bugs:
     - 790357
-classworlds:
-  version: 1.1-final-5
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 classycle:
   version: 1.4-2
   issues:
@@ -2256,10 +2252,6 @@ commons-beanutils:
   version: 1.9.2-1
   issues:
     - locale_differences_in_pom
-commons-csv:
-  version: 0.1-SNAPSHOT+svn678580-3
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 commons-exec:
   version: 1.3-1
   issues:
@@ -5517,11 +5509,6 @@ glosstex:
   version: 0.4.dfsg.1-3
   issues:
     - pdf_created_by_ghostscript
-glpk-java:
-  version: 1.0.37-1
-  issues:
-    - random_order_in_documentation_generated_by_javadoc
-    - locale_in_documentation_generated_by_javadoc
 gluegen2:
   version: 2.2.4-2
   issues:
@@ -7035,20 +7022,12 @@ jackson-databind:
   version: 2.4.2-2
   issues:
     - locale_in_documentation_generated_by_javadoc
-jackson-dataformat-cbor:
-  version: 2.4.3-1
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 jackson-dataformat-smile:
   version: 2.4.2-1
   issues:
     - locale_in_documentation_generated_by_javadoc
 jackson-dataformat-xml:
   version: 2.5.3+dfsg-1
-  issues:
-    - locale_in_documentation_generated_by_javadoc
-jackson-dataformat-yaml:
-  version: 2.4.3-2
   issues:
     - locale_in_documentation_generated_by_javadoc
 jacksum:
@@ -7139,11 +7118,6 @@ jarisplayer:
 jarjar:
   version: 1.4+svn142-4
   issues:
-    - locale_in_documentation_generated_by_javadoc
-jasperreports:
-  version: 4.1.3+dfsg-3
-  issues:
-    - timestamps_in_documentation_generated_by_javadoc
     - locale_in_documentation_generated_by_javadoc
 java-allocation-instrumenter:
   version: 2.1-1
@@ -8701,10 +8675,6 @@ libjbcrypt-java:
   version: 0.3-4
   issues:
     - timestamps_in_jar
-libjboss-marshalling-java:
-  version: 1.1.3.GA-3
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 libjcalendar-java:
   version: 1.3.3-3
   issues:
@@ -8996,11 +8966,6 @@ libnanoxml2-java:
   issues:
     - timestamps_in_jar
     - timestamps_in_documentation_generated_by_javadoc
-    - locale_in_documentation_generated_by_javadoc
-libnative-platform-java:
-  version: 0.10+dfsg-1
-  issues:
-    - timestamps_in_jar
     - locale_in_documentation_generated_by_javadoc
 libnb-platform18-java:
   version: 8.0.2+dfsg1-1
@@ -10302,11 +10267,6 @@ maven-shared-jar:
 maven-shared-utils:
   version: 0.4-1
   issues:
-    - locale_in_documentation_generated_by_javadoc
-maven2-core:
-  version: 2.2.1-16
-  issues:
-    - random_order_in_plexus_comonents_xml
     - locale_in_documentation_generated_by_javadoc
 mayavi2:
   version: 4.3.1-3.1
@@ -12774,14 +12734,6 @@ pleiades:
   version: 1.5.0-1
   comments: |
     Generates a DSA signature during build
-plexus-classworlds2:
-  version: 2.5.2-1
-  issues:
-    - locale_in_documentation_generated_by_javadoc
-plexus-container-default:
-  version: 1.0-alpha-9-stable-1-7
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 plexus-containers:
   version: 1.0~beta3.0.7-7
   issues:
@@ -12800,10 +12752,6 @@ plexus-i18n:
     - random_order_in_plexus_comonents_xml
 plexus-utils:
   version: 1:1.5.15-4
-  issues:
-    - locale_in_documentation_generated_by_javadoc
-plexus-utils2:
-  version: 3.0.15-1
   issues:
     - locale_in_documentation_generated_by_javadoc
 plib-doc:
@@ -14080,10 +14028,6 @@ qdjango:
   version: 0.6.1-2
   bugs:
     - 799659
-qdox:
-  version: 1.12-1
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 qelectrotech:
   version: 1:0.4-2
   issues:
@@ -15817,11 +15761,6 @@ signify:
   bugs:
     - 777062
     - 793721
-sikuli:
-  version: 1.0~x~rc3.tesseract3-dfsg1-8
-  issues:
-    - timestamps_in_jar
-    - locale_in_documentation_generated_by_javadoc
 simba:
   version: 0.8.4-4.2
   bugs:
