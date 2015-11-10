@@ -790,10 +790,6 @@ timestamps_in_directories:
 random_order_in_static_libraries:
   description: |
     order of members in a static library change between build1 and build2
-ftbfs_temporary_glibmm24_bug:
-  description: |
-    glibmm-2.4 has broken a load of packages with its std=c++11 requirement
-  url: https://bugs.debian.org/800371
 random_order_in_md5sums:
   description: |
     order of files in md5sums (in control.tar.gz) differ from build1 to build2. This only happens in
