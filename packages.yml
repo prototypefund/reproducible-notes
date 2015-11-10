@@ -9286,6 +9286,10 @@ libpixels-java:
   issues:
     - timestamps_in_jar
     - timestamps_in_documentation_generated_by_javadoc
+libpoe-loop-event-perl:
+  version: 1.305-1
+  issues:
+    - ftbfs_uninvestigated_test_failures
 libpqtypes:
   version: 1.5.1-2
   bugs:
@@ -13995,6 +13999,10 @@ python-oslo.service:
   version: 0.9.0-2
   issues:
     - ftbfs_uninvestigated_test_failures
+python-packaging:
+  version: 15.3-1
+  issues:
+    - ftbfs_uninvestigated_test_failures
 python-padme:
   version: 1.1.1-1
   issues:
@@ -17008,6 +17016,10 @@ tetrinet:
     - different_due_to_umask
   bugs:
     - 777397
+tevent:
+  version: 0.9.26-1
+  issues:
+    - ftbfs_uninvestigated_test_failures
 tex-common:
   version: 6.03
   issues:
