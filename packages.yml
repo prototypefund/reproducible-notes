@@ -4028,8 +4028,13 @@ ezstream:
     https://sources.debian.net/src/ezstream/0.5.6%7Edfsg-1/configure.in/#L20
 eztrace:
   version: 1.1-2
+  comments: |
+    creates a huge file filling the entire file system
   issues:
     - timestamps_in_directories
+    - blacklisted_on_jenkins
+  bugs:
+    - 804838
 f-irc:
   version: 1.36-1
   issues:
