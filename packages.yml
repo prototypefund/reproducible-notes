@@ -418,9 +418,8 @@ apache-log4j-extras1.2:
   issues:
     - different_encoding
 apache-mime4j:
-  version: 0.7.2-3
+  version: 0.7.2-4
   issues:
-    - user_in_java_jar_manifest
     - locale_in_documentation_generated_by_javadoc
 apbs:
   version: 1.4-1
@@ -18618,7 +18617,6 @@ xscavenger:
   version: 1.4.4-9
   issues:
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-    - timestamps_in_gzip_headers
   bugs:
     - 777331
 xsddiagram:
