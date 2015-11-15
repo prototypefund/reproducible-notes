@@ -1347,10 +1347,6 @@ blosxom:
   bugs:
     - 777292
     - 793001
-bmake:
-  version: 20140620-3
-  issues:
-    - timestamps_in_documentation_generated_by_groff
 bnd:
   version: 1.50.0-8
   issues:
@@ -2665,10 +2661,6 @@ cyphesis-cpp:
     - timestamps_from_cpp_macros
   bugs:
     - 802049
-cyrus-imapd-2.4:
-  version: 2.4.17+caldav~beta10-7
-  issues:
-    - timestamps_from_cpp_macros
 d-itg:
   version: 2.8.1-r1023-3
   issues:
@@ -2870,10 +2862,6 @@ deap:
   version: 1.0.1-3+deb8u1
   issues:
     - timestamps_in_pdf_generated_by_latex
-debconf:
-  version: 1.5.57
-  issues:
-    - different_pot_creation_date_in_gettext_mo_files
 debdelta:
   version: 0.55
   issues:
@@ -3440,10 +3428,6 @@ drmips:
     to remove the embedded date in the PDF header.
   issues:
     - timestamps_in_pdf_generated_by_latex
-drobo-utils:
-  version: 0.6.1+repack-1
-  issues:
-    - timestamps_in_documentation_generated_by_groff
 drumkv1:
   version: 0.5.1-1
   issues:
@@ -3626,12 +3610,6 @@ efl:
     - timestamps_from_cpp_macros
   bugs:
     - 796426
-eigenbase-farrago:
-  version: 0.9.0-1
-  issues:
-    - timestamps_generated_by_eigenbase_resgen
-  bugs:
-    - 797410
 eigenbase-resgen:
   version: 1.3.0.13768-1
   issues:
@@ -4238,10 +4216,6 @@ fgetty:
   bugs:
     - 776966
     - 792967
-fhist:
-  version: 1.18-1
-  issues:
-    - timestamps_in_documentation_generated_by_groff
 fife:
   version: 0.3.5-1
   issues:
@@ -4831,14 +4805,6 @@ fspy:
   comments: |
     Embeds the build time.
     https://sources.debian.net/src/fspy/0.1.1-1/Makefile/#L4
-fstrcmp:
-  version: 0.7.D001-1.1
-  issues:
-    - pdf_created_by_ghostscript
-fte:
-  version: 0.50.2b6-6
-  bugs:
-    - 803064
 ftpcopy:
   version: 0.6.7-3
   issues:
@@ -5338,11 +5304,6 @@ git-cola:
   version: 2.0.6-1
   issues:
     - timestamps_in_manpages_generated_by_sphinx
-git-dpm:
-  version: 0.9.1-1
-  issues:
-    - timestamps_in_documentation_generated_by_groff
-    - pdf_created_by_ghostscript
 git-hub:
   version: 0.9.0-1
   comments: |
@@ -5601,10 +5562,6 @@ gnome-clocks:
   version: 3.18.0-1
   issues:
     - build_id_variation_requiring_further_investigation
-gnome-desktop3:
-  version: 3.14.1-1
-  bugs:
-    - 784318
 gnome-do:
   version: 0.95.3-1
   issues:
@@ -6882,10 +6839,6 @@ integrit:
   bugs:
     - 776973
     - 792984
-intercal:
-  version: 30:0.30-1
-  issues:
-    - timestamps_in_documentation_generated_by_groff
 invesalius:
   version: 3.0-1
   issues:
@@ -8429,10 +8382,6 @@ libexpect-php5:
   version: 0.3.1-1
   bugs:
     - 755336
-libexplain:
-  version: 1.4.D001-2
-  issues:
-    - timestamps_in_pdf_generated_by_latex
 libextractor:
   version: 1:1.3-2
   issues:
@@ -9551,11 +9500,6 @@ libtango:
   version: 0.99.9.dfsg-1
   bugs:
     - 665017
-libtemplates-parser:
-  version: 11.8.2014-3
-  issues:
-    - timestamps_in_pdf_generated_by_latex
-    - timestamps_in_ada_library_information_files
 libtest-aggregate-perl:
   version: 0.372-2
   issues:
@@ -9801,10 +9745,6 @@ libxmlrpc3-java:
   version: 3.1.3-7
   issues:
     - locale_differences_in_pom
-libxmu:
-  version: 2:1.1.2-1
-  issues:
-    - different_encoding
 libxpp2-java:
   version: 2.1.10-7
   issues:
@@ -10573,10 +10513,6 @@ mc:
   version: 4.8.13-3
   issues:
     - different_pot_creation_date_in_gettext_mo_files
-mcl:
-  version: 1:14-137-1
-  issues:
-    - timestamps_in_documentation_generated_by_groff
 mclibs:
   version: 20061220+dfsg3-3
   issues:
@@ -10599,10 +10535,6 @@ medusa:
   version: 2.1.1-1
   issues:
     - ftbfs_openssl_transition
-megaglest:
-  version: 3.9.1-1
-  issues:
-    - timestamps_from_cpp_macros
 memcached:
   version: 1.4.24-2
   bugs:
@@ -12138,10 +12070,6 @@ openid4java:
   version: 0.9.6.662-2
   issues:
     - locale_in_documentation_generated_by_javadoc
-openimageio:
-  version: 1.4.14~dfsg0-1
-  issues:
-    - timestamps_in_pdf_generated_by_latex
 openjdk-7:
   version: 7u71-2.5.3-2
   issues:
@@ -12570,10 +12498,6 @@ pbuilder:
   version: 0.219
   bugs:
     - 804729
-pcal:
-  version: 4.11.0-3
-  issues:
-    - timestamps_in_documentation_generated_by_groff
 pcaputils:
   version: 0.8-1
   issues:
@@ -12624,10 +12548,6 @@ pd-hid:
     - timestamps_from_cpp_macros
 pd-iemguts:
   version: 0.1-1
-  issues:
-    - timestamps_from_cpp_macros
-pd-iemmatrix:
-  version: 0.2-2
   issues:
     - timestamps_from_cpp_macros
 pd-libdir:
@@ -12760,10 +12680,6 @@ perdition:
     - timestamps_in_gzip_headers
   bugs:
     - 787998
-performous:
-  version: 0.7.0+git20140715-2
-  issues:
-    - timestamps_from_cpp_macros
 perl:
   version: 5.22.0-4
   bugs:
@@ -13220,10 +13136,6 @@ powertop:
   version: 2.6.1-1
   issues:
     - timestamps_from_cpp_macros
-powstatd:
-  version: 1.5.1-9.1
-  issues:
-    - timestamps_in_documentation_generated_by_groff
 ppl:
   version: 1:1.1-4
   bugs:
@@ -14204,10 +14116,6 @@ python-spur:
   version: 0.3.14-1
   bugs:
     - 802158
-python-sqlalchemy-utils:
-  version: 0.30.12-1
-  bugs:
-    - 799206
 python-statsd:
   version: 3.0.1-2
   bugs:
@@ -14295,12 +14203,6 @@ pytone:
   version: 3.0.0-1
   issues:
     - unsorted_filelist_python_support_private
-pywavelets:
-  version: 0.2.2-2
-  issues:
-    - timestamps_in_documentation_generated_by_sphinx
-  bugs:
-    - 788594
 pywbem:
   version: 0.8.0~dev650-1
   issues:
@@ -15080,16 +14982,8 @@ ruby-activerecord-nulldb-adapter:
   version: 0.3.1-1
   bugs:
     - 759918
-ruby-aggregate:
-  version: 0.2.2-1
-  issues:
-    - timestamps_in_gemspec_files
 ruby-albino:
   version: 1.3.3-3
-  issues:
-    - timestamps_in_gemspec_files
-ruby-archive-tar-minitar:
-  version: 0.5.2-2
   issues:
     - timestamps_in_gemspec_files
 ruby-aruba:
@@ -15174,14 +15068,6 @@ ruby-dbd-mysql:
   version: 0.4.4+gem2deb-2
   issues:
     - timestamps_in_gemspec_files
-ruby-dbd-odbc:
-  version: 0.2.5+gem2deb-1
-  issues:
-    - timestamps_in_gemspec_files
-ruby-dbd-pg:
-  version: 0.3.9+gem2deb-1
-  issues:
-    - timestamps_in_gemspec_files
 ruby-dbd-sqlite3:
   version: 1.2.5+gem2deb-3
   issues:
@@ -15236,10 +15122,6 @@ ruby-expression-parser:
   version: 0.9.1-2
   issues:
     - timestamps_in_ruby_documentation
-ruby-extendmatrix:
-  version: 0.3.1-3
-  issues:
-    - timestamps_in_gemspec_files
 ruby-facets:
   version: 2.9.3-2
   issues:
@@ -15506,10 +15388,6 @@ ruby-rack-google-analytics:
   version: 1.2.0-1
   issues:
     - timestamps_in_gemspec_files
-ruby-rack-mobile-detect:
-  version: 0.4.0-3
-  issues:
-    - timestamps_in_gemspec_files
 ruby-rack-oauth2:
   version: 1.2.0-3
   bugs:
@@ -15540,10 +15418,6 @@ ruby-redis-namespace:
     - 794359
 ruby-ref:
   version: 2.0.0-1
-  issues:
-    - timestamps_in_gemspec_files
-ruby-remcached:
-  version: 0.4.1-2
   issues:
     - timestamps_in_gemspec_files
 ruby-rest-client:
@@ -15628,14 +15502,6 @@ ruby-sshkit:
   version: 1.7.1-1
   bugs:
     - 795118
-ruby-stomp:
-  version: 1.3.4-2
-  issues:
-    - timestamps_in_gemspec_files
-ruby-test-declarative:
-  version: 0.0.5-3
-  issues:
-    - timestamps_in_gemspec_files
 ruby-test-spec:
   version: 0.10.0-3
   issues:
@@ -15676,10 +15542,6 @@ ruby-wikicloth:
   version: 0.8.1+dfsg-2
   issues:
     - timestamps_in_ruby_documentation
-ruby-wirble:
-  version: 0.1.3-4
-  issues:
-    - timestamps_in_gemspec_files
 ruby-xml-simple:
   version: 1.1.1-1
   issues:
@@ -17319,10 +17181,6 @@ torque:
   comments: |
     Embed build dir, build time, username, and hostname:
     http://sources.debian.net/src/torque/2.4.16%2Bdfsg-1.5/configure.ac/?hl=1417:1420,1422:1426#L1417
-torus-trooper:
-  version: 0.22.dfsg1-9
-  bugs:
-    - 797432
 toxiproxy:
   version: 1.2.1+dfsg1-3
   issues:
@@ -18049,10 +17907,6 @@ vtk6:
     Captures kernel version in header and current time in generated documentation.
   issues:
     - timestamps_in_dvi_generated_by_latex
-vtprint:
-  version: 2.0.2-13
-  issues:
-    - timestamps_in_documentation_generated_by_groff
 vtun:
   version: 3.0.3-2
   comments: |
@@ -18512,12 +18366,6 @@ xen:
   bugs:
     - 793132
     - 802870
-xenomai:
-  version: 2.6.3-2
-  comments: |
-    Timestamps in a patch that is generated at build time.
-  bugs:
-    - 802420
 xfaces:
   version: 3.3-28
   issues:
