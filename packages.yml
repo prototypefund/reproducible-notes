@@ -4648,6 +4648,8 @@ fpc:
   version: 2.6.4+dfsg-8
   comments: |
     Uses fpdoc to create documentation. The sorting in the index files depends on the locale. Unrecognized characters (e.g. source file is UTF-8 encoded while locale is C) are replaced by ?.
+    Version 3.0.0: two utilities (fpcres and fpcjres) now include the build time via %DATE% macro
+    Version 3.0.0: the compiler itself has non reproducibility but that is not exposed by diffoscope (too large)
   issues:
     - undeterministic_symlinking_by_rdfind
     - timestamps_in_ppu_generated_by_fpc
