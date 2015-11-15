@@ -353,7 +353,7 @@ build_id_variation_requiring_further_investigation:
 timestamps_in_documentation_generated_by_podman:
   description: |
     The module Pod::Man includes timestamps in its embedded manpages:
-    http://sources.debian.net/src/perl/latest/cpan/podlators/lib/Pod/Man.pm/?hl=1700#L964
+    http://sources.debian.net/src/perl/latest/cpan/podlators/lib/Pod/Man.pm/?hl=1700#L977
     They should be based on the mtime of the original file.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInManpagesGeneratedByPodMan
 timezones_manpages_podman:
