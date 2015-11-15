@@ -517,6 +517,10 @@ randomness_in_ocaml_custom_executables:
     ocamlc -custom generates intermediate files with random names that end
     up in the executable.
   url: https://bugs.debian.org/786913
+randomness_in_ocaml_preprocessed_files:
+  description: |
+    ocamlpp generates intermediate files with random names that end
+    up in the executable.
 randomness_in_ocaml_provides:
   description: |
     From dh_ocaml :-
