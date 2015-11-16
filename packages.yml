@@ -5199,10 +5199,6 @@ gettext:
   version: 0.19.5.1-1
   issues:
     - timestamps_in_jar
-gfax:
-  version: 0.7.7+ds-2
-  issues:
-    - timestamps_in_pe_binaries
 gff2aplot:
   version: 2.0-7
   issues:
@@ -14160,10 +14156,6 @@ pvm:
     - timestamps_in_tarball
     - timestamps_in_gzip_headers
     - different_due_to_umask
-pxe:
-  version: 1.4.2-7
-  issues:
-    - timestamps_from_cpp_macros
 pxlib:
   version: 0.6.5-1
   issues:
@@ -16497,10 +16489,6 @@ sagan:
   version: 0.2.1.r1-1
   bugs:
     - 753171
-salome-kernel:
-  version: 6.5.0-8.1
-  comments: |
-    Caused by lack of module sort in python-omniorb:omniidl_be/python.py
 salt:
   version: 2014.1.13+ds-1
   comments: |
