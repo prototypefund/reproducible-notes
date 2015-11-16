@@ -762,6 +762,10 @@ aspic:
   version: 1.05-4
   issues:
     - pdf_created_by_ghostscript
+aster:
+  version: 11.5.0+dfsg2-3
+  bugs:
+    - 805193
 asterisk:
   version: 1:13.1.0~dfsg-1
   comments: |
@@ -951,6 +955,10 @@ avrdude:
   version: 6.1-2
   issues:
     - timestamps_from_cpp_macros
+avro-java:
+  version: 1.7.7-1
+  bugs:
+    - 805194
 avrprog:
   version: 0.2.2-2
   issues:
@@ -2869,6 +2877,8 @@ debdry:
   version: 0.2.1-1
   issues:
     - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
+  bugs:
+    - 805195
 debian-builder:
   version: 1.8
   issues:
@@ -5226,6 +5236,10 @@ gfxboot:
     - timestamps_in_cpio_archive
     - users_and_groups_in_cpio_archive
     - different_due_to_umask
+ggcov:
+  version: 0.9-8
+  bugs:
+    - 805199
 ghc:
   version: 7.8.4-9
   issues:
@@ -5277,6 +5291,10 @@ gio-sharp:
   version: 2.22.3-2
   issues:
     - timestamps_in_pe_binaries
+gip:
+  version: 1.7.0-1-3
+  bugs:
+    - 805200
 girara:
   version: 0.2.4-3
   issues:
@@ -5666,6 +5684,10 @@ gnuit:
   version: 4.9.5-3
   issues:
     - timestamps_from_cpp_macros
+gnumail:
+  version: 1.2.2-1
+  bugs:
+    - 805201
 gnupg-doc:
   version: 2003.04.06+dak1-1
   comments: |
@@ -5972,6 +5994,12 @@ gramps:
   version: 4.2.1~dfsg-1
   issues:
     - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
+  bugs:
+    - 805202
+granule:
+  version: 1.4.0-7-5
+  bugs:
+    - 805203
 grap:
   version: 1.44-1
   issues:
@@ -6582,6 +6610,10 @@ hwloc:
   version: 1.10.0-3
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+hy:
+  version: 0.11.0-3
+  bugs:
+    - 805204
 hyde:
   version: 0.8.5a1-4
   issues:
@@ -7724,6 +7756,10 @@ kimwitu-doc:
   version: 10a+1-2.2
   issues:
     - timestamps_in_pdf_generated_by_latex
+kindleclip:
+  version: 0.5-1
+  bugs:
+    - 805205
 king:
   version: 2.21.120420+dfsg-1
   issues:
@@ -7765,6 +7801,10 @@ kmod:
     - timestamps_in_manpages_generated_by_docbook_xsl
   bugs:
     - 783152
+kmplayer:
+  version: 1:0.11.3d-2.1
+  bugs:
+    - 805206
 kmymoney:
   version: 4.6.6-2
   issues:
@@ -8539,6 +8579,7 @@ libdatetime-incomplete-perl:
   version: 0.07-1
   bugs:
     - 805207
+    - 805210
 libdatetime-set-perl:
   version: 0.3600-1
   issues:
@@ -8714,6 +8755,8 @@ libffado:
   version: 2.2.1-2
   issues:
     - timestamps_from_cpp_macros
+  bugs:
+    - 805211
 libffi:
   version: 3.1-2
   comments: |
@@ -10473,6 +10516,8 @@ libxdmcp:
   version: 1:1.1.2-1
   issues:
     - different_encoding
+  bugs:
+    - 805213
 libxerces2-java:
   version: 2.11.0-7
   issues:
@@ -13299,6 +13344,8 @@ passepartout:
   version: 0.7.1-1.1
   issues:
     - timestamps_from_cpp_macros
+  bugs:
+    - 805217
 paste:
   version: 1.7.5.1-6
   issues:
@@ -13319,6 +13366,10 @@ pathological:
     - serial_numbers_in_ogg
   bugs:
     - 775995
+patool:
+  version: 1.8-1
+  bugs:
+    - 805219
 pavucontrol:
   version: 3.0-2
   issues:
@@ -13348,6 +13399,10 @@ pcb:
   version: 20140316-3
   issues:
     - timestamps_from_cpp_macros
+pcb2gcode:
+  version: 1.1.4-git20120902-1
+  bugs:
+    - 805220
 pchar:
   version: 1.5-2
   comments: |
@@ -13595,6 +13650,8 @@ php-apcu:
   version: 4.0.7-1
   issues:
     - timestamps_from_cpp_macros
+  bugs:
+    - 805222
 php-codecoverage:
   version: 2.1.7+dfsg-1
   bugs:
@@ -13693,6 +13750,10 @@ phyml:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/phyml/2:20120412-2/configure.ac/#L5
+picard:
+  version: 1.3.2-2
+  bugs:
+    - 805221
 picolisp:
   version: 3.1.11.1-1
   comments: |
@@ -13994,6 +14055,10 @@ practicalxml-java:
   version: 1.1.17-1
   bugs:
     - 795712
+praw:
+  version: 3.2.1-1
+  bugs:
+    - 805226
 presage:
   version: 0.9-1
   bugs:
@@ -14272,6 +14337,10 @@ pyliblo:
   version: 0.10.0-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
+pylibmc:
+  version: 1.5.0-3
+  bugs:
+    - 805227
 pylint:
   version: 1.4.4-1
   bugs:
@@ -14328,6 +14397,10 @@ pyotherside:
   version: 1.2.0-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
+pyparted:
+  version: 3.10.7-1
+  bugs:
+    - 805249
 pypy:
   version: 2.6.1+dfsg-2
   issues:
@@ -15318,6 +15391,10 @@ quickplot:
   version: 0.10.6-1
   issues:
     - timestamps_from_cpp_macros
+quiterss:
+  version: 0.18.2+dfsg-1
+  bugs:
+    - 805240
 quodlibet:
   version: 3.2.2-1
   issues:
@@ -15647,6 +15724,8 @@ repsnapper:
   version: 2.3.2a5-1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
+  bugs:
+    - 805232
 request-tracker4:
   version: 4.2.11-2
   bugs:
@@ -16863,6 +16942,10 @@ sipxtapi:
     https://sources.debian.net/src/sipxtapi/3.3.0~test17-1/config/sipXpkgtop.mak/
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+sireader:
+  version: 1.0.2-1
+  bugs:
+    - 805229
 sisc:
   version: 1.16.6-1.1
   issues:
@@ -17062,6 +17145,10 @@ sorl-thumbnail:
   version: 12.2-1
   bugs:
     - 792576
+sosreport:
+  version: 3.2-2
+  bugs:
+    - 805247
 soundscaperenderer:
   version: 0.4.2~dfsg-2
   issues:
@@ -17294,6 +17381,10 @@ staden:
   version: 2.0.0+b10-1.1
   bugs:
     - 793514
+stardict:
+  version: 3.0.1-9.2
+  bugs:
+    - 805236
 starlet:
   version: 0.26-1
   issues:
@@ -18502,6 +18593,10 @@ valknut:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/valknut/0.4.9-2/configure.in/#L127
+varconf:
+  version: 1.0.0-2
+  bugs:
+    - 805239
 varnish:
   version: 4.0.2-1
   comments: |
@@ -18824,6 +18919,8 @@ webassets:
   version: 3:0.10.1-2
   issues:
     - timestamps_in_manpages_generated_by_help2man
+  bugs:
+    - 805242
 webauth:
   version: 4.6.1-1
   issues:
@@ -19172,6 +19269,10 @@ xcfa:
   version: 4.3.8-1
   issues:
     - timestamps_from_cpp_macros
+xcffib:
+  version: 0.3.6-1
+  bugs:
+    - 805234
 xcftools:
   version: 1.0.7-4
   issues:
