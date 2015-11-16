@@ -520,6 +520,10 @@ apg:
     - different_due_to_umask
   bugs:
     - 778215
+apgdiff:
+  version: 2.4-3
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 apng2gif:
   version: 1.5-3
   bugs:
@@ -1431,6 +1435,10 @@ boost1.58:
   version: 1.58.0+dfsg-3
   issues:
     - timestamps_from_cpp_macros
+boot-info-script:
+  version: 0.61-2
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 bootchart:
   version: 0.10~svn407-4.1
   issues:
@@ -1614,6 +1622,10 @@ cadabra:
   version: 1.39-0.2
   bugs:
     - 797539
+cadencii:
+  version: 3.3.9+svn20110818.r1732-4
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 cafeobj:
   version: 1.5.2-2
   issues:
@@ -1971,6 +1983,10 @@ checkstyle:
     Capture build time in
     /usr/share/java/checkstyle.jar:checkstylecompilation.properties
     Also issues with locale in docs
+cheese:
+  version: 3.18.1-2
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 chemical-mime-data:
   version: 0.1.94-6
   comments: |
@@ -2315,6 +2331,10 @@ commons-configuration:
   version: 1.10-3
   issues:
     - timestamps_in_documentation_generated_by_javadoc
+commons-daemon:
+  version: 1.0.15-6
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 commons-exec:
   version: 1.3-1
   issues:
@@ -2360,6 +2380,10 @@ composite:
   version: 0.006.2+dfsg0-4
   issues:
     - timestamps_from_cpp_macros
+compton:
+  version: 0.1~beta2-1
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 condor:
   version: 8.2.3~dfsg.1-3
   issues:
@@ -2653,6 +2677,10 @@ custodia:
   version: 0.1.0-2
   issues:
     - ftbfs_uninvestigated_test_failures
+cutechess:
+  version: 20111114+0.4.2+0.0.1-1
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 cutter-testing-framework:
   version: 1.2.4-1
   bugs:
@@ -2731,6 +2759,10 @@ cyphesis-cpp:
     - timestamps_from_cpp_macros
   bugs:
     - 802049
+d-conf:
+  version: 0.24.0-2
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 d-itg:
   version: 2.8.1-r1023-3
   issues:
@@ -3008,6 +3040,10 @@ debian-reference:
   issues:
     - different_due_to_umask
     - timestamps_in_epub
+debian-security-support:
+  version: 2015.07.11
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 debian-zh-faq:
   version: 1.13
   issues:
@@ -3997,6 +4033,10 @@ erlsvc:
   version: 1.02-1
   issues:
     - timestamps_in_beam_files
+esajpip:
+  version: 0.1~bzr33-3
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 esdl:
   version: 1.2-2
   issues:
@@ -5262,6 +5302,10 @@ genparse:
   version: 0.9.1-1
   bugs:
     - 802190
+geogebra:
+  version: 4.0.34.0+dfsg1-3
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 geomview:
   version: 1.9.5-1
   comments: |
@@ -5449,10 +5493,18 @@ git-remote-bzr:
   version: 0.2+20140705-2
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
+git-remote-hg:
+  version: 0.2+git20140603.185852e-2
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 gitinspector:
   version: 0.4.2+dfsg-1
   bugs:
     - 804426
+gitit:
+  version: 0.10.7-3
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 gitmagic:
   version: 20140125-1
   issues:
@@ -5694,6 +5746,10 @@ gnome-clocks:
   version: 3.18.0-1
   issues:
     - build_id_variation_requiring_further_investigation
+gnome-control-center:
+  version: 1:3.18.2-1
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 gnome-do:
   version: 0.95.3-1
   issues:
@@ -5740,6 +5796,10 @@ gnome-sharp2:
   version: 2.24.2-3
   issues:
     - timestamps_in_pe_binaries
+gnome-shell:
+  version: 3.18.2-1
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 gnome-software:
   version: 3.14.2-1
   issues:
@@ -6252,6 +6312,10 @@ gss:
   version: 1.0.3-1
   issues:
     - timestamps_in_dvi_generated_by_latex
+gss-ntlmssp:
+  version: 0.6.0-1
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 gst-plugins-base1.0:
   version: 1.5.0.1+git20150513-1
   bugs:
@@ -6579,6 +6643,10 @@ heroes:
   version: 0.21-10
   issues:
     - timestamps_in_manpages_generated_by_help2man
+herold:
+  version: 6.1.0-1
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 herwig++:
   version: 2.6.0-1
   bugs:
@@ -6906,6 +6974,10 @@ imagetooth:
   version: 2.0.1-1.1
   issues:
     - timestamps_in_gemspec_files
+imapcopy:
+  version: 1.04-2
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 imapfilter:
   version: 1:2.6.2-1
   issues:
@@ -7782,6 +7854,10 @@ kapptemplate:
   issues:
     - users_and_groups_in_tarball
     - different_due_to_umask
+katarakt:
+  version: 0.1-1
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 kawari8:
   version: 8.2.8-8
   issues:
@@ -8168,6 +8244,10 @@ lava-tool:
   version: 0.12-1
   issues:
     - timestamps_in_manpages_generated_by_sphinx
+lavapdu:
+  version: 0.0.5-1
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 lazarus:
   version: 1.4.4+dfsg-1
   comments: |
@@ -10222,6 +10302,10 @@ libmldbm-perl:
   version: 2.05-2
   issues:
     - timestamps_in_documentation_generated_by_podman
+libmodbus:
+  version: 3.0.6-1
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 libmodern-perl-perl:
   version: 1.20150127-1
   issues:
@@ -12435,6 +12519,10 @@ massxpert:
   version: 3.4.1-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+mate-session-manager:
+  version: 1.10.2-4
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 mathgl:
   version: 2.3.3-3
   bugs:
@@ -13428,6 +13516,10 @@ netw-ib-ox-ag:
   version: 5.39.0-1
   issues:
     - build_id_variation_requiring_further_investigation
+network-manager:
+  version: 1.0.6-1
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 networking-arista:
   version: 2015.1.3-2
   issues:
@@ -14240,6 +14332,10 @@ openrpt:
   version: 3.3.7-1
   issues:
     - timestamps_from_cpp_macros
+opensc:
+  version: 0.15.0-1
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 openscenegraph:
   version: 3.2.1-5
   issues:
@@ -14459,6 +14555,10 @@ paje.app:
   issues:
     - timestamps_in_dvi_generated_by_latex
     - timestamps_in_ps_generated_by_dvips
+pajeng:
+  version: 1.2+git20150818.b1de7cfee5-2
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 palo:
   version: 1.95
   comments: |
@@ -14478,6 +14578,10 @@ pam-mysql:
     - ftbfs_openssl_transition
   bugs:
     - 790455
+paman:
+  version: 0.9.4-1
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 pandas:
   version: 0.14.1-2
   issues:
@@ -14486,6 +14590,10 @@ pantomime1.2:
   version: 1.2.2~r289+dfsg-2
   issues:
     - build_id_variation_requiring_further_investigation
+paprefs:
+  version: 0.9.10-1
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 paramiko:
   version: 1.15.1-1
   issues:
@@ -15013,6 +15121,10 @@ pixmap:
   bugs:
     - 777430
     - 793709
+pixz:
+  version: 1.0.2-2
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 pjproject:
   version: 2.4~dfsg-1
   issues:
@@ -15155,6 +15267,10 @@ pnscan:
   version: 1.11-6
   issues:
     - timestamps_from_cpp_macros
+po4a:
+  version: 0.47-1
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 pocketsphinx:
   version: 0.8-5
   comments: |
@@ -15474,6 +15590,10 @@ pyabiword:
     Build-depends on libabiword-2.9-dev which no longer exists
   bugs:
     - 727084
+pyacidobasic:
+  version: 2.4-3
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 pybik:
   version: 2.0-1
   comments: |
@@ -15889,6 +16009,10 @@ python-enable:
     - build_id_variation_requiring_further_investigation
   bugs:
     - 804584
+python-ethtool:
+  version: 0.11-3
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 python-expyriment:
   version: 0.7.0+git34-g55a4e7e-3
   issues:
@@ -16177,6 +16301,10 @@ python-pyramid:
   version: 1.5.1+dfsg-2
   bugs:
     - 800725
+python-pyscss:
+  version: 1.3.4-4
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 python-reconfigure:
   version: 0.1.59+git20140824-1
   issues:
@@ -16957,6 +17085,10 @@ rename:
   version: 0.20-4
   issues:
     - timestamps_in_documentation_generated_by_podman
+reposurgeon:
+  version: 3.29-1
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 repsnapper:
   version: 2.3.2a5-1
   issues:
@@ -17818,6 +17950,10 @@ salt:
   comments: |
     `/usr/lib/python2.7/dist-packages/salt/_syspaths.py` contains
     a timestamp.
+sam2p:
+  version: 0.49.2-3
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 samba:
   version: 4.1.20+dfsg-1
   issues:
@@ -18090,6 +18226,10 @@ sheepdog:
   comments: |
     Embeds the build date into the manpage with sed via Makefile.
     https://sources.debian.net/src/sheepdog/0.8.3-4/man/Makefile.am/#L13-L16
+shellex:
+  version: 0.1-1
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 shelxle:
   version: 1.0.677-1
   issues:
@@ -18116,6 +18256,10 @@ shotwell:
   issues:
     - different_due_to_umask
     - timestamps_in_tarball
+shunit2:
+  version: 2.1.6-1.1
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 siege:
   version: 3.0.8-1
   comments: |
@@ -18430,6 +18574,10 @@ spacenavd:
   version: 0.6-1
   issues:
     - build_id_variation_requiring_further_investigation
+spacezero:
+  version: 0.80.06-1
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 spamassassin:
   version: 3.4.1-2
   issues:
@@ -19179,6 +19327,10 @@ tf5:
     https://sources.debian.net/src/tf5/5.0beta8-5/configure.in/#L160
   issues:
     - captures_kernel_version
+tgt:
+  version: 1:1.0.61-1
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 the:
   version: 3.3~rc1-2
   issues:
@@ -19857,6 +20009,10 @@ valabind:
   version: 0.9.2-1
   bugs:
     - 802112
+valgrind:
+  version: 1:3.11.0-1
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 validator.js:
   version: 3.17.0+dfsg1-1
   bugs:
@@ -20037,6 +20193,10 @@ vite:
   version: 1.2+svn1430-2
   issues:
     - timestamps_in_pdf_generated_by_latex
+viva:
+  version: 1.1+git20150820.1a3d1f680f-1
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 vlc:
   version: 2.2.0~rc1-1
   issues:
@@ -20181,6 +20341,10 @@ watchdog:
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 784211
+wavtool-pl:
+  version: 0.20150501-1
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 wayland:
   version: 1.9.0-1
   issues:
@@ -20574,6 +20738,10 @@ xcrysden:
   version: 1.5.60-1
   issues:
     - different_encoding
+xdg-user-dirs:
+  version: 0.15-2
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 xdg-utils:
   version: 1.1.0~rc1+git20111210-7.4
   issues:
@@ -20884,6 +21052,10 @@ xsp:
   issues:
     - timestamps_in_pe_binaries
     - timezones_manpages_podman
+xsystem35:
+  version: 1.7.3-pre5-5
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 xtables-addons:
   version: 2.7-2
   issues:
@@ -20987,6 +21159,10 @@ yaws:
   version: 1.98-4
   issues:
     - timestamps_in_beam_files
+yaz:
+  version: 4.2.30-4
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 ycmd:
   version: 0+20150804+git6f4dbb4-1
   issues:
@@ -21055,6 +21231,10 @@ zabbix:
   version: 1:2.2.7+dfsg-1
   issues:
     - timestamps_from_cpp_macros
+zapping:
+  version: 0.10~cvs6-10
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 zathura:
   version: 0.3.1-2
   issues:
