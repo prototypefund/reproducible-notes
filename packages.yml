@@ -82,6 +82,10 @@ acedb:
   version: 4.9.39+dfsg.01-5
   issues:
     - timestamps_from_cpp_macros
+acegi-security:
+  version: 1.0.7-3
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 aces3:
   version: 3.0.8-4
   issues:
@@ -120,6 +124,10 @@ activemq:
     - random_order_in_documentation_generated_by_javadoc
   bugs:
     - 802858
+activemq-activeio:
+  version: 3.1.1-1
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 activiz.net:
   version: 1:1.0~git20111214-2
   issues:
@@ -641,6 +649,10 @@ arduino-mighty-1284p:
   version: 1-2
   comments: |
     The package passes all of dpkg-buildflags to avr-gcc, which doesn't support some of the options, e.g. -Wdate-time.
+argparse4j:
+  version: 0.4.4-1
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 argus-client:
   version: 2.0.6.fixes.1-3
   issues:
@@ -812,6 +824,10 @@ asymptote:
   issues:
     - timestamps_in_png
     - timestamps_in_pdf_generated_by_latex
+async-http-client:
+  version: 1.6.5-4
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 at:
   version: 3.1.16-1
   issues:
@@ -1015,6 +1031,10 @@ axis:
   issues:
     - timestamp_in_java_bnd_manifest
     - locale_in_documentation_generated_by_javadoc
+axmlrpc:
+  version: 1.8.1-1
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 ayttm:
   version: 0.6.3-3
   issues:
@@ -1474,10 +1494,18 @@ breathe:
   version: 3.1.0-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
+bridge-method-injector:
+  version: 1.13-1
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 brltty:
   version: 5.2~20141018-2
   comments: |
     Entropy from (gcc) compile or link order
+bsaf:
+  version: 1.9-4
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 bsdmainutils:
   version: 9.0.6
   bugs:
@@ -1501,6 +1529,10 @@ buici-clock:
   comments: |
     Embeds the build date into README.
     https://sources.debian.net/src/buici-clock/0.4.9.2/Makefile.in/#L219
+build-helper-maven-plugin:
+  version: 1.8-1
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 buildbot:
   version: 0.8.9-2
   bugs:
@@ -2279,6 +2311,10 @@ commons-beanutils:
   version: 1.9.2-1
   issues:
     - locale_differences_in_pom
+commons-configuration:
+  version: 1.10-3
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 commons-exec:
   version: 1.3-1
   issues:
@@ -2295,6 +2331,10 @@ commons-jci:
   version: 1.1-2
   issues:
     - locale_in_documentation_generated_by_javadoc
+commons-math:
+  version: 2.2-5
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 commons-math3:
   version: 3.5-1
   issues:
@@ -2304,6 +2344,10 @@ commons-pool:
   issues:
     - user_in_java_jar_manifest
     - locale_in_documentation_generated_by_javadoc
+commons-vfs:
+  version: 2.0-4
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 company-mode:
   version: 0.8.12-1
   issues:
@@ -3365,6 +3409,10 @@ doit:
   version: 0.28.0-1
   issues:
     - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
+dokujclient:
+  version: 3.5.2-1
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 dolfin:
   version: 1.5.0-4
   issues:
@@ -4187,10 +4235,34 @@ felix-bundlerepository:
   version: 2.0.6-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+felix-framework:
+  version: 4.6.1-1
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
+felix-gogo-command:
+  version: 0.14.0-2
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
+felix-gogo-runtime:
+  version: 0.16.2-1
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
+felix-gogo-shell:
+  version: 0.10.0-2
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 felix-latin:
   version: 2.0-7
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
+felix-main:
+  version: 5.0.0-2
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
+felix-shell:
+  version: 1.4.3-1
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 felix-shell-tui:
   version: 1.4.1-3
   issues:
@@ -5204,6 +5276,10 @@ geronimo-jpa-2.0-spec:
   version: 1.1-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
+geronimo-jta-1.1-spec:
+  version: 1.1.1-3
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 geronimo-osgi-support:
   version: 1.0-2
   issues:
@@ -6880,6 +6956,10 @@ infon:
   version: 0~r198-8
   issues:
     - timestamps_from_cpp_macros
+ini4j:
+  version: 0.5.2-SNAPSHOT-5
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 inn:
   version: 1.7.2q-44
   issues:
@@ -7091,6 +7171,10 @@ jackson-databind:
   version: 2.4.2-2
   issues:
     - locale_in_documentation_generated_by_javadoc
+jackson-dataformat-cbor:
+  version: 2.4.3-1
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 jackson-dataformat-smile:
   version: 2.4.2-1
   issues:
@@ -7192,6 +7276,14 @@ jarjar:
   version: 1.4+svn142-4
   issues:
     - locale_in_documentation_generated_by_javadoc
+jarjar-maven-plugin:
+  version: 1.9-4
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
+jasypt:
+  version: 1.8-3
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 java-allocation-instrumenter:
   version: 2.1-1
   issues:
@@ -7224,6 +7316,10 @@ javaparser:
   version: 1.0.8-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+javawriter:
+  version: 2.5.1-1
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 jaxb:
   version: 2.2.5-1
   issues:
@@ -7238,10 +7334,22 @@ jbofihe:
   version: 0.38-5.1
   bugs:
     - 799313
+jboss-jdeparser2:
+  version: 2.0.0-1
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
+jboss-logging-tools:
+  version: 2.0.1-1
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 jboss-logmanager:
   version: 2.0.3-1
   issues:
     - method_may_never_be_called_in_documentation_generated_by_javadoc
+jboss-modules:
+  version: 1.4.4-1
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 jcharts:
   version: 0.7.5-4
   issues:
@@ -7271,6 +7379,10 @@ jekyll:
   version: 2.2.0+dfsg-2
   bugs:
     - 794139
+jellydoc:
+  version: 1.5-4
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 jenkins:
   version: 1.565.3-3
   issues:
@@ -7283,10 +7395,18 @@ jenkins-antisamy-markup-formatter-plugin:
   version: 1.2-1
   issues:
     - timestamps_in_java_stapler_files
+jenkins-commons-jelly:
+  version: 1.1-jenkins-20120928-1
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 jenkins-dom4j:
   version: 1.6.1-jenkins-4-1
   issues:
     - locale_in_documentation_generated_by_javadoc
+jenkins-json:
+  version: 2.4-jenkins-3-3
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 jenkins-mailer-plugin:
   version: 1.11-1
   issues:
@@ -7307,6 +7427,10 @@ jenkins-ssh-cli-auth:
   version: 1.2-1
   issues:
     - timestamps_in_java_stapler_files
+jenkins-trilead-ssh2:
+  version: 217-jenkins-7-1
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 jericho-html:
   version: 3.1-2
   issues:
@@ -7519,6 +7643,14 @@ jsmath-fonts-sprite:
     - timestamps_difference_by_unzip
   bugs:
     - 792597
+json-simple:
+  version: 1.1.1-3
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
+jsoup:
+  version: 1.8.3-1
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 jsrender:
   version: 1.0~pre21-1
   issues:
@@ -8587,6 +8719,10 @@ libcommons-codec-java:
   version: 1.10-1
   issues:
     - locale_in_documentation_generated_by_javadoc
+libcommons-collections3-java:
+  version: 3.2.1-8
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 libcommons-collections4-java:
   version: 4.0-1
   issues:
@@ -8603,6 +8739,10 @@ libcommons-digester-java:
   version: 1.8.1-4
   issues:
     - random_order_in_documentation_generated_by_javadoc
+libcommons-discovery-java:
+  version: 0.5-3
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 libcommons-el-java:
   version: 1.0-8
   issues:
@@ -9334,6 +9474,10 @@ libgoo-canvas-perl:
   version: 0.06-2
   issues:
     - timestamps_in_documentation_generated_by_podman
+libgoogle-gson-java:
+  version: 2.4-1
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 libgpars-groovy-java:
   version: 0.10-1
   issues:
@@ -9438,6 +9582,10 @@ libhdate:
   version: 1.6-3
   issues:
     - leaks_path_environment_variable
+libhibernate3-java:
+  version: 3.6.10.Final-4
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 libhtml-dashboard-perl:
   version: 0.03-2
   issues:
@@ -9825,6 +9973,10 @@ libjtds-java:
   version: 1.2.5+dfsg-3
   issues:
     - locale_in_documentation_generated_by_javadoc
+libjuniversalchardet-java:
+  version: 1.0.3-1
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 libjxp-java:
   version: 1.6.1-5
   issues:
@@ -10416,6 +10568,14 @@ liboro-java:
   version: 2.0.8a-11
   comments: |
     Locale issue in documentation footer.
+libowasp-antisamy-java:
+  version: 1.5.3+dfsg-1
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
+libowasp-esapi-java:
+  version: 2.1.0-2
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 libp11:
   version: 0.3.0-1
   issues:
@@ -10456,6 +10616,10 @@ libparams-callbackrequest-perl:
   version: 1.20-2
   issues:
     - timestamps_in_documentation_generated_by_podman
+libparanamer-java:
+  version: 2.7+repack-2
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 libparse-bbcode-perl:
   version: 0.15-1
   issues:
@@ -11360,6 +11524,10 @@ libvsqlitepp:
   issues:
     - undeterministic_symlinking_by_rdfind
     - timestamps_in_documentation_generated_by_doxygen
+libvt-ldap-java:
+  version: 3.3.8-1
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 libvuser-google-api-perl:
   version: 1.0.1-1
   issues:
@@ -11509,6 +11677,10 @@ libxml-sax-expatxs-perl:
   version: 1.33-2
   issues:
     - timestamps_in_documentation_generated_by_podman
+libxml-security-java:
+  version: 1.5.6-1
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 libxml-semanticdiff-perl:
   version: 1.0004-2
   issues:
@@ -11807,6 +11979,10 @@ localechooser:
   version: 2.66
   bugs:
     - 714350
+localizer:
+  version: 1.13-2
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 log4c:
   version: 1.2.1-3
   issues:
@@ -12301,10 +12477,18 @@ maven:
   version: 3.0.5-3
   issues:
     - random_order_in_plexus_comonents_xml
+maven-bundle-plugin:
+  version: 2.3.7-2
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 maven-dependency-plugin:
   version: 2.7-1
   bugs:
     - 799003
+maven-doxia-tools:
+  version: 1.2.1-2
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 maven-hpi-plugin:
   version: 1.93-2
   issues:
@@ -12321,10 +12505,18 @@ maven-plugin-testing:
   version: 1.3-2
   issues:
     - random_order_in_plexus_comonents_xml
+maven-reporting-impl:
+  version: 2.3-1
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 maven-scm:
   version: 1.3-5
   issues:
     - random_order_in_maven_plugin_xml
+maven-shade-plugin:
+  version: 1.7.1-1
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 maven-shared-incremental:
   version: 1.1-1
   issues:
@@ -12337,6 +12529,10 @@ maven-shared-utils:
   version: 0.4-1
   issues:
     - locale_in_documentation_generated_by_javadoc
+maven-source-plugin:
+  version: 2.2.1-1
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 mayavi2:
   version: 4.3.1-3.1
   comments: |
@@ -12400,6 +12596,10 @@ meshlab:
   version: 1.3.2+dfsg1-2
   issues:
     - timestamps_from_cpp_macros
+metainf-services:
+  version: 1.6-1
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 metastudent-data:
   version: 2.0.0-3
   issues:
@@ -12632,6 +12832,10 @@ mod-gnutls:
   version: 0.7-1
   issues:
     - ftbfs_uninvestigated_test_failures
+modello-maven-plugin:
+  version: 1.8.3-1
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 modglue:
   version: 1.17-2.2
   comments: |
@@ -12929,6 +13133,10 @@ mummy:
     - timestamps_in_documentation_generated_by_doxygen
     - timestamps_in_pe_binaries
     - different_due_to_umask
+munge-maven-plugin:
+  version: 1.0-1
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 munin:
   version: 2.1.9-1
   issues:
@@ -13905,6 +14113,10 @@ opencolorio:
   version: 1.0.9~dfsg0-3
   issues:
     - timestamps_in_pdf_generated_by_latex
+opencsv:
+  version: 2.3-1
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 opencv:
   version: 2.4.9.1+dfsg-1
   issues:
@@ -13945,6 +14157,10 @@ openjfx:
     com/oracle/tools/packager/linux/libpackager.so
   issues:
     - random_order_in_documentation_generated_by_javadoc
+openjpa:
+  version: 2.4.0-2
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 openjpeg2:
   version: 2.1.0-2
   issues:
@@ -14840,8 +15056,16 @@ pleiades:
   version: 1.5.0-1
   comments: |
     Generates a DSA signature during build
+plexus-build-api:
+  version: 0.0.7-1
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 plexus-cipher:
   version: 1.7-1
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
+plexus-classworlds:
+  version: 1.5.0-5
   issues:
     - timestamps_in_documentation_generated_by_javadoc
 plexus-containers:
@@ -14862,6 +15086,14 @@ plexus-i18n:
     - random_order_in_plexus_comonents_xml
 plexus-interpolation:
   version: 1.21-1
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
+plexus-maven-plugin:
+  version: 1.3.8-9
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
+plexus-sec-dispatcher:
+  version: 1.3.1-6
   issues:
     - timestamps_in_documentation_generated_by_javadoc
 plexus-utils:
@@ -14991,6 +15223,10 @@ portaudio19:
   version: 19+svn20140130-1
   issues:
     - timestamps_from_cpp_macros
+portlet-api-2.0-spec:
+  version: 1.0-2
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 posixtestsuite:
   version: 1.5.2-5
   comments: |
@@ -15119,6 +15355,10 @@ propellor:
   version: 0.9.2
   comments: |
     Includes an unreproducible git bundle.
+properties-maven-plugin:
+  version: 1.0~alpha2-2
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 prophet:
   version: 0.750-1
   bugs:
@@ -16820,6 +17060,10 @@ robojournal:
   version: 0.5-1
   issues:
     - timestamps_from_cpp_macros
+robust-http-client:
+  version: 1.2-3
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 rockdodger:
   version: 1.0.0-1
   comments: |
@@ -17784,6 +18028,10 @@ sensible-utils:
     - different_due_to_umask
   bugs:
     - 774449
+serp:
+  version: 1.15.1-1
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 service-wrapper-java:
   version: 3.5.25-2
   issues:
@@ -19476,6 +19724,10 @@ ui-utilcpp:
   version: 1.8.3-2
   issues:
     - timestamps_from_cpp_macros
+uima-as:
+  version: 2.3.1-3
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 ultracopier:
   version: 0.3.1.0-1
   issues:
@@ -19691,6 +19943,10 @@ vecmath:
   version: 1.5.2-5
   issues:
     - locale_in_documentation_generated_by_javadoc
+velocity:
+  version: 1.7-4
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 velocity-tools:
   version: 2.0-3
   issues:
@@ -20488,6 +20744,10 @@ xml-maven-plugin:
   version: 1.0-2
   issues:
     - locale_differences_in_pom
+xmlbeans-maven-plugin:
+  version: 2.3.3-3
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
 xmlcopyeditor:
   version: 1.2.1.3-1
   comments: |
