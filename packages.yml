@@ -602,6 +602,9 @@ apt-show-source:
   version: 0.10+nmu2
   issues:
     - timestamps_in_documentation_generated_by_podman
+    - ftbfs_old_compat_debheper_compat_level
+  bugs:
+    - 800298
 apt-show-versions:
   version: 0.22.7
   issues:
@@ -662,9 +665,11 @@ argus-client:
   issues:
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
+    - ftbfs_old_compat_debheper_compat_level
   bugs:
     - 777283
     - 792943
+    - 800260
 argvalidate:
   version: 0.9.0-2
   issues:
@@ -870,6 +875,12 @@ atomicparsley:
   version: 0.9.2~svn110-4
   issues:
     - timestamps_from_cpp_macros
+atsar:
+  version: 1.7-2
+  issues:
+    - ftbfs_old_compat_debheper_compat_level
+  bugs:
+    - 800264
 attal:
   version: 1.0~rc2-2
   issues:
@@ -1281,6 +1292,12 @@ bindex:
   version: 2.2+svn101-1
   issues:
     - timestamp_in_java_bnd_manifest
+bing:
+  version: 1.1.3-2
+  issues:
+    - ftbfs_old_compat_debheper_compat_level
+  bugs:
+    - 800300
 binkd:
   version: 1.0.4-1
   issues:
@@ -1903,6 +1920,12 @@ cgdb:
   version: 0.6.7-2
   issues:
     - texinfo_mdate_sh_varies_by_timezone
+cgi-extratags-perl:
+  version: 0.03-1.2
+  issues:
+    - ftbfs_old_compat_debheper_compat_level
+  bugs:
+    - 800285
 cgiemail:
   version: 1.6-37
   issues:
@@ -1933,6 +1956,12 @@ cgoban:
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 792993
+cgvg:
+  version: 1.6.2-2.1
+  issues:
+    - ftbfs_old_compat_debheper_compat_level
+  bugs:
+    - 800286
 chaksem:
   version: 1.7b-5.1
   comments: |
@@ -2968,6 +2997,18 @@ deap:
   version: 1.0.1-3+deb8u1
   issues:
     - timestamps_in_pdf_generated_by_latex
+debaux:
+  version: 0.1.10-1.1
+  issues:
+    - ftbfs_old_compat_debheper_compat_level
+  bugs:
+    - 800283
+debbugs:
+  version: 2.4.1.1
+  issues:
+    - ftbfs_old_compat_debheper_compat_level
+  bugs:
+    - 800287
 debdelta:
   version: 0.55
   issues:
@@ -3406,6 +3447,12 @@ doc-debian:
   version: 6.3
   issues:
     - different_encoding
+doc-linux-hr:
+  version: 20000416.1
+  issues:
+    - ftbfs_old_compat_debheper_compat_level
+  bugs:
+    - 800210
 docbook-utils:
   version: 0.6.14-3
   issues:
@@ -3598,6 +3645,12 @@ dvdisaster:
   version: 0.72.4-1
   issues:
     - different_pot_creation_date_in_gettext_mo_files
+dvdtape:
+  version: 1.6-1
+  issues:
+    - ftbfs_old_compat_debheper_compat_level
+  bugs:
+    - 800175
 dvdwizard:
   version: 0.7.1-2
   issues:
@@ -3823,6 +3876,12 @@ emms:
   version: 4.0-2
   issues:
     - timestamps_in_emacs_autoloads
+empire-hub:
+  version: 1.0.2.1
+  issues:
+    - ftbfs_old_compat_debheper_compat_level
+  bugs:
+    - 800179
 enblend-enfuse:
   version: 4.1.4+dfsg-2
   issues:
@@ -4760,6 +4819,12 @@ foremancli:
     https://sources.debian.net/src/foremancli/1.0-2/debian/rules/#L22
   issues:
     - timestamps_in_manpages_generated_by_ronn
+forg:
+  version: 0.5.1-7.1
+  issues:
+    - ftbfs_old_compat_debheper_compat_level
+  bugs:
+    - 800172
 forkstat:
   version: 0.01.11-1
   comments: |
@@ -4981,6 +5046,12 @@ ftplib:
   comments: |
     Embeds the build date into manpages.
     https://sources.debian.net/src/ftplib/3.1-1-9/debian/html2man.py/#L86-L87
+funnelweb-doc:
+  version: 3.2d-3
+  issues:
+    - ftbfs_old_compat_debheper_compat_level
+  bugs:
+    - 800170
 fuse-posixovl:
   version: 1.2.20120215+gitf5bfe35-1
   bugs:
@@ -5155,6 +5226,19 @@ gcalcli:
   version: 3.2-2
   issues:
     - timestamps_in_manpages_generated_by_help2man
+gcc-3.3:
+  version: 1:3.3.6ds1-27.2
+  issues:
+    - ftbfs_old_compat_debheper_compat_level
+  bugs:
+    - 800273
+    - 800267
+gcc-4.8:
+  version: 4.8.5-1
+  issues:
+    - ftbfs_old_compat_debheper_compat_level
+  bugs:
+    - 800248
 gcc-4.9:
   version: 4.9.3-1
   comments: |
@@ -5708,6 +5792,12 @@ gmt:
   version: 4.5.12-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+gmt-doc-ps:
+  version: 3.4.4-1
+  issues:
+    - ftbfs_old_compat_debheper_compat_level
+  bugs:
+    - 800214
 gmtkbabel:
   version: 0.1-1
   issues:
@@ -5737,6 +5827,12 @@ gnat-mingw-w64:
   version: 15.1
   issues:
     - timestamps_in_ada_library_information_files
+gniall:
+  version: 0.7.1-7
+  issues:
+    - ftbfs_old_compat_debheper_compat_level
+  bugs:
+    - 800216
 gnokii:
   version: 0.6.30+dfsg-1
   issues:
@@ -6647,6 +6743,24 @@ heroes:
   version: 0.21-10
   issues:
     - timestamps_in_manpages_generated_by_help2man
+heroes-data:
+  version: 1.5-2
+  issues:
+    - ftbfs_old_compat_debheper_compat_level
+  bugs:
+    - 800292
+heroes-sound-effects:
+  version: 1.0-4
+  issues:
+    - ftbfs_old_compat_debheper_compat_level
+  bugs:
+    - 800290
+heroes-sound-tracks:
+  version: 1.0-4
+  issues:
+    - ftbfs_old_compat_debheper_compat_level
+  bugs:
+    - 800265
 herold:
   version: 6.1.0-1
   issues:
@@ -6872,8 +6986,11 @@ ibus-table-others:
     - random_order_in_ibus_table_createdb_output
 icebreaker:
   version: 1.21-11
+  issues:
+    - ftbfs_old_compat_debheper_compat_level
   bugs:
     - 784352
+    - 800281
 icedove:
   version: 31.2.0-1
   issues:
@@ -6894,6 +7011,12 @@ icmake:
   version: 7.22.01-1
   issues:
     - build_id_variation_requiring_further_investigation
+icmpush:
+  version: 2.2-6
+  issues:
+    - ftbfs_old_compat_debheper_compat_level
+  bugs:
+    - 800282
 icon:
   version: 9.4.3-4.2
   issues:
@@ -7443,6 +7566,12 @@ jcsp:
   version: 1.1-rc4-2
   issues:
     - locale_in_documentation_generated_by_javadoc
+jdresolve:
+  version: 0.6.1-4
+  issues:
+    - ftbfs_old_compat_debheper_compat_level
+  bugs:
+    - 800252
 jebl2:
   version: 0.0.r22-1
   issues:
@@ -7874,6 +8003,12 @@ kbuild:
   version: 1:0.1.9998svn2695+dfsg-2
   issues:
     - timestamps_from_cpp_macros
+kcc:
+  version: 2.3-12
+  issues:
+    - ftbfs_old_compat_debheper_compat_level
+  bugs:
+    - 800251
 kcov:
   version: 25+dfsg-1
   bugs:
@@ -9940,6 +10075,12 @@ libjchart2d-java:
   version: 3.2.2+dfsg-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+libjcode-perl:
+  version: 2.13-3
+  issues:
+    - ftbfs_old_compat_debheper_compat_level
+  bugs:
+    - 800230
 libjcommon-java:
   version: 1.0.16-4
   issues:
@@ -12117,6 +12258,12 @@ logol:
     build hangs https://jenkins.debian.net/view/reproducible/job/reproducible_builder_gamma/53270/console
   issues:
     - blacklisted_on_jenkins
+logtools:
+  version: 0.13d
+  issues:
+    - ftbfs_old_compat_debheper_compat_level
+  bugs:
+    - 800258
 londonlaw:
   version: 0.2.1-18
   issues:
@@ -13632,8 +13779,10 @@ nis:
   issues:
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
+    - ftbfs_old_compat_debheper_compat_level
   bugs:
     - 787126
+    - 800305
 nitime:
   version: 0.5-1
   comments: |
@@ -14234,6 +14383,12 @@ openid4java:
   version: 0.9.6.662-2
   issues:
     - locale_in_documentation_generated_by_javadoc
+openjade1.3:
+  version: 1.3.2-13
+  issues:
+    - ftbfs_old_compat_debheper_compat_level
+  bugs:
+    - 800200
 openjdk-7:
   version: 7u71-2.5.3-2
   issues:
@@ -14856,6 +15011,12 @@ pentaho-reporting-flow-engine:
     - timestamps_in_jar
     - timestamps_in_documentation_generated_by_javadoc
     - locale_in_documentation_generated_by_javadoc
+pentium-builder:
+  version: 0.19
+  issues:
+    - ftbfs_old_compat_debheper_compat_level
+  bugs:
+    - 800199
 pepper:
   version: 0.3.2-3
   issues:
@@ -14931,6 +15092,12 @@ pgn-extract:
   version: 17.14-1
   issues:
     - timestamps_from_cpp_macros
+pgpgpg:
+  version: 0.13-9
+  issues:
+    - ftbfs_old_compat_debheper_compat_level
+  bugs:
+    - 800201
 pgrouting:
   version: 2.0.0-3
   issues:
@@ -15421,6 +15588,10 @@ pretzel:
   comments: |
     strsave.o.gz differs, but only the gzip file (at the end).
     The uncompressed file is identical. Reason unknown.
+  issues:
+    - ftbfs_old_compat_debheper_compat_level
+  bugs:
+    - 800198
 prewikka:
   version: 1.0.0-1.3
   issues:
@@ -16999,6 +17170,12 @@ rdp-readseq:
   version: 2.0.2-1
   issues:
     - different_encoding
+re:
+  version: 0.1-5
+  issues:
+    - ftbfs_old_compat_debheper_compat_level
+  bugs:
+    - 800224
 re2c:
   version: 0.13.5-1
   comments: |
@@ -18117,6 +18294,12 @@ scalable-cyrfonts:
   version: 4.16+nmu1
   issues:
     - fontforge_reset_modification_time
+scanssh:
+  version: 2.0-4
+  issues:
+    - ftbfs_old_compat_debheper_compat_level
+  bugs:
+    - 800223
 scantailor:
   version: 0.9.11.1-3
   bugs:
@@ -19193,6 +19376,12 @@ syslog-ng:
   version: 3.5.6-2
   issues:
     - timestamps_from_cpp_macros
+sysprofile:
+  version: 0.3.8
+  issues:
+    - ftbfs_old_compat_debheper_compat_level
+  bugs:
+    - 800276
 sysstat:
   version: 11.1.6-1
   bugs:
@@ -20382,8 +20571,10 @@ vpim:
   issues:
     - timestamps_in_gzip_headers
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
+    - ftbfs_old_compat_debheper_compat_level
   bugs:
     - 776930
+    - 800195
 vtk:
   version: 5.8.0-17.5
   issues:
@@ -20609,6 +20800,12 @@ wml:
   version: 2.0.12ds1-8
   comments: |
     Embed hostname.
+wmpinboard:
+  version: 1.0-11
+  issues:
+    - ftbfs_old_compat_debheper_compat_level
+  bugs:
+    - 800193
 wmpuzzle:
   version: 0.5.2-1
   issues:
@@ -20877,8 +21074,10 @@ xfaces:
   issues:
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
+    - ftbfs_old_compat_debheper_compat_level
   bugs:
     - 777063
+    - 800191
 xfig:
   version: 1:3.2.5.c-3
   issues:
@@ -20887,6 +21086,12 @@ xfireworks:
   version: 1.3-9
   issues:
     - timestamps_in_gzip_headers
+xflip:
+  version: 1.01-25
+  issues:
+    - ftbfs_old_compat_debheper_compat_level
+  bugs:
+    - 800268
 xfonts-a12k12:
   version: 1-11
   issues:
@@ -21378,6 +21583,12 @@ zeromq3:
   version: 4.0.5+dfsg-3
   issues:
     - ftbfs_uninvestigated_test_failures
+zh-autoconvert:
+  version: 0.3.16-3
+  issues:
+    - ftbfs_old_compat_debheper_compat_level
+  bugs:
+    - 800194
 zim:
   version: 0.63-1
   comments: |
