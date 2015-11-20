@@ -90,10 +90,6 @@ aces3:
   version: 3.0.8-4
   issues:
     - build_id_variation_requiring_further_investigation
-ack-grep:
-  version: 2.14-4
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 acl2:
   version: 7.1-1
   comments: |
@@ -605,10 +601,6 @@ apt-show-source:
     - ftbfs_old_compat_debheper_compat_level
   bugs:
     - 800298
-apt-show-versions:
-  version: 0.22.7
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 apt-xapian-index:
   version: 0.47
   issues:
@@ -1243,10 +1235,6 @@ bibclean:
   comments: |
     Embed build time, username, and hostname:
     http://sources.debian.net/src/bibclean/2.11.4.1-4/option.c/?hl=567:586#L567
-biber:
-  version: 2.1-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 bible-kjv:
   version: 4.27
   issues:
@@ -1759,10 +1747,6 @@ carrotsearch-hppc:
   version: 0.6.1-1
   issues:
     - locale_differences_in_pom
-carton:
-  version: 1.0.12-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 casablanca:
   version: 2.2.0-1
   comments: |
@@ -2084,10 +2068,6 @@ cinnamon-settings-daemon:
   version: 2.2.4.repack-7
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-cipux-task:
-  version: 3.4.0.7-4.2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 circe:
   version: 1.6-2
   issues:
@@ -2199,10 +2179,6 @@ cluster-glue:
   version: 1.0.12~rc1+hg2777-1.2
   bugs:
     - 800776
-clusterssh:
-  version: 4.04-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 clutter-sharp:
   version: 1.0.0~alpha3~git20090817.r1.349dba6-8
   issues:
@@ -2211,10 +2187,6 @@ cmatrix:
   version: 1.2a-5
   issues:
     - timestamps_from_cpp_macros
-cme:
-  version: 1.008-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 cmor:
   version: 2.9.1-5
   comments: |
@@ -2517,10 +2489,6 @@ courier:
     - ftbfs_openssl_transition
   bugs:
     - 804603
-courier-filter-perl:
-  version: 0.200+ds-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 cowbell:
   version: 0.2.7.1-7
   issues:
@@ -2534,10 +2502,6 @@ cp2k:
   comments: |
     Embeds the build date and hostname.
     https://sources.debian.net/src/cp2k/2.6.1-2/makefiles/Makefile/#L360-L361
-cpan-listchanges:
-  version: 0.06-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 cpio:
   version: 2.11+dfsg-4
   issues:
@@ -3195,10 +3159,6 @@ dh-make-golang:
   version: 0.0~git20150913.0.1221041-1
   issues:
     - build_id_variation_requiring_further_investigation
-dh-make-perl:
-  version: 0.89-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 dh-make-php:
   version: 0.4.0
   issues:
@@ -3865,10 +3825,6 @@ emboss:
   version: 6.6.0+dfsg-1
   issues:
     - different_encoding
-emboss-explorer:
-  version: 2.2.0-8
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 emma-coverage:
   version: 2.0.5312+dfsg-4
   issues:
@@ -4880,10 +4836,6 @@ fracplanet:
   version: 0.4.0-3
   issues:
     - build_id_variation_requiring_further_investigation
-fragmaster:
-  version: 1.7-5
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 frama-c:
   version: 20140301+neon+dfsg-3
   comments: |
@@ -5093,10 +5045,6 @@ g15daemon:
     https://sources.debian.net/src/g15daemon/1.9.5.3-8.3/configure.in/?hl=118:119#L118
   issues:
     - captures_kernel_version
-g2:
-  version: 0.72-5
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 gabedit:
   version: 2.4.8-1
   bugs:
@@ -5949,10 +5897,6 @@ gnugk:
   version: 2:3.6-1
   issues:
     - timestamps_from_cpp_macros
-gnuhtml2latex:
-  version: 0.4-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 gnuift:
   version: 0.1.14-12.1
   issues:
@@ -6698,10 +6642,6 @@ hdf5:
   version: 1.8.13+docs-15
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-hearse:
-  version: 1.5-8.2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 heat:
   version: 2014.1.3-7
   issues:
@@ -7083,10 +7023,6 @@ ilisp:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - randomness_in_html_generated_by_texi2html
-imageindex:
-  version: 1.1-2.1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 imagemagick:
   version: 8:6.8.9.9-5
   issues:
@@ -7124,10 +7060,6 @@ imview:
   version: 1.1.9c-12
   issues:
     - timestamps_from_cpp_macros
-imvirt:
-  version: 0.9.6-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 incron:
   version: 0.5.10-2
   issues:
@@ -7162,10 +7094,6 @@ inn:
     - timestamps_in_documentation_generated_by_podman
     - timezones_manpages_podman
     - different_due_to_umask
-inn2:
-  version: 2.5.4-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 ino-headers:
   version: 0.4.0-1
   comments: |
@@ -8074,10 +8002,6 @@ keepassx:
   version: 0.4.3+dfsg-0.1
   bugs:
     - 763699
-kephra:
-  version: 0.4.3.34+dfsg-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 kerberos-configs:
   version: 2.3
   bugs:
@@ -8458,42 +8382,14 @@ libabigail:
   version: 0.1~20150623-2
   issues:
     - timestamps_in_manpages_generated_by_sphinx
-libaccessors-perl:
-  version: 1.01-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libace-perl:
   version: 1.92-3
   issues:
     - timestamps_from_cpp_macros
-libacme-brainfck-perl:
-  version: 1.1.1-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libacme-constant-perl:
-  version: 0.1.3-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libacme-poe-knee-perl:
-  version: 1.12-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libai-fann-perl:
-  version: 0.10-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libalien-wxwidgets-perl:
-  version: 0.67+dfsg-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libalog:
   version: 0.5.0-1
   bugs:
     - 777934
-libalt-base-perl:
-  version: 0.2-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libam7xxx:
   version: 0.1.5-3
   issues:
@@ -8502,36 +8398,10 @@ libandroid-json-org-java:
   version: 20121204-20090211-1
   issues:
     - locale_in_documentation_generated_by_javadoc
-libanyevent-dbi-perl:
-  version: 2.3-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libanyevent-memcached-perl:
-  version: 0.06-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libapache-authznetldap-perl:
-  version: 0.07-5
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libapache-dbi-perl:
   version: 1.12-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
   bugs:
     - 798557
-libapache-dbilogger-perl:
-  version: 0.93-12
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libapache-gallery-perl:
-  version: 1.0.2-4
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libapache-htpasswd-perl:
-  version: 1.8-1.1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libapache-mod-auth-radius:
   version: 1.5.8-1.2
   bugs:
@@ -8544,14 +8414,6 @@ libapache-poi-java:
   version: 3.10.1-2
   bugs:
     - 790741
-libapache-session-perl:
-  version: 1.93-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libapache-session-wrapper-perl:
-  version: 0.34-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libapache2-mod-authn-yubikey:
   version: 1.0-1.1
   bugs:
@@ -8572,22 +8434,10 @@ libapache2-mod-ruid2:
   version: 0.9.8-3
   issues:
     - different_due_to_umask
-libapp-cli-perl:
-  version: 0.313-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libapp-info-perl:
-  version: 0.57-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libappindicator:
   version: 0.4.92-3.1
   issues:
     - timestamps_in_pe_binaries
-libapreq2:
-  version: 2.13-4
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libaqbanking:
   version: 5.6.1beta-1
   comments: |
@@ -8602,31 +8452,11 @@ libarchive:
   version: 3.1.2-11
   issues:
     - ftbfs_uninvestigated_test_failures
-libarchive-any-perl:
-  version: 0.0942-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libarray-compare-perl:
-  version: 2.11-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libarray-unique-perl:
-  version: 0.08-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libasm4-java:
   version: 5.0.4-1
   issues:
     - timestamps_in_documentation_generated_by_javadoc
     - locale_in_documentation_generated_by_javadoc
-libastro-fits-header-perl:
-  version: 3.07-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libasync-mergepoint-perl:
-  version: 0.04-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libatombus-perl:
   version: 1.0405-2
   issues:
@@ -8635,124 +8465,24 @@ libatompub-perl:
   version: 0.3.7-2
   issues:
     - ftbfs_uninvestigated_test_failures
-libaudio-file-perl:
-  version: 0.11-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libaudio-mixer-perl:
-  version: 0.7-7
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libaudio-rpld-perl:
-  version: 0.006-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libaunit:
   version: 3.7.1-2
   issues:
     - timestamps_in_pdf_generated_by_latex
-libauthen-captcha-perl:
-  version: 1.024-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libauthen-dechpwd-perl:
-  version: 2.006-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libauthen-htpasswd-perl:
-  version: 0.171-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libauthen-krb5-admin-perl:
-  version: 0.17-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libauthen-pam-perl:
-  version: 0.16-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libauthen-passphrase-perl:
-  version: 0.008-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libauthen-simple-cdbi-perl:
-  version: 0.2-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libauthen-simple-dbi-perl:
-  version: 0.2-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libauthen-simple-dbm-perl:
-  version: 0.2-4
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libauthen-simple-http-perl:
-  version: 0.2-5
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libauthen-simple-kerberos-perl:
-  version: 0.1-5
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libauthen-simple-net-perl:
-  version: 0.2-5
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libauthen-simple-pam-perl:
-  version: 0.2-4
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libauthen-simple-passwd-perl:
-  version: 0.6-4
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libauthen-simple-radius-perl:
-  version: 0.1-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libauthen-simple-smb-perl:
-  version: 0.1-4
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libautobox-dump-perl:
-  version: 20090426.1746-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libautobox-list-util-perl:
-  version: 20090629-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libaws:
   version: 3.2.0-3
   comments: |
     Many Ada-related packages have similar build id variations.
   issues:
     - build_id_variation_requiring_further_investigation
-libb-perlreq-perl:
-  version: 0.82-4
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libbareword-filehandles-perl:
-  version: 0.003-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libbasicplayer-java:
   version: 3.0-6
   issues:
     - locale_in_documentation_generated_by_javadoc
-libbiblio-citation-parser-perl:
-  version: 1.10+dfsg-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libbio-chado-schema-perl:
   version: 0.20000-1
   issues:
     - timezones_manpages_podman
-libbio-primerdesigner-perl:
-  version: 0.07-4
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libbluray:
   version: 0.6.2-1
   issues:
@@ -8765,54 +8495,6 @@ libcaca:
   version: 0.99.beta19-2
   comments: |
     Non-deterministic pdf generated by doxygen, but not obviously timestamps
-libcache-cache-perl:
-  version: 1.08-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libcache-mmap-perl:
-  version: 0.11-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libcalendar-simple-perl:
-  version: 1.21-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libcarp-fix-1-25-perl:
-  version: 1.000001-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libcatalyst-authentication-store-htpasswd-perl:
-  version: 1.003-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libcatalyst-component-instancepercontext-perl:
-  version: 0.001001-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libcatalyst-dispatchtype-regex-perl:
-  version: 5.90035-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libcatalyst-model-cdbi-crud-perl:
-  version: 0.04-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libcatalyst-plugin-log-dispatch-perl:
-  version: 0.121-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libcatalyst-plugin-session-state-cookie-perl:
-  version: 0.17-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libcatalyst-plugin-setenv-perl:
-  version: 0.03-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libcatalyst-plugin-unicode-perl:
-  version: 0.93-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libcatmandu-mab2-perl:
   version: 0.12-1
   issues:
@@ -8832,30 +8514,6 @@ libcec:
     https://sources.debian.net/src/libcec/2.2.0%2Bdfsg1-1/configure.ac/?hl=351:255#L351
     Can be removed by passing HAVE_DATE=no HAVE_WHOAMI=no HAVE_HOSTNAME=no HAVE_UNAME=no
     to ./configure but the binaries are also non-determinstic.
-libcgi-application-dispatch-perl:
-  version: 3.12-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libcgi-application-plugin-anytemplate-perl:
-  version: 0.18-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libcgi-compress-gzip-perl:
-  version: 1.03-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libcgi-formbuilder-source-yaml-perl:
-  version: 1.0.8-4
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libcgi-session-serialize-yaml-perl:
-  version: 4.26-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libcgi-simple-perl:
-  version: 1.115-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libcgicc:
   version: 3.2.9-3
   issues:
@@ -8869,66 +8527,10 @@ libcitygml:
   version: 0.14+svn134-2+3p2p1
   issues:
     - timestamps_from_cpp_macros
-libclass-accessor-classy-perl:
-  version: 0.9.1-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libclass-accessor-lvalue-perl:
-  version: 0.11-4
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libclass-adapter-perl:
-  version: 1.07-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libclass-autoloadcan-perl:
-  version: 0.03-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libclass-container-perl:
-  version: 0.12-4
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libclass-dbi-abstractsearch-perl:
-  version: 0.07-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libclass-dbi-pg-perl:
-  version: 0.09-5
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libclass-delegator-perl:
-  version: 0.09-4
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libclass-gomor-perl:
-  version: 1.03-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libclass-mix-perl:
-  version: 0.005-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libclass-std-fast-perl:
-  version: 0.0.8-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libclass-std-perl:
-  version: 0.013-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libclass-std-utils-perl:
-  version: 0.0.3-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libcobra-java:
   version: 0.98.4-5
   issues:
     - locale_in_documentation_generated_by_javadoc
-libcode-tidyall-perl:
-  version: 0.20-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libcommons-codec-java:
   version: 1.10-1
   issues:
@@ -8998,22 +8600,6 @@ libconfig:
   version: 1.4.9-2
   issues:
     - timestamps_in_pdf_generated_by_latex
-libconfig-find-perl:
-  version: 0.31-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libconfig-model-backend-augeas-perl:
-  version: 0.118-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libconfig-model-cursesui-perl:
-  version: 1.104-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libconfig-model-dpkg-perl:
-  version: 2.069
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libconfig-model-itself-perl:
   version: 1.244-2
   comments: |
@@ -9025,26 +8611,6 @@ libconfig-model-lcdproc-perl:
   version: 2.042-4
   issues:
     - timestamps_in_documentation_generated_by_podman
-libconfig-model-openssh-perl:
-  version: 1.236-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libconfig-model-perl:
-  version: 2.074-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libconfig-scoped-perl:
-  version: 0.22-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libconfig-std-perl:
-  version: 0.901-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libconfigreader-perl:
-  version: 0.5-5
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libconstantine-java:
   version: 0.7-6
   issues:
@@ -9052,44 +8618,16 @@ libconstantine-java:
     - random_order_in_documentation_generated_by_javadoc
     - timestamps_in_jar
     - locale_in_documentation_generated_by_javadoc
-libconvert-binary-c-perl:
-  version: 0.76-4
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libconvert-color-perl:
-  version: 0.11-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libcoyotl:
   version: 3.1.0-6.1
   comments: |
     Installs examples with varying environments - can probably just be distcleaned after build
   issues:
     - leaks_path_environment_variable
-libcps-perl:
-  version: 0.18-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libcrcutil:
   version: 1.0-3
   issues:
     - timestamps_in_pdf_generated_by_latex
-libcriticism-perl:
-  version: 1.02-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libcrypt-dsa-perl:
-  version: 1.17-4
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libcrypt-eksblowfish-perl:
-  version: 0.009-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libcrypt-gpg-perl:
-  version: 1.52-1.1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libcsp:
   version: 1.4+fdd49b7+dfsg-3
   comments: |
@@ -9101,167 +8639,23 @@ libdaemon:
   version: 0.14-6
   issues:
     - timestamps_in_manpages_generated_by_doxygen
-libdancer-logger-psgi-perl:
-  version: 1.0.1-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libdap:
   version: 3.12.0-1
   issues:
     - timestamps_from_cpp_macros
-libdata-bitmask-perl:
-  version: 0.91-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdata-dump-streamer-perl:
-  version: 2.38-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdata-dumper-simple-perl:
-  version: 0.11-5
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdata-entropy-perl:
-  version: 0.007-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdata-float-perl:
-  version: 0.012-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdata-formvalidator-constraints-datetime-perl:
-  version: 1.11-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdata-guid-perl:
-  version: 0.048-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libdata-hal-perl:
   version: 1.000-1
   bugs:
     - 768687
-libdata-objectdriver-perl:
-  version: 0.09-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdata-pageset-perl:
-  version: 1.06-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdata-peek-perl:
-  version: 0.44-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdata-pond-perl:
-  version: 0.004-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdata-record-perl:
-  version: 0.02-4
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdata-report-perl:
-  version: 0.10-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdata-rmap-perl:
-  version: 0.64-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdata-show-perl:
-  version: 0.002003-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdata-sorting-perl:
-  version: 0.9-4
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdata-types-perl:
-  version: 0.09-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libdata-uuid-perl:
   version: 1.220-1
   issues:
     - ftbfs_uninvestigated_test_failures
-libdata-walk-perl:
-  version: 1.00-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdatabase-dumptruck-perl:
-  version: 1.2-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdate-iso8601-perl:
-  version: 0.004-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdate-jd-perl:
-  version: 0.005-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdate-simple-perl:
-  version: 3.0300-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdatetime-astro-sunrise-perl:
-  version: 0.01.01-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdatetime-format-dateparse-perl:
-  version: 0.05-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdatetime-format-epoch-perl:
-  version: 0.16-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdatetime-format-ical-perl:
-  version: 0.09-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdatetime-format-iso8601-perl:
-  version: 0.08-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdatetime-format-mysql-perl:
-  version: 0.05-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libdatetime-incomplete-perl:
   version: 0.07-1
   bugs:
     - 805207
     - 805210
-libdatetime-set-perl:
-  version: 0.3600-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdatetime-timezone-systemv-perl:
-  version: 0.009-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdatetime-timezone-tzfile-perl:
-  version: 0.010-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdatetime-tiny-perl:
-  version: 1.4-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdbd-firebird-perl:
-  version: 1.21-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdbd-ldap-perl:
-  version: 0.20-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdbd-mock-perl:
-  version: 1.45-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libdbi-drivers:
   version: 0.9.0-3
   issues:
@@ -9270,18 +8664,6 @@ libdbix-class-perl:
   version: 0.082820-1
   issues:
     - ftbfs_uninvestigated_test_failures
-libdbix-connector-perl:
-  version: 0.53-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdbix-password-perl:
-  version: 1.9-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdbix-profile-perl:
-  version: 1.0-4
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libdbusmenu-qt:
   version: 0.9.3+15.10.20150604-1
   issues:
@@ -9303,22 +8685,6 @@ libdecodeqr:
   version: 0.9.3-6.2
   issues:
     - random_order_in_static_libraries
-libdevel-backtrace-perl:
-  version: 0.12-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdevel-callchecker-perl:
-  version: 0.007-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdevel-callparser-perl:
-  version: 0.002-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdevel-cycle-perl:
-  version: 1.11-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libdevel-ebug-perl:
   version: 0.56-1
   bugs:
@@ -9327,98 +8693,26 @@ libdevel-gdb-perl:
   version: 2.02-2
   bugs:
     - 784845
-libdevice-cdio-perl:
-  version: 0.3.0-5
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdevice-serialport-perl:
-  version: 1.04-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdevice-usb-pcsensor-hidtemper-perl:
-  version: 2:0.04-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdist-zilla-app-command-cover-perl:
-  version: 1.101001-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdist-zilla-plugin-emailnotify-perl:
-  version: 0.003-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdist-zilla-plugin-git-perl:
-  version: 2.025-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdist-zilla-plugin-prepender-perl:
-  version: 2.002-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdist-zilla-plugin-test-perl-critic-perl:
-  version: 3.000-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdist-zilla-plugin-twitter-perl:
-  version: 0.026-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libdr-tarantool-perl:
   version: 0.43-1
   bugs:
     - 798484
-libdublincore-record-perl:
-  version: 0.03-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libdynaloader-functions-perl:
-  version: 0.002-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libebml:
   version: 1.3.1-3
   issues:
     - timestamps_from_cpp_macros
-libemail-find-perl:
-  version: 0.10-dfsg-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libemail-reply-perl:
-  version: 1.203-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libembperl-perl:
   version: 2.5.0-4
   issues:
     - ftbfs_uninvestigated_test_failures
-libencode-arabic-perl:
-  version: 14.1-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libencode-hanextra-perl:
-  version: 0.23-4
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libencode-imaputf7-perl:
-  version: 1.05-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libencode-zapcp1252-perl:
   version: 0.33-3
   issues:
     - timestamps_in_documentation_generated_by_groff
-libenv-ps1-perl:
-  version: 0.06-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libept:
   version: 1.0.14
   issues:
     - random_order_in_static_libraries
-liberror-perl:
-  version: 0.17-1.2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libevent-rpc-perl:
   version: 1.05-1
   bugs:
@@ -9431,10 +8725,6 @@ libewf:
   version: 20140608-2
   issues:
     - timestamps_from_cpp_macros
-libexception-class-dbi-perl:
-  version: 1.01-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libexosip2:
   version: 4.1.0-2
   issues:
@@ -9447,18 +8737,6 @@ libextractor:
   version: 1:1.3-2
   issues:
     - timezone_variance_because_of_automake_mdate
-libextutils-cchecker-perl:
-  version: 0.10-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libextutils-libbuilder-perl:
-  version: 0.08-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libextutils-xsbuilder-perl:
-  version: 0.28-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libf2c2:
   version: 20090411-2
   issues:
@@ -9477,10 +8755,6 @@ libfastutil-java:
   version: 7.0.2-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-libfennec-lite-perl:
-  version: 0.4-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libffado:
   version: 2.2.1-2
   issues:
@@ -9491,66 +8765,6 @@ libffi:
   version: 3.1-2
   comments: |
     Timestamp in custom test script
-libfile-basedir-perl:
-  version: 0.07-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libfile-countlines-perl:
-  version: 0.0.3-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libfile-find-object-rule-perl:
-  version: 0.0305-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libfile-flock-perl:
-  version: 2014.01-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libfile-inplace-perl:
-  version: 0.20-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libfile-monitor-perl:
-  version: 1.00-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libfile-ncopy-perl:
-  version: 0.36-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libfile-path-expand-perl:
-  version: 1.02-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libfile-read-perl:
-  version: 0.0801-5
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libfile-sharedir-par-perl:
-  version: 0.06-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libfile-slurp-unicode-perl:
-  version: 0.7.1-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libfile-type-perl:
-  version: 0.22-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libfile-type-webimages-perl:
-  version: 1.01-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libfilesys-diskspace-perl:
-  version: 0.05-16
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libfinance-quote-perl:
-  version: 1.38-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libflexdock-java:
   version: 1.2.4-1
   issues:
@@ -9561,14 +8775,6 @@ libflorist:
     Many Ada-related packages have similar build id variations.
   issues:
     - build_id_variation_requiring_further_investigation
-libfont-ttf-perl:
-  version: 1.05-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libforks-perl:
-  version: 0.36-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libforms:
   version: 1.2.3-1.2
   issues:
@@ -9586,10 +8792,6 @@ libfreenect:
   version: 1:0.5.2+git6-g5455843+dfsg-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-libfrontier-rpc-perl:
-  version: 0.07b4-6
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libfurl-perl:
   version: 3.05-1
   comments: |
@@ -9597,10 +8799,6 @@ libfurl-perl:
     Package has been blacklisted for now.
   issues:
     - blacklisted_on_jenkins
-libfuture-perl:
-  version: 0.33-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libgcrypt20:
   version: 1.6.2-4
   comments: |
@@ -9624,26 +8822,10 @@ libgenome-model-tools-music-perl:
     - timestamps_in_documentation_generated_by_podman
     - timezones_manpages_podman
     - timestamps_in_documentation_generated_by_ur
-libgeo-coordinates-itm-perl:
-  version: 0.02-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libgeo-osm-tiles-perl:
-  version: 0.04-4
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libgetopt-euclid-perl:
-  version: 0.4.5-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libgetopt-java:
   version: 1.0.14+dfsg-2
   issues:
     - locale_in_documentation_generated_by_javadoc
-libgetopt-simple-perl:
-  version: 1.52-5
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libgfshare:
   version: 1.0.5-3
   comments: |
@@ -9667,18 +8849,10 @@ libgnatcoll:
     - build_id_variation_requiring_further_investigation
   bugs:
     - 802862
-libgnome2-gconf-perl:
-  version: 1.044-5
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libgnome2-perl:
   version: 1.045-3
   comments: |
     Caused by locale-specific enum output in GLib::GenPod
-libgnome2-vfs-perl:
-  version: 1.082-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libgnumail-java:
   version: 1.1.2-9
   issues:
@@ -9702,34 +8876,6 @@ libgpod:
     - timestamps_in_pe_binaries
   bugs:
     - 804472
-libgraph-easy-perl:
-  version: 0.75-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libgraphics-color-perl:
-  version: 0.31-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libgraphics-colornames-www-perl:
-  version: 1.13-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libgraphics-colorobject-perl:
-  version: 0.5.0-6
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libgraphics-gnuplotif-perl:
-  version: 1.7-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libgraphviz-perl:
-  version: 2.19-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libgravatar-url-perl:
-  version: 1.06-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libgrip:
   version: 0.3.8-1
   bugs:
@@ -9742,27 +8888,11 @@ libgtk2-appindicator-perl:
   version: 0.15-1
   bugs:
     - 782877
-libgtk2-ex-printdialog-perl:
-  version: 0.03-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libgtk2-imageview-perl:
-  version: 0.05-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libgtk2-perl:
   version: 2:1.2495-1
   comments: |
     790532 fixed in experimental with 2:1.2496-1, and the remaining
     reproducibility issue should be fixed with 2:1.2496-2
-libgtk2-sourceview2-perl:
-  version: 0.10-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libgtk2-unique-perl:
-  version: 0.05-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libgtkada:
   version: 2.24.4dfsg-1
   comments: |
@@ -9784,14 +8914,6 @@ libhamcrest-java:
   version: 1.3-5
   issues:
     - locale_in_documentation_generated_by_javadoc
-libhash-moreutils-perl:
-  version: 0.05-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libhash-withdefaults-perl:
-  version: 0.05-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libhdate:
   version: 1.6-3
   issues:
@@ -9804,78 +8926,18 @@ libhtml-calendarmonth-perl:
   version: 1.26-1
   bugs:
     - 805547
-libhtml-dashboard-perl:
-  version: 0.03-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libhtml-formfu-model-dbic-perl:
-  version: 2.00-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libhtml-linklist-perl:
-  version: 0.1503-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libhtml-lint-perl:
   version: 2.20+dfsg-1
   issues:
     - timestamps_in_manpages_generated_by_txt2man
-libhtml-mason-perl:
-  version: 1:1.56-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libhtml-parser-perl:
-  version: 3.71-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libhtml-popuptreeselect-perl:
-  version: 1.6-7
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libhtml-prettyprinter-perl:
-  version: 0.03-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libhtml-prototype-perl:
-  version: 1.48-5
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libhtml-simpleparse-perl:
-  version: 0.12-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libhtml-template-dumper-perl:
-  version: 0.1-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libhtml-template-expr-perl:
-  version: 0.07-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libhtml-tidy-perl:
   version: 1.56-1
   issues:
     - timestamps_in_manpages_generated_by_help2man
-libhtml-tree-perl:
-  version: 5.03-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libhtml-treebuilder-libxml-perl:
-  version: 0.25-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libhtml-wikiconverter-moinmoin-perl:
-  version: 0.54-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libhtmlparser-java:
   version: 1.6.20060610.dfsg0-5
   bugs:
     - 793500
-libhttp-cookiemonster-perl:
-  version: 0.09-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libhttp-daemon-ssl-perl:
   version: 1.04-3
   bugs:
@@ -9884,22 +8946,10 @@ libhttp-proxy-perl:
   version: 0.304-1
   bugs:
     - 798792
-libhttp-response-encoding-perl:
-  version: 0.05-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libhttp-server-simple-static-perl:
-  version: 0.09-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libical:
   version: 1.0-1.3
   bugs:
     - 796360
-libical-parser-sax-perl:
-  version: 1.09-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libice:
   version: 2:1.0.9-1
   issues:
@@ -9916,26 +8966,6 @@ libidn2-0:
     and has the timestamp in the info page.
   issues:
     - timestamps_in_pdf_generated_by_latex
-libima-dbi-perl:
-  version: 0.35-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libimage-base-bundle-perl:
-  version: 1.0.7-3.1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libimage-info-perl:
-  version: 1.28-1.1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libimage-librsvg-perl:
-  version: 0.07-8
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libimager-qrcode-perl:
-  version: 0.033-1.2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libimobiledevice:
   version: 1.1.6+dfsg-3.1
   issues:
@@ -9957,50 +8987,14 @@ libint:
   version: 1.1.5-1
   issues:
     - timestamps_in_pdf_generated_by_latex
-libio-async-loop-glib-perl:
-  version: 0.21-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libio-callback-perl:
-  version: 1.12-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libio-capture-perl:
-  version: 0.05-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libio-epoll-perl:
-  version: 0.03-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libio-event-perl:
   version: 0.813-1
   bugs:
     - 730908
-libio-interface-perl:
-  version: 1.09-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libio-lcdproc-perl:
-  version: 0.037-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libio-lockedfile-perl:
-  version: 0.23+d030220-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libio-socket-inet6-perl:
-  version: 2.72-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libio-socket-multicast6-perl:
   version: 0.03-3
   bugs:
     - 788759
-libipc-filter-perl:
-  version: 0.004-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libirclib-java:
   version: 1.10-3
   issues:
@@ -10049,10 +9043,6 @@ libjavaewah-java:
   version: 0.6.12-1
   issues:
     - locale_in_documentation_generated_by_javadoc
-libjavascript-beautifier-perl:
-  version: 0.18-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libjaxen-java:
   version: 1.1.6-1
   issues:
@@ -10168,14 +9158,6 @@ libjpfcodegen-java:
   version: 0.4+dfsg1-1
   issues:
     - timestamps_in_directories
-libjson-multivalueordered-perl:
-  version: 0.005-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libjson-perl:
-  version: 2.90-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libjspeex-java:
   version: 0.9.7-3
   issues:
@@ -10216,10 +9198,6 @@ libkcompactdisc:
     https://sources.debian.net/src/libkcompactdisc/4:4.12.3-2/wmlib/wm_helpers.c/?hl=70#L70
   issues:
     - timestamps_from_cpp_macros
-libkiokudb-perl:
-  version: 0.57-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libkml:
   version: 1.3.0~rc0-3
   issues:
@@ -10240,10 +9218,6 @@ liblastfm-java:
   version: 1:0.1.0-2
   issues:
     - locale_in_documentation_generated_by_javadoc
-liblatex-table-perl:
-  version: 1.0.6-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 liblayout:
   version: 0.2.10-2
   issues:
@@ -10254,30 +9228,6 @@ libldm:
     - timestamps_in_manpages_generated_by_docbook_xsl
   bugs:
     - 796440
-liblexical-sealrequirehints-perl:
-  version: 0.009-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-liblingua-en-inflect-perl:
-  version: 1.899-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-liblingua-ispell-perl:
-  version: 0.07-6
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-liblingua-translit-perl:
-  version: 0.22-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-liblinux-epoll-perl:
-  version: 0.012-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-liblinux-fd-perl:
-  version: 0.011-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 liblip:
   version: 2.0.0-1.2
   issues:
@@ -10286,10 +9236,6 @@ liblip:
     - different_due_to_umask
   bugs:
     - 792973
-liblist-maker-perl:
-  version: 0.005-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libloader:
   version: 1.1.6.dfsg-4
   issues:
@@ -10301,14 +9247,6 @@ liblockfile:
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 792974
-liblog-any-adapter-dispatch-perl:
-  version: 0.06-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-liblog-dispatch-config-perl:
-  version: 1.04-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 liblog4ada:
   version: 1.2-5
   issues:
@@ -10335,10 +9273,6 @@ libmail-gnupg-perl:
   version: 0.21-1
   bugs:
     - 797578
-libmail-thread-perl:
-  version: 2.55-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libmakefile-parser-perl:
   version: 0.215-2
   bugs:
@@ -10351,52 +9285,16 @@ libmarc-charset-perl:
   version: 1.35-1
   comments: |
     usr/lib/libmarc-charset-perl/Table is a large DBM file.
-libmarc-crosswalk-dublincore-perl:
-  version: 0.02-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libmarc-file-mij-perl:
-  version: 0.04-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libmarpa-r2-perl:
   version: 2.086000~dfsg-3
   issues:
     - timestamps_from_cpp_macros
-libmasonx-interp-withcallbacks-perl:
-  version: 1.19-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libmath-base-convert-perl:
-  version: 0.11-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libmath-basecnv-perl:
-  version: 1.8.B59BrZX-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libmath-bigint-gmp-perl:
   version: 1.43-1
   issues:
     - ftbfs_uninvestigated_test_failures
   bugs:
     - 804220
-libmath-cartesian-product-perl:
-  version: 1.009-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libmath-clipper-perl:
-  version: 1.23-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libmath-vec-perl:
-  version: 1.01-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libmath-vecstat-perl:
-  version: 0.08-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libmatio:
   version: 1.5.2-3
   issues:
@@ -10405,10 +9303,6 @@ libmatroska:
   version: 1.4.2-2
   issues:
     - timestamps_from_cpp_macros
-libmce-perl:
-  version: 1.608-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libmcrypt:
   version: 2.5.8-3.3
   issues:
@@ -10430,88 +9324,20 @@ libmicrohttpd:
   version: 0.9.37+dfsg-1
   issues:
     - timezone_variance_because_of_automake_mdate
-libmime-lite-perl:
-  version: 3.030-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libmixin-extrafields-perl:
-  version: 0.140001-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libmkdoc-xml-perl:
-  version: 0.75-4
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libmldbm-perl:
-  version: 2.05-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libmodbus:
   version: 3.0.6-1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-libmodern-perl-perl:
-  version: 1.20150127-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libmodule-build-xsutil-perl:
-  version: 0.16-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libmodule-bundled-files-perl:
-  version: 0.03-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libmodule-depends-perl:
-  version: 0.16-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libmodule-extractuse-perl:
   version: 0.33-1
   comments: |
     Original issue caused by non-determinism in libparse-recdescent-perl.
     Original patch sent in \#790397 but now the issue seems to be that sometimes
     the file is not regenerated (TZ?) but I cannot reproduce.
-libmodule-runtime-perl:
-  version: 0.014-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libmodule-starter-plugin-cgiapp-perl:
-  version: 0.44-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libmodule-starter-plugin-tt2-perl:
-  version: 0.125-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libmodule-used-perl:
-  version: 1.3.0-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libmodule-want-perl:
-  version: 0.6-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libmojolicious-plugin-i18n-perl:
-  version: 1.60-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libmongodbx-class-perl:
   version: 1.030002-1
   issues:
     - ftbfs_uninvestigated_test_failures
-libmoosex-attributehelpers-perl:
-  version: 0.24-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libmoosex-daemonize-perl:
-  version: 0.20-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libmousex-getopt-perl:
-  version: 0.36-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libmp3spi-java:
   version: 1.9.5-1
   issues:
@@ -10529,14 +9355,6 @@ libmsv:
     - different_due_to_umask
   bugs:
     - 792975
-libmysql-diff-perl:
-  version: 0.43-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libnanomsg-raw-perl:
-  version: 0.06-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libnanoxml2-java:
   version: 2.2.3.dfsg-4
   issues:
@@ -10554,174 +9372,14 @@ libncursesada:
     Also random order of files contained in static library.
   issues:
     - timestamps_in_ada_library_information_files
-libnet-address-ip-local-perl:
-  version: 0.1.2-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libnet-amazon-s3-tools-perl:
-  version: 0.08-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libnet-cli-interact-perl:
-  version: 2.200002-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libnet-dns-resolver-programmable-perl:
-  version: 0.003-4
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libnet-dns-zonefile-fast-perl:
-  version: 1.24-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libnet-dpap-client-perl:
-  version: 0.26-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libnet-freedb-perl:
-  version: 0.08-4
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libnet-google-authsub-perl:
-  version: 0.5-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libnet-google-safebrowsing2-perl:
-  version: 1.07-6
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libnet-gpsd3-perl:
-  version: 0.19-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libnet-hotline-perl:
-  version: 0.83-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libnet-httpserver-perl:
-  version: 1.1.1-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libnet-ident-perl:
-  version: 1.24-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libnet-idn-encode-perl:
-  version: 2.300-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libnet-ipaddress-perl:
-  version: 1.10-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libnet-ipv6addr-perl:
-  version: 0.2.dfsg.1-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libnet-jabber-loudmouth-perl:
-  version: 0.07-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libnet-libidn-perl:
-  version: 0.12.ds-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libnet-managesieve-perl:
-  version: 0.10-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libnet-oauth-perl:
-  version: 0.28-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libnet-radius-perl:
-  version: 2.103+dfsg-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libnet-rawip-perl:
-  version: 0.25-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libnet-rendezvous-publish-perl:
-  version: 0.04-4
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libnet-route-perl:
   version: 0.02-1
   bugs:
     - 788758
-libnet-scp-perl:
-  version: 0.08-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libnet-sftp-foreign-perl:
-  version: 1.79+dfsg-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libnet-sftp-sftpserver-perl:
-  version: 1.1.0-4
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libnet-sip-perl:
-  version: 0.687-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libnet-snmp-perl:
-  version: 6.0.1-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libnet-stomp-perl:
-  version: 0.56-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libnet-subnet-perl:
-  version: 1.03-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libnet-tclink-perl:
   version: 3.4.0-6
   comments: |
     segfaults, but see also #796027 and #796028
-libnet-traceroute-perl:
-  version: 1.15-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libnet-traceroute-pureperl-perl:
-  version: 0.10-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libnet-vnc-perl:
-  version: 0.40-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libnet-xmpp-perl:
-  version: 1.02-5
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libnetdot-client-rest-perl:
-  version: 1.03-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libnetsds-kannel-perl:
-  version: 1.300-6
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libnetsds-perl:
-  version: 1.301-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libnetsds-util-perl:
-  version: 1.044-4
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libnetwork-ipv4addr-perl:
-  version: 0.10.ds-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libnews-scan-perl:
-  version: 0.53-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libnfo:
   version: 1.0.1-1.1
   issues:
@@ -10732,26 +9390,6 @@ libnss-ldap:
     Embeds username and build date.
     https://sources.debian.net/src/libnss-ldap/265-3/vers_string/#L10
     https://sources.debian.net/src/libnss-ldap/265-3/vers_string/#L16
-libnumber-fraction-perl:
-  version: 2.00-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libobject-event-perl:
-  version: 1.230-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libobject-id-perl:
-  version: 0.1.2-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libobject-insideout-perl:
-  version: 4.02-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libobject-signature-perl:
-  version: 1.07-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libofx:
   version: 1:0.9.10-1
   issues:
@@ -10768,30 +9406,14 @@ libopendbx:
   version: 1.4.6-8
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-libopengl-image-perl:
-  version: 1.03-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libopenoffice-oodoc-perl:
-  version: 2.125-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libopenraw:
   version: 0.0.9-3.5
   bugs:
     - 791730
-liboping:
-  version: 1.8.0-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 liboptions-java:
   version: 0.0.20120113-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-liborlite-perl:
-  version: 1.98-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 liboro-java:
   version: 2.0.8a-11
   comments: |
@@ -10808,14 +9430,6 @@ libp11:
   version: 0.3.0-1
   issues:
     - leaks_path_environment_variable
-libpadre-plugin-datawalker-perl:
-  version: 0.04-4
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libpadre-plugin-snippet-perl:
-  version: 0.01-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libpal-java:
   version: 1.5.1-2
   issues:
@@ -10836,30 +9450,10 @@ libpar2:
   version: 0.4-4
   bugs:
     - 802343
-libparallel-iterator-perl:
-  version: 1.00-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libparams-callbackrequest-perl:
-  version: 1.20-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libparanamer-java:
   version: 2.7+repack-2
   issues:
     - timestamps_in_documentation_generated_by_javadoc
-libparse-bbcode-perl:
-  version: 0.15-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libparse-cpan-packages-perl:
-  version: 2.40-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libparse-debcontrol-perl:
-  version: 2.005-4
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libparse-debianchangelog-perl:
   version: 1.2.0-1.1
   comments: |
@@ -10871,24 +9465,12 @@ libparse-debianchangelog-perl:
     used by the build environment, which should be fixed in 1.2.0-3.
   issues:
     - different_pot_creation_date_in_gettext_mo_files
-libparse-dmidecode-perl:
-  version: 0.03-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libparse-yapp-perl:
-  version: 1.05-12
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libpdfbox-java:
   version: 1:1.8.7+dfsg-1
   issues:
     - timestamps_in_maven_version_files
 libpdl-io-hdf5-perl:
   version: 0.6501-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libpdl-io-matlab-perl:
-  version: 0.005-1
   issues:
     - timestamps_in_documentation_generated_by_podman
 libpdl-linearalgebra-perl:
@@ -10910,34 +9492,6 @@ libpeas:
   version: 1.16.0-1
   bugs:
     - 802095
-libperl-destruct-level-perl:
-  version: 0.02-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libperl4-corelibs-perl:
-  version: 0.003-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libperl5i-perl:
-  version: 2.13.1-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libperl6-caller-perl:
-  version: 0.100-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libperldoc-search-perl:
-  version: 0.01-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libperlio-via-timeout-perl:
-  version: 0.32-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libpetal-utils-perl:
-  version: 0.06-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libpgf:
   version: 6.14.12-3
   bugs:
@@ -10977,58 +9531,10 @@ libplack-middleware-session-perl:
   version: 0.30-1
   issues:
     - timestamps_in_documentation_generated_by_podman
-libpod-2-docbook-perl:
-  version: 0.03-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libpod-abstract-perl:
-  version: 0.20-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libpod-strip-perl:
-  version: 1.02-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libpod2-base-perl:
-  version: 0.043-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libpoe-component-jobqueue-perl:
-  version: 0.5700-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libpoe-component-pubsub-perl:
-  version: 0.05-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libpoe-component-schedule-perl:
-  version: 0.95-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libpoe-component-server-jsonrpc-perl:
-  version: 0.05-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libpoe-filter-ssl-perl:
-  version: 0.28-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libpoe-filter-xml-perl:
-  version: 1.140700-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libpoe-loop-event-perl:
   version: 1.305-1
   issues:
     - ftbfs_uninvestigated_test_failures
-libposix-strftime-compiler-perl:
-  version: 0.41-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libppix-utilities-perl:
-  version: 1.001000-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libpqtypes:
   version: 1.5.1-2
   bugs:
@@ -11041,26 +9547,6 @@ libpreludedb:
   version: 1.0.0-2.3
   bugs:
     - 803520
-libprivileges-drop-perl:
-  version: 1.03-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libproc-background-perl:
-  version: 1.10-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libproc-pid-file-perl:
-  version: 1.27-4
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libproc-reliable-perl:
-  version: 1.16-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libproc-terminator-perl:
-  version: 0.5-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libproxool-java:
   version: 0.9.1-8
   issues:
@@ -11105,10 +9591,6 @@ librcsb-core-wrapper:
   version: 1.005-4
   issues:
     - build_id_variation_requiring_further_investigation
-librdf-vcard-perl:
-  version: 0.012-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 librdkafka:
   version: 0.8.6-1
   bugs:
@@ -11121,26 +9603,10 @@ librecad:
   version: 2.0.4-1
   issues:
     - timestamps_from_cpp_macros
-libregexp-common-perl:
-  version: 2013031301-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libregexp-debugger-perl:
-  version: 0.001020-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libregexp-grammars-perl:
-  version: 1.041-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libregexp-java:
   version: 1.5-3
   issues:
     - locale_in_documentation_generated_by_javadoc
-librelative-perl:
-  version: 0.04-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libreoffice:
   version: 1:4.4.4~rc2-1
   comments: |
@@ -11162,22 +9628,10 @@ librepository:
   version: 1.1.6-2
   issues:
     - locale_in_documentation_generated_by_javadoc
-librest-application-perl:
-  version: 0.992-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 librime:
   version: 1.2+dfsg-2
   issues:
     - build_id_variation_requiring_further_investigation
-librole-basic-perl:
-  version: 0.13-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-librunapp-perl:
-  version: 0.13-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libsaxon-java:
   version: 1:6.5.5-10
   issues:
@@ -11192,10 +9646,6 @@ libscalar-defer-perl:
   version: 0.23-1
   bugs:
     - 782878
-libscriptalicious-perl:
-  version: 1.17-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libsdl1.2:
   version: 1.2.15-12
   issues:
@@ -11210,18 +9660,6 @@ libsecret:
   version: 0.18-1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-libsemver-perl:
-  version: 0.6.0-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libsgmls-perl:
-  version: 1.03ii-34
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libshell-perl-perl:
-  version: 0.0023-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libskinlf-java:
   version: 6.7-8
   issues:
@@ -11230,14 +9668,6 @@ libsm:
   version: 2:1.2.2-1
   issues:
     - different_encoding
-libsms-send-perl:
-  version: 1.06-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libsocket-getaddrinfo-perl:
-  version: 0.22-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libsoup2.4:
   version: 2.50.0-2
   bugs:
@@ -11261,10 +9691,6 @@ libspring-webflow-2.0-java:
   version: 2.0.9.RELEASE-6
   issues:
     - locale_in_documentation_generated_by_javadoc
-libsql-abstract-limit-perl:
-  version: 2:0.14.1-5
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libstax-java:
   version: 1.2.0-3
   issues:
@@ -11275,50 +9701,10 @@ libstoragemgmt:
     - ftbfs_openssl_transition
   bugs:
     - 802094
-libstring-approx-perl:
-  version: 3.27-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libstring-dirify-perl:
-  version: 1.02-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libstring-expand-perl:
-  version: 0.04-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libstring-koremutake-perl:
-  version: 0.30-5
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libstring-print-perl:
-  version: 0.15-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libstruct-compare-perl:
-  version: 1.0.1-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libstxxl:
   version: 1.4.1-2
   issues:
     - timestamps_in_pdf_generated_by_latex
-libsvg-graph-perl:
-  version: 0.02-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libsvn-notify-mirror-perl:
-  version: 0.04000-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libsvn-notify-perl:
-  version: 2.84-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libsvn-svnlook-perl:
-  version: 0.04-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libswe-doc:
   version: 1.80.00.0001-1
   issues:
@@ -11327,14 +9713,6 @@ libswingx1-java:
   version: 1:1.0-1
   issues:
     - locale_in_documentation_generated_by_javadoc
-libswish-api-common-perl:
-  version: 0.04-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libswitch-perl:
-  version: 2.17-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libsyncml:
   version: 0.5.4-2.2
   issues:
@@ -11345,210 +9723,26 @@ libsynthesis:
   version: 3.4.0.47.4-2
   bugs:
     - 792856
-libsys-hostname-long-perl:
-  version: 1.5-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libsys-info-base-perl:
-  version: 0.7804-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libsys-statistics-linux-perl:
-  version: 0.66-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libsys-virt-perl:
   version: 1.2.18-1
   bugs:
     - 797490
-libtainting-perl:
-  version: 0.1-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libtango:
   version: 0.99.9.dfsg-1
   bugs:
     - 665017
-libtap-formatter-html-perl:
-  version: 0.11+dfsg-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtap-formatter-junit-perl:
-  version: 0.11-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtcl-perl:
-  version: 1.02+ds-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtemplate-multilingual-perl:
-  version: 1.00-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtemplate-plugin-clickable-email-perl:
-  version: 0.01-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtemplate-plugin-latex-perl:
-  version: 3.06-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtemplate-plugin-textile2-perl:
-  version: 1.21-5
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libterm-query-perl:
-  version: 2.0-9
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libterm-readline-gnu-perl:
-  version: 1.28-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libterm-shell-perl:
-  version: 0.06-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtest-aggregate-perl:
-  version: 0.372-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtest-carp-perl:
-  version: 0.2-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtest-checkchanges-perl:
-  version: 0.14-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtest-class-perl:
-  version: 0.47-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtest-command-perl:
-  version: 0.11-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtest-consistentversion-perl:
-  version: 0.3.0-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtest-distribution-perl:
-  version: 2.00-4
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libtest-expect-perl:
   version: 0.33-1
   issues:
     - ftbfs_uninvestigated_test_failures
-libtest-file-contents-perl:
-  version: 0.21-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtest-fork-perl:
-  version: 0.02-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtest-identity-perl:
-  version: 0.01-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtest-if-perl:
-  version: 0.01-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtest-inline-perl:
-  version: 2.213-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtest-inter-perl:
-  version: 1.06-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtest-json-perl:
-  version: 0.11-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libtest-log4perl-perl:
   version: 0.1001-3.1
   bugs:
     - 782879
-libtest-perl-critic-progressive-perl:
-  version: 0.03-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtest-pod-content-perl:
-  version: 0.0.6-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtest-regression-perl:
-  version: 0.07-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtest-warn-perl:
-  version: 0.30-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtest-xml-perl:
-  version: 0.08-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtest-xpath-perl:
-  version: 0.16-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtext-asciitable-perl:
-  version: 0.20-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtext-dhcpleases-perl:
-  version: 1.0-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtext-flow-perl:
-  version: 0.01-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtext-glob-perl:
-  version: 0.09-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtext-lorem-perl:
-  version: 0.3-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtext-ngrams-perl:
-  version: 2.005-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtext-reform-perl:
-  version: 1.20-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtext-sass-perl:
-  version: 0.98.0-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtext-textile-perl:
-  version: 2.13-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtext-trim-perl:
-  version: 1.02-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libtext-vimcolor-perl:
   version: 0.11-2
   bugs:
     - 720663
-libtext-worddiff-perl:
-  version: 0.08-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtext-wrapi18n-perl:
-  version: 0.06-7.1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libtexttools:
   version: 2.1.0-6
   comments: |
@@ -11560,62 +9754,14 @@ libtheora:
   issues:
     - timestamps_in_documentation_generated_by_doxygen
     - timestamps_in_pdf_generated_by_latex
-libthread-tie-perl:
-  version: 0.13-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libticket-simple-perl:
-  version: 0.0.2-4
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtie-array-iterable-perl:
-  version: 0.03-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtie-dbi-perl:
-  version: 1.06-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtie-dxhash-perl:
-  version: 1.05-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtie-hash-regex-perl:
-  version: 1.02-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtie-ixhash-perl:
-  version: 1.23-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtime-format-perl:
-  version: 1.12-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtime-olsontz-download-perl:
-  version: 0.004-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libtime-y2038-perl:
   version: 20100403-4
   comments: |
     check_max.c is sensitive to TZ, results embedded in y2038/time64_limits.h by munge_config
-libtitanium-perl:
-  version: 1.04-4
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libtk-img:
   version: 1:1.4.2+dfsg-2
   issues:
     - different_encoding
-libtk-objeditor-perl:
-  version: 2.008-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtk-tablematrix-perl:
-  version: 1.23-6.1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libtm-perl:
   version: 1.56-7
   comments: |
@@ -11646,18 +9792,6 @@ libtool:
     - timestamps_in_gzip_headers
     - timestamps_in_tarball
     - different_due_to_umask
-libtoolkit-perl:
-  version: 0.0.2-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtravel-routing-de-vrr-perl:
-  version: 2.14-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libtree-simple-visitorfactory-perl:
-  version: 0.12-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libtruth-java:
   version: 0.7.0-1
   bugs:
@@ -11674,66 +9808,18 @@ libu2f-server:
   version: 0.0.0-1
   issues:
     - timestamps_in_pdf_generated_by_latex
-libunicode-escape-perl:
-  version: 0.0.2-4
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libunicode-japanese-perl:
-  version: 0.49-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libunicode-maputf8-perl:
-  version: 1.11-4
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libunicode-string-perl:
-  version: 2.09-5
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libuninum:
   version: 2.7-1.1
   issues:
     - timestamps_from_cpp_macros
-libuniversal-moniker-perl:
-  version: 0.08-7
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libur-perl:
-  version: 0.440-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-liburi-nested-perl:
-  version: 0.10-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libusb-java:
   version: 0.8+ztex20090101-7
   issues:
     - locale_in_documentation_generated_by_javadoc
-libuser-identity-perl:
-  version: 0.94-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libutf8-all-perl:
-  version: 0.016-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libuv:
   version: 0.10.36-3
   bugs:
     - 774849
-libvalidation-class-perl:
-  version: 7.900057-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libvideo-fourcc-info-perl:
-  version: 1.005-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libvideo-ivtv-perl:
-  version: 0.13-8
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libvirt:
   version: 1.2.19-1
   issues:
@@ -11743,10 +9829,6 @@ libvldocking-java:
   issues:
     - timestamps_in_documentation_generated_by_javadoc
     - locale_in_documentation_generated_by_javadoc
-libvm-ec2-security-credentialcache-perl:
-  version: 0.23-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libvsqlitepp:
   version: 0.3.13-3
   issues:
@@ -11756,24 +9838,12 @@ libvt-ldap-java:
   version: 3.3.8-1
   issues:
     - timestamps_in_documentation_generated_by_javadoc
-libvuser-google-api-perl:
-  version: 1.0.1-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libwebcam:
   version: 0.2.4-1.1
   issues:
     - timestamps_in_gzip_headers
   bugs:
     - 787999
-libwebservice-cia-perl:
-  version: 1.4-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libwebservice-youtube-perl:
-  version: 1.0.3-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libwebsockets:
   version: 1.2.2-1
   comments: |
@@ -11782,40 +9852,20 @@ libwibble:
   version: 1.1-1
   issues:
     - random_order_in_static_libraries
-libwiki-toolkit-plugin-rss-reader-perl:
-  version: 1.6-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libwps:
   version: 0.3.0-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-libwww-mechanize-autopager-perl:
-  version: 0.02-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libwx-perl:
   version: 1:0.9923-4
   issues:
     - randomness_in_c_files_generated_by_extutils_parsexs
   bugs:
     - 787265
-libwx-scintilla-perl:
-  version: 0.39-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libx11:
   version: 2:1.6.3-1
   issues:
     - different_encoding
-libx11-freedesktop-desktopentry-perl:
-  version: 0.04-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libx11-protocol-perl:
-  version: 0.56-7
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libxalan2-java:
   version: 2.7.1-9
   issues:
@@ -11852,107 +9902,27 @@ libxml++2.6:
     Installs examples with varying environments - can probably just be distcleaned after build
   issues:
     - leaks_path_environment_variable
-libxml-catalog-perl:
-  version: 1.03-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libxml-commonns-perl:
-  version: 0.06-4
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libxml-commons-resolver1.1-java:
   version: 1.2-7
   issues:
     - randomness_in_gcj_output
-libxml-compile-cache-perl:
-  version: 1.04-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libxml-easy-perl:
-  version: 0.009-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libxml-easyobj-perl:
   version: 1.12-3
   bugs:
     - 797289
     - 798488
-libxml-grove-perl:
-  version: 0.46alpha-12
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libxml-handler-yawriter-perl:
-  version: 0.23-6
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libxml-hash-lx-perl:
-  version: 0.0603-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libxml-parser-lite-tree-perl:
-  version: 0.14-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libxml-perl:
-  version: 0.08-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libxml-rpc-fast-perl:
   version: 0.8-1
   bugs:
     - 805164
-libxml-sax-expatxs-perl:
-  version: 1.33-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libxml-security-java:
   version: 1.5.6-1
   issues:
     - timestamps_in_documentation_generated_by_javadoc
-libxml-semanticdiff-perl:
-  version: 1.0004-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libxml-simple-perl:
-  version: 2.20-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libxml-simpleobject-perl:
-  version: 0.53-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libxml-stream-perl:
-  version: 1.24-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libxml-tidy-perl:
-  version: 1.12.B55J2qn-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libxml-treebuilder-perl:
-  version: 5.4-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libxml-validate-perl:
   version: 1.025-2
   bugs:
     - 720666
-libxml-xpath-perl:
-  version: 1.13-7
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libxml-xpathengine-perl:
-  version: 0.13-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libxml-xql-perl:
-  version: 0.68-8
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-libxml-xslt-perl:
-  version: 0.48-4
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 libxml2:
   version: 2.9.2+really2.9.1+dfsg1-0.1
   bugs:
@@ -12492,10 +10462,6 @@ magyarispell:
   version: 1.6.1-2
   issues:
     - random_ispell_hash_files
-mail-spf-perl:
-  version: 2.9.0-4
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 mailagent:
   version: 1:3.1-78-1
   comments: |
@@ -12553,10 +10519,6 @@ maitreya:
   version: 7.0.7-1
   issues:
     - timestamps_from_cpp_macros
-makepatch:
-  version: 2.03-1.1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 makepp:
   version: 2.0.98.5-1
   issues:
@@ -12608,8 +10570,6 @@ manuel:
     - ftbfs_uninvestigated_test_failures
 mapivi:
   version: 0.9.7-1.1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
   bugs:
     - 796376
 mapnik:
@@ -12898,10 +10858,6 @@ milter-greylist:
   comments: |
     Records the build environment.
     https://sources.debian.net/src/milter-greylist/4.5.11-1/configure.ac/#L1323-L1325
-mimedefang:
-  version: 2.78-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 mimefilter:
   version: 1.7+nmu1
   comments: |
@@ -12932,10 +10888,6 @@ minetest-mod-mobf:
   version: 2.3.6-1
   issues:
     - timestamps_in_directories
-ming:
-  version: 1:0.4.5-1.3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 mingw-ocaml:
   version: 4.01.0~20140328-1
   issues:
@@ -13387,10 +11339,6 @@ murano-dashboard:
   version: 2015.1.0-1
   bugs:
     - 797900
-murasaki:
-  version: 1.68.6-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 muse-el:
   version: 3.20+dfsg-0.1
   issues:
@@ -14360,10 +12308,6 @@ opencv:
   version: 2.4.9.1+dfsg-1
   issues:
     - timestamps_in_jar
-openguides:
-  version: 0.80-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 openhackware:
   version: 0.4.1+git-20140423.c559da7c-2
   comments: |
@@ -14671,10 +12615,6 @@ packaging-tutorial:
   version: 0.15
   issues:
     - timestamps_in_pdf_generated_by_latex
-pacpl:
-  version: 4.0.5-7.1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 pads:
   version: 1.2-11
   issues:
@@ -14754,10 +12694,6 @@ paraview:
   version: 4.1.0+dfsg+1-1
   issues:
     - timestamps_from_cpp_macros
-parcimonie:
-  version: 0.9-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 pari:
   version: 2.7.4-2
   issues:
@@ -15038,14 +12974,6 @@ perl-cross-debian:
   version: 0.0.5
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-perlbal:
-  version: 1.80-3
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-perlindex:
-  version: 1.606-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 perlpanel:
   version: 1:0.9.1+cvs20051225-2
   issues:
@@ -15293,10 +13221,6 @@ pjproject:
   bugs:
     - 794711
     - 795825
-pkg-components:
-  version: 0.8
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 pkg-config:
   version: 0.28-1
   comments: |
@@ -15304,10 +13228,6 @@ pkg-config:
     of the locale.
   bugs:
     - 792821
-pkwalify:
-  version: 1.22-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 plainbox:
   version: 0.5.4-1
   issues:
@@ -15400,10 +13320,6 @@ plymouth:
   version: 0.9.0-8
   issues:
     - timestamps_from_cpp_macros
-pmtools:
-  version: 2.0.0-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 pmw:
   version: 1:4.28-1
   issues:
@@ -15444,10 +13360,6 @@ pocl:
   version: 0.10-10
   bugs:
     - 764563
-podbrowser:
-  version: 0.12-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 pokerth:
   version: 1.1.1-2.2
   bugs:
@@ -16739,10 +14651,6 @@ qpid-cpp:
   version: 0.16-9
   issues:
     - ftbfs_uninvestigated_big_packages
-qpsmtpd:
-  version: 0.94-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 qrfcview:
   version: 0.62-5.2
   issues:
@@ -17240,10 +15148,6 @@ renaissance:
   version: 0.9.0-4
   issues:
     - timestamps_in_directories
-rename:
-  version: 0.20-4
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 reposurgeon:
   version: 3.29-1
   issues:
@@ -17393,10 +15297,6 @@ rsbackup:
   bugs:
     - 777394
     - 793716
-rsem:
-  version: 1.2.23+dfsg-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 rsync:
   version: 3.1.1-2
   issues:
@@ -17412,10 +15312,6 @@ rt-extension-customfieldsonupdate:
   version: 0.01-1
   comments: |
     timestamp added to perllocal.pod by ExtUtils::MM_Unix
-rt-extension-smsnotify:
-  version: 1.04-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 rt-extension-spawnlinkedticketinqueue:
   version: 0.06-1
   comments: |
@@ -18694,18 +16590,10 @@ sludge:
   version: 2.2.1-1
   issues:
     - timestamps_from_cpp_macros
-slurm-llnl:
-  version: 15.08.3-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 smash:
   version: 0.0.14-1
   bugs:
     - 802111
-smbldap-tools:
-  version: 0.9.9-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 smcroute:
   version: 2.0.0-5
   comments: |
@@ -18726,10 +16614,6 @@ smokekde:
   version: 4.14.3-1
   issues:
     - build_id_variation_requiring_further_investigation
-smokeping:
-  version: 2.6.11-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 smokeqt:
   version: 4.14.3-1
   issues:
@@ -18977,10 +16861,6 @@ spykeviewer:
     - timestamps_in_png
   bugs:
     - 778643
-sqitch:
-  version: 0.9993-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 sqlalchemy:
   version: 0.9.8+dfsg-0.1
   issues:
@@ -19004,10 +16884,6 @@ squeak-vm:
     VM_BUILD_STRING that includes the __DATE__ and __TIME__ macros.
   issues:
     - timestamps_from_cpp_macros
-squid3:
-  version: 3.5.10-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 sra-sdk:
   version: 2.3.5-2+dfsg-1
   issues:
@@ -19115,10 +16991,6 @@ stopmotion:
   version: 0.8.0-5
   bugs:
     - 800059
-storebackup:
-  version: 3.2.1-1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 strace:
   version: 4.10-1
   bugs:
@@ -19284,10 +17156,6 @@ swish-e:
   version: 2.4.7-4
   issues:
     - random_order_in_static_libraries
-swissknife:
-  version: 1.67-1.1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 switchconf:
   version: 0.0.9-2
   issues:
@@ -20300,10 +18168,6 @@ varnish-agent:
   bugs:
     - 725597
     - 724479
-vcheck:
-  version: 1.2.1-7.1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 vdkbuilder2:
   version: 2.4.0-4.4
   comments: |
@@ -21225,10 +19089,6 @@ xmltex:
   version: 1.9.debian.1-3
   issues:
     - timestamps_in_dvi_generated_by_latex
-xmltv:
-  version: 0.5.67-0.1
-  issues:
-    - timestamps_in_documentation_generated_by_podman
 xmlunit:
   version: 1.5-1
   issues:
