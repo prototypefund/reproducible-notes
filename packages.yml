@@ -8094,6 +8094,8 @@ keyutils:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/keyutils/1.5.9-5/Makefile/#L115
+  issues:
+    - ftbfs_uninvestigated_test_failures
 kgb-bot:
   version: 1.33-2
   comments: |
