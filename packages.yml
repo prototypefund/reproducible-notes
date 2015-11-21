@@ -1047,6 +1047,10 @@ ayttm:
   version: 0.6.3-3
   issues:
     - timestamps_from_cpp_macros
+azr3-jack:
+  version: 1.2.3-2
+  bugs:
+    - 805658
 azureus:
   version: 4.3.0.6-5
   issues:
@@ -2838,6 +2842,10 @@ dash:
     - different_due_to_umask
   bugs:
     - 774425
+datanommer.consumer:
+  version: 0.6.1-2
+  bugs:
+    - 805660
 datanommer.models:
   version: 0.6.4-2
   bugs:
@@ -3887,6 +3895,10 @@ epson-inkjet-printer-escpr:
   version: 1.4.1-2
   issues:
     - ppds_compressed_b64
+eq10q:
+  version: 2.0~beta7.1~repack0-1
+  bugs:
+    - 805661
 equivs:
   version: 2.0.9
   bugs:
@@ -4474,6 +4486,10 @@ flask-babel:
   version: 0.9-1
   bugs:
     - 803262
+flask-wtf:
+  version: 0.12-1
+  bugs:
+    - 805662
 flasm:
   version: 1.62-7
   issues:
@@ -4549,6 +4565,10 @@ fntsample:
   comments: |
     Embeds the build date into manpage.
     https://sources.debian.net/src/fntsample/3.2-6/configure.ac/#L38
+font-manager:
+  version: 0.5.7-4
+  bugs:
+    - 805663
 fontforge:
   version: 20120731.b-5
   issues:
@@ -6060,6 +6080,10 @@ golang-github-tinylib-msgp:
   version: 1.0~beta-1
   comments: |
     Looks like its due to random variable numbers in generated code but these are actually deterministic due to golangs implicit rand.Seed(1) - I believe its some kind of arbitrary dict ordering instead
+golang-go.tools:
+  version: 0.0~hg20140703-4
+  bugs:
+    - 805664
 golang-gocheck:
   version: 0.0~bzr20131118+85-2
   bugs:
@@ -6443,6 +6467,8 @@ guacamole-client:
     - timestamps_in_jar
     - user_in_java_jar_manifest
     - random_order_in_java_jar_manifest_mf
+  bugs:
+    - 805665
 guava-libraries:
   version: 18.0-4
   issues:
@@ -6488,6 +6514,8 @@ guitarix:
   version: 0.32.1-1
   issues:
     - build_id_variation_requiring_further_investigation
+  bugs:
+    - 805666
 gumbo-parser:
   version: 0.10.1+dfsg-2
   bugs:
@@ -7533,6 +7561,10 @@ jenkins-dom4j:
   version: 1.6.1-jenkins-4-1
   issues:
     - locale_in_documentation_generated_by_javadoc
+jenkins-htmlunit:
+  version: 2.6-jenkins-6-2
+  bugs:
+    - 805668
 jenkins-json:
   version: 2.4-jenkins-3-3
   issues:
@@ -8170,6 +8202,10 @@ ksh:
     - build_id_variation_requiring_further_investigation
   bugs:
     - 777930
+ksplice:
+  version: 0.9.9-5
+  bugs:
+    - 805669
 ktikz:
   version: 0.10-4
   issues:
@@ -9446,6 +9482,9 @@ libpango-perl:
   version: 1.226-2
   issues:
     - timestamps_in_documentation_generated_by_podman
+  bugs:
+    - 805403
+    - 805671
 libpar2:
   version: 0.4-4
   bugs:
@@ -12186,6 +12225,10 @@ ogre-1.9:
   version: 1.9.0+dfsg1-4
   bugs:
     - 795462
+ohcount:
+  version: 3.0.0-8
+  bugs:
+    - 805674
 oidua:
   version: 0.16.1-7
   issues:
@@ -12615,6 +12658,10 @@ packaging-tutorial:
   version: 0.15
   issues:
     - timestamps_in_pdf_generated_by_latex
+paco:
+  version: 2.0.9-3
+  bugs:
+    - 805676
 pads:
   version: 1.2-11
   issues:
@@ -13233,6 +13280,8 @@ plainbox:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - randomness_in_documentation_indices_generated_by_sphinx
+  bugs:
+    - 805677
 plan:
   version: 1.10.1-5
   issues:
@@ -13815,6 +13864,10 @@ pyopengl:
   version: 3.0.2-1
   bugs:
     - 802117
+pyoperators:
+  version: 0.13.6-1
+  bugs:
+    - 805678
 pyotherside:
   version: 1.2.0-1
   issues:
@@ -13946,6 +13999,14 @@ python-bottle:
   version: 0.12.7-1
   issues:
     - timestamps_in_manpages_generated_by_sphinx
+python-box2d:
+  version: 2.0.2+svn20100109.244-1.1
+  bugs:
+    - 805684
+python-braintree:
+  version: 3.13.0-1
+  bugs:
+    - 805685
 python-cachecontrol:
   version: 0.11.5-1
   bugs:
@@ -14042,6 +14103,8 @@ python-django-mptt:
   version: 0.6.0-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
+  bugs:
+    - 805688
 python-django-registration:
   version: 1.0+dfsg-2
   bugs:
@@ -14148,6 +14211,10 @@ python-hiredis:
   version: 0.2.0-1
   issues:
     - build_id_variation_requiring_further_investigation
+python-hpack:
+  version: 1.1.0-1
+  bugs:
+    - 805690
 python-html2text:
   version: 2015.6.21-1
   issues:
@@ -14211,6 +14278,10 @@ python-letsencrypt:
     - randomness_in_documentation_generated_by_sphinx
   bugs:
     - 805262
+python-libdiscid:
+  version: 0.4.1-4
+  bugs:
+    - 805686
 python-libpcap:
   version: 0.6.4-1
   bugs:
@@ -14227,6 +14298,10 @@ python-ly:
   version: 0.9.2-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
+python-maxminddb:
+  version: 1.2.0-1
+  bugs:
+    - 805689
 python-memory-profiler:
   version: 0.31+git20141019-1
   bugs:
@@ -14320,6 +14395,10 @@ python-pathtools:
   version: 0.1.2-2
   issues:
     - timestamps_in_manpages_generated_by_sphinx
+python-pbcore:
+  version: 1.2.4+dfsg-1
+  bugs:
+    - 805687
 python-pcs:
   version: 0.5+debian-1.2
   issues:
@@ -16317,6 +16396,10 @@ sensible-utils:
     - different_due_to_umask
   bugs:
     - 774449
+seq24:
+  version: 0.9.2-2
+  bugs:
+    - 805681
 serp:
   version: 1.15.1-1
   issues:
@@ -16409,6 +16492,10 @@ shotwell:
   issues:
     - different_due_to_umask
     - timestamps_in_tarball
+showq:
+  version: 0.4.1+git20090622+dfsg0-2
+  bugs:
+    - 805682
 shunit2:
   version: 2.1.6-1.1
   issues:
@@ -16461,6 +16548,10 @@ simutrans:
   version: 111.2.2-1
   issues:
     - timestamps_from_cpp_macros
+sineshaper:
+  version: 0.4.2-8
+  bugs:
+    - 805683
 sinfo:
   version: 0.0.47-3
   issues:
