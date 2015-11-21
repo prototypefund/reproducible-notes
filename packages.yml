@@ -4757,9 +4757,8 @@ foxyproxy:
 fpc:
   version: 2.6.4+dfsg-8
   comments: |
-    Uses fpdoc to create documentation. The sorting in the index files depends on the locale. Unrecognized characters (e.g. source file is UTF-8 encoded while locale is C) are replaced by ?.
-    Version 3.0.0: two utilities (fpcres and fpcjres) now include the build time via %DATE% macro
-    Version 3.0.0: the compiler itself has non reproducibility but that is not exposed by diffoscope (too large)
+    Uses fpdoc to create documentation. The sorting in the index files depends on the locale. Unrecognized characters (e.g. source file is UTF-8 encoded while locale is C) are replaced by ? (fixed in experimental).
+    Timestamp in object files created by fpc from the %DATE% directive (WIP in fpc).
   issues:
     - undeterministic_symlinking_by_rdfind
     - timestamps_in_ppu_generated_by_fpc
@@ -8181,8 +8180,8 @@ lavapdu:
 lazarus:
   version: 1.4.4+dfsg-1
   comments: |
-    Unknown differences in chm files.
-    Timestamps of some directories is either the build time or some time in the past (but different directories have the timestamp diff in the reversed order.
+    Timestamp in lcl.chm file created by chm writer tools from fpc.
+    Timestamp in object files created by fpc from the %DATE% directive (WIP in fpc).
 lcgdm:
   version: 1.8.7-3.1
   issues:
