@@ -67,8 +67,6 @@ aboot:
     - timestamps_in_manpages_generated_by_docbook_utils
 ace:
   version: 6.3.2+dfsg-1
-  issues:
-    - ftbfs_openssl_transition
   bugs:
     - 804326
 ace-of-penguins:
@@ -623,8 +621,6 @@ arbtt:
     - timestamps_in_manpages_generated_by_docbook_xsl
 arc-gui-clients:
   version: 0.4.6-1
-  issues:
-    - ftbfs_openssl_transition
   bugs:
     - 804601
 ardour:
@@ -1303,8 +1299,6 @@ bird:
     - timestamps_in_pdf_generated_by_latex
 bitcoin:
   version: 0.10.2-3
-  issues:
-    - ftbfs_openssl_transition
   bugs:
     - 791834
 bittornado:
@@ -1669,7 +1663,6 @@ canl-c:
   version: 2.1.5-1.1
   issues:
     - timestamps_in_pdf_content
-    - ftbfs_openssl_transition
 canl-java:
   version: 2.1.1-1
   issues:
@@ -2353,7 +2346,6 @@ condor:
   version: 8.2.3~dfsg.1-3
   issues:
     - timestamps_from_cpp_macros
-    - ftbfs_openssl_transition
 conduit:
   version: 0.3.17-1.1
   issues:
@@ -2431,8 +2423,6 @@ cortado:
     - 794248
 coturn:
   version: 4.5.0.2-3
-  issues:
-    - ftbfs_openssl_transition
   bugs:
     - 804440
 couchdb:
@@ -3347,8 +3337,6 @@ dnssec-trigger:
     https://sources.debian.net/src/dnssec-trigger/0.13~svn685-4/configure.ac/#L678
 dnsval:
   version: 2.0-2
-  issues:
-    - ftbfs_openssl_transition
   bugs:
     - 803886
 doc-base:
@@ -4793,10 +4781,6 @@ freebsd-libs:
   version: 10.1~svn273304-1
   issues:
     - build_id_variation_requiring_further_investigation
-freebsd-utils:
-  version: 10.1~svn273304-1
-  issues:
-    - ftbfs_openssl_transition
 freecad:
   version: 0.15.4671+dfsg1-1
   issues:
@@ -5004,10 +4988,6 @@ galax:
     /usr/share/doc/libgalax-ocaml-dev/config/Makefile.conf.gz
   issues:
     - timestamps_in_pdf_generated_by_latex
-galera-3:
-  version: 25.3.12-2
-  issues:
-    - ftbfs_openssl_transition
 gally:
   version: 0.5.1-1
   bugs:
@@ -5410,7 +5390,6 @@ ginkgocadx:
   version: 3.7.0.1465.37+dfsg-1
   issues:
     - timestamps_from_cpp_macros
-    - ftbfs_openssl_transition
 gio-sharp:
   version: 2.22.3-2
   issues:
@@ -5531,7 +5510,6 @@ globus-ftp-client:
   version: 8.16-1
   issues:
     - timestamps_in_manpages_generated_by_doxygen
-    - ftbfs_openssl_transition
 globus-ftp-control:
   version: 6.3-1
   issues:
@@ -6200,7 +6178,6 @@ gridengine:
   version: 6.2u5-7.3
   issues:
     - timestamps_in_jar
-    - ftbfs_openssl_transition
 gridsite:
   version: 2.2.5-1
   issues:
@@ -9858,7 +9835,6 @@ libzypp:
   version: 14.29.1-2
   issues:
     - timestamps_from_cpp_macros
-    - ftbfs_openssl_transition
 lice:
   version: 1:4.2.5i-1
   issues:
@@ -10206,8 +10182,6 @@ lua-posix:
     - timestamps_in_documentation_generated_by_lua_ldoc
 lua-sec:
   version: 0.5-2
-  issues:
-    - ftbfs_openssl_transition
   bugs:
     - 804607
 luarocks:
@@ -10629,10 +10603,6 @@ medicalterms:
     - collation_order_varies_by_locale
   bugs:
     - 793813
-medusa:
-  version: 2.1.1-1
-  issues:
-    - ftbfs_openssl_transition
 memcached:
   version: 1.4.24-2
   bugs:
@@ -10999,10 +10969,6 @@ moon-buggy:
     - timestamps_in_dvi_generated_by_latex
 moonshot-gss-eap:
   version: 0.9.5-1
-  issues:
-    - ftbfs_openssl_transition
-moonshot-trust-router:
-  version: 1.4.1-1
   issues:
     - ftbfs_openssl_transition
 morfologik-stemming:
@@ -11690,8 +11656,6 @@ nordugrid-arc:
   version: 5.0.1-1
   comments: |
     manpages have dates injected by ./configure.ac line 2239
-  issues:
-    - ftbfs_openssl_transition
   bugs:
     - 804610
 nordugrid-arc-doc:
@@ -12291,7 +12255,6 @@ openssl:
   version: 1.0.2d-1
   issues:
     - build_id_variation_requiring_further_investigation
-    - ftbfs_openssl_transition
 opensurgsim:
   version: 0.6.0-3
   bugs:
@@ -12813,7 +12776,6 @@ petsc:
   issues:
     - build_id_variation_requiring_further_investigation
     - leaks_path_environment_variable
-    - ftbfs_openssl_transition
 pfstools:
   version: 2.0.4-4
   issues:
@@ -13006,8 +12968,6 @@ pinta:
     - timestamps_in_pe_binaries
 pion:
   version: 5.0.6+dfsg-1
-  issues:
-    - ftbfs_openssl_transition
   bugs:
     - 803756
 pirl:
@@ -14920,8 +14880,6 @@ reclass:
     - timestamps_in_manpages_generated_by_sphinx
 reconserver:
   version: 0.10.4-1
-  issues:
-    - ftbfs_openssl_transition
   bugs:
     - 803753
 red5:
@@ -14996,8 +14954,6 @@ request-tracker4:
     - 796385
 resiprocate:
   version: 1:1.10.0~beta2-1
-  issues:
-    - ftbfs_openssl_transition
   bugs:
     - 797419
 resource-agents:
@@ -16338,7 +16294,6 @@ slepc:
   issues:
     - user_hostname_manually_added_requiring_further_investigation
     - captures_kernel_version
-    - ftbfs_openssl_transition
 slgsl:
   version: 0.7.0-5.1
   bugs:
@@ -16513,10 +16468,6 @@ spacezero:
   version: 0.80.06-1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-spamassassin:
-  version: 3.4.1-2
-  issues:
-    - ftbfs_openssl_transition
 spamassassin-heatu:
   version: 3.02+20101108-2
   bugs:
@@ -16931,7 +16882,6 @@ swi-prolog:
   version: 6.6.6-5
   issues:
     - timestamps_from_cpp_macros
-    - ftbfs_openssl_transition
 swift:
   version: 2.2.0-1
   issues:
@@ -17477,7 +17427,6 @@ trafficserver:
   version: 5.1.1-1
   issues:
     - timestamps_from_cpp_macros
-    - ftbfs_openssl_transition
 transfig:
   version: 1:3.2.5.e-4
   issues:
@@ -18065,7 +18014,6 @@ virtuoso-opensource:
   issues:
     - timestamps_from_cpp_macros
     - captures_kernel_version
-    - ftbfs_openssl_transition
 visolate:
   version: 2.1.6~svn8+dfsg1-1
   bugs:
@@ -18125,7 +18073,6 @@ voms:
   version: 2.0.11-5
   issues:
     - timestamps_from_cpp_macros
-    - ftbfs_openssl_transition
 voms-api-java:
   version: 3.0.5-1
   issues:
@@ -18623,8 +18570,6 @@ xchat:
     - 794603
 xchat-gnome:
   version: 1:0.30.0~git20131003.d20b8d-3
-  issues:
-    - ftbfs_openssl_transition
   bugs:
     - 804617
 xcrysden:
@@ -19151,8 +19096,6 @@ zeroc-ice:
     - timestamps_in_pe_binaries
 zeroinstall-injector:
   version: 2.8-1
-  issues:
-    - ftbfs_openssl_transition
   bugs:
     - 804431
 zeromq3:
@@ -19178,8 +19121,6 @@ zipios++:
     - 794239
 znc:
   version: 1.6.1-1
-  issues:
-    - ftbfs_openssl_transition
   bugs:
     - 804618
 zoneminder:
