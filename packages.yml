@@ -15498,14 +15498,14 @@ ruby-literati:
   version: 0.0.4~git.20130318.3b3ea30-2
   bugs:
     - 794261
-ruby-lumberjack:
-  version: 1.0.9-1
-  issues:
-    - timestamps_in_gemspec_files
 ruby-log4r:
   version: 1.1.10-4
   issues:
     - timestamps_in_directories
+ruby-lumberjack:
+  version: 1.0.9-1
+  issues:
+    - timestamps_in_gemspec_files
 ruby-magic:
   version: 0.2.8-1
   issues:
@@ -15651,12 +15651,12 @@ ruby-pg:
   version: 0.17.1-2
   issues:
     - timestamps_in_ruby_documentation
-ruby-plist:
-  version: 3.1.0-2
-  issues:
-    - timestamps_in_gemspec_files
 ruby-pkg-config:
   version: 1.1.5-1
+  issues:
+    - timestamps_in_gemspec_files
+ruby-plist:
+  version: 3.1.0-2
   issues:
     - timestamps_in_gemspec_files
 ruby-prawn:
@@ -15683,6 +15683,10 @@ ruby-rack-oauth2:
   version: 1.2.0-3
   bugs:
     - 802132
+ruby-raemon:
+  version: 0.3.0+git.2012.05.18.b78eaae57c-1
+  issues:
+    - timestamps_in_gemspec_files
 ruby-rash:
   version: 0.4.0-1
   bugs:
@@ -15783,6 +15787,10 @@ ruby-sass:
   version: 3.4.19-1
   issues:
     - timestamps_in_gemspec_files
+ruby-sass-rails:
+  version: 5.0.3-1
+  issues:
+    - timestamps_in_gemspec_files
 ruby-seed-fu:
   version: 2.3.5-1
   issues:
@@ -15819,10 +15827,6 @@ ruby-simple-navigation:
     - 795116
 ruby-simple-oauth:
   version: 0.3.1-2
-  issues:
-    - timestamps_in_gemspec_files
-ruby-sass-rails:
-  version: 5.0.3-1
   issues:
     - timestamps_in_gemspec_files
 ruby-slack-notifier:
