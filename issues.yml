@@ -829,3 +829,8 @@ ftbfs_old_compat_debheper_compat_level:
     debhelper 9.20151116 removed support for the compat levels 1, 2.
     So those packages now fail to build.
   url: https://lists.debian.org/debian-devel/2015/09/msg00257.html
+timestamps_in_documentation_generated_with_libwibble:
+  description: |
+    libwibble can generate manpages for applications using it.
+    While doing so, it embeds the current date into the manpage.
+  url: https://sources.debian.net/src/libwibble/1.1-1/wibble/commandline/doc.cpp/#L320

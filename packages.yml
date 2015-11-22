@@ -1495,6 +1495,10 @@ btrfs-tools:
   version: 3.17-1.1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
+buffy:
+  version: 1.5-2
+  issues:
+    - timestamps_in_documentation_generated_with_libwibble
 bugs-everywhere:
   version: 1.1.1-3
   bugs:
@@ -1829,6 +1833,11 @@ cfengine2:
   version: 2.2.10-5
   issues:
     - texinfo_mdate_sh_varies_by_timezone
+cfengine3:
+  version: 3.6.2-4
+  comments: |
+    Embeds the build date into manpages.
+    https://sources.debian.net/src/cfengine3/3.6.2-4/libutils/man.c/#L72
 cffi:
   version: 1:0.14.0-1
   issues:
@@ -2330,6 +2339,18 @@ company-mode:
   version: 0.8.12-1
   issues:
     - timestamps_in_emacs_autoloads
+compass-blend-modes-plugin:
+  version: 0.0.2~20130918-1
+  issues:
+    - timestamps_in_gemspec_files
+compass-blueprint-plugin:
+  version: 1.0.0-1
+  issues:
+    - timestamps_in_gemspec_files
+compass-h5bp-plugin:
+  version: 1.0.0-2
+  issues:
+    - timestamps_in_gemspec_files
 compass-sassy-maps-plugin:
   version: 0.4.0-3
   issues:
@@ -3667,6 +3688,10 @@ editorconfig-core:
   version: 0.11.5-2
   issues:
     - timestamps_in_manpages_generated_by_doxygen
+editorconfig-emacs:
+  version: 0.4+git20151028.3835e4-1
+  issues:
+    - timestamps_in_emacs_autoloads
 eep24c:
   version: 0.1.2-5
   issues:
@@ -4117,6 +4142,10 @@ f-irc:
   version: 1.36-1
   issues:
     - timestamps_from_cpp_macros
+fades:
+  version: 4-1
+  issues:
+    - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
 fai:
   version: 4.3.2
   issues:
@@ -4397,6 +4426,11 @@ flann:
   version: 1.8.4-4.1
   issues:
     - timestamps_in_pdf_generated_by_latex
+flashrom:
+  version: 0.9.7+r1852-1.1
+  comments: |
+    Embeds the build date into manpage.
+    https://sources.debian.net/src/flashrom/0.9.7%2Br1852-1.1/util/getrevision.sh/#L157
 flask-autoindex:
   version: 0.5-3
   bugs:
@@ -5426,6 +5460,10 @@ git-cola:
   version: 2.0.6-1
   issues:
     - timestamps_in_manpages_generated_by_sphinx
+git-extras:
+  version: 3.0.0-1
+  issues:
+    - timestamps_in_manpages_generated_by_ronn
 git-hub:
   version: 0.9.0-1
   comments: |
@@ -5633,6 +5671,11 @@ gmetrics:
   version: 0.5-1
   issues:
     - timestamps_in_documentation_generated_by_groovydoc
+gmerlin:
+  version: 1.2.0~dfsg+1-4
+  comments: |
+    Embeds the date into manpages.
+    https://sources.debian.net/src/gmerlin/1.2.0~dfsg%2B1-4/lib/cmdline.c/#L381
 gmic:
   version: 1.6.0.1-1
   issues:
@@ -6017,9 +6060,9 @@ gopher:
   bugs:
     - 798758
 goplay:
-  version: 0.9
-  bugs:
-    - 777888
+  version: 0.9.1
+  issues:
+    - timestamps_in_documentation_generated_with_libwibble
 gorm.app:
   version: 1.2.20-2
   issues:
@@ -9883,6 +9926,10 @@ lightdm-gtk-greeter:
     https://sources.debian.net/src/lightdm-gtk-greeter/2.0.1-1/src/lightdm-gtk-greeter.c/?hl=2608#L2608
   issues:
     - timestamps_from_cpp_macros
+lightdm-gtk-greeter-settings:
+  version: 1.2.0-1
+  bugs:
+    - 805783
 lightproof:
   version: 1.5+git20140515-1
   bugs:
@@ -10608,6 +10655,11 @@ mclibs:
   version: 20061220+dfsg3-3
   issues:
     - timestamps_in_dvi_generated_by_latex
+mcrl2:
+  version: 201409.0-1
+  comments: |
+    Embeds the build date into manpages.
+    https://sources.debian.net/src/mcrl2/201409.0-1/libraries/utilities/source/command_line_interface.cpp/#L547-L550
 mdbtools:
   version: 0.7.1-4
   issues:
@@ -12072,6 +12124,10 @@ ooolib-perl:
   version: 0.1.9-1
   issues:
     - different_due_to_umask
+origami-pdf:
+  version: 1.2.7-2
+  issues:
+    - timestamps_in_gemspec_files
 opam:
   version: 1.2.0-1
   issues:
@@ -13457,6 +13513,10 @@ pxljr:
   version: 1.4+repack0-4
   issues:
     - ppds_compressed_b64
+pxz:
+  version: 4.999.99~beta4+gitae80846-2
+  bugs:
+    - 805778
 py-postgresql:
   version: 1.1.0-2
   issues:
@@ -15702,6 +15762,10 @@ ruby-raemon:
   version: 0.3.0+git.2012.05.18.b78eaae57c-1
   issues:
     - timestamps_in_gemspec_files
+ruby-rails-html-sanitizer:
+  version: 1.0.2-1
+  issues:
+    - timestamps_in_gemspec_files
 ruby-rash:
   version: 0.4.0-1
   bugs:
@@ -15868,6 +15932,10 @@ ruby-standalone:
   version: 0.5.1
   comments: |
     Embeds the build date into manpage.
+ruby-stud:
+  version: 0.0.20-1
+  issues:
+    - timestamps_in_gemspec_files
 ruby-subexec:
   version: 0.2.3+gh-2
   issues:
@@ -16237,6 +16305,10 @@ sendfile:
   bugs:
     - 776938
     - 793719
+sendip:
+  version: 2.5-6
+  issues:
+    - timestamps_in_manpages_generated_by_help2man
 sensible-utils:
   version: 0.0.9
   issues:
@@ -17176,6 +17248,10 @@ tachyon:
   version: 0.99~b2+dfsg-0.4
   issues:
     - timestamps_in_pdf_generated_by_latex
+tagcoll2:
+  version: 2.0.14-1
+  issues:
+    - timestamps_in_documentation_generated_with_libwibble
 taggrepper:
   version: 0.05-1
   issues:
