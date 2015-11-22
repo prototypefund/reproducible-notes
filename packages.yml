@@ -2616,6 +2616,10 @@ csync2:
   version: 2.0+73d3293-2
   issues:
     - timestamps_in_pdf_generated_by_latex
+ctioga2:
+  version: 0.13.1-1
+  issues:
+    - timestamps_in_gemspec_files
 cuba:
   version: 3.0+20111124-2
   bugs:
@@ -3057,6 +3061,10 @@ debtags:
   version: 2.0.1
   issues:
     - ftbfs_uninvestigated_test_failures
+deja-dup:
+  version: 34.0-1
+  bugs:
+    - 805787
 dejagnu:
   version: 1.5.1-2
   comments: |
@@ -6890,6 +6898,11 @@ id-utils:
   version: 4.6+git20120811-4
   issues:
     - timestamps_in_manpages_generated_by_help2man
+idjc:
+  version: 0.8.15-1
+  comments: |
+    Embeds the build date.
+    https://sources.debian.net/src/idjc/0.8.15-1/Makefile.am/#L46
 idlastro:
   version: 2015.04.27+dfsg-3
   issues:
@@ -11909,6 +11922,10 @@ ocaml-atd:
   version: 1.1.2-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+ocaml-curses:
+  version: 1.0.3-2
+  issues:
+    - randomness_in_ocaml_preprocessed_files
 ocaml-melt:
   version: 1.4.0-1
   issues:
@@ -15043,6 +15060,10 @@ request-tracker4:
   version: 4.2.11-2
   bugs:
     - 796385
+rerun:
+  version: 0.10.0-1
+  issues:
+    - timestamps_in_gemspec_files
 resiprocate:
   version: 1:1.10.0~beta2-1
   bugs:
@@ -17260,6 +17281,10 @@ taggrepper:
   bugs:
     - 777725
     - 793726
+taglib-sharp:
+  version: 2.1.0.0-3
+  issues:
+    - timestamps_in_pe_binaries
 tagsoup:
   version: 1.2.1+-1
   issues:
@@ -18106,6 +18131,10 @@ uwsgi:
   version: 2.0.7-1
   issues:
     - timestamps_from_cpp_macros
+vagrant:
+  version: 1.7.4+dfsg-1
+  issues:
+    - timestamps_in_gemspec_files
 val-and-rick:
   version: 0.1a.dfsg1-4
   bugs:
