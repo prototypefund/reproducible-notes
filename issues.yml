@@ -734,6 +734,7 @@ random_order_in_ibus_table_createdb_output:
 random_order_in_antlr_output:
   description: |
     The ANTLR parser generaor can have reordered source lines.
+    Fixed in antlr3/3.5.2-3.
 timestamps_in_tex_documents:
   description: |
     The TeX \today macro embeds the build date in the files generated
