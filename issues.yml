@@ -844,3 +844,8 @@ timestamps_in_documentation_generated_by_glib_genpod:
     the current year in a copyright notice.
     .
     http://sources.debian.net/src/libglib-perl/3:1.307-3/lib/Glib/GenPod.pm/?hl=43#L43
+ftbfs_due_to_build-depends-arch:
+  description:
+    pbuilder does not yet support the Build-Depends-Arch relationship (which is
+    not yet in policy either).  It's available since dpkg 1.16.4 (in wheezy, 2012)
+  url: https://bugs.debian.org/802557
