@@ -10472,11 +10472,10 @@ marionnet:
   issues:
     - build_id_variation_requiring_further_investigation
 markdown:
-  version: 1.0.1-7
+  version: 1.0.2~b8-3
   issues:
-    - timestamps_in_gzip_headers
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-    - timezones_manpages_podman
+    - timestamps_in_documentation_generated_by_podman
 markdown-mode:
   version: 2.0snapshot78-2
   issues:
