@@ -5683,15 +5683,15 @@ glyr:
   version: 1.0.6+git20140423-1
   issues:
     - timestamps_from_cpp_macros
-gmetrics:
-  version: 0.5-1
-  issues:
-    - timestamps_in_documentation_generated_by_groovydoc
 gmerlin:
   version: 1.2.0~dfsg+1-4
   comments: |
     Embeds the date into manpages.
     https://sources.debian.net/src/gmerlin/1.2.0~dfsg%2B1-4/lib/cmdline.c/#L381
+gmetrics:
+  version: 0.5-1
+  issues:
+    - timestamps_in_documentation_generated_by_groovydoc
 gmic:
   version: 1.6.0.1-1
   issues:
@@ -12149,10 +12149,6 @@ ooolib-perl:
   version: 0.1.9-1
   issues:
     - different_due_to_umask
-origami-pdf:
-  version: 1.2.7-2
-  issues:
-    - timestamps_in_gemspec_files
 opam:
   version: 1.2.0-1
   issues:
@@ -12414,6 +12410,10 @@ opus:
   version: 1.1-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+origami-pdf:
+  version: 1.2.7-2
+  issues:
+    - timestamps_in_gemspec_files
 osc:
   version: 0.152.0-1
   comments: |
