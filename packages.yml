@@ -1435,6 +1435,7 @@ botch:
   version: 0.5-1~experimental1
   issues:
     - timezones_manpages_podman
+    - ftbfs_due_to_build-depends-arch
 bouncycastle:
   version: 1.49+dfsg-3
   issues:
@@ -11143,6 +11144,10 @@ mpich:
   version: 3.1-5
   issues:
     - fonts_in_pdf_files
+mplayer:
+  version: 2:1.2-1
+  issues:
+    - ftbfs_due_to_build-depends-arch
 mpmath:
   version: 0.19-1
   issues:
