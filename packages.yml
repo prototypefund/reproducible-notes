@@ -380,6 +380,11 @@ anytun:
   comments: |
     Embed build time and hostname:
     http://sources.debian.net/src/anytun/0.3.5-1/src/configure/?hl=367:368,383#L367
+aodh:
+  version: 1.0.0-11
+  issues:
+    - randomness_in_documentation_generated_by_sphinx
+    - timestamps_in_documentation_generated_by_sphinx
 aolserver4:
   version: 4.5.1-18
   issues:
@@ -867,6 +872,11 @@ audacity:
   version: 2.0.6-2
   issues:
     - timestamps_from_cpp_macros
+audiotools:
+  version: 3.3.1-1
+  comments: |
+    Embeds the build date into manpage.
+    https://sources.debian.net/src/audiotools/3.1.1-1/docs/manpagexml.py/#L184-L189
 audtty:
   version: 0.1.12-4
   bugs:
@@ -1230,6 +1240,10 @@ billiard:
   version: 3.3.0.20-2
   bugs:
     - 804137
+bin-prot:
+  version: 111.03.00-1
+  issues:
+    - randomness_in_ocaml_preprocessed_files
 bind-dyndb-ldap:
   version: 6.0-4
   issues:
@@ -1462,6 +1476,11 @@ brltty:
   version: 5.2~20141018-2
   comments: |
     Entropy from (gcc) compile or link order
+broccoli:
+  version: 1.97-3
+  comments: |
+    Embeds the build date and hostname.
+    https://sources.debian.net/src/broccoli/1.97-3/CMakeLists.txt/#L25
 bsaf:
   version: 1.9-4
   issues:
@@ -3804,6 +3823,10 @@ enigma:
   version: 1.20-dfsg.1-2
   issues:
     - timestamps_in_png
+ent:
+  version: 1.2debian-1
+  issues:
+    - timestamps_in_documentation_generated_by_asciidoc
 entangle:
   version: 0.7.0-3
   bugs:
@@ -4127,6 +4150,10 @@ f-irc:
   version: 1.36-1
   issues:
     - timestamps_from_cpp_macros
+fabric:
+  version: 1.10.2-1
+  issues:
+    - copyright_year_in_documentation_generated_by_sphinx
 fades:
   version: 4-1
   issues:
@@ -4913,6 +4940,11 @@ frown:
   version: 0.6.1-14
   issues:
     - fonts_in_pdf_files
+fs-uae:
+  version: 2.6.2+dfsg-3
+  issues:
+    - different_due_to_umask
+    - timestamps_in_zip
 fsgateway:
   version: 0.1.1-3
   issues:
@@ -5335,6 +5367,10 @@ gettext:
   version: 0.19.5.1-1
   issues:
     - timestamps_in_jar
+gevent-socketio:
+  version: 0.3.6-2
+  issues:
+    - copyright_year_in_documentation_generated_by_sphinx
 gfm:
   version: 1.07-1
   issues:
@@ -5821,6 +5857,10 @@ gnugk:
   version: 2:3.6-1
   issues:
     - timestamps_from_cpp_macros
+gnugo:
+  version: 3.8-8
+  issues:
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
 gnuift:
   version: 0.1.14-12.1
   issues:
@@ -6386,6 +6426,10 @@ gui-apt-key:
     - timestamps_in_gzip_headers
   bugs:
     - 777240
+guidata:
+  version: 1.6.1-1
+  issues:
+    - copyright_year_in_documentation_generated_by_sphinx
 guile-1.8:
   version: 1.8.8+1-10
   comments: |
@@ -12911,6 +12955,10 @@ php5-midgard2:
   version: 10.05.7-1
   bugs:
     - 799363
+phpab:
+  version: 1.21.0-1
+  issues:
+    - timestamps_in_manpages_generated_by_help2man
 phpbb3:
   version: 3.0.12-5
   issues:
@@ -13496,6 +13544,10 @@ pycurl:
   version: 7.19.5-3
   issues:
     - timestamps_from_cpp_macros
+pyexiv2:
+  version: 0.3.2-8
+  issues:
+    - copyright_year_in_documentation_generated_by_sphinx
 pyfai:
   version: 0.11.0+dfsg-3
   issues:
@@ -14839,6 +14891,10 @@ rc:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/rc/1.7.2-1/configure.ac/#L5
+rcmdr:
+  version: 2.2-3-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 rcs:
   version: 5.9.4-1
   bugs:
@@ -14889,6 +14945,10 @@ reclass:
   version: 1.4.1-1
   issues:
     - timestamps_in_manpages_generated_by_sphinx
+recode:
+  version: 3.6-22
+  issues:
+    - timestamps_in_manpages_generated_by_help2man
 reconserver:
   version: 0.10.4-1
   bugs:
@@ -16804,6 +16864,10 @@ sqlline:
   version: 1.0.2-5
   issues:
     - timestamps_manually_added_needs_further_investigation
+sqlparse:
+  version: 0.1.18-1
+  issues:
+    - copyright_year_in_documentation_generated_by_sphinx
 squareness:
   version: 2.3.0-6
   comments: |
@@ -16900,6 +16964,10 @@ step:
   version: 4:15.08.0-1
   bugs:
     - 803381
+stevedore:
+  version: 1.5.0-2
+  issues:
+    - copyright_year_in_documentation_generated_by_sphinx
 stgit:
   version: 0.17.1-1
   comments: |
@@ -17015,6 +17083,10 @@ superlu:
   version: 4.3+dfsg-3
   issues:
     - build_id_variation_requiring_further_investigation
+supervisor:
+  version: 3.1.3-1
+  issues:
+    - copyright_year_in_documentation_generated_by_sphinx
 surf-alggeo:
   version: 1.0.6+ds-2
   issues:
@@ -17928,6 +18000,11 @@ uima-as:
   version: 2.3.1-3
   issues:
     - timestamps_in_documentation_generated_by_javadoc
+uisp:
+  version: 20050207-4.2
+  comments: |
+    Embeds the build date.
+    https://sources.debian.net/src/uisp/20050207-4.2/configure.ac/#L56
 ultracopier:
   version: 0.3.1.0-1
   issues:
@@ -17948,6 +18025,10 @@ unburden-home-dir:
   version: 0.3.3
   bugs:
     - 789832
+uncertainties:
+  version: 2.4.4-1
+  issues:
+    - copyright_year_in_documentation_generated_by_sphinx
 undbx:
   version: 0.20-1
   issues:
@@ -18207,6 +18288,10 @@ virt-top:
   version: 1.0.7-1
   bugs:
     - 789614
+virtualenvwrapper:
+  version: 4.3.1-2
+  issues:
+    - copyright_year_in_documentation_generated_by_sphinx
 virtualjaguar:
   version: 2.1.2-1
   issues:
@@ -18365,6 +18450,10 @@ waitress:
     - timestamps_in_documentation_generated_by_sphinx
   bugs:
     - 788597
+wand:
+  version: 0.3.9-1
+  issues:
+    - copyright_year_in_documentation_generated_by_sphinx
 warzone2100:
   version: 3.1.1-1
   issues:
