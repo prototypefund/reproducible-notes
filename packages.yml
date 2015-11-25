@@ -2153,6 +2153,10 @@ cmtk:
     Also timestamps embedded into several manpages.
   issues:
     - timestamps_from_cpp_macros
+cmucl:
+  version: 21a-2
+  comments: |
+    Shouldn't be trying to build on amd64
 cnrun:
   version: 1.1.14-1
   issues:
@@ -4276,6 +4280,8 @@ fenix:
   version: 0.92a.dfsg1-10
   bugs:
     - 795731
+  comments: |
+    Shouldn't be trying to build on amd64
 ferret-vis:
   version: 6.9.3-3
   issues:
@@ -5833,6 +5839,10 @@ gnuit:
   version: 4.9.5-3
   issues:
     - timestamps_from_cpp_macros
+gnumach:
+  version: 2:1.6-1
+  comments: |
+    Shouldn't be trying to build on amd64
 gnumail:
   version: 1.2.2-1
   bugs:
