@@ -2431,6 +2431,8 @@ coq:
     - 794130
 coreutils:
   version: 8.23-4
+  bugs:
+    - 806321
   comments: |
     Uses embedded/old help2man. Should also export SOURCE_DATE_EPOCH.
     https://sources.debian.net/src/coreutils/8.23-4/man/help2man/
