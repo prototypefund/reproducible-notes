@@ -854,3 +854,7 @@ random_order_of_tmpfiles_in_postinst:
   description: |
     dh_installinit writes tmpfiles in readdir() order into postinst.
   url: https://bugs.debian.org/806392
+random_order_in_cython_output:
+  description: |
+    Cython generates .c code from a Python-like syntax. Some of it is in
+    non-deterministic order.
