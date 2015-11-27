@@ -2431,11 +2431,11 @@ coq:
     - 794130
 coreutils:
   version: 8.23-4
-  bugs:
-    - 806321
   comments: |
     Uses embedded/old help2man. Should also export SOURCE_DATE_EPOCH.
     https://sources.debian.net/src/coreutils/8.23-4/man/help2man/
+  bugs:
+    - 806321
 corosync:
   version: 1.4.6-1.1
   issues:
@@ -19185,11 +19185,11 @@ xyscan:
     - timestamps_from_cpp_macros
 xz-utils:
   version: 5.1.1alpha+20120614-2
+  issues:
+    - different_pot_creation_date_in_gettext_mo_files
   bugs:
     - 806328
     - 806331
-  issues:
-    - different_pot_creation_date_in_gettext_mo_files
 xzgv:
   version: 0.9.1-3
   issues:
