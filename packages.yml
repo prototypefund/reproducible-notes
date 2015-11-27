@@ -17206,8 +17206,8 @@ sysstat:
     - 798469
 systemd:
   version: 227-2
-  comments: |
-    random file order in postinst added by dh_installinit
+  issues:
+    - random_order_of_tmpfiles_in_postinst
 systemtap:
   version: 2.9-1
   issues:
