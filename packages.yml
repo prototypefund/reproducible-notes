@@ -5990,6 +5990,10 @@ golang-git2go:
   version: 0.0~git20150731.0.ed62fda-1
   bugs:
     - 799454
+golang-github-appc-spec:
+  version: 0.7.1+dfsg-1
+  issues:
+    - random_build_path_by_golang_compiler
 golang-github-armon-go-metrics:
   version: 0.0~git20150601-1
   issues:
@@ -15056,6 +15060,10 @@ relion:
     calls dpkg-shlibdeps with -v is here
     .
     https://gist.github.com/lamby/93e7d28104209f6abbdc (longish build time)
+remake:
+  version: 3.82+dbg0.9+dfsg-2
+  bugs:
+    - 806552
 remote-tty:
   version: 4.0-13
   comments: |
