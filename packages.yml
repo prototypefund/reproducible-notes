@@ -1593,6 +1593,10 @@ cached-property:
   version: 1.2.0+ds-1
   bugs:
     - 804423
+cadvisor:
+  version: 0.19.3+dfsg-3
+  issues:
+    - random_build_path_by_golang_compiler
 cadabra:
   version: 1.39-0.2
   bugs:
@@ -2834,6 +2838,11 @@ datapacker:
   version: 1.0.1+nmu2
   issues:
     - timestamps_in_manpages_generated_by_docbook_utils
+dateutils:
+  version: 0.3.1-1.1
+  comments: |
+    Included manpage generator "yuck" embeds the build date.
+    https://sources.debian.net/src/dateutils/0.3.1-1.1/build-aux/yuck.c/#L1435-L1443
 davical:
   version: 1.1.3.1-1
   issues:
@@ -4709,6 +4718,10 @@ fonts-samyak:
   version: 1.2.2-4
   issues:
     - fontforge_reset_modification_time
+fonts-sarai:
+  version: 1.0-2
+  issues:
+    - fontforge_reset_modification_time
 fonts-sil-abyssinica:
   version: 1.500-1
   issues:
@@ -5887,6 +5900,11 @@ gnumail:
   version: 1.2.2-1
   bugs:
     - 805201
+gnunet-gtk:
+  version: 0.10.1-2
+  comments: |
+    Embeds the current year as copyright year.
+    https://sources.debian.net/src/gnunet-gtk/0.10.1-2/configure.ac/#L541-L542
 gnupg:
   version: 1.4.19-6
   bugs:
@@ -8653,6 +8671,10 @@ libdevel-gdb-perl:
   version: 2.02-2
   bugs:
     - 784845
+libdigidoc:
+  version: 3.10.1.1208-1
+  bugs:
+    - 806564
 libdr-tarantool-perl:
   version: 0.43-1
   bugs:
