@@ -859,3 +859,7 @@ random_order_in_cython_output:
     Cython generates .c code from a Python-like syntax. Some of it is in
     non-deterministic order.
   url: https://bugs.debian.org/806493
+timestamps_in_python_code_generated_by_pyside:
+  description: |
+    The resource compiler from pyside-tools embeds a creation timestamp into the generated Python source.
+  url: https://bugs.debian.org/806527
