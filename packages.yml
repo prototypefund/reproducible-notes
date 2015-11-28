@@ -3142,7 +3142,7 @@ dh-kpatches:
 dh-make-golang:
   version: 0.0~git20150913.0.1221041-1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - random_build_path_by_golang_compiler
 dh-make-php:
   version: 0.4.0
   issues:
@@ -9970,7 +9970,7 @@ linkchecker:
 linpac:
   version: 0.23-1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - timestamps_from_cpp_macros
 linthesia:
   version: 0.4.3-1
   issues:
@@ -10782,7 +10782,7 @@ minc:
 minc-tools:
   version: 2.3.00+dfsg-1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - timestamps_from_cpp_macros
 minetest-mod-mobf:
   version: 2.3.6-1
   issues:
@@ -11976,7 +11976,7 @@ octave-gsl:
 octave-image:
   version: 2.4.1-1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - random_buildpath_by_octave
 octave-io:
   version: 2.2.10-1
   issues:
@@ -11996,7 +11996,7 @@ octave-miscellaneous:
 octave-mpi:
   version: 1.2.0-2
   issues:
-    - build_id_variation_requiring_further_investigation
+    - random_buildpath_by_octave
 octave-msh:
   version: 1.0.10-1
   issues:
@@ -12004,7 +12004,7 @@ octave-msh:
 octave-nan:
   version: 2.8.1-1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - random_buildpath_by_octave
 octave-nurbs:
   version: 1.3.10-1
   issues:
@@ -12060,7 +12060,7 @@ octave-struct:
 octave-tsa:
   version: 4.2.9-1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - random_buildpath_by_octave
 offlineimap:
   version: 6.5.5-0.1
   issues:
@@ -12117,8 +12117,8 @@ ompl:
     - 799819
 onboard:
   version: 1.1.2-1
-  issues:
-    - build_id_variation_requiring_further_investigation
+  bugs:
+    - 806517
 oneliner-el:
   version: 0.3.6-7.1
   bugs:
@@ -19389,7 +19389,7 @@ yui3:
 z3:
   version: 4.4.0-3
   issues:
-    - build_id_variation_requiring_further_investigation
+    - timestamps_in_pe_binaries
 z88dk:
   version: 1.8.ds1-10
   issues:
