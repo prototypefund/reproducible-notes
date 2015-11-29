@@ -546,12 +546,6 @@ aprsdigi:
   version: 3.5.1-1
   issues:
     - timestamps_in_documentation_generated_by_groff
-apt:
-  version: 1.0.9.3
-  issues:
-    - timestamps_from_cpp_macros
-  bugs:
-    - 774342
 apt-cacher-ng:
   version: 0.8.2-1
   issues:
@@ -3329,10 +3323,10 @@ django-ldapdb:
   version: 0.2.0-1
   bugs:
     - 755601
-django-localflavor:
-  version: 1.1-1
+django-polymorphic:
+  version: 0.7.1-1
   bugs:
-    - 804424
+    - 800726
 django-session-security:
   version: 2.2.4+dfsg-1
   issues:
@@ -4551,10 +4545,6 @@ font-manager:
   version: 0.5.7-4
   bugs:
     - 805663
-fontforge:
-  version: 20120731.b-5
-  issues:
-    - different_due_to_umask
 fontmatrix:
   version: 0.6.0+svn20110930-1.1
   bugs:
@@ -9412,13 +9402,6 @@ libpam-sshauth:
   version: 0.3.1-1
   bugs:
     - 789106
-libpango-perl:
-  version: 1.226-2
-  issues:
-    - timestamps_in_documentation_generated_by_podman
-  bugs:
-    - 805403
-    - 805671
 libpar2:
   version: 0.4-4
   bugs:
@@ -9969,10 +9952,6 @@ lightdm-gtk-greeter:
     https://sources.debian.net/src/lightdm-gtk-greeter/2.0.1-1/src/lightdm-gtk-greeter.c/?hl=2608#L2608
   issues:
     - timestamps_from_cpp_macros
-lightdm-gtk-greeter-settings:
-  version: 1.2.0-1
-  bugs:
-    - 805783
 lightproof:
   version: 1.5+git20140515-1
   bugs:
@@ -9981,12 +9960,6 @@ lighttpd:
   version: 1.4.35-4
   issues:
     - timestamps_from_cpp_macros
-lilo:
-  version: 1:24.1-1
-  issues:
-    - timestamps_from_cpp_macros
-  bugs:
-    - 798366
 lilypond:
   version: 2.18.2-4
   issues:
@@ -12409,10 +12382,6 @@ opticalraytracer:
   version: 3.2-1.1
   issues:
     - timestamps_in_jar
-opus:
-  version: 1.1-2
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 origami-pdf:
   version: 1.2.7-2
   issues:
@@ -13526,10 +13495,6 @@ pxljr:
   version: 1.4+repack0-4
   issues:
     - ppds_compressed_b64
-pxz:
-  version: 4.999.99~beta4+gitae80846-2
-  bugs:
-    - 805778
 py-postgresql:
   version: 1.1.0-2
   issues:
