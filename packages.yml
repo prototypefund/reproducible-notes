@@ -2989,10 +2989,6 @@ debian-builder:
     - timestamps_in_gzip_headers
   bugs:
     - 777009
-debian-design:
-  version: 3
-  bugs:
-    - 797087
 debian-edu:
   version: 1.812
   comments: |
@@ -4342,12 +4338,6 @@ festvox-czech-machac:
   version: 1.0.0-2
   bugs:
     - 753179
-fetchmail:
-  version: 6.3.26-1
-  issues:
-    - ftbfs_openssl_transition
-  bugs:
-    - 804604
 feynmf:
   version: 1.08-9
   issues:
@@ -4989,12 +4979,6 @@ ftplib:
   comments: |
     Embeds the build date into manpages.
     https://sources.debian.net/src/ftplib/3.1-1-9/debian/html2man.py/#L86-L87
-funnelweb-doc:
-  version: 3.2d-3
-  issues:
-    - ftbfs_old_compat_debheper_compat_level
-  bugs:
-    - 800170
 fuse-posixovl:
   version: 1.2.20120215+gitf5bfe35-1
   bugs:
@@ -5153,13 +5137,6 @@ gcalcli:
   version: 3.2-2
   issues:
     - timestamps_in_manpages_generated_by_help2man
-gcc-3.3:
-  version: 1:3.3.6ds1-27.2
-  issues:
-    - ftbfs_old_compat_debheper_compat_level
-  bugs:
-    - 800273
-    - 800267
 gcc-4.8:
   version: 4.8.5-1
   issues:
@@ -6623,12 +6600,6 @@ heat-cfntools:
   version: 1.2.7-2
   issues:
     - timestamps_in_manpages_generated_by_sphinx
-heirloom-mailx:
-  version: 12.5-5
-  issues:
-    - ftbfs_openssl_transition
-  bugs:
-    - 804605
 hepmc:
   version: 2.06.09-1
   issues:
@@ -6794,9 +6765,6 @@ httperf:
   version: 0.9.0-2
   issues:
     - timestamps_from_cpp_macros
-    - ftbfs_openssl_transition
-  bugs:
-    - 804452
 httpfs2:
   version: 0.1.4-1
   issues:
@@ -7346,10 +7314,6 @@ jargs:
   version: 1.0.0-4
   issues:
     - locale_in_documentation_generated_by_javadoc
-jarisplayer:
-  version: 2.0.15+20131104~dfsg-1
-  bugs:
-    - 801250
 jarjar:
   version: 1.4+svn142-4
   issues:
@@ -9937,10 +9901,6 @@ lifelines:
   version: 3.0.61-2
   issues:
     - timestamps_in_pdf_generated_by_latex
-lifeograph:
-  version: 1.2.1-1
-  bugs:
-    - 805212
 lift:
   version: 2.0.0-1
   issues:
@@ -10022,11 +9982,6 @@ liquidwar:
   issues:
     - timestamps_from_cpp_macros
     - timestamps_in_allegro_dat_files
-litl:
-  version: 0.1.6+dfsg-1
-  bugs:
-    - 797508
-    - 804838
 littler:
   version: 0.2.3-2
   issues:
@@ -12913,8 +12868,6 @@ php-guzzle:
   version: 3.9.2+dfsg-5
   issues:
     - timestamps_in_pdf_generated_by_latex
-  bugs:
-    - 804583
 php-guzzlehttp-ringphp:
   version: 1.1.0-1
   issues:
@@ -13083,8 +13036,6 @@ plainbox:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - randomness_in_documentation_indices_generated_by_sphinx
-  bugs:
-    - 805677
 plan:
   version: 1.10.1-5
   issues:
@@ -13614,10 +13565,6 @@ pyliblo:
   version: 0.10.0-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
-pylibmc:
-  version: 1.5.0-3
-  bugs:
-    - 805227
 pylint:
   version: 1.4.4-1
   bugs:
@@ -14011,14 +13958,6 @@ python-hacking:
   version: 0.9.2-1
   bugs:
     - 799312
-python-halberd:
-  version: 0.2.4-1
-  bugs:
-    - 805781
-python-hpack:
-  version: 1.1.0-1
-  bugs:
-    - 805690
 python-html2text:
   version: 2015.6.21-1
   issues:
@@ -14027,11 +13966,6 @@ python-hypothesis:
   version: 1.11.0-1
   issues:
     - randomness_in_python_setuptools_requires_txt
-python-igraph:
-  version: 0.6.5-1
-  bugs:
-    - 759858
-    - 797829
 python-imaplib2:
   version: 2.50-1
   bugs:
@@ -14048,10 +13982,6 @@ python-jedi:
   version: 0.9.0-1
   issues:
     - ftbfs_uninvestigated_test_failures
-python-jmespath:
-  version: 0.4.1-1
-  bugs:
-    - 804557
 python-json-patch:
   version: 1.19-2
   issues:
@@ -14077,10 +14007,6 @@ python-letsencrypt:
   comments: |
     api/reporter.html embeds pid, probably from atexit_print_messages
     function in letsencrypt/reporter.py.
-python-libdiscid:
-  version: 0.4.1-4
-  bugs:
-    - 805686
 python-libpcap:
   version: 0.6.4-1
   bugs:
@@ -14105,10 +14031,6 @@ python-memory-profiler:
   version: 0.31+git20141019-1
   bugs:
     - 804442
-python-mne:
-  version: 0.8.6+dfsg-2
-  bugs:
-    - 800135
 python-mock:
   version: 1.0.1-3
   issues:
@@ -14186,10 +14108,6 @@ python-pathtools:
   version: 0.1.2-2
   issues:
     - timestamps_in_manpages_generated_by_sphinx
-python-pbcore:
-  version: 1.2.4+dfsg-1
-  bugs:
-    - 805687
 python-pcs:
   version: 0.5+debian-1.2
   issues:
@@ -14296,10 +14214,6 @@ python-restless:
   version: 2.0.1-3
   bugs:
     - 806335
-python-rsa:
-  version: 3.1.4-1
-  bugs:
-    - 804430
 python-rtslib-fb:
   version: 2.1.45-4
   issues:
@@ -14695,12 +14609,6 @@ quiterss:
   version: 0.18.2+dfsg-1
   bugs:
     - 805240
-quodlibet:
-  version: 3.2.2-1
-  issues:
-    - different_pot_creation_date_in_gettext_mo_files
-  bugs:
-    - 804587
 quotecolors:
   version: 0.3-4
   comments: |
@@ -15049,8 +14957,6 @@ repsnapper:
   version: 2.3.2a5-1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-  bugs:
-    - 805232
 request-tracker4:
   version: 4.2.11-2
   bugs:
@@ -16190,12 +16096,6 @@ scalable-cyrfonts:
   version: 4.16+nmu1
   issues:
     - fontforge_reset_modification_time
-scanssh:
-  version: 2.0-4
-  issues:
-    - ftbfs_old_compat_debheper_compat_level
-  bugs:
-    - 800223
 scantool:
   version: 1.21+dfsg-4
   issues:
@@ -16534,10 +16434,6 @@ sipxtapi:
     https://sources.debian.net/src/sipxtapi/3.3.0~test17-1/config/sipXpkgtop.mak/
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-sireader:
-  version: 1.0.2-1
-  bugs:
-    - 805229
 sisc:
   version: 1.16.6-1.1
   issues:
@@ -16736,10 +16632,6 @@ sorl-thumbnail:
   version: 12.2-1
   bugs:
     - 792576
-sosreport:
-  version: 3.2-2
-  bugs:
-    - 805247
 soundscaperenderer:
   version: 0.4.2~dfsg-2
   issues:
@@ -17090,10 +16982,6 @@ substance:
   version: 5.3-3
   issues:
     - timestamp_in_java_bnd_manifest
-subtitleeditor:
-  version: 0.52.1-1
-  bugs:
-    - 805162
 subtle:
   version: 0.11.3224-xi-2.1
   bugs:
@@ -17240,10 +17128,6 @@ synfig:
   version: 0.64.2-1
   issues:
     - timestamps_from_cpp_macros
-synfigstudio:
-  version: 1.0-1
-  bugs:
-    - 803037
 synthv1:
   version: 0.5.1-1
   issues:
@@ -17268,12 +17152,6 @@ syslog-ng:
   version: 3.5.6-2
   issues:
     - timestamps_from_cpp_macros
-sysprofile:
-  version: 0.3.8
-  issues:
-    - ftbfs_old_compat_debheper_compat_level
-  bugs:
-    - 800276
 systemd:
   version: 227-2
   issues:
@@ -17486,10 +17364,6 @@ texmacs:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/texmacs/1:1.0.7.18-1/configure.in/#L552
-texmaker:
-  version: 4.4.1-1
-  bugs:
-    - 803755
 tf5:
   version: 5.0beta8-5
   comments: |
@@ -18879,10 +18753,6 @@ xcfa:
   version: 4.3.8-1
   issues:
     - timestamps_from_cpp_macros
-xcffib:
-  version: 0.3.6-1
-  bugs:
-    - 805234
 xcftools:
   version: 1.0.7-4
   issues:
