@@ -12337,6 +12337,11 @@ opticalraytracer:
   version: 3.2-1.1
   issues:
     - timestamps_in_jar
+opus:
+  version: 1.1.1-1
+  comments: |
+    Embeds the current year as coypright year.
+    https://sources.debian.net/src/opus/1.1.1-1/doc/footer.html/#L13
 origami-pdf:
   version: 1.2.7-2
   issues:
@@ -16448,6 +16453,10 @@ sisu-ioc:
   version: 2.3.0-6
   bugs:
     - 806486
+sjfonts:
+  version: 2.0.2-1.1
+  issues:
+    - fontforge_reset_modification_time
 skalibs:
   version: 0.47-1
   issues:
@@ -16463,6 +16472,10 @@ skimage:
   version: 0.10.1-2
   bugs:
     - 788965
+sks:
+  version: 1.1.5-4
+  issues:
+    - randomness_in_ocaml_preprocessed_files
 skytools3:
   version: 3.2-2
   issues:
@@ -16586,10 +16599,6 @@ snort:
   version: 2.9.7.0-4
   issues:
     - pdf_created_by_ghostscript
-snp-sites:
-  version: 2.0.2-1
-  bugs:
-    - 806568
 soapdenovo2:
   version: 240+dfsg-2
   issues:
