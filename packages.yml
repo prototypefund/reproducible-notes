@@ -6425,6 +6425,10 @@ gui-apt-key:
     - timestamps_in_gzip_headers
   bugs:
     - 777240
+guice:
+  version: 4.0-1
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 guidata:
   version: 1.6.1-1
   issues:
@@ -13109,6 +13113,10 @@ plexus-utils:
   version: 1:1.5.15-4
   issues:
     - locale_in_documentation_generated_by_javadoc
+plexus-utils2:
+  version: 3.0.22-1
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 plib-doc:
   version: 1:1.8.5-3
   issues:
