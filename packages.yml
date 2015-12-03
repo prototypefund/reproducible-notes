@@ -958,6 +958,7 @@ avr-libc:
 avrdude:
   version: 6.1-2
   issues:
+    - timestamps_in_ps_generated_by_dvips
     - timestamps_from_cpp_macros
 avro-java:
   version: 1.7.7-1
@@ -4326,6 +4327,7 @@ festival:
   version: 1:2.1~release-8
   issues:
     - timestamps_in_dvi_generated_by_latex
+    - timestamps_in_ps_generated_by_dvips
 festvox-czech-dita:
   version: 1.0.0-2
   bugs:
@@ -4880,7 +4882,7 @@ freedink-dfarc:
 freedoom:
   version: 0.9-1
   issues:
-    - timestamps_in_png
+    - timestamps_in_documentation_generated_by_asciidoc
 freefem:
   version: 3.5.8-5.1
   issues:
@@ -6110,7 +6112,7 @@ gosmore:
 gosu:
   version: 1.6-1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - random_build_path_by_golang_compiler
 gphoto2-cffi:
   version: 0.2-2
   bugs:
@@ -6285,10 +6287,6 @@ grml2usb:
   version: 0.14.10.1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-groff:
-  version: 1.22.3-1
-  bugs:
-    - 762854
 gromacs:
   version: 5.0.2-1
   comments: |
@@ -13379,7 +13377,7 @@ proftpd-dfsg:
 progressivemauve:
   version: 1.2.0+4713-2
   issues:
-    - build_id_variation_requiring_further_investigation
+    - timestamps_from_cpp_macros
 projectl:
   version: 1.001.dfsg1-7
   bugs:
@@ -19111,13 +19109,8 @@ xotcl:
     - 797543
 xpra:
   version: 0.14.9+dfsg-1
-  comments: |
-    build_info.py contains several variables which need to be made deterministic, eg:
-    BUILD_DATE='2014-10-08'
-    BUILT_BY='pbuilder'
-    BUILD_TIME='15:55'
-    BUILT_ON='jenkins'
-    BUILD_CPU='AMD Opteron 62xx (Gen 4 Class Opteron)'
+  bugs:
+    - 806974
 xscavenger:
   version: 1.4.4-9
   issues:
