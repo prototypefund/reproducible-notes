@@ -1096,6 +1096,8 @@ basemap:
     - 790235
 bash:
   version: 4.3-11
+  bugs:
+    - 806945
   comments: |
     bashref.pdf can be reproduced when fixing the same time using faketime. So
     it might be that dvipdfm seeds stuff using time…
