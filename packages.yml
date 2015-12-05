@@ -4426,6 +4426,10 @@ fis-gtm:
   version: 6.2-002A-2
   comments: |
     Really curious diffoscope where a very large number of 0x01 bytes in the a build 0x02 in the b build. Possibly an offset difference rather than literal difference?
+fish:
+  version: 2.2.0-2
+  issues:
+    - timestamps_in_manpages_generated_by_doxygen
 fityk:
   version: 1.2.1-0.1
   issues:
