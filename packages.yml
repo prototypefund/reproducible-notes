@@ -12912,6 +12912,10 @@ php-apcu:
     - timestamps_from_cpp_macros
   bugs:
     - 805222
+php-doc:
+  version: 20140201-1
+  comments: |
+    Uses docbook dbtimestamp entity to generate copyright dates etc. Perhaps docbook could use SOURCE_DATE_EPOCH
 php-doctrine-bundle:
   version: 1.5.2-1
   issues:
