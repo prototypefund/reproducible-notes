@@ -17006,6 +17006,10 @@ spring:
   issues:
     - timestamps_in_zip
     - different_due_to_umask
+spring-build:
+  version: 2.7.0-2
+  issues:
+    - implementation_version_in_java_manifest_mf
 spyder:
   version: 2.3.6+dfsg1-1
   issues:
