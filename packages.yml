@@ -4667,12 +4667,12 @@ fonts-lohit-guru:
   version: 2.5.3-2
   issues:
     - fontforge_reset_modification_time
-fonts-lohit-mlym:
-  version: 2.5.4-1
-  issues:
-    - fontforge_reset_modification_time
 fonts-lohit-knda:
   version: 2.5.3-2
+  issues:
+    - fontforge_reset_modification_time
+fonts-lohit-mlym:
+  version: 2.5.4-1
   issues:
     - fontforge_reset_modification_time
 fonts-lohit-orya:
@@ -16765,6 +16765,10 @@ sonnet:
   comments: |
     Caused by QHash usage (instead of QMap?) in data/parsetrigrams.cpp. Could
     also be filesystem ordering here too.
+soqt:
+  version: 1.6.0~e8310f-2
+  issues:
+    - timestamps_in_manpages_generated_by_doxygen
 sord:
   version: 0.12.2~dfsg0-1
   issues:
@@ -16777,10 +16781,6 @@ soundscaperenderer:
   version: 0.4.2~dfsg-2
   issues:
     - fonts_in_pdf_files
-soqt:
-  version: 1.6.0~e8310f-2
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
 sox:
   version: 14.4.1-4
   issues:
