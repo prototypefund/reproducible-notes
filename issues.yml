@@ -869,3 +869,11 @@ timestamps_in_python_code_generated_by_pyside:
   description: |
     The resource compiler from pyside-tools embeds a creation timestamp into the generated Python source.
   url: https://bugs.debian.org/806527
+timestamps_in_sym_l_files_generated_by_malaga:
+  description:
+    Malaga, a system for automatic language analysis, includes the current time
+    in its output header files.
+    .
+    http://sources.debian.net/src/malaga/7.12-5.2/malaga_files.h/#L34
+    http://sources.debian.net/src/malaga/7.12-5.2/malaga_files.c/#L79
+    http://sources.debian.net/src/malaga/7.12-5.2/malaga_files.c/#L88
