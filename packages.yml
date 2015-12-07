@@ -1958,6 +1958,10 @@ check:
   version: 0.9.10-6.1
   issues:
     - timezone_variance_because_of_automake_mdate
+check-all-the-things:
+  version: 2015.11.08.1
+  comments: |
+    fixed in git 9af76c4
 check-postgres:
   version: 2.22.0-1
   issues:
