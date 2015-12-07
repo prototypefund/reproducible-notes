@@ -212,10 +212,6 @@ ahven:
   version: 2.4+repack-1
   issues:
     - timestamps_in_ada_library_information_files
-aiopg:
-  version: 0.7.0-1
-  bugs:
-    - 802060
 aiozmq:
   version: 0.7.1-1
   issues:
@@ -981,8 +977,6 @@ awesome:
   issues:
     - timestamps_from_cpp_macros
     - timestamps_in_documentation_generated_by_lua_ldoc
-  bugs:
-    - 802248
 awesome-extra:
   version: 2012061101
   issues:
@@ -1235,10 +1229,6 @@ biff:
     - timestamps_in_gzip_headers
   bugs:
     - 777290
-billiard:
-  version: 3.3.0.20-2
-  bugs:
-    - 804137
 bin-prot:
   version: 111.03.00-1
   issues:
@@ -1353,10 +1343,6 @@ blockattack:
     Content of PDF file differs (build date embedded); identifiers of fonts are also differing.
   issues:
     - fonts_in_pdf_files
-blockdiag:
-  version: 1.4.7-1
-  bugs:
-    - 796371
 blosxom:
   version: 2.1.2-1
   issues:
@@ -2415,7 +2401,6 @@ confluence:
 confuse:
   version: 2.7-5
   issues:
-    - timestamps_in_manpages_generated_by_doxygen
     - different_encoding_in_html_by_docbook_xsl
 conky:
   version: 1.9.0-6
@@ -2587,10 +2572,6 @@ cross-binutils:
     - different_due_to_umask
   bugs:
     - 802859
-cross-toolchain-base:
-  version: 6
-  bugs:
-    - 802062
 crossfire-maps-small:
   version: 1.5.0-3
   issues:
@@ -2624,7 +2605,6 @@ csoundqt:
   version: 0.9.0-1
   bugs:
     - 803756
-    - 803757
 cssutils:
   version: 1.0-2
   bugs:
@@ -2875,10 +2855,9 @@ dbab:
     - timestamps_in_manpages_generated_by_ronn
 dballe:
   version: 6.8-1
-  comments: |
-    Probably a timestamp in guide.pdf. There's a timestamp in a string in libdballe.a.
   issues:
-    - timestamps_in_documentation_generated_by_doxygen
+    - timestamps_in_tex_documents
+    - timestamps_from_cpp_macros
   bugs:
     - 804051
 dbar:
@@ -3081,8 +3060,6 @@ debmake-doc:
     Dynamically includes generates directory listings with umask, etc.
   issues:
     - fonts_in_pdf_files
-  bugs:
-    - 802395
 debomatic:
   version: 0.13-1
   issues:
@@ -3374,7 +3351,6 @@ django-picklefield:
 django-polymorphic:
   version: 0.7.1-1
   bugs:
-    - 800726
     - 806354
 django-ratelimit:
   version: 0.4.0+8+gd58c489-3
@@ -3828,10 +3804,6 @@ elastix:
   version: 4.7-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-elektra:
-  version: 0.8.7-4
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 elida:
   version: 0.4+nmu1
   issues:
@@ -3972,8 +3944,6 @@ erlang:
   version: 1:18.0-dfsg-1
   issues:
     - timestamps_in_beam_files
-  bugs:
-    - 802400
 erlang-bear:
   version: 0.8.2+dfsg-1
   issues:
@@ -4522,14 +4492,6 @@ flashrom:
   comments: |
     Embeds the build date into manpage.
     https://sources.debian.net/src/flashrom/0.9.7%2Br1852-1.1/util/getrevision.sh/#L157
-flask-autoindex:
-  version: 0.5-3
-  bugs:
-    - 803263
-flask-babel:
-  version: 0.9-1
-  bugs:
-    - 803262
 flask-wtf:
   version: 0.12-1
   bugs:
@@ -4838,8 +4800,6 @@ fonty-rg:
   version: 0.5
   issues:
     - timestamps_in_gzip_headers
-  bugs:
-    - 777061
 foo2zjs:
   version: 20140925dfsg0-3
   issues:
@@ -4903,8 +4863,6 @@ foxeye:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/foxeye/0.10.1-1/configure.ac/#L310
-  bugs:
-    - 790298
 foxyproxy:
   version: 3.4-1.1
   issues:
@@ -5097,10 +5055,6 @@ fusil:
   version: 1.5-1
   issues:
     - timestamps_in_directories
-fuzzylite:
-  version: 5.1+dfsg-1
-  bugs:
-    - 799818
 fvwm:
   version: 1:2.6.5.ds-3
   issues:
@@ -5343,8 +5297,7 @@ gdbm:
 gdcm:
   version: 2.4.4-3
   issues:
-    - timestamps_in_documentation_generated_by_doxygen
-    - ftbfs_openssl_transition
+    - timestamps_in_pe_binaries
 gdebi:
   version: 0.9.5.5+nmu1
   issues:
@@ -5942,10 +5895,6 @@ gnucash:
   version: 2.6.8-1
   issues:
     - build_id_variation_requiring_further_investigation
-gnucash-docs:
-  version: 2.6.7-1
-  bugs:
-    - 802071
 gnudatalanguage:
   version: 0.9.5-2
   issues:
@@ -6037,10 +5986,6 @@ gnutls28:
   version: 3.3.14-2
   issues:
     - timezone_variance_because_of_automake_mdate
-go-mtpfs:
-  version: 0.0~git20150802.0.3ef47f9-1
-  bugs:
-    - 802304
 goaccess:
   version: 1:0.8.3-1
   issues:
@@ -6177,6 +6122,10 @@ gom:
   version: 0.30.2-6
   issues:
     - timestamps_from_cpp_macros
+google-cloud-print-connector:
+  version: 0.0~git20151105.24.1902938-1
+  issues:
+    - random_build_path_by_golang_compiler
 google-perftools:
   version: 2.2.1-0.2
   issues:
@@ -6205,10 +6154,6 @@ gosu:
   version: 1.6-1
   issues:
     - random_build_path_by_golang_compiler
-gphoto2-cffi:
-  version: 0.2-2
-  bugs:
-    - 793328
 gpick:
   version: 0.2.5-1
   comments: |
@@ -6308,10 +6253,6 @@ grapefruit:
     - timestamps_in_documentation_generated_by_sphinx
   bugs:
     - 788247
-graphite2:
-  version: 1.2.4-3
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 graphmonkey:
   version: 1.7-3
   issues:
@@ -6649,10 +6590,6 @@ handlersocket:
   version: 1.1.0-7-g1044a28-2
   bugs:
     - 793314
-haproxy:
-  version: 1.5.14-1
-  bugs:
-    - 803752
 harden-doc:
   version: 3.18
   issues:
@@ -6667,10 +6604,6 @@ hardlink:
   version: 0.3.0
   issues:
     - timestamps_from_cpp_macros
-harvid:
-  version: 0.8.0-3
-  bugs:
-    - 804222
 hashrat:
   version: 1.6.1-1
   issues:
@@ -6703,10 +6636,6 @@ haxe:
   version: 1:3.0.0~svn6707+dfsg-1
   issues:
     - randomness_in_ocaml_custom_executables
-hdf5:
-  version: 1.8.13+docs-15
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 heat:
   version: 2014.1.3-7
   issues:
@@ -8207,8 +8136,6 @@ ksh:
   version: 93u+20120801-2
   issues:
     - build_id_variation_requiring_further_investigation
-  bugs:
-    - 777930
 ksplice:
   version: 0.9.9-5
   bugs:
@@ -8533,7 +8460,7 @@ libbio-chado-schema-perl:
 libbluray:
   version: 0.6.2-1
   issues:
-    - timestamps_in_documentation_generated_by_doxygen
+    - timestamps_in_ps_generated_by_dvips
 libburn:
   version: 1.3.2-1.1
   issues:
@@ -8564,7 +8491,6 @@ libcec:
 libcgicc:
   version: 3.2.9-3
   issues:
-    - timestamps_in_documentation_generated_by_doxygen
     - timestamps_from_cpp_macros
 libchado-perl:
   version: 1.23-2
@@ -8776,10 +8702,6 @@ liberasurecode:
   version: 1.1.0-2
   bugs:
     - 806577
-libevent-rpc-perl:
-  version: 1.05-1
-  bugs:
-    - 799578
 libevocosm:
   version: 4.0.2-3
   bugs:
@@ -9352,8 +9274,6 @@ libmath-bigint-gmp-perl:
   version: 1.43-1
   issues:
     - ftbfs_uninvestigated_test_failures
-  bugs:
-    - 804220
 libmatio:
   version: 1.5.2-3
   issues:
@@ -9408,10 +9328,8 @@ libmpc:
 libmsv:
   version: 1.1-1
   issues:
-    - timestamps_in_documentation_generated_by_doxygen
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
-    - different_due_to_umask
   bugs:
     - 792975
 libmwaw:
@@ -9708,8 +9626,6 @@ libsdl1.2:
   version: 1.2.15-12
   issues:
     - timestamps_in_tarball
-  bugs:
-    - 803579
 libsearch-estraier-perl:
   version: 0.09-5
   bugs:
@@ -9765,8 +9681,6 @@ libstoragemgmt:
   version: 1.2.3-1
   issues:
     - ftbfs_openssl_transition
-  bugs:
-    - 802094
 libstxxl:
   version: 1.4.1-2
   issues:
@@ -9818,8 +9732,7 @@ libtexttools:
 libtheora:
   version: 1.1.1+dfsg.1-6
   issues:
-    - timestamps_in_documentation_generated_by_doxygen
-    - timestamps_in_pdf_generated_by_latex
+    - timestamps_in_tex_documents
 libtime-y2038-perl:
   version: 20100403-4
   comments: |
@@ -9862,10 +9775,6 @@ libtruth-java:
   version: 0.7.0-1
   bugs:
     - 761544
-libtsm:
-  version: 3-1
-  bugs:
-    - 799799
 libu2f-host:
   version: 0.0.4-1
   issues:
@@ -10205,10 +10114,6 @@ lmemory:
   version: 0.6c-7
   issues:
     - timestamps_from_cpp_macros
-lmfit-py:
-  version: 0.8.0+dfsg.1-1
-  bugs:
-    - 802085
 lnav:
   version: 0.7.0-3
   issues:
@@ -10361,10 +10266,6 @@ lua-ldoc:
   version: 1.4.2-1
   issues:
     - timestamps_in_manpages_generated_by_txt2man
-lua-lgi:
-  version: 0.9.0-1
-  bugs:
-    - 802090
 lua-penlight:
   version: 1.2.1-1
   issues:
@@ -11078,8 +10979,6 @@ mondrian:
   version: 3.4.1-1
   issues:
     - timestamps_generated_by_eigenbase_resgen
-  bugs:
-    - 802863
 mongodb:
   version: 1:2.4.14-3
   issues:
@@ -11259,10 +11158,6 @@ mpris-remote:
   version: 0.0~1.gpb7c7f5c6-1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-mps-youtube:
-  version: 0.2.5-3
-  bugs:
-    - 802102
 mrd6:
   version: 0.9.6-10
   comments: |
@@ -11681,10 +11576,6 @@ nfdump:
   version: 1.6.12-0.1
   bugs:
     - 799994
-nfft:
-  version: 3.2.3+dfsg-1
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 nfstrace:
   version: 0.3.1-2
   comments: |
@@ -12002,10 +11893,6 @@ nwchem:
   version: 6.5+r26243-4
   issues:
     - timestamps_in_pdf_generated_by_latex
-nwdiag:
-  version: 1.0.3-3
-  bugs:
-    - 796429
 o3dgc:
   version: 0~20131011-2
   issues:
@@ -12194,10 +12081,6 @@ ognl:
   version: 2.7.3-6
   bugs:
     - 801855
-ogre-1.9:
-  version: 1.9.0+dfsg1-4
-  bugs:
-    - 795462
 ohcount:
   version: 3.0.0-8
   bugs:
@@ -12236,10 +12119,6 @@ omhacks:
   version: 0.16-1
   issues:
     - random_order_in_static_libraries
-ompl:
-  version: 0.14.2+dfsg-1
-  bugs:
-    - 799819
 onboard:
   version: 1.1.2-1
   bugs:
@@ -12394,10 +12273,6 @@ openmpi:
   version: 1.6.5-9.1
   issues:
     - timestamps_from_cpp_macros
-openmprtl:
-  version: 0.20140926-1
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 openms:
   version: 1.11.1-5
   issues:
@@ -12410,7 +12285,6 @@ opennebula:
 openni:
   version: 1.5.4.0-8
   issues:
-    - timestamps_in_documentation_generated_by_doxygen
     - timestamps_from_cpp_macros
 openni-sensor-pointclouds:
   version: 5.1.0.41.3-1
@@ -12433,10 +12307,6 @@ openocd:
     https://sources.debian.net/src/openocd/0.9.0-1/src/Makefile.am/#L41
   issues:
     - timestamps_in_pdf_generated_by_latex
-openpyxl:
-  version: 2.3.0~b1-1
-  bugs:
-    - 802088
 openrpt:
   version: 3.3.7-1
   issues:
@@ -12451,10 +12321,6 @@ openscenegraph:
     - timestamps_in_documentation_generated_by_doxygen
   bugs:
     - 789264
-openslide-python:
-  version: 1.0.1-5
-  bugs:
-    - 800810
 opensm:
   version: 3.3.18-1
   issues:
@@ -13775,10 +13641,6 @@ pylint:
   version: 1.4.4-1
   bugs:
     - 802126
-pylint-plugin-utils:
-  version: 0.2.3-1
-  bugs:
-    - 802142
 pylucene:
   version: 3.5.0-1.2
   issues:
@@ -13900,10 +13762,6 @@ pytest:
   version: 2.6.3-2
   issues:
     - timestamps_in_manpages_generated_by_sphinx
-pytest-localserver:
-  version: 0.3.4-1
-  bugs:
-    - 801302
 pythia8:
   version: 8.1.86-1.1
   issues:
@@ -13966,10 +13824,6 @@ python-braintree:
   version: 3.13.0-1
   bugs:
     - 805685
-python-cachecontrol:
-  version: 0.11.5-1
-  bugs:
-    - 802145
 python-carrot:
   version: 0.10.7-1
   issues:
@@ -13980,10 +13834,6 @@ python-ceres:
   version: 0.10.0~git20150525-1
   bugs:
     - 805297
-python-chameleon:
-  version: 2.22-1
-  bugs:
-    - 802130
 python-cliff:
   version: 1.15.0-1
   issues:
@@ -14010,10 +13860,6 @@ python-coverage:
   version: 3.7.1+dfsg.1-1
   issues:
     - ftbfs_uninvestigated_test_failures
-python-cpl:
-  version: 0.7-4
-  bugs:
-    - 800727
 python-crypto:
   version: 2.6.1-5
   comments: |
@@ -14168,10 +14014,6 @@ python-guacamole:
   version: 0.9-1
   issues:
     - randomness_in_objects_inv
-python-hacking:
-  version: 0.9.2-1
-  bugs:
-    - 799312
 python-html2text:
   version: 2015.6.21-1
   issues:
@@ -14184,10 +14026,6 @@ python-igraph:
   version: 0.7.1.post6-2
   issues:
     - timestamps_from_cpp_macros
-python-imaplib2:
-  version: 2.50-1
-  bugs:
-    - 802353
 python-invocations:
   version: 0.6.2-1
   bugs:
@@ -14384,10 +14222,6 @@ python-pypump:
     - timestamps_in_documentation_generated_by_sphinx
   bugs:
     - 788505
-python-pyramid:
-  version: 1.5.1+dfsg-2
-  bugs:
-    - 800725
 python-pyscss:
   version: 1.3.4-4
   issues:
@@ -14400,14 +14234,6 @@ python-reconfigure:
   version: 0.1.59+git20140824-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
-python-redmine:
-  version: 1.1.1-1
-  bugs:
-    - 801205
-python-releases:
-  version: 0.7.0-1
-  bugs:
-    - 802137
 python-reportlab:
   version: 3.1.8-3
   comments: |
@@ -14509,10 +14335,6 @@ python-tooz:
   version: 0.13.1-2
   comments: |
     I think Jenkins is doing something funny with file descriptors so that the technique for waiting for the test mysqld instance to start doesn\'t work correctly, resulting in FTBFS. The refernce to /pg_ctl is a red herring btw.
-python-tzlocal:
-  version: 1.2-1
-  bugs:
-    - 802122
 python-udiskie:
   version: 1.2.0-2
   issues:
@@ -14630,10 +14452,6 @@ qjackctl:
   version: 0.3.12-1
   issues:
     - timestamps_from_cpp_macros
-qlipper:
-  version: 5.0.0+20150823-1
-  bugs:
-    - 803072
 qmail-run:
   version: 2.0.2
   issues:
@@ -14726,12 +14544,6 @@ qtgraphicaleffects-opensource-src:
   version: 5.3.2-2
   issues:
     - timestamps_in_qch
-qtiplot:
-  version: 0.9.8.9-9
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
-  bugs:
-    - 804586
 qtlocation-opensource-src:
   version: 5.3.2-2
   issues:
@@ -14850,8 +14662,6 @@ qupzilla:
   version: 1.8.3.1~dfsg1-4
   issues:
     - timestamps_from_cpp_macros
-  bugs:
-    - 802869
 qutecom:
   version: 2.2.1+dfsg1-5.2
   issues:
@@ -14874,10 +14684,6 @@ r-base:
     - timestamps_in_gzip_headers
   bugs:
     - 783130
-r-bioc-cummerbund:
-  version: 2.10.0-1
-  bugs:
-    - 803567
 r-bioc-genomicalignments:
   version: 1.4.1-1
   bugs:
@@ -14980,10 +14786,6 @@ rails:
   version: 2:4.1.10-1
   issues:
     - timestamps_in_gemspec_files
-raincat:
-  version: 1.1.1.2-1
-  bugs:
-    - 789108
 rake-compiler:
   version: 0.9.5-1
   bugs:
@@ -15031,10 +14833,6 @@ rats:
   version: 2.3-1
   bugs:
     - 746109
-rawdns:
-  version: 1.2~ds1-2
-  bugs:
-    - 803321
 rbdoom3bfg:
   version: 1.0.3+repack1-2
   issues:
@@ -16029,10 +15827,6 @@ ruby-rspec-puppet:
   version: 2.2.0-1
   issues:
     - timestamps_in_gemspec_files
-ruby-rspec-rails:
-  version: 2.14.2-1
-  bugs:
-    - 799821
 ruby-rubymail:
   version: 1.1.0-2
   issues:
@@ -16386,12 +16180,8 @@ scmxx:
     - different_pot_creation_date_in_gettext_mo_files
 scolasync:
   version: 4.1-3
-  comments: |
-    Timestamps also in content of PDF file, which is generated
-    out of doxygen documentation.
   issues:
-    - timestamps_in_documentation_generated_by_doxygen
-    - timestamps_in_pdf_generated_by_latex
+    - timestamps_in_manpages_generated_by_docbook_xsl
 scons-doc:
   version: 2.3.1-1
   issues:
@@ -16690,8 +16480,6 @@ sipxtapi:
   comments: |
     Also recording build time. See:
     https://sources.debian.net/src/sipxtapi/3.3.0~test17-1/config/sipXpkgtop.mak/
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 sisc:
   version: 1.16.6-1.1
   issues:
@@ -16797,10 +16585,6 @@ sludge:
   version: 2.2.1-1
   issues:
     - timestamps_from_cpp_macros
-smash:
-  version: 0.0.14-1
-  bugs:
-    - 802111
 smcroute:
   version: 2.0.0-5
   comments: |
@@ -16957,8 +16741,6 @@ speech-tools:
   comments: |
     Build time in /usr/lib/speech_tools/config/modincludes.inc and
     /usr/lib/speech_tools/config/system.mak
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 speedometer:
   version: 2.8-1
   bugs:
@@ -16966,7 +16748,7 @@ speedometer:
 speex:
   version: 1.2~rc1.2-1
   issues:
-    - timestamps_in_documentation_generated_by_doxygen
+    - timestamps_from_cpp_macros
 spherepack:
   version: 3.2-7
   issues:
@@ -17168,10 +16950,6 @@ stealth:
   issues:
     - timestamps_in_dvi_generated_by_latex
     - timestamps_in_pdf_generated_by_latex
-stellarium:
-  version: 0.13.3-2
-  bugs:
-    - 803568
 stevedore:
   version: 1.5.0-2
   issues:
@@ -18178,10 +17956,7 @@ ui-auto:
 ui-gxmlcpp:
   version: 1.4.3-1
   comments: |
-    Also a timestamp in a manpage.
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
-    - timestamps_in_manpages_generated_by_doxygen
+    Timestamp embedded in a manpage.
 ui-utilcpp:
   version: 1.8.3-2
   issues:
@@ -18332,10 +18107,6 @@ vala-mode-el:
   version: 0.1-2
   issues:
     - timestamps_in_emacs_autoloads
-valabind:
-  version: 0.9.2-1
-  bugs:
-    - 802112
 valgrind:
   version: 1:3.11.0-1
   issues:
@@ -18394,10 +18165,6 @@ vdr-plugin-sudoku:
   version: 0.3.5-19
   issues:
     - different_pot_creation_date_in_gettext_mo_files
-vdr-plugin-vnsiserver:
-  version: 1:1.2.0-1
-  bugs:
-    - 800095
 vdr-plugin-xine:
   version: 0.9.4-13
   issues:
@@ -18429,10 +18196,6 @@ verilator:
     http://sources.debian.net/src/verilator/3.864-1/include/verilated_vcd_c.cpp/?hl=350#L352
   issues:
     - timezones_manpages_podman
-versiontools:
-  version: 1.9.1-1
-  bugs:
-    - 802155
 vfu:
   version: 4.10-1.1
   issues:
@@ -18589,11 +18352,9 @@ voxbo:
     - timestamps_from_cpp_macros
 vpb-driver:
   version: 4.2.58-1
-  comments: |
-    Build time gets captured when creating the source tarball. File mtimes
-    need to be fixed manually.
   issues:
-    - timestamps_in_documentation_generated_by_doxygen
+    - timestamps_in_tarball
+    - different_due_to_umask
 vpcs:
   version: 0.5b2-1
   issues:
@@ -18699,10 +18460,6 @@ webauth:
   version: 4.6.1-1
   issues:
     - timezones_manpages_podman
-webissues:
-  version: 1.1.4-1
-  bugs:
-    - 803754
 webkit-sharp:
   version: 0.3-6
   issues:
@@ -19623,10 +19380,6 @@ zope.i18n:
   version: 4.0.1-2
   bugs:
     - 802113
-zope.schema:
-  version: 4.4.2-2
-  bugs:
-    - 802415
 zope.security:
   version: 4.0.3-1
   issues:
