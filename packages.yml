@@ -11950,6 +11950,10 @@ ocamlviz:
   version: 1.01-2
   issues:
     - timestamps_in_pdf_generated_by_latex
+oclgrind:
+  version: 15.5-1
+  comments: |
+    Generates two ".pch" files using clang with a couple of unreproducible bytes; no obvious cause.
 ocp:
   version: 1:0.1.21-1.1
   issues:
