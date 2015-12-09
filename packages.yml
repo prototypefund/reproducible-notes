@@ -2123,6 +2123,10 @@ cloc:
   version: 1.60-1
   bugs:
     - 787669
+clojure1.2:
+  version: 1.2.1+dfsg-5
+  comments: |
+    Generates code in non-deterministic order. Check emit in ./src/jvm/clojure/lang/Compiler.java, especially around PersistentMap - smells like dict key access order
 cloog:
   version: 0.18.3-1
   issues:
