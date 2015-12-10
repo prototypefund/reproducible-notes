@@ -5174,12 +5174,12 @@ gcalcli:
     - timestamps_in_manpages_generated_by_help2man
 gcc-4.8:
   version: 4.8.5-1
+  comments: |
+    deki said: 'libcilkrts/runtime/sysdep-unix.c contains __DATE__ and __TIME__'
   issues:
     - ftbfs_old_compat_debheper_compat_level
   bugs:
     - 800248
-  comments: |
-    deki said: 'libcilkrts/runtime/sysdep-unix.c contains __DATE__ and __TIME__'
 gcc-4.9:
   version: 4.9.3-1
   comments: |
@@ -5187,16 +5187,16 @@ gcc-4.9:
     deki said: 'libcilkrts/runtime/sysdep-unix.c contains __DATE__ and __TIME__'
 gcc-5:
   version: 5.2.1-21
-  issues:
-    - build_id_variation_requiring_further_investigation
   comments: |
     deki said: 'libcilkrts/runtime/sysdep-unix.c contains __DATE__ and __TIME__'
+  issues:
+    - build_id_variation_requiring_further_investigation
 gcc-avr:
   version: 1:4.8.1+Atmel3.4.4-2
-  issues:
-    - different_due_to_umask
   comments: |
     deki said: maybe 'libcilkrts/runtime/sysdep-unix.c contains __DATE__ and __TIME__' also, not sure whether it uses the same source
+  issues:
+    - different_due_to_umask
 gcc-defaults:
   version: 1.135
   comments: |
