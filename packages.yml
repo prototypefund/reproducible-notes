@@ -2116,7 +2116,11 @@ cloc:
 clojure1.2:
   version: 1.2.1+dfsg-5
   comments: |
-    Generates code in non-deterministic order. Check emit in ./src/jvm/clojure/lang/Compiler.java, especially around PersistentMap - smells like dict key access order
+    Generates code in non-deterministic order. Check emit in ./src/jvm/clojure/lang/Compiler.java, especially around PersistentMap - smells like dict key access order. See also clojure1.6
+clojure1.6:
+  version: 1.6.0+dfsg-1
+  comments: |
+    Generates code in non-deterministic order. Check emit in ./src/jvm/clojure/lang/Compiler.java, especially around PersistentMap - smells like dict key access order. See also clojure1.2
 cloog:
   version: 0.18.3-1
   issues:
