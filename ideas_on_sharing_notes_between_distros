@@ -1,0 +1,58 @@
+This is from the Reproducible Summit in Athens.
+
+
+* use cases for sharing notes
+  + for upstream toolchain developers: what am i breaking
+  + non toolchain upstream about what's wrong with their package
+  + distro people wanting to check out the status and *history* on other distros and comparing
+
+* we should keep it streamlined, like continue keep it in git.
+* yaml seems to be cool for everybody
+
+
+* issues
+  + they can be fixed in different ways
+  + they can be distro-specific
+  + they can be implementation-specific
+  + ........
+* would be handy to have meta-issues
+
+* history:
+  + link to example patches and keep old issues
+
+* linking packages between distros:
+  + CPE (from CVE stuff)
+
+* maintaining the notes:
+  + we need a format where we can separate "upstream" issues, distro-specific issues, distro-specific versions, etc
+  + different distros might have different way to fix issues
+
+* moving stuff from wiki.debian.org/ReproducibleBuilds/ to the notes (→ lamby)
+
+* format:
+
+issue:
+  url:
+  description:
+  distro:
+    debian:
+      state: fixed
+      comment:
+
+package:
+  distros:
+    debian:
+      issues:
+        - issue1
+        - issue2 / free text            #   ← fixed issue
+      comments:
+      bugs: []
+      version:
+    freebsd:
+      version:
+      bugs: []
+  comments:
+  bugs: []
+  issues: []
+
+
