@@ -972,10 +972,6 @@ avrdude:
   issues:
     - timestamps_in_ps_generated_by_dvips
     - timestamps_from_cpp_macros
-avro-java:
-  version: 1.7.7-1
-  bugs:
-    - 805194
 avrprog:
   version: 0.2.2-2
   issues:
@@ -1674,12 +1670,6 @@ canl-c:
   version: 2.1.5-1.1
   issues:
     - timestamps_in_pdf_content
-canl-java:
-  version: 2.1.1-1
-  issues:
-    - timestamps_in_documentation_generated_by_javadoc
-  bugs:
-    - 804462
 canna:
   version: 3.7p3-13
   comments: |
@@ -2224,10 +2214,6 @@ codespell:
   version: 1.7-2
   issues:
     - timestamps_in_manpages_generated_by_help2man
-codonw:
-  version: 1.4.4-1
-  issues:
-    - timestamps_from_cpp_macros
 cogl:
   version: 1.18.2-3
   issues:
@@ -4419,11 +4405,9 @@ filter:
     Captures the hostname.
     https://sources.debian.net/src/filter/2.6.3-1/Configure/#L2250
 findbugs:
-  version: 2.0.3+repack-1
+  version: 2.0.3+repack-2
   issues:
     - timestamps_in_maven_version_files
-  bugs:
-    - 796430
 findbugs-bcel:
   version: 6.0~20130831-1
   issues:
@@ -4811,12 +4795,6 @@ foremancli:
     https://sources.debian.net/src/foremancli/1.0-2/debian/rules/#L22
   issues:
     - timestamps_in_manpages_generated_by_ronn
-forg:
-  version: 0.5.1-7.1
-  issues:
-    - ftbfs_old_compat_debheper_compat_level
-  bugs:
-    - 800172
 forkstat:
   version: 0.01.11-1
   comments: |
@@ -5492,10 +5470,6 @@ git:
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
     - random_anchor_names_generated_by_docbook_to_man
-git-annex:
-  version: 5.20150916-1
-  issues:
-    - build_id_variation_requiring_further_investigation
 git-buildpackage:
   version: 0.6.22
   issues:
@@ -5893,13 +5867,6 @@ gnucash-docs:
   version: 2.6.9-1
   issues:
     - timestamps_in_pdf_generated_by_apache_fop
-gnudatalanguage:
-  version: 0.9.5-2
-  issues:
-    - timestamps_from_cpp_macros
-  bugs:
-    - 803760
-    - 803762
 gnugk:
   version: 2:3.6-1
   issues:
@@ -6629,10 +6596,6 @@ haskell-mode:
   version: 13.10-3
   issues:
     - timestamps_in_emacs_autoloads
-haskell-yi-language:
-  version: 0.1.1.0-1
-  issues:
-    - haskell_devscripts_locale_substvars
 haskell98-report:
   version: 20080907-5
   issues:
@@ -7567,10 +7530,6 @@ jenkins-trilead-ssh2:
   version: 217-jenkins-7-1
   issues:
     - timestamps_in_documentation_generated_by_javadoc
-jenkins-winstone:
-  version: 2.8-1
-  bugs:
-    - 807660
 jericho-html:
   version: 3.1-2
   issues:
@@ -7609,10 +7568,6 @@ jgit:
   version: 3.7.0-1
   issues:
     - locale_in_documentation_generated_by_javadoc
-jglobus:
-  version: 2.1.0-1
-  issues:
-    - timestamps_in_documentation_generated_by_javadoc
 jgromacs:
   version: 1.0-1
   issues:
@@ -7926,10 +7881,6 @@ kawari8:
   version: 8.2.8-8
   issues:
     - timestamps_difference_by_unzip
-kbtin:
-  version: 1.0.15-1.1
-  bugs:
-    - 790387
 kbuild:
   version: 1:0.1.9998svn2695+dfsg-2
   issues:
@@ -8314,10 +8265,6 @@ lava-coordinator:
   version: 0.1.6-2
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-lava-tool:
-  version: 0.12-1
-  issues:
-    - timestamps_in_manpages_generated_by_sphinx
 lavapdu:
   version: 0.0.5-1
   issues:
@@ -8859,10 +8806,6 @@ libgetopt-java:
   version: 1.0.14+dfsg-2
   issues:
     - locale_in_documentation_generated_by_javadoc
-libgettext-commons-java:
-  version: 0.9.6-2
-  bugs:
-    - 807659
 libgfshare:
   version: 1.0.5-3
   comments: |
@@ -10224,12 +10167,6 @@ logback:
   issues:
     - random_order_in_documentation_generated_by_javadoc
     - locale_in_documentation_generated_by_javadoc
-logbook:
-  version: 0.7.0-1
-  issues:
-    - timestamps_in_python_version_numbers
-  bugs:
-    - 802404
 loggerhead:
   version: 1.19~bzr479+dfsg-1
   issues:
@@ -11351,10 +11288,6 @@ mxallowd:
   version: 1.9-2
   issues:
     - timestamps_in_pdf_generated_by_latex
-mydumper:
-  version: 0.6.1-1
-  issues:
-    - timestamps_in_manpages_generated_by_sphinx
 myghty:
   version: 1.1-5
   comments: |
@@ -13157,10 +13090,6 @@ pixmap:
   bugs:
     - 777430
     - 793709
-pixz:
-  version: 1.0.2-2
-  issues:
-    - timestamps_in_manpages_generated_by_docbook_xsl
 pjproject:
   version: 2.4~dfsg-1
   issues:
@@ -13399,10 +13328,6 @@ praat:
   version: 5.4.0-1
   issues:
     - timestamps_from_cpp_macros
-practicalxml-java:
-  version: 1.1.17-1
-  bugs:
-    - 795712
 praw:
   version: 3.2.1-1
   bugs:
@@ -15008,14 +14933,6 @@ relaxngcc:
   version: 1.12-1
   issues:
     - timestamps_in_jar
-relion:
-  version: 1.3+dfsg-3
-  comments: |
-    Dependencies are different (nb. not reordered) between builds. Note the
-    symmetry too between the relion-bin+gui and relion-bin. Build log that
-    calls dpkg-shlibdeps with -v is here
-    .
-    https://gist.github.com/lamby/93e7d28104209f6abbdc (longish build time)
 remake:
   version: 3.82+dbg0.9+dfsg-2
   bugs:
@@ -16563,10 +16480,6 @@ siscone:
     - timestamps_in_documentation_generated_by_doxygen
   bugs:
     - 790034
-sisu-ioc:
-  version: 2.3.0-6
-  bugs:
-    - 806486
 sjfonts:
   version: 2.0.2-1.1
   issues:
@@ -18392,21 +18305,6 @@ voms:
   version: 2.0.11-5
   issues:
     - timestamps_from_cpp_macros
-voms-api-java:
-  version: 3.0.5-1
-  issues:
-    - timestamps_in_jar
-    - timestamps_in_documentation_generated_by_javadoc
-    - locale_in_documentation_generated_by_javadoc
-  bugs:
-    - 804593
-voms-clients-java:
-  version: 3.0.5-1
-  issues:
-    - timestamps_in_jar
-    - user_in_java_jar_manifest
-  bugs:
-    - 804594
 votca-csg:
   version: 1.2.4-1
   issues:
