@@ -6797,6 +6797,11 @@ htmlunit:
   version: 2.8-1
   bugs:
     - 730965
+htp:
+  version: 1.19-2
+  comments: |
+    Embeds timezone dependent mtime of files into generated documentation.
+    https://sources.debian.net/src/htp/1.19-2/src/file-proc.c/?hl=119,137#L114
 htseq:
   version: 0.5.4p3-2
   issues:
@@ -8894,6 +8899,11 @@ libgrip:
   version: 0.3.8-1
   bugs:
     - 789940
+libgroboutils-java:
+  version: 5-3
+  comments: |
+    Embeds build date and time into MANIFEST.MF
+    https://sources.debian.net/src/libgroboutils-java/5-3/_shared/common-ant/common-ant-tasks-jar.ant-inc.xml/#L74-L75
 libgtk2-appindicator-perl:
   version: 0.15-1
   bugs:
@@ -11716,6 +11726,11 @@ node-groove:
   version: 2.2.6-2
   bugs:
     - 802087
+node-iscroll:
+  version: 5.1.3+dfsg1-1
+  comments: |
+    Embeds current year as copyright year.
+    https://sources.debian.net/src/node-iscroll/5.1.3%2Bdfsg1-1/build.js/#L8
 node-leveldown:
   version: 1.0.0+dfsg-1
   bugs:
@@ -11942,6 +11957,10 @@ oasis:
   version: 0.4.4-2
   bugs:
     - 769272
+oasis3:
+  version: 3.mct+dfsg.121022-5.1
+  bugs:
+    - 807818
 oauth-signpost:
   version: 1.2.1.2-1.2
   issues:
@@ -12624,6 +12643,11 @@ pari:
     - collation_order_varies_by_locale
     - timestamps_from_cpp_macros
     - timestamps_in_gzip_headers
+parrot:
+  version: 6.6.0-1
+  comments: |
+    Embeds the build date.
+    https://sources.debian.net/src/parrot/6.6.0-1/config/gen/config_h/config_h.in/#L19
 parsec47:
   version: 0.2.dfsg1-6
   bugs:
@@ -15922,6 +15946,10 @@ ruby-source-map:
     - timestamps_in_gemspec_files
 ruby-spider:
   version: 0.4.4-2
+  issues:
+    - timestamps_in_gemspec_files
+ruby-spring:
+  version: 1.3.6-2
   issues:
     - timestamps_in_gemspec_files
 ruby-sqlite3:
