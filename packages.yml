@@ -596,9 +596,9 @@ apt-zip:
   issues:
     - timestamps_in_manpages_generated_by_docbook_utils
 aptitude:
-  version: 0.6.11-1
+  version: 0.7.5-2
   issues:
-    - timestamps_from_cpp_macros
+    - timestamps_in_manpages_generated_by_docbook_xsl
 aptoncd:
   version: 0.1.98+bzr117-1.4
   issues:
@@ -680,9 +680,9 @@ arora:
   bugs:
     - 803521
 asc:
-  version: 2.6.0.0-1
+  version: 2.6.1.0-1
   issues:
-    - timestamps_from_cpp_macros
+    - timestamps_in_zip
 ascd:
   version: 0.13.2-5
   issues:
@@ -6257,10 +6257,12 @@ gri:
     - timestamps_in_png
     - timestamps_in_dvi_generated_by_latex
 grib-api:
-  version: 1.14.3-1
+  version: 1.14.3-2
   comments: |
-    Embeds the build date.
+    Embeds the build date:
     https://sources.debian.net/src/grib-api/1.14.3-1/cmake/ecbuild_get_date.cmake/?hl=24,46
+    The result lands in ./usr/include/grib_api_ecbuild_config.h
+    Also embed kernel version.
 gridengine:
   version: 6.2u5-7.3
   issues:
