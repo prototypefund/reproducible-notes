@@ -6262,7 +6262,8 @@ grib-api:
     Embeds the build date:
     https://sources.debian.net/src/grib-api/1.14.3-1/cmake/ecbuild_get_date.cmake/?hl=24,46
     The result lands in ./usr/include/grib_api_ecbuild_config.h
-    Also embed kernel version.
+  issues:
+    - captures_kernel_version
 gridengine:
   version: 6.2u5-7.3
   issues:
@@ -7893,6 +7894,10 @@ kcc:
     - ftbfs_old_compat_debheper_compat_level
   bugs:
     - 800251
+kchmviewer:
+  version: 7.5-1
+  issues:
+    - timestamps_from_cpp_macros
 kcov:
   version: 25+dfsg-1
   bugs:
