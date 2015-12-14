@@ -1265,12 +1265,6 @@ binkd:
   version: 1.0.4-1
   issues:
     - timestamps_from_cpp_macros
-bino:
-  version: 1.6.0-1
-  issues:
-    - timestamps_in_documentation_generated_by_texi2html
-  bugs:
-    - 802374
 bintray-client-java:
   version: 0.8.1-1
   issues:
@@ -1570,10 +1564,6 @@ cableswig:
     https://sources.debian.net/src/cableswig/0.1.0%2Bcvs20111009-1.1/SWIG/CMakeLists.txt/#L26
   issues:
     - captures_kernel_version
-cached-property:
-  version: 1.2.0+ds-1
-  bugs:
-    - 804423
 cadabra:
   version: 1.39-0.2
   bugs:
@@ -2563,10 +2553,6 @@ csh:
   version: 20110502-2.1
   issues:
     - timestamps_in_documentation_generated_by_groff
-csoundqt:
-  version: 0.9.0-1
-  bugs:
-    - 803756
 csvimp:
   version: 0.5.0-2
   issues:
@@ -4199,10 +4185,6 @@ fatrat:
   version: 1.1.3-5
   bugs:
     - 713663
-fatresize:
-  version: 1.0.2-7
-  bugs:
-    - 795870
 faucc:
   version: 20120707-1
   issues:
@@ -5126,10 +5108,6 @@ gauche-c-wrapper:
   version: 0.6.1-5
   bugs:
     - 777861
-gazebo:
-  version: 5.0.1+dfsg-2.1
-  bugs:
-    - 797809
 gbrainy:
   version: 2.2.3-1
   issues:
@@ -5481,10 +5459,6 @@ git-remote-hg:
   version: 0.2+git20140603.185852e-2
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-gitinspector:
-  version: 0.4.2+dfsg-1
-  bugs:
-    - 804426
 gitit:
   version: 0.10.7-3
   issues:
@@ -6041,10 +6015,6 @@ golang-protobuf-extensions:
   version: 0+git20150513.fc2b8d3-4
   issues:
     - ftbfs_uninvestigated_test_failures
-golang-testify:
-  version: 1.0-1
-  bugs:
-    - 804354
 golang-uuid:
   version: 0.0~hg20140512-1
   issues:
@@ -7176,12 +7146,6 @@ isorelax:
     - timestamps_in_documentation_generated_by_javadoc
     - timestamps_in_jar
     - locale_in_documentation_generated_by_javadoc
-ispell-lt:
-  version: 1.2.1-4
-  issues:
-    - timestamps_in_gzip_headers
-  bugs:
-    - 778263
 ispell-uk:
   version: 1.7.1-1
   issues:
@@ -8451,10 +8415,6 @@ libcatmandu-mab2-perl:
   version: 0.12-1
   issues:
     - ftbfs_uninvestigated_test_failures
-libcatmandu-marc-perl:
-  version: 0.213-1
-  bugs:
-    - 804428
 libcdio:
   version: 0.83-4.2
   bugs:
@@ -9376,10 +9336,6 @@ libopendbx:
   version: 1.4.6-9
   issues:
     - timestamps_in_manpages_generated_by_doxygen
-libopenraw:
-  version: 0.0.9-3.5
-  bugs:
-    - 791730
 liboptions-java:
   version: 0.0.20120113-1
   issues:
@@ -10695,10 +10651,6 @@ mercurial-server:
   version: 1.2-2
   bugs:
     - 796665
-mesa-demos:
-  version: 8.2.0-1
-  bugs:
-    - 796373
 meshlab:
   version: 1.3.2+dfsg1-2
   issues:
@@ -11115,10 +11067,6 @@ mpfi:
   version: 1.5.1+ds-1
   issues:
     - timestamps_in_pdf_generated_by_latex
-mpfit:
-  version: 1.82+2013.08.14-2
-  bugs:
-    - 803762
 mpfr4:
   version: 3.1.2-2
   issues:
@@ -11695,10 +11643,6 @@ node-sqlite3:
   version: 2.2.0+ds1-1
   bugs:
     - 802349
-node-srs:
-  version: 0.4.8+dfsg-1
-  bugs:
-    - 798904
 node-stringprep:
   version: 0.1.5-1
   bugs:
@@ -13043,10 +12987,6 @@ pinta:
   version: 1.3-3
   issues:
     - timestamps_in_pe_binaries
-pion:
-  version: 5.0.6+dfsg-1
-  bugs:
-    - 803756
 pirl:
   version: 2.3.8-1
   issues:
@@ -13686,10 +13626,6 @@ pyqt5:
     /usr/share/doc/pyqt5-examples/examples/animation/animatedtiles/animatedtiles_rc.py
   issues:
     - randomness_in_objects_inv
-pyregion:
-  version: 1.1.4-1
-  bugs:
-    - 802134
 pyroma:
   version: 1.8.2-1
   bugs:
@@ -14875,10 +14811,6 @@ recode:
   version: 3.6-22
   issues:
     - timestamps_in_manpages_generated_by_help2man
-reconserver:
-  version: 0.10.4-1
-  bugs:
-    - 803753
 red5:
   version: 1.0~svn4374-4
   issues:
@@ -16725,10 +16657,6 @@ sphinx:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - randomness_in_documentation_indices_generated_by_sphinx
-sphinx-patchqueue:
-  version: 0.4.0-1
-  bugs:
-    - 802141
 sphinxbase:
   version: 0.8-6
   issues:
@@ -18813,7 +18741,6 @@ xen:
     - different_due_to_umask
   bugs:
     - 793132
-    - 802870
 xfaces:
   version: 3.3-29
   issues:
@@ -18904,10 +18831,6 @@ xindy:
   version: 2.4-1.3
   issues:
     - bad_handling_of_extra_warnings
-xiphos:
-  version: 3.2.2+dfsg1-1
-  bugs:
-    - 778183
 xjig:
   version: 2.4-14
   issues:
