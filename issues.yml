@@ -886,3 +886,6 @@ random_order_in_init_py_generated_by_python-genpy:
     python-genpy generates __init__.py with import statements in a
     non-deterministic (filesystem) order.
   url: https://bugs.debian.org/808032
+timestamps_in_copyright_added_by_perl_dist_zilla:
+  description:
+    distzilla adds "Copyright $current_year" to .pm files
