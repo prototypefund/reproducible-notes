@@ -15031,6 +15031,10 @@ root-system:
   issues:
     - timestamps_from_cpp_macros
     - ftbfs_openssl_transition
+ros-std-msgs:
+  version: 0.5.9-2
+  issues:
+    - random_order_in_init_py_generated_by_python-genpy
 routino:
   version: 2.7.3-3
   comments: |
