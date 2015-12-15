@@ -881,3 +881,7 @@ timestamps_in_sym_l_files_generated_by_malaga:
 timestamps_in_edj_files_generated_by_edje_cc:
   description:
     /usr/bin/edje_cc from libedje-bin writes timestamps.
+random_order_in_init_py_generated_by_python-genpy:
+  description:
+    python-genpy generates __init__.py with import statements in a
+    non-deterministic (filesystem) order.
