@@ -2147,6 +2147,10 @@ cmor:
     This library adds timestamps inside function methods.
     When the example files are generated the current time is saved.
     Command to find where are set the timestamps: ack-grep -B3 snprintf.*ptr
+cmst:
+  version: 2015.12.03-1
+  issues:
+    - timestamps_from_cpp_macros
 cmtk:
   version: 3.2.2-1.3
   comments: |
@@ -5481,6 +5485,10 @@ git-remote-hg:
   version: 0.2+git20140603.185852e-2
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
+gitinspector:
+  version: 0.4.3+dfsg-1
+  issues:
+    - timestamps_in_manpages_generated_by_docbook_xsl
 gitit:
   version: 0.10.7-3
   issues:
@@ -6132,6 +6140,10 @@ gpsdrive:
   version: 2.10~pre4-6.dfsg-5.3
   bugs:
     - 724382
+gpsim:
+  version: 0.29.0-1
+  issues:
+    - timestamps_from_cpp_macros
 gpsmanshp:
   version: 1.2.3-4
   issues:
