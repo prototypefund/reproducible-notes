@@ -530,6 +530,12 @@ apophenia:
     Ship a log of pdflatex in
     ./usr/share/doc/apophenia-doc/html/_formulas.log.gz
     Probably should be remoed.
+apparmor-profiles-extra:
+  version: 1.6
+  issues:
+    - random_order_of_tmpfiles_in_postinst
+  comments: |
+    caused by https://sources.debian.net/src/apparmor-profiles-extra/1.6/debian/rules/#L4
 appstream-dep11:
   version: 0.3.0-1
   issues:

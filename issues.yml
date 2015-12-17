@@ -860,6 +860,7 @@ ftbfs_due_to_build-depends-arch:
 random_order_of_tmpfiles_in_postinst:
   description: |
     dh_installinit writes tmpfiles in readdir() order into postinst.
+    This issue is currently only sometimes visible in our testing framework on armhf, but not on amd64. This will change once we add variations with disorderfs…
   url: https://bugs.debian.org/806392
 random_order_in_cython_output:
   description: |
