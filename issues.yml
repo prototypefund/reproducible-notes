@@ -619,7 +619,6 @@ randomness_in_fat_lto_objects:
     Temporary (?) solution: pass the full path of the source as the argument
     to `-frandom-seed`.
   url: https://gcc.gnu.org/bugzilla/show_bug.cgi?id=66305
-  deterministic: True
 randomness_in_c_files_generated_by_extutils_parsexs:
   description: |
     ExtUtils::ParseXS generates undeterministic C files (differing order) out of .xs files.
