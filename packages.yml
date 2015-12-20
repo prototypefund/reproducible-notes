@@ -401,10 +401,6 @@ apache-log4j-extras1.2:
   version: 1.2.17-1
   issues:
     - different_encoding
-apache-mime4j:
-  version: 0.7.2-4
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 apbs:
   version: 1.4-1
   issues:
@@ -927,10 +923,6 @@ avahi:
   version: 0.6.31-5
   issues:
     - gettext_creates_ChangeLog_files_and_entries_with_current_date
-avahi-sharp:
-  version: 0.6.19-4.2
-  issues:
-    - timestamps_in_pe_binaries
 avfs:
   version: 1.0.1-2
   issues:
@@ -1288,10 +1280,6 @@ bittornado:
   version: 0.3.18-10.1
   bugs:
     - 796212
-blam:
-  version: 1.8.9-4
-  issues:
-    - timestamps_in_pe_binaries
 blas:
   version: 1.2.20110419-10
   issues:
@@ -1310,10 +1298,6 @@ blends:
   version: 0.6.92.2
   issues:
     - timestamps_in_pdf_generated_by_latex
-bless:
-  version: 0.6.0-4
-  issues:
-    - timestamps_in_pe_binaries
 bliss:
   version: 0.72-5
   issues:
@@ -1772,10 +1756,6 @@ cecil:
   version: 0.9.5+dfsg-2
   issues:
     - timestamps_in_pe_binaries
-cecil-flowanalysis:
-  version: 0.1~vcs20110809.r1.b34edf6-2
-  issues:
-    - timestamps_in_pe_binaries
 cegui-mk2:
   version: 0.7.6-3.3
   issues:
@@ -2158,10 +2138,6 @@ coccinelle:
   version: 1.0.0~rc22
   issues:
     - timestamps_in_pdf_generated_by_latex
-coco-cs:
-  version: 20110419-5
-  issues:
-    - timestamps_in_pe_binaries
 coco-java:
   version: 20110419-3.1
   issues:
@@ -2414,10 +2390,6 @@ courier:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/courier/0.73.1-1.6/libs/imap/configure.ac/#L333
-cowbell:
-  version: 0.2.7.1-7
-  issues:
-    - timestamps_in_pe_binaries
 cp2k:
   version: 2.6.1-2
   comments: |
@@ -2457,10 +2429,6 @@ cppcheck:
   version: 1.70-2
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-cppformat:
-  version: 1.1.0+ds-3
-  issues:
-    - randomness_in_documentation_generated_by_sphinx
 cppman:
   version: 0.4.5-1
   issues:
@@ -2821,10 +2789,6 @@ dbus-python:
     - timestamps_in_python_docutils
 dbus-sharp:
   version: 0.8.1-1
-  issues:
-    - timestamps_in_pe_binaries
-dbus-sharp-glib:
-  version: 0.6.0-1
   issues:
     - timestamps_in_pe_binaries
 dbusada:
@@ -5197,10 +5161,6 @@ gdbm:
     - timestamps_from_cpp_macros
   bugs:
     - 774394
-gdcm:
-  version: 2.4.4-3
-  issues:
-    - timestamps_in_pe_binaries
 gdebi:
   version: 0.9.5.5+nmu1
   issues:
@@ -5731,10 +5691,6 @@ gnome-keyring:
   version: 3.16.0-2
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-gnome-keyring-sharp:
-  version: 1.0.0-4
-  issues:
-    - timestamps_in_pe_binaries
 gnome-mousetrap:
   version: 3.17.3-1
   issues:
@@ -6353,10 +6309,6 @@ guava-libraries:
   version: 18.0-4
   issues:
     - random_order_in_documentation_generated_by_javadoc
-gudev-sharp-1.0:
-  version: 0.1-3
-  issues:
-    - timestamps_in_pe_binaries
 guessit:
   version: 0.10.3-1
   bugs:
@@ -7171,15 +7123,6 @@ jackrabbit:
   version: 2.3.6-1
   issues:
     - timestamps_in_jar
-jackson-annotations:
-  version: 2.4.2-2
-  issues:
-    - user_in_java_jar_manifest
-    - locale_in_documentation_generated_by_javadoc
-jackson-core:
-  version: 2.4.2-2
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 jackson-databind:
   version: 2.4.2-2
   issues:
@@ -7347,10 +7290,6 @@ jbofihe:
   version: 0.38-5.1
   bugs:
     - 799313
-jboss-jdeparser2:
-  version: 2.0.0-1
-  issues:
-    - timestamps_in_documentation_generated_by_javadoc
 jboss-logging-tools:
   version: 2.0.1-1
   issues:
@@ -7464,10 +7403,6 @@ jetty:
   version: 6.1.26-5
   issues:
     - locale_in_documentation_generated_by_javadoc
-jetty8:
-  version: 8.1.18-2
-  issues:
-    - random_order_in_documentation_generated_by_javadoc
 jexcelapi:
   version: 2.6.12-2
   issues:
@@ -8137,10 +8072,6 @@ lastpass-cli:
   version: 0.3.0-2
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-lat:
-  version: 1.2.4-2
-  issues:
-    - timestamps_in_pe_binaries
 latex-cjk-chinese-arphic:
   version: 1.23
   comments: |
@@ -8255,10 +8186,6 @@ letterize:
   version: 1.3-5
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-leveldb-sharp:
-  version: 1.9.1-1
-  issues:
-    - timestamps_in_pe_binaries
 libabigail:
   version: 0.1~20150623-2
   issues:
@@ -8573,10 +8500,6 @@ libdebug-client-perl:
   version: 0.29-2
   bugs:
     - 790335
-libdecentxml-java:
-  version: 1.4-1
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 libdecodeqr:
   version: 0.9.3-6.2
   issues:
@@ -8938,10 +8861,6 @@ libjama:
     - different_due_to_umask
   bugs:
     - 792972
-libjavaewah-java:
-  version: 0.6.12-1
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 libjaxen-java:
   version: 1.1.6-1
   issues:
@@ -9094,10 +9013,6 @@ libjxp-java:
   version: 1.6.1-5
   issues:
     - locale_in_documentation_generated_by_javadoc
-libkarma:
-  version: 0.1.2-2.3
-  issues:
-    - timestamps_in_pe_binaries
 libkcompactdisc:
   version: 4:4.12.3-2
   comments: |
@@ -10947,14 +10862,6 @@ mono-upnp:
     - timestamps_in_pe_binaries
 mono-zeroconf:
   version: 0.9.0-4
-  issues:
-    - timestamps_in_pe_binaries
-mono.reflection:
-  version: 1.0+git20110407+d2343843-2
-  issues:
-    - timestamps_in_pe_binaries
-monobristol:
-  version: 0.60.3-2.1
   issues:
     - timestamps_in_pe_binaries
 monodevelop:
@@ -16468,10 +16375,6 @@ snake4:
   comments: |
     Embed build timestamp and username:
     https://sources.debian.net/src/snake4/1.0.14-1/Makefile/?hl=8:9,59:63#L8
-snakeyaml:
-  version: 1.12-2
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 sniffit:
   version: 0.3.7.beta-17
   issues:
@@ -17063,10 +16966,6 @@ taggrepper:
   bugs:
     - 777725
     - 793726
-taglib-sharp:
-  version: 2.1.0.0-3
-  issues:
-    - timestamps_in_pe_binaries
 tagsoup:
   version: 1.2.1+-1
   issues:
@@ -17075,10 +16974,6 @@ tagua:
   version: 1.0~alpha2-12
   issues:
     - different_pot_creation_date_in_gettext_mo_files
-tangerine:
-  version: 0.3.4-6
-  issues:
-    - timestamps_in_pe_binaries
 taoframework:
   version: 2.1.svn20090801-10
   issues:
@@ -17261,10 +17156,6 @@ the:
   bugs:
     - 777370
     - 793728
-themonospot:
-  version: 0.7.3.1-6
-  issues:
-    - timestamps_in_pe_binaries
 thepeg:
   version: 1.8.0-1
   bugs:
@@ -17425,10 +17316,6 @@ tomatoes:
     - 792529
 tomboy:
   version: 1.14.1-3
-  issues:
-    - timestamps_in_pe_binaries
-tomboy-latex:
-  version: 0.5-4
   issues:
     - timestamps_in_pe_binaries
 tomcat6:
@@ -18339,10 +18226,6 @@ why:
     https://sources.debian.net/src/why/2.34-2/version.sh/
   bugs:
     - 807051
-widemargin:
-  version: 1.1.13-2
-  issues:
-    - timestamps_in_pe_binaries
 wily:
   version: 0.13.41-7.2
   issues:
@@ -18900,10 +18783,6 @@ xscavenger:
   version: 1.4.4-9
   issues:
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-xsddiagram:
-  version: 0.16-1
-  issues:
-    - timestamps_in_pe_binaries
 xserver-xorg-video-openchrome:
   version: 1:0.3.3-1
   bugs:
@@ -19120,10 +18999,6 @@ zeal:
     - timestamps_from_cpp_macros
   bugs:
     - 802871
-zeitgeist-sharp:
-  version: 0.8.0.0-5
-  issues:
-    - timestamps_in_pe_binaries
 zemberek-ooo:
   version: 1.0~rc2-10.4
   issues:
