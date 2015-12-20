@@ -522,8 +522,6 @@ apparmor-profiles-extra:
   version: 1.6
   comments: |
     caused by https://sources.debian.net/src/apparmor-profiles-extra/1.6/debian/rules/#L4
-  issues:
-    - random_order_of_tmpfiles_in_postinst
 appstream-dep11:
   version: 0.3.0-1
   issues:
@@ -16925,10 +16923,6 @@ syslog-ng:
   version: 3.5.6-2
   issues:
     - timestamps_from_cpp_macros
-systemd:
-  version: 227-2
-  issues:
-    - random_order_of_tmpfiles_in_postinst
 systemtap:
   version: 2.9-1
   issues:

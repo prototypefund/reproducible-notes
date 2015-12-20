@@ -857,11 +857,6 @@ ftbfs_due_to_build-depends-arch:
     pbuilder does not yet support the Build-Depends-Arch relationship (which is
     not yet in policy either).  It's available since dpkg 1.16.4 (in wheezy, 2012)
   url: https://bugs.debian.org/802557
-random_order_of_tmpfiles_in_postinst:
-  description: |
-    dh_installinit writes tmpfiles in readdir() order into postinst.
-    This issue is currently only sometimes visible in our testing framework on armhf, but not on amd64. This will change once we add variations with disorderfs…
-  url: https://bugs.debian.org/806392
 random_order_in_cython_output:
   description: |
     Cython generates .c code from a Python-like syntax. Some of it is in
