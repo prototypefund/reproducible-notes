@@ -490,11 +490,6 @@ fonts_in_pdf_files:
     varies and is called the subset_tag. It is generated in
     texk/web2c/pdftexdir/utils.c function make_subset_tag() from an MD5 sum
     over the font glyphs.
-timestamps_in_groovy_class_files:
-  description: |
-    groovyc up to the version 2.3.9 includes timestamps in class files. Upgrading to Groovy 2.4 will fix this issue.
-  url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInClassFilesCompiledByGroovy
-  deterministic: True
 random_order_in_maven_plugin_xml:
   description: |
     mvn plugin.xml (-plugin packages) is generated in a random order.
@@ -782,11 +777,6 @@ collation_order_varies_by_locale:
 random_order_in_ruby_rdoc_indices:
   description:
     ruby's rdoc doesn't output methods in a determinstic order.
-haskell_devscripts_locale_substvars:
-  description:
-    dh_haskell_depends doesn't support UTF-8 encoded debian/control files
-    resulting in differing dependencies when building {in,outside} UTF-8.
-  url: https://bugs.debian.org/793944
 undeterministic_symlinking_by_rdfind:
   description:
     While removing duplicate files and replacing them with symlinks,
