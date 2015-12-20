@@ -475,8 +475,6 @@ apertium-pt-gl:
     - ftbfs_uninvestigated_unsatisfiable_dependencies
 apf:
   version: 0.8.4-1
-  issues:
-    - ftbfs_openssl_transition
   bugs:
     - 803889
 apg:
@@ -758,8 +756,6 @@ asterisk:
   comments: |
     Captures hostname, kernel, date, time, username.
     https://sources.debian.net/src/asterisk/1:13.1.0~dfsg-1/build_tools/make_build_h/
-  issues:
-    - ftbfs_openssl_transition
   bugs:
     - 804460
 asterisk-chan-capi:
@@ -1996,7 +1992,6 @@ ckermit:
   version: 302-5
   issues:
     - timestamps_from_cpp_macros
-    - ftbfs_openssl_transition
   bugs:
     - 804463
 cl-asdf:
@@ -2301,8 +2296,6 @@ cone:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/cone/0.89-1/cone/Makefile.am/#L159
-  issues:
-    - ftbfs_openssl_transition
   bugs:
     - 804334
 configshell:
@@ -3342,8 +3335,6 @@ doctorj:
     - timestamps_in_jar
 dogecoin:
   version: 1.8.0-1
-  issues:
-    - ftbfs_openssl_transition
   bugs:
     - 793840
 dogtag-pki:
@@ -4931,7 +4922,6 @@ gambas3:
   version: 3.5.4-2
   issues:
     - timestamps_from_cpp_macros
-    - ftbfs_openssl_transition
   bugs:
     - 804467
 gamera:
@@ -6518,7 +6508,6 @@ hhvm:
   version: 3.2.0+dfsg1-2
   issues:
     - timestamps_from_cpp_macros
-    - ftbfs_openssl_transition
 hibernate:
   version: 2.0+15+g88d54a8-1
   comments: |
@@ -6601,8 +6590,6 @@ htseq:
     - timestamps_in_python_docutils
 httest:
   version: 2.4.8-1
-  issues:
-    - ftbfs_openssl_transition
   bugs:
     - 804606
 http-icons:
@@ -6999,8 +6986,6 @@ irsim:
     - 778267
 isakmpd:
   version: 20041012-7.2
-  issues:
-    - ftbfs_openssl_transition
   bugs:
     - 749354
 isdnutils:
@@ -7656,7 +7641,6 @@ kannel-sqlbox:
   version: 0.7.2-3
   issues:
     - timestamps_in_pdf_generated_by_latex
-    - ftbfs_openssl_transition
 kapptemplate:
   version: 4:4.14.1-1
   issues:
@@ -9444,10 +9428,6 @@ libstax-java:
   version: 1.2.0-3
   issues:
     - locale_in_documentation_generated_by_javadoc
-libstoragemgmt:
-  version: 1.2.3-1
-  issues:
-    - ftbfs_openssl_transition
 libstxxl:
   version: 1.4.1-2
   issues:
@@ -10801,10 +10781,6 @@ moon-buggy:
   version: 1.0.51-10
   issues:
     - timestamps_in_dvi_generated_by_latex
-moonshot-gss-eap:
-  version: 0.9.5-1
-  issues:
-    - ftbfs_openssl_transition
 morfologik-stemming:
   version: 1.9.0+dfsg-0.1
   issues:
@@ -11245,8 +11221,6 @@ netsurf:
     - timestamps_in_png
 netty-tcnative:
   version: 1.1.33.Fork9-1
-  issues:
-    - ftbfs_openssl_transition
   bugs:
     - 804609
 netw-ib-ox-ag:
@@ -11315,8 +11289,6 @@ nget:
     - 746885
 ngorca:
   version: 1.0.2-2
-  issues:
-    - ftbfs_openssl_transition
   bugs:
     - 746886
 nibabel:
@@ -12122,8 +12094,6 @@ osgi-compendium:
     - random_order_in_documentation_generated_by_javadoc
 osptoolkit:
   version: 3.4.2-1.2
-  issues:
-    - ftbfs_openssl_transition
   bugs:
     - 804623
 oss4:
@@ -12192,13 +12162,10 @@ pacemaker:
   version: 1.1.10+git20130802-4.1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-    - ftbfs_openssl_transition
 pacemaker-mgmt:
   version: 2.0.0+hg1141-2.3
   comments: |
     Build-depends on libgnutls-dev which no longer exists
-  issues:
-    - ftbfs_openssl_transition
   bugs:
     - 790381
 pachi:
@@ -12264,8 +12231,6 @@ pam:
     - 792127
 pam-mysql:
   version: 0.7~RC1-4
-  issues:
-    - ftbfs_openssl_transition
   bugs:
     - 790455
 paman:
@@ -12529,8 +12494,6 @@ pentaho-reporting-flow-engine:
     - locale_in_documentation_generated_by_javadoc
 percona-xtradb-cluster-galera-2.x:
   version: 1:2.11.2675-1.2
-  issues:
-    - ftbfs_openssl_transition
   bugs:
     - 804138
 perdition:
@@ -12848,8 +12811,6 @@ pixmap:
     - 793709
 pjproject:
   version: 2.4~dfsg-1
-  issues:
-    - ftbfs_openssl_transition
   bugs:
     - 794711
     - 795825
@@ -13002,7 +12963,6 @@ polygraph:
   version: 4.3.2-1.1
   issues:
     - timestamps_from_cpp_macros
-    - ftbfs_openssl_transition
 polymake:
   version: 2.14-2
   bugs:
@@ -14790,7 +14750,6 @@ root-system:
   version: 5.34.19+dfsg-1.1
   issues:
     - timestamps_from_cpp_macros
-    - ftbfs_openssl_transition
 ros-common-msgs:
   version: 1.12.3-2
   issues:
@@ -15700,7 +15659,6 @@ ruby2.1:
   issues:
     - timestamps_from_cpp_macros
     - timestamps_in_ruby_documentation
-    - ftbfs_openssl_transition
   bugs:
     - 804316
 ruby2.2:
@@ -16017,8 +15975,6 @@ sfepy:
     - timestamps_in_pdf_generated_by_latex
 sflphone:
   version: 1.4.1-0.4
-  issues:
-    - ftbfs_openssl_transition
   bugs:
     - 804615
 sgabios:
@@ -16336,8 +16292,6 @@ soapdenovo2:
     - timestamps_from_cpp_macros
 socat:
   version: 1.7.3.0-1
-  issues:
-    - ftbfs_openssl_transition
   bugs:
     - 804611
 socklog:
@@ -16569,15 +16523,12 @@ srtp:
     - timestamps_in_pdf_generated_by_latex
 sslscan:
   version: 1.8.2-2
-  issues:
-    - ftbfs_openssl_transition
   bugs:
     - 804616
 sslsplit:
   version: 0.4.11+dfsg-1
   issues:
     - ftbfs_uninvestigated_test_failures
-    - ftbfs_openssl_transition
 ssmtp:
   version: 2.64-8
   issues:
@@ -16812,8 +16763,6 @@ swift:
     - randomness_in_documentation_generated_by_sphinx
 swift-im:
   version: 2.0+dev6-1
-  issues:
-    - ftbfs_openssl_transition
   bugs:
     - 797279
 swig:
@@ -17236,8 +17185,6 @@ tkrat:
     - 778431
 tlsdate:
   version: 0.0.13-1
-  issues:
-    - ftbfs_openssl_transition
   bugs:
     - 804619
 tmexpand:
@@ -17743,7 +17690,6 @@ utopia-documents:
   version: 2.4.4-2
   issues:
     - timestamps_in_zip
-    - ftbfs_openssl_transition
 uucpsend:
   version: 1.1-4
   issues:
@@ -18977,8 +18923,6 @@ zorp:
   comments: |
     Embed build time:
     http://sources.debian.net/src/zorp/3.9.5-4/zorp/main.c/?hl=203#L203
-  issues:
-    - ftbfs_openssl_transition
 zotero-standalone-build:
   version: 4.0.22-1
   issues:
