@@ -4,10 +4,12 @@ timestamps_from_cpp_macros:
     capture the current time, and thus will obviously make a build
     unreproducible.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsFromCPPMacros
+  deterministic: True
 timestamps_in_cpio_archive:
   description: |
     cpio archives capture build time in mtime of its members.
     Workaround: Set mtimes on disk before creating cpio archive
+  deterministic: True
 timestamps_in_h_generated_by_qdbusxml2cpp:
   description: |
     qdbusxml2cpp uses a timestamp for its anti-double-inclusion
@@ -45,13 +47,16 @@ timestamps_in_documentation_generated_by_man2html:
     man2html adds a timestamp at the end of a generated HTML file.
     Patch at https://bugs.debian.org/796130 applied to our repo.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInDocumentationGeneratedByMan2Html
+  deterministic: True
 timestamps_in_dvi_generated_by_latex:
   description: |
     The creation date of the DVI file is the current time.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInDviGeneratedByLaTeX
+  deterministic: True
 timestamps_in_ps_generated_by_dvips:
   description: |
     eg. %%CreationDate: in header
+  deterministic: True
 blacklisted_on_jenkins:
   description: |
     Some packages have been blacklisted not to be tested for build reproducibility on jenkins.debian.net,
@@ -67,13 +72,16 @@ timestamps_in_maven_version_files:
   description: |
     Maven writes a timestamp to version.properties files.  Probably related
     to timestamps_in_maven_pom_files issue.
+  deterministic: True
 locale_differences_in_pom:
   description: |
     Some tool isn't writing non-ASCII characters in pom.xml/foo.pom properly.
+  deterministic: True
 timestamps_in_pe_binaries:
   description: |
     PE binaries contain a timestamp and maybe randomness in an UUID.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInPEBinaries
+  deterministic: True
 use_epydoc:
   description: |
     Epydoc will add timestamps to the HTML file it produces. It can also generates
@@ -83,11 +91,13 @@ use_epydoc:
         https://bugs.debian.org/795826
         https://bugs.debian.org/795835
   url: https://wiki.debian.org/ReproducibleBuilds/EpydocIssues
+  deterministic: True
 timestamps_in_python_code_generated_by_cheetah:
   description: |
     Cheetah embeds two timestamps into generated Python code by default.
     This can be disabled with a compiler flag.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInPythonCodeGeneratedByCheetah
+  deterministic: True
 random_order_in_python_environment_pickle:
   description: |
     Python doctrees writes a `environment.pickle.gz`, in a random order and embeds encoding in some `*.doctree.gz` files.
@@ -95,6 +105,7 @@ locale_dependent_order_in_devlibs_depends:
   url: http://bugs.debian.org/796330
   description: |
     devlibs:Depends is sorted in a locale-dependent way.
+  deterministic: True
 random_order_in_naturaldocs:
   description: |
     Natural Docs generates its documentation in a random order.
@@ -103,12 +114,14 @@ timestamps_in_beam_files:
   description: |
     Erlang source files compiled by erlc into BEAM files contain timestamps and the build path.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInBeamFiles
+  deterministic: True
 fontforge_reset_modification_time:
   description: |
     When a fontforge script is used, if the font loaded is modified
     in any way, then the font modification time is set to the current
     time.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInFontsGeneratedWithFontForge
+  deterministic: True
 varying_mtimes_in_data_tar_gz_or_control_tar_gz:
   description: |
     We currently adjust the file mtimes in dh_builddeb. Packages which
@@ -119,24 +132,29 @@ varying_mtimes_in_data_tar_gz_or_control_tar_gz:
          xargs -0r touch --no-dereference --date="@$$SOURCE_DATE_EPOCH"`
     Another option is to convert the build system to `dh`.
   url: https://wiki.debian.org/ReproducibleBuilds/Howto#Members_of_control.tar_and_data.tar_have_varying_mtimes
+  deterministic: True
 timestamps_in_gzip_headers:
   description: |
     gzip stores a timestamp by default in its header.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInGzipHeaders
+  deterministic: True
 timestamps_in_png:
   description: |
     PNG can capture build time with the tIME chunk or custom keywords.
     This timestamps are currently removed by strip-nondetermism, so are not visible to diffoscope anymore. Yet fixing the root cause would be nice.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInPNG
+  deterministic: True
 timestamps_in_static_libraries:
   description: |
     .a files are ar archives. By default, they will contain a timestamp for
     each member (.o) and for the function index.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInStaticLibraries
+  deterministic: True
 timestamps_in_tarball:
   description: |
     Tarballs capture build time in mtime of its members.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInTarball
+  deterministic: True
 random_order_in_tarball:
   description: |
     The order of members inside the tarball varies.
@@ -144,6 +162,7 @@ timestamps_in_documentation_generated_by_javadoc:
   description: |
     javadoc will add timestamps to the HTML file it produces.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInDocumentationGeneratedByJavadoc
+  deterministic: True
 random_order_in_documentation_generated_by_javadoc:
   description: |
     The `package-tree.html` file generated by javadoc contains an unsorted index.
@@ -171,6 +190,7 @@ timestamps_in_documentation_generated_by_groovydoc:
   description: |
     Groovydoc will add timestamps to the HTML file it produces.
     http://sources.debian.net/src/groovy/1.8.6-4/src/main/org/codehaus/groovy/tools/groovydoc/gstringTemplates/topLevel/index-all.html/#L19
+  deterministic: True
 timestamps_in_jar:
   description: |
     jar (Java Archive) file stores mtimes. Most often of files generated during
@@ -187,25 +207,30 @@ timestamps_difference_by_unzip:
   description: |
     Timestamps in files processed by zip/unzip have timezone variations.
     Setting TZ=UTC before calling zip/unzip the file can fix this.
+  deterministic: True
 timestamps_in_documentation_generated_by_groff:
   description: |
     groff will add a timestamps to documentation it produces.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInDocumentationGeneratedByGroff
+  deterministic: True
 timestamps_in_pdf_generated_by_latex:
   description: |
     PDF files generated with pdftex and pdflatex will contain CreationDate and
     ModDate set to the current date and time.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInPDFGeneratedByLaTeX
+  deterministic: True
 timestamps_in_documentation_generated_by_htmldoc:
   description: |
     PDF files generated with htmldoc will contain CreationDate set to the current
     date and time.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestmapsInDocumentationGeneratedByHtmldoc
+  deterministic: True
 timestamps_in_documentation_generated_by_lua_ldoc:
   description: |
     lua-ldoc adds build timestamp, varying by the timezone
     http://sources.debian.net/src/lua-ldoc/1.4.3-1/ldoc/html/ldoc_ltp.lua/?hl=293#L293
     http://sources.debian.net/src/lua-ldoc/1.4.3-1/ldoc.lua/?hl=784#L784
+  deterministic: True
 pdf_created_by_ghostscript:
   description: |
     PDF files created by Ghostscript contain timestamps and ids.
@@ -221,10 +246,12 @@ timestamps_in_pdf_generated_by_apache_fop:
     PDF files generated with Apache FOP will contain CreationDate and
     ModDate set to the current date and time.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInPDFGeneratedByApacheFOP
+  deterministic: True
 timestamps_in_documentation_generated_by_texi2html:
   description: |
     eg. "Created on March 1, 2015 by texi2html 1.82"
     texi2html now supports SOURCE_DATE_EPOCH.
+  deterministic: True
 randomness_in_html_generated_by_texi2html:
   description: |
     texi2html's output varies, probably because of elements being processed
@@ -239,6 +266,7 @@ python_wheel_package:
     Wheel is embedding timestamps into whl files. The timestamp can be overridden
     by setting the WHEEL_FORCE_TIMESTAMP environment variable to an epoch value.
   url: https://wiki.debian.org/ReproducibleBuilds/PythonWheelPackage
+  deterministic: True
 gtk_doc_api_index_full:
   description: |
     GTK-Doc generated HTML differs between runs.
@@ -252,6 +280,7 @@ user_in_java_jar_manifest:
 timestamp_in_java_bnd_manifest:
   description: |
     bndtools bnd outputs Bnd-LastModified and other entropy
+  deterministic: True
 implementation_version_in_java_manifest_mf:
   description: |
     Captures build time, build host and kernel version with
@@ -259,6 +288,7 @@ implementation_version_in_java_manifest_mf:
 timestamps_in_python_docutils:
   description: |
     Python docutils writes timestamps into its generated documentation.
+  deterministic: True
 random_order_in_files_generated_by_module_build:
   description: |
     Perl files generated with Module::Build contain an unsorted dependency list.
@@ -283,10 +313,12 @@ timestamps_in_emacs_autoloads:
     Emacs "autoloads" comments contain a timestamp.
     At least some of these would be resolved by a fix for
     https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=799168
+  deterministic: True
 timestamps_in_ruby_documentation:
   description: |
     Ruby's documentation generator outputs a file called "created.rid", which contains
     the time the documentation was generated.
+  deterministic: True
 timestamps_in_gemspec_files:
   description:
     .gemspecs store the date.
@@ -294,9 +326,11 @@ timestamps_in_gemspec_files:
     Will be fixed once ruby2.2 becomes the default (blocking on GCC 5
     transition; see https://bugs.debian.org/779631).
   url: https://bugs.debian.org/779631
+  deterministic: True
 timestamps_in_documentation_generated_by_sphinx:
   description: |
     "Last updated," etc.
+  deterministic: True
 randomness_in_documentation_generated_by_sphinx:
   description: |
     Sphinx might output references to memory addresses and generate a json index file
@@ -325,6 +359,7 @@ timestamps_in_files_installed_by_dh_kpatches:
   description: |
     Calls gzip without -n
   url: https://bugs.debian.org/776941
+  deterministic: True
 randomness_in_dh_cligacpolicy_scripts:
   description: |
     dh_cligacpolicy adds debhelper scripts in a random order
@@ -335,6 +370,7 @@ needs_internet_access_to_build:
 timestamps_in_mdl_molfile:
   description: |
     MDL Molfiles (https://en.wikipedia.org/wiki/Chemical_table_file) contain a timestamp.
+  deterministic: True
 build_id_variation_requiring_further_investigation:
   description: |
     ld adds a Build ID in ELF binaries used to link external debug symbols.
@@ -357,6 +393,7 @@ timestamps_in_documentation_generated_by_podman:
     http://sources.debian.net/src/perl/latest/cpan/podlators/lib/Pod/Man.pm/?hl=1700#L977
     They should be based on the mtime of the original file.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInManpagesGeneratedByPodMan
+  deterministic: True
 timezones_manpages_podman:
   description: |
     This issue is similar to timestamps_in_documentation_generated_by_podman.
@@ -375,6 +412,7 @@ bad_handling_of_extra_warnings:
     to correctly quote the output of dpkg-buildflags --get CPPFLAGS. e.g. note the lack of double quotes
     around CPPFLAGS=$(.. in https://sources.debian.net/src/avfs/1.0.1-2/debian/rules/#L20 .  Can be
     tested with: DEB_CPPFLAGS_APPEND='-D__TOTALL_FAKE_VARIABLE__=5' dpkg-buildpackage
+  deterministic: True
 ftbfs_wdatetime:
   description: |
     FTBFS if dpkg-buildflags contains -Wdate-time.
@@ -391,16 +429,20 @@ ftbfs_build_depends_not_available_on_amd64:
     Relevant URLs:
     - https://wiki.debian.org/Build-Depends-Indep
     - https://bugs.launchpad.net/launchpad/+bug/217427
+  deterministic: True
 ftbfs_due_to_virtual_dependencies:
   description: |
     Package has virtual build dependencies or conflicts without listing a real package as alternative first. This causes pbuilder to fail the build and it also makes it virtually impossible to reproducible build the package.
   url: https://lintian.debian.org/tags/virtual-package-depends-without-real-package-depends.html
+  deterministic: True
 ftbfs_environment:
   description: |
     FTBFS with some unrelated values of the environment variables (lang, timezone, ...)
+  deterministic: True
 different_pot_creation_date_in_gettext_mo_files:
   description: |
     Gettext .mo files in /usr/share/locale/*/LC_MESSAGES differ in their POT-Creation-Date.
+  deterministic: True
 ftbfs_in_jenkins_setup:
   description: |
     Could be:
@@ -419,17 +461,20 @@ timestamps_in_manpages_generated_by_sphinx:
   description: |
     Manpages generated with Sphinx embed the build date.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInManpagesGeneratedBySphinx
+  deterministic: True
 timestamps_in_manpages_generated_by_txt2man:
   description: |
     Manpages generated with txt2man embed the date.
     .
     Pass "-d $date" to txt2man to force a (reproducible) date.
   url: http://bugs.debian.org/790801
+  deterministic: True
 timestamps_in_manpages_generated_by_help2man:
   description: |
     Manpages generated with help2man embed the month and year by default.
     This is currently only detected on the 1st of a month, because we are varying the timezone to span more than a day.
   url: https://bugs.debian.org/787444
+  deterministic: True
 fonts_in_pdf_files:
   description: |
     The internally used names/identifiers of fonts embedded into PDF files varies.
@@ -449,6 +494,7 @@ timestamps_in_groovy_class_files:
   description: |
     groovyc up to the version 2.3.9 includes timestamps in class files. Upgrading to Groovy 2.4 will fix this issue.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInClassFilesCompiledByGroovy
+  deterministic: True
 random_order_in_maven_plugin_xml:
   description: |
     mvn plugin.xml (-plugin packages) is generated in a random order.
@@ -460,6 +506,7 @@ random_order_in_maven_plugin_xml:
 timestamps_in_documentation_generated_by_edoc:
   description: |
     The Erland documentation generator EDoc is embedding timestamps in its documentation.
+  deterministic: True
 timestamps_in_qch:
   description: |
     There has been done a lot of reproducible fixes in 5.5.0, so it is worth to
@@ -476,6 +523,7 @@ timestamps_in_qch:
     .
     I suspect we just need a few sorts (and some time to build qt4-x11...)
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInDatabaseGeneratedByQhelpgenerator
+  deterministic: True
 random_ispell_hash_files:
   description: |
     buildhash from ispell produces undeterministic .hash files.
@@ -484,35 +532,43 @@ timestamps_in_java_stapler_files:
   description: |
     Another variation of timestamps_in_maven_version_files where someone's
     used the same doomed properties writer.
+  deterministic: True
 timestamps_in_gjdoc_properties_files:
   description: |
     Another variation of timestamps_in_maven_version_files where someone's
     used the same doomed properties writer, this time in GNU Gjdoc API Documentation.
+  deterministic: True
 timestamps_manually_added_needs_further_investigation:
   description: |
     Packages which intentionally add the timestamp to their build or files,
     but aren't obviously using any tool or system which has this as a core issue.
     Interesting because they could be fixed by faketime'ing up the whole system.
+  deterministic: True
 uid_and_gid_in_jar:
   description: |
     Some tool has managed to write uid and gid as an extended attribute into a jar file.
+  deterministic: True
 timestamps_in_qmake_makefiles:
   description: |
     Some -dev packages ship generated qmake makefiles, which contain the generation time.
+  deterministic: True
 user_hostname_manually_added_requiring_further_investigation:
   description: |
     Packages which intentionally capture the username or hostname into a custom format,
     but aren't obviously using any tool or system which has this as a core issue.
     Interesting because they could be fixed by fixing these things at build time.
+  deterministic: True
 random_order_in_plexus_comonents_xml:
   description: |
     Plexus, a Java plugin framework, writes its components.xml in a random order.
 timestamps_in_epub:
   description: |
     epub files are zip files, and hence have a timestamp in them.
+  deterministic: True
 timestamps_in_jsdoc_toolkit_documentation:
   description: |
     JsDoc Toolkit writes the documentation generation time into generated HTML.
+  deterministic: True
 randomness_in_objects_inv:
   description: |
     Some Gython documentation tool writes objects.inv files in a random order.
@@ -539,6 +595,7 @@ timestamp_in_pear_registry_files:
   description: |
     PEAR registry files are serialized PHP objects that contain a timestamp.
   url: https://bugs.debian.org/750697
+  deterministic: True
 berkeley_db_variation_requiring_further_investigation:
   description: |
     Berkeley databases are not reproducibly.
@@ -564,6 +621,7 @@ timestamps_in_python_version_numbers:
   description: |
     python-setuptools is appending the build date to a Python version number.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInPythonVersionNumbers
+  deterministic: True
 randomness_in_python_setuptools_requires_txt:
   description: |
     python-setuptools generates requires.txt files with contents in arbitrary
@@ -574,6 +632,7 @@ timezone_variance_because_of_automake_mdate:
     automake's mdate-sh script pretty-prints the modification time of a file.
     This output can influence further steps in the build process and make it unreproducible.
   url: https://wiki.debian.org/ReproducibleBuilds/TimezoneVarianceBecauseOfAutomakeMdate
+  deterministic: True
 timestamps_in_dictionaries:
   description: |
     Dictionaries built with dictfmt/dictzip (often called .dict.dz) contain timestamps:
@@ -583,10 +642,12 @@ timestamps_in_dictionaries:
     .
     Call dictfmt with --without-time to prevent the timestamp in the dictionary.
   url: https://bugs.debian.org/776430
+  deterministic: True
 timestamps_in_manpages_generated_by_docbook2x:
   description: |
     docbook2x-man embeds the build date into generated manpages.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInManpagesGeneratedByDocbook2x
+  deterministic: True
 leaks_path_environment_variable:
   description: |
     The environment variable PATH is embedded in the build result.
@@ -596,21 +657,26 @@ timestamps_in_manpages_generated_by_docbook_xsl:
     docbook-xsl writes the build date into the header; sometimes driven by asciidoc, sometimes by xsltproc.
     Date change visible on Jenkins due to timezone changes.
   url: https://bugs.debian.org/791815
+  deterministic: True
 timestamps_in_documentation_generated_by_docbook_dbtimestamp:
   description: |
     dbtimestamp is an entity in docbook that inserts the current time.
+  deterministic: True
 timestamps_in_documentation_generated_by_rdtool:
   description: |
     RD is a document formatter used for ruby programs. When generating manpages, it embeds the
     current month and year.
     This is currently only detected on the 1st of a month, because we are varying the timezone to span more than a day.
+  deterministic: True
 captures_kernel_version:
   description: |
     Stores the kernel version (uname -a, /proc/version, etc.) output, normally for debugging purposes.
+  deterministic: True
 timestamps_in_allegro_dat_files:
   description: |
     `.dat` files from the Allegro framework are basically archives. The `dat`
     command line tool will add a DATE property with the file modification time.
+  deterministic: True
 randomness_in_fat_lto_objects:
   description: |
     Objects built with `gcc -flto -ffat-lto-objects` will contain random strings
@@ -627,6 +693,7 @@ timestamps_generated_by_eigenbase_resgen:
   description: |
     XOMGenTask adds timestamps to generated files, see src/org/eigenbase/xom/MetaGenerator.java line 1202.
     ResourceGenTask adds timestamps too but can be avoided using commentstyle with scm-safe value.
+  deterministic: True
 timestamps_in_documentation_generated_by_ur:
   description: |
     UR::Namespace::Command::Update::Doc in the libur-perl package generates documentation with embedded timestamps.
@@ -636,14 +703,17 @@ timestamps_in_documentation_generated_by_ur:
     http://sources.debian.net/src/libur-perl/latest/lib/Command/V1.pm/#L755
     .
     http://sources.debian.net/src/libur-perl/latest/lib/Command/View/DocMethods.pm/#L185
+  deterministic: True
 timestamps_from_tex4ht:
   description: |
     Tex4ht adds timestamps into the HTML output files.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsFromTex4ht
+  deterministic: True
 timestamps_from_imake_in_xutils:
   url: https://bugs.debian.org/789964
   description: |
     The imake tool from xutils-dev defines a gzip command without `-n` that is used when compressing font files by other packages
+  deterministic: True
 snapshot_placeholder_replaced_with_timestamp_in_pom_properties:
   description: |
     pom.xml uses a <version> like 0.1-SNAPSHOT which is then replaced with the
@@ -652,6 +722,7 @@ snapshot_placeholder_replaced_with_timestamp_in_pom_properties:
 different_encoding:
   description: |
     Files were built with different encoding (non-UTF-8 vs. UTF-8).
+  deterministic: True
 ftbfs_uninvestigated_unsatisfiable_dependencies:
   description: |
     Packages which fail to satisfy dependencies.  Some of these (but probably not all that many)
@@ -664,16 +735,20 @@ ftbfs_uninvestigated_big_packages:
 timestamps_in_documentation_generated_by_org_mode:
   description: |
     Org-mode adds timestamps (which also vary by TZ)
+  deterministic: True
 timestamps_in_pdf_generated_by_matplotlib:
   description: |
     eg. Creator (matplotlib 1.4.2, http://matplotlib.org)
+  deterministic: True
 lynx_dump_varies_output_with_locale:
   description: |
     Packages use `lynx -dump in.html > out.txt`, but this varies by locale. See
     https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=770011
+  deterministic: True
 elinks_dump_varies_output_with_locale:
   description: |
     Packages use `elinks -dump in.html > out.txt`, but this varies by locale.
+  deterministic: True
 plist_weirdness:
   description: |
     Gnustep (?) plist files can have missing/non-determistic ordering depending
@@ -682,13 +757,16 @@ debiandoc_sgml_timestamp:
   description: |
     <date> element in debiandoc-sgml results in build timestamp which
     additionally varies by locale.
+  deterministic: True
 docbook2txt_locale:
   description: |
     docbook2txt varies output based on locale, usually with non-ascii chars.
+  deterministic: True
 texinfo_mdate_sh_varies_by_timezone:
   description:
     If you use version.texi, mdate-sh will output a TZ-sensitive updated date.
     http://www.delorie.com/gnu/docs/automake/automake_81.html
+  deterministic: True
 random_order_in_javahelper_depends:
   description:
     javahelper (jh_*, etc.) can generate Depends substvars in a
@@ -746,9 +824,11 @@ timestamps_in_tex_documents:
     The TeX \today macro embeds the build date in the files generated
     from it (DVI, PS, PDF, etc.). This should probably be changed to
     honour SOURCE_DATE_EPOCH from the environment.
+  deterministic: True
 timestamps_added_by_blast2:
   description: |
     formatdb from blast2 adds a timestamp.
+  deterministic: True
 randomness_in_r_rdb_rds_databases:
   description: |
     R creates .rdb files and .rds with some randomness. They are a serialisation of some
@@ -771,6 +851,7 @@ timestamps_in_manpages_generated_by_docbook_utils:
   description: |
     docbook2man from docbook-utils adds the build date into generated manpages, which also contain locale variations.
   url: https://bugs.debian.org/800797
+  deterministic: True
 random_buildpath_by_octave:
   description: |
     When octave programs are built, they are first copied into a temporary directory (/tmp/oct-xxxxxx) and compiled there.
@@ -794,6 +875,7 @@ timestamps_in_directories:
     and it's different from varying_mtimes_in_data_tar_gz_or_control_tar_gz which is mainly for packages that
     do not try to build reproducibly yet.
   url: https://bugs.debian.org/802005
+  deterministic: True
 random_order_in_static_libraries:
   description: |
     order of members in a static library change between build1 and build2
@@ -815,6 +897,7 @@ timestamps_in_pdf_content:
     The timestamp is not in the PDF metadata, but embedded in the actual content (text).
     Note: Use timestamps_in_tex_documents instead, which is more specific, if the PDF was created
     by a TeX/LaTeX document using \today macro.
+  deterministic: True
 different_encoding_in_html_by_docbook_xsl:
   description: |
     Docbook XSL can vary the encoding it uses depending on locale.
@@ -822,6 +905,7 @@ timestamps_in_ppu_generated_by_fpc:
   description: |
     The freepascal compiler (fpc) embeds timestamps into unit files (ppu).
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInPPUGeneratedByFPC
+  deterministic: True
 gettext_creates_ChangeLog_files_and_entries_with_current_date:
   description: |
     http://sources.debian.net/src/gettext/0.19.6-1/gettext-tools/misc/gettextize.in/#L401
@@ -831,11 +915,13 @@ ftbfs_old_compat_debheper_compat_level:
     debhelper 9.20151116 removed support for the compat levels 1, 2.
     So those packages now fail to build.
   url: https://lists.debian.org/debian-devel/2015/09/msg00257.html
+  deterministic: True
 timestamps_in_documentation_generated_with_libwibble:
   description: |
     libwibble can generate manpages for applications using it.
     While doing so, it embeds the current date into the manpage.
   url: https://sources.debian.net/src/libwibble/1.1-1/wibble/commandline/doc.cpp/#L320
+  deterministic: True
 copyright_year_in_documentation_generated_by_sphinx:
   description: |
     Sphinx is embedding the current year into copyright statements in generated documentation.
@@ -846,11 +932,13 @@ timestamps_in_documentation_generated_by_glib_genpod:
     the current year in a copyright notice.
     .
     http://sources.debian.net/src/libglib-perl/3:1.307-3/lib/Glib/GenPod.pm/?hl=43#L43
+  deterministic: True
 ftbfs_due_to_build-depends-arch:
   description:
     pbuilder does not yet support the Build-Depends-Arch relationship (which is
     not yet in policy either).  It's available since dpkg 1.16.4 (in wheezy, 2012)
   url: https://bugs.debian.org/802557
+  deterministic: True
 random_order_in_cython_output:
   description: |
     Cython generates .c code from a Python-like syntax. Some of it is in
@@ -860,6 +948,7 @@ timestamps_in_python_code_generated_by_pyside:
   description: |
     The resource compiler from pyside-tools embeds a creation timestamp into the generated Python source.
   url: https://bugs.debian.org/806527
+  deterministic: True
 timestamps_in_sym_l_files_generated_by_malaga:
   description:
     Malaga, a system for automatic language analysis, includes the current time
@@ -868,9 +957,11 @@ timestamps_in_sym_l_files_generated_by_malaga:
     http://sources.debian.net/src/malaga/7.12-5.2/malaga_files.h/#L34
     http://sources.debian.net/src/malaga/7.12-5.2/malaga_files.c/#L79
     http://sources.debian.net/src/malaga/7.12-5.2/malaga_files.c/#L88
+  deterministic: True
 timestamps_in_edj_files_generated_by_edje_cc:
   description:
     /usr/bin/edje_cc from libedje-bin writes timestamps.
+  deterministic: True
 random_order_in_init_py_generated_by_python-genpy:
   description:
     python-genpy generates __init__.py with import statements in a
@@ -879,6 +970,7 @@ random_order_in_init_py_generated_by_python-genpy:
 timestamps_in_copyright_added_by_perl_dist_zilla:
   description:
     distzilla adds "Copyright $current_year" to .pm files
+  deterministic: True
 random_contents_in_dat_files_generated_by_chasen-dictutils_makemat:
   description:
     /usr/lib/x86_64-linux-gnu/chasen/makemat from chaser-dictutils generates
