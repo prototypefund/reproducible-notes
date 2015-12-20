@@ -96,11 +96,9 @@ acpid:
   bugs:
     - 808015
 actiona:
-  version: 3.9.0-2
+  version: 3.9.1-1
   issues:
     - timestamps_from_cpp_macros
-  bugs:
-    - 804456
 activemq:
   version: 5.6.0+dfsg1-4
   comments: |
@@ -1266,10 +1264,6 @@ bird:
   version: 1.4.5-1
   issues:
     - timestamps_in_pdf_generated_by_latex
-bisonc++:
-  version: 4.11.00-1
-  bugs:
-    - 808016
 bitcoin:
   version: 0.10.2-3
   bugs:
@@ -2813,10 +2807,6 @@ dcmtk:
     - timestamps_in_documentation_generated_by_doxygen
   bugs:
     - 790133
-dcmtkpp:
-  version: 0.3.1-2
-  bugs:
-    - 807675
 dctrl-tools:
   version: 2.24-1
   comments: |
@@ -3334,10 +3324,6 @@ docbook-xsl-saxon:
   issues:
     - build_id_variation_requiring_further_investigation
     - locale_in_documentation_generated_by_javadoc
-docker-libkv:
-  version: 0.1.0-1
-  bugs:
-    - 808054
 docker-registry:
   version: 2.1.1~ds1-2
   issues:
@@ -3795,10 +3781,6 @@ epson-inkjet-printer-escpr:
   version: 1.4.1-2
   issues:
     - ppds_compressed_b64
-eq10q:
-  version: 2.0~beta7.1~repack0-1
-  bugs:
-    - 805661
 equivs:
   version: 2.0.9
   bugs:
@@ -4395,10 +4377,6 @@ flow-tools:
   version: 1:0.68-12.3
   bugs:
     - 797437
-flower:
-  version: 0.7.0+dfsg-2
-  bugs:
-    - 793515
 flowscan:
   version: 1.006-13.2
   issues:
@@ -5031,10 +5009,6 @@ garcon:
   version: 0.4.0-2
   comments: |
     Desktop launcher file missing a whole bunch of entries when run with a non-utf8 locale
-gauche-c-wrapper:
-  version: 0.6.1-5
-  bugs:
-    - 777861
 gbrainy:
   version: 2.2.3-1
   issues:
@@ -5970,10 +5944,6 @@ gosu:
   version: 1.6-1
   issues:
     - random_build_path_by_golang_compiler
-gparted:
-  version: 0.19.0-3
-  bugs:
-    - 807736
 gpick:
   version: 0.2.5-1
   comments: |
@@ -6173,10 +6143,6 @@ grub2:
   version: 2.02~beta2-23
   bugs:
     - 787795
-gs-collections:
-  version: 5.1.0-1
-  bugs:
-    - 808022
 gsasl:
   version: 1.8.0-6
   issues:
@@ -6855,12 +6821,6 @@ imapcopy:
   version: 1.04-2
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-imapfilter:
-  version: 1:2.6.2-1
-  issues:
-    - ftbfs_openssl_transition
-  bugs:
-    - 804457
 imaprowl:
   version: 1.2.1-1.1
   issues:
@@ -8319,10 +8279,6 @@ libcommoncpp2:
   version: 1.8.1-6.1
   issues:
     - timestamps_in_manpages_generated_by_doxygen
-libcommons-cli-java:
-  version: 1.3.1-2
-  bugs:
-    - 808020
 libcommons-codec-java:
   version: 1.10-1
   issues:
@@ -8489,10 +8445,6 @@ libdevel-gdb-perl:
   version: 2.02-2
   bugs:
     - 784845
-libdr-tarantool-perl:
-  version: 0.43-1
-  bugs:
-    - 798484
 libebml:
   version: 1.3.1-3
   issues:
@@ -9047,10 +8999,11 @@ liblouis:
   issues:
     - timezone_variance_because_of_automake_mdate
 liblouisutdml:
-  version: 2.5.0-1
+  version: 2.5.0-2
+  comments: |
+    Documentation also mention that some arguments must be UTF-8 depending on
+    the charset.
   issues:
-    - timestamps_in_jar
-    - timestamps_in_documentation_generated_by_javadoc
     - locale_in_documentation_generated_by_javadoc
 liblouisxml:
   version: 2.4.0-5
@@ -10463,10 +10416,6 @@ maven-source-plugin:
   version: 2.2.1-1
   issues:
     - timestamps_in_documentation_generated_by_javadoc
-maven2:
-  version: 2.2.1-28
-  bugs:
-    - 808014
 mayavi2:
   version: 4.3.1-3.1
   comments: |
@@ -11453,19 +11402,11 @@ node-expat:
   version: 2.3.1-1
   bugs:
     - 799774
-node-groove:
-  version: 2.2.6-2
-  bugs:
-    - 802087
 node-iscroll:
   version: 5.1.3+dfsg1-1
   comments: |
     Embeds current year as copyright year.
     https://sources.debian.net/src/node-iscroll/5.1.3%2Bdfsg1-1/build.js/#L8
-node-leveldown:
-  version: 1.0.0+dfsg-1
-  bugs:
-    - 798162
 node-mapnik:
   version: 1.2.3-1
   bugs:
@@ -12094,12 +12035,6 @@ opensc:
   version: 0.15.0-1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-openscenegraph:
-  version: 3.2.1-5
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
-  bugs:
-    - 789264
 opensm:
   version: 3.3.18-1
   issues:
@@ -12419,10 +12354,6 @@ pathological:
     - serial_numbers_in_ogg
   bugs:
     - 775995
-patool:
-  version: 1.8-1
-  bugs:
-    - 805219
 pavucontrol:
   version: 3.0-2
   issues:
@@ -12596,12 +12527,6 @@ pentaho-reporting-flow-engine:
     - timestamps_in_jar
     - timestamps_in_documentation_generated_by_javadoc
     - locale_in_documentation_generated_by_javadoc
-pepper:
-  version: 0.3.2-3
-  issues:
-    - timestamps_in_manpages_generated_by_docbook_xsl
-  bugs:
-    - 796466
 percona-xtradb-cluster-galera-2.x:
   version: 1:2.11.2675-1.2
   issues:
@@ -12869,10 +12794,6 @@ phyml:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/phyml/2:20120412-2/configure.ac/#L5
-picard:
-  version: 1.3.2-2
-  bugs:
-    - 805221
 picviz:
   version: 0.5-1
   comments: |
@@ -13167,10 +13088,6 @@ praat:
   version: 5.4.0-1
   issues:
     - timestamps_from_cpp_macros
-praw:
-  version: 3.2.1-1
-  bugs:
-    - 805226
 presage:
   version: 0.9-1
   bugs:
@@ -13540,10 +13457,6 @@ pyqt5:
     /usr/share/doc/pyqt5-examples/examples/animation/animatedtiles/animatedtiles_rc.py
   issues:
     - randomness_in_objects_inv
-pyroma:
-  version: 1.8.2-1
-  bugs:
-    - 799997
 pyscanfcs:
   version: 0.2.2-2
   issues:
@@ -13648,12 +13561,6 @@ python-braintree:
   version: 3.13.0-1
   bugs:
     - 805685
-python-carrot:
-  version: 0.10.7-1
-  issues:
-    - timestamps_in_documentation_generated_by_sphinx
-  bugs:
-    - 785617
 python-ceres:
   version: 0.10.0~git20150525-1
   bugs:
@@ -13744,10 +13651,6 @@ python-django-mptt:
     - randomness_in_documentation_generated_by_sphinx
   bugs:
     - 805688
-python-django-openstack-auth:
-  version: 2.0.0-3
-  bugs:
-    - 807346
 python-django-registration:
   version: 1.0+dfsg-2
   bugs:
@@ -13952,10 +13855,6 @@ python-networkx:
     Also contains differing png files.
   issues:
     - timestamps_in_pdf_generated_by_latex
-python-nmap:
-  version: 0.4.0-2
-  bugs:
-    - 799761
 python-numpy:
   version: 1.8.2-2
   issues:
@@ -14145,10 +14044,6 @@ python-taskflow:
   version: 1.21.0-3
   issues:
     - ftbfs_uninvestigated_test_failures
-python-tasklib:
-  version: 0.5.0-2
-  bugs:
-    - 808021
 python-tidylib:
   version: 0.2.1~dfsg-2
   issues:
@@ -14256,11 +14151,11 @@ qemu-launcher:
   bugs:
     - 777443
 qgis:
-  version: 2.4.0-1
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
-  bugs:
-    - 806324
+  version: 2.8.4+dfsg-1
+  comments: |
+    Timestamps added by txt2tags in documentation:
+    https://sources.debian.net/src/qgis/2.8.4%2Bdfsg-1~exp1/doc/INSTALL.t2t/
+    https://sources.debian.net/src/qgis/2.8.4%2Bdfsg-1~exp1/doc/news.t2t/
 qiime:
   version: 1.8.0+dfsg-4
   issues:
@@ -14566,10 +14461,6 @@ r-other-bio3d:
   version: 1.1-5-1
   issues:
     - randomness_in_r_rdb_rds_databases
-r10k:
-  version: 1.1.4-1
-  bugs:
-    - 794141
 r5rs-doc:
   version: 20010328-7
   bugs:
@@ -15070,10 +14961,6 @@ ruby-connection-pool:
   version: 2.2.0-1
   issues:
     - ftbfs_uninvestigated_test_failures
-ruby-coveralls:
-  version: 0.7.0-1
-  bugs:
-    - 802116
 ruby-crack:
   version: 0.4.2-3
   issues:
@@ -15431,10 +15318,6 @@ ruby-mp3tag:
   version: 1.0-12
   issues:
     - timestamps_in_gemspec_files
-ruby-multi-json:
-  version: 1.11.2-2
-  bugs:
-    - 798537
 ruby-mysql2:
   version: 0.3.18-1
   bugs:
@@ -16027,10 +15910,6 @@ scowl:
   version: 7.1-1
   bugs:
     - 791851
-screenlets:
-  version: 0.1.2-8
-  bugs:
-    - 802139
 scscp-imcce:
   version: 1.0.1+ds-1
   issues:
@@ -17746,10 +17625,6 @@ ui-utilcpp:
   version: 1.8.3-2
   issues:
     - timestamps_from_cpp_macros
-uima-addons:
-  version: 2.3.1-3
-  bugs:
-    - 807706
 uima-as:
   version: 2.3.1-3
   issues:
@@ -18625,12 +18500,6 @@ xfireworks:
   version: 1.3-9
   issues:
     - timestamps_in_gzip_headers
-xflip:
-  version: 1.01-25
-  issues:
-    - ftbfs_old_compat_debheper_compat_level
-  bugs:
-    - 800268
 xfonts-a12k12:
   version: 1-11
   issues:
