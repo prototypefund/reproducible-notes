@@ -1752,10 +1752,6 @@ cduce:
   version: 0.6.0-1
   bugs:
     - 796418
-cecil:
-  version: 0.9.5+dfsg-2
-  issues:
-    - timestamps_in_pe_binaries
 cegui-mk2:
   version: 0.7.6-3.3
   issues:
@@ -2579,10 +2575,6 @@ cvs:
   version: 2:1.12.13+real-15
   issues:
     - timestamps_in_pdf_generated_by_latex
-cvs-fast-export:
-  version: 1.34-1
-  issues:
-    - timestamps_in_documentation_generated_by_asciidoc
 cvs-mailcommit:
   version: 1.19-2
   issues:
@@ -2787,10 +2779,6 @@ dbus-python:
   version: 1.2.0-2
   issues:
     - timestamps_in_python_docutils
-dbus-sharp:
-  version: 0.8.1-1
-  issues:
-    - timestamps_in_pe_binaries
 dbusada:
   version: 0.3-1
   issues:
@@ -5208,10 +5196,6 @@ gem:
   version: 1:0.93.3-8
   issues:
     - timestamps_from_cpp_macros
-genometools:
-  version: 1.5.4-1
-  issues:
-    - timestamps_in_manpages_generated_by_docbook_xsl
 genparse:
   version: 0.9.1-1
   bugs:
@@ -5350,8 +5334,8 @@ ginkgocadx:
     - timestamps_from_cpp_macros
 gio-sharp:
   version: 2.22.3-2
-  issues:
-    - timestamps_in_pe_binaries
+  comments: |
+    Unidentified variation in /usr/lib/gio-sharp/gio-sharp.dll
 gip:
   version: 1.7.0-1-3
   bugs:
@@ -5603,8 +5587,8 @@ gmic:
     - timestamps_from_cpp_macros
 gmime:
   version: 2.6.20-1
-  issues:
-    - timestamps_in_pe_binaries
+  comments:
+    Unidentified variation in /usr/lib/cli/gmime-sharp-2.6/gmime-sharp.dll
 gmpc-plugins:
   version: 11.8.16-2
   bugs:
@@ -5681,8 +5665,8 @@ gnome-do:
     - timestamps_in_pe_binaries
 gnome-do-plugins:
   version: 0.8.5-3
-  issues:
-    - timestamps_in_pe_binaries
+  comments:
+    Unidentified varation in Resource Table in /usr/lib/gnome-do/plugins/Empathy.dll
 gnome-documents:
   version: 3.14.2-1
   comments: |
@@ -6305,10 +6289,6 @@ guacamole-server:
   version: 0.8.3-1
   bugs:
     - 807537
-guava-libraries:
-  version: 18.0-4
-  issues:
-    - random_order_in_documentation_generated_by_javadoc
 guessit:
   version: 0.10.3-1
   bugs:
@@ -8011,13 +7991,6 @@ kvpnc:
   version: 0.9.6a-2.1
   issues:
     - timestamps_from_cpp_macros
-kwave:
-  version: 0.8.12-1-2
-  comments: |
-    Embeds the build date.
-    https://sources.debian.net/src/kwave/0.8.12-1-2/cmake/FindKwaveVersion.cmake/#L55-L61
-    https://sources.debian.net/src/kwave/0.8.12-1-2/CMakeLists.txt/#L399-L404
-    https://sources.debian.net/src/kwave/0.8.12-1-2/bin/set_version.sh/#L93
 kwayland:
   version: 4:5.3.2-1
   bugs:
@@ -8334,10 +8307,6 @@ libcgicc:
   version: 3.2.9-3
   issues:
     - timestamps_from_cpp_macros
-libchado-perl:
-  version: 1.23-2
-  bugs:
-    - 802042
 libcitygml:
   version: 0.14+svn134-2+3p2p1
   issues:
@@ -8586,10 +8555,6 @@ libffado:
   version: 2.2.1-2
   issues:
     - timestamps_from_cpp_macros
-libffi:
-  version: 3.1-2
-  comments: |
-    Timestamp in custom test script
 libflexdock-java:
   version: 1.2.4-1
   issues:
@@ -10718,10 +10683,6 @@ mknbi:
   comments: |
     Embeds the build date into manpages.
     https://sources.debian.net/src/mknbi/1.4.4-11/Makefile/#L213-L215
-mksh:
-  version: 50d-3
-  comments: |
-    Puts output from $(date) and others into README.Debian
 mkvtoolnix:
   version: 8.2.0-2
   issues:
@@ -10836,10 +10797,6 @@ mongodb:
   version: 1:2.4.14-3
   issues:
     - timestamps_from_cpp_macros
-monit:
-  version: 1:5.15-1
-  bugs:
-    - 807159
 monkeysign:
   version: 2.0.2
   bugs:
@@ -11665,10 +11622,6 @@ nted:
   version: 1.10.18-9
   issues:
     - different_encoding_in_html_by_docbook_xsl
-ntlmaps:
-  version: 0.9.9.0.1-11.3
-  issues:
-    - unsorted_filelist_python_support_private
 ntop:
   version: 3:5.0.1+dfsg1-2.1
   issues:
@@ -11687,10 +11640,6 @@ nufw:
   version: 2.4.3-3.3
   issues:
     - timestamps_in_directories
-nuget:
-  version: 2.8.1+md54+dhx3-1
-  issues:
-    - timestamps_in_pe_binaries
 nuitka:
   version: 0.5.13+ds-1
   bugs:
@@ -12669,11 +12618,6 @@ perdition:
     - timestamps_in_gzip_headers
   bugs:
     - 787998
-perl:
-  version: 5.22.0-4
-  bugs:
-    - 801523
-    - 801621
 perl-cross-debian:
   version: 0.0.5
   issues:
@@ -12849,10 +12793,6 @@ picard:
   version: 1.3.2-2
   bugs:
     - 805221
-picolisp:
-  version: 3.1.11.1-1
-  comments: |
-    date added by `(prinl "/* " (datSym (date)) " */")` in src64/lib/asm.l
 picviz:
   version: 0.5-1
   comments: |
@@ -12885,10 +12825,6 @@ pink-pony:
   version: 1.4.1-1
   bugs:
     - 802352
-pinta:
-  version: 1.3-3
-  issues:
-    - timestamps_in_pe_binaries
 pirl:
   version: 2.3.8-1
   issues:
@@ -17383,10 +17319,6 @@ tomcat7:
   version: 7.0.62-1
   issues:
     - ftbfs_uninvestigated_big_packages
-tomcat8:
-  version: 8.0.23-1
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 topal:
   version: 75-2
   comments: |
@@ -18395,10 +18327,6 @@ wordnet:
   version: 1:3.0-33
   issues:
     - timestamps_in_dictionaries
-wordpress:
-  version: 4.3.1+dfsg-1
-  issues:
-    - timestamps_in_directories
 wordwarvi:
   version: 1.00+dfsg1-3
   comments: |
@@ -18633,30 +18561,12 @@ xfonts-a12k12:
     - timestamps_in_gzip_headers
   bugs:
     - 779184
-xfonts-ayu:
-  version: 1.7+0a+0debian1-2.1
-  issues:
-    - timestamps_in_gzip_headers
-  bugs:
-    - 778214
 xfonts-cronyx:
   version: 2.3.8-6
   issues:
     - timestamps_in_gzip_headers
   bugs:
     - 778230
-xfonts-kaname:
-  version: 1.1-9.1
-  issues:
-    - timestamps_in_gzip_headers
-  bugs:
-    - 778227
-xfonts-kappa20:
-  version: 0.396-3
-  issues:
-    - timestamps_in_gzip_headers
-  bugs:
-    - 778223
 xfonts-mona:
   version: 2.90-7
   issues:
@@ -18854,11 +18764,6 @@ xshogi:
     - timestamps_in_png
   bugs:
     - 778786
-xsp:
-  version: 3.8-2
-  issues:
-    - timestamps_in_pe_binaries
-    - timezones_manpages_podman
 xsystem35:
   version: 1.7.3-pre5-5
   issues:
@@ -19055,6 +18960,7 @@ zeal:
     - timestamps_from_cpp_macros
   bugs:
     - 802871
+    - timestamps_in_pe_binaries
 zemberek-ooo:
   version: 1.0~rc2-10.4
   issues:
