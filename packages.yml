@@ -53,7 +53,6 @@ abook:
   issues:
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
-    - different_due_to_umask
   bugs:
     - 777271
     - 792995
@@ -147,8 +146,6 @@ adasockets:
     - timestamps_in_ada_library_information_files
 adblock-plus:
   version: 2.6.10+dfsg-1
-  issues:
-    - timestamps_in_zip
   bugs:
     - 795395
 adcli:
@@ -530,10 +527,6 @@ apq:
   version: 3.2.0-2
   issues:
     - timestamps_in_pdf_generated_by_latex
-apr:
-  version: 1.5.1-3
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 apron:
   version: 0.9.10-6
   issues:
@@ -831,10 +824,6 @@ atsar:
     - ftbfs_old_compat_debheper_compat_level
   bugs:
     - 800264
-attal:
-  version: 1.0~rc2-2
-  issues:
-    - ftbfs_uninvestigated_big_packages
 attal-themes:
   version: 1.0~rc2.dfsg1-1
   issues:
@@ -1654,8 +1643,6 @@ casablanca:
   version: 2.2.0-1
   comments: |
     fixed in git https://anonscm.debian.org/cgit/collab-maint/casablanca.git/commit/?id=3517d4ac11bd7f45ff9deaba3fbcf2e9f67ee7b0
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 castle-game-engine:
   version: 5.1.1-2
   issues:
@@ -1672,10 +1659,6 @@ cc1111:
   version: 2.9.0-4
   issues:
     - timestamps_from_cpp_macros
-ccfits:
-  version: 2.4+dfsg-3
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 cclib:
   version: 1.3.1-1
   issues:
@@ -1946,10 +1929,6 @@ chrony:
   version: 1.31.1-2
   issues:
     - build_id_variation_requiring_further_investigation
-ciderwebmail:
-  version: 1.05-5
-  issues:
-    - timezones_manpages_podman
 cimg:
   version: 1.6.4+dfsg-1
   issues:
@@ -2023,7 +2002,6 @@ cli-common:
   version: 0.9
   issues:
     - timestamps_in_pdf_generated_by_latex
-    - timezones_manpages_podman
 clif:
   version: 0.93-9
   issues:
@@ -2163,7 +2141,6 @@ coinor-dylp:
   version: 1.6.0-1.1
   issues:
     - timestamps_in_pdf_generated_by_latex
-    - timestamps_in_documentation_generated_by_doxygen
 coinor-ipopt:
   version: 3.11.9-2.1
   issues:
@@ -2796,8 +2773,6 @@ dcmstack:
     - randomness_in_documentation_generated_by_sphinx
 dcmtk:
   version: 3.6.0-15
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
   bugs:
     - 790133
 dctrl-tools:
@@ -3609,10 +3584,6 @@ edfbrowser:
   version: 1.54-2
   issues:
     - timestamps_from_cpp_macros
-editorconfig-core:
-  version: 0.11.5-2
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
 editorconfig-emacs:
   version: 0.4+git20151028.3835e4-1
   issues:
@@ -3653,10 +3624,6 @@ ekg2:
   version: 1:0.4~pre+20120506.1-10
   issues:
     - different_pot_creation_date_in_gettext_mo_files
-elasticsearch:
-  version: 1.0.3+dfsg-5
-  issues:
-    - timestamps_in_jar
 elastix:
   version: 4.7-2
   issues:
@@ -4192,14 +4159,6 @@ ferret-vis:
   version: 6.9.3-3
   issues:
     - build_id_variation_requiring_further_investigation
-fest-assert:
-  version: 2.0~M10-1
-  issues:
-    - locale_in_documentation_generated_by_javadoc
-fest-util:
-  version: 1.2.5-1
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 festival:
   version: 1:2.1~release-8
   issues:
@@ -4274,10 +4233,6 @@ findbugs:
   version: 2.0.3+repack-2
   issues:
     - timestamps_in_maven_version_files
-findbugs-bcel:
-  version: 6.0~20130831-1
-  issues:
-    - timestamps_in_jar
 firebird2.5:
   version: 2.5.4.26856.ds4-1
   comments: |
@@ -4296,10 +4251,6 @@ fis-gtm:
   version: 6.2-002A-2
   comments: |
     Really curious diffoscope where a very large number of 0x01 bytes in the a build 0x02 in the b build. Possibly an offset difference rather than literal difference?
-fish:
-  version: 2.2.0-2
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
 fityk:
   version: 1.2.1-0.1
   issues:
@@ -4740,10 +4691,6 @@ freecol:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - timestamps_from_tex4ht
-freecontact:
-  version: 1.0.21-3
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 freedict:
   version: 2014.10.22-2
   issues:
@@ -4852,10 +4799,6 @@ fspy:
   comments: |
     Embeds the build time.
     https://sources.debian.net/src/fspy/0.1.1-1/Makefile/#L4
-ftgl:
-  version: 2.1.3~rc5-4+nmu1
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 ftpcopy:
   version: 0.6.7-3
   issues:
@@ -5358,10 +5301,6 @@ gitolite3:
   version: 3.6.1-2
   issues:
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-givaro:
-  version: 3.7.2-1.1
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 gjiten:
   version: 2.6-2.3
   issues:
@@ -5400,122 +5339,6 @@ glob2:
   version: 0.9.4.4-2.3
   issues:
     - timestamps_from_cpp_macros
-globus-authz-callout-error:
-  version: 3.5-3
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
-globus-callout:
-  version: 3.13-3
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
-globus-common:
-  version: 15.26-3
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
-globus-ftp-client:
-  version: 8.16-1
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
-globus-ftp-control:
-  version: 6.3-1
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
-globus-gass-cache:
-  version: 9.5-1
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
-globus-gass-copy:
-  version: 9.13-1
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
-globus-gass-transfer:
-  version: 8.8-3
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
-globus-gram-client:
-  version: 13.11-1
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
-globus-gram-job-manager-callout-error:
-  version: 3.5-3
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
-globus-gram-protocol:
-  version: 12.12-4
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
-globus-gridmap-callout-error:
-  version: 2.4-3
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
-globus-gsi-callback:
-  version: 5.6-3
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
-globus-gsi-cert-utils:
-  version: 9.10-3
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
-globus-gsi-credential:
-  version: 7.7-3
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
-globus-gsi-openssl-error:
-  version: 3.5-3
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
-globus-gsi-proxy-core:
-  version: 7.7-3
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
-globus-gsi-proxy-ssl:
-  version: 5.7-3
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
-globus-gsi-sysconfig:
-  version: 6.8-3
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
-globus-gss-assist:
-  version: 10.13-1
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
-globus-gssapi-error:
-  version: 5.4-3
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
-globus-gssapi-gsi:
-  version: 11.14-1
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
-globus-net-manager:
-  version: 0.9-1
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
-globus-openssl-module:
-  version: 4.6-3
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
-globus-rsl:
-  version: 10.9-3
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
-globus-scheduler-event-generator:
-  version: 5.10-1
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
-globus-xio:
-  version: 4.17-1
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
-globus-xio-gridftp-driver:
-  version: 2.8-3
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
-globus-xio-gsi-driver:
-  version: 3.6-3
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
 glosstex:
   version: 0.4.dfsg.1-3
   issues:
@@ -6618,10 +6441,6 @@ httraqt:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/httraqt/1.4.4-1/CMakeLists.txt/#L60-L64
-hwloc:
-  version: 1.10.0-3
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 hy:
   version: 0.11.0-3
   bugs:
@@ -7044,26 +6863,10 @@ jack-tools:
   version: 20131226-1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-jackrabbit:
-  version: 2.3.6-1
-  issues:
-    - timestamps_in_jar
-jackson-databind:
-  version: 2.4.2-2
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 jackson-dataformat-cbor:
   version: 2.4.3-1
   issues:
     - timestamps_in_documentation_generated_by_javadoc
-jackson-dataformat-smile:
-  version: 2.4.2-1
-  issues:
-    - locale_in_documentation_generated_by_javadoc
-jackson-dataformat-xml:
-  version: 2.5.3+dfsg-1
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 jackson-dataformat-yaml:
   version: 2.4.3-2
   issues:
@@ -7161,10 +6964,6 @@ jasypt:
   version: 1.8-3
   issues:
     - timestamps_in_documentation_generated_by_javadoc
-java-allocation-instrumenter:
-  version: 2.1-1
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 java-common:
   version: 0.52
   issues:
@@ -7397,18 +7196,10 @@ jmol:
   version: 12.2.32+dfsg2-1
   issues:
     - locale_in_documentation_generated_by_javadoc
-jnr-ffi:
-  version: 1.0.10-2
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 jnr-x86asm:
   version: 0.1-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-joda-convert:
-  version: 1.7-1
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 jodconverter:
   version: 2.2.2-7
   comments: |
@@ -8127,10 +7918,6 @@ libam7xxx:
   version: 0.1.6-2
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-libandroid-json-org-java:
-  version: 20121204-20090211-1
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 libapache-dbi-perl:
   version: 1.12-1
   bugs:
@@ -8212,18 +7999,10 @@ libbasicplayer-java:
   version: 3.0-6
   issues:
     - locale_in_documentation_generated_by_javadoc
-libbio-chado-schema-perl:
-  version: 0.20000-1
-  issues:
-    - timezones_manpages_podman
 libbluray:
   version: 0.6.2-1
   issues:
     - timestamps_in_ps_generated_by_dvips
-libburn:
-  version: 1.3.2-1.1
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 libcaca:
   version: 0.99.beta19-2
   comments: |
@@ -8251,18 +8030,10 @@ libcitygml:
   version: 0.14+svn134-2+3p2p1
   issues:
     - timestamps_from_cpp_macros
-libclaw:
-  version: 1.7.3-1.1
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 libcobra-java:
   version: 0.98.4-5
   issues:
     - locale_in_documentation_generated_by_javadoc
-libcommoncpp2:
-  version: 1.8.1-6.1
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
 libcommons-codec-java:
   version: 1.10-1
   issues:
@@ -8371,10 +8142,6 @@ libcsp:
   issues:
     - timestamps_from_cpp_macros
     - different_due_to_umask
-libdaemon:
-  version: 0.14-6
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
 libdap:
   version: 3.12.0-1
   issues:
@@ -8404,10 +8171,6 @@ libdbix-class-perl:
   version: 0.082820-1
   issues:
     - ftbfs_uninvestigated_test_failures
-libdbusmenu-qt:
-  version: 0.9.3+15.10.20150604-1
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 libdc0:
   version: 0.3.24~svn3121-2
   comments: |
@@ -8453,10 +8216,6 @@ libewf:
   version: 20140608-2
   issues:
     - timestamps_from_cpp_macros
-libexosip2:
-  version: 4.1.0-2
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
 libexpect-php5:
   version: 0.3.1-1
   bugs:
@@ -8512,10 +8271,6 @@ libfreemarker-java:
     - timestamp_in_java_bnd_manifest
 libfreenect:
   version: 1:0.5.2+git6-g5455843+dfsg-1
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
-libftdi1:
-  version: 1.2-5
   issues:
     - timestamps_in_documentation_generated_by_doxygen
 libfurl-perl:
@@ -8778,10 +8533,6 @@ libjaxp1.3-java:
   version: 1.3.05-2
   issues:
     - randomness_in_gcj_output
-libjbcrypt-java:
-  version: 0.3-4
-  issues:
-    - timestamps_in_jar
 libjcalendar-java:
   version: 1.3.3-3
   issues:
@@ -8872,10 +8623,6 @@ libjna-posix-java:
   issues:
     - timestamps_in_jar
     - timestamps_in_documentation_generated_by_javadoc
-    - locale_in_documentation_generated_by_javadoc
-libjoda-time-java:
-  version: 2.8.2-2
-  issues:
     - locale_in_documentation_generated_by_javadoc
 libjogl2-java:
   version: 2.2.4+dfsg-1
@@ -9083,10 +8830,6 @@ libmsv:
     - timestamps_in_gzip_headers
   bugs:
     - 792975
-libmwaw:
-  version: 0.3.7-1
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 libnanoxml2-java:
   version: 2.2.3.dfsg-4
   issues:
@@ -9112,10 +8855,6 @@ libnet-tclink-perl:
   version: 3.4.0-6
   comments: |
     segfaults, but see also #796027 and #796028
-libnfo:
-  version: 1.0.1-1.1
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 libnsgif:
   version: 0.0.1-1.1
   bugs:
@@ -9229,10 +8968,6 @@ libphp-jpgraph:
   version: 1.5.2-12.1
   issues:
     - different_due_to_umask
-libphysfs:
-  version: 2.0.3-3
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 libpicocontainer-java:
   version: 2.15-1
   issues:
@@ -9347,10 +9082,6 @@ librepository:
   version: 1.1.6-2
   issues:
     - locale_in_documentation_generated_by_javadoc
-librostlab-blast:
-  version: 1.0.1-5
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 librun-parts-perl:
   version: 0.09-2
   issues:
@@ -9385,14 +9116,6 @@ libsendmail-milter-perl:
   version: 0.18-8
   bugs:
     - 807392
-libserial:
-  version: 0.6.0~rc2+svn122-4
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
-libshevek:
-  version: 1.4-1
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 libskinlf-java:
   version: 6.7-8
   issues:
@@ -9442,8 +9165,6 @@ libswingx1-java:
     - locale_in_documentation_generated_by_javadoc
 libsyncml:
   version: 0.5.4-2.2
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
   bugs:
     - 794225
 libsynthesis:
@@ -9555,7 +9276,6 @@ libvsqlitepp:
   version: 0.3.13-3
   issues:
     - undeterministic_symlinking_by_rdfind
-    - timestamps_in_documentation_generated_by_doxygen
 libvt-ldap-java:
   version: 3.3.8-1
   issues:
@@ -9574,10 +9294,6 @@ libwibble:
   version: 1.1-1
   issues:
     - random_order_in_static_libraries
-libwps:
-  version: 0.3.0-2
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 libwx-perl:
   version: 1:0.9923-4
   issues:
@@ -9745,10 +9461,6 @@ lilyterm:
   version: 0.9.9.4-4
   comments: |
     Embeds the build year as copyright year. https://sources.debian.net/src/lilyterm/0.9.9.4-4/.default/#L16
-limereg:
-  version: 1.4.0-1
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 linkchecker:
   version: 9.3-1
   issues:
@@ -9855,10 +9567,6 @@ lm4tools:
   version: 20140816~a565880+dfsg-1
   issues:
     - timestamps_in_manpages_generated_by_help2man
-lmdb:
-  version: 0.9.15-1
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
 lmemory:
   version: 0.6c-7
   issues:
@@ -9882,10 +9590,6 @@ localizer:
   version: 1.13-2
   issues:
     - timestamps_in_documentation_generated_by_javadoc
-log4c:
-  version: 1.2.1-3
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 log4net:
   version: 1.2.10+dfsg-6
   issues:
@@ -10062,10 +9766,6 @@ lvm2:
   version: 2.02.122-2
   issues:
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-lvtk:
-  version: 1.2.0~dfsg0-1
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 lwjgl:
   version: 2.7.1+dfsg-4
   issues:
@@ -10380,18 +10080,10 @@ maven-shade-plugin:
   version: 1.7.1-1
   issues:
     - timestamps_in_documentation_generated_by_javadoc
-maven-shared-incremental:
-  version: 1.1-1
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 maven-shared-jar:
   version: 1.1-1
   issues:
     - random_order_in_plexus_comonents_xml
-maven-shared-utils:
-  version: 0.4-1
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 maven-source-plugin:
   version: 2.2.1-1
   issues:
@@ -10612,10 +10304,6 @@ mkvtoolnix:
   version: 8.2.0-2
   issues:
     - timestamps_from_cpp_macros
-mlpack:
-  version: 1.0.10-1
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 mlpost:
   version: 0.8.1-6
   issues:
@@ -11824,10 +11512,6 @@ ooolib-perl:
   version: 0.1.9-1
   issues:
     - different_due_to_umask
-opal:
-  version: 3.10.10~dfsg2-1
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 opam:
   version: 1.2.0-1
   issues:
@@ -12041,10 +11725,6 @@ openturns:
   version: 1.5-7
   issues:
     - build_id_variation_requiring_further_investigation
-openvdb:
-  version: 2.3.0-2
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 openvpn:
   version: 2.3.4-4
   issues:
@@ -12859,10 +12539,6 @@ plexus-containers:
   version: 1.0~beta3.0.7-7
   issues:
     - locale_in_documentation_generated_by_javadoc
-plexus-containers1.5:
-  version: 1.5.5-6
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 plexus-digest:
   version: 1.1-3
   issues:
@@ -13029,10 +12705,6 @@ postgresql-multicorn:
   version: 1.2.2-1
   bugs:
     - 795590
-postgresql-plproxy:
-  version: 2.5-5
-  issues:
-    - timestamps_in_documentation_generated_by_asciidoc
 pound:
   version: 2.6-6.1
   comments: |
@@ -13073,10 +12745,6 @@ prima:
   version: 1.28-1.3
   bugs:
     - 778951
-primesieve:
-  version: 5.5.0+ds-1
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 primrose:
   version: 6+dfsg1-3
   issues:
@@ -13131,10 +12799,6 @@ prophet:
   version: 0.750-1
   bugs:
     - 720794
-protozero:
-  version: 1.2.3-1
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 prover9-manual:
   version: 0.0.200902a-2
   issues:
@@ -13183,10 +12847,6 @@ pstoedit:
   version: 3.62-2
   issues:
     - timestamps_from_cpp_macros
-pstreams:
-  version: 0.8.0-2
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
 psychtoolbox-3:
   version: 3.0.11.20140816.dfsg1-1
   issues:
@@ -14162,10 +13822,6 @@ qpid-cpp:
   version: 0.16-9
   issues:
     - ftbfs_uninvestigated_big_packages
-qpid-proton:
-  version: 0.7-2
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 qrfcview:
   version: 0.62-5.2
   issues:
@@ -16144,8 +15800,6 @@ sisc:
     - timestamps_in_jar
 siscone:
   version: 2.0.6-1
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
   bugs:
     - 790034
 sjfonts:
@@ -16314,14 +15968,6 @@ sonnet:
   comments: |
     Caused by QHash usage (instead of QMap?) in data/parsetrigrams.cpp. Could
     also be filesystem ordering here too.
-soqt:
-  version: 1.6.0~e8310f-2
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
-sord:
-  version: 0.12.2~dfsg0-1
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
 sorl-thumbnail:
   version: 12.2-1
   bugs:
@@ -16398,10 +16044,6 @@ sphinx:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - randomness_in_documentation_indices_generated_by_sphinx
-sphinxbase:
-  version: 0.8-6
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 sphinxcontrib-programoutput:
   version: 0.8-4
   comments: |
@@ -16513,10 +16155,6 @@ sra-sdk:
   version: 2.3.5-2+dfsg-1
   issues:
     - timestamps_from_cpp_macros
-sratom:
-  version: 0.4.6~dfsg0-1
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 srtp:
   version: 1.4.5~20130609~dfsg-1.1
   issues:
@@ -16721,8 +16359,6 @@ svtplay-dl:
   comments: |
     The svtplay-dl python "script" contains a zip archive,
     whose members have differing mtimes.
-  issues:
-    - timestamps_in_zip
 svxlink:
   version: 14.08.1-1
   issues:
@@ -18096,10 +17732,6 @@ west-chamber:
     - different_due_to_umask
   bugs:
     - 778358
-wfmath:
-  version: 1.0.2+dfsg1-0.4
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 whizzytex:
   version: 1.3.2-1.3
   bugs:
@@ -18882,8 +18514,6 @@ zim:
     https://sources.debian.net/src/zim/0.63-1/makeman.py/#L46
 zipios++:
   version: 0.1.5.9+cvs.2007.04.28-5.1
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
   bugs:
     - 794239
 znc:
