@@ -826,11 +826,6 @@ gettext_creates_ChangeLog_files_and_entries_with_current_date:
   description: |
     http://sources.debian.net/src/gettext/0.19.6-1/gettext-tools/misc/gettextize.in/#L401
   url: https://bugs.debian.org/804141
-ftbfs_openssl_transition:
-  description: |
-    openssl is transitioning and removing ssl3 related methods.
-  url: https://release.debian.org/transitions/html/auto-openssl.html
-  deterministic: True
 ftbfs_old_compat_debheper_compat_level:
   description: |
     debhelper 9.20151116 removed support for the compat levels 1, 2.
