@@ -6466,6 +6466,10 @@ jboss-logmanager:
   version: 2.0.3-1
   issues:
     - method_may_never_be_called_in_documentation_generated_by_javadoc
+jboss-xnio:
+  version: 3.3.2-1
+  bugs:
+    - 808619
 jcharts:
   version: 0.7.5-4
   issues:
