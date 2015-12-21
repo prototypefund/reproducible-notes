@@ -9915,6 +9915,10 @@ netmrg:
   comments: |
     zero.rrd is created with rrdtool, which uses ~$now as time by default (rrdcreate(1)).
     Could be fixed by using `--start $changelog_epoch`.
+netpipe:
+  version: 3.7.2-7
+  bugs:
+    - 808591
 netqmail:
   version: 1.06-5
   issues:
