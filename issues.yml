@@ -970,3 +970,7 @@ timestamps_in_documentation_generated_by_pandoc:
   description:
     Pandoc writes a timestamp in the HTML and manpages it generates.
   deterministic: True
+unsorted_filelist_in_xul_ext_preferences:
+  description:
+    mozilla-devscripts embeds a file list in readdir order into preference files in /etc/xul-ext/.
+  url: https://bugs.debian.org/808713
