@@ -9895,6 +9895,10 @@ nagios-nrpe:
   comments: |
     Embed build time:
     https://sources.debian.net/src/nagios-nrpe/2.15-1/update-version/
+nagios-plugin-check-multi:
+  version: 0.26-2
+  bugs:
+    - 808737
 nagios-plugins-contrib:
   version: 14.20141104
   comments: |
