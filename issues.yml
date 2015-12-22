@@ -324,9 +324,8 @@ timestamps_in_gemspec_files:
   description:
     .gemspecs store the date.
     .
-    Will be fixed once ruby2.2 becomes the default (blocking on GCC 5
-    transition; see https://bugs.debian.org/779631).
-  url: https://bugs.debian.org/779631
+    An older bug, https://bugs.debian.org/779631 , fixed the date being written in the local
+    timezone, but it still varies based on system clock.
   deterministic: True
 timestamps_in_documentation_generated_by_sphinx:
   description: |
