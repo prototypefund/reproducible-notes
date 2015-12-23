@@ -522,10 +522,6 @@ apt-listbugs:
   version: 0.1.17
   issues:
     - timestamps_in_documentation_generated_by_rdtool
-apt-listdifferences:
-  version: 1.20141011
-  bugs:
-    - 804219
 apt-show-source:
   version: 0.10+nmu2
   issues:
@@ -3297,10 +3293,6 @@ dvdisaster:
   version: 0.72.4-1
   issues:
     - different_pot_creation_date_in_gettext_mo_files
-dvdtape:
-  version: 1.6-1
-  bugs:
-    - 800175
 dvdwizard:
   version: 0.7.1-2
   issues:
@@ -4831,10 +4823,6 @@ gfxboot:
     - timestamps_in_cpio_archive
     - users_and_groups_in_cpio_archive
     - different_due_to_umask
-ggcov:
-  version: 0.9-8
-  bugs:
-    - 805199
 ghc-testsuite:
   version: 7.8.4-1
   comments: |
@@ -5437,8 +5425,6 @@ gradle:
   version: 1.5-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
-  bugs:
-    - 804470
 grads:
   version: 2:2.0.2-3
   comments: |
@@ -6024,10 +6010,6 @@ httraqt:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/httraqt/1.4.4-1/CMakeLists.txt/#L60-L64
-hy:
-  version: 0.11.0-3
-  bugs:
-    - 805204
 hyde:
   version: 0.8.5a1-4
   issues:
@@ -6232,10 +6214,6 @@ infinipath-psm:
     Embeds the bild date.
     https://sources.debian.net/src/infinipath-psm/3.3%2B7.g05f6f14.open-1/ipath/Makefile/#L73
     https://sources.debian.net/src/infinipath-psm/3.3%2B7.g05f6f14.open-1/Makefile/#L273
-influxdb-python:
-  version: 2.8.0-1
-  bugs:
-    - 802079
 infon:
   version: 0~r198-8
   issues:
@@ -7628,15 +7606,6 @@ libdata-hal-perl:
   version: 1.000-1
   bugs:
     - 768687
-libdata-uuid-perl:
-  version: 1.220-1
-  issues:
-    - ftbfs_uninvestigated_test_failures
-libdatetime-incomplete-perl:
-  version: 0.07-1
-  bugs:
-    - 805207
-    - 805210
 libdbi-drivers:
   version: 0.9.0-3
   issues:
@@ -8742,10 +8711,6 @@ libxml-easyobj-perl:
   bugs:
     - 797289
     - 798488
-libxml-rpc-fast-perl:
-  version: 0.8-1
-  bugs:
-    - 805164
 libxml-validate-perl:
   version: 1.025-2
   bugs:
@@ -8781,8 +8746,6 @@ libzhuyin:
   version: 0.9.99.20140929-1
   issues:
     - berkeley_db_variation_requiring_further_investigation
-  bugs:
-    - 804473
 libzypp:
   version: 14.29.1-2
   issues:
@@ -9370,10 +9333,6 @@ maven-hpi-plugin:
   version: 1.93-2
   issues:
     - random_order_in_maven_plugin_xml
-maven-javadoc-plugin:
-  version: 2.9.1-2
-  bugs:
-    - 793586
 maven-plugin-testing:
   version: 1.3-2
   issues:
@@ -9885,10 +9844,6 @@ murano:
   version: 2015.1.0-9
   issues:
     - ftbfs_uninvestigated_test_failures
-murano-dashboard:
-  version: 2015.1.0-1
-  bugs:
-    - 797900
 muse-el:
   version: 3.20+dfsg-0.1
   issues:
@@ -10203,10 +10158,6 @@ nexus:
   version: 4.3.2-svn1921-2
   issues:
     - timestamps_in_jar
-nfdump:
-  version: 1.6.12-0.1
-  bugs:
-    - 799994
 nfstrace:
   version: 0.3.1-2
   comments: |
@@ -12358,10 +12309,6 @@ python-django-debug-toolbar:
   version: 1:1.4-1
   issues:
     - copyright_year_in_documentation_generated_by_sphinx
-python-django-extensions:
-  version: 1.5.0-1
-  bugs:
-    - 802131
 python-django-feincms:
   version: 1.7.4-1
   bugs:
@@ -13521,10 +13468,6 @@ ruby-activerecord-session-store:
   version: 0.1.1-1
   issues:
     - timestamps_in_gemspec_files
-ruby-aruba:
-  version: 0.5.4-2
-  bugs:
-    - 794157
 ruby-bdb:
   version: 0.6.6-1
   issues:
@@ -13927,10 +13870,6 @@ ruby-rack-mount:
   version: 0.8.3-1
   issues:
     - timestamps_in_gemspec_files
-ruby-rack-oauth2:
-  version: 1.2.0-3
-  bugs:
-    - 802132
 ruby-raemon:
   version: 0.3.0+git.2012.05.18.b78eaae57c-1
   issues:
@@ -14691,10 +14630,6 @@ slepc:
   issues:
     - user_hostname_manually_added_requiring_further_investigation
     - captures_kernel_version
-slgsl:
-  version: 0.7.0-5.1
-  bugs:
-    - 796402
 slic3r:
   version: 1.1.7+dfsg-2
   issues:
@@ -15565,8 +15500,6 @@ tiger:
   version: 1:3.2.3-12.1
   issues:
     - collation_order_varies_by_locale
-  bugs:
-    - 792828
 tightvnc:
   version: 1.3.9-6.5
   issues:
@@ -15745,10 +15678,6 @@ trigger-rally:
   version: 0.6.1-0.1
   comments: |
     Unidentified variation in main binary.
-trigger-rally-data:
-  version: 0.6.1-1
-  bugs:
-    - 789308
 triplane:
   version: 1.0.8-1
   bugs:
@@ -16296,10 +16225,6 @@ visolate:
   version: 2.1.6~svn8+dfsg1-1
   bugs:
     - 791866
-visualboyadvance:
-  version: 1.8.0.dfsg-2
-  bugs:
-    - 805163
 visualvm:
   version: 1.3.8-2
   comments: |
@@ -16351,8 +16276,6 @@ votca-csg:
   version: 1.2.4-1
   issues:
     - timestamps_from_cpp_macros
-  bugs:
-    - 802357
 votca-tools:
   version: 1.2.4-1
   issues:
@@ -17252,10 +17175,6 @@ ziproxy:
   version: 3.2.0-2
   bugs:
     - 808524
-znc:
-  version: 1.6.1-1
-  bugs:
-    - 804618
 zoneminder:
   version: 1.28.1-7
   comments: |
