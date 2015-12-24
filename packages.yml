@@ -14542,14 +14542,6 @@ siege:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/siege/3.0.8-1/configure.ac/#L22
-signify:
-  version: 1.14-1
-  issues:
-    - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-  bugs:
-    - 777062
-    - 793721
 signond:
   version: 8.57+20150423-3
   issues:
@@ -15460,10 +15452,6 @@ tex4ht:
     - timestamps_in_jar
   bugs:
     - 789843
-texi2html:
-  version: 1.82+dfsg1
-  bugs:
-    - 783478
 texlive-base:
   version: 2014.20141024-2
   comments: |
