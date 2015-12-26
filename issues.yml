@@ -406,13 +406,6 @@ timestamps_in_ada_library_information_files:
     Ada Library Information (.ali) files contain the mtime of the Ada source (.ads) files that they index.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInAdaLibraryInformationFiles
   deterministic: False
-bad_handling_of_extra_warnings:
-  description: |
-    FTBFS if CPPFLAGS is multiple words, which breaks our CI. The package needs to be updated
-    to correctly quote the output of dpkg-buildflags --get CPPFLAGS. e.g. note the lack of double quotes
-    around CPPFLAGS=$(.. in https://sources.debian.net/src/avfs/1.0.1-2/debian/rules/#L20 .  Can be
-    tested with: DEB_CPPFLAGS_APPEND='-D__TOTALL_FAKE_VARIABLE__=5' dpkg-buildpackage
-  deterministic: True
 ftbfs_wdatetime:
   description: |
     FTBFS if dpkg-buildflags contains -Wdate-time.
