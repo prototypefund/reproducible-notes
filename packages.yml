@@ -3590,6 +3590,10 @@ epson-inkjet-printer-escpr:
   version: 1.4.1-2
   issues:
     - ppds_compressed_b64
+epubcheck:
+  version: 4.0.1-1
+  issues:
+    - timestamps_in_maven_version_files
 equivs:
   version: 2.0.9
   bugs:
