@@ -847,8 +847,8 @@ avahi:
     - gettext_creates_ChangeLog_files_and_entries_with_current_date
 avfs:
   version: 1.0.1-2
-  issues:
-    - bad_handling_of_extra_warnings
+  bugs:
+    - 809077
 avian:
   version: 1.1.0-4
   comments: |
@@ -1302,8 +1302,8 @@ bowtie:
     https://sources.debian.net/src/bowtie/1.1.1-2/Makefile/#L193
 bowtie2:
   version: 2.2.5-1
-  issues:
-    - bad_handling_of_extra_warnings
+  bugs:
+    - 809076
 boxbackup:
   version: 0.11.1~r2837-1
   issues:
@@ -14928,8 +14928,8 @@ spamprobe:
     - timestamps_in_manpages_generated_by_docbook_xsl
 spark:
   version: 2012.0.deb-9
-  issues:
-    - bad_handling_of_extra_warnings
+  bugs:
+    - 809074
 sparkleshare:
   version: 1.2-0.1
   issues:
