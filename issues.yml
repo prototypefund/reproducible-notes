@@ -973,3 +973,7 @@ unsorted_filelist_in_xul_ext_preferences:
   description:
     mozilla-devscripts embeds a file list in readdir order into preference files in /etc/xul-ext/.
   url: https://bugs.debian.org/808713
+nondeterminstic_output_generated_by_moarvm:
+  description:
+    moarvm creates .moarvm files that have non-deterministic identifiers,
+    possibly to ensure uniqueness. unknown source.
