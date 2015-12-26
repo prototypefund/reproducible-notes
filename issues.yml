@@ -430,11 +430,6 @@ ftbfs_build_depends_not_available_on_amd64:
     - https://wiki.debian.org/Build-Depends-Indep
     - https://bugs.launchpad.net/launchpad/+bug/217427
   deterministic: True
-ftbfs_due_to_virtual_dependencies:
-  description: |
-    Package has virtual build dependencies or conflicts without listing a real package as alternative first. This causes pbuilder to fail the build and it also makes it virtually impossible to reproducible build the package.
-  url: https://lintian.debian.org/tags/virtual-package-depends-without-real-package-depends.html
-  deterministic: True
 ftbfs_environment:
   description: |
     FTBFS with some unrelated values of the environment variables (lang, timezone, ...)
