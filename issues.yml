@@ -410,12 +410,6 @@ ftbfs_wdatetime:
   description: |
     FTBFS if dpkg-buildflags contains -Wdate-time.
   deterministic: True
-ftbfs_wdatetime_due_to_swig:
-  url: https://bugs.debian.org/790102
-  description: |
-    FTBFS if dpkg-buildflags contains -Wdate-time and those buildflags are passed
-    unchanged to swig.
-  deterministic: True
 ftbfs_build_depends_not_available_on_amd64:
   description: |
     Package build depends on some package(s), which are not available on amd64.
