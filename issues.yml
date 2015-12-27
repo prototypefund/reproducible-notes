@@ -954,3 +954,8 @@ nondeterminstic_output_generated_by_moarvm:
   description:
     moarvm creates .moarvm files that have non-deterministic identifiers,
     possibly to ensure uniqueness. unknown source.
+nondeterminstic_ordering_in_gsettings_glib_enums_xml:
+  description:
+    glib's glib-mkenums and gsettings_ENUM_FILES mechanism can generate output
+    in a non-deterministic / filesystem order as most Gnome packages just specify
+    "src/*.h".
