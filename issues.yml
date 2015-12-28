@@ -960,3 +960,8 @@ nondeterminstic_ordering_in_gsettings_glib_enums_xml:
     in a non-deterministic / filesystem order as most Gnome packages just specify
     "src/*.h".
   url: https://bugs.debian.org/809152
+nondeterminstic_output_in_warnings_generated_by_breathe:
+  description:
+    If you use "doxygenfunction" sphinx directive provided by breathe and the
+    function is ambiguous, then the warning message injected into the docs can
+    be non-determinstic.
