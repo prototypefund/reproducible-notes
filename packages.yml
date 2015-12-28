@@ -4612,6 +4612,14 @@ gcc-5:
     deki said: 'libcilkrts/runtime/sysdep-unix.c contains __DATE__ and __TIME__'
   issues:
     - build_id_variation_requiring_further_investigation
+gcc-5-cross:
+  version: 17
+  issues:
+    - diffoscope_runs_forever
+gcc-arm-none-eabi:
+  version: 15:4.9.3+svn231177-1
+  issues:
+    - diffoscope_runs_forever
 gcc-avr:
   version: 1:4.8.1+Atmel3.4.4-2
   comments: |
@@ -7281,6 +7289,10 @@ lammps:
   version: 0~20150313.gitfa668e1-1
   issues:
     - timestamps_from_cpp_macros
+lapack:
+  version: 3.5.0-5
+  issues:
+    - diffoscope_runs_forever
 lastpass-cli:
   version: 0.3.0-2
   issues:
@@ -9909,6 +9921,10 @@ mysql-5.5:
   version: 5.5.44-0+deb8u1
   issues:
     - ftbfs_uninvestigated_test_failures
+mysql-5.6:
+  version: 5.6.27-2
+  issues:
+    - diffoscope_runs_forever
 mysql-connector-net:
   version: 6.4.3-2
   issues:
@@ -10757,6 +10773,10 @@ openclipart:
     Package has been blacklisted for now
   issues:
     - blacklisted_on_jenkins
+openclipart2:
+  version: 2.0+dfsg-1
+  issues:
+    - diffoscope_runs_forever
 opencv:
   version: 2.4.9.1+dfsg-1
   issues:
@@ -11593,6 +11613,10 @@ pike7.8:
   version: 7.8.866-3
   issues:
     - timestamps_from_cpp_macros
+pike8.0:
+  version: 8.0.28-4
+  issues:
+    - diffoscope_runs_forever
 pilot-link:
   version: 0.12.5-dfsg-1
   issues:
@@ -16462,6 +16486,10 @@ webkit2pdf:
   version: 0.3-1
   bugs:
     - 786633
+webkitgtk:
+  version: 2.4.9-3
+  issues:
+    - diffoscope_runs_forever
 websocket-client:
   version: 0.18.0-2
   issues:
