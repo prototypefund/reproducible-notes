@@ -7815,6 +7815,10 @@ libgpg-error:
   version: 1.20-1
   comments: |
     Same issue as gnupg, see #806494
+libgpod:
+  version: 0.8.3-5
+  comments: |
+    Timezone-related Make issue causing different linking and thus substvars. output of dpkg-shlibdeps is https://gist.github.com/lamby/493de60a3f1ac2a279e8
 libgrip:
   version: 0.3.8-1
   bugs:
