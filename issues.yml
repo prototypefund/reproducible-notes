@@ -966,3 +966,7 @@ nondeterminstic_output_in_warnings_generated_by_breathe:
     function is ambiguous, then the warning message injected into the docs can
     be non-determinstic.
   url: https://bugs.debian.org/809186
+qt_translate_noop_nondeterminstic_ordering:
+  description:
+    QT_TRANSLATE_NOOP macro creates a sqlite database with entry IDs (?) that
+    are nondeterminstic
