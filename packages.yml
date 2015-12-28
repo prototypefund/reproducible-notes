@@ -11853,6 +11853,10 @@ postgis:
     - timestamp_in_java_bnd_manifest
     - locale_in_documentation_generated_by_javadoc
     - timestamps_in_documentation_generated_by_javadoc
+postgresql-9.4:
+  version: 9.4.5-2
+  bugs:
+    - 808325
 postgresql-multicorn:
   version: 1.2.2-1
   bugs:
