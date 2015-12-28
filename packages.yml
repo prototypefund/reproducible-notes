@@ -2224,6 +2224,10 @@ cppcheck:
   version: 1.70-2
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
+cppformat:
+  version: 1.1.0+ds-3
+  issues:
+    - nondeterminstic_output_in_warnings_generated_by_breathe
 cppman:
   version: 0.4.5-1
   issues:
