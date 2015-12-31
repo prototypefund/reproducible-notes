@@ -8593,6 +8593,10 @@ libsys-virt-perl:
   version: 1.2.18-1
   bugs:
     - 797490
+libtemplates-parser:
+  version: 11.8.2014-4
+  comments: |
+    I think this is readdir ordering caused by --subdir argument passed to gprbuild, but can't see where that's actually utilised in gprbuild package.
 libtest-checkchanges-perl:
   version: 0.14-2
   bugs:
