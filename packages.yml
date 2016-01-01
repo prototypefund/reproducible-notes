@@ -5882,6 +5882,10 @@ heimdal:
   version: 1.6~rc2+dfsg-10
   bugs:
     - 809012
+heirloom-mailx:
+  version: 12.5-5
+  bugs:
+    - 809574
 hepmc:
   version: 2.06.09-1
   issues:
@@ -5981,6 +5985,8 @@ horizon:
     /usr/share/openstack-dashboard/openstack_dashboard/local/.secret_key_store
     and
     /usr/share/openstack-dashboard/openstack_dashboard/test/.secret_key_store
+  bugs:
+    - 809575
 hp-search-mac:
   version: 0.1.3
   issues:
@@ -6069,6 +6075,8 @@ hyena:
   version: 0.5-3
   issues:
     - timestamps_in_pe_binaries
+  bugs:
+    - 809576
 hylafax:
   version: 3:6.0.6-6
   bugs:
@@ -7068,6 +7076,8 @@ keepass2:
   issues:
     - timestamps_in_pe_binaries
     - timestamps_in_png
+  bugs:
+    - 809578
 keepassx:
   version: 0.4.3+dfsg-0.1
   bugs:
@@ -7654,6 +7664,8 @@ libdap:
   version: 3.12.0-1
   issues:
     - timestamps_from_cpp_macros
+  bugs:
+    - 809580
 libdata-dump-streamer-perl:
   version: 2.39-1
   bugs:
@@ -7772,6 +7784,8 @@ libfreenect:
   version: 1:0.5.2+git6-g5455843+dfsg-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+  bugs:
+    - 809582
 libfurl-perl:
   version: 3.05-1
   comments: |
@@ -7804,6 +7818,8 @@ libgenome-model-tools-music-perl:
     - timestamps_in_documentation_generated_by_podman
     - timezones_manpages_podman
     - timestamps_in_documentation_generated_by_ur
+  bugs:
+    - 809583
 libgetopt-java:
   version: 1.0.14+dfsg-2
   issues:
@@ -8965,6 +8981,8 @@ lizardfs:
   version: 2.5.4.2+dfsg-1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
+  bugs:
+    - 809584
 llvm-toolchain-3.5:
   version: 1:3.5-6
   issues:
@@ -9761,6 +9779,8 @@ mono-zeroconf:
   version: 0.9.0-4
   issues:
     - timestamps_in_pe_binaries
+  bugs:
+    - 809585
 monodevelop:
   version: 5.5.0.227-1
   issues:
@@ -9980,6 +10000,8 @@ mysql-connector-net:
   version: 6.4.3-2
   issues:
     - timestamps_in_pe_binaries
+  bugs:
+    - 809586
 mysql-mmm:
   version: 2.2.1-1.1
   issues:
@@ -10057,6 +10079,10 @@ nbc:
   comments: |
     Makefile writes `date` into include file:
     https://sources.debian.net/src/nbc/1.2.1.r4%2Bdfsg-1/NXT/nbcunix.mak/#L37
+nbd:
+  version: 1:3.12.1-2
+  bugs:
+    - 809581
 nbibtex:
   version: 0.9.18-11
   comments: |
@@ -10824,6 +10850,8 @@ openbve:
   version: 1.4.0.9-1
   issues:
     - timestamps_in_pe_binaries
+  bugs:
+    - 809587
 openclipart:
   version: 1:0.18+dfsg-14
   comments: |
@@ -10867,6 +10895,8 @@ openjdk-7-jre-dcevm:
   version: 7u60-3
   issues:
     - build_id_variation_requiring_further_investigation
+  bugs:
+    - 809588
 openjdk-8:
   version: 8u40~b09-1
   issues:
@@ -10898,6 +10928,8 @@ openmcdf:
   version: 1.5.4-1
   issues:
     - timestamps_in_pe_binaries
+  bugs:
+    - 809589
 openmeeg:
   version: 2.0.0.dfsg-5.2
   bugs:
@@ -10966,6 +10998,8 @@ opentk:
   version: 1.0.20101006+dfsg1-1
   issues:
     - timestamps_in_pe_binaries
+  bugs:
+    - 809590
 opentoken:
   version: 6.0b-3
   comments: |
@@ -11400,6 +11434,8 @@ pegasus-wms:
     - timestamps_in_pdf_generated_by_apache_fop
     - timestamps_in_jar
     - timestamp_in_java_bnd_manifest
+  bugs:
+    - 809591
 pekwm:
   version: 0.1.17-1
   comments: |
@@ -11801,6 +11837,8 @@ plplot:
   issues:
     - different_encoding_in_html_by_docbook_xsl
     - timestamps_in_jar
+  bugs:
+    - 809592
 plymouth:
   version: 0.9.0-8
   issues:
@@ -11874,6 +11912,8 @@ poppler-sharp:
   version: 0.0.3-2
   issues:
     - timestamps_in_pe_binaries
+  bugs:
+    - 809593
 popplerkit.framework:
   version: 0.0.20051227svn-7.1
   issues:
@@ -13816,6 +13856,10 @@ ruby-foreigner:
   version: 1.7.4-1
   bugs:
     - 808530
+ruby-foreman:
+  version: 0.78.0-2
+  bugs:
+    - 809594
 ruby-fssm:
   version: 0.2.10-2
   bugs:
@@ -14586,6 +14630,8 @@ sendip:
   version: 2.5-6
   issues:
     - timestamps_in_manpages_generated_by_help2man
+  bugs:
+    - 809595
 sensible-utils:
   version: 0.0.9
   issues:
@@ -15383,6 +15429,8 @@ sympy:
   version: 0.7.5-4
   issues:
     - timestamps_in_pdf_generated_by_latex
+  bugs:
+    - 809596
 synaptic:
   version: 0.82
   issues:
@@ -15792,6 +15840,8 @@ tomboy:
   version: 1.14.1-3
   issues:
     - timestamps_in_pe_binaries
+  bugs:
+    - 809597
 tomcat6:
   version: 6.0.41-3
   issues:
@@ -16809,6 +16859,8 @@ x11proto-bigreqs:
   version: 1:1.1.2-1
   issues:
     - different_encoding
+  bugs:
+    - 809598
 x11proto-core:
   version: 7.0.26-1
   issues:
