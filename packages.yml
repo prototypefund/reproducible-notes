@@ -7183,7 +7183,7 @@ kmix:
   bugs:
     - 799992
 kmod:
-  version: 20-1
+  version: 22-1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
   bugs:
@@ -7446,10 +7446,6 @@ libapache-dbi-perl:
   version: 1.12-1
   bugs:
     - 798557
-libapache-mod-auth-radius:
-  version: 1.5.8-1.2
-  bugs:
-    - 765062
 libapache-mod-jk:
   version: 1:1.2.40+svn150520-1
   issues:
@@ -7652,10 +7648,6 @@ libdata-faker-perl:
   version: 0.10-1
   bugs:
     - 808454
-libdata-hal-perl:
-  version: 1.000-1
-  bugs:
-    - 768687
 libdbi-drivers:
   version: 0.9.0-3
   issues:
@@ -8982,9 +8974,8 @@ lnav:
   issues:
     - ftbfs_uninvestigated_test_failures
 loadlin:
-  version: 1.6f-3
+  version: 1.6f-4
   issues:
-    - timestamps_in_gzip_headers
     - different_due_to_umask
   bugs:
     - 779146
@@ -11259,7 +11250,7 @@ pastescript:
   bugs:
     - 788249
 pathological:
-  version: 1.1.3-12
+  version: 1.1.3-13
   issues:
     - serial_numbers_in_ogg
   bugs:
@@ -16587,10 +16578,6 @@ wagon2:
   version: 2.7-1
   issues:
     - random_order_in_plexus_comonents_xml
-waitress:
-  version: 0.8.9-2
-  bugs:
-    - 788597
 wand:
   version: 0.3.9-1
   issues:
