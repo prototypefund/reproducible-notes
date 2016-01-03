@@ -1258,9 +1258,9 @@ bowtie:
     Captures the hostname and build time.
     https://sources.debian.net/src/bowtie/1.1.1-2/Makefile/#L193
 bowtie2:
-  version: 2.2.5-1
-  bugs:
-    - 809076
+  version: 2.2.6-2
+  issues:
+    - build_id_variation_requiring_further_investigation
 boxbackup:
   version: 0.11.1~r2837-1
   issues:
@@ -1574,11 +1574,6 @@ celery:
   version: 3.1.13-3
   issues:
     - randomness_in_documentation_generated_by_sphinx
-celery-haystack:
-  version: 0.9-1
-  bugs:
-    - 806343
-    - 808635
 cenon.app:
   version: 4.0.2-1
   issues:
@@ -2855,10 +2850,6 @@ diction:
   version: 1.11-1
   issues:
     - different_pot_creation_date_in_gettext_mo_files
-dieharder:
-  version: 3.31.1-5
-  bugs:
-    - 808486
 diet:
   version: 2.8.0-1
   bugs:
@@ -2888,10 +2879,6 @@ dino:
   version: 0.2.8-3
   bugs:
     - 805197
-diod:
-  version: 1.0.24-2
-  bugs:
-    - 808618
 diploma:
   version: 1.2.11
   issues:
@@ -2926,11 +2913,6 @@ ditaa:
   version: 0.10+ds1-1
   bugs:
     - 802065
-django-auth-ldap:
-  version: 1.2.6+dfsg-1
-  bugs:
-    - 806344
-    - 808646
 django-celery:
   version: 3.1.16-1
   issues:
@@ -3401,8 +3383,6 @@ efl:
   version: 1.8.6-2.1
   issues:
     - timestamps_from_cpp_macros
-  bugs:
-    - 796426
 eigenbase-resgen:
   version: 1.3.0.13768-1
   issues:
@@ -5644,10 +5624,6 @@ guitarix:
   version: 0.34.0-0.1
   issues:
     - build_id_variation_requiring_further_investigation
-gumbo-parser:
-  version: 0.10.1+dfsg-2
-  bugs:
-    - 802075
 gummiboot:
   version: 45-2
   issues:
@@ -6197,10 +6173,6 @@ insighttoolkit4:
   issues:
     - different_due_to_umask
     - blacklisted_on_jenkins
-inspircd:
-  version: 2.0.20-4
-  bugs:
-    - 809008
 insserv:
   version: 1.14.0-5
   bugs:
@@ -6745,10 +6717,6 @@ jsmath-fonts-sprite:
     - timestamps_difference_by_unzip
   bugs:
     - 792597
-jsmpp:
-  version: 2.1.2-2
-  bugs:
-    - 808496
 jss:
   version: 4.3.1-6
   issues:
@@ -7507,10 +7475,6 @@ libconfig-model-itself-perl:
     needs more investigation + bug
   issues:
     - blacklisted_on_jenkins
-libconfig-model-lcdproc-perl:
-  version: 2.042-4
-  bugs:
-    - 808853
 libconstantine-java:
   version: 0.7-6
   issues:
@@ -8595,10 +8559,6 @@ libvldocking-java:
   issues:
     - timestamps_in_documentation_generated_by_javadoc
     - locale_in_documentation_generated_by_javadoc
-libvpx:
-  version: 1.4.0-4
-  bugs:
-    - 809129
 libvsqlitepp:
   version: 0.3.13-3
   issues:
@@ -9354,10 +9314,6 @@ medicalterms:
     - collation_order_varies_by_locale
   bugs:
     - 793813
-meep-mpich2:
-  version: 1.3-2
-  bugs:
-    - 807747
 memcached:
   version: 1.4.24-2
   bugs:
@@ -9975,10 +9931,6 @@ nekohtml:
   version: 1.9.21-2
   issues:
     - locale_in_documentation_generated_by_javadoc
-neo:
-  version: 0.3.3-1
-  bugs:
-    - 798058
 nepomuk-core:
   version: 4:4.14.0-1
   issues:
@@ -10022,10 +9974,6 @@ netmrg:
   comments: |
     zero.rrd is created with rrdtool, which uses ~$now as time by default (rrdcreate(1)).
     Could be fixed by using `--start $changelog_epoch`.
-netpipe:
-  version: 3.7.2-7
-  bugs:
-    - 808591
 netqmail:
   version: 1.06-5
   issues:
@@ -10082,10 +10030,6 @@ neutron-vpnaas:
   version: 2015.1.1-1
   issues:
     - ftbfs_uninvestigated_test_failures
-nevow:
-  version: 0.11.1-1
-  bugs:
-    - 808506
 newlib:
   version: 2.2.0+git20150830.5a3d536-1
   issues:
@@ -10168,13 +10112,9 @@ nis:
     - 787126
     - 800305
 nitime:
-  version: 0.5-1
+  version: 0.5-3
   comments: |
     Randomness in example images because of random() without constant seed.
-  issues:
-    - timestamps_in_documentation_generated_by_sphinx
-  bugs:
-    - 802524
 nkf:
   version: 2.13-4
   issues:
@@ -10324,11 +10264,10 @@ nqp:
   issues:
     - nondeterminstic_output_generated_by_moarvm
 nrefactory:
-  version: 5.3.0+20130718.73b6d0f-1
-  issues:
-    - timestamps_in_pe_binaries
-  bugs:
-    - 808677
+  version: 5.3.0+20130718.73b6d0f-3
+  comments: |
+    Unidentified differences in
+    ./usr/lib/nrefactory-samples/ICSharpCode.NRefactory.GtkDemo.exe
 ns3:
   version: 3.17+dfsg-1
   issues:
@@ -11219,12 +11158,6 @@ pdfposter:
   version: 0.6.0-2
   issues:
     - timestamps_in_pdf_generated_by_latex
-pdfrw:
-  version: 0.2-1
-  issues:
-    - ftbfs_uninvestigated_test_failures
-  bugs:
-    - 808678
 pdftk:
   version: 2.02-2
   issues:
@@ -11294,10 +11227,6 @@ perlpanel:
     - timestamps_in_gzip_headers
   bugs:
     - 777444
-perspectives-extension:
-  version: 4.6.2-1
-  bugs:
-    - 807673
 petsc:
   version: 3.6.2.dfsg1-3
   issues:
@@ -11470,14 +11399,15 @@ php-zmq:
   bugs:
     - 805222
 php5:
-  version: 5.6.9+dfsg-1
+  version: 5.6.16+dfsg-3
   comments: |
     upstream bug: https://bugs.php.net/bug.php?id=69727
-    also committed and pending upload: https://anonscm.debian.org/cgit/pkg-php/php.git/commit/?id=ce408ef4162a9fbcf69377fdd82a8c760c6761a5
+    Timestamps get embedded in PEAR/PECL registry files.
+    Test results capturing quite of the environment in
+    ./usr/share/doc/php5-common/test-results.txt.gz
   issues:
-    - timestamps_from_cpp_macros
-  bugs:
-    - 805222
+    - build_id_variation_requiring_further_investigation
+    - different_due_to_umask
 php5-midgard2:
   version: 10.05.7-1
   bugs:
@@ -12254,10 +12184,6 @@ python-csb:
   version: 1.2.3+dfsg-1
   issues:
     - use_epydoc
-python-csscompressor:
-  version: 0.9.4-1
-  bugs:
-    - 808896
 python-curtsies:
   version: 0.1.19-2
   bugs:
@@ -12282,10 +12208,6 @@ python-django-bootstrap-form:
   version: 3.1.0-5
   bugs:
     - 806362
-python-django-compressor:
-  version: 1.5-3
-  bugs:
-    - 807355
 python-django-contact-form:
   version: 1.1-1
   bugs:
@@ -12324,10 +12246,6 @@ python-django-threadedcomments:
   version: 0.9.0-1
   bugs:
     - 801935
-python-django-treebeard:
-  version: 3.0+dfsg-1
-  bugs:
-    - 808513
 python-django-voting:
   version: 0.2-1
   bugs:
@@ -12548,10 +12466,6 @@ python-phply:
   version: 0.9.1-3
   issues:
     - python-ply_compiled_parse_tables
-python-pika:
-  version: 0.9.14-1
-  bugs:
-    - 796543
 python-pint:
   version: 0.6-1
   issues:
@@ -13150,10 +13064,6 @@ rails:
   version: 2:4.1.10-1
   issues:
     - timestamps_in_gemspec_files
-rake-compiler:
-  version: 0.9.5-1
-  bugs:
-    - 794147
 rakudo:
   version: 2015.09-2
   issues:
@@ -13373,7 +13283,7 @@ ripmime:
   issues:
     - captures_kernel_version
 rkward:
-  version: 0.6.2~rc1-2
+  version: 0.6.4-1
   issues:
     - timestamps_in_description_files_generated_by_r-base-dev
   bugs:
@@ -13450,10 +13360,9 @@ rpm2html:
     - 807395
     - 807396
 rsbackup:
-  version: 1.1-4
+  version: 3.0-2
   issues:
-    - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
+    - different_encoding
   bugs:
     - 777394
     - 793716
@@ -13795,10 +13704,6 @@ ruby-memcache-client:
   version: 1.8.5-3
   bugs:
     - 797256
-ruby-messagebus-api:
-  version: 3.0.7+git.20130130.97b34ece-1
-  bugs:
-    - 794269
 ruby-mini-magick:
   version: 4.2.3-1
   issues:
@@ -13918,10 +13823,6 @@ ruby-rails-html-sanitizer:
   version: 1.0.2-1
   issues:
     - timestamps_in_gemspec_files
-ruby-rails-i18n:
-  version: 4.0.5-1
-  bugs:
-    - 803630
 ruby-recaptcha:
   version: 0.4.0-1
   issues:
@@ -14036,10 +13937,6 @@ ruby-shoulda-matchers:
   version: 1.0.0~beta2-1
   issues:
     - timestamps_in_gemspec_files
-ruby-sidetiq:
-  version: 0.6.3-4
-  bugs:
-    - 809005
 ruby-sigar:
   version: 0.7.2-3.1
   issues:
@@ -14442,11 +14339,9 @@ service-wrapper-java:
   issues:
     - timestamps_in_jar
 setools:
-  version: 3.3.8-3.2
+  version: 3.3.8+20151215-1
   comments: |
-    filesystem order in libqpol_a_LIBADD ?
-  bugs:
-    - 806485
+    order depends of filesystem or locale in libqpol_a_LIBADD ?
 sexplib310:
   version: 111.25.00-1
   issues:
@@ -14748,10 +14643,6 @@ soapdenovo2:
   version: 240+dfsg-2
   issues:
     - timestamps_from_cpp_macros
-socat:
-  version: 1.7.3.0-1
-  bugs:
-    - 804611
 socklog:
   version: 2.1.0-8
   issues:
@@ -14801,9 +14692,9 @@ spamprobe:
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
 spark:
-  version: 2012.0.deb-9
-  bugs:
-    - 809074
+  version: 2012.0.deb-11
+  comments: |
+    Embed a timestamp and other weird things in ./usr/bin/checker
 sparkleshare:
   version: 1.2-1
   bugs:
@@ -15331,10 +15222,6 @@ tbb:
     Build ran for more than 36h...
   issues:
     - blacklisted_on_jenkins
-tcc:
-  version: 0.9.27~git20140923.9d7fb33-3
-  bugs:
-    - 808523
 tcllib:
   version: 1.17-dfsg-1
   issues:
@@ -15463,11 +15350,6 @@ the:
   bugs:
     - 777370
     - 793728
-thepeg:
-  version: 1.8.0-1
-  bugs:
-    - 790035
-    - 802418
 therion:
   version: 5.3.15-2
   comments: |
@@ -15833,10 +15715,6 @@ twidge:
   version: 1.1.2
   issues:
     - timestamps_in_pdf_generated_by_latex
-twinkle:
-  version: 1:1.4.2-4
-  bugs:
-    - 746054
 twitter-bootstrap3:
   version: 3.3.5+dfsg-2
   comments: |
@@ -17092,10 +16970,6 @@ yodl:
   version: 3.04.00-1
   issues:
     - timestamps_in_dvi_generated_by_latex
-yorick:
-  version: 2.2.04+dfsg1-3
-  bugs:
-    - 808979
 yorick-spydr:
   version: 0.8.2-3
   bugs:
