@@ -848,11 +848,6 @@ avr-libc:
   version: 1:1.8.0+Atmel3.4.5-1
   issues:
     - different_due_to_umask
-avrdude:
-  version: 6.1-2
-  issues:
-    - timestamps_in_ps_generated_by_dvips
-    - timestamps_from_cpp_macros
 avrprog:
   version: 0.2.2-2
   issues:
@@ -939,10 +934,6 @@ banshee:
     - timestamps_in_pe_binaries
   bugs:
     - 808632
-banshee-community-extensions:
-  version: 2.4.0-4
-  bugs:
-    - 808631
 bareftp:
   version: 0.3.9-3
   issues:
@@ -1202,11 +1193,6 @@ blockattack:
     Content of PDF file differs (build date embedded); identifiers of fonts are also differing.
   issues:
     - fonts_in_pdf_files
-blosxom:
-  version: 2.1.2-1
-  bugs:
-    - 777292
-    - 793001
 bnd:
   version: 1.50.0-8
   issues:
@@ -1348,10 +1334,6 @@ bustle:
   version: 0.4.8-1
   bugs:
     - 808017
-buzztrax:
-  version: 0.10.1-1
-  bugs:
-    - 808388
 bwctl:
   version: 1.4.1~rc2-1
   issues:
@@ -4542,10 +4524,6 @@ gap-gapdoc:
   issues:
     - timestamps_in_gzip_headers
     - timestamps_in_pdf_generated_by_latex
-gap-guava:
-  version: 3.12+ds1-2
-  issues:
-    - fonts_in_pdf_files
 gap-polycyclic:
   version: 2.11-1
   issues:
@@ -5200,10 +5178,6 @@ gocr:
   version: 0.49-2
   issues:
     - timestamps_from_cpp_macros
-goffice:
-  version: 0.10.23-1
-  issues:
-    - build_id_variation_requiring_further_investigation
 gofigure2:
   version: 0.9.0-3
   issues:
@@ -6490,10 +6464,6 @@ javahelp2:
   version: 2.0.05.ds1-8
   issues:
     - locale_in_documentation_generated_by_javadoc
-javamail:
-  version: 1.5.4-1
-  bugs:
-    - 809602
 javamorph:
   version: 0.0.20100201-1.3
   issues:
@@ -9655,10 +9625,6 @@ mono-basic:
   version: 3.8-1
   issues:
     - timestamps_in_pe_binaries
-mono-debugger-libs:
-  version: 0+20131201.3459502-1
-  issues:
-    - timestamps_in_pe_binaries
 mono-fuse:
   version: 0.4.2+dfsg-3
   issues:
@@ -10077,15 +10043,6 @@ netrek-client-cow:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/netrek-client-cow/3.3.0-3.1/mkcflags.c/#L52-L53
-netris:
-  version: 0.52-9
-  issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-    - timestamps_in_gzip_headers
-    - different_due_to_umask
-  bugs:
-    - 778201
-    - 793707
 netrw:
   version: 1.3.2-2
   comments: |
@@ -10670,10 +10627,6 @@ omhacks:
   version: 0.16-1
   issues:
     - random_order_in_static_libraries
-onboard:
-  version: 1.1.2-1
-  bugs:
-    - 806517
 oneliner-el:
   version: 0.3.6-7.1
   bugs:
@@ -11160,12 +11113,6 @@ pastescript:
   version: 1.7.5-3
   bugs:
     - 788249
-pathological:
-  version: 1.1.3-13
-  issues:
-    - serial_numbers_in_ogg
-  bugs:
-    - 775995
 pavucontrol:
   version: 3.0-2
   issues:
@@ -12239,10 +12186,6 @@ python-asyncssh:
   version: 1.2.0-1
   issues:
     - randomness_in_documentation_indices_generated_by_sphinx
-python-avro:
-  version: 1.8.0~rc0+dfsg-1
-  issues:
-    - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
 python-babel:
   version: 1.3+dfsg.1-5
   bugs:
@@ -13294,11 +13237,6 @@ rdtool:
   comments: |
     Embeds the build date into manpages.
     https://sources.debian.net/src/rdtool/0.6.38-3/lib/rd/rd2man-lib.rb/#L48
-re2c:
-  version: 0.13.5-1
-  comments: |
-    Embeds the build date.
-    https://sources.debian.net/src/re2c/0.13.5-1/configure.in/#L7
 readline6:
   version: 6.3-8
   issues:
@@ -14254,10 +14192,6 @@ rustc:
   version: 1.0.0+dfsg1-1
   comments: |
     Non-determistic JSON serialisation http://sources.debian.net/src/rustc/1.0.0%2Bdfsg1-1/src/librustdoc/html/render.rs/#L1299
-s3d:
-  version: 0.2.2-10
-  issues:
-    - different_encoding_in_html_by_docbook_xsl
 s3ql:
   version: 2.15+dfsg-1
   issues:
@@ -15852,7 +15786,10 @@ ttyload:
   bugs:
     - 786508
 tumiki-fighters:
-  version: 0.2.dfsg1-6
+  version: 0.2.dfsg1-7
+  comments: |
+    Ordering issue in an intermediate variable… maybe something is non-deterministic
+    in the D compiler.
   bugs:
     - 794400
 tupi:
@@ -16164,10 +16101,6 @@ vagrant:
   version: 1.7.4+dfsg-1
   issues:
     - timestamps_in_gemspec_files
-val-and-rick:
-  version: 0.1a.dfsg1-4
-  bugs:
-    - 792056
 vala-mode-el:
   version: 0.1-2
   issues:
