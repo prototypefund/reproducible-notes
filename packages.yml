@@ -9566,15 +9566,19 @@ monkeysign:
   bugs:
     - 784602
 mono:
-  version: 3.2.8+dfsg-9
-  issues:
-    - timestamps_in_pe_binaries
+  version: 4.2.1.102+dfsg2-5
+  comments: |
+    PE timestamps are fixed, documentation tool is using timestamps.
+    See https://bugzilla.xamarin.com/show_bug.cgi?id=37367
 mono-addins:
   version: 1.0+git20130406.adcd75b-3
   issues:
     - timestamps_in_pe_binaries
 mono-basic:
   version: 3.8-1
+  comments: |
+    PE timestamps fixed for C# but not VB.NET. See
+    https://bugzilla.xamarin.com/show_bug.cgi?id=37366
   issues:
     - timestamps_in_pe_binaries
 mono-fuse:
