@@ -3177,10 +3177,10 @@ drbd-doc:
   issues:
     - timestamps_in_pdf_generated_by_apache_fop
 drbd-utils:
-  version: 8.9.2~rc1-2
+  version: 8.9.5-1
   comments: |
-    Embed build time, user, and hostname:
-    https://sources.debian.net/src/drbd-utils/8.9.2~rc1-2/user/shared/Makefile.in/?hl=86#L65
+    Embedded date is affected by timezone in
+    https://sources.debian.net/src/drbd-utils/8.9.5-1/user/shared/Makefile.in/?hl=90#L90
 drift:
   version: 2.2.3-2.3
   issues:
@@ -15418,9 +15418,9 @@ timingframework:
   issues:
     - random_order_in_documentation_generated_by_javadoc
 tin:
-  version: 1:2.2.1-1
+  version: 1:2.3.2-1
   issues:
-    - timestamps_from_cpp_macros
+    - build_id_variation_requiring_further_investigation
 tinc:
   version: 1.0.24-2.1
   issues:
@@ -15550,7 +15550,7 @@ trafficserver:
   issues:
     - timestamps_from_cpp_macros
 transdecoder:
-  version: 2.0.1+dfsg-1
+  version: 2.0.1+dfsg-2
   bugs:
     - 809187
 transfig:
