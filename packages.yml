@@ -828,8 +828,11 @@ automaton:
     - locale_in_documentation_generated_by_javadoc
 avahi:
   version: 0.6.31-5
-  issues:
-    - gettext_creates_ChangeLog_files_and_entries_with_current_date
+  comments: |
+    - debian/rules implicitly uses ChangeLog as the upstream changelog, but ChangeLog is created from
+      scratch at every build, which makes it not to be a good upstream changelog.
+  bugs:
+    - 804141
 avfs:
   version: 1.0.1-2
   bugs:
