@@ -2859,10 +2859,6 @@ dietlibc:
   issues:
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
-diffoscope:
-  version: 38
-  issues:
-    - ftbfs_uninvestigated_test_failures
 diffutils:
   version: 1:3.3-2
   bugs:
