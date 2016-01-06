@@ -831,10 +831,6 @@ avahi:
       scratch at every build, which makes it not to be a good upstream changelog.
   bugs:
     - 804141
-avfs:
-  version: 1.0.1-2
-  bugs:
-    - 809077
 avian:
   version: 1.1.0-4
   comments: |
@@ -1204,10 +1200,6 @@ bnd:
     - timestamps_in_jar
     - timestamp_in_java_bnd_manifest
     - timezones_manpages_podman
-boats:
-  version: 201307-1
-  bugs:
-    - 803298
 bobcat:
   version: 4.01.03-2
   bugs:
@@ -2916,10 +2908,6 @@ django-celery:
     - randomness_in_documentation_generated_by_sphinx
   bugs:
     - 809568
-django-classy-tags:
-  version: 0.6.2-1
-  bugs:
-    - 806345
 django-compat:
   version: 1.0.7-2
   bugs:
@@ -2928,10 +2916,6 @@ django-conneg:
   version: 0.9.4-2
   bugs:
     - 801929
-django-countries:
-  version: 3.4.1-1
-  bugs:
-    - 806347
 django-evolution:
   version: 0.6.7-1
   bugs:
@@ -2940,8 +2924,6 @@ django-floppyforms:
   version: 1.5.2+dfsg-1
   issues:
     - copyright_year_in_documentation_generated_by_sphinx
-  bugs:
-    - 806348
 django-guardian:
   version: 1.2.4+git20141127-0.2
   issues:
@@ -2950,26 +2932,10 @@ django-ldapdb:
   version: 0.2.0-1
   bugs:
     - 755601
-django-markupfield:
-  version: 1.3.5-1
-  bugs:
-    - 806349
-django-oauth-toolkit:
-  version: 0.9.0-1
-  bugs:
-    - 806351
 django-openid-auth:
   version: 0.5-2.3
   bugs:
     - 806352
-django-picklefield:
-  version: 0.3.1-2
-  bugs:
-    - 806353
-django-polymorphic:
-  version: 0.7.1-1
-  bugs:
-    - 806354
 django-ratelimit:
   version: 0.4.0+8+gd58c489-3
   bugs:
@@ -2978,14 +2944,6 @@ django-recurrence:
   version: 1.2.0-1
   bugs:
     - 808763
-django-reversion:
-  version: 1.10.0-1
-  bugs:
-    - 806356
-django-sekizai:
-  version: 0.8.2-1
-  bugs:
-    - 806357
 django-session-security:
   version: 2.2.4+dfsg-1
   issues:
@@ -2994,10 +2952,6 @@ django-stronghold:
   version: 0.2.7+debian-1
   bugs:
     - 808484
-django-tables:
-  version: 1.0.4-2
-  bugs:
-    - 806359
 django-testscenarios:
   version: 0.7.4-2
   issues:
@@ -3753,10 +3707,6 @@ felix-latin:
   version: 2.0-7
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-fenix:
-  version: 0.92a.dfsg1-11
-  bugs:
-    - 803279
 ferret-vis:
   version: 6.9.3-3
   issues:
@@ -5809,10 +5759,6 @@ hexchat:
   version: 2.10.1-1
   issues:
     - timestamps_from_cpp_macros
-hexer:
-  version: 0.1.8-1
-  bugs:
-    - 788740
 hgview:
   version: 1.8.1-1
   issues:
@@ -6989,10 +6935,6 @@ kiki-the-nano-bot:
     - serial_numbers_in_ogg
   bugs:
     - 775994
-kile:
-  version: 4:2.1.3-2
-  bugs:
-    - 799395
 kimwitu++:
   version: 2.3.13-2
   issues:
@@ -7494,10 +7436,6 @@ libdap:
     - timestamps_from_cpp_macros
   bugs:
     - 809580
-libdata-dump-streamer-perl:
-  version: 2.39-1
-  bugs:
-    - 787912
 libdbi-drivers:
   version: 0.9.0-3
   issues:
@@ -7624,10 +7562,6 @@ libgda5:
   comments: |
     Embeds the build date into manpage.
     https://sources.debian.net/src/libgda5/5.2.2-2/configure.ac/#L74-L75
-libgdiplus:
-  version: 3.6-1
-  bugs:
-    - 803274
 libgedcom-perl:
   version: 1.19-2
   bugs:
@@ -8057,10 +7991,6 @@ libmarc-charset-perl:
   version: 1.35-1
   comments: |
     usr/lib/libmarc-charset-perl/Table is a large DBM file.
-libmarc-lint-perl:
-  version: 1.49-1
-  bugs:
-    - 809100
 libmarpa-r2-perl:
   version: 2.086000~dfsg-3
   issues:
@@ -8231,10 +8161,6 @@ libpeas:
   version: 1.16.0-1
   bugs:
     - 802095
-libperl-apireference-perl:
-  version: 0.21-2
-  bugs:
-    - 808825
 libpgm:
   version: 5.1.118-1~dfsg-1
   comments: |
@@ -8610,10 +8536,6 @@ libxml-commons-resolver1.1-java:
   version: 1.2-7
   issues:
     - randomness_in_gcj_output
-libxml-compile-dumper-perl:
-  version: 0.14-1
-  bugs:
-    - 801659
 libxml-easyobj-perl:
   version: 1.12-3
   bugs:
@@ -9268,10 +9190,6 @@ mayavi2:
     Contain .pyc files
   issues:
     - random_order_in_python_environment_pickle
-mb2md:
-  version: 3.20-7
-  bugs:
-    - 802034
 mboxcheck:
   version: 0.2.0
   bugs:
@@ -9661,10 +9579,6 @@ mpack:
   bugs:
     - 777376
     - 793706
-mpd-sima:
-  version: 0.13.1-1
-  bugs:
-    - 809031
 mpi4py:
   version: 1.3.1+hg20131106-2
   bugs:
@@ -9716,10 +9630,6 @@ msp430-libc:
   version: 20120224-1
   issues:
     - different_due_to_umask
-mtpaint:
-  version: 3.40-2
-  bugs:
-    - 803286
 muddleftpd:
   version: 1.3.13.1-4.3
   comments: |
@@ -9878,10 +9788,6 @@ nbc:
   comments: |
     Makefile writes `date` into include file:
     https://sources.debian.net/src/nbc/1.2.1.r4%2Bdfsg-1/NXT/nbcunix.mak/#L37
-nbd:
-  version: 1:3.12.1-2
-  bugs:
-    - 809581
 nbibtex:
   version: 0.9.18-11
   comments: |
@@ -11692,10 +11598,6 @@ postgis:
     - timestamp_in_java_bnd_manifest
     - locale_in_documentation_generated_by_javadoc
     - timestamps_in_documentation_generated_by_javadoc
-postgresql-9.4:
-  version: 9.4.5-2
-  bugs:
-    - 808325
 postgresql-multicorn:
   version: 1.2.2-1
   bugs:
@@ -12203,14 +12105,6 @@ python-distutils-extra:
   version: 2.38-1
   bugs:
     - 809010
-python-django-bootstrap-form:
-  version: 3.1.0-5
-  bugs:
-    - 806362
-python-django-contact-form:
-  version: 1.1-1
-  bugs:
-    - 806363
 python-django-debug-toolbar:
   version: 1:1.4-1
   issues:
@@ -12555,10 +12449,6 @@ python-rfc3986:
   version: 0.2.0-2
   bugs:
     - 808763
-python-rjsmin:
-  version: 1.0.12+dfsg1-1
-  bugs:
-    - 808886
 python-scientific:
   version: 2.9.4-3
   bugs:
@@ -13514,10 +13404,6 @@ ruby-encryptor:
   version: 1.3.0-1
   issues:
     - timestamps_in_gemspec_files
-ruby-eventmachine:
-  version: 1.0.7-3
-  bugs:
-    - 713150
 ruby-execjs:
   version: 2.6.0-1
   issues:
@@ -14923,10 +14809,6 @@ stopmotion:
   version: 0.8.0-5
   bugs:
     - 800059
-stormbaancoureur:
-  version: 2.1.6-1
-  bugs:
-    - 804840
 strace:
   version: 4.10-1
   bugs:
@@ -16511,10 +16393,6 @@ xaos:
   version: 3.5+ds1-2
   issues:
     - different_pot_creation_date_in_gettext_mo_files
-xapian-core:
-  version: 1.2.21-1.2
-  bugs:
-    - 724610
 xblast-tnt:
   version: 2.10.4-3
   issues:
@@ -16620,8 +16498,6 @@ xen:
     - timestamps_in_gzip_headers
     - timezones_manpages_podman
     - different_due_to_umask
-  bugs:
-    - 793132
 xfaces:
   version: 3.3-29
   issues:
