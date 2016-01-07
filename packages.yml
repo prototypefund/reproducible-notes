@@ -8107,6 +8107,8 @@ libopendbx:
     - timestamps_in_manpages_generated_by_doxygen
 libopenobex:
   version: 1.7.1-2
+  comments: |
+    Rather unsettling SHARED -> STATIC string change in generated .cmake file
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
 liboptions-java:
