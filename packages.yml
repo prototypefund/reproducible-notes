@@ -50,9 +50,11 @@ aboot:
   issues:
     - timestamps_in_manpages_generated_by_docbook_utils
 ace-of-penguins:
-  version: 1.3-13
+  version: 1.5~rc1-1
   comments: |
-    debian/pod2man.mk embeds timestamp from date
+    build id varies only on armhf, amd64 is fine
+  issues:
+    - build_id_variation_requiring_further_investigation
 acedb:
   version: 4.9.39+dfsg.01-5
   issues:
