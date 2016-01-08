@@ -10112,8 +10112,6 @@ nordugrid-arc:
   version: 5.0.1-1
   comments: |
     manpages have dates injected by ./configure.ac line 2239
-  bugs:
-    - 804610
 nordugrid-arc-doc:
   version: 1.5.0-1
   issues:
@@ -11672,6 +11670,10 @@ progressivemauve:
   version: 1.2.0+4713-2
   issues:
     - timestamps_from_cpp_macros
+proll:
+  version: 18-6
+  bugs:
+    - 810133
 prometheus:
   version: 0.15.1+ds-2
   issues:
@@ -13264,7 +13266,6 @@ rp-pppoe:
 rpm2html:
   version: 1.11.2-7
   bugs:
-    - 807395
     - 807396
 rsbackup:
   version: 3.0-2
@@ -14249,10 +14250,6 @@ sexplib310:
   version: 111.25.00-1
   issues:
     - randomness_in_ocaml_preprocessed_files
-sfcgal:
-  version: 1.1.0-5
-  bugs:
-    - 804589
 sfepy:
   version: 2015.1-1
   issues:
