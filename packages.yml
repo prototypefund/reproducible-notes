@@ -4690,6 +4690,7 @@ getdns:
   version: 0.3.1-1
   bugs:
     - 797215
+    - 810260
 getdp:
   version: 2.4.2-1
   bugs:
@@ -7881,10 +7882,6 @@ libjpf-java:
   version: 1.5.1+dfsg-4
   issues:
     - locale_in_documentation_generated_by_javadoc
-libjs-jcrop:
-  version: 0.9.12+dfsg-2
-  bugs:
-    - 807084
 libjspeex-java:
   version: 0.9.7-3
   issues:
@@ -8870,10 +8867,6 @@ lua-posix:
   version: 31-2
   issues:
     - timestamps_in_documentation_generated_by_lua_ldoc
-lua-sec:
-  version: 0.5-2
-  bugs:
-    - 804607
 luasocket:
   version: 3.0~rc1+git+321c0c9-1
   comments: |
@@ -10718,10 +10711,6 @@ oroborus:
   version: 2.0.20
   comments: |
     Tried fixing with https://gist.github.com/lamby/72f2098d6b72e33ba5f1 but fails with some autofoo issue due to the reconfing
-orthanc-dicomweb:
-  version: 0.1+dfsg-1
-  bugs:
-    - 807394
 osc:
   version: 0.152.0-1
   comments: |
@@ -13007,8 +12996,6 @@ raster3d:
   version: 3.0-3-2
   issues:
     - different_due_to_umask
-  bugs:
-    - 775810
 ratfor:
   version: 1.0-15
   issues:
@@ -13274,10 +13261,6 @@ rp-pppoe:
   version: 3.8-3
   issues:
     - different_due_to_umask
-rpm2html:
-  version: 1.11.2-7
-  bugs:
-    - 807396
 rsbackup:
   version: 3.0-2
   issues:
@@ -13702,10 +13685,6 @@ ruby-prawn:
   version: 2.0.2+dfsg-1
   issues:
     - timestamps_in_gemspec_files
-ruby-protected-attributes:
-  version: 1.1.3-1
-  bugs:
-    - 807538
 ruby-pygments.rb:
   version: 0.5.4~ds1-3
   issues:
