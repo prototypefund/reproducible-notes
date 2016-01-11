@@ -6053,6 +6053,10 @@ imms:
   version: 3.1.0~svn301-3.1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
+impressive:
+  version: 0.11.1-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 imview:
   version: 1.1.9c-12
   issues:
@@ -6290,6 +6294,10 @@ jaffl:
     - timestamp_in_java_bnd_manifest
     - random_order_in_documentation_generated_by_javadoc
     - locale_in_documentation_generated_by_javadoc
+jags:
+  version: 4.0.0-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 jakarta-jmeter:
   version: 2.11-2
   issues:
