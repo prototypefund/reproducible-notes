@@ -272,10 +272,6 @@ anarchism:
     - lynx_dump_varies_output_with_locale
   bugs:
     - 800007
-android-platform-frameworks-base:
-  version: 21-2
-  bugs:
-    - 808899
 anet:
   version: 0.3.1-1
   comments: |
@@ -365,10 +361,6 @@ apache-log4j-extras1.2:
   version: 1.2.17-1
   issues:
     - different_encoding
-apache-log4j2:
-  version: 2.4-1
-  bugs:
-    - 809619
 apbs:
   version: 1.4-1
   issues:
@@ -1683,10 +1675,6 @@ check-postgres:
   version: 2.22.0-1
   issues:
     - ftbfs_uninvestigated_test_failures
-checkbox-ng:
-  version: 0.20.1-1
-  bugs:
-    - 808814
 checkpw:
   version: 1.02-1
   issues:
@@ -2845,10 +2833,6 @@ digikam:
   version: 4:4.4.0-1
   issues:
     - timestamps_from_cpp_macros
-dillo:
-  version: 3.0.5-1
-  bugs:
-    - 809711
 dino:
   version: 0.2.8-3
   bugs:
@@ -2888,11 +2872,9 @@ ditaa:
   bugs:
     - 802065
 django-celery:
-  version: 3.1.16-1
+  version: 3.1.17-3
   issues:
     - randomness_in_documentation_generated_by_sphinx
-  bugs:
-    - 809568
 django-compat:
   version: 1.0.7-2
   bugs:
@@ -3317,11 +3299,9 @@ elasticsearch:
   bugs:
     - 808852
 elastix:
-  version: 4.7-2
+  version: 4.8-3
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-  bugs:
-    - 808653
 elementary:
   version: 1.8.5-2
   issues:
@@ -3351,9 +3331,9 @@ elkcode:
   issues:
     - timestamps_in_pdf_generated_by_latex
 elki:
-  version: 0.7.0-1
-  bugs:
-    - 808856
+  version: 0.7.0-2
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 elmerfem:
   version: 6.1.0.svn.5396.dfsg2-4
   issues:
@@ -4382,11 +4362,9 @@ galternatives:
   issues:
     - different_pot_creation_date_in_gettext_mo_files
 gambas3:
-  version: 3.5.4-2
+  version: 3.8.4-1
   issues:
     - timestamps_from_cpp_macros
-  bugs:
-    - 804467
 gamera:
   version: 3.4.2+svn1431-1
   bugs:
@@ -5250,10 +5228,6 @@ gpsmanshp:
   bugs:
     - 777446
     - 792991
-gpsshogi:
-  version: 0.6.0-3+nmu1
-  bugs:
-    - 795237
 gpt:
   version: 1.1-2
   bugs:
@@ -5461,13 +5435,11 @@ gtranslator:
   bugs:
     - 783022
 guacamole-client:
-  version: 0.8.3-1.1
+  version: 0.8.3-1.2
   issues:
     - timestamps_in_jar
     - user_in_java_jar_manifest
     - random_order_in_java_jar_manifest_mf
-  bugs:
-    - 805665
 guava-libraries:
   version: 19.0-1
   issues:
@@ -6134,11 +6106,9 @@ ipv6calc:
   issues:
     - timestamps_from_cpp_macros
 ipython:
-  version: 2.3.0-2
+  version: 2.4.1-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
-  bugs:
-    - 803082
 ircd-irc2:
   version: 2.11.2p3~dfsg-4
   comments: |
@@ -6806,12 +6776,9 @@ keepalived:
   bugs:
     - 783139
 keepass2:
-  version: 2.28+dfsg-1
-  issues:
-    - timestamps_in_pe_binaries
-    - timestamps_in_png
-  bugs:
-    - 809578
+  version: 2.30+dfsg-2
+  comments: |
+    Unidentified differences in ./usr/lib/keepass2/KeePass.exe
 keepassx:
   version: 0.4.3+dfsg-0.1
   bugs:
@@ -6993,10 +6960,6 @@ ktikz:
   version: 0.10-4
   issues:
     - timestamps_in_qch
-ktp-accounts-kcm:
-  version: 15.08.3-1
-  bugs:
-    - 809282
 kuser:
   version: 4:4.12.2-2
   bugs:
@@ -7498,12 +7461,6 @@ libformula:
   version: 1.1.7.dfsg-2
   issues:
     - locale_in_documentation_generated_by_javadoc
-libfreenect:
-  version: 1:0.5.2+git6-g5455843+dfsg-1
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
-  bugs:
-    - 809582
 libfurl-perl:
   version: 3.05-1
   comments: |
@@ -8006,11 +7963,6 @@ libmpc:
   version: 2:0.1~r459-4.1
   issues:
     - timestamps_from_cpp_macros
-libmpd:
-  version: 0.20.0-1.2
-  bugs:
-    - 790251
-    - 808666
 libmsv:
   version: 1.1-1
   issues:
@@ -8256,10 +8208,6 @@ libsbml:
   issues:
     - timestamps_in_dvi_generated_by_latex
     - locale_in_documentation_generated_by_javadoc
-libscalar-defer-perl:
-  version: 0.23-1
-  bugs:
-    - 782878
 libsdl1.2:
   version: 1.2.15-12
   issues:
@@ -8339,10 +8287,6 @@ libtest-expect-perl:
   version: 0.33-1
   issues:
     - ftbfs_uninvestigated_test_failures
-libtest-log4perl-perl:
-  version: 0.1001-3.1
-  bugs:
-    - 782879
 libtext-vimcolor-perl:
   version: 0.11-2
   bugs:
@@ -8669,8 +8613,6 @@ lizardfs:
   version: 2.5.4.2+dfsg-1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-  bugs:
-    - 809584
 llvm-toolchain-3.5:
   version: 1:3.5-6
   issues:
@@ -9439,11 +9381,9 @@ mono-upnp:
   issues:
     - timestamps_in_pe_binaries
 mono-zeroconf:
-  version: 0.9.0-4
-  issues:
-    - timestamps_in_pe_binaries
-  bugs:
-    - 809585
+  version: 0.9.0-6
+  comments: |
+    Unidentified difference in Mono executables.
 monodevelop:
   version: 5.5.0.227-1
   issues:
@@ -9954,10 +9894,6 @@ nmh:
   comments: |
     Timestamp embedded by script generating a manpage.
     https://sources.debian.net/src/nmh/1.6-7/man/mh-chart-gen.sh/#L12
-nml:
-  version: 0.4.2-1
-  bugs:
-    - 808508
 noblenote:
   version: 1.0.8-1
   issues:
@@ -10113,11 +10049,9 @@ nsnake:
     Embeds the build date.
     https://sources.debian.net/src/nsnake/3.0.1-2/Makefile/#L42
 nss-passwords:
-  version: 0.2-1
+  version: 0.2-2
   issues:
     - randomness_in_ocaml_custom_executables
-  bugs:
-    - 802865
 nted:
   version: 1.10.18-9
   issues:
@@ -10486,11 +10420,9 @@ openjdk-7:
   issues:
     - timestamps_from_cpp_macros
 openjdk-7-jre-dcevm:
-  version: 7u60-3
+  version: 7u79-2
   issues:
     - build_id_variation_requiring_further_investigation
-  bugs:
-    - 809588
 openjdk-8:
   version: 8u40~b09-1
   issues:
@@ -10593,11 +10525,10 @@ openthesaurus:
   bugs:
     - 792599
 opentk:
-  version: 1.0.20101006+dfsg1-1
-  issues:
-    - timestamps_in_pe_binaries
-  bugs:
-    - 809590
+  version: 1.1.4c+dfsg-2
+  comments: |
+    Unidentified variation in Mono executables.
+    Different decimal separator in documentation.
 opentoken:
   version: 6.0b-3
   comments: |
@@ -10606,10 +10537,6 @@ openttd:
   version: 1.4.4-2
   issues:
     - timestamps_from_cpp_macros
-openttd-opengfx:
-  version: 0.5.3-1
-  bugs:
-    - 808510
 openturns:
   version: 1.5-7
   issues:
@@ -10682,10 +10609,6 @@ oss4:
     - timestamps_in_manpages_generated_by_txt2man
     - timestamps_in_tarball
     - different_due_to_umask
-ovirt-guest-agent:
-  version: 1.0.10.2.dfsg-2
-  bugs:
-    - 799002
 owncloud:
   version: 7.0.4+dfsg-2
   issues:
@@ -10727,14 +10650,6 @@ p3scan:
     - timestamps_in_gzip_headers
   bugs:
     - 778433
-p4vasp:
-  version: 0.3.29+dfsg-3
-  bugs:
-    - 809712
-pa-test:
-  version: 112.24.00-1
-  bugs:
-    - 809999
 pacemaker:
   version: 1.1.10+git20130802-4.1
   issues:
@@ -11086,12 +11001,6 @@ pgn-extract:
   version: 17.14-1
   issues:
     - timestamps_from_cpp_macros
-pgpgpg:
-  version: 0.13-9
-  issues:
-    - ftbfs_old_compat_debheper_compat_level
-  bugs:
-    - 800201
 pgpool2:
   version: 3.3.4-1
   bugs:
@@ -11512,11 +11421,9 @@ pomegranate-clojure:
   issues:
     - random_order_in_javahelper_depends
 poppler-sharp:
-  version: 0.0.3-2
-  issues:
-    - timestamps_in_pe_binaries
-  bugs:
-    - 809593
+  version: 0.0.3-4
+  comments: |
+    Unidentified variation in Mono executable.
 popplerkit.framework:
   version: 0.0.20051227svn-7.1
   issues:
@@ -11607,10 +11514,6 @@ primrose:
   version: 6+dfsg1-3
   bugs:
     - 778481
-procps:
-  version: 2:3.3.10-4
-  bugs:
-    - 798438
 proftpd-dfsg:
   version: 1.3.5-1.1
   comments: |
@@ -11859,10 +11762,6 @@ pyliblo:
   version: 0.10.0-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
-pylint:
-  version: 1.4.4-1
-  bugs:
-    - 802126
 pylint-common:
   version: 0.2.1-1
   bugs:
@@ -11952,10 +11851,6 @@ pytango:
   version: 8.1.5-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
-pytest-catchlog:
-  version: 1.1-1
-  bugs:
-    - 808525
 pytest-django:
   version: 2.9.1-2
   bugs:
@@ -12048,10 +11943,6 @@ python-coverage:
   version: 3.7.1+dfsg.1-1
   issues:
     - ftbfs_uninvestigated_test_failures
-python-crontab:
-  version: 1.9.3-1
-  bugs:
-    - 808898
 python-crypto:
   version: 2.6.1-5
   comments: |
@@ -12103,11 +11994,9 @@ python-django-formtools:
   issues:
     - ftbfs_uninvestigated_test_failures
 python-django-mptt:
-  version: 0.6.0-1
+  version: 0.8.0-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
-  bugs:
-    - 805688
 python-django-registration:
   version: 1.0+dfsg-2
   bugs:
@@ -12273,10 +12162,6 @@ python-memory-profiler:
   version: 0.31+git20141019-1
   bugs:
     - 804442
-python-mne:
-  version: 0.10.1+dfsg-1
-  bugs:
-    - 800135
 python-mock:
   version: 1.0.1-3
   bugs:
@@ -12328,10 +12213,6 @@ python-padme:
   version: 1.1.1-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
-python-passlib:
-  version: 1.6.5-3
-  bugs:
-    - 806366
 python-pcs:
   version: 0.5+debian-1.2
   issues:
@@ -12372,20 +12253,12 @@ python-pygit2:
   version: 0.23.0-1
   bugs:
     - 809246
-python-pygraphviz:
-  version: 1.3~rc2-3
-  bugs:
-    - 790696
 python-pypump:
   version: 0.6-1
   issues:
     - timestamps_in_documentation_generated_by_sphinx
   bugs:
     - 788505
-python-pyramid:
-  version: 1.5.7+dfsg-1
-  bugs:
-    - 808843
 python-pysam:
   version: 0.8.4+ds-1
   bugs:
@@ -13422,10 +13295,6 @@ ruby-foreigner:
   version: 1.7.4-1
   bugs:
     - 808530
-ruby-foreman:
-  version: 0.78.0-2
-  bugs:
-    - 809594
 ruby-fssm:
   version: 0.2.10-2
   bugs:
@@ -13482,10 +13351,6 @@ ruby-i18n:
   version: 0.6.11-2
   bugs:
     - 784699
-ruby-i18n-inflector:
-  version: 2.6.6-2
-  bugs:
-    - 808855
 ruby-ice-cube:
   version: 0.12.1-1
   issues:
@@ -13537,10 +13402,6 @@ ruby-literati:
   version: 0.0.4~git.20130318.3b3ea30-2
   bugs:
     - 794261
-ruby-loofah:
-  version: 2.0.3-1
-  bugs:
-    - 808449
 ruby-lumberjack:
   version: 1.0.9-1
   issues:
@@ -13759,9 +13620,9 @@ ruby-rubymail:
   issues:
     - random_order_in_ruby_rdoc_indices
 ruby-rufus-scheduler:
-  version: 3.1.10-1
-  bugs:
-    - 809289
+  version: 3.1.10-2
+  issues:
+    - timestamps_in_gemspec_files
 ruby-sanitize:
   version: 2.1.0-1
   bugs:
@@ -14147,10 +14008,6 @@ seaborn:
   version: 0.6.0-1
   bugs:
     - 802412
-seaview:
-  version: 1:4.5.4.8-1
-  bugs:
-    - 809713
 sed:
   version: 4.2.2-6.1
   issues:
@@ -14168,11 +14025,9 @@ sendfile:
     - 776938
     - 793719
 sendip:
-  version: 2.5-6
+  version: 2.5-7
   issues:
     - timestamps_in_manpages_generated_by_help2man
-  bugs:
-    - 809595
 sensible-utils:
   version: 0.0.9
   issues:
@@ -14545,10 +14400,6 @@ spark:
   version: 2012.0.deb-11
   comments: |
     Embed a timestamp and other weird things in ./usr/bin/checker
-sparkleshare:
-  version: 1.2-1
-  bugs:
-    - 808684
 spatial4j:
   version: 0.3-1
   bugs:
@@ -15328,11 +15179,9 @@ tomatoes:
   bugs:
     - 792529
 tomboy:
-  version: 1.14.1-3
-  issues:
-    - timestamps_in_pe_binaries
-  bugs:
-    - 809597
+  version: 1.14.1-4
+  comments: |
+    Unidentified variation in Mono executable.
 tomcat6:
   version: 6.0.41-3
   issues:
@@ -16293,12 +16142,6 @@ wsjt:
     - ftbfs_wdatetime
   bugs:
     - 804672
-wtforms:
-  version: 2.0.2-1
-  issues:
-    - ftbfs_uninvestigated_test_failures
-  bugs:
-    - 808693
 x11proto-bigreqs:
   version: 1:1.1.2-1
   issues:
@@ -16351,14 +16194,6 @@ xblast-tnt-images:
     - different_due_to_umask
   bugs:
     - 778206
-xblast-tnt-sounds:
-  version: 20040429-2
-  issues:
-    - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-    - different_due_to_umask
-  bugs:
-    - 778210
 xboxdrv:
   version: 0.8.5-1
   bugs:
@@ -16367,10 +16202,6 @@ xbs:
   version: 0-10
   issues:
     - different_due_to_umask
-xca:
-  version: 1.0.0-2
-  bugs:
-    - 809056
 xcfa:
   version: 4.3.8-1
   issues:
@@ -16452,10 +16283,6 @@ xfrisk:
   version: 1.2-3
   issues:
     - timestamps_from_cpp_macros
-xfsdump:
-  version: 3.1.4
-  bugs:
-    - 799201
 xhtmlrenderer:
   version: 0.0~R8+dfsg-1
   issues:
@@ -16542,10 +16369,9 @@ xmount:
   issues:
     - timestamps_from_cpp_macros
 xnecview:
-  version: 1.35-7.1
+  version: 1.35-8
   issues:
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-    - timestamps_in_gzip_headers
   bugs:
     - 777332
 xnee:
@@ -16584,11 +16410,6 @@ xotcl:
   version: 1.6.8-1
   bugs:
     - 797543
-xpdf:
-  version: 3.03-17
-  bugs:
-    - 808527
-    - 807087
 xpra:
   version: 0.14.9+dfsg-1
   bugs:
@@ -16909,8 +16730,3 @@ zyne:
   version: 0.1.2-2
   bugs:
     - 797027
-zzuf:
-  version: 0.14-1
-  bugs:
-    - 790297
-    - 808696
