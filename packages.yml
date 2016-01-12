@@ -2238,10 +2238,6 @@ cryptsetup:
   bugs:
     - 780864
     - 794106
-crystalspace:
-  version: 2.0+dfsg-2
-  bugs:
-    - 765157
 csh:
   version: 20110502-2.1
   issues:
@@ -5155,10 +5151,6 @@ golang-github-azure-azure-sdk-for-go:
   version: 1.2~git20150611.0.97d9593-2
   issues:
     - ftbfs_uninvestigated_test_failures
-golang-github-golang-leveldb:
-  version: 0.0~git20150720.0.df57eb2-1
-  bugs:
-    - 799472
 golang-github-hashicorp-mdns:
   version: 0.0~git20150317.0.2b439d3-1
   issues:
@@ -15867,10 +15859,6 @@ unixcw:
   version: 3.4.2-1
   comments: |
     Signatures and functions in manpage are generated in src/libcw/Makefile.am without a locale-independent sort
-upstart:
-  version: 1.11-5
-  issues:
-    - ftbfs_uninvestigated_test_failures
 urjtag:
   version: 0.10+r2007-1.2
   issues:
@@ -16005,10 +15993,6 @@ vgabios:
   comments: |
     Record build date:
     https://sources.debian.net/src/vgabios/0.7a-5/Makefile/?hl=12#L12
-videolan-doc:
-  version: 20070626-1
-  issues:
-    - timestamps_in_pdf_generated_by_latex
 vifm:
   version: 0.7.8-3
   issues:
