@@ -313,10 +313,6 @@ antlr:
   issues:
     - timestamps_in_jar
     - timestamps_in_pe_binaries
-antlr3:
-  version: 3.5.2-3
-  bugs:
-    - 807733
 ants:
   version: 2.1.0~rc2+git3-g9103999-4
   issues:
@@ -1198,10 +1194,6 @@ bnd:
     - timestamps_in_jar
     - timestamp_in_java_bnd_manifest
     - timezones_manpages_podman
-bobcat:
-  version: 4.01.03-2
-  bugs:
-    - 807734
 boinc:
   version: 7.4.23+dfsg-1
   issues:
@@ -2927,10 +2919,6 @@ djangorestframework:
   version: 3.0.5-2
   issues:
     - ftbfs_uninvestigated_test_failures
-djangorestframework-gis:
-  version: 0.9.6-1
-  bugs:
-    - 806360
 djbdns:
   version: 1:1.05-8
   issues:
@@ -5497,10 +5485,6 @@ gummiboot:
   version: 45-2
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-guncat:
-  version: 0.92.00-5
-  bugs:
-    - 807746
 gupnp:
   version: 0.20.13-1
   issues:
@@ -7920,6 +7904,8 @@ libmath-bigint-gmp-perl:
   version: 1.43-1
   issues:
     - ftbfs_uninvestigated_test_failures
+  bugs:
+    - 810910
 libmatroska:
   version: 1.4.2-2
   issues:
@@ -9663,10 +9649,6 @@ natbraille:
     - timestamps_in_jar
     - timestamps_in_documentation_generated_by_javadoc
     - locale_in_documentation_generated_by_javadoc
-natlog:
-  version: 1.02.00-4
-  bugs:
-    - 807672
 navit:
   version: 0.5.0~svn5900+dfsg.1-1
   issues:
@@ -10662,6 +10644,10 @@ p3scan:
     - timestamps_in_gzip_headers
   bugs:
     - 778433
+p4vasp:
+  version: 0.3.29+dfsg-3
+  bugs:
+    - 809712
 pacemaker:
   version: 1.1.10+git20130802-4.1
   issues:
@@ -12317,10 +12303,6 @@ python-repoze.tm2:
   version: 2.0-1
   bugs:
     - 788507
-python-repoze.who:
-  version: 1.0.18-4
-  bugs:
-    - 790697
 python-requests-toolbelt:
   version: 0.5.1-2
   bugs:
@@ -12754,10 +12736,6 @@ r-base:
     - timestamps_in_gzip_headers
   bugs:
     - 783130
-r-bioc-genomicalignments:
-  version: 1.4.1-1
-  bugs:
-    - 803479
 r-cran-amelia:
   version: 1.7.3-1
   issues:
@@ -13352,10 +13330,6 @@ ruby-grack:
   version: 2.0.2-1
   issues:
     - timestamps_in_gemspec_files
-ruby-hashie:
-  version: 3.4.2-2
-  bugs:
-    - 796514
 ruby-hiredis:
   version: 0.6.0-1
   issues:
@@ -14641,6 +14615,8 @@ statsmodels:
   version: 0.4.2-1.2
   issues:
     - randomness_in_documentation_generated_by_sphinx
+  bugs:
+    - 810864
 stealth:
   version: 4.01.04-1
   comments: |
@@ -16767,3 +16743,8 @@ zyne:
   version: 0.1.2-2
   bugs:
     - 797027
+zzuf:
+  version: 0.14-1
+  bugs:
+    - 790297
+    - 808696
