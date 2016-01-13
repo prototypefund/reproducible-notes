@@ -13191,6 +13191,10 @@ ruby-compass:
   version: 1.0.3~dfsg-3
   issues:
     - timestamps_in_gemspec_files
+ruby-concurrent:
+  version: 1.0.0-1
+  issues:
+    - timestamps_in_gemspec_files
 ruby-configurate:
   version: 0.3.1-1
   issues:
@@ -13297,6 +13301,10 @@ ruby-flexmock:
     - timestamps_in_gemspec_files
 ruby-fog-core:
   version: 1.32.1-1
+  issues:
+    - timestamps_in_gemspec_files
+ruby-fog-vsphere:
+  version: 0.4.0-1
   issues:
     - timestamps_in_gemspec_files
 ruby-foreigner:
