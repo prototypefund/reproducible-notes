@@ -5796,6 +5796,10 @@ httraqt:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/httraqt/1.4.4-1/CMakeLists.txt/#L60-L64
+hugo:
+  version: 0.15+git20160109.147.dd1d655-1
+  issues:
+    - timestamps_in_manpages_added_by_golang_cobra
 hy:
   version: 0.11.0-4
   bugs:
