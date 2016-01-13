@@ -9262,6 +9262,10 @@ mknbi:
   comments: |
     Embeds the build date into manpages.
     https://sources.debian.net/src/mknbi/1.4.4-11/Makefile/#L213-L215
+mkvtoolnix:
+  version: 8.8.0-1
+  issues:
+    - timestamps_from_cpp_macros
 mlpost:
   version: 0.8.1-6
   issues:
@@ -11268,6 +11272,11 @@ pixelmed:
   version: 20140816-1
   issues:
     - locale_in_documentation_generated_by_javadoc
+pixelmed-codec:
+  version: 20141206-1
+  comments: |
+    Embeds build date in BUILDDATE file.
+    https://sources.debian.net/src/pixelmed-codec/20141206-1/Makefile/?hl=61#L61
 pixmap:
   version: 2.6pl4-18
   issues:
@@ -13800,6 +13809,10 @@ ruby2.2:
   version: 2.2.3-1
   issues:
     - build_id_variation_requiring_further_investigation
+ruby2.3:
+  version: 2.3.0-1
+  issues:
+    - diffoscope_runs_forever
 rumor:
   version: 1.0.5-2
   bugs:
