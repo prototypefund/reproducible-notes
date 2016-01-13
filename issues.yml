@@ -966,3 +966,9 @@ qt_translate_noop_nondeterminstic_ordering:
   description:
     QT_TRANSLATE_NOOP macro creates a sqlite database with entry IDs (?) that
     are nondeterminstic
+timestamps_in_manpages_added_by_golang_cobra:
+  description:
+    Go's "cobra" doc generator adds timezone-varying timestamp of (what is
+    probably) the current time.
+    .
+    Homepage is https://godoc.org/github.com/spf13/cobra
