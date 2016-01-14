@@ -42,6 +42,7 @@ timestamps_in_documentation_generated_by_asciidoc:
 random_anchor_names_generated_by_docbook_to_man:
   description: |
     docbook-to-man uses non-deterministic <a> anchor names
+    maybe fixable using something like http://patchwork.freedesktop.org/patch/69511/ ?
 timestamps_in_documentation_generated_by_man2html:
   description: |
     man2html adds a timestamp at the end of a generated HTML file.
