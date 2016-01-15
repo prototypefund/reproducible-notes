@@ -3811,6 +3811,10 @@ flightgear:
   version: 3.0.0-4
   issues:
     - timestamps_from_cpp_macros
+flint:
+  version: 2.5.2-3
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 flite:
   version: 1.4-release-12
   comments: |
@@ -10673,6 +10677,10 @@ pachi:
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 787125
+packaging-tutorial:
+  version: 0.15
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 paco:
   version: 2.0.9-3
   bugs:
@@ -14143,6 +14151,10 @@ shadow:
   version: 1:4.2-2
   bugs:
     - 783149
+shared-mime-info:
+  version: 1.5-2
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 sheepdog:
   version: 0.8.3-4
   comments: |
@@ -14609,6 +14621,10 @@ sra-sdk:
   version: 2.3.5-2+dfsg-1
   issues:
     - timestamps_from_cpp_macros
+srtp:
+  version: 1.4.5~20130609~dfsg-1.1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 sslscan:
   version: 1.8.2-2
   bugs:
