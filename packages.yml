@@ -4404,10 +4404,18 @@ gap-ctbllib:
   issues:
     - timestamps_in_gzip_headers
     - timestamps_in_pdf_generated_by_latex
+gap-float:
+  version: 0.6.3+ds-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 gap-gapdoc:
   version: 1.5.1-2
   issues:
     - timestamps_in_gzip_headers
+    - timestamps_in_pdf_generated_by_latex
+gap-io:
+  version: 4.4.4+ds-2
+  issues:
     - timestamps_in_pdf_generated_by_latex
 gap-polycyclic:
   version: 2.11-1
@@ -7334,6 +7342,10 @@ libcommons-validator-java:
   version: 1:1.4.1-1
   bugs:
     - 785515
+libconfig:
+  version: 1.5-0.2
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 libconfig-model-itself-perl:
   version: 1.244-2
   comments: |
