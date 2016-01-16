@@ -2429,8 +2429,6 @@ davical:
     - different_pot_creation_date_in_gettext_mo_files
 db4o:
   version: 8.0.184.15484+dfsg-2
-  issues:
-    - timestamps_in_pe_binaries
   bugs:
     - 809564
 db5.3:
@@ -2947,10 +2945,6 @@ dmtcp:
   bugs:
     - 789292
     - 808644
-dnsjava:
-  version: 2.1.5-0.1
-  issues:
-    - timestamp_in_java_bnd_manifest
 dnssec-trigger:
   version: 0.13~svn685-4
   comments: |
@@ -5321,8 +5315,6 @@ grib-api:
     Embeds the build date:
     https://sources.debian.net/src/grib-api/1.14.3-1/cmake/ecbuild_get_date.cmake/?hl=24,46
     The result lands in ./usr/include/grib_api_ecbuild_config.h
-  issues:
-    - captures_kernel_version
 gridengine:
   version: 6.2u5-7.3
   issues:
@@ -6728,8 +6720,6 @@ kbuild:
     - timestamps_from_cpp_macros
 kcc:
   version: 2.3-12
-  issues:
-    - ftbfs_old_compat_debheper_compat_level
   bugs:
     - 800251
 kchmviewer:
@@ -7120,10 +7110,6 @@ ldaptor:
     - use_epydoc
 ldapvi:
   version: 1.7-9
-  issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-    - timestamps_in_gzip_headers
-    - different_due_to_umask
   bugs:
     - 777490
     - 793702
@@ -9034,10 +9020,6 @@ marionnet:
   version: 0.90.6+bzr457-1
   issues:
     - build_id_variation_requiring_further_investigation
-marsshooter:
-  version: 0.7.5-2
-  issues:
-    - timestamps_from_cpp_macros
 masscan:
   version: 1.0.3-90-g2441f18~ds0-1
   issues:
@@ -12838,10 +12820,6 @@ qutecom:
   version: 2.2.1+dfsg1-5.2
   issues:
     - timestamps_from_cpp_macros
-qutemol:
-  version: 0.4.1~cvs20081111-3.2
-  issues:
-    - timestamps_from_cpp_macros
 qxgedit:
   version: 0.3.0-1
   issues:
@@ -15149,10 +15127,6 @@ tetex-brev:
     - timestamps_in_dvi_generated_by_latex
 tetradraw:
   version: 2.0.3-8.2
-  issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-    - timestamps_in_gzip_headers
-    - different_due_to_umask
   bugs:
     - 777426
     - 793727
@@ -16341,18 +16315,10 @@ xaos:
     - different_pot_creation_date_in_gettext_mo_files
 xblast-tnt:
   version: 2.10.4-3
-  issues:
-    - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-    - different_due_to_umask
   bugs:
     - 778211
 xblast-tnt-images:
   version: 20050106-2
-  issues:
-    - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-    - different_due_to_umask
   bugs:
     - 778206
 xboxdrv:
