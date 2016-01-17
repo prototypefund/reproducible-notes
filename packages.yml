@@ -282,11 +282,8 @@ angband:
     - timestamps_in_pdf_generated_by_latex
 angband-doc:
   version: 3.0.3.5
-  issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 777729
-    - 792994
 anjuta:
   version: 2:3.14.0-1
   issues:
@@ -1074,10 +1071,6 @@ bibclean:
   comments: |
     Embed build time, username, and hostname:
     http://sources.debian.net/src/bibclean/2.11.4.1-4/option.c/?hl=567:586#L567
-bible-kjv:
-  version: 4.27
-  issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
 bibtex2html:
   version: 1.98-1
   issues:
@@ -1638,12 +1631,6 @@ cglib3:
   version: 3.1+dfsg-1
   issues:
     - locale_in_documentation_generated_by_javadoc
-cgoban:
-  version: 1.9.14-17
-  issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-  bugs:
-    - 792993
 chake:
   version: 0.11-1
   issues:
@@ -5016,10 +5003,6 @@ gnugk:
   version: 2:3.6-1
   issues:
     - timestamps_from_cpp_macros
-gnugo:
-  version: 3.8-8
-  issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
 gnuift:
   version: 0.1.14-12.1
   issues:
@@ -7486,13 +7469,6 @@ libexplain:
   version: 1.4.D001-2
   bugs:
     - 808854
-libf2c2:
-  version: 20090411-2
-  issues:
-    - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-  bugs:
-    - 788001
 libfann:
   version: 2.1.0~beta+dfsg-1
   comments: |
@@ -10761,13 +10737,6 @@ pacemaker-mgmt:
     Build-depends on libgnutls-dev which no longer exists
   bugs:
     - 790381
-pachi:
-  version: 1:1.0-7
-  issues:
-    - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-  bugs:
-    - 787125
 packaging-tutorial:
   version: 0.15
   issues:
@@ -16283,25 +16252,11 @@ wmpinboard:
     - ftbfs_old_compat_debheper_compat_level
   bugs:
     - 800193
-wmpuzzle:
-  version: 0.5.2-1
-  issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-wmweather:
-  version: 2.4.5-2
-  issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-  bugs:
-    - 792981
 wmweather+:
   version: 2.15-1.1
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/wmweather%2B/2.15-1.1/configure.ac/#L14
-wmwork:
-  version: 0.2.6-1
-  issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
 wolfssl:
   version: 3.4.8+dfsg-1
   bugs:
@@ -16447,10 +16402,6 @@ xen:
     - timestamps_in_gzip_headers
     - timezones_manpages_podman
     - different_due_to_umask
-xfaces:
-  version: 3.3-29
-  issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
 xfonts-a12k12:
   version: 1-11
   issues:
@@ -16568,12 +16519,6 @@ xmount:
   version: 0.7.2-1
   issues:
     - timestamps_from_cpp_macros
-xnecview:
-  version: 1.35-8
-  issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-  bugs:
-    - 777332
 xnee:
   version: 3.19-1
   comments: |
@@ -16614,10 +16559,6 @@ xpra:
   version: 0.14.9+dfsg-1
   bugs:
     - 806974
-xscavenger:
-  version: 1.4.4-9
-  issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
 xserver-xorg-video-openchrome:
   version: 1:0.3.3-1
   bugs:
@@ -16653,13 +16594,6 @@ xtrkcad:
   version: 1:4.0.2-2
   bugs:
     - 790389
-xtrlock:
-  version: 2.6
-  issues:
-    - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-  bugs:
-    - 787122
 xvier:
   version: 1.0-7.5
   issues:
