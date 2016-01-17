@@ -608,7 +608,7 @@ asciidoc:
 asciidoctor:
   version: 0.1.4-3
   issues:
-    - timestamps_in_ruby_documentation
+    - timestamps_in_gemspec_files
 asis:
   version: 2014-4
   comments: |
@@ -1147,8 +1147,10 @@ blender:
     http://sources.debian.net/src/blender/2.72.b%2Bdfsg0-3/source/creator/buildinfo.c/?hl=40:41#L40
 blends:
   version: 0.6.92.2
-  issues:
-    - timestamps_in_pdf_generated_by_latex
+  comments: |
+    Generates PDF with xmlto, which calls dblatex.
+    dblatex builds pdf files in random directory. This could be changed with --tmpdir=docbuild,
+    but xmlto doesn't support passing arguments to dblatex.
 bliss:
   version: 0.72-5
   issues:
@@ -2499,6 +2501,8 @@ dctrl-tools:
   version: 2.24-1
   comments: |
     Uses po4a --force
+  issues:
+    - different_pot_creation_date_in_gettext_mo_files
 dd2:
   version: 0.2.2-2
   issues:
@@ -4498,6 +4502,7 @@ gdb:
   issues:
     - timestamps_in_jar
     - timestamps_in_dvi_generated_by_latex
+    - diffoscope_runs_forever
 gdb-avr:
   version: 7.7-2
   issues:
@@ -4621,6 +4626,8 @@ getfem++:
     https://sources.debian.net/src/getfem%2B%2B/4.2.1~beta1~svn4635~dfsg-3/configure.ac/#L753-L756
 gettext:
   version: 0.19.5.1-1
+  comments: |
+    https://sources.debian.net/src/gettext/0.19.7-2/gettext-runtime/intl-java/Makefile.am/#L48
   issues:
     - timestamps_in_jar
 gevent-socketio:
@@ -10030,10 +10037,14 @@ ntopng:
     Embeds the build date.
     https://sources.debian.net/src/ntopng/2.0%2Bdfsg1-1/autogen.sh/#L3-L8
 ntp:
-  version: 1:4.2.6.p5+dfsg-7
+  version: 1:4.2.8p4+dfsg-3
   comments: |
     Records build time:
-    https://sources.debian.net/src/ntp/1:4.2.6.p5%2Bdfsg-7/scripts/mkver.in/?hl=20#L20
+    https://sources.debian.net/src/ntp/1:4.2.8p4%2Bdfsg-3/scripts/build/mkver.in/#L18
+    MKREPRO_DATE / MKREPRO_TIME could be set to deterministic value via CPPFLAGS:
+    https://sources.debian.net/src/ntp/1:4.2.8p4%2Bdfsg-3/libntp/ntp_calendar.c/#L343
+  issues:
+    - timestamps_from_cpp_macros
 nuitka:
   version: 0.5.13+ds-1
   bugs:
