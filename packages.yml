@@ -1381,10 +1381,6 @@ cairo-dock:
   version: 3.4.0-1
   issues:
     - timestamps_from_cpp_macros
-calendar-exchange-provider:
-  version: 3.4.0-1
-  issues:
-    - unsorted_filelist_in_xul_ext_preferences
 calendarserver:
   version: 5.2.2+dfsg-2
   bugs:
@@ -3717,10 +3713,6 @@ firebird3.0:
   version: 3.0.0~svn+53030.ds3-1
   issues:
     - timezones_manpages_podman
-firebug:
-  version: 2.0.13-1
-  issues:
-    - unsorted_filelist_in_xul_ext_preferences
 firehol:
   version: 2.0.1+ds-1
   issues:
@@ -13848,6 +13840,10 @@ safecat:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/safecat/1.13-2/Makefile/#L407-L411
+sagan:
+  version: 1.0.1-0.1
+  issues:
+    - timestamps_from_cpp_macros
 sailcut:
   version: 1.3.6-1
   comments: |
