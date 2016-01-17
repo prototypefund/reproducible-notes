@@ -2560,6 +2560,10 @@ debdry:
     - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
   bugs:
     - 805195
+debget:
+  version: 1.6+nmu2
+  bugs:
+    - 800187
 debhelper:
   version: 9.20151126.0~reproducible0
   bugs:
