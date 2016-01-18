@@ -10906,6 +10906,10 @@ pavumeter:
   version: 0.9.3-4
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
+pbuilder:
+  version: 0.222
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 pcaputils:
   version: 0.8-1
   issues:
@@ -11157,6 +11161,10 @@ php-gnupg:
   version: 1.3.6-1
   bugs:
     - 805222
+php-guzzle:
+  version: 3.9.3+dfsg-3
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 php-guzzlehttp-ringphp:
   version: 1.1.0-1
   issues:
@@ -11651,6 +11659,10 @@ primrose:
   version: 6+dfsg1-3
   bugs:
     - 778481
+probabel:
+  version: 0.4.5-2
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 proftpd-dfsg:
   version: 1.3.5-1.1
   comments: |
@@ -12521,6 +12533,10 @@ python-tasklib:
   version: 0.11.0-1
   bugs:
     - 808844
+python-tidylib:
+  version: 0.2.4~dfsg-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 python-tldap:
   version: 0.3.9-1
   issues:
@@ -13156,6 +13172,10 @@ ripmime:
     https://sources.debian.net/src/ripmime/1.4.0.10.debian.1-1/generate-buildcodes.sh/
   issues:
     - captures_kernel_version
+rivet:
+  version: 1.8.3-1.3
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 rkward:
   version: 0.6.4-1
   issues:
