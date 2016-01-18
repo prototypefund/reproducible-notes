@@ -6422,6 +6422,10 @@ jenkins-ssh-cli-auth:
   version: 1.2-1
   issues:
     - timestamps_in_java_stapler_files
+jenkins-xstream:
+  version: 1.4.7-jenkins-1-2
+  comments: |
+    Adds X-Build-Time to MANIFEST.MF
 jericho-html:
   version: 3.1-2
   issues:
