@@ -1922,6 +1922,10 @@ coinor-csdp:
   version: 6.1.1-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+coinor-dylp:
+  version: 1.6.0-1.1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 coinor-ipopt:
   version: 3.11.9-2.1
   issues:
@@ -7409,6 +7413,10 @@ libcoyotl:
     Installs examples with varying environments - can probably just be distcleaned after build
   issues:
     - leaks_path_environment_variable
+libcrcutil:
+  version: 1.0-3
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 libcsp:
   version: 1.4+fdd49b7+dfsg-3
   comments: |
