@@ -16027,6 +16027,9 @@ vifm:
     - timestamps_from_cpp_macros
 viking:
   version: 1.6-1
+  comments: |
+    List of include depends on filesystem order: “for file in *_pixmap.h;”
+    https://sources.debian.net/src/viking/1.6-1/src/icons/Makefile.am/?hl=270:#L270
   issues:
     - build_id_variation_requiring_further_investigation
 vim:
