@@ -798,6 +798,10 @@ autodocksuite:
   version: 4.2.6-2
   issues:
     - timestamps_from_cpp_macros
+autogen:
+  version: 1:5.18.7-3
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 automake-1.14:
   version: 1:1.14.1-4
   issues:
@@ -2696,6 +2700,10 @@ debmake-doc:
     Dynamically includes generates directory listings with umask, etc.
   issues:
     - fonts_in_pdf_files
+debomatic:
+  version: 0.21-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 deborphan:
   version: 1.7.28.8-0.2
   bugs:
@@ -8991,6 +8999,10 @@ lzop:
   version: 1.03-3
   issues:
     - timestamps_from_cpp_macros
+m-tx:
+  version: 0.61.ctan20151217-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 m2300w:
   version: 0.51-12
   issues:
@@ -10335,6 +10347,10 @@ ocaml-curses:
   version: 1.0.3-2
   issues:
     - randomness_in_ocaml_preprocessed_files
+ocaml-melt:
+  version: 1.4.0-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 ocamlbricks:
   version: 0.90+bzr400-1
   issues:
