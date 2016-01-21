@@ -4220,6 +4220,10 @@ fpc:
   issues:
     - undeterministic_symlinking_by_rdfind
     - timestamps_in_ppu_generated_by_fpc
+fpga-icestorm:
+  version: 0~20151006git103e6fd-1
+  issues:
+    - timestamps_in_manpages_generated_by_txt2man
 fprobe-ulog:
   version: 1.1-7.3
   bugs:
