@@ -4535,9 +4535,45 @@ gcc-4.9:
     Contains test output in boehmm-gc.log.xz which is non-determinstic and contains timestamps
     deki said: 'libcilkrts/runtime/sysdep-unix.c contains __DATE__ and __TIME__'
 gcc-5:
-  version: 5.2.1-21
+  version: 5.3.1-6
   comments: |
-    deki said: 'libcilkrts/runtime/sysdep-unix.c contains __DATE__ and __TIME__'
+    * Uses profile-guided optimizations on major architectures
+
+      https://sources.debian.net/src/gcc-5/5.3.1-7/debian/rules2/?hl=731#L731
+
+      If we want to keep that, can we think of a way  *.gcda files be packaged
+      and later reused?
+
+    * Order of symbols issue:
+
+      - libgo/syscall.o
+
+    * gcj uses random temp filenames:
+
+      - libjava/.libs/gnu-CORBA.o
+
+    * Timestamps in jar:
+
+      - build/*/libjava/libgcj-tools-5.jar
+
+      Add post-processing in libjava/Makefile.am?
+      Or touch before creating tools.zip in libjava/classpath/tools/Makefile.am?
+
+    * Timestamps in ADA interfaces (.ali)
+
+      - gcc/ada/ali-util.ali
+
+      Might be fixable by adding the right `touch` in gcc/ada/Make-generated.in
+      where the following files are generated:
+      nmake.adb, nmake.ads, sdefault.adb, snames.adb, snames.ads, treeprs.ads.
+
+      In gcc/ada/gcc-interface/Makefile.in for:
+      s-oscons.ads, system.ads, b_gnatl.adb, b_gnatl.ads, b_gnatm.adb, b_gnatm.ads.
+
+      In gcc/ada/gcc-interface/Make-lang.in for:
+      b_gnat1.adb, b_gnat1.ads, b_gnatb.adb, b_gnatb.ads, gnatvsn.ads.
+
+      No clue: b~lto13.adb, b~lto13.ads.
   issues:
     - build_id_variation_requiring_further_investigation
 gcc-5-cross:
