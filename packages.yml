@@ -1430,6 +1430,10 @@ camitk:
     timestamp found in manpages generated from a cmake script
   bugs:
     - 794740
+camlp5:
+  version: 6.14-1
+  bugs:
+    - 802264
 canl-c:
   version: 2.1.5-1.1
   issues:
@@ -4800,6 +4804,8 @@ giflib:
   version: 4.1.6-11
   issues:
     - timestamps_from_cpp_macros
+  bugs:
+    - 812093
 gifticlib:
   version: 1.0.9-1
   issues:
@@ -10556,6 +10562,7 @@ ogre-1.8:
   version: 1.8.0+dfsg1-7
   bugs:
     - 809130
+    - 811228
 ohcount:
   version: 3.0.0-8
   bugs:
