@@ -2137,18 +2137,6 @@ cpio:
     - timestamps_in_gzip_headers
   bugs:
     - 774426
-cpl-plugin-fors:
-  version: 5.1.4+dfsg-1
-  bugs:
-    - 803051
-cpl-plugin-hawki:
-  version: 1.8.18+dfsg-4
-  bugs:
-    - 803051
-cpl-plugin-naco:
-  version: 4.4.0+dfsg-2
-  bugs:
-    - 803051
 cpl-plugin-uves:
   version: 5.5.2+dfsg-3
   issues:
@@ -2932,10 +2920,6 @@ django-celery:
   version: 3.1.17-3
   issues:
     - randomness_in_documentation_generated_by_sphinx
-django-compat:
-  version: 1.0.7-2
-  bugs:
-    - 806346
 django-conneg:
   version: 0.9.4-2
   bugs:
@@ -3347,10 +3331,6 @@ ekg2:
   version: 1:0.4~pre+20120506.1-10
   issues:
     - different_pot_creation_date_in_gettext_mo_files
-elasticsearch:
-  version: 1.7.3+dfsg-2
-  bugs:
-    - 808852
 elastix:
   version: 4.8-3
   issues:
@@ -3584,14 +3564,6 @@ ezstream:
   comments: |
     Embeds the build date into manpages.
     https://sources.debian.net/src/ezstream/0.5.6%7Edfsg-1/configure.in/#L20
-eztrace:
-  version: 1.1-2
-  comments: |
-    creates a huge file filling the entire file system
-  issues:
-    - blacklisted_on_jenkins
-  bugs:
-    - 804838
 f-irc:
   version: 1.36-1
   issues:
@@ -4525,10 +4497,6 @@ gcc-4.8:
   version: 4.8.5-1
   comments: |
     deki said: 'libcilkrts/runtime/sysdep-unix.c contains __DATE__ and __TIME__'
-  issues:
-    - ftbfs_old_compat_debheper_compat_level
-  bugs:
-    - 800248
 gcc-4.9:
   version: 4.9.3-1
   comments: |
@@ -4538,41 +4506,41 @@ gcc-5:
   version: 5.3.1-6
   comments: |
     * Uses profile-guided optimizations on major architectures
-
+    
       https://sources.debian.net/src/gcc-5/5.3.1-7/debian/rules2/?hl=731#L731
-
+    
       If we want to keep that, can we think of a way  *.gcda files be packaged
       and later reused?
-
+    
     * Order of symbols issue:
-
+    
       - libgo/syscall.o
-
+    
     * gcj uses random temp filenames:
-
+    
       - libjava/.libs/gnu-CORBA.o
-
+    
     * Timestamps in jar:
-
+    
       - build/*/libjava/libgcj-tools-5.jar
-
+    
       Add post-processing in libjava/Makefile.am?
       Or touch before creating tools.zip in libjava/classpath/tools/Makefile.am?
-
+    
     * Timestamps in ADA interfaces (.ali)
-
+    
       - gcc/ada/ali-util.ali
-
+    
       Might be fixable by adding the right `touch` in gcc/ada/Make-generated.in
       where the following files are generated:
       nmake.adb, nmake.ads, sdefault.adb, snames.adb, snames.ads, treeprs.ads.
-
+    
       In gcc/ada/gcc-interface/Makefile.in for:
       s-oscons.ads, system.ads, b_gnatl.adb, b_gnatl.ads, b_gnatm.adb, b_gnatm.ads.
-
+    
       In gcc/ada/gcc-interface/Make-lang.in for:
       b_gnat1.adb, b_gnat1.ads, b_gnatb.adb, b_gnatb.ads, gnatvsn.ads.
-
+    
       No clue: b~lto13.adb, b~lto13.ads.
   issues:
     - build_id_variation_requiring_further_investigation
@@ -6347,10 +6315,6 @@ jabref:
   version: 2.10+ds-3
   comments: |
     Embeds built date into build.properties file contained in jar.
-jacal:
-  version: 1b9-5
-  bugs:
-    - 807587
 jack-audio-connection-kit:
   version: 1:0.124.1+20140122git5013bed0-3
   comments: |
@@ -7282,7 +7246,6 @@ ldns:
   version: 1.6.17-5
   bugs:
     - 777379
-    - 808665
 le-dico-de-rene-cougnenc:
   version: 1.3-2.1
   bugs:
@@ -7843,10 +7806,6 @@ libint:
   version: 1.1.5-1
   issues:
     - timestamps_in_pdf_generated_by_latex
-libio-event-perl:
-  version: 0.813-1
-  bugs:
-    - 730908
 libio-socket-multicast6-perl:
   version: 0.03-3
   bugs:
@@ -11576,10 +11535,6 @@ phyml:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/phyml/2:20120412-2/configure.ac/#L5
-picard:
-  version: 1.3.2-3
-  bugs:
-    - 805221
 picard-tools:
   version: 1.138+dfsg.1-1
   issues:
@@ -12195,8 +12150,6 @@ pymvpa2:
   version: 2.3.1-2
   issues:
     - randomness_in_documentation_generated_by_sphinx
-  bugs:
-    - 802526
 pyntor:
   version: 0.6-4
   issues:
@@ -15356,10 +15309,6 @@ tar:
   version: 1.28-2
   issues:
     - ftbfs_uninvestigated_test_failures
-tarantool:
-  version: 1.6.7.541.g89c4578-1
-  bugs:
-    - 808516
 tart:
   version: 3.10-1
   issues:
