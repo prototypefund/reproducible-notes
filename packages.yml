@@ -2991,6 +2991,10 @@ dkg-handwriting:
   version: 0.15-1
   issues:
     - fontforge_reset_modification_time
+dlm:
+  version: 4.0.2-1
+  issues:
+    - timestamps_from_cpp_macros
 dms:
   version: 1.0.3-2
   issues:
@@ -3780,6 +3784,12 @@ firebird3.0:
   version: 3.0.0~svn+53030.ds3-1
   issues:
     - timezones_manpages_podman
+firefox-kwallet5:
+  version: 1.0-1
+  comments: |
+    Calls zip manually, which embeds build timestamps.
+    https://sources.debian.net/src/firefox-kwallet5/1.0-1/debian/rules/#L25
+    Should use xpi-pack instead.
 firehol:
   version: 2.0.1+ds-1
   issues:
@@ -4276,6 +4286,12 @@ freehdl:
   version: 0.0.8-2.1
   issues:
     - timestamps_from_cpp_macros
+freeimage:
+  version: 3.17.0+ds1-1
+  comments: |
+    Locale-dependent sorting of source files:
+    https://sources.debian.net/src/freeimage/3.17.0%2Bds1-1/debian/patches/Disable-vendored-dependencies.patch/
+    -> s/sort/LC_ALL=C sort/
 freeipa:
   version: 4.0.5-6
   bugs:
@@ -4560,6 +4576,10 @@ gcc-5-cross:
   version: 17
   issues:
     - diffoscope_runs_forever
+gcc-5-cross-ports:
+  version: 6
+  issues:
+    - diffoscope_runs_forever
 gcc-arm-none-eabi:
   version: 15:4.9.3+svn231177-1
   issues:
@@ -4626,6 +4646,12 @@ gdb:
     - timestamps_in_jar
     - timestamps_in_dvi_generated_by_latex
     - diffoscope_runs_forever
+gdb-arm-none-eabi:
+  version: 9
+  comments: |
+    Uses gdb-source package, which contains __DATE__ / __TIME__.
+  issues:
+    - timestamps_from_cpp_macros
 gdb-avr:
   version: 7.7-2
   issues:
@@ -5161,6 +5187,10 @@ gnuplot5:
   version: 5.0.0~rc+dfsg2-1
   issues:
     - timestamps_in_dvi_generated_by_latex
+gnuradio:
+  version: 3.7.9-3
+  issues:
+    - diffoscope_runs_forever
 gnustep-base:
   version: 1.24.7-1
   comments: |
@@ -5692,6 +5722,10 @@ h2database:
   version: 1.4.185-1
   issues:
     - timestamps_in_zip
+hamradio-maintguide:
+  version: 0.1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 handbrake:
   version: 0.10.2+ds1-1
   comments: |
@@ -5779,6 +5813,11 @@ herculesstudio:
   version: 1.5.0-2
   issues:
     - timestamps_from_cpp_macros
+heroes:
+  version: 0.21-11
+  issues:
+  issues:
+    - different_due_to_umask
 heroes-data:
   version: 1.5-2
   bugs:
@@ -8775,6 +8814,10 @@ lintian:
   version: 2.5.38
   issues:
     - ftbfs_uninvestigated_test_failures
+linux-grsec:
+  version: 4.3.3-7+grsec201601171913+1
+  issues:
+    - diffoscope_runs_forever
 linux-minidisc:
   version: 0.9.13-1
   comments: |
@@ -13879,6 +13922,10 @@ ruby-ncurses:
     - timestamps_in_gemspec_files
 ruby-nested-form:
   version: 0.3.2-2
+  issues:
+    - timestamps_in_gemspec_files
+ruby-net-telnet:
+  version: 0.1.1-1
   issues:
     - timestamps_in_gemspec_files
 ruby-odbc:
