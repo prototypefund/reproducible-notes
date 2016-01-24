@@ -489,18 +489,6 @@ apq:
   version: 3.2.0-2
   issues:
     - timestamps_in_pdf_generated_by_latex
-apron:
-  version: 0.9.10-6
-  issues:
-    - randomness_in_html_generated_by_texi2html
-  bugs:
-    - 808628
-apt-cacher-ng:
-  version: 0.8.2-1
-  issues:
-    - different_due_to_umask
-    - random_order_in_tarball
-    - timestamps_in_tarball
 apt-dater:
   version: 1.0.2-1
   bugs:
@@ -1045,10 +1033,6 @@ bedtools:
   version: 2.25.0-1
   issues:
     - build_id_variation_requiring_further_investigation
-beep:
-  version: 1.3-3
-  bugs:
-    - 777253
 beets:
   version: 1.3.8+dfsg-2
   bugs:
@@ -2017,9 +2001,9 @@ commons-pool:
     - user_in_java_jar_manifest
     - locale_in_documentation_generated_by_javadoc
 commons-vfs:
-  version: 2.0-6
-  bugs:
-    - 811259
+  version: 2.0-7
+  comments: |
+    Timestamp in Implementation-Build field in MANIFEST.MF.
 compass-blend-modes-plugin:
   version: 0.0.2~20130918-1
   issues:
@@ -2121,10 +2105,6 @@ corosync:
   version: 1.4.6-1.1
   issues:
     - timestamps_in_documentation_generated_by_groff
-cortado:
-  version: 0.6.0-2
-  bugs:
-    - 794248
 couchdb:
   version: 1.4.0-3
   bugs:
@@ -2728,10 +2708,6 @@ dejagnu:
   version: 1.5.1-2
   comments: |
     Timestamps in PDF/PS embedded by docbook2pdf / docbook2ps
-denemo:
-  version: 1.1.8-2
-  bugs:
-    - 802064
 derby:
   version: 10.10.2.0-1
   issues:
@@ -2746,12 +2722,6 @@ designate:
   version: 1:1.0.0-3
   issues:
     - ftbfs_uninvestigated_test_failures
-desktop-profiles:
-  version: 1.4.20
-  issues:
-    - different_due_to_umask
-  bugs:
-    - 779602
 desproxy:
   version: 0.1.0~pre3-8
   bugs:
@@ -2968,10 +2938,6 @@ django-session-security:
   version: 2.2.4+dfsg-1
   issues:
     - randomness_in_documentation_indices_generated_by_sphinx
-django-stronghold:
-  version: 0.2.7+debian-1
-  bugs:
-    - 808484
 django-testscenarios:
   version: 0.7.4-2
   issues:
@@ -3170,10 +3136,6 @@ dtc-xen:
     - timestamps_in_gzip_headers
   bugs:
     - 777322
-dulwich:
-  version: 0.11.2-1
-  bugs:
-    - 810891
 dune-common:
   version: 2.4.0-1
   issues:
@@ -3207,11 +3169,9 @@ dwarves-dfsg:
   bugs:
     - 764484
 dwb:
-  version: 20140702hg-1
+  version: 20150419git-2
   issues:
     - timestamps_from_cpp_macros
-  bugs:
-    - 809569
 dwww:
   version: 1.12.1
   bugs:
@@ -3364,9 +3324,10 @@ elida:
     - 776955
     - 792959
 eliom:
-  version: 4.0.0-2
-  bugs:
-    - 802860
+  version: 4.2-1
+  comments: |
+    Checksum in /usr/share/doc/libeliom-ocaml-doc/client/api.docdir/html.stamp
+    Created by ocamlbuild? https://sources.debian.net/src/eliom/4.2-1/build/doc.ml/#L12
 elixir-lang:
   version: 1.1.0-1
   issues:
@@ -5211,9 +5172,11 @@ gnustep-make:
   issues:
     - timestamps_in_pdf_generated_by_latex
 gnutls28:
-  version: 3.3.14-2
-  issues:
-    - timezone_variance_because_of_automake_mdate
+  version: 3.4.8-2
+  comments: |
+    FTBFS because test suite fails when run in the future “Output: Not
+    verified. The certificate is NOT trusted. The certificate chain uses expired
+    certificate.”
 go-mtpfs:
   version: 0.0~git20150802.0.3ef47f9-2
   issues:
@@ -5813,25 +5776,6 @@ herculesstudio:
   version: 1.5.0-2
   issues:
     - timestamps_from_cpp_macros
-heroes:
-  version: 0.21-11
-  issues:
-  issues:
-    - different_due_to_umask
-heroes-data:
-  version: 1.5-2
-  bugs:
-    - 800292
-heroes-sound-effects:
-  version: 1.0-4
-  bugs:
-    - 800290
-heroes-sound-tracks:
-  version: 1.0-4
-  issues:
-    - ftbfs_old_compat_debheper_compat_level
-  bugs:
-    - 800265
 herold:
   version: 6.1.0-1
   issues:
@@ -6082,10 +6026,6 @@ icu4j:
   version: 4.2.1.1-3
   comments: |
     Timestamp in generated code comment
-ideviceinstaller:
-  version: 1.0.1-0.2
-  bugs:
-    - 810520
 idjc:
   version: 0.8.15-1
   comments: |
@@ -6228,11 +6168,6 @@ integrit:
   bugs:
     - 776973
     - 792984
-intltool:
-  version: 0.50.2-2
-  bugs:
-    - 788705
-    - 809010
 invesalius:
   version: 3.0-1
   issues:
@@ -6263,11 +6198,6 @@ ips:
   version: 4.0-1
   issues:
     - timestamps_from_cpp_macros
-ipsec-tools:
-  version: 1:0.8.2+20140711-4
-  bugs:
-    - 790244
-    - 808663
 ipsvd:
   version: 1.0.0-3
   issues:
@@ -7075,10 +7005,6 @@ kivy:
   version: 1.9.0-3
   bugs:
     - 810139
-klatexformula:
-  version: 3.2.7-1
-  bugs:
-    - 803761
 klog:
   version: 0.9.2.2-1
   bugs:
@@ -7108,10 +7034,6 @@ kmod:
     - timestamps_in_manpages_generated_by_docbook_xsl
   bugs:
     - 783152
-kmplayer:
-  version: 1:0.11.3d-2.1
-  bugs:
-    - 805206
 kmymoney:
   version: 4.6.6-2
   issues:
@@ -7468,10 +7390,6 @@ libcgicc:
   version: 3.2.9-3
   issues:
     - timestamps_from_cpp_macros
-libcloud:
-  version: 0.17.0-1
-  bugs:
-    - 811160
 libcobra-java:
   version: 0.98.4-5
   issues:
@@ -7497,9 +7415,9 @@ libcommons-el-java:
   issues:
     - locale_in_documentation_generated_by_javadoc
 libcommons-jexl2-java:
-  version: 2.1.1-2
-  bugs:
-    - 812085
+  version: 2.1.1-3
+  comments: |
+    Timestamp in Implementation-Build field in MANIFEST.MF.
 libcommons-jxpath-java:
   version: 1.3-6
   issues:
@@ -8327,10 +8245,6 @@ libpixels-java:
   issues:
     - timestamps_in_jar
     - timestamps_in_documentation_generated_by_javadoc
-libpodofo:
-  version: 0.9.0-1.3
-  bugs:
-    - 806578
 libpoe-api-peek-perl:
   version: 2.2000-1
   bugs:
@@ -8622,10 +8536,6 @@ libuninum:
   version: 2.7-1.1
   issues:
     - timestamps_from_cpp_macros
-libupnp:
-  version: 1:1.6.19+git20141001-1
-  bugs:
-    - 807393
 libusb-java:
   version: 0.8+ztex20090101-7
   issues:
@@ -9134,13 +9044,6 @@ madwimax:
   issues:
     - timestamps_in_documentation_generated_by_asciidoc
     - timestamps_in_manpages_generated_by_docbook2x
-magic:
-  version: 7.5.241-1
-  comments: |
-    Embed build time:
-    https://sources.debian.net/src/magic/7.5.241-1/tcltk/Makefile/?hl=11#L11
-  bugs:
-    - 778272
 magicfilter:
   version: 1.2-64
   issues:
@@ -9161,11 +9064,6 @@ magyarispell:
   version: 1.6.1-2
   issues:
     - random_ispell_hash_files
-mailagent:
-  version: 1:3.1-81-1
-  comments: |
-    Capture username in:
-    https://sources.debian.net/src/mailagent/1:3.1-78-1/agent/man/mailagent.SH/?hl=733#L733
 maildirsync:
   version: 1.2-1.1
   issues:
@@ -9394,10 +9292,6 @@ mercurial:
   version: 3.6.2-1
   bugs:
     - 809770
-mercurial-server:
-  version: 1.2-2
-  bugs:
-    - 796665
 meshlab:
   version: 1.3.2+dfsg1-2
   issues:
@@ -10007,10 +9901,6 @@ ndiswrapper:
     - different_due_to_umask
   bugs:
     - 803583
-nekohtml:
-  version: 1.9.21-2
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 nepomuk-core:
   version: 4:4.14.0-1
   issues:
@@ -10028,9 +9918,9 @@ netcdf-cxx:
   issues:
     - leaks_path_environment_variable
 netcdf-fortran:
-  version: 4.4.2-1~exp3
+  version: 4.4.3-1
   comments: |
-    Timestamps in doc footer
+    Capture PATH in examples
 netexpect:
   version: 0.22-2
   bugs:
@@ -11223,20 +11113,12 @@ pd-hid:
   version: 0.7-1
   issues:
     - timestamps_from_cpp_macros
-pd-iemguts:
-  version: 0.1-1
-  issues:
-    - timestamps_from_cpp_macros
 pd-libdir:
   version: 1.9-3
   issues:
     - timestamps_from_cpp_macros
 pd-lua:
   version: 0.6.0-2
-  issues:
-    - timestamps_from_cpp_macros
-pd-mediasettings:
-  version: 0.1-1
   issues:
     - timestamps_from_cpp_macros
 pd-mrpeach:
@@ -11390,10 +11272,6 @@ pgpool2:
   version: 3.3.4-1
   bugs:
     - 810636
-pgsql-asn1oid:
-  version: 0.0.20100818-3.1
-  bugs:
-    - 810560
 phatch:
   version: 0.2.7.1-3.1
   issues:
@@ -11810,10 +11688,6 @@ polygraph:
   version: 4.3.2-1.1
   issues:
     - timestamps_from_cpp_macros
-polymake:
-  version: 2.14-2
-  bugs:
-    - 793922
 polyml:
   version: 5.2.1-1.1
   issues:
@@ -12032,11 +11906,6 @@ ptouch-driver:
   version: 1.3-8
   issues:
     - ppds_compressed_b64
-publib:
-  version: 0.40-1
-  bugs:
-    - 790273
-    - 807349
 publican:
   version: 4.3.2-1
   issues:
@@ -12385,10 +12254,6 @@ python-daemon:
   version: 2.0.5-1
   issues:
     - different_encoding
-python-dcos:
-  version: 0.2.0-1
-  bugs:
-    - 811105
 python-debian:
   version: 0.1.27
   bugs:
@@ -12397,10 +12262,6 @@ python-debtcollector:
   version: 0.8.0-2
   issues:
     - copyright_year_in_documentation_generated_by_sphinx
-python-distutils-extra:
-  version: 2.38-1
-  bugs:
-    - 809010
 python-django-debug-toolbar:
   version: 1:1.4-1
   issues:
@@ -12465,10 +12326,6 @@ python-expyriment:
   version: 0.7.0+git34-g55a4e7e-3
   issues:
     - timestamps_in_pdf_generated_by_latex
-python-falcon:
-  version: 0.3.0-4
-  bugs:
-    - 811465
 python-fedora:
   version: 0.3.36-2
   bugs:
@@ -12695,10 +12552,6 @@ python-pypump:
     - timestamps_in_documentation_generated_by_sphinx
   bugs:
     - 788505
-python-pysam:
-  version: 0.8.4+ds-1
-  bugs:
-    - 810645
 python-pyscss:
   version: 1.3.4-4
   issues:
@@ -12747,10 +12600,6 @@ python-rtslib-fb:
   version: 2.1.57+debian-3
   issues:
     - randomness_in_documentation_generated_by_sphinx
-python-ruffus:
-  version: 2.6.3+dfsg-1
-  bugs:
-    - 811002
 python-scientific:
   version: 2.9.4-3
   bugs:
@@ -12800,10 +12649,6 @@ python-softlayer:
   version: 4.1.1-2
   issues:
     - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
-python-sptest:
-  version: 0.2.1-2
-  bugs:
-    - 796647
 python-statsd:
   version: 3.2.1-1
   bugs:
@@ -12836,10 +12681,6 @@ python-webob:
   version: 1.4-2
   issues:
     - randomness_in_documentation_generated_by_sphinx
-python-websockets:
-  version: 2.6-1
-  bugs:
-    - 809287
 python-whoosh:
   version: 2.7.0-1
   issues:
@@ -13739,10 +13580,6 @@ ruby-expression-parser:
   version: 0.9.1-2
   issues:
     - timestamps_in_ruby_documentation
-ruby-eye:
-  version: 0.7-2
-  bugs:
-    - 810892
 ruby-facets:
   version: 2.9.3-2
   issues:
@@ -14894,10 +14731,6 @@ spark:
   version: 2012.0.deb-11
   comments: |
     Embed a timestamp and other weird things in ./usr/bin/checker
-spatial4j:
-  version: 0.3-1
-  bugs:
-    - 807609
 spatialite-tools:
   version: 4.1.1-4
   comments: |
@@ -15575,10 +15408,6 @@ tilda:
   version: 1.2.2-1
   issues:
     - different_pot_creation_date_in_gettext_mo_files
-tilecache:
-  version: 2.11+ds-1
-  bugs:
-    - 811262
 tiles:
   version: 2.2.2-6
   issues:
@@ -15922,10 +15751,6 @@ txtorcon:
     - timestamps_in_documentation_generated_by_sphinx
   bugs:
     - 808689
-typecatcher:
-  version: 0.2-1
-  bugs:
-    - 812181
 tz-converter:
   version: 1.0.0-1
   issues:
@@ -16067,10 +15892,6 @@ underscore.logger:
   version: 0.3.0~20111114-1
   bugs:
     - 669541
-undertaker:
-  version: 1.6-2.1
-  bugs:
-    - 797896
 undertow:
   version: 1.3.11-1
   issues:
