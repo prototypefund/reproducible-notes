@@ -1809,10 +1809,6 @@ cloc:
   version: 1.60-1
   bugs:
     - 787669
-clojure1.2:
-  version: 1.2.1+dfsg-5
-  comments: |
-    Generates code in non-deterministic order. Check emit in ./src/jvm/clojure/lang/Compiler.java, especially around PersistentMap - smells like dict key access order. See also clojure1.6
 clojure1.6:
   version: 1.6.0+dfsg-1
   comments: |
@@ -7454,13 +7450,6 @@ libconfig-model-itself-perl:
     needs more investigation + bug
   issues:
     - blacklisted_on_jenkins
-libconstantine-java:
-  version: 0.7-6
-  issues:
-    - timestamps_in_documentation_generated_by_javadoc
-    - random_order_in_documentation_generated_by_javadoc
-    - timestamps_in_jar
-    - locale_in_documentation_generated_by_javadoc
 libcorelinux:
   version: 0.4.32-7.4
   bugs:
