@@ -3745,6 +3745,10 @@ findbugs:
   version: 2.0.3+repack-2
   issues:
     - timestamps_in_maven_version_files
+findutils:
+  version: 4.6.0-2
+  bugs:
+    - 812762
 firebird2.5:
   version: 2.5.4.26856.ds4-1
   comments: |
