@@ -8636,10 +8636,8 @@ libxi:
     - 806472
 libxml++2.6:
   version: 2.38.1-1
-  comments: |
-    Installs examples with varying environments - can probably just be distcleaned after build
-  issues:
-    - leaks_path_environment_variable
+  bugs:
+    - 812895
 libxml-commons-resolver1.1-java:
   version: 1.2-7
   issues:
