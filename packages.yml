@@ -1154,6 +1154,10 @@ bittornado:
     - 796212
 blcr:
   version: 0.8.5-2.2
+  comments: |
+    Needs to be patched to use system help2man in
+    https://sources.debian.net/src/blcr/0.8.5-2.2/util/cr_checkpoint/Makefile.am/?hl=27#L27
+    https://sources.debian.net/src/blcr/0.8.5-2.2/util/cr_restart/Makefile.am/?hl=27#L27
   issues:
     - timestamps_in_manpages_generated_by_help2man
 blender:
