@@ -4764,6 +4764,10 @@ git:
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
     - random_anchor_names_generated_by_docbook_to_man
+git-annex:
+  version: 5.20151208-1
+  bugs:
+    - 813078
 git-buildpackage:
   version: 0.6.22
   issues:
