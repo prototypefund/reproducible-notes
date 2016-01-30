@@ -498,6 +498,10 @@ apt-listbugs:
   version: 0.1.17
   issues:
     - timestamps_in_documentation_generated_by_rdtool
+apt-venv:
+  version: 1.0.0-1
+  issues:
+    - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
 apt-zip:
   version: 0.18
   issues:
