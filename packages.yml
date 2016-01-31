@@ -1271,9 +1271,9 @@ brickos:
   comments: |
     Tried adding SOURCE_DATE_EPOCH with https://gist.github.com/lamby/2d9f1c62ec4f633b63c9 to remove timestamp but not working for some reason
 brltty:
-  version: 5.2~20141018-2
-  comments: |
-    Entropy from (gcc) compile or link order
+  version: 5.3.1-1
+  issues:
+    - timestamps_from_cpp_macros
 broccoli:
   version: 1.97-3
   comments: |
@@ -7053,9 +7053,9 @@ lammps:
   issues:
     - timestamps_from_cpp_macros
 lapack:
-  version: 3.5.0-5
-  issues:
-    - diffoscope_runs_forever
+  version: 3.6.0-2
+  bugs:
+    - 813309
 lastpass-cli:
   version: 0.3.0-2
   issues:
@@ -7613,6 +7613,10 @@ libical-parser-sax-perl:
   version: 1.09-3
   bugs:
     - 806544
+libice:
+  version: 2:1.0.9-1
+  issues:
+    - different_encoding
 libident:
   version: 0.22-3
   issues:
@@ -8448,6 +8452,10 @@ libxalan2-java:
   version: 2.7.1-9
   issues:
     - random_order_in_java_jar_manifest_mf
+libxaw:
+  version: 2:1.0.13-1
+  issues:
+    - different_encoding
 libxbean-java:
   version: 4.4-1
   issues:
@@ -8456,6 +8464,10 @@ libxerces2-java:
   version: 2.11.0-7
   issues:
     - randomness_in_gcj_output
+libxext:
+  version: 2:1.3.3-1
+  issues:
+    - different_encoding
 libxfont:
   version: 1:1.5.1-1
   issues:
@@ -8496,6 +8508,10 @@ libxmlezout:
   issues:
     - build_id_variation_requiring_further_investigation
     - timestamps_in_ada_library_information_files
+libxmu:
+  version: 2:1.1.2-2
+  issues:
+    - different_encoding
 libxpp2-java:
   version: 2.1.10-7
   issues:
@@ -8504,6 +8520,10 @@ libxpp3-java:
   version: 1.1.4c-2
   issues:
     - locale_in_documentation_generated_by_javadoc
+libxtst:
+  version: 2:1.2.2-1
+  issues:
+    - different_encoding
 libyanfs-java:
   version: 0.0+cvs20070825-4
   issues:
@@ -16236,6 +16256,26 @@ x11proto-input:
     - timestamps_in_documentation_generated_by_asciidoc
   bugs:
     - 795981
+x11proto-kb:
+  version: 1.0.7-1
+  issues:
+    - different_encoding
+x11proto-record:
+  version: 1.14.2-1
+  issues:
+    - different_encoding
+x11proto-scrnsaver:
+  version: 1.2.2-1
+  issues:
+    - different_encoding
+x11proto-xcmisc:
+  version: 1.2.2-1
+  issues:
+    - different_encoding
+x11proto-xext:
+  version: 7.3.0-1
+  issues:
+    - different_encoding
 x11vnc:
   version: 0.9.13-1.2
   comments: |
@@ -16485,6 +16525,10 @@ xtide:
   version: 2.13.2-1
   comments: |
     Seems to be caused by build_tide_db in tcd-utils
+xtrans:
+  version: 1.3.5-1
+  issues:
+    - different_encoding
 xvier:
   version: 1.0-7.5
   issues:
