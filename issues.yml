@@ -28,6 +28,10 @@ timestamps_in_manpages_generated_by_doxygen:
     https://bugs.debian.org/785624
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInManpagesGeneratedByDoxygen
   deterministic: True
+timestamps_in_manpages_generated_by_yat2m:
+  description: |
+    yat2m adds a timestamp in manpages it generates.
+  deterministic: True
 timestamps_in_manpages_generated_by_ronn:
   description: |
     ronn embed localized dates in manpages it generates.
