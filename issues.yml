@@ -64,13 +64,13 @@ timestamps_in_ps_generated_by_dvips:
   deterministic: True
 blacklisted_on_jenkins:
   description: |
-    Some packages have been "blacklisted" in our test infrastructure because
+    Some packages have been blacklisted in our test infrastructure because
     their build hangs, takes too long, spawns processes that are not killed, or
     simply because they use too many resources for our current capacity. (This
     is purely practical step - we would like to test these packages.)
 blacklisted_on_jenkins_armhf_only:
   description: |
-    Some packages have been "blacklisted" only on armhf in our test infrastructure 
+    Some packages have been blacklisted only on armhf in our test infrastructure 
     because their builds takes too long on the tiny armhf boards we're using.
     The migation against this is to add more architectures or waiting until 
     we test against the debian archive, when it's will become sensible to raise
@@ -80,9 +80,9 @@ diffoscope_runs_forever:
   description: |
     Some packages cannot be analysed by diffoscope (formerly known as debbindiff)
     due to it running "forever".
-    Currently it's killed after 30 mins but we also tried an hour, didn't help.
+    Currently it's killed after 60 minutes…
     This page https://reproducible.debian.net/index_breakages.html also collects
-    a list of "undiffable" packages.
+    a list of currently undiffable packages.
 timestamps_in_maven_version_files:
   description: |
     Maven writes a timestamp to version.properties files.  Probably related
