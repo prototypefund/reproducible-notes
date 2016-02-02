@@ -68,6 +68,14 @@ blacklisted_on_jenkins:
     their build hangs, takes too long, spawns processes that are not killed, or
     simply because they use too many resources for our current capacity. (This
     is purely practical step - we would like to test these packages.)
+blacklisted_on_jenkins_armhf_only:
+  description: |
+    Some packages have been "blacklisted" only on armhf in our test infrastructure 
+    because their builds takes too long on the tiny armhf boards we're using.
+    The migation against this is to add more architectures or waiting until 
+    we test against the debian archive, when it's will become sensible to raise
+    the 12h timeout for a single build.
+    Until his happens, please rely on the amd64 tests.
 diffoscope_runs_forever:
   description: |
     Some packages cannot be analysed by diffoscope (formerly known as debbindiff)

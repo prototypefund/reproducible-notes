@@ -8007,7 +8007,7 @@ libreoffice:
     It usually can't be built inside the 12h timeout we currently have.
     Partially blacklisted to save resources in the meantime on armhf.
   issues:
-    - blacklisted_on_jenkins
+    - blacklisted_on_jenkins_armhf_only
 libreoffice-canzeley-client:
   version: 0.4.0-2
   issues:
