@@ -2828,10 +2828,11 @@ diet:
   bugs:
     - 761568
 dietlibc:
-  version: 0.33~cvs20120325-6
+  version: 0.33~cvs20120325-8
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
+  bugs:
+    - 813892
 diffutils:
   version: 1:3.3-2
   bugs:
