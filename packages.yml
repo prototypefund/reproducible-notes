@@ -6874,10 +6874,11 @@ latex2html:
     - randomness_in_html_generated_by_texi2html
     - timezones_manpages_podman
 latexdiff:
-  version: 1.0.4-1
+  version: 1.1.1-1
   issues:
-    - timestamps_in_pdf_generated_by_latex
     - timestamps_in_tex_documents
+  bugs:
+    - 814019
 latrace:
   version: 0.5.11-1
   issues:
@@ -7280,8 +7281,6 @@ libgedcom-perl:
 libgenome-model-tools-music-perl:
   version: 0.04-1
   issues:
-    - timestamps_in_documentation_generated_by_podman
-    - timezones_manpages_podman
     - timestamps_in_documentation_generated_by_ur
 libgetopt-java:
   version: 1.0.14+dfsg-2
@@ -15875,7 +15874,7 @@ wmf:
 wmii-doc:
   version: 1-14
   issues:
-    - timestamps_in_pdf_generated_by_latex
+    - timestamps_in_tex_documents
 wml:
   version: 2.0.12ds1-8
   comments: |
