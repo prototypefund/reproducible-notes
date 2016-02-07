@@ -2261,11 +2261,13 @@ cvc3:
   issues:
     - build_id_variation_requiring_further_investigation
 cvm:
-  version: 0.96-1.1
+  version: 0.96-1.2
   issues:
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
+    - random_order_in_md5sums
+  bugs:
+    - 813944
 cvs-mailcommit:
   version: 1.19-2
   issues:
