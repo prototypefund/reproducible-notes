@@ -265,7 +265,7 @@ amsynth:
   issues:
     - timestamps_from_cpp_macros
 anarchism:
-  version: 14.0-3
+  version: 14.0-4
   issues:
     - lynx_dump_varies_output_with_locale
   bugs:
@@ -845,10 +845,6 @@ aws-sdk-for-php:
     non-deterministic memory address. This is caused by a bug in rst2pdf.
   bugs:
     - 777251
-awscli:
-  version: 1.9.9-2
-  bugs:
-    - 811258
 axiom:
   version: 20140801-10
   comments: |
@@ -983,11 +979,6 @@ bcfg2:
   version: 1.3.5-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
-bcftools:
-  version: 1.2-2
-  bugs:
-    - 812268
-    - 813465
 bcron:
   version: 0.10-3
   issues:
@@ -1124,10 +1115,6 @@ bittornado:
   version: 0.3.18-10.1
   bugs:
     - 796212
-blacs-mpi:
-  version: 1.1-33.1
-  bugs:
-    - 813357
 blcr:
   version: 0.8.5-2.2
   comments: |
@@ -1373,10 +1360,6 @@ cairo-dock:
   version: 3.4.0-1
   issues:
     - timestamps_from_cpp_macros
-caldav-tester:
-  version: 6.1-1
-  bugs:
-    - 813666
 calendarserver:
   version: 5.2.2+dfsg-2
   bugs:
@@ -1439,12 +1422,6 @@ caret:
   version: 5.6.4~dfsg.1-3
   issues:
     - timestamps_from_cpp_macros
-cargo:
-  version: 0.6.0-1
-  issues:
-    - blacklisted_on_jenkins_armhf_only
-  bugs:
-    - 809298
 casablanca:
   version: 2.2.0-1
   comments: |
@@ -1961,10 +1938,6 @@ compass-sassy-maps-plugin:
   version: 0.4.0-3
   issues:
     - timestamps_in_gemspec_files
-composer:
-  version: 1.0.0~alpha11-1
-  bugs:
-    - 810771
 composite:
   version: 0.006.2+dfsg0-4
   issues:
@@ -2604,10 +2577,6 @@ debiandoc-sgml-doc:
   version: 1.1.24
   issues:
     - debiandoc_sgml_timestamp
-debiandoc-sgml-doc-pt-br:
-  version: 1.1.11
-  bugs:
-    - 812188
 debmake:
   version: 4.2.2-1
   issues:
@@ -2626,12 +2595,6 @@ debram:
   version: 2.0.0.4
   bugs:
     - 797706
-debtags:
-  version: 2.0.1
-  issues:
-    - ftbfs_uninvestigated_test_failures
-  bugs:
-    - 808642
 dejagnu:
   version: 1.5.1-2
   comments: |
@@ -2877,10 +2840,6 @@ dkg-handwriting:
   version: 0.15-1
   issues:
     - fontforge_reset_modification_time
-dlm:
-  version: 4.0.2-1
-  issues:
-    - timestamps_from_cpp_macros
 dms:
   version: 1.0.3-2
   issues:
@@ -3701,10 +3660,6 @@ flask-script:
   version: 0.6.7-1
   bugs:
     - 808757
-flask-wtf:
-  version: 0.12-1
-  bugs:
-    - 805662
 flasm:
   version: 1.62-7
   issues:
@@ -4511,10 +4466,6 @@ gdbm:
     - timestamps_from_cpp_macros
   bugs:
     - 774394
-gdcm:
-  version: 2.6.1-3
-  issues:
-    - timestamps_in_manpages_generated_by_docbook_xsl
 gdebi:
   version: 0.9.5.5+nmu1
   issues:
@@ -5529,10 +5480,6 @@ haskell-nats:
   version: 1-1
   bugs:
     - 808900
-haskell-x509-util:
-  version: 1.5.0-4
-  bugs:
-    - 808019
 haskell98-report:
   version: 20080907-5
   issues:
@@ -5553,10 +5500,6 @@ haxe:
   version: 1:3.0.0~svn6707+dfsg-1
   issues:
     - randomness_in_ocaml_custom_executables
-hdf-eos5:
-  version: 5.1.15.dfsg.1-4
-  bugs:
-    - 813160
 hdf5:
   version: 1.8.16+docs-1
   comments: |
@@ -6037,10 +5980,6 @@ ircd-ircu:
   comments: |
     Embed build time:
     http://sources.debian.net/src/ircd-ircu/2.10.12.10.dfsg1-1.1/ircd/version.c.SH/?hl=17#L17
-ircp-tray:
-  version: 0.7.6-1.1
-  bugs:
-    - 810562
 ironic:
   version: 2014.1-10
   comments: |
@@ -6848,10 +6787,6 @@ lam:
     /usr/share/doc/lam4-dev/examples/main/wave1d/Makefile.gz.
   issues:
     - timestamps_in_gzip_headers
-lambdabot:
-  version: 4.3.0.1-1
-  bugs:
-    - 789412
 lammps:
   version: 0~20150313.gitfa668e1-1
   issues:
@@ -6895,11 +6830,6 @@ lavapdu:
   version: 0.0.5-1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-lazarus:
-  version: 1.4.4+dfsg-1
-  comments: |
-    Timestamp in lcl.chm file created by chm writer tools from fpc.
-    Timestamp in object files created by fpc from the %DATE% directive (WIP in fpc).
 lcgdm:
   version: 1.8.7-3.1
   issues:
@@ -7146,11 +7076,9 @@ libcsp:
     - timestamps_from_cpp_macros
     - different_due_to_umask
 libdap:
-  version: 3.12.0-1
+  version: 3.15.1-7
   issues:
     - timestamps_from_cpp_macros
-  bugs:
-    - 809580
 libdata-objectdriver-perl:
   version: 0.09-2
   bugs:
@@ -7548,10 +7476,6 @@ libjgrapht0.8-java:
     - locale_in_documentation_generated_by_javadoc
 libjgraphx-java:
   version: 2.1.0.7-1
-  issues:
-    - locale_in_documentation_generated_by_javadoc
-libjibx1.2-java:
-  version: 1.2.3-4
   issues:
     - locale_in_documentation_generated_by_javadoc
 libjide-oss-java:
@@ -8035,10 +7959,6 @@ libskinlf-java:
   version: 6.7-8
   issues:
     - user_in_java_jar_manifest
-libslf4j-java:
-  version: 1.7.13-1
-  bugs:
-    - 813087
 libsm:
   version: 2:1.2.2-1
   bugs:
@@ -8094,10 +8014,6 @@ libsys-virt-perl:
   version: 1.2.18-1
   bugs:
     - 797490
-libteam:
-  version: 1.18-1
-  bugs:
-    - 813669
 libtemplates-parser:
   version: 11.8.2014-4
   comments: |
@@ -8203,10 +8119,6 @@ libvldocking-java:
   issues:
     - timestamps_in_documentation_generated_by_javadoc
     - locale_in_documentation_generated_by_javadoc
-libvmime:
-  version: 0.9.1-4
-  bugs:
-    - 812969
 libvsqlitepp:
   version: 0.3.13-3
   issues:
@@ -8705,10 +8617,6 @@ magics++:
   version: 2.26.2-1
   comments: |
     Header files generated with random include order.
-magit:
-  version: 1.2.1-1
-  issues:
-    - timestamps_in_emacs_autoloads
 magyarispell:
   version: 1.6.1-2
   issues:
@@ -8749,10 +8657,6 @@ mailto:
   bugs:
     - 777413
     - 793700
-mailutils:
-  version: 1:2.99.98-2
-  bugs:
-    - 812848
 maint-guide:
   version: 1.2.35
   issues:
@@ -9154,10 +9058,6 @@ moksha.common:
   version: 1.2.3-2
   bugs:
     - 803048
-molds:
-  version: 0.3.1-1
-  bugs:
-    - 810230
 mona:
   version: 1.4-15-1
   issues:
@@ -9343,10 +9243,6 @@ mugshot:
   version: 0.2.5-1
   bugs:
     - 811323
-multcomp:
-  version: 1.4-2-1
-  bugs:
-    - 813641
 multiverse-core:
   version: 0.7.0-3
   issues:
@@ -9583,9 +9479,9 @@ netsurf:
   issues:
     - timestamps_in_png
 netty:
-  version: 1:4.0.33-1
-  issues:
-    - timestamps_in_maven_version_files
+  version: 1:4.0.34-1
+  comments: |
+    Timestamps in io.netty.versions.properties files.
 netty-3.9:
   version: 3.9.0.Final-1
   bugs:
@@ -9786,10 +9682,6 @@ norwegian:
   version: 2.0.10-5.2
   issues:
     - random_ispell_hash_files
-nose:
-  version: 1.3.6-1
-  bugs:
-    - 811468
 nose2:
   version: 0.5.0-1
   issues:
@@ -9931,18 +9823,10 @@ oasis:
   version: 0.4.4-2
   bugs:
     - 769272
-obex-data-server:
-  version: 0.4.5-1
-  bugs:
-    - 810521
 obexfs:
   version: 0.11-1.1
   bugs:
     - 810773
-obexftp:
-  version: 0.23-6
-  bugs:
-    - 811054
 obfsproxy:
   version: 0.2.12-1
   issues:
@@ -9963,10 +9847,6 @@ ocaml-curses:
   version: 1.0.3-2
   issues:
     - randomness_in_ocaml_preprocessed_files
-ocaml-textutils:
-  version: 112.17.00-1
-  bugs:
-    - 813693
 ocamlbricks:
   version: 0.90+bzr400-1
   issues:
@@ -10500,10 +10380,6 @@ p3scan:
     - timestamps_in_gzip_headers
   bugs:
     - 778433
-p4vasp:
-  version: 0.3.29+dfsg-3
-  bugs:
-    - 809712
 pacemaker:
   version: 1.1.10+git20130802-4.1
   issues:
@@ -10819,10 +10695,6 @@ pgadmin3:
   version: 1.20.0~beta2-1
   issues:
     - timestamps_from_cpp_macros
-pgespresso:
-  version: 1.0-2
-  bugs:
-    - 810635
 pgextwlist:
   version: 1.3-3
   issues:
@@ -10835,10 +10707,6 @@ pgn-extract:
   version: 17.14-1
   issues:
     - timestamps_from_cpp_macros
-pgpool2:
-  version: 3.3.4-1
-  bugs:
-    - 810636
 phatch:
   version: 0.2.7.1-3.1
   issues:
@@ -11281,10 +11149,6 @@ primrose:
   version: 6+dfsg1-3
   bugs:
     - 778481
-profitbricks-client:
-  version: 1.0.0-2
-  bugs:
-    - 813569
 proftpd-dfsg:
   version: 1.3.5-1.1
   comments: |
@@ -11505,10 +11369,6 @@ pygopherd:
   version: 2.0.18.3+nmu4
   bugs:
     - 800204
-pygpgme:
-  version: 0.3-1
-  bugs:
-    - 797776
 pygrib:
   version: 2.0.0-3
   issues:
@@ -11537,10 +11397,6 @@ pylint-common:
   version: 0.2.1-1
   bugs:
     - 810231
-pylint-django:
-  version: 0.6-2
-  bugs:
-    - 810329
 pylucene:
   version: 3.5.0-1.2
   issues:
@@ -11662,10 +11518,6 @@ python-avro:
   version: 1.8.0~rc1+dfsg-2
   issues:
     - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
-python-axiom:
-  version: 0.7.4-1
-  bugs:
-    - 810643
 python-babel:
   version: 1.3+dfsg.1-5
   bugs:
@@ -12060,10 +11912,6 @@ python-reconfigure:
   version: 0.1.59+git20140824-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
-python-releases:
-  version: 0.7.0-2
-  bugs:
-    - 808616
 python-reportlab:
   version: 3.1.8-3
   comments: |
@@ -12760,11 +12608,6 @@ resiprocate:
   version: 1:1.10.0~beta2-1
   bugs:
     - 797419
-resource-agents:
-  version: 1:3.9.3+git20121009-3.1
-  issues:
-    - timestamps_in_manpages_generated_by_docbook_xsl
-    - timestamps_in_documentation_generated_by_sphinx
 rest2web:
   version: 0.5.2~alpha+svn-r248-2
   comments: |
@@ -13279,10 +13122,6 @@ ruby-nested-form:
   version: 0.3.2-2
   issues:
     - timestamps_in_gemspec_files
-ruby-net-scp:
-  version: 1.2.1-2
-  bugs:
-    - 812735
 ruby-net-ssh:
   version: 1:2.9.2-2
   bugs:
@@ -13637,10 +13476,6 @@ runsnakerun:
   version: 2.0.4-2
   issues:
     - different_encoding
-rurple-ng:
-  version: 0.5+16-1.2
-  issues:
-    - timestamps_in_manpages_generated_by_docbook_xsl
 rustc:
   version: 1.0.0+dfsg1-1
   comments: |
@@ -13802,10 +13637,6 @@ scons-doc:
   version: 2.3.1-1
   issues:
     - timestamps_in_pdf_generated_by_apache_fop
-scoop:
-  version: 0.7.1-3
-  bugs:
-    - 802318
 scorched3d:
   version: 43.3.d+dfsg-1.1
   issues:
@@ -13954,10 +13785,6 @@ sgrep:
   version: 1.94a-4
   issues:
     - timestamps_from_cpp_macros
-shadow:
-  version: 1:4.2-2
-  bugs:
-    - 783149
 sheepdog:
   version: 0.8.3-4
   comments: |
@@ -13979,10 +13806,6 @@ shogun:
   version: 3.2.0-7.3
   bugs:
     - 809290
-shorewall-doc:
-  version: 4.6.4-1
-  issues:
-    - timestamps_in_documentation_generated_by_docbook_dbtimestamp
 shotwell:
   version: 0.22.0-3
   issues:
@@ -14140,10 +13963,6 @@ sludge:
   version: 2.2.1-1
   issues:
     - timestamps_from_cpp_macros
-slugimage:
-  version: 1:0.0+r104-5
-  bugs:
-    - 809292
 smc:
   version: 1.9+git20121121-1.2
   bugs:
@@ -14239,10 +14058,6 @@ spark:
   version: 2012.0.deb-11
   comments: |
     Embed a timestamp and other weird things in ./usr/bin/checker
-spatial4j-0.4:
-  version: 0.4.1-2
-  bugs:
-    - 813161
 spatialite-tools:
   version: 4.1.1-4
   comments: |
@@ -14614,10 +14429,6 @@ swift-im:
   version: 2.0+dev6-1
   bugs:
     - 797279
-swift-plugin-s3:
-  version: 1.8-1
-  bugs:
-    - 813088
 swish-e:
   version: 2.4.7-4
   issues:
@@ -14726,10 +14537,6 @@ tart:
   version: 3.10-1
   issues:
     - timestamps_from_cpp_macros
-taskcoach:
-  version: 1.4.2-1
-  bugs:
-    - 788974
 tasksel:
   version: 3.33
   issues:
@@ -15775,10 +15582,6 @@ wcd:
   version: 5.2.5-1
   bugs:
     - 796375
-wcsaxes:
-  version: 0.6-4
-  bugs:
-    - 813358
 wcslib:
   version: 4.24-1
   issues:
@@ -15915,12 +15718,6 @@ wml:
   version: 2.0.12ds1-8
   comments: |
     Embed hostname.
-wmpinboard:
-  version: 1.0-11
-  issues:
-    - ftbfs_old_compat_debheper_compat_level
-  bugs:
-    - 800193
 wmweather+:
   version: 2.15-1.1
   comments: |
