@@ -5988,6 +5988,10 @@ ironic:
   version: 2014.1-10
   comments: |
     Timestamps in HTML documentation.
+irrlicht:
+  version: 1.8.3+dfsg1-1
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 irsim:
   version: 9.7.93-1
   bugs:
@@ -7006,6 +7010,10 @@ libcgicc:
   version: 3.2.9-3
   issues:
     - timestamps_from_cpp_macros
+libclaw:
+  version: 1.7.3-2
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 libcobra-java:
   version: 0.98.4-5
   issues:
