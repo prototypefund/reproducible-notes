@@ -14255,6 +14255,10 @@ systraq:
   version: 0.0.20081217-7
   issues:
     - different_encoding
+tachyon:
+  version: 0.99~b6+dsx-3
+  comments: |
+    The deterministic source code example in the documentation is converted to PNG by latex2html but the file has actually non-deterministic contents - memory contents maybe.
 tagainijisho:
   version: 1.0.2-1
   issues:
