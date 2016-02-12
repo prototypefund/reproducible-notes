@@ -10877,6 +10877,10 @@ ppl:
   version: 1:1.1-7.2
   issues:
     - blacklisted_on_jenkins_armhf_only
+preload:
+  version: 0.6.4-2
+  comments: |
+    /usr/share/man/man8/preload.8.gz in b2 says help2man is required, but it's in the build-depends..?
 presage:
   version: 0.9-1
   bugs:
