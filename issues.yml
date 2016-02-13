@@ -988,4 +988,5 @@ postgres_9.5_transition:
     (Sourceful uploads needed)
 ftbfs_due_to_libtool:
   description:
-    ltmain.sh etc. etc.
+    There is recent breakage around libtool affecting, libtoolize,
+    dh-autoreconf, etc. We just want to ignore them for the time being.
