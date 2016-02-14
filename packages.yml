@@ -491,12 +491,12 @@ ara:
     https://sources.debian.net/src/ara/1.0.31/common/mkversion.sh/#L4
 arduino:
   version: 2:1.0.5+dfsg2-4
+  comments: |
+    #814692 is about arduino failing to build on armhf.
   issues:
     - timestamps_in_jar
   bugs:
     - 814692
-  comments: |
-    #814692 is about arduino failing to build on armhf.
 arduino-mighty-1284p:
   version: 1-2
   comments: |
