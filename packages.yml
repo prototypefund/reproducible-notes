@@ -8624,6 +8624,10 @@ mayavi2:
     Contain .pyc files
   issues:
     - random_order_in_python_environment_pickle
+mbedtls:
+  version: 2.2.1-2
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 mboxcheck:
   version: 0.2.0
   bugs:
