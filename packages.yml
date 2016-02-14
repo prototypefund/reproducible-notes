@@ -66,10 +66,6 @@ acpica-unix:
   version: 20140926-1
   issues:
     - timestamps_from_cpp_macros
-acpid:
-  version: 1:2.0.25-1
-  bugs:
-    - 808015
 actiona:
   version: 3.9.1-1
   issues:
@@ -114,10 +110,6 @@ adasockets:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_ada_library_information_files
-adblock-plus:
-  version: 2.6.10+dfsg-1
-  bugs:
-    - 795395
 adcli:
   version: 0.7.5-1
   issues:
@@ -634,10 +626,6 @@ asr-manpages:
   version: 1.3-6
   bugs:
     - 800263
-aster:
-  version: 11.5.0+dfsg2-3
-  bugs:
-    - 805193
 asterisk:
   version: 1:13.1.0~dfsg-1
   comments: |
@@ -988,10 +976,6 @@ beets:
   version: 1.3.8+dfsg-2
   bugs:
     - 792060
-beignet:
-  version: 1.1.1-2
-  bugs:
-    - 809263
 berusky:
   version: 1.4-1
   issues:
@@ -1637,10 +1621,6 @@ ck:
     - blacklisted_on_jenkins
   bugs:
     - 764827
-ckeditor:
-  version: 4.4.4+dfsg1-3
-  bugs:
-    - 814403
 ckermit:
   version: 302-5
   issues:
@@ -2514,18 +2494,10 @@ debram:
   version: 2.0.0.4
   bugs:
     - 797706
-dejagnu:
-  version: 1.5.1-2
-  comments: |
-    Timestamps in PDF/PS embedded by docbook2pdf / docbook2ps
 derby:
   version: 10.10.2.0-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-derivations:
-  version: 0.53.20120414-1.2
-  bugs:
-    - 802397
 designate:
   version: 1:1.0.0-3
   issues:
@@ -3264,10 +3236,6 @@ esys-particle:
   version: 2.3-2
   issues:
     - use_epydoc
-etcd:
-  version: 2.2.3+dfsg-1
-  bugs:
-    - 814404
 eurephia:
   version: 1.1.0-5
   issues:
@@ -3572,10 +3540,6 @@ fldigi:
     http://sources.debian.net/src/fldigi/3.22.01-1/m4/build.m4/?hl=78:85#L78
     http://sources.debian.net/src/fldigi/3.22.01-1/src/flarq-src/flarqenv.cxx/?hl=277#L277
     http://sources.debian.net/src/fldigi/3.22.01-1/src/main.cxx/?hl=1319#L1319
-flexml:
-  version: 1.9.6-3
-  bugs:
-    - 813462
 flexpart:
   version: 9.02-11
   issues:
@@ -4458,10 +4422,6 @@ getdns:
   bugs:
     - 797215
     - 810260
-getdp:
-  version: 2.4.2-1
-  bugs:
-    - 747109
 getfem++:
   version: 4.2.1~beta1~svn4635~dfsg-3
   comments: |
@@ -4738,10 +4698,6 @@ gnome-documents:
   version: 3.14.2-1
   comments: |
     pdfunite (poppler) pdf has unknown changes in
-gnome-mines:
-  version: 1:3.18.2-1
-  bugs:
-    - 814405
 gnome-mousetrap:
   version: 3.17.3-1
   issues:
@@ -5324,10 +5280,6 @@ gworkspace:
   version: 0.9.2-1
   issues:
     - plist_weirdness
-gyoto:
-  version: 1.0.2-1
-  bugs:
-    - 797518
 gzip:
   version: 1.6-4
   issues:
@@ -5372,10 +5324,6 @@ haskell-nettle:
   version: 0.1.1-3
   bugs:
     - 814698
-haskell98-report:
-  version: 20080907-5
-  issues:
-    - timestamps_in_pdf_generated_by_latex
 hatari:
   version: 1.8.0+dfsg-1
   issues:
@@ -6199,10 +6147,6 @@ joy2key:
   version: 1.6.3-1
   issues:
     - timestamps_from_cpp_macros
-jpathwatch:
-  version: 0.95-3
-  bugs:
-    - 814146
 jpilot:
   version: 1.8.2-1
   issues:
@@ -6522,10 +6466,6 @@ king:
   version: 2.21.120420+dfsg-1
   issues:
     - timestamps_in_jar
-kinput2:
-  version: 3.1-12
-  bugs:
-    - 808493
 kissplice:
   version: 2.3.1-1
   issues:
@@ -6534,10 +6474,6 @@ kitchen:
   version: 1.1.1-1
   bugs:
     - 749208
-klog:
-  version: 0.9.2.2-1
-  bugs:
-    - 812473
 klone:
   version: 2.1.0~rc1-1
   issues:
@@ -6848,10 +6784,6 @@ libcec:
     https://sources.debian.net/src/libcec/2.2.0%2Bdfsg1-1/configure.ac/?hl=351:255#L351
     Can be removed by passing HAVE_DATE=no HAVE_WHOAMI=no HAVE_HOSTNAME=no HAVE_UNAME=no
     to ./configure but the binaries are also non-determinstic.
-libcereal:
-  version: 1.1.2-2
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 libcgicc:
   version: 3.2.9-3
   issues:
@@ -7587,10 +7519,6 @@ libnet-route-perl:
   version: 0.02-1
   bugs:
     - 788758
-libnet-server-mail-perl:
-  version: 0.23-1
-  bugs:
-    - 813420
 libnet-tclink-perl:
   version: 3.4.0-6
   comments: |
@@ -7623,10 +7551,6 @@ liboro-java:
   version: 2.0.8a-11
   comments: |
     Locale issue in documentation footer.
-libosmocore:
-  version: 0.9.0-3
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 libpal-java:
   version: 1.5.1-2
   issues:
@@ -8383,10 +8307,6 @@ lrzsz:
   version: 0.12.21-8
   issues:
     - random_order_in_md5sums
-lsh-utils:
-  version: 2.1-7
-  bugs:
-    - 812813
 ltsp-docs:
   version: 1.1-1
   issues:
@@ -9678,10 +9598,6 @@ nunit:
   version: 2.6.3+dfsg-1
   issues:
     - timestamps_in_pe_binaries
-nurpawiki:
-  version: 1.2.3-8
-  bugs:
-    - 812711
 nut:
   version: 2.7.2-3
   issues:
@@ -9706,10 +9622,6 @@ oasis:
   version: 0.4.4-2
   bugs:
     - 769272
-obexfs:
-  version: 0.11-1.1
-  bugs:
-    - 810773
 obnam:
   version: 1.18.2-1
   bugs:
@@ -10586,10 +10498,6 @@ php-doc:
   version: 20140201-1
   issues:
     - timestamps_in_documentation_generated_by_docbook_dbtimestamp
-php-doctrine-cache-bundle:
-  version: 1.2.2-1
-  bugs:
-    - 812849
 php-facedetect:
   version: 1.1.0+git20140717-2
   issues:
@@ -10610,10 +10518,6 @@ php-gnupg:
   version: 1.3.6-1
   issues:
     - ftbfs_due_to_libtool
-php-guzzle:
-  version: 3.9.3+dfsg-3
-  bugs:
-    - 813568
 php-horde-lz4:
   version: 1.0.9-1
   issues:
@@ -10988,10 +10892,6 @@ pocl:
   version: 0.10-10
   bugs:
     - 764563
-polari:
-  version: 3.18.1-1
-  bugs:
-    - 813874
 polybori:
   version: 0.8.3-4
   issues:
@@ -11134,10 +11034,6 @@ prometheus-pushgateway:
   version: 0.2.0+ds-2
   issues:
     - ftbfs_uninvestigated_test_failures
-propellor:
-  version: 0.9.2
-  comments: |
-    Includes an unreproducible git bundle.
 prophet:
   version: 0.750-1
   bugs:
@@ -11299,10 +11195,6 @@ pyfai:
   version: 0.11.0+dfsg-3
   issues:
     - build_id_variation_requiring_further_investigation
-pyfftw:
-  version: 0.9.2+dfsg-4
-  bugs:
-    - 810522
 pyfits:
   version: 1:3.3-2
   comments: |
@@ -11437,10 +11329,6 @@ pyside:
   issues:
     - build_id_variation_requiring_further_investigation
     - blacklisted_on_jenkins_armhf_only
-pysph:
-  version: 0~20150606.gitfa26de9-5
-  issues:
-    - build_id_variation_requiring_further_investigation
 pytables:
   version: 3.1.1-3
   comments: |
@@ -11744,10 +11632,6 @@ python-ly:
   version: 0.9.2-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
-python-matplotlib-venn:
-  version: 0.11-2
-  bugs:
-    - 813782
 python-memory-profiler:
   version: 0.31+git20141019-1
   bugs:
@@ -11773,10 +11657,6 @@ python-mpop:
   version: 1.0.0-1
   bugs:
     - 813873
-python-multipletau:
-  version: 0.1.5+ds-2
-  bugs:
-    - 813983
 python-netaddr:
   version: 0.7.18-1
   bugs:
@@ -12135,10 +12015,6 @@ qsf:
   version: 1.2.7-1
   bugs:
     - 790457
-qstat:
-  version: 2.15-1
-  bugs:
-    - 790275
 qsynth:
   version: 0.3.8-1
   issues:
@@ -12665,10 +12541,6 @@ root-system:
   version: 5.34.19+dfsg-1.1
   issues:
     - timestamps_from_cpp_macros
-ros-class-loader:
-  version: 0.3.2-1
-  bugs:
-    - 812579
 ros-common-msgs:
   version: 1.12.3-2
   issues:
@@ -12709,10 +12581,6 @@ rp-pppoe:
   version: 3.8-3
   issues:
     - different_due_to_umask
-rr:
-  version: 4.0.3-1
-  bugs:
-    - 814211
 rsbackup:
   version: 3.0-2
   issues:
@@ -13695,10 +13563,6 @@ sensible-utils:
     - different_due_to_umask
   bugs:
     - 774449
-seq24:
-  version: 0.9.2-2
-  bugs:
-    - 805681
 seqan:
   version: 1.4.1+dfsg-2
   bugs:
@@ -13848,10 +13712,6 @@ siscone:
   version: 2.0.6-1
   bugs:
     - 790034
-sisu-guice:
-  version: 3.2.6-1
-  bugs:
-    - 814406
 sisu-maven-plugin:
   version: 1.1-1
   issues:
@@ -14219,11 +14079,6 @@ statsmodels:
     - randomness_in_documentation_generated_by_sphinx
   bugs:
     - 810864
-stealth:
-  version: 4.01.04-1
-  comments: |
-    Record build time in
-    /usr/share/doc/stealth-doc/manual/LaTeX/stealth.log.gz
 stevedore:
   version: 1.5.0-2
   issues:
@@ -15254,10 +15109,6 @@ vagrant:
   version: 1.7.4+dfsg-1
   issues:
     - timestamps_in_gemspec_files
-validator.js:
-  version: 3.17.0+dfsg1-1
-  bugs:
-    - 799999
 valknut:
   version: 0.4.9-2
   comments: |
@@ -15565,9 +15416,10 @@ werken.xpath:
   issues:
     - locale_in_documentation_generated_by_javadoc
 west-chamber:
-  version: 20100405+svn20111107.r124-5
+  version: 20100405+svn20111107.r124-7
+  comments: |
+    Embed kernel version in Makefiles.
   issues:
-    - timestamps_in_tarball
     - different_due_to_umask
   bugs:
     - 778358
@@ -15889,10 +15741,6 @@ xml-commons-external:
   version: 1.4.01-2
   issues:
     - locale_in_documentation_generated_by_javadoc
-xmlbeans:
-  version: 2.6.0-2
-  bugs:
-    - 814209
 xmlcopyeditor:
   version: 1.2.1.3-1
   comments: |
@@ -15973,10 +15821,6 @@ xserver-xorg-input-aiptek:
   version: 1:1.4.1-1
   bugs:
     - 813359
-xserver-xorg-video-openchrome:
-  version: 1:0.3.3-1
-  bugs:
-    - 807705
 xshisen:
   version: 1:1.51-4.1
   comments: |
@@ -16106,10 +15950,6 @@ yorick-ynfft:
   version: 1.0.2-2
   bugs:
     - 812995
-yoshimi:
-  version: 1.3.7.1-1
-  bugs:
-    - 808739
 yt:
   version: 3.2.1-2
   bugs:
