@@ -8653,6 +8653,10 @@ mdp:
   version: 3.3+git19-g4ec2f29-1
   bugs:
     - 811470
+mecab:
+  version: 0.996-1.2
+  issues:
+    - ftbfs_due_to_libtool
 memcached:
   version: 1.4.24-2
   bugs:
@@ -13540,6 +13544,10 @@ sd:
   version: 0.75-1
   bugs:
     - 713493
+sdate:
+  version: 0.4
+  issues:
+    - ftbfs_due_to_libtool
 sdb:
   version: 1.2-1
   issues:
