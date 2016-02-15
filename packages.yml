@@ -1781,6 +1781,14 @@ colobot:
     - serial_numbers_in_ogg
 colord:
   version: 1.2.1-1
+  comments: |
+    For sRGB.icc, we have two differences: date/time and ProfileID.
+    Both are actually set by lcms2 and not directly by cd-create-profile.
+
+    Good news is that ProfileID is actually a MD5 over the profile. So
+    if we fix creation date/time, it'll be alright.
+
+    Sadly, lcms2 currently lacks a function to set the creation date.
   issues:
     - randomness_in_icc_colour_profiles
 colorpicker:
