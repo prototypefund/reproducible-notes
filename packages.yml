@@ -8966,6 +8966,10 @@ monotone:
   comments: |
     The freshly build executable produces its own manpage in Makefile.am,
     embedding timestamps.
+mopidy:
+  version: 1.1.2-1
+  issues:
+    - randomness_in_documentation_generated_by_sphinx
 morse-simulator:
   version: 1.2.1-2
   issues:
