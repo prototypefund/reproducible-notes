@@ -5909,6 +5909,10 @@ jama:
   version: 1.0.3-1
   issues:
     - locale_in_documentation_generated_by_javadoc
+jamin:
+  version: 0.97.14~cvs~81203-4
+  issues:
+    - ftbfs_due_to_libtool
 jaminid:
   version: 0.99a-1.1
   issues:
@@ -10526,6 +10530,10 @@ photutils:
   version: 0.1-1
   bugs:
     - 813656
+php-adodb:
+  version: 5.04-7
+  issues:
+    - ftbfs_due_to_libtool
 php-apcu:
   version: 4.0.10-1
   issues:
@@ -10572,6 +10580,10 @@ php-igbinary:
     - ftbfs_due_to_libtool
 php-imagick:
   version: 3.3.0~rc2-1
+  issues:
+    - ftbfs_due_to_libtool
+php-imlib:
+  version: 0.7-4.1
   issues:
     - ftbfs_due_to_libtool
 php-json:
