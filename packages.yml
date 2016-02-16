@@ -7691,6 +7691,10 @@ libproxool-java:
   issues:
     - random_order_in_documentation_generated_by_javadoc
     - locale_in_documentation_generated_by_javadoc
+libpuzzle:
+  version: 0.9-6
+  issues:
+    - ftbfs_due_to_libtool
 libpwiz:
   version: 3.0.6585-2.1
   issues:
@@ -8450,6 +8454,10 @@ madness:
   version: 0.10-1
   comments: |
     Captures environment in /usr/include/madness/config.h
+madplay:
+  version: 0.15.2b-8
+  issues:
+    - ftbfs_due_to_libtool
 magicfilter:
   version: 1.2-64
   issues:
@@ -12497,6 +12505,10 @@ remake:
   version: 3.82+dbg0.9+dfsg-2
   bugs:
     - 806552
+remctl:
+  version: 3.10-1
+  issues:
+    - ftbfs_due_to_libtool
 remote-tty:
   version: 4.0-13
   comments: |
