@@ -1858,6 +1858,10 @@ composite:
   version: 0.006.2+dfsg0-4
   issues:
     - timestamps_from_cpp_macros
+compton-conf:
+  version: 0.1.0+20151226-1
+  issues:
+    - lxqt_translate_desktop_binary_file_matched_under_certain_locales
 compute:
   version: 0.5-1
   comments: |
@@ -7021,6 +7025,10 @@ libflorist:
     Many Ada-related packages have similar build id variations.
   issues:
     - build_id_variation_requiring_further_investigation
+libfm-qt:
+  version: 0.10.0+20151214-2
+  issues:
+    - lxqt_translate_desktop_binary_file_matched_under_certain_locales
 libforms:
   version: 1.2.3-1.2
   issues:
@@ -7466,6 +7474,10 @@ liblwp-useragent-progressbar-perl:
   version: 1.100810-1
   issues:
     - blacklisted_on_jenkins_armhf_only
+liblxqt:
+  version: 0.10.0-4
+  issues:
+    - lxqt_translate_desktop_binary_file_matched_under_certain_locales
 libm4ri:
   version: 20140914-2
   issues:
@@ -8435,6 +8447,10 @@ lxc:
   version: 1:1.0.8-1
   bugs:
     - 807837
+lximage-qt:
+  version: 0.4.0+20160108-1
+  issues:
+    - lxqt_translate_desktop_binary_file_matched_under_certain_locales
 lxqt-panel:
   version: 0.10.0-7
   issues:
@@ -9714,6 +9730,10 @@ oasis:
   version: 0.4.4-2
   bugs:
     - 769272
+obconf-qt:
+  version: 0.9.0+20151227-1
+  issues:
+    - lxqt_translate_desktop_binary_file_matched_under_certain_locales
 obnam:
   version: 1.18.2-1
   bugs:
@@ -10408,6 +10428,10 @@ pchar:
   comments: |
     Embed build time, and hostname:
     https://sources.debian.net/src/pchar/1.5-2/Makefile.in/?hl=186#L186
+pcmanfm-qt:
+  version: 0.10.1-1
+  issues:
+    - lxqt_translate_desktop_binary_file_matched_under_certain_locales
 pcp:
   version: 3.10.1
   issues:
@@ -12109,6 +12133,10 @@ qpid-cpp:
   version: 0.16-9
   issues:
     - ftbfs_uninvestigated_big_packages
+qps:
+  version: 1.10.16+20151210-1
+  issues:
+    - lxqt_translate_desktop_binary_file_matched_under_certain_locales
 qrfcview:
   version: 0.62-5.2
   issues:
@@ -13628,6 +13656,10 @@ scowl:
   version: 7.1-1
   bugs:
     - 791851
+screengrab:
+  version: 1.95+20160128-1
+  issues:
+    - lxqt_translate_desktop_binary_file_matched_under_certain_locales
 scscp-imcce:
   version: 1.0.1+ds-1
   issues:
