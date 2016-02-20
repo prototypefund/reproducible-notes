@@ -2263,10 +2263,6 @@ dateutils:
   comments: |
     Included manpage generator "yuck" embeds the build date.
     https://sources.debian.net/src/dateutils/0.3.1-1.1/build-aux/yuck.c/#L1435-L1443
-davical:
-  version: 1.1.3.1-1
-  issues:
-    - different_pot_creation_date_in_gettext_mo_files
 db5.3:
   version: 5.3.28-9
   issues:
@@ -2611,8 +2607,8 @@ dict-gazetteer2k:
 dict-gcide:
   version: 0.48.1
   issues:
+    - timestamps_in_gzip_headers
     - timestamps_in_dictionaries
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
 dict-jargon:
   version: 4.4.7-3
   issues:
@@ -2915,10 +2911,6 @@ dvbstreamer:
   version: 2.1.0-5
   issues:
     - timestamps_from_cpp_macros
-dvdisaster:
-  version: 0.72.4-1
-  issues:
-    - different_pot_creation_date_in_gettext_mo_files
 dvdwizard:
   version: 0.7.1-2
   issues:
@@ -4263,8 +4255,6 @@ gcc-defaults:
   version: 1.135
   comments: |
     Randomness in CA certificates bundle
-  issues:
-    - timezones_manpages_podman
 gcc-h8300-hms:
   version: 1:3.4.6+dfsg2-4
   issues:
@@ -4662,6 +4652,9 @@ gmtkbabel:
     - different_pot_creation_date_in_gettext_mo_files
 gmusicbrowser:
   version: 1.1.13~ds0-1
+  comments: |
+    Script puts date into .pot during build in slightly different format than gettext (+XX:YY instead of +XXYY for timezone)
+    https://sources.debian.net/src/gmusicbrowser/1.1.14%7Eds0-1/po/create_pot.pl/#L62
   issues:
     - different_pot_creation_date_in_gettext_mo_files
 gnarwl:
@@ -8725,8 +8718,9 @@ mboxcheck:
     - 806434
 mc:
   version: 4.8.13-3
-  issues:
-    - different_pot_creation_date_in_gettext_mo_files
+  comments: |
+    Embeds build date into manpage.
+    https://sources.debian.net/src/mc/3:4.8.15-2/doc/man/date-of-man-include.am/#L8
 mcrl2:
   version: 201409.0-1
   comments: |
@@ -10428,7 +10422,7 @@ passepartout:
 passwordsafe:
   version: 0.97+dfsg-1
   issues:
-    - different_pot_creation_date_in_gettext_mo_files
+    - timestamps_from_cpp_macros
 paste:
   version: 1.7.5.1-6
   issues:
@@ -11296,9 +11290,9 @@ pvm:
     - different_due_to_umask
 pxlib:
   version: 0.6.5-1
-  issues:
-    - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
+  comments: |
+    Embeds the build date.
+    https://sources.debian.net/src/pxlib/0.6.5-1.1/configure.in/?hl=26#L26
 pxljr:
   version: 1.4+repack0-4
   issues:
@@ -12549,7 +12543,6 @@ regina-rexx:
   version: 3.6-2
   issues:
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
 relaxngcc:
   version: 1.12-1
   issues:
@@ -15582,6 +15575,8 @@ weechat:
   version: 1.1.1-1
   issues:
     - different_pot_creation_date_in_gettext_mo_files
+    - timestamps_from_cpp_macros
+    - timestamps_in_documentation_generated_by_asciidoc
 weka:
   version: 3.6.12-2
   comments: |
