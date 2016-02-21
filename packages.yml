@@ -10615,6 +10615,11 @@ pgadmin3:
   version: 1.20.0~beta2-1
   issues:
     - timestamps_from_cpp_macros
+pgbouncer:
+  version: 1.7.1-1
+  comments: |
+    Random/filesystem sorting, probably in lib/mk/antimake.mk.
+    https://github.com/pgbouncer/pgbouncer/issues/111
 pgextwlist:
   version: 1.3-3
   issues:
