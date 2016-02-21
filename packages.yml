@@ -650,7 +650,7 @@ asterisk-prompt-fr-proformatique:
   issues:
     - different_due_to_umask
 astroquery:
-  version: 0.2.4+dfsg-1
+  version: 0.3.1+dfsg-1
   issues:
     - timestamps_in_documentation_generated_by_sphinx
   bugs:
@@ -659,10 +659,6 @@ astroscrappy:
   version: 1.0.3-2
   issues:
     - random_order_in_cython_output
-astyle:
-  version: 2.04-1
-  bugs:
-    - 814580
 asymptote:
   version: 2.31-2
   comments: |
@@ -1193,10 +1189,6 @@ breathe:
   version: 3.1.0-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
-brian:
-  version: 1.4.1-3
-  bugs:
-    - 811354
 brickos:
   version: 0.9.0.dfsg-12
   comments: |
@@ -1312,10 +1304,6 @@ cairo-dock:
   version: 3.4.0-1
   issues:
     - timestamps_from_cpp_macros
-calendarserver:
-  version: 5.2.2+dfsg-2
-  bugs:
-    - 803061
 calligra:
   version: 1:2.8.5+dfsg-1
   issues:
@@ -2169,7 +2157,7 @@ cyrus-sasl2:
   bugs:
     - 812732
 cython:
-  version: 0.23.2+git16-ga8fbae1-1
+  version: 0.23.4+git4-g7eed8d8-1
   issues:
     - copyright_year_in_documentation_generated_by_sphinx
     - blacklisted_on_jenkins_armhf_only
@@ -2238,10 +2226,6 @@ dash:
     - different_due_to_umask
   bugs:
     - 774425
-dasher:
-  version: 4.11+git20130508.adc653-2
-  bugs:
-    - 815061
 datanommer.commands:
   version: 0.4.6-2
   bugs:
@@ -2285,10 +2269,6 @@ dbar:
   version: 0.0.20100524-3
   bugs:
     - 782209
-dbconfig-common:
-  version: 1.8.47+nmu3
-  issues:
-    - timestamps_in_pdf_generated_by_latex
 dbf:
   version: 0.96.003-1
   issues:
@@ -2343,12 +2323,6 @@ dcmstack:
   version: 0.6.2+git33-gb43919a.1-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
-dctrl-tools:
-  version: 2.24-1
-  comments: |
-    Uses po4a --force
-  issues:
-    - different_pot_creation_date_in_gettext_mo_files
 dd2:
   version: 0.2.2-2
   issues:
@@ -2783,10 +2757,6 @@ doctorj:
   version: 5.0.0-5
   issues:
     - timestamps_in_jar
-dogecoin:
-  version: 1.8.0-1
-  bugs:
-    - 793840
 dogtag-pki:
   version: 10.2.0-4
   issues:
@@ -2915,10 +2885,6 @@ dvbstreamer:
   version: 2.1.0-5
   issues:
     - timestamps_from_cpp_macros
-dvdwizard:
-  version: 0.7.1-2
-  issues:
-    - different_pot_creation_date_in_gettext_mo_files
 dwarves-dfsg:
   version: 1.10-2
   bugs:
@@ -3053,10 +3019,6 @@ eigenbase-resgen:
   version: 1.3.0.13768-1
   issues:
     - user_in_java_jar_manifest
-ekg2:
-  version: 1:0.4~pre+20120506.1-10
-  issues:
-    - different_pot_creation_date_in_gettext_mo_files
 elastix:
   version: 4.8-3
   issues:
@@ -3267,10 +3229,6 @@ exonerate:
   version: 2.2.0-6
   issues:
     - timestamps_from_cpp_macros
-expeyes:
-  version: 3.4.1-3
-  issues:
-    - different_pot_creation_date_in_gettext_mo_files
 eyed3:
   version: 0.6.18-1
   comments: |
@@ -3360,10 +3318,6 @@ fdclone:
   version: 3.01b-1
   issues:
     - build_id_variation_requiring_further_investigation
-fdroidserver:
-  version: 0.4.0-2
-  bugs:
-    - 803501
 fedmsg:
   version: 0.9.3-1
   comments: |
@@ -3392,10 +3346,6 @@ felix-bundlerepository:
   version: 2.0.6-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-felix-latin:
-  version: 2.0-7
-  bugs:
-    - 814931
 ferret-vis:
   version: 6.9.3-3
   issues:
@@ -3460,11 +3410,6 @@ filler:
   issues:
     - timestamps_in_gzip_headers
     - timestamps_in_jar
-filter:
-  version: 2.6.3-1
-  comments: |
-    Captures the hostname.
-    https://sources.debian.net/src/filter/2.6.3-1/Configure/#L2250
 findbugs:
   version: 2.0.3+repack-2
   issues:
@@ -3879,16 +3824,6 @@ foxeye:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/foxeye/0.10.1-1/configure.ac/#L310
-foxyproxy:
-  version: 3.4-1.1
-  issues:
-    - timestamps_in_zip
-  bugs:
-    - 794779
-fpga-icestorm:
-  version: 0~20151006git103e6fd-1
-  issues:
-    - timestamps_in_manpages_generated_by_txt2man
 fprobe-ulog:
   version: 1.1-7.3
   bugs:
@@ -4098,10 +4033,6 @@ galax:
     /usr/share/doc/libgalax-ocaml-dev/config/Makefile.conf.gz
   issues:
     - timestamps_in_pdf_generated_by_latex
-galternatives:
-  version: 0.13.5+nmu3
-  issues:
-    - different_pot_creation_date_in_gettext_mo_files
 gambas3:
   version: 3.8.4-1
   issues:
@@ -4159,10 +4090,6 @@ garcon:
   version: 0.4.0-2
   comments: |
     Desktop launcher file missing a whole bunch of entries when run with a non-utf8 locale
-garmin-plugin:
-  version: 0.3.23-1
-  bugs:
-    - 814788
 gauche:
   version: 0.9.4-6
   issues:
@@ -4547,10 +4474,6 @@ git-hub:
   comments: |
     Timestamp embedded in manpage by rst2man.
     https://sources.debian.net/src/git-hub/0.9.0-1/Makefile/#L25
-gitlab:
-  version: 8.4.3+dfsg-5
-  bugs:
-    - 814695
 gjiten:
   version: 2.6-2.3
   issues:
@@ -4714,10 +4637,6 @@ gnome-mousetrap:
   version: 3.17.3-1
   issues:
     - ftbfs_uninvestigated_test_failures
-gnome-python-desktop:
-  version: 2.32.0+dfsg-3
-  bugs:
-    - 814697
 gnome-session:
   version: 3.14.0-2
   issues:
@@ -4798,11 +4717,6 @@ gnuplot5:
   version: 5.0.0~rc+dfsg2-1
   issues:
     - timestamps_in_dvi_generated_by_latex
-gnuradio:
-  version: 3.7.9-3
-  issues:
-    - diffoscope_runs_forever
-    - blacklisted_on_jenkins_armhf_only
 gnustep-base:
   version: 1.24.7-1
   comments: |
@@ -4987,10 +4901,6 @@ gpivtools:
     - 798998
 gplanarity:
   version: 17906-5
-  issues:
-    - different_pot_creation_date_in_gettext_mo_files
-gpodder:
-  version: 3.8.4-1
   issues:
     - different_pot_creation_date_in_gettext_mo_files
 gprbuild:
@@ -5487,10 +5397,6 @@ htp:
   comments: |
     Embeds timezone dependent mtime of files into generated documentation.
     https://sources.debian.net/src/htp/1.19-2/src/file-proc.c/?hl=119,137#L114
-htsjdk:
-  version: 1.138+dfsg.1-4
-  bugs:
-    - 808593
 httest:
   version: 2.4.8-1
   bugs:
@@ -5521,10 +5427,6 @@ hunspell:
   version: 1.3.3-3
   bugs:
     - 814968
-hwloc:
-  version: 1.11.2-2
-  bugs:
-    - 814493
 hy:
   version: 0.11.0-4
   bugs:
@@ -5612,10 +5514,6 @@ iceweasel:
   version: 44.0-1
   issues:
     - blacklisted_on_jenkins_armhf_only
-icewm:
-  version: 1.3.8+githubmod+20150412+960629d-1
-  issues:
-    - different_pot_creation_date_in_gettext_mo_files
 icmake:
   version: 7.22.01-1
   issues:
@@ -5792,10 +5690,6 @@ ips:
   version: 4.0-1
   issues:
     - timestamps_from_cpp_macros
-ipset:
-  version: 6.27-1
-  bugs:
-    - 814582
 ipsvd:
   version: 1.0.0-3
   issues:
@@ -5896,7 +5790,6 @@ jacal:
   version: 1b9-6
   bugs:
     - 815250
-    - 815251
 jack-audio-connection-kit:
   version: 1:0.124.1+20140122git5013bed0-3
   comments: |
@@ -6165,10 +6058,6 @@ joe:
   bugs:
     - 777726
     - 793696
-joptsimple:
-  version: 4.5-1
-  bugs:
-    - 797450
 josm:
   version: 0.0.svn7643+dfsg1-1
   comments: |
@@ -6368,10 +6257,6 @@ kchmviewer:
   version: 7.5-1
   issues:
     - timestamps_from_cpp_macros
-kcompletion:
-  version: 5.16.0-1
-  bugs:
-    - 814699
 kcov:
   version: 25+dfsg-1
   bugs:
@@ -6669,10 +6554,6 @@ latex-cjk-chinese-arphic:
   version: 1.23
   comments: |
     Build time is embedded in comments in files generated by FontForge.
-latex-mk:
-  version: 2.1-1.3
-  issues:
-    - timestamps_in_pdf_generated_by_latex
 latex2html:
   version: 2008-debian1-10
   comments: |
@@ -6872,10 +6753,6 @@ libcommons-collections4-java:
   version: 4.0-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-libcommons-compress-java:
-  version: 1.10-1
-  bugs:
-    - 814583
 libcommons-digester-java:
   version: 1.8.1-4
   issues:
@@ -6945,10 +6822,6 @@ libdap:
   version: 3.15.1-7
   issues:
     - timestamps_from_cpp_macros
-libdbd-sqlite3-perl:
-  version: 1.46-1
-  bugs:
-    - 810707
 libdbi-drivers:
   version: 0.9.0-3
   issues:
@@ -7113,10 +6986,6 @@ libgnome2-perl:
   version: 1.045-3
   comments: |
     Caused by locale-specific enum output in GLib::GenPod
-libgnome2-wnck-perl:
-  version: 0.16-3
-  bugs:
-    - 814495
 libgnumail-java:
   version: 1.1.2-9
   issues:
@@ -7207,10 +7076,6 @@ libidn2-0:
   comments: |
     Also embeds the build date into the content of the PDF file
     and has the timestamp in the info page.
-libiio:
-  version: 0.6.40-1
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 libimobiledevice:
   version: 1.1.6+dfsg-3.1
   issues:
@@ -7411,12 +7276,6 @@ libjxp-java:
   version: 1.6.1-5
   issues:
     - locale_in_documentation_generated_by_javadoc
-libkate:
-  version: 0.4.1-5
-  issues:
-    - ftbfs_due_to_libpng
-  bugs:
-    - 814969
 libkcompactdisc:
   version: 4:4.12.3-2
   comments: |
@@ -7474,10 +7333,6 @@ liblouisutdml:
     the charset.
   issues:
     - locale_in_documentation_generated_by_javadoc
-liblrdf:
-  version: 0.4.0-5
-  bugs:
-    - 814496
 liblscp:
   version: 0.5.6-7
   issues:
@@ -7637,10 +7492,6 @@ libpam-krb5:
   version: 4.7-2
   bugs:
     - 812734
-libpam-sshauth:
-  version: 0.3.1-1
-  bugs:
-    - 789106
 libparse-debianchangelog-perl:
   version: 1.2.0-1.1
   comments: |
@@ -7673,13 +7524,6 @@ libpeas:
   version: 1.16.0-1
   bugs:
     - 802095
-libpgm:
-  version: 5.1.118-1~dfsg-2
-  comments: |
-    Embed build time:
-    https://sources.debian.net/src/libpgm/5.1.118-1~dfsg-1/openpgm/pgm/version_generator.py/
-  bugs:
-    - 814832
 libphone-ui-shr:
   version: 0.1+git20130901-3
   issues:
@@ -7733,11 +7577,6 @@ libproc-syncexec-perl:
   version: 1.01-1.1
   bugs:
     - 800304
-libproc-waitstat-perl:
-  version: 1.00-4.1
-  bugs:
-    - 800243
-    - 811260
 libproxool-java:
   version: 0.9.1-8
   issues:
@@ -7859,10 +7698,6 @@ libshr-glib:
     - ftbfs_due_to_libtool
   bugs:
     - 814063
-libsis-jhdf5-java:
-  version: 14.12.1-1
-  bugs:
-    - 814875
 libskinlf-java:
   version: 6.7-8
   issues:
@@ -7934,10 +7769,6 @@ libtest-expect-perl:
   version: 0.33-1
   issues:
     - ftbfs_uninvestigated_test_failures
-libtext-unaccent-perl:
-  version: 1.08-1.1
-  bugs:
-    - 800257
 libtext-vimcolor-perl:
   version: 0.11-2
   bugs:
@@ -8045,10 +7876,6 @@ libwibble:
   version: 1.1-1
   issues:
     - random_order_in_static_libraries
-libwnckmm:
-  version: 0.1.1-2
-  bugs:
-    - 814585
 libwx-perl:
   version: 1:0.9923-4
   issues:
@@ -8263,12 +8090,6 @@ live-manual:
     - different_due_to_umask
     - timestamps_in_epub
     - timestamps_in_pdf_content
-lives:
-  version: 2.2.6~ds0-1
-  issues:
-    - different_pot_creation_date_in_gettext_mo_files
-  bugs:
-    - 792593
 llvm-toolchain-3.5:
   version: 1:3.5.2-3
   issues:
@@ -8355,10 +8176,6 @@ logtools:
     - ftbfs_old_compat_debheper_compat_level
   bugs:
     - 800258
-lombok:
-  version: 1.16.6-1
-  bugs:
-    - 814764
 londonlaw:
   version: 0.2.1-18
   issues:
@@ -9285,18 +9102,12 @@ naspro-core:
     /usr/share/doc/libnacore-dev/html/javascript/searchdata.js
   issues:
     - random_order_in_naturaldocs
-  bugs:
-    - 808672
 natbraille:
   version: 2.0rc3-2
   issues:
     - timestamps_in_jar
     - timestamps_in_documentation_generated_by_javadoc
     - locale_in_documentation_generated_by_javadoc
-navit:
-  version: 0.5.0~svn5900+dfsg.1-1
-  issues:
-    - different_pot_creation_date_in_gettext_mo_files
 nbc:
   version: 1.2.1.r4+dfsg-1
   comments: |
@@ -10565,8 +10376,6 @@ pegasus-wms:
     - timestamps_in_pdf_generated_by_apache_fop
     - timestamps_in_jar
     - timestamp_in_java_bnd_manifest
-  bugs:
-    - 809591
 pekwm:
   version: 0.1.17-1
   comments: |
@@ -11048,10 +10857,6 @@ pnscan:
   version: 1.11-6
   issues:
     - timestamps_from_cpp_macros
-po4a:
-  version: 0.47-2
-  issues:
-    - different_pot_creation_date_in_gettext_mo_files
 pocketsphinx:
   version: 0.8-5
   comments: |
@@ -11455,10 +11260,6 @@ pyoperators:
   version: 0.13.6-1
   bugs:
     - 805678
-pyorbital:
-  version: 0.3.2-1
-  bugs:
-    - 814071
 pyotherside:
   version: 1.2.0-1
   issues:
@@ -11710,10 +11511,6 @@ python-html2text:
   version: 2015.6.21-1
   issues:
     - ftbfs_uninvestigated_test_failures
-python-hypothesis:
-  version: 1.11.0-1
-  bugs:
-    - 815090
 python-igraph:
   version: 0.7.1.post6-2
   issues:
@@ -11726,10 +11523,6 @@ python-instagram:
   version: 1.3.2+git20160108~dfeebe9-2
   bugs:
     - 810957
-python-invocations:
-  version: 0.6.2-1
-  bugs:
-    - 802147
 python-invoke:
   version: 0.9.0-2
   bugs:
@@ -11850,10 +11643,6 @@ python-padme:
   version: 1.1.1-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
-python-pbh5tools:
-  version: 0.8.0+dfsg-3
-  bugs:
-    - 814210
 python-pcs:
   version: 0.5+debian-1.2
   issues:
@@ -11878,10 +11667,6 @@ python-pyaudio:
   version: 0.2.8-1
   issues:
     - random_order_in_python_environment_pickle
-python-pydot-ng:
-  version: 1.0.0-1
-  bugs:
-    - 814587
 python-pyelftools:
   version: 0.23-1
   issues:
@@ -12754,10 +12539,6 @@ routino:
   version: 2.7.3-3
   comments: |
     Uses Perl::Magick to write deterministic-looking PNGs presumably with timetamps, but strip-nondeterminism should strip them
-rows:
-  version: 0.1.1-1
-  bugs:
-    - 813984
 rp-pppoe:
   version: 3.8-3
   issues:
@@ -13011,10 +12792,6 @@ ruby-grack:
   version: 2.0.2-1
   issues:
     - timestamps_in_gemspec_files
-ruby-gruff:
-  version: 0.4.0-1
-  bugs:
-    - 815063
 ruby-hipchat:
   version: 1.5.2-1
   bugs:
@@ -13373,10 +13150,6 @@ ruby-sinatra:
   version: 1.4.6-2
   bugs:
     - 808738
-ruby-sinatra-contrib:
-  version: 1.4.6-1
-  bugs:
-    - 812189
 ruby-slack-notifier:
   version: 1.2.1-1
   issues:
@@ -13421,10 +13194,6 @@ ruby-symboltable:
   version: 1.0.2-1
   issues:
     - timestamps_in_gemspec_files
-ruby-termios:
-  version: 1.0.0-1
-  bugs:
-    - 814973
 ruby-test-after-commit:
   version: 0.2.3+gh-1
   bugs:
@@ -13661,10 +13430,6 @@ scmxx:
   version: 0.9.0-2.3
   issues:
     - different_pot_creation_date_in_gettext_mo_files
-scolasync:
-  version: 5.1-1
-  bugs:
-    - 814790
 scons-doc:
   version: 2.3.1-1
   issues:
@@ -13719,12 +13484,6 @@ sdcc:
   version: 3.4.0+dfsg-2
   issues:
     - timestamps_from_cpp_macros
-sdl-image1.2:
-  version: 1.2.12-5
-  issues:
-    - ftbfs_due_to_libpng
-  bugs:
-    - 814974
 sdl-mixer1.2:
   version: 1.2.12-11
   issues:
@@ -14577,10 +14336,6 @@ tart:
   version: 3.10-1
   issues:
     - timestamps_from_cpp_macros
-tasksel:
-  version: 3.33
-  issues:
-    - different_pot_creation_date_in_gettext_mo_files
 tasque:
   version: 0.1.12-4
   issues:
@@ -14749,10 +14504,6 @@ tightvnc:
   version: 1.3.9-6.5
   issues:
     - lynx_dump_varies_output_with_locale
-tilda:
-  version: 1.2.2-1
-  issues:
-    - different_pot_creation_date_in_gettext_mo_files
 tiles:
   version: 2.2.2-6
   issues:
@@ -15061,10 +14812,6 @@ tvoe:
   version: 0.1-1
   issues:
     - timestamps_from_cpp_macros
-tweepy:
-  version: 3.4.0-1
-  bugs:
-    - 804558
 twidge:
   version: 1.1.2
   issues:
@@ -15360,10 +15107,6 @@ vdr-plugin-dvd:
     - different_pot_creation_date_in_gettext_mo_files
 vdr-plugin-epgsearch:
   version: 1.0.1~beta6+git20150211-4
-  issues:
-    - different_pot_creation_date_in_gettext_mo_files
-vdr-plugin-infosatepg:
-  version: 0.0.12-5
   issues:
     - different_pot_creation_date_in_gettext_mo_files
 vdr-plugin-live:
@@ -15730,10 +15473,6 @@ witty:
   version: 3.3.3+dfsg-4.1
   bugs:
     - 778563
-wmaker:
-  version: 0.95.7-3
-  bugs:
-    - 814213
 wmf:
   version: 1.0.5-6
   bugs:
@@ -15850,10 +15589,6 @@ x264:
   version: 2:0.142.2431+gita5831aa-1
   issues:
     - timestamps_from_cpp_macros
-xaos:
-  version: 3.5+ds1-2
-  issues:
-    - different_pot_creation_date_in_gettext_mo_files
 xboxdrv:
   version: 0.8.5-1
   bugs:
