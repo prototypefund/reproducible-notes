@@ -15261,10 +15261,9 @@ vtk:
   issues:
     - timestamps_in_jar
 vtk-dicom:
-  version: 0.5.5-2
+  version: 0.7.4-2
   comments: |
-    Embeds the build date.
-    https://sources.debian.net/src/vtk-dicom/0.5.5-2/CMakeLists.txt/#L131-L136
+    Format of build date in ./usr/include/vtkDICOMBuild.h is locale-dependent.
 vtk6:
   version: 6.2.0+dfsg1-4
   comments: |
