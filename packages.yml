@@ -1773,10 +1773,10 @@ colobot:
     - serial_numbers_in_ogg
 colord:
   version: 1.2.1-1
-  bugs:
-    - 815252
   issues:
     - randomness_in_icc_colour_profiles
+  bugs:
+    - 815252
 colorpicker:
   version: 1.0.0-2
   issues:
@@ -1844,6 +1844,10 @@ compass-sassy-maps-plugin:
   version: 0.4.0-3
   issues:
     - timestamps_in_gemspec_files
+complexity:
+  version: 1.3+dfsg-1
+  issues:
+    - timestamps_in_manpages_generated_by_autogen
 composite:
   version: 0.006.2+dfsg0-4
   issues:
