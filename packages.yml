@@ -7706,8 +7706,6 @@ libsbml:
     - blacklisted_on_jenkins_armhf_only
 libsdl-console:
   version: 2.1-4
-  comments: |
-    captures SHELL, which should probably be hardcoded to bin/sh
   issues:
     - captures_shell_variable_in_autofoo_script
 libsdl1.2:
@@ -9224,8 +9222,6 @@ netexpect:
     - 804369
 netgen:
   version: 4.9.13.dfsg-8
-  comments: |
-    captures SHELL, which should probably be hardcoded to bin/sh
   issues:
     - captures_shell_variable_in_autofoo_script
 nethack:
@@ -12490,8 +12486,6 @@ resiprocate:
     - 797419
 resource-agents:
   version: 1:3.9.7-1
-  comments: |
-    captures SHELL, which should probably be hardcoded to bin/sh
   issues:
     - captures_shell_variable_in_autofoo_script
 rest2web:
