@@ -5250,6 +5250,10 @@ haskell-cabal:
   version: 1.22.5.0-2
   issues:
     - blacklisted_on_jenkins_armhf_only
+haskell-haddock-library:
+  version: 1.2.1-2
+  bugs:
+    - 815287
 haskell-mode:
   version: 13.10-3
   issues:
