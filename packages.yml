@@ -9216,6 +9216,10 @@ netexpect:
   version: 0.22-2
   bugs:
     - 804369
+netgen:
+  version: 4.9.13.dfsg-8
+  comments: |
+    captures SHELL, which should probably be hardcoded to bin/sh
 nethack:
   version: 3.4.3-15
   issues:
