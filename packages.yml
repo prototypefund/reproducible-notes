@@ -10110,6 +10110,10 @@ openttd:
   version: 1.4.4-2
   issues:
     - timestamps_from_cpp_macros
+openttd-opengfx:
+  version: 0.5.4-1
+  comments: |
+    'Binary file matched' due to locale issue in obg files. Needs -a in Makefile somewhere
 openttd-openmsx:
   version: 0.3.1-3
   bugs:
