@@ -578,6 +578,8 @@ randomness_in_ocaml_provides:
     .
     It may be that fixing randomness_in_ocaml_custom_executables implicitly
     fixes this.
+    .
+    Seems like this can affect Depends too. eg. labltk
 timestamp_in_pear_registry_files:
   description: |
     PEAR registry files are serialized PHP objects that contain a timestamp.
