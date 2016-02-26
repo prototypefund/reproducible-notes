@@ -1007,7 +1007,7 @@ lxqt_translate_desktop_binary_file_matched_under_certain_locales:
 timestamps_in_manpages_generated_by_autogen:
   description: |
     autogen adds a timestamp in manpages it generates.
-  eterministic: True
+  deterministic: True
 captures_shell_variable_in_autofoo_script:
   description: |
     Something looking like autotools is capturing SHELL for use at
