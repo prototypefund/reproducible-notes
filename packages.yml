@@ -13988,6 +13988,10 @@ soundscaperenderer:
   version: 0.4.2~dfsg-2
   issues:
     - fonts_in_pdf_files
+source-highlight:
+  version: 3.1.8-1.1
+  comments: |
+    Captures SHELL - needs some kind of forcing in debian/rules?
 sox:
   version: 14.4.1-4
   issues:
