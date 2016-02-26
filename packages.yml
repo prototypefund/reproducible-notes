@@ -1947,6 +1947,10 @@ courier:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/courier/0.73.1-1.6/libs/imap/configure.ac/#L333
+courier-authlib:
+  version: 0.66.4-3
+  comments: |
+    Captures SHELL but via autotools.. which should not be a problem due to export in debian/rules?
 cp2k:
   version: 2.6.1-2
   comments: |
