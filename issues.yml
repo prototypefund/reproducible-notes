@@ -1001,6 +1001,9 @@ lxqt_translate_desktop_binary_file_matched_under_certain_locales:
     actual match.
     .
     Seems to be code-copied everywhere, alas.
+    .
+    The affected packages have been already fixed upstream, no need to send
+    more patches for this issue :)
 timestamps_in_manpages_generated_by_autogen:
   description: |
     autogen adds a timestamp in manpages it generates.
