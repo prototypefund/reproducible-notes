@@ -577,6 +577,10 @@ asciidoctor:
   version: 0.1.4-3
   issues:
     - timestamps_in_gemspec_files
+asio:
+  version: 1:1.10.6-3
+  issues:
+    - captures_shell_variable_in_autofoo_script
 asis:
   version: 2014-4
   comments: |
@@ -750,6 +754,10 @@ autoconf:
   version: 2.69-8
   issues:
     - pdf_created_by_ghostscript
+autoconf2.59:
+  version: 2.59+dfsg-0.1
+  issues:
+    - captures_shell_variable_in_autofoo_script
 autodocksuite:
   version: 4.2.6-2
   issues:
@@ -1012,6 +1020,10 @@ bibclean:
   comments: |
     Embed build time, username, and hostname:
     http://sources.debian.net/src/bibclean/2.11.4.1-4/option.c/?hl=567:586#L567
+bibledit-gtk:
+  version: 4.9-1
+  issues:
+    - captures_shell_variable_in_autofoo_script
 bibtex2html:
   version: 1.98-1
   issues:
@@ -1151,6 +1163,10 @@ boolector:
     http://sources.debian.net/src/boolector/1.5.118.6b56be4.121013-1/lingeling/mkconfig/?hl=16:17#L16
   issues:
     - captures_kernel_version
+boolstuff:
+  version: 0.1.15-1
+  issues:
+    - captures_shell_variable_in_autofoo_script
 boost1.55:
   version: 1.55.0+dfsg-3
   issues:
@@ -3097,6 +3113,10 @@ elmerfem:
   version: 6.1.0.svn.5396.dfsg2-4
   issues:
     - timestamps_in_description_files_generated_by_r-base-dev
+elog:
+  version: 3.1.1-1-1
+  bugs:
+    - 816209
 elpa:
   version: 2013.11.008-4
   issues:
@@ -6794,6 +6814,10 @@ libcatmandu-mab2-perl:
   version: 0.12-1
   issues:
     - ftbfs_uninvestigated_test_failures
+libcddb:
+  version: 1.3.2-5
+  issues:
+    - captures_shell_variable_in_autofoo_script
 libcdio:
   version: 0.83-4.2
   bugs:
@@ -6891,6 +6915,10 @@ libcoyotl:
     Installs examples with varying environments - can probably just be distcleaned after build
   issues:
     - leaks_path_environment_variable
+libcsoap:
+  version: 1.1.0-17.2
+  issues:
+    - captures_shell_variable_in_autofoo_script
 libcsp:
   version: 1.4+fdd49b7+dfsg-3
   comments: |
@@ -10208,6 +10236,10 @@ opus:
   comments: |
     Embeds the current year as coypright year.
     https://sources.debian.net/src/opus/1.1.1-1/doc/footer.html/#L13
+oregano:
+  version: 0.70-3
+  issues:
+    - captures_shell_variable_in_autofoo_script
 origami-pdf:
   version: 1.2.7-2
   issues:
@@ -13983,6 +14015,10 @@ sludge:
   version: 2.2.1-1
   issues:
     - timestamps_from_cpp_macros
+smalt:
+  version: 0.7.6-4
+  issues:
+    - captures_shell_variable_in_autofoo_script
 smc:
   version: 1.9+git20121121-1.2
   bugs:
@@ -14584,6 +14620,10 @@ tbb:
     Build ran for more than 36h...
   issues:
     - blacklisted_on_jenkins
+tclap:
+  version: 1.2.1-1
+  issues:
+    - captures_shell_variable_in_autofoo_script
 tcllib:
   version: 1.17-dfsg-1
   issues:
@@ -14867,6 +14907,10 @@ torque:
   comments: |
     Embed build dir, build time, username, and hostname:
     http://sources.debian.net/src/torque/2.4.16%2Bdfsg-1.5/configure.ac/?hl=1417:1420,1422:1426#L1417
+torrus:
+  version: 2.08-4
+  issues:
+    - captures_shell_variable_in_autofoo_script
 toxiproxy:
   version: 1.2.1+dfsg1-3
   issues:
@@ -15050,6 +15094,11 @@ twig:
   version: 1.23.1-1
   issues:
     - ftbfs_due_to_libtool
+twitter-bootstrap:
+  version: 2.0.2+dfsg-9
+  comment: |
+    Uses shell-builtin 'echo' which behaves differently between shells.
+    https://sources.debian.net/src/twitter-bootstrap/2.0.2%2Bdfsg-9/Makefile/#L38
 twitter-bootstrap3:
   version: 3.3.5+dfsg-2
   comments: |
