@@ -1068,6 +1068,11 @@ bintray-client-java:
   version: 0.8.1-1
   issues:
     - locale_in_documentation_generated_by_javadoc
+binutils-m68hc1x:
+  version: 1:2.18-7
+  comments: |
+    Varying order in tarball.
+    https://sources.debian.net/src/binutils-m68hc1x/1:2.18-7/debian/rules/#L66
 biogenesis:
   version: 0.8-2
   issues:
@@ -3055,6 +3060,10 @@ efax-gtk:
   version: 3.2.8-2
   issues:
     - timestamps_from_cpp_macros
+eficas:
+  version: 6.4.0-1-1.1
+  bugs:
+    - 816232
 efl:
   version: 1.8.6-2.1
   issues:
@@ -4377,6 +4386,10 @@ genparse:
   version: 0.9.1-1
   bugs:
     - 802190
+geoclue:
+  version: 0.12.99-4
+  issues:
+    - captures_shell_variable_in_autofoo_script
 geomview:
   version: 1.9.5-1
   comments: |
@@ -10677,6 +10690,10 @@ php-apcu:
   version: 4.0.10-1
   issues:
     - timestamps_from_cpp_macros
+php-apcu-bc:
+  version: 1.0.3-1
+  issues:
+    - timestamps_from_cpp_macros
 php-ast:
   version: 0.1.1-1
   issues:
@@ -12781,6 +12798,10 @@ routino:
   version: 2.7.3-3
   comments: |
     Uses Perl::Magick to write deterministic-looking PNGs presumably with timetamps, but strip-nondeterminism should strip them
+rows:
+  version: 0.1.1-2
+  bugs:
+    - 816230
 rp-pppoe:
   version: 3.8-3
   issues:
