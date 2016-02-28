@@ -5344,6 +5344,10 @@ hdf-eos4:
   version: 2.19v1.00+dfsg.1-4
   issues:
     - captures_shell_variable_in_autofoo_script
+hdf-eos5:
+  version: 5.1.15.dfsg.1-6
+  issues:
+    - captures_shell_variable_in_autofoo_script
 hdf5:
   version: 1.8.16+docs-1
   comments: |
@@ -7556,6 +7560,10 @@ libncursesada:
     Also random order of files contained in static library.
   issues:
     - timestamps_in_ada_library_information_files
+libnet:
+  version: 1.1.6+dfsg-3
+  issues:
+    - captures_shell_variable_in_autofoo_script
 libnet-route-perl:
   version: 0.02-1
   bugs:
@@ -16299,6 +16307,10 @@ zookeeper:
   version: 3.4.6-5
   issues:
     - random_order_in_documentation_generated_by_javadoc
+zoom-player:
+  version: 1.1.5~dfsg-2
+  issues:
+    - captures_shell_variable_in_autofoo_script
 zope-maildrophost:
   version: 2.3-1
   issues:
