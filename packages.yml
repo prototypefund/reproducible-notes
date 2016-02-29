@@ -6548,6 +6548,10 @@ kodi:
   version: 14.2+dfsg1-2
   issues:
     - timestamps_from_cpp_macros
+kodi-pvr-vdr-vnsi:
+  version: 1.10.10-2
+  bugs:
+    - 816251
 kombu:
   version: 3.0.30-1
   issues:
@@ -15127,11 +15131,6 @@ twig:
   version: 1.23.1-1
   issues:
     - ftbfs_due_to_libtool
-twitter-bootstrap:
-  version: 2.0.2+dfsg-9
-  comment: |
-    Uses shell-builtin 'echo' which behaves differently between shells.
-    https://sources.debian.net/src/twitter-bootstrap/2.0.2%2Bdfsg-9/Makefile/#L38
 twitter-bootstrap3:
   version: 3.3.5+dfsg-2
   comments: |
