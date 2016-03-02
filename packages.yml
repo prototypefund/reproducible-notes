@@ -10714,6 +10714,22 @@ php-ast:
   version: 0.1.1-1
   issues:
     - ftbfs_due_to_libtool
+php-auth-sasl:
+  version: 1.0.6-2
+  issues:
+    - php_ftbfs_due_to_pear_pkg_tools
+php-codesniffer:
+  version: 2.5.1-1
+  issues:
+    - php_ftbfs_due_to_pear_pkg_tools
+php-console-table:
+  version: 1.3.0-1
+  issues:
+    - php_ftbfs_due_to_pear_pkg_tools
+php-date:
+  version: 1.4.7-2
+  issues:
+    - php_ftbfs_due_to_pear_pkg_tools
 php-doc:
   version: 20140201-1
   issues:
@@ -10722,6 +10738,10 @@ php-facedetect:
   version: 1.1.0+git20140717-2
   issues:
     - ftbfs_due_to_libtool
+php-fdomdocument:
+  version: 1.6.1-1
+  issues:
+    - php_ftbfs_due_to_pear_pkg_tools
 php-finder-facade:
   version: 1.2.0-1
   comments: |
@@ -10738,14 +10758,42 @@ php-gnupg:
   version: 1.3.6-1
   issues:
     - ftbfs_due_to_libtool
+php-horde-activesync:
+  version: 2.31.4-1
+  issues:
+    - php_ftbfs_due_to_pear_pkg_tools
+php-horde-cache:
+  version: 2.5.3-1
+  issues:
+    - php_ftbfs_due_to_pear_pkg_tools
+php-horde-kronolith:
+  version: 4.2.15-1
+  issues:
+    - php_ftbfs_due_to_pear_pkg_tools
 php-horde-lz4:
   version: 1.0.9-1
   issues:
     - ftbfs_due_to_libtool
+php-horde-nls:
+  version: 2.1.1-1
+  issues:
+    - php_ftbfs_due_to_pear_pkg_tools
+php-horde-prefs:
+  version: 2.7.5-1
+  issues:
+    - php_ftbfs_due_to_pear_pkg_tools
+php-horde-socket-client:
+  version: 2.1.1-1
+  issues:
+    - php_ftbfs_due_to_pear_pkg_tools
 php-htmlpurifier:
   version: 4.6.0-1
   issues:
     - different_due_to_umask
+php-http-request:
+  version: 1.4.4-4
+  issues:
+    - php_ftbfs_due_to_pear_pkg_tools
 php-igbinary:
   version: 1.2.1-2
   issues:
@@ -10762,10 +10810,22 @@ php-json:
   version: 1.3.7-1
   issues:
     - ftbfs_due_to_libtool
+php-log:
+  version: 1.12.9-1
+  issues:
+    - php_ftbfs_due_to_pear_pkg_tools
 php-mail:
   version: 1.2.0-7
   bugs:
     - 808615
+php-mail-mime:
+  version: 1.10.0-1
+  issues:
+    - php_ftbfs_due_to_pear_pkg_tools
+php-mail-mimedecode:
+  version: 1.5.5-3
+  issues:
+    - php_ftbfs_due_to_pear_pkg_tools
 php-memcache:
   version: 3.0.8-5
   issues:
@@ -10790,14 +10850,30 @@ php-mysqlnd-ms:
   version: 1.6.0-1
   issues:
     - ftbfs_due_to_libtool
+php-net-ftp:
+  version: 1:1.4.0-1
+  issues:
+    - php_ftbfs_due_to_pear_pkg_tools
 php-net-ldap2:
   version: 2.2.0-1
   bugs:
     - 809771
+php-net-nntp:
+  version: 1.5.0-1
+  issues:
+    - php_ftbfs_due_to_pear_pkg_tools
 php-net-smartirc:
   version: 1.1.7-1
   bugs:
     - 815740
+php-net-url2:
+  version: 2.2.0-1
+  issues:
+    - php_ftbfs_due_to_pear_pkg_tools
+php-net-whois:
+  version: 1.0.5-3
+  issues:
+    - php_ftbfs_due_to_pear_pkg_tools
 php-oauth:
   version: 1.2.3-1
   issues:
@@ -10838,12 +10914,20 @@ php-sasl:
   version: 0.1.0-3
   issues:
     - build_id_variation_requiring_further_investigation
+php-services-weather:
+  version: 1.4.7-2
+  issues:
+    - php_ftbfs_due_to_pear_pkg_tools
 php-smbclient:
   version: 0.8.0~rc1-1
   issues:
     - ftbfs_due_to_libtool
   bugs:
     - 814063
+php-soap:
+  version: 0.13.0-1
+  issues:
+    - php_ftbfs_due_to_pear_pkg_tools
 php-solr:
   version: 1.0.2-2
   issues:
@@ -10864,6 +10948,18 @@ php-svn:
   version: 1.0.2-2
   bugs:
     - 798761
+php-text-figlet:
+  version: 1.0.2-3
+  issues:
+    - php_ftbfs_due_to_pear_pkg_tools
+php-text-languagedetect:
+  version: 0.3.0-1
+  issues:
+    - php_ftbfs_due_to_pear_pkg_tools
+php-text-wiki:
+  version: 1.2.1-1
+  issues:
+    - php_ftbfs_due_to_pear_pkg_tools
 php-tokyo-tyrant:
   version: 0.6.0-2
   issues:
@@ -10872,10 +10968,22 @@ php-uuid:
   version: 1.0.4-1
   issues:
     - ftbfs_due_to_libtool
+php-xml-htmlsax3:
+  version: 3.0.0+really3.0.0-2
+  issues:
+    - php_ftbfs_due_to_pear_pkg_tools
+php-xml-rpc2:
+  version: 1.1.2-1
+  issues:
+    - php_ftbfs_due_to_pear_pkg_tools
 php-xml-serializer:
   version: 0.20.2-3
   bugs:
     - 759972
+php-xml-svg:
+  version: 1.1.0-1
+  issues:
+    - php_ftbfs_due_to_pear_pkg_tools
 php-yac:
   version: 0.9.2-1
   issues:
@@ -11003,6 +11111,8 @@ pjproject:
     - 795825
 pkg-php-tools:
   version: 1.31
+  issues:
+    - php_ftbfs_due_to_pear_pkg_tools
   bugs:
     - 816288
 placnet:
