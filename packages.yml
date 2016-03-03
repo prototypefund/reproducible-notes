@@ -10572,6 +10572,10 @@ phatch:
   version: 0.2.7.1-3.1
   issues:
     - randomness_in_documentation_generated_by_sphinx
+phing:
+  version: 2.13.0-2
+  issues:
+    - php_ftbfs_due_to_pear_pkg_tools
 phnxdeco:
   version: 0.33-3
   issues:
@@ -10646,6 +10650,10 @@ php-horde-activesync:
     - php_ftbfs_due_to_pear_pkg_tools
 php-horde-cache:
   version: 2.5.3-1
+  issues:
+    - php_ftbfs_due_to_pear_pkg_tools
+php-horde-group:
+  version: 2.1.0-1
   issues:
     - php_ftbfs_due_to_pear_pkg_tools
 php-horde-kronolith:
@@ -10742,6 +10750,10 @@ php-net-ldap2:
     - 809771
 php-net-nntp:
   version: 1.5.0-1
+  issues:
+    - php_ftbfs_due_to_pear_pkg_tools
+php-net-sieve:
+  version: 1.3.4-2
   issues:
     - php_ftbfs_due_to_pear_pkg_tools
 php-net-smartirc:
