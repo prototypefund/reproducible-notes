@@ -190,10 +190,6 @@ akuma:
   comments: |
     it builds fine on jenkins.d.n, but when building locally it embeds the username into the manifest file
     unclear, why this is hidden on jenkins.d.n
-albatross:
-  version: 1.36-5.5
-  issues:
-    - pdf_created_by_ghostscript
 allegro5:
   version: 2:5.0.11-1
   comments: |
@@ -13326,13 +13322,6 @@ ruby-parslet:
   version: 1.6.1-1
   bugs:
     - 795046
-ruby-patron:
-  version: 0.4.18-2
-  comments: |
-    Builds hangs forever in testsuite, see
-    https://jenkins.debian.net/view/reproducible/job/reproducible_builder_theta/3156/console
-  issues:
-    - blacklisted_on_jenkins
 ruby-pdf-reader:
   version: 1.3.3-1
   bugs:
@@ -14534,12 +14523,6 @@ sunpy:
   version: 0.6.1-2
   bugs:
     - 813932
-suomi-malaga:
-  version: 1.17-1
-  issues:
-    - timestamps_in_sym_l_files_generated_by_malaga
-  bugs:
-    - 807161
 sup-mail:
   version: 0.22.1-1
   bugs:
