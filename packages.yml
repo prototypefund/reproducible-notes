@@ -493,12 +493,6 @@ ara:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/ara/1.0.31/common/mkversion.sh/#L4
-arachne-pnr:
-  version: 0~20150927gitefdb026-1
-  issues:
-    - timestamps_in_manpages_generated_by_txt2man
-  bugs:
-    - 815082
 arduino:
   version: 2:1.0.5+dfsg2-4
   comments: |
@@ -663,12 +657,6 @@ asterisk-prompt-fr-proformatique:
   version: 20070706-1.4-2
   issues:
     - different_due_to_umask
-astroquery:
-  version: 0.3.1+dfsg-1
-  issues:
-    - timestamps_in_documentation_generated_by_sphinx
-  bugs:
-    - 788467
 astroscrappy:
   version: 1.0.3-2
   issues:
@@ -1102,10 +1090,6 @@ bittornado:
   version: 0.3.18-10.1
   bugs:
     - 796212
-bitz-server:
-  version: 0.1.6-1
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 blcr:
   version: 0.8.5-2.2
   comments: |
@@ -1891,12 +1875,6 @@ composite:
   version: 0.006.2+dfsg0-4
   issues:
     - timestamps_from_cpp_macros
-compton-conf:
-  version: 0.1.0+20151226-1
-  issues:
-    - lxqt_translate_desktop_binary_file_matched_under_certain_locales
-  bugs:
-    - 815901
 compute:
   version: 0.5-1
   comments: |
@@ -2020,9 +1998,7 @@ cppman:
   issues:
     - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
 cppreference-doc:
-  version: 20140208+dfsg1-1
-  issues:
-    - timestamps_in_qch
+  version: 20151129+dfsg0-1
   bugs:
     - 774537
 cqrlog:
@@ -2441,10 +2417,6 @@ debian-builder:
     - timestamps_in_gzip_headers
   bugs:
     - 777009
-debian-edu:
-  version: 1.812
-  comments: |
-    I think this is caused by blends:devtools/blend-install-helper+36 missing -a switch to grep but cannot reproduce locally atm
 debian-edu-doc:
   version: 1.6~20150422~8+edu0~beta1
   issues:
@@ -2946,10 +2918,6 @@ dwb:
   version: 20150419git-2
   issues:
     - timestamps_from_cpp_macros
-dymo-cups-drivers:
-  version: 1.4.0-5
-  issues:
-    - ppds_compressed_b64
 dynare:
   version: 4.4.3-1
   issues:
@@ -3192,10 +3160,6 @@ epix:
     - users_and_groups_in_tarball
     - timestamps_in_tarball
     - different_due_to_umask
-epson-inkjet-printer-escpr:
-  version: 1.4.1-2
-  issues:
-    - ppds_compressed_b64
 epubcheck:
   version: 4.0.1-2
   issues:
@@ -3850,15 +3814,6 @@ fonts-uralic:
   version: 0.0.20040829-5
   issues:
     - timestamps_difference_by_unzip
-foo2zjs:
-  version: 20140925dfsg0-3
-  issues:
-    - ppds_compressed_b64
-    - timestamps_in_documentation_generated_by_groff
-foomatic-db:
-  version: 20141016-1
-  issues:
-    - ppds_compressed_b64
 fop:
   version: 1.1.dfsg2-1
   comments: |
@@ -4774,10 +4729,6 @@ gnugk:
   version: 2:3.6-1
   issues:
     - timestamps_from_cpp_macros
-gnugo:
-  version: 3.8-8
-  bugs:
-    - 815601
 gnuit:
   version: 4.9.5-3
   issues:
@@ -5477,12 +5428,6 @@ hpcc:
   version: 1.4.1-3
   issues:
     - timestamps_from_cpp_macros
-hplip:
-  version: 3.15.11+repack0-1
-  comments: |
-    Random ordering of paper sizes in hp-scan.1.
-  issues:
-    - ppds_compressed_b64
 hsqldb:
   version: 2.2.9+dfsg-4
   comments: |
@@ -5578,10 +5523,6 @@ ibus:
   version: 1.5.11-1
   issues:
     - blacklisted_on_jenkins_armhf_only
-ibus-braille:
-  version: 0.1.2.99+git1.a95477d-1
-  comments: |
-    Uses date in configure.ac
 ibus-table:
   version: 1.9.1-3
   issues:
@@ -5769,10 +5710,6 @@ intel-cmt-cat:
   version: 0.1.3-2
   issues:
     - blacklisted_on_jenkins_armhf_only
-invesalius:
-  version: 3.0-1
-  issues:
-    - build_id_variation_requiring_further_investigation
 iodine:
   version: 0.7.0-3
   bugs:
@@ -6115,10 +6052,6 @@ jhdf:
   version: 2.9-3
   bugs:
     - 813261
-jimtcl:
-  version: 0.75-1
-  comments: |
-    Timestamp in unrecognised documentation generator
 jitsi:
   version: 2.5.5313-1
   bugs:
@@ -6152,19 +6085,6 @@ jnr-x86asm:
   version: 0.1-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-jodconverter:
-  version: 2.2.2-7
-  comments: |
-    The timestamps_in_documentation_generated_by_javadoc issue is worked around by strip-nondeterminism but jodconverter uses neither dh, nor cdbs, so strip-nondeterminism is not called.
-  issues:
-    - timestamps_in_documentation_generated_by_javadoc
-    - locale_in_documentation_generated_by_javadoc
-  bugs:
-    - 783882
-jodconverter-cli:
-  version: 2.2.2-8
-  issues:
-    - timestamps_in_jar
 joe:
   version: 3.7-2.4
   issues:
@@ -6264,10 +6184,6 @@ jtharness:
   version: 4.6-1
   issues:
     - timestamps_in_jar
-    - locale_in_documentation_generated_by_javadoc
-jts:
-  version: 1.11-1
-  issues:
     - locale_in_documentation_generated_by_javadoc
 judy:
   version: 1.0.5-5
@@ -7225,10 +7141,6 @@ libidn2-0:
   comments: |
     Also embeds the build date into the content of the PDF file
     and has the timestamp in the info page.
-libimobiledevice:
-  version: 1.1.6+dfsg-3.1
-  issues:
-    - build_id_variation_requiring_further_investigation
 libindicate:
   version: 0.6.92-2
   issues:
@@ -7530,10 +7442,6 @@ libmatroska:
   version: 1.4.2-2
   issues:
     - timestamps_from_cpp_macros
-libmcrypt:
-  version: 2.5.8-3.3
-  issues:
-    - build_id_variation_requiring_further_investigation
 libmessage-passing-perl:
   version: 0.116-1
   bugs:
@@ -7625,10 +7533,6 @@ libonemind-commons-java-java:
   version: 1.5.5-5
   issues:
     - locale_in_documentation_generated_by_javadoc
-libopendbx:
-  version: 1.4.6-9
-  issues:
-    - timestamps_in_manpages_generated_by_doxygen
 liboptions-java:
   version: 0.0.20120113-1
   issues:
@@ -8295,10 +8199,6 @@ lnav:
   version: 0.7.0-3
   issues:
     - ftbfs_uninvestigated_test_failures
-loadlin:
-  version: 1.6f-4
-  issues:
-    - different_due_to_umask
 loadwatch:
   version: 1.0+1.1alpha1-5
   bugs:
@@ -8449,12 +8349,6 @@ lxc:
   version: 1:1.0.8-1
   bugs:
     - 807837
-lximage-qt:
-  version: 0.4.0+20160108-1
-  issues:
-    - lxqt_translate_desktop_binary_file_matched_under_certain_locales
-  bugs:
-    - 815898
 lxqt-about:
   version: 0.10.0-3
   issues:
@@ -8514,10 +8408,6 @@ lzop:
   version: 1.03-3
   issues:
     - timestamps_from_cpp_macros
-m2300w:
-  version: 0.51-12
-  issues:
-    - ppds_compressed_b64
 mac-widgets:
   version: 0.10.0+svn416-dfsg1-1
   issues:
@@ -8840,10 +8730,6 @@ microbiomeutil:
   version: 20101212+dfsg-1
   issues:
     - timestamps_added_by_blast2
-microdc2:
-  version: 0.15.6-2
-  issues:
-    - different_pot_creation_date_in_gettext_mo_files
 mighttpd2:
   version: 3.2.9-3
   bugs:
@@ -9780,12 +9666,6 @@ oasis:
   version: 0.4.4-2
   bugs:
     - 769272
-obconf-qt:
-  version: 0.9.0+20151227-1
-  issues:
-    - lxqt_translate_desktop_binary_file_matched_under_certain_locales
-  bugs:
-    - 815900
 obnam:
   version: 1.18.2-1
   bugs:
@@ -10519,12 +10399,6 @@ pchar:
   comments: |
     Embed build time, and hostname:
     https://sources.debian.net/src/pchar/1.5-2/Makefile.in/?hl=186#L186
-pcmanfm-qt:
-  version: 0.10.1-1
-  issues:
-    - lxqt_translate_desktop_binary_file_matched_under_certain_locales
-  bugs:
-    - 815818
 pcp:
   version: 3.10.1
   issues:
@@ -11236,10 +11110,6 @@ pngcheck:
     Also requires changes to debian/pod2man.mk, eg. https://gist.github.com/b2cb9fc57f06cd9cbef6
   bugs:
     - 795987
-pnm2ppa:
-  version: 1.13-6
-  issues:
-    - timestamps_from_cpp_macros
 pnscan:
   version: 1.11-6
   issues:
@@ -11470,10 +11340,6 @@ ptlib:
   version: 2.10.11~dfsg-1
   issues:
     - captures_kernel_version
-ptouch-driver:
-  version: 1.3-8
-  issues:
-    - ppds_compressed_b64
 publican:
   version: 4.3.2-1
   issues:
@@ -11498,10 +11364,6 @@ pxlib:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/pxlib/0.6.5-1.1/configure.in/?hl=26#L26
-pxljr:
-  version: 1.4+repack0-4
-  issues:
-    - ppds_compressed_b64
 py-postgresql:
   version: 1.1.0-2
   issues:
@@ -13933,12 +13795,6 @@ scowl:
   version: 7.1-1
   bugs:
     - 791851
-screengrab:
-  version: 1.95+20160128-1
-  issues:
-    - lxqt_translate_desktop_binary_file_matched_under_certain_locales
-  bugs:
-    - 815899
 scscp-imcce:
   version: 1.0.1+ds-1
   issues:
@@ -14158,12 +14014,6 @@ sip-tester:
   version: 3.2-1
   issues:
     - timestamps_from_cpp_macros
-sip4:
-  version: 4.16.4+dfsg-1
-  issues:
-    - different_due_to_umask
-  bugs:
-    - 815512
 sipml5:
   version: 0.0.20130314.2030-3
   issues:
@@ -14409,14 +14259,6 @@ sphinxsearch:
   version: 2.2.9-1
   issues:
     - build_id_variation_requiring_further_investigation
-sphinxtrain:
-  version: 1.0.8-4
-  comments: |
-    Uses __DATE__ and __TIME__:
-    https://sources.debian.net/src/sphinxtrain/1.0.8-4/src/programs/bw/main.c/?hl=229#L229
-    https://sources.debian.net/src/sphinxtrain/1.0.8-4/src/programs/mllr_transform/main.c/?hl=342#L342
-  issues:
-    - timestamps_from_cpp_macros
 spice-gtk:
   version: 0.28-1.1
   bugs:
@@ -14898,12 +14740,6 @@ tcpwatch-httpproxy:
     - timestamps_in_gzip_headers
   bugs:
     - 776969
-tcsh:
-  version: 6.18.01-3
-  issues:
-    - blacklisted_on_jenkins_armhf_only
-  bugs:
-    - 796271
 telepathy-salut:
   version: 0.8.1-4
   issues:
