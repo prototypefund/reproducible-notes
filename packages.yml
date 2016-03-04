@@ -567,10 +567,6 @@ asciidoc:
   bugs:
     - 777177
     - 782294
-asciidoctor:
-  version: 0.1.4-3
-  issues:
-    - timestamps_in_gemspec_files
 asio:
   version: 1:1.10.6-3
   issues:
@@ -672,10 +668,6 @@ athena-jot:
   version: 9.0-5
   bugs:
     - 800291
-atig:
-  version: 0.4.5-2
-  issues:
-    - timestamps_in_gemspec_files
 atinject-jsr330:
   version: 1.0+ds1-1
   issues:
@@ -1850,22 +1842,10 @@ commons-vfs:
   version: 2.0-7
   comments: |
     Timestamp in Implementation-Build field in MANIFEST.MF.
-compass-blend-modes-plugin:
-  version: 0.0.2~20130918-1
-  issues:
-    - timestamps_in_gemspec_files
-compass-blueprint-plugin:
-  version: 1.0.0-1
-  issues:
-    - timestamps_in_gemspec_files
 compass-h5bp-plugin:
   version: 1.0.0-2
   issues:
-    - timestamps_in_gemspec_files
-compass-sassy-maps-plugin:
-  version: 0.4.0-3
-  issues:
-    - timestamps_in_gemspec_files
+    - fileorder_in_gemspec_files_list
 complexity:
   version: 1.3+dfsg-1
   issues:
@@ -2066,10 +2046,6 @@ cthumb:
   version: 4.2-3
   bugs:
     - 800207
-ctioga2:
-  version: 0.13.1-1
-  issues:
-    - timestamps_in_gemspec_files
 ctop:
   version: 0.4.1-1
   issues:
@@ -4018,10 +3994,6 @@ ftplib:
   comments: |
     Embeds the build date into manpages.
     https://sources.debian.net/src/ftplib/3.1-1-9/debian/html2man.py/#L86-L87
-fuel-astute:
-  version: 7.0+dfsg1-1
-  issues:
-    - timestamps_in_gemspec_files
 funny-manpages:
   version: 1.3-5.1
   bugs:
@@ -10180,10 +10152,6 @@ oregano:
   version: 0.70-3
   issues:
     - captures_shell_variable_in_autofoo_script
-origami-pdf:
-  version: 1.2.7-2
-  issues:
-    - timestamps_in_gemspec_files
 oroborus:
   version: 2.0.20
   comments: |
@@ -12493,10 +12461,6 @@ r-other-bio3d:
   version: 1.1-5-1
   issues:
     - randomness_in_r_rdb_rds_databases
-r10k:
-  version: 2.1.1-1
-  issues:
-    - timestamps_in_gemspec_files
 r5rs-doc:
   version: 20010328-7
   bugs:
@@ -12527,10 +12491,6 @@ radiance:
     - different_due_to_umask
     - users_and_groups_in_tarball
     - timestamps_in_tarball
-rails:
-  version: 2:4.1.10-1
-  issues:
-    - timestamps_in_gemspec_files
 rakudo:
   version: 2015.09-2
   issues:
@@ -12698,10 +12658,6 @@ request-tracker4:
   version: 4.2.11-2
   bugs:
     - 796385
-rerun:
-  version: 0.10.0-1
-  issues:
-    - timestamps_in_gemspec_files
 resiprocate:
   version: 1:1.10.0~beta2-1
   bugs:
@@ -12874,26 +12830,14 @@ rtslib:
   version: 3.0+git0.86e46bc6-5
   issues:
     - use_epydoc
-ruby-actionpack-xml-parser:
-  version: 1.0.2-1
-  issues:
-    - timestamps_in_gemspec_files
 ruby-active-model-serializers:
   version: 0.9.3-1
   issues:
-    - timestamps_in_gemspec_files
-ruby-activerecord-deprecated-finders:
-  version: 1.0.4-1
-  issues:
-    - timestamps_in_gemspec_files
+    - fileorder_in_gemspec_files_list
 ruby-activerecord-nulldb-adapter:
   version: 0.3.1-1
   bugs:
     - 759918
-ruby-activerecord-session-store:
-  version: 0.1.1-1
-  issues:
-    - timestamps_in_gemspec_files
 ruby-acts-as-list:
   version: 0.7.2-3
   bugs:
@@ -12905,15 +12849,11 @@ ruby-albino:
 ruby-api-pagination:
   version: 4.2.0-1
   issues:
-    - timestamps_in_gemspec_files
+    - fileorder_in_gemspec_files_list
 ruby-awesome-print:
   version: 1.6.1-2
   bugs:
     - 816161
-ruby-babosa:
-  version: 1.0.2-1
-  issues:
-    - timestamps_in_gemspec_files
 ruby-bdb:
   version: 0.6.6-1
   issues:
@@ -12926,10 +12866,6 @@ ruby-build:
   version: 20140926-1
   issues:
     - timestamps_in_manpages_generated_by_ronn
-ruby-carrierwave:
-  version: 0.10.0+gh-1
-  issues:
-    - timestamps_in_gemspec_files
 ruby-celluloid:
   version: 0.16.0-2
   issues:
@@ -12948,18 +12884,6 @@ ruby-celluloid-supervision:
   version: 0.20.0-2
   bugs:
     - 810770
-ruby-chronic:
-  version: 0.10.2-3
-  issues:
-    - timestamps_in_gemspec_files
-ruby-classifier-reborn:
-  version: 2.0.4-1
-  issues:
-    - timestamps_in_gemspec_files
-ruby-client-side-validations:
-  version: 3.2.6+gh-1
-  issues:
-    - timestamps_in_gemspec_files
 ruby-clockwork:
   version: 1.2.0-2
   bugs:
@@ -12967,39 +12891,19 @@ ruby-clockwork:
 ruby-compass:
   version: 1.0.3~dfsg-3
   issues:
-    - timestamps_in_gemspec_files
-ruby-concurrent:
-  version: 1.0.0-1
-  issues:
-    - timestamps_in_gemspec_files
+    - fileorder_in_gemspec_files_list
 ruby-configurate:
   version: 0.3.1-1
   issues:
-    - timestamps_in_gemspec_files
+    - fileorder_in_gemspec_files_list
 ruby-connection-pool:
   version: 2.2.0-1
   issues:
     - ftbfs_uninvestigated_test_failures
-ruby-crack:
-  version: 0.4.2-3
-  issues:
-    - timestamps_in_gemspec_files
-ruby-css-parser:
-  version: 1.3.6-1
-  issues:
-    - timestamps_in_gemspec_files
-ruby-cssmin:
-  version: 1.0.3-4
-  issues:
-    - timestamps_in_gemspec_files
-ruby-cstruct:
-  version: 1.0.1-2
-  issues:
-    - timestamps_in_gemspec_files
 ruby-cucumber-rails:
   version: 1.4.2-1
   issues:
-    - timestamps_in_gemspec_files
+    - fileorder_in_gemspec_files_list
 ruby-dbus:
   version: 0.11.0-1
   issues:
@@ -13008,30 +12912,10 @@ ruby-default-value-for:
   version: 3.0.1-1
   bugs:
     - 816120
-ruby-delayed-job-active-record:
-  version: 4.0.3-1
-  issues:
-    - timestamps_in_gemspec_files
-ruby-delorean:
-  version: 2.1.0-2
-  issues:
-    - timestamps_in_gemspec_files
-ruby-dep-selector:
-  version: 1.0.3-2
-  issues:
-    - timestamps_in_gemspec_files
-ruby-dotenv:
-  version: 2.0.2-1
-  issues:
-    - timestamps_in_gemspec_files
 ruby-eim-xml:
   version: 0.0.4-3
   bugs:
     - 794169
-ruby-ejs:
-  version: 1.1.1-1
-  issues:
-    - timestamps_in_gemspec_files
 ruby-em-hiredis:
   version: 0.2.1-2.1
   issues:
@@ -13040,10 +12924,6 @@ ruby-em-http-request:
   version: 1.1.2-2
   issues:
     - blacklisted_on_jenkins_armhf_only
-ruby-em-redis:
-  version: 0.3.0+gh-2
-  issues:
-    - timestamps_in_gemspec_files
 ruby-em-synchrony:
   version: 1.0.3-1
   issues:
@@ -13053,11 +12933,7 @@ ruby-em-synchrony:
 ruby-encryptor:
   version: 1.3.0-1
   issues:
-    - timestamps_in_gemspec_files
-ruby-execjs:
-  version: 2.6.0-1
-  issues:
-    - timestamps_in_gemspec_files
+    - fileorder_in_gemspec_files_list
 ruby-expression-parser:
   version: 0.9.1-2
   issues:
@@ -13066,10 +12942,6 @@ ruby-facets:
   version: 2.9.3-2
   issues:
     - random_order_in_ruby_rdoc_indices
-ruby-fakeweb:
-  version: 1.3.0+git20131202.48208f9+dfsg-2
-  issues:
-    - timestamps_in_gemspec_files
 ruby-fast-gettext:
   version: 0.9.2-1
   bugs:
@@ -13080,18 +12952,6 @@ ruby-ffi-rzmq:
     - blacklisted_on_jenkins_armhf_only
   bugs:
     - 798934
-ruby-flexmock:
-  version: 2.0.0~rc1-1
-  issues:
-    - timestamps_in_gemspec_files
-ruby-fog-core:
-  version: 1.32.1-1
-  issues:
-    - timestamps_in_gemspec_files
-ruby-fog-vsphere:
-  version: 0.4.0-1
-  issues:
-    - timestamps_in_gemspec_files
 ruby-foreigner:
   version: 1.7.4-1
   bugs:
@@ -13100,38 +12960,18 @@ ruby-fssm:
   version: 0.2.10-2
   bugs:
     - 795041
-ruby-gemojione:
-  version: 2.1.0-2
-  issues:
-    - timestamps_in_gemspec_files
-ruby-git:
-  version: 1.2.8-1
-  issues:
-    - timestamps_in_gemspec_files
 ruby-github-linguist:
   version: 4.7.2-1
   bugs:
     - 815908
-ruby-globalid:
-  version: 0.3.6-1
-  issues:
-    - timestamps_in_gemspec_files
-ruby-grack:
-  version: 2.0.2-1
-  issues:
-    - timestamps_in_gemspec_files
 ruby-hipchat:
   version: 1.5.2-1
   bugs:
     - 813746
-ruby-hiredis:
-  version: 0.6.0-1
-  issues:
-    - timestamps_in_gemspec_files
 ruby-htmlentities:
   version: 4.3.3-1
   issues:
-    - timestamps_in_gemspec_files
+    - fileorder_in_gemspec_files_list
 ruby-http:
   version: 0.6.1-1
   bugs:
@@ -13140,10 +12980,6 @@ ruby-http-parser.rb:
   version: 0.6.0-2
   issues:
     - timestamps_in_ruby_documentation
-ruby-httpauth:
-  version: 0.2.1+gh-1
-  issues:
-    - timestamps_in_gemspec_files
 ruby-httpclient:
   version: 2.3.3-3.1
   bugs:
@@ -13152,38 +12988,14 @@ ruby-i18n:
   version: 0.6.11-2
   bugs:
     - 784699
-ruby-ice-cube:
-  version: 0.12.1-1
-  issues:
-    - timestamps_in_gemspec_files
 ruby-innertube:
   version: 1.1.0-2
   bugs:
     - 816545
-ruby-integration:
-  version: 0.1.0-1
-  issues:
-    - timestamps_in_gemspec_files
-ruby-jekyll-coffeescript:
-  version: 1.0.1-2
-  issues:
-    - timestamps_in_gemspec_files
-ruby-jekyll-feed:
-  version: 0.3.1-1
-  issues:
-    - timestamps_in_gemspec_files
-ruby-jekyll-sass-converter:
-  version: 1.0.0-2
-  issues:
-    - timestamps_in_gemspec_files
-ruby-jekyll-watch:
-  version: 1.0.0-2
-  issues:
-    - timestamps_in_gemspec_files
 ruby-json-schema:
   version: 2.5.1-1
   issues:
-    - timestamps_in_gemspec_files
+    - fileorder_in_gemspec_files_list
 ruby-kakasi-ffi:
   version: 1.0.1-1
   bugs:
@@ -13195,30 +13007,14 @@ ruby-kgio:
     That file is not present in an unshared network environment, such the one generated by pbuilder
   issues:
     - ftbfs_in_jenkins_setup
-ruby-kyotocabinet:
-  version: 1.32-2
-  issues:
-    - timestamps_in_gemspec_files
-ruby-listen:
-  version: 3.0.3-2
-  issues:
-    - timestamps_in_gemspec_files
 ruby-literati:
   version: 0.0.4~git.20130318.3b3ea30-2
   bugs:
     - 794261
-ruby-lumberjack:
-  version: 1.0.9-1
-  issues:
-    - timestamps_in_gemspec_files
-ruby-mail:
-  version: 2.6.3+dfsg1-1
-  issues:
-    - timestamps_in_gemspec_files
 ruby-markerb:
-  version: 1.1.0-1
+  version: 1.1.0-2
   issues:
-    - timestamps_in_gemspec_files
+    - fileorder_in_gemspec_files_list
 ruby-mathml:
   version: 0.14-3
   issues:
@@ -13229,84 +13025,32 @@ ruby-memcache-client:
   version: 1.8.5-3
   bugs:
     - 797256
-ruby-mini-magick:
-  version: 4.2.3-1
-  issues:
-    - timestamps_in_gemspec_files
 ruby-monkey-lib:
   version: 0.5.4-1
   bugs:
     - 815777
-ruby-mp3tag:
-  version: 1.0-12
-  issues:
-    - timestamps_in_gemspec_files
-ruby-multi-json:
-  version: 1.11.2-3
-  issues:
-    - timestamps_in_gemspec_files
 ruby-mysql2:
   version: 0.3.18-1
   issues:
     - blacklisted_on_jenkins_armhf_only
   bugs:
     - 796516
-ruby-ncurses:
-  version: 1.4.8-2
-  issues:
-    - timestamps_in_gemspec_files
-ruby-nested-form:
-  version: 0.3.2-2
-  issues:
-    - timestamps_in_gemspec_files
 ruby-net-ssh:
   version: 1:2.9.2-2
   bugs:
     - 812736
-ruby-net-telnet:
-  version: 0.1.1-1
-  issues:
-    - timestamps_in_gemspec_files
-ruby-odbc:
-  version: 0.99995-2
-  issues:
-    - timestamps_in_gemspec_files
-ruby-omniauth-azure-oauth2:
-  version: 0.0.6-1
-  issues:
-    - timestamps_in_gemspec_files
 ruby-omniauth-crowd:
   version: 2.2.3-1
   bugs:
     - 814311
-ruby-omniauth-kerberos:
-  version: 0.3.0-3
-  issues:
-    - timestamps_in_gemspec_files
-ruby-omniauth-saml:
-  version: 1.4.1-1
-  issues:
-    - timestamps_in_gemspec_files
 ruby-opengraph-parser:
   version: 0.2.3+gh-1
   bugs:
     - 800030
-ruby-org:
-  version: 0.9.12-1
-  issues:
-    - timestamps_in_gemspec_files
-ruby-origin:
-  version: 1.1.0-1
-  issues:
-    - timestamps_in_gemspec_files
 ruby-packetfu:
   version: 1.1.11-1
   bugs:
     - 816254
-ruby-paint:
-  version: 0.8.6-1
-  issues:
-    - timestamps_in_gemspec_files
 ruby-parslet:
   version: 1.6.1-1
   bugs:
@@ -13319,34 +13063,14 @@ ruby-pg:
   version: 0.17.1-2
   issues:
     - timestamps_in_ruby_documentation
-ruby-pkg-config:
-  version: 1.1.5-1
-  issues:
-    - timestamps_in_gemspec_files
 ruby-prawn:
   version: 2.0.2+dfsg-1
   issues:
-    - timestamps_in_gemspec_files
-ruby-protected-attributes:
-  version: 1.1.3-1
-  issues:
-    - timestamps_in_gemspec_files
+    - fileorder_in_gemspec_files_list
 ruby-pygments.rb:
   version: 0.5.4~ds1-3
   issues:
     - timestamps_in_ruby_documentation
-ruby-rack-google-analytics:
-  version: 1.2.0-1
-  issues:
-    - timestamps_in_gemspec_files
-ruby-rack-mount:
-  version: 0.8.3-1
-  issues:
-    - timestamps_in_gemspec_files
-ruby-raemon:
-  version: 0.3.0+git.2012.05.18.b78eaae57c-1
-  issues:
-    - timestamps_in_gemspec_files
 ruby-rails-autolink:
   version: 1.1.6-1
   bugs:
@@ -13354,35 +13078,15 @@ ruby-rails-autolink:
 ruby-rails-deprecated-sanitizer:
   version: 1.0.3-1
   issues:
-    - timestamps_in_gemspec_files
-ruby-rbpdf:
-  version: 1.19.0-1
-  issues:
-    - timestamps_in_gemspec_files
-ruby-rbvmomi:
-  version: 1.8.2-1
-  issues:
-    - timestamps_in_gemspec_files
+    - fileorder_in_gemspec_files_list
 ruby-recaptcha:
   version: 0.4.0-1
   issues:
-    - timestamps_in_gemspec_files
-ruby-redcloth:
-  version: 4.2.9-5
-  issues:
-    - timestamps_in_gemspec_files
+    - fileorder_in_gemspec_files_list
 ruby-redis:
   version: 3.1.0-1
   bugs:
     - 796013
-ruby-ref:
-  version: 2.0.0-1
-  issues:
-    - timestamps_in_gemspec_files
-ruby-responders:
-  version: 2.1.0-4
-  issues:
-    - timestamps_in_gemspec_files
 ruby-riddle:
   version: 1.5.12-2
   bugs:
@@ -13391,22 +13095,10 @@ ruby-rinku:
   version: 1.7.3-1
   issues:
     - timestamps_in_ruby_documentation
-ruby-rjb:
-  version: 1.5.3-1
-  issues:
-    - timestamps_in_gemspec_files
 ruby-rmagick:
   version: 2.13.2-4
   bugs:
     - 795484
-ruby-rpatricia:
-  version: 1.0.1-1
-  issues:
-    - timestamps_in_gemspec_files
-ruby-rspec:
-  version: 3.3.0c2e1m2s0-1
-  issues:
-    - timestamps_in_gemspec_files
 ruby-rspec-core:
   version: 2.14.7-2
   issues:
@@ -13419,22 +13111,10 @@ ruby-rspec-longrun:
   version: 1.0.1-1
   bugs:
     - 795678
-ruby-rspec-puppet:
-  version: 2.2.0-1
-  issues:
-    - timestamps_in_gemspec_files
-ruby-rspec-rails:
-  version: 3.3.3-1
-  issues:
-    - timestamps_in_gemspec_files
 ruby-rubymail:
   version: 1.1.0-2
   issues:
     - random_order_in_ruby_rdoc_indices
-ruby-rufus-scheduler:
-  version: 3.1.10-2
-  issues:
-    - timestamps_in_gemspec_files
 ruby-safe-yaml:
   version: 1.0.4-1
   bugs:
@@ -13444,37 +13124,17 @@ ruby-sanitize:
   bugs:
     - 808450
 ruby-sass:
-  version: 3.4.19-1
+  version: 3.4.21-1
   issues:
-    - timestamps_in_gemspec_files
-ruby-sass-rails:
-  version: 5.0.3-1
-  issues:
-    - timestamps_in_gemspec_files
-ruby-seed-fu:
-  version: 2.3.5-1
-  issues:
-    - timestamps_in_gemspec_files
-ruby-sentry-raven:
-  version: 0.15.3-1
-  issues:
-    - timestamps_in_gemspec_files
+    - fileorder_in_gemspec_files_list
 ruby-sequel:
-  version: 4.15.0-1
+  version: 4.31.0-1
   issues:
-    - timestamps_in_gemspec_files
-ruby-sequel-pg:
-  version: 1.6.10-1
-  issues:
-    - timestamps_in_gemspec_files
+    - fileorder_in_gemspec_files_list
 ruby-settingslogic:
   version: 2.0.9-2
   issues:
     - timestamps_in_ruby_documentation
-ruby-shoulda-matchers:
-  version: 1.0.0~beta2-1
-  issues:
-    - timestamps_in_gemspec_files
 ruby-sigar:
   version: 0.7.2-3.1
   issues:
@@ -13483,10 +13143,6 @@ ruby-simple-navigation:
   version: 3.11.0-1
   bugs:
     - 795116
-ruby-simple-oauth:
-  version: 0.3.1-2
-  issues:
-    - timestamps_in_gemspec_files
 ruby-sinatra:
   version: 1.4.6-2
   bugs:
@@ -13494,23 +13150,11 @@ ruby-sinatra:
 ruby-slack-notifier:
   version: 1.2.1-1
   issues:
-    - timestamps_in_gemspec_files
+    - fileorder_in_gemspec_files_list
 ruby-solve:
   version: 2.0.1-2
   bugs:
     - 816359
-ruby-source-map:
-  version: 3.0.1+git.20120229.bda06a3f-1
-  issues:
-    - timestamps_in_gemspec_files
-ruby-spider:
-  version: 0.4.4-2
-  issues:
-    - timestamps_in_gemspec_files
-ruby-spring:
-  version: 1.3.6-2
-  issues:
-    - timestamps_in_gemspec_files
 ruby-sqlite3:
   version: 1.3.9-2
   bugs:
@@ -13527,18 +13171,6 @@ ruby-state-machines:
   version: 0.4.0-2
   issues:
     - blacklisted_on_jenkins_armhf_only
-ruby-stud:
-  version: 0.0.20-1
-  issues:
-    - timestamps_in_gemspec_files
-ruby-subexec:
-  version: 0.2.3+gh-2
-  issues:
-    - timestamps_in_gemspec_files
-ruby-symboltable:
-  version: 1.0.2-1
-  issues:
-    - timestamps_in_gemspec_files
 ruby-test-after-commit:
   version: 0.2.3+gh-1
   bugs:
@@ -13555,10 +13187,6 @@ ruby-thread-safe:
   version: 0.3.3-1
   bugs:
     - 800057
-ruby-timers:
-  version: 4.0.1-1
-  issues:
-    - timestamps_in_gemspec_files
 ruby-tinder:
   version: 1.10.1-1
   bugs:
@@ -13567,18 +13195,10 @@ ruby-tioga:
   version: 1.18-1
   issues:
     - timestamps_in_ruby_documentation
-ruby-toml:
-  version: 0.1.2-3
-  issues:
-    - timestamps_in_gemspec_files
 ruby-typhoeus:
   version: 0.8.0-1
   bugs:
     - 816360
-ruby-version-sorter:
-  version: 2.0.0+dfsg-2
-  issues:
-    - timestamps_in_gemspec_files
 ruby-versionomy:
   version: 0.4.4-1
   bugs:
@@ -13591,10 +13211,6 @@ ruby-wikicloth:
   version: 0.8.1+dfsg-2
   issues:
     - timestamps_in_ruby_documentation
-ruby-yaml-db:
-  version: 0.3.0-1
-  issues:
-    - timestamps_in_gemspec_files
 ruby-zentest:
   version: 4.9.5-1
   bugs:
@@ -13602,11 +13218,7 @@ ruby-zentest:
 ruby-zip:
   version: 1.1.7-1
   issues:
-    - timestamps_in_gemspec_files
-ruby-zip-zip:
-  version: 0.3+gh-1
-  issues:
-    - timestamps_in_gemspec_files
+    - fileorder_in_gemspec_files_list
 ruby2.1:
   version: 2.1.5-1
   issues:
@@ -14853,10 +14465,6 @@ ticcutils:
   version: 0.7-2
   issues:
     - timestamps_from_cpp_macros
-ticgit:
-  version: 1.0.2.17-2
-  issues:
-    - timestamps_in_gemspec_files
 tickr:
   version: 0.6.4-1
   issues:
@@ -14950,10 +14558,6 @@ tmexpand:
   version: 0.1.2.0-3
   bugs:
     - 789799
-tmuxinator:
-  version: 0.6.11-1
-  issues:
-    - timestamps_in_gemspec_files
 tntnet:
   version: 2.2.1-2
   issues:
@@ -15458,10 +15062,6 @@ uwsgi:
   version: 2.0.7-1
   issues:
     - timestamps_from_cpp_macros
-vagrant:
-  version: 1.7.4+dfsg-1
-  issues:
-    - timestamps_in_gemspec_files
 valknut:
   version: 0.4.9-2
   comments: |

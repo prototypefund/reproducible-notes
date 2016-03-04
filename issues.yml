@@ -330,13 +330,9 @@ timestamps_in_ruby_documentation:
     Ruby's documentation generator outputs a file called "created.rid", which contains
     the time the documentation was generated.
   deterministic: True
-timestamps_in_gemspec_files:
+fileorder_in_gemspec_files_list:
   description:
-    .gemspecs store the date.
-    .
-    An older bug, https://bugs.debian.org/779631 , fixed the date being written in the local
-    timezone, but it still varies based on system clock.
-  deterministic: True
+    File lists in Ruby .gemspec files are unsorted.
 timestamps_in_documentation_generated_by_sphinx:
   description: |
     "Last updated," etc.
