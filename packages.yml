@@ -1809,10 +1809,6 @@ comedilib:
     - timestamps_in_manpages_generated_by_docbook_xsl
     - different_encoding_in_html_by_docbook_xsl
     - leaks_path_environment_variable
-comix:
-  version: 4.0.4-1
-  bugs:
-    - 797506
 commando:
   version: 0.3.4-1.1
   bugs:
@@ -2453,10 +2449,6 @@ debmake-doc:
     Dynamically includes generates directory listings with umask, etc.
   issues:
     - fonts_in_pdf_files
-deborphan:
-  version: 1.7.28.8-0.2
-  bugs:
-    - 808482
 debram:
   version: 2.0.0.4
   bugs:
@@ -2835,10 +2827,6 @@ dsc-statistics:
   version: 201203250530-2
   issues:
     - fonts_in_pdf_files
-dspdfviewer:
-  version: 1.14-2
-  bugs:
-    - 814581
 dtach:
   version: 0.8-2.1
   issues:
@@ -3424,10 +3412,6 @@ findutils:
   version: 4.6.0-2
   bugs:
     - 812762
-fio:
-  version: 2.2.10-1
-  bugs:
-    - 815735
 firebird2.5:
   version: 2.5.4.26856.ds4-1
   comments: |
@@ -3479,10 +3463,6 @@ flask-restful:
   version: 0.3.4-1
   bugs:
     - 809780
-flask-script:
-  version: 0.6.7-1
-  bugs:
-    - 808757
 flasm:
   version: 1.62-7
   issues:
@@ -4976,10 +4956,6 @@ grapefruit:
   version: 0.1~a3+dfsg-1
   bugs:
     - 788247
-graphicsmagick:
-  version: 1.3.23-1
-  bugs:
-    - 815736
 graphviz:
   version: 2.38.0-7
   issues:
@@ -5011,9 +4987,9 @@ gridengine:
   issues:
     - timestamps_in_jar
 gridsite:
-  version: 2.2.5-1
+  version: 2.2.6-3
   issues:
-    - different_due_to_umask
+    - timestamps_in_documentation_generated_by_doxygen
 grilo:
   version: 0.2.11-2
   issues:
@@ -5065,6 +5041,10 @@ gsmlib:
   version: 1.10+20120414.gita5e5ae9a-0.2
   issues:
     - timestamps_from_cpp_macros
+gsoap:
+  version: 2.8.28-2
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 gst-libav1.0:
   version: 1.6.3-1
   issues:
@@ -5116,10 +5096,6 @@ gtkdataboxmm:
   version: 0.9.4-3
   issues:
     - leaks_path_environment_variable
-gtkimageview:
-  version: 1.6.4+dfsg-0.1
-  bugs:
-    - 789101
 gtkpod:
   version: 2.1.4-4
   issues:
@@ -5578,10 +5554,6 @@ iitalian:
   version: 2.3-3
   issues:
     - random_ispell_hash_files
-ijs:
-  version: 0.35-11
-  bugs:
-    - 814494
 ikvm:
   version: 7.2.4630.5+ds-1
   issues:
@@ -8594,10 +8566,6 @@ maven:
   version: 3.0.5-3
   issues:
     - random_order_in_plexus_comonents_xml
-maven-dependency-analyzer:
-  version: 1.6-1
-  bugs:
-    - 814877
 maven-plugin-testing:
   version: 1.3-2
   issues:
@@ -9190,10 +9158,8 @@ naspro-core:
   issues:
     - random_order_in_naturaldocs
 natbraille:
-  version: 2.0rc3-2
+  version: 2.0rc3-3
   issues:
-    - timestamps_in_jar
-    - timestamps_in_documentation_generated_by_javadoc
     - locale_in_documentation_generated_by_javadoc
 nbc:
   version: 1.2.1.r4+dfsg-1
@@ -9474,10 +9440,6 @@ node-postgres:
   version: 0.13.3-1
   bugs:
     - 802213
-node-raw-body:
-  version: 1.2.0-1
-  bugs:
-    - 800096
 node-sqlite3:
   version: 2.2.0+ds1-1
   bugs:
@@ -9961,10 +9923,6 @@ openid4java:
   version: 0.9.6.662-2
   issues:
     - locale_in_documentation_generated_by_javadoc
-openimageio:
-  version: 1.6.10~dfsg0-1
-  bugs:
-    - 814972
 openjade1.3:
   version: 1.3.2-13
   issues:
@@ -10177,10 +10135,6 @@ osm-gps-map:
   version: 1.1.0-1
   issues:
     - locale_dependent_order_in_devlibs_depends
-osmcoastline:
-  version: 2.1.2-1
-  bugs:
-    - 815868
 osmium-tool:
   version: 1.3.0-1
   bugs:
@@ -10264,9 +10218,8 @@ pagekite:
   bugs:
     - 795659
 pairs:
-  version: 4:4.14.1-1
+  version: 4:15.04.3-1
   issues:
-    - users_and_groups_in_tarball
     - different_due_to_umask
   bugs:
     - 815716
@@ -10940,10 +10893,6 @@ pidgin-librvp:
   version: 0.9.7cvs-1
   issues:
     - timestamps_from_cpp_macros
-pidgin-twitter:
-  version: 0.9.2.1-5
-  bugs:
-    - 808528
 piespy:
   version: 0.4.0-3
   issues:
@@ -11075,8 +11024,6 @@ plplot:
   issues:
     - different_encoding_in_html_by_docbook_xsl
     - timestamps_in_jar
-  bugs:
-    - 809592
 plr:
   version: 1:8.3.0.15-4
   issues:
@@ -11561,14 +11508,6 @@ python-activipy:
   version: 0.1-2
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-python-aioeventlet:
-  version: 0.4-1
-  bugs:
-    - 815217
-python-ase:
-  version: 3.9.1.4567-2
-  bugs:
-    - 810903
 python-astropy:
   version: 1.0.3-3
   comments: |
@@ -11593,10 +11532,6 @@ python-biopython:
   version: 1.66+dfsg-1
   bugs:
     - 813262
-python-bleach:
-  version: 1.4-1
-  bugs:
-    - 798441
 python-bottle:
   version: 0.12.7-1
   issues:
@@ -11609,10 +11544,6 @@ python-ceres:
   version: 0.10.0~git20150525-1
   bugs:
     - 805297
-python-certifi:
-  version: 2015.11.20-1
-  bugs:
-    - 815394
 python-cliff:
   version: 1.15.0-1
   issues:
@@ -11806,10 +11737,6 @@ python-llfuse:
   version: 0.40+dfsg-2
   issues:
     - randomness_in_documentation_generated_by_sphinx
-python-lockfile:
-  version: 1:0.10.2-2
-  bugs:
-    - 789825
 python-ly:
   version: 0.9.2-1
   issues:
@@ -11818,10 +11745,6 @@ python-memory-profiler:
   version: 0.31+git20141019-1
   bugs:
     - 804442
-python-mne:
-  version: 0.10.1+dfsg-1
-  bugs:
-    - 813982
 python-mock:
   version: 1.0.1-3
   bugs:
@@ -11835,10 +11758,6 @@ python-morris:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - randomness_in_objects_inv
-python-mpop:
-  version: 1.0.0-1
-  bugs:
-    - 813873
 python-netaddr:
   version: 0.7.18-1
   bugs:
@@ -12006,10 +11925,6 @@ python-skbio:
   version: 0.4.1-1
   issues:
     - timestamps_in_pdf_generated_by_matplotlib
-python-snuggs:
-  version: 1.3.1-1
-  bugs:
-    - 815396
 python-softlayer:
   version: 4.1.1-2
   issues:
@@ -12393,10 +12308,6 @@ r-cran-amelia:
   version: 1.7.3-1
   issues:
     - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-arm:
-  version: 1.8-6-1
-  bugs:
-    - 815741
 r-cran-futile.logger:
   version: 1.4.1-1
   issues:
@@ -12449,10 +12360,6 @@ r-cran-teachingdemos:
   version: 2.9-1
   issues:
     - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-tm:
-  version: 0.6-2-1
-  bugs:
-    - 815397
 r-other-bio3d:
   version: 1.1-5-1
   issues:
@@ -12697,10 +12604,6 @@ ripmime:
     https://sources.debian.net/src/ripmime/1.4.0.10.debian.1-1/generate-buildcodes.sh/
   issues:
     - captures_kernel_version
-rjava:
-  version: 0.9-8-1
-  bugs:
-    - 814789
 rkward:
   version: 0.6.4-1
   issues:
@@ -12767,14 +12670,6 @@ ros-genpy:
   version: 0.5.7-5
   issues:
     - blacklisted_on_jenkins_armhf_only
-ros-geometry-experimental:
-  version: 0.5.12-2
-  bugs:
-    - 815743
-ros-image-common:
-  version: 1.11.10-1
-  bugs:
-    - 815218
 ros-pluginlib:
   version: 1.10.1-2
   bugs:
@@ -13097,10 +12992,6 @@ ruby-safe-yaml:
   version: 1.0.4-1
   bugs:
     - 816358
-ruby-sanitize:
-  version: 2.1.0-1
-  bugs:
-    - 808450
 ruby-sass:
   version: 3.4.21-1
   issues:
@@ -13977,10 +13868,6 @@ ssvnc:
   version: 1.0.29-2
   issues:
     - timestamps_in_jar
-staden:
-  version: 2.0.0+b10-1.1
-  bugs:
-    - 793514
 stardict:
   version: 3.0.1-9.2
   bugs:
@@ -14737,10 +14624,6 @@ tupi:
     Filesystem ordering caused by
       icons.commands = cp *.png $(INSTALL_ROOT)/themes/default/icons
     in src/themes/default/icons/icons.pro
-turbojson:
-  version: 1.3.2-2.1
-  bugs:
-    - 798059
 turnin-ng:
   version: 1.2-1
   issues:
@@ -14920,10 +14803,6 @@ umockdev:
   version: 0.8.11-2
   issues:
     - ftbfs_uninvestigated_test_failures
-unbound:
-  version: 1.4.22-3
-  bugs:
-    - 809055
 unburden-home-dir:
   version: 0.3.3
   bugs:
@@ -14940,10 +14819,6 @@ underscore.logger:
   version: 0.3.0~20111114-1
   bugs:
     - 669541
-undertaker:
-  version: 1.6.1-1
-  bugs:
-    - 813264
 undertow:
   version: 1.3.11-1
   issues:
@@ -14965,10 +14840,6 @@ unifont:
   version: 7.0.06-1
   issues:
     - fontforge_reset_modification_time
-unittest2:
-  version: 1.1.0-6
-  bugs:
-    - 802361
 uniutils:
   version: 2.27-2
   issues:
@@ -14985,10 +14856,6 @@ uprofiler:
   version: 0.11.0+8-g483c1e5-1
   issues:
     - ftbfs_due_to_libtool
-urdfdom:
-  version: 0.3.0-2
-  bugs:
-    - 812400
 urjtag:
   version: 0.10+r2007-1.2
   issues:
@@ -15275,13 +15142,6 @@ warzone2100:
     - timestamps_from_cpp_macros
     - timestamps_in_tarball
     - different_due_to_umask
-watchdog:
-  version: 5.14-3
-  issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-  bugs:
-    - 784211
-    - 808692
 wayland:
   version: 1.9.0-1
   issues:
@@ -15837,10 +15697,6 @@ yapsy:
   version: 1.10.423-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
-yard:
-  version: 0.8.7.6-1
-  bugs:
-    - 794148
 yasm:
   version: 1.2.0-2
   issues:
