@@ -177,10 +177,6 @@ aiozmq:
   version: 0.7.1-1
   issues:
     - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
-air-quality-sensor:
-  version: 0.1.3-1
-  bugs:
-    - 809025
 aircrack-ng:
   version: 1:1.2-0~beta3-4
   issues:
@@ -489,10 +485,6 @@ ara:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/ara/1.0.31/common/mkversion.sh/#L4
-arachne-pnr:
-  version: 0~20150927gitefdb026-2
-  bugs:
-    - 816579
 arduino:
   version: 2:1.0.5+dfsg2-4
   comments: |
@@ -725,7 +717,7 @@ authbind:
   bugs:
     - 777727
 auto-multiple-choice:
-  version: 1.2.1-3
+  version: 1.2.1-4
   issues:
     - different_due_to_umask
     - users_and_groups_in_tarball
@@ -1356,10 +1348,6 @@ cantor:
   version: 4.14.2-3
   issues:
     - build_id_variation_requiring_further_investigation
-capistrano:
-  version: 3.2.1-1
-  bugs:
-    - 795724
 cappuccino:
   version: 0.5.1-2.2
   bugs:
@@ -1388,10 +1376,6 @@ cc1111:
   version: 2.9.0-4
   issues:
     - timestamps_from_cpp_macros
-ccbuild:
-  version: 2.0.7-1
-  bugs:
-    - 812974
 cclib:
   version: 1.3.1-1
   issues:
@@ -1924,10 +1908,6 @@ coq-float:
   version: 1:8.4-5
   bugs:
     - 813596
-corebird:
-  version: 1.1-1
-  issues:
-    - ftbfs_due_to_libtool
 corosync:
   version: 1.4.6-1.1
   issues:
@@ -1984,10 +1964,6 @@ cppreference-doc:
   version: 20151129+dfsg0-1
   bugs:
     - 774537
-cqrlog:
-  version: 1.9.0-5
-  bugs:
-    - 813461
 crack:
   version: 5.0a-9.3
   comments: |
@@ -2482,10 +2458,6 @@ device-tree-compiler:
   version: 1.4.0+dfsg-2
   issues:
     - timestamps_in_pdf_content
-device3dfx:
-  version: 2013.08.08-3
-  issues:
-    - varying_ordering_in_data_tar_gz_or_control_tar_gz
 devtodo:
   version: 0.1.20-6
   bugs:
@@ -2669,10 +2641,6 @@ django-ratelimit:
   version: 0.4.0+8+gd58c489-3
   bugs:
     - 806355
-django-recurrence:
-  version: 1.2.0-1
-  bugs:
-    - 815392
 django-session-security:
   version: 2.2.4+dfsg-1
   issues:
@@ -2718,12 +2686,6 @@ doc-linux-fr:
   version: 2013.01-2
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-doc-linux-hr:
-  version: 20000416.1
-  issues:
-    - ftbfs_old_compat_debheper_compat_level
-  bugs:
-    - 800210
 docbook-utils:
   version: 0.6.14-3
   issues:
@@ -3479,13 +3441,6 @@ flasm:
   version: 1.62-7
   issues:
     - timestamps_from_cpp_macros
-fldigi:
-  version: 3.22.01-1
-  comments: |
-    Embed build time, username, and hostname:
-    http://sources.debian.net/src/fldigi/3.22.01-1/m4/build.m4/?hl=78:85#L78
-    http://sources.debian.net/src/fldigi/3.22.01-1/src/flarq-src/flarqenv.cxx/?hl=277#L277
-    http://sources.debian.net/src/fldigi/3.22.01-1/src/main.cxx/?hl=1319#L1319
 fleet:
   version: 0.11.5+dfsg1-3
   bugs:
@@ -4815,10 +4770,6 @@ golang-github-hashicorp-yamux:
   version: 0.0~git20150917.0.ddcd0a6-1
   issues:
     - ftbfs_uninvestigated_test_failures
-golang-github-jacobsa-ogletest:
-  version: 0.0~git20150610-2
-  bugs:
-    - 803320
 golang-github-jacobsa-ratelimit:
   version: 0.0~git20150723.0.2ca5e0c-1
   bugs:
@@ -5019,10 +4970,9 @@ grml-debootstrap:
   issues:
     - timestamps_in_documentation_generated_by_asciidoc
 gromacs:
-  version: 5.1.1-2
+  version: 5.1.2-1
   comments: |
-    Embed build time, username, and hostname:
-    http://sources.debian.net/src/gromacs/5.0.2-1/cmake/gmxSetBuildInformation.cmake/
+    Randomness in Doxygen graph.
 groovebasin:
   version: 1.4.0-1
   comments: |
@@ -5251,10 +5201,6 @@ haskell-mode:
   version: 13.10-3
   issues:
     - timestamps_in_emacs_autoloads
-haskell-nettle:
-  version: 0.1.1-3
-  bugs:
-    - 814698
 haskell-yi-language:
   version: 0.2.0-1
   bugs:
@@ -5374,10 +5320,6 @@ hothasktags:
   version: 0.3.3-4
   bugs:
     - 811065
-hovercraft:
-  version: 2.0+dfsg-1
-  bugs:
-    - 813159
 hp-search-mac:
   version: 0.1.3
   issues:
@@ -5807,11 +5749,6 @@ jade:
   version: 1.2.1-47.3
   bugs:
     - 800291
-jadetex:
-  version: 3.13-14
-  issues:
-    - timestamps_in_pdf_content
-    - different_due_to_umask
 jakarta-jmeter:
   version: 2.11-2
   issues:
@@ -5957,10 +5894,6 @@ jedit:
   version: 5.3.0+dfsg-1
   bugs:
     - 816357
-jekyll:
-  version: 2.2.0+dfsg-2
-  bugs:
-    - 794139
 jenkins-dom4j:
   version: 1.6.1-jenkins-4-1
   issues:
@@ -6343,10 +6276,6 @@ keylaunch:
   version: 1.3.9
   bugs:
     - 805773
-keyrings.alt:
-  version: 1.1-1
-  bugs:
-    - 816306
 keyutils:
   version: 1.5.9-5
   comments: |
@@ -6455,30 +6384,14 @@ kodi:
   version: 14.2+dfsg1-2
   issues:
     - timestamps_from_cpp_macros
-kodi-pvr-dvbviewer:
-  version: 1.10.35+git20150717-1
-  bugs:
-    - 816580
 kodi-pvr-hts:
   version: 2.1.18-1
   bugs:
     - 816252
-kodi-pvr-mythtv:
-  version: 2.8.0+git20151119-1
-  bugs:
-    - 816581
 kodi-pvr-vdr-vnsi:
   version: 1.10.10-2
   bugs:
     - 816251
-kodi-pvr-vuplus:
-  version: 1.10.7+git20150717-1
-  bugs:
-    - 816582
-kodi-pvr-wmc:
-  version: 0.5.8+git20150717-1
-  bugs:
-    - 816583
 kombu:
   version: 3.0.30-1
   issues:
@@ -7564,10 +7477,6 @@ libpeas:
   version: 1.16.0-1
   bugs:
     - 802095
-libphone-ui-shr:
-  version: 0.1+git20130901-3
-  issues:
-    - different_pot_creation_date_in_gettext_mo_files
 libphonenumber:
   version: 7.1.0-1
   issues:
@@ -7825,10 +7734,6 @@ libtest-expect-perl:
   version: 0.33-1
   issues:
     - ftbfs_uninvestigated_test_failures
-libtest-file-contents-perl:
-  version: 0.22-1
-  bugs:
-    - 816824
 libtext-vimcolor-perl:
   version: 0.11-2
   bugs:
@@ -8091,10 +7996,6 @@ linbox:
   version: 1.3.2-1.1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-linkchecker:
-  version: 9.3-1
-  issues:
-    - timestamps_in_qch
 linpac:
   version: 0.23-1
   issues:
@@ -8606,10 +8507,6 @@ maven:
   version: 3.0.5-3
   issues:
     - random_order_in_plexus_comonents_xml
-maven-plugin-testing:
-  version: 1.3-2
-  issues:
-    - random_order_in_plexus_comonents_xml
 maven-scm:
   version: 1.3-5
   issues:
@@ -8646,10 +8543,6 @@ mdbtools:
   version: 0.7.1-4
   issues:
     - timestamps_in_manpages_generated_by_txt2man
-mdp:
-  version: 3.3+git19-g4ec2f29-1
-  bugs:
-    - 811470
 meanwhile:
   version: 1.0.2-7
   issues:
@@ -8672,10 +8565,6 @@ menulibre:
   version: 2.0.7-1
   bugs:
     - 811324
-mercurial:
-  version: 3.6.2-1
-  bugs:
-    - 809770
 meshlab:
   version: 1.3.2+dfsg1-2
   issues:
@@ -9028,10 +8917,6 @@ mpack:
   bugs:
     - 777376
     - 793706
-mpi4py:
-  version: 1.3.1+hg20131106-2
-  bugs:
-    - 788476
 mpich:
   version: 3.1-5
   issues:
@@ -9055,7 +8940,7 @@ mrpt:
     - timestamps_from_cpp_macros
     - blacklisted_on_jenkins_armhf_only
 mrrescue:
-  version: 1.02c-1
+  version: 1.02c-2
   issues:
     - different_due_to_umask
 mrtrix:
@@ -9412,10 +9297,6 @@ nickle:
   version: 2.77-1
   issues:
     - timestamps_in_pdf_generated_by_latex
-nifti2dicom:
-  version: 0.4.9-1
-  bugs:
-    - 793607
 nifticlib:
   version: 2.0.0-2
   issues:
@@ -9473,10 +9354,6 @@ node-crc:
   version: 3.0.0-2
   bugs:
     - 787924
-node-expat:
-  version: 2.3.1-1
-  bugs:
-    - 799774
 node-iscroll:
   version: 5.1.3+dfsg1-1
   comments: |
@@ -9486,10 +9363,6 @@ node-mapnik:
   version: 1.2.3-1
   bugs:
     - 791725
-node-mime-types:
-  version: 2.0.2-1
-  bugs:
-    - 796407
 node-mocha:
   version: 1.20.1-1
   bugs:
@@ -9852,10 +9725,6 @@ ognl:
   version: 2.7.3-6
   bugs:
     - 801855
-ohcount:
-  version: 3.0.0-8
-  bugs:
-    - 805674
 oidua:
   version: 0.16.1-7
   issues:
@@ -10037,8 +9906,6 @@ openmcdf:
   version: 1.5.4-1
   issues:
     - timestamps_in_pe_binaries
-  bugs:
-    - 809589
 openmeeg:
   version: 2.0.0.dfsg-5.2
   bugs:
@@ -10089,10 +9956,6 @@ openrpt:
   version: 3.3.7-1
   issues:
     - timestamps_from_cpp_macros
-opensips:
-  version: 2.1.1-1
-  bugs:
-    - 814196
 opensm:
   version: 3.3.18-1
   issues:
@@ -10762,10 +10625,6 @@ php-net-ftp:
   version: 1:1.4.0-1
   issues:
     - php_ftbfs_due_to_pear_pkg_tools
-php-net-ldap2:
-  version: 2.2.0-1
-  bugs:
-    - 809771
 php-net-nntp:
   version: 1.5.0-1
   issues:
@@ -10826,10 +10685,6 @@ php-react-promise:
   version: 2.2.1-1
   issues:
     - php_ftbfs_due_to_pear_pkg_tools
-php-redis:
-  version: 2.2.7-355-g799e0bc+2.2.7-2
-  issues:
-    - ftbfs_due_to_libtool
 php-rrd:
   version: 2.0.0+1.1.3-2
   issues:
@@ -11814,10 +11669,6 @@ python-heatclient:
   version: 0.8.0-3
   bugs:
     - 816735
-python-hglib:
-  version: 1.9-1
-  bugs:
-    - 814586
 python-html2text:
   version: 2015.6.21-1
   issues:
@@ -12046,10 +11897,6 @@ python-pip:
   version: 8.0.3-2
   bugs:
     - 816214
-python-positional:
-  version: 1.0.1-1
-  bugs:
-    - 816263
 python-psutil:
   version: 2.1.1-1
   issues:
@@ -12554,10 +12401,6 @@ r-cran-geepack:
   version: 1.2-0-1
   issues:
     - blacklisted_on_jenkins_armhf_only
-r-cran-httpuv:
-  version: 1.3.3-2
-  bugs:
-    - 814878
 r-cran-lambda.r:
   version: 1.1.7-2
   issues:
@@ -12975,14 +12818,6 @@ ruby-activerecord-nulldb-adapter:
   version: 0.3.1-1
   bugs:
     - 759918
-ruby-acts-as-list:
-  version: 0.7.2-3
-  bugs:
-    - 816482
-ruby-albino:
-  version: 1.3.3-3
-  bugs:
-    - 813644
 ruby-api-pagination:
   version: 4.2.0-1
   issues:
@@ -12995,10 +12830,6 @@ ruby-bdb:
   version: 0.6.6-1
   issues:
     - timestamps_in_ruby_documentation
-ruby-bluefeather:
-  version: 0.41-3
-  bugs:
-    - 794161
 ruby-buff-config:
   version: 1.0.1-1
   bugs:
@@ -13015,22 +12846,6 @@ ruby-celluloid:
   version: 0.16.0-2
   bugs:
     - 786669
-ruby-celluloid-extras:
-  version: 0.20.0-2
-  bugs:
-    - 810959
-ruby-celluloid-fsm:
-  version: 0.20.0-2
-  bugs:
-    - 810958
-ruby-celluloid-supervision:
-  version: 0.20.0-2
-  bugs:
-    - 810770
-ruby-clockwork:
-  version: 1.2.0-2
-  bugs:
-    - 816480
 ruby-compass:
   version: 1.0.3~dfsg-3
   issues:
@@ -13051,10 +12866,6 @@ ruby-dbus:
   version: 0.11.0-1
   issues:
     - timestamps_in_ruby_documentation
-ruby-default-value-for:
-  version: 3.0.1-1
-  bugs:
-    - 816120
 ruby-eim-xml:
   version: 0.0.4-3
   bugs:
@@ -13067,12 +12878,6 @@ ruby-em-http-request:
   version: 1.1.2-2
   issues:
     - blacklisted_on_jenkins_armhf_only
-ruby-em-synchrony:
-  version: 1.0.3-1
-  issues:
-    - blacklisted_on_jenkins_armhf_only
-  bugs:
-    - 800029
 ruby-encryptor:
   version: 1.3.0-1
   issues:
@@ -13085,24 +12890,6 @@ ruby-facets:
   version: 2.9.3-2
   issues:
     - random_order_in_ruby_rdoc_indices
-ruby-fast-gettext:
-  version: 0.9.2-1
-  bugs:
-    - 816253
-ruby-ffi-rzmq:
-  version: 2.0.1-1
-  issues:
-    - blacklisted_on_jenkins_armhf_only
-  bugs:
-    - 798934
-ruby-fssm:
-  version: 0.2.10-2
-  bugs:
-    - 795041
-ruby-github-linguist:
-  version: 4.7.2-1
-  bugs:
-    - 815908
 ruby-hipchat:
   version: 1.5.2-1
   bugs:
@@ -13119,14 +12906,6 @@ ruby-http-parser.rb:
   version: 0.6.0-2
   issues:
     - timestamps_in_ruby_documentation
-ruby-httpclient:
-  version: 2.3.3-3.1
-  bugs:
-    - 796738
-ruby-i18n:
-  version: 0.6.11-2
-  bugs:
-    - 784699
 ruby-innertube:
   version: 1.1.0-2
   bugs:
@@ -13135,10 +12914,6 @@ ruby-json-schema:
   version: 2.5.1-1
   issues:
     - fileorder_in_gemspec_files_list
-ruby-kakasi-ffi:
-  version: 1.0.1-1
-  bugs:
-    - 762133
 ruby-kgio:
   version: 2.9.3-1
   comments: |
@@ -13150,12 +12925,6 @@ ruby-markerb:
   version: 1.1.0-2
   issues:
     - fileorder_in_gemspec_files_list
-ruby-mathml:
-  version: 0.14-3
-  issues:
-    - timestamps_in_ruby_documentation
-  bugs:
-    - 797255
 ruby-mysql2:
   version: 0.3.18-1
   issues:
@@ -13170,18 +12939,6 @@ ruby-omniauth-crowd:
   version: 2.2.3-1
   bugs:
     - 814311
-ruby-packetfu:
-  version: 1.1.11-1
-  bugs:
-    - 816254
-ruby-parslet:
-  version: 1.6.1-1
-  bugs:
-    - 795046
-ruby-pdf-reader:
-  version: 1.3.3-1
-  bugs:
-    - 795763
 ruby-pg:
   version: 0.17.1-2
   issues:
@@ -13210,10 +12967,6 @@ ruby-redis:
   version: 3.1.0-1
   bugs:
     - 796013
-ruby-riddle:
-  version: 1.5.12-2
-  bugs:
-    - 816586
 ruby-rinku:
   version: 1.7.3-1
   issues:
@@ -13234,10 +12987,6 @@ ruby-rubymail:
   version: 1.1.0-2
   issues:
     - random_order_in_ruby_rdoc_indices
-ruby-safe-yaml:
-  version: 1.0.4-1
-  bugs:
-    - 816358
 ruby-sass:
   version: 3.4.21-1
   issues:
@@ -13254,10 +13003,6 @@ ruby-sigar:
   version: 0.7.2-3.1
   issues:
     - timestamps_from_cpp_macros
-ruby-simple-navigation:
-  version: 3.11.0-1
-  bugs:
-    - 795116
 ruby-sinatra:
   version: 1.4.6-2
   bugs:
@@ -13266,18 +13011,6 @@ ruby-slack-notifier:
   version: 1.2.1-1
   issues:
     - fileorder_in_gemspec_files_list
-ruby-solve:
-  version: 2.0.1-2
-  bugs:
-    - 816359
-ruby-sqlite3:
-  version: 1.3.9-2
-  bugs:
-    - 782884
-ruby-sshkit:
-  version: 1.7.1-1
-  bugs:
-    - 795118
 ruby-standalone:
   version: 0.5.1
   comments: |
@@ -13286,10 +13019,6 @@ ruby-state-machines:
   version: 0.4.0-2
   issues:
     - blacklisted_on_jenkins_armhf_only
-ruby-test-after-commit:
-  version: 0.2.3+gh-1
-  bugs:
-    - 808515
 ruby-test-unit-context:
   version: 0.5.0-1
   bugs:
@@ -13298,14 +13027,6 @@ ruby-thinking-sphinx:
   version: 3.1.4-3
   bugs:
     - 816307
-ruby-thread-safe:
-  version: 0.3.3-1
-  bugs:
-    - 800057
-ruby-tinder:
-  version: 1.10.1-1
-  bugs:
-    - 816255
 ruby-tioga:
   version: 1.18-1
   issues:
@@ -13318,22 +13039,10 @@ ruby-varia-model:
   version: 0.5.0-1
   bugs:
     - 816843
-ruby-versionomy:
-  version: 0.4.4-1
-  bugs:
-    - 816256
-ruby-webmock:
-  version: 1.19.0-1
-  bugs:
-    - 765113
 ruby-wikicloth:
   version: 0.8.1+dfsg-2
   issues:
     - timestamps_in_ruby_documentation
-ruby-zentest:
-  version: 4.9.5-1
-  bugs:
-    - 816162
 ruby-zip:
   version: 1.1.7-1
   issues:
@@ -13350,10 +13059,6 @@ rumor:
   version: 1.0.5-2
   bugs:
     - 788618
-runawk:
-  version: 1.6.0-1
-  bugs:
-    - 816206
 runc:
   version: 0.0.4~dfsg-1
   issues:
@@ -14071,10 +13776,6 @@ spyder:
   version: 2.3.6+dfsg1-1
   issues:
     - ftbfs_uninvestigated_test_failures
-spykeutils:
-  version: 0.4.1-1
-  bugs:
-    - 815399
 sqlalchemy:
   version: 0.9.8+dfsg-0.1
   issues:
@@ -14228,10 +13929,6 @@ substance:
   version: 5.3-3
   issues:
     - timestamp_in_java_bnd_manifest
-subtle:
-  version: 0.11.3224-xi-2.1
-  bugs:
-    - 804794
 sunflow:
   version: 0.07.2.svn396+dfsg-14
   issues:
@@ -14391,10 +14088,6 @@ systemtap:
   version: 2.9-1
   issues:
     - different_encoding_in_html_by_docbook_xsl
-systraq:
-  version: 0.0.20081217-7
-  issues:
-    - different_encoding
 tachyon:
   version: 0.99~b6+dsx-3
   comments: |
@@ -14795,10 +14488,6 @@ triplea:
     The Java MANIFEST.MF file has a list of SHA-1 digests in random order.
   issues:
     - timestamps_in_png
-trocla:
-  version: 0.1.2-1
-  bugs:
-    - 816257
 trove:
   version: 2.1.0-2
   issues:
@@ -15134,6 +14823,10 @@ urweb:
   version: 20150214+dfsg-1
   issues:
     - fonts_in_pdf_files
+usb-modeswitch-data:
+  version: 20160112-2
+  issues:
+    - random_order_in_tarball
 userv:
   version: 1.1.1
   issues:
@@ -15493,12 +15186,6 @@ why:
     https://sources.debian.net/src/why/2.34-2/version.sh/
   bugs:
     - 807051
-wikidiff2:
-  version: 1.2+git03ea59f-1
-  issues:
-    - ftbfs_due_to_libtool
-  bugs:
-    - 814212
 wily:
   version: 0.13.41-7.2
   issues:
