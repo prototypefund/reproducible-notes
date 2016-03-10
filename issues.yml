@@ -747,6 +747,10 @@ docbook2txt_locale:
   description: |
     docbook2txt varies output based on locale, usually with non-ascii chars.
   deterministic: True
+xmlto_txt_output_locale_specific:
+  description: |
+    xmlto "txt" output based on locale.
+  deterministic: True
 texinfo_mdate_sh_varies_by_timezone:
   description:
     If you use version.texi, mdate-sh will output a TZ-sensitive updated date.
