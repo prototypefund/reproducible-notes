@@ -3320,6 +3320,10 @@ fdclone:
   version: 3.01b-1
   issues:
     - build_id_variation_requiring_further_investigation
+fdroidserver:
+  version: 0.6.0-2
+  comments: |
+    random order caused by shell expansion in docs/gendocs.sh
 fedmsg:
   version: 0.9.3-1
   comments: |
