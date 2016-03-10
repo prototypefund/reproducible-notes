@@ -9244,6 +9244,8 @@ ncompress:
     https://sources.debian.net/src/ncompress/4.2.4.4-9/Makefile.def/?hl=41#L41
 ncurses:
   version: 6.0+20160213-1
+  comments: |
+    see man/MKterminfo.sh
   issues:
     - nroff_output_varies_by_locale_or_utf8
 ndiswrapper:
