@@ -14,6 +14,10 @@
   version: 1.1.4-1
   issues:
     - different_pot_creation_date_in_gettext_mo_files
+4ti2:
+  version: 1.6.7+ds-2
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 a2ps:
   version: 1:4.14-1.3
   comments: |
@@ -1650,6 +1654,10 @@ clhep:
   version: 2.1.4.1-1.1
   bugs:
     - 794398
+cli-common:
+  version: 0.9+nmu1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 clipper:
   version: 2.1.20130601-2
   bugs:
@@ -2265,6 +2273,10 @@ dbar:
   version: 0.0.20100524-3
   bugs:
     - 782209
+dbconfig-common:
+  version: 2.0.3
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 dbf:
   version: 0.96.003-1
   issues:
@@ -2453,6 +2465,10 @@ debmake-doc:
     Dynamically includes generates directory listings with umask, etc.
   issues:
     - fonts_in_pdf_files
+debomatic:
+  version: 0.21-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 debram:
   version: 2.0.0.4
   bugs:
@@ -4037,6 +4053,10 @@ gant:
   version: 1.9.9-3
   issues:
     - user_in_java_jar_manifest
+gap:
+  version: 4r7p9-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 gap-alnuth:
   version: 3.0.0-1
   issues:
@@ -4056,10 +4076,26 @@ gap-ctbllib:
   issues:
     - timestamps_in_gzip_headers
     - timestamps_in_pdf_generated_by_latex
+gap-float:
+  version: 0.6.3+ds-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 gap-gapdoc:
   version: 1.5.1-2
   issues:
     - timestamps_in_gzip_headers
+    - timestamps_in_pdf_generated_by_latex
+gap-guava:
+  version: 3.12+ds1-3
+  issues:
+    - timestamps_in_pdf_generated_by_latex
+gap-io:
+  version: 4.4.5+ds-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
+gap-openmath:
+  version: 11.3.1+ds-1
+  issues:
     - timestamps_in_pdf_generated_by_latex
 gap-polycyclic:
   version: 2.11-1
@@ -4068,6 +4104,10 @@ gap-polycyclic:
     - timestamps_in_gzip_headers
 gap-radiroot:
   version: 2.7-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
+gap-scscp:
+  version: 2.1.4+ds-1
   issues:
     - timestamps_in_pdf_generated_by_latex
 garcon:
@@ -5075,6 +5115,10 @@ gstreamer1.0:
   version: 1.6.3-1
   bugs:
     - 817027
+gtg-trace:
+  version: 0.2-2+dfsg-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 gthumb:
   version: 3:3.4.1-2
   issues:
@@ -5207,6 +5251,10 @@ h2database:
   version: 1.4.185-1
   issues:
     - timestamps_in_zip
+hamradio-maintguide:
+  version: 0.1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 handbrake:
   version: 0.10.2+ds1-1
   comments: |
@@ -6360,6 +6408,10 @@ kimwitu++:
   version: 2.3.13-2
   issues:
     - pdf_created_by_ghostscript
+kimwitu-doc:
+  version: 10a+1-2.2
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 kindleclip:
   version: 0.5-1
   bugs:
@@ -6448,6 +6500,10 @@ kparts:
   version: 5.16.0-1
   bugs:
     - 814699
+krb5:
+  version: 1.13.2+dfsg-5
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 krename:
   version: 4.0.9-3
   issues:
@@ -7644,6 +7700,10 @@ librevenge:
   version: 0.0.4-1
   comments: |
     umask differences in dbgsym but not clear where from - package is somewhat simple
+librostlab-blast:
+  version: 1.0.1-5
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 librsvg:
   version: 2.40.13-2
   issues:
@@ -7742,6 +7802,10 @@ libstring-shellquote-perl:
   version: 1.03-1.1
   bugs:
     - 800302
+libstxxl:
+  version: 1.4.1-2
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 libswe-doc:
   version: 1.80.00.0001-1
   issues:
@@ -8712,6 +8776,10 @@ miniupnpd:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/miniupnpd/1.8.20140523-4/genconfig.sh/#L45
+minizinc:
+  version: 2.0.11+dfsg1-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 minlog:
   version: 4.0.99.20100221-5.2
   issues:
@@ -9902,6 +9970,10 @@ openid4java:
   version: 0.9.6.662-2
   issues:
     - locale_in_documentation_generated_by_javadoc
+openimageio:
+  version: 1.6.11~dfsg0-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 openjade1.3:
   version: 1.3.2-13
   issues:
@@ -11168,6 +11240,10 @@ prima:
   version: 1.28-1.3
   bugs:
     - 778951
+primesieve:
+  version: 5.6.0+ds-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 primrose:
   version: 6+dfsg1-3
   bugs:
@@ -11819,6 +11895,10 @@ python-muranoclient:
   version: 0.7.1-3
   bugs:
     - 816735
+python-mzml:
+  version: 0.7.4-dfsg-3
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 python-netaddr:
   version: 0.7.18-1
   bugs:
@@ -11986,6 +12066,10 @@ python-pymummer:
   version: 0.6.1-1
   issues:
     - blacklisted_on_jenkins_armhf_only
+python-pymzml:
+  version: 0.7.6-dfsg-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 python-pypump:
   version: 0.6-1
   issues:
@@ -13868,6 +13952,10 @@ sra-sdk:
   version: 2.3.5-2+dfsg-1
   issues:
     - timestamps_from_cpp_macros
+srtp:
+  version: 1.4.5~20130609~dfsg-1.1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 sslscan:
   version: 1.8.2-2
   bugs:
@@ -13900,6 +13988,10 @@ starlet:
   version: 0.26-1
   issues:
     - ftbfs_uninvestigated_test_failures
+starlink-ast:
+  version: 8.0.7+dfsg-1
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 starlink-pal:
   version: 0.5.0-3
   bugs:
@@ -14219,6 +14311,10 @@ tcllib:
   version: 1.17-dfsg-1
   issues:
     - different_encoding
+tcltk-defaults:
+  version: 8.6.0+9
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 tclxml:
   version: 3.3~svn11-3
   issues:
@@ -14976,6 +15072,10 @@ velocity-tools:
   version: 2.0-3
   issues:
     - locale_in_documentation_generated_by_javadoc
+velvet:
+  version: 1.2.10+dfsg1-3
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 verbiste:
   version: 0.1.42-2
   bugs:
