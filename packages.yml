@@ -5146,9 +5146,11 @@ guitarix:
   issues:
     - build_id_variation_requiring_further_investigation
 gummiboot:
-  version: 45-2
+  version: 48-1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
+  bugs:
+    - 777892
 gurgitate-mail:
   version: 1.10.0-1
   bugs:
@@ -9169,11 +9171,11 @@ netgen:
   issues:
     - captures_shell_variable_in_autofoo_script
 nethack:
-  version: 3.4.3-15
+  version: 3.6.0-1
   issues:
     - timestamps_from_cpp_macros
-    - timestamps_in_gzip_headers
-    - different_due_to_umask
+  bugs:
+    - 818128
 netmaze:
   version: 0.81+jpg0.82-14.1
   issues:
