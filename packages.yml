@@ -183,8 +183,8 @@ aiozmq:
     - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
 aircrack-ng:
   version: 1:1.2-0~beta3-4
-  issues:
-    - build_id_variation_requiring_further_investigation
+  bugs:
+    - 818230
 akuma:
   version: 1.9-1
   comments: |
