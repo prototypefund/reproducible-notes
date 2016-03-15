@@ -252,8 +252,6 @@ anarchism:
   version: 14.0-4
   issues:
     - lynx_dump_varies_output_with_locale
-  bugs:
-    - 800007
 android-platform-libcore:
   version: 6.0.1+r10-1
   issues:
@@ -4876,10 +4874,6 @@ gpick:
   comments: |
     Embed build time:
     https://sources.debian.net/src/gpick/0.2.5-1/tools/gpick.py/?hl=141:151#L141
-gpivtools:
-  version: 0.6.0-3.1
-  bugs:
-    - 798998
 gprbuild:
   version: 2014dfsg-1
   comments: |
@@ -5794,10 +5788,6 @@ jamnntpd:
   version: 1.2-1
   issues:
     - timestamps_from_cpp_macros
-janest-core-extended:
-  version: 113.00.00-2
-  bugs:
-    - 813463
 janino:
   version: 2.7.0-2
   issues:
@@ -6224,10 +6214,6 @@ kdesignerplugin:
   version: 5.14.0-1
   issues:
     - build_id_variation_requiring_further_investigation
-kdesvn:
-  version: 1.6.0-3
-  bugs:
-    - 800098
 kdevelop:
   version: 4:4.7.0-1
   issues:
@@ -7719,10 +7705,6 @@ libswingx1-java:
   version: 1:1.0-1
   issues:
     - locale_in_documentation_generated_by_javadoc
-libsyncml:
-  version: 0.5.4-2.2
-  bugs:
-    - 794225
 libsynthesis:
   version: 3.4.0.47.4-2
   bugs:
@@ -8647,10 +8629,6 @@ mimelib1:
   version: 5:1.1.4-2
   issues:
     - ftbfs_due_to_libtool
-mimeo:
-  version: 1.3.9-3
-  bugs:
-    - 810633
 mimetic:
   version: 0.9.8-4
   issues:
@@ -9523,10 +9501,6 @@ numad:
   version: 0.5+20150602-1
   issues:
     - timestamps_from_cpp_macros
-numexpr:
-  version: 2.4.3-1
-  bugs:
-    - 813643
 nunit:
   version: 2.6.3+dfsg-1
   issues:
@@ -11937,10 +11911,6 @@ python-pyftpdlib:
   version: 1.2.0-1
   bugs:
     - 790274
-python-pygit2:
-  version: 0.23.0-1
-  bugs:
-    - 809246
 python-pymummer:
   version: 0.6.1-1
   issues:
@@ -12955,10 +12925,6 @@ ruby-mysql2:
     - blacklisted_on_jenkins_armhf_only
   bugs:
     - 796516
-ruby-net-ssh:
-  version: 1:2.9.2-2
-  bugs:
-    - 812736
 ruby-omniauth-crowd:
   version: 2.2.3-1
   bugs:
@@ -13145,12 +13111,6 @@ sailcut:
   version: 1.3.6-1
   comments: |
     Generates PNGs with inkscape, dot, etc. Content-related, so probably caused by dot.
-salmon:
-  version: 0.4.2+ds1-1
-  comments: |
-    Captures numcpus in manpage as its generated from default arguments.
-  bugs:
-    - 813994
 salt:
   version: 2014.1.13+ds-1
   comments: |
