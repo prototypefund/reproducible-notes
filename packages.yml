@@ -2395,6 +2395,8 @@ debian-keyring:
   version: 2015.08.13
   issues:
     - random_order_in_md5sums
+  bugs:
+    - 818111
 debian-parl:
   version: 1.0.9
   bugs:
@@ -8748,6 +8750,10 @@ mod-gnutls:
   version: 0.7-1
   issues:
     - ftbfs_uninvestigated_test_failures
+modernizr:
+  version: 2.6.2+ds1-1
+  bugs:
+    - 817979
 modglue:
   version: 1.17-2.2
   comments: |
@@ -10634,6 +10640,10 @@ php-patchwork-jsqueeze:
   version: 2.0.3-1
   issues:
     - php_ftbfs_due_to_pear_pkg_tools
+php-pear:
+  version: 1:1.10.1+submodules+notgz-3
+  bugs:
+    - 805222
 php-pecl-http:
   version: 2.0.4-1
   issues:
@@ -11778,6 +11788,7 @@ python-numpy:
     - 813429
     - 813932
     - 816369
+    - 816574
 python-odf:
   version: 1.3.1+dfsg-1
   issues:
@@ -13361,6 +13372,10 @@ sgrep:
   version: 1.94a-4
   issues:
     - timestamps_from_cpp_macros
+shadow:
+  version: 1:4.2-3.1
+  bugs:
+    - 817971
 shapelib:
   version: 1.3.0-5
   issues:
@@ -13598,6 +13613,10 @@ snake4:
   comments: |
     Embed build timestamp and username:
     https://sources.debian.net/src/snake4/1.0.14-1/Makefile/?hl=8:9,59:63#L8
+snapper:
+  version: 0.2.4-1
+  bugs:
+    - 818027
 sniffit:
   version: 0.3.7.beta-17
   issues:
