@@ -2120,6 +2120,10 @@ cvs2svn:
   comments: |
     Embeds locale-dependent timestamps into manpage with its own generator.
     https://sources.debian.net/src/cvs2svn/2.4.0-2/cvs2svn_lib/man_writer.py/#L96
+cvsutils:
+  version: 0.2.5-1
+  issues:
+    - captures_shell_variable_in_autofoo_script
 cvxopt:
   version: 1.1.4-1.3
   comments: |
@@ -8373,6 +8377,10 @@ maildirsync:
     - different_due_to_umask
   bugs:
     - 776933
+maildrop:
+  version: 2.8.3-0.1
+  issues:
+    - captures_shell_variable_in_autofoo_script
 mailfilter:
   version: 0.8.3-1
   issues:
