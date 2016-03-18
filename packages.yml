@@ -5376,6 +5376,10 @@ http-icons:
   comments: |
     GIF images are optimized while building by converting to PNM and back to GIF.
     The conversion back to GIF introduces the variation.
+httpfs2:
+  version: 0.1.4-1
+  bugs:
+    - 818563
 httpunit:
   version: 1.7+dfsg-11
   issues:
