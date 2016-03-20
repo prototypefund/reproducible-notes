@@ -78,13 +78,10 @@ actiona:
   issues:
     - timestamps_from_cpp_macros
 activemq:
-  version: 5.6.0+dfsg1-4
-  comments: |
-    also timestamps_in_maven_pom_files, probably fixed by a rebuild
+  version: 5.13.2+dfsg-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
-  bugs:
-    - 808636
+    - timestamps_generated_by_xbean_spring
 actor-framework:
   version: 0.13.2-3
   issues:
@@ -267,10 +264,6 @@ angband:
   version: 3.3.2-2.1
   issues:
     - timestamps_in_pdf_generated_by_latex
-angular.js:
-  version: 1.3.20-1
-  bugs:
-    - 815865
 anjuta:
   version: 2:3.14.0-1
   issues:
@@ -4464,14 +4457,6 @@ git:
     - timestamps_in_documentation_generated_by_asciidoc
   bugs:
     - 813912
-git-annex:
-  version: 5.20151208-1
-  bugs:
-    - 813078
-git-build-recipe:
-  version: 0.3.1
-  bugs:
-    - 818141
 git-buildpackage:
   version: 0.6.22
   issues:
@@ -5071,10 +5056,6 @@ gstreamer0.10:
   version: 0.10.36-1.5
   bugs:
     - 817026
-gstreamer1.0:
-  version: 1.6.3-1
-  bugs:
-    - 817027
 gtg-trace:
   version: 0.2-2+dfsg-1
   issues:
@@ -5241,10 +5222,6 @@ haskell-haddock-library:
   version: 1.2.1-2
   bugs:
     - 815287
-haskell-http2:
-  version: 1.5.2-1
-  bugs:
-    - 818143
 haskell-mode:
   version: 13.10-3
   issues:
@@ -6216,10 +6193,6 @@ kcov:
   version: 25+dfsg-1
   bugs:
     - 790912
-kdbg:
-  version: 2.5.4-1
-  bugs:
-    - 808760
 kde4libs:
   version: 4:4.14.2-5
   comments: |
@@ -10690,10 +10663,6 @@ php-patchwork-jsqueeze:
   version: 2.0.3-1
   issues:
     - php_ftbfs_due_to_pear_pkg_tools
-php-pear:
-  version: 1:1.10.1+submodules+notgz-3
-  bugs:
-    - 805222
 php-pecl-http:
   version: 2.0.4-1
   issues:
@@ -10882,8 +10851,6 @@ pinball:
   version: 0.3.1-13.2
   issues:
     - timestamps_in_manpages_generated_by_docbook_utils
-  bugs:
-    - 816108
 pink-pony:
   version: 1.4.1-1
   bugs:
@@ -10977,7 +10944,7 @@ plib-doc:
   bugs:
     - 778971
 plinth:
-  version: 0.5-1
+  version: 0.8.2-1
   bugs:
     - 800816
 plm:
@@ -12235,10 +12202,6 @@ qsampler:
   version: 0.2.2-5
   issues:
     - timestamps_from_cpp_macros
-qsf:
-  version: 1.2.7-1
-  bugs:
-    - 790457
 qsopt-ex:
   version: 2.5.10.3-1
   issues:
@@ -12858,18 +12821,10 @@ rtslib:
   version: 3.0+git0.86e46bc6-5
   issues:
     - use_epydoc
-ruby-actionpack-xml-parser:
-  version: 1.0.2-1
-  bugs:
-    - 818151
 ruby-activerecord-deprecated-finders:
   version: 1.0.4-1
   bugs:
     - 816660
-ruby-activerecord-nulldb-adapter:
-  version: 0.3.1-1
-  bugs:
-    - 759918
 ruby-amqp:
   version: 1.5.1-4
   bugs:
@@ -13041,10 +12996,6 @@ ruby-toml:
   version: 0.1.2-3
   bugs:
     - 818155
-ruby-typhoeus:
-  version: 0.8.0-1
-  bugs:
-    - 816360
 ruby-wikicloth:
   version: 0.8.1+dfsg-2
   issues:
@@ -14458,10 +14409,6 @@ topal:
     http://sources.debian.net/src/topal/75-2/Makefile/?hl=19#L19
   issues:
     - timestamps_in_pdf_generated_by_latex
-topmenu-gtk:
-  version: 0.2.1+git20151210.8c6108f-2
-  bugs:
-    - 816308
 toppred:
   version: 1.10-1
   issues:
@@ -15601,10 +15548,6 @@ xotcl:
   version: 1.6.8-1
   bugs:
     - 797543
-xpra:
-  version: 0.14.9+dfsg-1
-  bugs:
-    - 806974
 xserver-xorg-input-aiptek:
   version: 1:1.4.1-1
   bugs:

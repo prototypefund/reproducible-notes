@@ -1014,3 +1014,7 @@ varying_ordering_in_data_tar_gz_or_control_tar_gz:
 php_ftbfs_due_to_pear_pkg_tools:
   description: |
     Temporary FTBFS grouping
+timestamps_generated_by_xbean_spring:
+  description: |
+    xbean-spring adds timestamps to files it adds in META-INF.
+  deterministic: True
