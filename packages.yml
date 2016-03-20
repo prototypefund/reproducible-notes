@@ -14152,6 +14152,18 @@ tbb:
     Build ran for more than 36h...
   issues:
     - blacklisted_on_jenkins
+tcl8.4:
+  version: 8.4.20-8
+  bugs:
+    - 818752
+tcl8.5:
+  version: 8.5.19-1
+  bugs:
+    - 818751
+tcl8.6:
+  version: 8.6.5+dfsg-1
+  bugs:
+    - 818750
 tclap:
   version: 1.2.1-1
   issues:
@@ -14353,6 +14365,18 @@ tircd:
   version: 0.30-1
   issues:
     - different_due_to_umask
+tk8.4:
+  version: 8.4.20-8
+  bugs:
+    - 818755
+tk8.5:
+  version: 8.5.19-1
+  bugs:
+    - 818754
+tk8.6:
+  version: 8.6.5-1
+  bugs:
+    - 818753
 tkgate:
   version: 2.0~b10-4
   issues:
