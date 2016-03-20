@@ -1133,6 +1133,10 @@ bnd:
     - timestamps_in_jar
     - timestamp_in_java_bnd_manifest
     - timezones_manpages_podman
+bobcat:
+  version: 4.01.04-1
+  issues:
+    - random_order_in_static_libraries
 bogofilter:
   version: 1.2.4+dfsg1-4
   bugs:
@@ -1247,6 +1251,10 @@ bullet:
   version: 2.83.5+dfsg-1
   issues:
     - undeterministic_symlinking_by_rdfind
+bulletml:
+  version: 0.0.6-6.1
+  issues:
+    - random_order_in_static_libraries
 bwctl:
   version: 1.4.1~rc2-1
   issues:
@@ -1970,6 +1978,10 @@ cppreference-doc:
   version: 20151129+dfsg0-1
   bugs:
     - 774537
+cppunit:
+  version: 1.13.2-2.1
+  issues:
+    - captures_shell_variable_in_autofoo_script
 crack:
   version: 5.0a-9.3
   comments: |
@@ -3464,6 +3476,10 @@ flasm:
   version: 1.62-7
   issues:
     - timestamps_from_cpp_macros
+fleet:
+  version: 0.11.5+dfsg1-4
+  issues:
+    - diffoscope_runs_forever
 flex:
   version: 2.6.0-11
   issues:
@@ -3966,6 +3982,10 @@ ftplib:
   comments: |
     Embeds the build date into manpages.
     https://sources.debian.net/src/ftplib/3.1-1-9/debian/html2man.py/#L86-L87
+fuji:
+  version: 0.3.0-1
+  issues:
+    - random_build_path_by_golang_compiler
 funny-manpages:
   version: 1.3-5.1
   bugs:
@@ -5100,6 +5120,10 @@ gtkpod:
   version: 2.1.4-4
   issues:
     - timestamps_from_cpp_macros
+gtkspell:
+  version: 2.0.16-1.1
+  issues:
+    - captures_shell_variable_in_autofoo_script
 gtools:
   version: 3.5.0-1
   issues:
@@ -5450,6 +5474,10 @@ i3-wm:
   version: 4.10.4-1
   issues:
     - timestamps_in_documentation_generated_by_asciidoc
+i3blocks:
+  version: 1.4-1
+  issues:
+    - timestamps_in_manpages_generated_by_ronn
 ibus:
   version: 1.5.11-1
   issues:
@@ -7816,6 +7844,10 @@ libuninum:
   version: 2.7-1.1
   issues:
     - timestamps_from_cpp_macros
+liburcu:
+  version: 0.9.1-3
+  issues:
+    - captures_shell_variable_in_autofoo_script
 libusb-java:
   version: 0.8+ztex20090101-7
   issues:
@@ -8899,6 +8931,10 @@ mozvoikko:
   comments: |
     Calling zip without normalizing timezone.
     https://sources.debian.net/src/mozvoikko/2.0.1-1/Makefile/#L21
+mp3blaster:
+  version: 1:3.2.5-3
+  issues:
+    - captures_shell_variable_in_autofoo_script
 mp3fs:
   version: 0.91-1
   comments: |
@@ -11305,6 +11341,13 @@ pyfai:
   version: 0.11.0+dfsg-3
   issues:
     - build_id_variation_requiring_further_investigation
+pyferret:
+  version: 1.2.0-1
+  comments: |
+    Captures kernel version and build date.
+    https://sources.debian.net/src/pyferret/1.2.0-1/fer/Makefile/#L16-L18
+  issues:
+    - captures_kernel_version
 pyfits:
   version: 1:3.3-2
   comments: |
@@ -12407,6 +12450,10 @@ qxmpp:
   version: 0.9.3-1
   issues:
     - different_encoding
+r10k:
+  version: 2.1.1-2
+  issues:
+    - timestamps_in_manpages_generated_by_ronn
 r-base:
   version: 3.1.2-2
   issues:
@@ -12499,6 +12546,10 @@ radiance:
     - different_due_to_umask
     - users_and_groups_in_tarball
     - timestamps_in_tarball
+ragel:
+  version: 6.8-1
+  issues:
+    - captures_shell_variable_in_autofoo_script
 rakudo:
   version: 2015.09-2
   issues:
@@ -14207,6 +14258,10 @@ tcpwatch-httpproxy:
     - timestamps_in_gzip_headers
   bugs:
     - 776969
+telepathy-python:
+  version: 0.15.19-2.1
+  issues:
+    - captures_shell_variable_in_autofoo_script
 telepathy-salut:
   version: 0.8.1-4
   issues:
@@ -14442,6 +14497,10 @@ topmenu-gtk:
   version: 0.2.1+git20151210.8c6108f-2
   bugs:
     - 816308
+toppred:
+  version: 1.10-1
+  issues:
+    - captures_shell_variable_in_autofoo_script
 tor:
   version: 0.2.6.7-1
   issues:
