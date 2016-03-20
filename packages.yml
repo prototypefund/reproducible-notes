@@ -12951,6 +12951,12 @@ ruby-rails-autolink:
   version: 1.1.6-1
   bugs:
     - 808517
+ruby-rails-deprecated-sanitizer:
+  version: 1.0.3-1
+  issues:
+    - fileorder_in_gemspec_files_list
+  bugs:
+    - 818719
 ruby-redis:
   version: 3.1.0-1
   bugs:
