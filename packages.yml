@@ -2761,10 +2761,6 @@ dot-forward:
     - different_due_to_umask
   bugs:
     - 776760
-doublecmd:
-  version: 0.6.6-1
-  bugs:
-    - 803984
 doxia:
   version: 1.1.4-2
   issues:
@@ -3427,11 +3423,6 @@ firebird3.0:
   version: 3.0.0~svn+53030.ds3-1
   issues:
     - timezones_manpages_podman
-firefox-esr:
-  version: 45.0esr-1
-  comments: |
-    Timezone variation when creating stamp
-    /usr/include/firefox-esr-45/.mkdir.done
 firefox-kwallet5:
   version: 1.0-1
   comments: |
@@ -6583,10 +6574,6 @@ le-dico-de-rene-cougnenc:
   version: 1.3-2.1
   bugs:
     - 800206
-leafpad:
-  version: 0.8.18.1-4
-  bugs:
-    - 786711
 leaktracer:
   version: 2.4-5
   issues:
@@ -7666,10 +7653,6 @@ libsdl-console:
   version: 2.1-4
   issues:
     - captures_shell_variable_in_autofoo_script
-libsdl1.2:
-  version: 1.2.15-12
-  issues:
-    - timestamps_in_tarball
 libsdl2-gfx:
   version: 1.0.1+dfsg-3
   issues:
@@ -10310,10 +10293,6 @@ pavuk:
   comments: |
     Embeds the build date in binary and manpage.
     https://sources.debian.net/src/pavuk/0.9.35-3/configure.in/#L8
-pbsim:
-  version: 1.0.3-1
-  issues:
-    - timestamps_in_manpages_generated_by_ronn
 pcb:
   version: 20140316-3
   issues:
@@ -10867,11 +10846,6 @@ phpwebcounter:
   version: 1.0-3
   issues:
     - different_due_to_umask
-phyml:
-  version: 2:20120412-2
-  comments: |
-    Embeds the build date.
-    https://sources.debian.net/src/phyml/2:20120412-2/configure.ac/#L5
 picard-tools:
   version: 1.138+dfsg.1-1
   issues:
@@ -11238,13 +11212,6 @@ psicode:
   version: 3.4.0-5
   issues:
     - timestamps_from_cpp_macros
-psocksxx:
-  version: 0.0.6-2
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
-  bugs:
-    - 789399
-    - 802523
 pspp:
   version: 0.8.4-1
   comments: |
@@ -12651,10 +12618,6 @@ realmd:
   version: 0.16.2-1
   issues:
     - ftbfs_uninvestigated_test_failures
-reapr:
-  version: 1.0.18+dfsg-1
-  issues:
-    - timestamps_in_manpages_generated_by_ronn
 rebar:
   version: 2.6.0-1
   comments: |
@@ -12860,10 +12823,6 @@ routino:
   version: 2.7.3-3
   comments: |
     Uses Perl::Magick to write deterministic-looking PNGs presumably with timetamps, but strip-nondeterminism should strip them
-rows:
-  version: 0.1.1-2
-  bugs:
-    - 816230
 rp-pppoe:
   version: 3.8-3
   issues:
@@ -13374,10 +13333,6 @@ seqan:
   version: 1.4.1+dfsg-2
   bugs:
     - 809058
-seqprep:
-  version: 1.1-4
-  bugs:
-    - 818431
 service-wrapper-java:
   version: 3.5.25-2
   issues:
@@ -13987,10 +13942,6 @@ sublib:
   version: 0.9-4
   issues:
     - timestamps_in_pe_binaries
-subliminal:
-  version: 0.7.4-1
-  bugs:
-    - 773381
 subread:
   version: 1.4.6-p5+dfsg-1
   issues:
@@ -14748,10 +14699,6 @@ tzc:
   version: 2.6.15-5.3
   bugs:
     - 800220
-tzdata:
-  version: 2016a-1
-  bugs:
-    - 814073
 uanytun:
   version: 0.3.5-1
   comments: |
