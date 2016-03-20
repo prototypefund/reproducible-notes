@@ -3185,8 +3185,11 @@ esys-particle:
     - use_epydoc
 eurephia:
   version: 1.1.0-5
+  comments: |
+    Embeds build date, kernel version, hostname.
+    https://sources.debian.net/src/eurephia/1.1.0-5/eurephiadm/mk_buildinfo.sh/
   issues:
-    - build_id_variation_requiring_further_investigation
+    - captures_kernel_version
 evernote-mode:
   version: 0.41-3.1
   issues:
@@ -8495,8 +8498,11 @@ maria:
     - randomness_in_html_generated_by_texi2html
 marionnet:
   version: 0.90.6+bzr457-1
+  comments: |
+    Embeds kernel version and build date.
+    https://sources.debian.net/src/marionnet/0.90.6%2Bbzr457-1/Makefile/#L907-L908
   issues:
-    - build_id_variation_requiring_further_investigation
+    - captures_kernel_version
 masscan:
   version: 1.0.3-90-g2441f18~ds0-1
   issues:
@@ -10505,6 +10511,10 @@ php-adodb:
   version: 5.04-7
   issues:
     - ftbfs_due_to_libtool
+php-amqp:
+  version: 1.7.0~alpha2-4
+  issues:
+    - timestamps_from_cpp_macros
 php-apcu:
   version: 4.0.10-1
   issues:
@@ -15652,6 +15662,11 @@ xserver-xorg-input-aiptek:
   version: 1:1.4.1-1
   bugs:
     - 813359
+xserver-xorg-video-openchrome:
+  version: 1:0.3.3+git20160310-1
+  comments: |
+    Embeds the build date.
+    https://sources.debian.net/src/xserver-xorg-video-openchrome/1:0.3.3%2Bgit20160310-1/src/Makefile.am/?hl=117#L117
 xshisen:
   version: 1:1.51-4.1
   comments: |
