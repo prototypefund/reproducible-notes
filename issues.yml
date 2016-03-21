@@ -1018,3 +1018,8 @@ timestamps_generated_by_xbean_spring:
   description: |
     xbean-spring adds timestamps to files it adds in META-INF.
   deterministic: True
+timestamps_generated_by_mangosdk_spiprocessor:
+  description: |
+    org.mangosdk.spi.processor.SpiProcessor adds timestamps to files it creates
+    in META-INF.
+  deterministic: True
