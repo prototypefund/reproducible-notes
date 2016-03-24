@@ -3415,12 +3415,6 @@ firebird3.0:
   version: 3.0.0~svn+53030.ds3-1
   issues:
     - timezones_manpages_podman
-firefox-kwallet5:
-  version: 1.0-1
-  comments: |
-    Calls zip manually, which embeds build timestamps.
-    https://sources.debian.net/src/firefox-kwallet5/1.0-1/debian/rules/#L25
-    Should use xpi-pack instead.
 firehol:
   version: 2.0.1+ds-1
   issues:
