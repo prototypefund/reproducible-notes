@@ -1071,6 +1071,13 @@ bird:
   version: 1.4.5-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+birdfont:
+  version: 2.15.5-1
+  comments: |
+    Shell expansion of *.o differs depending on the locale, because of
+    different sorting.
+    Several occations in dodo.py, e.g.
+    https://sources.debian.net/src/birdfont/2.15.5-1/dodo.py/#L325
 bitcoin:
   version: 0.10.2-3
   bugs:
@@ -13176,6 +13183,10 @@ sbcl:
   version: 2:1.2.14-1
   issues:
     - pdf_created_by_ghostscript
+sbmltoolbox:
+  version: 4.1.0-2
+  bugs:
+    - 819263
 scala:
   version: 2.9.2+dfsg-2
   issues:
