@@ -10817,9 +10817,12 @@ php5-midgard2:
   bugs:
     - 799363
 php7.0:
-  version: 7.0.1-2
-  issues:
-    - timestamps_from_cpp_macros
+  version: 7.0.4-6
+  comments: |
+    dtrace generates C source files in a random temporary location.
+    https://sources.debian.net/src/systemtap/2.9-3/dtrace.in/#L413
+    https://sources.debian.net/src/php7.0/7.0.4-6/acinclude.m4/?hl=2993,2998#L2993
+    This temporary filename leaks into debug information and causes a build id variation.
 phpab:
   version: 1.21.0-1
   issues:
