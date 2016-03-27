@@ -657,6 +657,10 @@ asymptote:
   issues:
     - timestamps_in_png
     - timestamps_in_pdf_generated_by_latex
+atheme-services:
+  version: 7.0.7-1
+  issues:
+    - timestamps_from_cpp_macros
 athena-jot:
   version: 9.0-5
   bugs:
@@ -13723,6 +13727,10 @@ starpu:
   version: 1.1.4+dfsg-3
   comments: |
     Captures SHELL - needs some kind of forcing in debian/rules?
+starvoyager:
+  version: 0.4.4-5.1
+  bugs:
+    - 819347
 statcvs:
   version: 1:0.7.0.dfsg-5
   issues:
@@ -15452,6 +15460,10 @@ xotcl:
   version: 1.6.8-1
   bugs:
     - 797543
+xpdf:
+  version: 3.04-1
+  bugs:
+    - 819352
 xserver-xorg-input-aiptek:
   version: 1:1.4.1-1
   bugs:
