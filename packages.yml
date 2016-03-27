@@ -2416,12 +2416,6 @@ debian-installer-netboot-images:
   version: 20150107
   issues:
     - needs_internet_access_to_build
-debian-keyring:
-  version: 2015.08.13
-  issues:
-    - random_order_in_md5sums
-  bugs:
-    - 818111
 debian-parl:
   version: 1.0.9
   bugs:
