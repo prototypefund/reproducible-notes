@@ -1023,3 +1023,8 @@ timestamps_generated_by_mangosdk_spiprocessor:
     org.mangosdk.spi.processor.SpiProcessor adds timestamps to files it creates
     in META-INF.
   deterministic: True
+copyright_year_in_comments_generated_by_ckbuilder:
+  description: |
+    CKBuilder.utils.copyright adds current year in the copyright header of
+    generated files.
+  determimistic: True
