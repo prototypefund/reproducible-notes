@@ -9013,6 +9013,8 @@ mutrace:
     - 730903
 mutt:
   version: 1.5.24-1
+  comments: |
+    Shell globs are expanded in locale-sensitive sorted order.
   bugs:
     - 818419
 muttprint:
