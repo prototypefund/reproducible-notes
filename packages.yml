@@ -416,10 +416,6 @@ apertium-pt-gl:
   version: 0.9.1-1
   issues:
     - ftbfs_uninvestigated_unsatisfiable_dependencies
-apf:
-  version: 0.8.4-1
-  bugs:
-    - 803889
 apg:
   version: 2.2.3.dfsg.1-3
   issues:
@@ -1866,13 +1862,6 @@ condor:
   version: 8.2.3~dfsg.1-3
   issues:
     - timestamps_from_cpp_macros
-cone:
-  version: 0.89-1
-  comments: |
-    Embeds the build date.
-    https://sources.debian.net/src/cone/0.89-1/cone/Makefile.am/#L159
-  bugs:
-    - 804334
 configshell:
   version: 1.5+git0.0827baa6-2
   issues:
@@ -5500,10 +5489,6 @@ iceowl-l10n:
   version: 3.3-1
   issues:
     - timestamps_in_jar
-iceweasel:
-  version: 44.0-1
-  issues:
-    - blacklisted_on_jenkins_armhf_only
 icmake:
   version: 7.22.01-1
   issues:
@@ -9041,10 +9026,6 @@ mysecureshell:
   version: 2.0-1
   issues:
     - timestamps_from_cpp_macros
-mysql-5.5:
-  version: 5.5.44-0+deb8u1
-  issues:
-    - ftbfs_uninvestigated_test_failures
 mysql-5.6:
   version: 5.6.27-2
   issues:
@@ -12545,10 +12526,6 @@ red5:
   issues:
     - random_order_in_documentation_generated_by_javadoc
     - locale_in_documentation_generated_by_javadoc
-redhat-cluster:
-  version: 3.1.8-1.3
-  bugs:
-    - 795127
 refcard:
   version: 5.0.9
   issues:
