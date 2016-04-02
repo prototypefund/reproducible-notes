@@ -1168,11 +1168,6 @@ bootchart:
   version: 0.10~svn407-4.1
   issues:
     - timestamps_in_jar
-booth:
-  version: 0.1.0-1.1
-  issues:
-    - timestamps_in_manpages_generated_by_help2man
-    - timestamps_from_cpp_macros
 botan1.10:
   version: 1.10.8-2
   comments: |
@@ -9760,12 +9755,6 @@ openafs:
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_documentation_generated_by_doxygen
     - timezones_manpages_podman
-openais:
-  version: 1.1.4-4.2
-  issues:
-    - timestamps_in_documentation_generated_by_groff
-  bugs:
-    - 802410
 openarena-088-data:
   version: 0.8.8-5
   issues:
