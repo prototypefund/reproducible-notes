@@ -13022,12 +13022,12 @@ sam2p:
     - 808681
 samba:
   version: 4.1.20+dfsg-1
-  issues:
-    - build_id_variation_requiring_further_investigation
   comments: |
     Embeds hostname, timestamp and build-time capabilities
     (e.g. HAVE_SYS_INOTIFY_H) in at least
     usr/lib/$MA_DIR/samba/libsmbd-base.so.0
+  issues:
+    - build_id_variation_requiring_further_investigation
 samhain:
   version: 3.1.0-7
   issues:
