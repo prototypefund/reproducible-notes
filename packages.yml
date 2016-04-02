@@ -13550,6 +13550,10 @@ sonnet:
   comments: |
     Caused by QHash usage (instead of QMap?) in data/parsetrigrams.cpp. Could
     also be filesystem ordering here too.
+sooperlooper:
+  version: 1.7.3~dfsg0-2
+  bugs:
+    - 819790
 sorl-thumbnail:
   version: 12.2-1
   bugs:
