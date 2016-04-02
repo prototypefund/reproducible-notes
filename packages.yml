@@ -13020,6 +13020,8 @@ samba:
   version: 4.1.20+dfsg-1
   issues:
     - build_id_variation_requiring_further_investigation
+  comments: |
+    Embeds hostname in at least usr/lib/$MA_DIR/samba/libsmbd-base.so.0
 samhain:
   version: 3.1.0-7
   issues:
