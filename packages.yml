@@ -13021,7 +13021,9 @@ samba:
   issues:
     - build_id_variation_requiring_further_investigation
   comments: |
-    Embeds hostname in at least usr/lib/$MA_DIR/samba/libsmbd-base.so.0
+    Embeds hostname, timestamp and build-time capabilities
+    (e.g. HAVE_SYS_INOTIFY_H) in at least
+    usr/lib/$MA_DIR/samba/libsmbd-base.so.0
 samhain:
   version: 3.1.0-7
   issues:
