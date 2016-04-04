@@ -906,6 +906,8 @@ basket:
   version: 2.10~beta+git6fed731-1
   issues:
     - timestamps_from_cpp_macros
+  bugs:
+    - 819921
 batik:
   version: 1.7+dfsg-4
   comments: |
@@ -993,6 +995,8 @@ bibledit-gtk:
   version: 4.9-1
   issues:
     - captures_shell_variable_in_autofoo_script
+  bugs:
+    - 820032
 bibtex2html:
   version: 1.98-1
   issues:
@@ -3989,6 +3993,10 @@ g15daemon:
     https://sources.debian.net/src/g15daemon/1.9.5.3-8.3/configure.in/?hl=118:119#L118
   issues:
     - captures_kernel_version
+gabedit:
+  version: 2.4.8-2
+  bugs:
+    - 820016
 galax:
   version: 1.1-12
   comments: |
@@ -6153,6 +6161,8 @@ kannel:
     - timestamps_from_cpp_macros
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_dvi_generated_by_latex
+  bugs:
+    - 819915
 kannel-sqlbox:
   version: 0.7.2-3
   issues:
@@ -8477,6 +8487,8 @@ maude:
   version: 2.6-6
   issues:
     - timestamps_from_cpp_macros
+  bugs:
+    - 819948
 mauve:
   version: 20140821-1
   issues:
