@@ -731,10 +731,6 @@ autodocksuite:
   version: 4.2.6-2
   issues:
     - timestamps_from_cpp_macros
-automake-1.14:
-  version: 1:1.14.1-4
-  issues:
-    - timezone_variance_because_of_automake_mdate
 automake-1.15:
   version: 1:1.15-1
   issues:
@@ -9507,10 +9503,6 @@ nted:
   version: 1.10.18-9
   issues:
     - different_encoding_in_html_by_docbook_xsl
-ntop:
-  version: 3:5.0.1+dfsg1-2.1
-  issues:
-    - timestamps_from_cpp_macros
 ntopng:
   version: 2.0+dfsg1-1
   comments: |
@@ -10583,10 +10575,6 @@ php-msgpack:
   version: 0.5.7-1
   issues:
     - ftbfs_due_to_libtool
-php-mysqlnd-ms:
-  version: 1.6.0-1
-  issues:
-    - ftbfs_due_to_libtool
 php-net-ftp:
   version: 1:1.4.0-1
   issues:
@@ -10655,10 +10643,6 @@ php-rrd:
   version: 2.0.0+1.1.3-2
   issues:
     - ftbfs_due_to_libtool
-php-sasl:
-  version: 0.1.0-3
-  issues:
-    - build_id_variation_requiring_further_investigation
 php-services-weather:
   version: 1.4.7-2
   issues:
@@ -10685,10 +10669,6 @@ php-suhosin:
   version: 0.9.33-3
   bugs:
     - 718145
-php-svn:
-  version: 1.0.2-2
-  bugs:
-    - 798761
 php-symfony-security-acl:
   version: 2.8.0-2
   bugs:
@@ -12339,10 +12319,6 @@ quotecolors:
     https://sources.debian.net/src/quotecolors/0.3-4/debian/rules/#L11
   issues:
     - timestamps_in_jar
-qutecom:
-  version: 2.2.1+dfsg1-5.2
-  issues:
-    - timestamps_from_cpp_macros
 quvi:
   version: 0.9.4-1.1
   comments: |
@@ -12435,11 +12411,6 @@ radare2:
   comments: |
     Embeds build date into source.
     https://sources.debian.net/src/radare2/0.9.6-3.1/binr/blob/version.c/#L7
-radare2-bindings:
-  version: 0.9.6-4
-  bugs:
-    - 741830
-    - 787879
 radiance:
   version: 4R1+20120125-1.1
   comments: |
@@ -14778,10 +14749,6 @@ unixcw:
   version: 3.4.2-1
   comments: |
     Signatures and functions in manpage are generated in src/libcw/Makefile.am without a locale-independent sort
-uprofiler:
-  version: 0.11.0+8-g483c1e5-1
-  issues:
-    - ftbfs_due_to_libtool
 urjtag:
   version: 0.10+r2007-1.2
   issues:
