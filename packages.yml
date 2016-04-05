@@ -272,10 +272,6 @@ angband:
   version: 3.3.2-2.1
   issues:
     - timestamps_in_pdf_generated_by_latex
-angular.js:
-  version: 1.3.20-2
-  bugs:
-    - 819325
 anjuta:
   version: 2:3.14.0-1
   issues:
@@ -632,8 +628,6 @@ asterisk:
   comments: |
     Captures hostname, kernel, date, time, username.
     https://sources.debian.net/src/asterisk/1:13.1.0~dfsg-1/build_tools/make_build_h/
-  bugs:
-    - 804460
 asterisk-chan-capi:
   version: 1.1.6-1
   bugs:
@@ -2725,10 +2719,6 @@ dom4j:
   issues:
     - timestamps_in_documentation_generated_by_javadoc
     - locale_in_documentation_generated_by_javadoc
-dopewars:
-  version: 1.5.12-16
-  bugs:
-    - 819619
 dos2unix:
   version: 6.0.4-1
   bugs:
@@ -3124,12 +3114,6 @@ erlang:
   version: 1:18.0-dfsg-1
   issues:
     - timestamps_in_beam_files
-erlang-bitcask:
-  version: 1.6.7+dfsg-1
-  issues:
-    - timestamps_in_beam_files
-  bugs:
-    - 791369
 erlang-cl:
   version: 1.2.1-2
   issues:
@@ -3367,15 +3351,6 @@ fftw3:
   version: 3.3.4-2
   bugs:
     - 796324
-fgetty:
-  version: 0.6-5
-  issues:
-    - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-    - different_due_to_umask
-  bugs:
-    - 776966
-    - 792967
 fife:
   version: 0.3.5-1
   issues:
@@ -4316,10 +4291,6 @@ geronimo-jpa-2.0-spec:
   version: 1.1-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
-geronimo-osgi-support:
-  version: 1.0-2
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 geronimo-validation-1.0-spec:
   version: 1.1-2
   issues:
@@ -4746,10 +4717,6 @@ golang-fsnotify:
   version: 1.2.1-1
   issues:
     - ftbfs_uninvestigated_test_failures
-golang-ginkgo:
-  version: 1.2.0-2
-  bugs:
-    - 819214
 golang-git2go:
   version: 0.0~git20150731.0.ed62fda-1
   bugs:
@@ -5309,10 +5276,6 @@ hexbox:
   version: 1.5.0-3
   issues:
     - timestamps_in_pe_binaries
-hexchat:
-  version: 2.10.1-1
-  issues:
-    - timestamps_from_cpp_macros
 hhvm:
   version: 3.2.0+dfsg1-2
   issues:
@@ -5351,18 +5314,6 @@ horizon:
   version: 2014.1.3-7
   comments: |
     Write random keys in
-    /usr/share/openstack-dashboard/openstack_dashboard/local/.secret_key_store
-    and
-    /usr/share/openstack-dashboard/openstack_dashboard/test/.secret_key_store
-  bugs:
-    - 809575
-hothasktags:
-  version: 0.3.3-4
-  bugs:
-    - 811065
-hp-search-mac:
-  version: 0.1.3
-  issues:
     - timestamps_in_documentation_generated_by_podman
     - timezones_manpages_podman
 hpanel:
@@ -6317,10 +6268,6 @@ kimwitu-doc:
   version: 10a+1-2.2
   issues:
     - timestamps_in_pdf_generated_by_latex
-kindleclip:
-  version: 0.5-1
-  bugs:
-    - 805205
 king:
   version: 2.21.120420+dfsg-1
   issues:
@@ -6698,10 +6645,6 @@ libcommons-codec-java:
   version: 1.10-1
   issues:
     - locale_in_documentation_generated_by_javadoc
-libcommons-collections3-java:
-  version: 3.2.1-8
-  issues:
-    - timestamps_in_documentation_generated_by_javadoc
 libcommons-collections4-java:
   version: 4.0-1
   issues:
@@ -7150,11 +7093,6 @@ libjfreechart-java:
   version: 1.0.13-7
   issues:
     - timestamp_in_java_bnd_manifest
-libjgoodies-animation-java:
-  version: 1.2.0-5
-  issues:
-    - user_in_java_jar_manifest
-    - locale_in_documentation_generated_by_javadoc
 libjgoodies-binding-java:
   version: 2.1.0-1
   issues:
@@ -7166,10 +7104,6 @@ libjgrapht0.8-java:
     - locale_in_documentation_generated_by_javadoc
 libjgraphx-java:
   version: 2.1.0.7-1
-  issues:
-    - locale_in_documentation_generated_by_javadoc
-libjide-oss-java:
-  version: 3.6.9+dfsg-1
   issues:
     - locale_in_documentation_generated_by_javadoc
 libjlatexmath-java:
@@ -7477,10 +7411,6 @@ libphp-jpgraph:
   version: 1.5.2-12.1
   issues:
     - different_due_to_umask
-libpicocontainer-java:
-  version: 2.15-1
-  issues:
-    - random_order_in_documentation_generated_by_javadoc
 libpinyin:
   version: 1.0.0+repack2-1
   issues:
@@ -8044,10 +7974,6 @@ littler:
   version: 0.2.3-2
   issues:
     - build_id_variation_requiring_further_investigation
-littlewizard:
-  version: 1.2.2-3
-  bugs:
-    - 818686
 live-manual:
   version: 4.0.2-1
   comments: |
@@ -9363,10 +9289,6 @@ noblenote:
   version: 1.0.8-1
   issues:
     - timestamps_from_cpp_macros
-node-connect:
-  version: 3.3.0-1
-  bugs:
-    - 802214
 node-contextify:
   version: 0.1.6-1
   bugs:
@@ -9633,14 +9555,6 @@ octave-econometrics:
   version: 1:1.1.1-2
   issues:
     - random_buildpath_by_octave
-octave-gsl:
-  version: 1.0.8-6
-  issues:
-    - random_buildpath_by_octave
-octave-io:
-  version: 2.2.10-1
-  issues:
-    - random_buildpath_by_octave
 octave-linear-algebra:
   version: 2.2.2-1
   issues:
@@ -9673,16 +9587,8 @@ octave-parallel:
   version: 3.0.2-1
   issues:
     - random_buildpath_by_octave
-octave-quaternion:
-  version: 2.4.0-1
-  issues:
-    - random_buildpath_by_octave
 octave-secs2d:
   version: 0.0.8-6
-  issues:
-    - random_buildpath_by_octave
-octave-signal:
-  version: 1.3.2-1
   issues:
     - random_buildpath_by_octave
 octave-struct:
@@ -10248,10 +10154,6 @@ pcscada:
   issues:
     - timestamps_in_documentation_generated_by_asciidoc
     - timestamps_in_ada_library_information_files
-pcsxr:
-  version: 1.9.92-4
-  issues:
-    - timestamps_from_cpp_macros
 pd-boids:
   version: 1.1.1-2
   comments: |
@@ -10863,10 +10765,6 @@ plastex:
   version: 0.9.2-1
   bugs:
     - 779595
-plastimatch:
-  version: 1.6.2+dfsg-2
-  bugs:
-    - 808401
 pleiades:
   version: 1.5.0-1
   comments: |
@@ -11434,10 +11332,6 @@ python-bottle:
   version: 0.12.7-1
   issues:
     - timestamps_in_manpages_generated_by_sphinx
-python-box2d:
-  version: 2.0.2+svn20100109.244-1.1
-  bugs:
-    - 805684
 python-castellan:
   version: 0.2.1-2
   bugs:
@@ -11977,10 +11871,6 @@ python-statsd:
   version: 3.2.1-1
   bugs:
     - 808056
-python-structlog:
-  version: 15.2.0-1
-  issues:
-    - copyright_year_in_documentation_generated_by_sphinx
 python-taskflow:
   version: 1.21.0-3
   issues:
@@ -13202,10 +13092,6 @@ seelablet:
   version: 0.1.9-1
   issues:
     - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
-segment:
-  version: 1.3.5~svn57+dfsg-1.1
-  bugs:
-    - 799410
 sendfile:
   version: 2.1b.20080616-5.3
   issues:
@@ -13229,10 +13115,6 @@ seqan:
   version: 1.4.1+dfsg-2
   bugs:
     - 809058
-service-wrapper-java:
-  version: 3.5.25-2
-  issues:
-    - timestamps_in_jar
 setools:
   version: 3.3.8+20151215-1
   comments: |
@@ -13690,10 +13572,6 @@ sqljet:
   version: 1.1.10-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-sqlline:
-  version: 1.0.2-5
-  issues:
-    - timestamps_manually_added_needs_further_investigation
 sqlparse:
   version: 0.1.18-1
   issues:
@@ -13721,10 +13599,6 @@ sshguard:
   version: 1.6.0-1
   bugs:
     - 812045
-sslscan:
-  version: 1.8.2-2
-  bugs:
-    - 804616
 sslsplit:
   version: 0.4.11+dfsg-1
   issues:
@@ -13893,10 +13767,6 @@ svnclientadapter:
   version: 1.10.3-2
   issues:
     - timestamp_in_java_bnd_manifest
-svnkit:
-  version: 1.8.11-1
-  issues:
-    - timestamps_manually_added_needs_further_investigation
 svtplay-dl:
   version: 0.10.2015.05.24-1
   comments: |
@@ -14234,10 +14104,6 @@ tightvnc:
   version: 1.3.9-6.5
   issues:
     - lynx_dump_varies_output_with_locale
-tiles:
-  version: 2.2.2-6
-  issues:
-    - random_order_in_documentation_generated_by_javadoc
 tilp2:
   version: 1.17-1
   issues:
@@ -14646,10 +14512,6 @@ ucspi-unix:
     - different_due_to_umask
   bugs:
     - 777019
-uddi4j:
-  version: 2.0.5-2
-  comments: |
-    Includes a file BuildDate.txt that contains the build date.
 udev-discover:
   version: 0.2.2-1
   bugs:
@@ -14837,10 +14699,6 @@ vdr-plugin-sudoku:
     - different_pot_creation_date_in_gettext_mo_files
 vecmath:
   version: 1.5.2-5
-  issues:
-    - locale_in_documentation_generated_by_javadoc
-velocity-tools:
-  version: 2.0-3
   issues:
     - locale_in_documentation_generated_by_javadoc
 velvet:
@@ -15498,10 +15356,6 @@ xscreensaver:
   version: 5.34-1
   bugs:
     - 819595
-xserver-xorg-input-aiptek:
-  version: 1:1.4.1-1
-  bugs:
-    - 813359
 xserver-xorg-video-openchrome:
   version: 1:0.3.3+git20160310-1
   comments: |
