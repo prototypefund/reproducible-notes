@@ -284,6 +284,8 @@ anope:
   version: 2.0.2-1
   issues:
     - timestamps_from_cpp_macros
+  bugs:
+    - 820152
 ant:
   version: 1.9.4-3
   issues:
@@ -312,6 +314,8 @@ aodh:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - timestamps_in_documentation_generated_by_sphinx
+  bugs:
+    - 820179
 aolserver4:
   version: 4.5.1-18
   issues:
@@ -2151,6 +2155,8 @@ cython:
   issues:
     - copyright_year_in_documentation_generated_by_sphinx
     - blacklisted_on_jenkins_armhf_only
+  bugs:
+    - 820183
 d-itg:
   version: 2.8.1-r1023-3
   issues:
@@ -9040,6 +9046,8 @@ nasm:
   version: 2.11.08-1
   issues:
     - pdf_created_by_ghostscript
+  bugs:
+    - 820194
 naspro-core:
   version: 0.5.1-1
   comments: |
@@ -11820,6 +11828,8 @@ python-reportlab:
   comments: |
     Timestamp in PDF content.
     CreationDate and ID varying.
+  bugs:
+    - 820169
 python-repoze.tm2:
   version: 2.0-1
   bugs:
