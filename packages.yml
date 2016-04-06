@@ -1584,8 +1584,8 @@ chromium-browser:
     - blacklisted_on_jenkins_armhf_only
 chrony:
   version: 1.31.1-2
-  issues:
-    - build_id_variation_requiring_further_investigation
+  bugs:
+    - 820226
 cimg:
   version: 1.6.5+dfsg-1
   comments: |
