@@ -461,6 +461,10 @@ appstream-dep11:
   version: 0.3.0-1
   issues:
     - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
+appstream-glib:
+  version: 0.5.13-1
+  bugs:
+    - 819779
 apq:
   version: 3.2.0-2
   issues:
@@ -7900,6 +7904,10 @@ lierolibre:
   version: 0.5-2
   bugs:
     - 806452
+liferea:
+  version: 1.10.18-1
+  bugs:
+    - 819779
 lift:
   version: 2.0.0-1
   issues:
@@ -8400,6 +8408,10 @@ massxpert:
   version: 3.4.1-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+mate-settings-daemon:
+  version: 1.12.1-2
+  bugs:
+    - 819779
 mathjax-docs:
   version: 2.5+20150518-1
   issues:
@@ -8544,6 +8556,10 @@ mia:
   version: 2.2.7-3
   issues:
     - blacklisted_on_jenkins_armhf_only
+miaviewit:
+  version: 1.0.2-1
+  bugs:
+    - 819779
 micro-httpd:
   version: 20051212-15
   bugs:
@@ -9048,6 +9064,14 @@ natbraille:
   version: 2.0rc3-3
   issues:
     - locale_in_documentation_generated_by_javadoc
+nautilus-filename-repairer:
+  version: 0.1.1-4
+  bugs:
+    - 819779
+nautilus-image-converter:
+  version: 0.3.1~git20110416-1
+  bugs:
+    - 819779
 nbc:
   version: 1.2.1.r4+dfsg-1
   comments: |
@@ -9095,6 +9119,10 @@ ndiswrapper:
     - different_due_to_umask
   bugs:
     - 803583
+nemiver:
+  version: 0.9.6-1
+  bugs:
+    - 819779
 nepomuk-core:
   version: 4:4.14.0-1
   issues:
@@ -10065,6 +10093,10 @@ pam-mysql:
   version: 0.7~RC1-4
   bugs:
     - 790455
+paman:
+  version: 0.9.4-1
+  bugs:
+    - 819779
 pandas:
   version: 0.14.1-2
   issues:
@@ -10073,6 +10105,10 @@ pantomime1.2:
   version: 1.2.2~r289+dfsg-2
   issues:
     - build_id_variation_requiring_further_investigation
+paprefs:
+  version: 0.9.10-2
+  bugs:
+    - 819779
 paps:
   version: 0.6.8-7
   bugs:
@@ -10138,11 +10174,19 @@ pastescript:
   version: 1.7.5-3
   bugs:
     - 788249
+pavucontrol:
+  version: 3.0-3
+  bugs:
+    - 819779
 pavuk:
   version: 0.9.35-4
   comments: |
     Embeds the build date in binary and manpage.
     https://sources.debian.net/src/pavuk/0.9.35-3/configure.in/#L8
+pavumeter:
+  version: 0.9.3-4
+  bugs:
+    - 819779
 pcb:
   version: 20140316-3
   issues:
@@ -11257,6 +11301,10 @@ python-designateclient:
   version: 1.5.0-4
   bugs:
     - 816735
+python-django:
+  version: 1.9.4-1
+  bugs:
+    - 820225
 python-django-debug-toolbar:
   version: 1:1.4-1
   issues:
@@ -12073,6 +12121,10 @@ quickplot:
   version: 0.10.6-1
   issues:
     - timestamps_from_cpp_macros
+quitcount:
+  version: 3.1.3-2
+  bugs:
+    - 819779
 quotecolors:
   version: 0.3-4
   comments: |
@@ -12199,6 +12251,10 @@ rapidxml:
   version: 1.13-1
   issues:
     - elinks_dump_varies_output_with_locale
+rasmol:
+  version: 2.7.5.2-2
+  bugs:
+    - 819779
 raster3d:
   version: 3.0-3-2
   issues:
@@ -12322,6 +12378,10 @@ remctl:
   version: 3.10-1
   issues:
     - ftbfs_due_to_libtool
+remmina:
+  version: 1.1.2-3
+  bugs:
+    - 819779
 remote-tty:
   version: 4.0-13
   comments: |
@@ -12339,6 +12399,10 @@ reposurgeon:
   version: 3.29-1
   issues:
     - timestamps_in_documentation_generated_by_asciidoc
+repsnapper:
+  version: 2.4a0-1
+  bugs:
+    - 819779
 request-tracker4:
   version: 4.2.11-2
   bugs:
@@ -12371,6 +12435,10 @@ rgain:
   version: 1.3.3-1
   issues:
     - timestamps_in_manpages_generated_by_sphinx
+rgbpaint:
+  version: 0.8.7-6
+  bugs:
+    - 819779
 rheolef:
   version: 6.5-1
   issues:
@@ -13127,6 +13195,10 @@ sipxtapi:
   comments: |
     Also recording build time. See:
     https://sources.debian.net/src/sipxtapi/3.3.0~test17-1/config/sipXpkgtop.mak/
+siril:
+  version: 0.9.2-1
+  bugs:
+    - 819779
 sisc:
   version: 1.16.6-1.1
   issues:
@@ -13288,6 +13360,10 @@ sofia-sip:
     Blacklisted because helmut said so because doxygen is somehow broken...
   issues:
     - blacklisted_on_jenkins
+sonata:
+  version: 1.6.2.1-6
+  bugs:
+    - 819779
 sonnet:
   version: 5.11.0-1
   comments: |
@@ -13963,6 +14039,10 @@ tightvnc:
   version: 1.3.9-6.5
   issues:
     - lynx_dump_varies_output_with_locale
+tilem:
+  version: 2.0-2
+  bugs:
+    - 819779
 tilp2:
   version: 1.17-1
   issues:
@@ -14389,6 +14469,10 @@ udpcast:
   comments: |
     Current date in docs. Package has a mechanism in for putting a determinstic
     date in there via version.h but that file doesn't appear.
+uget:
+  version: 2.0.6-1
+  bugs:
+    - 819779
 uhub:
   version: 0.4.1-3
   issues:
@@ -14609,6 +14693,10 @@ vips:
   version: 7.40.6-2
   issues:
     - timestamps_from_cpp_macros
+virt-viewer:
+  version: 1.0-1
+  bugs:
+    - 819779
 virtualenvwrapper:
   version: 4.3.1-2
   issues:
