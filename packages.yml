@@ -4034,6 +4034,7 @@ gap-alnuth:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_gzip_headers
+    - timestamps_in_htm_by_gap
 gap-atlasrep:
   version: 1.5.0-1
   bugs:
@@ -4043,6 +4044,7 @@ gap-autpgrp:
   issues:
     - timestamps_in_gzip_headers
     - timestamps_in_pdf_generated_by_latex
+    - timestamps_in_htm_by_gap
 gap-ctbllib:
   version: 1r2p2.dfsg.0-2
   issues:
@@ -4057,6 +4059,10 @@ gap-gapdoc:
   issues:
     - timestamps_in_gzip_headers
     - timestamps_in_pdf_generated_by_latex
+gap-grape:
+  version: 4r7+ds-1
+  issues:
+    - timestamps_in_htm_by_gap
 gap-guava:
   version: 3.12+ds1-3
   issues:
@@ -4074,6 +4080,7 @@ gap-radiroot:
   version: 2.7-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - timestamps_in_htm_by_gap
 gap-scscp:
   version: 2.1.4+ds-1
   issues:

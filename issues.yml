@@ -1025,3 +1025,8 @@ copyright_year_in_comments_generated_by_ckbuilder:
     CKBuilder.utils.copyright adds current year in the copyright header of
     generated files.
   determimistic: True
+timestamps_in_htm_by_gap:
+  description: |
+    The etc/convert.pl script from gap embeds timestamps with the current time
+    and using the local language in the HTM files it produces.
+  determimistic: True
