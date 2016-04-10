@@ -14744,8 +14744,8 @@ viking:
   comments: |
     List of include depends on filesystem order: “for file in *_pixmap.h;”
     https://sources.debian.net/src/viking/1.6-1/src/icons/Makefile.am/?hl=270:#L270
-  issues:
-    - build_id_variation_requiring_further_investigation
+  bugs:
+    - 820603
 vim-addon-manager:
   version: 0.5.3
   issues:
