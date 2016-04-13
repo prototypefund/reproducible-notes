@@ -1112,6 +1112,10 @@ blends:
     Generates PDF with xmlto, which calls dblatex.
     dblatex builds pdf files in random directory. This could be changed with --tmpdir=docbuild,
     but xmlto doesn't support passing arguments to dblatex.
+bless:
+  version: 0.6.0-5
+  bugs:
+    - 820740
 bliss:
   version: 0.72-5
   issues:
@@ -3861,6 +3865,8 @@ freedoom:
     - timestamps_in_documentation_generated_by_asciidoc
 freefem++:
   version: 3.37.1-1
+  bugs:
+    - 820815
   comments: |
     Lots of for x in ls * that need piping through sort in examples++*/Makefile.am
 freefem3d:
@@ -4551,6 +4557,8 @@ gmic:
   version: 1.6.0.1-1
   issues:
     - timestamps_from_cpp_macros
+  bugs:
+    - 820742
 gmime:
   version: 2.6.20-1
   comments: |
@@ -9813,6 +9821,8 @@ openarena-data:
   version: 0.8.5split-7
   issues:
     - different_due_to_umask
+  bugs:
+    - 819965
 openbabel:
   version: 2.3.2+dfsg-2
   issues:
@@ -11129,6 +11139,8 @@ pyexiv2:
   version: 0.3.2-8
   issues:
     - copyright_year_in_documentation_generated_by_sphinx
+  bugs:
+    - 820869
 pyfai:
   version: 0.11.0+dfsg-3
   issues:
@@ -13245,6 +13257,10 @@ sigx:
   version: 2.0.2-5
   bugs:
     - 805208
+sim4:
+  version: 0.0.20121010-2
+  bugs:
+    - 820741
 simba:
   version: 0.8.4-4.2
   bugs:
@@ -15153,6 +15169,8 @@ wsdl4j:
   issues:
     - timestamp_in_java_bnd_manifest
     - locale_in_documentation_generated_by_javadoc
+  bugs:
+    - 820809
 wsil4j:
   version: 1.0.0-1
   issues:
