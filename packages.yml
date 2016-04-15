@@ -3869,10 +3869,10 @@ freedoom:
     - timestamps_in_documentation_generated_by_asciidoc
 freefem++:
   version: 3.37.1-1
-  bugs:
-    - 820815
   comments: |
     Lots of for x in ls * that need piping through sort in examples++*/Makefile.am
+  bugs:
+    - 820815
 freefem3d:
   version: 1.0pre10-3.2
   issues:
@@ -9637,6 +9637,10 @@ ocaml-curses:
   version: 1.0.3-2
   issues:
     - randomness_in_ocaml_preprocessed_files
+ocaml-re2:
+  version: 113.00.00+dfsg-2
+  bugs:
+    - 820937
 ocamlbricks:
   version: 0.90+bzr400-1
   issues:
