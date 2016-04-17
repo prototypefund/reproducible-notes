@@ -863,12 +863,6 @@ bandit:
   version: 0.13.2-3
   bugs:
     - 816735
-banshee:
-  version: 2.6.2-2
-  issues:
-    - timestamps_in_pe_binaries
-  bugs:
-    - 808632
 barbican:
   version: 1:1.0.0-6
   bugs:
@@ -4501,20 +4495,10 @@ gkrellmwireless:
   version: 2.0.3-1
   bugs:
     - 800308
-glance:
-  version: 1:11.0.0-3
-  issues:
-    - blacklisted_on_jenkins_armhf_only
-  bugs:
-    - 807475
 glaurung:
   version: 2.2-2
   issues:
     - timestamps_from_cpp_macros
-gle-graphics:
-  version: 4.2.5-3
-  issues:
-    - timestamps_in_pdf_content
 glibc:
   version: 2.19-18
   issues:
@@ -7058,10 +7042,6 @@ libindicate:
   version: 0.6.92-2
   issues:
     - timestamps_in_pe_binaries
-libindicator:
-  version: 0.5.0-2
-  bugs:
-    - 806470
 libinline-java-perl:
   version: 0.56-2
   bugs:
@@ -8490,12 +8470,6 @@ matroxset:
   version: 0.4-8
   bugs:
     - 782217
-maude:
-  version: 2.6-6
-  issues:
-    - timestamps_from_cpp_macros
-  bugs:
-    - 819948
 mauve:
   version: 20140821-1
   issues:
@@ -8580,10 +8554,6 @@ metis:
   version: 5.1.0.dfsg-4
   issues:
     - timestamps_from_cpp_macros
-metview:
-  version: 4.6.1-5
-  bugs:
-    - 818857
 mgetty:
   version: 1.1.36-2.1
   issues:
@@ -11485,10 +11455,6 @@ python-glance-store:
   version: 0.9.1-2
   bugs:
     - 816735
-python-glanceclient:
-  version: 1:1.1.0-4
-  bugs:
-    - 818149
 python-glpk:
   version: 0.4.52-1.1
   bugs:
@@ -12024,10 +11990,6 @@ qmidinet:
   version: 0.2.0-1
   issues:
     - timestamps_from_cpp_macros
-qmtest:
-  version: 2.4.1-2
-  bugs:
-    - 800272
 qpid-cpp:
   version: 0.16-9
   issues:
@@ -12674,10 +12636,6 @@ ruby-activerecord-deprecated-finders:
   version: 1.0.4-1
   bugs:
     - 816660
-ruby-amqp:
-  version: 1.5.1-4
-  bugs:
-    - 818153
 ruby-awesome-print:
   version: 1.6.1-2
   bugs:
@@ -13226,10 +13184,6 @@ siege:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/siege/3.0.8-1/configure.ac/#L22
-signon-ui:
-  version: 0.17+15.10.20150810-2
-  bugs:
-    - 814766
 sigx:
   version: 2.0.2-5
   bugs:
@@ -14776,11 +14730,6 @@ vfu:
   version: 4.10-1.1
   issues:
     - timestamps_from_cpp_macros
-vgabios:
-  version: 0.7a-5
-  comments: |
-    Record build date:
-    https://sources.debian.net/src/vgabios/0.7a-5/Makefile/?hl=12#L12
 vifm:
   version: 0.7.8-3
   issues:
