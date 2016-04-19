@@ -764,10 +764,6 @@ avahi:
       scratch at every build, which makes it not to be a good upstream changelog.
   bugs:
     - 804141
-avfs:
-  version: 1.0.1-2.1
-  bugs:
-    - 810259
 avifile:
   version: 1:0.7.48~20090503.ds-16.2
   comments: |
@@ -782,10 +778,6 @@ avr-libc:
   version: 1:1.8.0+Atmel3.4.5-1
   issues:
     - different_due_to_umask
-avro-java:
-  version: 1.7.7-1
-  bugs:
-    - 813287
 awardeco:
   version: 0.2-3.1
   issues:
@@ -2028,10 +2020,6 @@ csh:
   version: 20110502-2.1
   issues:
     - timestamps_in_documentation_generated_by_groff
-csound:
-  version: 1:6.05~dfsg1-7
-  bugs:
-    - 817879
 cssutils:
   version: 1.0-4
   bugs:
@@ -2617,7 +2605,6 @@ dipy:
   issues:
     - timestamps_in_documentation_generated_by_sphinx
   bugs:
-    - 789747
     - 802398
 directfb:
   version: 1.2.10.0-5.1
@@ -3002,8 +2989,6 @@ elastix:
   version: 4.8-4
   issues:
     - timestamps_in_pdf_content
-  bugs:
-    - 813345
 elektra:
   version: 0.8.14-5
   issues:
@@ -3168,10 +3153,6 @@ espresso:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - blacklisted_on_jenkins_armhf_only
-ess:
-  version: 15.09.2-1
-  bugs:
-    - 815734
 essays1743:
   version: 1.0-4.1
   issues:
@@ -5079,10 +5060,6 @@ gst-plugins-ugly1.0:
   version: 1.6.3-1
   issues:
     - ftbfs_due_to_libtool
-gstreamer0.10:
-  version: 0.10.36-1.5
-  bugs:
-    - 817026
 gtg-trace:
   version: 0.2-2+dfsg-1
   issues:
@@ -5332,10 +5309,6 @@ hibernate:
   comments: |
     Embeds the build date into manpage.
     https://sources.debian.net/src/hibernate/2.0%2B15%2Bg88d54a8-1/gen-manpages.sh/#L3
-hidrd:
-  version: 0.2.0-11
-  bugs:
-    - 818564
 highlight.js:
   version: 8.2+ds-4
   issues:
@@ -5675,10 +5648,6 @@ iptotal:
     https://sources.debian.net/src/iptotal/0.3.3-13/iptotal.c/#L619
   issues:
     - timestamps_from_cpp_macros
-iputils:
-  version: 20121221
-  bugs:
-    - 783219
 ipv6calc:
   version: 0.99.1-1
   issues:
@@ -9350,10 +9319,6 @@ node-contextify:
   version: 0.1.6-1
   bugs:
     - 802101
-node-crc:
-  version: 3.0.0-2
-  bugs:
-    - 787924
 node-iscroll:
   version: 5.1.3+dfsg1-1
   comments: |
@@ -9980,10 +9945,6 @@ osm-gps-map:
   version: 1.1.0-1
   issues:
     - locale_dependent_order_in_devlibs_depends
-osmium-tool:
-  version: 1.3.0-1
-  bugs:
-    - 815869
 osptoolkit:
   version: 3.4.2-1.2
   bugs:
@@ -10058,16 +10019,10 @@ pafy:
   version: 0.3.80-1
   issues:
     - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
-pagekite:
-  version: 0.5.6d-4
-  bugs:
-    - 795659
 pairs:
   version: 4:15.04.3-1
   issues:
     - different_due_to_umask
-  bugs:
-    - 815716
 paje.app:
   version: 1.98-1
   comments: |
@@ -11243,10 +11198,6 @@ python-bashate:
   version: 0.3.1-2
   bugs:
     - 816735
-python-biopython:
-  version: 1.66+dfsg-1
-  bugs:
-    - 813262
 python-bottle:
   version: 0.12.7-1
   issues:
@@ -11681,10 +11632,6 @@ python-pint:
   version: 0.6-1
   issues:
     - copyright_year_in_documentation_generated_by_sphinx
-python-pip:
-  version: 8.0.3-2
-  bugs:
-    - 816214
 python-psutil:
   version: 2.1.1-1
   issues:
@@ -12549,10 +12496,6 @@ ros-pluginlib:
   version: 1.10.1-2
   bugs:
     - 815744
-ros-ros-comm:
-  version: 1.11.16-2
-  bugs:
-    - 815398
 ros-std-msgs:
   version: 0.5.9-2
   issues:
@@ -12624,10 +12567,6 @@ ruby-dbus:
   version: 0.11.0-1
   issues:
     - timestamps_in_ruby_documentation
-ruby-eim-xml:
-  version: 0.0.4-3
-  bugs:
-    - 794169
 ruby-em-hiredis:
   version: 0.2.1-2.1
   issues:
@@ -12648,14 +12587,6 @@ ruby-facets:
   version: 2.9.3-2
   issues:
     - random_order_in_ruby_rdoc_indices
-ruby-hipchat:
-  version: 1.5.2-1
-  bugs:
-    - 813746
-ruby-http:
-  version: 0.6.1-1
-  bugs:
-    - 795752
 ruby-http-parser.rb:
   version: 0.6.0-2
   issues:
@@ -12675,16 +12606,10 @@ ruby-mysql2:
   version: 0.3.18-1
   issues:
     - blacklisted_on_jenkins_armhf_only
-  bugs:
-    - 796516
 ruby-numru-misc:
   version: 0.1.2-1
   bugs:
     - 819216
-ruby-omniauth-crowd:
-  version: 2.2.3-1
-  bugs:
-    - 814311
 ruby-pg:
   version: 0.17.1-2
   issues:
@@ -12739,10 +12664,6 @@ ruby-sigar:
   version: 0.7.2-3.1
   issues:
     - timestamps_from_cpp_macros
-ruby-sinatra:
-  version: 1.4.6-2
-  bugs:
-    - 808738
 ruby-standalone:
   version: 0.5.1
   comments: |
@@ -13109,10 +13030,6 @@ shapelib:
   version: 1.3.0-5
   issues:
     - timestamps_in_manpages_generated_by_ronn
-shared-mime-info:
-  version: 1.5-2
-  bugs:
-    - 816587
 sheepdog:
   version: 0.8.3-4
   comments: |
@@ -14517,10 +14434,6 @@ ui-utilcpp:
   version: 1.8.3-2
   issues:
     - timestamps_from_cpp_macros
-uima-as:
-  version: 2.3.1-4
-  bugs:
-    - 818565
 uisp:
   version: 20050207-4.2
   comments: |
@@ -14926,8 +14839,6 @@ west-chamber:
     Embed kernel version in Makefiles.
   issues:
     - different_due_to_umask
-  bugs:
-    - 778358
 whizzytex:
   version: 1.3.2-1.3
   bugs:
@@ -15168,10 +15079,6 @@ xenomai:
   version: 2.6.4+dfsg-0.2
   issues:
     - captures_shell_variable_in_autofoo_script
-xfce4-xkb-plugin:
-  version: 1:0.7.1-2
-  bugs:
-    - 814588
 xfig:
   version: 1:3.2.5.c-7
   issues:
@@ -15180,8 +15087,6 @@ xfonts-a12k12:
   version: 1-11
   issues:
     - timestamps_in_gzip_headers
-  bugs:
-    - 779184
 xfonts-cronyx:
   version: 2.3.8-6
   issues:
