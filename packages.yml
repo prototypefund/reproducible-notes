@@ -4124,12 +4124,6 @@ gbrowse:
   version: 2.54+dfsg-3
   comments: |
     ConfigData.pm embeds a random 'OpenIDConsumerSecret'.
-gcc-4.8:
-  version: 4.8.5-4
-  comments: |
-    deki said: 'libcilkrts/runtime/sysdep-unix.c contains __DATE__ and __TIME__'
-  issues:
-    - blacklisted_on_jenkins_armhf_only
 gcc-4.9:
   version: 4.9.3-1
   comments: |
