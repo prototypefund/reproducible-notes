@@ -12329,6 +12329,10 @@ rsyslog:
   version: 8.12.0-3
   issues:
     - ftbfs_uninvestigated_test_failures
+rt-app:
+  version: 0.2~alpha2.20140716-2.2
+  bugs:
+    - 821080
 rt-extension-customfieldsonupdate:
   version: 0.01-1
   comments: |
