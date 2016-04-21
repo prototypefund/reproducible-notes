@@ -35,6 +35,7 @@ timestamps_in_manpages_generated_by_yat2m:
 timestamps_in_manpages_generated_by_ronn:
   description: |
     ronn embed localized dates in manpages it generates.
+    Note that Ronn is not intended to be in stretch (see bugs.debian.org/796497), so packages that build-dep on it will be changed.
   url: https://bugs.debian.org/807201
   deterministic: True
 timestamps_in_documentation_generated_by_asciidoc:
