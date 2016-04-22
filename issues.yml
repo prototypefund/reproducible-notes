@@ -35,7 +35,7 @@ timestamps_in_manpages_generated_by_yat2m:
 timestamps_in_manpages_generated_by_ronn:
   description: |
     ronn embed localized dates in manpages it generates.
-    Note that Ronn is not intended to be in stretch (see bugs.debian.org/796497), so packages that build-dep on it will be changed.
+    Note that Ronn is not intended to be in stretch (see https://bugs.debian.org/796497), so packages that build-dep on it will be changed.
   url: https://bugs.debian.org/807201
   deterministic: True
 timestamps_in_documentation_generated_by_asciidoc:
@@ -118,7 +118,7 @@ random_order_in_python_environment_pickle:
   description: |
     Python doctrees writes a `environment.pickle.gz`, in a random order and embeds encoding in some `*.doctree.gz` files.
 locale_dependent_order_in_devlibs_depends:
-  url: http://bugs.debian.org/796330
+  url: https://bugs.debian.org/796330
   description: |
     devlibs:Depends is sorted in a locale-dependent way.
   deterministic: True
@@ -458,7 +458,7 @@ timestamps_in_manpages_generated_by_txt2man:
     Manpages generated with txt2man embed the date.
     .
     Pass "-d $date" to txt2man to force a (reproducible) date.
-  url: http://bugs.debian.org/790801
+  url: https://bugs.debian.org/790801
   deterministic: True
 timestamps_in_manpages_generated_by_help2man:
   description: |
@@ -513,7 +513,7 @@ timestamps_in_qch:
 random_ispell_hash_files:
   description: |
     buildhash from ispell produces undeterministic .hash files.
-  url: http://bugs.debian.org/778862
+  url: https://bugs.debian.org/778862
 timestamps_in_java_stapler_files:
   description: |
     Another variation of timestamps_in_maven_version_files where someone's
