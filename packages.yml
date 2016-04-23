@@ -6655,6 +6655,10 @@ libcoyotl:
     Installs examples with varying environments - can probably just be distcleaned after build
   issues:
     - leaks_path_environment_variable
+libcrypt-gcrypt-perl:
+  version: 1.26-4
+  bugs:
+    - 816104
 libcsoap:
   version: 1.1.0-17.2
   issues:
