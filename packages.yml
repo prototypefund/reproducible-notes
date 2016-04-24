@@ -719,12 +719,6 @@ authbind:
   version: 2.1.1
   bugs:
     - 777727
-auto-multiple-choice:
-  version: 1.2.1-4
-  issues:
-    - different_due_to_umask
-    - users_and_groups_in_tarball
-    - timestamps_in_tarball
 autoconf:
   version: 2.69-8
   issues:
@@ -1216,10 +1210,6 @@ buici-clock:
   comments: |
     Embeds the build date into README.
     https://sources.debian.net/src/buici-clock/0.4.9.2/Makefile.in/#L219
-buildbot:
-  version: 0.8.9-2
-  bugs:
-    - 794300
 bullet:
   version: 2.83.5+dfsg-1
   issues:
@@ -1353,10 +1343,6 @@ casablanca:
   version: 2.2.0-1
   comments: |
     fixed in git https://anonscm.debian.org/cgit/collab-maint/casablanca.git/commit/?id=3517d4ac11bd7f45ff9deaba3fbcf2e9f67ee7b0
-castle-game-engine:
-  version: 5.1.1-2
-  issues:
-    - timestamps_in_ppu_generated_by_fpc
 castor:
   version: 1.3.2-3
   issues:
@@ -1608,8 +1594,6 @@ ckermit:
   version: 302-5
   issues:
     - timestamps_from_cpp_macros
-  bugs:
-    - 804463
 cl-lparallel:
   version: 20160208-1
   bugs:
@@ -1701,10 +1685,6 @@ cobbler:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/cobbler/2.6.6%2Bdfsg1-2/setup.py/#L66
-cobertura:
-  version: 1.9.4.1+dfsg-4
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 coccinelle:
   version: 1.0.0~rc22
   issues:
@@ -1797,11 +1777,6 @@ commons-beanutils:
   version: 1.9.2-3
   issues:
     - implementation_version_in_java_manifest_mf
-commons-pool:
-  version: 1.6-2
-  issues:
-    - user_in_java_jar_manifest
-    - locale_in_documentation_generated_by_javadoc
 commons-vfs:
   version: 2.0-7
   comments: |
@@ -2899,10 +2874,6 @@ eclipse-xsd:
   version: 2.9.0-1
   issues:
     - timestamps_in_jar
-eclipselink:
-  version: 2.5.1-2
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 ed2k-hash:
   version: 0.3.3+deb2-1.1
   issues:
@@ -3148,10 +3119,6 @@ exabgp:
   version: 3.4.13-1
   issues:
     - ftbfs_uninvestigated_test_failures
-excalibur-logkit:
-  version: 2.0-11
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 exiv2:
   version: 0.24-4
   issues:
@@ -3986,12 +3953,6 @@ gap-atlasrep:
   version: 1.5.0-1
   bugs:
     - 813980
-gap-autpgrp:
-  version: 1.5-1
-  issues:
-    - timestamps_in_gzip_headers
-    - timestamps_in_pdf_generated_by_latex
-    - timestamps_in_htm_by_gap
 gap-ctbllib:
   version: 1r2p2.dfsg.0-2
   issues:
@@ -4006,10 +3967,6 @@ gap-gapdoc:
   issues:
     - timestamps_in_gzip_headers
     - timestamps_in_pdf_generated_by_latex
-gap-grape:
-  version: 4r7+ds-1
-  issues:
-    - timestamps_in_htm_by_gap
 gap-guava:
   version: 3.12+ds1-3
   issues:
@@ -4023,11 +3980,6 @@ gap-polycyclic:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_gzip_headers
-gap-radiroot:
-  version: 2.7-1
-  issues:
-    - timestamps_in_pdf_generated_by_latex
-    - timestamps_in_htm_by_gap
 gap-scscp:
   version: 2.1.4+ds-1
   issues:
@@ -4449,10 +4401,6 @@ glosstex:
   version: 0.4.dfsg.1-3
   issues:
     - pdf_created_by_ghostscript
-gluegen2:
-  version: 2.2.4-2
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 glusterfs:
   version: 3.5.2-1
   issues:
@@ -4694,10 +4642,6 @@ golang-github-appc-spec:
   version: 0.7.1+dfsg-1
   issues:
     - random_build_path_by_golang_compiler
-golang-github-armon-go-metrics:
-  version: 0.0~git20150601-1
-  issues:
-    - ftbfs_uninvestigated_test_failures
 golang-github-armon-gomdb:
   version: 0.0~git20150106.0.151f2e0-1
   bugs:
@@ -5308,10 +5252,6 @@ htp:
   comments: |
     Embeds timezone dependent mtime of files into generated documentation.
     https://sources.debian.net/src/htp/1.19-2/src/file-proc.c/?hl=119,137#L114
-httest:
-  version: 2.4.8-1
-  bugs:
-    - 804606
 http-icons:
   version: 0~20041010-1
   comments: |
@@ -5382,10 +5322,6 @@ ibus:
   version: 1.5.11-1
   issues:
     - blacklisted_on_jenkins_armhf_only
-ibus-table:
-  version: 1.9.1-3
-  issues:
-    - different_pot_creation_date_in_gettext_mo_files
 ibus-table-chinese:
   version: 1.8.2-1
   issues:
@@ -5619,10 +5555,6 @@ irrlicht:
   version: 1.8.3+dfsg1-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-isakmpd:
-  version: 20041012-7.2
-  bugs:
-    - 749354
 isdnutils:
   version: 1:3.25+dfsg1-3.6
   issues:
@@ -5659,10 +5591,6 @@ jabber-muc:
   version: 0.8-4
   issues:
     - timestamps_from_cpp_macros
-jabref:
-  version: 2.10+ds-3
-  comments: |
-    Embeds built date into build.properties file contained in jar.
 jacal:
   version: 1b9-6
   bugs:
@@ -5749,10 +5677,6 @@ java-gnome:
   version: 4.1.3-4
   issues:
     - locale_in_documentation_generated_by_javadoc
-java3d:
-  version: 1.5.2+dfsg-11
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 javahelp2:
   version: 2.0.05.ds1-8
   issues:
@@ -5793,10 +5717,6 @@ jboss-logmanager:
     - method_may_never_be_called_in_documentation_generated_by_javadoc
 jcharts:
   version: 0.7.5-4
-  issues:
-    - locale_in_documentation_generated_by_javadoc
-jcifs:
-  version: 1.3.18-2
   issues:
     - locale_in_documentation_generated_by_javadoc
 jclic:
@@ -5864,10 +5784,6 @@ jlibeps:
   version: 0.1+2-2
   issues:
     - timestamps_in_gjdoc_properties_files
-jline:
-  version: 1.0-2
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 jmagick:
   version: 6.6.9~20130201-svn99-2
   issues:
@@ -5875,10 +5791,6 @@ jmagick:
     - locale_in_documentation_generated_by_javadoc
 jmdns:
   version: 3.4.1-2
-  issues:
-    - locale_in_documentation_generated_by_javadoc
-jmock2:
-  version: 2.7~snapshot+201309170925-gitd7fe69b5+dfsg-2
   issues:
     - locale_in_documentation_generated_by_javadoc
 jmol:
@@ -5901,11 +5813,6 @@ josm:
   version: 0.0.svn7643+dfsg1-1
   comments: |
     Timestamp of build date in file inside jar.
-josql:
-  version: 2.2-1
-  issues:
-    - timestamps_in_jar
-    - locale_in_documentation_generated_by_javadoc
 joy2key:
   version: 1.6.3-1
   issues:
@@ -5979,11 +5886,6 @@ jsxgraph:
 jta:
   version: 2.6+dfsg-6
   issues:
-    - locale_in_documentation_generated_by_javadoc
-jtharness:
-  version: 4.6-1
-  issues:
-    - timestamps_in_jar
     - locale_in_documentation_generated_by_javadoc
 judy:
   version: 1.0.5-5
@@ -6259,10 +6161,6 @@ kmix:
   version: 4:15.08.1-1
   bugs:
     - 799992
-kmod:
-  version: 22-1
-  bugs:
-    - 819089
 kmymoney:
   version: 4.6.6-2
   issues:
@@ -6548,10 +6446,6 @@ libbasicplayer-java:
   version: 3.0-6
   issues:
     - locale_in_documentation_generated_by_javadoc
-libbde:
-  version: 20160110-2
-  bugs:
-    - 821891
 libbrahe:
   version: 1.3.2-5
   issues:
@@ -6749,13 +6643,6 @@ libfakekey:
     - ftbfs_due_to_libtool
   bugs:
     - 814063
-libfann:
-  version: 2.1.0~beta+dfsg-1
-  comments: |
-    Random hash order in
-    /usr/share/doc/libfann-doc/html/javascript/searchdata.js
-  issues:
-    - random_order_in_naturaldocs
 libfastutil-java:
   version: 7.0.2-1
   issues:
@@ -6873,11 +6760,6 @@ libgrip:
   version: 0.3.8-1
   bugs:
     - 789940
-libgroboutils-java:
-  version: 5-3
-  comments: |
-    Embeds build date and time into MANIFEST.MF
-    https://sources.debian.net/src/libgroboutils-java/5-3/_shared/common-ant/common-ant-tasks-jar.ant-inc.xml/#L74-L75
 libgtk2-appindicator-perl:
   version: 0.15-1
   bugs:
@@ -6938,10 +6820,6 @@ libidn2-0:
   comments: |
     Also embeds the build date into the content of the PDF file
     and has the timestamp in the info page.
-libindicate:
-  version: 0.6.92-2
-  issues:
-    - timestamps_in_pe_binaries
 libinline-java-perl:
   version: 0.56-2
   bugs:
@@ -7035,23 +6913,10 @@ libjdom2-java:
   version: 2.0.6-1
   issues:
     - random_order_in_java_jar_manifest_mf
-libjemmy2-java:
-  version: 2.3.1.1-2
-  issues:
-    - timestamps_in_jar
 libjfreechart-java:
   version: 1.0.13-7
   issues:
     - timestamp_in_java_bnd_manifest
-libjgoodies-binding-java:
-  version: 2.1.0-1
-  issues:
-    - user_in_java_jar_manifest
-    - locale_in_documentation_generated_by_javadoc
-libjgrapht0.8-java:
-  version: 0.8.3-4
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 libjgraphx-java:
   version: 2.1.0.7-1
   issues:
@@ -7091,10 +6956,6 @@ libjsyntaxpane-java:
   version: 0.9.6~r156-5
   issues:
     - timestamps_in_jar
-libjtds-java:
-  version: 1.2.5+dfsg-3
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 libjxp-java:
   version: 1.6.1-5
   issues:
@@ -7286,18 +7147,10 @@ libopenobex:
   version: 1.7.1-4
   bugs:
     - 811892
-liboptions-java:
-  version: 0.0.20120113-1
-  issues:
-    - random_order_in_documentation_generated_by_javadoc
 liboro-java:
   version: 2.0.8a-11
   comments: |
     Locale issue in documentation footer.
-libpal-java:
-  version: 1.5.1-2
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 libparse-debianchangelog-perl:
   version: 1.2.0-1.1
   comments: |
@@ -7768,10 +7621,6 @@ libykneomgr:
   version: 0.1.8-1
   bugs:
     - 820417
-libzeus-jscl-java:
-  version: 1.72-1
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 libzhuyin:
   version: 0.9.99.20140929-1
   issues:
@@ -9647,10 +9496,6 @@ openlp:
   version: 2.2.1-1
   bugs:
     - 784614
-openmama:
-  version: 2.2.2.1-10
-  issues:
-    - timestamps_in_pdf_generated_by_latex
 openmcdf:
   version: 1.5.4-1
   issues:
@@ -9909,10 +9754,6 @@ pam:
     w3m output change depending on the locale.
   bugs:
     - 792127
-pam-mysql:
-  version: 0.7~RC1-4
-  bugs:
-    - 790455
 paman:
   version: 0.9.4-1
   bugs:
@@ -12260,10 +12101,6 @@ ripmime:
     https://sources.debian.net/src/ripmime/1.4.0.10.debian.1-1/generate-buildcodes.sh/
   issues:
     - captures_kernel_version
-rkward:
-  version: 0.6.4-1
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 rlpr:
   version: 2.05-4
   issues:
@@ -12946,10 +12783,6 @@ siproxd:
   version: 1:0.8.1-4.1
   bugs:
     - 816588
-sipwitch:
-  version: 1.6.1-2
-  bugs:
-    - 821785
 sipxtapi:
   version: 3.3.0~test17-1
   comments: |
