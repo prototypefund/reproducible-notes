@@ -1030,3 +1030,8 @@ timestamps_in_htm_by_gap:
     The etc/convert.pl script from gap embeds timestamps with the current time
     and using the local language in the HTM files it produces.
   determimistic: True
+timestamps_in_ppu_generated_by_fpc:
+  description: |
+    fpc embeds timestamps of source *.pas files in the binary *.ppu file.
+    This is not a problem when the source file is not modified at build time, but if eg. the source file is patched by a debian patch from quilt, the timestamp of this file is set to build time and propagated in the binary.
+  deterministic: True
