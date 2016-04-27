@@ -887,6 +887,7 @@ different_encoding_in_html_by_docbook_xsl:
 timestamps_in_ppu_generated_by_fpc:
   description: |
     The freepascal compiler (fpc) embeds timestamps into unit files (ppu).
+    This is not a problem when the source file is not modified at build time, but if eg. the source file is patched by a debian patch from quilt, the timestamp of this file is set to build time and propagated in the binary.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInPPUGeneratedByFPC
   deterministic: True
 ftbfs_old_compat_debheper_compat_level:
@@ -1030,8 +1031,3 @@ timestamps_in_htm_by_gap:
     The etc/convert.pl script from gap embeds timestamps with the current time
     and using the local language in the HTM files it produces.
   determimistic: True
-timestamps_in_ppu_generated_by_fpc:
-  description: |
-    fpc embeds timestamps of source *.pas files in the binary *.ppu file.
-    This is not a problem when the source file is not modified at build time, but if eg. the source file is patched by a debian patch from quilt, the timestamp of this file is set to build time and propagated in the binary.
-  deterministic: True
