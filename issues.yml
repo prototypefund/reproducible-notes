@@ -122,10 +122,6 @@ locale_dependent_order_in_devlibs_depends:
   description: |
     devlibs:Depends is sorted in a locale-dependent way.
   deterministic: True
-random_order_in_naturaldocs:
-  description: |
-    Natural Docs generates its documentation in a random order.
-  url: https://bugs.debian.org/778962
 timestamps_in_beam_files:
   description: |
     Erlang source files compiled by erlc into BEAM files contain timestamps and the build path.
