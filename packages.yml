@@ -430,8 +430,6 @@ apg:
   version: 2.2.3.dfsg.1-3
   issues:
     - different_due_to_umask
-  bugs:
-    - 778215
 aplus-fsf:
   version: 4.22.1-7
   bugs:
@@ -2564,8 +2562,6 @@ dipy:
   version: 0.7.1-2
   issues:
     - timestamps_in_documentation_generated_by_sphinx
-  bugs:
-    - 802398
 directfb:
   version: 1.2.10.0-5.1
   issues:
@@ -5511,7 +5507,7 @@ inn:
     - timezones_manpages_podman
     - different_due_to_umask
 inn2:
-  version: 2.6.0-2 
+  version: 2.6.0-2
   issues:
     - captures_shell_variable_in_autofoo_script
 ino-headers:
@@ -10285,10 +10281,6 @@ php-suhosin:
   version: 0.9.33-3
   bugs:
     - 718145
-php-symfony-security-acl:
-  version: 2.8.0-2
-  bugs:
-    - 819620
 php-uuid:
   version: 1.0.4-1
   issues:
@@ -10508,10 +10500,6 @@ pmw:
   version: 1:4.28-1
   issues:
     - pdf_created_by_ghostscript
-png++:
-  version: 0.2.5-1
-  bugs:
-    - 777632
 pngcheck:
   version: 2.3.0-7
   comments: |
@@ -10861,10 +10849,6 @@ pygccjit:
   version: 0.4-3
   issues:
     - randomness_in_objects_inv
-pygtksourceview:
-  version: 2.10.1-2
-  comments: |
-    Embeds build time via custom docbook entity '&builddate;'.
 pygobject:
   version: 3.18.2-2
   issues:
@@ -10881,6 +10865,10 @@ pygtkmvc:
   version: 1.99.1-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+pygtksourceview:
+  version: 2.10.1-2
+  comments: |
+    Embeds build time via custom docbook entity '&builddate;'.
 pyjunitxml:
   version: 0.6-1.1
   bugs:
@@ -11255,10 +11243,6 @@ python-kafka:
   version: 0.9.5-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
-python-kdcproxy:
-  version: 0.3.2-1
-  bugs:
-    - 815395
 python-keystoneauth1:
   version: 1.1.0-1
   bugs:
@@ -12302,10 +12286,6 @@ ros-genpy:
   version: 0.5.7-5
   issues:
     - blacklisted_on_jenkins_armhf_only
-ros-pluginlib:
-  version: 1.10.1-2
-  bugs:
-    - 815744
 ros-std-msgs:
   version: 0.5.9-2
   issues:
@@ -12353,10 +12333,6 @@ ruby-activerecord-deprecated-finders:
   version: 1.0.4-1
   bugs:
     - 816660
-ruby-awesome-print:
-  version: 1.6.1-2
-  bugs:
-    - 816161
 ruby-bdb:
   version: 0.6.6-1
   issues:
@@ -13231,10 +13207,6 @@ spring:
   issues:
     - timestamps_in_zip
     - different_due_to_umask
-sprng:
-  version: 2.0a-8
-  bugs:
-    - 818762
 spyder:
   version: 2.3.6+dfsg1-1
   issues:
@@ -13580,7 +13552,7 @@ tagua:
   issues:
     - different_pot_creation_date_in_gettext_mo_files
 tango:
-  version: 8.1.2c+dfsg-7 
+  version: 8.1.2c+dfsg-7
   issues:
     - captures_shell_variable_in_autofoo_script
 taoframework:
@@ -13617,14 +13589,6 @@ tcl8.4:
   version: 8.4.20-8
   bugs:
     - 818752
-tcl8.5:
-  version: 8.5.19-1
-  bugs:
-    - 818751
-tcl8.6:
-  version: 8.6.5+dfsg-1
-  bugs:
-    - 818750
 tclap:
   version: 1.2.1-1
   issues:
@@ -14393,10 +14357,6 @@ velvet:
   version: 1.2.10+dfsg1-3
   issues:
     - timestamps_in_pdf_generated_by_latex
-verbiste:
-  version: 0.1.42-2
-  bugs:
-    - 815742
 verilator:
   version: 3.864-1
   comments: |
@@ -14837,10 +14797,6 @@ x264:
   version: 2:0.142.2431+gita5831aa-1
   issues:
     - timestamps_from_cpp_macros
-xboxdrv:
-  version: 0.8.5-1
-  bugs:
-    - 809247
 xbs:
   version: 0-10
   issues:
