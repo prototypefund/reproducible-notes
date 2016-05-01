@@ -10998,6 +10998,11 @@ python-asyncssh:
   version: 1.2.0-1
   issues:
     - randomness_in_documentation_indices_generated_by_sphinx
+python-attrs:
+  version: 15.2.0-2
+  comments: |
+    docs/conf.py:85 hardcodes the current year into generated documentation.
+    (It uses sphinx but this issue is not timestamps_in_documentation_generated_by_sphinx.)
 python-automaton:
   version: 0.7.0-2
   bugs:
