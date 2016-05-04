@@ -6207,6 +6207,9 @@ khronos-api:
     - timestamps_in_pdf_generated_by_latex
 khronos-opengl-man4:
   version: 1.0~svn31251-1
+  bugs:
+    - 823452
+    - 823453
   comments: |
     The -doc package's HTML index is unreproducible: the order of the keys 'glMemoryBarrier' and 'memoryBarrier' differs.
     
@@ -6232,6 +6235,10 @@ khronos-opengl-man4:
     problem is non-deterministic.
     
     ¹ http://sources.debian.net/src/khronos-opengl-man4/1.0~svn31251-1/html/makeindex.py/
+    
+    ----
+    
+    Separate issue (#823453): the 'get-orig-source' debian/rules target may bitrot.
 kicad:
   version: 4.0.0~rc1a-3
   issues:
