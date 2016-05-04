@@ -202,6 +202,10 @@ akuma:
   comments: |
     it builds fine on jenkins.d.n, but when building locally it embeds the username into the manifest file
     unclear, why this is hidden on jenkins.d.n
+aldo:
+  version: 0.7.7-1
+  bugs:
+    - 823431
 allegro5:
   version: 2:5.0.11-1
   comments: |
