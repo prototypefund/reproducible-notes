@@ -6694,6 +6694,10 @@ libcoyotl:
     Installs examples with varying environments - can probably just be distcleaned after build
   issues:
     - leaks_path_environment_variable
+libcrypt-des-ede3-perl:
+  version: 0.01-1.1
+  bugs:
+    - 823428
 libcrypt-gcrypt-perl:
   version: 1.26-4
   bugs:
