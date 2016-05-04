@@ -5914,6 +5914,11 @@ jpilot:
   version: 1.8.2-1
   issues:
     - timestamps_from_cpp_macros
+jpy:
+  version: 0.8-1
+  comments: |
+    Records build time.
+    https://sources.debian.net/src/jpy/0.8-1/jpyutil.py/#L522
 jpylyzer:
   version: 1.14.2-1
   issues:
@@ -15232,6 +15237,10 @@ yorick-ynfft:
   version: 1.0.2-2
   bugs:
     - 812995
+yosys:
+  version: 0.6-4
+  issues:
+    - timestamps_in_pdf_generated_by_latex
 yt:
   version: 3.2.1-2
   bugs:
