@@ -6548,13 +6548,13 @@ libbasicplayer-java:
     - locale_in_documentation_generated_by_javadoc
 libbitcoin:
   version: 2.11.0-1
-  issues:
-    - leaks_path_environment_variable
-    - captures_shell_variable_in_autofoo_script
   comments: |
     The build installs to /usr/share/doc/libbitcoin-dev/examples/, besides
     main.cpp, its automake wrapper and the intermediate build artifact main.o
     (compressed 'gcc -c' output).  The issues occur in the automake wrapper.
+  issues:
+    - leaks_path_environment_variable
+    - captures_shell_variable_in_autofoo_script
 libbpp-phyl-omics:
   version: 2.1.0-1
   bugs:
