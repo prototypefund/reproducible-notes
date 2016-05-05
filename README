@@ -16,12 +16,12 @@ A full entry looks like the following:
 
     socat:
       version: 1.7.2.4-1
+      comments: |
+        Patch submitted.
       issues:
         - timestamps_from_cpp_macros
       bugs:
         - 764251
-      comments: |
-        Patch submitted.
 
 Every field is optional, although a version number would be useful to do
 cleanups.
