@@ -1824,6 +1824,12 @@ colortest-python:
   version: 2.2-1
   bugs:
     - 782208
+colpack:
+  version: 1.0.10-1
+  comments: |
+    Captures $PATH and a "Coloring Time:" value (possibly build duration?).
+  issues:
+    - captures_shell_variable_in_autofoo_script
 comedilib:
   version: 0.10.2-3
   issues:
