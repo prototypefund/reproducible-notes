@@ -2608,6 +2608,10 @@ directfb:
   version: 1.2.10.0-5.1
   issues:
     - timestamps_from_cpp_macros
+discover:
+  version: 2.1.2-7
+  bugs:
+    - 823483
 distcc:
   version: 3.1-6.1
   issues:
@@ -6212,9 +6216,6 @@ khronos-api:
     - timestamps_in_pdf_generated_by_latex
 khronos-opengl-man4:
   version: 1.0~svn31251-1
-  bugs:
-    - 823452
-    - 823453
   comments: |
     The -doc package's HTML index is unreproducible: the order of the keys 'glMemoryBarrier' and 'memoryBarrier' differs.
     
@@ -6244,6 +6245,9 @@ khronos-opengl-man4:
     ----
     
     Separate issue (#823453): the 'get-orig-source' debian/rules target may bitrot.
+  bugs:
+    - 823452
+    - 823453
 kicad:
   version: 4.0.0~rc1a-3
   issues:
