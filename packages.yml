@@ -3795,6 +3795,8 @@ fpga-icestorm:
     Generated file depends on dict (hash) iteration order.
     The dict is declared here: https://sources.debian.net/src/fpga-icestorm/0~20160218gitf2b2549-1/icebox/icebox.py/#L1712
     And iterated here: https://sources.debian.net/src/fpga-icestorm/0~20160218gitf2b2549-1/icebox/icebox_chipdb.py/#L175-L178
+  bugs:
+    - 823616
 fprobe-ulog:
   version: 1.1-7.3
   bugs:
