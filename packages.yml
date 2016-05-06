@@ -1154,10 +1154,6 @@ boolstuff:
   version: 0.1.15-1
   issues:
     - captures_shell_variable_in_autofoo_script
-boost1.55:
-  version: 1.55.0+dfsg-3
-  issues:
-    - timestamps_from_cpp_macros
 boost1.58:
   version: 1.58.0+dfsg-3
   issues:
@@ -1733,10 +1729,6 @@ cnrun:
   version: 1.1.14-1
   issues:
     - timestamps_from_cpp_macros
-coala:
-  version: 1.0.1-5
-  bugs:
-    - 812847
 cobbler:
   version: 2.6.6+dfsg1-2
   comments: |
@@ -2777,12 +2769,6 @@ doxia-sitetools:
 doxygen:
   version: 1.8.9.1-1
   issues:
-    - timezones_manpages_podman
-dpsyco:
-  version: 1.0.36
-  issues:
-    - timestamps_in_gzip_headers
-    - timestamps_in_documentation_generated_by_podman
     - timezones_manpages_podman
 dput:
   version: 0.9.6.4
@@ -7839,10 +7825,6 @@ lice:
     - timestamps_in_gzip_headers
   bugs:
     - 777006
-licq:
-  version: 1.8.2-1
-  issues:
-    - timestamps_from_cpp_macros
 lie:
   version: 2.2.2+dfsg-2
   issues:
@@ -14643,10 +14625,6 @@ vpim:
   bugs:
     - 776930
     - 800195
-vtk:
-  version: 5.10.1+dfsg-2
-  issues:
-    - timestamps_in_jar
 vtk-dicom:
   version: 0.7.4-2
   comments: |
