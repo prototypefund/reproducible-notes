@@ -5524,6 +5524,16 @@ ifrit:
   version: 4.1.2-2
   bugs:
     - 820545
+ikiwiki:
+  version: 3.20160506
+  comments: |
+    When a directive and a plugin have the same name, their order in the index is unpredictable.  Examples:
+    
+    ./doc/plugins/contrib/ikiwiki/directive/album.mdwn
+    ./doc/plugins/contrib/album.mdwn
+    
+    ./doc/plugins/contrib/asymptote/ikiwiki/directive/asymptote.mdwn
+    ./doc/plugins/contrib/asymptote.mdwn
 ikvm:
   version: 7.2.4630.5+ds-1
   issues:
@@ -11430,6 +11440,10 @@ python-memory-profiler:
   version: 0.31+git20141019-1
   bugs:
     - 804442
+python-mkdocs:
+  version: 0.14.0-1
+  comments: |
+    Captures build date (see 'build_date_utc').
 python-mock:
   version: 1.0.1-3
   bugs:
@@ -12925,6 +12939,10 @@ sendip:
   version: 2.5-7
   issues:
     - timestamps_in_manpages_generated_by_help2man
+senlin:
+  version: 1.0.0-1
+  issues:
+    - random_order_in_python_environment_pickle
 sensible-utils:
   version: 0.0.9
   issues:
@@ -13532,6 +13550,13 @@ subread:
   issues:
     - timestamps_in_tarball
     - different_due_to_umask
+sumo:
+  version: 0.25.0+dfsg1-3
+  comments: |
+    Python pydoc HTML documentation includes the repr() of a lambda function, which includes its id(), which is its memory address.
+    
+    >>> repr(lambda: ...)
+    '<function <lambda> at 0x7f447ab28bf8>'
 sundials:
   version: 2.5.0-3
   issues:
