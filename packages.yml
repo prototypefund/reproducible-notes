@@ -12937,6 +12937,8 @@ sen:
     Embeds dpkg-changelog date via «date --date="$(dpkg-parsechangelog --show-field=Date)" +%F»,
     which outputs the changelog date converted to the local timezone.  Setting TZ=UTC should
     resolve the issue.
+  bugs:
+    - 823764
 sendfile:
   version: 2.1b.20080616-5.3
   issues:
