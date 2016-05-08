@@ -28,8 +28,8 @@ def ensure_issues_are_known(issues, packages):
 def main():
     for ref_line in sys.stdin:
         old_value, new_value, ref_name = ref_line.strip().split(' ', 3)
-        issues = yaml.load(read_from_git(new_value, 'issues.yml'))
-        packages = yaml.load(read_from_git(new_value, 'packages.yml'))
+        issues = yaml.safe_load(read_from_git(new_value, 'issues.yml'))
+        packages = yaml.safe_load(read_from_git(new_value, 'packages.yml'))
         validate_issues(issues)
         ensure_issues_are_known(issues, packages)
 
