@@ -11888,6 +11888,12 @@ qsampler:
   version: 0.2.2-5
   issues:
     - timestamps_from_cpp_macros
+qsf:
+  version: 1.2.7-1.2
+  comments: |
+    https://sources.debian.net/src/qsf/1.2.7-1.2/autoconf/make/rules.mk/#L16
+  issues:
+    - different_encoding
 qsopt-ex:
   version: 2.5.10.3-1
   issues:
@@ -12927,6 +12933,12 @@ seelablet:
   version: 0.1.9-1
   issues:
     - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
+sen:
+  version: 0.3.0-1
+  comments: |
+    Embeds dpkg-changelog date via «date --date="$(dpkg-parsechangelog --show-field=Date)" +%F»,
+    which outputs the changelog date converted to the local timezone.  Setting TZ=UTC should
+    resolve the issue.
 sendfile:
   version: 2.1b.20080616-5.3
   issues:
