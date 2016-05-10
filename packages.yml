@@ -1,7 +1,3 @@
-0ad:
-  version: 0.0.17-1
-  issues:
-    - timestamps_from_cpp_macros
 3270font:
   version: 1.2-1
   issues:
@@ -36,10 +32,6 @@ abinit:
   version: 7.8.2-2
   issues:
     - timestamps_in_pdf_generated_by_latex
-abiword:
-  version: 3.0.0-7
-  issues:
-    - timestamps_from_cpp_macros
 aboot:
   version: 1.0~pre20040408-4
   issues:
@@ -49,10 +41,6 @@ ace-of-penguins:
   comments: |
     Iterates over image files (which are embedded into C files) in readdir order:
     https://sources.debian.net/src/ace-of-penguins/1.5%7Erc2-1/lib/make-imglib.c/#L61
-acedb:
-  version: 4.9.39+dfsg.01-5
-  issues:
-    - timestamps_from_cpp_macros
 aces3:
   version: 3.0.8-4
   issues:
@@ -65,18 +53,10 @@ acl2:
     blacklisted for now...
   issues:
     - blacklisted_on_jenkins
-acpica-unix:
-  version: 20140926-1
-  issues:
-    - timestamps_from_cpp_macros
 actdiag:
   version: 0.5.3-5
   bugs:
     - 816735
-actiona:
-  version: 3.9.1-1
-  issues:
-    - timestamps_from_cpp_macros
 activemq:
   version: 5.13.2+dfsg-2
   issues:
@@ -173,10 +153,6 @@ agg:
   version: 2.5+dfsg1-9
   bugs:
     - 822544
-aghermann:
-  version: 1.0.2-1
-  issues:
-    - timestamps_from_cpp_macros
 ahven:
   version: 2.4+repack-1
   issues:
@@ -214,10 +190,6 @@ allegro5:
   version: 2:5.0.11-1
   comments: |
     Includes build timestamp from docs/scripts/insert_timestamp.c but also non-determinstic order of method sigs from docs/scripts/make_man.c
-alliance:
-  version: 5.0-20120515-6
-  issues:
-    - timestamps_from_cpp_macros
 alot:
   version: 0.3.6-1
   bugs:
@@ -242,17 +214,12 @@ am-utils:
   version: 6.2+rc20110530-3.2
   issues:
     - randomness_in_html_generated_by_texi2html
-    - timestamps_from_cpp_macros
     - timestamps_in_gzip_headers
 amanda:
   version: 1:3.3.6-4
   comments: |
     Embed build time:
     http://sources.debian.net/src/amanda/1:3.3.6-4/common-src/Makefile.am/?hl=154#L154
-amarok:
-  version: 2.8.0-2.1
-  issues:
-    - timestamps_from_cpp_macros
 amideco:
   version: 0.31e-3.1
   issues:
@@ -264,10 +231,6 @@ amora-server:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/amora-server/1.2~svn%2Bgit2015.04.25-1/amora-cli/m4/auxdevel.m4/#L126
-amsynth:
-  version: 1.4.2-2
-  issues:
-    - timestamps_from_cpp_macros
 anarchism:
   version: 14.0-4
   issues:
@@ -288,10 +251,6 @@ angband:
   version: 3.3.2-2.1
   issues:
     - timestamps_in_pdf_generated_by_latex
-anjuta:
-  version: 2:3.14.0-1
-  issues:
-    - timestamps_from_cpp_macros
 ann:
   version: 1.1.2+doc-5
   issues:
@@ -329,8 +288,6 @@ aodh:
 aolserver4:
   version: 4.5.1-18
   issues:
-    - timestamps_from_cpp_macros
-    - timestamps_in_documentation_generated_by_groff
     - timestamps_in_gzip_headers
 aolserver4-nsmysql:
   version: 0.6-9
@@ -338,10 +295,6 @@ aolserver4-nsmysql:
     - timestamps_from_cpp_macros
   bugs:
     - 788753
-aolserver4-nsopenssl:
-  version: 3.0beta26-5
-  issues:
-    - timestamps_from_cpp_macros
 aolserver4-nssqlite3:
   version: 0.9-2
   issues:
@@ -360,10 +313,6 @@ apache2:
   version: 2.4.20-1
   issues:
     - captures_shell_variable_in_autofoo_script
-apbs:
-  version: 1.4-1
-  issues:
-    - timestamps_from_cpp_macros
 apcalc:
   version: 2.12.5.0-1
   issues:
@@ -505,10 +454,6 @@ apwal:
   version: 0.4.5-1
   bugs:
     - 823428
-aqsis:
-  version: 1.8.2-1
-  issues:
-    - timestamps_from_cpp_macros
 ara:
   version: 1.0.31
   comments: |
@@ -545,10 +490,6 @@ argyll:
   comments: |
     Embed build time:
     http://sources.debian.net/src/argyll/1.6.3-4/cgats/cgats.c/#L1323
-aria2:
-  version: 1.18.8-1
-  issues:
-    - timestamps_from_cpp_macros
 ario:
   version: 1.5.1-1.3
   comments: |
@@ -571,14 +512,6 @@ asc:
   version: 2.6.1.0-1
   issues:
     - timestamps_in_zip
-ascd:
-  version: 0.13.2-5
-  issues:
-    - timestamps_from_cpp_macros
-ascii2binary:
-  version: 2.14-1
-  issues:
-    - timestamps_from_cpp_macros
 asciidoc:
   version: 8.6.9-3
   bugs:
@@ -724,10 +657,6 @@ auctex:
   issues:
     - timestamps_in_emacs_autoloads
     - timestamps_in_pdf_generated_by_latex
-audacity:
-  version: 2.0.6-2
-  issues:
-    - timestamps_from_cpp_macros
 audiotools:
   version: 3.1.1-1
   comments: |
@@ -753,10 +682,6 @@ autoconf2.59:
   version: 2.59+dfsg-0.1
   issues:
     - captures_shell_variable_in_autofoo_script
-autodocksuite:
-  version: 4.2.6-2
-  issues:
-    - timestamps_from_cpp_macros
 automake-1.15:
   version: 1:1.15-1
   issues:
@@ -785,10 +710,6 @@ avr-libc:
   version: 1:1.8.0+Atmel3.4.5-1
   issues:
     - different_due_to_umask
-awardeco:
-  version: 0.2-3.1
-  issues:
-    - timestamps_from_cpp_macros
 awesfx:
   version: 0.5.1a-1.1
   bugs:
@@ -838,10 +759,6 @@ backup-manager:
   version: 0.7.10.1-2
   issues:
     - timestamps_in_pdf_generated_by_latex
-bacula:
-  version: 5.2.6+dfsg-9.3
-  issues:
-    - timestamps_from_cpp_macros
 bacula-doc:
   version: 5.2.6-3
   issues:
@@ -850,18 +767,10 @@ ball:
   version: 1.4.2+20140406-1.1
   bugs:
     - 777791
-ballerburg:
-  version: 1.1.0-1
-  issues:
-    - timestamps_from_cpp_macros
 baloo-kf5:
   version: 5.16.0-1
   bugs:
     - 822499
-bam:
-  version: 0.4.0-3
-  issues:
-    - timestamps_from_cpp_macros
 bandit:
   version: 0.13.2-3
   bugs:
@@ -918,10 +827,6 @@ bats:
   version: 0.4.0-1
   bugs:
     - 802191
-bb:
-  version: 1.3rc1-8.1
-  issues:
-    - timestamps_from_cpp_macros
 bbdb:
   version: 2.36-4
   issues:
@@ -975,14 +880,6 @@ beets:
   version: 1.3.8+dfsg-2
   bugs:
     - 792060
-berusky:
-  version: 1.4-1
-  issues:
-    - timestamps_from_cpp_macros
-berusky2:
-  version: 0.10-3
-  issues:
-    - timestamps_from_cpp_macros
 bglibs:
   version: 1.106-1.1
   issues:
@@ -1027,20 +924,6 @@ bin-prot:
   version: 111.03.00-1
   issues:
     - randomness_in_ocaml_preprocessed_files
-bind9:
-  version: 1:9.9.5.dfsg-9
-  issues:
-    - timestamps_from_cpp_macros
-  bugs:
-    - 783885
-bindechexascii:
-  version: 0.0+20140524.git7dcd86-1
-  issues:
-    - timestamps_from_cpp_macros
-binkd:
-  version: 1.0.4-1
-  issues:
-    - timestamps_from_cpp_macros
 bintray-client-java:
   version: 0.8.1-1
   issues:
@@ -1117,10 +1000,6 @@ blitz++:
     https://sources.debian.net/src/blitz%2B%2B/1:0.10-3.2/m4/ac_check_cxx_features.m4/#L29-L30
   issues:
     - captures_kernel_version
-blktrace:
-  version: 1.0.5-1
-  issues:
-    - timestamps_from_cpp_macros
 blockattack:
   version: 1.4.1+ds1-2.1
   comments: |
@@ -1145,10 +1024,6 @@ bogofilter:
   version: 1.2.4+dfsg1-4
   bugs:
     - 815866
-boinc:
-  version: 7.4.23+dfsg-1
-  issues:
-    - timestamps_from_cpp_macros
 boolector:
   version: 1.5.118.6b56be4.121013-1
   comments: |
@@ -1160,14 +1035,6 @@ boolstuff:
   version: 0.1.15-1
   issues:
     - captures_shell_variable_in_autofoo_script
-boost1.58:
-  version: 1.58.0+dfsg-3
-  issues:
-    - timestamps_from_cpp_macros
-boost1.60:
-  version: 1.60.0+dfsg-4
-  issues:
-    - timestamps_from_cpp_macros
 bootchart:
   version: 0.10~svn407-4.1
   issues:
@@ -1213,10 +1080,6 @@ brickos:
   version: 0.9.0.dfsg-12
   comments: |
     Tried adding SOURCE_DATE_EPOCH with https://gist.github.com/lamby/2d9f1c62ec4f633b63c9 to remove timestamp but not working for some reason
-brltty:
-  version: 5.3.1-1
-  issues:
-    - timestamps_from_cpp_macros
 broccoli:
   version: 1.97-3
   comments: |
@@ -1253,20 +1116,12 @@ bulletml:
   version: 0.0.6-6.1
   issues:
     - random_order_in_static_libraries
-bwctl:
-  version: 1.4.1~rc2-1
-  issues:
-    - timestamps_from_cpp_macros
 bytecode:
   version: 0.92.svn.20090106-1.1
   issues:
     - timestamps_in_jar
     - timestamps_in_documentation_generated_by_javadoc
     - locale_in_documentation_generated_by_javadoc
-bzflag:
-  version: 2.4.2+ds1-5
-  issues:
-    - timestamps_from_cpp_macros
 bzr:
   version: 2.6.0+bzr6602-3
   issues:
@@ -1316,10 +1171,6 @@ cairo-5c:
   version: 1.8.1
   bugs:
     - 708459
-cairo-dock:
-  version: 3.4.0-1
-  issues:
-    - timestamps_from_cpp_macros
 calligra:
   version: 1:2.8.5+dfsg-1
   issues:
@@ -1374,10 +1225,6 @@ castor:
   version: 1.3.2-3
   issues:
     - locale_in_documentation_generated_by_javadoc
-cc1111:
-  version: 2.9.0-4
-  issues:
-    - timestamps_from_cpp_macros
 cclib:
   version: 1.3.1-1
   issues:
@@ -1397,10 +1244,6 @@ ccze:
   bugs:
     - 777297
     - 792950
-cd-hit:
-  version: 4.6.1-2012-08-27-2
-  issues:
-    - timestamps_from_cpp_macros
 cdbackup:
   version: 0.7.0-5
   bugs:
@@ -1428,10 +1271,6 @@ cduce:
   version: 0.6.0-1
   bugs:
     - 796418
-cegui-mk2:
-  version: 0.7.6-3.3
-  issues:
-    - timestamps_from_cpp_macros
 ceilometer:
   version: 2015.1.0-6
   issues:
@@ -1440,10 +1279,6 @@ celery:
   version: 3.1.13-3
   issues:
     - randomness_in_documentation_generated_by_sphinx
-cenon.app:
-  version: 4.0.2-1
-  issues:
-    - timestamps_from_cpp_macros
 ceph:
   version: 0.80.9-2
   comments: |
@@ -1559,10 +1394,6 @@ chimera2:
   bugs:
     - 777302
     - 792949
-chipw:
-  version: 2.0.6-1.2
-  issues:
-    - timestamps_from_cpp_macros
 chktex:
   version: 1.7.4-1
   bugs:
@@ -1695,38 +1526,16 @@ cloud-init:
   version: 0.7.6~bzr976-2
   bugs:
     - 780637
-clp:
-  version: 1.15.10-1
-  issues:
-    - timestamps_from_cpp_macros
-clustalo:
-  version: 1.2.1-1
-  issues:
-    - timestamps_from_cpp_macros
 clutter-gst-2.0:
   version: 2.0.18-1
   bugs:
     - 822432
-cmatrix:
-  version: 1.2a-5
-  issues:
-    - timestamps_from_cpp_macros
 cmor:
   version: 2.9.1-5
   comments: |
     This library adds timestamps inside function methods.
     When the example files are generated the current time is saved.
     Command to find where are set the timestamps: ack-grep -B3 snprintf.*ptr
-cmtk:
-  version: 3.2.2-1.3
-  comments: |
-    Also timestamps embedded into several manpages.
-  issues:
-    - timestamps_from_cpp_macros
-cnrun:
-  version: 1.1.14-1
-  issues:
-    - timestamps_from_cpp_macros
 cobbler:
   version: 2.6.6+dfsg1-2
   comments: |
@@ -1740,10 +1549,6 @@ coco-java:
   version: 20110419-3.1
   issues:
     - timestamps_in_jar
-code-saturne:
-  version: 3.3.2-2
-  issues:
-    - timestamps_from_cpp_macros
 code2html:
   version: 0.9.1-4
   bugs:
@@ -1764,10 +1569,6 @@ coin3:
   version: 3.1.4~abc9f50+dfsg1-1
   issues:
     - random_order_in_static_libraries
-coinor-cbc:
-  version: 2.8.12-1
-  issues:
-    - timestamps_from_cpp_macros
 coinor-cgl:
   version: 0.58.9-1
   issues:
@@ -1776,10 +1577,6 @@ coinor-ipopt:
   version: 3.11.9-2.1
   issues:
     - random_order_in_static_libraries
-coinor-symphony:
-  version: 5.6.1-1
-  issues:
-    - timestamps_from_cpp_macros
 coldfire:
   version: 0.2.2-2.3
   issues:
@@ -1846,10 +1643,6 @@ complexity:
   version: 1.3+dfsg-1
   issues:
     - timestamps_in_manpages_generated_by_autogen
-composite:
-  version: 0.006.2+dfsg0-4
-  issues:
-    - timestamps_from_cpp_macros
 compute:
   version: 0.5-1
   comments: |
@@ -1985,10 +1778,6 @@ crash:
   comments: |
     Embed build time, user, and groups:
     https://sources.debian.net/src/crash/7.0.8-1/configure.c/?hl=1183:1184#L1183
-crashmail:
-  version: 1.5-1
-  issues:
-    - timestamps_from_cpp_macros
 criticalmass:
   version: 1:1.0.0-3
   comments: |
@@ -2005,10 +1794,6 @@ cross-binutils:
     - different_due_to_umask
   bugs:
     - 802859
-crrcsim:
-  version: 0.9.12-6.1
-  issues:
-    - timestamps_from_cpp_macros
 csh:
   version: 20110502-2.1
   issues:
@@ -2017,10 +1802,6 @@ cssutils:
   version: 1.0-4
   bugs:
     - 798023
-csvimp:
-  version: 0.5.0-2
-  issues:
-    - timestamps_from_cpp_macros
 csync2:
   version: 2.0+73d3293-2
   issues:
@@ -2137,10 +1918,6 @@ cyclades-serial-client:
     https://sources.debian.net/src/cyclades-serial-client/0.92/configure.in/?hl=6:7#L6
     http://sources.debian.net/src/cyclades-serial-client/0.92/inc/misc.h.in/?hl=26#L26
     http://sources.debian.net/src/cyclades-serial-client/0.92/cyclades-ser-cli.c/?hl=46#L46
-cyphesis-cpp:
-  version: 0.6.0-2
-  issues:
-    - timestamps_from_cpp_macros
 cyrus-imapd:
   version: 2.5.7-1
   issues:
@@ -2161,10 +1938,6 @@ dacs:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/dacs/1.4.28b-3/src/mkstamp/?hl=21
-dact:
-  version: 0.8.42-4
-  issues:
-    - timestamps_from_cpp_macros
 dactyl:
   version: 1.2~hg7166-1
   comments: |
@@ -2198,18 +1971,6 @@ dapl:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/dapl/2.1.5-1/Makefile.am/#L51
-dar:
-  version: 2.4.15-1
-  issues:
-    - timestamps_from_cpp_macros
-darcs:
-  version: 2.10.0-1
-  issues:
-    - timestamps_from_cpp_macros
-darkradiant:
-  version: 2.0.2-2
-  issues:
-    - timestamps_from_cpp_macros
 datanommer.commands:
   version: 0.4.6-2
   bugs:
@@ -2310,10 +2071,6 @@ dc3dd:
   version: 7.2.641-3
   issues:
     - timestamps_in_manpages_generated_by_help2man
-dcap:
-  version: 2.47.8-2
-  issues:
-    - timestamps_from_cpp_macros
 dcmstack:
   version: 0.6.2+git33-gb43919a.1-1
   issues:
@@ -2515,10 +2272,6 @@ dhcping:
   bugs:
     - 777320
     - 792953
-dia:
-  version: 0.97.3-1
-  issues:
-    - timestamps_from_cpp_macros
 diagnostics:
   version: 0.3.3-11
   bugs:
@@ -2583,10 +2336,6 @@ dietlibc:
     - timestamps_in_gzip_headers
   bugs:
     - 813892
-digikam:
-  version: 4:4.4.0-1
-  issues:
-    - timestamps_from_cpp_macros
 diploma:
   version: 1.2.11
   issues:
@@ -2600,10 +2349,6 @@ dipy:
     - timestamps_in_documentation_generated_by_sphinx
 directfb:
   version: 1.2.10.0-5.1
-  issues:
-    - timestamps_from_cpp_macros
-distcc:
-  version: 3.1-6.1
   issues:
     - timestamps_from_cpp_macros
 dita-ot:
@@ -2730,10 +2475,6 @@ doit:
   version: 0.28.0-1
   issues:
     - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
-dolphin-emu:
-  version: 4.0.2+dfsg-2
-  issues:
-    - timestamps_from_cpp_macros
 dom4j:
   version: 1.6.1+dfsg.3-2
   issues:
@@ -2797,18 +2538,10 @@ drift:
   version: 2.2.3-2.3
   issues:
     - timestamps_in_ps_generated_by_dvips
-drumkv1:
-  version: 0.5.1-1
-  issues:
-    - timestamps_from_cpp_macros
 dsc-statistics:
   version: 201203250530-2
   issues:
     - fonts_in_pdf_files
-dtach:
-  version: 0.8-2.1
-  issues:
-    - timestamps_from_cpp_macros
 dtaus:
   version: 0.9-1
   issues:
@@ -2839,14 +2572,6 @@ dupload:
   version: 2.7.0
   issues:
     - timezones_manpages_podman
-dvbsnoop:
-  version: 1.4.50-5
-  issues:
-    - timestamps_from_cpp_macros
-dvbstreamer:
-  version: 2.1.0-5
-  issues:
-    - timestamps_from_cpp_macros
 dvbtune:
   version: 0.5.ds-1
   bugs:
@@ -2881,10 +2606,6 @@ ecl:
   version: 15.3.7+dfsg1-1
   issues:
     - build_id_variation_requiring_further_investigation
-eclib:
-  version: 2014-09-21-1
-  issues:
-    - timestamps_from_cpp_macros
 eclipse:
   version: 3.8.1-8
   comments: |
@@ -2938,28 +2659,12 @@ eclipse-xsd:
   version: 2.9.0-1
   issues:
     - timestamps_in_jar
-ed2k-hash:
-  version: 0.3.3+deb2-1.1
-  issues:
-    - timestamps_from_cpp_macros
-edfbrowser:
-  version: 1.54-2
-  issues:
-    - timestamps_from_cpp_macros
 eep24c:
   version: 0.1.2-5
   issues:
     - timestamps_in_gzip_headers
   bugs:
     - 777327
-efax:
-  version: 1:0.9a-19
-  issues:
-    - timestamps_from_cpp_macros
-efax-gtk:
-  version: 3.2.8-2
-  issues:
-    - timestamps_from_cpp_macros
 eficas:
   version: 6.4.0-1-1.1
   bugs:
@@ -2968,10 +2673,6 @@ efitools:
   version: 1.4.2-1
   bugs:
     - 822262
-efl:
-  version: 1.8.6-2.1
-  issues:
-    - timestamps_from_cpp_macros
 eigen3:
   version: 3.3~beta1-2
   issues:
@@ -3175,18 +2876,10 @@ exabgp:
   version: 3.4.13-1
   issues:
     - ftbfs_uninvestigated_test_failures
-exiv2:
-  version: 0.24-4
-  issues:
-    - timestamps_from_cpp_macros
 exo:
   version: 0.10.2-4
   comments: |
     No clue. But seems to be similar to garcon.
-exonerate:
-  version: 2.2.0-6
-  issues:
-    - timestamps_from_cpp_macros
 expeyes:
   version: 4.0.0-1
   bugs:
@@ -3210,10 +2903,6 @@ ezstream:
   comments: |
     Embeds the build date into manpages.
     https://sources.debian.net/src/ezstream/0.5.6%7Edfsg-1/configure.in/#L20
-f-irc:
-  version: 1.36-1
-  issues:
-    - timestamps_from_cpp_macros
 fabric:
   version: 1.10.2-1
   issues:
@@ -3240,10 +2929,6 @@ fakechroot:
   version: 2.18-1
   issues:
     - captures_shell_variable_in_autofoo_script
-fakepop:
-  version: 11
-  issues:
-    - timestamps_from_cpp_macros
 fakeroot:
   version: 1.20.2-1
   issues:
@@ -3272,10 +2957,6 @@ faumachine:
   version: 20120707-3
   bugs:
     - 746843
-fbb:
-  version: 7.05f-2
-  issues:
-    - timestamps_from_cpp_macros
 fbreader:
   version: 0.12.10dfsg-10
   issues:
@@ -3372,10 +3053,6 @@ filepp:
   version: 1.8.0-4
   comments: |
     Contain timestamp in /usr/share/man/man1/filepp.1.gz
-filezilla:
-  version: 3.9.0.5-1
-  issues:
-    - timestamps_from_cpp_macros
 filler:
   version: 1.02-6.2
   issues:
@@ -3405,10 +3082,6 @@ fis-gtm:
   version: 6.2-002A-2
   comments: |
     Really curious diffoscope where a very large number of 0x01 bytes in the a build 0x02 in the b build. Possibly an offset difference rather than literal difference?
-fityk:
-  version: 1.2.1-0.1
-  issues:
-    - timestamps_from_cpp_macros
 fizmo:
   version: 0.7.9-1
   issues:
@@ -3430,10 +3103,6 @@ flask-restful:
   version: 0.3.4-1
   bugs:
     - 809780
-flasm:
-  version: 1.62-7
-  issues:
-    - timestamps_from_cpp_macros
 fleet:
   version: 0.11.5+dfsg1-4
   issues:
@@ -3454,10 +3123,6 @@ flickrfs:
   version: 1.3.9.1-9.2
   bugs:
     - 750288
-flightgear:
-  version: 3.0.0-4
-  issues:
-    - timestamps_from_cpp_macros
 flint:
   version: 2.5.2-3
   bugs:
@@ -3489,18 +3154,10 @@ flute:
   version: 1:1.1.6-3
   issues:
     - locale_in_documentation_generated_by_javadoc
-fluxbox:
-  version: 1.3.5-2
-  issues:
-    - timestamps_from_cpp_macros
 flycheck:
   version: 0.25.1-1
   bugs:
     - 818142
-fmit:
-  version: 0.99.2-1
-  issues:
-    - timestamps_from_cpp_macros
 fntsample:
   version: 3.2-6
   comments: |
@@ -3764,10 +3421,6 @@ fortunes-fr:
   version: 0.65+nmu2
   comments: |
     Randomess in .dat files, probably caused by strfile, filesystem ordering (see $(shell ls...)), or the utf recoding done in debian/rules
-fossil:
-  version: 1:1.29-1
-  issues:
-    - timestamps_from_cpp_macros
 foxeye:
   version: 0.10.1-1
   comments: |
@@ -3813,10 +3466,6 @@ freedict:
   version: 2014.10.22-2
   issues:
     - timestamps_in_dictionaries
-freedink-dfarc:
-  version: 3.12-1
-  issues:
-    - timestamps_from_cpp_macros
 freedoom:
   version: 0.9-1
   issues:
@@ -3837,10 +3486,6 @@ freefoam:
   version: 0.1.0+dfsg+1-3
   issues:
     - diffoscope_runs_forever
-freehdl:
-  version: 0.0.8-2.1
-  issues:
-    - timestamps_from_cpp_macros
 freeipa:
   version: 4.0.5-6
   bugs:
@@ -3849,25 +3494,10 @@ freeipmi:
   version: 1.4.9-1
   bugs:
     - 794792
-freemedforms-project:
-  version: 0.9.4-1
-  issues:
-    - timestamps_from_cpp_macros
 freeorion:
   version: 0.4.5-1
   issues:
     - blacklisted_on_jenkins_armhf_only
-freeplayer:
-  version: 20070531+dfsg.1-3
-  comments: |
-    The macro used (__DATE__) is in the sources of a compressed file,
-    share/fbx-playlist-1.1.tar.gz.
-  issues:
-    - timestamps_from_cpp_macros
-freeradius:
-  version: 2.2.5+dfsg-0.2
-  issues:
-    - timestamps_from_cpp_macros
 freerdp:
   version: 1.1.0~git20140921.1.440916e+dfsg1-4
   issues:
@@ -3955,10 +3585,6 @@ fw4spl:
   version: 0.9.2-3
   bugs:
     - 797481
-fxload:
-  version: 0.0.20081013-1
-  issues:
-    - timestamps_from_cpp_macros
 g15daemon:
   version: 1.9.5.3-8.3
   comments: |
@@ -4189,8 +3815,6 @@ gdb-arm-none-eabi:
   version: 9
   comments: |
     Uses gdb-source package, which contains __DATE__ / __TIME__.
-  issues:
-    - timestamps_from_cpp_macros
 gdb-avr:
   version: 7.7-2
   issues:
@@ -4213,22 +3837,10 @@ gdm3:
   version: 3.14.1-3
   issues:
     - different_pot_creation_date_in_gettext_mo_files
-geany:
-  version: 1.24.1+dfsg-1
-  issues:
-    - timestamps_from_cpp_macros
-geany-plugins:
-  version: 1.24+dfsg-5
-  issues:
-    - timestamps_from_cpp_macros
 gearmand:
   version: 1.0.6-5
   bugs:
     - 790380
-geda-gaf:
-  version: 1:1.8.2-4
-  issues:
-    - timestamps_from_cpp_macros
 gegl:
   version: 0.2.0-7.1
   comments: |
@@ -4309,10 +3921,6 @@ gevent-socketio:
   version: 0.3.6-2
   issues:
     - copyright_year_in_documentation_generated_by_sphinx
-gfm:
-  version: 1.07-1
-  issues:
-    - timestamps_from_cpp_macros
 gfpoken:
   version: 1-2
   comments: |
@@ -4340,18 +3948,6 @@ gif2apng:
   version: 1.7-3
   bugs:
     - 782201
-gif2png:
-  version: 2.5.8-1
-  issues:
-    - timestamps_from_cpp_macros
-giflib:
-  version: 4.1.6-11
-  issues:
-    - timestamps_from_cpp_macros
-gifticlib:
-  version: 1.0.9-1
-  issues:
-    - timestamps_from_cpp_macros
 gimp:
   version: 2.8.16-1
   comments: |
@@ -4360,10 +3956,6 @@ gimp-help:
   version: 2.8.2-0.1
   issues:
     - blacklisted_on_jenkins_armhf_only
-ginkgocadx:
-  version: 3.7.0.1465.37+dfsg-1
-  issues:
-    - timestamps_from_cpp_macros
 gio-sharp:
   version: 2.22.3-2
   comments: |
@@ -4436,10 +4028,6 @@ gkrellmwireless:
   version: 2.0.3-1
   bugs:
     - 800308
-glaurung:
-  version: 2.2-2
-  issues:
-    - timestamps_from_cpp_macros
 glibc:
   version: 2.19-18
   issues:
@@ -4462,10 +4050,6 @@ glosstex:
   version: 0.4.dfsg.1-3
   issues:
     - pdf_created_by_ghostscript
-glusterfs:
-  version: 3.5.2-1
-  issues:
-    - timestamps_from_cpp_macros
 gmetrics:
   version: 0.5-1
   issues:
@@ -4530,7 +4114,6 @@ gnat-mingw-w64:
 gnokii:
   version: 0.6.30+dfsg-1
   issues:
-    - timestamps_from_cpp_macros
     - different_due_to_umask
 gnome-bluetooth:
   version: 3.18.3-1
@@ -4606,10 +4189,6 @@ gnubg:
   version: 1.05.000-4
   issues:
     - timestamps_in_pdf_generated_by_latex
-gnubiff:
-  version: 2.2.15-4
-  issues:
-    - timestamps_from_cpp_macros
 gnucash:
   version: 2.6.8-1
   issues:
@@ -4622,14 +4201,6 @@ gnudoq:
   version: 0.94-2.1
   bugs:
     - 817296
-gnugk:
-  version: 2:3.6-1
-  issues:
-    - timestamps_from_cpp_macros
-gnuit:
-  version: 4.9.5-3
-  issues:
-    - timestamps_from_cpp_macros
 gnumeric:
   version: 1.12.28-1
   bugs:
@@ -4699,10 +4270,6 @@ goaccess:
     - timestamps_from_cpp_macros
   bugs:
     - 803893
-gocr:
-  version: 0.49-2
-  issues:
-    - timestamps_from_cpp_macros
 golang:
   version: 2:1.4.2-3
   issues:
@@ -4819,14 +4386,6 @@ golang-x-text:
   version: 0+git20150518.c93e7c9-1
   issues:
     - ftbfs_uninvestigated_test_failures
-goldencheetah:
-  version: 3.1.0-1
-  issues:
-    - timestamps_from_cpp_macros
-gom:
-  version: 0.30.2-6
-  issues:
-    - timestamps_from_cpp_macros
 gomoku.app:
   version: 1.2.9-1
   bugs:
@@ -4839,18 +4398,10 @@ google-perftools:
   version: 2.2.1-0.2
   issues:
     - ftbfs_uninvestigated_test_failures
-gopchop:
-  version: 1.1.8-5
-  issues:
-    - timestamps_from_cpp_macros
 goplay:
   version: 0.9.1
   issues:
     - timestamps_in_documentation_generated_with_libwibble
-gosmore:
-  version: 0.0.0.20100711-2.1
-  issues:
-    - timestamps_from_cpp_macros
 gosu:
   version: 1.6-1
   issues:
@@ -4868,10 +4419,6 @@ gpsbabel:
   version: 1.5.0-3
   issues:
     - timestamps_in_pdf_generated_by_apache_fop
-gpsim:
-  version: 0.29.0-1
-  issues:
-    - timestamps_from_cpp_macros
 gpsmanshp:
   version: 1.2.3-4
   issues:
@@ -4885,10 +4432,6 @@ gpt:
   version: 1.1-2
   bugs:
     - 791524
-gputils:
-  version: 1.4.0-0.1
-  issues:
-    - timestamps_from_cpp_macros
 gpw:
   version: 0.0.19940601-8.1
   bugs:
@@ -4934,10 +4477,6 @@ graxxia:
   version: 1.0~20150714-1
   bugs:
     - 823653
-grcompiler:
-  version: 4.2-4
-  issues:
-    - timestamps_from_cpp_macros
 gretl:
   version: 1.9.92-1
   comments: |
@@ -4960,10 +4499,6 @@ grilo:
   version: 0.2.11-2
   issues:
     - gtk_doc_api_index_full
-grisbi:
-  version: 1.0.0-2
-  issues:
-    - timestamps_from_cpp_macros
 grml-debootstrap:
   version: 0.73
   issues:
@@ -5069,10 +4604,6 @@ gtkdataboxmm:
   version: 0.9.4-3
   issues:
     - leaks_path_environment_variable
-gtkpod:
-  version: 2.1.4-4
-  issues:
-    - timestamps_from_cpp_macros
 gtkspell:
   version: 2.0.16-1.1
   issues:
@@ -5150,10 +4681,6 @@ gutenprint:
     http://permalink.gmane.org/gmane.linux.printing.gimp-print.devel/11877
     Fixed in upstream vcs:
     http://gimp-print.cvs.sourceforge.net/viewvc/gimp-print/print/src/foomatic/foomatic-generator.in?r1=1.83&r2=1.84
-gvpe:
-  version: 2.25-2
-  issues:
-    - timestamps_from_cpp_macros
 gvrng:
   version: 4.4-1
   bugs:
@@ -5184,14 +4711,6 @@ hardinfo:
   comments: |
     Embeds system information.
     https://sources.debian.net/src/hardinfo/0.5.1-1.5/configure/#L189-L191
-hardlink:
-  version: 0.3.0
-  issues:
-    - timestamps_from_cpp_macros
-hashrat:
-  version: 1.6.1-1
-  issues:
-    - timestamps_from_cpp_macros
 haskell-cabal:
   version: 1.22.5.0-2
   issues:
@@ -5212,10 +4731,6 @@ haskell-yi-language:
   version: 0.2.0-1
   bugs:
     - 814997
-hatari:
-  version: 1.8.0+dfsg-1
-  issues:
-    - timestamps_from_cpp_macros
 hawtdispatch:
   version: 1.20-1
   issues:
@@ -5264,10 +4779,6 @@ hercules:
   version: 3.07-2.3
   issues:
     - timestamps_from_cpp_macros
-herculesstudio:
-  version: 1.5.0-2
-  issues:
-    - timestamps_from_cpp_macros
 hex-a-hop:
   version: 0.0.20070315-8
   issues:
@@ -5298,10 +4809,6 @@ hocr:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/hocr/0.10.17-2/configure.ac/#L269
-hoichess:
-  version: 0.10.3-6.1
-  issues:
-    - timestamps_from_cpp_macros
 hol88:
   version: 2.02.19940316-28
   issues:
@@ -5321,10 +4828,6 @@ hpanel:
   version: 0.3.2-4
   bugs:
     - 782216
-hpcc:
-  version: 1.4.1-3
-  issues:
-    - timestamps_from_cpp_macros
 hsqldb:
   version: 2.2.9+dfsg-4
   comments: |
@@ -5380,10 +4883,6 @@ hyde:
   version: 0.8.5a1-4
   issues:
     - needs_internet_access_to_build
-hydrogen:
-  version: 0.9.6.1-1
-  issues:
-    - timestamps_from_cpp_macros
 hylafax:
   version: 3:6.0.6-6
   bugs:
@@ -5396,18 +4895,6 @@ hyperic-sigar:
   version: 1.6.4+dfsg-2.1
   issues:
     - build_id_variation_requiring_further_investigation
-hyphy:
-  version: 2.2.5+dfsg-2
-  issues:
-    - timestamps_from_cpp_macros
-hypre:
-  version: 2.8.0b-2
-  issues:
-    - timestamps_from_cpp_macros
-i2util:
-  version: 1.2-1
-  issues:
-    - timestamps_from_cpp_macros
 i3-wm:
   version: 4.10.4-1
   issues:
@@ -5520,24 +5007,12 @@ imapcopy:
   version: 1.04-2
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-incron:
-  version: 0.5.10-2
-  issues:
-    - timestamps_from_cpp_macros
-infiniband-diags:
-  version: 1.6.4-3
-  issues:
-    - timestamps_from_cpp_macros
 infinipath-psm:
   version: 3.3+7.gec1d6d2-3
   comments: |
     Embeds the bild date.
     https://sources.debian.net/src/infinipath-psm/3.3%2B7.g05f6f14.open-1/ipath/Makefile/#L73
     https://sources.debian.net/src/infinipath-psm/3.3%2B7.g05f6f14.open-1/Makefile/#L273
-infon:
-  version: 0~r198-8
-  issues:
-    - timestamps_from_cpp_macros
 inn:
   version: 1.7.2q-44
   issues:
@@ -5596,10 +5071,6 @@ iproute2:
   version: 3.16.0-2
   bugs:
     - 783276
-ips:
-  version: 4.0-1
-  issues:
-    - timestamps_from_cpp_macros
 ipsvd:
   version: 1.0.0-3
   issues:
@@ -5609,27 +5080,10 @@ ipsvd:
   bugs:
     - 777417
     - 792985
-iptotal:
-  version: 0.3.3-13
-  comments: |
-    https://sources.debian.net/src/iptotal/0.3.3-13/iptotal.c/#L530
-    https://sources.debian.net/src/iptotal/0.3.3-13/iptotal.c/#L619
-  issues:
-    - timestamps_from_cpp_macros
-ipv6calc:
-  version: 0.99.1-1
-  issues:
-    - timestamps_from_cpp_macros
 ipython:
   version: 2.4.1-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
-iqtree:
-  version: 1.3.11.1+dfsg-1
-  comments: |
-    __DATE__ macro also leaks into the manpage via help2man.
-  issues:
-    - timestamps_from_cpp_macros
 ircd-irc2:
   version: 2.11.2p3~dfsg-4
   comments: |
@@ -5680,10 +5134,6 @@ ivyplusplus:
   version: 1.14-2
   issues:
     - different_encoding
-jabber-muc:
-  version: 0.8-4
-  issues:
-    - timestamps_from_cpp_macros
 jacal:
   version: 1b9-6
   bugs:
@@ -5728,10 +5178,6 @@ jaminid:
     - timestamps_in_jar
     - timestamps_in_documentation_generated_by_javadoc
     - locale_in_documentation_generated_by_javadoc
-jamnntpd:
-  version: 1.2-1
-  issues:
-    - timestamps_from_cpp_macros
 janino:
   version: 2.7.0-2
   issues:
@@ -5902,14 +5348,6 @@ joe:
   bugs:
     - 777726
     - 793696
-joy2key:
-  version: 1.6.3-1
-  issues:
-    - timestamps_from_cpp_macros
-jpilot:
-  version: 1.8.2-1
-  issues:
-    - timestamps_from_cpp_macros
 jpy:
   version: 0.8-1
   comments: |
@@ -5994,10 +5432,6 @@ juman:
   version: 7.0-3.2
   issues:
     - timezones_manpages_podman
-jumpnbump:
-  version: 1.51+dfsg1-2
-  issues:
-    - timestamps_from_cpp_macros
 junior-doc:
   version: 1.16.1
   issues:
@@ -6008,10 +5442,6 @@ junitperf:
   version: 1.9.1-8
   issues:
     - locale_in_documentation_generated_by_javadoc
-jvim:
-  version: 3.0-2.1b-3
-  issues:
-    - timestamps_from_cpp_macros
 jxplorer:
   version: 3.3.2+dfsg-2
   issues:
@@ -6043,10 +5473,6 @@ kamera:
   version: 4:4.14.2-1
   bugs:
     - 821324
-kanatest:
-  version: 0.4.8-3
-  issues:
-    - timestamps_from_cpp_macros
 kanla:
   version: 1.5-1
   issues:
@@ -6078,14 +5504,6 @@ kbookmarks:
   version: 5.16.0-1
   bugs:
     - 814699
-kbuild:
-  version: 1:0.1.9998svn2695+dfsg-2
-  issues:
-    - timestamps_from_cpp_macros
-kchmviewer:
-  version: 7.5-1
-  issues:
-    - timestamps_from_cpp_macros
 kcov:
   version: 25+dfsg-1
   bugs:
@@ -6318,10 +5736,6 @@ kon2:
   version: 0.3.9b-20
   bugs:
     - 815605
-konclude:
-  version: 0.6.1-1
-  issues:
-    - timestamps_from_cpp_macros
 konwert:
   version: 1.8-11.2
   bugs:
@@ -6334,18 +5748,10 @@ krb5:
   version: 1.13.2+dfsg-5
   issues:
     - timestamps_in_pdf_generated_by_latex
-krename:
-  version: 4.0.9-3
-  issues:
-    - timestamps_from_cpp_macros
 krunner:
   version: 5.16.0-1
   bugs:
     - 814699
-kscope:
-  version: 1.9.4-2
-  issues:
-    - timestamps_from_cpp_macros
 ksh:
   version: 93u+20120801-2
   issues:
@@ -6363,10 +5769,6 @@ kvirc:
   comments: |
     Username and timestamp embedded in documentation generated with shipped script:
     https://sources.debian.net/src/kvirc/4:4.2.0-2/admin/gendoc.pl/#L204
-kvpnc:
-  version: 0.9.6a-2.1
-  issues:
-    - timestamps_from_cpp_macros
 kwayland:
   version: 4:5.3.2-1
   bugs:
@@ -6464,10 +5866,6 @@ lcov:
   version: 1.12-2
   issues:
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-lcrack:
-  version: 20040914-1
-  issues:
-    - timestamps_from_cpp_macros
 ldaptor:
   version: 0.0.43+debian1-7
   issues:
@@ -6501,10 +5899,6 @@ leds-alix:
   issues:
     - timestamps_in_jar
     - different_due_to_umask
-leocad:
-  version: 0.80.3-1
-  issues:
-    - timestamps_from_cpp_macros
 lfm:
   version: 3.0-1
   issues:
@@ -6521,10 +5915,6 @@ libaccounts-qt:
   version: 1.13+20150813-1
   issues:
     - timestamps_in_qch
-libace-perl:
-  version: 1.92-3
-  issues:
-    - timestamps_from_cpp_macros
 libalog:
   version: 0.5.0-1
   bugs:
@@ -6603,12 +5993,6 @@ libbrahe:
   version: 1.3.2-5
   issues:
     - captures_shell_variable_in_autofoo_script
-libcaca:
-  version: 0.99.beta19-2
-  comments: |
-    Non-deterministic pdf generated by doxygen, but not obviously timestamps
-  issues:
-    - timestamps_from_cpp_macros
 libcatmandu-mab2-perl:
   version: 0.12-1
   issues:
@@ -6628,10 +6012,6 @@ libcec:
     https://sources.debian.net/src/libcec/2.2.0%2Bdfsg1-1/configure.ac/?hl=351:255#L351
     Can be removed by passing HAVE_DATE=no HAVE_WHOAMI=no HAVE_HOSTNAME=no HAVE_UNAME=no
     to ./configure but the binaries are also non-determinstic.
-libcgicc:
-  version: 3.2.9-3
-  issues:
-    - timestamps_from_cpp_macros
 libclass-pluggable-perl:
   version: 0.022-2
   bugs:
@@ -6719,10 +6099,6 @@ libcsp:
   issues:
     - timestamps_from_cpp_macros
     - different_due_to_umask
-libdap:
-  version: 3.15.1-7
-  issues:
-    - timestamps_from_cpp_macros
 libdatabase-dumptruck-perl:
   version: 1.2-2
   bugs:
@@ -6735,10 +6111,6 @@ libdbd-excel-perl:
   version: 0.06-6
   bugs:
     - 823428
-libdbi-drivers:
-  version: 0.9.0-3
-  issues:
-    - timestamps_from_cpp_macros
 libdbix-class-perl:
   version: 0.082820-1
   issues:
@@ -6784,10 +6156,6 @@ libevocosm:
   version: 4.0.2-3
   bugs:
     - 789804
-libewf:
-  version: 20140608-2
-  issues:
-    - timestamps_from_cpp_macros
 libexpect-php5:
   version: 0.3.1-1
   bugs:
@@ -7125,13 +6493,6 @@ libjxp-java:
   version: 1.6.1-5
   issues:
     - locale_in_documentation_generated_by_javadoc
-libkcompactdisc:
-  version: 4:4.12.3-2
-  comments: |
-    __DATE__ used:
-    https://sources.debian.net/src/libkcompactdisc/4:4.12.3-2/wmlib/wm_helpers.c/?hl=70#L70
-  issues:
-    - timestamps_from_cpp_macros
 libkolabxml:
   version: 1.0.2-2
   issues:
@@ -7178,10 +6539,6 @@ liblouisutdml:
     the charset.
   issues:
     - locale_in_documentation_generated_by_javadoc
-liblscp:
-  version: 0.5.6-7
-  issues:
-    - timestamps_from_cpp_macros
 liblwp-useragent-progressbar-perl:
   version: 1.100810-1
   issues:
@@ -7406,10 +6763,6 @@ libpuzzle:
   version: 0.9-6
   issues:
     - ftbfs_due_to_libtool
-libpwiz:
-  version: 3.0.6585-2.1
-  issues:
-    - timestamps_from_cpp_macros
 libqapt:
   version: 3.0.1-1
   bugs:
@@ -7443,10 +6796,6 @@ libreadline-java:
   version: 0.8.0.1+dfsg-4
   issues:
     - locale_in_documentation_generated_by_javadoc
-librecad:
-  version: 2.0.4-1
-  issues:
-    - timestamps_from_cpp_macros
 libreoffice:
   version: 1:4.4.4~rc2-1
   comments: |
@@ -7656,10 +7005,6 @@ libu2f-server:
   version: 0.0.0-1
   issues:
     - timestamps_in_pdf_generated_by_latex
-libuninum:
-  version: 2.7-1.1
-  issues:
-    - timestamps_from_cpp_macros
 libunique:
   version: 1.1.6-5
   bugs:
@@ -7805,10 +7150,6 @@ libzhuyin:
   version: 0.9.99.20140929-1
   issues:
     - berkeley_db_variation_requiring_further_investigation
-libzypp:
-  version: 14.29.1-2
-  issues:
-    - timestamps_from_cpp_macros
 lice:
   version: 1:4.2.5i-1
   issues:
@@ -7831,13 +7172,6 @@ lift:
   version: 2.0.0-1
   issues:
     - timestamps_in_manpages_generated_by_sphinx
-lightdm-gtk-greeter:
-  version: 2.0.1-1
-  comments: |
-    See:
-    https://sources.debian.net/src/lightdm-gtk-greeter/2.0.1-1/src/lightdm-gtk-greeter.c/?hl=2608#L2608
-  issues:
-    - timestamps_from_cpp_macros
 lightproof:
   version: 1.5+git20140515-1
   bugs:
@@ -7846,10 +7180,6 @@ lightspeed:
   version: 1.2a-10
   bugs:
     - 822432
-lighttpd:
-  version: 1.4.35-4
-  issues:
-    - timestamps_from_cpp_macros
 lilypond:
   version: 2.18.2-4.1
   issues:
@@ -7862,10 +7192,6 @@ linbox:
   version: 1.3.2-1.1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-linpac:
-  version: 0.23-1
-  issues:
-    - timestamps_from_cpp_macros
 linux:
   version: 4.3.3-7
   issues:
@@ -8017,10 +7343,6 @@ londonlaw:
   version: 0.2.1-18
   issues:
     - pdf_created_by_ghostscript
-lookup:
-  version: 1.08b-11
-  issues:
-    - timestamps_from_cpp_macros
 lordsawar:
   version: 0.2.0-2.1
   comments: |
@@ -8149,21 +7471,6 @@ lxqt-sudo:
   version: 0.10.0-3
   issues:
     - blacklisted_on_jenkins_armhf_only
-lyx:
-  version: 2.1.2-2
-  comments: |
-    fixed upstream for the next major release
-    http://www.lyx.org/trac/ticket/9415
-  issues:
-    - timestamps_from_cpp_macros
-lz4:
-  version: 0.0~r122-2
-  issues:
-    - timestamps_from_cpp_macros
-lzop:
-  version: 1.03-3
-  issues:
-    - timestamps_from_cpp_macros
 mac-widgets:
   version: 0.10.0+svn416-dfsg1-1
   issues:
@@ -8258,10 +7565,6 @@ maint-guide:
     - different_due_to_umask
     - timestamps_in_epub
     - timestamps_in_pdf_content
-maitreya:
-  version: 7.0.7-1
-  issues:
-    - timestamps_from_cpp_macros
 makepp:
   version: 2.0.98.5-1
   issues:
@@ -8327,10 +7630,6 @@ marionnet:
     https://sources.debian.net/src/marionnet/0.90.6%2Bbzr457-1/Makefile/#L907-L908
   issues:
     - captures_kernel_version
-masscan:
-  version: 1.0.3-90-g2441f18~ds0-1
-  issues:
-    - timestamps_from_cpp_macros
 massxpert:
   version: 3.4.1-1
   issues:
@@ -8441,23 +7740,10 @@ menulibre:
   version: 2.0.7-1
   bugs:
     - 811324
-meshlab:
-  version: 1.3.2+dfsg1-2
-  issues:
-    - timestamps_from_cpp_macros
 metastudent-data:
   version: 2.0.0-3
   issues:
     - timestamps_added_by_blast2
-metis:
-  version: 5.1.0.dfsg-4
-  issues:
-    - timestamps_from_cpp_macros
-mgetty:
-  version: 1.1.36-2.1
-  issues:
-    - timestamps_from_cpp_macros
-    - timezones_manpages_podman
 mh-book:
   version: 200605-1
   issues:
@@ -8473,10 +7759,6 @@ mhap:
   comments: |
     Embeds the build time.
     https://sources.debian.net/src/mhap/1.6%2Bdfsg-1/build.xml/#L129-L142
-mhwaveedit:
-  version: 1.4.23-1
-  issues:
-    - timestamps_from_cpp_macros
 mia:
   version: 2.2.7-3
   issues:
@@ -8526,14 +7808,6 @@ mimetic:
   version: 0.9.8-4
   issues:
     - captures_shell_variable_in_autofoo_script
-minbif:
-  version: 1:1.0.5+git20120508-4
-  issues:
-    - timestamps_from_cpp_macros
-minc-tools:
-  version: 2.3.00+dfsg-1
-  issues:
-    - timestamps_from_cpp_macros
 mini-buildd:
   version: 1.0.9
   issues:
@@ -8621,10 +7895,6 @@ moblin-icon-theme:
   version: 0.10.0-1
   comments: |
     Random/filesystem sorting in index.theme due to create-icon-theme.sh
-moc:
-  version: 1:2.5.0-1
-  issues:
-    - timestamps_from_cpp_macros
 mockito:
   version: 1.9.5+ds-2
   issues:
@@ -8827,14 +8097,6 @@ mrs:
   version: 6.0.5+dfsg-1
   bugs:
     - 816569
-mrtrix:
-  version: 0.2.12-1
-  issues:
-    - timestamps_from_cpp_macros
-mscompress:
-  version: 0.4-3
-  issues:
-    - timestamps_from_cpp_macros
 msgpuck:
   version: 1.0.1-1
   issues:
@@ -8853,10 +8115,6 @@ muddleftpd:
     Embed build time:
     http://sources.debian.net/src/muddleftpd/1.3.13.1-4.3/src/version.c/?hl=23#L23
     http://sources.debian.net/src/muddleftpd/1.3.13.1-4.3/src/Makefile.in/?hl87#L87
-mudlet:
-  version: 1:3.0.0~delta-2
-  issues:
-    - timestamps_from_cpp_macros
 muffin:
   version: 2.8.5-1
   bugs:
@@ -8869,10 +8127,6 @@ multiverse-core:
   version: 0.7.0-3
   issues:
     - random_order_in_documentation_generated_by_javadoc
-multiwatch:
-  version: 1.0.0-rc1+really1.0.0-1
-  issues:
-    - timestamps_from_cpp_macros
 mummer:
   version: 3.23~dfsg-2
   issues:
@@ -8923,10 +8177,6 @@ mylvmbackup:
   version: 0.15-1
   bugs:
     - 782318
-mysecureshell:
-  version: 2.0-1
-  issues:
-    - timestamps_from_cpp_macros
 mysql-5.6:
   version: 5.6.27-2
   issues:
@@ -9162,10 +8412,6 @@ newmail:
     - timestamps_in_gzip_headers
   bugs:
     - 778202
-newsbeuter:
-  version: 2.8-2
-  issues:
-    - timestamps_from_cpp_macros
 newtonsoft-json:
   version: 5.0r6+dfsg-1
   issues:
@@ -9206,10 +8452,6 @@ nifti2dicom:
   version: 0.4.11-1
   bugs:
     - 819714
-nifticlib:
-  version: 2.0.0-2
-  issues:
-    - timestamps_from_cpp_macros
 nikola:
   version: 7.6.0-2
   issues:
@@ -9238,19 +8480,11 @@ nitime:
   version: 0.5-3
   comments: |
     Randomness in example images because of random() without constant seed.
-nkf:
-  version: 2.13-4
-  issues:
-    - timestamps_from_cpp_macros
 nmh:
   version: 1.6-7
   comments: |
     Timestamp embedded by script generating a manpage.
     https://sources.debian.net/src/nmh/1.6-7/man/mh-chart-gen.sh/#L12
-noblenote:
-  version: 1.0.8-1
-  issues:
-    - timestamps_from_cpp_macros
 node-contextify:
   version: 0.1.6-1
   bugs:
@@ -9363,10 +8597,6 @@ npm2deb:
   version: 0.2.4-1
   issues:
     - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
-nqc:
-  version: 3.1.r6-2
-  issues:
-    - timestamps_from_cpp_macros
 nqp:
   version: 2015.09.1-2
   issues:
@@ -9421,14 +8651,6 @@ nullmailer:
   version: 1.13-1
   bugs:
     - 820661
-numactl:
-  version: 2.0.10-1
-  issues:
-    - timestamps_from_cpp_macros
-numad:
-  version: 0.5+20150602-1
-  issues:
-    - timestamps_from_cpp_macros
 nunit:
   version: 2.6.3+dfsg-1
   issues:
@@ -9567,10 +8789,6 @@ omake:
     are closed.
   bugs:
     - 796380
-omega-rpg:
-  version: 1:0.90-pa9-15
-  issues:
-    - timestamps_from_cpp_macros
 omegat-plugin-tokenizer:
   version: 0.4.2+dfsg-2
   issues:
@@ -9607,8 +8825,6 @@ open-cobol:
     https://sources.debian.net/src/open-cobol/1.1-1/cobc/cobc.c/?hl=1733:1738#L1733
     https://sources.debian.net/src/open-cobol/1.1-1/bin/cobcrun.c/?hl=40:45#L40
     Does not use dpkg-buildflags.
-  issues:
-    - timestamps_from_cpp_macros
 openafs:
   version: 1.6.10-4
   comments: |
@@ -9627,10 +8843,6 @@ openarena-data:
     - different_due_to_umask
   bugs:
     - 819965
-openbabel:
-  version: 2.3.2+dfsg-2
-  issues:
-    - timestamps_from_cpp_macros
 openbios:
   version: 1.1+svn1353-1
   comments: |
@@ -9738,10 +8950,6 @@ openmpi:
   version: 1.6.5-9.1
   issues:
     - timestamps_from_cpp_macros
-openmprtl:
-  version: 3.7.0-3
-  issues:
-    - timestamps_from_cpp_macros
 openms:
   version: 1.11.1-5
   issues:
@@ -9751,10 +8959,6 @@ opennebula:
   version: 4.12.3+dfsg-3
   issues:
     - locale_in_documentation_generated_by_javadoc
-openni:
-  version: 1.5.4.0-8
-  issues:
-    - timestamps_from_cpp_macros
 openni-sensor-pointclouds:
   version: 5.1.0.41.3-1
   comments: |
@@ -9776,14 +8980,6 @@ openocd:
     https://sources.debian.net/src/openocd/0.9.0-1/src/Makefile.am/#L41
   issues:
     - timestamps_in_pdf_generated_by_latex
-openrpt:
-  version: 3.3.7-1
-  issues:
-    - timestamps_from_cpp_macros
-opensm:
-  version: 3.3.18-1
-  issues:
-    - timestamps_from_cpp_macros
 openstack-doc-tools:
   version: 0.31.0-4
   bugs:
@@ -9818,10 +9014,6 @@ openuniverse:
   version: 1.0beta3.1+dfsg-3
   bugs:
     - 817303
-openvpn:
-  version: 2.3.4-4
-  issues:
-    - timestamps_from_cpp_macros
 openvrml:
   version: 0.18.9-7
   issues:
@@ -9829,10 +9021,6 @@ openvrml:
     - different_due_to_umask
   bugs:
     - 812538
-openvswitch:
-  version: 2.3.0+git20140819-2
-  issues:
-    - timestamps_from_cpp_macros
 openwince-include:
   version: 0.3.2-3.1
   bugs:
@@ -9903,10 +9091,6 @@ owncloud-client:
     properly the patch is not needed anymore.
     .
     images_in_pdf_generated_by_latex - used opipng
-owx:
-  version: 0~20110415-3.1
-  issues:
-    - timestamps_from_cpp_macros
 oxygen-fonts:
   version: 4:5.3.1-1
   issues:
@@ -9937,10 +9121,6 @@ paco:
   version: 2.0.9-3
   bugs:
     - 805676
-pads:
-  version: 1.2-11
-  issues:
-    - timestamps_from_cpp_macros
 paexec:
   version: 1.0.1-3
   issues:
@@ -10017,10 +9197,6 @@ parrot:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/parrot/6.6.0-1/config/gen/config_h/config_h.in/#L19
-parsinsert:
-  version: 1.04-1
-  issues:
-    - timestamps_from_cpp_macros
 parted:
   version: 3.2-7
   comments: |
@@ -10064,10 +9240,6 @@ pavumeter:
   version: 0.9.3-4
   bugs:
     - 819779
-pcb:
-  version: 20140316-3
-  issues:
-    - timestamps_from_cpp_macros
 pcb2gcode:
   version: 1.1.4-git20120902-1
   bugs:
@@ -10096,22 +9268,6 @@ pd-flite:
   comments: |
     Embeds build date and user.
     https://sources.debian.net/src/pd-flite/0.02.3-1/common/m4/ax_pd_external.m4/#L245-L246
-pd-hcs:
-  version: 0.1-2
-  issues:
-    - timestamps_from_cpp_macros
-pd-hexloader:
-  version: 1.7-1
-  issues:
-    - timestamps_from_cpp_macros
-pd-hid:
-  version: 0.7-1
-  issues:
-    - timestamps_from_cpp_macros
-pd-libdir:
-  version: 1.9-3
-  issues:
-    - timestamps_from_cpp_macros
 pd-pdstring:
   version: 0.10.2-1
   comments: |
@@ -10241,34 +9397,14 @@ pgfincore:
   version: 1.1.2-3
   issues:
     - postgres_9.5_transition
-pgn-extract:
-  version: 17.14-1
-  issues:
-    - timestamps_from_cpp_macros
 phatch:
   version: 0.2.7.1-3.1
   issues:
     - randomness_in_documentation_generated_by_sphinx
-phnxdeco:
-  version: 0.33-3
-  issues:
-    - timestamps_from_cpp_macros
 photutils:
   version: 0.1-1
   bugs:
     - 813656
-php-amqp:
-  version: 1.7.0~alpha2-4
-  issues:
-    - timestamps_from_cpp_macros
-php-apcu:
-  version: 4.0.10-1
-  issues:
-    - timestamps_from_cpp_macros
-php-apcu-bc:
-  version: 1.0.3-1
-  issues:
-    - timestamps_from_cpp_macros
 php-ast:
   version: 0.1.1-1
   issues:
@@ -10371,10 +9507,6 @@ php-smbclient:
     - ftbfs_due_to_libtool
   bugs:
     - 814063
-php-solr:
-  version: 1.0.2-2
-  issues:
-    - timestamps_from_cpp_macros
 php-ssh2:
   version: 0.12-39-g3dfe336+0.12-1
   issues:
@@ -10452,10 +9584,6 @@ pidgin-extprefs:
   version: 0.7-2
   bugs:
     - 822432
-pidgin-librvp:
-  version: 0.9.7cvs-1
-  issues:
-    - timestamps_from_cpp_macros
 piespy:
   version: 0.4.0-3
   issues:
@@ -10468,10 +9596,6 @@ pike8.0:
   version: 8.0.28-4
   issues:
     - diffoscope_runs_forever
-pilot-link:
-  version: 0.12.5-dfsg-1
-  issues:
-    - timestamps_from_cpp_macros
 pinball:
   version: 0.3.1-13.2
   issues:
@@ -10522,10 +9646,6 @@ plainbox:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - randomness_in_documentation_indices_generated_by_sphinx
-plan:
-  version: 1.10.1-5
-  issues:
-    - timestamps_from_cpp_macros
 planetfilter:
   version: 0.5.0-1
   issues:
@@ -10590,10 +9710,6 @@ plv8:
   version: 1.4.2.ds-2
   bugs:
     - 810637
-plymouth:
-  version: 0.9.0-8
-  issues:
-    - timestamps_from_cpp_macros
 pmw:
   version: 1:4.28-1
   issues:
@@ -10604,17 +9720,6 @@ pngcheck:
     Also requires changes to debian/pod2man.mk, eg. https://gist.github.com/b2cb9fc57f06cd9cbef6
   bugs:
     - 795987
-pnscan:
-  version: 1.11-6
-  issues:
-    - timestamps_from_cpp_macros
-pocketsphinx:
-  version: 0.8-5
-  comments: |
-    Embeds timestamp in binary:
-    https://sources.debian.net/src/pocketsphinx/0.8-5/src/programs/continuous.c/?hl=371#L371
-  issues:
-    - timestamps_from_cpp_macros
 pocl:
   version: 0.10-10
   bugs:
@@ -10627,10 +9732,6 @@ polybori:
   version: 0.8.3-4
   issues:
     - timestamps_from_tex4ht
-polygraph:
-  version: 4.3.2-1.1
-  issues:
-    - timestamps_from_cpp_macros
 polyorb:
   version: 2.11~20140418-3
   issues:
@@ -10651,22 +9752,10 @@ portabase:
   version: 2.1+git20120910-1.1
   issues:
     - randomness_in_documentation_generated_by_sphinx
-portaudio19:
-  version: 19+svn20140130-1
-  issues:
-    - timestamps_from_cpp_macros
 posixtestsuite:
   version: 1.5.2-5
   comments: |
     Includes a log of a test suite run, which is heavily varying.
-postbooks:
-  version: 4.7.0-2
-  issues:
-    - timestamps_from_cpp_macros
-postbooks-updater:
-  version: 2.2.5-8
-  issues:
-    - timestamps_from_cpp_macros
 postfix:
   version: 2.11.3-1
   issues:
@@ -10696,10 +9785,6 @@ pound:
     https://sources.debian.net/src/pound/2.6-6.1/Makefile.in/#L57-L61
   bugs:
     - 795897
-powertop:
-  version: 2.6.1-1
-  issues:
-    - timestamps_from_cpp_macros
 ppl:
   version: 1:1.1-7.2
   issues:
@@ -10721,10 +9806,6 @@ pretzel:
     - ftbfs_old_compat_debheper_compat_level
   bugs:
     - 800198
-previsat:
-  version: 3.5.0.8+dfsg1-1
-  issues:
-    - timestamps_from_cpp_macros
 prewikka:
   version: 1.0.0-1.3
   issues:
@@ -10745,10 +9826,6 @@ proftpd-dfsg:
   version: 1.3.5-1.1
   comments: |
     Embed build time in /usr/include/proftpd/buildstamp.h (sic)
-progressivemauve:
-  version: 1.2.0+4713-2
-  issues:
-    - timestamps_from_cpp_macros
 proguard:
   version: 5.2.1-3
   bugs:
@@ -10848,10 +9925,6 @@ pudb:
   version: 2015.1-1
   issues:
     - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
-puredata-import:
-  version: 1.3-3
-  issues:
-    - timestamps_from_cpp_macros
 pvm:
   version: 3.4.5-12.6
   issues:
@@ -10907,10 +9980,6 @@ pycountry:
   version: 1.8+ds1-0.1
   bugs:
     - 821892
-pycurl:
-  version: 7.19.5-3
-  issues:
-    - timestamps_from_cpp_macros
 pyentropy:
   version: 0.4.1-2
   bugs:
@@ -11317,10 +10386,6 @@ python-html2text:
   version: 2015.6.21-1
   issues:
     - ftbfs_uninvestigated_test_failures
-python-igraph:
-  version: 0.7.1.post6-2
-  issues:
-    - timestamps_from_cpp_macros
 python-imaging-doc-handbook:
   version: 1.1.2-1.1
   bugs:
@@ -11795,10 +10860,6 @@ qingy:
   version: 0.9.7-2
   issues:
     - timezone_variance_because_of_automake_mdate
-qjackctl:
-  version: 0.3.12-1
-  issues:
-    - timestamps_from_cpp_macros
 qmail-run:
   version: 2.0.2
   issues:
@@ -11816,10 +10877,6 @@ qmail-tools:
     - different_due_to_umask
   bugs:
     - 776936
-qmidinet:
-  version: 0.2.0-1
-  issues:
-    - timestamps_from_cpp_macros
 qpid-cpp:
   version: 0.16-9
   issues:
@@ -11834,24 +10891,12 @@ qrfcview:
     - timestamps_in_png
   bugs:
     - 789963
-qsampler:
-  version: 0.2.2-5
-  issues:
-    - timestamps_from_cpp_macros
 qsf:
   version: 1.2.7-1.2
   comments: |
     https://sources.debian.net/src/qsf/1.2.7-1.2/autoconf/make/rules.mk/#L16
   issues:
     - different_encoding
-qsopt-ex:
-  version: 2.5.10.3-1
-  issues:
-    - timestamps_from_cpp_macros
-qsynth:
-  version: 0.3.8-1
-  issues:
-    - timestamps_from_cpp_macros
 qt-at-spi:
   version: 0.4.0-2
   issues:
@@ -11917,10 +10962,6 @@ qtquickcontrols-opensource-src:
   version: 5.4.2-2
   issues:
     - timestamps_in_qch
-qtractor:
-  version: 0.6.3-1
-  issues:
-    - timestamps_from_cpp_macros
 qtruby:
   version: 4:4.11.3-4
   issues:
@@ -11992,22 +11033,10 @@ quantlib:
     /usr/share/doc/libquantlib0/examples/test-suite/quantlib-test-suite.log.gz
   issues:
     - blacklisted_on_jenkins_armhf_only
-quassel:
-  version: 1:0.10.0-2.2
-  issues:
-    - timestamps_from_cpp_macros
-quelcom:
-  version: 0.4.0-13
-  issues:
-    - timestamps_from_cpp_macros
 quickfix:
   version: 1.13.3+dfsg-9
   issues:
     - captures_shell_variable_in_autofoo_script
-quickplot:
-  version: 0.10.6-1
-  issues:
-    - timestamps_from_cpp_macros
 quitcount:
   version: 3.1.3-2
   bugs:
@@ -12024,10 +11053,6 @@ quvi:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/quvi/0.9.4-1.1/configure.ac/#L49-L51
-qxgedit:
-  version: 0.3.0-1
-  issues:
-    - timestamps_from_cpp_macros
 qxmpp:
   version: 0.9.3-1
   issues:
@@ -12151,10 +11176,6 @@ ratfor:
   bugs:
     - 778204
     - 793712
-ratpoison:
-  version: 1.4.8-1
-  issues:
-    - timestamps_from_cpp_macros
 razorqt:
   version: 0.5.2-4
   bugs:
@@ -12335,10 +11356,6 @@ ripmime:
     https://sources.debian.net/src/ripmime/1.4.0.10.debian.1-1/generate-buildcodes.sh/
   issues:
     - captures_kernel_version
-rlpr:
-  version: 2.05-4
-  issues:
-    - timestamps_from_cpp_macros
 rna-star:
   version: 2.4.0i-1
   comments: |
@@ -12356,10 +11373,6 @@ roarplaylistd:
   comments: |
     Embed build time:
     http://codesearch.debian.net/search?q=package%3Aroarplaylistd+BUILD_STAMP
-robojournal:
-  version: 0.5-1
-  issues:
-    - timestamps_from_cpp_macros
 roboptim-core:
   version: 2.0-7.1
   bugs:
@@ -12700,18 +11713,10 @@ samhain:
   version: 3.1.0-7
   issues:
     - timestamps_from_cpp_macros
-samplv1:
-  version: 0.5.1-1
-  issues:
-    - timestamps_from_cpp_macros
 samtools:
   version: 1.3-1
   bugs:
     - 822701
-sanlock:
-  version: 2.2-2
-  issues:
-    - timestamps_from_cpp_macros
 sapphire:
   version: 0.15.8-9
   bugs:
@@ -12779,10 +11784,6 @@ scheme9:
   version: 2015.07.14-1
   issues:
     - pdf_created_by_ghostscript
-schism:
-  version: 2:0+20110101-1
-  issues:
-    - timestamps_from_cpp_macros
 scikit-learn:
   version: 0.17.0-4
   bugs:
@@ -12804,10 +11805,6 @@ scons-doc:
   version: 2.3.1-1
   issues:
     - timestamps_in_pdf_generated_by_apache_fop
-scorched3d:
-  version: 43.3.d+dfsg-1.1
-  issues:
-    - timestamps_from_cpp_macros
 scotch:
   version: 5.1.12b.dfsg-2
   issues:
@@ -12824,10 +11821,6 @@ scscp-imcce:
     - timestamps_in_pdf_generated_by_latex
 scummvm:
   version: 1.7.0+dfsg-1
-  issues:
-    - timestamps_from_cpp_macros
-scummvm-tools:
-  version: 1.7.0-1
   issues:
     - timestamps_from_cpp_macros
 sd:
@@ -12854,10 +11847,6 @@ sdl-stretch:
   version: 0.3.1-4
   issues:
     - different_encoding_in_html_by_docbook_xsl
-sdlbasic:
-  version: 0.0.20070714-5
-  issues:
-    - timestamps_from_cpp_macros
 sdlgfx:
   version: 2.0.25-5
   issues:
@@ -12953,10 +11942,6 @@ sgml2x:
   version: 1.0.0-11.3
   issues:
     - elinks_dump_varies_output_with_locale
-sgrep:
-  version: 1.94a-4
-  issues:
-    - timestamps_from_cpp_macros
 shadow:
   version: 1:4.2-3.1
   bugs:
@@ -13011,10 +11996,6 @@ simgrid:
   issues:
     - locale_in_documentation_generated_by_javadoc
     - different_due_to_umask
-simh:
-  version: 3.8.1-5
-  issues:
-    - timestamps_from_cpp_macros
 simpleid:
   version: 0.8.1-14
   issues:
@@ -13035,14 +12016,6 @@ sineshaper:
   version: 0.4.2-8
   bugs:
     - 805683
-sinfo:
-  version: 0.0.47-3
-  issues:
-    - timestamps_from_cpp_macros
-sip-tester:
-  version: 3.2-1
-  issues:
-    - timestamps_from_cpp_macros
 sipml5:
   version: 0.0.20130314.2030-3
   issues:
@@ -13137,10 +12110,6 @@ slt:
   version: 0.0.git20140301-1
   issues:
     - ftbfs_uninvestigated_test_failures
-sludge:
-  version: 2.2.1-1
-  issues:
-    - timestamps_from_cpp_macros
 smalt:
   version: 0.7.6-4
   issues:
@@ -13184,10 +12153,6 @@ snapper:
   version: 0.2.4-1
   bugs:
     - 818027
-sniffit:
-  version: 0.3.7.beta-17
-  issues:
-    - timestamps_from_cpp_macros
 snort:
   version: 2.9.7.0-4
   issues:
@@ -13242,10 +12207,6 @@ source-highlight:
   version: 3.1.8-1.1
   comments: |
     Captures SHELL - needs some kind of forcing in debian/rules?
-sox:
-  version: 14.4.1-4
-  issues:
-    - timestamps_from_cpp_macros
 sozi:
   version: 12.05-1
   bugs:
@@ -13262,10 +12223,6 @@ spatialite-tools:
   version: 4.1.1-4
   comments: |
     Fixed in git.
-spd:
-  version: 1.3.0-1
-  issues:
-    - timestamps_from_cpp_macros
 spectacle:
   version: 0.25-1
   issues:
@@ -13279,10 +12236,6 @@ speedometer:
   version: 2.8-1
   bugs:
     - 782221
-speex:
-  version: 1.2~rc1.2-1
-  issues:
-    - timestamps_from_cpp_macros
 spherepack:
   version: 3.2-7
   issues:
@@ -13371,10 +12324,6 @@ squeak-vm:
     VM_BUILD_STRING that includes the __DATE__ and __TIME__ macros.
   issues:
     - timestamps_from_cpp_macros
-sra-sdk:
-  version: 2.3.5-2+dfsg-1
-  issues:
-    - timestamps_from_cpp_macros
 srtp:
   version: 1.4.5~20130609~dfsg-1.1
   issues:
@@ -13451,10 +12400,6 @@ stgit:
   version: 0.17.1-1
   comments: |
     Timestamp in HTML files
-stimfit:
-  version: 0.13.19-1
-  issues:
-    - timestamps_from_cpp_macros
 stk:
   version: 4.5.0-3
   bugs:
@@ -13571,10 +12516,6 @@ svtplay-dl:
   comments: |
     The svtplay-dl python "script" contains a zip archive,
     whose members have differing mtimes.
-swarm-cluster:
-  version: 1.2.19+dfsg-1
-  issues:
-    - timestamps_from_cpp_macros
 swedish:
   version: 1.4.5-2.1
   issues:
@@ -13647,10 +12588,6 @@ synfig:
     - timestamps_from_cpp_macros
   bugs:
     - 820072
-synthv1:
-  version: 0.5.1-1
-  issues:
-    - timestamps_from_cpp_macros
 sysbench:
   version: 0.4.12-1.1
   issues:
@@ -13661,10 +12598,6 @@ sysinfo:
   version: 0.7-8
   issues:
     - timestamps_in_pe_binaries
-syslog-ng:
-  version: 3.5.6-2
-  issues:
-    - timestamps_from_cpp_macros
 systemtap:
   version: 2.9-1
   issues:
@@ -13713,10 +12646,6 @@ tarantool-php:
   version: 1.6-1
   issues:
     - ftbfs_due_to_libtool
-tart:
-  version: 3.10-1
-  issues:
-    - timestamps_from_cpp_macros
 tasque:
   version: 0.1.12-4
   issues:
@@ -13802,10 +12731,6 @@ teseq:
   version: 1.1-0.1
   issues:
     - timezone_variance_because_of_automake_mdate
-tessa:
-  version: 0.3.1-6.1
-  issues:
-    - timestamps_from_cpp_macros
 testrepository:
   version: 0.0.20-2
   issues:
@@ -13859,22 +12784,6 @@ therion:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_png
-theseus:
-  version: 3.0.0-1
-  issues:
-    - timestamps_from_cpp_macros
-thunar-vcs-plugin:
-  version: 0.1.4-2
-  issues:
-    - timestamps_from_cpp_macros
-ticcutils:
-  version: 0.7-2
-  issues:
-    - timestamps_from_cpp_macros
-tickr:
-  version: 0.6.4-1
-  issues:
-    - timestamps_from_cpp_macros
 tidy-proxy:
   version: 0.97-4
   issues:
@@ -13895,18 +12804,6 @@ tilem:
   version: 2.0-2
   bugs:
     - 819779
-tilp2:
-  version: 1.17-1
-  issues:
-    - timestamps_from_cpp_macros
-timbl:
-  version: 6.4.6-1
-  issues:
-    - timestamps_from_cpp_macros
-timblserver:
-  version: 1.7-4
-  issues:
-    - timestamps_from_cpp_macros
 timingframework:
   version: 1.0-1
   issues:
@@ -13948,10 +12845,6 @@ tk8.6:
   version: 8.6.5-1
   bugs:
     - 818753
-tkgate:
-  version: 2.0~b10-4
-  issues:
-    - timestamps_from_cpp_macros
 tkrat:
   version: 1:2.2cvs20100105-true-dfsg-6
   bugs:
@@ -14048,14 +12941,6 @@ transmission:
   version: 2.84-3
   bugs:
     - 820785
-transtermhp:
-  version: 2.09-2
-  issues:
-    - timestamps_from_cpp_macros
-travis:
-  version: 140902-1
-  issues:
-    - timestamps_from_cpp_macros
 treeview:
   version: 1.1.6.4+dfsg1-1
   issues:
@@ -14103,18 +12988,10 @@ tsdecrypt:
   comments: |
     Embed build time:
     https://sources.debian.net/src/tsdecrypt/10.0-2/Makefile/?hl=7#L7
-tse3:
-  version: 0.3.1-4.3
-  issues:
-    - timestamps_from_cpp_macros
 tsocks:
   version: 1.8beta5-9.4
   bugs:
     - 815611
-tstools:
-  version: 1.11-1
-  issues:
-    - timestamps_from_cpp_macros
 ttf-atarismall:
   version: 2.1-4
   comments: |
@@ -14200,10 +13077,6 @@ tuxpaint-config:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/tuxpaint-config/0.0.13-1/Makefile/?hl=18#L18
-tvoe:
-  version: 0.1-1
-  issues:
-    - timestamps_from_cpp_macros
 twidge:
   version: 1.1.2
   issues:
@@ -14259,10 +13132,6 @@ ubuntu-packaging-guide:
   issues:
     - timestamps_in_epub
     - different_due_to_umask
-ucarp:
-  version: 1.5.2-2
-  issues:
-    - timestamps_from_cpp_macros
 uclibc:
   version: 0.9.32-1
   issues:
@@ -14342,10 +13211,6 @@ uisp:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/uisp/20050207-4.2/configure.ac/#L56
-ultracopier:
-  version: 0.3.1.0-1
-  issues:
-    - timestamps_from_cpp_macros
 umbrello:
   version: 4:15.08.2-1
   bugs:
@@ -14366,10 +13231,6 @@ uncertainties:
   version: 2.4.4-1
   issues:
     - copyright_year_in_documentation_generated_by_sphinx
-undbx:
-  version: 0.20-1
-  issues:
-    - timestamps_from_cpp_macros
 underscore.logger:
   version: 0.3.0~20111114-1
   bugs:
@@ -14383,10 +13244,6 @@ unhide:
   version: 20130526-1
   bugs:
     - 823241
-uni2ascii:
-  version: 4.18-2
-  issues:
-    - timestamps_from_cpp_macros
 unicon:
   version: 3.0.4-14
   bugs:
@@ -14399,14 +13256,6 @@ unifont:
   version: 7.0.06-1
   issues:
     - fontforge_reset_modification_time
-uniutils:
-  version: 2.27-2
-  issues:
-    - timestamps_from_cpp_macros
-universalindentgui:
-  version: 1.2.0-1
-  issues:
-    - timestamps_from_cpp_macros
 unixcw:
   version: 3.4.2-1
   comments: |
@@ -14432,10 +13281,6 @@ uswsusp:
   comments: |
     Embeds the build date/time.
     https://sources.debian.net/src/uswsusp/1.0%2B20120915-6/wlcsv2c.pl/#L70
-util-vserver:
-  version: 0.30.216-pre3054-1
-  issues:
-    - timestamps_from_cpp_macros
 utopia-documents:
   version: 2.4.4-2
   issues:
@@ -14447,10 +13292,6 @@ uucpsend:
     - timestamps_in_gzip_headers
   bugs:
     - 777008
-uudeview:
-  version: 0.5.20-3.4
-  issues:
-    - timestamps_from_cpp_macros
 uwsgi:
   version: 2.0.7-1
   issues:
@@ -14510,10 +13351,6 @@ verilator:
     http://sources.debian.net/src/verilator/3.864-1/include/verilated_vcd_c.cpp/?hl=350#L352
   issues:
     - timezones_manpages_podman
-vfu:
-  version: 4.10-1.1
-  issues:
-    - timestamps_from_cpp_macros
 viking:
   version: 1.6-1
   comments: |
@@ -14543,10 +13380,6 @@ virtualenvwrapper:
   version: 4.3.1-2
   issues:
     - copyright_year_in_documentation_generated_by_sphinx
-virtualjaguar:
-  version: 2.1.2-1
-  issues:
-    - timestamps_from_cpp_macros
 virtuoso-opensource:
   version: 6.1.6+dfsg2-2
   issues:
@@ -14578,10 +13411,6 @@ vmm:
     - timestamps_in_gzip_headers
   bugs:
     - 777364
-vmpk:
-  version: 0.4.0-3
-  issues:
-    - timestamps_from_cpp_macros
 vnc4:
   version: 4.1.1+X4.3.0-37.4
   issues:
@@ -14591,15 +13420,7 @@ volk:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/volk/1.0.2-1/lib/CMakeLists.txt/#L479-L482
-voms:
-  version: 2.0.11-5
-  issues:
-    - timestamps_from_cpp_macros
 votca-csg:
-  version: 1.2.4-1
-  issues:
-    - timestamps_from_cpp_macros
-votca-tools:
   version: 1.2.4-1
   issues:
     - timestamps_from_cpp_macros
@@ -14607,19 +13428,11 @@ vowpal-wabbit:
   version: 7.3-1.1
   bugs:
     - 807231
-voxbo:
-  version: 1.8.5~svn1246-1.1
-  issues:
-    - timestamps_from_cpp_macros
 vpb-driver:
   version: 4.2.58-1
   issues:
     - timestamps_in_tarball
     - different_due_to_umask
-vpcs:
-  version: 0.5b2-1
-  issues:
-    - timestamps_from_cpp_macros
 vpim:
   version: 0.695-1.1
   issues:
@@ -14786,10 +13599,6 @@ winswitch:
   comments: |
     Capture build date in
     /usr/lib/winswitch/winswitch/build_info.py
-wipe:
-  version: 0.22-1
-  issues:
-    - timestamps_from_cpp_macros
 wireshark:
   version: 1.12.7+g7fc8978-1
   comments: |
@@ -14837,7 +13646,6 @@ wolfssl:
 woo:
   version: 1.0-1
   issues:
-    - timestamps_from_cpp_macros
     - blacklisted_on_jenkins_armhf_only
 wordgrinder:
   version: 0.5.1-1
@@ -14935,18 +13743,10 @@ x11vnc:
   version: 0.9.13-1.2
   comments: |
     Signature META-INF/SWKEY.DSA in jar files differs.
-x264:
-  version: 2:0.142.2431+gita5831aa-1
-  issues:
-    - timestamps_from_cpp_macros
 xbs:
   version: 0-10
   issues:
     - different_due_to_umask
-xcfa:
-  version: 4.3.8-1
-  issues:
-    - timestamps_from_cpp_macros
 xcftools:
   version: 1.0.7-4
   issues:
@@ -15004,10 +13804,6 @@ xfonts-wqy:
   version: 1.0.0~rc1-1
   bugs:
     - 808850
-xfrisk:
-  version: 1.2-3
-  issues:
-    - timestamps_from_cpp_macros
 xhprof:
   version: 0.9.4-2
   issues:
@@ -15081,14 +13877,6 @@ xmlunit:
   version: 1.5-1
   issues:
     - timestamps_in_pdf_generated_by_latex
-xmorph:
-  version: 1:20140707+nmu1
-  issues:
-    - timestamps_from_cpp_macros
-xmount:
-  version: 0.7.2-1
-  issues:
-    - timestamps_from_cpp_macros
 xnee:
   version: 3.19-1
   comments: |
@@ -15158,13 +13946,6 @@ xvier:
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 777330
-xyscan:
-  version: 3.33-1
-  comments: |
-    https://sources.debian.net/src/xyscan/3.33-1/xyscanWindow.cpp/#L88
-    https://sources.debian.net/src/xyscan/3.33-1/xyscanAbout.cpp/#L31
-  issues:
-    - timestamps_from_cpp_macros
 xz-utils:
   version: 5.1.1alpha+20120614-2
   issues:
@@ -15286,10 +14067,6 @@ z3:
     - timestamps_in_pe_binaries
   bugs:
     - 808695
-z88dk:
-  version: 1.8.ds1-10
-  issues:
-    - timestamps_from_cpp_macros
 zabbix:
   version: 1:2.2.7+dfsg-1
   issues:
@@ -15302,10 +14079,6 @@ zathura:
   version: 0.3.6-2
   issues:
     - timestamps_in_manpages_generated_by_sphinx
-zeal:
-  version: 1:0.1.1-1
-  issues:
-    - timestamps_from_cpp_macros
 zemberek-ooo:
   version: 1.0~rc2-10.4
   issues:
@@ -15406,10 +14179,6 @@ zssh:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/zssh/1.5c.debian.1-3.2/Makefile.in/#L113
-zsync:
-  version: 0.6.2-1
-  issues:
-    - timestamps_from_cpp_macros
 zurl:
   version: 1.3.1-3
   comments: |
@@ -15417,10 +14186,6 @@ zurl:
     Package has been blacklisted for now.
   issues:
     - blacklisted_on_jenkins
-zynaddsubfx:
-  version: 2.4.3-4
-  issues:
-    - timestamps_from_cpp_macros
 zyne:
   version: 0.1.2-2
   bugs:
