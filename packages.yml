@@ -1716,10 +1716,6 @@ cp2k:
   comments: |
     Embeds the build date and hostname.
     https://sources.debian.net/src/cp2k/2.6.1-2/makefiles/Makefile/#L360-L361
-cpio:
-  version: 2.11+dfsg-4
-  issues:
-    - timestamps_in_gzip_headers
 cpl-plugin-uves:
   version: 5.5.2+dfsg-3
   issues:
@@ -13681,10 +13677,6 @@ xfig:
   version: 1:3.2.5.c-7
   issues:
     - ftbfs_due_to_libpng
-xfonts-a12k12:
-  version: 1-11
-  issues:
-    - timestamps_in_gzip_headers
 xfonts-cronyx:
   version: 2.3.8-6
   issues:
