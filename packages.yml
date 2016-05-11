@@ -1703,10 +1703,12 @@ couchdb:
   bugs:
     - 746053
 courier:
-  version: 0.73.1-1.7
+  version: 0.76.1-1
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/courier/0.73.1-1.6/libs/imap/configure.ac/#L333
+  bugs:
+    - 824037
 courier-authlib:
   version: 0.66.4-3
   comments: |
