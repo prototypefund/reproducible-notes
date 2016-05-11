@@ -870,8 +870,8 @@ bglibs:
   version: 1.106-1.1
   issues:
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
+    - random_order_in_md5sums
   bugs:
     - 776942
 bgoffice:
@@ -1288,7 +1288,6 @@ cfingerd:
     http://sources.debian.net/src/cfingerd/1.4.3-3.1/Configure/?hl=66,77#L66
   issues:
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
 cfourcc:
   version: 0.1.2-9
   bugs:
@@ -2081,9 +2080,7 @@ debbugs:
 debdelta:
   version: 0.55
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
-    - different_due_to_umask
   bugs:
     - 777730
     - 793004
@@ -2897,8 +2894,8 @@ fakechroot:
 fakeroot:
   version: 1.20.2-1
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
+    - random_order_in_md5sums
   bugs:
     - 795861
 farstream-0.2:
@@ -4884,8 +4881,8 @@ icmake:
 icon:
   version: 9.4.3-4.2
   issues:
+    - timestamps_from_cpp_macros
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
 icu:
   version: 52.1-9
   comments: |
@@ -6270,7 +6267,6 @@ libident:
   version: 0.22-3
   issues:
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
 libidn2-0:
   version: 0.10-3
   comments: |
@@ -11279,7 +11275,7 @@ rockdodger:
     Embed build date:
     https://sources.debian.net/src/rockdodger/1.0.0-2/Makefile/?hl=42#L42
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
+    - random_order_in_md5sums
   bugs:
     - 793714
 rocksdb:
@@ -11945,8 +11941,8 @@ sjfonts:
 skalibs:
   version: 0.47-1
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
+    - random_order_in_md5sums
   bugs:
     - 792990
 sketch:
@@ -12501,8 +12497,8 @@ tagcoll2:
 taggrepper:
   version: 0.05-1
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
+    - random_order_in_md5sums
   bugs:
     - 777725
     - 793726
@@ -12652,8 +12648,7 @@ the:
   version: 3.3~rc1-2
   issues:
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-    - different_due_to_umask
+    - random_order_in_md5sums
   bugs:
     - 777370
     - 793728
@@ -12696,8 +12691,6 @@ tinydyndns:
   version: 0.4.2.debian1-1
   issues:
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-    - different_due_to_umask
     - random_order_in_md5sums
   bugs:
     - 776929
