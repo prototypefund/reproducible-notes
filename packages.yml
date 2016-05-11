@@ -842,7 +842,6 @@ bcfg2:
 bcron:
   version: 0.10-3
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
     - different_due_to_umask
   bugs:
@@ -855,7 +854,6 @@ beanbag:
 beav:
   version: 1:1.40-18
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 777287
@@ -904,7 +902,6 @@ bidiui:
 biff:
   version: 1:0.17.pre20000412-5
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 777290
@@ -1227,7 +1224,6 @@ ccze:
   version: 0.2.1-2
   issues:
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
   bugs:
     - 777297
@@ -1246,9 +1242,8 @@ cdebootstrap:
     Some trivial gzip and tar --mtime issues, then the nested helper .debs each
     have fresh timestamps as they are built as part of the package build.
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-    - timestamps_in_gzip_headers
     - different_due_to_umask
+    - timestamps_in_tarball
   bugs:
     - 777737
 cdi-api:
@@ -1309,7 +1304,6 @@ cgiemail:
 cgilib:
   version: 0.6-1
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 776935
@@ -1342,8 +1336,6 @@ checkpw:
   version: 1.02-1
   issues:
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-    - different_due_to_umask
   bugs:
     - 777299
     - 793005
@@ -1377,7 +1369,6 @@ chiark-utils:
 chimera2:
   version: 2.0a19-8
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 777302
@@ -1662,7 +1653,6 @@ console-cyrillic:
   version: 0.9-16.2
   issues:
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 777304
     - 792999
@@ -1850,7 +1840,6 @@ cvm:
 cvs-mailcommit:
   version: 1.19-2
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 776940
@@ -1931,8 +1920,6 @@ daemontools:
   version: 1:0.76-6
   issues:
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-    - different_due_to_umask
   bugs:
     - 776876
     - 793003
@@ -2043,7 +2030,6 @@ dbuskit:
 dbview:
   version: 1.0.4-1
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 777058
@@ -2241,7 +2227,6 @@ dhcpdump:
   version: 1.8-2
   issues:
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 777309
     - 792952
@@ -2249,7 +2234,6 @@ dhcping:
   version: 1.2-4.1
   issues:
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 777320
     - 792953
@@ -2313,15 +2297,14 @@ diet:
     - 761568
 dietlibc:
   version: 0.33~cvs20120325-6
-  issues:
-    - timestamps_in_gzip_headers
-  bugs:
-    - 813892
+  comments: |
+    fixed in experimental
 diploma:
   version: 1.2.11
   issues:
     - timestamps_in_gzip_headers
     - different_due_to_umask
+    - users_and_groups_in_tarball
   bugs:
     - 776956
 dipy:
@@ -2384,7 +2367,7 @@ djbdns:
   version: 1:1.05-8
   issues:
     - timestamps_in_gzip_headers
-    - different_due_to_umask
+    - random_order_in_md5sums
   bugs:
     - 777022
 dkg-handwriting:
@@ -2473,7 +2456,7 @@ dot-forward:
   version: 1:0.71-2
   issues:
     - timestamps_in_gzip_headers
-    - different_due_to_umask
+    - random_order_in_md5sums
   bugs:
     - 776760
 doxia:
@@ -2494,8 +2477,7 @@ dput:
   version: 0.9.6.4
   issues:
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-    - different_due_to_umask
+    - random_order_in_md5sums
   bugs:
     - 777375
     - 792955
@@ -2526,7 +2508,6 @@ dsc-statistics:
 dtaus:
   version: 0.9-1
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 777321
@@ -2669,7 +2650,6 @@ elementary:
 elida:
   version: 0.4+nmu1
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 776955
@@ -2792,8 +2772,6 @@ erc:
   version: 5.3-1
   issues:
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-    - different_due_to_umask
   bugs:
     - 776967
     - 792963
@@ -2931,8 +2909,6 @@ fastforward:
   version: 1:0.51-3
   issues:
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-    - different_due_to_umask
   bugs:
     - 776972
     - 792965
@@ -3126,7 +3102,6 @@ flowscan:
   version: 1.006-13.2
   issues:
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 786927
 fltk1.1:
@@ -3397,7 +3372,6 @@ fortunes-bg:
   version: 1.1
   issues:
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 777484
 fortunes-es:
@@ -3438,9 +3412,7 @@ freecad:
 freecdb:
   version: 0.75
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
-    - different_due_to_umask
   bugs:
     - 777410
     - 792989
@@ -3540,9 +3512,7 @@ ftp-upload:
 ftpcopy:
   version: 0.6.7-3
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
-    - different_due_to_umask
   bugs:
     - 777409
     - 792982
@@ -3870,7 +3840,6 @@ gerstensaft:
   version: 0.3-4
   issues:
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 777414
     - 792983
@@ -4201,6 +4170,7 @@ gnupg-doc:
     Timestamp embedded in postscript comment by imagemagick.
   issues:
     - timestamps_in_gzip_headers
+    - different_encoding
 gnupg2:
   version: 2.1.8-1
   comments: |
@@ -4400,7 +4370,6 @@ gpsmanshp:
   version: 1.2.3-4
   issues:
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
   bugs:
     - 777446
@@ -5010,9 +4979,8 @@ installation-guide:
 integrit:
   version: 4.1-1
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
-    - different_due_to_umask
+    - random_order_in_md5sums
   bugs:
     - 776973
     - 792984
@@ -5043,9 +5011,8 @@ iproute2:
 ipsvd:
   version: 1.0.0-3
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
+    - random_order_in_md5sums
     - timestamps_in_gzip_headers
-    - different_due_to_umask
   bugs:
     - 777417
     - 792985
@@ -5163,7 +5130,6 @@ jargon:
   version: 4.0.0-5.1
   issues:
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 777483
     - 792987
@@ -5312,7 +5278,6 @@ jnr-x86asm:
 joe:
   version: 3.7-2.4
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 777726
@@ -5856,7 +5821,6 @@ leave:
   version: 1.12-2.1
   issues:
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 777403
     - 793694
@@ -6378,7 +6342,6 @@ libjama:
   version: 1.2.4-2
   issues:
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
   bugs:
     - 792972
@@ -6477,8 +6440,8 @@ liblayout:
 liblip:
   version: 2.0.0-1.2
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
+    - random_order_in_md5sums
     - different_due_to_umask
   bugs:
     - 792973
@@ -6490,7 +6453,7 @@ liblockfile:
   version: 1.09-6
   issues:
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
+    - random_order_in_md5sums
   bugs:
     - 792974
 liblog4ada:
@@ -6577,7 +6540,7 @@ libmspack:
 libmsv:
   version: 1.1-1
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
+    - random_order_in_md5sums
     - timestamps_in_gzip_headers
   bugs:
     - 792975
@@ -6749,7 +6712,7 @@ librabbitmq:
 libranlip:
   version: 1.0-4.1
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
+    - random_order_in_md5sums
     - timestamps_in_gzip_headers
   bugs:
     - 788000
@@ -6936,7 +6899,6 @@ libtnt:
   version: 1.2.6-1
   issues:
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
   bugs:
     - 777428
@@ -7452,8 +7414,8 @@ madplay:
 magicfilter:
   version: 1.2-64
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
+    - random_order_in_md5sums
   bugs:
     - 777448
     - 793698
@@ -7480,8 +7442,6 @@ mail-notification:
 maildirsync:
   version: 1.2-1.1
   issues:
-    - timestamps_in_gzip_headers
-    - timezones_manpages_podman
     - different_due_to_umask
   bugs:
     - 776933
@@ -7500,8 +7460,7 @@ mailfront:
   version: 1.16-1
   issues:
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-    - different_due_to_umask
+    - random_order_in_md5sums
   bugs:
     - 777431
     - 793699
@@ -7513,7 +7472,6 @@ mailto:
   version: 1.3.2-3
   issues:
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 777413
     - 793700
@@ -7754,7 +7712,7 @@ mimefilter:
     README.Debian also contains an embedded timestamp.
   issues:
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
+    - random_order_in_md5sums
   bugs:
     - 777486
     - 793704
@@ -8015,7 +7973,6 @@ mpack:
   version: 1.6-8
   issues:
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 777376
     - 793706
@@ -8277,7 +8234,6 @@ netgen:
 netmaze:
   version: 0.81+jpg0.82-14.1
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 778200
@@ -8291,8 +8247,7 @@ netqmail:
   version: 1.06-5
   issues:
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-    - different_due_to_umask
+    - random_order_in_md5sums
   bugs:
     - 777021
 netrek-client-cow:
@@ -8356,7 +8311,6 @@ newlib:
 newmail:
   version: 0.5-2
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 778202
@@ -9043,6 +8997,8 @@ oxygen-icons:
     - 790374
 p0f:
   version: 2.0.8-2
+  comments: |
+    fixed in experimental
   issues:
     - timestamps_in_gzip_headers
   bugs:
@@ -9574,7 +9530,6 @@ pixmap:
   version: 2.6pl4-18
   issues:
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 777430
     - 793709
@@ -9818,8 +9773,8 @@ psensor:
 psgml:
   version: 1.4.0-5
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
+    - random_order_in_md5sums
   bugs:
     - 777505
 psi4:
@@ -10808,18 +10763,16 @@ qingy:
 qmail-run:
   version: 2.0.2
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
-    - different_due_to_umask
+    - random_order_in_md5sums
   bugs:
     - 776952
     - 793711
 qmail-tools:
   version: 0.1.0
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
-    - different_due_to_umask
+    - random_order_in_md5sums
   bugs:
     - 776936
 qpid-cpp:
@@ -11116,7 +11069,6 @@ raster3d:
 ratfor:
   version: 1.0-15
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 778204
@@ -11132,7 +11084,6 @@ rblcheck:
 rbootd:
   version: 2.0-10
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 776951
@@ -11379,7 +11330,7 @@ rsync:
   version: 3.1.1-2
   issues:
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
+    - random_order_in_md5sums
   bugs:
     - 787123
 rsyslog:
@@ -11594,9 +11545,8 @@ runc:
 runit:
   version: 2.1.2-3
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
-    - different_due_to_umask
+    - random_order_in_md5sums
   bugs:
     - 792979
 runsnakerun:
@@ -11674,7 +11624,6 @@ sauce:
   version: 0.9.0+nmu3
   issues:
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 777401
     - 793718
@@ -11819,7 +11768,6 @@ sen:
 sendfile:
   version: 2.1b.20080616-5.3
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 776938
@@ -12105,7 +12053,6 @@ soapdenovo2:
 socklog:
   version: 2.1.0-8
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
     - different_due_to_umask
   bugs:
@@ -12281,7 +12228,6 @@ ssmtp:
   version: 2.64-8
   issues:
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 777398
     - 793724
@@ -12422,7 +12368,6 @@ supercat:
   version: 0.5.5-4
   issues:
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
   bugs:
     - 777396
@@ -12753,6 +12698,7 @@ tinydyndns:
     - timestamps_in_gzip_headers
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - different_due_to_umask
+    - random_order_in_md5sums
   bugs:
     - 776929
     - 793729
@@ -12907,7 +12853,6 @@ trscripts:
   version: 1.16
   issues:
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 776927
 truffle:
@@ -13035,9 +12980,8 @@ twitter-bootstrap3:
 twoftpd:
   version: 1.42-1
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
-    - different_due_to_umask
+    - random_order_in_md5sums
   bugs:
     - 777369
 txaws:
@@ -13081,25 +13025,23 @@ uclmmbase:
 ucspi-proxy:
   version: 0.99-1
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
     - different_due_to_umask
+    - random_order_in_md5sums
   bugs:
     - 777365
 ucspi-tcp:
   version: 1:0.88-3
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
-    - different_due_to_umask
+    - random_order_in_md5sums
   bugs:
     - 777020
 ucspi-unix:
   version: 0.36-4
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
-    - different_due_to_umask
+    - random_order_in_md5sums
   bugs:
     - 777019
 udev-discover:
@@ -13219,7 +13161,6 @@ utopia-documents:
 uucpsend:
   version: 1.1-4
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 777008
@@ -13364,7 +13305,7 @@ vpim:
   version: 0.695-1.1
   issues:
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
+    - different_due_to_umask
     - ftbfs_old_compat_debheper_compat_level
   bugs:
     - 776930
@@ -13728,7 +13669,6 @@ xhprof:
 xjig:
   version: 2.4-14
   issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
   bugs:
     - 777355
@@ -13860,7 +13800,6 @@ xvier:
   version: 1.0-7.5
   issues:
     - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 777330
 xz-utils:
