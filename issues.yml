@@ -90,6 +90,10 @@ timestamps_in_maven_version_files:
     Maven writes a timestamp to version.properties files.  Probably related
     to timestamps_in_maven_pom_files issue.
   deterministic: True
+locale_differences_in_pom:
+  description: |
+    Some tool isn't writing non-ASCII characters in pom.xml/foo.pom properly.
+  deterministic: True
 timestamps_in_pe_binaries:
   description: |
     PE binaries contain a timestamp and maybe randomness in an UUID.
@@ -300,6 +304,12 @@ timestamps_in_python_docutils:
   description: |
     Python docutils writes timestamps into its generated documentation.
   deterministic: True
+random_order_in_files_generated_by_module_build:
+  description: |
+    Perl files generated with Module::Build contain an unsorted dependency list.
+    .
+    Fixed in libmodule-build-perl, but not in the module shipped by perl itself.
+  url: https://bugs.debian.org/774869
 users_and_groups_in_cpio_archive:
   description: |
     cpio archives capture user and group for each of its members.
@@ -501,6 +511,11 @@ random_ispell_hash_files:
   description: |
     buildhash from ispell produces undeterministic .hash files.
   url: https://bugs.debian.org/778862
+timestamps_in_java_stapler_files:
+  description: |
+    Another variation of timestamps_in_maven_version_files where someone's
+    used the same doomed properties writer.
+  deterministic: True
 timestamps_in_gjdoc_properties_files:
   description: |
     Another variation of timestamps_in_maven_version_files where someone's
@@ -680,6 +695,11 @@ timestamps_from_tex4ht:
     Tex4ht adds timestamps into the HTML output files.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsFromTex4ht
   deterministic: True
+timestamps_from_imake_in_xutils:
+  url: https://bugs.debian.org/789964
+  description: |
+    The imake tool from xutils-dev defines a gzip command without `-n` that is used when compressing font files by other packages
+  deterministic: True
 snapshot_placeholder_replaced_with_timestamp_in_pom_properties:
   description: |
     pom.xml uses a <version> like 0.1-SNAPSHOT which is then replaced with the
@@ -780,6 +800,10 @@ random_order_in_ibus_table_createdb_output:
    ibus-table-createdb in ibus-table creates sqlite databases with
    non-deterministic order.
   url: https://bugs.debian.org/797521
+random_order_in_antlr_output:
+  description: |
+    The ANTLR parser generaor can have reordered source lines.
+    Fixed in antlr3/3.5.2-3.
 timestamps_in_tex_documents:
   description: |
     The TeX \today macro embeds the build date in the files generated
@@ -805,6 +829,9 @@ python-ply_compiled_parse_tables:
     ("write_table" in yacc.py) but rather further up the chain within PLY.
     .
   url: https://github.com/dabeaz/ply/issues/79
+ftbfs_due_to_disorderfs:
+  description: |
+    collect FTBFS related to disorderfs, eg. read errors, etc.
 timestamps_in_manpages_generated_by_docbook_utils:
   description: |
     docbook2man from docbook-utils adds the build date into generated manpages, which also contain locale variations.
@@ -920,6 +947,10 @@ random_contents_in_dat_files_generated_by_chasen-dictutils_makemat:
   description:
     /usr/lib/x86_64-linux-gnu/chasen/makemat from chaser-dictutils generates
     .dat files with some random/non-determimistic contents.
+timestamps_in_documentation_generated_by_pandoc:
+  description:
+    Pandoc writes a timestamp in the HTML and manpages it generates.
+  deterministic: True
 nondeterminstic_output_generated_by_moarvm:
   description:
     moarvm creates .moarvm files that have non-deterministic identifiers,
@@ -975,6 +1006,9 @@ captures_shell_variable_in_autofoo_script:
   description: |
     Something looking like autotools is capturing SHELL for use at
     runtime, which should probably be fixed to /bin/sh anyway.
+varying_ordering_in_data_tar_gz_or_control_tar_gz:
+  description: |
+    Previously part of not_using_dh_builddeb
 timestamps_generated_by_xbean_spring:
   description: |
     xbean-spring adds timestamps to files it adds in META-INF.
@@ -988,4 +1022,9 @@ copyright_year_in_comments_generated_by_ckbuilder:
   description: |
     CKBuilder.utils.copyright adds current year in the copyright header of
     generated files.
+  determimistic: True
+timestamps_in_htm_by_gap:
+  description: |
+    The etc/convert.pl script from gap embeds timestamps with the current time
+    and using the local language in the HTM files it produces.
   determimistic: True
