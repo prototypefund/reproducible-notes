@@ -3764,14 +3764,6 @@ gdb:
     - timestamps_in_jar
     - timestamps_in_dvi_generated_by_latex
     - diffoscope_runs_forever
-gdb-arm-none-eabi:
-  version: 9
-  comments: |
-    Uses gdb-source package, which contains __DATE__ / __TIME__.
-gdb-avr:
-  version: 7.7-2
-  issues:
-    - build_id_variation_requiring_further_investigation
 gdb-msp430:
   version: 7.2a~mspgcc-20111205-3
   bugs:
@@ -4996,10 +4988,6 @@ iodine:
   version: 0.7.0-3
   bugs:
     - 802105
-ion:
-  version: 3.2.1+dfsg-1
-  issues:
-    - build_id_variation_requiring_further_investigation
 ipadic:
   version: 2.7.0+main-3
   issues:
@@ -8795,10 +8783,6 @@ openhackware:
   comments: |
     Embed build time:
     https://codesearch.debian.net/results/package%3Aopenhackware%20BUILD_%28DATE|TIME%29
-openhpi:
-  version: 2.14.1-1.4
-  issues:
-    - build_id_variation_requiring_further_investigation
 openid4java:
   version: 0.9.6.662-2
   issues:
