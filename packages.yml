@@ -185,6 +185,8 @@ allegro4.4:
   comments: |
     Possibly a file ordering issue:
     https://sources.debian.net/src/allegro4.4/2:4.4.2-8/tools/CMakeLists.txt/#L6-L7
+  issues:
+    - unsorted_file_glob_by_cmake
   bugs:
     - 824140
 allegro5:

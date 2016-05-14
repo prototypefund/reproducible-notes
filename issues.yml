@@ -1029,3 +1029,10 @@ timestamps_in_htm_by_gap:
     The etc/convert.pl script from gap embeds timestamps with the current time
     and using the local language in the HTM files it produces.
   determimistic: True
+unsorted_file_glob_by_cmake:
+  description: |
+    File lists are generated in a CMakeLists.txt file with file(GLOB ...), which varies
+    with the readdir() order. This file list is passed to add_executable / add_library or
+    otherwise used for generating an output.
+    A solution is to sort the lists: list(SORT SRC_FILES)
+  url: https://bugs.debian.org/824263
