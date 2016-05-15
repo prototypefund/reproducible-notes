@@ -204,6 +204,10 @@ alpine:
     https://sources.debian.net/src/alpine/2.11%2Bdfsg1-3/alpine/Makefile.am/?hl=46:48#L46
   bugs:
     - 791923
+alsa-tools:
+  version: 1.1.0-1
+  issues:
+    - captures_shell_variable_in_autofoo_script
 altos:
   version: 1.6.2-1
   issues:
@@ -1116,6 +1120,10 @@ bytecode:
     - timestamps_in_jar
     - timestamps_in_documentation_generated_by_javadoc
     - locale_in_documentation_generated_by_javadoc
+bzflag:
+  version: 2.4.2+ds1-7
+  issues:
+    - captures_shell_variable_in_autofoo_script
 bzr:
   version: 2.6.0+bzr6602-3
   issues:
