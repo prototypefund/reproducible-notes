@@ -1427,10 +1427,6 @@ cinnamon-session:
   version: 2.8.3-1
   bugs:
     - 822432
-ciphersaber:
-  version: 0.61-4.1
-  bugs:
-    - 800284
 circuits:
   version: 3.1.0+ds1-1
   issues:
@@ -6550,10 +6546,6 @@ libmodule-extractuse-perl:
     Original issue caused by non-determinism in libparse-recdescent-perl.
     Original patch sent in \#790397 but now the issue seems to be that sometimes
     the file is not regenerated (TZ?) but I cannot reproduce.
-libmongodbx-class-perl:
-  version: 1.030002-1
-  issues:
-    - ftbfs_uninvestigated_test_failures
 libmouse-perl:
   version: 2.4.5-1
   bugs:
