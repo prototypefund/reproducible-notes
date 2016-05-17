@@ -2,10 +2,6 @@
   version: 1.2-1
   issues:
     - fontforge_reset_modification_time
-3depict:
-  version: 0.0.18-2
-  bugs:
-    - 798858
 4digits:
   version: 1.1.4-1
   issues:
@@ -64,10 +60,6 @@ actor-framework:
   version: 0.13.2-3
   issues:
     - timestamps_in_pdf_generated_by_latex
-ada-reference-manual:
-  version: 1:2012.2-7
-  bugs:
-    - 817877
 adabrowse:
   version: 4.0.3-6
   comments: |
@@ -1439,10 +1431,6 @@ citeproc-py:
   version: 0.3.0-1
   issues:
     - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
-civicrm:
-  version: 4.7.2+dfsg-2
-  bugs:
-    - 817116
 cjk:
   version: 4.8.3+git20140831-1
   comments: |
@@ -4940,10 +4928,6 @@ ifmail:
     Embeds the modification date of source files.
     https://sources.debian.net/src/ifmail/2.14tx8.10-22/ifcico/Makefile/#L171
     https://sources.debian.net/src/ifmail/2.14tx8.10-22/ifgate/Makefile/#L129
-ifrit:
-  version: 4.1.2-2
-  bugs:
-    - 820545
 ikiwiki:
   version: 3.20160506
   comments: |
@@ -5859,10 +5843,6 @@ lfm:
   version: 3.0-1
   issues:
     - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
-lgogdownloader:
-  version: 2.27-1
-  bugs:
-    - 820315
 libabigail:
   version: 0.1~20150623-2
   issues:
@@ -7483,8 +7463,6 @@ mailfilter:
   issues:
     - timestamps_in_tarball
     - different_due_to_umask
-  bugs:
-    - 778264
 mailfront:
   version: 1.16-1
   issues:
@@ -9096,8 +9074,6 @@ paramiko:
   issues:
     - random_order_in_python_environment_pickle
     - randomness_in_documentation_generated_by_sphinx
-  bugs:
-    - 804582
 paraview:
   version: 4.1.0+dfsg+1-1
   issues:
@@ -10441,7 +10417,6 @@ python-numpy:
     - timestamps_in_pdf_generated_by_matplotlib
   bugs:
     - 813429
-    - 813932
     - 816369
     - 816574
 python-odf:
@@ -10488,7 +10463,6 @@ python-oslo.messaging:
   version: 2.5.0-2
   bugs:
     - 816735
-    - 817886
 python-oslo.middleware:
   version: 2.8.0-2
   bugs:
@@ -11258,10 +11232,6 @@ rest2web:
   version: 0.5.2~alpha+svn-r248-2
   comments: |
     Random HTML ids in /usr/share/doc/rest2web/html/test_site/section1/index.html
-resteasy:
-  version: 3.0.6-3
-  bugs:
-    - 821158
 retext:
   version: 5.2.1-1
   issues:
@@ -12403,10 +12373,6 @@ sunflow:
   version: 0.07.2.svn396+dfsg-14
   issues:
     - locale_in_documentation_generated_by_javadoc
-sunpy:
-  version: 0.6.1-2
-  bugs:
-    - 813932
 sup-mail:
   version: 0.22.1-1
   bugs:
