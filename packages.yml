@@ -4031,9 +4031,13 @@ gmsh:
   issues:
     - timestamps_in_pdf_generated_by_latex
 gmt:
-  version: 4.5.12-1
+  version: 
   issues:
     - timestamps_in_pdf_generated_by_latex
+  comments: |
+    Pending: https://anonscm.debian.org/cgit/pkg-grass/gmt.git/tree/debian/patches/source_date_epoch.patch
+  bugs:
+    - 824668
 gmt-doc-ps:
   version: 3.4.4-1
   issues:
