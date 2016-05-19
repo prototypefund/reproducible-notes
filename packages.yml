@@ -4048,11 +4048,11 @@ gmsh:
   issues:
     - timestamps_in_pdf_generated_by_latex
 gmt:
-  version: 
-  issues:
-    - timestamps_in_pdf_generated_by_latex
+  version: None
   comments: |
     Pending: https://anonscm.debian.org/cgit/pkg-grass/gmt.git/tree/debian/patches/source_date_epoch.patch
+  issues:
+    - timestamps_in_pdf_generated_by_latex
   bugs:
     - 824668
 gmt-doc-ps:
