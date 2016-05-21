@@ -35,6 +35,10 @@ abtransfers:
   version: 0.0.5.0-5
   bugs:
     - 824733
+acbuild:
+  version: 0.3.0+dfsg-1
+  issues:
+    - random_build_path_by_golang_compiler
 ace-of-penguins:
   version: 1.5~rc2-1
   comments: |
@@ -52,6 +56,10 @@ acl2:
     blacklisted for now...
   issues:
     - blacklisted_on_jenkins
+acmetool:
+  version: 0.0.51-1
+  issues:
+    - random_build_path_by_golang_compiler
 actdiag:
   version: 0.5.3-5
   bugs:
@@ -1079,6 +1087,15 @@ brickos:
   version: 0.9.0.dfsg-12
   comments: |
     Tried adding SOURCE_DATE_EPOCH with https://gist.github.com/lamby/2d9f1c62ec4f633b63c9 to remove timestamp but not working for some reason
+brltty:
+  version: 5.3.1-3
+  comments: |
+    All issues would probably be fixed by using dh.
+    javadoc / jar would be fixed by using strip-nondeterminism.
+  issues:
+    - timestamps_in_documentation_generated_by_javadoc
+    - timestamps_in_documentation_generated_by_doxygen
+    - timestamps_in_jar
 broccoli:
   version: 1.97-3
   comments: |
@@ -5701,6 +5718,12 @@ knot:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_manpages_generated_by_sphinx
+knot-resolver:
+  version: 1.0.0~beta3-78-g3429619-1
+  comments: |
+    There is also a timestamp in the manpage.
+  issues:
+    - random_build_path_by_golang_compiler
 kodi:
   version: 14.2+dfsg1-2
   issues:
@@ -5971,6 +5994,11 @@ libbrahe:
   version: 1.3.2-5
   issues:
     - captures_shell_variable_in_autofoo_script
+libbson:
+  version: 1.3.5-1
+  comments: |
+    Embeds copyright year into manpage:
+    https://sources.debian.net/src/libbson/1.3.5-1/doc/mallard2man.py/#L165
 libcatmandu-mab2-perl:
   version: 0.12-1
   issues:
@@ -6149,6 +6177,10 @@ libextractor:
   version: 1:1.3-3
   bugs:
     - 803835
+libf2c2:
+  version: 20090411-3
+  issues:
+    - random_order_in_static_libraries
 libfakekey:
   version: 0.1-8.1
   issues:
@@ -7363,10 +7395,6 @@ ltsp-docs:
   version: 1.1-1
   issues:
     - timestamps_in_pdf_generated_by_latex
-ltt-control:
-  version: 2.6.0-1ppc64el1
-  bugs:
-    - 790259
 lttnganalyses:
   version: 0.3.0-1
   issues:
@@ -9672,10 +9700,6 @@ plum:
   version: 2.33.1-10
   bugs:
     - 815608
-plv8:
-  version: 1.4.2.ds-2
-  bugs:
-    - 810637
 pmw:
   version: 1:4.28-1
   issues:
