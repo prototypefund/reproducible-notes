@@ -1041,3 +1041,8 @@ unsorted_file_glob_by_cmake:
     otherwise used for generating an output.
     A solution is to sort the lists: list(SORT SRC_FILES)
   url: https://bugs.debian.org/824263
+random_order_in_static_library_by_icmake:
+  description: |
+    icmake uses a shell glob to collect object files while creating the static library archive.
+    The glob is sorted, but will be sorted differently depending on the locale.
+  url: https://sources.debian.net/src/icmake/8.01.00-1/scripts/icmbuild.in/#L373

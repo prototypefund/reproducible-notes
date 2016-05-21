@@ -6958,6 +6958,7 @@ libtommath:
   version: 0.42.0-1.1
   issues:
     - timestamps_in_pdf_content
+    - random_order_in_static_libraries
 libtool:
   version: 2.4.2-1.11
   issues:
@@ -12324,6 +12325,10 @@ srtp:
   version: 1.4.5~20130609~dfsg-1.1
   issues:
     - timestamps_in_pdf_generated_by_latex
+ssh-cron:
+  version: 1.01.00-1
+  issues:
+    - random_order_in_static_library_by_icmake
 sshguard:
   version: 1.6.0-1
   bugs:
