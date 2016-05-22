@@ -773,10 +773,6 @@ bacula-doc:
   version: 5.2.6-3
   issues:
     - fonts_in_pdf_files
-ball:
-  version: 1.4.2+20140406-1.1
-  bugs:
-    - 777791
 baloo-kf5:
   version: 5.16.0-1
   bugs:
@@ -1419,10 +1415,6 @@ chromium-browser:
   version: 48.0.2564.82-2
   issues:
     - blacklisted_on_jenkins_armhf_only
-chrony:
-  version: 1.31.1-2
-  bugs:
-    - 820226
 cimg:
   version: 1.6.5+dfsg-1
   comments: |
@@ -1724,10 +1716,6 @@ coriander:
   version: 2.0.2-4
   bugs:
     - 822432
-corosync:
-  version: 1.4.6-1.1
-  issues:
-    - timestamps_in_documentation_generated_by_groff
 couchdb:
   version: 1.4.0-3
   bugs:
@@ -3627,13 +3615,6 @@ gap-atlasrep:
   version: 1.5.0-1
   bugs:
     - 813980
-gap-ctbllib:
-  version: 1r2p2.dfsg.0-2
-  issues:
-    - timestamps_in_gzip_headers
-    - timestamps_in_pdf_generated_by_latex
-  bugs:
-    - 824569
 gap-float:
   version: 0.6.3+ds-1
   issues:
@@ -5555,10 +5536,6 @@ kdgcommons-java:
   version: 1.0.13-1
   issues:
     - user_in_java_jar_manifest
-kdiff3:
-  version: 0.9.98-1
-  issues:
-    - different_encoding
 keepalived:
   version: 1:1.2.13-1
   bugs:
@@ -8307,14 +8284,6 @@ netbeans:
   version: 8.0.2+dfsg1-3
   issues:
     - timestamps_in_zip
-netcdf-cxx:
-  version: 4.2.1-1
-  issues:
-    - leaks_path_environment_variable
-netcdf-fortran:
-  version: 4.4.3-1
-  comments: |
-    Capture PATH in examples
 netexpect:
   version: 0.22-2
   bugs:
@@ -9912,11 +9881,9 @@ pudb:
   issues:
     - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
 pvm:
-  version: 3.4.5-12.6
+  version: 3.4.5-13
   issues:
-    - timestamps_in_tarball
-    - timestamps_in_gzip_headers
-    - different_due_to_umask
+    - random_order_in_tarball
 pxlib:
   version: 0.6.5-1
   comments: |
@@ -10761,10 +10728,6 @@ python-x2go:
   version: 0.5.0.1-2
   issues:
     - use_epydoc
-python-xdo:
-  version: 0.2-2
-  bugs:
-    - 824008
 python-xlrd:
   version: 0.9.2-1
   comments: |
@@ -11404,10 +11367,6 @@ rockdodger:
     - random_order_in_md5sums
   bugs:
     - 793714
-rocksdb:
-  version: 4.1-1
-  bugs:
-    - 814214
 root-system:
   version: 5.34.19+dfsg-1.1
   issues:
@@ -11964,10 +11923,6 @@ shadow:
   version: 1:4.2-3.1
   bugs:
     - 817971
-shapelib:
-  version: 1.3.0-5
-  issues:
-    - timestamps_in_manpages_generated_by_ronn
 sheepdog:
   version: 0.8.3-4
   comments: |
@@ -12560,9 +12515,7 @@ swi-prolog:
   issues:
     - timestamps_from_cpp_macros
 swift:
-  version: 2.2.0-1
-  issues:
-    - randomness_in_documentation_generated_by_sphinx
+  version: 2.7.0-3
   bugs:
     - 823166
 swift-im:
@@ -13538,10 +13491,6 @@ webkit2gtk:
     Lunar thinks we need parallel processing implemented in diffoscope before it can deal with such big packages. (The artifacts dumped were 18GB.)
   issues:
     - blacklisted_on_jenkins
-webkit2pdf:
-  version: 0.3-1
-  bugs:
-    - 786633
 webkitgtk:
   version: 2.4.9-3
   issues:
@@ -13767,10 +13716,6 @@ xbs:
   version: 0-10
   issues:
     - different_due_to_umask
-xcftools:
-  version: 1.0.7-4
-  issues:
-    - different_pot_creation_date_in_gettext_mo_files
 xcrysden:
   version: 1.5.60-1
   issues:
