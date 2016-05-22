@@ -8028,6 +8028,10 @@ monotone:
   comments: |
     The freshly build executable produces its own manpage in Makefile.am,
     embedding timestamps.
+montage-wrapper:
+  version: 0.9.8-2
+  bugs:
+    - 825001
 mopidy:
   version: 1.1.2-1
   issues:
