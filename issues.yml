@@ -990,10 +990,6 @@ ftbfs_due_to_libtool:
   description:
     There is recent breakage around libtool affecting, libtoolize,
     dh-autoreconf, etc. We just want to ignore them for the time being.
-ftbfs_due_to_libpng:
-  description:
-    Transient issue in libpng
-  url: https://bugs.debian.org/785624
 lxqt_translate_desktop_binary_file_matched_under_certain_locales:
   description:
     The lxqt_translate_desktop QT/LXDE CMake utility methods calls grep which,
