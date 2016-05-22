@@ -168,10 +168,6 @@ aiksaurus:
   version: 1.2.1+dev-0.12-6.2
   bugs:
     - 817290
-aiozmq:
-  version: 0.7.1-1
-  issues:
-    - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
 aircrack-ng:
   version: 1:1.2-0~beta3-4
   bugs:
@@ -422,10 +418,6 @@ apparix:
   version: 07-261-1
   bugs:
     - 823428
-appstream-dep11:
-  version: 0.3.0-1
-  issues:
-    - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
 appstream-glib:
   version: 0.5.13-1
   bugs:
@@ -438,10 +430,6 @@ apt-dater:
   version: 1.0.2-1
   bugs:
     - 797211
-apt-venv:
-  version: 1.0.0-1
-  issues:
-    - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
 aptoncd:
   version: 0.1.98+bzr117-1.4
   issues:
@@ -1156,10 +1144,6 @@ cafeobj:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - fonts_in_pdf_files
-caffeine:
-  version: 2.8.3-1
-  issues:
-    - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
 cain:
   version: 1.9-8
   comments: |
@@ -1432,18 +1416,10 @@ cinnamon-session:
   version: 2.8.3-1
   bugs:
     - 822432
-circuits:
-  version: 3.1.0+ds1-1
-  issues:
-    - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
 citadel:
   version: 9.01-1
   bugs:
     - 822572
-citeproc-py:
-  version: 0.3.0-1
-  issues:
-    - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
 cjk:
   version: 4.8.3+git20140831-1
   comments: |
@@ -1760,10 +1736,6 @@ cppformat:
   version: 1.1.0+ds-3
   issues:
     - nondeterminstic_output_in_warnings_generated_by_breathe
-cppman:
-  version: 0.4.5-1
-  issues:
-    - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
 cppreference-doc:
   version: 20151129+dfsg0-1
   bugs:
@@ -1815,9 +1787,9 @@ cthumb:
   bugs:
     - 800207
 ctop:
-  version: 0.4.1-1
+  version: 1.0.0-1
   issues:
-    - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
+    - timestamps_in_manpages_generated_by_ronn
 cuba:
   version: 3.0+20111124-2
   bugs:
@@ -2124,8 +2096,6 @@ debdelta:
     - 793004
 debdry:
   version: 0.2.1-1
-  issues:
-    - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
   bugs:
     - 805195
 debget:
@@ -2185,18 +2155,10 @@ debian-zh-faq:
     Build date embedded in documentation.
   issues:
     - timestamps_in_gzip_headers
-debiancontributors:
-  version: 0.7.5-2
-  issues:
-    - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
 debiandoc-sgml-doc:
   version: 1.1.24
   issues:
     - debiandoc_sgml_timestamp
-debmake:
-  version: 4.2.2-1
-  issues:
-    - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
 debmake-doc:
   version: 1.0-1
   comments: |
@@ -2471,10 +2433,6 @@ dogtag-pki:
   version: 10.2.0-4
   issues:
     - timestamps_in_jar
-doit:
-  version: 0.28.0-1
-  issues:
-    - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
 dolfin:
   version: 1.6.0-4
   issues:
@@ -2920,10 +2878,6 @@ fabric:
   version: 1.10.2-1
   issues:
     - copyright_year_in_documentation_generated_by_sphinx
-fades:
-  version: 4-1
-  issues:
-    - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
 fai:
   version: 4.3.2
   issues:
@@ -5911,10 +5865,6 @@ leds-alix:
   issues:
     - timestamps_in_jar
     - different_due_to_umask
-lfm:
-  version: 3.0-1
-  issues:
-    - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
 libabigail:
   version: 0.1~20150623-2
   issues:
@@ -7418,10 +7368,6 @@ ltt-control:
   version: 2.6.0-1ppc64el1
   bugs:
     - 825000
-lttnganalyses:
-  version: 0.3.0-1
-  issues:
-    - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
 lttv:
   version: 1.5-1
   issues:
@@ -8614,10 +8560,6 @@ npm:
   comments: |
     Markdown files are converted with marked to HTML.
     marked html-encodes email addresses in an unreproducible way.
-npm2deb:
-  version: 0.2.4-1
-  issues:
-    - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
 nqp:
   version: 2015.09.1-2
   issues:
@@ -9163,10 +9105,6 @@ paexec:
   version: 1.0.1-3
   issues:
     - pdf_created_by_ghostscript
-pafy:
-  version: 0.3.80-1
-  issues:
-    - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
 pairs:
   version: 4:15.04.3-1
   issues:
@@ -9693,10 +9631,6 @@ plainbox:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - randomness_in_documentation_indices_generated_by_sphinx
-planetfilter:
-  version: 0.5.0-1
-  issues:
-    - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
 planner:
   version: 0.14.6-4
   bugs:
@@ -9956,10 +9890,6 @@ publican:
   issues:
     - timestamps_in_epub
     - timestamps_in_pdf_generated_by_apache_fop
-pudb:
-  version: 2015.1-1
-  issues:
-    - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
 pvm:
   version: 3.4.5-13
   issues:
@@ -10065,10 +9995,6 @@ pygopherd:
   version: 2.0.18.3+nmu4
   bugs:
     - 800204
-pygrib:
-  version: 2.0.0-3
-  issues:
-    - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
 pygtkmvc:
   version: 1.99.1-1
   issues:
@@ -10178,10 +10104,6 @@ pythia8:
   version: 8.1.86-1.1
   issues:
     - random_order_in_static_libraries
-python-3to2:
-  version: 1.1.1-1
-  issues:
-    - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
 python-activipy:
   version: 0.1-2
   issues:
@@ -10207,10 +10129,6 @@ python-automaton:
   version: 0.7.0-2
   bugs:
     - 816735
-python-avro:
-  version: 1.8.0~rc1+dfsg-2
-  issues:
-    - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
 python-babel:
   version: 1.3+dfsg.1-5
   bugs:
@@ -10451,10 +10369,6 @@ python-jedi:
   version: 0.9.0-1
   issues:
     - ftbfs_uninvestigated_test_failures
-python-json-patch:
-  version: 1.19-2
-  issues:
-    - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
 python-kafka:
   version: 0.9.5-1
   issues:
@@ -10559,10 +10473,6 @@ python-numpy:
     - 813429
     - 816369
     - 816574
-python-odf:
-  version: 1.3.1+dfsg-1
-  issues:
-    - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
 python-openstackdocstheme:
   version: 1.2.5+dfsg1-1
   issues:
@@ -10703,10 +10613,6 @@ python-pypump:
     - timestamps_in_documentation_generated_by_sphinx
   bugs:
     - 788505
-python-pysnmp4:
-  version: 4.2.5-1
-  issues:
-    - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
 python-pytest-timeout:
   version: 0.4-2
   bugs:
@@ -10780,10 +10686,6 @@ python-snuggs:
   version: 1.3.1-2
   bugs:
     - 824794
-python-softlayer:
-  version: 4.1.1-2
-  issues:
-    - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
 python-statsd:
   version: 3.2.1-1
   bugs:
@@ -11376,10 +11278,6 @@ rest2web:
   version: 0.5.2~alpha+svn-r248-2
   comments: |
     Random HTML ids in /usr/share/doc/rest2web/html/test_site/section1/index.html
-retext:
-  version: 5.2.1-1
-  issues:
-    - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
 revelation:
   version: 0.4.14-2
   issues:
@@ -12791,10 +12689,6 @@ teseq:
   version: 1.1-0.1
   issues:
     - timezone_variance_because_of_automake_mdate
-testrepository:
-  version: 0.0.20-2
-  issues:
-    - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
 tetraproc:
   version: 0.8.2-2
   issues:
@@ -12915,10 +12809,6 @@ tlsdate:
   version: 0.0.13-1
   bugs:
     - 804619
-tlslite-ng:
-  version: 0.5.1-1
-  issues:
-    - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
 tmexpand:
   version: 0.1.2.0-3
   bugs:
@@ -12928,10 +12818,6 @@ tntnet:
   issues:
     - different_due_to_umask
     - leaks_path_environment_variable
-tomahawk:
-  version: 0.7.1-2
-  issues:
-    - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
 tomatoes:
   version: 1.55-5
   bugs:
@@ -13174,10 +13060,6 @@ txtorcon:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - timestamps_in_documentation_generated_by_sphinx
-tz-converter:
-  version: 1.0.0-1
-  issues:
-    - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
 tzc:
   version: 2.6.15-5.3
   bugs:
@@ -13574,10 +13456,6 @@ webkitgtk:
   issues:
     - diffoscope_runs_forever
     - blacklisted_on_jenkins_armhf_only
-websocket-client:
-  version: 0.18.0-2
-  issues:
-    - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
 weechat:
   version: 1.5-1
   issues:
