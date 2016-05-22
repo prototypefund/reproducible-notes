@@ -2687,8 +2687,6 @@ elog:
     - 816209
 elpa:
   version: 2013.11.008-4
-  issues:
-    - ftbfs_due_to_libtool
   bugs:
     - 814063
 elvis-tiny:
@@ -2938,10 +2936,6 @@ fcitx-table-other:
   version: 0.2.3-2
   bugs:
     - 818642
-fcml:
-  version: 1.1.1-2
-  issues:
-    - ftbfs_due_to_libtool
 fdclone:
   version: 3.01b-1
   issues:
@@ -4510,26 +4504,10 @@ gspiceui:
   version: 1.1.00+dfsg-1
   bugs:
     - 823239
-gst-libav1.0:
-  version: 1.6.3-1
-  issues:
-    - ftbfs_due_to_libtool
-gst-plugins-bad1.0:
-  version: 1.6.3-1
-  issues:
-    - ftbfs_due_to_libtool
 gst-plugins-base1.0:
   version: 1.5.0.1+git20150513-1
   bugs:
     - 787124
-gst-plugins-good1.0:
-  version: 1.6.3-1
-  issues:
-    - ftbfs_due_to_libtool
-gst-plugins-ugly1.0:
-  version: 1.6.3-1
-  issues:
-    - ftbfs_due_to_libtool
 gtg-trace:
   version: 0.2-2+dfsg-1
   issues:
@@ -5079,10 +5057,6 @@ itksnap:
   version: 2.2.0-1.1
   bugs:
     - 789931
-iulib:
-  version: 0.3-3.2
-  issues:
-    - ftbfs_due_to_libtool
 ivtools:
   version: 1.2.11a1-5
   issues:
@@ -6140,8 +6114,6 @@ libf2c2:
     - random_order_in_static_libraries
 libfakekey:
   version: 0.1-8.1
-  issues:
-    - ftbfs_due_to_libtool
   bugs:
     - 814063
 libfastutil-java:
@@ -6573,10 +6545,6 @@ libmpc:
   version: 2:0.1~r459-4.1
   issues:
     - timestamps_from_cpp_macros
-libmspack:
-  version: 0.5-1
-  issues:
-    - ftbfs_due_to_libtool
 libmsv:
   version: 1.1-1
   issues:
@@ -6625,8 +6593,6 @@ libnss-ldap:
     https://sources.debian.net/src/libnss-ldap/265-3/vers_string/#L16
 liboauth:
   version: 1.0.1-1
-  issues:
-    - ftbfs_due_to_libtool
   bugs:
     - 814063
 libonemind-commons-java-java:
@@ -6723,10 +6689,6 @@ libproc-syncexec-perl:
   version: 1.01-1.1
   bugs:
     - 800304
-libpuzzle:
-  version: 0.9-6
-  issues:
-    - ftbfs_due_to_libtool
 libqapt:
   version: 3.0.1-1
   bugs:
@@ -6792,8 +6754,6 @@ librostlab-blast:
     - timestamps_in_pdf_generated_by_latex
 librsvg:
   version: 2.40.13-2
-  issues:
-    - ftbfs_due_to_libtool
   bugs:
     - 814063
 librun-parts-perl:
@@ -6833,8 +6793,6 @@ libsendmail-milter-perl:
     - 807392
 libshr-glib:
   version: 2011.03.08.2~git20110930-4
-  issues:
-    - ftbfs_due_to_libtool
   bugs:
     - 814063
 libskinlf-java:
@@ -7468,10 +7426,6 @@ madness:
   version: 0.10-1
   comments: |
     Captures environment in /usr/include/madness/config.h
-madplay:
-  version: 0.15.2b-8
-  issues:
-    - ftbfs_due_to_libtool
 magicfilter:
   version: 1.2-64
   issues:
@@ -7594,10 +7548,6 @@ mapsembler2:
     https://sources.debian.net/src/mapsembler2/2.2.3%2Bdfsg-2/mapsembler2_extremities/thirdparty/gatb-core/src/gatb/system/api/config.hpp.in/?hl=23,27
   bugs:
     - 797526
-maqview:
-  version: 0.2.5-7
-  issues:
-    - ftbfs_due_to_libtool
 maria:
   version: 1.3.5-4
   issues:
@@ -7707,10 +7657,6 @@ meanwhile:
   version: 1.0.2-7
   issues:
     - captures_shell_variable_in_autofoo_script
-mecab:
-  version: 0.996-1.2
-  issues:
-    - ftbfs_due_to_libtool
 memcached:
   version: 1.4.24-2
   bugs:
@@ -7785,10 +7731,6 @@ mimefilter:
   bugs:
     - 777486
     - 793704
-mimelib1:
-  version: 5:1.1.4-2
-  issues:
-    - ftbfs_due_to_libtool
 mimetic:
   version: 0.9.8-4
   issues:
@@ -9290,10 +9232,6 @@ pdmenu:
   version: 1.3.4
   issues:
     - timestamps_in_documentation_generated_by_groff
-pdp:
-  version: 1:0.14.1-3
-  issues:
-    - ftbfs_due_to_libtool
 pear-channels:
   version: 0~20141011-1
   issues:
@@ -9387,10 +9325,6 @@ photutils:
   version: 0.1-1
   bugs:
     - 813656
-php-ast:
-  version: 0.1.1-1
-  issues:
-    - ftbfs_due_to_libtool
 php-codecoverage:
   version: 3.3.1+dfsg-1
   bugs:
@@ -9399,124 +9333,30 @@ php-doc:
   version: 20140201-1
   issues:
     - timestamps_in_documentation_generated_by_docbook_dbtimestamp
-php-facedetect:
-  version: 1.1.0+git20140717-2
-  issues:
-    - ftbfs_due_to_libtool
 php-finder-facade:
   version: 1.2.0-1
   comments: |
     Timestamp embedded in HTML documentation by phpdox.
-php-gearman:
-  version: 1.1.2-1
-  issues:
-    - ftbfs_due_to_libtool
-php-geoip:
-  version: 1.1.0-2
-  issues:
-    - ftbfs_due_to_libtool
-php-horde-lz4:
-  version: 1.0.9-1
-  issues:
-    - ftbfs_due_to_libtool
-php-igbinary:
-  version: 1.2.1-2
-  issues:
-    - ftbfs_due_to_libtool
-php-imagick:
-  version: 3.3.0~rc2-1
-  issues:
-    - ftbfs_due_to_libtool
-php-imlib:
-  version: 0.7-4.1
-  issues:
-    - ftbfs_due_to_libtool
-php-json:
-  version: 1.3.7-1
-  issues:
-    - ftbfs_due_to_libtool
-php-memcache:
-  version: 3.0.8-5
-  issues:
-    - ftbfs_due_to_libtool
-php-memcached:
-  version: 2.2.0-51-ge573a6e+2.2.0-2
-  issues:
-    - ftbfs_due_to_libtool
 php-mf2:
   version: 0.2.12-1
   bugs:
     - 814997
-php-mongo:
-  version: 1.6.10-1
-  issues:
-    - ftbfs_due_to_libtool
-php-msgpack:
-  version: 0.5.7-1
-  issues:
-    - ftbfs_due_to_libtool
-php-oauth:
-  version: 1.2.3-1
-  issues:
-    - ftbfs_due_to_libtool
-php-pecl-http:
-  version: 2.0.4-1
-  issues:
-    - ftbfs_due_to_libtool
 php-pinba:
   version: 1.0.0-2
   bugs:
     - 808055
-php-propro:
-  version: 1.0.0-1
-  issues:
-    - ftbfs_due_to_libtool
 php-ps:
   version: 1.3.7-1
   bugs:
     - 791838
-php-radius:
-  version: 1.2.7-2
-  issues:
-    - ftbfs_due_to_libtool
-php-raphf:
-  version: 1.0.4-1
-  issues:
-    - ftbfs_due_to_libtool
-php-rrd:
-  version: 2.0.0+1.1.3-2
-  issues:
-    - ftbfs_due_to_libtool
 php-smbclient:
   version: 0.8.0~rc1-1
-  issues:
-    - ftbfs_due_to_libtool
   bugs:
     - 814063
-php-ssh2:
-  version: 0.12-39-g3dfe336+0.12-1
-  issues:
-    - ftbfs_due_to_libtool
-php-stomp:
-  version: 1.0.6-1
-  issues:
-    - ftbfs_due_to_libtool
 php-suhosin:
   version: 0.9.33-3
   bugs:
     - 718145
-php-uuid:
-  version: 1.0.4-1
-  issues:
-    - ftbfs_due_to_libtool
-php-yac:
-  version: 0.9.2-1
-  issues:
-    - ftbfs_due_to_libtool
-php-zmq:
-  version: 1.1.2-1
-  issues:
-    - ftbfs_due_to_libtool
 php5:
   version: 5.6.16+dfsg-3
   comments: |
@@ -11237,10 +11077,6 @@ remake:
   version: 3.82+dbg0.9+dfsg-2
   bugs:
     - 806552
-remctl:
-  version: 3.10-1
-  issues:
-    - ftbfs_due_to_libtool
 remmina:
   version: 1.1.2-3
   bugs:
@@ -11793,10 +11629,6 @@ sdcc:
   version: 3.4.0+dfsg-2
   issues:
     - timestamps_from_cpp_macros
-sdl-mixer1.2:
-  version: 1.2.12-11
-  issues:
-    - ftbfs_due_to_libtool
 sdl-stretch:
   version: 0.3.1-4
   issues:
@@ -12592,10 +12424,6 @@ taopm:
   version: 1.0-3
   comments: |
     Embeds the build date. https://sources.debian.net/src/taopm/1.0-3/configure.in/#L27
-tarantool-php:
-  version: 1.6-1
-  issues:
-    - ftbfs_due_to_libtool
 tasque:
   version: 0.1.12-4
   issues:
@@ -13024,10 +12852,6 @@ twidge:
   version: 1.1.2
   issues:
     - timestamps_in_pdf_generated_by_latex
-twig:
-  version: 1.23.1-1
-  issues:
-    - ftbfs_due_to_libtool
 twinkle:
   version: 1:1.9.0+dfsg-3
   bugs:
@@ -13672,10 +13496,6 @@ xcrysden:
   version: 1.5.60-1
   issues:
     - different_encoding
-xdebug:
-  version: 2.4.0~rc4-1
-  issues:
-    - ftbfs_due_to_libtool
 xdg-user-dirs-gtk:
   version: 0.10-1
   bugs:
@@ -13721,10 +13541,6 @@ xfsprogs:
   version: 4.3.0+nmu1
   bugs:
     - 822369
-xhprof:
-  version: 0.9.4-2
-  issues:
-    - ftbfs_due_to_libtool
 xjig:
   version: 2.4-14
   issues:
