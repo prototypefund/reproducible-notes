@@ -257,10 +257,6 @@ anet:
   version: 0.3.1-1
   comments: |
     Random order of object files in static library produced by gnatmake.
-angband:
-  version: 3.3.2-2.1
-  issues:
-    - timestamps_in_pdf_generated_by_latex
 ann:
   version: 1.1.2+doc-5
   issues:
@@ -293,8 +289,6 @@ aodh:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - timestamps_in_documentation_generated_by_sphinx
-  bugs:
-    - 820179
 aolserver4:
   version: 4.5.1-18
   issues:
@@ -444,10 +438,6 @@ apt-dater:
   version: 1.0.2-1
   bugs:
     - 797211
-apt-listbugs:
-  version: 0.1.17
-  issues:
-    - timestamps_in_documentation_generated_by_rdtool
 apt-venv:
   version: 1.0.0-1
   issues:
@@ -549,12 +539,6 @@ asm3:
   version: 3.3.2-2
   issues:
     - locale_in_documentation_generated_by_javadoc
-asn1c:
-  version: 0.9.24+dfsg-1
-  comments: |
-    The only issue is in `asn1c-usage.pdf`.
-  issues:
-    - fonts_in_pdf_files
 aspectc++:
   version: 1.2+svn20150823-1
   issues:
@@ -769,10 +753,6 @@ backup-manager:
   version: 0.7.10.1-2
   issues:
     - timestamps_in_pdf_generated_by_latex
-bacula-doc:
-  version: 5.2.6-3
-  issues:
-    - fonts_in_pdf_files
 baloo-kf5:
   version: 5.16.0-1
   bugs:
@@ -927,6 +907,10 @@ bin-prot:
   version: 111.03.00-1
   issues:
     - randomness_in_ocaml_preprocessed_files
+binutils:
+  version: 2.26-9
+  bugs:
+    - 824413
 bintray-client-java:
   version: 0.8.1-1
   issues:
@@ -1139,7 +1123,7 @@ bzflag:
   issues:
     - captures_shell_variable_in_autofoo_script
 bzr:
-  version: 2.6.0+bzr6602-3
+  version: 2.7.0-5
   issues:
     - randomness_in_documentation_generated_by_sphinx
 bzr-xmloutput:
@@ -3840,11 +3824,6 @@ geomview:
   comments: |
     Embeds build date/time, username, hostname.
     https://sources.debian.net/src/geomview/1.9.5-1/src/bin/geomview/x11/Makefile.am/#L17-L21
-gerbv:
-  version: 2.6.0-1
-  comments: |
-    Embed build time:
-    http://sources.debian.net/src/gerbv/2.6.0-1/src/callbacks.c/?hl=1541#L1541
 geronimo-jpa-2.0-spec:
   version: 1.1-2
   issues:
@@ -7385,9 +7364,9 @@ lua-discount:
   bugs:
     - 824944
 lua-ldoc:
-  version: 1.4.2-1
-  issues:
-    - timestamps_in_manpages_generated_by_txt2man
+  version: 1.4.3-5
+  comments: |
+    Timestamps embedded into HTML documentation by its own documentation generator.
 lua-lgi:
   version: 0.9.0.20151101.git.885af4-1
   bugs:
@@ -7703,6 +7682,10 @@ mdbtools:
   version: 0.7.1-4
   issues:
     - timestamps_in_manpages_generated_by_txt2man
+  comments: |
+    Uses deterministic date, but not locale-aware.
+    https://sources.debian.net/src/mdbtools/0.7.1-4/doc/Makefile.am/#L20
+    Solved by setting LC_ALL=C before calling date.
 meanwhile:
   version: 1.0.2-7
   issues:
@@ -7899,12 +7882,6 @@ modglue:
   comments: |
     Embed build time and hostname:
     https://sources.debian.net/src/modglue/1.17-2.2/src/Makefile.in/?hl=24#L24
-modplugtools:
-  version: 0.5.3-1.1
-  comments: |
-    Uses __DATE__ and __TIME__:
-    https://sources.debian.net/src/modplugtools/0.5.3-1.1/mp123/modplug123.c/?hl=164,171#L164
-    Does not fail to build, so does not use dpkg-buildflags.
 moin:
   version: 1.9.8-1
   issues:
@@ -9669,10 +9646,6 @@ plum:
   version: 2.33.1-10
   bugs:
     - 815608
-pmw:
-  version: 1:4.28-1
-  issues:
-    - pdf_created_by_ghostscript
 pngcheck:
   version: 2.3.0-7
   comments: |
@@ -10685,9 +10658,9 @@ python-shade:
   bugs:
     - 821197
 python-shapely:
-  version: 1.4.3-1
+  version: 1.5.15-2
   issues:
-    - timestamps_in_pdf_generated_by_latex
+    - timestamps_in_pdf_generated_by_matplotlib
 python-simpy3:
   version: 3.0.7+dfsg-1
   issues:
@@ -11068,12 +11041,6 @@ r-cran-rinside:
   version: 0.2.13-1
   issues:
     - build_id_variation_requiring_further_investigation
-r-cran-rniftilib:
-  version: 0.0-32-1
-  comments: |
-    There is also a date in Rniftilib.so
-  issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
 r-cran-rsdmx:
   version: 0.4.5+dfsg-1
   issues:
