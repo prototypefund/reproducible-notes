@@ -907,14 +907,14 @@ bin-prot:
   version: 111.03.00-1
   issues:
     - randomness_in_ocaml_preprocessed_files
-binutils:
-  version: 2.26-9
-  bugs:
-    - 824413
 bintray-client-java:
   version: 0.8.1-1
   issues:
     - locale_in_documentation_generated_by_javadoc
+binutils:
+  version: 2.26-9
+  bugs:
+    - 824413
 binutils-m68hc1x:
   version: 1:2.18-7
   comments: |
@@ -1217,6 +1217,12 @@ cardstories:
   version: 1.0.6-1.3
   bugs:
     - 753195
+cargo:
+  version: 0.9.0-1
+  comments: |
+    Issue seems to be in embedded libgit2-sys.
+  issues:
+    - unsorted_file_glob_by_cmake
 casablanca:
   version: 2.2.0-1
   comments: |
@@ -1273,6 +1279,10 @@ cduce:
   version: 0.6.0-1
   bugs:
     - 796418
+cegui-mk2:
+  version: 0.8.7-1
+  issues:
+    - unsorted_file_glob_by_cmake
 ceilometer:
   version: 2015.1.0-6
   issues:
@@ -1399,6 +1409,7 @@ chromium-browser:
   version: 48.0.2564.82-2
   issues:
     - blacklisted_on_jenkins_armhf_only
+    - unsorted_file_glob_by_cmake
 cimg:
   version: 1.6.5+dfsg-1
   comments: |
@@ -1465,6 +1476,10 @@ clanlib:
   version: 1.0~svn3827-3
   bugs:
     - 790357
+clasp:
+  version: 3.1.4-2
+  issues:
+    - unsorted_file_glob_by_cmake
 claws-mail:
   version: 3.13.2-1
   bugs:
@@ -1548,6 +1563,11 @@ codeblocks:
     - timestamps_from_cpp_macros
   bugs:
     - 824182
+codelite:
+  version: 9.1+dfsg2-1
+  issues:
+    - unsorted_file_glob_by_cmake
+    - diffoscope_runs_forever
 codenarc:
   version: 0.17-2
   issues:
@@ -1952,6 +1972,10 @@ dapl:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/dapl/2.1.5-1/Makefile.am/#L51
+darktable:
+  version: 2.0.4-1
+  issues:
+    - unsorted_file_glob_by_cmake
 datanommer.commands:
   version: 0.4.6-2
   bugs:
@@ -1984,6 +2008,7 @@ davix:
   version: 0.6.3-1
   issues:
     - random_order_in_python_environment_pickle
+    - unsorted_file_glob_by_cmake
 db5.3:
   version: 5.3.28-9
   issues:
@@ -2450,6 +2475,11 @@ doit:
   version: 0.28.0-1
   issues:
     - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
+dolfin:
+  version: 1.6.0-4
+  issues:
+    - diffoscope_runs_forever
+    - unsorted_file_glob_by_cmake
 dom4j:
   version: 1.6.1+dfsg.3-2
   issues:
@@ -2938,6 +2968,10 @@ faumachine:
   version: 20120707-3
   bugs:
     - 746843
+faust:
+  version: 0.9.73~repack1-1
+  issues:
+    - unsorted_file_glob_by_cmake
 fbreader:
   version: 0.12.10dfsg-10
   issues:
@@ -3427,6 +3461,7 @@ freecad:
   version: 0.15.4671+dfsg1-1
   issues:
     - timestamps_in_python_code_generated_by_pyside
+    - unsorted_file_glob_by_cmake
 freecdb:
   version: 0.75
   issues:
@@ -3856,6 +3891,8 @@ getdp:
   comments: |
     Embeds build date, hostname and username.
     https://sources.debian.net/src/getdp/2.7.0-2/CMakeLists.txt/#L76-L81
+  issues:
+    - unsorted_file_glob_by_cmake
 getfem++:
   version: 4.2.1~beta1~svn4635~dfsg-3
   comments: |
@@ -3871,6 +3908,10 @@ gevent-socketio:
   version: 0.3.6-2
   issues:
     - copyright_year_in_documentation_generated_by_sphinx
+gfal2:
+  version: 2.11.1-1
+  issues:
+    - unsorted_file_glob_by_cmake
 gfpoken:
   version: 1-2
   comments: |
@@ -4022,6 +4063,8 @@ gmsh:
   version: 2.8.5+dfsg-1.1
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - diffoscope_runs_forever
+    - unsorted_file_glob_by_cmake
 gmt:
   version: None
   comments: |
@@ -4135,6 +4178,10 @@ gnome-user-share:
   version: 3.18.1-1
   bugs:
     - 822432
+gnss-sdr:
+  version: 0.0.7-1
+  issues:
+    - unsorted_file_glob_by_cmake
 gnu-smalltalk:
   version: 3.2.5-1
   issues:
@@ -4725,6 +4772,10 @@ heat:
   version: 2014.1.3-7
   issues:
     - randomness_in_documentation_generated_by_sphinx
+hedgewars:
+  version: 0.9.22-dfsg-7
+  issues:
+    - unsorted_file_glob_by_cmake
 hepmc:
   version: 2.06.09-1
   issues:
@@ -5139,10 +5190,6 @@ jansi:
   version: 1.4-3
   issues:
     - random_order_in_documentation_generated_by_javadoc
-jansson:
-  version: 2.7-1
-  bugs:
-    - 789748
 jargon:
   version: 4.0.0-5.1
   issues:
@@ -5832,6 +5879,10 @@ ldaptor:
   version: 0.0.43+debian1-7
   issues:
     - use_epydoc
+ldc:
+  version: 1:0.17.1-1
+  issues:
+    - unsorted_file_glob_by_cmake
 ldns:
   version: 1.6.17-5
   bugs:
@@ -6460,6 +6511,10 @@ libjxp-java:
   version: 1.6.1-5
   issues:
     - locale_in_documentation_generated_by_javadoc
+libkml:
+  version: 1.3.0-2
+  issues:
+    - unsorted_file_glob_by_cmake
 libkolabxml:
   version: 1.0.2-2
   issues:
@@ -6876,6 +6931,10 @@ libsys-virt-perl:
   version: 1.2.18-1
   bugs:
     - 797490
+libsysactivity:
+  version: 0.6.5-6
+  issues:
+    - unsorted_file_glob_by_cmake
 libtar:
   version: 1.2.20-5
   issues:
@@ -7218,9 +7277,9 @@ live-manual:
     - timestamps_in_epub
     - timestamps_in_pdf_content
 lizardfs:
-  version: 3.9.4+dfsg-6
-  bugs:
-    - 822505
+  version: 3.9.4+dfsg-7
+  issues:
+    - unsorted_file_glob_by_cmake
 llvm-defaults:
   version: 0.33
   bugs:
@@ -7253,6 +7312,10 @@ lmdb:
   version: 0.9.17-3
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+lmms:
+  version: 1.1.3-2
+  issues:
+    - unsorted_file_glob_by_cmake
 lnav:
   version: 0.7.0-3
   issues:
@@ -7365,8 +7428,8 @@ lua-discount:
     - 824944
 lua-ldoc:
   version: 1.4.3-5
-  comments: |
-    Timestamps embedded into HTML documentation by its own documentation generator.
+  issues:
+    - timestamps_in_documentation_generated_by_lua_ldoc
 lua-lgi:
   version: 0.9.0.20151101.git.885af4-1
   bugs:
@@ -7562,6 +7625,10 @@ manuel:
   version: 1.8.0-3
   issues:
     - ftbfs_uninvestigated_test_failures
+mapcache:
+  version: 1.4.1-3
+  issues:
+    - unsorted_file_glob_by_cmake
 mapivi:
   version: 0.9.7-1.1
   bugs:
@@ -7680,12 +7747,12 @@ mcrl2:
     https://sources.debian.net/src/mcrl2/201409.0-1/libraries/utilities/source/command_line_interface.cpp/#L547-L550
 mdbtools:
   version: 0.7.1-4
-  issues:
-    - timestamps_in_manpages_generated_by_txt2man
   comments: |
     Uses deterministic date, but not locale-aware.
     https://sources.debian.net/src/mdbtools/0.7.1-4/doc/Makefile.am/#L20
     Solved by setting LC_ALL=C before calling date.
+  issues:
+    - timestamps_in_manpages_generated_by_txt2man
 meanwhile:
   version: 1.0.2-7
   issues:
@@ -8261,6 +8328,12 @@ netbeans:
   version: 8.0.2+dfsg1-3
   issues:
     - timestamps_in_zip
+netcdf:
+  version: 1:4.4.0-2
+  comments: |
+    Embeds the build date.
+  issues:
+    - captures_kernel_version
 netexpect:
   version: 0.22-2
   bugs:
@@ -8741,6 +8814,10 @@ omnievents:
   version: 1:2.6.2-2
   bugs:
     - 824734
+ompl:
+  version: 1.1.0+ds1-1
+  issues:
+    - unsorted_file_glob_by_cmake
 oneliner-el:
   version: 0.3.6-7.1
   bugs:
@@ -8818,9 +8895,11 @@ openclonk:
   bugs:
     - 823797
 opencv:
-  version: 2.4.9.1+dfsg-1
+  version: 2.4.9.1+dfsg-1.5
   issues:
     - timestamps_in_jar
+    - random_order_in_static_libraries
+    - captures_kernel_version
 opendkim:
   version: 2.10.3-3
   issues:
@@ -8895,6 +8974,7 @@ openmpi:
   version: 1.6.5-9.1
   issues:
     - timestamps_from_cpp_macros
+    - unsorted_file_glob_by_cmake
 opennebula:
   version: 4.12.3+dfsg-3
   issues:
@@ -8916,6 +8996,10 @@ openocd:
     https://sources.debian.net/src/openocd/0.9.0-1/src/Makefile.am/#L41
   issues:
     - timestamps_in_pdf_generated_by_latex
+openscenegraph:
+  version: 3.2.3+dfsg1-2
+  issues:
+    - unsorted_file_glob_by_cmake
 openstack-doc-tools:
   version: 0.31.0-4
   bugs:
@@ -9007,6 +9091,10 @@ osm-gps-map:
   version: 1.1.0-1
   issues:
     - locale_dependent_order_in_devlibs_depends
+osm2pgrouting:
+  version: 2.1.0-1
+  issues:
+    - unsorted_file_glob_by_cmake
 osptoolkit:
   version: 3.4.2-1.2
   bugs:
@@ -9020,6 +9108,10 @@ oss4:
     - timestamps_in_manpages_generated_by_txt2man
     - timestamps_in_tarball
     - different_due_to_umask
+ossim:
+  version: 1.8.20.3+ds-3
+  issues:
+    - unsorted_file_glob_by_cmake
 owncloud-client:
   version: 2.0.0+dfsg-1
   comments: |
@@ -9209,10 +9301,17 @@ pd-pdstring:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/pd-pdstring/0.10.2-1/src/pdstring.c/#L87
+pdal:
+  version: 1.2.0-2
+  comments: |
+    Embeds the copyright year into documentation.
+  issues:
+    - random_order_in_static_libraries
+    - unsorted_file_glob_by_cmake
 pdf-presenter-console:
-  version: 4.0.2-1
-  bugs:
-    - 819858
+  version: 4.0.2-2
+  issues:
+    - unsorted_file_glob_by_cmake
 pdf.js:
   version: 1.1.215+dfsg-1
   bugs:
@@ -11129,6 +11228,10 @@ razorqt:
   version: 0.5.2-4
   bugs:
     - 815193
+rbdoom3bfg:
+  version: 1.0.3+repack1+git20151124-2
+  issues:
+    - unsorted_file_glob_by_cmake
 rblcheck:
   version: 20020316-8
   issues:
@@ -12431,10 +12534,10 @@ supercat:
   bugs:
     - 777396
     - 793725
-supercollider:
-  version: 1:3.6.6~repack-2-2
-  bugs:
-    - 822467
+supercollider-sc3-plugins:
+  version: 3.7.1~repack-1
+  issues:
+    - unsorted_file_glob_by_cmake
 superlu:
   version: 4.3+dfsg-3
   issues:
@@ -12707,6 +12810,10 @@ texmacs:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/texmacs/1:1.0.7.18-1/configure.in/#L552
+texworks:
+  version: 0.6.0-1
+  issues:
+    - unsorted_file_glob_by_cmake
 tf5:
   version: 5.0beta8-5
   comments: |
@@ -13354,14 +13461,17 @@ vnc4:
   issues:
     - timestamps_from_cpp_macros
 volk:
-  version: 1.0.2-1
-  comments: |
-    Embeds the build date.
-    https://sources.debian.net/src/volk/1.0.2-1/lib/CMakeLists.txt/#L479-L482
+  version: 1.2.2-1
+  issues:
+    - unsorted_file_glob_by_cmake
 voltron:
   version: 0.1.4-1
   issues:
     - timestamps_in_manpages_generated_by_ronn
+votca-csg:
+  version: 1.3.0-1
+  issues:
+    - unsorted_file_glob_by_cmake
 vowpal-wabbit:
   version: 7.3-1.1
   bugs:
@@ -13389,6 +13499,7 @@ vtk6:
   comments: |
     Captures kernel version in header and current time in generated documentation.
   issues:
+    - diffoscope_runs_forever
     - timestamps_in_dvi_generated_by_latex
     - blacklisted_on_jenkins_armhf_only
 vtun:
@@ -13595,10 +13706,6 @@ wordwarvi:
     https://sources.debian.net/src/wordwarvi/1.00%2Bdfsg1-3/wordwarvi.c/#L9947
   bugs:
     - 786593
-workrave:
-  version: 1.10.12-1
-  bugs:
-    - 822756
 wpa:
   version: 2.3-2.1
   issues:
@@ -13893,6 +14000,8 @@ yade:
     Some unknown randomness in Yade.pdf, some sections are missing in one build.
     Differing image date in img_rc.py.
   issues:
+    - diffoscope_runs_forever
+    - unsorted_file_glob_by_cmake
     - timestamps_in_tex_documents
 yafc:
   version: 1.3.7-1
@@ -13930,6 +14039,10 @@ yaws:
   version: 1.98-4
   issues:
     - timestamps_in_beam_files
+ycmd:
+  version: 0+20160327+gitc3e6904-1
+  issues:
+    - unsorted_file_glob_by_cmake
 yelp:
   version: 3.16.1-1
   bugs:
