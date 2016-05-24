@@ -2516,7 +2516,7 @@ dtc-xen:
 dub:
   version: 0.9.24-1
   issues:
-    - timestamps_from_cpp_macros
+    - timestamps_from_cpp_macros_in_d
 dune-common:
   version: 2.4.0-1
   issues:
@@ -2930,7 +2930,7 @@ fceux:
     Unsorted globbing of source files.
     https://sources.debian.net/src/fceux/2.2.2%2Bdfsg0-1/src/SConscript/#L2
   issues:
-    - timestamps_from_cpp_macros_in_d
+    - timestamps_from_cpp_macros
 fcitx-table-other:
   version: 0.2.3-2
   bugs:
