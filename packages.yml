@@ -1535,12 +1535,6 @@ code2html:
   version: 0.9.1-4
   bugs:
     - 808637
-codeblocks:
-  version: 13.12-3
-  issues:
-    - timestamps_from_cpp_macros
-  bugs:
-    - 824182
 codelite:
   version: 9.1+dfsg2-1
   issues:
@@ -5042,10 +5036,6 @@ irrlicht:
   version: 1.8.3+dfsg1-1
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-isdnutils:
-  version: 1:3.25+dfsg1-3.6
-  issues:
-    - timestamps_from_cpp_macros
 isorelax:
   version: 20041111-8
   issues:
@@ -5415,7 +5405,6 @@ kannel:
   comments: |
     The build date is also embedded into the content of a PDF file.
   issues:
-    - timestamps_from_cpp_macros
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_dvi_generated_by_latex
   bugs:
@@ -6085,7 +6074,7 @@ libdevel-gdb-perl:
 libebml:
   version: 1.3.1-3
   issues:
-    - timestamps_from_cpp_macros
+    - timestamps_from_timestamp_macro
 libembperl-perl:
   version: 2.5.0-4
   issues:
@@ -6516,7 +6505,7 @@ libmath-bigint-gmp-perl:
 libmatroska:
   version: 1.4.2-2
   issues:
-    - timestamps_from_cpp_macros
+    - timestamps_from_timestamp_macro
 libmemcache:
   version: 1.4.0.rc2-1.1
   bugs:
@@ -7092,10 +7081,6 @@ lice:
     - timestamps_in_gzip_headers
   bugs:
     - 777006
-lie:
-  version: 2.2.2+dfsg-2
-  issues:
-    - timestamps_from_cpp_macros
 lierolibre:
   version: 0.5-2
   bugs:
@@ -7174,7 +7159,6 @@ liquidwar:
     See
     https://sources.debian.net/src/liquidwar/5.6.4-3/src/basicopt.c/?hl=126#L126
   issues:
-    - timestamps_from_cpp_macros
     - timestamps_in_allegro_dat_files
 littler:
   version: 0.2.3-2
@@ -7303,7 +7287,6 @@ lout:
     Also has embedded timestamps in generated documentation files.
   issues:
     - collation_order_varies_by_locale
-    - timestamps_from_cpp_macros
 love:
   version: 0.9.1-3
   issues:
@@ -7371,8 +7354,6 @@ lucene4.10:
     - timestamp_in_java_bnd_manifest
 lush:
   version: 1.2.1-9+cvs20110227+nmu1
-  issues:
-    - timestamps_from_cpp_macros
   bugs:
     - 787650
     - 787651
@@ -8184,8 +8165,10 @@ nbibtex:
     - timestamps_in_ps_generated_by_dvips
 ncbi-blast+:
   version: 2.2.29-3
+  comments: |
+    Captures kernel version and hostname.
   issues:
-    - timestamps_from_cpp_macros
+    - captures_kernel_version
 ncbi-tools6:
   version: 6.1.20120620-8
   issues:

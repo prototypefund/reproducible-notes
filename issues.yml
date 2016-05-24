@@ -1,10 +1,15 @@
 timestamps_from_cpp_macros:
   description: |
-    The C pre-processor macros `__DATE__`, `__TIME__`, and `__TIMESTAMP__`
+    The C pre-processor macros `__DATE__`, `__TIME__`,
     capture the current time, and thus will obviously make a build
     unreproducible.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsFromCPPMacros
   deterministic: True
+timestamps_from_timestamp_macro:
+  description: |
+    The `__TIMESTAMP__` macro captures the file modification time, which
+    should be deterministic (if the file is not modified at build time),
+    but varies (at least with gcc) with timezone.
 timestamps_from_cpp_macros_in_d:
   description: |
     The D compiler also support C-like `__DATE__` and `__TIME__` macros, which
