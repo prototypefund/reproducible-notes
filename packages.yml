@@ -697,9 +697,11 @@ awesfx:
   bugs:
     - 800262
 awesome:
-  version: 3.4.15-1
+  version: 3.5.9-1
+  comments: |
+    Embeds build user and hostname:
+    https://sources.debian.net/src/awesome/3.5.9-1/common/version.c/?hl=56#L56
   issues:
-    - timestamps_from_cpp_macros
     - timestamps_in_documentation_generated_by_lua_ldoc
 aws-sdk-for-php:
   version: 0.93-4
@@ -722,6 +724,10 @@ axis:
     - locale_in_documentation_generated_by_javadoc
 ayttm:
   version: 0.6.3-3
+  comments: |
+    globbing order varies with locale:
+    https://sources.debian.net/src/ayttm/0.6.3-3/modules/msn2/Makefile.am/#L16
+    (also in other modules / Makefiles)
   issues:
     - timestamps_from_cpp_macros
 azureus:
@@ -2307,8 +2313,9 @@ dipy:
     - timestamps_in_documentation_generated_by_sphinx
 directfb:
   version: 1.2.10.0-5.1
-  issues:
-    - timestamps_from_cpp_macros
+  comments: |
+    Embeds the build time.
+    https://sources.debian.net/src/directfb/1.2.10.0-5.2/src/core/Makefile.am/?hl=14#L14
 dita-ot:
   version: 1.5.3-1
   comments: |
@@ -2931,6 +2938,7 @@ fceux:
     https://sources.debian.net/src/fceux/2.2.2%2Bdfsg0-1/src/SConscript/#L2
   issues:
     - timestamps_from_cpp_macros
+    - scons_doesnt_pass_environment_to_build_tools
 fcitx-table-other:
   version: 0.2.3-2
   bugs:
@@ -3978,6 +3986,7 @@ glob2:
   version: 0.9.4.4-2.3
   issues:
     - timestamps_from_cpp_macros
+    - scons_doesnt_pass_environment_to_build_tools
 globus-io:
   version: 11.5-1
   bugs:

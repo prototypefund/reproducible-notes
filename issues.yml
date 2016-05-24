@@ -1046,3 +1046,9 @@ random_order_in_static_library_by_icmake:
     icmake uses a shell glob to collect object files while creating the static library archive.
     The glob is sorted, but will be sorted differently depending on the locale.
   url: https://sources.debian.net/src/icmake/8.01.00-1/scripts/icmbuild.in/#L373
+scons_doesnt_pass_environment_to_build_tools:
+  description: |
+    The build system SCons doesn't pass environment variables to the build tools (compilers etc.) by default.
+    See scons(1):
+    "scons does not automatically propagate the external environment used to execute scons to the commands used to build target files. This is so that builds will be guaranteed repeatable regardless of the environment variables set at the time scons is invoked"
+    This prevents for example that SOURCE_DATE_EPOCH can be read by build tools.
