@@ -5,6 +5,10 @@ timestamps_from_cpp_macros:
     unreproducible.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsFromCPPMacros
   deterministic: True
+timestamps_from_cpp_macros_in_d:
+  description: |
+    The D compiler also support C-like `__DATE__` and `__TIME__` macros, which
+    embed the build time/date into the object files.
 timestamps_in_cpio_archive:
   description: |
     cpio archives capture build time in mtime of its members.

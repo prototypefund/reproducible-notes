@@ -2926,8 +2926,11 @@ fbreader:
     - build_id_variation_requiring_further_investigation
 fceux:
   version: 2.2.2+dfsg0-1
+  comments: |
+    Unsorted globbing of source files.
+    https://sources.debian.net/src/fceux/2.2.2%2Bdfsg0-1/src/SConscript/#L2
   issues:
-    - timestamps_from_cpp_macros
+    - timestamps_from_cpp_macros_in_d
 fcitx-table-other:
   version: 0.2.3-2
   bugs:
