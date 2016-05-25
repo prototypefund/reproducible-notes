@@ -12517,11 +12517,6 @@ texlive-base:
   version: 2014.20141024-2
   comments: |
     Caused by some randomness in/near dh_installtex (tex-common)
-texmacs:
-  version: 1:1.0.7.18-1
-  comments: |
-    Embeds the build date.
-    https://sources.debian.net/src/texmacs/1:1.0.7.18-1/configure.in/#L552
 texworks:
   version: 0.6.0-1
   issues:
@@ -12833,10 +12828,6 @@ tuxpaint-config:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/tuxpaint-config/0.0.13-1/Makefile/?hl=18#L18
-twidge:
-  version: 1.1.2
-  issues:
-    - timestamps_in_pdf_generated_by_latex
 twinkle:
   version: 1:1.9.0+dfsg-3
   bugs:
