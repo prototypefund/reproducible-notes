@@ -6592,6 +6592,10 @@ libnet-tclink-perl:
   version: 3.4.0-6
   comments: |
     segfaults, but see also #796027 and #796028
+libnl3:
+  version: 3.2.27-1
+  bugs:
+    - 825367
 libnss-ldap:
   version: 265-3
   comments: |
