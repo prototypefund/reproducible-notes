@@ -440,6 +440,7 @@ ftbfs_environment:
 different_pot_creation_date_in_gettext_mo_files:
   description: |
     Gettext .mo files in /usr/share/locale/*/LC_MESSAGES differ in their POT-Creation-Date.
+    When using dh, they will be normalized by strip-nondeterminism.
   deterministic: True
   url: https://bugs.debian.org/792687
 ftbfs_in_jenkins_setup:
