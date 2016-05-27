@@ -1066,5 +1066,6 @@ ruby_mkmf_makefile_unsorted_objects:
     Many of those packages are likely affected:
     https://codesearch.debian.net/perpackage-results/path%3Aextconf.rb%20create_makefile/2/page_0
     .
-    jruby also affected: https://sources.debian.net/src/jruby/1.7.22-2/lib/ruby/shared/mkmf.rb/#L1488
-  url: https://sources.debian.net/src/ruby2.3/2.3.1-1/lib/mkmf.rb/#L2180
+    ruby: https://sources.debian.net/src/ruby2.3/2.3.1-1/lib/mkmf.rb/#L2180
+    jruby: https://sources.debian.net/src/jruby/1.7.22-2/lib/ruby/shared/mkmf.rb/#L1488
+  url: https://bugs.debian.org/825569
