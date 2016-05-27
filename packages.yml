@@ -1551,6 +1551,10 @@ codenarc:
   version: 0.17-2
   issues:
     - timestamps_in_documentation_generated_by_groovydoc
+codequery:
+  version: 0.16.0+dfsg1-3
+  issues:
+    - timestamps_in_manpages_generated_by_ronn
 cogl:
   version: 1.18.2-3
   issues:
@@ -3696,6 +3700,14 @@ gcc-5-cross:
     - diffoscope_runs_forever
 gcc-5-cross-ports:
   version: 6
+  issues:
+    - diffoscope_runs_forever
+gcc-5-cross:
+  version: 11
+  issues:
+    - diffoscope_runs_forever
+gcc-5-cross-ports:
+  version: 8
   issues:
     - diffoscope_runs_forever
 gcc-arm-none-eabi:
@@ -6331,6 +6343,10 @@ libhdate:
   version: 1.6-3
   issues:
     - leaks_path_environment_variable
+libhdf4:
+  version: 4.2.11-1
+  bugs:
+    - 825540
 libhtml-calendarmonth-perl:
   version: 1.26-1
   bugs:
@@ -8932,6 +8948,11 @@ openjdk-8:
     - timestamps_from_cpp_macros
     - diffoscope_runs_forever
     - blacklisted_on_jenkins_armhf_only
+openjdk-8-jre-dcevm:
+  version: 8u74-1
+  comments: |
+    Embeds the username:
+    https://sources.debian.net/src/openjdk-8-jre-dcevm/8u74-1/src/share/vm/runtime/vm_version.cpp/?hl=263,267#L267
 openjfx:
   version: 8u40-b25-3
   comments: |
@@ -10117,6 +10138,10 @@ python-ceilometerclient:
   version: 1.5.0-3
   bugs:
     - 816735
+python-cement:
+  version: 2.8.2-1
+  issues:
+    - randomness_in_documentation_generated_by_sphinx
 python-ceres:
   version: 0.10.0~git20150525-1
   bugs:
