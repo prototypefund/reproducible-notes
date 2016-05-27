@@ -4776,6 +4776,10 @@ hime:
        Causes files named with a leading capital letter (e.g., "Makefile") to only be included in the glob pattern in some locales.
     2. Use of non-portable construct (the '-e' flag to 'echo' is not specified in POSIX) https://sources.debian.net/src/hime/0.9.10%2Bgit20150916%2Bdfsg1-2/Makefile/#L20
        Currently only affects build progress messages, not generated artifacts.
+hitori:
+  version: 3.20.0-1
+  bugs:
+    - 825471
 hkl:
   version: 4.0.3-4
   issues:
