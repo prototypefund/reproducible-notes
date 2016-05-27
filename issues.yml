@@ -1059,3 +1059,10 @@ scons_doesnt_pass_environment_to_build_tools:
     See scons(1):
     "scons does not automatically propagate the external environment used to execute scons to the commands used to build target files. This is so that builds will be guaranteed repeatable regardless of the environment variables set at the time scons is invoked"
     This prevents for example that SOURCE_DATE_EPOCH can be read by build tools.
+jruby_mkmf_makefile_unsorted_objects:
+  description: |
+    Ruby projects which also include C sources and use create_makefile from mkmf.rb (typically in ext/.../extconf.rb) will be unreproducible, because the list of object files in the generated Makefile is unsorted.
+    .
+    Many of those packages are likely affected:
+    https://codesearch.debian.net/perpackage-results/path%3Aextconf.rb%20create_makefile/2/page_0
+  url: https://sources.debian.net/src/jruby/1.7.22-2/lib/ruby/shared/mkmf.rb/#L1488
