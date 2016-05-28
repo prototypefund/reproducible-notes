@@ -6634,6 +6634,10 @@ libmodule-extractuse-perl:
     Original issue caused by non-determinism in libparse-recdescent-perl.
     Original patch sent in \#790397 but now the issue seems to be that sometimes
     the file is not regenerated (TZ?) but I cannot reproduce.
+libmojolicious-plugin-mailexception-perl:
+  version: 0.19-1
+  bugs:
+    - 825541
 libmouse-perl:
   version: 2.4.5-1
   bugs:
