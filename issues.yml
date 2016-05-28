@@ -1069,3 +1069,7 @@ ruby_mkmf_makefile_unsorted_objects:
     ruby: https://sources.debian.net/src/ruby2.3/2.3.1-1/lib/mkmf.rb/#L2180
     jruby: https://sources.debian.net/src/jruby/1.7.22-2/lib/ruby/shared/mkmf.rb/#L1488
   url: https://bugs.debian.org/825569
+timestamps_in_pdf_generated_by_imagemagick:
+  description: |
+    When converting images to PDF files, imagemagick embeds the current time/date into metadata (CreationDate / ModDate).
+  url: https://bugs.debian.org/825706

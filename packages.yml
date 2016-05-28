@@ -2117,6 +2117,7 @@ debian-edu-doc:
   version: 1.6~20150422~8+edu0~beta1
   issues:
     - timestamps_in_epub
+    - timestamps_in_pdf_generated_by_imagemagick
 debian-faq:
   version: 5.0.3
   issues:
@@ -10183,10 +10184,6 @@ python-automaton:
   version: 0.7.0-2
   bugs:
     - 816735
-python-babel:
-  version: 1.3+dfsg.1-5
-  bugs:
-    - 795997
 python-barbicanclient:
   version: 3.3.0-3
   bugs:
