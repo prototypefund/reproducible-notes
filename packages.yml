@@ -4671,6 +4671,12 @@ hardinfo:
   comments: |
     Embeds system information.
     https://sources.debian.net/src/hardinfo/0.5.1-1.5/configure/#L189-L191
+hashcat:
+  version: 2.00-2
+  comments: |
+    Depends on build-host CPU features:
+      https://sources.debian.net/src/hashcat/2.00-2/debian/rules/#L7-L8
+      https://sources.debian.net/src/hashcat/2.00-2/debian/rules/#L39-L43
 haskell-cabal:
   version: 1.22.5.0-2
   issues:
