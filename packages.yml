@@ -493,10 +493,6 @@ asedriveiiie:
   version: 3.7-5
   bugs:
     - 823426
-asio:
-  version: 1:1.10.6-3
-  issues:
-    - captures_shell_variable_in_autofoo_script
 asis:
   version: 2014-4
   comments: |
@@ -1041,10 +1037,6 @@ brag:
   version: 1.4.1-2
   bugs:
     - 823428
-breeze:
-  version: 4:5.4.3-1
-  bugs:
-    - 819512
 brickos:
   version: 0.9.0.dfsg-12
   comments: |
@@ -1250,10 +1242,6 @@ cdi-api:
   version: 1.0-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
-cdist:
-  version: 4.0.0-1
-  bugs:
-    - 825406
 cduce:
   version: 0.6.0-1
   bugs:
@@ -3493,12 +3481,6 @@ frobby:
   version: 0.9.0-2
   issues:
     - timestamps_in_pdf_content
-frown:
-  version: 0.6.1-14
-  issues:
-    - fonts_in_pdf_files
-  bugs:
-    - 808655
 fs-uae:
   version: 2.6.2+dfsg-3
   issues:
@@ -3756,12 +3738,6 @@ gcpegg:
     - timestamps_in_gzip_headers
   bugs:
     - 777416
-gdal:
-  version: 2.1.0+dfsg-2
-  issues:
-    - random_order_in_static_libraries
-  bugs:
-    - 824808
 gdata-sharp:
   version: 2.2.0.0-2
   issues:
@@ -4438,12 +4414,6 @@ graphviz:
   version: 2.38.0-7
   issues:
     - pdf_created_by_ghostscript
-grass:
-  version: 7.0.4-1
-  comments: |
-    Random order of elements in manpages.
-  bugs:
-    - 825092
 gravitation:
   version: 3+dfsg1-4
   bugs:
@@ -5145,10 +5115,6 @@ jakarta-jmeter:
   version: 2.11-2
   issues:
     - user_in_java_jar_manifest
-jaligner:
-  version: 1.0+dfsg-1
-  issues:
-    - timestamps_in_manpages_generated_by_ronn
 jam:
   version: 2.6-1
   bugs:
@@ -5605,10 +5571,6 @@ kgb-bot:
     - blacklisted_on_jenkins
   bugs:
     - 782079
-khmer:
-  version: 2.0+dfsg-5
-  issues:
-    - timestamps_in_manpages_generated_by_ronn
 khmerconverter:
   version: 1.4-1
   issues:
@@ -6365,10 +6327,6 @@ libhdate:
   version: 1.6-3
   issues:
     - leaks_path_environment_variable
-libhdf4:
-  version: 4.2.11-1
-  bugs:
-    - 825540
 libhtml-calendarmonth-perl:
   version: 1.26-1
   bugs:
@@ -6522,11 +6480,6 @@ libjpf-java:
   version: 1.5.1+dfsg-4
   issues:
     - locale_in_documentation_generated_by_javadoc
-libjspeex-java:
-  version: 0.9.7-3
-  issues:
-    - timestamp_in_java_bnd_manifest
-    - user_in_java_jar_manifest
 libjsr305-java:
   version: 0.1~+svn49-4
   issues:
@@ -7009,10 +6962,6 @@ libtexttools:
   version: 2.1.0-7
   issues:
     - random_order_in_static_libraries
-libtheora:
-  version: 1.1.1+dfsg.1-6
-  issues:
-    - timestamps_in_tex_documents
 libtime-period-perl:
   version: 1.20-8.1
   bugs:
@@ -8820,10 +8769,6 @@ octave-ocs:
   version: 0.1.5-1
   issues:
     - timestamps_in_pdf_content
-odil:
-  version: 0.4.0-1
-  issues:
-    - timestamps_in_documentation_generated_by_doxygen
 ogmtools:
   version: 1:1.5-3
   bugs:
@@ -9938,10 +9883,6 @@ publican:
   issues:
     - timestamps_in_epub
     - timestamps_in_pdf_generated_by_apache_fop
-pvm:
-  version: 3.4.5-13
-  issues:
-    - random_order_in_tarball
 pxlib:
   version: 0.6.5-1
   comments: |
@@ -12533,11 +12474,6 @@ svgsalamander:
   version: 0~svn95-1
   issues:
     - timestamps_in_jar
-svtplay-dl:
-  version: 0.10.2015.05.24-1
-  comments: |
-    The svtplay-dl python "script" contains a zip archive,
-    whose members have differing mtimes.
 swedish:
   version: 1.4.5-2.1
   issues:
@@ -13430,19 +13366,6 @@ vpb-driver:
   issues:
     - timestamps_in_tarball
     - different_due_to_umask
-vpim:
-  version: 0.695-1.1
-  issues:
-    - timestamps_in_gzip_headers
-    - different_due_to_umask
-    - ftbfs_old_compat_debheper_compat_level
-  bugs:
-    - 776930
-    - 800195
-vtk-dicom:
-  version: 0.7.4-2
-  comments: |
-    Format of build date in ./usr/include/vtkDICOMBuild.h is locale-dependent.
 vtk6:
   version: 6.2.0+dfsg1-4
   comments: |
