@@ -414,6 +414,12 @@ apq:
   version: 3.2.0-2
   issues:
     - timestamps_in_pdf_generated_by_latex
+apt-cacher-ng:
+  version: 0.9.3-1
+  comments: |
+    readdir() dependency inside tar:
+      https://sources.debian.net/src/apt-cacher-ng/0.9.3-1/dbgen/Makefile/#L120
+      (invoked from <https://sources.debian.net/src/apt-cacher-ng/0.9.3-1/debian/rules/#L28>)
 apt-dater:
   version: 1.0.2-1
   bugs:
