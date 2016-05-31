@@ -8335,6 +8335,12 @@ nemiver:
   version: 0.9.6-1
   bugs:
     - 819779
+nemo-python:
+  version: 3.0.0-2
+  comments: |
+    Embeds build date using hand-rolled code:
+      https://sources.debian.net/src/nemo-python/3.0.0-2/docs/Makefile.am/#L90-L91
+      https://sources.debian.net/src/nemo-python/3.0.0-2/docs/reference/nemo-python-ref.xml/#L6-L11
 nepomuk-core:
   version: 4:4.14.0-1
   issues:
@@ -9102,6 +9108,10 @@ osm2pgrouting:
   version: 2.1.0-1
   issues:
     - unsorted_file_glob_by_cmake
+osmo-bts:
+  version: 0.4.0-1
+  issues:
+    - timestamps_in_manpages_generated_by_txt2man
 osptoolkit:
   version: 3.4.2-1.2
   bugs:
