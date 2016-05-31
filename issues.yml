@@ -115,6 +115,8 @@ use_epydoc:
     references to object with a memory address.
     The repo in Alioth's /git/reproducible contains a few fixes for the file ordering
     issues for review.
+    Related bugs:
+        https://bugs.debian.org/825968
   url: https://wiki.debian.org/ReproducibleBuilds/EpydocIssues
   deterministic: True
 timestamps_in_python_code_generated_by_cheetah:
