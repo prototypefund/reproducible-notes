@@ -1078,3 +1078,7 @@ random_order_in_native_libs_by_setuptools:
   description: |
     python-setuptools generates native_libs.txt with random order.
   url: https://bugs.debian.org/825857
+unsorted_lua_versions_in_control:
+  description: |
+    control contains a Lua-Version field with versions listed in unsorted order.
+  url: https://bugs.debian.org/826051
