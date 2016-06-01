@@ -3538,6 +3538,12 @@ fuse-posixovl:
   version: 1.2.20120215+gitf5bfe35-1
   bugs:
     - 782215
+fvwm:
+  version: 1:2.6.5.ds-4.1
+  comments: |
+    Captures username:
+      https://sources.debian.net/src/fvwm/1:2.6.5.ds-4.1/configure.ac/#L1700
+      https://sources.debian.net/src/fvwm/1:2.6.5.ds-4.1/bin/fvwm-bug.in/#L89
 fw4spl:
   version: 0.9.2-3
   bugs:
@@ -11762,6 +11768,13 @@ sbcl:
   version: 2:1.2.14-1
   issues:
     - pdf_created_by_ghostscript
+sbuild:
+  version: 0.69.0-2
+  comments: |
+    Captures $HOME:
+      https://sources.debian.net/src/sbuild/0.69.0-2/lib/Buildd/Conf.pm/#L125
+      https://sources.debian.net/src/sbuild/0.69.0-2/lib/Buildd/Conf.pm/#L218
+      https://sources.debian.net/src/sbuild/0.69.0-2/lib/Buildd/Conf.pm/#L361
 scala:
   version: 2.9.2+dfsg-2
   issues:
