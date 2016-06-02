@@ -69,6 +69,7 @@ activemq:
   issues:
     - random_order_in_documentation_generated_by_javadoc
     - timestamps_generated_by_xbean_spring
+    - blacklisted_on_jenkins_armhf_only
 actor-framework:
   version: 0.13.2-3
   issues:
@@ -424,6 +425,10 @@ apt-dater:
   version: 1.0.2-1
   bugs:
     - 797211
+aptdaemon:
+  version: 1.1.1+bzr982-1
+  issues:
+    - blacklisted_on_jenkins_armhf_only
 aptoncd:
   version: 0.1.98+bzr117-1.4
   issues:
@@ -1609,6 +1614,10 @@ commons-beanutils:
   version: 1.9.2-3
   issues:
     - implementation_version_in_java_manifest_mf
+commons-math3:
+  version: 3.6.1-1
+  issues:
+    - blacklisted_on_jenkins_armhf_only
 commons-vfs:
   version: 2.0-7
   comments: |
@@ -2403,6 +2412,11 @@ doc-linux-fr:
   version: 2013.01-2
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
+    - blacklisted_on_jenkins_armhf_only
+docbook-defguide:
+  version: 2.0.17+svn9912-1
+  issues:
+    - blacklisted_on_jenkins_armhf_only
 docbook-ebnf:
   version: 1.2~cr1-5.1
   bugs:
@@ -2582,6 +2596,7 @@ eclipse:
     Also embeds kernel version and has timestamps in properties files.
   issues:
     - timestamps_in_jar
+    - blacklisted_on_jenkins_armhf_only
 eclipse-cdt:
   version: 8.6.0-1
   bugs:
@@ -3695,6 +3710,10 @@ gcc-5-cross-ports:
   version: 8
   issues:
     - diffoscope_runs_forever
+gcc-6:
+  version: 6.1.1-3
+  issues:
+    - blacklisted_on_jenkins_armhf_only
 gcc-arm-none-eabi:
   version: 15:4.9.3+svn231177-1
   issues:
@@ -4156,6 +4175,10 @@ gnucash-docs:
   version: 2.6.9-1
   issues:
     - timestamps_in_pdf_generated_by_apache_fop
+gnuchess-book:
+  version: 1.02-1
+  issues:
+    - blacklisted_on_jenkins_armhf_only
 gnudoq:
   version: 0.94-2.1
   bugs:
@@ -4405,6 +4428,7 @@ gradle:
   version: 1.5-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
+    - blacklisted_on_jenkins_armhf_only
 grads:
   version: 2:2.0.2-3
   comments: |
@@ -4473,6 +4497,7 @@ groovy:
   version: 1.8.6-4
   issues:
     - timestamps_in_documentation_generated_by_groovydoc
+    - blacklisted_on_jenkins_armhf_only
 groovycsv:
   version: 1.0-1
   bugs:
@@ -5937,6 +5962,8 @@ libapache-mod-jk:
     - lynx_dump_varies_output_with_locale
 libapache-poi-java:
   version: 3.10.1-2
+  issues:
+    - blacklisted_on_jenkins_armhf_only
   bugs:
     - 790741
 libapache2-mod-authn-yubikey:
@@ -6441,6 +6468,10 @@ libjama:
     - different_due_to_umask
   bugs:
     - 792972
+libjavaewah-java:
+  version: 0.6.12-1
+  issues:
+    - blacklisted_on_jenkins_armhf_only
 libjaxp1.3-java:
   version: 1.3.05-2
   issues:
@@ -7495,10 +7526,12 @@ lucene-solr:
   version: 3.6.2+dfsg-5
   issues:
     - timestamps_in_jar
+    - blacklisted_on_jenkins_armhf_only
 lucene2:
   version: 2.9.4+ds1-4
   issues:
     - ftbfs_uninvestigated_big_packages
+    - blacklisted_on_jenkins_armhf_only
 lucene4.10:
   version: 4.10.4+dfsg-1
   issues:
@@ -7752,6 +7785,10 @@ maven-shared-jar:
   version: 1.1-1
   issues:
     - random_order_in_plexus_comonents_xml
+mavibot:
+  version: 1.0.0~M1-1
+  issues:
+    - blacklisted_on_jenkins_armhf_only
 maxima:
   version: 5.38.0-3
   comments: |
@@ -8391,6 +8428,7 @@ netbeans:
   version: 8.0.2+dfsg1-3
   issues:
     - timestamps_in_zip
+    - blacklisted_on_jenkins_armhf_only
 netcdf:
   version: 1:4.4.0-2
   comments: |
@@ -8980,6 +9018,8 @@ openjade1.3:
     - 800200
 openjdk-6:
   version: 6b38-1.13.10-1
+  issues:
+    - blacklisted_on_jenkins_armhf_only
   bugs:
     - 817302
 openjdk-7:
@@ -9002,6 +9042,10 @@ openjdk-8-jre-dcevm:
   comments: |
     Embeds the username:
     https://sources.debian.net/src/openjdk-8-jre-dcevm/8u74-1/src/share/vm/runtime/vm_version.cpp/?hl=263,267#L267
+openjdk-9:
+  version: 9~b117-1
+  issues:
+    - blacklisted_on_jenkins_armhf_only
 openjfx:
   version: 8u40-b25-3
   comments: |
@@ -9014,6 +9058,7 @@ openjpa:
   version: 2.4.0-2
   issues:
     - timestamps_in_documentation_generated_by_javadoc
+    - blacklisted_on_jenkins_armhf_only
 openldap:
   version: 2.4.42+dfsg-2
   comments: |
@@ -9344,6 +9389,8 @@ pchar:
     https://sources.debian.net/src/pchar/1.5-2/Makefile.in/?hl=186#L186
 pcl:
   version: 1.7.2-14
+  issues:
+    - blacklisted_on_jenkins_armhf_only
   bugs:
     - 825413
 pcp:
@@ -11166,6 +11213,7 @@ racket:
   version: 6.1.1-3
   issues:
     - diffoscope_runs_forever
+    - blacklisted_on_jenkins_armhf_only
 radare2:
   version: 0.9.6-3.1
   comments: |
@@ -11750,6 +11798,10 @@ sardana:
   version: 1.4.2-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
+sat4j:
+  version: 2.3.3-1
+  issues:
+    - blacklisted_on_jenkins_armhf_only
 sauce:
   version: 0.9.0+nmu3
   issues:
@@ -11936,6 +11988,8 @@ seq24:
     - 822394
 seqan:
   version: 1.4.1+dfsg-2
+  issues:
+    - blacklisted_on_jenkins_armhf_only
   bugs:
     - 809058
 setools:
@@ -12923,6 +12977,10 @@ tomcat7:
   version: 7.0.62-1
   issues:
     - ftbfs_uninvestigated_big_packages
+tomcat8:
+  version: 8.0.32-1
+  issues:
+    - blacklisted_on_jenkins_armhf_only
 tomsfastmath:
   version: 0.13-1
   issues:
@@ -13207,6 +13265,10 @@ udpcast:
   comments: |
     Current date in docs. Package has a mechanism in for putting a determinstic
     date in there via version.h but that file doesn't appear.
+ufoai-maps:
+  version: 2.5-1
+  issues:
+    - blacklisted_on_jenkins_armhf_only
 uget:
   version: 2.0.6-1
   bugs:
@@ -13766,6 +13828,7 @@ xemacs21-packages:
   version: 2009.02.17.dfsg.2-2
   issues:
     - timestamps_in_gzip_headers
+    - blacklisted_on_jenkins_armhf_only
 xen:
   version: 4.4.1-6
   comments: |
