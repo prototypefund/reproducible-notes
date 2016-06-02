@@ -840,6 +840,7 @@ bcron:
   issues:
     - timestamps_in_gzip_headers
     - different_due_to_umask
+    - timestamp_in_info_file_created_by_makeinfo
   bugs:
     - 777288
     - 792996
@@ -4241,6 +4242,7 @@ gnustep-make:
   version: 2.6.6-3
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - timestamp_in_info_file_created_by_makeinfo
 gnutls28:
   version: 3.4.8-2
   comments: |
@@ -4476,6 +4478,7 @@ gridengine:
   version: 6.2u5-7.3
   issues:
     - timestamps_in_jar
+    - timestamp_in_info_file_created_by_makeinfo
 gridsite:
   version: 2.2.6-3
   issues:
@@ -12193,6 +12196,7 @@ slime:
   version: 2:2.15-1
   issues:
     - timestamps_in_pdf_content
+    - timestamp_in_info_file_created_by_makeinfo
 slof:
   version: 20140630+dfsg-1
   comments: |
