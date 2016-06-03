@@ -2031,8 +2031,9 @@ dbus-java:
     - timestamps_from_tex4ht
 dbus-python:
   version: 1.2.0-2
-  issues:
-    - timestamps_in_python_docutils
+  comments: |
+    uses docutils via epydoc, so it honors SOURCE_DATE_EPOCH;
+    the differing integers in the output don't look like timestamps
 dbusada:
   version: 0.3-1
   issues:
