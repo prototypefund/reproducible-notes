@@ -13393,6 +13393,14 @@ usb-modeswitch-data:
   version: 20160112-2
   issues:
     - random_order_in_tarball
+    - collation_order_varies_by_locale
+  comments: |
+    Tarball is generated with "tar [...] *", which depends on the locale,
+    even with --sort=name.
+    The udev rules file has content sorted with a glob that depends
+    on the filesystem.
+  bugs:
+    - 826343
 userv:
   version: 1.1.1
   issues:
