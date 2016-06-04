@@ -4220,10 +4220,16 @@ gnupg-doc:
     - timestamps_in_gzip_headers
     - different_encoding
 gnupg2:
-  version: 2.1.8-1
+  version: 2.1.11-7
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
   comments: |
-    Embeds the build date into manpages.
-    https://sources.debian.net/src/gnupg2/2.1.8-1/doc/yat2m.c/#L326
+    Hostname is captured in gpgv.exe since upstream commit 049b3d9.
+    Also, it might be that some padding with unitialized memory causes
+    some non-determinism seen in the bits between CompanyName's and
+    FileVersion's value (g10/gpg-w32info.rc).
+  bugs:
+    - 826309
 gnuplot:
   version: 4.6.6-3
   comments: |
