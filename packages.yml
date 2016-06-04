@@ -12721,6 +12721,10 @@ sysinfo:
   version: 0.7-8
   issues:
     - timestamps_in_pe_binaries
+syslinux:
+  version: 3:6.03+dfsg-13
+  comments: |
+    passing a fixed -DHEXDATE to nasm does not help
 systemtap:
   version: 2.9-1
   issues:
