@@ -53,6 +53,11 @@ timestamps_in_documentation_generated_by_asciidoc:
     This timestamp is based in the date of the file, but can change depending on the TZ environment variable.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInDocumentationGeneratedByAsciidoc
   deterministic: True
+timestamps_in_documentation_generated_by_asciidoctor:
+  description: |
+    asciidoctor embeds the build date into generated manpages.
+  url: https://bugs.debian.org/820435
+  deterministic: True
 random_anchor_names_generated_by_docbook_to_man:
   description: |
     docbook-to-man uses non-deterministic <a> anchor names
