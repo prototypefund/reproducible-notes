@@ -4225,13 +4225,13 @@ gnupg-doc:
     - different_encoding
 gnupg2:
   version: 2.1.11-7
-  issues:
-    - user_hostname_manually_added_requiring_further_investigation
   comments: |
     Hostname is captured in gpgv.exe since upstream commit 049b3d9.
     Also, it might be that some padding with unitialized memory causes
     some non-determinism seen in the bits between CompanyName's and
     FileVersion's value (g10/gpg-w32info.rc).
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 826309
 gnuplot:
@@ -13399,14 +13399,14 @@ urweb:
     - fonts_in_pdf_files
 usb-modeswitch-data:
   version: 20160112-2
-  issues:
-    - random_order_in_tarball
-    - collation_order_varies_by_locale
   comments: |
     Tarball is generated with "tar [...] *", which depends on the locale,
     even with --sort=name.
     The udev rules file has content sorted with a glob that depends
     on the filesystem.
+  issues:
+    - random_order_in_tarball
+    - collation_order_varies_by_locale
   bugs:
     - 826343
 userv:
