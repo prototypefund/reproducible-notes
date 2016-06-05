@@ -2953,6 +2953,11 @@ fakechroot:
   version: 2.18-1
   issues:
     - captures_shell_variable_in_autofoo_script
+fakeroot:
+  version:
+    1.20.2-2
+  issues:
+    - captures_shell_variable_in_autofoo_script
 farstream-0.2:
   version: 0.2.7-1
   bugs:
@@ -12594,6 +12599,10 @@ sublib:
   version: 0.9-4
   issues:
     - timestamps_in_pe_binaries
+subliminal:
+  version: 1.1.1-2
+  comments: |
+    Captures $HOME via click: https://sources.debian.net/src/subliminal/1.1.1-2/subliminal/cli.py/#L198-L209
 subread:
   version: 1.4.6-p5+dfsg-1
   issues:
