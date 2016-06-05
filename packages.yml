@@ -173,6 +173,10 @@ aircrack-ng:
   version: 1:1.2-0~beta3-4
   bugs:
     - 818230
+airstrike:
+  version: 0.99+1.0pre6a-7
+  bugs:
+    - 826421
 akuma:
   version: 1.9-1
   comments: |
@@ -491,6 +495,11 @@ armada-backlight:
   version: 1.1-8
   bugs:
     - 786710
+armagetronad:
+  version: 0.2.8.3.3-2
+  comments: |
+    Embeds build date into documentation.
+    https://sources.debian.net/src/armagetronad/0.2.8.3.3-2/src/doc/HtmlMakefile/#L18-L20
 arora:
   version: 0.11.0+qt5+git2014-04-06-1
   bugs:
@@ -996,6 +1005,10 @@ blockdiag:
   version: 1.4.7-2
   bugs:
     - 816735
+blockout2:
+  version: 2.4+dfsg1-7
+  bugs:
+    - 826416
 bnd:
   version: 1.50.0-8
   issues:
@@ -1392,6 +1405,10 @@ chimera2:
   bugs:
     - 777302
     - 792949
+chipmunk:
+  version: 6.1.5-1
+  issues:
+    - unsorted_file_glob_by_cmake
 chktex:
   version: 1.7.4-1
   bugs:
@@ -2887,6 +2904,10 @@ exabgp:
   version: 3.4.13-1
   issues:
     - ftbfs_uninvestigated_test_failures
+excellent-bifurcation:
+  version: 0.0.20071015-7
+  bugs:
+    - 826427
 exo:
   version: 0.10.2-4
   comments: |
@@ -4251,6 +4272,10 @@ gnuplot5:
   version: 5.0.0~rc+dfsg2-1
   issues:
     - timestamps_in_dvi_generated_by_latex
+gnurobbo:
+  version: 0.68+dfsg-1
+  bugs:
+    - 826424
 gnustep-base:
   version: 1.24.7-1
   comments: |
@@ -5808,6 +5833,10 @@ kradio4:
   version: 4.0.8+git20160325-1
   bugs:
     - 825471
+kraptor:
+  version: 0.0.20040403-9
+  bugs:
+    - 826423
 krb5:
   version: 1.13.2+dfsg-5
   issues:
@@ -7898,6 +7927,10 @@ metastudent-data:
   version: 2.0.0-3
   issues:
     - timestamps_added_by_blast2
+mgba:
+  version: 0.4.0+dfsg1-3
+  issues:
+    - unsorted_file_glob_by_cmake
 mh-book:
   version: 200605-1
   issues:
@@ -13749,6 +13782,10 @@ why3:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/why3/0.87.0-1/configure.in/?hl=712#L712
+widelands:
+  version: 1:18-3
+  issues:
+    - unsorted_file_glob_by_cmake
 wily:
   version: 0.13.41-7.2
   issues:
@@ -13969,6 +14006,10 @@ xfsprogs:
   version: 4.3.0+nmu1
   bugs:
     - 822369
+xgalaga++:
+  version: 0.8.4-2
+  bugs:
+    - 826418
 xjig:
   version: 2.4-14
   issues:
