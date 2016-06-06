@@ -1104,4 +1104,6 @@ date_added_by_ui_auto:
     ui-auto m4 script inserts `date --rfc-822`. Reverse build-depends will
     probably need autoreconfing and extra Build-Depends, alas. Patch in itself
     shouldn't be too hard (ui-auto:src/m4/ui-auto.m4)
-
+timestamps_added_by_xbean_spring:
+  description: |
+    Adds a timestamp to META-INF/spring.handlers, META-INF/spring.schemas  etc.
