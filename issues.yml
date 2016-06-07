@@ -101,8 +101,7 @@ diffoscope_runs_forever:
     a list of currently undiffable packages.
 timestamps_in_maven_version_files:
   description: |
-    Maven writes a timestamp to version.properties files.  Probably related
-    to timestamps_in_maven_pom_files issue.
+    Maven writes a timestamp to version.properties files.
   deterministic: True
 timestamps_in_maven_metadata_local_xml_files:
   description: |
