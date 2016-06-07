@@ -443,9 +443,9 @@ ftbfs_build_depends_not_available_on_amd64:
     - https://wiki.debian.org/Build-Depends-Indep
     - https://bugs.launchpad.net/launchpad/+bug/217427
   deterministic: True
-ftbfs_build-indep_not_build_on_armhf:
+ftbfs_build-indep_not_build_on_some_archs:
   description: |
-    Package build-indep target will fail on armhf.
+    These are packages where the build-indep target will fail to build on some archs. As this can be the desired behaviour we add those packages to this issue and have made sure that the build problems found in our infrastructure are not propagated to tracker.debian.org and DDPO.
   deterministic: True
 ftbfs_environment:
   description: |
