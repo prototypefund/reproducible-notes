@@ -1109,3 +1109,7 @@ timestamps_added_by_xbean_spring:
     Adds a timestamp to META-INF/spring.handlers, META-INF/spring.schemas  etc.
     Package is likely libxbean-java but not immediately obvious where the date
     actually comes from.
+nondeterminism_added_by_pyqt5_pyrcc5:
+  description: |
+    Unknown non-determinism added by this tool that turns files into Python.
+    (PNG metadata? Ordering?)
