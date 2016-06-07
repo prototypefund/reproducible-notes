@@ -2341,10 +2341,6 @@ diet:
   version: 2.8.0-1
   bugs:
     - 761568
-dietlibc:
-  version: 0.33~cvs20120325-6
-  comments: |
-    fixed in experimental
 diploma:
   version: 1.2.11
   issues:
@@ -2910,10 +2906,6 @@ exabgp:
   version: 3.4.13-1
   issues:
     - ftbfs_uninvestigated_test_failures
-excellent-bifurcation:
-  version: 0.0.20071015-7
-  bugs:
-    - 826427
 exo:
   version: 0.10.2-4
   comments: |
@@ -4278,10 +4270,6 @@ gnuplot5:
   version: 5.0.0~rc+dfsg2-1
   issues:
     - timestamps_in_dvi_generated_by_latex
-gnurobbo:
-  version: 0.68+dfsg-1
-  bugs:
-    - 826424
 gnustep-base:
   version: 1.24.7-1
   comments: |
@@ -7980,10 +7968,6 @@ miaviewit:
   version: 1.0.2-1
   bugs:
     - 819779
-miceamaze:
-  version: 4.2.1-2
-  bugs:
-    - 825634
 micro-httpd:
   version: 20051212-15
   bugs:
@@ -9600,6 +9584,10 @@ perdition:
     - timestamps_in_gzip_headers
   bugs:
     - 787998
+performous:
+  version: 1.1-1
+  issues:
+    - unsorted_file_glob_by_cmake
 perlbal:
   version: 1.80-3
   bugs:
