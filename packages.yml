@@ -6913,6 +6913,10 @@ libqapt:
   version: 3.0.1-1
   bugs:
     - 822497
+libquazip:
+  version: 0.7.1-1
+  issues:
+    - unsorted_file_glob_by_cmake
 libquvi:
   version: 0.4.1-3
   comments: |
@@ -7041,8 +7045,8 @@ libsmali-java:
     - 825368
 libsndfile:
   version: 1.0.25-10
-  comments: |
-    Shell gets captured in /usr/share/doc/libsndfile1-dev/examples/Makefile.gz
+  issues:
+    - captures_shell_variable_in_autofoo_script
 libsoup2.4:
   version: 2.50.0-2
   bugs:
@@ -8842,6 +8846,13 @@ nsnake:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/nsnake/3.0.1-2/Makefile/#L42
+nss:
+  version: 2:3.23-2
+  issues:
+    - cryptographic_signature
+  comments: |
+    libraries are signed with shlibsign during build.
+    See also: https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/NSS_Tech_Notes/nss_tech_note6
 nss-passwords:
   version: 0.2-2
   issues:
@@ -8988,6 +8999,10 @@ ognl:
   version: 2.7.3-6
   bugs:
     - 801855
+ogre-1.9:
+  version: 1.9.0+dfsg1-7
+  issues:
+    - unsorted_file_glob_by_cmake
 oidua:
   version: 0.16.1-7
   issues:
@@ -9277,6 +9292,8 @@ opus:
   comments: |
     Embeds the current year as coypright year.
     https://sources.debian.net/src/opus/1.1.1-1/doc/footer.html/#L13
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 oregano:
   version: 0.70-3
   issues:
@@ -14116,7 +14133,9 @@ xorg-docs:
 xorg-server:
   version: 2:1.16.4-1
   issues:
+    - captures_kernel_version
     - different_due_to_umask
+    - random_order_in_tarball
 xorp:
   version: 1.8.5-4
   comments: |

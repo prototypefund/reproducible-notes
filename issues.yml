@@ -1112,3 +1112,6 @@ nondeterminism_added_by_pyqt5_pyrcc5:
   description: |
     Unknown non-determinism added by this tool that turns files into Python.
     (PNG metadata? Ordering?)
+cryptographic_signature:
+  description: |
+    The package embeds cryptographic signatures into build artefacts with keys generated during build.
