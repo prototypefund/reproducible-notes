@@ -13342,6 +13342,11 @@ uanytun:
   comments: |
     Embed build time, and hostname:
     https://sources.debian.net/src/uanytun/0.3.5-1/src/configure/?hl=272,273,288#L272
+u-boot:
+  version: 2016.03+dfsg1-5
+  comments: |
+    The it_CH.UTF-8 locale used on armhf causes variation in
+    binary data. Doesn't appear to vary with fr_CH.UTF-8.
 ubuntu-packaging-guide:
   version: 0.3.6
   issues:
