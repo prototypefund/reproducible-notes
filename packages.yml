@@ -2102,6 +2102,10 @@ dcmstack:
   version: 0.6.2+git33-gb43919a.1-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
+dctrl-tools:
+  version: 2.24-2
+  bugs:
+    - 826760
 dd2:
   version: 0.2.2-2
   issues:
@@ -5059,6 +5063,10 @@ ifmail:
     Embeds the modification date of source files.
     https://sources.debian.net/src/ifmail/2.14tx8.10-22/ifcico/Makefile/#L171
     https://sources.debian.net/src/ifmail/2.14tx8.10-22/ifgate/Makefile/#L129
+ifrit:
+  version: 4.1.2-5
+  issues:
+    - unsorted_file_glob_by_cmake
 ikiwiki:
   version: 3.20160506
   comments: |
@@ -9708,13 +9716,15 @@ php7.0:
     https://sources.debian.net/src/php7.0/7.0.4-6/acinclude.m4/?hl=2993,2998#L2993
     This temporary filename leaks into debug information and causes a build id variation.
 phpab:
-  version: 1.21.0-1
-  issues:
-    - timestamps_in_manpages_generated_by_help2man
+  version: 1.21.0-2
+  comments: |
+    Prints the current year in version info, which lands in the manpage via help2man.
+    https://sources.debian.net/src/phpab/1.21.0-2/src/Version.php/#L61
 phpdox:
-  version: 0.8.1.1-1
-  issues:
-    - timestamps_in_directories
+  version: 0.8.1.1-2
+  comments: |
+    Prints the current year in version info, which lands in the manpage via help2man.
+    https://sources.debian.net/src/phpdox/0.8.1.1-2/src/shared/Version.php/?hl=71#L71
 phpldapadmin:
   version: 1.2.2-5.2
   issues:
@@ -10210,6 +10220,11 @@ pygtksourceview:
   version: 2.10.1-2
   comments: |
     Embeds build time via custom docbook entity '&builddate;'.
+pyicu:
+  version: 1.9.2-2
+  comments: |
+    Locates source files in readdir order, which will result in random linking order.
+    https://sources.debian.net/src/pyicu/1.9.2-2/setup.py/#L109
 pyjunitxml:
   version: 0.6-1.1
   bugs:
