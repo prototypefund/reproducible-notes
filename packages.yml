@@ -3951,6 +3951,10 @@ gfxboot:
     - timestamps_in_cpio_archive
     - users_and_groups_in_cpio_archive
     - different_due_to_umask
+ggcov:
+  version: 0.9-10
+  bugs:
+    - 826887
 ghc:
   version: 7.10.3-7
   issues:
