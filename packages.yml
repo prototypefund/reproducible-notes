@@ -1550,6 +1550,10 @@ cmor:
     This library adds timestamps inside function methods.
     When the example files are generated the current time is saved.
     Command to find where are set the timestamps: ack-grep -B3 snprintf.*ptr
+cnrun:
+  version: 1.1.14-1.1
+  bugs:
+    - 826867
 cobbler:
   version: 2.6.6+dfsg1-2
   comments: |
