@@ -1540,10 +1540,6 @@ cloud-init:
   version: 0.7.6~bzr976-2
   bugs:
     - 780637
-clutter-gst-2.0:
-  version: 2.0.18-1
-  bugs:
-    - 822432
 cmor:
   version: 2.9.1-5
   comments: |
@@ -5053,10 +5049,6 @@ ido:
   version: 0.3.4-1.1
   bugs:
     - 826668
-iep:
-  version: 3.7-1
-  issues:
-    - ftbfs_uninvestigated_test_failures
 ifmail:
   version: 2.14tx8.10-22
   comments: |
@@ -11014,6 +11006,10 @@ pyzmq:
   version: 15.1.0-1
   bugs:
     - 818265
+pyzo:
+  version: 3.7-1
+  issues:
+    - ftbfs_uninvestigated_test_failures
 qbs:
   version: 1.3.3+dfsg-4
   issues:
