@@ -452,6 +452,10 @@ ara:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/ara/1.0.31/common/mkversion.sh/#L4
+arc-gui-clients:
+  version: 0.4.6-2
+  bugs:
+    - 826831
 arduino:
   version: 2:1.0.5+dfsg2-4
   comments: |
@@ -8840,11 +8844,11 @@ nsnake:
     https://sources.debian.net/src/nsnake/3.0.1-2/Makefile/#L42
 nss:
   version: 2:3.23-2
-  issues:
-    - cryptographic_signature
   comments: |
     libraries are signed with shlibsign during build.
     See also: https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/NSS_Tech_Notes/nss_tech_note6
+  issues:
+    - cryptographic_signature
 nss-passwords:
   version: 0.2-2
   issues:
