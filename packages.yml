@@ -1233,12 +1233,12 @@ cardstories:
     - 753195
 cargo:
   version: 0.9.0-1
-  bugs:
-    - 826938
   comments: |
     Issue seems to be in embedded libgit2-sys.
   issues:
     - unsorted_file_glob_by_cmake
+  bugs:
+    - 826938
 casablanca:
   version: 2.2.0-1
   comments: |
