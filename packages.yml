@@ -1571,6 +1571,10 @@ cloud-init:
   version: 0.7.6~bzr976-2
   bugs:
     - 780637
+  issues:
+    - ftbfs_in_jenkins_setup
+  comments: |
+    Fails to run tests with pbuilder.
 cmor:
   version: 2.9.1-5
   comments: |
