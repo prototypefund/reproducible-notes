@@ -1871,10 +1871,6 @@ ctop:
   version: 1.0.0-1
   issues:
     - timestamps_in_manpages_generated_by_ronn
-cuba:
-  version: 3.0+20111124-2
-  bugs:
-    - 791516
 cups:
   version: 2.1.0-6
   issues:
@@ -5043,14 +5039,6 @@ ibus-table-others:
   version: 1.3.5-2
   issues:
     - random_order_in_ibus_table_createdb_output
-icebreaker:
-  version: 1.21-11
-  issues:
-    - ftbfs_old_compat_debheper_compat_level
-  bugs:
-    - 784352
-    - 800281
-    - 815604
 icedove:
   version: 38.5.0-1
   issues:
@@ -6950,10 +6938,6 @@ libpreludedb:
   version: 1.0.0-2.3
   bugs:
     - 803520
-libprinterconf:
-  version: 0.5-12
-  bugs:
-    - 808622
 libproc-syncexec-perl:
   version: 1.01-1.1
   bugs:
@@ -7966,10 +7950,6 @@ mbedtls:
   version: 2.2.1-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-mboxcheck:
-  version: 0.2.0
-  bugs:
-    - 806434
 mc:
   version: 4.8.13-3
   comments: |
@@ -8714,10 +8694,6 @@ nfstrace:
     .
     Embeds OS and compiler information into binary.
     https://sources.debian.net/src/nfstrace/0.3.1-2/src/controller/build_info.h.in/#L33-L34
-nget:
-  version: 0.27.1-11
-  bugs:
-    - 746885
 nibabel:
   version: 2.0.1-1
   issues:
@@ -9656,10 +9632,6 @@ pentaho-reporting-flow-engine:
     - timestamps_in_jar
     - timestamps_in_documentation_generated_by_javadoc
     - locale_in_documentation_generated_by_javadoc
-percona-xtradb-cluster-galera-2.x:
-  version: 1:2.11.2675-1.2
-  bugs:
-    - 804138
 perdition:
   version: 2.1-2
   issues:
