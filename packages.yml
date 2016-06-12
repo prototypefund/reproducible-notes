@@ -4184,6 +4184,12 @@ gnat-mingw-w64:
   version: 15.1
   issues:
     - timestamps_in_ada_library_information_files
+gngb:
+  version: 20060309-3.1
+  comments: |
+    Uses different optimization flags on i386 build architecture.
+    https://sources.debian.net/src/gngb/20060309-3.1/configure.in/#L110
+    -> When compiling for i386 from amd64 system/kernel, different flags are used.
 gnokii:
   version: 0.6.30+dfsg-1
   issues:
