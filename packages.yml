@@ -12086,15 +12086,8 @@ scscp-imcce:
     - timestamps_in_pdf_generated_by_latex
 scummvm:
   version: 1.8.1+dfsg-1
-  comments: |
-    - The difference in the zip files is caused by zip in d/rules (embedded uid/gid in zip extra fields).
-      Solved by adding -X zo zip invocation.
-    - The i386 variation is caused by building once on amd64 with i386 userspace and once on i386 directly.
-      When the host cpu is detected as i*86, nasm is used for building additional object files.
-      https://sources.debian.net/src/scummvm/1.8.1%2Bdfsg-1/configure/#L2149
-      https://sources.debian.net/src/scummvm/1.8.1%2Bdfsg-1/configure/#L4382
-      -> when the host cpu is not detected as i*86, the files hq2x_i386.o and hq3x_i386.o are not built,
-         even when it is a i386 build.
+  bugs:
+    - 827145
 sd:
   version: 0.75-1
   bugs:
