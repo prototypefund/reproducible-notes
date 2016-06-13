@@ -88,9 +88,9 @@ blacklisted_on_jenkins_armhf_only:
   description: |
     Some packages have been blacklisted only on armhf in our test infrastructure 
     because their builds takes too long on the tiny armhf boards we're using.
-    The migation against this is to add more architectures or waiting until 
+    The migation against this is to add more architectures or to wait until 
     we test against the debian archive, when it's will become sensible to raise
-    the 12h timeout for a single build.
+    the 18h timeout for a single build.
     Until his happens, please rely on the amd64 tests.
 diffoscope_runs_forever:
   description: |
