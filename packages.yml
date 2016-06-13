@@ -370,10 +370,6 @@ apertium-eu-es:
   version: 0.3.1-1
   issues:
     - ftbfs_uninvestigated_unsatisfiable_dependencies
-apertium-fr-ca:
-  version: 1.0.2-1
-  issues:
-    - ftbfs_uninvestigated_unsatisfiable_dependencies
 apertium-fr-es:
   version: 0.9.0-1
   issues:
@@ -1577,12 +1573,12 @@ closure-compiler:
     - timestamps_in_jar
 cloud-init:
   version: 0.7.6~bzr976-2
-  bugs:
-    - 780637
-  issues:
-    - ftbfs_in_jenkins_setup
   comments: |
     Fails to run tests with pbuilder.
+  issues:
+    - ftbfs_in_jenkins_setup
+  bugs:
+    - 780637
 cmor:
   version: 2.9.1-5
   comments: |
