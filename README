@@ -21,7 +21,6 @@ Open questions for multi project notes.git:
   are optional? (would that be correct yaml?)
 - shall we keep a hard-coded list of projects or how to detect them? (not all
   projects starts capitalized, eg coreboot)
-- how to encode suites and archs?
 
 packages.yml
 ------------
@@ -37,10 +36,13 @@ A full entry looks like the following:
          Patch submitted.
        bugs:
         - 764251
-       issues:
-         - blacklisted_on_armhf
+       arch-armhf:
+         issues:
+           - blacklisted_on_armhf
      ArchLinux:
        version: 1.7.3.2
+       issues:
+         - ftbfs_due_to_gcc7_transition
      FreeBSD:
        name: gnu-socat
        version: 1.8
