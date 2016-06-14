@@ -15,14 +15,22 @@ packages.yml
 A full entry looks like the following:
 
     socat:
-      version: 1.7.2.4-1
-      comments: |
-        Patch submitted.
-      issues:
-        - timestamps_from_cpp_macros
-      bugs:
+     Debian:
+       version: 1.7.2.4-1
+       comments: |
+         Patch submitted.
+       bugs:
         - 764251
-
+       issues:
+         - blacklisted_on_armhf
+     ArchLinux:
+       version: 1.7.3.2
+     FreeBSD:
+       name: gnu-socat
+       version: 1.4
+     issues:
+       - timestamps_from_cpp_macros
+   
 Every field is optional, although a version number would be useful to do
 cleanups.
 
@@ -49,6 +57,9 @@ A full entry looks like the following:
         capture the current time, and thus will obviously make a build
         unreproducible.
       url: https://wiki.debian.org/ReproducibleBuilds/TimestampFromCPPMacros
+      Debian:
+        bug: 123456
+        url: https://example.com
 
 The name of the issue should contain underscores instead of hyphens as
 text editor autocompletion works better with the former.
