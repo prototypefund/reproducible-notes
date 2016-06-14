@@ -39,10 +39,15 @@ A full entry looks like the following:
        arch-armhf:
          issues:
            - blacklisted_on_armhf
+         comments: |
+           this is just an silly architecture specific example comment.
      ArchLinux:
        version: 1.7.3.2
        issues:
          - ftbfs_due_to_gcc7_transition
+       arch-x86
+         comments: |
+           another silly comment explaining architectures can be called differently.
      FreeBSD:
        name: gnu-socat
        version: 1.8
@@ -50,7 +55,9 @@ A full entry looks like the following:
        - timestamps_from_cpp_macros
      bugs:
        - https://githost.example.org/issues/4223 
-  
+     comments: |
+       Upstream said they will fix the issue soon.
+ 
 Every field is optional, although a version number would be useful to do
 cleanups.
 
