@@ -4726,6 +4726,10 @@ guacamole-client:
     - timestamps_in_jar
     - user_in_java_jar_manifest
     - random_order_in_java_jar_manifest_mf
+guacamole-server:
+  version: 0.8.3-2
+  bugs:
+    - 827300
 guake:
   version: 0.8.4-1
   bugs:
