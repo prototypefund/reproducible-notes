@@ -7,6 +7,22 @@ reproducibility of Debian packages.
 There is another repository, ssh://git.debian.org/git/reproducible/misc.git
 which contains some scripts to deal with these YAML files here:
 
+FIXME: the description below is for the upcoming multi project notes.git,
+       for which the syntax should be defined before we write the parser.
+
+FIXME: To ease the transition from old Debian-only notes.git someone also
+       needs to write a converter, which makes all issues generic, except
+       some defined ones (blacklisted_on_some_arch… etc), all bugs need to
+       be made debian specific and all version numbers probably as well.
+
+Open questions for multi project notes.git:
+-------------------------------------------
+- to mark a note for a project, we add the project and even name and version
+  are optional? (would that be correct yaml?)
+- shall we keep a hard-coded list of projects or how to detect them? (not all
+  projects starts capitalized, eg coreboot)
+
+
 packages.yml
 ------------
 
