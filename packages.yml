@@ -6022,7 +6022,7 @@ latex2html:
   version: 2008-debian1-10
   comments: |
     Variations in the PNG images, not in the timestamps but in the
-    graphics data!
+    graphics data (use of ppmquant -floyd, see https://bugs.debian.org/827115)
   issues:
     - timestamps_in_pdf_generated_by_latex
     - randomness_in_html_generated_by_texi2html
@@ -12942,7 +12942,8 @@ systemtap:
 tachyon:
   version: 0.99~b6+dsx-3
   comments: |
-    The deterministic source code example in the documentation is converted to PNG by latex2html but the file has actually non-deterministic contents - memory contents maybe.
+    The deterministic source code example in the documentation is converted to PNG by latex2html but the file has actually non-deterministic contents (use of random seeded from time).
+    This will be fixed with https://bugs.debian.org/827115
 tagainijisho:
   version: 1.0.2-1
   issues:
