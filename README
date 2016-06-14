@@ -46,7 +46,9 @@ A full entry looks like the following:
        version: 1.8
      issues:
        - timestamps_from_cpp_macros
-   
+     bugs:
+       - https://githost.example.org/issues/4223 
+  
 Every field is optional, although a version number would be useful to do
 cleanups.
 
