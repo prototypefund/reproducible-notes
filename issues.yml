@@ -755,6 +755,7 @@ timestamps_in_pdf_generated_by_matplotlib:
   description: |
     eg. Creator (matplotlib 1.4.2, http://matplotlib.org)
   deterministic: True
+  url: https://bugs.debian.org/827361
 lynx_dump_varies_output_with_locale:
   description: |
     Packages use `lynx -dump in.html > out.txt`, but this varies by locale. See
