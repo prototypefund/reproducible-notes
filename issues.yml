@@ -121,10 +121,8 @@ use_epydoc:
     Epydoc will add timestamps to the HTML file it produces. It can also generates
     different class index depending on filesystem ordering. It might also output
     references to object with a memory address.
-    The repo in Alioth's /git/reproducible contains a few fixes for the file ordering
-    issues for review.
     Related bugs:
-        https://bugs.debian.org/825968
+        https://bugs.debian.org/827416
   url: https://wiki.debian.org/ReproducibleBuilds/EpydocIssues
   deterministic: True
 timestamps_in_python_code_generated_by_cheetah:
