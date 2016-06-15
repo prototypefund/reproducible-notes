@@ -31,7 +31,7 @@ packages.yml
 A full entry looks like the following:
 
     socat:
-     Debian:
+     debian:
        version: 1.7.2.4-1
        comments: |
          Patch submitted.
@@ -42,14 +42,14 @@ A full entry looks like the following:
            - blacklisted_on_armhf
          comments: |
            this is just an silly architecture specific example comment.
-     ArchLinux:
+     archlinux:
        version: 1.7.3.2
        issues:
          - ftbfs_due_to_gcc7_transition
        arch-x86
          comments: |
            another silly comment explaining architectures can be called differently.
-     FreeBSD:
+     freebsd:
        name: gnu-socat
        version: 1.8
      issues:
@@ -100,3 +100,34 @@ text editor autocompletion works better with the former.
  - `deterministic` (default False): is an optional field indicating whether
     we expect that this issue would always happen on Jenkins; i.e. if
     there is a successful build, then the issue is fixed.
+
+
+distros.yml
+----------
+
+`distros.yml` is a YAML file with a description of tested distributions and other projects.
+
+A full entry looks like the following:
+
+    distro:
+      key: debian
+      name: Debian
+      bug-base: https://bugs.debian.org/
+    distro:
+      key: coreboot
+      name: coreboot
+    distro:
+      key: freebsd
+      name: FreeBSD
+    distro:
+      key: archlinux
+      name: ArchLinux
+
+ - `key`:  is a mandatory key consisting of a non-capitalised alpha-numerical
+    identifier to be used in packages.yaml and issues.yaml
+
+ - `name`: is an optional string specifying how the key should be displayed in
+    human readable output.
+
+ - `bug-base`: is an optional string to be used as the URL base for bugs.
+
