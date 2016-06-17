@@ -7003,6 +7003,10 @@ librevenge:
   version: 0.0.4-1
   comments: |
     umask differences in dbgsym but not clear where from - package is somewhat simple
+librostlab:
+  version: 1.0.20-4
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 librostlab-blast:
   version: 1.0.1-5
   issues:
@@ -7448,6 +7452,10 @@ liquidwar:
     https://sources.debian.net/src/liquidwar/5.6.4-3/src/basicopt.c/?hl=126#L126
   issues:
     - timestamps_in_allegro_dat_files
+litl:
+  version: 0.1.8-2
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 littler:
   version: 0.2.3-2
   issues:
@@ -7970,6 +7978,10 @@ mdbtools:
     Solved by setting LC_ALL=C before calling date.
   issues:
     - timestamps_in_manpages_generated_by_txt2man
+mdds:
+  version: 1.2.0-2
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 meanwhile:
   version: 1.0.2-7
   issues:
@@ -9073,6 +9085,10 @@ ooolib-perl:
   version: 0.1.9-1
   issues:
     - different_due_to_umask
+opal:
+  version: 3.10.10~dfsg2-2
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 opam:
   version: 1.2.0-1
   issues:
