@@ -5850,6 +5850,8 @@ kodi:
   issues:
     - timestamps_from_cpp_macros
     - diffoscope_runs_forever
+  bugs:
+    - 825285
 kombu:
   version: 3.0.30-1
   issues:
@@ -6497,6 +6499,10 @@ libhttp-daemon-ssl-perl:
   version: 1.04-3
   bugs:
     - 711628
+libical:
+  version: 2.0.0-0.4
+  bugs:
+    - 796360
 libical-parser-sax-perl:
   version: 1.09-3
   bugs:
@@ -13717,6 +13723,10 @@ vpb-driver:
   issues:
     - timestamps_in_tarball
     - different_due_to_umask
+vpim:
+  version: 0.695-1.5
+  bugs:
+    - 776930
 vtk6:
   version: 6.2.0+dfsg1-4
   comments: |
