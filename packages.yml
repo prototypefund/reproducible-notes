@@ -6457,6 +6457,10 @@ libgpg-error:
   version: 1.20-1
   comments: |
     Same issue as gnupg, see #806494
+libgphoto2:
+  version: 2.5.10-2
+  bugs:
+    - 827629
 libgpod:
   version: 0.8.3-5
   comments: |
@@ -12489,6 +12493,8 @@ soundscaperenderer:
   version: 0.4.2~dfsg-2
   issues:
     - fonts_in_pdf_files
+  bugs:
+    - 827630
 source-highlight:
   version: 3.1.8-1.1
   comments: |
