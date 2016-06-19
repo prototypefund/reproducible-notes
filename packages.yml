@@ -13589,6 +13589,10 @@ unixcw:
   version: 3.4.2-1
   comments: |
     Signatures and functions in manpage are generated in src/libcw/Makefile.am without a locale-independent sort
+urca:
+  version: 1.2-9-1
+  bugs:
+    - 827658
 urjtag:
   version: 0.10+r2007-1.2
   issues:
