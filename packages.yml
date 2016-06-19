@@ -3791,10 +3791,14 @@ gcc-5-cross:
   version: 11
   issues:
     - diffoscope_runs_forever
+  bugs:
+    - 827645
 gcc-5-cross-ports:
   version: 8
   issues:
     - diffoscope_runs_forever
+  bugs:
+    - 827644
 gcc-6:
   version: 6.1.1-3
   issues:
