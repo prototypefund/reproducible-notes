@@ -56,7 +56,7 @@ acl2:
   version: 7.1-1
   comments: |
     Spawns a handful of saved_acl2 which eats the memory.
-    Weirdly it looks like the build ends fine in testing, but always fails in unstable
+    Strangely it looks like the build ends fine in testing, but always fails in unstable
     blacklisted for now...
   issues:
     - blacklisted_on_jenkins
