@@ -9544,6 +9544,10 @@ pari:
     - collation_order_varies_by_locale
     - timestamps_from_cpp_macros
     - timestamps_in_gzip_headers
+parprouted:
+  version: 0.70-1
+  bugs:
+    - 817614
 parrot:
   version: 6.6.0-1
   comments: |
