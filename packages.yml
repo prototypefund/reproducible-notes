@@ -9991,6 +9991,8 @@ plasma-framework:
     This not only embeds user/group id but also depends on readdir() order, similar to the 'unsorted_file_glob_by_cmake' issue.
   issues:
     - users_and_groups_in_tarball
+  bugs:
+    - 828021
 plastex:
   version: 0.9.2-1
   bugs:
