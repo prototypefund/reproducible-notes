@@ -6454,6 +6454,10 @@ libflorist:
     Many Ada-related packages have similar build id variations.
   issues:
     - build_id_variation_requiring_further_investigation
+libfm:
+  version: 1.2.4-1
+  comments: |
+    Documentation contains default value for home directory, which varies. The correct solution would be for g_param_spec_string to take a flag to not print the default value.
 libfm-qt:
   version: 0.10.0+20151214-2
   issues:
