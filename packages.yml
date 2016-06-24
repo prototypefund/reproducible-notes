@@ -6302,6 +6302,10 @@ libcrypt-gcrypt-perl:
   version: 1.26-4
   bugs:
     - 816104
+libcrypto++:
+  version: 5.6.3-6
+  issues:
+    - timestamps_in_documentation_generated_by_doxygen
 libcsp:
   version: 1.4+fdd49b7+dfsg-3
   comments: |
