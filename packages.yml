@@ -11112,11 +11112,6 @@ python2.7:
     investigated.
   issues:
     - randomness_in_fat_lto_objects
-python3.4:
-  version: 3.4.3-7
-  issues:
-    - randomness_in_fat_lto_objects
-    - blacklisted_on_jenkins_armhf_only
 python3.5:
   version: 3.5.0~b1-2
   issues:
