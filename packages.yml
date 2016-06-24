@@ -775,6 +775,7 @@ bacula-doc:
   version: 5.2.6-3
   issues:
     - fonts_in_pdf_files
+    - timestamps_in_ps_generated_by_dvips
 baloo-kf5:
   version: 5.16.0-1
   bugs:
@@ -1170,6 +1171,10 @@ bzr-xmloutput:
   version: 0.8.8+bzr162-5
   issues:
     - ftbfs_uninvestigated_test_failures
+c++-annotations:
+  version: 10.5.0-1
+  issues:
+    - timestamps_in_ps_generated_by_dvips
 c3p0:
   version: 0.9.1.2-9
   issues:
@@ -4365,6 +4370,8 @@ gnupg2:
     - 826309
 gnuplot:
   version: 5.0.3+dfsg3-5
+  issues:
+    - timestamps_in_ps_generated_by_dvips
   bugs:
     - 827197
 gnuplot5:
@@ -4870,6 +4877,10 @@ haskell-yi-language:
   version: 0.2.0-1
   bugs:
     - 814997
+haskell98-report:
+  version: 20080907-5
+  issues:
+    - timestamps_in_ps_generated_by_dvips
 hawtdispatch:
   version: 1.20-1
   issues:
@@ -6209,6 +6220,10 @@ libbitcoin:
   issues:
     - leaks_path_environment_variable
     - captures_shell_variable_in_autofoo_script
+libbluray:
+  version: 1:0.9.3-2
+  issues:
+    - timestamps_in_ps_generated_by_dvips
 libbpp-phyl-omics:
   version: 2.1.0-1
   bugs:
