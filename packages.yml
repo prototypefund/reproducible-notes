@@ -4141,6 +4141,10 @@ git-hub:
   comments: |
     Timestamp embedded in manpage by rst2man.
     https://sources.debian.net/src/git-hub/0.9.0-1/Makefile/#L25
+git-phab:
+  version: 0~git20160322-1
+  bugs:
+    - 823536
 git-repair:
   version: 1.20151215-1
   bugs:
