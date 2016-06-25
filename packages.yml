@@ -11596,10 +11596,15 @@ r-cran-amelia:
   version: 1.7.3-1
   issues:
     - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-diagnosismed:
+  version: 0.2.3-4
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-fastcluster:
   version: 1.1.16-2
   issues:
     - r_base_appends_built_header_to_description_files
+    - randomness_in_r_rdb_rds_databases
 r-cran-futile.logger:
   version: 1.4.1-1
   issues:
@@ -11612,6 +11617,10 @@ r-cran-gss:
   version: 2.1-5-1
   bugs:
     - 828117
+r-cran-knitr:
+  version: 1.12.3-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-lambda.r:
   version: 1.1.7-2
   issues:
@@ -11626,6 +11635,10 @@ r-cran-readmzxmldata:
     - timestamps_in_description_files_generated_by_r-base-dev
   bugs:
     - 783057
+r-cran-repr:
+  version: 0.7-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-rinside:
   version: 0.2.13-1
   issues:
@@ -11650,6 +11663,10 @@ r-cran-teachingdemos:
   version: 2.9-1
   issues:
     - timestamps_in_description_files_generated_by_r-base-dev
+r-cran-tm:
+  version: 0.6-2-3
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-xml:
   version: 3.98-1.4-1
   bugs:
