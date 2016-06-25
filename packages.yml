@@ -9911,6 +9911,10 @@ pgadmin3:
   issues:
     - diffoscope_runs_forever
     - timestamps_from_cpp_macros
+pgbackrest:
+  version: 1.02-2
+  issues:
+    - timestamps_in_manpages_generated_by_txt2man
 pgbouncer:
   version: 1.7.1-1
   comments: |
