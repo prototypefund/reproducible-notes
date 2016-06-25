@@ -10492,6 +10492,8 @@ pygccjit:
     - randomness_in_objects_inv
 pygccxml:
   version: 1.7.4-3
+  comments: |
+    Also encodes the current encoding in api.doctree
   issues:
     - randomness_in_documentation_generated_by_sphinx
 pygobject:
