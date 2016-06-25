@@ -11161,6 +11161,10 @@ python-pypump:
     - timestamps_in_documentation_generated_by_sphinx
   bugs:
     - 788505
+python-pysnmp4:
+  version: 4.2.5-1
+  comments: |
+    Shebang gets rewritten from 2 - 3 by http://sources.debian.net/src/python3.5/3.5.2\~rc1-3/Lib/distutils/command/build_scripts.py/\?hl\=95\#L95 but I cannot reproduce or which variable has the extra space. note that this is not the same as python_shebang_and_dependency_nondeterministically_3_or_3_point_5 as that at least sticks within python3 versions
 python-pytc:
   version: 0.8-2
   bugs:
