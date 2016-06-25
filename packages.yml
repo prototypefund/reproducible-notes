@@ -6938,6 +6938,13 @@ libmojolicious-plugin-mailexception-perl:
   version: 0.19-1
   bugs:
     - 825541
+libmongoc:
+  version: 1.3.5-1
+  comments: |
+    The timestamp is added by https://sources.debian.net/src/libmongoc/1.3.5-1/doc/mallard2man.py/#L167
+    The strftime() call a few lines below that produces timezone-dependent output.
+  issues:
+    - timestamps_manually_added_needs_further_investigation
 libmouse-perl:
   version: 2.4.5-1
   bugs:
