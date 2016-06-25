@@ -12443,6 +12443,8 @@ sdb:
     - timestamps_in_pe_binaries
 sdcc:
   version: 3.5.0+dfsg-2
+  comments: |
+    ... also PDF header includes random path name under /tmp
   issues:
     - timestamps_in_pdf_generated_by_imagemagick
 sdl-stretch:
