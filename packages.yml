@@ -4613,6 +4613,10 @@ gosu:
   version: 1.6-1
   issues:
     - random_build_path_by_golang_compiler
+gotmail:
+  version: 0.9.0-1
+  bugs:
+    - 817486
 gpick:
   version: 0.2.5-1
   comments: |
@@ -14528,10 +14532,10 @@ x11vnc:
     Signature META-INF/SWKEY.DSA in jar files differs.
 x42-plugins:
   version: 20160619-1
-  bugs:
-    - 828168
   comments: |
     «echo "\t"» has implementation-defined meaning: https://sources.debian.net/src/x42-plugins/20160619-1/midimap.lv2/Makefile/#L84
+  bugs:
+    - 828168
 xbs:
   version: 0-10
   issues:
