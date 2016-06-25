@@ -9666,6 +9666,10 @@ pandas:
     - build_id_variation_requiring_further_investigation
   bugs:
     - 827938
+pandoc:
+  version: 1.17.0.3~dfsg-2
+  comments: |
+    Includes a buildinfo_ARCH.gz (NB. nothing to do with .buildinfo) that has some missing contents on our b build. Cannot reproduce locally and its not a file that really wants stripping IFAICT as lots of other packages include them.
 pantomime1.2:
   version: 1.2.2~r289+dfsg-2
   issues:
