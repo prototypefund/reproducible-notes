@@ -1088,7 +1088,7 @@ ruby_mkmf_makefile_unsorted_objects:
 timestamps_in_pdf_generated_by_imagemagick:
   description: |
     When converting images to PDF files, imagemagick embeds the current time/date into metadata (CreationDate / ModDate).
-  url: https://bugs.debian.org/819914
+  url: https://bugs.debian.org/81991t
 random_order_in_native_libs_by_setuptools:
   description: |
     python-setuptools generates native_libs.txt with random order.
@@ -1122,3 +1122,6 @@ r_base_appends_built_header_to_description_files:
   description: |
     r-base appends "Built: blah" header to DESCRIPTION files.
     http://sources.debian.net/src/r-base/3.3.1-1/share/make/basepkg.mk/#L101
+timestamps_in_documentation_generated_by_mkdocs:
+  description: |
+    includes a "Build Date UTC" footer
