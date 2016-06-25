@@ -10819,6 +10819,8 @@ python-gammu:
     - ftbfs_uninvestigated_test_failures
 python-geopandas:
   version: 0.2-1
+  comments: |
+    also needs this patch https://gist.github.com/lamby/549d0c0a61097e02e441222f35cd587c
   issues:
     - randomness_in_documentation_generated_by_sphinx
 python-gflags:
