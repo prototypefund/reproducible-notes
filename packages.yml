@@ -9086,6 +9086,10 @@ ntp:
     https://sources.debian.net/src/ntp/1:4.2.8p4%2Bdfsg-3/libntp/ntp_calendar.c/#L343
   issues:
     - timestamps_from_cpp_macros
+nuitka:
+  version: 0.5.21.2+ds-1
+  issues:
+    - timestamps_in_pdf_generated_by_reportlab
 nullmailer:
   version: 1.13-1
   bugs:
