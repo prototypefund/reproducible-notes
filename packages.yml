@@ -784,6 +784,7 @@ bacula-doc:
   issues:
     - fonts_in_pdf_files
     - timestamps_in_ps_generated_by_dvips
+    - pdf_created_by_ghostscript
 baloo-kf5:
   version: 5.16.0-1
   bugs:
@@ -4409,6 +4410,7 @@ gnuplot:
   version: 5.0.3+dfsg3-5
   issues:
     - timestamps_in_ps_generated_by_dvips
+    - pdf_created_by_ghostscript
   bugs:
     - 827197
 gnuplot5:
@@ -9202,6 +9204,10 @@ octave:
   version: 4.0.0-3
   issues:
     - timestamps_in_pdf_generated_by_latex
+octave-communications:
+  version: 1.2.1-1
+  issues:
+    - pdf_created_by_ghostscript
 octave-epstk:
   version: 2.4-3
   bugs:
