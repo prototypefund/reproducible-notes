@@ -1118,3 +1118,7 @@ nondeterminism_added_by_pyqt5_pyrcc5:
 cryptographic_signature:
   description: |
     The package embeds cryptographic signatures into build artefacts with keys generated during build.
+r_base_appends_built_header_to_description_files:
+  description: |
+    r-base appends "Built: blah" header to DESCRIPTION files.
+    http://sources.debian.net/src/r-base/3.3.1-1/share/make/basepkg.mk/#L101
