@@ -1126,3 +1126,8 @@ timestamps_in_documentation_generated_by_mkdocs:
   description: |
     includes a "Build Date UTC" footer
   url: https://bugs.debian.org/828145
+random_order_of_pdf_ids_generated_by_latex:
+  description: |
+    latex uses IDs such as dcf70a72907fd3b4786a8ec9b9155636 to identify
+    elements. Whilst these are deterministic, the ordering they are outputted
+    are not determinstic.
