@@ -924,6 +924,10 @@ bibclean:
   comments: |
     Embed build time, username, and hostname:
     http://sources.debian.net/src/bibclean/2.11.4.1-4/option.c/?hl=567:586#L567
+biber:
+  version: 2.5-1
+  issues:
+    - random_order_of_pdf_ids_generated_by_latex
 bibledit-gtk:
   version: 4.9-1
   issues:
@@ -934,6 +938,10 @@ bibtex2html:
   version: 1.98-1
   issues:
     - timestamps_manually_added_needs_further_investigation
+bibtool:
+  version: 2.65+ds-1
+  issues:
+    - random_order_of_pdf_ids_generated_by_latex
 bidiui:
   version: 0.9.7-1
   issues:
@@ -12551,6 +12559,10 @@ search-citeseer:
   version: 0.3-1
   bugs:
     - 815610
+secilc:
+  version: 2.5-1
+  issues:
+    - random_order_of_pdf_ids_generated_by_latex
 seelablet:
   version: 0.1.9-1
   issues:
