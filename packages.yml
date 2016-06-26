@@ -8236,10 +8236,9 @@ mbedtls:
   issues:
     - timestamps_in_documentation_generated_by_doxygen
 mc:
-  version: 4.8.13-3
-  comments: |
-    Embeds build date into manpage.
-    https://sources.debian.net/src/mc/3:4.8.15-2/doc/man/date-of-man-include.am/#L8
+  version: 3:4.8.17-1
+  bugs:
+    - 828683
 mcrl2:
   version: 201409.0-1
   comments: |
