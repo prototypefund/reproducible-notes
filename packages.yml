@@ -5875,12 +5875,9 @@ keylaunch:
   bugs:
     - 805773
 keyutils:
-  version: 1.5.9-5
-  comments: |
-    Embeds the build date.
-    https://sources.debian.net/src/keyutils/1.5.9-5/Makefile/#L115
-  issues:
-    - ftbfs_uninvestigated_test_failures
+  version: 1.5.9-9
+  bugs:
+    - 828681
 kgb-bot:
   version: 1.33-2
   comments: |
@@ -6387,6 +6384,10 @@ libcommons-codec-java:
   version: 1.10-1
   issues:
     - locale_in_documentation_generated_by_javadoc
+libcommons-collections3-java:
+  version: 3.2.2-1
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 libcommons-collections4-java:
   version: 4.0-1
   issues:
