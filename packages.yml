@@ -14,10 +14,6 @@ a2ps:
   version: 1:4.14-1.3
   comments: |
     Also a timestamp in /usr/share/a2ps/README
-a7xpg:
-  version: 0.11.dfsg1-9
-  bugs:
-    - 826641
 aac-tactics:
   version: 0.4-5
   bugs:
@@ -171,10 +167,6 @@ aircrack-ng:
   version: 1:1.2-0~beta3-4
   bugs:
     - 818230
-airstrike:
-  version: 0.99+1.0pre6a-7
-  bugs:
-    - 826421
 akuma:
   version: 1.9-1
   comments: |
@@ -184,15 +176,6 @@ aldo:
   version: 0.7.7-1
   bugs:
     - 823431
-allegro4.4:
-  version: 2:4.4.2-8
-  comments: |
-    Possibly a file ordering issue:
-    https://sources.debian.net/src/allegro4.4/2:4.4.2-8/tools/CMakeLists.txt/#L6-L7
-  issues:
-    - unsorted_file_glob_by_cmake
-  bugs:
-    - 824140
 allegro5:
   version: 2:5.0.11-1
   comments: |
@@ -1731,17 +1714,30 @@ commando:
   version: 0.3.4-1.1
   bugs:
     - 795688
+commons-configuration:
+  version: 1.10-4
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 commons-beanutils:
   version: 1.9.2-3
   issues:
-    - implementation_version_in_java_manifest_mf
+    - random_order_in_documentation_generated_by_javadoc
+commons-jci:
+  version: 1.1-4
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 commons-javaflow:
   version: 0.0~svn20151101-1
   bugs:
     - 828093
+commons-math:
+  version: 2.2-5
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 commons-math3:
   version: 3.6.1-1
   issues:
+    - random_order_in_documentation_generated_by_javadoc
     - blacklisted_on_jenkins_armhf_only
 commons-vfs:
   version: 2.0-7
@@ -5485,6 +5481,10 @@ java-gnome:
   version: 4.1.3-4
   issues:
     - locale_in_documentation_generated_by_javadoc
+javaassist:
+  version: 1:3.12.1.ga-2
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 javahelp2:
   version: 2.0.05.ds1-8
   issues:
@@ -6404,6 +6404,10 @@ libcommons-lang-java:
   issues:
     - timestamps_in_jar
     - timestamps_in_documentation_generated_by_javadoc
+libcommons-lang3-java:
+  version: 3.4-1
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 libcommons-logging-java:
   version: 1.2-1
   issues:
@@ -6457,6 +6461,10 @@ libcsp:
     contains source tarball with files varying by umask
   issues:
     - different_due_to_umask
+libdaemon:
+  version: 0.14-6
+  issues:
+    - timestamps_in_manpages_generated_by_doxygen
 libdatabase-dumptruck-perl:
   version: 1.2-2
   bugs:
@@ -7132,6 +7140,10 @@ libpeas:
   version: 1.16.0-1
   bugs:
     - 802095
+libpgm:
+  version: 5.2.122~dfsg-2
+  issues:
+    - captures_kernel_version
 libphonenumber:
   version: 7.1.0-1
   issues:
@@ -7232,14 +7244,6 @@ librepository:
   version: 1.1.6-2
   issues:
     - locale_in_documentation_generated_by_javadoc
-libretro-beetle-pce-fast:
-  version: 0.9.36.1+git20160324-1
-  bugs:
-    - 827147
-libretro-beetle-psx:
-  version: 0.9.38.6+git20151019-1
-  bugs:
-    - 827148
 librevenge:
   version: 0.0.4-1
   comments: |
@@ -8450,6 +8454,10 @@ mod-gnutls:
   version: 0.7-1
   issues:
     - ftbfs_uninvestigated_test_failures
+modello:
+  version: 1.8.3-2
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 modernizr:
   version: 2.6.2+ds1-1
   bugs:
@@ -8657,10 +8665,6 @@ mtink:
   version: 1.0.16-9
   bugs:
     - 825471
-mu-cade:
-  version: 0.11.dfsg1-10
-  bugs:
-    - 826673
 muddleftpd:
   version: 1.3.13.1-4.3
   comments: |
@@ -9005,6 +9009,11 @@ nikola:
   version: 7.6.0-2
   issues:
     - random_order_in_python_doit_completion
+nikwi:
+  version: 0.0.20120213-3
+  comments: |
+    Tool to pack game data processes files in readdir order.
+    https://sources.debian.net/src/nikwi/0.0.20120213-3/src/tools/upack/upack.c/#L180
 nipy:
   version: 0.3.0+git262-gbb838d7-1
   issues:
@@ -9803,10 +9812,6 @@ parrot:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/parrot/6.6.0-1/config/gen/config_h/config_h.in/#L19
-parsec47:
-  version: 0.2.dfsg1-7
-  bugs:
-    - 827587
 parted:
   version: 3.2-7
   comments: |
@@ -13862,8 +13867,6 @@ tumiki-fighters:
   comments: |
     Ordering issue in an intermediate variable… maybe something is non-deterministic
     in the D compiler.
-  bugs:
-    - 827635
 tunnelx:
   version: 20140102-3
   comments: |
@@ -14172,10 +14175,6 @@ valknut:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/valknut/0.4.9-2/configure.in/#L127
-varconf:
-  version: 1.0.0-2
-  bugs:
-    - 805239
 varnish:
   version: 4.0.2-1
   comments: |
@@ -14215,6 +14214,10 @@ velvet:
   version: 1.2.10+dfsg1-3
   issues:
     - timestamps_in_pdf_generated_by_latex
+velocity:
+  version: 1.7-5
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 verilator:
   version: 3.864-1
   comments: |
