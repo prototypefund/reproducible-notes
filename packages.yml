@@ -7070,9 +7070,11 @@ libnet-route-perl:
   bugs:
     - 788758
 libnet-tclink-perl:
-  version: 3.4.0-6
+  version: 3.4.0-8
   comments: |
     segfaults, but see also #796027 and #796028
+  bugs:
+    - 828635
 libnl3:
   version: 3.2.27-1
   bugs:
@@ -9460,6 +9462,7 @@ opencv:
     - timestamps_in_jar
     - random_order_in_static_libraries
     - captures_kernel_version
+    - unsorted_file_glob_by_cmake
 opendkim:
   version: 2.10.3-3
   issues:
