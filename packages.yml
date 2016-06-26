@@ -789,6 +789,10 @@ bacula-doc:
     - fonts_in_pdf_files
     - timestamps_in_ps_generated_by_dvips
     - pdf_created_by_ghostscript
+ball:
+  version: 1.4.3~beta1-1
+  issues:
+    - timestamps_in_tex_documents
 baloo-kf5:
   version: 5.16.0-1
   bugs:
