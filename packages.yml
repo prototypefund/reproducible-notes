@@ -3583,6 +3583,10 @@ findbugs:
   version: 2.0.3+repack-2
   issues:
     - timestamps_in_maven_version_files
+fio:
+  version: 2.10-2
+  bugs:
+    - 828791
 firebird2.5:
   version: 2.5.4.26856.ds4-1
   comments: |
@@ -9126,6 +9130,9 @@ minicom:
   version: 2.7-1
   issues:
     - timestamps_in_gzip_headers
+    - random_order_in_md5sums
+  bugs:
+    - 828793
 minidlna:
   version: 1.1.4+dfsg-3
   comments: |
