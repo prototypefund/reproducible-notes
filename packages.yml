@@ -2592,6 +2592,8 @@ dh-kpatches:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_manpages_generated_by_docbook_utils
+  bugs:
+    - 817430
 dh-make-golang:
   version: 0.0~git20150913.0.1221041-1
   issues:
