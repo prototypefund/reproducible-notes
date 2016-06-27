@@ -7977,6 +7977,10 @@ libtemplates-parser:
   version: 11.8.2014-4
   comments: |
     I think this is readdir ordering caused by --subdir argument passed to gprbuild, but can't see where that's actually utilised in gprbuild package.
+libterm-readline-zoid-perl:
+  version: 0.07-2
+  bugs:
+    - 817555
 libtest-checkchanges-perl:
   version: 0.14-2
   bugs:
