@@ -2698,9 +2698,8 @@ dircproxy:
     - 817431
 directfb:
   version: 1.2.10.0-5.1
-  comments: |
-    Embeds the build time.
-    https://sources.debian.net/src/directfb/1.2.10.0-5.2/src/core/Makefile.am/?hl=14#L14
+  bugs:
+    - 828745
 distmp3:
   version: 0.1.9.ds1-4.6
   bugs:
@@ -12742,9 +12741,9 @@ readline6:
   bugs:
     - 783136
 realmd:
-  version: 0.16.2-1
+  version: 0.16.2-2
   issues:
-    - ftbfs_uninvestigated_test_failures
+    - different_encoding
 reaver:
   version: 1.4-2
   bugs:
