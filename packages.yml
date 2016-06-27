@@ -2107,6 +2107,10 @@ cross-binutils:
     - different_due_to_umask
   bugs:
     - 802859
+cross-toolchain-base:
+  version: 9
+  bugs:
+    - 820678
 crypt++el:
   version: 2.94-1
   bugs:
