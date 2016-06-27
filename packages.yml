@@ -2021,6 +2021,10 @@ courier-authlib:
     Captures SHELL but via autotools.. which should not be a problem due to export in debian/rules?
   issues:
     - captures_shell_variable_in_autofoo_script
+couriergraph:
+  version: 0.25-4.3
+  bugs:
+    - 817409
 cp2k:
   version: 2.6.1-2
   comments: |
