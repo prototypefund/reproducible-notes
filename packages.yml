@@ -444,6 +444,12 @@ apq:
   version: 3.2.0-2
   issues:
     - timestamps_in_pdf_generated_by_latex
+apr:
+  version: 1.5.2-4
+  comments: |
+    Seems to be unreproducible because semaphore support is not detected on one build.
+    (APR_HAS_POSIXSEM_SERIALIZE is 0 in /usr/include/apr-1.0/apr.h)
+    https://sources.debian.net/src/apr/1.5.2-4/debian/rules/#L84-L95
 apt-cacher-ng:
   version: 0.9.3-1
   comments: |
@@ -1324,9 +1330,10 @@ bzflag:
   issues:
     - captures_shell_variable_in_autofoo_script
 bzr:
-  version: 2.7.0-5
-  issues:
-    - randomness_in_documentation_generated_by_sphinx
+  version: 2.7.0-7
+  comments: |
+    Duplicate files detected by fdupes and symlinked in d/rules, but in unsorted order.
+    https://sources.debian.net/src/bzr/2.7.0-7/debian/rules/#L81
 bzr-xmloutput:
   version: 0.8.8+bzr162-5
   issues:
