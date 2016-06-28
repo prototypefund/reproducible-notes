@@ -4452,6 +4452,10 @@ gdb:
     - timestamps_in_jar
     - timestamps_in_dvi_generated_by_latex
     - diffoscope_runs_forever
+gdb-avr:
+  version: 7.7-2
+  bugs:
+    - 828894
 gdb-msp430:
   version: 7.2a~mspgcc-20111205-3
   bugs:
