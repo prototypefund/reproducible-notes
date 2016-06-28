@@ -619,12 +619,9 @@ aspell-el:
   bugs:
     - 817356
 aspell-en:
-  version: 7.1-0-1.1
-  comments: |
-    /usr/share/aspell/en-common.cwl.gz appears to be sorted dependent
-    on the build environment
-  issues:
-    - collation_order_varies_by_locale
+  version: 2016.01.19-0-0.1
+  bugs:
+    - 828888
 aspell-fr:
   version: 0.50-3-7
   issues:
@@ -10741,12 +10738,6 @@ parchive:
   version: 1.1-4
   bugs:
     - 800202
-pari:
-  version: 2.7.4-2
-  issues:
-    - collation_order_varies_by_locale
-    - timestamps_from_cpp_macros
-    - timestamps_in_gzip_headers
 parprouted:
   version: 0.70-1
   bugs:
@@ -15333,18 +15324,6 @@ urweb:
   version: 20150214+dfsg-1
   issues:
     - fonts_in_pdf_files
-usb-modeswitch-data:
-  version: 20160112-2
-  comments: |
-    Tarball is generated with "tar [...] *", which depends on the locale,
-    even with --sort=name.
-    The udev rules file has content sorted with a glob that depends
-    on the filesystem.
-  issues:
-    - random_order_in_tarball
-    - collation_order_varies_by_locale
-  bugs:
-    - 826343
 user-mode-linux-doc:
   version: 20060501-1
   bugs:
