@@ -79,6 +79,8 @@ timestamps_in_ps_generated_by_dvips:
     eg. %%CreationDate (or DVIPSSource?) in header
     .
     http://sources.debian.net/src/texlive-bin/2016.20160513.41080-4/texk/web2c/pdftexdir/pdftex.web/#L14449
+    .
+    DVIPSSource date Can be set to SOURCE_DATE_EPOCH by setting FORCE_SOURCE_DATE to 1.
   deterministic: True
 blacklisted_on_jenkins:
   description: |
