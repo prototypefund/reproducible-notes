@@ -841,6 +841,8 @@ timestamps_in_tex_documents:
     The TeX \today macro embeds the build date in the files generated
     from it (DVI, PS, PDF, etc.). This should probably be changed to
     honour SOURCE_DATE_EPOCH from the environment.
+    .
+    This can sometimes be explicit in the \maketitle command.
   deterministic: True
 timestamps_added_by_blast2:
   description: |
