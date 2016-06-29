@@ -76,7 +76,7 @@ timestamps_in_dvi_generated_by_latex:
   deterministic: True
 timestamps_in_ps_generated_by_dvips:
   description: |
-    eg. %%CreationDate: in header
+    eg. %%CreationDate (or DVIPSSource?) in header
   deterministic: True
 blacklisted_on_jenkins:
   description: |
