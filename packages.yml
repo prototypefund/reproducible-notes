@@ -474,6 +474,10 @@ apt-dater:
   version: 1.0.2-1
   bugs:
     - 797211
+apt-dpkg-ref:
+  version: 5.3.1+nmu1
+  issues:
+    - timestamps_in_ps_generated_by_dvips
 apt-src:
   version: 0.25.1-0.2
   bugs:
@@ -2624,6 +2628,10 @@ debram:
   version: 2.0.0.4
   bugs:
     - 797706
+dejagnu:
+  version: 1.6-1
+  issues:
+    - timestamps_in_ps_generated_by_dvips
 deps:
   version: 0.13-2
   bugs:
@@ -10692,6 +10700,10 @@ parchive:
   version: 1.1-4
   bugs:
     - 800202
+pari:
+  version: 2.7.6-1
+  issues:
+    - timestamps_in_ps_generated_by_dvips
 parprouted:
   version: 0.70-1
   bugs:
