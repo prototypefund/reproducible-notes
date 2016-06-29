@@ -77,6 +77,8 @@ timestamps_in_dvi_generated_by_latex:
 timestamps_in_ps_generated_by_dvips:
   description: |
     eg. %%CreationDate (or DVIPSSource?) in header
+    .
+    http://sources.debian.net/src/texlive-bin/2016.20160513.41080-4/texk/web2c/pdftexdir/pdftex.web/#L14449
   deterministic: True
 blacklisted_on_jenkins:
   description: |
