@@ -6708,6 +6708,8 @@ krb5:
   version: 1.13.2+dfsg-5
   issues:
     - timestamps_in_pdf_generated_by_latex
+  bugs:
+    - 828946
 krunner:
   version: 5.16.0-1
   bugs:
@@ -14407,6 +14409,10 @@ strigi:
   version: 0.7.8-2
   bugs:
     - 818704
+strongswan:
+  version: 5.4.0-2
+  bugs:
+    - 828945
 stsci.distutils:
   version: 0.3.7-1
   comments: |
