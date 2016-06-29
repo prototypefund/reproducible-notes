@@ -1744,8 +1744,8 @@ clanlib:
     - 790357
 clasp:
   version: 3.1.4-2
-  issues:
-    - unsorted_file_glob_by_cmake
+  bugs:
+    - 828971
 classycle:
   version: 1.4-2
   issues:
@@ -1820,10 +1820,6 @@ cloud-init:
     - ftbfs_in_jenkins_setup
   bugs:
     - 780637
-cmake:
-  version: 3.5.2-1
-  bugs:
-    - 828092
 cmor:
   version: 2.9.1-5
   comments: |
@@ -4698,10 +4694,6 @@ gl-117:
   version: 1.3.2-3
   bugs:
     - 817481
-glance:
-  version: 2:12.0.0-2
-  bugs:
-    - 828113
 glances:
   version: 2.6.2-1
   issues:
@@ -5039,10 +5031,6 @@ golang-github-armon-gomdb:
   version: 0.0~git20150106.0.151f2e0-1
   bugs:
     - 819638
-golang-github-audriusbutkevicius-go-nat-pmp:
-  version: 0.0~git20160516.0.e9d7eca-1
-  bugs:
-    - 828161
 golang-github-azure-azure-sdk-for-go:
   version: 1.2~git20150611.0.97d9593-2
   issues:
@@ -7191,11 +7179,6 @@ libdevel-gdb-perl:
   version: 2.02-2
   bugs:
     - 784845
-libdevice-modem-perl:
-  version: 1.47-2.1
-  bugs:
-    - 827680
-    - 817598
 libdist-zilla-plugin-ourpkgversion-perl:
   version: 1:0.08-1
   bugs:
@@ -8023,12 +8006,6 @@ libsdl-console:
   version: 2.1-4
   issues:
     - captures_shell_variable_in_autofoo_script
-libsdl2-gfx:
-  version: 1.0.1+dfsg-3
-  issues:
-    - timestamps_in_tarball
-  bugs:
-    - 828890
 libsdl2-ttf:
   version: 2.0.12+dfsg1-2
   bugs:
@@ -10561,10 +10538,6 @@ osmo-bts:
   version: 0.4.0-1
   issues:
     - timestamps_in_manpages_generated_by_txt2man
-osptoolkit:
-  version: 3.4.2-1.2
-  bugs:
-    - 804623
 oss4:
   version: 4.2-build2010-2
   comments: |
@@ -10789,10 +10762,6 @@ pdal:
   issues:
     - random_order_in_static_libraries
     - unsorted_file_glob_by_cmake
-pdf.js:
-  version: 1.1.215+dfsg-1
-  bugs:
-    - 793127
 pdfcube:
   version: 0.0.5-2
   bugs:
@@ -12800,10 +12769,6 @@ r10k:
   version: 2.1.1-2
   issues:
     - timestamps_in_manpages_generated_by_ronn
-r5rs-doc:
-  version: 20010328-7
-  bugs:
-    - 712334
 rabbitmq-server:
   version: 3.4.2-2
   issues:
