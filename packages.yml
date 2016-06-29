@@ -3999,8 +3999,8 @@ fprobe-ulog:
     - 785518
 fracplanet:
   version: 0.4.0-3
-  issues:
-    - build_id_variation_requiring_further_investigation
+  bugs:
+    - 829000
 frama-c:
   version: 20140301+neon+dfsg-3
   comments: |
@@ -12646,6 +12646,7 @@ quagga:
   version: 0.99.24.1-2
   issues:
     - build_id_variation_requiring_further_investigation
+    - timestamps_in_pdf_generated_by_imagemagick
 quantlib:
   version: 1.4.1-1
   comments: |
