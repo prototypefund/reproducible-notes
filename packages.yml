@@ -10036,14 +10036,9 @@ ntopng:
     Embeds the build date.
     https://sources.debian.net/src/ntopng/2.0%2Bdfsg1-1/autogen.sh/#L3-L8
 ntp:
-  version: 1:4.2.8p4+dfsg-3
-  comments: |
-    Records build time:
-    https://sources.debian.net/src/ntp/1:4.2.8p4%2Bdfsg-3/scripts/build/mkver.in/#L18
-    MKREPRO_DATE / MKREPRO_TIME could be set to deterministic value via CPPFLAGS:
-    https://sources.debian.net/src/ntp/1:4.2.8p4%2Bdfsg-3/libntp/ntp_calendar.c/#L343
-  issues:
-    - timestamps_from_cpp_macros
+  version: 1:4.2.8p8+dfsg-1
+  bugs:
+    - 828989
 nuitka:
   version: 0.5.21.2+ds-1
   issues:
