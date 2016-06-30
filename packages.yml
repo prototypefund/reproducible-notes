@@ -14595,6 +14595,10 @@ syslinux:
   version: 3:6.03+dfsg-13
   comments: |
     passing a fixed -DHEXDATE to nasm does not help
+systemd:
+  version: 230-3
+  bugs:
+    - 829110
 systemtap:
   version: 2.9-1
   issues:
