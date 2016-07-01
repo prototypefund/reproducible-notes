@@ -5909,6 +5909,10 @@ infinipath-psm:
     Embeds the bild date.
     https://sources.debian.net/src/infinipath-psm/3.3%2B7.g05f6f14.open-1/ipath/Makefile/#L73
     https://sources.debian.net/src/infinipath-psm/3.3%2B7.g05f6f14.open-1/Makefile/#L273
+influxdb:
+  version: 0.13.0+dfsg1-1
+  bugs:
+    - 829164
 inn:
   version: 1.7.2q-44
   issues:
