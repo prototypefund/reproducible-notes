@@ -9728,6 +9728,10 @@ nbc:
   comments: |
     Makefile writes `date` into include file:
     https://sources.debian.net/src/nbc/1.2.1.r4%2Bdfsg-1/NXT/nbcunix.mak/#L37
+nbd:
+  version: 1:3.13-1
+  bugs:
+    - 829251
 nbibtex:
   version: 0.9.18-11
   comments: |
