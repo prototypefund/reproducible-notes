@@ -15036,9 +15036,9 @@ tomcat8:
   issues:
     - blacklisted_on_jenkins_armhf_only
 tomsfastmath:
-  version: 0.13-1
-  issues:
-    - timestamps_from_cpp_macros
+  version: 0.13-2
+  bugs:
+    - 829270
 topal:
   version: 75-2
   comments: |
