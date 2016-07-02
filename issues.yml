@@ -711,6 +711,11 @@ randomness_in_c_files_generated_by_extutils_parsexs:
   description: |
     ExtUtils::ParseXS generates undeterministic C files (differing order) out of .xs files.
     This leads to differently compiled objects.
+    .
+    There are some code copies, so we have the following bugs in total-
+    https://bugs.debian.org/829295
+    https://bugs.debian.org/829296
+  url: https://bugs.debian.org/829295
 timestamps_generated_by_eigenbase_resgen:
   description: |
     XOMGenTask adds timestamps to generated files, see src/org/eigenbase/xom/MetaGenerator.java line 1202.
