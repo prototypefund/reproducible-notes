@@ -5914,6 +5914,10 @@ iisemulator:
   version: 0.95-3
   bugs:
     - 817500
+ikarus:
+  version: 0.0.3+bzr.2010.01.26-4
+  comments: |
+    date patch would be https://gist.github.com/lamby/f8215f49983f8e3c7309300e26cfb777 but there is something else. suspicious call to /dev/urandom but its really odd how it checks fd = -1 first..
 ikiwiki:
   version: 3.20160506
   comments: |
