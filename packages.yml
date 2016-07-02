@@ -7929,6 +7929,8 @@ libpdfbox-java:
     - different_encoding
 libpdl-io-hdf5-perl:
   version: 1:0.73-1
+  issues:
+    - unsorted_pdl_output
   bugs:
     - 829320
 libpdl-linearalgebra-perl:
@@ -7938,14 +7940,18 @@ libpdl-linearalgebra-perl:
     is probably nondeterministic. An obvious case of nondeterminism is
     PDL::PP::make_newcoerce(), which relies on hash ordering, but
     there are probably more.
+  issues:
+    - unsorted_pdl_output
 libpdl-netcdf-perl:
   version: 4.20-1.1
+  issues:
+    - unsorted_pdl_output
   bugs:
     - 829322
 libpdl-stats-perl:
   version: 0.6.5.1-1
   issues:
-    - randomness_in_c_files_generated_by_extutils_parsexs
+    - unsorted_pdl_output
 libpeas:
   version: 1.16.0-1
   bugs:
