@@ -7772,6 +7772,8 @@ libmemcache:
     - 811891
 libmemcached-libmemcached-perl:
   version: 1.001801+dfsg-1
+  issues:
+    - randomness_in_c_files_generated_by_extutils_parsexs
   bugs:
     - 829263
 libmessage-passing-perl:
