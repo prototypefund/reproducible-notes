@@ -1148,3 +1148,6 @@ unsorted_pdl_output:
   description: |
     pdl generates unsorted output while producing XS files.
   url: https://bugs.debian.org/829323
+timestamps_in_output_generated_by_txt2tags:
+  description: |
+    txt2tags uses the current localtime in mtime macros and date macros
