@@ -1632,6 +1632,10 @@ charybdis:
     https://sources.debian.net/src/charybdis/3.4.2-4/libratbox/src/version.c.SH/
   issues:
     - captures_kernel_version
+check-all-the-things:
+  version: 2016.06.29.1
+  bugs:
+    - 829297
 check-postgres:
   version: 2.22.0-1
   issues:
