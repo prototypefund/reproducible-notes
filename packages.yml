@@ -3098,6 +3098,10 @@ easymp3gain:
   version: 0.5.0+svn135-6
   bugs:
     - 818124
+ecasound:
+  version: 2.9.1-7
+  issues:
+    - timestamps_in_ps_generated_by_dvips
 ecb:
   version: 2.40+git20140216-1
   issues:
@@ -3564,6 +3568,10 @@ fdroidserver:
   version: 0.6.0-2
   comments: |
     random order caused by shell expansion in docs/gendocs.sh
+fdutils:
+  version: 5.5-20060227-7
+  issues:
+    - timestamps_in_ps_generated_by_dvips
 fedmsg:
   version: 0.9.3-1
   comments: |
