@@ -7929,8 +7929,8 @@ libpdfbox-java:
     - different_encoding
 libpdl-io-hdf5-perl:
   version: 1:0.73-1
-  issues:
-    - build_id_variation_requiring_further_investigation
+  bugs:
+    - 829320
 libpdl-linearalgebra-perl:
   version: 0.12-1
   comments: |
@@ -15685,8 +15685,6 @@ vnc4:
   version: 4.1.1+X4.3.0-37.4
   issues:
     - timestamps_from_cpp_macros
-  bugs:
-    - 817715
 volk:
   version: 1.2.2-1
   issues:
