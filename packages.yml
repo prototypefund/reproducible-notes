@@ -4679,6 +4679,8 @@ gimp:
   version: 2.8.16-1
   comments: |
     Probably caused by app/git-version.h being regenerated (incorrectly?) in Makefile.am. It should probably use SOURCE_DATE_EPOCH anyway.
+  bugs:
+    - 829427
 gimp-help:
   version: 2.8.2-0.1
   issues:
@@ -6760,6 +6762,8 @@ knot:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_manpages_generated_by_sphinx
+  bugs:
+    - 829428
 knot-resolver:
   version: 1.0.0~beta3-78-g3429619-1
   comments: |
@@ -10963,6 +10967,8 @@ pdal:
   issues:
     - random_order_in_static_libraries
     - unsorted_file_glob_by_cmake
+  bugs:
+    - 829429
 pdfcube:
   version: 0.0.5-2
   bugs:
@@ -14003,6 +14009,8 @@ sfepy:
   version: 2015.1-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+  bugs:
+    - 829430
 sgabios:
   version: 0.0~svn8-3
   bugs:
