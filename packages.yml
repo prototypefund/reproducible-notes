@@ -1360,6 +1360,10 @@ buici-clock:
   comments: |
     Embeds the build date into README.
     https://sources.debian.net/src/buici-clock/0.4.9.2/Makefile.in/#L219
+buildapp:
+  version: 1.5.5-1
+  issues:
+    - randomness_in_binaries_generated_by_sbcl
 buildbot:
   version: 0.8.12-3
   bugs:
