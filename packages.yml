@@ -9550,11 +9550,6 @@ morsegen:
   version: 0.2.1-1
   bugs:
     - 782219
-mosquitto:
-  version: 1.3.4-2
-  comments: |
-    Embed build time:
-    http://sources.debian.net/src/mosquitto/1.3.4-2/config.mk/?hl=81,108#L81
 most:
   version: 5.0.0a-2.3
   bugs:
@@ -9629,10 +9624,9 @@ mpich:
   issues:
     - fonts_in_pdf_files
 mrd6:
-  version: 0.9.6-10
-  comments: |
-    Embed build time.
-    https://sources.debian.net/src/mrd6/0.9.6-10/src/Makefile/?hl=47,179:182#L47
+  version: 0.9.6-12
+  bugs:
+    - 829765
 mricron:
   version: 0.20140804.1~dfsg.1-1
   bugs:
