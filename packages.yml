@@ -9847,11 +9847,6 @@ nco:
   version: 4.5.0-1
   issues:
     - timestamps_from_cpp_macros
-ncompress:
-  version: 4.2.4.4-9
-  comments: |
-    Embed build time:
-    https://sources.debian.net/src/ncompress/4.2.4.4-9/Makefile.def/?hl=41#L41
 ncurses:
   version: 6.0+20160213-1
   comments: |
@@ -9958,9 +9953,8 @@ networkmanager-qt:
     - 824586
 netxx:
   version: 0.3.2-2
-  comments: |
-    Embed build time:
-    https://sources.debian.net/src/netxx/0.3.2-2/tools/genconfig/?hl=59,131#L59
+  bugs:
+    - 829769
 neutron:
   version: 1:7.0.0-4
   bugs:
