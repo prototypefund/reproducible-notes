@@ -10914,9 +10914,8 @@ pcb2gcode:
     - 805220
 pchar:
   version: 1.5-2
-  comments: |
-    Embed build time, and hostname:
-    https://sources.debian.net/src/pchar/1.5-2/Makefile.in/?hl=186#L186
+  bugs:
+    - 829729
 pcl:
   version: 1.7.2-14
   issues:
@@ -10995,10 +10994,9 @@ pegasus-wms:
     - timestamps_in_jar
     - timestamp_in_java_bnd_manifest
 pekwm:
-  version: 0.1.17-1
-  comments: |
-    Embed build time.
-    https://sources.debian.net/src/pekwm/0.1.17-1/configure.ac/?hl=279:282#L279
+  version: 0.1.17-2
+  bugs:
+    - 829728
 pentaho-reporting-flow-engine:
   version: 0.9.4-4
   issues:
@@ -13209,9 +13207,8 @@ remmina:
     - 819779
 remote-tty:
   version: 4.0-13
-  comments: |
-    Embed build time, hostname, and username:
-    http://sources.debian.net/src/remote-tty/4.0-13/Makefile/?hl=115:124#L115
+  bugs:
+    - 829721
 repmgr:
   version: 3.0.2-2
   issues:
@@ -13703,9 +13700,8 @@ sacjava:
     - locale_in_documentation_generated_by_javadoc
 safecat:
   version: 1.13-2
-  comments: |
-    Embeds the build date.
-    https://sources.debian.net/src/safecat/1.13-2/Makefile/#L407-L411
+  bugs:
+    - 829720
 sagan:
   version: 1.0.1-0.1
   issues:
@@ -13751,10 +13747,9 @@ sauce:
     - 777401
     - 793718
 savi:
-  version: 1.4.6-1
-  comments: |
-    Embeds the build date.
-    https://sources.debian.net/src/savi/1.4.6-1/src/Makefile/#L126
+  version: 1.4.9-1
+  bugs:
+    - 829717
 sawfish:
   version: 1:1.5.3-2.4
   issues:
