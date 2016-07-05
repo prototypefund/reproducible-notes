@@ -1401,6 +1401,10 @@ bzr:
   comments: |
     Duplicate files detected by fdupes and symlinked in d/rules, but in unsorted order.
     https://sources.debian.net/src/bzr/2.7.0-7/debian/rules/#L81
+bzr-git:
+  version: 0.6.12+bzr1635-1
+  bugs:
+    - 829724
 bzr-xmloutput:
   version: 0.8.8+bzr162-5
   issues:
