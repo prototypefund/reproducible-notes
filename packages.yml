@@ -1076,9 +1076,8 @@ bgoffice:
     - random_ispell_hash_files
 bibclean:
   version: 2.11.4.1-4
-  comments: |
-    Embed build time, username, and hostname:
-    http://sources.debian.net/src/bibclean/2.11.4.1-4/option.c/?hl=567:586#L567
+  bugs:
+    - 829754
 bibcursed:
   version: 2.0.0-6
   bugs:
