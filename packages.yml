@@ -3365,9 +3365,8 @@ eperl:
     https://sources.debian.net/src/eperl/2.2.14-21/eperl_perl5.c/?hl=55:56#L55
 epic4:
   version: 1:2.10.5-2
-  comments: |
-    Embed build time, username, and hostname:
-    http://sources.debian.net/src/epic4/1:2.10.5-2/source/info.c.sh.in/
+  bugs:
+    - 829758
 epic4-help:
   version: 1:2.0+20050315-2
   bugs:
