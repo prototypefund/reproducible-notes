@@ -14256,9 +14256,8 @@ snacc:
       compiler/core/snacc.c
 snake4:
   version: 1.0.14-1
-  comments: |
-    Embed build timestamp and username:
-    https://sources.debian.net/src/snake4/1.0.14-1/Makefile/?hl=8:9,59:63#L8
+  bugs:
+    - 829715
 snakeyaml:
   version: 1.17-1
   issues:
@@ -14911,9 +14910,8 @@ tcpreen:
     https://sources.debian.net/src/tcpreen/1.4.4-2/m4/hostname.m4/?hl=10#L10
 tcptrace:
   version: 6.6.7-4.1
-  comments: |
-    Embed build time, hostname, and user:
-    https://sources.debian.net/src/tcptrace/6.6.7-4.1/Makefile.in/?hl=200:204#L200
+  bugs:
+    - 829714
 tcptraceroute:
   version: 1.5beta7+debian-4
   bugs:
@@ -15251,9 +15249,8 @@ truffle-dsl-processor:
     - random_order_in_documentation_generated_by_javadoc
 tsdecrypt:
   version: 10.0-2
-  comments: |
-    Embed build time:
-    https://sources.debian.net/src/tsdecrypt/10.0-2/Makefile/?hl=7#L7
+  bugs:
+    - 829713
 tse3:
   version: 0.3.1-4.3
   bugs:
@@ -16621,9 +16618,8 @@ zope.sqlalchemy:
     - 793319
 zorp:
   version: 3.9.5-4
-  comments: |
-    Embed build time:
-    http://sources.debian.net/src/zorp/3.9.5-4/zorp/main.c/?hl=203#L203
+  bugs:
+    - 829710
 zotero-standalone-build:
   version: 4.0.22-1
   issues:
