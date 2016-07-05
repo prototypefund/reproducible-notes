@@ -8266,6 +8266,10 @@ libtexttools:
   version: 2.1.0-7
   issues:
     - random_order_in_static_libraries
+libtheora:
+  version: 1.1.1+dfsg.1-14
+  issues:
+    - timestamps_in_tex_documents
 libtime-period-perl:
   version: 1.20-8.1
   bugs:
@@ -9256,10 +9260,6 @@ miaviewit:
   version: 1.0.2-1
   bugs:
     - 819779
-micro-httpd:
-  version: 20051212-15
-  bugs:
-    - 782218
 microbiomeutil:
   version: 20101212+dfsg-1
   issues:
@@ -9835,11 +9835,9 @@ ncbi-tools6:
   issues:
     - timestamps_from_cpp_macros
 ncftp:
-  version: 2:3.2.5-1.1
+  version: 2:3.2.5-2
   issues:
     - captures_kernel_version
-  bugs:
-    - 829249
 nco:
   version: 4.5.0-1
   issues:
@@ -16577,10 +16575,9 @@ zeromq3:
   issues:
     - ftbfs_uninvestigated_test_failures
 zim:
-  version: 0.63-1
-  comments: |
-    Embeds locale dependent build date into manpage.
-    https://sources.debian.net/src/zim/0.63-1/makeman.py/#L46
+  version: 0.65-2
+  bugs:
+    - 829708
 zipios++:
   version: 0.1.5.9+cvs.2007.04.28-5.1
   bugs:
@@ -16651,9 +16648,8 @@ zsh:
     - 779566
 zssh:
   version: 1.5c.debian.1-3.2
-  comments: |
-    Embeds the build date.
-    https://sources.debian.net/src/zssh/1.5c.debian.1-3.2/Makefile.in/#L113
+  bugs:
+    - 829705
 zurl:
   version: 1.3.1-3
   comments: |
