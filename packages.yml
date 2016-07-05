@@ -10589,6 +10589,11 @@ openmpi:
   issues:
     - timestamps_from_cpp_macros
     - unsorted_file_glob_by_cmake
+openms:
+  version: 2.0.0-4
+  comments: |
+    readdir() order dependency: https://sources.debian.net/src/openms/2.0.0-4/debian/binaries-extract-one-line-man-desc.sh/#L24-L29
+    The «*» on the find(1) command line may introduce a locale dependency (shell globs are expanded in a locale-sensitive sorted order), depending on the names of immediate children of ${binDir} (to which the script cd's).
 opennebula:
   version: 4.12.3+dfsg-3
   issues:
