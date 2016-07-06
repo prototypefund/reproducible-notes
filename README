@@ -9,8 +9,14 @@ There are two files:
 - packages.yaml which contains notes about issues in packages
 
 There is another repository, ssh://git.debian.org/git/reproducible/misc.git
-which contains some scripts to deal with the YAML files in notes.git but one
-can also use any text editor to edit those two files and commit them.
+which contains some scripts to deal with the YAML files in notes.git though
+usually one uses any text editor to edit those two files and commit them.
+
+We very much welcome patches to notes.git via email to
+reproducible-builds@lists.alioth.debian.org - and please apply to become
+a member of the reproducible project on alioth if you plan to contribute
+regularily!
+
 
 Description of the YAML format used in the two files:
 
