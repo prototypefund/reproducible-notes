@@ -4,8 +4,15 @@ Notes on build reproducibility of Debian packages
 This repository contains notes concerning the status of build
 reproducibility of Debian packages.
 
+There are two files:
+- issues.yaml which contains all the categorized issues
+- packages.yaml which contains notes about issues in packages
+
 There is another repository, ssh://git.debian.org/git/reproducible/misc.git
-which contains some scripts to deal with these YAML files here:
+which contains some scripts to deal with the YAML files in notes.git but one
+can also use any text editor to edit those two files and commit them.
+
+Description of the YAML format used in the two files:
 
 packages.yml
 ------------
