@@ -4137,7 +4137,7 @@ frama-c:
 freebsd-libs:
   version: 10.1~svn273304-1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - locale_dependent_symbol_order_by_lorder
 freecdb:
   version: 0.75
   issues:
