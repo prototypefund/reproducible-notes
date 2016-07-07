@@ -15143,6 +15143,10 @@ tntnet:
   issues:
     - different_due_to_umask
     - leaks_path_environment_variable
+tokyocabinet:
+  version: 1.4.48-10
+  bugs:
+    - 813880
 tomatoes:
   version: 1.55-5
   bugs:
