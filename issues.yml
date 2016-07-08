@@ -5,6 +5,13 @@ timestamps_from_cpp_macros:
     unreproducible.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsFromCPPMacros
   deterministic: True
+timestamps_from_cpp_macros:
+  description: |
+    The C pre-processor macros `__DATE__`, `__TIME__`,
+    capture the current time, and thus will obviously make a build
+    unreproducible.
+  url: https://wiki.debian.org/ReproducibleBuilds/TimestampsFromCPPMacros
+  deterministic: True
 timestamps_from_timestamp_macro:
   description: |
     The `__TIMESTAMP__` macro captures the file modification time, which
@@ -14,6 +21,12 @@ timestamps_from_cpp_macros_in_d:
   description: |
     The D compiler also support C-like `__DATE__` and `__TIME__` macros, which
     embed the build time/date into the object files.
+timestamps_from_cpp_macros_in_haskell:
+  description: |
+    The Haskell compiler also support C-like `__DATE__` and `__TIME__` macros, which
+    embed the build time/date into the object files.
+    .
+    eg. http://sources.debian.net/src/darcs/2.12.0-1/darcs/darcs.hs/#L85
 timestamps_in_cpio_archive:
   description: |
     cpio archives capture build time in mtime of its members.
