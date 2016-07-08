@@ -2425,6 +2425,10 @@ dapl:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/dapl/2.1.5-1/Makefile.am/#L51
+darcs:
+  version: 2.12.0-1
+  issues:
+    - timestamps_from_cpp_macros_in_haskell
 dash:
   version: 0.5.8-2.2
   bugs:
