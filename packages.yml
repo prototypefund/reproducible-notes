@@ -3149,6 +3149,10 @@ docker-registry:
   version: 2.1.1~ds1-2
   issues:
     - ftbfs_uninvestigated_test_failures
+docker-swarm:
+  version: 1.0.1+dfsg-1
+  bugs:
+    - 830519
 docker.io:
   version: 1.6.2~dfsg1-2
   issues:
