@@ -4001,8 +4001,9 @@ django-uwsgi:
 djangorestframework:
   version: 3.0.5-2
   issues:
-    - ftbfs_uninvestigated_test_failures
     - apt_one_point_three_tilda_pre1_fallout
+  bugs:
+    - 830633
 djbdns:
   version: 1:1.05-8
   issues:
