@@ -657,11 +657,6 @@ appstream-glib:
     - apt_one_point_three_tilda_pre1_fallout
   bugs:
     - 819779
-apq:
-  version: 3.2.0-2
-  issues:
-    - timestamps_in_pdf_generated_by_latex
-    - apt_one_point_three_tilda_pre1_fallout
 apr:
   version: 1.5.2-4
   comments: |
@@ -18769,12 +18764,6 @@ rebar:
     https://sources.debian.net/src/rebar/2.6.0-1/bootstrap/#L123-L126
   issues:
     - apt_one_point_three_tilda_pre1_fallout
-recite:
-  version: 1.0-8.2
-  issues:
-    - apt_one_point_three_tilda_pre1_fallout
-  bugs:
-    - 800225
 recode:
   version: 3.6-22
   issues:
@@ -21591,11 +21580,6 @@ trafficserver:
   version: 5.1.1-1
   issues:
     - timestamps_from_cpp_macros
-    - apt_one_point_three_tilda_pre1_fallout
-transfig:
-  version: 1:3.2.5.e-4
-  issues:
-    - pdf_created_by_ghostscript
     - apt_one_point_three_tilda_pre1_fallout
 translate-toolkit:
   version: 1.12.0+dfsg1-2
