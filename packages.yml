@@ -601,6 +601,10 @@ apertium-tat:
     Zip file with non-standard extension. Will be fixed by dh-stripnondeterminism soon http://deb.li/ijn3y
   issues:
     - apt_one_point_three_tilda_pre1_fallout
+apertium-urd-hin:
+  version: 0.1.0~r64379-1
+  issues:
+    - apt_one_point_three_tilda_pre1_fallout
 apg:
   version: 2.2.3.dfsg.1-3
   issues:
@@ -5827,6 +5831,10 @@ fregression:
     - apt_one_point_three_tilda_pre1_fallout
   bugs:
     - 828112
+friendly-recovery:
+  version: 0.2.33
+  issues:
+    - apt_one_point_three_tilda_pre1_fallout
 fritzing:
   version: 0.9.0b+dfsg-1.1
   issues:
@@ -9014,6 +9022,10 @@ kdepim:
   version: 4.14.10-2
   issues:
     - build_id_variation_requiring_further_investigation
+    - apt_one_point_three_tilda_pre1_fallout
+kdepim-addons:
+  version: 16.04.2-2
+  issues:
     - apt_one_point_three_tilda_pre1_fallout
 kdesdk-kioslaves:
   version: 4:4.12.3-2
