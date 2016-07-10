@@ -55,11 +55,6 @@ acbuild:
   version: 0.3.0+dfsg-1
   issues:
     - random_build_path_by_golang_compiler
-ace-of-penguins:
-  version: 1.5~rc2-1
-  comments: |
-    Iterates over image files (which are embedded into C files) in readdir order:
-    https://sources.debian.net/src/ace-of-penguins/1.5%7Erc2-1/lib/make-imglib.c/#L61
 acepack:
   version: 1.3.3.3-1
   bugs:
