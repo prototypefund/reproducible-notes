@@ -1187,3 +1187,9 @@ locale_dependent_symbol_order_by_lorder:
   description: |
     lorder from bsdmainutils orders symbols differently depending on the locale.
   url: https://bugs.debian.org/830259
+apt_one_point_three_tilda_pre1_fallout:
+  description:
+    Problems caused by apt 1.3~pre1, maybe, probably caused by
+    dpkg-buildpackage error unknown option or argument ..
+    .
+    This description should be improved
