@@ -6976,6 +6976,10 @@ kerberos-configs:
   version: 2.3
   bugs:
     - 777182
+kernel-handbook:
+  version: 1.0.17
+  bugs:
+    - 830922
 kexec-tools:
   version: 1:2.0.10-2
   bugs:
@@ -13209,7 +13213,7 @@ python-astropy:
   issues:
     - blacklisted_on_jenkins_armhf_only
   bugs:
-    - tweepy
+    - 800727
 python-asyncssh:
   version: 1.2.0-1
   issues:
