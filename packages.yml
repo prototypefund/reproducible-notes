@@ -2461,6 +2461,8 @@ cvs2svn:
   comments: |
     Embeds locale-dependent timestamps into manpage with its own generator.
     https://sources.debian.net/src/cvs2svn/2.4.0-2/cvs2svn_lib/man_writer.py/#L96
+  bugs:
+    - 831066
 cvschangelogbuilder:
   version: 2.4-1
   bugs:
