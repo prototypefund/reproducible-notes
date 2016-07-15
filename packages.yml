@@ -70,7 +70,6 @@ acl2:
   comments: |
     Spawns a handful of saved_acl2 which eats the memory.
     Strangely it looks like the build ends fine in testing, but always fails in unstable
-    blacklisted for now...
   issues:
     - blacklisted_on_jenkins
 acmetool:
@@ -11819,7 +11818,6 @@ openclipart:
   comments: |
     Build hangs at inkscape processing ./office/telephone/mobile_phone_01.svg
     Not sure if this is toolchain related or not
-    Package has been blacklisted for now
   issues:
     - blacklisted_on_jenkins
 openclipart2:
@@ -17746,7 +17744,6 @@ xmds2:
   version: 2.2.1+dfsg-1
   comments: |
     Build hangs forever...
-    Package has been blacklisted for now.
   issues:
     - blacklisted_on_jenkins
 xml-commons-external:
