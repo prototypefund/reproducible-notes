@@ -62,6 +62,9 @@ timestamps_in_manpages_generated_by_ronn:
     Sent upstream https://github.com/rtomayko/ronn/pull/98
   url: https://bugs.debian.org/829362
   deterministic: True
+timestamps_in_documentation_generated_by_naturaldocs:
+  description: |
+    naturaldocs uses today's date
 timestamps_in_documentation_generated_by_asciidoc:
   description: |
     asciidoc adds a timestamp at the end of a generated HTML file.
