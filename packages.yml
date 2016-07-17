@@ -155,6 +155,8 @@ affiche:
     - plist_weirdness
 afl:
   version: 2.16b-1
+  issues:
+    - ftbfs_with_-fdebug-path-map_error
   bugs:
     - 828178
 afnix:
