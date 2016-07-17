@@ -7552,6 +7552,10 @@ libbitcoin:
   issues:
     - leaks_path_environment_variable
     - captures_shell_variable_in_autofoo_script
+libblocksruntime:
+  version: 0.4.1-1
+  issues:
+    - ftbfs_with_-fdebug-prefix-map_error
 libbluray:
   version: 1:0.9.3-2
   issues:
