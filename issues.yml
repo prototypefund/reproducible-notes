@@ -1198,7 +1198,7 @@ ftbfs_with_dpkg_buildpackage_buildinfo_identifier_error:
     dpkg-buildpackage: error: unknown option or argument --buildinfo-identifier=armhf
     .
     Likely caused by apt 1.3~pre1 as it appeared at the same time.
-ftbfs_with_-fdebug-path-map_error:
+ftbfs_with_-fdebug-prefix-map_error:
   description: |
     The package fails to build due to our use of -fdebug-path-map in the default
     buildflag set
