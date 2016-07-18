@@ -1321,6 +1321,8 @@ borgbackup:
     Depends on dictionary (hash) order:
       https://sources.debian.net/src/borgbackup/1.0.6-2/borg/archiver.py/#L863-L864
     Declaring it as an OrderedDict() or iterating it with sorted() should fix the issue.
+  bugs:
+    - 831658
 boswars:
   version: 1.8.1+dfsg-1
   bugs:
