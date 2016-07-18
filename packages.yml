@@ -8457,6 +8457,8 @@ libmongoc:
     The strftime() call a few lines below that produces timezone-dependent output.
   issues:
     - timestamps_manually_added_needs_further_investigation
+  bugs:
+    - 831659
 libmoose-perl:
   version: 2.1605-2
   issues:
