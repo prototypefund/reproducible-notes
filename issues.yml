@@ -525,6 +525,9 @@ timestamps_in_manpages_generated_by_help2man:
     This is currently only detected on the 1st of a month, because we are varying the timezone to span more than a day.
   url: https://bugs.debian.org/787444
   deterministic: True
+timestamps_in_manpages_generated_by_rst2man:
+  description: |
+    Manpages generated with rst2man embed the date
 fonts_in_pdf_files:
   description: |
     The internally used names/identifiers of fonts embedded into PDF files varies.
