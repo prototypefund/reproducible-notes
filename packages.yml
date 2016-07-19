@@ -2651,6 +2651,10 @@ debmake-doc:
     Dynamically includes generates directory listings with umask, etc.
   issues:
     - fonts_in_pdf_files
+debomatic:
+  version: 0.21-1
+  bugs:
+    - 830419
 debootstrap:
   version: 1.0.80
   bugs:
