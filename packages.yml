@@ -4981,6 +4981,8 @@ gngb:
     Uses different optimization flags on i386 build architecture.
     https://sources.debian.net/src/gngb/20060309-3.1/configure.in/#L110
     -> When compiling for i386 from amd64 system/kernel, different flags are used.
+  bugs:
+    - 831773
 gnome-bluetooth:
   version: 3.18.3-1
   bugs:
