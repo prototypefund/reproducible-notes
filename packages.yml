@@ -4645,6 +4645,13 @@ gdnsd:
   version: 2.2.3-1
   bugs:
     - 830184
+gearmand:
+  version: 1.0.6-7
+  comments: |
+    The $PATH leakage is in a libtool wrapper script (foo/bar/baz for foo/bar/.libs/baz) that probably shouldn't get installed in the first place.
+  issues:
+    - leaks_path_environment_variable
+    - captures_shell_variable_in_autofoo_script
 gegl:
   version: 0.2.0-7.1
   comments: |
