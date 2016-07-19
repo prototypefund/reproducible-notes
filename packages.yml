@@ -4687,6 +4687,8 @@ geomview:
   comments: |
     Embeds build date/time, username, hostname.
     https://sources.debian.net/src/geomview/1.9.5-1/src/bin/geomview/x11/Makefile.am/#L17-L21
+  issues:
+    - timestamps_in_ps_generated_by_dvips
 geronimo-jpa-2.0-spec:
   version: 1.1-2
   issues:
