@@ -6821,6 +6821,8 @@ lepton:
     ./lepton -socket=/tmp/f93406ea-94c9-45e3-a35b-bdfb1452a9ec -timebound=10ms -preload
   issues:
     - blacklisted_on_jenkins
+  bugs:
+    - 831897
 libabigail:
   version: 0.1~20150623-2
   issues:
