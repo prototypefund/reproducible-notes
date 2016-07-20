@@ -39,8 +39,8 @@ abntex:
     - timestamps_in_ps_generated_by_dvips
 aboot:
   version: 1.0~pre20040408-4
-  issues:
-    - timestamps_in_manpages_generated_by_docbook_utils
+  bugs:
+    - 831972
 acbuild:
   version: 0.3.0+dfsg-1
   issues:
@@ -2286,10 +2286,6 @@ datanommer.models:
   version: 0.6.4-2
   bugs:
     - 804556
-datapacker:
-  version: 1.0.1+nmu2
-  issues:
-    - timestamps_in_manpages_generated_by_docbook_utils
 dataquay:
   version: 0.9-3
   bugs:
@@ -2576,7 +2572,6 @@ dh-kpatches:
   version: 0.99.36+nmu1
   issues:
     - timestamps_in_pdf_generated_by_latex
-    - timestamps_in_manpages_generated_by_docbook_utils
   bugs:
     - 817430
 dh-make-golang:
@@ -2803,12 +2798,6 @@ docbook-ebnf:
   bugs:
     - 825764
     - 817433
-docbook-utils:
-  version: 0.6.14-3
-  issues:
-    - timestamps_in_manpages_generated_by_docbook_utils
-  bugs:
-    - 800797
 docbook-xsl-saxon:
   version: 1.00.dfsg.1-5
   issues:
@@ -4562,10 +4551,6 @@ git:
     - 813912
 git-buildpackage:
   version: 0.6.22
-  issues:
-    - use_epydoc
-    - timezones_manpages_podman
-    - timestamps_in_manpages_generated_by_docbook_utils
   bugs:
     - 820846
 git-extras:
@@ -6784,12 +6769,6 @@ le-dico-de-rene-cougnenc:
   version: 1.3-2.1
   bugs:
     - 800206
-leaktracer:
-  version: 2.4-5
-  issues:
-    - timestamps_in_manpages_generated_by_docbook_utils
-  bugs:
-    - 817515
 leave:
   version: 1.12-2.1
   issues:
@@ -10774,10 +10753,6 @@ pike8.0:
   version: 8.0.28-4
   issues:
     - diffoscope_runs_forever
-pinball:
-  version: 0.3.1-13.2
-  issues:
-    - timestamps_in_manpages_generated_by_docbook_utils
 pink-pony:
   version: 1.4.1-1
   bugs:
@@ -15464,10 +15439,6 @@ wordwarvi:
     https://sources.debian.net/src/wordwarvi/1.00%2Bdfsg1-3/wordwarvi.c/#L9947
   bugs:
     - 786593
-wpa:
-  version: 2.3-2.1
-  issues:
-    - timestamps_in_manpages_generated_by_docbook_utils
 writer2latex:
   version: 1.0.2-10
   issues:
