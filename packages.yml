@@ -1723,6 +1723,8 @@ clonalframe:
   version: 1.2-4
   issues:
     - ftbfs_with_-fdebug-prefix-map_error
+  bugs:
+    - 832012
 cloop:
   version: 3.14.1.1
   issues:
@@ -1749,6 +1751,8 @@ clustalx:
   version: 2.1+lgpl-4
   issues:
     - ftbfs_with_-fdebug-prefix-map_error
+  bugs:
+    - 832013
 cmor:
   version: 2.9.1-5
   comments: |
@@ -9411,6 +9415,8 @@ ncl:
   version: 6.3.0-8
   issues:
     - ftbfs_with_-fdebug-prefix-map_error
+  bugs:
+    - 832011
 nco:
   version: 4.5.0-1
   issues:
