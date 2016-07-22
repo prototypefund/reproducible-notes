@@ -13053,6 +13053,10 @@ ruby-pg:
   version: 0.18.4-1
   comments: |
     Includes non-deterministic memory addresses but not clear exactly where from http://sources.debian.net/src/ruby-pg/0.18.4-1/lib/pg/connection.rb/\?hl\=19\#L21
+ruby-puppet-forge:
+  version: 2.2.2-1
+  bugs:
+    - 832118
 ruby-puppet-syntax:
   version: 2.0.0-1
   bugs:
