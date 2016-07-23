@@ -11080,6 +11080,8 @@ psicode:
   comments: |
     Uses globs to search for source files -> random linking order.
     https://sources.debian.net/src/psicode/3.4.0-6/src/bin/cints/Makefile.in/#L112
+  issues:
+    - timestamps_in_ps_generated_by_dvips
 psignifit:
   version: 2.5.6-3
   bugs:
