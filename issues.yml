@@ -176,6 +176,9 @@ fontforge_reset_modification_time:
     When a fontforge script is used, if the font loaded is modified
     in any way, then the font modification time is set to the current
     time.
+    .
+    Initial patch in https://bugs.debian.org/774274 but withdrawn after
+    SOURCE_DATE_EPOCH proposal.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInFontsGeneratedWithFontForge
   deterministic: True
 varying_mtimes_in_data_tar_gz_or_control_tar_gz:
