@@ -181,6 +181,8 @@ fontforge_reset_modification_time:
     SOURCE_DATE_EPOCH proposal.
     .
     WIP patch at https://gist.githubusercontent.com/lamby/60a545b37b778e148702c342bbf86bd9/raw/19a39af51d669fde042b261236f65ba72f75662a/903_reproducubile_build.diff
+    .
+    Related upstream bug at https://github.com/fontforge/fontforge/issues/2490
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInFontsGeneratedWithFontForge
   deterministic: True
 varying_mtimes_in_data_tar_gz_or_control_tar_gz:
