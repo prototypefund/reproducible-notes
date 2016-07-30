@@ -170,10 +170,6 @@ agda:
   version: 2.4.2.5-1
   issues:
     - blacklisted_on_jenkins_armhf_only
-agg:
-  version: 2.5+dfsg1-9
-  bugs:
-    - 822544
 aghermann:
   version: 1.0.9-1
   bugs:
@@ -466,10 +462,6 @@ ara:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/ara/1.0.31/common/mkversion.sh/#L4
-arc-gui-clients:
-  version: 0.4.6-2
-  bugs:
-    - 826831
 arduino:
   version: 2:1.0.5+dfsg2-4
   comments: |
@@ -1232,10 +1224,6 @@ brag:
   bugs:
     - 823428
     - 817383
-breathe:
-  version: 4.2.0-1
-  bugs:
-    - 827804
 brickos:
   version: 0.9.0.dfsg-12
   comments: |
@@ -1457,7 +1445,6 @@ cdbackup:
 cdbs:
   version: 0.4.130.0~reproducible2
   bugs:
-    - 794241
     - 831263
 cdebootstrap:
   version: 0.6.4
@@ -2393,10 +2380,6 @@ dbf:
   version: 0.96.003-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
-dbi:
-  version: 0.4-1-1
-  bugs:
-    - 827854
 dbus-c++:
   version: 0.9.0-8
   issues:
@@ -3465,14 +3448,6 @@ fastforward:
   bugs:
     - 776972
     - 792965
-fastjet:
-  version: 3.0.6+dfsg-1
-  bugs:
-    - 787865
-fastqtl:
-  version: 2.184+dfsg-1
-  bugs:
-    - 826209
 faust:
   version: 0.9.73~repack1-1
   bugs:
@@ -3497,10 +3472,6 @@ fceux:
   issues:
     - timestamps_from_cpp_macros
     - scons_doesnt_pass_environment_to_build_tools
-fcopulae:
-  version: 3011.81-1
-  bugs:
-    - 827856
 fdclone:
   version: 3.01b-1
   issues:
@@ -3563,10 +3534,6 @@ festvox-czech-machac:
   version: 1.0.0-2
   bugs:
     - 753179
-fextremes:
-  version: 3010.81-1
-  bugs:
-    - 828110
 feynmf:
   version: 1.08-9
   issues:
@@ -3715,10 +3682,6 @@ fnfx:
   version: 0.3-14
   bugs:
     - 817455
-fnonlinear:
-  version: 3010.78-1
-  bugs:
-    - 827855
 fntsample:
   version: 3.2-6
   comments: |
@@ -3960,10 +3923,6 @@ fookb:
   version: 3.0-3
   bugs:
     - 817456
-foreign:
-  version: 0.8.66-1
-  bugs:
-    - 828111
 foremancli:
   version: 1.0-2
   comments: |
@@ -4090,10 +4049,6 @@ freewnn:
   version: 1.1.1~a021+cvs20130302-4
   issues:
     - user_hostname_manually_added_requiring_further_investigation
-fregression:
-  version: 3011.81-1
-  bugs:
-    - 828112
 fritzing:
   version: 0.9.0b+dfsg-1.1
   bugs:
@@ -4968,8 +4923,6 @@ gnuplot:
   issues:
     - timestamps_in_ps_generated_by_dvips
     - pdf_created_by_ghostscript
-  bugs:
-    - 827197
 gnustep-base:
   version: 1.24.7-1
   comments: |
@@ -4985,10 +4938,6 @@ gnustep-dl2:
     Username is also embedded in documentation files.
   issues:
     - timestamps_in_pdf_generated_by_latex
-gnustep-gui:
-  version: 0.24.0-3.1
-  bugs:
-    - 826592
 gnustep-make:
   version: 2.6.6-3
   issues:
@@ -5152,8 +5101,6 @@ golang-gopkg-ini.v1:
   version: 1.8.5-1
   comments: |
     http://sources.debian.net/src/golang-gopkg-ini.v1/1.8.5-1/struct_test.go/#L208
-  bugs:
-    - 828072
 golang-goyaml:
   version: 0.0~bzr50-1
   bugs:
@@ -5219,14 +5166,6 @@ gpick:
     https://sources.debian.net/src/gpick/0.2.5-1/tools/gpick.py/?hl=141:151#L141
   bugs:
     - 831041
-gplots:
-  version: 3.0.1-1
-  bugs:
-    - 829161
-gprbuild:
-  version: 2015-5
-  bugs:
-    - 827567
 gprolog:
   version: 1.3.0-6.1
   issues:
@@ -5990,10 +5929,6 @@ infinipath-psm:
     Embeds the bild date.
     https://sources.debian.net/src/infinipath-psm/3.3%2B7.g05f6f14.open-1/ipath/Makefile/#L73
     https://sources.debian.net/src/infinipath-psm/3.3%2B7.g05f6f14.open-1/Makefile/#L273
-influxdb:
-  version: 0.13.0+dfsg1-1
-  bugs:
-    - 829164
 inn:
   version: 1.7.2q-44
   issues:
@@ -6321,10 +6256,6 @@ jq:
     - timestamps_in_manpages_generated_by_ronn
   bugs:
     - 831256
-jreen:
-  version: 1.2.0-1
-  bugs:
-    - 827585
 jruby:
   version: 1.5.6-9
   issues:
@@ -6448,10 +6379,6 @@ kaffeine:
   version: 1.2.2-3
   bugs:
     - 808759
-kamera:
-  version: 4:4.14.2-1
-  bugs:
-    - 821324
 kanla:
   version: 1.5-1
   issues:
@@ -6517,10 +6444,6 @@ kdepim:
   version: 4.14.10-2
   issues:
     - build_id_variation_requiring_further_investigation
-kdesdk-kioslaves:
-  version: 4:4.12.3-2
-  bugs:
-    - 799525
 kdesignerplugin:
   version: 5.14.0-1
   issues:
@@ -6545,10 +6468,6 @@ kdevplatform:
   version: 1.7.2-1
   bugs:
     - 815962
-kdewebdev:
-  version: 4:15.08.3-2
-  bugs:
-    - 828114
 kdgcommons-java:
   version: 1.0.13-1
   issues:
@@ -6827,10 +6746,6 @@ kvirc:
     .
     incomplete patch at
     https://gist.github.com/lamby/dfbf57c89436893e91c9c7877a006bee
-kwalify:
-  version: 0.7.2-3
-  bugs:
-    - 828165
 kwave:
   version: 0.9.1-1-2
   bugs:
@@ -7397,10 +7312,6 @@ libgpg-error:
   version: 1.20-1
   comments: |
     Same issue as gnupg, see #806494
-libgphoto2:
-  version: 2.5.10-2
-  bugs:
-    - 827629
 libgpod:
   version: 0.8.3-5
   comments: |
@@ -7491,10 +7402,6 @@ libimage-info-perl:
   version: 1.28-1.1
   bugs:
     - 817531
-libindicator:
-  version: 0.5.0-3
-  bugs:
-    - 826235
 libinfinity:
   version: 0.6.7-1
   bugs:
@@ -7658,10 +7565,6 @@ liblouisutdml:
   comments: |
     Documentation also mention that some arguments must be UTF-8 depending on
     the charset.
-liblrdf:
-  version: 0.4.0-7
-  bugs:
-    - 828986
 liblwp-useragent-progressbar-perl:
   version: 1.100810-1
   issues:
@@ -7740,8 +7643,6 @@ libmsv:
   issues:
     - random_order_in_md5sums
     - timestamps_in_gzip_headers
-  bugs:
-    - 792975
 libnanoxml2-java:
   version: 2.2.3.dfsg-4
   issues:
@@ -7783,12 +7684,6 @@ libnet-tclink-perl:
   version: 3.4.0-8
   comments: |
     segfaults, but see also #796027 and #796028
-  bugs:
-    - 828635
-libnl3:
-  version: 3.2.27-1
-  bugs:
-    - 825367
 libnss-ldap:
   version: 265-3
   comments: |
@@ -8042,10 +7937,6 @@ libsoup2.4:
   version: 2.50.0-2
   bugs:
     - 795689
-libspring-java:
-  version: 4.0.9-4
-  bugs:
-    - 825925
 libstatgrab:
   version: 0.91-1
   issues:
@@ -8501,10 +8392,6 @@ llvm-toolchain-snapshot:
   version: 1:3.8~svn254193-1
   issues:
     - blacklisted_on_jenkins_armhf_only
-lme4:
-  version: 1.1-12-1
-  bugs:
-    - 828115
 lnav:
   version: 0.7.0-3
   issues:
@@ -8638,10 +8525,6 @@ lua-ldoc:
   version: 1.4.3-5
   issues:
     - timestamps_in_documentation_generated_by_lua_ldoc
-lua-lgi:
-  version: 0.9.0.20151101.git.885af4-1
-  bugs:
-    - 823164
 lua-lpeg:
   version: 0.12.2-1
   issues:
@@ -9012,10 +8895,6 @@ mecab-jumandic:
   version: 5.1+20070304-4
   bugs:
     - 817577
-media-player-info:
-  version: 22-2
-  bugs:
-    - 828628
 meep-mpich2:
   version: 1.3-3
   bugs:
@@ -9056,10 +8935,6 @@ mffm-fftw:
   version: 1.7-3
   bugs:
     - 817581
-mgcv:
-  version: 1.8-12-1
-  bugs:
-    - 828882
 mgt:
   version: 2.31-6
   bugs:
@@ -9234,10 +9109,6 @@ mmpong:
   version: 0.9.1-3
   bugs:
     - 811306
-mnormt:
-  version: 1.5-4-1
-  bugs:
-    - 829184
 moblin-icon-theme:
   version: 0.10.0-1
   bugs:
@@ -9546,10 +9417,6 @@ muttprint:
     - timestamps_in_png
   bugs:
     - 817591
-mvtnorm:
-  version: 1.0-5-1
-  bugs:
-    - 828223
 mwrap:
   version: 0.33-2
   issues:
@@ -9649,10 +9516,6 @@ nbc:
     https://sources.debian.net/src/nbc/1.2.1.r4%2Bdfsg-1/NXT/nbcunix.mak/#L37
   bugs:
     - 831376
-nbd:
-  version: 1:3.13-1
-  bugs:
-    - 829251
 nbibtex:
   version: 0.9.18-11
   comments: |
@@ -9760,10 +9623,6 @@ netty:
   version: 1:4.0.34-1
   comments: |
     Timestamps in io.netty.versions.properties files.
-netty-3.9:
-  version: 3.9.0.Final-1
-  bugs:
-    - 813642
 netw-ib-ox-ag:
   version: 5.39.0-1
   issues:
@@ -9776,10 +9635,6 @@ networking-ovs-dpdk:
   version: 2015.1.1+git20151118.35ac4c7-1
   bugs:
     - 816735
-networkmanager-qt:
-  version: 5.16.0-1
-  bugs:
-    - 824586
 netxx:
   version: 0.3.2-2
   bugs:
@@ -9967,10 +9822,6 @@ norwegian:
   version: 2.0.10-5.2
   issues:
     - random_ispell_hash_files
-nose:
-  version: 1.3.7-1
-  bugs:
-    - 828224
 nose2:
   version: 0.5.0-1
   issues:
@@ -10597,8 +10448,6 @@ owncloud-client:
     properly the patch is not needed anymore.
     .
     images_in_pdf_generated_by_latex - used opipng
-  bugs:
-    - 829038
 oxygen:
   version: 4:5.4.3-1
   bugs:
@@ -10923,10 +10772,6 @@ pgfincore:
   version: 1.1.2-3
   issues:
     - postgres_9.5_transition
-phantomjs:
-  version: 2.1.1+dfsg-1
-  bugs:
-    - 827421
 phatch:
   version: 0.2.7.1-3.1
   issues:
@@ -11603,7 +11448,6 @@ pyicu:
 pyinfra:
   version: 0.1~dev26-1
   bugs:
-    - 828212
     - 828216
 pyjunitxml:
   version: 0.6-1.1
@@ -11853,10 +11697,6 @@ python-cycler:
   version: 0.10.0-1
   issues:
     - timestamps_in_pdf_generated_by_matplotlib
-python-debian:
-  version: 0.1.27
-  bugs:
-    - 807351
 python-debtcollector:
   version: 0.8.0-2
   issues:
@@ -11960,8 +11800,6 @@ python-geopandas:
     also needs this patch https://gist.github.com/lamby/549d0c0a61097e02e441222f35cd587c
   issues:
     - randomness_in_documentation_generated_by_sphinx
-  bugs:
-    - 828132
 python-gevent:
   version: 1.1.1-1
   bugs:
@@ -11982,10 +11820,6 @@ python-glpk:
   version: 0.4.52-1.1
   bugs:
     - 750228
-python-googlecloudapis:
-  version: 0.9.30+debian1-1
-  bugs:
-    - 771829
 python-guacamole:
   version: 0.9-1
   issues:
@@ -12271,10 +12105,6 @@ python-pqueue:
   version: 0.2-7.2
   bugs:
     - 817644
-python-proliantutils:
-  version: 2.1.5-1
-  bugs:
-    - 827831
 python-psutil:
   version: 2.1.1-1
   issues:
@@ -12599,10 +12429,6 @@ qmc:
   version: 0.94-3
   bugs:
     - 817645
-qmidinet:
-  version: 0.3.0-1
-  bugs:
-    - 827516
 qpid-cpp:
   version: 0.16-9
   issues:
@@ -12738,8 +12564,6 @@ qtwebkit-examples-opensource-src:
   version: 5.3.2+dfsg-2
   issues:
     - timestamps_in_qch
-  bugs:
-    - 828783
 qtwebkit-opensource-src:
   version: 5.4.2+dfsg-3
   issues:
@@ -12850,10 +12674,6 @@ r-cran-getopt:
   version: 1.20.0-1
   bugs:
     - 829228
-r-cran-gss:
-  version: 2.1-5-1
-  bugs:
-    - 828117
 r-cran-knitr:
   version: 1.12.3-1
   issues:
@@ -12892,18 +12712,6 @@ r-cran-rsdmx:
   version: 0.4.5+dfsg-1
   issues:
     - timestamps_in_description_files_generated_by_r-base-dev
-r-cran-runit:
-  version: 0.4.31-1
-  bugs:
-    - 829023
-r-cran-sn:
-  version: 1.3-0-1
-  bugs:
-    - 827807
-r-cran-stabledist:
-  version: 0.7-0-1
-  bugs:
-    - 828118
 r-cran-surveillance:
   version: 1.10-0-2
   issues:
@@ -12920,10 +12728,6 @@ r-cran-tm:
   version: 0.6-2-3
   issues:
     - randomness_in_r_rdb_rds_databases
-r-cran-xml:
-  version: 3.98-1.4-1
-  bugs:
-    - 827808
 r10k:
   version: 2.1.1-2
   issues:
@@ -13161,14 +12965,6 @@ rgbpaint:
   version: 0.8.7-6
   bugs:
     - 819779
-rgl:
-  version: 0.95.1441-1
-  bugs:
-    - 827809
-rglpk:
-  version: 0.6-1-1
-  bugs:
-    - 827833
 rheolef:
   version: 6.5-1
   issues:
@@ -13228,10 +13024,6 @@ rockdodger:
     - random_order_in_md5sums
   bugs:
     - 793714
-rodbc:
-  version: 1.3-13-1
-  bugs:
-    - 827656
 root-tail:
   version: 1.2-3
   bugs:
@@ -13515,10 +13307,6 @@ ruby-test-unit-context:
   version: 0.5.0-1
   bugs:
     - 812937
-ruby-thinking-sphinx:
-  version: 3.1.4-3
-  bugs:
-    - 816307
 ruby-tioga:
   version: 1.18-1
   issues:
@@ -13563,10 +13351,6 @@ rustc:
   version: 1.0.0+dfsg1-1
   comments: |
     Non-determistic JSON serialisation http://sources.debian.net/src/rustc/1.0.0%2Bdfsg1-1/src/librustdoc/html/render.rs/#L1299
-ryu:
-  version: 3.30+dfsg1-2
-  bugs:
-    - 829024
 s3ql:
   version: 2.15+dfsg-1
   issues:
@@ -14062,10 +13846,6 @@ slic3r:
   version: 1.1.7+dfsg-2
   issues:
     - randomness_in_c_files_generated_by_extutils_parsexs
-slicot:
-  version: 5.0+20101122-2
-  bugs:
-    - 826951
 slime:
   version: 2:2.15-1
   issues:
@@ -14142,10 +13922,6 @@ snort:
   version: 2.9.7.0-4
   issues:
     - pdf_created_by_ghostscript
-snow:
-  version: 1:0.4.1-1
-  bugs:
-    - 829231
 socklog:
   version: 2.1.0-8
   issues:
@@ -14205,8 +13981,6 @@ soundscaperenderer:
   version: 0.4.2~dfsg-2
   issues:
     - fonts_in_pdf_files
-  bugs:
-    - 827630
 source-highlight:
   version: 3.1.8-1.1
   comments: |
@@ -14259,10 +14033,6 @@ sphinx:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - randomness_in_documentation_indices_generated_by_sphinx
-sphinx-argparse:
-  version: 0.1.15-1
-  bugs:
-    - 827813
 sphinxcontrib-programoutput:
   version: 0.8-4
   comments: |
@@ -14950,10 +14720,6 @@ tkrat:
   version: 1:2.2cvs20100105-true-dfsg-6
   bugs:
     - 778431
-tkrplot:
-  version: 0.0.23-3
-  bugs:
-    - 827657
 tmexpand:
   version: 0.1.2.0-3
   bugs:
@@ -15416,10 +15182,6 @@ unixcw:
   version: 3.4.2-1
   comments: |
     Signatures and functions in manpage are generated in src/libcw/Makefile.am without a locale-independent sort
-urca:
-  version: 1.2-9-1
-  bugs:
-    - 827658
 urweb:
   version: 20150214+dfsg-1
   issues:
