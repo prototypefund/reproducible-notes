@@ -15839,6 +15839,14 @@ xhtmlrenderer:
   version: 0.0~R8+dfsg2-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+xine-ui:
+  version: 0.99.9-1.2
+  comments: |
+    Non-deterministic behaviour in builddep xine-list-1.2 from libxine2-bin.
+    .
+    The output of xine-list is directly included in the build output.
+  bugs:
+    - 833088
 xipmsg:
   version: 0.8088-2.1
   bugs:
