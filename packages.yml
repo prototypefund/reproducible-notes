@@ -4868,6 +4868,10 @@ gnu-smalltalk:
   version: 3.2.5-1
   issues:
     - build_id_variation_requiring_further_investigation
+gnu-standards:
+  version: 2010.03.11-1
+  issues:
+    - timestamps_in_ps_generated_by_dvips
 gnubg:
   version: 1.05.000-4
   issues:
@@ -5513,11 +5517,9 @@ hashcash:
   bugs:
     - 817490
 hashcat:
-  version: 2.00-2
-  comments: |
-    Depends on build-host CPU features:
-      https://sources.debian.net/src/hashcat/2.00-2/debian/rules/#L7-L8
-      https://sources.debian.net/src/hashcat/2.00-2/debian/rules/#L39-L43
+  version: 3.00-3
+  bugs:
+    - 833056
 haskell-cabal:
   version: 1.22.5.0-2
   issues:
