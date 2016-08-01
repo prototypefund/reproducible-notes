@@ -1589,6 +1589,10 @@ celery:
   version: 3.1.13-3
   issues:
     - randomness_in_documentation_generated_by_sphinx
+celery-haystack:
+  version: 0.10-1
+  bugs:
+    - 828641
 ceph:
   version: 0.80.9-2
   comments: |
@@ -2953,10 +2957,28 @@ django-celery:
   version: 3.1.17-3
   issues:
     - randomness_in_documentation_generated_by_sphinx
+  bugs:
+    - 828642
+django-celery-transactions:
+  version: 0.3.6-1
+  bugs:
+    - 828643
+django-classy-tags:
+  version: 0.7.2-2
+  bugs:
+    - 828644
+django-compat:
+  version: 1.0.12-1
+  bugs:
+    - 828645
 django-conneg:
   version: 0.9.4-2
   bugs:
     - 801929
+django-countries:
+  version: 3.4.1-2
+  bugs:
+    - 828646
 django-evolution:
   version: 0.6.7-1
   bugs:
@@ -2965,22 +2987,64 @@ django-floppyforms:
   version: 1.5.2+dfsg-1
   issues:
     - copyright_year_in_documentation_generated_by_sphinx
+  bugs:
+    - 828647
 django-guardian:
   version: 1.2.4+git20141127-0.2
   issues:
     - randomness_in_documentation_generated_by_sphinx
+django-hijack:
+  version: 2.0.7-2
+  bugs:
+    - 828648
 django-ldapdb:
   version: 0.2.0-1
   bugs:
     - 755601
+django-localflavor:
+  version: 1.2-1
+  bugs:
+    - 828649
+django-markupfield:
+  version: 1.4.0-1
+  bugs:
+    - 828650
+django-model-utils:
+  version: 2.4-1
+  bugs:
+    - 828651
+django-pipeline:
+  version: 1.6.8-1
+  bugs:
+    - 828653
+django-polymorphic:
+  version: 0.9.2-1
+  bugs:
+    - 828654
 django-ratelimit:
   version: 0.4.0+8+gd58c489-3
   bugs:
     - 806355
+django-recurrence:
+  version: 1.3.0-1
+  bugs:
+    - 828655
+django-sekizai:
+  version: 0.9.0-3
+  bugs:
+    - 828656
 django-session-security:
   version: 2.2.4+dfsg-1
   issues:
     - randomness_in_documentation_indices_generated_by_sphinx
+django-sitetree:
+  version: 1.5.1-2
+  bugs:
+    - 828657
+django-stronghold:
+  version: 0.2.7+debian-2
+  bugs:
+    - 828658
 django-testscenarios:
   version: 0.7.4-2
   issues:
@@ -12573,26 +12637,54 @@ python-designateclient:
   version: 1.5.0-4
   bugs:
     - 816735
+python-django-contact-form:
+  version: 1.2~git23.8413069-1
+  bugs:
+    - 828663
 python-django-debug-toolbar:
   version: 1:1.4-1
   issues:
     - copyright_year_in_documentation_generated_by_sphinx
+  bugs:
+    - 828664
+python-django-extensions:
+  version: 1.6.7-3
+  bugs:
+    - 828665
+python-django-feincms:
+  version: 1.11.4-1
+  bugs:
+    - 828666
 python-django-formtools:
   version: 1.0-1
   issues:
     - ftbfs_uninvestigated_test_failures
+python-django-jsonfield:
+  version: 1.0.1-1
+  bugs:
+    - 828668
 python-django-mptt:
   version: 0.8.0-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
+  bugs:
+    - 828669
 python-django-openstack-auth:
   version: 2.0.0-4
   bugs:
     - 816735
+python-django-tagging:
+  version: 1:0.4.1-1
+  bugs:
+    - 828673
 python-django-threadedcomments:
   version: 0.9.0-1
   bugs:
     - 801935
+python-django-treebeard:
+  version: 4.0.1+dfsg-1
+  bugs:
+    - 828674
 python-django-voting:
   version: 0.2-1
   bugs:
@@ -12738,6 +12830,10 @@ python-jedi:
     - ftbfs_uninvestigated_test_failures
   bugs:
     - 830399
+python-jingo:
+  version: 0.8-1
+  bugs:
+    - 828675
 python-kafka:
   version: 0.9.5-1
   issues:
