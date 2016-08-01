@@ -4562,7 +4562,15 @@ ggcov:
   bugs:
     - 826887
 ghc:
-  version: 7.10.3-7
+  version: 7.10.3-9
+  comments: |
+    Appears to be a readdir() dependency: find(1) finds a file under two different
+    names, ghc/ghc.txt and ghc-$(VERSION)/ghc.txt, due to a symlink:
+    .
+      https://sources.debian.net/src/ghc/7.10.3-9/debian/rules/#L172
+      https://sources.debian.net/src/ghc/7.10.3-9/debian/rules/#L209-L210
+    .
+    (The blacklist tag is from 7.10.3-7.)
   issues:
     - blacklisted_on_jenkins_armhf_only
 ghc-testsuite:
