@@ -7361,8 +7361,10 @@ libhamcrest-java:
     - locale_in_documentation_generated_by_javadoc
 libhdate:
   version: 1.6-3
+  comments: |
+    Installs a libtool wrapper script (a build-time temporary file).
   issues:
-    - leaks_path_environment_variable
+    - captures_shell_variable_in_autofoo_script
 libhibernate3-java:
   version: 3.6.10.Final-4
   bugs:
