@@ -13242,6 +13242,8 @@ qemu:
       https://sources.debian.net/src/qemu/1:2.6%2Bdfsg-3/scripts/hxtool/#L48-L51
     The strings containing «\n» [two bytes] sequences are in *.hx files.
     Makefile invokes hxtool on those files.
+  bugs:
+    - 833162
 qemu-launcher:
   version: 1.7.4-1
   issues:
