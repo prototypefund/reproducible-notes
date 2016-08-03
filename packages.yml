@@ -3547,6 +3547,8 @@ emacspeak:
   version: 44.0+dfsg-1
   comments: |
     The pink noise included in the definitions of the wav files is seeded by the time by default. Will be fixed by seeding it.
+  bugs:
+    - 833395
 emboss:
   version: 6.6.0+dfsg-1
   issues:
