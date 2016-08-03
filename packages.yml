@@ -12015,11 +12015,25 @@ poster:
   bugs:
     - 817627
 postfix:
-  version: 2.11.3-1
-  issues:
-    - timestamps_in_gzip_headers
-  bugs:
-    - 777503
+  version: 3.1.0-5
+  comments: |
+    Issue #1: Non-deterministic order of lines in makedefs.out
+    Fix: append "LC_ALL=C sort" to https://sources.debian.net/src/postfix/3.1.0-5/makedefs/#L174 «env | grep '^AUXLIBS_' | sed 's/^/# /'»
+    .
+    Issue #2: Non-deterministic order of postconf(5) fields in the .rodata section of postconf(1)
+    Cause:
+      Presumed to be iteration of awk arrays in src/postconf/extract.awk:
+        https://sources.debian.net/src/postfix/3.1.0-5/src/postconf/extract.awk/#L98
+      [awk arrays are like python dictionaries: they are iterated in unspecified order;
+      see the section "Actions" in awk(1p)]
+    Fix: All the generated files are line-based, so simply changing
+      "cat > foo.h" or "sed > foo.h" to "sort > foo.h" or "sed | sort > foo.h"
+      should make them deterministic.
+    .
+    Issue #3: usr/share/doc/postfix-doc/examples/LICENSE missing from first build.
+    .
+    Patch for #1 and #2: https://anonscm.debian.org/cgit/users/danielsh-guest/reproducible-patches.git/plain/postfix_3.1.0-5.diff
+      It builds fine, but I'm unable to verify whether it resolves #2.
 postgis:
   version: 2.1.8+dfsg-4
   issues:
