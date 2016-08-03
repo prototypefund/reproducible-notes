@@ -41,6 +41,9 @@ timestamps_in_h_generated_by_qdbusxml2cpp:
     definition in C header it generates.
     e.g. '#define QUERYINTERFACE_H_1425457739'
   deterministic: True
+timestamps_in_documentation_generated_by_phpdox:
+  description: |
+    phpdox adds a timestamp in manpages it generates (id="buildinfo")
 timestamps_in_documentation_generated_by_doxygen:
   description: |
     If Doxyfile contains HTML_TIMESTAMP = YES, Doxygen will add a
