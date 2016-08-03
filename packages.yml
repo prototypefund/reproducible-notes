@@ -12031,8 +12031,9 @@ postfix:
       should make them deterministic.
     .
     Issue #3: usr/share/doc/postfix-doc/examples/LICENSE missing from first build.
+    Cause: locale-sensitive shell glob https://sources.debian.net/src/postfix/3.1.0-5/debian/rules/#L126 «[a-z]*» (matches aBbCcDd…xYyZz)
     .
-    Patch for #1 and #2: https://anonscm.debian.org/cgit/users/danielsh-guest/reproducible-patches.git/plain/postfix_3.1.0-5.diff
+    Patch for #1, #2, and #3: https://anonscm.debian.org/cgit/users/danielsh-guest/reproducible-patches.git/plain/postfix_3.1.0-5.diff
       It builds fine, but I'm unable to verify whether it resolves #2.
 postgis:
   version: 2.1.8+dfsg-4
