@@ -2449,7 +2449,51 @@ cyclades-serial-client:
     - 817327
     - 800212
 cyrus-imapd:
-  version: 2.5.7-1
+  version: 2.5.9-2
+  comments: |
+    The differences in /usr/lib/x86_64-linux-gnu/libcyrus.so.0.0.0 are 100% ordering differences:
+    each hexdump line (four 32-bit words) appears on both the left and right side of the diff,
+    but the lines are in a different order.
+    .
+    The dbgsym differences suggest that difference is caused by different ordering of chartables:
+    .
+    (first build)
+      00000000000342a0 chartables_iso_8859_3
+      0000000000034aa0 chartables_iso_8859_2
+      00000000000352a0 chartables_iso_8859_16
+      0000000000035aa0 chartables_iso_8859_15
+      00000000000362a0 chartables_iso_8859_14
+      0000000000036aa0 chartables_iso_8859_13
+      00000000000372a0 chartables_iso_8859_11
+      0000000000037aa0 chartables_iso_8859_10
+      00000000000382a0 chartables_iso_8859_1
+      0000000000038aa0 chartables_iso_2022_kr
+      00000000000792a0 chartables_iso_2022_jp
+    .
+    (second build)
+      00000000000342a0 chartables_iso_8859_3
+      0000000000034aa0 chartables_iso_8859_2
+      00000000000352a0 chartables_iso_8859_1
+      0000000000035aa0 chartables_iso_8859_16
+      00000000000362a0 chartables_iso_8859_15
+      0000000000036aa0 chartables_iso_8859_14
+      00000000000372a0 chartables_iso_8859_13
+      0000000000037aa0 chartables_iso_8859_11
+      00000000000382a0 chartables_iso_8859_10
+      0000000000038aa0 chartables_iso_2022_kr
+      00000000000792a0 chartables_iso_2022_jp
+    .
+    The only difference between these two sets is the location of chartables_iso_8859_1.
+    .
+    The static arrays are written by lib/mkchartable.pl in argv order [1], where argv is
+    the shell glob «lib/charset/*.t» [2], which expands differently in the "C" v. "fr_CH.UTF-8"
+    locales.
+    .
+    Hence, sort()ing the arguments in the Perl script should fix this issue:
+      https://anonscm.debian.org/cgit/users/danielsh-guest/reproducible-patches.git/plain/cyrus-imapd-2.5.9-2.diff
+    .
+    [1] https://sources.debian.net/src/cyrus-imapd/2.5.9-2/lib/mkchartable.pl/#L77
+    {2] https://sources.debian.net/src/cyrus-imapd/2.5.9-2/Makefile.am/#L1262
   issues:
     - timestamps_from_cpp_macros
 cython:
