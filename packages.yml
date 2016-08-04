@@ -4342,6 +4342,17 @@ foxeye:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/foxeye/0.10.1-1/configure.ac/#L310
+    .
+    Patch is just...
+    .
+    -GENDATE="`LC_TIME=C date +'%B %Y'`"
+    +if test x$SOURCE_DATE_EPOCH = x; then
+    +    GENDATE="`LC_TIME=C date +'%B %Y'`"
+    +else
+    +    GENDATE="`LC_TIME=C date --utc --date="@$$SOURCE_DATE_EPOCH" +'%B %Y'`"
+    +fi
+    .
+    ... but autoreconfing causes a FTBFS
 fprobe-ulog:
   version: 1.1-7.3
   bugs:
