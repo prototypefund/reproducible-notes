@@ -189,6 +189,8 @@ agda:
     - blacklisted_on_jenkins_armhf_only
 aghermann:
   version: 1.1.0-1
+  bugs:
+    - 833472
   comments: |
     Captures username and hostname:
       configure.ac:193:AC_SUBST(user, [`whoami`@`hostname`])
