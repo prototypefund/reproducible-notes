@@ -11048,6 +11048,30 @@ openbios:
   comments: |
     Build timestamp embedded from Makefile.
     https://sources.debian.net/src/openbios/1.1%2Bsvn1353-1/Makefile.target/?hl=57,64#L57
+    .
+    This patch fixes most of it:
+    .
+        +--- openbios-1.1+svn1395.orig/Makefile.target
+        ++++ openbios-1.1+svn1395/Makefile.target
+        +@@ -54,14 +54,14 @@ versions: $(ODIR)/target/include/openbio
+        + 
+        + $(ODIR)/forth/version.fs:
+        + 	$(call quiet-command,true, "  GEN   $(TARGET_DIR)$@")
+            +-	@DATE="$(shell echo `LC_ALL=C TZ=UTC date +'%b %e %Y %H:%M'`)" ;  \
+        ++	@DATE="$(shell echo `LC_ALL=C TZ=UTC date --date="@$${SOURCE_DATE_EPOCH:-$$(date +%s)}" +'%b %e %Y %H:%M'`)" ;  \
+        + 		( echo ": builddate \" $$DATE\" ; " ;     \
+        + 		  echo ": version \" $(VERSION)\" ; " ; ) \
+        + 		  > $(dir $@)/version.fs
+        + 
+        + $(ODIR)/target/include/openbios-version.h:
+        + 	$(call quiet-command,true, "  GEN   $(TARGET_DIR)$@")
+        +-	@DATE="$(shell echo `LC_ALL=C TZ=UTC date +'%b %e %Y %H:%M'`)" ; \
+        ++	@DATE="$(shell echo `LC_ALL=C TZ=UTC date --date="@$${SOURCE_DATE_EPOCH:-$$(date +%s)}" +'%b %e %Y %H:%M'`)" ;  \
+        +           ( echo "#define OPENBIOS_BUILD_DATE \"$$DATE\"" ; \
+        +            echo "#define OPENBIOS_VERSION_STR \"$(VERSION)\"" ; ) \
+        +          > $(dir $@)/openbios-version.h
+    .
+    ... but there is also more nondeterminism in target/include/static-dict.h files (memory addresses?)
 openblas:
   version: 0.2.18-1
   bugs:
