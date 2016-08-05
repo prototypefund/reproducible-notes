@@ -95,18 +95,17 @@ actor-framework:
     - timestamps_in_pdf_generated_by_latex
 adabrowse:
   version: 4.0.3-6
-  comments: |
-    Many Ada-related packages have similar build id variations.
+  issues:
+    - unknown_ada_issue
 adacgi:
   version: 1.6-19
   issues:
     - timestamps_in_ada_library_information_files
 adacontrol:
   version: 1.16r11-3
-  comments: |
-    Many Ada-related packages have similar build id variations.
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - unknown_ada_issue
 adasockets:
   version: 1.9-1
   comments: |
@@ -568,8 +567,8 @@ asciijump:
     - 827109
 asis:
   version: 2014-4
-  comments: |
-    Many Ada-related packages have similar build id variations.
+  issues:
+    - unknown_ada_issue
 ask:
   version: 1.0.1-2
   issues:
@@ -7546,8 +7545,8 @@ libavl:
     - 817525
 libaws:
   version: 3.2.0-3
-  comments: |
-    Many Ada-related packages have similar build id variations.
+  issues:
+    - unknown_ada_issue
 libbio-das-lite-perl:
   version: 2.11-4
   bugs:
@@ -7818,8 +7817,8 @@ libffado:
     - 828060
 libflorist:
   version: 2014-2
-  comments: |
-    Many Ada-related packages have similar build id variations.
+  issues:
+    - unknown_ada_issue
 libfm:
   version: 1.2.4-1
   comments: |
@@ -7888,8 +7887,8 @@ libglazedlists-java:
     - random_order_in_documentation_generated_by_javadoc
 libgmpada:
   version: 0.0.20131223-4
-  comments: |
-    Many Ada-related packages have similar build id variations.
+  issues:
+    - unknown_ada_issue
 libgnome2-perl:
   version: 1.045-3
   comments: |
@@ -8860,10 +8859,9 @@ libxmlbird:
     - 828122
 libxmlezout:
   version: 1.06.1-7
-  comments: |
-    Many Ada-related packages have similar build id variations.
   issues:
     - timestamps_in_ada_library_information_files
+    - unknown_ada_issue
 libxmu:
   version: 2:1.1.2-2
   issues:
