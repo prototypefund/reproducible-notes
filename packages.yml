@@ -189,14 +189,14 @@ agda:
     - blacklisted_on_jenkins_armhf_only
 aghermann:
   version: 1.1.0-1
-  bugs:
-    - 833472
   comments: |
     Captures username and hostname:
       configure.ac:193:AC_SUBST(user, [`whoami`@`hostname`])
       src/aghermann/print_version.cc:18:        printf( PACKAGE_STRING " built " __DATE__ " " __TIME__ " by " BUILT_BY "\n");
   issues:
     - timestamps_from_cpp_macros
+  bugs:
+    - 833472
 ahven:
   version: 2.4+repack-1
   issues:
