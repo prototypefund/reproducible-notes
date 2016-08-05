@@ -58,8 +58,6 @@ acepack:
     - 829109
 aces3:
   version: 3.0.8-4
-  issues:
-    - build_id_variation_requiring_further_investigation
   bugs:
     - 831164
 acl2:
@@ -99,8 +97,6 @@ adabrowse:
   version: 4.0.3-6
   comments: |
     Many Ada-related packages have similar build id variations.
-  issues:
-    - build_id_variation_requiring_further_investigation
 adacgi:
   version: 1.6-19
   issues:
@@ -110,7 +106,6 @@ adacontrol:
   comments: |
     Many Ada-related packages have similar build id variations.
   issues:
-    - build_id_variation_requiring_further_investigation
     - timestamps_in_pdf_generated_by_latex
 adasockets:
   version: 1.9-1
@@ -575,8 +570,6 @@ asis:
   version: 2014-4
   comments: |
     Many Ada-related packages have similar build id variations.
-  issues:
-    - build_id_variation_requiring_further_investigation
 ask:
   version: 1.0.1-2
   issues:
@@ -597,10 +590,6 @@ asn1c:
   version: 0.9.24+dfsg-1
   issues:
     - timestamps_in_tex_documents
-aspectc++:
-  version: 1.2+svn20150823-1
-  issues:
-    - build_id_variation_requiring_further_investigation
 aspectj:
   version: 1.8.5-1
   issues:
@@ -1493,10 +1482,6 @@ canna-shion:
   version: 0.0.20010204-12
   comments: |
     timestamps added by mkbindic from canna package
-cantor:
-  version: 4.14.2-3
-  issues:
-    - build_id_variation_requiring_further_investigation
 cappuccino:
   version: 0.5.1-2.2
   bugs:
@@ -1884,8 +1869,6 @@ clisp:
   version: 1:2.49-10
   comments: |
     Captures the hostname.  (There may be further issues.)
-  issues:
-    - build_id_variation_requiring_further_investigation
 clitest:
   version: 0.0+git20150312.339b52-1
   issues:
@@ -2376,8 +2359,6 @@ cuyo:
     - 777326
 cvc3:
   version: 2.4.1-5
-  issues:
-    - build_id_variation_requiring_further_investigation
   bugs:
     - 811823
 cvm:
@@ -3173,7 +3154,6 @@ docbook-ebnf:
 docbook-xsl-saxon:
   version: 1.00.dfsg.1-5
   issues:
-    - build_id_variation_requiring_further_investigation
     - locale_in_documentation_generated_by_javadoc
 docker-registry:
   version: 2.1.1~ds1-2
@@ -3391,10 +3371,6 @@ echoping:
   comments: |
     Embeds build date and hostname.
     https://sources.debian.net/src/echoping/6.0.2-8/configure.ac/#L337-L338
-ecj:
-  version: 3.10.1-2
-  issues:
-    - build_id_variation_requiring_further_investigation
 ecl:
   version: 15.3.7+dfsg1-1
   comments: |
@@ -3725,8 +3701,6 @@ evolvotron:
         SOURCES += $$system(ls *.cpp)
     .
     constructs in various *.pro files.
-  issues:
-    - build_id_variation_requiring_further_investigation
 exabgp:
   version: 3.4.13-1
   issues:
@@ -3842,8 +3816,6 @@ fbreader:
   comments: |
     Filenames in debug symbols are differently ordered.
     Probably readdir() order via https://sources.debian.net/src/fbreader/0.12.10dfsg2-2/fbreader/Makefile/#L24
-  issues:
-    - build_id_variation_requiring_further_investigation
 fbterm:
   version: 1.7-4
   bugs:
@@ -3860,10 +3832,6 @@ fcitx-unikey:
   version: 0.2.4-1.1
   bugs:
     - 811723
-fdclone:
-  version: 3.01b-1
-  issues:
-    - build_id_variation_requiring_further_investigation
 fdroidserver:
   version: 0.6.0-2
   comments: |
@@ -3898,10 +3866,6 @@ felix-latin:
   version: 2.0-8
   comments: |
     uses imagemagick to create help.tif. would be fixed by 819914
-ferret-vis:
-  version: 6.9.3-3
-  issues:
-    - build_id_variation_requiring_further_investigation
 fest-assert:
   version: 2.0~M10-1
   bugs:
@@ -3951,8 +3915,6 @@ fgrun:
     - 830539
 fife:
   version: 0.3.5-1
-  issues:
-    - build_id_variation_requiring_further_investigation
   bugs:
     - 811858
 file-rc:
@@ -4016,10 +3978,6 @@ fityk:
   version: 1.2.1-0.1
   bugs:
     - 811800
-fizmo:
-  version: 0.7.9-1
-  issues:
-    - build_id_variation_requiring_further_investigation
 flactag:
   version: 2.0.4-4
   issues:
@@ -4047,14 +4005,6 @@ flex:
   version: 2.6.0-11
   issues:
     - captures_shell_variable_in_autofoo_script
-flexpart:
-  version: 9.02-11
-  issues:
-    - build_id_variation_requiring_further_investigation
-flextra:
-  version: 5.0-3
-  issues:
-    - build_id_variation_requiring_further_investigation
 flickrfs:
   version: 1.3.9.1-9.2
   bugs:
@@ -4771,7 +4721,6 @@ gcc-5:
     
       No clue: b~lto13.adb, b~lto13.ads.
   issues:
-    - build_id_variation_requiring_further_investigation
     - blacklisted_on_jenkins_armhf_only
 gcc-5-cross:
   version: 11
@@ -5245,7 +5194,6 @@ gnarwl:
 gnat-4.9:
   version: 4.9.3-1
   issues:
-    - build_id_variation_requiring_further_investigation
     - blacklisted_on_jenkins_armhf_only
   bugs:
     - 830436
@@ -5281,10 +5229,6 @@ gnome-chemistry-utils:
   version: 0.14.10-2
   bugs:
     - 812164
-gnome-clocks:
-  version: 3.18.0-1
-  issues:
-    - build_id_variation_requiring_further_investigation
 gnome-color-chooser:
   version: 0.2.5-1
   bugs:
@@ -5363,10 +5307,6 @@ gnss-sdr:
   version: 0.0.7-1
   issues:
     - unsorted_file_glob_by_cmake
-gnu-smalltalk:
-  version: 3.2.5-1
-  issues:
-    - build_id_variation_requiring_further_investigation
 gnu-standards:
   version: 2010.03.11-1
   issues:
@@ -5375,10 +5315,6 @@ gnubg:
   version: 1.05.000-4
   issues:
     - timestamps_in_pdf_generated_by_latex
-gnucash:
-  version: 2.6.8-1
-  issues:
-    - build_id_variation_requiring_further_investigation
 gnucash-docs:
   version: 2.6.9-1
   issues:
@@ -5995,8 +5931,6 @@ guiqwt:
     - 807605
 guitarix:
   version: 0.34.0-0.1
-  issues:
-    - build_id_variation_requiring_further_investigation
   bugs:
     - 831124
 gurgitate-mail:
@@ -6330,10 +6264,6 @@ hyperestraier:
   version: 1.4.13-13
   issues:
     - timestamps_in_jar
-hyperic-sigar:
-  version: 1.6.4+dfsg-2.1
-  issues:
-    - build_id_variation_requiring_further_investigation
 hyperrogue:
   version: 4.2+dfsg-1
   bugs:
@@ -6390,10 +6320,6 @@ icheck:
   version: 0.9.7-6.3
   bugs:
     - 817497
-icmake:
-  version: 7.22.01-1
-  issues:
-    - build_id_variation_requiring_further_investigation
 icon:
   version: 9.4.3-4.2
   issues:
@@ -6783,10 +6709,6 @@ jetty8:
   version: 8.1.19-3
   issues:
     - random_order_in_documentation_generated_by_javadoc
-jffi:
-  version: 1.2.7-6
-  issues:
-    - build_id_variation_requiring_further_investigation
 jflex:
   version: 1.4.3+dfsg-2
   bugs:
@@ -6948,10 +6870,6 @@ juke:
   version: 0.7-4
   bugs:
     - 817510
-julia:
-  version: 0.4.3-1
-  issues:
-    - build_id_variation_requiring_further_investigation
 juman:
   version: 7.0-3.2
   issues:
@@ -7053,14 +6971,6 @@ kde4libs:
     - captures_kernel_version
   bugs:
     - 811895
-kdelibs4support:
-  version: 5.14.0-1
-  issues:
-    - build_id_variation_requiring_further_investigation
-kdepim:
-  version: 4.14.10-2
-  issues:
-    - build_id_variation_requiring_further_investigation
 kdepim-runtime:
   version: 4:16.04.2-2
   bugs:
@@ -7069,10 +6979,6 @@ kdepimlibs:
   version: 4:4.14.10-5
   bugs:
     - 811983
-kdesignerplugin:
-  version: 5.14.0-1
-  issues:
-    - build_id_variation_requiring_further_investigation
 kdevelop:
   version: 4:4.7.0-1
   issues:
@@ -7278,10 +7184,6 @@ kmidimon:
   version: 0.7.5-1
   bugs:
     - 803566
-kmymoney:
-  version: 4.6.6-2
-  issues:
-    - build_id_variation_requiring_further_investigation
 knopflerfish-osgi:
   version: 5.1.0+dfsg1-2
   comments: |
@@ -7367,10 +7269,6 @@ krunner:
   version: 5.16.0-1
   bugs:
     - 814699
-ksh:
-  version: 93u+20120801-2
-  issues:
-    - build_id_variation_requiring_further_investigation
 ksysguard:
   version: 4:5.4.3-1
   bugs:
@@ -7650,8 +7548,6 @@ libaws:
   version: 3.2.0-3
   comments: |
     Many Ada-related packages have similar build id variations.
-  issues:
-    - build_id_variation_requiring_further_investigation
 libbio-das-lite-perl:
   version: 2.11-4
   bugs:
@@ -7924,8 +7820,6 @@ libflorist:
   version: 2014-2
   comments: |
     Many Ada-related packages have similar build id variations.
-  issues:
-    - build_id_variation_requiring_further_investigation
 libfm:
   version: 1.2.4-1
   comments: |
@@ -7996,12 +7890,6 @@ libgmpada:
   version: 0.0.20131223-4
   comments: |
     Many Ada-related packages have similar build id variations.
-  issues:
-    - build_id_variation_requiring_further_investigation
-libgnatcoll:
-  version: 1.6gpl2014-8
-  issues:
-    - build_id_variation_requiring_further_investigation
 libgnome2-perl:
   version: 1.045-3
   comments: |
@@ -8232,8 +8120,6 @@ libkmfl:
     - 817535
 libkolabxml:
   version: 1.0.2-2
-  issues:
-    - build_id_variation_requiring_further_investigation
   bugs:
     - 811631
 libkqueue:
@@ -8852,10 +8738,6 @@ libvigraimpex:
   version: 1.10.0+dfsg-11
   bugs:
     - 811370
-libvirt:
-  version: 1.2.19-1
-  issues:
-    - build_id_variation_requiring_further_investigation
 libvirt-python:
   version: 1.3.5-1
   bugs:
@@ -8981,7 +8863,6 @@ libxmlezout:
   comments: |
     Many Ada-related packages have similar build id variations.
   issues:
-    - build_id_variation_requiring_further_investigation
     - timestamps_in_ada_library_information_files
 libxmu:
   version: 2:1.1.2-2
@@ -9134,8 +9015,6 @@ litl:
     - timestamps_in_documentation_generated_by_doxygen
 littler:
   version: 0.2.3-2
-  issues:
-    - build_id_variation_requiring_further_investigation
 live-manual:
   version: 4.0.2-1
   comments: |
@@ -9903,10 +9782,6 @@ mm-common:
   issues:
     - users_and_groups_in_tarball
     - different_due_to_umask
-mm3d:
-  version: 1.3.7-1.4
-  issues:
-    - build_id_variation_requiring_further_investigation
 mmake:
   version: 2.3-6
   bugs:
@@ -10509,10 +10384,6 @@ netty:
   version: 1:4.0.34-1
   comments: |
     Timestamps in io.netty.versions.properties files.
-netw-ib-ox-ag:
-  version: 5.39.0-1
-  issues:
-    - build_id_variation_requiring_further_investigation
 networking-arista:
   version: 2015.2.0-1
   bugs:
@@ -11198,10 +11069,6 @@ openjdk-7:
   issues:
     - timestamps_from_cpp_macros
     - blacklisted_on_jenkins_armhf_only
-openjdk-7-jre-dcevm:
-  version: 7u79-2
-  issues:
-    - build_id_variation_requiring_further_investigation
 openjdk-8:
   version: 8u40~b09-1
   issues:
@@ -11481,18 +11348,12 @@ paman:
     - 819779
 pandas:
   version: 0.14.1-2
-  issues:
-    - build_id_variation_requiring_further_investigation
   bugs:
     - 827938
 pandoc:
   version: 1.17.0.3~dfsg-2
   comments: |
     Includes a buildinfo_ARCH.gz (NB. nothing to do with .buildinfo) that has some missing contents on our b build. Cannot reproduce locally and its not a file that really wants stripping IFAICT as lots of other packages include them.
-pantomime1.2:
-  version: 1.2.2~r289+dfsg-2
-  issues:
-    - build_id_variation_requiring_further_investigation
 paprefs:
   version: 0.9.10-2
   bugs:
@@ -11659,10 +11520,6 @@ pdfposter:
   version: 0.6.0-2
   issues:
     - timestamps_in_pdf_generated_by_latex
-pdftk:
-  version: 2.02-2
-  issues:
-    - build_id_variation_requiring_further_investigation
 pdmenu:
   version: 1.3.4
   issues:
@@ -11732,7 +11589,6 @@ petris:
 petsc:
   version: 3.6.2.dfsg1-3
   issues:
-    - build_id_variation_requiring_further_investigation
     - leaks_path_environment_variable
 pfstools:
   version: 2.0.4-4
@@ -11831,7 +11687,6 @@ php5:
     Test results capturing quite of the environment in
     ./usr/share/doc/php5-common/test-results.txt.gz
   issues:
-    - build_id_variation_requiring_further_investigation
     - different_due_to_umask
 php7.0:
   version: 7.0.4-6
@@ -12103,10 +11958,6 @@ poppler-sharp:
   version: 0.0.3-4
   comments: |
     Unidentified variation in Mono executable.
-popplerkit.framework:
-  version: 0.0.20051227svn-7.1
-  issues:
-    - build_id_variation_requiring_further_investigation
 portabase:
   version: 2.1+git20120910-1.1
   issues:
@@ -12439,8 +12290,6 @@ pyexiv2:
     - 820869
 pyfai:
   version: 0.11.0+dfsg-3
-  issues:
-    - build_id_variation_requiring_further_investigation
   bugs:
     - 831242
 pyferret:
@@ -12522,10 +12371,6 @@ pyliblo:
   version: 0.10.0-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
-pylucene:
-  version: 3.5.0-1.2
-  issues:
-    - build_id_variation_requiring_further_investigation
 pymol:
   version: 1.7.2.1-1
   issues:
@@ -12584,7 +12429,6 @@ pypuppetdb:
 pypy:
   version: 2.6.1+dfsg-2
   issues:
-    - build_id_variation_requiring_further_investigation
     - blacklisted_on_jenkins_armhf_only
 pyqi:
   version: 0.3.2+dfsg-1
@@ -12620,7 +12464,6 @@ pysdl2:
 pyside:
   version: 1.2.2-1
   issues:
-    - build_id_variation_requiring_further_investigation
     - blacklisted_on_jenkins_armhf_only
 pysph:
   version: 0~20160514.git91867dc-3
@@ -12855,8 +12698,6 @@ python-dugong:
     - randomness_in_objects_inv
 python-enable:
   version: 4.5.1-2
-  issues:
-    - build_id_variation_requiring_further_investigation
   bugs:
     - 804584
 python-escript:
@@ -13651,10 +13492,6 @@ qtscript-opensource-src:
   version: 5.3.2+dfsg-2
   issues:
     - randomness_in_qdoc
-qtscriptgenerator:
-  version: 0.2.0-1
-  issues:
-    - build_id_variation_requiring_further_investigation
 qtsensors-opensource-src:
   version: 5.3.2+dfsg-2
   issues:
@@ -13688,7 +13525,6 @@ qtwebkit-examples-opensource-src:
 qtwebkit-opensource-src:
   version: 5.4.2+dfsg-3
   issues:
-    - build_id_variation_requiring_further_investigation
     - blacklisted_on_jenkins_armhf_only
 qtwebsockets-opensource-src:
   version: 5.3.2-5
@@ -13707,7 +13543,6 @@ qtxmlpatterns-opensource-src:
 quagga:
   version: 0.99.24.1-2
   issues:
-    - build_id_variation_requiring_further_investigation
     - timestamps_in_pdf_generated_by_imagemagick
 quantlib:
   version: 1.4.1-1
@@ -13826,10 +13661,6 @@ r-cran-repr:
   version: 0.7-1
   issues:
     - randomness_in_r_rdb_rds_databases
-r-cran-rinside:
-  version: 0.2.13-1
-  issues:
-    - build_id_variation_requiring_further_investigation
 r-cran-rms:
   version: 4.5-0-1
   bugs:
@@ -15099,14 +14930,8 @@ smcroute:
     https://sources.debian.net/src/smcroute/2.0.0-5/smcroute.c/?hl=49#L49
   bugs:
     - 784694
-smlnj:
-  version: 110.78-2
-  issues:
-    - build_id_variation_requiring_further_investigation
 smokeqt:
   version: 4.14.3-1
-  issues:
-    - build_id_variation_requiring_further_investigation
   bugs:
     - 812002
 smpeg:
@@ -15250,10 +15075,6 @@ speedometer:
   version: 2.8-1
   bugs:
     - 782221
-spherepack:
-  version: 3.2-7
-  issues:
-    - build_id_variation_requiring_further_investigation
 sphinx:
   version: 1.2.3+dfsg-1
   issues:
@@ -15271,10 +15092,6 @@ sphinxcontrib-youtube:
   version: 1.0-1
   issues:
     - timestamps_in_python_version_numbers
-sphinxsearch:
-  version: 2.2.9-1
-  issues:
-    - build_id_variation_requiring_further_investigation
 spice-gtk:
   version: 0.28-1.1
   bugs:
@@ -15529,10 +15346,6 @@ supercollider-sc3-plugins:
   version: 3.7.1~repack-1
   bugs:
     - 831078
-superlu:
-  version: 4.3+dfsg-3
-  issues:
-    - build_id_variation_requiring_further_investigation
 supertransball2:
   version: 1.5-7
   bugs:
@@ -15618,10 +15431,6 @@ sword:
   version: 1.7.3+dfsg-7
   bugs:
     - 811602
-swt-gtk:
-  version: 3.8.2-3
-  issues:
-    - build_id_variation_requiring_further_investigation
 swtchart:
   version: 0.8.0-1
   issues:
@@ -15956,8 +15765,6 @@ timingframework:
     - random_order_in_documentation_generated_by_javadoc
 tin:
   version: 1:2.3.2-1
-  issues:
-    - build_id_variation_requiring_further_investigation
   bugs:
     - 827731
 tinydyndns:
@@ -16592,10 +16399,6 @@ vdk2-tutorial:
   version: 1.1-3
   bugs:
     - 817713
-vdr-plugin-live:
-  version: 0.3.0+git20141029-1
-  issues:
-    - build_id_variation_requiring_further_investigation
 vdr-plugin-vcd:
   version: 0.9-25
   bugs:

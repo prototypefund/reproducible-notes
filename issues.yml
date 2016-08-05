@@ -450,6 +450,8 @@ build_id_variation_requiring_further_investigation:
     be tracked and fixed. The issue can come from variations in order of object
     members or objects themselves, different content (e.g. `__DATE__` CPP
     macros or similar), or other interesting things.
+    .
+    Please don't tag issues with this issue until I find a place for this text ^
 timestamps_in_documentation_generated_by_podman:
   description: |
     The module Pod::Man includes timestamps in its embedded manpages:
