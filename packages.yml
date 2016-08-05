@@ -1037,9 +1037,10 @@ beav:
     - 777287
     - 793000
 bedtools:
-  version: 2.25.0-1
-  issues:
-    - build_id_variation_requiring_further_investigation
+  version: 2.26.0+dfsg-1
+  comments: |
+    Locale-sensitive expansion order of shell glob manifests in debug symbols:
+      https://sources.debian.net/src/bedtools/2.26.0%2Bdfsg-1/Makefile/#L102
 beets:
   version: 1.3.8+dfsg-2
   bugs:
@@ -1880,7 +1881,9 @@ clips-doc:
   bugs:
     - 817395
 clisp:
-  version: 2.49-10
+  version: 1:2.49-10
+  comments: |
+    Captures the hostname.  (There may be further issues.)
   issues:
     - build_id_variation_requiring_further_investigation
 clitest:
@@ -3394,8 +3397,9 @@ ecj:
     - build_id_variation_requiring_further_investigation
 ecl:
   version: 15.3.7+dfsg1-1
-  issues:
-    - build_id_variation_requiring_further_investigation
+  comments: |
+    1. Random filename of the form eclinitXXXXXX.c
+    2. The symbols "ecl_member" and "_eclZRyBEHa3fImi9_XXXXXXXX" are in unpredictable order.
 eclipse:
   version: 3.8.1-8
   comments: |
@@ -3711,7 +3715,16 @@ evolution-data-server:
   comments: |
     Embeds the build username into documentation.
 evolvotron:
-  version: 0.6.3-2
+  version: 0.6.3-4
+  comments: |
+    Filenames in debug symbols are differently ordered.
+    .
+    Presumably due to
+    .
+        HEADERS += $$system(ls *.h)
+        SOURCES += $$system(ls *.cpp)
+    .
+    constructs in various *.pro files.
   issues:
     - build_id_variation_requiring_further_investigation
 exabgp:
@@ -3825,11 +3838,12 @@ fbpager:
   bugs:
     - 817451
 fbreader:
-  version: 0.12.10dfsg-10
+  version: 0.12.10dfsg2-2
+  comments: |
+    Filenames in debug symbols are differently ordered.
+    Probably readdir() order via https://sources.debian.net/src/fbreader/0.12.10dfsg2-2/fbreader/Makefile/#L24
   issues:
     - build_id_variation_requiring_further_investigation
-  bugs:
-    - 811676
 fbterm:
   version: 1.7-4
   bugs:
