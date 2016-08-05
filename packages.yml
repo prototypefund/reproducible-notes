@@ -11093,10 +11093,13 @@ openbox:
 openclipart:
   version: 1:0.18+dfsg-14
   comments: |
-    Build hangs at inkscape processing ./office/telephone/mobile_phone_01.svg
-    Not sure if this is toolchain related or not
+    Build hangs at inkscape processing ./office/telephone/mobile_phone_01.svg which is https://bugs.debian.org/760360
+    The hang is caused by inkscape https://bugs.debian.org/763095 which is fixed in jessie-backports and newer.
   issues:
     - blacklisted_on_jenkins
+  bugs:
+  - 760360
+  - 763095
 openclipart2:
   version: 2.0+dfsg-1
   issues:
