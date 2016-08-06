@@ -14406,6 +14406,8 @@ salt:
   comments: |
     `/usr/lib/python2.7/dist-packages/salt/_syspaths.py` contains
     a timestamp.
+  issues:
+    - randomness_in_documentation_generated_by_sphinx
 samba:
   version: 2:4.4.5+dfsg-2
   bugs:
