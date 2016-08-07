@@ -2862,6 +2862,10 @@ dh-ocaml:
     - lynx_dump_varies_output_with_locale
   bugs:
     - 830282
+dhcpd-pools:
+  version: 2.28-1
+  issues:
+    - captures_shell_variable_in_autofoo_script
 dhcpdump:
   version: 1.8-2
   issues:
