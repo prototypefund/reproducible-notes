@@ -12562,6 +12562,8 @@ python-attrs:
   comments: |
     docs/conf.py:85 hardcodes the current year into generated documentation.
     (It uses sphinx but this issue is not timestamps_in_documentation_generated_by_sphinx.)
+  bugs:
+    - 833886
 python-automaton:
   version: 0.7.0-2
   bugs:
