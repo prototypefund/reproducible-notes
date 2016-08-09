@@ -412,11 +412,13 @@ apertium-en-ca:
 apertium-kaz:
   version: 0.1.0~r61338-1
   comments: |
-    Zip file with non-standard extension. Will be fixed by dh-stripnondeterminism soon http://deb.li/ijn3y
+    Zip file with non-standard extension. Should have been fixed by
+    dh-stripnondeterminism matching .zhfst files, but there are differences.
 apertium-tat:
   version: 0.1.0~r60887-1
   comments: |
-    Zip file with non-standard extension. Will be fixed by dh-stripnondeterminism soon http://deb.li/ijn3y
+    Zip file with non-standard extension. Should have been fixed by
+    dh-stripnondeterminism matching .zhfst files, but there are differences.
 apg:
   version: 2.2.3.dfsg.1-3
   issues:
