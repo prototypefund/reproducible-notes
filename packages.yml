@@ -8802,6 +8802,14 @@ libvigraimpex:
   version: 1.10.0+dfsg-11
   bugs:
     - 811370
+libvirt:
+  version: 2.1.0-1
+  comments: |
+    #1. One of the source files is named tmpXXXXXX.c and that name is recorded in the .strtab section.
+    .
+    #2. Order of symbols in the .debug_str section varies randomly.
+    .
+    #3. Difference in file order in the .symtab section.
 libvirt-python:
   version: 1.3.5-1
   bugs:
@@ -9076,6 +9084,12 @@ litl:
   version: 0.1.8-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+littler:
+  version: 0.3.1-1
+  comments: |
+    Appears to be locale-aware sorting issue: the array of strings in /usr/bin/r around "AirPassengers" appears to be sorted with LC_COLLATE=C on the left build and with LC_COLLATE=fr_??.UTF-8 on the right build.  (The left is sorted as though by memcmp(), the right is sorted case-insensitively.)
+    .
+    However, I couldn't find the strings in question in the source package.
 live-manual:
   version: 4.0.2-1
   comments: |
