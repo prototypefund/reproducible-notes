@@ -14677,14 +14677,6 @@ seelablet:
   version: 0.1.9-1
   issues:
     - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
-sen:
-  version: 0.3.0-1
-  comments: |
-    Embeds dpkg-changelog date via «date --date="$(dpkg-parsechangelog --show-field=Date)" +%F»,
-    which outputs the changelog date converted to the local timezone.  Setting TZ=UTC should
-    resolve the issue.
-  bugs:
-    - 823764
 sendfile:
   version: 2.1b.20080616-5.3
   issues:
