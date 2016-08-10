@@ -9501,6 +9501,10 @@ mapnik:
   version: 3.0.9+ds-1
   issues:
     - blacklisted_on_jenkins_armhf_only
+mapproxy:
+  version: 1.9.0-2
+  issues:
+    -  timestamps_in_python_version_numbers
 mapsembler2:
   version: 2.2.3+dfsg-2
   comments: |
