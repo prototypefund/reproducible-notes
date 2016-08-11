@@ -11553,6 +11553,10 @@ pathspider:
     Appears to be some dict order dependency in sphinx, similar to but not
     quite the same as the `randomness_in_documentation_generated_by_sphinx`
     issue.
+    .
+    ("automethod" parses the Python class, but Python loses class attribute
+    definition order so you can't get the original order back out. ie. needs
+    a sort)
 pavucontrol:
   version: 3.0-3
   bugs:
