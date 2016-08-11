@@ -13334,6 +13334,8 @@ python-xlrd:
   version: 0.9.2-1
   comments: |
     Non-deterministically selects python vs python3.X in shebang
+  issues:
+    - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
 python-zaqarclient:
   version: 0.2.0-2
   bugs:
