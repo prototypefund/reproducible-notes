@@ -16226,6 +16226,8 @@ tuxpaint:
     Prints multiple lines with `echo`, which behaves differently depending on the shell.
     This causes a variation in linenumbers and therefore different debugging symbols.
     https://sources.debian.net/src/tuxpaint/1:0.9.22-2/Makefile/#L1147
+  bugs:
+    - 834109
 tuxpaint-config:
   version: 0.0.13-1
   comments: |
