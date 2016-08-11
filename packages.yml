@@ -3868,7 +3868,7 @@ fdclone:
         -cc -DLINUX=1 -O -D_FILE_OFFSET_BITS=64  -g -O2 -fdebug-prefix-map=/build/fdclone-3.01b=. -fstack-protector-strong -Wformat -Werror=format-security -Wall -Wno-attributes -Wno-empty-body -Wdate-time -D_FORTIFY_SOURCE=2  -DFD=3  -c -o custom.o custom.c
         +cc -DLINUX=1 -O -D_FILE_OFFSET_BITS=64  -g -O2 -fdebug-prefix-map=/build/fdclone-3.01b=. -fstack-protector-strong -Wformat -Werror=format-security -Wall -Wno-attributes -Wno-empty-body -Wdate-time -D_FORTIFY_SOURCE=2  -DFD=3 -DPRESETKCODE='"'utf8-iconv'"' -c -o custom.o custom.c
     .
-    The reason for is in mkmfsed.c, which is compiled by Makefile on the build host and generates a sed script that parses Makefile.in to create a final(?) makefile.
+    The reason for this is in mkmfsed.c, which is compiled by Makefile on the build host and generates a sed script that parses Makefile.in to create a final(?) makefile.
     .
     #2. The "Configur" (sic) script depends on the build-time "$LANG".
     .
