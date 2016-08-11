@@ -2985,6 +2985,12 @@ directfb:
   version: 1.2.10.0-5.1
   bugs:
     - 828745
+dispcalgui:
+  version: 3.1.5.0-1
+  comments: |
+    Returning customer; see debian/patches/01_reproducible-build.diff.
+    .
+    The difference is due to the "TIMESTAMP" replaceable being populated from lastmod_time.
 distmp3:
   version: 0.1.9.ds1-4.6
   bugs:
