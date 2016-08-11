@@ -10052,6 +10052,12 @@ most:
   version: 5.0.0a-2.3
   bugs:
     - 817586
+mountpy:
+  version: 0.8.1
+  comments: |
+    Due to «dh_fixperms --exclude /usr/bin/mountpy» in debian/rules.
+  issues:
+    - different_due_to_umask
 mousetweaks:
   version: 3.12.0-1
   bugs:
