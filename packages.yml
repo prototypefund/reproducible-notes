@@ -12349,6 +12349,12 @@ pybik:
   comments: |
     Embeds output of sys.argv in buildlib/translation_from_ui.py. Could be
     simply stripped.
+pybit:
+  version: 1.0.0-2.1
+  comments: |
+    Uninvestigated, but cropped up on 2016-08-11 at the same time as similar issues in other packages.
+  issues:
+    - different_due_to_umask
 pybliographer:
   version: 1.2.16-1
   bugs:
