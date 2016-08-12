@@ -7704,6 +7704,10 @@ libcec:
     https://sources.debian.net/src/libcec/2.2.0%2Bdfsg1-1/configure.ac/?hl=351:255#L351
     Can be removed by passing HAVE_DATE=no HAVE_WHOAMI=no HAVE_HOSTNAME=no HAVE_UNAME=no
     to ./configure but the binaries are also non-determinstic.
+libcereal:
+  version: 1.1.2-4
+  bugs:
+    - 834187
 libcgi-ssi-parser-perl:
   version: 0.01-1.1
   bugs:
