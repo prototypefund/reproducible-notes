@@ -3846,6 +3846,10 @@ fastinfoset:
   version: 1.2.12-1
   bugs:
     - 833077
+faumachine:
+  version: 20160511-1
+  comments: |
+    sim/Makefile.am has a _lot_ of unsorted wildcard includes. Patch would be quite invasive..
 faust:
   version: 0.9.73~repack1-1
   bugs:
