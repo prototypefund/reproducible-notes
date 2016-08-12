@@ -542,6 +542,9 @@ arj:
   comments: |
     The file today.c creates the file date_sig.c with a variable named build_date.
     This variable holds a locale-dependent timestamps.
+    .
+    https://gist.github.com/lamby/f09208b6b3d59602eaa256b3270a1834/raw fixes this
+    but executable remains unreproducible.
 armada-backlight:
   version: 1.1-8
   bugs:
