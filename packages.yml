@@ -11123,6 +11123,12 @@ openalpr:
   version: 2.2.4-1
   bugs:
     - 831118
+openarena-085-data:
+  version: 0.8.5split-8
+  comments: |
+    Presumably due to https://sources.debian.net/src/openarena-085-data/0.8.5split-8/debian/rules/#L41.
+  issues:
+    - timestamps_in_zip
 openarena-088-data:
   version: 0.8.8-5
   issues:
