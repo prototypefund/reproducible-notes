@@ -16350,9 +16350,8 @@ u-boot:
     http://git.denx.de/?p=u-boot.git;a=commitdiff;h=42ffa51fd46bc6fd4bf2c244f00a80df31d01596
 uanytun:
   version: 0.3.5-1
-  comments: |
-    Embed build time, and hostname:
-    https://sources.debian.net/src/uanytun/0.3.5-1/src/configure/?hl=272,273,288#L272
+  bugs:
+    - 834227
 ubuntu-packaging-guide:
   version: 0.3.6
   issues:
