@@ -15753,8 +15753,8 @@ taoframework:
     - timestamps_in_pe_binaries
 taopm:
   version: 1.0-3
-  comments: |
-    Embeds the build date. https://sources.debian.net/src/taopm/1.0-3/configure.in/#L27
+  bugs:
+    - 834229
 tasque:
   version: 0.1.12-4
   issues:
@@ -16075,6 +16075,7 @@ topal:
     http://sources.debian.net/src/topal/75-2/Makefile/?hl=19#L19
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - different_encoding
 tor:
   version: 0.2.6.7-1
   comments: |
