@@ -8440,10 +8440,8 @@ libnet-tclink-perl:
     segfaults, but see also #796027 and #796028
 libnss-ldap:
   version: 265-3
-  comments: |
-    Embeds username and build date.
-    https://sources.debian.net/src/libnss-ldap/265-3/vers_string/#L10
-    https://sources.debian.net/src/libnss-ldap/265-3/vers_string/#L16
+  bugs:
+    - 834324
 liboauth:
   version: 1.0.1-1
   bugs:
@@ -8580,6 +8578,8 @@ librabbitmq:
   comments: |
     Embeds the kernel version.
     https://sources.debian.net/src/librabbitmq/0.5.2-2/cmake/config.h.in/#L11
+    .
+    Use CMAKE_SYSTEM_NAME instead of CMAKE_SYSTEM (which includes the version).
   issues:
     - captures_kernel_version
 libranlip:
@@ -10537,10 +10537,6 @@ netbeans:
   issues:
     - timestamps_in_zip
     - blacklisted_on_jenkins_armhf_only
-netcdf:
-  version: 1:4.4.0-2
-  comments: |
-    Embeds the build date.
 netexpect:
   version: 0.22-2
   bugs:
