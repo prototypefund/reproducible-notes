@@ -17696,6 +17696,8 @@ zorp:
     - 829710
 zotero-standalone-build:
   version: 4.0.22-1
+  comments: |
+    BuildID in ./usr/share/zotero-standalone/application.ini
   issues:
     - different_due_to_umask
 zp:
