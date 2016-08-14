@@ -11689,9 +11689,8 @@ pcscada:
     - timestamps_in_ada_library_information_files
 pd-flite:
   version: 0.02.3-1
-  comments: |
-    Embeds build date and user.
-    https://sources.debian.net/src/pd-flite/0.02.3-1/common/m4/ax_pd_external.m4/#L245-L246
+  bugs:
+    - 834302
 pd-pdstring:
   version: 0.10.2-1
   comments: |
@@ -13706,11 +13705,6 @@ qtmultimedia-opensource-src:
   issues:
     - timestamps_in_qch
     - randomness_in_qdoc
-qtop:
-  version: 2.2.4-1
-  comments: |
-    Embeds the build date.
-    https://sources.debian.net/src/qtop/2.2.5-1/base-cmake/Macros.cmake/#L22-L38
 qtquickcontrols-opensource-src:
   version: 5.4.2-2
   issues:
