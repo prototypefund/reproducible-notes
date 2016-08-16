@@ -1227,3 +1227,10 @@ ftbfs_with_-fdebug-prefix-map_error:
 unknown_ada_issue:
   description: |
    Previously part of build_id_variation_requiring_further_investigation
+timezone_sensitive_mtimes_in_files_installed_by_mozilla-devscripts_install-xpi:
+  description:
+    /usr/bin/install-xpi in mozilla-devscripts installs files with
+    timezone-sensitive mtimes. There is code that is meant to work around this
+    since mozilla-devscripts 0.41 but it does not seem to work correctly.
+    .
+    This can affect packages using "--with xul-ext" from the same package.
