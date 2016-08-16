@@ -8064,6 +8064,10 @@ libgpod:
   version: 0.8.3-5
   comments: |
     Timezone-related Make issue causing different linking and thus substvars. output of dpkg-shlibdeps is https://gist.github.com/lamby/493de60a3f1ac2a279e8
+libgraph-writer-dsm-perl:
+  version: 0.006-1
+  bugs:
+    - 834468
 libgrip:
   version: 0.3.8-1
   bugs:
