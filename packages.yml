@@ -10516,6 +10516,12 @@ ncc:
   version: 2.8-2
   bugs:
     - 811745
+ncftp:
+  version: 2:3.2.5-2
+  comments: |
+    [i386] Captures some form of uname / host / architecture: linux-x86-glibc2.22 v. linux-x86_64-glibc2.22
+  bugs:
+    - 829249
 ncl:
   version: 6.3.0-8
   issues:
@@ -14900,6 +14906,19 @@ seqan:
   bugs:
     - 809058
     - 811841
+serf:
+  version: 1.3.8-3
+  comments: |
+    FTBFS tests fail:
+    .
+      test_ssl_trust_rootca: test/test_util.c:438: expected <0> but was <120199>
+      test_ssltunnel_basic_auth_proxy_has_keepalive_off: test/test_context.c:2116: expected <0> but was <120170>
+    .
+    In the above:
+    .
+      <0> is APR_SUCCESS
+      <120170> is #define SERF_ERROR_SSL_CERT_FAILED (SERF_ERROR_START + 70)
+      <120199> is #define SERF_ERROR_ISSUE_IN_TESTSUITE (SERF_ERROR_START + 99)
 setools:
   version: 3.3.8+20151215-1
   comments: |
@@ -15649,6 +15668,12 @@ svgwrite:
   version: 1.1.8-1
   bugs:
     - 829415
+swaks:
+  version: 20130209.0-5
+  comments: |
+    [i386/armhf]
+  issues:
+    - random_order_in_md5sums
 swarm-cluster:
   version: 2.1.8-2
   bugs:
