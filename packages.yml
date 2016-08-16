@@ -5400,6 +5400,11 @@ gnome-user-share:
   version: 3.18.1-1
   bugs:
     - 822432
+gnome-video-arcade:
+  version: 0.8.6-2
+  comments: |
+    Timestamp in usr/share/man/man1/gnome-video-arcade.1.gz is locale-dependent and SOURCE_DATE_EPOCH-agnostic:
+      https://sources.debian.net/src/gnome-video-arcade/0.8.6-2/docs/Makefile.am/#L8
 gnss-sdr:
   version: 0.0.7-1
   issues:
