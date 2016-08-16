@@ -10183,8 +10183,9 @@ mozjs:
     - 811665
 mozvoikko:
   version: 2.0.1-1
-  issues:
-    - timezone_sensitive_mtimes_in_files_installed_by_mozilla-devscripts_install-xpi
+  comments: |
+    Calling zip without normalizing timezone.
+    https://sources.debian.net/src/mozvoikko/2.0.1-1/Makefile/#L21
 mp3blaster:
   version: 1:3.2.5-3
   issues:
