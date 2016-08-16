@@ -10729,6 +10729,31 @@ nitime:
   version: 0.5-3
   comments: |
     Randomness in example images because of random() without constant seed.
+nmap:
+  version: 7.12-1
+  comments: |
+    $(DESTDIR) is created by 'mkdir' instead of 'mkdir -p':
+    .
+      mkdir: cannot create directory '/build/nmap-7.12/debian/tmp': File exists
+      ⋮
+      Makefile:168: recipe for target 'install' failed
+      make[3]: *** [install] Error 1
+      make[3]: Leaving directory '/build/nmap-7.12/ncat'
+      Makefile:394: recipe for target 'install-ncat' failed
+      make[2]: *** [install-ncat] Error 2
+      make[2]: *** Waiting for unfinished jobs....
+      ⋮
+      make[2]: Leaving directory '/build/nmap-7.12'
+      dh_auto_install: make -j17 install DESTDIR=/build/nmap-7.12/debian/tmp AM_UPDATE_INFO_DIR=no returned exit code 2
+      debian/rules:12: recipe for target 'override_dh_auto_install' failed
+      make[1]: *** [override_dh_auto_install] Error 2
+      make[1]: Leaving directory '/build/nmap-7.12'
+      debian/rules:4: recipe for target 'binary' failed
+      make: *** [binary] Error 2
+    .
+    See for example https://sources.debian.net/src/nmap/7.12-1/libpcre/Makefile.in/#L602 (there may be additional instances).
+    .
+    Seen on i386; probably nondeterministic and affects all architectures.
 nmh:
   version: 1.6-7
   comments: |
