@@ -12653,6 +12653,8 @@ pyicu:
   comments: |
     Locates source files in readdir order, which will result in random linking order.
     https://sources.debian.net/src/pyicu/1.9.2-2/setup.py/#L109
+  bugs:
+    - 834553
 pyinfra:
   version: 0.1~dev26-1
   bugs:
