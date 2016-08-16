@@ -6992,6 +6992,8 @@ judy:
   comments: |
     Static library created with locale-dependent sorting order.
     https://sources.debian.net/src/judy/1.0.5-5/src/sh_build/#L204
+  issues:
+    - collation_order_varies_by_locale
 juke:
   version: 0.7-4
   bugs:
@@ -9205,6 +9207,8 @@ littler:
     Appears to be locale-aware sorting issue: the array of strings in /usr/bin/r around "AirPassengers" appears to be sorted with LC_COLLATE=C on the left build and with LC_COLLATE=fr_??.UTF-8 on the right build.  (The left is sorted as though by memcmp(), the right is sorted case-insensitively.)
     .
     However, I couldn't find the strings in question in the source package.
+  issues:
+    - collation_order_varies_by_locale
 live-manual:
   version: 4.0.2-1
   comments: |
@@ -10733,6 +10737,8 @@ node-mocha:
   comments: |
     Locale-dependent sorting of source files.
     https://sources.debian.net/src/node-mocha/1.20.1-2/Makefile/#L4
+  issues:
+    - collation_order_varies_by_locale
 node-oauth:
   version: 0.9.11-1
   bugs:
@@ -11361,6 +11367,8 @@ openms:
   comments: |
     readdir() order dependency: https://sources.debian.net/src/openms/2.0.0-4/debian/binaries-extract-one-line-man-desc.sh/#L24-L29
     The «*» on the find(1) command line may introduce a locale dependency (shell globs are expanded in a locale-sensitive sorted order), depending on the names of immediate children of ${binDir} (to which the script cd's).
+  issues:
+    - collation_order_varies_by_locale
 opennebula:
   version: 4.12.3+dfsg-3
   issues:
@@ -16586,6 +16594,8 @@ unixcw:
   version: 3.4.2-1
   comments: |
     Signatures and functions in manpage are generated in src/libcw/Makefile.am without a locale-independent sort
+  issues:
+    - collation_order_varies_by_locale
 upx-ucl:
   version: 3.91-2
   bugs:
