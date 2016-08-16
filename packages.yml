@@ -1440,6 +1440,9 @@ bzr:
   comments: |
     Duplicate files detected by fdupes and symlinked in d/rules, but in unsorted order.
     https://sources.debian.net/src/bzr/2.7.0-7/debian/rules/#L81
+    .
+    Unclear whether this is due to fdupes returning the _duplicate_ in
+    non-deterministic order, which would not be fixed by an "external" sort.
 bzr-git:
   version: 0.6.12+bzr1635-1
   bugs:
