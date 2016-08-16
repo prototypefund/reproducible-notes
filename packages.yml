@@ -6501,6 +6501,17 @@ ikarus:
   version: 0.0.3+bzr.2010.01.26-4
   comments: |
     date patch would be https://gist.github.com/lamby/f8215f49983f8e3c7309300e26cfb777 but there is something else. suspicious call to /dev/urandom but its really odd how it checks fd = -1 first..
+ike:
+  version: 2.2.1+dfsg-5
+  comments: |
+    A symbol name differs:
+    .
+      - _ZN9_IKEI_MSG11get_suspendEPl.localalias.1
+      + _ZN9_IKEI_MSG11get_suspendEPl.localalias.0
+    .
+    source/libike/libike.h:170:	long	get_suspend( long * suspend );
+    source/libike/libike.cpp:174:long _IKEI_MSG::get_suspend( long * suspend )
+    source/iked/ike.io.admin.cpp:647:					if( msg.get_suspend( &suspend ) != IPCERR_OK )
 ikiwiki:
   version: 3.20160506
   comments: |
@@ -12818,6 +12829,10 @@ python-bashate:
   version: 0.3.1-2
   bugs:
     - 816735
+python-bcrypt:
+  version: 3.1.0-1
+  comments: |
+    [i386] Filenames in debug symbols are architecture-dependent (embed `uname -m`).
 python-bioblend:
   version: 0.7.0-1
   bugs:
