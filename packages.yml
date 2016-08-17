@@ -1503,6 +1503,10 @@ calf:
   version: 0.0.60-3
   bugs:
     - 811883
+calibre:
+  version: 2.60.0+dfsg-1
+  comments: |
+    [i386] readdir() order dependency: https://sources.debian.net/src/calibre/2.60.0%2Bdfsg-1/setup/gui.py/#L49-L51
 calligra:
   version: 1:2.8.5+dfsg-1
   issues:
