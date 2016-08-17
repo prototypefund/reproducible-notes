@@ -1764,6 +1764,10 @@ chiark-utils:
   bugs:
     - 777300
     - 792998
+chkconfig:
+  version: 11.4.54.60.1debian1
+  bugs:
+    - 834666
 chktex:
   version: 1.7.4-1
   bugs:
@@ -3109,6 +3113,10 @@ django-model-utils:
   version: 2.4-1
   bugs:
     - 828651
+django-modeltranslation:
+  version: 0.11-1
+  bugs:
+    - 834667
 django-pipeline:
   version: 1.6.8-1
   bugs:
@@ -3141,6 +3149,10 @@ django-stronghold:
   version: 0.2.7+debian-2
   bugs:
     - 828658
+django-taggit:
+  version: 0.20.2-1
+  bugs:
+    - 834668
 django-testscenarios:
   version: 0.7.4-2
   issues:
@@ -3154,6 +3166,10 @@ djangorestframework:
   version: 3.0.5-2
   bugs:
     - 830633
+djangorestframework-gis:
+  version: 0.10.1-1
+  bugs:
+    - 834669
 djbdns:
   version: 1:1.05-8
   issues:
@@ -5433,6 +5449,8 @@ gnuchess-book:
   version: 1.02-1
   issues:
     - blacklisted_on_jenkins_armhf_only
+  bugs:
+    - 834670
 gnudatalanguage:
   version: 0.9.6v2-3
   bugs:
@@ -9009,6 +9027,8 @@ libxalan2-java:
   version: 2.7.1-9
   issues:
     - random_order_in_java_jar_manifest_mf
+  bugs:
+    - 834671
 libxaw:
   version: 2:1.0.13-1
   issues:
@@ -9666,6 +9686,10 @@ mapnik:
   version: 3.0.9+ds-1
   issues:
     - blacklisted_on_jenkins_armhf_only
+mapnik-vector-tile:
+  version: 1.1.2+dfsg-1
+  bugs:
+    - 834672
 mapproxy:
   version: 1.9.0-2
   issues:
@@ -10670,6 +10694,10 @@ neutron-vpnaas:
   version: 2015.1.1-1
   issues:
     - ftbfs_uninvestigated_test_failures
+nevow:
+  version: 0.14.0-1
+  bugs:
+    - 834673
 newlib:
   version: 2.2.0+git20150830.5a3d536-1
   issues:
@@ -12592,6 +12620,7 @@ pyevolve:
   version: 0.6~rc1+svn398+dfsg-9
   bugs:
     - 827806
+    - 834674
 pyexcelerator:
   version: 0.6.4.1-2
   bugs:
@@ -12640,6 +12669,8 @@ pygccxml:
     Also encodes the current encoding in api.doctree
   issues:
     - randomness_in_documentation_generated_by_sphinx
+  bugs:
+    - 834675
 pygdchart2:
   version: 0.beta1-3.6
   bugs:
@@ -13258,6 +13289,7 @@ python-oauth2client:
   version: 2.0.1-3
   bugs:
     - 828634
+    - 834676
 python-openstackclient:
   version: 2.3.0-2
   issues:
@@ -14177,6 +14209,8 @@ refcard:
   version: 5.0.9
   issues:
     - timestamps_in_pdf_generated_by_latex
+  bugs:
+    - 834677
 refdb:
   version: 1.0.2-3
   comments: |
@@ -15377,6 +15411,7 @@ sorl-thumbnail:
   version: 12.2-1
   bugs:
     - 830636
+    - 834678
 sortmail:
   version: 1:2.4-1
   bugs:
@@ -15722,6 +15757,8 @@ surefire:
   version: 2.17-2
   comments: |
     SmartStakTraceParser.java contains unicode characters. This should work in Java source I think so not sure what is the problem. See, for example http://stackoverflow.com/questions/11226878/why-do-i-need-to-escape-unicode-in-java-source-files
+  bugs:
+    - 834679
 surf-alggeo:
   version: 1.0.6+ds-2
   issues:
@@ -16222,6 +16259,8 @@ tomcat7:
   version: 7.0.62-1
   issues:
     - ftbfs_uninvestigated_big_packages
+  bugs:
+    - 834680
 tomcat8:
   version: 8.0.32-1
   issues:
