@@ -2532,9 +2532,10 @@ cyrus-imapd:
       https://anonscm.debian.org/cgit/users/danielsh-guest/reproducible-patches.git/plain/cyrus-imapd-2.5.9-2.diff
     .
     [1] https://sources.debian.net/src/cyrus-imapd/2.5.9-2/lib/mkchartable.pl/#L77
-    {2] https://sources.debian.net/src/cyrus-imapd/2.5.9-2/Makefile.am/#L1262
+    [2] https://sources.debian.net/src/cyrus-imapd/2.5.9-2/Makefile.am/#L1262
   issues:
     - timestamps_from_cpp_macros
+    - collation_order_varies_by_locale
 cython:
   version: 0.23.4+git4-g7eed8d8-1
   issues:
@@ -12306,6 +12307,8 @@ postfix:
     .
     Patch for #1, #2, and #3: https://anonscm.debian.org/cgit/users/danielsh-guest/reproducible-patches.git/plain/postfix_3.1.0-5.diff
       It builds fine, but I'm unable to verify whether it resolves #2.
+  issues:
+    - collation_order_varies_by_locale
 postgis:
   version: 2.1.8+dfsg-4
   issues:
