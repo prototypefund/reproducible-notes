@@ -474,6 +474,8 @@ apt-cacher-ng:
     readdir() dependency inside tar:
       https://sources.debian.net/src/apt-cacher-ng/0.9.3-1/dbgen/Makefile/#L120
       (invoked from <https://sources.debian.net/src/apt-cacher-ng/0.9.3-1/debian/rules/#L28>)
+  bugs:
+    - 834755
 apt-dpkg-ref:
   version: 5.3.1+nmu1
   issues:
