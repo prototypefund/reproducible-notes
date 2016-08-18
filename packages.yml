@@ -3593,6 +3593,8 @@ elki:
   version: 0.7.0-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 834739
 elmerfem:
   version: 6.1.0.svn.5396.dfsg2-4
   issues:
@@ -5240,6 +5242,10 @@ gl-117:
   version: 1.3.2-3
   bugs:
     - 817481
+glance:
+  version: 12.0.0-3
+  bugs:
+    - 834740
 glances:
   version: 2.6.2-1
   issues:
@@ -5605,6 +5611,10 @@ golang-github-gosimple-slug:
   version: 1.0-1
   bugs:
     - 828985
+golang-github-hashicorp-go-reap:
+  version: 0.0~git20160113.0.2d85522-1
+  bugs:
+    - 834741
 golang-github-hashicorp-mdns:
   version: 0.0~git20150317.0.2b439d3-1
   issues:
@@ -13202,6 +13212,7 @@ python-keystoneauth1:
   version: 1.1.0-1
   bugs:
     - 816735
+    - 834742
 python-keystonemiddleware:
   version: 1.5.0-1
   issues:
@@ -15264,6 +15275,10 @@ sivp:
   version: 0.5.3+svn287-2.1
   bugs:
     - 801738
+sixer:
+  version: 1.6-1
+  bugs:
+    - 834743
 sjfonts:
   version: 2.0.2-1.1
   issues:
@@ -17527,6 +17542,7 @@ xmlgraphics-commons:
     timestamp, the hostname, etc. to MANIFEST.MF files.
   bugs:
     - 831403
+    - 834744
 xmlrpc-c:
   version: 1.33.14-0.2
   comments: |
