@@ -15302,6 +15302,13 @@ sks:
   version: 1.1.5-4
   issues:
     - randomness_in_ocaml_preprocessed_files
+skycat:
+  version: 3.1.2+starlink1~b+dfsg-2
+  comments: |
+    [i386/armf]
+    tcl's stdlib auto_mkindex generates indexes in semi-unpredictable order.
+    It appears the index is a concatenation of groups of lines, and one of the group both moves to a different location relative to other groups, and its lines are internally shuffled as well.
+    http://www.tcl.tk/man/tcl8.4/TclCmd/library.htm#M9
 skytools3:
   version: 3.2-2
   issues:
