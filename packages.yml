@@ -10773,7 +10773,7 @@ ngetty:
   bugs:
     - 829550
 nginx:
-  version:  1.11.3-1~exp1
+  version: 1.11.3-1~exp1
   comments: |
     [i386, experimental]
     The value of https://sources.debian.net/src/nginx/1.11.3-1~exp1/src/os/unix/ngx_posix_init.c/#L49 differs between the two i386 builds
