@@ -4988,6 +4988,10 @@ gearmand:
     - captures_shell_variable_in_autofoo_script
   bugs:
     - 831771
+gedit:
+  version: 3.20.2-2
+  comments: |
+    [i386/armhf] mkenums output in unpredictable order.
 gegl:
   version: 0.2.0-7.1
   comments: |
@@ -10768,6 +10772,17 @@ ngetty:
   version: 1.1-3
   bugs:
     - 829550
+nginx:
+  version:  1.11.3-1~exp1
+  comments: |
+    [i386, experimental]
+    The value of https://sources.debian.net/src/nginx/1.11.3-1~exp1/src/os/unix/ngx_posix_init.c/#L49 differs between the two i386 builds
+    │   │   │   │   │  ./debian/build-extras/src/os/unix/ngx_posix_init.c:49
+    │   │   │   │   │ - 807e4e2:	c7 05 24 62 18 08 40 	movl   $0x40,0x8186224
+    │   │   │   │   │ + 807e4e2:	c7 05 24 62 18 08 20 	movl   $0x20,0x8186224
+    The value is set somewhere in auto/ tree, appears to depend on CPU type (--with-cpu-opt=$CPU) and on the C compiler.
+    .
+    Diffoscope output was truncated so there may be additional differences.
 nglister:
   version: 1.0.2
   bugs:
