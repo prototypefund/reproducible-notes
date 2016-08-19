@@ -4843,6 +4843,8 @@ gedit:
   version: 3.20.2-2
   comments: |
     [i386/armhf] mkenums output in unpredictable order.
+  issues:
+    - nondeterminstic_ordering_in_gsettings_glib_enums_xml
 gegl:
   version: 0.2.0-7.1
   comments: |
