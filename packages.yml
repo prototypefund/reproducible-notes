@@ -9441,6 +9441,8 @@ manila:
   version: 1:1.0.0-4
   issues:
     - ftbfs_uninvestigated_test_failures
+  bugs:
+    - 834839
 manpages-hu:
   version: 20010119-5
   bugs:
@@ -10444,6 +10446,7 @@ neutron:
   version: 1:7.0.0-4
   bugs:
     - 816735
+    - 834840
 neutron-lbaas:
   version: 2015.1.0-3
   issues:
@@ -14383,6 +14386,7 @@ sahara:
   version: 1:3.0.0-5
   bugs:
     - 816735
+    - 834841
 sailcut:
   version: 1.3.6-1
   comments: |
