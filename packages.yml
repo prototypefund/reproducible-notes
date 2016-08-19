@@ -1,7 +1,7 @@
 3270font:
   version: 1.2-1
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 3depict:
   version: 0.0.18-2
   bugs:
@@ -3103,7 +3103,7 @@ djbdns:
 dkg-handwriting:
   version: 0.15-1
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 dkopp:
   version: 6.5-1
   bugs:
@@ -3660,7 +3660,7 @@ espresso:
 essays1743:
   version: 1.0-4.1
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 esys-particle:
   version: 2.3-2
   issues:
@@ -4067,34 +4067,34 @@ fontmatrix:
 fonts-arphic-bkai00mp:
   version: 2.10-13
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-arphic-bsmi00lp:
   version: 2.10-14
   comments: |
     fontforge script:
     https://sources.debian.net/src/fonts-arphic-bsmi00lp/2.10-14/fix-0uFE4F.pe/
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-beteckna:
   version: 0.4-8
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-breip:
   version: 1.0-9
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-cantarell:
   version: 0.0.16-1
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-century-catalogue:
   version: 001.001-6
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-dejavu:
   version: 2.34-1
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-dustin:
   version: 20030517-10
   issues:
@@ -4107,34 +4107,38 @@ fonts-ebgaramond:
     Python script using fontforge module:
     https://sources.debian.net/src/fonts-ebgaramond/0.015%2Bgit20130628-3/tools/makefont.py/
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-fantasque-sans:
   version: 1.6.4~dfsg-1
   comments: |
     Python script using fontforge module (embeded in a shell script, yay):
     https://sources.debian.net/src/fonts-fantasque-sans/1.6.4~dfsg-1/validate-generate.sh/
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-freefont:
   version: 20120503-4
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-gargi:
   version: 2.0-4
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-georgewilliams:
   version: 20031023-2
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
+fonts-goudybookletter:
+  version: 2010.07.03-2
+  issues:
+    - fontforge_resets_modification_time
 fonts-gubbi:
   version: 1.3-3
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-isabella:
   version: 1.202-1
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-junicode:
   version: 0.7.8-2
   bugs:
@@ -4142,75 +4146,75 @@ fonts-junicode:
 fonts-kacst-one:
   version: 5.0+svn11846-7
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-kalapi:
   version: 1.0-2
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-levien-typoscript:
   version: 000.001-4
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-liberation:
   version: 1.07.4-1
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-linuxlibertine:
   version: 5.3.0-2
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-lohit-beng-assamese:
   version: 2.5.3-1
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-lohit-beng-bengali:
   version: 2.5.3-1
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-lohit-deva:
   version: 2.5.3-1
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-lohit-gujr:
   version: 2.5.3-1
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-lohit-guru:
   version: 2.5.3-2
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-lohit-knda:
   version: 2.5.3-2
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-lohit-mlym:
   version: 2.5.4-1
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-lohit-orya:
   version: 2.5.4.1-1
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-lohit-taml:
   version: 2.5.3-1
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-lohit-taml-classical:
   version: 2.5.3-2
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-lohit-telu:
   version: 2.5.3-1
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-meera-taml:
   version: 1.1-1
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-navilu:
   version: 1.2-2
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-noto:
   version: 2015-05-11+cjk-1
   comments: |
@@ -4223,64 +4227,64 @@ fonts-ocr-a:
     fontforge script:
     https://sources.debian.net/src/fonts-ocr-a/1.0-6/debian/scripts/ConvertFont.ff/
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-oldstandard:
   version: 2.2really-3
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-pagul:
   version: 1.0-7
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-pecita:
   version: 4.3-1
   comments: |
     fontforge script:
     https://sources.debian.net/src/fonts-pecita/4.3-1/
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-play:
   version: 1.002+20111215.1+ds2-1
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-prociono:
   version: 2.3-3
   comments: |
     Uses sortsmill-tools.
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-samyak:
   version: 1.2.2-4
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-sarai:
   version: 1.0-2
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-sil-abyssinica:
   version: 1.500-1
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-sipa-arundina:
   version: 0.2.0-7
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-smc:
   version: 6.0-1
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-tibetan-machine:
   version: 1.901b-5
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-tlwg:
   version: 1:0.6.1-2
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-tuffy:
   version: 20120614-2
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 fonts-uralic:
   version: 0.0.20040829-5
   issues:
@@ -8951,7 +8955,7 @@ likwid:
 lilypond:
   version: 2.18.2-4.1
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 lilyterm:
   version: 0.9.9.4-4
   comments: |
@@ -11375,7 +11379,7 @@ oxygen:
 oxygen-fonts:
   version: 4:5.3.1-1
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 p0f:
   version: 2.0.8-2
   comments: |
@@ -14470,7 +14474,7 @@ scala-mode-el:
 scalable-cyrfonts:
   version: 4.16+nmu1
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 scalapack-doc:
   version: 1.5-10
   bugs:
@@ -14885,7 +14889,7 @@ sixer:
 sjfonts:
   version: 2.0.2-1.1
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 skalibs:
   version: 0.47-1
   issues:
@@ -16038,19 +16042,19 @@ ttf-atarismall:
     fontforge script:
     https://sources.debian.net/src/ttf-atarismall/2.1-4/debian/scripts/ConvertFont.ff/
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 ttf-cjk-compact:
   version: 1.23
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 ttf-dejavu:
   version: 2.33-3
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 ttf-freefont:
   version: 20100919-1
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 ttf-goudybookletter:
   version: 2010.07.03-1
   comments: |
@@ -16058,11 +16062,11 @@ ttf-goudybookletter:
     https://sources.debian.net/src/ttf-goudybookletter/2010.07.03-1/debian/scripts/sfd2otf.ff/
     https://sources.debian.net/src/ttf-goudybookletter/2010.07.03-1/debian/scripts/sfd2ttf.ff/
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 ttf-staypuft:
   version: 0.04-6
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 ttf-tiresias:
   version: 0.1-2
   comments: |
@@ -16335,7 +16339,7 @@ unidecode:
 unifont:
   version: 7.0.06-1
   issues:
-    - fontforge_reset_modification_time
+    - fontforge_resets_modification_time
 unittest++:
   version: 1.4.0-3
   bugs:
