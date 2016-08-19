@@ -15907,6 +15907,11 @@ sword:
   version: 1.7.3+dfsg-7
   bugs:
     - 811602
+swt-gtk:
+  version: 3.8.2-3
+  comments: |
+    DWARF debug symbols include a temporary filename in DW_AT_producer = ... -fsource-filename=/tmp/fileMke5E8
+    (this could be the result of 'mktemp /tmp/fileXXXXXX' or an equivalent mktemp(3) call)
 swtchart:
   version: 0.8.0-1
   issues:
