@@ -178,7 +178,7 @@ timestamps_in_beam_files:
     Erlang source files compiled by erlc into BEAM files contain timestamps and the build path.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInBeamFiles
   deterministic: True
-fontforge_reset_modification_time:
+fontforge_resets_modification_time:
   description: |
     When a fontforge script is used, if the font loaded is modified
     in any way, then the font modification time is set to the current
