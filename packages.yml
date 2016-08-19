@@ -6469,6 +6469,10 @@ ino-headers:
     Current date in written in documentation footers.
   issues:
     - timestamps_in_documentation_generated_by_naturaldocs
+insubstantial:
+  version: 7.3+dfsg3-2
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 integrit:
   version: 4.1-1
   issues:
@@ -6696,6 +6700,10 @@ jaxe:
     - timestamps_in_jar
     - timestamps_in_documentation_generated_by_javadoc
     - locale_in_documentation_generated_by_javadoc
+jayway-jsonpath:
+  version: 2.0.0-2
+  issues:
+    - random_ordering_in_pom
 jblas:
   version: 1.2.3-6
   bugs:
