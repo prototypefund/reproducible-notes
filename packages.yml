@@ -2483,8 +2483,17 @@ d-itg:
 dacs:
   version: 1.4.28b-3
   comments: |
-    Embeds the build date.
+    Embeds the build date-
+    .
     https://sources.debian.net/src/dacs/1.4.28b-3/src/mkstamp/?hl=21
+    https://sources.debian.net/src/dacs/1.4.28b-3/man/mkindex/#L477
+    https://sources.debian.net/src/dacs/1.4.28b-3/man/mkversion/#L23
+    .
+    Patch for above at https://gist.github.com/lamby/c0126d48c8d23dc961b374992ba1d353/raw
+    .
+    Remaining-
+    .
+      http://sources.debian.net/src/dacs/1.4.28b-3/src/aclcheck.c/#L617
 dactyl:
   version: 1.2~hg7166-1
   comments: |
