@@ -1650,6 +1650,10 @@ cgilib:
   bugs:
     - 776935
     - 793002
+cgit:
+  version: 1.0+git2.8.3-3
+  comments: |
+    Captures $HOME.
 cgminer:
   version: 4.9.2-1
   bugs:
@@ -15417,6 +15421,10 @@ swift-im:
   version: 2.0+dev6-1
   bugs:
     - 797279
+swig:
+  version: 3.0.7-2.1
+  comments: |
+    [i386] Captures `uname -m` ("x86_64" v. "i686")
 swiginac:
   version: 1.5.1.1-2
   bugs:
