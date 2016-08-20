@@ -4989,6 +4989,26 @@ ghc:
       https://sources.debian.net/src/ghc/7.10.3-9/debian/rules/#L209-L210
     .
     (The blacklist tag is from 7.10.3-7.)
+    .
+    Untested patch:
+    .
+    diff --git a/debian/rules b/debian/rules
+    index 779d315..5561e13 100755
+    --- a/debian/rules
+    +++ b/debian/rules
+    @@ -206,8 +206,11 @@ endif
+     ifeq (YES,$(BUILD_HADDOCK_DOCS))
+     	mkdir -p debian/tmp/$(DEB_HOOGLE_TXT_DIR)
+     	cat debian/ghc-doc.links.in                     > debian/ghc-doc.links
+    +	# ignore libraries/ghc/ since it is a symlink to ghc-$(ProjectVersion)
+     	find debian/tmp/usr/share/doc/ghc-doc/html/libraries/*/ -name "*.txt" \
+    -		-printf "%p $(DEB_HOOGLE_TXT_DIR)/%f\n" >> debian/ghc-doc.links
+    +		-printf "%p $(DEB_HOOGLE_TXT_DIR)/%f\n" \
+    +		grep -v debian/tmp/usr/share/doc/ghc-doc/html/libraries/ghc/ \
+    +		>> debian/ghc-doc.links
+     	find debian/tmp/usr/share/doc/ghc-doc $(FILES) > debian/ghc-doc.install
+     	find debian/tmp/usr/lib/ghc-doc $(FILES)      >> debian/ghc-doc.install
+     endif
   issues:
     - blacklisted_on_jenkins_armhf_only
 ghc-testsuite:
