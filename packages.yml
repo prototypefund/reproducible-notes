@@ -2753,6 +2753,11 @@ debian-reference:
   issues:
     - different_due_to_umask
     - timestamps_in_epub
+debian-security-support:
+  version: 2016.05.24
+  comments: |
+    [i386/armhf] Tests fail due to «date -d 2213-05-23 +%Y%m%d» dying with stderr «date: invalid date '2213-05-23'» and no stdout.
+    The code is https://sources.debian.net/src/debian-security-support/2016.05.24/check-support-status.in/#L203
 debian-zh-faq:
   version: 1.13
   comments: |
@@ -3468,6 +3473,13 @@ eigen3:
   version: 3.3~beta1-2
   issues:
     - blacklisted_on_jenkins_armhf_only
+eja:
+  version: 9.5.20-1
+  comments: |
+    .data section in a binary executable contains raw source files in unpredictable order.
+    Start with the LC_COLLATE_sensitive glob at https://sources.debian.net/src/eja/9.5.20-1/Makefile/#L26 .
+  issues:
+    - collation_order_varies_by_locale
 elasticsearch:
   version: 1.7.5-1
   bugs:
