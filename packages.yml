@@ -9622,12 +9622,6 @@ mcrl2:
     https://sources.debian.net/src/mcrl2/201409.0-1/libraries/utilities/source/command_line_interface.cpp/#L547-L550
   bugs:
     - 811860
-mdbtools:
-  version: 0.7.1-4
-  comments: |
-    Uses deterministic date, but not locale-aware.
-    https://sources.debian.net/src/mdbtools/0.7.1-4/doc/Makefile.am/#L20
-    Solved by setting LC_ALL=C before calling date.
 meanwhile:
   version: 1.0.2-7
   issues:
