@@ -11344,14 +11344,9 @@ osptoolkit:
   bugs:
     - 830444
 oss4:
-  version: 4.2-build2010-2
-  comments: |
-    Embeds the build date.
-    https://sources.debian.net/src/oss4/4.2-build2010-4/setup/setupdir.sh/#L203
-  issues:
-    - timestamps_in_manpages_generated_by_txt2man
-    - timestamps_in_tarball
-    - different_due_to_umask
+  version: 4.2-build2010-5
+  bugs:
+    - 834993
 osspsa:
   version: 1.2.6-1
   bugs:
