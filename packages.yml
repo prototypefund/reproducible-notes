@@ -3006,6 +3006,8 @@ dita-ot:
   version: 1.5.3-1
   comments: |
     Capture build time in /usr/share/dita-ot/lib/configuration.properties
+  issues:
+    - timestamp_added_by_java_util_properties
 ditaa:
   version: 0.10+ds1-1
   bugs:
