@@ -14715,6 +14715,10 @@ sgml2x:
   version: 1.0.0-11.3
   issues:
     - elinks_dump_varies_output_with_locale
+sgrep:
+  version: 1.94a-4
+  issues:
+    - captures_build_path
 sgt-puzzles:
   version: 20160429.b31155b-1
   bugs:
@@ -16314,6 +16318,10 @@ unhide:
   version: 20130526-1
   bugs:
     - 823241
+uni2ascii:
+  version: 4.18-2
+  issues:
+    - captures_build_path
 unicon:
   version: 3.0.4-14
   bugs:
@@ -16326,6 +16334,10 @@ unifont:
   version: 7.0.06-1
   issues:
     - fontforge_resets_modification_time
+unison:
+  version: 2.48.3-1
+  issues:
+    - captures_build_path
 unittest++:
   version: 1.4.0-3
   bugs:
@@ -16620,6 +16632,10 @@ warzone2100:
   version: 3.1.1-3
   issues:
     - different_due_to_umask
+wavbreaker:
+  version: 0.11-1
+  issues:
+    - captures_build_path
 wavemon:
   version: 0.8.0-1
   bugs:
@@ -16695,6 +16711,10 @@ west-chamber:
     Embed kernel version in Makefiles.
   issues:
     - different_due_to_umask
+weston:
+  version: 1.11.0-1
+  issues:
+    - captures_build_path
 wget:
   version: 1.18-2
   issues:
@@ -16887,6 +16907,10 @@ wwwconfig-common:
   version: 0.3.0
   bugs:
     - 817728
+wyrd:
+  version: 1.4.6-4
+  issues:
+    - captures_build_path
 wysihtml:
   version: 0.13-5.2
   bugs:
@@ -17103,6 +17127,10 @@ xmlunit:
   version: 1.5-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+xmount:
+  version: 0.7.3-1
+  issues:
+    - captures_build_path
 xnee:
   version: 3.19-1
   comments: |
@@ -17336,6 +17364,10 @@ yodl:
   version: 3.08.01-1
   issues:
     - timestamps_in_ps_generated_by_dvips
+yojson:
+  version: 1.3.2-1
+  issues:
+    - captures_build_path
 yorick:
   version: 2.2.04+dfsg1-5
   bugs:
