@@ -16420,6 +16420,8 @@ varnish:
     Modules contain a random `file_id`:
     https://sources.debian.net/src/varnish/4.0.2-1/lib/libvcc/vmodtool.py/?hl=237:244#L237
     Should discuss with upstream on replacing this with a constant hash.
+  bugs:
+    - 835061
 varnish-agent:
   version: 2.2~git20130708-1
   bugs:
