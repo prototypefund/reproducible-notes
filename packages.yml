@@ -3274,11 +3274,6 @@ drbd-doc:
   version: 8.4~20140825-1
   issues:
     - timestamps_in_pdf_generated_by_apache_fop
-drbd-utils:
-  version: 8.9.5-1
-  comments: |
-    Embedded date is affected by timezone in
-    https://sources.debian.net/src/drbd-utils/8.9.5-1/user/shared/Makefile.in/?hl=90#L90
 drift:
   version: 2.2.3-2.3
   issues:
