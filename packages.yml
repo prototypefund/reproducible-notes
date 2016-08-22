@@ -8255,6 +8255,10 @@ libmath-bigint-gmp-perl:
   version: 1.43-1
   issues:
     - ftbfs_uninvestigated_test_failures
+libmath-gsl-perl:
+  version: 0.36-2
+  bugs:
+    - 826192
 libmemcache:
   version: 1.4.0.rc2-1.1
   bugs:
