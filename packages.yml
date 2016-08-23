@@ -1393,6 +1393,10 @@ bobcat:
   version: 4.01.04-1
   issues:
     - random_order_in_static_libraries
+boinc:
+  version: 7.6.33+dfsg-1
+  issues:
+    - captures_build_path
 bombardier:
   version: 0.8.3+nmu1
   issues:
@@ -2073,6 +2077,10 @@ cl-salza:
   version: 0.7.4-1
   bugs:
     - 817400
+clamfs:
+  version: 1.0.1-1.1
+  issues:
+    - captures_build_path
 clanlib:
   version: 1.0~svn3827-5
   bugs:
@@ -2595,6 +2603,10 @@ ctop:
   version: 1.0.0-1
   bugs:
     - 829357
+ctpp2:
+  version: 2.8.3-19
+  issues:
+    - captures_build_path
 ctwm:
   version: 3.7-3.3
   bugs:
@@ -2920,6 +2932,10 @@ dbmix:
   version: 0.9.8-6.3
   issues:
     - captures_build_path
+dbus:
+  version: 1.10.10-1
+  issues:
+    - captures_build_path
 dbus-c++:
   version: 0.9.0-8
   issues:
@@ -3216,6 +3232,10 @@ diagnostics:
   bugs:
     - 822399
     - 812262
+dichromat:
+  version: 2.0.0-3
+  issues:
+    - captures_build_path
 dico:
   version: 2.2-9
   issues:
@@ -3606,6 +3626,10 @@ dracut:
     libxslt.
   bugs:
     - 783131
+drawterm:
+  version: 20110822-1
+  issues:
+    - captures_build_path
 drbd-doc:
   version: 8.4~20140825-1
   issues:
@@ -3828,6 +3852,10 @@ eflite:
   version: 0.4.1-6
   issues:
     - captures_build_path
+efte:
+  version: 1.1-2
+  issues:
+    - captures_build_path
 eigen3:
   version: 3.3~beta1-2
   issues:
@@ -3934,6 +3962,10 @@ emms:
   version: 4.0-2
   issues:
     - timestamps_in_emacs_autoloads
+empire-lafe:
+  version: 1.1-1
+  issues:
+    - captures_build_path
 enblend-enfuse:
   version: 4.1.4+dfsg-2
   issues:
@@ -4031,6 +4063,10 @@ erlang-folsom:
     - captures_build_path
 erlang-luerl:
   version: 0.2015.12.10-1
+  issues:
+    - captures_build_path
+erlang-meck:
+  version: 0.8.4+dfsg-1
   issues:
     - captures_build_path
 erlang-proper:
@@ -4178,6 +4214,10 @@ faketime:
   version: 0.9.6-7
   bugs:
     - 811610
+falselogin:
+  version: 0.3-4
+  issues:
+    - captures_build_path
 farstream-0.2:
   version: 0.2.7-1
   bugs:
@@ -4245,6 +4285,10 @@ fdclone:
     #2. The "Configur" (sic) script depends on the build-time "$LANG".
     .
     #3. The "Configur" (sic) script probes /proc/mounts on the host.
+fdflush:
+  version: 1.0.1.3
+  issues:
+    - captures_build_path
 fdroidserver:
   version: 0.6.0-2
   comments: |
@@ -5761,6 +5805,10 @@ gnome-keyring:
   version: 3.20.0-2
   bugs:
     - 826035
+gnome-keyring-sharp:
+  version: 1.0.0-5
+  issues:
+    - captures_build_path
 gnome-menus:
   version: 3.13.3-8
   issues:
@@ -6183,6 +6231,10 @@ gpick:
     https://sources.debian.net/src/gpick/0.2.5-1/tools/gpick.py/?hl=141:151#L141
   bugs:
     - 831041
+gplcver:
+  version: 2.12a-1.1
+  issues:
+    - captures_build_path
 gpp:
   version: 2.24-3
   issues:
@@ -6296,6 +6348,10 @@ gravitation:
   version: 3+dfsg1-4
   bugs:
     - 776872
+grcm:
+  version: 0.1.6-1
+  issues:
+    - captures_build_path
 gretl:
   version: 1.9.92-1
   comments: |
@@ -6368,6 +6424,10 @@ gsfonts:
   version: 1:8.11+urwcyr1.0.7~pre44-4.2
   bugs:
     - 817488
+gsmartcontrol:
+  version: 0.8.7-1.1
+  issues:
+    - captures_build_path
 gsmlib:
   version: 1.10+20120414.gita5e5ae9a-0.3
   bugs:
@@ -6451,6 +6511,10 @@ gtkimageview:
   version: 1.6.4+dfsg-1
   bugs:
     - 831117
+gtkpool:
+  version: 0.5.0-9
+  issues:
+    - captures_build_path
 gtkspell:
   version: 2.0.16-1.1
   issues:
@@ -6533,6 +6597,10 @@ gutenprint:
     http://permalink.gmane.org/gmane.linux.printing.gimp-print.devel/11877
     Fixed in upstream vcs:
     http://gimp-print.cvs.sourceforge.net/viewvc/gimp-print/print/src/foomatic/foomatic-generator.in?r1=1.83&r2=1.84
+guymager:
+  version: 0.7.4-2
+  issues:
+    - captures_build_path
 gvrng:
   version: 4.4-1
   bugs:
@@ -6555,6 +6623,10 @@ h2database:
     WIP/incomplete patch https://gist.github.com/lamby/c9687633ffc40c0c3a848cd1743a717e/raw
   issues:
     - timestamps_in_zip
+hamfax:
+  version: 0.8.1-1
+  issues:
+    - captures_build_path
 handbrake:
   version: 0.10.2+ds1-1
   comments: |
@@ -13820,6 +13892,10 @@ pyqwt3d:
   version: 0.1.7~cvs20090625-13
   bugs:
     - 812138
+pyregion:
+  version: 1.1.4-2
+  issues:
+    - captures_build_path
 pyrenamer:
   version: 0.6.0-1.2
   bugs:
