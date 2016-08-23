@@ -10199,6 +10199,10 @@ lnav:
   version: 0.7.0-3
   issues:
     - ftbfs_uninvestigated_test_failures
+lnpd:
+  version: 0.9.0-11
+  issues:
+    - captures_build_path
 loadwatch:
   version: 1.0+1.1alpha1-5
   bugs:
@@ -10366,6 +10370,10 @@ lua-system:
   version: 0.2.0-1
   issues:
     - unsorted_lua_versions_in_control
+lua50:
+  version: 5.0.3-7
+  issues:
+    - captures_build_path
 luasocket:
   version: 3.0~rc1+git+321c0c9-1
   comments: |
@@ -10398,6 +10406,10 @@ lvtk:
   version: 1.2.0~dfsg0-1
   bugs:
     - 834158
+lxc:
+  version: 1:2.0.3-1
+  issues:
+    - captures_build_path
 lxqt-about:
   version: 0.10.0-3
   issues:
@@ -10659,6 +10671,10 @@ marionnet:
     - captures_kernel_version
   bugs:
     - 818952
+marisa:
+  version: 0.2.4-8
+  issues:
+    - captures_build_path
 massxpert:
   version: 3.4.1-1
   issues:
@@ -10745,6 +10761,10 @@ mayavi2:
     - random_order_in_python_environment_pickle
   bugs:
     - 830342
+mbw:
+  version: 1.2.2-1
+  issues:
+    - captures_build_path
 mc:
   version: 3:4.8.17-1
   bugs:
@@ -10945,6 +10965,10 @@ mira:
   comments: |
     Embed build time, username, hostname and kernel version:
     http://sources.debian.net/src/mira/4.0.2-1/src/progs/Makefile.am/?hl=17:22#L17
+miredo:
+  version: 1.2.6-3
+  issues:
+    - captures_build_path
 mistral:
   version: 1.0.0-4
   bugs:
@@ -10989,6 +11013,10 @@ mlton:
     Will also need something like https://gist.github.com/8969f5c2d7b97be9f9fa
   issues:
     - timestamps_in_documentation_generated_by_htmldoc
+mm:
+  version: 1.4.2-5
+  issues:
+    - captures_build_path
 mm-common:
   version: 0.9.10-1
   issues:
@@ -11032,6 +11060,10 @@ mod-gnutls:
   version: 0.7-1
   issues:
     - ftbfs_uninvestigated_test_failures
+mod-mono:
+  version: 3.8-3
+  issues:
+    - captures_build_path
 modello:
   version: 1.8.3-2
   issues:
@@ -11316,6 +11348,10 @@ msp430-libc:
   version: 20120224-1
   issues:
     - different_due_to_umask
+msp430mcu:
+  version: 20120406-2
+  issues:
+    - captures_build_path
 mssh:
   version: 2.2-1
   bugs:
@@ -11420,6 +11456,10 @@ mxallowd:
   version: 1.9-2
   issues:
     - timestamps_in_pdf_generated_by_latex
+mydumper:
+  version: 0.9.1-1
+  issues:
+    - captures_build_path
 myghty:
   version: 1.1-5
   comments: |
@@ -11498,6 +11538,10 @@ nasm:
     - pdf_created_by_ghostscript
   bugs:
     - 820194
+naspro-bridges:
+  version: 0.5.1-2
+  issues:
+    - captures_build_path
 naspro-core:
   version: 0.5.1-1
   comments: |
@@ -12185,6 +12229,10 @@ ognl:
   version: 2.7.3-6
   bugs:
     - 801855
+ohcount:
+  version: 3.0.0-8.2
+  issues:
+    - captures_build_path
 oidua:
   version: 0.16.1-7
   issues:
@@ -12600,6 +12648,10 @@ osgi-compendium:
   version: 4.3.0-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+osm2pgsql:
+  version: 0.90.1+ds-1
+  issues:
+    - captures_build_path
 osmcoastline:
   version: 2.1.3-2
   issues:
