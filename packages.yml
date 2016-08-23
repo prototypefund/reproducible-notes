@@ -2951,6 +2951,8 @@ dbus-python:
   comments: |
     uses docutils via epydoc, so it honors SOURCE_DATE_EPOCH;
     the differing integers in the output don't look like timestamps
+  issues:
+    - use_epydoc
 dbusada:
   version: 0.3-1
   issues:
