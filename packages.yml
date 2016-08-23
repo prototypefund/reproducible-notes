@@ -229,6 +229,10 @@ aldo:
   version: 0.7.7-1
   bugs:
     - 823431
+alembic:
+  version: 0.8.7-2
+  issues:
+    - randomness_in_documentation_generated_by_sphinx
 allegro5:
   version: 2:5.0.11-1
   comments: |
@@ -1443,6 +1447,7 @@ breathe:
   version: 4.2.0-3
   issues:
     - captures_build_path
+    - randomness_in_documentation_generated_by_sphinx
 brickos:
   version: 0.9.0.dfsg-12
   comments: |
@@ -12332,6 +12337,10 @@ paman:
   version: 0.9.4-1
   bugs:
     - 819779
+pandas:
+  version: 0.18.1-1
+  issues:
+    - randomness_in_documentation_generated_by_sphinx
 pandoc:
   version: 1.17.0.3~dfsg-2
   comments: |
