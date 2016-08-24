@@ -3438,6 +3438,8 @@ dispcalgui:
     Returning customer; see debian/patches/01_reproducible-build.diff.
     .
     The difference is due to the "TIMESTAMP" replaceable being populated from lastmod_time.
+  bugs:
+    - 835371
 distmp3:
   version: 0.1.9.ds1-4.6
   bugs:
