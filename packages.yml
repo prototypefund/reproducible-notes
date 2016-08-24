@@ -7077,6 +7077,10 @@ httpunit:
   version: 1.7+dfsg-11
   issues:
     - locale_in_documentation_generated_by_javadoc
+httrack:
+  version: 3.48.23-1
+  issues:
+    - captures_build_path
 hugo:
   version: 0.15+git20160109.147.dd1d655-1
   issues:
@@ -8654,6 +8658,10 @@ libbpp-core:
   version: 2.2.0-3
   bugs:
     - 811657
+libbpp-phyl:
+  version: 2.2.0-1
+  issues:
+    - captures_build_path
 libbpp-phyl-omics:
   version: 2.1.0-1
   bugs:
@@ -9681,6 +9689,10 @@ libqtpas:
   bugs:
     - 811965
     - 831168
+libquicktime:
+  version: 2:1.2.4-8
+  issues:
+    - captures_build_path
 libquvi:
   version: 0.4.1-3
   comments: |
@@ -9851,6 +9863,10 @@ libsm:
   version: 2:1.2.2-1
   bugs:
     - 812899
+libsmbios:
+  version: 2.3.0-1
+  issues:
+    - captures_build_path
 libsmf:
   version: 1.3-2
   issues:
@@ -11039,6 +11055,10 @@ mffm-fftw:
   version: 1.7-3
   bugs:
     - 817581
+mgba:
+  version: 0.4.0+dfsg1-3
+  issues:
+    - captures_build_path
 mgcv:
   version: 1.8-14-1
   issues:
@@ -11856,6 +11876,10 @@ netgen:
   version: 4.9.13.dfsg-8
   issues:
     - captures_shell_variable_in_autofoo_script
+netkit-rsh:
+  version: 0.17-15
+  issues:
+    - captures_build_path
 netkit-rwho:
   version: 0.17-13
   issues:
@@ -11869,6 +11893,14 @@ netpanzer:
   version: 0.8.7+ds-1
   bugs:
     - 827150
+netpbm-free:
+  version: 2:10.0-15.3
+  issues:
+    - captures_build_path
+netplug:
+  version: 1.2.9.2-2
+  issues:
+    - captures_build_path
 netqmail:
   version: 1.06-5
   issues:
@@ -11881,6 +11913,10 @@ netrek-client-cow:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/netrek-client-cow/3.3.0-3.1/mkcflags.c/#L52-L53
+netris:
+  version: 0.52-10
+  issues:
+    - captures_build_path
 netsed:
   version: 1.2-2
   bugs:
@@ -12201,6 +12237,10 @@ nrefactory:
   comments: |
     Unidentified differences in
     ./usr/lib/nrefactory-samples/ICSharpCode.NRefactory.GtkDemo.exe
+nrg2iso:
+  version: 0.4-4
+  issues:
+    - captures_build_path
 ns2:
   version: 2.35+dfsg-2
   bugs:
@@ -12270,6 +12310,10 @@ nut:
   version: 2.7.2-3
   issues:
     - timestamps_in_pdf_generated_by_latex
+nuttcp:
+  version: 6.1.2-4
+  issues:
+    - captures_build_path
 nvidia-settings:
   version: 340.93-1
   comments: |
@@ -12339,6 +12383,18 @@ ocaml-curses:
   version: 1.0.3-2
   issues:
     - randomness_in_ocaml_preprocessed_files
+ocaml-data-notation:
+  version: 0.0.11-1
+  issues:
+    - captures_build_path
+ocaml-estring:
+  version: 20130822-5
+  issues:
+    - captures_build_path
+ocaml-inifiles:
+  version: 1.2-3
+  issues:
+    - captures_build_path
 ocaml-ipaddr:
   version: 2.7.0-2
   issues:
@@ -12355,10 +12411,26 @@ ocaml-res:
   version: 4.0.3-3
   issues:
     - captures_build_path
+ocaml-schroedinger:
+  version: 0.1.0-3
+  issues:
+    - captures_build_path
+ocaml-theora:
+  version: 0.3.0-3
+  issues:
+    - captures_build_path
+ocaml-voaacenc:
+  version: 0.1.0-1
+  issues:
+    - captures_build_path
 ocamlbricks:
   version: 0.90+bzr400-1
   issues:
     - randomness_in_ocaml_provides
+ocamldap:
+  version: 2.1.8-10
+  issues:
+    - captures_build_path
 ocamlduce:
   version: 3.12.1.0-1
   bugs:
@@ -13615,6 +13687,10 @@ png-definitive-guide:
   version: 20060430-1
   bugs:
     - 817622
+png2html:
+  version: 1.1-5
+  issues:
+    - captures_build_path
 pngcheck:
   version: 2.3.0-7
   comments: |
@@ -15461,6 +15537,10 @@ r-cran-arm:
   version: 1.8-6-2
   issues:
     - captures_build_path
+r-cran-cairo:
+  version: 1.5-9-1
+  issues:
+    - captures_build_path
 r-cran-caret:
   version: 6.0-47+dfsg1-1
   issues:
@@ -16330,6 +16410,10 @@ ruby-ncurses:
     - captures_build_path
 ruby-oily-png:
   version: 1.1.0-5
+  issues:
+    - captures_build_path
+ruby-oj:
+  version: 2.17.1-1
   issues:
     - captures_build_path
 ruby-ox:
