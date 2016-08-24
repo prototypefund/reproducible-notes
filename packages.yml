@@ -10626,6 +10626,10 @@ lxc:
   version: 1:2.0.3-1
   issues:
     - captures_build_path
+lxml:
+  version: 3.6.0-1
+  issues:
+    - captures_build_path
 lxqt-about:
   version: 0.10.0-3
   issues:
@@ -12711,6 +12715,10 @@ opendnssec:
   version: 1:1.4.10-1
   issues:
     - captures_build_path
+openexr-viewers:
+  version: 1.0.1-6
+  issues:
+    - captures_build_path
 opengm:
   version: 2.3.6+20160131-2
   bugs:
@@ -12836,6 +12844,10 @@ openni-sensor-primesense:
   comments: |
     Embeds the build date and platform.
     https://sources.debian.net/src/openni-sensor-primesense/5.1.0.41-5/Include/XnPsVersion.h/#L55
+openntpd:
+  version: 1:5.7p4-4
+  issues:
+    - captures_build_path
 openocd:
   version: 0.9.0-1
   bugs:
@@ -12866,6 +12878,10 @@ openuniverse:
   version: 1.0beta3.1+dfsg-3
   bugs:
     - 817303
+openvanilla-modules:
+  version: 0.9.0a1.3+dfsg1-2.1
+  issues:
+    - captures_build_path
 openwince-include:
   version: 0.3.2-3.1
   bugs:
@@ -12885,6 +12901,10 @@ opus:
     https://sources.debian.net/src/opus/1.1.1-1/doc/footer.html/#L13
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+opus-tools:
+  version: 0.1.9-1
+  issues:
+    - captures_build_path
 oregano:
   version: 0.70-3
   issues:
@@ -12964,6 +12984,10 @@ overgod:
   version: 1.0-4.2
   bugs:
     - 827114
+ovito:
+  version: 2.3.3+dfsg1-2
+  issues:
+    - captures_build_path
 owncloud-client:
   version: 2.0.0+dfsg-1
   comments: |
@@ -13029,6 +13053,10 @@ pagekite:
   version: 0.5.8e-1
   bugs:
     - 830287
+pagodacf:
+  version: 0.10-3
+  issues:
+    - captures_build_path
 pairs:
   version: 4:15.04.3-1
   issues:
@@ -13039,6 +13067,10 @@ paje.app:
     Build date is embedded into content of postscript document.
   issues:
     - timestamps_in_ps_generated_by_dvips
+pal:
+  version: 0.4.3-8.1
+  issues:
+    - captures_build_path
 palo:
   version: 1.95
   comments: |
@@ -13145,6 +13177,10 @@ pastescript:
     - 788249
 patch:
   version: 2.7.5-1
+  issues:
+    - captures_build_path
+patchage:
+  version: 1.0.0~dfsg0-0.1
   issues:
     - captures_build_path
 pathspider:
@@ -13374,6 +13410,10 @@ pgfincore:
   version: 1.1.2-3
   issues:
     - postgres_9.5_transition
+pgtop:
+  version: 3.7.0-2
+  issues:
+    - captures_build_path
 phalanx:
   version: 22+d051004-13.1
   bugs:
@@ -13730,6 +13770,10 @@ polygraph:
   version: 4.3.2-3
   bugs:
     - 831125
+polylib:
+  version: 5.22.5-3+dfsg
+  issues:
+    - captures_build_path
 polyorb:
   version: 2.11~20140418-3
   issues:
@@ -13752,6 +13796,10 @@ portabase:
   version: 2.1+git20120910-1.1
   issues:
     - randomness_in_documentation_generated_by_sphinx
+portsmf:
+  version: 0.1~svn20101010-4
+  issues:
+    - captures_build_path
 posixtestsuite:
   version: 1.5.2-5
   comments: |
@@ -13850,6 +13898,10 @@ prayer:
   version: 1.3.5-dfsg1-3
   bugs:
     - 828899
+predict:
+  version: 2.2.3-4
+  issues:
+    - captures_build_path
 prefix:
   version: 1.2.4-1
   issues:
@@ -15513,12 +15565,64 @@ r-base:
     - timestamps_in_gzip_headers
   bugs:
     - 783130
+r-bioc-affy:
+  version: 1.50.0-1
+  issues:
+    - captures_build_path
+r-bioc-affyio:
+  version: 1.42.0-1
+  issues:
+    - captures_build_path
+r-bioc-annotationdbi:
+  version: 1.34.0-1
+  issues:
+    - captures_build_path
+r-bioc-biobase:
+  version: 2.32.0-1
+  issues:
+    - captures_build_path
+r-bioc-biocgenerics:
+  version: 0.18.0-1
+  issues:
+    - captures_build_path
+r-bioc-biocinstaller:
+  version: 1.22.1-1
+  issues:
+    - captures_build_path
+r-bioc-biocparallel:
+  version: 1.6.0-1
+  issues:
+    - captures_build_path
+r-bioc-biomart:
+  version: 2.28.0-1
+  issues:
+    - captures_build_path
 r-bioc-deseq2:
   version: 1.12.3-1
   issues:
     - captures_build_path
+r-bioc-genomeinfodb:
+  version: 1.8.0-1
+  issues:
+    - captures_build_path
+r-bioc-genomicranges:
+  version: 1.24.0-1
+  issues:
+    - captures_build_path
 r-bioc-graph:
   version: 1.50.0-1
+  issues:
+    - captures_build_path
+r-bioc-hypergraph:
+  version: 1.44.0-1
+  issues:
+    - captures_build_path
+r-bioc-makecdfenv:
+  version: 1.48.0-1
+  issues:
+    - captures_build_path
+r-bioc-preprocesscore:
+  version: 1.34.0-1
   issues:
     - captures_build_path
 r-bioc-savr:
@@ -15618,6 +15722,10 @@ r-cran-mapproj:
     - captures_build_path
 r-cran-matrixmodels:
   version: 0.4-1-1
+  issues:
+    - captures_build_path
+r-cran-matrixstats:
+  version: 0.50.2-2
   issues:
     - captures_build_path
 r-cran-nmf:
@@ -16768,6 +16876,10 @@ sdlgfx:
   version: 2.0.25-5
   issues:
     - different_due_to_umask
+sdpa:
+  version: 7.3.9+dfsg-1
+  issues:
+    - captures_build_path
 sdrangelove:
   version: 0.0.1.20150707-1
   bugs:
@@ -17017,6 +17129,10 @@ simstring:
   version: 1.0-1
   issues:
     - captures_shell_variable_in_autofoo_script
+simulavr:
+  version: 0.1.2.2-7
+  issues:
+    - captures_build_path
 sineshaper:
   version: 0.4.2-8
   bugs:
@@ -17434,6 +17550,10 @@ sredird:
   version: 2.2.1-1.1
   bugs:
     - 817677
+ssh-contact:
+  version: 0.7-1
+  issues:
+    - captures_build_path
 ssh-cron:
   version: 1.01.00-1
   issues:
@@ -17873,6 +17993,10 @@ tcpreen:
     https://sources.debian.net/src/tcpreen/1.4.4-2/m4/hostname.m4/?hl=10#L10
   bugs:
     - 831585
+tcpslice:
+  version: 1.2a3-4
+  issues:
+    - captures_build_path
 tcptrace:
   version: 6.6.7-4.1
   bugs:
@@ -17998,6 +18122,10 @@ therion:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_png
+thin:
+  version: 1.6.3-2
+  issues:
+    - captures_build_path
 thin-provisioning-tools:
   version: 0.6.1-4
   bugs:
@@ -18437,6 +18565,10 @@ txtorcon:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - timestamps_in_documentation_generated_by_sphinx
+type-conv:
+  version: 113.00.02-1
+  issues:
+    - captures_build_path
 tzc:
   version: 2.6.15-5.3
   bugs:
@@ -18673,6 +18805,10 @@ uswsusp:
     https://sources.debian.net/src/uswsusp/1.0%2B20120915-6/wlcsv2c.pl/#L70
   bugs:
     - 831328
+utalk:
+  version: 1.0.1.beta-8
+  issues:
+    - captures_build_path
 utf8proc:
   version: 1.3.1-2
   bugs:
@@ -18974,6 +19110,10 @@ warzone2100:
   version: 3.1.1-3
   issues:
     - different_due_to_umask
+wav2cdr:
+  version: 2.3.4-1
+  issues:
+    - captures_build_path
 wavbreaker:
   version: 0.11-1
   issues:
