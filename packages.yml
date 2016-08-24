@@ -6031,7 +6031,7 @@ golang-1.6:
 golang-bindata:
   version: 3.0.7-3
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 golang-doozer:
   version: 0.0~git20130909-1
   bugs:
@@ -6103,7 +6103,7 @@ golang-github-hashicorp-yamux:
 golang-github-hpcloud-tail:
   version: 1.0.0+git20160415.b294095-3
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 golang-github-jacobsa-ratelimit:
   version: 0.0~git20150723.0.2ca5e0c-1
   bugs:
@@ -6131,7 +6131,7 @@ golang-github-mitchellh-go-homedir:
 golang-github-rakyll-statik:
   version: 0.1.0-2
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 golang-github-remyoudompheng-bigfft:
   version: 0.0~git20130913.0.a8e77dd-1
   issues:
@@ -6147,7 +6147,7 @@ golang-github-tinylib-msgp:
 golang-glide:
   version: 0.11.0-2
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 golang-go-xdg:
   version: 0~bzr20140219-1
   bugs:
@@ -6159,11 +6159,11 @@ golang-gocheck:
 golang-gogoprotobuf:
   version: 0.2-5
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 golang-golang-x-tools:
   version: 1:0.0~git20160315.0.f42ec61-2
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 golang-gopkg-ini.v1:
   version: 1.8.5-1
   comments: |
@@ -6171,7 +6171,7 @@ golang-gopkg-ini.v1:
 golang-goprotobuf:
   version: 0.0~git20160815.0.7390af9-1
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 golang-goyaml:
   version: 0.0~bzr50-1
   bugs:
