@@ -5226,6 +5226,10 @@ gabedit:
   version: 2.4.8-2
   bugs:
     - 820016
+gadfly:
+  version: 1.0.0-16
+  issues:
+    - captures_build_path
 gadmin-proftpd:
   version: 1:0.4.2-1
   issues:
@@ -5877,6 +5881,10 @@ glob2:
     - scons_doesnt_pass_environment_to_build_tools
   bugs:
     - 812167
+global:
+  version: 5.7.1-2
+  issues:
+    - captures_build_path
 globus-common:
   version: 16.4-1
   issues:
@@ -5887,6 +5895,10 @@ glosstex:
     - pdf_created_by_ghostscript
   bugs:
     - 817482
+glotski:
+  version: 0.2-7
+  issues:
+    - captures_build_path
 gluegen2:
   version: 2.3.2-3
   issues:
@@ -6096,6 +6108,10 @@ gnubg:
   version: 1.05.000-4
   issues:
     - timestamps_in_pdf_generated_by_latex
+gnucap:
+  version: 1:0.36~20091207-2
+  issues:
+    - captures_build_path
 gnucash-docs:
   version: 2.6.9-1
   issues:
@@ -6193,6 +6209,10 @@ gnutls28:
     FTBFS because test suite fails when run in the future “Output: Not
     verified. The certificate is NOT trusted. The certificate chain uses expired
     certificate.”
+go-md2man:
+  version: 1.0.5-2
+  issues:
+    - captures_build_path
 go-mtpfs:
   version: 0.0~git20150802.0.3ef47f9-2
   issues:
@@ -6463,6 +6483,10 @@ gpp:
   version: 2.24-3
   issues:
     - captures_build_path
+gpr:
+  version: 0.15deb-2
+  issues:
+    - captures_build_path
 gprolog:
   version: 1.3.0-6.1
   issues:
@@ -6605,6 +6629,10 @@ gridsite:
   version: 2.2.6-3
   issues:
     - timestamps_in_documentation_generated_by_doxygen
+grig:
+  version: 0.8.1-1
+  issues:
+    - captures_build_path
 grilo:
   version: 0.2.11-2
   issues:
@@ -6941,6 +6969,10 @@ hdf5:
   version: 1.8.16+docs-1
   comments: |
     Timestamp in CMakeLists.txt *and* in configure.ac
+healpy:
+  version: 1.9.1-3
+  issues:
+    - captures_build_path
 hearse:
   version: 1.5-8.2
   bugs:
@@ -7088,6 +7120,10 @@ hpanel:
   version: 0.3.2-4
   bugs:
     - 782216
+hspell-gui:
+  version: 0.2.6-5.1
+  issues:
+    - captures_build_path
 hsqldb:
   version: 2.2.9+dfsg-4
   comments: |
@@ -7193,6 +7229,10 @@ i3-wm:
   version: 4.10.4-1
   issues:
     - timestamps_in_documentation_generated_by_asciidoc
+iaxmodem:
+  version: 1.2.0~dfsg-2
+  issues:
+    - captures_build_path
 ibus:
   version: 1.5.11-1
   issues:
@@ -7344,6 +7384,10 @@ imapcopy:
   version: 1.04-2
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
+imdbpy:
+  version: 5.0-1
+  issues:
+    - captures_build_path
 imms:
   version: 3.1.0~svn301-3.2
   bugs:
@@ -7390,6 +7434,10 @@ ino-headers:
     - timestamps_in_documentation_generated_by_naturaldocs
 inotifyx:
   version: 0.2.0-1
+  issues:
+    - captures_build_path
+input-utils:
+  version: 1.0-1.1
   issues:
     - captures_build_path
 insubstantial:
@@ -7498,6 +7546,10 @@ ircd-ircu:
     - 835130
 ircmarkers:
   version: 0.15-1
+  issues:
+    - captures_build_path
+ircp-tray:
+  version: 0.7.6-1.2
   issues:
     - captures_build_path
 ironic:
