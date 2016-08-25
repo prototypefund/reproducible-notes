@@ -150,7 +150,7 @@ timestamps_in_pe_binaries:
     PE binaries contain a timestamp and maybe randomness in an UUID.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInPEBinaries
   deterministic: True
-use_epydoc:
+randomness_in_documentation_generated_by_epydoc:
   description: |
     Epydoc will add timestamps to the HTML file it produces. It can also generates
     different class index depending on filesystem ordering. It might also output
