@@ -16227,6 +16227,10 @@ rcmdr:
   version: 2.2-3-1
   issues:
     - randomness_in_r_rdb_rds_databases
+rcpp:
+  version: 0.12.6-1
+  issues:
+    - captures_build_path
 rcs:
   version: 5.9.4-1
   bugs:
@@ -16389,6 +16393,10 @@ rgbpaint:
   version: 0.8.7-6
   bugs:
     - 819779
+rgl:
+  version: 0.95.1441-2
+  issues:
+    - captures_build_path
 rheolef:
   version: 6.5-1
   issues:
@@ -16906,10 +16914,18 @@ ruby-tioga:
   version: 1.18-1
   issues:
     - timestamps_in_ruby_documentation
+ruby-unf-ext:
+  version: 0.0.7.2-2
+  issues:
+    - captures_build_path
 ruby-unindent:
   version: 1.0-1
   bugs:
     - 832605
+ruby-xmlparser:
+  version: 0.7.3-3
+  issues:
+    - captures_build_path
 ruby2.3:
   version: 2.3.0-1
   issues:
