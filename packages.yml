@@ -6104,6 +6104,8 @@ gnome-video-arcade:
   comments: |
     Timestamp in usr/share/man/man1/gnome-video-arcade.1.gz is locale-dependent and SOURCE_DATE_EPOCH-agnostic:
       https://sources.debian.net/src/gnome-video-arcade/0.8.6-2/docs/Makefile.am/#L8
+  issues:
+    - captures_build_path
 gnss-sdr:
   version: 0.0.7-1
   issues:
