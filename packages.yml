@@ -831,6 +831,10 @@ audacity:
   version: 2.1.2-1
   bugs:
     - 811671
+audiocd-kio:
+  version: 4:15.12.2-2
+  issues:
+    - captures_build_path
 audiolink:
   version: 0.05-1.2
   bugs:
@@ -1586,6 +1590,10 @@ btyacc:
   version: 3.0-5
   bugs:
     - 823428
+budgie-desktop:
+  version: 10.2.6-1
+  issues:
+    - captures_build_path
 buffy:
   version: 1.5-2
   issues:
@@ -2157,6 +2165,10 @@ claws-mail:
   version: 3.13.2-1
   bugs:
     - 822432
+clblas:
+  version: 2.10-3
+  issues:
+    - captures_build_path
 cld2:
   version: 0.0.0-git20150806-5
   bugs:
@@ -4545,6 +4557,10 @@ fim:
   version: 0.5~rc2-1
   bugs:
     - 820932
+findlib:
+  version: 1.6.2-1
+  issues:
+    - captures_build_path
 fio:
   version: 2.10-2
   bugs:
@@ -4991,6 +5007,10 @@ freebirth:
   version: 0.3.2-9.1
   issues:
     - captures_build_path
+freebsd-buildutils:
+  version: 10.3~svn296373-3
+  issues:
+    - captures_build_path
 freebsd-libs:
   version: 10.1~svn273304-1
   issues:
@@ -5198,10 +5218,22 @@ g15daemon:
     https://sources.debian.net/src/g15daemon/1.9.5.3-8.3/configure.in/?hl=118:119#L118
   issues:
     - captures_kernel_version
+g2clib:
+  version: 1.6.0-4
+  issues:
+    - captures_build_path
 gabedit:
   version: 2.4.8-2
   bugs:
     - 820016
+gadmin-proftpd:
+  version: 1:0.4.2-1
+  issues:
+    - captures_build_path
+gaffitter:
+  version: 0.6.0-2
+  issues:
+    - captures_build_path
 gaim-librvp:
   version: 0.9.5-3
   bugs:
@@ -5532,6 +5564,10 @@ gemanx-gtk2:
   version: 0.1.0.3-2
   bugs:
     - 811755
+genders:
+  version: 1.21-1
+  issues:
+    - captures_build_path
 genparse:
   version: 0.9.1-1
   bugs:
@@ -5592,6 +5628,10 @@ getfem++:
   comments: |
     Captures username and build date/time.
     https://sources.debian.net/src/getfem%2B%2B/4.2.1~beta1~svn4635~dfsg-3/configure.ac/#L753-L756
+getstream:
+  version: 20081204-1.2
+  issues:
+    - captures_build_path
 gettext:
   version: 0.19.5.1-1
   comments: |
@@ -5725,6 +5765,10 @@ git-repair:
   version: 1.20151215-1
   bugs:
     - 826389
+gitlab-workhorse:
+  version: 0.7.2-1
+  issues:
+    - captures_build_path
 gitpkg:
   version: 0.28
   bugs:
@@ -5791,6 +5835,10 @@ gkrellshoot:
   version: 0.4.4-1
   bugs:
     - 817478
+gkrelltop:
+  version: 2.2.13-1
+  issues:
+    - captures_build_path
 gkrellweather:
   version: 2.0.8-2
   bugs:
@@ -6290,6 +6338,10 @@ golang-github-tinylib-msgp:
   version: 1.0~beta-1
   comments: |
     Looks like its due to random variable numbers in generated code but these are actually deterministic due to golangs implicit rand.Seed(1) - I believe its some kind of arbitrary dict ordering instead
+golang-github-vbatts-tar-split:
+  version: 0.9.13-1
+  issues:
+    - captures_build_path
 golang-glide:
   version: 0.11.0-2
   issues:
@@ -6388,6 +6440,10 @@ gource:
   version: 0.44-1
   bugs:
     - 831112
+govendor:
+  version: 1.0.3+ds1-1
+  issues:
+    - captures_build_path
 gpgmepp:
   version: 16.04.3-1
   issues:
@@ -8017,6 +8073,10 @@ keyutils:
   version: 1.5.9-9
   bugs:
     - 828681
+kf5-kdepimlibs:
+  version: 4:16.04.2-2
+  issues:
+    - captures_build_path
 kftpgrabber:
   version: 0.8.99~svn1214766-1
   bugs:
@@ -8036,6 +8096,10 @@ kgb-bot:
   bugs:
     - 782079
     - 834597
+kgoldrunner:
+  version: 4:15.12.0-2
+  issues:
+    - captures_build_path
 khmerconverter:
   version: 1.4-1
   issues:
@@ -8195,6 +8259,14 @@ kmidimon:
   version: 0.7.5-1
   bugs:
     - 803566
+kmix:
+  version: 4:16.04.1-2
+  issues:
+    - captures_build_path
+kmouth:
+  version: 4:16.08.0-1
+  issues:
+    - captures_build_path
 knights:
   version: 2.5.0-2
   issues:
@@ -8272,10 +8344,18 @@ krb5:
   version: 1.13.2+dfsg-5
   bugs:
     - 828946
+kremotecontrol:
+  version: 4:16.08.0-1
+  issues:
+    - captures_build_path
 krfb:
   version: 4:16.04.0-1
   bugs:
     - 831090
+kscd:
+  version: 4:16.08.0-1
+  issues:
+    - captures_build_path
 kservice:
   version: 5.25.0-1
   issues:
@@ -9329,6 +9409,18 @@ libkf5kgeomap:
   version: 16.04.0-2
   issues:
     - captures_build_path
+libkf5ksieve:
+  version: 4:16.04.2-2
+  issues:
+    - captures_build_path
+libkf5mailcommon:
+  version: 4:16.04.2-2
+  issues:
+    - captures_build_path
+libkf5pimcommon:
+  version: 4:16.04.2-2
+  issues:
+    - captures_build_path
 libkipi:
   version: 4:15.08.3-2
   issues:
@@ -10107,6 +10199,10 @@ libvmdk:
   issues:
     - captures_build_path
 libvshadow:
+  version: 20160110-2
+  issues:
+    - captures_build_path
+libvslvm:
   version: 20160110-2
   issues:
     - captures_build_path
@@ -12336,6 +12432,10 @@ nut:
     - timestamps_in_pdf_generated_by_latex
 nuttcp:
   version: 6.1.2-4
+  issues:
+    - captures_build_path
+nuxwdog:
+  version: 1.0.3-3
   issues:
     - captures_build_path
 nvidia-settings:
@@ -15589,6 +15689,10 @@ r-bioc-affyio:
   version: 1.42.0-1
   issues:
     - captures_build_path
+r-bioc-annotate:
+  version: 1.50.0+dfsg-1
+  issues:
+    - captures_build_path
 r-bioc-annotationdbi:
   version: 1.34.0-1
   issues:
@@ -15645,6 +15749,10 @@ r-bioc-savr:
   version: 1.10.0-1
   issues:
     - captures_build_path
+r-bioc-summarizedexperiment:
+  version: 1.2.0-1
+  issues:
+    - captures_build_path
 r-cran-ade4:
   version: 1.7-2-1
   issues:
@@ -15659,6 +15767,10 @@ r-cran-amelia:
     - timestamps_in_description_files_generated_by_r-base-dev
 r-cran-arm:
   version: 1.8-6-2
+  issues:
+    - captures_build_path
+r-cran-brglm:
+  version: 0.5-9-1
   issues:
     - captures_build_path
 r-cran-cairo:
@@ -15677,6 +15789,10 @@ r-cran-diagnosismed:
   version: 0.2.3-4
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-elliptic:
+  version: 1.3-5-1
+  issues:
+    - captures_build_path
 r-cran-fastcluster:
   version: 1.1.16-2
   issues:
@@ -15708,6 +15824,10 @@ r-cran-googlevis:
   version: 0.6.0-1
   issues:
     - captures_build_path
+r-cran-highr:
+  version: 0.5.1-2
+  issues:
+    - captures_build_path
 r-cran-igraph:
   version: 1.0.1-1
   issues:
@@ -15734,6 +15854,14 @@ r-cran-luminescence:
     - captures_build_path
 r-cran-mapproj:
   version: 1.2-4-1
+  issues:
+    - captures_build_path
+r-cran-maptree:
+  version: 1.4-7-1
+  issues:
+    - captures_build_path
+r-cran-markdown:
+  version: 0.7.7-1
   issues:
     - captures_build_path
 r-cran-matrixmodels:
@@ -15800,6 +15928,10 @@ r-cran-rlumshiny:
     - captures_build_path
 r-cran-rneos:
   version: 0.3-1-1
+  issues:
+    - captures_build_path
+r-cran-rnexml:
+  version: 2.0.6-1
   issues:
     - captures_build_path
 r-cran-rngtools:
@@ -16248,6 +16380,10 @@ ros-nodelet-core:
   version: 1.9.5-2
   issues:
     - captures_build_path
+ros-pcl-conversions:
+  version: 0.2.1-1
+  issues:
+    - captures_build_path
 ros-pluginlib:
   version: 1.10.3-1
   issues:
@@ -16462,6 +16598,10 @@ ruby-facets:
     - random_order_in_ruby_rdoc_indices
 ruby-ferret:
   version: 0.11.8.6-2
+  issues:
+    - captures_build_path
+ruby-ffi-yajl:
+  version: 2.2.3-2
   issues:
     - captures_build_path
 ruby-fftw3:
@@ -19152,6 +19292,10 @@ wbar:
   bugs:
     - 825471
     - 811696
+wbxml2:
+  version: 0.10.7-1
+  issues:
+    - captures_build_path
 wcd:
   version: 5.2.5-1
   bugs:
@@ -19203,6 +19347,10 @@ weka:
     - fonts_in_pdf_files
     - timestamps_in_pdf_generated_by_latex
     - locale_in_documentation_generated_by_javadoc
+weplab:
+  version: 0.1.5-3
+  issues:
+    - captures_build_path
 werken.xpath:
   version: 0.9.4-15
   issues:
@@ -19457,6 +19605,14 @@ x11vnc:
   version: 0.9.13-1.2
   comments: |
     Signature META-INF/SWKEY.DSA in jar files differs.
+x86info:
+  version: 1.31~pre0.8052aabdd159bc9050e7dc264f33782c5acce05f-1
+  issues:
+    - captures_build_path
+xalan:
+  version: 1.11-5
+  issues:
+    - captures_build_path
 xapian-core:
   version: 1.2.23-1
   issues:
@@ -19465,10 +19621,18 @@ xarclock:
   version: 1.0-13
   issues:
     - captures_build_path
+xbacklight:
+  version: 1.2.1-1
+  issues:
+    - captures_build_path
 xbase64:
   version: 3.1.2-6
   bugs:
     - 811846
+xbill:
+  version: 2.1-8
+  issues:
+    - captures_build_path
 xbs:
   version: 0-10
   issues:
@@ -19592,6 +19756,10 @@ xjump:
     - timestamps_in_gzip_headers
   bugs:
     - 777354
+xkbind:
+  version: 2010.05.20-1
+  issues:
+    - captures_build_path
 xkbset:
   version: 0.5-5.1
   bugs:
@@ -19725,6 +19893,10 @@ xoscope:
   version: 2.0-3.2
   issues:
     - captures_build_path
+xosd:
+  version: 2.2.14-2.1
+  issues:
+    - captures_build_path
 xosview:
   version: 1.17-3
   bugs:
@@ -19737,6 +19909,10 @@ xpdf:
   version: 3.04-1
   bugs:
     - 819352
+xphoon:
+  version: 20000613+0-3
+  issues:
+    - captures_build_path
 xpilot-extra:
   version: 4.7.2+nmu1
   bugs:
@@ -19759,6 +19935,10 @@ xqilla:
     - 828937
 xserver-xorg-input-keyboard:
   version: 1:1.8.1-1
+  issues:
+    - captures_build_path
+xserver-xorg-video-glide:
+  version: 1.2.2-1
   issues:
     - captures_build_path
 xserver-xorg-video-openchrome:
@@ -20005,8 +20185,16 @@ yudit:
   comments: |
     Timestamp removed in 790088 but there is some uninitialised memory
     immediately after.
+z80asm:
+  version: 1.8-1
+  issues:
+    - captures_build_path
 z80dasm:
   version: 1.1.3-1
+  issues:
+    - captures_build_path
+z80ex:
+  version: 1.1.21-1
   issues:
     - captures_build_path
 zabbix:
@@ -20044,6 +20232,10 @@ zeroc-icee-translators:
   version: 1.2.0-6.1
   bugs:
     - 817745
+zeroinstall-injector:
+  version: 2.10-2
+  issues:
+    - captures_build_path
 zeromq3:
   version: 4.0.5+dfsg-3
   issues:
