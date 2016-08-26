@@ -5487,6 +5487,10 @@ gcc-defaults:
   version: 1.135
   comments: |
     Randomness in CA certificates bundle
+    .
+    gkeytool (src:gcj-6-jre-headless) called here http://sources.debian.net/src/gcc-defaults/1.163/debian/generate-cacerts.pl.in/#L94
+    .
+    Uses a random salt when adding.
 gcc-h8300-hms:
   version: 1:3.4.6+dfsg2-4
   issues:
