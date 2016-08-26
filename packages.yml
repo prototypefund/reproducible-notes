@@ -567,6 +567,10 @@ ara:
     https://sources.debian.net/src/ara/1.0.31/common/mkversion.sh/#L4
   bugs:
     - 833610
+ardour:
+  version: 1:5.0~dfsg-2
+  issues:
+    - captures_build_path
 arduino:
   version: 2:1.0.5+dfsg2-4
   comments: |
@@ -2012,6 +2016,10 @@ chemical-structures:
   version: 2.2.dfsg.0-12
   issues:
     - timestamps_in_mdl_molfile
+chemps2:
+  version: 1.8-1
+  issues:
+    - captures_build_path
 cherrypy3:
   version: 3.5.0-1
   issues:
@@ -2616,6 +2624,10 @@ crash:
     https://sources.debian.net/src/crash/7.0.8-1/configure.c/?hl=1183:1184#L1183
   bugs:
     - 811604
+crawl:
+  version: 2:0.18.1-1
+  issues:
+    - captures_build_path
 crda:
   version: 3.13-1
   issues:
@@ -2667,6 +2679,10 @@ crypt++el:
   version: 2.94-1
   bugs:
     - 817414
+cryptgps:
+  version: 0.2.1-9
+  issues:
+    - captures_build_path
 cryptokit:
   version: 1.10-1
   issues:
@@ -4197,8 +4213,16 @@ erlang-folsom:
   version: 0.8.2+dfsg-1
   issues:
     - captures_build_path
+erlang-getopt:
+  version: 0.8.2+dfsg-1
+  issues:
+    - captures_build_path
 erlang-goldrush:
   version: 0.1.9-1
+  issues:
+    - captures_build_path
+erlang-jiffy:
+  version: 0.14.6+dfsg-1
   issues:
     - captures_build_path
 erlang-luerl:
@@ -4211,6 +4235,10 @@ erlang-meck:
     - captures_build_path
 erlang-p1-cache-tab:
   version: 1.0.3-1
+  issues:
+    - captures_build_path
+erlang-p1-utils:
+  version: 1.0.5-1
   issues:
     - captures_build_path
 erlang-p1-xml:
@@ -7482,6 +7510,10 @@ ion:
   version: 3.2.1+dfsg-1
   bugs:
     - 811582
+ip4r:
+  version: 2.0.2-4
+  issues:
+    - captures_build_path
 ipadic:
   version: 2.7.0+main-3
   issues:
@@ -9917,6 +9949,10 @@ libproc-syncexec-perl:
   version: 1.01-1.1
   bugs:
     - 800304
+libpuzzle:
+  version: 0.9-6
+  issues:
+    - captures_build_path
 libpwiz:
   version: 3.0.9393-1
   issues:
@@ -10878,8 +10914,16 @@ lvtk:
   version: 1.2.0~dfsg0-1
   bugs:
     - 834158
+lwatch:
+  version: 0.6.2-1
+  issues:
+    - captures_build_path
 lxc:
   version: 1:2.0.3-1
+  issues:
+    - captures_build_path
+lxcfs:
+  version: 2.0.2-1
   issues:
     - captures_build_path
 lxml:
@@ -13116,6 +13160,10 @@ openocd:
   version: 0.9.0-1
   bugs:
     - 834316
+openssl:
+  version: 1.0.2h-1
+  issues:
+    - captures_build_path
 openstack-doc-tools:
   version: 0.31.0-4
   bugs:
@@ -13995,6 +14043,10 @@ plv8:
   version: 1:1.4.8.ds-1
   bugs:
     - 831190
+pmacct:
+  version: 1.6.0-1
+  issues:
+    - captures_build_path
 png-definitive-guide:
   version: 20060430-1
   bugs:
@@ -16052,6 +16104,10 @@ r-cran-r.oo:
   version: 1.19.0-2
   issues:
     - captures_build_path
+r-cran-r6:
+  version: 2.1.3-1
+  issues:
+    - captures_build_path
 r-cran-raster:
   version: 2.5-8-1
   issues:
@@ -16124,6 +16180,10 @@ r-cran-tm:
     - randomness_in_r_rdb_rds_databases
 r-cran-treescape:
   version: 1.9.17-1
+  issues:
+    - captures_build_path
+r-cran-vioplot:
+  version: 0.2-2
   issues:
     - captures_build_path
 r10k:
@@ -18071,6 +18131,10 @@ surf-alggeo:
     - timestamps_in_pdf_generated_by_latex
   bugs:
     - 831173
+suricata:
+  version: 3.1.1-3
+  issues:
+    - captures_build_path
 sushi:
   version: 1.4.0+dfsg-1.1
   bugs:
