@@ -1069,6 +1069,10 @@ barnowl:
     Random order of files and timestamps in zip file with .par extension.
   issues:
     - different_due_to_umask
+bart:
+  version: 0.3.00-1
+  issues:
+    - captures_build_path
 basemap:
   version: 1.0.7+dfsg-1
   issues:
@@ -1733,6 +1737,10 @@ camitk:
     - blacklisted_on_jenkins_armhf_only
 camp:
   version: 0.7.1.3-1
+  issues:
+    - captures_build_path
+caneda:
+  version: 0.3.0-1
   issues:
     - captures_build_path
 canl-c:
@@ -5069,6 +5077,10 @@ freedoom:
   version: 0.9-1
   issues:
     - timestamps_in_documentation_generated_by_asciidoc
+freedv:
+  version: 1.1-1
+  issues:
+    - captures_build_path
 freefem3d:
   version: 1.0pre10-3.2
   issues:
@@ -6031,6 +6043,10 @@ gnome-boxes:
   version: 3.20.0-1
   bugs:
     - 822432
+gnome-builder:
+  version: 3.20.4-2
+  issues:
+    - captures_build_path
 gnome-calculator:
   version: 3.20.0-1
   bugs:
@@ -6330,6 +6346,10 @@ golang-github-docker-libnetwork:
   version: 0.7.0~rc.6+dfsg-1
   bugs:
     - 830656
+golang-github-eknkc-amber:
+  version: 0.0~git20160421.0.91774f0-1
+  issues:
+    - captures_build_path
 golang-github-hashicorp-go-reap:
   version: 0.0~git20160113.0.2d85522-1
   bugs:
@@ -6378,6 +6398,10 @@ golang-github-mattn-go-sqlite3:
   version: 1.0.0~dfsg1-2
   issues:
     - ftbfs_uninvestigated_test_failures
+golang-github-miekg-mmark:
+  version: 1.3.4+dfsg-1
+  issues:
+    - captures_build_path
 golang-github-mitchellh-go-homedir:
   version: 0.0~git20150831.0.df55a15-1
   bugs:
@@ -6390,6 +6414,10 @@ golang-github-remyoudompheng-bigfft:
   version: 0.0~git20130913.0.a8e77dd-1
   issues:
     - blacklisted_on_jenkins_armhf_only
+golang-github-spf13-cobra:
+  version: 0.0~git20160607.0.1238ba1-1
+  issues:
+    - captures_build_path
 golang-github-thejerf-suture:
   version: 1.1.1-1
   bugs:
@@ -6400,6 +6428,14 @@ golang-github-tinylib-msgp:
     Looks like its due to random variable numbers in generated code but these are actually deterministic due to golangs implicit rand.Seed(1) - I believe its some kind of arbitrary dict ordering instead
 golang-github-vbatts-tar-split:
   version: 0.9.13-1
+  issues:
+    - captures_build_path
+golang-github-xordataexchange-crypt:
+  version: 0.0.2+git20150523.17.749e360-4
+  issues:
+    - captures_build_path
+golang-github-yosssi-ace:
+  version: 0.0.4+git20160102.51.71afeb7-1
   issues:
     - captures_build_path
 golang-glide:
@@ -7061,6 +7097,10 @@ hfsplus:
   version: 1.0.4-15
   bugs:
     - 817494
+hfst:
+  version: 3.10.0~r2798-2
+  issues:
+    - captures_build_path
 hhsuite:
   version: 2.0.16-6
   bugs:
@@ -7614,6 +7654,10 @@ irsim:
   version: 9.7.93-1
   bugs:
     - 829628
+irssi-plugin-robustirc:
+  version: 0.5-1
+  issues:
+    - captures_build_path
 isc-kea:
   version: 1.0.0-4
   comments: |
@@ -7981,6 +8025,10 @@ judy:
     https://sources.debian.net/src/judy/1.0.5-5/src/sh_build/#L204
   issues:
     - collation_order_varies_by_locale
+juffed:
+  version: 0.10-85-g5ba17f9-4
+  issues:
+    - captures_build_path
 juke:
   version: 0.7-4
   bugs:
@@ -18657,6 +18705,10 @@ tntnet:
   issues:
     - different_due_to_umask
     - leaks_path_environment_variable
+toilet:
+  version: 0.3-1.1
+  issues:
+    - captures_build_path
 tokyocabinet:
   version: 1.4.48-10
   bugs:
