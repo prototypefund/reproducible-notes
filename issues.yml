@@ -1261,3 +1261,7 @@ href_links_mangled_by_node_marked:
     marked html-encodes email addresses in an unreproducible way.
     .
     http://sources.debian.net/src/node-marked/0.3.2%2Bdfsg-1/lib/marked.js/#L740
+random_order_in_lua_version_substvar:
+  description: |
+    -Lua-Versions: 5.3 5.2 5.1
+    +Lua-Versions: 5.3 5.1 5.2
