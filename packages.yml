@@ -11617,6 +11617,8 @@ luasocket:
   version: 3.0~rc1+git+321c0c9-1
   comments: |
     lua versions listed in different order
+  issues:
+    - random_order_in_lua_version_substvar
 lucene-solr:
   version: 3.6.2+dfsg-5
   issues:
