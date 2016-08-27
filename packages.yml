@@ -13401,9 +13401,6 @@ noweb:
     - 788536
 npm:
   version: 1.4.21+ds-2
-  comments: |
-    Markdown files are converted with marked to HTML.
-    marked html-encodes email addresses in an unreproducible way.
   issues:
     - timestamps_in_manpages_generated_by_ronn
     - href_links_mangled_by_node_marked
