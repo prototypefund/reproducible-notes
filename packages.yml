@@ -13091,6 +13091,10 @@ netrek-client-cow:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/netrek-client-cow/3.3.0-3.1/mkcflags.c/#L52-L53
+    .
+    Patch for above could be https://gist.github.com/lamby/898110810c008f69d2f4c1ac052347d6/raw
+    .
+    but there is also a per-build generated key (!) in usr/share/games/netrek-client-cow/key.cow.linux
 netris:
   version: 0.52-10
   issues:
