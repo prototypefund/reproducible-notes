@@ -13848,13 +13848,6 @@ open-axiom:
   version: 1.5.0~svn3056+ds-1
   bugs:
     - 778041
-open-cobol:
-  version: 1.1-1
-  comments: |
-    Uses __DATE__ and __TIME__:
-    https://sources.debian.net/src/open-cobol/1.1-1/cobc/cobc.c/?hl=1733:1738#L1733
-    https://sources.debian.net/src/open-cobol/1.1-1/bin/cobcrun.c/?hl=40:45#L40
-    Does not use dpkg-buildflags.
 open-gram:
   version: 0.1.22+20131212-1
   bugs:
