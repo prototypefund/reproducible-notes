@@ -204,8 +204,6 @@ aghermann:
     Captures username and hostname:
       configure.ac:193:AC_SUBST(user, [`whoami`@`hostname`])
       src/aghermann/print_version.cc:18:        printf( PACKAGE_STRING " built " __DATE__ " " __TIME__ " by " BUILT_BY "\n");
-  issues:
-    - timestamps_from_cpp_macros
   bugs:
     - 833472
 ahven:
@@ -10210,8 +10208,6 @@ libjchart2d-java:
     - random_order_in_documentation_generated_by_javadoc
 libjcode-perl:
   version: 2.13-3
-  issues:
-    - ftbfs_old_compat_debheper_compat_level
   bugs:
     - 800230
 libjdepend-java:
@@ -11715,7 +11711,6 @@ lucene-solr:
 lucene2:
   version: 2.9.4+ds1-4
   issues:
-    - ftbfs_uninvestigated_big_packages
     - blacklisted_on_jenkins_armhf_only
 lucene4.10:
   version: 4.10.4+dfsg-1
@@ -11988,10 +11983,6 @@ mapnik-vector-tile:
   version: 1.1.2+dfsg-1
   bugs:
     - 834672
-mapproxy:
-  version: 1.9.0-2
-  issues:
-    - timestamps_in_python_version_numbers
 mapsembler2:
   version: 2.2.3+dfsg-2
   comments: |
@@ -12567,11 +12558,6 @@ monotone:
   comments: |
     The freshly build executable produces its own manpage in Makefile.am,
     embedding timestamps.
-moon-buggy:
-  version: 1.0.51-10
-  issues:
-    - timestamps_in_ps_generated_by_dvips
-    - texinfo_mdate_sh_varies_by_timezone
 moonshot-gss-eap:
   version: 0.9.5-1
   bugs:
