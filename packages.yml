@@ -740,7 +740,6 @@ aspell-sk:
   version: 0.52-0-4
   bugs:
     - 815973
-    - 817360
 aspell-sl:
   version: 0.60-3
   bugs:
@@ -1705,10 +1704,6 @@ buildapp:
   version: 1.5.5-1
   issues:
     - randomness_in_binaries_generated_by_sbcl
-buildbot:
-  version: 0.8.12-3
-  bugs:
-    - 827622
 bullet:
   version: 2.83.5+dfsg-1
   issues:
@@ -1737,10 +1732,6 @@ bzr:
     .
     Unclear whether this is due to fdupes returning the _duplicate_ in
     non-deterministic order, which would not be fixed by an "external" sort.
-bzr-git:
-  version: 0.6.12+bzr1635-1
-  bugs:
-    - 829724
 bzr-xmloutput:
   version: 0.8.8+bzr162-5
   issues:
@@ -2366,8 +2357,6 @@ clonalframe:
   version: 1.2-4
   issues:
     - ftbfs_with_-fdebug-prefix-map_error
-  bugs:
-    - 832012
 cloop:
   version: 3.14.1.1
   issues:
@@ -2402,8 +2391,6 @@ clustalx:
   version: 2.1+lgpl-4
   issues:
     - ftbfs_with_-fdebug-prefix-map_error
-  bugs:
-    - 832013
 cluster:
   version: 2.0.4-2
   issues:
@@ -2638,10 +2625,6 @@ conquest-dicom-server:
   version: 1.4.17d-1
   bugs:
     - 831100
-cons:
-  version: 2.3.0.1+2.2.0-1
-  bugs:
-    - 817407
 consensuscore:
   version: 1.0.2-2
   issues:
@@ -2883,10 +2866,6 @@ cthumb:
   version: 4.2-3
   bugs:
     - 800207
-ctop:
-  version: 1.0.0-1
-  bugs:
-    - 829357
 ctpp2:
   version: 2.8.3-19
   issues:
@@ -3176,7 +3155,6 @@ datanommer.models:
 dataquay:
   version: 0.9-3
   bugs:
-    - 828879
     - 812274
 date:
   version: 1.2.34-2
@@ -4370,14 +4348,6 @@ enumerate:
   version: 111.08.00-2
   issues:
     - captures_build_path
-epic4:
-  version: 1:2.10.5-2
-  bugs:
-    - 829758
-epic4-help:
-  version: 1:2.0+20050315-2
-  bugs:
-    - 828893
 epic5:
   version: 1.1.11-1
   bugs:
@@ -5490,8 +5460,6 @@ ftplib:
   comments: |
     Embeds the build date into manpages.
     https://sources.debian.net/src/ftplib/3.1-1-9/debian/html2man.py/#L86-L87
-  bugs:
-    - 831645
 ftpwatch:
   version: 1.21+nmu1
   comments: |
@@ -5829,10 +5797,6 @@ gcc-snapshot:
   version: 20160125-1
   issues:
     - blacklisted_on_jenkins_armhf_only
-gcin:
-  version: 2.8.4+dfsg1-2
-  bugs:
-    - 828074
 gcl:
   version: 2.6.12-1
   issues:
@@ -5916,8 +5880,6 @@ gearmand:
   issues:
     - leaks_path_environment_variable
     - captures_shell_variable_in_autofoo_script
-  bugs:
-    - 831771
 gedit:
   version: 3.20.2-2
   comments: |
@@ -6119,10 +6081,6 @@ gio-sharp:
   version: 2.22.3-2
   comments: |
     Unidentified variation in /usr/lib/gio-sharp/gio-sharp.dll
-gip:
-  version: 1.7.0-1-3
-  bugs:
-    - 805200
 girara:
   version: 0.2.6-1
   issues:
@@ -6763,10 +6721,6 @@ golang-github-lsegal-gucumber:
   version: 0.0~git20160110.0.44a4d7e-1
   issues:
     - captures_build_path
-golang-github-magiconair-properties:
-  version: 1.7.0-1
-  bugs:
-    - 830727
 golang-github-mattn-go-sqlite3:
   version: 1.0.0~dfsg1-2
   issues:
@@ -6839,10 +6793,6 @@ golang-goprotobuf:
   version: 0.0~git20160815.0.7390af9-1
   issues:
     - golang_compiler_captures_build_path_in_binary
-golang-goyaml:
-  version: 0.0~bzr50-1
-  bugs:
-    - 819642
 golang-prometheus-client:
   version: 0.7.0+ds-2
   issues:
@@ -7066,8 +7016,6 @@ gretl:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/gretl/1.10.1-2/builddate.c/
-  bugs:
-    - 831044
 grfcodec:
   version: 6.0.6-1
   bugs:
@@ -7322,10 +7270,6 @@ guymager:
   version: 0.7.4-2
   issues:
     - captures_build_path
-gvrng:
-  version: 4.4-1
-  bugs:
-    - 796433
 gweled:
   version: 0.9.1-3
   bugs:
@@ -7410,10 +7354,6 @@ haskell98-report:
   version: 20080907-5
   issues:
     - timestamps_in_ps_generated_by_dvips
-haskell98-tutorial:
-  version: 200006-2-1.1
-  bugs:
-    - 817491
 hawtdispatch:
   version: 1.20-1
   issues:
@@ -8315,10 +8255,6 @@ jetty8:
   version: 8.1.19-3
   issues:
     - random_order_in_documentation_generated_by_javadoc
-jflex:
-  version: 1.4.3+dfsg-2
-  bugs:
-    - 832645
 jfractionlab:
   version: 0.91-3
   issues:
@@ -8928,10 +8864,6 @@ kmess:
   version: 2.0.6.1-3.1
   bugs:
     - 831178
-kmetronome:
-  version: 0.10.1-1
-  bugs:
-    - 802081
 kmflcomp:
   version: 0.9.8-1.1
   bugs:
@@ -9595,10 +9527,6 @@ libcgicc:
   version: 3.2.9-3
   bugs:
     - 811988
-libcgns:
-  version: 3.1.4.2-2
-  bugs:
-    - 830460
 libcitygml:
   version: 2.0-3
   issues:
@@ -10033,10 +9961,6 @@ libhmsbeagle:
   version: 2.1.2+20160525-1
   issues:
     - captures_build_path
-libhtml-tidy-perl:
-  version: 1.56-1
-  bugs:
-    - 829409
 libhtmlparser-java:
   version: 1.6.20060610.dfsg0-5
   bugs:
@@ -10057,10 +9981,6 @@ libice:
   version: 2:1.0.9-1
   issues:
     - different_encoding
-libid3tag:
-  version: 0.15.1b-11
-  bugs:
-    - 817527
 libident:
   version: 0.22-3
   issues:
@@ -10458,10 +10378,6 @@ libmongoc:
     - timestamps_manually_added_needs_further_investigation
   bugs:
     - 831659
-libmousex-getopt-perl:
-  version: 0.36-1
-  bugs:
-    - 832361
 libmozilla-ldap-perl:
   version: 1.5.3-2
   issues:
@@ -10817,8 +10733,6 @@ librevenge:
   version: 0.0.4-1
   comments: |
     umask differences in dbgsym but not clear where from - package is somewhat simple
-  bugs:
-    - 832177
 librevisa:
   version: 0.0.20130812-2
   bugs:
@@ -11066,10 +10980,6 @@ libtommath:
   issues:
     - timestamps_in_pdf_content
     - random_order_in_static_libraries
-libtool:
-  version: 2.4.2-1.11
-  bugs:
-    - 819767
 libtorrent-rasterbar:
   version: 1.0.7-1
   bugs:
@@ -11305,7 +11215,6 @@ libzrtpcpp:
 lice:
   version: 1:4.2.5i-1
   bugs:
-    - 777006
     - 817564
 lice5:
   version: 1:5.2.7-1
@@ -13230,8 +13139,6 @@ nfstrace:
     .
     Embeds OS and compiler information into binary.
     https://sources.debian.net/src/nfstrace/0.3.1-2/src/controller/build_info.h.in/#L33-L34
-  bugs:
-    - 831570
 ng:
   version: 1.5~beta1-3.1
   bugs:
@@ -13334,8 +13241,6 @@ nmh:
   comments: |
     Timestamp embedded by script generating a manpage.
     https://sources.debian.net/src/nmh/1.6-7/man/mh-chart-gen.sh/#L12
-  bugs:
-    - 831430
 node-contextify:
   version: 0.1.6-1
   bugs:
@@ -13995,10 +13900,6 @@ openclonk:
   version: 7.0-3
   bugs:
     - 823797
-opencolorio:
-  version: 1.0.9~dfsg0-5
-  bugs:
-    - 828621
 opencv:
   version: 2.4.9.1+dfsg-1.5
   issues:
@@ -15783,10 +15684,6 @@ pyjunitxml:
   version: 0.6-1.1
   bugs:
     - 802124
-pyjwt:
-  version: 1.4.0-1
-  bugs:
-    - 828131
 pyliblo:
   version: 0.10.0-1
   issues:
@@ -16225,10 +16122,6 @@ python-falcon:
   version: 0.3.0-5
   issues:
     - captures_build_path
-python-fedora:
-  version: 0.3.36-2
-  bugs:
-    - 797253
 python-fisx:
   version: 1.0.8-1
   issues:
@@ -16295,10 +16188,6 @@ python-hacking:
   version: 0.10.2-4
   bugs:
     - 816735
-python-hdf5storage:
-  version: 0.1.13-1
-  bugs:
-    - 828716
 python-heatclient:
   version: 0.8.0-3
   bugs:
@@ -16480,7 +16369,6 @@ python-numpy:
 python-oauth2client:
   version: 2.0.1-3
   bugs:
-    - 828634
     - 834676
 python-omniorb:
   version: 3.6-1
@@ -19642,7 +19530,6 @@ soprano:
 sorl-thumbnail:
   version: 12.2-1
   bugs:
-    - 830636
     - 834678
 sortmail:
   version: 1:2.4-1
@@ -20317,8 +20204,6 @@ tcpflow:
   comments: |
     Embeds the UTC offset:
     https://sources.debian.net/src/tcpreen/1.4.4-2/m4/hostname.m4/?hl=10#L10
-  bugs:
-    - 831584
 tcplay:
   version: 1.1-2
   bugs:
@@ -20644,10 +20529,6 @@ tomcat8:
   version: 8.0.32-1
   issues:
     - blacklisted_on_jenkins_armhf_only
-tomsfastmath:
-  version: 0.13-2
-  bugs:
-    - 829270
 topal:
   version: 75-2
   comments: |
@@ -21183,10 +21064,6 @@ urweb:
     - fonts_in_pdf_files
   bugs:
     - 831088
-user-mode-linux-doc:
-  version: 20060501-1
-  bugs:
-    - 817710
 userv:
   version: 1.1.1
   issues:
@@ -21664,8 +21541,6 @@ why3:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/why3/0.87.0-1/configure.in/?hl=712#L712
-  bugs:
-    - 831664
 wily:
   version: 0.13.41-7.2
   issues:
@@ -21717,8 +21592,6 @@ wit:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/wit/2.22b-1/setup.sh/#L19
-  bugs:
-    - 831331
 witalian:
   version: 1.7.6
   comments: |
@@ -22364,8 +22237,6 @@ yade:
     - diffoscope_runs_forever
     - unsorted_file_glob_by_cmake
     - timestamps_in_tex_documents
-  bugs:
-    - 829352
 yahoo2mbox:
   version: 0.24-1
   bugs:
@@ -22581,10 +22452,6 @@ zeromq3:
   version: 4.0.5+dfsg-3
   issues:
     - ftbfs_uninvestigated_test_failures
-zim:
-  version: 0.65-2
-  bugs:
-    - 829708
 zinnia:
   version: 0.06-2.1
   bugs:
@@ -22633,10 +22500,6 @@ zope-replacesupport:
   version: 1.0.3-6
   issues:
     - zope_random_field_order_in_dzproduct
-zope.interface:
-  version: 4.1.3-1
-  bugs:
-    - 828883
 zope.security:
   version: 4.0.3-1
   issues:
