@@ -37,6 +37,10 @@ abcm2ps:
   version: 7.8.9-1
   bugs:
     - 788748
+abind:
+  version: 1.4-5-1
+  issues:
+    - captures_build_path
 abinit:
   version: 7.8.2-2
   issues:
@@ -515,6 +519,10 @@ apparix:
   version: 07-261-1
   bugs:
     - 823428
+appmenu-qt:
+  version: 0.2.6-2
+  issues:
+    - captures_build_path
 appstream-glib:
   version: 0.5.13-1
   bugs:
@@ -9531,6 +9539,10 @@ libcgicc:
   version: 3.2.9-3
   bugs:
     - 811988
+libcgns:
+  version: 3.1.4.2-3
+  issues:
+    - captures_build_path
 libcitygml:
   version: 2.0-3
   issues:
@@ -10200,6 +10212,10 @@ libkf5kgeomap:
     - captures_build_path
 libkf5ksieve:
   version: 4:16.04.2-2
+  issues:
+    - captures_build_path
+libkf5libkdepim:
+  version: 4:16.04.2-3
   issues:
     - captures_build_path
 libkf5mailcommon:
@@ -10984,6 +11000,10 @@ libtommath:
   issues:
     - timestamps_in_pdf_content
     - random_order_in_static_libraries
+libtool:
+  version: 2.4.6-2
+  issues:
+    - captures_build_path
 libtorrent-rasterbar:
   version: 1.0.7-1
   bugs:
@@ -11196,6 +11216,10 @@ libxs:
   version: 1.2.0-1.1
   bugs:
     - 815685
+libxss:
+  version: 1:1.2.2-1
+  issues:
+    - captures_build_path
 libxtst:
   version: 2:1.2.2-1
   issues:
@@ -12277,6 +12301,10 @@ mknbi:
     https://sources.debian.net/src/mknbi/1.4.4-11/Makefile/#L213-L215
   bugs:
     - 831432
+mknfonts.tool:
+  version: 0.5-11
+  issues:
+    - captures_build_path
 mkvtoolnix:
   version: 9.1.0-1
   issues:
@@ -12656,6 +12684,10 @@ mrs:
     - 816569
     - 816569
     - 822466
+mrtg:
+  version: 2.17.4-4
+  issues:
+    - captures_build_path
 mrtg-ping-probe:
   version: 2.2.0-1
   bugs:
@@ -13599,6 +13631,10 @@ ocaml-shine:
   version: 0.2.0-1
   issues:
     - captures_build_path
+ocaml-text:
+  version: 0.6-3
+  issues:
+    - captures_build_path
 ocaml-theora:
   version: 0.3.0-3
   issues:
@@ -14153,6 +14189,10 @@ orthanc-postgresql:
   version: 2.0-1
   issues:
     - postgres_9.5_transition
+orville-write:
+  version: 2.55-3
+  issues:
+    - captures_build_path
 osc:
   version: 0.152.0-1
   comments: |
@@ -14279,6 +14319,10 @@ pa-structural-sexp:
     - captures_build_path
 packagekit-qt:
   version: 0.9.5-3
+  issues:
+    - captures_build_path
+packer:
+  version: 0.10.1+dfsg-1
   issues:
     - captures_build_path
 packeth:
@@ -14488,6 +14532,10 @@ pbdagcon:
   version: 0~20151114+git1d12e13+ds-2
   bugs:
     - 831105
+pbs-drmaa:
+  version: 1.0.17-2
+  issues:
+    - captures_build_path
 pbseqlib:
   version: 0~20151014+gitbe5d1bf-2
   issues:
@@ -14521,6 +14569,10 @@ pd-flite:
   version: 0.02.3-1
   bugs:
     - 834302
+pd-iemnet:
+  version: 0.2.1-1
+  issues:
+    - captures_build_path
 pd-pdstring:
   version: 0.10.2-1
   comments: |
@@ -14831,6 +14883,10 @@ picviz:
   version: 0.5-1
   comments: |
     full-archi.kivio is a zip file, but unclear how it varies given that its not seemingly built from any source. (Which is a problem in itself)
+pida:
+  version: 0.5.1-6
+  issues:
+    - captures_build_path
 pidentd:
   version: 3.0.19.ds1-7.1
   issues:
@@ -16097,6 +16153,10 @@ python-enable:
   version: 4.5.1-2
   bugs:
     - 804584
+python-enet:
+  version: 0.0~svn24-1
+  issues:
+    - captures_build_path
 python-escript:
   version: 4.2.0.1-1
   bugs:
@@ -16146,6 +16206,10 @@ python-gammu:
   version: 2.4-1
   issues:
     - ftbfs_uninvestigated_test_failures
+python-geohash:
+  version: 0.8.3-1.1
+  issues:
+    - captures_build_path
 python-geopandas:
   version: 0.2-1
   comments: |
@@ -16301,6 +16365,10 @@ python-manilaclient:
   version: 1.5.0-1
   bugs:
     - 816735
+python-mecab:
+  version: 0.99.6-1
+  issues:
+    - captures_build_path
 python-memory-profiler:
   version: 0.31+git20141019-1
   bugs:
@@ -16542,6 +16610,10 @@ python-pymzml:
   version: 0.7.6-dfsg-2
   bugs:
     - 830335
+python-pypcap:
+  version: 1.1.2+debian-2.2
+  issues:
+    - captures_build_path
 python-pypm:
   version: 0.0.7-8
   issues:
@@ -16634,6 +16706,10 @@ python-skbio:
     Differences in PNG images and random order in documentation.
 python-smbpasswd:
   version: 1.0.1-1.3
+  issues:
+    - captures_build_path
+python-stdlib-extensions:
+  version: 2.7.11-2
   issues:
     - captures_build_path
 python-taskflow:
@@ -17208,6 +17284,10 @@ r-bioc-savr:
   version: 1.10.0-1
   issues:
     - captures_build_path
+r-bioc-shortread:
+  version: 1.30.0-1
+  issues:
+    - captures_build_path
 r-bioc-summarizedexperiment:
   version: 1.2.0-1
   issues:
@@ -17246,6 +17326,10 @@ r-cran-base64enc:
     - captures_build_path
 r-cran-bbmle:
   version: 1.0.18-1
+  issues:
+    - captures_build_path
+r-cran-brew:
+  version: 1.0-6-1
   issues:
     - captures_build_path
 r-cran-brglm:
@@ -17345,6 +17429,10 @@ r-cran-futile.logger:
   version: 1.4.1-1
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-g.data:
+  version: 2.4-1
+  issues:
+    - captures_build_path
 r-cran-gam:
   version: 1.12-2
   issues:
@@ -17507,6 +17595,10 @@ r-cran-munsell:
   version: 0.4.2-1
   issues:
     - captures_build_path
+r-cran-mvnormtest:
+  version: 0.1-9-1
+  issues:
+    - captures_build_path
 r-cran-nmf:
   version: 0.20.6-1
   issues:
@@ -17557,6 +17649,10 @@ r-cran-pwt:
     - captures_build_path
 r-cran-pwt8:
   version: 8.1.0-1
+  issues:
+    - captures_build_path
+r-cran-qtl:
+  version: 1.39-5-2
   issues:
     - captures_build_path
 r-cran-qvcalc:
@@ -17727,6 +17823,10 @@ r-cran-vioplot:
     - captures_build_path
 r-cran-xts:
   version: 0.9-7-1
+  issues:
+    - captures_build_path
+r-omegahat-xmlrpc:
+  version: 0.3-0-1
   issues:
     - captures_build_path
 r-other-nitpick:
@@ -18480,6 +18580,10 @@ ruby-gollum-lib:
   bugs:
     - 821821
     - 830351
+ruby-gpgme:
+  version: 2.0.12-1
+  issues:
+    - captures_build_path
 ruby-grape:
   version: 0.13.0-1
   bugs:
@@ -18553,6 +18657,10 @@ ruby-mini-magick:
     - 835078
 ruby-mpi:
   version: 0.3.0-1
+  issues:
+    - captures_build_path
+ruby-multibitnums:
+  version: 0.1.4-2
   issues:
     - captures_build_path
 ruby-mysql:
