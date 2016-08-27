@@ -2719,6 +2719,11 @@ cp2k:
   comments: |
     Embeds the build date and hostname.
     https://sources.debian.net/src/cp2k/2.6.1-2/makefiles/Makefile/#L360-L361
+    .
+    Part of patch is https://gist.github.com/lamby/f73b5ada8dd849518671fd532d73d4ee/raw
+    .
+    docs partly use this value, but also party use "current-dateTime()" from
+    some XLST library.
 cpl-plugin-uves:
   version: 5.5.2+dfsg-3
   issues:
