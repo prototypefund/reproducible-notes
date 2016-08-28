@@ -9170,10 +9170,6 @@ kwave:
   version: 0.9.1-1-2
   bugs:
     - 825471
-kwidgetsaddons:
-  version: 5.12.0-1
-  comments: |
-    Whilst the package uses kde cdbs helpers etc., it should -- after all that -- use dh_builddeb and thus have the mtimes set correctly.. but they are not
 kwin:
   version: 4:5.7.0-1
   issues:
