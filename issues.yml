@@ -1266,3 +1266,7 @@ random_order_in_lua_version_substvar:
     -Lua-Versions: 5.3 5.2 5.1
     +Lua-Versions: 5.3 5.1 5.2
   url: https://bugs.debian.org/835646
+uname_output_in_python_debugging_symbols_caused_by_sysconfig_getplatform:
+  description: |
+    encoded in tempfile. Affects building on i386 as it does not distinguish
+    between userland vs kernel.
