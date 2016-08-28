@@ -462,6 +462,10 @@ apertium:
   version: 3.4.0~r61013-5
   issues:
     - captures_shell_variable_in_autofoo_script
+apertium-af-nl:
+  version: 0.2.0~r58256-1
+  issues:
+    - captures_build_path
 apertium-en-ca:
   version: 0.9.3~r61232-1
   bugs:
@@ -657,6 +661,10 @@ arora:
   version: 0.11.0+qt5+git2014-04-06-1
   bugs:
     - 803521
+arp-scan:
+  version: 1.8.1-2
+  issues:
+    - captures_build_path
 arpon:
   version: 2.7.2-1
   issues:
@@ -1165,6 +1173,10 @@ bats:
   version: 0.4.0-1
   bugs:
     - 802191
+baycomepp:
+  version: 0.10-13
+  issues:
+    - captures_build_path
 baycomusb:
   version: 0.10-13
   issues:
@@ -1411,6 +1423,10 @@ bitcoin:
   bugs:
     - 791834
     - 812275
+bitlbee:
+  version: 3.4.2-1.1
+  issues:
+    - captures_build_path
 bitops:
   version: 1.0-6-1
   issues:
@@ -1732,6 +1748,10 @@ buildapp:
   version: 1.5.5-1
   issues:
     - randomness_in_binaries_generated_by_sbcl
+buildbot:
+  version: 0.8.12-3.1
+  issues:
+    - captures_build_path
 bullet:
   version: 2.83.5+dfsg-1
   issues:
@@ -3473,6 +3493,10 @@ debootstrap:
   version: 1.0.80
   bugs:
     - 819883
+deborphan:
+  version: 1.7.28.8-0.3
+  issues:
+    - captures_build_path
 dejagnu:
   version: 1.6-1
   issues:
@@ -4096,6 +4120,10 @@ dx:
   version: 1:4.4.4-9
   issues:
     - captures_build_path
+dxsamples:
+  version: 4.4.0-3
+  issues:
+    - captures_build_path
 dynare:
   version: 4.4.3-1
   issues:
@@ -4294,6 +4322,10 @@ elementtidy:
   version: 1.0-8
   bugs:
     - 828880
+elfutils:
+  version: 0.166-2
+  issues:
+    - captures_build_path
 elida:
   version: 0.4+nmu1
   issues:
@@ -4769,6 +4801,10 @@ fcitx-m17n:
   version: 0.2.3-3
   issues:
     - captures_build_path
+fcitx-skk:
+  version: 0.1.2-0.2
+  issues:
+    - captures_build_path
 fcitx-ui-light:
   version: 0.1.3-2
   issues:
@@ -4860,6 +4896,10 @@ feynmf:
   version: 1.08-9
   issues:
     - timestamps_in_dvi_generated_by_latex
+ffmpeg:
+  version: 7:3.1.2-1
+  issues:
+    - captures_build_path
 ffmpeg2theora:
   version: 0.30-1
   bugs:
@@ -4934,6 +4974,10 @@ fio:
   version: 2.10-2
   bugs:
     - 828791
+fiona:
+  version: 1.7.0.post2-1
+  issues:
+    - captures_build_path
 firebird2.5:
   version: 2.5.4.26856.ds4-1
   comments: |
@@ -5652,6 +5696,10 @@ gadmin-bind:
   version: 0.2.5-2
   issues:
     - captures_build_path
+gadmin-openvpn-server:
+  version: 0.1.5-3.1
+  issues:
+    - captures_build_path
 gadmin-proftpd:
   version: 1:0.4.2-1
   issues:
@@ -5971,6 +6019,10 @@ gdesklets:
   version: 0.36.1-7
   issues:
     - captures_build_path
+gdigi:
+  version: 0.4.0-1
+  issues:
+    - captures_build_path
 gdm3:
   version: 3.14.1-3
   issues:
@@ -6034,6 +6086,10 @@ gemanx-gtk2:
     - 811755
 genders:
   version: 1.21-1
+  issues:
+    - captures_build_path
+genometools:
+  version: 1.5.9+ds-2
   issues:
     - captures_build_path
 genparse:
@@ -6130,6 +6186,10 @@ gfan:
   version: 0.5+dfsg-6
   bugs:
     - 811805
+gflags:
+  version: 2.1.2-3
+  issues:
+    - captures_build_path
 gforth:
   version: 0.7.3+dfsg-3
   issues:
@@ -6359,6 +6419,10 @@ glances:
   version: 2.6.2-1
   issues:
     - copyright_year_in_documentation_generated_by_sphinx
+glfer:
+  version: 0.4.2-2
+  issues:
+    - captures_build_path
 glibc:
   version: 2.19-18
   issues:
@@ -7212,6 +7276,10 @@ gsasl:
   version: 1.8.0-6
   issues:
     - timezone_variance_because_of_automake_mdate
+gscanbus:
+  version: 0.8-2
+  issues:
+    - captures_build_path
 gsfonts:
   version: 1:8.11+urwcyr1.0.7~pre44-4.2
   bugs:
@@ -7390,12 +7458,20 @@ guitarix:
   version: 0.34.0-0.1
   bugs:
     - 831124
+gupnp-igd:
+  version: 0.2.4-1
+  issues:
+    - captures_build_path
 gurgitate-mail:
   version: 1.10.0-1
   bugs:
     - 805158
 guymager:
   version: 0.7.4-2
+  issues:
+    - captures_build_path
+gwaei:
+  version: 3.6.2-2
   issues:
     - captures_build_path
 gweled:
@@ -8672,6 +8748,10 @@ kawari8:
   version: 8.2.8-8
   issues:
     - timestamps_difference_by_unzip
+kbd:
+  version: 2.0.3-2
+  issues:
+    - captures_build_path
 kbibtex:
   version: 0.4-4
   issues:
@@ -8696,6 +8776,10 @@ kdbg:
   version: 2.5.5-1
   bugs:
     - 823393
+kde-baseapps:
+  version: 4:16.04.3-1
+  issues:
+    - captures_build_path
 kde-cli-tools:
   version: 4:5.7.4-1
   issues:
@@ -8779,6 +8863,10 @@ kdgcommons-java:
   version: 1.0.13-1
   issues:
     - user_in_java_jar_manifest
+kdiff3:
+  version: 0.9.98-3
+  issues:
+    - captures_build_path
 keepalived:
   version: 1:1.2.13-1
   bugs:
@@ -9069,6 +9157,10 @@ kombu:
   version: 3.0.30-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
+komi:
+  version: 1.04-5
+  issues:
+    - captures_build_path
 kon2:
   version: 0.3.9b-20
   bugs:
@@ -9272,6 +9364,10 @@ labplot:
   version: 2.3.0-1
   bugs:
     - 830454
+labrea:
+  version: 2.5-stable-3
+  issues:
+    - captures_build_path
 laby:
   version: 0.6.4-1
   issues:
@@ -9409,6 +9505,10 @@ lensfun:
   version: 0.3.2-3
   issues:
     - captures_build_path
+lft:
+  version: 2.2-4
+  issues:
+    - captures_build_path
 libabigail:
   version: 0.1~20150623-2
   issues:
@@ -9467,10 +9567,18 @@ libapache2-mod-auth-openidc:
   version: 1.8.10.1-1
   issues:
     - captures_build_path
+libapache2-mod-auth-plain:
+  version: 2.0.52
+  issues:
+    - captures_build_path
 libapache2-mod-authn-yubikey:
   version: 1.0-1.1
   bugs:
     - 725536
+libapache2-mod-authnz-external:
+  version: 3.3.2-0.1
+  issues:
+    - captures_build_path
 libapache2-mod-authnz-pam:
   version: 1.0.1-1
   issues:
@@ -9493,6 +9601,10 @@ libapache2-mod-geoip:
     - captures_build_path
 libapache2-mod-ldap-userdir:
   version: 1.1.19-2.1
+  issues:
+    - captures_build_path
+libapache2-mod-lisp:
+  version: 1.3.1-1.3
   issues:
     - captures_build_path
 libapache2-mod-perl2:
@@ -9849,6 +9961,10 @@ libdecodeqr:
   version: 0.9.3-6.2
   issues:
     - random_order_in_static_libraries
+libdevel-cover-perl:
+  version: 1.23-1
+  issues:
+    - captures_build_path
 libdevel-gdb-perl:
   version: 2.02-2
   bugs:
@@ -11453,6 +11569,10 @@ lilyterm:
     fails silently to replace with strange "date: extra operand '$(shell" error.
   bugs:
     - 835376
+limba:
+  version: 0.5.6-1
+  issues:
+    - captures_build_path
 linbox:
   version: 1.3.2-1.1
   bugs:
@@ -15353,6 +15473,10 @@ pmacct:
   version: 1.6.0-1
   issues:
     - captures_build_path
+pnetcdf:
+  version: 1.7.0-1
+  issues:
+    - captures_build_path
 png-definitive-guide:
   version: 20060430-1
   bugs:
@@ -18007,6 +18131,10 @@ r-cran-phangorn:
   version: 2.0.4-1
   issues:
     - captures_build_path
+r-cran-phylobase:
+  version: 0.8.2-1
+  issues:
+    - captures_build_path
 r-cran-pkgkitten:
   version: 0.1.3-1
   issues:
@@ -18785,6 +18913,10 @@ ros-geometry-experimental:
     - 835140
 ros-message-runtime:
   version: 0.4.12-3
+  issues:
+    - captures_build_path
+ros-navigation-msgs:
+  version: 1.13.0-3
   issues:
     - captures_build_path
 ros-nodelet-core:
