@@ -22500,6 +22500,10 @@ yudit:
   comments: |
     Timestamp removed in 790088 but there is some uninitialised memory
     immediately after.
+z3:
+  version: 4.4.1-0.2
+  bugs:
+    - 835754
 z80asm:
   version: 1.8-1
   issues:
