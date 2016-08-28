@@ -16117,8 +16117,6 @@ python-bashate:
     - 816735
 python-bcrypt:
   version: 3.1.0-1
-  comments: |
-    [i386] Filenames in debug symbols are architecture-dependent (embed `uname -m`).
   issues:
     - uname_output_in_python_debugging_symbols_caused_by_sysconfig_getplatform
 python-biggles:
