@@ -6901,6 +6901,10 @@ golang-github-azure-azure-sdk-for-go:
   version: 1.2~git20150611.0.97d9593-2
   issues:
     - ftbfs_uninvestigated_test_failures
+golang-github-calmh-xdr:
+  version: 2.0.0-1
+  issues:
+    - captures_build_path
 golang-github-coreos-go-oidc:
   version: 0.0~git20151022.0.e9c0807-1
   bugs:
@@ -10641,6 +10645,10 @@ libkf5grantleetheme:
   version: 16.04.2-1
   bugs:
     - 830441
+libkf5kdgantt2:
+  version: 4:16.04.2-1
+  issues:
+    - captures_build_path
 libkf5kgeomap:
   version: 16.04.0-2
   issues:
@@ -16030,6 +16038,14 @@ prometheus:
   version: 0.15.1+ds-2
   issues:
     - ftbfs_uninvestigated_test_failures
+prometheus-mongodb-exporter:
+  version: 0.0+git20160604.28251cc-1
+  issues:
+    - captures_build_path
+prometheus-mysqld-exporter:
+  version: 0.8.1+ds-1
+  issues:
+    - captures_build_path
 prometheus-pushgateway:
   version: 0.2.0+ds-2
   issues:
@@ -18224,6 +18240,10 @@ r-cran-haplo.stats:
   version: 1.7.1-1
   issues:
     - captures_build_path
+r-cran-hexbin:
+  version: 1.27.1-1
+  issues:
+    - captures_build_path
 r-cran-highr:
   version: 0.5.1-2
   issues:
@@ -20393,6 +20413,10 @@ sinfo:
   version: 0.0.48-1
   bugs:
     - 811814
+singular:
+  version: 4.0.3-p1+ds-3
+  issues:
+    - captures_build_path
 sipml5:
   version: 0.0.20130314.2030-3
   issues:
