@@ -2061,6 +2061,10 @@ celery-haystack:
   version: 0.10-1
   bugs:
     - 828641
+cen64:
+  version: 0.3+git20160403-1
+  issues:
+    - captures_build_path
 ceph:
   version: 0.80.9-2
   comments: |
@@ -15930,6 +15934,10 @@ pptp-linux:
     - captures_build_path
 ppx-sexp-conv:
   version: 113.33.03-2
+  issues:
+    - captures_build_path
+ppx-tools:
+  version: 5.0+4.02.0-1
   issues:
     - captures_build_path
 prayer:
