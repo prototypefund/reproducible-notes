@@ -10826,12 +10826,6 @@ libmlx4:
   version: 1.0.6-1
   bugs:
     - 819857
-libmodule-extractuse-perl:
-  version: 0.33-1
-  comments: |
-    Original issue caused by non-determinism in libparse-recdescent-perl.
-    Original patch sent in \#790397 but now the issue seems to be that sometimes
-    the file is not regenerated (TZ?) but I cannot reproduce.
 libmojolicious-plugin-mailexception-perl:
   version: 0.19-1
   bugs:
