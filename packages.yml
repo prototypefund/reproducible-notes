@@ -238,6 +238,10 @@ airlift-slice:
   version: 0.10-1
   bugs:
     - 835116
+aj-snapshot:
+  version: 0.9.6-2
+  issues:
+    - captures_build_path
 akonadi-googledata:
   version: 1.2.0-1
   issues:
@@ -470,6 +474,14 @@ apertium-en-ca:
   version: 0.9.3~r61232-1
   bugs:
     - 802481
+apertium-en-gl:
+  version: 0.5.2~r57551-1
+  issues:
+    - captures_build_path
+apertium-eo-en:
+  version: 1.0.0~r63833-1
+  issues:
+    - captures_build_path
 apertium-eo-es:
   version: 1:0.9.1~r60655-1
   issues:
@@ -2060,6 +2072,10 @@ ceres-solver:
     - 811987
 cernlib:
   version: 20061220+dfsg3-4.2
+  issues:
+    - captures_build_path
+cervisia:
+  version: 4:16.04.2-1
   issues:
     - captures_build_path
 cfengine3:
@@ -4266,6 +4282,10 @@ effects:
   version: 3.1.1-1
   issues:
     - captures_build_path
+efibootmgr:
+  version: 0.12-4
+  issues:
+    - captures_build_path
 eficas:
   version: 6.4.0-1-1.1
   bugs:
@@ -4561,6 +4581,10 @@ erlang-proper:
   issues:
     - timestamps_in_documentation_generated_by_edoc
     - timestamps_in_beam_files
+erlang-ranch:
+  version: 1.1.0-1
+  issues:
+    - captures_build_path
 erlang-uuid:
   version: 0.4.6-1
   issues:
@@ -6461,6 +6485,10 @@ glosstex:
     - 817482
 glotski:
   version: 0.2-7
+  issues:
+    - captures_build_path
+gltron:
+  version: 0.70final-12.1
   issues:
     - captures_build_path
 gluegen2:
@@ -9889,6 +9917,10 @@ libcorelinux:
   bugs:
     - 808679
     - 800232
+libcork:
+  version: 0.15.0+ds-6
+  issues:
+    - captures_build_path
 libcoyotl:
   version: 3.1.0-6.1
   comments: |
@@ -17914,6 +17946,10 @@ r-cran-conting:
   version: 1.5-1
   issues:
     - captures_build_path
+r-cran-corpcor:
+  version: 1.6.8-3
+  issues:
+    - captures_build_path
 r-cran-cubature:
   version: 1.1-2-1
   issues:
@@ -17936,6 +17972,10 @@ r-cran-diagnosismed:
     - randomness_in_r_rdb_rds_databases
 r-cran-downloader:
   version: 0.3-3
+  issues:
+    - captures_build_path
+r-cran-dplyr:
+  version: 0.5.0-1
   issues:
     - captures_build_path
 r-cran-e1071:
@@ -17985,6 +18025,10 @@ r-cran-fastcluster:
     - randomness_in_r_rdb_rds_databases
 r-cran-fastmatch:
   version: 1.0-4-1
+  issues:
+    - captures_build_path
+r-cran-fitbitscraper:
+  version: 0.1.7-1
   issues:
     - captures_build_path
 r-cran-formula:
@@ -18461,6 +18505,10 @@ r-cran-teachingdemos:
     - timestamps_in_description_files_generated_by_r-base-dev
 r-cran-tensor:
   version: 1.5-1
+  issues:
+    - captures_build_path
+r-cran-tibble:
+  version: 1.1-1
   issues:
     - captures_build_path
 r-cran-tidyr:
