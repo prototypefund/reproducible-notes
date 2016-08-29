@@ -668,6 +668,9 @@ randomness_in_ocaml_provides:
     fixes this.
     .
     Seems like this can affect Depends too. eg. labltk
+timestamps_in_documentation_generated_by_ocamldoc:
+  description: |
+    eg. API listings in locale order
 timestamp_in_pear_registry_files:
   description: |
     PEAR registry files are serialized PHP objects that contain a timestamp.
