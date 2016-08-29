@@ -20737,6 +20737,8 @@ spark:
   version: 2012.0.deb-11
   comments: |
     Embed a timestamp and other weird things in ./usr/bin/checker
+  issues:
+    - cython_captures_build_path
 sparskit:
   version: 2.0.0-2
   issues:
