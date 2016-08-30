@@ -5488,7 +5488,7 @@ foxeye:
     +    GENDATE="`LC_TIME=C date --utc --date="@$$SOURCE_DATE_EPOCH" +'%B %Y'`"
     +fi
     .
-    ... but autoreconfing causes a FTBFS
+    ... but autoreconfing causes a FTBFS, filed as Bug835833
 fpc:
   version: 3.0.0+dfsg-6
   issues:
