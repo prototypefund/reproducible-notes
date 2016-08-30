@@ -11491,6 +11491,8 @@ libtm-perl:
     Caused by Lalr.pm in libparse-yapp-perl, but the problem is deeper than
     just the outputting in a stable order - we need to deterministically
     generate the LR state numbers too.
+  bugs:
+    - 812619
 libtnt:
   version: 1.2.6-1
   issues:
