@@ -15029,6 +15029,10 @@ paje.app:
     Build date is embedded into content of postscript document.
   issues:
     - timestamps_in_ps_generated_by_dvips
+pajeng:
+  version: 1.3.1-3
+  issues:
+    - captures_build_path
 pal:
   version: 0.4.3-8.1
   issues:
@@ -18097,6 +18101,10 @@ r-cran-amore:
   version: 0.2-15-1
   issues:
     - captures_build_path
+r-cran-ape:
+  version: 3.5-2
+  issues:
+    - captures_build_path
 r-cran-arm:
   version: 1.8-6-2
   issues:
@@ -18235,6 +18243,10 @@ r-cran-energy:
     - captures_build_path
 r-cran-epibasix:
   version: 1.3-2
+  issues:
+    - captures_build_path
+r-cran-epir:
+  version: 0.9-79-1
   issues:
     - captures_build_path
 r-cran-epitools:
@@ -18782,6 +18794,10 @@ r-cran-tensor:
   version: 1.5-1
   issues:
     - captures_build_path
+r-cran-tgp:
+  version: 2.4-14-2
+  issues:
+    - captures_build_path
 r-cran-tibble:
   version: 1.1-1
   issues:
@@ -19292,6 +19308,10 @@ rocs:
   version: 4:16.04.1-1
   bugs:
     - 835282
+rodbc:
+  version: 1.3-13-2
+  issues:
+    - captures_build_path
 root-tail:
   version: 1.2-3
   bugs:
@@ -19860,6 +19880,10 @@ ruby-rubymail:
     - random_order_in_ruby_rdoc_indices
 ruby-sdl:
   version: 2.2.0-1
+  issues:
+    - captures_build_path
+ruby-sequel-pg:
+  version: 1.6.16-1
   issues:
     - captures_build_path
 ruby-serialport:
