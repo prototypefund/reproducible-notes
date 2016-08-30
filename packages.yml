@@ -908,6 +908,10 @@ audacity:
   version: 2.1.2-1
   bugs:
     - 811671
+audex:
+  version: 0.79-1
+  issues:
+    - captures_build_path
 audiocd-kio:
   version: 4:15.12.2-2
   issues:
@@ -1093,6 +1097,10 @@ ball:
     - timestamps_in_tex_documents
   bugs:
     - 833004
+baloo:
+  version: 4:4.14.3-3
+  issues:
+    - captures_build_path
 baloo-kf5:
   version: 5.16.0-1
   bugs:
@@ -1884,6 +1892,10 @@ camitk:
   version: 3.4.0-2
   issues:
     - blacklisted_on_jenkins_armhf_only
+camlimages:
+  version: 1:4.2.0-1.1
+  issues:
+    - captures_build_path
 camlzip:
   version: 1.05-3
   issues:
@@ -3743,6 +3755,10 @@ discover:
   version: 2.1.2-7
   issues:
     - captures_build_path
+diskscan:
+  version: 0.19-1
+  issues:
+    - captures_build_path
 dispcalgui:
   version: 3.1.5.0-1
   comments: |
@@ -3921,6 +3937,10 @@ dnssec-trigger:
     https://sources.debian.net/src/dnssec-trigger/0.13~svn685-4/configure.ac/#L678
   bugs:
     - 833818
+dnsval:
+  version: 2.2-4
+  issues:
+    - captures_build_path
 doc-debian:
   version: 6.3
   issues:
@@ -4323,6 +4343,10 @@ eigen3:
   version: 3.3~beta1-2
   issues:
     - blacklisted_on_jenkins_armhf_only
+eiskaltdcpp:
+  version: 2.2.9-4
+  issues:
+    - captures_build_path
 eja:
   version: 9.5.20-1
   comments: |
@@ -4694,6 +4718,10 @@ exodusii:
   version: 6.02.dfsg.1-7
   issues:
     - captures_build_path
+exonerate:
+  version: 2.4.0-2
+  issues:
+    - captures_build_path
 expeyes:
   version: 4.0.0-1
   bugs:
@@ -4829,6 +4857,10 @@ fceux:
   issues:
     - timestamps_from_cpp_macros
     - scons_doesnt_pass_environment_to_build_tools
+fcitx-anthy:
+  version: 0.2.2-1
+  issues:
+    - captures_build_path
 fcitx-googlepinyin:
   version: 0.1.6-3
   issues:
@@ -4878,6 +4910,10 @@ fdroidserver:
     random order caused by shell expansion in docs/gendocs.sh
   bugs:
     - 835463
+fdupes:
+  version: 1:1.6.1-1
+  issues:
+    - captures_build_path
 fdutils:
   version: 5.5-20060227-7
   issues:
@@ -4985,6 +5021,10 @@ filetraq:
   version: 0.2-14
   bugs:
     - 817453
+filezilla:
+  version: 3.20.0-1
+  issues:
+    - captures_build_path
 filler:
   version: 1.02-6.2
   issues:
@@ -5621,6 +5661,10 @@ fspy:
     https://sources.debian.net/src/fspy/0.1.1-1/Makefile/#L4
   bugs:
     - 831354
+fstrcmp:
+  version: 0.7.D001-1.1
+  issues:
+    - captures_build_path
 ftgl:
   version: 2.1.3~rc5-4+nmu1
   issues:
@@ -8531,6 +8575,10 @@ jclic:
   issues:
     - timestamps_in_jar
     - user_in_java_jar_manifest
+jed:
+  version: 1:0.99.19-7
+  issues:
+    - captures_build_path
 jenkins-json:
   version: 2.4-jenkins-3-4
   issues:
@@ -10893,6 +10941,10 @@ libnet-finger-perl:
   version: 1.06-6
   bugs:
     - 817542
+libnet-ldapapi-perl:
+  version: 3.0.3-7
+  issues:
+    - captures_build_path
 libnet-nbname-perl:
   version: 0.26-1.1
   bugs:
@@ -10935,6 +10987,10 @@ libnss-lwres:
     - captures_build_path
 libnxt:
   version: 0.3-2
+  issues:
+    - captures_build_path
+libnzb:
+  version: 0.0.20050629-6.2
   issues:
     - captures_build_path
 liboauth:
@@ -10981,6 +11037,10 @@ libopenraw:
   version: 0.0.9-3.9
   bugs:
     - 828896
+liboping:
+  version: 1.9.0-1
+  issues:
+    - captures_build_path
 liborcus:
   version: 0.11.2-2
   issues:
@@ -11369,6 +11429,10 @@ libtasn1-6:
   version: 4.7-3
   bugs:
     - 819838
+libtcd:
+  version: 2.2.2-1
+  issues:
+    - captures_build_path
 libtemplates-parser:
   version: 11.8.2014-4
   comments: |
@@ -11878,6 +11942,10 @@ lldpad:
   version: 0.9.46-3.1
   bugs:
     - 753235
+lldpd:
+  version: 0.9.4-1
+  issues:
+    - captures_build_path
 llvm-defaults:
   version: 0.33
   bugs:
@@ -12137,6 +12205,10 @@ lvtk:
     - 834158
 lwatch:
   version: 0.6.2-1
+  issues:
+    - captures_build_path
+lwt:
+  version: 2.5.2-1
   issues:
     - captures_build_path
 lxc:
