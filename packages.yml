@@ -561,6 +561,10 @@ apr-util:
   version: 1.5.4-2
   issues:
     - captures_build_path
+apt:
+  version: 1.3~rc2
+  issues:
+    - captures_build_path
 apt-build:
   version: 0.12.45
   issues:
@@ -4972,6 +4976,10 @@ feynmf:
   version: 1.08-9
   issues:
     - timestamps_in_dvi_generated_by_latex
+fflas-ffpack:
+  version: 2.2.1-2
+  issues:
+    - captures_build_path
 ffmpeg:
   version: 7:3.1.2-1
   issues:
@@ -13699,6 +13707,10 @@ ncbi-tools6:
   version: 6.1.20120620-8
   issues:
     - timestamps_from_cpp_macros
+ncbi-vdb:
+  version: 2.7.0+dfsg-1
+  issues:
+    - captures_build_path
 ncc:
   version: 2.8-2
   bugs:
@@ -15650,6 +15662,10 @@ pgfincore:
     - postgres_9.5_transition
 pgmemcache:
   version: 2.3.0-2
+  issues:
+    - captures_build_path
+pgmodeler:
+  version: 0.8.2-1
   issues:
     - captures_build_path
 pgocaml:
@@ -18856,6 +18872,10 @@ r-cran-pbapply:
   version: 1.1-3-1
   issues:
     - captures_build_path
+r-cran-pbdzmq:
+  version: 0.2.3+dfsg-1
+  issues:
+    - captures_build_path
 r-cran-pbivnorm:
   version: 0.6.0-1
   issues:
@@ -19096,6 +19116,10 @@ r-cran-spatstat:
     - captures_build_path
 r-cran-spc:
   version: 1:0.5.1-1
+  issues:
+    - captures_build_path
+r-cran-spdep:
+  version: 0.6-6-1
   issues:
     - captures_build_path
 r-cran-stringi:
@@ -19652,6 +19676,10 @@ root-tail:
   version: 1.2-3
   bugs:
     - 817656
+ros-actionlib:
+  version: 1.11.6-2
+  issues:
+    - captures_build_path
 ros-bond-core:
   version: 1.7.17-2
   issues:
@@ -19696,6 +19724,10 @@ ros-geometry-experimental:
   version: 0.5.13-2
   bugs:
     - 835140
+ros-image-common:
+  version: 1.11.10-5
+  issues:
+    - captures_build_path
 ros-message-runtime:
   version: 0.4.12-3
   issues:
@@ -20043,6 +20075,10 @@ ruby-grib:
     - captures_build_path
 ruby-gsl:
   version: 1.16.0.6+dfsg1-2
+  issues:
+    - captures_build_path
+ruby-hamlit:
+  version: 2.5.0+debian-1
   issues:
     - captures_build_path
 ruby-hdfeos5:
