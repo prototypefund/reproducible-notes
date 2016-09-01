@@ -214,6 +214,10 @@ aghermann:
       src/aghermann/print_version.cc:18:        printf( PACKAGE_STRING " built " __DATE__ " " __TIME__ " by " BUILT_BY "\n");
   bugs:
     - 833472
+ahcpd:
+  version: 0.53-2
+  issues:
+    - captures_build_path
 ahven:
   version: 2.4+repack-1
   issues:
@@ -446,6 +450,10 @@ apache-log4j-extras1.2:
   version: 1.2.17-1
   issues:
     - different_encoding
+apache-mod-auth-ntlm-winbind:
+  version: 0.0.0.lorikeet+svn+801-4
+  issues:
+    - captures_build_path
 apache-upload-progress-module:
   version: 0.2-2
   issues:
@@ -1376,6 +1384,10 @@ binfmtc:
   version: 0.17-1
   bugs:
     - 817377
+bing:
+  version: 1.1.3-2.1
+  issues:
+    - captures_build_path
 binpac:
   version: 0.44-1
   issues:
@@ -1916,6 +1928,10 @@ camlimages:
   version: 1:4.2.0-1.1
   issues:
     - captures_build_path
+camljava:
+  version: 0.3-1
+  issues:
+    - captures_build_path
 camlpdf:
   version: 2.1.1-1
   issues:
@@ -2207,6 +2223,10 @@ check-all-the-things:
   version: 2016.06.29.1
   bugs:
     - 829297
+check-mk:
+  version: 1.2.6p12-1
+  issues:
+    - captures_build_path
 check-postgres:
   version: 2.22.0-1
   issues:
@@ -3253,6 +3273,10 @@ dapl:
     https://sources.debian.net/src/dapl/2.1.5-1/Makefile.am/#L51
   bugs:
     - 833410
+daq:
+  version: 2.0.4-3
+  issues:
+    - captures_build_path
 darcs:
   version: 2.12.0-1
   issues:
@@ -3395,6 +3419,10 @@ dbview:
   bugs:
     - 777058
     - 792951
+dc-qt:
+  version: 0.2.0.alpha-4.3
+  issues:
+    - captures_build_path
 dc3dd:
   version: 7.2.641-3
   issues:
@@ -4703,6 +4731,10 @@ ettercap:
   version: 1:0.8.2-2
   issues:
     - captures_build_path
+etw:
+  version: 3.6+svn162-3
+  issues:
+    - captures_build_path
 eurephia:
   version: 1.1.0-5
   comments: |
@@ -4893,6 +4925,10 @@ fceux:
   issues:
     - timestamps_from_cpp_macros
     - scons_doesnt_pass_environment_to_build_tools
+fcitx:
+  version: 1:4.2.9.1-2
+  issues:
+    - captures_build_path
 fcitx-anthy:
   version: 0.2.2-1
   issues:
@@ -7886,6 +7922,10 @@ highlight.js:
     - randomness_in_documentation_generated_by_sphinx
   bugs:
     - 830189
+hilive:
+  version: 0.0+20150926-1
+  issues:
+    - captures_build_path
 hisat2:
   version: 2.0.4-1
   issues:
@@ -11794,6 +11834,10 @@ libvmime:
   version: 0.9.1-6
   issues:
     - captures_build_path
+libvpx:
+  version: 1.5.0-4
+  issues:
+    - captures_build_path
 libvshadow:
   version: 20160110-2
   issues:
@@ -14133,6 +14177,10 @@ nlme:
   version: 3.1.128-2
   issues:
     - captures_build_path
+nlohmann-json:
+  version: 2.0.2-1
+  issues:
+    - captures_build_path
 nlopt:
   version: 2.4.2+dfsg-2
   issues:
@@ -16463,6 +16511,10 @@ pptp-linux:
   issues:
     - captures_build_path
 ppx-core:
+  version: 113.33.03-1
+  issues:
+    - captures_build_path
+ppx-optcomp:
   version: 113.33.03-1
   issues:
     - captures_build_path
@@ -19972,6 +20024,10 @@ ros-std-msgs:
   version: 0.5.9-2
   issues:
     - random_order_in_init_py_generated_by_python-genpy
+ros-vision-opencv:
+  version: 1.11.11+ds-3
+  issues:
+    - captures_build_path
 rosegarden:
   version: 1:16.06-1
   issues:
