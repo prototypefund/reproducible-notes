@@ -22923,13 +22923,9 @@ tzc:
   bugs:
     - 800220
 u-boot:
-  version: 2016.03+dfsg1-5
-  comments: |
-    The it_CH.UTF-8 locale used on armhf causes variation in
-    binary data. Doesn't appear to vary with fr_CH.UTF-8.
-    Patches accepted upstream:
-    http://git.denx.de/?p=u-boot.git;a=commitdiff;h=5847084f6bbd0778afb29f0574085d4210ea8cff
-    http://git.denx.de/?p=u-boot.git;a=commitdiff;h=42ffa51fd46bc6fd4bf2c244f00a80df31d01596
+  version: 2016.03+dfsg1-6
+  issues:
+    - captures_build_path
 u3-tool:
   version: 0.3-1.1
   issues:
