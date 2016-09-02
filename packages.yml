@@ -5250,6 +5250,10 @@ flrig:
   version: 1.3.26-1
   bugs:
     - 822718
+fltk1.1:
+  version: 1.1.10-22
+  issues:
+    - captures_build_path
 fltk1.3:
   version: 1.3.2-6
   issues:
@@ -5904,6 +5908,10 @@ gambas3:
   version: 3.8.4-1
   issues:
     - timestamps_from_cpp_macros
+game-music-emu:
+  version: 0.6.0-3
+  issues:
+    - captures_build_path
 gamera:
   version: 3.4.2+svn1431-1
   bugs:
@@ -6734,6 +6742,10 @@ gngb:
     -> When compiling for i386 from amd64 system/kernel, different flags are used.
   bugs:
     - 831773
+gniall:
+  version: 0.7.1-7.1
+  issues:
+    - captures_build_path
 gnome-bluetooth:
   version: 3.18.3-1
   bugs:
@@ -7286,6 +7298,10 @@ gplcver:
   version: 2.12a-1.1
   issues:
     - captures_build_path
+gpm:
+  version: 1.20.4-6.2
+  issues:
+    - captures_build_path
 gpp:
   version: 2.24-3
   issues:
@@ -7551,6 +7567,10 @@ gthumb:
   version: 3:3.4.1-2
   issues:
     - nondeterminstic_ordering_in_gsettings_glib_enums_xml
+gtimer:
+  version: 2.0.0-1.2
+  issues:
+    - captures_build_path
 gtk+2.0:
   version: 2.24.30-4
   issues:
@@ -8216,6 +8236,10 @@ ido:
     - 826668
 idzebra:
   version: 2.0.59-1
+  issues:
+    - captures_build_path
+iec16022:
+  version: 0.2.4-1.1
   issues:
     - captures_build_path
 ifhp:
@@ -9075,6 +9099,10 @@ kbuild:
   version: 1:0.1.9998svn2814+dfsg-2
   issues:
     - captures_build_path
+kcachegrind:
+  version: 4:16.04.0-1
+  issues:
+    - captures_build_path
 kcalutils:
   version: 16.04.2-1
   bugs:
@@ -9170,6 +9198,10 @@ kdevplatform:
   version: 1.7.2-1
   bugs:
     - 815962
+kdewebdev:
+  version: 4:16.04.3-1
+  issues:
+    - captures_build_path
 kdf:
   version: 4:15.08.0-2
   issues:
@@ -9228,6 +9260,10 @@ kf5-kdepimlibs:
     - captures_build_path
 kfilemetadata:
   version: 4:4.14.3-1
+  issues:
+    - captures_build_path
+kfloppy:
+  version: 4:16.04.0-2
   issues:
     - captures_build_path
 kfourinline:
@@ -9452,6 +9488,10 @@ kmouth:
   version: 4:16.08.0-1
   issues:
     - captures_build_path
+kmplot:
+  version: 4:16.04.2-1
+  issues:
+    - captures_build_path
 knights:
   version: 2.5.0-2
   issues:
@@ -9484,6 +9524,10 @@ kodi:
   bugs:
     - 825285
     - 831137
+kolf:
+  version: 4:16.04.0-1
+  issues:
+    - captures_build_path
 kolourpaint:
   version: 4:16.04.0-1
   issues:
@@ -9990,6 +10034,10 @@ libapache2-mod-geoip:
   version: 1.2.10-1
   issues:
     - captures_build_path
+libapache2-mod-intercept-form-submit:
+  version: 0.9.8-1
+  issues:
+    - captures_build_path
 libapache2-mod-ldap-userdir:
   version: 1.1.19-2.1
   issues:
@@ -10096,6 +10144,10 @@ libaws:
     - unknown_ada_issue
 libax25:
   version: 0.0.12-rc4-1
+  issues:
+    - captures_build_path
+libbde:
+  version: 20160731-1
   issues:
     - captures_build_path
 libbio-das-lite-perl:
@@ -10466,6 +10518,10 @@ libfile-rsyncp-perl:
   version: 0.74-2.1
   issues:
     - captures_build_path
+libfixposix:
+  version: 20110316.git47f17f7-1
+  issues:
+    - captures_build_path
 libflorist:
   version: 2014-2
   issues:
@@ -10538,6 +10594,10 @@ libgda5:
     - 811068
 libgdf:
   version: 0.1.2-2
+  issues:
+    - captures_build_path
+libgdiplus:
+  version: 4.2-1
   issues:
     - captures_build_path
 libgedcom-perl:
@@ -10982,6 +11042,10 @@ libkryo-java:
     - random_order_in_documentation_generated_by_javadoc
 libksane:
   version: 4:15.08.3-1
+  issues:
+    - captures_build_path
+libksba:
+  version: 1.3.4-4
   issues:
     - captures_build_path
 liblas:
@@ -11547,6 +11611,10 @@ libsbml:
     - timestamps_in_dvi_generated_by_latex
     - locale_in_documentation_generated_by_javadoc
     - blacklisted_on_jenkins_armhf_only
+libscca:
+  version: 20160108-1
+  issues:
+    - captures_build_path
 libsdl-console:
   version: 2.1-4
   issues:
@@ -13574,6 +13642,10 @@ mrtrix:
   version: 0.2.12-2
   bugs:
     - 816570
+mruby:
+  version: 1.2.0+20160804+git501e1ef2-1
+  issues:
+    - captures_build_path
 msort:
   version: 8.53-2.1
   issues:
@@ -15270,6 +15342,10 @@ orville-write:
   version: 2.55-3
   issues:
     - captures_build_path
+os-autoinst:
+  version: 4.3-1
+  issues:
+    - captures_build_path
 osc:
   version: 0.152.0-1
   comments: |
@@ -15815,6 +15891,10 @@ perlpanel:
   bugs:
     - 777444
     - 817616
+permute:
+  version: 0.9-0-1
+  issues:
+    - captures_build_path
 pesign:
   version: 0.112-3
   bugs:
@@ -16346,6 +16426,10 @@ pokerth:
   bugs:
     - 828116
     - 812290
+polspline:
+  version: 1.1.12-2
+  issues:
+    - captures_build_path
 polybori:
   version: 0.8.3-4
   issues:
@@ -16386,6 +16470,10 @@ portabase:
     - randomness_in_documentation_generated_by_sphinx
 portmidi:
   version: 1:184-2.2
+  issues:
+    - captures_build_path
+portreserve:
+  version: 0.0.4-1
   issues:
     - captures_build_path
 portsmf:
@@ -16606,6 +16694,10 @@ primrose:
     - 778481
 printfilters-ppd:
   version: 2.13-11.1
+  issues:
+    - captures_build_path
+prison:
+  version: 1.1.1-1
   issues:
     - captures_build_path
 privbind:
@@ -17326,6 +17418,10 @@ python-crypto:
     looks like a separate indices sorting issue
   issues:
     - randomness_in_documentation_generated_by_sphinx
+python-csb:
+  version: 1.2.3+dfsg-3
+  issues:
+    - captures_build_path
 python-cycler:
   version: 0.10.0-1
   issues:
@@ -17634,6 +17730,10 @@ python-ldap:
   version: 2.4.22-0.1
   issues:
     - captures_build_path
+python-levenshtein:
+  version: 0.12.0-2
+  issues:
+    - captures_build_path
 python-libarchive-c:
   version: 2.1-3
   bugs:
@@ -17751,6 +17851,10 @@ python-omniorb:
   version: 3.6-1
   issues:
     - captures_build_path
+python-openid:
+  version: 2.2.5-6
+  issues:
+    - captures_build_path
 python-openstackclient:
   version: 2.3.0-2
   issues:
@@ -17853,6 +17957,10 @@ python-padme:
   version: 1.1.1-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
+python-pam:
+  version: 0.4.2-13.2
+  issues:
+    - captures_build_path
 python-pbr:
   version: 1.8.0-4.1
   bugs:
@@ -17865,6 +17973,10 @@ python-pex:
   version: 1.1.0-2
   issues:
     - copyright_year_in_documentation_generated_by_sphinx
+python-phoneutils:
+  version: 0.1+git20100219-1.1
+  issues:
+    - captures_build_path
 python-phply:
   version: 0.9.1-3
   issues:
@@ -18113,6 +18225,10 @@ pyvows:
   version: 2.0.6-2
   bugs:
     - 828815
+pyvtk:
+  version: 0.4.74-3.1
+  issues:
+    - captures_build_path
 pywavelets:
   version: 0.3.0-1
   bugs:
@@ -18423,6 +18539,10 @@ qtxmlpatterns-opensource-src:
   version: 5.3.2-2
   issues:
     - randomness_in_qdoc
+quadprog:
+  version: 1.5-5-2
+  issues:
+    - captures_build_path
 quagga:
   version: 0.99.24.1-2
   issues:
@@ -19168,6 +19288,10 @@ r-cran-pscbs:
   version: 0.61.0-2
   issues:
     - captures_build_path
+r-cran-pscl:
+  version: 1.4.9-1
+  issues:
+    - captures_build_path
 r-cran-psy:
   version: 1.1-2
   issues:
@@ -19288,6 +19412,10 @@ r-cran-rnexml:
     - captures_build_path
 r-cran-rngtools:
   version: 1.2.4-1
+  issues:
+    - captures_build_path
+r-cran-rniftilib:
+  version: 0.0-35.r79-1
   issues:
     - captures_build_path
 r-cran-rocr:
@@ -19434,12 +19562,20 @@ r-cran-vcd:
   version: 1:1.4-1-1
   issues:
     - captures_build_path
+r-cran-vegan:
+  version: 2.4-0-1
+  issues:
+    - captures_build_path
 r-cran-vioplot:
   version: 0.2-2
   issues:
     - captures_build_path
 r-cran-wdi:
   version: 2.4-1
+  issues:
+    - captures_build_path
+r-cran-xml:
+  version: 3.98-1.4-2
   issues:
     - captures_build_path
 r-cran-xml2:
@@ -20396,6 +20532,10 @@ ruby-levenshtein:
   version: 0.2.2-2
   issues:
     - captures_build_path
+ruby-libvirt:
+  version: 0.6.0-2
+  issues:
+    - captures_build_path
 ruby-libxml:
   version: 2.9.0-2
   issues:
@@ -20478,6 +20618,10 @@ ruby-pg:
     Includes non-deterministic memory addresses but not clear exactly where from http://sources.debian.net/src/ruby-pg/0.18.4-1/lib/pg/connection.rb/\?hl\=19\#L21
   bugs:
     - 834541
+ruby-posix-spawn:
+  version: 0.3.11-1
+  issues:
+    - captures_build_path
 ruby-puppet-forge:
   version: 2.2.2-1
   bugs:
@@ -21117,6 +21261,10 @@ shotwell:
     - timestamps_in_tarball
   bugs:
     - 822948
+showq:
+  version: 0.4.1+git20151103~dfsg0-1
+  issues:
+    - captures_build_path
 sidplay:
   version: 2.0.9-6
   issues:
@@ -21172,6 +21320,10 @@ simgrid:
     - different_due_to_umask
 simh:
   version: 3.8.1-5
+  issues:
+    - captures_build_path
+simple-scan:
+  version: 3.20.0-1
   issues:
     - captures_build_path
 simpleid:
@@ -22018,6 +22170,10 @@ swaks:
     [i386/armhf]
   issues:
     - random_order_in_md5sums
+swami:
+  version: 2.0.0+svn389-3
+  issues:
+    - captures_build_path
 swapspace:
   version: 1.10-4
   issues:
@@ -22041,6 +22197,10 @@ sweethome3d-furniture-editor:
   bugs:
     - 776873
     - 830428
+swfmill:
+  version: 0.3.3-1
+  issues:
+    - captures_build_path
 swftools:
   version: 0.9.2+git20130725-2
   bugs:
@@ -22101,6 +22261,10 @@ sympy:
     - timestamps_in_pdf_generated_by_latex
   bugs:
     - 830365
+synaesthesia:
+  version: 2.4-5
+  issues:
+    - captures_build_path
 synapse:
   version: 0.2.99.2-2
   issues:
@@ -22204,6 +22368,10 @@ tandem-mass:
   version: 1:20151215-4
   bugs:
     - 811912
+tangerine:
+  version: 0.3.4-6
+  issues:
+    - captures_build_path
 tango:
   version: 8.1.2c+dfsg-7
   issues:
@@ -22324,6 +22492,10 @@ tcpwatch-httpproxy:
     - timestamps_in_gzip_headers
   bugs:
     - 776969
+tcs:
+  version: 1-11
+  issues:
+    - captures_build_path
 tdfsb:
   version: 0.0.10-1.1
   bugs:
@@ -22704,6 +22876,10 @@ torrus:
   version: 2.08-4
   issues:
     - captures_shell_variable_in_autofoo_script
+toshset:
+  version: 1.76-4
+  issues:
+    - captures_build_path
 toulbar2:
   version: 0.9.8-1
   bugs:
@@ -22972,6 +23148,10 @@ txtorcon:
     - timestamps_in_documentation_generated_by_sphinx
 type-conv:
   version: 113.00.02-1
+  issues:
+    - captures_build_path
+typerep:
+  version: 113.00.00-1
   issues:
     - captures_build_path
 typespeed:
@@ -23344,6 +23524,10 @@ vdr-plugin-live:
   version: 0.3.0+git20160123-1
   issues:
     - captures_build_path
+vdr-plugin-osdteletext:
+  version: 0.9.5-3
+  issues:
+    - captures_build_path
 vdr-plugin-remote:
   version: 0.7.0-1
   issues:
@@ -23354,6 +23538,18 @@ vdr-plugin-remoteosd:
     - captures_build_path
 vdr-plugin-softhddevice:
   version: 0.6.0+git20160108-1
+  issues:
+    - captures_build_path
+vdr-plugin-streamdev:
+  version: 0.6.1+git20150213-3
+  issues:
+    - captures_build_path
+vdr-plugin-svdrposd:
+  version: 1.0.0-5
+  issues:
+    - captures_build_path
+vdr-plugin-svdrpservice:
+  version: 1.0.0-5
   issues:
     - captures_build_path
 vdr-plugin-vcd:
@@ -24477,6 +24673,10 @@ xsok:
   version: 1.02-17
   bugs:
     - 817738
+xsp:
+  version: 4.2-2
+  issues:
+    - captures_build_path
 xstr:
   version: 0.2.1-21
   issues:
