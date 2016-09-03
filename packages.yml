@@ -8066,6 +8066,10 @@ hmmer:
   version: 3.1b2+dfsg-2
   issues:
     - captures_build_path
+hmmer2:
+  version: 2.3.2-11
+  issues:
+    - captures_build_path
 hocr:
   version: 0.10.17-2
   comments: |
@@ -8284,6 +8288,10 @@ icheck:
     - 817497
 icinga2:
   version: 2.5.1-1
+  issues:
+    - captures_build_path
+icmptx:
+  version: 0.2-1
   issues:
     - captures_build_path
 icon:
@@ -8631,6 +8639,10 @@ irssi-plugin-robustirc:
   version: 0.5-1
   issues:
     - captures_build_path
+isakmpd:
+  version: 20041012-7.3
+  issues:
+    - captures_build_path
 isc-kea:
   version: 1.0.0-4
   comments: |
@@ -8658,6 +8670,10 @@ itools:
   version: 1.0-5
   issues:
     - captures_build_path
+its:
+  version: 1.1.8-6
+  issues:
+    - captures_build_path
 itsol:
   version: 1.0.0-2
   issues:
@@ -8677,6 +8693,10 @@ ivyplusplus:
   version: 1.14-2
   issues:
     - different_encoding
+iwyu:
+  version: 3.8-1
+  issues:
+    - captures_build_path
 jablicator:
   version: 1.0.1
   bugs:
@@ -9544,6 +9564,10 @@ klone:
     - different_due_to_umask
   bugs:
     - 777464
+klustakwik:
+  version: 2.0.1-1
+  issues:
+    - captures_build_path
 kmag:
   version: 4:14.12.2-2
   issues:
@@ -9590,6 +9614,10 @@ kmouth:
     - captures_build_path
 kmplot:
   version: 4:16.04.2-1
+  issues:
+    - captures_build_path
+kmymoney:
+  version: 4.8.0-2
   issues:
     - captures_build_path
 knights:
@@ -11294,6 +11322,10 @@ libmpc:
   version: 2:0.1~r459-4.1
   issues:
     - timestamps_from_cpp_macros
+libmpd:
+  version: 0.20.0-1.3
+  issues:
+    - captures_build_path
 libmsn:
   version: 4.2.1+dfsg-1
   issues:
@@ -11804,6 +11836,10 @@ libsoup2.4:
   version: 2.50.0-2
   bugs:
     - 795689
+libss7:
+  version: 1.0.2-5
+  issues:
+    - captures_build_path
 libssh:
   version: 0.7.3-1
   issues:
@@ -11986,6 +12022,10 @@ libv8-3.14:
   bugs:
     - 831161
     - 812304
+libview:
+  version: 0.6.6-2.1
+  issues:
+    - captures_build_path
 libvigraimpex:
   version: 1.10.0+dfsg-11
   bugs:
@@ -16076,6 +16116,10 @@ pgocaml:
   version: 2.2-1
   issues:
     - captures_build_path
+pgrouting:
+  version: 2.2.4-1
+  issues:
+    - captures_build_path
 pgsql-asn1oid:
   version: 0.0.20100818-3.2
   issues:
@@ -16329,6 +16373,10 @@ pirl:
   version: 2.3.8-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+pitivi:
+  version: 0.97.1-1
+  issues:
+    - captures_build_path
 piwi:
   version: 0.8+20041206-3
   bugs:
@@ -18507,6 +18555,10 @@ qt-at-spi:
   version: 0.4.0-2
   issues:
     - randomness_in_qdoc_page_id
+qt-gstreamer:
+  version: 1.2.0-4
+  issues:
+    - captures_build_path
 qt3d-opensource-src:
   version: 5.5.1-4
   issues:
@@ -18857,6 +18909,10 @@ r-bioc-shortread:
   version: 1.30.0-1
   issues:
     - captures_build_path
+r-bioc-snpstats:
+  version: 1.22.0+dfsg-2
+  issues:
+    - captures_build_path
 r-bioc-summarizedexperiment:
   version: 1.2.0-1
   issues:
@@ -19007,6 +19063,10 @@ r-cran-diagnosismed:
     - randomness_in_r_rdb_rds_databases
 r-cran-digest:
   version: 0.6.10-1
+  issues:
+    - captures_build_path
+r-cran-doparallel:
+  version: 1.0.10-3
   issues:
     - captures_build_path
 r-cran-downloader:
@@ -19186,6 +19246,10 @@ r-cran-igraph:
     - captures_build_path
 r-cran-inline:
   version: 0.3.14-1
+  issues:
+    - captures_build_path
+r-cran-int64:
+  version: 1.1.2-3
   issues:
     - captures_build_path
 r-cran-irlba:
@@ -19436,6 +19500,10 @@ r-cran-qtl:
   version: 1.39-5-2
   issues:
     - captures_build_path
+r-cran-quantreg:
+  version: 5.26-1
+  issues:
+    - captures_build_path
 r-cran-qvcalc:
   version: 0.8-9-1
   issues:
@@ -19624,6 +19692,10 @@ r-cran-spc:
     - captures_build_path
 r-cran-spdep:
   version: 0.6-6-1
+  issues:
+    - captures_build_path
+r-cran-statmod:
+  version: 1.4.25-1
   issues:
     - captures_build_path
 r-cran-stringi:
@@ -20087,6 +20159,14 @@ rgl:
   version: 0.95.1441-2
   issues:
     - captures_build_path
+rglpk:
+  version: 0.6-2-1
+  issues:
+    - captures_build_path
+rgtk2:
+  version: 2.20.31-2
+  issues:
+    - captures_build_path
 rheolef:
   version: 6.5-1
   issues:
@@ -20116,6 +20196,10 @@ ripmime:
     https://sources.debian.net/src/ripmime/1.4.0.10.debian.1-1/generate-buildcodes.sh/
   issues:
     - captures_kernel_version
+rjava:
+  version: 0.9-8-2
+  issues:
+    - captures_build_path
 rkt:
   version: 1.5.1+dfsg-1
   bugs:
@@ -20138,6 +20222,10 @@ rlvm:
     - 831207
 rmatrix:
   version: 1.2-6-1
+  issues:
+    - captures_build_path
+rmysql:
+  version: 0.10.9-2
   issues:
     - captures_build_path
 rnc-mode:
@@ -20770,6 +20858,10 @@ ruby-rails-deprecated-sanitizer:
   version: 1.0.3-1
   issues:
     - fileorder_in_gemspec_files_list
+ruby-raindrops:
+  version: 0.17.0-1
+  issues:
+    - captures_build_path
 ruby-rdiscount:
   version: 2.1.8-1
   issues:
@@ -21237,6 +21329,10 @@ sendip:
   version: 2.5-7
   issues:
     - timestamps_in_manpages_generated_by_help2man
+sendmail:
+  version: 8.15.2-4
+  issues:
+    - captures_build_path
 senlin:
   version: 1.0.0-1
   issues:
