@@ -6066,6 +6066,10 @@ gazebo:
   version: 6.5.0+dfsg-2
   issues:
     - blacklisted_on_jenkins_armhf_only
+gb:
+  version: 0.4.2-1
+  issues:
+    - captures_build_path
 gbgoffice:
   version: 1.4-10
   bugs:
@@ -9513,6 +9517,10 @@ kio:
   version: 5.25.0-1
   issues:
     - captures_build_path
+kio-extras:
+  version: 4:16.04.2-1
+  issues:
+    - captures_build_path
 kio-mtp:
   version: 0.75+git20140304-2
   issues:
@@ -10552,6 +10560,10 @@ libdevel-gdb-perl:
     - 784845
 libdigest-whirlpool-perl:
   version: 1.09-1
+  issues:
+    - captures_build_path
+libdigidoc:
+  version: 3.10.1.1208+ds1-2
   issues:
     - captures_build_path
 libdist-zilla-plugins-cjm-perl:
@@ -14610,6 +14622,10 @@ nsca:
   version: 2.9.1-3.1
   issues:
     - captures_build_path
+nsf:
+  version: 2.0.0-2
+  issues:
+    - captures_build_path
 nsis:
   version: 2.46-10
   issues:
@@ -14637,6 +14653,10 @@ nss-passwords:
     - randomness_in_ocaml_custom_executables
 nss-updatedb:
   version: 10-3
+  issues:
+    - captures_build_path
+nss-wrapper:
+  version: 1.1.2-1
   issues:
     - captures_build_path
 nted:
@@ -15525,6 +15545,10 @@ osmium:
   version: 0.0~20160425-e2e4368-2
   bugs:
     - 836240
+osmium-tool:
+  version: 1.3.1-2
+  issues:
+    - captures_build_path
 osmo-trx:
   version: 0~20150325gitf147b17+dfsg-3
   issues:
@@ -18839,6 +18863,10 @@ r-bioc-bsgenome:
     - captures_build_path
 r-bioc-deseq2:
   version: 1.12.3-1
+  issues:
+    - captures_build_path
+r-bioc-ebseq:
+  version: 1.12.0-1
   issues:
     - captures_build_path
 r-bioc-edger:
