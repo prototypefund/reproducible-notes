@@ -11803,6 +11803,10 @@ libmapper:
   version: 0.3~git+20141027-1
   bugs:
     - 803478
+libmarpa-r2-perl:
+  version: 2.086000~dfsg-6
+  issues:
+    - captures_build_path
 libmath-bigint-gmp-perl:
   version: 1.43-1
   issues:
@@ -11849,6 +11853,10 @@ libmojolicious-plugin-mailexception-perl:
   version: 0.19-1
   bugs:
     - 825541
+libmongo-client:
+  version: 0.1.8-2
+  issues:
+    - captures_build_path
 libmongoc:
   version: 1.3.5-1
   comments: |
@@ -11868,6 +11876,10 @@ libmpc:
     - timestamps_from_cpp_macros
 libmpd:
   version: 0.20.0-1.3
+  issues:
+    - captures_build_path
+libmpikmeans:
+  version: 1.5+dfsg-5
   issues:
     - captures_build_path
 libmsn:
@@ -11999,6 +12011,10 @@ libomxfbdevsink:
   issues:
     - captures_build_path
 libomxmad:
+  version: 0.1-1
+  issues:
+    - captures_build_path
+libomxvideosrc:
   version: 0.1-1
   issues:
     - captures_build_path
@@ -13059,8 +13075,16 @@ lmdb:
   version: 0.9.18-4
   issues:
     - captures_build_path
+lme4:
+  version: 1.1-12-2
+  issues:
+    - captures_build_path
 lmms:
   version: 1.1.3-3
+  issues:
+    - captures_build_path
+lmtest:
+  version: 0.9.34-2
   issues:
     - captures_build_path
 lnav:
@@ -13358,6 +13382,10 @@ lxqt-sudo:
   version: 0.10.0-3
   issues:
     - blacklisted_on_jenkins_armhf_only
+lysdr:
+  version: 1.0~git20141206+dfsg1-1
+  issues:
+    - captures_build_path
 lyskom-server:
   version: 2.1.2-13
   issues:
