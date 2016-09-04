@@ -3127,6 +3127,10 @@ custodia:
   version: 0.1.0-2
   issues:
     - ftbfs_uninvestigated_test_failures
+custom-printf:
+  version: 113.00.00-1
+  issues:
+    - captures_build_path
 cutecom:
   version: 0.22.0-2
   issues:
@@ -9306,6 +9310,10 @@ jts:
   version: 1.14+ds-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+juce:
+  version: 4.2.3~repack-1
+  issues:
+    - captures_build_path
 judy:
   version: 1.0.5-5
   comments: |
@@ -9524,6 +9532,10 @@ kdepim-runtime:
   version: 4:16.04.2-2
   bugs:
     - 811759
+kdepim4:
+  version: 4:4.14.10-7
+  issues:
+    - captures_build_path
 kdepimlibs:
   version: 4:4.14.10-5
   bugs:
@@ -9753,6 +9765,10 @@ kigo:
     - captures_build_path
 kile:
   version: 4:2.1.3-4
+  issues:
+    - captures_build_path
+kimap:
+  version: 16.04.2-1
   issues:
     - captures_build_path
 kimwitu:
@@ -14199,6 +14215,10 @@ mruby:
   version: 1.2.0+20160804+git501e1ef2-1
   issues:
     - captures_build_path
+msgpack-c:
+  version: 1.4.2-3
+  issues:
+    - captures_build_path
 msort:
   version: 8.53-2.1
   issues:
@@ -17303,6 +17323,8 @@ ppx-core:
     - captures_build_path
 ppx-deriving:
   version: 4.0-1
+ppx-driver:
+  version: 113.33.03-1
   issues:
     - captures_build_path
 ppx-optcomp:
@@ -17315,6 +17337,10 @@ ppx-sexp-conv:
     - captures_build_path
 ppx-tools:
   version: 5.0+4.02.0-1
+  issues:
+    - captures_build_path
+ppx-type-conv:
+  version: 113.33.03-1
   issues:
     - captures_build_path
 prayer:
@@ -19264,6 +19290,10 @@ qtwayland-opensource-src:
   version: 5.6.1-2
   issues:
     - captures_build_path
+qtwebchannel-opensource-src:
+  version: 5.6.1-1
+  issues:
+    - captures_build_path
 qtwebkit:
   version: 2.3.4.dfsg-3
   issues:
@@ -19396,6 +19426,10 @@ r-bioc-annotate:
     - captures_build_path
 r-bioc-annotationdbi:
   version: 1.34.0-1
+  issues:
+    - captures_build_path
+r-bioc-annotationhub:
+  version: 2.4.2-2
   issues:
     - captures_build_path
 r-bioc-aroma.light:
@@ -19569,6 +19603,10 @@ r-cran-bbmle:
     - captures_build_path
 r-cran-biasedurn:
   version: 1.06.1-1
+  issues:
+    - captures_build_path
+r-cran-bio3d:
+  version: 2.2-4-1
   issues:
     - captures_build_path
 r-cran-blockmodeling:
@@ -19976,6 +20014,10 @@ r-cran-mlbench:
   version: 2.1-1-1
   issues:
     - captures_build_path
+r-cran-mlmrev:
+  version: 1.0-6-2
+  issues:
+    - captures_build_path
 r-cran-mnp:
   version: 2.6-4-1
   issues:
@@ -19998,6 +20040,10 @@ r-cran-mvnormtest:
     - captures_build_path
 r-cran-nloptr:
   version: 1.0.4-1
+  issues:
+    - captures_build_path
+r-cran-nlp:
+  version: 0.1-9-1
   issues:
     - captures_build_path
 r-cran-nmf:
@@ -21591,6 +21637,10 @@ ruby-unindent:
     - 832605
 ruby-websocket-driver:
   version: 0.6.3-2
+  issues:
+    - captures_build_path
+ruby-xmlhash:
+  version: 1.3.6-2
   issues:
     - captures_build_path
 ruby-xmlparser:
@@ -23622,6 +23672,10 @@ tilem:
   version: 2.0-2
   bugs:
     - 819779
+timew:
+  version: 1.0.0~beta1+ds-1
+  issues:
+    - captures_build_path
 timidity:
   version: 2.13.2-40.5
   issues:
