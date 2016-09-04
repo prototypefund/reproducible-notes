@@ -150,6 +150,8 @@ advi:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/advi/1.10.2-2/configure.ac/#L4
+  issues:
+    - captures_shell_variable_in_autofoo_script
   bugs:
     - 834137
 aegis:
@@ -331,6 +333,8 @@ amanda:
   comments: |
     Embed build time:
     https://sources.debian.net/src/amanda/1:3.3.6-4/common-src/Makefile.am/?hl=154#L154
+  issues:
+    - captures_shell_variable_in_autofoo_script
   bugs:
     - 830725
 amideco:
@@ -389,6 +393,7 @@ ann:
   version: 1.1.2+doc-5
   issues:
     - leaks_path_environment_variable
+    - captures_shell_variable_in_autofoo_script
 anon-proxy:
   version: 00.05.38+20081230-3
   bugs:
@@ -407,6 +412,7 @@ antlr:
   issues:
     - timestamps_in_jar
     - timestamps_in_pe_binaries
+    - captures_shell_variable_in_autofoo_script
 antlr3:
   version: 3.5.2-4
   bugs:
@@ -1543,6 +1549,8 @@ blends:
     but xmlto doesn't support passing arguments to dblatex.
 bless:
   version: 0.6.0-5
+  issues:
+    - captures_shell_variable_in_autofoo_script
   bugs:
     - 820740
 blitz++:
@@ -4563,6 +4571,7 @@ emboss:
   version: 6.6.0+dfsg-1
   issues:
     - different_encoding
+    - captures_shell_variable_in_autofoo_script
 emma-coverage:
   version: 2.0.5312+dfsg-4
   issues:
@@ -6965,6 +6974,7 @@ gnome-sharp2:
   version: 2.24.2-3
   issues:
     - timestamps_in_pe_binaries
+    - captures_shell_variable_in_autofoo_script
 gnome-shell-extension-autohidetopbar:
   version: 20160413-1
   bugs:
@@ -7752,6 +7762,7 @@ gtk-sharp3:
   version: 2.99.3-2
   issues:
     - timestamps_in_pe_binaries
+    - captures_shell_variable_in_autofoo_script
 gtk2-engines:
   version: 1:2.20.2-3
   issues:
@@ -7772,6 +7783,7 @@ gtkdataboxmm:
   version: 0.9.4-3
   issues:
     - leaks_path_environment_variable
+    - captures_shell_variable_in_autofoo_script
 gtkgl2:
   version: 2.0.1-2.2
   issues:
@@ -8785,6 +8797,8 @@ jack-audio-connection-kit:
   version: 1:0.124.1+20140122git5013bed0-3
   comments: |
     Uses locale-specific date formatter in https://sources.debian.net/src/jack-audio-connection-kit/1:0.124.1%2B20140122git5013bed0-3/man/Makefile.am/#L2
+  issues:
+    - captures_shell_variable_in_autofoo_script
   bugs:
     - 792667
 jack-keyboard:
@@ -10550,6 +10564,7 @@ libcoyotl:
     Installs examples with varying environments - can probably just be distcleaned after build
   issues:
     - leaks_path_environment_variable
+    - captures_shell_variable_in_autofoo_script
 libcrypt-des-ede3-perl:
   version: 0.01-1.1
   bugs:
@@ -11789,6 +11804,8 @@ librep:
   comments: |
     Captures the build date/time, user and hostname.
     https://sources.debian.net/src/librep/0.90.2-1.4/build-info/#L20-L21
+  issues:
+    - captures_shell_variable_in_autofoo_script
   bugs:
     - 834534
 libresample:
@@ -12255,6 +12272,8 @@ libxkbcommon:
     - 815867
 libxml++2.6:
   version: 2.38.1-1
+  issues:
+    - captures_shell_variable_in_autofoo_script
   bugs:
     - 812895
 libxml-commons-resolver1.1-java:
@@ -12791,6 +12810,8 @@ lucene4.10:
     - timestamp_in_java_bnd_manifest
 lush:
   version: 1.2.1-9+cvs20110227+nmu1
+  issues:
+    - captures_shell_variable_in_autofoo_script
   bugs:
     - 787650
     - 787651
@@ -13640,6 +13661,7 @@ mona:
   version: 1.4-15-1
   issues:
     - leaks_path_environment_variable
+    - captures_shell_variable_in_autofoo_script
 mondrian:
   version: 3.4.1-1
   issues:
@@ -14519,6 +14541,7 @@ nis:
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - timestamps_in_gzip_headers
     - ftbfs_old_compat_debheper_compat_level
+    - captures_shell_variable_in_autofoo_script
   bugs:
     - 787126
     - 800305
@@ -18911,6 +18934,7 @@ quantlib:
     /usr/share/doc/libquantlib0/examples/test-suite/quantlib-test-suite.log.gz
   issues:
     - blacklisted_on_jenkins_armhf_only
+    - captures_shell_variable_in_autofoo_script
 quelcom:
   version: 0.4.0-13
   issues:
@@ -22492,6 +22516,7 @@ styx:
   version: 2.0.1-1
   issues:
     - timestamps_in_tarball
+    - captures_shell_variable_in_autofoo_script
 sublib:
   version: 0.9-4
   issues:
@@ -22682,6 +22707,7 @@ swish-e:
   version: 2.4.7-4
   issues:
     - random_order_in_static_libraries
+    - captures_shell_variable_in_autofoo_script
 sword:
   version: 1.7.3+dfsg-7
   bugs:
@@ -24383,6 +24409,7 @@ west-chamber:
     Embed kernel version in Makefiles.
   issues:
     - different_due_to_umask
+    - captures_shell_variable_in_autofoo_script
 weston:
   version: 1.11.0-1
   issues:
@@ -24955,6 +24982,8 @@ xmlcopyeditor:
   comments: |
     Variations in /usr/share/xmlcopyeditor/po/.intltool-merge-cache
     Should this be shipped at all?
+  issues:
+    - captures_shell_variable_in_autofoo_script
   bugs:
     - 831417
 xmldiff:
@@ -25190,6 +25219,7 @@ xtables-addons:
   version: 2.7-2
   issues:
     - different_due_to_umask
+    - captures_shell_variable_in_autofoo_script
   bugs:
     - 803601
 xtel:
@@ -25236,6 +25266,8 @@ xwrited:
     - 825471
 xz-utils:
   version: 5.1.1alpha+20120614-2
+  issues:
+    - captures_shell_variable_in_autofoo_script
   bugs:
     - 806328
     - 806331
