@@ -21,7 +21,7 @@ timestamps_from_cpp_macros_in_haskell:
     The Haskell compiler also support C-like `__DATE__` and `__TIME__` macros, which
     embed the build time/date into the object files.
     .
-    eg. http://sources.debian.net/src/darcs/2.12.0-1/darcs/darcs.hs/#L85
+    eg. https://sources.debian.net/src/darcs/2.12.0-1/darcs/darcs.hs/#L85
   deterministic: True
 timestamps_in_cpio_archive:
   description: |
@@ -94,7 +94,7 @@ timestamps_in_documentation_generated_by_asciidoctor:
 random_anchor_names_generated_by_docbook_to_man:
   description: |
     docbook-to-man uses non-deterministic <a> anchor names
-    maybe fixable using something like http://patchwork.freedesktop.org/patch/69511/ ?
+    maybe fixable using something like https://patchwork.freedesktop.org/patch/69511/ ?
   url: https://bugs.debian.org/800797
 timestamps_in_documentation_generated_by_man2html:
   description: |
@@ -111,7 +111,7 @@ timestamps_in_ps_generated_by_dvips:
   description: |
     eg. %%CreationDate (or DVIPSSource?) in header
     .
-    http://sources.debian.net/src/texlive-bin/2016.20160513.41080-4/texk/web2c/pdftexdir/pdftex.web/#L14449
+    https://sources.debian.net/src/texlive-bin/2016.20160513.41080-4/texk/web2c/pdftexdir/pdftex.web/#L14449
     .
     DVIPSSource date Can be set to SOURCE_DATE_EPOCH by setting FORCE_SOURCE_DATE to 1.
   deterministic: True
@@ -266,7 +266,7 @@ method_may_never_be_called_in_documentation_generated_by_javadoc:
 timestamps_in_documentation_generated_by_groovydoc:
   description: |
     Groovydoc will add timestamps to the HTML file it produces.
-    http://sources.debian.net/src/groovy/1.8.6-4/src/main/org/codehaus/groovy/tools/groovydoc/gstringTemplates/topLevel/index-all.html/#L19
+    https://sources.debian.net/src/groovy/1.8.6-4/src/main/org/codehaus/groovy/tools/groovydoc/gstringTemplates/topLevel/index-all.html/#L19
   deterministic: True
 timestamps_in_jar:
   description: |
@@ -310,8 +310,8 @@ timestamps_in_documentation_generated_by_htmldoc:
 timestamps_in_documentation_generated_by_lua_ldoc:
   description: |
     lua-ldoc adds build timestamp, varying by the timezone
-    http://sources.debian.net/src/lua-ldoc/1.4.3-1/ldoc/html/ldoc_ltp.lua/?hl=293#L293
-    http://sources.debian.net/src/lua-ldoc/1.4.3-1/ldoc.lua/?hl=784#L784
+    https://sources.debian.net/src/lua-ldoc/1.4.3-1/ldoc/html/ldoc_ltp.lua/?hl=293#L293
+    https://sources.debian.net/src/lua-ldoc/1.4.3-1/ldoc.lua/?hl=784#L784
   deterministic: True
   url: https://bugs.debian.org/820240
 pdf_created_by_ghostscript:
@@ -474,7 +474,7 @@ build_id_variation_requiring_further_investigation:
 timestamps_in_documentation_generated_by_podman:
   description: |
     The module Pod::Man includes timestamps in its embedded manpages:
-    http://sources.debian.net/src/perl/latest/cpan/podlators/lib/Pod/Man.pm/?hl=1700#L977
+    https://sources.debian.net/src/perl/latest/cpan/podlators/lib/Pod/Man.pm/?hl=1700#L977
     They should be based on the mtime of the original file.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInManpagesGeneratedByPodMan
   deterministic: True
@@ -594,7 +594,7 @@ timestamps_in_qch:
     generator is using various file IDs which become non-determinstic due to
     map access. For example
     .
-    http://sources.debian.net/src/qt4-x11/4:4.8.7%2Bdfsg-3/tools/assistant/lib/qhelpgenerator.cpp/?hl=742#L742
+    https://sources.debian.net/src/qt4-x11/4:4.8.7%2Bdfsg-3/tools/assistant/lib/qhelpgenerator.cpp/?hl=742#L742
     .
     I suspect we just need a few sorts (and some time to build qt4-x11...)
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInDatabaseGeneratedByQhelpgenerator
@@ -681,7 +681,7 @@ berkeley_db_variation_requiring_further_investigation:
     Berkeley databases are not reproducibly.
     This issue requires further poking to understand way.
     https://github.com/libzhuyin/libzhuyin/issues/7
-  url: http://lists.alioth.debian.org/pipermail/reproducible-builds/Week-of-Mon-20150302/001188.html
+  url: https://lists.alioth.debian.org/pipermail/reproducible-builds/Week-of-Mon-20150302/001188.html
 different_due_to_umask:
   description: |
     Files have varying permissions because of different umasks.
@@ -689,7 +689,7 @@ different_due_to_umask:
 randomness_in_qdoc:
   description: |
     Non-deterministic order of <tag> and <file> elements in XML. See
-    http://sources.debian.net/src/qtbase-opensource-src/5.3.2%2Bdfsg-4/src/tools/qdoc/helpprojectwriter.cpp/?hl=630#L787
+    https://sources.debian.net/src/qtbase-opensource-src/5.3.2%2Bdfsg-4/src/tools/qdoc/helpprojectwriter.cpp/?hl=630#L787
     etc.
 randomness_in_qdoc_page_id:
   description: |
@@ -1034,9 +1034,9 @@ timestamps_in_sym_l_files_generated_by_malaga:
     Malaga, a system for automatic language analysis, includes the current time
     in its output header files.
     .
-    http://sources.debian.net/src/malaga/7.12-5.2/malaga_files.h/#L34
-    http://sources.debian.net/src/malaga/7.12-5.2/malaga_files.c/#L79
-    http://sources.debian.net/src/malaga/7.12-5.2/malaga_files.c/#L88
+    https://sources.debian.net/src/malaga/7.12-5.2/malaga_files.h/#L34
+    https://sources.debian.net/src/malaga/7.12-5.2/malaga_files.c/#L79
+    https://sources.debian.net/src/malaga/7.12-5.2/malaga_files.c/#L88
   deterministic: True
 timestamps_in_edj_files_generated_by_edje_cc:
   description:
@@ -1196,7 +1196,7 @@ cryptographic_signature:
 r_base_appends_built_header_to_description_files:
   description: |
     r-base appends "Built: blah" header to DESCRIPTION files.
-    http://sources.debian.net/src/r-base/3.3.1-1/share/make/basepkg.mk/#L101
+    https://sources.debian.net/src/r-base/3.3.1-1/share/make/basepkg.mk/#L101
 timestamps_in_documentation_generated_by_mkdocs:
   description: |
     includes a "Build Date UTC" footer
@@ -1213,7 +1213,7 @@ unsorted_pdl_output:
 timestamps_in_output_generated_by_txt2tags:
   description: |
     txt2tags uses the current localtime in mtime macros and date macros
-  url: http://bugs.debian.org/829325
+  url: https://bugs.debian.org/829325
 random_order_in_documentation_generated_by_naturaldocs:
   description: |
     non-determinstic ordering of stubs, etc.
@@ -1257,19 +1257,19 @@ timestamp_added_by_java_util_properties:
       -#Sun Jul 24 11:39:42 GMT-12:00 2016
       +#Sun Aug 27 20:06:07 GMT+14:00 2017
     .
-    http://stackoverflow.com/questions/6184335/properties-store-suppress-timestamp-comment
+    https://stackoverflow.com/questions/6184335/properties-store-suppress-timestamp-comment
     http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/6-b14/java/util/Properties.java#Properties.store0%28java.io.BufferedWriter,java.lang.String,boolean%29
 perl_extutils_xspp_captures_build_path:
   description:
     ExtUtils::XSpp captures the build path in the headers.
     .
-    http://sources.debian.net/src/libmodule-build-withxspp-perl/0.14-2/lib/Module/Build/WithXSpp.pm/#L230
+    https://sources.debian.net/src/libmodule-build-withxspp-perl/0.14-2/lib/Module/Build/WithXSpp.pm/#L230
   url: https://bugs.debian.org/835447
 href_links_mangled_by_node_marked:
   description:
     marked html-encodes email addresses in an unreproducible way.
     .
-    http://sources.debian.net/src/node-marked/0.3.2%2Bdfsg-1/lib/marked.js/#L740
+    https://sources.debian.net/src/node-marked/0.3.2%2Bdfsg-1/lib/marked.js/#L740
 random_order_in_lua_version_substvar:
   description: |
     -Lua-Versions: 5.3 5.2 5.1
@@ -1280,8 +1280,8 @@ uname_output_in_python_debugging_symbols_caused_by_sysconfig_getplatform:
     encoded in tempfile. Affects building on i386 as it does not distinguish
     between userland vs kernel.
     .
-    http://sources.debian.net/src/python2.7/2.7.12-2/Lib/sysconfig.py/#L572-L584
-    http://sources.debian.net/src/python3.5/3.5.2-3/Lib/sysconfig.py/#L646-L658
+    https://sources.debian.net/src/python2.7/2.7.12-2/Lib/sysconfig.py/#L572-L584
+    https://sources.debian.net/src/python3.5/3.5.2-3/Lib/sysconfig.py/#L646-L658
   url: https://bugs.debian.org/835805
 cython_captures_build_path:
   description: |
@@ -1291,4 +1291,4 @@ timestamp_in_enc_files_added_by_texlive_fontinst:
    -%    date = "generated 2017/09/15",
    +%    date = "generated 2016/08/14",
    .
-   http://sources.debian.net/src/texlive-extra/2016.20160819-1/texmf-dist/tex/fontinst/base/finstmsc.sty/#L899
+   https://sources.debian.net/src/texlive-extra/2016.20160819-1/texmf-dist/tex/fontinst/base/finstmsc.sty/#L899
