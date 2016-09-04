@@ -1249,6 +1249,9 @@ captures_build_path:
 captures_home_dir:
   description:
     Captures home directory, e.g., first-build v. second-build.
+captures_execution_time:
+  description:
+    Captures execution time, which may vary between builds.
 golang_compiler_captures_build_path_in_binary:
   description: |
     The golang compiler embeds the source/build paths into binaries.
