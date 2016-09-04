@@ -1277,6 +1277,7 @@ batik:
     timestamp, the hostname, etc. to MANIFEST.MF files.
   issues:
     - user_hostname_manually_added_requiring_further_investigation
+    - captures_kernel_version
 bats:
   version: 0.4.0-1
   bugs:
@@ -8308,6 +8309,7 @@ hdf5:
   issues:
     - captures_build_path
     - user_hostname_manually_added_requiring_further_investigation
+    - captures_kernel_version
 hdup:
   version: 2.0.14-4
   issues:
