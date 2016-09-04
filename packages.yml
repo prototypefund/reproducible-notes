@@ -6675,6 +6675,7 @@ gerris:
     config.status inserts hostname into libtool
   issues:
     - captures_build_path
+    - captures_shell_variable_in_autofoo_script
 gerstensaft:
   version: 0.3-4
   issues:
@@ -11174,6 +11175,7 @@ libevocosm:
   version: 4.0.2-3
   issues:
     - captures_build_path
+    - captures_shell_variable_in_autofoo_script
   bugs:
     - 789804
 libexif-gtk:
