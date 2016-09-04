@@ -2484,6 +2484,8 @@ clfft:
     - captures_build_path
 clhep:
   version: 2.1.4.1-1.1
+  issues:
+    - random_order_in_static_libraries
   bugs:
     - 794398
 clipper:
@@ -22901,8 +22903,18 @@ tcd-utils:
     - captures_build_path
 tcl8.4:
   version: 8.4.20-8
+  issues:
+    - random_order_in_static_libraries
   bugs:
     - 818752
+tcl8.5:
+  version: 8.5.19-2
+  issues:
+    - random_order_in_static_libraries
+tcl8.6:
+  version: 8.6.6+dfsg-1
+  issues:
+    - random_order_in_static_libraries
 tclap:
   version: 1.2.1-1
   issues:
