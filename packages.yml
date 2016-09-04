@@ -3462,6 +3462,7 @@ dbuskit:
     Also embeds the username in documentation files.
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - user_in_documentation_generated_by_gsdoc
 dbview:
   version: 1.0.4-1
   issues:
@@ -7129,12 +7130,14 @@ gnustep-base:
     /usr/share/doc/libgnustep-base1.24-dbg/tests.log.gz
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - user_in_documentation_generated_by_gsdoc
 gnustep-dl2:
   version: 0.12.0-13
   comments: |
     Username is also embedded in documentation files.
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - user_in_documentation_generated_by_gsdoc
 gnustep-gui:
   version: 0.25.0-2
   issues:
