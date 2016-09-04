@@ -281,6 +281,8 @@ alljoyn-core-1509:
     - 831091
 alljoyn-core-1604:
   version: 16.04-2
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 831198
 alljoyn-services-1509:
@@ -22034,6 +22036,7 @@ slof:
     (the issue is to have the launchpad bug url near)
   issues:
     - ftbfs_build_depends_not_available_on_amd64
+    - user_hostname_manually_added_requiring_further_investigation
 slpvm:
   version: 0.1.5-12.1
   bugs:
@@ -22098,6 +22101,8 @@ snacc:
       compiler/core/snacc.c
 snake4:
   version: 1.0.14-1
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 829715
 snakeyaml:
