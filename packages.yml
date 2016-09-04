@@ -19775,6 +19775,7 @@ quantlib:
   issues:
     - blacklisted_on_jenkins_armhf_only
     - captures_shell_variable_in_autofoo_script
+    - captures_execution_time
 quantlib-swig:
   version: 1.8-2
   issues:
@@ -24802,6 +24803,8 @@ udo:
   comments: |
     Documentation generator that embeds the "last modified" timestamp into the header.
     https://sources.debian.net/src/udo/6.4.1-1/Source/toc.c/#L2233
+  issues:
+    - captures_execution_time
 udpcast:
   version: 20120424-1
   comments: |
