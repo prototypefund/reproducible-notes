@@ -7462,6 +7462,7 @@ grace:
   version: 5.1.24-3
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - captures_kernel_version
 gradle:
   version: 1.5-2
   issues:
@@ -14317,6 +14318,7 @@ newtonsoft-json:
   version: 5.0r6+dfsg-1
   issues:
     - timestamps_in_pe_binaries
+    - captures_kernel_version
 nexuiz-data:
   version: 2.5.2-6
   bugs:
@@ -14694,6 +14696,7 @@ nunit:
   version: 2.6.3+dfsg-1
   issues:
     - timestamps_in_pe_binaries
+    - captures_kernel_version
 nurpawiki:
   version: 1.2.3-9
   bugs:
@@ -16079,6 +16082,7 @@ petsc:
   version: 3.6.2.dfsg1-3
   issues:
     - leaks_path_environment_variable
+    - captures_kernel_version
 petsc4py:
   version: 3.7.0-2
   issues:
@@ -20063,6 +20067,7 @@ red5:
   issues:
     - random_order_in_documentation_generated_by_javadoc
     - locale_in_documentation_generated_by_javadoc
+    - captures_kernel_version
 redet:
   version: 8.26-1.1
   bugs:
@@ -21698,6 +21703,7 @@ skalibs:
   issues:
     - timestamps_in_gzip_headers
     - random_order_in_md5sums
+    - captures_kernel_version
   bugs:
     - 792990
 sketch:
@@ -22075,6 +22081,8 @@ splay:
     - 811765
 splint:
   version: 3.1.2.dfsg1-2
+  issues:
+    - captures_kernel_version
   bugs:
     - 797254
 splitpatch:
