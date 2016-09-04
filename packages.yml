@@ -9464,6 +9464,7 @@ judy:
     https://sources.debian.net/src/judy/1.0.5-5/src/sh_build/#L204
   issues:
     - collation_order_varies_by_locale
+    - random_order_in_static_libraries
 juffed:
   version: 0.10-85-g5ba17f9-4
   issues:
@@ -23006,6 +23007,8 @@ spooles:
   version: 2.2-11
   comments: |
     Timestamps in postscript document.
+  issues:
+    - random_order_in_static_libraries
 spring:
   version: 100.0+dfsg-2
   issues:
@@ -23973,6 +23976,8 @@ tk707:
     - 817695
 tk8.4:
   version: 8.4.20-8
+  issues:
+    - random_order_in_static_libraries
   bugs:
     - 818755
 tk8.5:
