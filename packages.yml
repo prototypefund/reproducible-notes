@@ -8668,6 +8668,8 @@ icewm:
     - captures_build_path
 icheck:
   version: 0.9.7-6.3
+  issues:
+    - captures_build_path
   bugs:
     - 817497
 icinga2:
@@ -9043,6 +9045,8 @@ isc-kea:
   version: 1.0.0-4
   comments: |
     (testing/i386) build path in generated shell scripts
+  issues:
+    - captures_build_path
 ismrmrd:
   version: 1.3.2-3
   issues:
@@ -10136,6 +10140,8 @@ knot-resolver:
     - random_build_path_by_golang_compiler
 knutclient:
   version: 1.0.5-1
+  issues:
+    - captures_build_path
   bugs:
     - 811882
     - 811882
@@ -11166,6 +11172,8 @@ libevhtp:
     - captures_build_path
 libevocosm:
   version: 4.0.2-3
+  issues:
+    - captures_build_path
   bugs:
     - 789804
 libexif-gtk:
@@ -13467,6 +13475,8 @@ madness:
   version: 0.10-1
   comments: |
     Captures environment in /usr/include/madness/config.h
+  issues:
+    - captures_build_path
   bugs:
     - 818812
 madplay:
@@ -17030,6 +17040,8 @@ photoprint:
     - 811806
 photutils:
   version: 0.1-1
+  issues:
+    - captures_build_path
   bugs:
     - 813656
 php-arc:
@@ -17150,6 +17162,8 @@ picviz:
   version: 0.5-1
   comments: |
     full-archi.kivio is a zip file, but unclear how it varies given that its not seemingly built from any source. (Which is a problem in itself)
+  issues:
+    - captures_build_path
 pida:
   version: 0.5.1-6
   issues:
@@ -21018,6 +21032,7 @@ rcmdr:
   version: 2.2-3-1
   issues:
     - randomness_in_r_rdb_rds_databases
+    - captures_build_path
 rcolorbrewer:
   version: 1.1-2-1
   issues:
@@ -24659,6 +24674,8 @@ tyxml:
     - captures_build_path
 tzc:
   version: 2.6.15-5.3
+  issues:
+    - captures_build_path
   bugs:
     - 800220
 u-boot:
@@ -26307,6 +26324,8 @@ xtide:
   version: 2.13.2-1
   comments: |
     Seems to be caused by build_tide_db in tcd-utils
+  issues:
+    - captures_build_path
 xtrans:
   version: 1.3.5-1
   issues:
