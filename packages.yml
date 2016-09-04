@@ -8823,6 +8823,10 @@ input-utils:
   version: 1.0-1.1
   issues:
     - captures_build_path
+insighttoolkit4:
+  version: 4.10.0-dfsg1-3
+  issues:
+    - diffoscope_runs_forever
 insubstantial:
   version: 7.3+dfsg3-2
   issues:
@@ -19535,6 +19539,10 @@ quantlib:
   issues:
     - blacklisted_on_jenkins_armhf_only
     - captures_shell_variable_in_autofoo_script
+quantlib-swig:
+  version: 1.8-2
+  issues:
+    - diffoscope_runs_forever
 quelcom:
   version: 0.4.0-13
   issues:
