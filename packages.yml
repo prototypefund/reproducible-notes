@@ -8027,6 +8027,8 @@ guile-2.0:
   comments: |
     At least, time of build recorded at:
     https://sources.debian.net/src/guile-2.0/2.0.11%2B1-9/libguile/Makefile.am/?hl=720#L720
+  issues:
+    - captures_shell_variable_in_autofoo_script
 guile-gnome-platform:
   version: 2.16.2-2
   issues:
@@ -22645,6 +22647,7 @@ snapper:
   version: 0.2.4-1
   issues:
     - captures_build_path
+    - captures_shell_variable_in_autofoo_script
   bugs:
     - 818027
 snd:
@@ -22755,6 +22758,8 @@ source-highlight:
   version: 3.1.8-1.1
   comments: |
     Captures SHELL - needs some kind of forcing in debian/rules?
+  issues:
+    - captures_shell_variable_in_autofoo_script
 sozi:
   version: 12.05-1
   bugs:
@@ -22913,6 +22918,8 @@ sqlite3:
     Capture shell in libtool file:
     ./usr/lib/tcltk/sqlite3/libtclsqlite3.la
     .la files should not be shipped in Debian packages
+  issues:
+    - captures_shell_variable_in_autofoo_script
 sqljet:
   version: 1.1.10-1
   issues:
@@ -26037,6 +26044,7 @@ yaws:
   version: 1.98-4
   issues:
     - timestamps_in_beam_files
+    - captures_shell_variable_in_autofoo_script
 yaz:
   version: 4.2.30-4
   issues:
