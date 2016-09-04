@@ -11391,6 +11391,8 @@ libhttp-daemon-ssl-perl:
     - 711628
 libical:
   version: 2.0.0-0.4
+  issues:
+    - captures_build_path
   bugs:
     - 796360
 libical-parser-sax-perl:
@@ -17366,6 +17368,10 @@ png-definitive-guide:
   version: 20060430-1
   bugs:
     - 817622
+png23d:
+  version: 1.10-1.2
+  issues:
+    - captures_build_path
 png2html:
   version: 1.1-5
   issues:
@@ -17562,6 +17568,10 @@ postgresql-plsh:
   version: 1.20140221-3
   issues:
     - captures_build_path
+postgresql-prioritize:
+  version: 1.0.4-1.2
+  issues:
+    - captures_build_path
 pound:
   version: 2.6-6.1
   comments: |
@@ -17581,6 +17591,10 @@ powerdevil:
   version: 4:5.4.3-1
   bugs:
     - 825471
+powstatd:
+  version: 1.5.1-9.1
+  issues:
+    - captures_build_path
 poxml:
   version: 4:15.12.0-3
   issues:
@@ -19110,6 +19124,8 @@ python-reportlab:
   comments: |
     Timestamp in PDF content.
     CreationDate and ID varying.
+  issues:
+    - captures_build_path
   bugs:
     - 820169
 python-repoze.tm2:
