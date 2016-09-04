@@ -7170,15 +7170,6 @@ gnupg:
   version: 1.4.20-6
   bugs:
     - 806494
-gnupg-doc:
-  version: 2003.04.06+dak1-1
-  comments: |
-    Contain random path in /tmp in
-    /usr/share/doc/gnupg-doc/mini-HOWTO/GPGMiniHowto.ps.gz
-    Timestamp embedded in postscript comment by imagemagick.
-  issues:
-    - timestamps_in_gzip_headers
-    - different_encoding
 gnupg1:
   version: 1.4.20-7
   bugs:
