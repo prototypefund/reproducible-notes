@@ -10950,6 +10950,7 @@ libhdate:
     Installs a libtool wrapper script (a build-time temporary file).
   issues:
     - captures_shell_variable_in_autofoo_script
+    - leaks_path_environment_variable
 libhdf4:
   version: 4.2.12-1
   issues:
@@ -12274,6 +12275,7 @@ libxml++2.6:
   version: 2.38.1-1
   issues:
     - captures_shell_variable_in_autofoo_script
+    - leaks_path_environment_variable
   bugs:
     - 812895
 libxml-commons-resolver1.1-java:
