@@ -345,6 +345,7 @@ amanda:
     https://sources.debian.net/src/amanda/1:3.3.6-4/common-src/Makefile.am/?hl=154#L154
   issues:
     - captures_shell_variable_in_autofoo_script
+    - captures_build_path
   bugs:
     - 830725
 amideco:
@@ -576,6 +577,8 @@ apktool:
     - 833875
 aplus-fsf:
   version: 4.22.1-7
+  issues:
+    - captures_build_path
   bugs:
     - 790226
     - 831169
@@ -709,6 +712,8 @@ argyll:
   comments: |
     Embed build time:
     https://sources.debian.net/src/argyll/1.6.3-4/cgats/cgats.c/#L1323
+  issues:
+    - captures_build_path
   bugs:
     - 835265
 ario:
@@ -1202,6 +1207,8 @@ bam:
     - 834160
 bamf:
   version: 0.2.118-1
+  issues:
+    - captures_build_path
   bugs:
     - 826450
 bandit:
@@ -1454,6 +1461,8 @@ bind9:
   comments: |
     Embeds current year into copyright header.
     https://sources.debian.net/src/bind9/1:9.10.3.dfsg.P4-10/lib/dns/gen.c/#L117
+  issues:
+    - captures_build_path
   bugs:
     - 828012
 binfmtc:
@@ -2124,6 +2133,8 @@ cb2bib:
     - captures_build_path
 ccbuild:
   version: 2.0.7-2
+  issues:
+    - captures_build_path
   bugs:
     - 834286
 ccd2iso:
@@ -2577,6 +2588,7 @@ clhep:
   version: 2.1.4.1-1.1
   issues:
     - random_order_in_static_libraries
+    - captures_build_path
   bugs:
     - 794398
 clipper:
@@ -3166,6 +3178,8 @@ ctpp2:
     - captures_build_path
 ctwm:
   version: 3.7-3.3
+  issues:
+    - captures_build_path
   bugs:
     - 817416
 cue2toc:
@@ -4558,6 +4572,8 @@ edbrowse:
     - captures_build_path
 edenmath.app:
   version: 1.1.1a-7
+  issues:
+    - captures_build_path
   bugs:
     - 817445
 edfbrowser:
@@ -4659,6 +4675,8 @@ elementary:
     - timestamps_in_edj_files_generated_by_edje_cc
 elementtidy:
   version: 1.0-8
+  issues:
+    - captures_build_path
   bugs:
     - 828880
 elfutils:
@@ -5025,6 +5043,7 @@ eurephia:
     https://sources.debian.net/src/eurephia/1.1.0-5/eurephiadm/mk_buildinfo.sh/
   issues:
     - captures_kernel_version
+    - captures_build_path
   bugs:
     - 831383
     - 831353
@@ -5377,6 +5396,7 @@ fftw:
   issues:
     - timestamps_in_documentation_generated_by_texi2html
     - different_encoding
+    - captures_build_path
   bugs:
     - 800653
     - 817452
@@ -5384,6 +5404,7 @@ fftw3:
   version: 3.3.4-2
   issues:
     - different_encoding
+    - captures_build_path
   bugs:
     - 796324
 fgrun:
@@ -5441,6 +5462,8 @@ findlib:
     - captures_build_path
 fio:
   version: 2.10-2
+  issues:
+    - captures_build_path
   bugs:
     - 828791
 fiona:
@@ -6257,6 +6280,8 @@ game-music-emu:
     - captures_build_path
 gamera:
   version: 3.4.2+svn1431-1
+  issues:
+    - captures_build_path
   bugs:
     - 785529
     - 811998
@@ -6708,6 +6733,8 @@ gesftpserver:
     - 796377
 getdns:
   version: 0.3.1-1
+  issues:
+    - captures_build_path
   bugs:
     - 797215
 getdp:
@@ -6871,6 +6898,8 @@ git:
     - 813912
 git-buildpackage:
   version: 0.6.22
+  issues:
+    - captures_build_path
   bugs:
     - 820846
 git-extras:
@@ -7891,6 +7920,8 @@ gri:
     - timestamps_in_dvi_generated_by_latex
 grib-api:
   version: 1.15.0-4
+  issues:
+    - captures_build_path
   bugs:
     - 828067
 gridengine:
@@ -8173,6 +8204,8 @@ guiqwt:
     - 807605
 guitarix:
   version: 0.34.0-0.1
+  issues:
+    - captures_build_path
   bugs:
     - 831124
 gupnp-igd:
@@ -8253,6 +8286,8 @@ hardinfo:
   comments: |
     Embeds system information.
     https://sources.debian.net/src/hardinfo/0.5.1-1.5/configure/#L189-L191
+  issues:
+    - captures_build_path
   bugs:
     - 833379
 hashcash:
@@ -8376,6 +8411,8 @@ hershey-fonts:
     - captures_build_path
 herwig++:
   version: 2.6.0-1.1
+  issues:
+    - captures_build_path
   bugs:
     - 813383
 hex-a-hop:
@@ -8471,6 +8508,8 @@ hocr:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/hocr/0.10.17-2/configure.ac/#L269
+  issues:
+    - captures_build_path
   bugs:
     - 831647
 hoichess:
@@ -8744,6 +8783,8 @@ idm-console-framework:
     - timestamps_in_jar
 ido:
   version: 0.3.4-1.1
+  issues:
+    - captures_build_path
   bugs:
     - 826668
 idzebra:
@@ -8979,6 +9020,8 @@ iptotal:
     - captures_build_path
 iptraf:
   version: 3.0.0-8.1
+  issues:
+    - captures_build_path
   bugs:
     - 828780
 iptraf-ng:
@@ -9019,6 +9062,8 @@ ircd-ircu:
   comments: |
     Embed build time:
     https://sources.debian.net/src/ircd-ircu/2.10.12.10.dfsg1-1.1/ircd/version.c.SH/?hl=17#L17
+  issues:
+    - captures_build_path
   bugs:
     - 835130
 ircii:
@@ -9053,6 +9098,8 @@ irrlicht:
     - 811787
 irsim:
   version: 9.7.93-1
+  issues:
+    - captures_build_path
   bugs:
     - 829628
 irssi-plugin-robustirc:
@@ -9194,6 +9241,8 @@ jacktrip:
     - 833305
 jade:
   version: 1.2.1-47.3
+  issues:
+    - captures_build_path
   bugs:
     - 800291
 jags:
@@ -9206,10 +9255,14 @@ jakarta-jmeter:
     - user_in_java_jar_manifest
 jalv:
   version: 1.4.6~dfsg0-1
+  issues:
+    - captures_build_path
   bugs:
     - 833908
 jam:
   version: 2.6-1
+  issues:
+    - captures_build_path
   bugs:
     - 797427
 jamin:
@@ -9427,6 +9480,8 @@ jpegpixi:
     - 825471
 jpy:
   version: 0.8-4
+  issues:
+    - captures_build_path
   bugs:
     - 834897
 jpylyzer:
@@ -10054,6 +10109,8 @@ kjs:
     - 811977
 kjsembed:
   version: 5.23.0-1
+  issues:
+    - captures_build_path
   bugs:
     - 831145
 kleopatra:
@@ -10657,6 +10714,8 @@ libapache-mod-jk:
     - lynx_dump_varies_output_with_locale
 libapache-mod-log-sql:
   version: 1.100-16.2
+  issues:
+    - captures_build_path
   bugs:
     - 830362
 libapache-mod-removeip:
@@ -11086,6 +11145,8 @@ libdbix-class-perl:
     - ftbfs_uninvestigated_test_failures
 libdbusmenu:
   version: 12.10.2-1
+  issues:
+    - captures_build_path
   bugs:
     - 826548
 libdc0:
@@ -11613,6 +11674,8 @@ libitl:
     - captures_build_path
 libitpp:
   version: 4.3.1-3
+  issues:
+    - captures_build_path
   bugs:
     - 795394
 libixion:
@@ -11875,6 +11938,8 @@ libmail-verify-perl:
     - 817540
 libmapper:
   version: 0.3~git+20141027-1
+  issues:
+    - captures_build_path
   bugs:
     - 803478
 libmarpa-r2-perl:
@@ -11917,6 +11982,8 @@ libmessage-passing-perl:
     - 795758
 libminc:
   version: 2.3.00-2
+  issues:
+    - captures_build_path
   bugs:
     - 835400
 libmlx4:
@@ -12169,6 +12236,8 @@ libpcl1:
     - captures_build_path
 libpeas:
   version: 1.16.0-1
+  issues:
+    - captures_build_path
   bugs:
     - 802095
 libphonenumber:
@@ -12224,6 +12293,8 @@ libprelude:
     - captures_build_path
 libpreludedb:
   version: 1.0.0-2.3
+  issues:
+    - captures_build_path
   bugs:
     - 803520
 libprintsys:
@@ -12282,6 +12353,8 @@ libquvi:
     Capture current time:
     https://sources.debian.net/src/libquvi/0.9.3-1.2/configure.ac/?hl=73:78#L73
     https://sources.debian.net/src/libquvi/0.9.3-1.2/src/api/version.c/?hl=88#L88
+  issues:
+    - captures_build_path
   bugs:
     - 834945
 libqxt:
@@ -12346,6 +12419,7 @@ librep:
     https://sources.debian.net/src/librep/0.90.2-1.4/build-info/#L20-L21
   issues:
     - captures_shell_variable_in_autofoo_script
+    - captures_build_path
   bugs:
     - 834534
 libresample:
@@ -12372,6 +12446,8 @@ librg-blast-parser-perl:
     - 811702
 librime:
   version: 1.2+dfsg-2
+  issues:
+    - captures_build_path
   bugs:
     - 811637
 libropkg-perl:
@@ -12846,6 +12922,7 @@ libxml++2.6:
   issues:
     - captures_shell_variable_in_autofoo_script
     - leaks_path_environment_variable
+    - captures_build_path
   bugs:
     - 812895
 libxml-commons-resolver1.1-java:
@@ -13066,6 +13143,8 @@ linuxlogo:
     - 825471
 linuxtv-dvb-apps:
   version: 1.1.1+rev1500-1
+  issues:
+    - captures_build_path
   bugs:
     - 791423
 liquidwar:
@@ -13096,6 +13175,7 @@ littler:
     However, I couldn't find the strings in question in the source package.
   issues:
     - collation_order_varies_by_locale
+    - captures_build_path
 live-f1:
   version: 0.2.10-1.1
   issues:
@@ -13201,6 +13281,8 @@ log4c:
     - captures_build_path
 log4cpp:
   version: 1.0-4.1
+  issues:
+    - captures_build_path
   bugs:
     - 830459
 log4cxx:
@@ -13399,6 +13481,7 @@ lush:
   version: 1.2.1-9+cvs20110227+nmu1
   issues:
     - captures_shell_variable_in_autofoo_script
+    - captures_build_path
   bugs:
     - 787650
     - 787651
@@ -13820,6 +13903,8 @@ mbw:
     - captures_build_path
 mc:
   version: 3:4.8.17-1
+  issues:
+    - captures_build_path
   bugs:
     - 828683
 mclibs:
@@ -13828,6 +13913,8 @@ mclibs:
     - timestamps_in_ps_generated_by_dvips
 mcmcpack:
   version: 1.3-3-1
+  issues:
+    - captures_build_path
   bugs:
     - 834631
 mcrl2:
@@ -13863,6 +13950,8 @@ megaglest:
     - captures_build_path
 members:
   version: 20080128-5
+  issues:
+    - captures_build_path
   bugs:
     - 817578
 memcached:
@@ -14653,6 +14742,8 @@ murasaki:
     - 811815
 muse:
   version: 2.1.2-1
+  issues:
+    - captures_build_path
   bugs:
     - 831147
 muse-el:
@@ -15491,6 +15582,8 @@ nunit:
     - captures_kernel_version
 nurpawiki:
   version: 1.2.3-9
+  issues:
+    - captures_build_path
   bugs:
     - 835226
 nut:
@@ -15934,6 +16027,8 @@ omnievents:
     - 824734
 ompl:
   version: 1.1.0+ds1-1
+  issues:
+    - captures_build_path
   bugs:
     - 831074
 onboard:
@@ -16075,6 +16170,8 @@ openclipart2:
     - diffoscope_runs_forever
 openclonk:
   version: 7.0-3
+  issues:
+    - captures_build_path
   bugs:
     - 823797
 opencolorio:
@@ -16195,6 +16292,8 @@ openldap:
   comments: |
     Embeds username and hostname.
     https://sources.debian.net/src/openldap/2.4.42%2Bdfsg-2/build/mkversion/?hl=75#L53
+  issues:
+    - captures_build_path
   bugs:
     - 833179
 openload:
@@ -16211,6 +16310,8 @@ openmcdf:
     - timestamps_in_pe_binaries
 openmeeg:
   version: 2.0.0.dfsg-5.2
+  issues:
+    - captures_build_path
   bugs:
     - 730904
 openmpi:
@@ -17113,6 +17214,8 @@ php-mongodb:
     - captures_build_path
 php-pinba:
   version: 1.0.0-2
+  issues:
+    - captures_build_path
   bugs:
     - 808055
 php-ps:
@@ -17187,6 +17290,8 @@ picard-tools:
     - random_order_in_javahelper_substvars
 picmi:
   version: 4:16.04.0-1
+  issues:
+    - captures_build_path
   bugs:
     - 835462
 picviz:
@@ -17803,6 +17908,8 @@ price.app:
     - captures_build_path
 prima:
   version: 1.28-1.3
+  issues:
+    - captures_build_path
   bugs:
     - 778951
 prime-phylo:
@@ -19412,6 +19519,8 @@ pyvtk:
     - captures_build_path
 pywavelets:
   version: 0.3.0-1
+  issues:
+    - captures_build_path
   bugs:
     - 808459
 pywbem:
@@ -19567,6 +19676,8 @@ qrfcview:
     - 789963
 qsapecng:
   version: 2.0.0-8
+  issues:
+    - captures_build_path
   bugs:
     - 834188
 qscintilla2:
@@ -20945,6 +21056,8 @@ radare2:
   comments: |
     Embeds build date into source.
     https://sources.debian.net/src/radare2/0.9.6-3.1/binr/blob/version.c/#L7
+  issues:
+    - captures_build_path
   bugs:
     - 835262
 radiance:
@@ -21036,6 +21149,8 @@ rawdns:
     - captures_build_path
 razorqt:
   version: 0.5.2-4
+  issues:
+    - captures_build_path
   bugs:
     - 815193
 rblcheck:
@@ -21113,6 +21228,7 @@ readline6:
   version: 6.3-8
   issues:
     - different_due_to_umask
+    - captures_build_path
   bugs:
     - 783136
 realmd:
@@ -21121,6 +21237,8 @@ realmd:
     - different_encoding
 reaver:
   version: 1.4-2
+  issues:
+    - captures_build_path
   bugs:
     - 827172
 rebar:
@@ -21534,6 +21652,8 @@ ros-rospack:
     - captures_build_path
 ros-rviz:
   version: 1.11.10+dfsg-2
+  issues:
+    - captures_build_path
   bugs:
     - 831135
 ros-std-msgs:
@@ -21581,6 +21701,8 @@ rplay:
     - captures_build_path
 rquantlib:
   version: 0.4.2-2
+  issues:
+    - captures_build_path
   bugs:
     - 831102
     - 812286
@@ -22259,6 +22381,8 @@ sauce:
     - 793718
 savi:
   version: 1.4.9-1
+  issues:
+    - captures_build_path
   bugs:
     - 829717
 sawfish:
@@ -22728,6 +22852,8 @@ silentjack:
     - captures_build_path
 silly:
   version: 0.1.0-7
+  issues:
+    - captures_build_path
   bugs:
     - 831152
 simba:
@@ -23281,6 +23407,7 @@ splint:
   issues:
     - captures_kernel_version
     - user_hostname_manually_added_requiring_further_investigation
+    - captures_build_path
   bugs:
     - 797254
 splitpatch:
@@ -24125,6 +24252,8 @@ texlive-base:
     Caused by some randomness in/near dh_installtex (tex-common)
 textedit.app:
   version: 4.0+20061029-3.4
+  issues:
+    - captures_build_path
   bugs:
     - 817691
 texworks:
@@ -24202,6 +24331,8 @@ tightvnc:
     - captures_build_path
 tiledarray:
   version: 0.4.4-1
+  issues:
+    - captures_build_path
   bugs:
     - 835279
 tilem:
@@ -24279,6 +24410,8 @@ tk8.6:
     - 818753
 tkdesk:
   version: 2.0-9.2
+  issues:
+    - captures_build_path
   bugs:
     - 824567
 tkdnd:
@@ -24364,6 +24497,8 @@ tomboy:
   version: 1.14.1-4
   comments: |
     Unidentified variation in Mono executable.
+  issues:
+    - captures_build_path
 tomcat7:
   version: 7.0.62-1
   issues:
@@ -24394,6 +24529,8 @@ tor:
   version: 0.2.6.7-1
   comments: |
     upstream bug + pull request: https://trac.torproject.org/projects/tor/ticket/19558
+  issues:
+    - captures_build_path
   bugs:
     - 814840
 tora:
@@ -24459,12 +24596,15 @@ trackballs:
     - 831119
 tracker:
   version: 1.8.0-3
+  issues:
+    - captures_build_path
   bugs:
     - 815725
 trafficserver:
   version: 5.1.1-1
   issues:
     - different_due_to_umask
+    - captures_build_path
   bugs:
     - 833176
 transcalc:
@@ -24805,6 +24945,7 @@ udo:
     https://sources.debian.net/src/udo/6.4.1-1/Source/toc.c/#L2233
   issues:
     - captures_execution_time
+    - captures_build_path
 udpcast:
   version: 20120424-1
   comments: |
@@ -24852,6 +24993,8 @@ uisp:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/uisp/20050207-4.2/configure.ac/#L56
+  issues:
+    - captures_build_path
   bugs:
     - 832290
 ulatencyd:
@@ -25062,6 +25205,8 @@ varnish:
     Modules contain a random `file_id`:
     https://sources.debian.net/src/varnish/4.0.2-1/lib/libvcc/vmodtool.py/?hl=237:244#L237
     Should discuss with upstream on replacing this with a constant hash.
+  issues:
+    - captures_build_path
   bugs:
     - 835061
 varnish-agent:
@@ -25308,6 +25453,8 @@ vsdump:
     - captures_build_path
 vsearch:
   version: 2.0.0-1
+  issues:
+    - captures_build_path
   bugs:
     - 831131
 vte:
@@ -26126,6 +26273,8 @@ xmlrpc-c:
     The wishlist bug #722503 is to not use port 8080 for the abyss tests, as
     that port is usually used by system running services (like proxies) and
     used to be occupied in jenkins too.
+  issues:
+    - captures_build_path
   bugs:
     - 722503
 xmlstarlet:
@@ -26302,6 +26451,8 @@ xserver-xorg-video-openchrome:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/xserver-xorg-video-openchrome/1:0.3.3%2Bgit20160310-1/src/Makefile.am/?hl=117#L117
+  issues:
+    - captures_build_path
   bugs:
     - 831405
 xserver-xorg-video-sisusb:
@@ -26522,6 +26673,7 @@ yersinia:
     https://sources.debian.net/src/yersinia/0.7.3-1/configure.in/?hl=832:845#L832
   issues:
     - captures_kernel_version
+    - captures_build_path
   bugs:
     - 831404
 yi:
@@ -26586,6 +26738,8 @@ ytree:
     - 777273
 yubikey-server-c:
   version: 0.5-1
+  issues:
+    - captures_build_path
   bugs:
     - 802114
 yudit:
@@ -26709,6 +26863,8 @@ zoneminder:
   version: 1.28.1-7
   comments: |
     Some random strings are also embedded as salts/seeds in /usr/share/zoneminder/www/api/app/Config/core.php.
+  issues:
+    - captures_build_path
   bugs:
     - 830979
     - 812026
