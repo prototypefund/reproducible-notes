@@ -15582,6 +15582,7 @@ ocamlbricks:
   version: 0.90+bzr400-1
   issues:
     - randomness_in_ocaml_provides
+    - captures_kernel_version
 ocamlcreal:
   version: 0.7-6
   issues:
@@ -17428,6 +17429,7 @@ postfix:
   issues:
     - collation_order_varies_by_locale
     - captures_build_path
+    - captures_kernel_version
 postgis:
   version: 2.1.8+dfsg-4
   issues:
