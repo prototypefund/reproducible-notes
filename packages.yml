@@ -5040,6 +5040,8 @@ exonerate:
     - captures_build_path
 expeyes:
   version: 4.0.0-1
+  issues:
+    - different_pot_creation_date_in_gettext_mo_files
   bugs:
     - 822432
 extlib:
