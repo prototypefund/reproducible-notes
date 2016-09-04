@@ -433,6 +433,7 @@ aodh:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - timestamps_in_documentation_generated_by_sphinx
+    - user_hostname_manually_added_requiring_further_investigation
 aolserver4:
   version: 4.5.1-18
   issues:
@@ -2135,6 +2136,7 @@ ceilometer:
   version: 2015.1.0-6
   issues:
     - randomness_in_documentation_generated_by_sphinx
+    - user_hostname_manually_added_requiring_further_investigation
 celery:
   version: 3.1.13-3
   issues:
@@ -6482,6 +6484,7 @@ getdp:
     https://sources.debian.net/src/getdp/2.7.0-2/CMakeLists.txt/#L76-L81
   issues:
     - unsorted_file_glob_by_cmake
+    - user_hostname_manually_added_requiring_further_investigation
 getfem++:
   version: 4.2.1~beta1~svn4635~dfsg-3
   comments: |
@@ -13104,6 +13107,7 @@ manila:
   version: 1:1.0.0-4
   issues:
     - ftbfs_uninvestigated_test_failures
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 834839
 manpages-hu:
@@ -15275,6 +15279,8 @@ olpc-xo1:
     - 817602
 olsrd:
   version: 0.6.6.2-1
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 829732
 omake:
@@ -15946,6 +15952,8 @@ palo:
   comments: |
     Embed username, hostname and build time.
     https://sources.debian.net/src/palo/1.95/palo/Makefile/?hl=31#L31
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 778437
 pam-dbus:
@@ -16298,6 +16306,7 @@ petsc:
   issues:
     - leaks_path_environment_variable
     - captures_kernel_version
+    - user_hostname_manually_added_requiring_further_investigation
 petsc4py:
   version: 3.7.0-2
   issues:
@@ -20376,6 +20385,8 @@ remmina:
     - 819779
 remote-tty:
   version: 4.0-13
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 829721
 renaissance:
@@ -22338,6 +22349,7 @@ splint:
   version: 3.1.2.dfsg1-2
   issues:
     - captures_kernel_version
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 797254
 splitpatch:
