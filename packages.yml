@@ -310,6 +310,10 @@ alpine:
     https://sources.debian.net/src/alpine/2.11%2Bdfsg1-3/alpine/Makefile.am/?hl=46:48#L46
   bugs:
     - 791923
+alsa-lib:
+  version: 1.1.2-1
+  issues:
+    - captures_home_dir
 alsa-tools:
   version: 1.1.0-1
   issues:
@@ -620,6 +624,10 @@ apr-util:
   version: 1.5.4-2
   issues:
     - captures_build_path
+apron:
+  version: 0.9.10-9
+  issues:
+    - captures_home_dir
 apt:
   version: 1.3~rc2
   issues:
@@ -782,6 +790,7 @@ asis:
   version: 2014-4
   issues:
     - unknown_ada_issue
+    - captures_home_dir
 ask:
   version: 1.0.1-2
   issues:
@@ -932,6 +941,10 @@ async-http-client:
   version: 1.6.5-4
   issues:
     - random_order_in_documentation_generated_by_javadoc
+atdgen:
+  version: 1.9.1-1
+  issues:
+    - captures_home_dir
 athcool:
   version: 0.3.12-3
   bugs:
@@ -1170,6 +1183,10 @@ backup-manager:
   version: 0.7.12-1
   bugs:
     - 831759
+bacula:
+  version: 7.4.3+dfsg-1+sid1
+  issues:
+    - captures_home_dir
 bacula-doc:
   version: 5.2.6-3
   issues:
@@ -1473,6 +1490,10 @@ bing:
   version: 1.1.3-2.1
   issues:
     - captures_build_path
+biniou:
+  version: 1.0.12-2
+  issues:
+    - captures_home_dir
 binpac:
   version: 0.44-1
   issues:
@@ -1876,6 +1897,8 @@ btfs:
     - 834250
 btyacc:
   version: 3.0-5
+  issues:
+    - captures_home_dir
   bugs:
     - 823428
 budgie-desktop:
@@ -2310,6 +2333,8 @@ cgit:
   version: 1.0+git2.8.3-3
   comments: |
     Captures $HOME.
+  issues:
+    - captures_home_dir
 cgminer:
   version: 4.9.2-1
   bugs:
@@ -2958,6 +2983,8 @@ cook:
     - 797320
 cookiecutter:
   version: 1.4.0-2
+  issues:
+    - captures_home_dir
   bugs:
     - 834861
 copyfs:
@@ -6126,6 +6153,10 @@ ftp-upload:
   version: 1.5+nmu1
   bugs:
     - 800173
+ftp.app:
+  version: 0.3-1
+  issues:
+    - captures_home_dir
 ftpcopy:
   version: 0.6.7-3
   issues:
@@ -6682,6 +6713,10 @@ genshi:
   version: 0.7-5
   issues:
     - captures_build_path
+gentoo:
+  version: 0.20.7-1
+  issues:
+    - captures_home_dir
 geographiclib:
   version: 1.46-2
   issues:
@@ -10618,6 +10653,7 @@ ldaptor:
   version: 0.0.43+debian1-7
   issues:
     - randomness_in_documentation_generated_by_epydoc
+    - captures_home_dir
   bugs:
     - 827419
 ldc:
@@ -11313,6 +11349,8 @@ libfm:
   version: 1.2.4-1
   comments: |
     Documentation contains default value for home directory, which varies. The correct solution would be for g_param_spec_string to take a flag to not print the default value.
+  issues:
+    - captures_home_dir
   bugs:
     - 835418
 libfm-qt:
@@ -14556,6 +14594,10 @@ mpack:
   bugs:
     - 777376
     - 793706
+mpdcon.app:
+  version: 1.1.99-5
+  issues:
+    - captures_home_dir
 mpg321:
   version: 0.3.2-1.1
   issues:
@@ -19456,6 +19498,7 @@ python-x2go:
   version: 0.5.0.1-2
   issues:
     - randomness_in_documentation_generated_by_epydoc
+    - captures_home_dir
 python-xlrd:
   version: 0.9.2-1
   comments: |
@@ -20397,6 +20440,10 @@ r-cran-googlevis:
   version: 0.6.0-1
   issues:
     - captures_build_path
+r-cran-gridbase:
+  version: 0.4-7-2
+  issues:
+    - captures_home_dir
 r-cran-gridextra:
   version: 2.2.1-1
   issues:
@@ -23665,6 +23712,8 @@ subliminal:
   version: 1.1.1-2
   comments: |
     Captures $HOME via click: https://sources.debian.net/src/subliminal/1.1.1-2/subliminal/cli.py/#L198-L209
+  issues:
+    - captures_home_dir
 subnetcalc:
   version: 2.1.3-1
   issues:
