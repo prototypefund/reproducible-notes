@@ -1246,6 +1246,9 @@ captures_build_path:
   description:
     Captures build path, e.g., /build-1st v. /build-2nd.
     If using autoconf, make sure you call ./configure via a relative and not absolute path.
+captures_home_dir:
+  description:
+    Captures home directory, e.g., first-build v. second-build.
 golang_compiler_captures_build_path_in_binary:
   description: |
     The golang compiler embeds the source/build paths into binaries.
