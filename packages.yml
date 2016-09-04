@@ -2674,6 +2674,10 @@ codesearch:
   version: 0.0~hg20120502-2
   issues:
     - captures_build_path
+codetools:
+  version: 0.2-14-2
+  issues:
+    - captures_build_path
 cogl:
   version: 1.18.2-3
   issues:
@@ -2703,6 +2707,10 @@ coinor-symphony:
   version: 5.6.1-1
   issues:
     - timestamps_in_tex_documents
+coinst:
+  version: 1.9.3-1
+  issues:
+    - captures_build_path
 coinutils:
   version: 2.9.15-3.1
   issues:
@@ -4239,6 +4247,10 @@ doxygen:
   version: 1.8.9.1-1
   issues:
     - timezones_manpages_podman
+doxymacs:
+  version: 1.8.0-6.1
+  issues:
+    - captures_build_path
 dpkg-sig:
   version: 0.13.1+nmu2
   bugs:
@@ -4311,6 +4323,10 @@ dub:
   version: 0.9.24-1
   issues:
     - timestamps_from_cpp_macros_in_d
+duff:
+  version: 0.5.2-1.1
+  issues:
+    - captures_build_path
 duma:
   version: 2.5.15-1.1
   bugs:
@@ -4327,6 +4343,10 @@ dupload:
   version: 2.7.0
   issues:
     - timezones_manpages_podman
+dvbstream:
+  version: 0.6+cvs20090621-1
+  issues:
+    - captures_build_path
 dvbtune:
   version: 0.5.ds-1
   bugs:
@@ -4466,6 +4486,10 @@ eclipse-rse:
   version: 3.4.2-1
   issues:
     - snapshot_placeholder_replaced_with_timestamp_in_pom_properties
+eclipse-subclipse:
+  version: 1.10.3-1
+  issues:
+    - captures_build_path
 eclipse-titan:
   version: 5.4.1-1
   comments: |
@@ -4713,6 +4737,10 @@ enumerate:
   version: 111.08.00-2
   issues:
     - captures_build_path
+eperl:
+  version: 2.2.14-22
+  issues:
+    - captures_build_path
 epic5:
   version: 1.1.11-1
   bugs:
@@ -4816,6 +4844,10 @@ erlang-jiffy:
   version: 0.14.6+dfsg-1
   issues:
     - captures_build_path
+erlang-lager:
+  version: 3.2.1-1
+  issues:
+    - captures_build_path
 erlang-luerl:
   version: 0.2015.12.10-1
   issues:
@@ -4830,6 +4862,18 @@ erlang-p1-cache-tab:
     - captures_build_path
 erlang-p1-iconv:
   version: 1.0.1-1
+  issues:
+    - captures_build_path
+erlang-p1-mysql:
+  version: 1.0.1-2
+  issues:
+    - captures_build_path
+erlang-p1-pam:
+  version: 1.0.0-3
+  issues:
+    - captures_build_path
+erlang-p1-pgsql:
+  version: 1.1.0-2
   issues:
     - captures_build_path
 erlang-p1-sip:
@@ -4858,6 +4902,10 @@ erlang-p1-xml:
     - captures_build_path
 erlang-p1-yaml:
   version: 1.0.5-1
+  issues:
+    - captures_build_path
+erlang-p1-zlib:
+  version: 1.0.1-2
   issues:
     - captures_build_path
 erlang-proper:
@@ -5256,6 +5304,10 @@ feynmf:
   version: 1.08-9
   issues:
     - timestamps_in_dvi_generated_by_latex
+ffc:
+  version: 2016.1.0-1
+  issues:
+    - captures_build_path
 fflas-ffpack:
   version: 2.2.1-2
   issues:
@@ -6186,6 +6238,10 @@ ganv:
   version: 1.4.2~dfsg0-1.1
   bugs:
     - 833969
+gap:
+  version: 4r8p4-1
+  issues:
+    - captures_build_path
 gap-autpgrp:
   version: 1.5-2
   issues:
@@ -6943,6 +6999,10 @@ gluegen2:
   version: 2.3.2-3
   issues:
     - random_order_in_documentation_generated_by_javadoc
+glyr:
+  version: 1.0.9-1
+  issues:
+    - captures_build_path
 gmchess:
   version: 0.29.6-2
   issues:
@@ -8995,6 +9055,10 @@ jacal:
     - different_encoding
   bugs:
     - 815250
+jack:
+  version: 3.1.1+cvs20050801-29.1
+  issues:
+    - captures_build_path
 jack-audio-connection-kit:
   version: 1:0.124.1+20140122git5013bed0-3
   comments: |
@@ -9113,6 +9177,10 @@ java-policy:
     - timestamps_in_ps_generated_by_dvips
 java2html:
   version: 0.9.2-4
+  issues:
+    - captures_build_path
+java3d:
+  version: 1.5.2+dfsg-11
   issues:
     - captures_build_path
 javamorph:
