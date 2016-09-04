@@ -364,6 +364,10 @@ ams:
   version: 2.1.1-1
   bugs:
     - 811645
+amsynth:
+  version: 1.6.4-1
+  issues:
+    - captures_build_path
 anarchism:
   version: 14.0-4
   issues:
@@ -2230,6 +2234,8 @@ ceph:
     - 811674
 ceres-solver:
   version: 1.11.0~dfsg0-5
+  issues:
+    - captures_build_path
   bugs:
     - 811987
 cernlib:
