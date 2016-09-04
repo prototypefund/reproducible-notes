@@ -1275,6 +1275,8 @@ batik:
   comments: |
     The build script adds a custom 'Build-Id' header including a
     timestamp, the hostname, etc. to MANIFEST.MF files.
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
 bats:
   version: 0.4.0-1
   bugs:
@@ -1392,6 +1394,8 @@ bgoffice:
     - random_ispell_hash_files
 bibclean:
   version: 2.11.4.1-4
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 829754
 bibcursed:
@@ -4528,6 +4532,8 @@ eclipse-titan:
   version: 5.4.1-1
   comments: |
     Embeds "Build date:" in binary"
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
 eclipse-wtp:
   version: 3.6.0-1
   issues:
@@ -8301,6 +8307,7 @@ hdf5:
     Timestamp in CMakeLists.txt *and* in configure.ac
   issues:
     - captures_build_path
+    - user_hostname_manually_added_requiring_further_investigation
 hdup:
   version: 2.0.14-4
   issues:
@@ -14758,6 +14765,8 @@ namazu2:
   version: 2.0.21-10
   comments: |
     Embeds the hostname into several files.
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 815607
 nant:
@@ -15332,6 +15341,8 @@ nova:
     https://sources.debian.net/src/nova/2:13.0.0-2/nova/compute/manager.py/?hl=105#L105
     https://sources.debian.net/src/nova/2:13.0.0-2/nova/console/manager.py/?hl=39#L39
     https://sources.debian.net/src/nova/2:13.0.0-2/nova/netconf.py/?hl=33#L33
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 834134
 noweb:
