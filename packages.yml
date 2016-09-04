@@ -1515,6 +1515,8 @@ biosig4c++:
     different sorting.
     .
     https://sources.debian.net/src/biosig4c%2B%2B/1.3.0-2.1/Makefile/#L550
+  issues:
+    - random_order_in_static_libraries
 biosquid:
   version: 1.9g+cvs20050121-5
   issues:
@@ -22550,6 +22552,8 @@ setools:
   version: 3.3.8+20151215-1
   comments: |
     order depends of filesystem or locale in libqpol_a_LIBADD ?
+  issues:
+    - random_order_in_static_libraries
 sexplib310:
   version: 111.25.00-1
   issues:
