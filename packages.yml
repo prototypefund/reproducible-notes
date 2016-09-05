@@ -5320,6 +5320,10 @@ fb-music-high:
   version: 0.1.2
   bugs:
     - 817450
+fbasics:
+  version: 3011.87-2
+  issues:
+    - captures_build_path
 fbpager:
   version: 0.1.5~git20090221.1.8e0927e6-1.1
   bugs:
@@ -5418,6 +5422,10 @@ fdroidserver:
     - random_order_in_tarball
   bugs:
     - 835463
+fdsend:
+  version: 0.2.1-2
+  issues:
+    - captures_build_path
 fdupes:
   version: 1:1.6.1-1
   issues:
@@ -5595,10 +5603,14 @@ firebird3.0:
     - timezones_manpages_podman
 firefox:
   version: 47.0.1-1
+  issues:
+    - captures_build_path
   bugs:
     - 822716
 firefox-esr:
   version: 45.2.0esr-1
+  issues:
+    - captures_build_path
   bugs:
     - 822715
 firehol:
@@ -5625,6 +5637,10 @@ flactag:
   version: 2.0.4-4
   issues:
     - timestamps_in_documentation_generated_by_asciidoc
+flake:
+  version: 0.11-2
+  issues:
+    - captures_build_path
 flam3:
   version: 3.0.1-4
   issues:
@@ -7448,6 +7464,10 @@ gnu-standards:
   version: 2010.03.11-1
   issues:
     - timestamps_in_ps_generated_by_dvips
+gnuais:
+  version: 0.3.3-5
+  issues:
+    - captures_build_path
 gnubg:
   version: 1.05.000-4
   issues:
@@ -8980,6 +9000,10 @@ ikiwiki:
     
     ./doc/plugins/contrib/asymptote/ikiwiki/directive/asymptote.mdwn
     ./doc/plugins/contrib/asymptote.mdwn
+ikiwiki-hosting:
+  version: 0.20160811
+  issues:
+    - captures_build_path
 ikvm:
   version: 7.2.4630.5+ds-1
   issues:
@@ -9248,6 +9272,10 @@ isorelax:
     - timestamps_in_documentation_generated_by_javadoc
     - timestamps_in_jar
     - locale_in_documentation_generated_by_javadoc
+ispell:
+  version: 3.4.00-5
+  issues:
+    - captures_build_path
 ispell-uk:
   version: 1.7.1-1
   issues:
@@ -10240,6 +10268,10 @@ kjsembed:
     - captures_build_path
   bugs:
     - 831145
+klatexformula:
+  version: 3.3.0~beta-1
+  issues:
+    - captures_build_path
 kleopatra:
   version: 4:16.04.2-2
   issues:
@@ -10315,6 +10347,10 @@ kmldonkey:
     - captures_build_path
 kmouth:
   version: 4:16.08.0-1
+  issues:
+    - captures_build_path
+kmplayer:
+  version: 1:0.11.3d-3
   issues:
     - captures_build_path
 kmplot:
@@ -10422,6 +10458,10 @@ kparts:
     - captures_build_path
 kpartsplugin:
   version: 20120605-1
+  issues:
+    - captures_build_path
+kpat:
+  version: 4:16.04.0-2
   issues:
     - captures_build_path
 kphotoalbum:
@@ -15409,6 +15449,7 @@ nipy:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - leaks_path_environment_variable
+    - captures_build_path
 nipype:
   version: 0.10.0-2
   issues:
@@ -21616,6 +21657,8 @@ regexxer:
     - 825471
 regina-normal:
   version: 4.96-3
+  issues:
+    - captures_build_path
   bugs:
     - 811680
 regina-rexx:
