@@ -65,6 +65,10 @@ aces3:
   version: 3.0.8-4
   bugs:
     - 831164
+acfax:
+  version: 981011-17
+  issues:
+    - captures_build_path
 achilles:
   version: 2-8.2
   issues:
@@ -89,6 +93,10 @@ acoustid-fingerprinter:
   version: 0.6-5
   bugs:
     - 811732
+acpitool:
+  version: 0.5.1-4
+  issues:
+    - captures_build_path
 actdiag:
   version: 0.5.3-5
   bugs:
@@ -20008,6 +20016,8 @@ quickfix:
     - 831128
 quilt:
   version: 0.63-3
+  issues:
+    - captures_build_path
   bugs:
     - 836510
 quitcount:
@@ -24434,6 +24444,7 @@ tidy-html5:
     This was intentionally changed in the last Debian upload (1:5.2.0-1.1 to 1:5.2.0-2, see changelog).
   issues:
     - different_encoding_in_html_by_docbook_xsl
+    - captures_build_path
 tidy-proxy:
   version: 0.97-4
   issues:
