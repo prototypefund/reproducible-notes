@@ -642,6 +642,8 @@ apt-cacher-ng:
     readdir() dependency inside tar:
       https://sources.debian.net/src/apt-cacher-ng/0.9.3-1/dbgen/Makefile/#L120
       (invoked from <https://sources.debian.net/src/apt-cacher-ng/0.9.3-1/debian/rules/#L28>)
+  issues:
+    - random_order_in_tarball
   bugs:
     - 834755
 apt-dpkg-ref:
@@ -1883,6 +1885,7 @@ bsh:
     - different_due_to_umask
     - implementation_version_in_java_manifest_mf
     - different_encoding
+    - random_order_in_tarball
 bsign:
   version: 0.4.5
   bugs:
@@ -3452,6 +3455,7 @@ dahdi-linux:
   version: 1:2.10.0.1~dfsg-1
   issues:
     - different_due_to_umask
+    - random_order_in_tarball
   bugs:
     - 776622
 dahdi-tools:
@@ -5340,6 +5344,8 @@ fdroidserver:
   version: 0.6.0-2
   comments: |
     random order caused by shell expansion in docs/gendocs.sh
+  issues:
+    - random_order_in_tarball
   bugs:
     - 835463
 fdupes:
@@ -22476,6 +22482,7 @@ sawfish:
   issues:
     - timestamps_in_gzip_headers
     - different_due_to_umask
+    - random_order_in_tarball
   bugs:
     - 820668
 sawfish-merlin-ugliness:
@@ -25787,6 +25794,7 @@ wily:
     - timestamps_in_gzip_headers
     - timestamps_in_tarball
     - different_due_to_umask
+    - random_order_in_tarball
   bugs:
     - 777360
 wims:
