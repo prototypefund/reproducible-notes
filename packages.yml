@@ -189,6 +189,7 @@ affiche:
   version: 0.6.0-8
   issues:
     - plist_weirdness
+    - captures_build_path
 afl:
   version: 2.16b-1
   issues:
@@ -291,6 +292,10 @@ alljoyn-core-1604:
     - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 831198
+alljoyn-services-1504:
+  version: 15.04-4
+  issues:
+    - captures_build_path
 alljoyn-services-1509:
   version: 15.09-2
   issues:
@@ -5313,6 +5318,10 @@ fcitx-unikey:
     - captures_build_path
   bugs:
     - 811723
+fcitx-zhuyin:
+  version: 0~20150911-4
+  issues:
+    - captures_build_path
 fcl:
   version: 0.4.0-1
   bugs:
