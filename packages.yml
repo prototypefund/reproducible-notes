@@ -2764,6 +2764,8 @@ cmor:
     Command to find where are set the timestamps: ack-grep -B3 snprintf.*ptr
 cmtk:
   version: 3.2.2-1.4
+  issues:
+    - captures_build_path
   bugs:
     - 827994
 cnrun:
@@ -3862,6 +3864,10 @@ debootstrap:
     - 819883
 deborphan:
   version: 1.7.28.8-0.3
+  issues:
+    - captures_build_path
+deja-dup:
+  version: 34.2-1
   issues:
     - captures_build_path
 dejagnu:
@@ -11865,6 +11871,10 @@ libjemmy2-java:
   version: 2.3.1.1-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
+libjna-java:
+  version: 4.2.2-1
+  issues:
+    - captures_build_path
 libjpeg6b:
   version: 1:6b2-2
   issues:
