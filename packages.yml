@@ -3397,6 +3397,7 @@ cyrus-imapd:
   issues:
     - timestamps_from_cpp_macros
     - collation_order_varies_by_locale
+    - captures_build_path
 cyrus-sasl2:
   version: 2.1.26.dfsg1-15
   issues:
@@ -4189,6 +4190,10 @@ dlib:
   version: 18.18-1
   issues:
     - captures_build_path
+dlm:
+  version: 4.0.6-1
+  issues:
+    - captures_build_path
 dlz-ldap-enum:
   version: 1.0.3-1
   bugs:
@@ -4288,6 +4293,10 @@ dolfin:
   issues:
     - diffoscope_runs_forever
     - unsorted_file_glob_by_cmake
+dolphin-emu:
+  version: 5.0+dfsg-1
+  issues:
+    - captures_build_path
 dom4j:
   version: 1.6.1+dfsg.3-2
   issues:
@@ -11537,6 +11546,7 @@ libguestfs:
   issues:
     - different_due_to_umask
     - timestamps_in_tarball
+    - captures_build_path
 libgweather:
   version: 3.20.0-1
   bugs:
@@ -16127,6 +16137,10 @@ open-axiom:
   version: 1.5.0~svn3056+ds-1
   bugs:
     - 778041
+open-coarrays:
+  version: 1.6.2-2
+  issues:
+    - captures_build_path
 open-gram:
   version: 0.1.22+20131212-1
   bugs:
@@ -20742,6 +20756,10 @@ r-cran-polycub:
     - captures_build_path
 r-cran-praise:
   version: 1.0.0-1
+  issues:
+    - captures_build_path
+r-cran-princurve:
+  version: 1.1-12-1
   issues:
     - captures_build_path
 r-cran-profilemodel:
