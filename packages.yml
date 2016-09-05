@@ -9398,6 +9398,10 @@ jboss-logmanager:
   version: 2.0.3-1
   issues:
     - method_may_never_be_called_in_documentation_generated_by_javadoc
+jboss-modules:
+  version: 1.5.2-1
+  issues:
+    - captures_build_path
 jcal:
   version: 0.4.1-2
   issues:
@@ -12589,6 +12593,10 @@ libsm:
     - 812899
 libsmbios:
   version: 2.3.0-1
+  issues:
+    - captures_build_path
+libsmdev:
+  version: 20160320-1
   issues:
     - captures_build_path
 libsmf:
@@ -20290,6 +20298,10 @@ r-cran-deoptimr:
   version: 1.0-6-1
   issues:
     - captures_build_path
+r-cran-desolve:
+  version: 1.13-1
+  issues:
+    - captures_build_path
 r-cran-diagnosismed:
   version: 0.2.3-4
   issues:
@@ -20517,6 +20529,10 @@ r-cran-lavaan:
     - captures_build_path
 r-cran-lhs:
   version: 0.10-1
+  issues:
+    - captures_build_path
+r-cran-logspline:
+  version: 2.1.9-1
   issues:
     - captures_build_path
 r-cran-lpsolve:
