@@ -576,6 +576,10 @@ apertium-es-gl:
   version: 1.0.8~r57542-2
   issues:
     - captures_build_path
+apertium-es-it:
+  version: 0.1.0~r51165-1
+  issues:
+    - captures_build_path
 apertium-kaz:
   version: 0.1.0~r61338-1
   comments: |
@@ -5886,6 +5890,10 @@ fnonlinear:
   version: 3010.78-2
   issues:
     - captures_build_path
+fnordmetric:
+  version: 0.1.0.20150502+gite736fba3-3
+  issues:
+    - captures_build_path
 fntsample:
   version: 3.2-6
   comments: |
@@ -8181,6 +8189,10 @@ grapefruit:
   version: 0.1~a3+dfsg-1
   bugs:
     - 788247
+graphicsmagick:
+  version: 1.3.24+hg20160808-1
+  issues:
+    - captures_build_path
 graphite-api:
   version: 1.1.3-1
   bugs:
@@ -10354,6 +10366,10 @@ kid3:
   version: 3.4.1-1
   issues:
     - captures_build_path
+kidentitymanagement:
+  version: 16.04.2-1
+  issues:
+    - captures_build_path
 kido:
   version: 0.1.0+dfsg-1
   bugs:
@@ -11689,6 +11705,10 @@ libfsntfs:
   version: 20160418-1
   issues:
     - captures_build_path
+libfvde:
+  version: 20160801-1
+  issues:
+    - captures_build_path
 libfwnt:
   version: 20160418-1
   issues:
@@ -12157,6 +12177,10 @@ libkf5libkdepim:
   version: 4:16.04.2-3
   issues:
     - captures_build_path
+libkf5libkleo:
+  version: 4:16.04.2-1
+  issues:
+    - captures_build_path
 libkf5mailcommon:
   version: 4:16.04.2-2
   issues:
@@ -12379,6 +12403,10 @@ libmpd:
     - captures_build_path
 libmpikmeans:
   version: 1.5+dfsg-5
+  issues:
+    - captures_build_path
+libmsiecf:
+  version: 20160813-1
   issues:
     - captures_build_path
 libmsn:
@@ -16137,6 +16165,10 @@ ocaml-atd:
   version: 1.1.2-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+ocaml-base64:
+  version: 2.0.0-1
+  issues:
+    - captures_build_path
 ocaml-batteries:
   version: 2.4-1
   issues:
@@ -20554,12 +20586,20 @@ r-bioc-deseq2:
   version: 1.12.3-1
   issues:
     - captures_build_path
+r-bioc-dnacopy:
+  version: 1.46.0-1
+  issues:
+    - captures_build_path
 r-bioc-ebseq:
   version: 1.12.0-1
   issues:
     - captures_build_path
 r-bioc-edger:
   version: 3.14.0+dfsg-1
+  issues:
+    - captures_build_path
+r-bioc-ensembldb:
+  version: 1.4.6-1
   issues:
     - captures_build_path
 r-bioc-genefilter:
@@ -20818,6 +20858,14 @@ r-cran-cubature:
   issues:
     - captures_build_path
     - randomness_in_r_rdb_rds_databases
+r-cran-curl:
+  version: 0.9.6-1
+  issues:
+    - captures_build_path
+r-cran-data.table:
+  version: 1.9.6-1
+  issues:
+    - captures_build_path
 r-cran-deal:
   version: 1:1.2-37-2
   issues:
@@ -20957,6 +21005,10 @@ r-cran-futile.logger:
     - captures_build_path
 r-cran-futile.options:
   version: 1.0.0-2
+  issues:
+    - captures_build_path
+r-cran-future:
+  version: 1.0.0-1
   issues:
     - captures_build_path
 r-cran-g.data:
@@ -21099,8 +21151,16 @@ r-cran-lavaan:
   issues:
     - captures_build_path
     - randomness_in_r_rdb_rds_databases
+r-cran-lazyeval:
+  version: 0.1.10-1
+  issues:
+    - captures_build_path
 r-cran-lhs:
   version: 0.10-1
+  issues:
+    - captures_build_path
+r-cran-listenv:
+  version: 0.6.0-1
   issues:
     - captures_build_path
 r-cran-logspline:
@@ -21286,6 +21346,10 @@ r-cran-numderiv:
     - randomness_in_r_rdb_rds_databases
 r-cran-nws:
   version: 2.0.0.3-4
+  issues:
+    - captures_build_path
+r-cran-openssl:
+  version: 0.9.4-1
   issues:
     - captures_build_path
 r-cran-optparse:
@@ -27636,6 +27700,10 @@ zbackup:
     - captures_build_path
 zbar:
   version: 0.10+doc-10
+  issues:
+    - captures_build_path
+zed:
+  version: 1.4-2
   issues:
     - captures_build_path
 zelig:
