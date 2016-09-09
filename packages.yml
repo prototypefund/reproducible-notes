@@ -543,6 +543,7 @@ apache2:
   version: 2.4.20-1
   issues:
     - captures_shell_variable_in_autofoo_script
+    - captures_build_path
 apache2-mod-xforward:
   version: 0.6-1
   issues:
@@ -721,6 +722,8 @@ aptsh:
     - 817350
 apvlv:
   version: 0.1.5+dfsg-1
+  issues:
+    - captures_build_path
   bugs:
     - 811839
 apwal:
@@ -1003,6 +1006,7 @@ asymptote:
   issues:
     - timestamps_in_png
     - timestamps_in_pdf_generated_by_latex
+    - captures_build_path
 async-http-client:
   version: 1.6.5-4
   issues:
@@ -1112,6 +1116,7 @@ augeas:
   version: 1.2.0-0.3
   issues:
     - random_order_in_documentation_generated_by_naturaldocs
+    - captures_build_path
 authbind:
   version: 2.1.1
   bugs:
@@ -1826,6 +1831,10 @@ boost1.58:
   version: 1.58.0+dfsg-5.1
   bugs:
     - 811651
+boost1.61:
+  version: 1.61.0+dfsg-2.1
+  issues:
+    - captures_build_path
 boot:
   version: 1.3-18-2
   issues:
@@ -2932,6 +2941,7 @@ coinor-cgl:
   version: 0.58.9-1
   issues:
     - random_order_in_static_libraries
+    - captures_build_path
 coinor-dylp:
   version: 1.6.0-1.1
   issues:
@@ -2948,6 +2958,7 @@ coinor-symphony:
   version: 5.6.1-1
   issues:
     - timestamps_in_tex_documents
+    - captures_build_path
 coinor-vol:
   version: 1.1.7-1
   issues:
@@ -3008,6 +3019,7 @@ colpack:
     Captures $PATH and a "Coloring Time:" value (possibly build duration?).
   issues:
     - captures_shell_variable_in_autofoo_script
+    - captures_build_path
   bugs:
     - 811843
 comedilib:
@@ -3514,6 +3526,8 @@ cxref:
   comments: |
     Includes tex documentation build log which has timestamps.
     Also unsorted list of defines in generated C++ file.
+  issues:
+    - captures_build_path
 cxxtest:
   version: 4.3-1
   issues:
@@ -3799,6 +3813,7 @@ dbus-python:
     the differing integers in the output don't look like timestamps
   issues:
     - randomness_in_documentation_generated_by_epydoc
+    - captures_build_path
 dbusada:
   version: 0.3-1
   issues:
@@ -4804,6 +4819,7 @@ eclipse-cdt-pkg-config:
   version: 1.0.0~git
   issues:
     - snapshot_placeholder_replaced_with_timestamp_in_pom_properties
+    - captures_build_path
 eclipse-egit:
   version: 3.7.0-1
   bugs:
@@ -5040,6 +5056,7 @@ emboss:
   issues:
     - different_encoding
     - captures_shell_variable_in_autofoo_script
+    - captures_build_path
 emma-coverage:
   version: 2.0.5312+dfsg-4
   issues:
@@ -5068,6 +5085,7 @@ enblend-enfuse:
   version: 4.1.4+dfsg-2
   issues:
     - pdf_created_by_ghostscript
+    - captures_build_path
 encfs:
   version: 1.8.1-3
   issues:
@@ -5173,10 +5191,12 @@ erlang-cl:
   version: 1.2.1-2
   issues:
     - timestamps_in_beam_files
+    - captures_build_path
 erlang-cowboy:
   version: 1.0.0+dfsg1-1
   issues:
     - timestamps_in_beam_files
+    - captures_build_path
 erlang-cowlib:
   version: 1.3.0-1
   issues:
@@ -5282,6 +5302,7 @@ erlang-proper:
   issues:
     - timestamps_in_documentation_generated_by_edoc
     - timestamps_in_beam_files
+    - captures_build_path
 erlang-ranch:
   version: 1.1.0-1
   issues:
@@ -5962,6 +5983,7 @@ fltk1.3:
   version: 1.3.2-6
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - captures_build_path
 fluidsynth:
   version: 1.1.6-3
   issues:
@@ -6552,6 +6574,8 @@ fusesmb:
     - 817465
 fuzzylite:
   version: 5.1+dfsg-3
+  issues:
+    - captures_build_path
   bugs:
     - 811880
 fvwm:
@@ -6633,6 +6657,7 @@ galax:
     /usr/share/doc/libgalax-ocaml-dev/config/Makefile.conf.gz
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - captures_build_path
 galera-3:
   version: 25.3.16-1
   bugs:
@@ -8017,6 +8042,8 @@ golang-github-tinylib-msgp:
   version: 1.0~beta-1
   comments: |
     Looks like its due to random variable numbers in generated code but these are actually deterministic due to golangs implicit rand.Seed(1) - I believe its some kind of arbitrary dict ordering instead
+  issues:
+    - captures_build_path
 golang-github-vbatts-tar-split:
   version: 0.9.13-1
   issues:
@@ -8193,6 +8220,7 @@ gprolog:
   version: 1.3.0-6.1
   issues:
     - pdf_created_by_ghostscript
+    - captures_build_path
 gpsbabel:
   version: 1.5.0-3
   issues:
@@ -8552,6 +8580,7 @@ gtools:
   version: 3.5.0-1
   issues:
     - randomness_in_r_rdb_rds_databases
+    - captures_build_path
 gtranslator:
   version: 2.91.6-1
   bugs:
@@ -9182,6 +9211,8 @@ idjc:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/idjc/0.8.15-1/Makefile.am/#L46
+  issues:
+    - captures_build_path
   bugs:
     - 831630
 idlastro:
@@ -9321,6 +9352,8 @@ infinipath-psm:
     Embeds the bild date.
     https://sources.debian.net/src/infinipath-psm/3.3%2B7.g05f6f14.open-1/ipath/Makefile/#L73
     https://sources.debian.net/src/infinipath-psm/3.3%2B7.g05f6f14.open-1/Makefile/#L273
+  issues:
+    - captures_build_path
   bugs:
     - 811940
 injeqt:
@@ -10055,6 +10088,7 @@ juman:
   version: 7.0-3.2
   issues:
     - timezones_manpages_podman
+    - captures_build_path
 junior-doc:
   version: 1.16.1
   issues:
@@ -12006,6 +12040,7 @@ libhdate:
   issues:
     - captures_shell_variable_in_autofoo_script
     - leaks_path_environment_variable
+    - captures_build_path
 libhdf4:
   version: 4.2.12-1
   issues:
@@ -12893,6 +12928,7 @@ librabbitmq:
     Use CMAKE_SYSTEM_NAME instead of CMAKE_SYSTEM (which includes the version).
   issues:
     - captures_kernel_version
+    - captures_build_path
 libranlip:
   version: 1.0-4.1
   issues:
@@ -13007,6 +13043,7 @@ libsdl-console:
   version: 2.1-4
   issues:
     - captures_shell_variable_in_autofoo_script
+    - captures_build_path
 libsdl2:
   version: 2.0.4+dfsg2-1
   issues:
@@ -13376,6 +13413,7 @@ libwebcam:
   version: 0.2.4-1.1
   issues:
     - timestamps_in_gzip_headers
+    - captures_build_path
   bugs:
     - 787999
 libwebsockets:
@@ -14140,6 +14178,8 @@ macsyfinder:
     Build date is also embedded in the PDF content.
 madlib:
   version: 1.3.0-2.1
+  issues:
+    - captures_build_path
   bugs:
     - 778946
 madness:
@@ -14290,6 +14330,7 @@ manderlbot:
   version: 0.9.2-19
   issues:
     - timestamps_in_beam_files
+    - captures_build_path
 mango-lassi:
   version: 001+dfsg-5
   issues:
@@ -14673,6 +14714,7 @@ mimetic:
   version: 0.9.8-4
   issues:
     - captures_shell_variable_in_autofoo_script
+    - captures_build_path
 mina2:
   version: 2.0.13-1
   issues:
@@ -14885,6 +14927,7 @@ mod-dnssd:
   version: 0.6-3.1
   issues:
     - lynx_dump_varies_output_with_locale
+    - captures_build_path
   bugs:
     - 828752
 mod-gnutls:
@@ -15176,6 +15219,7 @@ mpich:
   version: 3.1-5
   issues:
     - fonts_in_pdf_files
+    - captures_build_path
 mplayer:
   version: 2:1.3.0-3
   issues:
@@ -15485,6 +15529,7 @@ namazu2:
     Embeds the hostname into several files.
   issues:
     - user_hostname_manually_added_requiring_further_investigation
+    - captures_build_path
   bugs:
     - 815607
 nant:
@@ -16268,6 +16313,7 @@ o3dgc:
   version: 0~20131011-2
   issues:
     - random_order_in_static_libraries
+    - captures_build_path
 oaklisp:
   version: 1.3.6-2
   issues:
@@ -16749,6 +16795,8 @@ openal-soft:
     - captures_build_path
 openalpr:
   version: 2.2.4-1
+  issues:
+    - captures_build_path
   bugs:
     - 831118
 openarena-085-data:
@@ -17760,10 +17808,12 @@ pg-partman:
   version: 2.2.2-1
   issues:
     - postgres_9.5_transition
+    - captures_build_path
 pg-rage-terminator:
   version: 0.1.4-1
   issues:
     - postgres_9.5_transition
+    - captures_build_path
 pg-repack:
   version: 1.3.4-1
   issues:
@@ -17789,6 +17839,7 @@ pgextwlist:
   version: 1.3-3
   issues:
     - postgres_9.5_transition
+    - captures_build_path
 pgfincore:
   version: 1.1.2-3
   issues:
@@ -20307,6 +20358,7 @@ qdbm:
   version: 1.8.78-5
   issues:
     - timestamps_in_jar
+    - captures_build_path
 qdjango:
   version: 0.6.2-1
   bugs:
@@ -20632,6 +20684,7 @@ quantlib:
     - blacklisted_on_jenkins_armhf_only
     - captures_shell_variable_in_autofoo_script
     - captures_execution_time
+    - captures_build_path
 quantlib-swig:
   version: 1.8-2
   issues:
@@ -21925,6 +21978,7 @@ r-cran-teachingdemos:
   version: 2.9-1
   issues:
     - timestamps_in_description_files_generated_by_r-base-dev
+    - captures_build_path
 r-cran-tensor:
   version: 1.5-1
   issues:
@@ -21960,6 +22014,7 @@ r-cran-tm:
   version: 0.6-2-3
   issues:
     - randomness_in_r_rdb_rds_databases
+    - captures_build_path
 r-cran-treescape:
   version: 1.9.17-1
   issues:
@@ -22797,12 +22852,14 @@ rt-extension-customfieldsonupdate:
   version: 0.01-1
   issues:
     - timestamps_in_perllocal_pod_manpages_generated_by_perl_extutils_mm_unix
+    - captures_build_path
   bugs:
     - 835816
 rt-extension-spawnlinkedticketinqueue:
   version: 0.06-1
   issues:
     - timestamps_in_manpages_generated_by_perl_extutils_command_mm
+    - captures_build_path
 rtslib:
   version: 1:3.0~pre4.1~g1b33ceb-3
   issues:
@@ -23734,6 +23791,7 @@ senlin:
   version: 1.0.0-1
   issues:
     - random_order_in_python_environment_pickle
+    - captures_build_path
 sensible-utils:
   version: 0.0.9
   issues:
@@ -23942,6 +24000,10 @@ silly:
     - captures_build_path
   bugs:
     - 831152
+silo-llnl:
+  version: 4.10.2-6
+  issues:
+    - captures_build_path
 simba:
   version: 0.8.4-4.2
   bugs:
@@ -24810,6 +24872,7 @@ sumo:
     '<function <lambda> at 0x7f447ab28bf8>'
   issues:
     - randomness_in_documentation_generated_by_epydoc
+    - captures_build_path
 sundials:
   version: 2.5.0-3
   issues:
@@ -25007,6 +25070,7 @@ syncevolution:
   version: 1.4.99.4-3
   issues:
     - timestamps_in_manpages_generated_by_sphinx
+    - captures_build_path
   bugs:
     - 811624
 syncthing:
@@ -25470,6 +25534,8 @@ timingframework:
     - random_order_in_documentation_generated_by_javadoc
 tin:
   version: 1:2.3.2-1
+  issues:
+    - captures_build_path
   bugs:
     - 827731
 tint2:
@@ -25595,6 +25661,7 @@ tntnet:
   issues:
     - different_due_to_umask
     - leaks_path_environment_variable
+    - captures_build_path
 toilet:
   version: 0.3-1.1
   issues:
@@ -26243,6 +26310,7 @@ urweb:
   version: 20150214+dfsg-1
   issues:
     - fonts_in_pdf_files
+    - captures_build_path
   bugs:
     - 831088
 userv:
@@ -26969,6 +27037,7 @@ woo:
   version: 1.0-1
   issues:
     - blacklisted_on_jenkins_armhf_only
+    - captures_build_path
 wordgrinder:
   version: 0.5.1-1
   comments: |
