@@ -6384,6 +6384,7 @@ freebsd-libs:
   version: 10.1~svn273304-1
   issues:
     - locale_dependent_symbol_order_by_lorder
+    - random_order_in_static_libraries
 freecad:
   version: 0.16+dfsg2-1
   issues:
@@ -25646,6 +25647,8 @@ tk8.4:
     - 818755
 tk8.5:
   version: 8.5.19-1
+  issues:
+    - random_order_in_static_libraries
   bugs:
     - 818754
 tk8.6:
