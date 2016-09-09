@@ -308,11 +308,15 @@ alliance:
     - captures_build_path
 alljoyn-core-1504:
   version: 15.04b-5
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 825218
     - 831127
 alljoyn-core-1509:
   version: 15.09a-3
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 831091
 alljoyn-core-1604:
@@ -1214,6 +1218,7 @@ awesome:
     https://sources.debian.net/src/awesome/3.5.9-1/common/version.c/?hl=56#L56
   issues:
     - timestamps_in_documentation_generated_by_lua_ldoc
+    - user_hostname_manually_added_requiring_further_investigation
 aws-sdk-for-php:
   version: 0.93-4
   comments: |
@@ -1878,6 +1883,8 @@ botan1.10:
   version: 1.10.8-2
   comments: |
     Embed build time, username, hostname in /usr/include/botan-1.10/botan/build.h
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 834549
 botch:
@@ -2082,6 +2089,7 @@ bzflag:
   issues:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - user_hostname_manually_added_requiring_further_investigation
 bzr:
   version: 2.7.0-7
   comments: |
@@ -4761,6 +4769,7 @@ dynare:
     - captures_build_path
     - leaks_path_environment_variable
     - captures_shell_variable_in_autofoo_script
+    - user_hostname_manually_added_requiring_further_investigation
 e2fsprogs:
   version: 1.43.1-1
   issues:
@@ -5416,6 +5425,8 @@ evolution-data-server:
   version: 3.12.9~git20141128.5242b0-2
   comments: |
     Embeds the build username into documentation.
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
 evolvotron:
   version: 0.6.3-4
   comments: |
@@ -6622,6 +6633,8 @@ fvwm:
     Captures username:
       https://sources.debian.net/src/fvwm/1:2.6.5.ds-4.1/configure.ac/#L1700
       https://sources.debian.net/src/fvwm/1:2.6.5.ds-4.1/bin/fvwm-bug.in/#L89
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 831646
 fw4spl:
@@ -6696,6 +6709,7 @@ galax:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - captures_build_path
+    - user_hostname_manually_added_requiring_further_investigation
 galera-3:
   version: 25.3.16-1
   bugs:
@@ -7146,6 +7160,7 @@ geomview:
   issues:
     - timestamps_in_ps_generated_by_dvips
     - captures_shell_variable_in_autofoo_script
+    - user_hostname_manually_added_requiring_further_investigation
 gerbv:
   version: 2.6.0-1.1
   issues:
@@ -7198,6 +7213,7 @@ getfem++:
     https://sources.debian.net/src/getfem%2B%2B/4.2.1~beta1~svn4635~dfsg-3/configure.ac/#L753-L756
   issues:
     - captures_build_path
+    - user_hostname_manually_added_requiring_further_investigation
 getstream:
   version: 20081204-1.2
   issues:
@@ -13034,6 +13050,7 @@ librep:
   issues:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 834534
 libresample:
@@ -14242,6 +14259,7 @@ madlib:
   version: 1.3.0-2.1
   issues:
     - captures_build_path
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 778946
 madness:
@@ -14250,6 +14268,7 @@ madness:
     Captures environment in /usr/include/madness/config.h
   issues:
     - captures_build_path
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 818812
 madplay:
@@ -17072,6 +17091,7 @@ openldap:
     https://sources.debian.net/src/openldap/2.4.42%2Bdfsg-2/build/mkversion/?hl=75#L53
   issues:
     - captures_build_path
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 833179
 openload:
@@ -17707,6 +17727,8 @@ pd-fftease:
     - captures_build_path
 pd-flite:
   version: 0.02.3-1
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 834302
 pd-iemnet:
@@ -20315,6 +20337,7 @@ python-x2go:
   issues:
     - randomness_in_documentation_generated_by_epydoc
     - captures_home_dir
+    - user_hostname_manually_added_requiring_further_investigation
 python-xlrd:
   version: 0.9.2-1
   comments: |
@@ -24058,6 +24081,8 @@ sga:
     - 811664
 sgabios:
   version: 0.0~svn8-3
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 779135
 sgf2dg:
@@ -24708,6 +24733,7 @@ sphinxcontrib-programoutput:
   issues:
     - timestamps_in_python_version_numbers
     - randomness_in_documentation_generated_by_sphinx
+    - user_hostname_manually_added_requiring_further_investigation
 sphinxcontrib-youtube:
   version: 1.0-1
   issues:
@@ -24979,6 +25005,8 @@ stressapptest:
   comments: |
     Embed build timestamp, username and hostname:
     https://sources.debian.net/src/stressapptest/1.0.6-1/configure.ac/?hl=98:100#L98
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 831587
 stretchplayer:
@@ -27630,6 +27658,7 @@ xloadimage:
     https://sources.debian.net/src/xloadimage/4.1-23/build-info/
   issues:
     - captures_kernel_version
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 831743
 xlog:
@@ -27739,6 +27768,7 @@ xnee:
     - different_due_to_umask
     - timestamps_in_ps_generated_by_dvips
     - captures_shell_variable_in_autofoo_script
+    - user_hostname_manually_added_requiring_further_investigation
 xneur:
   version: 0.19.0-1
   bugs:
@@ -27766,6 +27796,7 @@ xorp:
   issues:
     - captures_kernel_version
     - captures_build_path
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 831429
     - 811943
