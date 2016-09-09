@@ -4456,6 +4456,8 @@ dnssec-trigger:
   comments: |
     Embeds the build date into manpage.
     https://sources.debian.net/src/dnssec-trigger/0.13~svn685-4/configure.ac/#L678
+  issues:
+    - captures_shell_variable_in_autofoo_script
   bugs:
     - 833818
 dnsval:
@@ -4758,6 +4760,7 @@ dynare:
     - timestamps_in_pdf_content
     - captures_build_path
     - leaks_path_environment_variable
+    - captures_shell_variable_in_autofoo_script
 e2fsprogs:
   version: 1.43.1-1
   issues:
@@ -7142,6 +7145,7 @@ geomview:
     https://sources.debian.net/src/geomview/1.9.5-1/src/bin/geomview/x11/Makefile.am/#L17-L21
   issues:
     - timestamps_in_ps_generated_by_dvips
+    - captures_shell_variable_in_autofoo_script
 gerbv:
   version: 2.6.0-1.1
   issues:
@@ -9255,6 +9259,7 @@ idjc:
     https://sources.debian.net/src/idjc/0.8.15-1/Makefile.am/#L46
   issues:
     - captures_build_path
+    - captures_shell_variable_in_autofoo_script
   bugs:
     - 831630
 idlastro:
@@ -11904,6 +11909,7 @@ libforms:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - randomness_in_html_generated_by_texi2html
+    - captures_shell_variable_in_autofoo_script
 libfreemarker-java:
   version: 2.3.23-5
   bugs:
@@ -24085,6 +24091,8 @@ sgt-puzzles:
     - 811577
 shadow:
   version: 1:4.2-3.1
+  issues:
+    - captures_shell_variable_in_autofoo_script
   bugs:
     - 817971
 shared-mime-info:
@@ -25860,6 +25868,7 @@ tntnet:
     - different_due_to_umask
     - leaks_path_environment_variable
     - captures_build_path
+    - captures_shell_variable_in_autofoo_script
 toilet:
   version: 0.3-1.1
   issues:
@@ -27729,6 +27738,7 @@ xnee:
     - timestamps_in_dvi_generated_by_latex
     - different_due_to_umask
     - timestamps_in_ps_generated_by_dvips
+    - captures_shell_variable_in_autofoo_script
 xneur:
   version: 0.19.0-1
   bugs:
