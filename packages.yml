@@ -6053,6 +6053,10 @@ fonts-arphic-bsmi00lp:
     https://sources.debian.net/src/fonts-arphic-bsmi00lp/2.10-14/fix-0uFE4F.pe/
   issues:
     - fontforge_resets_modification_time
+fonts-atarismall:
+  version: 2.2-1
+  issues:
+    - fontforge_resets_modification_time
 fonts-beteckna:
   version: 0.4-8
   issues:
@@ -6119,6 +6123,8 @@ fonts-isabella:
     - fontforge_resets_modification_time
 fonts-junicode:
   version: 0.7.8-2
+  issues:
+    - fontforge_resets_modification_time
   bugs:
     - 774275
 fonts-kacst-one:
