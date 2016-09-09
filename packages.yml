@@ -2441,6 +2441,7 @@ cffi:
     - timestamps_in_gzip_headers
     - timestamps_in_tarball
     - different_due_to_umask
+    - timestamps_in_ps_generated_by_dvips
 cfi:
   version: 3.0-10
   issues:
@@ -3528,6 +3529,7 @@ cxref:
     Also unsorted list of defines in generated C++ file.
   issues:
     - captures_build_path
+    - timestamps_in_ps_generated_by_dvips
 cxxtest:
   version: 4.3-1
   issues:
@@ -3935,6 +3937,8 @@ debian-faq:
     - timestamps_in_gzip_headers
 debian-history:
   version: 2.19
+  issues:
+    - timestamps_in_ps_generated_by_dvips
   bugs:
     - 778486
 debian-installer:
@@ -3981,6 +3985,7 @@ debian-zh-faq:
     Build date embedded in documentation.
   issues:
     - timestamps_in_gzip_headers
+    - timestamps_in_ps_generated_by_dvips
 debiandoc-sgml-doc:
   version: 1.1.24
   issues:
@@ -5484,6 +5489,7 @@ fai:
   version: 4.3.2
   issues:
     - different_due_to_umask
+    - timestamps_in_ps_generated_by_dvips
 fail2ban:
   version: 0.9.4-1
   bugs:
@@ -5715,6 +5721,7 @@ festival:
   version: 1:2.4~release-2
   issues:
     - timestamps_in_dvi_generated_by_latex
+    - timestamps_in_ps_generated_by_dvips
 festvox-czech-dita:
   version: 1.0.0-2
   bugs:
@@ -5739,6 +5746,7 @@ feynmf:
   version: 1.08-9
   issues:
     - timestamps_in_dvi_generated_by_latex
+    - timestamps_in_ps_generated_by_dvips
 ffc:
   version: 2016.1.0-1
   issues:
@@ -6463,6 +6471,7 @@ frobby:
   version: 0.9.0-2
   issues:
     - timestamps_in_pdf_content
+    - timestamps_in_ps_generated_by_dvips
 frog:
   version: 0.12.20-1
   bugs:
@@ -9017,6 +9026,7 @@ htmldoc:
   version: 1.8.27-8
   issues:
     - timestamps_in_documentation_generated_by_htmldoc
+    - timestamps_in_ps_generated_by_dvips
 htmlunit:
   version: 2.8-1
   bugs:
@@ -9457,6 +9467,8 @@ ippusbxd:
     - captures_build_path
 iproute2:
   version: 3.16.0-2
+  issues:
+    - timestamps_in_ps_generated_by_dvips
   bugs:
     - 783276
 ipsvd:
@@ -10095,6 +10107,7 @@ junior-doc:
   issues:
     - timestamps_in_gzip_headers
     - different_encoding
+    - timestamps_in_ps_generated_by_dvips
   bugs:
     - 792971
 junitperf:
@@ -10174,6 +10187,7 @@ kannel:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_dvi_generated_by_latex
+    - timestamps_in_ps_generated_by_dvips
   bugs:
     - 819915
 kannel-sqlbox:
@@ -14319,6 +14333,7 @@ malaga:
   issues:
     - timestamps_in_dvi_generated_by_latex
     - timestamps_in_pdf_generated_by_latex
+    - timestamps_in_ps_generated_by_dvips
 maliit-framework:
   version: 0.94.1-2
   issues:
@@ -15430,6 +15445,7 @@ muttprint:
   version: 0.73-5.1
   issues:
     - timestamps_in_png
+    - timestamps_in_ps_generated_by_dvips
   bugs:
     - 817591
 mvtnorm:
@@ -16135,6 +16151,8 @@ noweb:
   comments: |
     bug #788536 documents non-reproducibility based on the "icon"
     program in noweb's toolchain.
+  issues:
+    - timestamps_in_ps_generated_by_dvips
   bugs:
     - 788536
 npm:
@@ -25445,6 +25463,10 @@ texworks:
   version: 0.6.0-1
   issues:
     - unsorted_file_glob_by_cmake
+texworks-manual:
+  version: 20150506-2
+  issues:
+    - timestamps_in_ps_generated_by_dvips
 tf5:
   version: 5.0beta8-5
   comments: |
@@ -26322,6 +26344,7 @@ userv:
   version: 1.1.1
   issues:
     - timestamps_in_gzip_headers
+    - timestamps_in_ps_generated_by_dvips
 uswsusp:
   version: 1.0+20120915-6
   comments: |
@@ -27531,6 +27554,7 @@ xnee:
     - timestamps_in_png
     - timestamps_in_dvi_generated_by_latex
     - different_due_to_umask
+    - timestamps_in_ps_generated_by_dvips
 xneur:
   version: 0.19.0-1
   bugs:
@@ -27877,6 +27901,7 @@ yaws:
   issues:
     - timestamps_in_beam_files
     - captures_shell_variable_in_autofoo_script
+    - timestamps_in_ps_generated_by_dvips
 yaz:
   version: 4.2.30-4
   issues:
