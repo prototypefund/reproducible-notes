@@ -3809,6 +3809,7 @@ dbus-java:
     - random_order_in_documentation_generated_by_javadoc
     - locale_in_documentation_generated_by_javadoc
     - timestamps_from_tex4ht
+    - timestamps_in_ps_generated_by_dvips
 dbus-python:
   version: 1.2.0-2
   comments: |
@@ -3936,6 +3937,7 @@ debian-faq:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_gzip_headers
+    - timestamps_in_ps_generated_by_dvips
 debian-history:
   version: 2.19
   issues:
@@ -13058,6 +13060,7 @@ libsbml:
     - locale_in_documentation_generated_by_javadoc
     - blacklisted_on_jenkins_armhf_only
     - captures_build_path
+    - timestamps_in_ps_generated_by_dvips
 libscca:
   version: 20160108-1
   issues:
@@ -13979,6 +13982,7 @@ lout:
   issues:
     - collation_order_varies_by_locale
     - captures_build_path
+    - timestamps_in_ps_generated_by_dvips
 love:
   version: 0.9.1-3
   issues:
@@ -20358,6 +20362,8 @@ pyxplot:
   version: 0.9.2-5
   comments: |
     Output of ctime(time(NULL)) is written by src/epsMaker/canvasDraw.c:686
+  issues:
+    - timestamps_in_ps_generated_by_dvips
 pyyaml:
   version: 3.11-3
   issues:
@@ -23752,6 +23758,7 @@ sdcc:
   issues:
     - timestamps_in_pdf_generated_by_imagemagick
     - different_due_to_umask
+    - timestamps_in_ps_generated_by_dvips
 sdcv:
   version: 0.5.0~beta4-1
   issues:
@@ -24236,6 +24243,7 @@ slime:
     - timestamps_in_pdf_content
     - timestamp_in_info_file_created_by_makeinfo
     - captures_build_path
+    - timestamps_in_ps_generated_by_dvips
   bugs:
     - 826162
 slmon:
