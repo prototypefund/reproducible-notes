@@ -4543,6 +4543,10 @@ dolfin:
   issues:
     - diffoscope_runs_forever
     - unsorted_file_glob_by_cmake
+dolphin:
+  version: 4:16.04.2-2
+  bugs:
+    - 835752
 dolphin-emu:
   version: 5.0+dfsg-1
   issues:
@@ -28140,7 +28144,7 @@ yersinia:
   bugs:
     - 831404
 ygl:
-  version: !!str 4.2e-4
+  version: 4.2e-4
   issues:
     - captures_build_path
 yi:
