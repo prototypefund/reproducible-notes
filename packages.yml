@@ -1555,9 +1555,11 @@ bibletime:
   issues:
     - captures_build_path
 bibtex2html:
-  version: 1.98-1
+  version: 1.98-4
+  comments: |
+    Uses `\today' in manual.tex.
   issues:
-    - timestamps_manually_added_needs_further_investigation
+    - timestamps_in_tex_documents
 bibtool:
   version: 2.65+ds-1
   issues:
@@ -24106,9 +24108,10 @@ scantailor:
   issues:
     - captures_build_path
 scantool:
-  version: 1.21+dfsg-4
+  version: 1.21+dfsg-6
   issues:
-    - timestamps_manually_added_needs_further_investigation
+    - captures_build_path
+    - timestamps_in_allegro_dat_files
 scatterplot3d:
   version: 0.3-37-1
   issues:
