@@ -154,6 +154,7 @@ adasockets:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_ada_library_information_files
+    - user_hostname_manually_added_requiring_further_investigation
 adcli:
   version: 0.7.5-1
   issues:
@@ -996,6 +997,7 @@ asterisk:
     https://sources.debian.net/src/asterisk/1:13.1.0~dfsg-1/build_tools/make_build_h/
   issues:
     - captures_build_path
+    - user_hostname_manually_added_requiring_further_investigation
 asterisk-chan-capi:
   version: 1.1.6-1
   bugs:
@@ -1773,6 +1775,7 @@ blitz++:
   issues:
     - captures_kernel_version
     - captures_build_path
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 811923
 blktrace:
@@ -2371,6 +2374,8 @@ cctools:
     Embed build time, username, hostname, and kernel version:
     https://sources.debian.net/src/cctools/4.0-1/configure/?hl=43,45,46,1003#L43
     https://sources.debian.net/src/cctools/4.0-1/dttools/src/cctools.c/?hl=24#L24
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
 ccze:
   version: 0.2.1-2
   issues:
@@ -2859,6 +2864,7 @@ clisp:
     Captures the hostname.  (There may be further issues.)
   issues:
     - captures_build_path
+    - user_hostname_manually_added_requiring_further_investigation
 clitest:
   version: 0.0+git20150312.339b52-1
   issues:
@@ -11280,6 +11286,7 @@ lam:
     /usr/share/doc/lam4-dev/examples/main/wave1d/Makefile.gz.
   issues:
     - timestamps_in_gzip_headers
+    - user_hostname_manually_added_requiring_further_investigation
 lambda-term:
   version: 1.10-1
   issues:
@@ -16075,6 +16082,8 @@ netrek-client-cow:
     Patch for above could be https://gist.github.com/lamby/898110810c008f69d2f4c1ac052347d6/raw
     .
     but there is also a per-build generated key (!) in usr/share/games/netrek-client-cow/key.cow.linux
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
 netris:
   version: 0.52-10
   issues:
@@ -17330,6 +17339,7 @@ openmpi:
   issues:
     - timestamps_from_cpp_macros
     - unsorted_file_glob_by_cmake
+    - user_hostname_manually_added_requiring_further_investigation
 openms:
   version: 2.0.0-4
   comments: |
@@ -21159,6 +21169,7 @@ r-base:
   version: 3.1.2-2
   issues:
     - timestamps_in_gzip_headers
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 783130
 r-bioc-affy:
@@ -24848,6 +24859,7 @@ smlnj:
   version: 110.79-1
   issues:
     - captures_build_path
+    - user_hostname_manually_added_requiring_further_investigation
 smokegen:
   version: 4:4.14.3-1
   issues:
@@ -25117,6 +25129,10 @@ sphinxcontrib-youtube:
   version: 1.0-1
   issues:
     - timestamps_in_python_version_numbers
+sphinxsearch:
+  version: 2.2.9-1
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
 sphinxtrain:
   version: 1.0.8+5prealpha-4
   issues:
@@ -27054,6 +27070,10 @@ varnish-agent:
   bugs:
     - 725597
     - 724479
+vboot-utils:
+  version: 0~R52-8350.B-1
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
 vcr.py:
   version: 1.10.0-1
   issues:
@@ -27949,6 +27969,7 @@ xemacs21-packages:
   issues:
     - timestamps_in_gzip_headers
     - blacklisted_on_jenkins_armhf_only
+    - user_hostname_manually_added_requiring_further_investigation
 xen:
   version: 4.4.1-6
   comments: |
@@ -28024,6 +28045,10 @@ xhtmlrenderer:
   version: 0.0~R8+dfsg2-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+xindy:
+  version: 2.5.1.20160104-1
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
 xine-lib-1.2:
   version: 1.2.6-1.1
   issues:
@@ -28700,6 +28725,7 @@ zephyr:
   version: 3.1.2-1
   issues:
     - captures_build_path
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 828867
 zeroc-icee:
