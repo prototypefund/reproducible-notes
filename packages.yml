@@ -18780,6 +18780,10 @@ poppler-sharp:
   version: 0.0.3-4
   comments: |
     Unidentified variation in Mono executable.
+popplerkit.framework:
+  version: 0.0.20051227svn-7.1
+  issues:
+    - plist_weirdness
 portabase:
   version: 2.1+git20120910-1.1
   issues:
@@ -28567,7 +28571,7 @@ yersinia:
   bugs:
     - 831404
 ygl:
-  version: 0.00042
+  version: !!str 4.2e-4
   issues:
     - captures_build_path
 yi:
