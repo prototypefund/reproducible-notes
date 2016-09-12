@@ -499,6 +499,7 @@ ants:
   version: 2.1.0~rc2+git3-g9103999-4
   issues:
     - timestamps_in_manpages_generated_by_help2man
+    - diffoscope_runs_forever
 anytun:
   version: 0.3.5-1
   comments: |
@@ -842,6 +843,10 @@ array-info:
   version: 0.16-1
   issues:
     - captures_build_path
+arrayfire:
+  version: 3.3.2+dfsg1-4
+  issues:
+    - diffoscope_runs_forever
 as31:
   version: 2.3.1-6
   issues:
@@ -3210,6 +3215,7 @@ containerd:
   version: 0.2.1~ds1-1
   issues:
     - random_build_path_by_golang_compiler
+    - diffoscope_runs_forever
 convlit:
   version: 1.8-1
   issues:
@@ -6538,6 +6544,10 @@ freeipmi:
   version: 1.4.9-1
   bugs:
     - 794792
+freemat:
+  version: 4.2+dfsg1-1
+  issues:
+    - diffoscope_runs_forever
 freeorion:
   version: 0.4.5-1
   issues:
@@ -6924,6 +6934,7 @@ gazebo:
   issues:
     - blacklisted_on_jenkins_armhf_only
     - captures_build_path
+    - diffoscope_runs_forever
 gb:
   version: 0.4.2-1
   issues:
@@ -7935,6 +7946,8 @@ gnuchess-book:
     - 834670
 gnudatalanguage:
   version: 0.9.6v2-3
+  issues:
+    - diffoscope_runs_forever
   bugs:
     - 811918
 gnudoq:
@@ -8041,6 +8054,8 @@ goaccess:
     - 803893
 gobgp:
   version: 1.10-1
+  issues:
+    - diffoscope_runs_forever
   bugs:
     - 836805
 gocode:
@@ -14425,6 +14440,10 @@ lyskom-server:
   version: 2.1.2-13
   issues:
     - captures_build_path
+lyx:
+  version: 2.2.0-2
+  issues:
+    - diffoscope_runs_forever
 lzop:
   version: 1.03-4
   bugs:
@@ -14658,6 +14677,10 @@ maria:
   issues:
     - randomness_in_html_generated_by_texi2html
     - captures_build_path
+mariadb-10.0:
+  version: 10.0.27-1
+  issues:
+    - diffoscope_runs_forever
 mariadb-connector-c:
   version: 2.3.0-2
   issues:
@@ -19128,6 +19151,7 @@ psi4:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - blacklisted_on_jenkins_armhf_only
+    - diffoscope_runs_forever
 psicode:
   version: 3.4.0-6
   comments: |
@@ -28543,7 +28567,7 @@ yersinia:
   bugs:
     - 831404
 ygl:
-  version: 4.2e-4
+  version: 0.00042
   issues:
     - captures_build_path
 yi:
