@@ -18365,6 +18365,8 @@ phpdox:
   comments: |
     Prints the current year in version info, which lands in the manpage via help2man.
     https://sources.debian.net/src/phpdox/0.8.1.1-2/src/shared/Version.php/?hl=71#L71
+  issues:
+    - timestamps_in_manpages_generated_by_help2man
   bugs:
     - 835193
 phpldapadmin:
@@ -21184,6 +21186,7 @@ r-base:
     - timestamps_in_gzip_headers
     - user_hostname_manually_added_requiring_further_investigation
     - captures_shell_variable_in_autofoo_script
+    - timestamps_in_manpages_generated_by_help2man
   bugs:
     - 783130
 r-bioc-affy:
