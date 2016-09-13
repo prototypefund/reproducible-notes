@@ -25997,7 +25997,9 @@ splay:
   bugs:
     - 811765
 splint:
-  version: 3.1.2.dfsg1-2
+  version: 3.1.2.dfsg1-3
+  comments: |
+    Username/hostname/kernel version captured in LCL_COMPILE in configure(.ac) and configure.binary(.ac).
   issues:
     - captures_kernel_version
     - user_hostname_manually_added_requiring_further_investigation
