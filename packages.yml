@@ -516,6 +516,8 @@ anytun:
   comments: |
     Embed build time and hostname:
     https://sources.debian.net/src/anytun/0.3.5-1/src/configure/?hl=367:368,383#L367
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 811834
 aodh:
@@ -5538,6 +5540,7 @@ eurephia:
   issues:
     - captures_kernel_version
     - captures_build_path
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 831383
     - 831353
@@ -9473,6 +9476,7 @@ icinga2:
   version: 2.5.1-1
   issues:
     - captures_build_path
+    - user_hostname_manually_added_requiring_further_investigation
 icmptx:
   version: 0.2-1
   issues:
@@ -18490,6 +18494,7 @@ php7.0:
     This temporary filename leaks into debug information and causes a build id variation.
   issues:
     - captures_build_path
+    - user_hostname_manually_added_requiring_further_investigation
 phpab:
   version: 1.21.0-2
   comments: |
@@ -23247,6 +23252,7 @@ ripmime:
     https://sources.debian.net/src/ripmime/1.4.0.10.debian.1-1/generate-buildcodes.sh/
   issues:
     - captures_kernel_version
+    - user_hostname_manually_added_requiring_further_investigation
 rivet:
   version: 1.8.3-2
   issues:
@@ -24785,6 +24791,7 @@ silo-llnl:
   version: 4.10.2-6
   issues:
     - captures_build_path
+    - user_hostname_manually_added_requiring_further_investigation
 simba:
   version: 0.8.4-4.2
   bugs:
@@ -25426,6 +25433,7 @@ squeak-vm:
     VM_BUILD_STRING that includes the __DATE__ and __TIME__ macros.
   issues:
     - timestamps_from_cpp_macros
+    - user_hostname_manually_added_requiring_further_investigation
 squirrel3:
   version: 3.1-2
   issues:
@@ -26133,6 +26141,8 @@ tcpreen:
   comments: |
     Embeds the hostname:
     https://sources.debian.net/src/tcpreen/1.4.4-2/m4/hostname.m4/?hl=10#L10
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 831585
 tcpslice:
@@ -27190,6 +27200,10 @@ urweb:
     - captures_build_path
   bugs:
     - 831088
+user-mode-linux:
+  version: 4.7-1um-1
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
 userv:
   version: 1.1.1
   issues:
