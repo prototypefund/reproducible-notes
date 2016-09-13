@@ -3394,6 +3394,8 @@ crash:
   comments: |
     Embed build time, user, and groups:
     https://sources.debian.net/src/crash/7.0.8-1/configure.c/?hl=1183:1184#L1183
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 811604
 crawl:
