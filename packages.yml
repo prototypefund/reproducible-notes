@@ -28401,6 +28401,8 @@ xmlgraphics-commons:
   comments: |
     The build script adds a custom 'Build-Id' header including a
     timestamp, the hostname, etc. to MANIFEST.MF files.
+  issues:
+    - captures_kernel_version
   bugs:
     - 834744
 xmlrpc-c:
