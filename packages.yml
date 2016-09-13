@@ -2014,6 +2014,8 @@ bppphyview:
     - captures_build_path
 bppsuite:
   version: 0.8.0-1+build1
+  issues:
+    - captures_build_path
   bugs:
     - 708457
 brag:
@@ -7962,6 +7964,7 @@ gnat-gps:
   version: 5.3dfsg-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - captures_build_path
 gnat-mingw-w64:
   version: 15.1
   issues:
@@ -9887,6 +9890,8 @@ interchange:
     - captures_build_path
 inventor:
   version: 2.1.5-10-18
+  issues:
+    - captures_build_path
   bugs:
     - 811781
 iodine:
@@ -11496,6 +11501,8 @@ kxmlgui:
   comments: |
     Embeds the kernel version.
     https://sources.debian.net/src/kxmlgui/5.11.0-1/src/config-xmlgui.h.cmake/#L2
+  issues:
+    - captures_build_path
   bugs:
     - 835053
 kxstitch:
@@ -11714,6 +11721,7 @@ libabigail:
   version: 0.1~20150623-2
   issues:
     - timestamps_in_manpages_generated_by_sphinx
+    - captures_build_path
 libabw:
   version: 0.1.1-2
   bugs:
@@ -13549,14 +13557,14 @@ libraw:
   version: 0.17.2-4
   bugs:
     - 811744
-librcsb-core-wrapper:
-  version: 1.005-4
-  issues:
-    - random_order_in_static_libraries
 librcd:
   version: 0.1.13-3
   issues:
     - captures_build_path
+librcsb-core-wrapper:
+  version: 1.005-4
+  issues:
+    - random_order_in_static_libraries
 libreadline-java:
   version: 0.8.0.1+dfsg-4
   issues:
@@ -14162,6 +14170,7 @@ libxmlada:
   version: 4.4.2014-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - captures_build_path
 libxmlbird:
   version: 1.2.0-1
   bugs:
@@ -15107,6 +15116,7 @@ matplotlib:
   version: 1.5.0~rc2-1
   issues:
     - blacklisted_on_jenkins_armhf_only
+    - captures_build_path
   bugs:
     - 802776
 matroxset:
@@ -17039,6 +17049,8 @@ oar:
     - captures_build_path
 oasis:
   version: 0.4.4-2
+  issues:
+    - captures_build_path
   bugs:
     - 769272
 oasis3:
@@ -17950,6 +17962,10 @@ osdsh:
   version: 0.7.0-10.1
   bugs:
     - 817610
+osgearth:
+  version: 2.7.0+dfsg-2
+  issues:
+    - captures_build_path
 osgi-annotation:
   version: 6.0.0-1
   issues:
@@ -19971,6 +19987,8 @@ pyicu:
   comments: |
     Locates source files in readdir order, which will result in random linking order.
     https://sources.debian.net/src/pyicu/1.9.2-2/setup.py/#L109
+  issues:
+    - captures_build_path
   bugs:
     - 834553
 pyinfra:
@@ -21404,6 +21422,8 @@ qsapecng:
     - 834188
 qscintilla2:
   version: 2.9.2+dfsg-3
+  issues:
+    - captures_build_path
   bugs:
     - 811984
 qsf:
@@ -21605,6 +21625,7 @@ quagga:
   version: 0.99.24.1-2
   issues:
     - timestamps_in_pdf_generated_by_imagemagick
+    - captures_build_path
 quantlib:
   version: 1.4.1-1
   comments: |
@@ -25493,6 +25514,8 @@ sitemesh:
     - random_order_in_documentation_generated_by_javadoc
 sitplus:
   version: 1.0.3-5
+  issues:
+    - captures_build_path
   bugs:
     - 811795
 sivp:
@@ -25965,6 +25988,8 @@ splash:
     - timestamps_in_manpages_generated_by_help2man
 splat:
   version: 1.4.0-3
+  issues:
+    - captures_build_path
   bugs:
     - 811764
 splay:
