@@ -155,6 +155,7 @@ adasockets:
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_ada_library_information_files
     - user_hostname_manually_added_requiring_further_investigation
+    - captures_kernel_version
 adcli:
   version: 0.7.5-1
   issues:
@@ -998,6 +999,7 @@ asterisk:
   issues:
     - captures_build_path
     - user_hostname_manually_added_requiring_further_investigation
+    - captures_kernel_version
 asterisk-chan-capi:
   version: 1.1.6-1
   bugs:
@@ -2383,6 +2385,7 @@ cctools:
   issues:
     - user_hostname_manually_added_requiring_further_investigation
     - captures_home_dir
+    - captures_kernel_version
 ccze:
   version: 0.2.1-2
   issues:
@@ -3707,6 +3710,8 @@ dacs:
     Remaining-
     .
       https://sources.debian.net/src/dacs/1.4.28b-3/src/aclcheck.c/#L617
+  issues:
+    - captures_kernel_version
   bugs:
     - 835673
 dactyl:
@@ -4907,6 +4912,7 @@ ecl:
   issues:
     - captures_build_path
     - user_hostname_manually_added_requiring_further_investigation
+    - captures_kernel_version
 eclipse:
   version: 3.8.1-8
   comments: |
@@ -7296,6 +7302,7 @@ geomview:
     - timestamps_in_ps_generated_by_dvips
     - captures_shell_variable_in_autofoo_script
     - user_hostname_manually_added_requiring_further_investigation
+    - captures_kernel_version
 gerbv:
   version: 2.6.0-1.1
   issues:
@@ -11779,6 +11786,8 @@ libcec:
     https://sources.debian.net/src/libcec/2.2.0%2Bdfsg1-1/configure.ac/?hl=351:255#L351
     Can be removed by passing HAVE_DATE=no HAVE_WHOAMI=no HAVE_HOSTNAME=no HAVE_UNAME=no
     to ./configure but the binaries are also non-determinstic.
+  issues:
+    - captures_kernel_version
 libcereal:
   version: 1.1.2-4
   bugs:
@@ -15168,6 +15177,8 @@ mldemos:
     - 812032
 mldonkey:
   version: 3.1.5-3
+  issues:
+    - captures_kernel_version
   bugs:
     - 822432
 mlgmp:
@@ -18366,6 +18377,7 @@ php5:
     ./usr/share/doc/php5-common/test-results.txt.gz
   issues:
     - different_due_to_umask
+    - captures_kernel_version
 php7.0:
   version: 7.0.4-6
   comments: |
@@ -20692,6 +20704,7 @@ python2.7:
   issues:
     - randomness_in_fat_lto_objects
     - captures_build_path
+    - captures_kernel_version
 python3-stdlib-extensions:
   version: 3.5.1-1
   issues:
@@ -25185,6 +25198,7 @@ sphinxsearch:
   version: 2.2.9-1
   issues:
     - user_hostname_manually_added_requiring_further_investigation
+    - captures_kernel_version
 sphinxtrain:
   version: 1.0.8+5prealpha-4
   issues:
@@ -26541,6 +26555,8 @@ trilinos:
     - 815725
 trinityrnaseq:
   version: 2.2.0+dfsg-1
+  issues:
+    - captures_kernel_version
   bugs:
     - 831110
 triplane:
@@ -27589,6 +27605,7 @@ west-chamber:
     - different_due_to_umask
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - captures_kernel_version
 weston:
   version: 1.11.0-1
   issues:
