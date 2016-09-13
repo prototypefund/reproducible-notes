@@ -7269,6 +7269,7 @@ geoip:
     shell gets captured in /usr/share/doc/libgeoip-dev/examples/Makefile.gz
   issues:
     - captures_build_path
+    - captures_shell_variable_in_autofoo_script
   bugs:
     - 811767
 geomview:
@@ -11287,6 +11288,7 @@ lam:
   issues:
     - timestamps_in_gzip_headers
     - user_hostname_manually_added_requiring_further_investigation
+    - captures_shell_variable_in_autofoo_script
 lambda-term:
   version: 1.10-1
   issues:
@@ -21170,6 +21172,7 @@ r-base:
   issues:
     - timestamps_in_gzip_headers
     - user_hostname_manually_added_requiring_further_investigation
+    - captures_shell_variable_in_autofoo_script
   bugs:
     - 783130
 r-bioc-affy:
