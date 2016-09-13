@@ -70,6 +70,10 @@ acbuild:
     - random_build_path_by_golang_compiler
   bugs:
     - 830465
+access-modifier-checker:
+  version: 1.4-2
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 ace:
   version: 6.3.3+dfsg-1.1
   issues:
@@ -124,6 +128,10 @@ activemq:
     - random_order_in_documentation_generated_by_javadoc
     - timestamps_generated_by_xbean_spring
     - blacklisted_on_jenkins_armhf_only
+activemq-activeio:
+  version: 3.1.4-1
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 actor-framework:
   version: 0.13.2-3
   issues:
@@ -543,6 +551,10 @@ apache-log4j-extras1.2:
   version: 1.2.17-1
   issues:
     - different_encoding
+apache-log4j2:
+  version: 2.6.2-1
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 apache-mod-auth-ntlm-winbind:
   version: 0.0.0.lorikeet+svn+801-4
   issues:
@@ -2562,6 +2574,10 @@ cgit:
     Captures $HOME.
   issues:
     - captures_home_dir
+cglib:
+  version: 3.2.4-1
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 cgminer:
   version: 4.9.2-1
   bugs:
@@ -4666,6 +4682,7 @@ doxia-sitetools:
   version: 1.1.4-1
   issues:
     - random_order_in_plexus_comonents_xml
+    - random_order_in_documentation_generated_by_javadoc
 doxygen:
   version: 1.8.9.1-1
   issues:
@@ -12581,6 +12598,10 @@ libjsoncpp:
   version: 1.7.2-1
   issues:
     - captures_build_path
+libjsonp-java:
+  version: 1.0.4-1
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 libjsr305-java:
   version: 0.1~+svn49-4
   issues:
@@ -27473,6 +27494,7 @@ wagon:
   version: 1.0.0-5
   issues:
     - random_order_in_plexus_comonents_xml
+    - random_order_in_documentation_generated_by_javadoc
 wagon2:
   version: 2.7-1
   issues:
