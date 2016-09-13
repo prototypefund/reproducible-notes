@@ -3890,6 +3890,7 @@ dbusada:
   version: 0.3-1
   issues:
     - timestamps_in_documentation_generated_by_asciidoc
+    - random_order_in_static_libraries
   bugs:
     - 795983
 dbuskit:
@@ -7100,6 +7101,7 @@ gcl:
   issues:
     - timestamps_from_cpp_macros
     - different_due_to_umask
+    - random_order_in_static_libraries
 gco:
   version: 0.5.0-6.2
   bugs:
@@ -11297,6 +11299,7 @@ lam:
     - timestamps_in_gzip_headers
     - user_hostname_manually_added_requiring_further_investigation
     - captures_shell_variable_in_autofoo_script
+    - random_order_in_static_libraries
 lambda-term:
   version: 1.10-1
   issues:
@@ -11365,6 +11368,7 @@ lcgdm:
   version: 1.8.7-3.1
   issues:
     - timestamps_from_cpp_macros
+    - random_order_in_static_libraries
 lcov:
   version: 1.12-2
   issues:
@@ -11420,6 +11424,10 @@ lensfun:
   version: 0.3.2-3
   issues:
     - captures_build_path
+leveldb:
+  version: 1.19-1
+  issues:
+    - random_order_in_static_libraries
 lft:
   version: 2.2-4
   issues:
@@ -13231,6 +13239,10 @@ libraw:
   version: 0.17.2-4
   bugs:
     - 811744
+librcsb-core-wrapper:
+  version: 1.005-4
+  issues:
+    - random_order_in_static_libraries
 libreadline-java:
   version: 0.8.0.1+dfsg-4
   issues:
@@ -24893,6 +24905,7 @@ smlnj:
     - captures_build_path
     - user_hostname_manually_added_requiring_further_investigation
     - timestamps_in_ps_generated_by_dvips
+    - random_order_in_static_libraries
 smokegen:
   version: 4:4.14.3-1
   issues:
