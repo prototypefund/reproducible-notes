@@ -24890,6 +24890,7 @@ smlnj:
   issues:
     - captures_build_path
     - user_hostname_manually_added_requiring_further_investigation
+    - timestamps_in_ps_generated_by_dvips
 smokegen:
   version: 4:4.14.3-1
   issues:
@@ -25218,6 +25219,7 @@ spooles:
     Timestamps in postscript document.
   issues:
     - random_order_in_static_libraries
+    - timestamps_in_ps_generated_by_dvips
 spring:
   version: 100.0+dfsg-2
   issues:
