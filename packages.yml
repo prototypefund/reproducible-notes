@@ -802,6 +802,10 @@ arduino-mighty-1284p:
   version: 1-2
   comments: |
     The package passes all of dpkg-buildflags to avr-gcc, which doesn't support some of the options, e.g. -Wdate-time.
+args4j:
+  version: 2.33-1
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 argus:
   version: 2:3.0.8.1-2
   issues:
@@ -3163,6 +3167,7 @@ commons-vfs:
     Timestamp in Implementation-Build field in MANIFEST.MF.
   issues:
     - implementation_version_in_java_manifest_mf
+    - random_order_in_documentation_generated_by_javadoc
 comparelib:
   version: 113.00.00-1
   issues:
@@ -12424,6 +12429,8 @@ libheimdal-kadm5-perl:
     - captures_build_path
 libhibernate3-java:
   version: 3.6.10.Final-4
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
   bugs:
     - 829388
 libhmsbeagle:
@@ -18792,6 +18799,10 @@ pleiades:
     Generates a DSA signature during build
   bugs:
     - 835633
+plexus-compiler-1.0:
+  version: 1.9.2-6
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 plexus-i18n:
   version: 1.0-beta-10-3
   issues:
