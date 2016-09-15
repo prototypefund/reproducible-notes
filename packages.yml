@@ -1181,6 +1181,7 @@ autoconf:
   version: 2.69-8
   issues:
     - pdf_created_by_ghostscript
+    - timestamps_in_ps_generated_by_dvips
 autoconf2.59:
   version: 2.59+dfsg-0.1
   issues:
@@ -4157,6 +4158,7 @@ device-tree-compiler:
   version: 1.4.0+dfsg-2
   issues:
     - timestamps_in_pdf_content
+    - timestamps_in_ps_generated_by_dvips
 devio:
   version: 1.2-1.2
   issues:
@@ -7219,6 +7221,7 @@ gdb:
     - timestamps_in_dvi_generated_by_latex
     - diffoscope_runs_forever
     - captures_build_path
+    - timestamps_in_ps_generated_by_dvips
 gdb-mingw-w64:
   version: 10.2
   issues:
@@ -11522,6 +11525,7 @@ latex2html:
     - randomness_in_html_generated_by_texi2html
     - timezones_manpages_podman
     - captures_build_path
+    - timestamps_in_ps_generated_by_dvips
   bugs:
     - 827187
 latrace:
