@@ -1413,6 +1413,7 @@ basemap:
   version: 1.0.7+dfsg-1
   issues:
     - timestamps_in_documentation_generated_by_sphinx
+    - timestamps_in_pdf_generated_by_matplotlib
   bugs:
     - 790235
 bash:
@@ -19944,6 +19945,7 @@ pyregion:
   version: 1.1.4-2
   issues:
     - captures_build_path
+    - timestamps_in_pdf_generated_by_matplotlib
 pyrenamer:
   version: 0.6.0-1.2
   bugs:
@@ -20269,6 +20271,7 @@ python-dtcwt:
   version: 0.10.1+dfsg1-2
   issues:
     - timestamps_in_ps_generated_by_dvips
+    - timestamps_in_pdf_generated_by_matplotlib
 python-dugong:
   version: 3.5+dfsg-1
   issues:
@@ -25303,6 +25306,10 @@ sketch:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - captures_build_path
+skimage:
+  version: 0.12.3-1
+  issues:
+    - timestamps_in_pdf_generated_by_matplotlib
 skinedit:
   version: 1.27-2
   issues:
