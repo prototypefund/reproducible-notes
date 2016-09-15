@@ -6612,6 +6612,10 @@ freedv:
   version: 1.1-1
   issues:
     - captures_build_path
+freefem++:
+  version: 3.47+dfsg1-1
+  issues:
+    - captures_build_path
 freefem3d:
   version: 1.0pre10-3.2
   issues:
@@ -12586,6 +12590,10 @@ libinfinity:
   version: 0.6.7-1
   bugs:
     - 822432
+libinline-java-perl:
+  version: 0.58~dfsg-1
+  issues:
+    - captures_build_path
 libinnodb:
   version: 1.0.6.6750-1
   comments: |
@@ -19397,6 +19405,10 @@ prometheus-pushgateway:
   version: 0.2.0+ds-2
   issues:
     - ftbfs_uninvestigated_test_failures
+prometheus-varnish-exporter:
+  version: 1.0-2
+  issues:
+    - captures_build_path
 prooftree:
   version: 0.12-2
   issues:
