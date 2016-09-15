@@ -3105,6 +3105,7 @@ colpack:
   issues:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - leaks_path_environment_variable
   bugs:
     - 811843
 comedilib:
