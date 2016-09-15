@@ -355,6 +355,8 @@ alpine:
   comments: |
     Build timestamp is written in alpine binary:
     https://sources.debian.net/src/alpine/2.11%2Bdfsg1-3/alpine/Makefile.am/?hl=46:48#L46
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 791923
 alsa-lib:
@@ -4085,6 +4087,7 @@ debmake-doc:
     Dynamically includes generates directory listings with umask, etc.
   issues:
     - fonts_in_pdf_files
+    - user_hostname_manually_added_requiring_further_investigation
 debomatic:
   version: 0.21-1
   bugs:
@@ -4917,6 +4920,8 @@ echoping:
   comments: |
     Embeds build date and hostname.
     https://sources.debian.net/src/echoping/6.0.2-8/configure.ac/#L337-L338
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 834859
 ecj:
@@ -5465,6 +5470,8 @@ eso-midas:
   comments: |
     Timestamps in data files generated during build.
     Random order of elements in hlc files.
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
 espresso:
   version: 5.1+dfsg-3
   issues:
@@ -8613,6 +8620,7 @@ gradle:
   issues:
     - random_order_in_documentation_generated_by_javadoc
     - blacklisted_on_jenkins_armhf_only
+    - user_hostname_manually_added_requiring_further_investigation
 grafana:
   version: 2.6.0+dfsg-3
   bugs:
@@ -9079,6 +9087,7 @@ hardinfo:
     https://sources.debian.net/src/hardinfo/0.5.1-1.5/configure/#L189-L191
   issues:
     - captures_build_path
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 833379
 hashcash:
@@ -15301,6 +15310,8 @@ mira:
     There is work in this area but incomplete
     .
     https://sources.debian.net/src/mira/4.9.6-1/src/progs/Makefile.am/#L1
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
 mirage:
   version: 0.9.5.2-1
   issues:
@@ -17255,6 +17266,8 @@ omake:
   comments: |
     Some other strange non-determinism to be checked after #795784 and #796380
     are closed.
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 796380
 omega-rpg:
@@ -18580,6 +18593,7 @@ php5:
     - different_due_to_umask
     - captures_kernel_version
     - captures_build_path
+    - user_hostname_manually_added_requiring_further_investigation
 php7.0:
   version: 7.0.4-6
   comments: |
@@ -24596,6 +24610,7 @@ savi:
   version: 1.4.9-1
   issues:
     - captures_build_path
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 829717
 sawfish:
@@ -24619,6 +24634,7 @@ sbcl:
   version: 2:1.2.14-1
   issues:
     - pdf_created_by_ghostscript
+    - user_hostname_manually_added_requiring_further_investigation
 sbuild:
   version: 0.69.0-2
   comments: |
@@ -26990,6 +27006,7 @@ trafficserver:
   issues:
     - different_due_to_umask
     - captures_build_path
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 833176
 transcalc:
@@ -27260,6 +27277,7 @@ uanytun:
   version: 0.3.5-1
   issues:
     - captures_build_path
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 834227
 ubuntu-packaging-guide:
