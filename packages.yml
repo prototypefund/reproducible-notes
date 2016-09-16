@@ -457,6 +457,7 @@ android-platform-libcore:
   version: 6.0.1+r10-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+    - random_ordering_in_pom
 android-tools:
   version: 5.1.1.r29-2
   bugs:
@@ -8796,6 +8797,7 @@ gradle:
     - random_order_in_documentation_generated_by_javadoc
     - blacklisted_on_jenkins_armhf_only
     - user_hostname_manually_added_requiring_further_investigation
+    - random_ordering_in_pom
 grafana:
   version: 2.6.0+dfsg-3
   bugs:
