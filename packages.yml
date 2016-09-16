@@ -292,6 +292,10 @@ aj-snapshot:
   version: 0.9.6-2
   issues:
     - captures_build_path
+akonadi:
+  version: 4:16.04.3-2
+  issues:
+    - captures_build_path
 akonadi-googledata:
   version: 1.2.0-1
   issues:
@@ -4861,6 +4865,10 @@ dvdauthor:
   version: 0.7.0-1.4
   issues:
     - captures_build_path
+dvdisaster:
+  version: 0.72.4-1
+  issues:
+    - captures_build_path
 dvgrab:
   version: 3.5+git20160707.1.e46042e-1
   bugs:
@@ -5795,6 +5803,10 @@ fcitx-hangul:
     - captures_build_path
 fcitx-kkc:
   version: 0.1.2-1
+  issues:
+    - captures_build_path
+fcitx-libpinyin:
+  version: 0.3.3-2
   issues:
     - captures_build_path
 fcitx-m17n:
@@ -8375,6 +8387,10 @@ golang-github-hashicorp-raft-mdb:
   version: 0.0~git20150806.0.55f2947-1
   bugs:
     - 819640
+golang-github-hashicorp-serf:
+  version: 0.7.0~ds1-1
+  issues:
+    - captures_build_path
 golang-github-hashicorp-yamux:
   version: 0.0~git20150917.0.ddcd0a6-1
   issues:
@@ -9514,6 +9530,10 @@ hyperestraier:
   issues:
     - timestamps_in_jar
     - captures_build_path
+hyperic-sigar:
+  version: 1.6.4+dfsg-2.1
+  issues:
+    - captures_build_path
 hyperrogue:
   version: 4.2+dfsg-1
   bugs:
@@ -9845,6 +9865,10 @@ inventor:
     - captures_build_path
   bugs:
     - 811781
+invesalius:
+  version: 3.0.1-1
+  issues:
+    - captures_build_path
 iodine:
   version: 0.7.0-3
   bugs:
@@ -11049,6 +11073,10 @@ kiriki:
   version: 4:16.04.0-1
   bugs:
     - 835399
+kissplice:
+  version: 2.4.0-p1-1
+  issues:
+    - captures_build_path
 kitchen:
   version: 1.1.1-1
   bugs:
@@ -19418,12 +19446,20 @@ proll:
   version: 18-6
   bugs:
     - 810133
+prometheus-alertmanager:
+  version: 0.3.0+ds-2
+  issues:
+    - captures_build_path
 prometheus-mongodb-exporter:
   version: 0.0+git20160604.28251cc-1
   issues:
     - captures_build_path
 prometheus-mysqld-exporter:
   version: 0.8.1+ds-1
+  issues:
+    - captures_build_path
+prometheus-pushgateway:
+  version: 0.3.0+ds-2
   issues:
     - captures_build_path
 prometheus-varnish-exporter:
@@ -20877,6 +20913,10 @@ python-setproctitle:
   version: 1.1.8-1
   issues:
     - different_encoding
+python-sfml:
+  version: 2.2~git20150611.196c88+dfsg-3
+  issues:
+    - captures_build_path
 python-shapely:
   version: 1.5.15-2
   issues:
@@ -26081,6 +26121,10 @@ supercollider-sc3-plugins:
   version: 3.7.1~repack-1
   bugs:
     - 831078
+superlu:
+  version: 5.2.1+dfsg1-2
+  issues:
+    - captures_build_path
 supertransball2:
   version: 1.5-7
   bugs:
@@ -26963,6 +27007,10 @@ toulbar2:
   version: 0.9.8-1
   bugs:
     - 831148
+toxiproxy:
+  version: 2.0.0+dfsg1-3
+  issues:
+    - captures_build_path
 tpb:
   version: 0.6.4-8
   bugs:
@@ -27542,6 +27590,10 @@ utalk:
     - captures_build_path
 util-vserver:
   version: 0.30.216-pre3120-1.1
+  issues:
+    - captures_build_path
+utop:
+  version: 1.19.3-1
   issues:
     - captures_build_path
 utopia-documents:
