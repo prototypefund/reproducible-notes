@@ -34,6 +34,7 @@ a2ps:
     Also a timestamp in /usr/share/a2ps/README
   issues:
     - different_encoding
+    - timestamps_in_manpages_generated_by_help2man
 aac-tactics:
   version: 0.4-5
   bugs:
@@ -8223,6 +8224,7 @@ gnu-smalltalk:
   issues:
     - captures_build_path
     - different_due_to_umask
+    - timestamps_in_manpages_generated_by_help2man
 gnu-standards:
   version: 2010.03.11-1
   issues:
@@ -15357,6 +15359,7 @@ megaglest:
   version: 3.12.0-2
   issues:
     - captures_build_path
+    - timestamps_in_manpages_generated_by_help2man
 meliae:
   version: 0.4.0+bzr199-1
   issues:
@@ -19004,6 +19007,8 @@ phpab:
   comments: |
     Prints the current year in version info, which lands in the manpage via help2man.
     https://sources.debian.net/src/phpab/1.21.0-2/src/Version.php/#L61
+  issues:
+    - timestamps_in_manpages_generated_by_help2man
   bugs:
     - 834754
 phpdox:
@@ -25955,6 +25960,7 @@ sollya:
   version: 5.0+ds-3
   issues:
     - different_encoding
+    - timestamps_in_manpages_generated_by_help2man
 solvespace:
   version: 2.1+repack2-1
   issues:
