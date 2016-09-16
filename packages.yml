@@ -702,6 +702,10 @@ apron:
   version: 0.9.10-9
   issues:
     - captures_home_dir
+apscheduler:
+  version: 3.0.5-1
+  bugs:
+    - 835237
 apt:
   version: 1.3~rc2
   issues:
@@ -2216,6 +2220,10 @@ cairo-ocaml:
   version: 1:1.2.0-5.1
   issues:
     - captures_build_path
+cairocffi:
+  version: 0.7.2-1
+  bugs:
+    - 828929
 cairodevice:
   version: 2.23-2
   issues:
@@ -3777,6 +3785,10 @@ dasher:
   version: 4.11+git20130508.adc653-2
   bugs:
     - 811640
+datalad:
+  version: 0.2.3-1
+  bugs:
+    - 835525
 datanommer.commands:
   version: 0.4.6-2
   bugs:
@@ -4563,6 +4575,10 @@ dochelp:
   version: 0.1.3
   issues:
     - captures_build_path
+docker-swarm:
+  version: 1.0.1+dfsg-1
+  bugs:
+    - 832849
 docker.io:
   version: 1.6.2~dfsg1-2
   issues:
@@ -7151,6 +7167,10 @@ gcpegg:
   version: 5.1-13
   bugs:
     - 777416
+gcr:
+  version: 3.20.0-2
+  bugs:
+    - 835737
 gcx:
   version: 1.3-1.1
   issues:
@@ -7537,6 +7557,10 @@ git:
     - different_due_to_umask
   bugs:
     - 813912
+git-build-recipe:
+  version: 0.3.2
+  bugs:
+    - 835526
 git-buildpackage:
   version: 0.6.22
   issues:
@@ -8206,6 +8230,14 @@ golang-github-coreos-go-oidc:
   version: 0.0~git20151022.0.e9c0807-1
   bugs:
     - 830366
+golang-github-digitalocean-godo:
+  version: 0.9.0-1
+  bugs:
+    - 835748
+golang-github-docker-go:
+  version: 0.0~git20160303.0.d30aec9-1
+  bugs:
+    - 835715
 golang-github-docker-libnetwork:
   version: 0.7.0~rc.6+dfsg-1
   bugs:
@@ -8242,6 +8274,10 @@ golang-github-jacobsa-ratelimit:
   version: 0.0~git20150723.0.2ca5e0c-1
   bugs:
     - 796400
+golang-github-jfrazelle-go:
+  version: 0.0~git20150906.0.a8e3e21-1
+  bugs:
+    - 835779
 golang-github-jinzhu-gorm:
   version: 0.0~git20151012.0.20e37a0-1
   bugs:
@@ -11893,6 +11929,10 @@ libconfig-model-dpkg-perl:
   version: 2.082
   bugs:
     - 834911
+libconfig-model-itself-perl:
+  version: 2.005-1
+  bugs:
+    - 837682
 libcorelinux:
   version: 0.4.32-7.4
   bugs:
@@ -13644,6 +13684,10 @@ libunique:
   version: 1.1.6-5
   bugs:
     - 822432
+libur-perl:
+  version: 0.440-3
+  bugs:
+    - 834914
 liburcu:
   version: 0.9.1-3
   issues:
@@ -13692,6 +13736,10 @@ libvistaio:
   version: 1.2.19-1
   issues:
     - captures_build_path
+libvitacilina-perl:
+  version: 0.2-1
+  bugs:
+    - 834961
 libvmdk:
   version: 20160119-3
   issues:
@@ -13898,6 +13946,10 @@ lice5:
   version: 1:5.2.7-1
   bugs:
     - 817565
+license-reconcile:
+  version: 0.11
+  bugs:
+    - 832840
 liece:
   version: 2.0+0.20030527cvs-11.2
   issues:
@@ -14695,6 +14747,10 @@ mapserver:
   version: 7.0.1-3
   issues:
     - captures_build_path
+marble:
+  version: 4:16.04.1-3
+  bugs:
+    - 835766
 maria:
   version: 1.3.5-4
   issues:
@@ -14731,6 +14787,10 @@ matchit:
   issues:
     - captures_build_path
     - randomness_in_r_rdb_rds_databases
+mate-applets:
+  version: 1.14.1-1
+  bugs:
+    - 837005
 mate-indicator-applet:
   version: 1.14.1-1
   bugs:
@@ -16336,6 +16396,10 @@ node-contextify:
   version: 0.1.6-1
   bugs:
     - 802101
+node-iconv:
+  version: 2.1.11-1
+  bugs:
+    - 837285
 node-mocha:
   version: 1.20.1-2
   comments: |
@@ -16979,6 +17043,10 @@ odil:
   version: 0.7.0-2
   issues:
     - captures_build_path
+odin:
+  version: 2.0.2-0.3
+  bugs:
+    - 835746
 odot:
   version: 1.2.0-1
   bugs:
@@ -19709,6 +19777,10 @@ pytango:
   version: 8.1.5-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
+pytest-mock:
+  version: 1.1-1
+  bugs:
+    - 835241
 pythia8:
   version: 8.1.86-1.1
   issues:
@@ -20449,6 +20521,10 @@ python-prctl:
   version: 1.1.1-1.2
   issues:
     - captures_build_path
+python-protobuf.socketrpc:
+  version: 1.3.2-3
+  bugs:
+    - 835694
 python-pyalsa:
   version: 1.0.29-1
   issues:
@@ -20537,6 +20613,10 @@ python-repoze.tm2:
   version: 2.0-1
   bugs:
     - 788507
+python-riemann-client:
+  version: 6.3.0-1
+  bugs:
+    - 835688
 python-rtslib-fb:
   version: 2.1.57+debian-3
   issues:
@@ -23739,6 +23819,10 @@ ruby-devise-two-factor:
   version: 2.0.0-1
   bugs:
     - 828169
+ruby-diaspora-vines:
+  version: 0.2.0.develop.4-2
+  bugs:
+    - 834962
 ruby-eb:
   version: 2.6-3
   issues:
@@ -23812,6 +23896,10 @@ ruby-github-markdown:
   version: 0.6.9-2
   issues:
     - captures_build_path
+ruby-gitlab-emoji:
+  version: 0.3.1-2
+  bugs:
+    - 836437
 ruby-god:
   version: 0.13.7-1
   issues:
@@ -26319,6 +26407,10 @@ the:
   bugs:
     - 777370
     - 793728
+theano:
+  version: 0.8.2-3
+  bugs:
+    - 835531
 thepeg:
   version: 1.8.0-1
   bugs:
