@@ -4101,6 +4101,7 @@ debmake-doc:
     - fonts_in_pdf_files
     - user_hostname_manually_added_requiring_further_investigation
     - different_pot_creation_date_in_gettext_mo_files
+    - different_due_to_umask
 debomatic:
   version: 0.21-1
   bugs:
@@ -7240,6 +7241,7 @@ gdb:
     - diffoscope_runs_forever
     - captures_build_path
     - timestamps_in_ps_generated_by_dvips
+    - different_due_to_umask
 gdb-mingw-w64:
   version: 10.2
   issues:
@@ -8065,6 +8067,7 @@ gnu-smalltalk:
   version: 3.2.5-1
   issues:
     - captures_build_path
+    - different_due_to_umask
 gnu-standards:
   version: 2010.03.11-1
   issues:
@@ -27869,6 +27872,7 @@ vlc:
   version: 2.2.0~rc1-1
   issues:
     - timestamps_from_cpp_macros
+    - different_due_to_umask
 vlfeat:
   version: 0.9.20+dfsg0-1
   issues:
