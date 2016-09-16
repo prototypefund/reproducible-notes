@@ -462,6 +462,10 @@ anet:
   version: 0.3.1-1
   comments: |
     Random order of object files in static library produced by gnatmake.
+angband:
+  version: 1:3.5.1-2.1
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 animals:
   version: 201207131226-1
   issues:
@@ -1254,6 +1258,10 @@ avr-libc:
     - different_due_to_umask
     - different_encoding
     - fonts_in_pdf_files
+avrdude:
+  version: 6.3-1
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 aweather:
   version: 0.8.1-1
   bugs:
@@ -1508,6 +1516,10 @@ beanbag:
   version: 1.9.2-1
   bugs:
     - 804357
+beast-mcmc:
+  version: 1.8.4+dfsg.1-1
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 beav:
   version: 1:1.40-18
   issues:
@@ -1780,6 +1792,10 @@ bless:
     - captures_shell_variable_in_autofoo_script
   bugs:
     - 820740
+bliss:
+  version: 0.73-1
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 blitz++:
   version: 1:0.10-3.2
   comments: |
@@ -2349,6 +2365,10 @@ casacore:
   version: 2.1.0-1
   bugs:
     - 831077
+cassbeam:
+  version: 1.1-1
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 cassiopee:
   version: 1.0.4+dfsg-1
   issues:
@@ -2379,6 +2399,10 @@ ccd2iso:
   version: 0.3-4
   issues:
     - captures_build_path
+ccfits:
+  version: 2.4+dfsg-5
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 cclib:
   version: 1.3.1-1
   issues:
@@ -2425,6 +2449,10 @@ cdcover:
   version: 0.9.1-11
   issues:
     - captures_build_path
+cddlib:
+  version: 094h-1
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 cde:
   version: 0.1+git9-g551e54d-1
   issues:
@@ -2772,6 +2800,10 @@ ckeditor:
   version: 4.5.7+dfsg-2
   issues:
     - copyright_year_in_comments_generated_by_ckbuilder
+cl-asdf:
+  version: 2:3.1.7-1
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 cl-babel:
   version: 0.3.0+20091229-1
   bugs:
@@ -2857,6 +2889,10 @@ clhep:
     - captures_build_path
   bugs:
     - 794398
+cli-common:
+  version: 0.9+nmu1
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 clif:
   version: 0.93-9.1
   issues:
@@ -3018,6 +3054,10 @@ coinor-cgl:
   issues:
     - random_order_in_static_libraries
     - captures_build_path
+coinor-csdp:
+  version: 6.1.1-1
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 coinor-dylp:
   version: 1.6.0-1.1
   issues:
@@ -3463,6 +3503,10 @@ cssutils:
   version: 1.0-4
   bugs:
     - 798023
+csync2:
+  version: 2.0-8-g175a01c-2
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 ctfutils:
   version: 10.3~svn297264-2
   issues:
@@ -3548,6 +3592,10 @@ cvm:
     - random_order_in_md5sums
   bugs:
     - 813944
+cvs:
+  version: 2:1.12.13+real-15
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 cvs-autoreleasedeb:
   version: 0.12-1
   bugs:
@@ -4781,6 +4829,10 @@ dune-functions:
   version: 2.4~20160507g3dd041d-1
   issues:
     - captures_build_path
+dune-istl:
+  version: 2.4.1-1
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 dune-localfunctions:
   version: 2.4.0-1
   issues:
@@ -6455,6 +6507,10 @@ forkstat:
     https://sources.debian.net/src/forkstat/0.01.11-1/debian/rules/#L4
   bugs:
     - 833439
+form:
+  version: 4.1-1
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 fortunes-br:
   version: 20080530
   bugs:
@@ -6578,6 +6634,10 @@ freedv:
   version: 1.1-1
   issues:
     - captures_build_path
+freefem:
+  version: 3.5.8-5.1
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 freefem++:
   version: 3.47+dfsg1-1
   issues:
@@ -6934,19 +6994,63 @@ gap:
   version: 4r8p4-1
   issues:
     - captures_build_path
+gap-alnuth:
+  version: 3.0.0-4
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
+gap-atlasrep:
+  version: 1.5.1-1
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 gap-autpgrp:
   version: 1.5-2
   issues:
     - fonts_in_pdf_files
+gap-ctbllib:
+  version: 1r2p2.dfsg.0-3
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
+gap-float:
+  version: 0.6.3+ds-3
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 gap-gapdoc:
   version: 1.5.1-2
   issues:
     - timestamps_in_gzip_headers
     - timestamps_in_pdf_generated_by_latex
+gap-grape:
+  version: 4r7+ds-3
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
+gap-guava:
+  version: 3.13+ds-1
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
+gap-io:
+  version: 4.4.6+ds-2
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
+gap-openmath:
+  version: 11.3.1+ds-2
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
+gap-polycyclic:
+  version: 2.11-3
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
+gap-radiroot:
+  version: 2.7-2
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 gap-scscp:
   version: 2.1.4+ds-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+gap-tomlib:
+  version: 1r2p5-2
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 garcon:
   version: 0.4.0-2
   comments: |
@@ -7594,6 +7698,10 @@ gitlab-workhorse:
   version: 0.7.2-1
   issues:
     - captures_build_path
+gitmagic:
+  version: 20160304-1
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 gitpkg:
   version: 0.28
   bugs:
@@ -7822,6 +7930,7 @@ gmt:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - captures_build_path
+    - random_id_in_pdf_generated_by_dblatex
 gmt-tutorial:
   version: 3.4-1.1
   bugs:
@@ -8095,6 +8204,10 @@ gnuplot:
   issues:
     - timestamps_in_ps_generated_by_dvips
     - pdf_created_by_ghostscript
+gnuplot-mode:
+  version: 1:0.7.0-1
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 gnuradio:
   version: 3.7.10.1-1
   issues:
@@ -8419,6 +8532,10 @@ goplay:
   version: 0.9.1
   issues:
     - timestamps_in_documentation_generated_with_libwibble
+gorm.app:
+  version: 1.2.20-2
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 gosu:
   version: 1.6-1
   issues:
@@ -8591,6 +8708,10 @@ graphite-api:
   version: 1.1.3-1
   bugs:
     - 828715
+graphite2:
+  version: 1.3.8-1
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 graphviz:
   version: 2.38.0-7
   issues:
@@ -8999,6 +9120,10 @@ hamlib:
   version: 3.0.1-1
   issues:
     - captures_build_path
+hamradio-maintguide:
+  version: 0.3
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 handbrake:
   version: 0.10.2+ds1-1
   comments: |
@@ -9628,6 +9753,10 @@ imms:
   version: 3.1.0~svn301-3.2
   bugs:
     - 831101
+impressive:
+  version: 0.11.1-1
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 imview-doc:
   version: 1.0.1-3
   bugs:
@@ -10081,6 +10210,10 @@ java-gnome:
   version: 4.1.3-4
   issues:
     - locale_in_documentation_generated_by_javadoc
+java-imaging-utilities:
+  version: 0.14.3-2
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 java-policy:
   version: 0.55
   issues:
@@ -10224,6 +10357,10 @@ jmagick:
   issues:
     - timestamps_in_documentation_generated_by_javadoc
     - locale_in_documentation_generated_by_javadoc
+jmodeltest:
+  version: 2.1.10+dfsg-3
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 jmol:
   version: 12.2.32+dfsg2-1
   issues:
@@ -10358,6 +10495,10 @@ jtharness:
   version: 4.6-1
   issues:
     - captures_build_path
+jthread:
+  version: 1.3.1-3
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 jtidy:
   version: 7+svn20110807-4
   issues:
@@ -10880,6 +11021,10 @@ kimwitu++:
   version: 2.3.13-2
   issues:
     - pdf_created_by_ghostscript
+kimwitu-doc:
+  version: 10a+1-2.2
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 king:
   version: 2.21.120420+dfsg-1
   issues:
@@ -11149,6 +11294,10 @@ kraptor:
   version: 0.0.20040403-9
   bugs:
     - 826423
+krb5:
+  version: 1.14.3+dfsg-2
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 krb5-auth-dialog:
   version: 3.20.0-1
   issues:
@@ -11419,6 +11568,14 @@ latex-cjk-chinese-arphic:
   version: 1.23
   comments: |
     Build time is embedded in comments in files generated by FontForge.
+latex-coffee-stains:
+  version: 4-5
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
+latex-make:
+  version: 2.2.2-1
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 latex-mk:
   version: 2.1-1.3
   bugs:
@@ -11436,6 +11593,14 @@ latex2html:
     - timestamps_in_ps_generated_by_dvips
   bugs:
     - 827187
+latex2rtf:
+  version: 2.3.10-1
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
+latexdiff:
+  version: 1.1.1-2
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 latrace:
   version: 0.5.11-1
   issues:
@@ -11950,6 +12115,10 @@ libcoyotl:
     - leaks_path_environment_variable
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+libcrcutil:
+  version: 1.0-4
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 libcrypt-des-ede3-perl:
   version: 0.01-1.1
   bugs:
@@ -12014,6 +12183,10 @@ libdc0:
     https://sources.debian.net/src/libdc0/0.3.24~svn3121-2/configure.in/#L215
   bugs:
     - 834452
+libdc1394-22:
+  version: 2.2.4-1
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 libdebian-installer:
   version: 0.107
   issues:
@@ -12828,6 +13001,10 @@ libmath-gsl-perl:
   version: 0.36-2
   bugs:
     - 826192
+libmatio:
+  version: 1.5.8-1
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 libmcrypt:
   version: 2.5.8-3.3
   issues:
@@ -13283,6 +13460,10 @@ libraw:
   version: 0.17.2-4
   bugs:
     - 811744
+libraw1394:
+  version: 2.1.2-1
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 librcd:
   version: 0.1.13-3
   issues:
@@ -15595,6 +15776,14 @@ mpdcon.app:
   version: 1.1.99-5
   issues:
     - captures_home_dir
+mpfi:
+  version: 1.5.1+ds-4
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
+mpfr4:
+  version: 3.1.4-2
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 mpg321:
   version: 0.3.2-1.1
   issues:
@@ -16867,6 +17056,10 @@ ocaml-lo:
   version: 0.1.0-1
   issues:
     - captures_build_path
+ocaml-melt:
+  version: 1.4.0-1
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 ocaml-mm:
   version: 0.2.1-2
   issues:
@@ -17027,6 +17220,10 @@ octave-communications:
   issues:
     - pdf_created_by_ghostscript
     - captures_build_path
+octave-ocs:
+  version: 0.1.5-2
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 octomap:
   version: 1.8.0+dfsg-2
   issues:
@@ -17420,6 +17617,10 @@ openlp:
   version: 2.2.1-1
   bugs:
     - 784614
+openmama:
+  version: 2.2.2.1-11
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 openmcdf:
   version: 1.5.4-1
   issues:
@@ -17471,6 +17672,10 @@ openscenegraph:
   version: 3.2.3+dfsg1-2
   issues:
     - diffoscope_runs_forever
+opensp:
+  version: 1.5.2-13
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 openssl:
   version: 1.0.2h-1
   issues:
@@ -17769,6 +17974,10 @@ packagekit-qt:
   version: 0.9.5-3
   issues:
     - captures_build_path
+packaging-tutorial:
+  version: 0.15
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 packer:
   version: 0.10.1+dfsg-1
   issues:
@@ -18236,6 +18445,10 @@ permute:
   issues:
     - captures_build_path
     - randomness_in_r_rdb_rds_databases
+pescetti:
+  version: 0.5-1
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 pesign:
   version: 0.112-3
   bugs:
@@ -19149,6 +19362,10 @@ primer3:
   version: 2.3.7-2
   issues:
     - captures_build_path
+primesieve:
+  version: 5.7.1+ds-1
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 primrose:
   version: 6+dfsg1-3
   bugs:
@@ -19165,6 +19382,10 @@ privbind:
   version: 1.2-1.1
   issues:
     - captures_build_path
+probabel:
+  version: 0.4.5-3
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 procps:
   version: 2:3.3.11-3
   bugs:
@@ -19209,6 +19430,10 @@ prometheus-varnish-exporter:
   version: 1.0-2
   issues:
     - captures_build_path
+proofgeneral:
+  version: 4.3~pre131011-0.2
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 prooftree:
   version: 0.12-2
   issues:
@@ -20804,6 +21029,10 @@ pywebkitgtk:
   version: 1.1.8-3.1
   bugs:
     - 790218
+pyx:
+  version: 0.12.1-6
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 pyx3:
   version: 0.13-1
   comments: |
@@ -23627,6 +23856,10 @@ rplay:
   version: 3.3.2-16
   issues:
     - captures_build_path
+rpy:
+  version: 1.0.3-30
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 rquantlib:
   version: 0.4.2-2
   issues:
@@ -23710,6 +23943,10 @@ ruamel.yaml:
   version: 0.11.14-1
   issues:
     - captures_build_path
+rubber:
+  version: 1.4-2
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 ruby-allocations:
   version: 1.0.3-1
   issues:
@@ -24558,6 +24795,10 @@ scribus:
   version: 1.4.6+dfsg-3
   issues:
     - captures_build_path
+scscp-imcce:
+  version: 1.0.2+ds-2
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 scsitools:
   version: 0.12-2.3
   issues:
@@ -25550,6 +25791,10 @@ sredird:
   version: 2.2.1-1.1
   bugs:
     - 817677
+srtp:
+  version: 1.4.5~20130609~dfsg-1.2
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 ssh-askpass:
   version: 1:1.2.4.1-9
   issues:
@@ -25615,6 +25860,10 @@ starlink-ast:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - captures_build_path
+starlink-pal:
+  version: 0.5.0-4
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 starplot:
   version: 0.95.5-8.1
   bugs:
@@ -26197,6 +26446,10 @@ tcllib:
   version: 1.17-dfsg-1
   issues:
     - different_encoding
+tcltk-defaults:
+  version: 8.6.0+9
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 tclxml:
   version: 3.3~svn11-3
   issues:
@@ -26518,6 +26771,10 @@ tinyxml2:
   version: 3.0.0-2
   bugs:
     - 811974
+tipa:
+  version: 2:1.3-20
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 tircd:
   version: 0.30-1
   issues:
@@ -27095,6 +27352,14 @@ udpcast:
     date in there via version.h but that file doesn't appear.
   bugs:
     - 835145
+udunits:
+  version: 2.2.20-1
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
+ufoai:
+  version: 2.5-1
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 ufoai-maps:
   version: 2.5-1
   issues:
@@ -27449,6 +27714,10 @@ velocity:
   version: 1.7-5
   issues:
     - random_order_in_documentation_generated_by_javadoc
+velvet:
+  version: 1.2.10+dfsg1-3
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 verbiste:
   version: 0.1.43-1
   bugs:
