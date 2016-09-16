@@ -394,6 +394,7 @@ am-utils:
     - randomness_in_html_generated_by_texi2html
     - timestamps_in_gzip_headers
     - leaks_path_environment_variable
+    - captures_shell_variable_in_autofoo_script
 amanda:
   version: 1:3.3.6-4
   comments: |
@@ -1202,6 +1203,7 @@ autoconf:
   issues:
     - pdf_created_by_ghostscript
     - timestamps_in_ps_generated_by_dvips
+    - captures_shell_variable_in_autofoo_script
 autoconf2.59:
   version: 2.59+dfsg-0.1
   issues:
@@ -1223,6 +1225,7 @@ automake1.11:
   version: 1:1.11.6-3
   issues:
     - timezone_variance_because_of_automake_mdate
+    - captures_shell_variable_in_autofoo_script
 automaton:
   version: 1.11-8+dfsg1-1
   issues:
@@ -1344,6 +1347,8 @@ babl:
     BablInstance.
     .
     Also test "timings" https://sources.debian.net/src/babl/0.1.18-1/babl/babl-fish-path.c/#L592
+  issues:
+    - captures_shell_variable_in_autofoo_script
 backup-manager:
   version: 0.7.12-1
   bugs:
@@ -3196,6 +3201,7 @@ comedilib:
     - timestamps_in_manpages_generated_by_docbook_xsl
     - different_encoding_in_html_by_docbook_xsl
     - leaks_path_environment_variable
+    - captures_shell_variable_in_autofoo_script
 commando:
   version: 0.3.4-1.1
   bugs:
@@ -9050,6 +9056,7 @@ gtk-sharp2:
     - timestamps_in_zip
     - randomness_in_dh_cligacpolicy_scripts
     - different_due_to_umask
+    - captures_shell_variable_in_autofoo_script
 gtk-sharp3:
   version: 2.99.3-2
   issues:
@@ -25553,6 +25560,7 @@ silo-llnl:
   issues:
     - captures_build_path
     - user_hostname_manually_added_requiring_further_investigation
+    - captures_shell_variable_in_autofoo_script
 simba:
   version: 0.8.4-4.2
   bugs:
