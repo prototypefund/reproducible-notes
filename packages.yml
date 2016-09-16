@@ -4587,10 +4587,6 @@ dochelp:
   version: 0.1.3
   issues:
     - captures_build_path
-docker-registry:
-  version: 2.1.1~ds1-2
-  issues:
-    - ftbfs_uninvestigated_test_failures
 docker.io:
   version: 1.6.2~dfsg1-2
   issues:
@@ -5136,7 +5132,6 @@ eliom:
 elixir-lang:
   version: 1.1.0-1
   issues:
-    - ftbfs_uninvestigated_test_failures
     - blacklisted_on_jenkins_armhf_only
     - captures_build_path
 elk:
@@ -7967,7 +7962,6 @@ gnome-menus:
 gnome-mousetrap:
   version: 3.17.3-1
   issues:
-    - ftbfs_uninvestigated_test_failures
     - captures_build_path
 gnome-nds-thumbnailer:
   version: 3.0.0-1
@@ -8282,10 +8276,6 @@ golang-github-hashicorp-raft-mdb:
   version: 0.0~git20150806.0.55f2947-1
   bugs:
     - 819640
-golang-github-hashicorp-serf:
-  version: 0.6.4~ds1-1
-  issues:
-    - ftbfs_uninvestigated_test_failures
 golang-github-hashicorp-yamux:
   version: 0.0~git20150917.0.ddcd0a6-1
   issues:
@@ -10942,10 +10932,6 @@ kiriki:
   version: 4:16.04.0-1
   bugs:
     - 835399
-kissplice:
-  version: 2.3.1-1
-  issues:
-    - ftbfs_uninvestigated_test_failures
 kitchen:
   version: 1.1.1-1
   bugs:
@@ -11340,7 +11326,6 @@ kwstyle:
 kxd:
   version: 0.12-4
   issues:
-    - ftbfs_uninvestigated_test_failures
     - captures_build_path
 kxl:
   version: 1.1.7-16.1
@@ -14768,7 +14753,6 @@ mango-lassi:
 manila:
   version: 1:1.0.0-4
   issues:
-    - ftbfs_uninvestigated_test_failures
     - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 834839
@@ -16277,14 +16261,6 @@ neutron:
   bugs:
     - 816735
     - 834840
-neutron-lbaas:
-  version: 2015.1.0-3
-  issues:
-    - ftbfs_uninvestigated_test_failures
-neutron-vpnaas:
-  version: 2015.1.1-1
-  issues:
-    - ftbfs_uninvestigated_test_failures
 nevow:
   version: 0.14.0-1
   bugs:
@@ -19280,10 +19256,6 @@ proll:
   version: 18-6
   bugs:
     - 810133
-prometheus:
-  version: 0.15.1+ds-2
-  issues:
-    - ftbfs_uninvestigated_test_failures
 prometheus-mongodb-exporter:
   version: 0.0+git20160604.28251cc-1
   issues:
@@ -19292,10 +19264,6 @@ prometheus-mysqld-exporter:
   version: 0.8.1+ds-1
   issues:
     - captures_build_path
-prometheus-pushgateway:
-  version: 0.2.0+ds-2
-  issues:
-    - ftbfs_uninvestigated_test_failures
 prometheus-varnish-exporter:
   version: 1.0-2
   issues:
@@ -20768,10 +20736,6 @@ python-stdlib-extensions:
   version: 2.7.11-2
   issues:
     - captures_build_path
-python-taskflow:
-  version: 1.21.0-3
-  issues:
-    - ftbfs_uninvestigated_test_failures
 python-tcpwrap:
   version: 0.2-2.2
   bugs:
@@ -24392,7 +24356,6 @@ rustc:
 s3ql:
   version: 2.15+dfsg-1
   issues:
-    - ftbfs_uninvestigated_test_failures
     - captures_build_path
 sa-exim:
   version: 4.2.1-14
@@ -26492,7 +26455,6 @@ tetrinet:
 tevent:
   version: 0.9.26-1
   issues:
-    - ftbfs_uninvestigated_test_failures
     - captures_build_path
 texlive-base:
   version: 2014.20141024-2
@@ -26829,10 +26791,6 @@ toulbar2:
   version: 0.9.8-1
   bugs:
     - 831148
-toxiproxy:
-  version: 1.2.1+dfsg1-3
-  issues:
-    - ftbfs_uninvestigated_test_failures
 tpb:
   version: 0.6.4-8
   bugs:
