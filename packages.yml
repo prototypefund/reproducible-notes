@@ -1187,6 +1187,10 @@ auto-apt-proxy:
   version: 1
   bugs:
     - 834976
+autoclass:
+  version: 3.3.6.dfsg.1-1
+  issues:
+    - build_id_variation_requiring_further_investigation
 autoconf:
   version: 2.69-8
   issues:
@@ -1383,6 +1387,10 @@ bandwidthcalc:
   version: 0.2-1
   bugs:
     - 817372
+bandwidthd:
+  version: 2.0.1+cvs20090917-9
+  issues:
+    - build_id_variation_requiring_further_investigation
 bangarang:
   version: 2.1-2
   issues:
@@ -1422,6 +1430,10 @@ bart:
   version: 0.3.00-1
   issues:
     - captures_build_path
+base-installer:
+  version: 1.165
+  issues:
+    - build_id_variation_requiring_further_investigation
 basemap:
   version: 1.0.7+dfsg-1
   issues:
@@ -1583,6 +1595,10 @@ biber:
   version: 2.5-1
   issues:
     - random_order_of_pdf_ids_generated_by_latex
+bible-kjv:
+  version: 4.29
+  issues:
+    - build_id_variation_requiring_further_investigation
 bibledit-gtk:
   version: 4.9-1
   issues:
@@ -2445,6 +2461,10 @@ cdbs:
   version: 0.4.130.0~reproducible2
   bugs:
     - 831263
+cdcat:
+  version: 1.8-1
+  issues:
+    - build_id_variation_requiring_further_investigation
 cdcd:
   version: 0.6.6-13.1
   issues:
@@ -2725,6 +2745,10 @@ chktex:
   version: 1.7.4-1
   bugs:
     - 819885
+choose-mirror:
+  version: 2.72
+  issues:
+    - build_id_variation_requiring_further_investigation
 choqok:
   version: 1.5-5
   bugs:
@@ -5662,6 +5686,10 @@ fai:
   issues:
     - different_due_to_umask
     - timestamps_in_ps_generated_by_dvips
+faifa:
+  version: 0.2~svn82-1
+  issues:
+    - build_id_variation_requiring_further_investigation
 fail2ban:
   version: 0.9.4-1
   bugs:
@@ -6787,6 +6815,10 @@ ftgl:
   version: 2.1.3~rc5-4+nmu1
   issues:
     - captures_build_path
+ftjam:
+  version: 2.5.2-1.1
+  issues:
+    - build_id_variation_requiring_further_investigation
 ftp-upload:
   version: 1.5+nmu1
   bugs:
@@ -6880,6 +6912,10 @@ fwbuilder:
   version: 5.1.0-4
   issues:
     - captures_build_path
+fweb:
+  version: 1.62-13
+  issues:
+    - build_id_variation_requiring_further_investigation
 fwknop:
   version: 2.6.0-4
   issues:
@@ -7118,6 +7154,10 @@ gb:
   version: 0.4.2-1
   issues:
     - captures_build_path
+gbase:
+  version: 0.5-2.2
+  issues:
+    - build_id_variation_requiring_further_investigation
 gbatnav:
   version: 1.0.4cvs20051004-5
   issues:
@@ -8569,6 +8609,10 @@ gox:
   version: 0.3.0-1
   issues:
     - captures_build_path
+gp2c:
+  version: 0.0.9pl5-1
+  issues:
+    - build_id_variation_requiring_further_investigation
 gpac:
   version: 0.5.2-426-gc5ad4e4+dfsg5-3
   issues:
@@ -8832,6 +8876,10 @@ grub:
   version: 0.97-70
   issues:
     - timestamps_in_manpages_generated_by_help2man
+grub-installer:
+  version: 1.133
+  issues:
+    - build_id_variation_requiring_further_investigation
 grub2:
   version: 2.02~beta2-23
   issues:
@@ -9424,6 +9472,10 @@ hpanel:
   version: 0.3.2-4
   bugs:
     - 782216
+hspell:
+  version: 1.2-3
+  issues:
+    - build_id_variation_requiring_further_investigation
 hspell-gui:
   version: 0.2.6-5.1
   issues:
@@ -12565,6 +12617,10 @@ libhamcrest-java:
   version: 1.3-5
   issues:
     - locale_in_documentation_generated_by_javadoc
+libharu:
+  version: 2.2.1-1.1
+  issues:
+    - build_id_variation_requiring_further_investigation
 libhdate:
   version: 1.6-3
   comments: |
@@ -14332,6 +14388,10 @@ live-f1:
   version: 0.2.10-1.1
   issues:
     - captures_build_path
+live-installer:
+  version: 52
+  issues:
+    - build_id_variation_requiring_further_investigation
 live-manual:
   version: 4.0.2-1
   comments: |
@@ -14498,6 +14558,10 @@ loook:
   version: 0.8.4-1
   bugs:
     - 825471
+looptools:
+  version: 2.8-1
+  issues:
+    - build_id_variation_requiring_further_investigation
 lordsawar:
   version: 0.3.0-2
   comments: |
@@ -14609,6 +14673,10 @@ lua50:
   version: 5.0.3-7
   issues:
     - captures_build_path
+luakit:
+  version: 2012.09.13-r1-8
+  issues:
+    - build_id_variation_requiring_further_investigation
 luasocket:
   version: 3.0~rc1+git+321c0c9-1
   issues:
@@ -14856,6 +14924,10 @@ mailto:
   bugs:
     - 777413
     - 793700
+main-menu:
+  version: 1.48
+  issues:
+    - build_id_variation_requiring_further_investigation
 maint-guide:
   version: 1.2.35
   issues:
@@ -15093,6 +15165,10 @@ mayavi2:
     - random_order_in_python_environment_pickle
   bugs:
     - 830342
+mboxgrep:
+  version: 0.7.9-3
+  issues:
+    - build_id_variation_requiring_further_investigation
 mbw:
   version: 1.2.2-1
   issues:
@@ -15163,6 +15239,10 @@ memoise:
   issues:
     - captures_build_path
     - randomness_in_r_rdb_rds_databases
+memstat:
+  version: 1.0
+  issues:
+    - build_id_variation_requiring_further_investigation
 memtest86+:
   version: 5.01-2
   comments: |
@@ -15284,6 +15364,10 @@ mime-construct:
   version: 1.11+nmu1
   bugs:
     - 800236
+mimedefang:
+  version: 2.78-1
+  issues:
+    - build_id_variation_requiring_further_investigation
 mimefilter:
   version: 1.7+nmu1
   comments: |
@@ -15962,6 +16046,10 @@ multcomp:
   issues:
     - captures_build_path
     - randomness_in_r_rdb_rds_databases
+multimail:
+  version: 0.49-2
+  issues:
+    - build_id_variation_requiring_further_investigation
 multiverse-core:
   version: 0.7.0-3
   issues:
@@ -16557,6 +16645,10 @@ nitime:
   version: 0.5-3
   comments: |
     Randomness in example images because of random() without constant seed.
+nitpic:
+  version: 0.1-16
+  issues:
+    - build_id_variation_requiring_further_investigation
 nlkt:
   version: 0.3.2.5-1
   issues:
@@ -18308,6 +18400,30 @@ pcscada:
     - timestamps_in_documentation_generated_by_asciidoc
     - timestamps_in_ada_library_information_files
     - captures_build_path
+pd-arraysize:
+  version: 0.1-3
+  issues:
+    - build_id_variation_requiring_further_investigation
+pd-bassemu:
+  version: 0.3-4
+  issues:
+    - build_id_variation_requiring_further_investigation
+pd-beatpipe:
+  version: 0.1-4
+  issues:
+    - build_id_variation_requiring_further_investigation
+pd-boids:
+  version: 1.1.1-2
+  issues:
+    - build_id_variation_requiring_further_investigation
+pd-comport:
+  version: 0.2-2
+  issues:
+    - build_id_variation_requiring_further_investigation
+pd-earplug:
+  version: 0.2-3
+  issues:
+    - build_id_variation_requiring_further_investigation
 pd-fftease:
   version: 2.5.2.git20121005-1
   issues:
@@ -18318,14 +18434,30 @@ pd-flite:
     - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 834302
+pd-freeverb:
+  version: 1.2-3
+  issues:
+    - build_id_variation_requiring_further_investigation
 pd-iemnet:
   version: 0.2.1-1
   issues:
     - captures_build_path
+pd-libdir:
+  version: 1.9-3
+  issues:
+    - build_id_variation_requiring_further_investigation
 pd-lyonpotpourri:
   version: 2.0+git20121009-1
   issues:
     - captures_build_path
+pd-pddp:
+  version: 0.2.1-1
+  issues:
+    - build_id_variation_requiring_further_investigation
+pd-pdogg:
+  version: 0.25.1-1
+  issues:
+    - build_id_variation_requiring_further_investigation
 pd-pdstring:
   version: 0.10.2-1
   comments: |
@@ -18333,6 +18465,18 @@ pd-pdstring:
     https://sources.debian.net/src/pd-pdstring/0.10.2-1/src/pdstring.c/#L87
   bugs:
     - 833445
+pd-plugin:
+  version: 0.2.1-3
+  issues:
+    - build_id_variation_requiring_further_investigation
+pd-vbap:
+  version: 1.0.3.2-1
+  issues:
+    - build_id_variation_requiring_further_investigation
+pd-wiimote:
+  version: 0.3.2-2
+  issues:
+    - build_id_variation_requiring_further_investigation
 pdal:
   version: 1.2.0-2
   comments: |
@@ -18449,6 +18593,10 @@ perl:
   version: 5.22.2-3
   issues:
     - captures_build_path
+perl-byacc:
+  version: 2.0-8
+  issues:
+    - build_id_variation_requiring_further_investigation
 perl-tk:
   version: 1:804.033-1
   issues:
@@ -18557,6 +18705,10 @@ pgocaml:
   version: 2.2-1
   issues:
     - captures_build_path
+pgpgpg:
+  version: 0.13-9.1
+  issues:
+    - build_id_variation_requiring_further_investigation
 pgrouting:
   version: 2.2.4-1
   issues:
@@ -18851,6 +19003,10 @@ pipebang:
   version: 113.00.00-1
   issues:
     - captures_build_path
+pipemeter:
+  version: 1.1.3-1
+  issues:
+    - build_id_variation_requiring_further_investigation
 pipewalker:
   version: 0.9.4-2
   issues:
@@ -19133,6 +19289,10 @@ popplerkit.framework:
   version: 0.0.20051227svn-7.1
   issues:
     - plist_weirdness
+popt:
+  version: 1.16-10
+  issues:
+    - build_id_variation_requiring_further_investigation
 portabase:
   version: 2.1+git20120910-1.1
   issues:
@@ -19428,6 +19588,30 @@ proftpd-dfsg:
     Embed build time in /usr/include/proftpd/buildstamp.h (sic)
   bugs:
     - 831381
+proftpd-mod-autohost:
+  version: 0.4-1
+  issues:
+    - build_id_variation_requiring_further_investigation
+proftpd-mod-case:
+  version: 0.7-1
+  issues:
+    - build_id_variation_requiring_further_investigation
+proftpd-mod-dnsbl:
+  version: 0.1.5-3
+  issues:
+    - build_id_variation_requiring_further_investigation
+proftpd-mod-fsync:
+  version: 0.2-1
+  issues:
+    - build_id_variation_requiring_further_investigation
+proftpd-mod-msg:
+  version: 0.4.1-1.1
+  issues:
+    - build_id_variation_requiring_further_investigation
+proftpd-mod-tar:
+  version: 0.3.3-1
+  issues:
+    - build_id_variation_requiring_further_investigation
 proj-ps-doc:
   version: 4.3.3-4
   bugs:
@@ -19613,6 +19797,10 @@ pure-ftpd:
   version: 1.0.36-3.2
   issues:
     - captures_build_path
+puredata-import:
+  version: 1.3-3
+  issues:
+    - build_id_variation_requiring_further_investigation
 purelibc:
   version: 0.4.1-1
   issues:
@@ -20810,6 +20998,10 @@ python-pymzml:
   version: 0.7.6-dfsg-2
   bugs:
     - 830335
+python-pyo:
+  version: 0.7.9-1
+  issues:
+    - build_id_variation_requiring_further_investigation
 python-pypcap:
   version: 1.1.2+debian-2.2
   issues:
@@ -21175,12 +21367,20 @@ qiime:
   issues:
     - random_order_in_python_environment_pickle
     - randomness_in_documentation_generated_by_sphinx
+qimageblitz:
+  version: 1:0.0.6-4
+  issues:
+    - build_id_variation_requiring_further_investigation
 qingy:
   version: 0.9.7-2
   issues:
     - timezone_variance_because_of_automake_mdate
   bugs:
     - 817643
+qjackctl:
+  version: 0.4.2-2
+  issues:
+    - build_id_variation_requiring_further_investigation
 qlandkartegt:
   version: 1.8.1+ds-6
   issues:
@@ -25296,6 +25496,10 @@ sixer:
   version: 1.6-1
   bugs:
     - 834743
+sjeng:
+  version: 11.2-8
+  issues:
+    - build_id_variation_requiring_further_investigation
 sjfonts:
   version: 2.0.2-1.1
   issues:
@@ -25887,6 +26091,10 @@ staden:
   version: 2.0.0+b11-2
   issues:
     - captures_build_path
+stalin:
+  version: 0.11-6
+  issues:
+    - build_id_variation_requiring_further_investigation
 stardata-common:
   version: 0.8
   issues:
@@ -26896,6 +27104,10 @@ tmpreaper:
   version: 1.6.13+nmu1
   issues:
     - captures_build_path
+tmview:
+  version: 1:01.03-14.2
+  issues:
+    - build_id_variation_requiring_further_investigation
 tnat64:
   version: 0.05-1
   issues:
@@ -27400,6 +27612,10 @@ udpcast:
     date in there via version.h but that file doesn't appear.
   bugs:
     - 835145
+udpkg:
+  version: 1.18
+  issues:
+    - build_id_variation_requiring_further_investigation
 udunits:
   version: 2.2.20-1
   issues:
@@ -27542,6 +27758,10 @@ unmo3:
   version: 0.6-1
   issues:
     - captures_build_path
+uphpmvault:
+  version: 0.8
+  issues:
+    - build_id_variation_requiring_further_investigation
 upnp-router-control:
   version: 0.2-1.2
   issues:
@@ -28342,6 +28562,10 @@ wordwarvi:
     https://sources.debian.net/src/wordwarvi/1.00%2Bdfsg1-3/wordwarvi.c/#L9947
   bugs:
     - 786593
+wpa:
+  version: 2.5-2+v2.4-3
+  issues:
+    - build_id_variation_requiring_further_investigation
 wrapperfactory.app:
   version: 0.1.0-4
   issues:
@@ -28668,6 +28892,10 @@ xine-ui:
     - captures_build_path
   bugs:
     - 833088
+xinv3d:
+  version: 1.3.6-6
+  issues:
+    - build_id_variation_requiring_further_investigation
 xipmsg:
   version: 0.8088-2.1
   bugs:
@@ -28821,6 +29049,10 @@ xmount:
   version: 0.7.3-1
   issues:
     - captures_build_path
+xnecview:
+  version: 1.35-8
+  issues:
+    - build_id_variation_requiring_further_investigation
 xnee:
   version: 3.19-1
   comments: |
@@ -29103,6 +29335,10 @@ yacas:
     https://sources.debian.net/src/yacas/1.3.6-1/manmake/book2TeX.ys/?hl=34#L34
   issues:
     - timestamps_in_tex_documents
+yacpi:
+  version: 3.0-2
+  issues:
+    - build_id_variation_requiring_further_investigation
 yade:
   version: 1.20.0-6
   comments: |
@@ -29157,6 +29393,10 @@ yaret:
   version: 2.1.0-5
   bugs:
     - 817742
+yaskkserv:
+  version: 1.0.0-1
+  issues:
+    - build_id_variation_requiring_further_investigation
 yasm:
   version: 1.2.0-2
   bugs:
