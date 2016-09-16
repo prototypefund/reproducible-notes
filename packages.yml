@@ -13776,6 +13776,7 @@ libsaxon-java:
   issues:
     - different_due_to_umask
     - locale_in_documentation_generated_by_javadoc
+    - randomness_in_gcj_output
 libsbml:
   version: 5.10.0+dfsg-1
   issues:
@@ -24950,6 +24951,7 @@ sacjava:
     - timestamps_in_jar
     - locale_in_documentation_generated_by_javadoc
     - captures_build_path
+    - randomness_in_gcj_output
 safe-hole-perl:
   version: 0.13-1.1
   issues:
@@ -26655,6 +26657,8 @@ swt-gtk:
   comments: |
     DWARF debug symbols include a temporary filename in DW_AT_producer = ... -fsource-filename=/tmp/fileMke5E8
     (this could be the result of 'mktemp /tmp/fileXXXXXX' or an equivalent mktemp(3) call)
+  issues:
+    - randomness_in_gcj_output
 swtchart:
   version: 0.8.0-1
   issues:
