@@ -782,6 +782,10 @@ ara:
     https://sources.debian.net/src/ara/1.0.31/common/mkversion.sh/#L4
   bugs:
     - 833610
+arachne-pnr:
+  version: 0.1+20151224git1a4fdf9-1
+  issues:
+    - captures_build_path
 arc-theme:
   version: 20160605-2
   bugs:
@@ -2082,6 +2086,10 @@ broccoli:
     - 835495
 broccoli-python:
   version: 0.59+1-1
+  issues:
+    - captures_build_path
+broccoli-ruby:
+  version: 1.58-2
   issues:
     - captures_build_path
 bs2b-ladspa:
@@ -5845,6 +5853,10 @@ fcitx-m17n:
   version: 0.2.3-3
   issues:
     - captures_build_path
+fcitx-sayura:
+  version: 0.1.1-1
+  issues:
+    - captures_build_path
 fcitx-skk:
   version: 0.1.2-0.2
   issues:
@@ -8713,6 +8725,10 @@ gr-fosphor:
   version: 3.7.0.2.7b6b996-1
   issues:
     - captures_build_path
+gr-hpsdr:
+  version: 0.0.0.bb77f3c-2
+  issues:
+    - captures_build_path
 gr-iio:
   version: 0.1.67-1
   issues:
@@ -11471,6 +11487,10 @@ ktextwidgets:
     - captures_build_path
 ktikz:
   version: 0.10-4.1
+  issues:
+    - captures_build_path
+ktnef:
+  version: 16.04.2-1
   issues:
     - captures_build_path
 ktorrent:
@@ -25664,6 +25684,10 @@ smpeg:
   version: 0.4.5+cvs20030824-7.1
   bugs:
     - 811742
+smpq:
+  version: 1.5-1
+  issues:
+    - captures_build_path
 smuxi:
   version: 0.11~rc5-2
   issues:
@@ -26039,6 +26063,10 @@ sredird:
   version: 2.2.1-1.1
   bugs:
     - 817677
+srm-ifce:
+  version: 1.23.3-1
+  issues:
+    - captures_build_path
 srtp:
   version: 1.4.5~20130609~dfsg-1.2
   issues:
