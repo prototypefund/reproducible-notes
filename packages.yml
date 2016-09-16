@@ -5013,6 +5013,10 @@ eclipse:
   issues:
     - timestamps_in_jar
     - blacklisted_on_jenkins_armhf_only
+eclipse-aether:
+  version: 1.0.2-1
+  issues:
+    - random_order_in_sisu_javax_inject_named
 eclipse-cdt:
   version: 8.6.0-1
   bugs:

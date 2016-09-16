@@ -1320,3 +1320,8 @@ random_id_in_pdf_generated_by_dblatex:
     Not caused by build path nor by the minute used to build at least.
     Intermediate "--tempdir=docbuild" has no differences.
     Can't see cause in dblatex source itself.
+random_order_in_sisu_javax_inject_named:
+  description: |
+    libsisu-maven-plugin-java generates META-INF/sisu/javax.inject.Named files in
+    an apparently random order.
+
