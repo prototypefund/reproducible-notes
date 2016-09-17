@@ -943,6 +943,7 @@ ask:
   version: 1.0.1-2
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - fonts_in_pdf_files
 asl:
   version: 0.1.6-1
   issues:
@@ -1091,6 +1092,7 @@ asymptote:
     - timestamps_in_png
     - timestamps_in_pdf_generated_by_latex
     - captures_build_path
+    - fonts_in_pdf_files
 async-http-client:
   version: 1.6.5-4
   issues:
@@ -2392,6 +2394,7 @@ canl-c:
   version: 2.1.5-1.1
   issues:
     - timestamps_in_pdf_content
+    - fonts_in_pdf_files
 canna:
   version: 3.7p3-13
   comments: |
@@ -3775,6 +3778,7 @@ cxxtest:
     - timestamps_in_documentation_generated_by_asciidoc
     - timestamps_in_epub
     - timestamps_in_pdf_content
+    - fonts_in_pdf_files
 cyclades-serial-client:
   version: 0.92
   comments: |
@@ -5390,6 +5394,7 @@ enblend-enfuse:
   issues:
     - pdf_created_by_ghostscript
     - captures_build_path
+    - fonts_in_pdf_files
 encfs:
   version: 1.8.1-3
   issues:
@@ -6251,6 +6256,7 @@ firehol:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_documentation_generated_by_pandoc
+    - fonts_in_pdf_files
 fis-gtm:
   version: 6.2-002A-2
   comments: |
