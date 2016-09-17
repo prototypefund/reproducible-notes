@@ -20872,6 +20872,9 @@ python-caja:
     - 825471
 python-can:
   version: 1.5.2-1
+  comments: |
+    Embeds the build time into test.asc:
+    https://sources.debian.net/src/python-can/1.5.2-1/can/CAN.py/?hl=246#L243
   issues:
     - timestamps_manually_added_needs_further_investigation
 python-casacore:
