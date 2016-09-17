@@ -9894,6 +9894,10 @@ icu4j:
   version: 57.1-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
+icu4j-4.2:
+  version: 4.2.1.1-5
+  issues:
+    - captures_build_path
 id-utils:
   version: 4.6+git20120811-4
   issues:
@@ -10023,6 +10027,8 @@ imagemagick:
   comments: |
     Embedded timestamp issue (ReleaseDate) fixed in experimental.
     But there are differences in png images that have to be investigated.
+  issues:
+    - captures_build_path
 imagevis3d:
   version: 3.1.0-4
   bugs:
@@ -10057,6 +10063,10 @@ infinipath-psm:
     - captures_build_path
   bugs:
     - 811940
+influxdb:
+  version: 0.13.0+dfsg1-4
+  issues:
+    - captures_build_path
 infon:
   version: 0~r198-8
   issues:
@@ -17616,6 +17626,10 @@ ocaml-re2:
     - captures_build_path
   bugs:
     - 820937
+ocaml-reins:
+  version: 0.1a-6
+  issues:
+    - captures_build_path
 ocaml-res:
   version: 4.0.3-3
   issues:
