@@ -26308,6 +26308,12 @@ slof:
   comments: |
     Must be built on PowerPC.
     (the issue is to have the launchpad bug url near)
+    Embeds build date, username:
+    https://sources.debian.net/src/slof/20160223%2Bdfsg-1/Makefile.gen/?hl=28#L28
+    https://sources.debian.net/src/slof/20160223%2Bdfsg-1/Makefile.gen/?hl=31#L31
+    https://sources.debian.net/src/slof/20160223%2Bdfsg-1/board-qemu/slof/version.S/?hl=32#L30
+    https://sources.debian.net/src/slof/20160223%2Bdfsg-1/board-qemu/llfw/version.S/?hl=36#L34
+    https://sources.debian.net/src/slof/20160223%2Bdfsg-1/board-js2x/llfw/startup.S/?hl=270#L268
   issues:
     - ftbfs_build_depends_not_available_on_amd64
     - user_hostname_manually_added_requiring_further_investigation
