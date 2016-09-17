@@ -2,6 +2,7 @@
   version: 0.0.20-2
   issues:
     - captures_build_path
+    - diffoscope_runs_forever
 3270font:
   version: 1.2-1
   issues:
@@ -1338,6 +1339,7 @@ axiom:
   issues:
     - timestamps_in_dvi_generated_by_latex
     - blacklisted_on_jenkins_armhf_only
+    - diffoscope_runs_forever
 axis:
   version: 1.4-22
   issues:
@@ -1385,6 +1387,10 @@ bacula-doc:
     - fonts_in_pdf_files
     - timestamps_in_ps_generated_by_dvips
     - pdf_created_by_ghostscript
+bagel:
+  version: 0.0~git20160507-3
+  issues:
+    - diffoscope_runs_forever
 ball:
   version: 1.4.3~beta1-1
   issues:
@@ -1842,6 +1848,8 @@ blender:
     Embed build time:
     https://sources.debian.net/src/blender/2.72.b%2Bdfsg0-3/build_files/cmake/buildinfo.cmake/?hl=132:133#L132
     https://sources.debian.net/src/blender/2.72.b%2Bdfsg0-3/source/creator/buildinfo.c/?hl=40:41#L40
+  issues:
+    - diffoscope_runs_forever
 blends:
   version: 0.6.92.2
   comments: |
@@ -6156,6 +6164,8 @@ fieldslib:
     - captures_build_path
 fife:
   version: 0.3.5-1
+  issues:
+    - diffoscope_runs_forever
   bugs:
     - 811858
 file-rc:
@@ -6275,6 +6285,7 @@ flann:
   version: 1.8.4-4.1
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - diffoscope_runs_forever
   bugs:
     - 822717
 flare-engine:
@@ -6325,6 +6336,7 @@ flightgear:
   version: 1:2016.2.1+dfsg-6
   issues:
     - captures_build_path
+    - diffoscope_runs_forever
 flite:
   version: 1.4-release-12
   comments: |
@@ -7438,6 +7450,7 @@ gcc-snapshot:
   version: 20160125-1
   issues:
     - blacklisted_on_jenkins_armhf_only
+    - diffoscope_runs_forever
 gcl:
   version: 2.6.12-1
   issues:
@@ -14291,6 +14304,8 @@ libview:
     - captures_build_path
 libvigraimpex:
   version: 1.10.0+dfsg-11
+  issues:
+    - diffoscope_runs_forever
   bugs:
     - 811370
 libvirt:
@@ -16303,6 +16318,7 @@ mrpt:
     - timestamps_from_cpp_macros
     - blacklisted_on_jenkins_armhf_only
     - different_encoding
+    - diffoscope_runs_forever
 mrrescue:
   version: 1.02c-2
   issues:
@@ -18015,6 +18031,8 @@ openexr-viewers:
     - captures_build_path
 opengm:
   version: 2.3.6+20160131-2
+  issues:
+    - diffoscope_runs_forever
   bugs:
     - 811878
 openhackware:
@@ -18149,6 +18167,7 @@ openms:
     The «*» on the find(1) command line may introduce a locale dependency (shell globs are expanded in a locale-sensitive sorted order), depending on the names of immediate children of ${binDir} (to which the script cd's).
   issues:
     - collation_order_varies_by_locale
+    - diffoscope_runs_forever
 opennebula:
   version: 4.12.3+dfsg-3
   issues:
@@ -18620,6 +18639,7 @@ paraview:
   issues:
     - timestamps_from_cpp_macros
     - blacklisted_on_jenkins_armhf_only
+    - diffoscope_runs_forever
   bugs:
     - 812282
 parchive:
@@ -21791,6 +21811,7 @@ qgis:
     https://sources.debian.net/src/qgis/2.8.4%2Bdfsg-1~exp1/doc/news.t2t/
   issues:
     - blacklisted_on_jenkins_armhf_only
+    - diffoscope_runs_forever
 qgo:
   version: 2.1~git-20150530-1
   bugs:
@@ -21929,6 +21950,7 @@ qtcreator:
     Unsorted IDs in qch documentation file.
   issues:
     - blacklisted_on_jenkins_armhf_only
+    - diffoscope_runs_forever
   bugs:
     - 831182
 qtcurve:
