@@ -2600,6 +2600,9 @@ cegui-mk2:
     - diffoscope_runs_forever
 ceilometer:
   version: 2015.1.0-6
+  comments: |
+    Embed hostname:
+    https://sources.debian.net/src/ceilometer/1:6.0.0-2/ceilometer/service.py/?hl=30#L30
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - user_hostname_manually_added_requiring_further_investigation
