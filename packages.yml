@@ -19530,6 +19530,9 @@ pixbros:
     - 817304
 pixelmed:
   version: 20140816-1
+  comments: |
+    Embeds the build date into BUILDDATE:
+    https://sources.debian.net/src/pixelmed/20150917-1/Makefile/?hl=368#L368
   issues:
     - locale_in_documentation_generated_by_javadoc
     - captures_build_path
