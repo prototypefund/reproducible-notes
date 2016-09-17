@@ -344,6 +344,9 @@ alljoyn-core-1504:
     - 825218
 alljoyn-core-1509:
   version: 15.09a-3
+  comments: |
+    Embed build time, username:
+    https://sources.debian.net/src/alljoyn-core-1509/15.09a-4/build_core/tools/scons/genversion.py/?hl=127#L127
   issues:
     - user_hostname_manually_added_requiring_further_investigation
 alljoyn-core-1604:
