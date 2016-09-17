@@ -9928,6 +9928,9 @@ icu4j:
     - random_order_in_documentation_generated_by_javadoc
 icu4j-4.2:
   version: 4.2.1.1-5
+  comments: |
+    Embed build time, build path:
+    https://sources.debian.net/src/icu4j-4.2/4.2.1.1-5/src/com/ibm/icu/dev/tool/index/IndexGenerator.java/?hl=60#L59-L62
   issues:
     - captures_build_path
 id-utils:
