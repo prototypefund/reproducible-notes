@@ -1556,6 +1556,9 @@ bbdb:
     - 828891
 bbdb3:
   version: 3.1.2-1
+  comments: |
+    Embeds the build time into bbdb-site.el:
+    https://sources.debian.net/src/bbdb3/3.1.2-6/lisp/bbdb-site.el.in/?hl=27#L27
   issues:
     - timestamps_in_emacs_autoloads
 bbmail:
