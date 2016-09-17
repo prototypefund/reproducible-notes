@@ -1259,6 +1259,10 @@ captures_home_dir:
 captures_execution_time:
   description:
     Captures execution time, which may vary between builds.
+too_much_input_for_diff: |
+  description:
+    diffoscope return "Too much input for diff" instead of meaningful diff.
+    https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=836784
 golang_compiler_captures_build_path_in_binary:
   description: |
     The golang compiler embeds the source/build paths into binaries.
