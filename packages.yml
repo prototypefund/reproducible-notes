@@ -172,6 +172,8 @@ adasockets:
     mtime is lost during the cp and a non-determinisic mtime gets indexed
     in the .ali file.  Also, the sockets-constants.ads file is generated
     by src/constants.sh, which embeds the current time in a comment.
+    Embeds build date, `uname -a`:
+    https://sources.debian.net/src/adasockets/1.9-1.1/src/constants.sh/?hl=60#L59
   issues:
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_ada_library_information_files
