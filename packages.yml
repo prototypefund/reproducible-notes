@@ -8534,6 +8534,7 @@ gnustep-make:
     - timestamps_in_pdf_generated_by_latex
     - timestamp_in_info_file_created_by_makeinfo
     - captures_build_path
+    - fonts_in_pdf_files
 gnutls28:
   version: 3.4.8-2
   comments: |
@@ -11041,6 +11042,7 @@ kannel-sqlbox:
   version: 0.7.2-3
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - fonts_in_pdf_files
 kapptemplate:
   version: 4:4.14.1-1
   issues:
@@ -14309,6 +14311,7 @@ libtheora:
   issues:
     - timestamps_in_tex_documents
     - captures_build_path
+    - fonts_in_pdf_files
 libtime-period-perl:
   version: 1.20-8.1
   bugs:
@@ -14374,10 +14377,12 @@ libu2f-host:
   version: 0.0.4-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - fonts_in_pdf_files
 libu2f-server:
   version: 0.0.0-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - fonts_in_pdf_files
 libucimf:
   version: 2.3.8-7
   bugs:
@@ -15435,6 +15440,7 @@ manderlbot:
   issues:
     - timestamps_in_beam_files
     - captures_build_path
+    - fonts_in_pdf_files
 mango-lassi:
   version: 001+dfsg-5
   issues:
@@ -15925,6 +15931,7 @@ minlog:
   version: 4.0.99.20100221-5.2
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - fonts_in_pdf_files
 mira:
   version: 4.0.2-1
   comments: |
@@ -21570,6 +21577,7 @@ python-pcs:
   version: 0.5+debian-1.2
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - fonts_in_pdf_files
 python-pex:
   version: 1.1.0-2
   issues:
@@ -27543,6 +27551,7 @@ tcode:
   version: 0.1.20080918-2
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - fonts_in_pdf_files
 tcpcopy:
   version: 0.6.3-2.1
   bugs:
@@ -28016,6 +28025,7 @@ topal:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - different_encoding
+    - fonts_in_pdf_files
 toppler:
   version: 1.1.6-2
   issues:
@@ -28947,6 +28957,7 @@ vite:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - captures_build_path
+    - fonts_in_pdf_files
 viva:
   version: 1.1+git20150820.1a3d1f680f-1
   issues:
@@ -30220,6 +30231,7 @@ yacas:
     https://sources.debian.net/src/yacas/1.3.6-1/manmake/book2TeX.ys/?hl=34#L34
   issues:
     - timestamps_in_tex_documents
+    - fonts_in_pdf_files
 yacpi:
   version: 3.0-2
   issues:
