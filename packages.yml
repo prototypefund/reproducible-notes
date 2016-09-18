@@ -1303,6 +1303,16 @@ avahi-sharp:
   version: 0.6.19-4.3
   issues:
     - captures_build_path
+avfs:
+  version: 1.0.3-1
+  comments: |
+    Captures date in locale-dependent format (in .rodata section).
+    .
+    .rodata has further differences, at least ordering differences.
+    .
+    (The date is the same on both builds.  Not sure whether the "date in the
+    future" variation is disabled, or whether the date is obtained in a manner
+    that bypasses the variation.)
 avifile:
   version: 1:0.7.48~20090503.ds-16.2
   comments: |
@@ -21819,6 +21829,13 @@ python-stdlib-extensions:
   version: 2.7.11-2
   issues:
     - captures_build_path
+python-taskflow:
+  version: 1.3.0-2
+  comments: |
+    Captures buildhost hardware details (CPU count):
+      https://sources.debian.net/src/python-taskflow/1.30.0-2/taskflow/conductors/backends/impl_nonblocking.py/#L40
+      https://sources.debian.net/src/python-taskflow/1.30.0-2/taskflow/utils/threading_utils.py/#L42
+      https://docs.python.org/3/library/multiprocessing.html#multiprocessing.cpu_count
 python-tcpwrap:
   version: 0.2-2.2
   bugs:
