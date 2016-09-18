@@ -8893,6 +8893,10 @@ gpac:
   version: 0.5.2-426-gc5ad4e4+dfsg5-3
   issues:
     - captures_build_path
+gpg-remailer:
+  version: 3.02.00-1
+  issues:
+    - random_order_in_static_library_by_icmake
 gpgmepp:
   version: 16.04.3-1
   issues:
@@ -9416,6 +9420,10 @@ guitarix:
   version: 0.34.0-0.1
   issues:
     - captures_build_path
+guncat:
+  version: 1.01.02-1
+  issues:
+    - random_order_in_static_library_by_icmake
 gupnp-dlna:
   version: 0.10.5-2
   bugs:
@@ -12609,6 +12617,10 @@ libcommons-validator-java:
   version: 1:1.4.1-1
   bugs:
     - 785515
+libconfig:
+  version: 1.5-0.2
+  issues:
+    - random_id_in_pdf_generated_by_dblatex
 libconfig-model-dpkg-perl:
   version: 2.082
   bugs:
