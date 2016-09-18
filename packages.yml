@@ -20005,8 +20005,11 @@ posixtestsuite:
   version: 1.5.2-5
   comments: |
     Includes a log of a test suite run, which is heavily varying.
+    Embeds kernel version:
+    https://sources.debian.net/src/posixtestsuite/1.5.2-6/conformance/interfaces/pthread_mutex_init/speculative/5-2.c/?hl=95#L100
   issues:
     - different_encoding
+    - captures_kernel_version
 postal:
   version: 0.73+nmu1
   bugs:
