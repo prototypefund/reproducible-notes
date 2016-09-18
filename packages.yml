@@ -675,6 +675,8 @@ apertium-kaz:
   comments: |
     Zip file with non-standard extension. Should have been fixed by
     dh-stripnondeterminism matching .zhfst files, but there are differences.
+  issues:
+    - too_much_input_for_diff
 apertium-mk-bg:
   version: 0.2.0~r49489-1
   issues:
@@ -696,6 +698,8 @@ apertium-tat:
   comments: |
     Zip file with non-standard extension. Should have been fixed by
     dh-stripnondeterminism matching .zhfst files, but there are differences.
+  issues:
+    - too_much_input_for_diff
 apg:
   version: 2.2.3.dfsg.1-4
   issues:
@@ -1121,6 +1125,7 @@ asymptote:
     - timestamps_in_pdf_generated_by_latex
     - captures_build_path
     - fonts_in_pdf_files
+    - too_much_input_for_diff
 async-http-client:
   version: 1.6.5-4
   issues:
@@ -2752,6 +2757,7 @@ cgit:
     Captures $HOME.
   issues:
     - captures_home_dir
+    - too_much_input_for_diff
 cglib:
   version: 3.2.4-1
   issues:
@@ -3648,6 +3654,7 @@ crtmpserver:
   version: 1.0~dfsg-5.1
   issues:
     - captures_build_path
+    - too_much_input_for_diff
   bugs:
     - 811622
     - 811622
@@ -4915,6 +4922,7 @@ doxygen:
   issues:
     - timezones_manpages_podman
     - captures_build_path
+    - too_much_input_for_diff
 doxymacs:
   version: 1.8.0-6.1
   issues:
@@ -4923,6 +4931,10 @@ dpkg-sig:
   version: 0.13.1+nmu2
   bugs:
     - 817437
+dpmb:
+  version: 0~2016.06.30
+  issues:
+    - too_much_input_for_diff
 dput:
   version: 0.9.6.4
   issues:
@@ -5282,6 +5294,7 @@ edk2:
   version: 0~20160408.ffea0a2c-2
   issues:
     - captures_build_path
+    - too_much_input_for_diff
   bugs:
     - 834467
 eekboek:
@@ -6211,6 +6224,7 @@ ffmpeg:
   version: 7:3.1.2-1
   issues:
     - captures_build_path
+    - too_much_input_for_diff
 ffmpeg2theora:
   version: 0.30-1
   bugs:
@@ -14147,6 +14161,7 @@ libsbml:
     - blacklisted_on_jenkins_armhf_only
     - captures_build_path
     - timestamps_in_ps_generated_by_dvips
+    - too_much_input_for_diff
 libscca:
   version: 20160108-1
   issues:
@@ -17224,6 +17239,8 @@ nikwi:
   comments: |
     Tool to pack game data processes files in readdir order.
     https://sources.debian.net/src/nikwi/0.0.20120213-3/src/tools/upack/upack.c/#L180
+  issues:
+    - too_much_input_for_diff
   bugs:
     - 835625
 nipy:
@@ -24998,6 +25015,7 @@ rr:
   version: 4.3.0-1
   issues:
     - captures_build_path
+    - too_much_input_for_diff
 rrdcollect:
   version: 0.2.10-2
   issues:
@@ -28444,6 +28462,7 @@ twinkle:
   version: 1:1.10.0+dfsg-1
   issues:
     - captures_build_path
+    - too_much_input_for_diff
 twisted:
   version: 16.3.0-1
   issues:
@@ -28631,6 +28650,7 @@ ufoai-maps:
   version: 2.5-1
   issues:
     - blacklisted_on_jenkins_armhf_only
+    - too_much_input_for_diff
 uget:
   version: 2.0.6-1
   bugs:
@@ -29486,6 +29506,7 @@ wireshark:
     from irc: "haha, fun: wiresharks embeds the build date *without timezone*, so atm we only notice when its build around UTC midnight…" - please continue investigating from here.
   issues:
     - captures_build_path
+    - too_much_input_for_diff
 wit:
   version: 2.22b-1
   comments: |
@@ -30745,6 +30766,7 @@ zsh:
     Blocked by: #778462
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - too_much_input_for_diff
   bugs:
     - 779566
 zssh:
