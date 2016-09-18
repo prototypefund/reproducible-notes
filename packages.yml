@@ -12132,6 +12132,7 @@ ledger:
   version: 3.1+dfsg1-7
   issues:
     - blacklisted_on_jenkins_armhf_only
+    - captures_build_path
 leds-alix:
   version: 0.0.1-1.1
   issues:
@@ -14306,6 +14307,7 @@ libtheora:
   version: 1.1.1+dfsg.1-14
   issues:
     - timestamps_in_tex_documents
+    - captures_build_path
 libtime-period-perl:
   version: 1.20-8.1
   bugs:
@@ -20442,6 +20444,7 @@ py-postgresql:
   issues:
     - random_order_in_python_environment_pickle
     - randomness_in_documentation_generated_by_sphinx
+    - captures_build_path
 py-radix:
   version: 0.5-3
   issues:
@@ -21614,6 +21617,7 @@ python-pyaudio:
   version: 0.2.8-1
   issues:
     - random_order_in_python_environment_pickle
+    - captures_build_path
 python-pycadf:
   version: 1.1.0-3
   bugs:
@@ -23704,6 +23708,7 @@ r-cran-readmzxmldata:
   issues:
     - timestamps_in_description_files_generated_by_r-base-dev
     - randomness_in_r_rdb_rds_databases
+    - captures_build_path
   bugs:
     - 783057
 r-cran-readxl:
@@ -24870,6 +24875,10 @@ rrdcollect:
   version: 0.2.10-2
   issues:
     - captures_build_path
+rrdtool:
+  version: 1.6.0-1
+  issues:
+    - captures_build_path
 rsbackup:
   version: 3.0-2
   issues:
@@ -25839,6 +25848,7 @@ sdcc:
     - timestamps_in_pdf_generated_by_imagemagick
     - different_due_to_umask
     - timestamps_in_ps_generated_by_dvips
+    - captures_build_path
 sdcv:
   version: 0.5.0~beta4-1
   issues:
@@ -26818,6 +26828,7 @@ squeak-vm:
   issues:
     - timestamps_from_cpp_macros
     - user_hostname_manually_added_requiring_further_investigation
+    - captures_build_path
 squid3:
   version: 3.5.19-1
   issues:
@@ -27514,6 +27525,7 @@ tcllib:
   version: 1.17-dfsg-1
   issues:
     - different_encoding
+    - captures_build_path
 tcltk-defaults:
   version: 8.6.0+9
   issues:
@@ -28933,6 +28945,7 @@ vite:
   version: 1.2+svn1430-2
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - captures_build_path
 viva:
   version: 1.1+git20150820.1a3d1f680f-1
   issues:
