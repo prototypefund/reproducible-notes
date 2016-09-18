@@ -255,6 +255,10 @@ afnix:
     In the file ./prj/std/adp/src/std-adp-manpg.als of afnix package (afnix:adp nroff
     manual page module), the line 97: "text:+= (afnix:adp:get-date)" adds a timestamp
     in the generated manpage from the xml doc.
+    Embeds kernel version:
+    https://sources.debian.net/src/afnix/2.2.0-2/src/lib/plt/acf/ccnf.cpp/?hl=373#L374-L379
+  issues:
+    - captures_kernel_version
   bugs:
     - 812018
 afterstep:
