@@ -14362,6 +14362,7 @@ libtommath:
   issues:
     - timestamps_in_pdf_content
     - random_order_in_static_libraries
+    - fonts_in_pdf_files
 libtool:
   version: 2.4.6-2
   issues:
@@ -24601,6 +24602,7 @@ rheolef:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - captures_build_path
+    - fonts_in_pdf_files
   bugs:
     - 811590
 rhino:
@@ -28514,6 +28516,7 @@ ufoai:
   version: 2.5-1
   issues:
     - random_id_in_pdf_generated_by_dblatex
+    - fonts_in_pdf_files
 ufoai-maps:
   version: 2.5-1
   issues:
