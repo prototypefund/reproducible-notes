@@ -5108,6 +5108,12 @@ dxsamples:
     - captures_build_path
 dynare:
   version: 4.4.3-1
+  comments: |
+    Embeds hostname, kernel version, PATH enviroment variable:
+    https://sources.debian.net/src/dynare/4.4.3-3/configure/?hl=2065#L2065
+    https://sources.debian.net/src/dynare/4.4.3-3/configure/?hl=2067#L2067
+    https://sources.debian.net/src/dynare/4.4.3-3/configure/?hl=2069#L2069
+    https://sources.debian.net/src/dynare/4.4.3-3/configure/?hl=2089#L2089
   issues:
     - timestamps_in_pdf_content
     - captures_build_path
