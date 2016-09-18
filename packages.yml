@@ -1716,6 +1716,7 @@ bin-prot:
   version: 111.03.00-1
   issues:
     - randomness_in_ocaml_preprocessed_files
+    - captures_build_path
 bind9:
   version: 1:9.10.3.dfsg.P4-10
   comments: |
@@ -5274,6 +5275,8 @@ eficas:
     - 830424
 efitools:
   version: 1.4.2-1
+  issues:
+    - captures_build_path
   bugs:
     - 822262
 efivar:
@@ -8547,6 +8550,7 @@ go-mtpfs:
   issues:
     - random_build_path_by_golang_compiler
     - too_much_input_for_diff
+    - captures_build_path
 goaccess:
   version: 1:0.8.3-1
   bugs:
@@ -16891,6 +16895,10 @@ neotoma:
   version: 1.7.3+dfsg-1
   issues:
     - captures_build_path
+neovim:
+  version: 0.1.5-2
+  issues:
+    - captures_build_path
 nestopia:
   version: 1.47-2
   bugs:
@@ -18781,6 +18789,7 @@ paramiko:
   issues:
     - random_order_in_python_environment_pickle
     - randomness_in_documentation_generated_by_sphinx
+    - captures_build_path
 paraview:
   version: 4.1.0+dfsg+1-1
   issues:
@@ -19141,6 +19150,7 @@ pebl:
   issues:
     - random_order_in_python_environment_pickle
     - randomness_in_documentation_generated_by_sphinx
+    - captures_build_path
 pecomato:
   version: 0.0.15-7
   issues:
@@ -20830,6 +20840,7 @@ pyscanfcs:
   version: 0.2.2-2
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - captures_build_path
 pysdl2:
   version: 0.9.3+dfsg2-1
   bugs:
@@ -21759,6 +21770,7 @@ python-setproctitle:
   version: 1.1.8-1
   issues:
     - different_encoding
+    - captures_build_path
 python-sfml:
   version: 2.2~git20150611.196c88+dfsg-3
   issues:
@@ -22022,6 +22034,7 @@ qiime:
   issues:
     - random_order_in_python_environment_pickle
     - randomness_in_documentation_generated_by_sphinx
+    - captures_build_path
 qimageblitz:
   version: 1:0.0.6-4
   issues:
@@ -24585,6 +24598,7 @@ rheolef:
   version: 6.5-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - captures_build_path
   bugs:
     - 811590
 rhino:
@@ -27514,6 +27528,7 @@ tcl8.4:
   version: 8.4.20-8
   issues:
     - random_order_in_static_libraries
+    - captures_build_path
   bugs:
     - 818752
 tcl8.5:
@@ -27701,6 +27716,7 @@ teseq:
   version: 1.1-0.1
   issues:
     - timezone_variance_because_of_automake_mdate
+    - captures_build_path
 tessa:
   version: 0.3.1-6.1
   bugs:
