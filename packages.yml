@@ -16899,6 +16899,12 @@ neotoma:
     - captures_build_path
 neovim:
   version: 0.1.5-2
+  comments: |
+    Two differences:
+      1) Captures hostname (near the start of .rodata).
+      2) .rodata of /usr/bin/nvim includes "hostname\0" (literally those 9 bytes) in first build but not in second build.
+    .
+    These two may have a single cause: in the second build the hostname is "i-capture-the-hostname", so the compiler may have combined string literals, i.e., used the end of the string literal "i-capture-the-hostname" as the literal "hostname".
   issues:
     - captures_build_path
 nestopia:
