@@ -26469,6 +26469,8 @@ slepc:
   version: 3.4.2.dfsg-2
   comments: |
     Contain several logs with timestamps and random paths in /tmp.
+    Embeds build date, hostname, `uname -a`:
+    https://sources.debian.net/src/slepc/3.7.2%2Bdfsg1-3/makefile/?hl=94#L93
   issues:
     - user_hostname_manually_added_requiring_further_investigation
     - captures_kernel_version
