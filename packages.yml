@@ -9067,6 +9067,7 @@ gradle:
     - blacklisted_on_jenkins_armhf_only
     - user_hostname_manually_added_requiring_further_investigation
     - random_ordering_in_pom
+    - captures_kernel_version
 grafana:
   version: 2.6.0+dfsg-3
   bugs:
@@ -19573,6 +19574,7 @@ php7.0:
     - captures_build_path
     - user_hostname_manually_added_requiring_further_investigation
     - captures_home_dir
+    - captures_kernel_version
 phpab:
   version: 1.21.0-2
   comments: |
