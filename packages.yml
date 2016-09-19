@@ -3506,6 +3506,16 @@ courier-authlib:
     Captures SHELL but via autotools.. which should not be a problem due to export in debian/rules?
   issues:
     - captures_shell_variable_in_autofoo_script
+courier-unicode:
+  version: 1.4-2
+  comments: |
+    The order of elements (4-tuples) of the static array «const uint32_t unicode_case_tab[2471][4]» is different between the two builds.
+    .
+    (Each line in the hex dump corresponds to a single 4-tuple.  amd64 is
+    little endian so the values appear LSB first in the hex dump.)
+    .
+    % objdump -T ./usr/lib/x86_64-linux-gnu/libcourier-unicode.so.3.0.0
+    000000000000e2c0 g    DO .rodata	0000000000009a70  Base        unicode_case_tab
 covered:
   version: 0.7.10-3
   issues:
@@ -7702,6 +7712,15 @@ gedit:
     [i386/armhf] mkenums output in unpredictable order.
   issues:
     - nondeterminstic_ordering_in_gsettings_glib_enums_xml
+gedit-plugins:
+  version: 3.22.0-1
+  comments: |
+    Some translations in .plugin files are missing.
+    Suspected to be a concurrency issue.
+    .
+    Possibly related:
+      1) The «%.plugin» rule in plugins/Makefile.am generates the cache file 'intltool-merge-cache' multiple times in parallel
+      2) The .po suffix rules in po/Makefile.in.in
 gegl:
   version: 0.2.0-7.1
   comments: |
