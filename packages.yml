@@ -4911,7 +4911,6 @@ dose3:
 dot-forward:
   version: 1:0.71-2
   issues:
-    - timestamps_in_gzip_headers
     - random_order_in_md5sums
   bugs:
     - 776760
@@ -9261,10 +9260,6 @@ gsfonts:
   version: 1:8.11+urwcyr1.0.7~pre44-4.2
   bugs:
     - 817488
-gsmartcontrol:
-  version: 0.8.7-1.1
-  issues:
-    - captures_build_path
 gsmlib:
   version: 1.10+20120414.gita5e5ae9a-0.3
   bugs:
@@ -12525,10 +12520,6 @@ libbluray:
   version: 1:0.9.3-2
   issues:
     - timestamps_in_ps_generated_by_dvips
-libboost-geometry-utils-perl:
-  version: 0.15-2
-  issues:
-    - captures_build_path
 libbpp-core:
   version: 2.2.0-3
   issues:
@@ -12561,10 +12552,6 @@ libbtbb:
     - captures_build_path
 libbuffy:
   version: 1.9.2-2
-  issues:
-    - captures_build_path
-libburn:
-  version: 1.4.4-1
   issues:
     - captures_build_path
 libc++:
@@ -13619,10 +13606,6 @@ libmapper:
     - 803478
 libmarpa-r2-perl:
   version: 2.086000~dfsg-6
-  issues:
-    - captures_build_path
-libmath-clipper-perl:
-  version: 1.23-1
   issues:
     - captures_build_path
 libmath-gsl-perl:
@@ -18910,10 +18893,6 @@ pantomime1.2:
   version: 1.2.2~r289+dfsg-2
   issues:
     - plist_weirdness
-papi:
-  version: 5.4.3-3
-  issues:
-    - captures_build_path
 paprefs:
   version: 0.9.10-2
   bugs:
@@ -19555,8 +19534,6 @@ php-mongodb:
     - captures_build_path
 php-pinba:
   version: 1.0.0-2
-  issues:
-    - captures_build_path
   bugs:
     - 808055
 php-ps:
@@ -24973,10 +24950,6 @@ ros-nodelet-core:
   version: 1.9.5-2
   issues:
     - captures_build_path
-ros-pcl-conversions:
-  version: 0.2.1-1
-  issues:
-    - captures_build_path
 ros-pcl-msgs:
   version: 0.2.0-4
   issues:
@@ -29180,8 +29153,6 @@ vit:
   version: 1.2-2
   comments: |
     Timestamp in /usr/bin/vit (as comment in source header)
-  issues:
-    - different_encoding
   bugs:
     - 833443
 vite:
