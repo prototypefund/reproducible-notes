@@ -8361,14 +8361,6 @@ gnash:
   version: 0.8.11~git20160608-1.1
   issues:
     - captures_build_path
-gnat-4.9:
-  version: 4.9.3-1
-  issues:
-    - blacklisted_on_jenkins_armhf_only
-    - captures_build_path
-    - different_due_to_umask
-  bugs:
-    - 830436
 gnat-gps:
   version: 5.3dfsg-1
   issues:
