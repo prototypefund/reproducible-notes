@@ -6624,6 +6624,7 @@ fonts-dustin:
   version: 20030517-10
   issues:
     - timestamps_difference_by_unzip
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 815723
 fonts-ebgaramond:
@@ -6814,6 +6815,7 @@ fonts-uralic:
   version: 0.0.20040829-5
   issues:
     - timestamps_difference_by_unzip
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
 fookb:
   version: 3.0-3
   bugs:
@@ -10958,6 +10960,7 @@ jsmath:
   version: !!str 3.6e-1
   issues:
     - timestamps_difference_by_unzip
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 792596
 jsmath-fonts:
@@ -10971,6 +10974,7 @@ jsmath-fonts-sprite:
   version: 1.0-3
   issues:
     - timestamps_difference_by_unzip
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 792597
 jsonm:
@@ -11184,6 +11188,7 @@ kawari8:
   version: 8.2.8-8
   issues:
     - timestamps_difference_by_unzip
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
 kbd:
   version: 2.0.3-2
   issues:
@@ -14128,6 +14133,7 @@ libreoffice-canzeley-client:
   version: 0.4.0-2
   issues:
     - timestamps_difference_by_unzip
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 792598
 librep:
@@ -28472,6 +28478,8 @@ ttf-tiresias:
   version: 0.1-2
   comments: |
     Varying mtimes for font files
+  issues:
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 835143
     - 834896
