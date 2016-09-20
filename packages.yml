@@ -5197,6 +5197,8 @@ ecere-sdk:
   comments: |
     Embeds timestamps.
     https://github.com/ecere/ecere-sdk/blob/master/ecere/src/sys/EARArchive.ec#L35
+  issues:
+    - too_much_input_for_diff
   bugs:
     - 811957
 echolot:
@@ -6201,6 +6203,8 @@ felix-latin:
   version: 2.0-8
   comments: |
     uses imagemagick to create help.tif. would be fixed by 819914
+  issues:
+    - too_much_input_for_diff
 ferret-vis:
   version: 7.0-1
   issues:
@@ -28732,10 +28736,18 @@ ufoai:
   issues:
     - random_id_in_pdf_generated_by_dblatex
     - fonts_in_pdf_files
+ufoai-data:
+  version: 2.5-1
+  issues:
+    - too_much_input_for_diff
 ufoai-maps:
   version: 2.5-1
   issues:
     - blacklisted_on_jenkins_armhf_only
+    - too_much_input_for_diff
+ufoai-music:
+  version: 2.5-1
+  issues:
     - too_much_input_for_diff
 uget:
   version: 2.0.6-1
@@ -29686,6 +29698,7 @@ wordnet:
   version: 1:3.0-33
   issues:
     - timestamps_in_dictionaries
+    - too_much_input_for_diff
 wordplay:
   version: 7.22-17
   bugs:
