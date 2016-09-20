@@ -3192,6 +3192,10 @@ code2html:
   bugs:
     - 808637
     - 817404
+codeblocks:
+  version: 16.01+dfsg-2
+  issues:
+    - timestamps_in_zip
 codelite:
   version: 9.2+dfsg-1
   issues:
@@ -9927,6 +9931,7 @@ httpunit:
   version: 1.7+dfsg-11
   issues:
     - locale_in_documentation_generated_by_javadoc
+    - timestamps_in_zip
 httrack:
   version: 3.48.23-1
   issues:
