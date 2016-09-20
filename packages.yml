@@ -5703,6 +5703,8 @@ erlang-p1-sip:
     - captures_build_path
 erlang-p1-sqlite3:
   version: 1.1.5~dfsg0-1
+  issues:
+    - captures_build_path
   bugs:
     - 836970
 erlang-p1-stringprep:
@@ -7207,6 +7209,7 @@ fvwm:
       https://sources.debian.net/src/fvwm/1:2.6.5.ds-4.1/bin/fvwm-bug.in/#L89
   issues:
     - user_hostname_manually_added_requiring_further_investigation
+    - captures_build_path
   bugs:
     - 831646
 fvwm1:
@@ -7828,6 +7831,7 @@ geomview:
     - captures_shell_variable_in_autofoo_script
     - user_hostname_manually_added_requiring_further_investigation
     - captures_kernel_version
+    - captures_build_path
 gerbv:
   version: 2.6.0-1.1
   issues:
@@ -8618,6 +8622,7 @@ gnustep-base:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - user_in_documentation_generated_by_gsdoc
+    - captures_build_path
 gnustep-dl2:
   version: 0.12.0-13
   comments: |
@@ -9103,6 +9108,7 @@ grace:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - captures_kernel_version
+    - captures_build_path
 gradle:
   version: 1.5-2
   issues:
@@ -9723,6 +9729,7 @@ hercules:
   version: 3.12-1
   issues:
     - captures_shell_variable_in_autofoo_script
+    - captures_build_path
 herelib:
   version: 112.35.00-1
   issues:
@@ -11166,6 +11173,7 @@ kannel:
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_dvi_generated_by_latex
     - timestamps_in_ps_generated_by_dvips
+    - captures_build_path
   bugs:
     - 819915
 kannel-sqlbox:
@@ -12107,6 +12115,8 @@ ladish:
     - captures_build_path
 lakai:
   version: 0.1-1
+  issues:
+    - captures_build_path
   bugs:
     - 817516
 lam:
@@ -12545,6 +12555,7 @@ libbitcoin:
   issues:
     - leaks_path_environment_variable
     - captures_shell_variable_in_autofoo_script
+    - captures_build_path
 libblocksruntime:
   version: 0.4.1-1
   issues:
@@ -12671,6 +12682,7 @@ libcommoncpp2:
   version: 1.8.1-6.1
   issues:
     - captures_shell_variable_in_autofoo_script
+    - captures_build_path
 libcommons-collections3-java:
   version: 3.2.2-1
   issues:
@@ -13775,6 +13787,7 @@ libnet:
   version: 1.1.6+dfsg-3
   issues:
     - captures_shell_variable_in_autofoo_script
+    - captures_build_path
 libnet-finger-perl:
   version: 1.06-6
   bugs:
@@ -13958,6 +13971,8 @@ libpeas:
     - 802095
 libphonenumber:
   version: 7.1.0-3
+  issues:
+    - captures_build_path
   bugs:
     - 828748
     - 811613
@@ -14356,6 +14371,7 @@ libstatgrab:
   version: 0.91-1
   issues:
     - captures_shell_variable_in_autofoo_script
+    - captures_build_path
 libstdc++-arm-none-eabi:
   version: 8
   issues:
@@ -15702,6 +15718,8 @@ mate-settings-daemon:
     - 819779
 mathgl:
   version: 2.3.4-1
+  issues:
+    - captures_build_path
   bugs:
     - 835680
 mathjax-docs:
@@ -16335,6 +16353,7 @@ mona:
   issues:
     - leaks_path_environment_variable
     - captures_shell_variable_in_autofoo_script
+    - captures_build_path
 mondrian:
   version: 3.4.1-1
   issues:
@@ -16573,6 +16592,8 @@ mpm-itk:
     - captures_build_path
 mpqc:
   version: 2.3.1-16.1
+  issues:
+    - captures_build_path
   bugs:
     - 812036
 mpqc3:
@@ -16763,6 +16784,7 @@ musescore:
   version: 2.0.3+dfsg1-2
   issues:
     - build_id_variation_requiring_further_investigation
+    - captures_build_path
 music:
   version: 1.0.7-1.2
   bugs:
@@ -17092,6 +17114,7 @@ netgen:
   version: 4.9.13.dfsg-8
   issues:
     - captures_shell_variable_in_autofoo_script
+    - captures_build_path
 netkit-bootparamd:
   version: 0.17-9
   issues:
@@ -17478,6 +17501,7 @@ normaliz:
   version: 3.1.1+ds-1
   issues:
     - timestamps_in_tex_documents
+    - captures_build_path
 norwegian:
   version: 2.0.10-5.2
   issues:
@@ -18005,6 +18029,7 @@ ocamlviz:
   version: 1.01-2
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - captures_build_path
 oce:
   version: 0.17.1-1
   issues:
@@ -20012,6 +20037,8 @@ poc-streamer:
     - 817623
 pocl:
   version: 0.10-10
+  issues:
+    - captures_build_path
   bugs:
     - 764563
 poco:
@@ -22048,6 +22075,7 @@ python-x2go:
     - randomness_in_documentation_generated_by_epydoc
     - captures_home_dir
     - user_hostname_manually_added_requiring_further_investigation
+    - captures_build_path
 python-xklavier:
   version: 0.4-4
   bugs:
@@ -26447,6 +26475,7 @@ simstring:
   version: 1.0-1
   issues:
     - captures_shell_variable_in_autofoo_script
+    - captures_build_path
 simulavr:
   version: 0.1.2.2-7
   issues:
@@ -26769,6 +26798,7 @@ snort:
   version: 2.9.7.0-4
   issues:
     - pdf_created_by_ghostscript
+    - captures_build_path
 snow:
   version: 1:0.4.1-2
   issues:
@@ -27061,6 +27091,7 @@ sqlite3:
     .la files should not be shipped in Debian packages
   issues:
     - captures_shell_variable_in_autofoo_script
+    - captures_build_path
 sqljet:
   version: 1.1.10-1
   issues:
@@ -27801,6 +27832,7 @@ tclxml:
   version: 3.3~svn11-3
   issues:
     - different_encoding
+    - captures_build_path
 tcm:
   version: 2.20+TSQD-4.4
   bugs:
@@ -27892,6 +27924,7 @@ telepathy-python:
   version: 0.15.19-2.1
   issues:
     - captures_shell_variable_in_autofoo_script
+    - captures_build_path
 telepathy-qt:
   version: 0.9.6.1-6
   issues:
@@ -28928,6 +28961,8 @@ urca:
     - randomness_in_r_rdb_rds_databases
 urdfdom:
   version: 0.4.1-1
+  issues:
+    - captures_build_path
   bugs:
     - 835284
 urweb:
@@ -29526,6 +29561,7 @@ wget:
   version: 1.18-2
   issues:
     - different_pot_creation_date_in_gettext_mo_files
+    - captures_build_path
   bugs:
     - 833070
 whereami:
