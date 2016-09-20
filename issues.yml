@@ -1329,6 +1329,9 @@ random_order_in_sisu_javax_inject_named:
   description: |
     libsisu-maven-plugin-java generates META-INF/sisu/javax.inject.Named files in
     an apparently random order.
+captures_users_gecos:
+  description:
+    Captures user's GECOS, e.g., second room.
 varnish_vmodtool_random_file_id:
   description: |
     Modules contain a random `file_id`:
