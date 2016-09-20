@@ -5148,6 +5148,10 @@ dynare:
     - leaks_path_environment_variable
     - captures_shell_variable_in_autofoo_script
     - user_hostname_manually_added_requiring_further_investigation
+e17:
+  version: 0.17.6-1.1
+  issues:
+    - timestamps_in_edj_files_generated_by_edje_cc
 e2guardian:
   version: 3.4.0.3-1
   issues:
