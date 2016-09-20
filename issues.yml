@@ -1329,4 +1329,8 @@ random_order_in_sisu_javax_inject_named:
   description: |
     libsisu-maven-plugin-java generates META-INF/sisu/javax.inject.Named files in
     an apparently random order.
-
+varnish_vmodtool_random_file_id:
+  description: |
+    Modules contain a random `file_id`:
+    https://sources.debian.net/src/varnish/4.0.2-1/lib/libvcc/vmodtool.py/?hl=237:244#L237
+    Should discuss with upstream on replacing this with a constant hash.

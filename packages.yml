@@ -28973,14 +28973,15 @@ variantslib:
     - captures_build_path
 varnish:
   version: 4.0.2-1
-  comments: |
-    Modules contain a random `file_id`:
-    https://sources.debian.net/src/varnish/4.0.2-1/lib/libvcc/vmodtool.py/?hl=237:244#L237
-    Should discuss with upstream on replacing this with a constant hash.
   issues:
     - captures_build_path
+    - varnish_vmodtool_random_file_id
   bugs:
     - 835061
+varnish-modules:
+  version: 0.9.1-3
+  issues:
+    - varnish_vmodtool_random_file_id
 varnish-agent:
   version: 2.2~git20130708-1
   bugs:
