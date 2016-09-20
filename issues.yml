@@ -1337,3 +1337,6 @@ varnish_vmodtool_random_file_id:
     Modules contain a random `file_id`:
     https://sources.debian.net/src/varnish/4.0.2-1/lib/libvcc/vmodtool.py/?hl=237:244#L237
     Should discuss with upstream on replacing this with a constant hash.
+gpg_keyring_magic_bytes_differ:
+  description: |
+    Differences near the start and end of a GPG keyring, on lines 2, 8, -2, and -1 of the hexdump.
