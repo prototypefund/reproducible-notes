@@ -5882,6 +5882,8 @@ exo:
   version: 0.10.2-4
   comments: |
     No clue. But seems to be similar to garcon.
+  issues:
+    - different_encoding
 exodusii:
   version: 6.02.dfsg.1-7
   issues:
@@ -10776,6 +10778,7 @@ jaxb:
   version: 2.2.5-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+    - different_encoding
 jaxb-api:
   version: 2.2.9-1
   issues:
@@ -13397,6 +13400,7 @@ libjdepend-java:
   version: 2.9.1-1
   issues:
     - locale_in_documentation_generated_by_javadoc
+    - different_encoding
 libjdo-api-java:
   version: 3.1-1
   issues:
@@ -29858,6 +29862,7 @@ x11proto-record:
   version: 1.14.2-1
   issues:
     - xmlto_txt_output_locale_specific
+    - different_encoding
 x11proto-scrnsaver:
   version: 1.2.2-1
   issues:
@@ -30191,6 +30196,7 @@ xml-commons-external:
   version: 1.4.01-2
   issues:
     - locale_in_documentation_generated_by_javadoc
+    - different_encoding
 xml-core:
   version: 0.13+nmu2
   bugs:
