@@ -21775,6 +21775,16 @@ python-pint:
   version: 0.6-1
   issues:
     - copyright_year_in_documentation_generated_by_sphinx
+python-pip:
+  version: 8.1.2-2
+  comments: |
+    In urllib3-1.15.1.dist-info/METADATA, a Requires-Dist header has two version constraints; they appear in random order.
+    .
+    Reproduces in amd64/unstable but not on other archs, so may be non-deterministic (eg hash order).
+    .
+    Example:
+      │   │   │   │   │ -Requires-Dist: PySocks (>=1.5.6,<2.0); extra == 'socks'
+      │   │   │   │   │ +Requires-Dist: PySocks (<2.0,>=1.5.6); extra == 'socks'
 python-poppler:
   version: 0.12.1-8.1
   issues:
