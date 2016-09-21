@@ -28030,7 +28030,9 @@ texi2html:
     .
     The <i>/<em> difference is fallout and can be ignored.  (The i18n/en .po file uses different tags in the first translation to in the second translation.)
     .
-    The string "second user" could come from GECOS, but then, why doesn't it say "first user" on the first build?
+    The $USER value the code uses may be the full name from GECOS.  That is currently set to "second user" on the second build and is null on the second build, which explains the observations.
+  issues:
+    - captures_users_gecos
 texlive-base:
   version: 2014.20141024-2
   comments: |
