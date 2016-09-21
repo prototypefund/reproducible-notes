@@ -7504,14 +7504,6 @@ gbrowse:
     ConfigData.pm embeds a random 'OpenIDConsumerSecret'.
   bugs:
     - 833885
-gcc-4.9:
-  version: 4.9.3-1
-  comments: |
-    Contains test output in boehmm-gc.log.xz which is non-determinstic and contains timestamps
-    deki said: 'libcilkrts/runtime/sysdep-unix.c contains __DATE__ and __TIME__'
-  issues:
-    - blacklisted_on_jenkins_armhf_only
-    - diffoscope_runs_forever
 gcc-5:
   version: 5.3.1-6
   comments: |
