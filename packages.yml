@@ -28020,6 +28020,17 @@ tevent:
   version: 0.9.26-1
   issues:
     - captures_build_path
+texi2html:
+  version: 1.82+dfsg1-5
+  comments: |
+    The tagline is different between the two builds:
+      -on $DATE
+      +by $USER on $DATE
+    The important difference is that $USER is not available: see T2H_DEFAULT_program_string().
+    .
+    The <i>/<em> difference is fallout and can be ignored.  (The i18n/en .po file uses different tags in the first translation to in the second translation.)
+    .
+    The string "second user" could come from GECOS, but then, why doesn't it say "first user" on the first build?
 texlive-base:
   version: 2014.20141024-2
   comments: |
