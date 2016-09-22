@@ -8026,9 +8026,11 @@ ginkgocadx:
   issues:
     - diffoscope_runs_forever
 gio-sharp:
-  version: 2.22.3-2
+  version: 2.22.3-3
   comments: |
-    Unidentified variation in /usr/lib/gio-sharp/gio-sharp.dll
+    DLL strong name varies.
+  issues:
+    - cryptographic_signature
 girara:
   version: 0.2.6-1
   issues:
@@ -17348,6 +17350,12 @@ nikwi:
     - too_much_input_for_diff
   bugs:
     - 835625
+nini:
+  version: 1.1.0+dfsg.2-5
+  comments: |
+    DLL strong name varies.
+  issues:
+    - cryptographic_signature
 nipy:
   version: 0.3.0+git262-gbb838d7-1
   issues:
