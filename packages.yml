@@ -27650,6 +27650,14 @@ syrep:
   version: 0.9-4.2
   bugs:
     - 817684
+syrthes:
+  version: 4.3.0-dfsg1-1
+  comments: |
+    src/syrthes-kernel/src/Makefile:17: ar rv $(LIB_SYRTHES) $(BUILD)/*.o
+    .
+    The shell glob expansion order is locale dependent.
+  issues:
+    - random_order_in_static_libraries
 sysbench:
   version: 0.4.12-1.1
   issues:
