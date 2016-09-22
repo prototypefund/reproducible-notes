@@ -8408,6 +8408,19 @@ gnome-color-chooser:
   version: 0.2.5-1
   bugs:
     - 817295
+gnome-contacts:
+  version: 3.22.1-1
+  comments: |
+    The following two lines appear in a non-deterministic order in the compiled binary:
+    .
+    src/contacts-window.c:2108	static void contacts_window_instance_init (ContactsWindow * self) {
+    ⋮
+    src/contacts-window.c:2111		g_type_ensure (CONTACTS_TYPE_CONTACT_PANE);
+    src/contacts-window.c:2112		g_type_ensure (CONTACTS_TYPE_ACCOUNTS_LIST);
+    ⋮
+    src/contacts-window.c:2114	}
+    .
+    This may be caused by `-Wl,-O1` in debian/rules.
 gnome-do:
   version: 0.95.3-1
   issues:
