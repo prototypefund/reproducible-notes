@@ -6489,6 +6489,10 @@ flex:
   issues:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+flex-old:
+  version: 2.5.4a-10
+  issues:
+    - texi2html_captures_users_gecos
 flexml:
   version: 1.9.6-5
   issues:
@@ -8402,6 +8406,10 @@ gnome-color-chooser:
   version: 0.2.5-1
   bugs:
     - 817295
+gnome-contacts:
+  indent: 2.2.11-4
+  issues:
+    - texi2html_captures_users_gecos
 gnome-do:
   version: 0.95.3-1
   issues:
@@ -28044,7 +28052,7 @@ texi2html:
     .
     The $USER value the code uses may be the full name from GECOS.  That is currently set to "second user" on the second build and is null on the first build, which explains the observations.
   issues:
-    - captures_users_gecos
+    - texi2html_captures_users_gecos
 texlive-base:
   version: 2014.20141024-2
   comments: |

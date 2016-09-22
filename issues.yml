@@ -1332,6 +1332,12 @@ random_order_in_sisu_javax_inject_named:
 captures_users_gecos:
   description:
     Captures user's GECOS, e.g., second room.
+    .
+    Sub-issue<imagine a colon> texi2html_captures_users_gecos
+texi2html_captures_users_gecos:
+  description:
+    Difference in the "This documented was generated on/by" line, documented in the notes of the 'texi2html' package.
+    Sub-issue of captures_users_gecos
 varnish_vmodtool_random_file_id:
   description: |
     Modules contain a random `file_id`:
