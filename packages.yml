@@ -4929,6 +4929,12 @@ dot-forward:
     - random_order_in_md5sums
   bugs:
     - 776760
+double-conversion:
+  version: 2.0.1-3
+  comments: |
+    debian/rules: SRC=$(shell echo src/*.cc)
+  issues:
+    - random_order_in_static_libraries
 dovecot:
   version: 1:2.2.25-1
   issues:
@@ -16468,6 +16474,29 @@ monotone:
   comments: |
     The freshly build executable produces its own manpage in Makefile.am,
     embedding timestamps.
+  issues:
+    - captures_build_path
+montage:
+  version: 4.0+dfsg-3
+  comments: |
+    The reversed form of "/build-1st/montage/foo/bar" is captured:
+    .
+    │   │   │   │   │ -  4021dc:	48 b8 2f 62 75 69 6c 	movabs $0x312d646c6975622f,%rax
+    │   │   │   │   │ +  4021dc:	48 b8 2f 62 75 69 6c 	movabs $0x322d646c6975622f,%rax
+    ⋮
+    │   │   │   │   │ -  4021f6:	48 b8 73 74 2f 6d 6f 	movabs $0x61746e6f6d2f7473,%rax
+    │   │   │   │   │ +  4021f6:	48 b8 6e 64 2f 6d 6f 	movabs $0x61746e6f6d2f646e,%rax
+    .
+    % echo 312d646c6975622f | xxd -p -r
+    1-dliub/
+    % echo 61746e6f6d2f7473 | xxd -p -r
+    atnom/ts
+    .
+    This appears to be an inlined strcpy():
+    .
+    util/Viewer/Makefile.LINUX:10:DATA_DIR = $(shell cd ../../data; pwd)
+    util/Viewer/Makefile.LINUX:13:                -DFONT_DIR='"$(DATA_DIR)/fonts/"'
+    util/Viewer/mViewer.c:605:   strcpy(fontfile, FONT_DIR)
   issues:
     - captures_build_path
 moonshot-gss-eap:
