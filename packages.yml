@@ -11994,8 +11994,10 @@ ksh:
     These are getconf(1) symbolic constants, also defined in the system header
     files, but at least in the CHILD_MAX case I think the difference is because
     src/lib/libast/comp/conf.tab *measures* the constant's value by calling
-    fork(2) in a loop until that fails.  (That file has similar code for
-    measuring OPEN_MAX.)
+    fork(2) in a loop until that fails.  [This can't be the whole explanation:
+    the measurement code always prints an even value, but 193527 is odd.]
+    .
+    conf.tab has similar code for measuring OPEN_MAX.
 kshutdown:
   version: 3.2-2
   issues:
