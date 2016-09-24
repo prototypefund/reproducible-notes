@@ -1346,3 +1346,13 @@ varnish_vmodtool_random_file_id:
 gpg_keyring_magic_bytes_differ:
   description: |
     Differences near the start and end of a GPG keyring, on lines 2, 8, -2, and -1 of the hexdump.
+timestamps_in_org_mode_html_output:
+  description: |
+    emacs' org-mode can convert .org to .html on the command line, eg
+    .
+    $ emacs README.org --batch -f org-html-export-to-html --kill
+    .
+    This adds some timestamps, including
+    .
+      <!-- 2016-09-24 sam 14:54 -->
+      <p class="date">Created: 2016-09-24 sam 14:54</p>
