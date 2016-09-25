@@ -16306,6 +16306,10 @@ mmake:
   version: 2.3-6
   bugs:
     - 817585
+mmh:
+  version: 0.3-1
+  issues:
+    - locale_dependent_symbol_order_by_lorder
 mmpong:
   version: 0.9.1-3
   bugs:
@@ -18671,6 +18675,14 @@ openocd:
   version: 0.9.0-1
   bugs:
     - 834316
+openorienteering-mapper:
+  version: 0.6.3-2
+  comments: |
+    1) Captures build date in "Mapper 0.6.3 Manual.qhc".
+    2) /usr/lib/openorienteering-mapper/bin/Mapper: Two distinct binary differences in _ZTS18OverridingShortcut in .rodata .
+      The first set of differences is six non-consecutive bytes having different values.
+      The second set is a ~1800 bytes long block that has a different value and a different length.
+      Q_OBJECT is defined in qtbase-opensource-src.
 openscad:
   version: 2015.03-1+dfsg-3
   issues:
