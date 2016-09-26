@@ -18151,6 +18151,10 @@ ocamlduce:
   version: 3.12.1.0-1
   bugs:
     - 738423
+ocamlgraph:
+  version: 1.8.6-1
+  issues:
+    - captures_build_path
 ocamlgsl:
   version: 1.19.1-1
   issues:
@@ -20424,6 +20428,10 @@ postgresql-plsh:
     - captures_build_path
 postgresql-prioritize:
   version: 1.0.4-1.2
+  issues:
+    - captures_build_path
+postgresql-unit:
+  version: 1.0
   issues:
     - captures_build_path
 pound:
