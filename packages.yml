@@ -30124,6 +30124,16 @@ xalan:
   issues:
     - captures_build_path
     - too_much_input_for_diff
+xapian-bindings:
+  version: 1.4.0-4
+  comments: |
+    [experimental/amd64]
+    Three differences in created.rid:
+      - build path
+      - build date
+      - a fixed date, rendered in the build's timezone
+  issues:
+    - captures_build_path
 xapian-core:
   version: 1.2.23-1
   issues:
