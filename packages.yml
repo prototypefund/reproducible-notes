@@ -2681,6 +2681,12 @@ ceph:
   bugs:
     - 791913
     - 811674
+cerbere:
+  version: 0.2.1-1~experimental1
+  comments: |
+    [experimental/amd64]
+  issues:
+    - captures_build_path
 ceres-solver:
   version: 1.11.0~dfsg0-5
   issues:
@@ -20434,6 +20440,17 @@ postgresql-unit:
   version: 1.0
   issues:
     - captures_build_path
+poti:
+  version: 4.2-1
+  comments: |
+    Missing Build-Depends on git:
+    .
+    │   │   │   │ -#define POTI_GITVERSION "/bin/sh: 1: git: not found"
+    │   │   │   │ -#define POTI_GITDATE "/bin/sh: 1: git: not found"
+    │   │   │   │ +#define POTI_GITVERSION "/bin/sh: git : commande introuvable"
+    │   │   │   │ +#define POTI_GITDATE "/bin/sh: git : commande introuvable"
+    .
+    This could explain the all other differences (through #838260).
 pound:
   version: 2.6-6.1
   comments: |
@@ -24818,6 +24835,12 @@ react:
   version: 1.2.0-2
   issues:
     - captures_build_path
+readline:
+  version: 7.0-1~exp1
+  comments: |
+    [experimental/amd64]
+  issues:
+    - records_build_flags
 readline5:
   version: 5.2+dfsg-3
   issues:
