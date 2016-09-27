@@ -29466,6 +29466,10 @@ webkit2gtk:
     Lunar thinks we need parallel processing implemented in diffoscope before it can deal with such big packages. (The artifacts dumped were 18GB.)
   issues:
     - blacklisted_on_jenkins
+webkit2pdf:
+  version: 0.3-2
+  bugs:
+    - 838970
 webkitgtk:
   version: 2.4.9-3
   issues:
