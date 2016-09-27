@@ -11188,6 +11188,10 @@ kcalutils:
   version: 16.04.3-1
   issues:
     - build_id_variation_requiring_further_investigation
+kcm-ufw:
+  version: 0.4.3-1
+  issues:
+    - captures_build_path
 kcodecs:
   version: 5.25.0-1
   issues:
@@ -15289,6 +15293,10 @@ lush:
   bugs:
     - 787650
     - 787651
+luxio:
+  version: 9-1
+  comments: |
+    Captures build date by LDoc (fork of the tool from 'timestamps_in_documentation_generated_by_lua_ldoc').
 lv2-c++-tools:
   version: 1.0.5-2
   bugs:
@@ -17222,6 +17230,51 @@ nexus:
   version: 4.3.2-svn1921-2
   issues:
     - timestamps_in_jar
+nfft:
+  version: 3.3.2~rc2-2
+  comments: |
+    tl;dr: A floating-point constant has a different value.
+    .
+    Occurs on amd64 and i386 but not on armhf.  This accords with
+    architecture-dependent dependencies (no pun intended) in d/control and
+    d/rules, specifically, libfftw3-long3 is not available on armhf.
+    .
+    The library is built three times, with (float | double | long double) as the type 'R'.
+    (Reminder: on amd64, the sizeof()s of these types are 4/8/16 respectively and they must be aligned to their size.)
+    .
+    The difference is always in the .rodata section, always right after the end of a string
+    literal and before what appears to be an array of small integers in 16-bit words; for
+    example, in the 'float' case:
+    .
+    │   │   │   │   │    0x0004abe0 45252b2e 3145692c 00252b45 252b4569 E%+.1Ei,.%+E%+Ei
+    │   │   │   │   │    0x0004abf0 2c0a0000 f037983c f304b539 0000f042 ,....7.<...9...B
+    │   │   │   │   │ -  0x0004ac00 e30c1b4f 286b6e4e 00000000 00000000 ...O(knN........
+    │   │   │   │   │ +  0x0004ac00 53eb264f 286b6e4e 00000000 00000000 S.&O(knN........
+    │   │   │   │   │    0x0004ac10 00000000 00000000 00000000 00000000 ................
+    │   │   │   │   │    0x0004ac20 01000000 00000000 03000000 00000000 ................
+    │   │   │   │   │    0x0004ac30 07000000 00000000 09000000 00000000 ................
+    │   │   │   │   │    0x0004ac40 0e000000 00000000 11000000 00000000 ................
+    .
+    The difference always occurs in the 4th sizeof(R)-block after the end of the string literal "%+E%+Ei,\n".
+    For example, in the 'float' case
+      the literal ends at 0x4abf2,
+      the next point a float can be aligned at is 0x4abf4,
+      and «(float*)(3 + (float*)0x4abf4)» is the word having a difference.
+    .
+    The same is true for the 'double' and 'long double' builds, mutatis mutandis
+    (substitute for 'float' the value of the type 'R' in that build).
+    .
+    Tracing the architecture-dependent part (d/rules → --enable-long-double
+    → AC_DEFINE(NFFT_LDOUBLE, 1)) finds two global arrays of type 'R':
+    .
+        kernel/util/lambda.c|24 col 13| #if defined(NFFT_LDOUBLE)
+        kernel/util/bessel_i0.c|21 col 13| #if defined(NFFT_LDOUBLE)
+    .
+    These arrays would be stored in .rodata, although I couldn't find them in
+    the symbol table.
+    .
+    So, the hypothesis is that a const variable of type 'R' of static storage
+    duration has a different value between the two builds.
 nflog-bindings:
   version: 0.2-3.1
   issues:
@@ -27249,6 +27302,12 @@ stopmotion:
   version: 0.8.0-5
   bugs:
     - 800059
+storaged:
+  version: 2.5.0-1
+  comments: |
+    [experimental/amd64]
+  issues:
+    - captures_build_path
 storm:
   version: 0.19-1
   issues:
@@ -28573,6 +28632,12 @@ tuxpaint-config:
     https://sources.debian.net/src/tuxpaint-config/0.0.13-1/Makefile/?hl=18#L18
   bugs:
     - 834780
+tvc:
+  version: 5.0.3+dfsg-1
+  comments: |
+    [experimental/amd64]
+  issues:
+    - captures_build_path
 tvtime:
   version: 1.0.2-14
   bugs:
