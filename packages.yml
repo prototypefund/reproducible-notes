@@ -9650,7 +9650,6 @@ hdf-eos4:
 hdf-eos5:
   version: 5.1.15.dfsg.1-6
   issues:
-    - captures_shell_variable_in_autofoo_script
     - captures_build_path
 hdf5:
   version: 1.8.16+docs-1
@@ -18438,7 +18437,6 @@ opendkim:
 opendmarc:
   version: 1.3.1+dfsg-3
   issues:
-    - captures_shell_variable_in_autofoo_script
     - captures_build_path
 opendnssec:
   version: 1:1.4.10-1
@@ -26840,7 +26838,6 @@ snapper:
   version: 0.2.4-1
   issues:
     - captures_build_path
-    - captures_shell_variable_in_autofoo_script
   bugs:
     - 818027
 snd:
