@@ -329,6 +329,8 @@ allegro5:
   version: 2:5.0.11-1
   comments: |
     Includes build timestamp from docs/scripts/insert_timestamp.c but also non-determinstic order of method sigs from docs/scripts/make_man.c
+  issues:
+    - captures_build_path
 alliance:
   version: 5.1.1-1.1
   issues:
@@ -745,6 +747,7 @@ apron:
   version: 0.9.10-9
   issues:
     - captures_home_dir
+    - captures_build_path
 apscheduler:
   version: 3.0.5-1
   bugs:
@@ -1305,6 +1308,8 @@ avifile:
     - 811721
 avogadro:
   version: 1.0.3-13
+  issues:
+    - captures_build_path
   bugs:
     - 812265
     - 812265
@@ -2183,6 +2188,7 @@ btyacc:
   version: 3.0-5
   issues:
     - captures_home_dir
+    - captures_build_path
   bugs:
     - 823428
 budgie-desktop:
@@ -2583,6 +2589,8 @@ cdrkit:
     - captures_build_path
 cduce:
   version: 0.6.0-1
+  issues:
+    - captures_build_path
   bugs:
     - 796418
 cegui-mk2:
@@ -3398,6 +3406,7 @@ consul:
   version: 0.6.4~dfsg-3
   issues:
     - too_much_input_for_diff
+    - captures_build_path
 consul-migrate:
   version: 0.1.0-1
   issues:
@@ -4818,6 +4827,7 @@ dogtag-pki:
   version: 10.2.0-4
   issues:
     - timestamps_in_jar
+    - captures_build_path
   bugs:
     - 811788
 dolfin:
@@ -9538,6 +9548,8 @@ handbrake:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/handbrake/0.10.2%2Bds1-1/make/configure.py/#L810
+  issues:
+    - captures_build_path
   bugs:
     - 834192
 haproxy:
@@ -9914,6 +9926,7 @@ hugo:
   version: 0.15+git20160109.147.dd1d655-1
   issues:
     - timestamps_in_manpages_added_by_golang_cobra
+    - captures_build_path
 hunt:
   version: 1.5-6.1
   issues:
@@ -10128,6 +10141,8 @@ ifrit:
     - captures_build_path
 ifstat:
   version: 1.1-8
+  issues:
+    - captures_build_path
   bugs:
     - 817499
 ignition-math2:
@@ -11320,6 +11335,7 @@ kdevelop-python:
   issues:
     - users_and_groups_in_tarball
     - different_due_to_umask
+    - captures_build_path
 kdevplatform:
   version: 1.7.2-1
   issues:
@@ -11764,6 +11780,10 @@ konclude:
   version: 0.6.2~dfsg-2
   bugs:
     - 811670
+konquest:
+  version: 4:16.08.0-1
+  issues:
+    - captures_build_path
 konsole:
   version: 4:16.04.2-1
   bugs:
@@ -11853,6 +11873,10 @@ kredentials:
   issues:
     - captures_build_path
 kremotecontrol:
+  version: 4:16.08.0-1
+  issues:
+    - captures_build_path
+kreversi:
   version: 4:16.08.0-1
   issues:
     - captures_build_path
@@ -12975,6 +12999,7 @@ libforms:
     - timestamps_in_pdf_generated_by_latex
     - randomness_in_html_generated_by_texi2html
     - captures_shell_variable_in_autofoo_script
+    - captures_build_path
 libfreenect:
   version: 1:0.5.3-1
   issues:
@@ -16821,6 +16846,8 @@ mylvmbackup:
     - 782318
 myspell:
   version: 1:3.0+pre3.1-24.1
+  issues:
+    - captures_build_path
   bugs:
     - 817592
 mysql-5.6:
@@ -16966,6 +16993,7 @@ ncbi-blast+:
   issues:
     - captures_kernel_version
     - diffoscope_runs_forever
+    - captures_build_path
 ncbi-tools6:
   version: 6.1.20120620-8
   issues:
@@ -17715,6 +17743,8 @@ nvidia-settings:
     https://sources.debian.net/src/nvidia-settings/340.93-1/utils.mk/#L330-L331
 nvidia-texture-tools:
   version: 2.0.8-1+dfsg-8
+  issues:
+    - captures_build_path
   bugs:
     - 811612
 nvram-wakeup:
@@ -22352,6 +22382,8 @@ qmc:
     - 817645
 qmmp:
   version: 1.0.5-1.1
+  issues:
+    - captures_build_path
   bugs:
     - 835079
 qmtest:
@@ -22745,6 +22777,10 @@ r-bioc-biomart:
   issues:
     - captures_build_path
     - randomness_in_r_rdb_rds_databases
+r-bioc-biomformat:
+  version: 1.0.2-1
+  issues:
+    - captures_build_path
 r-bioc-biostrings:
   version: 2.40.2-1
   issues:
@@ -24477,6 +24513,7 @@ ragel:
   version: 6.8-1
   issues:
     - captures_shell_variable_in_autofoo_script
+    - captures_build_path
   bugs:
     - 811741
 rakarrack:
@@ -27273,6 +27310,7 @@ stellarium:
   version: 0.15.0-1
   issues:
     - build_id_variation_requiring_further_investigation
+    - captures_build_path
 step:
   version: 4:16.04.0-1
   issues:
@@ -27653,6 +27691,8 @@ syncevolution:
     - 811624
 syncthing:
   version: 0.13.4+dfsg1-1
+  issues:
+    - captures_build_path
   bugs:
     - 835684
 synergy:
@@ -30540,6 +30580,8 @@ xtel:
     - captures_build_path
 xtell:
   version: 2.10.7
+  issues:
+    - captures_build_path
   bugs:
     - 817739
 xtide:
@@ -30895,6 +30937,8 @@ zipios++:
     - 817746
 zivot:
   version: 20013101-3
+  issues:
+    - captures_build_path
   bugs:
     - 817747
 zlibc:
