@@ -8981,6 +8981,8 @@ gpsbabel:
     - captures_build_path
 gpsd:
   version: 3.16-2
+  issues:
+    - build_id_variation_requiring_further_investigation
   bugs:
     - 830993
 gpsmanshp:
@@ -14085,6 +14087,7 @@ libranlip:
   issues:
     - random_order_in_md5sums
     - timestamps_in_gzip_headers
+    - build_id_variation_requiring_further_investigation
   bugs:
     - 788000
 librasterlite2:
@@ -19902,6 +19905,8 @@ pixelmed-codec:
     https://sources.debian.net/src/pixelmed-codec/20141206-1/Makefile/?hl=61#L61
 pixmap:
   version: 2.6pl4-18
+  issues:
+    - build_id_variation_requiring_further_investigation
   bugs:
     - 793709
 pjproject:
@@ -24551,10 +24556,6 @@ raul:
     - captures_build_path
 rawdns:
   version: 1.3~ds1-1
-  issues:
-    - captures_build_path
-rawtherapee:
-  version: 4.2-4
   issues:
     - captures_build_path
 rawtherapee:
