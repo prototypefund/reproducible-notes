@@ -9108,6 +9108,7 @@ graphviz:
   version: 2.38.0-7
   issues:
     - pdf_created_by_ghostscript
+    - fonts_in_pdf_files
   bugs:
     - 827806
     - 830380
@@ -17836,6 +17837,7 @@ ocaml-atd:
   version: 1.1.2-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - fonts_in_pdf_files
 ocaml-base64:
   version: 2.0.0-1
   issues:
@@ -18254,6 +18256,7 @@ opam:
   version: 1.2.0-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - fonts_in_pdf_files
 opari2:
   version: 1.0.7+dfsg-5
   issues:
