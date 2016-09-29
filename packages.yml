@@ -15410,6 +15410,14 @@ lxqt-sudo:
   version: 0.10.0-3
   issues:
     - blacklisted_on_jenkins_armhf_only
+lynx:
+  version: 2.8.9dev9-1
+  comments: |
+    Left build has a «linux-gnu» literal in the .rodata section; right build doesn't.
+    That value may originate from the SYSTEM_NAME autoconf/config.guess macro,
+    and occurs as a substring of other literals.
+    .
+    A similar issue was seen in neovim, where it was traced to $CC combining string literals.
 lysdr:
   version: 1.0~git20141206+dfsg1-1
   issues:
@@ -19529,6 +19537,15 @@ petsc4py:
   version: 3.7.0-2
   issues:
     - captures_build_path
+pev:
+  version: 0.50-1
+  comments: |
+    1. syn.c/syn-intel.c appear in different order in .strtab.
+      May be due to a shell glob (expanded in in a locale-sensitive manner):
+        src/Makefile:18:  $(CC) $(CFLAGS) -I$(LIBPE) -L$(LIBPE) -I$(LIBUDIS86) $(LIBUDIS86)/libudis86/*.c $^ $(COMMON) -o $@ -lpe
+      The .rodata difference is fallout of this.
+    .
+    2. symbol table order difference; may be fallout of #1.
 pfstools:
   version: 2.0.4-4
   issues:
@@ -20003,6 +20020,11 @@ plastimatch:
   version: 1.6.3+dfsg-1
   issues:
     - captures_build_path
+playitslowly:
+  version: 1.5.0-0.1
+  comments: |
+    [i386,armhf; due to disorderfs being enabled only on these?]
+    python3 .install-info file lists file in different order.
 plee-the-bear:
   version: 0.6.0-3.1
   issues:
