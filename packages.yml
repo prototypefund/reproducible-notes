@@ -14681,6 +14681,7 @@ libx11:
   version: 2:1.6.3-1
   issues:
     - different_encoding
+    - different_encoding_in_html_by_docbook_xsl
 libxalan2-java:
   version: 2.7.1-9
   issues:
@@ -17067,6 +17068,8 @@ nemo-python:
     Embeds build date using hand-rolled code:
       https://sources.debian.net/src/nemo-python/3.0.0-2/docs/Makefile.am/#L90-L91
       https://sources.debian.net/src/nemo-python/3.0.0-2/docs/reference/nemo-python-ref.xml/#L6-L11
+  issues:
+    - different_encoding_in_html_by_docbook_xsl
 neotoma:
   version: 1.7.3+dfsg-1
   issues:
