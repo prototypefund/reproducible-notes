@@ -1771,6 +1771,7 @@ biojava-live:
   issues:
     - timestamps_in_documentation_generated_by_javadoc
     - locale_in_documentation_generated_by_javadoc
+    - timestamps_in_jar
 biojava3-live:
   version: 3.1.0+dfsg-2
   issues:
@@ -10865,7 +10866,7 @@ jmodeltest:
 jmol:
   version: 12.2.32+dfsg2-1
   issues:
-    - locale_in_documentation_generated_by_javadoc
+    - timestamps_in_jar
 jnettop:
   version: 0.13.0-1
   issues:
