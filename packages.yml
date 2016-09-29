@@ -16185,6 +16185,7 @@ mmh:
   version: 0.3-1
   issues:
     - locale_dependent_symbol_order_by_lorder
+    - user_hostname_manually_added_requiring_further_investigation
 mmpong:
   version: 0.9.1-3
   bugs:
@@ -26518,6 +26519,8 @@ sipxtapi:
   comments: |
     Also recording build time. See:
     https://sources.debian.net/src/sipxtapi/3.3.0~test17-1/config/sipXpkgtop.mak/
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 811725
 siril:
