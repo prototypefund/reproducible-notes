@@ -1367,6 +1367,7 @@ axis:
   issues:
     - timestamp_in_java_bnd_manifest
     - locale_in_documentation_generated_by_javadoc
+    - different_encoding
 ayttm:
   version: 0.6.3-3
   issues:
@@ -9073,6 +9074,7 @@ gradle:
     - user_hostname_manually_added_requiring_further_investigation
     - random_ordering_in_pom
     - captures_kernel_version
+    - different_encoding
 grafana:
   version: 2.6.0+dfsg-3
   bugs:
@@ -22477,6 +22479,7 @@ qtdoc-opensource-src:
   issues:
     - timestamps_in_qch
     - captures_build_path
+    - different_encoding
 qterm:
   version: 1:0.5.12-1.1
   bugs:
@@ -25966,6 +25969,7 @@ scala:
   issues:
     - timestamps_in_maven_version_files
     - blacklisted_on_jenkins_armhf_only
+    - different_encoding
 scala-mode-el:
   version: 20111005-2.1
   issues:
