@@ -19677,6 +19677,7 @@ php7.0:
     - captures_home_dir
     - captures_kernel_version
     - captures_users_gecos
+    - leaks_path_environment_variable
 phpab:
   version: 1.21.0-2
   comments: |
