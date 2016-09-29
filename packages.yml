@@ -705,6 +705,8 @@ apng2gif:
     - 782199
 apparix:
   version: 07-261-1
+  issues:
+    - captures_build_path
   bugs:
     - 823428
 apparmor:
@@ -1719,6 +1721,7 @@ biniou:
   version: 1.0.12-2
   issues:
     - captures_home_dir
+    - captures_build_path
 binpac:
   version: 0.44-1
   issues:
@@ -16518,6 +16521,7 @@ mpdcon.app:
   version: 1.1.99-5
   issues:
     - captures_home_dir
+    - captures_build_path
 mpfi:
   version: 1.5.1+ds-4
   issues:
@@ -22844,6 +22848,10 @@ r-bioc-multtest:
   issues:
     - captures_build_path
     - randomness_in_r_rdb_rds_databases
+r-bioc-phyloseq:
+  version: 1.16.2-1
+  issues:
+    - captures_build_path
 r-bioc-preprocesscore:
   version: 1.34.0-1
   issues:
@@ -27862,6 +27870,8 @@ tcpslice:
     - captures_build_path
 tcptrace:
   version: 6.6.7-4.1
+  issues:
+    - captures_build_path
   bugs:
     - 829714
 tcptraceroute:
