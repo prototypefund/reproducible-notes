@@ -122,11 +122,12 @@ blacklisted_on_jenkins_armhf_only:
     the 18h timeout for a single build.
     Until his happens, please rely on the amd64 and i386 tests.
 diffoscope_runs_forever:
+  url: https://reproducible.debian.net/index_breakages.html
   description: |
     Some packages cannot be analysed by diffoscope due to it running "forever".
-    Currently it's killed after 120 minutes…
-    This page https://reproducible.debian.net/index_breakages.html also collects
-    a list of currently undiffable packages.
+    Currently the diffoscope process is killed after 120 minutes.
+    https://reproducible.debian.net/index_breakages.html collects a list of currently 
+    undiffable packages (as well as other issues with tests.reproducile-builds.org.
 timestamps_in_maven_version_files:
   description: |
     Maven writes a timestamp to version.properties files.
