@@ -114,6 +114,7 @@ acmetool:
   issues:
     - random_build_path_by_golang_compiler
     - diffoscope_runs_forever
+    - captures_build_path
 aconnectgui:
   version: 0.9.0rc2-1-9
   bugs:
@@ -391,6 +392,7 @@ alsa-lib:
   version: 1.1.2-1
   issues:
     - captures_home_dir
+    - captures_build_path
 alsa-tools:
   version: 1.1.0-1
   issues:
@@ -1318,6 +1320,7 @@ avr-libc:
     - different_due_to_umask
     - different_encoding
     - fonts_in_pdf_files
+    - captures_build_path
 avrdude:
   version: 6.3-1
   issues:
@@ -1858,6 +1861,7 @@ blcr:
     https://sources.debian.net/src/blcr/0.8.5-2.2/util/cr_restart/Makefile.am/?hl=27#L27
   issues:
     - timestamps_in_manpages_generated_by_help2man
+    - captures_build_path
 bld:
   version: 0.3.4.1-4
   issues:
@@ -5493,6 +5497,8 @@ engauge-digitizer:
     - timestamps_in_qch
 enigma:
   version: 1.20-dfsg.1-2
+  issues:
+    - captures_build_path
   bugs:
     - 811826
 enscribe:
@@ -7087,6 +7093,7 @@ ftp.app:
   version: 0.3-1
   issues:
     - captures_home_dir
+    - captures_build_path
 ftpcopy:
   version: 0.6.7-3
   issues:
@@ -10930,6 +10937,8 @@ js-of-ocaml:
   version: 2.2-2
   comments: |
     Ordering of symbols in dlljs_of_ocaml.so
+  issues:
+    - captures_build_path
 jsap:
   version: 2.1-1
   issues:
@@ -15772,6 +15781,7 @@ mayavi2:
     Contain .pyc files
   issues:
     - random_order_in_python_environment_pickle
+    - captures_build_path
   bugs:
     - 830342
 mbedtls:
@@ -16353,6 +16363,8 @@ mono:
   comments: |
     PE timestamps are fixed, documentation tool is using timestamps.
     See https://bugzilla.xamarin.com/show_bug.cgi?id=37367
+  issues:
+    - captures_build_path
 mono-addins:
   version: 1.0+git20130406.adcd75b-3
   issues:
@@ -17841,6 +17853,7 @@ ocaml-atd:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - fonts_in_pdf_files
+    - captures_build_path
 ocaml-base64:
   version: 2.0.0-1
   issues:
@@ -18260,6 +18273,7 @@ opam:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - fonts_in_pdf_files
+    - captures_build_path
 opari2:
   version: 1.0.7+dfsg-5
   issues:
@@ -21312,6 +21326,7 @@ python-cogent:
   version: 1.5.3-2
   issues:
     - random_order_in_python_environment_pickle
+    - captures_build_path
 python-congressclient:
   version: 1.1.0-2
   bugs:
@@ -21629,6 +21644,7 @@ python-kinterbasdb:
     Build time in /usr/lib/python2.7/dist-packages/kinterbasdb/__init__.py
   issues:
     - different_encoding
+    - captures_build_path
   bugs:
     - 831065
 python-krbv:
@@ -24541,6 +24557,7 @@ raster3d:
   version: 3.0-3-2
   issues:
     - different_due_to_umask
+    - captures_build_path
 rasterio:
   version: 0.35.1-1
   issues:
@@ -27022,6 +27039,7 @@ sphinxsearch:
   issues:
     - user_hostname_manually_added_requiring_further_investigation
     - captures_kernel_version
+    - captures_build_path
 sphinxtrain:
   version: 1.0.8+5prealpha-4
   issues:
@@ -27605,6 +27623,7 @@ swt-gtk:
     (this could be the result of 'mktemp /tmp/fileXXXXXX' or an equivalent mktemp(3) call)
   issues:
     - randomness_in_gcj_output
+    - captures_build_path
 swtchart:
   version: 0.8.0-1
   issues:
@@ -27726,6 +27745,7 @@ tagainijisho:
   version: 1.0.2-1
   issues:
     - qt_translate_noop_nondeterminstic_ordering
+    - captures_build_path
 tagcoll2:
   version: 2.0.14-1
   issues:
@@ -28527,6 +28547,8 @@ trustedqsl:
     - captures_build_path
 tsdecrypt:
   version: 10.0-2
+  issues:
+    - captures_build_path
   bugs:
     - 829713
 tse3:
@@ -28927,6 +28949,8 @@ underscore.logger:
     - 713494
 undertaker:
   version: 1.6.1-2
+  issues:
+    - captures_build_path
   bugs:
     - 833780
 undertow:
@@ -29235,6 +29259,7 @@ verilator:
     https://sources.debian.net/src/verilator/3.864-1/include/verilated_vcd_c.cpp/?hl=350#L352
   issues:
     - timezones_manpages_podman
+    - captures_build_path
 vflib3:
   version: 3.6.14.dfsg-3+nmu2
   issues:
