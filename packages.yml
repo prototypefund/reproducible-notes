@@ -6605,6 +6605,7 @@ fonts-fantasque-sans:
     https://sources.debian.net/src/fonts-fantasque-sans/1.6.4~dfsg-1/validate-generate.sh/
   issues:
     - fontforge_resets_modification_time
+    - captures_users_gecos
 fonts-freefont:
   version: 20120503-4
   issues:
@@ -19485,6 +19486,7 @@ petsc:
     - user_hostname_manually_added_requiring_further_investigation
     - different_encoding
     - captures_home_dir
+    - captures_users_gecos
 petsc4py:
   version: 3.7.0-2
   issues:
