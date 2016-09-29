@@ -1368,3 +1368,7 @@ records_build_flags:
   description: |
     Records $CFLAGS, which vary intentionally due to the «-fdebug-prefix-map=${BIKESHED}=.» flag.
   deterministic: True
+clilibs_line_order:
+  description: |
+    [armhf/i386 only, so may be disorderfs related]
+    Line order in 'clilibs' differs, in cli/mono packages.
