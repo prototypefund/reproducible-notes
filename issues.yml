@@ -1275,6 +1275,12 @@ golang_compiler_captures_build_path_in_binary:
     The golang compiler embeds the source/build paths into binaries.
   url: https://github.com/golang/go/issues/16860
   deterministic: True
+hevea_captures_build_path:
+  description: |
+    hevea capture the build path in 2 places inside the generated HTML file: (only if full-path used instead of relative path as argument)
+    1. inside HTML comment "HEVEA command line is:"
+    2. if \title is missing in received .tex file, the HTML title tag will contain the path to generated file without file extension.
+  deterministic: True
 timestamp_added_by_java_util_properties:
   description:
     java.util.Properties adds a timestamp
