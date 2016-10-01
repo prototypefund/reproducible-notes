@@ -1234,11 +1234,6 @@ random_xspp_identifier_by_extutils_xspp:
     https://sources.debian.net/src/libextutils-xspp-perl/0.1800-2/lib/ExtUtils/XSpp/Lexer.pm/#L141
     .
     Possible solution is seeding the rng with srand($SOURCE_DATE_EPOCH) in ExtUtils/XSpp/Cmd.pm.
-locale_dependent_symbol_order_by_lorder:
-  description: |
-    lorder from bsdmainutils orders symbols differently depending on the locale.
-  url: https://bugs.debian.org/830259
-  deterministic: True
 ftbfs_with_-fdebug-prefix-map_error:
   description: |
     The package fails to build due to our use of -fdebug-path-map in the default

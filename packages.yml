@@ -6900,11 +6900,6 @@ freebsd-glue:
   version: 0.2.22
   issues:
     - captures_build_path
-freebsd-libs:
-  version: 10.1~svn273304-1
-  issues:
-    - locale_dependent_symbol_order_by_lorder
-    - random_order_in_static_libraries
 freecad:
   version: 0.16+dfsg2-1
   issues:
@@ -16232,7 +16227,6 @@ mmake:
 mmh:
   version: 0.3-1
   issues:
-    - locale_dependent_symbol_order_by_lorder
     - user_hostname_manually_added_requiring_further_investigation
 mmpong:
   version: 0.9.1-3
