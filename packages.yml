@@ -1945,6 +1945,10 @@ bluez-qt:
   version: 5.25.0-1
   issues:
     - build_id_variation_requiring_further_investigation
+bmusb:
+  version: 0.5.2-1
+  issues:
+    - captures_build_path
 bobcat:
   version: 4.01.04-1
   issues:
@@ -11381,6 +11385,12 @@ kelbt:
   version: 0.16-1
   issues:
     - captures_build_path
+keras:
+  version: 1.0.7-1
+  comments: |
+    [experimental/amd64]
+  issues:
+    - different_encoding
 kerberos-configs:
   version: 2.3
   bugs:
@@ -16769,6 +16779,12 @@ mumudvb:
   version: 1.7.1-1
   issues:
     - captures_build_path
+munin:
+  version: 2.999.3-1
+  comments: |
+    [experimental/amd64]
+  bugs:
+    - 839233
 muon:
   version: 4:5.4.3-1
   bugs:
