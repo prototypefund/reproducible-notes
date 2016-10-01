@@ -4817,8 +4817,10 @@ dochelp:
     - captures_build_path
 docker-registry:
   version: 2.4.1~ds1-2
+  comments: |
+    [experimental/amd64]
   issues:
-    - too_much_input_for_diff
+    - captures_build_path
 docker-swarm:
   version: 1.0.1+dfsg-1
   bugs:
@@ -20188,6 +20190,12 @@ pokerth:
   version: 1.1.1-3
   bugs:
     - 812290
+policyd-spf-fs:
+  version: 0+svn27-1
+  comments: |
+    [experimental/amd64]
+  issues:
+    - captures_build_path
 polspline:
   version: 1.1.12-2
   issues:
