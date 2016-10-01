@@ -3594,6 +3594,12 @@ crmsh:
     https://sources.debian.net/src/crmsh/2.2.1-1/doc/website-v1/make-news.py/?hl=89#L69
   issues:
     - timestamps_in_documentation_generated_by_asciidoc
+cronie:
+  version: 1.4.81~exp1
+  comments: |
+    [experimental/amd64]
+  issues:
+    - captures_build_path
 cronolog:
   version: 1.6.2+rpk-1
   issues:
@@ -10431,6 +10437,11 @@ ipxe:
   version: 1.0.0+git-20150424.a25a16d-1
   comments: |
     incomplete patch here https://gist.github.com/lamby/dfcd18bdf8542a6b72598303817093d0
+ipykernel:
+  version: 4.5.0-1
+  comments: |
+    [experimental/amd64]
+    A json file is dumped in hash order.
 ipython:
   version: 2.4.1-1
   issues:
