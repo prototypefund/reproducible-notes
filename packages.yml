@@ -21229,6 +21229,25 @@ pyode:
   version: 1.2.0-4+cvs20090320.1
   bugs:
     - 817638
+pyopencl:
+  version: 2016.1+git20160809-3
+  comments: |
+    In doc/conf.py:
+    .
+     94 html_theme_options = {
+     95         "extra_nav_links": {
+     96             "Github": "https://github.com/pyopencl/pyopencl",
+     97             "Download Releases": "https://pypi.python.org/pypi/pyopencl",
+     98             }
+     99         }
+    .
+    The inner dict is then output in dict order, i.e., unpredictably.  Using an
+    OrderedDict() should fix this.
+    .
+    Note that, while no other Debian package specifies >1 element in
+    extra_nav_links, multiple third-party sphinx themes expect unordered input
+    (extra_nav_links) to create an ordered output, including 'alabaster' which is
+    packaged in Debian.
 pyopenssl:
   version: 16.0.0-1
   issues:
