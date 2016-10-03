@@ -19698,6 +19698,10 @@ pgfincore:
   issues:
     - postgres_9.5_transition
     - captures_build_path
+pgloader:
+  version: 3.3.1+dfsg-1
+  comments: |
+    Looks like the .fasl compiled lisp intermediate files contain the build time, then the whole thing gets compressed when combined in the pgloader binary so it becomes opaque at the package diffoscope level.
 pgmemcache:
   version: 2.3.0-2
   issues:
