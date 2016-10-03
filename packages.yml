@@ -412,6 +412,10 @@ altree:
   version: 1.3.1-2
   issues:
     - pdf_created_by_ghostscript
+alure:
+  version: 1.2-6
+  issues:
+    - captures_build_path
 am-utils:
   version: 6.2+rc20110530-3.2
   issues:
@@ -6923,11 +6927,6 @@ fqterm:
   version: 0.9.6.10-1.1
   bugs:
     - 811872
-fracplanet:
-  version: 0.4.0-3
-  bugs:
-    - 829000
-    - 811642
 frama-c:
   version: 20140301+neon+dfsg-3
   comments: |
@@ -17262,6 +17261,12 @@ netkit-rwho:
   version: 0.17-13
   issues:
     - captures_build_path
+netmaze:
+  version: 0.81+jpg0.82-15
+  issues:
+    - captures_build_path
+  comments: |
+    Doesn't honour dpkg-buildflags, which would fix the issue by setting -fdebug-prefix-map.
 netmrg:
   version: 0.20-7
   comments: |
@@ -24818,13 +24823,6 @@ rbootd:
   bugs:
     - 776951
     - 793713
-rc:
-  version: 1.7.2-1
-  comments: |
-    Embeds the build date.
-    https://sources.debian.net/src/rc/1.7.2-1/configure.ac/#L5
-  bugs:
-    - 833441
 rcmdr:
   version: 2.2-3-1
   issues:
@@ -31216,10 +31214,6 @@ zp:
   version: 1.0-1
   bugs:
     - 782231
-zpaq:
-  version: 1.10-1
-  bugs:
-    - 782232
 zsh:
   version: 5.0.7-5
   comments: |
