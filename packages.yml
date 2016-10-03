@@ -21248,6 +21248,8 @@ pyopencl:
     extra_nav_links, multiple third-party sphinx themes expect unordered input
     (extra_nav_links) to create an ordered output, including 'alabaster' which is
     packaged in Debian.
+  issues:
+    - dict_ordering_in_python_alabaster_sphinx_theme_extra_nav_links
 pyopenssl:
   version: 16.0.0-1
   issues:
