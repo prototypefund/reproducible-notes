@@ -1368,6 +1368,15 @@ timestamps_in_org_mode_html_output:
 records_build_flags:
   description: |
     Records $CFLAGS, which vary intentionally due to the «-fdebug-prefix-map=${BIKESHED}=.» flag.
+    .
+    Instead of fixing this specifically in your package, please consider
+    helping us with our general solution to this problem; see:
+    .
+     - https://lists.alioth.debian.org/pipermail/reproducible-builds/Week-of-Mon-20160822/006788.html
+     - https://lists.alioth.debian.org/pipermail/reproducible-builds/Week-of-Mon-20160905/006984.html
+     - https://lists.alioth.debian.org/pipermail/reproducible-builds/Week-of-Mon-20160912/007076.html
+    .
+    for more details. (It will involve patching GCC.)
   deterministic: True
 clilibs_line_order:
   description: |
