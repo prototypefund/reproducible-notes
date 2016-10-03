@@ -11531,17 +11531,6 @@ kgb:
   version: 1.0b4+ds-13.2
   issues:
     - captures_build_path
-kgb-bot:
-  version: 1.33-2
-  comments: |
-    Testsuite hangs forever, see
-    https://jenkins.debian.net/view/reproducible/job/reproducible_builder_zeta/2745/
-    Confirmed by upstream.
-  issues:
-    - blacklisted_on_jenkins
-  bugs:
-    - 782079
-    - 834597
 kget:
   version: 4:15.12.1-2
   issues:
