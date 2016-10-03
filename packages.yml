@@ -20135,6 +20135,8 @@ playitslowly:
   comments: |
     [i386,armhf; due to disorderfs being enabled only on these?]
     python3 .install-info file lists file in different order.
+  bugs:
+    - 839631
 plee-the-bear:
   version: 0.6.0-3.1
   issues:
