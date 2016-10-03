@@ -705,7 +705,6 @@ aplus-fsf:
     - captures_build_path
   bugs:
     - 790226
-    - 831169
 apng2gif:
   version: 1.5-3
   bugs:
@@ -1155,10 +1154,6 @@ atlc:
   version: 4.6.1-1
   issues:
     - captures_build_path
-atril:
-  version: 1.14.1-2
-  bugs:
-    - 834079
 ats-lang-anairiats:
   version: 0.2.11-1
   issues:
@@ -1621,10 +1616,6 @@ bedtools:
   comments: |
     Locale-sensitive expansion order of shell glob manifests in debug symbols:
       https://sources.debian.net/src/bedtools/2.26.0%2Bdfsg-1/Makefile/#L102
-beets:
-  version: 1.3.8+dfsg-2
-  bugs:
-    - 792060
 beignet:
   version: 1.1.2-3
   comments: |
@@ -2167,8 +2158,6 @@ broccoli:
     https://sources.debian.net/src/broccoli/1.97-3/CMakeLists.txt/#L25
   issues:
     - different_encoding
-  bugs:
-    - 835495
 broccoli-python:
   version: 0.59+1-1
   issues:
@@ -2357,10 +2346,6 @@ cairodevice:
   issues:
     - captures_build_path
     - randomness_in_r_rdb_rds_databases
-caja-extensions:
-  version: 1.14.0-1
-  bugs:
-    - 834287
 cal3d:
   version: 0.11.0-7
   bugs:
@@ -2369,10 +2354,6 @@ calcoo:
   version: 1.3.18-3.1
   issues:
     - captures_build_path
-calculix-cgx:
-  version: 2.10.1+dfsg-1
-  bugs:
-    - 831136
 calf:
   version: 0.0.60-3
   bugs:
@@ -2440,10 +2421,6 @@ cantata:
   version: 2.0.1.ds1-1
   issues:
     - captures_build_path
-cappuccino:
-  version: 0.5.1-2.2
-  bugs:
-    - 817387
 caps:
   version: 0.9.24-2
   bugs:
@@ -3103,10 +3080,6 @@ clucene-core:
     - captures_build_path
   bugs:
     - 812292
-clustalo:
-  version: 1.2.2-1
-  bugs:
-    - 835074
 cluster:
   version: 2.0.4-2
   issues:
@@ -4513,8 +4486,6 @@ dicom3tools:
     https://sources.debian.net/src/dicom3tools/1.00%7E20150717110018-1/support/setversion/#L3
   issues:
     - diffoscope_runs_forever
-  bugs:
-    - 834779
 dict-bouvier:
   version: 6.revised-3.2
   issues:
@@ -4736,10 +4707,6 @@ django-taggit:
   version: 0.20.2-1
   bugs:
     - 834668
-django-uwsgi:
-  version: 0.1.3-2
-  bugs:
-    - 830326
 djangorestframework-gis:
   version: 0.10.1-1
   bugs:
@@ -5145,10 +5112,6 @@ dvidvi:
   version: 1.0-8etch2
   bugs:
     - 817441
-dvips-fontdata-n2bk:
-  version: 0.0.2001.12.12-3
-  bugs:
-    - 817442
 dvipsk-ja:
   version: 5.98+p1.7b-1.1
   issues:
@@ -5357,10 +5320,6 @@ edk2:
   issues:
     - captures_build_path
     - too_much_input_for_diff
-eekboek:
-  version: 2.02.05+dfsg-1
-  bugs:
-    - 835448
 efax:
   version: 1:0.9a-19
   bugs:
@@ -8586,16 +8545,10 @@ gnupg:
   version: 1.4.20-6
   issues:
     - timestamps_in_manpages_generated_by_yat2m
-  bugs:
-    - 806494
 gnupg-pkcs11-scd:
   version: 0.7.3-1
   issues:
     - captures_build_path
-gnupg1:
-  version: 1.4.20-7
-  bugs:
-    - 806494
 gnupg2:
   version: 2.1.11-7
   comments: |
@@ -8603,8 +8556,6 @@ gnupg2:
     Also, it might be that some padding with unitialized memory causes
     some non-determinism seen in the bits between CompanyName's and
     FileVersion's value (g10/gpg-w32info.rc).
-  bugs:
-    - 826309
 gnuplot:
   version: 5.0.3+dfsg3-5
   issues:
@@ -8708,10 +8659,6 @@ golang-bindata:
   issues:
     - golang_compiler_captures_build_path_in_binary
     - captures_build_path
-golang-codegangsta-cli:
-  version: 0.0~git20151221-1
-  bugs:
-    - 835398
 golang-doozer:
   version: 0.0~git20130909-1
   issues:
@@ -9669,10 +9616,6 @@ haskell-cabal:
   version: 1.22.5.0-2
   issues:
     - blacklisted_on_jenkins_armhf_only
-haskell-doc:
-  version: 20061127
-  bugs:
-    - 817492
 haskell-gtk-traymanager:
   version: 0.1.6-1
   issues:
@@ -11714,8 +11657,6 @@ kjsembed:
   version: 5.23.0-1
   issues:
     - captures_build_path
-  bugs:
-    - 831145
 klatexformula:
   version: 3.3.0~beta-1
   issues:
@@ -11841,8 +11782,6 @@ kodi:
   issues:
     - timestamps_from_cpp_macros
     - diffoscope_runs_forever
-  bugs:
-    - 831137
 kolf:
   version: 4:16.04.0-1
   issues:
@@ -13484,10 +13423,6 @@ libjchart2d-java:
   version: 3.2.2+dfsg-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-libjcode-perl:
-  version: 2.13-3
-  bugs:
-    - 800230
 libjdepend-java:
   version: 2.9.1-1
   issues:
@@ -14126,8 +14061,6 @@ libpreludedb:
   version: 1.0.0-2.3
   issues:
     - captures_build_path
-  bugs:
-    - 803520
 libprintsys:
   version: 0.6-13
   issues:
@@ -14282,10 +14215,6 @@ libresample:
   version: 0.1.3-4
   issues:
     - captures_build_path
-libretro-desmume:
-  version: 0.9.11+git20160319+dfsg1-1
-  bugs:
-    - 831098
 librevenge:
   version: 0.0.4-1
   comments: |
@@ -14306,10 +14235,6 @@ librime:
     - captures_build_path
   bugs:
     - 811637
-libropkg-perl:
-  version: 0.4-1.1
-  bugs:
-    - 817549
 librostlab:
   version: 1.0.20-6
   issues:
@@ -14896,10 +14821,6 @@ libyahoo2:
   version: 1.0.1-1
   issues:
     - captures_build_path
-libykneomgr:
-  version: 0.1.8-1
-  bugs:
-    - 820417
 libzen:
   version: 0.4.33-1
   bugs:
@@ -15205,8 +15126,6 @@ log4cpp:
   version: 1.0-4.1
   issues:
     - captures_build_path
-  bugs:
-    - 830459
 log4cxx:
   version: 0.10.0-11
   bugs:
@@ -15434,10 +15353,6 @@ luxio:
   version: 9-1
   comments: |
     Captures build date by LDoc (fork of the tool from 'timestamps_in_documentation_generated_by_lua_ldoc').
-lv2-c++-tools:
-  version: 1.0.5-2
-  bugs:
-    - 834291
 lvm2:
   version: 2.02.164-1
   issues:
@@ -15595,7 +15510,6 @@ magics++:
 magnum:
   version: 2.0.0-5
   bugs:
-    - 828124
     - 835100
 magyarispell:
   version: 1.6.1-2
@@ -15807,14 +15721,6 @@ mate-applets:
   version: 1.14.1-1
   bugs:
     - 837005
-mate-indicator-applet:
-  version: 1.14.1-1
-  bugs:
-    - 833076
-mate-power-manager:
-  version: 1.14.0-2
-  bugs:
-    - 833842
 mate-settings-daemon:
   version: 1.12.1-2
   bugs:
@@ -15903,8 +15809,6 @@ mayavi2:
   issues:
     - random_order_in_python_environment_pickle
     - captures_build_path
-  bugs:
-    - 830342
 mbedtls:
   version: 2.3.0-1
   issues:
@@ -16204,8 +16108,6 @@ minizinc:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - captures_build_path
-  bugs:
-    - 830457
 minlog:
   version: 4.0.99.20100221-5.2
   issues:
@@ -17263,10 +17165,10 @@ netkit-rwho:
     - captures_build_path
 netmaze:
   version: 0.81+jpg0.82-15
-  issues:
-    - captures_build_path
   comments: |
     Doesn't honour dpkg-buildflags, which would fix the issue by setting -fdebug-prefix-map.
+  issues:
+    - captures_build_path
 netmrg:
   version: 0.20-7
   comments: |
@@ -17628,10 +17530,6 @@ node-starttls:
   version: 1.0.1-1
   bugs:
     - 819715
-node-stringprep:
-  version: 0.1.5-1
-  bugs:
-    - 719382
 node-xmpp:
   version: 0.3.2-2
   bugs:
@@ -18914,10 +18812,6 @@ osmcoastline:
   version: 2.1.3-2
   issues:
     - captures_build_path
-osmium:
-  version: 0.0~20160425-e2e4368-2
-  bugs:
-    - 836240
 osmium-tool:
   version: 1.3.1-2
   issues:
@@ -19211,10 +19105,6 @@ parprouted:
     - captures_build_path
   bugs:
     - 817614
-parsewiki:
-  version: 0.4.3-1
-  bugs:
-    - 817615
 parsnp:
   version: 1.2+dfsg-1
   bugs:
@@ -20067,8 +19957,6 @@ pixmap:
   version: 2.6pl4-18
   issues:
     - build_id_variation_requiring_further_investigation
-  bugs:
-    - 793709
 pjproject:
   version: 2.5.1~dfsg-2
   bugs:
@@ -20224,10 +20112,6 @@ pnetcdf:
   version: 1.7.0-1
   issues:
     - captures_build_path
-png-definitive-guide:
-  version: 20060430-1
-  bugs:
-    - 817622
 png23d:
   version: 1.10-1.2
   issues:
@@ -21382,10 +21266,6 @@ python-aiohttp:
   version: 0.22.4-1
   bugs:
     - 839478
-python-apt:
-  version: 1.1.0~beta4
-  bugs:
-    - 835465
 python-asdf:
   version: 1.1.0-3
   issues:
@@ -26050,10 +25930,6 @@ safe-hole-perl:
   version: 0.13-1.1
   issues:
     - captures_build_path
-safecat:
-  version: 1.13-2
-  bugs:
-    - 829720
 sagan:
   version: 1.0.1-0.1
   issues:
@@ -26662,10 +26538,6 @@ silo-llnl:
     - captures_build_path
     - user_hostname_manually_added_requiring_further_investigation
     - captures_shell_variable_in_autofoo_script
-simba:
-  version: 0.8.4-4.2
-  bugs:
-    - 759979
 simbody:
   version: 3.5.3+dfsg-1
   issues:
@@ -27781,7 +27653,6 @@ sweethome3d-furniture:
 sweethome3d-furniture-editor:
   version: 1.15-1
   bugs:
-    - 776873
     - 830428
 swfmill:
   version: 0.3.3-1
@@ -27967,8 +27838,6 @@ taggrepper:
   issues:
     - random_order_in_md5sums
     - different_due_to_umask
-  bugs:
-    - 793726
 taglib:
   version: 1.9.1-2.4
   comments: |
@@ -28148,10 +28017,6 @@ tcptraceroute:
   version: 1.5beta7+debian-4
   bugs:
     - 828786
-tcpwatch-httpproxy:
-  version: 1.3b-3
-  bugs:
-    - 776969
 tcs:
   version: 1-11
   issues:
@@ -28327,8 +28192,6 @@ the:
   version: 3.3~rc1-2
   issues:
     - random_order_in_md5sums
-  bugs:
-    - 793728
 theano:
   version: 0.8.2-3
   bugs:
@@ -28389,8 +28252,6 @@ tiledarray:
   version: 0.4.4-1
   issues:
     - captures_build_path
-  bugs:
-    - 835279
 tilem:
   version: 2.0-2
   bugs:
@@ -30631,10 +30492,6 @@ xosview:
   version: 1.17-3
   bugs:
     - 811819
-xotcl:
-  version: 1.6.8-1
-  bugs:
-    - 797543
 xpaint:
   version: 2.9.1.4-3.1
   issues:
@@ -31142,10 +30999,6 @@ zinnia:
     - captures_build_path
   bugs:
     - 811877
-zipios++:
-  version: 0.1.5.9+cvs.2007.04.28-5.1
-  bugs:
-    - 817746
 zivot:
   version: 20013101-3
   issues:
