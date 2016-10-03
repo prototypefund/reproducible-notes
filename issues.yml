@@ -1377,3 +1377,7 @@ dict_ordering_in_python_alabaster_sphinx_theme_extra_nav_links:
   description:
     Python dict ordering in extra_nav_links.
   url: https://bugs.debian.org/839633
+pdf_id_varying_due_to_build_path:
+  description: |
+    The PDF /ID is generated based on timestamps (which are now deterministic) and the path of the source file.
+    texlive needs to be fixed to strip the build path prefix while generating the ID.

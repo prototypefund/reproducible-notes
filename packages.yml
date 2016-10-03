@@ -4348,6 +4348,10 @@ debmake-doc:
     - user_hostname_manually_added_requiring_further_investigation
     - different_pot_creation_date_in_gettext_mo_files
     - different_due_to_umask
+debomatic:
+  version: 0.21-2
+  issues:
+    - pdf_id_varying_due_to_build_path
 debootstrap:
   version: 1.0.80
   bugs:
