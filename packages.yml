@@ -13808,6 +13808,9 @@ libmthca:
     - captures_build_path
 libmtp:
   version: 1.1.11-1
+  comments: |
+    captures build path from argv[0] at:
+    https://sources.debian.net/src/libmtp/1.1.12-1/util/mtp-hotplug.c/?hl=179#L179
   issues:
     - captures_build_path
 libmusicbrainz5:
