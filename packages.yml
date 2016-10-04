@@ -8005,6 +8005,10 @@ git:
     - different_due_to_umask
   bugs:
     - 813912
+git-annex:
+  version: 6.20160808-1
+  issues:
+    - ghc_captures_build_path_via_tempdir
 git-build-recipe:
   version: 0.3.2
   bugs:
@@ -8035,6 +8039,10 @@ git-repair:
   version: 1.20151215-1
   bugs:
     - 826389
+github-backup:
+  version: 1.20160522-1
+  issues:
+    - ghc_captures_build_path_via_tempdir
 gitlab-ci-multi-runner:
   version: 1.4.2+dfsg-1
   issues:
@@ -18288,6 +18296,13 @@ oneliner-el:
   version: 0.3.6-7.1
   bugs:
     - 712321
+onionbalance:
+  version: 0.1.4-1
+  comments: |
+    sphinx navbar shows one item expanded: a <li/> tag at 'toctree-l1' has the
+    'current' HTML class set and <li/>s at 'toctree-l2' are visible.
+    .
+    Couldn't find anything in the package causing this, so may be a toolchain issue in sphinx.
 oolite:
   version: 1.82-1
   comments: |
