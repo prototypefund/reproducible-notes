@@ -18690,6 +18690,10 @@ openscenegraph:
   version: 3.2.3+dfsg1-2
   issues:
     - diffoscope_runs_forever
+openscenegraph-3.4:
+  version: 3.4.0+dfsg1-4
+  issues:
+    - diffoscope_runs_forever
 opensp:
   version: 1.5.2-13
   issues:
@@ -26380,6 +26384,10 @@ seqan:
     - blacklisted_on_jenkins_armhf_only
   bugs:
     - 811841
+seqan2:
+  version: 2.2.0+dfsg-2
+  issues:
+    - diffoscope_runs_forever
 serf:
   version: 1.3.8-3
   comments: |
