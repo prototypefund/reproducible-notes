@@ -17296,6 +17296,10 @@ neutron-lbaas:
     - captures_build_path
 neutron-vpnaas:
   version: 1:8.0.0-2
+  comments: |
+    captures build path:
+    https://sources.debian.net/src/neutron-vpnaas/1:8.0.0-2/neutron_vpnaas/services/vpn/device_drivers/ipsec.py/?hl=65#L45
+    https://sources.debian.net/src/neutron-vpnaas/1:8.0.0-2/neutron_vpnaas/services/vpn/device_drivers/strongswan_ipsec.py/?hl=37#L27
   issues:
     - captures_build_path
 nevow:
