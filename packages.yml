@@ -2321,6 +2321,12 @@ cafeobj:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - fonts_in_pdf_files
+caffe:
+  version: 1.0.0~rc3+20160930-ga7f950b-1
+  comments: |
+    [experimental/amd64]
+  issues:
+    - captures_build_path
 cairo-5c:
   version: 1.8.1
   bugs:
@@ -3414,6 +3420,12 @@ containerd:
   issues:
     - random_build_path_by_golang_compiler
     - diffoscope_runs_forever
+contractor:
+  version: 0.3.1-1~experimental1
+  comments: |
+    [experimental/amd64]
+  issues:
+    - captures_build_path
 convlit:
   version: 1.8-1
   issues:
@@ -12354,6 +12366,12 @@ libace-perl:
     - captures_build_path
 libacpi:
   version: 0.2-4.1
+  issues:
+    - captures_build_path
+libaio-ocaml:
+  version: 1.0.1-1
+  comments: |
+    [experimental/amd64]
   issues:
     - captures_build_path
 libalgorithm-permute-perl:
