@@ -17289,6 +17289,9 @@ neutron:
     - 834840
 neutron-lbaas:
   version: 1:8.0.0-3
+  comments: |
+    captures build path:
+    https://sources.debian.net/src/neutron-lbaas/1:8.0.0-3/neutron_lbaas/services/loadbalancer/drivers/haproxy/jinja_cfg.py/?hl=67#L61-L62
   issues:
     - captures_build_path
 neutron-vpnaas:
