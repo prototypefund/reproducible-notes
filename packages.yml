@@ -3656,6 +3656,10 @@ cryptokit:
   version: 1.10-1
   issues:
     - captures_build_path
+cryptsetup:
+  version: 2:1.7.2-1
+  issues:
+    - different_pot_creation_date_in_gettext_mo_files
 crystalhd:
   version: 1:0.0~git20110715.fdd2f19-11
   issues:
