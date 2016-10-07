@@ -607,10 +607,11 @@ apache-upload-progress-module:
   issues:
     - captures_build_path
 apache2:
-  version: 2.4.20-1
+  version: 2.4.23-2
   issues:
-    - captures_shell_variable_in_autofoo_script
-    - captures_build_path
+    - records_build_flags
+  bugs:
+    - 839977
 apache2-mod-xforward:
   version: 0.6-1
   issues:
