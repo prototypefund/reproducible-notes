@@ -9146,6 +9146,10 @@ graphviz:
     - 830380
 grass:
   version: 7.0.4-3
+  comments: |
+    Embeds the build path in /usr/lib/grass70/etc/python/grass/lib/*.py files
+    https://sources.debian.net/src/grass/7.0.5-1/lib/python/ctypes/ctypesgencore/printer/defaultheader.py/?hl=3#L4
+    https://sources.debian.net/src/grass/7.0.5-1/lib/python/ctypes/ctypesgencore/printer/printer.py/#L81
   issues:
     - captures_build_path
   bugs:
