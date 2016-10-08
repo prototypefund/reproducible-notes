@@ -3051,6 +3051,10 @@ clitest:
   version: 0.0+git20150312.339b52-1
   issues:
     - blacklisted_on_jenkins_armhf_only
+clod:
+  version: 1.0.1-1
+  issues:
+    - timestamps_in_documentation_generated_by_lua_ldoc
 clojure1.6:
   version: 1.6.0+dfsg-1
   comments: |
