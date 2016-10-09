@@ -3653,6 +3653,12 @@ crtmpserver:
   bugs:
     - 811622
     - 811622
+cryfs:
+  version: 0.9.5-4
+  comments: |
+    Looks like usage of __FILE__ via assert().
+  issues:
+    - captures_build_path
 crypt++el:
   version: 2.94-1
   bugs:
