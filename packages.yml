@@ -6980,6 +6980,10 @@ freefem:
     - random_id_in_pdf_generated_by_dblatex
 freefem++:
   version: 3.47+dfsg1-1
+  comments: |
+    Embeds the build path via dirname of $0
+    https://sources.debian.net/src/freefem%2B%2B/3.47%2Bdfsg1-1/examples%2B%2B-load/ff-pkg-download.in/?hl=44#L27
+    https://sources.debian.net/src/freefem%2B%2B/3.47%2Bdfsg1-1/examples%2B%2B-load/ff-pkg-download.in/?hl=88
   issues:
     - captures_build_path
 freefem3d:
