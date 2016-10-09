@@ -11610,6 +11610,9 @@ kidletime:
     - build_id_variation_requiring_further_investigation
 kido:
   version: 0.1.0+dfsg-1
+  comments: |
+    Embeds the build path via CMAKE_SOURCE_DIR
+    https://sources.debian.net/src/kido/0.1.0%2Bdfsg-2/kido/config.hpp.in/?hl=51#L52
   issues:
     - captures_build_path
     - too_much_input_for_diff
