@@ -8900,6 +8900,10 @@ golang-golang-x-tools:
   version: 1:0.0~git20160315.0.f42ec61-2
   issues:
     - golang_compiler_captures_build_path_in_binary
+golang-google-cloud:
+  version: 0.0~git20160615-3
+  bugs:
+    - 835742
 golang-google-grpc:
   version: 1.0.0-1
   bugs:
