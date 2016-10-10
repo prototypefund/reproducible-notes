@@ -1399,6 +1399,10 @@ babl:
     Also test "timings" https://sources.debian.net/src/babl/0.1.18-1/babl/babl-fish-path.c/#L592
   issues:
     - captures_shell_variable_in_autofoo_script
+backup-manager:
+  version: 0.7.12-4
+  issues:
+    - pdf_id_varying_due_to_build_path
 bacula:
   version: 7.4.3+dfsg-1+sid1
   issues:
