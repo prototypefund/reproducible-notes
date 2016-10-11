@@ -16477,6 +16477,8 @@ modplugtools:
     - captures_build_path
 module-assistant:
   version: 0.11.8
+  issues:
+    - random_order_in_tarball
   bugs:
     - 828778
 moin:
@@ -17218,6 +17220,10 @@ ndisc6:
   version: 1.0.1-6
   issues:
     - captures_build_path
+ndiswrapper:
+  version: 1.60-3
+  issues:
+    - random_order_in_tarball
 ndoutils:
   version: 1.4b9-1.1
   issues:
