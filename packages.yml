@@ -4509,6 +4509,10 @@ dhis-tools-dns:
   version: 5.0-8
   bugs:
     - 817429
+dia:
+  version: 0.97.3+git20160930-1
+  issues:
+    - fonts_in_pdf_files
 dia-newcanvas:
   version: 0.6.10-5.4
   issues:
@@ -17010,6 +17014,7 @@ mxallowd:
   version: 1.9-2
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - fonts_in_pdf_files
 mydumper:
   version: 0.9.1-1
   issues:
@@ -20310,6 +20315,10 @@ pmacct:
   version: 1.6.0-1
   issues:
     - captures_build_path
+pmw:
+  version: 1:4.28-2
+  issues:
+    - fonts_in_pdf_files
 pnetcdf:
   version: 1.7.0-1
   issues:
