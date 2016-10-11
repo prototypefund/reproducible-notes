@@ -8436,6 +8436,10 @@ gnome-contacts:
     src/contacts-window.c:2114	}
     .
     This may be caused by `-Wl,-O1` in debian/rules.
+gnome-dictionary:
+  version: 3.20.0-3
+  issues:
+    - different_encoding
 gnome-do:
   version: 0.95.3-1
   issues:
@@ -11381,6 +11385,7 @@ kde4libs:
     Also the build date is recorded in kdecmake.1 manpage.
   issues:
     - captures_kernel_version
+    - different_encoding
   bugs:
     - 811895
 kdecoration:
@@ -30713,6 +30718,10 @@ xmlto:
   version: 0.0.28-0.1
   issues:
     - captures_build_path
+xmltv:
+  version: 0.5.68-1
+  issues:
+    - different_encoding
 xmlunit:
   version: 1.5-1
   issues:
