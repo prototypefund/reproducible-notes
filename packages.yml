@@ -16507,6 +16507,13 @@ mongodb:
     - diffoscope_runs_forever
   bugs:
     - 811606
+monkeypatch:
+  version: 2.1.4
+  comments: |
+    FTBFS (tests fail) when build time is in the future because the test suite
+    uses real-world PGP keys which will have expired by then.
+    .
+    Maintainer (anarcat@) is aware.
 monkeysign:
   version: 2.0.2
   bugs:
