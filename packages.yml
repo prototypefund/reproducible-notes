@@ -55,6 +55,7 @@ abinit:
   version: 7.8.2-2
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - captures_build_path
   bugs:
     - 835781
 abntex:
@@ -551,6 +552,7 @@ anytun:
     https://sources.debian.net/src/anytun/0.3.5-1/src/configure/?hl=367:368,383#L367
   issues:
     - user_hostname_manually_added_requiring_further_investigation
+    - captures_build_path
   bugs:
     - 811834
 aodh:
@@ -1135,6 +1137,10 @@ atinject-jsr330:
   version: 1.0+ds1-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
+atitvout:
+  version: 0.4-13
+  issues:
+    - captures_build_path
 atlas:
   version: 3.10.2-7
   comments: |
@@ -3132,6 +3138,7 @@ cmake:
   version: 3.6.1-1
   issues:
     - diffoscope_runs_forever
+    - captures_build_path
 cmocka:
   version: 1.0.1-2
   issues:
@@ -3188,6 +3195,7 @@ codelite:
   version: 9.2+dfsg-1
   issues:
     - diffoscope_runs_forever
+    - captures_build_path
 codenarc:
   version: 0.17-2
   issues:
@@ -3479,6 +3487,8 @@ copyfs:
     - captures_build_path
 coq:
   version: 8.4pl4dfsg-1
+  issues:
+    - captures_build_path
   bugs:
     - 794130
 coq-float:
@@ -3667,6 +3677,8 @@ crossroads:
     - captures_build_path
 crrcsim:
   version: 0.9.12-6.1
+  issues:
+    - captures_build_path
   bugs:
     - 811818
 crtmpserver:
@@ -3966,6 +3978,7 @@ cython:
   issues:
     - copyright_year_in_documentation_generated_by_sphinx
     - blacklisted_on_jenkins_armhf_only
+    - captures_build_path
   bugs:
     - 820183
 d-itg:
@@ -4620,6 +4633,7 @@ dipy:
   version: 0.7.1-2
   issues:
     - timestamps_in_documentation_generated_by_sphinx
+    - captures_build_path
   bugs:
     - 830425
 dircproxy:
@@ -6441,6 +6455,7 @@ firebird3.0:
   version: 3.0.0~svn+53030.ds3-1
   issues:
     - timezones_manpages_podman
+    - captures_build_path
 firefox:
   version: 47.0.1-1
   issues:
@@ -7352,6 +7367,7 @@ gambas3:
   version: 3.8.4-1
   issues:
     - timestamps_from_cpp_macros
+    - captures_build_path
 game-music-emu:
   version: 0.6.0-3
   issues:
@@ -7654,6 +7670,8 @@ gco:
     - 817471
 gcolor2:
   version: 0.4-2.1
+  issues:
+    - captures_build_path
   bugs:
     - 817472
 gcpegg:
@@ -8248,6 +8266,10 @@ glfw3:
   version: 3.2.1-1
   issues:
     - captures_build_path
+gli:
+  version: 0.8.1.1+ds1-1
+  issues:
+    - captures_build_path
 glib2.0:
   version: 2.48.1-3
   issues:
@@ -8612,6 +8634,10 @@ gnuit:
   version: 4.9.5-3
   issues:
     - captures_build_path
+gnumach:
+  version: 2:1.7+git20160921-1
+  issues:
+    - captures_build_path
 gnumeric:
   version: 1.12.28-1
   bugs:
@@ -8730,8 +8756,11 @@ golang-1.6:
   version: 1.6.2-1
   issues:
     - random_build_path_by_golang_compiler
+    - captures_build_path
 golang-1.7:
   version: 1.7.1-2
+  issues:
+    - captures_build_path
   bugs:
     - 839317
 golang-bindata:
@@ -9941,6 +9970,7 @@ horizon:
   issues:
     - timestamps_in_documentation_generated_by_podman
     - timezones_manpages_podman
+    - captures_build_path
   bugs:
     - 832338
 hotot:
@@ -10163,6 +10193,7 @@ icedove:
   issues:
     - blacklisted_on_jenkins_armhf_only
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
+    - captures_build_path
 icedtea-web:
   version: 1.5.2-1
   issues:
@@ -11394,6 +11425,7 @@ kde4libs:
   issues:
     - captures_kernel_version
     - different_encoding
+    - captures_build_path
   bugs:
     - 811895
 kdecoration:
@@ -12470,6 +12502,8 @@ libalog:
     - captures_build_path
 libambix:
   version: 0.1-1
+  issues:
+    - captures_build_path
   bugs:
     - 839952
 libantlr3c:
@@ -12799,6 +12833,10 @@ libcgicc:
     - 811988
 libcgns:
   version: 3.1.4.2-3
+  issues:
+    - captures_build_path
+libchado-perl:
+  version: 1.31-2
   issues:
     - captures_build_path
 libcitygml:
@@ -13339,6 +13377,7 @@ libgtkada:
   issues:
     - different_due_to_umask
     - users_and_groups_in_tarball
+    - captures_build_path
 libguestfs:
   version: 1:1.28.6-1
   issues:
@@ -15389,6 +15428,8 @@ lp-solve:
     - 817570
 lpr:
   version: 1:2008.05.17.1
+  issues:
+    - captures_build_path
   bugs:
     - 817569
 lprng:
@@ -15616,6 +15657,7 @@ lyx:
   version: 2.2.0-2
   issues:
     - diffoscope_runs_forever
+    - captures_build_path
 lzop:
   version: 1.03-4
   bugs:
@@ -16002,6 +16044,7 @@ mclibs:
   version: 20061220+dfsg3-3
   issues:
     - timestamps_in_ps_generated_by_dvips
+    - captures_build_path
 mcmcpack:
   version: 1.3-3-1
   issues:
@@ -17568,6 +17611,8 @@ nfstrace:
     .
     Embeds OS and compiler information into binary.
     https://sources.debian.net/src/nfstrace/0.3.1-2/src/controller/build_info.h.in/#L33-L34
+  issues:
+    - captures_build_path
   bugs:
     - 835644
 ng:
@@ -21012,6 +21057,10 @@ pugl:
   version: 0~svn32+dfsg0-2
   issues:
     - captures_build_path
+pulseaudio:
+  version: 9.0-4
+  issues:
+    - captures_build_path
 pulseview:
   version: 0.2.0-1.1
   bugs:
@@ -21610,6 +21659,8 @@ python-castellan:
     - 816735
 python-cddb:
   version: 1.4-5.2
+  issues:
+    - captures_build_path
   bugs:
     - 817640
 python-ceilometerclient:
@@ -22581,6 +22632,7 @@ qbs:
   issues:
     - timestamps_in_qch
     - randomness_in_qdoc
+    - captures_build_path
 qca2:
   version: 2.1.1-2
   issues:
@@ -22804,6 +22856,8 @@ qtdoc-opensource-src:
     - different_encoding
 qterm:
   version: 1:0.5.12-1.1
+  issues:
+    - captures_build_path
   bugs:
     - 831093
 qtermwidget:
@@ -25975,6 +26029,8 @@ ruby-posix-spawn:
     - captures_build_path
 ruby-prof:
   version: 0.15.9+dfsg1-1
+  issues:
+    - captures_build_path
   bugs:
     - 839333
 ruby-rails-autolink:
@@ -26612,6 +26668,8 @@ serf:
       <0> is APR_SUCCESS
       <120170> is #define SERF_ERROR_SSL_CERT_FAILED (SERF_ERROR_START + 70)
       <120199> is #define SERF_ERROR_ISSUE_IN_TESTSUITE (SERF_ERROR_START + 99)
+  issues:
+    - captures_build_path
 setbfree:
   version: 0.8.2-1
   issues:
@@ -28326,6 +28384,8 @@ tdom:
     - captures_build_path
 teem:
   version: 1.12.0~20160122-1
+  issues:
+    - captures_build_path
   bugs:
     - 820772
 teeworlds:
@@ -29114,6 +29174,10 @@ tzc:
     - captures_build_path
   bugs:
     - 800220
+u-boot:
+  version: 2016.09+dfsg1-1
+  issues:
+    - captures_build_path
 u1db:
   version: 13.10-6.2
   issues:
@@ -30176,6 +30240,8 @@ wmpuzzle:
     - random_order_in_md5sums
 wmressel:
   version: 0.8-5.1
+  issues:
+    - captures_build_path
   bugs:
     - 817724
 wmwave:
@@ -30373,6 +30439,8 @@ xapian-bindings:
       - build path
       - build date
       - a fixed date, rendered in the build's timezone
+  issues:
+    - captures_build_path
 xapian-core:
   version: 1.2.23-1
   issues:
@@ -30487,6 +30555,7 @@ xemacs21:
   version: 21.4.24-2
   issues:
     - timestamps_in_gzip_headers
+    - captures_build_path
 xemacs21-packages:
   version: 2009.02.17.dfsg.2-2
   issues:
