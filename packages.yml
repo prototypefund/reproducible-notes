@@ -2613,6 +2613,10 @@ cecil:
   version: 0.9.5+dfsg-4
   bugs:
     - 839453
+cecil-flowanalysis:
+  version: 0.1~vcs20110809.r1.b34edf6-3
+  issues:
+    - clilibs_line_order
 cegui-mk2:
   version: 0.8.7-1
   issues:
@@ -4107,6 +4111,10 @@ davix:
   issues:
     - random_order_in_python_environment_pickle
     - captures_build_path
+db4o:
+  version: 8.0.184.15484+dfsg2-3
+  issues:
+    - clilibs_line_order
 db5.3:
   version: 5.3.28-11
   comments: |
@@ -16563,6 +16571,10 @@ mono-basic:
   issues:
     - timestamps_in_pe_binaries
     - captures_build_path
+mono-debugger-libs:
+  version: 0+20131201.3459502-1
+  issues:
+    - clilibs_line_order
 mono-fuse:
   version: 0.4.2+dfsg-4
   issues:
@@ -18873,6 +18885,8 @@ opentk:
   comments: |
     Unidentified variation in Mono executables.
     Different decimal separator in documentation.
+  issues:
+    - clilibs_line_order
 opentoken:
   version: 6.0b-3
   comments: |
