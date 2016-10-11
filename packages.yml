@@ -1818,6 +1818,15 @@ bison++:
   version: 1.21.11-4
   bugs:
     - 817378
+bisonc++:
+  version: 5.02.00-1
+  comments: |
+    icmconf:13:#define SOURCES             "*.cc"
+    icmconf:25:#define PARSFILES           "inc/*"
+    .
+    This may be a slightly different issue to random_order_in_static_library_by_icmake.
+  issues:
+    - random_order_in_static_library_by_icmake
 bist:
   version: 0.5.2-1.1
   issues:
