@@ -2740,6 +2740,8 @@ cgminer:
     - 822709
 cgoban:
   version: 1.9.14-17
+  issues:
+    - random_order_in_md5sums
   bugs:
     - 827684
 chake:
@@ -19139,6 +19141,10 @@ pa-test:
   version: 112.24.00-2
   issues:
     - captures_build_path
+pachi:
+  version: 1:1.0-7
+  issues:
+    - random_order_in_md5sums
 packagekit:
   version: 1.1.1-1
   issues:
@@ -29364,6 +29370,10 @@ urdfdom:
     - captures_build_path
   bugs:
     - 835284
+uruk:
+  version: 20160219-1
+  issues:
+    - random_order_in_md5sums
 urweb:
   version: 20150214+dfsg-1
   issues:
@@ -30118,6 +30128,10 @@ wmnut:
   version: 0.64-1.1
   issues:
     - captures_build_path
+wmpuzzle:
+  version: 0.5.2-2
+  issues:
+    - random_order_in_md5sums
 wmressel:
   version: 0.8-5.1
   bugs:
@@ -30139,6 +30153,10 @@ wmweather+:
     https://sources.debian.net/src/wmweather%2B/2.15-1.1/configure.ac/#L14
   bugs:
     - 833440
+wmwork:
+  version: 0.2.6-2
+  issues:
+    - random_order_in_md5sums
 wmxres:
   version: 1.2-10
   bugs:
