@@ -18348,6 +18348,10 @@ odot:
   version: 1.2.0-1
   bugs:
     - 817601
+ofxstatement-plugins:
+  version: 20160920
+  issues:
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
 ogdi-dfsg:
   version: 3.2.0+ds-1
   issues:
@@ -27935,7 +27939,7 @@ sympa:
 sympy:
   version: 0.7.5-4
   issues:
-    - timestamps_in_pdf_generated_by_latex
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
 synaesthesia:
   version: 2.4-5
   issues:
