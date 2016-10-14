@@ -9292,6 +9292,10 @@ gravitywars:
   version: 1.102-34
   issues:
     - captures_build_path
+graywolf:
+  version: 0.1.4-1
+  issues:
+    - build_id_differences_only
 grcm:
   version: 0.1.6-1
   issues:
@@ -18780,6 +18784,10 @@ openexr-viewers:
   version: 1.0.1-6
   issues:
     - captures_build_path
+openfoam:
+  version: 4.0+dfsg1-3
+  issues:
+    - diffoscope_runs_forever
 opengm:
   version: 2.3.6+20160131-2
   issues:
@@ -22530,6 +22538,12 @@ python-utmp:
     - captures_build_path
 python-visual:
   version: 1:5.12-1.6
+  issues:
+    - captures_build_path
+python-watcherclient:
+  version: 0.25.0-2
+  comments: |
+    Also captures build time in `watcherclient.tests.utils.FakeKeystone.timestamp`.
   issues:
     - captures_build_path
 python-webob:
