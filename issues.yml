@@ -1395,3 +1395,14 @@ ghc_captures_build_path_via_tempdir:
     A filename of the form "/tmp/ghcXXXX_0" is embedded into the binaries.
     .
     This seems to affect unstable but not testing, so probably related to captures_build_path.
+build_id_differences_only:
+  description: |
+    The Build ID differs, but there are no other differences.
+    .
+    Specifically, NT_GNU_BUILD_ID, .gnu_debuglink, and
+    /usr/lib/debug/build-id/* filenames differ, but there are no other
+    differences.
+    .
+    If there _are_ other differences, don't tag with this issue, but look for
+    the root problem, as explained under
+    build_id_variation_requiring_further_investigation.
