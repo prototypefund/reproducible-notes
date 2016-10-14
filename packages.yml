@@ -10070,6 +10070,8 @@ http-icons:
   comments: |
     GIF images are optimized while building by converting to PNM and back to GIF.
     The conversion back to GIF introduces the variation.
+  bugs:
+    - 840741
 httpcomponents-asyncclient:
   version: 4.1-1
   bugs:
