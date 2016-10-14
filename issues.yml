@@ -1406,3 +1406,6 @@ build_id_differences_only:
     If there _are_ other differences (or if diffoscope output is truncated),
     don't tag with this issue, but look for the root problem, as explained
     under build_id_variation_requiring_further_investigation.
+    .
+    When this occurs on unstable but not on testing, it's likely a form
+    of captures_build_path.
