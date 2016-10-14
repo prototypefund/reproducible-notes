@@ -1403,6 +1403,6 @@ build_id_differences_only:
     /usr/lib/debug/build-id/* filenames differ, but there are no other
     differences.
     .
-    If there _are_ other differences, don't tag with this issue, but look for
-    the root problem, as explained under
-    build_id_variation_requiring_further_investigation.
+    If there _are_ other differences (or if diffoscope output is truncated),
+    don't tag with this issue, but look for the root problem, as explained
+    under build_id_variation_requiring_further_investigation.
