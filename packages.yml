@@ -11314,6 +11314,14 @@ kaccessible:
   version: 4:16.08.0-1
   issues:
     - captures_build_path
+kactivities-kf5:
+  version: 5.26.0-1
+  issues:
+    - build_id_differences_only
+kactivitymanagerd:
+  version: 5.8.0-1
+  issues:
+    - build_id_differences_only
 kalarmcal:
   version: 16.04.2-2
   issues:
@@ -11418,6 +11426,10 @@ kcollectd:
   version: 0.9-2.1
   bugs:
     - 831129
+kconfig:
+  version: 5.26.0-1
+  issues:
+    - build_id_differences_only
 kcoreaddons:
   version: 5.25.0-1
   issues:
@@ -11462,6 +11474,14 @@ kde4libs:
     - captures_build_path
   bugs:
     - 811895
+kdeclarative:
+  version: 5.26.0-1
+  issues:
+    - build_id_differences_only
+kdeconnect:
+  version: 1.0.1-1
+  issues:
+    - build_id_differences_only
 kdecoration:
   version: 4:5.7.4-1
   issues:
@@ -11573,6 +11593,10 @@ kelbt:
   version: 0.16-1
   issues:
     - captures_build_path
+kemoticons:
+  version: 5.26.0-1
+  issues:
+    - build_id_differences_only
 keras:
   version: 1.0.7-1
   comments: |
@@ -11622,6 +11646,10 @@ kfilemetadata:
   version: 4:4.14.3-1
   issues:
     - captures_build_path
+kfilemetadata-kf5:
+  version: 5.26.0-1
+  issues:
+    - build_id_differences_only
 kfloppy:
   version: 4:16.04.0-2
   issues:
@@ -11642,6 +11670,10 @@ kget:
   version: 4:15.12.1-2
   issues:
     - captures_build_path
+kglobalaccel:
+  version: 5.26.0-1
+  issues:
+    - build_id_differences_only
 kgoldrunner:
   version: 4:15.12.0-2
   issues:
@@ -11783,6 +11815,10 @@ king:
   version: 2.21.120420+dfsg-1
   issues:
     - timestamps_in_jar
+kinit:
+  version: 5.26.0-1
+  issues:
+    - build_id_differences_only
 kino:
   version: 1.3.4-2.2
   issues:
@@ -12082,6 +12118,10 @@ krfb:
   version: 4:16.04.0-1
   bugs:
     - 831090
+kross:
+  version: 5.26.0-1
+  issues:
+    - build_id_differences_only
 kross-interpreters:
   version: 4:16.08.0-1
   issues:
@@ -12244,6 +12284,10 @@ kwin:
   version: 4:5.7.0-1
   issues:
     - captures_build_path
+kwindowsystem:
+  version: 5.26.0-1
+  issues:
+    - build_id_differences_only
 kwstyle:
   version: 1.0.1+git3224cf2-1
   issues:
@@ -13816,6 +13860,10 @@ libksba:
   version: 1.3.4-4
   issues:
     - captures_build_path
+libkscreen:
+  version: 4:5.8.0-1
+  issues:
+    - build_id_differences_only
 liblas:
   version: 1.8.0-12
   issues:
@@ -20362,6 +20410,14 @@ plasma-framework:
     - different_due_to_umask
   bugs:
     - 828021
+plasma-nm:
+  version: 4:5.8.0-1
+  issues:
+    - build_id_differences_only
+plasma-pa:
+  version: 5.8.0-1
+  issues:
+    - build_id_differences_only
 plasma-widget-adjustableclock:
   version: 4.1.4-1
   bugs:
@@ -28277,6 +28333,10 @@ systemd-ui:
   version: 3-4
   issues:
     - captures_build_path
+systemsettings:
+  version: 4:5.8.0-1
+  issues:
+    - build_id_differences_only
 systemtap:
   version: 2.9-1
   issues:
