@@ -1269,6 +1269,10 @@ too_much_input_for_diff:
   description: |
     diffoscope return "Too much input for diff" instead of meaningful diff.
     https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=836784
+max_output_size_reached:
+  description: |
+    diffoscope output doesn't show all differences.
+    Symptoms<colon> a diffoscope error message (in the output) such as "Max output size reached" or "Max diff block lines reached".
 golang_compiler_captures_build_path_in_binary:
   description: |
     The golang compiler embeds the source/build paths into binaries.
