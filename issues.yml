@@ -507,6 +507,10 @@ different_pot_creation_date_in_gettext_mo_files:
     When using dh, they will be normalized by strip-nondeterminism.
   deterministic: True
   url: https://bugs.debian.org/792687
+ftbfs_due_to_jenkins_semaphore_setup:
+  description: |
+    Something interesting in the Jenkins setup where we can't use semaphores.
+    Affects quite a few Python packages.
 ftbfs_in_jenkins_setup:
   description: |
     Could be:
