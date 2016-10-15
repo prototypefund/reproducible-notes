@@ -11523,6 +11523,17 @@ kdeplasma-addons:
   version: 4:5.7.4-1
   issues:
     - captures_build_path
+kdesignerplugin:
+  version: 5.26.0-1
+  comments: |
+    Most KDE packages are affected by `build_id_differences_only` only, but this package has additional issues.
+    .
+    The `readelf --wide --sections` output suggests the first section having a length difference is `.debug_aranges`,
+    however, the `--debug=aranges` shows no such difference.
+    .
+    There are also various ordering differences in .strtab, .debug_abbrev, possibly others.
+  issues:
+    - max_output_size_reached
 kdesu:
   version: 5.25.0-1
   issues:
