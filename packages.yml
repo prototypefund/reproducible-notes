@@ -22377,6 +22377,10 @@ python-oslo.serialization:
   version: 1.9.0-2
   bugs:
     - 816735
+python-oslo.service:
+  version: 1.16.0-2
+  issues:
+    - ftbfs_due_to_jenkins_semaphore_setup
 python-oslo.utils:
   version: 2.5.0-2
   bugs:
