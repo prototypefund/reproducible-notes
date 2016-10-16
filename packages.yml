@@ -9103,6 +9103,17 @@ gpg-remailer:
   version: 3.02.00-1
   issues:
     - random_order_in_static_library_by_icmake
+gpgme1.0:
+  version: 1.7.0-5
+  comments: |
+    [experimental/amd64]
+    doxygen docs use absolute filenames.  Should be fixed to use S_R_D-relative filenames instead.
+    .
+    Note 1.7.0-1 in unstable was reproducible.
+    .
+    Repeat customer, see debian/patches/0007-make-documentation-reproducible-by-omitting-HTML_TIM.patch.
+  issues:
+    - captures_build_path
 gpgmepp:
   version: 16.04.3-1
   issues:
@@ -19611,6 +19622,13 @@ pavucontrol:
   version: 3.0-3
   bugs:
     - 819779
+pavucontrol-qt:
+  version: 0.1.0-1
+  comments: |
+    [experimental/amd64]
+    Source file names are captured through assert().
+  issues:
+    - captures_build_path
 pavuk:
   version: 0.9.35-4
   comments: |
