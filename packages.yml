@@ -13042,6 +13042,10 @@ libcork:
   version: 0.15.0+ds-6
   issues:
     - captures_build_path
+libcorkipset:
+  version: 1.1.1+20150311-3
+  issues:
+    - captures_build_path
 libcoro-perl:
   version: 6.490-1
   bugs:
@@ -15639,6 +15643,10 @@ lua-rexlib:
   version: 2.7.2-3
   bugs:
     - 824909
+lua-sandbox:
+  version: 1.1.0-2
+  issues:
+    - captures_build_path
 lua-scrypt:
   version: 1.1-1
   issues:
@@ -25500,6 +25508,13 @@ ring:
   version: 20160804.3.dfb2548~dfsg1-1
   issues:
     - captures_build_path
+rinputd:
+  version: 1.0.5-2
+  comments: |
+    Not honouring dpkg-buildflags (objects not compiled with -fdebug-prefix-map).
+    But also using cmake, which is building with absolute paths.
+  issues:
+    - captures_build_path
 ripmime:
   version: 1.4.0.10.debian.1-1
   comments: |
@@ -25522,6 +25537,10 @@ rkward:
   issues:
     - captures_build_path
     - randomness_in_r_rdb_rds_databases
+rkt:
+  version: 1.10.0+dfsg-1
+  issues:
+    - diffoscope_runs_forever
 rlplot:
   version: 1.5-3
   bugs:
@@ -30563,6 +30582,10 @@ writerperfect:
   version: 0.9.5-1
   issues:
     - captures_build_path
+wsclean:
+  version: 1.12-2
+  issues:
+    - captures_build_path
 wsdl4j:
   version: 1.6.3-1
   issues:
@@ -30769,6 +30792,10 @@ xcrysden:
   version: 1.5.60-1
   issues:
     - different_encoding
+xd:
+  version: 3.25.00-1
+  issues:
+    - random_order_in_static_library_by_icmake
 xdebug:
   version: 2.4.1-1
   issues:
