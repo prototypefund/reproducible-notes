@@ -1425,3 +1425,6 @@ build_id_differences_only:
     .
     When this occurs on unstable but not on testing, it's likely a form
     of captures_build_path.
+captures_build_path_via_assert:
+  description: |
+    Absolute paths to source file names are embedded through assert(), which embeds the value of the __FILE__ macro.
