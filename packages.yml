@@ -16741,14 +16741,11 @@ monitoring-plugins:
   bugs:
     - 822337
 monkeysign:
-  version: 2.1.4
+  version: 2.2.1
   comments: |
-    FTBFS (tests fail) when build time is in the future because the test suite
-    uses real-world PGP keys which will have expired by then.
+    Unclear why it still fails to build on amd64 and is unreproducible on i386 while it builds nicely on armhf…
     .
     Maintainer (anarcat@) is aware.
-  bugs:
-    - 839355
 monkeysphere:
   version: 0.38-1
   bugs:
