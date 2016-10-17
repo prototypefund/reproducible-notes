@@ -29607,6 +29607,11 @@ ufoai-music:
   version: 2.5-1
   issues:
     - too_much_input_for_diff
+uftrace:
+  version: 0.6.0.20161014-1
+  issues:
+    - captures_build_path_via_assert
+    - max_output_size_reached
 uget:
   version: 2.0.6-1
   bugs:
