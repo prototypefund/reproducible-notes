@@ -22702,6 +22702,14 @@ python-websockets:
   version: 3.0-1
   bugs:
     - 828901
+python-wheezy.template:
+  version: 0.1.167-1
+  comments: |
+    The object file contains a symbol name derived from the value of S_R_D:
+    «__pyx_kp_s_build_2nd_python_wheezy_templat» (sic: appears truncated in diffoscope output).
+  issues:
+    - max_output_size_reached
+    - captures_build_path
 python-whoosh:
   version: 2.7.0-1
   issues:
@@ -27064,6 +27072,45 @@ shiboken:
     - captures_build_path
   bugs:
     - 811669
+shim:
+  version: 0.9+1474479173.6c180c6-1
+  comments: |
+    Signed EFI files differ.
+    .
+    1) One of the differences looks suspiciously like a notBefore/notAfter X.509 certificate difference:
+    .
+    │   │   │   │  00011420: 7479 3110 300e 0603 5504 0a0c 0753 6f6d  ty1.0...U....Som
+    │   │   │   │ -00011430: 654f 7267 301e 170d 3137 3131 3139 3139  eOrg0...17111919
+    │   │   │   │ -00011440: 3135 3235 5a17 0d31 3831 3131 3931 3931  1525Z..181119191
+    │   │   │   │ -00011450: 3532 355a 3041 310b 3009 0603 5504 0613  525Z0A1.0...U...
+    │   │   │   │ +00011430: 654f 7267 301e 170d 3136 3130 3137 3132  eOrg0...16101712
+    │   │   │   │ +00011440: 3533 3235 5a17 0d31 3731 3031 3731 3235  5325Z..171017125
+    │   │   │   │ +00011450: 3332 355a 3041 310b 3009 0603 5504 0613  325Z0A1.0...U...
+    │   │   │   │  00011460: 0255 5331 1130 0f06 0355 0407 0c08 536f  .US1.0...U....So
+    │   │   │   │  00011470: 6d65 4369 7479 3110 300e 0603 5504 0a0c  meCity1.0...U...
+    .
+    The diff seems as though the build signs the artifact for one year starting at the build date.
+    .
+    Looking at the source, that seems to be exactly what's happening (see line 9):
+    .
+      % <shim-0.9+1474479173.6c180c6/make-certs nl -ba | head
+           1	#!/bin/bash -e
+           2	#
+           3	#  Generate a root CA cert for signing, and then a subject cert.
+           4	#  Usage: make-certs.sh hostname [user[@domain]] [more ...]
+           5	#  For testing only, probably still has some bugs in it.
+           6	#
+           7
+           8	DOMAIN=xn--u4h.net
+           9	DAYS=365
+          10	KEYTYPE=RSA
+    .
+    2) There are probably additional issues.  Some of the other differences
+    would be fallout of the above (e.g., checksums), but the signature itself
+    is probably random.
+  issues:
+    - cryptographic_signature
+    - max_output_size_reached
 shishi:
   version: 1.0.2-6
   issues:
