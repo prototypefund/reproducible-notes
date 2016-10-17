@@ -305,7 +305,7 @@ aircrack-ng:
 airspy-host:
   version: 0.9-1
   issues:
-    - build_id_differences_only
+    - build_id_variation_requiring_further_investigation
 aj-snapshot:
   version: 0.9.6-2
   issues:
@@ -321,7 +321,7 @@ akonadi-googledata:
 akonadi-search:
   version: 16.04.3-1
   issues:
-    - build_id_differences_only
+    - build_id_variation_requiring_further_investigation
 akuma:
   version: 1.9-1
   comments: |
@@ -575,7 +575,7 @@ aodh:
 aoflagger:
   version: 2.8.0-1
   issues:
-    - build_id_differences_only
+    - build_id_variation_requiring_further_investigation
 aolserver4:
   version: 4.5.1-18
   issues:
@@ -9321,7 +9321,7 @@ gravitywars:
 graywolf:
   version: 0.1.4-1
   issues:
-    - build_id_differences_only
+    - build_id_variation_requiring_further_investigation
 grcm:
   version: 0.1.6-1
   issues:
@@ -9737,7 +9737,7 @@ h5py:
 hackrf:
   version: 2015.07.2-11
   issues:
-    - build_id_differences_only
+    - build_id_variation_requiring_further_investigation
 haildb:
   version: 2.3.2-1.4
   issues:
@@ -10742,7 +10742,7 @@ istack-commons:
 italc:
   version: 1:2.0.2+dfsg1-4
   issues:
-    - build_id_differences_only
+    - build_id_variation_requiring_further_investigation
 itksnap:
   version: 2.2.0-1.1
   issues:
@@ -11343,11 +11343,11 @@ kaccessible:
 kactivities-kf5:
   version: 5.26.0-1
   issues:
-    - build_id_differences_only
+    - build_id_variation_requiring_further_investigation
 kactivitymanagerd:
   version: 5.8.0-1
   issues:
-    - build_id_differences_only
+    - build_id_variation_requiring_further_investigation
 kalarmcal:
   version: 16.04.2-2
   issues:
@@ -11455,7 +11455,7 @@ kcollectd:
 kconfig:
   version: 5.26.0-1
   issues:
-    - build_id_differences_only
+    - build_id_variation_requiring_further_investigation
 kcoreaddons:
   version: 5.25.0-1
   issues:
@@ -11503,11 +11503,11 @@ kde4libs:
 kdeclarative:
   version: 5.26.0-1
   issues:
-    - build_id_differences_only
+    - build_id_variation_requiring_further_investigation
 kdeconnect:
   version: 1.0.1-1
   issues:
-    - build_id_differences_only
+    - build_id_variation_requiring_further_investigation
 kdecoration:
   version: 4:5.7.4-1
   issues:
@@ -11552,7 +11552,7 @@ kdeplasma-addons:
 kdesignerplugin:
   version: 5.26.0-1
   comments: |
-    Most KDE packages are affected by `build_id_differences_only` only, but this package has additional issues.
+    Most KDE packages are affected by `build_id_variation_requiring_further_investigation` only, but this package has additional issues.
     .
     The `readelf --wide --sections` output suggests the first section having a length difference is `.debug_aranges`,
     however, the `--debug=aranges` shows no such difference.
@@ -11633,7 +11633,7 @@ kelbt:
 kemoticons:
   version: 5.26.0-1
   issues:
-    - build_id_differences_only
+    - build_id_variation_requiring_further_investigation
 keras:
   version: 1.0.7-1
   comments: |
@@ -11686,7 +11686,7 @@ kfilemetadata:
 kfilemetadata-kf5:
   version: 5.26.0-1
   issues:
-    - build_id_differences_only
+    - build_id_variation_requiring_further_investigation
 kfloppy:
   version: 4:16.04.0-2
   issues:
@@ -11710,7 +11710,7 @@ kget:
 kglobalaccel:
   version: 5.26.0-1
   issues:
-    - build_id_differences_only
+    - build_id_variation_requiring_further_investigation
 kgoldrunner:
   version: 4:15.12.0-2
   issues:
@@ -11855,7 +11855,7 @@ king:
 kinit:
   version: 5.26.0-1
   issues:
-    - build_id_differences_only
+    - build_id_variation_requiring_further_investigation
 kino:
   version: 1.3.4-2.2
   issues:
@@ -12158,7 +12158,7 @@ krfb:
 kross:
   version: 5.26.0-1
   issues:
-    - build_id_differences_only
+    - build_id_variation_requiring_further_investigation
 kross-interpreters:
   version: 4:16.08.0-1
   issues:
@@ -12324,7 +12324,7 @@ kwin:
 kwindowsystem:
   version: 5.26.0-1
   issues:
-    - build_id_differences_only
+    - build_id_variation_requiring_further_investigation
 kwstyle:
   version: 1.0.1+git3224cf2-1
   issues:
@@ -13899,7 +13899,7 @@ libksba:
 libkscreen:
   version: 4:5.8.0-1
   issues:
-    - build_id_differences_only
+    - build_id_variation_requiring_further_investigation
 liblas:
   version: 1.8.0-12
   issues:
@@ -19305,7 +19305,7 @@ otb:
 otcl:
   version: 1.14+dfsg-3
   issues:
-    - build_id_differences_only
+    - build_id_variation_requiring_further_investigation
 otpw:
   version: 1.3-2
   issues:
@@ -20475,11 +20475,11 @@ plasma-framework:
 plasma-nm:
   version: 4:5.8.0-1
   issues:
-    - build_id_differences_only
+    - build_id_variation_requiring_further_investigation
 plasma-pa:
   version: 5.8.0-1
   issues:
-    - build_id_differences_only
+    - build_id_variation_requiring_further_investigation
 plasma-widget-adjustableclock:
   version: 4.1.4-1
   bugs:
@@ -22846,7 +22846,7 @@ pyzmq:
 q4wine:
   version: 1.3.1-1
   issues:
-    - build_id_differences_only
+    - build_id_variation_requiring_further_investigation
 qastools:
   version: 0.21.0-1
   issues:
@@ -25898,7 +25898,7 @@ rtkit:
 rtl-sdr:
   version: 0.5.3-11
   issues:
-    - build_id_differences_only
+    - build_id_variation_requiring_further_investigation
 rtslib:
   version: 1:3.0~pre4.1~g1b33ceb-3
   issues:
@@ -27348,7 +27348,7 @@ skipfish:
 skrooge:
   version: 2.4.0-2
   issues:
-    - build_id_differences_only
+    - build_id_variation_requiring_further_investigation
 sks:
   version: 1.1.5-4
   issues:
@@ -28488,7 +28488,7 @@ systemd-ui:
 systemsettings:
   version: 4:5.8.0-1
   issues:
-    - build_id_differences_only
+    - build_id_variation_requiring_further_investigation
 systemtap:
   version: 2.9-1
   issues:

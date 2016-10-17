@@ -470,6 +470,17 @@ build_id_variation_requiring_further_investigation:
     members or objects themselves, different content (e.g. `__DATE__` CPP
     macros or similar), or other interesting things.
     .
+    Specifically, NT_GNU_BUILD_ID, .gnu_debuglink, and
+    /usr/lib/debug/build-id/* filenames differ, but there are no other
+    differences.
+    .
+    If there _are_ other differences (or if diffoscope output is truncated),
+    don't tag with this issue, but look for the root problem, as explained
+    under build_id_variation_requiring_further_investigation.
+    .
+    When this occurs on unstable but not on testing, it's likely a form
+    of captures_build_path.
+    .
     Please don't tag issues with this issue until I find a place for this text ^
 timestamps_in_documentation_generated_by_podman:
   description: |
@@ -1411,20 +1422,6 @@ ghc_captures_build_path_via_tempdir:
     A filename of the form "/tmp/ghcXXXX_0" is embedded into the binaries.
     .
     This seems to affect unstable but not testing, so probably related to captures_build_path.
-build_id_differences_only:
-  description: |
-    The Build ID differs, but there are no other differences.
-    .
-    Specifically, NT_GNU_BUILD_ID, .gnu_debuglink, and
-    /usr/lib/debug/build-id/* filenames differ, but there are no other
-    differences.
-    .
-    If there _are_ other differences (or if diffoscope output is truncated),
-    don't tag with this issue, but look for the root problem, as explained
-    under build_id_variation_requiring_further_investigation.
-    .
-    When this occurs on unstable but not on testing, it's likely a form
-    of captures_build_path.
 captures_build_path_via_assert:
   description: |
     Absolute paths to source file names are embedded through assert(), which embeds the value of the __FILE__ macro.
