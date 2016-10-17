@@ -22708,12 +22708,9 @@ python-websockets:
     - 828901
 python-wheezy.template:
   version: 0.1.167-1
-  comments: |
-    The object file contains a symbol name derived from the value of S_R_D:
-    «__pyx_kp_s_build_2nd_python_wheezy_templat» (sic: appears truncated in diffoscope output).
   issues:
     - max_output_size_reached
-    - captures_build_path
+    - cython_captures_build_path
 python-whoosh:
   version: 2.7.0-1
   issues:
