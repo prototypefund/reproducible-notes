@@ -16745,7 +16745,7 @@ monitoring-plugins:
 monkeysign:
   version: 2.2.1
   comments: |
-    Unclear why it still fails to build on amd64 and is unreproducible on i386 while it builds nicely on armhf…
+    2.2.1 overlooked two more tests that are date-dependent.
     .
     Maintainer (anarcat@) is aware.
 monkeysphere:
