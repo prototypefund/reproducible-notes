@@ -1428,3 +1428,6 @@ build_id_differences_only:
 captures_build_path_via_assert:
   description: |
     Absolute paths to source file names are embedded through assert(), which embeds the value of the __FILE__ macro.
+captures_build_arch:
+  description: |
+    Captures the build arch (`uname -m`, typically i686 v. x86_64).

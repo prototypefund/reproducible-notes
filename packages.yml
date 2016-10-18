@@ -22290,6 +22290,20 @@ python-muranoclient:
   version: 0.7.1-3
   bugs:
     - 816735
+python-nacl:
+  version: 1.0.1-2
+  comments: |
+    [i386 only] The build uses an arch-dependent temporary directory name,
+    which is reflected in the debug symbols:
+    .
+    │   │   │   │   │   The Directory Table (offset 0x1b):
+    │   │   │   │   │ -  1	build/temp.linux-x86_64-2.7
+    │   │   │   │   │ +  1	build/temp.linux-i686-2.7
+    .
+    This could explain most or all of the other differences (through diffoscope's #838569)
+  issues:
+    - captures_build_arch
+    - max_output_size_reached
 python-netaddr:
   version: 0.7.18-1
   bugs:
@@ -28355,7 +28369,9 @@ swift-im:
 swig:
   version: 3.0.7-2.1
   comments: |
-    [i386] Captures `uname -m` ("x86_64" v. "i686")
+    [i386]
+  issues:
+    - captures_build_arch
 swiginac:
   version: 1.5.1.1-2
   bugs:
