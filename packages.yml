@@ -3236,6 +3236,10 @@ codeblocks:
   version: 16.01+dfsg-2
   issues:
     - timestamps_in_zip
+codec2:
+  version: 0.5.1-1
+  issues:
+    - build_id_differences_only
 codelite:
   version: 9.2+dfsg-1
   issues:
@@ -13408,6 +13412,10 @@ libfso-glib:
   version: 2012.07.27.2-3
   bugs:
     - 838973
+libftdi1:
+  version: 1.3-2
+  issues:
+    - build_id_differences_only
 libfvde:
   version: 20160801-1
   issues:
@@ -13852,6 +13860,10 @@ libkdcraw:
   version: 4:15.08.0-1.1
   issues:
     - captures_build_path
+libkdegames:
+  version: 4:16.08.0-1
+  issues:
+    - build_id_differences_only
 libkdegames-kde4:
   version: 4:14.12.3-2
   issues:
@@ -18770,6 +18782,10 @@ oidua:
   bugs:
     - 777067
     - 830392
+okteta:
+  version: 4:16.08.2-1
+  issues:
+    - build_id_differences_only
 okular:
   version: 4:16.04.2-1
   issues:
@@ -20585,6 +20601,10 @@ plasma-desktop:
     - captures_build_path
   bugs:
     - 825471
+plasma-discover:
+  version: 5.7.4-1
+  issues:
+    - build_id_differences_only
 plasma-framework:
   version: 5.22.0-1
   comments: |
