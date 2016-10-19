@@ -6586,6 +6586,10 @@ flashbench:
   version: 62-1
   issues:
     - captures_build_path
+flashproxy:
+  version: 1.7-4
+  issues:
+    - ftbfs_due_to_jenkins_semaphore_setup
 flashrom:
   version: 0.9.7+r1852-1.1
   comments: |
