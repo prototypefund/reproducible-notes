@@ -3620,6 +3620,10 @@ cpp-netlib:
   version: 0.11.2+dfsg1-2
   bugs:
     - 834186
+cppdb:
+  version: 0.3.1+dfsg-4
+  issues:
+    - build_id_differences_only
 cppformat:
   version: 1.1.0+ds-3
   issues:
@@ -8114,6 +8118,10 @@ gif2apng:
   version: 1.7-3
   bugs:
     - 782201
+gifticlib:
+  version: 1.0.9-1
+  issues:
+    - build_id_differences_only
 gigedit:
   version: 0.2.0-1
   issues:
@@ -13968,6 +13976,10 @@ libksba:
     - captures_build_path
 libkscreen:
   version: 4:5.8.0-1
+  issues:
+    - build_id_differences_only
+libksysguard:
+  version: 4:5.8.2-1
   issues:
     - build_id_differences_only
 liblas:
