@@ -26109,6 +26109,10 @@ rplay:
   version: 3.3.2-16
   issues:
     - captures_build_path
+rpmlint:
+  version: 1.9-4
+  issues:
+    - ftbfs_due_to_jenkins_semaphore_setup
 rpy:
   version: 1.0.3-30
   issues:
