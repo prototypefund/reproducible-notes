@@ -519,6 +519,10 @@ ftbfs_due_to_jenkins_semaphore_setup:
   description: |
     Something interesting in the Jenkins setup where we can't use semaphores.
     Affects quite a few Python packages.
+    .
+    grep BINDMOUNTS="/dev/shm" in jenkins.debian.net too.
+    Might just need "none /dev/shm tmpfs rw,nosuid,nodev,noexec 0 0" in fstab
+    of all the nodes.
 ftbfs_in_jenkins_setup:
   description: |
     Could be:
