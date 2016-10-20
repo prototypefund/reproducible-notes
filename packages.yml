@@ -25440,6 +25440,10 @@ rakudo:
   issues:
     - nondeterminstic_output_generated_by_moarvm
     - captures_build_path
+rally:
+  version: 0.2.0-1
+  issues:
+    - ftbfs_due_to_jenkins_semaphore_setup
 randomplay:
   version: 0.60+nmu1
   bugs:
