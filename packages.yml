@@ -22104,6 +22104,10 @@ python-cogent:
   issues:
     - random_order_in_python_environment_pickle
     - captures_build_path
+python-concurrent.futures:
+  version: 3.0.5-3
+  issues:
+    - ftbfs_due_to_jenkins_semaphore_setup
 python-congressclient:
   version: 1.1.0-2
   bugs:
