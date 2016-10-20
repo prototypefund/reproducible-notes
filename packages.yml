@@ -6487,6 +6487,10 @@ filler:
   issues:
     - timestamps_in_gzip_headers
     - timestamps_in_jar
+filters:
+  version: 2.55-1
+  bugs:
+    - 841394
 fim:
   version: 0.5~rc2-1
   bugs:
