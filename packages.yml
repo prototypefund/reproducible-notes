@@ -16846,6 +16846,27 @@ monkeysphere:
   version: 0.38-1
   bugs:
     - 835719
+monkeystudio:
+  version: 1.9.0.4-1
+  comments: |
+    Strings embedded in the .rodata section are locale-dependent (LC_CTYPE, charset):
+    .
+    │   │   │   │   │    0x0065d740 70726f6a 6563742e 00000000 00000000 project.........
+    │   │   │   │   │ -  0x0065d750 a9203230 3035202d 20323031 32204669 . 2005 - 2012 Fi
+    │   │   │   │   │ -  0x0065d760 6c697065 20415a45 5645444f 20616e64 lipe AZEVEDO and
+    │   │   │   │   │ +  0x0065d750 5c323531 20323030 35202d20 32303132 \251 2005 - 2012
+    │   │   │   │   │ +  0x0065d760 2046696c 69706520 415a4556 45444f20  Filipe AZEVEDO 
+    .
+    The left build contains 0xA9, which is ISO-8859-1 for ©.  The right build contains
+    0x5C 0x32 0x35 0x31, which is «\251» as a four-character string, that when interpreted
+    as an octal escape denotes the same byte value.
+    .
+    Therefore,
+    .
+    1. The compiled artifact oughtn't be locale-dependent
+    2. The octal literal being present might be a separate bug in its own right.  (E.g.,
+    if other strings besides the copyright notice are also processed by the code that generated
+    the octal escape.)
 mono:
   version: 4.2.1.102+dfsg2-5
   comments: |
