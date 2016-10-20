@@ -1431,3 +1431,9 @@ captures_build_path_via_assert:
 captures_build_arch:
   description: |
     Captures the build arch (`uname -m`, typically i686 v. x86_64).
+graphviz_nondeterminstic_output:
+  description: |
+    graphviz appears to use a non-determinstic algorithm to optimally lay out
+    notes optimally. This can appear in class hierarchy documention, etc. Can
+    presumably affect images of all complexity but, obviously, more likely to
+    affect images with lots of nodes.
