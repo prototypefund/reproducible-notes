@@ -5516,6 +5516,10 @@ ejabberd-contrib:
   version: 0.2016.08.01~dfsg0-1
   issues:
     - captures_build_path
+ekg2:
+  version: 1:0.4~pre+20120506.1-12
+  issues:
+    - graphviz_nondeterminstic_output
 elasticsearch:
   version: 1.7.5-1
   bugs:
@@ -28761,9 +28765,9 @@ taggrepper:
     - random_order_in_md5sums
     - different_due_to_umask
 taglib:
-  version: 1.9.1-2.4
-  comments: |
-    .png files in the documentation differ as they use graphviz
+  version: 1.11+dfsg.1-0.3
+  issues:
+    - graphviz_nondeterminstic_output
 taglib-extras:
   version: 1.0.1-3
   bugs:
