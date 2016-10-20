@@ -15574,6 +15574,10 @@ logapp:
     - timestamps_in_gzip_headers
   bugs:
     - 792976
+logbook:
+  version: 0.12.3-1
+  issues:
+    - ftbfs_due_to_jenkins_semaphore_setup
 logfs-tools:
   version: 20121013-2
   issues:
