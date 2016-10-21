@@ -16883,6 +16883,16 @@ monkeystudio:
     2. The octal literal being present might be a separate bug in its own right.  (E.g.,
     if other strings besides the copyright notice are also processed by the code that generated
     the octal escape.)
+    .
+    Upon further investigation, found
+        config.pri:57:QMAKE_TARGET_COPYRIGHT  = "\\251 2005 - 2012 Filipe AZEVEDO and $$QMAKE_TARGET_COMPANY"
+    so I'm thinking this is a bash/sh difference:
+        % sh -c 'echo \\251' | xxd
+        0000000: a90a                                     ..
+        % bash -c 'echo \\251' | xxd
+        0000000: 5c32 3531 0a                             \251.
+  issues:
+    - bin_sh_is_bash
 mono:
   version: 4.2.1.102+dfsg2-5
   comments: |
@@ -19021,6 +19031,8 @@ open-build-service:
     due to brace expansion in a Makefile (works in bash but not in dash):
     .
       src/api/Makefile:17:  $(INSTALL) -m 0755 -d $(DESTDIR)$(OBS_API_PREFIX)/db/sphinx{,/production}
+  issues:
+    - bin_sh_is_bash
 open-coarrays:
   version: 1.6.2-2
   issues:
