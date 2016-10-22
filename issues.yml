@@ -1455,3 +1455,6 @@ docbook_to_man_one_byte_delta_on_i386:
     . 1st: "\t" 0x9, 2nd:  "I" 0x49 # 1st is correct
     .
     It's possible that there is more than one root cause here (i.e. multiple similar issues).
+    .
+    http://sources.debian.net/src/docbook-to-man/1:2.0.0-35/cmd/docbook-to-man.sh/#L69
+    possible problem due to literal tab instead of metacharacter?
