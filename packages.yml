@@ -30178,6 +30178,22 @@ unmo3:
   version: 0.6-1
   issues:
     - captures_build_path
+unrar-free:
+  version: 1:0.0.1+cvs20140707-1
+  comments: |
+    [i386 only]
+    │   │   │   │   │ -.IP "\fB-x\fP 	\fB\-\-extract\fP         " 10
+    │   │   │   │   │ +.IP "\fB-x\fP I\fB\-\-extract\fP         " 10
+    .
+    The first line contains <space><tab>.  I think that's because the source code has
+    │        <term><option>-x</option>
+    │	<option>--extract</option>
+    with a literal tab on the second line, so the so the «\n\t» in the SGML source becomes «\x20\t» in the resulting nroff.
+    (See Transpec/docbook-to-man.ts in docbook-to-man.)
+    .
+    Unclear why it's i386 only, or how the tab is transformed to an "I".  (Could be a broken "^I" escape, or a bitflip.)
+  issues:
+    - docbook_to_man_one_byte_delta_on_i386
 uphpmvault:
   version: 0.8
   issues:
@@ -30860,6 +30876,14 @@ widelands:
   version: 1:18-3
   issues:
     - captures_build_path
+wikipediafs:
+  version: 0.4-6
+  comments: |
+    [i386 only]
+    │   │   │   │   │ -This manual page documents the \fBmount.wikipediafs\fR         command and general usageoof WikipediaFS.
+    │   │   │   │   │ +This manual page documents the \fBmount.wikipediafs\fR         command and general usage of WikipediaFS.
+  issues:
+    - docbook_to_man_one_byte_delta_on_i386
 wildmidi:
   version: 0.4.0-1
   issues:

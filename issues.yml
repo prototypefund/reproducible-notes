@@ -1444,3 +1444,14 @@ graphviz_nondeterminstic_output:
 bin_sh_is_bash:
   description: |
     Various issues that are caused from whether /bin/sh is dash or bash.
+docbook_to_man_one_byte_delta_on_i386:
+  description: |
+    The package uses docbook-to-man;
+    the man page has a single byte that has a different value on both builds (in one build it has the correct value and in the other a garbage value);
+    the difference occurs on i386 but not on amd64 nor armhf.
+    .
+    Examples to date:
+    . 1st: "o" 0x6F, 2nd:  " " 0x20 # 2nd is correct
+    . 1st: "\t" 0x9, 2nd:  "I" 0x49 # 1st is correct
+    .
+    It's possible that there is more than one root cause here (i.e. multiple similar issues).
