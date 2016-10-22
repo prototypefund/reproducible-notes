@@ -5245,6 +5245,8 @@ dvdauthor:
   version: 0.7.0-1.4
   issues:
     - captures_build_path
+  bugs:
+    - 841694
 dvdisaster:
   version: 0.72.4-1
   issues:
@@ -12389,6 +12391,10 @@ kvirc:
     https://gist.github.com/lamby/dfbf57c89436893e91c9c7877a006bee
   bugs:
     - 811908
+kvkbd:
+  version: 1:0.6-4
+  issues:
+    - captures_build_path
 kvmtool:
   version: 0.20160419-1
   issues:
@@ -15734,6 +15740,9 @@ lskat:
     - captures_build_path
 lsof:
   version: 4.89+dfsg-0.1
+  comments: |
+    Build path is captured because CFLAGS are embedded.
+    https://sources.debian.net/src/lsof/4.89%2Bdfsg-0.1/usage.c/#L962
   issues:
     - captures_build_path
 ltrace:
@@ -19640,6 +19649,7 @@ owncloud-client:
     images_in_pdf_generated_by_latex - used opipng
   issues:
     - captures_build_path
+    - pdf_id_varying_due_to_build_path
 owx:
   version: 0~20110415-3.1
   issues:
@@ -27414,8 +27424,8 @@ shapetools:
     - captures_build_path
 shared-mime-info:
   version: 1.6-1
-  bugs:
-    - 825471
+  issues:
+    - pdf_id_varying_due_to_build_path
 shark:
   version: 3.1.0+ds1-1
   bugs:
@@ -27830,6 +27840,9 @@ smart:
     - captures_build_path
 smartmontools:
   version: 6.5+svn4324-1
+  comments: |
+    Build path is captured because configure arguments are embedded (which contain C(XX)FLAGS).
+    https://sources.debian.net/src/smartmontools/6.5%2Bsvn4324-1/utility.cpp/#L132
   issues:
     - captures_build_path
 smb4k:
