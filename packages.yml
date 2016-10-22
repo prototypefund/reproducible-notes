@@ -724,10 +724,6 @@ aplus-fsf:
     - captures_build_path
   bugs:
     - 790226
-apng2gif:
-  version: 1.5-3
-  bugs:
-    - 782199
 apparix:
   version: 07-261-1
   issues:
@@ -10814,6 +10810,9 @@ isorelax:
     - random_order_in_documentation_generated_by_javadoc
 ispell:
   version: 3.4.00-5
+  comments: |
+    Build path is captured because CFLAGS are embedded.
+    https://sources.debian.net/src/ispell/3.4.00-5/ispell.c/#L410
   issues:
     - captures_build_path
 ispell-uk:
@@ -12896,6 +12895,8 @@ libapt-pkg-perl:
   version: 0.1.29
   issues:
     - captures_build_path
+  bugs:
+    - 841702
 libarchive:
   version: 3.1.2-11
   issues:
@@ -13780,6 +13781,8 @@ libio-pty-perl:
   version: 1:1.08-1.1
   issues:
     - captures_build_path
+  bugs:
+    - 841703
 libio-socket-multicast6-perl:
   version: 0.03-3
   bugs:
@@ -14140,6 +14143,8 @@ libmatio:
     - random_id_in_pdf_generated_by_dblatex
 libmcrypt:
   version: 2.5.8-3.3
+  comments: |
+    dpkg-buildflags are not honoured during build, so -fdebug-prefix-map is not used.
   issues:
     - captures_build_path
 libmemcache:
@@ -14940,6 +14945,8 @@ libtext-charwidth-perl:
   version: 0.04-7
   issues:
     - captures_build_path
+  bugs:
+    - 841701
 libtext-iconv-perl:
   version: 1.7-5
   issues:
