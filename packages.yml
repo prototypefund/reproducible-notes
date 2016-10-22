@@ -29763,15 +29763,6 @@ ttf-staypuft:
   version: 0.04-6
   issues:
     - fontforge_resets_modification_time
-ttf-tiresias:
-  version: 0.1-2
-  comments: |
-    Varying mtimes for font files
-  issues:
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-  bugs:
-    - 835143
-    - 834896
 ttyload:
   version: 0.5-8
   bugs:
