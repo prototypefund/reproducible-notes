@@ -1444,7 +1444,7 @@ graphviz_nondeterminstic_output:
 bin_sh_is_bash:
   description: |
     Various issues that are caused from whether /bin/sh is dash or bash.
-docbook_to_man_one_byte_delta_on_i386:
++docbook_to_man_one_byte_delta:
   description: |
     The package uses docbook-to-man;
     the man page has a single byte that has a different value on both builds (in one build it has the correct value and in the other a garbage value);
