@@ -15304,6 +15304,10 @@ libxs:
   version: 1.2.0-1.1
   bugs:
     - 815685
+libxshmfence:
+  version: 1.2-1
+  issues:
+    - ftbfs_due_to_jenkins_semaphore_setup
 libxss:
   version: 1:1.2.2-1
   issues:
