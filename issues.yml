@@ -1456,5 +1456,7 @@ bin_sh_is_bash:
     .
     It's possible that there is more than one root cause here (i.e. multiple similar issues).
     .
+    Why i386 only?  Possibly a 64bit-to-(arch-dependently-sized type) cast, eg «(int)(int64_t)foo»?  Does valgrind complain?
+    .
     http://sources.debian.net/src/docbook-to-man/1:2.0.0-35/cmd/docbook-to-man.sh/#L69
     possible problem due to literal tab instead of metacharacter?
