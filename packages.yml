@@ -2523,6 +2523,10 @@ cardstories:
   bugs:
     - 753195
     - 735761
+care:
+  version: 2.2.1-1
+  comments: |
+    Cannot seem to reproduce failure on b2- not shell or locale related when I manually vary those, and it is curious that objcopy is print the _usage_ suggesting that the backtick generated --output and --binary-architecture args are being generated fine (getting them deliberately wrong results in different errors).
 cargo:
   version: 0.9.0-1
   comments: |
