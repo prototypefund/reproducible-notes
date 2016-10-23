@@ -1268,7 +1268,8 @@ captures_build_path:
     If this is related to using the `___FILE___` macro, we plan on submitting some patches to GCC to fix this in one central place.
     See https://lists.alioth.debian.org/pipermail/reproducible-builds/Week-of-Mon-20160822/006788.html and
     https://lists.alioth.debian.org/pipermail/reproducible-builds/Week-of-Mon-20160905/006984.html and
-    https://lists.alioth.debian.org/pipermail/reproducible-builds/Week-of-Mon-20160912/007076.html
+    https://lists.alioth.debian.org/pipermail/reproducible-builds/Week-of-Mon-20160912/007076.html and
+    https://gcc.gnu.org/ml/gcc-patches/2016-10/msg01338.html
   deterministic: True
 captures_home_dir:
   description:
