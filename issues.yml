@@ -939,7 +939,7 @@ randomness_in_r_rdb_rds_databases:
     R creates .rdb files and .rds with some randomness. They are a serialisation of some
     sorts, related to lazy loading of modules?
     .
-    Seems related to https://bugs.debian.org/774031 ?
+    Does not seem related to https://bugs.debian.org/774031 / r_base_appends_built_header_to_description_files
 python-ply_compiled_parse_tables:
   description: |
     python-ply generates parse tables (eg. parsetab.py) that are
