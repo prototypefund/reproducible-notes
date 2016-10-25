@@ -1228,7 +1228,7 @@ augeas:
 authbind:
   version: 2.1.1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
   bugs:
     - 777727
 auto-07p:
@@ -1700,7 +1700,7 @@ biber:
 bible-kjv:
   version: 4.29
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 bibledit-gtk:
   version: 4.9-1
   issues:
@@ -1755,7 +1755,7 @@ bind9:
 binfmtc:
   version: 0.17-1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
   bugs:
     - 817377
 bing:
@@ -2550,7 +2550,7 @@ cb2bib:
 cc1111:
   version: 2.9.0-7
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 ccbuild:
   version: 2.0.7-2
   issues:
@@ -2596,7 +2596,7 @@ cdbackup:
 cdcat:
   version: 1.8-1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 cdcd:
   version: 0.6.6-13.1
   issues:
@@ -2909,7 +2909,7 @@ chktex:
 choose-mirror:
   version: 2.72
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 choqok:
   version: 1.5-5
   issues:
@@ -3594,7 +3594,7 @@ cpm:
 cpmtools:
   version: 2.17-1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 cpp-netlib:
   version: 0.11.2+dfsg1-2
   bugs:
@@ -5124,6 +5124,8 @@ dsc-statistics:
     - 811618
 dsh:
   version: 0.25.10-1.1
+  issues:
+    - build_id_differences_only
   bugs:
     - 817439
 dsniff:
@@ -6066,7 +6068,7 @@ fai:
 faifa:
   version: 0.2~svn82-1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 fail2ban:
   version: 0.9.4-1
   bugs:
@@ -7243,7 +7245,7 @@ ftgl:
 ftjam:
   version: 2.5.2-1.1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 ftp-upload:
   version: 1.5+nmu1
   bugs:
@@ -7338,7 +7340,7 @@ fwbuilder:
 fweb:
   version: 1.62-13
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 fwknop:
   version: 2.6.0-4
   issues:
@@ -7575,7 +7577,7 @@ gb:
 gbase:
   version: 0.5-2.2
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 gbatnav:
   version: 1.0.4cvs20051004-5
   issues:
@@ -9122,7 +9124,7 @@ gox:
 gp2c:
   version: 0.0.9pl5-1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 gpac:
   version: 0.5.2-426-gc5ad4e4+dfsg5-3
   issues:
@@ -9202,7 +9204,7 @@ gpsbabel:
 gpsd:
   version: 3.16-2
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
   bugs:
     - 830993
 gpsmanshp:
@@ -9452,7 +9454,7 @@ grub:
 grub-installer:
   version: 1.133
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 grub2:
   version: 2.02~beta2-23
   issues:
@@ -9813,7 +9815,7 @@ haskell-cabal:
 haskell-gtk-traymanager:
   version: 0.1.6-1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
   bugs:
     - 822432
 haskell-haddock-library:
@@ -10082,7 +10084,7 @@ hpanel:
 hspell:
   version: 1.2-3
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 hspell-gui:
   version: 0.2.6-5.1
   issues:
@@ -10306,7 +10308,7 @@ icmptx:
 icon:
   version: 9.4.3-4.2
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 icu:
   version: 52.1-9
   comments: |
@@ -10400,7 +10402,7 @@ ignition-msgs:
 ignition-transport:
   version: 1.3.0-4
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 ii-esu:
   version: 1.0a.dfsg1-7
   bugs:
@@ -13583,7 +13585,7 @@ libhamcrest-java:
 libharu:
   version: 2.2.1-1.1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 libhdate:
   version: 1.6-3
   comments: |
@@ -15442,7 +15444,7 @@ live-f1:
 live-installer:
   version: 52
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 live-manual:
   version: 4.0.2-1
   comments: |
@@ -15757,7 +15759,7 @@ lua50:
 luakit:
   version: 2012.09.13-r1-8
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 luasocket:
   version: 3.0~rc1+git+321c0c9-1
   issues:
@@ -16013,7 +16015,7 @@ mailto:
 main-menu:
   version: 1.48
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 maint-guide:
   version: 1.2.35
   issues:
@@ -16252,11 +16254,11 @@ mbedtls:
 mboxgrep:
   version: 0.7.9-3
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 mbr:
   version: 1.1.11-5
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 mbw:
   version: 1.2.2-1
   issues:
@@ -16344,7 +16346,7 @@ memoise:
 memstat:
   version: 1.0
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 memtest86+:
   version: 5.01-2
   comments: |
@@ -16480,7 +16482,7 @@ mime-construct:
 mimedefang:
   version: 2.78-1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 mimefilter:
   version: 1.7+nmu1
   comments: |
@@ -17263,7 +17265,7 @@ multcomp:
 multimail:
   version: 0.49-2
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 multiverse-core:
   version: 0.7.0-3
   issues:
@@ -17986,7 +17988,7 @@ nitime:
 nitpic:
   version: 0.1-16
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 nlkt:
   version: 0.3.2.5-1
   issues:
@@ -19171,7 +19173,7 @@ openhackware:
 openhpi:
   version: 3.6.1-2
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
   bugs:
     - 811950
 openigtlink:
@@ -19971,7 +19973,7 @@ pd-beatpipe:
 pd-boids:
   version: 1.1.1-2
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 pd-comport:
   version: 0.2-2
   issues:
@@ -19979,15 +19981,15 @@ pd-comport:
 pd-cxc:
   version: 0.5.2-1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 pd-earplug:
   version: 0.2-3
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 pd-ekext:
   version: 0.1.1-2
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 pd-ext13:
   version: 0.17.1-2
   issues:
@@ -20005,7 +20007,7 @@ pd-flite:
 pd-freeverb:
   version: 1.2-3
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 pd-iemnet:
   version: 0.2.1-1
   issues:
@@ -20013,7 +20015,7 @@ pd-iemnet:
 pd-libdir:
   version: 1.9-3
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 pd-lyonpotpourri:
   version: 2.0+git20121009-1
   issues:
@@ -20021,11 +20023,11 @@ pd-lyonpotpourri:
 pd-markex:
   version: 0.85-2
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 pd-maxlib:
   version: 1.5.5-1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 pd-mjlib:
   version: 0.1.1-3
   issues:
@@ -20037,15 +20039,15 @@ pd-moonlib:
 pd-motex:
   version: 1.1.4-3
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 pd-pddp:
   version: 0.2.1-1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 pd-pdogg:
   version: 0.25.1-1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 pd-pdstring:
   version: 0.10.2-1
   comments: |
@@ -20056,31 +20058,31 @@ pd-pdstring:
 pd-plugin:
   version: 0.2.1-3
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 pd-pmpd:
   version: 0.9-4
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 pd-sigpack:
   version: 0.0.4.2-2
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 pd-smlib:
   version: 0.12.2-1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 pd-vbap:
   version: 1.0.3.2-1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 pd-wiimote:
   version: 0.3.2-2
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 pd-windowing:
   version: 0.1-2
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 pdal:
   version: 1.2.0-2
   comments: |
@@ -20202,7 +20204,7 @@ perl:
 perl-byacc:
   version: 2.0-8
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 perl-tk:
   version: 1:804.033-1
   issues:
@@ -20328,7 +20330,7 @@ pgocaml:
 pgpgpg:
   version: 0.13-9.1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 pgpool2:
   version: 3.5.4-1
   bugs:
@@ -20643,7 +20645,7 @@ pipebang:
 pipemeter:
   version: 1.1.3-1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 pipewalker:
   version: 0.9.4-2
   issues:
@@ -20681,7 +20683,7 @@ pixelmed-codec:
 pixmap:
   version: 2.6pl4-18
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 pjproject:
   version: 2.5.1~dfsg-2
   bugs:
@@ -20972,7 +20974,7 @@ popplerkit.framework:
 popt:
   version: 1.16-10
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 portabase:
   version: 2.1+git20120910-1.1
   issues:
@@ -21001,7 +21003,7 @@ posixtestsuite:
 postal:
   version: 0.73+nmu1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
   bugs:
     - 811884
     - 830472
@@ -21012,6 +21014,8 @@ postbooks:
     - 811865
 poster:
   version: 1:20050907-1
+  issues:
+    - build_id_differences_only
   bugs:
     - 817627
 postfix:
@@ -21301,23 +21305,23 @@ proftpd-dfsg:
 proftpd-mod-autohost:
   version: 0.4-1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 proftpd-mod-case:
   version: 0.7-1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 proftpd-mod-clamav:
   version: 0.10-1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 proftpd-mod-dnsbl:
   version: 0.1.5-3
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 proftpd-mod-fsync:
   version: 0.2-1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 proftpd-mod-msg:
   version: 0.4.1-1.1
   issues:
@@ -21325,11 +21329,11 @@ proftpd-mod-msg:
 proftpd-mod-tar:
   version: 0.3.3-1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 proftpd-mod-vroot:
   version: 0.9.2-2
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 proj-ps-doc:
   version: 4.3.3-4
   bugs:
@@ -21525,7 +21529,7 @@ pure-ftpd:
 puredata-import:
   version: 1.3-3
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 purelibc:
   version: 0.4.1-1
   issues:
@@ -22813,7 +22817,7 @@ python-pymzml:
 python-pyo:
   version: 0.7.9-1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 python-pypcap:
   version: 1.1.2+debian-2.2
   issues:
@@ -26195,6 +26199,7 @@ rsync:
   issues:
     - timestamps_in_gzip_headers
     - random_order_in_md5sums
+    - build_id_differences_only
   bugs:
     - 787123
 rsyncrypto:
@@ -27648,7 +27653,7 @@ sixer:
 sjeng:
   version: 11.2-8
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 sjfonts:
   version: 2.0.2-1.1
   issues:
@@ -28291,7 +28296,7 @@ staden:
 stalin:
   version: 0.11-6
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 stardata-common:
   version: 0.8
   issues:
@@ -29411,7 +29416,7 @@ tmpreaper:
 tmview:
   version: 1:01.03-14.2
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 tnat64:
   version: 0.05-1
   issues:
@@ -29948,7 +29953,7 @@ udpcast:
 udpkg:
   version: 1.18
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 udunits:
   version: 2.2.20-1
   issues:
@@ -30029,7 +30034,7 @@ umbrello:
 uml-utilities:
   version: 20070815-1.4
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
   bugs:
     - 817708
 umlet:
@@ -30140,7 +30145,7 @@ unrar-free:
 uphpmvault:
   version: 0.8
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 upnp-router-control:
   version: 0.2-1.2
   issues:
@@ -30957,7 +30962,7 @@ wmressel:
 wmwave:
   version: 0.4-10
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
   bugs:
     - 822391
 wmweather:
@@ -31010,7 +31015,7 @@ wordwarvi:
 wpa:
   version: 2.5-2+v2.4-3
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 wrapperfactory.app:
   version: 0.1.0-4
   issues:
@@ -31312,7 +31317,7 @@ xenomai:
 xenwatch:
   version: 0.5.4-4
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 xevil:
   version: 2.02r2-10
   bugs:
@@ -31388,7 +31393,7 @@ xine-ui:
 xinv3d:
   version: 1.3.6-6
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 xipmsg:
   version: 0.8088-2.1
   bugs:
@@ -31554,7 +31559,7 @@ xmount:
 xnecview:
   version: 1.35-8
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 xnee:
   version: 3.19-1
   comments: |
@@ -31848,7 +31853,7 @@ yacas:
 yacpi:
   version: 3.0-2
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 yade:
   version: 1.20.0-6
   comments: |
@@ -31905,7 +31910,7 @@ yaret:
 yaskkserv:
   version: 1.0.0-1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 yasm:
   version: 1.2.0-2
   bugs:
