@@ -1471,6 +1471,8 @@ bamtools:
     - build_id_differences_only
 bandit:
   version: 0.13.2-3
+  issues:
+    - captures_build_path
   bugs:
     - 816735
 bandwidthcalc:
@@ -7870,6 +7872,8 @@ gelemental:
     - 812040
 gemanx-gtk2:
   version: 0.1.0.3-2
+  issues:
+    - captures_build_path
   bugs:
     - 811755
 genders:
@@ -9151,6 +9155,8 @@ gpick:
   comments: |
     Embed build time:
     https://sources.debian.net/src/gpick/0.2.5-1/tools/gpick.py/?hl=141:151#L141
+  issues:
+    - captures_build_path
   bugs:
     - 831041
 gplcver:
@@ -9451,6 +9457,7 @@ grub2:
   version: 2.02~beta2-23
   issues:
     - diffoscope_runs_forever
+    - captures_build_path
   bugs:
     - 787795
 gsasl:
@@ -9898,6 +9905,8 @@ heat:
     - randomness_in_documentation_generated_by_sphinx
 hebcal:
   version: 3.5-2
+  issues:
+    - captures_build_path
   bugs:
     - 817493
 hedgewars:
@@ -10007,6 +10016,8 @@ hkl:
     - timestamps_in_documentation_generated_by_org_mode
 hmat-oss:
   version: 1.0.4-2
+  issues:
+    - captures_build_path
   bugs:
     - 831143
 hmisc:
@@ -10703,6 +10714,8 @@ ironic:
   version: 2014.1-10
   comments: |
     Timestamps in HTML documentation.
+  issues:
+    - captures_build_path
 irony-mode:
   version: 0.1.2-2
   issues:
@@ -11418,6 +11431,8 @@ karchive:
     - captures_build_path
 kate:
   version: 4:16.04.2-1
+  issues:
+    - captures_build_path
   bugs:
     - 835726
 kate4:
@@ -11547,6 +11562,8 @@ kdelibs4support:
     - captures_build_path
 kdepim:
   version: 4:16.04.3-1
+  issues:
+    - captures_build_path
   bugs:
     - 835744
     - 835738
@@ -11935,6 +11952,8 @@ klibc:
   version: 2.0.4-8
   comments: |
     Excludes permission fixing for "klibc-", which matches "/usr/share/initramfs-tools/hooks/klibc-utils"
+  issues:
+    - captures_build_path
 klick:
   version: 0.12.2-3
   issues:
@@ -16051,6 +16070,7 @@ manila:
   version: 1:1.0.0-4
   issues:
     - user_hostname_manually_added_requiring_further_investigation
+    - captures_build_path
   bugs:
     - 834839
 manpages-hu:
@@ -17113,6 +17133,7 @@ mpqc3:
   version: 0.0~git20160216-3
   issues:
     - diffoscope_runs_forever
+    - captures_build_path
 mpv:
   version: 0.20.0-1
   issues:
@@ -17949,6 +17970,7 @@ nipype:
   version: 0.10.0-2
   issues:
     - randomness_in_documentation_generated_by_sphinx
+    - captures_build_path
 nis:
   version: 3.17-34
   issues:
@@ -18244,6 +18266,7 @@ notmuch:
   version: 0.19-1
   issues:
     - timestamps_in_manpages_generated_by_sphinx
+    - captures_build_path
 nova:
   version: 2:13.0.0-2
   comments: |
@@ -19193,6 +19216,8 @@ openjdk-8-jre-dcevm:
   comments: |
     Embeds the username:
     https://sources.debian.net/src/openjdk-8-jre-dcevm/8u74-1/src/share/vm/runtime/vm_version.cpp/?hl=263,267#L267
+  issues:
+    - captures_build_path
   bugs:
     - 831153
 openjdk-9:
@@ -19544,6 +19569,8 @@ ounit:
     - captures_build_path
 outguess:
   version: 1:0.2-7
+  issues:
+    - captures_build_path
   bugs:
     - 817613
 overgod:
@@ -20917,6 +20944,7 @@ polyorb:
   version: 2.11~20140418-3
   issues:
     - timestamps_in_ada_library_information_files
+    - captures_build_path
   bugs:
     - 831255
 pomegranate-clojure:
@@ -20929,6 +20957,8 @@ pommed:
     - captures_build_path
 poppassd:
   version: 1.8.5-4
+  issues:
+    - captures_build_path
   bugs:
     - 817626
 poppler-sharp:
@@ -21576,6 +21606,7 @@ pycairo:
   version: 1.8.8-1
   issues:
     - random_order_in_python_environment_pickle
+    - captures_build_path
   bugs:
     - 830364
 pycangjie:
@@ -22116,6 +22147,7 @@ python-cobra:
   version: 0.4.2~b1-1
   issues:
     - ftbfs_due_to_jenkins_semaphore_setup
+    - captures_build_path
 python-cogent:
   version: 1.5.3-2
   issues:
@@ -23466,6 +23498,7 @@ qtwebkit:
   version: 2.3.4.dfsg-3
   issues:
     - timestamps_from_cpp_macros
+    - captures_build_path
   bugs:
     - 812160
 qtwebkit-examples-opensource-src:
@@ -27045,6 +27078,8 @@ scim-skk:
     - 825471
 scim-unikey:
   version: 0.3.1+debian-3.1
+  issues:
+    - captures_build_path
   bugs:
     - 831158
     - 811766
@@ -27343,6 +27378,8 @@ shared-mime-info:
     - pdf_id_varying_due_to_build_path
 shark:
   version: 3.1.0+ds1-1
+  issues:
+    - captures_build_path
   bugs:
     - 820701
 sheepdog:
@@ -27455,6 +27492,8 @@ sigil:
     - captures_build_path
 signond:
   version: 8.57+20150423-3
+  issues:
+    - captures_build_path
   bugs:
     - 827811
 sigviewer:
@@ -29716,6 +29755,8 @@ tvc:
     - captures_build_path
 tvtime:
   version: 1.0.2-14
+  issues:
+    - captures_build_path
   bugs:
     - 811894
 tweak:
@@ -29981,6 +30022,8 @@ ulatencyd:
     - captures_build_path
 umbrello:
   version: 4:16.04.2-1
+  issues:
+    - captures_build_path
   bugs:
     - 835705
 uml-utilities:
@@ -31652,6 +31695,10 @@ xserver-xorg-video-fbdev:
   version: 1:0.4.4-1
   issues:
     - captures_build_path
+xserver-xorg-video-freedreno:
+  version: 1.4.0-1
+  issues:
+    - captures_build_path
 xserver-xorg-video-glide:
   version: 1.2.2-1
   issues:
@@ -31682,6 +31729,8 @@ xshogi:
     - 778786
 xsok:
   version: 1.02-17
+  issues:
+    - captures_build_path
   bugs:
     - 817738
 xsp:
