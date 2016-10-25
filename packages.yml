@@ -19224,6 +19224,7 @@ openjdk-8-jre-dcevm:
     https://sources.debian.net/src/openjdk-8-jre-dcevm/8u74-1/src/share/vm/runtime/vm_version.cpp/?hl=263,267#L267
   issues:
     - captures_build_path
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 831153
 openjdk-9:
@@ -27259,6 +27260,7 @@ senlin:
   issues:
     - random_order_in_python_environment_pickle
     - captures_build_path
+    - user_hostname_manually_added_requiring_further_investigation
 sensible-utils:
   version: 0.0.9
   issues:
@@ -27456,6 +27458,7 @@ shim:
   issues:
     - cryptographic_signature
     - max_output_size_reached
+    - user_hostname_manually_added_requiring_further_investigation
 shishi:
   version: 1.0.2-6
   issues:
