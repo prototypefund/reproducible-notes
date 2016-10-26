@@ -28641,6 +28641,22 @@ supercollider:
   version: 1:3.7.0~repack-3
   issues:
     - captures_build_path
+supercollider-sc3-plugins:
+  version: 3.7.1~repack-2
+  comments: |
+    │   │   │   │   │  /usr/include/c++/6/bits/char_traits.h:290
+    │   │   │   │   │ -    c0d9:	48 b9 2f 62 75 69 6c 	movabs $0x312d646c6975622f,%rcx
+    │   │   │   │   │ -    c0e0:	64 2d 31
+    │   │   │   │   │ +    c0d9:	48 b9 2f 62 75 69 6c 	movabs $0x322d646c6975622f,%rcx
+    │   │   │   │   │ +    c0e0:	64 2d 32
+    .
+    The argument to `movabs` is a string:
+    % echo 322d646c6975622f | xxd -p -r ; echo
+    2-dliub/
+    .
+    (This is the start of a "/build-2nd/..." path; compare the 'montage' package)
+  issues:
+    - captures_build_path_via_assert
 superlu:
   version: 5.2.1+dfsg1-2
   issues:
@@ -28669,22 +28685,6 @@ supple:
   version: 1.0.6-1
   issues:
     - unsorted_lua_versions_in_control
-supercollider-sc3-plugins:
-  version: 3.7.1~repack-2
-  comments: |
-    │   │   │   │   │  /usr/include/c++/6/bits/char_traits.h:290
-    │   │   │   │   │ -    c0d9:	48 b9 2f 62 75 69 6c 	movabs $0x312d646c6975622f,%rcx
-    │   │   │   │   │ -    c0e0:	64 2d 31
-    │   │   │   │   │ +    c0d9:	48 b9 2f 62 75 69 6c 	movabs $0x322d646c6975622f,%rcx
-    │   │   │   │   │ +    c0e0:	64 2d 32
-    .
-    The argument to `movabs` is a string:
-    % echo 322d646c6975622f | xxd -p -r ; echo
-    2-dliub/
-    .
-    (This is the start of a "/build-2nd/..." path; compare the 'montage' package)
-  issues:
-    - captures_build_path_via_assert
 surefire:
   version: 2.17-2
   comments: |
