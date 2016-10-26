@@ -72,6 +72,7 @@ acbuild:
   issues:
     - random_build_path_by_golang_compiler
     - timestamps_in_manpages_added_by_golang_cobra
+    - golang_compiler_captures_build_path_in_binary
 access-modifier-checker:
   version: 1.4-2
   issues:
@@ -800,6 +801,7 @@ aptly:
   version: 0.9.7-1
   issues:
     - too_much_input_for_diff
+    - golang_compiler_captures_build_path_in_binary
 aptoncd:
   version: 0.1.98+bzr117-1.4
   issues:
@@ -4962,6 +4964,8 @@ docker-registry:
     - captures_build_path
 docker-swarm:
   version: 1.0.1+dfsg-1
+  issues:
+    - golang_compiler_captures_build_path_in_binary
   bugs:
     - 832849
 docker.io:
@@ -9007,6 +9011,7 @@ golang-github-xenolf-lego:
   version: 0.3.1-1
   issues:
     - too_much_input_for_diff
+    - golang_compiler_captures_build_path_in_binary
 golang-github-xordataexchange-crypt:
   version: 0.0.2+git20150523.17.749e360-4
   issues:
@@ -21415,6 +21420,7 @@ prometheus-node-exporter:
   version: 0.12.0+ds+really0.12.0-2
   issues:
     - too_much_input_for_diff
+    - golang_compiler_captures_build_path_in_binary
 prometheus-pushgateway:
   version: 0.3.0+ds-2
   issues:
