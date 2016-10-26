@@ -2968,6 +2968,8 @@ cinnamon:
     - 822432
 cinnamon-desktop:
   version: 2.8.1-1
+  issues:
+    - nondeterminstic_ordering_in_gsettings_glib_enums_xml
   bugs:
     - 822432
 cinnamon-session:
@@ -29546,6 +29548,10 @@ toshset:
   version: 1.76-4
   issues:
     - captures_build_path
+totem:
+  version: 3.22.0-2
+  issues:
+    - nondeterminstic_ordering_in_gsettings_glib_enums_xml
 toulbar2:
   version: 0.9.8-1
   bugs:
