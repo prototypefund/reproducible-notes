@@ -3246,7 +3246,7 @@ codenarc:
 codesearch:
   version: 0.0~hg20120502-2
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 codetools:
   version: 0.2-14-2
   issues:
@@ -3494,7 +3494,7 @@ consul:
   version: 0.6.4~dfsg-3
   issues:
     - too_much_input_for_diff
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 consul-migrate:
   version: 0.1.0-1
   issues:
@@ -5944,7 +5944,7 @@ etcd:
 etcd-fs:
   version: 0.0+git20140621.0.395eacb-1
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 etherape:
   version: 0.9.13-1
   issues:
@@ -8851,13 +8851,13 @@ golang-bindata:
 golang-doozer:
   version: 0.0~git20130909-1
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
   bugs:
     - 789834
 golang-ginkgo:
   version: 1.2.0-3
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
   bugs:
     - 819214
 golang-git2go:
@@ -8872,12 +8872,12 @@ golang-github-appc-docker2aci:
   version: 0.9.2-2
   issues:
     - random_build_path_by_golang_compiler
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 golang-github-appc-spec:
   version: 0.7.1+dfsg-1
   issues:
     - random_build_path_by_golang_compiler
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 golang-github-armon-gomdb:
   version: 0.0~git20150106.0.151f2e0-1
   bugs:
@@ -8885,7 +8885,7 @@ golang-github-armon-gomdb:
 golang-github-benbjohnson-tmpl:
   version: 0.0~git20160209.0.8e77bc5-1
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 golang-github-calmh-xdr:
   version: 2.0.0-1
   issues:
@@ -8913,7 +8913,7 @@ golang-github-eknkc-amber:
 golang-github-golang-mock:
   version: 0.0~git20150821.0.06883d9-1
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 golang-github-gucumber-gucumber:
   version: 0.0~git20160715.0.71608e2-1
   issues:
@@ -8933,7 +8933,7 @@ golang-github-hashicorp-raft-mdb:
 golang-github-hashicorp-serf:
   version: 0.7.0~ds1-1
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 golang-github-hashicorp-yamux:
   version: 0.0~git20150917.0.ddcd0a6-1
   issues:
@@ -8958,23 +8958,23 @@ golang-github-jinzhu-gorm:
 golang-github-lsegal-gucumber:
   version: 0.0~git20160110.0.44a4d7e-1
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 golang-github-masterzen-winrm:
   version: 0.0~git20160323.0752679-1
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 golang-github-miekg-mmark:
   version: 1.3.4+dfsg-1
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 golang-github-nicksnyder-go-i18n:
   version: 1.5.0-1
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 golang-github-odeke-em-cli-spinner:
   version: 0.0~git20150423.610063b-2
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 golang-github-odeke-em-ripper:
   version: 0.0~git20150415.0.bd1a682-2
   issues:
@@ -8982,7 +8982,7 @@ golang-github-odeke-em-ripper:
 golang-github-pointlander-peg:
   version: 0.0~git20160905.0.58700b5-1
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 golang-github-rakyll-statik:
   version: 0.1.0-2
   issues:
@@ -9005,7 +9005,7 @@ golang-github-tinylib-msgp:
   comments: |
     Looks like its due to random variable numbers in generated code but these are actually deterministic due to golangs implicit rand.Seed(1) - I believe its some kind of arbitrary dict ordering instead
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 golang-github-vbatts-tar-split:
   version: 0.9.13-1
   issues:
@@ -9073,7 +9073,7 @@ golang-goyaml:
 golang-petname:
   version: 2.5~git20160928-1
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 golang-rrd:
   version: 0.0~git20131112-1
   bugs:
@@ -9144,11 +9144,11 @@ gotmail:
 govendor:
   version: 1.0.3+ds1-1
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 gox:
   version: 0.3.0-1
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 gp2c:
   version: 0.0.9pl5-1
   issues:
@@ -9930,7 +9930,7 @@ hearse:
 heartbleeder:
   version: 0.1.1-2
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 heat:
   version: 2014.1.3-7
   issues:
@@ -10197,7 +10197,7 @@ hugo:
   version: 0.15+git20160109.147.dd1d655-1
   issues:
     - timestamps_in_manpages_added_by_golang_cobra
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 hunt:
   version: 1.5-6.1
   issues:
@@ -10534,7 +10534,7 @@ infinipath-psm:
 influxdb:
   version: 0.13.0+dfsg1-4
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 influxdb-python:
   version: 3.0.0-1
   bugs:
@@ -12422,7 +12422,7 @@ kwstyle:
 kxd:
   version: 0.12-4
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 kxl:
   version: 1.1.7-16.1
   issues:
@@ -17270,7 +17270,7 @@ mswatch:
 mtail:
   version: 0.0+git20160716.f911b02-1
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 mtasc:
   version: 1.14-3
   bugs:
@@ -21407,19 +21407,19 @@ projectreactor:
 prometheus:
   version: 1.1.2+ds-2
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 prometheus-alertmanager:
   version: 0.3.0+ds-2
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 prometheus-mongodb-exporter:
   version: 0.0+git20160604.28251cc-1
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 prometheus-mysqld-exporter:
   version: 0.8.1+ds-1
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 prometheus-node-exporter:
   version: 0.12.0+ds+really0.12.0-2
   issues:
@@ -21428,11 +21428,11 @@ prometheus-node-exporter:
 prometheus-pushgateway:
   version: 0.3.0+ds-2
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 prometheus-varnish-exporter:
   version: 1.0-2
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 proofgeneral:
   version: 4.3~pre131011-0.2
   issues:
@@ -25586,7 +25586,7 @@ ratfor:
 ratt:
   version: 0.0~git20150816.0.b060319-1
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 raul:
   version: 0.8.0+dfsg0-0.1
   issues:
@@ -26027,7 +26027,7 @@ robustbase:
 robustirc-bridge:
   version: 1.5-2
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 rockdodger:
   version: 1.0.0-1
   comments: |
@@ -27764,7 +27764,7 @@ skycat:
 skydns:
   version: 2.5.3a-1
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 skyeye:
   version: 1.2.5-5
   issues:
@@ -28823,7 +28823,7 @@ syncevolution:
 syncthing:
   version: 0.13.4+dfsg1-1
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
   bugs:
     - 835684
 synergy:
@@ -28878,7 +28878,7 @@ systemd:
 systemd-docker:
   version: 0.2.1+dfsg-2
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 systemd-ui:
   version: 3-4
   issues:
@@ -29614,7 +29614,7 @@ toulbar2:
 toxiproxy:
   version: 2.0.0+dfsg1-3
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 tpb:
   version: 0.6.4-8
   bugs:
@@ -30961,7 +30961,7 @@ wings3d:
 winrmcp:
   version: 0.0~git20160310.f1bcf36-1
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 winswitch:
   version: 0.12.21+dfsg-1
   comments: |
