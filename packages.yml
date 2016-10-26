@@ -28884,6 +28884,18 @@ systemtap:
     - fonts_in_pdf_files
   bugs:
     - 811600
+tacacs+:
+  version: 4.0.4.27a-3
+  comments: |
+    [amd64 only]
+    A configure AC_TRY_RUN() test gives different results:
+    .
+      -checking if children need to be reaped with SIG_IGN... yes
+      +checking if children need to be reaped with SIG_IGN... no
+    .
+    Consequently, `wait3` is present in the .dynstr section in the left build but not in the right build.
+  issues:
+    - max_output_size_reached
 tachyon:
   version: 0.99~b6+dsx-3
   comments: |
