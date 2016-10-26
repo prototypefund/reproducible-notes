@@ -1434,6 +1434,7 @@ bacula-doc:
     - fonts_in_pdf_files
     - timestamps_in_ps_generated_by_dvips
     - pdf_created_by_ghostscript
+    - captures_users_gecos
 bagel:
   version: 0.0~git20160507-3
   issues:
@@ -5416,6 +5417,7 @@ eclipse-titan:
     Embeds "Build date:" in binary"
   issues:
     - user_hostname_manually_added_requiring_further_investigation
+    - captures_users_gecos
 eclipse-wtp:
   version: 3.6.0-1
   issues:
@@ -8730,6 +8732,7 @@ gnuplot:
     - timestamps_in_ps_generated_by_dvips
     - pdf_created_by_ghostscript
     - timestamps_in_dvi_generated_by_latex
+    - captures_users_gecos
 gnuplot-mode:
   version: 1:0.7.0-1
   issues:
@@ -12556,6 +12559,7 @@ latex2html:
     - captures_build_path
     - timestamps_in_ps_generated_by_dvips
     - timestamps_in_dvi_generated_by_latex
+    - captures_users_gecos
   bugs:
     - 827187
 latex2rtf:
@@ -19855,6 +19859,7 @@ pasdoc:
   version: 0.13.0-1
   issues:
     - fonts_in_pdf_files
+    - captures_users_gecos
 passage:
   version: 4+dfsg1-2
   bugs:
