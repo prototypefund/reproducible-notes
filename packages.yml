@@ -27305,6 +27305,8 @@ seabios:
        128	        btime = time.strftime("%Y%m%d_%H%M%S")
        129	        hostname = socket.gethostname()
        130	        ver = "%s-%s-%s" % (ver, btime, hostname)
+  bugs:
+    - 842203
 seahorse-nautilus:
   version: 3.11.92-1
   bugs:
