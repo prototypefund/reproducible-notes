@@ -4588,6 +4588,7 @@ dia:
   version: 0.97.3+git20160930-1
   issues:
     - fonts_in_pdf_files
+    - different_encoding
 dia-newcanvas:
   version: 0.6.10-5.4
   issues:
@@ -5526,6 +5527,7 @@ elektra:
   issues:
     - blacklisted_on_jenkins_armhf_only
     - captures_build_path
+    - different_encoding
 elementary:
   version: 1.8.5-2
   issues:
@@ -7537,6 +7539,8 @@ garcon:
   version: 0.4.0-2
   comments: |
     Desktop launcher file missing a whole bunch of entries when run with a non-utf8 locale
+  issues:
+    - different_encoding
 gargoyle-free:
   version: 2011.1a-3
   bugs:
