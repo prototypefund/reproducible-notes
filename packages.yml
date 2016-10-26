@@ -13932,6 +13932,12 @@ libkf5kdgantt2:
   version: 4:16.04.2-1
   issues:
     - captures_build_path
+libkf5kface:
+  version: 15.12.0-3
+  comments: |
+    Same issue as supercollider-sc3-plugins.
+  issues:
+    - captures_build_path
 libkf5kgeomap:
   version: 16.04.0-2
   issues:
@@ -28671,6 +28677,8 @@ supercollider-sc3-plugins:
     2-dliub/
     .
     (This is the start of a "/build-2nd/..." path; compare the 'montage' package)
+    .
+    Same issue as libkf5kface.
   issues:
     - captures_build_path_via_assert
 superlu:
