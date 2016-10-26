@@ -11164,6 +11164,10 @@ jnr-x86asm:
   version: 0.1-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+joblib:
+  version: 0.10.2-1
+  issues:
+    - ftbfs_due_to_jenkins_semaphore_setup
 joda-convert:
   version: 1.8.1-1
   issues:
@@ -27763,6 +27767,10 @@ skipfish:
   version: 2.10b-1
   issues:
     - captures_build_path
+sklearn-pandas:
+  version: 1.2.0-1
+  issues:
+    - ftbfs_due_to_jenkins_semaphore_setup
 skrooge:
   version: 2.4.0-2
   issues:
