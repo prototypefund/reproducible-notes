@@ -2739,6 +2739,7 @@ cfi:
   version: 3.0-10
   issues:
     - timestamps_in_ps_generated_by_dvips
+    - timestamps_in_dvi_generated_by_latex
 cfingerd:
   version: 1.4.3-3.1
   comments: |
@@ -5313,6 +5314,7 @@ ecasound:
   version: 2.9.1-7
   issues:
     - timestamps_in_ps_generated_by_dvips
+    - timestamps_in_dvi_generated_by_latex
 ecb:
   version: 2.40+git20140216-1
   issues:
@@ -6316,6 +6318,7 @@ fdutils:
   version: 5.5-20060227-7
   issues:
     - timestamps_in_ps_generated_by_dvips
+    - timestamps_in_dvi_generated_by_latex
 fedmsg:
   version: 0.9.3-1
   comments: |
@@ -8652,6 +8655,7 @@ gnu-standards:
   version: 2010.03.11-1
   issues:
     - timestamps_in_ps_generated_by_dvips
+    - timestamps_in_dvi_generated_by_latex
 gnuais:
   version: 0.3.3-5
   issues:
@@ -10647,6 +10651,7 @@ iproute2:
   version: 3.16.0-2
   issues:
     - timestamps_in_ps_generated_by_dvips
+    - timestamps_in_dvi_generated_by_latex
   bugs:
     - 783276
 ipsvd:
@@ -18319,6 +18324,7 @@ noweb:
     program in noweb's toolchain.
   issues:
     - timestamps_in_ps_generated_by_dvips
+    - timestamps_in_dvi_generated_by_latex
   bugs:
     - 788536
 npgsql:
@@ -29245,6 +29251,7 @@ texworks-manual:
   version: 20150506-2
   issues:
     - timestamps_in_ps_generated_by_dvips
+    - timestamps_in_dvi_generated_by_latex
 tf5:
   version: 5.0beta8-5
   comments: |
