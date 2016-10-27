@@ -267,7 +267,7 @@ afnix:
 afterstep:
   version: 2.2.12-8
   issues:
-    - captures_build_path
+    - records_build_flags
 agda:
   version: 2.4.2.5-1
   issues:
@@ -646,7 +646,7 @@ apertium:
   version: 3.4.0~r61013-5
   issues:
     - captures_shell_variable_in_autofoo_script
-    - captures_build_path
+    - records_build_flags
 apertium-af-nl:
   version: 0.2.0~r58256-1
   issues:
@@ -878,7 +878,7 @@ args4j:
 argus:
   version: 2:3.0.8.1-2
   issues:
-    - captures_build_path
+    - records_build_flags
 argvalidate:
   version: 0.9.0-2
   bugs:
@@ -1244,7 +1244,7 @@ authbind:
 auto-07p:
   version: 0.9.1+dfsg-3
   issues:
-    - captures_build_path
+    - records_build_flags
 auto-apt:
   version: 0.3.24
   issues:
@@ -2359,7 +2359,7 @@ c-blosc:
 c-icap:
   version: 1:0.4.3-2
   issues:
-    - captures_build_path
+    - records_build_flags
 c3p0:
   version: 0.9.1.2-9
   issues:
@@ -2654,7 +2654,7 @@ cdi-api:
 cdo:
   version: 1.7.2+dfsg.1-1
   issues:
-    - captures_build_path
+    - records_build_flags
 cdrdao:
   version: 1:1.2.3-3
   bugs:
@@ -2829,7 +2829,7 @@ charls:
 charybdis:
   version: 3.5.3-1
   issues:
-    - captures_build_path
+    - records_build_flags
 chasen:
   version: 2.4.5-25
   bugs:
@@ -3048,7 +3048,7 @@ cl-salza:
 clamav:
   version: 0.99.2+dfsg-3
   issues:
-    - captures_build_path
+    - records_build_flags
 clamfs:
   version: 1.0.1-1.1
   issues:
@@ -3169,7 +3169,7 @@ cloud-sptheme:
 clp:
   version: 1.15.10-3
   issues:
-    - captures_build_path
+    - records_build_flags
 clucene-core:
   version: 2.3.3.4-4.1
   issues:
@@ -3282,7 +3282,7 @@ coinor-cgl:
   version: 0.58.9-1
   issues:
     - random_order_in_static_libraries
-    - captures_build_path
+    - records_build_flags
 coinor-csdp:
   version: 6.1.1-1
   issues:
@@ -4687,7 +4687,7 @@ dimbl:
 dime:
   version: 0.20111205-2
   issues:
-    - captures_build_path
+    - records_build_flags
 din:
   version: 5.2.1-3
   bugs:
@@ -4915,7 +4915,7 @@ dnssec-trigger:
 dnsval:
   version: 2.2-4
   issues:
-    - captures_build_path
+    - records_build_flags
 doc-debian:
   version: 6.3
   issues:
@@ -5209,7 +5209,7 @@ dune-common:
 dune-functions:
   version: 2.4~20160507g3dd041d-1
   issues:
-    - captures_build_path
+    - records_build_flags
 dune-istl:
   version: 2.4.1-1
   issues:
@@ -5675,8 +5675,8 @@ enblend-enfuse:
   version: 4.1.4+dfsg-2
   issues:
     - pdf_created_by_ghostscript
-    - captures_build_path
     - fonts_in_pdf_files
+    - records_build_flags
 encfs:
   version: 1.8.1-3
   issues:
@@ -6165,7 +6165,7 @@ fastforward:
 fastjet:
   version: 3.0.6+dfsg-3
   issues:
-    - captures_build_path
+    - records_build_flags
 fastx-toolkit:
   version: 0.0.14-1
   comments: |
@@ -6403,11 +6403,11 @@ feynmf:
 ffc:
   version: 2016.1.0-1
   issues:
-    - captures_build_path
+    - records_build_flags
 fflas-ffpack:
   version: 2.2.1-2
   issues:
-    - captures_build_path
+    - records_build_flags
 ffmpeg:
   version: 7:3.1.2-1
   issues:
@@ -6699,7 +6699,7 @@ flrig:
 fltk1.1:
   version: 1.1.10-22
   issues:
-    - captures_build_path
+    - records_build_flags
 fltk1.3:
   version: 1.3.2-6
   issues:
@@ -7365,7 +7365,7 @@ fvwm:
       https://sources.debian.net/src/fvwm/1:2.6.5.ds-4.1/bin/fvwm-bug.in/#L89
   issues:
     - user_hostname_manually_added_requiring_further_investigation
-    - captures_build_path
+    - records_build_flags
   bugs:
     - 831646
 fvwm1:
@@ -7585,15 +7585,15 @@ gauche:
   version: 0.9.4-6
   issues:
     - blacklisted_on_jenkins_armhf_only
-    - captures_build_path
+    - records_build_flags
 gauche-c-wrapper:
   version: 0.6.1-7
   issues:
-    - captures_build_path
+    - records_build_flags
 gauche-gl:
   version: 0.6-1
   issues:
-    - captures_build_path
+    - records_build_flags
 gauche-gtk:
   version: 0.6~pre1+git20121223-1
   issues:
@@ -7993,8 +7993,8 @@ gerris:
   comments: |
     config.status inserts hostname into libtool
   issues:
-    - captures_build_path
     - captures_shell_variable_in_autofoo_script
+    - records_build_flags
 gerstensaft:
   version: 0.3-4
   issues:
@@ -8009,7 +8009,7 @@ gesftpserver:
 getdns:
   version: 0.3.1-1
   issues:
-    - captures_build_path
+    - records_build_flags
   bugs:
     - 797215
 getdp:
@@ -8066,7 +8066,7 @@ gflags:
 gforth:
   version: 0.7.3+dfsg-3
   issues:
-    - captures_build_path
+    - records_build_flags
 gftp:
   version: 2.0.19-4
   issues:
@@ -8461,7 +8461,7 @@ gmodels:
 gmp:
   version: 2:6.1.1+dfsg-1
   issues:
-    - captures_build_path
+    - records_build_flags
 gmrun:
   version: 0.9.2-2.1
   issues:
@@ -9183,7 +9183,7 @@ gp2c:
 gpac:
   version: 0.5.2-426-gc5ad4e4+dfsg5-3
   issues:
-    - captures_build_path
+    - records_build_flags
 gpg-remailer:
   version: 3.02.00-1
   issues:
@@ -9799,7 +9799,7 @@ gxneur:
 gyoto:
   version: 1.0.2-3
   issues:
-    - captures_build_path
+    - records_build_flags
 h2database:
   version: 1.4.185-1
   comments: |
@@ -10182,7 +10182,7 @@ htseq:
 htslib:
   version: 1.3.1-2
   issues:
-    - captures_build_path
+    - records_build_flags
 http-icons:
   version: 0~20041010-1
   comments: |
@@ -11479,7 +11479,7 @@ kannel:
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_dvi_generated_by_latex
     - timestamps_in_ps_generated_by_dvips
-    - captures_build_path
+    - records_build_flags
   bugs:
     - 819915
 kannel-sqlbox:
@@ -13062,7 +13062,7 @@ libcdio:
 libcdk5:
   version: 5.0.20160131-1
   issues:
-    - captures_build_path
+    - records_build_flags
 libcec:
   version: 2.1.4-2
   comments: |
@@ -14138,7 +14138,7 @@ liblxqt:
 libm4ri:
   version: 20140914-2
   issues:
-    - captures_build_path
+    - records_build_flags
 libmail-verify-perl:
   version: 0.02-5
   bugs:
@@ -14707,7 +14707,7 @@ librep:
 libresample:
   version: 0.1.3-4
   issues:
-    - captures_build_path
+    - records_build_flags
 librevenge:
   version: 0.0.4-1
   comments: |
@@ -14741,7 +14741,7 @@ librostlab-blast:
 librsb:
   version: 1.2.0-rc5-3
   issues:
-    - captures_build_path
+    - records_build_flags
 librsvg:
   version: 2.40.13-2
   bugs:
@@ -15039,7 +15039,7 @@ libtommath:
 libtool:
   version: 2.4.6-2
   issues:
-    - captures_build_path
+    - records_build_flags
 libtorrent-rasterbar:
   version: 1.0.7-1
   issues:
@@ -15343,7 +15343,7 @@ libzhuyin:
 libzia:
   version: 4.06-2
   issues:
-    - captures_build_path
+    - records_build_flags
 libzrtpcpp:
   version: 2.3.4-1.1
   issues:
@@ -15643,7 +15643,7 @@ log4c:
 log4cpp:
   version: 1.0-4.1
   issues:
-    - captures_build_path
+    - records_build_flags
 log4cxx:
   version: 0.10.0-11
   bugs:
@@ -16018,8 +16018,8 @@ macsyfinder:
 madlib:
   version: 1.3.0-2.1
   issues:
-    - captures_build_path
     - user_hostname_manually_added_requiring_further_investigation
+    - records_build_flags
   bugs:
     - 778946
 madness:
@@ -16209,7 +16209,7 @@ mapnik:
   version: 3.0.9+ds-1
   issues:
     - blacklisted_on_jenkins_armhf_only
-    - captures_build_path
+    - records_build_flags
 mapnik-vector-tile:
   version: 1.1.2+dfsg-1
   bugs:
@@ -16783,7 +16783,7 @@ mlton:
 mm:
   version: 1.4.2-5
   issues:
-    - captures_build_path
+    - records_build_flags
 mm-common:
   version: 0.9.10-1
   issues:
@@ -17700,7 +17700,7 @@ ncl:
   version: 6.3.0-8
   issues:
     - ftbfs_with_-fdebug-prefix-map_error
-    - captures_build_path
+    - records_build_flags
 nco:
   version: 4.5.0-1
   issues:
@@ -17775,7 +17775,7 @@ nestopia:
 net-snmp:
   version: 5.7.3+dfsg-1.4
   issues:
-    - captures_build_path
+    - records_build_flags
 netbeans:
   version: 8.0.2+dfsg1-3
   issues:
@@ -18531,7 +18531,7 @@ nted:
 ntl:
   version: 9.9.1-3
   issues:
-    - captures_build_path
+    - records_build_flags
 ntopng:
   version: 2.0+dfsg1-1
   comments: |
@@ -20358,7 +20358,7 @@ performous:
 perl:
   version: 5.22.2-3
   issues:
-    - captures_build_path
+    - records_build_flags
 perl-byacc:
   version: 2.0-8
   issues:
@@ -21031,7 +21031,7 @@ pngcheck:
 pnp4nagios:
   version: 0.6.24+dfsg1-4
   issues:
-    - captures_build_path
+    - records_build_flags
 poa:
   version: 2.0+20060928-4
   issues:
@@ -21100,7 +21100,7 @@ polymake:
 polyml:
   version: 5.6-7
   issues:
-    - captures_build_path
+    - records_build_flags
 polyorb:
   version: 2.11~20140418-3
   issues:
@@ -21149,7 +21149,7 @@ portreserve:
 portsmf:
   version: 0.1~svn20101010-4
   issues:
-    - captures_build_path
+    - records_build_flags
 posixtestsuite:
   version: 1.5.2-5
   comments: |
@@ -25804,7 +25804,7 @@ readline:
 readline5:
   version: 5.2+dfsg-3
   issues:
-    - captures_build_path
+    - records_build_flags
 readline6:
   version: 6.3-8
   issues:
@@ -26026,8 +26026,8 @@ rheolef:
   version: 6.5-1
   issues:
     - timestamps_in_pdf_generated_by_latex
-    - captures_build_path
     - fonts_in_pdf_files
+    - records_build_flags
   bugs:
     - 811590
 rhino:
@@ -26069,7 +26069,7 @@ ripmime:
 rivet:
   version: 1.8.3-2
   issues:
-    - captures_build_path
+    - records_build_flags
 rjava:
   version: 0.9-8-2
   issues:
@@ -27386,7 +27386,7 @@ sdlgfx:
 sdpa:
   version: 7.3.9+dfsg-1
   issues:
-    - captures_build_path
+    - records_build_flags
 sdrangelove:
   version: 0.0.1.20150707-1
   bugs:
@@ -27439,7 +27439,7 @@ sendip:
 sendmail:
   version: 8.15.2-4
   issues:
-    - captures_build_path
+    - records_build_flags
 senlin:
   version: 1.0.0-1
   issues:
@@ -28096,7 +28096,7 @@ snort:
   version: 2.9.7.0-4
   issues:
     - pdf_created_by_ghostscript
-    - captures_build_path
+    - records_build_flags
 snow:
   version: 1:0.4.1-2
   issues:
@@ -28186,7 +28186,7 @@ soprano:
 soqt:
   version: 1.6.0~e8310f-3
   issues:
-    - captures_build_path
+    - records_build_flags
 sorl-thumbnail:
   version: 12.2-1
   bugs:
@@ -30437,7 +30437,7 @@ utalk:
 util-vserver:
   version: 0.30.216-pre3120-1.1
   issues:
-    - captures_build_path
+    - records_build_flags
 utop:
   version: 1.19.3-1
   issues:
@@ -30550,7 +30550,7 @@ vdk2-tutorial:
 vdr:
   version: 2.2.0-6
   issues:
-    - captures_build_path
+    - records_build_flags
 vdr-plugin-epgsearch:
   version: 1.0.1~beta6+git20150211-4
   issues:
@@ -32252,7 +32252,7 @@ yosys:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - fonts_in_pdf_files
-    - captures_build_path
+    - records_build_flags
 yt:
   version: 3.2.1-2
   issues:
