@@ -404,6 +404,7 @@ alsa-tools:
   issues:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - records_build_flags
 alsamixergui:
   version: 0.9.0rc2-1-9.1
   bugs:
@@ -1438,6 +1439,7 @@ bacula:
   issues:
     - captures_home_dir
     - captures_build_path
+    - records_build_flags
 bacula-doc:
   version: 5.2.6-3
   issues:
@@ -1559,6 +1561,7 @@ bash:
   issues:
     - timestamps_in_documentation_generated_by_man2html
     - captures_build_path
+    - records_build_flags
   bugs:
     - 806945
 bashdb:
@@ -1721,6 +1724,7 @@ bibledit-gtk:
   issues:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - records_build_flags
   bugs:
     - 820032
 bibletime:
@@ -2054,6 +2058,7 @@ boolstuff:
   issues:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - records_build_flags
 boost1.58:
   version: 1.58.0+dfsg-5.1
   bugs:
@@ -3278,6 +3283,7 @@ coinor-cbc:
   version: 2.8.12-1
   issues:
     - captures_build_path
+    - records_build_flags
 coinor-cgl:
   version: 0.58.9-1
   issues:
@@ -3304,11 +3310,13 @@ coinor-symphony:
   issues:
     - timestamps_in_tex_documents
     - captures_build_path
+    - records_build_flags
 coinor-vol:
   version: 1.1.7-1
   issues:
     - captures_build_path
     - graphviz_nondeterminstic_output
+    - records_build_flags
 coinst:
   version: 1.9.3-1
   issues:
@@ -3366,6 +3374,7 @@ colpack:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - leaks_path_environment_variable
+    - records_build_flags
   bugs:
     - 811843
 comedilib:
@@ -3643,6 +3652,7 @@ cppunit:
   issues:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - records_build_flags
 cpufreqd:
   version: 2.4.2-2
   issues:
@@ -5064,6 +5074,7 @@ dovecot:
   version: 1:2.2.25-1
   issues:
     - captures_build_path
+    - records_build_flags
 doxia:
   version: 1.1.4-2
   issues:
@@ -5300,6 +5311,7 @@ dynare:
     - captures_shell_variable_in_autofoo_script
     - user_hostname_manually_added_requiring_further_investigation
     - texi2html_captures_users_gecos
+    - records_build_flags
 e17:
   version: 0.17.6-1.1
   issues:
@@ -5642,6 +5654,7 @@ emboss:
     - different_encoding
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - records_build_flags
 emdebian-archive-keyring:
   version: 2.0.5
   issues:
@@ -5720,6 +5733,7 @@ epiphany:
   issues:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - records_build_flags
 epiphany-browser:
   version: 3.20.3-2
   issues:
@@ -6632,6 +6646,7 @@ flex:
   issues:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - records_build_flags
 flex-old:
   version: 2.5.4a-10
   issues:
@@ -7396,6 +7411,7 @@ g2:
   version: 0.72-5
   issues:
     - captures_build_path
+    - records_build_flags
 g2clib:
   version: 1.6.0-4
   issues:
@@ -8453,6 +8469,7 @@ gmime:
     Unidentified variation in /usr/lib/cli/gmime-sharp-2.6/gmime-sharp.dll
   issues:
     - captures_build_path
+    - records_build_flags
 gmodels:
   version: 2.16.2-2
   issues:
@@ -8793,6 +8810,7 @@ gnustep-base:
     - timestamps_in_pdf_generated_by_latex
     - user_in_documentation_generated_by_gsdoc
     - captures_build_path
+    - records_build_flags
 gnustep-dl2:
   version: 0.12.0-13
   comments: |
@@ -9623,6 +9641,7 @@ gtk-sharp3:
     - timestamps_in_pe_binaries
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - records_build_flags
 gtk-theme-config:
   version: 1.0-1
   issues:
@@ -9929,10 +9948,12 @@ hdf-eos4:
   issues:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - records_build_flags
 hdf-eos5:
   version: 5.1.15.dfsg.1-6
   issues:
     - captures_build_path
+    - records_build_flags
 hdf5:
   version: 1.8.16+docs-1
   comments: |
@@ -9991,6 +10012,7 @@ hercules:
   issues:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - records_build_flags
 herelib:
   version: 112.35.00-1
   issues:
@@ -10402,6 +10424,7 @@ idjc:
   issues:
     - captures_build_path
     - captures_shell_variable_in_autofoo_script
+    - records_build_flags
   bugs:
     - 831630
 idlastro:
@@ -10520,6 +10543,7 @@ imagemagick:
     But there are differences in png images that have to be investigated.
   issues:
     - captures_build_path
+    - records_build_flags
 imagevis3d:
   version: 3.1.0-4
   bugs:
@@ -10902,6 +10926,7 @@ jack-audio-connection-kit:
   issues:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - records_build_flags
   bugs:
     - 792667
 jack-keyboard:
@@ -12882,6 +12907,7 @@ libapache2-mod-perl2:
   version: 2.0.9-6
   issues:
     - captures_build_path
+    - records_build_flags
 libapache2-mod-python:
   version: 3.3.1-11
   issues:
@@ -13055,6 +13081,7 @@ libcddb:
   issues:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - records_build_flags
 libcdio:
   version: 0.83-4.2
   bugs:
@@ -13123,6 +13150,7 @@ libcommoncpp2:
   issues:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - records_build_flags
 libcommons-collections3-java:
   version: 3.2.2-1
   issues:
@@ -13386,6 +13414,7 @@ libevocosm:
     - captures_build_path
     - captures_shell_variable_in_autofoo_script
     - leaks_path_environment_variable
+    - records_build_flags
   bugs:
     - 789804
 libevt:
@@ -13674,10 +13703,12 @@ libhdate:
     - captures_shell_variable_in_autofoo_script
     - leaks_path_environment_variable
     - captures_build_path
+    - records_build_flags
 libhdf4:
   version: 4.2.12-1
   issues:
     - captures_build_path
+    - records_build_flags
 libheimdal-kadm5-perl:
   version: 0.08-4
   issues:
@@ -14063,6 +14094,7 @@ liblas:
   version: 1.8.0-12
   issues:
     - captures_build_path
+    - records_build_flags
 liblastfm:
   version: 1.0.9-1
   issues:
@@ -14302,6 +14334,7 @@ libnet:
   issues:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - records_build_flags
 libnet-finger-perl:
   version: 1.06-6
   bugs:
@@ -14770,6 +14803,7 @@ libsdl-console:
   issues:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - records_build_flags
 libsdl2:
   version: 2.0.4+dfsg2-1
   issues:
@@ -14861,6 +14895,7 @@ libsndfile:
   issues:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - records_build_flags
 libsoldout:
   version: 1.3-6
   bugs:
@@ -14899,6 +14934,7 @@ libstatgrab:
   issues:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - records_build_flags
 libstdc++-arm-none-eabi:
   version: 8
   issues:
@@ -14992,6 +15028,7 @@ libtheora:
     - timestamps_in_tex_documents
     - captures_build_path
     - fonts_in_pdf_files
+    - records_build_flags
 libtime-period-perl:
   version: 1.20-8.1
   bugs:
@@ -15296,6 +15333,7 @@ libxmlezout:
     - timestamps_in_ada_library_information_files
     - unknown_ada_issue
     - captures_build_path
+    - records_build_flags
 libxmlrpc3-java:
   version: 3.1.3-8
   issues:
@@ -15435,6 +15473,7 @@ linbox:
   issues:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - records_build_flags
   bugs:
     - 811990
 lincity-ng:
@@ -16029,6 +16068,7 @@ madness:
   issues:
     - captures_build_path
     - user_hostname_manually_added_requiring_further_investigation
+    - records_build_flags
   bugs:
     - 818812
 madplay:
@@ -16097,6 +16137,7 @@ mailfilter:
   version: 0.8.4-2
   issues:
     - captures_build_path
+    - records_build_flags
 mailfront:
   version: 1.16-1
   issues:
@@ -16616,6 +16657,7 @@ mimetic:
   issues:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - records_build_flags
 mina2:
   version: 2.0.13-1
   issues:
@@ -16935,6 +16977,7 @@ mona:
     - leaks_path_environment_variable
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - records_build_flags
 mondrian:
   version: 3.4.1-1
   issues:
@@ -17785,6 +17828,7 @@ netcdf:
   version: 1:4.4.1-2
   issues:
     - captures_build_path
+    - records_build_flags
 netcdf4-python:
   version: 1.2.4-1
   issues:
@@ -17806,6 +17850,7 @@ netgen:
   issues:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - records_build_flags
 netkit-bootparamd:
   version: 0.17-9
   issues:
@@ -19293,6 +19338,7 @@ opendmarc:
   version: 1.3.1+dfsg-3
   issues:
     - captures_build_path
+    - records_build_flags
 opendnssec:
   version: 1:1.4.10-1
   issues:
@@ -19586,6 +19632,7 @@ oregano:
   issues:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - records_build_flags
 origami:
   version: 1.2.7+really0.7.4-1
   bugs:
@@ -19690,6 +19737,7 @@ ossp-uuid:
   version: 1.6.2-1.5
   issues:
     - captures_build_path
+    - records_build_flags
 osspsa:
   version: 1.2.6-1
   bugs:
@@ -20249,6 +20297,7 @@ pdal:
     - random_order_in_static_libraries
     - unsorted_file_glob_by_cmake
     - captures_build_path
+    - records_build_flags
 pdb2pqr:
   version: 2.1.1+dfsg-2
   issues:
@@ -20415,6 +20464,7 @@ petsc:
     - captures_home_dir
     - captures_users_gecos
     - captures_build_path
+    - records_build_flags
 petsc4py:
   version: 3.7.0-2
   issues:
@@ -21081,6 +21131,7 @@ polybori:
   version: 0.8.3-4
   issues:
     - timestamps_from_tex4ht
+    - records_build_flags
 polyglot-maven:
   version: 0.8~tobrien+git20120905-6
   bugs:
@@ -23231,6 +23282,7 @@ python2.7:
     - randomness_in_fat_lto_objects
     - captures_build_path
     - captures_kernel_version
+    - records_build_flags
 python3-stdlib-extensions:
   version: 3.5.1-1
   issues:
@@ -23240,6 +23292,7 @@ python3.5:
   issues:
     - randomness_in_fat_lto_objects
     - captures_build_path
+    - records_build_flags
 pythondialog:
   version: 3.2.0-2
   issues:
@@ -23716,6 +23769,7 @@ quantlib:
     - captures_shell_variable_in_autofoo_script
     - captures_execution_time
     - captures_build_path
+    - records_build_flags
 quantlib-swig:
   version: 1.8-2
   issues:
@@ -25615,6 +25669,7 @@ ragel:
   issues:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - records_build_flags
 rakarrack:
   version: 0.6.1-4
   issues:
@@ -27764,6 +27819,7 @@ simstring:
   issues:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - records_build_flags
 simulavr:
   version: 0.1.2.2-7
   issues:
@@ -27784,10 +27840,12 @@ singular:
   version: 4.0.3-p1+ds-3
   issues:
     - captures_build_path
+    - records_build_flags
 sip4:
   version: 4.18.1+dfsg-1
   issues:
     - captures_build_path
+    - records_build_flags
 sipml5:
   version: 0.0.20130314.2030-3
   issues:
@@ -27931,6 +27989,7 @@ slepc:
     - captures_kernel_version
     - captures_build_path
     - different_encoding
+    - records_build_flags
 slepc4py:
   version: 3.7.0-2
   issues:
@@ -28074,6 +28133,7 @@ snapper:
   version: 0.2.4-1
   issues:
     - captures_build_path
+    - records_build_flags
   bugs:
     - 818027
 snd:
@@ -28264,6 +28324,7 @@ speech-tools:
   issues:
     - different_encoding
     - captures_build_path
+    - records_build_flags
 speedcrunch:
   version: 0.11-1
   issues:
@@ -28894,6 +28955,7 @@ swi-prolog:
   version: 7.2.3+dfsg-1
   issues:
     - captures_build_path
+    - records_build_flags
 swift:
   version: 2.10.0-2
   issues:
@@ -28923,6 +28985,7 @@ swish-e:
     - random_order_in_static_libraries
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - records_build_flags
 sword:
   version: 1.7.3+dfsg-7
   bugs:
@@ -29136,6 +29199,7 @@ tarantool:
   version: 1.6.8.740.g45fc77f-1
   issues:
     - captures_build_path
+    - records_build_flags
 tarantool-lts:
   version: 1.5.5-18-g2998d20-1
   issues:
@@ -31016,6 +31080,7 @@ west-chamber:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - captures_kernel_version
+    - records_build_flags
 weston:
   version: 1.11.0-1
   issues:
@@ -31555,6 +31620,7 @@ xenomai:
   issues:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - records_build_flags
 xenwatch:
   version: 0.5.4-4
   issues:
@@ -32017,6 +32083,7 @@ xtables-addons:
     - different_due_to_umask
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - records_build_flags
   bugs:
     - 803601
 xtel:
