@@ -3306,6 +3306,7 @@ coinor-dylp:
   issues:
     - captures_build_path
     - records_build_flags
+    - graphviz_nondeterminstic_output
 coinor-ipopt:
   version: 3.11.9-2.1
   issues:
@@ -13426,6 +13427,7 @@ libevdev:
   version: 1.5.2+dfsg-1
   issues:
     - captures_build_path
+    - graphviz_nondeterminstic_output
 libevhtp:
   version: 1.2.11-1
   issues:
