@@ -4998,7 +4998,7 @@ docker-registry:
   comments: |
     [experimental/amd64]
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 docker-swarm:
   version: 1.0.1+dfsg-1
   issues:
@@ -8854,7 +8854,7 @@ gnutls28:
 go-md2man:
   version: 1.0.5-2
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 go-mtpfs:
   version: 0.0~git20150802.0.3ef47f9-2
   issues:
@@ -9055,7 +9055,7 @@ golang-github-remyoudompheng-bigfft:
 golang-github-spf13-cobra:
   version: 0.0~git20160607.0.1238ba1-1
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 golang-github-thejerf-suture:
   version: 1.1.1-1
   bugs:
@@ -9078,11 +9078,11 @@ golang-github-xenolf-lego:
 golang-github-xordataexchange-crypt:
   version: 0.0.2+git20150523.17.749e360-4
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 golang-github-yosssi-ace:
   version: 0.0.4+git20160102.51.71afeb7-1
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 golang-glide:
   version: 0.11.0-2
   issues:
@@ -16715,7 +16715,7 @@ mini-buildd:
 minica:
   version: 1.0-1
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 minicom:
   version: 2.7-1
   issues:
@@ -19899,7 +19899,7 @@ packaging-tutorial:
 packer:
   version: 0.10.1+dfsg-1
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 packeth:
   version: 1.6.5-2
   issues:
