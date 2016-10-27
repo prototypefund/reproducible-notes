@@ -439,7 +439,7 @@ amanda:
     https://sources.debian.net/src/amanda/1:3.3.6-4/common-src/Makefile.am/?hl=154#L154
   issues:
     - captures_shell_variable_in_autofoo_script
-    - captures_build_path
+    - records_build_flags
 amarok:
   version: 2.8.0-5
   issues:
@@ -848,7 +848,7 @@ ara:
 arachne-pnr:
   version: 0.1+20151224git1a4fdf9-1
   issues:
-    - captures_build_path
+    - records_build_flags
 arc-theme:
   version: 20160605-2
   bugs:
@@ -2003,7 +2003,7 @@ blockout2:
 bluefish:
   version: 2.2.7-2
   issues:
-    - captures_build_path
+    - records_build_flags
 blueman:
   version: 2.0.4-1
   issues:
@@ -2913,7 +2913,7 @@ chiark-utils:
 chicken:
   version: 4.10.0-1
   issues:
-    - captures_build_path
+    - records_build_flags
 chipmunk:
   version: 6.1.5-1
   issues:
@@ -3106,7 +3106,7 @@ clhep:
   version: 2.1.4.1-1.1
   issues:
     - random_order_in_static_libraries
-    - captures_build_path
+    - records_build_flags
   bugs:
     - 794398
 cli-common:
@@ -3848,7 +3848,7 @@ cura-engine:
 curl:
   version: 7.50.1-1
   issues:
-    - captures_build_path
+    - records_build_flags
 curlpp:
   version: 0.7.3-6
   bugs:
@@ -3922,7 +3922,7 @@ cvschangelogbuilder:
 cvsd:
   version: 1.0.24
   issues:
-    - captures_build_path
+    - records_build_flags
 cvsutils:
   version: 0.2.5-1
   issues:
@@ -5288,7 +5288,7 @@ dwarves-dfsg:
 dx:
   version: 1:4.4.4-9
   issues:
-    - captures_build_path
+    - records_build_flags
 dxsamples:
   version: 4.4.0-3
   issues:
@@ -6720,7 +6720,7 @@ fltk1.3:
   version: 1.3.2-6
   issues:
     - timestamps_in_pdf_generated_by_latex
-    - captures_build_path
+    - records_build_flags
 fluidsynth:
   version: 1.1.6-3
   issues:
@@ -7614,7 +7614,7 @@ gauche-gl:
 gauche-gtk:
   version: 0.6~pre1+git20121223-1
   issues:
-    - captures_build_path
+    - records_build_flags
 gav:
   version: 0.9.0-3
   issues:
@@ -9348,7 +9348,7 @@ grace:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - captures_kernel_version
-    - captures_build_path
+    - records_build_flags
 gradle:
   version: 1.5-2
   issues:
@@ -9960,9 +9960,9 @@ hdf5:
   comments: |
     Timestamp in CMakeLists.txt *and* in configure.ac
   issues:
-    - captures_build_path
     - user_hostname_manually_added_requiring_further_investigation
     - captures_kernel_version
+    - records_build_flags
 hdup:
   version: 2.0.14-4
   issues:
@@ -10889,7 +10889,7 @@ itsol:
 iverilog:
   version: 10.1-0.1
   issues:
-    - captures_build_path
+    - records_build_flags
 ivtools:
   version: 1.2.11a1-5
   issues:
@@ -13115,7 +13115,7 @@ libcgicc:
 libcgns:
   version: 3.1.4.2-3
   issues:
-    - captures_build_path
+    - records_build_flags
 libchado-perl:
   version: 1.31-2
   issues:
@@ -14733,9 +14733,9 @@ librep:
     https://sources.debian.net/src/librep/0.90.2-1.4/build-info/#L20-L21
   issues:
     - captures_shell_variable_in_autofoo_script
-    - captures_build_path
     - user_hostname_manually_added_requiring_further_investigation
     - too_much_input_for_diff
+    - records_build_flags
   bugs:
     - 834534
 libresample:
@@ -21706,7 +21706,7 @@ ptex-buildsupport:
 pth:
   version: 2.0.7-20
   issues:
-    - captures_build_path
+    - records_build_flags
 ptlib:
   version: 2.10.11~dfsg-1
   issues:
@@ -29255,19 +29255,19 @@ tcl8.4:
   version: 8.4.20-8
   issues:
     - random_order_in_static_libraries
-    - captures_build_path
+    - records_build_flags
   bugs:
     - 818752
 tcl8.5:
   version: 8.5.19-2
   issues:
     - random_order_in_static_libraries
-    - captures_build_path
+    - records_build_flags
 tcl8.6:
   version: 8.6.6+dfsg-1
   issues:
     - random_order_in_static_libraries
-    - captures_build_path
+    - records_build_flags
 tclap:
   version: 1.2.1-1
   issues:
@@ -29577,7 +29577,7 @@ tightvnc:
 tiledarray:
   version: 0.4.4-1
   issues:
-    - captures_build_path
+    - records_build_flags
 tilem:
   version: 2.0-2
   bugs:
@@ -29874,8 +29874,8 @@ trafficserver:
   version: 5.1.1-1
   issues:
     - different_due_to_umask
-    - captures_build_path
     - user_hostname_manually_added_requiring_further_investigation
+    - records_build_flags
   bugs:
     - 833176
 transcalc:
