@@ -432,6 +432,7 @@ am-utils:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - texi2html_captures_users_gecos
+    - records_build_flags
 amanda:
   version: 1:3.3.6-4
   comments: |
@@ -506,6 +507,7 @@ anet:
     Random order of object files in static library produced by gnatmake.
   issues:
     - captures_build_path
+    - records_build_flags
 angband:
   version: 1:3.5.1-2.1
   issues:
@@ -520,6 +522,7 @@ ann:
     - leaks_path_environment_variable
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - records_build_flags
 anon-proxy:
   version: 00.05.38+20081230-3
   bugs:
@@ -1430,6 +1433,7 @@ babl:
     Also test "timings" https://sources.debian.net/src/babl/0.1.18-1/babl/babl-fish-path.c/#L592
   issues:
     - captures_shell_variable_in_autofoo_script
+    - records_build_flags
 backup-manager:
   version: 0.7.12-4
   issues:
@@ -2340,6 +2344,7 @@ bzflag:
   issues:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - records_build_flags
 bzr:
   version: 2.7.0-7
   comments: |
@@ -2785,6 +2790,7 @@ cgal:
   version: 4.8.1-1
   issues:
     - captures_build_path
+    - records_build_flags
 cgdb:
   version: 0.6.7-2
   issues:
@@ -3279,6 +3285,7 @@ coin3:
   issues:
     - random_order_in_static_libraries
     - captures_build_path
+    - records_build_flags
 coinor-cbc:
   version: 2.8.12-1
   issues:
@@ -3297,6 +3304,7 @@ coinor-dylp:
   version: 1.6.0-1.1
   issues:
     - captures_build_path
+    - records_build_flags
 coinor-ipopt:
   version: 3.11.9-2.1
   issues:
@@ -3385,6 +3393,7 @@ comedilib:
     - leaks_path_environment_variable
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - records_build_flags
 commando:
   version: 0.3.4-1.1
   bugs:
@@ -3815,6 +3824,7 @@ ctpp2:
   version: 2.8.3-19
   issues:
     - captures_build_path
+    - records_build_flags
 ctwm:
   version: 3.7-3.3
   issues:
@@ -4024,6 +4034,7 @@ cyrus-imapd:
     - timestamps_from_cpp_macros
     - collation_order_varies_by_locale
     - captures_build_path
+    - records_build_flags
 cyrus-imspd:
   version: 1.8-3
   issues:
@@ -5565,6 +5576,7 @@ elektra:
     - blacklisted_on_jenkins_armhf_only
     - captures_build_path
     - different_encoding
+    - records_build_flags
 elementary:
   version: 1.8.5-2
   issues:
@@ -7980,6 +7992,7 @@ geoip:
   issues:
     - captures_build_path
     - captures_shell_variable_in_autofoo_script
+    - records_build_flags
   bugs:
     - 811767
 geomview:
@@ -9422,6 +9435,7 @@ grass:
     https://sources.debian.net/src/grass/7.0.5-1/lib/python/ctypes/ctypesgencore/printer/printer.py/#L81
   issues:
     - captures_build_path
+    - records_build_flags
   bugs:
     - 811886
 gravitation:
@@ -9458,6 +9472,7 @@ grib-api:
   version: 1.15.0-4
   issues:
     - captures_build_path
+    - records_build_flags
 gridengine:
   version: 6.2u5-7.3
   issues:
@@ -9673,6 +9688,7 @@ gtkdataboxmm:
     - leaks_path_environment_variable
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - records_build_flags
 gtkgl2:
   version: 2.0.1-2.2
   issues:
@@ -12777,6 +12793,7 @@ libalog:
   version: 0.5.0-1
   issues:
     - captures_build_path
+    - records_build_flags
 libambix:
   version: 0.1-1
   issues:
@@ -13021,6 +13038,7 @@ libbitcoin:
     - leaks_path_environment_variable
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - records_build_flags
 libblocksruntime:
   version: 0.4.1-1
   issues:
@@ -13050,6 +13068,7 @@ libbrahe:
   issues:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - records_build_flags
 libbson:
   version: 1.3.5-1
   comments: |
@@ -13231,6 +13250,7 @@ libcoyotl:
     - leaks_path_environment_variable
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - records_build_flags
 libcpanplus-perl:
   version: 0.9160-1
   bugs:
@@ -13479,6 +13499,7 @@ libflorist:
   issues:
     - unknown_ada_issue
     - captures_build_path
+    - records_build_flags
 libfm:
   version: 1.2.4-1
   comments: |
@@ -13608,6 +13629,7 @@ libgmpada:
   issues:
     - unknown_ada_issue
     - captures_build_path
+    - records_build_flags
 libgnatcoll:
   version: 1.7gpl2015-2
   issues:
@@ -14326,6 +14348,7 @@ libncursesada:
   issues:
     - timestamps_in_ada_library_information_files
     - captures_build_path
+    - records_build_flags
 libnes:
   version: 1.1.4-1
   issues:
@@ -14992,6 +15015,7 @@ libtemplates-parser:
     I think this is readdir ordering caused by --subdir argument passed to gprbuild, but can't see where that's actually utilised in gprbuild package.
   issues:
     - captures_build_path
+    - records_build_flags
 libterm-readline-zoid-perl:
   version: 0.07-2
   bugs:
@@ -15019,6 +15043,7 @@ libtexttools:
   issues:
     - random_order_in_static_libraries
     - captures_build_path
+    - records_build_flags
 libthai:
   version: 0.1.25-1
   issues:
@@ -15298,6 +15323,7 @@ libxml++2.6:
     - captures_shell_variable_in_autofoo_script
     - leaks_path_environment_variable
     - captures_build_path
+    - records_build_flags
   bugs:
     - 812895
 libxml-commons-resolver1.1-java:
@@ -19334,6 +19360,7 @@ opencv:
     - random_order_in_static_libraries
     - captures_kernel_version
     - unsorted_file_glob_by_cmake
+    - records_build_flags
 opendkim:
   version: 2.10.3-3
   issues:
@@ -19488,6 +19515,7 @@ openmpi:
     - unsorted_file_glob_by_cmake
     - user_hostname_manually_added_requiring_further_investigation
     - captures_build_path
+    - records_build_flags
 openmprtl:
   version: 3.8.0-2
   issues:
@@ -19565,6 +19593,7 @@ opentoken:
     Random order of objects in static library.
   issues:
     - captures_build_path
+    - records_build_flags
 openttd:
   version: 1.6.1-1
   issues:
@@ -20169,6 +20198,7 @@ pcscada:
     - timestamps_in_ada_library_information_files
     - captures_build_path
     - random_order_in_static_libraries
+    - records_build_flags
 pd-arraysize:
   version: 0.1-3
   issues:
@@ -20681,6 +20711,7 @@ php7.0:
     - captures_kernel_version
     - captures_users_gecos
     - leaks_path_environment_variable
+    - records_build_flags
 phpab:
   version: 1.21.0-2
   comments: |
@@ -21273,10 +21304,12 @@ postgresql-9.5:
     Includes build(?) timestamp in documentation generated by jade.
   issues:
     - captures_build_path
+    - records_build_flags
 postgresql-9.6:
   version: 9.6~rc1-1
   issues:
     - captures_build_path
+    - records_build_flags
 postgresql-debversion:
   version: 1.0.7-4
   issues:
@@ -23072,6 +23105,7 @@ python-qt4:
   version: 4.11.4+dfsg-2
   issues:
     - captures_build_path
+    - records_build_flags
 python-qtconsole:
   version: 4.2.1-2~exp3
   comments: |
@@ -27780,6 +27814,7 @@ silo-llnl:
     - captures_build_path
     - user_hostname_manually_added_requiring_further_investigation
     - captures_shell_variable_in_autofoo_script
+    - records_build_flags
 simbody:
   version: 3.5.3+dfsg-1
   issues:
@@ -28459,6 +28494,7 @@ sqlite3:
   issues:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+    - records_build_flags
 sqljet:
   version: 1.1.10-1
   issues:
@@ -29742,6 +29778,7 @@ tntnet:
     - leaks_path_environment_variable
     - captures_build_path
     - captures_shell_variable_in_autofoo_script
+    - records_build_flags
 toilet:
   version: 0.3-1.1
   issues:
@@ -32303,6 +32340,7 @@ yorick:
   version: 2.2.04+dfsg1-5
   issues:
     - captures_build_path
+    - records_build_flags
 yorick-gy:
   version: 0.0.5-1
   issues:
