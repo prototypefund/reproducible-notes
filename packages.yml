@@ -1434,6 +1434,7 @@ babl:
   issues:
     - captures_shell_variable_in_autofoo_script
     - records_build_flags
+    - captures_build_path
 backup-manager:
   version: 0.7.12-4
   issues:
@@ -19281,6 +19282,8 @@ openarena-085-data:
     Presumably due to https://sources.debian.net/src/openarena-085-data/0.8.5split-8/debian/rules/#L41.
 openbabel:
   version: 2.3.2+dfsg-2.2
+  issues:
+    - captures_build_path
   bugs:
     - 812259
 openbios:
@@ -19361,6 +19364,7 @@ opencv:
     - captures_kernel_version
     - unsorted_file_glob_by_cmake
     - records_build_flags
+    - captures_build_path
 opendkim:
   version: 2.10.3-3
   issues:
@@ -21075,6 +21079,7 @@ plplot:
   issues:
     - different_encoding_in_html_by_docbook_xsl
     - timestamps_in_jar
+    - captures_build_path
 plr:
   version: 1:8.3.0.15-4
   issues:
@@ -23612,6 +23617,8 @@ qt3d-opensource-src:
     - randomness_in_qdoc
 qt4-perl:
   version: 4.8.4-1.2
+  issues:
+    - captures_build_path
   bugs:
     - 811672
 qt4-x11:
