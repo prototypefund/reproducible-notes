@@ -30571,7 +30571,7 @@ unrar-free:
     .
     Unclear why it's i386 only, or how the tab is transformed to an "I".  (Could be a broken "^I" escape, or a bitflip.)
   issues:
-    - +docbook_to_man_one_byte_delta
+    - docbook_to_man_one_byte_delta
 uphpmvault:
   version: 0.8
   issues:
@@ -31268,7 +31268,7 @@ wikipediafs:
     │   │   │   │   │ -This manual page documents the \fBmount.wikipediafs\fR         command and general usageoof WikipediaFS.
     │   │   │   │   │ +This manual page documents the \fBmount.wikipediafs\fR         command and general usage of WikipediaFS.
   issues:
-    - +docbook_to_man_one_byte_delta
+    - docbook_to_man_one_byte_delta
 wildmidi:
   version: 0.4.0-1
   issues:
