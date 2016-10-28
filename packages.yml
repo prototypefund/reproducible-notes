@@ -1187,6 +1187,7 @@ ats-lang-anairiats:
   version: 0.2.11-1
   issues:
     - captures_build_path
+    - too_much_input_for_diff
 ats2-lang:
   version: 0.2.9-1
   issues:
@@ -2680,6 +2681,7 @@ cduce:
   version: 0.6.0-1
   issues:
     - captures_build_path
+    - too_much_input_for_diff
   bugs:
     - 796418
 cecil:
@@ -3508,6 +3510,7 @@ consensuscore:
   version: 1.0.2-2
   issues:
     - captures_build_path
+    - too_much_input_for_diff
 console-cyrillic:
   version: 0.9-16.2
   issues:
@@ -4680,6 +4683,7 @@ dict-gcide:
   issues:
     - timestamps_in_gzip_headers
     - timestamps_in_dictionaries
+    - too_much_input_for_diff
 dict-jargon:
   version: 4.4.7-3
   issues:
@@ -4706,6 +4710,7 @@ digikam:
   version: 4:5.1.0-2
   issues:
     - captures_build_path
+    - too_much_input_for_diff
 dimbl:
   version: 0.12-2
   bugs:
@@ -5213,6 +5218,7 @@ dub:
   version: 0.9.24-1
   issues:
     - timestamps_from_cpp_macros_in_d
+    - too_much_input_for_diff
 dublin-traceroute:
   version: 0.3-2
   issues:
@@ -6401,6 +6407,7 @@ ferret-vis:
   version: 7.0-1
   issues:
     - captures_build_path
+    - too_much_input_for_diff
 festival:
   version: 1:2.4~release-2
   issues:
@@ -6575,6 +6582,7 @@ firebird3.0:
   issues:
     - timezones_manpages_podman
     - captures_build_path
+    - too_much_input_for_diff
 firefox:
   version: 47.0.1-1
   issues:
@@ -8264,6 +8272,7 @@ github-backup:
   version: 1.20160522-1
   issues:
     - ghc_captures_build_path_via_tempdir
+    - too_much_input_for_diff
 gitlab-ci-multi-runner:
   version: 1.4.2+dfsg-1
   issues:
@@ -8575,6 +8584,8 @@ gnome-bluetooth:
     - 822432
 gnome-boxes:
   version: 3.20.0-1
+  issues:
+    - too_much_input_for_diff
   bugs:
     - 822432
 gnome-builder:
@@ -8830,6 +8841,7 @@ gnustep-base:
     - user_in_documentation_generated_by_gsdoc
     - captures_build_path
     - records_build_flags
+    - too_much_input_for_diff
 gnustep-dl2:
   version: 0.12.0-13
   comments: |
@@ -9984,6 +9996,7 @@ hdf5:
     - user_hostname_manually_added_requiring_further_investigation
     - captures_kernel_version
     - records_build_flags
+    - too_much_input_for_diff
 hdup:
   version: 2.0.14-4
   issues:
@@ -14045,6 +14058,7 @@ libkf5kface:
     Same issue as supercollider-sc3-plugins.
   issues:
     - captures_build_path
+    - too_much_input_for_diff
 libkf5kgeomap:
   version: 16.04.0-2
   issues:
@@ -16521,6 +16535,7 @@ megaglest:
   issues:
     - captures_build_path
     - timestamps_in_manpages_generated_by_help2man
+    - too_much_input_for_diff
 meliae:
   version: 0.4.0+bzr199-1
   issues:
@@ -16593,6 +16608,7 @@ metview:
   version: 4.6.5-4
   issues:
     - captures_build_path
+    - too_much_input_for_diff
 mffm-fftw:
   version: 1.7-3
   bugs:
@@ -19360,6 +19376,7 @@ openclonk:
   version: 7.0-3
   issues:
     - captures_build_path
+    - too_much_input_for_diff
   bugs:
     - 823797
 opencolorio:
@@ -19570,6 +19587,8 @@ openorienteering-mapper:
       The first set of differences is six non-consecutive bytes having different values.
       The second set is a ~1800 bytes long block that has a different value and a different length.
       Q_OBJECT is defined in qtbase-opensource-src.
+  issues:
+    - too_much_input_for_diff
 openscad:
   version: 2015.03-1+dfsg-3
   issues:
@@ -21691,6 +21710,7 @@ psi-plus:
   version: 0.16.330-1
   issues:
     - captures_build_path
+    - too_much_input_for_diff
 psi4:
   version: 4.0~beta5+dfsg-2
   issues:
@@ -22092,6 +22112,7 @@ pymol:
   version: 1.7.2.1-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+    - too_much_input_for_diff
 pymssql:
   version: 1.0.2+dfsg-2
   issues:
@@ -23125,6 +23146,7 @@ python-qt4:
   issues:
     - captures_build_path
     - records_build_flags
+    - too_much_input_for_diff
 python-qtconsole:
   version: 4.2.1-2~exp3
   comments: |
@@ -23642,6 +23664,7 @@ qt4-x11:
     - captures_build_path
     - different_encoding
     - timestamps_in_qmake_makefiles
+    - too_much_input_for_diff
   bugs:
     - 811698
 qtbase-opensource-src:
@@ -23781,6 +23804,7 @@ qtwebkit:
   issues:
     - timestamps_from_cpp_macros
     - captures_build_path
+    - too_much_input_for_diff
   bugs:
     - 812160
 qtwebkit-examples-opensource-src:
@@ -26378,6 +26402,7 @@ rosegarden:
   version: 1:16.06-1
   issues:
     - captures_build_path
+    - too_much_input_for_diff
 rotter:
   version: 0.9-3
   issues:
@@ -29934,6 +29959,7 @@ trafficserver:
     - different_due_to_umask
     - user_hostname_manually_added_requiring_further_investigation
     - records_build_flags
+    - too_much_input_for_diff
   bugs:
     - 833176
 transcalc:
