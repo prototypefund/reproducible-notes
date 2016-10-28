@@ -7863,6 +7863,7 @@ gdata-sharp:
   issues:
     - randomness_in_dh_cligacpolicy_scripts
     - clilibs_line_order
+    - timestamps_in_pe_binaries
 gdb:
   version: 7.7.1+dfsg-5
   comments: |
@@ -17171,6 +17172,8 @@ mono-zeroconf:
   version: 0.9.0-6
   comments: |
     Unidentified difference in Mono executables.
+  issues:
+    - timestamps_in_pe_binaries
 mono.reflection:
   version: 1.0+git20110407+d2343843-3
   bugs:
@@ -19666,6 +19669,7 @@ opentk:
     Different decimal separator in documentation.
   issues:
     - clilibs_line_order
+    - timestamps_in_pe_binaries
 opentoken:
   version: 6.0b-3
   comments: |
