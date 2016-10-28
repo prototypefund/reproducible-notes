@@ -11150,6 +11150,10 @@ jboss-modules:
   version: 1.5.2-1
   issues:
     - captures_build_path
+jboss-xnio:
+  version: 3.4.0-1
+  issues:
+    - timestamps_manually_added_needs_further_investigation
 jcal:
   version: 0.4.1-2
   issues:
