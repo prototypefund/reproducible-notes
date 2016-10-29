@@ -90,8 +90,6 @@ aces3:
   version: 3.0.8-4
   issues:
     - captures_build_path
-  bugs:
-    - 831164
 acfax:
   version: 981011-17
   issues:
@@ -251,10 +249,6 @@ affiche:
   issues:
     - plist_weirdness
     - captures_build_path
-afl:
-  version: 2.16b-1
-  bugs:
-    - 828178
 afnix:
   version: 2.2.0-2
   comments: |
@@ -1216,8 +1210,6 @@ auctex:
     - timestamps_in_emacs_autoloads
     - timestamps_in_pdf_generated_by_latex
     - random_id_in_pdf_generated_by_dblatex
-  bugs:
-    - 768724
 audacity:
   version: 2.1.2-1
   bugs:
@@ -2228,10 +2220,6 @@ briquolo:
   version: 0.5.7-7
   issues:
     - captures_build_path
-bristol:
-  version: 0.60.11-2
-  bugs:
-    - 834180
 brltty:
   version: 5.3.1-3
   comments: |
@@ -3195,8 +3183,6 @@ cloud-init:
     Fails to run tests with pbuilder.
   issues:
     - ftbfs_in_jenkins_setup
-  bugs:
-    - 780637
 cloud-sptheme:
   version: 1.6-1
   bugs:
@@ -3863,10 +3849,6 @@ cue2toc:
   version: 0.4-5
   issues:
     - captures_build_path
-cups-filters:
-  version: 1.10.0-1
-  bugs:
-    - 838972
 cupt:
   version: 2.9.0
   comments: |
@@ -4132,8 +4114,6 @@ dahdi-linux:
   issues:
     - different_due_to_umask
     - random_order_in_tarball
-  bugs:
-    - 776622
 dahdi-tools:
   version: 1:2.10.2-2
   issues:
@@ -5092,8 +5072,6 @@ dot-forward:
   version: 1:0.71-2
   issues:
     - random_order_in_md5sums
-  bugs:
-    - 776760
 double-conversion:
   version: 2.0.1-3
   comments: |
@@ -5139,8 +5117,6 @@ dput:
   version: 0.9.6.4
   issues:
     - random_order_in_md5sums
-  bugs:
-    - 792955
 drac:
   version: 1.12-8
   issues:
@@ -5324,10 +5300,6 @@ dxsamples:
   version: 4.4.0-3
   issues:
     - captures_build_path
-dymo-cups-drivers:
-  version: 1.4.0-5
-  bugs:
-    - 838590
 dynare:
   version: 4.4.3-1
   comments: |
@@ -5650,10 +5622,6 @@ elmerfem:
     - timestamps_in_description_files_generated_by_r-base-dev
   bugs:
     - 811746
-elog:
-  version: 3.1.1-1-1
-  bugs:
-    - 816209
 elpa:
   version: 2013.11.008-4
   bugs:
@@ -6801,8 +6769,6 @@ font-manager:
   version: 0.5.7-4
   issues:
     - captures_build_path
-  bugs:
-    - 830469
 fontforge:
   version: 20120731.b-7.2
   issues:
@@ -8246,10 +8212,6 @@ git-annex:
   version: 6.20160808-1
   issues:
     - ghc_captures_build_path_via_tempdir
-git-build-recipe:
-  version: 0.3.2
-  bugs:
-    - 835526
 git-buildpackage:
   version: 0.6.22
   issues:
@@ -8268,10 +8230,6 @@ git-phab:
   version: 0~git20160322-1
   bugs:
     - 823536
-git-remote-hg:
-  version: 0.3-1
-  bugs:
-    - 833907
 git-repair:
   version: 1.20151215-1
   bugs:
@@ -9328,10 +9286,6 @@ gpsd:
     - build_id_differences_only
   bugs:
     - 830993
-gpsmanshp:
-  version: 1.2.3-4
-  bugs:
-    - 792991
 gpsshogi:
   version: 0.6.0-3+nmu2
   bugs:
@@ -9445,10 +9399,6 @@ graphicsmagick:
   version: 1.3.24+hg20160808-1
   issues:
     - captures_build_path
-graphite-api:
-  version: 1.1.3-1
-  bugs:
-    - 828715
 graphite2:
   version: 1.3.8-1
   issues:
@@ -11771,8 +11721,6 @@ kdevelop:
   version: 4:4.7.0-1
   issues:
     - captures_build_path
-  bugs:
-    - 815962
 kdevelop-pg-qt:
   version: 1.0.0-3
   issues:
@@ -11791,8 +11739,6 @@ kdevplatform:
   version: 1.7.2-1
   issues:
     - captures_build_path
-  bugs:
-    - 815962
 kdewebdev:
   version: 4:16.04.3-1
   issues:
@@ -12269,7 +12215,6 @@ konsole4:
 konversation:
   version: 1.6.2-1
   bugs:
-    - 835583
     - 835580
 kopete:
   version: 4:16.04.2-1
@@ -13570,10 +13515,6 @@ libfsntfs:
   version: 20160418-1
   issues:
     - captures_build_path
-libfso-glib:
-  version: 2012.07.27.2-3
-  bugs:
-    - 838973
 libftdi1:
   version: 1.3-2
   issues:
@@ -13608,10 +13549,6 @@ libgcrypt20:
   issues:
     - timestamps_in_manpages_generated_by_yat2m
     - captures_build_path
-libgd-perl:
-  version: 2.53-2.1
-  bugs:
-    - 825629
 libgda5:
   version: 5.2.2-2
   comments: |
@@ -14246,8 +14183,6 @@ libmapper:
   version: 0.3~git+20141027-1
   issues:
     - captures_build_path
-  bugs:
-    - 803478
 libmarpa:
   version: 6.1.0~dfsg-1
   comments: |
@@ -14525,10 +14460,6 @@ libopenobex:
     - captures_build_path
   bugs:
     - 811892
-libopenraw:
-  version: 0.0.9-3.9
-  bugs:
-    - 828896
 liboping:
   version: 1.9.0-1
   issues:
@@ -15266,10 +15197,6 @@ libvsqlitepp:
   version: 0.3.13-3
   issues:
     - undeterministic_symlinking_by_rdfind
-libweather-com-perl:
-  version: 0.5.3-2
-  bugs:
-    - 817558
 libwebcam:
   version: 0.2.4-1.1
   issues:
@@ -15457,10 +15384,6 @@ libzypp:
   version: 15.3.0-1
   bugs:
     - 841769
-license-reconcile:
-  version: 0.11
-  bugs:
-    - 832840
 licensecheck:
   version: 3.0.24-1
   bugs:
@@ -17378,8 +17301,6 @@ mpi4py:
   version: 1.3.1+hg20131106-2
   issues:
     - captures_build_path
-  bugs:
-    - 830440
 mpich:
   version: 3.1-5
   issues:
@@ -20573,10 +20494,6 @@ petri-foo:
   version: 0.1.87-3
   issues:
     - captures_build_path
-petris:
-  version: 1.0.1-8
-  bugs:
-    - 817617
 petsc:
   version: 3.6.2.dfsg1-3
   issues:
@@ -20753,10 +20670,6 @@ php-mongodb:
   version: 1.1.7-2
   issues:
     - captures_build_path
-php-pinba:
-  version: 1.0.0-2
-  bugs:
-    - 808055
 php-ps:
   version: 1.3.7-1
   bugs:
@@ -22455,10 +22368,6 @@ python-can:
   comments: |
     Embeds the build time into test.asc:
     https://sources.debian.net/src/python-can/1.5.2-1/can/CAN.py/?hl=246#L243
-python-casacore:
-  version: 2.1.2-1
-  bugs:
-    - 831175
 python-casmoothing:
   version: 0.2-1
   issues:
@@ -23366,10 +23275,6 @@ python-textile:
   version: 1:2.3.3-1
   bugs:
     - 841520
-python-tidylib:
-  version: 0.2.4~dfsg-2
-  bugs:
-    - 829178
 python-tooz:
   version: 0.13.1-2
   comments: |
@@ -26393,10 +26298,6 @@ rodbc:
   issues:
     - captures_build_path
     - randomness_in_r_rdb_rds_databases
-root-tail:
-  version: 1.2-3
-  bugs:
-    - 817656
 ros-actionlib:
   version: 1.11.6-2
   issues:
@@ -27235,7 +27136,6 @@ rumor:
   version: 1.0.5-2
   bugs:
     - 788618
-    - 831185
 runc:
   version: 0.0.4~dfsg-1
   issues:
@@ -28047,10 +27947,6 @@ siproxd:
   version: 1:0.8.1-4.1
   bugs:
     - 816588
-sipsak:
-  version: 0.9.6-2.3
-  bugs:
-    - 817669
 sipxtapi:
   version: 3.3.0~test17-1
   comments: |
@@ -28436,10 +28332,6 @@ sonnet:
   comments: |
     Caused by QHash usage (instead of QMap?) in data/parsetrigrams.cpp. Could
     also be filesystem ordering here too.
-sooperlooper:
-  version: 1.7.3~dfsg0-2
-  bugs:
-    - 819790
 soprano:
   version: 2.9.4+dfsg-4
   issues:
@@ -29166,7 +29058,6 @@ swiginac:
 swish++:
   version: 6.1.5-3
   bugs:
-    - 817683
     - 811797
 swish-e:
   version: 2.4.7-4
@@ -29699,10 +29590,6 @@ the:
   version: 3.3~rc1-2
   issues:
     - random_order_in_md5sums
-theano:
-  version: 0.8.2-3
-  bugs:
-    - 835531
 thepeg:
   version: 1.8.0-1
   bugs:
@@ -30990,8 +30877,6 @@ vit:
   version: 1.2-2
   comments: |
     Timestamp in /usr/bin/vit (as comment in source header)
-  bugs:
-    - 833443
 vite:
   version: 1.2+svn1430-2
   issues:
@@ -31217,10 +31102,6 @@ wcslib:
   version: 4.24-1
   issues:
     - random_order_in_static_libraries
-weathermap4rrd:
-  version: 1.1.999+1.2rc3-2
-  bugs:
-    - 817719
 webauth:
   version: 4.6.1-1
   issues:
