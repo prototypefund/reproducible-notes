@@ -19694,6 +19694,7 @@ openturns:
     https://sources.debian.net/src/openturns/1.5-7/lib/include/CMakeLists.txt/#L29
   issues:
     - diffoscope_runs_forever
+    - randomness_in_r_rdb_rds_databases
 openuniverse:
   version: 1.0beta3.1+dfsg-3
   bugs:
@@ -25500,6 +25501,8 @@ r-cran-segmented:
     - randomness_in_r_rdb_rds_databases
 r-cran-sem:
   version: 3.1.7-3
+  issues:
+    - randomness_in_r_rdb_rds_databases
   bugs:
     - 836070
 r-cran-semtools:
@@ -26297,6 +26300,7 @@ rmatrix:
   version: 1.2-6-1
   issues:
     - captures_build_path
+    - randomness_in_r_rdb_rds_databases
 rmpi:
   version: 0.6-6-1
   issues:
