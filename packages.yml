@@ -922,10 +922,6 @@ arj:
     .
     https://gist.github.com/lamby/f09208b6b3d59602eaa256b3270a1834/raw fixes this
     but executable remains unreproducible.
-armada-backlight:
-  version: 1.1-8
-  bugs:
-    - 786710
 armagetronad:
   version: 0.2.8.3.3-2
   comments: |
@@ -3398,10 +3394,6 @@ colortail:
   version: 0.3.3-1
   issues:
     - captures_build_path
-colortest:
-  version: 20110624-4
-  bugs:
-    - 782207
 colortest-python:
   version: 2.2-1
   bugs:
@@ -4572,10 +4564,6 @@ desmume:
   version: 0.9.11-1
   bugs:
     - 811691
-desproxy:
-  version: 0.1.0~pre3-8
-  bugs:
-    - 782211
 developers-reference:
   version: 3.4.14
   issues:
@@ -5053,12 +5041,6 @@ doctorj:
   version: 5.0.0-5
   issues:
     - timestamps_in_jar
-dogecoin:
-  version: 1.10.0-2
-  issues:
-    - diffoscope_runs_forever
-  bugs:
-    - 828969
 dogtag-pki:
   version: 10.2.0-4
   issues:
@@ -6600,12 +6582,6 @@ fiona:
   version: 1.7.0.post2-1
   issues:
     - captures_build_path
-firebird2.5:
-  version: 2.5.4.26856.ds4-1
-  comments: |
-    Also has unreproducible .fdb files.
-  issues:
-    - captures_build_path
 firebird3.0:
   version: 3.0.0~svn+53030.ds3-1
   issues:
@@ -7329,10 +7305,6 @@ fso-gpsd:
   version: 0.8-3.1
   issues:
     - captures_build_path
-fspanel:
-  version: 0.7-13
-  bugs:
-    - 782214
 fsplib:
   version: 0.11-2
   issues:
@@ -8215,10 +8187,6 @@ giella-sme:
   version: 0.0.20150917~r121176-1
   issues:
     - too_much_input_for_diff
-gif2apng:
-  version: 1.7-3
-  bugs:
-    - 782201
 gifticlib:
   version: 1.0.9-1
   issues:
@@ -10813,12 +10781,6 @@ iptotal:
   version: 0.3.3-13.1
   issues:
     - captures_build_path
-iptraf:
-  version: 3.0.0-8.1
-  issues:
-    - captures_build_path
-  bugs:
-    - 828780
 iptraf-ng:
   version: 1.1.4-3
   issues:
@@ -13040,12 +13002,6 @@ libapreq2:
   version: 2.13-5
   issues:
     - captures_build_path
-libapt-pkg-perl:
-  version: 0.1.29
-  issues:
-    - captures_build_path
-  bugs:
-    - 841702
 libarchive:
   version: 3.1.2-11
   issues:
@@ -14499,10 +14455,6 @@ libnss-gw-name:
   version: 0.3-2
   issues:
     - captures_build_path
-libnss-ldap:
-  version: 265-3
-  bugs:
-    - 834324
 libnss-lwres:
   version: 0.93-7
   issues:
@@ -14944,10 +14896,6 @@ libsendmail-milter-perl:
   version: 0.18-8
   bugs:
     - 807392
-libsepol:
-  version: 2.5-1
-  bugs:
-    - 825656
 libserver-starter-perl:
   version: 0.32-1
   bugs:
@@ -16492,10 +16440,6 @@ matplotlib:
     - captures_build_path
   bugs:
     - 802776
-matroxset:
-  version: 0.4-8
-  bugs:
-    - 782217
 mauve:
   version: 20140821-1
   issues:
@@ -16912,10 +16856,6 @@ mitlm:
   version: 0.4.1-2
   issues:
     - captures_build_path
-miwm:
-  version: 1.1-3
-  bugs:
-    - 782234
 mixmaster:
   version: 3.0.0-8
   issues:
@@ -18021,12 +17961,6 @@ netkit-bootparamd:
   version: 0.17-9
   issues:
     - captures_build_path
-netkit-rsh:
-  version: 0.17-15
-  issues:
-    - captures_build_path
-  bugs:
-    - 841779
 netkit-rusers:
   version: 0.17-8
   issues:
@@ -20257,12 +20191,6 @@ patchage:
   version: 1.0.0~dfsg0-0.1
   issues:
     - captures_build_path
-patchutils:
-  version: 0.3.4-1
-  issues:
-    - captures_build_path
-  bugs:
-    - 841783
 pathspider:
   version: 0.9.0-1
   comments: |
@@ -20571,10 +20499,6 @@ pegasus-wms:
     - timestamps_in_jar
     - timestamp_in_java_bnd_manifest
     - captures_build_path
-pekwm:
-  version: 0.1.17-2
-  bugs:
-    - 829728
 pentaho-reporting-flow-engine:
   version: 0.9.4-4
   issues:
@@ -27435,13 +27359,6 @@ sauce:
   bugs:
     - 777401
     - 793718
-savi:
-  version: 1.4.9-1
-  issues:
-    - captures_build_path
-    - user_hostname_manually_added_requiring_further_investigation
-  bugs:
-    - 829717
 sawfish:
   version: 1:1.5.3-2.4
   issues:
@@ -28613,10 +28530,6 @@ speedcrunch:
   version: 0.11-1
   issues:
     - captures_build_path
-speedometer:
-  version: 2.8-1
-  bugs:
-    - 782221
 speex:
   version: 1.2~rc1.2-1
   issues:
@@ -28700,10 +28613,6 @@ splint:
     - captures_kernel_version
     - user_hostname_manually_added_requiring_further_investigation
     - captures_build_path
-splitpatch:
-  version: 0.0+20131223+gitb13d810-1
-  bugs:
-    - 797408
 spock:
   version: 0.7-groovy-2.0-3
   bugs:
@@ -28953,11 +28862,6 @@ stormlib:
   version: 9.20-1
   issues:
     - captures_build_path
-strace:
-  version: 4.11-1
-  bugs:
-    - 811285
-    - 831280
 streamripper:
   version: 1.64.6-1
   issues:
@@ -29400,8 +29304,6 @@ systemtap:
   issues:
     - different_encoding_in_html_by_docbook_xsl
     - fonts_in_pdf_files
-  bugs:
-    - 811600
 tacacs+:
   version: 4.0.4.27a-3
   comments: |
