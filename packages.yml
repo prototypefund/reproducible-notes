@@ -52,6 +52,10 @@ abinit:
     - captures_build_path
   bugs:
     - 835781
+ableton-link:
+  version: 1.0.0+dfsg-1
+  issues:
+    - captures_build_path_via_assert
 abntex:
   version: 0.9~beta2-5.1
   issues:
@@ -947,6 +951,10 @@ arrayfire:
   version: 3.3.2+dfsg1-4
   issues:
     - diffoscope_runs_forever
+artikulate:
+  version: 4:16.08.2-1
+  issues:
+    - build_id_differences_only
 as31:
   version: 2.3.1-6
   issues:
@@ -12033,6 +12041,10 @@ kitchen:
   version: 1.1.1-1
   bugs:
     - 749208
+kiten:
+  version: 4:16.08.2-1
+  issues:
+    - build_id_differences_only
 kivy:
   version: 1.9.1-1
   issues:
@@ -14642,6 +14654,10 @@ libqtpas:
   bugs:
     - 811965
     - 831168
+libqtxdg:
+  version: 2.0.0-4
+  issues:
+    - build_id_differences_only
 libquartz-java:
   version: 1:1.8.6-1
   issues:
