@@ -11795,7 +11795,7 @@ kdewebdev:
 kdf:
   version: 4:15.08.0-2
   issues:
-    - captures_build_path
+    - build_id_differences_only
 kdgcommons-java:
   version: 1.0.13-1
   issues:
@@ -12135,10 +12135,14 @@ kmag:
     - captures_build_path
 kmailtransport:
   version: 16.04.2-2
+  issues:
+    - build_id_differences_only
   bugs:
     - 834273
 kmenuedit:
   version: 4:5.4.3-1
+  issues:
+    - build_id_differences_only
   bugs:
     - 825471
 kmer-tools:
@@ -12259,6 +12263,8 @@ konquest:
     - captures_build_path
 konsole:
   version: 4:16.04.2-1
+  issues:
+    - build_id_differences_only
   bugs:
     - 835753
 konsole4:
@@ -12305,7 +12311,7 @@ kpat:
 kpeople:
   version: 5.26.0-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 kphotoalbum:
   version: 4.7.1-1
   bugs:
@@ -12362,6 +12368,8 @@ kreversi:
     - captures_build_path
 krfb:
   version: 4:16.04.0-1
+  issues:
+    - build_id_differences_only
   bugs:
     - 831090
 kross:
@@ -12532,6 +12540,8 @@ kwallet-kf5:
     - captures_build_path
 kwave:
   version: 0.9.1-1-2
+  issues:
+    - build_id_differences_only
   bugs:
     - 825471
 kwayland:
@@ -13285,7 +13295,7 @@ libcork:
 libcorkipset:
   version: 1.1.1+20150311-3
   issues:
-    - captures_build_path
+    - build_id_differences_only
 libcoro-perl:
   version: 6.490-1
   bugs:
@@ -13434,6 +13444,8 @@ libdr-sundown-perl:
     - captures_build_path
 libdrumstick:
   version: 0.5.0-4
+  issues:
+    - build_id_differences_only
   bugs:
     - 811736
 libdshconfig:
@@ -13564,7 +13576,7 @@ libfm:
 libfm-qt:
   version: 0.10.0+20151214-2
   issues:
-    - lxqt_translate_desktop_binary_file_matched_under_certain_locales
+    - build_id_differences_only
 libfolia:
   version: 0.13-2
   bugs:
@@ -14690,6 +14702,8 @@ libqalculate:
     - 811862
 libqapt:
   version: 3.0.1-1
+  issues:
+    - build_id_differences_only
   bugs:
     - 822497
 libqcow:
@@ -15730,7 +15744,7 @@ lme4:
 lmms:
   version: 1.1.3-3
   issues:
-    - captures_build_path
+    - build_id_differences_only
 lmtest:
   version: 0.9.34-2
   issues:
@@ -15976,7 +15990,7 @@ lua-rings:
 lua-sandbox:
   version: 1.1.0-2
   issues:
-    - captures_build_path
+    - build_id_differences_only
 lua-scrypt:
   version: 1.1-1
   issues:
@@ -16092,11 +16106,11 @@ lxqt-common:
 lxqt-config:
   version: 0.10.0-3
   issues:
-    - lxqt_translate_desktop_binary_file_matched_under_certain_locales
+    - build_id_differences_only
 lxqt-globalkeys:
   version: 0.10.0-5
   issues:
-    - lxqt_translate_desktop_binary_file_matched_under_certain_locales
+    - build_id_differences_only
 lxqt-notificationd:
   version: 0.10.0-2
   issues:
@@ -16374,6 +16388,8 @@ mapserver:
     - captures_build_path
 marble:
   version: 4:16.04.1-3
+  issues:
+    - build_id_differences_only
   bugs:
     - 835766
 maria:
@@ -16729,6 +16745,8 @@ milkytracker:
     - 811897
 milou:
   version: 4:5.4.3-1
+  issues:
+    - build_id_differences_only
   bugs:
     - 825471
 milter-greylist:
