@@ -427,7 +427,7 @@ altree:
 alure:
   version: 1.2-6
   issues:
-    - captures_build_path
+    - build_id_differences_only
 am-utils:
   version: 6.2+rc20110530-3.2
   issues:
@@ -475,6 +475,10 @@ amsynth:
   version: 1.6.4-1
   issues:
     - captures_build_path
+analitza:
+  version: 4:16.08.1-1
+  issues:
+    - build_id_differences_only
 anarchism:
   version: 14.0-4
   issues:
@@ -921,6 +925,10 @@ arj:
     .
     https://gist.github.com/lamby/f09208b6b3d59602eaa256b3270a1834/raw fixes this
     but executable remains unreproducible.
+ark:
+  version: 4:16.08.2-1
+  issues:
+    - build_id_differences_only
 armagetronad:
   version: 0.2.8.3.3-2
   comments: |
@@ -1482,6 +1490,8 @@ baloo:
     - captures_build_path
 baloo-kf5:
   version: 5.16.0-1
+  issues:
+    - build_id_differences_only
   bugs:
     - 822499
 bam:
@@ -2322,7 +2332,7 @@ buildbot:
 bullet:
   version: 2.83.5+dfsg-1
   issues:
-    - undeterministic_symlinking_by_rdfind
+    - build_id_differences_only
 bulletml:
   version: 0.0.6-6.1
   issues:
@@ -19202,7 +19212,7 @@ omega-rpg:
 omhacks:
   version: 0.16-1
   issues:
-    - random_order_in_static_libraries
+    - build_id_differences_only
 omins:
   version: 0.2.0-7.1
   issues:
@@ -20626,6 +20636,8 @@ pgpgpg:
     - build_id_differences_only
 pgpool2:
   version: 3.5.4-1
+  issues:
+    - build_id_differences_only
   bugs:
     - 828497
 pgrouting:
@@ -21027,6 +21039,10 @@ plasma-framework:
     - different_due_to_umask
   bugs:
     - 828021
+plasma-mediacenter:
+  version: 5.7.3-1
+  issues:
+    - build_id_differences_only
 plasma-nm:
   version: 4:5.8.0-1
   issues:
@@ -21209,6 +21225,10 @@ policyd-spf-fs:
     [experimental/amd64]
   issues:
     - captures_build_path
+polkit-qt-1:
+  version: 0.112.0-5
+  issues:
+    - build_id_differences_only
 polspline:
   version: 1.1.12-2
   issues:
@@ -21437,6 +21457,8 @@ powerdebug:
     - captures_build_path
 powerdevil:
   version: 4:5.4.3-1
+  issues:
+    - build_id_differences_only
   bugs:
     - 825471
 powstatd:
@@ -21567,6 +21589,8 @@ primrose:
     - 778481
 print-manager:
   version: 4:16.04.1-2
+  issues:
+    - build_id_differences_only
   bugs:
     - 838738
 printfilters-ppd:
@@ -23544,6 +23568,10 @@ qd:
   version: 2.3.11.dfsg-2.3
   bugs:
     - 818542
+qdacco:
+  version: 0.8.2-2
+  issues:
+    - build_id_differences_only
 qdbm:
   version: 1.8.78-5
   issues:
@@ -26258,7 +26286,7 @@ rinputd:
     Not honouring dpkg-buildflags (objects not compiled with -fdebug-prefix-map).
     But also using cmake, which is building with absolute paths.
   issues:
-    - captures_build_path
+    - build_id_differences_only
 ripmime:
   version: 1.4.0.10.debian.1-1
   comments: |
@@ -26349,6 +26377,8 @@ rockdodger:
     - 793714
 rocs:
   version: 4:16.04.1-1
+  issues:
+    - build_id_differences_only
   bugs:
     - 835282
 rodbc:
@@ -26522,7 +26552,7 @@ rrdcollect:
 rrdtool:
   version: 1.6.0-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 rsbackup:
   version: 3.0-2
   issues:
@@ -27220,6 +27250,10 @@ rustc:
     Non-determistic JSON serialisation https://sources.debian.net/src/rustc/1.0.0%2Bdfsg1-1/src/librustdoc/html/render.rs/#L1299
     Blacklisted on armhf because of #834003.
     Reported to upstream at https://github.com/rust-lang/rust/issues/34902 - more details there
+s3d:
+  version: 0.2.2-14
+  issues:
+    - build_id_differences_only
 s3ql:
   version: 2.15+dfsg-1
   issues:
@@ -27244,7 +27278,7 @@ safe-hole-perl:
 sagan:
   version: 1.0.1-0.1
   issues:
-    - timestamps_from_cpp_macros
+    - build_id_differences_only
 sagetex:
   version: 3.0+ds-1
   issues:
@@ -28378,7 +28412,7 @@ solfege:
 solid:
   version: 5.26.0-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 sollya:
   version: 5.0+ds-3
   issues:
@@ -30314,6 +30348,10 @@ uanytun:
     - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 834227
+ubertooth:
+  version: 2015.09.R2-4
+  issues:
+    - build_id_differences_only
 ubuntu-packaging-guide:
   version: 0.3.6
   issues:
