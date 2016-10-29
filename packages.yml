@@ -404,6 +404,7 @@ alsa-lib:
   issues:
     - captures_home_dir
     - captures_build_path
+    - graphviz_nondeterminstic_output
 alsa-tools:
   version: 1.1.0-1
   issues:
@@ -3271,6 +3272,7 @@ code-saturne:
     - captures_build_path
     - fonts_in_pdf_files
     - different_pot_creation_date_in_gettext_mo_files
+    - graphviz_nondeterminstic_output
 code2html:
   version: 0.9.1-4
   bugs:
@@ -3341,6 +3343,7 @@ coinor-osi:
   version: 0.106.9-2
   issues:
     - captures_build_path
+    - graphviz_nondeterminstic_output
 coinor-symphony:
   version: 5.6.1-1
   issues:
@@ -3361,6 +3364,7 @@ coinutils:
   version: 2.9.15-3.1
   issues:
     - captures_build_path
+    - graphviz_nondeterminstic_output
 collabtive:
   version: 2.0+dfsg-6
   issues:
@@ -8247,6 +8251,7 @@ girara:
   version: 0.2.6-1
   issues:
     - captures_build_path
+    - graphviz_nondeterminstic_output
 gist:
   version: 4.5.0-1
   bugs:
@@ -8325,6 +8330,7 @@ givaro:
   version: 4.0.1-2
   issues:
     - captures_build_path
+    - graphviz_nondeterminstic_output
   bugs:
     - 811847
 gjay:
@@ -27358,6 +27364,8 @@ sailcut:
   version: 1.3.6-1
   comments: |
     Generates PNGs with inkscape, dot, etc. Content-related, so probably caused by dot.
+  issues:
+    - graphviz_nondeterminstic_output
 saint:
   version: 2.5.0+dfsg-2
   issues:
