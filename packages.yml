@@ -7476,6 +7476,10 @@ g2clib:
   version: 1.6.0-4
   issues:
     - captures_build_path
+g3data:
+  version: 1:1.5.3-2.1
+  issues:
+    - docbook_to_man_one_byte_delta
 gabedit:
   version: 2.4.8-2
   bugs:
@@ -19200,6 +19204,10 @@ ocurl:
   version: 0.7.6-2
   issues:
     - captures_build_path
+ode:
+  version: 2:0.14-2
+  issues:
+    - docbook_to_man_one_byte_delta
 odil:
   version: 0.7.0-2
   issues:
@@ -30859,6 +30867,10 @@ valknut:
     - captures_build_path
   bugs:
     - 834017
+vamp-plugin-sdk:
+  version: 2.6~repack0-2
+  issues:
+    - docbook_to_man_one_byte_delta
 variantslib:
   version: 113.33.03-2
   issues:
