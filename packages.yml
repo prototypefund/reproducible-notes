@@ -22396,6 +22396,7 @@ pytables:
   issues:
     - timestamps_in_documentation_generated_by_sphinx
     - captures_build_path
+    - cython_captures_build_path
 pytango:
   version: 8.1.5-1
   issues:
@@ -22440,6 +22441,7 @@ python-astropy:
     See also https://bugs.debian.org/791574#61
   issues:
     - blacklisted_on_jenkins_armhf_only
+    - cython_captures_build_path
 python-asyncssh:
   version: 1.2.0-1
   issues:
