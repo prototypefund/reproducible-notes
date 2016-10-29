@@ -111,6 +111,7 @@ acmetool:
     - random_build_path_by_golang_compiler
     - diffoscope_runs_forever
     - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 aconnectgui:
   version: 0.9.0rc2-1-9
   bugs:
@@ -27208,6 +27209,7 @@ runc:
   issues:
     - random_build_path_by_golang_compiler
     - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 runit:
   version: 2.1.2-3
   issues:
