@@ -11473,8 +11473,10 @@ kaa-metadata:
     - captures_build_path
 kaccessible:
   version: 4:16.08.0-1
+  comments: |
+    Will probably have build_id_differences_only once the assert is fixed.
   issues:
-    - captures_build_path
+    - captures_build_path_via_assert
 kaccounts-integration:
   version: 16.04.2-1
   issues:
