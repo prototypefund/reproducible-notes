@@ -29338,6 +29338,10 @@ syslinux:
     passing a fixed -DHEXDATE to nasm does not help
   issues:
     - captures_build_path
+syslog-ng:
+  version: 3.7.3-3
+  bugs:
+    - 839449
 systemd:
   version: 231-4
   issues:
