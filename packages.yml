@@ -9274,6 +9274,10 @@ gpgmepp:
   version: 16.04.3-1
   issues:
     - captures_build_path
+gphoto2-cffi:
+  version: 0.3~a1-1
+  issues:
+    - captures_build_arch
 gphpedit:
   version: 0.9.98-3
   issues:
@@ -10019,6 +10023,7 @@ hdf5:
     - captures_kernel_version
     - records_build_flags
     - too_much_input_for_diff
+    - captures_build_arch
 hdup:
   version: 2.0.14-4
   issues:
@@ -10052,6 +10057,8 @@ hedgewars:
     - captures_build_path
 heimdal:
   version: 1.7~git20160515+dfsg-1
+  issues:
+    - captures_build_arch
   bugs:
     - 822749
 hepmc:
@@ -14614,6 +14621,10 @@ libperinci-sub-normalize-perl:
   version: 0.18-1
   bugs:
     - 840980
+libpgm:
+  version: 5.2.122~dfsg-2
+  issues:
+    - captures_build_arch
 libphonenumber:
   version: 7.1.0-3
   issues:
@@ -21930,6 +21941,8 @@ pybik:
   comments: |
     Embeds output of sys.argv in buildlib/translation_from_ui.py. Could be
     simply stripped.
+  issues:
+    - captures_build_arch
 pybit:
   version: 1.0.0-2.1
   comments: |
@@ -22526,6 +22539,10 @@ python-crypto:
     looks like a separate indices sorting issue
   issues:
     - randomness_in_documentation_generated_by_sphinx
+python-cryptography:
+  version: 1.5.2-1
+  issues:
+    - captures_build_arch
 python-csb:
   version: 1.2.3+dfsg-3
   issues:
@@ -22717,6 +22734,10 @@ python-geopandas:
     also needs this patch https://gist.github.com/lamby/549d0c0a61097e02e441222f35cd587c
   issues:
     - randomness_in_documentation_generated_by_sphinx
+python-gevent:
+  version: 1.1.1-2
+  issues:
+    - captures_build_arch
 python-gflags:
   version: 1.5.1-2
   comments: |
@@ -22866,6 +22887,10 @@ python-libpcap:
   version: 0.6.4-1
   bugs:
     - 804429
+python-librtmp:
+  version: 0.3.0-1
+  issues:
+    - captures_build_arch
 python-llfuse:
   version: 0.40+dfsg-2
   issues:
@@ -23133,6 +23158,14 @@ python-poppler:
     - captures_build_path
   bugs:
     - 812680
+python-poppler-qt4:
+  version: 0.24.0-1
+  issues:
+    - captures_build_arch
+python-poppler-qt5:
+  version: 0.24.2-2
+  issues:
+    - captures_build_arch
 python-pqueue:
   version: 0.2-7.2
   bugs:
@@ -23158,6 +23191,10 @@ python-pyftpdlib:
   version: 1.2.0-1
   bugs:
     - 790274
+python-pygit2:
+  version: 0.24.1-1
+  issues:
+    - captures_build_arch
 python-pygraphviz:
   version: 1.3.1-1
   bugs:
@@ -28315,6 +28352,10 @@ sni-qt:
   version: 0.2.7+15.10.20150729-2
   issues:
     - captures_build_path
+snimpy:
+  version: 0.8.11-1
+  issues:
+    - captures_build_arch
 snmpkit:
   version: 0.9-16
   issues:
@@ -30718,6 +30759,10 @@ v-sim:
   version: 3.7.2-1
   bugs:
     - 822432
+vagalume:
+  version: 0.8.6-2
+  issues:
+    - captures_build_arch
 valabind:
   version: 0.10.0-0.1
   issues:
