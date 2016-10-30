@@ -6424,7 +6424,7 @@ felix-latin:
   comments: |
     uses imagemagick to create help.tif. would be fixed by 819914
   issues:
-    - too_much_input_for_diff
+    - timestamps_manually_added_needs_further_investigation
 ferret-vis:
   version: 7.0-1
   issues:
@@ -15824,6 +15824,7 @@ logol:
   issues:
     - blacklisted_on_jenkins
     - captures_build_path
+    - timestamps_manually_added_needs_further_investigation
 logtool:
   version: 1.2.8-8
   issues:
