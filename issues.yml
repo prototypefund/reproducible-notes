@@ -1464,3 +1464,9 @@ docbook_to_man_one_byte_delta:
     .
     http://sources.debian.net/src/docbook-to-man/1:2.0.0-35/cmd/docbook-to-man.sh/#L69
     possible problem due to literal tab instead of metacharacter?
+    .
+    The tab issue is undefined behaviour in memcpy, could be fixed with memmove?
+    https://sources.debian.net/src/docbook-to-man/1:2.0.0-35/Instant/main.c/#L799
+    https://paste.debian.net/891000 seems to only actually break on i386 (tested on am64 -m32).
+    "\n\011" gets translated to " \111" (capital I), seemingly by complete coincidence.
+
