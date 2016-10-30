@@ -5752,6 +5752,10 @@ enscript:
   version: 1.6.5.90-2
   bugs:
     - 822407
+ensymble:
+  version: 0.29-1
+  issues:
+    - docbook_to_man_one_byte_delta
 ent:
   version: 1.2debian-1
   issues:
@@ -17680,6 +17684,10 @@ mvtnorm:
   issues:
     - captures_build_path
     - randomness_in_r_rdb_rds_databases
+mwparserfromhell:
+  version: 0.4.2-1.1
+  bugs:
+    - 842628
 mwrap:
   version: 0.33-2
   issues:
@@ -21550,6 +21558,10 @@ ppl:
     - blacklisted_on_jenkins_armhf_only
   bugs:
     - 811825
+pppoeconf:
+  version: 1.21
+  issues:
+    - docbook_to_man_one_byte_delta
 pps-tools:
   version: 0.20120406+g0deb9c7e-2
   issues:
