@@ -4511,6 +4511,11 @@ debiandoc-sgml-doc-pt-br:
     - debiandoc_sgml_timestamp
   bugs:
     - 828680
+debirf:
+  version: 0.36
+  comments: |
+    [not amd64]
+    readdir() dependency in make, affects tar file: https://sources.debian.net/src/debirf/0.36/Makefile/#L27
 debmake-doc:
   version: 1.0-1
   comments: |
@@ -5819,6 +5824,11 @@ ergo:
     - captures_build_path
   bugs:
     - 775362
+eric:
+  version: 6.1.8-1
+  comments: |
+    [disorderfs required, so not amd64] readdir() dependency via python3 glob.glob() in install.py:createConfig(),
+    affects 'apis' key in eric6config.py.
 erlang:
   version: 1:18.0-dfsg-1
   issues:
@@ -28279,6 +28289,13 @@ slepc4py:
   version: 3.7.0-2
   issues:
     - captures_build_path
+slib:
+  version: 3b1-5
+  comments: |
+    texi2html documentation has two sections with the same anchor name «#Examples», so one of them at random gets a "-1" suffix.
+    Non-deterministic.
+    .
+    May be related to randomness_in_html_generated_by_texi2html.
 slic3r:
   version: 1.1.7+dfsg-2
   issues:
@@ -31233,6 +31250,11 @@ w3cam:
   version: 0.7.2-6.2
   issues:
     - captures_build_path
+wader:
+  version: 0.5.13-1
+  comments: |
+    [armhf] Apparently, dh_python installs a random <SRCDIR>/core/*/__init__.py as the /usr/share/wader-core/core/__init__.py,
+    instead of installing <SRCDIR>/core/__init__.py to that path.
 waffle:
   version: 1.5.2-2
   issues:
