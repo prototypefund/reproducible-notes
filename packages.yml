@@ -19633,6 +19633,10 @@ openjdk-7:
   issues:
     - timestamps_from_cpp_macros
     - blacklisted_on_jenkins_armhf_only
+openjdk-7-jre-dcevm:
+  version: 7u79-4
+  bugs:
+    - 814168
 openjdk-8:
   version: 8u40~b09-1
   issues:
