@@ -5043,6 +5043,8 @@ docker-registry:
     [experimental/amd64]
   issues:
     - golang_compiler_captures_build_path_in_binary
+  bugs:
+    - 841575
 docker-swarm:
   version: 1.0.1+dfsg-1
   issues:
