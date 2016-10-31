@@ -12931,6 +12931,10 @@ libapache-poi-java:
     more than that, alas.
   issues:
     - blacklisted_on_jenkins_armhf_only
+libapache2-mod-auth-cas:
+  version: 1.0.9.1-4
+  bugs:
+    - 828378
 libapache2-mod-auth-memcookie:
   version: 1.0.2-8
   issues:
