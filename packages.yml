@@ -29509,6 +29509,10 @@ task:
   version: 2.5.1+dfsg-1
   issues:
     - captures_build_path
+taskcoach:
+  version: 1.4.3-2
+  comments: |
+    [disorderfs] readdir() dependency: <SRCDIR>/templates.in/make.py calls os.listdir().
 taskd:
   version: 1.1.0+dfsg-2
   issues:
@@ -30452,6 +30456,12 @@ tzc:
     - captures_build_path
   bugs:
     - 800220
+u-boot:
+  version: 2016.09+dfsg1-2
+  comments: |
+    [armhf].  The package does not target amd64.
+  issues:
+    - captures_build_path
 u1db:
   version: 13.10-6.2
   issues:
