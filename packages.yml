@@ -3536,6 +3536,8 @@ conky:
     - captures_build_path
 connect-proxy:
   version: 1.101-1
+  issues:
+    - docbook_to_man_one_byte_delta
   bugs:
     - 830423
 connectome-workbench:
@@ -4961,6 +4963,10 @@ dmucs:
   version: 0.6.1-2.1
   bugs:
     - 839647
+dns-browse:
+  version: 1.9-8
+  issues:
+    - docbook_to_man_one_byte_delta
 dns2tcp:
   version: 0.5.2-1.1
   issues:
@@ -11002,6 +11008,10 @@ iwyu:
   version: 3.8-1
   issues:
     - captures_build_path
+jaaa:
+  version: 0.8.4-2
+  issues:
+    - docbook_to_man_one_byte_delta
 jablicator:
   version: 1.0.1
   bugs:
@@ -29973,6 +29983,10 @@ tightvnc:
   issues:
     - lynx_dump_varies_output_with_locale
     - captures_build_path
+tigr-glimmer:
+  version: 3.02-5
+  issues:
+    - docbook_to_man_one_byte_delta
 tiledarray:
   version: 0.4.4-1
   issues:
@@ -32905,6 +32919,10 @@ zookeeper:
   version: 3.4.6-5
   issues:
     - random_order_in_documentation_generated_by_javadoc
+zoomer:
+  version: 0.1-1.1
+  issues:
+    - docbook_to_man_one_byte_delta
 zope-maildrophost:
   version: 2.3-1
   issues:
