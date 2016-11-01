@@ -7222,6 +7222,7 @@ freefem++:
     Also captures build path in load.link manpage (include flags / debug path)
   issues:
     - captures_build_path
+    - records_build_flags
 freefem3d:
   version: 1.0pre10-3.2
   issues:
@@ -8115,6 +8116,7 @@ getfem++:
   issues:
     - captures_build_path
     - user_hostname_manually_added_requiring_further_investigation
+    - records_build_flags
 getstream:
   version: 20081204-1.2
   issues:
@@ -10129,7 +10131,7 @@ hershey-fonts:
 herwig++:
   version: 2.6.0-1.1
   issues:
-    - captures_build_path
+    - records_build_flags
   bugs:
     - 813383
 hex-a-hop:
@@ -13251,6 +13253,8 @@ libcgi-ssi-parser-perl:
     - 817595
 libcgicc:
   version: 3.2.9-3
+  issues:
+    - records_build_flags
   bugs:
     - 811988
 libcgns:
