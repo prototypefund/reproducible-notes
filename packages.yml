@@ -8332,7 +8332,7 @@ gitlab-ci-multi-runner:
 gitlab-workhorse:
   version: 0.7.2-1
   issues:
-    - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 gitmagic:
   version: 20160304-1
   issues:
