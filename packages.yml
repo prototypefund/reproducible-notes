@@ -8746,6 +8746,10 @@ gnome-subtitles:
   issues:
     - timestamps_in_pe_binaries
     - captures_build_path
+gnome-system-monitor:
+  version: 3.22.0-1
+  issues:
+    - docbook_to_man_one_byte_delta
 gnome-tweak-tool:
   version: 3.20.1-1
   bugs:
@@ -12758,6 +12762,10 @@ lasso:
   version: 2.5.0-5
   issues:
     - captures_build_path
+lastpass-cli:
+  version: 1.0.0-1
+  bugs:
+    - 842875
 latencytop:
   version: 0.5
   bugs:
@@ -20091,6 +20099,10 @@ owx:
   version: 0~20110415-3.1
   issues:
     - captures_build_path
+oxref:
+  version: 1.00.06-1
+  issues:
+    - random_order_in_static_library_by_icmake
 oxygen:
   version: 4:5.4.3-1
   issues:
