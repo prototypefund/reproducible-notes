@@ -1521,6 +1521,8 @@ bamtools:
     - build_id_differences_only
 bandit:
   version: 0.13.2-3
+  issues:
+    - captures_build_path
   bugs:
     - 816735
 bandwidthcalc:
@@ -12914,6 +12916,8 @@ libam7xxx:
     - build_id_differences_only
 libambix:
   version: 0.1-1
+  issues:
+    - captures_build_path
   bugs:
     - 839952
 libantlr3c:
@@ -21296,6 +21300,10 @@ plinth:
   version: 0.8.2-1
   bugs:
     - 800816
+plip:
+  version: 1.3.2+dfsg-1
+  issues:
+    - captures_build_path
 plm:
   version: 2.4.11+repack-2
   issues:
@@ -31921,6 +31929,8 @@ xapian-bindings:
       - build path
       - build date
       - a fixed date, rendered in the build's timezone
+  issues:
+    - captures_build_path
 xapian-core:
   version: 1.2.23-1
   issues:
