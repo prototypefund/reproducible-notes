@@ -16867,6 +16867,8 @@ milter-greylist:
   comments: |
     Records the build environment.
     https://sources.debian.net/src/milter-greylist/4.5.11-1/configure.ac/#L1323-L1325
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 808669
     - 830418
@@ -18882,6 +18884,8 @@ nvidia-settings:
   comments: |
     Intentionally captures data about the build environment.
     https://sources.debian.net/src/nvidia-settings/340.93-1/utils.mk/#L330-L331
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
 nvidia-texture-tools:
   version: 2.0.8-1+dfsg-8
   issues:
