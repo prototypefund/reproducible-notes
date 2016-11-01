@@ -1470,3 +1470,7 @@ docbook_to_man_one_byte_delta:
     "\n\011" gets translated to " \111" (capital I), seemingly by complete coincidence.
 
   url: https://bugs.debian.org/842635
+unrelated_ftbfs:
+  description: |
+    FTBFS on tests.r-b.o and on buildd.d.o, and for the same reason.
+  deterministic: True
