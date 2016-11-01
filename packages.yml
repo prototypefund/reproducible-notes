@@ -3827,12 +3827,6 @@ cryptokit:
   version: 1.10-1
   issues:
     - captures_build_path
-cryptsetup:
-  version: 2:1.7.2-5
-  issues:
-    - different_pot_creation_date_in_gettext_mo_files
-  bugs:
-    - 842581
 crystalhd:
   version: 1:0.0~git20110715.fdd2f19-11
   issues:
@@ -14430,13 +14424,6 @@ libmsn:
   version: 4.2.1+dfsg-1
   issues:
     - captures_build_path
-libmsv:
-  version: 1.1-1
-  issues:
-    - random_order_in_md5sums
-    - timestamps_in_gzip_headers
-  bugs:
-    - 842548
 libmthca:
   version: 1.0.6-1
   issues:
@@ -14977,10 +14964,6 @@ libsearch-estraier-perl:
   version: 0.09-5
   bugs:
     - 711615
-libselinux:
-  version: 2.5-3
-  bugs:
-    - 825655
 libsendmail-milter-perl:
   version: 0.18-8
   bugs:
@@ -16555,12 +16538,6 @@ matplotlib:
     - captures_build_path
   bugs:
     - 802776
-mauve:
-  version: 20140821-1
-  issues:
-    - different_due_to_umask
-  bugs:
-    - 803585
 mauve-aligner:
   version: 2.4.0+4734-1
   issues:
@@ -16665,10 +16642,6 @@ mdp:
   version: 3.5-1
   issues:
     - ftbfs_due_to_jenkins_semaphore_setup
-mdp-src:
-  version: 1.0.8-1
-  bugs:
-    - 842624
 meanwhile:
   version: 1.0.2-7
   issues:
@@ -26775,13 +26748,6 @@ rrdtool:
   version: 1.6.0-1
   issues:
     - build_id_differences_only
-rsbackup:
-  version: 3.0-2
-  issues:
-    - different_encoding
-    - random_order_in_md5sums
-  bugs:
-    - 842546
 rserve:
   version: 1.7-3-3
   issues:
