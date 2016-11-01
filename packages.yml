@@ -7665,6 +7665,8 @@ garcon:
   version: 0.4.0-2
   comments: |
     Desktop launcher file missing a whole bunch of entries when run with a non-utf8 locale
+  issues:
+    - different_encoding
 gargoyle-free:
   version: 2011.1a-3
   bugs:
@@ -32350,6 +32352,10 @@ xmlto:
   version: 0.0.28-0.1
   issues:
     - captures_build_path
+xmltv:
+  version: 0.5.68-1
+  issues:
+    - different_encoding
 xmlunit:
   version: 1.5-1
   issues:
