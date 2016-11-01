@@ -4713,7 +4713,6 @@ dict-gazetteer2k:
 dict-gcide:
   version: 0.48.1
   issues:
-    - timestamps_in_gzip_headers
     - timestamps_in_dictionaries
     - too_much_input_for_diff
 dict-jargon:
@@ -10165,8 +10164,6 @@ hibernate:
   comments: |
     Embeds the build date into manpage.
     https://sources.debian.net/src/hibernate/2.0%2B15%2Bg88d54a8-1/gen-manpages.sh/#L3
-  issues:
-    - different_encoding
   bugs:
     - 831045
 hidrd:
@@ -19598,7 +19595,6 @@ opencv:
 opendkim:
   version: 2.10.3-3
   issues:
-    - captures_shell_variable_in_autofoo_script
     - captures_build_path
 opendmarc:
   version: 1.3.1+dfsg-3
@@ -21982,7 +21978,6 @@ pstoedit:
   version: 3.70-1
   issues:
     - timestamps_in_manpages_generated_by_latex2man
-    - different_encoding
 psychtoolbox-3:
   version: 3.0.12.20160414.dfsg1-1
   issues:
@@ -26807,7 +26802,6 @@ rsymphony:
 rsync:
   version: 3.1.1-2
   issues:
-    - timestamps_in_gzip_headers
     - random_order_in_md5sums
     - build_id_differences_only
   bugs:
