@@ -1474,3 +1474,9 @@ unrelated_ftbfs:
   description: |
     FTBFS on tests.r-b.o and on buildd.d.o, and for the same reason.
   deterministic: True
+sphinx_htmlhelp_readdir_sensitive:
+  description: |
+    [armhf,i386] The [FILES] section of sphinx htmlhelp (*.hhp) files appears in readdir() order:
+      sphinx/builders/htmlhelp.py:223:            for root, dirs, files in os.walk(outdir):
+    .
+    The current test setup shows this on armhf/i386 only since it doesn't use disorderfs on amd64.
