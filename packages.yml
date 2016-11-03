@@ -4553,6 +4553,7 @@ debmake-doc:
     - user_hostname_manually_added_requiring_further_investigation
     - different_pot_creation_date_in_gettext_mo_files
     - different_due_to_umask
+    - records_build_flags
 debomatic:
   version: 0.21-2
   issues:
@@ -22725,15 +22726,15 @@ python-biggles:
   version: 1.6.6-3
   issues:
     - captures_build_path
+python-biom-format:
+  version: 2.1.5+dfsg-3
+  issues:
+    - captures_build_path
 python-biopython:
   version: 1.68+dfsg-1
   issues:
     - pdf_id_varying_due_to_build_path
     - timestamps_in_tex_documents
-python-biom-format:
-  version: 2.1.5+dfsg-3
-  issues:
-    - captures_build_path
 python-bleach:
   version: 1.4.2-1
   bugs:
