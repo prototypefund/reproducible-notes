@@ -9595,11 +9595,8 @@ grcm:
     - captures_build_path
 greenbone-security-assistant:
   version: 6.0.11+dfsg.1-1
-  comments: |
-    Variances because of implementation-specific 'echo':
-    https://sources.debian.net/src/greenbone-security-assistant/6.0.11%2Bdfsg.1-1/tools/generate-cpe-icon-dict.sh/#L155
-    sorting varies with locale:
-    https://sources.debian.net/src/greenbone-security-assistant/6.0.11%2Bdfsg.1-1/tools/generate-zone-dict.sh/#L101
+  bugs:
+    - 843110
 gregmisc:
   version: 2.1.5-2
   issues:
