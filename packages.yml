@@ -8969,6 +8969,10 @@ go-mtpfs:
     - too_much_input_for_diff
     - captures_build_path
     - golang_compiler_captures_build_path_in_binary
+go-wire:
+  version: 0~20161027~0git287d8ca-1
+  issues:
+    - golang_compiler_captures_build_path_in_binary
 goaccess:
   version: 1:0.8.3-1
   bugs:
