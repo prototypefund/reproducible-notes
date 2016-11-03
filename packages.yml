@@ -4133,6 +4133,7 @@ dacs:
   issues:
     - captures_kernel_version
     - captures_build_path
+    - captures_build_arch
   bugs:
     - 835673
 dactyl:
@@ -16532,6 +16533,10 @@ mariadb-10.0:
   version: 10.0.27-1
   issues:
     - diffoscope_runs_forever
+mariadb-client-lgpl:
+  version: 2.0.0-1
+  issues:
+    - captures_build_arch
 mariadb-connector-c:
   version: 2.3.0-2
   issues:
