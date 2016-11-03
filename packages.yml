@@ -13023,6 +13023,12 @@ libam7xxx:
     - build_id_differences_only
 libambix:
   version: 0.1-1
+  comments: |
+    captures build path via argv[0] in:
+    https://sources.debian.net/src/libambix/0.1.1-1/utils/ambix-interleave.c/?hl=606#L606
+    https://sources.debian.net/src/libambix/0.1.1-1/utils/ambix-interleave.c/?hl=241#L241
+    https://sources.debian.net/src/libambix/0.1.1-1/utils/ambix-interleave.c/?hl=596#L596
+    https://sources.debian.net/src/libambix/0.1.1-1/utils/ambix-interleave.c/?hl=598#L598
   issues:
     - captures_build_path
   bugs:
