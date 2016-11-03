@@ -3761,6 +3761,7 @@ crawl:
   version: 2:0.18.1-1
   issues:
     - captures_build_path
+    - diffoscope_runs_forever
 crda:
   version: 3.13-1
   issues:
@@ -6053,6 +6054,8 @@ esys-particle:
     - 811838
 etcd:
   version: 2.3.7+dfsg-1
+  issues:
+    - diffoscope_runs_forever
   bugs:
     - 830388
 etcd-fs:
@@ -7248,6 +7251,7 @@ freefem++:
   issues:
     - captures_build_path
     - records_build_flags
+    - diffoscope_runs_forever
 freefem3d:
   version: 1.0pre10-3.2
   issues:
@@ -9454,6 +9458,7 @@ gr-radar:
   version: 0.0.0.20160615-3
   issues:
     - build_id_differences_only
+    - diffoscope_runs_forever
 gr-rds:
   version: 3.7.0.2.a542331-1
   issues:
@@ -13247,6 +13252,7 @@ libbpp-phyl:
   version: 2.2.0-1
   issues:
     - captures_build_path
+    - diffoscope_runs_forever
 libbpp-phyl-omics:
   version: 2.1.0-1
   bugs:
@@ -17445,6 +17451,10 @@ mosh:
   version: 1.2.5.95rc1-1
   bugs:
     - 811579
+mothur:
+  version: 1.38.0-1
+  issues:
+    - diffoscope_runs_forever
 motif:
   version: 2.3.4-10
   bugs:
@@ -17479,6 +17489,7 @@ mozjs24:
   version: 24.2.0-3.1
   issues:
     - captures_build_path
+    - diffoscope_runs_forever
 mozvoikko:
   version: 2.0.1-1
   comments: |
@@ -20526,6 +20537,10 @@ pcscada:
     - captures_build_path
     - random_order_in_static_libraries
     - records_build_flags
+pcsx2:
+  version: 1.4.0+dfsg-2
+  issues:
+    - diffoscope_runs_forever
 pd-arraysize:
   version: 0.1-3
   issues:
@@ -29384,6 +29399,7 @@ supertuxkart:
   issues:
     - unsorted_file_glob_by_cmake
     - captures_build_path
+    - diffoscope_runs_forever
   bugs:
     - 811724
 supervisor:
