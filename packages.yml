@@ -10038,6 +10038,10 @@ haskell-hsopenssl-x509-system:
   version: 0.1.0.3-1
   bugs:
     - 842017
+haskell-iso8601-time:
+  version: 0.1.4-4
+  issues:
+    - build_id_differences_only
 haskell-mode:
   version: 13.10-3
   issues:
@@ -15972,7 +15976,7 @@ loook:
 looptools:
   version: 2.8-1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 lordsawar:
   version: 0.3.0-2
   comments: |
@@ -20506,15 +20510,15 @@ pcscada:
 pd-arraysize:
   version: 0.1-3
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 pd-bassemu:
   version: 0.3-4
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 pd-beatpipe:
   version: 0.1-4
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 pd-boids:
   version: 1.1.1-2
   issues:
@@ -20522,7 +20526,7 @@ pd-boids:
 pd-comport:
   version: 0.2-2
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 pd-cxc:
   version: 0.5.2-1
   issues:
@@ -20596,7 +20600,7 @@ pd-pdogg:
 pd-pdstring:
   version: 0.10.2-1
   comments: |
-    Embeds the build date.
+    Embeds the build date and username.
     https://sources.debian.net/src/pd-pdstring/0.10.2-1/src/pdstring.c/#L87
   bugs:
     - 833445
@@ -21907,7 +21911,7 @@ proftpd-mod-fsync:
 proftpd-mod-msg:
   version: 0.4.1-1.1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 proftpd-mod-tar:
   version: 0.3.3-1
   issues:
@@ -23934,7 +23938,7 @@ qink:
 qjackctl:
   version: 0.4.2-2
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 qjoypad:
   version: 4.1.0-1
   bugs:
@@ -27556,6 +27560,10 @@ s3ql:
   version: 2.15+dfsg-1
   issues:
     - captures_build_path
+s3switch:
+  version: 0.1-1
+  issues:
+    - build_id_differences_only
 sa-exim:
   version: 4.2.1-14
   comments: |
