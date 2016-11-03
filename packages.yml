@@ -39,6 +39,8 @@ aac-tactics:
     - 818331
 abcm2ps:
   version: 7.8.9-1
+  issues:
+    - docbook_to_man_one_byte_delta
   bugs:
     - 788748
 abind:
@@ -2074,6 +2076,10 @@ blueman:
   version: 2.0.4-1
   issues:
     - captures_build_path
+bluemon:
+  version: 1.4-6.1
+  issues:
+    - docbook_to_man_one_byte_delta
 bluez-qt:
   version: 5.25.0-1
   issues:
@@ -3783,6 +3789,10 @@ crmsh:
     https://sources.debian.net/src/crmsh/2.2.1-1/doc/website-v1/make-news.py/?hl=89#L69
   issues:
     - timestamps_in_documentation_generated_by_asciidoc
+cron-apt:
+  version: 0.9.6
+  issues:
+    - docbook_to_man_one_byte_delta
 cronie:
   version: 1.4.81~exp1
   comments: |
@@ -20454,6 +20464,10 @@ paxctl:
   version: 0.9-1
   issues:
     - captures_build_path
+paxtest:
+  version: 1:0.9.14-2
+  issues:
+    - docbook_to_man_one_byte_delta
 pbbam:
   version: 0.1.0~20150813+git4e9e417+dfsg-1
   issues:
@@ -31755,6 +31769,10 @@ wings3d:
   version: 1.5.4-1
   issues:
     - captures_build_path
+winpdb:
+  version: 1.4.8-3
+  issues:
+    - docbook_to_man_one_byte_delta
 winrmcp:
   version: 0.0~git20160310.f1bcf36-1
   issues:
@@ -32997,6 +33015,10 @@ zeroconf-ioslave:
   version: 4:15.12.0-2
   issues:
     - captures_build_path
+zerofree:
+  version: 1.0.3-1
+  issues:
+    - docbook_to_man_one_byte_delta
 zeroinstall-injector:
   version: 2.10-2
   issues:
