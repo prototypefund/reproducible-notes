@@ -22725,6 +22725,11 @@ python-biggles:
   version: 1.6.6-3
   issues:
     - captures_build_path
+python-biobpython:
+  version: 1.68+dfsg-1
+  issues:
+    - pdf_id_varying_due_to_build_path
+    - timestamps_in_tex_documents
 python-biom-format:
   version: 2.1.5+dfsg-3
   issues:
@@ -22733,11 +22738,6 @@ python-bleach:
   version: 1.4.2-1
   bugs:
     - 798441
-python-blobpython:
-  version: 1.68+dfsg-1
-  issues:
-    - pdf_id_varying_due_to_build_path
-    - timestamps_in_tex_documents
 python-box2d:
   version: 2.0.2+svn20100109.244-1.2
   issues:
