@@ -22733,6 +22733,11 @@ python-bleach:
   version: 1.4.2-1
   bugs:
     - 798441
+python-blobpython:
+  version: 1.68+dfsg-1
+  issues:
+    - pdf_id_varying_due_to_build_path
+    - timestamps_in_tex_documents
 python-box2d:
   version: 2.0.2+svn20100109.244-1.2
   issues:
@@ -22803,6 +22808,10 @@ python-cjson:
   version: 1.1.0-2
   issues:
     - captures_build_path
+python-clips:
+  version: 1.0.7.348+clips-1
+  bugs:
+    - 843100
 python-cobra:
   version: 0.4.2~b1-1
   issues:
