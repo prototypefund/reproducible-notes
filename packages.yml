@@ -1539,6 +1539,10 @@ bamtools:
     - build_id_differences_only
 bandit:
   version: 0.13.2-3
+  comments: |
+    Embeds output of sys.argv in bandit.yaml which include build path in:
+    https://sources.debian.net/src/bandit/1.1.0-2/bandit/cli/config_generator.py/?hl=33#L33
+    https://sources.debian.net/src/bandit/1.1.0-2/bandit/cli/config_generator.py/?hl=162#L162
   issues:
     - captures_build_path
   bugs:
@@ -21504,7 +21508,7 @@ png-sixlegs:
   version: 2.0-1
   comments: |
     Missing text in html tag, caused by:
-    http://sources.debian.net/src/png-sixlegs/2.0-1/javapng-2.0/src/main/com/sixlegs/png/PngImage.java/?hl=309#L309
+    https://sources.debian.net/src/png-sixlegs/2.0-1/javapng-2.0/src/main/com/sixlegs/png/PngImage.java/?hl=309#L309
 png23d:
   version: 1.10-1.2
   issues:
