@@ -1182,7 +1182,7 @@ ruby_mkmf_makefile_unsorted_objects:
 timestamps_in_pdf_generated_by_imagemagick:
   description: |
     When converting images to PDF files, imagemagick embeds the current time/date into metadata (CreationDate / ModDate).
-  url: https://bugs.debian.org/81991t
+  url: https://bugs.debian.org/819914
   deterministic: True
 random_order_in_native_libs_by_setuptools:
   description: |
