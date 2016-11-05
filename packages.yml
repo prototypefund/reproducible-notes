@@ -31350,10 +31350,18 @@ vdr-plugin-softhddevice:
   version: 0.6.0+git20160108-1
   issues:
     - captures_build_path
+vdr-plugin-spider:
+  version: 0.2.2-21
+  bugs:
+    - 843235
 vdr-plugin-streamdev:
   version: 0.6.1+git20150213-3
   issues:
     - captures_build_path
+vdr-plugin-sudoku:
+  version: 0.3.5-20
+  bugs:
+    - 843234
 vdr-plugin-svdrposd:
   version: 1.0.0-5
   issues:
@@ -33031,6 +33039,10 @@ yosys:
     - timestamps_in_pdf_generated_by_latex
     - fonts_in_pdf_files
     - records_build_flags
+yrmcds:
+  version: 1.1.8-1
+  comments: |
+    Fixed upstream: https://github.com/cybozu/yrmcds/commit/04cda93
 yt:
   version: 3.2.1-2
   issues:
