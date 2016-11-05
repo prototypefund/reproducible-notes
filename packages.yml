@@ -422,10 +422,6 @@ alsa-tools:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
-alsamixergui:
-  version: 0.9.0rc2-1-9.1
-  bugs:
-    - 817346
 altos:
   version: 1.6.2-1
   issues:
@@ -548,10 +544,6 @@ ann:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
-anon-proxy:
-  version: 00.05.38+20081230-3
-  bugs:
-    - 817347
 ant:
   version: 1.9.4-3
   issues:
@@ -868,13 +860,6 @@ aqsis:
     - captures_build_path
   bugs:
     - 811840
-ara:
-  version: 1.0.31
-  comments: |
-    Embeds the build date.
-    https://sources.debian.net/src/ara/1.0.31/common/mkversion.sh/#L4
-  bugs:
-    - 833610
 arachne-pnr:
   version: 0.1+20151224git1a4fdf9-1
   issues:
@@ -1276,10 +1261,6 @@ audtty:
   version: 0.1.12-4
   bugs:
     - 759825
-aufs-tools:
-  version: 1:3.2+20130722-1.1
-  bugs:
-    - 788513
 augeas:
   version: 1.2.0-0.3
   issues:
@@ -1647,10 +1628,6 @@ batmon.app:
   version: 0.7-1
   bugs:
     - 841180
-bats:
-  version: 0.4.0-1
-  bugs:
-    - 802191
 baycomepp:
   version: 0.10-13
   issues:
@@ -2612,10 +2589,6 @@ casablanca:
   version: 2.2.0-1
   issues:
     - captures_build_path
-casacore:
-  version: 2.1.0-1
-  bugs:
-    - 831077
 cassbeam:
   version: 1.1-1
   issues:
@@ -3870,10 +3843,6 @@ csh:
   issues:
     - timestamps_in_documentation_generated_by_groff
     - captures_build_path
-csmash-demosong:
-  version: 1.4
-  bugs:
-    - 817415
 csound:
   version: 1:6.07.0~dfsg-2
   issues:
@@ -4656,11 +4625,9 @@ dh-exec:
   bugs:
     - 802034
 dh-kpatches:
-  version: 0.99.36+nmu1
+  version: 0.99.36+nmu3
   issues:
-    - timestamps_in_pdf_generated_by_latex
-  bugs:
-    - 817430
+    - pdf_id_varying_due_to_build_path
 dh-make-golang:
   version: 0.0~git20150913.0.1221041-1
   issues:
@@ -5065,10 +5032,6 @@ docbook-simple:
   version: 1.1-4.2
   bugs:
     - 839363
-docbook-slides:
-  version: 3.4.0-5
-  bugs:
-    - 837618
 docbook-xsl-saxon:
   version: 1.00.dfsg.1-5
   issues:
@@ -5078,10 +5041,6 @@ docbook2x:
   version: 0.8.8-15
   bugs:
     - 839319
-docbook5-xml:
-  version: 5.0-2
-  bugs:
-    - 837618
 dochelp:
   version: 0.1.3
   issues:
@@ -5265,8 +5224,6 @@ dsh:
   version: 0.25.10-1.1
   issues:
     - build_id_differences_only
-  bugs:
-    - 817439
 dsniff:
   version: 2.4b1+debian-22.1
   issues:
@@ -7328,10 +7285,6 @@ freerdp:
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
     - captures_build_path
-freetable:
-  version: 2.3-4.1
-  bugs:
-    - 817463
 freetennis:
   version: 0.4.8-10
   bugs:
@@ -7869,8 +7822,6 @@ gcc-avr:
     deki said: maybe 'libcilkrts/runtime/sysdep-unix.c contains __DATE__ and __TIME__' also, not sure whether it uses the same source
   issues:
     - different_due_to_umask
-  bugs:
-    - 831174
 gcc-defaults:
   version: 1.135
   comments: |
@@ -8427,10 +8378,6 @@ gkrellkam:
   version: 2.0.0-1.1
   bugs:
     - 800215
-gkrellm:
-  version: 2.3.7-1
-  bugs:
-    - 834773
 gkrellm-leds:
   version: 0.8.0-1.2
   bugs:
@@ -9093,10 +9040,6 @@ golang-github-digitalocean-godo:
   version: 0.9.0-1
   bugs:
     - 835748
-golang-github-docker-go:
-  version: 0.0~git20160303.0.d30aec9-1
-  bugs:
-    - 835715
 golang-github-docker-libnetwork:
   version: 0.7.0~rc.6+dfsg-1
   bugs:
@@ -9745,10 +9688,6 @@ gstreamer1.0:
   version: 1.8.2-1
   issues:
     - timestamps_in_ps_generated_by_dvips
-gstreamermm-1.0:
-  version: 1.4.3+dfsg-5
-  bugs:
-    - 838353
 gtable:
   version: 0.1.2-1.1
   issues:
@@ -9858,10 +9797,6 @@ gtkhash:
   version: 0.7.0-3
   bugs:
     - 839376
-gtkimageview:
-  version: 1.6.4+dfsg-1
-  bugs:
-    - 831117
 gtkpod:
   version: 2.1.5-3
   bugs:
@@ -10104,14 +10039,6 @@ haskell-monadcatchio-transformers:
   version: 0.3.1.3-4
   bugs:
     - 842826
-haskell-pqueue:
-  version: 1.3.1.1-1
-  bugs:
-    - 838888
-haskell-these:
-  version: 0.6.2.1-1
-  bugs:
-    - 838888
 haskell-warp:
   version: 3.2.8-3
   issues:
@@ -10323,10 +10250,6 @@ hocr:
     - captures_build_path
   bugs:
     - 831647
-hoichess:
-  version: 0.10.3-6.1
-  bugs:
-    - 826982
 hol88:
   version: 2.02.19940316-28
   issues:
@@ -10345,10 +10268,6 @@ horizon:
     - captures_build_path
   bugs:
     - 832338
-hp-ppd:
-  version: 0.9-0.2
-  bugs:
-    - 817495
 hp-search-mac:
   version: 0.1.3
   comments: |
@@ -10674,8 +10593,6 @@ ifstat:
   version: 1.1-8
   issues:
     - captures_build_path
-  bugs:
-    - 817499
 ignition-math2:
   version: 2.5.0-1
   issues:
@@ -11379,10 +11296,6 @@ jfractionlab:
   version: 0.91-3
   issues:
     - timestamps_in_jar
-jfsutils:
-  version: 1.1.15-2.1
-  bugs:
-    - 817508
 jgraph:
   version: 83-22
   bugs:
@@ -12052,10 +11965,6 @@ kgb:
   version: 1.0b4+ds-13.2
   issues:
     - captures_build_path
-kgb-bot:
-  version: 1.34-1
-  bugs:
-    - 834597
 kget:
   version: 4:15.12.1-2
   issues:
@@ -12192,8 +12101,6 @@ kimwitu:
   version: 4.6.1-7.1
   issues:
     - captures_build_path
-  bugs:
-    - 829745
 kimwitu++:
   version: 2.3.13-2
   issues:
@@ -12546,10 +12453,6 @@ krusader:
   version: 1:2.4.0~beta3-2
   issues:
     - captures_build_path
-kryo-serializers:
-  version: 0.22-2
-  bugs:
-    - 838975
 ksaneplugin:
   version: 4:16.08.0-1
   issues:
@@ -15351,10 +15254,6 @@ libtorrent-rasterbar:
     - captures_build_path
   bugs:
     - 833944
-libtruth-java:
-  version: 0.7.0-1
-  bugs:
-    - 761544
 libtuxcap:
   version: 1.4.0.dfsg2-2.2
   bugs:
@@ -15580,7 +15479,6 @@ libxml-commons-resolver1.1-java:
 libxml-dumper-perl:
   version: 0.81-1.1
   bugs:
-    - 817563
     - 830410
 libxml-easyobj-perl:
   version: 1.12-3
@@ -15768,10 +15666,6 @@ link-grammar:
   version: 5.3.7-2
   bugs:
     - 829011
-linklint:
-  version: 2.3.5-5
-  bugs:
-    - 817566
 linthesia:
   version: 0.4.3-1
   bugs:
@@ -16082,8 +15976,6 @@ lpr:
   version: 1:2008.05.17.1
   issues:
     - captures_build_path
-  bugs:
-    - 817569
 lprng:
   version: 3.8.B-2
   bugs:
@@ -17927,8 +17819,6 @@ myspell:
   version: 1:3.0+pre3.1-24.1
   issues:
     - captures_build_path
-  bugs:
-    - 817592
 mysql++:
   version: 3.2.2+pristine-1
   bugs:
@@ -18113,12 +18003,6 @@ nco:
   issues:
     - timestamps_from_cpp_macros
     - too_much_input_for_diff
-ncurses:
-  version: 6.0+20160213-1
-  comments: |
-    see man/MKterminfo.sh
-  bugs:
-    - 818067
 ncurses-hexedit:
   version: 0.9.7-14.1
   issues:
@@ -18300,14 +18184,6 @@ netty:
     Timestamps in io.netty.versions.properties files.
   issues:
     - timestamp_added_by_java_util_properties
-network-manager-openvpn:
-  version: 1.2.6-1
-  bugs:
-    - 839848
-network-manager-vpnc:
-  version: 1.2.4-1
-  bugs:
-    - 839849
 networking-arista:
   version: 2015.2.0-1
   bugs:
@@ -18759,10 +18635,6 @@ nodejs:
     - diffoscope_runs_forever
   bugs:
     - 812291
-noiz2sa:
-  version: 0.51a-10
-  bugs:
-    - 817599
 nomacs:
   version: 3.0.0+dfsg2-1
   issues:
@@ -19681,8 +19553,6 @@ openblas:
   version: 0.2.18-1
   issues:
     - diffoscope_runs_forever
-  bugs:
-    - 824639
 openbox:
   version: 3.6.1-2
   bugs:
@@ -20243,14 +20113,6 @@ oxygen-fonts:
   version: 4:5.3.1-1
   issues:
     - fontforge_resets_modification_time
-p0f:
-  version: 2.0.8-2
-  comments: |
-    fixed in experimental
-  issues:
-    - timestamps_in_gzip_headers
-  bugs:
-    - 777179
 p3scan:
   version: 2:2.3.2-8.1
   issues:
@@ -22302,8 +22164,6 @@ pycairo:
   issues:
     - random_order_in_python_environment_pickle
     - captures_build_path
-  bugs:
-    - 830364
 pycangjie:
   version: 1.2-2
   issues:
@@ -22837,8 +22697,6 @@ python-cddb:
   version: 1.4-5.2
   issues:
     - captures_build_path
-  bugs:
-    - 817640
 python-ceilometerclient:
   version: 1.5.0-3
   bugs:
@@ -27907,8 +27765,6 @@ scikit-learn:
   version: 0.17.0-4
   issues:
     - captures_build_path
-  bugs:
-    - 813719
 scilab:
   version: 5.5.1-4
   issues:
@@ -28224,10 +28080,6 @@ sgml-base-doc:
   issues:
     - debiandoc_sgml_timestamp
     - random_id_in_pdf_generated_by_dblatex
-sgml-data:
-  version: 2.0.10
-  bugs:
-    - 837745
 sgml-spell-checker:
   version: 0.0.20040919-3
   bugs:
@@ -28605,7 +28457,6 @@ skytools3:
 slang2:
   version: 2.3.0-4
   bugs:
-    - 838971
     - 842844
 sleepenh:
   version: 1.6-1
@@ -28852,10 +28703,6 @@ sogo:
   version: 2.2.17a-1.1
   bugs:
     - 827812
-solarwolf:
-  version: 1.5-2.1
-  bugs:
-    - 817672
 solfege:
   version: 3.22.2-2
   issues:
@@ -28991,10 +28838,6 @@ sphinx:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - randomness_in_documentation_indices_generated_by_sphinx
-sphinxcontrib-docbookrestapi:
-  version: 0.2.1-1
-  bugs:
-    - 838197
 sphinxcontrib-programoutput:
   version: 0.8-4
   comments: |
@@ -29188,7 +29031,6 @@ ssmtp:
 ssreflect:
   version: 1.5-3
   bugs:
-    - 813820
     - 831567
 stacks:
   version: 1.42-1
@@ -29670,7 +29512,6 @@ synaptic:
     - different_encoding_in_html_by_docbook_xsl
     - captures_build_path
   bugs:
-    - 831268
     - 811857
 syncevolution:
   version: 1.4.99.4-3
@@ -30521,10 +30362,6 @@ trace-cmd:
   version: 2.6-0.1
   issues:
     - captures_build_path
-trackballs:
-  version: 1.1.4-4.2
-  bugs:
-    - 831119
 tracker:
   version: 1.8.0-3
   issues:
@@ -30749,14 +30586,6 @@ twisted:
   version: 16.3.0-1
   issues:
     - captures_build_path
-twisted-web2:
-  version: 8.1.0-3
-  bugs:
-    - 822418
-twitter-bootstrap:
-  version: 2.0.2+dfsg-9
-  bugs:
-    - 824592
 twitter-bootstrap3:
   version: 3.3.5+dfsg-2
   comments: |
@@ -30897,10 +30726,6 @@ ucspi-unix:
     - random_order_in_md5sums
   bugs:
     - 777019
-ucto:
-  version: 0.8.0-2
-  bugs:
-    - 833714
 udev-discover:
   version: 0.2.2-1
   bugs:
@@ -31620,10 +31445,6 @@ vulkan:
   version: 1.0.21.0+dfsg1-1
   issues:
     - captures_build_path
-w3-dtd-mathml:
-  version: 2.0.0.0-5
-  bugs:
-    - 837620
 w3c-sgml-lib:
   version: 1.3-1
   bugs:
@@ -31735,10 +31556,6 @@ webkit2gtk:
     Lunar thinks we need parallel processing implemented in diffoscope before it can deal with such big packages. (The artifacts dumped were 18GB.)
   issues:
     - blacklisted_on_jenkins
-webkit2pdf:
-  version: 0.3-2
-  bugs:
-    - 838970
 webkitgtk:
   version: 2.4.9-3
   issues:
@@ -32494,10 +32311,6 @@ xml-commons-external:
   issues:
     - locale_in_documentation_generated_by_javadoc
     - different_encoding
-xml-core:
-  version: 0.13+nmu2
-  bugs:
-    - 837745
 xml-security-c:
   version: 1.7.3-3
   bugs:
@@ -32810,8 +32623,6 @@ xtell:
   version: 2.10.7
   issues:
     - captures_build_path
-  bugs:
-    - 817739
 xtide:
   version: 2.13.2-1
   comments: |
@@ -32987,8 +32798,6 @@ yersinia:
   issues:
     - captures_kernel_version
     - captures_build_path
-  bugs:
-    - 831404
 ygl:
   version: !!str 4.2e-4
   issues:
@@ -33063,10 +32872,6 @@ yudit:
   comments: |
     Timestamp removed in 790088 but there is some uninitialised memory
     immediately after.
-z3:
-  version: 4.4.1-0.2
-  bugs:
-    - 835754
 z80asm:
   version: 1.8-1
   issues:
@@ -33179,8 +32984,6 @@ zivot:
   version: 20013101-3
   issues:
     - captures_build_path
-  bugs:
-    - 817747
 zlibc:
   version: 0.9k-4.3
   issues:
