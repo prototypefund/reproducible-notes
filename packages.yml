@@ -20961,6 +20961,10 @@ photutils:
     - cython_captures_build_path
   bugs:
     - 813656
+php-apcu:
+  version: 5.1.7+4.0.11-2
+  issues:
+    - captures_build_path_via_assert
 php-arc:
   version: 2.2.5-2
   bugs:
