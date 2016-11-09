@@ -15767,6 +15767,10 @@ linux:
   issues:
     - blacklisted_on_jenkins_armhf_only
     - diffoscope_runs_forever
+linux-ftpd-ssl:
+  version: 0.17.35+0.3-2
+  bugs:
+    - 828424
 linux-grsec:
   version: 4.3.3-7+grsec201601171913+1
   issues:
