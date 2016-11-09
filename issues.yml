@@ -222,8 +222,12 @@ timestamps_in_png:
   deterministic: True
 timestamps_in_static_libraries:
   description: |
-    .a files are ar archives. By default, they will contain a timestamp for
-    each member (.o) and for the function index.
+    .a files are ar archives. Since binutils 2.25-6 they should be deterministic
+    by default, but there are some remaining buggy corner cases - see
+    bug #843210 for example if the package uses binutils-multiarch.
+    .
+    Other tools that create ar archives directly should in theory be covered by
+    strip-nondeterminism, but it is still good to patch them.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInStaticLibraries
   deterministic: True
 timestamps_in_tarball:
