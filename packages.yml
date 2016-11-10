@@ -5150,6 +5150,10 @@ double-conversion:
     debian/rules: SRC=$(shell echo src/*.cc)
   issues:
     - random_order_in_static_libraries
+doublecmd:
+  version: 0.7.6-1
+  issues:
+    - build_id_differences_only
 dovecot:
   version: 1:2.2.25-1
   issues:
