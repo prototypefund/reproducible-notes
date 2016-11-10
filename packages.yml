@@ -14598,6 +14598,10 @@ libnet:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
+libnet-daemon-perl:
+  version: 0.48-1
+  bugs:
+    - 833239
 libnet-finger-perl:
   version: 1.06-6
   bugs:
