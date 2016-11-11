@@ -645,11 +645,13 @@ apache-upload-progress-module:
   issues:
     - captures_build_path
 apache2:
-  version: 2.4.23-2
+  version: 2.4.23-6
+  comments: |
+    The difference in create_fixup_conffiles_tgz is due to not passing -n to gzip in the 'debian/fixup_conffiles.tgz' target in debian/rules.
+    .
+    Note: this would be the third tweak to the tgz creation; see #839977 for previous iterations.
   issues:
     - records_build_flags
-  bugs:
-    - 839977
 apache2-mod-xforward:
   version: 0.6-1
   issues:
