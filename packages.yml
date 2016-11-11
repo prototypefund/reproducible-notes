@@ -13307,6 +13307,10 @@ libbitcoin:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
+libbitmask:
+  version: 2.0-2
+  bugs:
+    - 833235
 libblocksruntime:
   version: 0.4.1-1
   issues:
