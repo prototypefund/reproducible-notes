@@ -1480,3 +1480,7 @@ sphinx_htmlhelp_readdir_sensitive:
       sphinx/builders/htmlhelp.py:223:            for root, dirs, files in os.walk(outdir):
     .
     The current test setup shows this on armhf/i386 only since it doesn't use disorderfs on amd64.
+valac_permutes_get_type_calls:
+  description: |
+    On everything except amd64/testing, foo_bar_get_type@@Base calls appear in a different order in the first and second build.
+  deterministic: False
