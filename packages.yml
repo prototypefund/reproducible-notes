@@ -3261,6 +3261,14 @@ clp:
   version: 1.15.10-3
   issues:
     - records_build_flags
+clsparse:
+  version: 0.10.2.0-2
+  comments: |
+    Both in doxygen docs and in asserts.
+  issues:
+    - captures_build_path
+    - captures_build_path_via_assert
+    - max_output_size_reached
 clucene-core:
   version: 2.3.3.4-4.1
   issues:
@@ -3758,6 +3766,14 @@ cpufrequtils:
   version: 008-1
   issues:
     - captures_build_path
+crac:
+  version: 2.5.0+dfsg-1
+  comments: |
+    Captures build date: https://sources.debian.net/src/crac/2.5.0%2Bdfsg-1/configure.ac/#L161
+      configure.ac:161:ISODATE=`date +%Y-%m-%d`
+      configure.ac:161:AC_SUBST([ISODATE])
+    .
+    Needs to use TZ=UTC and $SOURCE_DATE_EPOCH.
 crack:
   version: 5.0a-9.3
   comments: |
@@ -7172,6 +7188,13 @@ foremancli:
   comments: |
     Localized date embedded into manpage by ronn.
     https://sources.debian.net/src/foremancli/1.0-2/debian/rules/#L22
+forked-daapd:
+  version: 24.2-1
+  comments: |
+    Captures build date:
+    http://sources.debian.net/src/forked-daapd/24.2-1/configure.ac/#L7 AC_DEFINE_UNQUOTED([BUILDDATE], ["`date -Idate`"], [Build date])
+    .
+    Needs to use TZ=UTC and $SOURCE_DATE_EPOCH.
 forkstat:
   version: 0.01.11-1
   comments: |
@@ -8886,6 +8909,15 @@ gnuais:
   version: 0.3.3-5
   issues:
     - captures_build_path
+gnuastro:
+  version: 0.2.33-1
+  comments: |
+    Captures build time:
+    .
+    configure.ac:180:AC_DEFINE_UNQUOTED([CONFIGDATE], ["`date +"%d %B %Y"`"],
+    configure.ac:182:AC_DEFINE_UNQUOTED([CONFIGTIME], ["`date +"%H:%M"`"],
+    .
+    Needs to use TZ=UTC and $SOURCE_DATE_EPOCH.
 gnubg:
   version: 1.05.000-4
   issues:
@@ -22385,6 +22417,13 @@ pulseview:
   version: 0.2.0-1.1
   bugs:
     - 811960
+puma:
+  version: 3.6.0-1
+  comments: |
+    Absolute filenames embdeded in debug symbols.
+  issues:
+    - captures_build_path
+    - max_output_size_reached
 pure-ftpd:
   version: 1.0.36-3.2
   issues:
@@ -22405,6 +22444,10 @@ purple-plugin-pack:
   version: 2.7.0-2
   bugs:
     - 839378
+purpose:
+  version: 1.1-2
+  issues:
+    - build_id_differences_only
 pushpin:
   version: 1.12.0-2
   bugs:
@@ -24198,6 +24241,10 @@ qemu-launcher:
   bugs:
     - 777443
     - 817305
+qevercloud:
+  version: 3.0.3+ds-1
+  issues:
+    - pdf_id_varying_due_to_build_path
 qgis:
   version: 2.8.4+dfsg-1
   comments: |
