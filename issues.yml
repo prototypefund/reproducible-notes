@@ -879,6 +879,7 @@ random_order_in_dh_pythonX_substvars:
   description:
     dh_pythonX can generate Depends/Recommends substvars in a
     non-determinstic order. (dh-python is already patched.)
+  url: https://bugs.debian.org/844111
 random_order_in_javahelper_substvars:
   description:
     javahelper (jh_*, etc.) can generate Depends/Recommends substvars in a
