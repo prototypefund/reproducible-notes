@@ -6466,6 +6466,10 @@ fdflush:
   version: 1.0.1.3
   issues:
     - captures_build_path
+fdm:
+  version: 1.7+cvs20140912-1
+  bugs:
+    - 844095
 fdroidserver:
   version: 0.6.0-2
   comments: |
@@ -7182,6 +7186,10 @@ foremancli:
   comments: |
     Localized date embedded into manpage by ronn.
     https://sources.debian.net/src/foremancli/1.0-2/debian/rules/#L22
+forge:
+  version: 0.9.0-1
+  issues:
+    - captures_build_path
 forked-daapd:
   version: 24.2-1
   comments: |
