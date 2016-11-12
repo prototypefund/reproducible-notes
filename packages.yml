@@ -7209,6 +7209,10 @@ fortunes-fr:
   version: 0.65+nmu2
   comments: |
     Randomess in .dat files, probably caused by strfile, filesystem ordering (see $(shell ls...)), or the utf recoding done in debian/rules
+fossil:
+  version: 1:1.35-4
+  bugs:
+    - 828301
 foxeye:
   version: 0.10.1-1
   comments: |
