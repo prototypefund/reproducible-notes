@@ -1489,3 +1489,7 @@ valac_permutes_get_type_calls:
   description: |
     On everything except amd64/testing, foo_bar_get_type@@Base calls appear in a different order in the first and second build.
   deterministic: False
+timestamps_embedded_in_manpages_by_node_marked_man:
+  description: |
+    node-marked-man embeds the build date into generated manpages.
+  url: https://sources.debian.net/src/node-marked-man/0.1.6-1/lib/marked-man.js/#L360
