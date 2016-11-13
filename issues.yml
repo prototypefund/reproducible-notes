@@ -1138,6 +1138,8 @@ captures_shell_variable_in_autofoo_script:
   description: |
     Something looking like autotools is capturing SHELL for use at
     runtime, which should probably be fixed to /bin/sh anyway.
+    .
+    Autotools also capture the build path.
 varying_ordering_in_data_tar_gz_or_control_tar_gz:
   description: |
     Previously part of not_using_dh_builddeb
