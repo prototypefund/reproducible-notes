@@ -20749,6 +20749,10 @@ parted:
   version: 3.2-7
   comments: |
     Curious Make issue where the second build autoreconfs (or equivalent) whilst the first build does not, picking up new versions - timezone issues?
+partimage:
+  version: 0.6.9-3
+  bugs:
+    - 828489
 partitionmanager:
   version: 1.0.3-2.1
   issues:
