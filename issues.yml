@@ -1405,14 +1405,18 @@ records_build_flags:
   description: |
     Records $CFLAGS, which vary intentionally due to the «-fdebug-prefix-map=${BIKESHED}=.» flag.
     .
-    Instead of fixing this specifically in your package, please consider
-    helping us with our general solution to this problem; see:
+    We have a patch pending to GCC to fix this issue centrally:
+    .
+    https://gcc.gnu.org/ml/gcc-patches/2016-11/msg00182.html
+    .
+    If/when this is accepted, this issue should be fixed for all packages and
+    you should not need to fix it specifically in your package.
+    .
+    For more background information see:
     .
      • https://lists.alioth.debian.org/pipermail/reproducible-builds/Week-of-Mon-20160822/006788.html
      • https://lists.alioth.debian.org/pipermail/reproducible-builds/Week-of-Mon-20160905/006984.html
      • https://lists.alioth.debian.org/pipermail/reproducible-builds/Week-of-Mon-20160912/007076.html
-    .
-    for more details. (It will involve patching GCC.)
   deterministic: True
 clilibs_line_order:
   description: |
