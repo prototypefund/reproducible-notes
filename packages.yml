@@ -18744,6 +18744,8 @@ nginx:
     - captures_build_path_via_assert
     - records_build_flags
     - max_output_size_reached
+  bugs:
+    - 828453
 nglister:
   version: 1.0.2
   bugs:
