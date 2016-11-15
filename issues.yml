@@ -1528,3 +1528,7 @@ txt2man_dash_p:
     .
     Fix: replace the -p by explicit -t TITLE -s SECTION -v "foo Reference Manual" -r "$$(dpkg-parsechangelog -SSource)-$$(dpkg-parsechangelog -SVersion)"
   deterministic: True
+randomness_in_browserify_lite_output:
+  description: |
+    browserify-lite "bundles client-side JavaScript using Node.js-style module
+    syntax", mostly concatenating it. The output is non-deterministic.
