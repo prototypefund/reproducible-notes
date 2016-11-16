@@ -20310,6 +20310,10 @@ openssl:
   version: 1.0.2h-1
   issues:
     - captures_build_path
+openssl-blacklist:
+  version: 0.5-3
+  bugs:
+    - 833245
 openssl1.0:
   version: 1.0.2j-3
   issues:
