@@ -7246,7 +7246,7 @@ forked-daapd:
   version: 24.2-1
   comments: |
     Captures build date:
-    http://sources.debian.net/src/forked-daapd/24.2-1/configure.ac/#L7 AC_DEFINE_UNQUOTED([BUILDDATE], ["`date -Idate`"], [Build date])
+    https://sources.debian.net/src/forked-daapd/24.2-1/configure.ac/#L7 AC_DEFINE_UNQUOTED([BUILDDATE], ["`date -Idate`"], [Build date])
     .
     Needs to use TZ=UTC and $SOURCE_DATE_EPOCH.
 forkstat:
