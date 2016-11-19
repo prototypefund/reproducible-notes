@@ -77,7 +77,6 @@ abr2gbr:
 acbuild:
   version: 0.3.0+dfsg-1
   issues:
-    - random_build_path_by_golang_compiler
     - timestamps_in_manpages_added_by_golang_cobra
     - golang_compiler_captures_build_path_in_binary
 access-modifier-checker:
@@ -119,7 +118,6 @@ acl2:
 acmetool:
   version: 0.0.51-1
   issues:
-    - random_build_path_by_golang_compiler
     - diffoscope_runs_forever
     - captures_build_path
     - golang_compiler_captures_build_path_in_binary
@@ -2462,7 +2460,6 @@ cadaver:
 cadvisor:
   version: 0.19.3+dfsg-3
   issues:
-    - random_build_path_by_golang_compiler
     - diffoscope_runs_forever
 cafeobj:
   version: 1.5.2-2
@@ -3627,14 +3624,9 @@ consul:
   issues:
     - too_much_input_for_diff
     - golang_compiler_captures_build_path_in_binary
-consul-migrate:
-  version: 0.1.0-1
-  issues:
-    - random_build_path_by_golang_compiler
 containerd:
   version: 0.2.1~ds1-1
   issues:
-    - random_build_path_by_golang_compiler
     - diffoscope_runs_forever
 contractor:
   version: 0.3.1-1~experimental1
@@ -4722,7 +4714,6 @@ dh-kpatches:
 dh-make-golang:
   version: 0.0~git20150913.0.1221041-1
   issues:
-    - random_build_path_by_golang_compiler
     - captures_build_path
     - golang_compiler_captures_build_path_in_binary
 dh-ocaml:
@@ -5154,10 +5145,6 @@ docker-swarm:
     - golang_compiler_captures_build_path_in_binary
   bugs:
     - 832849
-docker.io:
-  version: 1.6.2~dfsg1-2
-  issues:
-    - random_build_path_by_golang_compiler
 docky:
   version: 2.2.0-2
   issues:
@@ -7611,7 +7598,6 @@ ftrading:
 fuji:
   version: 0.3.0-1
   issues:
-    - random_build_path_by_golang_compiler
     - captures_build_path
     - golang_compiler_captures_build_path_in_binary
 funguloids:
@@ -9168,7 +9154,6 @@ go-md2man:
 go-mtpfs:
   version: 0.0~git20150802.0.3ef47f9-2
   issues:
-    - random_build_path_by_golang_compiler
     - too_much_input_for_diff
     - captures_build_path
     - golang_compiler_captures_build_path_in_binary
@@ -9209,15 +9194,10 @@ goffice-0.8:
 goiardi:
   version: 0.11.0+git20161112.21.1cd076a-3
   issues:
-    - random_build_path_by_golang_compiler
-golang:
-  version: 2:1.4.2-3
-  issues:
-    - random_build_path_by_golang_compiler
+    - golang_compiler_captures_build_path_in_binary
 golang-1.6:
   version: 1.6.2-1
   issues:
-    - random_build_path_by_golang_compiler
     - captures_build_path
 golang-1.7:
   version: 1.7.1-2
@@ -9253,12 +9233,10 @@ golang-github-abh-geoip-dev:
 golang-github-appc-docker2aci:
   version: 0.9.2-2
   issues:
-    - random_build_path_by_golang_compiler
     - golang_compiler_captures_build_path_in_binary
 golang-github-appc-spec:
   version: 0.7.1+dfsg-1
   issues:
-    - random_build_path_by_golang_compiler
     - golang_compiler_captures_build_path_in_binary
 golang-github-armon-gomdb:
   version: 0.0~git20150106.0.151f2e0-1
@@ -9500,7 +9478,6 @@ google-auth-library-php:
 google-cloud-print-connector:
   version: 0.0~git20151105.24.1902938-1
   issues:
-    - random_build_path_by_golang_compiler
     - captures_build_path
     - too_much_input_for_diff
 google-mock:
@@ -9532,7 +9509,6 @@ gorm.app:
 gosu:
   version: 1.6-1
   issues:
-    - random_build_path_by_golang_compiler
     - captures_build_path
     - golang_compiler_captures_build_path_in_binary
 gotmail:
@@ -12609,9 +12585,9 @@ knot:
 knot-resolver:
   version: 1.0.0~beta3-78-g3429619-1
   comments: |
-    There is also a timestamp in the manpage.
+    There is a timestamp in the manpage.
   issues:
-    - random_build_path_by_golang_compiler
+    - timestamps_manually_added_needs_further_investigation
 knutclient:
   version: 1.0.5-1
   issues:
@@ -19268,10 +19244,6 @@ nostalgy:
     https://sources.debian.net/src/nostalgy/0.2.33-1/build.sh/#L75
   bugs:
     - 836609
-notary:
-  version: 0.0~git20150801.0.8e8122e-2
-  issues:
-    - random_build_path_by_golang_compiler
 notify-python:
   version: 0.1.1-4
   issues:
@@ -28385,7 +28357,6 @@ rumor:
 runc:
   version: 0.0.4~dfsg-1
   issues:
-    - random_build_path_by_golang_compiler
     - captures_build_path
     - golang_compiler_captures_build_path_in_binary
 runit:
