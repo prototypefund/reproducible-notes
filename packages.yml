@@ -6627,6 +6627,10 @@ ffc:
   version: 2016.1.0-1
   issues:
     - records_build_flags
+ffdiaporama:
+  version: 1.5-5
+  issues:
+    - captures_build_path
 fflas-ffpack:
   version: 2.2.1-2
   issues:
@@ -13266,6 +13270,10 @@ libabigail:
   version: 0.1~20150623-2
   issues:
     - timestamps_in_manpages_generated_by_sphinx
+    - captures_build_path
+libaccounts-qt:
+  version: 1.13+20150813-1
+  issues:
     - captures_build_path
 libace-perl:
   version: 1.92-4
@@ -26419,6 +26427,10 @@ r-cran-randomfields:
   issues:
     - captures_build_path
     - randomness_in_r_rdb_rds_databases
+r-cran-randomfieldsutils:
+  version: 0.3.3.1-1
+  issues:
+    - captures_build_path
 r-cran-randomforest:
   version: 4.6-12-1
   issues:
@@ -29147,6 +29159,10 @@ sigx:
     - 805208
 sikuli:
   version: 1.0~x~rc3.tesseract3-dfsg1-12
+  issues:
+    - captures_build_path
+sikulix:
+  version: 1.1.0-1
   issues:
     - captures_build_path
 silentjack:
