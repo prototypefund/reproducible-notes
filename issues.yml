@@ -80,7 +80,7 @@ timestamps_in_documentation_generated_by_asciidoc:
   deterministic: True
 timestamps_in_documentation_generated_by_asciidoctor:
   description: |
-    asciidoctor embeds the build date into generated manpages.
+    asciidoctor embeds the build date into generated manpages which vary by TZ.
   url: https://bugs.debian.org/820435
   deterministic: True
 random_anchor_names_generated_by_docbook_to_man:
