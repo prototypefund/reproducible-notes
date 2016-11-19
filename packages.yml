@@ -13141,10 +13141,14 @@ latticeextra:
     - randomness_in_r_rdb_rds_databases
 lava-dispatcher:
   version: 2016.11-1
+  issues:
+    - timestamps_in_manpages_generated_by_rst2man
   bugs:
     - 844102
 lava-server:
   version: 2016.11-1
+  issues:
+    - timestamps_in_manpages_generated_by_rst2man
   bugs:
     - 844103
 lazarus:
