@@ -1539,6 +1539,8 @@ bandit:
     - 816735
 bandwidthcalc:
   version: 0.2-1
+  issues:
+    - captures_build_path
   bugs:
     - 817372
 bandwidthd:
@@ -2677,6 +2679,8 @@ ccze:
     - 792950
 cdbackup:
   version: 0.7.0-5
+  issues:
+    - captures_build_path
   bugs:
     - 783453
     - 817389
@@ -4665,6 +4669,8 @@ desktopnova:
     - captures_build_path
 desmume:
   version: 0.9.11-1
+  issues:
+    - captures_build_path
   bugs:
     - 811691
 developers-reference:
@@ -5167,6 +5173,7 @@ dolfin:
   issues:
     - diffoscope_runs_forever
     - unsorted_file_glob_by_cmake
+    - captures_build_path
 dolphin:
   version: 4:16.04.2-2
   issues:
@@ -5435,6 +5442,8 @@ dvi2ps:
     - captures_build_path
 dvidvi:
   version: 1.0-8etch2
+  issues:
+    - captures_build_path
   bugs:
     - 817441
 dwarves-dfsg:
@@ -5620,6 +5629,7 @@ eclipse-wtp:
   issues:
     - timestamps_in_jar
     - blacklisted_on_jenkins_armhf_only
+    - captures_build_path
 eclipse-xsd:
   version: 2.9.0-1
   issues:
@@ -7619,6 +7629,8 @@ fuseiso:
     - captures_build_path
 fusesmb:
   version: 0.8.7-1.3
+  issues:
+    - captures_build_path
   bugs:
     - 817465
 fuzzylite:
@@ -9998,6 +10010,8 @@ gtk2-engines-oxygen:
     - captures_build_path
 gtk2-engines-wonderland:
   version: 1.0-10
+  issues:
+    - captures_build_path
   bugs:
     - 818513
 gtkdataboxmm:
@@ -11201,6 +11215,7 @@ ironic:
     Timestamps in HTML documentation.
   issues:
     - random_order_in_python_environment_pickle
+    - captures_build_path
 irony-mode:
   version: 0.1.2-2
   issues:
@@ -13275,6 +13290,10 @@ libantlr3c:
   version: 3.2-3
   issues:
     - captures_build_path
+libao:
+  version: 1.2.2-1
+  issues:
+    - captures_build_path
 libaosd:
   version: 0.2.7-1.1
   issues:
@@ -13629,6 +13648,8 @@ libchado-perl:
       mv debian/tmp/usr/lib/perl5/* debian/$(pkg)/usr/share/perl5/
       ...
       rm -rf debian/$(pkg)/usr/share/perl5/x86_64-linux-gnu-thread-multi
+  issues:
+    - captures_build_path
 libcitygml:
   version: 2.0-3
   issues:
@@ -17319,6 +17340,7 @@ milter-greylist:
     https://sources.debian.net/src/milter-greylist/4.5.11-1/configure.ac/#L1323-L1325
   issues:
     - user_hostname_manually_added_requiring_further_investigation
+    - captures_build_path
   bugs:
     - 808669
     - 830418
@@ -18326,6 +18348,7 @@ mysql-workbench:
   version: 6.3.4+dfsg-3
   issues:
     - diffoscope_runs_forever
+    - captures_build_path
 mythtvfs-fuse:
   version: 0.6.1-3
   issues:
@@ -19133,6 +19156,11 @@ node-tap:
   version: 8.0.0-1
   issues:
     - different_due_to_umask
+    - captures_build_path
+node-tap-parser:
+  version: 3.0.3-1
+  issues:
+    - captures_build_path
 node-temp:
   version: 0.8.1-1
   bugs:
@@ -22002,6 +22030,10 @@ pmacct:
   version: 1.6.0-1
   issues:
     - captures_build_path
+pmount:
+  version: 0.9.23-3
+  issues:
+    - captures_build_path
 pmw:
   version: 1:4.28-2
   issues:
@@ -24612,6 +24644,8 @@ qingy:
     - 817643
 qink:
   version: 0.3.5-7
+  issues:
+    - captures_build_path
   bugs:
     - 841572
 qjackctl:
@@ -24849,6 +24883,10 @@ qtserialport-opensource-src:
   issues:
     - timestamps_in_qch
     - randomness_in_qdoc
+    - captures_build_path
+qtspeech-opensource-src:
+  version: 5.8.0~alpha-1
+  issues:
     - captures_build_path
 qtstyleplugins-src:
   version: 5.0.0-1
@@ -25340,6 +25378,7 @@ r-cran-backports:
   version: 1.0.4-1
   issues:
     - randomness_in_r_rdb_rds_databases
+    - captures_build_path
 r-cran-base64enc:
   version: 0.1-2-1
   issues:
@@ -25690,6 +25729,7 @@ r-cran-fitcoach:
   version: 1.0-1
   issues:
     - randomness_in_r_rdb_rds_databases
+    - captures_build_path
 r-cran-foreach:
   version: 1.4.3-1
   issues:
@@ -25840,6 +25880,7 @@ r-cran-htmltable:
   version: 1.7-2
   issues:
     - randomness_in_r_rdb_rds_databases
+    - captures_build_path
 r-cran-htmltools:
   version: 0.3.5-2
   issues:
@@ -25894,6 +25935,7 @@ r-cran-isocodes:
   version: 2016.03.15-1
   issues:
     - randomness_in_r_rdb_rds_databases
+    - captures_build_path
 r-cran-iterators:
   version: 1.0.8-1
   issues:
@@ -26307,6 +26349,7 @@ r-cran-qqman:
   version: 0.1.2-1
   issues:
     - randomness_in_r_rdb_rds_databases
+    - captures_build_path
 r-cran-qtl:
   version: 1.39-5-2
   issues:
@@ -26414,6 +26457,7 @@ r-cran-rentrez:
   version: 1.0.4-1
   issues:
     - randomness_in_r_rdb_rds_databases
+    - captures_build_path
 r-cran-repr:
   version: 0.7-1
   issues:
@@ -26498,6 +26542,7 @@ r-cran-rotl:
   version: 3.0.1-1
   issues:
     - randomness_in_r_rdb_rds_databases
+    - captures_build_path
 r-cran-rpostgresql:
   version: 0.4-1
   issues:
@@ -26610,6 +26655,7 @@ r-cran-sourcetools:
   version: 0.1.5-1
   issues:
     - randomness_in_r_rdb_rds_databases
+    - captures_build_path
 r-cran-sp:
   version: 1:1.2-2-1
   issues:
@@ -26786,6 +26832,7 @@ r-cran-viridis:
   version: 0.3.4-1
   issues:
     - randomness_in_r_rdb_rds_databases
+    - captures_build_path
 r-cran-wdi:
   version: 2.4-1
   issues:
@@ -27049,6 +27096,8 @@ rdist:
     - captures_build_path
 rdkit:
   version: 201503-3
+  issues:
+    - captures_build_path
   bugs:
     - 831264
 rdp-alignment:
@@ -30111,6 +30160,8 @@ sugar-base:
     - captures_build_path
 sugar-base-0.88:
   version: 0.88.0-4
+  issues:
+    - captures_build_path
   bugs:
     - 837239
 sugar-datastore:
@@ -30401,6 +30452,8 @@ syncthing:
     - 835684
 synergy:
   version: 1.4.16-1
+  issues:
+    - captures_build_path
   bugs:
     - 812303
 synfig:
