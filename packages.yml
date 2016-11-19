@@ -9336,6 +9336,10 @@ golang-github-odeke-em-ripper:
   version: 0.0~git20150415.0.bd1a682-2
   issues:
     - golang_compiler_captures_build_path_in_binary
+golang-github-opencontainers-image-spec:
+  version: 1.0.0~rc2+dfsg-1
+  issues:
+    - golang_compiler_captures_build_path_in_binary
 golang-github-pointlander-peg:
   version: 0.0~git20160905.0.58700b5-1
   issues:
@@ -9448,6 +9452,8 @@ goldencheetah:
     - 811867
 golint:
   version: 0.0+git20150623.7b7f436-1
+  issues:
+    - golang_compiler_captures_build_path_in_binary
   bugs:
     - 835685
 gomoku.app:
@@ -21256,6 +21262,10 @@ pebl:
     - random_order_in_python_environment_pickle
     - randomness_in_documentation_generated_by_sphinx
     - captures_build_path
+peco:
+  version: 0.0~git20161005.0.d4f7705-1
+  issues:
+    - golang_compiler_captures_build_path_in_binary
 pecomato:
   version: 0.0.15-7
   issues:
@@ -22525,6 +22535,10 @@ prometheus:
     - golang_compiler_captures_build_path_in_binary
 prometheus-alertmanager:
   version: 0.3.0+ds-2
+  issues:
+    - golang_compiler_captures_build_path_in_binary
+prometheus-blackbox-exporter:
+  version: 0.3.0+ds1-1
   issues:
     - golang_compiler_captures_build_path_in_binary
 prometheus-mongodb-exporter:
