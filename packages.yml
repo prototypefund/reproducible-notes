@@ -6789,6 +6789,8 @@ fis-gtm:
     Really curious diffoscope where a very large number of 0x01 bytes in the a build 0x02 in the b build. Possibly an offset difference rather than literal difference?
 fityk:
   version: 1.2.1-0.1
+  issues:
+    - records_build_flags
   bugs:
     - 811800
 fizmo:
