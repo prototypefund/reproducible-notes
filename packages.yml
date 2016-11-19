@@ -125,6 +125,8 @@ acmetool:
     - golang_compiler_captures_build_path_in_binary
 aconnectgui:
   version: 0.9.0rc2-1-9
+  issues:
+    - docbook_to_man_one_byte_delta
   bugs:
     - 817345
 acoustid-fingerprinter:
@@ -818,6 +820,10 @@ apt-dpkg-ref:
     - timestamps_in_ps_generated_by_dvips
     - timestamps_in_dvi_generated_by_latex
     - random_id_in_pdf_generated_by_dblatex
+apt-listchanges:
+  version: 3.5
+  issues:
+    - docbook_to_man_one_byte_delta
 apt-spy:
   version: 3.2.2-1
   issues:
@@ -22724,6 +22730,10 @@ publican:
   issues:
     - timestamps_in_epub
     - timestamps_in_pdf_generated_by_apache_fop
+pubtal:
+  version: 3.5-1
+  issues:
+    - docbook_to_man_one_byte_delta
 puf:
   version: 1.0.0-7
   issues:
