@@ -5507,6 +5507,10 @@ ecb:
   version: 2.40+git20140216-1
   issues:
     - timestamps_in_emacs_autoloads
+eccodes:
+  version: 2.0.0-1
+  issues:
+    - captures_build_arch
 ecdsautils:
   version: 0.3.2+git20151018-2
   issues:
@@ -10653,6 +10657,8 @@ hydrogen:
     - captures_build_path
 hylafax:
   version: 3:6.0.6-6
+  issues:
+    - captures_build_arch
   bugs:
     - 790355
 hyperestraier:
@@ -24376,10 +24382,12 @@ python3.5:
     - randomness_in_fat_lto_objects
     - captures_build_path
     - records_build_flags
+    - captures_build_arch
 python3.6:
   version: 3.6.0~b2-1
   issues:
     - records_build_flags
+    - captures_build_arch
 pythondialog:
   version: 3.2.0-2
   issues:
