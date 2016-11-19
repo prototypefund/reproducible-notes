@@ -2618,6 +2618,10 @@ casablanca:
   version: 2.2.0-1
   issues:
     - captures_build_path
+casacore-data-igrf:
+  version: 10-1
+  issues:
+    - timestamps_manually_added_needs_further_investigation
 cassbeam:
   version: 1.1-1
   issues:
@@ -22605,6 +22609,7 @@ prometheus-blackbox-exporter:
   version: 0.3.0+ds1-1
   issues:
     - golang_compiler_captures_build_path_in_binary
+    - timestamps_manually_added_needs_further_investigation
 prometheus-mongodb-exporter:
   version: 0.0+git20160604.28251cc-1
   issues:
