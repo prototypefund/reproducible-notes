@@ -311,6 +311,10 @@ timestamps_in_documentation_generated_by_htmldoc:
     date and time.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestmapsInDocumentationGeneratedByHtmldoc
   deterministic: True
+timestamps_in_header_or_footer_by_htmldoc_in_documentation:
+  description: |
+    PDF files generated with htmldoc contain date and time in PDF content if 'd' or 'D' options used in header/footer/tocfooter/tocheader parameters.
+  deterministic: True
 timestamps_in_documentation_generated_by_lua_ldoc:
   description: |
     lua-ldoc adds build timestamp, varying by the timezone
