@@ -18112,6 +18112,9 @@ mrmpi:
   version: 1.0~20140404-1
   comments: |
     Timestamp and differing content in PDF generated with htmldoc
+    Random order of content in PDF due to star wildcard usage:
+    https://sources.debian.net/src/mrmpi/1.0~20140404-1/debian/rules/?hl=55#L55
+    https://sources.debian.net/src/mrmpi/1.0~20140404-1/debian/rules/?hl=65#L65
   issues:
     - timestamps_in_documentation_generated_by_htmldoc
 mrpt:
