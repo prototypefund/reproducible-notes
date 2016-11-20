@@ -30232,6 +30232,12 @@ sundials:
   version: 2.5.0-3
   issues:
     - captures_shell_variable_in_autofoo_script
+sunpinyin:
+  version: 3.0.0~git20160910-1
+  comments: |
+    Random order of files from os.walk call at:
+    https://sources.debian.net/src/sunpinyin/3.0.0~git20160910-1/SConstruct/?hl=430#L430-L432
+    https://sources.debian.net/src/sunpinyin/3.0.0~git20160910-1/SConstruct/?hl=430#L194-L195
 sunxi-tools:
   version: 1.3-1
   issues:
