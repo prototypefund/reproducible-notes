@@ -266,6 +266,10 @@ affiche:
   issues:
     - plist_weirdness
     - captures_build_path
+afl:
+  version: 2.34b-2
+  issues:
+    - captures_build_path
 afnix:
   version: 2.2.0-2
   comments: |
@@ -5244,6 +5248,8 @@ doxymacs:
     - captures_build_path
 dpdk:
   version: 16.07-1
+  issues:
+    - captures_build_path
   bugs:
     - 843685
 dpkg-sig:
@@ -6973,6 +6979,10 @@ font-manager:
   version: 0.5.7-4
   issues:
     - captures_build_path
+fontforge:
+  version: 1:20161005~dfsg-4
+  issues:
+    - captures_build_path
 fontmatrix:
   version: 0.6.0+svn20110930-1.1
   bugs:
@@ -8692,6 +8702,10 @@ global:
   version: 5.7.1-2
   issues:
     - captures_build_path
+globjects:
+  version: 0.5.0-1
+  issues:
+    - captures_build_path
 globus-common:
   version: 16.4-1
   issues:
@@ -9603,6 +9617,7 @@ gpsd:
   version: 3.16-2
   issues:
     - build_id_differences_only
+    - captures_build_path
   bugs:
     - 830993
 gpsshogi:
@@ -15153,6 +15168,8 @@ libplist:
     - captures_build_path
 libpng1.6:
   version: 1.6.26-1
+  issues:
+    - captures_build_path
   bugs:
     - 844429
 libpodofo:
@@ -27626,6 +27643,10 @@ rox:
   version: 1:2.11-1
   issues:
     - captures_build_path
+rozofs:
+  version: 2.0.18-1
+  issues:
+    - captures_build_path
 rp-pppoe:
   version: 3.8-3
   issues:
@@ -30208,6 +30229,8 @@ sugar-toolkit-0.88:
     - captures_build_path
 sugar-toolkit-gtk3:
   version: 0.106.1-1
+  issues:
+    - captures_build_path
   bugs:
     - 825471
 suil:
@@ -31774,6 +31797,7 @@ uhd:
   version: 3.9.5-1
   issues:
     - diffoscope_runs_forever
+    - captures_build_path
 uhub:
   version: 0.4.1-3
   issues:
@@ -32028,6 +32052,7 @@ uwsgi:
   version: 2.0.7-1
   issues:
     - timestamps_from_cpp_macros
+    - captures_build_path
   bugs:
     - 828785
 uzbl:
@@ -33148,6 +33173,7 @@ xen:
     - timestamps_in_gzip_headers
     - timezones_manpages_podman
     - different_due_to_umask
+    - captures_build_path
   bugs:
     - 812166
 xenomai:
