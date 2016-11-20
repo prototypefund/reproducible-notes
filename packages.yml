@@ -13522,6 +13522,9 @@ libaudio-scrobbler-perl:
     - 817524
 libaudiomask:
   version: 1.0-2
+  comments: |
+    destination of symlink vary due to different build_path:
+    http://sources.debian.net/src/libaudiomask/1.0-2/Makefile/?hl=50#L51
   issues:
     - captures_build_path
 libaunit:
