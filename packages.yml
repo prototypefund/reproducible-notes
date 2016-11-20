@@ -540,10 +540,7 @@ anjuta:
 ann:
   version: 1.1.2+doc-5
   issues:
-    - leaks_path_environment_variable
-    - captures_shell_variable_in_autofoo_script
-    - captures_build_path
-    - records_build_flags
+    - libtool_captures_shell_build-flags_build-path_path-env
 ant:
   version: 1.9.4-3
   issues:
@@ -3481,10 +3478,8 @@ colpack:
   comments: |
     Captures $PATH and a "Coloring Time:" value (possibly build duration?).
   issues:
-    - captures_shell_variable_in_autofoo_script
     - captures_build_path
-    - leaks_path_environment_variable
-    - records_build_flags
+    - libtool_captures_shell_build-flags_build-path_path-env
   bugs:
     - 811843
 comedilib:
@@ -10008,10 +10003,7 @@ gtk2-engines-wonderland:
 gtkdataboxmm:
   version: 0.9.4-3
   issues:
-    - leaks_path_environment_variable
-    - captures_shell_variable_in_autofoo_script
-    - captures_build_path
-    - records_build_flags
+    - libtool_captures_shell_build-flags_build-path_path-env
 gtkgl2:
   version: 2.0.1-2.2
   issues:
@@ -13774,6 +13766,7 @@ libcoyotl:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
+    - libtool_captures_shell_build-flags_build-path_path-env
 libcpanplus-perl:
   version: 0.9160-1
   bugs:
@@ -13980,8 +13973,8 @@ libevocosm:
   issues:
     - captures_build_path
     - captures_shell_variable_in_autofoo_script
-    - leaks_path_environment_variable
     - records_build_flags
+    - libtool_captures_shell_build-flags_build-path_path-env
   bugs:
     - 789804
 libevt:
@@ -14266,9 +14259,9 @@ libhdate:
     Installs a libtool wrapper script (a build-time temporary file).
   issues:
     - captures_shell_variable_in_autofoo_script
-    - leaks_path_environment_variable
     - captures_build_path
     - records_build_flags
+    - libtool_captures_shell_build-flags_build-path_path-env
 libhdf4:
   version: 4.2.12-1
   issues:
@@ -15921,10 +15914,8 @@ libxi:
 libxml++2.6:
   version: 2.38.1-1
   issues:
-    - captures_shell_variable_in_autofoo_script
-    - leaks_path_environment_variable
     - captures_build_path
-    - records_build_flags
+    - libtool_captures_shell_build-flags_build-path_path-env
   bugs:
     - 812895
 libxml-commons-resolver1.1-java:
@@ -17717,6 +17708,7 @@ mona:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
+    - libtool_captures_shell_build-flags_build-path_path-env
 mondrian:
   version: 3.4.1-1
   issues:
@@ -31205,10 +31197,7 @@ tntnet:
   version: 2.2.1-2
   issues:
     - different_due_to_umask
-    - leaks_path_environment_variable
-    - captures_build_path
-    - captures_shell_variable_in_autofoo_script
-    - records_build_flags
+    - libtool_captures_shell_build-flags_build-path_path-env
 toilet:
   version: 0.3-1.1
   issues:
