@@ -5148,6 +5148,10 @@ docker-swarm:
     - golang_compiler_captures_build_path_in_binary
   bugs:
     - 832849
+docker.io:
+  version: 1.11.2~ds1-6
+  bugs:
+    - 835686
 docky:
   version: 2.2.0-2
   issues:
