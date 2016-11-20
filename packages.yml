@@ -15850,6 +15850,8 @@ libvsqlitepp:
     - undeterministic_symlinking_by_rdfind
 libvterm:
   version: 0~bzr684-1
+  issues:
+    - random_order_in_static_libraries
   bugs:
     - 842622
 libwebcam:
