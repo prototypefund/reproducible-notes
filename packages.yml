@@ -508,10 +508,6 @@ android-platform-development:
   version: 6.0.1+r16-1
   bugs:
     - 835695
-android-platform-external-jsilver:
-  version: 6.0.1+r55-1
-  bugs:
-    - 840138
 android-platform-frameworks-data-binding:
   version: 2.0.0-1
   issues:
@@ -1867,8 +1863,6 @@ binutils-m68hc1x:
     https://sources.debian.net/src/binutils-m68hc1x/1:2.18-7/debian/rules/#L66
   issues:
     - random_order_in_tarball
-  bugs:
-    - 835263
 binutils-mingw-w64:
   version: 6.6
   bugs:
@@ -2479,10 +2473,6 @@ caffe:
     [experimental/amd64]
   issues:
     - captures_build_path
-cairo-5c:
-  version: 1.8.1
-  bugs:
-    - 708459
 cairo-dock:
   version: 3.4.0-2
   issues:
@@ -3330,13 +3320,6 @@ cmtk:
     - captures_build_path
   bugs:
     - 827994
-cobbler:
-  version: 2.6.6+dfsg1-2
-  comments: |
-    Embeds the build date.
-    https://sources.debian.net/src/cobbler/2.6.6%2Bdfsg1-2/setup.py/#L66
-  bugs:
-    - 831214
 coccinelle:
   version: 1.0.0~rc22
   issues:
@@ -3949,10 +3932,6 @@ ctwm:
   version: 3.7-3.3
   issues:
     - captures_build_path
-cucumber:
-  version: 2.4.0-1
-  bugs:
-    - 839910
 cue2toc:
   version: 0.4-5
   issues:
@@ -4485,12 +4464,6 @@ deal.ii:
   issues:
     - blacklisted_on_jenkins_armhf_only
     - diffoscope_runs_forever
-debaux:
-  version: 0.1.10-1.1
-  issues:
-    - ftbfs_old_compat_debheper_compat_level
-  bugs:
-    - 800283
 debbugs:
   version: 2.4.1.1
   issues:
@@ -6058,8 +6031,6 @@ erlang-p1-oauth2:
   version: 0.6.1-1
   issues:
     - captures_build_path
-  bugs:
-    - 836968
 erlang-p1-pam:
   version: 1.0.0-3
   issues:
@@ -6119,8 +6090,6 @@ erlang-redis-client:
   version: 1.0.8-2
   issues:
     - captures_build_path
-  bugs:
-    - 836888
 erlang-uuid:
   version: 0.4.6-1
   issues:
@@ -6985,13 +6954,6 @@ fnordmetric:
   version: 0.1.0.20150502+gite736fba3-3
   issues:
     - captures_build_path
-fntsample:
-  version: 3.2-6
-  comments: |
-    Embeds the build date into manpage.
-    https://sources.debian.net/src/fntsample/3.2-6/configure.ac/#L38
-  bugs:
-    - 833611
 fomp:
   version: 1.0.0~dfsg0-2
   issues:
@@ -7336,10 +7298,6 @@ fpc:
   issues:
     - captures_build_path
     - timestamps_in_ppu_generated_by_fpc
-fpga-icestorm:
-  version: 0~20160218gitf2b2549-3
-  bugs:
-    - 840098
 fpgatools:
   version: 0.0+201212-1
   issues:
@@ -7724,10 +7682,6 @@ ga:
     [armhf]
   issues:
     - unrelated_ftbfs
-gabedit:
-  version: 2.4.8-2
-  bugs:
-    - 820016
 gadfly:
   version: 1.0.0-16
   issues:
@@ -8098,16 +8052,10 @@ gcolor2:
   version: 0.4-2.1
   issues:
     - captures_build_path
-  bugs:
-    - 817472
 gcpegg:
   version: 5.1-13
   issues:
     - captures_build_path
-gcr:
-  version: 3.20.0-2
-  bugs:
-    - 835737
 gcx:
   version: 1.3-1.1
   issues:
@@ -9087,7 +9035,6 @@ gnudoq:
   version: 0.94-2.1
   bugs:
     - 817296
-    - 817484
 gnugo:
   version: 3.8-9
   issues:
@@ -10057,10 +10004,6 @@ gtkglext:
   version: 1.2.0-4
   issues:
     - captures_build_path
-gtkglextmm:
-  version: 1.2.0-7
-  bugs:
-    - 838808
 gtkguitune:
   version: 0.8-6
   issues:
@@ -10300,10 +10243,6 @@ haskell-hledger:
   version: 1.0.1-1
   issues:
     - captures_build_path
-haskell-hmatrix-gsl:
-  version: 0.17.0.0-1
-  bugs:
-    - 838865
 haskell-hsopenssl-x509-system:
   version: 0.1.0.3-1
   bugs:
@@ -10495,8 +10434,6 @@ highlight.js:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - random_id_in_pdf_generated_by_dblatex
-  bugs:
-    - 830189
 hilive:
   version: 0.0+20150926-1
   issues:
@@ -10792,10 +10729,6 @@ ibus-unikey:
   version: 0.6.1-1
   bugs:
     - 811754
-ice-builder-gradle:
-  version: 1.3.13-1
-  bugs:
-    - 839847
 icedove:
   version: 38.5.0-1
   issues:
@@ -12064,8 +11997,6 @@ kcollectd:
   version: 0.9-2.1
   issues:
     - captures_build_path
-  bugs:
-    - 831129
 kconfig:
   version: 5.26.0-1
   issues:
@@ -12727,7 +12658,6 @@ kover:
     - captures_build_path
   bugs:
     - 817513
-    - 831269
 kpackage:
   version: 5.25.0-1
   issues:
@@ -12833,10 +12763,6 @@ kscd:
   version: 4:16.08.0-1
   issues:
     - captures_build_path
-kscreen:
-  version: 4:5.8.0-1
-  bugs:
-    - 840067
 kservice:
   version: 5.25.0-1
   issues:
@@ -13081,10 +13007,6 @@ lam:
     - captures_shell_variable_in_autofoo_script
     - random_order_in_static_libraries
     - captures_build_path
-lambda-align:
-  version: 1.0.0-1
-  bugs:
-    - 840156
 lambda-term:
   version: 1.10-1
   issues:
@@ -13636,13 +13558,6 @@ libbrahe:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
-libbson:
-  version: 1.3.5-1
-  comments: |
-    Embeds copyright year into manpage:
-    https://sources.debian.net/src/libbson/1.3.5-1/doc/mallard2man.py/#L165
-  bugs:
-    - 833409
 libbtbb:
   version: 2015.09.R2-1
   issues:
@@ -13904,10 +13819,6 @@ libdbd-excel-perl:
   version: 0.06-6
   bugs:
     - 823428
-libdbd-firebird-perl:
-  version: 1.22-1
-  bugs:
-    - 840479
 libdbi-drivers:
   version: 0.9.0-4
   bugs:
@@ -14463,10 +14374,6 @@ libint:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - blacklisted_on_jenkins_armhf_only
-libint2:
-  version: 2.1.0-1
-  bugs:
-    - 823803
 libio-dirent-perl:
   version: 0.05-1
   issues:
@@ -16005,10 +15912,6 @@ libxml-commons-resolver1.1-java:
   issues:
     - randomness_in_gcj_output
     - captures_build_path
-libxml-dumper-perl:
-  version: 0.81-1.1
-  bugs:
-    - 830410
 libxml-easyobj-perl:
   version: 1.12-3
   bugs:
@@ -16195,10 +16098,6 @@ lincity-ng:
   version: 2.9~git20150314-1
   issues:
     - captures_build_path
-link-grammar:
-  version: 5.3.7-2
-  bugs:
-    - 829011
 linthesia:
   version: 0.4.3-1
   bugs:
@@ -17085,10 +16984,6 @@ matchit:
   issues:
     - captures_build_path
     - randomness_in_r_rdb_rds_databases
-mate-applets:
-  version: 1.14.1-1
-  bugs:
-    - 837005
 mate-settings-daemon:
   version: 1.12.1-2
   bugs:
@@ -18947,8 +18842,6 @@ nfstrace:
     https://sources.debian.net/src/nfstrace/0.3.1-2/src/controller/build_info.h.in/#L33-L34
   issues:
     - captures_build_path
-  bugs:
-    - 835644
 ng:
   version: 1.5~beta1-3.1
   bugs:
@@ -20326,8 +20219,6 @@ openjade:
   version: 1.4devel1-21.1
   issues:
     - captures_build_path
-  bugs:
-    - 817606
 openjade1.3:
   version: 1.3.2-13
   issues:
@@ -20672,10 +20563,6 @@ osdclock:
   version: 0.5-23
   issues:
     - captures_build_path
-osdsh:
-  version: 0.7.0-10.1
-  bugs:
-    - 817610
 osgearth:
   version: 2.7.0+dfsg-2
   issues:
@@ -20933,8 +20820,6 @@ palo:
   issues:
     - user_hostname_manually_added_requiring_further_investigation
     - captures_build_path
-  bugs:
-    - 778437
 pam-dbus:
   version: 0.2.1-3
   issues:
@@ -22059,12 +21944,6 @@ plee-the-bear:
   version: 0.6.0-3.1
   issues:
     - captures_build_path
-pleiades:
-  version: 1.5.0-1
-  comments: |
-    Generates a DSA signature during build
-  bugs:
-    - 835633
 plexus-compiler:
   version: 2.4-3
   issues:
@@ -22229,10 +22108,6 @@ polygen:
     Since 2³⁰ < 1477837980 < 2³¹, the value 1477837980 is not representable as an ocaml int32.
     .
     Solution: hardcode the seed to zero?  It's only used for generating the man page.
-polyglot-maven:
-  version: 0.8~tobrien+git20120905-6
-  bugs:
-    - 840178
 polygraph:
   version: 4.3.2-3
   bugs:
@@ -22254,8 +22129,6 @@ polyorb:
   issues:
     - timestamps_in_ada_library_information_files
     - captures_build_path
-  bugs:
-    - 831255
 pomegranate-clojure:
   version: 0.2.0-1
   issues:
@@ -22665,10 +22538,6 @@ projectm:
     - captures_build_path
   bugs:
     - 811831
-projectreactor:
-  version: 2.0.8-1
-  bugs:
-    - 840090
 prometheus:
   version: 1.1.2+ds-2
   issues:
@@ -23407,13 +23276,6 @@ python-asyncssh:
   version: 1.2.0-1
   issues:
     - randomness_in_documentation_indices_generated_by_sphinx
-python-attrs:
-  version: 15.2.0-2
-  comments: |
-    docs/conf.py:85 hardcodes the current year into generated documentation.
-    (It uses sphinx but this issue is not timestamps_in_documentation_generated_by_sphinx.)
-  bugs:
-    - 833886
 python-automaton:
   version: 0.7.0-2
   bugs:
@@ -24068,8 +23930,6 @@ python-openstackclient:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - captures_build_path
-  bugs:
-    - 826676
 python-openstackdocstheme:
   version: 1.2.5+dfsg1-1
   issues:
@@ -24285,10 +24145,6 @@ python-pypm:
   version: 0.0.7-8
   issues:
     - captures_build_path
-python-pypump:
-  version: 0.6-1
-  bugs:
-    - 788505
 python-pyrax:
   version: 1.9.6-1
   bugs:
@@ -27028,8 +26884,6 @@ radare2:
     https://sources.debian.net/src/radare2/0.9.6-3.1/binr/blob/version.c/#L7
   issues:
     - captures_build_path
-  bugs:
-    - 835262
 radiusd-livingston:
   version: 2.1-21
   issues:
@@ -27078,10 +26932,6 @@ rapmap:
   version: 0.3.0+dfsg-1
   issues:
     - captures_build_path
-raptor2:
-  version: 2.0.14-1
-  bugs:
-    - 824735
 rarian:
   version: 0.8.1-6
   bugs:
@@ -27311,10 +27161,6 @@ referencer:
   version: 1.2.2-1
   bugs:
     - 839353
-refind:
-  version: 0.10.3-1
-  bugs:
-    - 831258
 refpolicy:
   version: 2:2.20140421-7
   issues:
@@ -29922,10 +29768,6 @@ splint:
     - captures_kernel_version
     - user_hostname_manually_added_requiring_further_investigation
     - captures_build_path
-spock:
-  version: 0.7-groovy-2.0-3
-  bugs:
-    - 839911
 spooles:
   version: 2.2-11
   comments: |
@@ -30500,10 +30342,6 @@ swift:
   version: 2.10.0-2
   issues:
     - ftbfs_due_to_jenkins_semaphore_setup
-swift-im:
-  version: 2.0+dev6-1
-  bugs:
-    - 797279
 swig:
   version: 3.0.7-2.1
   comments: |
@@ -32759,8 +32597,6 @@ why:
     https://sources.debian.net/src/why/2.34-2/version.sh/
   issues:
     - captures_build_path
-  bugs:
-    - 807051
 why3:
   version: 0.87.1-2
   issues:
@@ -32920,8 +32756,6 @@ wmressel:
   version: 0.8-5.1
   issues:
     - captures_build_path
-  bugs:
-    - 817724
 wmwave:
   version: 0.4-10
   issues:
@@ -33411,8 +33245,6 @@ xloadimage:
   issues:
     - captures_kernel_version
     - user_hostname_manually_added_requiring_further_investigation
-  bugs:
-    - 831743
 xlog:
   version: 2.0.13-2
   issues:
@@ -33714,8 +33546,6 @@ xsok:
   version: 1.02-17
   issues:
     - captures_build_path
-  bugs:
-    - 817738
 xsp:
   version: 4.2-2
   issues:
@@ -34184,10 +34014,6 @@ zotero-standalone-build:
   issues:
     - different_due_to_umask
     - different_encoding
-zp:
-  version: 1.0-1
-  bugs:
-    - 782231
 zsh:
   version: 5.0.7-5
   comments: |
