@@ -14355,6 +14355,12 @@ libhtml-lint-perl:
     - txt2man_dash_p
   bugs:
     - 844236
+libhtml-parser-perl:
+  version: (3.72-2
+  comments: |
+    pod2man(1) includes build path in module name in ".TH" manpage header.
+  bugs:
+    - 845191
 libhtmlparser-java:
   version: 1.6.20060610.dfsg0-5
   bugs:
