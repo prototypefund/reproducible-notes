@@ -1548,3 +1548,11 @@ nondeterminstic_ordering_in_python_wheel_metadata_versions:
   description: |
     src:wheel generates METADATA files with Requires-Dist lines with
     non-deterministic ordering.
+    .
+    In python-pip's urllib3-1.15.1.dist-info/METADATA, a Requires-Dist header has two version constraints; they appear in random order.
+    .
+    Reproduces in amd64/unstable but not on other archs, so may be non-deterministic (eg hash order).
+    .
+    Example:
+      │   │   │   │   │ -Requires-Dist: PySocks (>=1.5.6,<2.0); extra == 'socks'
+      │   │   │   │   │ +Requires-Dist: PySocks (<2.0,>=1.5.6); extra == 'socks'
