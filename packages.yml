@@ -19126,6 +19126,10 @@ node-mocha:
     https://sources.debian.net/src/node-mocha/1.20.1-2/Makefile/#L4
   issues:
     - collation_order_varies_by_locale
+node-nan:
+  version: 2.4.0-1
+  bugs:
+    - 844905
 node-normalize-path:
   version: 2.0.1-1
   bugs:
