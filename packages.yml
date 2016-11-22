@@ -2399,17 +2399,12 @@ bytecode:
     - 817385
 bzflag:
   version: 2.4.6-1
-  comments: |
-    The hostname is captured in CONFIG_CACHE in /usr/share/games/bzflag/fonts/Makefile via m4/cache.m4.
-    .
-    Possible solutions:
-    (a) don't install Makefile;
-    (b) don't AC_SUBST(CONFIG_CACHE) [Makefile doesn't use that variable];
-    (c) only install Makefile.in [since Makefile hardcodes the results of configure checks].
   issues:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
+  bugs:
+    - 845317
 bzr:
   version: 2.7.0-7
   comments: |
