@@ -21097,6 +21097,8 @@ pcsc-tools:
     Makefile:8:VERSION := $(shell pwd | sed s/.*tools-//)
   issues:
     - captures_build_path
+  bugs:
+    - 845282
 pcscada:
   version: 0.7.2-1
   issues:
