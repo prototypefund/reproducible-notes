@@ -15166,6 +15166,12 @@ libpoe-filter-ssl-perl:
   version: 0.30-1
   bugs:
     - 828408
+libpostscriptbarcode:
+  version: 20140312-2
+  comments: |
+    Embeds postscript VMUsage that varies on Jenkins but I can't reproduce
+    locally. Not easily stripped as it is used to avoid printer buffer memory
+    being used up for fonts or somesuch.
 libppd:
   version: 2:0.10-7.2
   bugs:
