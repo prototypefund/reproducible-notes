@@ -30608,6 +30608,10 @@ systemd-ui:
   version: 3-4
   issues:
     - captures_build_path
+systemfixtures:
+  version: 0.6.0-1
+  issues:
+    - ftbfs_in_jenkins_setup_due_to_socket_binding
 systemsettings:
   version: 4:5.8.0-1
   issues:
