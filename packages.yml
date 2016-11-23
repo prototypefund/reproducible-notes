@@ -5305,7 +5305,7 @@ drumkv1:
     configure.ac:11:ac_build_date="$ac_cv_build_date"
     configure.ac:12:AC_DEFINE_UNQUOTED(CONFIG_BUILD_DATE, ["$ac_build_date"], [Build date and time.])
     .
-    drumkv1 / synthv1 / samplv1 have the same issue.
+    drumkv1 / synthv1 / samplv1 / qtractor have the same issue.
 dsc-statistics:
   version: 201203250530-2
   issues:
@@ -18207,6 +18207,30 @@ munin:
     [experimental/amd64]
   bugs:
     - 839233
+munin-c:
+  version: 0.0.9-1
+  comments: |
+    % nl -ba < getversion
+        62  generate_version_string_from_dir() {
+        63          # munin-c- is "9" chars, not 7 as munin- is.
+        64          basename $(pwd) | grep -e '^munin-c' | cut -c9-
+        65  }
+        66
+        67  if [ -s "RELEASE" ]; then
+        68      cat RELEASE
+        69  elif [ "$(git rev-parse --is-inside-work-tree 2>/dev/null)" = "true" ]; then
+        70      generate_version_string
+        71  elif [ ! -z "$(generate_version_string_from_dir)" ]; then
+        72          generate_version_string_from_dir
+        73  else
+        74      echo "unknown"
+        75  fi
+    Left build uses "0.0.9", right build uses "unknown"; that string is 2 bytes
+    longer, which explains all other differences.
+  issues:
+    - captures_build_path
+  bugs:
+    - 845426
 munipack:
   version: 0.5.7-2
   issues:
@@ -18628,6 +18652,15 @@ netgen:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
+nethogs:
+  version: 0.8.5-1
+  comments: |
+    determineVersion.sh:3:(git describe 2>/dev/null || pwd | sed -e "s/.*\\///" | sed -e "s/[^-]*//") | tail -c +2
+    ...................................................^^^
+    .
+    Judging by the timestamps of reproducible/irreproducible builds, this is probably the only issue.
+  issues:
+    - captures_build_path
 netkit-bootparamd:
   version: 0.17-9
   issues:
@@ -24857,6 +24890,17 @@ qtquickcontrols-opensource-src:
   issues:
     - timestamps_in_qch
     - captures_build_path
+qtractor:
+  version: 0.8.0-1
+  comments: |
+    Captures build date:
+    .
+    configure.ac:10:AC_CACHE_VAL([ac_cv_build_date],
+    configure.ac:11:   [ac_cv_build_date=$(date +"%b %d %Y %H:%M %z")])
+    configure.ac:12:ac_build_date="$ac_cv_build_date"
+    configure.ac:13:AC_DEFINE_UNQUOTED(CONFIG_BUILD_DATE, ["$ac_build_date"], [Build date and time.])
+    .
+    drumkv1 / synthv1 / samplv1 / qtractor have the same issue.
 qtruby:
   version: 4:4.14.3-1
   issues:
@@ -28483,7 +28527,7 @@ samplv1:
     configure.ac:11:ac_build_date="$ac_cv_build_date"
     configure.ac:12:AC_DEFINE_UNQUOTED(CONFIG_BUILD_DATE, ["$ac_build_date"], [Build date and time.])
     .
-    drumkv1 / synthv1 / samplv1 have the same issue.
+    drumkv1 / synthv1 / samplv1 / qtractor have the same issue.
 samtools:
   version: 1.3.1-2
   bugs:
@@ -30510,7 +30554,7 @@ synthv1:
     configure.ac:11:ac_build_date="$ac_cv_build_date"
     configure.ac:12:AC_DEFINE_UNQUOTED(CONFIG_BUILD_DATE, ["$ac_build_date"], [Build date and time.])
     .
-    drumkv1 / synthv1 / samplv1 have the same issue.
+    drumkv1 / synthv1 / samplv1 / qtractor have the same issue.
 syrep:
   version: 0.9-4.2
   bugs:
@@ -33538,6 +33582,18 @@ xqilla:
   version: 2.3.3-2
   bugs:
     - 828937
+xrdp:
+  version: 0.9.1~20161119+gite8308d5-1
+  comments: |
+    An x509 certificate and private key differ.
+    .
+    The certificate differs in two ways:
+      1) Its notBefore/notAfter dates are relative to the build time
+      2) The modulus and signature are random
+    .
+    Haven't examined the private key (what's the openssl(1) incantation for that?) but presumably it's the same issues there.
+  issues:
+    - cryptographic_signature
 xscorch:
   version: 0.2.1-1+nmu1
   issues:
