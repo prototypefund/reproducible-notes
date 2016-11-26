@@ -3606,6 +3606,10 @@ consensuscore:
   issues:
     - captures_build_path
     - too_much_input_for_diff
+console-common:
+  version: 0.7.89
+  issues:
+    - docbook_to_man_one_byte_delta
 console-cyrillic:
   version: 0.9-16.2
   issues:
@@ -19308,6 +19312,10 @@ nodejs:
     - diffoscope_runs_forever
   bugs:
     - 812291
+noiz2sa:
+  version: 0.51a-10.1
+  bugs:
+    - 845768
 nomacs:
   version: 3.0.0+dfsg2-1
   issues:
