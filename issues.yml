@@ -225,6 +225,7 @@ timestamps_in_static_libraries:
     .a files are ar archives. Since binutils 2.25-6 they should be deterministic
     by default, but there are some remaining buggy corner cases - see
     bug #843210 for example if the package uses binutils-multiarch.
+    (#843210 has been fixed in sid now, hopefully this issue becomes moot now.)
     .
     Other tools that create ar archives directly should in theory be covered by
     strip-nondeterminism, but it is still good to patch them.
