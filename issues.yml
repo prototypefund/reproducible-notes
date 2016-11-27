@@ -1548,6 +1548,9 @@ randomness_in_browserify_lite_output:
   description: |
     browserify-lite "bundles client-side JavaScript using Node.js-style module
     syntax", mostly concatenating it. The output is non-deterministic.
+nondeterminstic_output_from_uglifyjs:
+  description: |
+    uglifyjs does not create determistic output in, for example, JS dicts.
 nondeterminstic_ordering_in_python_wheel_metadata_versions:
   description: |
     src:wheel generates METADATA files with Requires-Dist lines with
