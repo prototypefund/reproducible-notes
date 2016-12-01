@@ -2636,6 +2636,18 @@ casacore-data-igrf:
   version: 10-1
   issues:
     - timestamps_manually_added_needs_further_investigation
+casacore-data-lines:
+  version: 0+git2016.11.26-1
+  issues:
+    - nondeterminstic_ordering_in_casacore_tables
+casacore-data-observatories:
+  version: 0+git2016.11.02-1
+  issues:
+    - nondeterminstic_ordering_in_casacore_tables
+casacore-data-sources:
+  version: 2-1
+  issues:
+    - nondeterminstic_ordering_in_casacore_tables
 cassbeam:
   version: 1.1-1
   issues:
