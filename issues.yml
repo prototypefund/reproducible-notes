@@ -1564,3 +1564,8 @@ nondeterminstic_ordering_in_python_wheel_metadata_versions:
       │   │   │   │   │ -Requires-Dist: PySocks (>=1.5.6,<2.0); extra == 'socks'
       │   │   │   │   │ +Requires-Dist: PySocks (<2.0,>=1.5.6); extra == 'socks'
   url: https://bugs.debian.org/845325
+nondeterminstic_ordering_in_casacore_tables:
+  description: |
+    src:casacore generates index.dat and table.f0 files with random order.
+    .
+    I believe this is somewhere near http://sources.debian.net/src/casacore/2.1.0-3/tables/Tables/TableProxy.cc/?hl=1448#L1448
