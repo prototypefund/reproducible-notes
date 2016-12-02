@@ -17530,6 +17530,8 @@ minicoredumper:
     debian/rules:23		dh_fixperms --exclude var/crash
   issues:
     - different_due_to_umask
+  bugs:
+    - 846588
 minisapserver:
   version: 0.3.6-1.1
   issues:
