@@ -14185,6 +14185,25 @@ libgda5:
     https://sources.debian.net/src/libgda5/5.2.2-2/configure.ac/#L74-L75
   bugs:
     - 811068
+libgdchart-gd2:
+  version: 0.11.5-8
+  comments: |
+    1. Depends on cwd:
+       debian/rules:30:version := $(shell expr `pwd` : '.*-\([0-9.]*\)')
+       debian/rules:31:version_major := $(shell expr `pwd` : '.*-\([0-9]*\).[0-9.]*')
+    .
+    2. Shell glob expanded in locale-sensitive sorted order:
+       debian/rules:52:		gcc -shared -D_REENTRANT \
+       debian/rules:55:		`echo *.o` \
+       debian/rules:68:		gcc -shared -D_REENTRANT \
+       debian/rules:71:		`echo *.o` \
+    .
+    Possibly more issues once these two are fixed.
+    .
+    Also: debian/rules has a copyright notice but no license notice (and not covered by debian/copyright either).
+  issues:
+    - captures_build_path
+    - max_output_size_reached
 libgdf:
   version: 0.1.2-2
   issues:
@@ -29911,6 +29930,20 @@ speedcrunch:
     - captures_build_path
 speex:
   version: 1.2~rc1.2-1
+  issues:
+    - captures_build_path
+spell:
+  version: 1.0-24
+  comments: |
+    In .rodata, right build has "version 1.0/2nd" where left build has "version 1.0".
+    .
+    The rest is almost certainly fallout since
+    (a) the package is reproducible in testing [where build-path variation is disabled],
+    (b) all other changes can appear to be padding NULs and fallout offset changes.
+    .
+    Due to VERSION=`pwd | …` assignment in configure.in.
+    .
+    Instead, upstream should parse up the version from version.texi (one-line file) and debian from dpkg-parsechangelog (to get the debian revision).
   issues:
     - captures_build_path
 spew:
