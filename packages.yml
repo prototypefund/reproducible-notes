@@ -2485,6 +2485,12 @@ cafeobj:
     - fonts_in_pdf_files
     - captures_build_path
     - random_id_in_pdf_generated_by_dblatex
+caffe:
+  version: 1.0.0~rc3+20160930-ga7f950b-1
+  comments: |
+    [experimental/amd64]
+  issues:
+    - captures_build_path
 cairo-5c:
   version: 1.9
   bugs:
