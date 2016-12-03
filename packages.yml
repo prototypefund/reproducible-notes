@@ -1380,6 +1380,13 @@ avahi-sharp:
   version: 0.6.19-4.3
   issues:
     - captures_build_path
+averell:
+  version: 1.2.5-1
+  issues:
+    - captures_build_path
+  comments: |
+    This is the normal beam file path problem, but inside an escript binary that's using an embedded
+    zip archive.
 avfs:
   version: 1.0.3-1
   comments: |
