@@ -18462,6 +18462,13 @@ myodbc:
   version: 5.1.10-3
   bugs:
     - 841561
+mypaint:
+  version: 1.2.0-3
+  comments: |
+    Unsorted globbing of source files:
+      brushlib/SConscript:149:sources = Glob("*.c")
+      brushlib/SConscript:159:                              Glob("*.c") + Glob("mypaint-*.h") +
+    (The problematic files are brushlib/mypaint*.c.)
 myproxy:
   version: 6.1.19-1
   bugs:
@@ -27572,6 +27579,12 @@ rlpr:
   version: 2.05-4
   bugs:
     - 817653
+rlwrap:
+  version: 0.42-2
+  comments: |
+    [armhf/unstable only] .dynsym section includes memcmp() («memcmp@GLIBC_2.4 (3)») on first build only.
+    .
+    memcmp() has only one callsite in this package; presumably it's inlined in the first build for some reason?
 rmatrix:
   version: 1.2-6-1
   issues:
