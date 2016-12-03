@@ -27583,8 +27583,13 @@ rlwrap:
   version: 0.42-2
   comments: |
     [armhf/unstable only] .dynsym section includes memcmp() («memcmp@GLIBC_2.4 (3)») on first build only.
-    .
     memcmp() has only one callsite in this package; presumably it's inlined in the first build for some reason?
+    .
+    Another difference:
+      -checking whether we can find command line under <opt_proc_mountpoint>/<pid>/cmdline and mirror it by overwriting our own *argv... yes
+      +checking whether we can find command line under <opt_proc_mountpoint>/<pid>/cmdline and mirror it by overwriting our own *argv... no
+    This may be related to the first difference,
+    since the result of that autoconf check (ENABLE_MIRROR_ARGS) is used near the memcpy() call.
 rmatrix:
   version: 1.2-6-1
   issues:
