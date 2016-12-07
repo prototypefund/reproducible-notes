@@ -1335,6 +1335,17 @@ hevea_captures_build_path:
     1. inside HTML comment "HEVEA command line is:"
     2. if \title is missing in received .tex file, the HTML title tag will contain the path to generated file without file extension.
   deterministic: True
+lessc_captures_build_path:
+  description: |
+    lessc captures the build path in source maps. To fix, give
+    .
+    1. Pass --source-map-basepath=$SOURCE_ROOT_DIR, e.g.
+       https://anonscm.debian.org/cgit/python-modules/packages/jupyter-notebook.git/commit/?id=39bdadbf346e8f77aed5d40dc0de9c30d0b7498b
+    2. Make the output file path relative, until https://github.com/less/less.js/pull/3002 is fixed and accepted, e.g.
+       https://anonscm.debian.org/cgit/python-modules/packages/jupyter-notebook.git/commit/?id=529a67483a53ac55be58c46d9864e86d733cd113
+    .
+    Eventually we can fix (2) and make (1) unnecessary by reading SOURCE_PREFIX_MAP
+  deterministic: True
 timestamp_added_by_java_util_properties:
   description:
     java.util.Properties adds a timestamp
