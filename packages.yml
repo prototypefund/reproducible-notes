@@ -5434,6 +5434,12 @@ dune-pdelab:
   version: 2.4.1-1
   bugs:
     - 838327
+dune-uggrid:
+  version: 2.5.0~rc2-1
+  issues:
+    - max_output_size_reached
+    - captures_build_path_via_assert
+    - records_build_flags
 duo-unix:
   version: 1.9.11-1
   bugs:
@@ -17998,6 +18004,15 @@ montage:
     util/Viewer/mViewer.c:605:   strcpy(fontfile, FONT_DIR)
   issues:
     - captures_build_path
+moon-buggy:
+  version: 1.0.51-11
+  comments: |
+    The difference in the .ps file is that "/seven" is missing from one of the embedded fonts.  I suppose this is because the build date is 27th on the left build, 28th one the right build, and the digit 7 happens to not be used anywhere else in the .ps file in that font; i.e., it's just a side-effect of the mdate.sh issue.
+    .
+    Note the source package ships upstream's source as a tar.gz file.
+  issues:
+    - texinfo_mdate_sh_varies_by_timezone
+    - max_output_size_reached
 moonshot-trust-router:
   version: 1.4.1-1
   bugs:
@@ -20695,6 +20710,12 @@ openwince-jtag:
   version: 0.5.1-6
   bugs:
     - 800197
+openzwave:
+  version: 1.5+ds-2
+  comments: |
+    Both the moveabs() and the .rodata differences are hardcoded filenames.
+  issues:
+    - captures_build_path_via_assert
 optcomp:
   version: 1.6-1
   issues:
