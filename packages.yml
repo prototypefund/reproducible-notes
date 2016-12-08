@@ -5606,7 +5606,7 @@ ecj:
 ecl:
   version: 15.3.7+dfsg1-1
   comments: |
-    1. Random filename of the form eclinitXXXXXX.c
+    1. Random filename of the form eclinitXXXXXX.c (compare maxima-sage package)
     2. The symbols "ecl_member" and "_eclZRyBEHa3fImi9_XXXXXXXX" are in unpredictable order.
   issues:
     - captures_build_path
@@ -17221,6 +17221,14 @@ maxima:
     - captures_build_path
   bugs:
     - 831248
+maxima-sage:
+  version: 5.35.1-2
+  comments: |
+    Temporary filenames of the form mktemp("/tmp/eclinitXXXXXX.c") in .debug_info (--debug=info) section.
+    Compare 'ecl' package.
+  issues:
+    - captures_build_path
+    - max_output_size_reached
 maya-calendar:
   version: 0.3-1~experimental1
   bugs:
