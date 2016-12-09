@@ -25806,6 +25806,10 @@ r-cran-data.table:
   issues:
     - captures_build_path
     - randomness_in_r_rdb_rds_databases
+r-cran-dbitest:
+  version: 1.4-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-deal:
   version: 1:1.2-37-2
   issues:
@@ -25870,6 +25874,10 @@ r-cran-dplyr:
   version: 0.5.0-1
   issues:
     - captures_build_path
+    - randomness_in_r_rdb_rds_databases
+r-cran-dynlm:
+  version: 0.3.5-1
+  issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-e1071:
   version: 1.6-7-1
@@ -26357,6 +26365,10 @@ r-cran-medadherence:
   issues:
     - captures_build_path
     - randomness_in_r_rdb_rds_databases
+r-cran-memoise:
+  version: 1.0.0-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-mfilter:
   version: 0.1.3-1
   issues:
@@ -26406,6 +26418,10 @@ r-cran-mnp:
   version: 2.6-4-1
   issues:
     - captures_build_path
+    - randomness_in_r_rdb_rds_databases
+r-cran-modelmetrics:
+  version: 1.1.0-1
+  issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-modeltools:
   version: 0.2-21-1
@@ -26531,6 +26547,10 @@ r-cran-pkgmaker:
   version: 0.22-1
   issues:
     - captures_build_path
+    - randomness_in_r_rdb_rds_databases
+r-cran-plogr:
+  version: 0.1-1-1
+  issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-plotrix:
   version: 3.6-1
@@ -27098,6 +27118,10 @@ r-cran-wdi:
   version: 2.4-1
   issues:
     - captures_build_path
+    - randomness_in_r_rdb_rds_databases
+r-cran-withr:
+  version: 1.0.2-1
+  issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-xml:
   version: 3.98-1.4-2
