@@ -208,6 +208,7 @@ adios:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - cython_captures_build_path
+    - records_build_flags
 adplay:
   version: 1.7-2
   bugs:
@@ -5481,6 +5482,8 @@ dune-localfunctions:
     - fonts_in_pdf_files
 dune-pdelab:
   version: 2.4.1-1
+  issues:
+    - records_build_flags
   bugs:
     - 838327
 dune-typetree:
@@ -6269,6 +6272,7 @@ esys-particle:
     - randomness_in_documentation_generated_by_epydoc
     - diffoscope_runs_forever
     - timestamps_in_ps_generated_by_dvips
+    - records_build_flags
   bugs:
     - 811838
 etcd:
@@ -8672,6 +8676,7 @@ givaro:
   issues:
     - captures_build_path
     - graphviz_nondeterminstic_output
+    - records_build_flags
   bugs:
     - 811847
 gjay:
@@ -10234,6 +10239,7 @@ guile-2.0:
     https://sources.debian.net/src/guile-2.0/2.0.11%2B1-9/libguile/Makefile.am/?hl=720#L720
   issues:
     - captures_shell_variable_in_autofoo_script
+    - records_build_flags
 guile-gnome-platform:
   version: 2.16.2-2
   issues:
@@ -13071,6 +13077,7 @@ kvirc:
     https://gist.github.com/lamby/dfbf57c89436893e91c9c7877a006bee
   issues:
     - user_hostname_manually_added_requiring_further_investigation
+    - records_build_flags
   bugs:
     - 811908
 kvkbd:
