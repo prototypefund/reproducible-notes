@@ -2329,6 +2329,7 @@ broccoli:
     https://sources.debian.net/src/broccoli/1.97-3/CMakeLists.txt/#L25
   issues:
     - different_encoding
+    - user_hostname_manually_added_requiring_further_investigation
 broccoli-python:
   version: 0.59+1-1
   issues:
@@ -11326,6 +11327,7 @@ iqtree:
   version: 1.4.3+dfsg-1
   issues:
     - captures_build_path
+    - user_hostname_manually_added_requiring_further_investigation
 ircd-irc2:
   version: 2.11.2p3~dfsg-4
   comments: |
@@ -13067,6 +13069,8 @@ kvirc:
     .
     incomplete patch at
     https://gist.github.com/lamby/dfbf57c89436893e91c9c7877a006bee
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 811908
 kvkbd:
@@ -33024,6 +33028,7 @@ webauth:
   version: 4.6.1-1
   issues:
     - timezones_manpages_podman
+    - user_hostname_manually_added_requiring_further_investigation
 webcamd:
   version: 0.7.6-5
   bugs:
