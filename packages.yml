@@ -743,6 +743,7 @@ apitrace:
   version: 7.1+git20160531.2d78bef0+repack-1.1
   issues:
     - diffoscope_runs_forever
+    - captures_build_path
 apktool:
   version: 2.2.1+dfsg-1
   bugs:
@@ -1030,6 +1031,7 @@ asis:
   issues:
     - unknown_ada_issue
     - captures_home_dir
+    - captures_build_path
 ask:
   version: 1.0.1-2
   issues:
@@ -2653,6 +2655,8 @@ casablanca:
     - captures_build_path
 casacore:
   version: 2.1.0-3
+  issues:
+    - captures_build_path
   bugs:
     - 830250
 casacore-data-igrf:
@@ -3697,6 +3701,8 @@ convlit:
     - captures_build_path
 cook:
   version: 2.33-2
+  issues:
+    - captures_build_path
   bugs:
     - 797320
 cookiecutter:
@@ -3763,6 +3769,7 @@ coyim:
   version: 0.3.7-2
   issues:
     - diffoscope_runs_forever
+    - captures_build_path
 coz-profiler:
   version: 0.0.git.20161130T1802-2
   bugs:
@@ -6511,6 +6518,8 @@ fbonds:
     - randomness_in_r_rdb_rds_databases
 fbpager:
   version: 0.1.5~git20090221.1.8e0927e6-1.1
+  issues:
+    - captures_build_path
   bugs:
     - 817451
 fbpanel:
@@ -6787,6 +6796,7 @@ fife:
   version: 0.3.5-1
   issues:
     - diffoscope_runs_forever
+    - captures_build_path
   bugs:
     - 811858
 fifechan:
@@ -6950,6 +6960,7 @@ fleet:
   version: 0.11.5+dfsg1-4
   issues:
     - diffoscope_runs_forever
+    - captures_build_path
 flex:
   version: 2.6.0-11
   issues:
@@ -8558,6 +8569,7 @@ ginkgocadx:
   version: 3.8.3-1
   issues:
     - diffoscope_runs_forever
+    - captures_build_path
 gio-sharp:
   version: 2.22.3-3
   comments: |
@@ -9157,6 +9169,7 @@ gnudatalanguage:
   version: 0.9.6v2-3
   issues:
     - diffoscope_runs_forever
+    - captures_build_path
   bugs:
     - 811918
 gnudoq:
@@ -9282,6 +9295,7 @@ gobgp:
   version: 1.10-1
   issues:
     - diffoscope_runs_forever
+    - captures_build_path
   bugs:
     - 836805
 gocode:
@@ -9464,6 +9478,10 @@ golang-github-opencontainers-image-spec:
   version: 1.0.0~rc2+dfsg-1
   issues:
     - golang_compiler_captures_build_path_in_binary
+golang-github-pelletier-go-toml:
+  version: 0.3.5+git20161123.19.7cb9880-1
+  issues:
+    - captures_build_path
 golang-github-pointlander-peg:
   version: 0.0~git20160905.0.58700b5-1
   issues:
@@ -9653,6 +9671,8 @@ gpgme1.0:
     Note 1.7.0-1 in unstable was reproducible.
     .
     Repeat customer, see debian/patches/0007-make-documentation-reproducible-by-omitting-HTML_TIM.patch.
+  issues:
+    - captures_build_path
 gpgmepp:
   version: 16.04.3-1
   issues:
@@ -10751,6 +10771,7 @@ hugin:
   version: 2016.2.0~rc1+dfsg-2
   issues:
     - diffoscope_runs_forever
+    - captures_build_path
 hugo:
   version: 0.15+git20160109.147.dd1d655-1
   issues:
@@ -12157,6 +12178,8 @@ kcoreaddons:
     - captures_build_path
 kcov:
   version: 25+dfsg-1
+  issues:
+    - captures_build_path
   bugs:
     - 790912
 kdbg:
@@ -15961,6 +15984,7 @@ libvigraimpex:
   version: 1.10.0+dfsg-11
   issues:
     - diffoscope_runs_forever
+    - captures_build_path
   bugs:
     - 811370
 libvirt:
@@ -16259,6 +16283,7 @@ liggghts:
   version: 3.4.0+repack1-2
   issues:
     - diffoscope_runs_forever
+    - captures_build_path
 lightdm-kde:
   version: 0.3.2.2-1
   issues:
@@ -18251,6 +18276,7 @@ mpi-testsuite:
   issues:
     - user_hostname_manually_added_requiring_further_investigation
     - different_encoding
+    - captures_build_path
   bugs:
     - 831241
 mpi4py:
@@ -19501,6 +19527,7 @@ nomad:
   version: 0.4.0+dfsg-1
   issues:
     - diffoscope_runs_forever
+    - captures_build_path
 nordlicht:
   version: 0.4.4-3
   issues:
@@ -20501,6 +20528,7 @@ opengm:
   version: 2.3.6+20160131-2
   issues:
     - diffoscope_runs_forever
+    - captures_build_path
   bugs:
     - 811878
 openhackware:
@@ -20524,6 +20552,7 @@ openimageio:
   version: 1.6.16~dfsg0-1
   issues:
     - diffoscope_runs_forever
+    - captures_build_path
 openipmi:
   version: 2.0.22-1
   bugs:
@@ -20575,6 +20604,7 @@ openjdk-9:
   version: 9~b117-1
   issues:
     - blacklisted_on_jenkins_armhf_only
+    - captures_build_path
 openjfx:
   version: 8u40-b25-3
   comments: |
@@ -20690,6 +20720,7 @@ openscenegraph:
   version: 3.2.3+dfsg1-2
   issues:
     - diffoscope_runs_forever
+    - captures_build_path
 openscenegraph-3.4:
   version: 3.4.0+dfsg1-4
   issues:
@@ -20966,6 +20997,7 @@ otb:
   version: 5.6.1+dfsg-1
   issues:
     - diffoscope_runs_forever
+    - captures_build_path
 otcl:
   version: 1.14+dfsg-3
   issues:
@@ -21185,6 +21217,8 @@ paprefs:
     - 819779
 paps:
   version: 0.6.8-7
+  issues:
+    - captures_build_path
   bugs:
     - 808511
 papyrus:
@@ -21413,6 +21447,7 @@ pcsx2:
   version: 1.4.0+dfsg-2
   issues:
     - diffoscope_runs_forever
+    - captures_build_path
 pd-arraysize:
   version: 0.1-3
   issues:
@@ -22066,6 +22101,7 @@ pike8.0:
   version: 8.0.28-4
   issues:
     - diffoscope_runs_forever
+    - captures_build_path
 pillow:
   version: 3.3.1-1
   issues:
@@ -22650,6 +22686,7 @@ ppl:
   version: 1:1.1-7.2
   issues:
     - blacklisted_on_jenkins_armhf_only
+    - captures_build_path
   bugs:
     - 811825
 ppp:
@@ -23002,6 +23039,7 @@ ptlib:
   version: 2.10.11~dfsg-1
   issues:
     - captures_kernel_version
+    - captures_build_path
   bugs:
     - 811996
 publican:
@@ -24156,6 +24194,8 @@ python-memprof:
     - cython_captures_build_path
 python-mhash:
   version: 1.4-1.1
+  issues:
+    - captures_build_path
   bugs:
     - 828936
 python-mkdocs:
@@ -24577,6 +24617,7 @@ python-shogun:
   version: 3.2.0-5.2
   issues:
     - diffoscope_runs_forever
+    - captures_build_path
 python-simpy3:
   version: 3.0.7+dfsg-1
   issues:
@@ -25257,6 +25298,7 @@ quantlib-swig:
   version: 1.8-2
   issues:
     - diffoscope_runs_forever
+    - captures_build_path
 quark-sphinx-theme:
   version: 0.3.2-1
   bugs:
@@ -25559,6 +25601,10 @@ r-bioc-qvalue:
   issues:
     - captures_build_path
     - randomness_in_r_rdb_rds_databases
+r-bioc-rbgl:
+  version: 1.50.0+dfsg1-1
+  issues:
+    - captures_build_path
 r-bioc-rsamtools:
   version: 1.24.0-1
   issues:
@@ -25834,6 +25880,7 @@ r-cran-dbitest:
   version: 1.4-1
   issues:
     - randomness_in_r_rdb_rds_databases
+    - captures_build_path
 r-cran-deal:
   version: 1:1.2-37-2
   issues:
@@ -25903,6 +25950,7 @@ r-cran-dynlm:
   version: 0.3.5-1
   issues:
     - randomness_in_r_rdb_rds_databases
+    - captures_build_path
 r-cran-e1071:
   version: 1.6-7-1
   issues:
@@ -26393,6 +26441,7 @@ r-cran-memoise:
   version: 1.0.0-1
   issues:
     - randomness_in_r_rdb_rds_databases
+    - captures_build_path
 r-cran-mfilter:
   version: 0.1.3-1
   issues:
@@ -26447,6 +26496,7 @@ r-cran-modelmetrics:
   version: 1.1.0-1
   issues:
     - randomness_in_r_rdb_rds_databases
+    - captures_build_path
 r-cran-modeltools:
   version: 0.2-21-1
   issues:
@@ -27147,6 +27197,7 @@ r-cran-withr:
   version: 1.0.2-1
   issues:
     - randomness_in_r_rdb_rds_databases
+    - captures_build_path
 r-cran-xml:
   version: 3.98-1.4-2
   issues:
@@ -28677,6 +28728,8 @@ rustc:
     Non-determistic JSON serialisation https://sources.debian.net/src/rustc/1.0.0%2Bdfsg1-1/src/librustdoc/html/render.rs/#L1299
     Blacklisted on armhf because of #834003.
     Reported to upstream at https://github.com/rust-lang/rust/issues/34902 - more details there
+  issues:
+    - captures_build_path
 s3d:
   version: 0.2.2-14
   issues:
@@ -29202,6 +29255,7 @@ seqan2:
   version: 2.2.0+dfsg-2
   issues:
     - diffoscope_runs_forever
+    - captures_build_path
 serf:
   version: 1.3.8-3
   comments: |
@@ -29237,6 +29291,7 @@ sfcgal:
   issues:
     - blacklisted_on_jenkins_armhf_only
     - diffoscope_runs_forever
+    - captures_build_path
 sfepy:
   version: 2015.1-1
   issues:
@@ -30320,6 +30375,8 @@ stardata-common:
     - captures_build_path
 stardict:
   version: 3.0.1-9.2
+  issues:
+    - captures_build_path
   bugs:
     - 805236
 starlink-ast:
@@ -32122,6 +32179,10 @@ ufo-core:
   version: 0.11.1-1
   issues:
     - captures_build_path_via_assert
+ufo-filters:
+  version: 0.12.0+dfsg1-1
+  issues:
+    - captures_build_path
 ufoai:
   version: 2.5-1
   issues:
