@@ -2986,6 +2986,10 @@ chasen:
   version: 2.4.5-25
   bugs:
     - 811967
+chasquid:
+  version: 0.01+git20161124.6479138-2
+  issues:
+    - golang_compiler_captures_build_path_in_binary
 chealpix:
   version: 3.30.0-2
   issues:
@@ -3770,6 +3774,7 @@ coyim:
   issues:
     - diffoscope_runs_forever
     - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 coz-profiler:
   version: 0.0.git.20161130T1802-2
   bugs:
@@ -5127,6 +5132,10 @@ dnsproxy:
   version: 1.16-0.1
   issues:
     - captures_build_path
+dnss:
+  version: 0.0~git20161126.0.162090e-1
+  issues:
+    - golang_compiler_captures_build_path_in_binary
 dnssec-trigger:
   version: 0.13~svn685-4
   comments: |
@@ -6961,6 +6970,7 @@ fleet:
   issues:
     - diffoscope_runs_forever
     - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 flex:
   version: 2.6.0-11
   issues:
@@ -9296,6 +9306,7 @@ gobgp:
   issues:
     - diffoscope_runs_forever
     - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
   bugs:
     - 836805
 gocode:
@@ -19530,6 +19541,7 @@ nomad:
   issues:
     - diffoscope_runs_forever
     - captures_build_path
+    - golang_compiler_captures_build_path_in_binary
 nordlicht:
   version: 0.4.4-3
   issues:
@@ -21373,6 +21385,10 @@ paxctl:
   version: 0.9-1
   issues:
     - captures_build_path
+paxrat:
+  version: 1.0-2
+  issues:
+    - golang_compiler_captures_build_path_in_binary
 paxtest:
   version: 1:0.9.14-2
   issues:
@@ -27416,6 +27432,10 @@ rbootd:
   bugs:
     - 776951
     - 793713
+rclone:
+  version: 1.34-2
+  issues:
+    - golang_compiler_captures_build_path_in_binary
 rcmdr:
   version: 2.2-3-1
   issues:
