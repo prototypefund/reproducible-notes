@@ -2938,6 +2938,7 @@ cgiemail:
   version: 1.6-37
   issues:
     - captures_kernel_version
+    - build_id_differences_only
 cgilib:
   version: 0.6-1
   issues:
@@ -10434,6 +10435,10 @@ haskell-wreq:
   version: 0.4.1.0-6
   bugs:
     - 842524
+haskell-yesod-bin:
+  version: 1.4.18.7-3
+  issues:
+    - build_id_differences_only
 haskell-yi-language:
   version: 0.2.0-1
   bugs:
@@ -12403,6 +12408,10 @@ keylaunch:
     - captures_build_path
   bugs:
     - 805773
+keysafe:
+  version: 0.20161107-1
+  issues:
+    - build_id_differences_only
 keystone:
   version: 2:10.0.0-2
   bugs:
@@ -21515,7 +21524,7 @@ pd-ekext:
 pd-ext13:
   version: 0.17.1-2
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 pd-fftease:
   version: 2.5.2.git20121005-1
   issues:
@@ -21563,7 +21572,7 @@ pd-maxlib:
 pd-mjlib:
   version: 0.1.1-3
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 pd-moonlib:
   version: 0.2-2
   issues:
@@ -27550,7 +27559,7 @@ recode:
 recoll:
   version: 1.22.3-1
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 recordmydesktop:
   version: 0.3.8.1+svn602-1
   issues:
