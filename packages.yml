@@ -19461,6 +19461,8 @@ node-repeat-element:
     - 841274
 node-rimraf:
   version: 2.5.4-1
+  issues:
+    - different_due_to_umask
   bugs:
     - 845745
 node-semver:
@@ -20605,6 +20607,7 @@ openjdk-9:
   issues:
     - blacklisted_on_jenkins_armhf_only
     - captures_build_path
+    - different_due_to_umask
 openjfx:
   version: 8u40-b25-3
   comments: |
@@ -31772,6 +31775,7 @@ trafficserver:
   version: 7.0.0-1
   issues:
     - records_build_flags
+    - different_due_to_umask
 transcalc:
   version: 0.14-5
   issues:
