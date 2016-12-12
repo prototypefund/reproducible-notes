@@ -33028,6 +33028,35 @@ waili:
   version: 19990723-22.1
   issues:
     - captures_build_path
+wammu:
+  version: 0.42-1
+  comments: |
+    Translations added in random order.
+    .
+    Source code inspection suggests dict (hash) order; however, fails on
+    i386,armhf but not amd64, which suggests disorderfs is related.
+    Let's split the difference and guess that Python dicts' iteration order is
+    reproducible for a given order of insertions, which itself varies by
+    disorderfs.
+    .
+    Relevant code (setup.py):
+       141	def list_message_files(package='wammu', suffix='.po'):
+       145	    _files = glob.glob('locale/*/' + package + suffix)
+       ⋮
+       152	    return _list
+    
+       242	    def build_message_files(self):
+       249	        translations = {}
+       250	        for (_locale, _src, _dst) in list_message_files():
+       257	            translations[_locale] = msgfmt.DESKTOP_TRANSLATIONS
+       258
+       259	        self.build_desktop_file(translations)
+       260	        self.build_appdata_file(translations)
+    
+       192	    def build_appdata_file(self, translations):
+       213	        for loc in translations.keys():
+  issues:
+    - disorderfs_sensitive
 wand:
   version: 0.3.9-1
   issues:
