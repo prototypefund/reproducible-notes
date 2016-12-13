@@ -8307,8 +8307,8 @@ gedit-plugins:
     Possibly related:
       1) The «%.plugin» rule in plugins/Makefile.am generates the cache file 'intltool-merge-cache' multiple times in parallel
       2) The .po suffix rules in po/Makefile.in.in
-    .
-    See also xfce4-terminal.
+  issues:
+    - translations_missing_in_desktop_files
 gegl:
   version: 0.2.0-7.1
   comments: |
@@ -30703,6 +30703,11 @@ sugar-base-0.88:
     - captures_build_path
   bugs:
     - 837239
+sugar-browse-activity:
+  version: 200-1
+  issues:
+    - translations_missing_in_desktop_files
+    - max_output_size_reached
 sugar-datastore:
   version: 0.106.0-1
   bugs:
@@ -30723,6 +30728,11 @@ sugar-presence-service-0.88:
   version: 0.88.0-3.1
   bugs:
     - 837270
+sugar-read-activity:
+  version: 115~dfsg-3
+  issues:
+    - translations_missing_in_desktop_files
+    - max_output_size_reached
 sugar-toolkit:
   version: 0.98.1-7
   issues:
@@ -33792,10 +33802,8 @@ xfce4-terminal:
   comments: |
     [armhf only (!?)]
     Translations missing from .po file.
-    .
-    Possibly a bug (race condition between multiple invocations?) in intltool-merge.
-    .
-    See also gedit-plugins.
+  issues:
+    - translations_missing_in_desktop_files
 xfoil:
   version: 6.99.dfsg-2
   issues:

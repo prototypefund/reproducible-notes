@@ -1585,3 +1585,10 @@ disorderfs_sensitive:
     Build output depends on readdir() order.
     .
     Interesting because they could be fixed by fixing these things at build time.
+translations_missing_in_desktop_files:
+  description: |
+    A file contains a list of «Name[xx] = "String"» lines, where «xx» is a language code;
+    some or all of the lines are present in one build only.
+    .
+    Possibly a bug (race condition between multiple invocations?) in intltool-merge.
+  deterministic: False
