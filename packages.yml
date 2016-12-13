@@ -12742,6 +12742,11 @@ kmenuedit:
     - build_id_differences_only
   bugs:
     - 825471
+kmer:
+  version: 0~20150903+r2013-3
+  issues:
+    - captures_build_path_via_assert
+    - max_output_size_reached
 kmer-tools:
   version: 0~20150903+r2013-1
   issues:
@@ -18565,6 +18570,11 @@ muon:
   version: 4:5.4.3-1
   bugs:
     - 825471
+muparserx:
+  version: 4.0.7+dfsg-1
+  issues:
+    - captures_build_path_via_assert
+    - max_output_size_reached
 mupdf:
   version: 1.9a+ds1-1.2
   comments: |
