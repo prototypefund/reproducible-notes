@@ -4112,6 +4112,11 @@ cyclades-serial-client:
   bugs:
     - 817327
     - 800212
+cylc:
+  version: 6.11.2-2
+  comments: |
+    Uses the part of the path after the program name as the version number.
+    https://sources.debian.net/src/cylc/6.11.2-2/admin/create-version-file/
 cyrus-imapd:
   version: 2.5.9-2
   comments: |
@@ -14462,6 +14467,10 @@ libint:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - blacklisted_on_jenkins_armhf_only
+libint2:
+  version: 2.1.0-3
+  issues:
+    - diffoscope_runs_forever
 libio-dirent-perl:
   version: 0.05-1
   issues:
@@ -17741,6 +17750,10 @@ molds:
   version: 0.3.1-1
   issues:
     - captures_build_path
+mon-contrib:
+  version: 1.0+dfsg-3
+  bugs:
+    - 848283
 mona:
   version: 1.4-15-1
   issues:
