@@ -11633,6 +11633,10 @@ jhbuild:
   version: 3.4.0-1
   issues:
     - captures_build_path
+jid:
+  version: 0.6.2-1
+  issues:
+    - golang_compiler_captures_build_path_in_binary
 jigzo:
   version: 0.6.1-7
   bugs:
@@ -11859,6 +11863,10 @@ junior-doc:
     - timestamps_in_ps_generated_by_dvips
   bugs:
     - 792971
+junitperf:
+  version: 1.9.1-8
+  issues:
+    - different_encoding
 jupyter-notebook:
   version: 4.2.3-1
   bugs:
@@ -15945,10 +15953,18 @@ libxcrypt:
   version: 1:2.4-3.1
   bugs:
     - 817562
+libxaw:
+  version: 2:1.0.13-1
+  issues:
+    - different_encoding
 libxerces2-java:
   version: 2.11.0-7
   issues:
     - randomness_in_gcj_output
+    - different_encoding
+libxext:
+  version: 2:1.3.3-1
+  issues:
     - different_encoding
 libxfont:
   version: 1:1.5.1-1
@@ -24861,6 +24877,10 @@ qtlocation-opensource-src:
     - timestamps_in_qch
     - randomness_in_qdoc
     - captures_build_path
+qtltools:
+  version: 1.0+dfsg-1
+  bugs:
+    - 848280
 qtmultimedia-opensource-src:
   version: 5.3.2-5
   issues:
@@ -25704,6 +25724,11 @@ r-cran-epitools:
   issues:
     - captures_build_path
     - randomness_in_r_rdb_rds_databases
+r-cran-erm:
+  version: 0.15-7-1
+  issues:
+    - captures_build_path
+    - randomness_in_r_rdb_rds_databases
 r-cran-estimability:
   version: 1.1-1-1
   issues:
@@ -26453,6 +26478,11 @@ r-cran-randomforest:
   issues:
     - captures_build_path
     - randomness_in_r_rdb_rds_databases
+r-cran-raschsampler:
+  version: 0.8-8-1
+  issues:
+    - captures_build_path
+    - randomness_in_r_rdb_rds_databases
 r-cran-raster:
   version: 2.5-8-1
   issues:
@@ -27009,6 +27039,10 @@ rapache:
   version: 1.2.8-1
   issues:
     - captures_build_path
+rapidxml:
+  version: 1.13-2
+  issues:
+    - different_encoding
 rapmap:
   version: 0.3.0+dfsg-1
   issues:
