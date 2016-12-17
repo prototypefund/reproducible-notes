@@ -1182,10 +1182,6 @@ at-spi2-core:
   version: 2.20.2-2
   bugs:
     - 837819
-atanks:
-  version: 6.4~dfsg-1
-  bugs:
-    - 842865
 atdgen:
   version: 1.9.1-1
   issues:
@@ -2411,12 +2407,6 @@ bytecode:
   version: 0.92.svn.20090106-1.1
   bugs:
     - 817385
-bzflag:
-  version: 2.4.6-1
-  issues:
-    - captures_shell_variable_in_autofoo_script
-  bugs:
-    - 845317
 bzr:
   version: 2.7.0-7
   comments: |
@@ -6414,10 +6404,6 @@ fastjet:
   version: 3.0.6+dfsg-3
   issues:
     - records_build_flags
-fastqtl:
-  version: 2.184+dfsg-4
-  bugs:
-    - 848292
 fastx-toolkit:
   version: 0.0.14-1
   comments: |
@@ -7813,61 +7799,64 @@ gap:
 gap-alnuth:
   version: 3.0.0-4
   issues:
-    - random_id_in_pdf_generated_by_dblatex
+    - pdf_id_varying_due_to_build_path
 gap-atlasrep:
   version: 1.5.1-1
   issues:
-    - random_id_in_pdf_generated_by_dblatex
+    - pdf_id_varying_due_to_build_path
 gap-autpgrp:
   version: 1.5-2
   issues:
-    - fonts_in_pdf_files
+    - timestamps_in_tex_documents
 gap-ctbllib:
   version: 1r2p2.dfsg.0-3
   issues:
-    - random_id_in_pdf_generated_by_dblatex
+    - pdf_id_varying_due_to_build_path
 gap-float:
   version: 0.6.3+ds-3
   issues:
-    - random_id_in_pdf_generated_by_dblatex
+    - pdf_id_varying_due_to_build_path
 gap-gapdoc:
   version: 1.5.1-2
   issues:
     - timestamps_in_gzip_headers
-    - timestamps_in_pdf_generated_by_latex
+    - pdf_id_varying_due_to_build_path
 gap-grape:
   version: 4r7+ds-3
   issues:
-    - random_id_in_pdf_generated_by_dblatex
+    - pdf_id_varying_due_to_build_path
 gap-guava:
   version: 3.13+ds-1
   issues:
-    - random_id_in_pdf_generated_by_dblatex
+    - pdf_id_varying_due_to_build_path
 gap-io:
   version: 4.4.6+ds-2
   issues:
-    - random_id_in_pdf_generated_by_dblatex
+    - pdf_id_varying_due_to_build_path
+gap-laguna:
+  version: 3.7.0+ds-1
+  issues:
+    - pdf_id_varying_due_to_build_path
 gap-openmath:
   version: 11.3.1+ds-2
   issues:
-    - random_id_in_pdf_generated_by_dblatex
+    - pdf_id_varying_due_to_build_path
 gap-polycyclic:
   version: 2.11-3
   issues:
-    - random_id_in_pdf_generated_by_dblatex
+    - pdf_id_varying_due_to_build_path
 gap-radiroot:
   version: 2.7-2
   issues:
-    - random_id_in_pdf_generated_by_dblatex
+    - pdf_id_varying_due_to_build_path
 gap-scscp:
   version: 2.1.4+ds-1
   issues:
-    - timestamps_in_pdf_generated_by_latex
-    - random_id_in_pdf_generated_by_dblatex
+    - pdf_id_varying_due_to_build_path
 gap-tomlib:
   version: 1r2p5-2
   issues:
-    - random_id_in_pdf_generated_by_dblatex
+    - pdf_id_varying_due_to_build_path
 garcon:
   version: 0.4.0-2
   comments: |
@@ -7882,10 +7871,6 @@ garlic-doc:
   version: 1.6-1
   bugs:
     - 817468
-garmin-plugin:
-  version: 0.3.23-2
-  bugs:
-    - 845790
 gatos:
   version: 0.0.5-19
   bugs:
@@ -9293,6 +9278,10 @@ golang-github-eknkc-amber:
   version: 0.0~git20160421.0.91774f0-1
   issues:
     - golang_compiler_captures_build_path_in_binary
+golang-github-geertjohan-go.rice:
+  version: 0.0~git20160123.0.0f3f5fd-1
+  issues:
+    - golang_compiler_captures_build_path_in_binary
 golang-github-golang-mock:
   version: 0.0~git20150821.0.06883d9-1
   issues:
@@ -9842,10 +9831,6 @@ grinder:
   version: 0.5.4-1
   issues:
     - captures_build_path
-gringo:
-  version: 4.5.4-3
-  bugs:
-    - 844096
 grml-debootstrap:
   version: 0.73
   issues:
@@ -11654,6 +11639,10 @@ jid:
   version: 0.6.2-1
   issues:
     - golang_compiler_captures_build_path_in_binary
+jigsaw-generator:
+  version: 0.2.4-1
+  issues:
+    - pdf_id_varying_due_to_build_path
 jigzo:
   version: 0.6.1-7
   bugs:
@@ -13814,11 +13803,6 @@ libconfig-model-lcdproc-perl:
   version: 2.049-1
   bugs:
     - 838583
-libcorelinux:
-  version: 0.4.32-7.4
-  bugs:
-    - 808679
-    - 800232
 libcork:
   version: 0.15.0+ds-6
   issues:
@@ -20511,10 +20495,6 @@ opennebula:
   version: 4.12.3+dfsg-3
   issues:
     - locale_in_documentation_generated_by_javadoc
-openni-sensor-primesense:
-  version: 5.1.0.41-6
-  bugs:
-    - 848295
 openni2:
   version: 2.2.0.33+dfsg-6
   issues:
@@ -22688,6 +22668,10 @@ prometheus-blackbox-exporter:
   issues:
     - golang_compiler_captures_build_path_in_binary
     - timestamps_manually_added_needs_further_investigation
+prometheus-mailexporter:
+  version: 0.3-1
+  issues:
+    - golang_compiler_captures_build_path_in_binary
 prometheus-mongodb-exporter:
   version: 0.0+git20160604.28251cc-1
   issues:
@@ -28726,6 +28710,10 @@ scantool:
   issues:
     - captures_build_path
     - timestamps_in_allegro_dat_files
+scap-workbench:
+  version: 1.1.3-1
+  issues:
+    - captures_build_path
 scatterplot3d:
   version: 0.3-37-1
   issues:
@@ -33816,8 +33804,6 @@ xtables-addons:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
-  bugs:
-    - 803601
 xtel:
   version: 3.3.0-19
   issues:
