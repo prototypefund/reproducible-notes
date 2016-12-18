@@ -17021,6 +17021,10 @@ matchit:
   issues:
     - captures_build_path
     - randomness_in_r_rdb_rds_databases
+mate-menus:
+  version: 1.16.0-1
+  issues:
+    - translations_missing_in_desktop_files
 mate-settings-daemon:
   version: 1.12.1-2
   bugs:
@@ -30262,6 +30266,10 @@ sugar-browse-activity:
   issues:
     - translations_missing_in_desktop_files
     - max_output_size_reached
+sugar-chat-activity:
+  version: 83-1
+  issues:
+    - translations_missing_in_desktop_files
 sugar-datastore:
   version: 0.106.0-1
   bugs:
@@ -30270,10 +30278,26 @@ sugar-datastore-0.88:
   version: 0.88.0-4
   bugs:
     - 837248
+sugar-imageviewer-activity:
+  version: 62-3
+  issues:
+    - translations_missing_in_desktop_files
+sugar-jukebox-activity:
+  version: 32+20160926-1
+  issues:
+    - translations_missing_in_desktop_files
+sugar-log-activity:
+  version: 37-4
+  issues:
+    - translations_missing_in_desktop_files
 sugar-memorize-activity:
   version: 51-3
   issues:
     - captures_build_path
+sugar-pippy-activity:
+  version: 70+20160925~dfsg-1
+  issues:
+    - translations_missing_in_desktop_files
 sugar-presence-service:
   version: 0.90.2-5
   bugs:
@@ -30287,6 +30311,10 @@ sugar-read-activity:
   issues:
     - translations_missing_in_desktop_files
     - max_output_size_reached
+sugar-terminal-activity:
+  version: 44+20161031-1
+  issues:
+    - translations_missing_in_desktop_files
 sugar-toolkit:
   version: 0.98.1-7
   issues:
@@ -30301,6 +30329,10 @@ sugar-toolkit-gtk3:
     - captures_build_path
   bugs:
     - 825471
+sugar-write-activity:
+  version: 97+20160926-1
+  issues:
+    - translations_missing_in_desktop_files
 suil:
   version: 0.8.4~dfsg0-1
   bugs:
