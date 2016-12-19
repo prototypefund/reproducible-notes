@@ -1298,6 +1298,8 @@ user_in_documentation_generated_by_gsdoc:
 captures_build_path:
   description: |
     Captures build path, e.g., /build-1st v. /build-2nd.
+    Currently we vary the build path only when testing packages from unstable and experimental, for stretch we recommend that rebuilds are done in the same path as the original build.
+    .
     If using autoconf, make sure you call ./configure via a relative and not absolute path.
     .
     If this is related to using the `__FILE__` macro, we have a pending patch
