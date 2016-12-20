@@ -3543,6 +3543,10 @@ compass-h5bp-plugin:
   version: 1.0.0-2
   issues:
     - fileorder_in_gemspec_files_list
+compiz:
+  version: 1:0.9.13.0+16.10.20160818.2-4
+  issues:
+    - captures_build_path_via_assert
 complexity:
   version: 1.3+dfsg-1
   issues:
@@ -11196,6 +11200,13 @@ iqtree:
   issues:
     - captures_build_path
     - user_hostname_manually_added_requiring_further_investigation
+ir.lv2:
+  version: 1.3.3~dfsg0-1
+  comments: |
+    The build path is captured not via assert() but via debug symbols.  (But there is no separate issue tag for that)
+  issues:
+    - captures_build_path_via_assert
+    - max_output_size_reached
 ircd-irc2:
   version: 2.11.2p3~dfsg-4
   comments: |
@@ -12198,6 +12209,10 @@ kdgcommons-java:
   version: 1.0.13-1
   issues:
     - user_in_java_jar_manifest
+kdiagram:
+  version: 2.6.0-1
+  issues:
+    - captures_build_path_via_assert
 kdiff3:
   version: 0.9.98-3
   issues:
@@ -16504,6 +16519,12 @@ lsof:
     https://sources.debian.net/src/lsof/4.89%2Bdfsg-0.1/usage.c/#L962
   issues:
     - captures_build_path
+lsyncd:
+  version: 2.1.6-1
+  comments: |
+    Implemented in Lua.
+  issues:
+    - captures_build_path_via_assert
 ltrace:
   version: 0.7.3-5.1
   bugs:
@@ -23438,6 +23459,10 @@ python-can:
   comments: |
     Embeds the build time into test.asc:
     https://sources.debian.net/src/python-can/1.5.2-1/can/CAN.py/?hl=246#L243
+python-cartopy:
+  version: 0.14.2+dfsg1-1
+  issues:
+    - cython_captures_build_path
 python-casmoothing:
   version: 0.2-1
   issues:
@@ -28481,6 +28506,13 @@ sagan:
   version: 1.0.1-0.1
   issues:
     - build_id_differences_only
+sagetex:
+  version: 3.0+ds-2
+  comments: |
+    https://sources.debian.net/src/sagetex/3.0%2Bds-2/example.tex/#L31
+  issues:
+    - timestamps_in_tex_documents
+    - max_output_size_reached
 sahara:
   version: 1:3.0.0-5
   bugs:
