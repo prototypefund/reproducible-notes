@@ -3227,6 +3227,8 @@ clisp:
   issues:
     - captures_build_path
     - user_hostname_manually_added_requiring_further_investigation
+  bugs:
+    - 844976
 clitest:
   version: 0.0+git20150312.339b52-1
   issues:
@@ -5263,6 +5265,8 @@ drift:
   version: 2.2.3-2.3
   issues:
     - timestamps_in_ps_generated_by_dvips
+  bugs:
+    - 807966
 driftnet:
   version: 1.1.5-1.1
   issues:
@@ -5416,6 +5420,8 @@ dvdisaster:
   version: 0.72.4-1
   issues:
     - captures_build_path
+  bugs:
+    - 848811
 dvgrab:
   version: 3.5+git20160707.1.e46042e-1
   bugs:
@@ -5681,6 +5687,8 @@ eiskaltdcpp:
   version: 2.2.9-4
   issues:
     - captures_build_path
+  bugs:
+    - 828290
 eja:
   version: 9.5.20-1
   comments: |
@@ -5973,6 +5981,8 @@ erlang-cowlib:
   version: 1.3.0-1
   issues:
     - captures_build_path
+  bugs:
+    - 846748
 erlang-cuttlefish:
   version: 2.0.6+dfsg-1
   issues:
@@ -6146,6 +6156,7 @@ etcd:
     - diffoscope_runs_forever
   bugs:
     - 830388
+    - 846542
 etcd-fs:
   version: 0.0+git20140621.0.395eacb-1
   issues:
@@ -6374,6 +6385,8 @@ faumachine:
     sim/Makefile.am has a _lot_ of unsorted wildcard includes. Patch would be quite invasive..
   issues:
     - captures_build_path
+  bugs:
+    - 837450
 fb-music-high:
   version: 0.1.2
   bugs:
@@ -6655,6 +6668,7 @@ fgrun:
     - captures_build_path
   bugs:
     - 830539
+    - 839357
 field3d:
   version: 1.6.2-1
   issues:
@@ -6829,6 +6843,8 @@ fleet:
     - diffoscope_runs_forever
     - captures_build_path
     - golang_compiler_captures_build_path_in_binary
+  bugs:
+    - 848810
 flex:
   version: 2.6.0-11
   issues:
@@ -7390,6 +7406,10 @@ freehdl:
   version: 0.0.8-2.1
   bugs:
     - 811804
+freeipa:
+  version: 4.3.2-5
+  bugs:
+    - 848762
 freeipmi:
   version: 1.4.9-1
   bugs:
@@ -7638,6 +7658,8 @@ g2clib:
   version: 1.6.0-4
   issues:
     - captures_build_path
+  bugs:
+    - 848732
 g3data:
   version: 1:1.5.3-2.1
   issues:
@@ -8448,6 +8470,10 @@ git-phab:
   version: 0~git20160322-1
   bugs:
     - 823536
+git-remote-hg:
+  version: 0.3-2
+  bugs:
+    - 844939
 git-repair:
   version: 1.20151215-1
   bugs:
@@ -9080,6 +9106,9 @@ gnustep-make:
     - timestamp_in_info_file_created_by_makeinfo
     - captures_build_path
     - fonts_in_pdf_files
+  bugs:
+    - 838278
+    - 839300
 gnutls28:
   version: 3.4.8-2
   comments: |
@@ -9437,6 +9466,8 @@ google-cloud-print-connector:
   issues:
     - captures_build_path
     - too_much_input_for_diff
+  bugs:
+    - 839293
 google-perftools:
   version: 2.2.1-0.2
   bugs:
@@ -11219,6 +11250,8 @@ isakmpd:
   version: 20041012-7.3
   issues:
     - captures_build_path
+  bugs:
+    - 828355
 isc-kea:
   version: 1.0.0-4
   comments: |
@@ -11683,6 +11716,10 @@ jruby:
   issues:
     - user_in_java_jar_manifest
     - timestamp_in_java_bnd_manifest
+jruby-maven-plugins:
+  version: 1.0.10.ds1-2
+  bugs:
+    - 844841
 jruby-openssl:
   version: 0.9.11-2
   issues:
@@ -13272,6 +13309,8 @@ libalog:
   issues:
     - captures_build_path
     - records_build_flags
+  bugs:
+    - 844886
 libam7xxx:
   version: 0.1.6-2
   issues:
@@ -13867,6 +13906,7 @@ libdc0:
     https://sources.debian.net/src/libdc0/0.3.24~svn3121-2/configure.in/#L215
   bugs:
     - 834452
+    - 828390
 libdc1394-22:
   version: 2.2.4-1
   issues:
@@ -13900,6 +13940,8 @@ libdigidoc:
   version: 3.10.1.1208+ds1-2
   issues:
     - captures_build_path
+  bugs:
+    - 828391
 libdispatch:
   version: 0~svn197-3.3
   issues:
@@ -14259,6 +14301,7 @@ libgweather:
   version: 3.20.0-1
   bugs:
     - 822432
+    - 839365
 libhamcrest-java:
   version: 1.3-5
   issues:
@@ -14971,6 +15014,8 @@ libofetion:
   version: 2.2.2-1
   issues:
     - captures_build_path
+  bugs:
+    - 828402
 libogg:
   version: 1.3.2-1
   issues:
@@ -18310,6 +18355,8 @@ mydumper:
   version: 0.9.1-1
   issues:
     - captures_build_path
+  bugs:
+    - 841607
 myghty:
   version: 1.1-5
   comments: |
@@ -18449,6 +18496,8 @@ nant:
   version: 0.92~rc1+dfsg-4
   issues:
     - timestamps_in_pe_binaries
+  bugs:
+    - 845733
 nasm:
   version: 2.11.08-1
   issues:
@@ -18510,6 +18559,8 @@ nbibtex:
     Timestamps and differing data in ps generated with dvips.
   issues:
     - timestamps_in_ps_generated_by_dvips
+  bugs:
+    - 812704
 nbtscan:
   version: 1.5.1-6
   issues:
@@ -18618,6 +18669,8 @@ net-snmp:
   version: 5.7.3+dfsg-1.4
   issues:
     - records_build_flags
+  bugs:
+    - 828449
 net-tools:
   version: 1.60+git20150829.73cef8a-2
   bugs:
@@ -19179,6 +19232,7 @@ node-oauth:
   version: 0.9.11-1
   bugs:
     - 792224
+    - 830214
 node-pascalcase:
   version: 0.1.1-1
   bugs:
@@ -19191,6 +19245,7 @@ node-redis:
   version: 0.12.1-2
   bugs:
     - 842209
+    - 830215
 node-repeat-element:
   version: 1.1.2+github-1
   bugs:
@@ -20181,6 +20236,7 @@ openbve:
   version: 1.4.0.10-3
   bugs:
     - 839523
+    - 846761
 opencc:
   version: 1.0.4-1
   issues:
@@ -20265,6 +20321,7 @@ openhpi:
     - build_id_differences_only
   bugs:
     - 811950
+    - 828468
 openigtlink:
   version: 1.11.0-1
   issues:
@@ -21644,6 +21701,8 @@ php5:
     - captures_kernel_version
     - captures_build_path
     - user_hostname_manually_added_requiring_further_investigation
+  bugs:
+    - 828498
 php7.0:
   version: 7.0.4-6
   comments: |
@@ -21763,6 +21822,7 @@ pidgin-openfetion:
     - captures_build_path
   bugs:
     - 825471
+    - 828502
 pidgin-privacy-please:
   version: 0.7.1-3
   bugs:
@@ -21805,6 +21865,7 @@ pinot:
   version: 1.05-1.1
   bugs:
     - 812165
+    - 828503
 pinpoint:
   version: 1:0.1.8-2
   issues:
@@ -22324,6 +22385,7 @@ pound:
     https://sources.debian.net/src/pound/2.6-6.1/Makefile.in/#L57-L61
   bugs:
     - 795897
+    - 828511
 povray:
   version: 1:3.7.0.0-9
   issues:
@@ -24344,6 +24406,8 @@ python-whoosh:
   version: 2.7.0-1
   issues:
     - randomness_in_objects_inv
+  bugs:
+    - 812768
 python-x2go:
   version: 0.5.0.1-2
   issues:
@@ -24655,6 +24719,8 @@ qpid-cpp:
   version: 0.16-9
   issues:
     - ftbfs_uninvestigated_big_packages
+  bugs:
+    - 828520
 qpid-proton:
   version: 0.10-2
   issues:
@@ -27167,6 +27233,8 @@ red5:
     - locale_in_documentation_generated_by_javadoc
     - captures_kernel_version
     - user_in_java_jar_manifest
+  bugs:
+    - 846727
 redet:
   version: 8.26-1.1
   bugs:
@@ -28631,6 +28699,8 @@ scheme2c:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - pdf_created_by_ghostscript
+  bugs:
+    - 778111
 scheme48:
   version: 1.9-5
   comments: |
@@ -29200,6 +29270,8 @@ simstring:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
+  bugs:
+    - 844883
 simulavr:
   version: 0.1.2.2-7
   issues:
@@ -29301,6 +29373,8 @@ skipfish:
   version: 2.10b-1
   issues:
     - captures_build_path
+  bugs:
+    - 828547
 sklearn-pandas:
   version: 1.2.0-1
   issues:
@@ -30864,6 +30938,7 @@ teem:
     - captures_build_path
   bugs:
     - 820772
+    - 704206
 teeworlds:
   version: 0.6.3+dfsg-2
   bugs:
@@ -31236,6 +31311,8 @@ tkrat:
     - captures_build_path
   bugs:
     - 778431
+    - 828572
+    - 844845
 tkrplot:
   version: 0.0.23-4
   issues:
@@ -31864,6 +31941,7 @@ uhub:
     - different_due_to_umask
   bugs:
     - 834776
+    - 828583
 ui-auto:
   version: 1.2.5-1
   comments: |
@@ -32062,6 +32140,8 @@ urweb:
     - fonts_in_pdf_files
     - captures_build_path
     - too_much_input_for_diff
+  bugs:
+    - 844891
 user-mode-linux:
   version: 4.7-1um-1
   issues:
@@ -33489,6 +33569,8 @@ xmlstarlet:
   version: 1.6.1-1
   issues:
     - timestamps_in_pdf_generated_by_apache_fop
+  bugs:
+    - 832864
 xmlstreambuffer:
   version: 1.5.4-1
   issues:
