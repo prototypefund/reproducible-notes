@@ -756,6 +756,13 @@ apparmor:
   issues:
     - captures_build_path
     - random_id_in_pdf_generated_by_dblatex
+apper:
+  version: 0.9.2+git20161222-1
+  comments: |
+    Build path captured by RUNPATH attribute, asserts (.rodata), and debug symbols (.dynstr).
+  issues:
+    - captures_build_path
+    - captures_build_path_via_assert
 appmenu-qt:
   version: 0.2.6-2
   issues:
