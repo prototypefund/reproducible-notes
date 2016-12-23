@@ -405,8 +405,6 @@ alpine:
   comments: |
     Build timestamp is written in alpine binary:
     https://sources.debian.net/src/alpine/2.11%2Bdfsg1-3/alpine/Makefile.am/?hl=46:48#L46
-  issues:
-    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 791923
 alsa-lib:
@@ -652,10 +650,6 @@ apbs:
   version: 1.4-1
   issues:
     - captures_build_path
-apcalc:
-  version: 2.12.5.0-1
-  issues:
-    - nroff_output_varies_by_locale_or_utf8
 apcupsd:
   version: 3.14.12-1.1
   issues:
@@ -1332,10 +1326,6 @@ autogen:
   issues:
     - captures_shell_variable_in_autofoo_script
     - random_id_in_pdf_generated_by_dblatex
-autolog:
-  version: 0.40-13.1
-  issues:
-    - captures_build_path
 automake-1.15:
   version: 1:1.15-1
   issues:
@@ -1346,10 +1336,6 @@ automake1.11:
   issues:
     - timezone_variance_because_of_automake_mdate
     - captures_shell_variable_in_autofoo_script
-automaton:
-  version: 1.11-8+dfsg1-1
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 automoc:
   version: 1.0~version-0.9.88-5
   issues:
@@ -1468,16 +1454,6 @@ axiom:
     - timestamps_in_dvi_generated_by_latex
     - blacklisted_on_jenkins_armhf_only
     - diffoscope_runs_forever
-axis:
-  version: 1.4-22
-  issues:
-    - timestamp_in_java_bnd_manifest
-    - locale_in_documentation_generated_by_javadoc
-    - different_encoding
-azureus:
-  version: 4.3.0.6-5
-  issues:
-    - different_encoding
 babel:
   version: 1.4.0.dfsg-8.2
   bugs:
@@ -2063,10 +2039,6 @@ blktrace:
   version: 1.1.0-2
   issues:
     - timestamps_in_ps_generated_by_dvips
-blobandconquer:
-  version: 1.11-dfsg+20-1
-  issues:
-    - captures_build_path
 blobby:
   version: 1.0-3
   issues:
@@ -2646,10 +2618,6 @@ cassiopee:
   version: 1.0.4+dfsg-1
   issues:
     - captures_build_path
-castor:
-  version: 1.3.2-3
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 castxml:
   version: 0.1+git20160706-1
   issues:
@@ -2836,8 +2804,6 @@ cervisia:
     - captures_build_path
 cf-python:
   version: 1.3.2+dfsg1-1
-  issues:
-    - captures_build_path
   bugs:
     - 841497
 cfengine2:
@@ -3020,9 +2986,6 @@ chiark-tcl:
     - captures_build_path
 chiark-utils:
   version: 4.4.2
-  issues:
-    - timestamps_in_gzip_headers
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 777300
     - 792998
@@ -5038,10 +5001,6 @@ dlib:
   version: 18.18-1
   issues:
     - captures_build_path
-dlm:
-  version: 4.0.6-1
-  issues:
-    - captures_build_path
 dlz-ldap-enum:
   version: 1.0.3-1
   bugs:
@@ -5188,11 +5147,6 @@ dolphin-emu:
   version: 5.0+dfsg-1
   issues:
     - captures_build_path
-dom4j:
-  version: 1.6.1+dfsg.3-2
-  issues:
-    - locale_in_documentation_generated_by_javadoc
-    - different_encoding
 doomsday:
   version: 1.15.8-2
   bugs:
@@ -5334,10 +5288,6 @@ dsh:
   version: 0.25.10-1.1
   issues:
     - build_id_differences_only
-dsniff:
-  version: 2.4b1+debian-22.1
-  issues:
-    - captures_build_path
 dspdfviewer:
   version: 1.15-2
   issues:
@@ -5804,10 +5754,6 @@ elixir-lang:
   issues:
     - blacklisted_on_jenkins_armhf_only
     - captures_build_path
-elk:
-  version: 3.99.8-2.1
-  issues:
-    - timestamps_in_documentation_generated_by_groff
 elkcode:
   version: 2.3.22-1
   issues:
@@ -6145,7 +6091,6 @@ erlsvc:
 erm:
   version: 0.14-0-6
   issues:
-    - captures_build_path
     - randomness_in_r_rdb_rds_databases
 esajpip:
   version: 0.1~bzr33-4
@@ -8453,8 +8398,6 @@ gio-sharp:
   version: 2.22.3-3
   comments: |
     DLL strong name varies.
-  issues:
-    - cryptographic_signature
 gip:
   version: 1.7.0-1-4
   bugs:
@@ -9079,10 +9022,6 @@ gnupg:
   version: 1.4.20-6
   issues:
     - timestamps_in_manpages_generated_by_yat2m
-gnupg-pkcs11-scd:
-  version: 0.7.3-1
-  issues:
-    - captures_build_path
 gnupg2:
   version: 2.1.11-7
   comments: |
@@ -9978,10 +9917,6 @@ gtk-gnutella:
     - captures_build_path
   bugs:
     - 824453
-gtk-sharp-beans:
-  version: 2.14.1-3
-  issues:
-    - timestamps_in_pe_binaries
 gtk-sharp2:
   version: 2.12.10-5
   issues:
@@ -11886,10 +11821,6 @@ junior-doc:
     - timestamps_in_ps_generated_by_dvips
   bugs:
     - 792971
-junitperf:
-  version: 1.9.1-8
-  issues:
-    - different_encoding
 jupyter-notebook:
   version: 4.2.3-1
   bugs:
@@ -12259,8 +12190,6 @@ keras:
   version: 1.0.7-1
   comments: |
     [experimental/amd64]
-  issues:
-    - different_encoding
 kerberos-configs:
   version: 2.3
   bugs:
@@ -13391,10 +13320,6 @@ libapache-mod-evasive:
   version: 1.10.1-3
   issues:
     - captures_build_path
-libapache-mod-jk:
-  version: 1:1.2.40+svn150520-1
-  issues:
-    - lynx_dump_varies_output_with_locale
 libapache-mod-log-sql:
   version: 1.100-16.2
   issues:
@@ -13568,8 +13493,6 @@ libaudiomask:
   comments: |
     destination of symlink vary due to different build_path:
     https://sources.debian.net/src/libaudiomask/1.0-2/Makefile/?hl=50#L51
-  issues:
-    - captures_build_path
 libaunit:
   version: 3.7.1-2
   issues:
@@ -14473,10 +14396,6 @@ libinnodb:
   issues:
     - different_due_to_umask
     - captures_build_path
-libinstpatch:
-  version: 1.0.0-4
-  issues:
-    - captures_build_path
 libint:
   version: 1.1.5-1
   issues:
@@ -15378,10 +15297,6 @@ librcsb-core-wrapper:
   version: 1.005-4
   issues:
     - random_order_in_static_libraries
-libreadline-java:
-  version: 0.8.0.1+dfsg-4
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 libregf:
   version: 20160424-1
   issues:
@@ -15975,10 +15890,6 @@ libxalan2-java:
     - different_encoding
   bugs:
     - 834671
-libxaw:
-  version: 2:1.0.13-1
-  issues:
-    - different_encoding
 libxbean-java:
   version: 4.4-1
   issues:
@@ -15991,10 +15902,6 @@ libxerces2-java:
   version: 2.11.0-7
   issues:
     - randomness_in_gcj_output
-    - different_encoding
-libxext:
-  version: 2:1.3.3-1
-  issues:
     - different_encoding
 libxfont:
   version: 1:1.5.1-1
@@ -16049,10 +15956,6 @@ libxmltok:
   version: 1.2-3
   issues:
     - captures_build_path
-libxmu:
-  version: 2:1.1.2-2
-  issues:
-    - different_encoding
 libxs:
   version: 1.2.0-1.1
   bugs:
@@ -19972,10 +19875,6 @@ ocplib-simplex:
   version: 0.3-1
   issues:
     - captures_build_path
-ocserv:
-  version: 0.10.11-1
-  issues:
-    - timestamps_in_manpages_generated_by_autogen
 ocsigenserver:
   version: 2.7-1
   issues:
@@ -20497,10 +20396,6 @@ openms:
   issues:
     - collation_order_varies_by_locale
     - diffoscope_runs_forever
-opennebula:
-  version: 4.12.3+dfsg-3
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 openni2:
   version: 2.2.0.33+dfsg-6
   issues:
@@ -21598,10 +21493,6 @@ pgadmin3:
     - diffoscope_runs_forever
     - timestamps_from_cpp_macros
     - sphinx_htmlhelp_readdir_sensitive
-pgapack:
-  version: 1.1.1-3
-  issues:
-    - captures_build_path
 pgbouncer:
   version: 1.7.2-1
   bugs:
@@ -21773,8 +21664,6 @@ phpab:
   comments: |
     Prints the current year in version info, which lands in the manpage via help2man.
     https://sources.debian.net/src/phpab/1.21.0-2/src/Version.php/#L61
-  issues:
-    - timestamps_in_manpages_generated_by_help2man
   bugs:
     - 834754
 phpdox:
@@ -22978,10 +22867,6 @@ pycryptopp:
   version: 0.6.0.20120313-1
   issues:
     - captures_build_path
-pycurl:
-  version: 7.43.0-1
-  issues:
-    - captures_build_path
 pydispatcher:
   version: 2.0.5-1
   issues:
@@ -23486,10 +23371,6 @@ python-casmoothing:
   version: 0.2-1
   issues:
     - captures_build_path
-python-cassandra-driver:
-  version: 3.4.1-1
-  issues:
-    - cython_captures_build_path
 python-castellan:
   version: 0.2.1-2
   bugs:
@@ -24326,10 +24207,6 @@ python-riemann-client:
   version: 6.3.0-1
   bugs:
     - 835688
-python-rtslib-fb:
-  version: 2.1.57+debian-3
-  issues:
-    - randomness_in_documentation_generated_by_epydoc
 python-ruffus:
   version: 2.6.3+dfsg-4
   issues:
@@ -24810,8 +24687,6 @@ qsf:
   version: 1.2.7-1.2
   comments: |
     https://sources.debian.net/src/qsf/1.2.7-1.2/autoconf/make/rules.mk/#L16
-  issues:
-    - different_encoding
 qsynth:
   version: 0.4.3-1
   bugs:
@@ -27087,10 +26962,6 @@ rapache:
   version: 1.2.8-1
   issues:
     - captures_build_path
-rapidxml:
-  version: 1.13-2
-  issues:
-    - different_encoding
 rapmap:
   version: 0.3.0+dfsg-1
   issues:
@@ -27102,7 +26973,6 @@ rarian:
 raschsampler:
   version: 0.8-6-1
   issues:
-    - captures_build_path
     - randomness_in_r_rdb_rds_databases
 rasmol:
   version: 2.7.5.2-2
@@ -27260,7 +27130,6 @@ readline6:
 realmd:
   version: 0.16.2-2
   issues:
-    - different_encoding
     - different_encoding_in_html_by_docbook_xsl
 reaver:
   version: 1.4-2
@@ -28490,10 +28359,6 @@ runit:
     - random_order_in_md5sums
   bugs:
     - 792979
-runsnakerun:
-  version: 2.0.4-2
-  issues:
-    - different_encoding
 rustc:
   version: 1.0.0+dfsg1-1
   comments: |
@@ -31620,11 +31485,6 @@ trousers:
   version: 0.3.13-4
   bugs:
     - 828579
-trove:
-  version: 2.1.0-2
-  issues:
-    - locale_in_documentation_generated_by_javadoc
-    - different_encoding
 trove-dashboard:
   version: 6.0.0-1
   bugs:
@@ -33141,10 +33001,6 @@ wsclean:
     - captures_build_path
 wsdl4j:
   version: 1.6.3-1
-  issues:
-    - timestamp_in_java_bnd_manifest
-    - locale_in_documentation_generated_by_javadoc
-    - different_encoding
   bugs:
     - 820809
 wsil4j:
@@ -33244,7 +33100,6 @@ x86info:
 xalan:
   version: 1.11-5
   issues:
-    - captures_build_path
     - too_much_input_for_diff
 xapian-bindings:
   version: 1.4.0-4
@@ -33811,10 +33666,6 @@ xserver-xorg-input-mutouch:
   version: 1:1.3.0-1
   issues:
     - captures_build_path
-xserver-xorg-video-dummy:
-  version: 1:0.3.7-1
-  issues:
-    - captures_build_path
 xserver-xorg-video-fbdev:
   version: 1:0.4.4-1
   issues:
@@ -33834,10 +33685,6 @@ xserver-xorg-video-openchrome:
     https://sources.debian.net/src/xserver-xorg-video-openchrome/1:0.3.3%2Bgit20160310-1/src/Makefile.am/?hl=117#L117
   bugs:
     - 831405
-xserver-xorg-video-sisusb:
-  version: 1:0.9.6-2
-  issues:
-    - captures_build_path
 xshisen:
   version: 1:1.51-4.1
   comments: |
