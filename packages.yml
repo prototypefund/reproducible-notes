@@ -21023,6 +21023,21 @@ partclone:
   version: 0.2.88-1
   bugs:
     - 842115
+partd:
+  version: 0.3.6-1
+  comments: |
+    Records timestamp the testsuite was run at:
+    .
+      partd/tests/test_zmq.py:2:pytest.importorskip('zmq')
+      partd/tests/test_zmq.py:4:from partd.zmq import Server, keys_to_flush, log, File, Client
+      .
+      partd/zmq.py:33:log('Import zmq')
+      .
+      partd/zmq.py:28:def log(*args):
+      partd/zmq.py:29:    with open('log', 'a') as f:
+      partd/zmq.py:30:        print(datetime.now(), *args, file=f)
+    .
+    Presumed fix: don't install the resulting 'log' file.
 parted:
   version: 3.2-7
   comments: |
