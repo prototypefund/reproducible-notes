@@ -2406,17 +2406,10 @@ bytecode:
   bugs:
     - 817385
 bzr:
-  version: 2.7.0-7
-  comments: |
-    Duplicate files detected by fdupes and symlinked in d/rules, but in unsorted order.
-    https://sources.debian.net/src/bzr/2.7.0-7/debian/rules/#L81
-    .
-    Unclear whether this is due to fdupes returning the _duplicate_ in
-    non-deterministic order, which would not be fixed by an "external" sort.
-bzr-xmloutput:
-  version: 0.8.8+bzr162-5
+  version: 2.7.0+bzr6619-5
   issues:
-    - ftbfs_uninvestigated_test_failures
+    - captures_build_path
+    - cython_captures_build_path
 c++-annotations:
   version: 10.5.0-1
   issues:
