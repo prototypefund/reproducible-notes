@@ -28511,6 +28511,13 @@ sagan:
   version: 1.0.1-0.1
   issues:
     - build_id_differences_only
+sagemath:
+  version: 7.4-4
+  comments: |
+    timestamps (should be) already fixed in git
+  issues:
+    - cython_captures_build_path
+    - timestamps_in_documentation_generated_by_sphinx
 sagetex:
   version: 3.0+ds-2
   comments: |
