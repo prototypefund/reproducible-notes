@@ -30324,6 +30324,11 @@ subtle:
   version: 0.11.3224-xi-2.2
   issues:
     - captures_build_path
+subversion:
+  version: 1.9.5-1
+  issues:
+    - captures_build_path_via_assert
+    - max_output_size_reached
 sudo:
   version: 1.8.17p1-2
   issues:
@@ -32182,6 +32187,10 @@ unrar-free:
     Unclear why it's i386 only, or how the tab is transformed to an "I".  (Could be a broken "^I" escape, or a bitflip.)
   issues:
     - docbook_to_man_one_byte_delta
+unshield:
+  version: 1.4-1
+  issues:
+    - captures_build_path_via_assert
 up-imapproxy:
   version: 1.2.7-1.2
   bugs:
