@@ -19962,6 +19962,8 @@ ocp:
   issues:
     - timestamps_in_gzip_headers
     - captures_build_path
+  bugs:
+    - 848916
 ocp-indent:
   version: 1.5-2
   bugs:
@@ -24606,6 +24608,7 @@ pyzmq:
   bugs:
     - 818265
     - 818278
+    - 846673
 q4wine:
   version: 1.3.1-1
   issues:
@@ -27470,6 +27473,10 @@ rhythmbox:
   version: 3.4-1
   issues:
     - captures_build_path
+ri-li:
+  version: 2.0.1+ds-4
+  bugs:
+    - 848063
 ricochet:
   version: 0.4+nmu1
   bugs:
