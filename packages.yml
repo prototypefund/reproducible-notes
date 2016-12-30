@@ -29886,6 +29886,11 @@ sonnet:
   comments: |
     Caused by QHash usage (instead of QMap?) in data/parsetrigrams.cpp. Could
     also be filesystem ordering here too.
+sope:
+  version: 3.2.4-0.1
+  issues:
+    - build_id_differences_only
+    - records_build_flags
 soprano:
   version: 2.9.4+dfsg-4
   issues:
