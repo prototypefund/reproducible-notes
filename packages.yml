@@ -3249,10 +3249,6 @@ clitest:
   version: 0.0+git20150312.339b52-1
   issues:
     - blacklisted_on_jenkins_armhf_only
-clojure1.6:
-  version: 1.6.0+dfsg-1
-  comments: |
-    Generates code in non-deterministic order. Check emit in ./src/jvm/clojure/lang/Compiler.java, especially around PersistentMap - smells like dict key access order. See also clojure1.2
 cloop:
   version: 3.14.1.1
   issues:
