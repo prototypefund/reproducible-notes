@@ -6860,6 +6860,15 @@ flake:
   version: 0.11-2
   issues:
     - captures_build_path
+flamerobin:
+  version: 0.9.3~+20150308.6c0559c-1
+  comments: |
+    First difference is in the '.debug_info' section, however, I couldn't find a length difference in the dumped portion of it.
+    │ -  [31] .debug_info       PROGBITS        0000000000000000 0046db ed695d 00   C  0   0  1
+    │ +  [31] .debug_info       PROGBITS        0000000000000000 0046db ed69d1 00   C  0   0  1
+  issues:
+    - captures_build_path
+    - max_output_size_reached
 flann:
   version: 1.8.4-4.1
   issues:
@@ -20573,6 +20582,17 @@ openmeeg:
     - captures_build_path
   bugs:
     - 730904
+openmolar:
+  version: 1.0.15-gd81f9e5-1
+  comments: |
+    1) Captures build path in comments of the form
+    │ -# Form implementation generated from reading ui file '/build/1st/openmolar-1.0.15-gd81f9e5/src/openmolar/qt-designer/activeDentStartFinish.ui'
+    │ +# Form implementation generated from reading ui file '/build/openmolar-1.0.15-gd81f9e5/2nd/src/openmolar/qt-designer/activeDentStartFinish.ui'
+    This is apparently a QT-wide thing, but unknown which build dependency generates these comments.
+    .
+    2) Unknown difference in a QT resource
+  issues:
+    - captures_build_path
 openmpi:
   version: 1.6.5-9.1
   issues:
@@ -31505,6 +31525,12 @@ tkgate:
   version: 2.0~b10-5
   issues:
     - captures_build_path
+tkhtml1:
+  version: 1.04-1
+  comments: |
+    Installs usr/lib/tcltk/x86_64-linux-gnu/tkhtml1Config.sh with references to the build directory.
+    .
+    That might be a bona fide (non-reproducibility) bug.
 tkrat:
   version: 1:2.2cvs20100105-true-dfsg-6
   issues:
