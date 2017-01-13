@@ -21856,20 +21856,6 @@ php-solr:
   version: 2.4.0-3
   issues:
     - captures_build_path
-php5:
-  version: 5.6.16+dfsg-3
-  comments: |
-    upstream bug: https://bugs.php.net/bug.php?id=69727
-    Timestamps get embedded in PEAR/PECL registry files.
-    Test results capturing quite of the environment in
-    ./usr/share/doc/php5-common/test-results.txt.gz
-  issues:
-    - different_due_to_umask
-    - captures_kernel_version
-    - captures_build_path
-    - user_hostname_manually_added_requiring_further_investigation
-  bugs:
-    - 828498
 php7.0:
   version: 7.0.4-6
   comments: |
