@@ -24440,6 +24440,8 @@ python-scciclient:
     - 816735
 python-schema-salad:
   version: 2.2.20170111180227-1
+  issues:
+    - help2man_puts_traceback_in_generated_man_page
   bugs:
     - 851336
 python-scipy:
@@ -34542,3 +34544,7 @@ zypper:
   issues:
     - captures_build_path
     - diffoscope_runs_forever
+plip:
+  version: 1.3.3+dfsg-1
+  issues:
+    - help2man_puts_traceback_in_generated_man_page
