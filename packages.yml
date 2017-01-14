@@ -28899,6 +28899,18 @@ scheme9:
   issues:
     - pdf_created_by_ghostscript
     - captures_build_path
+schleuder:
+  version: 3.0.0~beta17-1
+  comments: |
+    [armhf,i386 only]
+    In the database /usr/lib/ruby/vendor_ruby/schleuder/db/test.sqlite3 ,
+    in the table "schema_migrations",
+    the entries are .dump'd in a different order.
+    -- CREATE TABLE IF NOT EXISTS "schema_migrations" ("version" varchar NOT NULL);
+    .
+    The order is not significant in this case,
+    so it's not clear whether this should be fixed
+    in the package, or in sqlite, or in diffoscope.
 schroot:
   version: 1.6.10-2
   issues:
