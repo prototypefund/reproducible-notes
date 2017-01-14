@@ -24438,6 +24438,10 @@ python-scciclient:
   version: 0.2.0-2
   bugs:
     - 816735
+python-schema-salad:
+  version: 2.2.20170111180227-1
+  bugs:
+    - 851336
 python-scipy:
   version: 0.14.1-1
   issues:
@@ -29833,6 +29837,12 @@ soapdenovo2:
   version: 240+dfsg1-1
   bugs:
     - 847171
+soapyosmo:
+  version: 0.2.4-1
+  comments: |
+    The first non-KDE package I've seen with this issue.
+  issues:
+    - build_id_differences_only
 soapyremote:
   version: 0.3.1-1
   issues:
