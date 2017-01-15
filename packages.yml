@@ -556,6 +556,12 @@ ant:
   version: 1.9.4-3
   issues:
     - randomness_in_gcj_output
+  bugs:
+    - 850553
+    - 850992
+    - 851025
+    - 851036
+    - 851040
 antelope:
   version: 3.5.1-3
   issues:
@@ -4179,6 +4185,7 @@ cython:
   bugs:
     - 820183
     - 846879
+    - 848753
 d-feet:
   version: 0.3.11-2
   bugs:
@@ -5160,6 +5167,7 @@ dogtag-pki:
     - captures_build_path
   bugs:
     - 811788
+    - 846714
 dolfin:
   version: 1.6.0-4
   issues:
@@ -6680,6 +6688,8 @@ ffmpeg:
   version: 7:3.1.2-1
   issues:
     - too_much_input_for_diff
+  bugs:
+    - 851026
 ffmpeg2theora:
   version: 0.30-1
   bugs:
@@ -8318,6 +8328,9 @@ gerbv:
   version: 2.6.0-1.1
   issues:
     - captures_build_path
+  bugs:
+    - 850683
+    - 851190
 geronimo-jpa-2.0-spec:
   version: 1.1-2
   issues:
@@ -12363,6 +12376,7 @@ keystone:
   version: 2:10.0.0-2
   bugs:
     - 843865
+    - 851045
 keytouch-editor:
   version: 1:3.2.0~beta-3
   issues:
@@ -13698,6 +13712,8 @@ libbitcoin:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
+  bugs:
+    - 841620
 libbitmask:
   version: 2.0-2
   bugs:
@@ -14533,6 +14549,8 @@ libindicate:
   version: 0.6.92-3
   issues:
     - captures_build_path
+  bugs:
+    - 849932
 libindicator:
   version: 0.5.0-3
   issues:
@@ -15325,10 +15343,14 @@ libpqxx:
   version: 4.0.1+dfsg-5
   issues:
     - different_encoding_in_html_by_docbook_xsl
+  bugs:
+    - 851022
 libprelude:
   version: 1.0.0-11.7
   issues:
     - captures_build_path
+  bugs:
+    - 844897
 libpreludedb:
   version: 1.0.0-2.3
   issues:
@@ -16209,6 +16231,8 @@ lightspark:
   version: 0.7.2+git20150512-2.1
   issues:
     - captures_build_path
+  bugs:
+    - 841571
 lightspeed:
   version: 1.2a-10
   bugs:
@@ -17834,6 +17858,8 @@ molds:
   version: 0.3.1-1
   issues:
     - captures_build_path
+  bugs:
+    - 851042
 mon-contrib:
   version: 1.0+dfsg-3
   bugs:
@@ -17915,6 +17941,8 @@ mono:
   issues:
     - captures_build_path
     - timestamps_in_pe_binaries
+  bugs:
+    - 849655
 mono-addins:
   version: 1.0+git20130406.adcd75b-3
   issues:
@@ -28065,6 +28093,8 @@ ruby-dataobjects-mysql:
   version: 0.10.16-1
   issues:
     - captures_build_path
+  bugs:
+    - 841583
 ruby-dataobjects-postgres:
   version: 0.10.16-1
   issues:
@@ -28243,6 +28273,7 @@ ruby-http:
   version: 0.6.1-1
   bugs:
     - 818460
+    - 848757
 ruby-http-parser.rb:
   version: 0.6.0-3
   issues:
@@ -29059,6 +29090,8 @@ sdb:
   issues:
     - timestamps_in_pe_binaries
     - clilibs_line_order
+  bugs:
+    - 849069
 sdcc:
   version: 3.5.0+dfsg-2
   comments: |
@@ -31142,6 +31175,7 @@ tcsh:
   version: 6.18.01-5
   bugs:
     - 833965
+    - 851046
 tdbc:
   version: 1.0.4-1
   issues:
@@ -31334,6 +31368,7 @@ theano:
   version: 0.8.2-3
   bugs:
     - 835531
+    - 848764
 thepeg:
   version: 1.8.0-1
   bugs:
@@ -31487,6 +31522,7 @@ tk-brief:
   version: 5.9-1.1
   bugs:
     - 733433
+    - 223915
 tk-html3:
   version: 3.0~fossil20110109-6
   comments: |
