@@ -22636,15 +22636,6 @@ prettytable:
   version: 0.7.2-3
   bugs:
     - 792591
-pretzel:
-  version: 2.0n-2-0.3
-  comments: |
-    strsave.o.gz differs, but only the gzip file (at the end).
-    The uncompressed file is identical. Reason unknown.
-  issues:
-    - ftbfs_old_compat_debheper_compat_level
-  bugs:
-    - 800198
 preview.app:
   version: 0.8.5-10
   issues:
