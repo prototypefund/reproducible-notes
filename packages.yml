@@ -4693,6 +4693,8 @@ devio:
     - captures_build_path
 devscripts:
   version: 2.16.5
+  issues:
+    - ftbfs_due_to_jenkins_semaphore_setup
   bugs:
     - 825228
 devtodo:
@@ -23445,6 +23447,8 @@ pytango:
     - randomness_in_documentation_generated_by_sphinx
 pytest:
   version: 3.0.4-1
+  issues:
+    - ftbfs_due_to_jenkins_semaphore_setup
   bugs:
     - 844919
 pytest-httpbin:
