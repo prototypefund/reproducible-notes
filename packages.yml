@@ -32985,7 +32985,7 @@ webissues:
 webkit2gtk:
   version: 2.8.5+dfsg1-2
   comments: |
-    Lunar thinks we need parallel processing implemented in diffoscope before it can deal with such big packages. (The artifacts dumped were 18GB.)
+    Lunar thinks we need parallel processing implemented in diffoscope before it can deal with such big packages. (At that time the artifacts dumped were 18GB, today they are only 2*2GB.)
   issues:
     - blacklisted_on_jenkins
 webkitgtk:
