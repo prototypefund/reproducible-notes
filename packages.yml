@@ -5771,6 +5771,8 @@ electric-fence:
     - captures_build_path
 elektra:
   version: 0.8.14-5
+  comments: |
+    blacklisted in arm64 as it creates a huge (100 GB) temp file, see https://bugs.debian.org/851592
   issues:
     - blacklisted_on_jenkins_armhf_only
     - captures_build_path
@@ -5778,6 +5780,7 @@ elektra:
     - records_build_flags
   bugs:
     - 846200
+    - 851592
 elementary:
   version: 1.8.5-2
   issues:
