@@ -8729,6 +8729,7 @@ glibc:
   version: 2.24-7
   comments: |
     847596 is a misc locale-related issue
+    844420 is the cause for the FTBFS error in our setup…
   issues:
     - timestamps_in_tarball
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
@@ -8736,6 +8737,7 @@ glibc:
     - 783210
     - 844420
     - 847596
+    - 844420
 glide:
   version: 2002.04.10ds1-11
   issues:
