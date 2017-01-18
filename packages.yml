@@ -10528,6 +10528,15 @@ hg-git:
   version: 0.8.5-4
   bugs:
     - 843635
+hhsuite:
+  version: 3.0~beta2+dfsg-1
+  comments: |
+    Package-specific issue: the default value of '-pre_evalue_thresh' in the man page differs due to #851764.
+  issues:
+    - max_output_size_reached
+    - captures_build_path_via_assert
+  bugs:
+    - 851764
 hhvm:
   version: 3.12.1+dfsg-1
   bugs:
