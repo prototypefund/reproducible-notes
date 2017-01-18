@@ -632,10 +632,6 @@ apache-directory-jdbm:
   version: 2.0.0~M2-1
   issues:
     - random_order_in_java_jar_manifest_mf
-apache-log4j-extras1.2:
-  version: 1.2.17-1
-  issues:
-    - different_encoding
 apache-log4j2:
   version: 2.6.2-1
   issues:
@@ -1864,10 +1860,6 @@ binpac:
   version: 0.44-1
   issues:
     - captures_build_path
-bintray-client-java:
-  version: 0.8.1-1
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 binutils:
   version: 2.26-11
   comments: |
@@ -2214,7 +2206,6 @@ botan1.10:
 botch:
   version: 0.5-1~experimental1
   issues:
-    - timezones_manpages_podman
     - randomness_in_ocaml_preprocessed_files
 bottlerocket:
   version: 0.05b3-14.1
@@ -3470,10 +3461,6 @@ colord-gtk:
   version: 0.1.26-1
   bugs:
     - 837843
-colorpicker:
-  version: 1.0.0-2
-  issues:
-    - different_encoding
 colortail:
   version: 0.3.3-1
   issues:
@@ -3567,10 +3554,6 @@ condor:
   issues:
     - timestamps_from_cpp_macros
     - different_due_to_umask
-    - captures_build_path
-config-manager:
-  version: 0.4-2.2
-  issues:
     - captures_build_path
 configshell:
   version: 1.6.1~g020d540-2
@@ -4724,9 +4707,6 @@ dh-make-golang:
     - golang_compiler_captures_build_path_in_binary
 dh-ocaml:
   version: 1.0.10
-  issues:
-    - lynx_dump_varies_output_with_locale
-    - different_encoding
   bugs:
     - 830282
 dhcp-probe:
@@ -5082,8 +5062,6 @@ dnssec-trigger:
     - 833818
 doc-debian:
   version: 6.3
-  issues:
-    - different_encoding
   bugs:
     - 826544
 doc-linux-fr:
@@ -5450,8 +5428,6 @@ dvdauthor:
     - 841694
 dvdisaster:
   version: 0.72.4-1
-  issues:
-    - captures_build_path
   bugs:
     - 848811
 dvgrab:
@@ -5788,10 +5764,6 @@ elementtidy:
     - captures_build_path
   bugs:
     - 828880
-elfutils:
-  version: 0.166-2
-  issues:
-    - captures_build_path
 elida:
   version: 0.4+nmu1
   issues:
@@ -6362,8 +6334,6 @@ fail2ban:
     - 817881
 fake:
   version: 1.1.11-1
-  issues:
-    - timestamps_in_gzip_headers
   bugs:
     - 776949
 fakechroot:
@@ -7398,10 +7368,6 @@ free42-nologo:
   version: 1.4.77-1.1
   bugs:
     - 811760
-freebirth:
-  version: 0.3.2-9.1
-  issues:
-    - captures_build_path
 freebsd-buildutils:
   version: 10.3~svn296373-3
   issues:
@@ -8326,8 +8292,6 @@ geomview:
     - captures_build_path
 gerbv:
   version: 2.6.0-1.1
-  issues:
-    - captures_build_path
   bugs:
     - 850683
     - 851190
@@ -8395,10 +8359,6 @@ gevent-socketio:
   version: 0.3.6-2
   issues:
     - copyright_year_in_documentation_generated_by_sphinx
-gexec:
-  version: 0.4-1
-  issues:
-    - captures_build_path
 gf-complete:
   version: 1.0.2-2
   issues:
@@ -8548,9 +8508,6 @@ git-annex:
     - ghc_captures_build_path_via_tempdir
 git-buildpackage:
   version: 0.6.22
-  issues:
-    - captures_build_path
-    - randomness_in_documentation_generated_by_epydoc
   bugs:
     - 820846
 git-crypt:
@@ -8612,8 +8569,6 @@ gjay:
     - captures_build_path
 gjiten:
   version: 2.6-2.3
-  issues:
-    - different_encoding
   bugs:
     - 817334
 gjs:
@@ -8750,10 +8705,6 @@ glob2:
     - captures_build_path
   bugs:
     - 812167
-global:
-  version: 5.7.1-2
-  issues:
-    - captures_build_path
 globjects:
   version: 0.5.0-1
   issues:
@@ -10140,7 +10091,6 @@ gts:
 guacamole-client:
   version: 0.8.3-1.2
   issues:
-    - timestamps_in_jar
     - user_in_java_jar_manifest
     - random_order_in_java_jar_manifest_mf
 guacamole-server:
@@ -11440,10 +11390,6 @@ ivtools:
     - different_due_to_umask
   bugs:
     - 811717
-ivyplusplus:
-  version: 1.14-2
-  issues:
-    - different_encoding
 iwyu:
   version: 3.8-1
   issues:
@@ -11545,10 +11491,6 @@ jakarta-jmeter:
   version: 2.11-2
   issues:
     - user_in_java_jar_manifest
-jalv:
-  version: 1.4.6~dfsg0-1
-  issues:
-    - captures_build_path
 jalview:
   version: 2.7.dfsg-5
   bugs:
@@ -13307,7 +13249,6 @@ lbzip2:
 lcgdm:
   version: 1.8.7-3.1
   issues:
-    - timestamps_from_cpp_macros
     - random_order_in_static_libraries
   bugs:
     - 828373
@@ -15822,10 +15763,6 @@ libtime-period-perl:
   version: 1.20-8.1
   bugs:
     - 800235
-libtk-img:
-  version: 1:1.4.2+dfsg-2
-  issues:
-    - different_encoding
 libtk-tablematrix-perl:
   version: 1.23-6.1
   issues:
@@ -16082,14 +16019,6 @@ libxerces2-java:
   version: 2.11.0-7
   issues:
     - randomness_in_gcj_output
-    - different_encoding
-libxfont:
-  version: 1:1.5.1-1
-  issues:
-    - different_encoding
-libxfont1:
-  version: 1:1.5.2-4
-  issues:
     - different_encoding
 libxml++2.6:
   version: 2.38.1-1
@@ -17201,10 +17130,6 @@ matplotlib:
     - captures_build_path
   bugs:
     - 802776
-mauve-aligner:
-  version: 2.4.0+4734-1
-  issues:
-    - implementation_version_in_java_manifest_mf
 maven:
   version: 3.0.5-3
   issues:
@@ -17674,7 +17599,6 @@ mkosi:
 mkvtoolnix:
   version: 9.1.0-1
   issues:
-    - timestamps_from_cpp_macros
     - diffoscope_runs_forever
 mldemos:
   version: 0.5.1-3
@@ -18454,8 +18378,6 @@ musicbrainzngs:
     - 842205
 musl:
   version: 1.1.9-1.2
-  issues:
-    - captures_build_path
   bugs:
     - 812278
 mutrace:
@@ -18947,8 +18869,6 @@ netty:
   version: 1:4.0.34-1
   comments: |
     Timestamps in io.netty.versions.properties files.
-  issues:
-    - timestamp_added_by_java_util_properties
 netty-tcnative:
   version: 1.1.33.Fork23-1
   bugs:
@@ -20583,9 +20503,6 @@ openldap:
   comments: |
     Embeds username and hostname.
     https://sources.debian.net/src/openldap/2.4.42%2Bdfsg-2/build/mkversion/?hl=75#L53
-  issues:
-    - captures_build_path
-    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 833179
 openlp:
@@ -20866,7 +20783,6 @@ osgi-compendium:
   version: 4.3.0-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-    - different_encoding
 osinfo-db:
   version: 0.20160728+git20161020-1
   comments: |
@@ -21219,10 +21135,6 @@ partimage:
   version: 0.6.9-3
   bugs:
     - 828489
-partitionmanager:
-  version: 1.0.3-2.1
-  issues:
-    - captures_build_path
 pasdoc:
   version: 0.13.0-1
   issues:
@@ -21563,10 +21475,6 @@ pdfcube:
   version: 0.0.5-2
   bugs:
     - 822432
-pdfminer:
-  version: 20140328+dfsg-1
-  issues:
-    - different_encoding
 pdfmod:
   version: 0.9.1-8
   issues:
@@ -21747,7 +21655,6 @@ pgadmin3:
   version: 1.22.1-1
   issues:
     - diffoscope_runs_forever
-    - timestamps_from_cpp_macros
     - sphinx_htmlhelp_readdir_sensitive
 pgbouncer:
   version: 1.7.2-1
@@ -21953,10 +21860,6 @@ picviz:
     - captures_build_path
   bugs:
     - 844967
-pida:
-  version: 0.5.1-6
-  issues:
-    - captures_build_path
 pidentd:
   version: 3.0.19.ds1-7.1
   issues:
@@ -22394,10 +22297,6 @@ polymake:
   version: 3.0r2-2
   issues:
     - diffoscope_runs_forever
-polyml:
-  version: 5.6-7
-  issues:
-    - records_build_flags
 polyorb:
   version: 2.11~20140418-3
   issues:
@@ -22437,10 +22336,6 @@ portreserve:
   version: 0.0.4-1
   issues:
     - captures_build_path
-portsmf:
-  version: 0.1~svn20101010-4
-  issues:
-    - records_build_flags
 posixtestsuite:
   version: 1.5.2-5
   comments: |
@@ -22609,10 +22504,6 @@ pppoeconf:
     - docbook_to_man_one_byte_delta
 pps-tools:
   version: 0.20120406+g0deb9c7e-2
-  issues:
-    - captures_build_path
-pptp-linux:
-  version: 1.8.0-1
   issues:
     - captures_build_path
 ppx-core:
@@ -23792,10 +23683,6 @@ python-dugong:
   version: 3.5+dfsg-1
   issues:
     - randomness_in_objects_inv
-python-edbus:
-  version: 0.5.0+r49577-1.2
-  issues:
-    - captures_build_path
 python-enable:
   version: 4.5.1-2
   bugs:
@@ -24282,10 +24169,6 @@ python-pex:
   issues:
     - copyright_year_in_documentation_generated_by_sphinx
     - captures_build_arch
-python-pgmagick:
-  version: 0.6.2-1
-  issues:
-    - captures_build_path
 python-phoneutils:
   version: 0.1+git20100219-1.1
   issues:
@@ -24488,11 +24371,6 @@ python-secretstorage:
   version: 2.1.1-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
-python-setproctitle:
-  version: 1.1.8-1
-  issues:
-    - different_encoding
-    - captures_build_path
 python-sfml:
   version: 2.2~git20150611.196c88+dfsg-3
   issues:
@@ -24701,8 +24579,6 @@ pyvtk:
     - captures_build_path
 pywavelets:
   version: 0.3.0-1
-  issues:
-    - captures_build_path
   bugs:
     - 808459
 pywbem:
@@ -27299,10 +27175,6 @@ rbdoom3bfg:
   version: 1.0.3+repack1+git20151124-2
   issues:
     - captures_build_path
-rbldnsd:
-  version: 0.997a-1
-  issues:
-    - captures_build_path
 rbootd:
   version: 2.0-10
   issues:
@@ -27359,10 +27231,6 @@ rdp-alignment:
   version: 1.2.0-1
   bugs:
     - 841440
-rdup:
-  version: 1.1.11-1.1
-  issues:
-    - captures_build_path
 re:
   version: 0.1-6
   bugs:
@@ -27459,8 +27327,6 @@ referencer:
 refpolicy:
   version: 2:2.20140421-7
   issues:
-    - timestamps_in_tarball
-    - different_due_to_umask
     - random_order_in_tarball
 regexxer:
   version: 0.10-1
@@ -27882,8 +27748,6 @@ rozofs:
     - captures_build_path
 rp-pppoe:
   version: 3.8-3
-  issues:
-    - different_due_to_umask
   bugs:
     - 817658
 rpart:
@@ -29256,10 +29120,6 @@ sfepy:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - cython_captures_build_path
-sfront:
-  version: 0.99-1
-  issues:
-    - captures_build_path
 sfst:
   version: 1.4.7b-1
   comments: |
@@ -29502,10 +29362,6 @@ simpleparse:
   version: 2.1.0a1-7
   bugs:
     - 824738
-simplyhtml:
-  version: 0.16.08-1
-  issues:
-    - locale_in_documentation_generated_by_javadoc
 simstring:
   version: 1.0-1
   issues:
@@ -30405,10 +30261,6 @@ stl-manual:
   version: 3.30-13
   bugs:
     - 833214
-stockfish:
-  version: 5.0.dd+git20140823-1
-  issues:
-    - timestamps_from_cpp_macros
 stone:
   version: 2.3.e-2
   bugs:
@@ -31416,11 +31268,6 @@ tigervnc:
   bugs:
     - 843543
     - 846733
-tightvnc:
-  version: 1.3.9-6.5
-  issues:
-    - lynx_dump_varies_output_with_locale
-    - captures_build_path
 tigr-glimmer:
   version: 3.02-5
   issues:
@@ -32047,10 +31894,6 @@ u1db:
   version: 13.10-6.2
   issues:
     - captures_build_path
-u3-tool:
-  version: 0.3-1.1
-  issues:
-    - captures_build_path
 uanytun:
   version: 0.3.5-1
   issues:
@@ -32343,8 +32186,6 @@ unixcw:
   version: 3.4.2-1
   comments: |
     Signatures and functions in manpage are generated in src/libcw/Makefile.am without a locale-independent sort
-  issues:
-    - collation_order_varies_by_locale
 unixodbc-gui-qt:
   version: 2.3.0-4
   issues:
@@ -32790,8 +32631,6 @@ vmfs-tools:
     - captures_build_path
 vmm:
   version: 0.6.2-1
-  issues:
-    - timestamps_in_gzip_headers
   bugs:
     - 777364
 vmmlib:
@@ -32804,8 +32643,6 @@ vmware-nsx:
     - 840930
 vnc4:
   version: 4.1.1+X4.3.0-37.4
-  issues:
-    - timestamps_from_cpp_macros
   bugs:
     - 811783
 volk:
@@ -33244,20 +33081,12 @@ wmix:
   version: 3.1-5
   bugs:
     - 817723
-wmlongrun:
-  version: 0.3.0-pre1-4.3
-  issues:
-    - captures_build_path
 wmmixer:
   version: 1.7+20120605-1
   issues:
     - captures_build_path
 wmnet:
   version: 1.06-1
-  issues:
-    - captures_build_path
-wmnut:
-  version: 0.64-1.1
   issues:
     - captures_build_path
 wmpuzzle:
@@ -33355,11 +33184,6 @@ wsdl4j:
   version: 1.6.3-1
   bugs:
     - 820809
-wsil4j:
-  version: 1.0.0-1
-  issues:
-    - locale_in_documentation_generated_by_javadoc
-    - different_encoding
 wsjt:
   version: 9.7.r3639+dfsg-1
   issues:
@@ -33398,34 +33222,11 @@ wysihtml:
   version: 0.13-5.2
   bugs:
     - 817729
-x11proto-bigreqs:
-  version: 1:1.1.2-1
-  issues:
-    - different_encoding
 x11proto-core:
   version: 7.0.26-1
   issues:
     - timestamps_in_pdf_generated_by_apache_fop
     - too_much_input_for_diff
-x11proto-record:
-  version: 1.14.2-1
-  issues:
-    - xmlto_txt_output_locale_specific
-    - different_encoding
-x11proto-scrnsaver:
-  version: 1.2.2-1
-  issues:
-    - xmlto_txt_output_locale_specific
-x11proto-xcmisc:
-  version: 1.2.2-1
-  issues:
-    - xmlto_txt_output_locale_specific
-    - different_encoding
-x11proto-xext:
-  version: 7.3.0-1
-  issues:
-    - xmlto_txt_output_locale_specific
-    - different_encoding
 x11vnc:
   version: 0.9.13-1.2
   comments: |
@@ -33541,10 +33342,6 @@ xcolmix:
   version: 1.07-10
   issues:
     - captures_build_path
-xcrysden:
-  version: 1.5.60-1
-  issues:
-    - different_encoding
 xd:
   version: 3.25.00-1
   issues:
@@ -33771,11 +33568,6 @@ xmille:
   version: 2.0-13
   issues:
     - captures_build_path
-xml-commons-external:
-  version: 1.4.01-2
-  issues:
-    - locale_in_documentation_generated_by_javadoc
-    - different_encoding
 xml-security-c:
   version: 1.7.3-3
   bugs:
@@ -33851,10 +33643,6 @@ xmlstreambuffer:
   version: 1.5.4-1
   issues:
     - random_order_in_java_jar_manifest_mf
-xmlto:
-  version: 0.0.28-0.1
-  issues:
-    - captures_build_path
 xmltooling:
   version: 1.6.0-3
   bugs:
@@ -33986,8 +33774,6 @@ xrdp:
       2) The modulus and signature are random
     .
     Haven't examined the private key (what's the openssl(1) incantation for that?) but presumably it's the same issues there.
-  issues:
-    - cryptographic_signature
 xscorch:
   version: 0.2.1-1+nmu1
   issues:
@@ -34105,10 +33891,6 @@ xtide:
     Seems to be caused by build_tide_db in tcd-utils
   issues:
     - captures_build_path
-xtrans:
-  version: 1.3.5-1
-  issues:
-    - different_encoding
 xtrkcad:
   version: 1:4.2.2-1.2
   issues:
@@ -34330,10 +34112,6 @@ yrmcds:
   version: 1.1.8-1
   comments: |
     Fixed upstream: https://github.com/cybozu/yrmcds/commit/04cda93
-yt:
-  version: 3.2.1-2
-  issues:
-    - cython_captures_build_path
 ytree:
   version: 1.94-1.1
   issues:
@@ -34375,7 +34153,6 @@ zaqar:
 zathura:
   version: 0.3.6-2
   issues:
-    - timestamps_in_manpages_generated_by_sphinx
     - timestamps_in_manpages_generated_by_rst2man
 zathura-pdf-poppler:
   version: 0.2.6-1
