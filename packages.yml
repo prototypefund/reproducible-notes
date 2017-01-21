@@ -820,10 +820,6 @@ apt:
     - captures_build_path
   bugs:
     - 848721
-apt-build:
-  version: 0.12.45
-  issues:
-    - captures_build_path
 apt-cacher-ng:
   version: 0.9.3-1
   comments: |
@@ -1689,10 +1685,6 @@ bcftools:
     - 819617
 bcron:
   version: 0.10-3
-  issues:
-    - timestamps_in_gzip_headers
-    - different_due_to_umask
-    - timestamp_in_info_file_created_by_makeinfo
   bugs:
     - 777288
     - 792996
@@ -3789,10 +3781,6 @@ crawl:
   issues:
     - captures_build_path
     - diffoscope_runs_forever
-crda:
-  version: 3.13-1
-  issues:
-    - captures_build_path
 criticalmass:
   version: 1:1.0.0-3
   comments: |
@@ -6674,7 +6662,6 @@ fife:
   version: 0.3.5-1
   issues:
     - diffoscope_runs_forever
-    - captures_build_path
   bugs:
     - 811858
 fifechan:
@@ -8694,9 +8681,6 @@ gmime:
   version: 2.6.20-1
   comments: |
     Unidentified variation in /usr/lib/cli/gmime-sharp-2.6/gmime-sharp.dll
-  issues:
-    - captures_build_path
-    - records_build_flags
 gmodels:
   version: 2.16.2-2
   issues:
@@ -10997,7 +10981,6 @@ insubstantial:
 integrit:
   version: 4.1-1
   issues:
-    - timestamps_in_gzip_headers
     - random_order_in_md5sums
   bugs:
     - 776973
@@ -15005,10 +14988,6 @@ libosl:
   version: 0.6.0-3.3
   bugs:
     - 811692
-libosmium:
-  version: 2.8.0-2
-  issues:
-    - captures_build_path
 libowfat:
   version: 0.30-2
   issues:
@@ -22516,7 +22495,6 @@ proxycheck:
 psgml:
   version: 1.4.0-5
   issues:
-    - timestamps_in_gzip_headers
     - random_order_in_md5sums
   bugs:
     - 777505
@@ -28565,10 +28543,6 @@ scotch:
     - timestamps_in_gzip_headers
   bugs:
     - 787997
-scottfree:
-  version: 1.14-9
-  issues:
-    - captures_build_path
 scowl:
   version: 7.1-1
   bugs:
