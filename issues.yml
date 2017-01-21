@@ -538,12 +538,9 @@ different_pot_creation_date_in_gettext_mo_files:
   url: https://bugs.debian.org/792687
 ftbfs_due_to_jenkins_semaphore_setup:
   description: |
-    Something interesting in the Jenkins setup where we can't use semaphores.
-    Affects quite a few Python packages.
+    Something interesting in the Jenkins setup where semaphores could not be used correctly.
     .
-    grep BINDMOUNTS="/dev/shm" in jenkins.debian.net too.
-    Might just need "none /dev/shm tmpfs rw,nosuid,nodev,noexec 0 0" in fstab
-    of all the nodes.
+    Should not affect any package anymore as /dev/shm has been fixed on all nodes and it's correct mounting is being monitored too.
 ftbfs_in_jenkins_setup:
   description: |
     Could be:
