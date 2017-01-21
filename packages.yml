@@ -277,6 +277,8 @@ afl:
   version: 2.34b-2
   issues:
     - captures_build_path
+  bugs:
+    - 852049
 afnix:
   version: 2.2.0-2
   comments: |
@@ -2398,6 +2400,8 @@ c-blosc:
   version: 1.9.1-1
   issues:
     - captures_build_path
+  bugs:
+    - 852050
 c-icap:
   version: 1:0.4.3-2
   issues:
@@ -2427,6 +2431,8 @@ cadvisor:
   version: 0.19.3+dfsg-3
   issues:
     - diffoscope_runs_forever
+  bugs:
+    - 846705
 cafeobj:
   version: 1.5.2-2
   issues:
@@ -15715,6 +15721,7 @@ libvigraimpex:
     - captures_build_path
   bugs:
     - 811370
+    - 852051
 libvirt:
   version: 2.1.0-1
   comments: |
