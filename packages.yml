@@ -1773,6 +1773,12 @@ bibletime:
   version: 2.10.1-3
   issues:
     - captures_build_path
+biboumi:
+  version: 4.0-1
+  issues:
+    - captures_kernel_version_via_CMAKE_SYSTEM
+    - captures_build_path_via_assert
+    - max_output_size_reached
 bibtex2html:
   version: 1.98-4
   comments: |
@@ -15199,10 +15205,8 @@ librabbitmq:
   comments: |
     Embeds the kernel version.
     https://sources.debian.net/src/librabbitmq/0.5.2-2/cmake/config.h.in/#L11
-    .
-    Use CMAKE_SYSTEM_NAME instead of CMAKE_SYSTEM (which includes the version).
   issues:
-    - captures_kernel_version
+    - captures_kernel_version_via_CMAKE_SYSTEM
     - captures_build_path
 libradsec:
   version: 0.0.5-2
