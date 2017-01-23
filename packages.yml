@@ -3090,14 +3090,6 @@ cjk:
   version: 4.8.3+git20140831-1
   issues:
     - timestamp_in_enc_files_added_by_texlive_fontinst
-ck:
-  version: 0.4.4-1
-  comments: |
-    Building ck takes >12h each currently because of #764827...
-  issues:
-    - blacklisted_on_jenkins
-  bugs:
-    - 764827
 ckbuilder:
   version: 2.3.0+dfsg-2
   issues:
