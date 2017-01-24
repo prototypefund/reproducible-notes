@@ -164,10 +164,6 @@ actor-framework:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - captures_build_path
-ada-reference-manual:
-  version: 1:2012.2-9
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
 adabrowse:
   version: 4.0.3-6
   issues:
@@ -4228,12 +4224,6 @@ dasher:
   version: 4.11+git20130508.adc653-3
   bugs:
     - 811640
-datalad:
-  version: 0.2.3-1
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
-  bugs:
-    - 835525
 datanommer.commands:
   version: 0.4.6-2
   bugs:
@@ -4596,10 +4586,6 @@ derivations:
   version: 0.53.20120414-2
   issues:
     - timestamps_in_ps_generated_by_dvips
-designate:
-  version: 1:3.0.0-1
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
 desklaunch:
   version: 1.1.8
   issues:
@@ -4634,10 +4620,6 @@ devio:
   version: 1.2-1.2
   issues:
     - captures_build_path
-devscripts:
-  version: 2.16.5
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
 devtodo:
   version: 0.1.20-6
   bugs:
@@ -4790,7 +4772,6 @@ dipy:
   issues:
     - timestamps_in_documentation_generated_by_sphinx
     - captures_build_path
-    - ftbfs_due_to_jenkins_semaphore_setup
   bugs:
     - 830425
 dircproxy:
@@ -6244,7 +6225,6 @@ fabric:
   version: 1.10.2-1
   issues:
     - copyright_year_in_documentation_generated_by_sphinx
-    - ftbfs_due_to_jenkins_semaphore_setup
 fabulous:
   version: 0.3.0+dfsg1-1
   issues:
@@ -6807,10 +6787,6 @@ flashbench:
   version: 62-1
   issues:
     - captures_build_path
-flashproxy:
-  version: 1.7-4
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
 flashrom:
   version: 0.9.7+r1852-1.1
   comments: |
@@ -10649,10 +10625,6 @@ hyphy:
   version: 2.2.6+dfsg-4
   bugs:
     - 811866
-i18nspector:
-  version: 0.25.2-1
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
 i3-wm:
   version: 4.10.4-1
   issues:
@@ -11589,10 +11561,6 @@ jnr-x86asm:
   version: 0.1-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-joblib:
-  version: 0.10.2-1
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
 joda-convert:
   version: 1.8.1-1
   issues:
@@ -14124,10 +14092,6 @@ libgmpada:
     - unknown_ada_issue
     - captures_build_path
     - records_build_flags
-libgnatcoll:
-  version: 1.7gpl2015-2
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
 libgnuinet-java:
   version: 1.1.2-2
   issues:
@@ -15030,10 +14994,6 @@ libparanoid-perl:
   version: 2.04-1
   bugs:
     - 848266
-libparse-debianchangelog-perl:
-  version: 1.2.0-11
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
 libparse-http-useragent-perl:
   version: 0.39-2
   bugs:
@@ -15675,13 +15635,6 @@ libusbtc08:
   version: 1.7.2-5
   bugs:
     - 811980
-libv8-3.14:
-  version: 3.14.5.8-10
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
-  bugs:
-    - 812304
-    - 831161
 libvcflib:
   version: 1.0.0~rc1+dfsg-1
   bugs:
@@ -15884,10 +15837,6 @@ libxs:
   version: 1.2.0-1.1
   bugs:
     - 815685
-libxshmfence:
-  version: 1.2-1
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
 libxss:
   version: 1:1.2.2-1
   issues:
@@ -16245,10 +16194,6 @@ logapp:
     - timestamps_in_gzip_headers
   bugs:
     - 792976
-logbook:
-  version: 0.12.3-1
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
 logfs-tools:
   version: 20121013-2
   issues:
@@ -17039,10 +16984,6 @@ mdocml:
   version: 1.13.3-3
   issues:
     - captures_build_path
-mdp:
-  version: 3.5-1
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
 meanwhile:
   version: 1.0.2-7
   issues:
@@ -17131,10 +17072,6 @@ meshlab:
   version: 1.3.2+dfsg1-2
   bugs:
     - 811634
-meson:
-  version: 0.35.1-1
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
 metacity-themes:
   version: 1.0.11
   bugs:
@@ -17830,10 +17767,6 @@ mozart-stdlib:
   version: 20060615-6
   bugs:
     - 842208
-mozc:
-  version: 2.18.2595.102+dfsg-1
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
 mozjs:
   version: 1.8.5-1.0.0+dfsg-4.5
   bugs:
@@ -19385,7 +19318,6 @@ numexpr:
   version: 2.6.1-1
   issues:
     - captures_build_path
-    - ftbfs_due_to_jenkins_semaphore_setup
 nunit:
   version: 2.6.3+dfsg-1
   issues:
@@ -21016,10 +20948,6 @@ pbcopper:
     via __FILE__
   issues:
     - captures_build_path
-pbgenomicconsensus:
-  version: 2.0.0+20160420-2
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
 pbseqlib:
   version: 0~20151014+gitbe5d1bf-2
   issues:
@@ -23048,10 +22976,6 @@ pyrenamer:
   version: 0.6.0-1.2
   bugs:
     - 825471
-pyresample:
-  version: 1.2.5-2
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
 pyrit:
   version: 0.4.0-7
   issues:
@@ -23064,8 +22988,6 @@ pyscanfcs:
     - cython_captures_build_path
 pysdl2:
   version: 0.9.3+dfsg2-1
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
   bugs:
     - 792197
 pyside:
@@ -23099,8 +23021,6 @@ pytango:
     - randomness_in_documentation_generated_by_sphinx
 pytest:
   version: 3.0.4-1
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
   bugs:
     - 844919
 pytest-httpbin:
@@ -23140,7 +23060,6 @@ python-asdf:
   version: 1.1.0-3
   issues:
     - randomness_in_documentation_generated_by_sphinx
-    - ftbfs_due_to_jenkins_semaphore_setup
 python-astropy:
   version: 1.0.3-3
   comments: |
@@ -23278,7 +23197,6 @@ python-cjson:
 python-cobra:
   version: 0.4.2~b1-1
   issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
     - captures_build_path
     - cython_captures_build_path
 python-cogent:
@@ -23286,10 +23204,6 @@ python-cogent:
   issues:
     - random_order_in_python_environment_pickle
     - cython_captures_build_path
-python-concurrent.futures:
-  version: 3.0.5-3
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
 python-congressclient:
   version: 1.1.0-2
   bugs:
@@ -23300,7 +23214,6 @@ python-crypto:
     looks like a separate indices sorting issue
   issues:
     - randomness_in_documentation_generated_by_sphinx
-    - ftbfs_due_to_jenkins_semaphore_setup
 python-cryptography:
   version: 1.5.2-1
   issues:
@@ -23335,10 +23248,6 @@ python-diskimage-builder:
   version: 1.0.0-1
   issues:
     - captures_build_path
-python-django:
-  version: 1:1.10.3-1
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
 python-django-compressor:
   version: 2.0-4
   bugs:
@@ -23462,7 +23371,6 @@ python-falcon:
   version: 0.3.0-5
   issues:
     - captures_build_path
-    - ftbfs_due_to_jenkins_semaphore_setup
 python-feather-format:
   version: 0.3.0+dfsg1-1
   bugs:
@@ -23551,10 +23459,6 @@ python-gudev:
   version: 147.2-3
   issues:
     - captures_build_path
-python-guess-language:
-  version: 0.5.2-3
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
 python-hacking:
   version: 0.10.2-4
   bugs:
@@ -23597,10 +23501,6 @@ python-jedi:
     - ftbfs_uninvestigated_test_failures
   bugs:
     - 830399
-python-jenkins:
-  version: 0.4.11-1
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
 python-jingo:
   version: 0.8-1
   bugs:
@@ -23674,10 +23574,6 @@ python-manilaclient:
   version: 1.5.0-1
   bugs:
     - 816735
-python-maxminddb:
-  version: 1.2.1-1
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
 python-mecab:
   version: 0.99.6-1
   issues:
@@ -23842,10 +23738,6 @@ python-oslo.serialization:
   version: 1.9.0-2
   bugs:
     - 816735
-python-oslo.service:
-  version: 1.16.0-2
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
 python-oslo.utils:
   version: 2.5.0-2
   bugs:
@@ -23950,9 +23842,7 @@ python-pycadf:
   bugs:
     - 816735
 python-pyftpdlib:
-  version: 1.2.0-1
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
+  version: 1.5.1-3
   bugs:
     - 790274
 python-pygit2:
@@ -24061,10 +23951,6 @@ python-riemann-client:
   version: 6.3.0-1
   bugs:
     - 835688
-python-ruffus:
-  version: 2.6.3+dfsg-4
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
 python-saharaclient:
   version: 0.11.1-3
   bugs:
@@ -24132,12 +24018,6 @@ python-taskflow:
       https://sources.debian.net/src/python-taskflow/1.30.0-2/taskflow/conductors/backends/impl_nonblocking.py/#L40
       https://sources.debian.net/src/python-taskflow/1.30.0-2/taskflow/utils/threading_utils.py/#L42
       https://docs.python.org/3/library/multiprocessing.html#multiprocessing.cpu_count
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
-python-tblib:
-  version: 1.3.0-1
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
 python-tcpwrap:
   version: 0.2-2.2
   bugs:
@@ -24154,12 +24034,6 @@ python-tidylib:
   version: 0.3.1~dfsg-1
   issues:
     - random_id_in_pdf_generated_by_dblatex
-python-tooz:
-  version: 0.13.1-2
-  comments: |
-    I think Jenkins is doing something funny with file descriptors so that the technique for waiting for the test mysqld instance to start doesn\'t work correctly, resulting in FTBFS. The refernce to /pg_ctl is a red herring btw.
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
 python-toscawidgets:
   version: 0.9.7.2-3
   comments: |
@@ -24620,10 +24494,6 @@ qtgraphicaleffects-opensource-src:
   issues:
     - timestamps_in_qch
     - captures_build_path
-qtile:
-  version: 0.10.6-3
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
 qtimageformats-opensource-src:
   version: 5.6.1-2
   issues:
@@ -24717,10 +24587,6 @@ qtwebchannel-opensource-src:
   version: 5.6.1-1
   issues:
     - captures_build_path
-qtwebengine-opensource-src:
-  version: 5.7.1+dfsg-1
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
 qtwebkit:
   version: 2.3.4.dfsg-3
   issues:
@@ -26799,10 +26665,6 @@ rakudo:
   issues:
     - nondeterminstic_output_generated_by_moarvm
     - captures_build_path
-rally:
-  version: 0.2.0-1
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
 randomplay:
   version: 0.60+nmu1
   bugs:
@@ -27098,10 +26960,6 @@ reposurgeon:
   version: 3.29-1
   issues:
     - timestamps_in_documentation_generated_by_asciidoc
-reproject:
-  version: 0.3.1-2
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
 repsnapper:
   version: 2.4a0-1
   bugs:
@@ -27448,10 +27306,6 @@ rplay:
   version: 3.3.2-16
   issues:
     - captures_build_path
-rpmlint:
-  version: 1.9-4
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
 rpy:
   version: 1.0.3-30
   issues:
@@ -29100,10 +28954,6 @@ skipfish:
     - captures_build_path
   bugs:
     - 828547
-sklearn-pandas:
-  version: 1.2.0-1
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
 skrooge:
   version: 2.4.0-2
   issues:
@@ -30219,10 +30069,6 @@ swi-prolog:
   issues:
     - captures_build_path
     - records_build_flags
-swift:
-  version: 2.10.0-2
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
 swift-im:
   version: 3.0.4-1
   bugs:
@@ -31071,10 +30917,6 @@ tolua++:
   version: 1.0.93-3
   issues:
     - captures_build_path
-tomahawk:
-  version: 0.7.1-2
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
 tomboy:
   version: 1.14.1-4
   comments: |
@@ -32100,10 +31942,6 @@ vim-command-t:
   version: 4.0-1
   issues:
     - captures_build_path
-vim-youcompleteme:
-  version: 0+20160327+git1b76af4-2
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
 vimoutliner:
   version: 0.3.4+pristine-9.1
   issues:
@@ -32801,10 +32639,6 @@ x265:
   version: 2.0-4
   issues:
     - captures_build_path
-x4d-icons:
-  version: 1.2-1
-  issues:
-    - ftbfs_due_to_jenkins_semaphore_setup
 x52pro:
   version: 0.1.1-2.3
   issues:
