@@ -1625,3 +1625,6 @@ captures_kernel_version_via_CMAKE_SYSTEM:
     .
     Parent issue: captures_kernel_version
   deterministic: False
+python_versioneer_uses_parentdir:
+  description: |
+    Embedded copies of versioneer use the build path to calculate a version.
