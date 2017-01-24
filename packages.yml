@@ -6802,14 +6802,6 @@ fldigi:
   version: 3.23.10-1
   issues:
     - captures_build_path
-fleet:
-  version: 0.11.5+dfsg1-4
-  issues:
-    - diffoscope_runs_forever
-    - captures_build_path
-    - golang_compiler_captures_build_path_in_binary
-  bugs:
-    - 848810
 flex:
   version: 2.6.0-11
   issues:
