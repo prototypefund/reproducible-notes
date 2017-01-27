@@ -1303,14 +1303,22 @@ captures_build_path:
     Captures build path, e.g., /build/1st/foo-42.0 v. /build/foo-42.0/2nd
     Currently we vary the build path only when testing packages from unstable and experimental, for stretch we recommend that rebuilds are done in the same path as the original build.
     .
+    Many of the packages here (~3k at the time of writing) may be better
+    re-classified under some other, more specific, build-path related issue
+    - most of which were added after many packages had already been classified
+    into this issue.
+    .
+    Here follows some general tips for packages using the standard GNU toolchain:
+    .
     If using autoconf, make sure you call ./configure via a relative and not absolute path.
     .
-    If this is related to using the `__FILE__` macro, we have a pending patch
-    to GCC to fix this in one central place.
+    If your issue is related to using the `__FILE__` macro, or the recording of
+    --debug-prefix-map flags in non-GCC non-debugging output, we have a pending
+    patch to GCC to fix this in one central place.
     .
     https://gcc.gnu.org/ml/gcc-patches/2016-11/msg00182.html
     .
-    If/when this is accepted, this issue should be fixed for all packages and
+    If/when this is accepted, this issue should be fixed for most packages and
     you should not need to fix it specifically in your package.
     .
     For more background information see:
