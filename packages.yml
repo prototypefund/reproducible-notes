@@ -8950,6 +8950,15 @@ gnumach:
   version: 2:1.7+git20160921-1
   issues:
     - captures_build_path
+gnumail:
+  version: 1.2.2-1.1
+  comments: |
+    1.2.2-1.1 is non-reproducible as of 2017-01-23T22:16.
+    1.2.2-1 was reproducible up to 2017-01-23T11:42.
+    .
+    The reason is probably the d/rules changes.  (Adding gnustep-make's config.mk and rewriting override_dh_auto_build)
+  issues:
+    - captures_build_path
 gnumeric:
   version: 1.12.28-1
   bugs:
@@ -15228,6 +15237,10 @@ libresample:
   version: 0.1.3-4
   issues:
     - records_build_flags
+libreswan:
+  version: 3.19-1
+  issues:
+    - captures_build_path_via_assert
 librevenge:
   version: 0.0.4-1
   comments: |
@@ -30735,6 +30748,12 @@ tigervnc:
   bugs:
     - 843543
     - 846733
+tightvnc:
+  version: 1:1.3.9-9
+  comments: |
+    Package is up for adoption (#586413).
+  issues:
+    - captures_build_path
 tigr-glimmer:
   version: 3.02-5
   issues:
