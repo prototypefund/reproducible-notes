@@ -7728,6 +7728,14 @@ gant:
   version: 1.9.9-3
   issues:
     - user_in_java_jar_manifest
+ganv:
+  version: 1.4.2~dfsg0-2
+  comments: |
+    In addition to the toolchain issues, there's a package-specific issue:
+      wscript:175:        pc_path = os.path.abspath(os.path.join(bld_dir, 'ganv-1.pc'))
+    that embeds the build dir in /usr/share/gir-1.0/Ganv-1.0.gir.
+  issues:
+    - captures_build_path
 gap:
   version: 4r8p4-1
   issues:
