@@ -2920,8 +2920,8 @@ check-mk:
     - captures_build_path
 check-postgres:
   version: 2.22.0-1
-  issues:
-    - ftbfs_uninvestigated_test_failures
+  bugs:
+    - 790231
 checkpw:
   version: 1.02-1
   issues:
