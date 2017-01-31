@@ -22568,16 +22568,6 @@ psocksxx:
   version: 1.1.0-1.2
   issues:
     - captures_build_path
-pspp:
-  version: 0.8.4-1
-  comments: |
-    it created a 94 GB pbuilder/26426/tmp/buildd/pspp-0.8.5/tests/testsuite.dir/at-groups/167/stderr file,
-    which filled the disk, which happens to be a tmpfs, thus filling the ram and swapping quite a lot,
-    thus also preventing us to have an usable shell (which would have been useful for debugging foo).
-    Will be debugged/retried someday...
-  issues:
-    - different_pot_creation_date_in_gettext_mo_files
-    - blacklisted_on_jenkins
 pstoedit:
   version: 3.70-1
   issues:
