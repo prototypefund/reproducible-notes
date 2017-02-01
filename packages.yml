@@ -817,6 +817,15 @@ apron:
   issues:
     - captures_build_path
     - texi2html_captures_users_gecos
+aprx:
+  version: 2.9.0+dfsg-1
+  comments: |
+    Captures build date:
+    .
+      Makefile.in:53:DATE:=$(shell date +"%Y %B %d")
+      Makefile.in:54:RFCDATE:=$(shell date +"%a, %d %b %Y %H:%M:%S %z")
+    .
+    $(DATE) ends up in the man page; $(RFCDATE) is unused.
 apt:
   version: 1.3~rc2
   issues:
@@ -5356,6 +5365,13 @@ dupload:
   version: 2.7.0
   issues:
     - timezones_manpages_podman
+dustmite:
+  version: 0~20170126.e95dff8-1
+  comments: |
+    Huge diff of .debug_str section; presumably either fallout of build path or random order.
+  issues:
+    - captures_build_path
+    - max_output_size_reached
 dvbsnoop:
   version: 1.4.50-5
   issues:
@@ -9923,6 +9939,10 @@ gtk+3.0:
   version: 3.14.5-1
   issues:
     - gtk_doc_api_index_full
+    - captures_build_path
+gtk-d:
+  version: 3.5.1-1
+  issues:
     - captures_build_path
 gtk-gnutella:
   version: 1.1.8-1
@@ -19407,6 +19427,10 @@ nted:
   version: 1.10.18-9
   issues:
     - different_encoding_in_html_by_docbook_xsl
+ntirpc:
+  version: 1.4.1-1
+  issues:
+    - captures_build_path
 ntl:
   version: 9.9.1-3
   issues:
@@ -22033,6 +22057,14 @@ pngcheck:
     Also requires changes to debian/pod2man.mk, eg. https://gist.github.com/b2cb9fc57f06cd9cbef6
   bugs:
     - 795987
+pnmixer:
+  version: 0.7-1
+  comments: |
+    Captures build date:
+      man/Makefile.am:2:      @sed -e "s/!VERSION!/@PACKAGE_VERSION@/g" -e "s/!DATE!/`date '+%B %Y'`/g" < $*.0 > $@
+    .
+    While %B is nominally locale-specific, here it is always rendered in English;
+    presumably LC_ALL=C is set earlier in the package's build scripts.
 poa:
   version: 2.0+20060928-4
   issues:
@@ -30793,6 +30825,10 @@ texlive-base:
     Caused by some randomness in/near dh_installtex (tex-common)
 textedit.app:
   version: 4.0+20061029-3.4
+  issues:
+    - captures_build_path
+textql:
+  version: 2.0.3-1
   issues:
     - captures_build_path
 texworks:
