@@ -1509,7 +1509,8 @@ build_id_differences_only:
 captures_build_path_via_assert:
   description: |
     Absolute paths to source file names are embedded through assert(), which
-    embeds the value of the __FILE__ macro.
+    embeds the value of the __FILE__ macro in the .data section, or via
+    filenames in debug symbols, which shows in the .text and .debug_str sections.
     .
     We have a pending patch to GCC to fix this in one central place.
     .
