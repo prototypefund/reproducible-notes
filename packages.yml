@@ -33710,14 +33710,6 @@ ygl:
   version: !!str 4.2e-4
   issues:
     - captures_build_path
-yocto-reader:
-  version: 0.9.4
-  issues:
-    - timestamps_in_gzip_headers
-    - timestamps_in_tarball
-    - different_due_to_umask
-  bugs:
-    - 777357
 yodl:
   version: 3.08.01-1
   issues:
