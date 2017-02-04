@@ -22101,6 +22101,8 @@ pnmixer:
     .
     While %B is nominally locale-specific, here it is always rendered in English;
     presumably LC_ALL=C is set earlier in the package's build scripts.
+  bugs:
+    - 854112
 poa:
   version: 2.0+20060928-4
   issues:
