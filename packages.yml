@@ -830,6 +830,8 @@ aprx:
       Makefile.in:54:RFCDATE:=$(shell date +"%a, %d %b %Y %H:%M:%S %z")
     .
     $(DATE) ends up in the man page; $(RFCDATE) is unused.
+  bugs:
+    - 854111
 apt:
   version: 1.3~rc2
   issues:
