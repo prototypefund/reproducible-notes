@@ -4786,6 +4786,10 @@ diet:
   version: 2.8.0-1
   bugs:
     - 761568
+dietlibc:
+  version: 0.34~cvs20160606-5
+  issues:
+    - captures_build_path
 diffoscope:
   version: 70
   bugs:
@@ -11027,6 +11031,10 @@ infon:
     - captures_build_path
 injeqt:
   version: 1.0.1-1
+  issues:
+    - captures_build_path
+inkscape:
+  version: 0.92.0-4
   issues:
     - captures_build_path
 inn:
@@ -20801,6 +20809,11 @@ oxygen-fonts:
   version: 4:5.3.1-1
   issues:
     - fontforge_resets_modification_time
+oxygen-icons5:
+  version: 5:5.28.0-1
+  comments: |
+    Creates symlinks non-deterministically for duplicated files with fdupes:
+    https://sources.debian.net/src/oxygen-icons5/5:5.28.0-1/debian/symlink_duplicates.sh/
 p3scan:
   version: 2:2.3.2-8.1
   issues:
@@ -21365,6 +21378,14 @@ pdfposter:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_pdf_generated_by_reportlab
+pdftk:
+  version: 2.02-4
+  comments: |
+    Random classpath is used:
+    │ -    <b801b>   DW_AT_producer    : (indirect string, offset: 0x98f1a): GNU Java 6.3.0 20161229 [...] -faux-classpath /tmp/ccskE174.zip
+    │ +    <b801b>   DW_AT_producer    : (indirect string, offset: 0x894a4): GNU Java 6.3.0 20161229 [...] -faux-classpath /tmp/ccxzjNBg.zip
+  issues:
+    - randomness_in_gcj_output
 pdl:
   version: 1:2.016-4
   issues:
@@ -27660,6 +27681,10 @@ ruby-bluecloth:
   version: 2.2.0-6
   bugs:
     - 822506
+ruby-bson:
+  version: 4.2.1-1
+  issues:
+    - captures_build_path
 ruby-bunny:
   version: 1.1.2-1
   bugs:
@@ -28404,10 +28429,9 @@ sandwich:
     - captures_build_path
     - randomness_in_r_rdb_rds_databases
 sane-backends:
-  version: 1.0.26~git20151121-1
-  comments: |
-    [experimental/amd64]
-    1.0.25-2 in unstable is reproducible.
+  version: 1.0.25-3
+  issues:
+    - timestamps_in_ps_generated_by_dvips
 sapphire:
   version: 0.15.8-9
   bugs:
@@ -28890,6 +28914,10 @@ sgml-spell-checker:
   version: 0.0.20040919-3
   bugs:
     - 823428
+sgml2x:
+  version: 1.0.0-11.4
+  issues:
+    - docbook_to_man_one_byte_delta
 sgrep:
   version: 1.94a-4
   issues:
