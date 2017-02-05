@@ -18661,6 +18661,10 @@ ntl:
   version: 9.9.1-3
   issues:
     - records_build_flags
+ntopng:
+  version: 2.4+dfsg1-3
+  issues:
+    - captures_build_path_via_assert
 ntp:
   version: 1:4.2.8p8+dfsg-1
   bugs:
@@ -29958,6 +29962,27 @@ tircd:
     - different_due_to_umask
   bugs:
     - 847008
+tj3:
+  version: 3.6.0-4
+  comments: |
+    1) --enddate variance in man page down to lib/taskjuggler/Tj3SheetAppBase.rb.
+    Haven't been able to trace where @date is set (it appears to be used in the
+    help string before the block is executed, which suggests it's expected to
+    be set by a caller...?)
+    .
+    2) [non deterministic] Ordering differences in tjp.vim
+    Both the 'hi def link .* contained' and the 'syn region tlpblk_.*' have the same cause:
+    [[[
+    --- a/lib/taskjuggler/VimSyntax.rb
+    +++ b/lib/taskjuggler/VimSyntax.rb
+    @@ -31 +31 @@ class TaskJuggler
+    -      @reference.keywords.each_value do |kw|
+    +      @reference.keywords.values.sort.each do |kw|
+    ]]]
+    .
+    3) [tangential / doesn't affect reproducibility] tjp.vim is packaged twice, both in tj3:usr/share/taskjuggler/data/tjp.vim and in vim-tjp:usr/share/vim/addons/syntax/tjp.vim
+    .
+    4) Non-deterministic ordering difference in account.html
 tk-brief:
   version: 5.9-1.1
   bugs:
