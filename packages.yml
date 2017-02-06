@@ -13221,6 +13221,8 @@ libchado-perl:
       mv debian/tmp/usr/lib/perl5/* debian/$(pkg)/usr/share/perl5/
       ...
       rm -rf debian/$(pkg)/usr/share/perl5/x86_64-linux-gnu-thread-multi
+  issues:
+    - absolute_build_paths_in_dot_packlist_file_generated_by_perl_extutils_packlist
   bugs:
     - 854341
 libcitygml:
@@ -15070,6 +15072,10 @@ libterm-filter-perl:
   version: 0.03-1
   bugs:
     - 843052
+libterm-readline-zoid-perl:
+  version: 0.07-2.1
+  issues:
+    - absolute_build_paths_in_dot_packlist_file_generated_by_perl_extutils_packlist
 libterralib:
   version: 4.3.0+dfsg.2-8
   bugs:
