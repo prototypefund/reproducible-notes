@@ -13221,6 +13221,8 @@ libchado-perl:
       mv debian/tmp/usr/lib/perl5/* debian/$(pkg)/usr/share/perl5/
       ...
       rm -rf debian/$(pkg)/usr/share/perl5/x86_64-linux-gnu-thread-multi
+  bugs:
+    - 854341
 libcitygml:
   version: 2.0-3
   issues:
