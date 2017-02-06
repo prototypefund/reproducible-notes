@@ -13213,14 +13213,6 @@ libcgns:
     - records_build_flags
 libchado-perl:
   version: 1.31-2
-  comments: |
-    .packlist file is only removed on x86_64.
-    debian/rules:
-      find debian/$(pkg)/ -name .packlist   | xargs rm -f
-      ...
-      mv debian/tmp/usr/lib/perl5/* debian/$(pkg)/usr/share/perl5/
-      ...
-      rm -rf debian/$(pkg)/usr/share/perl5/x86_64-linux-gnu-thread-multi
   issues:
     - absolute_build_paths_in_dot_packlist_file_generated_by_perl_extutils_packlist
   bugs:
