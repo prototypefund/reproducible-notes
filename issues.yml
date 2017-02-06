@@ -1637,3 +1637,13 @@ python_versioneer_uses_parentdir:
   description: |
     Embedded copies of versioneer use the build path to calculate a version.
     eg. https://bugs.debian.org/852482
+absolute_build_paths_in_dot_packlist_file_generated_by_perl_extutils_packlist:
+  description: |
+    ExtUtils::Packlist adds absolute build directories:
+    33 =item __find_relocations
+    34
+    35 Works out what absolute paths in the configuration have been located at run
+    36 time relative to $^X, and generates a regexp that matches them
+    .
+    Are they of any use in a Debian context? If not, the files could just be
+    removed by some Perl helper, etc.
