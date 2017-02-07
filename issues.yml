@@ -1647,3 +1647,10 @@ absolute_build_paths_in_dot_packlist_file_generated_by_perl_extutils_packlist:
     .
     Are they of any use in a Debian context? If not, the files could just be
     removed by some Perl helper, etc.
+timestamp_and_build_path_captured_by_python_cheetah:
+  description: |
+    │ │ │ │ +__CHEETAH_genTime__ = 1520634040.436206
+    │ │ │ │ +__CHEETAH_genTimestamp__ = 'Sat Mar 10 12:20:40 2018'
+    │ │ │ │ +__CHEETAH_src__ = '/build/xmds2-2.2.3+dfsg/2nd/xpdeint/Features/AsciiFormat.tmpl'
+    │ │ │ │ +__CHEETAH_srcLastModified__ = 'Mon Jul 23 13:42:26 2012'
+  deterministic: True
