@@ -5418,6 +5418,9 @@ efax:
   version: 1:0.9a-19.1
   issues:
     - build_id_differences_only
+  comments: |
+      Doesn't pick up fdebug-prefix-map as it doesn't use dpkg-buildflags, so
+      includes the path in the build id hash that way.
 effects:
   version: 3.1.1-1
   issues:

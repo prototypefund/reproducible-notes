@@ -1507,7 +1507,7 @@ build_id_differences_only:
     When this occurs on unstable but not on testing, it's likely a form
     of captures_build_path.
     .
-    Minimal example: efax 1:0.9a-19.1 with build_path variation enabled
+    Minimal example: efax 1:0.9a-19.1 with build_path variation enabled (understood: see comments)
 captures_build_path_via_assert:
   description: |
     Absolute paths to source file names are embedded through assert(), which
