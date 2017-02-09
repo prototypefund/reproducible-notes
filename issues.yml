@@ -1664,3 +1664,6 @@ formatdb_from_ncbi_blastplus_captures_build_time:
     [2] http://sources.debian.net/src/ncbi-blast%2B/2.6.0-1/c%2B%2B/src/objtools/blast/seqdb_writer/writedb_impl.cpp/#L78-L87
     [3] http://sources.debian.net/src/ncbi-blast%2B/2.6.0-1/c%2B%2B/src/objtools/blast/seqdb_writer/writedb_files.cpp/#L267
   deterministic: True
+randomness_in_t3g_files_generated_tslmendian:
+  description: |
+    Looks like arbitrary memory?
