@@ -1656,3 +1656,11 @@ timestamp_and_build_path_captured_by_python_cheetah:
     │ │ │ │ +__CHEETAH_src__ = '/build/xmds2-2.2.3+dfsg/2nd/xpdeint/Features/AsciiFormat.tmpl'
     │ │ │ │ +__CHEETAH_srcLastModified__ = 'Mon Jul 23 13:42:26 2012'
   deterministic: True
+formatdb_from_ncbi_blastplus_captures_build_time:
+  description: |
+    formatdb calls such as [1] capture the build time.
+    The build time is captured in [2] and written out in [3].
+    [1] https://sources.debian.net/src/metastudent-data/2.0.1-2/Makefile.am/#L24
+    [2] http://sources.debian.net/src/ncbi-blast%2B/2.6.0-1/c%2B%2B/src/objtools/blast/seqdb_writer/writedb_impl.cpp/#L78-L87
+    [3] http://sources.debian.net/src/ncbi-blast%2B/2.6.0-1/c%2B%2B/src/objtools/blast/seqdb_writer/writedb_files.cpp/#L267
+  deterministic: True
