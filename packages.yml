@@ -3086,6 +3086,10 @@ clipper:
   bugs:
     - 787804
     - 811763
+clips:
+  version: 6.24-3.2
+  issues:
+    - build_id_differences_only
 clisp:
   version: 1:2.49-10
   comments: |
@@ -22171,6 +22175,11 @@ pyodbc:
     - captures_build_path
   bugs:
     - 811673
+pyode:
+  version: 1.2.0-4+cvs20090320.2
+  issues:
+    - cython_captures_build_path
+    - max_output_size_reached
 pyopencl:
   version: 2016.1+git20160809-3
   comments: |
@@ -29780,6 +29789,10 @@ teseq:
   issues:
     - timezone_variance_because_of_automake_mdate
     - captures_build_path
+tessa:
+  version: 0.3.1-6.2
+  issues:
+    - captures_build_path_via_assert
 testng:
   version: 6.9.12-1
   issues:
