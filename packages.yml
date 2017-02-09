@@ -5418,6 +5418,10 @@ eeshow:
     [amd64/experimental]
   issues:
     - captures_build_path
+efax:
+  version: 1:0.9a-19.1
+  issues:
+    - build_id_differences_only
 effects:
   version: 3.1.1-1
   issues:
@@ -23628,6 +23632,11 @@ qmail-tools:
   bugs:
     - 776936
     - 847029
+qmc:
+  version: 0.94-3.1
+  issues:
+    - captures_build_path_via_assert
+    - max_output_size_reached
 qmmp:
   version: 1.0.5-1.1
   issues:
