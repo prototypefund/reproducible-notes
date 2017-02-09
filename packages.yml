@@ -5420,11 +5420,11 @@ eeshow:
     - captures_build_path
 efax:
   version: 1:0.9a-19.1
+  comments: |
+    Doesn't pick up fdebug-prefix-map as it doesn't use dpkg-buildflags, so
+    includes the path in the build id hash that way.
   issues:
     - build_id_differences_only
-  comments: |
-      Doesn't pick up fdebug-prefix-map as it doesn't use dpkg-buildflags, so
-      includes the path in the build id hash that way.
 effects:
   version: 3.1.1-1
   issues:
@@ -12802,6 +12802,10 @@ leaktracer:
   version: 2.4-6
   issues:
     - captures_build_path
+leap-cli:
+  version: 1:1.9-3
+  bugs:
+    - 851024
 leave:
   version: 1.12-2.1
   issues:
