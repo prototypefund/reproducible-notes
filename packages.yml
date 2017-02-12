@@ -22059,6 +22059,10 @@ prometheus-node-exporter:
   issues:
     - too_much_input_for_diff
     - golang_compiler_captures_build_path_in_binary
+prometheus-postgres-exporter:
+  version: 0.1.1+ds-1
+  issues:
+    - random_build_path_by_golang_compiler
 prometheus-pushgateway:
   version: 0.3.0+ds-2
   issues:
