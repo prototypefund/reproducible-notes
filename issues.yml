@@ -1670,3 +1670,7 @@ randomness_in_t3g_files_generated_tslmendian:
 randomness_in_swf_files_generated_by_as3compile:
   description: |
     as3compile (src:sfwtools) generates non-determinstic .swf files.
+nondeterminism_in_java_classes_generated_by_jxc:
+  description: |
+    The "JAXB schema compiler" jxc (src: openjdk-{6,7} etc.) generates .class
+    files from .xml files. There is some non-determinism in the generated code.
