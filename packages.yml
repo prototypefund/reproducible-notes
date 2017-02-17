@@ -2061,10 +2061,6 @@ boogie:
   version: 2.3.0.61016+dfsg+2.gbp4108246-1
   issues:
     - clilibs_line_order
-bookview:
-  version: 3.2.1-1.1
-  bugs:
-    - 817381
 boolector:
   version: 1.5.118.6b56be4.121013-1
   comments: |
@@ -3875,10 +3871,6 @@ cvs:
   version: 2:1.12.13+real-15
   issues:
     - random_id_in_pdf_generated_by_dblatex
-cvs-autoreleasedeb:
-  version: 0.12-1
-  bugs:
-    - 817419
 cvs-mailcommit:
   version: 1.19-2
   issues:
@@ -3886,10 +3878,6 @@ cvs-mailcommit:
   bugs:
     - 776940
     - 792947
-cvschangelogbuilder:
-  version: 2.4-1
-  bugs:
-    - 817420
 cvsd:
   version: 1.0.24
   issues:
@@ -5748,10 +5736,6 @@ epubcheck:
   issues:
     - timestamps_in_maven_version_files
     - random_order_in_java_jar_manifest_mf
-epwutil:
-  version: 1.1-8.1
-  bugs:
-    - 817449
 equivs:
   version: 2.0.9
   issues:
@@ -8944,12 +8928,6 @@ golang-bindata:
   issues:
     - golang_compiler_captures_build_path_in_binary
     - captures_build_path
-golang-doozer:
-  version: 0.0~git20130909-1
-  issues:
-    - golang_compiler_captures_build_path_in_binary
-  bugs:
-    - 789834
 golang-ginkgo:
   version: 1.2.0-3
   issues:
@@ -9213,10 +9191,6 @@ golang-petname:
   version: 2.5~git20160928-1
   issues:
     - golang_compiler_captures_build_path_in_binary
-golang-rrd:
-  version: 0.0~git20131112-1
-  bugs:
-    - 830449
 goldencheetah:
   version: 4.0.0~DEV1607-1
   issues:
@@ -15182,11 +15156,6 @@ libsfml:
   version: 2.4.0+dfsg-2
   issues:
     - captures_build_path
-libshevek:
-  version: 1.4-1
-  issues:
-    - captures_build_path
-    - random_id_in_pdf_generated_by_dblatex
 libshr-glib:
   version: 2011.03.08.2~git20110930-4
   bugs:
@@ -15310,10 +15279,6 @@ libswingx-java:
     - random_order_in_documentation_generated_by_javadoc
 libsx:
   version: 2.05-8
-  issues:
-    - captures_build_path
-libsyncml:
-  version: 0.5.4-2.3
   issues:
     - captures_build_path
 libsys-info-base-perl:
@@ -16910,10 +16875,6 @@ memtest86+:
     Timestamps in /usr/lib/memtest86+/memtest86+.iso
   bugs:
     - 783515
-mendexk:
-  version: 2.6e-3.2
-  bugs:
-    - 817579
 menhir:
   version: 20160808+dfsg-1
   issues:
@@ -22173,10 +22134,6 @@ pt-websocket:
     - captures_build_path
   bugs:
     - 822385
-ptex-buildsupport:
-  version: 3.0-3
-  bugs:
-    - 817633
 pth:
   version: 2.0.7-20
   issues:
@@ -22400,10 +22357,6 @@ pyfr:
   version: 1.5.0-1
   issues:
     - randomness_in_property_annotations_generated_by_sphinx
-pyg:
-  version: 0.9.8
-  bugs:
-    - 713183
 pygame-sdl2:
   version: 6.99.11-1
   issues:
@@ -31897,10 +31850,6 @@ wayland:
   version: 1.9.0-1
   issues:
     - different_encoding_in_html_by_docbook_xsl
-wayv:
-  version: 0.3-5
-  bugs:
-    - 817718
 wbar:
   version: 2.3.4-5
   bugs:
@@ -32559,10 +32508,6 @@ xinv3d:
   version: 1.3.6-6
   issues:
     - build_id_differences_only
-xipmsg:
-  version: 0.8088-2.1
-  bugs:
-    - 817732
 xjig:
   version: 2.4-14
   issues:
@@ -32834,12 +32779,6 @@ xsddiagram:
   version: 1.0-1
   bugs:
     - 839502
-xserver-xorg-input-acecad:
-  version: 1:1.5.0-1
-  issues:
-    - captures_build_path
-  bugs:
-    - 846696
 xserver-xorg-input-elographics:
   version: 1:1.4.1-1
   issues:
@@ -33234,19 +33173,6 @@ zeroc-ice:
     - random_ordering_in_pom
   bugs:
     - 838579
-zeroc-icee:
-  version: 1.2.0-6.2
-  bugs:
-    - 817743
-zeroc-icee-java:
-  version: 1.2.0-3
-  bugs:
-    - 814767
-    - 817744
-zeroc-icee-translators:
-  version: 1.2.0-6.1
-  bugs:
-    - 817745
 zeroconf-ioslave:
   version: 4:15.12.0-2
   issues:
