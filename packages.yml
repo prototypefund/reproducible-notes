@@ -21293,6 +21293,10 @@ php7.0:
     - captures_users_gecos
     - leaks_path_environment_variable
     - records_build_flags
+php7.1:
+  version: 7.1.1-1
+  issues:
+    - captures_build_path
 phpab:
   version: 1.21.0-2
   comments: |
