@@ -1674,3 +1674,6 @@ nondeterminism_in_java_classes_generated_by_jxc:
   description: |
     The "JAXB schema compiler" jxc (src: openjdk-{6,7} etc.) generates .class
     files from .xml files. There is some non-determinism in the generated code.
+timestamp_in_fonts_generated_by_opentype:
+  description: |
+    opentype generates .ttf files with a timestamp of the current time.
