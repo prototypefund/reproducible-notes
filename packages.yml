@@ -2974,6 +2974,10 @@ chuck:
   version: 1.2.0.8.dfsg-1.5
   issues:
     - captures_build_path
+ciftilib:
+  version: 1.5.1-1
+  issues:
+    - captures_build_path
 cigi-ccl:
   version: 3.3.3a+svn818-10
   issues:
@@ -7020,6 +7024,10 @@ fonts-smc-chilanka:
   version: 1.2.0-1
   issues:
     - timestamp_in_fonts_generated_by_opentype
+fonts-smc-karumbi:
+  version: 1.0-1
+  issues:
+    - fontforge_resets_modification_time
 fonts-smc-manjari:
   version: 1.0.0-1
   issues:
@@ -20288,6 +20296,10 @@ orthanc-webviewer:
   version: 2.2-1
   issues:
     - captures_build_path
+orthanc-wsi:
+  version: 0.4+dfsg-1
+  issues:
+    - captures_build_path
 orville-write:
   version: 2.55-3
   issues:
@@ -31591,6 +31603,10 @@ uudeview:
     - 817711
 uuidm:
   version: 0.9.5-1
+  issues:
+    - captures_build_path
+uvloop:
+  version: 0.8.0+ds1-1
   issues:
     - captures_build_path
 uw-imap:
