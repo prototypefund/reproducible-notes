@@ -103,8 +103,6 @@ ace:
   version: 6.3.3+dfsg-1.1
   issues:
     - captures_build_path
-  bugs:
-    - 828229
 acepack:
   version: 1.3.3.3-2
   issues:
@@ -241,8 +239,6 @@ advi:
   issues:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
-  bugs:
-    - 834137
 aegis:
   version: 4.24.3-3
   issues:
@@ -270,7 +266,6 @@ aewm++:
   version: 1.1.2-5
   bugs:
     - 817289
-    - 831257
 aewm++-goodies:
   version: 1.0-9
   issues:
@@ -332,10 +327,6 @@ aiksaurus:
   version: 1.2.1+dev-0.12-6.2
   bugs:
     - 817290
-aircrack-ng:
-  version: 1:1.2-0~beta3-4
-  bugs:
-    - 818230
 airspy-host:
   version: 0.9-1
   issues:
@@ -421,8 +412,6 @@ alpine:
   comments: |
     Build timestamp is written in alpine binary:
     https://sources.debian.net/src/alpine/2.11%2Bdfsg1-3/alpine/Makefile.am/?hl=46:48#L46
-  bugs:
-    - 791923
 alsa-lib:
   version: 1.1.2-1
   issues:
@@ -467,8 +456,6 @@ amanda:
   issues:
     - captures_shell_variable_in_autofoo_script
     - records_build_flags
-  bugs:
-    - 847009
 amarok:
   version: 2.8.0-5
   issues:
@@ -1028,7 +1015,6 @@ ascii2binary:
 asciidoc:
   version: 8.6.9-3
   bugs:
-    - 777177
     - 782294
 asciijump:
   version: 1.0.2~beta-7
@@ -1278,8 +1264,6 @@ authbind:
   version: 2.1.1
   issues:
     - build_id_differences_only
-  bugs:
-    - 777727
 auto-07p:
   version: 0.9.1+dfsg-3
   issues:
@@ -1603,10 +1587,6 @@ batik:
   issues:
     - user_hostname_manually_added_requiring_further_investigation
     - captures_kernel_version
-batmon.app:
-  version: 0.7-1
-  bugs:
-    - 841180
 baycomepp:
   version: 0.10-13
   issues:
@@ -1659,7 +1639,6 @@ bcftools:
 bcron:
   version: 0.10-3
   bugs:
-    - 777288
     - 792996
 beanbag:
   version: 1.9.2-1
@@ -1675,7 +1654,6 @@ beav:
     - timestamps_in_gzip_headers
   bugs:
     - 777287
-    - 793000
 beets:
   version: 1.3.19-2
   bugs:
@@ -1834,8 +1812,6 @@ bio-eagle:
   version: 2.3-1
   issues:
     - random_order_in_tarball
-  bugs:
-    - 842356
 biococoa:
   version: 2.2.2-2
   issues:
@@ -2205,10 +2181,6 @@ brickos:
     Tried adding SOURCE_DATE_EPOCH with https://gist.github.com/lamby/2d9f1c62ec4f633b63c9 to remove timestamp but not working for some reason
   issues:
     - captures_build_path
-brightside:
-  version: 1.4.0-4.1
-  bugs:
-    - 817384
 briquolo:
   version: 0.5.7-7
   issues:
@@ -2348,10 +2320,6 @@ bzr:
   issues:
     - captures_build_path
     - cython_captures_build_path
-bzr-git:
-  version: 0.6.13-1
-  bugs:
-    - 852631
 c++-annotations:
   version: 10.5.0-1
   issues:
@@ -2375,10 +2343,6 @@ ca-certificates-java:
   version: 20140324
   issues:
     - timestamps_in_jar
-cadabra:
-  version: 1.39-0.2
-  bugs:
-    - 808634
 cadaver:
   version: 0.23.3-2
   issues:
@@ -2402,10 +2366,6 @@ caffe:
     [experimental/amd64]
   issues:
     - captures_build_path
-cairo-5c:
-  version: 1.9
-  bugs:
-    - 845524
 cairo-dock:
   version: 3.4.0-2
   issues:
@@ -2617,16 +2577,10 @@ cctools:
     - captures_home_dir
     - captures_kernel_version
     - captures_build_path
-ccze:
-  version: 0.2.1-2
-  bugs:
-    - 792950
 cdbackup:
   version: 0.7.0-5
   issues:
     - captures_build_path
-  bugs:
-    - 817389
 cdcat:
   version: 1.8-1
   issues:
@@ -2807,7 +2761,6 @@ cgilib:
     - timestamps_in_gzip_headers
   bugs:
     - 776935
-    - 793002
 cgit:
   version: 1.0+git2.8.3-3
   comments: |
@@ -2883,7 +2836,6 @@ checkpw:
     - timestamps_in_gzip_headers
   bugs:
     - 777299
-    - 793005
 checkstyle:
   version: 5.9-1
   comments: |
@@ -3243,10 +3195,6 @@ code-saturne:
     - fonts_in_pdf_files
     - different_pot_creation_date_in_gettext_mo_files
     - graphviz_nondeterminstic_output
-code2html:
-  version: 0.9.1-4
-  bugs:
-    - 817404
 codeblocks:
   version: 16.01+dfsg-2
   issues:
@@ -3401,10 +3349,6 @@ commons-configuration:
   version: 1.10-4
   issues:
     - random_order_in_documentation_generated_by_javadoc
-commons-daemon:
-  version: 1.0.15-6
-  bugs:
-    - 849649
 commons-io:
   version: 2.5-1
   issues:
@@ -3433,10 +3377,6 @@ comparelib:
   version: 113.00.00-1
   issues:
     - captures_build_path
-compartment:
-  version: 1.1.0-4
-  bugs:
-    - 817406
 compass-h5bp-plugin:
   version: 1.0.0-2
   issues:
@@ -3495,10 +3435,6 @@ console-common:
   version: 0.7.89
   issues:
     - docbook_to_man_one_byte_delta
-console-cyrillic:
-  version: 0.9-16.2
-  bugs:
-    - 792999
 console-data:
   version: 2:1.12-5
   bugs:
@@ -3768,10 +3704,6 @@ cryfs:
   issues:
     - captures_build_path_via_assert
     - max_output_size_reached
-crypt++el:
-  version: 2.94-1
-  bugs:
-    - 817414
 cryptgps:
   version: 0.2.1-9
   issues:
@@ -3897,7 +3829,6 @@ cvs-mailcommit:
     - timestamps_in_gzip_headers
   bugs:
     - 776940
-    - 792947
 cvsd:
   version: 1.0.24
   issues:
@@ -3927,10 +3858,6 @@ cwiid:
   version: 0.6.00+svn201-3.2
   issues:
     - captures_build_path
-cwltool:
-  version: 1.0.20160209222805-1
-  bugs:
-    - 848809
 cxref:
   version: 0.016
   comments: |
@@ -3955,7 +3882,6 @@ cyclades-serial-client:
     https://sources.debian.net/src/cyclades-serial-client/0.92/inc/misc.h.in/?hl=26#L26
     https://sources.debian.net/src/cyclades-serial-client/0.92/cyclades-ser-cli.c/?hl=46#L46
   bugs:
-    - 800212
     - 817327
 cylc:
   version: 6.11.2-2
@@ -4061,8 +3987,6 @@ dacs:
     - captures_kernel_version
     - captures_build_path
     - captures_build_arch
-  bugs:
-    - 835673
 dactyl:
   version: 1.2~hg7166-1
   comments: |
@@ -4146,10 +4070,6 @@ datanommer.consumer:
   bugs:
     - 805660
     - 812649
-datanommer.models:
-  version: 0.6.4-2
-  bugs:
-    - 804556
 dataquay:
   version: 0.9-3
   bugs:
@@ -4164,8 +4084,6 @@ dateutils:
   comments: |
     Included manpage generator "yuck" embeds the build date.
     https://sources.debian.net/src/dateutils/0.3.1-1.1/build-aux/yuck.c/#L1435-L1443
-  bugs:
-    - 835129
 datovka:
   version: 4.6.1-1
   bugs:
@@ -4201,8 +4119,6 @@ dballe:
   issues:
     - timestamps_in_tex_documents
     - captures_build_path
-  bugs:
-    - 804051
 dbar:
   version: 0.0.20100524-3
   bugs:
@@ -4275,7 +4191,6 @@ dbview:
     - timestamps_in_gzip_headers
   bugs:
     - 777058
-    - 792951
 dc-qt:
   version: 0.2.0.alpha-4.3
   issues:
@@ -4347,7 +4262,6 @@ debdelta:
     - timestamps_in_gzip_headers
     - different_due_to_umask
   bugs:
-    - 777730
     - 793004
 debget:
   version: 1.6+nmu2
@@ -4417,8 +4331,6 @@ debian-security-support:
     I believe the date is not invalid by itself, but when the current timezone
     is applied, it becomes invalid. I can't seem to reproduce this locally
     though so not filing a patch.
-  bugs:
-    - 849650
 debian-xcontrol:
   version: 0.0.4-1.1
   issues:
@@ -4478,10 +4390,6 @@ dejagnu:
   issues:
     - timestamps_in_ps_generated_by_dvips
     - random_id_in_pdf_generated_by_dblatex
-denemo:
-  version: 2.0.8-1
-  bugs:
-    - 830347
 deps:
   version: 0.13-2
   bugs:
@@ -4571,14 +4479,12 @@ dhcpdump:
     - timestamps_in_gzip_headers
   bugs:
     - 777309
-    - 792952
 dhcping:
   version: 1.2-4.1
   issues:
     - timestamps_in_gzip_headers
   bugs:
     - 777320
-    - 792953
 dhis-dns-engine:
   version: 5.3-2
   bugs:
@@ -4734,10 +4640,6 @@ dita-ot:
   version: 1.5.3-1
   comments: |
     Capture build time in /usr/share/dita-ot/lib/configuration.properties
-ditaa:
-  version: 0.10+ds1-1
-  bugs:
-    - 802065
 django-celery:
   version: 3.1.17-3
   issues:
@@ -4921,10 +4823,6 @@ docbook-defguide:
   version: 2.0.17+svn9912-1
   issues:
     - blacklisted_on_jenkins_armhf_only
-docbook-ebnf:
-  version: 1.2~cr1-5.1
-  bugs:
-    - 825764
 docbook-simple:
   version: 1.1-4.2
   bugs:
@@ -5164,7 +5062,6 @@ dtaus:
     - timestamps_in_gzip_headers
   bugs:
     - 777321
-    - 792958
 dtc-xen:
   version: 0.5.17-1
   issues:
@@ -5281,18 +5178,10 @@ dvdauthor:
   version: 0.7.0-1.4
   bugs:
     - 841694
-dvdisaster:
-  version: 0.72.4-1
-  bugs:
-    - 848811
 dvgrab:
   version: 3.5+git20160707.1.e46042e-1
   bugs:
     - 811728
-dvi2dvi:
-  version: 2.0alpha-9.2
-  bugs:
-    - 817440
 dvi2ps:
   version: 5.1j-1.2
   issues:
@@ -5392,8 +5281,6 @@ echoping:
   issues:
     - user_hostname_manually_added_requiring_further_investigation
     - captures_build_path
-  bugs:
-    - 834859
 ecj:
   version: 3.11.0-6
   issues:
@@ -5418,10 +5305,6 @@ eclipse-aether:
   version: 1.0.2-1
   issues:
     - random_order_in_sisu_javax_inject_named
-eclipse-anyedit:
-  version: 2.4.4-1
-  bugs:
-    - 850554
 eclipse-cdt:
   version: 8.6.0-2
   issues:
@@ -5499,15 +5382,10 @@ effects:
   issues:
     - captures_build_path
     - randomness_in_r_rdb_rds_databases
-efibootmgr:
-  version: 14-1
-  bugs:
-    - 849651
 eficas:
   version: 6.4.0-1-1.1
   bugs:
     - 816232
-    - 830424
 efitools:
   version: 1.4.2-1
   issues:
@@ -5601,7 +5479,6 @@ elida:
     - timestamps_in_gzip_headers
   bugs:
     - 776955
-    - 792959
 eliom:
   version: 4.2-1
   comments: |
@@ -5713,10 +5590,6 @@ enigma:
     - captures_build_path
   bugs:
     - 811826
-enscribe:
-  version: 0.1.0-1.1
-  bugs:
-    - 817448
 enscript:
   version: 1.6.5.90-2
   bugs:
@@ -5823,8 +5696,6 @@ erlang-cowlib:
   version: 1.3.0-1
   issues:
     - captures_build_path
-  bugs:
-    - 846748
 erlang-cuttlefish:
   version: 2.0.6+dfsg-1
   issues:
@@ -6030,10 +5901,6 @@ evernote-mode:
   version: 0.41-3.1
   issues:
     - timestamps_in_ruby_documentation
-evil-el:
-  version: 1.2.12-1
-  bugs:
-    - 829299
 evolution-data-server:
   version: 3.12.9~git20141128.5242b0-2
   comments: |
@@ -6136,10 +6003,6 @@ facile:
   version: 1.1.1-1
   issues:
     - captures_build_path
-factory-boy:
-  version: 2.7.0-2
-  bugs:
-    - 849388
 facturlinex2:
   version: 2.2.2-2
   bugs:
@@ -6154,10 +6017,6 @@ faifa:
   version: 0.2~svn82-1
   issues:
     - build_id_differences_only
-fake:
-  version: 1.1.11-1
-  bugs:
-    - 776949
 fakechroot:
   version: 2.18-1
   issues:
@@ -6165,7 +6024,6 @@ fakechroot:
 faker:
   version: 0.7.7-1
   bugs:
-    - 849333
     - 849652
 faketime:
   version: 0.9.6-7
@@ -6203,7 +6061,6 @@ fastforward:
     - timestamps_in_gzip_headers
   bugs:
     - 776972
-    - 792965
 fastjet:
   version: 3.0.6+dfsg-3
   issues:
@@ -6242,10 +6099,6 @@ fbpager:
   version: 0.1.5~git20090221.1.8e0927e6-1.1
   issues:
     - captures_build_path
-fbpanel:
-  version: 6.1-6
-  bugs:
-    - 844595
 fbreader:
   version: 0.12.10dfsg2-2
   comments: |
@@ -6433,18 +6286,6 @@ festival:
   version: 1:2.4~release-2
   issues:
     - timestamps_in_ps_generated_by_dvips
-festvox-czech-dita:
-  version: 1.0.0-2
-  bugs:
-    - 750344
-festvox-czech-krb:
-  version: 1.0.0-2
-  bugs:
-    - 753189
-festvox-czech-machac:
-  version: 1.0.0-2
-  bugs:
-    - 753179
 fexoticoptions:
   version: 2152.78-3
   issues:
@@ -6591,8 +6432,6 @@ fio:
   version: 2.10-2
   issues:
     - captures_build_path
-  bugs:
-    - 828791
 fiona:
   version: 1.7.0.post2-1
   issues:
@@ -6796,10 +6635,6 @@ fluidsynth-dssi:
   version: 1.0.0-6
   issues:
     - captures_build_path
-flycheck:
-  version: 0.25.1-1
-  bugs:
-    - 818142
 fmit:
   version: 1.0.0-1
   issues:
@@ -6809,10 +6644,6 @@ fmultivar:
   issues:
     - captures_build_path
     - randomness_in_r_rdb_rds_databases
-fnfx:
-  version: 0.3-14
-  bugs:
-    - 817455
 fnonlinear:
   version: 3010.78-2
   issues:
@@ -7224,7 +7055,6 @@ freecdb:
     - timestamps_in_gzip_headers
   bugs:
     - 777410
-    - 792989
 freecell-solver:
   version: 4.2.0-1
   issues:
@@ -7278,8 +7108,6 @@ freefem3d:
   version: 1.0pre10-3.2
   issues:
     - timestamps_in_dvi_generated_by_latex
-  bugs:
-    - 817460
 freehdl:
   version: 0.0.8-2.1
   bugs:
@@ -7309,10 +7137,6 @@ freeplane:
   version: 1.5.18-1
   issues:
     - timestamp_in_java_bnd_manifest
-freepwing:
-  version: 1.5-1
-  bugs:
-    - 817461
 freeradius:
   version: 2.2.8+dfsg-0.1
   issues:
@@ -7335,10 +7159,6 @@ freetype:
   version: 2.6.3-3
   bugs:
     - 830309
-freewheeling:
-  version: 0.6-2
-  bugs:
-    - 831163
 freewnn:
   version: 1.1.1~a021+cvs20130302-4
   issues:
@@ -7432,7 +7252,6 @@ ftpcopy:
     - timestamps_in_gzip_headers
   bugs:
     - 777409
-    - 792982
     - 854512
 ftpmirror:
   version: 1.96+dfsg-14
@@ -7689,8 +7508,6 @@ gap-guava:
   version: 3.13+ds-1
   issues:
     - pdf_id_varying_due_to_build_path
-  bugs:
-    - 849661
 gap-io:
   version: 4.4.6+ds-2
   issues:
@@ -7758,10 +7575,6 @@ gav:
   version: 0.9.0-3
   issues:
     - captures_build_path
-gav-themes:
-  version: 0.7.3-2
-  bugs:
-    - 817470
 gavl:
   version: 1.4.0-4
   issues:
@@ -7899,8 +7712,6 @@ gcc-msp430:
   version: 4.6.3~mspgcc-20120406-7
   issues:
     - different_due_to_umask
-  bugs:
-    - 777863
 gcc-python-plugin:
   version: 0.14-3
   issues:
@@ -7966,10 +7777,6 @@ gdb-mingw-w64:
   issues:
     - captures_build_path
     - too_much_input_for_diff
-gdb-msp430:
-  version: 7.2a~mspgcc-20111205-3
-  bugs:
-    - 777867
 gdbm:
   version: 1.8.3-14
   issues:
@@ -8125,7 +7932,6 @@ geomview:
 gerbv:
   version: 2.6.0-1.1
   bugs:
-    - 850683
     - 851190
 geronimo-jpa-2.0-spec:
   version: 1.1-2
@@ -8152,7 +7958,6 @@ gerstensaft:
     - timestamps_in_gzip_headers
   bugs:
     - 777414
-    - 792983
 gesftpserver:
   version: 0.2.1-1
   bugs:
@@ -8201,8 +8006,6 @@ gfal2:
   version: 2.11.1-1
   issues:
     - captures_build_path
-  bugs:
-    - 844965
 gfan:
   version: 0.5+dfsg-6
   bugs:
@@ -8336,10 +8139,6 @@ git-annex:
   version: 6.20160808-1
   issues:
     - ghc_captures_build_path_via_tempdir
-git-buildpackage:
-  version: 0.6.22
-  bugs:
-    - 820846
 git-crypt:
   version: 0.5.0-1
   bugs:
@@ -8479,7 +8278,6 @@ glibc:
     - timestamps_in_tarball
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
-    - 783210
     - 844420
     - 847596
 glide:
@@ -8939,7 +8737,6 @@ gnustep-make:
     - captures_build_path
     - fonts_in_pdf_files
   bugs:
-    - 838278
     - 839300
 gnutls28:
   version: 3.4.8-2
@@ -9060,7 +8857,6 @@ golang-github-boltdb-bolt:
   version: 1.2.1-1
   bugs:
     - 832834
-    - 849663
 golang-github-calmh-xdr:
   version: 2.0.0-1
   issues:
@@ -9401,8 +9197,6 @@ gpick:
     https://sources.debian.net/src/gpick/0.2.5-1/tools/gpick.py/?hl=141:151#L141
   issues:
     - captures_build_path
-  bugs:
-    - 831041
 gplcver:
   version: 2.12a-1.1
   issues:
@@ -9523,10 +9317,6 @@ gradle:
     - random_ordering_in_pom
     - captures_kernel_version
     - different_encoding
-gradm2:
-  version: 3.1~201608131257-1
-  bugs:
-    - 849666
 grafana:
   version: 2.6.0+dfsg-3
   bugs:
@@ -9931,8 +9721,6 @@ guile-gnome-platform:
   version: 2.16.2-2
   issues:
     - ftbfs_uninvestigated_test_failures
-  bugs:
-    - 830406
 guiqwt:
   version: 3.0.1-1
   issues:
@@ -10144,10 +9932,6 @@ hdf5:
     - records_build_flags
     - too_much_input_for_diff
     - captures_build_arch
-hdmi2usb-mode-switch:
-  version: 0.0.0+git20161016-1
-  bugs:
-    - 845763
 hdup:
   version: 2.0.14-4
   issues:
@@ -10253,8 +10037,6 @@ hhsuite:
   issues:
     - max_output_size_reached
     - captures_build_path_via_assert
-  bugs:
-    - 851764
 hhvm:
   version: 3.12.1+dfsg-1
   bugs:
@@ -10309,8 +10091,6 @@ hmat-oss:
   version: 1.0.4-2
   issues:
     - captures_build_path
-  bugs:
-    - 831143
 hmisc:
   version: 3.17-4-2
   issues:
@@ -10325,8 +10105,6 @@ hocr:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/hocr/0.10.17-2/configure.ac/#L269
-  bugs:
-    - 831647
 hoichess:
   version: 0.19.0-5
   comments: |
@@ -10410,10 +10188,6 @@ htmldoc:
   issues:
     - timestamps_in_documentation_generated_by_htmldoc
     - timestamps_in_ps_generated_by_dvips
-htmlunit:
-  version: 2.8-1
-  bugs:
-    - 730965
 htp:
   version: 1.19-2
   comments: |
@@ -10869,7 +10643,6 @@ integrit:
   issues:
     - random_order_in_md5sums
   bugs:
-    - 776973
     - 792984
     - 846891
 intel-cmt-cat:
@@ -10968,7 +10741,6 @@ ipsvd:
     - timestamps_in_gzip_headers
   bugs:
     - 777417
-    - 792985
     - 846890
 iptotal:
   version: 0.3.3-13.1
@@ -11073,8 +10845,6 @@ isakmpd:
   version: 20041012-7.3
   issues:
     - captures_build_path
-  bugs:
-    - 828355
 isc-kea:
   version: 1.0.0-4
   comments: |
@@ -11226,10 +10996,6 @@ jackson-dataformat-yaml:
   version: 2.8.6-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-jackson-datatype-guava:
-  version: 2.7.3-1
-  bugs:
-    - 849449
 jackson-datatype-joda:
   version: 2.8.5-1
   issues:
@@ -11304,7 +11070,6 @@ jargon:
     - timestamps_in_gzip_headers
   bugs:
     - 777483
-    - 792987
 jargon-text:
   version: 4.4.7-4
   bugs:
@@ -11333,8 +11098,6 @@ java-gnome:
   version: 4.1.3-4
   issues:
     - locale_in_documentation_generated_by_javadoc
-  bugs:
-    - 849669
 java-imaging-utilities:
   version: 0.14.3-2
   issues:
@@ -11550,7 +11313,6 @@ jodreports:
 joe:
   version: 3.7-2.4
   bugs:
-    - 777726
     - 793696
 joptsimple:
   version: 4.5-3
@@ -11597,10 +11359,6 @@ jruby:
   issues:
     - user_in_java_jar_manifest
     - timestamp_in_java_bnd_manifest
-jruby-maven-plugins:
-  version: 1.0.10.ds1-2
-  bugs:
-    - 844841
 jruby-openssl:
   version: 0.9.11-2
   issues:
@@ -11745,12 +11503,6 @@ junior-doc:
     - timestamps_in_gzip_headers
     - different_encoding
     - timestamps_in_ps_generated_by_dvips
-  bugs:
-    - 792971
-jupyter-notebook:
-  version: 4.2.3-1
-  bugs:
-    - 847192
 jwchat:
   version: 1.0+dfsg-1.3
   bugs:
@@ -11863,8 +11615,6 @@ kapptemplate:
   issues:
     - users_and_groups_in_tarball
     - different_due_to_umask
-  bugs:
-    - 825122
 karchive:
   version: 5.25.0-1
   issues:
@@ -12136,10 +11886,6 @@ keysafe:
   version: 0.20161107-1
   issues:
     - build_id_differences_only
-keystone:
-  version: 2:10.0.0-2
-  bugs:
-    - 851045
 keytouch-editor:
   version: 1:3.2.0~beta-3
   issues:
@@ -12387,10 +12133,6 @@ klick:
     - captures_build_path
   bugs:
     - 812034
-klog:
-  version: 0.9.2.3-1.1
-  bugs:
-    - 831236
 klone:
   version: 2.1.0~rc1-1
   issues:
@@ -12427,10 +12169,6 @@ kmetronome:
   version: 0.10.1-2
   issues:
     - captures_build_path
-kmflcomp:
-  version: 0.9.8-1.1
-  bugs:
-    - 817512
 kmidimon:
   version: 0.7.5-1
   issues:
@@ -12888,8 +12626,6 @@ lacheck:
   version: 1.26-15
   comments: |
     Injects a timestamp into README.Debian during build.
-  bugs:
-    - 831046
 ladish:
   version: 1+dfsg0-5
   issues:
@@ -13081,7 +12817,6 @@ leave:
     - timestamps_in_gzip_headers
   bugs:
     - 777403
-    - 793694
 ledger:
   version: 3.1+dfsg1-7
   issues:
@@ -13149,8 +12884,6 @@ libalog:
   issues:
     - captures_build_path
     - records_build_flags
-  bugs:
-    - 844886
 libam7xxx:
   version: 0.1.6-2
   issues:
@@ -13203,12 +12936,6 @@ libapache-mod-log-sql:
   version: 1.100-16.2
   issues:
     - captures_build_path
-  bugs:
-    - 830362
-libapache-mod-removeip:
-  version: 1.0b-5.1
-  bugs:
-    - 817521
 libapache-poi-java:
   version: 3.10.1-2
   comments: |
@@ -13341,10 +13068,6 @@ libaria:
   version: 2.8.0+repack-1
   bugs:
     - 811653
-libarray-refelem-perl:
-  version: 1.00-1.1
-  bugs:
-    - 827681
 libasm4-java:
   version: 5.0.4-2
   issues:
@@ -13426,10 +13149,6 @@ libbitmask:
   version: 2.0-2
   bugs:
     - 833235
-libblocksruntime:
-  version: 0.4.1-1
-  bugs:
-    - 832015
 libbluray:
   version: 1:0.9.3-2
   issues:
@@ -13738,8 +13457,6 @@ libdbusmenu:
   version: 12.10.2-1
   issues:
     - captures_build_path
-  bugs:
-    - 826548
 libdbusmenu-qt:
   version: 0.9.3+16.04.20160218-1
   issues:
@@ -13750,7 +13467,6 @@ libdc0:
     Embeds the build date.
     https://sources.debian.net/src/libdc0/0.3.24~svn3121-2/configure.in/#L215
   bugs:
-    - 828390
     - 834452
 libdc1394-22:
   version: 2.2.4-1
@@ -13760,10 +13476,6 @@ libdebian-installer:
   version: 0.107
   issues:
     - captures_build_path
-libdebian-package-html-perl:
-  version: 0.1-2
-  bugs:
-    - 827683
 libdebug:
   version: 0.4.4-1.1
   bugs:
@@ -14133,7 +13845,6 @@ libgweather:
   version: 3.20.0-1
   bugs:
     - 822432
-    - 839365
 libhamcrest-java:
   version: 1.3-5
   issues:
@@ -14345,8 +14056,6 @@ libjama:
   issues:
     - timestamps_in_gzip_headers
     - different_due_to_umask
-  bugs:
-    - 792972
 libjavaewah-java:
   version: 0.6.12-1
   issues:
@@ -14621,8 +14330,6 @@ liblip:
   version: 2.0.0-1.2
   issues:
     - timestamps_in_gzip_headers
-  bugs:
-    - 792973
 liblnk:
   version: 20160420-1
   issues:
@@ -14741,10 +14448,6 @@ libmongoc:
   version: 1.5.4-1
   issues:
     - captures_build_path
-libmonitoring-livestatus-perl:
-  version: 0.74-1
-  bugs:
-    - 838976
 libmozilla-ldap-perl:
   version: 1.5.3-2
   issues:
@@ -14801,8 +14504,6 @@ libncursesada:
     - timestamps_in_ada_library_information_files
     - captures_build_path
     - records_build_flags
-  bugs:
-    - 844918
 libnes:
   version: 1.1.4-1
   issues:
@@ -14897,8 +14598,6 @@ libofetion:
   version: 2.2.2-1
   issues:
     - captures_build_path
-  bugs:
-    - 828402
 libogg:
   version: 1.3.2-1
   issues:
@@ -15095,8 +14794,6 @@ libpqxx:
   version: 4.0.1+dfsg-5
   issues:
     - different_encoding_in_html_by_docbook_xsl
-  bugs:
-    - 851022
 libprelude:
   version: 1.0.0-11.7
   issues:
@@ -15314,10 +15011,6 @@ librsync:
   version: 0.9.7-10
   bugs:
     - 780507
-libsass-python:
-  version: 0.11.0-2
-  bugs:
-    - 848653
 libsaxon-java:
   version: 1:6.5.5-10
   issues:
@@ -15601,7 +15294,6 @@ libtnt:
     - different_due_to_umask
   bugs:
     - 777428
-    - 793695
 libtomcrypt:
   version: 1.17-7
   issues:
@@ -16022,7 +15714,6 @@ lintian:
   version: 2.5.49
   bugs:
     - 841442
-    - 844903
 linux:
   version: 4.6.3-1
   issues:
@@ -16223,8 +15914,6 @@ logapp:
   version: 0.15-1
   issues:
     - timestamps_in_gzip_headers
-  bugs:
-    - 792976
 logback:
   version: 1:1.1.9-1
   issues:
@@ -16257,8 +15946,6 @@ logtools:
   version: 0.13d
   issues:
     - ftbfs_old_compat_debheper_compat_level
-  bugs:
-    - 800258
 lombok:
   version: 1.16.6+ds-3
   comments: |
@@ -16641,7 +16328,6 @@ magicfilter:
     - timestamps_in_gzip_headers
     - random_order_in_md5sums
   bugs:
-    - 777448
     - 793698
     - 847016
 magics++:
@@ -16668,10 +16354,6 @@ mahimahi:
   version: 0.92-1
   bugs:
     - 822380
-mail-expire:
-  version: 0.7
-  bugs:
-    - 817572
 mail-notification:
   version: 5.4.dfsg.1-14
   bugs:
@@ -16699,7 +16381,6 @@ mailfront:
     - different_due_to_umask
   bugs:
     - 777431
-    - 793699
     - 847020
 mailman-api:
   version: 0.2.9-1
@@ -16715,7 +16396,6 @@ mailto:
     - timestamps_in_gzip_headers
   bugs:
     - 777413
-    - 793700
 main-menu:
   version: 1.48
   issues:
@@ -16817,8 +16497,6 @@ marble:
   version: 4:16.04.1-3
   issues:
     - build_id_differences_only
-  bugs:
-    - 835766
 maria:
   version: 1.3.5-4
   issues:
@@ -17181,10 +16859,6 @@ mgdiff:
   version: 1.0-30
   issues:
     - captures_build_path
-mh-book:
-  version: 200605-1
-  bugs:
-    - 817583
 mh-e:
   version: 8.5-2
   issues:
@@ -17258,7 +16932,6 @@ mimefilter:
     - random_order_in_md5sums
   bugs:
     - 777486
-    - 793704
     - 847022
 mimelib1:
   version: 5:1.1.4-3
@@ -17544,8 +17217,6 @@ modglue:
   version: 1.17-2.4
   issues:
     - captures_build_path
-  bugs:
-    - 829762
 modplugtools:
   version: 0.5.3-1.1
   issues:
@@ -17568,10 +17239,6 @@ mokomaze:
   version: 0.5.5+git8+dfsg0-4
   issues:
     - captures_build_path
-moksha.common:
-  version: 1.2.3-2
-  bugs:
-    - 803048
 molds:
   version: 0.3.1-1
   issues:
@@ -17870,7 +17537,6 @@ mpack:
     - timestamps_in_gzip_headers
   bugs:
     - 777376
-    - 793706
 mpdcon.app:
   version: 1.1.99-5
   issues:
@@ -18187,8 +17853,6 @@ mydumper:
   version: 0.9.1-1
   issues:
     - captures_build_path
-  bugs:
-    - 841607
 myghty:
   version: 1.1-5
   comments: |
@@ -18218,10 +17882,6 @@ myproxy:
   version: 6.1.19-1
   bugs:
     - 828444
-mypy:
-  version: 0.4.5-1
-  bugs:
-    - 840143
 myspell:
   version: 1:3.0+pre3.1-24.1
   issues:
@@ -18235,7 +17895,6 @@ mysql-5.7:
   bugs:
     - 841636
     - 844275
-    - 844304
     - 844492
     - 844824
     - 844850
@@ -18543,8 +18202,6 @@ nethogs:
     ...................................................^^^
     .
     Judging by the timestamps of reproducible/irreproducible builds, this is probably the only issue.
-  bugs:
-    - 846842
 netkit-bootparamd:
   version: 0.17-9
   issues:
@@ -18576,10 +18233,6 @@ netmrg:
   comments: |
     zero.rrd is created with rrdtool, which uses ~$now as time by default (rrdcreate(1)).
     Could be fixed by using `--start $changelog_epoch`.
-netpanzer:
-  version: 0.8.7+ds-1
-  bugs:
-    - 827150
 netpbm-free:
   version: 2:10.0-15.3
   issues:
@@ -18677,8 +18330,6 @@ newlib:
   issues:
     - random_order_in_static_libraries
     - captures_build_path
-  bugs:
-    - 847033
 newmail:
   version: 0.5-2
   issues:
@@ -18825,10 +18476,6 @@ nikwi:
     - too_much_input_for_diff
   bugs:
     - 835625
-nim:
-  version: 0.14.2-1
-  bugs:
-    - 840969
 nini:
   version: 1.1.0+dfsg.2-5
   comments: |
@@ -18998,16 +18645,11 @@ node-temp:
 node-xmpp:
   version: 0.3.2-2
   bugs:
-    - 719401
     - 830226
 node-yawl:
   version: 1.0.2-1
   bugs:
     - 802350
-node-zipfile:
-  version: 0.5.0+ds-1
-  bugs:
-    - 802351
 node-zlib:
   version: 1.0.5-1
   bugs:
@@ -19296,10 +18938,6 @@ nxcl:
   version: 0.9-3.1
   issues:
     - captures_build_path
-nxt-firmware:
-  version: 1.29-20120908+dfsg-3
-  bugs:
-    - 849926
 nyquist:
   version: 3.05-2
   bugs:
@@ -19669,10 +19307,6 @@ octave-ltfat:
   version: 2.1.2+dfsg-1+b1
   issues:
     - blacklisted_on_jenkins_armhf_only
-octave-msh:
-  version: 1.0.10-1
-  bugs:
-    - 850402
 octave-ocs:
   version: 0.1.5-2
   issues:
@@ -19725,10 +19359,6 @@ ohcount:
   version: 3.0.0-8.2
   issues:
     - captures_build_path
-oidua:
-  version: 0.16.1-7
-  bugs:
-    - 830392
 okio:
   version: 1.8.0-1
   issues:
@@ -20038,7 +19668,6 @@ openhpi:
   version: 3.6.1-2
   bugs:
     - 811950
-    - 828468
 openid4java:
   version: 0.9.6.662-3
   issues:
@@ -20868,10 +20497,6 @@ pcapy:
   version: 0.10.8-1
   issues:
     - captures_build_path
-pcb2gcode:
-  version: 1.1.4-git20120902-1.1
-  bugs:
-    - 850683
 pciutils:
   version: 1:3.5.2-1
   bugs:
@@ -21412,8 +21037,6 @@ phpab:
   comments: |
     Prints the current year in version info, which lands in the manpage via help2man.
     https://sources.debian.net/src/phpab/1.21.0-2/src/Version.php/#L61
-  bugs:
-    - 834754
 phpdox:
   version: 0.8.1.1-2
   comments: |
@@ -21503,7 +21126,6 @@ pidgin-openfetion:
     - captures_build_path
   bugs:
     - 825471
-    - 828502
 pidgin-privacy-please:
   version: 0.7.1-3
   bugs:
@@ -21589,10 +21211,6 @@ pitivi:
   version: 0.97.1-1
   issues:
     - captures_build_path
-piwi:
-  version: 0.8+20041206-3
-  bugs:
-    - 817619
 pixbros:
   version: 0.6.3-1
   bugs:
@@ -22163,10 +21781,6 @@ presage:
   version: 0.9.1-2.1
   bugs:
     - 811758
-prettytable:
-  version: 0.7.2-3
-  bugs:
-    - 792591
 preview.app:
   version: 0.8.5-10
   issues:
@@ -22565,10 +22179,6 @@ pycorrfit:
     - timestamps_in_pdf_generated_by_latex
     - captures_build_path
     - cython_captures_build_path
-pycountry:
-  version: 1.8+ds1-0.1
-  bugs:
-    - 821892
 pycryptopp:
   version: 0.6.0.20120313-1
   issues:
@@ -22577,10 +22187,6 @@ pydispatcher:
   version: 2.0.5-1
   issues:
     - captures_build_path
-pyelliptic:
-  version: 1.5.7-1
-  bugs:
-    - 844213
 pyentropy:
   version: 0.4.1-2
   bugs:
@@ -22688,8 +22294,6 @@ pygtksourceview:
   version: 2.10.1-2
   comments: |
     Embeds build time via custom docbook entity '&builddate;'.
-  bugs:
-    - 835807
 pyicu:
   version: 1.9.2-2
   comments: |
@@ -22702,7 +22306,6 @@ pyicu:
 pyinfra:
   version: 0.2-3
   bugs:
-    - 828216
     - 846763
 pyjunitxml:
   version: 0.6-1.1
@@ -23273,8 +22876,6 @@ python-expyriment:
   version: 0.7.0+git34-g55a4e7e-3
   issues:
     - timestamps_in_pdf_generated_by_latex
-  bugs:
-    - 830381
 python-fabio:
   version: 0.4.0+dfsg-2
   comments: |
@@ -23424,8 +23025,6 @@ python-jedi:
   version: 0.9.0-1
   issues:
     - ftbfs_uninvestigated_test_failures
-  bugs:
-    - 830399
 python-jingo:
   version: 0.8-1
   bugs:
@@ -23709,8 +23308,6 @@ python-phply:
   version: 0.9.1-3
   issues:
     - python-ply_compiled_parse_tables
-  bugs:
-    - 824420
 python-pint:
   version: 0.6-1
   issues:
@@ -23766,10 +23363,6 @@ python-pygit2:
   version: 0.24.1-1
   issues:
     - captures_build_arch
-python-pygraphviz:
-  version: 1.3.1-1
-  bugs:
-    - 840845
 python-pymummer:
   version: 0.6.1-1
   issues:
@@ -24091,10 +23684,6 @@ pyvtk:
   version: 0.4.74-3.1
   issues:
     - captures_build_path
-pywavelets:
-  version: 0.3.0-1
-  bugs:
-    - 808459
 pywebkitgtk:
   version: 1.1.8-3.1
   bugs:
@@ -24148,10 +23737,6 @@ qca2:
   version: 2.1.1-2
   issues:
     - captures_build_path
-qct:
-  version: 1.7-3
-  bugs:
-    - 827165
 qd:
   version: 2.3.11.dfsg-2.3
   issues:
@@ -24188,8 +23773,6 @@ qemu:
     Makefile invokes hxtool on those files.
   issues:
     - diffoscope_runs_forever
-  bugs:
-    - 833162
 qemu-launcher:
   version: 1.7.4-1
   issues:
@@ -24252,7 +23835,6 @@ qmail-run:
     - random_order_in_md5sums
   bugs:
     - 776952
-    - 793711
     - 847028
 qmail-tools:
   version: 0.1.0
@@ -24391,8 +23973,6 @@ qterm:
   version: 1:0.5.12-1.1
   issues:
     - captures_build_path
-  bugs:
-    - 831093
 qtexengine:
   version: 0.3-3
   issues:
@@ -24420,10 +24000,6 @@ qtlocation-opensource-src:
     - timestamps_in_qch
     - randomness_in_qdoc
     - captures_build_path
-qtltools:
-  version: 1.0+dfsg-1
-  bugs:
-    - 848280
 qtmultimedia-opensource-src:
   version: 5.3.2-5
   issues:
@@ -26660,7 +26236,6 @@ ratfor:
   issues:
     - timestamps_in_gzip_headers
   bugs:
-    - 778204
     - 793712
 ratt:
   version: 0.0~git20150816.0.b060319-1
@@ -26698,7 +26273,6 @@ rbootd:
     - timestamps_in_gzip_headers
   bugs:
     - 776951
-    - 793713
 rclone:
   version: 1.34-2
   issues:
@@ -27110,8 +26684,6 @@ rockdodger:
     https://sources.debian.net/src/rockdodger/1.0.0-2/Makefile/?hl=42#L42
   issues:
     - random_order_in_md5sums
-  bugs:
-    - 793714
 rocs:
   version: 4:16.04.1-1
   issues:
@@ -27439,8 +27011,6 @@ ruby-dataobjects-mysql:
   version: 0.10.16-1
   issues:
     - captures_build_path
-  bugs:
-    - 841583
 ruby-dataobjects-postgres:
   version: 0.10.16-1
   issues:
@@ -27493,15 +27063,10 @@ ruby-escape-utils:
   version: 1.1.0-1
   issues:
     - captures_build_path
-ruby-ethon:
-  version: 0.9.0-1
-  bugs:
-    - 843474
 ruby-eventmachine:
   version: 1.0.7-3
   bugs:
     - 816640
-    - 831244
 ruby-exif:
   version: 0.1.2-21
   issues:
@@ -27554,10 +27119,6 @@ ruby-gd:
   version: 0.8.0-7
   issues:
     - captures_build_path
-ruby-gettext:
-  version: 3.2.2-1
-  bugs:
-    - 840789
 ruby-github-markdown:
   version: 0.6.9-2
   issues:
@@ -27622,7 +27183,6 @@ ruby-http:
   version: 0.6.1-1
   bugs:
     - 818460
-    - 848757
 ruby-http-parser.rb:
   version: 0.6.0-3
   issues:
@@ -27780,10 +27340,6 @@ ruby-prof:
     - captures_build_path
   bugs:
     - 839333
-ruby-rabl:
-  version: 0.13.0-1
-  bugs:
-    - 849315
 ruby-rails-admin:
   version: 0.8.1+dfsg-2
   bugs:
@@ -27996,8 +27552,6 @@ runit:
   version: 2.1.2-3
   issues:
     - random_order_in_md5sums
-  bugs:
-    - 792979
 rustc:
   version: 1.0.0+dfsg1-1
   comments: |
@@ -28134,7 +27688,6 @@ sauce:
     - timestamps_in_gzip_headers
   bugs:
     - 777401
-    - 793718
 savi:
   version: 1.5.0-1
   comments: |
@@ -28163,10 +27716,6 @@ sbcl:
     - pdf_created_by_ghostscript
     - user_hostname_manually_added_requiring_further_investigation
     - captures_build_path
-sbsigntool:
-  version: 0.6-3.1
-  bugs:
-    - 842446
 sbuild:
   version: 0.69.0-2
   comments: |
@@ -28290,10 +27839,6 @@ scim-canna:
   version: 1.0.0-4.2
   issues:
     - captures_build_path
-scim-kmfl-imengine:
-  version: 0.9.8-1.1
-  bugs:
-    - 817661
 scim-m17n:
   version: 0.2.3-3
   issues:
@@ -28325,10 +27870,6 @@ scm:
     - timestamps_in_gzip_headers
     - randomness_in_html_generated_by_texi2html
     - texi2html_captures_users_gecos
-scmxx:
-  version: 0.9.0-2.3
-  bugs:
-    - 817662
 scons-doc:
   version: 2.3.1-1
   issues:
@@ -28386,8 +27927,6 @@ sdb:
   issues:
     - timestamps_in_pe_binaries
     - clilibs_line_order
-  bugs:
-    - 849069
 sdcc:
   version: 3.5.0+dfsg-2
   comments: |
@@ -28440,11 +27979,6 @@ seabios:
        130	        ver = "%s-%s-%s" % (ver, btime, hostname)
   bugs:
     - 841546
-    - 842203
-seaborn:
-  version: 0.7.1-1
-  bugs:
-    - 849368
 seafile-client:
   version: 6.0.1+git20161227.7b0b837-2
   issues:
@@ -28475,7 +28009,6 @@ sendfile:
     - timestamps_in_gzip_headers
   bugs:
     - 776938
-    - 793719
 sendip:
   version: 2.5-7
   issues:
@@ -28703,10 +28236,6 @@ shishi:
   issues:
     - timestamps_in_ps_generated_by_dvips
     - random_id_in_pdf_generated_by_dblatex
-shogun:
-  version: 3.2.0-7.3
-  bugs:
-    - 809290
 shortuuid:
   version: 0.4.3-1
   bugs:
@@ -28813,8 +28342,6 @@ simstring:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
-  bugs:
-    - 844883
 simulavr:
   version: 0.1.2.2-7
   issues:
@@ -28887,7 +28414,6 @@ skalibs:
     - random_order_in_md5sums
     - captures_kernel_version
   bugs:
-    - 792990
     - 847030
 sketch:
   version: 1:0.3.7-1
@@ -28906,8 +28432,6 @@ skipfish:
   version: 2.10b-1
   issues:
     - captures_build_path
-  bugs:
-    - 828547
 skrooge:
   version: 2.4.0-2
   issues:
@@ -29200,7 +28724,6 @@ socklog:
     - random_order_in_md5sums
   bugs:
     - 777419
-    - 793723
     - 847031
 socks4-server:
   version: 4.3.beta2-19
@@ -29424,10 +28947,6 @@ sphinxtrain:
   version: 1.0.8+5prealpha-4
   issues:
     - captures_build_path
-spice-gtk:
-  version: 0.28-1.1
-  bugs:
-    - 797855
 spim:
   version: 8.0+dfsg-6
   issues:
@@ -29536,10 +29055,6 @@ srecord:
   version: 1.58-1.1
   issues:
     - captures_build_path
-sredird:
-  version: 2.2.1-1.1
-  bugs:
-    - 817677
 srg:
   version: 1.3.6-2
   bugs:
@@ -29590,7 +29105,6 @@ ssmtp:
     - timestamps_in_gzip_headers
   bugs:
     - 777398
-    - 793724
 ssreflect:
   version: 1.5-3
   bugs:
@@ -29646,8 +29160,6 @@ statnews:
   version: 2.5
   comments: |
     Embed build time in /usr/share/doc/statnews/README.Debian
-  bugs:
-    - 775993
 statsmodels:
   version: 0.4.2-1.2
   issues:
@@ -29688,10 +29200,6 @@ stgit:
     Timestamp in HTML files
   issues:
     - timestamps_in_documentation_generated_by_asciidoc
-stimfit:
-  version: 0.15.3-1
-  bugs:
-    - 831107
 stl-manual:
   version: 3.30-13
   bugs:
@@ -29862,7 +29370,6 @@ sugar-toolkit-gtk3:
     - captures_build_path
   bugs:
     - 825471
-    - 848633
 sugar-write-activity:
   version: 97+20160926-1
   issues:
@@ -29976,10 +29483,6 @@ svgsalamander:
   version: 1.1.1+dfsg-1
   issues:
     - random_order_in_javahelper_substvars
-svgwrite:
-  version: 1.1.8-1
-  bugs:
-    - 829415
 svnkit:
   version: 1.8.14-1
   issues:
@@ -30173,8 +29676,6 @@ syslinux:
     passing a fixed -DHEXDATE to nasm does not help
   issues:
     - captures_build_path
-  bugs:
-    - 846679
 syslog-ng:
   version: 3.7.3-3
   bugs:
@@ -30460,10 +29961,6 @@ telepathy-gabble:
   version: 0.18.3-2
   issues:
     - captures_build_path
-telepathy-haze:
-  version: 0.8.0-2
-  bugs:
-    - 824739
 telepathy-logger:
   version: 0.8.2-1
   bugs:
@@ -30744,7 +30241,6 @@ tinydyndns:
     - random_order_in_md5sums
   bugs:
     - 776929
-    - 793729
     - 847032
 tinyeartrainer:
   version: 0.1.0-3
@@ -30805,7 +30301,6 @@ tk-brief:
   version: 5.9-1.1
   bugs:
     - 223915
-    - 733433
 tk-html3:
   version: 3.0~fossil20110109-6
   comments: |
@@ -30865,7 +30360,6 @@ tkrat:
     - different_encoding
     - captures_build_path
   bugs:
-    - 778431
     - 828572
     - 844845
 tkrplot:
@@ -30987,10 +30481,6 @@ torrus:
     - captures_shell_variable_in_autofoo_script
   bugs:
     - 847024
-torus-trooper:
-  version: 0.22.dfsg1-11
-  bugs:
-    - 845730
 totem:
   version: 3.22.0-2
   issues:
@@ -31042,10 +30532,6 @@ translate-toolkit:
   version: 1.12.0+dfsg1-2
   issues:
     - randomness_in_documentation_generated_by_sphinx
-transmission:
-  version: 2.92-1
-  bugs:
-    - 835800
 traverso:
   version: 0.49.4-2
   issues:
@@ -31200,15 +30686,11 @@ tuxpaint:
     https://sources.debian.net/src/tuxpaint/1:0.9.22-2/Makefile/#L1147
   issues:
     - captures_build_path
-  bugs:
-    - 834109
 tuxpaint-config:
   version: 0.0.13-1
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/tuxpaint-config/0.0.13-1/Makefile/?hl=18#L18
-  bugs:
-    - 834780
 tvc:
   version: 5.0.3+dfsg-1
   comments: |
@@ -31254,10 +30736,6 @@ txaws:
   version: 0.2.3-1
   bugs:
     - 807347
-txfixtures:
-  version: 0.2.3-1
-  bugs:
-    - 850552
 txt2pdbdoc:
   version: 1.4.4-7
   bugs:
@@ -31342,10 +30820,6 @@ uclibc:
     - timestamps_in_tarball
     - different_due_to_umask
     - users_and_groups_in_tarball
-uclmmbase:
-  version: 1.2.16.0-1
-  bugs:
-    - 821893
 ucspi-proxy:
   version: 0.99-1
   issues:
@@ -31434,10 +30908,6 @@ uftrace:
   issues:
     - captures_build_path_via_assert
     - max_output_size_reached
-ufw:
-  version: 0.35-2
-  bugs:
-    - 849628
 uget:
   version: 2.0.6-1
   bugs:
@@ -31657,8 +31127,6 @@ urweb:
     - fonts_in_pdf_files
     - captures_build_path
     - too_much_input_for_diff
-  bugs:
-    - 844891
 user-mode-linux:
   version: 4.7-1um-1
   issues:
@@ -31794,8 +31262,6 @@ vdk2:
   version: 2.4.0-5.3
   issues:
     - captures_shell_variable_in_autofoo_script
-  bugs:
-    - 817712
 vdk2-tutorial:
   version: 1.1-3
   bugs:
@@ -31955,18 +31421,12 @@ virtuoso-opensource:
     - timestamps_from_cpp_macros
     - captures_kernel_version
     - captures_build_path
-  bugs:
-    - 828594
 viruskiller:
   version: 1.03-1+dfsg1-1
   comments: |
     viruskiller.pak is created with a tool which iterates over files/directories in readdir order.
     https://sources.debian.net/src/viruskiller/1.03-1%2Bdfsg1-1/src/pak.cpp/
     fileData[] should get sorted before writing the output.
-visolate:
-  version: 2.1.6~svn8+dfsg1-1
-  bugs:
-    - 791866
 visp:
   version: 3.0.0-4
   issues:
@@ -32012,10 +31472,6 @@ vmfs-tools:
   version: 0.2.5-1
   issues:
     - captures_build_path
-vmm:
-  version: 0.6.2-1
-  bugs:
-    - 777364
 vmmlib:
   version: 1.0-2
   bugs:
@@ -32122,8 +31578,6 @@ vtwm:
   issues:
     - captures_kernel_version
     - captures_build_path
-  bugs:
-    - 831661
 vulkan:
   version: 1.0.21.0+dfsg1-1
   issues:
@@ -32233,10 +31687,6 @@ wbxml2:
   version: 0.10.7-1
   issues:
     - captures_build_path
-wcd:
-  version: 5.2.5-1
-  bugs:
-    - 796375
 wcslib:
   version: 4.24-1
   issues:
@@ -32246,10 +31696,6 @@ webauth:
   issues:
     - timezones_manpages_podman
     - user_hostname_manually_added_requiring_further_investigation
-webcamd:
-  version: 0.7.6-5
-  bugs:
-    - 817720
 webcit:
   version: 902-dfsg-2
   bugs:
@@ -32444,8 +31890,6 @@ witalian:
   version: 1.7.6
   comments: |
     Timestamp in README.Debian‽
-  bugs:
-    - 777361
 witty:
   version: 3.3.3+dfsg-4.1
   issues:
@@ -32498,14 +31942,6 @@ wmwork:
   version: 0.2.6-2
   issues:
     - random_order_in_md5sums
-wmxres:
-  version: 1.2-10
-  bugs:
-    - 817726
-wolfssl:
-  version: 3.4.8+dfsg-1
-  bugs:
-    - 793134
 woo:
   version: 1.0-1
   issues:
@@ -32817,10 +32253,6 @@ xfoil:
   version: 6.99.dfsg-2
   issues:
     - captures_build_path
-xfonts-wqy:
-  version: 1.0.0~rc1-1
-  bugs:
-    - 808850
 xfrisk:
   version: 1.2-3
   issues:
@@ -32857,8 +32289,6 @@ xine-lib-1.2:
   version: 1.2.6-1.1
   issues:
     - captures_build_path
-  bugs:
-    - 839371
 xine-ui:
   version: 0.99.9-1.2
   comments: |
@@ -32883,8 +32313,6 @@ xjump:
   version: 2.7.5-6.1
   issues:
     - timestamps_in_gzip_headers
-  bugs:
-    - 777354
 xkbind:
   version: 2010.05.20-1
   issues:
@@ -32918,10 +32346,6 @@ xlsx2csv:
   version: 0.20+20161027+git5785081-1
   bugs:
     - 854492
-xmacro:
-  version: 0.3pre-20000911-6
-  bugs:
-    - 831195
 xmds2:
   version: 2.2.3+dfsg-1
   issues:
@@ -33003,8 +32427,6 @@ xmlstarlet:
   version: 1.6.1-1
   issues:
     - timestamps_in_pdf_generated_by_apache_fop
-  bugs:
-    - 832864
 xmlstreambuffer:
   version: 1.5.4-1
   issues:
@@ -33082,10 +32504,6 @@ xosview:
   version: 1.17-3
   bugs:
     - 811819
-xotcl:
-  version: 1.6.8-2
-  bugs:
-    - 840155
 xpaint:
   version: 2.9.1.4-3.1
   issues:
@@ -33181,15 +32599,11 @@ xserver-xorg-video-openchrome:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/xserver-xorg-video-openchrome/1:0.3.3%2Bgit20160310-1/src/Makefile.am/?hl=117#L117
-  bugs:
-    - 831405
 xshisen:
   version: 1:1.51-4.1
   comments: |
     Creates empty directories for the current locale.
     https://sources.debian.net/src/xshisen/1:1.51-4.1/Makefile.in/#L83
-  bugs:
-    - 833581
 xshogi:
   version: 1.4.2-2
   bugs:
@@ -33358,10 +32772,6 @@ yarl:
   version: 0.7.0-1
   issues:
     - cython_captures_build_path
-yash:
-  version: 2.44-1
-  bugs:
-    - 854085
 yaskkserv:
   version: 1.0.0-1
   issues:
@@ -33490,14 +32900,6 @@ zathura:
   version: 0.3.6-2
   issues:
     - timestamps_in_manpages_generated_by_rst2man
-zathura-pdf-poppler:
-  version: 0.2.6-1
-  bugs:
-    - 842986
-zathura-ps:
-  version: 0.2.3-1
-  bugs:
-    - 843109
 zbackup:
   version: 1.4.4-1
   issues:
