@@ -5318,6 +5318,12 @@ eclipse-gef:
   version: 3.9.100-1
   bugs:
     - 850553
+eclipse-mercurialeclipse:
+  version: 1.9.4-2
+  comments: |
+    The line number table varies slightly, sometimes. 10% on my machine, more on Jenkins.
+    The build is relatively complex (using java helper --..eclipse..), but doesn't generate
+    any code or anything; it looks like it must be a bug inside ecj (run via. ant in a crazy way).
 eclipse-mylyn:
   version: 3.12.0-1
   issues:
