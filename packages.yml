@@ -9442,7 +9442,6 @@ gpsbabel:
 gpsd:
   version: 3.16-2
   issues:
-    - build_id_differences_only
     - captures_build_path
   bugs:
     - 830993
@@ -14582,10 +14581,6 @@ libksba:
   version: 1.3.4-4
   issues:
     - captures_build_path
-libkscreen:
-  version: 4:5.8.0-1
-  issues:
-    - build_id_differences_only
 libksysguard:
   version: 4:5.8.2-1
   issues:
@@ -20033,8 +20028,6 @@ openhackware:
     - 833444
 openhpi:
   version: 3.6.1-2
-  issues:
-    - build_id_differences_only
   bugs:
     - 811950
     - 828468
@@ -21294,8 +21287,6 @@ pgpgpg:
     - build_id_differences_only
 pgpool2:
   version: 3.5.4-1
-  issues:
-    - build_id_differences_only
   bugs:
     - 828497
 pgrouting:
@@ -21961,8 +21952,6 @@ posixtestsuite:
     - captures_kernel_version
 postal:
   version: 0.73+nmu1
-  issues:
-    - build_id_differences_only
   bugs:
     - 811884
     - 830472
@@ -24242,10 +24231,6 @@ qink:
     - captures_build_path
   bugs:
     - 841572
-qjackctl:
-  version: 0.4.2-2
-  issues:
-    - build_id_differences_only
 qlandkartegt:
   version: 1.8.1+ds-6
   issues:
@@ -27285,10 +27270,6 @@ rrdcollect:
   version: 0.2.10-2
   issues:
     - captures_build_path
-rrdtool:
-  version: 1.6.0-1
-  issues:
-    - build_id_differences_only
 rserve:
   version: 1.7-3-3
   issues:
@@ -29274,7 +29255,6 @@ sonnet:
 sope:
   version: 3.2.4-0.1
   issues:
-    - build_id_differences_only
     - records_build_flags
 soprano:
   version: 2.9.4+dfsg-4
