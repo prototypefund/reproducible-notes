@@ -2181,6 +2181,10 @@ brickos:
     Tried adding SOURCE_DATE_EPOCH with https://gist.github.com/lamby/2d9f1c62ec4f633b63c9 to remove timestamp but not working for some reason
   issues:
     - captures_build_path
+brightside:
+  version: 1.4.0-4.2
+  issues:
+    - captures_build_path
 briquolo:
   version: 0.5.7-7
   issues:
@@ -4390,6 +4394,10 @@ dejagnu:
   issues:
     - timestamps_in_ps_generated_by_dvips
     - random_id_in_pdf_generated_by_dblatex
+denemo:
+  version: 2.0.14-2
+  issues:
+    - captures_build_path
 deps:
   version: 0.13-2
   bugs:
@@ -7783,6 +7791,10 @@ gdb-mingw-w64:
   issues:
     - captures_build_path
     - too_much_input_for_diff
+gdb-msp430:
+  version: 7.2a~mspgcc-20111205-3.1
+  issues:
+    - captures_build_path
 gdbm:
   version: 1.8.3-14
   issues:
@@ -12940,6 +12952,10 @@ libapache-mod-evasive:
     - captures_build_path
 libapache-mod-log-sql:
   version: 1.100-16.2
+  issues:
+    - captures_build_path
+libapache-mod-removeip:
+  version: 1.0b-5.2
   issues:
     - captures_build_path
 libapache-poi-java:
@@ -23078,6 +23094,10 @@ python-limits:
   version: 1.2.1-1
   issues:
     - python_versioneer_uses_parentdir
+python-line-profiler:
+  version: 2.0+ds1-1
+  issues:
+    - captures_build_path
 python-llfuse:
   version: 0.40+dfsg-2
   issues:
@@ -28242,6 +28262,10 @@ shishi:
   issues:
     - timestamps_in_ps_generated_by_dvips
     - random_id_in_pdf_generated_by_dblatex
+shogun:
+  version: 3.2.0-7.4
+  issues:
+    - captures_build_path
 shortuuid:
   version: 0.4.3-1
   bugs:
@@ -32352,6 +32376,10 @@ xlsx2csv:
   version: 0.20+20161027+git5785081-1
   bugs:
     - 854492
+xmacro:
+  version: 0.3pre-20000911-7
+  issues:
+    - captures_build_path
 xmds2:
   version: 2.2.3+dfsg-1
   issues:
