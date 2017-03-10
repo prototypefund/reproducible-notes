@@ -26876,6 +26876,10 @@ rrdcollect:
   version: 0.2.10-2
   issues:
     - captures_build_path
+rrdtool:
+  version: 1.6.0-1
+  issues:
+    - randomness_in_binaries_generated_by_ruby_mkmf
 rserve:
   version: 1.7-3-3
   issues:
