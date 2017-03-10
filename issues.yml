@@ -1681,3 +1681,9 @@ nondeterminism_in_java_classes_generated_by_jxc:
 timestamp_in_fonts_generated_by_opentype:
   description: |
     opentype generates .ttf files with a timestamp of the current time.
+randomness_in_binaries_generated_by_ruby_mkmf:
+  description: |
+    I think it's a timestamp thats used as part of the makefile (etc.)
+    generation.
+    .
+    /usr/bin/ruby2.3 -r ./siteconf20180314-61474-whhjsn.rb extconf.rb
