@@ -32470,15 +32470,9 @@ xmlroff:
   bugs:
     - 839373
 xmlrpc-c:
-  version: 1.33.14-0.2
-  comments: |
-    The wishlist bug #722503 is to not use port 8080 for the abyss tests, as
-    that port is usually used by system running services (like proxies) and
-    used to be occupied in jenkins too.
+  version: 1.33.14-3
   issues:
     - captures_build_path
-  bugs:
-    - 722503
 xmlrpc-epi:
   version: 0.54.2-1.2
   issues:
