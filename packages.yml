@@ -5370,6 +5370,10 @@ eclipse-wtp:
     - timestamps_in_jar
     - blacklisted_on_jenkins_armhf_only
     - captures_build_path
+eclipselink:
+  version: 2.5.1-4
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 edbrowse:
   version: 3.6.1-1
   issues:
@@ -11190,6 +11194,10 @@ jboss-jdeparser2:
     - random_order_in_documentation_generated_by_javadoc
 jboss-logging:
   version: 3.3.0-2
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
+jboss-logging-tools:
+  version: 2.0.2-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
 jboss-logmanager:
@@ -27976,6 +27984,10 @@ sdcv:
   version: 0.5.0~beta4-1
   issues:
     - captures_build_path
+sdes4j:
+  version: 1.1.4-1
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 sdformat:
   version: 4.1.0-1
   issues:
