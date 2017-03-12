@@ -1687,3 +1687,6 @@ randomness_in_binaries_generated_by_ruby_mkmf:
     generation.
     .
     /usr/bin/ruby2.3 -r ./siteconf20180314-61474-whhjsn.rb extconf.rb
+filesystem_ordering_in_pak_files_generated_by_simutrans_makeobj:
+  description: |
+    Loops over input directory in filesystem ordering.
