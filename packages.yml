@@ -3158,6 +3158,10 @@ coyim:
     - diffoscope_runs_forever
     - captures_build_path
     - golang_compiler_captures_build_path_in_binary
+coz-profiler:
+  version: 0.1.0-1
+  issues:
+    - captures_build_path
 cp2k:
   version: 2.6.1-2
   comments: |
@@ -6401,6 +6405,10 @@ freefem3d:
   version: 1.0pre10-3.2
   issues:
     - timestamps_in_dvi_generated_by_latex
+freehdl:
+  version: 0.0.8-2.2
+  issues:
+    - captures_build_path
 freeipa:
   version: 4.3.2-5
   bugs:
@@ -19600,6 +19608,10 @@ pugl:
     - captures_build_path
 pulseaudio:
   version: 9.0-4
+  issues:
+    - captures_build_path
+pulseview:
+  version: 0.2.0-1.2
   issues:
     - captures_build_path
 puma:
