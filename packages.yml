@@ -4145,12 +4145,6 @@ dislocker:
   version: 0.6.1-6
   issues:
     - build_id_differences_only
-dispcalgui:
-  version: 3.1.5.0-1
-  comments: |
-    Returning customer; see debian/patches/01_reproducible-build.diff.
-    .
-    The difference is due to the "TIMESTAMP" replaceable being populated from lastmod_time.
 dita-ot:
   version: 1.5.3-1
   comments: |
