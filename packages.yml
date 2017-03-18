@@ -5037,6 +5037,8 @@ eric:
   comments: |
     [disorderfs required, so not amd64] readdir() dependency via python3 glob.glob() in install.py:createConfig(),
     affects 'apis' key in eric6config.py.
+  bugs:
+    - 858150
 erlang:
   version: 1:18.0-dfsg-1
   issues:
