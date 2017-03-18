@@ -3256,11 +3256,6 @@ crawl:
   issues:
     - captures_build_path
     - diffoscope_runs_forever
-criticalmass:
-  version: 1:1.0.0-3
-  comments: |
-    File resource.dat is created by a custom tool, which is processing input files in readdir() order.
-    https://sources.debian.net/src/criticalmass/1:1.0.0-3/tools/Packer.cpp/#L210
 critterding:
   version: 1.0-beta12.1-1.3
   issues:
