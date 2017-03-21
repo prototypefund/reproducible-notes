@@ -515,6 +515,10 @@ antlr:
     - timestamps_in_pe_binaries
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+antlr3:
+  version: 3.5.2-6
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 antlr3.2:
   version: 3.2-14
   issues:
