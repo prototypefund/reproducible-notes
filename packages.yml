@@ -11565,6 +11565,10 @@ latticeextra:
   issues:
     - captures_build_path
     - randomness_in_r_rdb_rds_databases
+lava-server:
+  version: 2016.12-1
+  issues:
+    - randomness_in_objects_inv
 lazarus:
   version: 1.6+dfsg-4
   issues:
