@@ -19569,34 +19569,58 @@ proftpd-dfsg:
     - captures_build_path
 proftpd-mod-autohost:
   version: 0.4-1
+  comments: |
+    Custom build step atop dh which drops debug prefix map,
+    leaving the path in the linker input.
   issues:
     - build_id_differences_only
 proftpd-mod-case:
   version: 0.7-1
+  comments: |
+    Custom build step atop dh which drops debug prefix map,
+    leaving the path in the linker input.
   issues:
     - build_id_differences_only
 proftpd-mod-clamav:
   version: 0.10-1
+  comments: |
+    Custom build step atop dh which drops debug prefix map,
+    leaving the path in the linker input.
   issues:
     - build_id_differences_only
 proftpd-mod-dnsbl:
   version: 0.1.5-3
+  comments: |
+    Custom build step atop dh which drops debug prefix map,
+    leaving the path in the linker input.
   issues:
     - build_id_differences_only
 proftpd-mod-fsync:
   version: 0.2-1
+  comments: |
+    Custom build step atop dh which drops debug prefix map,
+    leaving the path in the linker input.
   issues:
     - build_id_differences_only
 proftpd-mod-msg:
   version: 0.4.1-1.1
+  comments: |
+    Custom build step atop dh which drops debug prefix map,
+    leaving the path in the linker input.
   issues:
     - build_id_differences_only
 proftpd-mod-tar:
   version: 0.3.3-1
+  comments: |
+    Custom build step atop dh which drops debug prefix map,
+    leaving the path in the linker input.
   issues:
     - build_id_differences_only
 proftpd-mod-vroot:
   version: 0.9.2-2
+  comments: |
+    Custom build step atop dh which drops debug prefix map,
+    leaving the path in the linker input.
   issues:
     - build_id_differences_only
 proj:
