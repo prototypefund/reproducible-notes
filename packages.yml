@@ -24801,6 +24801,10 @@ safe-hole-perl:
     - captures_build_path
 sagan:
   version: 1.0.1-0.1
+  comments: |
+    Locally I see a temporary path added by the sse4.2 custom assembler,
+    Jenkins doesn't see this. The compile-time check for processor type
+    is probably a bug anyway, though.
   issues:
     - build_id_differences_only
 sagemath:
