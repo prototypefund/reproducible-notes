@@ -3438,6 +3438,10 @@ cuyo:
     - timestamps_in_gzip_headers
   bugs:
     - 777326
+cvc3:
+  version: 2.4.1-5.1
+  issues:
+    - captures_build_path
 cvm:
   version: 0.96-1.2
   issues:
@@ -6868,6 +6872,10 @@ gap-scscp:
   version: 2.1.4+ds-1
   issues:
     - pdf_id_varying_due_to_build_path
+gap-sonata:
+  version: 2.8+ds-1
+  issues:
+    - random_order_of_pdf_ids_generated_by_latex
 gap-tomlib:
   version: 1r2p5-2
   issues:
@@ -9230,6 +9238,10 @@ hpanel:
   version: 0.3.2-4
   bugs:
     - 782216
+hsail-tools:
+  version: 0~20170314-2
+  issues:
+    - captures_build_path
 hspell:
   version: 1.2-3
   issues:
@@ -17454,6 +17466,10 @@ oolite:
     - different_encoding
   bugs:
     - 847021
+ooolib-perl:
+  version: 0.1.9-1.1
+  issues:
+    - timestamps_in_gzip_headers
 opam:
   version: 1.2.0-1
   issues:
@@ -19565,6 +19581,10 @@ preprepare:
   version: 0.7-3
   issues:
     - captures_build_path
+presage:
+  version: 0.9.1-2.1
+  issues:
+    - captures_build_path
 preview.app:
   version: 0.8.5-10
   issues:
@@ -21635,6 +21655,10 @@ quickfix:
   version: 1.13.3+dfsg-9
   issues:
     - captures_shell_variable_in_autofoo_script
+quickroute-gps:
+  version: 2.4-14
+  issues:
+    - timestamps_in_pe_binaries
 quilt:
   version: 0.63-3
   issues:
