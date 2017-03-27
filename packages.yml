@@ -303,6 +303,10 @@ airspy-host:
   version: 0.9-1
   issues:
     - build_id_differences_only
+aiscm:
+  version: 0.10.2-1
+  issues:
+    - timestamps_in_documentation_generated_by_pandoc
 akonadi:
   version: 4:16.04.3-2
   issues:
@@ -472,6 +476,10 @@ android-platform-tools-swt:
   version: 2.0.0-1
   bugs:
     - 852903
+android-tools:
+  version: 5.1.1.r38-1
+  issues:
+    - captures_build_path
 anet:
   version: 0.3.1-1
   comments: |
@@ -6383,6 +6391,10 @@ fraqtive:
     - captures_build_path
 free42-nologo:
   version: 1.4.77-1.2
+  issues:
+    - captures_build_path
+freebayes:
+  version: 1.0.2-1
   issues:
     - captures_build_path
 freebsd-buildutils:
@@ -13576,6 +13588,10 @@ libscca:
   version: 20160108-1
   issues:
     - captures_build_path
+libscout:
+  version: 0.0~git20161124~dcd2a9e-1
+  issues:
+    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
 libsdl-console:
   version: 2.1-4
   issues:
@@ -16233,6 +16249,10 @@ nekohtml:
   version: 1.9.22-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+nemiver:
+  version: 0.9.6-1.1
+  issues:
+    - captures_build_path
 neotoma:
   version: 1.7.3+dfsg-1
   issues:
@@ -21144,6 +21164,10 @@ pyviennacl:
     - 813083
 pyvtk:
   version: 0.4.74-3.1
+  issues:
+    - captures_build_path
+pywavelets:
+  version: 0.5.1-1
   issues:
     - captures_build_path
 pywebkitgtk:
@@ -29358,6 +29382,10 @@ xvier:
     - timestamps_in_gzip_headers
   bugs:
     - 777330
+xview:
+  version: 3.2p1.4-28.2
+  issues:
+    - captures_build_path
 xvkbd:
   version: 3.3-1
   issues:
