@@ -7579,6 +7579,8 @@ globus-common:
     - captures_build_path
 globus-gram-job-manager-condor:
   version: 2.6-1
+  comments: |
+    configure.ac uses uname -m so 64-bit kernel with 32-bit userland results in different CONDOR_ARCH
   issues:
     - captures_kernel_version
 glosstex:
