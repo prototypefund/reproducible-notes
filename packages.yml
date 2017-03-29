@@ -2854,6 +2854,10 @@ cmtk:
     - captures_build_path
   bugs:
     - 827994
+cmucl:
+  version: 21a-4
+  comments: |
+    Includes 'Compiled on: ' in /usr/lib/cmucl/subsystems/clm-library.sse2f
 coccinelle:
   version: 1.0.0~rc22
   issues:
