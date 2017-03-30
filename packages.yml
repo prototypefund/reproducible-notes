@@ -14702,6 +14702,10 @@ mac-widgets:
   version: 0.10.0+svn416-dfsg1-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+macs:
+  version: 2.1.1.20160309-1
+  issues:
+    - captures_build_path
 macsyfinder:
   version: 1.0.2-1
   comments: |
@@ -17516,6 +17520,10 @@ ooolib-perl:
   version: 0.1.9-1.1
   issues:
     - timestamps_in_gzip_headers
+opal:
+  version: 3.10.10~dfsg2-2
+  issues:
+    - captures_build_path
 opam:
   version: 1.2.0-1
   issues:
@@ -27037,6 +27045,8 @@ teem:
     - 820772
 telegram-desktop:
   version: 1.0.14-1
+  issues:
+    - captures_build_path
   bugs:
     - 859058
 telepathy-gabble:
