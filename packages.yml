@@ -2545,7 +2545,6 @@ chasquid:
 chaussette:
   version: 1.3.0-1
   bugs:
-    - 845040
     - 855671
 chealpix:
   version: 3.30.0-2
@@ -2975,10 +2974,6 @@ collada2gltf:
   version: 20140924-3
   issues:
     - captures_build_path
-collectd:
-  version: 5.7.1-1
-  bugs:
-    - 852924
 colobot:
   version: 0.1.3-1
   issues:
@@ -4089,10 +4084,6 @@ dia-newcanvas:
   version: 0.6.10-5.4
   issues:
     - captures_build_path
-diagnostics:
-  version: 0.3.3-11
-  bugs:
-    - 822399
 dichromat:
   version: 2.0.0-3
   issues:
@@ -7708,10 +7699,6 @@ gniall:
   version: 0.7.1-7.1
   issues:
     - captures_build_path
-gnocchi:
-  version: 3.0.0-2
-  bugs:
-    - 852991
 gnokii:
   version: 0.6.30+dfsg-1.1
   issues:
@@ -7998,10 +7985,6 @@ goiardi:
   version: 0.11.0+git20161112.21.1cd076a-3
   issues:
     - golang_compiler_captures_build_path_in_binary
-golang:
-  version: 2:1.6.1-2
-  bugs:
-    - 855926
 golang-1.6:
   version: 1.6.2-1
   issues:
@@ -8314,10 +8297,6 @@ google-cloud-print-connector:
     - too_much_input_for_diff
   bugs:
     - 839293
-google-perftools:
-  version: 2.5-2
-  bugs:
-    - 849132
 gopher:
   version: 3.0.16
   issues:
@@ -9322,10 +9301,6 @@ hugo:
   issues:
     - timestamps_in_manpages_added_by_golang_cobra
     - golang_compiler_captures_build_path_in_binary
-hunspell-dict-ko:
-  version: 0.5.6-2
-  bugs:
-    - 855675
 hunt:
   version: 1.5-6.1
   issues:
@@ -9419,10 +9394,6 @@ icheck:
   version: 0.9.7-6.3
   issues:
     - captures_build_path
-icinga-web:
-  version: 1.13.1-2
-  bugs:
-    - 852916
 icinga2:
   version: 2.5.1-1
   issues:
@@ -9596,10 +9567,6 @@ influxdb:
   version: 0.13.0+dfsg1-4
   issues:
     - golang_compiler_captures_build_path_in_binary
-influxdb-python:
-  version: 3.0.0-1
-  bugs:
-    - 841559
 infon:
   version: 0~r198-8
   issues:
@@ -10489,8 +10456,6 @@ k3b:
   version: 2.0.3a-1
   issues:
     - captures_build_path
-  bugs:
-    - 822370
 k3d:
   version: 0.8.0.3-7
   issues:
@@ -13450,10 +13415,6 @@ libqglviewer:
   version: 2.6.3+dfsg2-1
   issues:
     - captures_build_path
-libqtpas:
-  version: 2.5-16
-  bugs:
-    - 831168
 libqtxdg:
   version: 2.0.0-4
   issues:
@@ -15067,10 +15028,6 @@ mc:
     - captures_build_path
   bugs:
     - 828683
-mccs:
-  version: 1:1.1-4
-  bugs:
-    - 848763
 mclibs:
   version: 20061220+dfsg3-3
   issues:
@@ -15731,10 +15688,6 @@ mosh:
   version: 1.3.0~rc2-1
   bugs:
     - 854873
-mosquitto-auth-plugin:
-  version: 0.0.7-2
-  bugs:
-    - 828443
 mothur:
   version: 1.38.0-1
   issues:
@@ -15881,10 +15834,6 @@ mrrescue:
   version: 1.02c-2
   issues:
     - different_due_to_umask
-mrs:
-  version: 6.0.5+dfsg-1
-  bugs:
-    - 822466
 mrtdreader:
   version: 0.1.6-1
   issues:
@@ -16097,15 +16046,10 @@ myspell:
 mysql-5.7:
   version: 5.7.16-1
   bugs:
-    - 844275
     - 844850
-    - 844852
     - 844868
-    - 844876
     - 844895
-    - 844935
     - 844957
-    - 846746
 mysql-ocaml:
   version: 1.2.0-2
   issues:
@@ -16427,10 +16371,6 @@ netxx:
   version: 0.3.2-2
   bugs:
     - 829769
-neutron:
-  version: 1:7.0.0-4
-  bugs:
-    - 834840
 neutron-fwaas:
   version: 1:9.0.0-3
   bugs:
@@ -17855,10 +17795,6 @@ opensp:
   version: 1.5.2-13
   issues:
     - random_id_in_pdf_generated_by_dblatex
-openssl:
-  version: 1.1.0d-1
-  bugs:
-    - 852900
 openssl1.0:
   version: 1.0.2j-3
   issues:
@@ -20667,10 +20603,6 @@ python-kdcproxy:
   version: 0.3.2-4
   bugs:
     - 854191
-python-keystoneauth1:
-  version: 1.1.0-1
-  bugs:
-    - 834742
 python-keystonemiddleware:
   version: 1.5.0-1
   issues:
@@ -20774,8 +20706,6 @@ python-numpy:
   issues:
     - timestamps_in_pdf_generated_by_matplotlib
     - captures_build_path
-  bugs:
-    - 816369
 python-omniorb:
   version: 3.6-1
   issues:
@@ -20945,10 +20875,6 @@ python-rencode:
   version: 1.0.5-1
   issues:
     - captures_build_path
-python-reno:
-  version: 1.3.0-3
-  bugs:
-    - 834685
 python-reportlab:
   version: 3.1.8-3
   comments: |
@@ -21089,10 +21015,6 @@ python-whoosh:
   version: 2.7.0-1
   issues:
     - randomness_in_objects_inv
-python-ws4py:
-  version: 0.3.4-3
-  bugs:
-    - 851043
 python-x2go:
   version: 0.5.0.1-2
   issues:
@@ -21281,10 +21203,6 @@ qgis:
   issues:
     - blacklisted_on_jenkins_armhf_only
     - diffoscope_runs_forever
-qgo:
-  version: 2.1~git-20150530-1
-  bugs:
-    - 827301
 qhttpengine:
   version: 0.1.0+dfsg1-1
   issues:
@@ -24893,10 +24811,6 @@ sagetex:
   issues:
     - timestamps_in_tex_documents
     - max_output_size_reached
-sahara:
-  version: 1:3.0.0-5
-  bugs:
-    - 834841
 sailcut:
   version: 1.3.6-1
   comments: |
@@ -25894,10 +25808,6 @@ sofia-sip:
   version: 1.12.11+20110422.1-2.1
   issues:
     - captures_build_path
-softhsm2:
-  version: 2.1.0-3
-  bugs:
-    - 828551
 sogo:
   version: 3.2.6-1
   comments: |
@@ -27006,10 +26916,6 @@ tenace:
   version: 0.14-1
   issues:
     - captures_build_path
-tendermint:
-  version: 0.8.0+git20170113.0.764091d-1
-  bugs:
-    - 854813
 tendermint-go-flowrate:
   version: 0.0~git20161104.0.a20c98e-1
   bugs:
@@ -27128,10 +27034,6 @@ the:
     - random_order_in_md5sums
   bugs:
     - 842550
-theano:
-  version: 0.8.2-3
-  bugs:
-    - 848764
 thepeg:
   version: 1.8.0-1
   bugs:
@@ -27176,8 +27078,6 @@ tigervnc:
   version: 1.6.0+dfsg-2
   issues:
     - captures_build_path
-  bugs:
-    - 843543
 tightvnc:
   version: 1:1.3.9-9
   comments: |
@@ -28492,10 +28392,6 @@ wayland:
   version: 1.9.0-1
   issues:
     - different_encoding_in_html_by_docbook_xsl
-wbar:
-  version: 2.3.4-5
-  bugs:
-    - 825471
 wbox:
   version: 5-1
   issues:
