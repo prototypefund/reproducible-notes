@@ -474,6 +474,10 @@ android-platform-libcore:
   issues:
     - random_order_in_documentation_generated_by_javadoc
     - random_ordering_in_pom
+android-platform-system-core:
+  version: 1:7.0.0+r1-4
+  bugs:
+    - 859081
 android-platform-tools-swt:
   version: 2.0.0-1
   bugs:
@@ -4468,6 +4472,7 @@ drc:
 drgeo:
   version: 1.1.0-10.2
   bugs:
+    - 707903
     - 745996
 drift:
   version: 2.2.3-2.3
@@ -8416,6 +8421,11 @@ gpsd:
   version: 3.16-2
   issues:
     - captures_build_path
+gpsshogi:
+  version: 0.7.0-1
+  bugs:
+    - 795237
+    - 848345
 gpt:
   version: 1.1-2
   bugs:
@@ -11374,6 +11384,7 @@ ktp-call-ui:
   version: 0.9.0-2
   bugs:
     - 806917
+    - 810050
 ktp-common-internals:
   version: 15.08.3-1
   issues:
@@ -12575,6 +12586,7 @@ libibtk:
   version: 0.0.14-12
   bugs:
     - 528982
+    - 759464
 libical:
   version: 2.0.0-0.4
   issues:
@@ -26049,6 +26061,10 @@ springlobby:
   version: 0.255+dfsg-1
   issues:
     - captures_build_path
+spyder:
+  version: 3.1.2+dfsg1-1
+  bugs:
+    - 859080
 spyder-memory-profiler:
   version: 0.1.0-1
   bugs:
