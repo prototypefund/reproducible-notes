@@ -7711,6 +7711,10 @@ gnome-builder:
   version: 3.20.4-2
   issues:
     - captures_build_path
+gnome-clocks:
+  version: 3.22.1-1
+  issues:
+    - valac_permutes_get_type_calls
 gnome-contacts:
   version: 3.22.1-1
   comments: |
