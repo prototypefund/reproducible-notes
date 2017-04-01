@@ -24923,13 +24923,6 @@ sbcl:
     - pdf_created_by_ghostscript
     - user_hostname_manually_added_requiring_further_investigation
     - captures_build_path
-sbuild:
-  version: 0.69.0-2
-  comments: |
-    Captures $HOME:
-      https://sources.debian.net/src/sbuild/0.69.0-2/lib/Buildd/Conf.pm/#L125
-      https://sources.debian.net/src/sbuild/0.69.0-2/lib/Buildd/Conf.pm/#L218
-      https://sources.debian.net/src/sbuild/0.69.0-2/lib/Buildd/Conf.pm/#L361
 scala:
   version: 2.9.2+dfsg-2
   issues:
