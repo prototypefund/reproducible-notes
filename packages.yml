@@ -3274,6 +3274,8 @@ crac:
       configure.ac:161:AC_SUBST([ISODATE])
     .
     Needs to use TZ=UTC and $SOURCE_DATE_EPOCH.
+  bugs:
+    - 859300
 crack:
   version: 5.0a-9.3
   comments: |
