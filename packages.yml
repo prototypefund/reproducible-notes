@@ -3971,6 +3971,8 @@ debirf:
   comments: |
     [not amd64]
     readdir() dependency in make, affects tar file: https://sources.debian.net/src/debirf/0.36/Makefile/#L27
+  bugs:
+    - 859302
 debmake-doc:
   version: 1.0-1
   comments: |
