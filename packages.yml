@@ -6334,6 +6334,8 @@ forked-daapd:
     https://sources.debian.net/src/forked-daapd/24.2-1/configure.ac/#L7 AC_DEFINE_UNQUOTED([BUILDDATE], ["`date -Idate`"], [Build date])
     .
     Needs to use TZ=UTC and $SOURCE_DATE_EPOCH.
+  bugs:
+    - 859305
 forkstat:
   version: 0.01.11-1
   comments: |
