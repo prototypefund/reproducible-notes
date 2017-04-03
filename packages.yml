@@ -3138,6 +3138,7 @@ contextfree:
   version: 3.0.5+dfsg1-2.2
   bugs:
     - 846418
+    - 848759
 conversant-disruptor:
   version: 1.2.8-1
   bugs:
@@ -6375,6 +6376,7 @@ fped:
   version: 0.1+201210-1
   bugs:
     - 846426
+    - 848773
 fpgatools:
   version: 0.0+201212-1
   issues:
@@ -8991,7 +8993,9 @@ haskell-iso8601-time:
 haskell-lambdabot-haskell-plugins:
   version: 5.1-2
   bugs:
+    - 842740
     - 844810
+    - 846752
 haskell-mode:
   version: 13.10-3
   issues:
@@ -12613,6 +12617,10 @@ libident:
   version: 0.22-3
   issues:
     - timestamps_in_gzip_headers
+libidn:
+  version: 1.33-1
+  bugs:
+    - 853493
 libidn2-0:
   version: 0.10-3
   comments: |
@@ -13636,6 +13644,7 @@ libsigscan:
 libsis-jhdf5-java:
   version: 14.12.6-1
   bugs:
+    - 842815
     - 846735
 libskinlf-java:
   version: 6.7-8
