@@ -4681,6 +4681,10 @@ eancheck:
   version: 1.0-1.1
   bugs:
     - 830462
+easymock:
+  version: 3.4+ds-1
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 ebnetd:
   version: 1:1.0.dfsg.1-4.3
   issues:
@@ -5673,6 +5677,10 @@ felix-latin:
     uses imagemagick to create help.tif. would be fixed by 819914
   issues:
     - timestamps_manually_added_needs_further_investigation
+felix-main:
+  version: 5.0.0-4
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 felix-shell:
   version: 1.4.3-1
   issues:
@@ -9957,6 +9965,10 @@ jackson-databind:
   version: 2.7.4-1
   issues:
     - random_order_in_java_jar_manifest_mf
+jackson-dataformat-smile:
+  version: 2.7.8-1
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 jackson-dataformat-xml:
   version: 2.7.4-1
   issues:
@@ -26640,6 +26652,10 @@ systemtap:
   issues:
     - different_encoding_in_html_by_docbook_xsl
     - fonts_in_pdf_files
+t-digest:
+  version: 1:3.0-1
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 t38modem:
   version: 2.0.0-4
   bugs:
