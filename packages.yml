@@ -9973,6 +9973,10 @@ jackson-databind:
   version: 2.7.4-1
   issues:
     - random_order_in_java_jar_manifest_mf
+jackson-dataformat-cbor:
+  version: 2.7.8-1
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 jackson-dataformat-smile:
   version: 2.7.8-1
   issues:
@@ -28506,6 +28510,10 @@ weston:
   version: 1.11.0-1
   issues:
     - captures_build_path
+weupnp:
+  version: 0.1.4-1
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 wget:
   version: 1.18-2
   issues:
