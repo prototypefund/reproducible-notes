@@ -221,12 +221,6 @@ advi:
   issues:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
-aegis:
-  version: 4.24.3-3
-  issues:
-    - timestamps_from_cpp_macros
-  bugs:
-    - 811888
 aegisub:
   version: 3.2.2+dfsg-3
   issues:
@@ -819,10 +813,6 @@ archvsync:
   version: 20170204
   bugs:
     - 856860
-ardesia:
-  version: 1.1-2.1
-  issues:
-    - captures_build_path
 ardour:
   version: 1:5.0~dfsg-2
   issues:
@@ -1004,12 +994,6 @@ assertj-core:
     - random_order_in_java_jar_manifest_mf
 assimp:
   version: 3.3.1~dfsg-1
-  issues:
-    - captures_build_path
-aster:
-  version: 11.5.0+dfsg2-4
-  comments: |
-    Think this is caused by ./bibpyt/Build/B_ETAPE.py getran. Source is in french though which makes it a bit annoying to fix...
   issues:
     - captures_build_path
 asterisk:
@@ -3144,12 +3128,6 @@ convlit:
   version: 1.8-1
   issues:
     - captures_build_path
-cook:
-  version: 2.33-2
-  issues:
-    - captures_build_path
-  bugs:
-    - 797320
 copyfs:
   version: 1.0.1-5
   issues:
@@ -3164,10 +3142,6 @@ coq-float:
   version: 1:8.4-5
   bugs:
     - 813596
-coq-highschoolgeometry:
-  version: 8.4+20150620-1
-  bugs:
-    - 850925
 corebird:
   version: 1.3.3-1
   issues:
@@ -4478,12 +4452,6 @@ drgeo:
   bugs:
     - 707903
     - 745996
-drift:
-  version: 2.2.3-2.3
-  issues:
-    - timestamps_in_ps_generated_by_dvips
-  bugs:
-    - 807966
 driftnet:
   version: 1.1.5-1.1
   issues:
@@ -5433,10 +5401,6 @@ facile:
   version: 1.1.1-1
   issues:
     - captures_build_path
-facturlinex2:
-  version: 2.2.2-2
-  bugs:
-    - 673183
 fai:
   version: 4.3.2
   issues:
@@ -6768,10 +6732,6 @@ gaffitter:
   version: 0.6.0-2
   issues:
     - captures_build_path
-gaim-librvp:
-  version: 0.9.5-3
-  bugs:
-    - 817467
 galax:
   version: 1.1-12
   comments: |
@@ -9922,10 +9882,6 @@ jaaa:
   version: 0.8.4-2
   issues:
     - docbook_to_man_one_byte_delta
-jablicator:
-  version: 1.0.1
-  bugs:
-    - 817506
 jabref:
   version: 3.6+ds-1
   issues:
@@ -10156,11 +10112,6 @@ jblas:
   version: 1.2.3-6
   bugs:
     - 788353
-jbofihe:
-  version: 0.38-5.1
-  bugs:
-    - 799313
-    - 800254
 jboss-classfilewriter:
   version: 1.2.1-1
   issues:
@@ -11199,10 +11150,6 @@ kompare:
   version: 4:16.08.0-1
   issues:
     - build_id_differences_only
-kon2:
-  version: 0.3.9b-20
-  bugs:
-    - 815605
 konquest:
   version: 4:16.08.0-1
   issues:
@@ -11829,10 +11776,6 @@ libapache-poi-java:
     more than that, alas.
   issues:
     - blacklisted_on_jenkins_armhf_only
-libapache2-mod-auth-memcookie:
-  version: 1.0.2-8
-  issues:
-    - captures_build_path
 libapache2-mod-auth-openidc:
   version: 1.8.10.1-1
   issues:
@@ -13083,10 +13026,6 @@ libmcrypt:
     dpkg-buildflags are not honoured during build, so -fdebug-prefix-map is not used.
   issues:
     - captures_build_path
-libmemcache:
-  version: 1.4.0.rc2-1.1
-  bugs:
-    - 811891
 libmemcached-libmemcached-perl:
   version: 1.001801+dfsg-1
   issues:
@@ -26256,12 +26195,6 @@ stopmotion:
   version: 0.8.0-5
   bugs:
     - 800059
-storaged:
-  version: 2.5.0-1
-  comments: |
-    [experimental/amd64]
-  issues:
-    - captures_build_path
 storm:
   version: 0.19-1
   issues:
@@ -27223,12 +27156,6 @@ tk-html3:
     rcsid strings (as in RCS, the precursor to CVS) appear in .rodata in readdir() order.
     .
     The culprit appears to be one of the uses of $(SHARED_LIB) in main.mk.
-tk8.4:
-  version: 8.4.20-8
-  issues:
-    - random_order_in_static_libraries
-  bugs:
-    - 818755
 tk8.5:
   version: 8.5.19-1
   issues:
