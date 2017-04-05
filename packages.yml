@@ -7148,6 +7148,10 @@ gedit-plugins:
       2) The .po suffix rules in po/Makefile.in.in
   issues:
     - translations_missing_in_desktop_files
+geg:
+  version: 2.0.8-1
+  issues:
+    - captures_build_path
 gegl:
   version: 0.2.0-7.1
   comments: |
@@ -11122,6 +11126,10 @@ kodi:
   issues:
     - timestamps_from_cpp_macros
     - diffoscope_runs_forever
+kodi-visualization-spectrum:
+  version: 1.1.1-1
+  issues:
+    - captures_build_path
 kolf:
   version: 4:16.04.0-1
   issues:
@@ -13536,6 +13544,10 @@ librsync:
   version: 0.9.7-10
   bugs:
     - 857857
+librttopo:
+  version: 1.0.0-1
+  issues:
+    - captures_build_path
 libsaxon-java:
   version: 1:6.5.5-10
   issues:
@@ -13728,6 +13740,10 @@ libtext-vimcolor-perl:
   version: 0.11-2
   bugs:
     - 720663
+libtext-xslate-perl:
+  version: 3.4.0-1
+  issues:
+    - captures_build_path
 libtexttools:
   version: 2.1.0-7
   issues:
@@ -14549,6 +14565,10 @@ lwipv6:
     - captures_build_path
 lwt:
   version: 2.5.2-1
+  issues:
+    - captures_build_path
+lxcfs:
+  version: 2.0.6-1
   issues:
     - captures_build_path
 lxml:
@@ -28898,6 +28918,10 @@ xfce4-terminal:
     Translations missing from .po file.
   issues:
     - translations_missing_in_desktop_files
+xfconf:
+  version: 4.12.1-1
+  issues:
+    - captures_build_path
 xfoil:
   version: 6.99.dfsg-2
   issues:
@@ -29492,6 +29516,10 @@ zemberek-ooo:
     - different_encoding
   bugs:
     - 802416
+zenity:
+  version: 3.22.0-1
+  issues:
+    - captures_build_path
 zephyr:
   version: 3.1.2-1
   issues:
@@ -29523,8 +29551,16 @@ zfs-fuse:
   version: 0.7.0-13.1
   issues:
     - captures_build_path
+zhcon:
+  version: 1:0.2.6-11
+  issues:
+    - captures_build_path
 zinnia:
   version: 0.06-2.1
+  issues:
+    - captures_build_path
+ziproxy:
+  version: 3.3.1-2.1
   issues:
     - captures_build_path
 zivot:
@@ -29597,6 +29633,10 @@ zshdb:
   version: 0.92-3
   bugs:
     - 848739
+zsnes:
+  version: 1.510+bz2-8
+  issues:
+    - captures_build_path
 zssh:
   version: 1.5c.debian.1-3.2
   bugs:
