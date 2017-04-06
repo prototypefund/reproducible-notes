@@ -3829,6 +3829,7 @@ deal.ii:
   comments: |
     Embeds the current year as copyright year into documentation.
     https://sources.debian.net/src/deal.ii/8.1.0-5/doc/doxygen/scripts/mod_header.pl.in/#L11
+    on i386 and armhf affected by https://bugs.debian.org/835406
   issues:
     - blacklisted_on_jenkins_armhf_only
     - diffoscope_runs_forever
