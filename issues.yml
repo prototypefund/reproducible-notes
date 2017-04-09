@@ -355,7 +355,10 @@ randomness_in_html_generated_by_texi2html:
   url: https://wiki.debian.org/ReproducibleBuilds/RandomnessInHTMLGeneratedByTexi2html
 randomness_in_gcj_output:
   description: |
-    gcj's output varies, cause unknown
+    gcj's output varies, cause unknown. gcj is deprecated, and has been removed from
+    gcc-7. Neither upstream or (I believe) the Debian packaging team have any interest
+    in maintaining it; hopefully it will be removed and all of these packages will move
+    to a normal Java implementation, or be removed too.
   url: https://wiki.debian.org/ReproducibleBuilds/RandomnessInBuildIdGeneratedByGcj
 python_wheel_package:
   description: |
