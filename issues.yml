@@ -264,13 +264,6 @@ random_order_in_documentation_generated_by_javadoc:
     .
     Likely cause of the latter is
     jdk9_dev/langtools/src/jdk.javadoc/share/classes/com/sun/tools/javadoc/DocLocale.java +172
-locale_in_documentation_generated_by_javadoc:
-  description: |
-    javadoc embeds the current locale in a "lang" attribute of the html document.
-    .
-    Likely cause is
-    jdk9_dev/langtools/src/jdk.javadoc/share/classes/com/sun/tools/doclets/formats/html/markup/HtmlTree.java +416
-  deterministic: True
 method_may_never_be_called_in_documentation_generated_by_javadoc:
   description: |
     javadoc can add "This method may never be called" in some builds and not
