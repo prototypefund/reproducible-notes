@@ -43,10 +43,6 @@ abcm2ps:
     - docbook_to_man_one_byte_delta
   bugs:
     - 788748
-abgate:
-  version: 1.1.8-1
-  issues:
-    - captures_build_path
 abind:
   version: 1.4-5-1
   issues:
@@ -93,10 +89,6 @@ ace:
   version: 6.3.3+dfsg-1.1
   issues:
     - captures_build_path
-acedb:
-  version: 4.9.39+dfsg.02-1
-  issues:
-    - captures_build_path
 acepack:
   version: 1.3.3.3-2
   issues:
@@ -104,10 +96,6 @@ acepack:
     - randomness_in_r_rdb_rds_databases
 aces3:
   version: 3.0.8-4
-  issues:
-    - captures_build_path
-acfax:
-  version: 981011-17
   issues:
     - captures_build_path
 achilles:
@@ -135,10 +123,6 @@ acorn:
   version: 4.0.4-1
   bugs:
     - 850506
-acpitool:
-  version: 0.5.1-4
-  issues:
-    - captures_build_path
 activemq:
   version: 5.13.2+dfsg-2
   issues:
@@ -226,10 +210,6 @@ aegisub:
   issues:
     - captures_build_path
     - too_much_input_for_diff
-aes2501-wy:
-  version: 0.1-5
-  issues:
-    - captures_build_path
 aespipe:
   version: 2.4c-1
   issues:
@@ -433,10 +413,6 @@ amora-server:
     - captures_build_path
   bugs:
     - 833408
-amsynth:
-  version: 1.6.4-1
-  issues:
-    - captures_build_path
 analitza:
   version: 4:16.08.1-1
   issues:
@@ -562,10 +538,6 @@ aolserver4-nsmysql:
     - 788753
 aolserver4-nsopenssl:
   version: 3.0beta26-5
-  issues:
-    - captures_build_path
-aolserver4-nspostgres:
-  version: 4.5+20110709-2
   issues:
     - captures_build_path
 aolserver4-nssqlite3:
@@ -2352,10 +2324,6 @@ cde:
   version: 0.1+git9-g551e54d-1
   issues:
     - captures_build_path
-cdebconf:
-  version: 0.215
-  issues:
-    - captures_build_path
 cdebootstrap:
   version: 0.6.4
   comments: |
@@ -3429,8 +3397,6 @@ cvs:
     - random_id_in_pdf_generated_by_dblatex
 cvs-mailcommit:
   version: 1.19-2
-  issues:
-    - timestamps_in_gzip_headers
   bugs:
     - 776940
 cvsd:
@@ -7132,10 +7098,6 @@ gedit-plugins:
       2) The .po suffix rules in po/Makefile.in.in
   issues:
     - translations_missing_in_desktop_files
-geg:
-  version: 2.0.8-1
-  issues:
-    - captures_build_path
 gegl:
   version: 0.2.0-7.1
   comments: |
@@ -7547,8 +7509,6 @@ globus-gram-job-manager-condor:
   version: 2.6-1
   comments: |
     configure.ac uses uname -m so 64-bit kernel with 32-bit userland results in different CONDOR_ARCH
-  issues:
-    - captures_kernel_version
 glosstex:
   version: 0.4.dfsg.1-3
   issues:
@@ -7655,10 +7615,6 @@ gngb:
     -> When compiling for i386 from amd64 system/kernel, different flags are used.
   bugs:
     - 831773
-gniall:
-  version: 0.7.1-7.1
-  issues:
-    - captures_build_path
 gnokii:
   version: 0.6.30+dfsg-1.1
   issues:
@@ -8678,10 +8634,6 @@ gthumb:
   version: 3:3.4.1-2
   issues:
     - nondeterminstic_ordering_in_gsettings_glib_enums_xml
-gtimer:
-  version: 2.0.0-1.2
-  issues:
-    - captures_build_path
 gtk+2.0:
   version: 2.24.30-4
   issues:
@@ -8756,10 +8708,6 @@ gtkgl2:
   version: 2.0.1-2.2
   issues:
     - captures_build_path
-gtkglext:
-  version: 1.2.0-4
-  issues:
-    - captures_build_path
 gtkguitune:
   version: 0.8-6
   issues:
@@ -8811,10 +8759,6 @@ guile-gnome-platform:
     - ftbfs_uninvestigated_test_failures
 guiqwt:
   version: 3.0.1-1
-  issues:
-    - captures_build_path
-guitarix:
-  version: 0.34.0-0.1
   issues:
     - captures_build_path
 guncat:
@@ -9288,10 +9232,6 @@ hunspell-dict-ko:
   version: 0.6.0-2
   bugs:
     - 859294
-hunt:
-  version: 1.5-6.1
-  issues:
-    - captures_build_path
 hwloc:
   version: 1.11.4-1
   issues:
@@ -9640,10 +9580,6 @@ iodine:
   version: 0.7.0-3
   bugs:
     - 802105
-ip4r:
-  version: 2.0.2-4
-  issues:
-    - captures_build_path
 ipadic:
   version: 2.7.0+main-3
   issues:
@@ -9739,8 +9675,6 @@ ircd-ircu:
   comments: |
     Embed build time:
     https://sources.debian.net/src/ircd-ircu/2.10.12.10.dfsg1-1.1/ircd/version.c.SH/?hl=17#L17
-  issues:
-    - captures_build_path
   bugs:
     - 835130
 ircii:
@@ -9877,10 +9811,6 @@ jacal:
     - texi2html_captures_users_gecos
   bugs:
     - 815250
-jack:
-  version: 3.1.1+cvs20050801-29.1
-  issues:
-    - captures_build_path
 jack-audio-connection-kit:
   version: 1:0.124.1+20140122git5013bed0-3
   comments: |
@@ -10034,10 +9964,6 @@ java-policy:
   version: 0.55
   issues:
     - timestamps_in_ps_generated_by_dvips
-java2html:
-  version: 0.9.2-4
-  issues:
-    - captures_build_path
 java3d:
   version: 1.5.2+dfsg-11
   issues:
@@ -10241,10 +10167,6 @@ josql:
     - random_order_in_documentation_generated_by_javadoc
 jovie:
   version: 4:16.04.0-1
-  issues:
-    - captures_build_path
-joy2key:
-  version: 1.6.3-1
   issues:
     - captures_build_path
 jpeginfo:
@@ -10570,10 +10492,6 @@ kcodecs:
   version: 5.25.0-1
   issues:
     - captures_build_path
-kcollectd:
-  version: 0.9-2.1
-  issues:
-    - captures_build_path
 kconfig:
   version: 5.26.0-1
   issues:
@@ -10802,10 +10720,6 @@ kfilemetadata-kf5:
   version: 5.26.0-1
   issues:
     - build_id_differences_only
-kfloppy:
-  version: 4:16.04.0-2
-  issues:
-    - captures_build_path
 kfourinline:
   version: 4:16.04.0-1
   issues:
@@ -11105,10 +11019,6 @@ kodi:
   issues:
     - timestamps_from_cpp_macros
     - diffoscope_runs_forever
-kodi-visualization-spectrum:
-  version: 1.1.1-1
-  issues:
-    - captures_build_path
 kolf:
   version: 4:16.04.0-1
   issues:
@@ -12097,10 +12007,6 @@ libconfig:
   version: 1.5-0.2
   issues:
     - random_id_in_pdf_generated_by_dblatex
-libcork:
-  version: 0.15.0+ds-6
-  issues:
-    - captures_build_path
 libcorkipset:
   version: 1.1.1+20150311-3
   issues:
@@ -12283,10 +12189,6 @@ libffado:
     - captures_build_path
 libfile-rsyncp-perl:
   version: 0.74-2.1
-  issues:
-    - captures_build_path
-libfixposix:
-  version: 20110316.git47f17f7-1
   issues:
     - captures_build_path
 libflorist:
@@ -13259,10 +13161,6 @@ libpam-radius-auth:
   version: 1.3.16-5
   issues:
     - captures_build_path
-libpaper:
-  version: 1.1.24+nmu4
-  issues:
-    - captures_build_path
 libpcl1:
   version: 1.6-1
   issues:
@@ -13306,10 +13204,6 @@ libpixels-java:
   issues:
     - timestamps_in_jar
     - timestamps_in_documentation_generated_by_javadoc
-libplist:
-  version: 1.12-3.1
-  issues:
-    - captures_build_path
 libpodofo:
   version: 0.9.4-2
   issues:
@@ -13516,10 +13410,6 @@ librsync:
   version: 0.9.7-10
   bugs:
     - 857857
-librttopo:
-  version: 1.0.0-1
-  issues:
-    - captures_build_path
 libsaxon-java:
   version: 1:6.5.5-10
   issues:
@@ -13710,10 +13600,6 @@ libtext-vimcolor-perl:
   version: 0.11-2
   bugs:
     - 720663
-libtext-xslate-perl:
-  version: 3.4.0-1
-  issues:
-    - captures_build_path
 libtexttools:
   version: 2.1.0-7
   issues:
@@ -14060,10 +13946,6 @@ lightspark:
     - captures_build_path
   bugs:
     - 841571
-likwid:
-  version: 4.2.0-2
-  issues:
-    - captures_build_path
 lilo:
   version: 1:24.2-2
   issues:
@@ -14113,11 +13995,6 @@ linux-minidisc:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/linux-minidisc/0.9.13-1/qhimdtransfer/qhimdtransfer.pro/#L23
-linux-patch-grsecurity2:
-  version: 3.0+3.14.22-201410250026-1
-  issues:
-    - timestamps_in_files_installed_by_dh_kpatches
-    - timestamps_in_gzip_headers
 linux86:
   version: 0.16.17-3.1
   issues:
@@ -14532,10 +14409,6 @@ lwipv6:
     - captures_build_path
 lwt:
   version: 2.5.2-1
-  issues:
-    - captures_build_path
-lxcfs:
-  version: 2.0.6-1
   issues:
     - captures_build_path
 lxml:
@@ -15109,10 +14982,6 @@ metview:
   issues:
     - captures_build_path
     - too_much_input_for_diff
-mgba:
-  version: 0.4.0+dfsg1-3
-  issues:
-    - captures_build_path
 mgcv:
   version: 1.8-14-1
   issues:
@@ -15921,10 +15790,6 @@ murasaki:
   version: 1.68.6-6
   issues:
     - captures_build_path
-muse:
-  version: 2.1.2-1
-  issues:
-    - captures_build_path
 muse-el:
   version: 3.20+dfsg-0.1
   issues:
@@ -15934,10 +15799,6 @@ musescore:
   version: 2.0.3+dfsg1-2
   issues:
     - build_id_variation_requiring_further_investigation
-    - captures_build_path
-music:
-  version: 1.0.7-1.3
-  issues:
     - captures_build_path
 mutrace:
   version: 0.2.0-3
@@ -16150,10 +16011,6 @@ ncrack:
     - 844303
 ncurses-hexedit:
   version: 0.9.7-14.1
-  issues:
-    - captures_build_path
-ndisc6:
-  version: 1.0.1-6
   issues:
     - captures_build_path
 ndiswrapper:
@@ -17665,7 +17522,6 @@ openlayers:
   version: 2.13.1+ds2-3
   issues:
     - random_order_in_documentation_generated_by_naturaldocs
-    - captures_build_path
 openldap:
   version: 2.4.42+dfsg-2
   comments: |
@@ -17784,10 +17640,6 @@ openturns:
   issues:
     - diffoscope_runs_forever
     - randomness_in_r_rdb_rds_databases
-openvanilla-modules:
-  version: 0.9.0a1.3+dfsg1-2.1
-  issues:
-    - captures_build_path
 openvas-cli:
   version: 1.4.4-1
   issues:
@@ -18056,10 +17908,6 @@ packeth:
   version: 1.6.5-2
   issues:
     - captures_build_path
-pacman:
-  version: 10-17.1
-  issues:
-    - captures_build_path
 pacparser:
   version: 1.3.6-1.1
   issues:
@@ -18173,10 +18021,6 @@ pari:
     - timestamps_in_ps_generated_by_dvips
     - captures_build_path
     - timestamps_in_dvi_generated_by_latex
-parprouted:
-  version: 0.70-1
-  issues:
-    - captures_build_path
 parted:
   version: 3.2-7
   comments: |
@@ -18666,7 +18510,6 @@ pgfincore:
   version: 1.1.2-3
   issues:
     - postgres_9.5_transition
-    - captures_build_path
 pgloader:
   version: 3.3.1+dfsg-1
   comments: |
@@ -18758,10 +18601,6 @@ php-igbinary:
     - captures_build_path
 php-mongodb:
   version: 1.1.7-2
-  issues:
-    - captures_build_path
-php-solr:
-  version: 2.4.0-3
   issues:
     - captures_build_path
 php7.0:
@@ -18871,10 +18710,6 @@ pike8.0:
     - captures_build_path
 pillow:
   version: 3.3.1-1
-  issues:
-    - captures_build_path
-pillow-sane:
-  version: 2.8.2-1
   issues:
     - captures_build_path
 pilot-link:
@@ -19246,10 +19081,6 @@ portlet-api-2.0-spec:
   version: 1.0-2.1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-portreserve:
-  version: 0.0.4-1
-  issues:
-    - captures_build_path
 posixtestsuite:
   version: 1.5.2-5
   comments: |
@@ -19433,10 +19264,6 @@ predict:
   version: 2.2.3-4
   issues:
     - captures_build_path
-prefix:
-  version: 1.2.4-1
-  issues:
-    - captures_build_path
 prelink:
   version: 0.0.20130503-1.1
   issues:
@@ -19501,8 +19328,6 @@ proftpd-dfsg:
   version: 1.3.5-1.1
   comments: |
     Embed build time in /usr/include/proftpd/buildstamp.h (sic)
-  issues:
-    - captures_build_path
 proftpd-mod-autohost:
   version: 0.4-1
   comments: |
@@ -19796,8 +19621,6 @@ pybit:
   version: 1.0.0-2.1
   comments: |
     Uninvestigated, but cropped up on 2016-08-11 at the same time as similar issues in other packages.
-  issues:
-    - different_due_to_umask
   bugs:
     - 834277
 pybliographer:
@@ -20316,10 +20139,6 @@ python-cycler:
   issues:
     - timestamps_in_pdf_generated_by_matplotlib
     - captures_build_path
-python-daap:
-  version: 0.7.1-4
-  issues:
-    - captures_build_path
 python-debtcollector:
   version: 0.8.0-2
   issues:
@@ -20465,10 +20284,6 @@ python-glpk:
   version: 0.4.52-1.1
   bugs:
     - 750228
-python-gmpy:
-  version: 1.17-1
-  issues:
-    - captures_build_path
 python-gnatpython:
   version: 54-3
   issues:
@@ -25000,8 +24815,6 @@ scoop:
     - 835534
 scotch:
   version: 5.1.12b.dfsg-2
-  issues:
-    - timestamps_in_gzip_headers
   bugs:
     - 787997
 scowl:
@@ -25405,11 +25218,6 @@ singular:
   issues:
     - captures_build_path
     - records_build_flags
-sip4:
-  version: 4.18.1+dfsg-1
-  issues:
-    - captures_build_path
-    - records_build_flags
 siproxd:
   version: 1:0.8.1-4.1
   issues:
@@ -25772,10 +25580,6 @@ sollya:
     - different_encoding
     - timestamps_in_manpages_generated_by_help2man
     - fonts_in_pdf_files
-solvespace:
-  version: 2.1+repack2-1
-  issues:
-    - captures_build_path
 sonnet:
   version: 5.11.0-1
   comments: |
@@ -26716,7 +26520,6 @@ tcl8.6:
   version: 8.6.6+dfsg-1
   issues:
     - random_order_in_static_libraries
-    - records_build_flags
 tclap:
   version: 1.2.1-1
   issues:
@@ -26724,10 +26527,6 @@ tclap:
     - captures_build_path
 tclcl:
   version: 1.20-8
-  issues:
-    - captures_build_path
-tclgeoip:
-  version: 0.2-1.1
   issues:
     - captures_build_path
 tcllib:
@@ -27131,8 +26930,6 @@ tk8.6:
     - 818753
 tkdesk:
   version: 2.0-9.2
-  issues:
-    - captures_build_path
   bugs:
     - 824567
 tkdnd:
@@ -27241,10 +27038,6 @@ topal:
     - timestamps_in_pdf_generated_by_latex
     - different_encoding
     - fonts_in_pdf_files
-toppler:
-  version: 1.1.6-2
-  issues:
-    - captures_build_path
 tor:
   version: 0.2.6.7-1
   comments: |
@@ -27558,7 +27351,6 @@ ucspi-proxy:
 ucspi-tcp:
   version: 1:0.88-3
   issues:
-    - timestamps_in_gzip_headers
     - random_order_in_md5sums
   bugs:
     - 777020
@@ -27792,10 +27584,6 @@ upnp-router-control:
   version: 0.2-1.2
   issues:
     - captures_build_path
-upslug2:
-  version: 11-3
-  issues:
-    - captures_build_path
 urca:
   version: 1.2-9-2
   issues:
@@ -27853,8 +27641,6 @@ utopia-documents:
     - timestamps_in_zip
 uucpsend:
   version: 1.1-4
-  issues:
-    - timestamps_in_gzip_headers
   bugs:
     - 777008
 uuidm:
@@ -28699,10 +28485,6 @@ xapian-core:
   version: 1.2.23-1
   issues:
     - captures_build_path
-xarclock:
-  version: 1.0-13
-  issues:
-    - captures_build_path
 xauth:
   version: 1:1.0.9-1
   issues:
@@ -28850,10 +28632,6 @@ xfce4-terminal:
     Translations missing from .po file.
   issues:
     - translations_missing_in_desktop_files
-xfconf:
-  version: 4.12.1-1
-  issues:
-    - captures_build_path
 xfoil:
   version: 6.99.dfsg-2
   issues:
@@ -29175,10 +28953,6 @@ xsok:
   version: 1.02-17
   issues:
     - captures_build_path
-xsp:
-  version: 4.2-2
-  issues:
-    - captures_build_path
 xstarfish:
   version: 1.1-11.1
   issues:
@@ -29448,10 +29222,6 @@ zemberek-ooo:
     - different_encoding
   bugs:
     - 802416
-zenity:
-  version: 3.22.0-1
-  issues:
-    - captures_build_path
 zephyr:
   version: 3.1.2-1
   issues:
@@ -29481,18 +29251,6 @@ zfec:
     - captures_build_path
 zfs-fuse:
   version: 0.7.0-13.1
-  issues:
-    - captures_build_path
-zhcon:
-  version: 1:0.2.6-11
-  issues:
-    - captures_build_path
-zinnia:
-  version: 0.06-2.1
-  issues:
-    - captures_build_path
-ziproxy:
-  version: 3.3.1-2.1
   issues:
     - captures_build_path
 zivot:
