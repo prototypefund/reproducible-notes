@@ -1687,3 +1687,11 @@ randomness_in_binaries_generated_by_ruby_mkmf:
 filesystem_ordering_in_pak_files_generated_by_simutrans_makeobj:
   description: |
     Loops over input directory in filesystem ordering.
+timestamp_in_jboss_messagebundle_generated_code:
+  description: |
+    JBoss @MessageBundle (translation) generated classes contain a generation date and time. This
+    timestamp is only retained in the generated code, so doesn't appear in the binary unless you
+    generate documentation from it.
+    https://sources.debian.net/src/jboss-logging-tools/2.0.2-1/processor/src/main/java/org/jboss/logging/processor/generator/model/ClassModel.java/#L146
+  deterministic: True
+
