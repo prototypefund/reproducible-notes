@@ -268,6 +268,9 @@ method_may_never_be_called_in_documentation_generated_by_javadoc:
   description: |
     javadoc can add "This method may never be called" in some builds and not
     others (reason unknown).
+nondeterministic_java_bytecode:
+  description: |
+    Source unknown.
 timestamps_in_documentation_generated_by_groovydoc:
   description: |
     Groovydoc will add timestamps to the HTML file it produces.
