@@ -11280,6 +11280,10 @@ ktp-text-ui:
   version: 15.08.3-1
   issues:
     - build_id_differences_only
+kubernetes-addon-heapster:
+  version: 1.2.0+dfsg-1
+  issues:
+    - captures_build_path
 kubrick:
   version: 4:4.12.2-3
   issues:
@@ -12829,6 +12833,10 @@ libksba:
   version: 1.3.4-4
   issues:
     - captures_build_path
+libkscreen:
+  version: 4:5.8.6-2
+  issues:
+    - build_id_differences_only
 libksysguard:
   version: 4:5.8.2-1
   issues:
