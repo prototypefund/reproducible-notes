@@ -21231,6 +21231,8 @@ qtractor:
     configure.ac:13:AC_DEFINE_UNQUOTED(CONFIG_BUILD_DATE, ["$ac_build_date"], [Build date and time.])
     .
     drumkv1 / synthv1 / samplv1 / qtractor have the same issue.
+  bugs:
+    - 860211
 qtruby:
   version: 4:4.14.3-1
   issues:
