@@ -19008,6 +19008,8 @@ png-sixlegs:
   comments: |
     Missing text in html tag, caused by:
     https://sources.debian.net/src/png-sixlegs/2.0-1/javapng-2.0/src/main/com/sixlegs/png/PngImage.java/?hl=309#L309
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 png23d:
   version: 1.10-1.2
   issues:
