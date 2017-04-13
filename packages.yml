@@ -2082,6 +2082,10 @@ c-icap:
   version: 1:0.4.3-2
   issues:
     - records_build_flags
+c3p0:
+  version: 0.9.1.2-9
+  issues:
+    - nondeterministic_java_bytecode
 ca-certificates-java:
   version: 20140324
   issues:
@@ -12331,6 +12335,10 @@ libgmpada:
     - unknown_ada_issue
     - captures_build_path
     - records_build_flags
+libgnatcoll:
+  version: 1.7gpl2015-2
+  issues:
+    - captures_build_path
 libgnuinet-java:
   version: 1.1.2-2
   issues:
