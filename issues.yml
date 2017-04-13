@@ -1481,7 +1481,7 @@ records_build_flags:
      • https://lists.alioth.debian.org/pipermail/reproducible-builds/Week-of-Mon-20160822/006788.html
      • https://lists.alioth.debian.org/pipermail/reproducible-builds/Week-of-Mon-20160905/006984.html
      • https://lists.alioth.debian.org/pipermail/reproducible-builds/Week-of-Mon-20160912/007076.html
-  deterministic: True
+  deterministic: False  # XXX FIXME this is also true
 clilibs_line_order:
   description: |
     [armhf/i386 only, so may be disorderfs related]
