@@ -225,6 +225,7 @@ aewm++:
 aewm++-goodies:
   version: 1.0-9
   issues:
+    - timestamps_in_gzip_headers
     - captures_build_path
 affiche:
   version: 0.6.0-8
@@ -247,6 +248,10 @@ afnix:
     https://sources.debian.net/src/afnix/2.2.0-2/src/lib/plt/acf/ccnf.cpp/?hl=373#L374-L379
   issues:
     - captures_kernel_version
+afterstep:
+  version: 2.2.12-8
+  issues:
+    - records_build_flags
 agda:
   version: 2.4.2.5-1
   issues:
@@ -386,6 +391,7 @@ amanda:
     https://sources.debian.net/src/amanda/1:3.3.6-4/common-src/Makefile.am/?hl=154#L154
   issues:
     - captures_shell_variable_in_autofoo_script
+    - records_build_flags
 amarok:
   version: 2.8.0-5
   issues:
@@ -770,6 +776,10 @@ aqsis:
   version: 1.8.2-3
   issues:
     - captures_build_path
+arachne-pnr:
+  version: 0.1+20151224git1a4fdf9-1
+  issues:
+    - records_build_flags
 arc-gui-clients:
   version: 0.4.6-3
   issues:
@@ -795,6 +805,10 @@ args4j:
   version: 2.33-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+argus:
+  version: 2:3.0.8.1-2
+  issues:
+    - records_build_flags
 argvalidate:
   version: 0.9.0-2
   bugs:
@@ -1084,6 +1098,10 @@ authbind:
   version: 2.1.1
   issues:
     - build_id_differences_only
+auto-07p:
+  version: 0.9.1+dfsg-3
+  issues:
+    - records_build_flags
 auto-apt:
   version: 0.3.24
   issues:
@@ -1248,7 +1266,9 @@ backup-manager:
 bacula:
   version: 7.4.3+dfsg-1+sid1
   issues:
+    - captures_home_dir
     - captures_build_path
+    - records_build_flags
 bacula-doc:
   version: 5.2.6-3
   issues:
@@ -1348,6 +1368,8 @@ base-installer:
 basemap:
   version: 1.0.7+dfsg-1
   issues:
+    - timestamps_in_documentation_generated_by_sphinx
+    - timestamps_in_pdf_generated_by_matplotlib
     - captures_build_path
   bugs:
     - 790235
@@ -1744,6 +1766,10 @@ blockout2:
   version: 2.4+dfsg1-7
   bugs:
     - 826416
+bluefish:
+  version: 2.2.7-2
+  issues:
+    - records_build_flags
 blueman:
   version: 2.0.4-1
   issues:
@@ -1972,6 +1998,7 @@ btrfs-progs:
 btyacc:
   version: 3.0-5
   issues:
+    - captures_home_dir
     - captures_build_path
 budgie-desktop:
   version: 10.2.6-1
@@ -2051,6 +2078,10 @@ c-blosc:
     - captures_build_path
   bugs:
     - 852050
+c-icap:
+  version: 1:0.4.3-2
+  issues:
+    - records_build_flags
 ca-certificates-java:
   version: 20140324
   issues:
@@ -2323,6 +2354,10 @@ cdi-api:
   version: 1.0-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
+cdo:
+  version: 1.7.2+dfsg.1-1
+  issues:
+    - records_build_flags
 cdrkit:
   version: 9:1.1.11-3
   issues:
@@ -2459,6 +2494,10 @@ charls:
   version: 1.1.0+dfsg-2
   issues:
     - captures_build_path
+charybdis:
+  version: 3.5.3-1
+  issues:
+    - records_build_flags
 chasquid:
   version: 0.01+git20161124.6479138-2
   issues:
@@ -2529,6 +2568,10 @@ chiark-tcl:
   version: 1.1.3
   issues:
     - captures_build_path
+chicken:
+  version: 4.10.0-1
+  issues:
+    - records_build_flags
 chipmunk:
   version: 6.1.5-1
   issues:
@@ -2668,6 +2711,7 @@ clhep:
   version: 2.1.4.1-1.1
   issues:
     - random_order_in_static_libraries
+    - records_build_flags
   bugs:
     - 794398
 cli-common:
@@ -2720,6 +2764,10 @@ cloud-sptheme:
   bugs:
     - 854332
     - 854342
+clp:
+  version: 1.15.10-3
+  issues:
+    - records_build_flags
 clsparse:
   version: 0.10.2.0-2
   comments: |
@@ -2837,6 +2885,7 @@ coinor-cgl:
   version: 0.58.9-1
   issues:
     - random_order_in_static_libraries
+    - records_build_flags
 coinor-csdp:
   version: 6.1.1-1
   issues:
@@ -3260,6 +3309,7 @@ crystalhd:
 csh:
   version: 20110502-2.1
   issues:
+    - timestamps_in_documentation_generated_by_groff
     - captures_build_path
 csound:
   version: 1:6.07.0~dfsg-2
@@ -3304,6 +3354,10 @@ cupt:
   issues:
     - timezones_manpages_podman
     - captures_build_path
+curl:
+  version: 7.50.1-1
+  issues:
+    - records_build_flags
 curlpp:
   version: 0.7.3-6
   bugs:
@@ -3355,6 +3409,10 @@ cvs-mailcommit:
   version: 1.19-2
   bugs:
     - 776940
+cvsd:
+  version: 1.0.24
+  issues:
+    - records_build_flags
 cvsutils:
   version: 0.2.5-1
   issues:
@@ -4027,6 +4085,10 @@ digikam:
   issues:
     - captures_build_path
     - too_much_input_for_diff
+dime:
+  version: 0.20111205-2
+  issues:
+    - records_build_flags
 diploma:
   version: 1.2.12
   bugs:
@@ -4280,6 +4342,7 @@ dovecot:
   version: 1:2.2.25-1
   issues:
     - captures_build_path
+    - records_build_flags
 doxia:
   version: 1.1.4-2
   issues:
@@ -4434,6 +4497,7 @@ dune-geometry:
   version: 2.5.0~rc2-1
   issues:
     - captures_build_path_via_assert
+    - records_build_flags
 dune-grid:
   version: 2.5.0~rc2-1
   issues:
@@ -4444,6 +4508,7 @@ dune-grid-glue:
   version: 2.5.0~20161206g666200e-2
   issues:
     - captures_build_path_via_assert
+    - records_build_flags
 dune-istl:
   version: 2.4.1-1
   issues:
@@ -4455,6 +4520,10 @@ dune-localfunctions:
     - fonts_in_pdf_files
 dune-pdelab:
   version: 2.4.1-1
+  issues:
+    - records_build_flags
+dune-typetree:
+  version: 2.5.0~rc2-1
   issues:
     - records_build_flags
 dune-uggrid:
@@ -4506,6 +4575,10 @@ dwarves-dfsg:
   version: 1.10-2.1
   issues:
     - captures_build_path
+dx:
+  version: 1:4.4.4-9
+  issues:
+    - records_build_flags
 dxsamples:
   version: 4.4.0-3
   issues:
@@ -4585,6 +4658,7 @@ echoping:
     Embeds build date and hostname.
     https://sources.debian.net/src/echoping/6.0.2-8/configure.ac/#L337-L338
   issues:
+    - user_hostname_manually_added_requiring_further_investigation
     - captures_build_path
 ecj:
   version: 3.11.0-6
@@ -5184,7 +5258,9 @@ eurephia:
     Embeds build date, kernel version, hostname.
     https://sources.debian.net/src/eurephia/1.1.0-5/eurephiadm/mk_buildinfo.sh/
   issues:
+    - captures_kernel_version
     - captures_build_path
+    - user_hostname_manually_added_requiring_further_investigation
 evernote-mode:
   version: 0.41-3.1
   issues:
@@ -5325,6 +5401,10 @@ fastforward:
     - timestamps_in_gzip_headers
   bugs:
     - 776972
+fastjet:
+  version: 3.0.6+dfsg-3
+  issues:
+    - records_build_flags
 fatresize:
   version: 1.0.2-9
   issues:
@@ -5708,6 +5788,10 @@ fis-gtm:
   version: 6.2-002A-2
   comments: |
     Really curious diffoscope where a very large number of 0x01 bytes in the a build 0x02 in the b build. Possibly an offset difference rather than literal difference?
+fityk:
+  version: 1.2.1-0.1
+  issues:
+    - records_build_flags
 fizmo:
   version: 0.7.10-2
   bugs:
@@ -5831,6 +5915,7 @@ flow-tools:
   version: 1:0.68-12.3
   issues:
     - captures_build_path
+    - user_hostname_manually_added_requiring_further_investigation
 flowgrind:
   version: 0.7.5-2
   issues:
@@ -6365,6 +6450,7 @@ freeradius:
   version: 2.2.8+dfsg-0.1
   issues:
     - captures_build_path
+    - records_build_flags
 freerdp:
   version: 1.1.0~git20140921.1.440916e+dfsg1-4
   issues:
@@ -6461,6 +6547,7 @@ ftjam:
 ftp.app:
   version: 0.3-1
   issues:
+    - captures_home_dir
     - captures_build_path
 ftpcopy:
   version: 0.6.7-3
@@ -6529,6 +6616,9 @@ fvwm:
     Captures username:
       https://sources.debian.net/src/fvwm/1:2.6.5.ds-4.1/configure.ac/#L1700
       https://sources.debian.net/src/fvwm/1:2.6.5.ds-4.1/bin/fvwm-bug.in/#L89
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
+    - records_build_flags
 fvwm1:
   version: 1.24r-56
   issues:
@@ -6557,6 +6647,7 @@ g2:
   version: 0.72-5
   issues:
     - captures_build_path
+    - records_build_flags
 g2clib:
   version: 1.6.0-4
   issues:
@@ -6737,6 +6828,8 @@ garcon:
   version: 0.4.0-2
   comments: |
     Desktop launcher file missing a whole bunch of entries when run with a non-utf8 locale
+  issues:
+    - different_encoding
 garlic-doc:
   version: 1.6-1
   bugs:
@@ -6745,6 +6838,15 @@ gauche:
   version: 0.9.4-6
   issues:
     - blacklisted_on_jenkins_armhf_only
+    - records_build_flags
+gauche-c-wrapper:
+  version: 0.6.1-7
+  issues:
+    - records_build_flags
+gauche-gl:
+  version: 0.6-1
+  issues:
+    - records_build_flags
 gauche-gtk:
   version: 0.6~pre1+git20121223-1
   issues:
@@ -7110,6 +7212,10 @@ gesftpserver:
   version: 0.2.1-1
   bugs:
     - 796377
+getdns:
+  version: 0.3.1-1
+  issues:
+    - records_build_flags
 getdp:
   version: 2.7.0-2
   comments: |
@@ -7594,6 +7700,7 @@ gnome-sharp2:
 gnome-subtitles:
   version: 1.2-4
   issues:
+    - timestamps_in_pe_binaries
     - captures_build_path
 gnome-system-monitor:
   version: 3.22.0-1
@@ -8145,6 +8252,10 @@ gp2c:
   version: 0.0.9pl5-1
   issues:
     - build_id_differences_only
+gpac:
+  version: 0.5.2-426-gc5ad4e4+dfsg5-3
+  issues:
+    - records_build_flags
 gpg-remailer:
   version: 3.02.00-1
   issues:
@@ -9076,6 +9187,8 @@ htsjdk:
     - random_order_in_documentation_generated_by_javadoc
 htslib:
   version: 1.3.1-2
+  issues:
+    - records_build_flags
   bugs:
     - 800469
     - 849667
@@ -9668,6 +9781,10 @@ itsol:
   version: 1.0.0-2
   issues:
     - captures_build_path
+iverilog:
+  version: 10.1-0.1
+  issues:
+    - records_build_flags
 ivtools:
   version: 1.2.11a1-5
   issues:
@@ -11785,6 +11902,10 @@ libcdio:
   version: 0.83-4.2
   bugs:
     - 795690
+libcdk5:
+  version: 5.0.20160131-1
+  issues:
+    - records_build_flags
 libcds-moc-java:
   version: 4.6-1
   issues:
@@ -11802,6 +11923,10 @@ libcereal:
   version: 1.1.2-4
   issues:
     - captures_build_path
+libcgicc:
+  version: 3.2.9-3
+  issues:
+    - records_build_flags
 libcgns:
   version: 3.1.4.2-3
   issues:
@@ -12712,6 +12837,7 @@ liblas:
   version: 1.8.0-12
   issues:
     - captures_build_path
+    - records_build_flags
 liblastfm:
   version: 1.0.9-1
   issues:
@@ -12775,6 +12901,10 @@ liblxqt:
   version: 0.10.0-4
   issues:
     - lxqt_translate_desktop_binary_file_matched_under_certain_locales
+libm4ri:
+  version: 20140914-2
+  issues:
+    - records_build_flags
 libmapper:
   version: 0.3~git+20141027-1
   issues:
@@ -13257,6 +13387,10 @@ librepository:
   version: 1.1.6-3
   issues:
     - random_order_in_documentation_generated_by_javadoc
+libresample:
+  version: 0.1.3-4
+  issues:
+    - records_build_flags
 libreswan:
   version: 3.19-1
   issues:
@@ -13543,6 +13677,10 @@ libtommath:
     - timestamps_in_pdf_content
     - random_order_in_static_libraries
     - fonts_in_pdf_files
+libtool:
+  version: 2.4.6-2
+  issues:
+    - records_build_flags
 libtorrent-rasterbar:
   version: 1.0.7-1
   issues:
@@ -14022,6 +14160,10 @@ log4c:
   version: 1.2.1-3
   issues:
     - captures_build_path
+log4cpp:
+  version: 1.0-4.1
+  issues:
+    - records_build_flags
 log4net:
   version: 1.2.10+dfsg-6
   issues:
@@ -14395,6 +14537,7 @@ magic:
 magicfilter:
   version: 1.2-64
   issues:
+    - timestamps_in_gzip_headers
     - random_order_in_md5sums
   bugs:
     - 847016
@@ -14524,6 +14667,7 @@ mapnik:
   version: 3.0.9+ds-1
   issues:
     - blacklisted_on_jenkins_armhf_only
+    - records_build_flags
     - random_order_in_static_libraries
 mapsembler2:
   version: 2.2.3+dfsg-2
@@ -14789,6 +14933,7 @@ megaglest:
   version: 3.12.0-2
   issues:
     - captures_build_path
+    - timestamps_in_manpages_generated_by_help2man
     - too_much_input_for_diff
 meliae:
   version: 0.4.0+bzr199-1
@@ -15071,6 +15216,10 @@ mlton:
   issues:
     - timestamps_in_documentation_generated_by_htmldoc
     - user_hostname_manually_added_requiring_further_investigation
+mm:
+  version: 1.4.2-5
+  issues:
+    - records_build_flags
 mm-common:
   version: 0.9.10-1
   issues:
@@ -15462,6 +15611,7 @@ mpack:
 mpdcon.app:
   version: 1.1.99-5
   issues:
+    - captures_home_dir
     - captures_build_path
 mpfi:
   version: 1.5.1+ds-4
@@ -15868,8 +16018,8 @@ ncftp:
     [i386] Captures some form of uname / host / architecture: linux-x86-glibc2.22 v. linux-x86_64-glibc2.22
 ncl:
   version: 6.3.0-13
-  bugs:
-    - 850104
+  issues:
+    - records_build_flags
 nco:
   version: 4.5.0-1
   issues:
@@ -16441,6 +16591,7 @@ notify-python:
 notmuch:
   version: 0.19-1
   issues:
+    - timestamps_in_manpages_generated_by_sphinx
     - captures_build_path
 nova:
   version: 2:13.0.0-2
@@ -17539,6 +17690,7 @@ opus:
     Embeds the current year as coypright year.
     https://sources.debian.net/src/opus/1.1.1-1/doc/footer.html/#L13
   issues:
+    - timestamps_in_documentation_generated_by_doxygen
     - captures_build_path
 opus-tools:
   version: 0.1.9-1
@@ -17829,6 +17981,7 @@ palo:
     Embed username, hostname and build time.
     https://sources.debian.net/src/palo/1.95/palo/Makefile/?hl=31#L31
   issues:
+    - user_hostname_manually_added_requiring_further_investigation
     - captures_build_path
 pam-dbus:
   version: 0.2.1-3
@@ -19381,6 +19534,10 @@ pt-websocket:
   version: 0.2-1
   issues:
     - captures_build_path
+pth:
+  version: 2.0.7-20
+  issues:
+    - records_build_flags
 ptlib:
   version: 2.10.11~dfsg-1
   issues:
@@ -19733,6 +19890,7 @@ pyodbc:
 pyode:
   version: 1.2.0-4+cvs20090320.2
   issues:
+    - cython_captures_build_path
     - max_output_size_reached
 pyopencl:
   version: 2016.1+git20160809-3
@@ -20480,6 +20638,7 @@ python-qt4:
   version: 4.11.4+dfsg-2
   issues:
     - captures_build_path
+    - records_build_flags
     - too_much_input_for_diff
 python-qtconsole:
   version: 4.2.1-2~exp3
@@ -23239,6 +23398,10 @@ rasterio:
   issues:
     - randomness_in_python_setuptools_requires_txt
     - cython_captures_build_path
+ratfor:
+  version: 1.0-15
+  issues:
+    - timestamps_in_gzip_headers
 ratt:
   version: 0.0~git20150816.0.b060319-1
   issues:
@@ -23326,6 +23489,10 @@ readline:
   version: 7.0-1~exp1
   comments: |
     [experimental/amd64]
+  issues:
+    - records_build_flags
+readline5:
+  version: 5.2+dfsg-3
   issues:
     - records_build_flags
 readline6:
@@ -24777,6 +24944,10 @@ sdlgfx:
   issues:
     - different_due_to_umask
     - timestamps_in_tarball
+sdpa:
+  version: 7.3.9+dfsg-1
+  issues:
+    - records_build_flags
 sdpb:
   version: 1.0-1
   issues:
@@ -24815,6 +24986,10 @@ sendip:
   version: 2.5-7
   issues:
     - timestamps_in_manpages_generated_by_help2man
+sendmail:
+  version: 8.15.2-4
+  issues:
+    - records_build_flags
 senlin:
   version: 1.0.0-1
   issues:
@@ -25481,6 +25656,10 @@ sopt:
   version: 2.0.0-1
   issues:
     - captures_build_path_via_assert
+soqt:
+  version: 1.6.0~e8310f-3
+  issues:
+    - records_build_flags
 sorl-thumbnail:
   version: 12.3+git20160928-1
   bugs:
@@ -26411,6 +26590,7 @@ tcl8.5:
   version: 8.5.19-2
   issues:
     - random_order_in_static_libraries
+    - records_build_flags
 tcl8.6:
   version: 8.6.6+dfsg-1
   issues:
@@ -26427,6 +26607,7 @@ tclcl:
 tcllib:
   version: 1.17-dfsg-1
   issues:
+    - different_encoding
     - captures_build_path
 tcltk-defaults:
   version: 8.6.0+9
@@ -26845,6 +27026,7 @@ tkmpeg:
 tkrat:
   version: 1:2.2cvs20100105-true-dfsg-6
   issues:
+    - different_encoding
     - captures_build_path
   bugs:
     - 828572
