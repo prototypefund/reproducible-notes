@@ -1896,10 +1896,6 @@ box2d:
   version: 2.3.1+ds-3
   issues:
     - captures_build_path
-boxbackup:
-  version: 0.11.1~r2837-2
-  issues:
-    - captures_build_path
 bplay:
   version: 0.991-10
   issues:
@@ -2107,12 +2103,6 @@ cafeobj:
     - fonts_in_pdf_files
     - captures_build_path
     - random_id_in_pdf_generated_by_dblatex
-caffe:
-  version: 1.0.0~rc3+20160930-ga7f950b-1
-  comments: |
-    [experimental/amd64]
-  issues:
-    - captures_build_path
 cairo-dock:
   version: 3.4.0-2
   issues:
@@ -6540,10 +6530,6 @@ fte:
   version: 0.50.2b6-20110708-1
   issues:
     - captures_build_path
-ftgl:
-  version: 2.1.3~rc5-4+nmu1
-  issues:
-    - captures_build_path
 ftjam:
   version: 2.5.2-1.1
   issues:
@@ -8630,7 +8616,6 @@ gtable:
 gtg-trace:
   version: 0.2-2+dfsg-1
   issues:
-    - captures_build_path
     - random_id_in_pdf_generated_by_dblatex
 gtk+2.0:
   version: 2.24.30-4
@@ -9086,7 +9071,7 @@ hkl:
 hmat-oss:
   version: 1.0.4-2
   issues:
-    - captures_build_path
+    - build_id_differences_only
 hmisc:
   version: 3.17-4-2
   issues:
@@ -9230,10 +9215,6 @@ hunspell-dict-ko:
   version: 0.6.0-2
   bugs:
     - 859294
-hwloc:
-  version: 1.11.4-1
-  issues:
-    - captures_build_path
 hy:
   version: 0.11.0-4
   bugs:
@@ -9889,10 +9870,6 @@ jacoco:
   version: 0.7.8-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-jags:
-  version: 4.2.0-1
-  issues:
-    - captures_build_path
 jakarta-jmeter:
   version: 2.11-2
   issues:
@@ -11555,7 +11532,6 @@ ledger:
   version: 3.1+dfsg1-7
   issues:
     - blacklisted_on_jenkins_armhf_only
-    - captures_build_path
     - too_much_input_for_diff
 leds-alix:
   version: 0.0.1-1.1
@@ -11948,7 +11924,7 @@ libclass-trait-perl:
 libclaw:
   version: 1.7.3-2
   issues:
-    - captures_build_path
+    - build_id_differences_only
 libcobra-java:
   version: 0.98.4-5
   issues:
@@ -12300,7 +12276,7 @@ libgdchart-gd2:
 libgdf:
   version: 0.1.2-2
   issues:
-    - captures_build_path
+    - build_id_differences_only
 libgdiplus:
   version: 4.2-1
   issues:
