@@ -8721,6 +8721,10 @@ guile-gnome-platform:
   version: 2.16.2-2
   issues:
     - ftbfs_uninvestigated_test_failures
+guile-lib:
+  version: 0.2.2-0.2
+  issues:
+    - captures_build_path
 guiqwt:
   version: 3.0.1-1
   issues:
@@ -11649,6 +11653,10 @@ libapache2-mod-auth-pgsql:
     - captures_build_path
 libapache2-mod-auth-plain:
   version: 2.0.52
+  issues:
+    - captures_build_path
+libapache2-mod-authn-yubikey:
+  version: 1.0-1.2
   issues:
     - captures_build_path
 libapache2-mod-authnz-external:
@@ -18696,6 +18704,10 @@ pilot-link:
     - captures_build_path
 pinfo:
   version: 0.6.9-5.1
+  issues:
+    - captures_build_path
+pink-pony:
+  version: 1.4.1-2
   issues:
     - captures_build_path
 pinot:
