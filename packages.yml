@@ -6822,10 +6822,6 @@ garcon:
     Desktop launcher file missing a whole bunch of entries when run with a non-utf8 locale
   issues:
     - different_encoding
-garlic-doc:
-  version: 1.6-1
-  bugs:
-    - 817468
 gauche:
   version: 0.9.4-6
   issues:
@@ -9194,7 +9190,6 @@ httpfs2:
   version: 0.1.4-1
   bugs:
     - 811890
-    - 818563
 httrack:
   version: 3.48.23-1
   issues:
@@ -11673,10 +11668,6 @@ libapache2-mod-auth-plain:
   version: 2.0.52
   issues:
     - captures_build_path
-libapache2-mod-authn-yubikey:
-  version: 1.0-1.1
-  bugs:
-    - 725536
 libapache2-mod-authnz-external:
   version: 3.3.2-0.1
   issues:
@@ -17226,7 +17217,6 @@ onedrive:
 oneliner-el:
   version: 0.3.6-7.1
   bugs:
-    - 712321
     - 849692
 onionbalance:
   version: 0.1.4-1
@@ -20731,10 +20721,6 @@ python-taskflow:
       https://sources.debian.net/src/python-taskflow/1.30.0-2/taskflow/conductors/backends/impl_nonblocking.py/#L40
       https://sources.debian.net/src/python-taskflow/1.30.0-2/taskflow/utils/threading_utils.py/#L42
       https://docs.python.org/3/library/multiprocessing.html#multiprocessing.cpu_count
-python-tcpwrap:
-  version: 0.2-2.2
-  bugs:
-    - 817639
 python-testfixtures:
   version: 4.13.3-1
   bugs:
