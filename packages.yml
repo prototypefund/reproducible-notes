@@ -23093,6 +23093,10 @@ r-cran-surveillance:
     - different_encoding
     - captures_build_path
     - randomness_in_r_rdb_rds_databases
+r-cran-survey:
+  version: 3.31-5-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-taxize:
   version: 0.7.4-1
   issues:
