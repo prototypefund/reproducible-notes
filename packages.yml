@@ -1892,6 +1892,10 @@ box2d:
   version: 2.3.1+ds-3
   issues:
     - captures_build_path
+boxbackup:
+  version: 0.11.1~r2837-4
+  issues:
+    - random_order_of_pdf_ids_generated_by_latex
 bplay:
   version: 0.991-10
   issues:
@@ -2098,6 +2102,10 @@ cafeobj:
     - fonts_in_pdf_files
     - captures_build_path
     - random_id_in_pdf_generated_by_dblatex
+caffe:
+  version: 1.0.0~rc4-1
+  issues:
+    - random_order_of_pdf_ids_generated_by_latex
 cairo-dock:
   version: 3.4.0-2
   issues:
@@ -6518,6 +6526,10 @@ fte:
   version: 0.50.2b6-20110708-1
   issues:
     - captures_build_path
+ftgl:
+  version: 2.1.3~rc5-4+nmu1.1
+  issues:
+    - random_order_of_pdf_ids_generated_by_latex
 ftjam:
   version: 2.5.2-1.1
   issues:
@@ -9199,6 +9211,10 @@ hunspell-dict-ko:
   version: 0.6.0-2
   bugs:
     - 859294
+hwloc:
+  version: 1.11.5-1
+  issues:
+    - random_order_of_pdf_ids_generated_by_latex
 hy:
   version: 0.11.0-4
   bugs:
@@ -9854,6 +9870,10 @@ jacoco:
   version: 0.7.8-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+jags:
+  version: 4.2.0-2
+  issues:
+    - random_order_of_pdf_ids_generated_by_latex
 jakarta-jmeter:
   version: 2.11-2
   issues:
