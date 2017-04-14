@@ -225,7 +225,6 @@ aewm++:
 aewm++-goodies:
   version: 1.0-9
   issues:
-    - timestamps_in_gzip_headers
     - captures_build_path
 affiche:
   version: 0.6.0-8
@@ -1266,7 +1265,6 @@ backup-manager:
 bacula:
   version: 7.4.3+dfsg-1+sid1
   issues:
-    - captures_home_dir
     - captures_build_path
     - records_build_flags
 bacula-doc:
@@ -1368,8 +1366,6 @@ base-installer:
 basemap:
   version: 1.0.7+dfsg-1
   issues:
-    - timestamps_in_documentation_generated_by_sphinx
-    - timestamps_in_pdf_generated_by_matplotlib
     - captures_build_path
   bugs:
     - 790235
@@ -1994,7 +1990,6 @@ btrfs-progs:
 btyacc:
   version: 3.0-5
   issues:
-    - captures_home_dir
     - captures_build_path
 budgie-desktop:
   version: 10.2.6-1
@@ -3303,7 +3298,6 @@ crystalhd:
 csh:
   version: 20110502-2.1
   issues:
-    - timestamps_in_documentation_generated_by_groff
     - captures_build_path
 csound:
   version: 1:6.07.0~dfsg-2
@@ -3509,8 +3503,6 @@ cyrus-imapd:
     [1] https://sources.debian.net/src/cyrus-imapd/2.5.9-2/lib/mkchartable.pl/#L77
     [2] https://sources.debian.net/src/cyrus-imapd/2.5.9-2/Makefile.am/#L1262
   issues:
-    - timestamps_from_cpp_macros
-    - collation_order_varies_by_locale
     - captures_build_path
     - records_build_flags
 cyrus-imspd:
@@ -4652,7 +4644,6 @@ echoping:
     Embeds build date and hostname.
     https://sources.debian.net/src/echoping/6.0.2-8/configure.ac/#L337-L338
   issues:
-    - user_hostname_manually_added_requiring_further_investigation
     - captures_build_path
 ecj:
   version: 3.11.0-6
@@ -5252,9 +5243,7 @@ eurephia:
     Embeds build date, kernel version, hostname.
     https://sources.debian.net/src/eurephia/1.1.0-5/eurephiadm/mk_buildinfo.sh/
   issues:
-    - captures_kernel_version
     - captures_build_path
-    - user_hostname_manually_added_requiring_further_investigation
 evernote-mode:
   version: 0.41-3.1
   issues:
@@ -5909,7 +5898,6 @@ flow-tools:
   version: 1:0.68-12.3
   issues:
     - captures_build_path
-    - user_hostname_manually_added_requiring_further_investigation
 flowgrind:
   version: 0.7.5-2
   issues:
@@ -6537,7 +6525,6 @@ ftjam:
 ftp.app:
   version: 0.3-1
   issues:
-    - captures_home_dir
     - captures_build_path
 ftpcopy:
   version: 0.6.7-3
@@ -6607,7 +6594,6 @@ fvwm:
       https://sources.debian.net/src/fvwm/1:2.6.5.ds-4.1/configure.ac/#L1700
       https://sources.debian.net/src/fvwm/1:2.6.5.ds-4.1/bin/fvwm-bug.in/#L89
   issues:
-    - user_hostname_manually_added_requiring_further_investigation
     - records_build_flags
 fvwm1:
   version: 1.24r-56
@@ -6820,8 +6806,6 @@ garcon:
   version: 0.4.0-2
   comments: |
     Desktop launcher file missing a whole bunch of entries when run with a non-utf8 locale
-  issues:
-    - different_encoding
 gauche:
   version: 0.9.4-6
   issues:
@@ -7688,7 +7672,6 @@ gnome-sharp2:
 gnome-subtitles:
   version: 1.2-4
   issues:
-    - timestamps_in_pe_binaries
     - captures_build_path
 gnome-system-monitor:
   version: 3.22.0-1
@@ -14512,7 +14495,6 @@ magic:
 magicfilter:
   version: 1.2-64
   issues:
-    - timestamps_in_gzip_headers
     - random_order_in_md5sums
   bugs:
     - 847016
@@ -14908,7 +14890,6 @@ megaglest:
   version: 3.12.0-2
   issues:
     - captures_build_path
-    - timestamps_in_manpages_generated_by_help2man
     - too_much_input_for_diff
 meliae:
   version: 0.4.0+bzr199-1
@@ -15587,7 +15568,6 @@ mpack:
 mpdcon.app:
   version: 1.1.99-5
   issues:
-    - captures_home_dir
     - captures_build_path
 mpfi:
   version: 1.5.1+ds-4
@@ -16568,7 +16548,6 @@ notify-python:
 notmuch:
   version: 0.19-1
   issues:
-    - timestamps_in_manpages_generated_by_sphinx
     - captures_build_path
 nova:
   version: 2:13.0.0-2
@@ -17668,7 +17647,6 @@ opus:
     Embeds the current year as coypright year.
     https://sources.debian.net/src/opus/1.1.1-1/doc/footer.html/#L13
   issues:
-    - timestamps_in_documentation_generated_by_doxygen
     - captures_build_path
 opus-tools:
   version: 0.1.9-1
@@ -17959,7 +17937,6 @@ palo:
     Embed username, hostname and build time.
     https://sources.debian.net/src/palo/1.95/palo/Makefile/?hl=31#L31
   issues:
-    - user_hostname_manually_added_requiring_further_investigation
     - captures_build_path
 pam-dbus:
   version: 0.2.1-3
@@ -18330,7 +18307,6 @@ pdfmod:
 pdfposter:
   version: 0.6.0-2
   issues:
-    - timestamps_in_pdf_generated_by_latex
     - timestamps_in_pdf_generated_by_reportlab
 pdftk:
   version: 2.02-4
@@ -19868,7 +19844,6 @@ pyodbc:
 pyode:
   version: 1.2.0-4+cvs20090320.2
   issues:
-    - cython_captures_build_path
     - max_output_size_reached
 pyopencl:
   version: 2016.1+git20160809-3
@@ -23372,10 +23347,6 @@ rasterio:
   issues:
     - randomness_in_python_setuptools_requires_txt
     - cython_captures_build_path
-ratfor:
-  version: 1.0-15
-  issues:
-    - timestamps_in_gzip_headers
 ratt:
   version: 0.0~git20150816.0.b060319-1
   issues:
@@ -26575,7 +26546,6 @@ tclcl:
 tcllib:
   version: 1.17-dfsg-1
   issues:
-    - different_encoding
     - captures_build_path
 tcltk-defaults:
   version: 8.6.0+9
@@ -26996,7 +26966,6 @@ tkmpeg:
 tkrat:
   version: 1:2.2cvs20100105-true-dfsg-6
   issues:
-    - different_encoding
     - captures_build_path
   bugs:
     - 828572
@@ -27353,7 +27322,6 @@ uanytun:
   version: 0.3.5-1
   issues:
     - captures_build_path
-    - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 834227
 ubertooth:
@@ -28049,7 +28017,6 @@ vtwm:
     Embed build time, kernel version:
     https://sources.debian.net/src/vtwm/5.4.7-2.2/Imakefile/?hl=177:178#L177
   issues:
-    - captures_kernel_version
     - captures_build_path
 vulkan:
   version: 1.0.21.0+dfsg1-1
@@ -28186,7 +28153,6 @@ webkitkde:
 weechat:
   version: 1.5-1
   issues:
-    - timestamps_in_documentation_generated_by_asciidoc
     - captures_build_path
 weka:
   version: 3.6.12-2
@@ -28736,10 +28702,6 @@ xjig:
     - timestamps_in_gzip_headers
   bugs:
     - 777355
-xjump:
-  version: 2.7.5-6.1
-  issues:
-    - timestamps_in_gzip_headers
 xkbind:
   version: 2010.05.20-1
   issues:
@@ -29165,7 +29127,6 @@ yersinia:
     Embed build time, kernel version and build architecture:
     https://sources.debian.net/src/yersinia/0.7.3-1/configure.in/?hl=832:845#L832
   issues:
-    - captures_kernel_version
     - captures_build_path
 ygl:
   version: !!str 4.2e-4
@@ -29214,7 +29175,6 @@ yt:
 ytree:
   version: 1.94-1.1
   issues:
-    - timestamps_in_gzip_headers
     - captures_build_path
 yubikey-server-c:
   version: 0.5-1
