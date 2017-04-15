@@ -19039,20 +19039,6 @@ polspline:
   issues:
     - captures_build_path
     - randomness_in_r_rdb_rds_databases
-polygen:
-  version: 1.0.6.ds2-15
-  comments: |
-    [armhf,i386] FTBFS on 32-bit archs.  Analysis:
-    .
-    ./src/polygen -seed 1477837980 debian/man.grm > polygen.1
-    ./src/polygen: wrong argument '1477837980'; option '-seed' expects an integer.
-    .
-    The argument of the «-seed» option is an ocaml int, whose range (says The Internet) is (-2³⁰…2³⁰-1), as
-    opposed to (-2³¹…2³¹-1) with most languages' 32-bit types.
-    .
-    Since 2³⁰ < 1477837980 < 2³¹, the value 1477837980 is not representable as an ocaml int32.
-    .
-    Solution: hardcode the seed to zero?  It's only used for generating the man page.
 polylib:
   version: 5.22.5-3+dfsg
   issues:
