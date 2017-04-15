@@ -18719,6 +18719,10 @@ pillow:
   version: 3.3.1-1
   issues:
     - captures_build_path
+pillow-sane:
+  version: 2.8.3-1
+  issues:
+    - captures_build_path
 pilot-link:
   version: 0.12.5-dfsg-2
   issues:
@@ -20146,6 +20150,10 @@ python-cycler:
   version: 0.10.0-1
   issues:
     - timestamps_in_pdf_generated_by_matplotlib
+    - captures_build_path
+python-daap:
+  version: 0.7.1-4
+  issues:
     - captures_build_path
 python-debtcollector:
   version: 0.8.0-2
@@ -27083,6 +27091,10 @@ topal:
     - timestamps_in_pdf_generated_by_latex
     - different_encoding
     - fonts_in_pdf_files
+toppler:
+  version: 1.1.6-2
+  issues:
+    - captures_build_path
 tor:
   version: 0.2.6.7-1
   comments: |
