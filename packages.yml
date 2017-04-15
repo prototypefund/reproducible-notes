@@ -1628,13 +1628,6 @@ bird:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - random_id_in_pdf_generated_by_dblatex
-birdfont:
-  version: 2.15.5-1
-  comments: |
-    Shell expansion of *.o differs depending on the locale, because of
-    different sorting.
-    Several occations in dodo.py, e.g.
-    https://sources.debian.net/src/birdfont/2.15.5-1/dodo.py/#L325
 bisonc++:
   version: 5.02.00-1
   comments: |
