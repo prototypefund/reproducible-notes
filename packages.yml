@@ -9148,11 +9148,7 @@ htmldoc:
 htp:
   version: 1.19-2
   comments: |
-    Embeds build date:
-    https://sources.debian.net/src/htp/1.19-2/homepage/ref/htp.htt/?hl=162#L162
-    https://sources.debian.net/src/htp/1.19-2/homepage/ref/tutorial.htp/?hl=44#L44
-    https://sources.debian.net/src/htp/1.19-2/homepage/ref/include.htp/?hl=55#L55
-    https://sources.debian.net/src/htp/1.19-2/homepage/ref/template.htp/?hl=33#L33
+    Uses localtime but debian/rules exports TZ=UTC so not sure what is going on.
 htseq:
   version: 0.6.1p1-4
   issues:
