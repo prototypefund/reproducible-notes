@@ -24919,16 +24919,6 @@ sdpb:
     - timestamps_in_tex_documents
   bugs:
     - 857310
-seabios:
-  version: 1.9.3-2
-  comments: |
-    Captures build time and hostname:
-    .
-    % nl -ba < scripts/buildversion.py
-       127	    if not cleanbuild:
-       128	        btime = time.strftime("%Y%m%d_%H%M%S")
-       129	        hostname = socket.gethostname()
-       130	        ver = "%s-%s-%s" % (ver, btime, hostname)
 seafile-client:
   version: 6.0.1+git20161227.7b0b837-2
   issues:
