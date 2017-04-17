@@ -4784,6 +4784,8 @@ eja:
   comments: |
     .data section in a binary executable contains raw source files in unpredictable order.
     Start with the LC_COLLATE_sensitive glob at https://sources.debian.net/src/eja/9.5.20-1/Makefile/#L26 .
+    .
+    Can't seem to reproduce this anymore.
 ejabberd:
   version: 16.08-1
   issues:
