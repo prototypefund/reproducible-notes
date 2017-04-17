@@ -28948,16 +28948,6 @@ xqilla:
   version: 2.3.3-2
   bugs:
     - 828937
-xrdp:
-  version: 0.9.1~20161119+gite8308d5-1
-  comments: |
-    An x509 certificate and private key differ.
-    .
-    The certificate differs in two ways:
-      1) Its notBefore/notAfter dates are relative to the build time
-      2) The modulus and signature are random
-    .
-    Haven't examined the private key (what's the openssl(1) incantation for that?) but presumably it's the same issues there.
 xscorch:
   version: 0.2.1-1+nmu1
   issues:
