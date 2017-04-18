@@ -254,7 +254,7 @@ timestamps_in_documentation_generated_by_javadoc:
   deterministic: True
 random_order_in_documentation_generated_by_javadoc:
   description: |
-    Some entries inside individual documentation pages are emitted in different oredrs.
+    Some entries inside individual documentation pages are emitted in different orders.
     This appears to only happen with multi-module maven projects, i.e. possibly during
     `mvn javadoc:aggregate`.
     .
