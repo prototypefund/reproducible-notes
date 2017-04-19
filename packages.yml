@@ -16109,13 +16109,6 @@ netgen:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
-nethogs:
-  version: 0.8.5-1
-  comments: |
-    determineVersion.sh:3:(git describe 2>/dev/null || pwd | sed -e "s/.*\\///" | sed -e "s/[^-]*//") | tail -c +2
-    ...................................................^^^
-    .
-    Judging by the timestamps of reproducible/irreproducible builds, this is probably the only issue.
 netkit-bootparamd:
   version: 0.17-9
   issues:
