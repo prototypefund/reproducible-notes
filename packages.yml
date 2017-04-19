@@ -27910,6 +27910,8 @@ viruskiller:
     viruskiller.pak is created with a tool which iterates over files/directories in readdir order.
     https://sources.debian.net/src/viruskiller/1.03-1%2Bdfsg1-1/src/pak.cpp/
     fileData[] should get sorted before writing the output.
+  bugs:
+    - 860731
 visp:
   version: 3.0.0-4
   issues:
