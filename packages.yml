@@ -6241,10 +6241,6 @@ form:
   issues:
     - random_id_in_pdf_generated_by_dblatex
     - fonts_in_pdf_files
-fortunes-fr:
-  version: 0.65+nmu2
-  comments: |
-    Randomess in .dat files, probably caused by strfile, filesystem ordering (see $(shell ls...)), or the utf recoding done in debian/rules
 foxeye:
   version: 0.10.1-1
   comments: |
