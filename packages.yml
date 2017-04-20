@@ -17739,6 +17739,8 @@ osinfo-db:
   version: 0.20160728+git20161020-1
   comments: |
     Captures build time: Makefile:3: TODAY = $(shell date +"%Y%m%d")
+  bugs:
+    - 860848
 osm2pgrouting:
   version: 2.2.0-1
   issues:
