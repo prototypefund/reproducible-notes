@@ -3983,8 +3983,6 @@ dhcpd-pools:
     - captures_shell_variable_in_autofoo_script
 dhcpdump:
   version: 1.8-2
-  issues:
-    - timestamps_in_gzip_headers
   bugs:
     - 777309
 dhcping:
