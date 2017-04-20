@@ -2620,6 +2620,10 @@ cinnamon:
   version: 3.2.7-2
   issues:
     - captures_build_path
+cinnamon-desktop:
+  version: 3.2.4-4
+  issues:
+    - nondeterminstic_ordering_in_gsettings_glib_enums_xml
 ciphersaber:
   version: 1.01-2
   bugs:
