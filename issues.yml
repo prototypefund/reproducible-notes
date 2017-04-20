@@ -996,6 +996,8 @@ randomness_in_r_rdb_rds_databases:
     Randomness seems to come from using absolute paths in .rd[bs] files.
     .
     Is not related to https://bugs.debian.org/774031 / r_base_appends_built_header_to_description_files
+    .
+    Probably from this code https://sources.debian.net/src/r-base/3.3.3-1/src/library/tools/R/makeLazyLoad.R/#L258
 python-ply_compiled_parse_tables:
   description: |
     python-ply generates parse tables (eg. parsetab.py) that are
