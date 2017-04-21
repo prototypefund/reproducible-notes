@@ -3640,6 +3640,10 @@ davix:
   issues:
     - random_order_in_python_environment_pickle
     - captures_build_path
+dawg:
+  version: 1.2-1
+  issues:
+    - captures_build_path
 db4o:
   version: 8.0.184.15484+dfsg2-3
   issues:
@@ -10374,6 +10378,10 @@ kactivities-kf5:
   version: 5.26.0-1
   issues:
     - build_id_differences_only
+kactivities-stats:
+  version: 5.28.0-1
+  issues:
+    - captures_build_path
 kactivitymanagerd:
   version: 5.8.0-1
   issues:
@@ -17635,6 +17643,10 @@ openvas-libraries:
     - captures_build_path
 openvas-manager:
   version: 6.0.9-1
+  issues:
+    - captures_build_path
+openvas-scanner:
+  version: 5.0.7-3
   issues:
     - captures_build_path
 openvswitch:
@@ -25845,6 +25857,10 @@ sqlite3:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
+sqlite3-pcre:
+  version: 0~git20070120091816+4229ecc-1
+  issues:
+    - captures_build_path
 sqljet:
   version: 1.1.10-1
   issues:
@@ -26507,6 +26523,10 @@ tango:
     - captures_shell_variable_in_autofoo_script
 taningia:
   version: 0.2.2-1
+  issues:
+    - captures_build_path
+tantan:
+  version: 13-4
   issues:
     - captures_build_path
 taoframework:
@@ -28380,6 +28400,10 @@ witty:
     - captures_build_path
   bugs:
     - 778563
+wmcore:
+  version: 0.0.2+ds-1
+  issues:
+    - captures_build_path
 wmii-doc:
   version: 1:1-15
   issues:
