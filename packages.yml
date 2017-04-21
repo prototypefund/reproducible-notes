@@ -6235,11 +6235,6 @@ forked-daapd:
     Needs to use TZ=UTC and $SOURCE_DATE_EPOCH.
   bugs:
     - 859305
-forkstat:
-  version: 0.01.11-1
-  comments: |
-    Invoking dpkg-buildflags incorrectly.
-    https://sources.debian.net/src/forkstat/0.01.11-1/debian/rules/#L4
 form:
   version: 4.1-1
   issues:
