@@ -29016,9 +29016,8 @@ xserver-xorg-video-openchrome:
     https://sources.debian.net/src/xserver-xorg-video-openchrome/1:0.3.3%2Bgit20160310-1/src/Makefile.am/?hl=117#L117
 xshisen:
   version: 1:1.51-4.1
-  comments: |
-    Creates empty directories for the current locale.
-    https://sources.debian.net/src/xshisen/1:1.51-4.1/Makefile.in/#L83
+  issues:
+    - captures_build_path
 xshogi:
   version: 1.4.2-2
   bugs:
