@@ -7431,6 +7431,8 @@ gio-sharp:
   version: 2.22.3-3
   comments: |
     DLL strong name varies.
+  issues:
+    - portable_executable_strong_name_varies
 gip:
   version: 1.7.0-1-4
   bugs:
@@ -10821,6 +10823,8 @@ keepass2:
   version: 2.30+dfsg-2
   comments: |
     Unidentified differences in ./usr/lib/keepass2/KeePass.exe
+  issues:
+    - portable_executable_strong_name_varies
 keepassx:
   version: 0.4.3+dfsg-0.1
   bugs:
