@@ -1720,4 +1720,6 @@ timestamp_in_jboss_messagebundle_generated_code:
     generate documentation from it.
     https://sources.debian.net/src/jboss-logging-tools/2.0.2-1/processor/src/main/java/org/jboss/logging/processor/generator/model/ClassModel.java/#L146
   deterministic: True
-
+portable_executable_strong_name_varies:
+  description: |
+    Some sort of signing system. See the sn tool.
