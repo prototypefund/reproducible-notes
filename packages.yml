@@ -7429,8 +7429,6 @@ ginkgocadx:
     - captures_build_path
 gio-sharp:
   version: 2.22.3-3
-  comments: |
-    DLL strong name varies.
   issues:
     - portable_executable_strong_name_varies
 gip:
@@ -10821,8 +10819,6 @@ keepalived:
     - 783139
 keepass2:
   version: 2.30+dfsg-2
-  comments: |
-    Unidentified differences in ./usr/lib/keepass2/KeePass.exe
   issues:
     - portable_executable_strong_name_varies
 keepassx:
