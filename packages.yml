@@ -123,6 +123,10 @@ aconnectgui:
   version: 0.9.0rc2-1-9
   issues:
     - docbook_to_man_one_byte_delta
+acsccid:
+  version: 1.1.4-1
+  issues:
+    - captures_build_path
 activemq:
   version: 5.13.2+dfsg-2
   issues:
@@ -889,6 +893,10 @@ asciijump:
     - captures_build_path
   bugs:
     - 827109
+asclock:
+  version: 2.0.12-28
+  issues:
+    - captures_build_path
 aseprite:
   version: 1.1.6+ds-1
   issues:
@@ -1154,6 +1162,10 @@ avahi-sharp:
   version: 0.6.19-4.3
   issues:
     - captures_build_path
+avarice:
+  version: 2.13+svn347-4
+  issues:
+    - captures_build_path
 averell:
   version: 1.2.5-1
   comments: |
@@ -1277,6 +1289,10 @@ ball:
   version: 1.4.3~beta1-1
   issues:
     - timestamps_in_tex_documents
+ballz:
+  version: 1.0.3-1
+  issues:
+    - captures_build_path
 baloo:
   version: 4:4.14.3-3
   issues:
@@ -1390,6 +1406,10 @@ batik:
   issues:
     - user_hostname_manually_added_requiring_further_investigation
     - captures_kernel_version
+batmon.app:
+  version: 0.8-1
+  issues:
+    - captures_build_path
 baycomepp:
   version: 0.10-13
   issues:
@@ -1417,6 +1437,10 @@ bbdb3:
     - timestamps_in_emacs_autoloads
 bbrun:
   version: 1.6-6.1
+  issues:
+    - captures_build_path
+bcache-tools:
+  version: 1.0.8-2
   issues:
     - captures_build_path
 bcel:
@@ -1494,6 +1518,10 @@ bible-kjv:
   version: 4.29
   issues:
     - build_id_differences_only
+bibledit-bibletime:
+  version: 1.1.1-3
+  issues:
+    - captures_build_path
 bibledit-gtk:
   version: 4.9-1
   issues:
@@ -1722,6 +1750,10 @@ blitz++:
     - user_hostname_manually_added_requiring_further_investigation
     - records_build_flags
     - random_id_in_pdf_generated_by_dblatex
+blkreplay:
+  version: 1.0-3
+  issues:
+    - captures_build_path
 blktrace:
   version: 1.1.0-2
   issues:
@@ -1776,6 +1808,10 @@ boinc:
     - captures_build_path
 bombardier:
   version: 0.8.3+nmu1
+  issues:
+    - captures_build_path
+bomstrip:
+  version: 9-10
   issues:
     - captures_build_path
 boogie:
@@ -1842,6 +1878,10 @@ borgbackup:
     Depends on dictionary (hash) order:
       https://sources.debian.net/src/borgbackup/1.0.6-2/borg/archiver.py/#L863-L864
     Declaring it as an OrderedDict() or iterating it with sorted() should fix the issue.
+  issues:
+    - captures_build_path
+bosixnet:
+  version: 1.9-1
   issues:
     - captures_build_path
 boswars:
@@ -2014,6 +2054,10 @@ bulletml:
     - random_order_in_static_libraries
   bugs:
     - 847035
+burgerspace:
+  version: 1.9.2-2
+  issues:
+    - captures_build_path
 bustle:
   version: 0.5.2-1
   issues:
@@ -2153,6 +2197,10 @@ camlpdf:
     - captures_build_path
 camlzip:
   version: 1.05-3
+  issues:
+    - captures_build_path
+camorama:
+  version: 0.19-5
   issues:
     - captures_build_path
 camp:
@@ -2301,6 +2349,10 @@ cdcat:
     - build_id_differences_only
 cdcd:
   version: 0.6.6-13.1
+  issues:
+    - captures_build_path
+cdck:
+  version: 0.7.0+dfsg-1
   issues:
     - captures_build_path
 cdcover:
@@ -2591,6 +2643,10 @@ chron:
   issues:
     - captures_build_path
     - randomness_in_r_rdb_rds_databases
+chrony:
+  version: 3.0-3
+  issues:
+    - captures_build_path
 chuck:
   version: 1.2.0.8.dfsg-1.5
   issues:
@@ -2778,6 +2834,10 @@ cluster:
   issues:
     - captures_build_path
     - randomness_in_r_rdb_rds_databases
+clutter-gesture:
+  version: 0.0.2.1-7.1
+  issues:
+    - captures_build_path
 cmake:
   version: 3.6.1-1
   issues:
@@ -3080,6 +3140,10 @@ contextfree:
   bugs:
     - 846418
     - 848759
+conv-tools:
+  version: 20160905-1
+  issues:
+    - captures_build_path
 conversant-disruptor:
   version: 1.2.8-1
   bugs:
@@ -3582,6 +3646,10 @@ dares:
   version: 0.6.5-7
   issues:
     - captures_build_path
+darkice:
+  version: 1.3-0.1
+  issues:
+    - captures_build_path
 darktable:
   version: 2.0.5-2
   issues:
@@ -3638,6 +3706,10 @@ davix:
     - captures_build_path
 dawg:
   version: 1.2-1
+  issues:
+    - captures_build_path
+dawgdic:
+  version: 0.4.5-2
   issues:
     - captures_build_path
 db4o:
@@ -3981,6 +4053,10 @@ dhcp-probe:
   version: 1.3.0-10.1
   issues:
     - captures_build_path
+dhcpcd5:
+  version: 6.10.1-1
+  issues:
+    - captures_build_path
 dhcpd-pools:
   version: 2.28-1
   issues:
@@ -4053,6 +4129,10 @@ diet:
   version: 2.8.0-1
   bugs:
     - 761568
+diffstat:
+  version: 1.61-1
+  issues:
+    - captures_build_path
 digikam:
   version: 4:5.1.0-2
   issues:
@@ -4154,6 +4234,10 @@ dkg-handwriting:
   version: 0.15-1
   issues:
     - fontforge_resets_modification_time
+dleyna-server:
+  version: 0.4.0-1.1
+  issues:
+    - captures_build_path
 dlib:
   version: 18.18-1
   issues:
@@ -4177,6 +4261,10 @@ dns-browse:
     - docbook_to_man_one_byte_delta
 dns2tcp:
   version: 0.5.2-1.1
+  issues:
+    - captures_build_path
+dnsmasq:
+  version: 2.76-5
   issues:
     - captures_build_path
 dnsproxy:
@@ -4297,6 +4385,10 @@ dose3:
   issues:
     - timezones_manpages_podman
     - randomness_in_ocaml_preprocessed_files
+dossizola:
+  version: 1.0-9
+  issues:
+    - captures_build_path
 dot-forward:
   version: 1:0.71-2
   issues:
@@ -4457,6 +4549,10 @@ duma:
   version: 2.5.15-1.1
   bugs:
     - 811887
+dumpet:
+  version: 2.1-9
+  issues:
+    - captures_build_path
 dune-common:
   version: 2.4.0-1
   issues:
@@ -4720,6 +4816,10 @@ edfbrowser:
   version: 1.58-1
   issues:
     - captures_build_path
+edid-decode:
+  version: 0.1~git20160708.c72db881-1
+  issues:
+    - captures_build_path
 edk2:
   version: 0~20160408.ffea0a2c-2
   issues:
@@ -4923,6 +5023,10 @@ enblend-enfuse:
     - records_build_flags
 encfs:
   version: 1.8.1-3
+  issues:
+    - captures_build_path
+enchant:
+  version: 1.6.0-11
   issues:
     - captures_build_path
 engauge-digitizer:
@@ -5210,6 +5314,10 @@ etherape:
   version: 0.9.13-1
   issues:
     - captures_build_path
+ethstatus:
+  version: 0.4.8
+  issues:
+    - captures_build_path
 etoile:
   version: 0+20080616+dfsg-2
   issues:
@@ -5287,6 +5395,10 @@ exonerate:
     - captures_build_path
 extlib:
   version: 1.7.0-2
+  issues:
+    - captures_build_path
+extremetuxracer:
+  version: 0.7.4-1
   issues:
     - captures_build_path
 eyed3:
@@ -5379,6 +5491,10 @@ fatresize:
     - docbook_to_man_one_byte_delta
 fauhdlc:
   version: 20130704-1.1
+  issues:
+    - captures_build_path
+faulthandler:
+  version: 2.4-1
   issues:
     - captures_build_path
 faumachine:
@@ -6294,6 +6410,10 @@ frama-c:
     https://sources.debian.net/src/frama-c/20140301%2Bneon%2Bdfsg-3/src/aorai/Makefile.in/#L111
   issues:
     - captures_build_path
+frameworkintegration:
+  version: 5.28.0-1
+  issues:
+    - captures_build_path
 fraqtive:
   version: 0.4.8-3
   issues:
@@ -6657,6 +6777,10 @@ galax:
     - captures_build_path
     - user_hostname_manually_added_requiring_further_investigation
     - fonts_in_pdf_files
+galleta:
+  version: 1.0+20040505-8
+  issues:
+    - captures_build_path
 gambas3:
   version: 3.8.4-1
   issues:
@@ -8302,6 +8426,10 @@ gputils:
   version: 1.4.0-0.1
   issues:
     - captures_build_path
+gpx2shp:
+  version: 0.71.0-4
+  issues:
+    - captures_build_path
 gqrx-sdr:
   version: 2.5.3-2
   issues:
@@ -8439,10 +8567,18 @@ grcm:
   version: 0.1.6-1
   issues:
     - captures_build_path
+greed:
+  version: 3.10-1
+  issues:
+    - captures_build_path
 gregmisc:
   version: 2.1.5-2
   issues:
     - randomness_in_r_rdb_rds_databases
+grhino:
+  version: 0.16.1-3
+  issues:
+    - captures_build_path
 gri:
   version: 2.12.23-8
   issues:
@@ -8511,6 +8647,10 @@ groovy:
   issues:
     - timestamps_in_documentation_generated_by_groovydoc
     - blacklisted_on_jenkins_armhf_only
+gross:
+  version: 1.0.2-4
+  issues:
+    - captures_build_path
 grpc:
   version: 0.12.0-1
   bugs:
@@ -8569,6 +8709,10 @@ gst-plugins-base1.0:
   version: 1.5.0.1+git20150513-1
   bugs:
     - 787124
+gst-plugins-espeak:
+  version: 0.4.0-2
+  issues:
+    - captures_build_path
 gstm:
   version: 1.2-8.1
   issues:
@@ -8594,6 +8738,10 @@ gthumb:
   version: 3:3.4.4.1-5
   issues:
     - nondeterminstic_ordering_in_gsettings_glib_enums_xml
+gtick:
+  version: 0.5.4-1
+  issues:
+    - captures_build_path
 gtk+2.0:
   version: 2.24.30-4
   issues:
@@ -8737,6 +8885,10 @@ gurgitate-mail:
   version: 1.10.0-1
   bugs:
     - 805158
+guymager:
+  version: 0.8.3-1
+  issues:
+    - captures_build_path
 gwaei:
   version: 3.6.2-2
   issues:
@@ -8753,6 +8905,10 @@ gworkspace:
   version: 0.9.2-1
   issues:
     - plist_weirdness
+gxmessage:
+  version: 3.4.3-1
+  issues:
+    - captures_build_path
 gyoto:
   version: 1.0.2-3
   issues:
@@ -10024,6 +10180,10 @@ jd:
   version: 1:2.8.9-150226-5
   issues:
     - captures_build_path
+jdupes:
+  version: 1.7-2
+  issues:
+    - captures_build_path
 jebl2:
   version: 0.1+20140614-1
   issues:
@@ -10138,6 +10298,10 @@ josql:
     - random_order_in_documentation_generated_by_javadoc
 jovie:
   version: 4:16.04.0-1
+  issues:
+    - captures_build_path
+joy2key:
+  version: 1.6.3-2
   issues:
     - captures_build_path
 jpeginfo:
@@ -10472,6 +10636,10 @@ kcodecs:
   version: 5.25.0-1
   issues:
     - captures_build_path
+kcompletion:
+  version: 5.28.0-1
+  issues:
+    - captures_build_path
 kconfig:
   version: 5.26.0-1
   issues:
@@ -10486,6 +10654,10 @@ kcov:
     - captures_build_path
   bugs:
     - 790912
+kcrash:
+  version: 5.28.0-1
+  issues:
+    - captures_build_path
 kdbg:
   version: 2.5.5-1
   issues:
@@ -10493,6 +10665,10 @@ kdbg:
     - different_encoding
   bugs:
     - 823393
+kdbusaddons:
+  version: 5.28.0-1
+  issues:
+    - captures_build_path
 kde-baseapps:
   version: 4:16.04.3-1
   issues:
@@ -10613,6 +10789,10 @@ kdewebdev:
   version: 4:16.04.3-1
   issues:
     - captures_build_path
+kdewebkit:
+  version: 5.28.0-1
+  issues:
+    - captures_build_path
 kdf:
   version: 4:15.08.0-2
   issues:
@@ -10627,6 +10807,10 @@ kdiagram:
     - captures_build_path_via_assert
 kdiff3:
   version: 0.9.98-3
+  issues:
+    - captures_build_path
+kdnssd-kf5:
+  version: 5.28.0-1
   issues:
     - captures_build_path
 keepalived:
@@ -10718,6 +10902,10 @@ kgoldrunner:
     - captures_build_path
 kgpg:
   version: 4:16.04.2-1
+  issues:
+    - captures_build_path
+kguiaddons:
+  version: 5.28.0-1
   issues:
     - captures_build_path
 khal:
@@ -10929,6 +11117,10 @@ kmailtransport:
   version: 16.04.2-2
   issues:
     - build_id_differences_only
+kmediaplayer:
+  version: 5.28.0-1
+  issues:
+    - captures_build_path
 kmenuedit:
   version: 4:5.4.3-1
   issues:
@@ -10994,6 +11186,14 @@ knot-resolver:
     There is a timestamp in the manpage.
   issues:
     - timestamps_manually_added_needs_further_investigation
+knotifications:
+  version: 5.28.0-1
+  issues:
+    - captures_build_path
+knotifyconfig:
+  version: 5.28.0-1
+  issues:
+    - captures_build_path
 knutclient:
   version: 1.0.5-1
   issues:
@@ -11043,6 +11243,10 @@ kopete:
   version: 4:16.04.2-1
   issues:
     - captures_build_path
+kore:
+  version: 2.0.0-2
+  issues:
+    - captures_build_path
 koules:
   version: 1.4-23
   issues:
@@ -11071,6 +11275,10 @@ kpeople:
   version: 5.26.0-1
   issues:
     - build_id_differences_only
+kplotting:
+  version: 5.28.0-1
+  issues:
+    - captures_build_path
 kppp:
   version: 4:15.12.0-2
   issues:
@@ -11254,6 +11462,10 @@ kubrick:
   version: 4:4.12.2-3
   issues:
     - captures_build_path
+kunitconversion:
+  version: 5.28.0-1
+  issues:
+    - captures_build_path
 kuser:
   version: 4:15.12.0-3
   issues:
@@ -11326,6 +11538,10 @@ kxmlgui:
     - captures_build_path
   bugs:
     - 835053
+kxmlrpcclient:
+  version: 5.28.0-1
+  issues:
+    - captures_build_path
 kxstitch:
   version: 1.3.0-1
   issues:
@@ -11652,6 +11868,10 @@ libapache-poi-java:
     more than that, alas.
   issues:
     - blacklisted_on_jenkins_armhf_only
+libapache2-mod-auth-mellon:
+  version: 0.12.0-2
+  issues:
+    - captures_build_path
 libapache2-mod-auth-openidc:
   version: 1.8.10.1-1
   issues:
@@ -11787,6 +12007,10 @@ libauthcas-perl:
   version: 1.5-1
   issues:
     - captures_build_path
+libauthen-libwrap-perl:
+  version: 0.23-1
+  issues:
+    - captures_build_path
 libaws:
   version: 3.2.0-3
   issues:
@@ -11821,6 +12045,10 @@ libbitcoin:
     - records_build_flags
   bugs:
     - 841620
+libblocksruntime:
+  version: 0.4.1-1.1
+  issues:
+    - captures_build_path
 libbluray:
   version: 1:0.9.3-2
   issues:
@@ -12051,6 +12279,10 @@ libdebian-installer:
   version: 0.107
   issues:
     - captures_build_path
+libdebug:
+  version: 0.5.2-1
+  issues:
+    - captures_build_path
 libdecentxml-java:
   version: 1.4-2
   issues:
@@ -12174,6 +12406,10 @@ libffi:
   version: 3.2.1-6
   issues:
     - captures_build_path
+libfile-map-perl:
+  version: 0.64-2
+  issues:
+    - captures_build_path
 libfile-rsyncp-perl:
   version: 0.74-2.1
   issues:
@@ -12276,6 +12512,10 @@ libgdf:
     - build_id_differences_only
 libgdiplus:
   version: 4.2-1
+  issues:
+    - captures_build_path
+libgepub:
+  version: 0.4-1
   issues:
     - captures_build_path
 libgetdata:
@@ -12515,6 +12755,10 @@ libint2:
   version: 2.1.0-3
   issues:
     - diffoscope_runs_forever
+libio-aio-perl:
+  version: 4.34-1
+  issues:
+    - captures_build_path
 libio-dirent-perl:
   version: 0.05-1
   issues:
@@ -12868,6 +13112,10 @@ liblouisutdml:
   comments: |
     Documentation also mention that some arguments must be UTF-8 depending on
     the charset.
+liblrdf:
+  version: 0.6.1-1
+  issues:
+    - captures_build_path
 liblucy-perl:
   version: 0.3.3-7
   issues:
@@ -12896,6 +13144,10 @@ libmarpa:
     - captures_build_path
 libmarpa-r2-perl:
   version: 2.086000~dfsg-6
+  issues:
+    - captures_build_path
+libmatemixer:
+  version: 1.16.0-2
   issues:
     - captures_build_path
 libmatio:
@@ -13180,6 +13432,10 @@ libpeas:
     - captures_build_path
   bugs:
     - 802095
+libperl5i-perl:
+  version: 2.13.2-1
+  issues:
+    - captures_build_path
 libpgjava:
   version: 9.4.1212-1
   issues:
@@ -13382,6 +13638,10 @@ libreswan:
   version: 3.19-1
   issues:
     - captures_build_path_via_assert
+libretro-beetle-wswan:
+  version: 0.9.35.1+git20160623-1
+  issues:
+    - captures_build_path
 librevenge:
   version: 0.0.4-1
   comments: |
@@ -13504,6 +13764,10 @@ libsndfile:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
+libsodium:
+  version: 1.0.11-2
+  issues:
+    - captures_build_path
 libsolv:
   version: 0.6.21-1
   issues:
@@ -13683,6 +13947,10 @@ libu2f-server:
     - fonts_in_pdf_files
 libuninum:
   version: 2.7-1.1
+  issues:
+    - captures_build_path
+libunwind:
+  version: 1.1-4.1
   issues:
     - captures_build_path
 liburcu:
@@ -13983,6 +14251,10 @@ lincity-ng:
   version: 2.9~git20150314-1
   issues:
     - captures_build_path
+linssid:
+  version: 2.9-3
+  issues:
+    - captures_build_path
 linthesia:
   version: 0.4.3-1
   bugs:
@@ -14017,6 +14289,10 @@ linuxdoc-tools:
     PDF ID varying, but not the timestamps. Could be due to different (random/temporary) build path.
   issues:
     - random_id_in_pdf_generated_by_dblatex
+linuxinfo:
+  version: 2.4.4-1
+  issues:
+    - captures_build_path
 linuxlogo:
   version: 5.11-8.1
   issues:
@@ -14486,6 +14762,14 @@ lyx:
   issues:
     - diffoscope_runs_forever
     - captures_build_path
+m2crypto:
+  version: 0.24.0-1.1
+  issues:
+    - captures_build_path
+m2ext:
+  version: 0.1-1.1
+  issues:
+    - captures_build_path
 mac-widgets:
   version: 0.10.0+svn416-dfsg1-1
   issues:
@@ -14589,6 +14873,10 @@ maint-guide:
     - timestamps_in_pdf_content
 maitreya:
   version: 7.0.7-1
+  issues:
+    - captures_build_path
+make-dfsg:
+  version: 4.1-9.1
   issues:
     - captures_build_path
 makedumpfile:
@@ -14935,6 +15223,10 @@ memstat:
   version: 1.0
   issues:
     - build_id_differences_only
+memtailor:
+  version: 1.0~git20160302-1
+  issues:
+    - captures_build_path
 memtest86+:
   version: 5.01-2
   comments: |
@@ -15139,6 +15431,10 @@ misc3d:
     - randomness_in_r_rdb_rds_databases
 misery:
   version: 0.2-1.1
+  issues:
+    - captures_build_path
+missfits:
+  version: 2.8.0-1
   issues:
     - captures_build_path
 mit-scheme:
@@ -15514,6 +15810,10 @@ mopidy-mpris:
   version: 1.3.1-1
   bugs:
     - 815739
+moreutils:
+  version: 0.60-1
+  issues:
+    - captures_build_path
 morse-simulator:
   version: 1.2.1-2
   issues:
@@ -15604,6 +15904,10 @@ mpfr4:
   version: 3.1.4-2
   issues:
     - random_id_in_pdf_generated_by_dblatex
+mpg123:
+  version: 1.23.8-1
+  issues:
+    - captures_build_path
 mpg321:
   version: 0.3.2-1.1
   issues:
@@ -16176,6 +16480,10 @@ netsurf:
   version: 3.2+dfsg-2
   issues:
     - timestamps_in_png
+nettle:
+  version: 3.3-1
+  issues:
+    - captures_build_path
 netty:
   version: 1:4.0.34-1
   comments: |
@@ -16320,6 +16628,7 @@ nginx:
     - captures_build_path_via_assert
     - records_build_flags
     - max_output_size_reached
+    - captures_build_path
 ngraph-gtk:
   version: 6.07.02-2
   issues:
@@ -16740,6 +17049,10 @@ nvidia-settings:
     - user_hostname_manually_added_requiring_further_investigation
 nvidia-texture-tools:
   version: 2.0.8-1+dfsg-8
+  issues:
+    - captures_build_path
+nvme-cli:
+  version: 1.1-1
   issues:
     - captures_build_path
 nvram-wakeup:
@@ -18306,6 +18619,10 @@ pd-windowing:
   version: 0.1-2
   issues:
     - build_id_differences_only
+pd-xsample:
+  version: 0.3.2~git20161105.1.d16761a1-1
+  issues:
+    - captures_build_path
 pdal:
   version: 1.2.0-2
   comments: |
@@ -18654,6 +18971,10 @@ phpwebcounter:
   version: 1.0-3
   issues:
     - different_due_to_umask
+physlock:
+  version: 0.4.5-2
+  issues:
+    - captures_build_path
 pianobooster:
   version: 0.6.4.0-1
   issues:
@@ -20346,6 +20667,10 @@ python-hypothesis:
     - captures_build_path
   bugs:
     - 854549
+python-iptables:
+  version: 0.11.0-2
+  issues:
+    - captures_build_path
 python-ironic-inspector-client:
   version: 1.2.0-2
   issues:
@@ -20593,6 +20918,10 @@ python-pyo:
   version: 0.7.9-1
   issues:
     - build_id_differences_only
+python-pypcap:
+  version: 1.1.5-1
+  issues:
+    - captures_build_path
 python-pypm:
   version: 0.0.7-8
   issues:
@@ -23751,6 +24080,10 @@ rnc-mode:
   version: 1.0b3-1
   bugs:
     - 817654
+rng-tools5:
+  version: 5-1
+  issues:
+    - captures_build_path
 roarplaylistd:
   version: 0.1.9-1
   comments: |
@@ -24006,6 +24339,10 @@ rubber:
   version: 1.4-2
   issues:
     - random_id_in_pdf_generated_by_dblatex
+rubiks:
+  version: 20070912-2
+  issues:
+    - captures_build_path
 rubocop:
   version: 0.47.1+dfsg-1
   bugs:
@@ -25086,6 +25423,10 @@ sheepdog:
     https://sources.debian.net/src/sheepdog/0.8.3-4.1/man/Makefile.am/#L14
   bugs:
     - 835051
+shellex:
+  version: 0.2-1
+  issues:
+    - captures_build_path
 shiboken:
   version: 1.2.2-3
   issues:
@@ -25482,6 +25823,10 @@ smpq:
   version: 1.5-1
   issues:
     - captures_build_path
+smtpping:
+  version: 1.1.3-1
+  issues:
+    - captures_build_path
 smuxi:
   version: 0.11~rc5-2
   issues:
@@ -25676,6 +26021,10 @@ spades:
   version: 3.9.0+dfsg-1
   issues:
     - diffoscope_runs_forever
+spamassassin:
+  version: 3.4.1-6
+  issues:
+    - captures_build_path
 spamassassin-heatu:
   version: 3.02+20101108-2
   bugs:
@@ -25780,6 +26129,10 @@ spim:
     - captures_build_path
 spinner:
   version: 1.2.4-3
+  issues:
+    - captures_build_path
+spl-linux:
+  version: 0.6.5.9-1
   issues:
     - captures_build_path
 splash:
@@ -25978,6 +26331,10 @@ statsmodels:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - captures_build_path
+stdsyslog:
+  version: 0.03.1-3
+  issues:
+    - captures_build_path
 stealth:
   version: 4.01.05-1
   issues:
@@ -26009,6 +26366,10 @@ stgit:
     Timestamp in HTML files
   issues:
     - timestamps_in_documentation_generated_by_asciidoc
+stoken:
+  version: 0.91-1
+  issues:
+    - captures_build_path
 stopmotion:
   version: 0.8.0-5
   bugs:
@@ -26172,6 +26533,10 @@ sunpinyin:
     https://sources.debian.net/src/sunpinyin/3.0.0~git20160910-1/SConstruct/?hl=430#L194-L195
   bugs:
     - 860201
+sunxi-tools:
+  version: 1.4.1-1
+  issues:
+    - captures_build_path
 supercat:
   version: 0.5.5-4
   issues:
@@ -26680,6 +27045,10 @@ teem:
   bugs:
     - 704206
     - 820772
+teg:
+  version: 0.11.2+debian-4
+  issues:
+    - captures_build_path
 telegram-desktop:
   version: 1.0.14-1
   issues:
@@ -26741,6 +27110,10 @@ tercpp:
   version: 0.6.2+svn46-1.1
   issues:
     - build_id_variation_requiring_further_investigation
+termdebug:
+  version: 2.2+dfsg-1
+  issues:
+    - captures_build_path
 terminix:
   version: 1.5.2-3
   issues:
@@ -26848,6 +27221,14 @@ therion:
     - timestamps_in_png
 thin:
   version: 1.6.3-2
+  issues:
+    - captures_build_path
+threadweaver:
+  version: 5.28.0-1
+  issues:
+    - captures_build_path
+thuban:
+  version: 1.2.2-11
   issues:
     - captures_build_path
 tidy-html5:
@@ -27195,6 +27576,10 @@ trickle:
   version: 1.07-10
   bugs:
     - 736887
+triggerhappy:
+  version: 0.5.0-1
+  issues:
+    - captures_build_path
 trilinos:
   version: 12.6.3-1
   issues:
@@ -27287,6 +27672,10 @@ turnin-ng:
   version: 1.2-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+turnserver:
+  version: 0.7.3-5
+  issues:
+    - captures_build_path
 tuxcmd-modules:
   version: 0.6.70+ds-5
   issues:
@@ -28017,6 +28406,10 @@ voikko-fi:
   version: 2.1-1
   issues:
     - captures_build_path
+vokoscreen:
+  version: 2.5.0-1
+  issues:
+    - captures_build_path
 volk:
   version: 1.2.2-1
   issues:
@@ -28026,6 +28419,10 @@ voms-api-java:
   version: 3.2.0-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+vorbis-tools:
+  version: 1.4.0-10
+  issues:
+    - captures_build_path
 votca-csg:
   version: 1.3.0-1.1
   comments: |
@@ -28086,6 +28483,10 @@ vtk6:
     - diffoscope_runs_forever
     - timestamps_in_dvi_generated_by_latex
     - blacklisted_on_jenkins_armhf_only
+vtprint:
+  version: 2.0.2-13
+  issues:
+    - captures_build_path
 vtun:
   version: 3.0.3-2
   comments: |
@@ -28221,6 +28622,10 @@ webkit2gtk:
     Lunar thinks we need parallel processing implemented in diffoscope before it can deal with such big packages. (At that time the artifacts dumped were 18GB, today they are only 2*2GB.)
   issues:
     - blacklisted_on_jenkins
+webkit2pdf:
+  version: 0.3-3
+  issues:
+    - captures_build_path
 webkitgtk:
   version: 2.4.9-3
   issues:
@@ -28298,6 +28703,10 @@ wicd-kde:
   version: 0.3.1-1
   issues:
     - captures_build_path
+wide-dhcpv6:
+  version: 20080615-19
+  issues:
+    - captures_build_path
 widelands:
   version: 1:18-3
   issues:
@@ -28366,6 +28775,10 @@ winswitch:
     /usr/lib/winswitch/winswitch/build_info.py
   bugs:
     - 834051
+wipe:
+  version: 0.24-2
+  issues:
+    - captures_build_path
 wiredtiger:
   version: 2.6.1+ds-1
   bugs:
@@ -28389,8 +28802,16 @@ witty:
     - captures_build_path
   bugs:
     - 778563
+wmcalc:
+  version: 0.6-1
+  issues:
+    - captures_build_path
 wmcore:
   version: 0.0.2+ds-1
+  issues:
+    - captures_build_path
+wmfrog:
+  version: 0.3.1+git20161115-1
   issues:
     - captures_build_path
 wmii-doc:
@@ -28398,6 +28819,10 @@ wmii-doc:
   issues:
     - timestamps_in_ps_generated_by_dvips
     - random_id_in_pdf_generated_by_dblatex
+wml:
+  version: 2.0.12ds1-10
+  issues:
+    - captures_build_path
 wmmixer:
   version: 1.7+20120605-1
   issues:
@@ -28485,6 +28910,10 @@ writerperfect:
   version: 0.9.5-1
   issues:
     - captures_build_path
+wrk:
+  version: 4.0.2-1
+  issues:
+    - captures_build_path
 wsclean:
   version: 1.12-2
   issues:
@@ -28545,6 +28974,10 @@ x11vnc:
     - timestamps_in_jar
 x265:
   version: 2.0-4
+  issues:
+    - captures_build_path
+x2vnc:
+  version: 1.7.2-6
   issues:
     - captures_build_path
 x52pro:
@@ -28973,6 +29406,10 @@ xqilla:
   version: 2.3.3-2
   bugs:
     - 828937
+xracer:
+  version: 0.96.9.1-8
+  issues:
+    - captures_build_path
 xscorch:
   version: 0.2.1-1+nmu1
   issues:
@@ -29001,6 +29438,18 @@ xserver-xorg-input-mutouch:
   version: 1:1.3.0-1
   issues:
     - captures_build_path
+xserver-xorg-input-synaptics:
+  version: 1.9.0-1
+  issues:
+    - captures_build_path
+xserver-xorg-input-void:
+  version: 1:1.4.1-1
+  issues:
+    - captures_build_path
+xserver-xorg-video-amdgpu:
+  version: 1.2.0-1
+  issues:
+    - captures_build_path
 xserver-xorg-video-fbdev:
   version: 1:0.4.4-1
   issues:
@@ -29018,6 +29467,10 @@ xserver-xorg-video-openchrome:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/xserver-xorg-video-openchrome/1:0.3.3%2Bgit20160310-1/src/Makefile.am/?hl=117#L117
+xsettingsd:
+  version: 0.0.20150615+2+gb4999f5e-1
+  issues:
+    - captures_build_path
 xshisen:
   version: 1:1.51-4.1
   issues:
@@ -29028,6 +29481,10 @@ xshogi:
     - 778786
 xsok:
   version: 1.02-17
+  issues:
+    - captures_build_path
+xss-lock:
+  version: 0.3.0-4
   issues:
     - captures_build_path
 xstarfish:
@@ -29253,6 +29710,10 @@ yubikey-server-c:
   version: 0.5-1
   issues:
     - captures_build_path
+yubiserver:
+  version: 0.6-3
+  issues:
+    - captures_build_path
 yudit:
   version: 2.9.6-4
   comments: |
@@ -29384,6 +29845,10 @@ zp:
   version: 1.0-1
   bugs:
     - 845525
+zpaq:
+  version: 1.10-3
+  issues:
+    - captures_build_path
 zsh:
   version: 5.3-1
   comments: |
