@@ -5298,6 +5298,10 @@ esys-particle:
     - diffoscope_runs_forever
     - timestamps_in_ps_generated_by_dvips
     - records_build_flags
+etcd:
+  version: 3.1.4+dfsg-1
+  bugs:
+    - 857842
 etcd-fs:
   version: 0.0+git20140621.0.395eacb-1
   issues:
