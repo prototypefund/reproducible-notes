@@ -1758,6 +1758,10 @@ blktrace:
   version: 1.1.0-2
   issues:
     - timestamps_in_ps_generated_by_dvips
+blobandconquer:
+  version: 1.11-dfsg+20-1.1
+  issues:
+    - captures_build_path
 blobby:
   version: 1.0-3
   issues:
@@ -1935,6 +1939,10 @@ breathe:
     - randomness_in_documentation_generated_by_sphinx
 breeze:
   version: 4:5.7.4-1
+  issues:
+    - captures_build_path
+brewtarget:
+  version: 2.1.0-1
   issues:
     - captures_build_path
 brian:
@@ -2684,6 +2692,10 @@ ciphersaber:
   version: 1.01-2
   bugs:
     - 848015
+citadel:
+  version: 902-3
+  issues:
+    - captures_build_path
 citus:
   version: 5.1.1-1
   issues:
@@ -2784,6 +2796,10 @@ clitest:
   version: 0.0+git20150312.339b52-1
   issues:
     - blacklisted_on_jenkins_armhf_only
+clojure:
+  version: 1.8.0-2
+  issues:
+    - nondeterministic_java_bytecode
 cloop:
   version: 3.14.1.1
   issues:
@@ -2865,6 +2881,10 @@ cmucl:
   version: 21a-4
   comments: |
     Includes 'Compiled on: ' in /usr/lib/cmucl/subsystems/clm-library.sse2f
+cmus:
+  version: 2.7.1+git20160225-1
+  issues:
+    - captures_build_path
 coccinelle:
   version: 1.0.0~rc22
   issues:
@@ -2977,6 +2997,10 @@ collada-dom:
     - captures_build_path
 collada2gltf:
   version: 20140924-3
+  issues:
+    - captures_build_path
+collectd:
+  version: 5.7.1-1.1
   issues:
     - captures_build_path
 colobot:
@@ -3218,6 +3242,10 @@ cp2k:
     .
     docs partly use this value, but also party use "current-dateTime()" from
     some XLST library.
+  issues:
+    - captures_build_path
+cpl-plugin-naco:
+  version: 4.4.1+dfsg-3
   issues:
     - captures_build_path
 cpl-plugin-uves:
@@ -4127,6 +4155,10 @@ diet:
   version: 2.8.0-1
   bugs:
     - 761568
+dietlibc:
+  version: 0.34~cvs20160606-6
+  issues:
+    - captures_build_path
 diffstat:
   version: 1.61-1
   issues:
@@ -4228,6 +4260,10 @@ djbdns:
     - random_order_in_md5sums
   bugs:
     - 777022
+djvulibre:
+  version: 3.5.27.1-7
+  issues:
+    - captures_build_path
 dkg-handwriting:
   version: 0.15-1
   issues:
@@ -4479,6 +4515,10 @@ driftnet:
   version: 1.1.5-1.1
   issues:
     - captures_build_path
+dropbear:
+  version: 2016.74-3
+  issues:
+    - captures_build_path
 drumkv1:
   version: 0.8.0-1
   comments: |
@@ -4630,6 +4670,10 @@ dvdauthor:
   version: 0.7.0-1.4
   bugs:
     - 841694
+dvgrab:
+  version: 3.5+git20160707.1.e46042e-1
+  issues:
+    - captures_build_path
 dvi2ps:
   version: 5.1j-1.2
   issues:
@@ -7251,6 +7295,10 @@ geomview:
     - user_hostname_manually_added_requiring_further_investigation
     - captures_kernel_version
     - captures_build_path
+geos:
+  version: 3.5.1-3
+  issues:
+    - captures_build_path
 geronimo-jpa-2.0-spec:
   version: 1.1-2
   issues:
@@ -7733,6 +7781,10 @@ gnome-documents:
   version: 3.14.2-1
   comments: |
     pdfunite (poppler) pdf has unknown changes in gnome-documents-getting-started.pdf
+gnome-games-app:
+  version: 3.24.0.2-1
+  issues:
+    - captures_build_path
 gnome-keyring:
   version: 3.20.0-2
   bugs:
@@ -8557,6 +8609,10 @@ grcm:
   version: 0.1.6-1
   issues:
     - captures_build_path
+grcompiler:
+  version: 4.2-6
+  issues:
+    - captures_build_path
 greed:
   version: 3.10-1
   issues:
@@ -8821,6 +8877,10 @@ gtkspell:
     - captures_build_path
   bugs:
     - 820522
+gtkwave:
+  version: 3.3.79-1
+  issues:
+    - captures_build_path
 gtools:
   version: 3.5.0-1
   issues:
@@ -10598,6 +10658,10 @@ kbibtex:
   version: 0.4-4
   issues:
     - captures_build_path
+kbookmarks:
+  version: 5.28.0-1
+  issues:
+    - captures_build_path
 kbuild:
   version: 1:0.1.9998svn2814+dfsg-2
   issues:
@@ -11054,6 +11118,10 @@ kitchen:
   version: 1.1.1-1
   bugs:
     - 749208
+kitemviews:
+  version: 5.28.0-1
+  issues:
+    - captures_build_path
 kiten:
   version: 4:16.08.2-1
   issues:
@@ -11109,6 +11177,10 @@ kmailtransport:
   version: 16.04.2-2
   issues:
     - build_id_differences_only
+kmc:
+  version: 2.3+dfsg-5
+  issues:
+    - captures_build_path
 kmediaplayer:
   version: 5.28.0-1
   issues:
@@ -11156,6 +11228,10 @@ kmplot:
     - captures_build_path
 kmymoney:
   version: 4.8.0-2
+  issues:
+    - captures_build_path
+knewstuff:
+  version: 5.28.0-1
   issues:
     - captures_build_path
 knights:
@@ -12329,6 +12405,10 @@ libdssialsacompat:
     - captures_build_path
 libdumbnet:
   version: 1.12-7
+  issues:
+    - captures_build_path
+libdv:
+  version: 1.0.0-11
   issues:
     - captures_build_path
 libencode-eucjpms-perl:
@@ -15578,6 +15658,10 @@ modello:
   version: 1.8.3-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
+modemmanager-qt:
+  version: 5.28.0-1
+  issues:
+    - captures_build_path
 modernizr:
   version: 2.6.2+ds1-1
   bugs:
@@ -16499,6 +16583,10 @@ neutron-vpnaas:
     captures build path:
     https://sources.debian.net/src/neutron-vpnaas/1:8.0.0-2/neutron_vpnaas/services/vpn/device_drivers/ipsec.py/?hl=65#L45
     https://sources.debian.net/src/neutron-vpnaas/1:8.0.0-2/neutron_vpnaas/services/vpn/device_drivers/strongswan_ipsec.py/?hl=37#L27
+  issues:
+    - captures_build_path
+neverball:
+  version: 1.6.0-7
   issues:
     - captures_build_path
 newlib:
@@ -17885,6 +17973,10 @@ openscenegraph-3.4:
   version: 3.4.0+dfsg1-4
   issues:
     - diffoscope_runs_forever
+opensips:
+  version: 2.2.2-3
+  issues:
+    - captures_build_path
 opensp:
   version: 1.5.2-13
   issues:
@@ -19781,6 +19873,10 @@ proxy-suite:
   version: 1.9.2.4-10
   issues:
     - pdf_created_by_ghostscript
+pseudo:
+  version: 1.8.1+git20161012-2
+  issues:
+    - captures_build_path
 psi-plus:
   version: 0.16.330-1
   issues:
@@ -21079,6 +21175,10 @@ python-x2go:
     - randomness_in_documentation_generated_by_epydoc
     - captures_home_dir
     - user_hostname_manually_added_requiring_further_investigation
+    - captures_build_path
+python-xarray:
+  version: 0.9.2-1
+  issues:
     - captures_build_path
 python-xlib:
   version: 0.14+20091101-5
@@ -23986,6 +24086,10 @@ ricochet:
   version: 0.4+nmu1
   bugs:
     - 787675
+ricochet-im:
+  version: 1.1.4-1
+  issues:
+    - captures_build_path
 rig:
   version: 1.11-1
   issues:
@@ -24850,6 +24954,10 @@ ruby2.3:
     - diffoscope_runs_forever
 rubyluabridge:
   version: 0.8.0-1
+  issues:
+    - captures_build_path
+rudecgi:
+  version: 5.0.0-1.1
   issues:
     - captures_build_path
 ruli:
@@ -26062,6 +26170,10 @@ spew:
   version: 1.0.8-1
   issues:
     - captures_build_path
+spherepack:
+  version: 3.2-9
+  issues:
+    - captures_build_path
 sphinx:
   version: 1.2.3+dfsg-1
   issues:
@@ -26560,6 +26672,10 @@ surf-alggeo:
   version: 1.0.6+ds-2
   issues:
     - timestamps_in_pdf_generated_by_latex
+survex:
+  version: 1.2.30-1
+  issues:
+    - captures_build_path
 survival:
   version: 2.39-5-1
   issues:
@@ -27609,6 +27725,10 @@ ttf-staypuft:
   version: 0.04-6
   issues:
     - fontforge_resets_modification_time
+tth:
+  version: 4.08+ds-2
+  issues:
+    - captures_build_path
 ttyload:
   version: 0.5-8
   bugs:
@@ -28993,6 +29113,10 @@ xbindkeys-config:
   version: 0.1.3-2
   issues:
     - captures_build_path
+xblast-tnt:
+  version: 2.10.4-4
+  issues:
+    - captures_build_path
 xbs:
   version: 0-10
   issues:
@@ -29170,6 +29294,10 @@ xinv3d:
   version: 1.3.6-6
   issues:
     - build_id_differences_only
+xiphos:
+  version: 4.0.4+dfsg1-1
+  issues:
+    - captures_build_path
 xjig:
   version: 2.4-14
   issues:
@@ -29417,6 +29545,10 @@ xserver-xorg-video-freedreno:
     - captures_build_path
 xserver-xorg-video-glide:
   version: 1.2.2-1
+  issues:
+    - captures_build_path
+xserver-xorg-video-intel:
+  version: 2:2.99.917+git20161206-1
   issues:
     - captures_build_path
 xserver-xorg-video-openchrome:
@@ -29846,6 +29978,10 @@ zurl:
     Build hangs forever...
   issues:
     - blacklisted_on_jenkins
+zvbi:
+  version: 0.2.35-13
+  issues:
+    - captures_build_path
 zynaddsubfx:
   version: 2.5.4-2
   issues:
