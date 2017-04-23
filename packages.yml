@@ -5298,10 +5298,6 @@ esys-particle:
     - diffoscope_runs_forever
     - timestamps_in_ps_generated_by_dvips
     - records_build_flags
-etcd:
-  version: 2.3.7+dfsg-1
-  issues:
-    - diffoscope_runs_forever
 etcd-fs:
   version: 0.0+git20140621.0.395eacb-1
   issues:
@@ -6728,10 +6724,6 @@ g3data:
   version: 1:1.5.3-2.1
   issues:
     - docbook_to_man_one_byte_delta
-ga:
-  version: 5.4~beta~r10636+dfsg-2
-  comments: |
-    [armhf]
 gadfly:
   version: 1.0.0-16
   issues:
@@ -19948,10 +19940,6 @@ pybik:
     simply stripped.
   issues:
     - captures_build_arch
-pybit:
-  version: 1.0.0-2.1
-  comments: |
-    Uninvestigated, but cropped up on 2016-08-11 at the same time as similar issues in other packages.
 pybliographer:
   version: 1.2.16-1
   bugs:
