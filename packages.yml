@@ -3449,10 +3449,6 @@ cvs:
   version: 2:1.12.13+real-15
   issues:
     - random_id_in_pdf_generated_by_dblatex
-cvs-mailcommit:
-  version: 1.19-2
-  bugs:
-    - 776940
 cvsd:
   version: 1.0.24
   issues:
@@ -5306,8 +5302,6 @@ etcd:
   version: 2.3.7+dfsg-1
   issues:
     - diffoscope_runs_forever
-  bugs:
-    - 846542
 etcd-fs:
   version: 0.0+git20140621.0.395eacb-1
   issues:
@@ -6738,8 +6732,6 @@ ga:
   version: 5.4~beta~r10636+dfsg-2
   comments: |
     [armhf]
-  bugs:
-    - 849658
 gadfly:
   version: 1.0.0-16
   issues:
@@ -19962,8 +19954,6 @@ pybit:
   version: 1.0.0-2.1
   comments: |
     Uninvestigated, but cropped up on 2016-08-11 at the same time as similar issues in other packages.
-  bugs:
-    - 834277
 pybliographer:
   version: 1.2.16-1
   bugs:
@@ -25189,10 +25179,6 @@ scoop:
   bugs:
     - 802318
     - 835534
-scotch:
-  version: 5.1.12b.dfsg-2
-  bugs:
-    - 787997
 scowl:
   version: 7.1-1
   bugs:
@@ -25627,8 +25613,6 @@ skalibs:
     - timestamps_in_gzip_headers
     - random_order_in_md5sums
     - captures_kernel_version
-  bugs:
-    - 847030
 sketch:
   version: 1:0.3.7-1
   issues:
@@ -25813,10 +25797,6 @@ smokegen:
   version: 4:4.14.3-1
   issues:
     - captures_build_path
-smokeqt:
-  version: 4.14.3-1
-  bugs:
-    - 812002
 smpq:
   version: 1.5-1
   issues:
@@ -25917,7 +25897,6 @@ socklog:
     - timestamps_in_gzip_headers
     - random_order_in_md5sums
   bugs:
-    - 777419
     - 847031
 socks4-server:
   version: 4.3.beta2-19
@@ -27729,7 +27708,6 @@ twoftpd:
     - timestamps_in_gzip_headers
     - random_order_in_md5sums
   bugs:
-    - 777369
     - 847034
 txaws:
   version: 0.2.3-1
@@ -27817,7 +27795,6 @@ ucspi-tcp:
   issues:
     - random_order_in_md5sums
   bugs:
-    - 777020
     - 847036
 ucspi-unix:
   version: 0.36-4
@@ -28106,10 +28083,6 @@ utopia-documents:
   version: 2.4.4-2
   issues:
     - timestamps_in_zip
-uucpsend:
-  version: 1.1-4
-  bugs:
-    - 777008
 uuidm:
   version: 0.9.5-1
   issues:
