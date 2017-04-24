@@ -25984,7 +25984,6 @@ soci:
 socklog:
   version: 2.1.0-8
   issues:
-    - timestamps_in_gzip_headers
     - random_order_in_md5sums
 socks4-server:
   version: 4.3.beta2-19
@@ -27805,7 +27804,6 @@ twittering-mode:
 twoftpd:
   version: 1.42-1
   issues:
-    - timestamps_in_gzip_headers
     - random_order_in_md5sums
 txaws:
   version: 0.2.3-1
@@ -27888,10 +27886,6 @@ ucspi-proxy:
     - random_order_in_md5sums
   bugs:
     - 777365
-ucspi-tcp:
-  version: 1:0.88-3
-  issues:
-    - random_order_in_md5sums
 ucspi-unix:
   version: 0.36-4
   issues:
