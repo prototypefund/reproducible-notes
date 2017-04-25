@@ -423,6 +423,10 @@ and:
   version: 1.2.2-4.1
   issues:
     - captures_build_path
+android-platform-external-libunwind:
+  version: 7.0.0+r1-4
+  issues:
+    - captures_build_path
 android-platform-frameworks-base:
   version: 1:7.0.0+r1-3
   bugs:
@@ -7695,6 +7699,10 @@ gmp:
   version: 2:6.1.1+dfsg-1
   issues:
     - records_build_flags
+gmp-ecm:
+  version: 7.0.4+ds-1
+  issues:
+    - captures_build_path
 gmrun:
   version: 0.9.2-2.1
   issues:
