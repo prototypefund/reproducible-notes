@@ -47,6 +47,10 @@ abcm2ps:
     - docbook_to_man_one_byte_delta
   bugs:
     - 788748
+abgate:
+  version: 1.1.8-1
+  issues:
+    - captures_build_path
 abind:
   version: 1.4-5-1
   issues:
@@ -102,6 +106,10 @@ aces3:
   version: 3.0.8-4
   issues:
     - captures_build_path
+acfax:
+  version: 981011-17
+  issues:
+    - captures_build_path
 achilles:
   version: 2-8.2
   issues:
@@ -123,6 +131,10 @@ aconnectgui:
   version: 0.9.0rc2-1-9
   issues:
     - docbook_to_man_one_byte_delta
+acpitool:
+  version: 0.5.1-4
+  issues:
+    - captures_build_path
 acsccid:
   version: 1.1.4-1
   issues:
@@ -214,6 +226,10 @@ aegisub:
   issues:
     - captures_build_path
     - too_much_input_for_diff
+aes2501-wy:
+  version: 0.1-5
+  issues:
+    - captures_build_path
 aespipe:
   version: 2.4c-1
   issues:
@@ -544,6 +560,10 @@ aolserver4-nsmysql:
     - 788753
 aolserver4-nsopenssl:
   version: 3.0beta26-5
+  issues:
+    - captures_build_path
+aolserver4-nspostgres:
+  version: 4.5+20110709-2
   issues:
     - captures_build_path
 aolserver4-nssqlite3:
@@ -3446,6 +3466,10 @@ curl:
   version: 7.50.1-1
   issues:
     - records_build_flags
+curlpp:
+  version: 0.8.1-1
+  issues:
+    - captures_build_path
 curry-libs:
   version: 1.0.0-1
   issues:
@@ -7757,6 +7781,10 @@ gngb:
     -> When compiling for i386 from amd64 system/kernel, different flags are used.
   bugs:
     - 831773
+gniall:
+  version: 0.7.1-7.1
+  issues:
+    - captures_build_path
 gnokii:
   version: 0.6.30+dfsg-1.1
   issues:
@@ -9999,6 +10027,10 @@ jacal:
     - texi2html_captures_users_gecos
   bugs:
     - 815250
+jack:
+  version: 3.1.1+cvs20050801-29.2
+  issues:
+    - captures_build_path
 jack-audio-connection-kit:
   version: 1:0.124.1+20140122git5013bed0-3
   comments: |
@@ -10714,6 +10746,10 @@ kcm-ufw:
     - captures_build_path
 kcodecs:
   version: 5.25.0-1
+  issues:
+    - captures_build_path
+kcollectd:
+  version: 0.9-4
   issues:
     - captures_build_path
 kcompletion:
@@ -28306,6 +28342,10 @@ vboot-utils:
   version: 0~R52-8350.B-1
   issues:
     - user_hostname_manually_added_requiring_further_investigation
+vc:
+  version: 1.3.1-1
+  issues:
+    - captures_build_path
 vcdimager:
   version: 0.7.24+dfsg-0.2
   issues:
