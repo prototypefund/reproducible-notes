@@ -6877,6 +6877,10 @@ ganv:
     that embeds the build dir in /usr/share/gir-1.0/Ganv-1.0.gir.
   issues:
     - captures_build_path
+ganymed-ssh2:
+  version: 250-2
+  issues:
+    - nondeterministic_java_bytecode
 gap:
   version: 4r8p4-1
   issues:
@@ -10382,6 +10386,10 @@ joy2key:
   version: 1.6.3-2
   issues:
     - captures_build_path
+jpathwatch:
+  version: 0.95-4
+  issues:
+    - nondeterministic_java_bytecode
 jpeginfo:
   version: 1.6.0-6
   issues:
@@ -11768,6 +11776,10 @@ latexdiff:
   version: 1.1.1-2
   issues:
     - pdf_id_varying_due_to_build_path
+latexdraw:
+  version: 3.3.5+ds1-1
+  issues:
+    - nondeterministic_java_bytecode
 latrace:
   version: 0.5.11-1
   issues:
@@ -16588,6 +16600,10 @@ netty:
   version: 1:4.0.34-1
   comments: |
     Timestamps in io.netty.versions.properties files.
+netty-3.9:
+  version: 3.9.9.Final-1
+  issues:
+    - nondeterministic_java_bytecode
 netxx:
   version: 0.3.2-2
   bugs:
@@ -24008,6 +24024,10 @@ reiser4progs:
   version: 1.1.0-1.1
   issues:
     - captures_build_path
+relaxngcc:
+  version: 1.12-1
+  issues:
+    - nondeterministic_java_bytecode
 relimp:
   version: 1.0-5-2
   issues:
