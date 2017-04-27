@@ -124,7 +124,7 @@ blacklisted_on_jenkins_armhf_only:
     The migation against this is to add more architectures or to wait until 
     we test against the debian archive, when it's will become sensible to raise
     the 18h timeout for a single build.
-    Until his happens, please rely on the amd64 and i386 tests.
+    Until his happens, please rely on the amd64, i386 and arm64 tests.
 diffoscope_runs_forever:
   url: https://reproducible.debian.net/index_breakages.html
   description: |
