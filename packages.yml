@@ -14429,7 +14429,6 @@ littler:
     .
     However, I couldn't find the strings in question in the source package.
   issues:
-    - collation_order_varies_by_locale
     - captures_build_path
     - randomness_in_r_rdb_rds_databases
 live-f1:
@@ -22628,7 +22627,6 @@ r-cran-googlevis:
 r-cran-gridbase:
   version: 0.4-7-2
   issues:
-    - captures_home_dir
     - randomness_in_r_rdb_rds_databases
 r-cran-gridextra:
   version: 2.2.1-1
@@ -23276,7 +23274,6 @@ r-cran-readbrukerflexdata:
 r-cran-readmzxmldata:
   version: 2.8-1
   issues:
-    - timestamps_in_description_files_generated_by_r-base-dev
     - randomness_in_r_rdb_rds_databases
     - captures_build_path
   bugs:
@@ -23570,7 +23567,6 @@ r-cran-stringr:
 r-cran-surveillance:
   version: 1.10-0-2
   issues:
-    - different_encoding
     - captures_build_path
     - randomness_in_r_rdb_rds_databases
 r-cran-survey:
