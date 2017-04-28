@@ -115,10 +115,11 @@ achilles:
   issues:
     - captures_build_path
 acl2:
-  version: 7.1-1
+  version: 7.2dfsg-3
   comments: |
     Spawns a handful of saved_acl2 which eats the memory.
     Strangely it looks like the build ends fine in testing, but always fails in unstable
+    Update 2017-04-28: tried 7.2dfsg-3 on testing/amd64 and the first build was autokilled after 18h… (so blacklisted again)
   issues:
     - blacklisted_on_jenkins
 acmetool:
