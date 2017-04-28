@@ -4891,6 +4891,8 @@ eclipse-wtp:
     - timestamps_in_jar
     - blacklisted_on_jenkins_armhf_only
     - captures_build_path
+  comments: |
+    Blacklisted on armhf because a (single) build takes more than 18h…
 eclipselink:
   version: 2.5.1-4
   issues:
