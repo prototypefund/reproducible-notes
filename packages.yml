@@ -7542,6 +7542,10 @@ git-annex:
   version: 6.20160808-1
   issues:
     - ghc_captures_build_path_via_tempdir
+git-buildpackage:
+  version: 0.8.12.2
+  issues:
+    - randomness_in_documentation_generated_by_sphinx
 git-hub:
   version: 0.9.0-1
   comments: |
