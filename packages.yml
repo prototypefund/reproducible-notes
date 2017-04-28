@@ -2955,6 +2955,10 @@ codenarc:
   issues:
     - timestamps_in_documentation_generated_by_groovydoc
     - different_encoding
+codequery:
+  version: 0.18.1+dfsg1-1
+  issues:
+    - captures_build_path
 codesearch:
   version: 0.0~hg20120502-2
   issues:
@@ -7677,6 +7681,10 @@ glob2:
   issues:
     - timestamps_from_cpp_macros
     - scons_doesnt_pass_environment_to_build_tools
+    - captures_build_path
+global:
+  version: 6.5.6-2
+  issues:
     - captures_build_path
 globjects:
   version: 0.5.0-1
@@ -15483,6 +15491,10 @@ midori:
   version: 0.5.11-ds1-4
   issues:
     - captures_build_path
+milkytracker:
+  version: 0.90.86+dfsg-2
+  issues:
+    - captures_build_path
 milou:
   version: 4:5.4.3-1
   issues:
@@ -15817,6 +15829,10 @@ mondrian:
   issues:
     - timestamps_generated_by_eigenbase_resgen
     - different_encoding
+mongo-cxx-driver-legacy:
+  version: 1.1.2-5
+  issues:
+    - captures_build_path
 mongo-tools:
   version: 3.2.11-1
   issues:
@@ -28225,6 +28241,10 @@ unionfs-fuse:
     - captures_build_path
 unison:
   version: 2.48.3-1
+  issues:
+    - captures_build_path
+unittest++:
+  version: 1.4.0-3.1
   issues:
     - captures_build_path
 unixcw:
