@@ -3096,9 +3096,12 @@ commons-jci:
   issues:
     - random_order_in_documentation_generated_by_javadoc
 commons-math:
-  version: 2.2-5
+  version: 3.6.1-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
+    - blacklisted_on_jenkins_armhf_only
+  comments: |
+    First build on armhf ran into a timeout after 18h - thus blacklisted.
 commons-math3:
   version: 3.6.1-1
   issues:
