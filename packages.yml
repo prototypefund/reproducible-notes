@@ -29116,10 +29116,12 @@ wmwork:
   issues:
     - random_order_in_md5sums
 woo:
-  version: 1.0-1
+  version: 1.0+dfsg1-1
   issues:
     - blacklisted_on_jenkins_armhf_only
     - captures_build_path
+  comments: |
+    Blacklisted on armhf because it builds very long on much faster archs already.
 wordgrinder:
   version: 0.5.1-1
   comments: |
