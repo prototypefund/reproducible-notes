@@ -4368,7 +4368,7 @@ doc-debian:
   bugs:
     - 826544
 doc-linux-fr:
-  version: 2013.01-2
+  version: 2013.01-3
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
     - blacklisted_on_jenkins_armhf_only
@@ -4377,6 +4377,8 @@ doc-linux-fr:
     - timestamps_in_ps_generated_by_dvips
     - different_encoding
     - captures_build_path
+  comments: |
+    First build on armhf succeeded, but 2nd one was killed after 37h in total… thus blacklisted.
 docbook-defguide:
   version: 2.0.17+svn9912-1
   issues:
