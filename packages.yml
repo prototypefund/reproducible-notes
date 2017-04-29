@@ -277,9 +277,9 @@ afterstep:
   issues:
     - records_build_flags
 agda:
-  version: 2.4.2.5-1
-  issues:
-    - blacklisted_on_jenkins_armhf_only
+  version: 2.5.1.1-3
+  comments: |
+    Used to be blacklisted, but then ghc only runs into out-of-memory issues…
 ahcpd:
   version: 0.53-2
   issues:
