@@ -6054,6 +6054,10 @@ flex-old:
   version: 2.5.4a-10
   issues:
     - texi2html_captures_users_gecos
+flexbar:
+  version: 2.50-2
+  issues:
+    - captures_build_path
 flexml:
   version: 1.9.6-5
   issues:
@@ -14798,6 +14802,10 @@ lua50:
   version: 5.0.3-7
   issues:
     - captures_build_path
+luajit:
+  version: 2.0.4+dfsg-1
+  issues:
+    - captures_build_path
 luakit:
   version: 2012.09.13-r1-8
   issues:
@@ -16202,6 +16210,10 @@ multcomp:
   issues:
     - captures_build_path
     - randomness_in_r_rdb_rds_databases
+multiboot:
+  version: 0.6.96+20101113-1
+  issues:
+    - captures_build_path
 multimail:
   version: 0.49-2
   issues:
@@ -16279,6 +16291,10 @@ musescore:
   version: 2.0.3+dfsg1-2
   issues:
     - build_id_variation_requiring_further_investigation
+    - captures_build_path
+musl:
+  version: 1.1.16-3
+  issues:
     - captures_build_path
 mutrace:
   version: 0.2.0-3
@@ -19102,6 +19118,10 @@ php-crypt-gpg:
   version: 1.4.1-1
   bugs:
     - 835592
+php-facedetect:
+  version: 1.1.0+git20160406-2
+  issues:
+    - captures_build_path
 php-finder-facade:
   version: 1.2.0-1
   comments: |
@@ -30019,6 +30039,10 @@ zfec:
     - captures_build_path
 zfs-fuse:
   version: 0.7.0-13.1
+  issues:
+    - captures_build_path
+zimpl:
+  version: 3.3.2-1
   issues:
     - captures_build_path
 zivot:
