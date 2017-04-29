@@ -4834,9 +4834,10 @@ ecl:
     - user_hostname_manually_added_requiring_further_investigation
     - captures_kernel_version
 eclipse:
-  version: 3.8.1-8
+  version: 3.8.1-10
   comments: |
     Also embeds kernel version and has timestamps in properties files.
+    First build on armhf ran into a timeout after 18h - thus blacklisted.
   issues:
     - timestamps_in_jar
     - blacklisted_on_jenkins_armhf_only
