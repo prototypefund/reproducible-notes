@@ -4458,6 +4458,10 @@ dolphin-emu:
   version: 5.0+dfsg-1
   issues:
     - captures_build_path
+dom4j:
+  version: 1.6.1+dfsg.3-2
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 doomsday:
   version: 1.15.8-3
   bugs:
@@ -5800,6 +5804,10 @@ ferret-vis:
   issues:
     - captures_build_path
     - too_much_input_for_diff
+fest-assert:
+  version: 2.0~M10-1
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 fest-reflect:
   version: 1.4.1-2
   issues:
@@ -9269,6 +9277,10 @@ herwig++:
     - records_build_flags
   bugs:
     - 813383
+hessian:
+  version: 4.0.38-2
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 hex-a-hop:
   version: 0.0.20070315-8
   issues:
