@@ -7702,6 +7702,10 @@ glimpse:
   version: 4.18.7-3
   issues:
     - captures_build_path
+glipper:
+  version: 2.4-6
+  comments: |
+    Perhaps a similar issue to python-support where it does not copy the file due to mtimes?
 glob2:
   version: 0.9.4.4-2.3
   issues:
