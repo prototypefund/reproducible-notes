@@ -1271,6 +1271,10 @@ axiom:
     - timestamps_in_dvi_generated_by_latex
     - blacklisted_on_jenkins_armhf_only
     - diffoscope_runs_forever
+axis:
+  version: 1.4-25
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 axmlrpc:
   version: 1.9.0-2
   issues:
