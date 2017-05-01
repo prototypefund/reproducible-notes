@@ -7036,7 +7036,6 @@ garcon:
 gauche:
   version: 0.9.4-6
   issues:
-    - blacklisted_on_jenkins_armhf_only
     - records_build_flags
 gauche-c-wrapper:
   version: 0.6.1-7
@@ -7061,9 +7060,7 @@ gavl:
 gazebo:
   version: 6.5.0+dfsg-2
   issues:
-    - blacklisted_on_jenkins_armhf_only
     - captures_build_path
-    - diffoscope_runs_forever
 gb:
   version: 0.4.2-1
   issues:
@@ -8047,10 +8044,6 @@ gnuplot-mode:
   version: 1:0.7.0-1
   issues:
     - random_id_in_pdf_generated_by_dblatex
-gnuradio:
-  version: 3.7.10.1-1
-  issues:
-    - diffoscope_runs_forever
 gnustep-back:
   version: 0.25.0-2
   issues:
@@ -8162,10 +8155,6 @@ golang-git2go:
   version: 0.0~git20150731.0.ed62fda-1
   bugs:
     - 799454
-golang-github-abh-geoip-dev:
-  version: 0.0~git20150611-2
-  issues:
-    - blacklisted_on_jenkins_armhf_only
 golang-github-appc-docker2aci:
   version: 0.9.2-2
   issues:
