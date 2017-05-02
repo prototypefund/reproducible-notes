@@ -9131,10 +9131,6 @@ hardinfo:
     - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 833379
-haskell-cabal:
-  version: 1.22.5.0-2
-  issues:
-    - blacklisted_on_jenkins_armhf_only
 haskell-cryptol:
   version: 2.4.0-2
   bugs:
@@ -9573,7 +9569,6 @@ ibus-table-others:
 icedove:
   version: 38.5.0-1
   issues:
-    - blacklisted_on_jenkins_armhf_only
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
     - captures_build_path
 icedtea-web:
@@ -10674,7 +10669,6 @@ k3d:
   version: 0.8.0.3-7
   issues:
     - timestamps_from_cpp_macros
-    - blacklisted_on_jenkins_armhf_only
     - captures_build_path
     - captures_kernel_version
 kaa-base:
@@ -15147,9 +15141,8 @@ mapivi:
   bugs:
     - 796376
 mapnik:
-  version: 3.0.9+ds-1
+  version: 3.0.12+ds-3
   issues:
-    - blacklisted_on_jenkins_armhf_only
     - records_build_flags
     - random_order_in_static_libraries
 mapsembler2:
