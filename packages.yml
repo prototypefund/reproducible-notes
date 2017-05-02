@@ -289,6 +289,13 @@ ahven:
   issues:
     - timestamps_in_ada_library_information_files
     - captures_build_path
+aircrack-ng:
+  version: 1:1.2.0~rc4-2
+  comments: |
+    Build path captured via debug symbobls of a .S (assembly source) file.
+  issues:
+    - captures_build_path
+    - max_output_size_reached
 airspy-host:
   version: 0.9-1
   issues:
@@ -8808,6 +8815,24 @@ gscanbus:
   version: 0.8-2
   issues:
     - captures_build_path
+gsequencer:
+  version: 0.7.122-2
+  comments: |
+    One difference:
+    .
+    ├── ./usr/share/doc/libags-audio-doc/html/htmlhelp.hhp
+    │ │ │ │ @@ -4,19 +4,19 @@
+    │ │ │ │ -Title=Advanced Gtk+ Sequencer???TITLE???
+    │ │ │ │ +Title=Advanced Gtk+ Sequencer
+    │ │ │ │  Enhanced decompilation=No
+    │ │ │ │
+    │ │ │ │  [WINDOWS]
+    │ │ │ │ -Main="Advanced Gtk+ Sequencer???TITLE???","toc.hhc",,"index.html","index.html",,,,,0x2520,,0x603006,,,,,,,,0
+    │ │ │ │ +Main="Advanced Gtk+ Sequencer","toc.hhc",,"index.html","index.html",,,,,0x2520,,0x603006,,,,,,,,0
+    .
+    The cause is probably in the docbook-to-htmlhelp conversion chain, but
+    couldn't track down where exactly: the only occurrence of "Enhanced
+    decompilation" in the archive is in scilab.
 gsmlib:
   version: 1.10+20120414.gita5e5ae9a-0.3
   bugs:
@@ -11639,6 +11664,10 @@ kunitconversion:
   version: 5.28.0-1
   issues:
     - captures_build_path
+kup-backup:
+  version: 0.6.1+dfsg-1
+  issues:
+    - build_id_differences_only
 kuser:
   version: 4:15.12.0-3
   issues:
@@ -27865,6 +27894,22 @@ tulip:
   version: 4.8.0dfsg-2
   issues:
     - captures_build_path
+tumiki-fighters:
+  version: 0.2.dfsg1-8
+  comments: |
+    The order of two DW_TAG_label items (debug symbols for C ^H^H^H D labels, I believe) differs between the two builds.
+    .
+    Current status:
+      amd64 sid: unreproducible
+      armhf sid: unreproducible
+      amd64 stretch: reproducible
+      armhf stretch: reproducible
+      i386 *: reproducible
+      arm64 *: depwait
+    .
+    Given that all stretch builds pass, this might be specific to sid or to the
+    build path variation.  On the other hand, the failure might be purely random,
+    and the fact that all three stretch builds passed is due to pure chance (12.5%).
 tunnelx:
   version: 20160713-3
   bugs:
