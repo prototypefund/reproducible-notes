@@ -28854,9 +28854,9 @@ webissues:
   issues:
     - captures_build_path
 webkit2gtk:
-  version: 2.8.5+dfsg1-2
+  version: 2.14.6-1
   comments: |
-    Lunar thinks we need parallel processing implemented in diffoscope before it can deal with such big packages. (At that time the artifacts dumped were 18GB, today they are only 2*2GB.)
+    Lunar thinks we need parallel processing implemented in diffoscope before it can deal with such big packages. (At that time the artifacts dumped were 18GB, today (2017-01-15) they are only 2*2GB.)
   issues:
     - blacklisted_on_jenkins
 webkit2pdf:
