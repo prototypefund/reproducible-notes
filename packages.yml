@@ -7156,6 +7156,11 @@ gcc-6-cross-ports:
   version: 8
   issues:
     - diffoscope_runs_forever
+gcc-7:
+  version: 7-20170407-1
+  issues:
+    - blacklisted_on_jenkins_armhf_only
+    - diffoscope_runs_forever
 gcc-arm-none-eabi:
   version: 15:4.9.3+svn231177-1
   issues:
