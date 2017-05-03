@@ -5040,7 +5040,7 @@ elektra:
   comments: |
     blacklisted on arm64 and armhf as it creates a huge (100 GB) temp file, see https://bugs.debian.org/851592
   issues:
-    - blacklisted_on_jenkins_armhf_only
+    - blacklisted_on_jenkins
     - captures_build_path
     - different_encoding
     - records_build_flags
@@ -14903,10 +14903,6 @@ lucene-solr:
     - timestamps_in_jar
     - blacklisted_on_jenkins_armhf_only
     - user_in_java_jar_manifest
-lucene2:
-  version: 2.9.4+ds1-4
-  issues:
-    - blacklisted_on_jenkins_armhf_only
 lucene4.10:
   version: 4.10.4+dfsg-1
   issues:
@@ -15526,9 +15522,8 @@ mhwaveedit:
   issues:
     - captures_build_path
 mia:
-  version: 2.2.7-3
+  version: 2.4.3-5
   issues:
-    - blacklisted_on_jenkins_armhf_only
     - diffoscope_runs_forever
 micro-proxy:
   version: 20021030+debian-5
