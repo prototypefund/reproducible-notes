@@ -5660,6 +5660,8 @@ fbreader:
   comments: |
     Filenames in debug symbols are differently ordered.
     Probably readdir() order via https://sources.debian.net/src/fbreader/0.12.10dfsg2-2/fbreader/Makefile/#L24
+  bugs:
+    - 861770
 fceux:
   version: 2.2.2+dfsg0-1
   comments: |
