@@ -14903,6 +14903,10 @@ lucene-solr:
     - timestamps_in_jar
     - blacklisted_on_jenkins_armhf_only
     - user_in_java_jar_manifest
+lucene2:
+  version: 2.9.4+ds1-6
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 lucene4.10:
   version: 4.10.4+dfsg-1
   issues:
