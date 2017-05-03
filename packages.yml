@@ -1250,10 +1250,9 @@ avrdude:
   issues:
     - pdf_id_varying_due_to_build_path
 awesome:
-  version: 3.5.9-1
-  comments: |
-    Embeds build user and hostname:
-    https://sources.debian.net/src/awesome/3.5.9-1/common/version.c/?hl=56#L56
+  version: 4.0-1
+  issues:
+    - captures_build_path
 aws-sdk-for-php:
   version: 0.93-4
   comments: |
