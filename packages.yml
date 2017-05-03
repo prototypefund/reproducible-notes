@@ -7154,7 +7154,7 @@ gcc-5-cross-ports:
 gcc-6:
   version: 6.1.1-3
   issues:
-    - blacklisted_on_jenkins_armhf_only
+    - blacklisted_on_jenkins
     - diffoscope_runs_forever
 gcc-6-cross:
   version: 12
