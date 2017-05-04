@@ -2175,10 +2175,6 @@ cadaver:
   version: 0.23.3-2
   issues:
     - captures_build_path
-cadvisor:
-  version: 0.19.3+dfsg-3
-  issues:
-    - diffoscope_runs_forever
 cafeobj:
   version: 1.5.2-2
   issues:
@@ -3609,11 +3605,6 @@ cyclades-serial-client:
     https://sources.debian.net/src/cyclades-serial-client/0.92/cyclades-ser-cli.c/?hl=46#L46
   bugs:
     - 860972
-cylc:
-  version: 6.11.2-2
-  comments: |
-    Uses the part of the path after the program name as the version number.
-    https://sources.debian.net/src/cylc/6.11.2-2/admin/create-version-file/
 cyrus-imapd:
   version: 2.5.9-2
   comments: |
@@ -10079,10 +10070,6 @@ italc:
   version: 1:2.0.2+dfsg1-4
   issues:
     - build_id_differences_only
-itksnap:
-  version: 2.2.0-1.1
-  issues:
-    - diffoscope_runs_forever
 itools:
   version: 1.0-5
   issues:
