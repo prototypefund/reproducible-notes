@@ -2179,8 +2179,6 @@ cadvisor:
   version: 0.19.3+dfsg-3
   issues:
     - diffoscope_runs_forever
-  bugs:
-    - 846705
 cafeobj:
   version: 1.5.2-2
   issues:
@@ -2746,10 +2744,6 @@ cinnamon-desktop:
   version: 3.2.4-4
   issues:
     - nondeterminstic_ordering_in_gsettings_glib_enums_xml
-ciphersaber:
-  version: 1.01-2
-  bugs:
-    - 848015
 citadel:
   version: 902-3
   issues:
@@ -3620,8 +3614,6 @@ cylc:
   comments: |
     Uses the part of the path after the program name as the version number.
     https://sources.debian.net/src/cylc/6.11.2-2/admin/create-version-file/
-  bugs:
-    - 857313
 cyrus-imapd:
   version: 2.5.9-2
   comments: |
@@ -4818,10 +4810,6 @@ e2tools:
   version: 0.0.16-6.1
   issues:
     - captures_build_path
-eancheck:
-  version: 1.0-1.1
-  bugs:
-    - 830462
 easymock:
   version: 3.4+ds-1
   issues:
@@ -5069,8 +5057,6 @@ elementtidy:
   version: 1.0-8
   issues:
     - captures_build_path
-  bugs:
-    - 828880
 elida:
   version: 0.4+nmu1
   issues:
@@ -6526,7 +6512,6 @@ fpc:
 fped:
   version: 0.1+201210-1
   bugs:
-    - 846426
     - 848773
 fpgatools:
   version: 0.0+201212-1
@@ -8600,10 +8585,6 @@ gpsshogi:
   version: 0.7.0-1
   bugs:
     - 848345
-gpt:
-  version: 1.1-2
-  bugs:
-    - 791524
 gputils:
   version: 1.4.0-0.1
   issues:
@@ -10102,8 +10083,6 @@ itksnap:
   version: 2.2.0-1.1
   issues:
     - diffoscope_runs_forever
-  bugs:
-    - 789931
 itools:
   version: 1.0-5
   issues:
@@ -14714,10 +14693,6 @@ lnpd:
   version: 0.9.0-11
   issues:
     - captures_build_path
-localechooser:
-  version: 2.66
-  bugs:
-    - 714350
 lockfile-progs:
   version: 0.1.17
   issues:
@@ -21381,10 +21356,6 @@ python-traits:
   version: 4.6.0-1
   bugs:
     - 846771
-python-tz:
-  version: 2016.7-0.2
-  bugs:
-    - 858133
 python-utmp:
   version: 0.8.2
   issues:
