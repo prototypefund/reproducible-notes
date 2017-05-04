@@ -20096,10 +20096,9 @@ psi-plus:
     - captures_build_path
     - too_much_input_for_diff
 psi4:
-  version: 4.0~beta5+dfsg-2
+  version: 1:1.0-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
-    - blacklisted_on_jenkins_armhf_only
     - diffoscope_runs_forever
 psicode:
   version: 3.4.0-6
