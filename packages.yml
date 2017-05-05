@@ -25733,6 +25733,8 @@ shim:
     2) There are probably additional issues.  Some of the other differences
     would be fallout of the above (e.g., checksums), but the signature itself
     is probably random.
+    .
+    Provisional patch here: https://gist.github.com/lamby/543afd9420d9d740d1320d77faf8c4fc/raw
   issues:
     - cryptographic_signature
     - max_output_size_reached
