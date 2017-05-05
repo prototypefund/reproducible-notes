@@ -17660,7 +17660,6 @@ ocamlviz:
 oce:
   version: 0.17.1-1
   issues:
-    - blacklisted_on_jenkins_armhf_only
     - captures_build_path
 oclgrind:
   version: 15.5-1
@@ -20559,10 +20558,6 @@ pysdl2:
   version: 0.9.3+dfsg2-1
   bugs:
     - 792197
-pyside:
-  version: 1.2.2-1
-  issues:
-    - blacklisted_on_jenkins_armhf_only
 pyside-tools:
   version: 0.2.15-1
   issues:
@@ -20624,7 +20619,6 @@ python-astropy:
     it would be nice to revert that now. BTW, the build-dep is not really needed.
     See also https://bugs.debian.org/791574#61
   issues:
-    - blacklisted_on_jenkins_armhf_only
     - cython_captures_build_path
 python-asyncssh:
   version: 1.2.0-1
