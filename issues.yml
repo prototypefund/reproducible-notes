@@ -409,11 +409,6 @@ timestamps_in_ruby_documentation:
     Ruby's documentation generator outputs a file called "created.rid", which contains
     the time the documentation was generated.
   deterministic: True
-fileorder_in_gemspec_files_list:
-  status:
-    done
-  description:
-    File lists in Ruby .gemspec files are unsorted.
 timestamps_in_documentation_generated_by_sphinx:
   description: |
     "Last updated," etc.
