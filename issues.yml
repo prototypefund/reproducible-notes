@@ -878,13 +878,6 @@ texinfo_mdate_sh_varies_by_timezone:
     If you use version.texi, mdate-sh will output a TZ-sensitive updated date.
     http://www.delorie.com/gnu/docs/automake/automake_81.html
   deterministic: True
-random_order_in_dh_pythonX_substvars:
-  status:
-    done
-  description:
-    dh_pythonX can generate Depends/Recommends substvars in a
-    non-determinstic order. (dh-python is already patched.)
-  url: https://bugs.debian.org/844111
 random_order_in_javahelper_substvars:
   description:
     javahelper (jh_*, etc.) can generate Depends/Recommends substvars in a
