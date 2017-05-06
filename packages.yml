@@ -254,7 +254,6 @@ aewm++-goodies:
 affiche:
   version: 0.6.0-8
   issues:
-    - plist_weirdness
     - captures_build_path
 afl:
   version: 2.34b-2
@@ -9063,8 +9062,6 @@ gwenview:
     - build_id_differences_only
 gworkspace:
   version: 0.9.2-1
-  issues:
-    - plist_weirdness
 gxmessage:
   version: 3.4.3-1
   issues:
@@ -18548,8 +18545,6 @@ pandoc:
     Includes a buildinfo_ARCH.gz (NB. nothing to do with .buildinfo) that has some missing contents on our b build. Cannot reproduce locally and its not a file that really wants stripping IFAICT as lots of other packages include them.
 pantomime1.2:
   version: 1.2.2~r289+dfsg-2
-  issues:
-    - plist_weirdness
 paps:
   version: 0.6.8-7
   issues:
@@ -19648,8 +19643,6 @@ poppler-sharp:
     Unidentified variation in Mono executable.
 popplerkit.framework:
   version: 0.0.20051227svn-7.1
-  issues:
-    - plist_weirdness
 popt:
   version: 1.16-10
   issues:
