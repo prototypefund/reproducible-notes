@@ -1499,13 +1499,6 @@ captures_build_path_in_python_sugar3_symlinks:
     Packages that use python-sugar3 will generate broken symlinks that capture
     the build path.
   url: https://bugs.debian.org/860418
-nondeterministic_ordering_in_desktop_files_by_python_sugar3:
-  status:
-    done
-  description: |
-    Packages that use python-sugar3 will generate unreproducible desktop files
-    because translation files to generate it are taken without sorting.
-  url: https://bugs.debian.org/848633
 disorderfs_sensitive:
   description: |
     Build output depends on readdir() order.
