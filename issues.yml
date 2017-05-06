@@ -1049,13 +1049,6 @@ timestamps_in_edj_files_generated_by_edje_cc:
   description:
     /usr/bin/edje_cc from libedje-bin writes timestamps.
   deterministic: True
-random_order_in_init_py_generated_by_python-genpy:
-  status:
-    done
-  description:
-    python-genpy generates __init__.py with import statements in a
-    non-deterministic (filesystem) order.
-  url: https://bugs.debian.org/808032
 timestamps_in_copyright_added_by_perl_dist_zilla:
   description:
     distzilla adds "Copyright $current_year" to .pm files
