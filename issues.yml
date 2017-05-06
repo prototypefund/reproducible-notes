@@ -315,6 +315,8 @@ timestamps_in_pdf_generated_by_latex:
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInPDFGeneratedByLaTeX
   deterministic: True
 timestamps_in_pdf_generated_by_reportlab:
+  status:
+    done
   description: |
     PDF files generated with python-reportlab will contain CreationDate and
     ModDate set to the current date and time.
