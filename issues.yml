@@ -1362,13 +1362,6 @@ texi2html_captures_users_gecos:
   description:
     Difference in the "This documented was generated on/by" line, documented in the notes of the 'texi2html' package.
     Sub-issue of captures_users_gecos
-varnish_vmodtool_random_file_id:
-  status:
-    done
-  description: |
-    Modules contain a random `file_id`:
-    https://sources.debian.net/src/varnish/4.0.2-1/lib/libvcc/vmodtool.py/?hl=237:244#L237
-    Should discuss with upstream on replacing this with a constant hash.
 gpg_keyring_magic_bytes_differ:
   status:
     done

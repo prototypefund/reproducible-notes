@@ -27842,7 +27842,6 @@ varnish:
   version: 4.0.2-1
   issues:
     - captures_build_path
-    - varnish_vmodtool_random_file_id
 varnish-agent:
   version: 2.2~git20130708-1
   bugs:
@@ -27850,8 +27849,6 @@ varnish-agent:
     - 725597
 varnish-modules:
   version: 0.9.1-3
-  issues:
-    - varnish_vmodtool_random_file_id
 vboot-utils:
   version: 0~R52-8350.B-1
   issues:
