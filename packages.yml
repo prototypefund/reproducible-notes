@@ -20279,8 +20279,8 @@ pycangjie:
     - captures_build_path
 pycode-browser:
   version: 1:1.0-2
-  comments: |
-    Seems to be a problem with epstopdf
+  issues:
+    - images_in_pdf_generated_by_latex
 pycorrfit:
   version: 0.8.3-2
   issues:
