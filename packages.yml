@@ -1385,8 +1385,6 @@ barada-pam:
     - captures_build_path
 barbican:
   version: 1:3.0.0-2
-  bugs:
-    - 858540
 bareftp:
   version: 0.3.9-3
   issues:
@@ -4098,8 +4096,6 @@ derivations:
     - timestamps_in_ps_generated_by_dvips
 designate:
   version: 1:3.0.0-2
-  bugs:
-    - 858540
 desklaunch:
   version: 1.1.8
   issues:
@@ -7642,8 +7638,6 @@ gkrelltop:
     - captures_build_path
 glare:
   version: 0.1.0-3
-  bugs:
-    - 858540
 glaurung:
   version: 2.2-2
   issues:
@@ -11078,8 +11072,6 @@ keysafe:
     - build_id_differences_only
 keystone:
   version: 2:10.0.0-7
-  bugs:
-    - 858540
 keytouch-editor:
   version: 1:3.2.0~beta-3
   issues:
@@ -16768,8 +16760,6 @@ neutron:
     - 859194
 neutron-fwaas:
   version: 1:9.0.0-3
-  bugs:
-    - 858540
 neutron-lbaas:
   version: 1:8.0.0-3
   comments: |
@@ -28879,8 +28869,8 @@ warzone2100:
     - captures_build_path
 watcher:
   version: 0.30.0-4
-  bugs:
-    - 858540
+  comment: |
+     Test fail due to timezone use by package 'apscheduler'
 wav2cdr:
   version: 2.3.4-1
   issues:
