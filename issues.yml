@@ -1499,11 +1499,6 @@ captures_build_path_in_python_sugar3_symlinks:
     Packages that use python-sugar3 will generate broken symlinks that capture
     the build path.
   url: https://bugs.debian.org/860418
-disorderfs_sensitive:
-  description: |
-    Build output depends on readdir() order.
-    .
-    Interesting because they could be fixed by fixing these things at build time.
 translations_missing_in_desktop_files:
   description: |
     A file contains a list of «Name[xx] = "String"» lines, where «xx» is a language code;
