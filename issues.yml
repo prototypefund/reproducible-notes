@@ -986,6 +986,10 @@ timestamps_added_by_blast2:
   deterministic: True
 randomness_in_r_rdb_rds_databases:
   description: |
+    This issue seems to be fixed in the reproducible builds apt repository. 
+    Assuming the non-standard branch of r-base is applied, this tag should
+    no longer indicate that the software will fail to build in a reproducible
+    manner.
     R creates .rdb files and .rds with some randomness. They are a serialisation of some
     sorts, related to lazy loading of modules?
     Randomness seems to come from using absolute paths in .rd[bs] files.
