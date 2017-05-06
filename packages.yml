@@ -1694,9 +1694,6 @@ bisonc++:
     icmconf:13:#define SOURCES             "*.cc"
     icmconf:25:#define PARSFILES           "inc/*"
     .
-    This may be a slightly different issue to random_order_in_static_library_by_icmake.
-  issues:
-    - random_order_in_static_library_by_icmake
 bist:
   version: 0.5.2-1.1
   issues:
@@ -8492,8 +8489,6 @@ gpac:
     - records_build_flags
 gpg-remailer:
   version: 3.02.00-1
-  issues:
-    - random_order_in_static_library_by_icmake
 gpgme1.0:
   version: 1.7.0-5
   comments: |
@@ -9053,8 +9048,6 @@ guiqwt:
     - captures_build_path
 guncat:
   version: 1.01.02-1
-  issues:
-    - random_order_in_static_library_by_icmake
 gupnp-igd:
   version: 0.2.4-1
   issues:
@@ -16519,8 +16512,6 @@ natbraille:
     - 859957
 natlog:
   version: 1.02.03-1
-  issues:
-    - random_order_in_static_library_by_icmake
 nautilus-image-converter:
   version: 0.3.1~git20110416-1
   issues:
@@ -18438,8 +18429,6 @@ owx:
     - captures_build_path
 oxref:
   version: 1.00.06-1
-  issues:
-    - random_order_in_static_library_by_icmake
 oxygen:
   version: 4:5.4.3-1
   issues:
@@ -26504,8 +26493,6 @@ ssh-contact:
     - captures_build_path
 ssh-cron:
   version: 1.01.00-1
-  issues:
-    - random_order_in_static_library_by_icmake
 sslh:
   version: 1.18-1
   bugs:
@@ -29358,8 +29345,6 @@ xcolmix:
     - captures_build_path
 xd:
   version: 3.25.00-1
-  issues:
-    - random_order_in_static_library_by_icmake
 xdebug:
   version: 2.4.1-1
   issues:
