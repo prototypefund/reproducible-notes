@@ -1397,14 +1397,6 @@ clilibs_line_order:
     [armhf/i386 only, so may be disorderfs related]
     Line order in 'clilibs' differs, in cli/mono packages.
   url: https://bugs.debian.org/851809
-dict_ordering_in_python_alabaster_sphinx_theme_extra_nav_links:
-  status:
-    done
-  description:
-    Python dict ordering in extra_nav_links.
-    Sphinx has patched this issue, despite it still happening in alabaster.  
-    So not an issue.
-  url: https://bugs.debian.org/839633
 pdf_id_varying_due_to_build_path:
   description: |
     The PDF /ID is generated based on timestamps (which are now deterministic) and the path of the source file.
