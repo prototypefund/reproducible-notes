@@ -1401,13 +1401,6 @@ pdf_id_varying_due_to_build_path:
   description: |
     The PDF /ID is generated based on timestamps (which are now deterministic) and the path of the source file.
     texlive needs to be fixed to strip the build path prefix while generating the ID.
-ghc_captures_build_path_via_tempdir:
-  status:
-    done
-  description: |
-    A filename of the form "/tmp/ghcXXXX_0" is embedded into the binaries.
-    .
-    This seems to affect unstable but not testing, so probably related to captures_build_path.
 build_id_differences_only:
   description: |
     The Build ID differs, but there are no other differences.

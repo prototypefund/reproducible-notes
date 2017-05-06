@@ -7507,8 +7507,6 @@ git:
     docbook-to-man. The gzip headers are trivial.
 git-annex:
   version: 6.20160808-1
-  issues:
-    - ghc_captures_build_path_via_tempdir
 git-buildpackage:
   version: 0.8.12.2
   issues:
@@ -7535,7 +7533,6 @@ gitano:
 github-backup:
   version: 1.20160522-1
   issues:
-    - ghc_captures_build_path_via_tempdir
     - too_much_input_for_diff
 gitlab-ci-multi-runner:
   version: 1.4.2+dfsg-1
