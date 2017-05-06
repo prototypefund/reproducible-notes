@@ -21512,10 +21512,6 @@ qdbm:
   issues:
     - timestamps_in_jar
     - captures_build_path
-qdox:
-  version: 1.12.1-1
-  issues:
-    - blacklisted_on_jenkins_armhf_only
 qdox2:
   version: 2.0~M3-2
   comments: |
@@ -21849,7 +21845,6 @@ qtwebkit-examples-opensource-src:
 qtwebkit-opensource-src:
   version: 5.4.2+dfsg-3
   issues:
-    - blacklisted_on_jenkins_armhf_only
     - captures_build_path
 qtwebsockets-opensource-src:
   version: 5.3.2-5
@@ -24711,10 +24706,6 @@ ruby-eb:
   version: 2.6-3
   issues:
     - captures_build_path
-ruby-em-http-request:
-  version: 1.1.2-2
-  issues:
-    - blacklisted_on_jenkins_armhf_only
 ruby-escape-utils:
   version: 1.1.0-1
   issues:
@@ -24890,7 +24881,6 @@ ruby-multimap:
 ruby-mysql2:
   version: 0.3.18-1
   issues:
-    - blacklisted_on_jenkins_armhf_only
     - captures_build_path
 ruby-narray:
   version: 0.6.1.1-2
@@ -25070,10 +25060,6 @@ ruby-standalone:
     Embeds the build date into manpage.
   issues:
     - timestamps_in_documentation_generated_by_pandoc
-ruby-state-machines:
-  version: 0.4.0-2
-  issues:
-    - blacklisted_on_jenkins_armhf_only
 ruby-termios:
   version: 1.0.0-1
   issues:
@@ -25640,7 +25626,6 @@ sexplib310:
 sfcgal:
   version: 1.2.2-1
   issues:
-    - blacklisted_on_jenkins_armhf_only
     - diffoscope_runs_forever
     - captures_build_path
 sfepy:
@@ -25889,10 +25874,6 @@ sisc:
   version: 1.16.6-1.1
   issues:
     - timestamps_in_jar
-sisu-maven-plugin:
-  version: 1.1-1
-  issues:
-    - blacklisted_on_jenkins_armhf_only
 sitemesh:
   version: 2.4.1+dfsg-5
   issues:
