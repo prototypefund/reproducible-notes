@@ -1362,11 +1362,6 @@ texi2html_captures_users_gecos:
   description:
     Difference in the "This documented was generated on/by" line, documented in the notes of the 'texi2html' package.
     Sub-issue of captures_users_gecos
-gpg_keyring_magic_bytes_differ:
-  status:
-    done
-  description: |
-    Differences near the start and end of a GPG keyring, on lines 2, 8, -2, and -1 of the hexdump.
 timestamps_in_org_mode_html_output:
   description: |
     emacs' org-mode can convert .org to .html on the command line, eg

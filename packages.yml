@@ -3977,8 +3977,6 @@ debian-ports-archive-keyring:
   version: 2016.02.01
   comments: |
     debian-ports-archive-keyring-removed.gpg has more differences than those covered by the 'gpg_keyring_magic_bytes_differ' issue.
-  issues:
-    - gpg_keyring_magic_bytes_differ
 debian-reference:
   version: 2.58
   issues:
@@ -5074,8 +5072,6 @@ emboss:
     - records_build_flags
 emdebian-archive-keyring:
   version: 2.0.5
-  issues:
-    - gpg_keyring_magic_bytes_differ
 emma-coverage:
   version: 2.0.5312+dfsg-4
   issues:
