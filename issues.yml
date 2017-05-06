@@ -985,6 +985,8 @@ timestamps_added_by_blast2:
     formatdb from blast2 adds a timestamp.
   deterministic: True
 randomness_in_r_rdb_rds_databases:
+  status:
+    done
   description: |
     This issue seems to be fixed in the reproducible builds apt repository. 
     Assuming the non-standard branch of r-base is applied, this tag should
