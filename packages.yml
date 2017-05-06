@@ -43,8 +43,6 @@ abci:
     - golang_compiler_captures_build_path_in_binary
 abcm2ps:
   version: 7.8.9-1
-  issues:
-    - docbook_to_man_one_byte_delta
   bugs:
     - 788748
 abgate:
@@ -128,8 +126,6 @@ acmetool:
     - golang_compiler_captures_build_path_in_binary
 aconnectgui:
   version: 0.9.0rc2-1-9
-  issues:
-    - docbook_to_man_one_byte_delta
 acpitool:
   version: 0.5.1-4
   issues:
@@ -772,8 +768,6 @@ apt-dpkg-ref:
     - random_id_in_pdf_generated_by_dblatex
 apt-listchanges:
   version: 3.5
-  issues:
-    - docbook_to_man_one_byte_delta
 apt-spy:
   version: 3.2.2-1
   issues:
@@ -1817,8 +1811,6 @@ blueman:
     - captures_build_path
 bluemon:
   version: 1.4-6.1
-  issues:
-    - docbook_to_man_one_byte_delta
 bluez-qt:
   version: 5.25.0-1
   issues:
@@ -3152,8 +3144,6 @@ conky:
     - captures_build_path
 connect-proxy:
   version: 1.101-1
-  issues:
-    - docbook_to_man_one_byte_delta
 connectome-workbench:
   version: 1.2.3-1
   issues:
@@ -3166,8 +3156,6 @@ consensuscore:
     - too_much_input_for_diff
 console-common:
   version: 0.7.89
-  issues:
-    - docbook_to_man_one_byte_delta
 console-data:
   version: 2:1.12-5
   bugs:
@@ -3372,8 +3360,6 @@ crmsh:
     https://sources.debian.net/src/crmsh/2.2.1-1/doc/website-v1/make-news.py/?hl=89#L69
 cron-apt:
   version: 0.9.6
-  issues:
-    - docbook_to_man_one_byte_delta
 cronie:
   version: 1.4.81~exp1
   comments: |
@@ -4326,8 +4312,6 @@ dmucs:
     - 839647
 dns-browse:
   version: 1.9-8
-  issues:
-    - docbook_to_man_one_byte_delta
 dns2tcp:
   version: 0.5.2-1.1
   issues:
@@ -4707,8 +4691,6 @@ dvbstreamer:
     - captures_build_path
 dvbtune:
   version: 0.5.ds-1.1
-  issues:
-    - docbook_to_man_one_byte_delta
 dvdauthor:
   version: 0.7.0-1.4
   bugs:
@@ -5123,8 +5105,6 @@ enigma:
     - 811826
 ensymble:
   version: 0.29-1
-  issues:
-    - docbook_to_man_one_byte_delta
 ent:
   version: 1.2debian-1
   issues:
@@ -5557,8 +5537,6 @@ fastjet:
     - records_build_flags
 fatresize:
   version: 1.0.2-9
-  issues:
-    - docbook_to_man_one_byte_delta
 fauhdlc:
   version: 20130704-1.1
   issues:
@@ -6789,8 +6767,6 @@ g2clib:
     - 860277
 g3data:
   version: 1:1.5.3-2.1
-  issues:
-    - docbook_to_man_one_byte_delta
 gadfly:
   version: 1.0.0-16
   issues:
@@ -7859,8 +7835,6 @@ gnome-subtitles:
     - captures_build_path
 gnome-system-monitor:
   version: 3.22.0-1
-  issues:
-    - docbook_to_man_one_byte_delta
 gnome-twitch:
   version: 0.3.0-2
   issues:
@@ -8393,8 +8367,6 @@ golint:
     - golang_compiler_captures_build_path_in_binary
 goobox:
   version: 3.4.2-1
-  issues:
-    - docbook_to_man_one_byte_delta
 google-cloud-print-connector:
   version: 0.0~git20151105.24.1902938-1
   issues:
@@ -9257,8 +9229,6 @@ hexter:
     - captures_build_path
 hfsplus:
   version: 1.0.4-15
-  issues:
-    - docbook_to_man_one_byte_delta
 hfst:
   version: 3.10.0~r2798-2
   issues:
@@ -10029,8 +9999,6 @@ iwyu:
     - captures_build_path
 jaaa:
   version: 0.8.4-2
-  issues:
-    - docbook_to_man_one_byte_delta
 jabref:
   version: 3.6+ds-1
   issues:
@@ -15582,8 +15550,6 @@ mixmaster:
     - captures_build_path
 mixxx:
   version: 2.0.0~dfsg-7
-  issues:
-    - docbook_to_man_one_byte_delta
 mknfonts.tool:
   version: 0.5-11
   issues:
@@ -17583,8 +17549,6 @@ ocurl:
     - captures_build_path
 ode:
   version: 2:0.14-2
-  issues:
-    - docbook_to_man_one_byte_delta
 odil:
   version: 0.7.0-2
   issues:
@@ -18555,8 +18519,6 @@ paxrat:
     - golang_compiler_captures_build_path_in_binary
 paxtest:
   version: 1:0.9.14-2
-  issues:
-    - docbook_to_man_one_byte_delta
 pbbam:
   version: 0.1.0~20150813+git4e9e417+dfsg-1
   issues:
@@ -19705,8 +19667,6 @@ ppl:
     - captures_build_path
 pppoeconf:
   version: 1.21
-  issues:
-    - docbook_to_man_one_byte_delta
 pps-tools:
   version: 0.20120406+g0deb9c7e-2
   issues:
@@ -20009,8 +19969,6 @@ publican:
     - timestamps_in_pdf_generated_by_apache_fop
 pubtal:
   version: 3.5-1
-  issues:
-    - docbook_to_man_one_byte_delta
 puf:
   version: 1.0.0-7
   issues:
@@ -20068,8 +20026,6 @@ pvrg-jpeg:
     - captures_build_path
 pxlib:
   version: 0.6.7-1
-  issues:
-    - docbook_to_man_one_byte_delta
 pxp:
   version: 1.2.8-1
   issues:
@@ -25055,8 +25011,6 @@ sgml-base-doc:
     - random_id_in_pdf_generated_by_dblatex
 sgml2x:
   version: 1.0.0-11.4
-  issues:
-    - docbook_to_man_one_byte_delta
 sgrep:
   version: 1.94a-4
   issues:
@@ -26772,8 +26726,6 @@ termit:
     - captures_build_path
 terraintool:
   version: 1.12a-1
-  issues:
-    - docbook_to_man_one_byte_delta
 teseq:
   version: 1.1-0.1
   issues:
@@ -26918,8 +26870,6 @@ tightvnc:
     - captures_build_path
 tigr-glimmer:
   version: 3.02-5
-  issues:
-    - docbook_to_man_one_byte_delta
 tika:
   version: 1.5-5
   bugs:
@@ -27701,8 +27651,6 @@ unrar-free:
     (See Transpec/docbook-to-man.ts in docbook-to-man.)
     .
     Unclear why it's i386 only, or how the tab is transformed to an "I".  (Could be a broken "^I" escape, or a bitflip.)
-  issues:
-    - docbook_to_man_one_byte_delta
 unshield:
   version: 1.4-1
   issues:
@@ -27824,8 +27772,6 @@ valgrind:
     - captures_build_path
 vamp-plugin-sdk:
   version: 2.6~repack0-2
-  issues:
-    - docbook_to_man_one_byte_delta
 variantslib:
   version: 113.33.03-2
   issues:
@@ -28383,8 +28329,6 @@ wikipediafs:
     [i386 only]
     │   │   │   │   │ -This manual page documents the \fBmount.wikipediafs\fR         command and general usageoof WikipediaFS.
     │   │   │   │   │ +This manual page documents the \fBmount.wikipediafs\fR         command and general usage of WikipediaFS.
-  issues:
-    - docbook_to_man_one_byte_delta
 wildmidi:
   version: 0.4.0-1
   issues:
@@ -28432,8 +28376,6 @@ wings3d:
     - captures_build_path
 winpdb:
   version: 1.4.8-3
-  issues:
-    - docbook_to_man_one_byte_delta
 winrmcp:
   version: 0.0~git20160310.f1bcf36-1
   issues:
@@ -29462,8 +29404,6 @@ zeroconf-ioslave:
     - captures_build_path
 zerofree:
   version: 1.0.3-1
-  issues:
-    - docbook_to_man_one_byte_delta
 zeroinstall-injector:
   version: 2.10-2
   issues:
@@ -29509,8 +29449,6 @@ zookeeper:
     - random_order_in_documentation_generated_by_javadoc
 zoomer:
   version: 0.1-1.1
-  issues:
-    - docbook_to_man_one_byte_delta
 zope2.13:
   version: 2.13.22-1
   issues:
