@@ -141,6 +141,8 @@ timestamps_in_maven_metadata_local_xml_files:
     Maven writes a timestamp to maven-metadata-local.xml files.
   deterministic: True
 random_ordering_in_pom:
+  status:
+    done
   description: |
     Some tool isn't writing non-ASCII characters in pom.xml/foo.pom properly.
 locale_differences_in_pom:
