@@ -461,13 +461,10 @@ android-platform-frameworks-base:
     - 859081
 android-platform-frameworks-data-binding:
   version: 2.0.0-1
-  issues:
-    - random_ordering_in_pom
 android-platform-libcore:
   version: 6.0.1+r10-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-    - random_ordering_in_pom
 android-platform-system-core:
   version: 1:7.0.0+r1-4
   bugs:
@@ -8628,7 +8625,6 @@ gradle:
     - random_order_in_documentation_generated_by_javadoc
     - blacklisted_on_jenkins_armhf_only
     - user_hostname_manually_added_requiring_further_investigation
-    - random_ordering_in_pom
     - captures_kernel_version
     - different_encoding
 grafana:
@@ -10317,8 +10313,6 @@ jaxe:
     - random_order_in_documentation_generated_by_javadoc
 jayway-jsonpath:
   version: 2.0.0-2
-  issues:
-    - random_ordering_in_pom
 jblas:
   version: 1.2.3-6
   bugs:
@@ -30050,8 +30044,6 @@ zephyr:
     - 828867
 zeroc-ice:
   version: 3.6.2-stretch-51-gba6baa6-2
-  issues:
-    - random_ordering_in_pom
 zeroconf-ioslave:
   version: 4:15.12.0-2
   issues:
