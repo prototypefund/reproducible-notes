@@ -435,6 +435,8 @@ timestamps_in_ruby_documentation:
     the time the documentation was generated.
   deterministic: True
 fileorder_in_gemspec_files_list:
+  status:
+    done
   description:
     File lists in Ruby .gemspec files are unsorted.
 timestamps_in_documentation_generated_by_sphinx:
@@ -894,6 +896,8 @@ elinks_dump_varies_output_with_locale:
     Packages use `elinks -dump in.html > out.txt`, but this varies by locale.
   deterministic: True
 plist_weirdness:
+  status:
+    done
   description: |
     Gnustep (?) plist files can have missing/non-determistic ordering depending
     on locale (?)
@@ -941,6 +945,8 @@ collation_order_varies_by_locale:
     fixed with LC_COLLATE=C.UTF-8 or LC_COLLATE=C.
   deterministic: True
 random_order_in_ruby_rdoc_indices:
+  status:
+    done
   description:
     ruby's rdoc doesn't output methods in a determinstic order.
 undeterministic_symlinking_by_rdfind:
@@ -1121,6 +1127,8 @@ timestamps_in_edj_files_generated_by_edje_cc:
     /usr/bin/edje_cc from libedje-bin writes timestamps.
   deterministic: True
 random_order_in_init_py_generated_by_python-genpy:
+  status:
+    done
   description:
     python-genpy generates __init__.py with import statements in a
     non-deterministic (filesystem) order.
@@ -1142,6 +1150,8 @@ nondeterminstic_output_generated_by_moarvm:
     moarvm creates .moarvm files that have non-deterministic identifiers,
     possibly to ensure uniqueness. unknown source.
 nondeterminstic_ordering_in_gsettings_glib_enums_xml:
+  status:
+    done
   description:
     glib's glib-mkenums and gsettings_ENUM_FILES mechanism can generate output
     in a non-deterministic / filesystem order as most Gnome packages just specify
@@ -1167,6 +1177,8 @@ postgres_9.5_transition:
   description:
     (Sourceful uploads needed)
 ftbfs_due_to_libtool:
+  status:
+    done
   description:
     There is recent breakage around libtool affecting, libtoolize,
     dh-autoreconf, etc. We just want to ignore them for the time being.
@@ -1220,6 +1232,8 @@ unsorted_file_glob_by_cmake:
     A solution is to sort the lists: list(SORT SRC_FILES)
   url: https://bugs.debian.org/824263
 random_order_in_static_library_by_icmake:
+  status:
+    done
   description: |
     icmake uses a shell glob to collect object files while creating the static library archive.
     The glob is sorted, but will be sorted differently depending on the locale.
@@ -1250,6 +1264,8 @@ random_order_in_native_libs_by_setuptools:
     python-setuptools generates native_libs.txt with random order.
   url: https://bugs.debian.org/825857
 unsorted_lua_versions_in_control:
+  status:
+    done
   description: |
     control contains a Lua-Version field with versions listed in unsorted order.
   url: https://bugs.debian.org/826051
@@ -1417,6 +1433,8 @@ href_links_mangled_by_node_marked:
     .
     https://sources.debian.net/src/node-marked/0.3.2%2Bdfsg-1/lib/marked.js/#L740
 random_order_in_lua_version_substvar:
+  status:
+    done
   description: |
     -Lua-Versions: 5.3 5.2 5.1
     +Lua-Versions: 5.3 5.1 5.2
@@ -1466,11 +1484,15 @@ texi2html_captures_users_gecos:
     Difference in the "This documented was generated on/by" line, documented in the notes of the 'texi2html' package.
     Sub-issue of captures_users_gecos
 varnish_vmodtool_random_file_id:
+  status:
+    done
   description: |
     Modules contain a random `file_id`:
     https://sources.debian.net/src/varnish/4.0.2-1/lib/libvcc/vmodtool.py/?hl=237:244#L237
     Should discuss with upstream on replacing this with a constant hash.
 gpg_keyring_magic_bytes_differ:
+  status:
+    done
   description: |
     Differences near the start and end of a GPG keyring, on lines 2, 8, -2, and -1 of the hexdump.
 timestamps_in_org_mode_html_output:
@@ -1517,6 +1539,8 @@ pdf_id_varying_due_to_build_path:
     The PDF /ID is generated based on timestamps (which are now deterministic) and the path of the source file.
     texlive needs to be fixed to strip the build path prefix while generating the ID.
 ghc_captures_build_path_via_tempdir:
+  status:
+    done
   description: |
     A filename of the form "/tmp/ghcXXXX_0" is embedded into the binaries.
     .
@@ -1570,6 +1594,8 @@ bin_sh_is_bash:
   description: |
     Various issues that are caused from whether /bin/sh is dash or bash.
 docbook_to_man_one_byte_delta:
+  status:
+    done
   description: |
     The package uses docbook-to-man;
     the man page has a single byte that has a different value on both builds (in one build it has the correct value and in the other a garbage value);
@@ -1597,6 +1623,8 @@ sphinx_htmlhelp_readdir_sensitive:
     .
     The current test setup shows this on armhf/i386 only since it doesn't use disorderfs on amd64.
 valac_permutes_get_type_calls:
+  status:
+    done
   description: |
     On everything except amd64/testing, foo_bar_get_type@@Base calls appear in a different order in the first and second build.
   deterministic: False
@@ -1641,6 +1669,8 @@ captures_build_path_in_python_sugar3_symlinks:
     the build path.
   url: https://bugs.debian.org/860418
 nondeterministic_ordering_in_desktop_files_by_python_sugar3:
+  status:
+    done
   description: |
     Packages that use python-sugar3 will generate unreproducible desktop files
     because translation files to generate it are taken without sorting.
