@@ -2286,8 +2286,8 @@ canna:
     - timestamps_in_dvi_generated_by_latex
 canna-shion:
   version: 0.0.20010204-12
-  comments: |
-    timestamps added by mkbindic from canna package
+  issues:
+    - timestamps_in_cbd_files_generated_by_canna_mkbindic
 cantata:
   version: 2.0.1.ds1-1
   issues:
@@ -2634,11 +2634,6 @@ chemeq:
   version: 2.12-1
   issues:
     - captures_build_path
-chemical-mime-data:
-  version: 0.1.94-6
-  comments: |
-    Capture build time:
-    https://sources.debian.net/src/chemical-mime-data/0.1.94-6/xsl/cmd_website.xsl/?hl=231#L231
 chemical-structures:
   version: 2.2.dfsg.0-12
   issues:
@@ -8416,6 +8411,10 @@ golang-google-api:
   version: 0.0~git20161128.3cc2e59-1
   bugs:
     - 860710
+golang-google-cloud:
+  version: 0.5.0-2
+  bugs:
+    - 860699
 golang-gopkg-asn1-ber.v1:
   version: 1.1-1
   bugs:
@@ -10386,6 +10385,10 @@ jed:
   version: 1:0.99.19-7
   issues:
     - hevea_captures_build_path
+jekyll:
+  version: 3.1.6+dfsg-3
+  bugs:
+    - 846115
 jellyfish:
   version: 2.2.5-1
   issues:
@@ -19959,6 +19962,8 @@ proftpd-dfsg:
   version: 1.3.5-1.1
   comments: |
     Embed build time in /usr/include/proftpd/buildstamp.h (sic)
+  issues:
+    - captures_build_path
 proftpd-mod-autohost:
   version: 0.4-1
   comments: |
@@ -20269,8 +20274,8 @@ pycangjie:
     - captures_build_path
 pycode-browser:
   version: 1:1.0-2
-  comments: |
-    Seems to be a problem with epstopdf
+  issues:
+    - images_in_pdf_generated_by_latex
 pycorrfit:
   version: 0.8.3-2
   issues:
@@ -21512,10 +21517,6 @@ qdbm:
   issues:
     - timestamps_in_jar
     - captures_build_path
-qdox:
-  version: 1.12.1-1
-  issues:
-    - blacklisted_on_jenkins_armhf_only
 qdox2:
   version: 2.0~M3-2
   comments: |
@@ -21849,7 +21850,6 @@ qtwebkit-examples-opensource-src:
 qtwebkit-opensource-src:
   version: 5.4.2+dfsg-3
   issues:
-    - blacklisted_on_jenkins_armhf_only
     - captures_build_path
 qtwebsockets-opensource-src:
   version: 5.3.2-5
@@ -24711,10 +24711,6 @@ ruby-eb:
   version: 2.6-3
   issues:
     - captures_build_path
-ruby-em-http-request:
-  version: 1.1.2-2
-  issues:
-    - blacklisted_on_jenkins_armhf_only
 ruby-escape-utils:
   version: 1.1.0-1
   issues:
@@ -24890,7 +24886,6 @@ ruby-multimap:
 ruby-mysql2:
   version: 0.3.18-1
   issues:
-    - blacklisted_on_jenkins_armhf_only
     - captures_build_path
 ruby-narray:
   version: 0.6.1.1-2
@@ -25070,10 +25065,6 @@ ruby-standalone:
     Embeds the build date into manpage.
   issues:
     - timestamps_in_documentation_generated_by_pandoc
-ruby-state-machines:
-  version: 0.4.0-2
-  issues:
-    - blacklisted_on_jenkins_armhf_only
 ruby-termios:
   version: 1.0.0-1
   issues:
@@ -25640,7 +25631,6 @@ sexplib310:
 sfcgal:
   version: 1.2.2-1
   issues:
-    - blacklisted_on_jenkins_armhf_only
     - diffoscope_runs_forever
     - captures_build_path
 sfepy:
@@ -25889,10 +25879,6 @@ sisc:
   version: 1.16.6-1.1
   issues:
     - timestamps_in_jar
-sisu-maven-plugin:
-  version: 1.1-1
-  issues:
-    - blacklisted_on_jenkins_armhf_only
 sitemesh:
   version: 2.4.1+dfsg-5
   issues:
@@ -28068,11 +28054,11 @@ tzc:
     - captures_build_path
 u-boot:
   version: 2016.09+dfsg1-2
-  issues:
-    - captures_build_path
   comments: |
     [armhf,arm64] On amd64, build path variations do not impact the
     only package built, u-boot-tools.
+  issues:
+    - captures_build_path
 u1db:
   version: 13.10-6.2
   issues:
