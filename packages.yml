@@ -19967,6 +19967,8 @@ proftpd-dfsg:
   version: 1.3.5-1.1
   comments: |
     Embed build time in /usr/include/proftpd/buildstamp.h (sic)
+  issues:
+    - captures_build_path
 proftpd-mod-autohost:
   version: 0.4-1
   comments: |
