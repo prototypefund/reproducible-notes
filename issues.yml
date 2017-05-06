@@ -1318,13 +1318,6 @@ href_links_mangled_by_node_marked:
     marked html-encodes email addresses in an unreproducible way.
     .
     https://sources.debian.net/src/node-marked/0.3.2%2Bdfsg-1/lib/marked.js/#L740
-random_order_in_lua_version_substvar:
-  status:
-    done
-  description: |
-    -Lua-Versions: 5.3 5.2 5.1
-    +Lua-Versions: 5.3 5.1 5.2
-  url: https://bugs.debian.org/835646
 uname_output_in_python_debugging_symbols_caused_by_sysconfig_getplatform:
   description: |
     encoded in tempfile. Affects building on i386 as it does not distinguish
