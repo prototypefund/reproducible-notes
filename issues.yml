@@ -1187,12 +1187,6 @@ timestamps_in_manpages_added_by_golang_cobra:
     probably) the current time.
     .
     Homepage is https://godoc.org/github.com/spf13/cobra
-ftbfs_due_to_libtool:
-  status:
-    done
-  description:
-    There is recent breakage around libtool affecting, libtoolize,
-    dh-autoreconf, etc. We just want to ignore them for the time being.
 lxqt_translate_desktop_binary_file_matched_under_certain_locales:
   description:
     The lxqt_translate_desktop QT/LXDE CMake utility methods calls grep which,
