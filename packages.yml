@@ -10390,6 +10390,10 @@ jed:
   version: 1:0.99.19-7
   issues:
     - hevea_captures_build_path
+jekyll:
+  version: 3.1.6+dfsg-3
+  bugs:
+    - 846115
 jellyfish:
   version: 2.2.5-1
   issues:
@@ -28053,11 +28057,11 @@ tzc:
     - captures_build_path
 u-boot:
   version: 2016.09+dfsg1-2
-  issues:
-    - captures_build_path
   comments: |
     [armhf,arm64] On amd64, build path variations do not impact the
     only package built, u-boot-tools.
+  issues:
+    - captures_build_path
 u1db:
   version: 13.10-6.2
   issues:
