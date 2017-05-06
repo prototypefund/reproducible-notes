@@ -3220,7 +3220,6 @@ containerd:
 contextfree:
   version: 3.0.5+dfsg1-2.2
   bugs:
-    - 846418
     - 848759
 conv-tools:
   version: 20160905-1
@@ -8963,8 +8962,6 @@ gtk-sharp2:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - clilibs_line_order
-  bugs:
-    - 849932
 gtk-sharp3:
   version: 2.99.3-2
   issues:
@@ -12999,8 +12996,6 @@ libindicate:
   version: 0.6.92-3
   issues:
     - captures_build_path
-  bugs:
-    - 849932
 libindicator:
   version: 0.5.0-3
   issues:
