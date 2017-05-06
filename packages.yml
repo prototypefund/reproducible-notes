@@ -23872,8 +23872,6 @@ ros-class-loader:
     - captures_build_path
 ros-common-msgs:
   version: 1.12.3-2
-  issues:
-    - random_order_in_init_py_generated_by_python-genpy
 ros-geometric-shapes:
   version: 0.4.4-1
   issues:
@@ -23937,8 +23935,6 @@ ros-rviz:
     - captures_build_path
 ros-std-msgs:
   version: 0.5.9-2
-  issues:
-    - random_order_in_init_py_generated_by_python-genpy
 ros-vision-opencv:
   version: 1.11.11+ds-3
   issues:
