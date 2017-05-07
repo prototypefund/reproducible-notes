@@ -2996,6 +2996,10 @@ debdelta:
   issues:
     - timestamps_in_gzip_headers
     - different_due_to_umask
+debhelper:
+  version: 10.2.5
+  bugs:
+    - 862003
 debian-builder:
   version: 1.8
   issues:
