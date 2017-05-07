@@ -19612,6 +19612,10 @@ u-boot:
   comments: |
     [armhf,arm64] On amd64, build path variations do not impact the
     only package built, u-boot-tools.
+u1db:
+  version: 13.10-6.2
+  bugs:
+    - 860667
 uanytun:
   version: 0.3.5-1
   bugs:
