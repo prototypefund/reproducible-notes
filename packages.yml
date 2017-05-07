@@ -7779,6 +7779,10 @@ gnome-sharp2:
     - timestamps_in_pe_binaries
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+gnome-software:
+  version: 3.22.5-1
+  issues:
+    - captures_build_path
 gnome-subtitles:
   version: 1.2-4
   issues:
