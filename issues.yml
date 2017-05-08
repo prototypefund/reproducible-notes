@@ -937,18 +937,27 @@ randomness_in_r_rdb_rds_databases:
   status:
     done
   description: |
-    This issue seems to be fixed in the reproducible builds apt repository. 
-    Assuming the non-standard branch of r-base is applied, this tag should
-    no longer indicate that the software will fail to build in a reproducible
-    manner.
     R creates .rdb files and .rds with some randomness. They are a serialisation of some
     sorts, related to lazy loading of modules?
     Randomness seems to come from using absolute paths in .rd[bs] files.
     .
     Is not related to https://bugs.debian.org/774031 / r_base_appends_built_header_to_description_files
     .
-    Probably from this code https://sources.debian.net/src/r-base/3.3.3-1/src/library/tools/R/makeLazyLoad.R/#L258
-    which calls into here https://sources.debian.net/src/r-base/3.3.3-1/src/library/base/R/namespace.R/#L249
+    We have a pending patch to fix most of these (643/678 packages at the time
+    of writing) upstream in R:
+    .
+    https://stat.ethz.ch/pipermail/r-devel/2017-April/074138.html
+    .
+    When this is accepted into R upstream, commit 28d4af25 may be
+    (un-)reverted to remove these packages. In the meantime, please do not
+    remove this issue, nor mark it as deterministic, nor untag these packages.
+    .
+    The remaining ~15 packages are not completely fixed by this patch, so this
+    issue should remain, even when our upstream patch is accepted. These
+    packages will need to be investigated and fixed individually, see our blog
+    post on how to do that:
+    .
+    https://reproducible.alioth.debian.org/blog/posts/reproducing-r-packages/
 python-ply_compiled_parse_tables:
   description: |
     python-ply generates parse tables (eg. parsetab.py) that are
@@ -1247,23 +1256,29 @@ captures_build_path:
     Captures build path, e.g., /build/1st/foo-42.0 v. /build/foo-42.0/2nd
     Currently we vary the build path only when testing packages from unstable and experimental, for stretch we recommend that rebuilds are done in the same path as the original build.
     .
-    Many of the packages here (~3k at the time of writing) may be better
-    re-classified under some other, more specific, build-path related issue
-    - most of which were added after many packages had already been classified
-    into this issue.
+    Most of the packages here (~2k/~3k at the time of writing) are fixed by our
+    pending GCC patch:
+    .
+    https://gcc.gnu.org/ml/gcc-patches/2017-04/msg00513.html
+    .
+    When this is accepted into GCC upstream, commit 8a2707c5 may be
+    (un-)reverted to remove these packages. In the meantime, please do not
+    remove this issue, nor mark it as deterministic, nor untag these packages.
+    .
+    The remaining ~1k packages are not completely fixed by this patch, so this
+    issue should remain, even when our upstream patch is accepted. However,
+    most of these tagged packages may be better re-classified under some other,
+    more specific, build-path related issue - most of which were added after
+    many packages had already been classified into this issue.
     .
     Here follows some general tips for packages using the standard GNU toolchain:
     .
     If using autoconf, make sure you call ./configure via a relative and not absolute path.
     .
     If your issue is related to using the `__FILE__` macro, or the recording of
-    --debug-prefix-map flags in non-GCC non-debugging output, we have a pending
-    patch to GCC to fix this in one central place.
-    .
-    https://gcc.gnu.org/ml/gcc-patches/2016-11/msg00182.html
-    .
-    If/when this is accepted, this issue should be fixed for most packages and
-    you should not need to fix it specifically in your package.
+    --debug-prefix-map flags in non-GCC non-debugging output, this is what is
+    fixed by our patch mentioned above; you should not need to fix it
+    specifically in your package.
     .
     For more background information see:
     .
