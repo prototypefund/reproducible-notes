@@ -933,6 +933,22 @@ timestamps_added_by_blast2:
   description: |
     formatdb from blast2 adds a timestamp.
   deterministic: True
+randomness_in_r_rdb_rds_databases:
+  status:
+    done
+  description: |
+    This issue seems to be fixed in the reproducible builds apt repository. 
+    Assuming the non-standard branch of r-base is applied, this tag should
+    no longer indicate that the software will fail to build in a reproducible
+    manner.
+    R creates .rdb files and .rds with some randomness. They are a serialisation of some
+    sorts, related to lazy loading of modules?
+    Randomness seems to come from using absolute paths in .rd[bs] files.
+    .
+    Is not related to https://bugs.debian.org/774031 / r_base_appends_built_header_to_description_files
+    .
+    Probably from this code https://sources.debian.net/src/r-base/3.3.3-1/src/library/tools/R/makeLazyLoad.R/#L258
+    which calls into here https://sources.debian.net/src/r-base/3.3.3-1/src/library/base/R/namespace.R/#L249
 python-ply_compiled_parse_tables:
   description: |
     python-ply generates parse tables (eg. parsetab.py) that are
