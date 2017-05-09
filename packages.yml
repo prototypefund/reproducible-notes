@@ -915,7 +915,7 @@ asciidoc:
 asciijump:
   version: 1.0.2~beta-7
   issues:
-    - captures_build_path
+    - gcc_captures_build_path
   bugs:
     - 827109
 asclock:
@@ -1390,7 +1390,7 @@ base-installer:
 basemap:
   version: 1.0.7+dfsg-1
   issues:
-    - captures_build_path
+    - gcc_captures_build_path
   bugs:
     - 790235
 bash:
@@ -1594,7 +1594,7 @@ bind9:
     Embeds current year into copyright header.
     https://sources.debian.net/src/bind9/1:9.10.3.dfsg.P4-10/lib/dns/gen.c/#L117
   issues:
-    - captures_build_path
+    - gcc_captures_build_path
   bugs:
     - 828012
 binfmtc:
@@ -2123,7 +2123,7 @@ c++-annotations:
 c-blosc:
   version: 1.9.1-1
   issues:
-    - captures_build_path
+    - gcc_captures_build_path
   bugs:
     - 852050
 c-icap:
@@ -5082,7 +5082,7 @@ engauge-digitizer:
 enigma:
   version: 1.20-dfsg.1-2
   issues:
-    - captures_build_path
+    - gcc_captures_build_path
   bugs:
     - 811826
 ensymble:
@@ -5821,7 +5821,7 @@ fgarch:
 fgrun:
   version: 3.4.0.final-2
   issues:
-    - captures_build_path
+    - gcc_captures_build_path
   bugs:
     - 839357
 field3d:
@@ -6765,7 +6765,7 @@ g2:
 g2clib:
   version: 1.6.0-4
   issues:
-    - captures_build_path
+    - gcc_captures_build_path
   bugs:
     - 860277
 g3data:
@@ -9245,7 +9245,7 @@ hibernate:
 hidrd:
   version: 0.2.0-12
   issues:
-    - captures_build_path
+    - gcc_captures_build_path
   bugs:
     - 822379
 highlight.js:
@@ -10096,7 +10096,7 @@ jalview:
 jam:
   version: 2.6-1
   issues:
-    - captures_build_path
+    - gcc_captures_build_path
   bugs:
     - 797427
 jam-lib:
@@ -10941,14 +10941,14 @@ kernel-handbook:
 kernsmooth:
   version: 2.23-15-2
   issues:
-    - captures_build_path
     - randomness_in_r_rdb_rds_databases
+    - gcc_captures_build_path
   bugs:
     - 860876
 keylaunch:
   version: 1.3.9
   issues:
-    - captures_build_path
+    - gcc_captures_build_path
   bugs:
     - 805773
 keysafe:
@@ -12907,7 +12907,7 @@ libio-dirent-perl:
 libio-pty-perl:
   version: 1:1.08-1.1
   issues:
-    - captures_build_path
+    - gcc_captures_build_path
   bugs:
     - 841703
 libio-socket-multicast6-perl:
@@ -14015,7 +14015,7 @@ libterralib:
 libtext-charwidth-perl:
   version: 0.04-7
   issues:
-    - captures_build_path
+    - gcc_captures_build_path
   bugs:
     - 841701
 libtext-iconv-perl:
@@ -14450,7 +14450,7 @@ linuxlogo:
 linuxtv-dvb-apps:
   version: 1.1.1+rev1500-1
   issues:
-    - captures_build_path
+    - gcc_captures_build_path
   bugs:
     - 791423
 liquidwar:
@@ -15700,7 +15700,7 @@ mokomaze:
 molds:
   version: 0.3.1-1
   issues:
-    - captures_build_path
+    - gcc_captures_build_path
   bugs:
     - 851042
 mon-contrib:
@@ -17750,8 +17750,8 @@ openclipart2:
 openclonk:
   version: 7.0-3
   issues:
-    - captures_build_path
     - too_much_input_for_diff
+    - gcc_captures_build_path
   bugs:
     - 823797
 opencolorio:
@@ -17829,7 +17829,7 @@ openid4java:
 openigtlink:
   version: 1.11.0-1
   issues:
-    - captures_build_path
+    - gcc_captures_build_path
   bugs:
     - 860278
 openimageio:
@@ -18363,7 +18363,7 @@ pam-dbus:
 pam-python:
   version: 1.0.4-1
   issues:
-    - captures_build_path
+    - gcc_captures_build_path
   bugs:
     - 833411
 pandas:
@@ -18487,7 +18487,7 @@ paxrat:
 pbbam:
   version: 0.1.0~20150813+git4e9e417+dfsg-1
   issues:
-    - captures_build_path
+    - gcc_captures_build_path
   bugs:
     - 829741
 pbcopper:
@@ -18722,7 +18722,7 @@ pdf-presenter-console:
 pdf2htmlex:
   version: 0.14.6+ds-2
   issues:
-    - captures_build_path
+    - gcc_captures_build_path
   bugs:
     - 835165
 pdfmod:
@@ -18810,7 +18810,7 @@ perl-byacc:
 perl-tk:
   version: 1:804.033-1
   issues:
-    - captures_build_path
+    - gcc_captures_build_path
   bugs:
     - 841777
 perl4caml:
@@ -20157,7 +20157,7 @@ pyicu:
     Locates source files in readdir order, which will result in random linking order.
     https://sources.debian.net/src/pyicu/1.9.2-2/setup.py/#L109
   issues:
-    - captures_build_path
+    - gcc_captures_build_path
   bugs:
     - 834553
 pyinfra:
@@ -21418,7 +21418,7 @@ qt3d-opensource-src:
 qt4-perl:
   version: 4.8.4-1.2
   issues:
-    - captures_build_path
+    - gcc_captures_build_path
   bugs:
     - 811672
 qt4-x11:
@@ -22947,7 +22947,6 @@ r-cran-readmzxmldata:
   version: 2.8-1
   issues:
     - randomness_in_r_rdb_rds_databases
-    - captures_build_path
   bugs:
     - 783057
 r-cran-readxl:
@@ -23527,7 +23526,7 @@ rear:
 reaver:
   version: 1.4-2
   issues:
-    - captures_build_path
+    - gcc_captures_build_path
   bugs:
     - 827172
 rebar:
@@ -24009,7 +24008,7 @@ rsync:
 rt-extension-customfieldsonupdate:
   version: 0.01-1
   issues:
-    - captures_build_path
+    - gcc_captures_build_path
   bugs:
     - 835816
 rtkit:
@@ -27031,7 +27030,7 @@ tkmpeg:
 tkrat:
   version: 1:2.2cvs20100105-true-dfsg-6
   issues:
-    - captures_build_path
+    - gcc_captures_build_path
   bugs:
     - 828572
 tkrplot:
@@ -27423,7 +27422,7 @@ u1db:
 uanytun:
   version: 0.3.5-1
   issues:
-    - captures_build_path
+    - gcc_captures_build_path
   bugs:
     - 834227
 ubertooth:
