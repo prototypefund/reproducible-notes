@@ -1642,4 +1642,7 @@ gcc_captures_build_path:
     In the meantime, please do not remove this issue, nor mark it as deterministic,
     nor untag these packages.
   deterministic: False
-
+gcj_captures_build_path:
+  description: |
+    Captures build path, e.g., /build/1st/foo-42.0 v. /build/foo-42.0/2nd
+  deterministic: False
