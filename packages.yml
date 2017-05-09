@@ -11326,6 +11326,10 @@ kompare:
   version: 4:16.08.0-1
   issues:
     - build_id_differences_only
+konclude:
+  version: 0.6.2~dfsg-3
+  comments: |
+    Some line-ending differences in manpage probably caused by shell differences in http://sources.debian.net/src/konclude/0.6.2~dfsg-3/debian/rules/#L48
 konquest:
   version: 4:16.08.0-1
   issues:
