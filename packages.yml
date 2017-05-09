@@ -7049,6 +7049,8 @@ gcc-6:
   issues:
     - blacklisted_on_jenkins
     - diffoscope_runs_forever
+  bugs:
+    - 862113
 gcc-6-cross:
   version: 12
   issues:
