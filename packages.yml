@@ -708,8 +708,8 @@ apper:
   comments: |
     Build path captured by RUNPATH attribute, asserts (.rodata), and debug symbols (.dynstr).
   issues:
-    - captures_build_path
     - captures_build_path_via_assert
+    - build_id_differences_only
 appmenu-qt:
   version: 0.2.6-2
   issues:
@@ -755,9 +755,9 @@ aprx:
   bugs:
     - 854111
 apt:
-  version: 1.3~rc2
+  version: 1.4.2
   issues:
-    - captures_build_path
+    - build_id_differences_only
 apt-dpkg-ref:
   version: 5.3.1+nmu1
   issues:
@@ -790,9 +790,9 @@ aqemu:
   issues:
     - gcc_captures_build_path
 aqsis:
-  version: 1.8.2-3
+  version: 1.8.2-5
   issues:
-    - captures_build_path
+    - build_id_differences_only
 arachne-pnr:
   version: 0.1+20151224git1a4fdf9-1
   issues:
@@ -1102,9 +1102,9 @@ audex:
   issues:
     - captures_build_path
 audiocd-kio:
-  version: 4:15.12.2-2
+  version: 4:16.08.3-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 audiotools:
   version: 3.1.1-1
   comments: |
@@ -1216,9 +1216,9 @@ avifile:
   bugs:
     - 860203
 avogadro:
-  version: 1.0.3-13
+  version: 1.2.0-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 avr-evtd:
   version: 1.7.7-2
   issues:
@@ -2260,7 +2260,7 @@ cantata:
 cantor:
   version: 4:16.08.3-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 car:
   version: 2.1-3-1
   issues:
@@ -2310,9 +2310,9 @@ cassbeam:
   issues:
     - random_id_in_pdf_generated_by_dblatex
 cassiopee:
-  version: 1.0.4+dfsg-1
+  version: 1.0.5-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 castor:
   version: 1.3.2-4
   issues:
@@ -2471,9 +2471,9 @@ certspotter:
   issues:
     - captures_build_path
 cervisia:
-  version: 4:16.04.2-1
+  version: 4:16.08.2-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 cffi:
   version: 1:0.16.1-1
   issues:
@@ -2507,12 +2507,12 @@ cfourcc:
 cg3:
   version: 0.9.9~r11624-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 cgal:
   version: 4.8.1-1
   issues:
-    - captures_build_path
     - records_build_flags
+    - build_id_differences_only
 cgdb:
   version: 0.6.7-2
   issues:
@@ -3017,7 +3017,7 @@ colobot:
   version: 0.1.3-1
   issues:
     - serial_numbers_in_ogg
-    - captures_build_path
+    - build_id_differences_only
 colord:
   version: 1.2.1-1
   issues:
@@ -3837,9 +3837,9 @@ dcmstack:
   issues:
     - randomness_in_documentation_generated_by_sphinx
 dcmtk:
-  version: 3.6.1~20160216-2
+  version: 3.6.1~20160216-4
   issues:
-    - captures_build_path
+    - build_id_differences_only
 dctrl-tools:
   version: 2.24-2
   bugs:
@@ -4010,9 +4010,9 @@ deborphan:
   issues:
     - gcc_captures_build_path
 deja-dup:
-  version: 34.2-1
+  version: 34.3-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 dejagnu:
   version: 1.6-1
   issues:
@@ -4170,8 +4170,8 @@ diffstat:
 digikam:
   version: 4:5.1.0-2
   issues:
-    - captures_build_path
     - too_much_input_for_diff
+    - build_id_differences_only
 dime:
   version: 0.20111205-2
   issues:
@@ -5575,9 +5575,9 @@ fceux:
     - timestamps_from_cpp_macros
     - scons_doesnt_pass_environment_to_build_tools
 fcitx:
-  version: 1:4.2.9.1-2
+  version: 1:4.2.9.1-6
   issues:
-    - captures_build_path
+    - build_id_differences_only
 fcitx-anthy:
   version: 0.2.2-1
   issues:
@@ -5736,8 +5736,8 @@ felix-shell:
 ferret-vis:
   version: 7.0-1
   issues:
-    - captures_build_path
     - too_much_input_for_diff
+    - build_id_differences_only
 fest-assert:
   version: 2.0~M10-1
   issues:
@@ -5793,7 +5793,7 @@ ffmpeg2theora:
 ffmpegthumbnailer:
   version: 2.1.1-0.1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 ffrenzy:
   version: 1.0.2~svn20150731-1
   issues:
@@ -6016,9 +6016,9 @@ flickrfs:
   bugs:
     - 750288
 flightcrew:
-  version: 0.7.2+dfsg-7
+  version: 0.7.2+dfsg-8
   issues:
-    - captures_build_path
+    - build_id_differences_only
 flightgear:
   version: 1:2016.2.1+dfsg-6
   issues:
@@ -6565,7 +6565,7 @@ freemat:
 freeorion:
   version: 0.4.6-4
   issues:
-    - captures_build_path
+    - build_id_differences_only
 freeplane:
   version: 1.5.18-1
   issues:
@@ -6979,9 +6979,9 @@ gavl:
   issues:
     - captures_build_path
 gazebo:
-  version: 6.5.0+dfsg-2
+  version: 7.5.0+dfsg-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 gb:
   version: 0.4.2-1
   issues:
@@ -7468,7 +7468,7 @@ ginkgocadx:
   version: 3.8.3-1
   issues:
     - diffoscope_runs_forever
-    - captures_build_path
+    - build_id_differences_only
 gio-sharp:
   version: 2.22.3-3
   issues:
@@ -7566,7 +7566,7 @@ glaurung:
 glbinding:
   version: 2.1.1-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 gle-graphics:
   version: 4.2.5-6
   issues:
@@ -7651,7 +7651,7 @@ gluegen2:
 glyr:
   version: 1.0.9-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 gmchess:
   version: 0.29.6-2
   issues:
@@ -9099,9 +9099,9 @@ haskell98-report:
     - timestamps_in_ps_generated_by_dvips
     - random_id_in_pdf_generated_by_dblatex
 hatari:
-  version: 1.8.0+dfsg-1
+  version: 2.0.0+dfsg-3
   issues:
-    - captures_build_path
+    - build_id_differences_only
 hawtdispatch:
   version: 1.20-1
   issues:
@@ -9406,7 +9406,7 @@ hugin:
   version: 2016.2.0~rc1+dfsg-2
   issues:
     - diffoscope_runs_forever
-    - captures_build_path
+    - build_id_differences_only
 hugo:
   version: 0.15+git20160109.147.dd1d655-1
   issues:
@@ -9612,7 +9612,7 @@ ike:
     source/libike/libike.cpp:174:long _IKEI_MSG::get_suspend( long * suspend )
     source/iked/ike.io.admin.cpp:647:					if( msg.get_suspend( &suspend ) != IPCERR_OK )
   issues:
-    - captures_build_path
+    - build_id_differences_only
 ikiwiki:
   version: 3.20160506
   comments: |
@@ -9702,9 +9702,9 @@ injeqt:
   issues:
     - captures_build_path
 inkscape:
-  version: 0.92.0-4
+  version: 0.92.1-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 inn:
   version: 1.7.2q-44
   issues:
@@ -9933,9 +9933,9 @@ isdnutils:
   issues:
     - captures_build_path
 ismrmrd:
-  version: 1.3.2-3
+  version: 1.3.3-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 isorelax:
   version: 20041111-8
   issues:
@@ -10530,9 +10530,9 @@ judy:
   issues:
     - random_order_in_static_libraries
 juffed:
-  version: 0.10-85-g5ba17f9-4
+  version: 0.10-85-g5ba17f9-9
   issues:
-    - captures_build_path
+    - build_id_differences_only
 juk:
   version: 4:16.04.2-1
   issues:
@@ -10570,7 +10570,7 @@ jxplorer:
 jxrlib:
   version: 1.1-6
   issues:
-    - captures_build_path
+    - build_id_differences_only
 jython:
   version: 2.5.3-3
   comments: |
@@ -10771,9 +10771,9 @@ kde-baseapps:
   issues:
     - captures_build_path
 kde-cli-tools:
-  version: 4:5.7.4-1
+  version: 4:5.8.4-2
   issues:
-    - captures_build_path
+    - build_id_differences_only
 kde-dev-utils:
   version: 4:15.12.2-2
   issues:
@@ -10818,9 +10818,9 @@ kdelibs4support:
   issues:
     - captures_build_path
 kdepim:
-  version: 4:16.04.3-1
+  version: 4:16.04.3-3
   issues:
-    - captures_build_path
+    - build_id_differences_only
 kdepim-addons:
   version: 16.04.3-1
   issues:
@@ -10828,7 +10828,7 @@ kdepim-addons:
 kdepim-runtime:
   version: 4:16.04.2-2
   issues:
-    - captures_build_path
+    - build_id_differences_only
 kdepim4:
   version: 4:4.14.10-7
   issues:
@@ -10838,9 +10838,9 @@ kdepimlibs:
   issues:
     - captures_build_path
 kdeplasma-addons:
-  version: 4:5.7.4-1
+  version: 4:5.8.5-2
   issues:
-    - captures_build_path
+    - build_id_differences_only
 kdesignerplugin:
   version: 5.26.0-1
   comments: |
@@ -10853,17 +10853,17 @@ kdesignerplugin:
   issues:
     - max_output_size_reached
 kdesu:
-  version: 5.25.0-1
+  version: 5.28.0-2
   issues:
-    - captures_build_path
+    - build_id_differences_only
 kdesudo:
   version: 3.4.2.4-2
   issues:
     - captures_build_path
 kdevelop:
-  version: 4:4.7.0-1
+  version: 4:5.0.3-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 kdevelop-pg-qt:
   version: 1.0.0-3
   issues:
@@ -10875,13 +10875,13 @@ kdevelop-php:
     - users_and_groups_in_tarball
     - captures_build_path
 kdevelop-python:
-  version: 1.7.0-1
+  version: 5.0.3-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 kdevplatform:
-  version: 1.7.2-1
+  version: 5.0.3-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 kdewebdev:
   version: 4:16.04.3-1
   issues:
@@ -10966,7 +10966,7 @@ keyutils:
 kf5-kdepimlibs:
   version: 4:16.04.2-2
   issues:
-    - captures_build_path
+    - build_id_differences_only
 kf5-messagelib:
   version: 4:16.04.3-2
   issues:
@@ -10974,7 +10974,7 @@ kf5-messagelib:
 kfilemetadata:
   version: 4:4.14.3-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 kfilemetadata-kf5:
   version: 5.26.0-1
   issues:
@@ -11028,7 +11028,7 @@ kholidays:
 khotkeys:
   version: 4:5.8.6-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 khronos-api:
   version: 0~svn29577-2
   comments: |
@@ -11071,9 +11071,9 @@ khronos-opengl-man4:
     - 823452
     - 823453
 khtml:
-  version: 5.23.0-1
+  version: 5.28.0-2
   issues:
-    - captures_build_path
+    - build_id_differences_only
 kicad:
   version: 4.0.0~rc1a-3
   issues:
@@ -11146,13 +11146,13 @@ kino:
   issues:
     - gcc_captures_build_path
 kio:
-  version: 5.25.0-1
+  version: 5.28.0-2
   issues:
-    - captures_build_path
+    - build_id_differences_only
 kio-extras:
-  version: 4:16.04.2-1
+  version: 4:16.08.3-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 kio-mtp:
   version: 0.75+git20140304-2
   issues:
@@ -11186,17 +11186,17 @@ kjs:
   issues:
     - captures_build_path
 kjsembed:
-  version: 5.23.0-1
+  version: 5.28.0-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 klatexformula:
   version: 3.3.0~beta-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 kleopatra:
   version: 4:16.04.2-2
   issues:
-    - captures_build_path
+    - build_id_differences_only
 klibc:
   version: 2.0.4-8
   comments: |
@@ -11321,11 +11321,11 @@ kodi:
 kolf:
   version: 4:16.04.0-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 kolourpaint:
-  version: 4:16.04.0-1
+  version: 4:16.08.3-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 kombu:
   version: 3.0.30-1
   issues:
@@ -11387,9 +11387,9 @@ kpartsplugin:
   issues:
     - captures_build_path
 kpat:
-  version: 4:16.04.0-2
+  version: 4:16.08.1-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 kpeople:
   version: 5.26.0-1
   issues:
@@ -11518,7 +11518,7 @@ kspaceduel:
 kst:
   version: 2.0.3-5
   issues:
-    - captures_build_path
+    - build_id_differences_only
 kstars:
   version: 4:16.04.1-1
   issues:
@@ -11532,9 +11532,9 @@ ksyntax-highlighting:
   issues:
     - build_id_differences_only
 ksysguard:
-  version: 4:5.4.3-1
+  version: 4:5.8.6-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 ktexteditor:
   version: 5.25.0-1
   issues:
@@ -11625,9 +11625,9 @@ kvpnc:
   issues:
     - captures_build_path
 kwallet-kf5:
-  version: 5.25.0-1
+  version: 5.28.0-3
   issues:
-    - captures_build_path
+    - build_id_differences_only
 kwave:
   version: 0.9.1-1-2
   issues:
@@ -11637,9 +11637,9 @@ kwayland:
   issues:
     - build_id_variation_requiring_further_investigation
 kwin:
-  version: 4:5.7.0-1
+  version: 4:5.8.6-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 kwindowsystem:
   version: 5.26.0-1
   issues:
@@ -12439,9 +12439,9 @@ libdigest-whirlpool-perl:
   issues:
     - gcc_captures_build_path
 libdigidoc:
-  version: 3.10.1.1208+ds1-2
+  version: 3.10.1.1208+ds1-2.1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 libdispatch:
   version: 0~svn197-3.3
   issues:
@@ -12865,9 +12865,9 @@ libimobiledevice:
     - captures_build_path
     - cython_captures_build_path
 libindi:
-  version: 1.2.0-2~
+  version: 1.2.0-3
   issues:
-    - captures_build_path
+    - build_id_differences_only
 libindicate:
   version: 0.6.92-3
   issues:
@@ -13164,7 +13164,7 @@ libkmahjongg:
 libkml:
   version: 1.3.0-3
   issues:
-    - captures_build_path
+    - build_id_differences_only
 libkolab:
   version: 1.0.2-3
   issues:
@@ -13209,7 +13209,7 @@ liblas:
 liblastfm:
   version: 1.0.9-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 liblaxjson:
   version: 1.0.5-1
   issues:
@@ -13322,9 +13322,9 @@ libmiglayout-java:
   bugs:
     - 860632
 libminc:
-  version: 2.3.00-2
+  version: 2.3.00-3.1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 libmirisdr:
   version: 0.0.4.59ba37-5
   issues:
@@ -13602,9 +13602,9 @@ libphp-jpgraph:
   issues:
     - different_due_to_umask
 libphysfs:
-  version: 2.0.3-3
+  version: 2.0.3-5
   issues:
-    - captures_build_path
+    - build_id_differences_only
 libpicocontainer-java:
   version: 2.15-2
   issues:
@@ -13624,9 +13624,9 @@ libpll:
   bugs:
     - 861755
 libpodofo:
-  version: 0.9.4-2
+  version: 0.9.4-5
   issues:
-    - captures_build_path
+    - build_id_differences_only
 libpoe-loop-event-perl:
   version: 1.305-1
   bugs:
@@ -13808,9 +13808,9 @@ librevisa:
   bugs:
     - 830371
 librime:
-  version: 1.2+dfsg-2
+  version: 1.2.9+dfsg1-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 librostlab:
   version: 1.0.20-6
   issues:
@@ -13924,9 +13924,9 @@ libsodium:
   issues:
     - captures_build_path
 libsolv:
-  version: 0.6.21-1
+  version: 0.6.24-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 libsoundio:
   version: 1.0.2-1
   issues:
@@ -13952,9 +13952,9 @@ libsrtp2:
   issues:
     - random_order_of_pdf_ids_generated_by_latex
 libssh:
-  version: 0.7.3-1
+  version: 0.7.3-2
   issues:
-    - captures_build_path
+    - build_id_differences_only
 libstatgrab:
   version: 0.91-1
   issues:
@@ -14389,9 +14389,9 @@ lilypond:
   issues:
     - fontforge_resets_modification_time
 limba:
-  version: 0.5.6-1
+  version: 0.5.6-2
   issues:
-    - captures_build_path
+    - build_id_differences_only
 limesuite:
   version: 16.8.23.819+git20161221+dfsg-1
   issues:
@@ -15082,9 +15082,9 @@ mate-menus:
   issues:
     - translations_missing_in_desktop_files
 mathgl:
-  version: 2.3.4-1
+  version: 2.3.4-1.1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 mathjax-docs:
   version: 2.5+20150518-1
   issues:
@@ -15385,7 +15385,7 @@ microbiomeutil:
 midori:
   version: 0.5.11-ds1-4
   issues:
-    - captures_build_path
+    - build_id_differences_only
 milkytracker:
   version: 0.90.86+dfsg-2
   issues:
@@ -16228,9 +16228,9 @@ myghty:
   bugs:
     - 835637
 mygui:
-  version: 3.2.2-4
+  version: 3.2.2-5
   issues:
-    - captures_build_path
+    - build_id_differences_only
 mylvmbackup:
   version: 0.15-1
   bugs:
@@ -16258,7 +16258,7 @@ mysql-workbench:
   version: 6.3.4+dfsg-3
   issues:
     - diffoscope_runs_forever
-    - captures_build_path
+    - build_id_differences_only
 mythtvfs-fuse:
   version: 0.6.1-3
   issues:
@@ -17121,9 +17121,9 @@ nvidia-settings:
   issues:
     - user_hostname_manually_added_requiring_further_investigation
 nvidia-texture-tools:
-  version: 2.0.8-1+dfsg-8
+  version: 2.0.8-1+dfsg-8.1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 nvme-cli:
   version: 1.1-1
   issues:
@@ -17183,7 +17183,7 @@ obconf-qt:
 obexftp:
   version: 0.24-5
   issues:
-    - captures_build_path
+    - build_id_differences_only
 obfs4proxy:
   version: 0.0.6-2
   issues:
@@ -17461,9 +17461,9 @@ ocamlviz:
     - timestamps_in_pdf_generated_by_latex
     - captures_build_path
 oce:
-  version: 0.17.1-1
+  version: 0.17.2-2
   issues:
-    - captures_build_path
+    - build_id_differences_only
 oclgrind:
   version: 15.5-1
   comments: |
@@ -17542,7 +17542,7 @@ ognl:
 ogre-1.9:
   version: 1.9.0+dfsg1-7
   issues:
-    - captures_build_path
+    - build_id_differences_only
 ohcount:
   version: 3.0.0-8.2
   issues:
@@ -17686,9 +17686,9 @@ openal-soft:
   issues:
     - build_id_differences_only
 openalpr:
-  version: 2.2.4-1
+  version: 2.3.0-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 openambit:
   version: 0.3-1
   issues:
@@ -17990,9 +17990,9 @@ openssl1.0:
   issues:
     - captures_build_path
 opensurgsim:
-  version: 0.6.0-5
+  version: 0.7.0-5
   issues:
-    - captures_build_path
+    - build_id_differences_only
 opentk:
   version: 1.1.4c+dfsg-2
   comments: |
@@ -18025,9 +18025,9 @@ openvas-cli:
   issues:
     - captures_build_path_via_assert
 openvas-libraries:
-  version: 8.0.8-1
+  version: 8.0.8-2
   issues:
-    - captures_build_path
+    - build_id_differences_only
 openvas-manager:
   version: 6.0.9-1
   issues:
@@ -18132,7 +18132,7 @@ osdclock:
 osgearth:
   version: 2.7.0+dfsg-2
   issues:
-    - captures_build_path
+    - build_id_differences_only
 osgi-annotation:
   version: 6.0.0-1
   issues:
@@ -18180,7 +18180,7 @@ oss4:
 ossim:
   version: 1.8.20.3+ds-5
   issues:
-    - captures_build_path
+    - build_id_differences_only
 ossp-uuid:
   version: 1.6.2-1.5
   issues:
@@ -18216,9 +18216,9 @@ overgod:
   bugs:
     - 827114
 ovito:
-  version: 2.3.3+dfsg1-2
+  version: 2.8.1+dfsg2-5
   issues:
-    - captures_build_path
+    - build_id_differences_only
 owasp-java-html-sanitizer:
   version: 0.1+r88-1
   issues:
@@ -18342,9 +18342,9 @@ pal:
   issues:
     - gcc_captures_build_path
 palapeli:
-  version: 4:15.12.3-1
+  version: 4:16.08.0-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 palbart:
   version: 2.4-7
   issues:
@@ -19176,18 +19176,18 @@ pkg-mozilla-archive-keyring:
   bugs:
     - 846892
 pktools:
-  version: 2.6.7-2
+  version: 2.6.7-3
   issues:
-    - captures_build_path
+    - build_id_differences_only
 plainbox:
   version: 0.5.4-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - randomness_in_documentation_indices_generated_by_sphinx
 plasma-desktop:
-  version: 4:5.4.3-1
+  version: 4:5.8.6-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 plasma-discover:
   version: 5.7.4-1
   issues:
@@ -19228,9 +19228,9 @@ plasma-widget-yawp:
 plasma-workspace:
   version: 4:5.7.4-1
   issues:
-    - captures_build_path
     - different_due_to_umask
     - users_and_groups_in_tarball
+    - build_id_differences_only
 plastex:
   version: 0.9.2-1
   issues:
@@ -19248,7 +19248,7 @@ pldebugger:
 plee-the-bear:
   version: 0.6.0-3.1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 plexus-active-collections:
   version: 1.0~beta2-3
   issues:
@@ -19687,9 +19687,9 @@ price.app:
   issues:
     - gcc_captures_build_path
 prime-phylo:
-  version: 1.0.11-3
+  version: 1.0.11-4
   issues:
-    - captures_build_path
+    - build_id_differences_only
 primer3:
   version: 2.3.7-2
   issues:
@@ -21255,9 +21255,9 @@ qbs:
     - randomness_in_qdoc
     - captures_build_path
 qca2:
-  version: 2.1.1-2
+  version: 2.1.1-4
   issues:
-    - captures_build_path
+    - build_id_differences_only
 qd:
   version: 2.3.11.dfsg-2.3
   issues:
@@ -21334,9 +21334,9 @@ qjackctl:
   bugs:
     - 860770
 qlandkartegt:
-  version: 1.8.1+ds-6
+  version: 1.8.1+ds-7
   issues:
-    - captures_build_path
+    - build_id_differences_only
 qmail-run:
   version: 2.0.2
   issues:
@@ -21409,7 +21409,7 @@ qt-at-spi:
 qt-gstreamer:
   version: 1.2.0-4
   issues:
-    - captures_build_path
+    - build_id_differences_only
 qt3d-opensource-src:
   version: 5.5.1-4
   issues:
@@ -21451,7 +21451,7 @@ qtcreator:
 qtcurve:
   version: 1.8.18+git20160320-3d8622c-3
   issues:
-    - captures_build_path
+    - build_id_differences_only
 qtdeclarative-opensource-src:
   version: 5.4.1-1
   issues:
@@ -23853,17 +23853,17 @@ ros-geometric-shapes:
   issues:
     - gcc_captures_build_path
 ros-geometry:
-  version: 1.11.8-1
+  version: 1.11.8-4
   issues:
-    - captures_build_path
+    - build_id_differences_only
 ros-geometry-experimental:
-  version: 0.5.13-2
+  version: 0.5.13-5
   issues:
-    - captures_build_path
+    - build_id_differences_only
 ros-image-common:
-  version: 1.11.10-5
+  version: 1.11.11-2
   issues:
-    - captures_build_path
+    - build_id_differences_only
 ros-interactive-markers:
   version: 1.11.1-2
   issues:
@@ -23890,25 +23890,25 @@ ros-resource-retriever:
   issues:
     - gcc_captures_build_path
 ros-robot-model:
-  version: 1.12.3-1
+  version: 1.12.6-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 ros-ros-comm:
-  version: 1.12.2-5
+  version: 1.12.6-2
   issues:
-    - captures_build_path
+    - build_id_differences_only
 ros-roscpp-core:
   version: 0.6.0-1
   issues:
     - gcc_captures_build_path
 ros-rospack:
-  version: 2.3.0-4
+  version: 2.3.1-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 ros-rviz:
-  version: 1.11.10+dfsg-2
+  version: 1.12.4+dfsg-2
   issues:
-    - captures_build_path
+    - build_id_differences_only
 ros-vision-opencv:
   version: 1.11.11+ds-3
   issues:
@@ -25282,9 +25282,9 @@ sitemesh:
   issues:
     - random_order_in_documentation_generated_by_javadoc
 sitplus:
-  version: 1.0.3-5
+  version: 1.0.3-5.1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 sjeng:
   version: 11.2-8
   issues:
@@ -25482,7 +25482,7 @@ smlsharp:
 smokegen:
   version: 4:4.14.3-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 smpq:
   version: 1.5-1
   issues:
@@ -25574,9 +25574,9 @@ soapyremote:
   issues:
     - gcc_captures_build_path
 soapysdr:
-  version: 0.5.2-1
+  version: 0.5.4-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 soci:
   version: 3.2.3-1
   issues:
@@ -26235,9 +26235,9 @@ svnkit:
   issues:
     - random_order_in_documentation_generated_by_javadoc
 svxlink:
-  version: 15.11-1
+  version: 15.11-2
   issues:
-    - captures_build_path
+    - build_id_differences_only
 swac-get:
   version: 0.3-2.1
   issues:
@@ -26249,9 +26249,9 @@ swaks:
   issues:
     - random_order_in_md5sums
 swami:
-  version: 2.0.0+svn389-3
+  version: 2.0.0+svn389-4
   issues:
-    - captures_build_path
+    - build_id_differences_only
 swapspace:
   version: 1.10-4
   issues:
@@ -26547,7 +26547,7 @@ tasque:
 tatan:
   version: 1.0.dfsg1-7
   issues:
-    - captures_build_path
+    - build_id_differences_only
 tau:
   version: 2.17.3.1.dfsg-4
   issues:
@@ -26688,9 +26688,9 @@ telepathy-python:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
 telepathy-qt:
-  version: 0.9.6.1-6
+  version: 0.9.6.1-6.1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 tellico:
   version: 2.3.9+dfsg.1-1.1
   issues:
@@ -27700,9 +27700,9 @@ urca:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
 urdfdom:
-  version: 0.4.1-1
+  version: 1.0.0-2
   issues:
-    - captures_build_path
+    - build_id_differences_only
 urjtag:
   version: 0.10+r2007-1.2
   issues:
@@ -28046,7 +28046,7 @@ volk:
   version: 1.2.2-1
   issues:
     - unsorted_file_glob_by_cmake
-    - captures_build_path
+    - build_id_differences_only
 voms-api-java:
   version: 3.2.0-1
   issues:
@@ -28104,9 +28104,9 @@ vtgrab:
   bugs:
     - 817717
 vtk-dicom:
-  version: 0.7.8-1
+  version: 0.7.10-1
   issues:
-    - captures_build_path
+    - build_id_differences_only
 vtk6:
   version: 6.2.0+dfsg1-4
   comments: |
@@ -29247,7 +29247,7 @@ yahtzeesharp:
 yajl:
   version: 2.1.0-2
   issues:
-    - captures_build_path
+    - build_id_differences_only
 yaml-cpp:
   version: 0.5.2-3
   issues:
@@ -29518,9 +29518,9 @@ zthreads:
   bugs:
     - 812027
 zulucrypt:
-  version: 4.9.0-2
+  version: 5.0.2-2
   issues:
-    - captures_build_path
+    - build_id_differences_only
 zvbi:
   version: 0.2.35-13
   issues:
