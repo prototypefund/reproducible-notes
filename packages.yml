@@ -1,7 +1,6 @@
 0ad:
   version: 0.0.20-2
   issues:
-    - diffoscope_runs_forever
     - gcc_captures_build_path
 3270font:
   version: 1.2-1
@@ -122,7 +121,6 @@ acl2:
 acmetool:
   version: 0.0.51-1
   issues:
-    - diffoscope_runs_forever
     - golang_compiler_captures_build_path_in_binary
 acpitool:
   version: 0.5.1-4
@@ -511,7 +509,6 @@ ants:
   version: 2.1.0~rc2+git3-g9103999-4
   issues:
     - timestamps_in_manpages_generated_by_help2man
-    - diffoscope_runs_forever
 anytun:
   version: 0.3.5-1
   comments: |
@@ -668,7 +665,6 @@ apg:
 apitrace:
   version: 7.1+git20160531.2d78bef0+repack-1.1
   issues:
-    - diffoscope_runs_forever
     - gcc_captures_build_path
 aplus-fsf:
   version: 4.22.1-7
@@ -784,7 +780,6 @@ ardour:
   version: 1:5.0~dfsg-2
   issues:
     - captures_build_path
-    - diffoscope_runs_forever
 arduino-mighty-1284p:
   version: 1-2
   comments: |
@@ -859,10 +854,6 @@ array-info:
   version: 0.16-1
   issues:
     - gcc_captures_build_path
-arrayfire:
-  version: 3.3.2+dfsg1-4
-  issues:
-    - diffoscope_runs_forever
 artikulate:
   version: 4:16.08.2-1
   issues:
@@ -1218,7 +1209,6 @@ axiom:
   issues:
     - timestamps_in_dvi_generated_by_latex
     - blacklisted_on_jenkins_armhf_only
-    - diffoscope_runs_forever
 axis:
   version: 1.4-25
   issues:
@@ -1262,10 +1252,6 @@ bacula-doc:
     - timestamps_in_ps_generated_by_dvips
     - pdf_created_by_ghostscript
     - captures_users_gecos
-bagel:
-  version: 0.0~git20160507-3
-  issues:
-    - diffoscope_runs_forever
 baitfisher:
   version: 1.0+dfsg-1
   bugs:
@@ -1682,8 +1668,6 @@ blender:
     Embed build time:
     https://sources.debian.net/src/blender/2.72.b%2Bdfsg0-3/build_files/cmake/buildinfo.cmake/?hl=132:133#L132
     https://sources.debian.net/src/blender/2.72.b%2Bdfsg0-3/source/creator/buildinfo.c/?hl=40:41#L40
-  issues:
-    - diffoscope_runs_forever
 blends:
   version: 0.6.92.2
   comments: |
@@ -2354,7 +2338,6 @@ cegui-mk2:
   version: 0.8.7-1
   issues:
     - unsorted_file_glob_by_cmake
-    - diffoscope_runs_forever
 ceilometer:
   version: 2015.1.0-6
   comments: |
@@ -2782,7 +2765,6 @@ clutter-gesture:
 cmake:
   version: 3.6.1-1
   issues:
-    - diffoscope_runs_forever
     - gcc_captures_build_path
 cmocka:
   version: 1.0.1-2
@@ -3043,7 +3025,6 @@ conky:
 connectome-workbench:
   version: 1.2.3-1
   issues:
-    - diffoscope_runs_forever
     - gcc_captures_build_path
 consensuscore:
   version: 1.0.2-2
@@ -3067,10 +3048,6 @@ consul-migrate:
   version: 0.1.0-1
   bugs:
     - 818121
-containerd:
-  version: 0.2.1~ds1-1
-  issues:
-    - diffoscope_runs_forever
 contextfree:
   version: 3.0.5+dfsg1-2.2
   bugs:
@@ -3132,7 +3109,6 @@ covered:
 coyim:
   version: 0.3.7-2
   issues:
-    - diffoscope_runs_forever
     - golang_compiler_captures_build_path_in_binary
 coz-profiler:
   version: 0.1.0-1
@@ -3223,7 +3199,6 @@ crash:
 crawl:
   version: 2:0.18.1-1
   issues:
-    - diffoscope_runs_forever
     - gcc_captures_build_path
 critterding:
   version: 1.0-beta12.1-1.3
@@ -3763,7 +3738,6 @@ deal.ii:
     on i386 and armhf affected by https://bugs.debian.org/835406
   issues:
     - blacklisted_on_jenkins_armhf_only
-    - diffoscope_runs_forever
 debbugs:
   version: 2.4.1.1
   issues:
@@ -4011,8 +3985,6 @@ dicom3tools:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/dicom3tools/1.00%7E20150717110018-1/support/setversion/#L3
-  issues:
-    - diffoscope_runs_forever
 dict-bouvier:
   version: 6.revised-3.2
   issues:
@@ -4281,7 +4253,6 @@ dokujclient:
 dolfin:
   version: 1.6.0-4
   issues:
-    - diffoscope_runs_forever
     - unsorted_file_glob_by_cmake
     - gcc_captures_build_path
 dolphin:
@@ -4817,10 +4788,6 @@ elasticsearch:
   version: 1.7.5-1
   bugs:
     - 834080
-elastix:
-  version: 4.8-10
-  issues:
-    - diffoscope_runs_forever
 electric-fence:
   version: 2.2.4
   issues:
@@ -5201,7 +5168,6 @@ esys-particle:
   version: 2.3-2
   issues:
     - randomness_in_documentation_generated_by_epydoc
-    - diffoscope_runs_forever
     - timestamps_in_ps_generated_by_dvips
     - records_build_flags
 etcd:
@@ -5686,10 +5652,6 @@ fieldslib:
   version: 113.33.03-2
   issues:
     - captures_build_path
-fife:
-  version: 0.3.5-1
-  issues:
-    - diffoscope_runs_forever
 fifechan:
   version: 0.1.2+git160920-1
   issues:
@@ -5805,7 +5767,6 @@ flann:
   version: 1.8.4-4.1
   issues:
     - timestamps_in_pdf_generated_by_latex
-    - diffoscope_runs_forever
     - fonts_in_pdf_files
 flare-engine:
   version: 0.19-2
@@ -5871,7 +5832,6 @@ flightcrew:
 flightgear:
   version: 1:2016.2.1+dfsg-6
   issues:
-    - diffoscope_runs_forever
     - gcc_captures_build_path
 flint:
   version: 2.5.2-9
@@ -6379,7 +6339,6 @@ freefem++:
   issues:
     - captures_build_path
     - records_build_flags
-    - diffoscope_runs_forever
 freefem3d:
   version: 1.0pre10-3.2
   issues:
@@ -6400,10 +6359,6 @@ freelan:
   version: 2.0-2
   comments: |
     Part of the patch is https://gist.github.com/lamby/ecf8a75b06aab0b91b519b6157422288/raw but does not fix everything
-freemat:
-  version: 4.2+dfsg1-1
-  issues:
-    - diffoscope_runs_forever
 freeorion:
   version: 0.4.6-4
   issues:
@@ -6881,11 +6836,6 @@ gcc-5:
       No clue: b~lto13.adb, b~lto13.ads.
   issues:
     - blacklisted_on_jenkins
-    - diffoscope_runs_forever
-gcc-5-cross:
-  version: 11
-  issues:
-    - diffoscope_runs_forever
 gcc-5-cross-ports:
   version: 8
   issues:
@@ -6894,13 +6844,8 @@ gcc-6:
   version: 6.1.1-3
   issues:
     - blacklisted_on_jenkins
-    - diffoscope_runs_forever
   bugs:
     - 862113
-gcc-6-cross:
-  version: 12
-  issues:
-    - diffoscope_runs_forever
 gcc-6-cross-ports:
   version: 8
   issues:
@@ -6909,11 +6854,6 @@ gcc-7:
   version: 7-20170407-1
   issues:
     - blacklisted_on_jenkins_armhf_only
-    - diffoscope_runs_forever
-gcc-arm-none-eabi:
-  version: 15:4.9.3+svn231177-1
-  issues:
-    - diffoscope_runs_forever
 gcc-avr:
   version: 1:4.8.1+Atmel3.4.4-2
   comments: |
@@ -6941,7 +6881,6 @@ gcc-mingw-w64:
   version: 17
   issues:
     - captures_shell_variable_in_autofoo_script
-    - diffoscope_runs_forever
 gcc-msp430:
   version: 4.6.3~mspgcc-20120406-7
   issues:
@@ -6996,7 +6935,6 @@ gdb:
   issues:
     - timestamps_in_jar
     - timestamps_in_dvi_generated_by_latex
-    - diffoscope_runs_forever
     - captures_build_path
     - timestamps_in_ps_generated_by_dvips
     - different_due_to_umask
@@ -7298,7 +7236,6 @@ gimp:
 ginkgocadx:
   version: 3.8.3-1
   issues:
-    - diffoscope_runs_forever
     - build_id_differences_only
 gio-sharp:
   version: 2.22.3-3
@@ -7722,7 +7659,6 @@ gnucash-docs:
 gnudatalanguage:
   version: 0.9.6v2-3
   issues:
-    - diffoscope_runs_forever
     - gcc_captures_build_path
 gnugo:
   version: 3.8-9
@@ -7822,7 +7758,6 @@ goaccess:
 gobgp:
   version: 1.10-1
   issues:
-    - diffoscope_runs_forever
     - golang_compiler_captures_build_path_in_binary
 gocode:
   version: 20150303-3
@@ -8331,7 +8266,6 @@ gr-radar:
   version: 0.0.0.20160615-3
   issues:
     - build_id_differences_only
-    - diffoscope_runs_forever
 gr-rds:
   version: 3.7.0.2.a542331-1
   issues:
@@ -8496,8 +8430,6 @@ gromacs:
   version: 5.1.2-1
   comments: |
     Randomness in Doxygen graph.
-  issues:
-    - diffoscope_runs_forever
 gromit:
   version: 20041213-9
   issues:
@@ -8541,7 +8473,6 @@ grub-installer:
 grub2:
   version: 2.02~beta2-23
   issues:
-    - diffoscope_runs_forever
     - captures_build_path
   bugs:
     - 787795
@@ -9187,7 +9118,6 @@ httraqt:
 hugin:
   version: 2016.2.0~rc1+dfsg-2
   issues:
-    - diffoscope_runs_forever
     - build_id_differences_only
 hugo:
   version: 0.15+git20160109.147.dd1d655-1
@@ -9497,10 +9427,6 @@ input-utils:
   version: 1.0-1.1
   issues:
     - gcc_captures_build_path
-insighttoolkit4:
-  version: 4.10.0-dfsg1-3
-  issues:
-    - diffoscope_runs_forever
 installation-guide:
   version: 20170312
   issues:
@@ -11081,10 +11007,6 @@ krfb:
   version: 4:16.04.0-1
   issues:
     - build_id_differences_only
-krita:
-  version: 1:3.1.1+dfsg-1
-  issues:
-    - diffoscope_runs_forever
 kross:
   version: 5.26.0-1
   issues:
@@ -11339,7 +11261,6 @@ lammps:
   version: 0~20150313.gitfa668e1-1
   issues:
     - timestamps_from_cpp_macros
-    - diffoscope_runs_forever
     - random_id_in_pdf_generated_by_dblatex
 lasi:
   version: 1.1.0-1.1
@@ -11783,7 +11704,6 @@ libbpp-core:
 libbpp-phyl:
   version: 2.2.0-1
   issues:
-    - diffoscope_runs_forever
     - gcc_captures_build_path
 libbrahe:
   version: 1.3.2-5
@@ -12469,10 +12389,6 @@ libint:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - blacklisted_on_jenkins_armhf_only
-libint2:
-  version: 2.1.0-3
-  issues:
-    - diffoscope_runs_forever
 libio-aio-perl:
   version: 4.34-1
   issues:
@@ -12718,10 +12634,6 @@ libkolab:
   version: 1.0.2-3
   issues:
     - gcc_captures_build_path
-libkolabxml:
-  version: 1.0.2-2
-  issues:
-    - diffoscope_runs_forever
 libkpeople:
   version: 0.3.0-2
   issues:
@@ -13311,7 +13223,6 @@ libreoffice:
     Partially blacklisted to save resources in the meantime on armhf.
   issues:
     - blacklisted_on_jenkins_armhf_only
-    - diffoscope_runs_forever
 librep:
   version: 0.90.2-1.4
   comments: |
@@ -13676,7 +13587,6 @@ libview:
 libvigraimpex:
   version: 1.10.0+dfsg-11
   issues:
-    - diffoscope_runs_forever
     - captures_build_path
   bugs:
     - 852051
@@ -13895,7 +13805,6 @@ lift:
 liggghts:
   version: 3.4.0+repack1-2
   issues:
-    - diffoscope_runs_forever
     - build_id_differences_only
 lightdm-kde:
   version: 0.3.2.2-1
@@ -13949,7 +13858,6 @@ linux:
   version: 4.6.3-1
   issues:
     - blacklisted_on_jenkins_armhf_only
-    - diffoscope_runs_forever
   bugs:
     - 859807
 linux-grsec:
@@ -14049,12 +13957,10 @@ llvm-toolchain-3.8:
   version: 1:3.8-1
   issues:
     - blacklisted_on_jenkins_armhf_only
-    - diffoscope_runs_forever
 llvm-toolchain-3.9:
   version: 1:3.9-1
   issues:
     - blacklisted_on_jenkins_armhf_only
-    - diffoscope_runs_forever
 llvm-toolchain-4.0:
   version: 1:4.0-1
   issues:
@@ -14065,7 +13971,6 @@ llvm-toolchain-snapshot:
   version: 1:3.8~svn254193-1
   issues:
     - blacklisted_on_jenkins_armhf_only
-    - diffoscope_runs_forever
 lmdb:
   version: 0.9.18-4
   issues:
@@ -14363,7 +14268,6 @@ lysdr:
 lyx:
   version: 2.2.0-2
   issues:
-    - diffoscope_runs_forever
     - captures_build_path
 m2crypto:
   version: 0.24.0-1.1
@@ -14557,10 +14461,6 @@ maria:
   issues:
     - randomness_in_html_generated_by_texi2html
     - gcc_captures_build_path
-mariadb-10.1:
-  version: 10.1.20-3
-  issues:
-    - diffoscope_runs_forever
 mariadb-connector-c:
   version: 2.3.0-2
   issues:
@@ -14881,10 +14781,6 @@ mhwaveedit:
   version: 1.4.23-1
   issues:
     - gcc_captures_build_path
-mia:
-  version: 2.4.3-5
-  issues:
-    - diffoscope_runs_forever
 micro-proxy:
   version: 20021030+debian-5
   issues:
@@ -15038,10 +14934,6 @@ mknfonts.tool:
   version: 0.5-11
   issues:
     - gcc_captures_build_path
-mkvtoolnix:
-  version: 9.1.0-1
-  issues:
-    - diffoscope_runs_forever
 mldemos:
   version: 0.5.1-3
   bugs:
@@ -15055,10 +14947,6 @@ mlgmp:
   version: 20021123-18
   issues:
     - captures_build_path
-mlpack:
-  version: 2.0.2-1
-  issues:
-    - diffoscope_runs_forever
 mlpost:
   version: 0.8.1-6
   issues:
@@ -15402,10 +15290,6 @@ morsegen:
   version: 0.2.1-1
   bugs:
     - 782219
-mothur:
-  version: 1.38.0-1
-  issues:
-    - diffoscope_runs_forever
 motif:
   version: 2.3.4-10
   bugs:
@@ -15419,7 +15303,6 @@ mountpy:
 mozjs24:
   version: 24.2.0-3.1
   issues:
-    - diffoscope_runs_forever
     - gcc_captures_build_path
 mozvoikko:
   version: 2.0.1-1
@@ -15529,7 +15412,6 @@ mrpt:
     - timestamps_from_cpp_macros
     - blacklisted_on_jenkins_armhf_only
     - different_encoding
-    - diffoscope_runs_forever
     - fonts_in_pdf_files
 mrrescue:
   version: 1.02c-2
@@ -15749,7 +15631,6 @@ mysql-ocaml:
 mysql-workbench:
   version: 6.3.4+dfsg-3
   issues:
-    - diffoscope_runs_forever
     - build_id_differences_only
 mythtvfs-fuse:
   version: 0.6.1-3
@@ -15850,7 +15731,6 @@ ncbi-blast+:
     Captures kernel version and hostname.
   issues:
     - captures_kernel_version
-    - diffoscope_runs_forever
 ncbi-entrez-direct:
   version: 5.90.20161221+ds-4
   issues:
@@ -16368,10 +16248,6 @@ node-zlib:
   version: 1.0.5-1
   bugs:
     - 719368
-nodejs:
-  version: 4.4.6~dfsg-1
-  issues:
-    - diffoscope_runs_forever
 noiz2sa:
   version: 0.51a-10.1
   bugs:
@@ -16383,7 +16259,6 @@ nomacs:
 nomad:
   version: 0.4.0+dfsg-1
   issues:
-    - diffoscope_runs_forever
     - captures_build_path
     - golang_compiler_captures_build_path_in_binary
 nordlicht:
@@ -17176,7 +17051,6 @@ openclipart2:
   version: 2.0+dfsg-1
   issues:
     - blacklisted_on_jenkins_armhf_only
-    - diffoscope_runs_forever
 openclonk:
   version: 7.0-3
   issues:
@@ -17227,14 +17101,9 @@ openexr-viewers:
   version: 1.0.1-6
   issues:
     - gcc_captures_build_path
-openfoam:
-  version: 4.0+dfsg1-3
-  issues:
-    - diffoscope_runs_forever
 opengm:
   version: 2.3.6+20160131-2
   issues:
-    - diffoscope_runs_forever
     - gcc_captures_build_path
 openhackware:
   version: 0.4.1+git-20140423.c559da7c-2
@@ -17261,10 +17130,6 @@ openigtlink:
     - gcc_captures_build_path
   bugs:
     - 860278
-openimageio:
-  version: 1.6.16~dfsg0-1
-  issues:
-    - diffoscope_runs_forever
 openjade:
   version: 1.4devel1-21.1
   issues:
@@ -17282,7 +17147,6 @@ openjdk-8:
   version: 8u40~b09-1
   issues:
     - timestamps_from_cpp_macros
-    - diffoscope_runs_forever
     - blacklisted_on_jenkins_armhf_only
 openjdk-8-jre-dcevm:
   version: 8u74-1
@@ -17364,7 +17228,6 @@ openms:
     The «*» on the find(1) command line may introduce a locale dependency (shell globs are expanded in a locale-sensitive sorted order), depending on the names of immediate children of ${binDir} (to which the script cd's).
   issues:
     - collation_order_varies_by_locale
-    - diffoscope_runs_forever
 openocd:
   version: 0.9.0-1
   issues:
@@ -17385,14 +17248,6 @@ openscad:
   version: 2015.03-1+dfsg-3
   issues:
     - captures_build_path
-openscenegraph:
-  version: 3.2.3+dfsg1-2
-  issues:
-    - diffoscope_runs_forever
-openscenegraph-3.4:
-  version: 3.4.0+dfsg1-4
-  issues:
-    - diffoscope_runs_forever
 opensips:
   version: 2.2.2-3
   issues:
@@ -17434,7 +17289,6 @@ openturns:
     Embeds the build date:
     https://sources.debian.net/src/openturns/1.5-7/lib/include/CMakeLists.txt/#L29
   issues:
-    - diffoscope_runs_forever
     - randomness_in_r_rdb_rds_databases
 openvas-cli:
   version: 1.4.4-1
@@ -17609,7 +17463,6 @@ otags:
 otb:
   version: 5.6.1+dfsg-1
   issues:
-    - diffoscope_runs_forever
     - gcc_captures_build_path
 otcl:
   version: 1.14+dfsg-3
@@ -17911,7 +17764,6 @@ pcl:
   version: 1.7.2-14
   issues:
     - blacklisted_on_jenkins_armhf_only
-    - diffoscope_runs_forever
 pcp:
   version: 3.10.1
   issues:
@@ -17946,7 +17798,6 @@ pcscada:
 pcsx2:
   version: 1.4.0+dfsg-2
   issues:
-    - diffoscope_runs_forever
     - captures_build_path
 pd-arraysize:
   version: 0.1-3
@@ -18273,7 +18124,6 @@ pg-repack:
 pgadmin3:
   version: 1.22.1-1
   issues:
-    - diffoscope_runs_forever
     - sphinx_htmlhelp_readdir_sensitive
 pgaudit:
   version: 1.1.0-1
@@ -18472,19 +18322,11 @@ piespy:
   version: 0.4.0-3
   issues:
     - timestamps_in_jar
-piglit:
-  version: 0~git20150829-59d7066-1
-  issues:
-    - diffoscope_runs_forever
 pike7.8:
   version: 7.8.866-3
   issues:
     - timestamps_from_cpp_macros
     - captures_kernel_version
-pike8.0:
-  version: 8.0.28-4
-  issues:
-    - diffoscope_runs_forever
 pillow:
   version: 3.3.1-1
   issues:
@@ -18807,10 +18649,6 @@ polylib:
   version: 5.22.5-3+dfsg
   issues:
     - gcc_captures_build_path
-polymake:
-  version: 3.0r2-2
-  issues:
-    - diffoscope_runs_forever
 polyml:
   version: 5.6-8
   issues:
@@ -19539,10 +19377,6 @@ pylirc:
   version: 0.0.5-3
   issues:
     - gcc_captures_build_path
-pylucene:
-  version: 4.10.1+dfsg-1
-  issues:
-    - diffoscope_runs_forever
 pymad:
   version: 0.9-1
   issues:
@@ -20367,7 +20201,6 @@ python-scipy:
     - timestamps_in_documentation_generated_by_sphinx
     - timestamps_in_pdf_generated_by_matplotlib
     - blacklisted_on_jenkins_armhf_only
-    - diffoscope_runs_forever
 python-secretstorage:
   version: 2.1.1-1
   issues:
@@ -20381,7 +20214,6 @@ python-shapely:
 python-shogun:
   version: 3.2.0-5.2
   issues:
-    - diffoscope_runs_forever
     - gcc_captures_build_path
 python-simpy3:
   version: 3.0.7+dfsg-1
@@ -20607,8 +20439,6 @@ qemu:
       https://sources.debian.net/src/qemu/1:2.6%2Bdfsg-3/scripts/hxtool/#L48-L51
     The strings containing «\n» [two bytes] sequences are in *.hx files.
     Makefile invokes hxtool on those files.
-  issues:
-    - diffoscope_runs_forever
 qemu-launcher:
   version: 1.7.4-1
   issues:
@@ -20949,7 +20779,6 @@ quantlib:
 quantlib-swig:
   version: 1.8-2
   issues:
-    - diffoscope_runs_forever
     - gcc_captures_build_path
 quelcom:
   version: 0.4.0-13
@@ -22657,7 +22486,6 @@ rabbitmq-server:
 racket:
   version: 6.1.1-3
   issues:
-    - diffoscope_runs_forever
     - blacklisted_on_jenkins_armhf_only
 radare2:
   version: 0.9.6-3.1
@@ -23038,10 +22866,6 @@ rjava:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
-rkt:
-  version: 1.10.0+dfsg-1
-  issues:
-    - diffoscope_runs_forever
 rkward:
   version: 0.6.5-1
   issues:
@@ -23820,10 +23644,6 @@ ruby-zoom:
   version: 0.4.1-7
   issues:
     - gcc_captures_build_path
-ruby2.3:
-  version: 2.3.0-1
-  issues:
-    - diffoscope_runs_forever
 rubyluabridge:
   version: 0.8.0-1
   issues:
@@ -24267,10 +24087,6 @@ seqan:
   version: 1.4.1+dfsg-2
   issues:
     - blacklisted_on_jenkins_armhf_only
-seqan2:
-  version: 2.2.0+dfsg-2
-  issues:
-    - diffoscope_runs_forever
 serf:
   version: 1.3.8-3
   comments: |
@@ -24312,7 +24128,6 @@ sexplib310:
 sfcgal:
   version: 1.2.2-1
   issues:
-    - diffoscope_runs_forever
     - gcc_captures_build_path
 sfepy:
   version: 2015.1-1
@@ -24933,10 +24748,6 @@ spacezero:
   version: 0.80.06-1
   issues:
     - gcc_captures_build_path
-spades:
-  version: 3.9.0+dfsg-1
-  issues:
-    - diffoscope_runs_forever
 spamassassin:
   version: 3.4.1-6
   issues:
@@ -25075,7 +24886,6 @@ spring:
   issues:
     - timestamps_in_zip
     - different_due_to_umask
-    - diffoscope_runs_forever
 springlobby:
   version: 0.255+dfsg-1
   issues:
@@ -25447,7 +25257,6 @@ supertuxkart:
   version: 0.9.1-3
   issues:
     - unsorted_file_glob_by_cmake
-    - diffoscope_runs_forever
     - gcc_captures_build_path
 surefire:
   version: 2.17-2
@@ -26748,7 +26557,6 @@ uftrace:
 uhd:
   version: 3.9.5-1
   issues:
-    - diffoscope_runs_forever
     - captures_build_path
 uhub:
   version: 0.4.1-3
@@ -27550,7 +27358,6 @@ wine-development:
   version: 1.7.51-1
   issues:
     - timestamps_from_cpp_macros
-    - diffoscope_runs_forever
 winff:
   version: 1.5.3-4
   comments: |
@@ -28692,4 +28499,3 @@ zypper:
   version: 1.12.4-1
   issues:
     - captures_build_path
-    - diffoscope_runs_forever
