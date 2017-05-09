@@ -4206,6 +4206,10 @@ docbook-defguide:
     First build on armhf was killed after 18h…
   issues:
     - blacklisted_on_jenkins_armhf_only
+docbook-xsl-saxon:
+  version: 1.00.dfsg.1-6
+  issues:
+    - gcj_captures_build_path
 dochelp:
   version: 0.1.3
   issues:
