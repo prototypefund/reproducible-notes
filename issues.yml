@@ -1254,22 +1254,12 @@ user_in_documentation_generated_by_gsdoc:
 captures_build_path:
   description: |
     Captures build path, e.g., /build/1st/foo-42.0 v. /build/foo-42.0/2nd
-    Currently we vary the build path only when testing packages from unstable and experimental, for stretch we recommend that rebuilds are done in the same path as the original build.
+    Currently we vary the build path only when testing packages from unstable
+    and experimental, for stretch we recommend that rebuilds are done in the
+    same path as the original build.
     .
-    Most of the packages here (~2k/~3k at the time of writing) are fixed by our
-    pending GCC patch:
-    .
-    https://gcc.gnu.org/ml/gcc-patches/2017-04/msg00513.html
-    .
-    When this is accepted into GCC upstream, commit 8a2707c5 may be
-    (un-)reverted to remove these packages. In the meantime, please do not
-    remove this issue, nor mark it as deterministic, nor untag these packages.
-    .
-    The remaining ~1k packages are not completely fixed by this patch, so this
-    issue should remain, even when our upstream patch is accepted. However,
-    most of these tagged packages may be better re-classified under some other,
-    more specific, build-path related issue - most of which were added after
-    many packages had already been classified into this issue.
+    This issue is only for miscellaneous issues which need individual fixes,
+    please create new issues for specific issues, e.g. gcc_captures_build_path.
     .
     Here follows some general tips for packages using the standard GNU toolchain:
     .
@@ -1285,7 +1275,7 @@ captures_build_path:
      • https://lists.alioth.debian.org/pipermail/reproducible-builds/Week-of-Mon-20160822/006788.html
      • https://lists.alioth.debian.org/pipermail/reproducible-builds/Week-of-Mon-20160905/006984.html
      • https://lists.alioth.debian.org/pipermail/reproducible-builds/Week-of-Mon-20160912/007076.html
-  deterministic: False  # XXX FIXME this is actually true
+  deterministic: True
 captures_build_path_in_beam_files:
   description: |
     Erlang beam files contain the beam path, in a field apparently named "source".
@@ -1636,3 +1626,20 @@ docbook_to_man_one_byte_delta:
     https://paste.debian.net/891000 seems to only actually break on i386 (tested on am64 -m32).
     "\n\011" gets translated to " \111" (capital I), seemingly by complete coincidence.
   url: https://bugs.debian.org/842635
+gcc_captures_build_path:
+  description: |
+    Captures build path, e.g., /build/1st/foo-42.0 v. /build/foo-42.0/2nd
+    Currently we vary the build path only when testing packages from unstable
+    and experimental, for stretch we recommend that rebuilds are done in the same
+    path as the original build.
+    .
+    These packages should all be reproducible, because Jenkins is running a custom
+    toolchain which contains a patch to fix this specific issue:
+    .
+    https://gcc.gnu.org/ml/gcc-patches/2017-04/msg00513.html
+    .
+    When this is accepted into GCC upstream, we could remove this note.
+    In the meantime, please do not remove this issue, nor mark it as deterministic,
+    nor untag these packages.
+  deterministic: False
+
