@@ -1646,3 +1646,7 @@ gcj_captures_build_path:
   description: |
     Captures build path, e.g., /build/1st/foo-42.0 v. /build/foo-42.0/2nd
   deterministic: False
+ocaml_captures_build_path:
+  description: |
+    Captures build path, e.g., /build/1st/foo-42.0 v. /build/foo-42.0/2nd
+  deterministic: False
