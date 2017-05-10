@@ -1573,6 +1573,11 @@ formatdb_from_ncbi_blastplus_captures_build_time:
 randomness_in_t3g_files_generated_tslmendian:
   description: |
     Looks like arbitrary memory?
+randomness_in_swf_files_generated_by_as3compile:
+  status:
+    done
+  description: |
+    as3compile (src:sfwtools) generates non-determinstic .swf files.
 nondeterminism_in_java_classes_generated_by_jxc:
   description: |
     The "JAXB schema compiler" jxc (src: openjdk-{6,7} etc.) generates .class
