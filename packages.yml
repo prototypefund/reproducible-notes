@@ -3836,8 +3836,6 @@ debiandoc-sgml-doc:
     - 828790
 debiandoc-sgml-doc-pt-br:
   version: 1.1.12
-  issues:
-    - debiandoc_sgml_timestamp
   bugs:
     - 828680
 debirf:
@@ -10396,10 +10394,6 @@ kchmviewer:
   version: 7.5-1
   issues:
     - captures_build_path
-kcm-ufw:
-  version: 0.4.3-1
-  issues:
-    - captures_build_path
 kcodecs:
   version: 5.25.0-1
   issues:
@@ -14630,8 +14624,6 @@ mbw:
     - gcc_captures_build_path
 mc:
   version: 3:4.8.17-1
-  issues:
-    - captures_build_path
   bugs:
     - 828683
 mclibs:
@@ -18646,8 +18638,6 @@ policyd-spf-fs:
   version: 0+svn27-1
   comments: |
     [experimental/amd64]
-  issues:
-    - captures_build_path
 polkit-qt-1:
   version: 0.112.0-5
   issues:
@@ -25517,10 +25507,6 @@ tagainijisho:
   issues:
     - qt_translate_noop_nondeterminstic_ordering
     - gcc_captures_build_path
-tagcoll2:
-  version: 2.0.14-1
-  issues:
-    - timestamps_in_documentation_generated_with_libwibble
 taglib:
   version: 1.11+dfsg.1-0.3
   issues:
