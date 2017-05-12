@@ -27313,10 +27313,8 @@ widelands:
     - gcc_captures_build_path
 wikipediafs:
   version: 0.4-6
-  comments: |
-    [i386 only]
-    │   │   │   │   │ -This manual page documents the \fBmount.wikipediafs\fR         command and general usageoof WikipediaFS.
-    │   │   │   │   │ +This manual page documents the \fBmount.wikipediafs\fR         command and general usage of WikipediaFS.
+  issues:
+    - docbook_to_man_one_byte_delta
 wildmidi:
   version: 0.4.0-1
   issues:
