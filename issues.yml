@@ -1630,6 +1630,8 @@ docbook_to_man_one_byte_delta:
     The tab issue is undefined behaviour in memcpy, see bug.
     https://paste.debian.net/891000 seems to only actually break on i386 (tested on am64 -m32).
     "\n\011" gets translated to " \111" (capital I), seemingly by complete coincidence.
+    .
+    Should be fixed in 1:2.0.0-36
   url: https://bugs.debian.org/842635
 gcc_captures_build_path:
   description: |
