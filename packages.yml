@@ -16363,8 +16363,6 @@ nsnake:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/nsnake/3.0.1-2/Makefile/#L42
-  issues:
-    - different_encoding
   bugs:
     - 833612
 nspr:
@@ -23571,8 +23569,6 @@ ruby-standalone:
   version: 0.5.1
   comments: |
     Embeds the build date into manpage.
-  issues:
-    - timestamps_in_documentation_generated_by_pandoc
 ruby-termios:
   version: 1.0.0-1
   issues:
@@ -26571,8 +26567,6 @@ uisp:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/uisp/20050207-4.2/configure.ac/#L56
-  issues:
-    - captures_build_path
   bugs:
     - 832290
 ulatencyd:
