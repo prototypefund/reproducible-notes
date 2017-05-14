@@ -13952,6 +13952,10 @@ llvm-toolchain-snapshot:
   version: 1:3.8~svn254193-1
   issues:
     - blacklisted_on_jenkins_armhf_only
+llvmlite:
+  version: 0.15.0+git20161228.95d8c7c-2
+  issues:
+    - python_versioneer_uses_parentdir
 lmdb:
   version: 0.9.18-4
   issues:
