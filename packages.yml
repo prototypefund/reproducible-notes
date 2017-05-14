@@ -4324,6 +4324,10 @@ dpdk:
   issues:
     - captures_build_path
     - random_order_in_python_environment_pickle
+dpkg:
+  version: 1.18.23
+  bugs:
+    862116
 dpmb:
   version: 0~2016.06.30
   issues:
@@ -6833,6 +6837,8 @@ gcc-6:
   version: 6.1.1-3
   issues:
     - blacklisted_on_jenkins
+  bugs:
+    862113
 gcc-6-cross-ports:
   version: 8
   issues:
@@ -20832,7 +20838,7 @@ quvi:
   bugs:
     - 835259
 r-base:
-  version: 3.1.2-2
+  version: 3.4.0-1
   issues:
     - timestamps_in_gzip_headers
     - user_hostname_manually_added_requiring_further_investigation
@@ -20842,6 +20848,7 @@ r-base:
     - different_encoding
   bugs:
     - 783130
+    - 862112
 r-bioc-affy:
   version: 1.50.0-1
   issues:
