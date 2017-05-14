@@ -26977,6 +26977,8 @@ vim-command-t:
     The output of find(1) should be sorted.
     .
     Note: this did _not_ happen on arm64/i386 on 20170501; unsure why, did arm64 have disorderfs enabled then?
+  bugs:
+    - 862553
 vimoutliner:
   version: 0.3.4+pristine-9.1
   issues:
