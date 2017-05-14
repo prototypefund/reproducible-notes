@@ -2887,6 +2887,10 @@ coinor-vol:
     - captures_build_path
     - graphviz_nondeterminstic_output
     - records_build_flags
+coinst:
+  version: 1.9.3-1
+  issues:
+    - captures_build_path
 coinutils:
   version: 2.9.15-3.1
   issues:
@@ -20621,6 +20625,16 @@ qtdoc-opensource-src:
     - timestamps_in_qch
     - captures_build_path
     - different_encoding
+qterm:
+  version: 1:0.7.1-1
+  comments: |
+    1) LastRegisterTime is formatted in the local timezone.  This is problematic in two ways:
+    1a) Being timezone-sensitive causes irreproducibility
+    1b) The formatted timestamp is in ISO-8601 format without timezone, meaning the value recorded is wrong by the UTC offset of the local timezone.
+    .
+    2) CreationTime is recorded.
+    .
+    Searching found nothing; I suppose this is a qt thing.
 qtexengine:
   version: 0.3-3
   issues:
@@ -26953,6 +26967,16 @@ viking:
     - timestamps_in_manpages_generated_by_docbook_xsl
   bugs:
     - 820603
+vim-command-t:
+  version: 4.0-4
+  comments: |
+    d/rules is sensitive to disorderfs/readdir() order:
+      debian/rules-26-        cd debian/vim-command-t/usr/lib/vim-command-t && \
+      debian/rules:27:            find -type f | sed 's,^\./, - ,' >> ../../share/vim/registry/command-t.yaml
+    .
+    The output of find(1) should be sorted.
+    .
+    Note: this did _not_ happen on arm64/i386 on 20170501; unsure why, did arm64 have disorderfs enabled then?
 vimoutliner:
   version: 0.3.4+pristine-9.1
   issues:
