@@ -27592,14 +27592,6 @@ xalan:
   version: 1.11-5
   issues:
     - too_much_input_for_diff
-xapian-bindings:
-  version: 1.4.0-4
-  comments: |
-    [experimental/amd64]
-    Three differences in created.rid:
-      - build path
-      - build date
-      - a fixed date, rendered in the build's timezone
 xapian-core:
   version: 1.4.3-1
   bugs:
