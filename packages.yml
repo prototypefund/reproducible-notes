@@ -7770,14 +7770,6 @@ goiardi:
   version: 0.11.0+git20161112.21.1cd076a-3
   issues:
     - golang_compiler_captures_build_path_in_binary
-golang:
-  version: 2:1.6.1-2
-  bugs:
-    - 860608
-golang-1.6:
-  version: 1.6.2-1
-  issues:
-    - captures_build_path
 golang-1.7:
   version: 1.7.1-2
   issues:
@@ -8089,10 +8081,6 @@ golang-petname:
   version: 2.5~git20160928-1
   issues:
     - golang_compiler_captures_build_path_in_binary
-golang-prometheus-client:
-  version: 0.7.0+ds-3
-  bugs:
-    - 855927
 goldencheetah:
   version: 4.0.0~DEV1607-1
   issues:
