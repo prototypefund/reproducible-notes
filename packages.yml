@@ -4500,10 +4500,6 @@ dune-uggrid:
     - max_output_size_reached
     - captures_build_path_via_assert
     - records_build_flags
-dupload:
-  version: 2.7.0
-  issues:
-    - timezones_manpages_podman
 dustmite:
   version: 0~20170126.e95dff8-1
   comments: |
@@ -17765,10 +17761,6 @@ pcscada:
     - captures_build_path
     - random_order_in_static_libraries
     - records_build_flags
-pcsx2:
-  version: 1.4.0+dfsg-2
-  issues:
-    - captures_build_path
 pd-arraysize:
   version: 0.1-3
   issues:
@@ -24407,10 +24399,6 @@ slepc:
     - captures_build_path
     - different_encoding
     - records_build_flags
-slepc4py:
-  version: 3.7.0-2
-  issues:
-    - captures_build_path
 slib:
   version: 3b1-5
   comments: |
