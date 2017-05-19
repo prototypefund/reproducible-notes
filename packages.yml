@@ -20491,6 +20491,10 @@ qpid-cpp:
     - ftbfs_uninvestigated_big_packages
   bugs:
     - 828520
+qpid-proton:
+  version: 0.14.0-5
+  comments: |
+    doxygen including build path in HTML <title> elements (as well as build-paths in binaries)
 qps:
   version: 1.10.16+20151210-1
   issues:
