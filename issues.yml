@@ -55,6 +55,7 @@ year_variable_in_documentation_generated_by_doxygen:
   description: |
     Doxygen docs can use $year which uses the current year, not one based on
     SOURCE_DATE_EPOCH.
+  url: https://bugs.debian.org/863054
   deterministic: True
 build_dir_in_documentation_generated_by_doxygen:
   description: |
