@@ -7667,6 +7667,11 @@ gnugo:
   version: 3.8-9
   issues:
     - texi2html_captures_users_gecos
+gnuift:
+  version: 0.1.14+ds-1
+  issues:
+    - timestamps_in_dvi_generated_by_latex
+    - captures_home_dir
 gnuit:
   version: 4.9.5-3
   issues:
@@ -25448,6 +25453,10 @@ tagainijisho:
   issues:
     - qt_translate_noop_nondeterminstic_ordering
     - gcc_captures_build_path
+tagcoll2:
+  version: 2.0.14-2
+  issues:
+    - timestamps_in_manpages_created_by_libwibble
 taglib:
   version: 1.11+dfsg.1-0.3
   issues:
