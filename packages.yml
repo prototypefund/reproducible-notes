@@ -2199,6 +2199,8 @@ casacore:
   version: 2.1.0-3
   issues:
     - captures_build_path
+  bugs:
+    - 838424
 casacore-data-igrf:
   version: 10-1
   issues:
@@ -2600,6 +2602,8 @@ cinder:
     Embeds the hostname in config file.
   issues:
     - different_due_to_umask
+  bugs:
+    - 860642
 cinnamon:
   version: 3.2.7-2
   issues:
@@ -3291,6 +3295,8 @@ ctfutils:
   version: 10.3~svn297264-2
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 791927
 ctpp2:
   version: 2.8.3-19
   issues:
@@ -4693,6 +4699,8 @@ eclipse-titan:
   issues:
     - user_hostname_manually_added_requiring_further_investigation
     - captures_users_gecos
+  bugs:
+    - 863142
 eclipse-wtp:
   version: 3.6.0-1
   comments: |
@@ -6212,6 +6220,8 @@ form:
   issues:
     - random_id_in_pdf_generated_by_dblatex
     - fonts_in_pdf_files
+  bugs:
+    - 835138
 foxeye:
   version: 0.10.1-1
   comments: |
@@ -6880,6 +6890,8 @@ gcc-m68hc1x:
   issues:
     - different_due_to_umask
     - users_and_groups_in_tarball
+  bugs:
+    - 536003
 gcc-mingw-w64:
   version: 17
   issues:
@@ -6888,6 +6900,9 @@ gcc-msp430:
   version: 4.6.3~mspgcc-20120406-7
   issues:
     - different_due_to_umask
+  bugs:
+    - 744434
+    - 765209
 gcc-python-plugin:
   version: 0.14-3
   issues:
@@ -6950,6 +6965,8 @@ gdb-msp430:
   version: 7.2a~mspgcc-20111205-3.1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 744435
 gdbm:
   version: 1.8.3-14
   issues:
@@ -8777,6 +8794,7 @@ hardinfo:
     - captures_build_path
     - user_hostname_manually_added_requiring_further_investigation
   bugs:
+    - 779465
     - 833379
 haskell-cryptol:
   version: 2.4.0-2
@@ -9249,6 +9267,8 @@ id-utils:
   version: 4.6+git20120811-4
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 727388
 ideviceinstaller:
   version: 1.0.1-0.3
   issues:
@@ -10244,6 +10264,8 @@ julia:
     .
     main binary package: Inconclusive: there are differences, but it is unknown whether they are
       fallout of the above issue or independent.
+  bugs:
+    - 861484
 juman:
   version: 7.0-3.2
   issues:
@@ -11552,6 +11574,8 @@ libapache2-mod-defensible:
   version: 1.4-3.1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 754092
 libapache2-mod-encoding:
   version: 20040616-6
   issues:
@@ -13236,6 +13260,10 @@ libretro-beetle-wswan:
   version: 0.9.35.1+git20160623-1
   issues:
     - gcc_captures_build_path
+libretro-desmume:
+  version: 0.9.11+git20160819+dfsg1-1
+  bugs:
+    - 863140
 librevenge:
   version: 0.0.4-1
   comments: |
@@ -13569,6 +13597,9 @@ libview:
   version: 0.6.6-2.1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 727446
+    - 744625
 libvigraimpex:
   version: 1.10.0+dfsg-11
   issues:
@@ -14634,6 +14665,8 @@ mclibs:
   issues:
     - timestamps_in_ps_generated_by_dvips
     - captures_build_path
+  bugs:
+    - 776567
 mcrl2:
   version: 201409.0-1
   comments: |
@@ -15098,6 +15131,8 @@ mongo-tools:
   version: 3.2.11-1
   issues:
     - golang_compiler_captures_build_path_in_binary
+  bugs:
+    - 863139
 mongodb:
   version: 1:2.4.14-3
   issues:
@@ -15433,6 +15468,10 @@ msp430mcu:
     - captures_build_path
   bugs:
     - 860275
+msrtool:
+  version: 1:20141027-1.1
+  bugs:
+    - 847093
 mtail:
   version: 0.0+git20160716.f911b02-1
   issues:
@@ -24214,6 +24253,9 @@ sidplay:
   version: 2.0.9-6
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 727965
+    - 744508
 sidplay-libs:
   version: 2.1.1-14
   issues:
@@ -24294,6 +24336,9 @@ simulavr:
   version: 0.1.2.2-7
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 727966
+    - 744509
 simutrans-pak128.britain:
   version: 1.17-1
   issues:
@@ -24936,6 +24981,8 @@ st:
   version: 1.9-3.1
   issues:
     - captures_build_path
+  bugs:
+    - 791928
 stacks:
   version: 1.42-1
   issues:
@@ -26508,6 +26555,7 @@ uhub:
   issues:
     - different_due_to_umask
   bugs:
+    - 770175
     - 834776
 uim:
   version: 1:1.8.6+gh20160630.0.c408e95-1
