@@ -19380,9 +19380,8 @@ pygobject-2:
 pygoocanvas:
   version: 0.14.1-1.2
   comments: |
-    Package is to be removed.  Previous fix in #828222 is ineffective.
-  bugs:
-    - 813185
+      Package deprecated (https://bugs.debian.org/813185) to be removed.
+      Previous fix in https://bugs.debian.org/828222 is ineffective.
 pygpgme:
   version: 0.3-1.2
   issues:
