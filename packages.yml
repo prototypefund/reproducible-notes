@@ -11454,6 +11454,8 @@ leveldb:
   version: 1.19-1
   issues:
     - random_order_in_static_libraries
+  bugs:
+    - 845783
 lft:
   version: 2.2-4
   issues:
@@ -11718,6 +11720,8 @@ libbde:
   version: 20160731-1
   issues:
     - captures_build_path
+  bugs:
+    - 854874
 libbitcoin:
   version: 2.11.0-1
   comments: |
@@ -17225,6 +17229,8 @@ openjfx:
   issues:
     - random_order_in_documentation_generated_by_javadoc
     - blacklisted_on_jenkins_armhf_only
+  bugs:
+    - 857464
 openjpa:
   version: 2.4.0-4
   issues:
@@ -19382,6 +19388,8 @@ pygoocanvas:
   comments: |
     Package deprecated (https://bugs.debian.org/813185) to be removed.
     Previous fix in https://bugs.debian.org/828222 is ineffective.
+  bugs:
+    - 828222
 pygpgme:
   version: 0.3-1.2
   issues:
@@ -23759,6 +23767,8 @@ sagemath:
   issues:
     - cython_captures_build_path
     - timestamps_in_documentation_generated_by_sphinx
+  bugs:
+    - 849150
 sagetex:
   version: 3.0+ds-2
   comments: |
@@ -24335,6 +24345,7 @@ sigx:
   version: 2.0.2-5
   bugs:
     - 805208
+    - 811325
 sikulix:
   version: 1.1.0-1
   issues:
@@ -28388,6 +28399,8 @@ yt:
   version: 3.3.3-2
   issues:
     - cython_captures_build_path
+  bugs:
+    - 854195
 ytree:
   version: 1.94-1.1
   issues:
