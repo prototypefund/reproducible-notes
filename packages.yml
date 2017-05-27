@@ -1040,13 +1040,6 @@ attica:
   version: 0.4.2-2
   issues:
     - gcc_captures_build_path
-aubio:
-  version: 0.4.3-2
-  comments: |
-    Not on amd64 so probably disorderfs.
-    .
-    Adding sorted() around glob.glob() in python/lib/gen_external.py:generate_external() —
-    which is called from setup.py — may be part of the solution.
 auctex:
   version: 11.87-3+deb8u1
   comments: |
