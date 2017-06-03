@@ -25950,6 +25950,10 @@ tiger:
     - collation_order_varies_by_locale
   bugs:
     - 828226
+tigervnc:
+  version: 1.7.0+dfsg-7
+  comments: |
+    CMakeLists.txt sets «-DBUILD_TIMESTAMP="\"$(date +…)\""».  Needs to be fixed to honour SOURCE_DATE_EPOCH.
 tightvnc:
   version: 1:1.3.9-9
   comments: |
