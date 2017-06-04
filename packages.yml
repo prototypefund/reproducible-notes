@@ -3510,6 +3510,7 @@ dactyl:
     Timezone difference in
     /usr/share/xul-ext/pentadactyl/chrome/common/modules/config.jsm
   bugs:
+    - 776618
     - 859299
 daemontools:
   version: 1:0.76-6.1
@@ -23223,6 +23224,10 @@ ruby-cairo:
   version: 1.12.9-1
   issues:
     - gcc_captures_build_path
+ruby-celluloid:
+  version: 0.16.0-4
+  bugs:
+    - 786669
 ruby-charlock-holmes:
   version: 0.7.3+dfsg-2
   issues:
