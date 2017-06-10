@@ -2350,8 +2350,6 @@ ceph:
   version: 0.80.9-2
   comments: |
     Non-deterministic order of dh_installinit snippet in postinst etc.
-  issues:
-    - blacklisted_on_jenkins_armhf_only
   bugs:
     - 791913
 ceres-solver:
