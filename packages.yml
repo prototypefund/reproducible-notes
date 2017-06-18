@@ -402,10 +402,6 @@ amanda:
   issues:
     - captures_shell_variable_in_autofoo_script
     - records_build_flags
-amazon-s2n:
-  version: 0.0+git160930.826dde5-1
-  issues:
-    - captures_build_path
 amideco:
   version: 0.31e-3.1
   bugs:
@@ -8845,10 +8841,6 @@ hebcal:
   version: 3.5-2
   issues:
     - gcc_captures_build_path
-hedgewars:
-  version: 0.9.22-dfsg-7
-  issues:
-    - captures_build_path
 heimdal:
   version: 1.7~git20160515+dfsg-1
   issues:
@@ -26358,8 +26350,6 @@ tvc:
   version: 5.0.3+dfsg-1
   comments: |
     [experimental/amd64]
-  issues:
-    - captures_build_path
 tvtime:
   version: 1.0.2-14
   issues:
