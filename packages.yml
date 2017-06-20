@@ -647,6 +647,10 @@ apertium-pt-gl:
   version: 0.9.2~r57551-2
   issues:
     - captures_build_path
+apertium-spa-cat:
+  version: 2.0.0~r77288-1
+  bugs:
+    - 865029
 apertium-tat:
   version: 0.1.0~r60887-1
   comments: |
@@ -1405,6 +1409,7 @@ bcftools:
   bugs:
     - 819617
     - 865006
+    - 865060
 bcron:
   version: 0.10-4
   bugs:
@@ -1851,6 +1856,8 @@ boxbackup:
   version: 0.11.1~r2837-4
   issues:
     - random_order_of_pdf_ids_generated_by_latex
+  bugs:
+    - 865092
 bplay:
   version: 0.991-10
   issues:
@@ -8958,6 +8965,10 @@ hmisc:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
+hmmer2:
+  version: 2.3.2+dfsg-3
+  bugs:
+    - 865099
 ho22bus:
   version: 0.9.1-2
   issues:
@@ -9051,6 +9062,7 @@ htslib:
   bugs:
     - 800469
     - 849667
+    - 865012
 http-icons:
   version: 0~20041010-1
   comments: |
@@ -11668,6 +11680,10 @@ libbrahe:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
+libbsd:
+  version: 0.8.3-1
+  bugs:
+    - 865090
 libbtbb:
   version: 2015.09.R2-1
   issues:
@@ -23490,6 +23506,8 @@ ruby-redcarpet:
   version: 3.3.4-2
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 865133
 ruby-redcloth:
   version: 4.2.9-5
   issues:
