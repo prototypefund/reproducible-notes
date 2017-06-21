@@ -735,6 +735,10 @@ apt-dpkg-ref:
     - timestamps_in_ps_generated_by_dvips
     - timestamps_in_dvi_generated_by_latex
     - random_id_in_pdf_generated_by_dblatex
+apt-offline:
+  version: 1.8.0
+  bugs:
+    - 865292
 apt-spy:
   version: 3.2.2-1
   issues:
@@ -4095,6 +4099,10 @@ django-session-security:
   version: 2.2.4+dfsg-1
   issues:
     - randomness_in_documentation_indices_generated_by_sphinx
+djangocms-admin-style:
+  version: 1.2.2+dfsg-1
+  bugs:
+    - 865293
 djbdns:
   version: 1:1.05-8
   issues:
@@ -8734,6 +8742,10 @@ haskell-cryptol:
   version: 2.4.0-2
   bugs:
     - 856234
+haskell-dependent-sum:
+  version: 0.3.2.2-3
+  bugs:
+    - 865313
 haskell-fail:
   version: 4.9.0.0-1
   bugs:
@@ -10913,6 +10925,10 @@ konsole:
   version: 4:16.04.2-1
   issues:
     - build_id_differences_only
+kopanocore:
+  version: 8.1.0-3
+  bugs:
+    - 865320
 kore:
   version: 2.0.0-2
   issues:
@@ -12125,6 +12141,8 @@ libgetdata:
   version: 0.9.3-2
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 865312
 libgff:
   version: 1.0-1
   issues:
@@ -13330,6 +13348,8 @@ libsndfile:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
+  bugs:
+    - 865344
 libsodium:
   version: 1.0.11-2
   issues:
@@ -15406,6 +15426,10 @@ mruby:
   version: 1.2.0+20160804+git501e1ef2-1
   issues:
     - captures_build_path
+ms-gsl:
+  version: 0~git20170403.ebab8ca-1
+  bugs:
+    - 865309
 msgpack-c:
   version: 1.4.2-3
   issues:
@@ -17048,6 +17072,8 @@ opencryptoki:
   version: 3.5+dfsg-2
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 865315
 opencsv:
   version: 2.3-1
   issues:
@@ -19712,6 +19738,10 @@ python-django-mptt:
     - randomness_in_documentation_generated_by_sphinx
   bugs:
     - 828669
+python-django-pyscss:
+  version: 2.0.2-6
+  bugs:
+    - 865228
 python-django-threadedcomments:
   version: 0.9.0-1
   bugs:
