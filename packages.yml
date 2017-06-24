@@ -224,6 +224,10 @@ aes2501-wy:
   version: 0.1-5
   issues:
     - gcc_captures_build_path
+aeskulap:
+  version: 0.2.2b1+git20161206-1
+  bugs:
+    - 865591
 aespipe:
   version: 2.4c-1
   issues:
@@ -2725,6 +2729,8 @@ cloud-init:
     Fails to run tests with pbuilder.
   issues:
     - ftbfs_in_jenkins_setup
+  bugs:
+    - 865577
 cloud-sptheme:
   version: 1.8.0-1
   bugs:
@@ -3182,6 +3188,10 @@ crack:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/crack/5.0a-9.3/src/util/Makefile/#L45
+cracklib2:
+  version: 2.9.2-5
+  bugs:
+    - 865623
 cramfsswap:
   version: 1.4.1-1.1
   issues:
@@ -3484,6 +3494,10 @@ cython:
     - blacklisted_on_jenkins_armhf_only
   bugs:
     - 846879
+czmq:
+  version: 4.0.2-8
+  bugs:
+    - 865581
 d-itg:
   version: 2.8.1-r1023-3
   issues:
@@ -4106,6 +4120,10 @@ django-modeltranslation:
   version: 0.11-1
   bugs:
     - 834667
+django-oauth-toolkit:
+  version: 0.11.0-1
+  bugs:
+    - 865603
 django-picklefield:
   version: 0.3.2-1
   bugs:
@@ -4118,6 +4136,10 @@ django-ratelimit:
   version: 0.4.0+8+gd58c489-3
   bugs:
     - 806355
+django-sekizai:
+  version: 0.10.0-1
+  bugs:
+    - 865590
 django-session-security:
   version: 2.2.4+dfsg-1
   issues:
@@ -4130,6 +4152,10 @@ djangocms-admin-style:
   version: 1.2.2+dfsg-1
   bugs:
     - 865293
+djangorestframework:
+  version: 3.4.0-2
+  bugs:
+    - 865588
 djbdns:
   version: 1:1.05-8
   issues:
@@ -8657,6 +8683,10 @@ guile-gnome-platform:
   version: 2.16.2-2
   issues:
     - ftbfs_uninvestigated_test_failures
+guilt:
+  version: 0.36-1
+  bugs:
+    - 865576
 guiqwt:
   version: 3.0.1-1
   issues:
@@ -17415,6 +17445,8 @@ orthanc:
   version: 1.0.0+dfsg-1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 865606
 orthanc-dicomweb:
   version: 0.3+dfsg-1
   issues:
