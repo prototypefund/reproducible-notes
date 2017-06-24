@@ -25976,6 +25976,8 @@ tigervnc:
   version: 1.7.0+dfsg-7
   comments: |
     CMakeLists.txt sets «-DBUILD_TIMESTAMP="\"$(date +…)\""».  Needs to be fixed to honour SOURCE_DATE_EPOCH.
+  bugs:
+    - 865753
 tightvnc:
   version: 1:1.3.9-9
   comments: |
