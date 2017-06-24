@@ -1227,6 +1227,8 @@ random_order_of_pdf_ids_generated_by_latex:
     latex uses IDs such as dcf70a72907fd3b4786a8ec9b9155636 to identify
     elements. Whilst these are deterministic, the ordering they are outputted
     are not determinstic.
+    .
+    (Might be caused by PSOutputDev::setupFonts in embedded poppler PDFDoc.cc)
 timestamps_in_output_generated_by_txt2tags:
   description: |
     txt2tags uses the current localtime in mtime macros and date macros
