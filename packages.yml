@@ -3773,10 +3773,6 @@ debdelta:
   issues:
     - timestamps_in_gzip_headers
     - different_due_to_umask
-debhelper:
-  version: 10.2.5
-  bugs:
-    - 862003
 debian-builder:
   version: 1.8
   issues:
@@ -5012,10 +5008,6 @@ epubcheck:
   version: 4.0.1-2
   issues:
     - random_order_in_java_jar_manifest_mf
-equivs:
-  version: 2.0.9
-  bugs:
-    - 786714
 ergo:
   version: 3.5-1
   issues:
