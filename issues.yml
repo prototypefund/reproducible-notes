@@ -1229,6 +1229,8 @@ random_order_of_pdf_ids_generated_by_latex:
     are not determinstic.
     .
     (Might be caused by PSOutputDev::setupFonts in embedded poppler PDFDoc.cc)
+    .
+    (This might be tagged the same as random_id_in_pdf_generated_by_dblatex)
 timestamps_in_output_generated_by_txt2tags:
   description: |
     txt2tags uses the current localtime in mtime macros and date macros
@@ -1378,6 +1380,8 @@ random_id_in_pdf_generated_by_dblatex:
     .
     ID is varying because texlive generates it based on the build path, see also
     pdf_id_varying_due_to_build_path issue.
+    .
+    (This might be tagged the same as random_order_of_pdf_ids_generated_by_latex)
 random_order_in_sisu_javax_inject_named:
   description: |
     libsisu-maven-plugin-java generates META-INF/sisu/javax.inject.Named files in
