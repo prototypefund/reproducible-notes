@@ -4150,10 +4150,18 @@ django-pipeline:
   version: 1.6.8-3
   bugs:
     - 865558
+django-polymorphic:
+  version: 1.0.2-1
+  bugs:
+    - 865935
 django-ratelimit:
   version: 0.4.0+8+gd58c489-3
   bugs:
     - 806355
+django-recurrence:
+  version: 1.4.1-1
+  bugs:
+    - 865939
 django-sekizai:
   version: 0.10.0-1
   bugs:
@@ -4162,6 +4170,14 @@ django-session-security:
   version: 2.2.4+dfsg-1
   issues:
     - randomness_in_documentation_indices_generated_by_sphinx
+django-simple-captcha:
+  version: 0.5.1-1
+  bugs:
+    - 865940
+django-sitetree:
+  version: 1.7.0-1
+  bugs:
+    - 865943
 django-tables:
   version: 1.2.0-1
   bugs:
@@ -4175,6 +4191,10 @@ djangorestframework:
   version: 3.4.0-2
   bugs:
     - 865588
+djangorestframework-gis:
+  version: 0.11-1
+  bugs:
+    - 865920
 djbdns:
   version: 1:1.05-8
   issues:
@@ -7583,6 +7603,10 @@ gnome-builder:
   version: 3.20.4-2
   issues:
     - captures_build_path
+gnome-chess:
+  version: 1:3.22.2-1
+  bugs:
+    - 865936
 gnome-contacts:
   version: 3.22.1-1
   comments: |
@@ -7872,6 +7896,10 @@ golang-git2go:
   version: 0.0~git20150731.0.ed62fda-1
   bugs:
     - 799454
+golang-github-adroll-goamz:
+  version: 0.0~git20150909.0.74fd457-2
+  bugs:
+    - 865942
 golang-github-appc-docker2aci:
   version: 0.9.2-2
   issues:
@@ -7936,6 +7964,10 @@ golang-github-elithrar-simple-scrypt:
   version: 1.1+git20161119.3.2325946-1
   bugs:
     - 851723
+golang-github-facebookgo-grace:
+  version: 0.0~git20170218.0.4afe952-1
+  bugs:
+    - 865949
 golang-github-geertjohan-go.rice:
   version: 0.0~git20160123.0.0f3f5fd-1
   issues:
@@ -19854,10 +19886,26 @@ python-diskimage-builder:
   version: 1.0.0-1
   issues:
     - captures_build_path
+python-django-bootstrap-form:
+  version: 3.2.1-2
+  bugs:
+    - 865938
+python-django-contact-form:
+  version: 1.3-1
+  bugs:
+    - 865941
+python-django-extensions:
+  version: 1.7.4-1
+  bugs:
+    - 865937
 python-django-feincms:
   version: 1.11.4-1
   bugs:
     - 828666
+python-django-formtools:
+  version: 1.0+20160714.git54f1ccca01-1
+  bugs:
+    - 865944
 python-django-mptt:
   version: 0.8.0-1
   issues:
@@ -19880,6 +19928,10 @@ python-django-threadedcomments:
   version: 0.9.0-1
   bugs:
     - 801935
+python-django-treebeard:
+  version: 4.1.0+dfsg-1
+  bugs:
+    - 865934
 python-djvulibre:
   version: 0.7.1-1
   issues:
