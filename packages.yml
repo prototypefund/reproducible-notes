@@ -2274,6 +2274,10 @@ cctools:
     - user_hostname_manually_added_requiring_further_investigation
     - captures_home_dir
     - captures_kernel_version
+cd-hit:
+  version: 4.6.6-2
+  bugs:
+    - 866330
 cdbackup:
   version: 0.7.0-5
   issues:
