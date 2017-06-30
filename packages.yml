@@ -165,6 +165,8 @@ adacontrol:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - unknown_ada_issue
+  bugs:
+    - 866355
 adasockets:
   version: 1.9-1
   comments: |
@@ -1866,6 +1868,7 @@ boxbackup:
     - random_order_of_pdf_ids_generated_by_latex
   bugs:
     - 865092
+    - 866372
 bplay:
   version: 0.991-10
   issues:
@@ -2082,6 +2085,10 @@ caffe:
   version: 1.0.0~rc4-1
   issues:
     - random_order_of_pdf_ids_generated_by_latex
+cairo-5c:
+  version: 1.11
+  bugs:
+    - 866360
 cairo-dock:
   version: 3.4.0-2
   issues:
@@ -22909,6 +22916,10 @@ recoll:
   version: 1.22.3-1
   issues:
     - build_id_differences_only
+reconserver:
+  version: 0.15.2-1
+  bugs:
+    - 866357
 recordmydesktop:
   version: 0.3.8.1+svn602-1
   issues:
@@ -23202,6 +23213,10 @@ ros-bond-core:
   version: 1.7.17-2
   issues:
     - gcc_captures_build_path
+ros-catkin-pkg:
+  version: 0.3.5-1
+  bugs:
+    - 866352
 ros-class-loader:
   version: 0.3.4-1
   issues:
@@ -26914,6 +26929,10 @@ unmo3:
   version: 0.6-1
   issues:
     - gcc_captures_build_path
+unp:
+  version: 2.0~pre7+nmu1
+  bugs:
+    - 866356
 unrar-free:
   version: 1:0.0.1+cvs20140707-1
   comments: |
