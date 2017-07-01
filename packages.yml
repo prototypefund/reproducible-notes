@@ -3697,10 +3697,6 @@ dbmix:
   version: 0.9.8-6.3
   issues:
     - gcc_captures_build_path
-dbus:
-  version: 1.10.10-1
-  issues:
-    - captures_build_path
 dbus-c++:
   version: 0.9.0-8
   issues:
@@ -4434,7 +4430,6 @@ doxymacs:
 dpdk:
   version: 16.07-1
   issues:
-    - captures_build_path
     - random_order_in_python_environment_pickle
 dpkg:
   version: 1.18.23
