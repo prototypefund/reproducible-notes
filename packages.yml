@@ -10393,10 +10393,6 @@ jwhois:
   version: 4.0-2.1
   issues:
     - gcc_captures_build_path
-jxplorer:
-  version: 3.3.2+dfsg-2
-  bugs:
-    - 776758
 jxrlib:
   version: 1.1-6
   issues:
@@ -26090,8 +26086,6 @@ tf:
   comments: |
     Captures machine type (uname -m):
     https://sources.debian.net/src/tf/1:4.0s1-19/unix/tfconfig/#L69
-  bugs:
-    - 861133
 tftp-hpa:
   version: 5.2+20150808-1
   issues:
