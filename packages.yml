@@ -2190,10 +2190,6 @@ cardpeek:
   version: 0.8.4-1
   comments: |
     Definitely includes the version but https://gist.github.com/14731b4b0ad8e273f522 doesn't fix it.
-care:
-  version: 2.2.1-1
-  comments: |
-    Cannot seem to reproduce failure on b2- not shell or locale related when I manually vary those, and it is curious that objcopy is print the _usage_ suggesting that the backtick generated --output and --binary-architecture args are being generated fine (getting them deliberately wrong results in different errors).
 cargo:
   version: 0.9.0-1
   comments: |
