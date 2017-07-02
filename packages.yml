@@ -8560,6 +8560,8 @@ groovebasin:
   comments: |
     Caused by node-browserify-lite serialising JS(ON) arrays in
     non-deterministic order.
+  issues:
+    - randomness_in_browserify_lite_output
 groovy:
   version: 1.8.6-4
   issues:
