@@ -17703,11 +17703,6 @@ owfs:
     - gcc_captures_build_path
 owncloud-client:
   version: 2.0.0+dfsg-1
-  comments: |
-    patched out use of timestamps_from_cpp_macros, but if this issue is fixed
-    properly the patch is not needed anymore.
-    .
-    images_in_pdf_generated_by_latex - used opipng
   issues:
     - pdf_id_varying_due_to_build_path
 owx:
