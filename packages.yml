@@ -565,6 +565,8 @@ apache-log4j-extras1.2:
   version: 1.2.17-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 866705
 apache-log4j1.2:
   version: 1.2.17-7
   issues:
@@ -2089,6 +2091,7 @@ cairo-5c:
   version: 1.11
   bugs:
     - 866360
+    - 866707
 cairo-dock:
   version: 3.4.0-2
   issues:
@@ -3796,6 +3799,10 @@ debdelta:
   issues:
     - timestamps_in_gzip_headers
     - different_due_to_umask
+debhelper:
+  version: 10.6.1
+  bugs:
+    - 866713
 debian-builder:
   version: 1.8
   issues:
@@ -3937,6 +3944,8 @@ desktopnova:
   version: 0.8.1-1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 866766
 developers-reference:
   version: 3.4.14
   issues:
@@ -6937,6 +6946,8 @@ gcc-7:
   version: 7-20170407-1
   issues:
     - blacklisted_on_jenkins_armhf_only
+  bugs:
+    - 866355
 gcc-avr:
   version: 1:4.8.1+Atmel3.4.4-2
   comments: |
@@ -8760,6 +8771,8 @@ guacamole-client:
   issues:
     - user_in_java_jar_manifest
     - random_order_in_java_jar_manifest_mf
+  bugs:
+    - 866704
 guava-libraries:
   version: 19.0-1
   issues:
@@ -14685,6 +14698,8 @@ maven:
   issues:
     - random_order_in_plexus_comonents_xml
     - random_order_in_sisu_javax_inject_named
+  bugs:
+    - 866767
 maven-antrun-extended-plugin:
   version: 1.42-1
   issues:
@@ -15421,6 +15436,10 @@ moon-buggy:
     Note the source package ships upstream's source as a tar.gz file.
   issues:
     - max_output_size_reached
+moonshot-gss-eap:
+  version: 0.9.5-3
+  bugs:
+    - 866712
 moonshot-trust-router:
   version: 1.4.1-1
   bugs:
@@ -16105,6 +16124,8 @@ netty:
   version: 1:4.0.34-1
   comments: |
     Timestamps in io.netty.versions.properties files.
+  bugs:
+    - 866771
 netty-3.9:
   version: 3.9.9.Final-1
   issues:
@@ -20579,6 +20600,10 @@ pythondialog:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - randomness_in_documentation_indices_generated_by_sphinx
+pythonmagick:
+  version: 0.9.14-3
+  bugs:
+    - 866694
 pythonqt:
   version: 3.0-2
   issues:
@@ -25710,6 +25735,7 @@ syslog-ng:
   version: 3.8.1-10
   bugs:
     - 866056
+    - 866708
 systemd-docker:
   version: 0.2.1+dfsg-2
   issues:
@@ -27046,6 +27072,8 @@ uwsgi:
   version: 2.0.7-1
   issues:
     - timestamps_from_cpp_macros
+  bugs:
+    - 865224
 uzbl:
   version: 0.0.0~git.20120514-1.2
   issues:
