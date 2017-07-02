@@ -8405,14 +8405,6 @@ grafx2:
   version: 2.3-1.1
   issues:
     - gcc_captures_build_path
-gramps:
-  version: 4.2.4~dfsg-1
-  comments: |
-    FTBFS in non-English locales due to test failures:
-      [i386,armhf] '1789-11-04 (French Republican)' != '1789-11-04 (Repubblicano francese)'
-      [armhf] '-090-11-04' != '4.11.-90'
-    .
-    As an aside, the version number looks wrong, s/~dfsg/+dfsg/.
 grantlee:
   version: 0.4.0-4
   issues:
