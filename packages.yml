@@ -10377,8 +10377,6 @@ julia:
     .
     main binary package: Inconclusive: there are differences, but it is unknown whether they are
       fallout of the above issue or independent.
-  bugs:
-    - 861484
 juman:
   version: 7.0-3.2
   issues:
@@ -11541,10 +11539,6 @@ lensfun:
   version: 0.3.2-3
   issues:
     - gcc_captures_build_path
-lepton:
-  version: 1.2.1-2
-  bugs:
-    - 835108
 leveldb:
   version: 1.19-1
   issues:
@@ -14118,7 +14112,6 @@ llvm-toolchain-3.8:
   issues:
     - blacklisted_on_jenkins_armhf_only
   bugs:
-    - 861484
     - 862360
 llvm-toolchain-3.9:
   version: 1:3.9-1
