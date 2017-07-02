@@ -8557,9 +8557,6 @@ groonga:
     - captures_build_path
 groovebasin:
   version: 1.4.0-1
-  comments: |
-    Caused by node-browserify-lite serialising JS(ON) arrays in
-    non-deterministic order.
   issues:
     - randomness_in_browserify_lite_output
 groovy:
