@@ -4704,10 +4704,6 @@ ecasound:
   issues:
     - timestamps_in_ps_generated_by_dvips
     - timestamps_in_dvi_generated_by_latex
-ecb:
-  version: 2.40+git20140216-1
-  issues:
-    - timestamps_in_emacs_autoloads
 eccodes:
   version: 2.0.0-1
   issues:
@@ -15103,7 +15099,6 @@ mldemos:
 mldonkey:
   version: 3.1.5-3
   issues:
-    - captures_kernel_version
     - captures_build_arch
 mlgmp:
   version: 20021123-18
@@ -16643,8 +16638,6 @@ nvidia-settings:
   comments: |
     Intentionally captures data about the build environment.
     https://sources.debian.net/src/nvidia-settings/340.93-1/utils.mk/#L330-L331
-  issues:
-    - user_hostname_manually_added_requiring_further_investigation
 nvidia-texture-tools:
   version: 2.0.8-1+dfsg-8.1
   issues:
@@ -19293,10 +19286,6 @@ pth:
   version: 2.0.7-20
   issues:
     - records_build_flags
-ptlib:
-  version: 2.10.11~dfsg-1
-  issues:
-    - captures_kernel_version
 publican:
   version: 4.3.2-1
   issues:
