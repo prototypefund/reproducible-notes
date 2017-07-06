@@ -982,11 +982,6 @@ asterisk-prompt-fr-proformatique:
   version: 20070706-1.4-2
   issues:
     - different_due_to_umask
-astroml-addons:
-  version: 0.2.2-3
-  issues:
-    - captures_build_path
-    - cython_captures_build_path
 astroplan:
   version: 0.2-1
   issues:
@@ -12100,10 +12095,6 @@ libdigidoc:
   version: 3.10.1.1208+ds1-2.1
   issues:
     - build_id_differences_only
-libdispatch:
-  version: 0~svn197-3.3
-  issues:
-    - captures_build_path
 libdr-sundown-perl:
   version: 0.02-1
   issues:
@@ -12661,10 +12652,6 @@ libjlha-java:
   version: 0.0.20050504-9
   issues:
     - random_order_in_documentation_generated_by_javadoc
-libjna-java:
-  version: 4.2.2-1
-  issues:
-    - captures_build_path
 libjoda-time-java:
   version: 2.9.7-1
   issues:
@@ -13264,10 +13251,6 @@ libpthread-workqueue:
   version: 0.9.1-1
   bugs:
     - 835107
-libpwiz:
-  version: 3.0.9393-1
-  issues:
-    - captures_build_path
 libqapt:
   version: 3.0.1-1
   issues:
@@ -19170,8 +19153,6 @@ projectm:
     - build_id_differences_only
 prometheus:
   version: 1.1.2+ds-2
-  issues:
-    - golang_compiler_captures_build_path_in_binary
   bugs:
     - 865786
 prometheus-alertmanager:
