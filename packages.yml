@@ -931,6 +931,10 @@ asmixer:
   version: 0.5-14
   issues:
     - gcc_captures_build_path
+asn1c:
+  version: 0.9.27+dfsg-5
+  bugs:
+    - 867065
 aspcud:
   version: 1:1.9.1-2
   issues:
@@ -1847,6 +1851,8 @@ botch:
   version: 0.5-1~experimental1
   issues:
     - randomness_in_ocaml_preprocessed_files
+  bugs:
+    - 867005
 bouncycastle:
   version: 1.54-1
   issues:
@@ -3110,6 +3116,8 @@ courier-authlib:
     Captures SHELL but via autotools.. which should not be a problem due to export in debian/rules?
   issues:
     - captures_shell_variable_in_autofoo_script
+  bugs:
+    - 866975
 courier-unicode:
   version: 1.4-2
   comments: |
@@ -4103,6 +4111,10 @@ dita-ot:
   version: 1.5.3-1
   comments: |
     Capture build time in /usr/share/dita-ot/lib/configuration.properties
+django-auth-ldap:
+  version: 1.2.12+dfsg-1
+  bugs:
+    - 866016
 django-celery:
   version: 3.1.17-3
   issues:
@@ -4564,21 +4576,29 @@ dune-common:
   issues:
     - timestamps_in_pdf_content
     - fonts_in_pdf_files
+  bugs:
+    - 867073
 dune-functions:
   version: 2.4~20160507g3dd041d-1
   issues:
     - records_build_flags
+  bugs:
+    - 867074
 dune-geometry:
   version: 2.5.0~rc2-1
   issues:
     - captures_build_path_via_assert
     - records_build_flags
+  bugs:
+    - 867075
 dune-grid:
   version: 2.5.0~rc2-1
   issues:
     - captures_build_path_via_assert
     - records_build_flags
     - max_output_size_reached
+  bugs:
+    - 867076
 dune-grid-glue:
   version: 2.5.0~20161206g666200e-2
   issues:
@@ -4588,19 +4608,27 @@ dune-istl:
   version: 2.4.1-1
   issues:
     - random_id_in_pdf_generated_by_dblatex
+  bugs:
+    - 867078
 dune-localfunctions:
   version: 2.4.0-1
   issues:
     - timestamps_in_tex_documents
     - fonts_in_pdf_files
+  bugs:
+    - 867079
 dune-pdelab:
   version: 2.4.1-1
   issues:
     - records_build_flags
+  bugs:
+    - 867080
 dune-typetree:
   version: 2.5.0~rc2-1
   issues:
     - records_build_flags
+  bugs:
+    - 867082
 dune-uggrid:
   version: 2.5.0~rc2-1
   issues:
@@ -4940,6 +4968,8 @@ elki:
   version: 0.7.0-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 867084
 elmerfem:
   version: 6.1.0.svn.5396.dfsg2-4
   issues:
@@ -5712,6 +5742,8 @@ fflas-ffpack:
   version: 2.2.1-2
   issues:
     - records_build_flags
+  bugs:
+    - 867086
 ffmpeg:
   version: 7:3.1.2-1
   issues:
@@ -7392,6 +7424,8 @@ givaro:
   issues:
     - graphviz_nondeterminstic_output
     - records_build_flags
+  bugs:
+    - 867087
 gjay:
   version: 0.3.2-1.2
   issues:
@@ -8761,6 +8795,10 @@ guava-libraries:
   version: 19.0-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+gucharmap:
+  version: 1:9.0.2-1
+  bugs:
+    - 867088
 guice:
   version: 4.0-1
   issues:
@@ -8882,6 +8920,14 @@ hardinfo:
   bugs:
     - 779465
     - 833379
+haskell-chell-quickcheck2:
+  version: 0.2.5-7
+  bugs:
+    - 867470
+haskell-criterion:
+  version: 1.1.1.0-3
+  bugs:
+    - 867471
 haskell-cryptol:
   version: 2.4.0-2
   bugs:
@@ -8890,6 +8936,14 @@ haskell-dependent-sum:
   version: 0.3.2.2-3
   bugs:
     - 865313
+haskell-diagrams-cairo:
+  version: 1.3.1.1-3
+  bugs:
+    - 867472
+haskell-diagrams-svg:
+  version: 1.4.0.3-2
+  bugs:
+    - 867473
 haskell-fail:
   version: 4.9.0.0-1
   bugs:
@@ -8902,10 +8956,18 @@ haskell-gtk-traymanager:
   version: 0.1.6-1
   issues:
     - build_id_differences_only
+haskell-hgettext:
+  version: 0.1.30-14
+  bugs:
+    - 867324
 haskell-hledger:
   version: 1.0.1-1
   issues:
     - captures_build_path
+haskell-hspec-contrib:
+  version: 0.4.0-1
+  bugs:
+    - 867385
 haskell-iso8601-time:
   version: 0.1.4-4
   issues:
@@ -8920,10 +8982,26 @@ haskell-mode:
   version: 13.10-3
   issues:
     - timestamps_in_emacs_autoloads
+haskell-secret-sharing:
+  version: 1.0.0.3-3
+  bugs:
+    - 867195
+haskell-terminal-progress-bar:
+  version: 0.1.1.1-1
+  bugs:
+    - 867194
+haskell-test-framework-th-prime:
+  version: 0.0.9-3
+  bugs:
+    - 867475
 haskell-wreq:
   version: 0.4.1.0-6
   bugs:
     - 842524
+haskell-xmlhtml:
+  version: 0.2.4-1
+  bugs:
+    - 867151
 haskell-yesod-bin:
   version: 1.4.18.7-3
   issues:
@@ -9005,6 +9083,7 @@ hepmc:
     - timestamps_in_documentation_generated_by_doxygen
   bugs:
     - 777901
+    - 867090
 herbstluftwm:
   version: 0.7.0-1
   issues:
@@ -9158,6 +9237,10 @@ horizon:
     - timestamps_in_documentation_generated_by_podman
     - timezones_manpages_podman
     - captures_build_path
+hothasktags:
+  version: 0.3.7-3
+  bugs:
+    - 867260
 hp-search-mac:
   version: 0.1.3
   comments: |
@@ -9482,6 +9565,8 @@ impressive:
   version: 0.11.1-1
   issues:
     - random_id_in_pdf_generated_by_dblatex
+  bugs:
+    - 867092
 impressive-display:
   version: 0.3.0-1
   issues:
@@ -9578,6 +9663,8 @@ inventor:
   version: 2.1.5-10-18
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 867111
 invesalius:
   version: 3.0.1-1
   issues:
@@ -12256,6 +12343,10 @@ libgcrypt20:
   issues:
     - timestamps_in_manpages_generated_by_yat2m
     - captures_build_path
+libgd2:
+  version: 2.2.4-2
+  bugs:
+    - 867003
 libgda5:
   version: 5.2.2-2
   comments: |
@@ -12884,6 +12975,10 @@ libmcrypt:
     dpkg-buildflags are not honoured during build, so -fdebug-prefix-map is not used.
   issues:
     - gcc_captures_build_path
+libmecab-perl:
+  version: 0.99.6-1
+  bugs:
+    - 866944
 libmemcached-libmemcached-perl:
   version: 1.001801+dfsg-1
   issues:
@@ -12996,6 +13091,10 @@ libnet-ldapapi-perl:
   version: 3.0.3-7
   issues:
     - gcc_captures_build_path
+libnet-proxy-perl:
+  version: 0.12-6
+  bugs:
+    - 867043
 libnet-tclink-perl:
   version: 3.4.0-8
   comments: |
@@ -13593,6 +13692,10 @@ libtext-iconv-perl:
   version: 1.7-5
   issues:
     - gcc_captures_build_path
+libtext-mecab-perl:
+  version: 0.20016-1
+  bugs:
+    - 867210
 libtext-vimcolor-perl:
   version: 0.11-2
   bugs:
@@ -13967,6 +14070,8 @@ linbox:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
+  bugs:
+    - 867094
 lincity-ng:
   version: 2.9~git20150314-1
   issues:
@@ -13987,6 +14092,8 @@ linux:
   version: 4.6.3-1
   issues:
     - blacklisted_on_jenkins_armhf_only
+  bugs:
+    - 867358
 linux-grsec:
   version: 4.3.3-7+grsec201601171913+1
   issues:
@@ -14195,6 +14302,8 @@ lordsawar:
   comments: |
     tarballs with .lwa extensions capture mtime and uid/gid. Generated by
     src/tarhelper.cpp using libtar.h making it somewhat invasive to patch.
+  bugs:
+    - 866988
 lorene:
   version: 0.0.0~cvs20161116+dfsg-1
   issues:
@@ -15061,10 +15170,18 @@ missfits:
   version: 2.8.0-1
   issues:
     - gcc_captures_build_path
+mitmproxy:
+  version: 0.18.2-6
+  bugs:
+    - 867250
 mixmaster:
   version: 3.0.0-8
   issues:
     - gcc_captures_build_path
+mk-configure:
+  version: 0.29.1-1
+  bugs:
+    - 867095
 mknfonts.tool:
   version: 0.5-11
   issues:
@@ -16071,6 +16188,10 @@ netselect:
   version: 0.3.ds1-28
   issues:
     - gcc_captures_build_path
+netsniff-ng:
+  version: 0.6.2-1
+  bugs:
+    - 867007
 netsurf:
   version: 3.2+dfsg-2
   issues:
@@ -16138,6 +16259,8 @@ nexus:
   version: 4.3.2-svn1921-2
   issues:
     - timestamps_in_jar
+  bugs:
+    - 866925
 nfft:
   version: 3.3.2~rc2-2
   comments: |
@@ -17402,6 +17525,8 @@ openms:
     The «*» on the find(1) command line may introduce a locale dependency (shell globs are expanded in a locale-sensitive sorted order), depending on the names of immediate children of ${binDir} (to which the script cd's).
   issues:
     - collation_order_varies_by_locale
+  bugs:
+    - 865240
 openocd:
   version: 0.9.0-1
   issues:
@@ -17426,6 +17551,10 @@ opensips:
   version: 2.2.2-3
   issues:
     - gcc_captures_build_path
+opensmtpd-extras:
+  version: 5.7.1-3
+  bugs:
+    - 866994
 opensp:
   version: 1.5.2-13
   issues:
@@ -17711,6 +17840,8 @@ packaging-tutorial:
   version: 0.15
   issues:
     - random_id_in_pdf_generated_by_dblatex
+  bugs:
+    - 867098
 packer:
   version: 0.10.1+dfsg-1
   issues:
@@ -17735,6 +17866,8 @@ paexec:
   version: 1.0.1-3
   issues:
     - pdf_created_by_ghostscript
+  bugs:
+    - 867099
 pagodacf:
   version: 0.10-3
   issues:
@@ -18981,6 +19114,8 @@ ppl:
   version: 1:1.2-1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 867100
 pps-tools:
   version: 0.20120406+g0deb9c7e-2
   issues:
@@ -19309,6 +19444,8 @@ purify:
   version: 2.0.0-1
   issues:
     - captures_build_path_via_assert
+  bugs:
+    - 867273
 purpose:
   version: 1.1-2
   issues:
@@ -19409,6 +19546,8 @@ pyepl:
   version: 1.1.0+git12-g365f8e3-2
   issues:
     - captures_build_path
+  bugs:
+    - 840377
 pyepr:
   version: 0.9.3-1
   issues:
@@ -20320,6 +20459,8 @@ python-pymzml:
   version: 0.7.6-dfsg-2
   issues:
     - pdf_id_varying_due_to_build_path
+  bugs:
+    - 865237
 python-pyo:
   version: 0.7.9-1
   issues:
@@ -20340,6 +20481,8 @@ python-pysam:
   version: 0.9.1.4+ds-1
   issues:
     - cython_captures_build_path
+  bugs:
+    - 867018
 python-pytc:
   version: 0.8-2
   bugs:
@@ -20454,6 +20597,10 @@ python-traits:
   version: 4.6.0-1
   bugs:
     - 846771
+python-txaio:
+  version: 2.5.1+2016.10.03.git.623ef68776-1
+  bugs:
+    - 867037
 python-utmp:
   version: 0.8.2
   issues:
@@ -22767,6 +22914,10 @@ rasterio:
   issues:
     - randomness_in_python_setuptools_requires_txt
     - cython_captures_build_path
+ratbagd:
+  version: 0.4-1
+  bugs:
+    - 867357
 ratt:
   version: 0.0~git20150816.0.b060319-1
   issues:
@@ -22910,6 +23061,8 @@ refcard:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - graphviz_nondeterminstic_output
+  bugs:
+    - 867101
 refind:
   version: 0.10.4-1
   bugs:
@@ -23045,6 +23198,8 @@ rheolef:
     - timestamps_in_pdf_generated_by_latex
     - fonts_in_pdf_files
     - records_build_flags
+  bugs:
+    - 867102
 rhino:
   version: 1.7.7.1-1
   issues:
@@ -24401,6 +24556,8 @@ shiboken:
   version: 1.2.2-3
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 864327
 shim:
   version: 0.9+1474479173.6c180c6-1
   comments: |
@@ -25676,6 +25833,10 @@ syslog-ng:
   bugs:
     - 866056
     - 866708
+syslog-ng-incubator:
+  version: 0.5.0-4
+  bugs:
+    - 867213
 systemd-docker:
   version: 0.2.1+dfsg-2
   issues:
@@ -26283,6 +26444,10 @@ tla:
   version: 1.3.5+dfsg1-2
   issues:
     - gcc_captures_build_path
+tldp:
+  version: 0.7.13-1
+  bugs:
+    - 867261
 tlsh:
   version: 3.4.4+20151206-1
   issues:
@@ -26988,6 +27153,10 @@ utalk:
   version: 1.0.1.beta-8
   issues:
     - gcc_captures_build_path
+utf8proc:
+  version: 2.0.2-1
+  bugs:
+    - 867105
 util-vserver:
   version: 0.30.216-pre3120-1.1
   issues:
@@ -27008,6 +27177,8 @@ uvloop:
   version: 0.8.0+ds1-1
   issues:
     - captures_build_path
+  bugs:
+    - 867028
 uw-imap:
   version: 8:2007f~dfsg-4
   issues:
@@ -27607,6 +27778,8 @@ wine-development:
   version: 1.7.51-1
   issues:
     - timestamps_from_cpp_macros
+  bugs:
+    - 867106
 winff:
   version: 1.5.3-4
   comments: |
@@ -28171,6 +28344,10 @@ xmms2:
   version: 0.8+dfsg-16
   issues:
     - gcc_captures_build_path
+xmonad:
+  version: 0.13-1
+  bugs:
+    - 867386
 xmount:
   version: 0.7.3-1
   issues:
