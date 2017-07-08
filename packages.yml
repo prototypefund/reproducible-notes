@@ -990,6 +990,10 @@ astroplan:
   version: 0.2-1
   issues:
     - timestamps_in_pdf_generated_by_matplotlib
+astroquery:
+  version: 0.3.5+dfsg-2
+  bugs:
+    - 867502
 astroscrappy:
   version: 1.0.3-2
   issues:
@@ -1122,6 +1126,10 @@ automake1.11:
   issues:
     - timezone_variance_because_of_automake_mdate
     - captures_shell_variable_in_autofoo_script
+automat:
+  version: 0.5.0-1
+  bugs:
+    - 867507
 automoc:
   version: 1.0~version-0.9.88-5
   issues:
@@ -1223,6 +1231,10 @@ axmlrpc:
   version: 1.9.0-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
+azure-cli:
+  version: 0.1.0~b7-1
+  bugs:
+    - 867506
 babel:
   version: 1.4.0.dfsg-8.2
   bugs:
@@ -1425,6 +1437,10 @@ bcron:
   version: 0.10-4
   bugs:
     - 839443
+beanbag:
+  version: 1.9.2-1.1
+  bugs:
+    - 867504
 beansbinding:
   version: 1.2.1-2
   issues:
@@ -2370,6 +2386,8 @@ celery:
   version: 3.1.13-3
   issues:
     - randomness_in_documentation_generated_by_sphinx
+  bugs:
+    - 867481
 cen64:
   version: 0.3+git20160403-1
   issues:
@@ -5925,6 +5943,14 @@ flashrom:
     https://sources.debian.net/src/flashrom/0.9.7%2Br1852-1.1/util/getrevision.sh/#L157
   bugs:
     - 834957
+flask:
+  version: 0.12.2-1
+  bugs:
+    - 867482
+flask-ldapconn:
+  version: 0.6.13-1
+  bugs:
+    - 867558
 flask-limiter:
   version: 0.9.3-1
   issues:
@@ -11031,6 +11057,10 @@ klatexformula:
   version: 3.3.0~beta-1
   issues:
     - build_id_differences_only
+klaus:
+  version: 1.2.1-2
+  bugs:
+    - 867510
 kleopatra:
   version: 4:16.04.2-2
   issues:
@@ -14914,6 +14944,10 @@ mdocml:
   version: 1.13.3-3
   issues:
     - gcc_captures_build_path
+mdp:
+  version: 3.5-1
+  bugs:
+    - 867515
 meanwhile:
   version: 1.0.2-7
   issues:
@@ -15549,6 +15583,8 @@ morse-simulator:
   issues:
     - random_order_in_python_environment_pickle
     - captures_build_path
+  bugs:
+    - 867496
 morsegen:
   version: 0.2.1-1
   bugs:
@@ -15655,6 +15691,10 @@ mpqc3:
     - diffoscope_runs_forever
   bugs:
     - 854555
+mps-youtube:
+  version: 0.2.7.1-2
+  bugs:
+    - 867505
 mpv:
   version: 0.20.0-1
   issues:
@@ -19328,6 +19368,10 @@ prooftree:
   version: 0.12-2
   issues:
     - captures_build_path
+protobuf:
+  version: 3.0.0-9
+  bugs:
+    - 862805
 prover9-manual:
   version: 0.0.200902a-2
   issues:
@@ -19491,6 +19535,10 @@ pybik:
     simply stripped.
   issues:
     - captures_build_arch
+pybind11:
+  version: 2.0.1-3
+  bugs:
+    - 867551
 pybliographer:
   version: 1.2.16-1
   bugs:
@@ -19812,6 +19860,10 @@ pysdl2:
   version: 0.9.3+dfsg2-1
   bugs:
     - 792197
+pyside:
+  version: 1.2.2+source1-1
+  bugs:
+    - 867485
 pyside-tools:
   version: 0.2.15-1
   issues:
@@ -19856,6 +19908,18 @@ pytest-httpbin:
   version: 0.2.0-1
   bugs:
     - 844358
+pytest-localserver:
+  version: 0.3.6-1
+  bugs:
+    - 867518
+pytest-pylint:
+  version: 0.6.0-1
+  bugs:
+    - 867522
+pytest-xdist:
+  version: 1.15.0-3
+  bugs:
+    - 867516
 pythia8:
   version: 8.1.86-1.1
   issues:
@@ -20219,6 +20283,10 @@ python-jedi:
   version: 0.9.0-1
   issues:
     - ftbfs_uninvestigated_test_failures
+python-jingo:
+  version: 0.9-1
+  bugs:
+    - 867501
 python-jpype:
   version: 0.5.4.2-3
   issues:
@@ -20353,6 +20421,8 @@ python-openstackclient:
   version: 2.3.0-2
   issues:
     - randomness_in_documentation_generated_by_sphinx
+  bugs:
+    - 867508
 python-openstackdocstheme:
   version: 1.2.5+dfsg1-1
   issues:
@@ -20390,6 +20460,10 @@ python-pdal:
   version: 1.4.0+ds-2
   issues:
     - gcc_captures_build_path
+python-pecan:
+  version: 1.1.2-3
+  bugs:
+    - 867500
 python-pex:
   version: 1.1.0-2
   issues:
@@ -26355,6 +26429,10 @@ tipa:
   version: 2:1.3-20
   issues:
     - random_id_in_pdf_generated_by_dblatex
+tiptop:
+  version: 2.3-2
+  bugs:
+    - 867499
 tircd:
   version: 0.30-1
   issues:
