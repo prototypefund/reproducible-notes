@@ -1689,5 +1689,5 @@ jellyfish_creates_nondeterministic_json:
   url: https://bugs.debian.org/863015
 timestamps_in_javascript_generated_by_node_grunt_banner:
   description: |
-    Grunt's support for adding a banner (in src:node-grunt-contrib-concat) has
-    a templating system that uses the current time, not SOURCE_DATE_EPOCH.
+    Grunt's support for adding a banner (in src:node-grunt) has a templating
+    system that uses the current time, not SOURCE_DATE_EPOCH.
