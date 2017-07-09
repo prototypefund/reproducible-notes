@@ -2198,6 +2198,10 @@ cantor:
   version: 4:16.08.3-1
   issues:
     - build_id_differences_only
+capistrano:
+  version: 3.4.0-1
+  bugs:
+    - 867642
 car:
   version: 2.1-3-1
   issues:
@@ -3824,6 +3828,10 @@ debian-builder:
     - timestamps_in_gzip_headers
   bugs:
     - 777009
+debian-design:
+  version: 3.0.7
+  bugs:
+    - 867695
 debian-edu-doc:
   version: 1.6~20150422~8+edu0~beta1
   issues:
@@ -3853,6 +3861,10 @@ debian-installer-netboot-images:
   version: 20150107
   issues:
     - needs_internet_access_to_build
+debian-parl:
+  version: 1.9.10
+  bugs:
+    - 867658
 debian-policy:
   version: 3.9.7.0
   issues:
@@ -13328,6 +13340,10 @@ libpll:
   version: 0.0+20160909+ds1-1
   issues:
     - gcc_captures_build_path
+libpng1.6:
+  version: 1.6.30-1
+  bugs:
+    - 867670
 libpodofo:
   version: 0.9.4-5
   issues:
@@ -19902,6 +19918,7 @@ pytest:
   version: 3.0.4-1
   bugs:
     - 844919
+    - 867502
 pytest-httpbin:
   version: 0.2.0-1
   bugs:
@@ -20135,6 +20152,8 @@ python-dmidecode:
   version: 3.12.2-2
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 867609
 python-docutils:
   version: 0.12+dfsg-1
   comments: |
@@ -20283,6 +20302,10 @@ python-jpype:
   version: 0.5.4.2-3
   issues:
     - gcc_captures_build_path
+python-json-patch:
+  version: 1.19-4
+  bugs:
+    - 867626
 python-kafka:
   version: 0.9.5-1
   issues:
@@ -20364,6 +20387,14 @@ python-morris:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - randomness_in_objects_inv
+python-mox3:
+  version: 0.14.0-1
+  bugs:
+    - 867627
+python-muranoclient:
+  version: 0.11.1-1
+  bugs:
+    - 867628
 python-nacl:
   version: 1.0.1-2
   comments: |
@@ -20431,6 +20462,14 @@ python-oslo.db:
   version: 1.0.2-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
+python-oslo.rootwrap:
+  version: 5.1.0-2
+  bugs:
+    - 867632
+python-oslo.service:
+  version: 1.16.0-2
+  bugs:
+    - 867630
 python-padme:
   version: 1.1.1-1
   issues:
@@ -20492,6 +20531,10 @@ python-prctl:
   version: 1.1.1-1.2
   issues:
     - gcc_captures_build_path
+python-proliantutils:
+  version: 2.1.11-2
+  bugs:
+    - 867629
 python-pyalsa:
   version: 1.0.29-1
   issues:
@@ -23838,6 +23881,10 @@ ruby-mini-magick:
   version: 4.4.0-1
   bugs:
     - 835078
+ruby-mixlib-install:
+  version: 1.1.0-1
+  bugs:
+    - 867656
 ruby-mpi:
   version: 0.3.0-1
   issues:
@@ -25474,6 +25521,10 @@ starpu:
   version: 1.1.4+dfsg-3
   comments: |
     Captures SHELL - needs some kind of forcing in debian/rules?
+starpy:
+  version: 1.0.1.0.git.20151124-1.1
+  bugs:
+    - 867672
 statcvs:
   version: 1:0.7.0.dfsg-6
   issues:
