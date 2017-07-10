@@ -8171,6 +8171,10 @@ golang-github-opencontainers-image-spec:
   version: 1.0.0~rc2+dfsg-1
   issues:
     - golang_compiler_captures_build_path_in_binary
+golang-github-optiopay-kafka:
+  version: 0.0~git20150921.0.bc8e095-1
+  bugs:
+    - 867775
 golang-github-pelletier-go-toml:
   version: 0.3.5+git20161123.19.7cb9880-1
   issues:
@@ -10887,6 +10891,10 @@ kguiaddons:
   version: 5.28.0-1
   issues:
     - gcc_captures_build_path
+khal:
+  version: 1:0.8.4-4
+  bugs:
+    - 867797
 khelpcenter:
   version: 4:16.04.2-2
   issues:
@@ -17724,6 +17732,7 @@ orthanc:
     - gcc_captures_build_path
   bugs:
     - 865606
+    - 867782
 orthanc-dicomweb:
   version: 0.3+dfsg-1
   issues:
@@ -17736,6 +17745,8 @@ orthanc-webviewer:
   version: 2.2-1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 867789
 orthanc-wsi:
   version: 0.4+dfsg-1
   issues:
@@ -20052,6 +20063,10 @@ python-cjson:
   version: 1.1.0-2
   issues:
     - gcc_captures_build_path
+python-cliff:
+  version: 1.15.0-5
+  bugs:
+    - 867774
 python-cobra:
   version: 0.4.2~b1-1
   issues:
@@ -20162,6 +20177,10 @@ python-docutils:
     Caused by dynamic locale selection being written into the manpage at build time.
   issues:
     - captures_build_path
+python-drizzle:
+  version: 1.5-2
+  bugs:
+    - 867772
 python-dtcwt:
   version: 0.10.1+dfsg1-2
   issues:
@@ -20704,6 +20723,10 @@ python-traits:
   version: 4.6.0-1
   bugs:
     - 846771
+python-trollius:
+  version: 2.1~b1-4
+  bugs:
+    - 867771
 python-txaio:
   version: 2.5.1+2016.10.03.git.623ef68776-1
   bugs:
@@ -21063,6 +21086,8 @@ qtcreator:
   version: 4.2.0-1
   comments: |
     Unsorted IDs in qch documentation file.
+  bugs:
+    - 867765
 qtcurve:
   version: 1.8.18+git20160320-3d8622c-3
   issues:
@@ -23196,6 +23221,10 @@ reiser4progs:
   version: 1.1.0-1.1
   issues:
     - gcc_captures_build_path
+relatorio:
+  version: 0.6.4-1
+  bugs:
+    - 867773
 relaxngcc:
   version: 1.12-1
   issues:
@@ -23839,6 +23868,10 @@ ruby-http-parser.rb:
   version: 0.6.0-3
   issues:
     - gcc_captures_build_path
+ruby-influxdb:
+  version: 0.2.3-1
+  bugs:
+    - 867645
 ruby-json:
   version: 2.0.1+dfsg-2
   issues:
@@ -25430,6 +25463,10 @@ squirrel3:
   version: 3.1-2
   issues:
     - build_id_differences_only
+squishyball:
+  version: 0.1~svn19085-4
+  bugs:
+    - 860334
 sra-sdk:
   version: 2.8.1-2+dfsg-1
   issues:
@@ -26002,6 +26039,10 @@ tachyon:
     This will be fixed with https://bugs.debian.org/827115
   issues:
     - random_id_in_pdf_generated_by_dblatex
+tack:
+  version: 1.07-1
+  bugs:
+    - 862472
 tagainijisho:
   version: 1.0.2-1
   issues:
@@ -28976,6 +29017,10 @@ zoomer:
   version: 0.1-1.1
   issues:
     - docbook_to_man_one_byte_delta
+zope.testing:
+  version: 4.6.0-1
+  bugs:
+    - 867777
 zope2.13:
   version: 2.13.22-1
   issues:
