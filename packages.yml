@@ -561,6 +561,8 @@ apache-directory-jdbm:
   version: 2.0.0~M2-1
   issues:
     - random_order_in_java_jar_manifest_mf
+  bugs:
+    - 867890
 apache-log4j-extras1.2:
   version: 1.2.17-1
   issues:
@@ -2109,6 +2111,7 @@ cairo-5c:
   bugs:
     - 866360
     - 866707
+    - 867845
 cairo-dock:
   version: 3.4.0-2
   issues:
@@ -7533,6 +7536,10 @@ glipper:
   version: 2.4-6
   comments: |
     Perhaps a similar issue to python-support where it does not copy the file due to mtimes?
+glirc:
+  version: 2.20.1.1-2
+  bugs:
+    - 867830
 glob2:
   version: 0.9.4.4-2.3
   issues:
@@ -9016,6 +9023,10 @@ haskell-secret-sharing:
   version: 1.0.0.3-3
   bugs:
     - 867195
+haskell-servant-server:
+  version: 0.8.1-2
+  bugs:
+    - 867844
 haskell-terminal-progress-bar:
   version: 0.1.1.1-1
   bugs:
@@ -10090,6 +10101,10 @@ jarisplayer:
   version: 2.0.17~dfsg-3
   bugs:
     - 855066
+jarjar:
+  version: 1.4+svn142-6
+  bugs:
+    - 867889
 jasperreports:
   version: 6.2.2-3
   issues:
@@ -17984,6 +17999,8 @@ pandoc:
   version: 1.17.0.3~dfsg-2
   comments: |
     Includes a buildinfo_ARCH.gz (NB. nothing to do with .buildinfo) that has some missing contents on our b build. Cannot reproduce locally and its not a file that really wants stripping IFAICT as lots of other packages include them.
+  bugs:
+    - 867843
 paps:
   version: 0.6.8-7
   issues:
@@ -19965,6 +19982,10 @@ python-astropy:
     See also https://bugs.debian.org/791574#61
   issues:
     - cython_captures_build_path
+python-astropy-helpers:
+  version: 2.0-1
+  bugs:
+    - 867772
 python-asyncssh:
   version: 1.2.0-1
   issues:
@@ -20422,6 +20443,10 @@ python-nacl:
   issues:
     - captures_build_arch
     - max_output_size_reached
+python-neovim:
+  version: 0.1.13-2
+  bugs:
+    - 867886
 python-networkx:
   version: 1.9+dfsg1-1
   comments: |
@@ -25438,6 +25463,10 @@ sqljet:
   version: 1.1.10-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+sqlobject:
+  version: 3.1.0+dfsg-2
+  bugs:
+    - 867899
 squeak-vm:
   version: 4.10.2.2614-1.1
   comments: |
@@ -26261,6 +26290,10 @@ telepathy-qt:
   version: 0.9.6.1-6.1
   issues:
     - build_id_differences_only
+tempest:
+  version: 1:12.2.0-1
+  bugs:
+    - 867907
 tempest-for-eliza:
   version: 1.0.5-2
   issues:
@@ -26987,6 +27020,10 @@ ubertooth:
   version: 2015.09.R2-4
   issues:
     - build_id_differences_only
+ubuntu-dev-tools:
+  version: 0.157
+  bugs:
+    - 867901
 ubuntu-packaging-guide:
   version: 0.3.6
   issues:
@@ -27792,6 +27829,10 @@ wbxml2:
   version: 0.10.7-1
   issues:
     - gcc_captures_build_path
+wcsaxes:
+  version: 0.9-1
+  bugs:
+    - 867906
 wcslib:
   version: 4.24-1
   issues:
@@ -28809,6 +28850,8 @@ yapsy:
   version: 1.10.423-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
+  bugs:
+    - 867900
 yara-python:
   version: 3.5.0+dfsg-4
   bugs:
