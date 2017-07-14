@@ -28506,11 +28506,6 @@ xmlformat:
   version: 1.04-2
   issues:
     - timestamps_in_pdf_generated_by_apache_fop
-xmlgraphics-commons:
-  version: 1.5-4
-  comments: |
-    The build script adds a custom 'Build-Id' header including a
-    timestamp, the hostname, etc. to MANIFEST.MF files.
 xmlm:
   version: 1.2.0-1
   bugs:
