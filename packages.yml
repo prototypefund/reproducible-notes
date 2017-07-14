@@ -11468,8 +11468,6 @@ kxmlgui:
   comments: |
     Embeds the kernel version.
     https://sources.debian.net/src/kxmlgui/5.11.0-1/src/config-xmlgui.h.cmake/#L2
-  issues:
-    - captures_build_path
   bugs:
     - 835053
 kxmlrpcclient:
@@ -28513,8 +28511,6 @@ xmlgraphics-commons:
   comments: |
     The build script adds a custom 'Build-Id' header including a
     timestamp, the hostname, etc. to MANIFEST.MF files.
-  issues:
-    - captures_kernel_version
 xmlm:
   version: 1.2.0-1
   bugs:
