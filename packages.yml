@@ -24618,9 +24618,6 @@ senlin:
     - user_hostname_manually_added_requiring_further_investigation
 sensible-utils:
   version: 0.0.9
-  issues:
-    - timestamps_in_gzip_headers
-    - different_due_to_umask
   bugs:
     - 774449
 seq24:
