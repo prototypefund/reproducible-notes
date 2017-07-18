@@ -1741,10 +1741,6 @@ blockattack:
   version: 1.4.1+ds1-2.1
   issues:
     - different_due_to_umask
-blockdiag:
-  version: 1.5.3+dfsg-1.1
-  bugs:
-    - 860689
 blockout2:
   version: 2.4+dfsg1-7
   bugs:
@@ -3272,14 +3268,6 @@ cronutils:
   version: 1.9-1
   bugs:
     - 863072
-cross-toolchain-base:
-  version: 17
-  bugs:
-    - 860687
-cross-toolchain-base-ports:
-  version: 10
-  bugs:
-    - 860626
 crossroads:
   version: 2.81-1
   issues:
@@ -4357,10 +4345,6 @@ docker-swarm:
   version: 1.0.1+dfsg-1
   issues:
     - golang_compiler_captures_build_path_in_binary
-docker.io:
-  version: 1.11.2~ds1-6
-  bugs:
-    - 835686
 docky:
   version: 2.2.0-2
   issues:
@@ -5466,10 +5450,6 @@ fakechroot:
   version: 2.18-1
   issues:
     - captures_shell_variable_in_autofoo_script
-falcon:
-  version: 1.8.6-1
-  bugs:
-    - 863929
 falselogin:
   version: 0.3-4
   issues:
@@ -14123,10 +14103,6 @@ linthesia:
   version: 0.4.3-1
   bugs:
     - 835117
-lintian:
-  version: 2.5.50.3
-  bugs:
-    - 863020
 linux:
   version: 4.6.3-1
   issues:
@@ -19981,10 +19957,6 @@ python-biopython:
   issues:
     - pdf_id_varying_due_to_build_path
     - timestamps_in_tex_documents
-python-biplist:
-  version: 1.0.1-1
-  bugs:
-    - 860656
 python-bleach:
   version: 1.4.2-1
   bugs:
@@ -20629,10 +20601,6 @@ python-repoze.tm2:
   version: 2.0-1
   bugs:
     - 788507
-python-restless:
-  version: 2.0.3-1
-  bugs:
-    - 849555
 python-riemann-client:
   version: 6.3.0-1
   bugs:
@@ -21210,10 +21178,6 @@ qtwebchannel-opensource-src:
   version: 5.6.1-1
   issues:
     - captures_build_path
-qtwebengine-opensource-src:
-  version: 5.7.1+dfsg-6
-  bugs:
-    - 863927
 qtwebkit:
   version: 2.3.4.dfsg-3
   issues:
@@ -27537,8 +27501,6 @@ viva:
   version: 1.1+git20150820.1a3d1f680f-1
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 827349
 vlan:
   version: 1.9-3.2
   issues:
@@ -27725,10 +27687,6 @@ wammu:
        213	        for loc in translations.keys():
   bugs:
     - 862451
-wand:
-  version: 0.4.4-1.1
-  bugs:
-    - 860689
 warzone2100:
   version: 3.1.1-3
   issues:
