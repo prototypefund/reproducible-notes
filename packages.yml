@@ -28624,6 +28624,8 @@ xorg-server:
     - captures_kernel_version
     - different_due_to_umask
     - random_order_in_tarball
+  bugs:
+    - 868843
 xorp:
   version: 1.8.5-4
   comments: |
