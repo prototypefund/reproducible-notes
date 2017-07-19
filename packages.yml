@@ -9884,11 +9884,6 @@ ircd-irc2:
     https://sources.debian.net/src/ircd-irc2/2.11.2p3~dfsg-4/ircd/version.c.SH.in/
   bugs:
     - 834956
-ircd-ircu:
-  version: 2.10.12.10.dfsg1-1.1
-  comments: |
-    Embed build time:
-    https://sources.debian.net/src/ircd-ircu/2.10.12.10.dfsg1-1.1/ircd/version.c.SH/?hl=17#L17
 ircii:
   version: 20151120-1
   issues:
@@ -26604,13 +26599,6 @@ tinydyndns:
   bugs:
     - 776929
     - 847032
-tinyeartrainer:
-  version: 0.1.0-3
-  comments: |
-    [i386,armhf; due to disorderfs being enabled only on these?]
-    python2.7 .install-info file lists files in different order.
-    .
-    Compare #839631.
 tinyirc:
   version: 1:1.1.dfsg.1-3
   bugs:
@@ -28154,11 +28142,6 @@ woo:
   issues:
     - blacklisted_on_jenkins_armhf_only
     - captures_build_path
-wordgrinder:
-  version: 0.5.1-1
-  comments: |
-    Embeds the build date into the manpage with sed via Makefile.
-    https://sources.debian.net/src/wordgrinder/0.5.1-1/Makefile/#L267
 wordnet:
   version: 1:3.0-33
   issues:
