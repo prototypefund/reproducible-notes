@@ -614,6 +614,10 @@ apertium-af-nl:
   version: 0.2.0~r58256-1
   issues:
     - captures_build_path
+apertium-dan-nor:
+  version: 1.3.0~r67099-1
+  bugs:
+    - 868717
 apertium-en-gl:
   version: 0.5.2~r57551-1
   issues:
@@ -1453,6 +1457,8 @@ bcftools:
   version: 1.3.1-1
   bugs:
     - 819617
+    - 860682
+    - 860704
     - 865006
     - 865060
 bcron:
@@ -3793,6 +3799,8 @@ dcmstack:
   version: 0.6.2+git33-gb43919a.1-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
+  bugs:
+    - 868744
 dcmtk:
   version: 3.6.1~20160216-4
   issues:
@@ -7416,10 +7424,15 @@ git:
     docbook-to-man. The gzip headers are trivial.
   bugs:
     - 865789
+    - 868738
 git-buildpackage:
   version: 0.8.12.2
   issues:
     - randomness_in_documentation_generated_by_sphinx
+git-cola:
+  version: 2.10-1
+  bugs:
+    - 868751
 git-hub:
   version: 0.9.0-1
   comments: |
@@ -8033,6 +8046,10 @@ golang-github-coreos-go-tspi:
   version: 0.1.1-1
   bugs:
     - 849665
+golang-github-couchbase-moss:
+  version: 0.0~git20170713.0.8ea508f-1
+  bugs:
+    - 868719
 golang-github-cyberdelia-go-metrics-graphite:
   version: 0.0~git20151204.0.7e54b5c-1
   bugs:
@@ -9277,6 +9294,8 @@ hkl:
   version: 4.0.3-4
   issues:
     - timestamps_in_documentation_generated_by_org_mode
+  bugs:
+    - 868481
 hmat-oss:
   version: 1.0.4-2
   issues:
@@ -10957,6 +10976,7 @@ khal:
   version: 1:0.8.4-4
   bugs:
     - 867797
+    - 868773
 khelpcenter:
   version: 4:16.04.2-2
   issues:
@@ -11676,6 +11696,14 @@ lcm:
   issues:
     - captures_shell_variable_in_autofoo_script
     - records_build_flags
+lcmaps:
+  version: 1.6.1-2
+  bugs:
+    - 868740
+lcmaps-plugins-voms:
+  version: 1.6.2-2.1
+  bugs:
+    - 868741
 lcov:
   version: 1.12-2
   issues:
@@ -17003,6 +17031,8 @@ ocaml-extunix:
   version: 0.1.3-1
   issues:
     - captures_build_path
+  bugs:
+    - 868721
 ocaml-faad:
   version: 0.3.2-2
   issues:
@@ -18049,6 +18079,7 @@ pandoc:
     Includes a buildinfo_ARCH.gz (NB. nothing to do with .buildinfo) that has some missing contents on our b build. Cannot reproduce locally and its not a file that really wants stripping IFAICT as lots of other packages include them.
   bugs:
     - 867843
+    - 868757
 paps:
   version: 0.6.8-7
   issues:
@@ -23036,6 +23067,10 @@ r-zoo:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
+rabbit:
+  version: 2.1.9-2
+  bugs:
+    - 868774
 rabbitmq-server:
   version: 3.4.2-2
   issues:
@@ -23067,6 +23102,8 @@ ragel:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
+  bugs:
+    - 868772
 rakarrack:
   version: 0.6.1-4
   issues:
@@ -23701,6 +23738,10 @@ rtl-sdr:
   version: 0.5.3-11
   issues:
     - build_id_differences_only
+rtorrent:
+  version: 0.9.6-2
+  bugs:
+    - 862131
 ruamel.yaml:
   version: 0.11.14-1
   issues:
@@ -23867,6 +23908,10 @@ ruby-gd:
   version: 0.8.0-7
   issues:
     - gcc_captures_build_path
+ruby-gemnasium-gitlab-service:
+  version: 0.2.6-1
+  bugs:
+    - 867655
 ruby-github-markdown:
   version: 0.6.9-2
   issues:
@@ -24127,6 +24172,10 @@ ruby-shadow:
   version: 2.4.1-1
   issues:
     - gcc_captures_build_path
+ruby-sham-rack:
+  version: 1.3.6-6
+  bugs:
+    - 868750
 ruby-sigar:
   version: 0.7.3-1
   comments: |
@@ -24799,6 +24848,8 @@ shogun:
   version: 3.2.0-7.4
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 868786
 shotwell:
   version: 0.22.0-4
   issues:
@@ -24984,6 +25035,8 @@ sks:
   version: 1.1.5-4
   issues:
     - randomness_in_ocaml_preprocessed_files
+  bugs:
+    - 868631
 skycat:
   version: 3.1.2+starlink1~b+dfsg-2
   comments: |
@@ -25955,6 +26008,10 @@ symfony:
   version: 2.7.5+dfsg-1
   issues:
     - ftbfs_uninvestigated_test_failures
+sympa:
+  version: 6.2.16~dfsg-4
+  bugs:
+    - 868720
 sympy:
   version: 0.7.5-4
   issues:
