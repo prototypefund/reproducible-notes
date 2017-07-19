@@ -6,10 +6,6 @@
   version: 1.2-1
   issues:
     - fontforge_resets_modification_time
-3dldf:
-  version: 2.0.3+dfsg-5
-  bugs:
-    - 760701
 4digits:
   version: 1.1.4-1
   issues:
@@ -4129,10 +4125,6 @@ dime:
   version: 0.20111205-2
   issues:
     - records_build_flags
-diploma:
-  version: 1.2.12
-  bugs:
-    - 854146
 dipy:
   version: 0.7.1-2
   issues:
@@ -4432,10 +4424,6 @@ dom4j:
   version: 1.6.1+dfsg.3-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
-doomsday:
-  version: 1.15.8-3
-  bugs:
-    - 858333
 doscan:
   version: 0.3.3-1
   bugs:
@@ -5466,10 +5454,6 @@ eztrace:
   version: 1.1-3-1
   issues:
     - captures_build_path
-fabric:
-  version: 1.13.1-3
-  bugs:
-    - 854686
 fabulous:
   version: 0.3.0+dfsg1-1
   issues:
@@ -8077,10 +8061,6 @@ golang-github-eknkc-amber:
   version: 0.0~git20160421.0.91774f0-1
   issues:
     - golang_compiler_captures_build_path_in_binary
-golang-github-elithrar-simple-scrypt:
-  version: 1.1+git20161119.3.2325946-1
-  bugs:
-    - 851723
 golang-github-facebookgo-grace:
   version: 0.0~git20170218.0.4afe952-1
   bugs:
@@ -8093,10 +8073,6 @@ golang-github-go-chef-chef:
   version: 0.0.1+git20161023.60.deb8c38-1
   bugs:
     - 848055
-golang-github-gogits-cron:
-  version: 0.0~git20160810.32.7f3990a-1
-  bugs:
-    - 850199
 golang-github-golang-mock:
   version: 0.0~git20150821.0.06883d9-1
   issues:
@@ -8669,7 +8645,6 @@ gross:
 grpc:
   version: 0.12.0-1
   bugs:
-    - 812845
     - 831250
 grpn:
   version: 1.1.2-3.2
@@ -9895,8 +9870,6 @@ ircd-ircu:
   comments: |
     Embed build time:
     https://sources.debian.net/src/ircd-ircu/2.10.12.10.dfsg1-1.1/ircd/version.c.SH/?hl=17#L17
-  bugs:
-    - 835130
 ircii:
   version: 20151120-1
   issues:
@@ -12675,7 +12648,6 @@ libi8x:
 libibtk:
   version: 0.0.14-12
   bugs:
-    - 528982
     - 759464
 libical:
   version: 2.0.0-0.4
@@ -14088,10 +14060,6 @@ libxmlada:
   version: 4.4.2014-1
   issues:
     - timestamps_in_pdf_generated_by_latex
-libxmlbird:
-  version: 1.2.0-1
-  bugs:
-    - 828122
 libxmlenc-java:
   version: 0.52+dfsg-4
   issues:
@@ -16624,10 +16592,6 @@ node-redis:
   bugs:
     - 830215
     - 842209
-node-rimraf:
-  version: 2.5.4-1
-  bugs:
-    - 845745
 node-semver:
   version: 5.3.0-1
   issues:
@@ -20421,10 +20385,6 @@ python-kafka:
   version: 0.9.5-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
-python-kdcproxy:
-  version: 0.3.2-4
-  bugs:
-    - 854191
 python-keystonemiddleware:
   version: 1.5.0-1
   issues:
@@ -20593,10 +20553,6 @@ python-pam:
   version: 0.4.2-13.2
   issues:
     - gcc_captures_build_path
-python-passlib:
-  version: 1.7.0-1
-  bugs:
-    - 852289
 python-pbr:
   version: 1.10.0-1
   bugs:
@@ -24574,10 +24530,6 @@ scoop:
   bugs:
     - 802318
     - 835534
-scowl:
-  version: 7.1-1
-  bugs:
-    - 791851
 screengrab:
   version: 1.95+20160128-3
   issues:
@@ -26344,8 +26296,6 @@ teem:
   version: 1.12.0~20160122-1
   issues:
     - captures_build_path
-  bugs:
-    - 820772
 teg:
   version: 0.11.2+debian-4
   issues:
@@ -26604,8 +26554,6 @@ tinyeartrainer:
     python2.7 .install-info file lists files in different order.
     .
     Compare #839631.
-  bugs:
-    - 846647
 tinyirc:
   version: 1:1.1.dfsg.1-3
   bugs:
@@ -26863,10 +26811,6 @@ treil:
   version: 1.8-2.2
   issues:
     - gcc_captures_build_path
-trickle:
-  version: 1.07-10
-  bugs:
-    - 736887
 triggerhappy:
   version: 0.5.0-1
   issues:
@@ -28158,8 +28102,6 @@ wordgrinder:
   comments: |
     Embeds the build date into the manpage with sed via Makefile.
     https://sources.debian.net/src/wordgrinder/0.5.1-1/Makefile/#L267
-  bugs:
-    - 831742
 wordnet:
   version: 1:3.0-33
   issues:
