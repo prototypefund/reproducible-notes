@@ -25781,7 +25781,8 @@ subversion:
   version: 1.9.5-1
   comments: |
     In the upstream build process, generating the tarballs from the tags is non-reproducible due to
-    (1) different_pot_creation_date_in_gettext_mo_files affecting the subversion.pot file,
+    (1) different_pot_creation_date_in_gettext_mo_files affecting the subversion.pot file;
+        this variant is tracked as #792687 against gettext.
     (2) swig embedding non-$SOURCE_ROOT_DIR-relative paths into generated files.
   issues:
     - captures_build_path_via_assert
