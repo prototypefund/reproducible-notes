@@ -2142,6 +2142,10 @@ cairo-ocaml:
   version: 1:1.2.0-5.1
   issues:
     - gcc_captures_build_path
+cairocffi:
+  version: 0.7.2-2.1
+  bugs:
+    - 868872
 cairodevice:
   version: 2.23-2
   issues:
@@ -2425,6 +2429,7 @@ celery:
     - randomness_in_documentation_generated_by_sphinx
   bugs:
     - 867481
+    - 868808
 cen64:
   version: 0.3+git20160403-1
   issues:
@@ -4204,6 +4209,7 @@ django-guardian:
     - randomness_in_documentation_generated_by_sphinx
   bugs:
     - 865556
+    - 868863
 django-hijack:
   version: 2.0.7-2
   bugs:
@@ -8900,6 +8906,9 @@ gwc:
   version: 0.21.19~dfsg0-4
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 868858
+    - 868904
 gwcs:
   version: 0.7-1
   bugs:
@@ -12570,6 +12579,8 @@ libgpuarray:
   version: 0.0+git160929.29ce960-1
   issues:
     - captures_build_path
+  bugs:
+    - 868877
 libgrip:
   version: 0.3.8-1
   bugs:
@@ -20123,6 +20134,10 @@ python-cjson:
   version: 1.1.0-2
   issues:
     - gcc_captures_build_path
+python-click:
+  version: 6.6-1
+  bugs:
+    - 868816
 python-cliff:
   version: 1.15.0-5
   bugs:
@@ -20364,6 +20379,10 @@ python-http-parser:
   version: 0.8.3-2
   issues:
     - gcc_captures_build_path
+python-hupper:
+  version: 1.0-1
+  bugs:
+    - 868940
 python-hypothesis:
   version: 3.4.2-1
   bugs:
@@ -20634,6 +20653,8 @@ python-pybedtools:
   version: 0.7.8-1
   issues:
     - captures_build_path
+  bugs:
+    - 868927
 python-pyeclib:
   version: 1.4.0-2
   bugs:
@@ -23980,6 +24001,10 @@ ruby-libxml:
   version: 2.9.0-2
   issues:
     - gcc_captures_build_path
+ruby-license-finder:
+  version: 2.1.2-1
+  bugs:
+    - 867653
 ruby-mecab:
   version: 0.99.6-2
   issues:
@@ -25273,6 +25298,10 @@ socks4-server:
   version: 4.3.beta2-19
   issues:
     - gcc_captures_build_path
+softhsm2:
+  version: 2.2.0-3
+  bugs:
+    - 868855
 sogo:
   version: 3.2.6-1
   comments: |
