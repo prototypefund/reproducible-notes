@@ -1457,6 +1457,7 @@ bcftools:
     - 860704
     - 865006
     - 865060
+    - 868958
 bcron:
   version: 0.10-4
   bugs:
@@ -2314,6 +2315,7 @@ ccdproc:
   version: 1.2.0-1
   bugs:
     - 868119
+    - 868968
 ccfits:
   version: 2.4+dfsg-5
   issues:
@@ -4486,6 +4488,10 @@ doxygen:
     - timezones_manpages_podman
     - captures_build_path
     - too_much_input_for_diff
+dozzaqueux:
+  version: 3.50-1
+  bugs:
+    - 865634
 dpdk:
   version: 16.07-1
   issues:
@@ -4573,6 +4579,10 @@ dsh:
   version: 0.25.10-1.1
   issues:
     - build_id_differences_only
+dsniff:
+  version: 2.4b1+debian-26
+  bugs:
+    - 869086
 dspdfviewer:
   version: 1.15-2
   issues:
@@ -4836,6 +4846,7 @@ eclipse-gef:
   version: 3.9.100-1
   bugs:
     - 850553
+    - 869089
 eclipse-mercurialeclipse:
   version: 1.9.4-2
   comments: |
@@ -5404,6 +5415,10 @@ exabgp:
   issues:
     - ftbfs_uninvestigated_test_failures
     - captures_build_arch
+exec-maven-plugin:
+  version: 1.1.1+dfsg-3
+  bugs:
+    - 869025
 exim4:
   version: 4.87-3
   issues:
@@ -8952,6 +8967,8 @@ hamlib:
   version: 3.0.1-1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 869120
 hamradio-maintguide:
   version: 0.3
   issues:
@@ -14192,6 +14209,10 @@ lincity-ng:
   version: 2.9~git20150314-1
   issues:
     - captures_build_path
+linpac:
+  version: 0.24-2
+  bugs:
+    - 868921
 linssid:
   version: 2.9-3
   issues:
@@ -14742,6 +14763,8 @@ mame:
   version: 0.182-1
   comments: |
     Need to sort here http://sources.debian.net/src/mame/0.176-3/src/lib/util/options.cpp/#L492
+  bugs:
+    - 869074
 manderlbot:
   version: 0.9.2-19
   issues:
@@ -23795,6 +23818,10 @@ ruby-curses:
   version: 1.0.2-1
   issues:
     - gcc_captures_build_path
+ruby-dalli:
+  version: 2.7.4-1
+  bugs:
+    - 869054
 ruby-dataobjects-mysql:
   version: 0.10.16-1
   issues:
@@ -23951,6 +23978,10 @@ ruby-influxdb:
   version: 0.2.3-1
   bugs:
     - 867645
+ruby-jquery-rails:
+  version: 4.2.1-2
+  bugs:
+    - 869050
 ruby-json:
   version: 2.0.1+dfsg-2
   issues:
@@ -24143,6 +24174,10 @@ ruby-rpatricia:
   version: 1.0.1-1
   issues:
     - gcc_captures_build_path
+ruby-rspec-rails:
+  version: 3.5.2-1
+  bugs:
+    - 869038
 ruby-sdl:
   version: 2.2.0-1
   issues:
@@ -24207,6 +24242,10 @@ ruby-tokyocabinet:
   version: 1.31-5
   issues:
     - gcc_captures_build_path
+ruby-turbolinks:
+  version: 2.5.3-3
+  bugs:
+    - 869062
 ruby-unf-ext:
   version: 0.0.7.2-2
   issues:
@@ -27248,6 +27287,7 @@ unattended-upgrades:
   version: 0.93.1+nmu1
   bugs:
     - 865897
+    - 869088
 unbound:
   version: 1.5.9-3
   issues:
@@ -27449,6 +27489,10 @@ vagalume:
   version: 0.8.6-2
   issues:
     - captures_build_arch
+vagrant-libvirt:
+  version: 0.0.37-1
+  bugs:
+    - 869043
 valabind:
   version: 0.10.0-0.1
   issues:
