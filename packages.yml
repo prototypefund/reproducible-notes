@@ -4884,6 +4884,10 @@ eclipse-wtp:
     - timestamps_in_jar
     - blacklisted_on_jenkins_armhf_only
     - captures_build_path
+eclipse-xsd:
+  version: 2.9.0-1
+  bugs:
+    - 869221
 eclipselink:
   version: 2.5.1-4
   issues:
@@ -8184,6 +8188,10 @@ golang-github-miekg-mmark:
   version: 1.3.4+dfsg-1
   issues:
     - golang_compiler_captures_build_path_in_binary
+golang-github-minio-cli:
+  version: 1.3.0+git20170313.0.8683fa7-1
+  bugs:
+    - 869190
 golang-github-minio-minio-go:
   version: 2.0.2-1
   bugs:
@@ -8220,6 +8228,10 @@ golang-github-pelletier-go-toml:
   version: 0.3.5+git20161123.19.7cb9880-1
   issues:
     - captures_build_path
+golang-github-pingcap-check:
+  version: 0.0~git20161122.0.9b26663-1
+  bugs:
+    - 869192
 golang-github-pointlander-peg:
   version: 0.0~git20160905.0.58700b5-1
   issues:
@@ -11244,6 +11256,8 @@ knot:
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_manpages_generated_by_sphinx
     - copyright_year_in_documentation_generated_by_sphinx
+  bugs:
+    - 869199
 knot-resolver:
   version: 1.0.0~beta3-78-g3429619-1
   comments: |
@@ -12460,6 +12474,10 @@ libgadu:
   version: 1:1.12.1-2
   issues:
     - captures_build_path
+libgap-sage:
+  version: 4.8.6+3+20160327g69a66f0+dsx-2
+  bugs:
+    - 869160
 libgc:
   version: 1:7.4.2-7.3
   issues:
@@ -18702,6 +18720,10 @@ phyml:
   version: 3:3.3.20170530+dfsg-1
   bugs:
     - 866139
+physamp:
+  version: 0.2.0-1
+  bugs:
+    - 868919
 physlock:
   version: 0.4.5-2
   issues:
@@ -23617,6 +23639,10 @@ ros-roscpp-core:
   version: 0.6.0-1
   issues:
     - gcc_captures_build_path
+ros-rosinstall:
+  version: 0.7.7-4
+  bugs:
+    - 869162
 ros-rospack:
   version: 2.3.1-1
   issues:
@@ -24060,6 +24086,10 @@ ruby-ncurses:
   version: 1.4.9-1
   issues:
     - gcc_captures_build_path
+ruby-net-scp:
+  version: 1.2.1-4
+  bugs:
+    - 869164
 ruby-netcdf:
   version: 0.7.1.1-7
   issues:
