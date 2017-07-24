@@ -19148,6 +19148,10 @@ polylib:
   version: 5.22.5-3+dfsg
   issues:
     - gcc_captures_build_path
+polymake:
+  version: 3.1-4
+  comments: |
+    Paths introduced via perllib/Polymake/Configure.pm and support/configure.pl
 polyml:
   version: 5.6-8
   issues:
