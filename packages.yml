@@ -622,6 +622,8 @@ apertium-eo-es:
   version: 1:0.9.1~r60655-1
   issues:
     - captures_build_path
+  bugs:
+    - 869582
 apertium-es-gl:
   version: 1.0.8~r57542-2
   issues:
@@ -1211,6 +1213,8 @@ avrdude:
   version: 6.3-1
   issues:
     - pdf_id_varying_due_to_build_path
+  bugs:
+    - 868925
 awesome:
   version: 4.0-1
   issues:
@@ -1639,6 +1643,10 @@ biojava4-live:
   version: 4.1.0+dfsg-3
   issues:
     - random_order_in_documentation_generated_by_javadoc
+bioperl-run:
+  version: 1.7.1-3
+  bugs:
+    - 868073
 biosig4c++:
   version: 1.3.0-2.1
   comments: |
@@ -2259,6 +2267,8 @@ casacore-data-igrf:
   version: 10-1
   issues:
     - timestamps_manually_added_needs_further_investigation
+  bugs:
+    - 869572
 casacore-data-lines:
   version: 0+git2016.11.26-1
   issues:
@@ -3258,6 +3268,10 @@ cpufrequtils:
   version: 008-1
   issues:
     - gcc_captures_build_path
+cqrlog:
+  version: 2.0.5-2
+  bugs:
+    - 865777
 crac:
   version: 2.5.0+dfsg-1
   comments: |
@@ -3678,6 +3692,8 @@ dask:
   version: 0.12.0-1
   issues:
     - python_versioneer_uses_parentdir
+  bugs:
+    - 861567
 dask.distributed:
   version: 1.14.3+ds.1-1
   bugs:
@@ -3980,6 +3996,10 @@ deborphan:
   version: 1.7.28.8-0.3
   issues:
     - gcc_captures_build_path
+debug-me:
+  version: 1.20170520-1
+  bugs:
+    - 869550
 deja-dup:
   version: 34.3-1
   issues:
@@ -4473,6 +4493,8 @@ doublecmd:
   version: 0.7.6-1
   issues:
     - build_id_differences_only
+  bugs:
+    - 868288
 dovecot:
   version: 1:2.2.25-1
   issues:
@@ -5186,6 +5208,8 @@ erlang-bitcask:
   version: 2.0.2+dfsg-1
   issues:
     - captures_build_path_in_beam_files
+  bugs:
+    - 869571
 erlang-cherly:
   version: 0.12.8+dfsg-5
   issues:
@@ -7162,6 +7186,10 @@ gdigi:
   version: 0.4.0-1
   issues:
     - gcc_captures_build_path
+gdmap:
+  version: 0.8.1-3
+  bugs:
+    - 869578
 gdome2:
   version: 0.8.1+debian-6
   issues:
@@ -7426,6 +7454,10 @@ gimp:
     Probably caused by app/git-version.h being regenerated (incorrectly?) in Makefile.am. It should probably use SOURCE_DATE_EPOCH anyway.
   issues:
     - gcc_captures_build_path
+gimp-texturize:
+  version: 2.1-3
+  bugs:
+    - 869576
 ginkgocadx:
   version: 3.8.3-1
   issues:
@@ -7452,6 +7484,10 @@ git:
   bugs:
     - 865789
     - 868738
+git-annex:
+  version: 6.20170101-1
+  bugs:
+    - 869520
 git-buildpackage:
   version: 0.8.12.2
   issues:
@@ -7810,6 +7846,10 @@ gnome-software:
   version: 3.22.5-1
   issues:
     - gcc_captures_build_path
+gnome-specimen:
+  version: 0.4-8
+  bugs:
+    - 869583
 gnome-subtitles:
   version: 1.2-4
   issues:
@@ -8558,6 +8598,7 @@ granule:
   version: 1.4.0-7-5
   bugs:
     - 805203
+    - 869579
 grapefruit:
   version: 0.1~a3+dfsg-1
   bugs:
@@ -10915,6 +10956,10 @@ kdesignerplugin:
     There are also various ordering differences in .strtab, .debug_abbrev, possibly others.
   issues:
     - max_output_size_reached
+kdesrc-build:
+  version: 1.15.1-1.1
+  bugs:
+    - 826473
 kdesu:
   version: 5.28.0-2
   issues:
@@ -13505,6 +13550,8 @@ libpodofo:
   version: 0.9.4-5
   issues:
     - build_id_differences_only
+  bugs:
+    - 868911
 libpoe-loop-event-perl:
   version: 1.305-1
   bugs:
@@ -17473,6 +17520,8 @@ open-build-service:
       src/api/Makefile:17:  $(INSTALL) -m 0755 -d $(DESTDIR)$(OBS_API_PREFIX)/db/sphinx{,/production}
   issues:
     - bin_sh_is_bash
+  bugs:
+    - 869051
 open-coarrays:
   version: 1.6.2-2
   issues:
@@ -20174,6 +20223,8 @@ python-biopython:
   issues:
     - pdf_id_varying_due_to_build_path
     - timestamps_in_tex_documents
+  bugs:
+    - 869597
 python-bleach:
   version: 1.4.2-1
   bugs:
@@ -20182,6 +20233,10 @@ python-blessed:
   version: 1.14.1-1
   bugs:
     - 864337
+python-blosc:
+  version: 1.4.4+ds1-3
+  bugs:
+    - 869195
 python-box2d:
   version: 2.0.2+svn20100109.244-1.2
   issues:
@@ -20867,6 +20922,8 @@ python-simpy3:
   version: 3.0.7+dfsg-1
   issues:
     - copyright_year_in_documentation_generated_by_sphinx
+  bugs:
+    - 869528
 python-skbio:
   version: 0.4.2-1
   comments: |
@@ -22717,6 +22774,8 @@ r-cran-randomfieldsutils:
   version: 0.3.3.1-1
   issues:
     - captures_build_path
+  bugs:
+    - 868922
 r-cran-randomforest:
   version: 4.6-12-1
   issues:
@@ -24028,6 +24087,8 @@ ruby-grib:
   version: 0.3.0-1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 868930
 ruby-gruff:
   version: 0.6.0-1
   bugs:
@@ -26492,6 +26553,8 @@ teg:
   version: 0.11.2+debian-4
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 869580
 telegram-desktop:
   version: 1.0.14-1
   issues:
