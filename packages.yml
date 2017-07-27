@@ -9058,6 +9058,7 @@ haskell-aeson-compat:
 haskell-argon2:
   version: 1.2.0-3
   bugs:
+    - 868907
     - 869249
 haskell-blogliterately:
   version: 0.8.4-3
@@ -13922,6 +13923,10 @@ libterralib:
   version: 4.3.0+dfsg.2-8
   bugs:
     - 831903
+libtest-redisserver-perl:
+  version: 0.20-1
+  bugs:
+    - 868945
 libtext-charwidth-perl:
   version: 0.04-7
   issues:
@@ -16450,6 +16455,8 @@ netsurf:
   version: 3.2+dfsg-2
   issues:
     - timestamps_in_png
+  bugs:
+    - 869600
 nettle:
   version: 3.3-1
   issues:
