@@ -1693,6 +1693,8 @@ bladerf:
   version: 0.2016.06-1
   issues:
     - build_id_differences_only
+  bugs:
+    - 869889
 blasr:
   version: 5.3-2
   issues:
@@ -2581,6 +2583,10 @@ chemeq:
   version: 2.12-1
   issues:
     - captures_build_path
+chemical-mime-data:
+  version: 0.1.94-6
+  bugs:
+    - 869884
 chemical-structures:
   version: 2.2.dfsg.0-12
   issues:
@@ -4434,6 +4440,7 @@ dojo:
   version: 1.11.0+dfsg-1
   bugs:
     - 852923
+    - 869864
 dokujclient:
   version: 3.9.0-1
   issues:
@@ -6028,6 +6035,10 @@ flask-restful:
   version: 0.3.5-1
   bugs:
     - 865663
+flasm:
+  version: 1.62-7
+  bugs:
+    - 869595
 fldigi:
   version: 3.23.10-1
   issues:
@@ -6145,6 +6156,7 @@ fontconfig:
   version: 2.11.0-6.7
   bugs:
     - 864082
+    - 869584
 fontforge:
   version: 1:20161005~dfsg-4
   issues:
@@ -26552,6 +26564,10 @@ telepathy-gabble:
   version: 0.18.3-2
   issues:
     - captures_build_path
+telepathy-logger-qt:
+  version: 15.04.0-2
+  bugs:
+    - 869887
 telepathy-phoenix:
   version: 0.0.1-1
   bugs:
