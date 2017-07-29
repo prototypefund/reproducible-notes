@@ -7962,6 +7962,10 @@ gnuplot-mode:
   version: 1:0.7.0-1
   issues:
     - random_id_in_pdf_generated_by_dblatex
+gnuradio:
+  version: 3.7.10.1-2
+  bugs:
+    - 862133
 gnustep-back:
   version: 0.25.0-2
   issues:
@@ -9156,6 +9160,10 @@ haskell-path:
   version: 0.5.13-1
   bugs:
     - 868592
+haskell-protobuf:
+  version: 0.2.1.1-2
+  bugs:
+    - 862278
 haskell-secret-sharing:
   version: 1.0.0.3-3
   bugs:
@@ -9365,6 +9373,8 @@ highlight.js:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - random_id_in_pdf_generated_by_dblatex
+  bugs:
+    - 869988
 hikaricp:
   version: 2.6.0-1
   issues:
@@ -12186,6 +12196,10 @@ libcaca:
   version: 0.99.beta19-2
   issues:
     - captures_build_path
+libcap2:
+  version: 1:2.25-1
+  bugs:
+    - 869588
 libcatmandu-perl:
   version: 1.0304-2
   bugs:
@@ -14774,6 +14788,8 @@ madness:
     - captures_build_path
     - user_hostname_manually_added_requiring_further_investigation
     - records_build_flags
+  bugs:
+    - 869990
 madplay:
   version: 0.15.2b-8.1
   issues:
@@ -14957,6 +14973,10 @@ masscan:
   version: 2:1.0.3-104-g676635d~ds0-1
   bugs:
     - 842988
+massif-visualizer:
+  version: 0.6~git20161031-1
+  bugs:
+    - 869978
 massxpert:
   version: 3.4.1-1
   issues:
@@ -18089,6 +18109,10 @@ pa-bench:
   version: 113.00.00-1
   issues:
     - captures_build_path
+pacemaker:
+  version: 1.1.17-1
+  bugs:
+    - 869986
 pachi:
   version: 1:1.0-7
   issues:
@@ -20842,6 +20866,7 @@ python-pysam:
   issues:
     - cython_captures_build_path
   bugs:
+    - 867017
     - 867018
 python-pytc:
   version: 0.8-2
