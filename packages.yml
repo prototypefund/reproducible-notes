@@ -859,11 +859,6 @@ ark:
   version: 4:16.08.2-1
   issues:
     - build_id_differences_only
-armagetronad:
-  version: 0.2.8.3.3-2
-  comments: |
-    Embeds build date into documentation.
-    https://sources.debian.net/src/armagetronad/0.2.8.3.3-2/src/doc/HtmlMakefile/#L18-L20
 arora:
   version: 0.11.0+qt5+git2014-04-06-1
   bugs:
@@ -9427,20 +9422,6 @@ ho22bus:
   version: 0.9.1-2
   issues:
     - gcc_captures_build_path
-hoichess:
-  version: 0.19.0-5
-  comments: |
-    src/build/print_version_str:21:else
-    src/build/print_version_str:22: dirname=`cd "$basedir" && pwd | xargs basename`
-    src/build/print_version_str:23: case "$dirname" in
-    src/build/print_version_str:24:         "$progname"-*)
-    src/build/print_version_str:25:                 version=`echo "$dirname" | sed -e "s/^$progname-//"`
-    src/build/print_version_str:26:                 ;;
-    src/build/print_version_str:27:         *)
-    src/build/print_version_str:28:                 version="unknown"
-    src/build/print_version_str:29:                 ;;
-    .
-    Can instead obtain the version number from ChangeLog (for upstream).  (And d/changelog as a debian patch)
 hol-light:
   version: 20170109-1
   bugs:
