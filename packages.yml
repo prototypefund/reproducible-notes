@@ -2572,6 +2572,10 @@ cheetah:
   version: 2.4.4-3
   issues:
     - gcc_captures_build_path
+chef:
+  version: 12.14.60-2
+  bugs:
+    - 869179
 chemeq:
   version: 2.12-1
   issues:
@@ -4027,6 +4031,10 @@ desktopnova:
     - gcc_captures_build_path
   bugs:
     - 866766
+deutex:
+  version: 5.0.0~beta.2-2
+  bugs:
+    - 870046
 developers-reference:
   version: 3.4.14
   issues:
@@ -4814,6 +4822,8 @@ eccodes:
   issues:
     - captures_build_arch
     - records_build_flags
+  bugs:
+    - 870040
 ecdsautils:
   version: 0.3.2+git20151018-2
   issues:
@@ -5833,6 +5843,8 @@ ffmpeg:
   version: 7:3.1.2-1
   issues:
     - too_much_input_for_diff
+  bugs:
+    - 870050
 ffmpeg2theora:
   version: 0.30-1
   bugs:
@@ -9768,6 +9780,8 @@ imagemagick:
   issues:
     - captures_build_path
     - records_build_flags
+  bugs:
+    - 870047
 imexam:
   version: 0.7.1-1
   issues:
@@ -10904,6 +10918,8 @@ kde4libs:
   issues:
     - captures_kernel_version
     - different_encoding
+  bugs:
+    - 870068
 kdeclarative:
   version: 5.26.0-1
   issues:
@@ -21364,6 +21380,7 @@ qtile:
   version: 0.10.6-3
   bugs:
     - 852535
+    - 870051
 qtimageformats-opensource-src:
   version: 5.6.1-2
   issues:
@@ -24295,6 +24312,10 @@ ruby-protected-attributes:
   version: 1.1.3-2
   bugs:
     - 861459
+ruby-psych:
+  version: 2.2.4-2
+  bugs:
+    - 870043
 ruby-rack-proxy:
   version: 0.6.1-1
   bugs:
