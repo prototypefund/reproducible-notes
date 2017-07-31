@@ -1319,7 +1319,7 @@ golang_compiler_captures_build_path_in_binary:
   description: |
     The golang compiler embeds the source/build paths into binaries.
   url: https://github.com/golang/go/issues/16860
-  deterministic: True
+  deterministic: False  # XXX FIXME this is True, but let's keep it False until it's upstreamed
 hevea_captures_build_path:
   description: |
     hevea capture the build path in 2 places inside the generated HTML file: (only if full-path used instead of relative path as argument)
