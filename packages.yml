@@ -4584,17 +4584,6 @@ dropbear:
   version: 2016.74-3
   issues:
     - gcc_captures_build_path
-drumkv1:
-  version: 0.8.0-1
-  comments: |
-    Captures build date:
-    .
-    configure.ac:9:AC_CACHE_VAL([ac_cv_build_date],
-    configure.ac:10:   [ac_cv_build_date=$(date +"%b %d %Y %H:%M %z")])
-    configure.ac:11:ac_build_date="$ac_cv_build_date"
-    configure.ac:12:AC_DEFINE_UNQUOTED(CONFIG_BUILD_DATE, ["$ac_build_date"], [Build date and time.])
-    .
-    drumkv1 / synthv1 / samplv1 / qtractor have the same issue.
 dsc-statistics:
   version: 201203250530-2
   issues:
@@ -26250,17 +26239,6 @@ synopsis:
   version: 0.12-10
   issues:
     - gcc_captures_build_path
-synthv1:
-  version: 0.8.0-1
-  comments: |
-    Captures build date:
-    .
-    configure.ac:9:AC_CACHE_VAL([ac_cv_build_date],
-    configure.ac:10:   [ac_cv_build_date=$(date +"%b %d %Y %H:%M %z")])
-    configure.ac:11:ac_build_date="$ac_cv_build_date"
-    configure.ac:12:AC_DEFINE_UNQUOTED(CONFIG_BUILD_DATE, ["$ac_build_date"], [Build date and time.])
-    .
-    drumkv1 / synthv1 / samplv1 / qtractor have the same issue.
 syrep:
   version: 0.9-4.3
   issues:
