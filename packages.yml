@@ -2236,8 +2236,6 @@ cargo:
   version: 0.9.0-1
   comments: |
     Issue seems to be in embedded libgit2-sys.
-  issues:
-    - unsorted_file_glob_by_cmake
 casablanca:
   version: 2.2.0-1
   issues:
@@ -2406,10 +2404,6 @@ cecil-flowanalysis:
   version: 0.1~vcs20110809.r1.b34edf6-3
   issues:
     - clilibs_line_order
-cegui-mk2:
-  version: 0.8.7-1
-  issues:
-    - unsorted_file_glob_by_cmake
 ceilometer:
   version: 2015.1.0-6
   comments: |
@@ -2642,7 +2636,6 @@ chromium-browser:
   version: 48.0.2564.82-2
   issues:
     - blacklisted_on_jenkins_armhf_only
-    - unsorted_file_glob_by_cmake
 chron:
   version: 2.3-47-2
   issues:
@@ -4448,7 +4441,6 @@ dokujclient:
 dolfin:
   version: 1.6.0-4
   issues:
-    - unsorted_file_glob_by_cmake
     - gcc_captures_build_path
 dolphin:
   version: 4:16.04.2-2
@@ -7332,7 +7324,6 @@ getdp:
     Embeds build date, hostname and username.
     https://sources.debian.net/src/getdp/2.7.0-2/CMakeLists.txt/#L76-L81
   issues:
-    - unsorted_file_glob_by_cmake
     - user_hostname_manually_added_requiring_further_investigation
     - captures_build_path
 getfem++:
@@ -7696,7 +7687,6 @@ gmsh:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - diffoscope_runs_forever
-    - unsorted_file_glob_by_cmake
     - user_hostname_manually_added_requiring_further_investigation
 gmt:
   version: 5.3.1+dfsg-1
@@ -7859,7 +7849,6 @@ gnome-video-arcade:
 gnss-sdr:
   version: 0.0.7-1
   issues:
-    - unsorted_file_glob_by_cmake
     - gcc_captures_build_path
 gnu-smalltalk:
   version: 3.2.5-1
@@ -17627,7 +17616,6 @@ opencv:
     - timestamps_in_jar
     - random_order_in_static_libraries
     - captures_kernel_version
-    - unsorted_file_glob_by_cmake
     - records_build_flags
     - captures_build_path
 opendht:
@@ -17764,7 +17752,6 @@ openmpi:
   version: 1.6.5-9.1
   issues:
     - timestamps_from_cpp_macros
-    - unsorted_file_glob_by_cmake
     - user_hostname_manually_added_requiring_further_investigation
     - captures_build_path
     - records_build_flags
@@ -18501,7 +18488,6 @@ pdal:
     Embeds the copyright year into documentation.
   issues:
     - random_order_in_static_libraries
-    - unsorted_file_glob_by_cmake
     - captures_build_path
     - records_build_flags
 pdb2pqr:
@@ -26082,7 +26068,6 @@ supertux:
 supertuxkart:
   version: 0.9.1-3
   issues:
-    - unsorted_file_glob_by_cmake
     - gcc_captures_build_path
 surefire:
   version: 2.17-2
@@ -26661,10 +26646,6 @@ textql:
   version: 2.0.3-1
   issues:
     - captures_build_path
-texworks:
-  version: 0.6.0-1
-  issues:
-    - unsorted_file_glob_by_cmake
 texworks-manual:
   version: 20150506-2
   issues:
@@ -27890,7 +27871,6 @@ vokoscreen:
 volk:
   version: 1.2.2-1
   issues:
-    - unsorted_file_glob_by_cmake
     - build_id_differences_only
 voms-api-java:
   version: 3.2.0-1
@@ -29040,7 +29020,6 @@ yade:
     Differing image date in img_rc.py.
   issues:
     - diffoscope_runs_forever
-    - unsorted_file_glob_by_cmake
     - timestamps_in_tex_documents
 yadifa:
   version: 2.2.1-1
@@ -29101,8 +29080,6 @@ yaz:
     - captures_build_path
 ycmd:
   version: 0+20160327+gitc3e6904-1
-  issues:
-    - unsorted_file_glob_by_cmake
   bugs:
     - 867992
 yersinia:
