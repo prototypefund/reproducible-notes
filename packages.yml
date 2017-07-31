@@ -4595,8 +4595,6 @@ drumkv1:
     configure.ac:12:AC_DEFINE_UNQUOTED(CONFIG_BUILD_DATE, ["$ac_build_date"], [Build date and time.])
     .
     drumkv1 / synthv1 / samplv1 / qtractor have the same issue.
-  bugs:
-    - 860213
 dsc-statistics:
   version: 201203250530-2
   issues:
@@ -12196,14 +12194,6 @@ libcap2:
   version: 1:2.25-1
   bugs:
     - 869588
-libcatmandu-perl:
-  version: 1.0304-2
-  bugs:
-    - 865662
-libcatmandu-sru-perl:
-  version: 0.039-1
-  bugs:
-    - 865563
 libccrtp:
   version: 2.0.9-2.2
   bugs:
@@ -13258,7 +13248,6 @@ libmlx5:
 libmodule-build-perl:
   version: 0.422400-1
   bugs:
-    - 865563
     - 865810
 libmodule-starter-perl:
   version: 1.710+dfsg-1
@@ -23717,10 +23706,6 @@ ros-bond-core:
   version: 1.7.17-2
   issues:
     - gcc_captures_build_path
-ros-catkin-pkg:
-  version: 0.3.5-1
-  bugs:
-    - 866352
 ros-class-loader:
   version: 0.3.4-1
   issues:
@@ -24580,7 +24565,6 @@ samplv1:
     .
     drumkv1 / synthv1 / samplv1 / qtractor have the same issue.
   bugs:
-    - 855002
     - 860212
 samtools:
   version: 1.3.1-3
@@ -26271,8 +26255,6 @@ synthv1:
     configure.ac:12:AC_DEFINE_UNQUOTED(CONFIG_BUILD_DATE, ["$ac_build_date"], [Build date and time.])
     .
     drumkv1 / synthv1 / samplv1 / qtractor have the same issue.
-  bugs:
-    - 860214
 syrep:
   version: 0.9-4.3
   issues:
