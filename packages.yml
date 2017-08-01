@@ -8366,10 +8366,6 @@ golang-petname:
   version: 2.5~git20160928-1
   issues:
     - golang_compiler_captures_build_path_in_binary
-golang-yaml.v2:
-  version: 0.0+git20160928.0.a5b47d3-2
-  bugs:
-    - 866091
 goldencheetah:
   version: 4.0.0~DEV1607-1
   issues:
@@ -9526,10 +9522,6 @@ hwloc:
   version: 1.11.5-1
   issues:
     - random_order_of_pdf_ids_generated_by_latex
-hy:
-  version: 0.11.0-4
-  bugs:
-    - 809013
 hyantesite:
   version: 1.3.0-1
   issues:
@@ -13207,10 +13199,6 @@ libmetadata-extractor-java:
   version: 2.7.2-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
-libmicrohttpd:
-  version: 0.9.51-1
-  bugs:
-    - 844146
 libminc:
   version: 2.3.00-3.1
   issues:
@@ -13223,10 +13211,6 @@ libmlx5:
   version: 1.2.1-1
   bugs:
     - 769630
-libmodule-build-perl:
-  version: 0.422400-1
-  bugs:
-    - 865810
 libmodule-starter-perl:
   version: 1.710+dfsg-1
   bugs:
@@ -21201,10 +21185,6 @@ qmc:
   issues:
     - captures_build_path_via_assert
     - max_output_size_reached
-qmidinet:
-  version: 0.4.2-2
-  bugs:
-    - 866164
 qmmp:
   version: 1.0.5-1.1
   issues:
@@ -24543,8 +24523,6 @@ samplv1:
     configure.ac:12:AC_DEFINE_UNQUOTED(CONFIG_BUILD_DATE, ["$ac_build_date"], [Build date and time.])
     .
     drumkv1 / synthv1 / samplv1 / qtractor have the same issue.
-  bugs:
-    - 860212
 samtools:
   version: 1.3.1-3
   bugs:
