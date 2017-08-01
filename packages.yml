@@ -183,7 +183,6 @@ adios:
   version: 1.9.0-7
   issues:
     - captures_shell_variable_in_autofoo_script
-    - cython_captures_build_path
     - records_build_flags
 adonthell-data:
   version: 0.3.6-1
@@ -997,11 +996,6 @@ astroquery:
   version: 0.3.5+dfsg-2
   bugs:
     - 867502
-astroscrappy:
-  version: 1.0.3-2
-  issues:
-    - random_order_in_cython_output
-    - cython_captures_build_path
 asymptote:
   version: 2.31-2
   comments: |
@@ -5912,10 +5906,6 @@ fio:
   version: 2.10-2
   issues:
     - gcc_captures_build_path
-fiona:
-  version: 1.7.0.post2-1
-  issues:
-    - cython_captures_build_path
 firebird3.0:
   version: 3.0.0~svn+53030.ds3-1
   issues:
@@ -18661,11 +18651,6 @@ photoprint:
   version: 0.4.2~pre2-2.4
   bugs:
     - 811806
-photutils:
-  version: 0.1-1
-  issues:
-    - captures_build_path
-    - cython_captures_build_path
 php-apcu:
   version: 5.1.7+4.0.11-2
   issues:
@@ -19870,10 +19855,6 @@ pymc:
     - captures_build_path
   bugs:
     - 848740
-pymca:
-  version: 5.1.2+dfsg-1
-  issues:
-    - cython_captures_build_path
 pymol:
   version: 1.7.2.1-1
   issues:
@@ -19982,7 +19963,6 @@ pyregion:
     - captures_build_path
     - timestamps_in_pdf_generated_by_matplotlib
     - random_order_in_python_environment_pickle
-    - cython_captures_build_path
 pyrit:
   version: 0.4.0-7
   issues:
@@ -20025,7 +20005,6 @@ pytables:
     There is also a timestamp in the content of a PDF file (usersguide.pdf).
   issues:
     - timestamps_in_documentation_generated_by_sphinx
-    - cython_captures_build_path
 pytango:
   version: 8.1.5-1
   issues:
@@ -20059,11 +20038,6 @@ python-adns:
   version: 1.2.1-5
   issues:
     - gcc_captures_build_path
-python-afl:
-  version: 0.5.5-1
-  issues:
-    - captures_build_path
-    - cython_captures_build_path
 python-asdf:
   version: 1.1.0-3
   issues:
@@ -20137,10 +20111,6 @@ python-bsddb3:
   version: 6.1.0-1
   issues:
     - gcc_captures_build_path
-python-cartopy:
-  version: 0.14.2+dfsg1-1
-  issues:
-    - cython_captures_build_path
 python-casmoothing:
   version: 0.2-1
   issues:
@@ -20177,7 +20147,7 @@ python-cogent:
   version: 1.5.3-2
   issues:
     - random_order_in_python_environment_pickle
-    - cython_captures_build_path
+    - captures_build_path
 python-crypto:
   version: 2.6.1-5
   comments: |
@@ -20374,10 +20344,6 @@ python-gnatpython:
   version: 54-3
   issues:
     - gcc_captures_build_path
-python-gssapi:
-  version: 1.2.0-1
-  issues:
-    - cython_captures_build_path
 python-gtkglext1:
   version: 1.1.0-9.1
   issues:
@@ -20705,13 +20671,6 @@ python-pyrax:
   version: 1.9.6-1
   bugs:
     - 835189
-python-pysam:
-  version: 0.9.1.4+ds-1
-  issues:
-    - cython_captures_build_path
-  bugs:
-    - 867017
-    - 867018
 python-pytc:
   version: 0.8-2
   bugs:
@@ -20780,7 +20739,6 @@ python-shapely:
   issues:
     - timestamps_in_pdf_generated_by_matplotlib
     - captures_build_path
-    - cython_captures_build_path
 python-shogun:
   version: 3.2.0-5.2
   issues:
@@ -20850,11 +20808,6 @@ python-webob:
   version: 1.4-2
   issues:
     - randomness_in_documentation_generated_by_sphinx
-python-wheezy.template:
-  version: 0.1.167-1
-  issues:
-    - max_output_size_reached
-    - cython_captures_build_path
 python-whoosh:
   version: 2.7.0-1
   issues:
@@ -23137,11 +23090,6 @@ raster3d:
   version: 3.0-3-2
   issues:
     - different_due_to_umask
-rasterio:
-  version: 0.35.1-1
-  issues:
-    - randomness_in_python_setuptools_requires_txt
-    - cython_captures_build_path
 ratbagd:
   version: 0.4-1
   bugs:
@@ -24776,7 +24724,6 @@ sfepy:
   version: 2015.1-1
   issues:
     - timestamps_in_pdf_generated_by_latex
-    - cython_captures_build_path
 sfst:
   version: 1.4.7b-1
   comments: |
@@ -28984,12 +28931,6 @@ yrmcds:
   version: 1.1.8-1
   comments: |
     Fixed upstream: https://github.com/cybozu/yrmcds/commit/04cda93
-yt:
-  version: 3.3.3-2
-  issues:
-    - cython_captures_build_path
-  bugs:
-    - 854195
 ytree:
   version: 1.94-1.1
   issues:
