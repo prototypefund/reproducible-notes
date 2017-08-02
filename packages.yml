@@ -5424,7 +5424,6 @@ evolvotron:
 exabgp:
   version: 3.4.13-1
   issues:
-    - ftbfs_uninvestigated_test_failures
     - captures_build_arch
 exec-maven-plugin:
   version: 1.1.1+dfsg-3
@@ -8162,10 +8161,6 @@ golang-github-gucumber-gucumber:
   version: 0.0~git20160715.0.71608e2-1
   issues:
     - golang_compiler_captures_build_path_in_binary
-golang-github-hashicorp-mdns:
-  version: 0.0~git20150317.0.2b439d3-1
-  issues:
-    - ftbfs_uninvestigated_test_failures
 golang-github-hashicorp-raft-mdb:
   version: 0.0~git20150806.0.55f2947-1
   bugs:
@@ -8907,10 +8902,6 @@ guile-2.0:
   issues:
     - captures_shell_variable_in_autofoo_script
     - records_build_flags
-guile-gnome-platform:
-  version: 2.16.2-2
-  issues:
-    - ftbfs_uninvestigated_test_failures
 guilt:
   version: 0.36-1
   bugs:
@@ -12025,10 +12016,6 @@ libapreq2:
   version: 2.13-5
   issues:
     - captures_build_path
-libarchive:
-  version: 3.1.2-11
-  issues:
-    - ftbfs_uninvestigated_test_failures
 libaria:
   version: 2.8.0+repack-1.2
   issues:
@@ -15475,10 +15462,6 @@ mod-dnssd:
     - different_encoding
   bugs:
     - 828752
-mod-gnutls:
-  version: 0.7-1
-  issues:
-    - ftbfs_uninvestigated_test_failures
 mod-mono:
   version: 3.8-3
   issues:
@@ -19786,10 +19769,6 @@ pygdchart2:
   version: 0.beta1-3.7
   issues:
     - gcc_captures_build_path
-pygobject:
-  version: 3.18.2-2
-  issues:
-    - ftbfs_uninvestigated_test_failures
 pygobject-2:
   version: 2.28.6-13
   issues:
@@ -20391,10 +20370,6 @@ python-iptables:
   version: 0.11.0-2
   issues:
     - gcc_captures_build_path
-python-jedi:
-  version: 0.9.0-1
-  issues:
-    - ftbfs_uninvestigated_test_failures
 python-jingo:
   version: 0.9-1
   bugs:
