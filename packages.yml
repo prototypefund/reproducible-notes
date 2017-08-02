@@ -838,6 +838,10 @@ aria2:
   version: 1.27.1-1
   issues:
     - captures_build_arch
+ariba:
+  version: 2.10.0+ds-1
+  bugs:
+    - 870362
 ario:
   version: 1.5.1-1.3
   bugs:
@@ -2626,6 +2630,8 @@ chromium-browser:
   version: 48.0.2564.82-2
   issues:
     - blacklisted_on_jenkins_armhf_only
+  bugs:
+    - 868926
 chron:
   version: 2.3-47-2
   issues:
@@ -3857,6 +3863,7 @@ debhelper:
   version: 10.6.1
   bugs:
     - 866713
+    - 870339
 debian-builder:
   version: 1.8
   issues:
@@ -5906,6 +5913,8 @@ firebird3.0:
   version: 3.0.0~svn+53030.ds3-1
   issues:
     - too_much_input_for_diff
+  bugs:
+    - 867200
 firefox:
   version: 47.0.1-1
   issues:
@@ -6000,6 +6009,10 @@ flasm:
   version: 1.62-7
   bugs:
     - 869595
+flatpak:
+  version: 0.8.7-4
+  bugs:
+    - 870312
 fldigi:
   version: 3.23.10-1
   issues:
@@ -7473,6 +7486,8 @@ gitano:
   version: 1.0-1
   issues:
     - random_id_in_pdf_generated_by_dblatex
+  bugs:
+    - 870311
 github-backup:
   version: 1.20160522-1
   issues:
@@ -7553,6 +7568,10 @@ gli:
   version: 0.8.1.1+ds1-1
   issues:
     - captures_build_path
+glib2.0:
+  version: 2.53.4-2
+  bugs:
+    - 870212
 glibc:
   version: 2.24-7
   comments: |
@@ -7596,6 +7615,10 @@ globus-common:
   version: 16.4-1
   issues:
     - captures_build_path
+globus-gram-job-manager:
+  version: 14.36-2
+  bugs:
+    - 870345
 globus-gram-job-manager-condor:
   version: 2.6-1
   comments: |
@@ -20091,6 +20114,10 @@ python-box2d:
   version: 2.0.2+svn20100109.244-1.2
   issues:
     - gcc_captures_build_path
+python-brainstorm:
+  version: 0.5-3
+  bugs:
+    - 835647
 python-bsddb3:
   version: 6.1.0-1
   issues:
@@ -23773,6 +23800,8 @@ ruby-dep-selector:
   version: 1.0.3-2
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 870306
 ruby-diaspora-vines:
   version: 0.2.0.develop.4-2
   bugs:
@@ -24107,6 +24136,10 @@ ruby-redcloth:
   version: 4.2.9-5
   issues:
     - gcc_captures_build_path
+ruby-ridley:
+  version: 4.4.3-2
+  bugs:
+    - 870308
 ruby-rinku:
   version: 1.7.3-2
   issues:
@@ -24155,6 +24188,10 @@ ruby-sigar:
     .
     https://gist.github.com/lamby/6ae0e4a6df1c53e0235a4e42f978cb8c/raw does not seem
     to fix it.
+ruby-specinfra:
+  version: 2.66.0-1
+  bugs:
+    - 869175
 ruby-spy:
   version: 0.4.3-1
   bugs:
@@ -28784,6 +28821,8 @@ yabause:
   version: 0.9.14-1
   issues:
     - captures_build_path
+  bugs:
+    - 870304
 yacas:
   version: 1.3.6-1
   comments: |
@@ -28915,6 +28954,10 @@ yrmcds:
   version: 1.1.8-1
   comments: |
     Fixed upstream: https://github.com/cybozu/yrmcds/commit/04cda93
+yt:
+  version: 3.3.3-2
+  bugs:
+    - 854195
 ytree:
   version: 1.94-1.1
   issues:
