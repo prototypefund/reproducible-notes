@@ -1080,10 +1080,6 @@ augeas:
   issues:
     - random_order_in_documentation_generated_by_naturaldocs
     - captures_build_path
-authbind:
-  version: 2.1.1
-  issues:
-    - build_id_differences_only
 auto-07p:
   version: 0.9.1+dfsg-3
   issues:
@@ -1092,10 +1088,6 @@ auto-apt:
   version: 0.3.24
   issues:
     - gcc_captures_build_path
-autoclass:
-  version: 3.3.6.dfsg.1-1
-  issues:
-    - build_id_differences_only
 autoconf:
   version: 2.69-8
   issues:
@@ -1305,10 +1297,6 @@ bandit:
     https://sources.debian.net/src/bandit/1.1.0-2/bandit/cli/config_generator.py/?hl=162#L162
   issues:
     - captures_build_path
-bandwidthd:
-  version: 2.0.1+cvs20090917-9
-  issues:
-    - build_id_differences_only
 bangarang:
   version: 2.1-2
   issues:
@@ -1345,10 +1333,6 @@ bart:
   version: 0.3.00-1
   issues:
     - gcc_captures_build_path
-base-installer:
-  version: 1.165
-  issues:
-    - build_id_differences_only
 basemap:
   version: 1.0.7+dfsg-1
   issues:
@@ -1506,10 +1490,6 @@ biber:
   version: 2.5-1
   issues:
     - random_id_in_pdf_generated_by_dblatex
-bible-kjv:
-  version: 4.29
-  issues:
-    - build_id_differences_only
 bibledit-bibletime:
   version: 1.1.1-3
   issues:
@@ -1572,10 +1552,6 @@ bind9:
     - gcc_captures_build_path
   bugs:
     - 828012
-binfmtc:
-  version: 0.17-1
-  issues:
-    - build_id_differences_only
 biniou:
   version: 1.0.12-2
   issues:
@@ -2337,10 +2313,6 @@ cdbackup:
   version: 0.7.0-5
   issues:
     - gcc_captures_build_path
-cdcat:
-  version: 1.8-1
-  issues:
-    - build_id_differences_only
 cdcd:
   version: 0.6.6-13.1
   issues:
@@ -2604,10 +2576,6 @@ chktex:
   version: 1.7.4-1
   issues:
     - timestamps_in_dvi_generated_by_latex
-choose-mirror:
-  version: 2.72
-  issues:
-    - build_id_differences_only
 choqok:
   version: 1.5-5
   issues:
@@ -2765,10 +2733,6 @@ clipper:
   version: 2.1.20130601-2
   bugs:
     - 787804
-clips:
-  version: 6.24-3.2
-  issues:
-    - build_id_differences_only
 clisp:
   version: 1:2.49-10
   comments: |
@@ -3220,10 +3184,6 @@ cpl-plugin-visir:
   version: 3.5.1+dfsg-2
   issues:
     - randomness_in_documentation_indices_generated_by_sphinx
-cpmtools:
-  version: 2.17-1
-  issues:
-    - build_id_differences_only
 cppdb:
   version: 0.3.1+dfsg-4
   issues:
@@ -4561,10 +4521,6 @@ dsc-statistics:
     - fonts_in_pdf_files
   bugs:
     - 811618
-dsh:
-  version: 0.25.10-1.1
-  issues:
-    - build_id_differences_only
 dsniff:
   version: 2.4b1+debian-26
   bugs:
@@ -4908,13 +4864,6 @@ eeshow:
     [amd64/experimental]
   issues:
     - captures_build_path
-efax:
-  version: 1:0.9a-19.1
-  comments: |
-    Doesn't pick up fdebug-prefix-map as it doesn't use dpkg-buildflags, so
-    includes the path in the build id hash that way.
-  issues:
-    - build_id_differences_only
 effects:
   version: 3.1.1-1
   issues:
@@ -5486,10 +5435,6 @@ fai:
     - different_due_to_umask
     - timestamps_in_ps_generated_by_dvips
     - different_encoding
-faifa:
-  version: 0.2~svn82-1
-  issues:
-    - build_id_differences_only
 fakechroot:
   version: 2.18-1
   issues:
@@ -6609,10 +6554,6 @@ ftgl:
   version: 2.1.3~rc5-4+nmu1.1
   issues:
     - random_order_of_pdf_ids_generated_by_latex
-ftjam:
-  version: 2.5.2-1.1
-  issues:
-    - build_id_differences_only
 ftp.app:
   version: 0.3-1
   issues:
@@ -6691,10 +6632,6 @@ fwbuilder:
   version: 5.1.0-4
   issues:
     - gcc_captures_build_path
-fweb:
-  version: 1.62-13
-  issues:
-    - build_id_differences_only
 fwknop:
   version: 2.6.0-4
   issues:
@@ -7802,10 +7739,6 @@ gnome-subtitles:
   version: 1.2-4
   issues:
     - gcc_captures_build_path
-gnome-twitch:
-  version: 0.3.0-2
-  issues:
-    - build_id_differences_only
 gnome-video-arcade:
   version: 0.8.6-2
   comments: |
@@ -8671,10 +8604,6 @@ grub:
   issues:
     - timestamps_in_manpages_generated_by_help2man
     - texi2html_captures_users_gecos
-grub-installer:
-  version: 1.133
-  issues:
-    - build_id_differences_only
 grub2:
   version: 2.02~beta2-23
   issues:
@@ -9127,10 +9056,6 @@ haskell-yesod-auth-oauth2:
   version: 0.2.2-2
   bugs:
     - 868634
-haskell-yesod-bin:
-  version: 1.4.18.7-3
-  issues:
-    - build_id_differences_only
 haskell98-report:
   version: 20080907-5
   issues:
@@ -9375,10 +9300,6 @@ hpanel:
   version: 0.3.2-4
   bugs:
     - 782216
-hspell:
-  version: 1.2-3
-  issues:
-    - build_id_differences_only
 hspell-gui:
   version: 0.2.6-5.1
   issues:
@@ -12415,10 +12336,6 @@ libflorist:
     - unknown_ada_issue
     - captures_build_path
     - records_build_flags
-libfm-qt:
-  version: 0.10.0+20151214-2
-  issues:
-    - build_id_differences_only
 libforms:
   version: 1.2.3-1.2
   issues:
@@ -12621,10 +12538,6 @@ libhamcrest-java:
   version: 1.3-6
   issues:
     - random_order_in_documentation_generated_by_javadoc
-libharu:
-  version: 2.2.1-1.1
-  issues:
-    - build_id_differences_only
 libhdate:
   version: 1.6-3
   comments: |
@@ -14273,10 +14186,6 @@ littler:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
-live-installer:
-  version: 52
-  issues:
-    - build_id_differences_only
 live-manual:
   version: 4.0.2-1
   comments: |
@@ -14714,10 +14623,6 @@ mailto:
     - timestamps_in_gzip_headers
   bugs:
     - 777413
-main-menu:
-  version: 1.48
-  issues:
-    - build_id_differences_only
 maint-guide:
   version: 1.2.35
   issues:
@@ -14998,14 +14903,6 @@ mbedtls:
   version: 2.3.0-1
   issues:
     - build_id_differences_only
-mboxgrep:
-  version: 0.7.9-3
-  issues:
-    - build_id_differences_only
-mbr:
-  version: 1.1.11-5
-  issues:
-    - build_id_differences_only
 mbw:
   version: 1.2.2-1
   issues:
@@ -15075,10 +14972,6 @@ memcached:
   version: 1.4.24-2
   bugs:
     - 789835
-memstat:
-  version: 1.0
-  issues:
-    - build_id_differences_only
 memtailor:
   version: 1.0~git20160302-1
   issues:
@@ -15882,10 +15775,6 @@ multiboot:
   version: 0.6.96+20101113-1
   issues:
     - captures_build_path
-multimail:
-  version: 0.49-2
-  issues:
-    - build_id_differences_only
 multiverse-core:
   version: 0.7.0-3
   issues:
@@ -16267,12 +16156,6 @@ netkit-rwho:
   version: 0.17-13
   issues:
     - gcc_captures_build_path
-netmaze:
-  version: 0.81+jpg0.82-15
-  comments: |
-    Doesn't honour dpkg-buildflags, which would fix the issue by setting -fdebug-prefix-map.
-  issues:
-    - build_id_differences_only
 netmrg:
   version: 0.20-7
   comments: |
@@ -16535,10 +16418,6 @@ nitime:
   version: 0.5-3
   comments: |
     Randomness in example images because of random() without constant seed.
-nitpic:
-  version: 0.1-16
-  issues:
-    - build_id_differences_only
 nitrokey-app:
   version: 0.6.1-1
   issues:
@@ -17495,10 +17374,6 @@ opencv:
     - captures_kernel_version
     - records_build_flags
     - captures_build_path
-opendht:
-  version: 1.2.1~dfsg1-1
-  issues:
-    - build_id_differences_only
 opendkim:
   version: 2.10.3-3
   issues:
@@ -18219,42 +18094,6 @@ pcscada:
     - captures_build_path
     - random_order_in_static_libraries
     - records_build_flags
-pd-arraysize:
-  version: 0.1-3
-  issues:
-    - build_id_differences_only
-pd-bassemu:
-  version: 0.3-4
-  issues:
-    - build_id_differences_only
-pd-beatpipe:
-  version: 0.1-4
-  issues:
-    - build_id_differences_only
-pd-boids:
-  version: 1.1.1-2
-  issues:
-    - build_id_differences_only
-pd-comport:
-  version: 0.2-2
-  issues:
-    - build_id_differences_only
-pd-cxc:
-  version: 0.5.2-1
-  issues:
-    - build_id_differences_only
-pd-earplug:
-  version: 0.2-3
-  issues:
-    - build_id_differences_only
-pd-ekext:
-  version: 0.1.1-2
-  issues:
-    - build_id_differences_only
-pd-ext13:
-  version: 0.17.1-2
-  issues:
-    - build_id_differences_only
 pd-fftease:
   version: 2.5.2.git20121005-1
   issues:
@@ -18271,58 +18110,18 @@ pd-flite:
   version: 0.02.3-1
   issues:
     - user_hostname_manually_added_requiring_further_investigation
-pd-freeverb:
-  version: 1.2-3
-  issues:
-    - build_id_differences_only
 pd-iemnet:
   version: 0.2.1-1
   issues:
     - gcc_captures_build_path
-pd-libdir:
-  version: 1.9-3
-  issues:
-    - build_id_differences_only
 pd-lyonpotpourri:
   version: 2.0+git20121009-1
   issues:
     - gcc_captures_build_path
-pd-markex:
-  version: 0.85-2
-  issues:
-    - build_id_differences_only
-pd-maxlib:
-  version: 1.5.5-1
-  issues:
-    - build_id_differences_only
-pd-mjlib:
-  version: 0.1.1-3
-  issues:
-    - build_id_differences_only
 pd-moonlib:
   version: 0.2-2
   issues:
     - build_id_variation_requiring_further_investigation
-pd-motex:
-  version: 1.1.4-3
-  issues:
-    - build_id_differences_only
-pd-pddp:
-  version: 0.2.1-1
-  issues:
-    - build_id_differences_only
-pd-pdogg:
-  version: 0.25.1-1
-  issues:
-    - build_id_differences_only
-pd-plugin:
-  version: 0.2.1-3
-  issues:
-    - build_id_differences_only
-pd-pmpd:
-  version: 0.9-4
-  issues:
-    - build_id_differences_only
 pd-pool:
   version: 0.2.2~git20161105.1.4b157f51-1
   issues:
@@ -18331,30 +18130,6 @@ pd-py:
   version: 0.2.0+git20161103.1.d0e0648f-1
   issues:
     - gcc_captures_build_path
-pd-sigpack:
-  version: 0.0.4.2-2
-  issues:
-    - build_id_differences_only
-pd-smlib:
-  version: 0.12.2-1
-  issues:
-    - build_id_differences_only
-pd-syslog:
-  version: 0.1-1
-  issues:
-    - build_id_differences_only
-pd-vbap:
-  version: 1.0.3.2-1
-  issues:
-    - build_id_differences_only
-pd-wiimote:
-  version: 0.3.2-2
-  issues:
-    - build_id_differences_only
-pd-windowing:
-  version: 0.1-2
-  issues:
-    - build_id_differences_only
 pd-xsample:
   version: 0.3.2~git20161105.1.d16761a1-1
   issues:
@@ -18459,10 +18234,6 @@ perl:
   version: 5.22.2-3
   issues:
     - records_build_flags
-perl-byacc:
-  version: 2.0-8
-  issues:
-    - build_id_differences_only
 perl-tk:
   version: 1:804.033-1
   issues:
@@ -18557,10 +18328,6 @@ pgocaml:
   version: 2.2-1
   issues:
     - captures_build_path
-pgpgpg:
-  version: 0.13-9.1
-  issues:
-    - build_id_differences_only
 pgrouting:
   version: 2.2.4-1
   issues:
@@ -18762,10 +18529,6 @@ pipebang:
   version: 113.00.00-1
   issues:
     - captures_build_path
-pipemeter:
-  version: 1.1.3-1
-  issues:
-    - build_id_differences_only
 pipewalker:
   version: 0.9.4-2
   issues:
@@ -18786,10 +18549,6 @@ pixelmed:
   issues:
     - captures_build_path
     - different_encoding
-pixmap:
-  version: 2.6pl4-18
-  issues:
-    - build_id_differences_only
 pkg-config:
   version: 0.29-4
   issues:
@@ -19104,10 +18863,6 @@ postal:
   version: 0.75
   issues:
     - gcc_captures_build_path
-poster:
-  version: 1:20050907-1
-  issues:
-    - build_id_differences_only
 postfix:
   version: 3.1.0-5
   comments: |
@@ -20601,10 +20356,6 @@ python-pymzml:
     - pdf_id_varying_due_to_build_path
   bugs:
     - 865237
-python-pyo:
-  version: 0.7.9-1
-  issues:
-    - build_id_differences_only
 python-pypcap:
   version: 1.1.5-1
   issues:
@@ -20900,10 +20651,6 @@ qd:
   version: 2.3.11.dfsg-2.3
   issues:
     - records_build_flags
-qdacco:
-  version: 0.8.2-2
-  issues:
-    - build_id_differences_only
 qdbm:
   version: 1.8.78-5
   issues:
@@ -23150,10 +22897,6 @@ rebar:
     https://sources.debian.net/src/rebar/2.6.0-1/bootstrap/#L123-L126
     .
     ... and something else.
-recoll:
-  version: 1.22.3-1
-  issues:
-    - build_id_differences_only
 reconserver:
   version: 0.15.2-1
   bugs:
@@ -24252,10 +23995,6 @@ s3ql:
   version: 2.15+dfsg-1
   issues:
     - captures_build_path
-s3switch:
-  version: 0.1-1
-  issues:
-    - build_id_differences_only
 sacjava:
   version: 1.3-6
   issues:
@@ -25557,10 +25296,6 @@ staden:
   version: 2.0.0+b11-2
   issues:
     - gcc_captures_build_path
-stalin:
-  version: 0.11-6
-  issues:
-    - build_id_differences_only
 stardata-common:
   version: 0.8
   issues:
@@ -26632,10 +26367,6 @@ tmpreaper:
   version: 1.6.13+nmu1
   issues:
     - gcc_captures_build_path
-tmview:
-  version: 1:01.03-14.2
-  issues:
-    - build_id_differences_only
 tnat64:
   version: 0.05-1
   issues:
@@ -27256,10 +26987,6 @@ unshield:
   version: 1.4-1
   issues:
     - captures_build_path_via_assert
-uphpmvault:
-  version: 0.8
-  issues:
-    - build_id_differences_only
 upnp-router-control:
   version: 0.2-1.2
   issues:
@@ -28037,10 +27764,6 @@ wmressel:
   version: 0.8-5.1
   issues:
     - gcc_captures_build_path
-wmwave:
-  version: 0.4-10
-  issues:
-    - build_id_differences_only
 wmweather:
   version: 2.4.5-2
   issues:
@@ -28075,10 +27798,6 @@ wordwarvi:
     https://sources.debian.net/src/wordwarvi/1.00%2Bdfsg1-3/wordwarvi.c/#L9947
   bugs:
     - 786593
-wpa:
-  version: 2.5-2+v2.4-3
-  issues:
-    - build_id_differences_only
 wrapperfactory.app:
   version: 0.1.0-4
   issues:
@@ -28306,10 +28025,6 @@ xenomai:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
-xenwatch:
-  version: 0.5.4-4
-  issues:
-    - build_id_differences_only
 xevil:
   version: 2.02r2-10
   bugs:
@@ -28502,10 +28217,6 @@ xmount:
   version: 0.7.3-1
   issues:
     - gcc_captures_build_path
-xnecview:
-  version: 1.35-8
-  issues:
-    - build_id_differences_only
 xnee:
   version: 3.19-1
   comments: |
@@ -28764,10 +28475,6 @@ yacas:
   issues:
     - timestamps_in_tex_documents
     - fonts_in_pdf_files
-yacpi:
-  version: 3.0-2
-  issues:
-    - build_id_differences_only
 yade:
   version: 1.20.0-6
   comments: |
@@ -28811,10 +28518,6 @@ yash:
   version: 2.43-1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-yaskkserv:
-  version: 1.0.0-1
-  issues:
-    - build_id_differences_only
 yasm:
   version: 1.2.0-2
   bugs:
