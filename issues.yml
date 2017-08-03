@@ -1699,3 +1699,7 @@ build_path_captured_by_valac:
       ___HOME_FAB_CD2_CAIRO_DOCK_PLUG_INS_DBUS_INTERFACES_VALA_SRC_CDAPPLET_H__
     .
     ... which contain the build path.
+timestamps_generated_by_hevea:
+  description: |
+    latex sources which include statements like \today and thus
+    have to be built with '-exec xxdate.exe'
