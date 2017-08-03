@@ -5705,16 +5705,6 @@ fdutils:
   issues:
     - timestamps_in_ps_generated_by_dvips
     - timestamps_in_dvi_generated_by_latex
-fedmsg:
-  version: 0.9.3-1
-  comments: |
-    Random content in
-    /usr/lib/python2.7/dist-packages/fedmsg/tests/test_certs/gpg/random_seed
-    Should probably not be shipped at all.
-  bugs:
-    - 778419
-    - 808654
-    - 827738
 felix-bundlerepository:
   version: 2.0.6-1
   issues:
