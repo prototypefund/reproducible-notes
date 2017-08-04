@@ -2214,8 +2214,6 @@ casablanca:
   version: 2.2.0-1
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 866057
 casacore:
   version: 2.1.0-3
   issues:
@@ -2305,10 +2303,6 @@ cctools:
     - user_hostname_manually_added_requiring_further_investigation
     - captures_home_dir
     - captures_kernel_version
-cd-hit:
-  version: 4.6.6-2
-  bugs:
-    - 866330
 cdbackup:
   version: 0.7.0-5
   issues:
@@ -3808,7 +3802,6 @@ debdelta:
 debhelper:
   version: 10.6.1
   bugs:
-    - 866713
     - 870339
 debian-builder:
   version: 1.8
@@ -19153,10 +19146,6 @@ projectm:
   version: 2.1.0+dfsg-4
   issues:
     - build_id_differences_only
-prometheus:
-  version: 1.1.2+ds-2
-  bugs:
-    - 865786
 prometheus-alertmanager:
   version: 0.3.0+ds-2
   issues:
@@ -26961,10 +26950,6 @@ unmo3:
   version: 0.6-1
   issues:
     - gcc_captures_build_path
-unp:
-  version: 2.0~pre7+nmu1
-  bugs:
-    - 866356
 unrar-free:
   version: 1:0.0.1+cvs20140707-1
   comments: |
