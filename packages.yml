@@ -662,10 +662,6 @@ apertium-pt-gl:
   version: 0.9.2~r57551-2
   issues:
     - captures_build_path
-apertium-spa-cat:
-  version: 2.0.0~r77288-1
-  bugs:
-    - 865029
 apertium-swe-nor:
   version: 0.2.0~r69544-1
   bugs:
@@ -4188,10 +4184,6 @@ django-picklefield:
   version: 0.3.2-1
   bugs:
     - 865557
-django-pipeline:
-  version: 1.6.8-3
-  bugs:
-    - 865558
 django-polymorphic:
   version: 1.0.2-1
   bugs:
@@ -8179,10 +8171,6 @@ golang-github-tinylib-msgp:
     Looks like its due to random variable numbers in generated code but these are actually deterministic due to golangs implicit rand.Seed(1) - I believe its some kind of arbitrary dict ordering instead
   issues:
     - golang_compiler_captures_build_path_in_binary
-golang-github-urfave-cli:
-  version: 1.19.1-1
-  bugs:
-    - 865808
 golang-github-vbatts-tar-split:
   version: 0.9.13-1
   issues:
@@ -17124,10 +17112,6 @@ ogdi-dfsg:
   version: 3.2.0+ds-1
   issues:
     - captures_build_path
-oggvideotools:
-  version: 0.9.1-3
-  bugs:
-    - 861298
 ognl:
   version: 2.7.3-6
   bugs:
@@ -18224,8 +18208,6 @@ perl-tk:
   version: 1:804.033-1
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 841777
 perl4caml:
   version: 0.9.5-4
   issues:
@@ -28187,10 +28169,6 @@ xmms2:
   version: 0.8+dfsg-16
   issues:
     - gcc_captures_build_path
-xmonad:
-  version: 0.13-1
-  bugs:
-    - 867386
 xmount:
   version: 0.7.3-1
   issues:
