@@ -1469,6 +1469,10 @@ berkshelf:
   version: 4.3.5-2
   bugs:
     - 867650
+berkshelf-api:
+  version: 2.2.0-1
+  bugs:
+    - 870744
 bglibs:
   version: 1.106-1.1
   issues:
@@ -7430,6 +7434,10 @@ gkrelltop:
   version: 2.2.13-1
   issues:
     - gcc_captures_build_path
+glade:
+  version: 3.20.0-2
+  bugs:
+    - 870749
 glaurung:
   version: 2.2-2
   issues:
@@ -8728,6 +8736,10 @@ gtk2-engines-wonderland:
   version: 1.0-10
   issues:
     - gcc_captures_build_path
+gtk2-engines-xfce:
+  version: 3.2.0-2
+  bugs:
+    - 870738
 gtkdataboxmm:
   version: 0.9.4-3
   issues:
@@ -8886,6 +8898,10 @@ hardinfo:
   bugs:
     - 779465
     - 833379
+harfbuzz:
+  version: 1.4.2-1
+  bugs:
+    - 870689
 haskell-aeson:
   version: 1.0.2.1-2
   bugs:
@@ -12385,6 +12401,7 @@ libgda5:
     https://sources.debian.net/src/libgda5/5.2.2-2/configure.ac/#L74-L75
   bugs:
     - 839444
+    - 870741
 libgdchart-gd2:
   version: 0.11.5-8
   comments: |
@@ -12443,6 +12460,18 @@ libgmpada:
     - unknown_ada_issue
     - captures_build_path
     - records_build_flags
+libgnome:
+  version: 2.32.1-5
+  bugs:
+    - 870742
+libgnomekbd:
+  version: 3.22.0.1-1
+  bugs:
+    - 870743
+libgnomeui:
+  version: 2.24.5-3.1
+  bugs:
+    - 870729
 libgnuinet-java:
   version: 1.1.2-2
   issues:
@@ -17385,6 +17414,8 @@ openhpi:
   version: 3.6.1-2.2
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 870733
 openid4java:
   version: 0.9.6.662-3
   issues:
@@ -27510,6 +27541,10 @@ webauth:
   issues:
     - timezones_manpages_podman
     - user_hostname_manually_added_requiring_further_investigation
+webdis:
+  version: 0.1.2+dfsg-2
+  bugs:
+    - 869951
 webhook:
   version: 2.5.0-1
   issues:
