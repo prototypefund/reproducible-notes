@@ -4172,10 +4172,6 @@ django-ldapdb:
   version: 0.2.0-1
   bugs:
     - 755601
-django-model-utils:
-  version: 2.5.2-2
-  bugs:
-    - 865559
 django-modeltranslation:
   version: 0.11-1
   bugs:
@@ -5657,8 +5653,6 @@ felix-main:
   version: 5.0.0-4
   issues:
     - random_order_in_documentation_generated_by_javadoc
-  bugs:
-    - 866858
 felix-shell:
   version: 1.4.3-1
   issues:
@@ -7663,10 +7657,6 @@ gnome-contacts:
     src/contacts-window.c:2114	}
     .
     This may be caused by `-Wl,-O1` in debian/rules.
-gnome-dictionary:
-  version: 3.20.0-3
-  bugs:
-    - 865806
 gnome-do:
   version: 0.95.3-1
   issues:
@@ -8931,10 +8921,6 @@ haskell-cryptol:
   version: 2.4.0-2
   bugs:
     - 856234
-haskell-dependent-sum:
-  version: 0.3.2.2-3
-  bugs:
-    - 865313
 haskell-diagrams-cairo:
   version: 1.3.1.1-3
   bugs:
@@ -11087,10 +11073,6 @@ klatexformula:
   version: 3.3.0~beta-1
   issues:
     - build_id_differences_only
-klaus:
-  version: 1.2.1-2
-  bugs:
-    - 867510
 kleopatra:
   version: 4:16.04.2-2
   issues:
@@ -15996,8 +15978,6 @@ nasm:
   version: 2.11.08-1
   issues:
     - pdf_created_by_ghostscript
-  bugs:
-    - 820194
 naspro-bridges:
   version: 0.5.1-2
   issues:
@@ -19695,10 +19675,6 @@ pysurfer:
     Intermittent, see https://tests.reproducible-builds.org/debian/history/pysurfer.html
     .
     Tried building with DISPLAY undefined, but failed to reproduce.
-pysvn:
-  version: 1.9.4-2
-  bugs:
-    - 862423
 pytables:
   version: 3.1.1-3
   comments: |
@@ -20911,8 +20887,6 @@ qtractor:
     configure.ac:13:AC_DEFINE_UNQUOTED(CONFIG_BUILD_DATE, ["$ac_build_date"], [Build date and time.])
     .
     drumkv1 / synthv1 / samplv1 / qtractor have the same issue.
-  bugs:
-    - 860211
 qtruby:
   version: 4:4.14.3-1
   issues:
@@ -22782,10 +22756,6 @@ raster3d:
   version: 3.0-3-2
   issues:
     - different_due_to_umask
-ratbagd:
-  version: 0.4-1
-  bugs:
-    - 867357
 ratt:
   version: 0.0~git20150816.0.b060319-1
   issues:
