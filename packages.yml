@@ -12007,12 +12007,6 @@ lensfun:
   version: 0.3.2-3
   issues:
     - gcc_captures_build_path
-leocad:
-  version: 17.07
-  comments: |
-    the leocad_fr.qm and leocad_pt.qm localization resource files are
-    generated at build time, and their timestamps influence the
-    generated build/*/.qrc/qrc_leocad.cpp.
 leveldb:
   version: 1.19-1
   issues:
@@ -21413,17 +21407,6 @@ qtquickcontrols-opensource-src:
   issues:
     - timestamps_in_qch
     - captures_build_path
-qtractor:
-  version: 0.8.0-1
-  comments: |
-    Captures build date:
-    .
-    configure.ac:10:AC_CACHE_VAL([ac_cv_build_date],
-    configure.ac:11:   [ac_cv_build_date=$(date +"%b %d %Y %H:%M %z")])
-    configure.ac:12:ac_build_date="$ac_cv_build_date"
-    configure.ac:13:AC_DEFINE_UNQUOTED(CONFIG_BUILD_DATE, ["$ac_build_date"], [Build date and time.])
-    .
-    drumkv1 / synthv1 / samplv1 / qtractor have the same issue.
 qtruby:
   version: 4:4.14.3-1
   issues:
