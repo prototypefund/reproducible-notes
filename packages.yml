@@ -11684,6 +11684,14 @@ lensfun:
   version: 0.3.2-3
   issues:
     - gcc_captures_build_path
+leocad:
+  version: 17.07
+  comments: |
+    the leocad_fr.qm and leocad_pt.qm localization resource files are
+    generated at build time, and their timestamps influence the
+    generated build/*/.qrc/qrc_leocad.cpp.
+  issues:
+    - timestamps_in_source_generated_by_rcc
 leveldb:
   version: 1.19-1
   issues:
@@ -28766,11 +28774,3 @@ zypper:
     - captures_build_path
   bugs:
     - 812243
-leocad:
-  version: 17.07
-  issues:
-    - timestamps_in_source_generated_by_rcc
-  comments: |
-    the leocad_fr.qm and leocad_pt.qm localization resource files are
-    generated at build time, and their timestamps influence the
-    generated build/*/.qrc/qrc_leocad.cpp.
