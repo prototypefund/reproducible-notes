@@ -18430,8 +18430,6 @@ pandas:
     - cython_captures_build_path
 pandoc:
   version: 1.17.0.3~dfsg-2
-  comments: |
-    Includes a buildinfo_ARCH.gz (NB. nothing to do with .buildinfo) that has some missing contents on our b build. Cannot reproduce locally and its not a file that really wants stripping IFAICT as lots of other packages include them.
   bugs:
     - 867843
     - 868757
