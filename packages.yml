@@ -89,6 +89,8 @@ ace:
   version: 6.3.3+dfsg-1.1
   issues:
     - captures_build_path
+  bugs:
+    - 853299
 acepack:
   version: 1.3.3.3-2
   issues:
@@ -720,6 +722,8 @@ apg:
   version: 2.2.3.dfsg.1-4
   issues:
     - timestamps_in_tarball
+  bugs:
+    - 870890
 apitrace:
   version: 7.1+git20160531.2d78bef0+repack-1.1
   issues:
@@ -2307,6 +2311,12 @@ capistrano:
   version: 3.4.0-1
   bugs:
     - 867642
+capnproto:
+  version: 0.5.3-2
+  bugs:
+    - 853342
+    - 853440
+    - 853539
 car:
   version: 2.1-3-1
   issues:
@@ -2509,6 +2519,8 @@ cernlib:
   version: 20061220+dfsg3-4.2
   issues:
     - captures_build_path
+  bugs:
+    - 853345
 cervisia:
   version: 4:16.08.2-1
   issues:
@@ -7117,6 +7129,7 @@ gcc-7:
   issues:
     - blacklisted_on_jenkins_armhf_only
   bugs:
+    - 853613
     - 866355
 gcc-avr:
   version: 1:4.8.1+Atmel3.4.4-2
@@ -11501,6 +11514,8 @@ kodi:
   issues:
     - timestamps_from_cpp_macros
     - diffoscope_runs_forever
+  bugs:
+    - 853476
 kolf:
   version: 4:16.04.0-1
   issues:
@@ -12342,6 +12357,7 @@ libcdio:
     - 841624
     - 853484
     - 853561
+    - 853697
     - 869516
 libcdk5:
   version: 5.0.20160131-1
@@ -14997,6 +15013,10 @@ mahimahi:
   version: 0.96-1
   bugs:
     - 853534
+mailavenger:
+  version: 0.8.4-4.1
+  bugs:
+    - 871028
 maildirsync:
   version: 1.2-1.1
   issues:
@@ -16022,6 +16042,10 @@ morsegen:
   version: 0.2.1-1
   bugs:
     - 782219
+mosh:
+  version: 1.3.2-1
+  bugs:
+    - 871030
 motif:
   version: 2.3.4-10
   bugs:
@@ -16216,6 +16240,10 @@ mtpfs:
   version: 1.1-5
   issues:
     - gcc_captures_build_path
+mudlet:
+  version: 1:3.3.1-1
+  bugs:
+    - 871027
 multcomp:
   version: 1.4-6-1
   issues:
@@ -16433,6 +16461,10 @@ namazu2:
   issues:
     - user_hostname_manually_added_requiring_further_investigation
     - captures_build_path
+nanopolish:
+  version: 0.5.0-1
+  bugs:
+    - 853568
 nant:
   version: 0.92~rc1+dfsg-4
   issues:
@@ -16510,6 +16542,7 @@ ncrack:
   version: 0.5-2
   bugs:
     - 844303
+    - 853570
 ncurses-hexedit:
   version: 0.9.7-14.1
   issues:
@@ -17578,6 +17611,10 @@ ocurl:
   version: 0.7.6-2
   issues:
     - captures_build_path
+odb:
+  version: 2.4.0-5
+  bugs:
+    - 853582
 ode:
   version: 2:0.14-2
   issues:
@@ -17914,6 +17951,8 @@ openjdk-8-jre-dcevm:
     https://sources.debian.net/src/openjdk-8-jre-dcevm/8u74-1/src/share/vm/runtime/vm_version.cpp/?hl=263,267#L267
   issues:
     - user_hostname_manually_added_requiring_further_investigation
+  bugs:
+    - 853592
 openjdk-9:
   version: 9~b117-1
   issues:
@@ -17949,6 +17988,8 @@ openmama:
   version: 2.2.2.1-11
   issues:
     - random_id_in_pdf_generated_by_dblatex
+  bugs:
+    - 853594
 openmcdf:
   version: 1.5.4-1
   issues:
@@ -18040,6 +18081,8 @@ opensurgsim:
   version: 0.7.0-5
   issues:
     - build_id_differences_only
+  bugs:
+    - 853599
 opentk:
   version: 1.1.4c+dfsg-2
   comments: |
@@ -18263,6 +18306,8 @@ ovito:
   version: 2.8.1+dfsg2-5
   issues:
     - build_id_differences_only
+  bugs:
+    - 853603
 owasp-java-html-sanitizer:
   version: 0.1+r88-1
   issues:
@@ -18646,6 +18691,8 @@ pdftk:
     │ +    <b801b>   DW_AT_producer    : (indirect string, offset: 0x894a4): GNU Java 6.3.0 20161229 [...] -faux-classpath /tmp/ccxzjNBg.zip
   issues:
     - randomness_in_gcj_output
+  bugs:
+    - 853608
 pdmenu:
   version: 1.3.4
   issues:
@@ -18940,6 +18987,10 @@ picard-tools:
   version: 1.138+dfsg.1-1
   issues:
     - random_order_in_javahelper_substvars
+pick:
+  version: 1.1.1-1
+  bugs:
+    - 853611
 picmi:
   version: 4:16.04.0-1
   issues:
@@ -19039,6 +19090,10 @@ pixelmed:
   issues:
     - captures_build_path
     - different_encoding
+pjproject:
+  version: 2.5.5~dfsg-6
+  bugs:
+    - 853615
 pkg-config:
   version: 0.29-4
   issues:
@@ -19123,6 +19178,8 @@ plee-the-bear:
   version: 0.6.0-3.1
   issues:
     - build_id_differences_only
+  bugs:
+    - 853618
 plexus-active-collections:
   version: 1.0~beta2-3
   issues:
@@ -19205,6 +19262,10 @@ plm:
   version: 2.4.11+repack-2
   issues:
     - timestamps_in_png
+ploop:
+  version: 1.15-2
+  bugs:
+    - 853619
 plopfolio.app:
   version: 0.1.0-6
   issues:
@@ -19272,6 +19333,7 @@ pocl:
     - captures_build_path
   bugs:
     - 764563
+    - 853620
 poco:
   version: 1.3.6p1-5.1
   issues:
@@ -19280,6 +19342,10 @@ poe.app:
   version: 0.5.1-5
   issues:
     - gcc_captures_build_path
+polari:
+  version: 3.22.2-1
+  bugs:
+    - 870861
 polkit-qt-1:
   version: 0.112.0-5
   issues:
@@ -19551,6 +19617,8 @@ primer3:
   version: 2.3.7-2
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 853621
 primesieve:
   version: 5.7.1+ds-1
   issues:
@@ -21142,6 +21210,8 @@ qdbm:
   issues:
     - timestamps_in_jar
     - captures_build_path
+  bugs:
+    - 853627
 qdox2:
   version: 2.0~M3-2
   comments: |
@@ -21436,6 +21506,8 @@ qttools-opensource-src:
     - timestamps_in_qch
     - randomness_in_qdoc
     - captures_build_path
+  bugs:
+    - 853633
 qtwayland-opensource-src:
   version: 5.6.1-2
   issues:
@@ -21552,6 +21624,10 @@ quvi:
     - records_build_flags
   bugs:
     - 835259
+qwtplot3d:
+  version: 0.2.7+svn191-10.1
+  bugs:
+    - 853635
 r-base:
   version: 3.4.0-1
   issues:
@@ -23282,6 +23358,8 @@ rbdoom3bfg:
   version: 1.0.3+repack1+git20151124-2
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 853638
 rbootd:
   version: 2.0-10
   issues:
@@ -23405,6 +23483,8 @@ regina-normal:
   version: 4.96-3
   issues:
     - captures_build_path
+  bugs:
+    - 853639
 regina-rexx:
   version: 3.6-2
   issues:
@@ -23471,6 +23551,10 @@ reposurgeon:
   version: 3.29-1
   issues:
     - timestamps_in_documentation_generated_by_asciidoc
+reptyr:
+  version: 0.6.2-1
+  bugs:
+    - 853640
 resample:
   version: 1.8.1-1
   issues:
@@ -23525,6 +23609,7 @@ rheolef:
     - fonts_in_pdf_files
     - records_build_flags
   bugs:
+    - 853641
     - 867102
 rhino:
   version: 1.7.7.1-1
@@ -23554,6 +23639,8 @@ ring:
   version: 20160804.3.dfb2548~dfsg1-1
   issues:
     - captures_build_path
+  bugs:
+    - 853642
 rinputd:
   version: 1.0.5-2
   comments: |
@@ -23569,6 +23656,12 @@ ripmime:
   issues:
     - captures_kernel_version
     - user_hostname_manually_added_requiring_further_investigation
+  bugs:
+    - 853643
+ripole:
+  version: 0.2.0+20081101.0215-3
+  bugs:
+    - 853644
 rivet:
   version: 1.8.3-2
   issues:
@@ -23646,6 +23739,10 @@ rockdodger:
     https://sources.debian.net/src/rockdodger/1.0.0-2/Makefile/?hl=42#L42
   issues:
     - random_order_in_md5sums
+rocksdb:
+  version: 4.5.1-2
+  bugs:
+    - 853645
 rocs:
   version: 4:16.04.1-1
   issues:
@@ -23800,6 +23897,10 @@ rrdtool:
   version: 1.6.0-1
   issues:
     - randomness_in_binaries_generated_by_ruby_mkmf
+rsbackup:
+  version: 3.1-3
+  bugs:
+    - 853647
 rserve:
   version: 1.7-3-3
   issues:
@@ -24119,6 +24220,10 @@ ruby-kgio:
   issues:
     - ftbfs_in_jenkins_setup
     - gcc_captures_build_path
+ruby-kramdown-rfc2629:
+  version: 1.0.36-1
+  bugs:
+    - 870849
 ruby-kyotocabinet:
   version: 1.32-2
   issues:
@@ -24461,6 +24566,10 @@ runit:
   version: 2.1.2-3
   issues:
     - random_order_in_md5sums
+rush:
+  version: 1.8+dfsg-1
+  bugs:
+    - 853649
 rustc:
   version: 1.0.0+dfsg1-1
   comments: |
@@ -24559,6 +24668,10 @@ sardana:
   version: 1.4.2-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
+sarg:
+  version: 2.3.10-2
+  bugs:
+    - 853651
 sauce:
   version: 0.9.0+nmu3
   issues:
@@ -24687,6 +24800,7 @@ schroot:
 scilab:
   version: 5.5.2-4
   bugs:
+    - 853653
     - 863117
 scilab-ann:
   version: 0.4.2.4-1
@@ -24700,6 +24814,10 @@ scilab-plotlib:
   version: 0.42-1
   issues:
     - randomness_in_documentation_generated_by_scilab
+scim:
+  version: 1.4.17-1
+  bugs:
+    - 853654
 scim-canna:
   version: 1.0.0-4.2
   issues:
@@ -24886,6 +25004,8 @@ setools:
     order depends of filesystem or locale in libqpol_a_LIBADD ?
   issues:
     - random_order_in_static_libraries
+  bugs:
+    - 853655
 sexplib310:
   version: 111.25.00-1
   issues:
@@ -24904,6 +25024,10 @@ sfst:
   comments: |
     Compiles with different flags/optimizations depending on arch (uname -m):
     https://sources.debian.net/src/sfst/1.4.7b-1/configure.ac/#L75
+sga:
+  version: 0.10.15-2
+  bugs:
+    - 853656
 sgf2dg:
   version: 4.026-10
   issues:
@@ -24933,6 +25057,8 @@ shark:
   version: 3.1.0+ds1-1
   issues:
     - captures_build_path
+  bugs:
+    - 853658
 sheepdog:
   version: 0.8.3-4
   comments: |
@@ -24944,6 +25070,10 @@ shellex:
   version: 0.2-1
   issues:
     - gcc_captures_build_path
+shibboleth-sp2:
+  version: 2.6.0+dfsg1-4
+  bugs:
+    - 853659
 shiboken:
   version: 1.2.2-3
   issues:
@@ -25238,6 +25368,10 @@ slepc:
     - captures_build_path
     - different_encoding
     - records_build_flags
+sleuthkit:
+  version: 4.4.0-5
+  bugs:
+    - 853663
 slib:
   version: 3b1-5
   comments: |
@@ -25407,6 +25541,10 @@ snmpkit:
   version: 0.9-16
   issues:
     - gcc_captures_build_path
+snoopy:
+  version: 2.4.6-1
+  bugs:
+    - 853664
 snort:
   version: 2.9.7.0-4
   issues:
@@ -25458,6 +25596,10 @@ sogo:
     - max_output_size_reached
   bugs:
     - 854541
+solarpowerlog:
+  version: 0.24-6
+  bugs:
+    - 853665
 solfege:
   version: 3.22.2-2
   issues:
@@ -25527,6 +25669,10 @@ spacezero:
   version: 0.80.06-1
   issues:
     - gcc_captures_build_path
+spades:
+  version: 3.10.1+dfsg-2
+  bugs:
+    - 853666
 spamassassin:
   version: 3.4.1-6
   issues:
@@ -25711,6 +25857,8 @@ squid3:
   version: 3.5.19-1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 853668
 squirrel3:
   version: 3.1-2
   issues:
@@ -26012,6 +26160,8 @@ supercollider:
   version: 1:3.7.0~repack-3
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 853671
 supercollider-sc3-plugins:
   version: 3.7.1~repack-2
   comments: |
@@ -26075,6 +26225,8 @@ svxlink:
   version: 15.11-2
   issues:
     - build_id_differences_only
+  bugs:
+    - 853672
 swac-get:
   version: 0.3-2.1
   issues:
@@ -26123,6 +26275,10 @@ swig:
     [i386]
   issues:
     - captures_build_arch
+swish++:
+  version: 6.1.5-4
+  bugs:
+    - 853673
 swish-e:
   version: 2.4.7-4
   issues:
@@ -26191,6 +26347,11 @@ synfig:
   version: 0.64.2-1
   bugs:
     - 820072
+    - 853674
+synfigstudio:
+  version: 1.0.2-1
+  bugs:
+    - 853675
 synopsis:
   version: 0.12-10
   issues:
@@ -26251,6 +26412,10 @@ systemtap:
   issues:
     - different_encoding_in_html_by_docbook_xsl
     - fonts_in_pdf_files
+t-coffee:
+  version: 11.00.8cbe486-5
+  bugs:
+    - 853677
 t-digest:
   version: 1:3.0-1
   issues:
@@ -26307,6 +26472,8 @@ tandem-mass:
   version: 1:20151215-4
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 853678
 tangerine:
   version: 0.3.4-6
   issues:
@@ -26611,6 +26778,8 @@ texlive-bin:
   version: 2016.20160513.41080.dfsg-2
   issues:
     - captures_build_path
+  bugs:
+    - 870796
 textedit.app:
   version: 4.0+20061029-3.4
   issues:
@@ -26641,6 +26810,10 @@ therion:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_png
+theseus:
+  version: 3.3.0-5
+  bugs:
+    - 853681
 thin:
   version: 1.6.3-2
   issues:
@@ -26702,6 +26875,8 @@ tiledarray:
   version: 0.6.0-5
   issues:
     - captures_build_path_via_assert
+  bugs:
+    - 853682
 tiles:
   version: 3.0.7-1
   issues:
@@ -26744,6 +26919,7 @@ tinymux:
     Embeds the build date:
     https://sources.debian.net/src/tinymux/2.6.5.34-1.1/src/Makefile.in/#L96
   bugs:
+    - 853683
     - 866945
 tipa:
   version: 2:1.3-20
@@ -26926,6 +27102,8 @@ torcs:
   version: 1.3.3+dfsg-0.4
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 853685
 tornado-pyvows:
   version: 0.6.1-1
   bugs:
@@ -26998,6 +27176,10 @@ trilinos:
   bugs:
     - 835406
     - 836130
+trinityrnaseq:
+  version: 2.2.0+dfsg-2
+  bugs:
+    - 853687
 triplane:
   version: 1.0.8-1
   issues:
@@ -27077,6 +27259,7 @@ tulip:
     - gcc_captures_build_path
   bugs:
     - 793137
+    - 853688
 tumiki-fighters:
   version: 0.2.dfsg1-8
   comments: |
@@ -27111,6 +27294,8 @@ turnserver:
   version: 0.7.3-5
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 853689
 tuxcmd-modules:
   version: 0.6.70+ds-5
   issues:
@@ -27240,6 +27425,10 @@ uclibc:
     - timestamps_in_tarball
     - different_due_to_umask
     - users_and_groups_in_tarball
+ucommon:
+  version: 7.0.0-9
+  bugs:
+    - 853691
 ucspi-proxy:
   version: 0.99-1
   issues:
@@ -27315,6 +27504,10 @@ ufoai-music:
   version: 2.5-1
   issues:
     - too_much_input_for_diff
+ufraw:
+  version: 0.22-1.1
+  bugs:
+    - 853692
 uftrace:
   version: 0.6.0.20161014-1
   issues:
@@ -27395,6 +27588,8 @@ undertaker:
   version: 1.6.1-2
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 853693
 undertow:
   version: 1.3.11-1
   issues:
@@ -27601,6 +27796,10 @@ varnish-agent:
   bugs:
     - 724479
     - 725597
+varnish-modules:
+  version: 0.9.1-4
+  bugs:
+    - 853696
 vboot-utils:
   version: 0~R52-8350.B-1
   issues:
@@ -27633,6 +27832,8 @@ vdr:
   version: 2.2.0-6
   issues:
     - records_build_flags
+  bugs:
+    - 853698
 vdr-plugin-epgsearch:
   version: 1.0.1~beta6+git20150211-4
   issues:
@@ -27653,6 +27854,8 @@ vdr-plugin-live:
   version: 0.3.0+git20160123-1
   comments: |
     I think this is the calls to time in pages/whats_on.ecpp
+  bugs:
+    - 853699
 vdr-plugin-osdteletext:
   version: 0.9.5-3
   issues:
@@ -27867,6 +28070,10 @@ vowpal-wabbit:
   version: 8.1.1-1
   bugs:
     - 836450
+voxbo:
+  version: 1.8.5~svn1246-2
+  bugs:
+    - 853702
 vpb-driver:
   version: 4.2.58-1
   issues:
@@ -28093,6 +28300,10 @@ weupnp:
   version: 0.1.4-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+wfmath:
+  version: 1.0.2+dfsg1-3
+  bugs:
+    - 853706
 wget:
   version: 1.18-2
   issues:
@@ -28339,6 +28550,10 @@ wxastrocapture:
   version: 1.8.1+git20140821+dfsg-1
   issues:
     - gcc_captures_build_path
+wxhexeditor:
+  version: 0.23+repack-2
+  bugs:
+    - 853708
 wyrd:
   version: 1.4.6-4
   issues:
@@ -28426,6 +28641,8 @@ xbubble:
   version: 0.5.11.2-3.3
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 853709
 xburst-tools:
   version: 201206-1
   issues:
@@ -28500,6 +28717,8 @@ xen:
     - timestamps_in_gzip_headers
     - timezones_manpages_podman
     - different_due_to_umask
+  bugs:
+    - 853710
 xenomai:
   version: 2.6.4+dfsg-0.2
   issues:
@@ -28690,6 +28909,10 @@ xmms2:
   version: 0.8+dfsg-16
   issues:
     - gcc_captures_build_path
+xmoto:
+  version: 0.5.11+dfsg-6
+  bugs:
+    - 853712
 xmount:
   version: 0.7.3-1
   issues:
@@ -28939,6 +29162,10 @@ xzoom:
   version: 0.3-24
   issues:
     - gcc_captures_build_path
+yabar:
+  version: 0.4.0-1
+  bugs:
+    - 853713
 yabause:
   version: 0.9.14-1
   issues:
@@ -29064,10 +29291,13 @@ yp-tools:
   version: 3.3-5
   bugs:
     - 836021
+    - 853714
 yrmcds:
   version: 1.1.8-1
   comments: |
     Fixed upstream: https://github.com/cybozu/yrmcds/commit/04cda93
+  bugs:
+    - 853715
 yt:
   version: 3.3.3-2
   bugs:
@@ -29183,6 +29413,10 @@ zookeeper:
   version: 3.4.6-5
   issues:
     - random_order_in_documentation_generated_by_javadoc
+zoom-player:
+  version: 1.1.5~dfsg-3
+  bugs:
+    - 853718
 zoomer:
   version: 0.1-1.1
   issues:
@@ -29199,6 +29433,7 @@ zorp:
   version: 3.9.5-4
   bugs:
     - 829710
+    - 853719
 zotero-standalone-build:
   version: 4.0.22-1
   comments: |
