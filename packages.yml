@@ -134,6 +134,8 @@ activemq:
     - random_order_in_documentation_generated_by_javadoc
     - timestamps_generated_by_xbean_spring
     - blacklisted_on_jenkins_armhf_only
+  bugs:
+    - 871346
 activemq-activeio:
   version: 3.1.4-1
   issues:
@@ -310,6 +312,10 @@ aiscm:
   version: 0.10.2-1
   issues:
     - timestamps_in_documentation_generated_by_pandoc
+akonadi:
+  version: 4:16.04.3-5
+  bugs:
+    - 871147
 akonadi-search:
   version: 16.04.3-1
   issues:
@@ -1006,6 +1012,10 @@ aspectj:
   version: 1.8.5-1
   issues:
     - captures_build_path
+aspectj-maven-plugin:
+  version: 1.7-1
+  bugs:
+    - 871354
 aspell:
   version: 0.60.7~20110707-3
   bugs:
@@ -1029,6 +1039,8 @@ assertj-core:
   version: 2.3.0-2
   issues:
     - random_order_in_java_jar_manifest_mf
+  bugs:
+    - 871131
 assimp:
   version: 3.3.1~dfsg-1
   issues:
@@ -1257,6 +1269,10 @@ avrdude:
     - pdf_id_varying_due_to_build_path
   bugs:
     - 868925
+avro-java:
+  version: 1.7.7-2
+  bugs:
+    - 871340
 awesome:
   version: 4.0-1
   issues:
@@ -1527,6 +1543,8 @@ beignet:
     - different_encoding
     - captures_build_path
     - too_much_input_for_diff
+  bugs:
+    - 871332
 belenios:
   version: 1.4+dfsg-1
   issues:
@@ -1989,6 +2007,8 @@ bppsuite:
   version: 0.8.0-1+build1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 871098
 breathe:
   version: 4.2.0-3
   issues:
@@ -2026,6 +2046,7 @@ brltty:
     - captures_build_path
   bugs:
     - 859959
+    - 871155
 bro:
   version: 2.4.1+dfsg-2
   issues:
@@ -2279,6 +2300,8 @@ caneda:
   version: 0.3.0-1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 871168
 canl-c:
   version: 2.1.5-1.1
   issues:
@@ -2316,6 +2339,8 @@ capnproto:
     - 853342
     - 853440
     - 853539
+    - 871118
+    - 871175
 car:
   version: 2.1-3-1
   issues:
@@ -2329,6 +2354,10 @@ cargo:
   version: 0.9.0-1
   comments: |
     Issue seems to be in embedded libgit2-sys.
+carrotsearch-hppc:
+  version: 0.6.1-3
+  bugs:
+    - 871162
 casablanca:
   version: 2.2.0-1
   issues:
@@ -2385,6 +2414,10 @@ cb2bib:
   version: 1.9.2-1
   issues:
     - gcc_captures_build_path
+cbmc:
+  version: 5.6-1
+  bugs:
+    - 871068
 cc1111:
   version: 2.9.0-7
   issues:
@@ -2604,6 +2637,10 @@ charybdis:
   version: 3.5.3-1
   issues:
     - records_build_flags
+chasen:
+  version: 2.4.5-37
+  bugs:
+    - 871179
 chasquid:
   version: 0.01+git20161124.6479138-2
   issues:
@@ -3064,6 +3101,8 @@ collectd:
   version: 5.7.1-1.1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 871062
 colobot:
   version: 0.1.3-1
   issues:
@@ -3968,6 +4007,8 @@ debian-faq:
     - timestamps_in_gzip_headers
     - timestamps_in_ps_generated_by_dvips
     - timestamps_in_tarball
+  bugs:
+    - 871105
 debian-history:
   version: 2.19
   issues:
@@ -4702,6 +4743,10 @@ duma:
   version: 2.5.15-1.1
   bugs:
     - 811887
+dummydroid:
+  version: 1.1-1
+  bugs:
+    - 871343
 dumpet:
   version: 2.1-9
   issues:
@@ -4905,48 +4950,96 @@ eclipse:
   issues:
     - timestamps_in_jar
     - blacklisted_on_jenkins_armhf_only
+  bugs:
+    - 871142
 eclipse-aether:
   version: 1.0.2-1
   issues:
     - random_order_in_sisu_javax_inject_named
   bugs:
     - 866856
+eclipse-anyedit:
+  version: 2.4.4-1
+  bugs:
+    - 871209
 eclipse-cdt:
   version: 8.6.0-2
   issues:
     - captures_kernel_version
+  bugs:
+    - 871201
 eclipse-cdt-pkg-config:
   version: 1.0.0~git
   issues:
     - snapshot_placeholder_replaced_with_timestamp_in_pom_properties
     - captures_build_path
+  bugs:
+    - 871198
+eclipse-eclox:
+  version: 0.10.1-2
+  bugs:
+    - 871200
+eclipse-egit:
+  version: 3.7.0-2
+  bugs:
+    - 871189
+eclipse-emf:
+  version: 2.8.3-2
+  bugs:
+    - 871197
 eclipse-gef:
   version: 3.9.100-1
   bugs:
     - 850553
     - 869089
+eclipse-linuxtools:
+  version: 3.1.0-1
+  bugs:
+    - 871193
 eclipse-mercurialeclipse:
   version: 1.9.4-2
   comments: |
     The line number table varies slightly, sometimes. 10% on my machine, more on Jenkins.
     The build is relatively complex (using java helper --..eclipse..), but doesn't generate
     any code or anything; it looks like it must be a bug inside ecj (run via. ant in a crazy way).
+  bugs:
+    - 871212
 eclipse-mylyn:
   version: 3.12.0-1
   issues:
     - snapshot_placeholder_replaced_with_timestamp_in_pom_properties
+  bugs:
+    - 871341
+eclipse-mylyn-tasks-github:
+  version: 3.3.0-2
+  bugs:
+    - 871191
 eclipse-ptp:
   version: 8.1.1-1
   issues:
     - captures_build_path
+  bugs:
+    - 871205
+eclipse-pydev:
+  version: 3.9.2-5
+  bugs:
+    - 871211
+eclipse-remote-services-api:
+  version: 8.0.0-1
+  bugs:
+    - 871192
 eclipse-rse:
   version: 3.4.2-1
   issues:
     - snapshot_placeholder_replaced_with_timestamp_in_pom_properties
+  bugs:
+    - 871196
 eclipse-subclipse:
   version: 1.10.3-1
   issues:
     - captures_build_path
+  bugs:
+    - 871188
 eclipse-titan:
   version: 5.4.1-1
   comments: |
@@ -4964,6 +5057,8 @@ eclipse-wtp:
     - timestamps_in_jar
     - blacklisted_on_jenkins_armhf_only
     - captures_build_path
+  bugs:
+    - 871359
 eclipse-xsd:
   version: 2.9.0-1
   bugs:
@@ -5105,6 +5200,8 @@ elixir-lang:
   version: 1.3.3-2
   issues:
     - captures_build_path
+  bugs:
+    - 871120
 elkcode:
   version: 2.3.22-1
   issues:
@@ -5341,6 +5438,8 @@ erlang-p1-oauth2:
   version: 0.6.1-1
   issues:
     - captures_build_path_in_beam_files
+  bugs:
+    - 871190
 erlang-p1-pam:
   version: 1.0.0-3
   issues:
@@ -6616,6 +6715,10 @@ freehdl:
   version: 0.0.8-2.2
   issues:
     - gcc_captures_build_path
+freehep-graphics2d:
+  version: 2.1.1-5
+  bugs:
+    - 871326
 freeipmi:
   version: 1.4.9-1
   bugs:
@@ -6647,6 +6750,8 @@ freerdp2:
   version: 2.0.0~git20161130.1.e60d0d5+dfsg1-1
   issues:
     - captures_build_path_via_assert
+  bugs:
+    - 871150
 freetts:
   version: 1.2.2-3
   issues:
@@ -7872,6 +7977,10 @@ gnome-contacts:
     src/contacts-window.c:2114	}
     .
     This may be caused by `-Wl,-O1` in debian/rules.
+gnome-dictionary:
+  version: 3.20.0-4
+  bugs:
+    - 871107
 gnome-do:
   version: 0.95.3-1
   issues:
@@ -9424,6 +9533,8 @@ hfst:
   version: 3.10.0~r2798-2
   issues:
     - captures_build_path
+  bugs:
+    - 871145
 hg-git:
   version: 0.8.5-4
   bugs:
@@ -10322,6 +10433,8 @@ jakarta-jmeter:
   version: 2.11-2
   issues:
     - user_in_java_jar_manifest
+  bugs:
+    - 871328
 jalview:
   version: 2.7.dfsg-5
   bugs:
@@ -10396,6 +10509,8 @@ jasypt:
   version: 1.9.2-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 871195
 java-allocation-instrumenter:
   version: 3.0.1-1
   bugs:
@@ -10428,6 +10543,8 @@ javamail:
   version: 1.5.6-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 871102
 javamorph:
   version: 0.0.20100201-1.3
   issues:
@@ -10504,6 +10621,10 @@ jd:
   version: 1:2.8.9-150226-5
   issues:
     - gcc_captures_build_path
+jdeb:
+  version: 1.5-5
+  bugs:
+    - 871352
 jdupes:
   version: 1.7-2
   issues:
@@ -10564,6 +10685,10 @@ jigsaw-generator:
   version: 0.2.4-1
   issues:
     - pdf_id_varying_due_to_build_path
+jimfs:
+  version: 1.1-3
+  bugs:
+    - 871358
 jitsi:
   version: 2.5.5313-1
   bugs:
@@ -10577,6 +10702,8 @@ jmdns:
   version: 3.4.2-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 871355
 jmock2:
   version: 2.8.2-2
   issues:
@@ -11058,6 +11185,8 @@ kdepim:
   version: 4:16.04.3-3
   issues:
     - build_id_differences_only
+  bugs:
+    - 871099
 kdepim-addons:
   version: 16.04.3-1
   issues:
@@ -11242,6 +11371,8 @@ khotkeys:
   version: 4:5.8.6-1
   issues:
     - build_id_differences_only
+  bugs:
+    - 871091
 khronos-api:
   version: 0~svn29577-2
   comments: |
@@ -11458,6 +11589,10 @@ kmplot:
   version: 4:16.04.2-1
   issues:
     - gcc_captures_build_path
+kmymoney:
+  version: 4.8.0-2
+  bugs:
+    - 871373
 knewstuff:
   version: 5.28.0-1
   issues:
@@ -12342,6 +12477,8 @@ libcdio:
     - 853561
     - 853697
     - 869516
+    - 871121
+    - 871138
 libcdk5:
   version: 5.0.20160131-1
   issues:
@@ -12771,6 +12908,10 @@ libgetdata:
   version: 0.9.3-2
   issues:
     - gcc_captures_build_path
+libgettext-commons-java:
+  version: 0.9.6-4
+  bugs:
+    - 871370
 libgff:
   version: 1.0-1
   issues:
@@ -12815,6 +12956,10 @@ libgnumail-java:
   version: 1.1.2-10
   issues:
     - random_order_in_documentation_generated_by_javadoc
+libgoogle-gson-java:
+  version: 2.4-1
+  bugs:
+    - 871116
 libgooglepinyin:
   version: 0.1.2-4
   issues:
@@ -13754,6 +13899,10 @@ libqapt:
   version: 3.0.1-1
   issues:
     - build_id_differences_only
+libqb:
+  version: 1.0.1-1
+  bugs:
+    - 871153
 libqcow:
   version: 20160123-2
   issues:
@@ -14885,6 +15034,8 @@ lxqt-config:
   version: 0.10.0-3
   issues:
     - build_id_differences_only
+  bugs:
+    - 871154
 lxqt-globalkeys:
   version: 0.10.0-5
   issues:
@@ -15203,6 +15354,10 @@ maven:
   issues:
     - random_order_in_plexus_comonents_xml
     - random_order_in_sisu_javax_inject_named
+maven-ant-tasks:
+  version: 2.1.3-4
+  bugs:
+    - 871080
 maven-antrun-extended-plugin:
   version: 1.42-1
   issues:
@@ -15211,6 +15366,8 @@ maven-archiver:
   version: 2.6-3
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 871069
 maven-assembly-plugin:
   version: 2.4.1-1
   bugs:
@@ -15219,6 +15376,10 @@ maven-bundle-plugin:
   version: 2.5.4-3
   issues:
     - random_order_in_documentation_generated_by_javadoc
+maven-clean-plugin:
+  version: 3.0.0-1
+  bugs:
+    - 871148
 maven-common-artifact-filters:
   version: 1.4-1
   issues:
@@ -16027,6 +16188,10 @@ mountpy:
     Due to «dh_fixperms --exclude /usr/bin/mountpy» in debian/rules.
   issues:
     - different_due_to_umask
+mousetweaks:
+  version: 3.12.0-1
+  bugs:
+    - 871136
 mozjs24:
   version: 24.2.0-3.1
   issues:
@@ -16298,6 +16463,8 @@ musescore:
   issues:
     - build_id_variation_requiring_further_investigation
     - gcc_captures_build_path
+  bugs:
+    - 871075
 music:
   version: 1.0.7-1.3
   bugs:
@@ -16562,6 +16729,10 @@ neovim:
     Also captures username.
   issues:
     - captures_build_path
+neovim-qt:
+  version: 0.2.7-2
+  bugs:
+    - 871132
 net-snmp:
   version: 5.7.3+dfsg-1.4
   issues:
@@ -17174,6 +17345,10 @@ ntopng:
     - captures_build_path_via_assert
   bugs:
     - 853578
+nuitka:
+  version: 0.5.27+ds-1
+  bugs:
+    - 871125
 numexpr:
   version: 2.6.1-1
   issues:
@@ -17562,6 +17737,10 @@ octave-communications:
   version: 1.2.1-1
   issues:
     - pdf_created_by_ghostscript
+octave-image:
+  version: 2.6.1-1
+  bugs:
+    - 871214
 octave-ocs:
   version: 0.1.5-2
   issues:
@@ -17622,6 +17801,8 @@ okio:
   version: 1.8.0-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 871365
 okteta:
   version: 4:16.08.2-1
   issues:
@@ -18275,6 +18456,7 @@ ovito:
     - build_id_differences_only
   bugs:
     - 853603
+    - 871248
 owasp-java-html-sanitizer:
   version: 0.1+r88-1
   issues:
@@ -19097,6 +19279,7 @@ plasma-framework:
     - different_due_to_umask
   bugs:
     - 828021
+    - 871129
 plasma-mediacenter:
   version: 5.7.3-1
   issues:
@@ -19123,6 +19306,8 @@ plasma-workspace:
     - different_due_to_umask
     - users_and_groups_in_tarball
     - build_id_differences_only
+  bugs:
+    - 871146
 plastex:
   version: 0.9.2-1
   issues:
@@ -19686,6 +19871,8 @@ prometheus-alertmanager:
   version: 0.3.0+ds-2
   issues:
     - golang_compiler_captures_build_path_in_binary
+  bugs:
+    - 871330
 prometheus-blackbox-exporter:
   version: 0.3.0+ds1-1
   issues:
@@ -19932,6 +20119,10 @@ pycryptopp:
   version: 0.6.0.20120313-1
   issues:
     - gcc_captures_build_path
+pydenticon:
+  version: 0.3-1
+  bugs:
+    - 871079
 pydispatcher:
   version: 2.0.5-1
   issues:
@@ -20067,6 +20258,10 @@ pylirc:
   version: 0.0.5-3
   issues:
     - gcc_captures_build_path
+pylucene:
+  version: 4.10.1+dfsg-2
+  bugs:
+    - 871366
 pymad:
   version: 0.9-1
   issues:
@@ -20205,6 +20400,10 @@ pyside-tools:
   version: 0.2.15-1
   issues:
     - gcc_captures_build_path
+pysodium:
+  version: 0.6.11-1
+  bugs:
+    - 871199
 pystemmer:
   version: 1.3.0+dfsg-1
   issues:
@@ -20242,6 +20441,10 @@ pytest-localserver:
   version: 0.3.6-1
   bugs:
     - 867518
+pytest-mock:
+  version: 1.3.0-1
+  bugs:
+    - 871127
 pytest-pylint:
   version: 0.6.0-1
   bugs:
@@ -20946,6 +21149,10 @@ python-scipy:
     - timestamps_in_documentation_generated_by_sphinx
     - timestamps_in_pdf_generated_by_matplotlib
     - blacklisted_on_jenkins_armhf_only
+python-scrapy-djangoitem:
+  version: 1.1.1-1
+  bugs:
+    - 871385
 python-secretstorage:
   version: 2.1.1-1
   issues:
@@ -21039,6 +21246,8 @@ python-xarray:
   version: 0.9.2-1
   issues:
     - captures_build_path
+  bugs:
+    - 871208
 python-xlib:
   version: 0.14+20091101-5
   issues:
@@ -21199,6 +21408,8 @@ qevercloud:
   version: 3.0.3+ds-1
   issues:
     - pdf_id_varying_due_to_build_path
+  bugs:
+    - 871202
 qgis:
   version: 2.8.4+dfsg-1
   comments: |
@@ -23684,6 +23895,8 @@ robocode:
   version: 1.9.2.5-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 871348
 roboptim-core:
   version: 2.0-7.1
   bugs:
@@ -23811,6 +24024,8 @@ rosegarden:
   issues:
     - too_much_input_for_diff
     - gcc_captures_build_path
+  bugs:
+    - 871213
 rotter:
   version: 0.9-3
   issues:
@@ -24177,6 +24392,8 @@ ruby-json:
   version: 2.0.1+dfsg-2
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 871046
 ruby-kgio:
   version: 2.9.3-1
   comments: |
@@ -24351,6 +24568,10 @@ ruby-raindrops:
   version: 0.17.0-1
   issues:
     - gcc_captures_build_path
+ruby-rbnacl:
+  version: 5.0.0-1
+  bugs:
+    - 871093
 ruby-rdiscount:
   version: 2.1.8-1
   issues:
@@ -24475,6 +24696,10 @@ ruby-unicode:
   version: 0.4.4-2
   issues:
     - gcc_captures_build_path
+ruby-varia-model:
+  version: 0.5.0-1
+  bugs:
+    - 871133
 ruby-version-sorter:
   version: 2.0.0+dfsg-2
   issues:
@@ -25087,6 +25312,10 @@ shim:
     - cryptographic_signature
     - max_output_size_reached
     - user_hostname_manually_added_requiring_further_investigation
+shiro:
+  version: 1.3.2-1
+  bugs:
+    - 871325
 shishi:
   version: 1.0.2-6
   issues:
@@ -25111,6 +25340,10 @@ showq:
   version: 0.4.1+git20151103~dfsg0-1
   issues:
     - gcc_captures_build_path
+shush:
+  version: 1.2.3-4
+  bugs:
+    - 871251
 sia:
   version: 1.0.3-1
   issues:
@@ -25657,6 +25890,10 @@ sparskit:
   version: 2.0.0-2
   issues:
     - captures_build_path
+spatial4j:
+  version: 0.5-1
+  bugs:
+    - 871362
 spd:
   version: 1.3.0-1
   issues:
@@ -26161,6 +26398,8 @@ surefire:
   version: 2.17-2
   comments: |
     SmartStakTraceParser.java contains unicode characters. This should work in Java source I think so not sure what is the problem. See, for example https://stackoverflow.com/questions/11226878/why-do-i-need-to-escape-unicode-in-java-source-files
+  bugs:
+    - 871112
 surf-alggeo:
   version: 1.0.6+ds-2
   issues:
@@ -26640,6 +26879,10 @@ telepathy-qt:
   version: 0.9.6.1-6.1
   issues:
     - build_id_differences_only
+tellico:
+  version: 3.0.2-1.2
+  bugs:
+    - 871113
 tempest:
   version: 1:12.2.0-1
   bugs:
@@ -26739,12 +26982,19 @@ texlive-base:
   version: 2014.20141024-2
   comments: |
     Caused by some randomness in/near dh_installtex (tex-common)
+  bugs:
+    - 826465
+    - 871345
 texlive-bin:
   version: 2016.20160513.41080.dfsg-2
   issues:
     - captures_build_path
   bugs:
     - 870796
+texlive-extra:
+  version: 2017.20170801-1
+  bugs:
+    - 871159
 textedit.app:
   version: 4.0+20061029-3.4
   issues:
@@ -27326,6 +27576,8 @@ tycho:
   version: 0.25.0-1
   comments: |
     Contains a zip file with jar files inside. Candidate for manually calling strip-determinism?
+  bugs:
+    - 871347
 type-conv:
   version: 113.00.02-1
   issues:
@@ -27501,6 +27753,8 @@ uima-as:
   version: 2.3.1-5
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 871336
 uimaj:
   version: 2.9.0-1
   issues:
@@ -27532,6 +27786,7 @@ umockdev:
   version: 0.8.11-2
   bugs:
     - 767908
+    - 871060
 unattended-upgrades:
   version: 0.93.1+nmu1
   bugs:
@@ -28056,6 +28311,8 @@ vte2.91:
   version: 0.44.2-1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 871074
 vtgrab:
   version: 0.1.8-3
   bugs:
@@ -28301,6 +28558,8 @@ widelands:
   version: 1:18-3
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 871114
 wikipediafs:
   version: 0.4-6
   issues:
