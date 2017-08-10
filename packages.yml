@@ -3296,6 +3296,8 @@ courier:
   version: 0.76.1-3
   issues:
     - captures_build_path
+  bugs:
+    - 871586
 courier-authlib:
   version: 0.66.4-3
   comments: |
@@ -7649,6 +7651,7 @@ git:
     docbook-to-man. The gzip headers are trivial.
   bugs:
     - 868738
+    - 871570
 git-annex:
   version: 6.20170101-1
   bugs:
@@ -14010,6 +14013,8 @@ libreswan:
   version: 3.19-1
   issues:
     - captures_build_path_via_assert
+  bugs:
+    - 871128
 libretro-beetle-wswan:
   version: 0.9.35.1+git20160623-1
   issues:
@@ -15128,6 +15133,10 @@ maildirsync:
     - different_due_to_umask
   bugs:
     - 776933
+maildrop:
+  version: 2.8.4-2
+  bugs:
+    - 871587
 mailfilter:
   version: 0.8.4-2
   issues:
@@ -18245,6 +18254,8 @@ openturns:
     https://sources.debian.net/src/openturns/1.5-7/lib/include/CMakeLists.txt/#L29
   issues:
     - randomness_in_r_rdb_rds_databases
+  bugs:
+    - 871505
 openvas-cli:
   version: 1.4.4-1
   issues:
@@ -26423,6 +26434,8 @@ swarmkit:
   version: 1.12.0+git20170111.763.296fcfcf-1
   issues:
     - captures_build_path
+  bugs:
+    - 871566
 swedish:
   version: 1.4.5-2.1
   issues:
@@ -27885,6 +27898,8 @@ urweb:
   issues:
     - fonts_in_pdf_files
     - too_much_input_for_diff
+  bugs:
+    - 871572
 urwid:
   version: 1.3.1-2
   bugs:
