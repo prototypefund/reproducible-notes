@@ -183,6 +183,10 @@ adasockets:
     - user_hostname_manually_added_requiring_further_investigation
     - captures_kernel_version
     - random_id_in_pdf_generated_by_dblatex
+adblock-plus:
+  version: 2.7.3+dfsg-1
+  bugs:
+    - 868969
 adcli:
   version: 0.7.5-1
   issues:
@@ -607,6 +611,8 @@ apache-log4j2:
   version: 2.6.2-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 869002
 apache-mime4j:
   version: 0.7.2-4
   issues:
@@ -730,6 +736,8 @@ apitrace:
   version: 7.1+git20160531.2d78bef0+repack-1.1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 871158
 aplus-fsf:
   version: 4.22.1-7
   issues:
@@ -2600,6 +2608,8 @@ cglib:
   version: 3.2.4-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 869010
 cgoban:
   version: 1.9.14-17
   issues:
@@ -3196,6 +3206,8 @@ condor:
   issues:
     - timestamps_from_cpp_macros
     - different_due_to_umask
+  bugs:
+    - 868905
 configshell:
   version: 1.6.1~g020d540-2
   issues:
@@ -4496,6 +4508,8 @@ docker-swarm:
   version: 1.0.1+dfsg-1
   issues:
     - golang_compiler_captures_build_path_in_binary
+  bugs:
+    - 861550
 docky:
   version: 2.2.0-2
   issues:
@@ -5366,6 +5380,8 @@ erlang-cuttlefish:
   version: 2.0.6+dfsg-1
   issues:
     - captures_build_path_in_beam_files
+  bugs:
+    - 871350
 erlang-folsom:
   version: 0.8.2+dfsg-1
   issues:
@@ -5656,6 +5672,8 @@ eztrace:
   version: 1.1-3-1
   issues:
     - captures_build_path
+  bugs:
+    - 871151
 fabulous:
   version: 0.3.0+dfsg1-1
   issues:
@@ -5933,6 +5951,8 @@ festival:
   version: 1:2.4~release-2
   issues:
     - timestamps_in_ps_generated_by_dvips
+  bugs:
+    - 871117
 fexoticoptions:
   version: 2152.78-3
   issues:
@@ -9583,6 +9603,8 @@ hol88:
   version: 2.02.19940316-28
   issues:
     - timestamps_in_dvi_generated_by_latex
+  bugs:
+    - 871364
 horizon:
   version: 2014.1.3-7
   comments: |
@@ -10253,6 +10275,8 @@ ispell-uk:
   issues:
     - timestamps_in_gzip_headers
     - random_ispell_hash_files
+  bugs:
+    - 871349
 istack-commons:
   version: 2.17-1
   issues:
@@ -10692,6 +10716,8 @@ jnr-unixsocket:
   version: 0.8-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 869006
 jnr-x86asm:
   version: 0.1-1
   issues:
@@ -14718,11 +14744,14 @@ llvm-toolchain-3.8:
   issues:
     - blacklisted_on_jenkins_armhf_only
   bugs:
+    - 853523
     - 862360
 llvm-toolchain-3.9:
   version: 1:3.9-1
   issues:
     - blacklisted_on_jenkins_armhf_only
+  bugs:
+    - 853524
 llvm-toolchain-4.0:
   version: 1:4.0-1
   issues:
@@ -14733,6 +14762,8 @@ llvm-toolchain-snapshot:
   version: 1:3.8~svn254193-1
   issues:
     - blacklisted_on_jenkins_armhf_only
+  bugs:
+    - 871591
 llvmlite:
   version: 0.15.0+git20161228.95d8c7c-2
   issues:
@@ -15361,6 +15392,10 @@ maven-compiler-plugin-2.5:
   version: 2.5.1-4
   issues:
     - random_order_in_documentation_generated_by_javadoc
+maven-dependency-plugin:
+  version: 2.8-1
+  bugs:
+    - 869012
 maven-dependency-tree:
   version: 2.1-1
   issues:
@@ -15406,6 +15441,10 @@ maven-shared-utils:
   version: 3.0.0-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+maven-site-plugin:
+  version: 2.2-1
+  bugs:
+    - 869001
 maven2-core:
   version: 2.2.1-26
   issues:
@@ -17130,6 +17169,10 @@ node-zlib:
   version: 1.0.5-1
   bugs:
     - 719368
+nodejs:
+  version: 4.8.4~dfsg-1
+  bugs:
+    - 853573
 noiz2sa:
   version: 0.51a-10.1
   bugs:
@@ -17775,6 +17818,8 @@ ohcount:
   version: 3.0.0-8.2
   issues:
     - captures_build_path
+  bugs:
+    - 869599
 okio:
   version: 1.8.0-1
   issues:
@@ -18493,6 +18538,8 @@ packer:
   version: 0.10.1+dfsg-1
   issues:
     - golang_compiler_captures_build_path_in_binary
+  bugs:
+    - 869718
 packeth:
   version: 1.6.5-2
   issues:
@@ -18540,6 +18587,8 @@ pakcs:
   issues:
     - leaks_path_environment_variable
     - max_output_size_reached
+  bugs:
+    - 871194
 pal:
   version: 0.4.3-8.1
   issues:
@@ -19448,6 +19497,10 @@ pnmixer:
     presumably LC_ALL=C is set earlier in the package's build scripts.
   bugs:
     - 854112
+po4a:
+  version: 0.51-1
+  bugs:
+    - 871357
 poa:
   version: 2.0+20060928-4
   issues:
@@ -20468,6 +20521,8 @@ python-bcrypt:
   version: 3.1.0-1
   issues:
     - captures_build_arch
+  bugs:
+    - 871770
 python-bibtex:
   version: 1.2.7-1
   issues:
@@ -21454,6 +21509,8 @@ qpid-proton:
   version: 0.14.0-5
   comments: |
     doxygen including build path in HTML <title> elements (as well as build-paths in binaries)
+  bugs:
+    - 871087
 qps:
   version: 1.10.16+20151210-1
   issues:
@@ -22008,6 +22065,8 @@ r-bioc-rtracklayer:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
+  bugs:
+    - 871333
 r-bioc-s4vectors:
   version: 0.10.2-1
   issues:
@@ -22968,6 +23027,8 @@ r-cran-randomfields:
   issues:
     - captures_build_path
     - randomness_in_r_rdb_rds_databases
+  bugs:
+    - 871183
 r-cran-randomfieldsutils:
   version: 0.3.3.1-1
   issues:
@@ -25432,6 +25493,8 @@ sipxtapi:
     https://sources.debian.net/src/sipxtapi/3.3.0~test17-1/config/sipXpkgtop.mak/
   issues:
     - user_hostname_manually_added_requiring_further_investigation
+  bugs:
+    - 862127
 sisc:
   version: 1.16.6-1.1
   issues:
@@ -26140,6 +26203,8 @@ statsmodels:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - captures_build_path
+  bugs:
+    - 868977
 stdsyslog:
   version: 0.03.1-3
   issues:
