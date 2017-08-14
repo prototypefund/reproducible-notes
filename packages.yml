@@ -316,6 +316,7 @@ akonadi:
   version: 4:16.04.3-5
   bugs:
     - 871147
+    - 871246
 akonadi-search:
   version: 16.04.3-1
   issues:
@@ -3251,6 +3252,10 @@ consul:
     - golang_compiler_captures_build_path_in_binary
   bugs:
     - 871687
+containerd:
+  version: 0.2.3+git20170126.85.aa8187d~ds1-2
+  bugs:
+    - 857819
 controlsfx:
   version: 8.40.12-1
   comments: |
@@ -3473,6 +3478,10 @@ csound:
     - captures_build_path
   bugs:
     - 865439
+csound-manual:
+  version: 1:6.09.0~dfsg-1
+  bugs:
+    - 871814
 cssparser:
   version: 0.9.5-1
   issues:
@@ -3734,6 +3743,10 @@ dactyl:
   bugs:
     - 776618
     - 859299
+dadadodo:
+  version: 1.04-6
+  bugs:
+    - 871166
 daemontools:
   version: 1:0.76-6.1
   issues:
@@ -4056,6 +4069,8 @@ debian-zh-faq:
   issues:
     - timestamps_in_gzip_headers
     - timestamps_in_ps_generated_by_dvips
+  bugs:
+    - 871818
 debiandoc-sgml-doc:
   version: 1.1.24
   issues:
@@ -6772,6 +6787,8 @@ frobby:
   issues:
     - timestamps_in_pdf_content
     - timestamps_in_ps_generated_by_dvips
+  bugs:
+    - 872020
 frown:
   version: 0.6.2.3-2
   issues:
@@ -6894,6 +6911,10 @@ fvwm1:
   issues:
     - too_much_input_for_diff
     - gcc_captures_build_path
+fw4spl:
+  version: 11.0.4-1
+  bugs:
+    - 871111
 fwbuilder:
   version: 5.1.0-4
   issues:
@@ -7794,6 +7815,10 @@ glirc:
   version: 2.20.1.1-2
   bugs:
     - 867830
+glm:
+  version: 0.9.8.4-1
+  bugs:
+    - 870217
 glob2:
   version: 0.9.4.4-2.3
   issues:
@@ -8129,6 +8154,8 @@ gnupg2:
     Also, it might be that some padding with unitialized memory causes
     some non-determinism seen in the bits between CompanyName's and
     FileVersion's value (g10/gpg-w32info.rc).
+  bugs:
+    - 871904
 gnuplot:
   version: 5.0.3+dfsg3-5
   issues:
@@ -15996,6 +16023,7 @@ mongodb:
   bugs:
     - 811606
     - 853556
+    - 871906
 monkeysign:
   version: 2.2.1
   comments: |
@@ -16427,6 +16455,7 @@ munin-c:
     longer, which explains all other differences.
   bugs:
     - 845426
+    - 871108
 munipack:
   version: 0.5.7-2
   issues:
@@ -18051,6 +18080,10 @@ openexr-viewers:
   version: 1.0.1-6
   issues:
     - gcc_captures_build_path
+openfst:
+  version: 1.5.3+r3-2
+  bugs:
+    - 871170
 opengm:
   version: 2.3.6+20160131-2
   issues:
@@ -18207,6 +18240,8 @@ openorienteering-mapper:
       Q_OBJECT is defined in qtbase-opensource-src.
   issues:
     - too_much_input_for_diff
+  bugs:
+    - 871820
 opensaml2:
   version: 2.6.0-4
   bugs:
@@ -18291,6 +18326,8 @@ openzwave:
     Both the moveabs() and the .rodata differences are hardcoded filenames.
   issues:
     - captures_build_path_via_assert
+  bugs:
+    - 871088
 optcomp:
   version: 1.6-1
   issues:
@@ -19049,6 +19086,10 @@ photoprint:
   version: 0.4.2~pre2-2.4
   bugs:
     - 811806
+photutils:
+  version: 0.3.2-1
+  bugs:
+    - 872011
 php-apcu:
   version: 5.1.7+4.0.11-2
   issues:
@@ -19524,6 +19565,8 @@ polymake:
   version: 3.1-4
   comments: |
     Paths introduced via perllib/Polymake/Configure.pm and support/configure.pl
+  bugs:
+    - 871929
 polyml:
   version: 5.6-8
   issues:
@@ -19734,6 +19777,10 @@ ppx-type-conv:
   version: 113.33.03-1
   issues:
     - captures_build_path
+praat:
+  version: 6.0.30-2
+  bugs:
+    - 871907
 prayer:
   version: 1.3.5-dfsg1-3
   bugs:
@@ -20182,6 +20229,7 @@ pygame:
   version: 1.9.3+dfsg-2
   bugs:
     - 861253
+    - 871910
 pygccjit:
   version: 0.4-3
   issues:
@@ -20427,6 +20475,10 @@ pytest:
   bugs:
     - 844919
     - 867502
+pytest-catchlog:
+  version: 1.2.2-3
+  bugs:
+    - 871998
 pytest-httpbin:
   version: 0.2.0-1
   bugs:
@@ -20471,6 +20523,13 @@ python-astropy:
     See also https://bugs.debian.org/791574#61
   issues:
     - cython_captures_build_path
+  bugs:
+    - 871995
+    - 871999
+    - 872000
+    - 872006
+    - 872008
+    - 872010
 python-astropy-helpers:
   version: 2.0-1
   bugs:
@@ -21481,6 +21540,8 @@ qscintilla2:
   version: 2.9.2+dfsg-3
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 853628
 qstopmotion:
   version: 2.3.2-1
   bugs:
@@ -24701,6 +24762,10 @@ ruby-zoom:
   version: 0.4.1-7
   issues:
     - gcc_captures_build_path
+ruby2.3:
+  version: 2.3.3-1
+  bugs:
+    - 853648
 rubyluabridge:
   version: 0.8.0-1
   issues:
@@ -26554,6 +26619,8 @@ sysdig:
   version: 0.9.0-1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 872035
 sysinfo:
   version: 0.7-8
   issues:
@@ -29299,6 +29366,10 @@ xtell:
   version: 2.10.7
   issues:
     - gcc_captures_build_path
+xtensor-python:
+  version: 0.12.2-1
+  bugs:
+    - 871927
 xtide:
   version: 2.13.2-1
   comments: |
@@ -29639,6 +29710,10 @@ zsh:
     - bin_sh_is_bash
   bugs:
     - 779566
+zsh-syntax-highlighting:
+  version: 0.5.0-1
+  bugs:
+    - 872017
 zshdb:
   version: 0.92-3
   bugs:
