@@ -5366,6 +5366,10 @@ erlang:
   version: 1:18.0-dfsg-1
   issues:
     - timestamps_in_pdf_generated_by_apache_fop
+erlang-asciideck:
+  version: 0.0+git20170714.48cbfe8b-1
+  issues:
+    - captures_build_path_in_beam_files
 erlang-bear:
   version: 0.8.2+dfsg-1
   issues:
