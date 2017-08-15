@@ -438,6 +438,11 @@ randomness_in_property_annotations_generated_by_sphinx:
   description: |
     visit_desc_annotation in sphinx/writers/html.py (?) causes -- for example -- sets
     to be serialised in a nondeterminstic order.
+captures_build_path_in_sphinx_attr_links:
+  description: |
+    Sphinx docs can contain hyperlinks to other parts of the doc, which include
+    part of the build path.
+  deterministic: True
 randomness_in_icc_colour_profiles:
   description: |
     International Color Consortium .icc colour profiles have some issue.
