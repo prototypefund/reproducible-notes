@@ -1072,10 +1072,6 @@ astroplan:
   version: 0.2-1
   issues:
     - timestamps_in_pdf_generated_by_matplotlib
-astroquery:
-  version: 0.3.5+dfsg-2
-  bugs:
-    - 867502
 astyle:
   version: 2.06-2
   bugs:
@@ -3309,8 +3305,6 @@ courier-authlib:
     Captures SHELL but via autotools.. which should not be a problem due to export in debian/rules?
   issues:
     - captures_shell_variable_in_autofoo_script
-  bugs:
-    - 866975
 courier-unicode:
   version: 1.4-2
   comments: |
@@ -8709,10 +8703,6 @@ gpsim:
   version: 0.29.0-2
   bugs:
     - 853432
-gpsshogi:
-  version: 0.7.0-1.1
-  bugs:
-    - 861644
 gputils:
   version: 1.4.0-0.1
   issues:
@@ -9719,7 +9709,6 @@ htslib:
   bugs:
     - 800469
     - 849667
-    - 865012
 http-icons:
   version: 0~20041010-1
   comments: |
@@ -11732,10 +11721,6 @@ kplotting:
   version: 5.28.0-1
   issues:
     - gcc_captures_build_path
-kraptor:
-  version: 0.0.20040403-9
-  bugs:
-    - 826423
 krb5:
   version: 1.14.3+dfsg-2
   issues:
@@ -19759,8 +19744,6 @@ ppl:
   version: 1:1.2-1
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 867100
 pps-tools:
   version: 0.20120406+g0deb9c7e-2
   issues:
@@ -20486,7 +20469,6 @@ pytest:
   version: 3.0.4-1
   bugs:
     - 844919
-    - 867502
 pytest-catchlog:
   version: 1.2.2-3
   bugs:
@@ -29402,8 +29384,6 @@ xz-utils:
   version: 5.1.1alpha+20120614-2
   issues:
     - captures_shell_variable_in_autofoo_script
-  bugs:
-    - 806331
 xzoom:
   version: 0.3-24
   issues:
