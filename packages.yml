@@ -10659,6 +10659,8 @@ jellyfish:
   version: 2.2.5-1
   issues:
     - captures_build_path
+  bugs:
+    - 872262
 jenkins-json:
   version: 2.4-jenkins-3-4
   issues:
@@ -12433,6 +12435,8 @@ libbpp-phyl:
   version: 2.2.0-1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 871085
 libbrahe:
   version: 1.3.2-5
   issues:
@@ -13572,6 +13576,10 @@ libmsiecf:
   version: 20160813-1
   issues:
     - captures_build_path
+libmspack:
+  version: 0.6-1
+  bugs:
+    - 872193
 libmstoolkit:
   version: 77.0.0-1
   bugs:
@@ -18094,6 +18102,7 @@ openhackware:
     https://codesearch.debian.net/results/package%3Aopenhackware%20BUILD_%28DATE|TIME%29
   bugs:
     - 833444
+    - 871094
 openhft-lang:
   version: 6.7.6-1
   bugs:
@@ -21032,6 +21041,10 @@ python-pex:
   version: 1.1.0-2
   issues:
     - captures_build_arch
+python-pgpy:
+  version: 0.4.2-2
+  bugs:
+    - 860850
 python-phply:
   version: 0.9.1-3
   issues:
@@ -28558,6 +28571,8 @@ why:
   comments: |
     Embed build time:
     https://sources.debian.net/src/why/2.34-2/version.sh/
+  bugs:
+    - 872281
 wide-dhcpv6:
   version: 20080615-19
   issues:
