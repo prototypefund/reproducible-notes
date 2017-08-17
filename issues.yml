@@ -1728,4 +1728,6 @@ build_path_captured_by_python_numpy_misc_util:
   deterministic: True
 nondeterministic_output_generated_by_gcab:
   description: |
-    gcab generates .cab files that vary in some header.
+    gcab generates .cab files that vary due to encoding timezone
+  url: https://bugs.debian.org/872460
+  deterministic: True
