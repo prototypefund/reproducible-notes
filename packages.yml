@@ -8094,8 +8094,6 @@ gnuastro:
     configure.ac:182:AC_DEFINE_UNQUOTED([CONFIGTIME], ["`date +"%H:%M"`"],
     .
     Needs to use TZ=UTC and $SOURCE_DATE_EPOCH.
-  bugs:
-    - 868586
 gnubg:
   version: 1.05.000-4
   issues:
@@ -9255,7 +9253,6 @@ hardinfo:
     https://sources.debian.net/src/hardinfo/0.5.1-1.5/configure/#L189-L191
   bugs:
     - 779465
-    - 833379
 harfbuzz:
   version: 1.4.2-1
   bugs:
@@ -9638,10 +9635,6 @@ horizon:
     - captures_build_path
   bugs:
     - 868975
-hothasktags:
-  version: 0.3.7-3
-  bugs:
-    - 867260
 hp-search-mac:
   version: 0.1.3
   comments: |
@@ -23493,10 +23486,6 @@ radiusd-livingston:
   version: 2.1-21
   issues:
     - gcc_captures_build_path
-radvd:
-  version: 1:2.16-1
-  bugs:
-    - 864269
 rafkill:
   version: 1.2.2-5
   issues:
