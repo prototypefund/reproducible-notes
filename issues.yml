@@ -1726,3 +1726,6 @@ build_path_captured_by_python_numpy_misc_util:
     filename to generated files.
   url: https://bugs.debian.org/872459
   deterministic: True
+nondeterministic_output_generated_by_gcab:
+  description: |
+    gcab generates .cab files that vary in some header.
