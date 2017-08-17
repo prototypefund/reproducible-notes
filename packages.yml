@@ -8083,15 +8083,6 @@ gnuais:
   version: 0.3.3-5
   issues:
     - gcc_captures_build_path
-gnuastro:
-  version: 0.2.33-1
-  comments: |
-    Captures build time:
-    .
-    configure.ac:180:AC_DEFINE_UNQUOTED([CONFIGDATE], ["`date +"%d %B %Y"`"],
-    configure.ac:182:AC_DEFINE_UNQUOTED([CONFIGTIME], ["`date +"%H:%M"`"],
-    .
-    Needs to use TZ=UTC and $SOURCE_DATE_EPOCH.
 gnubg:
   version: 1.05.000-4
   issues:
