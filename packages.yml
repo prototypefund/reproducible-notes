@@ -8879,6 +8879,10 @@ grinder:
   version: 0.5.4-1
   issues:
     - captures_build_path
+gringo:
+  version: 5.1.0-4
+  bugs:
+    - 871100
 grml-debootstrap:
   version: 0.73
   issues:
@@ -12998,6 +13002,10 @@ libgtk2-appindicator-perl:
   version: 0.15-1
   bugs:
     - 782877
+libgtk2-perl:
+  version: 2:1.24992-1
+  bugs:
+    - 872317
 libgtkada:
   version: 2.24.4dfsg-1
   comments: |
@@ -20051,6 +20059,8 @@ pulseview:
   version: 0.2.0-1.2
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 871172
 puma:
   version: 3.6.0-1
   comments: |
@@ -20397,6 +20407,8 @@ pyqt5:
     /usr/share/doc/pyqt5-examples/examples/animation/animatedtiles/animatedtiles_rc.py
   issues:
     - randomness_in_objects_inv
+  bugs:
+    - 872285
 pyqwt3d:
   version: 0.1.7~cvs20090625-13
   bugs:
