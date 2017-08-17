@@ -24835,6 +24835,10 @@ salt:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - timestamps_in_manpages_generated_by_rst2man
+samba:
+  version: 2:4.6.7+dfsg-1
+  comments: |
+    Expands build prefix variables in smb.conf.5 but curiously only three of the variables are expanded, not all of them...
 samhain:
   version: 4.1.4-2
   comments: |
