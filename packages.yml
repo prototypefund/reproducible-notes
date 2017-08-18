@@ -1412,6 +1412,10 @@ bareos:
     - timestamps_from_cpp_macros
     - different_due_to_umask
     - records_build_flags
+baresip:
+  version: 0.5.4-1
+  bugs:
+    - 872406
 barnowl:
   version: 1.9-1
   comments: |
@@ -1510,7 +1514,6 @@ bcftools:
     - 860682
     - 860704
     - 865006
-    - 865060
     - 868958
 bcron:
   version: 0.10-4
@@ -4166,10 +4169,6 @@ devio:
   version: 1.2-1.2
   issues:
     - gcc_captures_build_path
-dh-ada-library:
-  version: 6.8
-  issues:
-    - captures_build_path
 dh-kpatches:
   version: 0.99.36+nmu3
   issues:
@@ -5576,6 +5575,11 @@ ethstatus:
   version: 0.4.8
   issues:
     - gcc_captures_build_path
+etl:
+  version: 0.04.19-1
+  bugs:
+    - 853674
+    - 853675
 etoile:
   version: 0+20080616+dfsg-2
   issues:
@@ -6366,6 +6370,10 @@ fonts-ebgaramond:
     https://sources.debian.net/src/fonts-ebgaramond/0.015%2Bgit20130628-3/tools/makefont.py/
   issues:
     - fontforge_resets_modification_time
+fonts-f500:
+  version: 1.0-6
+  issues:
+    - fontforge_resets_modification_time
 fonts-fantasque-sans:
   version: 1.6.4~dfsg-1
   comments: |
@@ -6921,6 +6929,10 @@ fwknop:
   version: 2.6.0-4
   issues:
     - captures_build_path
+fwupd:
+  version: 0.9.6-1
+  issues:
+    - nondeterministic_output_generated_by_gcab
 g15daemon:
   version: 1.9.5.3-8.3
   comments: |
@@ -7235,7 +7247,10 @@ gcc-7:
   issues:
     - blacklisted_on_jenkins_armhf_only
   bugs:
+    - 853537
+    - 853610
     - 853613
+    - 853709
     - 866355
 gcc-avr:
   version: 1:4.8.1+Atmel3.4.4-2
@@ -8083,15 +8098,6 @@ gnuais:
   version: 0.3.3-5
   issues:
     - gcc_captures_build_path
-gnuastro:
-  version: 0.2.33-1
-  comments: |
-    Captures build time:
-    .
-    configure.ac:180:AC_DEFINE_UNQUOTED([CONFIGDATE], ["`date +"%d %B %Y"`"],
-    configure.ac:182:AC_DEFINE_UNQUOTED([CONFIGTIME], ["`date +"%H:%M"`"],
-    .
-    Needs to use TZ=UTC and $SOURCE_DATE_EPOCH.
 gnubg:
   version: 1.05.000-4
   issues:
@@ -9253,8 +9259,6 @@ hardinfo:
   comments: |
     Embeds system information.
     https://sources.debian.net/src/hardinfo/0.5.1-1.5/configure/#L189-L191
-  bugs:
-    - 779465
 harfbuzz:
   version: 1.4.2-1
   bugs:
@@ -9276,10 +9280,6 @@ haskell-argon2:
   bugs:
     - 868907
     - 869249
-haskell-blogliterately:
-  version: 0.8.4-3
-  bugs:
-    - 868633
 haskell-criterion:
   version: 1.1.1.0-3
   bugs:
@@ -9383,10 +9383,6 @@ haskell-test-framework-th-prime:
   version: 0.0.9-3
   bugs:
     - 867475
-haskell-werewolf:
-  version: 1.5.1.1-6
-  bugs:
-    - 868629
 haskell-wreq:
   version: 0.4.1.0-6
   bugs:
@@ -10251,6 +10247,10 @@ irssi-plugin-robustirc:
   version: 0.5-1
   issues:
     - gcc_captures_build_path
+isa-support:
+  version: 2
+  bugs:
+    - 872453
 isakmpd:
   version: 20041012-7.3
   issues:
@@ -13576,6 +13576,7 @@ libmspack:
 libmstoolkit:
   version: 77.0.0-1
   bugs:
+    - 853351
     - 853498
 libmthca:
   version: 1.0.6-1
@@ -14159,7 +14160,6 @@ libsndfile:
   version: 1.0.25-10
   issues:
     - captures_shell_variable_in_autofoo_script
-    - captures_build_path
     - records_build_flags
 libsodium:
   version: 1.0.11-2
@@ -14595,6 +14595,10 @@ lifeograph:
   version: 1.3.0-1
   issues:
     - gcc_captures_build_path
+liferea:
+  version: 1.12~rc3-1
+  issues:
+    - translations_missing_in_desktop_files
 lift:
   version: 2.0.0-1
   issues:
@@ -17380,6 +17384,10 @@ nuitka:
   version: 0.5.27+ds-1
   bugs:
     - 871125
+numexpr:
+  version: 2.6.2-2
+  issues:
+    - build_path_captured_by_python_numpy_misc_util
 nunit:
   version: 2.6.3+dfsg-1
   issues:
@@ -18639,6 +18647,10 @@ pandoc:
   bugs:
     - 867843
     - 868757
+pango1.0:
+  version: 1.40.9-1
+  bugs:
+    - 872317
 paps:
   version: 0.6.8-7
   issues:
@@ -19329,10 +19341,6 @@ plasma-pa:
   version: 5.8.0-1
   issues:
     - build_id_differences_only
-plasma-widget-adjustableclock:
-  version: 4.1.4-1
-  bugs:
-    - 831238
 plasma-widget-yawp:
   version: 0.4.2-1
   bugs:
@@ -24844,6 +24852,10 @@ salt:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - timestamps_in_manpages_generated_by_rst2man
+samba:
+  version: 2:4.6.7+dfsg-1
+  comments: |
+    Expands build prefix variables in smb.conf.5 but curiously only three of the variables are expanded, not all of them...
 samhain:
   version: 4.1.4-2
   comments: |
@@ -25739,6 +25751,10 @@ snapper:
   issues:
     - captures_build_path
     - records_build_flags
+snappy:
+  version: 1.1.6-3
+  bugs:
+    - 872226
 snd:
   version: 16.7-1
   issues:
@@ -29676,8 +29692,6 @@ zsh:
     bin_sh_is_bash causes the config.h delta; see discussion on pkg-zsh-devel@ on 2016-12-20.
   issues:
     - timestamps_in_pdf_generated_by_latex
-    - too_much_input_for_diff
-    - bin_sh_is_bash
   bugs:
     - 779566
 zsh-syntax-highlighting:
