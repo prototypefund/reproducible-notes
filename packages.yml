@@ -1412,6 +1412,10 @@ bareos:
     - timestamps_from_cpp_macros
     - different_due_to_umask
     - records_build_flags
+baresip:
+  version: 0.5.4-1
+  bugs:
+    - 872406
 barnowl:
   version: 1.9-1
   comments: |
@@ -5575,6 +5579,11 @@ ethstatus:
   version: 0.4.8
   issues:
     - gcc_captures_build_path
+etl:
+  version: 0.04.19-1
+  bugs:
+    - 853674
+    - 853675
 etoile:
   version: 0+20080616+dfsg-2
   issues:
@@ -7242,7 +7251,10 @@ gcc-7:
   issues:
     - blacklisted_on_jenkins_armhf_only
   bugs:
+    - 853537
+    - 853610
     - 853613
+    - 853709
     - 866355
 gcc-avr:
   version: 1:4.8.1+Atmel3.4.4-2
@@ -13568,6 +13580,7 @@ libmspack:
 libmstoolkit:
   version: 77.0.0-1
   bugs:
+    - 853351
     - 853498
 libmthca:
   version: 1.0.6-1
@@ -18639,6 +18652,10 @@ pandoc:
   bugs:
     - 867843
     - 868757
+pango1.0:
+  version: 1.40.9-1
+  bugs:
+    - 872317
 paps:
   version: 0.6.8-7
   issues:
