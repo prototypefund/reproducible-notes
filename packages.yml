@@ -9399,6 +9399,10 @@ hatari:
   version: 2.0.0+dfsg-3
   issues:
     - build_id_differences_only
+haveged:
+  version: 1.9.6-1
+  issues:
+    - build_id_differences_only
 hawtdispatch:
   version: 1.20-1
   issues:
@@ -20221,6 +20225,10 @@ pyfr:
   version: 1.5.0-1
   issues:
     - randomness_in_property_annotations_generated_by_sphinx
+pyfribidi:
+  version: 0.11.0+repack-1
+  issues:
+    - build_id_differences_only
 pygame:
   version: 1.9.3+dfsg-2
   bugs:
