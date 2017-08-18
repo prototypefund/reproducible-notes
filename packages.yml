@@ -9254,11 +9254,6 @@ harden-doc:
   version: 3.18.1
   issues:
     - timestamps_in_ps_generated_by_dvips
-hardinfo:
-  version: 0.5.1-1.5
-  comments: |
-    Embeds system information.
-    https://sources.debian.net/src/hardinfo/0.5.1-1.5/configure/#L189-L191
 harfbuzz:
   version: 1.4.2-1
   bugs:
@@ -29728,9 +29723,3 @@ zypper:
     - captures_build_path
   bugs:
     - 812243
-apg:
-  version: 2.2.3.dfsg.1-4
-  issues:
-     - timestamps_in_tarball
-  bugs:
-    - 870890
