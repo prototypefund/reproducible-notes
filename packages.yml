@@ -4169,10 +4169,6 @@ devio:
   version: 1.2-1.2
   issues:
     - gcc_captures_build_path
-dh-ada-library:
-  version: 6.8
-  issues:
-    - captures_build_path
 dh-kpatches:
   version: 0.99.36+nmu3
   issues:
@@ -14164,7 +14160,6 @@ libsndfile:
   version: 1.0.25-10
   issues:
     - captures_shell_variable_in_autofoo_script
-    - captures_build_path
     - records_build_flags
 libsodium:
   version: 1.0.11-2
