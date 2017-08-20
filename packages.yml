@@ -27217,12 +27217,6 @@ tkgate:
   version: 2.0~b10-5
   issues:
     - captures_build_path
-tkhtml1:
-  version: 1.04-1
-  comments: |
-    Installs usr/lib/tcltk/x86_64-linux-gnu/tkhtml1Config.sh with references to the build directory.
-    .
-    That might be a bona fide (non-reproducibility) bug.
 tkmpeg:
   version: 1.0.2-1
   issues:
