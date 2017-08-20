@@ -477,6 +477,8 @@ android-platform-libcore:
 android-platform-system-core:
   version: 1:7.0.0+r33-2
   bugs:
+    - 853310
+    - 853311
     - 853312
 android-platform-tools-swt:
   version: 2.0.0-1
@@ -2731,6 +2733,7 @@ chromium-browser:
   issues:
     - blacklisted_on_jenkins_armhf_only
   bugs:
+    - 853347
     - 868926
 chron:
   version: 2.3-47-2
@@ -17037,6 +17040,7 @@ nipy:
     - captures_build_path
   bugs:
     - 848745
+    - 868916
 nipype:
   version: 0.10.0-2
   issues:
@@ -17093,6 +17097,10 @@ node-chai:
   version: 3.5.0+dfsg-1
   bugs:
     - 872533
+node-evp-bytestokey:
+  version: 1.0.0-3
+  bugs:
+    - 872580
 node-fuzzaldrin-plus:
   version: 0.3.1+git.20161008.da2cb58+dfsg-4
   issues:
@@ -17113,6 +17121,10 @@ node-merge-stream:
   version: 1.0.1-1
   bugs:
     - 854495
+node-mocha:
+  version: 1.20.1-7
+  bugs:
+    - 872613
 node-oauth:
   version: 0.9.11-1
   bugs:
@@ -17737,6 +17749,7 @@ ocp:
     - captures_build_path
   bugs:
     - 848916
+    - 853581
 ocplib-simplex:
   version: 0.3-1
   issues:
@@ -21103,6 +21116,10 @@ python-pyrax:
   version: 1.9.6-1
   bugs:
     - 835189
+python-pysam:
+  version: 0.11.2.2+ds-3
+  bugs:
+    - 871083
 python-pytc:
   version: 0.8-2
   bugs:
@@ -24225,6 +24242,10 @@ ruby-dep-selector:
     - gcc_captures_build_path
   bugs:
     - 870306
+ruby-diaspora-federation:
+  version: 0.1.4-2
+  bugs:
+    - 872606
 ruby-diaspora-vines:
   version: 0.2.0.develop.4-2
   bugs:
@@ -24543,6 +24564,10 @@ ruby-psych:
   version: 2.2.4-2
   bugs:
     - 870043
+ruby-puppet-forge:
+  version: 2.2.7-1
+  bugs:
+    - 872647
 ruby-rack-proxy:
   version: 0.6.1-1
   bugs:
@@ -25915,6 +25940,8 @@ speech-tools:
     - different_encoding
     - captures_build_path
     - records_build_flags
+  bugs:
+    - 871089
 speex:
   version: 1.2~rc1.2-1
   issues:
