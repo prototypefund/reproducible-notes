@@ -8056,6 +8056,8 @@ gnu-smalltalk:
   issues:
     - different_due_to_umask
     - timestamps_in_manpages_generated_by_help2man
+  bugs:
+    - 871077
 gnu-standards:
   version: 2010.03.11-1
   issues:
@@ -8666,6 +8668,8 @@ gpsbabel:
   version: 1.5.0-3
   issues:
     - timestamps_in_pdf_generated_by_apache_fop
+  bugs:
+    - 872744
 gpsim:
   version: 0.29.0-2
   bugs:
@@ -19605,6 +19609,10 @@ postal:
   version: 0.75
   issues:
     - gcc_captures_build_path
+postbooks:
+  version: 4.10.1-1
+  bugs:
+    - 872796
 postfix:
   version: 3.1.0-5
   comments: |
