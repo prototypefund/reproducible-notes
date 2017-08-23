@@ -21434,10 +21434,9 @@ qoauth:
     [experimental/amd64] In $(QMAKE_PRL_BUILD_DIR)
 qpid-cpp:
   version: 0.16-9
-  issues:
-    - ftbfs_uninvestigated_big_packages
   bugs:
     - 828520
+    - 868963
 qpid-proton:
   version: 0.14.0-5
   comments: |

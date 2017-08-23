@@ -849,10 +849,6 @@ ftbfs_uninvestigated_unsatisfiable_dependencies:
     Packages which fail to satisfy dependencies.  Some of these (but probably not all that many)
     actually have ftbfs_due_to_virtual_dependencies.
   deterministic: True
-ftbfs_uninvestigated_big_packages:
-  description: |
-    Some large packages that seem to fail for compound reasons that haven't been fully understood. (These are usually temporary issues too.)
-  deterministic: True
 timestamps_in_documentation_generated_by_org_mode:
   description: |
     Org-mode adds timestamps (which also vary by TZ)
