@@ -3472,6 +3472,7 @@ csound:
     - captures_build_path
   bugs:
     - 865439
+    - 872860
 csound-manual:
   version: 1:6.09.0~dfsg-1
   bugs:
@@ -21704,6 +21705,8 @@ quickfix:
   version: 1.13.3+dfsg-9
   issues:
     - captures_shell_variable_in_autofoo_script
+  bugs:
+    - 849428
 quickroute-gps:
   version: 2.4-14
   issues:
@@ -25453,6 +25456,8 @@ sketch:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - captures_build_path
+  bugs:
+    - 872918
 skimage:
   version: 0.12.3-1
   issues:
@@ -28984,6 +28989,8 @@ xiphos:
   version: 4.0.4+dfsg1-1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 872916
 xjig:
   version: 2.4-14
   issues:
