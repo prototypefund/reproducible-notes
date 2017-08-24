@@ -28395,17 +28395,15 @@ webissues:
   issues:
     - gcc_captures_build_path
 webkit2gtk:
-  version: 2.14.6-1
-  comments: |
-    Lunar thinks we need parallel processing implemented in diffoscope before it can deal with such big packages. (At that time the artifacts dumped were 18GB, today (2017-01-15) they are only 2*2GB.)
+  version: 2.16.6-1
   issues:
-    - blacklisted_on_jenkins
+    - blacklisted_on_jenkins_armhf_only
 webkit2pdf:
   version: 0.3-3
   issues:
     - gcc_captures_build_path
 webkitgtk:
-  version: 2.4.9-3
+  version: 2.4.11-3
   issues:
     - diffoscope_runs_forever
     - blacklisted_on_jenkins_armhf_only
