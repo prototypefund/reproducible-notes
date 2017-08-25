@@ -21388,8 +21388,8 @@ qmtest:
     - gcc_captures_build_path
 qoauth:
   version: 2.0.1~1-1
-  comments: |
-    [experimental/amd64] In $(QMAKE_PRL_BUILD_DIR)
+  issues:
+    - captures_build_dir_in_qmake_prl_files
 qpid-cpp:
   version: 0.16-9
   bugs:
