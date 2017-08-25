@@ -11785,6 +11785,8 @@ kwin:
   version: 4:5.8.6-1
   issues:
     - build_id_differences_only
+  bugs:
+    - 873078
 kwindowsystem:
   version: 5.26.0-1
   issues:
@@ -20408,6 +20410,10 @@ pytest-mock:
   version: 1.3.0-1
   bugs:
     - 871127
+pytest-qt:
+  version: 2.1.2-2
+  bugs:
+    - 872992
 pytest-xdist:
   version: 1.15.0-3
   bugs:
@@ -27393,6 +27399,8 @@ tupi:
     Filesystem ordering caused by
       icons.commands = cp *.png $(INSTALL_ROOT)/themes/default/icons
     in src/themes/default/icons/icons.pro
+  bugs:
+    - 873023
 turnin-ng:
   version: 1.2-1
   issues:
@@ -27680,6 +27688,7 @@ unattended-upgrades:
   bugs:
     - 865897
     - 869088
+    - 873079
 unbound:
   version: 1.5.9-3
   issues:
