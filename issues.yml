@@ -1727,3 +1727,7 @@ nondeterministic_output_generated_by_gcab:
     gcab generates .cab files that vary due to encoding timezone
   url: https://bugs.debian.org/872460
   deterministic: True
+captures_build_dir_in_qmake_prl_files:
+  description: |
+    QMAKE_PRL_BUILD_DIR contains the absolute build path.
+  deterministic: True
