@@ -14897,14 +14897,6 @@ luminance-hdr:
   version: 2.4.0-8
   issues:
     - gcc_captures_build_path
-lush:
-  version: 1.2.1-9+cvs20110227+nmu1
-  issues:
-    - captures_shell_variable_in_autofoo_script
-    - captures_build_path
-    - captures_home_dir
-  bugs:
-    - 787651
 luxio:
   version: 9-1
   comments: |
@@ -15837,10 +15829,6 @@ mod-mono:
     - gcc_captures_build_path
 mod-proxy-msrpc:
   version: 0.6-1
-  issues:
-    - gcc_captures_build_path
-mod-spamhaus:
-  version: 0.7-1.1
   issues:
     - gcc_captures_build_path
 mod-vhost-ldap:
