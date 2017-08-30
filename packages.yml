@@ -10015,10 +10015,9 @@ ir.lv2:
     - captures_build_path_via_assert
     - max_output_size_reached
 ircd-irc2:
-  version: 2.11.2p3~dfsg-4
-  comments: |
-    Embed build time:
-    https://sources.debian.net/src/ircd-irc2/2.11.2p3~dfsg-4/ircd/version.c.SH.in/
+  version: 2.11.2p3~dfsg-5
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
 ircii:
   version: 20151120-1
   issues:
