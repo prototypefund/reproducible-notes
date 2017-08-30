@@ -684,14 +684,6 @@ apertium-es-it:
   version: 0.1.0~r51165-1
   issues:
     - captures_build_path
-apertium-hbs-mkd:
-  version: 0.1.0~r57554-1
-  bugs:
-    - 868608
-apertium-is-sv:
-  version: 0.1.0~r56030-1
-  bugs:
-    - 868597
 apertium-kaz:
   version: 0.1.0~r61338-1
   comments: |
@@ -3372,10 +3364,6 @@ cpufrequtils:
   version: 008-1
   issues:
     - gcc_captures_build_path
-cqrlog:
-  version: 2.0.5-2
-  bugs:
-    - 865777
 crac:
   version: 2.5.0+dfsg-1
   comments: |
@@ -4579,8 +4567,6 @@ doublecmd:
   version: 0.7.6-1
   issues:
     - build_id_differences_only
-  bugs:
-    - 868288
 dovecot:
   version: 1:2.2.25-1
   issues:
@@ -7341,10 +7327,6 @@ gdigi:
   version: 0.4.0-1
   issues:
     - gcc_captures_build_path
-gdmap:
-  version: 0.8.1-3
-  bugs:
-    - 869578
 gdome2:
   version: 0.8.1+debian-6
   issues:
@@ -8389,10 +8371,6 @@ golang-github-mxk-go-flowrate:
   version: 0.0~git20140419.0.cca7078-1
   bugs:
     - 842836
-golang-github-ngaut-go-zookeeper:
-  version: 0.0~git20150813.0.9c3719e-1
-  bugs:
-    - 865804
 golang-github-nicksnyder-go-i18n:
   version: 1.5.0-1
   issues:
@@ -8413,10 +8391,6 @@ golang-github-optiopay-kafka:
   version: 0.0~git20150921.0.bc8e095-1
   bugs:
     - 867775
-golang-github-pingcap-check:
-  version: 0.0~git20161122.0.9b26663-1
-  bugs:
-    - 869192
 golang-github-pointlander-peg:
   version: 0.0~git20160905.0.58700b5-1
   issues:
@@ -10052,8 +10026,6 @@ ircd-irc2:
   comments: |
     Embed build time:
     https://sources.debian.net/src/ircd-irc2/2.11.2p3~dfsg-4/ircd/version.c.SH.in/
-  bugs:
-    - 834956
 ircii:
   version: 20151120-1
   issues:
@@ -16892,7 +16864,6 @@ nipy:
     - leaks_path_environment_variable
     - captures_build_path
   bugs:
-    - 848745
     - 868916
 nipype:
   version: 0.10.0-2
@@ -17012,10 +16983,6 @@ node-temp:
   version: 0.8.1-1
   bugs:
     - 834915
-node-v8flags:
-  version: 2.0.11-1
-  bugs:
-    - 866065
 node-xterm:
   version: 2.7.0+ds1-1
   issues:
@@ -18766,8 +18733,6 @@ pecomato:
   version: 0.0.15-7
   issues:
     - pdf_created_by_ghostscript
-  bugs:
-    - 869637
 pegasus-wms:
   version: 4.4.0+dfsg-4
   issues:
@@ -20422,8 +20387,6 @@ python-biopython:
   issues:
     - pdf_id_varying_due_to_build_path
     - timestamps_in_tex_documents
-  bugs:
-    - 869597
 python-bleach:
   version: 1.4.2-1
   bugs:
@@ -24304,10 +24267,6 @@ ruby-ncurses:
   version: 1.4.9-1
   issues:
     - gcc_captures_build_path
-ruby-net-scp:
-  version: 1.2.1-4
-  bugs:
-    - 869164
 ruby-netcdf:
   version: 0.7.1.1-7
   issues:
@@ -26688,8 +26647,6 @@ teg:
   version: 0.11.2+debian-4
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 869580
 telegram-desktop:
   version: 1.0.14-1
   issues:
