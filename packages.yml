@@ -14038,6 +14038,10 @@ libtest-redisserver-perl:
   version: 0.20-1
   bugs:
     - 868945
+libtext-bibtex-perl:
+  version: 0.83-1
+  bugs:
+    - 873697
 libtext-charwidth-perl:
   version: 0.04-7
   issues:
@@ -20583,6 +20587,10 @@ python-gnatpython:
   version: 54-3
   issues:
     - gcc_captures_build_path
+python-greenlet:
+  version: 0.4.12-1
+  bugs:
+    - 873694
 python-gtkglext1:
   version: 1.1.0-9.1
   issues:
@@ -24100,6 +24108,10 @@ ruby-grib:
     - gcc_captures_build_path
   bugs:
     - 868930
+ruby-grpc:
+  version: 1.3.2+debian-3
+  bugs:
+    - 873440
 ruby-gruff:
   version: 0.6.0-1
   bugs:
@@ -27194,6 +27206,10 @@ tseries:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
+tslib:
+  version: 1.12-1
+  bugs:
+    - 873693
 tstools:
   version: 1.11-1
   issues:
