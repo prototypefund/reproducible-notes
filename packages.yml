@@ -7848,8 +7848,6 @@ gmusicbrowser:
   comments: |
     Script puts date into .pot during build in slightly different format than gettext (+XX:YY instead of +XXYY for timezone)
     https://sources.debian.net/src/gmusicbrowser/1.1.14%7Eds0-1/po/create_pot.pl/#L62
-  issues:
-    - different_pot_creation_date_in_gettext_mo_files
 gmysqlcc:
   version: 0.3.0-5
   issues:
