@@ -2990,10 +2990,6 @@ codequery:
   version: 0.18.1+dfsg1-1
   issues:
     - gcc_captures_build_path
-codesearch:
-  version: 0.0~hg20120502-2
-  issues:
-    - golang_compiler_captures_build_path_in_binary
 codetools:
   version: 0.2-14-2
   issues:
@@ -8101,10 +8097,6 @@ gnutls28:
     FTBFS because test suite fails when run in the future “Output: Not
     verified. The certificate is NOT trusted. The certificate chain uses expired
     certificate.”
-go-md2man:
-  version: 1.0.5-2
-  issues:
-    - golang_compiler_captures_build_path_in_binary
 go-mtpfs:
   version: 0.0~git20150802.0.3ef47f9-2
   issues:
@@ -8147,10 +8139,6 @@ golang-1.8:
     - golang_compiler_captures_build_path_in_binary
   bugs:
     - 863195
-golang-bindata:
-  version: 3.0.7-3
-  issues:
-    - golang_compiler_captures_build_path_in_binary
 golang-ginkgo:
   version: 1.2.0-3
   issues:
@@ -8177,18 +8165,10 @@ golang-github-armon-gomdb:
   version: 0.0~git20150106.0.151f2e0-1
   bugs:
     - 819638
-golang-github-benbjohnson-tmpl:
-  version: 0.0~git20160209.0.8e77bc5-1
-  issues:
-    - golang_compiler_captures_build_path_in_binary
 golang-github-boltdb-bolt:
   version: 1.2.1-1
   bugs:
     - 832834
-golang-github-calmh-xdr:
-  version: 2.0.0-1
-  issues:
-    - golang_compiler_captures_build_path_in_binary
 golang-github-cloudflare-cfssl:
   version: 1.2.0+git20160825.89.7fb22c8-1
   issues:
@@ -8249,18 +8229,10 @@ golang-github-eknkc-amber:
   version: 0.0~git20160421.0.91774f0-1
   issues:
     - golang_compiler_captures_build_path_in_binary
-golang-github-geertjohan-go.rice:
-  version: 0.0~git20160123.0.0f3f5fd-1
-  issues:
-    - golang_compiler_captures_build_path_in_binary
 golang-github-go-chef-chef:
   version: 0.0.1+git20161023.60.deb8c38-1
   bugs:
     - 848055
-golang-github-golang-mock:
-  version: 0.0~git20150821.0.06883d9-1
-  issues:
-    - golang_compiler_captures_build_path_in_binary
 golang-github-google-gofuzz:
   version: 0.0~git20150903.0.e4af62d-2
   bugs:
@@ -8279,10 +8251,6 @@ golang-github-grpc-ecosystem-grpc-gateway:
     - golang_compiler_captures_build_path_in_binary
   bugs:
     - 872528
-golang-github-gucumber-gucumber:
-  version: 0.0~git20160715.0.71608e2-1
-  issues:
-    - golang_compiler_captures_build_path_in_binary
 golang-github-hashicorp-raft-mdb:
   version: 0.0~git20150806.0.55f2947-1
   bugs:
@@ -8297,10 +8265,6 @@ golang-github-hashicorp-yamux:
     - ftbfs_uninvestigated_test_failures
   bugs:
     - 852964
-golang-github-hpcloud-tail:
-  version: 1.0.0+git20160415.b294095-3
-  issues:
-    - golang_compiler_captures_build_path_in_binary
 golang-github-jacobsa-ratelimit:
   version: 0.0~git20150723.0.2ca5e0c-1
   bugs:
@@ -8317,10 +8281,6 @@ golang-github-mesos-mesos-go:
   version: 0.0.2+dfsg-2
   bugs:
     - 858320
-golang-github-miekg-mmark:
-  version: 1.3.4+dfsg-1
-  issues:
-    - golang_compiler_captures_build_path_in_binary
 golang-github-minio-cli:
   version: 1.3.0+git20170313.0.8683fa7-1
   bugs:
@@ -8333,18 +8293,6 @@ golang-github-mxk-go-flowrate:
   version: 0.0~git20140419.0.cca7078-1
   bugs:
     - 842836
-golang-github-nicksnyder-go-i18n:
-  version: 1.5.0-1
-  issues:
-    - golang_compiler_captures_build_path_in_binary
-golang-github-odeke-em-cli-spinner:
-  version: 0.0~git20150423.610063b-2
-  issues:
-    - golang_compiler_captures_build_path_in_binary
-golang-github-odeke-em-ripper:
-  version: 0.0~git20150415.0.bd1a682-2
-  issues:
-    - golang_compiler_captures_build_path_in_binary
 golang-github-opencontainers-image-spec:
   version: 1.0.0~rc2+dfsg-1
   issues:
@@ -8353,10 +8301,6 @@ golang-github-optiopay-kafka:
   version: 0.0~git20150921.0.bc8e095-1
   bugs:
     - 867775
-golang-github-pointlander-peg:
-  version: 0.0~git20160905.0.58700b5-1
-  issues:
-    - golang_compiler_captures_build_path_in_binary
 golang-github-prometheus-client-golang:
   version: 0.8.0-1
   bugs:
@@ -8365,10 +8309,6 @@ golang-github-rackspace-gophercloud:
   version: 1.0.0+git20161013.1012.e00690e8-1
   bugs:
     - 860614
-golang-github-rakyll-statik:
-  version: 0.1.0-2
-  issues:
-    - golang_compiler_captures_build_path_in_binary
 golang-github-robfig-cron:
   version: 1-1
   bugs:
@@ -8393,10 +8333,6 @@ golang-github-tinylib-msgp:
     Looks like its due to random variable numbers in generated code but these are actually deterministic due to golangs implicit rand.Seed(1) - I believe its some kind of arbitrary dict ordering instead
   issues:
     - golang_compiler_captures_build_path_in_binary
-golang-github-vbatts-tar-split:
-  version: 0.9.13-1
-  issues:
-    - golang_compiler_captures_build_path_in_binary
 golang-github-xenolf-lego:
   version: 0.3.1-1
   issues:
@@ -8408,20 +8344,8 @@ golang-github-xordataexchange-crypt:
   version: 0.0.2+git20150523.17.749e360-4
   issues:
     - golang_compiler_captures_build_path_in_binary
-golang-github-yosssi-ace:
-  version: 0.0.4+git20160102.51.71afeb7-1
-  issues:
-    - golang_compiler_captures_build_path_in_binary
 golang-glide:
   version: 0.11.0-2
-  issues:
-    - golang_compiler_captures_build_path_in_binary
-golang-gogoprotobuf:
-  version: 0.2-5
-  issues:
-    - golang_compiler_captures_build_path_in_binary
-golang-golang-x-exp:
-  version: 0.0~git20150826.1.eb7c1fa-1
   issues:
     - golang_compiler_captures_build_path_in_binary
 golang-golang-x-tools:
@@ -8440,14 +8364,6 @@ golang-gopkg-ini.v1:
   version: 1.8.5-1
   comments: |
     https://sources.debian.net/src/golang-gopkg-ini.v1/1.8.5-1/struct_test.go/#L208
-golang-goprotobuf:
-  version: 0.0~git20160815.0.7390af9-1
-  issues:
-    - golang_compiler_captures_build_path_in_binary
-golang-petname:
-  version: 2.5~git20160928-1
-  issues:
-    - golang_compiler_captures_build_path_in_binary
 goldencheetah:
   version: 4.0.0~DEV1607-1
   issues:
@@ -8455,10 +8371,6 @@ goldencheetah:
   bugs:
     - 811867
     - 873444
-golint:
-  version: 0.0+git20150623.7b7f436-1
-  issues:
-    - golang_compiler_captures_build_path_in_binary
 goobox:
   version: 3.4.2-3
   issues:
@@ -8497,10 +8409,6 @@ gosu:
     - golang_compiler_captures_build_path_in_binary
 govendor:
   version: 1.0.3+ds1-1
-  issues:
-    - golang_compiler_captures_build_path_in_binary
-gox:
-  version: 0.3.0-1
   issues:
     - golang_compiler_captures_build_path_in_binary
 gp2c:
@@ -10468,10 +10376,6 @@ jhbuild:
   version: 3.4.0-1
   issues:
     - captures_build_path
-jid:
-  version: 0.6.2-1
-  issues:
-    - golang_compiler_captures_build_path_in_binary
 jigsaw-generator:
   version: 0.2.4-1
   issues:
@@ -18691,10 +18595,6 @@ pebl:
     - random_order_in_python_environment_pickle
     - randomness_in_documentation_generated_by_sphinx
     - captures_build_path
-peco:
-  version: 0.0~git20161005.0.d4f7705-1
-  issues:
-    - golang_compiler_captures_build_path_in_binary
 pecomato:
   version: 0.0.15-7
   issues:
