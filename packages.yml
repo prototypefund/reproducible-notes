@@ -670,8 +670,6 @@ apertium-eo-es:
   version: 1:0.9.1~r60655-1
   issues:
     - captures_build_path
-  bugs:
-    - 869582
 apertium-es-gl:
   version: 1.0.8~r57542-2
   issues:
@@ -1482,7 +1480,6 @@ bcftools:
     - 819617
     - 860682
     - 860704
-    - 865006
     - 868958
 bcron:
   version: 0.10-4
@@ -2393,7 +2390,6 @@ ccbuild:
 ccdproc:
   version: 1.2.0-1
   bugs:
-    - 868119
     - 868968
 ccfits:
   version: 2.4+dfsg-5
@@ -4677,29 +4673,21 @@ dune-common:
   issues:
     - timestamps_in_pdf_content
     - fonts_in_pdf_files
-  bugs:
-    - 867073
 dune-functions:
   version: 2.4~20160507g3dd041d-1
   issues:
     - records_build_flags
-  bugs:
-    - 867074
 dune-geometry:
   version: 2.5.0~rc2-1
   issues:
     - captures_build_path_via_assert
     - records_build_flags
-  bugs:
-    - 867075
 dune-grid:
   version: 2.5.0~rc2-1
   issues:
     - captures_build_path_via_assert
     - records_build_flags
     - max_output_size_reached
-  bugs:
-    - 867076
 dune-grid-glue:
   version: 2.5.0~20161206g666200e-2
   issues:
@@ -4709,27 +4697,19 @@ dune-istl:
   version: 2.4.1-1
   issues:
     - random_id_in_pdf_generated_by_dblatex
-  bugs:
-    - 867078
 dune-localfunctions:
   version: 2.4.0-1
   issues:
     - timestamps_in_tex_documents
     - fonts_in_pdf_files
-  bugs:
-    - 867079
 dune-pdelab:
   version: 2.4.1-1
   issues:
     - records_build_flags
-  bugs:
-    - 867080
 dune-typetree:
   version: 2.5.0~rc2-1
   issues:
     - records_build_flags
-  bugs:
-    - 867082
 dune-uggrid:
   version: 2.5.0~rc2-1
   issues:
@@ -6116,10 +6096,6 @@ flask-limiter:
     - python_versioneer_uses_parentdir
   bugs:
     - 852482
-flasm:
-  version: 1.62-7
-  bugs:
-    - 869595
 flatpak:
   version: 0.8.7-4
   bugs:
@@ -7694,7 +7670,6 @@ gli:
 glib2.0:
   version: 2.53.4-2
   bugs:
-    - 870212
     - 873625
 glibc:
   version: 2.24-7
@@ -15021,10 +14996,6 @@ mate-menus:
   version: 1.16.0-1
   issues:
     - translations_missing_in_desktop_files
-mate-panel:
-  version: 1.18.4-1
-  bugs:
-    - 870212
 mathgl:
   version: 2.3.4-1.1
   issues:
@@ -20541,10 +20512,6 @@ python-levenshtein:
   version: 0.12.0-2
   issues:
     - gcc_captures_build_path
-python-libnacl:
-  version: 1.5.2-1
-  bugs:
-    - 869241
 python-librtmp:
   version: 0.3.0-1
   issues:
@@ -23398,10 +23365,6 @@ resample:
   version: 1.8.1-1
   issues:
     - gcc_captures_build_path
-resiprocate:
-  version: 1:1.10.0~beta2-1
-  bugs:
-    - 797419
 rest2web:
   version: 0.5.2~alpha+svn-r248-2
   comments: |
@@ -25571,10 +25534,6 @@ spectacle:
   version: 0.25-1
   issues:
     - timestamps_in_python_code_generated_by_cheetah
-spectral-cube:
-  version: 0.4.0-2
-  bugs:
-    - 868114
 speech-tools:
   version: 1:2.1~release-8
   comments: |
@@ -27025,8 +26984,6 @@ translate-toolkit:
   version: 1.12.0+dfsg1-2
   issues:
     - randomness_in_documentation_generated_by_sphinx
-  bugs:
-    - 866551
 traverso:
   version: 0.49.4-2
   issues:
