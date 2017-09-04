@@ -2328,8 +2328,6 @@ casacore-data-igrf:
   version: 10-1
   issues:
     - timestamps_manually_added_needs_further_investigation
-  bugs:
-    - 869572
 casacore-data-lines:
   version: 0+git2016.11.26-1
   issues:
@@ -2870,8 +2868,6 @@ cloud-init:
     Fails to run tests with pbuilder.
   issues:
     - ftbfs_in_jenkins_setup
-  bugs:
-    - 865577
 cloud-sptheme:
   version: 1.8.0-1
   bugs:
@@ -8299,8 +8295,6 @@ golang-github-spf13-cobra:
   version: 0.0~git20160607.0.1238ba1-1
   issues:
     - golang_compiler_captures_build_path_in_binary
-  bugs:
-    - 869304
 golang-github-tinylib-msgp:
   version: 1.0~beta-1
   comments: |
@@ -8354,8 +8348,6 @@ google-cloud-print-connector:
   issues:
     - captures_build_path
     - too_much_input_for_diff
-  bugs:
-    - 839293
 google-perftools:
   version: 2.5-2.2
   bugs:
@@ -8372,10 +8364,6 @@ gorm.app:
   version: 1.2.20-2
   issues:
     - random_id_in_pdf_generated_by_dblatex
-gosmore:
-  version: 0.0.0.svn30327-1
-  bugs:
-    - 853430
 gosu:
   version: 1.6-1
   issues:
@@ -13508,8 +13496,6 @@ libpodofo:
   version: 0.9.4-5
   issues:
     - build_id_differences_only
-  bugs:
-    - 868911
 libpoe-component-client-mpd-perl:
   version: 2.001-1
   bugs:
@@ -13899,10 +13885,6 @@ libterm-readline-zoid-perl:
   version: 0.07-2.1
   issues:
     - absolute_build_paths_in_dot_packlist_file_generated_by_perl_extutils_packlist
-libterralib:
-  version: 4.3.0+dfsg.2-8
-  bugs:
-    - 831903
 libtest-redisserver-perl:
   version: 0.20-1
   bugs:
@@ -15467,10 +15449,6 @@ mknfonts.tool:
   version: 0.5-11
   issues:
     - gcc_captures_build_path
-mkvtoolnix:
-  version: 14.0.0-1
-  bugs:
-    - 853553
 mldemos:
   version: 0.5.1-3
   bugs:
@@ -16697,8 +16675,6 @@ nikwi:
     https://sources.debian.net/src/nikwi/0.0.20120213-3/src/tools/upack/upack.c/#L180
   issues:
     - too_much_input_for_diff
-  bugs:
-    - 835625
 nipy:
   version: 0.3.0+git262-gbb838d7-1
   issues:
@@ -18241,8 +18217,6 @@ pajeng:
   version: 1.3.1-3
   issues:
     - captures_build_path
-  bugs:
-    - 870213
 pakcs:
   version: 1.14.1-2
   issues:
@@ -19203,10 +19177,6 @@ polspline:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
-polygen:
-  version: 1.0.6.ds2-15
-  bugs:
-    - 860384
 polylib:
   version: 5.22.5-3+dfsg
   issues:
@@ -19944,10 +19914,6 @@ pyinfra:
   version: 0.2-3
   bugs:
     - 846763
-pyjunitxml:
-  version: 0.6-1.1
-  bugs:
-    - 802124
 pykaraoke:
   version: 0.7.5-1.1
   issues:
@@ -24053,10 +24019,6 @@ ruby-libxml:
   version: 2.9.0-2
   issues:
     - gcc_captures_build_path
-ruby-license-finder:
-  version: 2.1.2-1
-  bugs:
-    - 867653
 ruby-mecab:
   version: 0.99.6-2
   issues:
@@ -24171,10 +24133,6 @@ ruby-protected-attributes:
   version: 1.1.3-2
   bugs:
     - 861459
-ruby-psych:
-  version: 2.2.4-2
-  bugs:
-    - 870043
 ruby-puppet-forge:
   version: 2.2.7-1
   bugs:
@@ -24299,10 +24257,6 @@ ruby-tokyocabinet:
   version: 1.31-5
   issues:
     - gcc_captures_build_path
-ruby-truncato:
-  version: 0.7.8-1
-  bugs:
-    - 869063
 ruby-turbolinks:
   version: 2.5.3-3
   bugs:
@@ -28085,10 +28039,6 @@ wbxml2:
   version: 0.10.7-1
   issues:
     - gcc_captures_build_path
-wcsaxes:
-  version: 0.9-1
-  bugs:
-    - 867906
 wcslib:
   version: 4.24-1
   issues:
