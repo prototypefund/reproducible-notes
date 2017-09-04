@@ -13625,6 +13625,7 @@ libreoffice:
     It usually can't be built inside the 12h timeout we currently have.
     Partially blacklisted to save resources in the meantime on armhf.
   issues:
+    - ftbfs_in_jenkins_setup
     - blacklisted_on_jenkins_armhf_only
 librep:
   version: 0.90.2-1.4
