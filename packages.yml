@@ -6442,13 +6442,6 @@ forge:
   version: 0.9.0-1
   issues:
     - captures_build_path
-forked-daapd:
-  version: 24.2-1
-  comments: |
-    Captures build date:
-    https://sources.debian.net/src/forked-daapd/24.2-1/configure.ac/#L7 AC_DEFINE_UNQUOTED([BUILDDATE], ["`date -Idate`"], [Build date])
-    .
-    Needs to use TZ=UTC and $SOURCE_DATE_EPOCH.
 form:
   version: 4.1-1
   issues:
@@ -14922,10 +14915,6 @@ mate-menus:
   version: 1.16.0-1
   issues:
     - translations_missing_in_desktop_files
-mathgl:
-  version: 2.3.4-1.1
-  issues:
-    - build_id_differences_only
 mathic:
   version: 1.0~git20160320-4
   bugs:
@@ -16436,10 +16425,6 @@ nettle:
   version: 3.3-1
   issues:
     - captures_build_path
-netty:
-  version: 1:4.0.34-1
-  comments: |
-    Timestamps in io.netty.versions.properties files.
 netty-3.9:
   version: 3.9.9.Final-1
   issues:
