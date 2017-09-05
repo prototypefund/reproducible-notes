@@ -17516,6 +17516,10 @@ opari2:
   version: 1.0.7+dfsg-5
   issues:
     - captures_build_path
+open-adventure:
+  version: 1.4-1
+  bugs:
+    - 874205
 open-axiom:
   version: 1.5.0~svn3056+ds-1
   bugs:
@@ -21143,6 +21147,10 @@ qterm:
     2) CreationTime is recorded.
     .
     Searching found nothing; I suppose this is a qt thing.
+qtermwidget:
+  version: 0.7.1-4
+  bugs:
+    - 874187
 qtexengine:
   version: 0.3-3
   issues:
@@ -25944,6 +25952,10 @@ svgpart:
   version: 4:16.08.0-1
   issues:
     - gcc_captures_build_path
+svgpp:
+  version: 1.2.3+dfsg1-2
+  bugs:
+    - 874186
 svgsalamander:
   version: 1.1.1+dfsg-1
   issues:
@@ -27479,6 +27491,8 @@ utopia-documents:
   version: 2.4.4-2
   issues:
     - timestamps_in_zip
+  bugs:
+    - 873152
 uuidm:
   version: 0.9.5-1
   issues:
