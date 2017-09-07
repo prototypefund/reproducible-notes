@@ -5062,8 +5062,6 @@ elixir-lang:
     - 871120
 elkcode:
   version: 2.3.22-1
-  issues:
-    - timestamps_in_pdf_generated_by_latex
   bugs:
     - 824653
 elki:
@@ -5888,9 +5886,6 @@ fftw:
     - 800653
 fftw3:
   version: 3.3.4-2
-  issues:
-    - different_encoding
-    - captures_build_path
   bugs:
     - 796324
 fgarch:
@@ -6129,7 +6124,6 @@ flowscan:
 fltk1.3:
   version: 1.3.2-6
   issues:
-    - timestamps_in_pdf_generated_by_latex
     - records_build_flags
 fluidsynth:
   version: 1.1.6-4
@@ -16540,10 +16534,6 @@ nibabel:
   version: 2.0.1-1
   issues:
     - timestamps_in_pdf_generated_by_matplotlib
-nickle:
-  version: 2.77-1
-  issues:
-    - timestamps_in_pdf_generated_by_latex
 nifti2dicom:
   version: 0.4.11-1
   bugs:
@@ -25468,10 +25458,6 @@ splint:
   version: 3.1.2.dfsg1-3
   comments: |
     Username/hostname/kernel version captured in LCL_COMPILE in configure(.ac) and configure.binary(.ac).
-  issues:
-    - captures_kernel_version
-    - user_hostname_manually_added_requiring_further_investigation
-    - captures_build_path
 spooles:
   version: 2.2-11
   comments: |
