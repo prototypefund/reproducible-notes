@@ -17469,11 +17469,6 @@ openafs:
   version: 1.6.10-4
   comments: |
     openafs-modules-source package contains a tarball with differing timestamps.
-  issues:
-    - timestamps_in_pdf_generated_by_latex
-    - timestamps_in_documentation_generated_by_doxygen
-    - timezones_manpages_podman
-    - timestamps_in_tarball
 openal-soft:
   version: 1:1.17.2-1
   issues:
@@ -19769,7 +19764,6 @@ pygtk:
 pygtkmvc:
   version: 1.99.1-1
   issues:
-    - timestamps_in_pdf_generated_by_latex
     - random_id_in_pdf_generated_by_dblatex
 pygtksourceview:
   version: 2.10.1-2
