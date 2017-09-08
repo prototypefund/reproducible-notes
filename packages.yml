@@ -1486,10 +1486,6 @@ beav:
     - timestamps_in_gzip_headers
   bugs:
     - 777287
-behave:
-  version: 1.2.5-1
-  bugs:
-    - 870586
 beignet:
   version: 1.1.2-3
   comments: |
@@ -3400,7 +3396,6 @@ csound:
   issues:
     - captures_build_path
   bugs:
-    - 865439
     - 872860
 csound-manual:
   version: 1:6.09.0~dfsg-1
@@ -3726,8 +3721,6 @@ dask:
   version: 0.12.0-1
   issues:
     - python_versioneer_uses_parentdir
-  bugs:
-    - 861567
 date:
   version: 1.2.34-2
   issues:
@@ -4289,7 +4282,6 @@ django-session-security:
 django-tables:
   version: 1.2.0-1
   bugs:
-    - 855829
     - 865814
 djangocms-admin-style:
   version: 1.2.2+dfsg-1
@@ -5134,8 +5126,6 @@ enblend-enfuse:
     - pdf_created_by_ghostscript
     - fonts_in_pdf_files
     - records_build_flags
-  bugs:
-    - 853389
 encfs:
   version: 1.8.1-3
   issues:
@@ -8852,10 +8842,6 @@ gwc:
   bugs:
     - 868858
     - 868904
-gwcs:
-  version: 0.7-1
-  bugs:
-    - 868115
 gwenview:
   version: 4:16.08.2-1
   issues:
@@ -9298,8 +9284,6 @@ hugin:
   version: 2016.2.0~rc1+dfsg-2
   issues:
     - build_id_differences_only
-  bugs:
-    - 853447
 hugo:
   version: 0.15+git20160109.147.dd1d655-1
   issues:
@@ -25293,10 +25277,6 @@ soqt:
   version: 1.6.0~e8310f-3
   issues:
     - records_build_flags
-sorl-thumbnail:
-  version: 12.3+git20160928-2
-  bugs:
-    - 865891
 sortmail:
   version: 1:2.4-1
   issues:
@@ -27234,7 +27214,6 @@ unattended-upgrades:
   version: 0.93.1+nmu1
   bugs:
     - 865897
-    - 869088
     - 873079
 unbound:
   version: 1.5.9-3
