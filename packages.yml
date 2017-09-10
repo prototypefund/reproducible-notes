@@ -6594,9 +6594,6 @@ fritzing-parts:
     - 855426
 frobby:
   version: 0.9.0-2
-  issues:
-    - timestamps_in_pdf_content
-    - timestamps_in_ps_generated_by_dvips
   bugs:
     - 872020
 frown:
@@ -28460,8 +28457,6 @@ xmlformat:
     - timestamps_in_pdf_generated_by_apache_fop
 xmlrpc-c:
   version: 1.33.14-3
-  issues:
-    - captures_build_path
   bugs:
     - 853596
     - 860279
@@ -29034,8 +29029,6 @@ zsh:
     Blocked by: #778462
     .
     bin_sh_is_bash causes the config.h delta; see discussion on pkg-zsh-devel@ on 2016-12-20.
-  issues:
-    - timestamps_in_pdf_generated_by_latex
   bugs:
     - 779566
 zsh-syntax-highlighting:
