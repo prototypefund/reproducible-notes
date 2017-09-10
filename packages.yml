@@ -1723,8 +1723,6 @@ bladerf:
   version: 0.2016.06-1
   issues:
     - build_id_differences_only
-  bugs:
-    - 869889
 blasr:
   version: 5.3-2
   issues:
@@ -1876,10 +1874,6 @@ bootchart2:
   version: 0.14.4-3
   issues:
     - gcc_captures_build_path
-booth:
-  version: 1.0-1
-  bugs:
-    - 853337
 bootp:
   version: 2.4.3-18
   issues:
@@ -2622,10 +2616,6 @@ chemeq:
   version: 2.12-1
   issues:
     - captures_build_path
-chemical-mime-data:
-  version: 0.1.94-6
-  bugs:
-    - 869884
 chemical-structures:
   version: 2.2.dfsg.0-12
   issues:
@@ -5081,9 +5071,7 @@ emacs24:
   issues:
     - timestamps_in_emacs_autoloads
   bugs:
-    - 787424
     - 824049
-    - 824050
 emacs25:
   version: 25.1+1-1
   issues:
@@ -6557,8 +6545,6 @@ freelan:
   version: 2.0-2
   comments: |
     Part of the patch is https://gist.github.com/lamby/ecf8a75b06aab0b91b519b6157422288/raw but does not fix everything
-  bugs:
-    - 853406
 freeorion:
   version: 0.4.6-4
   issues:
@@ -6654,8 +6640,6 @@ fspy:
   comments: |
     Embeds the build time.
     https://sources.debian.net/src/fspy/0.1.1-1/Makefile/#L4
-  bugs:
-    - 831354
 fstrcmp:
   version: 0.7.D001-1.1
   issues:
@@ -7636,10 +7620,6 @@ globus-common:
   version: 16.4-1
   issues:
     - captures_build_path
-globus-gram-job-manager:
-  version: 14.36-2
-  bugs:
-    - 870345
 globus-gram-job-manager-condor:
   version: 2.6-1
   comments: |
@@ -7951,10 +7931,6 @@ gnuradio:
   version: 3.7.10.1-2
   bugs:
     - 862133
-gnurobbo:
-  version: 0.68+dfsg-2
-  bugs:
-    - 853427
 gnustep-back:
   version: 0.25.0-2
   issues:
@@ -8865,10 +8841,6 @@ h323plus:
   version: 1.24.0~dfsg2-1.2
   issues:
     - captures_build_path
-hachu:
-  version: 0.21-7-g1c1f14a-1
-  bugs:
-    - 853439
 hackrf:
   version: 2015.07.2-11
   issues:
@@ -10332,10 +10304,6 @@ jquery-tablesorter:
   version: 1:2.28.15+dfsg1-1
   issues:
     - timestamps_in_javascript_generated_by_node_grunt_banner
-jqueryui:
-  version: 1.12.1+dfsg-2
-  bugs:
-    - 847039
 jreen:
   version: 1.2.0-2
   issues:
@@ -12960,10 +12928,6 @@ liblayout:
   version: 0.2.10-2
   issues:
     - timestamps_in_gjdoc_properties_files
-libldm:
-  version: 0.2.3-4
-  bugs:
-    - 853496
 liblemon:
   version: 1.3.1+dfsg-1
   issues:
@@ -17455,8 +17419,6 @@ open-build-service:
       src/api/Makefile:17:  $(INSTALL) -m 0755 -d $(DESTDIR)$(OBS_API_PREFIX)/db/sphinx{,/production}
   issues:
     - bin_sh_is_bash
-  bugs:
-    - 869051
 open-gram:
   version: 0.1.22+20170109-1
   issues:
@@ -19019,7 +18981,6 @@ pocl:
     - captures_build_path
   bugs:
     - 764563
-    - 853620
 poco:
   version: 1.3.6p1-5.1
   issues:
@@ -19977,10 +19938,6 @@ pytest-qt:
   version: 2.1.2-2
   bugs:
     - 872992
-pytest-xdist:
-  version: 1.15.0-3
-  bugs:
-    - 867516
 pythia8:
   version: 8.1.86-1.1
   issues:
@@ -20016,10 +19973,6 @@ python-astropy:
     - 872006
     - 872008
     - 872010
-python-astropy-helpers:
-  version: 2.0-1
-  bugs:
-    - 867772
 python-asyncssh:
   version: 1.2.0-1
   issues:
@@ -20192,10 +20145,6 @@ python-docutils:
     Caused by dynamic locale selection being written into the manpage at build time.
   issues:
     - captures_build_path
-python-drizzle:
-  version: 1.5-2
-  bugs:
-    - 867772
 python-dtcwt:
   version: 0.10.1+dfsg1-2
   issues:
@@ -20866,7 +20815,6 @@ qemu-launcher:
     - timestamps_in_gzip_headers
   bugs:
     - 777443
-    - 817305
 qevercloud:
   version: 3.0.3+ds-1
   issues:
@@ -22916,10 +22864,6 @@ r-zoo:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
-rabbit:
-  version: 2.1.9-2
-  bugs:
-    - 868774
 rabbitmq-server:
   version: 3.4.2-2
   issues:
@@ -22995,8 +22939,6 @@ rbdoom3bfg:
   version: 1.0.3+repack1+git20151124-2
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 853638
 rbootd:
   version: 2.0-10
   issues:
@@ -25231,10 +25173,6 @@ sogo:
   issues:
     - records_build_flags
     - max_output_size_reached
-solarpowerlog:
-  version: 0.24-6
-  bugs:
-    - 853665
 solfege:
   version: 3.22.2-2
   issues:
