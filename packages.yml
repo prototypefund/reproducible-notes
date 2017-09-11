@@ -12863,10 +12863,6 @@ libkolab:
   version: 1.0.2-3
   issues:
     - gcc_captures_build_path
-libkpeople:
-  version: 0.3.0-2
-  issues:
-    - captures_build_path
 libkqueue:
   version: 2.0.3-1.1
   bugs:
@@ -19661,7 +19657,6 @@ pygccjit:
   version: 0.4-3
   issues:
     - randomness_in_objects_inv
-    - captures_build_path
 pygccxml:
   version: 1.7.4-3
   comments: |
@@ -25723,10 +25718,6 @@ surefire:
     SmartStakTraceParser.java contains unicode characters. This should work in Java source I think so not sure what is the problem. See, for example https://stackoverflow.com/questions/11226878/why-do-i-need-to-escape-unicode-in-java-source-files
   bugs:
     - 871112
-surf-alggeo:
-  version: 1.0.6+ds-2
-  issues:
-    - timestamps_in_pdf_generated_by_latex
 survex:
   version: 1.2.30-1
   issues:
@@ -28701,8 +28692,6 @@ yabar:
     - 853713
 yabause:
   version: 0.9.14-1
-  issues:
-    - captures_build_path
   bugs:
     - 870304
 yacas:
