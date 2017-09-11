@@ -23050,13 +23050,6 @@ ring:
     - captures_build_path
   bugs:
     - 853642
-rinputd:
-  version: 1.0.5-2
-  comments: |
-    Not honouring dpkg-buildflags (objects not compiled with -fdebug-prefix-map).
-    But also using cmake, which is building with absolute paths.
-  issues:
-    - build_id_differences_only
 ripmime:
   version: 1.4.0.10.debian.1-1
   comments: |
