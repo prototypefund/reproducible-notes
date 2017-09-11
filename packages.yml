@@ -5130,11 +5130,6 @@ ergo:
   version: 3.5-1
   issues:
     - captures_build_path
-eric:
-  version: 6.1.8-1
-  comments: |
-    [disorderfs required, so not amd64] readdir() dependency via python3 glob.glob() in install.py:createConfig(),
-    affects 'apis' key in eric6config.py.
 eris:
   version: 1.3.23-5
   bugs:
