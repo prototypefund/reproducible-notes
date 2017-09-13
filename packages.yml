@@ -13599,7 +13599,6 @@ libtemplates-parser:
   comments: |
     I think this is readdir ordering caused by --subdir argument passed to gprbuild, but can't see where that's actually utilised in gprbuild package.
   issues:
-    - captures_build_path
     - records_build_flags
 libterm-filter-perl:
   version: 0.03-1
@@ -14663,7 +14662,6 @@ masscan:
 massxpert:
   version: 3.4.1-1
   issues:
-    - timestamps_in_pdf_generated_by_latex
     - build_id_differences_only
 matchit:
   version: 2.4-21-1
@@ -16462,10 +16460,6 @@ node-starttls:
   version: 1.0.1-1
   bugs:
     - 819715
-node-tap-parser:
-  version: 3.0.3-1
-  issues:
-    - captures_build_path
 node-temp:
   version: 0.8.1-1
   bugs:
