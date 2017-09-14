@@ -11482,13 +11482,13 @@ lcmaps-plugins-voms:
     - 868741
 lcms2:
   version: 2.8.4
-  bugs:
-    - 814883
-    - 815252
   comments: |
     #814883 makes src:colord unreproducible, see #815252
     #814883 is marked wontfix because of upstream issue
     https://github.com/mm2/Little-CMS/issues/71
+  bugs:
+    - 814883
+    - 815252
 lcov:
   version: 1.12-2
   issues:
