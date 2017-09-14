@@ -8124,6 +8124,10 @@ goldencheetah:
   bugs:
     - 811867
     - 873444
+goldendict:
+  version: 1.5.0~git20160508.g92b5485-3
+  comments: |
+    Seems to embed the build date, but can't quite find it. Suspicious about PROGRAM_VERSION but it looks like it is generated sanely into version.txt between the two builds...
 goobox:
   version: 3.4.2-3
   issues:
