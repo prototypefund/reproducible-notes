@@ -4363,6 +4363,11 @@ dom4j:
   version: 1.6.1+dfsg.3-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
+doomsday:
+  version: 1.15.8-5
+  comments: |
+    Metadata in created archives (.pack) vary by timezone.
+    https://sources.debian.net/src/doomsday/1.15.8-5/doomsday/build/scripts/buildpackage.py/#L61
 doscan:
   version: 0.3.3-1
   bugs:
@@ -5732,6 +5737,11 @@ ffdiaporama:
   version: 1.5-5
   issues:
     - captures_build_path
+ffindex:
+  version: 0.9.9.7-4
+  comments: |
+    manpage generated with help2man is broken and contains error messages with
+    hostname and pid.
 fflas-ffpack:
   version: 2.2.1-2
   issues:
@@ -7908,6 +7918,10 @@ golang-git2go:
   version: 0.0~git20150731.0.ed62fda-1
   bugs:
     - 799454
+golang-github-appc-cni:
+  version: 0.3.0+dfsg-1
+  issues:
+    - different_due_to_umask
 golang-github-appc-docker2aci:
   version: 0.9.2-2
   issues:
@@ -7944,6 +7958,10 @@ golang-github-coreos-go-tspi:
   version: 0.1.1-1
   bugs:
     - 849665
+golang-github-coreos-pkg:
+  version: 3-1
+  issues:
+    - different_due_to_umask
 golang-github-couchbase-moss:
   version: 0.0~git20170713.0.8ea508f-1
   bugs:
@@ -8078,6 +8096,10 @@ golang-github-smartystreets-go-aws-auth:
     - 865800
 golang-github-spf13-cobra:
   version: 0.0~git20160607.0.1238ba1-1
+  issues:
+    - golang_compiler_captures_build_path_in_binary
+golang-github-tdewolff-minify:
+  version: 2.1.0+git20170802.25.b6ab3cd-1
   issues:
     - golang_compiler_captures_build_path_in_binary
 golang-github-tinylib-msgp:
@@ -22167,6 +22189,10 @@ r-cran-qtl:
   version: 1.39-5-2
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-quantmod:
+  version: 0.4-10-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-quantreg:
   version: 5.26-1
   issues:
@@ -26559,6 +26585,10 @@ tupi:
     in src/themes/default/icons/icons.pro
   bugs:
     - 873023
+turnin-ng:
+  version: 1.3-1
+  issues:
+    - pdf_id_varying_due_to_build_path
 turnserver:
   version: 0.7.3-5
   issues:
@@ -27653,6 +27683,10 @@ winff:
     PDF files are converted with libreoffice from odt files.
   issues:
     - fonts_in_pdf_files
+wings3d:
+  version: 2.1.5-2
+  issues:
+    - captures_build_path_in_beam_files
 winpdb:
   version: 1.4.8-3
   issues:
