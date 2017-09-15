@@ -298,11 +298,8 @@ aiocoap:
     - 855091
 aircrack-ng:
   version: 1:1.2.0~rc4-2
-  comments: |
-    Build path captured via debug symbobls of a .S (assembly source) file.
   issues:
-    - captures_build_path
-    - max_output_size_reached
+    - build_path_captured_in_assembly_objects
 airspy-host:
   version: 0.9-1
   issues:
@@ -12641,6 +12638,10 @@ libjogl2-java:
   version: 2.3.2+dfsg-5
   issues:
     - random_order_in_documentation_generated_by_javadoc
+libjpeg-turbo:
+  version: 1:1.5.2-2
+  issues:
+    - build_path_captured_in_assembly_objects
 libjpeg6b:
   version: 1:6b2-2
   issues:
@@ -15782,7 +15783,7 @@ music:
 musl:
   version: 1.1.16-3
   issues:
-    - captures_build_path
+    - build_path_captured_in_assembly_objects
 mutrace:
   version: 0.2.0-3
   issues:

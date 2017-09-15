@@ -1731,3 +1731,7 @@ captures_build_dir_in_qmake_prl_files:
   description: |
     QMAKE_PRL_BUILD_DIR contains the absolute build path.
   deterministic: True
+build_path_captured_in_assembly_objects:
+  description: |
+    GNU as doesn't support BUILD_PATH_PREFIX_MAP, so objects compiled from
+    assembly sources capture the build path.
