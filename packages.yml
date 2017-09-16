@@ -4080,7 +4080,7 @@ dict-moby-thesaurus:
 dietlibc:
   version: 0.34~cvs20160606-6
   issues:
-    - captures_build_path
+    - build_path_captured_in_assembly_objects
 diffstat:
   version: 1.61-1
   issues:
@@ -7558,9 +7558,9 @@ gmodels:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
 gmp:
-  version: 2:6.1.1+dfsg-1
+  version: 2:6.1.2+dfsg-1
   issues:
-    - records_build_flags
+    - build_path_captured_in_assembly_objects
 gmp-ecm:
   version: 7.0.4+ds-1
   issues:
@@ -7846,11 +7846,9 @@ gnustep-make:
     - timestamp_in_info_file_created_by_makeinfo
     - fonts_in_pdf_files
 gnutls28:
-  version: 3.4.8-2
-  comments: |
-    FTBFS because test suite fails when run in the future “Output: Not
-    verified. The certificate is NOT trusted. The certificate chain uses expired
-    certificate.”
+  version: 3.5.15-2
+  issues:
+    - build_path_captured_in_assembly_objects
 go-mtpfs:
   version: 0.0~git20150802.0.3ef47f9-2
   issues:
@@ -13499,7 +13497,7 @@ libsndfile:
 libsodium:
   version: 1.0.11-2
   issues:
-    - captures_build_path
+    - build_path_captured_in_assembly_objects
 libsolv:
   version: 0.6.24-1
   issues:
@@ -13683,7 +13681,7 @@ libuninum:
 libunwind:
   version: 1.1-4.1
   issues:
-    - captures_build_path
+    - build_path_captured_in_assembly_objects
 liburcu:
   version: 0.9.1-3
   issues:
@@ -14899,9 +14897,10 @@ merkleeyes:
   issues:
     - golang_compiler_captures_build_path_in_binary
 mesa:
-  version: 12.0.3-1
+  version: 13.0.6-1
   issues:
     - too_much_input_for_diff
+    - build_path_captured_in_assembly_objects
 metapixel:
   version: 1.0.2-7.4
   issues:
@@ -15554,7 +15553,7 @@ mpfr4:
 mpg123:
   version: 1.23.8-1
   issues:
-    - captures_build_path
+    - build_path_captured_in_assembly_objects
 mpg321:
   version: 0.3.2-1.1
   issues:
@@ -17526,7 +17525,11 @@ opensp:
 openssl:
   version: 1.1.0e-2
   issues:
-    - captures_build_path
+    - build_path_captured_in_assembly_objects
+openssl1.0:
+  version: 1.0.2l-2
+  issues:
+    - build_path_captured_in_assembly_objects
 opensurgsim:
   version: 0.7.0-5
   issues:
@@ -27017,7 +27020,7 @@ valadoc:
 valgrind:
   version: 1:3.12.0~svn20160714-1
   issues:
-    - captures_build_path
+    - build_path_captured_in_assembly_objects
 varconf:
   version: 1.0.1-3
   bugs:
@@ -27463,7 +27466,7 @@ wavemon:
 wavpack:
   version: 5.0.0-2
   issues:
-    - captures_build_path
+    - build_path_captured_in_assembly_objects
 wayland:
   version: 1.9.0-1
   issues:
