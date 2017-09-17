@@ -6058,9 +6058,6 @@ fonts-dejavu:
     - fontforge_resets_modification_time
 fonts-dustin:
   version: 20030517-10
-  issues:
-    - timestamps_difference_by_unzip
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 815723
 fonts-ebgaramond:
