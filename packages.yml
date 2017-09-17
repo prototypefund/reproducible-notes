@@ -3229,14 +3229,6 @@ cpufrequtils:
   version: 008-1
   issues:
     - gcc_captures_build_path
-crac:
-  version: 2.5.0+dfsg-1
-  comments: |
-    Captures build date: https://sources.debian.net/src/crac/2.5.0%2Bdfsg-1/configure.ac/#L161
-      configure.ac:161:ISODATE=`date +%Y-%m-%d`
-      configure.ac:161:AC_SUBST([ISODATE])
-    .
-    Needs to use TZ=UTC and $SOURCE_DATE_EPOCH.
 crack:
   version: 5.0a-9.3
   comments: |
@@ -11258,11 +11250,6 @@ kxl:
   version: 1.1.7-16.1
   issues:
     - gcc_captures_build_path
-kxmlgui:
-  version: 5.11.0-1
-  comments: |
-    Embeds the kernel version.
-    https://sources.debian.net/src/kxmlgui/5.11.0-1/src/config-xmlgui.h.cmake/#L2
 kxmlrpcclient:
   version: 5.28.0-1
   issues:
