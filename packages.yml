@@ -339,8 +339,6 @@ alljoyn-core-1504:
     https://sources.debian.net/src/alljoyn-core-1504/15.04b-7/build_core/tools/scons/genversion.py/?hl=127#L127
   issues:
     - user_hostname_manually_added_requiring_further_investigation
-  bugs:
-    - 853304
 alljoyn-core-1509:
   version: 15.09a-3
   comments: |
@@ -780,10 +778,6 @@ apt-dpkg-ref:
     - timestamps_in_ps_generated_by_dvips
     - timestamps_in_dvi_generated_by_latex
     - random_id_in_pdf_generated_by_dblatex
-apt-listdifferences:
-  version: 1.20161219
-  bugs:
-    - 868610
 aptitude:
   version: 0.8.8-1
   bugs:
@@ -971,10 +965,6 @@ aspectj:
   version: 1.8.5-1
   issues:
     - captures_build_path
-aspectj-maven-plugin:
-  version: 1.7-1
-  bugs:
-    - 871354
 aspell:
   version: 0.60.7~20110707-3
   bugs:
@@ -3247,8 +3237,6 @@ crac:
       configure.ac:161:AC_SUBST([ISODATE])
     .
     Needs to use TZ=UTC and $SOURCE_DATE_EPOCH.
-  bugs:
-    - 859300
 crack:
   version: 5.0a-9.3
   comments: |
@@ -7300,10 +7288,6 @@ ghc-testsuite:
     Contains testsuite output by design that has non-deterministic ordering (parallelism?)
   issues:
     - captures_build_path
-giac:
-  version: 1.2.3.25+dfsg1-3
-  bugs:
-    - 855078
 giada:
   version: 0.14.1~dfsg1-1
   bugs:
@@ -11282,8 +11266,6 @@ kxmlgui:
   comments: |
     Embeds the kernel version.
     https://sources.debian.net/src/kxmlgui/5.11.0-1/src/config-xmlgui.h.cmake/#L2
-  bugs:
-    - 835053
 kxmlrpcclient:
   version: 5.28.0-1
   issues:
@@ -14641,10 +14623,6 @@ mate-menus:
   version: 1.16.0-1
   issues:
     - translations_missing_in_desktop_files
-mathic:
-  version: 1.0~git20160320-4
-  bugs:
-    - 853540
 mathjax-docs:
   version: 2.5+20150518-1
   issues:
@@ -16446,8 +16424,6 @@ nomacs:
   version: 3.0.0+dfsg2-1
   issues:
     - build_id_differences_only
-  bugs:
-    - 871180
 nomad:
   version: 0.4.0+dfsg-1
   issues:
@@ -19673,10 +19649,6 @@ pysdl2:
   version: 0.9.3+dfsg2-1
   bugs:
     - 792197
-pyside:
-  version: 1.2.2+source1-1
-  bugs:
-    - 867485
 pyside-tools:
   version: 0.2.15-1
   issues:
@@ -20491,10 +20463,6 @@ pythondialog:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - randomness_in_documentation_indices_generated_by_sphinx
-pythonmagick:
-  version: 0.9.14-3
-  bugs:
-    - 866694
 pythonqt:
   version: 3.0-2
   issues:
@@ -20592,8 +20560,6 @@ qemu-launcher:
   version: 1.7.4-1
   issues:
     - timestamps_in_gzip_headers
-  bugs:
-    - 777443
 qevercloud:
   version: 3.0.3+ds-1
   issues:
