@@ -28597,8 +28597,11 @@ zsh:
     Blocked by: #778462
     .
     bin_sh_is_bash causes the config.h delta; see discussion on pkg-zsh-devel@ on 2016-12-20.
+    .
+    FTBFS on armhf are tracked in #764650
   bugs:
     - 779566
+    - 764650
 zsh-syntax-highlighting:
   version: 0.5.0-1
   bugs:
