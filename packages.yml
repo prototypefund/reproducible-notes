@@ -17198,10 +17198,6 @@ opendmarc:
   issues:
     - captures_build_path
     - records_build_flags
-opendnssec:
-  version: 1:1.4.10-1
-  issues:
-    - captures_build_path
 openexr-viewers:
   version: 1.0.1-6
   issues:
@@ -26528,7 +26524,6 @@ udo:
     https://sources.debian.net/src/udo/6.4.1-1/Source/toc.c/#L2233
   issues:
     - captures_execution_time
-    - captures_build_path
 udpcast:
   version: 20120424-1
   comments: |
