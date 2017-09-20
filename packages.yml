@@ -5794,9 +5794,10 @@ firefox:
   issues:
     - captures_build_path
 firefox-esr:
-  version: 45.2.0esr-1
+  version: 52.3.0esr-2
   issues:
     - captures_build_path
+    - blacklisted_on_jenkins_armhf_only
 firehol:
   version: 2.0.1+ds-1
   issues:
