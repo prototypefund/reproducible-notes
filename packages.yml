@@ -2415,9 +2415,11 @@ cen64:
   issues:
     - gcc_captures_build_path
 ceph:
-  version: 0.80.9-2
+  version: 10.2.5-7.2
   comments: |
     Non-deterministic order of dh_installinit snippet in postinst etc.
+  issues:
+    - blacklisted_on_jenkins
   bugs:
     - 791913
 ceres-solver:
