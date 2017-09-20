@@ -2552,10 +2552,6 @@ cheetah:
   version: 2.4.4-3
   issues:
     - gcc_captures_build_path
-chef:
-  version: 12.14.60-2
-  bugs:
-    - 869179
 chemeq:
   version: 2.12-1
   issues:
@@ -4389,8 +4385,6 @@ dracut:
   comments: |
     Currently reproducible because SOURCE_DATE_EPOCH support was added to
     libxslt.
-  bugs:
-    - 783131
 dradio:
   version: 3.8-2
   issues:
@@ -4619,8 +4613,6 @@ eccodes:
   issues:
     - captures_build_arch
     - records_build_flags
-  bugs:
-    - 870040
 ecdsautils:
   version: 0.3.2+git20151018-2
   issues:
@@ -7556,7 +7548,6 @@ gngb:
     https://sources.debian.net/src/gngb/20060309-3.1/configure.in/#L110
     -> When compiling for i386 from amd64 system/kernel, different flags are used.
   bugs:
-    - 831773
     - 853425
 gniall:
   version: 0.7.1-7.1
@@ -8342,10 +8333,6 @@ grinder:
   version: 0.5.4-1
   issues:
     - captures_build_path
-gringo:
-  version: 5.1.0-4
-  bugs:
-    - 871100
 grml-debootstrap:
   version: 0.73
   issues:
@@ -8622,7 +8609,6 @@ guymager:
   issues:
     - gcc_captures_build_path
   bugs:
-    - 841544
     - 853438
 gwaei:
   version: 3.6.2-2
@@ -9504,10 +9490,6 @@ ipython:
   version: 2.4.1-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
-ipywidgets:
-  version: 5.2.2-3
-  bugs:
-    - 858629
 iqtree:
   version: 1.4.3+dfsg-1
   issues:
@@ -9990,10 +9972,6 @@ jigsaw-generator:
   version: 0.2.4-1
   issues:
     - pdf_id_varying_due_to_build_path
-jimfs:
-  version: 1.1-3
-  bugs:
-    - 871358
 jmdns:
   version: 3.4.2-1
   issues:
@@ -11724,10 +11702,6 @@ libbrahe:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
-libbson:
-  version: 1.6.3-1
-  bugs:
-    - 853483
 libbtbb:
   version: 2015.09.R2-1
   issues:
@@ -12346,10 +12320,6 @@ libhtml5parser-java:
   version: 1.4+r1.3.1-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-libi8x:
-  version: 0.0.3-1
-  bugs:
-    - 861678
 libical:
   version: 2.0.0-0.4
   issues:
@@ -13752,10 +13722,6 @@ libxmlada:
   version: 4.4.2014-1
   issues:
     - timestamps_in_pdf_generated_by_latex
-libxmlbird:
-  version: 1.2.4-2
-  bugs:
-    - 871206
 libxmlenc-java:
   version: 0.52+dfsg-4
   issues:
@@ -17493,10 +17459,6 @@ optcomp:
   version: 1.6-1
   issues:
     - captures_build_path
-optgeo:
-  version: 2.23-1
-  bugs:
-    - 865681
 opticalraytracer:
   version: 3.2-1.1
   issues:
@@ -19645,11 +19607,8 @@ python-astropy:
   issues:
     - cython_captures_build_path
   bugs:
-    - 871995
     - 871999
-    - 872000
     - 872006
-    - 872008
     - 872010
 python-asyncssh:
   version: 1.2.0-1
@@ -23185,10 +23144,6 @@ ruby-bson:
   version: 4.2.1-1
   issues:
     - gcc_captures_build_path
-ruby-buff-config:
-  version: 1.0.1-2
-  bugs:
-    - 870753
 ruby-byebug:
   version: 5.0.0-1
   issues:
@@ -24203,10 +24158,6 @@ sgrep:
   version: 1.94a-4
   issues:
     - gcc_captures_build_path
-sgt-puzzles:
-  version: 20161228.7cae89f-1
-  bugs:
-    - 871134
 shadow:
   version: 1:4.2-3.1
   issues:
