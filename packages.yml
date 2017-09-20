@@ -4375,11 +4375,6 @@ drac:
   version: 1.12-8
   issues:
     - gcc_captures_build_path
-dracut:
-  version: 040+1-1
-  comments: |
-    Currently reproducible because SOURCE_DATE_EPOCH support was added to
-    libxslt.
 dradio:
   version: 3.8-2
   issues:
@@ -7532,12 +7527,6 @@ gnat-mingw-w64:
   version: 15.1
   issues:
     - timestamps_in_ada_library_information_files
-gngb:
-  version: 20060309-3.1
-  comments: |
-    Uses different optimization flags on i386 build architecture.
-    https://sources.debian.net/src/gngb/20060309-3.1/configure.in/#L110
-    -> When compiling for i386 from amd64 system/kernel, different flags are used.
 gniall:
   version: 0.7.1-7.1
   issues:
@@ -26470,13 +26459,6 @@ udj-desktop-client:
   version: 0.6.3-1
   bugs:
     - 778966
-udo:
-  version: 6.4.1-1
-  comments: |
-    Documentation generator that embeds the "last modified" timestamp into the header.
-    https://sources.debian.net/src/udo/6.4.1-1/Source/toc.c/#L2233
-  issues:
-    - captures_execution_time
 udpcast:
   version: 20120424-1
   comments: |
