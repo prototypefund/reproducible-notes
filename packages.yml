@@ -23697,10 +23697,12 @@ rush:
   bugs:
     - 853649
 rustc:
-  version: 1.0.0+dfsg1-1
+  version: 1.19.0+dfsg3-3
   comments: |
     Non-determistic JSON serialisation https://sources.debian.net/src/rustc/1.0.0%2Bdfsg1-1/src/librustdoc/html/render.rs/#L1299
     Reported to upstream at https://github.com/rust-lang/rust/issues/34902 - more details there
+  issues:
+    - blacklisted_on_jenkins_armhf_only
 rygel:
   version: 0.32.1-3
   bugs:
