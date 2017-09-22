@@ -3293,12 +3293,6 @@ csound:
   version: 1:6.07.0~dfsg-2
   issues:
     - captures_build_path
-  bugs:
-    - 872860
-csound-manual:
-  version: 1:6.09.0~dfsg-1
-  bugs:
-    - 871814
 cssparser:
   version: 0.9.5-1
   issues:
@@ -5067,8 +5061,6 @@ erlang-cuttlefish:
   version: 2.0.6+dfsg-1
   issues:
     - captures_build_path_in_beam_files
-  bugs:
-    - 871350
 erlang-folsom:
   version: 0.8.2+dfsg-1
   issues:
@@ -6490,10 +6482,6 @@ fuji:
   issues:
     - captures_build_path
     - golang_compiler_captures_build_path_in_binary
-funguloids:
-  version: 1.06-12
-  bugs:
-    - 853408
 funitroots:
   version: 3010.78-2
   issues:
@@ -8240,8 +8228,6 @@ graphviz:
   issues:
     - pdf_created_by_ghostscript
     - fonts_in_pdf_files
-  bugs:
-    - 830380
 grass:
   version: 7.0.4-3
   comments: |
@@ -12371,10 +12357,6 @@ libio-socket-multicast6-perl:
   version: 0.03-3
   bugs:
     - 788759
-libio-socket-ssl-perl:
-  version: 2.049-1
-  bugs:
-    - 871409
 libirclib-java:
   version: 1.10-3
   issues:
@@ -17332,10 +17314,6 @@ opensips:
   version: 2.2.2-3
   issues:
     - gcc_captures_build_path
-opensmtpd-extras:
-  version: 5.7.1-3
-  bugs:
-    - 866994
 opensp:
   version: 1.5.2-13
   issues:
@@ -18438,8 +18416,6 @@ plee-the-bear:
   version: 0.6.0-3.1
   issues:
     - build_id_differences_only
-  bugs:
-    - 853618
 plexus-active-collections:
   version: 1.0~beta2-3
   issues:
@@ -19552,8 +19528,6 @@ python-astropy:
     See also https://bugs.debian.org/791574#61
   issues:
     - cython_captures_build_path
-  bugs:
-    - 872006
 python-asyncssh:
   version: 1.2.0-1
   issues:
@@ -24139,8 +24113,6 @@ shiboken:
   version: 1.2.2-3
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 864327
 shim:
   version: 0.9+1474479173.6c180c6-1
   comments: |
@@ -24998,7 +24970,6 @@ statsmodels:
     - randomness_in_documentation_generated_by_sphinx
     - captures_build_path
   bugs:
-    - 868977
     - 873512
 stdsyslog:
   version: 0.03.1-3
