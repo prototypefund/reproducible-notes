@@ -2413,6 +2413,7 @@ ceph:
     Non-deterministic order of dh_installinit snippet in postinst etc.
   issues:
     - blacklisted_on_jenkins
+    - blacklisted_on_jenkins_armhf_only
   bugs:
     - 791913
 ceres-solver:
@@ -3012,6 +3013,7 @@ commons-math:
   version: 3.6.1-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
+    - blacklisted_on_jenkins_armhf_only
 commons-math3:
   version: 3.6.1-1
   comments: |
@@ -5765,6 +5767,7 @@ firefox:
   version: 47.0.1-1
   issues:
     - captures_build_path
+    - blacklisted_on_jenkins_armhf_only
 firefox-esr:
   version: 52.3.0esr-2
   issues:
@@ -23172,6 +23175,9 @@ ruby-ffi:
   version: 1.9.10debian-1
   issues:
     - gcc_captures_build_path
+ruby-ffi-rzmq:
+  issues:
+    - blacklisted_on_jenkins_armhf_only
 ruby-ffi-yajl:
   version: 2.2.3-2
   issues:
