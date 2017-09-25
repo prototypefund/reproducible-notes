@@ -10,6 +10,10 @@
   version: 1.3.6.7-1
   bugs:
     - 873120
+3depict:
+  version: 0.0.19-1
+  bugs:
+    - 876620
 4digits:
   version: 1.1.4-1
   issues:
@@ -271,6 +275,8 @@ agda:
   version: 2.5.1.1-3
   comments: |
     Used to be blacklisted, but then ghc only runs into out-of-memory issues…
+  bugs:
+    - 876605
 agg:
   version: 2.5+dfsg1-12
   bugs:
@@ -3886,6 +3892,10 @@ deborphan:
   version: 1.7.28.8-0.3
   issues:
     - gcc_captures_build_path
+dee:
+  version: 1.0.10-3.1
+  bugs:
+    - 876594
 deja-dup:
   version: 34.3-1
   issues:
@@ -5366,6 +5376,10 @@ fam:
   version: 2.7.0-17.2
   issues:
     - gcc_captures_build_path
+farstream-0.2:
+  version: 0.2.8-2
+  bugs:
+    - 876611
 fasianoptions:
   version: 3010.79-2
   issues:
@@ -6170,6 +6184,10 @@ fonts-tibetan-machine:
   version: 1.901b-5
   issues:
     - fontforge_resets_modification_time
+fonts-tiresias:
+  version: 0.1-3
+  bugs:
+    - 876604
 fonts-tlwg:
   version: 1:0.6.1-2
   issues:
@@ -6755,6 +6773,8 @@ gazebo:
   version: 7.5.0+dfsg-1
   issues:
     - build_id_differences_only
+  bugs:
+    - 876562
 gb:
   version: 0.4.2-1
   issues:
@@ -6898,6 +6918,10 @@ gcolor2:
   version: 0.4-2.1
   issues:
     - gcc_captures_build_path
+gconf:
+  version: 3.2.6-4
+  bugs:
+    - 876592
 gcpegg:
   version: 5.1-13
   issues:
@@ -7601,6 +7625,10 @@ gnome-subtitles:
   version: 1.2-4
   issues:
     - gcc_captures_build_path
+gnome-vfs:
+  version: 1:2.24.4-6.1
+  bugs:
+    - 876586
 gnome-video-arcade:
   version: 0.8.6-2
   comments: |
@@ -7736,6 +7764,8 @@ gnutls28:
   version: 3.5.15-2
   issues:
     - build_path_captured_in_assembly_objects
+  bugs:
+    - 876587
 go-mtpfs:
   version: 0.0~git20150802.0.3ef47f9-2
   issues:
@@ -7762,6 +7792,10 @@ gocryptfs:
   bugs:
     - 849662
     - 864809
+goffice-0.8:
+  version: 0.8.17-7
+  bugs:
+    - 876610
 goiardi:
   version: 0.11.0+git20161112.21.1cd076a-3
   issues:
@@ -8014,6 +8048,10 @@ goobox:
   version: 3.4.2-3
   issues:
     - docbook_to_man_one_byte_delta
+goocanvas-2.0:
+  version: 2.0.2-2
+  bugs:
+    - 876597
 google-cloud-print-connector:
   version: 0.0~git20151105.24.1902938-1
   issues:
@@ -8379,6 +8417,8 @@ gss:
   version: 1.0.3-2
   issues:
     - timestamps_in_ps_generated_by_dvips
+  bugs:
+    - 876593
 gst-plugins-base1.0:
   version: 1.5.0.1+git20150513-1
   bugs:
@@ -8543,6 +8583,8 @@ gupnp-igd:
   version: 0.2.4-1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 876595
 gurgitate-mail:
   version: 1.10.0-1
   bugs:
@@ -8640,6 +8682,7 @@ haskell-cryptol:
   version: 2.4.0-2
   bugs:
     - 856234
+    - 876635
 haskell-diagrams-svg:
   version: 1.4.0.3-2
   bugs:
@@ -8686,6 +8729,10 @@ haskell-test-framework-th-prime:
   version: 0.0.9-3
   bugs:
     - 867475
+haskell-weigh:
+  version: 0.0.5-1
+  bugs:
+    - 876642
 haskell-wreq:
   version: 0.4.1.0-6
   bugs:
@@ -8806,6 +8853,10 @@ hessian:
   version: 4.0.38-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
+hex-a-hop:
+  version: 0.0.20070315-8
+  bugs:
+    - 876600
 hexbox:
   version: 1.5.0-3
   issues:
@@ -11538,6 +11589,8 @@ libappindicator:
   version: 0.4.92-4
   issues:
     - captures_build_path
+  bugs:
+    - 876612
 libapreq2:
   version: 2.13-5
   issues:
@@ -11614,6 +11667,10 @@ libbluray:
   issues:
     - timestamps_in_ps_generated_by_dvips
     - random_id_in_pdf_generated_by_dblatex
+libbonobo:
+  version: 2.32.1-3
+  bugs:
+    - 876585
 libbpp-core:
   version: 2.2.0-3
   issues:
@@ -11646,6 +11703,10 @@ libcaca:
   version: 0.99.beta19-2
   issues:
     - captures_build_path
+libcanberra:
+  version: 0.30-3
+  bugs:
+    - 876596
 libcap2:
   version: 1:2.25-1
   bugs:
@@ -11827,6 +11888,10 @@ libcrush:
   version: 1.0.0-8
   issues:
     - gcc_captures_build_path
+libcryptui:
+  version: 3.12.2-4
+  bugs:
+    - 876599
 libcsp:
   version: 1.4+fdd49b7+dfsg-3
   comments: |
@@ -11850,6 +11915,8 @@ libdbusmenu:
   version: 12.10.2-1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 876613
 libdbusmenu-qt:
   version: 0.9.3+16.04.20160218-1
   issues:
@@ -11993,6 +12060,10 @@ libflorist:
     - unknown_ada_issue
     - captures_build_path
     - records_build_flags
+libfm:
+  version: 1.2.5-1
+  bugs:
+    - 876614
 libforms:
   version: 1.2.3-1.2
   issues:
@@ -12129,6 +12200,10 @@ libgnome:
   version: 2.32.1-5
   bugs:
     - 870742
+libgnome-keyring:
+  version: 3.12.0-1
+  bugs:
+    - 876598
 libgnomekbd:
   version: 3.22.0.1-1
   bugs:
@@ -12173,6 +12248,8 @@ libgpod:
   version: 0.8.3-5
   comments: |
     Timezone-related Make issue causing different linking and thus substvars. output of dpkg-shlibdeps is https://gist.github.com/lamby/493de60a3f1ac2a279e8
+  bugs:
+    - 876583
 libgroove:
   version: 4.3.0-2
   issues:
@@ -12293,10 +12370,16 @@ libindicate:
   version: 0.6.92-3
   issues:
     - captures_build_path
+  bugs:
+    - 876609
 libindicator:
   version: 0.5.0-3
   issues:
     - gcc_captures_build_path
+libinfinity:
+  version: 0.6.7-2
+  bugs:
+    - 876584
 libinnodb:
   version: 1.0.6.6750-1
   comments: |
@@ -12326,6 +12409,10 @@ libio-socket-multicast6-perl:
   version: 0.03-3
   bugs:
     - 788759
+libiptcdata:
+  version: 1.0.4-6
+  bugs:
+    - 876581
 libirclib-java:
   version: 1.10-3
   issues:
@@ -12886,6 +12973,10 @@ libonemind-commons-java-java:
   version: 1.5.5-6
   issues:
     - random_order_in_documentation_generated_by_javadoc
+liboobs:
+  version: 3.0.0-3
+  bugs:
+    - 876582
 libopenobex:
   version: 1.7.1-4
   issues:
@@ -13029,6 +13120,8 @@ libprelude:
   version: 1.0.0-11.7
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 876591
 libpreludedb:
   version: 1.0.0-2.3
   issues:
@@ -13212,6 +13305,10 @@ librsb:
   version: 1.2.0-rc5-3
   issues:
     - records_build_flags
+librsvg:
+  version: 2.40.18-1
+  bugs:
+    - 876615
 librsync:
   version: 0.9.7-10
   bugs:
@@ -13362,6 +13459,10 @@ libtar:
   version: 1.2.20-5
   issues:
     - captures_shell_variable_in_autofoo_script
+libtasn1-6:
+  version: 4.12-2.1
+  bugs:
+    - 876589
 libtcd:
   version: 2.2.2-1
   issues:
@@ -13470,11 +13571,15 @@ libu2f-host:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - fonts_in_pdf_files
+  bugs:
+    - 876579
 libu2f-server:
   version: 0.0.0-1
   issues:
     - timestamps_in_pdf_generated_by_latex
     - fonts_in_pdf_files
+  bugs:
+    - 876580
 libuninum:
   version: 2.7-1.1
   issues:
@@ -13634,6 +13739,10 @@ libxml-security-java:
   version: 1.5.8-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+libxml2:
+  version: 2.9.4+dfsg1-4
+  bugs:
+    - 876308
 libxmlada:
   version: 4.4.2014-1
   issues:
@@ -13668,10 +13777,20 @@ libxsettings-client:
   version: 0.17-8
   comments: |
     Captures GCC version inc our "reproducible" suffix
+  bugs:
+    - 876588
+libxslt:
+  version: 1.1.29-2.1
+  bugs:
+    - 876601
 libxss:
   version: 1:1.2.2-1
   issues:
     - gcc_captures_build_path
+libykneomgr:
+  version: 0.1.8-2
+  bugs:
+    - 876578
 libzhuyin:
   version: 0.9.99.20140929-1
   issues:
@@ -16217,6 +16336,8 @@ nomacs:
   version: 3.0.0+dfsg2-1
   issues:
     - build_id_differences_only
+  bugs:
+    - 876153
 nomad:
   version: 0.4.0+dfsg-1
   issues:
@@ -16829,6 +16950,7 @@ octave-signal:
   version: 1.3.2-1
   bugs:
     - 874139
+    - 876634
 octave-statistics:
   version: 1.3.0-1
   bugs:
@@ -17372,6 +17494,10 @@ orafce:
   version: 3.3.0-1
   issues:
     - gcc_captures_build_path
+orbit2:
+  version: 1:2.14.19-3
+  bugs:
+    - 876576
 oregano:
   version: 0.70-3
   issues:
@@ -17766,6 +17892,10 @@ pcapy:
   version: 0.10.8-1
   issues:
     - gcc_captures_build_path
+pcb:
+  version: 1:4.0.2-1
+  bugs:
+    - 876641
 pciutils:
   version: 1:3.5.2-1
   bugs:
@@ -18301,6 +18431,10 @@ plainbox:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - randomness_in_documentation_indices_generated_by_sphinx
+planner:
+  version: 0.14.6-5
+  bugs:
+    - 876577
 plasma-desktop:
   version: 4:5.8.6-1
   issues:
@@ -18698,6 +18832,10 @@ poti:
     This could explain the all other differences (through #838260).
   bugs:
     - 860200
+potool:
+  version: 0.16-2
+  bugs:
+    - 876619
 pound:
   version: 2.6-6.1
   comments: |
@@ -19403,6 +19541,10 @@ pysdl2:
   version: 0.9.3+dfsg2-1
   bugs:
     - 792197
+pyside:
+  version: 1.2.2+source1-1
+  bugs:
+    - 876645
 pyside-tools:
   version: 0.2.15-1
   issues:
@@ -20623,6 +20765,8 @@ quantlib:
     - captures_execution_time
     - captures_build_path
     - records_build_flags
+  bugs:
+    - 876569
 quantlib-swig:
   version: 1.8-2
   issues:
@@ -22510,6 +22654,10 @@ recordmydesktop:
   version: 0.3.8.1+svn602-1
   issues:
     - gcc_captures_build_path
+redmine-recaptcha:
+  version: 0.1.0+git20121018-3
+  bugs:
+    - 876621
 refcard:
   version: 5.0.9
   issues:
@@ -23025,6 +23173,7 @@ ruby-compass:
     Manpage generated from --help https://sources.debian.net/src/ruby-compass/1.0.3\~dfsg-4/cli/lib/compass/commands/print_version.rb/\#L59
   bugs:
     - 835834
+    - 876608
 ruby-coveralls:
   version: 0.7.0-2
   bugs:
@@ -23303,6 +23452,10 @@ ruby-ncurses:
   version: 1.4.9-1
   issues:
     - gcc_captures_build_path
+ruby-net-ssh:
+  version: 1:4.2.0-1
+  bugs:
+    - 875965
 ruby-netcdf:
   version: 0.7.1.1-7
   issues:
@@ -23776,6 +23929,10 @@ schroot:
   version: 1.6.10-2
   issues:
     - captures_build_path
+science.js:
+  version: 1.9.3-1
+  bugs:
+    - 876618
 scilab:
   version: 5.5.2-4
   bugs:
@@ -23899,6 +24056,7 @@ sdpa:
     - records_build_flags
   bugs:
     - 868505
+    - 876632
 sdpb:
   version: 1.0-1
   issues:
@@ -23907,6 +24065,14 @@ seafile-client:
   version: 6.0.1+git20161227.7b0b837-2
   issues:
     - gcc_captures_build_path
+seahorse:
+  version: 3.20.0-3.1
+  bugs:
+    - 876646
+seahorse-nautilus:
+  version: 3.11.92-1.1
+  bugs:
+    - 876603
 searx:
   version: 0.12.0+dfsg1-1
   issues:
@@ -24099,6 +24265,8 @@ shishi:
   issues:
     - timestamps_in_ps_generated_by_dvips
     - random_id_in_pdf_generated_by_dblatex
+  bugs:
+    - 876573
 shogun:
   version: 3.2.0-7.4
   issues:
@@ -24436,6 +24604,10 @@ smokegen:
   version: 4:4.14.3-1
   issues:
     - build_id_differences_only
+smokeping:
+  version: 2.6.11-3
+  bugs:
+    - 826056
 smpq:
   version: 1.5-1
   issues:
@@ -25580,6 +25752,10 @@ telepathy-gabble:
   version: 0.18.3-2
   issues:
     - captures_build_path
+telepathy-logger:
+  version: 0.8.2-2
+  bugs:
+    - 876575
 telepathy-logger-qt:
   version: 15.04.0-2
   bugs:
@@ -26339,6 +26515,10 @@ uclibc:
     - timestamps_in_tarball
     - different_due_to_umask
     - users_and_groups_in_tarball
+uclmmbase:
+  version: 1.2.16.0-2
+  bugs:
+    - 876590
 ucommon:
   version: 7.0.0-9
   bugs:
@@ -26512,6 +26692,10 @@ uni2ascii:
   version: 4.18-2
   issues:
     - gcc_captures_build_path
+unicap:
+  version: 0.9.12-2
+  bugs:
+    - 876574
 unicode-screensaver:
   version: 0.5-1
   issues:
@@ -26846,6 +27030,8 @@ veusz:
   version: 1.21.1-1
   issues:
     - captures_build_arch
+  bugs:
+    - 876664
 vflib3:
   version: 3.6.14.dfsg-3+nmu2
   issues:
@@ -28233,6 +28419,10 @@ zbar:
   version: 0.10+doc-10
   issues:
     - gcc_captures_build_path
+zeal:
+  version: 1:0.4.0-1
+  bugs:
+    - 876606
 zed:
   version: 1.4-2
   issues:
