@@ -546,6 +546,8 @@ aodh:
     https://sources.debian.net/src/aodh/2.0.0-2/aodh/service.py/?hl=34#L32
   issues:
     - randomness_in_documentation_generated_by_sphinx
+  bugs:
+    - 876887
 aoflagger:
   version: 2.8.0-1
   issues:
@@ -633,6 +635,10 @@ apertium-af-nl:
   version: 0.2.0~r58256-1
   issues:
     - captures_build_path
+apertium-en-es:
+  version: 0.8.0~r57502-2
+  bugs:
+    - 876870
 apertium-en-gl:
   version: 0.5.2~r57551-1
   issues:
@@ -2377,6 +2383,8 @@ ceilometer:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - user_hostname_manually_added_requiring_further_investigation
+  bugs:
+    - 876888
 celery:
   version: 3.1.13-3
   issues:
@@ -2780,6 +2788,10 @@ cmake:
   version: 3.6.1-1
   issues:
     - gcc_captures_build_path
+cmigrep:
+  version: 1.5-14
+  bugs:
+    - 876427
 cmocka:
   version: 1.0.1-2
   issues:
@@ -4545,6 +4557,11 @@ e17:
   version: 0.17.6-1.1
   issues:
     - timestamps_in_edj_files_generated_by_edje_cc
+e2fsprogs:
+  version: 1.43.6-1
+  bugs:
+    - 876551
+    - 876672
 e2guardian:
   version: 3.4.0.3-1
   issues:
@@ -4937,6 +4954,8 @@ engauge-digitizer:
   version: 7.2-2
   issues:
     - timestamps_in_qch
+  bugs:
+    - 876810
 enigma:
   version: 1.20-dfsg.1-2
   issues:
@@ -6050,6 +6069,8 @@ fonts-liberation2:
     │   │   │   │   │ -	File modified: Tue Dec 12 15:10:25 2017
     │   │   │   │   │ +	 modtime[1]=d4489383
     │   │   │   │   │ +	File modified: Wed Nov  9 08:49:07 2016⋮
+  bugs:
+    - 876837
 fonts-linuxlibertine:
   version: 5.3.0-2
   issues:
@@ -6124,10 +6145,14 @@ fonts-smc-anjalioldlipi:
   version: 7.0-1
   issues:
     - timestamp_in_fonts_generated_by_opentype
+  bugs:
+    - 876835
 fonts-smc-chilanka:
   version: 1.2.0-1
   issues:
     - timestamp_in_fonts_generated_by_opentype
+  bugs:
+    - 876832
 fonts-smc-karumbi:
   version: 1.0-1
   issues:
@@ -6137,18 +6162,26 @@ fonts-smc-manjari:
   version: 1.0.0-1
   issues:
     - timestamp_in_fonts_generated_by_opentype
+  bugs:
+    - 876834
 fonts-smc-meera:
   version: 7.0-1
   issues:
     - timestamp_in_fonts_generated_by_opentype
+  bugs:
+    - 876836
 fonts-smc-rachana:
   version: 7.0-1
   issues:
     - timestamp_in_fonts_generated_by_opentype
+  bugs:
+    - 876838
 fonts-smc-raghumalayalamsans:
   version: 2.1.1-1
   issues:
     - timestamp_in_fonts_generated_by_opentype
+  bugs:
+    - 876833
 fonts-smc-suruma:
   version: 3.2.1-1
   issues:
@@ -6331,6 +6364,10 @@ freehdl:
   version: 0.0.8-2.2
   issues:
     - gcc_captures_build_path
+freehep-chartableconverter-plugin:
+  version: 2.0-9
+  bugs:
+    - 871326
 freehep-graphics2d:
   version: 2.1.1-5
   bugs:
@@ -6459,6 +6496,8 @@ fuji:
   issues:
     - captures_build_path
     - golang_compiler_captures_build_path_in_binary
+  bugs:
+    - 876827
 funitroots:
   version: 3010.78-2
   issues:
@@ -6533,6 +6572,8 @@ g2clib:
   version: 1.6.0-4
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 876806
 g3data:
   version: 1:1.5.3-2.1
   issues:
@@ -7270,6 +7311,8 @@ gitlab-ci-multi-runner:
   version: 1.4.2+dfsg-1
   issues:
     - too_much_input_for_diff
+  bugs:
+    - 871078
 gitlab-workhorse:
   version: 0.7.2-1
   issues:
@@ -7645,6 +7688,8 @@ gnudatalanguage:
   version: 0.9.6v2-3
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 876858
 gnugo:
   version: 3.8-9
   issues:
@@ -7875,6 +7920,10 @@ golang-github-eknkc-amber:
   version: 0.0~git20160421.0.91774f0-1
   issues:
     - golang_compiler_captures_build_path_in_binary
+golang-github-gin-gonic-gin:
+  version: 1.2+dfsg1-2
+  bugs:
+    - 876875
 golang-github-go-chef-chef:
   version: 0.0.1+git20161023.60.deb8c38-1
   bugs:
@@ -7923,6 +7972,10 @@ golang-github-mailru-easyjson:
   version: 0.0~git20161103.0.159cdb8-1
   bugs:
     - 854743
+golang-github-markbates-goth:
+  version: 1.42.0-2
+  bugs:
+    - 876878
 golang-github-mesos-mesos-go:
   version: 0.0.2+dfsg-2
   bugs:
@@ -7939,6 +7992,10 @@ golang-github-mxk-go-flowrate:
   version: 0.0~git20140419.0.cca7078-1
   bugs:
     - 842836
+golang-github-odeke-em-ripper:
+  version: 0.0~git20150415.0.bd1a682-2
+  bugs:
+    - 876868
 golang-github-opencontainers-image-spec:
   version: 1.0.0~rc2+dfsg-1
   issues:
@@ -7981,6 +8038,12 @@ golang-github-tinylib-msgp:
     Looks like its due to random variable numbers in generated code but these are actually deterministic due to golangs implicit rand.Seed(1) - I believe its some kind of arbitrary dict ordering instead
   issues:
     - golang_compiler_captures_build_path_in_binary
+  bugs:
+    - 876820
+golang-github-vbatts-tar-split:
+  version: 0.9.13-1
+  bugs:
+    - 876818
 golang-github-xenolf-lego:
   version: 0.3.1-1
   issues:
@@ -7994,6 +8057,10 @@ golang-glide:
   version: 0.11.0-2
   issues:
     - golang_compiler_captures_build_path_in_binary
+golang-go-flags:
+  version: 1.3.0-1
+  bugs:
+    - 876862
 golang-golang-x-tools:
   version: 1:0.0~git20160315.0.f42ec61-2
   issues:
@@ -8209,6 +8276,8 @@ grantlee5:
   version: 5.1.0-2
   issues:
     - build_id_differences_only
+  bugs:
+    - 876852
 grap:
   version: 1.45-1
   bugs:
@@ -8661,6 +8730,10 @@ haskell-cryptol:
   bugs:
     - 856234
     - 876635
+haskell-cryptonite:
+  version: 0.23-1
+  bugs:
+    - 876848
 haskell-diagrams-svg:
   version: 1.4.0.3-2
   bugs:
@@ -8695,10 +8768,18 @@ haskell-mode:
   version: 13.10-3
   issues:
     - timestamps_in_emacs_autoloads
+haskell-musicbrainz:
+  version: 0.2.4-6
+  bugs:
+    - 876850
 haskell-protobuf:
   version: 0.2.1.1-2
   bugs:
     - 862278
+haskell-relational-query-hdbc:
+  version: 0.6.4.1-1
+  bugs:
+    - 876847
 haskell-secret-sharing:
   version: 1.0.0.3-3
   bugs:
@@ -9552,6 +9633,10 @@ ispell-uk:
   issues:
     - timestamps_in_gzip_headers
     - random_ispell_hash_files
+isso:
+  version: 0.10.6-2
+  bugs:
+    - 876823
 istack-commons:
   version: 2.17-1
   issues:
@@ -11619,6 +11704,8 @@ libayatana-appindicator:
   version: 0.5.0-1
   issues:
     - portable_executable_strong_name_varies
+  bugs:
+    - 876803
 libb2:
   version: 0.97-2
   bugs:
@@ -13160,6 +13247,8 @@ libquazip:
   version: 0.7.2-1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 876886
 libquicktime:
   version: 2:1.2.4-8
   issues:
@@ -14550,6 +14639,8 @@ matplotlib:
   issues:
     - blacklisted_on_jenkins_armhf_only
     - captures_build_path
+  bugs:
+    - 872261
 maven:
   version: 3.0.5-3
   issues:
@@ -16589,6 +16680,10 @@ oasis3:
   version: 3.mct+dfsg.121022-7
   issues:
     - captures_build_path
+oath-toolkit:
+  version: 2.6.1-1
+  bugs:
+    - 876120
 obconf-qt:
   version: 0.9.0+20151227-2
   issues:
@@ -16944,6 +17039,10 @@ octave-statistics:
   version: 1.3.0-1
   bugs:
     - 874141
+octave-stk:
+  version: 2.4.2-1
+  bugs:
+    - 876777
 octave-tisean:
   version: 0.2.3-1
   bugs:
@@ -17487,6 +17586,8 @@ orafce:
   version: 3.3.0-1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 876842
 orbit2:
   version: 1:2.14.19-3
   bugs:
@@ -17533,6 +17634,8 @@ orthanc-wsi:
   version: 0.4+dfsg-1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 876807
 orville-write:
   version: 2.55-3
   issues:
@@ -18026,6 +18129,10 @@ pebl:
     - random_order_in_python_environment_pickle
     - randomness_in_documentation_generated_by_sphinx
     - captures_build_path
+peco:
+  version: 0.4.5-1
+  bugs:
+    - 876812
 pecomato:
   version: 0.0.15-7
   issues:
@@ -18144,6 +18251,8 @@ pgextwlist:
   version: 1.3-3
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 876851
 pgloader:
   version: 3.3.1+dfsg-1
   comments: |
@@ -18164,6 +18273,10 @@ pgrouting:
   version: 2.2.4-1
   issues:
     - gcc_captures_build_path
+pgsphere:
+  version: 1.1.1+2017.08.29-1
+  bugs:
+    - 876865
 pgsql-asn1oid:
   version: 0.0.20100818-3.2
   issues:
@@ -18756,6 +18869,8 @@ postgresql-hll:
   version: 2.7-2.1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 876826
 postgresql-multicorn:
   version: 1.3.2-1
   issues:
@@ -18768,6 +18883,8 @@ postgresql-ocaml:
   version: 2.0.5-2
   issues:
     - captures_build_path
+  bugs:
+    - 876828
 postgresql-pgmp:
   version: 1.0.2-2
   issues:
@@ -18788,6 +18905,10 @@ postgresql-prioritize:
   version: 1.0.4-1.2
   issues:
     - gcc_captures_build_path
+postgresql-q3c:
+  version: 1.5.0-2
+  bugs:
+    - 876788
 postgresql-unit:
   version: 1.0
   issues:
@@ -20508,6 +20629,10 @@ qscintilla2:
     - gcc_captures_build_path
   bugs:
     - 853628
+qsstv:
+  version: 9.2.4+repack-1
+  bugs:
+    - 876811
 qstopmotion:
   version: 2.3.2-1
   bugs:
@@ -20694,6 +20819,8 @@ qtwebengine-opensource-src:
   version: 5.9.1+dfsg-4
   issues:
     - captures_build_dir_in_qmake_prl_files
+  bugs:
+    - 876860
 qtwebkit:
   version: 2.3.4.dfsg-3
   issues:
@@ -23838,6 +23965,10 @@ scalable-cyrfonts:
   issues:
     - fontforge_resets_modification_time
     - captures_users_gecos
+scalapack:
+  version: 2.0.2-3
+  bugs:
+    - 876890
 scanssh:
   version: 2.0-4.1
   issues:
@@ -23976,6 +24107,8 @@ screengrab:
   version: 1.95+20160128-3
   issues:
     - build_id_variation_requiring_further_investigation
+  bugs:
+    - 876853
 screentest:
   version: 2.0-2.2
   issues:
@@ -24633,6 +24766,7 @@ snapd:
     - timestamps_in_manpages_added_by_golang_go_flags
   bugs:
     - 869268
+    - 876867
 snappea:
   version: 3.0d3-23
   issues:
@@ -25020,6 +25154,10 @@ staden:
   version: 2.0.0+b11-2
   issues:
     - gcc_captures_build_path
+staden-io-lib:
+  version: 1.14.9-2
+  bugs:
+    - 876840
 stardata-common:
   version: 0.8
   issues:
@@ -27316,6 +27454,8 @@ webhook:
   version: 2.5.0-1
   issues:
     - golang_compiler_captures_build_path_in_binary
+  bugs:
+    - 876889
 webissues:
   version: 1.1.4-3
   issues:
