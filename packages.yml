@@ -3928,10 +3928,6 @@ developers-reference:
     - timestamps_in_epub
 device-tree-compiler:
   version: 1.4.0+dfsg-2
-  issues:
-    - timestamps_in_pdf_content
-    - timestamps_in_ps_generated_by_dvips
-    - timestamps_in_dvi_generated_by_latex
   bugs:
     - 876657
 devio:
@@ -4984,10 +4980,6 @@ epiphany:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
-epiphany-browser:
-  version: 3.20.3-2
-  issues:
-    - captures_build_path
 epix:
   version: 1.2.14-1
   comments: |
@@ -8095,7 +8087,6 @@ goocanvas-2.0:
 google-cloud-print-connector:
   version: 0.0~git20151105.24.1902938-1
   issues:
-    - captures_build_path
     - too_much_input_for_diff
 google-perftools:
   version: 2.5-2.2
@@ -13820,8 +13811,6 @@ libxml2:
     - 876308
 libxmlada:
   version: 4.4.2014-1
-  issues:
-    - timestamps_in_pdf_generated_by_latex
   bugs:
     - 872231
 libxmlenc-java:
@@ -19659,8 +19648,6 @@ pytables:
   version: 3.1.1-3
   comments: |
     There is also a timestamp in the content of a PDF file (usersguide.pdf).
-  issues:
-    - timestamps_in_documentation_generated_by_sphinx
   bugs:
     - 872314
 pytango:
@@ -26001,10 +25988,6 @@ textedit.app:
   version: 4.0+20061029-3.4
   issues:
     - gcc_captures_build_path
-textql:
-  version: 2.0.3-1
-  issues:
-    - captures_build_path
 texworks-manual:
   version: 20150506-2
   issues:
