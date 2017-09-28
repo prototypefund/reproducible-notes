@@ -1595,9 +1595,6 @@ biogenesis:
     - timestamps_in_jar
 biojava-live:
   version: 1:1.7.1-5
-  issues:
-    - timestamps_in_documentation_generated_by_javadoc
-    - timestamps_in_jar
   bugs:
     - 859958
 biojava4-live:
@@ -6182,9 +6179,6 @@ fonts-tuffy:
     - fontforge_resets_modification_time
 fonts-uralic:
   version: 0.0.20040829-5
-  issues:
-    - timestamps_difference_by_unzip
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 854362
 foolscap:
@@ -10186,10 +10180,6 @@ jta:
   version: 2.6+dfsg-6
   issues:
     - random_order_in_documentation_generated_by_javadoc
-jtharness:
-  version: 4.6-1
-  issues:
-    - captures_build_path
 jthread:
   version: 1.3.1-3
   issues:
@@ -17573,10 +17563,6 @@ opus-tools:
   version: 0.1.9-1
   issues:
     - gcc_captures_build_path
-opusfile:
-  version: 0.8-1
-  issues:
-    - captures_build_path
 orafce:
   version: 3.3.0-1
   issues:
