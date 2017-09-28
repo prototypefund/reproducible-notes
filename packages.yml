@@ -28515,8 +28515,6 @@ znc:
     - gcc_captures_build_path
 zoneminder:
   version: 1.28.1-7
-  comments: |
-    Some random strings are also embedded as salts/seeds in /usr/share/zoneminder/www/api/app/Config/core.php.
   issues:
     - gcc_captures_build_path
 zookeeper:
