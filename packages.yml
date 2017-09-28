@@ -1893,6 +1893,8 @@ brian:
   version: 1.4.3-1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 876920
 brickos:
   version: 0.9.0.dfsg-12
   comments: |
@@ -3135,6 +3137,10 @@ coyim:
   version: 0.3.7-2
   issues:
     - golang_compiler_captures_build_path_in_binary
+coyote:
+  version: 2016.11.13-1
+  bugs:
+    - 877003
 coz-profiler:
   version: 0.1.0-1
   issues:
@@ -3926,6 +3932,8 @@ dh-kpatches:
   version: 0.99.36+nmu3
   issues:
     - pdf_id_varying_due_to_build_path
+  bugs:
+    - 876892
 dh-make-golang:
   version: 0.0~git20150913.0.1221041-1
   issues:
@@ -4061,6 +4069,8 @@ django-celery:
   version: 3.1.17-3
   issues:
     - randomness_in_documentation_generated_by_sphinx
+  bugs:
+    - 876897
 django-compat:
   version: 1.0.13-1
   bugs:
@@ -6375,6 +6385,8 @@ freewnn:
   version: 1.1.1~a021+cvs20130302-4
   issues:
     - user_hostname_manually_added_requiring_further_investigation
+  bugs:
+    - 876987
 fregression:
   version: 3011.81-2
   issues:
@@ -7816,6 +7828,10 @@ golang-github-appc-spec:
   version: 0.7.1+dfsg-1
   issues:
     - golang_compiler_captures_build_path_in_binary
+golang-github-approvals-go-approval-tests:
+  version: 0.0~git20170712.0.c1e747e-1
+  bugs:
+    - 876922
 golang-github-armon-gomdb:
   version: 0.0~git20150106.0.151f2e0-1
   bugs:
@@ -7904,6 +7920,10 @@ golang-github-googleapis-proto-client-go:
   version: 0.0~git20160726.0.e5790fe-1
   bugs:
     - 845453
+golang-github-gopherjs-gopherjs:
+  version: 0.0~git20170702.0.2b1d432-1
+  bugs:
+    - 876925
 golang-github-grpc-ecosystem-go-grpc-prometheus:
   version: 1.1+git20160910.0.6b7015e-1
   bugs:
@@ -8037,6 +8057,10 @@ golang-google-cloud:
   version: 0.5.0-2
   bugs:
     - 873514
+golang-gopkg-gcfg.v1:
+  version: 1.2.0-1
+  bugs:
+    - 877006
 golang-gopkg-ini.v1:
   version: 1.8.5-1
   comments: |
@@ -8765,6 +8789,10 @@ haskell-wreq:
   version: 0.4.1.0-6
   bugs:
     - 842524
+haskell-x509-validation:
+  version: 1.6.5-2
+  bugs:
+    - 876125
 haskell-xmlhtml:
   version: 0.2.4-1
   bugs:
@@ -10189,6 +10217,8 @@ juffed:
   version: 0.10-85-g5ba17f9-9
   issues:
     - build_id_differences_only
+  bugs:
+    - 876918
 julia:
   version: 0.4.6-1
   comments: |
@@ -10282,6 +10312,8 @@ kalzium:
   version: 4:16.04.0-1
   issues:
     - captures_build_path
+  bugs:
+    - 869869
 kamerka:
   version: 0.8.1-1
   issues:
@@ -10309,6 +10341,8 @@ karchive:
   version: 5.25.0-1
   issues:
     - captures_build_path
+  bugs:
+    - 876901
 kate:
   version: 4:16.04.2-1
   issues:
@@ -10358,6 +10392,8 @@ kcodecs:
   version: 5.25.0-1
   issues:
     - captures_build_path
+  bugs:
+    - 876933
 kcollectd:
   version: 0.9-4
   issues:
@@ -10683,6 +10719,10 @@ khtml:
   version: 5.28.0-2
   issues:
     - build_id_differences_only
+ki18n:
+  version: 5.37.0-2
+  bugs:
+    - 876917
 kicad:
   version: 4.0.0~rc1a-3
   issues:
@@ -14003,6 +14043,10 @@ live-manual:
     - different_due_to_umask
     - timestamps_in_epub
     - timestamps_in_pdf_content
+livestreamer:
+  version: 1.12.2-1
+  bugs:
+    - 876989
 lizardfs:
   version: 3.10.0+dfsg-1
   issues:
@@ -16284,6 +16328,10 @@ node-evp-bytestokey:
   version: 1.0.0-3
   bugs:
     - 872580
+node-findit2:
+  version: 2.2.3-1
+  bugs:
+    - 876937
 node-fuzzaldrin-plus:
   version: 0.3.1+git.20161008.da2cb58+dfsg-4
   issues:
@@ -16334,6 +16382,10 @@ node-starttls:
   version: 1.0.1-1
   bugs:
     - 819715
+node-tape:
+  version: 4.6.3-1
+  bugs:
+    - 876935
 node-temp:
   version: 0.8.1-1
   bugs:
@@ -17417,6 +17469,7 @@ openorienteering-mapper:
     - too_much_input_for_diff
   bugs:
     - 871820
+    - 876934
 opensaml2:
   version: 2.6.0-4
   bugs:
@@ -17554,6 +17607,7 @@ orpie:
   version: 1.5.2-1
   bugs:
     - 868849
+    - 877007
 orthanc:
   version: 1.0.0+dfsg-1
   issues:
@@ -17738,6 +17792,8 @@ packer:
   version: 0.10.1+dfsg-1
   issues:
     - golang_compiler_captures_build_path_in_binary
+  bugs:
+    - 876929
 packeth:
   version: 1.6.5-2
   issues:
@@ -17926,6 +17982,8 @@ pbuilder:
   version: 0.226
   issues:
     - random_id_in_pdf_generated_by_dblatex
+  bugs:
+    - 876926
 pcapy:
   version: 0.10.8-1
   issues:
@@ -18271,6 +18329,7 @@ php-guzzlehttp-ringphp:
   version: 1.1.0-2
   bugs:
     - 829059
+    - 872160
 php-igbinary:
   version: 1.2.1-10-ge0e66b9+1.2.1+-4
   issues:
@@ -19165,6 +19224,8 @@ psycopg2:
   version: 2.6.1-1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 876931
 pth:
   version: 2.0.7-20
   issues:
@@ -20070,6 +20131,10 @@ python-phply:
   version: 0.9.1-3
   issues:
     - python-ply_compiled_parse_tables
+python-pint:
+  version: 0.8.1-1
+  bugs:
+    - 876921
 python-pip:
   version: 8.1.2-2
   issues:
@@ -20221,6 +20286,10 @@ python-stopit:
   version: 1.1.1-1
   bugs:
     - 854542
+python-structlog:
+  version: 16.1.0-1
+  bugs:
+    - 876988
 python-taskflow:
   version: 1.3.0-2
   comments: |
@@ -24850,6 +24919,14 @@ sphinx:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - randomness_in_documentation_indices_generated_by_sphinx
+sphinx-issuetracker:
+  version: 0.11-1
+  bugs:
+    - 876932
+sphinx-testing:
+  version: 0.7.1-2
+  bugs:
+    - 875399
 sphinxcontrib-programoutput:
   version: 0.8-4
   comments: |
@@ -24859,6 +24936,8 @@ sphinxcontrib-programoutput:
     - timestamps_in_python_version_numbers
     - randomness_in_documentation_generated_by_sphinx
     - user_hostname_manually_added_requiring_further_investigation
+  bugs:
+    - 871313
 sphinxcontrib-youtube:
   version: 1.0-1
   issues:
@@ -27307,6 +27386,10 @@ webissues:
   version: 1.1.4-3
   issues:
     - gcc_captures_build_path
+webkit2-sharp:
+  version: 2.10.9+git20160917-1
+  bugs:
+    - 876845
 webkit2gtk:
   version: 2.16.6-1
   issues:
@@ -28418,6 +28501,8 @@ zeroinstall-injector:
   version: 2.10-2
   issues:
     - captures_build_path
+  bugs:
+    - 870151
 zfec:
   version: 1.4.5-2
   issues:
