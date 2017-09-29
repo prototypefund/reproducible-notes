@@ -6518,10 +6518,6 @@ fvwm1:
   issues:
     - too_much_input_for_diff
     - gcc_captures_build_path
-fw4spl:
-  version: 11.0.4-1
-  bugs:
-    - 871111
 fwbuilder:
   version: 5.1.0-4
   issues:
@@ -6983,8 +6979,6 @@ gearmand:
   issues:
     - leaks_path_environment_variable
     - captures_shell_variable_in_autofoo_script
-  bugs:
-    - 853414
 geary:
   version: 0.11.1-1
   bugs:
@@ -7412,10 +7406,6 @@ globus-gram-job-manager-condor:
   version: 2.6-1
   comments: |
     configure.ac uses uname -m so 64-bit kernel with 32-bit userland results in different CONDOR_ARCH
-glogg:
-  version: 1.1.0-1
-  bugs:
-    - 853422
 glosstex:
   version: 0.4.dfsg.1-3
   issues:
@@ -8126,7 +8116,6 @@ gpgme1.0:
   issues:
     - captures_build_path
   bugs:
-    - 853431
     - 876538
 gpgmepp:
   version: 16.04.3-2
@@ -9369,8 +9358,6 @@ injeqt:
   version: 1.0.1-1
   issues:
     - captures_build_path
-  bugs:
-    - 853452
 inkscape:
   version: 0.92.1-1
   issues:
@@ -9474,10 +9461,6 @@ iproute2:
     - timestamps_in_dvi_generated_by_latex
   bugs:
     - 783276
-ipsec-tools:
-  version: 1:0.8.2+20140711-9
-  bugs:
-    - 853457
 ipsvd:
   version: 1.0.0-3
   issues:
@@ -10410,10 +10393,6 @@ kcrash:
   version: 5.28.0-1
   issues:
     - gcc_captures_build_path
-kdb:
-  version: 3.0.1.1-1
-  bugs:
-    - 871182
 kdbg:
   version: 2.5.5-1
   issues:
@@ -10447,8 +10426,6 @@ kde4libs:
   issues:
     - captures_kernel_version
     - different_encoding
-  bugs:
-    - 870068
 kdeclarative:
   version: 5.26.0-1
   issues:
@@ -12420,8 +12397,6 @@ libindi:
   version: 1.2.0-3
   issues:
     - build_id_differences_only
-  bugs:
-    - 853494
 libindicate:
   version: 0.6.92-3
   issues:
@@ -14308,10 +14283,6 @@ lwt:
   version: 2.5.2-1
   issues:
     - captures_build_path
-lxc:
-  version: 1:2.0.8-1
-  bugs:
-    - 853531
 lxml:
   version: 3.6.0-1
   issues:
@@ -14870,10 +14841,6 @@ metview:
   version: 4.6.5-4
   issues:
     - too_much_input_for_diff
-mgba:
-  version: 0.5.2+dfsg1-2
-  bugs:
-    - 853546
 mgcv:
   version: 1.8-14-1
   issues:
@@ -19008,8 +18975,6 @@ primer3:
   version: 2.3.7-2
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 853621
 primesieve:
   version: 5.7.1+ds-1
   issues:
@@ -20465,8 +20430,6 @@ qevercloud:
   version: 3.0.3+ds-1
   issues:
     - pdf_id_varying_due_to_build_path
-  bugs:
-    - 871202
 qgis:
   version: 2.8.4+dfsg-1
   comments: |
@@ -20728,8 +20691,6 @@ qttools-opensource-src:
     - timestamps_in_qch
     - randomness_in_qdoc
     - captures_build_path
-  bugs:
-    - 853633
 qtwayland-opensource-src:
   version: 5.6.1-2
   issues:
@@ -22701,8 +22662,6 @@ regina-normal:
   version: 4.96-3
   issues:
     - captures_build_path
-  bugs:
-    - 853639
 regina-rexx:
   version: 3.6-2
   issues:
@@ -24537,10 +24496,6 @@ sleepenh:
   version: 1.6-1
   issues:
     - gcc_captures_build_path
-sleepyhead:
-  version: 1.0.0-beta-2+dfsg-2
-  bugs:
-    - 872538
 slepc:
   version: 3.4.2.dfsg-2
   comments: |
