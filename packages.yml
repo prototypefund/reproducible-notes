@@ -322,6 +322,10 @@ alembic:
   version: 0.8.7-2
   issues:
     - randomness_in_documentation_generated_by_sphinx
+alglib:
+  version: 3.11.0-1
+  bugs:
+    - 877065
 allegro5:
   version: 2:5.0.11-1
   comments: |
@@ -3164,6 +3168,8 @@ cppformat:
   version: 1.1.0+ds-3
   issues:
     - captures_build_path
+  bugs:
+    - 876543
 cppreference-doc:
   version: 20151129+dfsg0-1
   bugs:
@@ -3803,6 +3809,8 @@ debian-policy:
     - different_due_to_umask
     - timestamps_in_documentation_generated_by_org_mode
     - timestamps_in_ps_generated_by_dvips
+  bugs:
+    - 873125
 debian-ports-archive-keyring:
   version: 2016.02.01
   comments: |
@@ -5762,6 +5770,7 @@ fizmo:
   version: 0.7.10-2
   bugs:
     - 833594
+    - 877015
 fl-cow:
   version: 0.6-4.2
   issues:
@@ -9118,6 +9127,10 @@ hyperestraier:
   issues:
     - timestamps_in_jar
     - captures_build_path
+hypre:
+  version: 2.11.1-4
+  bugs:
+    - 877054
 iat:
   version: 0.1.3-7
   issues:
@@ -12472,6 +12485,8 @@ libitpp:
   version: 4.3.1-3
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 877063
 libj2ssh-java:
   version: 0.2.9-4
   issues:
@@ -15458,6 +15473,10 @@ mpdcon.app:
   version: 1.1.99-5
   issues:
     - gcc_captures_build_path
+mpdecimal:
+  version: 2.4.2-1
+  bugs:
+    - 877010
 mpfi:
   version: 1.5.1+ds-4
   issues:
@@ -17493,6 +17512,8 @@ openvas-libraries:
   version: 8.0.8-2
   issues:
     - build_id_differences_only
+  bugs:
+    - 876093
 openvas-manager:
   version: 6.0.9-1
   issues:
@@ -17717,6 +17738,10 @@ p3scan:
     - timestamps_in_gzip_headers
   bugs:
     - 778433
+p4est:
+  version: 1.1-4
+  bugs:
+    - 877061
 p7zip:
   version: 16.02+dfsg-2
   issues:
@@ -20460,6 +20485,10 @@ qlandkartegt:
   version: 1.8.1+ds-7
   issues:
     - build_id_differences_only
+qm-dsp:
+  version: 1.7.1-3
+  bugs:
+    - 877055
 qmail-run:
   version: 2.0.2
   issues:
@@ -25075,6 +25104,8 @@ starpu:
   version: 1.1.4+dfsg-3
   comments: |
     Captures SHELL - needs some kind of forcing in debian/rules?
+  bugs:
+    - 877028
 statcvs:
   version: 1:0.7.0.dfsg-6
   issues:
@@ -28268,6 +28299,8 @@ yap:
   version: 6.2.2-6
   issues:
     - timestamps_from_cpp_macros
+  bugs:
+    - 877034
 yapsy:
   version: 1.10.423-1
   issues:
