@@ -988,6 +988,10 @@ asterisk-prompt-fr-proformatique:
   version: 20070706-1.4-2
   issues:
     - different_due_to_umask
+astroml:
+  version: 0.3-6
+  bugs:
+    - 877161
 astroplan:
   version: 0.2-1
   issues:
@@ -2424,6 +2428,10 @@ cffi:
     - different_due_to_umask
     - timestamps_in_ps_generated_by_dvips
     - timestamps_in_dvi_generated_by_latex
+cfflib:
+  version: 2.0.5-2
+  bugs:
+    - 877151
 cfi:
   version: 3.0-10
   issues:
@@ -2633,6 +2641,10 @@ cinnamon:
   version: 3.2.7-2
   issues:
     - gcc_captures_build_path
+circe:
+  version: 2.5-1
+  bugs:
+    - 877186
 citadel:
   version: 902-3
   issues:
@@ -6186,6 +6198,7 @@ foolscap:
   version: 0.12.6-1
   bugs:
     - 850537
+    - 877206
 fop:
   version: 1:2.1-5
   issues:
@@ -9447,6 +9460,10 @@ ipkungfu:
   version: 0.6.1-6.1
   issues:
     - gcc_captures_build_path
+ipmiutil:
+  version: 3.0.1-1
+  bugs:
+    - 877211
 ippusbxd:
   version: 1.23-1
   issues:
@@ -9879,6 +9896,8 @@ jblas:
   version: 1.2.3-6
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 877225
 jboss-classfilewriter:
   version: 1.2.1-1
   issues:
@@ -15256,6 +15275,8 @@ monkeystudio:
         0000000: 5c32 3531 0a                             \251.
   issues:
     - bin_sh_is_bash
+  bugs:
+    - 877198
 mono:
   version: 4.2.1.102+dfsg2-5
   comments: |
@@ -15928,6 +15949,10 @@ nemiver:
   version: 0.9.6-1.1
   issues:
     - gcc_captures_build_path
+neo:
+  version: 0.3.3-2
+  bugs:
+    - 877152
 neotoma:
   version: 1.7.3+dfsg-1
   issues:
@@ -16393,6 +16418,8 @@ normaliz:
   version: 3.1.1+ds-1
   issues:
     - timestamps_in_tex_documents
+  bugs:
+    - 877210
 norwegian:
   version: 2.0.10-5.2
   issues:
@@ -16656,6 +16683,7 @@ obnam:
   version: 1.18.2-1
   bugs:
     - 735809
+    - 877159
 obsession:
   version: 20140608-2
   issues:
@@ -16964,6 +16992,7 @@ octave-interval:
   version: 2.1.0-2
   bugs:
     - 874135
+    - 877149
 octave-msh:
   version: 1.0.10-2
   bugs:
@@ -19287,6 +19316,10 @@ pybluez:
   version: 0.22-1
   issues:
     - gcc_captures_build_path
+pybtex:
+  version: 0.21-2
+  bugs:
+    - 877109
 pycairo:
   version: 1.8.8-1
   issues:
@@ -19894,6 +19927,10 @@ python-gudev:
   version: 147.2-3
   issues:
     - gcc_captures_build_path
+python-h5netcdf:
+  version: 0.3.1-1
+  bugs:
+    - 877150
 python-http-parser:
   version: 0.8.3-2
   issues:
@@ -19963,6 +20000,10 @@ python-mhash:
   version: 1.4-1.1
   issues:
     - gcc_captures_build_path
+python-mongoengine:
+  version: 0.10.6-1
+  bugs:
+    - 877110
 python-mox3:
   version: 0.14.0-1
   bugs:
@@ -20009,6 +20050,8 @@ python-numpy:
   version: 1.8.2-2
   issues:
     - timestamps_in_pdf_generated_by_matplotlib
+  bugs:
+    - 877113
 python-omniorb:
   version: 3.6-1
   issues:
@@ -20136,6 +20179,8 @@ python-pygit2:
   version: 0.24.1-1
   issues:
     - captures_build_arch
+  bugs:
+    - 877112
 python-pymeasure:
   version: 0.4.5-1
   issues:
@@ -20144,6 +20189,8 @@ python-pymzml:
   version: 0.7.6-dfsg-2
   issues:
     - pdf_id_varying_due_to_build_path
+  bugs:
+    - 872242
 python-pypcap:
   version: 1.1.5-1
   issues:
@@ -20160,6 +20207,10 @@ python-pysam:
   version: 0.11.2.2+ds-3
   bugs:
     - 871083
+python-pysnmp4:
+  version: 4.3.2-2
+  bugs:
+    - 877111
 python-pytc:
   version: 0.8-2
   bugs:
@@ -20201,6 +20252,8 @@ python-scipy:
     - timestamps_in_documentation_generated_by_sphinx
     - timestamps_in_pdf_generated_by_matplotlib
     - blacklisted_on_jenkins_armhf_only
+  bugs:
+    - 877114
 python-scrapy-djangoitem:
   version: 1.1.1-1
   bugs:
@@ -20366,6 +20419,10 @@ pyx3:
     Also contains differing images and PDF file.
   issues:
     - randomness_in_documentation_indices_generated_by_sphinx
+pyxdg:
+  version: 0.25-4
+  bugs:
+    - 877202
 pyxmpp:
   version: 1.1.2-1
   issues:
@@ -22615,6 +22672,7 @@ readline6:
   version: 6.3-8
   bugs:
     - 783136
+    - 877197
 realmd:
   version: 0.16.2-2
   issues:
@@ -23720,6 +23778,8 @@ s3ql:
   version: 2.15+dfsg-1
   issues:
     - captures_build_path
+  bugs:
+    - 877204
 sacjava:
   version: 1.3-6
   issues:
@@ -24882,6 +24942,10 @@ sphinxcontrib-programoutput:
     - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 871313
+sphinxcontrib-websupport:
+  version: 1.0.1-1
+  bugs:
+    - 877158
 sphinxcontrib-youtube:
   version: 1.0-1
   issues:
