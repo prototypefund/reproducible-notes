@@ -416,6 +416,10 @@ amanda:
   issues:
     - captures_shell_variable_in_autofoo_script
     - records_build_flags
+amarok:
+  version: 2.8.0-8
+  bugs:
+    - 877295
 amideco:
   version: 0.31e-3.1
   bugs:
@@ -4029,6 +4033,7 @@ digikam:
     - build_id_differences_only
   bugs:
     - 876154
+    - 877300
 dime:
   version: 0.20111205-2
   issues:
@@ -7249,6 +7254,8 @@ git-buildpackage:
   version: 0.8.12.2
   issues:
     - randomness_in_documentation_generated_by_sphinx
+  bugs:
+    - 877322
 git-hub:
   version: 0.9.0-1
   comments: |
@@ -8748,6 +8755,10 @@ haskell-test-framework-th-prime:
   version: 0.0.9-3
   bugs:
     - 867475
+haskell-tls:
+  version: 1.3.11-1
+  bugs:
+    - 877299
 haskell-weigh:
   version: 0.0.5-1
   bugs:
@@ -13923,6 +13934,10 @@ linthesia:
   version: 0.4.3-1
   bugs:
     - 835117
+lintian:
+  version: 2.5.54
+  bugs:
+    - 877147
 linux:
   version: 4.6.3-1
   issues:
@@ -15840,6 +15855,10 @@ navit:
   version: 0.5.0+dfsg.1-1
   issues:
     - gcc_captures_build_path
+nbdkit:
+  version: 1.1.15-1
+  bugs:
+    - 877310
 nbibtex:
   version: 0.9.18-11
   comments: |
@@ -17018,6 +17037,7 @@ odin:
   version: 2.0.3-0.1
   bugs:
     - 858397
+    - 865955
 ofxstatement-plugins:
   version: 20170307
   bugs:
@@ -19974,6 +19994,10 @@ python-mhash:
   version: 1.4-1.1
   issues:
     - gcc_captures_build_path
+python-mne:
+  version: 0.13.1+dfsg-3
+  bugs:
+    - 877344
 python-mongoengine:
   version: 0.10.6-1
   bugs:
@@ -20365,6 +20389,8 @@ pythonqt:
   version: 3.0-2
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 877311
 pythontracer:
   version: 8.10.16-1.2
   issues:
@@ -22624,6 +22650,10 @@ rdist:
   version: 6.1.5-18
   issues:
     - gcc_captures_build_path
+rdkit:
+  version: 201603.5-2
+  bugs:
+    - 872246
 rdp-classifier:
   version: 2.10.2-1
   issues:
@@ -23326,6 +23356,10 @@ ruby-gpgme:
   version: 2.0.12-1
   issues:
     - gcc_captures_build_path
+ruby-grape:
+  version: 0.16.2-2
+  bugs:
+    - 877257
 ruby-grib:
   version: 0.3.0-1
   issues:
@@ -23390,6 +23424,10 @@ ruby-json:
     - gcc_captures_build_path
   bugs:
     - 871046
+ruby-kramdown:
+  version: 1.14.0-1
+  bugs:
+    - 877320
 ruby-kramdown-rfc2629:
   version: 1.0.36-1
   bugs:
@@ -23524,6 +23562,10 @@ ruby-posix-spawn:
   version: 0.3.11-1
   issues:
     - gcc_captures_build_path
+ruby-premailer:
+  version: 1.8.6-1
+  bugs:
+    - 877314
 ruby-protected-attributes:
   version: 1.1.3-2
   bugs:
@@ -24960,6 +25002,10 @@ springlobby:
   version: 0.255+dfsg-1
   issues:
     - gcc_captures_build_path
+spykeutils:
+  version: 0.4.3-1
+  bugs:
+    - 839349
 spykeviewer:
   version: 0.4.4-1
   bugs:
@@ -25404,6 +25450,10 @@ swi-prolog:
   version: 7.2.3+dfsg-1
   issues:
     - records_build_flags
+swift:
+  version: 2.10.2-1
+  bugs:
+    - 877298
 swift-im:
   version: 3.0.4-1
   bugs:
