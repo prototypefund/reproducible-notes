@@ -1430,6 +1430,10 @@ beav:
     - timestamps_in_gzip_headers
   bugs:
     - 777287
+beginend-el:
+  version: 2.0.0-1
+  bugs:
+    - 877412
 beignet:
   version: 1.1.2-3
   comments: |
@@ -2040,6 +2044,10 @@ bzr:
   version: 2.7.0+bzr6619-5
   issues:
     - randomness_in_documentation_generated_by_sphinx
+bzr-git:
+  version: 0.6.13-2
+  bugs:
+    - 877413
 c++-annotations:
   version: 10.5.0-1
   issues:
@@ -5895,6 +5903,10 @@ flute:
   version: 1:1.1.6-3
   issues:
     - random_order_in_documentation_generated_by_javadoc
+flycheck:
+  version: 30-3
+  bugs:
+    - 877411
 fmit:
   version: 1.0.0-1
   issues:
@@ -14195,6 +14207,10 @@ lua-lgi:
   version: 0.9.1-1
   bugs:
     - 870834
+lua-mode:
+  version: 20151025-2
+  bugs:
+    - 877398
 lua-sandbox:
   version: 1.1.0-2
   issues:
@@ -17826,6 +17842,8 @@ pandas:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - cython_captures_build_path
+  bugs:
+    - 877419
 pandoc:
   version: 1.17.0.3~dfsg-2
   bugs:
@@ -21934,6 +21952,8 @@ r-cran-phangorn:
   version: 2.0.4-1
   issues:
     - randomness_in_r_rdb_rds_databases
+  bugs:
+    - 877394
 r-cran-pheatmap:
   version: 1.0.8-1
   issues:
