@@ -381,10 +381,6 @@ alsa-tools:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
-altermime:
-  version: 0.3.10-8
-  bugs:
-    - 853309
 altos:
   version: 1.6.2-1
   issues:
@@ -1126,10 +1122,6 @@ automoc:
   version: 1.0~version-0.9.88-5
   issues:
     - gcc_captures_build_path
-autopep8:
-  version: 0.9.1-2.1
-  bugs:
-    - 870131
 autounit:
   version: 0.20.1-5
   issues:
@@ -1882,8 +1874,6 @@ bppsuite:
   version: 0.8.0-1+build1
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 871098
 breathe:
   version: 4.2.0-3
   issues:
@@ -2189,10 +2179,6 @@ cantor:
   version: 4:16.08.3-1
   issues:
     - build_id_differences_only
-canu:
-  version: 1.5+dfsg-1
-  bugs:
-    - 871390
 capistrano:
   version: 3.4.0-1
   bugs:
@@ -5669,10 +5655,6 @@ fftw:
     - captures_build_path
   bugs:
     - 800653
-fftw3:
-  version: 3.3.4-2
-  bugs:
-    - 796324
 fgarch:
   version: 3010.82.1-1
   issues:
@@ -7975,10 +7957,6 @@ golang-github-optiopay-kafka:
   version: 0.0~git20150921.0.bc8e095-1
   bugs:
     - 867775
-golang-github-prometheus-client-golang:
-  version: 0.8.0-1
-  bugs:
-    - 854687
 golang-github-rackspace-gophercloud:
   version: 1.0.0+git20161013.1012.e00690e8-1
   bugs:
@@ -9102,8 +9080,6 @@ hylafax:
   version: 3:6.0.6-6
   issues:
     - captures_build_arch
-  bugs:
-    - 853448
 hyperestraier:
   version: 1.4.13-13
   issues:
@@ -18288,10 +18264,6 @@ php-apcu:
   version: 5.1.7+4.0.11-2
   issues:
     - captures_build_path_via_assert
-php-doctrine-cache-bundle:
-  version: 1.3.0-4
-  bugs:
-    - 873198
 php-facedetect:
   version: 1.1.0+git20160406-2
   issues:
@@ -22094,8 +22066,6 @@ r-cran-randomfields:
   version: 3.0.44-1
   issues:
     - randomness_in_r_rdb_rds_databases
-  bugs:
-    - 871183
 r-cran-randomfieldsutils:
   version: 0.3.3.1-1
   bugs:
@@ -24023,10 +23993,6 @@ scilab-plotlib:
   version: 0.42-1
   issues:
     - randomness_in_documentation_generated_by_scilab
-scim:
-  version: 1.4.17-1
-  bugs:
-    - 853654
 scim-canna:
   version: 1.0.0-4.2
   issues:
@@ -24242,10 +24208,6 @@ sfst:
   comments: |
     Compiles with different flags/optimizations depending on arch (uname -m):
     https://sources.debian.net/src/sfst/1.4.7b-1/configure.ac/#L75
-sga:
-  version: 0.10.15-2
-  bugs:
-    - 853656
 sgf2dg:
   version: 4.026-10
   issues:
@@ -25812,10 +25774,6 @@ tdfsb:
   version: 0.0.10-2
   issues:
     - gcc_captures_build_path
-tdiary-style-gfm:
-  version: 0.4.1-1
-  bugs:
-    - 873165
 tdom:
   version: 0.8.3-1
   issues:
