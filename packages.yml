@@ -1333,9 +1333,6 @@ batik:
   comments: |
     The build script adds a custom 'Build-Id' header including a
     timestamp, the hostname, etc. to MANIFEST.MF files.
-  issues:
-    - user_hostname_manually_added_requiring_further_investigation
-    - captures_kernel_version
 batmon.app:
   version: 0.8-1
   issues:
