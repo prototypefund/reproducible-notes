@@ -1328,11 +1328,6 @@ bash:
     - random_id_in_pdf_generated_by_dblatex
   bugs:
     - 806945
-batik:
-  version: 1.7+dfsg-4
-  comments: |
-    The build script adds a custom 'Build-Id' header including a
-    timestamp, the hostname, etc. to MANIFEST.MF files.
 batmon.app:
   version: 0.8-1
   issues:
