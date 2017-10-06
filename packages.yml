@@ -4765,10 +4765,6 @@ eigen3:
     - captures_build_path
   bugs:
     - 868786
-einspline:
-  version: 0.9.2-2
-  bugs:
-    - 853385
 eja:
   version: 9.5.20-1
   comments: |
@@ -8129,8 +8125,6 @@ gpsbabel:
   version: 1.5.0-3
   issues:
     - timestamps_in_pdf_generated_by_apache_fop
-  bugs:
-    - 872744
 gputils:
   version: 1.4.0-0.1
   issues:
@@ -18619,8 +18613,6 @@ pnmixer:
     .
     While %B is nominally locale-specific, here it is always rendered in English;
     presumably LC_ALL=C is set earlier in the package's build scripts.
-  bugs:
-    - 854112
 poa:
   version: 2.0+20060928-4
   issues:
@@ -22857,8 +22849,6 @@ robocode:
   version: 1.9.2.5-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
-  bugs:
-    - 871348
 roboptim-core:
   version: 2.0-7.1
   bugs:
@@ -23137,10 +23127,6 @@ ruby-compass:
   bugs:
     - 835834
     - 876608
-ruby-coveralls:
-  version: 0.7.0-2
-  bugs:
-    - 818430
 ruby-css-parser:
   version: 1.5.0.pre2-1
   bugs:
@@ -26233,10 +26219,6 @@ trilinos:
   bugs:
     - 835406
     - 836130
-trinityrnaseq:
-  version: 2.2.0+dfsg-2
-  bugs:
-    - 853687
 triplane:
   version: 1.0.8-1
   issues:
@@ -26418,8 +26400,6 @@ tycho:
   version: 0.25.0-1
   comments: |
     Contains a zip file with jar files inside. Candidate for manually calling strip-determinism?
-  bugs:
-    - 871347
 type-conv:
   version: 113.00.02-1
   issues:
@@ -27385,8 +27365,6 @@ why:
   comments: |
     Embed build time:
     https://sources.debian.net/src/why/2.34-2/version.sh/
-  bugs:
-    - 872281
 wide-dhcpv6:
   version: 20080615-19
   issues:
