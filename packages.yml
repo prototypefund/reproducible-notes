@@ -6710,6 +6710,10 @@ gbrowse:
     ConfigData.pm embeds a random 'OpenIDConsumerSecret'.
   bugs:
     - 833885
+gcc-3.3:
+  version: 1:3.3.6ds1-28
+  bugs:
+    - 877815
 gcc-5:
   version: 5.3.1-6
   comments: |
@@ -6756,20 +6760,30 @@ gcc-5-cross:
   version: 26
   bugs:
     - 877449
+    - 877816
 gcc-5-cross-ports:
   version: 8
   issues:
     - diffoscope_runs_forever
+  bugs:
+    - 877817
 gcc-6:
   version: 6.1.1-3
   issues:
     - blacklisted_on_jenkins
   bugs:
     - 862113
+    - 877818
+gcc-6-cross:
+  version: 25
+  bugs:
+    - 877819
 gcc-6-cross-ports:
   version: 8
   issues:
     - diffoscope_runs_forever
+  bugs:
+    - 877820
 gcc-7:
   version: 7-20170407-1
   issues:
@@ -6780,6 +6794,15 @@ gcc-7:
     - 853613
     - 853709
     - 866355
+    - 877821
+gcc-7-cross:
+  version: 8
+  bugs:
+    - 877822
+gcc-7-cross-ports:
+  version: 6
+  bugs:
+    - 877823
 gcc-avr:
   version: 1:4.8.1+Atmel3.4.4-2
   comments: |
@@ -6825,6 +6848,8 @@ gcc-snapshot:
   issues:
     - blacklisted_on_jenkins_armhf_only
     - diffoscope_runs_forever
+  bugs:
+    - 877824
 gcl:
   version: 2.6.12-1
   issues:
