@@ -1615,10 +1615,6 @@ bitstormlite:
   version: 0.2q-4
   issues:
     - gcc_captures_build_path
-bittornado:
-  version: 0.3.18-10.1
-  bugs:
-    - 796212
 bitz-server:
   version: 1.0.0-2
   issues:
@@ -2432,10 +2428,6 @@ cgdb:
   version: 0.6.7-2
   issues:
     - texinfo_mdate_sh_varies_by_timezone
-cgilib:
-  version: 0.6-1
-  bugs:
-    - 776935
 cgit:
   version: 1.0+git2.8.3-3
   comments: |
@@ -3971,19 +3963,11 @@ dict-devil:
     - timestamps_in_dictionaries
   bugs:
     - 776433
-dict-gazetteer2k:
-  version: 1.0.0-5.2
-  bugs:
-    - 776376
 dict-gcide:
   version: 0.48.1
   issues:
     - timestamps_in_dictionaries
     - too_much_input_for_diff
-dict-moby-thesaurus:
-  version: 1.0-6.2
-  bugs:
-    - 776375
 dietlibc:
   version: 0.34~cvs20160606-6
   issues:
@@ -4358,10 +4342,6 @@ dstat:
   version: 0.7.3-1
   bugs:
     - 852927
-dtaus:
-  version: 0.9-1
-  bugs:
-    - 777321
 dtc-xen:
   version: 0.5.17-1
   bugs:
@@ -4855,10 +4835,6 @@ emacs25:
   version: 25.1+1-1
   issues:
     - timestamps_in_emacs_autoloads
-ember:
-  version: 0.7.2+dfsg-1
-  bugs:
-    - 853388
 emboss:
   version: 6.6.0+dfsg-1
   issues:
@@ -5046,8 +5022,6 @@ erlang-p1-oauth2:
   version: 0.6.1-1
   issues:
     - captures_build_path_in_beam_files
-  bugs:
-    - 871190
 erlang-p1-pam:
   version: 1.0.0-3
   issues:
@@ -6384,18 +6358,10 @@ fsharp:
     - captures_build_path
   bugs:
     - 849655
-fso-deviced:
-  version: 0.12.0-7
-  bugs:
-    - 871058
 fso-gpsd:
   version: 0.8-3.1
   issues:
     - gcc_captures_build_path
-fso-gsmd:
-  version: 0.12.0-5
-  bugs:
-    - 871119
 fsplib:
   version: 0.11-2
   issues:
@@ -8570,7 +8536,6 @@ gwc:
   issues:
     - gcc_captures_build_path
   bugs:
-    - 868858
     - 868904
 gwenview:
   version: 4:16.08.2-1
@@ -9032,10 +8997,6 @@ hugo:
   issues:
     - timestamps_in_manpages_added_by_golang_cobra
     - golang_compiler_captures_build_path_in_binary
-hunspell-dict-ko:
-  version: 0.6.0-2
-  bugs:
-    - 859294
 hunt:
   version: 1.5-6.1
   issues:
@@ -12055,10 +12016,6 @@ libfsntfs:
   version: 20160418-1
   issues:
     - captures_build_path
-libfsoframework:
-  version: 0.12.0-7
-  bugs:
-    - 871176
 libftdi1:
   version: 1.3-2
   issues:
@@ -13032,10 +12989,6 @@ libpgm:
   version: 5.2.122~dfsg-2
   issues:
     - captures_build_arch
-libphone-ui-shr:
-  version: 0.1+git20130901-3
-  bugs:
-    - 853504
 libphonenumber:
   version: 7.1.0-3
   issues:
@@ -13650,10 +13603,6 @@ libwebsockets:
     - gcc_captures_build_path
   bugs:
     - 853515
-libwfut:
-  version: 0.2.3-4
-  bugs:
-    - 853516
 libwibble:
   version: 1.1-1
   issues:
@@ -18431,7 +18380,6 @@ plasma-framework:
     - different_due_to_umask
   bugs:
     - 828021
-    - 871129
 plasma-mediacenter:
   version: 5.7.3-1
   issues:
@@ -19264,10 +19212,6 @@ pycryptopp:
   version: 0.6.0.20120313-1
   issues:
     - gcc_captures_build_path
-pydenticon:
-  version: 0.3-1
-  bugs:
-    - 871079
 pydispatcher:
   version: 2.0.5-1
   issues:
@@ -26805,7 +26749,6 @@ valgrind:
 varconf:
   version: 1.0.1-3
   bugs:
-    - 853388
     - 871287
 variantslib:
   version: 113.33.03-2
@@ -27337,10 +27280,6 @@ weupnp:
   version: 0.1.4-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-wfmath:
-  version: 1.0.2+dfsg1-3
-  bugs:
-    - 853706
 wget:
   version: 1.18-2
   issues:
@@ -27388,8 +27327,6 @@ wily:
     - timestamps_in_tarball
     - different_due_to_umask
     - random_order_in_tarball
-  bugs:
-    - 777360
 wims:
   version: 1:4.08~dfsg1-1
   comments: |
