@@ -18578,14 +18578,6 @@ pngcheck:
     Also requires changes to debian/pod2man.mk, eg. https://gist.github.com/b2cb9fc57f06cd9cbef6
   bugs:
     - 795987
-pnmixer:
-  version: 0.7-1
-  comments: |
-    Captures build date:
-      man/Makefile.am:2:      @sed -e "s/!VERSION!/@PACKAGE_VERSION@/g" -e "s/!DATE!/`date '+%B %Y'`/g" < $*.0 > $@
-    .
-    While %B is nominally locale-specific, here it is always rendered in English;
-    presumably LC_ALL=C is set earlier in the package's build scripts.
 poa:
   version: 2.0+20060928-4
   issues:
