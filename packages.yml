@@ -3718,10 +3718,6 @@ debdelta:
   issues:
     - timestamps_in_gzip_headers
     - different_due_to_umask
-debian-archive-keyring:
-  version: 2017.5
-  bugs:
-    - 872525
 debian-builder:
   version: 1.8
   issues:
@@ -4956,8 +4952,6 @@ erlang-bitcask:
   version: 2.0.2+dfsg-1
   issues:
     - captures_build_path_in_beam_files
-  bugs:
-    - 869571
 erlang-cherly:
   version: 0.12.8+dfsg-5
   issues:
@@ -7281,10 +7275,6 @@ gkrelltop:
   version: 2.2.13-1
   issues:
     - gcc_captures_build_path
-glade:
-  version: 3.20.0-2
-  bugs:
-    - 870749
 glaurung:
   version: 2.2-2
   issues:
@@ -12154,10 +12144,6 @@ libgmpada:
     - unknown_ada_issue
     - captures_build_path
     - records_build_flags
-libgnome:
-  version: 2.32.1-5
-  bugs:
-    - 870742
 libgnome-keyring:
   version: 3.12.0-1
   bugs:
@@ -16098,8 +16084,6 @@ nfstrace:
     https://sources.debian.net/src/nfstrace/0.3.1-2/docs/nfstrace.8.in/#L22
   issues:
     - random_order_of_pdf_ids_generated_by_latex
-  bugs:
-    - 853571
 ngetty:
   version: 1.1-3
   bugs:
@@ -17356,10 +17340,6 @@ openorienteering-mapper:
   bugs:
     - 871820
     - 876934
-opensaml2:
-  version: 2.6.0-4
-  bugs:
-    - 853598
 openscad:
   version: 2015.03-1+dfsg-3
   issues:
@@ -19797,10 +19777,6 @@ python-gnatpython:
   version: 54-3
   issues:
     - gcc_captures_build_path
-python-greenlet:
-  version: 0.4.12-1
-  bugs:
-    - 873694
 python-gtkglext1:
   version: 1.1.0-9.1
   issues:
