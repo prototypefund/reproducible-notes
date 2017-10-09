@@ -936,8 +936,6 @@ aspectc++:
   version: 1:2.1-1
   issues:
     - captures_build_path
-  bugs:
-    - 853319
 aspectj:
   version: 1.8.5-1
   issues:
@@ -3459,10 +3457,6 @@ cython:
   issues:
     - copyright_year_in_documentation_generated_by_sphinx
     - blacklisted_on_jenkins_armhf_only
-czmq:
-  version: 4.0.2-8
-  bugs:
-    - 865581
 d-itg:
   version: 2.8.1-r1023-3
   issues:
@@ -3918,10 +3912,6 @@ dhcpd-pools:
   version: 2.28-1
   issues:
     - captures_shell_variable_in_autofoo_script
-dhcping:
-  version: 1.2-4.1
-  bugs:
-    - 777320
 dia:
   version: 0.97.3+git20160930-1
   issues:
@@ -4342,10 +4332,6 @@ dstat:
   version: 0.7.3-1
   bugs:
     - 852927
-dtc-xen:
-  version: 0.5.17-1
-  bugs:
-    - 777322
 dtd-parser:
   version: 1.2~svn20110404-1
   issues:
@@ -5307,10 +5293,6 @@ fastd:
     - captures_build_path
   bugs:
     - 853395
-fastforward:
-  version: 1:0.51-3
-  bugs:
-    - 776972
 fastjet:
   version: 3.0.6+dfsg-3
   issues:
@@ -11262,10 +11244,6 @@ lcm:
   issues:
     - captures_shell_variable_in_autofoo_script
     - records_build_flags
-lcmaps:
-  version: 1.6.1-2
-  bugs:
-    - 868740
 lcms2:
   version: 2.8.4
   comments: |
@@ -12574,10 +12552,6 @@ libkgapi:
   version: 5.1.0-2
   issues:
     - build_id_differences_only
-libkkc:
-  version: 0.3.5-1
-  bugs:
-    - 871187
 libkml:
   version: 1.3.0-3
   issues:
@@ -17308,10 +17282,6 @@ openms:
     - collation_order_varies_by_locale
   bugs:
     - 865240
-opennebula:
-  version: 4.12.3+dfsg-3.1
-  bugs:
-    - 853596
 openocd:
   version: 0.9.0-1
   issues:
@@ -24113,10 +24083,6 @@ shellex:
   version: 0.2-1
   issues:
     - gcc_captures_build_path
-shibboleth-sp2:
-  version: 2.6.0+dfsg1-4
-  bugs:
-    - 853659
 shiboken:
   version: 1.2.2-3
   issues:
@@ -26935,10 +26901,6 @@ vim-command-t:
     Note: this did _not_ happen on arm64/i386 on 20170501; unsure why, did arm64 have disorderfs enabled then?
   bugs:
     - 862553
-vimoutliner:
-  version: 0.3.4+pristine-9.1
-  bugs:
-    - 776369
 vine:
   version: 1.1.3+dfsg-2
   bugs:
