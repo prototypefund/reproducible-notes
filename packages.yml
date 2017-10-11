@@ -692,8 +692,6 @@ apitrace:
   version: 7.1+git20160531.2d78bef0+repack-1.1
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 871158
 aplus-fsf:
   version: 4.22.1-7
   issues:
@@ -2165,7 +2163,6 @@ capnproto:
   version: 0.5.3-2
   bugs:
     - 853342
-    - 853440
     - 853539
     - 871118
     - 871175
@@ -8598,10 +8595,6 @@ harminv:
   version: 1.4-1
   bugs:
     - 876693
-harvest-tools:
-  version: 1.3-1
-  bugs:
-    - 853440
 haskell-argon2:
   version: 1.2.0-3
   bugs:
@@ -15259,10 +15252,6 @@ mountpy:
     Due to «dh_fixperms --exclude /usr/bin/mountpy» in debian/rules.
   issues:
     - different_due_to_umask
-mousetweaks:
-  version: 3.12.0-1
-  bugs:
-    - 871136
 mozjs24:
   version: 24.2.0-3.1
   issues:
@@ -16794,7 +16783,6 @@ ocp:
     - timestamps_in_gzip_headers
     - captures_build_path
   bugs:
-    - 848916
     - 853581
 ocplib-simplex:
   version: 0.3-1
@@ -16813,10 +16801,6 @@ octave-communications:
   version: 1.2.1-1
   issues:
     - pdf_created_by_ghostscript
-octave-control:
-  version: 3.0.0-2
-  bugs:
-    - 874144
 octave-financial:
   version: 0.5.0-1
   bugs:
@@ -16843,8 +16827,6 @@ octave-odepkg:
   version: 0.8.5-2
   issues:
     - random_order_of_pdf_ids_generated_by_latex
-  bugs:
-    - 874143
 octave-signal:
   version: 1.3.2-1
   bugs:
