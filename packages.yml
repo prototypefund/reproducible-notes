@@ -6561,10 +6561,6 @@ gap-atlasrep:
   version: 1.5.1-1
   issues:
     - pdf_id_varying_due_to_build_path
-gap-autpgrp:
-  version: 1.5-2
-  issues:
-    - timestamps_in_tex_documents
 gap-ctbllib:
   version: 1r2p2.dfsg.0-3
   issues:
@@ -8027,8 +8023,6 @@ gpgme1.0:
     Note 1.7.0-1 in unstable was reproducible.
     .
     Repeat customer, see debian/patches/0007-make-documentation-reproducible-by-omitting-HTML_TIM.patch.
-  issues:
-    - captures_build_path
   bugs:
     - 876538
 gpgmepp:
@@ -19964,10 +19958,6 @@ python-pygit2:
     - captures_build_arch
   bugs:
     - 877112
-python-pymeasure:
-  version: 0.4.5-1
-  issues:
-    - captures_build_path_in_sphinx_attr_links
 python-pymzml:
   version: 0.7.6-dfsg-2
   issues:
@@ -27651,10 +27641,6 @@ xgammon:
   version: 0.99.1128-3
   issues:
     - gcc_captures_build_path
-xgks:
-  version: 2.6.1+dfsg.2-4
-  issues:
-    - captures_build_path
 xhtmlrenderer:
   version: 0.0~R8+dfsg2-1
   issues:
