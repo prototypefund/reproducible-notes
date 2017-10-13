@@ -14117,8 +14117,6 @@ lwipv6:
     - gcc_captures_build_path
 lwt:
   version: 2.5.2-1
-  issues:
-    - captures_build_path
   bugs:
     - 877548
 lxml:
@@ -16030,7 +16028,6 @@ nginx:
     - captures_build_path_via_assert
     - records_build_flags
     - max_output_size_reached
-    - captures_build_path
 ngraph-gtk:
   version: 6.07.02-2
   issues:
@@ -22606,10 +22603,6 @@ rhino:
   version: 1.7.7.1-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-rhythmbox:
-  version: 3.4-1
-  issues:
-    - captures_build_path
 ri-li:
   version: 2.0.1+ds-7
   bugs:
