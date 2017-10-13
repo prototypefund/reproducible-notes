@@ -726,6 +726,10 @@ appstream:
   version: 0.10.6-2
   issues:
     - build_id_differences_only
+appstream-glib:
+  version: 0.7.2-1
+  bugs:
+    - 878311
 apr:
   version: 1.5.2-4
   comments: |
@@ -8641,6 +8645,10 @@ haskell-secret-sharing:
   version: 1.0.0.3-3
   bugs:
     - 867195
+haskell-servant:
+  version: 0.11-1
+  bugs:
+    - 878316
 haskell-stack:
   version: 1.1.2-8
   bugs:
@@ -9284,6 +9292,10 @@ intel-cmt-cat:
   version: 0.1.3-2
   issues:
     - gcc_captures_build_path
+intel-gpu-tools:
+  version: 1.20-1
+  bugs:
+    - 878312
 intel-processor-trace:
   version: 1.5-1
   bugs:
