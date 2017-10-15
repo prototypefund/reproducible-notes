@@ -382,6 +382,8 @@ altos:
   issues:
     - timestamps_in_pdf_generated_by_apache_fop
     - timestamps_in_jar
+  bugs:
+    - 878453
 altree:
   version: 1.3.1-2
   issues:
@@ -1592,6 +1594,10 @@ bit-babbler:
   version: 0.5
   issues:
     - gcc_captures_build_path
+bitcoin:
+  version: 0.15.0.1~dfsg-1
+  bugs:
+    - 844933
 bitlbee:
   version: 3.4.2-1.1
   issues:
@@ -2033,6 +2039,10 @@ ca-certificates-java:
   version: 20140324
   issues:
     - timestamps_in_jar
+cabal-debian:
+  version: 4.35.6-2
+  bugs:
+    - 878468
 cacti:
   version: 0.8.8h+ds1-10
   issues:
@@ -9975,6 +9985,8 @@ js-of-ocaml:
   version: 2.2-2
   comments: |
     Ordering of symbols in dlljs_of_ocaml.so
+  bugs:
+    - 878469
 jsamp:
   version: 1.3.5-1
   issues:
@@ -11604,6 +11616,10 @@ libcap2:
   version: 1:2.25-1
   bugs:
     - 869588
+libcatmandu-mab2-perl:
+  version: 0.14-1
+  bugs:
+    - 877939
 libccrtp:
   version: 2.0.9-2.2
   bugs:
@@ -11674,6 +11690,10 @@ libclaw:
   version: 1.7.3-2
   issues:
     - build_id_differences_only
+libcloud:
+  version: 1.5.0-1
+  bugs:
+    - 878542
 libcobra-java:
   version: 0.98.4-5
   issues:
@@ -11908,6 +11928,10 @@ libevtx:
   version: 20160421-1
   issues:
     - captures_build_path
+libexecs:
+  version: 1.0-1
+  bugs:
+    - 873675
 libexif-gtk:
   version: 0.3.5-5
   issues:
@@ -12430,6 +12454,10 @@ libjpf-java:
   version: 1.5.1+dfsg-4
   issues:
     - random_order_in_documentation_generated_by_javadoc
+libjs-angular-gettext:
+  version: 2.3.8-1
+  bugs:
+    - 878452
 libjson-rpc-cpp:
   version: 0.7.0-1
   issues:
@@ -12493,6 +12521,8 @@ libkf5kface:
   issues:
     - too_much_input_for_diff
     - gcc_captures_build_path
+  bugs:
+    - 841411
 libkf5kgeomap:
   version: 16.04.0-2
   issues:
@@ -12521,6 +12551,8 @@ libkolab:
   version: 1.0.2-3
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 878500
 libkqueue:
   version: 2.0.3-1.1
   bugs:
@@ -12587,6 +12619,10 @@ liblockfile:
   version: 1.09-6
   issues:
     - random_order_in_md5sums
+liblog-dispatch-filerotate-perl:
+  version: 1.19-1
+  bugs:
+    - 878550
 liblog4ada:
   version: 1.2-5
   issues:
@@ -14108,6 +14144,7 @@ lwt:
   version: 2.5.2-1
   bugs:
     - 877548
+    - 878495
 lxml:
   version: 3.6.0-1
   issues:
@@ -14844,6 +14881,7 @@ mldemos:
   version: 0.5.1-3
   bugs:
     - 812032
+    - 861270
 mldonkey:
   version: 3.1.5-3
   issues:
@@ -17370,6 +17408,8 @@ orthanc-postgresql:
   version: 2.0-1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 878565
 orthanc-webviewer:
   version: 2.2-1
   issues:
@@ -18179,6 +18219,8 @@ pike7.8:
   issues:
     - timestamps_from_cpp_macros
     - captures_kernel_version
+  bugs:
+    - 878566
 pillow:
   version: 3.3.1-1
   issues:
@@ -18582,6 +18624,10 @@ postgresql-9.6:
     - captures_build_path
     - records_build_flags
     - captures_build_arch
+postgresql-filedump:
+  version: 9.6.0-2
+  bugs:
+    - 878564
 postgresql-hll:
   version: 2.7-2.1
   issues:
@@ -18610,6 +18656,8 @@ postgresql-pllua:
   version: 1:1.0-6
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 878563
 postgresql-plproxy:
   version: 2.6-2
   issues:
@@ -19242,6 +19290,8 @@ pymvpa2:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - captures_build_path
+  bugs:
+    - 877620
 pynifti:
   version: 0.20100607.1-4.1
   issues:
@@ -19581,6 +19631,8 @@ python-escript:
     - users_and_groups_in_tarball
     - different_due_to_umask
     - fonts_in_pdf_files
+  bugs:
+    - 878496
 python-espeak:
   version: 0.5-1
   issues:
@@ -20024,6 +20076,10 @@ python-structlog:
   version: 16.1.0-1
   bugs:
     - 876988
+python-subunit2sql:
+  version: 1.8.0-2
+  bugs:
+    - 878463
 python-taskflow:
   version: 1.3.0-2
   comments: |
@@ -23037,6 +23093,10 @@ ruby-filesystem:
   version: 0.5-5.1
   issues:
     - gcc_captures_build_path
+ruby-flipper:
+  version: 0.10.2-1
+  bugs:
+    - 877810
 ruby-flowdock:
   version: 0.7.0-1
   bugs:
@@ -23781,6 +23841,10 @@ scsitools:
   version: 0.12-2.3
   issues:
     - gcc_captures_build_path
+scute:
+  version: 1.5.0+git20160808+94eeb2d-2
+  bugs:
+    - 878470
 sdate:
   version: 0.4
   issues:
@@ -24093,6 +24157,8 @@ sikulix:
   version: 1.1.0-1
   issues:
     - captures_build_path
+  bugs:
+    - 877073
 silentjack:
   version: 0.3-2
   issues:
@@ -24256,6 +24322,7 @@ skytools3:
     - captures_build_path
   bugs:
     - 827384
+    - 878561
 skyview:
   version: 3.2.3+repack-1
   issues:
@@ -24402,6 +24469,8 @@ snakemake:
   version: 3.7.1+dfsg-1
   issues:
     - captures_build_path
+  bugs:
+    - 878498
 snakeyaml:
   version: 1.17-1
   issues:
@@ -26461,6 +26530,10 @@ unionfs-fuse:
   version: 1.0-1
   issues:
     - gcc_captures_build_path
+unison:
+  version: 2.48.3-1
+  bugs:
+    - 878462
 unittest++:
   version: 1.4.0-3.1
   issues:
@@ -26501,6 +26574,10 @@ upnp-router-control:
   version: 0.2-1.2
   issues:
     - gcc_captures_build_path
+uprightdiff:
+  version: 1.2.0-1
+  bugs:
+    - 878549
 upslug2:
   version: 11-3
   issues:
@@ -28124,6 +28201,8 @@ zabbix:
   version: 1:2.2.7+dfsg-1
   issues:
     - timestamps_from_cpp_macros
+  bugs:
+    - 878560
 zathura:
   version: 0.3.6-2
   issues:
