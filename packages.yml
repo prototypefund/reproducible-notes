@@ -19859,6 +19859,10 @@ python-oslo.service:
   version: 1.16.0-2
   bugs:
     - 867630
+python-oslo.utils:
+  version: 3.16.0-2
+  issues:
+    - random_order_in_python_environment_pickle
 python-padme:
   version: 1.1.1-1
   issues:
