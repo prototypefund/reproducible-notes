@@ -5746,6 +5746,8 @@ flightgear:
   version: 1:2016.2.1+dfsg-6
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 878631
 flint:
   version: 2.5.2-9
   issues:
@@ -11956,6 +11958,10 @@ libfm:
   version: 1.2.5-1
   bugs:
     - 876614
+libfont-freetype-perl:
+  version: 0.07-1
+  bugs:
+    - 878632
 libforms:
   version: 1.2.3-1.2
   issues:
@@ -17855,6 +17861,7 @@ pdf2htmlex:
     - gcc_captures_build_path
   bugs:
     - 835165
+    - 878598
 pdfmod:
   version: 0.9.1-8
   issues:
@@ -18015,6 +18022,10 @@ pgloader:
   version: 3.3.1+dfsg-1
   comments: |
     Looks like the .fasl compiled lisp intermediate files contain the build time, then the whole thing gets compressed when combined in the pgloader binary so it becomes opaque at the package diffoscope level.
+pglogical:
+  version: 2.0.1-1
+  bugs:
+    - 878581
 pgmemcache:
   version: 2.3.0-2
   issues:
@@ -19877,6 +19888,10 @@ python-pex:
   version: 1.1.0-2
   issues:
     - captures_build_arch
+python-pgpy:
+  version: 0.4.3-2
+  bugs:
+    - 878633
 python-phply:
   version: 0.9.1-3
   issues:
@@ -25295,6 +25310,10 @@ syrthes:
     The shell glob expansion order is locale dependent.
   issues:
     - random_order_in_static_libraries
+sysbench:
+  version: 1.0.8+ds-1
+  bugs:
+    - 878588
 sysdig:
   version: 0.9.0-1
   issues:
@@ -27174,6 +27193,10 @@ wget:
   version: 1.18-2
   issues:
     - gcc_captures_build_path
+whitedb:
+  version: 0.7.3-3
+  bugs:
+    - 878589
 whitedune:
   version: 0.30.10-2.1
   comments: |
