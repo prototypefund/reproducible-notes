@@ -3992,6 +3992,10 @@ dislocker:
     - build_id_differences_only
   bugs:
     - 853374
+distro-info:
+  version: 0.17
+  bugs:
+    - 878789
 dita-ot:
   version: 1.5.3-1
   comments: |
@@ -5179,6 +5183,10 @@ exonerate:
   version: 2.4.0-2
   issues:
     - captures_build_path
+expeyes:
+  version: 4.2.1+dfsg-4
+  bugs:
+    - 878751
 extlib:
   version: 1.7.0-2
   issues:
@@ -7727,6 +7735,10 @@ golang-github-boltdb-bolt:
   version: 1.2.1-1
   bugs:
     - 832834
+golang-github-chzyer-readline:
+  version: 1.4-1
+  bugs:
+    - 878794
 golang-github-cloudflare-cfssl:
   version: 1.2.0+git20160825.89.7fb22c8-1
   issues:
@@ -8323,6 +8335,10 @@ gss:
     - timestamps_in_ps_generated_by_dvips
   bugs:
     - 876593
+gst-plugins-bad1.0:
+  version: 1.12.3-1
+  bugs:
+    - 878747
 gst-plugins-base1.0:
   version: 1.5.0.1+git20150513-1
   bugs:
@@ -16195,6 +16211,7 @@ nomacs:
     - build_id_differences_only
   bugs:
     - 876153
+    - 878793
 nomad:
   version: 0.4.0+dfsg-1
   issues:
@@ -18737,6 +18754,10 @@ ppx-type-conv:
   version: 113.33.03-1
   issues:
     - captures_build_path
+praat:
+  version: 6.0.34-1
+  bugs:
+    - 878746
 prayer:
   version: 1.3.5-dfsg1-3
   bugs:
@@ -26873,6 +26894,8 @@ visp:
   version: 3.0.0-4
   issues:
     - captures_build_path
+  bugs:
+    - 871414
 visualvm:
   version: 1.3.8-2
   comments: |
