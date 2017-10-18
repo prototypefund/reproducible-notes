@@ -163,8 +163,6 @@ adacontrol:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - unknown_ada_issue
-  bugs:
-    - 866355
 adasockets:
   version: 1.9-1
   comments: |
@@ -1150,10 +1148,6 @@ avrdude:
   version: 6.3-1
   issues:
     - pdf_id_varying_due_to_build_path
-avro-java:
-  version: 1.7.7-2
-  bugs:
-    - 871340
 awesome:
   version: 4.0-1
   issues:
@@ -3023,8 +3017,6 @@ conky:
     https://sources.debian.net/src/conky/1.9.0-6/configure.ac.in/#L93-L94
   issues:
     - captures_kernel_version
-  bugs:
-    - 853353
 connectome-workbench:
   version: 1.2.3-1
   issues:
@@ -3990,8 +3982,6 @@ dislocker:
   version: 0.6.1-6
   issues:
     - build_id_differences_only
-  bugs:
-    - 853374
 distro-info:
   version: 0.17
   bugs:
@@ -6752,7 +6742,6 @@ gcc-7:
     - 853610
     - 853613
     - 853709
-    - 866355
     - 877821
 gcc-7-cross:
   version: 8
@@ -13379,10 +13368,6 @@ libterm-readline-zoid-perl:
   version: 0.07-2.1
   issues:
     - absolute_build_paths_in_dot_packlist_file_generated_by_perl_extutils_packlist
-libtest-redisserver-perl:
-  version: 0.20-1
-  bugs:
-    - 868945
 libtext-charwidth-perl:
   version: 0.04-7
   issues:
