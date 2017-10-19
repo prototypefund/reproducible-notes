@@ -1310,10 +1310,6 @@ captures_home_dir:
 captures_execution_time:
   description:
     Captures execution time, which may vary between builds.
-too_much_input_for_diff:
-  description: |
-    diffoscope return "Too much input for diff" instead of meaningful diff.
-    https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=836784
 max_output_size_reached:
   description: |
     diffoscope output doesn't show all differences.

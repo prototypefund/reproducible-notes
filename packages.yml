@@ -215,7 +215,6 @@ adwaita-qt:
 aegisub:
   version: 3.2.2+dfsg-3
   issues:
-    - too_much_input_for_diff
     - gcc_captures_build_path
   bugs:
     - 873327
@@ -663,8 +662,6 @@ apertium-kaz:
   comments: |
     Zip file with non-standard extension. Should have been fixed by
     dh-stripnondeterminism matching .zhfst files, but there are differences.
-  issues:
-    - too_much_input_for_diff
 apertium-mk-bg:
   version: 0.2.0~r49489-1
   issues:
@@ -686,8 +683,6 @@ apertium-tat:
   comments: |
     Zip file with non-standard extension. Should have been fixed by
     dh-stripnondeterminism matching .zhfst files, but there are differences.
-  issues:
-    - too_much_input_for_diff
 apitrace:
   version: 7.1+git20160531.2d78bef0+repack-1.1
   issues:
@@ -768,7 +763,6 @@ apt-dpkg-ref:
 aptly:
   version: 0.9.7-1
   issues:
-    - too_much_input_for_diff
     - golang_compiler_captures_build_path_in_binary
 aptsh:
   version: 0.0.8
@@ -981,7 +975,6 @@ asymptote:
     - timestamps_in_png
     - timestamps_in_pdf_generated_by_latex
     - fonts_in_pdf_files
-    - too_much_input_for_diff
     - random_id_in_pdf_generated_by_dblatex
 async-http-client:
   version: 1.6.5-4
@@ -1024,7 +1017,6 @@ ats-lang-anairiats:
   version: 0.2.11-1
   issues:
     - captures_build_path
-    - too_much_input_for_diff
 attal:
   version: 1.0~rc2-2
   bugs:
@@ -1404,7 +1396,6 @@ beignet:
   issues:
     - different_encoding
     - captures_build_path
-    - too_much_input_for_diff
 belenios:
   version: 1.4+dfsg-1
   issues:
@@ -2333,7 +2324,6 @@ cduce:
   version: 0.6.0-1
   issues:
     - captures_build_path
-    - too_much_input_for_diff
   bugs:
     - 796418
     - 878983
@@ -2432,7 +2422,6 @@ cgit:
     Captures $HOME.
   issues:
     - captures_home_dir
-    - too_much_input_for_diff
 cglib:
   version: 3.2.4-1
   issues:
@@ -3035,7 +3024,6 @@ consensuscore:
   version: 1.0.2-2
   issues:
     - captures_build_path
-    - too_much_input_for_diff
 console-setup:
   version: 1.142
   bugs:
@@ -3043,7 +3031,6 @@ console-setup:
 consul:
   version: 0.6.4~dfsg-3
   issues:
-    - too_much_input_for_diff
     - golang_compiler_captures_build_path_in_binary
   bugs:
     - 871687
@@ -3211,7 +3198,6 @@ crrcsim:
 crtmpserver:
   version: 1.0~dfsg-5.1
   issues:
-    - too_much_input_for_diff
     - gcc_captures_build_path
 cryfs:
   version: 0.9.5-4
@@ -3943,7 +3929,6 @@ dict-gcide:
   version: 0.48.1
   issues:
     - timestamps_in_dictionaries
-    - too_much_input_for_diff
 dietlibc:
   version: 0.34~cvs20160606-6
   issues:
@@ -3955,7 +3940,6 @@ diffstat:
 digikam:
   version: 4:5.1.0-2
   issues:
-    - too_much_input_for_diff
     - build_id_differences_only
   bugs:
     - 876154
@@ -4251,15 +4235,10 @@ doxygen:
   issues:
     - timezones_manpages_podman
     - captures_build_path
-    - too_much_input_for_diff
 dpkg:
   version: 1.18.23
   bugs:
     - 862116
-dpmb:
-  version: 0~2016.06.30
-  issues:
-    - too_much_input_for_diff
 dput:
   version: 0.9.6.4
   issues:
@@ -4320,7 +4299,6 @@ dub:
   version: 0.9.24-1
   issues:
     - timestamps_from_cpp_macros_in_d
-    - too_much_input_for_diff
 dublin-traceroute:
   version: 0.3-2
   issues:
@@ -4501,8 +4479,6 @@ ecere-sdk:
   comments: |
     Embeds timestamps.
     https://github.com/ecere/ecere-sdk/blob/master/ecere/src/sys/EARArchive.ec#L35
-  issues:
-    - too_much_input_for_diff
 echoping:
   version: 6.0.2-8
   comments: |
@@ -4658,8 +4634,6 @@ edid-decode:
     - gcc_captures_build_path
 edk2:
   version: 0~20160408.ffea0a2c-2
-  issues:
-    - too_much_input_for_diff
   bugs:
     - 853382
 eeshow:
@@ -5046,7 +5020,6 @@ erlsvc:
 esajpip:
   version: 0.1~bzr33-4
   issues:
-    - too_much_input_for_diff
     - random_id_in_pdf_generated_by_dblatex
 esdl:
   version: 1.3.1-3
@@ -5477,7 +5450,6 @@ felix-shell:
 ferret-vis:
   version: 7.0-1
   issues:
-    - too_much_input_for_diff
     - build_id_differences_only
 fest-assert:
   version: 2.0~M10-1
@@ -5530,10 +5502,6 @@ fflas-ffpack:
   version: 2.2.1-2
   issues:
     - records_build_flags
-ffmpeg:
-  version: 7:3.1.2-1
-  issues:
-    - too_much_input_for_diff
 ffmpeg2theora:
   version: 0.30-1
   bugs:
@@ -5621,10 +5589,6 @@ fio:
   version: 2.10-2
   issues:
     - gcc_captures_build_path
-firebird3.0:
-  version: 3.0.0~svn+53030.ds3-1
-  issues:
-    - too_much_input_for_diff
 firefox:
   version: 47.0.1-1
   issues:
@@ -5750,7 +5714,6 @@ flightgear:
 flint:
   version: 2.5.2-9
   issues:
-    - too_much_input_for_diff
     - random_id_in_pdf_generated_by_dblatex
 flite:
   version: 1.4-release-12
@@ -6402,7 +6365,6 @@ fvwm:
 fvwm1:
   version: 1.24r-56
   issues:
-    - too_much_input_for_diff
     - gcc_captures_build_path
 fwbuilder:
   version: 5.1.0-4
@@ -6849,7 +6811,6 @@ gdb-mingw-w64:
   version: 10.2
   issues:
     - captures_build_path
-    - too_much_input_for_diff
 gdb-msp430:
   version: 7.2a~mspgcc-20111205-3.1
   issues:
@@ -7109,10 +7070,6 @@ giada:
   version: 0.14.1~dfsg1-1
   bugs:
     - 853418
-giella-sme:
-  version: 0.0.20150917~r121176-1
-  issues:
-    - too_much_input_for_diff
 gifticlib:
   version: 1.0.9-1
   issues:
@@ -7173,14 +7130,8 @@ gitano:
   version: 1.0-1
   issues:
     - random_id_in_pdf_generated_by_dblatex
-github-backup:
-  version: 1.20160522-1
-  issues:
-    - too_much_input_for_diff
 gitlab-ci-multi-runner:
   version: 1.4.2+dfsg-1
-  issues:
-    - too_much_input_for_diff
   bugs:
     - 871078
 gitlab-workhorse:
@@ -7235,7 +7186,6 @@ glbinding:
 gle-graphics:
   version: 4.2.5-6
   issues:
-    - too_much_input_for_diff
     - random_id_in_pdf_generated_by_dblatex
   bugs:
     - 853420
@@ -7411,10 +7361,6 @@ gnokii:
   version: 0.6.30+dfsg-1.1
   issues:
     - gcc_captures_build_path
-gnome-boxes:
-  version: 3.20.0-1
-  issues:
-    - too_much_input_for_diff
 gnome-builder:
   version: 3.20.4-2
   issues:
@@ -7623,7 +7569,6 @@ gnustep-base:
     - timestamps_in_pdf_generated_by_latex
     - user_in_documentation_generated_by_gsdoc
     - records_build_flags
-    - too_much_input_for_diff
 gnustep-dl2:
   version: 0.12.0-13
   comments: |
@@ -7650,7 +7595,6 @@ gnutls28:
 go-mtpfs:
   version: 0.0~git20150802.0.3ef47f9-2
   issues:
-    - too_much_input_for_diff
     - golang_compiler_captures_build_path_in_binary
 go-wire:
   version: 0~20161027~0git287d8ca-1
@@ -7916,7 +7860,6 @@ golang-github-vbatts-tar-split:
 golang-github-xenolf-lego:
   version: 0.3.1-1
   issues:
-    - too_much_input_for_diff
     - golang_compiler_captures_build_path_in_binary
 golang-github-xordataexchange-crypt:
   version: 0.0.2+git20150523.17.749e360-4
@@ -7961,10 +7904,6 @@ goocanvas-2.0:
   version: 2.0.2-2
   bugs:
     - 876597
-google-cloud-print-connector:
-  version: 0.0~git20151105.24.1902938-1
-  issues:
-    - too_much_input_for_diff
 google-perftools:
   version: 2.5-2.2
   bugs:
@@ -8715,7 +8654,6 @@ hdf5:
     - user_hostname_manually_added_requiring_further_investigation
     - captures_kernel_version
     - records_build_flags
-    - too_much_input_for_diff
     - captures_build_arch
 hdup:
   version: 2.0.14-4
@@ -10589,7 +10527,6 @@ kido:
     https://sources.debian.net/src/kido/0.1.0%2Bdfsg-2/kido/config.hpp.in/?hl=51#L52
   issues:
     - captures_build_path
-    - too_much_input_for_diff
 kig:
   version: 4:16.04.1-1
   issues:
@@ -11252,10 +11189,6 @@ leave:
     - timestamps_in_gzip_headers
   bugs:
     - 777403
-ledger:
-  version: 3.1+dfsg1-7
-  issues:
-    - too_much_input_for_diff
 leds-alix:
   version: 0.0.1-1.1
   issues:
@@ -12489,7 +12422,6 @@ libkf5kface:
   comments: |
     Same issue as supercollider-sc3-plugins.
   issues:
-    - too_much_input_for_diff
     - gcc_captures_build_path
   bugs:
     - 841411
@@ -13128,7 +13060,6 @@ librep:
   issues:
     - captures_shell_variable_in_autofoo_script
     - user_hostname_manually_added_requiring_further_investigation
-    - too_much_input_for_diff
     - records_build_flags
   bugs:
     - 834534
@@ -13204,7 +13135,6 @@ libsbml:
     - timestamps_in_dvi_generated_by_latex
     - blacklisted_on_jenkins_armhf_only
     - timestamps_in_ps_generated_by_dvips
-    - too_much_input_for_diff
 libscca:
   version: 20160108-1
   issues:
@@ -13842,7 +13772,6 @@ livestreamer:
 lizardfs:
   version: 3.10.0+dfsg-1
   issues:
-    - too_much_input_for_diff
     - gcc_captures_build_path
 ll-scope:
   version: 0.2.1-3
@@ -13992,7 +13921,6 @@ lout:
     - collation_order_varies_by_locale
     - captures_build_path
     - timestamps_in_ps_generated_by_dvips
-    - too_much_input_for_diff
 love:
   version: 0.9.1-3
   issues:
@@ -14597,7 +14525,6 @@ meep-mpich2:
 megaglest:
   version: 3.12.0-2
   issues:
-    - too_much_input_for_diff
     - gcc_captures_build_path
 members:
   version: 20080128-5
@@ -14646,7 +14573,6 @@ merkleeyes:
 mesa:
   version: 13.0.6-1
   issues:
-    - too_much_input_for_diff
     - build_path_captured_in_assembly_objects
 metapixel:
   version: 1.0.2-7.4
@@ -14660,10 +14586,6 @@ metis:
   version: 5.1.0.dfsg-5
   issues:
     - build_id_differences_only
-metview:
-  version: 4.6.5-4
-  issues:
-    - too_much_input_for_diff
 mgcv:
   version: 1.8-14-1
   issues:
@@ -15342,7 +15264,6 @@ mps-youtube:
 mpv:
   version: 0.20.0-1
   issues:
-    - too_much_input_for_diff
     - gcc_captures_build_path
 mriconvert:
   version: 1:2.0.8-4
@@ -15714,7 +15635,6 @@ nco:
   version: 4.5.0-1
   issues:
     - timestamps_from_cpp_macros
-    - too_much_input_for_diff
 ncrack:
   version: 0.5-2
   bugs:
@@ -17034,7 +16954,6 @@ openclipart:
 openclonk:
   version: 7.0-3
   issues:
-    - too_much_input_for_diff
     - gcc_captures_build_path
 opencolorio:
   version: 1.0.9~dfsg0-6
@@ -17217,8 +17136,6 @@ openorienteering-mapper:
       The first set of differences is six non-consecutive bytes having different values.
       The second set is a ~1800 bytes long block that has a different value and a different length.
       Q_OBJECT is defined in qtbase-opensource-src.
-  issues:
-    - too_much_input_for_diff
   bugs:
     - 876934
 openscad:
@@ -18896,7 +18813,6 @@ prometheus-mysqld-exporter:
 prometheus-node-exporter:
   version: 0.12.0+ds+really0.12.0-2
   issues:
-    - too_much_input_for_diff
     - golang_compiler_captures_build_path_in_binary
 prometheus-postgres-exporter:
   version: 0.1.1+ds-1
@@ -18938,7 +18854,6 @@ pseudo:
 psi-plus:
   version: 0.16.330-1
   issues:
-    - too_much_input_for_diff
     - gcc_captures_build_path
 psi4:
   version: 1:1.0-1
@@ -19247,7 +19162,6 @@ pymol:
   version: 1.7.2.1-1
   issues:
     - timestamps_in_pdf_generated_by_latex
-    - too_much_input_for_diff
 pymssql:
   version: 1.0.2+dfsg-2
   issues:
@@ -19981,7 +19895,6 @@ python-qt4:
   version: 4.11.4+dfsg-2
   issues:
     - records_build_flags
-    - too_much_input_for_diff
     - gcc_captures_build_path
 python-qtconsole:
   version: 4.2.1-2~exp3
@@ -20378,7 +20291,6 @@ qt4-x11:
     - blacklisted_on_jenkins_armhf_only
     - different_encoding
     - timestamps_in_qmake_makefiles
-    - too_much_input_for_diff
 qtads:
   version: 2.1.6-1.1
   bugs:
@@ -20534,7 +20446,6 @@ qtwebkit:
   issues:
     - timestamps_from_cpp_macros
     - captures_build_path
-    - too_much_input_for_diff
 qtwebkit-examples-opensource-src:
   version: 5.3.2+dfsg-2
   issues:
@@ -22803,7 +22714,6 @@ ros-vision-opencv:
 rosegarden:
   version: 1:16.06-1
   issues:
-    - too_much_input_for_diff
     - gcc_captures_build_path
 rotter:
   version: 0.9-3
@@ -22847,7 +22757,6 @@ rr:
   version: 4.3.0-1
   issues:
     - captures_build_path
-    - too_much_input_for_diff
 rrdcollect:
   version: 0.2.10-2
   issues:
@@ -26216,7 +26125,6 @@ tweak:
 twinkle:
   version: 1:1.10.0+dfsg-1
   issues:
-    - too_much_input_for_diff
     - gcc_captures_build_path
 twisted:
   version: 16.3.0-1
@@ -26360,19 +26268,10 @@ ufoai:
   issues:
     - random_id_in_pdf_generated_by_dblatex
     - fonts_in_pdf_files
-ufoai-data:
-  version: 2.5-1
-  issues:
-    - too_much_input_for_diff
 ufoai-maps:
   version: 2.5-1
   issues:
     - blacklisted_on_jenkins_armhf_only
-    - too_much_input_for_diff
-ufoai-music:
-  version: 2.5-1
-  issues:
-    - too_much_input_for_diff
 ufraw:
   version: 0.22-1.1
   bugs:
@@ -26568,7 +26467,6 @@ urweb:
   version: 20150214+dfsg-1
   issues:
     - fonts_in_pdf_files
-    - too_much_input_for_diff
 urwid:
   version: 1.3.1-2
   bugs:
@@ -26814,7 +26712,6 @@ viking:
     List of include depends on filesystem order: “for file in *_pixmap.h;”
     https://sources.debian.net/src/viking/1.6-1/src/icons/Makefile.am/?hl=270:#L270
   issues:
-    - too_much_input_for_diff
     - timestamps_in_manpages_generated_by_docbook_xsl
   bugs:
     - 820603
@@ -27346,7 +27243,6 @@ wordnet:
   version: 1:3.0-33
   issues:
     - timestamps_in_dictionaries
-    - too_much_input_for_diff
 wordwarvi:
   version: 1.00+dfsg1-3
   comments: |
@@ -27424,7 +27320,6 @@ x11proto-core:
   version: 7.0.26-1
   issues:
     - timestamps_in_pdf_generated_by_apache_fop
-    - too_much_input_for_diff
 x11vnc:
   version: 0.9.13-1.2
   comments: |
@@ -27451,10 +27346,6 @@ xabacus:
   version: 8.0.2-1
   bugs:
     - 865994
-xalan:
-  version: 1.11-5
-  issues:
-    - too_much_input_for_diff
 xarclock:
   version: 1.0-14
   issues:
@@ -27796,7 +27687,6 @@ xorp:
     - captures_kernel_version
     - captures_build_path
     - user_hostname_manually_added_requiring_further_investigation
-    - too_much_input_for_diff
 xosd:
   version: 2.2.14-2.1
   issues:
