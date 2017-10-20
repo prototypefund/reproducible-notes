@@ -13758,6 +13758,10 @@ littler:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
+live-build:
+  version: 1:20170920
+  bugs:
+    - 879169
 live-manual:
   version: 4.0.2-1
   comments: |
