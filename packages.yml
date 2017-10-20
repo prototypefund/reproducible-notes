@@ -2,6 +2,8 @@
   version: 0.0.20-2
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 879071
 3270font:
   version: 1.2-1
   issues:
@@ -1492,6 +1494,10 @@ binaryornot:
   version: 0.4.0-1
   bugs:
     - 854084
+bind-dyndb-ldap:
+  version: 10.1-2
+  bugs:
+    - 879069
 bind9:
   version: 1:9.10.3.dfsg.P4-10
   comments: |
@@ -8539,6 +8545,10 @@ haskell-language-python:
   version: 0.5.4-4
   bugs:
     - 876702
+haskell-linear:
+  version: 1.20.6-1
+  bugs:
+    - 879082
 haskell-mode:
   version: 13.10-3
   issues:
@@ -9253,6 +9263,10 @@ ipkungfu:
   version: 0.6.1-6.1
   issues:
     - gcc_captures_build_path
+ipmitool:
+  version: 1.8.18-4
+  bugs:
+    - 879063
 ipmiutil:
   version: 3.0.1-1
   bugs:
@@ -11147,6 +11161,11 @@ ldaptor:
     - captures_home_dir
   bugs:
     - 827419
+ldc:
+  version: 1:1.4.0-3
+  bugs:
+    - 878837
+    - 879039
 ldns:
   version: 1.6.17-5
   bugs:
@@ -12780,6 +12799,10 @@ libopenobex:
   version: 1.7.1-4
   issues:
     - captures_build_path
+libopenshot:
+  version: 0.1.8+ds1-1
+  bugs:
+    - 879074
 liboping:
   version: 1.9.0-1
   issues:
@@ -14231,6 +14254,7 @@ manila:
     - random_order_in_python_environment_pickle
   bugs:
     - 861896
+    - 871337
 manpages-tr:
   version: 1.0.5.1-2
   comments: |
