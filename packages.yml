@@ -26313,6 +26313,10 @@ ufoai-maps:
   version: 2.5-1
   issues:
     - blacklisted_on_jenkins_armhf_only
+ufoai-music:
+  version: 2.5-1
+  comments: |
+    Fixed in https://anonscm.debian.org/git/reproducible/strip-nondeterminism.git/commit/\?id\=eefc2957263b09d1eb996a18544e67944016584e
 ufraw:
   version: 0.22-1.1
   bugs:
