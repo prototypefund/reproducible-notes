@@ -5569,10 +5569,6 @@ filters:
   version: 2.55-1
   bugs:
     - 841394
-fim:
-  version: 0.5~rc2-1
-  bugs:
-    - 820932
 fimport:
   version: 3000.82-3
   issues:
@@ -13489,8 +13485,6 @@ libwebsockets:
     Randomly generated test keys in /usr/share/libwebsockets-test-server.
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 853515
 libwibble:
   version: 1.1-1
   issues:
@@ -14370,10 +14364,6 @@ maven:
   issues:
     - random_order_in_plexus_comonents_xml
     - random_order_in_sisu_javax_inject_named
-maven-ant-tasks:
-  version: 2.1.3-4
-  bugs:
-    - 871080
 maven-antrun-extended-plugin:
   version: 1.42-1
   issues:
@@ -26624,8 +26614,6 @@ vdr-plugin-live:
   version: 0.3.0+git20160123-1
   comments: |
     I think this is the calls to time in pages/whats_on.ecpp
-  bugs:
-    - 853699
 vdr-plugin-osdteletext:
   version: 0.9.5-3
   issues:
