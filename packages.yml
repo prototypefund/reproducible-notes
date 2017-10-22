@@ -802,6 +802,10 @@ arduino-mighty-1284p:
   version: 1-2
   comments: |
     The package passes all of dpkg-buildflags to avr-gcc, which doesn't support some of the options, e.g. -Wdate-time.
+argagg:
+  version: 0.4.6-1
+  issues:
+    - nondeterministic_ordering_in_documentation_generated_by_doxygen
 argparse4j:
   version: 0.4.4-1
   issues:
