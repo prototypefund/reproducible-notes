@@ -11837,10 +11837,6 @@ libdssialsacompat:
   version: 1.0.8a-1
   issues:
     - gcc_captures_build_path
-libdv:
-  version: 1.0.0-11
-  issues:
-    - captures_build_path
 libencode-eucjpms-perl:
   version: 0.07-3
   issues:
@@ -15834,10 +15830,6 @@ netsurf:
     - timestamps_in_png
   bugs:
     - 869600
-nettle:
-  version: 3.3-1
-  issues:
-    - captures_build_path
 netty-3.9:
   version: 3.9.9.Final-1
   issues:
@@ -19310,10 +19302,6 @@ pyrit:
   version: 0.4.0-7
   issues:
     - captures_build_arch
-pyscanfcs:
-  version: 0.2.2-2
-  issues:
-    - timestamps_in_pdf_generated_by_latex
 pysdl2:
   version: 0.9.3+dfsg2-1
   bugs:
@@ -24563,8 +24551,6 @@ speech-tools:
     Build time in /usr/lib/speech_tools/config/modincludes.inc and
     /usr/lib/speech_tools/config/system.mak
   issues:
-    - different_encoding
-    - captures_build_path
     - records_build_flags
   bugs:
     - 871089
