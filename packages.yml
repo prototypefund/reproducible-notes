@@ -1112,7 +1112,6 @@ avahi:
     - debian/rules implicitly uses ChangeLog as the upstream changelog, but ChangeLog is created from
       scratch at every build, which makes it not to be a good upstream changelog.
   bugs:
-    - 804141
     - 878911
 avahi-sharp:
   version: 0.6.19-4.3
@@ -3766,8 +3765,6 @@ debian-reference:
   issues:
     - different_due_to_umask
     - timestamps_in_epub
-  bugs:
-    - 871493
 debian-security-support:
   version: 2016.05.24
   comments: |
@@ -4695,8 +4692,6 @@ eigen3:
   issues:
     - blacklisted_on_jenkins_armhf_only
     - captures_build_path
-  bugs:
-    - 868786
 eja:
   version: 9.5.20-1
   comments: |
@@ -11248,8 +11243,6 @@ leveldb:
   version: 1.19-1
   issues:
     - random_order_in_static_libraries
-  bugs:
-    - 845783
 lft:
   version: 2.2-4
   issues:
@@ -19350,10 +19343,6 @@ pytest-httpbin:
   version: 0.2.0-1
   bugs:
     - 844358
-pytest-mock:
-  version: 1.3.0-1
-  bugs:
-    - 871127
 pytest-qt:
   version: 2.1.2-2
   bugs:
@@ -20294,8 +20283,6 @@ qscintilla2:
   version: 2.9.2+dfsg-3
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 853628
 qsstv:
   version: 9.2.4+repack-1
   bugs:
@@ -23120,8 +23107,6 @@ ruby-json:
   version: 2.0.1+dfsg-2
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 871046
 ruby-kramdown:
   version: 1.14.0-1
   bugs:
@@ -24023,8 +24008,6 @@ shogun:
   version: 3.2.0-7.4
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 868786
 shotwell:
   version: 0.22.0-4
   issues:
@@ -26052,10 +26035,6 @@ tseries:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
-tslib:
-  version: 1.12-1
-  bugs:
-    - 873693
 tstools:
   version: 1.11-1
   issues:
