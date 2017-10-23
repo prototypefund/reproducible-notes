@@ -2065,6 +2065,7 @@ cadvisor:
   version: 0.25.0+dfsg-1
   bugs:
     - 877928
+    - 879489
 cafeobj:
   version: 1.5.2-2
   issues:
@@ -2452,6 +2453,10 @@ cgoban:
   version: 1.9.14-17
   issues:
     - random_order_in_md5sums
+cgview:
+  version: 0.0.20100111-2
+  bugs:
+    - 879487
 chake:
   version: 0.11-1
   issues:
@@ -7869,6 +7874,10 @@ golang-github-tinylib-msgp:
     - golang_compiler_captures_build_path_in_binary
   bugs:
     - 876820
+golang-github-ugorji-go-codec:
+  version: 0.0~git20171019.0.bdcc60b-1
+  bugs:
+    - 879483
 golang-github-vbatts-tar-split:
   version: 0.9.13-1
   bugs:
@@ -28038,6 +28047,7 @@ yt:
   bugs:
     - 854195
     - 873511
+    - 879482
 ytree:
   version: 1.94-1.1
   issues:
