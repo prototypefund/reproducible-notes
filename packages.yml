@@ -13328,10 +13328,6 @@ libtggraphlayout-java:
   version: 122-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
-libthai:
-  version: 0.1.25-1
-  issues:
-    - captures_build_path
 libtheora:
   version: 1.1.1+dfsg.1-14
   issues:
@@ -26656,8 +26652,6 @@ verilator:
   comments: |
     Adds timestamp. Not sure if used anywhere. Patch for toggle would be rather invasive.
     https://sources.debian.net/src/verilator/3.864-1/include/verilated_vcd_c.cpp/?hl=350#L352
-  issues:
-    - timezones_manpages_podman
 veusz:
   version: 1.21.1-1
   issues:
