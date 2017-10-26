@@ -11472,8 +11472,6 @@ libaws:
   version: 3.2.0-3
   issues:
     - unknown_ada_issue
-  bugs:
-    - 876741
 libax25:
   version: 0.0.12-rc4-1
   issues:
@@ -13298,8 +13296,6 @@ libtemplates-parser:
     I think this is readdir ordering caused by --subdir argument passed to gprbuild, but can't see where that's actually utilised in gprbuild package.
   issues:
     - records_build_flags
-  bugs:
-    - 872230
 libterm-filter-perl:
   version: 0.03-1
   bugs:
@@ -13548,10 +13544,6 @@ libxml2:
   version: 2.9.4+dfsg1-4
   bugs:
     - 876308
-libxmlada:
-  version: 4.4.2014-1
-  bugs:
-    - 872231
 libxmlenc-java:
   version: 0.52+dfsg-4
   issues:
@@ -22976,10 +22968,6 @@ ruby-flipper:
   version: 0.10.2-1
   bugs:
     - 877810
-ruby-flowdock:
-  version: 0.7.0-1
-  bugs:
-    - 867649
 ruby-ftw:
   version: 0.0.44-1
   bugs:
@@ -22992,10 +22980,6 @@ ruby-gd:
   version: 0.8.0-7
   issues:
     - gcc_captures_build_path
-ruby-gemnasium-gitlab-service:
-  version: 0.2.6-1
-  bugs:
-    - 867655
 ruby-github-markdown:
   version: 0.6.9-2
   issues:
@@ -23062,10 +23046,6 @@ ruby-http-parser.rb:
   version: 0.6.0-3
   issues:
     - gcc_captures_build_path
-ruby-influxdb:
-  version: 0.2.3-1
-  bugs:
-    - 867645
 ruby-jquery-rails:
   version: 4.2.1-2
   bugs:
@@ -23186,10 +23166,6 @@ ruby-oj:
   version: 2.17.1-1
   issues:
     - gcc_captures_build_path
-ruby-omniauth-crowd:
-  version: 2.2.3-2
-  bugs:
-    - 867654
 ruby-ox:
   version: 2.1.1-2
   issues:
@@ -24344,7 +24320,6 @@ snapd:
     - timestamps_in_manpages_added_by_golang_go_flags
   bugs:
     - 869268
-    - 876867
 snappea:
   version: 3.0d3-23
   issues:
@@ -27533,8 +27508,6 @@ xiphos:
   version: 4.0.4+dfsg1-1
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 872916
 xjig:
   version: 2.4-14
   issues:
