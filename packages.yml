@@ -26647,11 +26647,6 @@ velvet:
   version: 1.2.10+dfsg1-3
   issues:
     - random_id_in_pdf_generated_by_dblatex
-verilator:
-  version: 3.864-1
-  comments: |
-    Adds timestamp. Not sure if used anywhere. Patch for toggle would be rather invasive.
-    https://sources.debian.net/src/verilator/3.864-1/include/verilated_vcd_c.cpp/?hl=350#L352
 veusz:
   version: 1.21.1-1
   issues:
