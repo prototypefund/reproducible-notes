@@ -9411,8 +9411,6 @@ isdnutils:
   version: 1:3.25+dfsg1-8
   comments: |
     Generates a dest.cdb file by iterating over some locales but I think the issue is either with the intermediate DBM format or the ./isdnlog/tools/cdb/cdbmake.c utility that seems to use a hash table of some description.
-  bugs:
-    - 876688
 ismrmrd:
   version: 1.3.3-1
   issues:
@@ -10029,8 +10027,6 @@ juffed:
   version: 0.10-85-g5ba17f9-9
   issues:
     - build_id_differences_only
-  bugs:
-    - 876918
 julia:
   version: 0.4.6-1
   comments: |
@@ -15165,8 +15161,6 @@ mozjs24:
   version: 24.2.0-3.1
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 853559
 mozvoikko:
   version: 2.0.1-1
   comments: |
