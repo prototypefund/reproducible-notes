@@ -1563,10 +1563,6 @@ biogenesis:
   version: 0.8-2
   issues:
     - timestamps_in_jar
-biojava-live:
-  version: 1:1.7.1-5
-  bugs:
-    - 859958
 biojava4-live:
   version: 4.1.0+dfsg-3
   issues:
@@ -2566,8 +2562,6 @@ chromium-browser:
   version: 48.0.2564.82-2
   issues:
     - blacklisted_on_jenkins_armhf_only
-  bugs:
-    - 853347
 chron:
   version: 2.3-47-2
   issues:
@@ -12169,8 +12163,6 @@ libindicate:
   version: 0.6.92-3
   issues:
     - captures_build_path
-  bugs:
-    - 876609
 libindicator:
   version: 0.5.0-3
   issues:
@@ -13066,8 +13058,6 @@ libreswan:
   version: 3.19-1
   issues:
     - captures_build_path_via_assert
-  bugs:
-    - 871128
 libretro-beetle-wswan:
   version: 0.9.35.1+git20160623-1
   issues:
@@ -19247,8 +19237,6 @@ pytables:
   version: 3.1.1-3
   comments: |
     There is also a timestamp in the content of a PDF file (usersguide.pdf).
-  bugs:
-    - 872314
 pytango:
   version: 8.1.5-1
   issues:
@@ -20369,8 +20357,6 @@ qtwebengine-opensource-src:
   version: 5.9.1+dfsg-4
   issues:
     - captures_build_dir_in_qmake_prl_files
-  bugs:
-    - 876860
 qtwebkit:
   version: 2.3.4.dfsg-3
   issues:
@@ -24912,8 +24898,6 @@ surefire:
   version: 2.17-2
   comments: |
     SmartStakTraceParser.java contains unicode characters. This should work in Java source I think so not sure what is the problem. See, for example https://stackoverflow.com/questions/11226878/why-do-i-need-to-escape-unicode-in-java-source-files
-  bugs:
-    - 871112
 survex:
   version: 1.2.30-1
   issues:
