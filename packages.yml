@@ -3120,8 +3120,6 @@ cppformat:
   version: 1.1.0+ds-3
   issues:
     - captures_build_path
-  bugs:
-    - 876543
 cppreference-doc:
   version: 20151129+dfsg0-1
   bugs:
@@ -5767,8 +5765,6 @@ font-manager:
   version: 0.5.7-4
   issues:
     - captures_build_path
-  bugs:
-    - 873872
 fontconfig:
   version: 2.11.0-6.7
   bugs:
@@ -9845,8 +9841,6 @@ jpylyzer:
   version: 1.14.2-1
   issues:
     - random_id_in_pdf_generated_by_dblatex
-  bugs:
-    - 876549
 jquery-jplayer:
   version: 2.7.1+dfsg-1
   issues:
@@ -12015,8 +12009,6 @@ libgpod:
   version: 0.8.3-5
   comments: |
     Timezone-related Make issue causing different linking and thus substvars. output of dpkg-shlibdeps is https://gist.github.com/lamby/493de60a3f1ac2a279e8
-  bugs:
-    - 876583
 libgroove:
   version: 4.3.0-2
   issues:
@@ -13704,10 +13696,6 @@ live-manual:
     - different_due_to_umask
     - timestamps_in_epub
     - timestamps_in_pdf_content
-livestreamer:
-  version: 1.12.2-1
-  bugs:
-    - 876989
 lizardfs:
   version: 3.10.0+dfsg-1
   issues:
@@ -15115,10 +15103,6 @@ mpdcon.app:
   version: 1.1.99-5
   issues:
     - gcc_captures_build_path
-mpdecimal:
-  version: 2.4.2-1
-  bugs:
-    - 877010
 mpfi:
   version: 1.5.1+ds-4
   issues:
@@ -16748,10 +16732,6 @@ opari2:
   version: 1.0.7+dfsg-5
   issues:
     - captures_build_path
-open-adventure:
-  version: 1.4-1
-  bugs:
-    - 874205
 open-axiom:
   version: 1.5.0~svn3056+ds-1
   bugs:
@@ -17540,8 +17520,6 @@ pbuilder:
   version: 0.226
   issues:
     - random_id_in_pdf_generated_by_dblatex
-  bugs:
-    - 876926
 pcapy:
   version: 0.10.8-1
   issues:
@@ -17830,10 +17808,6 @@ pgrouting:
   version: 2.2.4-1
   issues:
     - gcc_captures_build_path
-pgsphere:
-  version: 1.1.1+2017.08.29-1
-  bugs:
-    - 876865
 pgsql-asn1oid:
   version: 0.0.20100818-3.2
   issues:
@@ -19532,10 +19506,6 @@ python-mne:
   version: 0.13.1+dfsg-3
   bugs:
     - 877344
-python-mongoengine:
-  version: 0.10.6-1
-  bugs:
-    - 877110
 python-mox3:
   version: 0.14.0-1
   bugs:
@@ -19582,8 +19552,6 @@ python-numpy:
   version: 1.8.2-2
   issues:
     - timestamps_in_pdf_generated_by_matplotlib
-  bugs:
-    - 877113
 python-omniorb:
   version: 3.6-1
   issues:
@@ -19719,8 +19687,6 @@ python-pygit2:
   version: 0.24.1-1
   issues:
     - captures_build_arch
-  bugs:
-    - 877112
 python-pymzml:
   version: 0.7.6-dfsg-2
   issues:
@@ -19743,10 +19709,6 @@ python-pysam:
   version: 0.11.2.2+ds-3
   bugs:
     - 871083
-python-pysnmp4:
-  version: 4.3.2-2
-  bugs:
-    - 877111
 python-pytc:
   version: 0.8-2
   bugs:
@@ -19783,8 +19745,6 @@ python-scipy:
     - timestamps_in_documentation_generated_by_sphinx
     - timestamps_in_pdf_generated_by_matplotlib
     - blacklisted_on_jenkins_armhf_only
-  bugs:
-    - 877114
 python-scrapy-djangoitem:
   version: 1.1.1-1
   bugs:
@@ -20397,10 +20357,6 @@ quvi:
     - records_build_flags
   bugs:
     - 835259
-qwtplot3d:
-  version: 0.2.7+svn191-10.1
-  bugs:
-    - 853635
 r-base:
   version: 3.4.0-1
   issues:
@@ -24361,10 +24317,6 @@ sphinxcontrib-programoutput:
     - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 871313
-sphinxcontrib-websupport:
-  version: 1.0.1-1
-  bugs:
-    - 877158
 sphinxcontrib-youtube:
   version: 1.0-1
   issues:
