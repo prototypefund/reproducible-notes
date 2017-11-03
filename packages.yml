@@ -12005,10 +12005,6 @@ libgpiv:
   version: 0.6.1-4.3
   issues:
     - gcc_captures_build_path
-libgpod:
-  version: 0.8.3-5
-  comments: |
-    Timezone-related Make issue causing different linking and thus substvars. output of dpkg-shlibdeps is https://gist.github.com/lamby/493de60a3f1ac2a279e8
 libgroove:
   version: 4.3.0-2
   issues:
