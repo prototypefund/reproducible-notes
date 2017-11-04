@@ -6672,6 +6672,7 @@ gcc-7:
   version: 7-20170407-1
   issues:
     - blacklisted_on_jenkins_armhf_only
+    - ftbfs_in_jenkins_setup
   bugs:
     - 853537
     - 853610
@@ -6680,10 +6681,14 @@ gcc-7:
     - 877821
 gcc-7-cross:
   version: 8
+  issues:
+    - ftbfs_in_jenkins_setup
   bugs:
     - 877822
 gcc-7-cross-ports:
   version: 6
+  issues:
+    - ftbfs_in_jenkins_setup
   bugs:
     - 877823
 gcc-avr:
