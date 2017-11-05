@@ -2813,8 +2813,6 @@ codeblocks:
   version: 16.01+dfsg-2
   issues:
     - timestamps_in_zip
-  bugs:
-    - 853349
 codec2:
   version: 0.5.1-1
   issues:
@@ -7356,10 +7354,6 @@ gnome-contacts:
     src/contacts-window.c:2114	}
     .
     This may be caused by `-Wl,-O1` in debian/rules.
-gnome-dictionary:
-  version: 3.20.0-4
-  bugs:
-    - 871107
 gnome-disk-utility:
   version: 3.22.1-1
   bugs:
@@ -7676,10 +7670,6 @@ golang-github-coreos-go-tspi:
   version: 0.1.1-1
   bugs:
     - 849665
-golang-github-couchbase-moss:
-  version: 0.0~git20170713.0.8ea508f-1
-  bugs:
-    - 868719
 golang-github-cyberdelia-go-metrics-graphite:
   version: 0.0~git20151204.0.7e54b5c-1
   bugs:
@@ -7858,10 +7848,6 @@ golang-golang-x-tools:
   version: 1:0.0~git20160315.0.f42ec61-2
   issues:
     - golang_compiler_captures_build_path_in_binary
-golang-gopkg-gcfg.v1:
-  version: 1.2.0-1
-  bugs:
-    - 877006
 golang-gopkg-ini.v1:
   version: 1.8.5-1
   comments: |
@@ -8673,8 +8659,6 @@ herbstluftwm:
   version: 0.7.0-1
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-  bugs:
-    - 823961
 hercules:
   version: 3.12-1
   issues:
@@ -11703,8 +11687,6 @@ libdbusmenu:
   version: 12.10.2-1
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 876613
 libdbusmenu-qt:
   version: 0.9.3+16.04.20160218-1
   issues:
@@ -16920,8 +16902,6 @@ openjdk-8-jre-dcevm:
     https://sources.debian.net/src/openjdk-8-jre-dcevm/8u74-1/src/share/vm/runtime/vm_version.cpp/?hl=263,267#L267
   issues:
     - user_hostname_manually_added_requiring_further_investigation
-  bugs:
-    - 853592
 openjdk-9:
   version: 9~b117-1
   issues:
@@ -22856,10 +22836,6 @@ ruby-json:
   version: 2.0.1+dfsg-2
   issues:
     - gcc_captures_build_path
-ruby-kramdown-rfc2629:
-  version: 1.0.36-1
-  bugs:
-    - 870849
 ruby-kyotocabinet:
   version: 1.32-2
   issues:
