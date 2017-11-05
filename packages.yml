@@ -19801,10 +19801,6 @@ python-visual:
   version: 1:5.12-1.6
   issues:
     - gcc_captures_build_path
-python-watcherclient:
-  version: 0.25.0-2
-  comments: |
-    Also captures build time in `watcherclient.tests.utils.FakeKeystone.timestamp`.
 python-whoosh:
   version: 2.7.0-1
   issues:
