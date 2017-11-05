@@ -8502,10 +8502,6 @@ haskell-heist:
   version: 1.0.1.0-2
   bugs:
     - 879222
-haskell-hledger:
-  version: 1.0.1-1
-  issues:
-    - captures_build_path
 haskell-iso8601-time:
   version: 0.1.4-4
   issues:
@@ -19809,8 +19805,6 @@ python-watcherclient:
   version: 0.25.0-2
   comments: |
     Also captures build time in `watcherclient.tests.utils.FakeKeystone.timestamp`.
-  issues:
-    - captures_build_path
 python-whoosh:
   version: 2.7.0-1
   issues:
@@ -23162,8 +23156,6 @@ s3d:
     - build_id_differences_only
 s3ql:
   version: 2.15+dfsg-1
-  issues:
-    - captures_build_path
   bugs:
     - 877204
 sacjava:
