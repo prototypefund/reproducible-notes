@@ -428,6 +428,10 @@ amsynth:
   version: 1.6.4-1
   issues:
     - gcc_captures_build_path
+amule:
+  version: 1:2.3.2-1
+  bugs:
+    - 880763
 analitza:
   version: 4:16.08.1-1
   issues:
@@ -721,6 +725,10 @@ appstream:
   version: 0.10.6-2
   issues:
     - build_id_differences_only
+appstream-generator:
+  version: 0.6.7-1
+  bugs:
+    - 880887
 appstream-glib:
   version: 0.7.2-1
   bugs:
@@ -1154,6 +1162,10 @@ awesome:
   version: 4.0-1
   issues:
     - gcc_captures_build_path
+awffull:
+  version: 3.10.2-4
+  bugs:
+    - 880764
 aws-sdk-for-php:
   version: 0.93-4
   comments: |
@@ -1565,6 +1577,10 @@ biojava4-live:
   version: 4.1.0+dfsg-3
   issues:
     - random_order_in_documentation_generated_by_javadoc
+bioperl-run:
+  version: 1.7.2-1
+  bugs:
+    - 880347
 biosig4c++:
   version: 1.3.0-2.1
   comments: |
@@ -1691,6 +1707,10 @@ blockattack:
   version: 1.4.1+ds1-2.1
   issues:
     - different_due_to_umask
+blockdiag:
+  version: 1.5.3+dfsg-5
+  bugs:
+    - 880235
 bluefish:
   version: 2.2.7-2
   issues:
@@ -1848,6 +1868,10 @@ brewtarget:
   version: 2.1.0-1
   issues:
     - gcc_captures_build_path
+brial:
+  version: 0.8.7-2
+  bugs:
+    - 880723
 brian:
   version: 1.4.3-1
   issues:
@@ -2444,6 +2468,10 @@ cgoban:
   version: 1.9.14-17
   issues:
     - random_order_in_md5sums
+cgsi-gsoap:
+  version: 1.3.10-3
+  bugs:
+    - 880831
 cgview:
   version: 0.0.20100111-2
   bugs:
@@ -3318,6 +3346,10 @@ cvsd:
   version: 1.0.24
   issues:
     - records_build_flags
+cvsgraph:
+  version: 1.7.0-4
+  bugs:
+    - 880765
 cvsutils:
   version: 0.2.5-1
   issues:
@@ -4101,6 +4133,8 @@ doc-linux-fr:
     - timestamps_in_pdf_generated_by_apache_fop
     - timestamps_in_ps_generated_by_dvips
     - different_encoding
+  bugs:
+    - 880786
 docbook-defguide:
   version: 2.0.17+svn9912-1
   comments: |
@@ -4394,6 +4428,10 @@ dvidvi:
     - gcc_captures_build_path
   bugs:
     - 817441
+dvipng:
+  version: 1.14-2
+  bugs:
+    - 880766
 dwarves-dfsg:
   version: 1.10-2.1
   issues:
@@ -4753,6 +4791,18 @@ emacs25:
   version: 25.1+1-1
   issues:
     - timestamps_in_emacs_autoloads
+embassy-domainatrix:
+  version: 0.1.660-1
+  bugs:
+    - 880767
+embassy-domalign:
+  version: 0.1.660-1
+  bugs:
+    - 880768
+embassy-domsearch:
+  version: 1:0.1.660-1
+  bugs:
+    - 880769
 emboss:
   version: 6.6.0+dfsg-1
   issues:
@@ -5287,6 +5337,8 @@ fceux:
   issues:
     - timestamps_from_cpp_macros
     - scons_doesnt_pass_environment_to_build_tools
+  bugs:
+    - 880770
 fcitx:
   version: 1:4.2.9.1-6
   issues:
@@ -5629,6 +5681,10 @@ flann:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - fonts_in_pdf_files
+flannel:
+  version: 0.5.5~ds1-2
+  bugs:
+    - 880914
 flare-engine:
   version: 0.19-2
   issues:
@@ -5658,6 +5714,11 @@ flask-limiter:
     - python_versioneer_uses_parentdir
   bugs:
     - 852482
+flask-migrate:
+  version: 1.7.0-1
+  bugs:
+    - 866565
+    - 880893
 fldigi:
   version: 3.23.10-1
   issues:
@@ -6177,6 +6238,10 @@ freehep-graphicsio-tests:
   version: 2.1.1+dfsg1-4
   bugs:
     - 879256
+freeipa:
+  version: 4.4.4-3
+  bugs:
+    - 880841
 freeipmi:
   version: 1.4.9-1
   bugs:
@@ -6362,6 +6427,8 @@ g2:
   issues:
     - records_build_flags
     - gcc_captures_build_path
+  bugs:
+    - 880550
 g2clib:
   version: 1.6.0-4
   issues:
@@ -6941,6 +7008,10 @@ gerris:
   issues:
     - captures_shell_variable_in_autofoo_script
     - records_build_flags
+gerritlib:
+  version: 0.4.0+git20150319-2
+  bugs:
+    - 880230
 gerstensaft:
   version: 0.3-4
   bugs:
@@ -7400,6 +7471,10 @@ gnome-python:
   version: 2.28.1+dfsg-1.1
   issues:
     - gcc_captures_build_path
+gnome-recipes:
+  version: 1.6.2-2
+  bugs:
+    - 880867
 gnome-settings-daemon:
   version: 3.14.2-2
   comments: |
@@ -7420,6 +7495,10 @@ gnome-subtitles:
   version: 1.2-4
   issues:
     - gcc_captures_build_path
+gnome-twitch:
+  version: 0.3.1-1
+  bugs:
+    - 880842
 gnome-vfs:
   version: 1:2.24.4-6.1
   bugs:
@@ -8476,6 +8555,10 @@ haskell-cryptonite:
   version: 0.23-1
   bugs:
     - 876848
+haskell-dpkg:
+  version: 0.0.3-10
+  bugs:
+    - 880879
 haskell-foundation:
   version: 0.0.8-1
   bugs:
@@ -9470,6 +9553,8 @@ jackson-datatype-guava:
   version: 2.7.3-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 880289
 jackson-datatype-joda:
   version: 2.8.5-1
   issues:
@@ -10132,6 +10217,10 @@ kconfig:
   version: 5.26.0-1
   issues:
     - build_id_differences_only
+kconfigwidgets:
+  version: 5.37.0-2
+  bugs:
+    - 880300
 kcoreaddons:
   version: 5.25.0-1
   issues:
@@ -11075,6 +11164,10 @@ lazarus:
   version: 1.6+dfsg-4
   issues:
     - diffoscope_runs_forever
+lcd4linux:
+  version: 0.11.0~svn1203-1
+  bugs:
+    - 880772
 lcm:
   version: 1.3.1+repack1-1
   issues:
@@ -11902,6 +11995,8 @@ libgdchart-gd2:
     Also: debian/rules has a copyright notice but no license notice (and not covered by debian/copyright either).
   issues:
     - max_output_size_reached
+  bugs:
+    - 880872
 libgdf:
   version: 0.1.2-2
   issues:
@@ -12004,6 +12099,10 @@ libgtkada:
     - different_due_to_umask
     - users_and_groups_in_tarball
     - timestamps_in_gzip_headers
+libgudev:
+  version: 232-1
+  bugs:
+    - 880332
 libguestfs:
   version: 1:1.28.6-1
   issues:
@@ -12863,10 +12962,18 @@ libproxy:
   version: 0.4.11-5
   issues:
     - gcc_captures_build_path
+libpst:
+  version: 0.6.59-1
+  bugs:
+    - 880773
 libpthread-workqueue:
   version: 0.9.1-1
   bugs:
     - 835107
+libpuzzle:
+  version: 0.11-1
+  bugs:
+    - 880774
 libqapt:
   version: 3.0.1-1
   issues:
@@ -12940,6 +13047,8 @@ libratbag:
   version: 0.4-2
   issues:
     - captures_build_path
+  bugs:
+    - 880869
 libraw1394:
   version: 2.1.2-1
   issues:
@@ -14029,6 +14138,10 @@ magic:
   version: 8.0.210-2
   issues:
     - gcc_captures_build_path
+magic-wormhole:
+  version: 0.9.1-1
+  bugs:
+    - 880246
 magicfilter:
   version: 1.2-64
   issues:
@@ -14261,6 +14374,8 @@ maven-bundle-plugin:
   version: 2.5.4-3
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 880886
 maven-common-artifact-filters:
   version: 1.4-1
   issues:
@@ -14281,6 +14396,10 @@ maven-doxia-tools:
   version: 1.2.1-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
+maven-enforcer:
+  version: 1.4.2-1
+  bugs:
+    - 880888
 maven-jar-plugin:
   version: 2.4-1
   issues:
@@ -14460,6 +14579,11 @@ mesa:
   version: 13.0.6-1
   issues:
     - build_path_captured_in_assembly_objects
+meson:
+  version: 0.43.0-1
+  bugs:
+    - 879976
+    - 880257
 metapixel:
   version: 1.0.2-7.4
   issues:
@@ -14661,6 +14785,7 @@ mldonkey:
     - captures_build_arch
   bugs:
     - 876735
+    - 880775
 mlgmp:
   version: 20021123-18
   issues:
@@ -14808,6 +14933,8 @@ mojarra:
   version: 2.2.8-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 880242
 mokomaze:
   version: 0.5.5+git8+dfsg0-4
   issues:
@@ -15159,6 +15286,8 @@ mrtg:
   version: 2.17.4-4
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 880776
 mrtrix:
   version: 0.2.12-2
   bugs:
@@ -15876,6 +16005,10 @@ node-chai:
   version: 3.5.0+dfsg-1
   bugs:
     - 872533
+node-cliui:
+  version: 3.2.0-2
+  bugs:
+    - 880904
 node-concat-with-sourcemaps:
   version: 1.0.4-1
   bugs:
@@ -16777,6 +16910,10 @@ openblas:
   version: 0.2.18-1
   issues:
     - diffoscope_runs_forever
+openbsc:
+  version: 0.15.0-2
+  bugs:
+    - 880233
 opencc:
   version: 1.0.4-1
   issues:
@@ -17129,6 +17266,8 @@ os-autoinst:
   version: 4.3-1
   issues:
     - captures_build_path
+  bugs:
+    - 880791
 osdclock:
   version: 0.5-23
   issues:
@@ -17332,6 +17471,8 @@ pakcs:
   issues:
     - leaks_path_environment_variable
     - max_output_size_reached
+  bugs:
+    - 880797
 pal:
   version: 0.4.3-8.1
   issues:
@@ -17832,6 +17973,10 @@ php-monolog:
   version: 1.22.0-1
   bugs:
     - 861468
+php-sabre-vobject-3:
+  version: 3.5.2-1
+  bugs:
+    - 880337
 php7.0:
   version: 7.0.4-6
   comments: |
@@ -18099,6 +18244,8 @@ plexus-containers:
   version: 1.0~beta3.0.7-8
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 880829
 plexus-digest:
   version: 1.1-3
   issues:
@@ -18144,6 +18291,8 @@ ploticus:
   version: 2.42-3
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 880778
 plplot:
   version: 5.10.0+dfsg2-0.1
   issues:
@@ -18181,6 +18330,10 @@ png23d:
   version: 1.10-1.2
   issues:
     - gcc_captures_build_path
+png2html:
+  version: 1.1-6
+  bugs:
+    - 880779
 pngcheck:
   version: 2.3.0-7
   comments: |
@@ -18903,6 +19056,8 @@ pygdchart2:
   version: 0.beta1-3.7
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 880780
 pygobject-2:
   version: 2.28.6-13
   issues:
@@ -19288,6 +19443,10 @@ python-docutils:
   version: 0.12+dfsg-1
   comments: |
     Caused by dynamic locale selection being written into the manpage at build time.
+python-dotenv:
+  version: 0.7.1-1
+  bugs:
+    - 880866
 python-dtcwt:
   version: 0.10.1+dfsg1-2
   issues:
@@ -19394,10 +19553,18 @@ python-http-parser:
   version: 0.8.3-2
   issues:
     - gcc_captures_build_path
+python-hug:
+  version: 2.3.0-1
+  bugs:
+    - 880830
 python-hypothesis:
   version: 3.4.2-1
   bugs:
     - 854549
+python-icalendar:
+  version: 3.11.7-2
+  bugs:
+    - 880903
 python-iptables:
   version: 0.11.0-2
   issues:
@@ -19451,6 +19618,10 @@ python-lzo:
   version: 1.08-1
   issues:
     - gcc_captures_build_path
+python-magnumclient:
+  version: 2.7.0-3
+  bugs:
+    - 877840
 python-marshmallow:
   version: 3.0.0b3-1
   comments: |
@@ -19568,6 +19739,7 @@ python-pbr:
   version: 1.10.0-1
   bugs:
     - 868615
+    - 877252
 python-pcs:
   version: 0.5+debian-1.2
   issues:
@@ -19690,6 +19862,10 @@ python-reportlab:
     CreationDate and ID varying.
   issues:
     - gcc_captures_build_path
+python-restless:
+  version: 2.0.3-1
+  bugs:
+    - 880838
 python-rtslib-fb:
   version: 2.1.57+debian-4
   issues:
@@ -19825,6 +20001,8 @@ python3-stdlib-extensions:
   version: 3.5.1-1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 880839
 python3.5:
   version: 3.5.0~b1-2
   issues:
@@ -21993,6 +22171,8 @@ rakudo:
   version: 2015.09-2
   issues:
     - nondeterminstic_output_generated_by_moarvm
+  bugs:
+    - 880795
 rapache:
   version: 1.2.8-1
   issues:
@@ -22009,6 +22189,10 @@ raster3d:
   version: 3.0-3-2
   issues:
     - different_due_to_umask
+ratbagd:
+  version: 0.4-2
+  bugs:
+    - 880898
 ratt:
   version: 0.0~git20150816.0.b060319-1
   issues:
@@ -23118,6 +23302,8 @@ rustc:
     Reported to upstream at https://github.com/rust-lang/rust/issues/34902 - more details there
   issues:
     - blacklisted_on_jenkins_armhf_only
+  bugs:
+    - 880262
 ryu:
   version: 4.4+dfsg1-2
   bugs:
@@ -23140,6 +23326,10 @@ safe-hole-perl:
   version: 0.13-1.1
   issues:
     - gcc_captures_build_path
+safeeyes:
+  version: 2.0.0-1
+  bugs:
+    - 880828
 sagan:
   version: 1.0.1-0.1
   comments: |
@@ -23157,6 +23347,11 @@ sagemath:
     - timestamps_in_documentation_generated_by_sphinx
   bugs:
     - 849150
+    - 880781
+sagenb-export:
+  version: 3.2-3
+  bugs:
+    - 880241
 sagetex:
   version: 3.0+ds-2
   comments: |
@@ -23221,6 +23416,7 @@ sarg:
   version: 2.3.10-2
   bugs:
     - 853651
+    - 880782
 sauce:
   version: 0.9.0+nmu3
   issues:
@@ -24268,6 +24464,7 @@ sphinxcontrib-programoutput:
     - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 871313
+    - 880909
 sphinxcontrib-youtube:
   version: 1.0-1
   issues:
@@ -24477,6 +24674,8 @@ statsmodels:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - captures_build_path
+  bugs:
+    - 880245
 stdsyslog:
   version: 0.03.1-3
   issues:
@@ -25334,6 +25533,7 @@ tigervnc:
     CMakeLists.txt sets «-DBUILD_TIMESTAMP="\"$(date +…)\""».  Needs to be fixed to honour SOURCE_DATE_EPOCH.
   bugs:
     - 865753
+    - 880308
 tightvnc:
   version: 1:1.3.9-9
   comments: |
@@ -26536,6 +26736,10 @@ vulkan:
   version: 1.0.21.0+dfsg1-1
   issues:
     - build_id_differences_only
+w3c-markup-validator:
+  version: 1.3+dfsg-3
+  bugs:
+    - 880788
 w3cam:
   version: 0.7.2-6.2
   issues:
@@ -26632,6 +26836,10 @@ wcslib:
   version: 4.24-1
   issues:
     - random_order_in_static_libraries
+webalizer:
+  version: 2.23.08-2
+  bugs:
+    - 880783
 webauth:
   version: 4.6.1-1
   issues:
@@ -26641,6 +26849,10 @@ webdis:
   version: 0.1.2+dfsg-2
   bugs:
     - 869951
+webdruid:
+  version: 0.5.4-14
+  bugs:
+    - 880784
 webhook:
   version: 2.5.0-1
   issues:
@@ -26763,6 +26975,8 @@ wims:
     https://sources.debian.net/src/wims/1:4.08~dfsg1-1/wims/src/configure.ac/#L219
   issues:
     - captures_build_path
+  bugs:
+    - 880785
 win-iconv:
   version: 0.0.8-2
   issues:
