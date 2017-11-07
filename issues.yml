@@ -1711,3 +1711,6 @@ build_path_captured_in_assembly_objects:
   description: |
     GNU as doesn't support BUILD_PATH_PREFIX_MAP, so objects compiled from
     assembly sources capture the build path.
+timestamps_in_ifo_files_generated_by_python_stardicter:
+  description: |
+    python{,3}-stardicter generates .ifo files with the current date.
