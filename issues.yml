@@ -1717,3 +1717,7 @@ timestamps_in_ifo_files_generated_by_python_stardicter:
     .
     Upstreamed here: https://github.com/nijel/stardicter/pull/2
   url: https://bugs.debian.org/881089
+randomness_in_files_generated_by_pinyin_gen_binary_files:
+  description: |
+    /usr/bin/gen_binary_files from libpinyin-utils generates non-deterministic
+    output.
