@@ -1538,6 +1538,7 @@ binutils:
   comments: |
     Includes test summary which changes due to a failed test..which isn't causing a failed build...
   issues:
+    - ftbfs_in_jenkins_setup
     - captures_build_path
 binutils-avr:
   version: 2.26.20160125+Atmel3.6.0-1
