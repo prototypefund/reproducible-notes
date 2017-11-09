@@ -314,10 +314,6 @@ alembic:
   version: 0.8.7-2
   issues:
     - randomness_in_documentation_generated_by_sphinx
-alglib:
-  version: 3.11.0-1
-  bugs:
-    - 877065
 allegro5:
   version: 2:5.0.11-1
   comments: |
@@ -1730,8 +1726,6 @@ bogl:
   version: 0.1.18-11
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 853335
 boinc:
   version: 7.6.33+dfsg-1
   issues:
@@ -2030,10 +2024,6 @@ bzr:
   version: 2.7.0+bzr6619-5
   issues:
     - randomness_in_documentation_generated_by_sphinx
-bzr-git:
-  version: 0.6.13-2
-  bugs:
-    - 877413
 c++-annotations:
   version: 10.5.0-1
   issues:
@@ -6736,7 +6726,6 @@ gcc-6:
     - blacklisted_on_jenkins
   bugs:
     - 862113
-    - 877818
 gcc-6-cross:
   version: 25
   bugs:
@@ -6757,7 +6746,6 @@ gcc-7:
     - 853610
     - 853613
     - 853709
-    - 877821
 gcc-7-cross:
   version: 8
   issues:
@@ -7989,8 +7977,6 @@ gpgme1.0:
     Note 1.7.0-1 in unstable was reproducible.
     .
     Repeat customer, see debian/patches/0007-make-documentation-reproducible-by-omitting-HTML_TIM.patch.
-  bugs:
-    - 876538
 gpgmepp:
   version: 16.04.3-2
   issues:
@@ -10778,8 +10764,6 @@ kodi:
   issues:
     - timestamps_from_cpp_macros
     - diffoscope_runs_forever
-  bugs:
-    - 853476
 kolf:
   version: 4:16.04.0-1
   issues:
@@ -16093,10 +16077,6 @@ node-sshpk:
   version: 1.13.0+dfsg-1
   issues:
     - timestamps_embedded_in_manpages_by_node_marked_man
-node-tape:
-  version: 4.6.3-1
-  bugs:
-    - 876935
 node-temp:
   version: 0.8.1-1
   bugs:
@@ -17058,8 +17038,6 @@ openjfx:
   issues:
     - random_order_in_documentation_generated_by_javadoc
     - blacklisted_on_jenkins_armhf_only
-  bugs:
-    - 857464
 openjpa:
   version: 2.4.0-4
   issues:
@@ -18397,10 +18375,6 @@ polspline:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
-polygen:
-  version: 1.0.6.ds2-17
-  bugs:
-    - 877375
 polylib:
   version: 5.22.5-3+dfsg
   issues:
@@ -18995,10 +18969,6 @@ pybluez:
   version: 0.22-1
   issues:
     - gcc_captures_build_path
-pybtex:
-  version: 0.21-2
-  bugs:
-    - 877109
 pycairo:
   version: 1.8.8-1
   issues:
