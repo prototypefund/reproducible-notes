@@ -7973,7 +7973,6 @@ gpac:
 gpgme1.0:
   version: 1.7.0-5
   comments: |
-    [experimental/amd64]
     doxygen docs use absolute filenames.  Should be fixed to use S_R_D-relative filenames instead.
     .
     Note 1.7.0-1 in unstable was reproducible.
@@ -19920,6 +19919,8 @@ python-stdlib-extensions:
     - gcc_captures_build_path
 python-stetl:
   version: 1.1+ds-1
+  comments: |
+      https://github.com/geopython/stetl/pull/64
   bugs:
     - 881217
 python-stopit:
