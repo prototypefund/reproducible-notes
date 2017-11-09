@@ -5203,6 +5203,8 @@ eyed3:
   comments: |
     [amd64/testing; intermittent]
     Timestamp of ./usr/lib/python2.7/dist-packages/eyed3/info.py differs.
+  bugs:
+    - 881101
 ezmlm-idx:
   version: 7.1.1-1~exp0
   issues:
@@ -8897,6 +8899,7 @@ htslib:
   bugs:
     - 800469
     - 849667
+    - 881149
 http-icons:
   version: 0~20041010-1
   comments: |
@@ -14160,6 +14163,8 @@ magics++:
     Header files generated with random include order.
   issues:
     - diffoscope_runs_forever
+  bugs:
+    - 881180
 magyarispell:
   version: 1.6.1-2
   issues:
@@ -16202,6 +16207,8 @@ npth:
   version: 1.2-3
   issues:
     - captures_build_path
+  bugs:
+    - 881152
 nqp:
   version: 2015.09.1-2
   issues:
@@ -17133,6 +17140,7 @@ openstack-trove:
   version: 1:6.0.0-3
   bugs:
     - 881095
+    - 881188
 opensurgsim:
   version: 0.7.0-5
   issues:
