@@ -20357,6 +20357,10 @@ qtmultimedia-opensource-src:
     - timestamps_in_qch
     - randomness_in_qdoc
     - captures_build_path
+qtpass:
+  version: 1.2.0-1
+  issues:
+    - captures_build_path_in_source_generated_by_rcc
 qtquickcontrols-opensource-src:
   version: 5.4.2-2
   issues:
