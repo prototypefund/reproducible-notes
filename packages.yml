@@ -1538,7 +1538,6 @@ binutils:
     Includes test summary which changes due to a failed test..which isn't causing a failed build...
   issues:
     - ftbfs_in_jenkins_setup
-    - captures_build_path
 binutils-avr:
   version: 2.26.20160125+Atmel3.6.0-1
   bugs:
@@ -7635,7 +7634,6 @@ gnustep-dl2:
   comments: |
     Username is also embedded in documentation files.
   issues:
-    - timestamps_in_pdf_generated_by_latex
     - user_in_documentation_generated_by_gsdoc
 gnustep-gui:
   version: 0.25.0-2
@@ -24493,10 +24491,6 @@ spew:
   version: 1.0.8-1
   issues:
     - gcc_captures_build_path
-spherepack:
-  version: 3.2-9
-  issues:
-    - captures_build_path
 sphinx:
   version: 1.2.3+dfsg-1
   issues:
