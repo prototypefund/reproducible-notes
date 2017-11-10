@@ -2070,6 +2070,8 @@ cafeobj:
     - timestamps_in_pdf_generated_by_latex
     - fonts_in_pdf_files
     - random_id_in_pdf_generated_by_dblatex
+  bugs:
+    - 881192
 caffe:
   version: 1.0.0~rc4-1
   issues:
@@ -2370,6 +2372,10 @@ celery:
     - randomness_in_documentation_generated_by_sphinx
   bugs:
     - 867481
+celery-haystack:
+  version: 0.10-1
+  bugs:
+    - 881198
 cen64:
   version: 0.3+git20160403-1
   issues:
@@ -4003,6 +4009,12 @@ django-celery:
   version: 3.1.17-3
   issues:
     - randomness_in_documentation_generated_by_sphinx
+  bugs:
+    - 881196
+django-celery-transactions:
+  version: 0.3.6-2
+  bugs:
+    - 881197
 django-compat:
   version: 1.0.13-1
   bugs:
@@ -8436,6 +8448,10 @@ gucharmap:
   version: 1:9.0.2-1
   bugs:
     - 867088
+guessit:
+  version: 0.11.0-2
+  bugs:
+    - 881289
 guice:
   version: 4.0-1
   issues:
@@ -11772,6 +11788,10 @@ libdata-alias-perl:
   version: 1.20-1
   bugs:
     - 825011
+libdbd-sqlite3-perl:
+  version: 1.54-2
+  bugs:
+    - 881291
 libdbusmenu:
   version: 12.10.2-1
   issues:
@@ -15792,6 +15812,14 @@ netty-3.9:
   version: 3.9.9.Final-1
   issues:
     - nondeterministic_java_bytecode
+networking-arista:
+  version: 2016.2.0-1
+  bugs:
+    - 881208
+networking-l2gw:
+  version: 1:1.0.0+git20160927.29cb4fe3-1
+  bugs:
+    - 881212
 netxx:
   version: 0.3.2-2
   bugs:
@@ -15805,6 +15833,8 @@ neutron-lbaas:
   comments: |
     captures build path:
     https://sources.debian.net/src/neutron-lbaas/1:8.0.0-3/neutron_lbaas/services/loadbalancer/drivers/haproxy/jinja_cfg.py/?hl=67#L61-L62
+  bugs:
+    - 881210
 neutron-vpnaas:
   version: 1:8.0.0-2
   comments: |
@@ -16006,6 +16036,10 @@ node-argparse:
   version: 1.0.7-1
   bugs:
     - 872531
+node-asn1.js:
+  version: 5.0.0-1
+  bugs:
+    - 881292
 node-chai:
   version: 3.5.0+dfsg-1
   bugs:
@@ -22184,6 +22218,10 @@ rakudo:
     - nondeterminstic_output_generated_by_moarvm
   bugs:
     - 880795
+rally:
+  version: 0.2.0-1.2
+  bugs:
+    - 881209
 rapache:
   version: 1.2.8-1
   issues:
@@ -24786,6 +24824,8 @@ subliminal:
     Captures $HOME via click: https://sources.debian.net/src/subliminal/1.1.1-2/subliminal/cli.py/#L198-L209
   issues:
     - captures_home_dir
+  bugs:
+    - 881264
 subnetcalc:
   version: 2.1.3-1
   issues:
@@ -26218,6 +26258,8 @@ uncrustify:
   version: 0.59+dfsg1-1.1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 881249
 undertaker:
   version: 1.6.1-2
   issues:
