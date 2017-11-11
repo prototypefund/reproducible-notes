@@ -1693,7 +1693,7 @@ timestamps_in_source_generated_by_rcc:
     of the input files, which may have been generated at build time.
     .
     There is an upstream bug https://bugreports.qt.io/browse/QTBUG-62511 and a
-    corresponding pull request https://codereview.qt-project.org/#/c/202999/.
+    corresponding pull request https://codereview.qt-project.org/202999.
     .
     A temporary solution is to add '--format-version 1' to the rcc command line.
   deterministic: True
