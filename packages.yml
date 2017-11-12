@@ -240,8 +240,6 @@ affiche:
     - gcc_captures_build_path
 afl:
   version: 2.34b-2
-  issues:
-    - captures_build_path
   bugs:
     - 852049
 afnix:
@@ -16954,11 +16952,8 @@ opencsv:
 opencv:
   version: 2.4.9.1+dfsg-1.5
   issues:
-    - timestamps_in_jar
     - random_order_in_static_libraries
-    - captures_kernel_version
     - records_build_flags
-    - captures_build_path
 opendkim:
   version: 2.10.3-3
   issues:
