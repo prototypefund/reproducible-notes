@@ -1552,6 +1552,10 @@ binutils-m68hc1x:
     https://sources.debian.net/src/binutils-m68hc1x/1:2.18-7/debian/rules/#L66
   issues:
     - random_order_in_tarball
+binutils-mingw-w64:
+  version: 7.4
+  comments: |
+    upstream/ld/Makefile.am calls pod2man. the mtimes might be weird as we've unpacked a tarball though
 binutils-msp430:
   version: 2.22~msp20120406-5
   issues:
