@@ -1024,6 +1024,10 @@ atlc:
   version: 4.6.1-1
   issues:
     - gcc_captures_build_path
+atop:
+  version: 2.2.6-4
+  bugs:
+    - 881479
 ats-lang-anairiats:
   version: 0.2.11-1
   issues:
@@ -10734,6 +10738,8 @@ knot-resolver:
     There is a timestamp in the manpage.
   issues:
     - timestamps_manually_added_needs_further_investigation
+  bugs:
+    - 881492
 knotifications:
   version: 5.28.0-1
   issues:
@@ -13142,6 +13148,10 @@ librsync:
   version: 0.9.7-10
   bugs:
     - 857857
+libsavitar:
+  version: 3.0.3-1
+  bugs:
+    - 881493
 libsaxon-java:
   version: 1:6.5.5-10
   issues:
@@ -13683,6 +13693,7 @@ linthesia:
   version: 0.4.3-1
   bugs:
     - 835117
+    - 868932
 lintian:
   version: 2.5.54
   bugs:
@@ -18651,6 +18662,8 @@ primesieve:
   version: 5.7.1+ds-1
   issues:
     - random_id_in_pdf_generated_by_dblatex
+  bugs:
+    - 881453
 print-manager:
   version: 4:16.04.1-2
   issues:
@@ -20238,6 +20251,10 @@ qtbase-opensource-src:
   issues:
     - timestamps_from_cpp_macros
     - randomness_in_qdoc
+  bugs:
+    - 876901
+    - 876917
+    - 876933
 qtcharts-opensource-src:
   version: 5.7.1-1
   issues:
@@ -25191,6 +25208,8 @@ tarantool:
   issues:
     - captures_build_path
     - records_build_flags
+  bugs:
+    - 881481
 tarantool-lts:
   version: 1.5.5-18-g2998d20-1
   issues:
