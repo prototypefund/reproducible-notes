@@ -6721,11 +6721,11 @@ gcc-5:
     - ftbfs_in_jenkins_setup
 gcc-5-cross:
   version: 26
+  issues:
+    - ftbfs_in_jenkins_setup
   bugs:
     - 877449
     - 877816
-  issues:
-    - ftbfs_in_jenkins_setup
 gcc-5-cross-ports:
   version: 8
   issues:
