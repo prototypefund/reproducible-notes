@@ -6710,15 +6710,19 @@ gcc-5:
       No clue: b~lto13.adb, b~lto13.ads.
   issues:
     - blacklisted_on_jenkins
+    - ftbfs_in_jenkins_setup
 gcc-5-cross:
   version: 26
   bugs:
     - 877449
     - 877816
+  issues:
+    - ftbfs_in_jenkins_setup
 gcc-5-cross-ports:
   version: 8
   issues:
     - diffoscope_runs_forever
+    - ftbfs_in_jenkins_setup
   bugs:
     - 877817
 gcc-6:
