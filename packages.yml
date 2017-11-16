@@ -69,7 +69,9 @@ aboot:
   issues:
     - timestamps_in_manpages_generated_by_docbook_utils
   bugs:
+    - 805988
     - 831972
+    - 832491
 abr2gbr:
   version: 1:1.0.2-2
   issues:
@@ -3205,6 +3207,10 @@ cronutils:
   version: 1.9-1
   bugs:
     - 863072
+cross-toolchain-base:
+  version: 19
+  bugs:
+    - 881618
 crossroads:
   version: 2.81-1
   issues:
@@ -3506,6 +3512,10 @@ dahdi-tools:
   version: 1:2.10.2-2
   issues:
     - gcc_captures_build_path
+daisy-player:
+  version: 11.2-1
+  bugs:
+    - 881793
 dansguardian:
   version: 2.10.1.1-5.1
   issues:
@@ -6340,6 +6350,10 @@ fstrcmp:
   version: 0.7.D001-1.1
   issues:
     - gcc_captures_build_path
+fswebcam:
+  version: 20140113-1
+  bugs:
+    - 881745
 fte:
   version: 0.50.2b6-20110708-1
   issues:
@@ -7183,6 +7197,10 @@ gitano:
   version: 1.0-1
   issues:
     - random_id_in_pdf_generated_by_dblatex
+gitit:
+  version: 0.12.2.1-1
+  bugs:
+    - 881599
 gitlab-ci-multi-runner:
   version: 1.4.2+dfsg-1
   bugs:
@@ -7333,6 +7351,10 @@ gmediaserver:
   version: 0.13.0-8
   issues:
     - gcc_captures_build_path
+gmerlin:
+  version: 1.2.0~dfsg+1-6
+  bugs:
+    - 881794
 gmerlin-avdecoder:
   version: 1.2.0~dfsg-7
   issues:
@@ -8633,6 +8655,10 @@ haskell-xmlhtml:
   version: 0.2.4-1
   bugs:
     - 867151
+haskell-yesod-auth-oauth2:
+  version: 0.2.2-3
+  bugs:
+    - 881601
 haskell98-report:
   version: 20080907-5
   issues:
@@ -10583,6 +10609,8 @@ kio-extras:
   version: 4:16.08.3-1
   issues:
     - build_id_differences_only
+  bugs:
+    - 880317
 kio-mtp:
   version: 0.75+git20140304-2
   issues:
@@ -10786,6 +10814,8 @@ kover:
   version: 1:4-8
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 881795
 kpackage:
   version: 5.25.0-1
   issues:
@@ -13243,6 +13273,8 @@ libswe-doc:
   version: 1.80.00.0001-1
   issues:
     - timestamps_in_pdf_generated_by_latex
+  bugs:
+    - 783936
 libswingx-java:
   version: 1:1.6.2-2
   issues:
@@ -13277,6 +13309,10 @@ libterm-readline-zoid-perl:
   version: 0.07-2.1
   issues:
     - absolute_build_paths_in_dot_packlist_file_generated_by_perl_extutils_packlist
+libtest-aggregate-perl:
+  version: 0.374-1
+  bugs:
+    - 832127
 libtext-charwidth-perl:
   version: 0.04-7
   issues:
@@ -14417,6 +14453,10 @@ mbedtls:
   version: 2.3.0-1
   issues:
     - build_id_differences_only
+mbr:
+  version: 1.1.11-5.1
+  bugs:
+    - 881835
 mbw:
   version: 1.2.2-1
   issues:
@@ -17089,6 +17129,8 @@ opentk:
   issues:
     - clilibs_line_order
     - timestamps_in_pe_binaries
+  bugs:
+    - 855120
 opentoken:
   version: 6.0b-3
   comments: |
@@ -18076,6 +18118,10 @@ pkg-config:
   version: 0.29-4
   issues:
     - gcc_captures_build_path
+pkg-haskell-tools:
+  version: 0.11.0
+  bugs:
+    - 881820
 pkg-mozilla-archive-keyring:
   version: 1.1
   bugs:
@@ -19030,6 +19076,10 @@ pykaraoke:
   version: 0.7.5-1.1
   issues:
     - gcc_captures_build_path
+pykde4:
+  version: 4:4.14.3-3
+  bugs:
+    - 881827
 pylibssh2:
   version: 1.0.0-1.2
   issues:
@@ -22755,6 +22805,10 @@ ruby-compass:
   bugs:
     - 835834
     - 876608
+ruby-compass-rails:
+  version: 2.0.5-5
+  bugs:
+    - 875612
 ruby-curb:
   version: 0.9.3-1
   issues:
@@ -22929,6 +22983,8 @@ ruby-http-parser.rb:
   version: 0.6.0-3
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 881627
 ruby-json:
   version: 2.0.1+dfsg-2
   issues:
@@ -23211,6 +23267,7 @@ ruby2.3:
   version: 2.3.3-1
   bugs:
     - 853648
+    - 881804
 rubyluabridge:
   version: 0.8.0-1
   issues:
@@ -24698,6 +24755,10 @@ strucchange:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
+stylish-haskell:
+  version: 0.7.1.0-1
+  bugs:
+    - 881821
 stymulator:
   version: 0.21a~dfsg-1
   issues:
@@ -26703,6 +26764,8 @@ wagon2:
   version: 2.7-1
   issues:
     - random_order_in_plexus_comonents_xml
+  bugs:
+    - 881815
 waili:
   version: 19990723-22.1
   issues:
@@ -27429,6 +27492,8 @@ xmms2:
   version: 0.8+dfsg-16
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 881797
 xmount:
   version: 0.7.3-1
   issues:
