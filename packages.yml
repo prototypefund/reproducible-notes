@@ -4476,7 +4476,6 @@ e17:
 e2fsprogs:
   version: 1.43.6-1
   bugs:
-    - 876551
     - 876672
 e2guardian:
   version: 3.4.0.3-1
@@ -5129,10 +5128,6 @@ ethstatus:
   version: 0.4.8
   issues:
     - gcc_captures_build_path
-etl:
-  version: 0.04.19-1
-  bugs:
-    - 853675
 etoile:
   version: 0+20080616+dfsg-2
   issues:
@@ -7173,8 +7168,6 @@ git-buildpackage:
   version: 0.8.12.2
   issues:
     - randomness_in_documentation_generated_by_sphinx
-  bugs:
-    - 877322
 git-hub:
   version: 0.9.0-1
   comments: |
@@ -7677,10 +7670,6 @@ gocryptfs:
   bugs:
     - 849662
     - 864809
-goffice:
-  version: 0.10.32-1.1
-  bugs:
-    - 876678
 goffice-0.8:
   version: 0.8.17-7
   bugs:
@@ -7841,10 +7830,6 @@ golang-github-mailru-easyjson:
   version: 0.0~git20161103.0.159cdb8-1
   bugs:
     - 854743
-golang-github-markbates-goth:
-  version: 1.42.0-2
-  bugs:
-    - 876878
 golang-github-mesos-mesos-go:
   version: 0.0.2+dfsg-2
   bugs:
@@ -8562,10 +8547,6 @@ haskell-cryptol:
   bugs:
     - 856234
     - 876635
-haskell-cryptonite:
-  version: 0.23-1
-  bugs:
-    - 876848
 haskell-dpkg:
   version: 0.0.3-10
   bugs:
@@ -9327,7 +9308,6 @@ ipsvd:
   issues:
     - random_order_in_md5sums
   bugs:
-    - 777417
     - 846890
 iptotal:
   version: 0.3.3-13.1
@@ -13669,10 +13649,6 @@ linthesia:
   bugs:
     - 835117
     - 868932
-lintian:
-  version: 2.5.54
-  bugs:
-    - 877147
 linux:
   version: 4.6.3-1
   issues:
@@ -14172,7 +14148,6 @@ mailfront:
   issues:
     - random_order_in_md5sums
   bugs:
-    - 777431
     - 847020
 mailsync:
   version: 5.2.2-3.1
@@ -14353,8 +14328,6 @@ maven-archiver:
   version: 2.6-3
   issues:
     - random_order_in_documentation_generated_by_javadoc
-  bugs:
-    - 871069
 maven-bundle-plugin:
   version: 2.5.4-3
   issues:
@@ -18243,10 +18216,6 @@ plexus-utils2:
   version: 3.0.22-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-plib-doc:
-  version: 1:1.8.5-3
-  bugs:
-    - 778971
 plinth:
   version: 0.8.2-1
   bugs:
@@ -23998,7 +23967,6 @@ sisc:
 sisu-guice:
   version: 3.2.6-3
   bugs:
-    - 868611
     - 869013
 sitemesh:
   version: 2.4.1+dfsg-5
@@ -24846,8 +24814,6 @@ supercollider:
   version: 1:3.7.0~repack-3
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 853671
 supercollider-sc3-plugins:
   version: 3.7.1~repack-2
   comments: |
