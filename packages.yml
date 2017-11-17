@@ -12175,6 +12175,10 @@ libident:
   version: 0.22-3
   issues:
     - timestamps_in_gzip_headers
+libidn2:
+  version: 2.0.4-1
+  bugs:
+    - 881915
 libidn2-0:
   version: 0.10-3
   comments: |
@@ -14008,6 +14012,10 @@ lucene4.10:
   issues:
     - user_in_java_jar_manifest
     - timestamp_in_java_bnd_manifest
+luksmeta:
+  version: 8-2
+  bugs:
+    - 881864
 luminance-hdr:
   version: 2.4.0-8
   issues:
@@ -15911,6 +15919,10 @@ ngs-sdk:
   bugs:
     - 813559
     - 866514
+nheko:
+  version: 0.0+git20170715.3c1f969-2
+  bugs:
+    - 881914
 nibabel:
   version: 2.0.1-1
   issues:
