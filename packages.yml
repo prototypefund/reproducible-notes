@@ -886,6 +886,8 @@ asc:
   version: 2.6.1.0-2
   comments: |
     http://sources.debian.net/src/asc/2.6.1.0-2/source/tools/mount.cpp/\#L444 method takes a glob pattern which is expanded without sorting so main.ascdat file has non-determinstic contents
+  bugs:
+    - 881998
 ascd:
   version: 0.13.2-6
   issues:
@@ -993,6 +995,10 @@ async-http-client:
   version: 1.6.5-4
   issues:
     - random_order_in_documentation_generated_by_javadoc
+asyncpg:
+  version: 0.13.0-1
+  bugs:
+    - 882017
 atdgen:
   version: 1.9.1-1
   issues:
@@ -7509,6 +7515,10 @@ gnome-sharp2:
     - timestamps_in_pe_binaries
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+gnome-shell-pomodoro:
+  version: 0.13.3-1
+  bugs:
+    - 882005
 gnome-software:
   version: 3.22.5-1
   issues:
@@ -12471,6 +12481,10 @@ libkolab:
     - gcc_captures_build_path
   bugs:
     - 878500
+libkolabxml:
+  version: 1.1.6-2
+  bugs:
+    - 881115
 libkqueue:
   version: 2.0.3-1.1
   bugs:
@@ -13439,6 +13453,10 @@ libvirt:
     #3. Difference in file order in the .symtab section.
   issues:
     - captures_build_path
+libvirt-php:
+  version: 0.5.2~30-g64dca6f-3
+  bugs:
+    - 882025
 libvistaio:
   version: 1.2.19-1
   issues:
@@ -14242,6 +14260,10 @@ manila:
   bugs:
     - 861896
     - 871337
+manila-ui:
+  version: 2.5.1-0
+  bugs:
+    - 881977
 manpages-tr:
   version: 1.0.5.1-2
   comments: |
@@ -17963,6 +17985,10 @@ php-sabre-vobject-3:
   version: 3.5.2-1
   bugs:
     - 880337
+php-stomp:
+  version: 2.0.0+1.0.9-1
+  bugs:
+    - 882023
 php7.0:
   version: 7.0.4-6
   comments: |
@@ -19552,6 +19578,7 @@ python-kafka:
   version: 1.3.3-2
   bugs:
     - 880803
+    - 881986
 python-keystonemiddleware:
   version: 1.5.0-1
   issues:
@@ -20289,6 +20316,8 @@ qtiplot:
   version: 0.9.8.9-15
   comments: |
     PDF manual has non-deterministic output
+  bugs:
+    - 882026
 qtkeychain:
   version: 0.5.0-1
   issues:
@@ -26402,6 +26431,8 @@ vboot-utils:
   version: 0~R52-8350.B-1
   issues:
     - user_hostname_manually_added_requiring_further_investigation
+  bugs:
+    - 881997
 vc:
   version: 1.3.1-1
   issues:
