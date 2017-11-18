@@ -16167,13 +16167,6 @@ notmuch:
   version: 0.19-1
   issues:
     - gcc_captures_build_path
-nova:
-  version: 2:13.0.0-2
-  comments: |
-    Embeds build hostname as default values into configuration file.
-    https://sources.debian.net/src/nova/2:13.0.0-2/nova/compute/manager.py/?hl=105#L105
-    https://sources.debian.net/src/nova/2:13.0.0-2/nova/console/manager.py/?hl=39#L39
-    https://sources.debian.net/src/nova/2:13.0.0-2/nova/netconf.py/?hl=33#L33
 noweb:
   version: 2.11b-9
   comments: |
