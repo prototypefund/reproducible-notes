@@ -6772,14 +6772,10 @@ gcc-7-cross:
   version: 8
   issues:
     - ftbfs_in_jenkins_setup
-  bugs:
-    - 877822
 gcc-7-cross-ports:
   version: 6
   issues:
     - ftbfs_in_jenkins_setup
-  bugs:
-    - 877823
 gcc-avr:
   version: 1:4.8.1+Atmel3.4.4-2
   comments: |
@@ -8308,10 +8304,6 @@ gss:
     - timestamps_in_ps_generated_by_dvips
   bugs:
     - 876593
-gst-plugins-bad1.0:
-  version: 1.12.3-1
-  bugs:
-    - 878747
 gst-plugins-base1.0:
   version: 1.5.0.1+git20150513-1
   bugs:
