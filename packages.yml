@@ -2055,10 +2055,6 @@ ca-certificates-java:
   version: 20140324
   issues:
     - timestamps_in_jar
-cabal-debian:
-  version: 4.35.6-2
-  bugs:
-    - 878468
 cacti:
   version: 0.8.8h+ds1-10
   issues:
@@ -4086,10 +4082,6 @@ djangorestframework:
   version: 3.4.0-2
   bugs:
     - 865588
-djangorestframework-gis:
-  version: 0.11-1
-  bugs:
-    - 865920
 djvulibre:
   version: 3.5.27.1-7
   issues:
@@ -4200,8 +4192,6 @@ dogtag-pki:
   issues:
     - timestamps_in_jar
     - captures_build_path
-  bugs:
-    - 846714
 dojo:
   version: 1.11.0+dfsg-1
   bugs:
@@ -5216,10 +5206,6 @@ extremetuxracer:
   version: 0.7.4-1
   issues:
     - gcc_captures_build_path
-extsmail:
-  version: 2.0-2
-  bugs:
-    - 871086
 eyed3:
   version: 0.7.9-1
   comments: |
@@ -6455,8 +6441,6 @@ g2clib:
   version: 1.6.0-4
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 876806
 gadfly:
   version: 1.0.0-16
   issues:
@@ -7659,8 +7643,6 @@ gnutls28:
   version: 3.5.15-2
   issues:
     - build_path_captured_in_assembly_objects
-  bugs:
-    - 876587
 go-mtpfs:
   version: 0.0~git20150802.0.3ef47f9-2
   issues:
@@ -9947,10 +9929,6 @@ jsmath-fonts-sprite:
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 792597
-json-smart:
-  version: 2.2-1
-  bugs:
-    - 868603
 jsonm:
   version: 0.9.1-2
   issues:
@@ -14942,7 +14920,6 @@ mongodb:
     - timestamps_from_cpp_macros
     - diffoscope_runs_forever
   bugs:
-    - 811606
     - 871906
 monkeysign:
   version: 2.2.1
@@ -17836,8 +17813,6 @@ pgextwlist:
   version: 1.3-3
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 876851
 pgloader:
   version: 3.3.1+dfsg-1
   comments: |
@@ -18240,7 +18215,6 @@ plinth:
   version: 0.8.2-1
   bugs:
     - 800816
-    - 862758
 plip:
   version: 1.3.3+dfsg-1
   issues:
@@ -18764,10 +18738,6 @@ pseudo:
   version: 1.8.1+git20161012-2
   issues:
     - gcc_captures_build_path
-psi:
-  version: 1.3-1
-  bugs:
-    - 879457
 psi-plus:
   version: 0.16.330-1
   issues:
@@ -23728,10 +23698,6 @@ sfcgal:
   version: 1.2.2-1
   issues:
     - gcc_captures_build_path
-sfepy:
-  version: 2015.1-1
-  bugs:
-    - 872248
 sfst:
   version: 1.4.7b-1
   comments: |
@@ -27814,7 +27780,6 @@ yrmcds:
 yt:
   version: 3.3.3-2
   bugs:
-    - 854195
     - 873511
     - 879482
 ytree:
