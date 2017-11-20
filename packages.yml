@@ -1270,10 +1270,6 @@ bandit:
     https://sources.debian.net/src/bandit/1.1.0-2/bandit/cli/config_generator.py/?hl=162#L162
   issues:
     - captures_build_path
-bangarang:
-  version: 2.1-2
-  issues:
-    - captures_build_path
 banshee:
   version: 2.6.2-6
   issues:
@@ -10746,10 +10742,6 @@ konclude:
     Some line-ending differences in manpage probably caused by shell differences in http://sources.debian.net/src/konclude/0.6.2~dfsg-3/debian/rules/#L48
   bugs:
     - 853477
-konquest:
-  version: 4:16.08.0-1
-  issues:
-    - captures_build_path
 konsole:
   version: 4:16.04.2-1
   issues:
@@ -10810,10 +10802,6 @@ kreport:
   version: 3.0.2-1
   issues:
     - timestamps_in_source_generated_by_rcc
-    - captures_build_path
-kreversi:
-  version: 4:16.08.0-1
-  issues:
     - captures_build_path
 krfb:
   version: 4:16.04.0-1
