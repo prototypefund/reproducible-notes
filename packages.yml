@@ -372,6 +372,10 @@ alsa-tools:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
+alt-ergo:
+  version: 1.30-1
+  bugs:
+    - 882162
 altos:
   version: 1.6.2-1
   issues:
@@ -1054,6 +1058,10 @@ auctex:
     - timestamps_in_emacs_autoloads
     - timestamps_in_pdf_generated_by_latex
     - random_id_in_pdf_generated_by_dblatex
+audacity:
+  version: 2.2.0-1
+  bugs:
+    - 882173
 audex:
   version: 0.79-1
   issues:
@@ -1838,6 +1846,10 @@ boxbackup:
   version: 0.11.1~r2837-4
   issues:
     - random_order_of_pdf_ids_generated_by_latex
+bpfcc:
+  version: 0.3.0-4
+  bugs:
+    - 882160
 bplay:
   version: 0.991-10
   issues:
@@ -2660,6 +2672,8 @@ clamav:
   version: 0.99.2+dfsg-3
   issues:
     - records_build_flags
+  bugs:
+    - 873401
 clamfs:
   version: 1.0.1-1.1
   issues:
@@ -3890,6 +3904,14 @@ devio:
   version: 1.2-1.2
   issues:
     - gcc_captures_build_path
+dfvfs:
+  version: 20171022-1
+  bugs:
+    - 882243
+dfwinreg:
+  version: 20170706-1
+  bugs:
+    - 882239
 dh-kpatches:
   version: 0.99.36+nmu3
   issues:
@@ -13591,6 +13613,7 @@ lightspark:
     - captures_build_path
   bugs:
     - 841571
+    - 882157
 lilo:
   version: 1:24.2-2
   issues:
@@ -14796,6 +14819,8 @@ mockito:
   version: 1.9.5+ds-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 882181
 mockobjects:
   version: 0.09-5
   issues:
@@ -15862,6 +15887,7 @@ nheko:
   version: 0.0+git20170715.3c1f969-2
   bugs:
     - 881914
+    - 882206
 nibabel:
   version: 2.0.1-1
   issues:
@@ -19442,6 +19468,8 @@ python-gudev:
   version: 147.2-3
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 882232
 python-http-parser:
   version: 0.8.3-2
   issues:
@@ -24240,6 +24268,14 @@ sollya:
     - different_encoding
     - timestamps_in_manpages_generated_by_help2man
     - fonts_in_pdf_files
+solvespace:
+  version: 2.3+repack1-2
+  bugs:
+    - 882167
+sonic-visualiser:
+  version: 3.0.3-1
+  bugs:
+    - 882178
 sonnet:
   version: 5.11.0-1
   comments: |
@@ -24701,6 +24737,8 @@ sugar-base:
   version: 0.98.0-5
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 882153
 sugar-browse-activity:
   version: 200-1
   issues:
