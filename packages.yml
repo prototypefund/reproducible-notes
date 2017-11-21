@@ -24755,6 +24755,10 @@ sugar-browse-activity:
   issues:
     - translations_missing_in_desktop_files
     - max_output_size_reached
+sugar-calculate-activity:
+  version: 44-3
+  comments: |
+    Some toolchain package is making Icon files (coming from activity/info?) have the absolute build path.
 sugar-memorize-activity:
   version: 51-3
   issues:
