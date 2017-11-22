@@ -1849,6 +1849,7 @@ bpfcc:
   version: 0.3.0-4
   bugs:
     - 882160
+    - 882344
 bplay:
   version: 0.991-10
   issues:
@@ -6631,6 +6632,8 @@ gauche-c-wrapper:
   version: 0.6.1-7
   issues:
     - records_build_flags
+  bugs:
+    - 882328
 gauche-gl:
   version: 0.6-1
   issues:
@@ -10764,6 +10767,8 @@ koules:
   version: 1.4-23
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 882293
 kover:
   version: 1:4-8
   issues:
@@ -10951,6 +10956,10 @@ kvpm:
   version: 0.9.9-1
   issues:
     - gcc_captures_build_path
+kwalify:
+  version: 0.7.2-4
+  bugs:
+    - 882315
 kwallet-kf5:
   version: 5.28.0-3
   issues:
@@ -12094,6 +12103,8 @@ libhibernate-validator-java:
   version: 4.3.3-1
   issues:
     - nondeterminism_in_java_classes_generated_by_jxc
+  bugs:
+    - 882317
 libhibernate3-java:
   version: 3.6.10.Final-4
   issues:
@@ -15727,6 +15738,10 @@ networking-l2gw:
   version: 1:1.0.0+git20160927.29cb4fe3-1
   bugs:
     - 881212
+networking-ovs-dpdk:
+  version: 2015.1.1+git20151118.35ac4c7-1
+  bugs:
+    - 882268
 netxx:
   version: 0.3.2-2
   bugs:
@@ -15742,6 +15757,7 @@ neutron-lbaas:
     https://sources.debian.net/src/neutron-lbaas/1:8.0.0-3/neutron_lbaas/services/loadbalancer/drivers/haproxy/jinja_cfg.py/?hl=67#L61-L62
   bugs:
     - 881210
+    - 882260
 neutron-vpnaas:
   version: 1:8.0.0-2
   comments: |
@@ -17891,6 +17907,10 @@ php-igbinary:
   version: 1.2.1-10-ge0e66b9+1.2.1+-4
   issues:
     - gcc_captures_build_path
+php-mockery:
+  version: 0.9.5-1
+  bugs:
+    - 882267
 php-mongodb:
   version: 1.1.7-2
   issues:
@@ -18208,6 +18228,10 @@ plip:
   version: 1.3.3+dfsg-1
   issues:
     - help2man_puts_traceback_in_generated_man_page
+ploop:
+  version: 1.15-3
+  bugs:
+    - 882295
 plopfolio.app:
   version: 0.1.0-6
   issues:
@@ -24499,6 +24523,8 @@ sra-sdk:
   version: 2.8.1-2+dfsg-1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 882349
 srecord:
   version: 1.58-1.1
   issues:
@@ -24936,6 +24962,10 @@ symfony:
   version: 2.7.5+dfsg-1
   issues:
     - ftbfs_uninvestigated_test_failures
+sympathy:
+  version: 1.2.1+woking+cvs+git20161222
+  bugs:
+    - 882248
 sympy:
   version: 0.7.5-4
   issues:
