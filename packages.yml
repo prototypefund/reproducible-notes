@@ -872,10 +872,6 @@ arrayfire:
   version: 3.3.2+dfsg1-4
   issues:
     - build_dir_in_documentation_generated_by_doxygen
-artemis:
-  version: 16.0.17+dfsg-2
-  bugs:
-    - 879384
 artikulate:
   version: 4:16.08.2-1
   issues:
@@ -1131,7 +1127,6 @@ avahi:
     - debian/rules implicitly uses ChangeLog as the upstream changelog, but ChangeLog is created from
       scratch at every build, which makes it not to be a good upstream changelog.
   bugs:
-    - 878911
     - 880036
 avahi-sharp:
   version: 0.6.19-4.3
@@ -1973,10 +1968,6 @@ buffy:
   version: 1.5-2
   issues:
     - gcc_captures_build_path
-bugs-everywhere:
-  version: 1.1.1-3
-  bugs:
-    - 784793
 buici-clock:
   version: 0.4.9.2
   comments: |
@@ -4130,7 +4121,6 @@ dmtcp:
 dmucs:
   version: 0.6.1-2.1
   bugs:
-    - 839647
     - 853376
 dns2tcp:
   version: 0.5.2-1.1
@@ -5610,10 +5600,6 @@ fig2dev:
   version: 1:3.2.6-2
   issues:
     - random_id_in_pdf_generated_by_dblatex
-figtree:
-  version: 1.4.3+dfsg-1
-  bugs:
-    - 879252
 file-rc:
   version: 0.8.16
   bugs:
@@ -7199,10 +7185,6 @@ gitit:
   version: 0.12.2.1-1
   bugs:
     - 881599
-gitlab-ci-multi-runner:
-  version: 1.4.2+dfsg-1
-  bugs:
-    - 871078
 gitlab-workhorse:
   version: 0.7.2-1
   issues:
@@ -9244,10 +9226,6 @@ intel-cmt-cat:
   version: 0.1.3-2
   issues:
     - gcc_captures_build_path
-intel-gpu-tools:
-  version: 1.20-1
-  bugs:
-    - 878312
 intel-processor-trace:
   version: 1.5-1
   bugs:
@@ -11619,10 +11597,6 @@ libclaw:
   version: 1.7.3-2
   issues:
     - build_id_differences_only
-libcloud:
-  version: 1.5.0-1
-  bugs:
-    - 878542
 libcobra-java:
   version: 0.98.4-5
   issues:
@@ -23354,8 +23328,6 @@ sane-backends:
   version: 1.0.25-3
   issues:
     - timestamps_in_ps_generated_by_dvips
-  bugs:
-    - 879185
 sapphire:
   version: 0.15.8-9.1
   issues:
