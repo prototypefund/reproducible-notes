@@ -1727,3 +1727,6 @@ randomness_in_files_generated_by_pinyin_gen_binary_files:
   description: |
     /usr/bin/gen_binary_files from libpinyin-utils generates non-deterministic
     output.
+build_path_in_files_generated_by_qdbusxml2cpp:
+  description: |
+    eg. The command line was qdbusxml2cpp -m -i pimcommon/metatype.h -p imapresourcesettings <buildpath>
