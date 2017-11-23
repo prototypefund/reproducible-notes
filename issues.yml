@@ -1730,3 +1730,9 @@ randomness_in_files_generated_by_pinyin_gen_binary_files:
 build_path_in_files_generated_by_qdbusxml2cpp:
   description: |
     eg. The command line was qdbusxml2cpp -m -i pimcommon/metatype.h -p imapresourcesettings <buildpath>
+timestamps_in_rcc_files_generated_by_rcc:
+  description: |
+    /usr/lib/qt5/bin/rcc from qtbase5-dev-tools (src qtbase-opensource-src)
+    embeds a last modified timestamp in the generated .rcc file.
+    .
+    http://sources.debian.net/src/qtbase-opensource-src/5.9.1%2Bdfsg-9/src/tools/rcc/rcc.cpp/#L207-L212
