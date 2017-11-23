@@ -12406,6 +12406,10 @@ libkf5libkleo:
   version: 4:16.04.2-1
   issues:
     - gcc_captures_build_path
+libkf5pimcommon:
+  version: 4:16.04.2-2
+  issues:
+    - build_path_in_files_generated_by_qdbusxml2cpp
 libkface:
   version: 4:15.04.0-1
   issues:
