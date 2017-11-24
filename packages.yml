@@ -13059,9 +13059,6 @@ libregf:
     - captures_build_path
 libreoffice:
   version: 1:4.4.4~rc2-1
-  comments: |
-    It usually can't be built inside the 12h timeout we currently have.
-    Partially blacklisted to save resources in the meantime on armhf.
   issues:
     - ftbfs_in_jenkins_setup
     - blacklisted_on_jenkins_armhf_only
