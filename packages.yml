@@ -5131,10 +5131,6 @@ etbemon:
   version: 1.3.2-1
   bugs:
     - 878850
-etcd:
-  version: 3.1.4+dfsg-1
-  bugs:
-    - 857842
 etcd-fs:
   version: 0.0+git20140621.0.395eacb-1
   issues:
@@ -6042,8 +6038,6 @@ fonts-smc-chilanka:
   version: 1.2.0-1
   issues:
     - timestamp_in_fonts_generated_by_opentype
-  bugs:
-    - 876832
 fonts-smc-karumbi:
   version: 1.0-1
   issues:
@@ -6071,8 +6065,6 @@ fonts-smc-raghumalayalamsans:
   version: 2.1.1-1
   issues:
     - timestamp_in_fonts_generated_by_opentype
-  bugs:
-    - 876833
 fonts-smc-suruma:
   version: 3.2.1-1
   issues:
@@ -8618,10 +8610,6 @@ haskell-wreq:
   version: 0.4.1.0-6
   bugs:
     - 842524
-haskell-x509-util:
-  version: 1.6.1-3
-  bugs:
-    - 878335
 haskell-x509-validation:
   version: 1.6.5-2
   bugs:
@@ -12074,8 +12062,6 @@ libguestfs:
     - timestamps_in_tarball
     - captures_build_path
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-  bugs:
-    - 876740
 libhamcrest-java:
   version: 1.3-6
   issues:
@@ -19767,7 +19753,6 @@ python-pypm:
 python-pyrax:
   version: 1.9.6-1
   bugs:
-    - 835189
     - 882095
 python-pysam:
   version: 0.11.2.2+ds-3
@@ -25089,10 +25074,6 @@ tachyon:
     This will be fixed with https://bugs.debian.org/827115
   issues:
     - random_id_in_pdf_generated_by_dblatex
-tack:
-  version: 1.07-1
-  bugs:
-    - 862472
 tagainijisho:
   version: 1.0.2-1
   issues:
@@ -26082,10 +26063,6 @@ ufoai-music:
   version: 2.5-1
   comments: |
     strip-nondeterminism should be catching this .pk3 file already...
-ufraw:
-  version: 0.22-1.1
-  bugs:
-    - 853692
 uftrace:
   version: 0.6.0.20161014-1
   issues:
