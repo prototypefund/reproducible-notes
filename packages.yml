@@ -1466,6 +1466,8 @@ biber:
   version: 2.5-1
   issues:
     - random_id_in_pdf_generated_by_dblatex
+  bugs:
+    - 882537
 bibledit-bibletime:
   version: 1.1.1-3
   issues:
@@ -2636,6 +2638,10 @@ cinnamon:
   version: 3.2.7-2
   issues:
     - gcc_captures_build_path
+circlator:
+  version: 1.5.1-1
+  bugs:
+    - 880248
 citadel:
   version: 902-3
   issues:
@@ -3221,6 +3227,10 @@ cross-toolchain-base:
   version: 19
   bugs:
     - 881618
+cross-toolchain-base-ports:
+  version: 13
+  bugs:
+    - 882553
 crossroads:
   version: 2.81-1
   issues:
@@ -6666,6 +6676,8 @@ gazebo:
   version: 7.5.0+dfsg-1
   issues:
     - build_id_differences_only
+  bugs:
+    - 882591
 gb:
   version: 0.4.2-1
   issues:
@@ -7253,6 +7265,10 @@ gkrelltop:
   version: 2.2.13-1
   issues:
     - gcc_captures_build_path
+glare:
+  version: 0.4.1-2
+  bugs:
+    - 882535
 glaurung:
   version: 2.2-2
   issues:
@@ -7875,6 +7891,8 @@ golang-github-opencontainers-image-spec:
   version: 1.0.0~rc2+dfsg-1
   issues:
     - golang_compiler_captures_build_path_in_binary
+  bugs:
+    - 882539
 golang-github-optiopay-kafka:
   version: 0.0~git20150921.0.bc8e095-1
   bugs:
@@ -7939,6 +7957,10 @@ golang-golang-x-tools:
   version: 1:0.0~git20160315.0.f42ec61-2
   issues:
     - golang_compiler_captures_build_path_in_binary
+golang-google-grpc:
+  version: 1.6.0-2
+  bugs:
+    - 882554
 golang-gopkg-ini.v1:
   version: 1.8.5-1
   comments: |
@@ -9177,6 +9199,8 @@ influxdb:
   version: 0.13.0+dfsg1-4
   issues:
     - golang_compiler_captures_build_path_in_binary
+  bugs:
+    - 880270
 infon:
   version: 0~r198-8
   issues:
@@ -12699,6 +12723,10 @@ libnfo:
   version: 1.0.1-1.1
   issues:
     - gcc_captures_build_path
+libnfs:
+  version: 1.11.0-2
+  bugs:
+    - 882540
 libnids:
   version: 1.23-2
   issues:
@@ -15773,6 +15801,10 @@ neutron:
   version: 2:9.1.1-1
   bugs:
     - 859194
+neutron-dynamic-routing:
+  version: 2:9.0.0-1.2
+  bugs:
+    - 882534
 neutron-lbaas:
   version: 1:8.0.0-3
   comments: |
@@ -19799,6 +19831,10 @@ python-pypm:
   version: 0.0.7-8
   issues:
     - gcc_captures_build_path
+python-pyramid:
+  version: 1.6+dfsg-1
+  bugs:
+    - 851013
 python-pyrax:
   version: 1.9.6-1
   bugs:
@@ -19851,6 +19887,10 @@ python-scrapy-djangoitem:
   version: 1.1.1-1
   bugs:
     - 871385
+python-shade:
+  version: 1.7.0-2
+  bugs:
+    - 882551
 python-shapely:
   version: 1.5.15-2
   issues:
@@ -23014,6 +23054,10 @@ ruby-eb:
   version: 2.6-3
   issues:
     - gcc_captures_build_path
+ruby-encryptor:
+  version: 3.0.0-1
+  bugs:
+    - 880276
 ruby-escape-utils:
   version: 1.1.0-1
   issues:
@@ -23172,10 +23216,18 @@ ruby-libxml:
   version: 2.9.0-2
   issues:
     - gcc_captures_build_path
+ruby-license-finder:
+  version: 2.1.2-2
+  bugs:
+    - 880324
 ruby-mecab:
   version: 0.99.6-2
   issues:
     - gcc_captures_build_path
+ruby-mechanize:
+  version: 2.7.5-1
+  bugs:
+    - 882608
 ruby-mini-magick:
   version: 4.4.0-1
   bugs:
@@ -24064,6 +24116,10 @@ sigil:
   version: 0.9.6+dfsg-2
   issues:
     - build_id_differences_only
+signon-ui:
+  version: 0.17+15.10.20150810-2
+  bugs:
+    - 882557
 signond:
   version: 8.57+20150423-3
   issues:
@@ -26316,6 +26372,8 @@ uima-as:
   version: 2.3.1-5
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 882605
 uimaj:
   version: 2.9.0-1
   issues:
@@ -26549,6 +26607,10 @@ valgrind:
   version: 1:3.12.0~svn20160714-1
   issues:
     - build_path_captured_in_assembly_objects
+validator.js:
+  version: 4.7.1+dfsg1-1.1
+  bugs:
+    - 882541
 varconf:
   version: 1.0.1-3
   bugs:
@@ -26679,6 +26741,8 @@ vdr-plugin-xineliboutput:
   version: 1.1.0+cvs20150907-3
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 881630
 vecmath:
   version: 1.5.2-5
   issues:
