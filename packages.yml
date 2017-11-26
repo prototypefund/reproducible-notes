@@ -11776,6 +11776,10 @@ libdbd-sqlite3-perl:
   version: 1.54-2
   bugs:
     - 881291
+libdbix-class-schema-loader-perl:
+  version: 0.07047-1
+  bugs:
+    - 882618
 libdbusmenu:
   version: 12.10.2-1
   issues:
@@ -14164,6 +14168,10 @@ mah-jong:
   version: 1.11-2
   issues:
     - gcc_captures_build_path
+mahimahi:
+  version: 0.97-1
+  bugs:
+    - 882623
 mailavenger:
   version: 0.8.4-4.1
   bugs:
@@ -14970,6 +14978,7 @@ mongodb:
     - diffoscope_runs_forever
   bugs:
     - 871906
+    - 882643
 monkeysign:
   version: 2.2.1
   comments: |
@@ -15781,6 +15790,14 @@ networking-l2gw:
   version: 1:1.0.0+git20160927.29cb4fe3-1
   bugs:
     - 881212
+networking-mlnx:
+  version: 1:9.0.0~b1-1
+  bugs:
+    - 882622
+networking-ovn:
+  version: 1.0.0-1
+  bugs:
+    - 882680
 networking-ovs-dpdk:
   version: 2015.1.1+git20151118.35ac4c7-1
   bugs:
@@ -22644,6 +22661,7 @@ ring:
   bugs:
     - 853642
     - 882407
+    - 882625
 ripmime:
   version: 1.4.0.10.debian.1-1
   comments: |
