@@ -6254,6 +6254,8 @@ freelan:
   version: 2.0-2
   comments: |
     Part of the patch is https://gist.github.com/lamby/ecf8a75b06aab0b91b519b6157422288/raw but does not fix everything
+  bugs:
+    - 882733
 freeorion:
   version: 0.4.6-4
   issues:
@@ -19955,6 +19957,7 @@ python-xlib:
     - texi2html_captures_users_gecos
   bugs:
     - 838713
+    - 882772
 python-xlrd:
   version: 0.9.2-1
   comments: |
@@ -23218,6 +23221,10 @@ ruby-msgpack:
   version: 1.0.0-1
   issues:
     - gcc_captures_build_path
+ruby-multi-xml:
+  version: 0.5.5-2
+  bugs:
+    - 882718
 ruby-multibitnums:
   version: 0.1.4-2
   issues:
