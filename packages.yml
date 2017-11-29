@@ -25063,6 +25063,8 @@ starpu:
   version: 1.1.4+dfsg-3
   comments: |
     Captures SHELL - needs some kind of forcing in debian/rules?
+  issues:
+    - captures_build_path
 statcvs:
   version: 1:0.7.0.dfsg-6
   issues:
