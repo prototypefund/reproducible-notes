@@ -8567,10 +8567,6 @@ harden-doc:
   version: 3.18.1
   issues:
     - timestamps_in_ps_generated_by_dvips
-harfbuzz:
-  version: 1.4.2-1
-  bugs:
-    - 870689
 haskell-argon2:
   version: 1.2.0-3
   bugs:
@@ -13376,8 +13372,6 @@ libu2f-host:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - fonts_in_pdf_files
-  bugs:
-    - 876579
 libu2f-server:
   version: 0.0.0-1
   issues:
@@ -24893,8 +24887,6 @@ starpu:
   version: 1.1.4+dfsg-3
   comments: |
     Captures SHELL - needs some kind of forcing in debian/rules?
-  bugs:
-    - 877028
 statcvs:
   version: 1:0.7.0.dfsg-6
   issues:
