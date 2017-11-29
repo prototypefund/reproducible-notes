@@ -5021,10 +5021,6 @@ erlang-p1-iconv:
   version: 1.0.1-1
   issues:
     - captures_build_path_in_beam_files
-erlang-p1-mysql:
-  version: 1.0.1-2
-  issues:
-    - captures_build_path_in_beam_files
 erlang-p1-oauth2:
   version: 0.6.1-1
   issues:
@@ -5047,10 +5043,6 @@ erlang-p1-sqlite3:
     - captures_build_path_in_beam_files
 erlang-p1-stringprep:
   version: 1.0.5-1
-  issues:
-    - captures_build_path_in_beam_files
-erlang-p1-stun:
-  version: 1.0.6-1
   issues:
     - captures_build_path_in_beam_files
 erlang-p1-tls:
@@ -8222,7 +8214,6 @@ gri:
 grib-api:
   version: 1.15.0-4
   issues:
-    - captures_build_path
     - records_build_flags
 gridengine:
   version: 6.2u5-7.3
@@ -8727,10 +8718,6 @@ hepmc:
   bugs:
     - 777901
     - 867090
-herbstluftwm:
-  version: 0.7.0-1
-  issues:
-    - timestamps_in_manpages_generated_by_docbook_xsl
 hercules:
   version: 3.12-1
   issues:
