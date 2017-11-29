@@ -462,6 +462,8 @@ android-tools:
   version: 5.1.1.r38-1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 882975
 anet:
   version: 0.3.1-1
   comments: |
@@ -1163,6 +1165,10 @@ awffull:
   version: 3.10.2-4
   bugs:
     - 880764
+awl:
+  version: 0.58-1
+  bugs:
+    - 882894
 aws-sdk-for-php:
   version: 0.93-4
   comments: |
@@ -3018,6 +3024,10 @@ complexity:
   version: 1.3+dfsg-1
   issues:
     - timestamps_in_manpages_generated_by_autogen
+composer:
+  version: 1.5.2-1
+  bugs:
+    - 882946
 condor:
   version: 8.2.3~dfsg.1-3
   issues:
@@ -9803,6 +9813,10 @@ jmdns:
   version: 3.4.2-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+jmespath.php:
+  version: 2.3.0-2
+  bugs:
+    - 882890
 jmock2:
   version: 2.8.2-2
   issues:
@@ -9947,6 +9961,10 @@ json-glib:
   version: 1.4.2-2
   bugs:
     - 882383
+jsonlint:
+  version: 1.6.1-1
+  bugs:
+    - 882889
 jsonm:
   version: 0.9.1-2
   issues:
@@ -17919,14 +17937,46 @@ photoprint:
   version: 0.4.2~pre2-2.4
   bugs:
     - 811806
+php-analog:
+  version: 1.0.7-2
+  bugs:
+    - 882895
 php-apcu:
   version: 5.1.7+4.0.11-2
   issues:
     - captures_build_path_via_assert
+php-cache-lite:
+  version: 1.7.16-2
+  bugs:
+    - 882888
+php-crypt-gpg:
+  version: 1.6.0-1
+  bugs:
+    - 882896
+php-db:
+  version: 1.9.2-1
+  bugs:
+    - 882891
+php-directory-scanner:
+  version: 1.3.2-1
+  bugs:
+    - 882908
+php-doctrine-data-fixtures:
+  version: 1.2.2-1
+  bugs:
+    - 882893
+php-enum:
+  version: 2.3.1-1
+  bugs:
+    - 882928
 php-facedetect:
   version: 1.1.0+git20160406-2
   issues:
     - gcc_captures_build_path
+php-fig-link-util:
+  version: 1.0.0-1
+  bugs:
+    - 882931
 php-finder-facade:
   version: 1.2.0-1
   comments: |
@@ -17935,15 +17985,51 @@ php-finder-facade:
   issues:
     - timestamps_in_documentation_generated_by_phpdox
     - captures_build_path
+php-fxsl:
+  version: 1.1.1-2
+  bugs:
+    - 882892
+php-guzzle-stream:
+  version: 3.0.0-5
+  bugs:
+    - 882907
+php-guzzlehttp-promises:
+  version: 1.1.0-1
+  bugs:
+    - 882940
+php-guzzlehttp-psr7:
+  version: 1.3.1-1
+  bugs:
+    - 882943
 php-guzzlehttp-ringphp:
   version: 1.1.0-2
   bugs:
     - 829059
     - 872160
+php-hamcrest:
+  version: 1.2.2-2
+  bugs:
+    - 882886
+php-html-safe:
+  version: 0.10.1-4
+  bugs:
+    - 882897
+php-http-request2:
+  version: 2.3.0-1
+  bugs:
+    - 882910
 php-igbinary:
   version: 1.2.1-10-ge0e66b9+1.2.1+-4
   issues:
     - gcc_captures_build_path
+php-invoker:
+  version: 1.1.4-3
+  bugs:
+    - 882906
+php-klogger:
+  version: 1.2.1-1
+  bugs:
+    - 882926
 php-mockery:
   version: 0.9.5-1
   bugs:
@@ -17956,14 +18042,107 @@ php-monolog:
   version: 1.22.0-1
   bugs:
     - 861468
+    - 882944
+php-net-ldap2:
+  version: 2.2.0-3
+  bugs:
+    - 882938
+php-numbers-words:
+  version: 0.18.1-2
+  bugs:
+    - 882901
+php-parser:
+  version: 1.4.1-2
+  bugs:
+    - 882933
+php-phar-io-manifest:
+  version: 1.0.1-1
+  bugs:
+    - 882929
+php-phpdocumentor-reflection:
+  version: 1.1.0-1
+  bugs:
+    - 882953
+php-pimple:
+  version: 3.0.2-2
+  bugs:
+    - 882902
+php-react-promise:
+  version: 2.4.1-1
+  bugs:
+    - 882913
+php-sabre-dav-2.1:
+  version: 2.1.10-1
+  bugs:
+    - 882927
+php-sabre-event:
+  version: 3.0.0~as2.0.2-2
+  bugs:
+    - 882915
+php-sabre-http:
+  version: 4.2.1-3
+  bugs:
+    - 882935
+php-sabre-http-3:
+  version: 3.0.5-3
+  bugs:
+    - 882948
+php-sabre-uri:
+  version: 1.1.0-1
+  bugs:
+    - 882923
+php-sabre-vobject:
+  version: 2.1.7-3
+  bugs:
+    - 882916
 php-sabre-vobject-3:
   version: 3.5.2-1
   bugs:
     - 880337
+php-sabre-xml:
+  version: 1.4.2-1
+  bugs:
+    - 882949
+php-sabredav:
+  version: 1.8.12-3
+  bugs:
+    - 882939
+php-sql-formatter:
+  version: 1.2.17-2
+  bugs:
+    - 882918
 php-stomp:
   version: 2.0.0+1.0.9-1
   bugs:
     - 882023
+php-symfony-polyfill:
+  version: 1.6.0-1
+  bugs:
+    - 882930
+php-symfony-security-acl:
+  version: 3.0.0-2
+  bugs:
+    - 882924
+php-text-captcha:
+  version: 1.0.2-4
+  bugs:
+    - 882914
+php-text-password:
+  version: 1.2.1-2
+  bugs:
+    - 882919
+php-webmozart-assert:
+  version: 1.2.0-1
+  bugs:
+    - 882925
+php-zeta-base:
+  version: 1.9-3
+  bugs:
+    - 882917
+php-zeta-console-tools:
+  version: 1.7-3
+  bugs:
+    - 882920
 php7.0:
   version: 7.0.4-6
   comments: |
@@ -17978,6 +18157,10 @@ php7.0:
     - captures_users_gecos
     - leaks_path_environment_variable
     - records_build_flags
+php7cc:
+  version: 1.1.0-1
+  bugs:
+    - 882932
 phpab:
   version: 1.21.0-2
   comments: |
@@ -17996,6 +18179,10 @@ phpldapadmin:
     - different_due_to_umask
   bugs:
     - 834279
+phpunit-global-state:
+  version: 2.0.0really1.1.1-1
+  bugs:
+    - 882945
 phpwebcounter:
   version: 1.0-3
   issues:
@@ -24145,6 +24332,8 @@ sikulix:
   version: 1.1.0-1
   issues:
     - captures_build_path
+  bugs:
+    - 882976
 silentjack:
   version: 0.3-2
   issues:
@@ -26182,6 +26371,10 @@ tweak:
   version: 3.02-1
   issues:
     - gcc_captures_build_path
+twig:
+  version: 1.24.0-2
+  bugs:
+    - 882941
 twinkle:
   version: 1:1.10.0+dfsg-1
   issues:
@@ -26324,6 +26517,8 @@ ufo-filters:
   version: 0.12.0+dfsg1-1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 882955
 ufoai:
   version: 2.5-1
   issues:
