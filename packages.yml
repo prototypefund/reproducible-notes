@@ -9690,6 +9690,8 @@ jaxb:
   version: 2.2.5-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 882525
 jaxb-api:
   version: 2.2.9-1
   issues:
@@ -10889,6 +10891,10 @@ kstars:
   version: 4:16.04.1-1
   issues:
     - gcc_captures_build_path
+ksudoku:
+  version: 4:17.08.3-1
+  bugs:
+    - 883100
 ksyntax-highlighting:
   version: 5.28.0-1
   issues:
