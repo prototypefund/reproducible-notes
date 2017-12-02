@@ -6734,15 +6734,12 @@ gcc-5-cross:
   issues:
     - ftbfs_in_jenkins_setup
   bugs:
-    - 877449
     - 877816
 gcc-5-cross-ports:
   version: 8
   issues:
     - diffoscope_runs_forever
     - ftbfs_in_jenkins_setup
-  bugs:
-    - 877817
 gcc-6:
   version: 6.1.1-3
   issues:
@@ -7699,10 +7696,6 @@ gocryptfs:
   bugs:
     - 849662
     - 864809
-goffice-0.8:
-  version: 0.8.17-7
-  bugs:
-    - 876610
 goiardi:
   version: 0.11.0+git20161112.21.1cd076a-3
   issues:
@@ -14311,8 +14304,6 @@ marionnet:
   issues:
     - captures_kernel_version
     - captures_build_path
-  bugs:
-    - 818952
 marisa:
   version: 0.2.4-8
   issues:
@@ -16603,8 +16594,6 @@ ocamlbricks:
   issues:
     - randomness_in_ocaml_provides
     - captures_kernel_version
-  bugs:
-    - 876734
 ocamlcreal:
   version: 0.7-6
   issues:
@@ -19774,10 +19763,6 @@ python-mne:
   version: 0.13.1+dfsg-3
   bugs:
     - 877344
-python-mox3:
-  version: 0.14.0-1
-  bugs:
-    - 867627
 python-muranoclient:
   version: 0.11.1-1
   bugs:
@@ -19885,10 +19870,6 @@ python-pdal:
   version: 1.4.0+ds-2
   issues:
     - gcc_captures_build_path
-python-pecan:
-  version: 1.1.2-3
-  bugs:
-    - 867500
 python-periodictable:
   version: 1.5.0-2
   issues:
@@ -20360,10 +20341,6 @@ qscintilla2:
   version: 2.9.2+dfsg-3
   issues:
     - gcc_captures_build_path
-qsstv:
-  version: 9.2.4+repack-1
-  bugs:
-    - 876811
 qstopmotion:
   version: 2.3.2-1
   bugs:
@@ -24053,10 +24030,6 @@ sdlbasic:
   version: 0.0.20070714-5
   issues:
     - gcc_captures_build_path
-sdlgfx:
-  version: 2.0.25-8
-  bugs:
-    - 879913
 sdpa:
   version: 7.3.9+dfsg-1
   issues:
