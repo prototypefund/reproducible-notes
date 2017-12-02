@@ -12450,6 +12450,10 @@ libkf5libkleo:
   version: 4:16.04.2-1
   issues:
     - gcc_captures_build_path
+libkf5mailcommon:
+  version: 4:16.04.2-2
+  issues:
+    - timestamps_in_h_generated_by_qdbusxml2cpp
 libkf5pimcommon:
   version: 4:16.04.2-2
   issues:
