@@ -4694,6 +4694,10 @@ edid-decode:
   version: 0.1~git20160708.c72db881-1
   issues:
     - gcc_captures_build_path
+edk2:
+  version: 0~20171027.76fd5a66-1
+  comments: |
+    Embeds absolute build path in the generated firmware. See debian/rules build-qemu-efi target.
 eeshow:
   version: 0.git20161102-1
   comments: |
