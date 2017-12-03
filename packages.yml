@@ -6749,8 +6749,6 @@ gcc-5-cross:
   version: 26
   issues:
     - ftbfs_in_jenkins_setup
-  bugs:
-    - 877816
 gcc-5-cross-ports:
   version: 8
   issues:
@@ -7288,8 +7286,6 @@ gle-graphics:
   version: 4.2.5-6
   issues:
     - random_id_in_pdf_generated_by_dblatex
-  bugs:
-    - 853420
 glewmx:
   version: 1.13.0-3
   issues:
@@ -11572,10 +11568,6 @@ libcaca:
   version: 0.99.beta19-2
   issues:
     - captures_build_path
-libcanberra:
-  version: 0.30-3
-  bugs:
-    - 876596
 libcap2:
   version: 1:2.25-1
   bugs:
@@ -13398,8 +13390,6 @@ libu2f-server:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - fonts_in_pdf_files
-  bugs:
-    - 876580
 libuninum:
   version: 2.7-1.1
   issues:
@@ -15294,10 +15284,6 @@ mrtg:
     - gcc_captures_build_path
   bugs:
     - 880776
-mrtrix:
-  version: 0.2.12-2
-  bugs:
-    - 816570
 msgpack-c:
   version: 1.4.2-3
   issues:
@@ -26318,10 +26304,6 @@ tumiki-fighters:
     Given that all stretch builds pass, this might be specific to sid or to the
     build path variation.  On the other hand, the failure might be purely random,
     and the fact that all three stretch builds passed is due to pure chance (12.5%).
-tunnelx:
-  version: 20160713-3
-  bugs:
-    - 856257
 tupi:
   version: 0.2+git05-3
   comments: |
@@ -26641,10 +26623,6 @@ unionfs-fuse:
   version: 1.0-1
   issues:
     - gcc_captures_build_path
-unison:
-  version: 2.48.3-1
-  bugs:
-    - 878462
 unittest++:
   version: 1.4.0-3.1
   issues:
@@ -27590,10 +27568,6 @@ x86info:
   version: 1.31~pre0.8052aabdd159bc9050e7dc264f33782c5acce05f-1
   issues:
     - gcc_captures_build_path
-xabacus:
-  version: 8.0.2-1
-  bugs:
-    - 865994
 xarclock:
   version: 1.0-14
   issues:
