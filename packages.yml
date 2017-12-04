@@ -2274,6 +2274,10 @@ cc1111:
   version: 2.9.0-7
   issues:
     - build_id_differences_only
+cc65:
+  version: 2.16-2
+  bugs:
+    - 883353
 ccbuild:
   version: 2.0.7-2
   issues:
@@ -8124,6 +8128,8 @@ gradle:
     - user_hostname_manually_added_requiring_further_investigation
     - captures_kernel_version
     - different_encoding
+  bugs:
+    - 882181
 grafana:
   version: 2.6.0+dfsg-3
   bugs:
@@ -9792,6 +9798,10 @@ jhbuild:
   version: 3.4.0-1
   issues:
     - captures_build_path
+jigdo:
+  version: 0.7.3-4
+  bugs:
+    - 880981
 jigsaw-generator:
   version: 0.2.4-1
   issues:
@@ -15788,6 +15798,7 @@ neutron:
   version: 2:9.1.1-1
   bugs:
     - 859194
+    - 883350
 neutron-dynamic-routing:
   version: 2:9.0.0-1.2
   bugs:
@@ -17932,6 +17943,10 @@ php-directory-scanner:
   version: 1.3.2-1
   bugs:
     - 882908
+php-doctrine-cache-bundle:
+  version: 1.3.2-2
+  bugs:
+    - 883352
 php-doctrine-data-fixtures:
   version: 1.2.2-1
   bugs:
@@ -24136,6 +24151,8 @@ sfcgal:
   version: 1.2.2-1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 876521
 sfepy:
   version: 2016.2-4
   bugs:
@@ -25693,6 +25710,8 @@ teem:
   version: 1.12.0~20160122-1
   issues:
     - captures_build_path
+  bugs:
+    - 880316
 teg:
   version: 0.11.2+debian-4
   issues:
@@ -26577,6 +26596,8 @@ undertow:
   issues:
     - random_order_in_documentation_generated_by_javadoc
     - timestamp_in_jboss_messagebundle_generated_code
+  bugs:
+    - 883357
 unhide:
   version: 20130526-1
   bugs:
