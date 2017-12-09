@@ -1569,6 +1569,10 @@ biogenesis:
   version: 0.8-2
   issues:
     - timestamps_in_jar
+biojava-live:
+  version: 1:1.7.1-6
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 biojava4-live:
   version: 4.1.0+dfsg-3
   issues:
@@ -9899,6 +9903,10 @@ json-glib:
   version: 1.4.2-2
   bugs:
     - 882383
+json-simple:
+  version: 2.3.0-1
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 jsonlint:
   version: 1.6.1-1
   bugs:
@@ -12085,6 +12093,10 @@ libhtml5parser-java:
   version: 1.4+r1.3.1-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+libhtmlparser-java:
+  version: 1.6.20060610.dfsg0-7
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 libical:
   version: 2.0.0-0.4
   issues:
@@ -12130,6 +12142,10 @@ libimage-imlib2-perl:
   version: 2.03-1
   issues:
     - gcc_captures_build_path
+libimglib2-java:
+  version: 4.5.0-1
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 libindi:
   version: 1.2.0-3
   issues:
@@ -13301,6 +13317,10 @@ libtorrent-rasterbar:
   version: 1.0.7-1
   issues:
     - gcc_captures_build_path
+libtwelvemonkeys-java:
+  version: 3.3.2-2
+  issues:
+    - random_order_in_documentation_generated_by_javadoc
 libu2f-host:
   version: 0.0.4-1
   issues:
