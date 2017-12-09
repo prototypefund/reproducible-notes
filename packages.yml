@@ -14690,10 +14690,6 @@ mldonkey:
   version: 3.1.5-3
   issues:
     - captures_build_arch
-mlgmp:
-  version: 20021123-18
-  issues:
-    - captures_build_path
 mlpack:
   version: 2.2.1-2
   issues:
@@ -26097,8 +26093,6 @@ triplea:
   version: 1.7.0.3+dfsg-1
   comments: |
     The Java MANIFEST.MF file has a list of SHA-1 digests in random order.
-  issues:
-    - timestamps_in_png
 tripwire:
   version: 2.4.3.1-1
   issues:
