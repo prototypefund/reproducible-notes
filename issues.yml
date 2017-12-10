@@ -1507,6 +1507,7 @@ sphinx_htmlhelp_readdir_sensitive:
       sphinx/builders/htmlhelp.py:223:            for root, dirs, files in os.walk(outdir):
     .
     The current test setup shows this on armhf/i386 only since it doesn't use disorderfs on amd64.
+  url: https://bugs.debian.org/884010
 timestamps_embedded_in_manpages_by_node_marked_man:
   description: |
     node-marked-man embeds the build date into generated manpages.
