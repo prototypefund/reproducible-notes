@@ -10042,10 +10042,6 @@ kactivitymanagerd:
   version: 5.8.0-1
   issues:
     - build_id_differences_only
-kadu:
-  version: 4.1-1
-  bugs:
-    - 853470
 kadu-mime-tex:
   version: 2.1-1.2
   bugs:
@@ -14191,8 +14187,6 @@ manila:
     - user_hostname_manually_added_requiring_further_investigation
     - captures_build_path
     - random_order_in_python_environment_pickle
-  bugs:
-    - 871337
 manila-ui:
   version: 2.5.1-0
   bugs:
@@ -19888,10 +19882,6 @@ python-pyrax:
   version: 1.9.6-1
   bugs:
     - 882095
-python-pysam:
-  version: 0.11.2.2+ds-3
-  bugs:
-    - 871083
 python-pytc:
   version: 0.8-2
   bugs:
@@ -23612,8 +23602,6 @@ rustc:
     Reported to upstream at https://github.com/rust-lang/rust/issues/34902 - more details there
   issues:
     - blacklisted_on_jenkins_armhf_only
-  bugs:
-    - 880262
 s3d:
   version: 0.2.2-14
   issues:
