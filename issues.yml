@@ -1739,3 +1739,6 @@ timestamps_in_rcc_files_generated_by_rcc:
     embeds a last modified timestamp in the generated .rcc file.
     .
     http://sources.debian.net/src/qtbase-opensource-src/5.9.1%2Bdfsg-9/src/tools/rcc/rcc.cpp/#L207-L212
+nondeterminism_in_documentation_generated_by_pydoctor:
+  description: |
+    eg. non-deterministic HTML id attributes.
