@@ -25016,6 +25016,10 @@ subversion:
   issues:
     - captures_build_path_via_assert
     - max_output_size_reached
+subvertpy:
+  version: 0.10.1-1
+  issues:
+    - nondeterminism_in_documentation_generated_by_pydoctor
 sudo:
   version: 1.8.17p1-2
   issues:
