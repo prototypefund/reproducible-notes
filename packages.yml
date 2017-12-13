@@ -5229,11 +5229,6 @@ extremetuxracer:
   version: 0.7.4-1
   issues:
     - gcc_captures_build_path
-eyed3:
-  version: 0.7.9-1
-  comments: |
-    [amd64/testing; intermittent]
-    Timestamp of ./usr/lib/python2.7/dist-packages/eyed3/info.py differs.
 ezmlm-idx:
   version: 7.1.1-1~exp0
   issues:
@@ -19916,10 +19911,6 @@ python-stdlib-extensions:
   version: 2.7.11-2
   issues:
     - gcc_captures_build_path
-python-stetl:
-  version: 1.1+ds-1
-  comments: |
-    https://github.com/geopython/stetl/pull/64
 python-stopit:
   version: 1.1.1-1
   bugs:
