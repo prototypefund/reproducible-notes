@@ -2038,6 +2038,7 @@ byte-buddy:
     - random_order_in_documentation_generated_by_javadoc
   bugs:
     - 882052
+    - 884207
 bytecode:
   version: 0.92.svn.20090106-2
   issues:
@@ -2636,6 +2637,8 @@ citadel:
   version: 902-3
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 884203
 citus:
   version: 5.1.1-1
   issues:
@@ -2682,6 +2685,10 @@ classycle:
   version: 1.4-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
+claws-mail:
+  version: 3.15.1-1
+  bugs:
+    - 883958
 clblas:
   version: 2.10-3
   issues:
@@ -2732,6 +2739,10 @@ clojure:
   version: 1.8.0-2
   issues:
     - nondeterministic_java_bytecode
+clonalorigin:
+  version: 1.0-1
+  bugs:
+    - 884206
 cloop:
   version: 3.14.1.1
   issues:
@@ -3453,6 +3464,8 @@ cyrus-imapd:
   issues:
     - records_build_flags
     - gcc_captures_build_path
+  bugs:
+    - 883951
 cyrus-imspd:
   version: 1.8-3
   issues:
@@ -3845,6 +3858,10 @@ deborphan:
   version: 1.7.28.8-0.3
   issues:
     - gcc_captures_build_path
+debtags:
+  version: 2.1.4
+  bugs:
+    - 884196
 dee:
   version: 1.0.10-3.1
   bugs:
@@ -7897,6 +7914,7 @@ goldencheetah:
   bugs:
     - 811867
     - 873444
+    - 883953
 goldendict:
   version: 1.5.0~git20160508.g92b5485-3
   comments: |
@@ -8919,6 +8937,10 @@ ibus-table-others:
   version: 1.3.5-2
   issues:
     - random_order_in_ibus_table_createdb_output
+icdiff:
+  version: 1.9.1-1
+  bugs:
+    - 884195
 icedove:
   version: 38.5.0-1
   issues:
@@ -10111,6 +10133,10 @@ kcalc:
   version: 4:16.04.2-1
   issues:
     - build_id_variation_requiring_further_investigation
+kcalcore:
+  version: 4:16.04.2-1
+  bugs:
+    - 883960
 kcalutils:
   version: 16.04.3-1
   issues:
@@ -10224,6 +10250,10 @@ kdepim-runtime:
     - build_id_differences_only
   bugs:
     - 880252
+kdepimlibs:
+  version: 4:4.14.10-7
+  bugs:
+    - 884201
 kdeplasma-addons:
   version: 4:5.8.5-2
   issues:
@@ -10701,6 +10731,10 @@ konsole:
   version: 4:16.04.2-1
   issues:
     - build_id_differences_only
+kopanocore:
+  version: 8.3.4-4
+  bugs:
+    - 883957
 kore:
   version: 2.0.0-2
   issues:
@@ -13177,6 +13211,10 @@ libsx:
   version: 2.05-8
   issues:
     - gcc_captures_build_path
+libsynthesis:
+  version: 3.4.0.47.5+syncevolution-1.5.2-1
+  bugs:
+    - 884200
 libtar:
   version: 1.2.20-5
   issues:
@@ -17778,6 +17816,10 @@ php-apcu:
   version: 5.1.7+4.0.11-2
   issues:
     - captures_build_path_via_assert
+php-apcu-bc:
+  version: 1.0.3-2
+  bugs:
+    - 884197
 php-cache-lite:
   version: 1.7.16-2
   bugs:
@@ -25229,6 +25271,8 @@ syncevolution:
   issues:
     - timestamps_in_manpages_generated_by_sphinx
     - timestamps_in_manpages_generated_by_rst2man
+  bugs:
+    - 884158
 syncthing:
   version: 0.13.4+dfsg1-1
   issues:
@@ -27015,6 +27059,10 @@ webauth:
   issues:
     - timezones_manpages_podman
     - user_hostname_manually_added_requiring_further_investigation
+webcit:
+  version: 904-dfsg-1
+  bugs:
+    - 884204
 webdis:
   version: 0.1.2+dfsg-2
   bugs:
