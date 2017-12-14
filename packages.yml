@@ -3318,7 +3318,6 @@ curry-libs:
 curry-tools:
   version: 1.0.0+dfsg1-1
   issues:
-    - different_due_to_umask
     - random_order_in_tarball
 custodia:
   version: 0.1.0-2
@@ -3341,8 +3340,6 @@ cvc3:
 cvm:
   version: 0.96-1.2
   issues:
-    - timestamps_in_gzip_headers
-    - different_due_to_umask
     - random_order_in_md5sums
   bugs:
     - 813944
