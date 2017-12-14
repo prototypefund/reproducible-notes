@@ -295,6 +295,8 @@ akonadi-search:
   version: 16.04.3-1
   issues:
     - build_id_differences_only
+  bugs:
+    - 884291
 akuma:
   version: 1.9-1
   comments: |
@@ -5648,6 +5650,8 @@ fis-gtm:
   version: 6.2-002A-2
   comments: |
     Really curious diffoscope where a very large number of 0x01 bytes in the a build 0x02 in the b build. Possibly an offset difference rather than literal difference?
+  bugs:
+    - 884236
 fityk:
   version: 1.2.1-0.1
   issues:
@@ -6841,6 +6845,8 @@ gdb-mingw-w64:
   version: 10.2
   issues:
     - captures_build_path
+  bugs:
+    - 884242
 gdb-msp430:
   version: 7.2a~mspgcc-20111205-3.1
   issues:
@@ -9630,6 +9636,7 @@ jaxb:
     - random_order_in_documentation_generated_by_javadoc
   bugs:
     - 882525
+    - 883387
 jaxb-api:
   version: 2.2.9-1
   issues:
@@ -10125,6 +10132,8 @@ kcalutils:
   version: 16.04.3-1
   issues:
     - build_id_variation_requiring_further_investigation
+  bugs:
+    - 884293
 kchmviewer:
   version: 7.5-1
   issues:
@@ -10867,6 +10876,8 @@ ktnef:
   version: 16.04.2-1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 884292
 ktp-accounts-kcm:
   version: 15.08.3-2
   bugs:
@@ -15986,6 +15997,10 @@ node-semver:
   version: 5.3.0-1
   issues:
     - timestamps_embedded_in_manpages_by_node_marked_man
+node-semver-diff:
+  version: 2.1.0-1
+  bugs:
+    - 884295
 node-sshpk:
   version: 1.13.0+dfsg-1
   issues:
@@ -17368,6 +17383,7 @@ pandas:
     - cython_captures_build_path
   bugs:
     - 877419
+    - 884294
 pandoc:
   version: 1.17.0.3~dfsg-2
   bugs:
@@ -18929,6 +18945,7 @@ purify:
     - captures_build_path_via_assert
   bugs:
     - 867273
+    - 884214
 purpose:
   version: 1.1-2
   issues:
@@ -19128,6 +19145,10 @@ pylint:
   version: 1.7.4-1
   bugs:
     - 883913
+pylint-common:
+  version: 0.2.5-1
+  bugs:
+    - 884220
 pylirc:
   version: 0.0.5-3
   issues:
@@ -22615,6 +22636,10 @@ reportbug-ng:
   version: 2.1
   issues:
     - nondeterminism_added_by_pyqt5_pyrcc5
+reposurgeon:
+  version: 3.42-2
+  bugs:
+    - 871163
 reptyr:
   version: 0.6.2-1
   bugs:
@@ -22952,6 +22977,10 @@ rsync:
     - build_id_differences_only
   bugs:
     - 787123
+rsyslog:
+  version: 8.31.0-2
+  bugs:
+    - 884305
 rt-extension-customfieldsonupdate:
   version: 0.01-1
   issues:
@@ -26796,6 +26825,8 @@ vite:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - fonts_in_pdf_files
+  bugs:
+    - 884314
 viva:
   version: 1.1+git20150820.1a3d1f680f-1
   issues:
