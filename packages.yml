@@ -1784,6 +1784,10 @@ boost1.62:
   version: 1.62.0+dfsg-1
   issues:
     - max_output_size_reached
+  bugs:
+    - 883987
+    - 884184
+    - 884185
 boot:
   version: 1.3-18-2
   issues:
@@ -23903,6 +23907,10 @@ sdpb:
   version: 1.0-1
   issues:
     - timestamps_in_tex_documents
+sdrangelove:
+  version: 0.0.1.20150707-2
+  bugs:
+    - 884315
 seafile-client:
   version: 6.0.1+git20161227.7b0b837-2
   issues:
