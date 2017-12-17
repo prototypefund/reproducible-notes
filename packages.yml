@@ -870,8 +870,6 @@ asc:
   version: 2.6.1.0-2
   comments: |
     http://sources.debian.net/src/asc/2.6.1.0-2/source/tools/mount.cpp/\#L444 method takes a glob pattern which is expanded without sorting so main.ascdat file has non-determinstic contents
-  bugs:
-    - 881998
 ascd:
   version: 0.13.2-6
   issues:
@@ -7170,10 +7168,6 @@ gitano:
   version: 1.0-1
   issues:
     - random_id_in_pdf_generated_by_dblatex
-gitit:
-  version: 0.12.2.1-1
-  bugs:
-    - 881599
 gitlab-workhorse:
   version: 0.7.2-1
   issues:
@@ -8832,10 +8826,6 @@ http-icons:
     The conversion back to GIF introduces the variation.
   bugs:
     - 840741
-http-parser:
-  version: 2.1-2
-  bugs:
-    - 853446
 httpunit:
   version: 1.7+dfsg-12
   issues:
@@ -11943,8 +11933,6 @@ libgdchart-gd2:
     Also: debian/rules has a copyright notice but no license notice (and not covered by debian/copyright either).
   issues:
     - max_output_size_reached
-  bugs:
-    - 880872
 libgdf:
   version: 0.1.2-2
   issues:
@@ -12906,10 +12894,6 @@ libpthread-workqueue:
   version: 0.9.1-1
   bugs:
     - 835107
-libpuzzle:
-  version: 0.11-1
-  bugs:
-    - 880774
 libqapt:
   version: 3.0.1-1
   issues:
@@ -15676,10 +15660,6 @@ netty-3.9:
   version: 3.9.9.Final-1
   issues:
     - nondeterministic_java_bytecode
-networking-arista:
-  version: 2016.2.0-1
-  bugs:
-    - 881208
 networking-l2gw:
   version: 1:1.0.0+git20160927.29cb4fe3-1
   bugs:
@@ -15921,10 +15901,6 @@ node-argparse:
   version: 1.0.7-1
   bugs:
     - 872531
-node-asn1.js:
-  version: 5.0.0-1
-  bugs:
-    - 881292
 node-braces:
   version: 2.0.2-1
   bugs:
@@ -18186,10 +18162,6 @@ pkg-config:
   version: 0.29-4
   issues:
     - gcc_captures_build_path
-pkg-haskell-tools:
-  version: 0.11.0
-  bugs:
-    - 881820
 pkg-mozilla-archive-keyring:
   version: 1.1
   bugs:
@@ -19761,10 +19733,6 @@ python-pam:
   version: 0.4.2-13.2
   issues:
     - gcc_captures_build_path
-python-pbr:
-  version: 1.10.0-1
-  bugs:
-    - 877252
 python-pcs:
   version: 0.5+debian-1.2
   issues:
@@ -19951,10 +19919,6 @@ python-traits:
   version: 4.6.0-1
   bugs:
     - 846771
-python-trollius:
-  version: 2.1~b1-4
-  bugs:
-    - 867771
 python-utmp:
   version: 0.8.2
   issues:
@@ -24991,10 +24955,6 @@ strucchange:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
-stylish-haskell:
-  version: 0.7.1.0-1
-  bugs:
-    - 881821
 stymulator:
   version: 0.21a~dfsg-1
   issues:
@@ -26185,10 +26145,6 @@ tuxpaint:
     Prints multiple lines with `echo`, which behaves differently depending on the shell.
     This causes a variation in linenumbers and therefore different debugging symbols.
     https://sources.debian.net/src/tuxpaint/1:0.9.22-2/Makefile/#L1147
-tuxpaint-config:
-  version: 0.0.13-4
-  bugs:
-    - 879042
 tvc:
   version: 5.0.3+dfsg-1
   comments: |
