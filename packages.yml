@@ -3774,12 +3774,15 @@ debian-installer:
   issues:
     - different_due_to_umask
     - ftbfs_environment
+    - needs_internet_access_to_build
+    - ftbfs_in_jenkins_setup
   bugs:
     - 806984
 debian-installer-netboot-images:
   version: 20150107
   issues:
     - needs_internet_access_to_build
+    - ftbfs_in_jenkins_setup
 debian-parl:
   version: 1.9.10
   bugs:
