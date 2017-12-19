@@ -3193,8 +3193,6 @@ crash:
   comments: |
     Embed build time, user, and groups:
     https://sources.debian.net/src/crash/7.0.8-1/configure.c/?hl=1183:1184#L1183
-  issues:
-    - user_hostname_manually_added_requiring_further_investigation
 crawl:
   version: 2:0.18.1-1
   issues:
@@ -13442,9 +13440,6 @@ libxerces2-java:
     - different_encoding
 libxml++2.6:
   version: 2.38.1-1
-  issues:
-    - captures_build_path
-    - libtool_captures_shell_build-flags_build-path_path-env
   bugs:
     - 812895
 libxml-commons-resolver1.1-java:
