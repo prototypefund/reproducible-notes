@@ -6057,22 +6057,6 @@ form:
   bugs:
     - 835138
     - 853404
-foxeye:
-  version: 0.10.1-1
-  comments: |
-    Embeds the build date.
-    https://sources.debian.net/src/foxeye/0.10.1-1/configure.ac/#L310
-    .
-    Patch is just...
-    .
-    -GENDATE="`LC_TIME=C date +'%B %Y'`"
-    +if test x$SOURCE_DATE_EPOCH = x; then
-    +    GENDATE="`LC_TIME=C date +'%B %Y'`"
-    +else
-    +    GENDATE="`LC_TIME=C date --utc --date="@$$SOURCE_DATE_EPOCH" +'%B %Y'`"
-    +fi
-    .
-    ... but autoreconfing causes a FTBFS, filed as Bug835833
 fpgatools:
   version: 0.0+201212-1
   issues:
@@ -17403,14 +17387,6 @@ pcsc-cyberjack:
   version: 3.99.5final.sp09-1
   issues:
     - gcc_captures_build_path
-pcsc-tools:
-  version: 1.4.27-1
-  comments: |
-    Depends on last component of $PWD:
-    .
-    Makefile:8:VERSION := $(shell pwd | sed s/.*tools-//)
-  bugs:
-    - 845282
 pcscada:
   version: 0.7.2-1
   issues:
@@ -26666,12 +26642,6 @@ virtuoso-opensource:
   issues:
     - timestamps_from_cpp_macros
     - captures_kernel_version
-viruskiller:
-  version: 1.03-1+dfsg1-1
-  comments: |
-    viruskiller.pak is created with a tool which iterates over files/directories in readdir order.
-    https://sources.debian.net/src/viruskiller/1.03-1%2Bdfsg1-1/src/pak.cpp/
-    fileData[] should get sorted before writing the output.
 visp:
   version: 3.0.0-4
   issues:
