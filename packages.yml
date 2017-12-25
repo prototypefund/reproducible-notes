@@ -9176,9 +9176,6 @@ ippusbxd:
     - gcc_captures_build_path
 iproute2:
   version: 3.16.0-2
-  issues:
-    - timestamps_in_ps_generated_by_dvips
-    - timestamps_in_dvi_generated_by_latex
   bugs:
     - 783276
 ipsvd:
