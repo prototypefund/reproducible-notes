@@ -2,8 +2,6 @@
   version: 0.0.20-2
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 879071
 3270font:
   version: 1.2-1
   issues:
@@ -1038,10 +1036,6 @@ auctex:
     - timestamps_in_emacs_autoloads
     - timestamps_in_pdf_generated_by_latex
     - random_id_in_pdf_generated_by_dblatex
-audacity:
-  version: 2.2.0-1
-  bugs:
-    - 882173
 audex:
   version: 0.79-1
   issues:
@@ -2374,8 +2368,6 @@ celery:
   version: 3.1.13-3
   issues:
     - randomness_in_documentation_generated_by_sphinx
-  bugs:
-    - 867481
 celery-haystack:
   version: 0.10-1
   bugs:
@@ -5753,10 +5745,6 @@ flow-tools:
   version: 1:0.68-12.3
   issues:
     - gcc_captures_build_path
-flower:
-  version: 0.8.3+dfsg-2
-  bugs:
-    - 881062
 flowgrind:
   version: 0.7.5-2
   issues:
@@ -6043,7 +6031,6 @@ foolscap:
   version: 0.12.6-1
   bugs:
     - 850537
-    - 877206
 fop:
   version: 1:2.1-5
   issues:
@@ -6086,8 +6073,6 @@ foxeye:
     +fi
     .
     ... but autoreconfing causes a FTBFS, filed as Bug835833
-  bugs:
-    - 860373
 fpgatools:
   version: 0.0+201212-1
   issues:
@@ -10312,10 +10297,6 @@ keytouch-editor:
   version: 1:3.2.0~beta-3
   issues:
     - gcc_captures_build_path
-keyutils:
-  version: 1.5.9-9
-  bugs:
-    - 828681
 kf5-kdepimlibs:
   version: 4:16.04.2-2
   issues:
@@ -13002,10 +12983,6 @@ librsb:
   version: 1.2.0-rc5-3
   issues:
     - records_build_flags
-libsavitar:
-  version: 3.0.3-1
-  bugs:
-    - 881493
 libsaxon-java:
   version: 1:6.5.5-10
   issues:
@@ -13144,10 +13121,6 @@ libtar:
   version: 1.2.20-5
   issues:
     - captures_shell_variable_in_autofoo_script
-libtasn1-6:
-  version: 4.12-2.1
-  bugs:
-    - 876589
 libtcd:
   version: 2.2.2-1
   issues:
@@ -14748,8 +14721,6 @@ mojarra:
   version: 2.2.8-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-  bugs:
-    - 880242
 mokomaze:
   version: 0.5.5+git8+dfsg0-4
   issues:
@@ -26278,8 +26249,6 @@ uima-as:
   version: 2.3.1-5
   issues:
     - random_order_in_documentation_generated_by_javadoc
-  bugs:
-    - 882605
 uimaj:
   version: 2.9.0-1
   issues:
@@ -26706,8 +26675,6 @@ viruskiller:
     viruskiller.pak is created with a tool which iterates over files/directories in readdir order.
     https://sources.debian.net/src/viruskiller/1.03-1%2Bdfsg1-1/src/pak.cpp/
     fileData[] should get sorted before writing the output.
-  bugs:
-    - 860731
 visp:
   version: 3.0.0-4
   issues:
