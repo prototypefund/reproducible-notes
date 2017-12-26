@@ -252,10 +252,6 @@ afterstep:
   version: 2.2.12-8
   issues:
     - records_build_flags
-agda-stdlib:
-  version: 0.13-1
-  bugs:
-    - 881307
 agg:
   version: 2.5+dfsg1-12
   bugs:
@@ -8703,8 +8699,6 @@ horizon:
     - timestamps_in_documentation_generated_by_podman
     - timezones_manpages_podman
     - captures_build_path
-  bugs:
-    - 868975
 hp-search-mac:
   version: 0.1.3
   comments: |
@@ -11047,10 +11041,6 @@ lcd4linux:
   version: 0.11.0~svn1203-1
   bugs:
     - 880772
-lcgdm:
-  version: 1.9.0-2
-  bugs:
-    - 881308
 lcm:
   version: 1.3.1+repack1-1
   issues:
@@ -13658,8 +13648,6 @@ logback:
   version: 1:1.1.9-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-  bugs:
-    - 882472
 logfs-tools:
   version: 20121013-2
   issues:
@@ -17973,8 +17961,6 @@ pike7.8:
   issues:
     - timestamps_from_cpp_macros
     - captures_kernel_version
-  bugs:
-    - 878566
 pillow:
   version: 3.3.1-1
   issues:
@@ -19583,10 +19569,6 @@ python-openstackdocstheme:
   version: 1.2.5+dfsg1-1
   issues:
     - random_order_in_python_environment_pickle
-python-os-api-ref:
-  version: 0.3.0+dfsg1-3
-  bugs:
-    - 866557
 python-osd:
   version: 0.2.14-6
   issues:
@@ -19813,7 +19795,6 @@ python-xlib:
     - texi2html_captures_users_gecos
   bugs:
     - 838713
-    - 882772
 python-xlrd:
   version: 0.9.2-1
   comments: |
@@ -24409,10 +24390,6 @@ sollya:
     - different_encoding
     - timestamps_in_manpages_generated_by_help2man
     - fonts_in_pdf_files
-solvespace:
-  version: 2.3+repack1-2
-  bugs:
-    - 882167
 sonic-pi:
   version: 2.10.0~repack-2
   bugs:
@@ -24806,8 +24783,6 @@ stoken:
   version: 0.91-1
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 878883
 storm:
   version: 0.19-1
   issues:
