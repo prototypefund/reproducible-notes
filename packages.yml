@@ -1745,10 +1745,6 @@ boolstuff:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
-boost1.61:
-  version: 1.61.0+dfsg-2.1
-  issues:
-    - max_output_size_reached
 boost1.62:
   version: 1.62.0+dfsg-1
   issues:
@@ -13396,13 +13392,6 @@ lightproof:
   version: 1.5+git20140515-1
   bugs:
     - 773919
-lightspark:
-  version: 0.7.2+git20150512-2.1
-  issues:
-    - captures_build_path
-  bugs:
-    - 841571
-    - 882157
 lilo:
   version: 1:24.2-2
   issues:
