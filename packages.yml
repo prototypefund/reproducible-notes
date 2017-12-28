@@ -23974,6 +23974,8 @@ simgear:
     - gcc_captures_build_path
 simgrid:
   version: 3.18+dfsg-1
+  comments: |
+    Encodes lib directory in binary
   issues:
     - captures_build_path
 simh:
