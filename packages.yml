@@ -3852,14 +3852,6 @@ devio:
   version: 1.2-1.2
   issues:
     - gcc_captures_build_path
-dfvfs:
-  version: 20171022-1
-  bugs:
-    - 882243
-dfwinreg:
-  version: 20170706-1
-  bugs:
-    - 882239
 dh-kpatches:
   version: 0.99.36+nmu3
   issues:
@@ -6640,7 +6632,6 @@ gcc-7:
   bugs:
     - 853537
     - 853610
-    - 853613
     - 853709
 gcc-7-cross:
   version: 8
@@ -11937,8 +11928,6 @@ libhibernate-validator-java:
   version: 4.3.3-1
   issues:
     - nondeterminism_in_java_classes_generated_by_jxc
-  bugs:
-    - 882317
 libhibernate3-java:
   version: 3.6.10.Final-4
   issues:
@@ -12774,8 +12763,6 @@ libqcow:
   version: 20160123-2
   issues:
     - captures_build_path
-  bugs:
-    - 881653
 libqes:
   version: 0.2.7-1
   issues:
@@ -15649,10 +15636,6 @@ ngs-sdk:
   bugs:
     - 813559
     - 866514
-nheko:
-  version: 0.0+git20170715.3c1f969-2
-  bugs:
-    - 882206
 nibabel:
   version: 2.0.1-1
   issues:
@@ -17809,10 +17792,6 @@ php-text-password:
   version: 1.2.1-2
   bugs:
     - 882919
-php-webmozart-assert:
-  version: 1.2.0-1
-  bugs:
-    - 882925
 php-zeta-base:
   version: 1.9-3
   bugs:
@@ -17861,10 +17840,6 @@ phpmyadmin:
   version: 4:4.6.6-5
   bugs:
     - 883417
-phpunit-global-state:
-  version: 2.0.0really1.1.1-1
-  bugs:
-    - 882945
 phpwebcounter:
   version: 1.0-3
   issues:
@@ -17938,8 +17913,6 @@ pinfo:
   version: 0.6.9-5.1
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 853613
 pink-pony:
   version: 1.4.1-2
   issues:
@@ -25030,10 +25003,6 @@ symfony:
   version: 2.7.5+dfsg-1
   issues:
     - ftbfs_uninvestigated_test_failures
-sympathy:
-  version: 1.2.1+woking+cvs+git20161222
-  bugs:
-    - 882248
 sympy:
   version: 0.7.5-4
   issues:
