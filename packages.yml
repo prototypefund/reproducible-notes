@@ -25059,6 +25059,10 @@ syslinux:
   version: 3:6.03+dfsg-13
   comments: |
     passing a fixed -DHEXDATE to nasm does not help
+syslog-ng:
+  version: 3.13.2-2
+  comments: |
+    Uses cmake CMAKE_SOURCE_DIR via SYSLOG_NG_PATH_TOPSRC_DIR which then gets embedded in the binary. Should be an easy patch but it appears to need this local/build dir to run the testsuite.
 systemd-docker:
   version: 0.2.1+dfsg-2
   issues:
