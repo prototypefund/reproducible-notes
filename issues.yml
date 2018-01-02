@@ -339,6 +339,11 @@ serial_numbers_in_ogg:
     random serial numbers in the header, which are seeded by the current time
     and the pid.
   url: https://wiki.debian.org/ReproducibleBuilds/OggSerialNumbers
+serial_numbers_in_ogg_via_sox:
+  description: |
+    Ogg streams must include unique serial numbers. By default sox includes
+    a random serial number in the header.
+  url: https://sources.debian.org/src/sox/14.4.2-3/src/vorbis.c/#L334
 timestamps_in_pdf_generated_by_apache_fop:
   description: |
     PDF files generated with Apache FOP will contain CreationDate and
