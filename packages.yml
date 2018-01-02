@@ -1483,8 +1483,6 @@ bind9:
     https://sources.debian.net/src/bind9/1:9.10.3.dfsg.P4-10/lib/dns/gen.c/#L117
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 883159
 biniou:
   version: 1.0.12-2
   issues:
@@ -4755,10 +4753,6 @@ emacs25:
   version: 25.1+1-1
   issues:
     - timestamps_in_emacs_autoloads
-embassy-domsearch:
-  version: 1:0.1.660-1
-  bugs:
-    - 880769
 emboss:
   version: 6.6.0+dfsg-1
   issues:
@@ -19250,8 +19244,6 @@ python-expyriment:
   version: 0.7.0+git34-g55a4e7e-3
   issues:
     - timestamps_in_pdf_generated_by_latex
-  bugs:
-    - 872240
 python-fabio:
   version: 0.4.0+dfsg-2
   comments: |
@@ -26160,8 +26152,6 @@ undertow:
   issues:
     - random_order_in_documentation_generated_by_javadoc
     - timestamp_in_jboss_messagebundle_generated_code
-  bugs:
-    - 883357
 unhide:
   version: 20130526-1
   bugs:
