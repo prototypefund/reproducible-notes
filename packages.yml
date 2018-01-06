@@ -2581,6 +2581,10 @@ cinnamon:
   version: 3.2.7-2
   issues:
     - gcc_captures_build_path
+cinnamon-desktop:
+  version: 3.4.2-2
+  issues:
+    - nondeterminstic_ordering_in_gsettings_glib_enums_xml
 citadel:
   version: 902-3
   issues:
