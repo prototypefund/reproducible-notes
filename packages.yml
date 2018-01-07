@@ -1478,10 +1478,6 @@ binaryornot:
   version: 0.4.0-1
   bugs:
     - 854084
-bind-dyndb-ldap:
-  version: 10.1-2
-  bugs:
-    - 879069
 bind9:
   version: 1:9.10.3.dfsg.P4-10
   comments: |
@@ -2943,8 +2939,6 @@ commons-jci:
   version: 1.1-4
   issues:
     - random_order_in_documentation_generated_by_javadoc
-  bugs:
-    - 882518
 commons-math:
   version: 3.6.1-2
   issues:
@@ -3817,10 +3811,6 @@ derivations:
     - timestamps_in_ps_generated_by_dvips
   bugs:
     - 884476
-designate:
-  version: 1:5.0.0-2
-  bugs:
-    - 883728
 desklaunch:
   version: 1.1.8
   issues:
@@ -4015,10 +4005,6 @@ django-ratelimit:
   version: 0.4.0+8+gd58c489-3
   bugs:
     - 806355
-django-reversion:
-  version: 2.0.10-1
-  bugs:
-    - 873910
 django-sekizai:
   version: 0.10.0-1
   bugs:
@@ -5656,7 +5642,6 @@ flask-migrate:
   bugs:
     - 866565
     - 880893
-    - 883732
 flask-peewee:
   version: 0.6.7-1
   bugs:
@@ -16809,8 +16794,6 @@ opensurgsim:
   version: 0.7.0-5
   issues:
     - build_id_differences_only
-  bugs:
-    - 853599
 opentk:
   version: 1.1.4c+dfsg-2
   comments: |
@@ -17310,10 +17293,6 @@ pcre-ocaml:
   version: 7.2.3-1
   issues:
     - captures_build_path
-pcre3:
-  version: 2:8.39-4
-  bugs:
-    - 853606
 pcsc-cyberjack:
   version: 3.99.5final.sp09-1
   issues:
@@ -17633,10 +17612,6 @@ php-finder-facade:
   issues:
     - timestamps_in_documentation_generated_by_phpdox
     - captures_build_path
-php-fxsl:
-  version: 1.1.1-2
-  bugs:
-    - 882892
 php-guzzle-stream:
   version: 3.0.0-5
   bugs:
@@ -17658,10 +17633,6 @@ php-hamcrest:
   version: 1.2.2-2
   bugs:
     - 882886
-php-html-safe:
-  version: 0.10.1-4
-  bugs:
-    - 882897
 php-http-request2:
   version: 2.3.0-1
   bugs:
@@ -24552,8 +24523,6 @@ sra-sdk:
   version: 2.8.1-2+dfsg-1
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 882349
 srecord:
   version: 1.58-1.1
   issues:
@@ -25320,10 +25289,6 @@ telepathy-qt:
   version: 0.9.6.1-6.1
   issues:
     - build_id_differences_only
-tempest:
-  version: 1:12.2.0-1
-  bugs:
-    - 867907
 tempest-for-eliza:
   version: 1.0.5-2
   issues:
