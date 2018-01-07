@@ -8873,6 +8873,10 @@ iec16022:
   version: 0.2.4-1.1
   issues:
     - gcc_captures_build_path
+iem-plugin-suite:
+  version: 1.0.1-2
+  bugs:
+    - 886430
 ifrit:
   version: 4.1.2-5
   issues:
@@ -24184,6 +24188,8 @@ snapd:
   version: 2.21-2
   issues:
     - timestamps_in_manpages_added_by_golang_go_flags
+  bugs:
+    - 886432
 snappea:
   version: 3.0d3-23
   issues:
