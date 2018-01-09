@@ -60,7 +60,7 @@ year_variable_in_documentation_generated_by_doxygen:
 build_dir_in_documentation_generated_by_doxygen:
   description: |
     If FULL_PATH_NAMES = YES, doxygen will include a build path into the
-    documentation based on dirname(1).
+    documentation based on dirname(1). (Can also include it via other means.)
 nondeterministic_ordering_in_documentation_generated_by_doxygen:
   description: |
     "Additional Inherited Members" has nondeterminisic children in the (HTML?)
