@@ -10999,7 +10999,6 @@ ldaptor:
 ldc:
   version: 1:1.4.0-3
   bugs:
-    - 878837
     - 879039
 ldns:
   version: 1.6.17-5
@@ -11354,12 +11353,9 @@ libcdio:
   version: 0.83-4.3
   bugs:
     - 841556
-    - 841624
     - 853484
     - 853561
-    - 853697
     - 871121
-    - 871138
 libcdk5:
   version: 5.0.20160131-1
   issues:
@@ -15426,10 +15422,6 @@ networking-l2gw:
   version: 1:1.0.0+git20160927.29cb4fe3-1
   bugs:
     - 881212
-networking-mlnx:
-  version: 1:9.0.0~b1-1
-  bugs:
-    - 882622
 networking-ovs-dpdk:
   version: 2015.1.1+git20151118.35ac4c7-1
   bugs:
@@ -19364,10 +19356,6 @@ python-mhash:
   version: 1.4-1.1
   issues:
     - gcc_captures_build_path
-python-mne:
-  version: 0.13.1+dfsg-3
-  bugs:
-    - 877344
 python-nacl:
   version: 1.0.1-2
   comments: |
@@ -23315,10 +23303,6 @@ samba:
   version: 2:4.6.7+dfsg-1
   comments: |
     Expands build prefix variables in smb.conf.5 but curiously only three of the variables are expanded, not all of them...
-sambamba:
-  version: 0.6.6-1
-  bugs:
-    - 878837
 samhain:
   version: 4.1.4-2
   comments: |
@@ -24010,7 +23994,6 @@ skytools3:
     - randomness_in_documentation_generated_by_epydoc
     - captures_build_path
   bugs:
-    - 827384
     - 878561
 skyview:
   version: 3.2.3+repack-1
