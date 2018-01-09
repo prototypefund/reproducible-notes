@@ -16509,6 +16509,10 @@ open-build-service:
       src/api/Makefile:17:  $(INSTALL) -m 0755 -d $(DESTDIR)$(OBS_API_PREFIX)/db/sphinx{,/production}
   issues:
     - bin_sh_is_bash
+open-coarrays:
+  version: 1.9.3-1
+  comments: |
+    Build path in opencorrays.mod, unknown source
 open-gram:
   version: 0.1.22+20170109-1
   issues:
