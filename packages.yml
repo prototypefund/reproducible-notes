@@ -1706,6 +1706,10 @@ boinc:
   version: 7.6.33+dfsg-1
   issues:
     - gcc_captures_build_path
+boinc-app-eah-brp:
+  version: 0.20170426+dfsg-10
+  issues:
+    - captures_build_path_via_assert
 bombardier:
   version: 0.8.3+nmu1
   issues:
