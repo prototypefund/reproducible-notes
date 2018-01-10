@@ -23332,6 +23332,10 @@ samba:
   version: 2:4.6.7+dfsg-1
   comments: |
     Expands build prefix variables in smb.conf.5 but curiously only three of the variables are expanded, not all of them...
+sambamba:
+  version: 0.6.6-1
+  issues:
+    - buildpath_in_binaries_generated_by_d_compiler_gdc
 samhain:
   version: 4.1.4-2
   comments: |
