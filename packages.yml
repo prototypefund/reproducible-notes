@@ -1844,6 +1844,10 @@ briquolo:
   version: 0.5.7-7
   issues:
     - captures_build_path
+brise:
+  version: 0.35-1
+  comments: |
+    Almost certainly uninitialised struct memory in quick5.reverse.bin files etc.
 brltty:
   version: 5.3.1-3
   comments: |
