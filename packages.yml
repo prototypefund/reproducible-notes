@@ -1971,6 +1971,10 @@ busybox:
     CFLAGS are buildhost-dependent [spaces before -g added for readability]:
     │   │   │   │   │ -    <1d733>   DW_AT_producer    : (indirect string, offset: 0x312): GNU C99 6.2.0 20160914 -mtune=generic -march=i686               -g -Os -O2 -std=gnu99 -fno-builtin-strlen -finline-limit=0 -fomit-frame-pointer -ffunction-sections -fdata-sections -fno-guess-branch-probability -funsigned-char -falign-functions=1 -falign-jumps=1 -falign-labels=1 -falign-loops=1 -fno-unwind-tables -fno-asynchronous-unwind-tables -fstack-protector-strong
     │   │   │   │   │ +    <1d71f>   DW_AT_producer    : (indirect string, offset: 0x64b): GNU C99 6.2.0 20160914 -march=i386 -mpreferred-stack-boundary=2 -g -Os -O2 -std=gnu99 -fno-builtin-strlen -finline-limit=0 -fomit-frame-pointer -ffunction-sections -fdata-sections -fno-guess-branch-probability -funsigned-char -falign-functions=1 -falign-jumps=1 -falign-labels=1 -falign-loops=1 -fno-unwind-tables -fno-asynchronous-unwind-tables -fstack-protector-strong
+buzztrax:
+  version: 0.10.2-4
+  issues:
+    - captures_build_path_via_assert
 bwbasic:
   version: 2.20pl2-11
   issues:
