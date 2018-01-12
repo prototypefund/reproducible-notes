@@ -1564,10 +1564,6 @@ bit-babbler:
   version: 0.5
   issues:
     - gcc_captures_build_path
-bitcoin:
-  version: 0.15.0.1~dfsg-1
-  bugs:
-    - 844933
 bitlbee:
   version: 3.4.2-1.1
   issues:
@@ -5649,7 +5645,6 @@ flask-limiter:
 flask-migrate:
   version: 1.7.0-1
   bugs:
-    - 866565
     - 880893
 flask-peewee:
   version: 0.6.7-1
@@ -6821,8 +6816,6 @@ geis:
   version: 2.2.17-1
   issues:
     - captures_build_path
-  bugs:
-    - 853415
 geiser:
   version: 0.8.1-1
   issues:
@@ -14240,7 +14233,6 @@ mesa:
 meson:
   version: 0.43.0-1
   bugs:
-    - 879976
     - 880257
     - 884627
     - 884628
@@ -19177,10 +19169,6 @@ python-docutils:
   version: 0.12+dfsg-1
   comments: |
     Caused by dynamic locale selection being written into the manpage at build time.
-python-dotenv:
-  version: 0.7.1-1
-  bugs:
-    - 880866
 python-dsv:
   version: 1.4.1-5
   bugs:
@@ -26887,10 +26875,6 @@ wipe:
   version: 0.24-2
   issues:
     - gcc_captures_build_path
-wiredtiger:
-  version: 2.6.1+ds-1
-  bugs:
-    - 813960
 wireguard:
   version: 0.0.20171221-2
   comments: |
