@@ -1850,6 +1850,8 @@ brise:
   version: 0.35-1
   comments: |
     Almost certainly uninitialised struct memory in quick5.reverse.bin files etc.
+  issues:
+    - nondeterminism_in_files_generated_by_rime_deployer
 brltty:
   version: 5.3.1-3
   comments: |
