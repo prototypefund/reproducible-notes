@@ -410,10 +410,6 @@ amsynth:
   version: 1.6.4-1
   issues:
     - gcc_captures_build_path
-amule:
-  version: 1:2.3.2-1
-  bugs:
-    - 880763
 analitza:
   version: 4:16.08.1-1
   issues:
@@ -5648,10 +5644,6 @@ flask-limiter:
     - python_versioneer_uses_parentdir
   bugs:
     - 852482
-flask-migrate:
-  version: 1.7.0-1
-  bugs:
-    - 880893
 flask-peewee:
   version: 0.6.7-1
   bugs:
@@ -10392,8 +10384,6 @@ kio-extras:
   version: 4:16.08.3-1
   issues:
     - build_id_differences_only
-  bugs:
-    - 880317
 kio-mtp:
   version: 0.75+git20140304-2
   issues:
@@ -13639,10 +13629,6 @@ lttv:
   version: 1.5-1
   issues:
     - captures_shell_variable_in_autofoo_script
-lua-mode:
-  version: 20151025-2
-  bugs:
-    - 877398
 lua-sandbox:
   version: 1.1.0-2
   issues:
@@ -15438,7 +15424,6 @@ neutron:
   version: 2:9.1.1-1
   bugs:
     - 859194
-    - 883350
 neutron-vpnaas:
   version: 1:8.0.0-2
   comments: |
@@ -17993,8 +17978,6 @@ plexus-classworlds2:
   version: 2.5.2-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-  bugs:
-    - 882526
 plexus-compiler:
   version: 2.4-3
   issues:
@@ -19072,10 +19055,6 @@ python-box2d:
   version: 2.0.2+svn20100109.244-1.2
   issues:
     - gcc_captures_build_path
-python-brainstorm:
-  version: 0.5-3
-  bugs:
-    - 835647
 python-bsddb3:
   version: 6.1.0-1
   issues:
@@ -19270,8 +19249,6 @@ python-gudev:
   version: 147.2-3
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 882232
 python-h2:
   version: 3.0.1-1
   bugs:
@@ -19320,10 +19297,6 @@ python-levenshtein:
   version: 0.12.0-2
   issues:
     - gcc_captures_build_path
-python-lib389:
-  version: 1.0.2-3
-  bugs:
-    - 884053
 python-librtmp:
   version: 0.3.0-1
   issues:
