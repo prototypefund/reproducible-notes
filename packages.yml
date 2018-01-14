@@ -2195,8 +2195,6 @@ castor:
   version: 1.3.2-4
   issues:
     - random_order_in_documentation_generated_by_javadoc
-  bugs:
-    - 884480
 castxml:
   version: 0.1+git20160706-1
   issues:
@@ -9495,7 +9493,6 @@ jaxb:
     - random_order_in_documentation_generated_by_javadoc
   bugs:
     - 882525
-    - 883387
 jaxb-api:
   version: 2.2.9-1
   issues:
@@ -18823,10 +18820,6 @@ pylibssh2:
   version: 1.0.0-1.2
   issues:
     - gcc_captures_build_path
-pylint:
-  version: 1.7.4-1
-  bugs:
-    - 883913
 pylint-common:
   version: 0.2.5-1
   bugs:
@@ -19329,10 +19322,6 @@ python-marshmallow:
   version: 3.0.0b3-1
   comments: |
     Exposes a set, which is not sorted by sphinxdoc
-python-matplotlib-venn:
-  version: 0.11.5-2
-  bugs:
-    - 884040
 python-mecab:
   version: 0.99.6-1
   issues:
@@ -23892,10 +23881,6 @@ singular:
   issues:
     - captures_build_path
     - records_build_flags
-singularity-container:
-  version: 2.2-2
-  bugs:
-    - 866169
 sip4:
   version: 4.18.1+dfsg-1
   issues:
