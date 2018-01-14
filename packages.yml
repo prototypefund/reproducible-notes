@@ -26801,9 +26801,8 @@ wily:
     - random_order_in_tarball
 wims:
   version: 1:4.08~dfsg1-1
-  comments: |
-    Embeds the build date.
-    https://sources.debian.net/src/wims/1:4.08~dfsg1-1/wims/src/configure.ac/#L219
+  issues:
+    - captures_build_path
 win-iconv:
   version: 0.0.8-2
   issues:
