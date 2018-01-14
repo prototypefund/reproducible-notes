@@ -12344,6 +12344,10 @@ libmongoc:
   version: 1.5.4-1
   issues:
     - gcc_captures_build_path
+libmoosex-xsaccessor-perl:
+  version: 0.007-1
+  bugs:
+    - 887084
 libmozilla-ldap-perl:
   version: 1.5.3-2
   issues:
@@ -18530,6 +18534,8 @@ psi4:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - diffoscope_runs_forever
+  bugs:
+    - 887068
 psicode:
   version: 3.4.0-6
   comments: |
@@ -24123,6 +24129,7 @@ snapd:
     - timestamps_in_manpages_added_by_golang_go_flags
   bugs:
     - 886432
+    - 887067
 snappea:
   version: 3.0d3-23
   issues:
