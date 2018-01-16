@@ -1343,10 +1343,6 @@ bcftools:
     - 819617
     - 860682
     - 860704
-bcron:
-  version: 0.10-4
-  bugs:
-    - 839443
 beanbag:
   version: 1.9.2-1.1
   bugs:
@@ -2683,10 +2679,6 @@ clojure:
   version: 1.8.0-2
   issues:
     - nondeterministic_java_bytecode
-clonalorigin:
-  version: 1.0-1
-  bugs:
-    - 884206
 cloop:
   version: 3.14.1.1
   issues:
@@ -3270,8 +3262,6 @@ cvm:
   version: 0.96-1.2
   issues:
     - random_order_in_md5sums
-  bugs:
-    - 813944
 cvs:
   version: 2:1.12.13+real-15
   issues:
@@ -16038,7 +16028,6 @@ objenesis:
 obnam:
   version: 1.18.2-1
   bugs:
-    - 735809
     - 877159
 obsession:
   version: 20140608-2
@@ -19248,10 +19237,6 @@ python-http-parser:
   version: 0.8.3-2
   issues:
     - gcc_captures_build_path
-python-hug:
-  version: 2.3.0-1
-  bugs:
-    - 880830
 python-hypothesis:
   version: 3.4.2-1
   bugs:
@@ -25930,8 +25915,6 @@ ucspi-proxy:
     - timestamps_in_gzip_headers
     - different_due_to_umask
     - random_order_in_md5sums
-  bugs:
-    - 777365
 ucspi-unix:
   version: 0.36-4
   issues:
@@ -26048,8 +26031,6 @@ uncrustify:
   version: 0.59+dfsg1-1.1
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 881249
 undertaker:
   version: 1.6.1-2
   issues:
