@@ -163,6 +163,9 @@ adacontrol:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - unknown_ada_issue
+    - ftbfs_in_jenkins_setup
+  comments: |
+    Parses the gcc version, which breaks with the modified gcc.
 adasockets:
   version: 1.9-1
   comments: |
