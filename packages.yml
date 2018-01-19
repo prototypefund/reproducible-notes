@@ -3905,8 +3905,6 @@ dict-bouvier:
     - 776399
 dict-devil:
   version: 1.0-12
-  issues:
-    - timestamps_in_dictionaries
   bugs:
     - 776433
 dict-gcide:
@@ -14970,10 +14968,6 @@ multcomp:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
-multiboot:
-  version: 0.6.96+20101113-1
-  issues:
-    - captures_build_path
 multipath-tools:
   version: 0.6.4-5
   bugs:
