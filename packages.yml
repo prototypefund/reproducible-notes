@@ -1539,6 +1539,10 @@ biojava4-live:
   version: 4.1.0+dfsg-3
   issues:
     - random_order_in_documentation_generated_by_javadoc
+bioperl-run:
+  version: 1.7.2-2
+  bugs:
+    - 887578
 biosig4c++:
   version: 1.3.0-2.1
   comments: |
@@ -2004,6 +2008,8 @@ c++-annotations:
   issues:
     - timestamps_in_ps_generated_by_dvips
     - timestamps_in_dvi_generated_by_latex
+  bugs:
+    - 887581
 c-blosc:
   version: 1.9.1-1
   issues:
@@ -2192,6 +2198,7 @@ castle-game-engine:
   version: 6.2+dfsg1-1
   bugs:
     - 868790
+    - 887575
 castor:
   version: 1.3.2-4
   issues:
@@ -4029,6 +4036,10 @@ dlib:
   version: 18.18-1
   issues:
     - gcc_captures_build_path
+dms:
+  version: 1.0.8.1-1
+  bugs:
+    - 887635
 dmtcp:
   version: 2.3.1-6
   bugs:
@@ -5207,10 +5218,15 @@ fastd:
     - captures_build_path
   bugs:
     - 853395
+    - 886018
 fastjet:
   version: 3.0.6+dfsg-3
   issues:
     - records_build_flags
+fastnetmon:
+  version: 1.1.3+dfsg-4
+  bugs:
+    - 887623
 fastx-toolkit:
   version: 0.0.14-4
   issues:
@@ -7209,6 +7225,10 @@ gmime:
   version: 2.6.20-1
   comments: |
     Unidentified variation in /usr/lib/cli/gmime-sharp-2.6/gmime-sharp.dll
+gmime2.6:
+  version: 2.6.23+dfsg1-1
+  bugs:
+    - 887580
 gmodels:
   version: 2.16.2-2
   issues:
@@ -12076,6 +12096,10 @@ libjpf-java:
   version: 1.5.1+dfsg-4
   issues:
     - random_order_in_documentation_generated_by_javadoc
+libjs-fetch:
+  version: 2.0.3-1
+  bugs:
+    - 887583
 libjson-rpc-cpp:
   version: 0.7.0-1
   issues:
@@ -12928,6 +12952,8 @@ libspring-java:
   version: 4.3.2-1
   issues:
     - captures_build_path
+  bugs:
+    - 886164
 libsrtp2:
   version: 2.0.0+20170123-1
   issues:
@@ -15009,6 +15035,10 @@ mupdf:
     [i386/armhf]
   issues:
     - random_order_in_static_libraries
+mupen64plus-qt:
+  version: 1.10-2
+  bugs:
+    - 887576
 murano:
   version: 2015.1.0-9
   issues:
@@ -15406,6 +15436,10 @@ network-manager-ssh:
   version: 1.2.6-1
   bugs:
     - 887447
+network-manager-strongswan:
+  version: 1.4.2-1
+  bugs:
+    - 885754
 networking-l2gw:
   version: 1:1.0.0+git20160927.29cb4fe3-1
   bugs:
@@ -15631,6 +15665,10 @@ node-chai:
   version: 3.5.0+dfsg-1
   bugs:
     - 872533
+node-chokidar:
+  version: 1.7.0-1
+  bugs:
+    - 887586
 node-cliui:
   version: 3.2.0-2
   bugs:
@@ -16288,6 +16326,8 @@ ocamlnet:
   version: 4.0.4-1
   issues:
     - randomness_in_ocaml_preprocessed_files
+  bugs:
+    - 887577
 ocamlsdl:
   version: 0.9.1-2
   issues:
@@ -16300,6 +16340,10 @@ oce:
   version: 0.17.2-2
   issues:
     - build_id_differences_only
+ocfs2-tools:
+  version: 1.8.5-3
+  bugs:
+    - 887631
 oclgrind:
   version: 15.5-1
   comments: |
@@ -16984,6 +17028,7 @@ ovito:
     - build_id_differences_only
   bugs:
     - 882451
+    - 885644
 owasp-java-html-sanitizer:
   version: 0.1+r88-1
   issues:
@@ -18031,6 +18076,10 @@ plplot:
     - different_encoding_in_html_by_docbook_xsl
     - timestamps_in_jar
     - captures_build_path
+plume-creator:
+  version: 0.66+dfsg1-3.1
+  bugs:
+    - 887534
 pmacct:
   version: 1.6.0-1
   issues:
@@ -18443,6 +18492,10 @@ proftpd-mod-vroot:
     leaving the path in the linker input.
   issues:
     - build_id_differences_only
+progressivemauve:
+  version: 1.2.0+4713-3
+  bugs:
+    - 887632
 proj:
   version: 4.9.3-1
   issues:
@@ -18985,6 +19038,10 @@ pytest-httpbin:
   version: 0.2.0-1
   bugs:
     - 844358
+pytest-pylint:
+  version: 0.7.1-1
+  bugs:
+    - 887573
 pythia8:
   version: 8.1.86-1.1
   issues:
@@ -19001,6 +19058,8 @@ python-asdf:
   version: 1.1.0-3
   issues:
     - randomness_in_documentation_generated_by_sphinx
+  bugs:
+    - 887531
 python-astropy:
   version: 1.0.3-3
   comments: |
@@ -19272,6 +19331,10 @@ python-kafka:
   version: 1.3.3-2
   bugs:
     - 880803
+python-keyczar:
+  version: 0.716+ds-1
+  bugs:
+    - 886115
 python-keystonemiddleware:
   version: 1.5.0-1
   issues:
@@ -24314,6 +24377,10 @@ sparskit:
   version: 2.0.0-2
   issues:
     - captures_build_path
+spass:
+  version: 3.7-4
+  bugs:
+    - 887646
 spd:
   version: 1.3.0-1
   issues:
@@ -24599,6 +24666,8 @@ stealth:
   version: 4.01.05-1
   issues:
     - timestamps_in_dvi_generated_by_latex
+  bugs:
+    - 887585
 stellarium:
   version: 0.15.0-1
   issues:
@@ -26783,6 +26852,10 @@ wget:
   version: 1.18-2
   issues:
     - gcc_captures_build_path
+wget2:
+  version: 0.0.20170806-1
+  bugs:
+    - 887630
 whitedb:
   version: 0.7.3-3
   bugs:
@@ -27551,6 +27624,8 @@ xview:
   version: 3.2p1.4-28.2
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 887648
 xvkbd:
   version: 3.3-1
   issues:
@@ -27563,6 +27638,10 @@ xxgdb:
   version: 1.12-17
   issues:
     - gcc_captures_build_path
+xymon:
+  version: 4.3.28-2
+  bugs:
+    - 887633
 xz-utils:
   version: 5.1.1alpha+20120614-2
   issues:
