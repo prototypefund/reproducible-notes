@@ -9896,11 +9896,6 @@ k3b:
   version: 2.0.3a-2
   bugs:
     - 853465
-k3d:
-  version: 0.8.0.3-7
-  issues:
-    - timestamps_from_cpp_macros
-    - captures_kernel_version
 kaa-base:
   version: 0.6.0+svn4596-1
   issues:
@@ -11748,10 +11743,6 @@ libftdi1:
     - build_id_differences_only
 libfwnt:
   version: 20160418-1
-  issues:
-    - captures_build_path
-libgadu:
-  version: 1:1.12.1-2
   issues:
     - captures_build_path
 libgc:
@@ -27012,10 +27003,6 @@ wily:
     - timestamps_in_tarball
     - different_due_to_umask
     - random_order_in_tarball
-wims:
-  version: 1:4.08~dfsg1-1
-  issues:
-    - captures_build_path
 win-iconv:
   version: 0.0.8-2
   issues:
