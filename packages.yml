@@ -3321,6 +3321,8 @@ cxref:
     - captures_build_path
     - timestamps_in_ps_generated_by_dvips
     - timestamps_in_dvi_generated_by_latex
+  bugs:
+    - 887866
 cxxtest:
   version: 4.3-1
   issues:
@@ -11830,6 +11832,10 @@ libgnome-keyring:
   version: 3.12.0-1
   bugs:
     - 876598
+libgnomecanvas:
+  version: 2.30.3-3
+  bugs:
+    - 887868
 libgnomekbd:
   version: 3.26.0-2
   bugs:
@@ -19326,6 +19332,10 @@ python-feather-format:
   version: 0.3.0+dfsg1-1
   bugs:
     - 841552
+python-filelock:
+  version: 3.0.0-1
+  bugs:
+    - 887869
 python-futurist:
   version: 0.5.0-2
   issues:
@@ -23935,6 +23945,10 @@ shim:
     - cryptographic_signature
     - max_output_size_reached
     - user_hostname_manually_added_requiring_further_investigation
+shimdandy:
+  version: 1.2.0-1
+  bugs:
+    - 887865
 shishi:
   version: 1.0.2-6
   issues:
