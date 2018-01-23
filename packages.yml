@@ -6543,6 +6543,8 @@ gazebo:
   version: 7.5.0+dfsg-1
   issues:
     - build_id_differences_only
+  bugs:
+    - 887931
 gb:
   version: 0.4.2-1
   issues:
@@ -7559,6 +7561,10 @@ golang-git2go:
   version: 0.0~git20150731.0.ed62fda-1
   bugs:
     - 876707
+golang-gitaly-proto:
+  version: 0.26.0+dfsg-1
+  bugs:
+    - 887941
 golang-github-appc-docker2aci:
   version: 0.9.2-2
   issues:
@@ -15293,6 +15299,10 @@ navit:
   version: 0.5.0+dfsg.1-1
   issues:
     - gcc_captures_build_path
+nbdkit:
+  version: 1.1.25-1
+  bugs:
+    - 887969
 nbibtex:
   version: 0.9.18-11
   comments: |
@@ -24246,6 +24256,10 @@ slt:
   version: 0.0.git20140301-1
   issues:
     - ftbfs_uninvestigated_test_failures
+slurm-drmaa:
+  version: 1.0.7-1
+  bugs:
+    - 887924
 sm:
   version: 2.2-5.4-1
   issues:
@@ -24735,6 +24749,8 @@ stardict:
   version: 3.0.1-9.2
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 785044
 stardict-czech:
   version: 20171009-1
   issues:
@@ -25907,6 +25923,10 @@ treil:
   version: 1.8-2.2
   issues:
     - gcc_captures_build_path
+trigger-rally:
+  version: 0.6.5+dfsg-2
+  bugs:
+    - 887929
 triggerhappy:
   version: 0.5.0-1
   issues:
@@ -28018,6 +28038,8 @@ zoneminder:
   version: 1.28.1-7
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 887968
 zookeeper:
   version: 3.4.6-5
   issues:
