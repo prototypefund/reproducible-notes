@@ -429,10 +429,6 @@ android-platform-build:
   version: 1:7.0.0+r33-1
   bugs:
     - 853310
-android-platform-external-libunwind:
-  version: 7.0.0+r1-4
-  issues:
-    - captures_build_path
 android-platform-frameworks-base:
   version: 1:7.0.0+r33-1
   bugs:
@@ -635,10 +631,6 @@ apertium-eo-es:
     - captures_build_path
 apertium-es-gl:
   version: 1.0.8~r57542-2
-  issues:
-    - captures_build_path
-apertium-es-it:
-  version: 0.1.0~r51165-1
   issues:
     - captures_build_path
 apertium-kaz:
@@ -19305,11 +19297,6 @@ python-dsv:
   version: 1.4.1-5
   bugs:
     - 884668
-python-dtcwt:
-  version: 0.10.1+dfsg1-2
-  issues:
-    - timestamps_in_ps_generated_by_dvips
-    - timestamps_in_pdf_generated_by_matplotlib
 python-dugong:
   version: 3.5+dfsg-1
   issues:
