@@ -7783,7 +7783,6 @@ goldencheetah:
     - captures_build_path
   bugs:
     - 811867
-    - 883953
 goldendict:
   version: 1.5.0~git20160508.g92b5485-3
   comments: |
@@ -9264,8 +9263,6 @@ italc:
   version: 1:2.0.2+dfsg1-4
   issues:
     - build_id_differences_only
-  bugs:
-    - 881090
 itools:
   version: 1.0-5
   issues:
@@ -11543,10 +11540,6 @@ libcrcutil:
   version: 1.0-4
   issues:
     - random_id_in_pdf_generated_by_dblatex
-libcryptui:
-  version: 3.12.2-4
-  bugs:
-    - 876599
 libcsp:
   version: 1.4+fdd49b7+dfsg-3
   comments: |
@@ -19293,10 +19286,6 @@ python-docutils:
   version: 0.12+dfsg-1
   comments: |
     Caused by dynamic locale selection being written into the manpage at build time.
-python-dsv:
-  version: 1.4.1-5
-  bugs:
-    - 884668
 python-dugong:
   version: 3.5+dfsg-1
   issues:
@@ -25925,10 +25914,6 @@ trilinos:
   bugs:
     - 835406
     - 836130
-trinity:
-  version: 1.8-1
-  bugs:
-    - 884034
 triplane:
   version: 1.0.8-1
   issues:
