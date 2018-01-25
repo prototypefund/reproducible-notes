@@ -683,6 +683,8 @@ apper:
   issues:
     - captures_build_path_via_assert
     - build_id_differences_only
+  bugs:
+    - 888155
 appmenu-qt:
   version: 0.2.6-2
   issues:
@@ -18939,6 +18941,10 @@ pylint:
   version: 1.7.4-2
   bugs:
     - 887818
+pylint-celery:
+  version: 0.3-3
+  bugs:
+    - 888157
 pylint-common:
   version: 0.2.5-1
   bugs:
@@ -19098,6 +19104,10 @@ pysurfer:
     Intermittent, see https://tests.reproducible-builds.org/debian/history/pysurfer.html
     .
     Tried building with DISPLAY undefined, but failed to reproduce.
+pytables:
+  version: 3.4.2-2
+  bugs:
+    - 888177
 pytango:
   version: 8.1.5-1
   issues:
