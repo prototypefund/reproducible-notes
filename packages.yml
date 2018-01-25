@@ -21,7 +21,6 @@
 4ti2:
   version: 1.6.7+ds-2
   issues:
-    - captures_build_path
     - random_id_in_pdf_generated_by_dblatex
 a2ps:
   version: 1:4.14-1.3
@@ -613,10 +612,6 @@ apertium:
   issues:
     - captures_shell_variable_in_autofoo_script
     - records_build_flags
-apertium-af-nl:
-  version: 0.2.0~r58256-1
-  issues:
-    - captures_build_path
 apertium-en-gl:
   version: 0.5.2~r57551-1
   issues:
@@ -1227,8 +1222,6 @@ bandit:
     Embeds output of sys.argv in bandit.yaml which include build path in:
     https://sources.debian.net/src/bandit/1.1.0-2/bandit/cli/config_generator.py/?hl=33#L33
     https://sources.debian.net/src/bandit/1.1.0-2/bandit/cli/config_generator.py/?hl=162#L162
-  issues:
-    - captures_build_path
 banshee:
   version: 2.6.2-6
   issues:
@@ -2599,10 +2592,6 @@ ck:
   version: 0.6.0-1
   bugs:
     - 743752
-ckbuilder:
-  version: 2.3.0+dfsg-2
-  issues:
-    - captures_build_path
 ckeditor:
   version: 4.5.7+dfsg-2
   issues:
@@ -2639,10 +2628,6 @@ claws-mail:
   version: 3.15.1-1
   bugs:
     - 883927
-clblas:
-  version: 2.10-3
-  issues:
-    - captures_build_path
 cldump:
   version: 0.11~dfsg-1
   issues:
@@ -2655,10 +2640,6 @@ clementine:
   version: 1.3.1+dfsg-1
   issues:
     - gcc_captures_build_path
-clfft:
-  version: 2.12.1-1
-  issues:
-    - captures_build_path
 clhep:
   version: 2.1.4.1-1.1
   issues:
@@ -3873,8 +3854,6 @@ diceware:
   version: 0.9.1-4.1
   comments: |
     not entirely sure this is the sphinx_attr_links issue, but similar
-  issues:
-    - captures_build_path_in_sphinx_attr_links
 dichromat:
   version: 2.0.0-3
   issues:
@@ -4900,10 +4879,6 @@ erlang-folsom:
     - captures_build_path_in_beam_files
 erlang-fs-listener:
   version: 2.12.0-1
-  issues:
-    - captures_build_path_in_beam_files
-erlang-getopt:
-  version: 0.8.2+dfsg-1
   issues:
     - captures_build_path_in_beam_files
 erlang-goldrush:
@@ -7291,10 +7266,6 @@ gnokii:
   version: 0.6.30+dfsg-1.1
   issues:
     - gcc_captures_build_path
-gnome-builder:
-  version: 3.20.4-2
-  issues:
-    - captures_build_path
 gnome-contacts:
   version: 3.22.1-1
   comments: |
@@ -9786,10 +9757,6 @@ json-simple:
   version: 2.3.0-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-jsonm:
-  version: 0.9.1-2
-  issues:
-    - captures_build_path
 jsoup:
   version: 1.10.2-1
   issues:
@@ -10843,10 +10810,6 @@ kxmlrpcclient:
   version: 5.28.0-1
   issues:
     - gcc_captures_build_path
-kxstitch:
-  version: 1.3.0-1
-  issues:
-    - captures_build_path
 kytea:
   version: 0.4.6+dfsg-2
   bugs:
@@ -10901,10 +10864,6 @@ lam:
     - user_hostname_manually_added_requiring_further_investigation
     - captures_shell_variable_in_autofoo_script
     - random_order_in_static_libraries
-    - captures_build_path
-lambda-term:
-  version: 1.10-1
-  issues:
     - captures_build_path
 lammps:
   version: 0~20150313.gitfa668e1-1
@@ -11404,10 +11363,6 @@ libcec:
     - captures_kernel_version
   bugs:
     - 853485
-libcereal:
-  version: 1.1.2-4
-  issues:
-    - captures_build_path
 libcgicc:
   version: 3.2.9-3
   issues:
@@ -11622,10 +11577,6 @@ libept:
   issues:
     - random_order_in_static_libraries
     - captures_build_path
-libesedb:
-  version: 20151213-1
-  issues:
-    - captures_build_path
 libevdev:
   version: 1.5.2+dfsg-1
   issues:
@@ -11644,14 +11595,6 @@ libevocosm:
     - libtool_captures_shell_build-flags_build-path_path-env
   bugs:
     - 789804
-libevt:
-  version: 20160421-1
-  issues:
-    - captures_build_path
-libevtx:
-  version: 20160421-1
-  issues:
-    - captures_build_path
 libexif-gtk:
   version: 0.3.5-5
   issues:
@@ -11713,18 +11656,10 @@ libfreenect:
   version: 1:0.5.3-1
   issues:
     - captures_build_path
-libfsntfs:
-  version: 20160418-1
-  issues:
-    - captures_build_path
 libftdi1:
   version: 1.3-2
   issues:
     - build_id_differences_only
-libfwnt:
-  version: 20160418-1
-  issues:
-    - captures_build_path
 libgadu:
   version: 1:1.12.1-2
   comments: |
@@ -11949,10 +11884,6 @@ libifp:
   version: 1.0.0.2-5
   issues:
     - gcc_captures_build_path
-libiio:
-  version: 0.7-1
-  issues:
-    - captures_build_path
 libimage-imlib2-perl:
   version: 2.03-1
   issues:
@@ -12403,10 +12334,6 @@ libmpd:
   version: 0.20.0-1.3
   issues:
     - gcc_captures_build_path
-libmsiecf:
-  version: 20160813-1
-  issues:
-    - captures_build_path
 libmsv:
   version: 1.1-4
   bugs:
@@ -12530,10 +12457,6 @@ liboglappth:
   version: 1.0.0-2
   issues:
     - gcc_captures_build_path
-libolecf:
-  version: 20160814-1
-  issues:
-    - captures_build_path
 libomxalsa:
   version: 0.1-2
   issues:
@@ -12741,10 +12664,6 @@ libqb:
   version: 1.0.1-1
   bugs:
     - 871153
-libqcow:
-  version: 20160123-2
-  issues:
-    - captures_build_path
 libqes:
   version: 0.2.7-1
   issues:
@@ -12824,10 +12743,6 @@ libregexp-java:
   version: 1.5-3
   issues:
     - random_order_in_documentation_generated_by_javadoc
-libregf:
-  version: 20160424-1
-  issues:
-    - captures_build_path
 libreoffice:
   version: 1:4.4.4~rc2-1
   issues:
@@ -12906,10 +12821,6 @@ libsbml:
     - timestamps_in_dvi_generated_by_latex
     - blacklisted_on_jenkins_armhf_only
     - timestamps_in_ps_generated_by_dvips
-libscca:
-  version: 20160108-1
-  issues:
-    - captures_build_path
 libscout:
   version: 0.0~git20161124~dcd2a9e-1
   issues:
@@ -12932,10 +12843,6 @@ libsieve:
   version: 2.2.6-1.3
   issues:
     - gcc_captures_build_path
-libsigscan:
-  version: 20160312-1
-  issues:
-    - captures_build_path
 libsis-jhdf5-java:
   version: 14.12.6-1
   bugs:
@@ -13168,10 +13075,6 @@ libv8-3.14:
   version: 3.14.5.8-11
   bugs:
     - 853512
-libvhdi:
-  version: 20160424-1
-  issues:
-    - captures_build_path
 libview:
   version: 0.6.6-2.1
   issues:
@@ -13205,10 +13108,6 @@ libvldocking-java:
   version: 2.1.4-4
   issues:
     - random_order_in_documentation_generated_by_javadoc
-libvmdk:
-  version: 20160119-3
-  issues:
-    - captures_build_path
 libvmime:
   version: 0.9.1-6
   issues:
@@ -14427,10 +14326,6 @@ miniupnpc:
   version: 1.9.20140610-2.1
   issues:
     - gcc_captures_build_path
-minizinc:
-  version: 2.0.11+dfsg1-1
-  issues:
-    - timestamps_in_pdf_generated_by_latex
 minlog:
   version: 4.0.99.20100221-5.2
   issues:
@@ -15981,10 +15876,6 @@ ns3:
     First build on armhf succeeded, but 2nd one was killed after 24h… (and 30h in total) - thus blacklisted.
   issues:
     - blacklisted_on_jenkins_armhf_only
-nsf:
-  version: 2.0.0-2
-  issues:
-    - captures_build_path
 nsis:
   version: 2.46-10
   issues:
@@ -15998,8 +15889,6 @@ nsnake:
     - 833612
 nspr:
   version: 2:4.12-6
-  issues:
-    - captures_build_path
   bugs:
     - 887738
 nss:
@@ -16051,10 +15940,6 @@ nunit:
     - timestamps_in_pe_binaries
     - captures_kernel_version
     - different_due_to_umask
-nurpawiki:
-  version: 1.2.3-9
-  issues:
-    - captures_build_path
 nut:
   version: 2.7.2-3
   issues:
@@ -16428,10 +16313,6 @@ ocplib-simplex:
   version: 0.3-1
   issues:
     - captures_build_path
-ocsigenserver:
-  version: 2.7-1
-  issues:
-    - captures_build_path
 octave:
   version: 4.0.0-3
   issues:
@@ -16464,10 +16345,6 @@ octomap:
     - captures_build_path
 ocurl:
   version: 0.7.6-2
-  issues:
-    - captures_build_path
-odil:
-  version: 0.7.0-2
   issues:
     - captures_build_path
 odin:
@@ -16927,10 +16804,6 @@ openzwave:
     Both the moveabs() and the .rodata differences are hardcoded filenames.
   issues:
     - captures_build_path_via_assert
-optcomp:
-  version: 1.6-1
-  issues:
-    - captures_build_path
 opticalraytracer:
   version: 3.2-1.1
   issues:
@@ -17131,10 +17004,6 @@ p7zip:
   version: 16.02+dfsg-2
   issues:
     - gcc_captures_build_path
-pa-bench:
-  version: 113.00.00-1
-  issues:
-    - captures_build_path
 pacapt:
   version: 2.3.14-1
   bugs:
@@ -18415,22 +18284,6 @@ ppx-deriving:
   version: 4.1-1.1
   issues:
     - ocaml_captures_build_path
-ppx-driver:
-  version: 113.33.03-1
-  issues:
-    - captures_build_path
-ppx-optcomp:
-  version: 113.33.03-1
-  issues:
-    - captures_build_path
-ppx-sexp-conv:
-  version: 113.33.03-2
-  issues:
-    - captures_build_path
-ppx-type-conv:
-  version: 113.33.03-1
-  issues:
-    - captures_build_path
 praat:
   version: 6.0.36-3
   bugs:
@@ -18817,10 +18670,6 @@ pycxx:
   version: 7.0.1-2
   bugs:
     - 884667
-pydispatcher:
-  version: 2.0.5-1
-  issues:
-    - captures_build_path
 pydl:
   version: 0.6.0-1
   issues:
@@ -20154,10 +20003,6 @@ qttools-opensource-src:
   issues:
     - timestamps_in_qch
     - randomness_in_qdoc
-    - captures_build_path
-qtwayland-opensource-src:
-  version: 5.6.1-2
-  issues:
     - captures_build_path
 qtwebchannel-opensource-src:
   version: 5.6.1-1
@@ -23867,10 +23712,6 @@ shared-mime-info:
   version: 1.6-1
   issues:
     - pdf_id_varying_due_to_build_path
-shark:
-  version: 3.1.0+ds1-1
-  issues:
-    - captures_build_path
 sheepdog:
   version: 0.8.3-4
   comments: |
@@ -24017,10 +23858,6 @@ simavr:
   version: 1.5+dfsg1-2
   bugs:
     - 883244
-simbody:
-  version: 3.5.3+dfsg-1
-  issues:
-    - captures_build_path
 simgear:
   version: 1:2016.2.1+dfsg-6
   issues:
@@ -24066,7 +23903,6 @@ simutrans-pak128.britain:
 singular:
   version: 4.0.3-p1+ds-3
   issues:
-    - captures_build_path
     - records_build_flags
 sip4:
   version: 4.18.1+dfsg-1
@@ -24320,7 +24156,6 @@ snappea:
 snapper:
   version: 0.2.4-1
   issues:
-    - captures_build_path
     - records_build_flags
 snappy:
   version: 1.1.6-3
@@ -24473,10 +24308,6 @@ sparql-wrapper-python:
   version: 1.7.6-2
   bugs:
     - 884674
-sparskit:
-  version: 2.0.0-2
-  issues:
-    - captures_build_path
 spass:
   version: 3.7-4
   bugs:
@@ -25234,10 +25065,6 @@ tandem-mass:
   version: 1:20151215-4
   issues:
     - gcc_captures_build_path
-tangerine:
-  version: 0.3.4-6
-  issues:
-    - captures_build_path
 tango:
   version: 8.1.2c+dfsg-7
   issues:
@@ -25289,10 +25116,6 @@ tatan:
   version: 1.0.dfsg1-7
   issues:
     - build_id_differences_only
-tau:
-  version: 2.17.3.1.dfsg-4
-  issues:
-    - captures_build_path
 tcd-utils:
   version: 20061127-2
   issues:
@@ -25405,10 +25228,6 @@ telegram-desktop:
   version: 1.0.14-1
   issues:
     - gcc_captures_build_path
-telepathy-gabble:
-  version: 0.18.3-2
-  issues:
-    - captures_build_path
 telepathy-logger:
   version: 0.8.2-2
   bugs:
@@ -25717,14 +25536,6 @@ tkdnd:
   version: 2.6-1
   issues:
     - gcc_captures_build_path
-tkgate:
-  version: 2.0~b10-5
-  issues:
-    - captures_build_path
-tkmpeg:
-  version: 1.0.2-1
-  issues:
-    - captures_build_path
 tkrat:
   version: 1:2.2cvs20100105-true-dfsg-6
   issues:
@@ -26077,22 +25888,10 @@ tycho:
   version: 0.25.0-1
   comments: |
     Contains a zip file with jar files inside. Candidate for manually calling strip-determinism?
-type-conv:
-  version: 113.00.02-1
-  issues:
-    - captures_build_path
-typerep:
-  version: 113.00.00-1
-  issues:
-    - captures_build_path
 typespeed:
   version: 0.6.5-2.1
   issues:
     - gcc_captures_build_path
-tyxml:
-  version: 3.5.0-1
-  issues:
-    - captures_build_path
 tzc:
   version: 2.6.15-5.3
   issues:
@@ -26198,10 +25997,6 @@ uftrace:
   issues:
     - captures_build_path_via_assert
     - max_output_size_reached
-uhd:
-  version: 3.9.5-1
-  issues:
-    - captures_build_path
 uhub:
   version: 0.4.1-3
   issues:
@@ -26423,10 +26218,6 @@ utopia-documents:
   bugs:
     - 883522
     - 884394
-uuidm:
-  version: 0.9.5-1
-  issues:
-    - captures_build_path
 uvloop:
   version: 0.8.0+ds1-1
   bugs:
@@ -26469,10 +26260,6 @@ varconf:
   version: 1.0.1-3
   bugs:
     - 871287
-variantslib:
-  version: 113.33.03-2
-  issues:
-    - captures_build_path
 varnish:
   version: 4.0.2-1
   issues:
@@ -26489,10 +26276,6 @@ vcdimager:
   version: 0.7.24+dfsg-0.2
   issues:
     - gcc_captures_build_path
-vcr.py:
-  version: 1.10.0-1
-  issues:
-    - captures_build_path
 vdk2:
   version: 2.4.0-5.3
   issues:
@@ -26682,14 +26465,6 @@ vlc:
     - different_due_to_umask
     - users_and_groups_in_tarball
     - captures_build_path
-vlfeat:
-  version: 0.9.20+dfsg0-1
-  issues:
-    - captures_build_path
-vm:
-  version: 8.2.0b-2
-  issues:
-    - captures_build_path
 vmfs-tools:
   version: 0.2.5-1
   issues:
@@ -26761,10 +26536,6 @@ vsdump:
   version: 0.0.45-1
   issues:
     - gcc_captures_build_path
-vte:
-  version: 1:0.28.2-5
-  issues:
-    - captures_build_path
 vte2.91:
   version: 0.44.2-1
   issues:
@@ -26968,10 +26739,6 @@ west-chamber:
     - captures_build_path
     - captures_kernel_version
     - records_build_flags
-weston:
-  version: 1.11.0-1
-  issues:
-    - captures_build_path
 weupnp:
   version: 0.1.4-1
   issues:
@@ -27027,10 +26794,6 @@ wily:
     - timestamps_in_tarball
     - different_due_to_umask
     - random_order_in_tarball
-win-iconv:
-  version: 0.0.8-2
-  issues:
-    - captures_build_path
 wine:
   version: 1.6.2-21
   issues:
@@ -27046,10 +26809,6 @@ winff:
     PDF files are converted with libreoffice from odt files.
   issues:
     - fonts_in_pdf_files
-wings3d:
-  version: 2.1.5-2
-  issues:
-    - captures_build_path_in_beam_files
 winrmcp:
   version: 0.0~git20160310.f1bcf36-1
   issues:
@@ -27078,8 +26837,6 @@ wit:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/wit/2.22b-1/setup.sh/#L19
-  issues:
-    - captures_build_path
 witty:
   version: 3.3.3+dfsg-4.1
   issues:
@@ -27164,10 +26921,6 @@ wrapsrv:
   version: 1.0.0-1
   issues:
     - gcc_captures_build_path
-wreport:
-  version: 3.6-1
-  issues:
-    - captures_build_path
 writer2latex:
   version: 1.0.2-10
   issues:
@@ -27226,10 +26979,6 @@ wxhexeditor:
   version: 0.23+repack-2
   bugs:
     - 853708
-wyrd:
-  version: 1.4.6-4
-  issues:
-    - captures_build_path
 x11proto-core:
   version: 7.0.26-1
   issues:
@@ -27869,10 +27618,6 @@ yodl:
   issues:
     - timestamps_in_ps_generated_by_dvips
     - timestamps_in_dvi_generated_by_latex
-yojson:
-  version: 1.3.2-1
-  issues:
-    - captures_build_path
 yorick:
   version: 2.2.04+dfsg1-5
   issues:
@@ -27952,10 +27697,6 @@ zbar:
   version: 0.10+doc-10
   issues:
     - gcc_captures_build_path
-zed:
-  version: 1.4-2
-  issues:
-    - captures_build_path
 zelig:
   version: 4.2-1-1
   issues:
