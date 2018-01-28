@@ -700,6 +700,8 @@ apr:
     https://sources.debian.net/src/apr/1.5.2-4/debian/rules/#L84-L95
   issues:
     - captures_build_path
+  bugs:
+    - 888593
 apr-util:
   version: 1.5.4-2
   issues:
@@ -2587,6 +2589,7 @@ ck:
   version: 0.6.0-1
   bugs:
     - 743752
+    - 888591
 ckeditor:
   version: 4.5.7+dfsg-2
   issues:
@@ -3081,6 +3084,10 @@ cppunit:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
+cpputest:
+  version: 3.8-5
+  bugs:
+    - 888598
 cpufreqd:
   version: 2.4.2-2
   issues:
@@ -3654,6 +3661,10 @@ debian-faq:
     - timestamps_in_tarball
   bugs:
     - 871105
+debian-handbook:
+  version: 8.20170323
+  bugs:
+    - 888578
 debian-history:
   version: 2.19
   issues:
@@ -8756,6 +8767,8 @@ iaxmodem:
   version: 1.2.0~dfsg-2
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 888601
 ibam:
   version: 1:0.5.2-2.1
   bugs:
@@ -9719,6 +9732,10 @@ jsap:
   version: 2.1-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+jscommunicator:
+  version: 2.1.3-1
+  bugs:
+    - 888579
 jsemver:
   version: 0.9.0-1
   issues:
@@ -14425,6 +14442,8 @@ moarvm:
   version: 2016.07+dfsg-1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 888582
 moblin-icon-theme:
   version: 0.10.0-1
   bugs:
