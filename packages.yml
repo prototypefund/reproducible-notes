@@ -26814,9 +26814,8 @@ wireshark:
     from irc: "haha, fun: wiresharks embeds the build date *without timezone*, so atm we only notice when its build around UTC midnight…" - please continue investigating from here.
 wit:
   version: 2.22b-1
-  comments: |
-    Embeds the build date.
-    https://sources.debian.net/src/wit/2.22b-1/setup.sh/#L19
+  issues:
+    - captures_build_path
 witty:
   version: 3.3.3+dfsg-4.1
   issues:
