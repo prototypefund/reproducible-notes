@@ -3383,6 +3383,8 @@ cysignals:
   version: 1.1.1+ds-2
   issues:
     - pdf_id_varying_due_to_build_path
+  bugs:
+    - 888606
 cython:
   version: 0.23.4+git4-g7eed8d8-1
   issues:
@@ -14668,6 +14670,8 @@ monotone:
   comments: |
     The freshly build executable produces its own manpage in Makefile.am,
     embedding timestamps.
+  bugs:
+    - 888612
 montage:
   version: 4.0+dfsg-3
   comments: |
