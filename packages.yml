@@ -9937,10 +9937,6 @@ kate:
   version: 4:16.04.2-1
   issues:
     - gcc_captures_build_path
-kate4:
-  version: 4:4.14.3-4
-  bugs:
-    - 853471
 kauth:
   version: 5.25.0-1
   issues:
@@ -11364,8 +11360,6 @@ libcec:
     to ./configure but the binaries are also non-determinstic.
   issues:
     - captures_kernel_version
-  bugs:
-    - 853485
 libcgicc:
   version: 3.2.9-3
   issues:
@@ -19928,8 +19922,6 @@ qtiplot:
   version: 0.9.8.9-15
   comments: |
     PDF manual has non-deterministic output
-  bugs:
-    - 882026
 qtkeychain:
   version: 0.5.0-1
   issues:
@@ -26428,7 +26420,6 @@ visp:
     - captures_build_path
   bugs:
     - 871414
-    - 878937
 visualvm:
   version: 1.3.8-2
   comments: |
