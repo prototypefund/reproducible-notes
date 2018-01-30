@@ -13410,14 +13410,11 @@ llvm-toolchain-3.8:
   issues:
     - blacklisted_on_jenkins_armhf_only
   bugs:
-    - 853523
     - 862360
 llvm-toolchain-3.9:
   version: 1:3.9-1
   issues:
     - blacklisted_on_jenkins_armhf_only
-  bugs:
-    - 853524
 llvm-toolchain-4.0:
   version: 1:4.0-1
   issues:
@@ -14925,10 +14922,6 @@ multcomp:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
-multipath-tools:
-  version: 0.6.4-5
-  bugs:
-    - 885408
 multiverse-core:
   version: 0.7.0-3
   issues:
@@ -25958,8 +25951,6 @@ ufo-filters:
   version: 0.12.0+dfsg1-1
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 882955
 ufoai:
   version: 2.5-1
   issues:
