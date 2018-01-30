@@ -2293,6 +2293,11 @@ cdo:
   version: 1.7.2+dfsg.1-1
   issues:
     - records_build_flags
+cdparanoia:
+  version: 3.10.2+debian-12
+  bugs:
+    - 888725
+    - 888727
 cdrkit:
   version: 9:1.1.11-3
   issues:
@@ -8739,6 +8744,8 @@ hyantesite:
   version: 1.3.0-1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 888733
 hydrogen:
   version: 0.9.6.1-1
   issues:
@@ -17141,6 +17148,10 @@ parted:
   version: 3.2-7
   comments: |
     Curious Make issue where the second build autoreconfs (or equivalent) whilst the first build does not, picking up new versions - timezone issues?
+partitionmanager:
+  version: 3.2.1-3
+  bugs:
+    - 888729
 pasdoc:
   version: 0.13.0-1
   issues:
