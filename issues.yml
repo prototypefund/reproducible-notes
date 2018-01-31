@@ -1760,3 +1760,7 @@ nondeterminism_in_documentation_generated_by_pydoctor:
 nondeterminism_in_files_generated_by_rime_deployer:
   description: |
     Looks like struct mem?
+gfortran_mod_captures_build_path:
+  description: |
+    gfortran generates .mod and .smod files that can capture the build path.
+    A patch for gfortran to fix this is in progress

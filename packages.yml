@@ -4446,10 +4446,10 @@ ecasound:
     - timestamps_in_ps_generated_by_dvips
     - timestamps_in_dvi_generated_by_latex
 eccodes:
-  version: 2.0.0-1
+  version: 2.6.0-1
   issues:
-    - captures_build_arch
     - records_build_flags
+    - gfortran_mod_captures_build_path
 ecdsautils:
   version: 0.3.2+git20151018-2
   issues:
@@ -11369,6 +11369,7 @@ libcgicc:
 libcgns:
   version: 3.1.4.2-3
   issues:
+    - gfortran_mod_captures_build_path
     - records_build_flags
 libchado-perl:
   version: 1.31-2
@@ -24291,8 +24292,8 @@ sparql-wrapper-python:
     - 884674
 sparskit:
   version: 2.0.0-3
-  comments: |
-    FORTRAN code seems to include its absolute buildpath eg formats.f
+  issues:
+    - gfortran_mod_captures_build_path
 spass:
   version: 3.7-4
   bugs:
