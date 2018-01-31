@@ -8023,8 +8023,9 @@ gri:
     - timestamps_in_dvi_generated_by_latex
     - timestamps_in_ps_generated_by_dvips
 grib-api:
-  version: 1.15.0-4
+  version: 1.25.0-1
   issues:
+    - gfortran_mod_captures_build_path
     - records_build_flags
 gridengine:
   version: 6.2u5-7.3
@@ -8477,6 +8478,7 @@ hdf5:
   comments: |
     Timestamp in CMakeLists.txt *and* in configure.ac
   issues:
+    - gfortran_mod_captures_build_path
     - user_hostname_manually_added_requiring_further_investigation
     - captures_kernel_version
     - records_build_flags
@@ -13757,6 +13759,7 @@ magics++:
   comments: |
     Header files generated with random include order.
   issues:
+    - gfortran_mod_captures_build_path
     - diffoscope_runs_forever
 magyarispell:
   version: 1.6.1-2
@@ -16337,6 +16340,10 @@ ocurl:
   version: 0.7.6-2
   issues:
     - captures_build_path
+odb-api:
+  version: 0.17.6-2
+  issues:
+    - gfortran_mod_captures_build_path
 odin:
   version: 2.0.3-0.1
   bugs:
