@@ -4350,6 +4350,10 @@ dustmite:
   issues:
     - max_output_size_reached
     - build_id_differences_only
+dustrac:
+  version: 2.0.1-1
+  bugs:
+    - 888885
 dvbsnoop:
   version: 1.4.50-5
   issues:
@@ -5546,6 +5550,8 @@ firefox:
   issues:
     - captures_build_path
     - blacklisted_on_jenkins_armhf_only
+  bugs:
+    - 888634
 firefox-esr:
   version: 52.3.0esr-2
   issues:
@@ -6009,6 +6015,8 @@ forge:
   version: 0.9.0-1
   issues:
     - captures_build_path
+  bugs:
+    - 888931
 form:
   version: 4.1-1
   issues:
@@ -6295,6 +6303,10 @@ fvwm1:
   version: 1.24r-56
   issues:
     - gcc_captures_build_path
+fw4spl:
+  version: 11.0.4-2
+  bugs:
+    - 888932
 fwbuilder:
   version: 5.1.0-4
   issues:
@@ -6994,6 +7006,8 @@ giac:
   version: 1.2.3.57+dfsg1-2
   issues:
     - timestamps_in_ps_generated_by_dvips
+  bugs:
+    - 888911
 gifticlib:
   version: 1.0.9-1
   issues:
@@ -7125,6 +7139,8 @@ gli:
   version: 0.8.1.1+ds1-1
   issues:
     - captures_build_path
+  bugs:
+    - 888933
 glib2.0:
   version: 2.53.4-2
   bugs:
@@ -7784,6 +7800,10 @@ gosu:
   version: 1.6-1
   issues:
     - golang_compiler_captures_build_path_in_binary
+gource:
+  version: 0.47-1
+  bugs:
+    - 888928
 govendor:
   version: 1.0.3+ds1-1
   issues:
@@ -8595,6 +8615,10 @@ hindsight:
   version: 0.11.2-1
   issues:
     - gcc_captures_build_path
+hippomocks:
+  version: 5.0-1
+  bugs:
+    - 888883
 hiro:
   version: 0.2-2
   bugs:
@@ -11571,6 +11595,10 @@ libept:
   issues:
     - random_order_in_static_libraries
     - captures_build_path
+libetonyek:
+  version: 0.1.7-2
+  bugs:
+    - 888929
 libevdev:
   version: 1.5.2+dfsg-1
   issues:
@@ -11735,6 +11763,10 @@ libglazedlists-java:
   version: 1.9.0+dfsg-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+libgltf:
+  version: 0.1.0-2
+  bugs:
+    - 888930
 libgmpada:
   version: 0.0.20131223-4
   issues:
@@ -12296,6 +12328,8 @@ libminc:
   version: 2.3.00-3.1
   issues:
     - build_id_differences_only
+  bugs:
+    - 888925
 libmirisdr:
   version: 0.0.4.59ba37-5
   issues:
@@ -13486,6 +13520,10 @@ logol:
   issues:
     - captures_build_path
     - timestamps_manually_added_needs_further_investigation
+logstalgia:
+  version: 1.1.0-1
+  bugs:
+    - 888927
 logtool:
   version: 1.2.8-8
   issues:
@@ -15624,6 +15662,10 @@ node-cliui:
   version: 3.2.0-2
   bugs:
     - 880904
+node-combine-source-map:
+  version: 0.8.0+ds-4
+  bugs:
+    - 888942
 node-concat-with-sourcemaps:
   version: 1.0.4-1
   bugs:
@@ -15636,6 +15678,10 @@ node-crc32:
   version: 0.2.2-1
   bugs:
     - 885909
+node-css:
+  version: 2.1.0-2
+  bugs:
+    - 888944
 node-d3-shape:
   version: 1.2.0-2
   bugs:
@@ -15734,10 +15780,16 @@ node-timed-out:
   version: 4.0.1-1
   bugs:
     - 886290
+node-webpack-sources:
+  version: 1.0.1-1
+  bugs:
+    - 888846
 node-xterm:
   version: 2.7.0+ds1-1
   issues:
     - randomness_in_browserify_lite_output
+  bugs:
+    - 888935
 node-yawl:
   version: 1.0.2-1
   bugs:
@@ -17591,6 +17643,8 @@ php-mongodb:
   version: 1.1.7-2
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 888881
 php-monolog:
   version: 1.22.0-1
   bugs:
@@ -17656,6 +17710,10 @@ php-sabredav:
   version: 1.8.12-3
   bugs:
     - 882939
+php-solr:
+  version: 2.4.0-4
+  bugs:
+    - 888880
 php-sql-formatter:
   version: 1.2.17-2
   bugs:
@@ -22372,6 +22430,7 @@ rheolef:
     - records_build_flags
   bugs:
     - 883987
+    - 888879
 rhino:
   version: 1.7.7.1-1
   issues:
@@ -23151,6 +23210,10 @@ ruby-tokyocabinet:
   version: 1.31-5
   issues:
     - gcc_captures_build_path
+ruby-uglifier:
+  version: 2.7.2+dfsg-2
+  bugs:
+    - 888945
 ruby-unf-ext:
   version: 0.0.7.2-2
   issues:
@@ -23254,6 +23317,7 @@ sagemath:
     - timestamps_in_documentation_generated_by_sphinx
   bugs:
     - 849150
+    - 888912
 sagetex:
   version: 3.0+ds-2
   comments: |
@@ -24461,6 +24525,7 @@ squid3:
     - gcc_captures_build_path
   bugs:
     - 853668
+    - 888855
 squirrel3:
   version: 3.1-2
   issues:
@@ -25886,6 +25951,8 @@ u-boot:
     only package built, u-boot-tools.
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 888403
 u1db:
   version: 13.10-6.2
   issues:
@@ -26461,6 +26528,10 @@ volk:
   version: 1.2.2-1
   issues:
     - build_id_differences_only
+volume-key:
+  version: 0.3.9-1
+  bugs:
+    - 888072
 voms-api-java:
   version: 3.2.0-1
   issues:
