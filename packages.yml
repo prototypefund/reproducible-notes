@@ -926,8 +926,6 @@ astroml:
     - 877161
 astroplan:
   version: 0.2-1
-  issues:
-    - timestamps_in_pdf_generated_by_matplotlib
   bugs:
     - 887446
 astroquery:
@@ -3555,7 +3553,6 @@ dbus-python:
     the differing integers in the output don't look like timestamps
   issues:
     - randomness_in_documentation_generated_by_epydoc
-    - captures_build_path
 dbusada:
   version: 0.3-1
   issues:
