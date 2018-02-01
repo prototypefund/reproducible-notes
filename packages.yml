@@ -5547,6 +5547,7 @@ firefox:
   issues:
     - captures_build_path
     - blacklisted_on_jenkins_armhf_only
+    - ftbfs_in_jenkins_setup
   bugs:
     - 888634
 firefox-esr:
@@ -5554,6 +5555,7 @@ firefox-esr:
   issues:
     - captures_build_path
     - blacklisted_on_jenkins_armhf_only
+    - ftbfs_in_jenkins_setup
   bugs:
     - 887778
 firehol:
