@@ -920,10 +920,6 @@ asterisk-prompt-fr-proformatique:
   version: 20070706-1.4-2
   issues:
     - different_due_to_umask
-astroml:
-  version: 0.3-6
-  bugs:
-    - 877161
 astroplan:
   version: 0.2-1
   bugs:
@@ -2574,8 +2570,6 @@ citadel:
   version: 902-3
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 884203
 citus:
   version: 5.1.1-1
   issues:
@@ -3762,10 +3756,6 @@ deborphan:
   version: 1.7.28.8-0.3
   issues:
     - gcc_captures_build_path
-debtags:
-  version: 2.1.4
-  bugs:
-    - 884196
 dee:
   version: 1.0.10-3.1
   bugs:
@@ -5568,8 +5558,6 @@ fis-gtm:
   version: 6.2-002A-2
   comments: |
     Really curious diffoscope where a very large number of 0x01 bytes in the a build 0x02 in the b build. Possibly an offset difference rather than literal difference?
-  bugs:
-    - 884236
 fityk:
   version: 1.2.1-0.1
   issues:
@@ -8445,10 +8433,6 @@ haskell-shell-conduit:
     Includes all executables in PATH (unsorted).
     .
     https://sources.debian.org/src/haskell-shell-conduit/4.6.1-2/src/Data/Conduit/Shell/TH.hs/?hl=24#L24
-haskell-stack:
-  version: 1.1.2-8
-  bugs:
-    - 869484
 haskell-weigh:
   version: 0.0.5-1
   bugs:
@@ -10274,8 +10258,6 @@ khotkeys:
   version: 4:5.8.6-1
   issues:
     - build_id_differences_only
-  bugs:
-    - 871091
 khronos-api:
   version: 0~svn29577-2
   comments: |
@@ -15656,10 +15638,6 @@ node-argparse:
   version: 1.0.7-1
   bugs:
     - 872531
-node-braces:
-  version: 2.0.2-1
-  bugs:
-    - 884041
 node-chai:
   version: 3.5.0+dfsg-1
   bugs:
@@ -15668,18 +15646,10 @@ node-chokidar:
   version: 1.7.0-1
   bugs:
     - 887586
-node-cliui:
-  version: 3.2.0-2
-  bugs:
-    - 880904
 node-combine-source-map:
   version: 0.8.0+ds-4
   bugs:
     - 888942
-node-concat-with-sourcemaps:
-  version: 1.0.4-1
-  bugs:
-    - 877538
 node-coveralls:
   version: 3.0.0-1
   bugs:
@@ -25029,10 +24999,6 @@ syrthes:
     The shell glob expansion order is locale dependent.
   issues:
     - random_order_in_static_libraries
-sysbench:
-  version: 1.0.8+ds-1
-  bugs:
-    - 878588
 sysdig:
   version: 0.9.0-1
   issues:
@@ -25487,8 +25453,6 @@ tigervnc:
   version: 1.7.0+dfsg-7
   comments: |
     CMakeLists.txt sets «-DBUILD_TIMESTAMP="\"$(date +…)\""».  Needs to be fixed to honour SOURCE_DATE_EPOCH.
-  bugs:
-    - 880308
 tightvnc:
   version: 1:1.3.9-9
   comments: |
@@ -26736,10 +26700,6 @@ webauth:
   issues:
     - timezones_manpages_podman
     - user_hostname_manually_added_requiring_further_investigation
-webcit:
-  version: 904-dfsg-1
-  bugs:
-    - 884204
 webdis:
   version: 0.1.2+dfsg-2
   bugs:
