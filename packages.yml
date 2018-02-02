@@ -17737,6 +17737,10 @@ php7.0:
     - captures_users_gecos
     - leaks_path_environment_variable
     - records_build_flags
+php7.2:
+  version: 7.2.2-1
+  bugs:
+    - 889128
 php7cc:
   version: 1.1.0-1
   bugs:
