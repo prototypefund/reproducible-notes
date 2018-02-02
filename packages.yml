@@ -3475,6 +3475,8 @@ dateutils:
   comments: |
     Included manpage generator "yuck" embeds the build date.
     https://sources.debian.net/src/dateutils/0.3.1-1.1/build-aux/yuck.c/#L1435-L1443
+  bugs:
+    - 889050
 davical:
   version: 1.1.4-1
   comments: |
@@ -9488,6 +9490,7 @@ javacc-maven-plugin:
   version: 2.6-4
   bugs:
     - 887785
+    - 888994
 javahelp2:
   version: 2.0.05.ds1-9
   issues:
@@ -14433,6 +14436,8 @@ mm3d:
   version: 1.3.7-2
   issues:
     - captures_build_path
+  bugs:
+    - 889005
 mmh:
   version: 0.3-1
   issues:
@@ -15337,6 +15342,8 @@ netgen:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
+  bugs:
+    - 889003
 netkit-bootparamd:
   version: 0.17-9
   issues:
@@ -22719,6 +22726,10 @@ rubiks:
   version: 20070912-2
   issues:
     - gcc_captures_build_path
+rubocop:
+  version: 0.51.0+dfsg-1
+  bugs:
+    - 888185
 ruby-allocations:
   version: 1.0.3-1
   issues:
@@ -23218,6 +23229,10 @@ ruby-websocket-driver:
   version: 0.6.3-2
   issues:
     - gcc_captures_build_path
+ruby-whitequark-parser:
+  version: 2.3.3.1-1
+  bugs:
+    - 888174
 ruby-xmlhash:
   version: 1.3.6-2
   issues:
@@ -23234,6 +23249,10 @@ ruby-zoom:
   version: 0.4.1-7
   issues:
     - gcc_captures_build_path
+ruby2.5:
+  version: 2.5.0-4
+  bugs:
+    - 889046
 rubyluabridge:
   version: 0.8.0-1
   issues:
