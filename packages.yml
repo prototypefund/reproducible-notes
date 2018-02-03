@@ -1544,6 +1544,10 @@ bit-babbler:
   version: 0.5
   issues:
     - gcc_captures_build_path
+bitcoin:
+  version: 0.15.1~dfsg-1
+  bugs:
+    - 889118
 bitlbee:
   version: 3.4.2-1.1
   issues:
@@ -2890,6 +2894,10 @@ comedilib:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
+comidi-clojure:
+  version: 0.3.1-1
+  bugs:
+    - 889125
 commons-beanutils:
   version: 1.9.2-3
   issues:
@@ -6217,6 +6225,10 @@ fstrcmp:
   version: 0.7.D001-1.1
   issues:
     - gcc_captures_build_path
+fswatch:
+  version: 1.11.2+repack-5
+  bugs:
+    - 889126
 fte:
   version: 0.50.2b6-20110708-1
   issues:
@@ -6959,6 +6971,10 @@ gfxboot:
     - timestamps_in_cpio_archive
     - users_and_groups_in_cpio_archive
     - different_due_to_umask
+ggcov:
+  version: 0.9-19
+  bugs:
+    - 889127
 ggobi:
   version: 2.1.11-2
   issues:
@@ -13115,6 +13131,8 @@ libvirt:
     #3. Difference in file order in the .symtab section.
   issues:
     - captures_build_path
+  bugs:
+    - 888133
 libvirt-php:
   version: 0.5.2~30-g64dca6f-3
   bugs:
@@ -17551,6 +17569,14 @@ php-cache-lite:
   version: 1.7.16-2
   bugs:
     - 882888
+php-console-table:
+  version: 1.3.0-2
+  bugs:
+    - 889119
+php-crypt-chap:
+  version: 1.5.0-2
+  bugs:
+    - 889120
 php-crypt-gpg:
   version: 1.6.0-1
   bugs:
@@ -17608,6 +17634,10 @@ php-invoker:
   version: 1.1.4-3
   bugs:
     - 882906
+php-mail-mime:
+  version: 1.10.0-2
+  bugs:
+    - 889121
 php-mockery:
   version: 0.9.5-1
   bugs:
@@ -17747,6 +17777,7 @@ phpdox:
     https://sources.debian.net/src/phpdox/0.8.1.1-2/src/shared/Version.php/?hl=71#L71
   bugs:
     - 835193
+    - 889122
 phpldapadmin:
   version: 1.2.2-6
   issues:
@@ -17757,6 +17788,10 @@ phpmyadmin:
   version: 4:4.6.6-5
   bugs:
     - 883417
+phpunit:
+  version: 6.5.5-1
+  bugs:
+    - 889123
 phpwebcounter:
   version: 1.0-3
   issues:
@@ -17901,6 +17936,8 @@ plasma-discover:
   version: 5.7.4-1
   issues:
     - build_id_differences_only
+  bugs:
+    - 889131
 plasma-framework:
   version: 5.22.0-1
   comments: |
@@ -18058,6 +18095,8 @@ pnetcdf:
   version: 1.7.0-1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 889115
 png-sixlegs:
   version: 2.0-1
   comments: |
@@ -23241,6 +23280,10 @@ ruby-zoom:
   version: 0.4.1-7
   issues:
     - gcc_captures_build_path
+ruby2.3:
+  version: 2.3.6-2
+  bugs:
+    - 889117
 ruby2.5:
   version: 2.5.0-4
   bugs:
@@ -23489,6 +23532,7 @@ schleuder:
     so it's not clear whether this should be fixed
     in this package or in sqlite.
   bugs:
+    - 866030
     - 867643
 schroot:
   version: 1.6.10-2
@@ -24954,6 +24998,8 @@ symfony:
   version: 2.7.5+dfsg-1
   issues:
     - ftbfs_uninvestigated_test_failures
+  bugs:
+    - 889124
 sympy:
   version: 0.7.5-4
   issues:
