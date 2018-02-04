@@ -408,6 +408,10 @@ amora-server:
     - captures_build_path
   bugs:
     - 833408
+amp:
+  version: 0.6-2
+  issues:
+    - captures_build_path
 amsynth:
   version: 1.6.4-1
   issues:
@@ -1555,6 +1559,10 @@ bitops:
     - gcc_captures_build_path
 bitstormlite:
   version: 0.2q-4
+  issues:
+    - gcc_captures_build_path
+blackbox:
+  version: 0.70.1-35
   issues:
     - gcc_captures_build_path
 bladerf:
@@ -6383,10 +6391,9 @@ gambas3:
   issues:
     - timestamps_from_cpp_macros
 gambc:
-  version: 4.2.8-2
-  bugs:
-    - 501414
-    - 849656
+  version: 4.8.8-3
+  issues:
+    - timestamps_in_documentation_generated_by_texi2html
 game-music-emu:
   version: 0.6.0-3
   issues:
@@ -11585,6 +11592,10 @@ libdssialsacompat:
   version: 1.0.8a-1
   issues:
     - gcc_captures_build_path
+libdv:
+  version: 1.0.0-11
+  issues:
+    - build_path_captured_in_assembly_objects
 libencode-eucjpms-perl:
   version: 0.07-3
   issues:
@@ -11886,6 +11897,11 @@ libical:
   version: 2.0.0-0.4
   issues:
     - captures_build_path
+libical3:
+  version: 3.0.1-5
+  comments: |
+    Iterating over g_hash_table to generate output.
+    https://sources.debian.org/src/libical3/3.0.1-5/src/libical-glib/tools/generator.c/#L993-L1027
 libid3tag:
   version: 0.15.1b-12
   issues:
@@ -15414,6 +15430,10 @@ netsurf:
     - timestamps_in_png
   bugs:
     - 869600
+nettle:
+  version: 3.3-2
+  issues:
+    - build_path_captured_in_assembly_objects
 netty-3.9:
   version: 3.9.9.Final-1
   issues:
@@ -27757,6 +27777,10 @@ zabbix:
   version: 1:2.2.7+dfsg-1
   issues:
     - timestamps_from_cpp_macros
+zapping:
+  version: 0.10~cvs6-11
+  issues:
+    - build_path_captured_in_assembly_objects
 zathura:
   version: 0.3.6-2
   issues:
