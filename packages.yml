@@ -4031,6 +4031,10 @@ djangorestframework:
   version: 3.4.0-2
   bugs:
     - 865588
+djangorestframework-gis:
+  version: 0.12-1
+  bugs:
+    - 889663
 djvulibre:
   version: 3.5.27.1-7
   issues:
@@ -9604,6 +9608,10 @@ jd:
   version: 1:2.8.9-150226-5
   issues:
     - gcc_captures_build_path
+jdeb:
+  version: 1.6-1
+  bugs:
+    - 889642
 jdupes:
   version: 1.7-2
   issues:
@@ -15084,6 +15092,11 @@ musl:
   version: 1.1.16-3
   issues:
     - build_path_captured_in_assembly_objects
+mutextrace:
+  version: 0.1.4-1
+  bugs:
+    - 743062
+    - 754606
 mutrace:
   version: 0.2.0-3
   issues:
@@ -22808,10 +22821,22 @@ ruby-augeas:
   version: 1:0.5.0-3
   issues:
     - gcc_captures_build_path
+ruby-awesome-print:
+  version: 1.6.1-2
+  bugs:
+    - 888119
+ruby-backports:
+  version: 3.6.8-1
+  bugs:
+    - 888147
 ruby-bcrypt:
   version: 3.1.11-1
   issues:
     - gcc_captures_build_path
+ruby-benchmark-suite:
+  version: 1.0.0+git.20130122.5bded6-2
+  bugs:
+    - 840572
 ruby-berkshelf-api-client:
   version: 2.0.2-1
   bugs:
