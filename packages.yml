@@ -1496,6 +1496,8 @@ binutils-mingw-w64:
   version: 7.4
   comments: |
     upstream/ld/Makefile.am calls pod2man. the mtimes might be weird as we've unpacked a tarball though
+  bugs:
+    - 889710
 binutils-msp430:
   version: 2.22~msp20120406-5
   issues:
@@ -7801,6 +7803,14 @@ golang-gopkg-ini.v1:
   version: 1.8.5-1
   comments: |
     https://sources.debian.net/src/golang-gopkg-ini.v1/1.8.5-1/struct_test.go/#L208
+golang-gopkg-juju-environschema.v1:
+  version: 0.0~git20151104.7359fc7-3
+  bugs:
+    - 889705
+golang-gopkg-macaroon-bakery.v2:
+  version: 0.0~git20171221.21d9e9a-3
+  bugs:
+    - 889707
 goldencheetah:
   version: 4.0.0~DEV1607-1
   issues:
@@ -14882,6 +14892,9 @@ mpfr4:
   version: 3.1.4-2
   issues:
     - random_id_in_pdf_generated_by_dblatex
+  bugs:
+    - 888422
+    - 888911
 mpg123:
   version: 1.23.8-1
   issues:
@@ -22449,6 +22462,7 @@ reptyr:
   version: 0.6.2-1
   bugs:
     - 853640
+    - 889702
 resample:
   version: 1.8.1-1
   issues:
@@ -23389,6 +23403,7 @@ runc:
   bugs:
     - 858250
     - 861966
+    - 889704
 runit:
   version: 2.1.2-3
   issues:
