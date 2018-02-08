@@ -7803,6 +7803,12 @@ golang-gopkg-macaroon-bakery.v2:
   version: 0.0~git20171221.21d9e9a-3
   bugs:
     - 889707
+golang-gopkg-mgo.v2:
+  version: 2016.08.01-4
+  bugs:
+    - 886432
+    - 889818
+    - 889819
 goldencheetah:
   version: 4.0.0~DEV1607-1
   issues:
@@ -19166,6 +19172,10 @@ python-certbot:
   version: 0.19.0-1
   bugs:
     - 886575
+python-cffi:
+  version: 1.9.1-2
+  bugs:
+    - 889813
 python-chaco:
   version: 4.5.0-1
   issues:
@@ -19989,6 +19999,8 @@ qtcreator:
   version: 4.2.0-1
   issues:
     - captures_build_path
+  bugs:
+    - 889807
 qtcurve:
   version: 1.8.18+git20160320-3d8622c-3
   issues:
@@ -22820,6 +22832,10 @@ ruby-bcrypt:
   version: 3.1.11-1
   issues:
     - gcc_captures_build_path
+ruby-beautify:
+  version: 0.97.4-3
+  bugs:
+    - 888117
 ruby-benchmark-suite:
   version: 1.0.0+git.20130122.5bded6-2
   bugs:
@@ -22925,6 +22941,8 @@ ruby-escape-utils:
   version: 1.1.0-1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 888149
 ruby-eventmachine:
   version: 1.0.7-3
   bugs:
@@ -22933,6 +22951,14 @@ ruby-exif:
   version: 0.1.2-21
   issues:
     - gcc_captures_build_path
+ruby-fakefs:
+  version: 0.6.7-1
+  bugs:
+    - 888186
+ruby-fakeweb:
+  version: 1.3.0+git20131202.48208f9+dfsg-3
+  bugs:
+    - 888124
 ruby-fast-stemmer:
   version: 1.0.2-1
   issues:
@@ -23013,6 +23039,8 @@ ruby-gsl:
   version: 1.16.0.6+dfsg1-2
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 889023
 ruby-hamlit:
   version: 2.5.0+debian-1
   issues:
@@ -25985,6 +26013,8 @@ tuxpaint:
     Prints multiple lines with `echo`, which behaves differently depending on the shell.
     This causes a variation in linenumbers and therefore different debugging symbols.
     https://sources.debian.net/src/tuxpaint/1:0.9.22-2/Makefile/#L1147
+  bugs:
+    - 881885
 tvc:
   version: 5.0.3+dfsg-1
   comments: |
