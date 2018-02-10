@@ -1766,3 +1766,8 @@ gfortran_mod_captures_build_path:
     A patch for gfortran : https://bugs.debian.org/889133
     Also, a small workaround script to fix mod files is here: 
        https://sources.debian.org/src/eccodes/2.6.0-2/debian/sanitize-mod/
+timestamps_in_pdf_generated_by_rsvg_convert:
+  description: |
+    PDF files generated with rsvg-convert will contain CreationDate set to the
+    current date and time.
+  deterministic: True
