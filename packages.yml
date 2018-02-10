@@ -13952,8 +13952,6 @@ manpages-tr:
     Uses xslt to embed buildtime into manpages. Patch to remove timestamps
     would be easy but to make it determinstic would require modifying 3/4
     files.
-  issues:
-    - timestamps_in_gzip_headers
   bugs:
     - 854293
 mapcache:
