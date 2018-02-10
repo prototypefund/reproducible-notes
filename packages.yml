@@ -15982,6 +15982,10 @@ ns3:
     First build on armhf succeeded, but 2nd one was killed after 24h… (and 30h in total) - thus blacklisted.
   issues:
     - blacklisted_on_jenkins_armhf_only
+nsf:
+  version: 2.1.0-4
+  bugs:
+    - 890052
 nsis:
   version: 2.46-10
   issues:
