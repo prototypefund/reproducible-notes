@@ -1770,5 +1770,7 @@ timestamps_in_pdf_generated_by_rsvg_convert:
   description: |
     PDF files generated with rsvg-convert will contain CreationDate set to the
     current date and time.
+    .
+    Forwarded upstream https://gitlab.gnome.org/GNOME/librsvg/merge_requests/10
   deterministic: True
   url: https://bugs.debian.org/890027
