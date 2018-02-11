@@ -6791,8 +6791,6 @@ gdb-mingw-w64:
   version: 10.2
   issues:
     - captures_build_path
-  bugs:
-    - 884242
 gdb-msp430:
   version: 7.2a~mspgcc-20111205-3.1
   issues:
@@ -15388,8 +15386,6 @@ net-snmp:
   version: 5.7.3+dfsg-1.4
   issues:
     - records_build_flags
-  bugs:
-    - 828449
 netbeans:
   version: 8.0.2+dfsg1-3
   issues:
@@ -15553,10 +15549,6 @@ newtonsoft-json:
     - timestamps_in_pe_binaries
     - captures_kernel_version
     - different_due_to_umask
-nexuiz-data:
-  version: 2.5.2-6
-  bugs:
-    - 808652
 nexus:
   version: 4.3.2-svn1921-2
   issues:
@@ -16435,7 +16427,6 @@ octave-communications:
 octave-interval:
   version: 2.1.0-2
   bugs:
-    - 874135
     - 877149
 octave-ocs:
   version: 0.1.5-2
@@ -24993,7 +24984,6 @@ sugar-memorize-activity:
     - captures_build_path_in_python_sugar3_symlinks
   bugs:
     - 856943
-    - 860418
 sugar-physics-activity:
   version: 7+dfsg-1.2
   bugs:
@@ -25011,8 +25001,6 @@ sugar-toolkit-gtk3:
   version: 0.106.1-1
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 860418
 summain:
   version: 0.20-1
   issues:
