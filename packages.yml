@@ -1351,6 +1351,10 @@ beav:
     - timestamps_in_gzip_headers
   bugs:
     - 777287
+bedtools:
+  version: 2.27.1+dfsg-1
+  bugs:
+    - 890116
 beignet:
   version: 1.1.2-3
   comments: |
@@ -9651,6 +9655,10 @@ jekyll:
   version: 3.1.6+dfsg-3
   bugs:
     - 846115
+jellyfish:
+  version: 2.2.7-1
+  bugs:
+    - 890137
 jenkins-job-builder:
   version: 1.6.2-1
   bugs:
@@ -10069,6 +10077,8 @@ kcompletion:
   version: 5.28.0-1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 890122
 kconfig:
   version: 5.26.0-1
   issues:
@@ -15744,6 +15754,10 @@ node-d3-timer:
   version: 1.0.7-3
   bugs:
     - 886664
+node-dashdash:
+  version: 1.14.1-1
+  bugs:
+    - 890141
 node-deflate-js:
   version: 0.2.3-1
   bugs:
@@ -23052,6 +23066,10 @@ ruby-grape:
   version: 0.16.2-2
   bugs:
     - 877257
+ruby-grape-entity:
+  version: 0.6.0-1
+  bugs:
+    - 888127
 ruby-graphviz:
   version: 1.2.2-1
   bugs:
@@ -23142,6 +23160,10 @@ ruby-license-finder:
   version: 2.1.2-2
   bugs:
     - 880324
+ruby-logging:
+  version: 2.0.0-1
+  bugs:
+    - 888151
 ruby-mecab:
   version: 0.99.6-2
   issues:
@@ -23196,6 +23218,10 @@ ruby-net-http-persistent:
   version: 2.9.4-1
   bugs:
     - 888130
+ruby-net-ssh:
+  version: 1:4.2.0-2
+  bugs:
+    - 888163
 ruby-netcdf:
   version: 0.7.1.1-7
   issues:
