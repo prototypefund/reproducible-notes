@@ -1781,3 +1781,10 @@ timestamp_in_fonts_generated_by_ufo2ft:
     .
     https://github.com/googlei18n/ufo2ft/pull/219 upstream
   url: https://bugs.debian.org/890280
+randomness_in_berkeley_db_files:
+  description: |
+    Creating an empty Berkeley DB file (or ones with the same contents) results
+    in a different file.
+    .
+    Compounding this, the debugging tools *additionally* return random data for
+    the uid/hash fields (!).
