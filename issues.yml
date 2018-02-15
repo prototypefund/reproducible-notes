@@ -1786,5 +1786,11 @@ randomness_in_berkeley_db_files:
     Creating an empty Berkeley DB file (or ones with the same contents) results
     in a different file.
     .
+    This comes from:
+    https://sources.debian.org/src/db5.3/5.3.28-13.1/src/os/os_uid.c/#L20 but
+    it's unclear where to "set" this only on the creation case - we definitely
+    want the uid to change if one adds stuff later.
+    .
     Compounding this, the debugging tools *additionally* return random data for
-    the uid/hash fields (!).
+    the uid/hash fields (!), so presumably srand is being called when you do a
+    "db_dump -d a /path/to/my.db" which is obviously broken.
