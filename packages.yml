@@ -6701,6 +6701,18 @@ gcc-7-cross-ports:
   version: 6
   issues:
     - ftbfs_in_jenkins_setup
+gcc-8:
+  version: 8-20180207-2
+  issues:
+    - ftbfs_in_jenkins_setup
+gcc-8-cross:
+  version: 4
+  issues:
+    - ftbfs_in_jenkins_setup
+gcc-8-cross-ports:
+  version: 1
+  issues:
+    - ftbfs_in_jenkins_setup
 gcc-avr:
   version: 1:4.8.1+Atmel3.4.4-2
   comments: |
