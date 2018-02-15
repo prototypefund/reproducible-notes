@@ -258,6 +258,10 @@ afterstep:
   version: 2.2.12-8
   issues:
     - records_build_flags
+agda:
+  version: 2.5.3-3
+  comments: |
+    .agdai files seem to be nonreproducible... are they "just" renamed .i files?
 agg:
   version: 2.5+dfsg1-12
   bugs:
