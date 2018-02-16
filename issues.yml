@@ -982,6 +982,9 @@ python-ply_compiled_parse_tables:
     ("write_table" in yacc.py) but rather further up the chain within PLY.
     .
   url: https://github.com/dabeaz/ply/issues/79
+python-ply_lextokens:
+  description: |
+    python-ply generates _lextokens variables with nondetermistic ordering.
 ftbfs_due_to_disorderfs:
   description: |
     collect FTBFS related to disorderfs, eg. read errors, etc.
