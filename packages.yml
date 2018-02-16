@@ -1799,6 +1799,8 @@ bppphyview:
   version: 0.3.0-1.1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 890531
 bppsuite:
   version: 0.8.0-1+build1
   issues:
@@ -4706,6 +4708,10 @@ eigen3:
     - blacklisted_on_jenkins_armhf_only
     - ftbfs_in_jenkins_setup
     - captures_build_path
+eiskaltdcpp:
+  version: 2.2.9-6
+  bugs:
+    - 890507
 eja:
   version: 9.5.20-1
   comments: |
@@ -11035,6 +11041,8 @@ latrace:
   version: 0.5.11-1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 890457
 lattice:
   version: 0.20-33-1
   issues:
