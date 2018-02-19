@@ -1335,6 +1335,7 @@ bcftools:
     - 819617
     - 860682
     - 860704
+    - 890704
 beanbag:
   version: 1.9.2-1.1
   bugs:
@@ -22273,6 +22274,10 @@ rakarrack:
   version: 0.6.1-4
   issues:
     - gcc_captures_build_path
+rake:
+  version: 12.3.0-1
+  bugs:
+    - 890751
 rakudo:
   version: 2015.09-2
   issues:
@@ -22888,10 +22893,18 @@ ruby-bert:
   version: 1.1.6-1
   issues:
     - gcc_captures_build_path
+ruby-bio:
+  version: 1.5.0-2
+  bugs:
+    - 890691
 ruby-bson:
   version: 4.2.1-1
   issues:
     - gcc_captures_build_path
+ruby-bunny:
+  version: 2.6.1-2
+  bugs:
+    - 856838
 ruby-byebug:
   version: 5.0.0-1
   issues:
@@ -23339,6 +23352,10 @@ ruby-rest-client:
   version: 2.0.2-2
   bugs:
     - 873576
+ruby-rgen:
+  version: 0.8.0-1
+  bugs:
+    - 890689
 ruby-ridley:
   version: 4.4.3-2
   bugs:
@@ -23367,6 +23384,14 @@ ruby-rspec-its:
   version: 1.2.0-2
   bugs:
     - 888172
+ruby-rspec-rails:
+  version: 3.5.2-1
+  bugs:
+    - 890699
+ruby-rspec-retry:
+  version: 0.5.2-1
+  bugs:
+    - 890698
 ruby-safe-yaml:
   version: 1.0.4-1
   bugs:
@@ -23428,6 +23453,10 @@ ruby-timfel-krb5-auth:
   version: 0.8.3-2
   issues:
     - gcc_captures_build_path
+ruby-tinder:
+  version: 1.10.1-3
+  bugs:
+    - 890696
 ruby-tioga:
   version: 1.18-1
   issues:
@@ -23436,6 +23465,10 @@ ruby-tokyocabinet:
   version: 1.31-5
   issues:
     - gcc_captures_build_path
+ruby-toml:
+  version: 0.2.0-1
+  bugs:
+    - 890693
 ruby-uglifier:
   version: 2.7.2+dfsg-2
   bugs:
