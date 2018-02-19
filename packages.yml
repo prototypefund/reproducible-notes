@@ -6750,8 +6750,6 @@ gcc-mingw-w64:
   issues:
     - captures_shell_variable_in_autofoo_script
     - ftbfs_in_jenkins_setup
-  bugs:
-    - 887762
 gcc-msp430:
   version: 4.6.3~mspgcc-20120406-7
   issues:
@@ -11614,10 +11612,6 @@ libcxgb3:
   version: 1.3.1-1
   issues:
     - gcc_captures_build_path
-libdbix-class-schema-loader-perl:
-  version: 0.07047-1
-  bugs:
-    - 882618
 libdbusmenu:
   version: 12.10.2-1
   issues:
@@ -13438,7 +13432,6 @@ linssid:
 lintian:
   version: 2.5.67
   bugs:
-    - 886163
     - 888074
     - 889008
 linux:
@@ -15308,10 +15301,6 @@ natbraille:
   version: 2.0rc3-4
   bugs:
     - 859957
-natlog:
-  version: 1.03.00-2
-  bugs:
-    - 887807
 nautilus-image-converter:
   version: 0.3.1~git20110416-1
   issues:
@@ -18603,10 +18592,6 @@ proftpd-mod-vroot:
     leaving the path in the linker input.
   issues:
     - build_id_differences_only
-progressivemauve:
-  version: 1.2.0+4713-3
-  bugs:
-    - 887632
 proj:
   version: 4.9.3-1
   issues:
@@ -18998,10 +18983,6 @@ pymc:
     - captures_build_path
   bugs:
     - 848740
-pymca:
-  version: 5.2.2+dfsg-1
-  bugs:
-    - 887749
 pymol:
   version: 1.7.2.1-1
   issues:
@@ -24932,8 +24913,6 @@ stealth:
   version: 4.01.05-1
   issues:
     - timestamps_in_dvi_generated_by_latex
-  bugs:
-    - 887585
 stellarium:
   version: 0.15.0-1
   issues:
