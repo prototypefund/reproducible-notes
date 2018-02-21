@@ -702,6 +702,10 @@ appstream:
   version: 0.10.6-2
   issues:
     - build_id_differences_only
+appstream-glib:
+  version: 0.7.4-1
+  bugs:
+    - 890893
 apr:
   version: 1.5.2-4
   comments: |
@@ -3993,6 +3997,10 @@ directvnc:
   version: 0.7.7-1
   issues:
     - gcc_captures_build_path
+direnv:
+  version: 2.14.0-1
+  bugs:
+    - 890852
 discover:
   version: 2.1.2-7
   issues:
@@ -7812,6 +7820,7 @@ golang-github-ugorji-go-codec:
   version: 0.0~git20171019.0.bdcc60b-1
   bugs:
     - 879483
+    - 890886
 golang-github-xenolf-lego:
   version: 0.3.1-1
   issues:
@@ -10979,6 +10988,10 @@ lam:
     - captures_shell_variable_in_autofoo_script
     - random_order_in_static_libraries
     - captures_build_path
+lambda-align:
+  version: 1.0.2-1
+  bugs:
+    - 890851
 lammps:
   version: 0~20150313.gitfa668e1-1
   issues:
@@ -15043,6 +15056,10 @@ msrtool:
   version: 1:20141027-1.1
   bugs:
     - 847093
+mssh:
+  version: 2.2-4
+  bugs:
+    - 890853
 mtail:
   version: 0.0+git20160716.f911b02-1
   issues:
@@ -23331,6 +23348,8 @@ ruby-redcarpet:
   version: 3.3.4-2
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 890850
 ruby-redcloth:
   version: 4.2.9-5
   issues:
@@ -28036,6 +28055,10 @@ zbar:
   version: 0.10+doc-10
   issues:
     - gcc_captures_build_path
+zeal:
+  version: 1:0.4.0-2
+  bugs:
+    - 890917
 zelig:
   version: 4.2-1-1
   issues:
