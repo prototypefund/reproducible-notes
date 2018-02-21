@@ -1805,3 +1805,6 @@ randomness_in_berkeley_db_files:
 captures_build_path_in_mdb_files:
   description: |
     cli/mono packages can generate mdb files that contain build paths.
+randomness_in_binaries_generated_by_golang:
+  description: |
+    "New" (Feb 2018) undiagnosed issue with golang.
