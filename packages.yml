@@ -15764,6 +15764,10 @@ nifticlib:
   version: 2.0.0-2
   issues:
     - captures_build_path
+nim:
+  version: 0.17.2-1
+  comments: |
+    Embeds current date, time and git version in proc writeVersion
 nipy:
   version: 0.3.0+git262-gbb838d7-1
   issues:
