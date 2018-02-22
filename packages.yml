@@ -4340,10 +4340,6 @@ dtd-parser:
   version: 1.2~svn20110404-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-dtkwm:
-  version: 2.0.5-2
-  bugs:
-    - 886898
 dub:
   version: 0.9.24-1
   issues:
@@ -7834,8 +7830,6 @@ golang-github-tinylib-msgp:
     Looks like its due to random variable numbers in generated code but these are actually deterministic due to golangs implicit rand.Seed(1) - I believe its some kind of arbitrary dict ordering instead
   issues:
     - golang_compiler_captures_build_path_in_binary
-  bugs:
-    - 876820
 golang-github-tjfoc-gmsm:
   version: 1.1-1
   bugs:
@@ -8553,10 +8547,6 @@ haskell-shell-conduit:
     Includes all executables in PATH (unsorted).
     .
     https://sources.debian.org/src/haskell-shell-conduit/4.6.1-2/src/Data/Conduit/Shell/TH.hs/?hl=24#L24
-haskell-weigh:
-  version: 0.0.5-1
-  bugs:
-    - 876642
 haskell-wreq:
   version: 0.4.1.0-6
   bugs:
@@ -19371,10 +19361,6 @@ python-feather-format:
   version: 0.3.0+dfsg1-1
   bugs:
     - 841552
-python-filelock:
-  version: 3.0.0-1
-  bugs:
-    - 887869
 python-futurist:
   version: 0.5.0-2
   issues:
@@ -27901,10 +27887,6 @@ xxgdb:
   version: 1.12-17
   issues:
     - gcc_captures_build_path
-xymon:
-  version: 4.3.28-2
-  bugs:
-    - 887633
 xz-utils:
   version: 5.1.1alpha+20120614-2
   issues:
