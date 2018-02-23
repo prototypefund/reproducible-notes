@@ -7637,6 +7637,10 @@ golang-1.8:
     - golang_compiler_captures_build_path_in_binary
   bugs:
     - 863195
+golang-bindata:
+  version: 3.0.7+git20151023.72.a0ff256-3
+  issues:
+    - randomness_in_binaries_generated_by_golang
 golang-ginkgo:
   version: 1.2.0-3
   issues:
