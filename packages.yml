@@ -19217,12 +19217,6 @@ python-asdf:
     - randomness_in_documentation_generated_by_sphinx
   bugs:
     - 887531
-python-astropy:
-  version: 1.0.3-3
-  comments: |
-    this fails due to https://anonscm.debian.org/cgit/debian-astro/packages/python-astropy.git/commit/?id=0c73b4e109897ed5bf885815304c0a96342e59ff
-    it would be nice to revert that now. BTW, the build-dep is not really needed.
-    See also https://bugs.debian.org/791574#61
 python-asyncssh:
   version: 1.2.0-1
   issues:
