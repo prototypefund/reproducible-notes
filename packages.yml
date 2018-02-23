@@ -4734,7 +4734,6 @@ eigen3:
   issues:
     - blacklisted_on_jenkins_armhf_only
     - ftbfs_in_jenkins_setup
-    - captures_build_path
 eiskaltdcpp:
   version: 2.2.9-6
   bugs:
@@ -19224,8 +19223,6 @@ python-astropy:
     this fails due to https://anonscm.debian.org/cgit/debian-astro/packages/python-astropy.git/commit/?id=0c73b4e109897ed5bf885815304c0a96342e59ff
     it would be nice to revert that now. BTW, the build-dep is not really needed.
     See also https://bugs.debian.org/791574#61
-  issues:
-    - cython_captures_build_path
 python-asyncssh:
   version: 1.2.0-1
   issues:
