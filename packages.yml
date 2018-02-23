@@ -18830,6 +18830,10 @@ puma:
   issues:
     - max_output_size_reached
     - gcc_captures_build_path
+puppet:
+  version: 4.10.4-2
+  bugs:
+    - 891263
 puredata-import:
   version: 1.3-3
   issues:
