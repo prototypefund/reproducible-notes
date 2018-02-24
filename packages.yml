@@ -7802,6 +7802,10 @@ golang-github-mesos-mesos-go:
   version: 0.0.2+dfsg-2
   bugs:
     - 858320
+golang-github-miekg-mmark:
+  version: 1.3.6+dfsg-1
+  issues:
+    - randomness_in_binaries_generated_by_golang
 golang-github-minio-cli:
   version: 1.3.0+git20170313.0.8683fa7-1
   bugs:
@@ -7836,6 +7840,10 @@ golang-github-optiopay-kafka:
   version: 0.0~git20150921.0.bc8e095-1
   bugs:
     - 867775
+golang-github-pelletier-go-toml:
+  version: 1.0.1-1
+  issues:
+    - randomness_in_binaries_generated_by_golang
 golang-github-rackspace-gophercloud:
   version: 1.0.0+git20161013.1012.e00690e8-1
   bugs:
@@ -7891,6 +7899,10 @@ golang-github-xordataexchange-crypt:
   version: 0.0.2+git20150523.17.749e360-4
   issues:
     - golang_compiler_captures_build_path_in_binary
+golang-github-yosssi-ace:
+  version: 0.0.5-2
+  issues:
+    - randomness_in_binaries_generated_by_golang
 golang-glide:
   version: 0.11.0-2
   issues:
@@ -7961,6 +7973,10 @@ goldendict:
     Seems to embed the build date, but can't quite find it. Suspicious about PROGRAM_VERSION but it looks like it is generated sanely into version.txt between the two builds...
 golint:
   version: 0.0+git20161013.3390df4-1
+  issues:
+    - randomness_in_binaries_generated_by_golang
+google-cloud-print-connector:
+  version: 1.12-1
   issues:
     - randomness_in_binaries_generated_by_golang
 google-perftools:
@@ -18707,6 +18723,10 @@ prometheus-apache-exporter:
   version: 0.5.0+ds-1
   issues:
     - randomness_in_binaries_generated_by_golang
+prometheus-bind-exporter:
+  version: 0.2~git20161221+dfsg-1
+  issues:
+    - randomness_in_binaries_generated_by_golang
 prometheus-blackbox-exporter:
   version: 0.3.0+ds1-1
   issues:
@@ -18737,6 +18757,10 @@ prometheus-pushgateway:
   version: 0.3.0+ds-2
   issues:
     - golang_compiler_captures_build_path_in_binary
+prometheus-sql-exporter:
+  version: 0.2.0.ds-3
+  issues:
+    - randomness_in_binaries_generated_by_golang
 prometheus-varnish-exporter:
   version: 1.0-2
   issues:
