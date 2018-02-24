@@ -7875,6 +7875,10 @@ golang-github-ugorji-go-codec:
   bugs:
     - 879483
     - 890886
+golang-github-vmware-govmomi:
+  version: 0.15.0-1
+  issues:
+    - randomness_in_binaries_generated_by_golang
 golang-github-xenolf-lego:
   version: 0.3.1-1
   issues:
@@ -7891,6 +7895,10 @@ golang-go-flags:
   version: 1.3.0-1
   bugs:
     - 876862
+golang-gogoprotobuf:
+  version: 0.5-1
+  issues:
+    - randomness_in_binaries_generated_by_golang
 golang-golang-x-exp:
   version: 0.0~git20150826.1.eb7c1fa-1
   issues:
@@ -7925,10 +7933,18 @@ golang-gopkg-mgo.v2:
     - 886432
     - 889818
     - 889819
+golang-goprotobuf:
+  version: 0.0~git20170808.0.1909bc2-1
+  issues:
+    - randomness_in_binaries_generated_by_golang
 golang-pault-go-ykpiv:
   version: 1.1-1
   bugs:
     - 890929
+golang-petname:
+  version: 2.5~git20160928-2
+  issues:
+    - randomness_in_binaries_generated_by_golang
 goldencheetah:
   version: 4.0.0~DEV1607-1
   issues:
@@ -7939,6 +7955,10 @@ goldendict:
   version: 1.5.0~git20160508.g92b5485-3
   comments: |
     Seems to embed the build date, but can't quite find it. Suspicious about PROGRAM_VERSION but it looks like it is generated sanely into version.txt between the two builds...
+golint:
+  version: 0.0+git20161013.3390df4-1
+  issues:
+    - randomness_in_binaries_generated_by_golang
 google-perftools:
   version: 2.5-2.2
   bugs:
@@ -18675,6 +18695,10 @@ prometheus-alertmanager:
   version: 0.3.0+ds-2
   issues:
     - golang_compiler_captures_build_path_in_binary
+prometheus-apache-exporter:
+  version: 0.5.0+ds-1
+  issues:
+    - randomness_in_binaries_generated_by_golang
 prometheus-blackbox-exporter:
   version: 0.3.0+ds1-1
   issues:
@@ -25754,6 +25778,10 @@ textedit.app:
   version: 4.0+20061029-3.4
   issues:
     - gcc_captures_build_path
+textql:
+  version: 2.0.3-2
+  issues:
+    - randomness_in_binaries_generated_by_golang
 texworks-manual:
   version: 20150506-2
   issues:
@@ -27370,6 +27398,10 @@ wsynth-dssi:
   version: 0.1.3-4
   issues:
     - gcc_captures_build_path
+wuzz:
+  version: 0.3.0-1
+  issues:
+    - randomness_in_binaries_generated_by_golang
 wvdial:
   version: 1.61-4.1
   issues:
