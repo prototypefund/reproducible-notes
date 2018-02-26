@@ -3307,6 +3307,8 @@ custodia:
   version: 0.1.0-2
   issues:
     - ftbfs_uninvestigated_test_failures
+  bugs:
+    - 891450
 cutils:
   version: 1.6-4
   issues:
@@ -4235,6 +4237,8 @@ dom4j:
   version: 1.6.1+dfsg.3-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 891437
 doomsday:
   version: 1.15.8-5
   comments: |
@@ -6637,6 +6641,8 @@ gb:
   version: 0.4.2-1
   issues:
     - golang_compiler_captures_build_path_in_binary
+  bugs:
+    - 891445
 gbase:
   version: 0.5-2.2
   issues:
@@ -7390,6 +7396,10 @@ gnokii:
   version: 0.6.30+dfsg-1.1
   issues:
     - gcc_captures_build_path
+gnome-commander:
+  version: 1.4.8-1.1
+  bugs:
+    - 891436
 gnome-contacts:
   version: 3.22.1-1
   comments: |
@@ -7918,6 +7928,7 @@ golang-google-cloud:
   version: 0.9.0-3
   bugs:
     - 890938
+    - 891356
 golang-gopkg-ini.v1:
   version: 1.8.5-1
   comments: |
@@ -8810,6 +8821,7 @@ hkl:
     - timestamps_in_documentation_generated_by_org_mode
   bugs:
     - 868481
+    - 889878
 hmat-oss:
   version: 1.0.4-2
   issues:
@@ -15237,6 +15249,10 @@ murano:
   version: 2015.1.0-9
   issues:
     - timestamps_in_documentation_generated_by_sphinx
+murano-dashboard:
+  version: 1:4.0.0-1
+  bugs:
+    - 891441
 murasaki:
   version: 1.68.6-6
   issues:
@@ -18106,6 +18122,10 @@ pixelmed:
   issues:
     - captures_build_path
     - different_encoding
+pk4:
+  version: 5
+  bugs:
+    - 891359
 pkg-config:
   version: 0.29-4
   issues:
@@ -19542,6 +19562,7 @@ python-magnumclient:
   version: 2.7.0-3
   bugs:
     - 877840
+    - 891360
 python-marshmallow:
   version: 3.0.0b3-1
   comments: |
@@ -19806,6 +19827,7 @@ python-taskflow:
       https://docs.python.org/3/library/multiprocessing.html#multiprocessing.cpu_count
   bugs:
     - 860374
+    - 891438
 python-tidylib:
   version: 0.3.1~dfsg-1
   issues:
@@ -22401,6 +22423,10 @@ raul:
   version: 0.8.0+dfsg0-0.1
   issues:
     - gcc_captures_build_path
+rawdns:
+  version: 1.6~ds1-1
+  bugs:
+    - 891358
 razor:
   version: 1:2.85-4.2
   issues:
