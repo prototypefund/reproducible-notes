@@ -18720,6 +18720,10 @@ projectm:
   version: 2.1.0+dfsg-4
   issues:
     - build_id_differences_only
+prometheus:
+  version: 2.1.0+ds-1
+  issues:
+    - randomness_in_binaries_generated_by_golang
 prometheus-alertmanager:
   version: 0.3.0+ds-2
   issues:
