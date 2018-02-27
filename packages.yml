@@ -94,6 +94,10 @@ ace:
   version: 6.3.3+dfsg-1.1
   issues:
     - captures_build_path
+acedb:
+  version: 4.9.39+dfsg.02-2
+  bugs:
+    - 891529
 acepack:
   version: 1.3.3.3-2
   issues:
@@ -438,6 +442,10 @@ and:
   version: 1.2.2-4.1
   issues:
     - gcc_captures_build_path
+android-framework-23:
+  version: 6.0.1+r72-3
+  bugs:
+    - 891548
 android-platform-build:
   version: 1:7.0.0+r33-1
   bugs:
@@ -2159,6 +2167,10 @@ capnproto:
     - 853539
     - 871118
     - 871175
+captagent:
+  version: 6.1.0.20-3
+  bugs:
+    - 891532
 car:
   version: 2.1-3-1
   issues:
@@ -7634,6 +7646,7 @@ gocryptfs:
     - golang_compiler_captures_build_path_in_binary
   bugs:
     - 849662
+    - 891557
 goiardi:
   version: 0.11.0+git20161112.21.1cd076a-3
   issues:
@@ -14323,6 +14336,10 @@ mc:
   version: 3:4.8.17-1
   bugs:
     - 828683
+mccs:
+  version: 1:1.1-6
+  bugs:
+    - 891521
 mclibs:
   version: 20061220+dfsg3-3
   issues:
@@ -18889,6 +18906,10 @@ purpose:
   version: 1.1-2
   issues:
     - build_id_differences_only
+putty:
+  version: 0.70-1
+  bugs:
+    - 891519
 pvclust:
   version: 2.0-0-1
   issues:
@@ -19566,6 +19587,10 @@ python-mhash:
   version: 1.4-1.1
   issues:
     - gcc_captures_build_path
+python-murano-pkg-check:
+  version: 0.3.0-2
+  bugs:
+    - 891539
 python-nacl:
   version: 1.0.1-2
   comments: |
@@ -22784,6 +22809,8 @@ ros-geometric-shapes:
   version: 0.4.4-1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 891516
 ros-geometry:
   version: 1.11.8-4
   issues:
@@ -22792,6 +22819,10 @@ ros-geometry-experimental:
   version: 0.5.13-5
   issues:
     - build_id_differences_only
+ros-geometry2:
+  version: 0.5.16-1
+  bugs:
+    - 891518
 ros-image-common:
   version: 1.11.11-2
   issues:
@@ -22829,6 +22860,8 @@ ros-ros-comm:
   version: 1.12.6-2
   issues:
     - build_id_differences_only
+  bugs:
+    - 891517
 ros-roscpp-core:
   version: 0.6.0-1
   issues:
@@ -25661,6 +25694,10 @@ tcptraceroute:
     - captures_build_arch
   bugs:
     - 828786
+tcpxtract:
+  version: 1.0.1-11
+  bugs:
+    - 891523
 tcs:
   version: 1-11
   issues:
