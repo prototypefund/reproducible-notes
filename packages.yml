@@ -6639,6 +6639,7 @@ gazebo:
     - build_id_differences_only
   bugs:
     - 887931
+    - 891646
 gb:
   version: 0.4.2-1
   issues:
@@ -9159,6 +9160,8 @@ ikiwiki:
     
     ./doc/plugins/contrib/asymptote/ikiwiki/directive/asymptote.mdwn
     ./doc/plugins/contrib/asymptote.mdwn
+  bugs:
+    - 891647
 ikiwiki-hosting:
   version: 0.20160811
   issues:
@@ -26078,6 +26081,8 @@ tomboy:
     Unidentified variation in Mono executable.
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 891597
 tomcat7:
   version: 7.0.75-1
   issues:
