@@ -4772,6 +4772,10 @@ eja:
     Start with the LC_COLLATE_sensitive glob at https://sources.debian.net/src/eja/9.5.20-1/Makefile/#L26 .
     .
     Can't seem to reproduce this anymore.
+ejabberd:
+  version: 18.01-1
+  issues:
+    - captures_build_path_in_beam_files
 ejabberd-contrib:
   version: 0.2016.08.01~dfsg0-1
   issues:
