@@ -7086,6 +7086,8 @@ gettext:
     - timestamps_in_jar
 gexiv2:
   version: 0.10.8-1
+  comments: |
+    Forwarded upstream https://bugzilla.gnome.org/show_bug.cgi?id=793984
   issues:
     - nondeterminstic_ordering_in_gsettings_glib_enums_xml
   bugs:
