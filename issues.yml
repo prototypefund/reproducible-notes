@@ -1117,6 +1117,8 @@ nondeterminstic_ordering_in_gsettings_glib_enums_xml:
     glib's glib-mkenums and gsettings_ENUM_FILES mechanism can generate output
     in a non-deterministic / filesystem order as most Gnome packages just specify
     "src/*.h".
+    .
+    They can also use '@filename@' which embeds the build path.
   url: https://bugs.debian.org/809152
 nondeterminstic_output_in_warnings_generated_by_breathe:
   description:
