@@ -3382,8 +3382,6 @@ cxref:
     - captures_build_path
     - timestamps_in_ps_generated_by_dvips
     - timestamps_in_dvi_generated_by_latex
-  bugs:
-    - 887866
 cxxtest:
   version: 4.3-1
   issues:
@@ -19386,14 +19384,6 @@ pytest:
   version: 3.0.4-1
   bugs:
     - 844919
-pytest-httpbin:
-  version: 0.2.0-1
-  bugs:
-    - 844358
-pytest-pylint:
-  version: 0.7.1-1
-  bugs:
-    - 887573
 pythia8:
   version: 8.1.86-1.1
   issues:
@@ -26373,10 +26363,6 @@ treil:
   version: 1.8-2.2
   issues:
     - gcc_captures_build_path
-trigger-rally:
-  version: 0.6.5+dfsg-2
-  bugs:
-    - 887929
 triggerhappy:
   version: 0.5.0-1
   issues:
