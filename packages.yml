@@ -1575,6 +1575,10 @@ bird:
   version: 1.4.5-1
   issues:
     - random_id_in_pdf_generated_by_dblatex
+birdfont:
+  version: 2.21.0-1
+  bugs:
+    - 891627
 bist:
   version: 0.5.2-1.1
   issues:
@@ -17134,6 +17138,8 @@ openturns:
     https://sources.debian.net/src/openturns/1.5-7/lib/include/CMakeLists.txt/#L29
   issues:
     - randomness_in_r_rdb_rds_databases
+  bugs:
+    - 887005
 openvas-cli:
   version: 1.4.4-1
   issues:
