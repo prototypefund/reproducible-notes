@@ -1208,7 +1208,6 @@ bacula-doc:
   version: 5.2.6-3
   issues:
     - fonts_in_pdf_files
-    - timestamps_in_ps_generated_by_dvips
     - pdf_created_by_ghostscript
     - captures_users_gecos
 bagel:
@@ -5584,10 +5583,6 @@ ffcall:
   bugs:
     - 758379
     - 849653
-ffdiaporama:
-  version: 1.5-5
-  issues:
-    - captures_build_path
 ffindex:
   version: 0.9.9.7-4
   comments: |
