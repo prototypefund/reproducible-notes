@@ -7114,10 +7114,6 @@ gfxboot:
     - timestamps_in_cpio_archive
     - users_and_groups_in_cpio_archive
     - different_due_to_umask
-ggcov:
-  version: 0.9-19
-  bugs:
-    - 889127
 ggobi:
   version: 2.1.11-2
   issues:
@@ -24371,8 +24367,6 @@ sheepdog:
   comments: |
     Embeds the build date into the manpage with sed via Makefile.
     https://sources.debian.net/src/sheepdog/0.8.3-4.1/man/Makefile.am/#L14
-  bugs:
-    - 835051
 shellex:
   version: 0.2-1
   issues:
@@ -27340,8 +27334,6 @@ webhook:
   version: 2.5.0-1
   issues:
     - golang_compiler_captures_build_path_in_binary
-  bugs:
-    - 876889
 webissues:
   version: 1.1.4-3
   issues:
@@ -28393,10 +28385,6 @@ zephyr:
     - user_hostname_manually_added_requiring_further_investigation
   bugs:
     - 828867
-zeroc-ice:
-  version: 3.6.4-1+buster
-  bugs:
-    - 887808
 zeroconf-ioslave:
   version: 4:15.12.0-2
   issues:
