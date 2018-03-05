@@ -1102,11 +1102,6 @@ autounit:
   version: 0.20.1-5
   issues:
     - gcc_captures_build_path
-avahi:
-  version: 0.6.31-5
-  comments: |
-    - debian/rules implicitly uses ChangeLog as the upstream changelog, but ChangeLog is created from
-      scratch at every build, which makes it not to be a good upstream changelog.
 avarice:
   version: 2.13+svn347-4
   issues:
@@ -24361,11 +24356,6 @@ shark:
   version: 3.1.4+ds1-1
   bugs:
     - 891264
-sheepdog:
-  version: 0.8.3-4
-  comments: |
-    Embeds the build date into the manpage with sed via Makefile.
-    https://sources.debian.net/src/sheepdog/0.8.3-4.1/man/Makefile.am/#L14
 shellex:
   version: 0.2-1
   issues:
