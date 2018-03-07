@@ -8868,6 +8868,10 @@ hhsuite:
   issues:
     - max_output_size_reached
     - captures_build_path_via_assert
+hhvm:
+  version: 3.21.0+dfsg-2
+  issues:
+    - ftbfs_in_jenkins_setup
 hibernate:
   version: 2.0+15+g88d54a8-1
   comments: |
