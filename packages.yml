@@ -17460,6 +17460,10 @@ pandoc:
   version: 1.17.0.3~dfsg-2
   bugs:
     - 868757
+panko:
+  version: 3.1.0-4
+  comments: |
+    Nondeterministic set order https://sources.debian.org/src/panko/3.1.0-4/panko/api/controllers/v2/events.py/#L158-L164
 paps:
   version: 0.6.8-7
   issues:
