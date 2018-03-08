@@ -478,8 +478,6 @@ android-tools:
   version: 5.1.1.r38-1
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 882975
 anet:
   version: 0.3.1-1
   comments: |
@@ -4601,8 +4599,6 @@ eclipse:
   issues:
     - timestamps_in_jar
     - blacklisted_on_jenkins_armhf_only
-  bugs:
-    - 871142
 eclipse-aether:
   version: 1.0.2-1
   issues:
@@ -5314,10 +5310,6 @@ fam:
   version: 2.7.0-17.2
   issues:
     - gcc_captures_build_path
-farstream-0.2:
-  version: 0.2.8-2
-  bugs:
-    - 876611
 fasianoptions:
   version: 3010.79-2
   issues:
@@ -9583,8 +9575,6 @@ ivtools:
   issues:
     - timestamps_in_tarball
     - different_due_to_umask
-  bugs:
-    - 887774
 ivy:
   version: 2.4.0-3
   issues:
@@ -9882,10 +9872,6 @@ jd:
   version: 1:2.8.9-150226-5
   issues:
     - gcc_captures_build_path
-jdeb:
-  version: 1.6-1
-  bugs:
-    - 889642
 jdupes:
   version: 1.7-2
   issues:
@@ -10303,10 +10289,6 @@ kcalc:
   version: 4:16.04.2-1
   issues:
     - build_id_variation_requiring_further_investigation
-kcalcore:
-  version: 4:16.04.2-1
-  bugs:
-    - 883960
 kcalutils:
   version: 16.04.3-1
   issues:
