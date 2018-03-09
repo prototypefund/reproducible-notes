@@ -1810,3 +1810,7 @@ captures_build_path_in_mdb_files:
 randomness_in_binaries_generated_by_golang:
   description: |
     "New" (Feb 2018) undiagnosed issue with golang.
+timestamps_in_preamble_generated_by_node_package_preamble:
+  description: |
+    node-package-preamble outputs the current date which is then included by a
+    bunch of packages.
