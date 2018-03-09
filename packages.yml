@@ -2281,8 +2281,6 @@ cctools:
     - user_hostname_manually_added_requiring_further_investigation
     - captures_home_dir
     - captures_kernel_version
-  bugs:
-    - 887763
 cdbackup:
   version: 0.7.0-5
   issues:
@@ -6865,7 +6863,6 @@ gcompris-qt:
 gconf:
   version: 3.2.6-4
   bugs:
-    - 876592
     - 880238
 gcpegg:
   version: 5.1-13
@@ -13679,7 +13676,6 @@ linuxtv-dvb-apps:
     - gcc_captures_build_path
   bugs:
     - 791423
-    - 884039
 liquidsoap:
   version: 1.1.1-7.2
   bugs:
@@ -18259,8 +18255,6 @@ plasma-discover:
   version: 5.7.4-1
   issues:
     - build_id_differences_only
-  bugs:
-    - 889131
 plasma-framework:
   version: 5.22.0-1
   comments: |
