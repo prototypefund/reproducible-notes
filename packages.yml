@@ -7846,7 +7846,6 @@ golang-github-google-gofuzz:
 golang-github-gopherjs-gopherjs:
   version: 0.0~git20170927.0.4152256-2
   bugs:
-    - 887795
     - 890931
 golang-github-grpc-ecosystem-grpc-gateway:
   version: 1.1.0+git20170127.54.6863684-1
@@ -8919,7 +8918,6 @@ hkl:
   issues:
     - timestamps_in_documentation_generated_by_org_mode
   bugs:
-    - 868481
     - 889878
 hmat-oss:
   version: 1.0.4-2
@@ -12646,8 +12644,6 @@ libminc:
   version: 2.3.00-3.1
   issues:
     - build_id_differences_only
-  bugs:
-    - 888925
 libmirisdr:
   version: 0.0.4.59ba37-5
   issues:
@@ -13432,10 +13428,6 @@ libvirt:
     - captures_build_path
   bugs:
     - 888133
-libvirt-php:
-  version: 0.5.2~30-g64dca6f-3
-  bugs:
-    - 882025
 libvistaio:
   version: 1.2.19-1
   issues:
@@ -14313,8 +14305,6 @@ maven-archiver:
   version: 2.6-3
   issues:
     - random_order_in_documentation_generated_by_javadoc
-  bugs:
-    - 886875
 maven-bundle-plugin:
   version: 2.5.4-3
   issues:
@@ -15311,7 +15301,6 @@ munin-c:
     Left build uses "0.0.9", right build uses "unknown"; that string is 2 bytes
     longer, which explains all other differences.
   bugs:
-    - 845426
     - 871108
 munipack:
   version: 0.5.7-2
@@ -17986,8 +17975,6 @@ php-mongodb:
   version: 1.1.7-2
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 888881
 php-monolog:
   version: 1.22.0-1
   bugs:
@@ -18454,8 +18441,6 @@ pnetcdf:
   version: 1.7.0-1
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 889115
 png-sixlegs:
   version: 2.0-1
   comments: |
@@ -20041,8 +20026,6 @@ python-xarray:
   version: 0.9.2-1
   issues:
     - captures_build_path
-  bugs:
-    - 871208
 python-xlib:
   version: 0.14+20091101-5
   issues:
@@ -23891,10 +23874,6 @@ ruby-unicode:
   version: 0.4.4-2
   issues:
     - gcc_captures_build_path
-ruby-validates-hostname:
-  version: 1.0.7-1
-  bugs:
-    - 889157
 ruby-version-sorter:
   version: 2.0.0+dfsg-2
   issues:
