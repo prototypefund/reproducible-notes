@@ -2785,10 +2785,6 @@ cmake:
   version: 3.6.1-1
   issues:
     - gcc_captures_build_path
-cmd2:
-  version: 0.7.7-1
-  bugs:
-    - 888080
 cmocka:
   version: 1.0.1-2
   issues:
@@ -4113,10 +4109,6 @@ djangocms-admin-style:
   version: 1.2.2+dfsg-1
   bugs:
     - 865293
-djangorestframework:
-  version: 3.4.0-2
-  bugs:
-    - 865588
 djangorestframework-gis:
   version: 0.12-1
   bugs:
@@ -6703,10 +6695,6 @@ gbrowse:
     ConfigData.pm embeds a random 'OpenIDConsumerSecret'.
   bugs:
     - 833885
-gcc-3.3:
-  version: 1:3.3.6ds1-29
-  bugs:
-    - 887782
 gcc-5:
   version: 5.3.1-6
   comments: |
@@ -12676,10 +12664,6 @@ libmpd:
   version: 0.20.0-1.3
   issues:
     - gcc_captures_build_path
-libmsv:
-  version: 1.1-4
-  bugs:
-    - 886130
 libmthca:
   version: 1.0.6-1
   issues:
@@ -15304,8 +15288,6 @@ munin-c:
         75  fi
     Left build uses "0.0.9", right build uses "unknown"; that string is 2 bytes
     longer, which explains all other differences.
-  bugs:
-    - 871108
 munipack:
   version: 0.5.7-2
   issues:
@@ -18045,10 +18027,6 @@ php-sabredav:
   version: 1.8.12-3
   bugs:
     - 882939
-php-solr:
-  version: 2.4.0-4
-  bugs:
-    - 888880
 php-sql-formatter:
   version: 1.2.17-2
   bugs:
@@ -18192,8 +18170,6 @@ pike7.8:
   issues:
     - timestamps_from_cpp_macros
     - captures_kernel_version
-  bugs:
-    - 888754
 pillow:
   version: 3.3.1-1
   issues:
@@ -19993,10 +19969,6 @@ python-stopit:
   version: 1.1.1-1
   bugs:
     - 854542
-python-tackerclient:
-  version: 0.10.0-2
-  bugs:
-    - 888080
 python-taskflow:
   version: 1.3.0-2
   comments: |
@@ -26604,8 +26576,6 @@ tuxpaint:
     Prints multiple lines with `echo`, which behaves differently depending on the shell.
     This causes a variation in linenumbers and therefore different debugging symbols.
     https://sources.debian.net/src/tuxpaint/1:0.9.22-2/Makefile/#L1147
-  bugs:
-    - 881885
 tvc:
   version: 5.0.3+dfsg-1
   comments: |
