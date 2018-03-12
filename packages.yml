@@ -14180,12 +14180,6 @@ manila-ui:
   version: 2.5.1-0
   bugs:
     - 881977
-manpages-tr:
-  version: 1.0.5.1-2
-  comments: |
-    Uses xslt to embed buildtime into manpages. Patch to remove timestamps
-    would be easy but to make it determinstic would require modifying 3/4
-    files.
 mapcache:
   version: 1.4.1-3
   issues:
