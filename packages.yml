@@ -16649,10 +16649,6 @@ octave-communications:
   version: 1.2.1-1
   issues:
     - pdf_created_by_ghostscript
-octave-geometry:
-  version: 3.0.0-5
-  bugs:
-    - 890104
 octave-ltfat:
   version: 2.2.0+dfsg-7
   issues:
@@ -18021,10 +18017,6 @@ php-sql-formatter:
   version: 1.2.17-2
   bugs:
     - 882918
-php-stomp:
-  version: 2.0.0+1.0.9-1
-  bugs:
-    - 882023
 php-text-captcha:
   version: 1.0.2-4
   bugs:
@@ -22834,7 +22826,6 @@ reptyr:
   version: 0.6.2-1
   bugs:
     - 853640
-    - 889702
 resample:
   version: 1.8.1-1
   issues:
@@ -23267,10 +23258,6 @@ ruby-celluloid-io:
   version: 0.16.2-5
   bugs:
     - 892192
-ruby-certificate-authority:
-  version: 0.2.0~6dd483bf-2
-  bugs:
-    - 888148
 ruby-charlock-holmes:
   version: 0.7.3+dfsg-2
   issues:
@@ -25230,10 +25217,6 @@ sqljet:
   version: 1.1.10-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-sqlparse:
-  version: 0.2.2-1
-  bugs:
-    - 884670
 sqsh:
   version: 2.1.7-4
   bugs:
@@ -25767,8 +25750,6 @@ syslog-ng:
   version: 3.13.2-2
   comments: |
     Uses cmake CMAKE_SOURCE_DIR via SYSLOG_NG_PATH_TOPSRC_DIR which then gets embedded in the binary. Should be an easy patch but it appears to need this local/build dir to run the testsuite.
-  bugs:
-    - 889303
 syslog-ng-incubator:
   version: 0.5.0-5
   bugs:
