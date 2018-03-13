@@ -15921,6 +15921,10 @@ node-chokidar:
   version: 1.7.0-1
   bugs:
     - 887586
+node-class-utils:
+  version: 0.3.5-1
+  bugs:
+    - 892655
 node-combine-source-map:
   version: 0.8.0+ds-4
   bugs:
@@ -15969,6 +15973,10 @@ node-dashdash:
   version: 1.14.1-1
   bugs:
     - 890141
+node-define-property:
+  version: 1.0.0-1
+  bugs:
+    - 892656
 node-deflate-js:
   version: 0.2.3-1
   bugs:
@@ -15989,6 +15997,10 @@ node-grunt-contrib-concat:
   version: 1.0.1-2
   bugs:
     - 878337
+node-ip:
+  version: 1.1.5-1
+  bugs:
+    - 892658
 node-jquery:
   version: 2.2.4+dfsg-1
   bugs:
@@ -16058,6 +16070,10 @@ node-sshpk:
   version: 1.13.0+dfsg-1
   issues:
     - timestamps_embedded_in_manpages_by_node_marked_man
+node-static-extend:
+  version: 0.1.2-1
+  bugs:
+    - 892661
 node-temp:
   version: 0.8.1-1
   bugs:
@@ -17080,6 +17096,10 @@ openssl1.0:
   version: 1.0.2l-2
   issues:
     - build_path_captured_in_assembly_objects
+openstack-trove:
+  version: 1:8.0.0-4
+  bugs:
+    - 892757
 opensurgsim:
   version: 0.7.0-5
   issues:
@@ -19783,6 +19803,10 @@ python-openstackdocstheme:
   version: 1.2.5+dfsg1-1
   issues:
     - random_order_in_python_environment_pickle
+python-os-testr:
+  version: 1.0.0-2
+  bugs:
+    - 892745
 python-osd:
   version: 0.2.14-6
   issues:
@@ -19993,6 +20017,10 @@ python-taskflow:
   bugs:
     - 860374
     - 891438
+python-tempest-lib:
+  version: 0.14.0-3
+  bugs:
+    - 892747
 python-tidylib:
   version: 0.3.1~dfsg-1
   issues:
@@ -20041,6 +20069,10 @@ python-xmp-toolkit:
     - captures_build_path
   bugs:
     - 853819
+python-zake:
+  version: 0.1.6-1
+  bugs:
+    - 892746
 python2.7:
   version: 2.7.10-2
   comments: |
@@ -26266,6 +26298,8 @@ tj3:
     3) [tangential / doesn't affect reproducibility] tjp.vim is packaged twice, both in tj3:usr/share/taskjuggler/data/tjp.vim and in vim-tjp:usr/share/vim/addons/syntax/tjp.vim
     .
     4) Non-deterministic ordering difference in account.html
+  bugs:
+    - 892652
 tk-html3:
   version: 3.0~fossil20110109-6
   comments: |
@@ -27824,6 +27858,10 @@ xcfa:
   version: 5.0.2-1
   issues:
     - gcc_captures_build_path
+xcffib:
+  version: 0.5.1-1
+  bugs:
+    - 892648
 xcolmix:
   version: 1.07-10
   issues:
