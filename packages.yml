@@ -1450,8 +1450,6 @@ bibledit-gtk:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
-  bugs:
-    - 820032
 bibletime:
   version: 2.10.1-3
   issues:
@@ -6403,10 +6401,6 @@ fuse-posixovl:
   version: 1.2.20120215+gitf5bfe35-1
   bugs:
     - 782215
-fuse-zip:
-  version: 0.4.0-2
-  bugs:
-    - 842625
 fusedav:
   version: 0.2-3.1
   issues:
@@ -10312,8 +10306,6 @@ kcompletion:
   version: 5.28.0-1
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 890122
 kconfig:
   version: 5.26.0-1
   issues:
@@ -19166,8 +19158,6 @@ pygoocanvas:
   comments: |
     Package deprecated (https://bugs.debian.org/813185) to be removed.
     Previous fix in https://bugs.debian.org/828222 is ineffective.
-  bugs:
-    - 828222
 pygpgme:
   version: 0.3-1.2
   issues:
@@ -19404,8 +19394,6 @@ python-asdf:
   version: 1.1.0-3
   issues:
     - randomness_in_documentation_generated_by_sphinx
-  bugs:
-    - 887531
 python-asyncssh:
   version: 1.2.0-1
   issues:
@@ -26732,10 +26720,6 @@ uclibc:
     - timestamps_in_tarball
     - different_due_to_umask
     - users_and_groups_in_tarball
-uclmmbase:
-  version: 1.2.16.0-2
-  bugs:
-    - 876590
 ucspi-proxy:
   version: 0.99-1
   issues:
@@ -26840,10 +26824,6 @@ umockdev:
   version: 0.8.11-2
   bugs:
     - 767908
-unattended-upgrades:
-  version: 0.98
-  bugs:
-    - 887690
 unbound:
   version: 1.5.9-3
   issues:
