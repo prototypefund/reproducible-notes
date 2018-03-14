@@ -9415,6 +9415,10 @@ ippusbxd:
   version: 1.23-1
   issues:
     - gcc_captures_build_path
+ipsec-tools:
+  version: 1:0.8.2+20140711-10
+  bugs:
+    - 892831
 ipsvd:
   version: 1.0.0-3
   issues:
@@ -13297,6 +13301,10 @@ libtggraphlayout-java:
   version: 122-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
+libtgvoip:
+  version: 1.0~git20170704.445433f-4
+  bugs:
+    - 892824
 libtheora:
   version: 1.1.1+dfsg.1-14
   issues:
@@ -19472,6 +19480,10 @@ python-cogent:
   issues:
     - random_order_in_python_environment_pickle
     - captures_build_path
+python-coverage:
+  version: 4.5+dfsg.1-3
+  bugs:
+    - 891450
 python-crypto:
   version: 2.6.1-5
   comments: |
@@ -27414,6 +27426,10 @@ warzone2100:
     - captures_build_path
   bugs:
     - 889059
+watcher:
+  version: 1.4.1-3
+  bugs:
+    - 892783
 wav2cdr:
   version: 2.3.4-1
   issues:
@@ -28482,6 +28498,14 @@ zapping:
   version: 0.10~cvs6-11
   issues:
     - build_path_captured_in_assembly_objects
+zaqar:
+  version: 6.0.0-1
+  bugs:
+    - 892784
+zaqar-ui:
+  version: 1.0.0~rc1-2
+  bugs:
+    - 892785
 zathura:
   version: 0.3.6-2
   issues:
