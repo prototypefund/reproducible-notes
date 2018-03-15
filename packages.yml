@@ -18664,6 +18664,10 @@ ppx-core:
     - captures_build_path
   bugs:
     - 877507
+ppx-derivers:
+  version: 1.2-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 ppx-deriving:
   version: 4.1-1.1
   issues:
@@ -20933,12 +20937,24 @@ r-cran-bbmle:
   version: 1.0.18-1
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-bdsmatrix:
+  version: 1.3-3-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-beeswarm:
   version: 0.2.3-1
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-biasedurn:
   version: 1.06.1-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-bigmemory:
+  version: 4.5.33-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-bigmemory.sri:
+  version: 0.1.3-1
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-bindr:
@@ -21221,6 +21237,10 @@ r-cran-elliptic:
   version: 1.3-5-1
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-emmeans:
+  version: 1.1.2-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-energy:
   version: 1.6.2-1
   issues:
@@ -21288,6 +21308,10 @@ r-cran-fastica:
     - randomness_in_r_rdb_rds_databases
 r-cran-fastmatch:
   version: 1.0-4-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-fauxpas:
+  version: 0.2.0-1
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-fields:
@@ -21376,6 +21400,10 @@ r-cran-getopt:
     - randomness_in_r_rdb_rds_databases
 r-cran-ggplot2:
   version: 2.1.0-3
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-ggsci:
+  version: 2.8-1
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-ggvis:
@@ -21862,6 +21890,10 @@ r-cran-pkgkitten:
     - randomness_in_r_rdb_rds_databases
 r-cran-pkgmaker:
   version: 0.22-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-plm:
+  version: 1.6-6-1
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-plogr:
@@ -22480,6 +22512,10 @@ r-cran-wdi:
     - randomness_in_r_rdb_rds_databases
 r-cran-webmockr:
   version: 0.1.0-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-webutils:
+  version: 0.6-1
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-whisker:
