@@ -1821,3 +1821,7 @@ nondeterminstic_output_in_pkgconfig_files_generated_by_meson:
     pkgconfig generates pkgconfig .pc files with (eg.) dependency fields that
     are are based on the Python set ordering
   url: https://github.com/mesonbuild/meson/pull/3211
+timestamps_in_pdf_generated_by_inkscape:
+  description: |
+    PDF files generated with inkscape will contain CreationDate set to the
+    current date and time. (Related to rsvg-convert issue?)
