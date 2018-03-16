@@ -7440,6 +7440,10 @@ gnokii:
   version: 0.6.30+dfsg-1.1
   issues:
     - gcc_captures_build_path
+gnome-bluetooth:
+  version: 3.28.0-1
+  issues:
+    - nondeterminstic_output_in_pkgconfig_files_generated_by_meson
 gnome-commander:
   version: 1.4.8-1.1
   bugs:
@@ -7515,6 +7519,10 @@ gnome-subtitles:
   version: 1.2-4
   issues:
     - gcc_captures_build_path
+gnome-todo:
+  version: 3.28.0-1
+  issues:
+    - nondeterminstic_output_in_pkgconfig_files_generated_by_meson
 gnome-twitch:
   version: 0.3.1-1
   bugs:
@@ -12138,6 +12146,10 @@ libguestfs:
     - timestamps_in_tarball
     - captures_build_path
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
+libgweather:
+  version: 3.28.0-2
+  issues:
+    - nondeterminstic_output_in_pkgconfig_files_generated_by_meson
 libhamcrest-java:
   version: 1.3-6
   issues:
@@ -14501,6 +14513,8 @@ mesa:
     - build_path_captured_in_assembly_objects
 meson:
   version: 0.43.0-1
+  issues:
+    - nondeterminstic_output_in_pkgconfig_files_generated_by_meson
   bugs:
     - 880257
     - 884627
