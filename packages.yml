@@ -3730,6 +3730,10 @@ debdelta:
   issues:
     - timestamps_in_gzip_headers
     - different_due_to_umask
+debian-astro:
+  version: '1.2'
+  issues:
+    - timestamps_in_pdf_generated_by_inkscape
 debian-builder:
   version: 1.8
   issues:
