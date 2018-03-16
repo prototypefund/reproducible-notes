@@ -1306,8 +1306,6 @@ bash:
     - captures_build_path
     - records_build_flags
     - random_id_in_pdf_generated_by_dblatex
-  bugs:
-    - 806945
 batmon.app:
   version: 0.8-1
   issues:
@@ -5324,8 +5322,6 @@ fastd:
   version: 18-2
   issues:
     - captures_build_path
-  bugs:
-    - 886018
 fastjet:
   version: 3.0.6+dfsg-3
   issues:
@@ -5676,8 +5672,6 @@ firefox-esr:
     - captures_build_path
     - blacklisted_on_jenkins_armhf_only
     - ftbfs_in_jenkins_setup
-  bugs:
-    - 887778
 firehol:
   version: 2.0.1+ds-1
   issues:
@@ -12483,10 +12477,6 @@ libkgapi:
   version: 5.1.0-2
   issues:
     - build_id_differences_only
-libkkc:
-  version: 0.3.5-2
-  bugs:
-    - 890255
 libkml:
   version: 1.3.0-3
   issues:
@@ -16129,10 +16119,6 @@ norwegian:
   version: 2.0.10-5.2
   issues:
     - random_ispell_hash_files
-nose2:
-  version: 0.7.3-2
-  bugs:
-    - 889843
 nostalgy:
   version: 0.2.33-1
   comments: |
@@ -17870,10 +17856,6 @@ php-cache-lite:
   version: 1.7.16-2
   bugs:
     - 882888
-php-console-table:
-  version: 1.3.0-2
-  bugs:
-    - 889119
 php-crypt-chap:
   version: 1.5.0-2
   bugs:
@@ -27027,7 +27009,6 @@ uwsgi:
   issues:
     - timestamps_from_cpp_macros
   bugs:
-    - 884671
     - 892074
 uzbl:
   version: 0.0.0~git.20120514-1.2
@@ -27225,8 +27206,6 @@ visp:
   version: 3.0.0-4
   issues:
     - captures_build_path
-  bugs:
-    - 871414
 visualvm:
   version: 1.3.8-2
   comments: |
