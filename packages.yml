@@ -4775,10 +4775,6 @@ eigen3:
   issues:
     - blacklisted_on_jenkins_armhf_only
     - ftbfs_in_jenkins_setup
-eiskaltdcpp:
-  version: 2.2.9-6
-  bugs:
-    - 890507
 eja:
   version: 9.5.20-1
   comments: |
@@ -5645,10 +5641,6 @@ filler:
   issues:
     - timestamps_in_gzip_headers
     - timestamps_in_jar
-filters:
-  version: 2.55-1
-  bugs:
-    - 841394
 fimport:
   version: 3000.82-3
   issues:
@@ -5771,9 +5763,7 @@ flex:
     - random_id_in_pdf_generated_by_dblatex
   bugs:
     - 837658
-    - 840394
     - 841360
-    - 841394
 flex-old:
   version: 2.5.4a-10
   issues:
@@ -9194,10 +9184,6 @@ iem-plugin-suite:
   version: 1.0.1-2
   bugs:
     - 886430
-ifmail:
-  version: 2.14tx8.10-23
-  bugs:
-    - 888752
 ifrit:
   version: 4.1.2-5
   issues:
@@ -10135,10 +10121,6 @@ jts:
   version: 1.14+ds-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-juce:
-  version: 5.2.1~repack-1
-  bugs:
-    - 890036
 judy:
   version: 1.0.5-5
   comments: |
@@ -10789,10 +10771,6 @@ kmplot:
   version: 4:16.04.2-1
   issues:
     - gcc_captures_build_path
-kmymoney:
-  version: 4.8.0-2
-  bugs:
-    - 871373
 knewstuff:
   version: 5.28.0-1
   issues:
@@ -15065,10 +15043,6 @@ morsegen:
   version: 0.2.1-1
   bugs:
     - 782219
-motif:
-  version: 2.3.4-10
-  bugs:
-    - 840394
 mountpy:
   version: 0.8.1
   comments: |
@@ -15253,10 +15227,6 @@ multcomp:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
-multipath-tools:
-  version: 0.7.4-2
-  bugs:
-    - 885408
 multiverse-core:
   version: 0.7.0-3
   issues:
@@ -16914,8 +16884,6 @@ openclonk:
   version: 7.0-3
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 890264
 opencolorio:
   version: 1.0.9~dfsg0-6
   issues:
@@ -22802,10 +22770,6 @@ recordmydesktop:
   version: 0.3.8.1+svn602-1
   issues:
     - gcc_captures_build_path
-redeclipse:
-  version: 1.5.8-1
-  bugs:
-    - 887744
 redmine-recaptcha:
   version: 0.1.0+git20121018-3
   bugs:
@@ -22893,10 +22857,6 @@ reposurgeon:
   version: 3.42-2
   bugs:
     - 871163
-reptyr:
-  version: 0.6.2-1
-  bugs:
-    - 853640
 resample:
   version: 1.8.1-1
   issues:
@@ -23249,10 +23209,6 @@ rubiks:
   version: 20070912-2
   issues:
     - gcc_captures_build_path
-rubocop:
-  version: 0.51.0+dfsg-1
-  bugs:
-    - 888185
 ruby-allocations:
   version: 1.0.3-1
   issues:
@@ -25404,8 +25360,6 @@ starplot:
   version: 0.95.5-8.2
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 887769
 starpu:
   version: 1.1.4+dfsg-3
   comments: |
@@ -26370,8 +26324,6 @@ tkrat:
   version: 1:2.2cvs20100105-true-dfsg-6
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 828572
 tkrplot:
   version: 0.0.23-4
   issues:
