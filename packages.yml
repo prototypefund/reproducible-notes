@@ -149,10 +149,13 @@ activemq:
     - blacklisted_on_jenkins_armhf_only
   bugs:
     - 891114
+    - 893236
 activemq-activeio:
   version: 3.1.4-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 893219
 activemq-protobuf:
   version: 1.1-4
   issues:
@@ -214,6 +217,8 @@ adql:
   version: 1.3-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 893193
 advi:
   version: 1.10.2-2
   comments: |
@@ -266,6 +271,10 @@ afnix:
     https://sources.debian.net/src/afnix/2.2.0-2/src/lib/plt/acf/ccnf.cpp/?hl=373#L374-L379
   issues:
     - captures_kernel_version
+afterburner.fx:
+  version: 1.7.0-1
+  bugs:
+    - 893190
 afterstep:
   version: 2.2.12-8
   issues:
@@ -527,6 +536,8 @@ antlr3:
   version: 3.5.2-6
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 892760
 antlr3.2:
   version: 3.2-14
   issues:
@@ -559,6 +570,8 @@ aoflagger:
   version: 2.8.0-1
   issues:
     - build_id_differences_only
+  bugs:
+    - 893272
 aolserver4:
   version: 4.5.1-18
   issues:
@@ -868,6 +881,10 @@ arrayfire:
     - build_dir_in_documentation_generated_by_doxygen
   bugs:
     - 892288
+artemis:
+  version: 16.0.17+dfsg-3
+  bugs:
+    - 893184
 artikulate:
   version: 4:16.08.2-1
   issues:
@@ -1371,6 +1388,10 @@ bcftools:
     - 860682
     - 860704
     - 890704
+bcolz:
+  version: 1.1.0+ds1-5
+  bugs:
+    - 893273
 beanbag:
   version: 1.9.2-1.1
   bugs:
@@ -2401,6 +2422,7 @@ ceph:
     - blacklisted_on_jenkins_armhf_only
   bugs:
     - 791913
+    - 893149
 ceph-deploy:
   version: 2.0.0+dfsg1-1
   bugs:
@@ -2814,6 +2836,10 @@ cmake:
   version: 3.6.1-1
   issues:
     - gcc_captures_build_path
+cmdreader:
+  version: 1.5-1
+  bugs:
+    - 893182
 cmocka:
   version: 1.0.1-2
   issues:
@@ -3118,6 +3144,7 @@ conversant-disruptor:
   version: 1.2.8-1
   bugs:
     - 844088
+    - 893191
 convlit:
   version: 1.8-1
   issues:
@@ -3308,6 +3335,8 @@ csvjdbc:
   version: 1.0.31-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 893187
 csync2:
   version: 2.0-8-g175a01c-2
   issues:
@@ -3989,6 +4018,10 @@ dh-make-golang:
   version: 0.0~git20150913.0.1221041-1
   issues:
     - golang_compiler_captures_build_path_in_binary
+dh-python:
+  version: '2.20170125'
+  bugs:
+    - 893242
 dhcp-probe:
   version: 1.3.0-10.1
   issues:
@@ -4058,6 +4091,10 @@ dietlibc:
   version: 0.34~cvs20160606-6
   issues:
     - build_path_captured_in_assembly_objects
+diffoscope:
+  version: '91'
+  bugs:
+    - 893183
 diffstat:
   version: 1.61-1
   issues:
@@ -4217,6 +4254,10 @@ dnssec-trigger:
     - captures_shell_variable_in_autofoo_script
   bugs:
     - 833818
+dnssecjava:
+  version: 1.1.3-1
+  bugs:
+    - 893185
 doc-debian:
   version: 6.3
   bugs:
@@ -4288,6 +4329,8 @@ dogtag-pki:
   issues:
     - timestamps_in_jar
     - captures_build_path
+  bugs:
+    - 893142
 dojo:
   version: 1.11.0+dfsg-1
   bugs:
@@ -4455,6 +4498,10 @@ dumb-jump-el:
   version: 0.5.1-1
   bugs:
     - 891720
+dumbster:
+  version: 1.6+debian-3
+  bugs:
+    - 893141
 dummydroid:
   version: 1.1-1
   bugs:
@@ -4595,6 +4642,10 @@ e2tools:
   version: 0.0.16-6.1
   issues:
     - gcc_captures_build_path
+easyconf:
+  version: 0.9.5-5
+  bugs:
+    - 893143
 easymock:
   version: 3.4+ds-1
   issues:
@@ -4979,6 +5030,10 @@ ent:
   version: 1.2debian-1
   issues:
     - gcc_captures_build_path
+entagged:
+  version: 0.35-5
+  bugs:
+    - 893144
 enumerate:
   version: 111.08.00-2
   issues:
@@ -5279,6 +5334,10 @@ exabgp:
   version: 3.4.13-1
   issues:
     - captures_build_arch
+excalibur-logkit:
+  version: 2.0-11
+  bugs:
+    - 893145
 exim4:
   version: 4.87-3
   issues:
@@ -5905,6 +5964,10 @@ font-manager:
   version: 0.5.7-4
   issues:
     - captures_build_path
+fontawesomefx:
+  version: 8.9-1
+  bugs:
+    - 893194
 fontconfig:
   version: 2.11.0-6.7
   bugs:
@@ -6170,6 +6233,8 @@ fop:
   version: 1:2.1-5
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 893150
 foptions:
   version: 3022.85-2
   issues:
@@ -7055,6 +7120,10 @@ geos:
   version: 3.5.1-3
   issues:
     - gcc_captures_build_path
+geronimo-interceptor-3.0-spec:
+  version: 1.0.1-3
+  bugs:
+    - 893153
 geronimo-jpa-2.0-spec:
   version: 1.1-2
   issues:
@@ -7109,6 +7178,8 @@ gettext:
     https://sources.debian.net/src/gettext/0.19.7-2/gettext-runtime/intl-java/Makefile.am/#L48
   issues:
     - timestamps_in_jar
+  bugs:
+    - 892733
 gexiv2:
   version: 0.10.8-1
   comments: |
@@ -7300,6 +7371,10 @@ gl2ps:
   version: 1.4.0+dfsg1-1
   issues:
     - fonts_in_pdf_files
+glassfish:
+  version: 1:2.1.1-b31g+dfsg1-4
+  bugs:
+    - 875365
 glaurung:
   version: 2.2-2
   issues:
@@ -7553,6 +7628,10 @@ gnome-software:
   version: 3.22.5-1
   issues:
     - gcc_captures_build_path
+gnome-split:
+  version: 1.2-2
+  bugs:
+    - 893201
 gnome-subtitles:
   version: 1.2-4
   issues:
@@ -8269,6 +8348,7 @@ gradle:
     - captures_kernel_version
     - different_encoding
   bugs:
+    - 873227
     - 882181
 grafana:
   version: 2.6.0+dfsg-3
@@ -8369,6 +8449,8 @@ gridengine:
   issues:
     - timestamps_in_jar
     - timestamp_in_info_file_created_by_makeinfo
+  bugs:
+    - 875404
 grig:
   version: 0.8.1-1
   issues:
@@ -9043,6 +9125,8 @@ httpunit:
   version: 1.7+dfsg-12
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 893158
 httrack:
   version: 3.48.23-1
   issues:
@@ -9087,6 +9171,8 @@ hyperestraier:
   issues:
     - timestamps_in_jar
     - captures_build_path
+  bugs:
+    - 875369
 i2p:
   version: 0.9.30-4
   issues:
@@ -9181,6 +9267,10 @@ icu4j-4.2:
     https://sources.debian.net/src/icu4j-4.2/4.2.1.1-5/src/com/ibm/icu/dev/tool/index/IndexGenerator.java/?hl=60#L59-L62
   issues:
     - captures_build_path
+icu4j-49:
+  version: 49.1-2
+  bugs:
+    - 893179
 id-utils:
   version: 4.6+git20120811-4
   issues:
@@ -9578,6 +9668,8 @@ istack-commons:
   version: 2.17-1
   issues:
     - random_order_in_java_jar_manifest_mf
+  bugs:
+    - 893180
 italc:
   version: 1:2.0.2+dfsg1-4
   issues:
@@ -9679,6 +9771,8 @@ jackson-dataformat-yaml:
   version: 2.8.6-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 893220
 jackson-datatype-guava:
   version: 2.7.3-2
   issues:
@@ -9687,6 +9781,8 @@ jackson-datatype-joda:
   version: 2.8.5-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 893218
 jackson-jaxrs-providers:
   version: 2.7.3-1
   issues:
@@ -9778,6 +9874,10 @@ jargs:
   version: 1.0.0-4
   issues:
     - random_order_in_documentation_generated_by_javadoc
+jasmin-sable:
+  version: 2.5.0-1
+  bugs:
+    - 893181
 jasperreports:
   version: 6.2.2-3
   issues:
@@ -9835,6 +9935,8 @@ javassist:
   version: 1:3.12.1.ga-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 893196
 javatuples:
   version: 1.2-1
   issues:
@@ -9849,6 +9951,7 @@ jaxb:
     - random_order_in_documentation_generated_by_javadoc
   bugs:
     - 882525
+    - 893214
 jaxb-api:
   version: 2.2.9-1
   issues:
@@ -9893,10 +9996,16 @@ jcal:
   version: 0.4.1-2
   issues:
     - gcc_captures_build_path
+jcc:
+  version: 2.22-1
+  bugs:
+    - 875579
 jclic:
   version: 0.2.1.0-1
   issues:
     - user_in_java_jar_manifest
+  bugs:
+    - 875582
 jd:
   version: 1:2.8.9-150226-5
   issues:
@@ -9913,6 +10022,10 @@ jed:
   version: 1:0.99.19-7
   issues:
     - hevea_captures_build_path
+jedit:
+  version: 5.4.0+dfsg-2
+  bugs:
+    - 893210
 jekyll:
   version: 3.1.6+dfsg-3
   bugs:
@@ -9937,10 +10050,22 @@ jericho-html:
   version: 3.1-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 893205
+jets3t:
+  version: 0.8.1+dfsg-3
+  bugs:
+    - 893198
+jexcelapi:
+  version: 2.6.12-2
+  bugs:
+    - 893204
 jfractionlab:
   version: 0.91-3
   issues:
     - timestamps_in_jar
+  bugs:
+    - 893197
 jgit:
   version: 3.7.1-4
   issues:
@@ -9953,6 +10078,10 @@ jhbuild:
   version: 3.4.0-1
   issues:
     - captures_build_path
+jhdf:
+  version: 2.11.0+dfsg-3
+  bugs:
+    - 875584
 jigsaw-generator:
   version: 0.2.4-1
   issues:
@@ -10009,6 +10138,10 @@ joda-convert:
   version: 1.8.1-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+jodconverter-cli:
+  version: 2.2.2-9
+  bugs:
+    - 893215
 jodreports:
   version: 2.4.0-3
   comments: |
@@ -10060,6 +10193,7 @@ jruby:
   bugs:
     - 849217
     - 890592
+    - 893244
 jruby-openssl:
   version: 0.9.11-2
   issues:
@@ -10124,10 +10258,14 @@ jsoup:
   version: 1.10.2-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 893212
 jss:
   version: 4.3.1-6
   issues:
     - timestamps_in_jar
+  bugs:
+    - 893217
 jssip:
   version: 0.6.34-3
   comments: |
@@ -10147,6 +10285,8 @@ jta:
   version: 2.6+dfsg-6
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 893216
 jtharness:
   version: 5.0-2
   issues:
@@ -10697,6 +10837,10 @@ kimwitu-doc:
   version: 10a+1-2.2
   issues:
     - random_id_in_pdf_generated_by_dblatex
+king:
+  version: 2.23.161103+dfsg1-1
+  bugs:
+    - 893222
 kinit:
   version: 5.26.0-1
   issues:
@@ -10825,6 +10969,8 @@ knopflerfish-osgi:
   version: 5.1.0+dfsg1-2
   comments: |
     Embeds build dates into MANIFEST.MF and tstamp files in jar.
+  bugs:
+    - 893221
 knot:
   version: 1.6.3-1
   issues:
@@ -11472,6 +11618,8 @@ libapache-poi-java:
     more than that, alas.
   issues:
     - blacklisted_on_jenkins_armhf_only
+  bugs:
+    - 893250
 libapache2-mod-auth-mellon:
   version: 0.12.0-2
   issues:
@@ -11639,6 +11787,8 @@ libbluray:
   issues:
     - timestamps_in_ps_generated_by_dvips
     - random_id_in_pdf_generated_by_dblatex
+  bugs:
+    - 893227
 libbonobo:
   version: 2.32.1-3
   bugs:
@@ -11792,10 +11942,14 @@ libcommons-lang-java:
   version: 2.6-6
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 893229
 libcommons-lang3-java:
   version: 3.4-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 893231
 libcommons-net-java:
   version: 3.3-2
   comments: |
@@ -11806,6 +11960,7 @@ libcommons-validator-java:
   version: 1:1.4.1-1
   bugs:
     - 785515
+    - 893225
 libconfig:
   version: 1.5-0.2
   issues:
@@ -11919,6 +12074,10 @@ libdssialsacompat:
   version: 1.0.8a-1
   issues:
     - gcc_captures_build_path
+libdtdparser-java:
+  version: 1.21a-5
+  bugs:
+    - 893230
 libdv:
   version: 1.0.0-11
   issues:
@@ -12130,6 +12289,10 @@ libgnumail-java:
   version: 1.1.2-10
   issues:
     - random_order_in_documentation_generated_by_javadoc
+libgoogle-gson-java:
+  version: 2.4-2
+  bugs:
+    - 893238
 libgooglepinyin:
   version: 0.1.2-4
   issues:
@@ -12204,6 +12367,8 @@ libhibernate3-java:
   version: 3.6.10.Final-4
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 893240
 libhmsbeagle:
   version: 2.1.2+20160525-1
   issues:
@@ -12220,6 +12385,8 @@ libhtmlparser-java:
   version: 1.6.20060610.dfsg0-7
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 893243
 libical:
   version: 2.0.0-0.4
   issues:
@@ -12321,10 +12488,18 @@ libitext-java:
   version: 2.1.7-9
   issues:
     - randomness_in_gcj_output
+  bugs:
+    - 893241
+libitext1-java:
+  version: 1.4-6
+  bugs:
+    - 893249
 libitext5-java:
   version: 5.5.6-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 893260
 libitl:
   version: 0.7.0-3
   issues:
@@ -12341,6 +12516,8 @@ libjackson-json-java:
   version: 1.9.2-8
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 893239
 libjama:
   version: 1.2.4-2
   issues:
@@ -12354,6 +12531,8 @@ libjaxen-java:
   version: 1.1.6-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 893262
 libjaxp1.3-java:
   version: 1.3.05-2
   issues:
@@ -12363,10 +12542,20 @@ libjboss-marshalling-java:
   version: 1.1.3.GA-3
   issues:
     - random_order_in_documentation_generated_by_javadoc
+libjbzip2-java:
+  version: 0.9.1-3
+  bugs:
+    - 893247
 libjchart2d-java:
   version: 3.2.2+dfsg-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 893248
+libjdbm-java:
+  version: 1.0-2
+  bugs:
+    - 893252
 libjdns:
   version: 2.0.3-1
   issues:
@@ -12393,6 +12582,10 @@ libjfreechart-java:
   version: 1.0.19-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
+libjgoodies-looks-java:
+  version: 2.7.0-2
+  bugs:
+    - 893261
 libjgraph-java:
   version: 5.12.4.2+dfsg-5
   issues:
@@ -12401,6 +12594,10 @@ libjgraphx-java:
   version: 2.1.0.7-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+libjibx1.2-java:
+  version: 1.2.6-1
+  bugs:
+    - 893259
 libjlatexmath-java:
   version: 1.0.3-1
   issues:
@@ -12713,12 +12910,20 @@ libnanoxml2-java:
   version: 2.2.3.dfsg-5
   issues:
     - captures_build_path
+  bugs:
+    - 893268
+libnb-javaparser-java:
+  version: 7.4-1
+  bugs:
+    - 893264
 libnb-platform18-java:
   version: 8.0.2+dfsg1-1
   issues:
     - timestamps_in_pe_binaries
     - captures_build_path
     - different_encoding
+  bugs:
+    - 893270
 libncursesada:
   version: 5.9.20140726-1
   comments: |
@@ -12877,6 +13082,8 @@ libpal-java:
   version: 1.5.1+dfsg-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 893275
 libpam-blue:
   version: 0.9.0-3
   issues:
@@ -12922,6 +13129,8 @@ libpgjava:
   version: 9.4.1212-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 893274
 libpgm:
   version: 5.2.122~dfsg-2
   issues:
@@ -12992,6 +13201,10 @@ libprintsys:
   version: 0.6-13
   issues:
     - gcc_captures_build_path
+libproxool-java:
+  version: 0.9.1-9
+  bugs:
+    - 893269
 libproxy:
   version: 0.4.11-5
   issues:
@@ -24101,6 +24314,10 @@ sagetex:
   issues:
     - timestamps_in_tex_documents
     - max_output_size_reached
+sahara-dashboard:
+  version: 5.0.0-1
+  bugs:
+    - 893245
 sailcut:
   version: 1.3.6-1
   comments: |
@@ -26577,6 +26794,10 @@ trocla:
   version: 0.2.3-1
   bugs:
     - 854714
+trove-dashboard:
+  version: 7.0.0-3
+  bugs:
+    - 893246
 truffle:
   version: 0.6-2
   issues:
