@@ -1828,3 +1828,6 @@ timestamps_in_pdf_generated_by_inkscape:
     .
     Forwarded upstream here: https://gitlab.com/inkscape/inkscape/merge_requests/219
   url: https://bugs.debian.org/890280
+random_order_in_javahelper_manifest_files:
+  description: |
+    javahelper writes MANIFEST.MF files with non-determistic ordering.
