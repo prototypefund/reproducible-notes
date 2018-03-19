@@ -8503,7 +8503,6 @@ grub2:
     - captures_build_path
   bugs:
     - 787795
-    - 890431
 gsasl:
   version: 1.8.0-6
   issues:
@@ -18376,10 +18375,6 @@ picocom:
   version: 1.7-1
   issues:
     - gcc_captures_build_path
-picolisp:
-  version: 17.12-2
-  bugs:
-    - 889911
 picviz:
   version: 0.5-1
   comments: |
@@ -19290,10 +19285,6 @@ py-radix:
   version: 0.5-3
   issues:
     - gcc_captures_build_path
-py3c:
-  version: 0.9-1
-  bugs:
-    - 881905
 pyalsaaudio:
   version: 0.7-1
   issues:
@@ -23769,8 +23760,6 @@ ruby-gsl:
   version: 1.16.0.6+dfsg1-2
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 889023
 ruby-hamlit:
   version: 2.5.0+debian-1
   issues:
