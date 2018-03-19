@@ -1820,6 +1820,10 @@ bosixnet:
   version: 1.9-1
   issues:
     - gcc_captures_build_path
+botan:
+  version: 2.4.0-2
+  bugs:
+    - 893372
 botan1.10:
   version: 1.10.8-2
   comments: |
@@ -4008,6 +4012,10 @@ dfvfs:
   version: 20171230-1
   bugs:
     - 888139
+dh-dlang:
+  version: '0.3'
+  bugs:
+    - 893371
 dh-kpatches:
   version: 0.99.36+nmu3
   issues:
@@ -5397,6 +5405,10 @@ fabulous:
   version: 0.3.0+dfsg1-1
   issues:
     - captures_build_path
+facter:
+  version: 3.10.0-3
+  bugs:
+    - 893351
 fai:
   version: 4.3.2
   issues:
@@ -9568,6 +9580,10 @@ ipxe:
   version: 1.0.0+git-20150424.a25a16d-1
   comments: |
     incomplete patch here https://gist.github.com/lamby/dfcd18bdf8542a6b72598303817093d0
+ipykernel:
+  version: 4.8.2-2
+  bugs:
+    - 893385
 iqtree:
   version: 1.4.3+dfsg-1
   issues:
@@ -9914,6 +9930,14 @@ javacc-maven-plugin:
   bugs:
     - 887785
     - 888994
+javacc4:
+  version: 4.0-1
+  bugs:
+    - 893342
+javafxsvg:
+  version: 1.2.1-1
+  bugs:
+    - 893345
 javahelp2:
   version: 2.0.05.ds1-9
   issues:
@@ -9979,18 +10003,28 @@ jboss-logging-tools:
   version: 2.0.2-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 893356
 jboss-logmanager:
   version: 2.0.3-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 893357
 jboss-modules:
   version: 1.6.2-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+jboss-threads:
+  version: 2.3.1-1
+  bugs:
+    - 893358
 jboss-xnio:
   version: 3.4.0-1
   issues:
     - timestamps_manually_added_needs_further_investigation
+  bugs:
+    - 893359
 jcal:
   version: 0.4.1-2
   issues:
@@ -10105,6 +10139,8 @@ jmol:
   version: 14.6.4+2016.11.05+dfsg1-3
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 875585
 jnettop:
   version: 0.13.0-1
   issues:
@@ -11127,6 +11163,10 @@ krusader:
   version: 1:2.4.0~beta3-2
   issues:
     - gcc_captures_build_path
+kryo-serializers:
+  version: 0.22-3
+  bugs:
+    - 875594
 ksaneplugin:
   version: 4:16.08.0-1
   issues:
@@ -11847,6 +11887,10 @@ libcds-moc-java:
   version: 4.6-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+libcds-savot-java:
+  version: 4.0.0-1
+  bugs:
+    - 893344
 libcec:
   version: 2.1.4-2
   comments: |
@@ -12173,6 +12217,8 @@ libfreemarker-java:
   version: 2.3.23-6
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 893288
 libfreenect:
   version: 1:0.5.3-1
   issues:
@@ -12301,6 +12347,10 @@ libgpars-groovy-java:
   issues:
     - timestamps_in_documentation_generated_by_groovydoc
     - different_encoding
+libgpg-error:
+  version: 1.27-6
+  bugs:
+    - 893370
 libgpiv:
   version: 0.6.1-4.3
   issues:
@@ -12438,6 +12488,10 @@ libindicator:
   version: 0.5.0-3
   issues:
     - gcc_captures_build_path
+libinline-java-perl:
+  version: 0.58~dfsg-3
+  bugs:
+    - 893353
 libinnodb:
   version: 1.0.6.6750-1
   comments: |
@@ -12613,6 +12667,8 @@ libjogl2-java:
   version: 2.3.2+dfsg-5
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 893287
 libjpeg-turbo:
   version: 1:1.5.2-2
   issues:
@@ -12653,6 +12709,10 @@ libjsr311-api-java:
   version: 1.1.1-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+libjt400-java:
+  version: 9.0-1
+  bugs:
+    - 893341
 libjtds-java:
   version: 1.2.5+dfsg-3
   issues:
@@ -13242,6 +13302,10 @@ libquartz-java:
   version: 1:1.8.6-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+libquartz2-java:
+  version: 2.2.3-3
+  bugs:
+    - 893347
 libquazip:
   version: 0.7.2-1
   issues:
@@ -13377,12 +13441,16 @@ libsaxon-java:
   version: 1:6.5.5-10
   issues:
     - randomness_in_gcj_output
+  bugs:
+    - 893290
 libsbml:
   version: 5.10.0+dfsg-1
   issues:
     - timestamps_in_dvi_generated_by_latex
     - blacklisted_on_jenkins_armhf_only
     - timestamps_in_ps_generated_by_dvips
+  bugs:
+    - 893298
 libscout:
   version: 0.0~git20161124~dcd2a9e-1
   issues:
@@ -13473,6 +13541,10 @@ libstatgrab:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
+libstax-java:
+  version: 1.2.0-3
+  bugs:
+    - 893289
 libstroke:
   version: 0.5.1-7
   issues:
@@ -13481,6 +13553,10 @@ libstxxl:
   version: 1.4.1-2
   issues:
     - random_id_in_pdf_generated_by_dblatex
+libsvm:
+  version: 3.21+ds-1.1
+  bugs:
+    - 893291
 libswe-doc:
   version: 1.80.00.0001-1
   issues:
@@ -13631,6 +13707,8 @@ libusb-java:
   version: 0.8+ztex20090101-7
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 873992
 libusbtc08:
   version: 1.7.2-5
   bugs:
@@ -13674,6 +13752,8 @@ libvldocking-java:
   version: 2.1.4-4
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 893296
 libvmime:
   version: 0.9.1-6
   issues:
@@ -13730,6 +13810,8 @@ libxalan2-java:
   issues:
     - random_order_in_java_jar_manifest_mf
     - different_encoding
+  bugs:
+    - 893295
 libxbean-java:
   version: 4.4-1
   issues:
@@ -13741,6 +13823,8 @@ libxerces2-java:
   issues:
     - randomness_in_gcj_output
     - different_encoding
+  bugs:
+    - 893346
 libxml++2.6:
   version: 2.38.1-1
   bugs:
@@ -13757,6 +13841,8 @@ libxml-security-java:
   version: 1.5.8-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 893292
 libxmlenc-java:
   version: 0.52+dfsg-4
   issues:
@@ -13957,6 +14043,10 @@ live-manual:
     - different_due_to_umask
     - timestamps_in_epub
     - timestamps_in_pdf_content
+livetribe-jsr223:
+  version: 2.0.6-1
+  bugs:
+    - 893297
 lizardfs:
   version: 3.10.0+dfsg-1
   issues:
@@ -14058,6 +14148,10 @@ logidee-tools:
   version: 1.2.16
   issues:
     - fonts_in_pdf_files
+logisim:
+  version: 2.7.1~dfsg-1
+  bugs:
+    - 893301
 logol:
   version: 1.7.2-1
   issues:
@@ -14082,6 +14176,8 @@ lombok:
   issues:
     - timestamps_generated_by_mangosdk_spiprocessor
     - different_encoding
+  bugs:
+    - 893312
 londonlaw:
   version: 0.2.1-18
   issues:
@@ -14218,6 +14314,10 @@ lwipv6:
   version: 1.5a-2
   issues:
     - gcc_captures_build_path
+lwjgl:
+  version: 2.9.3+dfsg-1
+  bugs:
+    - 893302
 lxml:
   version: 3.6.0-1
   issues:
@@ -14558,6 +14658,10 @@ maven-compiler-plugin-2.5:
   version: 2.5.1-4
   issues:
     - random_order_in_documentation_generated_by_javadoc
+maven-debian-helper:
+  version: 2.3~exp1
+  bugs:
+    - 893343
 maven-dependency-tree:
   version: 2.1-1
   issues:
@@ -14574,6 +14678,10 @@ maven-jar-plugin:
   version: 2.4-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+maven-processor-plugin:
+  version: 3.3.2-1
+  bugs:
+    - 893355
 maven-reporting-impl:
   version: 2.3-1
   issues:
@@ -14848,6 +14956,10 @@ mimetic:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
+mina:
+  version: 1.1.7.dfsg-11
+  bugs:
+    - 893376
 mina2:
   version: 2.0.13-1
   issues:
@@ -15005,6 +15117,10 @@ moarvm:
     - gcc_captures_build_path
   bugs:
     - 888582
+mobile-atlas-creator:
+  version: 1.9.16+dfsg1-1
+  bugs:
+    - 874159
 moblin-icon-theme:
   version: 0.10.0-1
   bugs:
@@ -15347,6 +15463,8 @@ mp4parser:
   version: 1.0.4.2-1
   issues:
     - captures_build_path
+  bugs:
+    - 893378
 mpdcon.app:
   version: 1.1.99-5
   issues:
@@ -15676,6 +15794,8 @@ naga:
   version: 3.0+svn80-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 893379
 nagios-nrpe:
   version: 2.15-1
   comments: |
@@ -15835,6 +15955,10 @@ neovim:
     Also captures username.
   issues:
     - captures_build_path
+nescc:
+  version: 1.3.5-1
+  bugs:
+    - 873995
 net-snmp:
   version: 5.7.3+dfsg-1.4
   issues:
@@ -15990,6 +16114,8 @@ nexus:
   version: 4.3.2-svn1921-2
   issues:
     - timestamps_in_jar
+  bugs:
+    - 893383
 nfft:
   version: 3.3.2~rc2-2
   comments: |
@@ -16962,6 +17088,7 @@ ognl:
   version: 2.7.3-6
   bugs:
     - 801855
+    - 893380
 ogre-1.9:
   version: 1.9.0+dfsg1-7
   issues:
@@ -17255,6 +17382,8 @@ openjpa:
   version: 2.4.0-4
   issues:
     - nondeterministic_java_bytecode
+  bugs:
+    - 893384
 openjpeg2:
   version: 2.1.1-1
   issues:
@@ -17348,6 +17477,10 @@ openstack-trove:
   version: 1:8.0.0-4
   bugs:
     - 892757
+openstereogram:
+  version: 0.1+20080921-2
+  bugs:
+    - 893381
 opensurgsim:
   version: 0.7.0-5
   issues:
@@ -17503,6 +17636,8 @@ osgi-foundation-ee:
   version: 4.2.0-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 893382
 osm2pgrouting:
   version: 2.2.0-1
   issues:
@@ -18007,6 +18142,8 @@ pescetti:
   version: 0.5-1
   issues:
     - random_id_in_pdf_generated_by_dblatex
+  bugs:
+    - 874005
 petri-foo:
   version: 0.1.87-3
   issues:
@@ -18470,6 +18607,8 @@ pixelmed:
   issues:
     - captures_build_path
     - different_encoding
+  bugs:
+    - 893409
 pk4:
   version: 5
   bugs:
@@ -18628,6 +18767,10 @@ plip:
   version: 1.3.3+dfsg-1
   issues:
     - help2man_puts_traceback_in_generated_man_page
+plm:
+  version: 2.6+repack-3
+  bugs:
+    - 874151
 plopfolio.app:
   version: 0.1.0-6
   issues:
@@ -18708,6 +18851,10 @@ polspline:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
+polyglot-maven:
+  version: 0.8~tobrien+git20120905-8
+  bugs:
+    - 893410
 polylib:
   version: 5.22.5-3+dfsg
   issues:
@@ -18938,6 +19085,10 @@ prelink:
   version: 0.0.20130503-1.1
   issues:
     - gcc_captures_build_path
+preload:
+  version: 0.6.4-2
+  bugs:
+    - 893374
 preprepare:
   version: 0.7-3
   issues:
@@ -19616,6 +19767,10 @@ pytest-catchlog:
   version: 1.2.2+git20170915-3
   bugs:
     - 892633
+pytest-tornado:
+  version: 0.4.5-2
+  bugs:
+    - 893293
 pythia8:
   version: 8.1.86-1.1
   issues:
@@ -23252,6 +23407,8 @@ robocode:
   version: 1.9.2.5-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 893415
 roboptim-core:
   version: 2.0-7.1
   bugs:
@@ -24064,6 +24221,8 @@ ruby-rjb:
   version: 1.5.3-2
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 874146
 ruby-rmagick:
   version: 2.16.0-2
   bugs:
@@ -24317,6 +24476,10 @@ saint:
   version: 2.5.0+dfsg-2
   issues:
     - gcc_captures_build_path
+salliere:
+  version: 0.10-2
+  bugs:
+    - 874006
 salmon:
   version: 0.4.2+ds1-2
   issues:
@@ -24389,6 +24552,10 @@ sasview:
     HTML output fixed in 885853 but PDF output still to be fixed.
   issues:
     - randomness_in_documentation_generated_by_sphinx
+sat4j:
+  version: 2.3.5-0.2
+  bugs:
+    - 893411
 sauce:
   version: 0.9.0+nmu3
   issues:
@@ -24411,6 +24578,8 @@ saxonb:
   version: 9.1.0.8+dfsg-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 893412
 saxonhe:
   version: 9.8.0.8+dfsg+1-1
   bugs:
@@ -24429,6 +24598,8 @@ scala:
     - timestamps_in_maven_version_files
     - blacklisted_on_jenkins_armhf_only
     - different_encoding
+  bugs:
+    - 873705
 scala-parser-combinators:
   version: 1.0.3-3
   issues:
@@ -24725,6 +24896,10 @@ sexplib310:
     - captures_build_path
   bugs:
     - 877496
+sezpoz:
+  version: 1.10-2
+  bugs:
+    - 893416
 sfcgal:
   version: 1.2.2-1
   issues:
@@ -25457,6 +25632,10 @@ splint:
   version: 3.1.2.dfsg1-3
   comments: |
     Username/hostname/kernel version captured in LCL_COMPILE in configure(.ac) and configure.binary(.ac).
+spock:
+  version: 0.7-groovy-2.0-3
+  bugs:
+    - 893417
 spooles:
   version: 2.2-11
   comments: |
@@ -25580,6 +25759,10 @@ ssmtp:
     - timestamps_in_gzip_headers
   bugs:
     - 777398
+ssvnc:
+  version: 1.0.29-3
+  bugs:
+    - 874004
 st:
   version: 1.9-3.1
   bugs:
@@ -25702,6 +25885,10 @@ strucchange:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
+stylebook:
+  version: 1.0~b3~svn20061109-6
+  bugs:
+    - 893419
 stymulator:
   version: 0.21a~dfsg-1
   issues:
@@ -25924,6 +26111,7 @@ swi-prolog:
     - records_build_flags
   bugs:
     - 887155
+    - 893421
 swift-im:
   version: 3.0.4-1
   bugs:
@@ -25948,6 +26136,8 @@ swt-gtk:
     (this could be the result of 'mktemp /tmp/fileXXXXXX' or an equivalent mktemp(3) call)
   issues:
     - randomness_in_gcj_output
+  bugs:
+    - 893420
 swtchart:
   version: 0.8.0-1
   issues:
