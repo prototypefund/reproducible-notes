@@ -521,6 +521,9 @@ ant:
     - 851025
     - 851036
     - 851040
+    - 893530
+    - 893531
+    - 893547
 antelope:
   version: 3.5.1-3
   issues:
@@ -6764,6 +6767,8 @@ gauche-gtk:
   version: 0.6~pre1+git20121223-1
   issues:
     - records_build_flags
+  bugs:
+    - 891299
 gaupol:
   version: 1.3.1-1
   issues:
@@ -7589,6 +7594,8 @@ gnome-do:
   version: 0.95.3-1
   issues:
     - timestamps_in_pe_binaries
+  bugs:
+    - 892564
 gnome-do-plugins:
   version: 0.8.5-3
   comments: |
@@ -10318,6 +10325,8 @@ jsxgraph:
   issues:
     - timestamps_in_zip
     - timestamps_in_jsdoc_toolkit_documentation
+  bugs:
+    - 893607
 jta:
   version: 2.6+dfsg-6
   issues:
@@ -11486,6 +11495,8 @@ lcm:
   issues:
     - captures_shell_variable_in_autofoo_script
     - records_build_flags
+  bugs:
+    - 893552
 lcms2:
   version: 2.8.4
   comments: |
@@ -20427,6 +20438,12 @@ python-tidylib:
   version: 0.3.1~dfsg-1
   issues:
     - random_id_in_pdf_generated_by_dblatex
+python-tornado:
+  version: 5.0.0-1
+  bugs:
+    - 893360
+    - 893385
+    - 893474
 python-traits:
   version: 4.6.0-1
   bugs:
@@ -23083,6 +23100,10 @@ rally:
   version: 0.2.0-1.2
   bugs:
     - 881209
+range-v3:
+  version: 0.3.5-1
+  bugs:
+    - 893554
 rapache:
   version: 1.2.8-1
   issues:
@@ -27690,6 +27711,8 @@ visualvm:
   version: 1.3.8-2
   comments: |
     Timestamps in MANIFEST.MF: OpenIDE-Module-Implementation-Version
+  bugs:
+    - 893553
 vite:
   version: 1.2+svn1430-2
   issues:
