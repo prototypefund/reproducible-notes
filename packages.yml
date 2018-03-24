@@ -2681,8 +2681,6 @@ citadel:
   version: 902-3
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 891015
 citus:
   version: 5.1.1-1
   issues:
@@ -6773,7 +6771,6 @@ gazebo:
   issues:
     - build_id_differences_only
   bugs:
-    - 887931
     - 891646
 gb:
   version: 0.4.2-1
@@ -14851,9 +14848,7 @@ meson:
     - nondeterminstic_output_in_pkgconfig_files_generated_by_meson
   bugs:
     - 880257
-    - 884627
     - 884628
-    - 884629
     - 888779
     - 888780
 metapixel:
