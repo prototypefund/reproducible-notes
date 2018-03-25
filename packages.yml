@@ -1115,6 +1115,8 @@ automake-1.15:
   issues:
     - timestamps_in_manpages_generated_by_help2man
     - captures_shell_variable_in_autofoo_script
+  bugs:
+    - 892533
 automake1.11:
   version: 1:1.11.6-3
   issues:
@@ -12444,6 +12446,10 @@ libident:
   version: 0.22-3
   issues:
     - timestamps_in_gzip_headers
+libidn:
+  version: 1.33-2.1
+  bugs:
+    - 892540
 libidn2-0:
   version: 0.10-3
   comments: |
