@@ -6684,7 +6684,6 @@ gap-float:
 gap-gapdoc:
   version: 1.5.1-2
   issues:
-    - timestamps_in_gzip_headers
     - pdf_id_varying_due_to_build_path
 gap-grape:
   version: 4r7+ds-3
@@ -23209,10 +23208,6 @@ refpolicy:
   version: 2:2.20140421-7
   issues:
     - random_order_in_tarball
-regina-normal:
-  version: 4.96-3
-  issues:
-    - captures_build_path
 regina-rexx:
   version: 3.6-2
   issues:
@@ -24713,8 +24708,6 @@ scim-skk:
     - gcc_captures_build_path
 scim-unikey:
   version: 0.3.1+debian-3.1
-  issues:
-    - captures_build_path
   bugs:
     - 811766
     - 831158
