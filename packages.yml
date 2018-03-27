@@ -1523,6 +1523,10 @@ binaryornot:
   version: 0.4.0-1
   bugs:
     - 854084
+bind-dyndb-ldap:
+  version: 11.1-1
+  bugs:
+    - 894091
 bind9:
   version: 1:9.10.3.dfsg.P4-10
   comments: |
@@ -9624,6 +9628,10 @@ isakmpd:
   version: 20041012-7.3
   issues:
     - gcc_captures_build_path
+isc-dhcp:
+  version: 4.3.5-3.1
+  bugs:
+    - 894093
 isc-kea:
   version: 1.0.0-4
   comments: |
@@ -15817,6 +15825,10 @@ nautilus-image-converter:
   version: 0.3.1~git20110416-1
   issues:
     - gcc_captures_build_path
+nautilus-image-manipulator:
+  version: 1.3-2
+  bugs:
+    - 866443
 navit:
   version: 0.5.0+dfsg.1-1
   issues:
@@ -19336,6 +19348,10 @@ pugl:
   version: 0~svn32+dfsg0-2
   issues:
     - gcc_captures_build_path
+pulseaudio:
+  version: 11.1-4
+  bugs:
+    - 894104
 pulseview:
   version: 0.2.0-1.2
   issues:
@@ -20204,6 +20220,10 @@ python-pip:
   version: 8.1.2-2
   issues:
     - nondeterminstic_ordering_in_python_wheel_metadata_versions
+python-pkginfo:
+  version: 1.4.2-1
+  bugs:
+    - 894107
 python-poppler:
   version: 0.12.1-8.1
   issues:
@@ -20429,6 +20449,10 @@ python-zake:
   version: 0.1.6-1
   bugs:
     - 892746
+python-zeep:
+  version: 2.4.0-1
+  bugs:
+    - 893948
 python2.7:
   version: 2.7.10-2
   comments: |
