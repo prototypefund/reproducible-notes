@@ -2044,6 +2044,8 @@ buzztrax:
   version: 0.10.2-4
   issues:
     - captures_build_path_via_assert
+  bugs:
+    - 894149
 bwbasic:
   version: 2.20pl2-11
   issues:
@@ -13480,6 +13482,8 @@ libspring-java:
   version: 4.3.2-1
   issues:
     - captures_build_path
+  bugs:
+    - 874655
 libsrtp2:
   version: 2.0.0+20170123-1
   issues:
@@ -17321,6 +17325,7 @@ openjfx:
     - blacklisted_on_jenkins_armhf_only
   bugs:
     - 850921
+    - 874132
     - 893190
     - 893194
     - 893345
@@ -17478,6 +17483,10 @@ openvas-scanner:
   version: 5.0.7-3
   issues:
     - gcc_captures_build_path
+openvdb:
+  version: 5.0.0-1
+  bugs:
+    - 894151
 openvswitch:
   version: 2.5.1~pre+git20160626-2
   issues:
@@ -18787,6 +18796,10 @@ poe.app:
   version: 0.5.1-5
   issues:
     - gcc_captures_build_path
+policykit-1:
+  version: 0.105-18
+  bugs:
+    - 894205
 polkit-qt-1:
   version: 0.112.0-5
   issues:
@@ -20369,6 +20382,10 @@ python-tempest-lib:
   version: 0.14.0-3
   bugs:
     - 892747
+python-testing.mysqld:
+  version: 1.4.0-2
+  bugs:
+    - 894234
 python-tidylib:
   version: 0.3.1~dfsg-1
   issues:
@@ -23130,6 +23147,10 @@ rdist:
   version: 6.1.5-18
   issues:
     - gcc_captures_build_path
+rdkit:
+  version: 201603.5+dfsg-1
+  bugs:
+    - 894202
 rdp-classifier:
   version: 2.10.2-1
   issues:
@@ -24858,6 +24879,10 @@ setools:
     order depends of filesystem or locale in libqpol_a_LIBADD ?
   issues:
     - random_order_in_static_libraries
+setuptools-scm:
+  version: 1.15.6-1
+  bugs:
+    - 894198
 sexplib310:
   version: 111.25.00-1
   issues:
@@ -25322,6 +25347,8 @@ snakemake:
   version: 3.7.1+dfsg-1
   issues:
     - captures_build_path
+  bugs:
+    - 894213
 snakeyaml:
   version: 1.17-1
   issues:
@@ -26468,6 +26495,8 @@ telepathy-qt:
   version: 0.9.6.1-6.1
   issues:
     - build_id_differences_only
+  bugs:
+    - 894154
 tempest-for-eliza:
   version: 1.0.5-2
   issues:
