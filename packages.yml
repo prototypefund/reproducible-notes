@@ -722,8 +722,6 @@ apper:
   issues:
     - captures_build_path_via_assert
     - build_id_differences_only
-  bugs:
-    - 888155
 appmenu-qt:
   version: 0.2.6-2
   issues:
@@ -2419,10 +2417,6 @@ cen64:
   version: 0.3+git20160403-1
   issues:
     - gcc_captures_build_path
-cen64-qt:
-  version: 20160829-alpha-1
-  bugs:
-    - 887530
 ceph:
   version: 10.2.5-7.2
   comments: |
@@ -3816,10 +3810,6 @@ debian-builder:
     - timestamps_in_gzip_headers
   bugs:
     - 777009
-debian-design:
-  version: 3.0.7
-  bugs:
-    - 881037
 debian-edu-doc:
   version: 1.6~20150422~8+edu0~beta1
   issues:
@@ -3854,10 +3844,6 @@ debian-installer-netboot-images:
   issues:
     - needs_internet_access_to_build
     - ftbfs_in_jenkins_setup
-debian-parl:
-  version: 1.9.10
-  bugs:
-    - 881036
 debian-policy:
   version: 3.9.7.0
   issues:
@@ -3961,10 +3947,6 @@ derivations:
     - timestamps_in_ps_generated_by_dvips
   bugs:
     - 884476
-designate:
-  version: 1:5.0.0-4
-  bugs:
-    - 889315
 desklaunch:
   version: 1.1.8
   issues:
@@ -4173,10 +4155,6 @@ django-hijack:
   version: 2.0.7-2
   bugs:
     - 828648
-django-modeltranslation:
-  version: 0.11-1
-  bugs:
-    - 834667
 django-polymorphic:
   version: 1.3-1
   issues:
@@ -7909,10 +7887,6 @@ golang-github-cyberdelia-go-metrics-graphite:
   version: 0.0~git20151204.0.7e54b5c-1
   bugs:
     - 851315
-golang-github-d4l3k-messagediff:
-  version: 1.1.0-1
-  bugs:
-    - 866175
 golang-github-dcso-bloom:
   version: 0.2.0-1
   issues:
@@ -8012,10 +7986,6 @@ golang-github-minio-cli:
   version: 1.3.0+git20170313.0.8683fa7-1
   bugs:
     - 869190
-golang-github-minio-minio-go:
-  version: 2.0.2-1
-  bugs:
-    - 866172
 golang-github-mxk-go-flowrate:
   version: 0.0~git20140419.0.cca7078-1
   bugs:
@@ -8121,10 +8091,6 @@ golang-golang-x-tools:
   version: 1:0.0~git20160315.0.f42ec61-2
   issues:
     - golang_compiler_captures_build_path_in_binary
-golang-google-cloud:
-  version: 0.9.0-3
-  bugs:
-    - 891356
 golang-gopkg-ini.v1:
   version: 1.8.5-1
   comments: |
@@ -16163,8 +16129,6 @@ nfs-utils:
   version: 1:1.2.8-9.2
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 887695
 ngetty:
   version: 1.1-3
   bugs:
@@ -23917,10 +23881,6 @@ ruby-grib:
   version: 0.3.0-1
   issues:
     - gcc_captures_build_path
-ruby-grpc:
-  version: 1.3.2+debian-3
-  bugs:
-    - 873440
 ruby-gsl:
   version: 1.16.0.6+dfsg1-2
   issues:
@@ -27758,8 +27718,6 @@ voms-api-java:
   version: 3.2.0-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-  bugs:
-    - 891217
 vorbis-tools:
   version: 1.4.0-10
   issues:
