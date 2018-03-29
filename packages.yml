@@ -455,6 +455,7 @@ android-framework-23:
   version: 6.0.1+r72-3
   bugs:
     - 891548
+    - 894285
 android-platform-build:
   version: 1:7.0.0+r33-1
   bugs:
@@ -463,6 +464,10 @@ android-platform-frameworks-base:
   version: 1:7.0.0+r33-1
   bugs:
     - 853311
+android-platform-frameworks-data-binding:
+  version: 2.2.2-2
+  bugs:
+    - 894287
 android-platform-libcore:
   version: 6.0.1+r10-1
   issues:
@@ -479,6 +484,10 @@ android-platform-system-extras:
   version: 7.0.0+r33-1
   bugs:
     - 892170
+android-platform-tools-base:
+  version: 2.2.2-3
+  bugs:
+    - 894284
 android-platform-tools-swt:
   version: 2.0.0-1
   bugs:
@@ -9063,6 +9072,8 @@ htsjdk:
   version: 2.8.1+dfsg-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 894289
 htslib:
   version: 1.3.1-2
   issues:
@@ -9437,6 +9448,8 @@ insubstantial:
   version: 7.3+dfsg3-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 894288
 integrit:
   version: 4.1-1
   issues:
@@ -9682,6 +9695,9 @@ jabref:
   version: 3.6+ds-1
   issues:
     - captures_build_path
+  bugs:
+    - 890905
+    - 894293
 jacal:
   version: 1b9-6
   issues:
@@ -9942,6 +9958,10 @@ jaxe:
   version: 3.5-8
   issues:
     - random_order_in_documentation_generated_by_javadoc
+jayway-jsonpath:
+  version: 2.0.0-3
+  bugs:
+    - 894292
 jblas:
   version: 1.2.3-6
   issues:
@@ -19093,6 +19113,10 @@ probabel:
   version: 0.4.5-3
   issues:
     - random_id_in_pdf_generated_by_dblatex
+procyon:
+  version: 0.5.32-2
+  bugs:
+    - 894286
 proftpd-dfsg:
   version: 1.3.5-1.1
   comments: |
@@ -19755,6 +19779,10 @@ python-asdf:
   version: 1.1.0-3
   issues:
     - randomness_in_documentation_generated_by_sphinx
+python-asgi-ipc:
+  version: 1.4.2-2
+  bugs:
+    - 894258
 python-asyncssh:
   version: 1.2.0-1
   issues:
