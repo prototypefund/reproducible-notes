@@ -707,6 +707,10 @@ apitrace:
   version: 7.1+git20160531.2d78bef0+repack-1.1
   issues:
     - gcc_captures_build_path
+apktool:
+  version: 2.3.1+dfsg-1
+  bugs:
+    - 894330
 aplus-fsf:
   version: 4.22.1-7
   issues:
@@ -6987,6 +6991,8 @@ gdcm:
   version: 2.6.5-2
   issues:
     - fonts_in_pdf_files
+  bugs:
+    - 894371
 gdesklets:
   version: 0.36.1-7
   issues:
@@ -13443,6 +13449,10 @@ libsm:
   version: 2:1.2.2-1
   bugs:
     - 812899
+libsmali-java:
+  version: 2.2.2-1
+  bugs:
+    - 894331
 libsmbios:
   version: 2.3.0-1
   issues:
@@ -18460,6 +18470,8 @@ picard-tools:
   version: 1.138+dfsg.1-1
   issues:
     - random_order_in_javahelper_substvars
+  bugs:
+    - 894329
 picmi:
   version: 4:16.04.0-1
   issues:
@@ -20394,10 +20406,16 @@ python-skbio:
   version: 0.4.2-1
   comments: |
     Differences in PNG images and random order in documentation.
+  bugs:
+    - 894326
 python-smbpasswd:
   version: 1.0.1-1.3
   issues:
     - gcc_captures_build_path
+python-sponge:
+  version: 0.3.1-1.1
+  bugs:
+    - 866470
 python-sqlalchemy-utils:
   version: 0.32.21-1
   issues:
