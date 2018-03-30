@@ -365,13 +365,6 @@ randomness_in_html_generated_by_texi2html:
     texi2html's output varies, probably because of elements being processed
     in Perl hash order.
   url: https://wiki.debian.org/ReproducibleBuilds/RandomnessInHTMLGeneratedByTexi2html
-randomness_in_gcj_output:
-  description: |
-    gcj's output varies, cause unknown. gcj is deprecated, and has been removed from
-    gcc-7. Neither upstream or (I believe) the Debian packaging team have any interest
-    in maintaining it; hopefully it will be removed and all of these packages will move
-    to a normal Java implementation, or be removed too.
-  url: https://wiki.debian.org/ReproducibleBuilds/RandomnessInBuildIdGeneratedByGcj
 python_wheel_package:
   description: |
     Wheel is embedding timestamps into whl files. The timestamp can be overridden
@@ -1689,10 +1682,6 @@ gcc_captures_build_path:
     When this is accepted into GCC upstream, we could remove this note.
     In the meantime, please do not remove this issue, nor mark it as deterministic,
     nor untag these packages.
-  deterministic: False
-gcj_captures_build_path:
-  description: |
-    Captures build path, e.g., /build/1st/foo-42.0 v. /build/foo-42.0/2nd
   deterministic: False
 ocaml_captures_build_path:
   description: |

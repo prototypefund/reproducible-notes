@@ -519,8 +519,6 @@ ann:
     - captures_shell_variable_in_autofoo_script
 ant:
   version: 1.9.4-3
-  issues:
-    - randomness_in_gcj_output
   bugs:
     - 850992
     - 851025
@@ -6884,12 +6882,6 @@ gcc-avr:
     - different_due_to_umask
 gcc-defaults:
   version: 1.135
-  comments: |
-    Randomness in CA certificates bundle
-    .
-    gkeytool (src:gcj-6-jre-headless) called here https://sources.debian.net/src/gcc-defaults/1.163/debian/generate-cacerts.pl.in/#L94
-    .
-    Uses a random salt when adding.
   bugs:
     - 878338
 gcc-h8300-hms:
@@ -12500,8 +12492,6 @@ libisrt-java:
     - random_order_in_documentation_generated_by_javadoc
 libitext-java:
   version: 2.1.7-9
-  issues:
-    - randomness_in_gcj_output
   bugs:
     - 893241
 libitext1-java:
@@ -12550,7 +12540,6 @@ libjaxen-java:
 libjaxp1.3-java:
   version: 1.3.05-2
   issues:
-    - randomness_in_gcj_output
     - captures_build_path
 libjboss-marshalling-java:
   version: 1.1.3.GA-3
@@ -13400,8 +13389,6 @@ librsvg:
     - 886239
 libsaxon-java:
   version: 1:6.5.5-10
-  issues:
-    - randomness_in_gcj_output
   bugs:
     - 893290
 libsbml:
@@ -13788,7 +13775,6 @@ libxbean-java:
 libxerces2-java:
   version: 2.11.0-7
   issues:
-    - randomness_in_gcj_output
     - different_encoding
   bugs:
     - 893346
@@ -13796,10 +13782,6 @@ libxml++2.6:
   version: 2.38.1-1
   bugs:
     - 812895
-libxml-commons-resolver1.1-java:
-  version: 1.2-7
-  issues:
-    - randomness_in_gcj_output
 libxml-saxon-xslt2-perl:
   version: 0.010-2
   bugs:
@@ -18036,8 +18018,6 @@ pdftk:
     Random classpath is used:
     │ -    <b801b>   DW_AT_producer    : (indirect string, offset: 0x98f1a): GNU Java 6.3.0 20161229 [...] -faux-classpath /tmp/ccskE174.zip
     │ +    <b801b>   DW_AT_producer    : (indirect string, offset: 0x894a4): GNU Java 6.3.0 20161229 [...] -faux-classpath /tmp/ccxzjNBg.zip
-  issues:
-    - randomness_in_gcj_output
   bugs:
     - 853608
 pdmenu:
@@ -24518,10 +24498,6 @@ s3d:
   version: 0.2.2-14
   issues:
     - build_id_differences_only
-sacjava:
-  version: 1.3-6
-  issues:
-    - randomness_in_gcj_output
 safe-hole-perl:
   version: 0.13-1.1
   issues:
@@ -26236,8 +26212,6 @@ swt-gtk:
   comments: |
     DWARF debug symbols include a temporary filename in DW_AT_producer = ... -fsource-filename=/tmp/fileMke5E8
     (this could be the result of 'mktemp /tmp/fileXXXXXX' or an equivalent mktemp(3) call)
-  issues:
-    - randomness_in_gcj_output
   bugs:
     - 893420
 swtchart:
