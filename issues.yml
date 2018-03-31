@@ -738,7 +738,7 @@ randomness_in_python_setuptools_requires_txt:
     python-setuptools generates requires.txt files with contents in arbitrary
     order.
   url: https://bugs.debian.org/804249
-randomness_in_python_setuptools_pkg_info_provides_extra:
+randomness_in_python_setuptools_pkg_info:
   description: |
     python-setuptools from 39.0.1 onwards generates PKG-INFO files with
     non-deterministic Provides-Extra vars.
