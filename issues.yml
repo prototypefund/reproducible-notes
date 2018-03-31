@@ -741,7 +741,7 @@ randomness_in_python_setuptools_requires_txt:
 randomness_in_python_setuptools_pkg_info:
   description: |
     python-setuptools from 39.0.1 onwards generates PKG-INFO files with
-    non-deterministic Provides-Extra vars.
+    non-deterministic Provides-Extra and Keywords vars.
   url: https://bugs.debian.org/894215
 timezone_variance_because_of_automake_mdate:
   description: |
