@@ -9313,16 +9313,6 @@ ike:
     source/iked/ike.io.admin.cpp:647:					if( msg.get_suspend( &suspend ) != IPCERR_OK )
   issues:
     - build_id_differences_only
-ikiwiki:
-  version: 3.20160506
-  comments: |
-    When a directive and a plugin have the same name, their order in the index is unpredictable.  Examples:
-    
-    ./doc/plugins/contrib/ikiwiki/directive/album.mdwn
-    ./doc/plugins/contrib/album.mdwn
-    
-    ./doc/plugins/contrib/asymptote/ikiwiki/directive/asymptote.mdwn
-    ./doc/plugins/contrib/asymptote.mdwn
 ikiwiki-hosting:
   version: 0.20160811
   issues:
