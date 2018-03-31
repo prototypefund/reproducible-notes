@@ -8571,10 +8571,6 @@ gtk-sharp3:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
-gtk-theme-config:
-  version: 1.0-1
-  issues:
-    - gcc_captures_build_path
 gtk2-engines:
   version: 1:2.20.2-3
   issues:
@@ -15270,10 +15266,6 @@ monodevelop:
   version: 5.5.0.227-1
   issues:
     - timestamps_in_pe_binaries
-monogame:
-  version: 2.5.1+dfsg-4
-  bugs:
-    - 765120
 monotone:
   version: 1.1-4.1
   comments: |
