@@ -772,6 +772,10 @@ aprx:
     $(DATE) ends up in the man page; $(RFCDATE) is unused.
   bugs:
     - 854111
+apscheduler:
+  version: 3.5.1-1
+  issues:
+    - randomness_in_python_setuptools_pkg_info
 apt:
   version: 1.4.2
   issues:
@@ -19213,6 +19217,10 @@ properties-cpp:
   version: 0.0.1~bzr17+repack1-1
   bugs:
     - 883339
+prospector:
+  version: 0.12.7-2
+  issues:
+    - randomness_in_python_setuptools_pkg_info
 protobuf:
   version: 3.0.0-9
   bugs:
@@ -19422,6 +19430,10 @@ pydl:
   version: 0.6.0-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
+pyeapi:
+  version: 0.8.1-1
+  issues:
+    - randomness_in_python_setuptools_pkg_info
 pyentropy:
   version: 0.4.1-2
   bugs:
@@ -19668,6 +19680,10 @@ pyregion:
   version: 1.1.4-2
   issues:
     - random_order_in_python_environment_pickle
+pyresample:
+  version: 1.8.3-1
+  issues:
+    - randomness_in_python_setuptools_pkg_info
 pyrit:
   version: 0.4.0-7
   issues:
@@ -19740,6 +19756,10 @@ python-asgi-ipc:
   version: 1.4.2-2
   bugs:
     - 894258
+python-asgi-redis:
+  version: 1.4.3-1
+  issues:
+    - randomness_in_python_setuptools_pkg_info
 python-asyncssh:
   version: 1.2.0-1
   issues:
@@ -20470,6 +20490,10 @@ python-tidylib:
     - random_id_in_pdf_generated_by_dblatex
 python-tinyrpc:
   version: 0.6-1
+  issues:
+    - randomness_in_python_setuptools_pkg_info
+python-tooz:
+  version: 1.58.0-2
   issues:
     - randomness_in_python_setuptools_pkg_info
 python-tornado:
