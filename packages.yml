@@ -8540,10 +8540,6 @@ gtick:
   version: 0.5.4-1
   issues:
     - gcc_captures_build_path
-gtimelog:
-  version: 0.10.3-1
-  bugs:
-    - 891751
 gtk+2.0:
   version: 2.24.30-4
   issues:
@@ -8925,10 +8921,6 @@ hexter:
   version: 1.0.2-3
   issues:
     - gcc_captures_build_path
-hg-git:
-  version: 0.8.5-4
-  bugs:
-    - 843635
 hhsuite:
   version: 3.0~beta2+dfsg-1
   comments: |
@@ -20454,7 +20446,6 @@ python-taskflow:
       https://docs.python.org/3/library/multiprocessing.html#multiprocessing.cpu_count
   bugs:
     - 860374
-    - 891438
 python-tempest-lib:
   version: 0.14.0-3
   bugs:
@@ -24331,10 +24322,6 @@ ruby-rpatricia:
   version: 1.0.1-1
   issues:
     - gcc_captures_build_path
-ruby-rspec-its:
-  version: 1.2.0-2
-  bugs:
-    - 888172
 ruby-rspec-puppet:
   version: 2.6.1-1
   bugs:
@@ -29045,8 +29032,6 @@ yrmcds:
   version: 1.1.8-1
   comments: |
     Fixed upstream: https://github.com/cybozu/yrmcds/commit/04cda93
-  bugs:
-    - 853715
 yt:
   version: 3.4.0-3
   bugs:
