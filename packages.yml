@@ -21321,6 +21321,10 @@ r-bioc-multtest:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
+r-bioc-pcamethods:
+  version: 1.70.0-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-bioc-phyloseq:
   version: 1.16.2-1
   issues:
@@ -21879,6 +21883,10 @@ r-cran-formula:
   version: 1.2-1-1
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-fts:
+  version: 0.9.9-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-futile.logger:
   version: 1.4.1-1
   issues:
@@ -22389,6 +22397,10 @@ r-cran-pbkrtest:
   version: 0.4-6-1
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-permute:
+  version: 0.9-4-2
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-phangorn:
   version: 2.0.4-1
   issues:
@@ -22503,6 +22515,10 @@ r-cran-psych:
     - randomness_in_r_rdb_rds_databases
 r-cran-purrr:
   version: 0.2.3-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-pvclust:
+  version: 2.0-0-3
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-pwt:
@@ -22689,6 +22705,10 @@ r-cran-rlumshiny:
   version: 0.1.0-1
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-rmarkdown:
+  version: 1.9+dfsg-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-rms:
   version: 4.5-0-2
   issues:
@@ -22766,6 +22786,10 @@ r-cran-runit:
   version: 0.4.31-2
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-rwave:
+  version: 2.4-8-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-scales:
   version: 0.3.0-1
   issues:
@@ -22836,6 +22860,10 @@ r-cran-sn:
     - randomness_in_r_rdb_rds_databases
 r-cran-snowballc:
   version: 0.5.1-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-snowfall:
+  version: 1.84-6.1-1
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-solrium:
@@ -22971,6 +22999,10 @@ r-cran-timeseries:
   version: 3022.101.2-2
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-tinytex:
+  version: 0.4-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-tm:
   version: 0.6-2-3
   issues:
@@ -23041,6 +23073,14 @@ r-cran-viridis:
     - randomness_in_r_rdb_rds_databases
 r-cran-viridislite:
   version: 0.2.0-1.1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-waveslim:
+  version: 1.7.5-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-wavethresh:
+  version: 4.6.8-1
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-wdi:
