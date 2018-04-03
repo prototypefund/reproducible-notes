@@ -1826,3 +1826,7 @@ random_order_in_javahelper_manifest_files:
   description: |
     javahelper writes MANIFEST.MF files with non-determistic ordering.
   url: https://bugs.debian.org/893504
+nondeterminism_in_apertium_lrx_bin_files_generated_by_lrx_comp:
+  description: |
+    The lrx-comp utility from apertium-lex-tools generates bin files with
+    nondetermistic contents.
