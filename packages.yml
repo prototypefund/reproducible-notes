@@ -10322,6 +10322,10 @@ junior-doc:
     - timestamps_in_gzip_headers
     - different_encoding
     - timestamps_in_ps_generated_by_dvips
+jupyter-notebook:
+  version: 5.4.0-1
+  bugs:
+    - 894571
 jxrlib:
   version: 1.1-6
   issues:
@@ -16575,6 +16579,8 @@ numexpr:
   version: 2.6.2-2
   issues:
     - build_path_captured_by_python_numpy_misc_util
+  bugs:
+    - 894623
 nunit:
   version: 2.6.3+dfsg-1
   issues:
@@ -16834,6 +16840,10 @@ ocaml-res:
   version: 4.0.3-3
   issues:
     - ocaml_captures_build_path
+ocaml-rope:
+  version: 0.6-1
+  bugs:
+    - 894621
 ocaml-shine:
   version: 0.2.0-1
   issues:
@@ -16933,6 +16943,10 @@ oce:
   version: 0.17.2-2
   issues:
     - build_id_differences_only
+ocfs2-tools:
+  version: 1.8.5-4
+  bugs:
+    - 894630
 oclgrind:
   version: 15.5-1
   comments: |
@@ -25952,6 +25966,7 @@ statsmodels:
     - captures_build_path
   bugs:
     - 880245
+    - 894572
 stdsyslog:
   version: 0.03.1-3
   issues:
@@ -26769,6 +26784,10 @@ thuban:
   version: 1.2.2-11
   issues:
     - gcc_captures_build_path
+thumbor:
+  version: 6.3.2-4
+  bugs:
+    - 891612
 thunderbolt-tools:
   version: 0.9.1-1
   issues:
@@ -27615,6 +27634,7 @@ uwsgi:
     - timestamps_from_cpp_macros
   bugs:
     - 892074
+    - 894624
 uzbl:
   version: 0.0.0~git.20120514-1.2
   issues:
