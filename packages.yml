@@ -39,6 +39,8 @@ a7xpg:
   version: 0.11.dfsg1-9
   issues:
     - build_id_differences_only
+  bugs:
+    - 894610
 abci:
   version: 0.0~git20170124.0.f94ae5e-2
   issues:
@@ -5359,6 +5361,14 @@ exonerate:
   version: 2.4.0-2
   issues:
     - captures_build_path
+ext3grep:
+  version: 0.10.2-3
+  bugs:
+    - 894650
+ext4magic:
+  version: 0.3.2-7
+  bugs:
+    - 894649
 extlib:
   version: 1.7.0-2
   issues:
@@ -5367,6 +5377,10 @@ extremetuxracer:
   version: 0.7.4-1
   issues:
     - gcc_captures_build_path
+extundelete:
+  version: 0.2.4-1
+  bugs:
+    - 894645
 ezmlm-idx:
   version: 7.1.1-1~exp0
   issues:
@@ -8313,6 +8327,7 @@ gradle:
   bugs:
     - 873227
     - 882181
+    - 894641
 grafana:
   version: 2.6.0+dfsg-3
   bugs:
@@ -8517,6 +8532,8 @@ gst-plugins-espeak:
   version: 0.4.0-2
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 894642
 gstm:
   version: 1.2-8.1
   issues:
@@ -9968,6 +9985,10 @@ jboss-xnio:
   version: 3.4.0-1
   bugs:
     - 893359
+jbuilder:
+  version: 1.0~beta19-1
+  bugs:
+    - 894621
 jcal:
   version: 0.4.1-2
   issues:
@@ -13420,6 +13441,7 @@ libsmali-java:
   version: 2.2.2-1
   bugs:
     - 894331
+    - 894676
 libsmbios:
   version: 2.3.0-1
   issues:
@@ -16016,6 +16038,10 @@ neverball:
   version: 1.6.0-7
   issues:
     - gcc_captures_build_path
+nevow:
+  version: 0.14.2-1
+  bugs:
+    - 894718
 newlib:
   version: 2.2.0+git20150830.5a3d536-1
   issues:
@@ -17295,6 +17321,8 @@ openjdk-9:
   issues:
     - blacklisted_on_jenkins_armhf_only
     - different_due_to_umask
+  bugs:
+    - 894371
 openjfx:
   version: 8u40-b25-3
   comments: |
@@ -23661,6 +23689,10 @@ ros-roscpp-core:
   version: 0.6.0-1
   issues:
     - gcc_captures_build_path
+ros-rosinstall:
+  version: 0.7.8-1
+  bugs:
+    - 894699
 ros-rospack:
   version: 2.3.1-1
   issues:
