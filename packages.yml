@@ -27979,6 +27979,12 @@ vsdump:
   version: 0.0.45-1
   issues:
     - gcc_captures_build_path
+vte:
+  version: 1:0.28.2-5
+  issues:
+    - nondeterminstic_ordering_in_gsettings_glib_enums_xml
+  bugs:
+    - 894787
 vte2.91:
   version: 0.44.2-1
   issues:
