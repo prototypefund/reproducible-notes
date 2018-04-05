@@ -26140,12 +26140,6 @@ sugar-calculate-activity:
   version: 44-3
   comments: |
     Some toolchain package is making Icon files (coming from activity/info?) have the absolute build path.
-sugar-memorize-activity:
-  version: 51-3
-  issues:
-    - captures_build_path_in_python_sugar3_symlinks
-  bugs:
-    - 856943
 sugar-physics-activity:
   version: 7+dfsg-1.2
   bugs:

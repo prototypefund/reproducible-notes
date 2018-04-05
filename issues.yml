@@ -1567,11 +1567,6 @@ nondeterminstic_ordering_in_casacore_tables:
     src:casacore generates index.dat and table.f0 files with random order.
     .
     I believe this is somewhere near http://sources.debian.net/src/casacore/2.1.0-3/tables/Tables/TableProxy.cc/?hl=1448#L1448
-captures_build_path_in_python_sugar3_symlinks:
-  description: |
-    Packages that use python-sugar3 will generate broken symlinks that capture
-    the build path.
-  url: https://bugs.debian.org/860418
 translations_missing_in_desktop_files:
   description: |
     A file contains a list of «Name[xx] = "String"» lines, where «xx» is a language code;
