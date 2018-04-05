@@ -3001,7 +3001,6 @@ collectd:
   issues:
     - gcc_captures_build_path
   bugs:
-    - 881641
     - 892166
 colmap:
   version: 3.4-1
@@ -11871,8 +11870,6 @@ libcgns:
   issues:
     - gfortran_mod_captures_build_path
     - records_build_flags
-  bugs:
-    - 890271
 libchado-perl:
   version: 1.31-2
   issues:
@@ -26336,8 +26333,6 @@ symfony:
   version: 2.7.5+dfsg-1
   issues:
     - ftbfs_uninvestigated_test_failures
-  bugs:
-    - 889124
 sympy:
   version: 0.7.5-4
   issues:
