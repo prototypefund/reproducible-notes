@@ -10700,6 +10700,10 @@ kfourinline:
   version: 4:16.04.0-1
   issues:
     - captures_build_path
+kgb-bot:
+  version: 1.46-1
+  bugs:
+    - 894775
 kglobalaccel:
   version: 5.26.0-1
   issues:
@@ -17143,6 +17147,8 @@ open-build-service:
       src/api/Makefile:17:  $(INSTALL) -m 0755 -d $(DESTDIR)$(OBS_API_PREFIX)/db/sphinx{,/production}
   issues:
     - bin_sh_is_bash
+  bugs:
+    - 894778
 open-coarrays:
   version: 1.9.3-1
   comments: |
@@ -24049,6 +24055,10 @@ ruby-gd:
   version: 0.8.0-7
   issues:
     - gcc_captures_build_path
+ruby-gettext-setup:
+  version: 0.30-1
+  bugs:
+    - 894829
 ruby-github-markdown:
   version: 0.6.9-2
   issues:
