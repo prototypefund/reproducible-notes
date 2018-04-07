@@ -7690,13 +7690,6 @@ gnumail:
     The reason is probably the d/rules changes.  (Adding gnustep-make's config.mk and rewriting override_dh_auto_build)
   issues:
     - gcc_captures_build_path
-gnupg2:
-  version: 2.1.11-7
-  comments: |
-    Hostname is captured in gpgv.exe since upstream commit 049b3d9.
-    Also, it might be that some padding with unitialized memory causes
-    some non-determinism seen in the bits between CompanyName's and
-    FileVersion's value (g10/gpg-w32info.rc).
 gnuplot:
   version: 5.0.3+dfsg3-5
   issues:
@@ -26645,10 +26638,6 @@ texi2html:
     The $USER value the code uses may be the full name from GECOS.  That is currently set to "second user" on the second build and is null on the first build, which explains the observations.
   issues:
     - texi2html_captures_users_gecos
-texlive-base:
-  version: 2014.20141024-2
-  comments: |
-    Caused by some randomness in/near dh_installtex (tex-common)
 texlive-extra:
   version: 2017.20180103-2
   bugs:
