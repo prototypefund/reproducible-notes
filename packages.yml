@@ -2674,10 +2674,6 @@ cinnamon:
   version: 3.2.7-2
   issues:
     - gcc_captures_build_path
-cinnamon-desktop:
-  version: 3.4.2-2
-  issues:
-    - nondeterminstic_ordering_in_gsettings_glib_enums_xml
 citadel:
   version: 902-3
   issues:
@@ -7151,8 +7147,6 @@ gexiv2:
   version: 0.10.8-1
   comments: |
     Forwarded upstream https://bugzilla.gnome.org/show_bug.cgi?id=793984
-  issues:
-    - nondeterminstic_ordering_in_gsettings_glib_enums_xml
   bugs:
     - 891897
 gf-complete:
@@ -8506,10 +8500,6 @@ gtg-trace:
   version: 0.2-2+dfsg-1
   issues:
     - random_id_in_pdf_generated_by_dblatex
-gthumb:
-  version: 3:3.5.2-1
-  issues:
-    - nondeterminstic_ordering_in_gsettings_glib_enums_xml
 gtick:
   version: 0.5.4-1
   issues:
@@ -27845,8 +27835,6 @@ vsdump:
     - gcc_captures_build_path
 vte:
   version: 1:0.28.2-5
-  issues:
-    - nondeterminstic_ordering_in_gsettings_glib_enums_xml
   bugs:
     - 894787
 vte2.91:
