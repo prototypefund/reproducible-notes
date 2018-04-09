@@ -1886,6 +1886,10 @@ breeze-icons:
   version: 4:5.37.0-2
   issues:
     - timestamps_in_rcc_files_generated_by_rcc
+breezy:
+  version: 3.0.0~bzr6940-1
+  bugs:
+    - 895192
 brewtarget:
   version: 2.1.0-1
   issues:
@@ -3461,6 +3465,10 @@ cyclograph:
   version: 1.9.1-1
   comments: |
     /usr/share/cyclograph/qt/cyclograph_rc.py contains nondeterminstic image data, probably a timestamp
+cypari2:
+  version: 1.1.4-2
+  bugs:
+    - 895215
 cyphesis-cpp:
   version: 0.6.2-2
   bugs:
@@ -4114,6 +4122,8 @@ dislocker:
   version: 0.6.1-6
   issues:
     - build_id_differences_only
+  bugs:
+    - 895205
 dita-ot:
   version: 1.5.3-1
   comments: |
@@ -7684,6 +7694,10 @@ gnumail:
     The reason is probably the d/rules changes.  (Adding gnustep-make's config.mk and rewriting override_dh_auto_build)
   issues:
     - gcc_captures_build_path
+gnumeric:
+  version: 1.12.35-1
+  bugs:
+    - 895208
 gnuplot:
   version: 5.0.3+dfsg3-5
   issues:
@@ -7806,6 +7820,8 @@ golang-github-appc-docker2aci:
   version: 0.9.2-2
   issues:
     - golang_compiler_captures_build_path_in_binary
+  bugs:
+    - 895207
 golang-github-appc-spec:
   version: 0.7.1+dfsg-1
   issues:
@@ -14893,6 +14909,8 @@ mlpack:
   version: 2.2.1-2
   issues:
     - build_id_differences_only
+  bugs:
+    - 895183
 mlpost:
   version: 0.8.1-6
   issues:
@@ -25996,6 +26014,8 @@ sugar-toolkit-gtk3:
   version: 0.106.1-1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 895235
 summain:
   version: 0.20-1
   issues:
