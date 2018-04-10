@@ -146,7 +146,6 @@ activemq:
     - timestamps_generated_by_xbean_spring
     - blacklisted_on_jenkins_armhf_only
   bugs:
-    - 891114
     - 893236
 activemq-activeio:
   version: 3.1.4-1
@@ -8349,8 +8348,6 @@ graywolf:
   version: 0.1.4-1
   issues:
     - build_id_differences_only
-  bugs:
-    - 887760
 grcm:
   version: 0.1.6-1
   issues:
@@ -9432,10 +9429,6 @@ ipkungfu:
   version: 0.6.1-6.1
   issues:
     - gcc_captures_build_path
-ipmiutil:
-  version: 3.0.1-1
-  bugs:
-    - 877211
 ippusbxd:
   version: 1.23-1
   issues:
@@ -11743,10 +11736,6 @@ libbuffy:
   version: 1.9.2-2
   issues:
     - captures_build_path
-libc++:
-  version: 3.5-2
-  bugs:
-    - 881708
 libcaca:
   version: 0.99.beta19-2
   issues:
@@ -20601,8 +20590,6 @@ qdbm:
   issues:
     - timestamps_in_jar
     - captures_build_path
-  bugs:
-    - 853627
 qdox2:
   version: 2.0~M3-2
   comments: |
@@ -23745,10 +23732,6 @@ ruby-bson:
   version: 4.2.1-1
   issues:
     - gcc_captures_build_path
-ruby-buff-config:
-  version: 2.0.0-1
-  bugs:
-    - 892324
 ruby-bunny:
   version: 2.6.1-2
   bugs:
@@ -24381,10 +24364,6 @@ ruby-tokyocabinet:
   version: 1.31-5
   issues:
     - gcc_captures_build_path
-ruby-toml:
-  version: 0.2.0-1
-  bugs:
-    - 890693
 ruby-uglifier:
   version: 2.7.2+dfsg-2
   bugs:
@@ -26624,10 +26603,6 @@ texi2html:
     The $USER value the code uses may be the full name from GECOS.  That is currently set to "second user" on the second build and is null on the first build, which explains the observations.
   issues:
     - texi2html_captures_users_gecos
-texlive-extra:
-  version: 2017.20180103-2
-  bugs:
-    - 886988
 textedit.app:
   version: 4.0+20061029-3.4
   issues:
