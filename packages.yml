@@ -3780,8 +3780,6 @@ deal.ii:
     - ftbfs_in_jenkins_setup
 debbugs:
   version: 2.4.1.1
-  issues:
-    - ftbfs_old_compat_debheper_compat_level
   bugs:
     - 800287
 debci:
@@ -9003,11 +9001,6 @@ html2canvas:
   version: 0.5.0~beta4+ds1-1
   issues:
     - nondeterminstic_output_from_uglifyjs
-htmldoc:
-  version: 1.8.27-8
-  issues:
-    - timestamps_in_documentation_generated_by_htmldoc
-    - timestamps_in_ps_generated_by_dvips
 htp:
   version: 1.19-2
   comments: |
