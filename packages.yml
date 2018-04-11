@@ -27785,11 +27785,6 @@ voxbo:
   version: 1.8.5~svn1246-2
   bugs:
     - 853702
-vpb-driver:
-  version: 4.2.58-1
-  issues:
-    - timestamps_in_tarball
-    - different_due_to_umask
 vpcs:
   version: 0.5b2-1
   bugs:
@@ -28493,8 +28488,6 @@ xiphos:
     - gcc_captures_build_path
 xjig:
   version: 2.4-14
-  issues:
-    - timestamps_in_gzip_headers
   bugs:
     - 777355
 xkbind:
