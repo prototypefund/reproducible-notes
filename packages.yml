@@ -652,6 +652,14 @@ apertium:
   issues:
     - captures_shell_variable_in_autofoo_script
     - records_build_flags
+apertium-bel-rus:
+  version: 0.2.0~r81186-1
+  issues:
+    - nondeterminism_in_autolex_bin
+apertium-cat-srd:
+  version: 1.0.0~r82995-1
+  issues:
+    - nondeterminism_in_autolex_bin
 apertium-en-gl:
   version: 0.5.2~r57551-1
   issues:
@@ -668,6 +676,10 @@ apertium-es-gl:
   version: 1.0.8~r57542-2
   issues:
     - captures_build_path
+apertium-hbs-mkd:
+  version: 0.1.0~r76450-1
+  issues:
+    - nondeterminism_in_autolex_bin
 apertium-kaz:
   version: 0.1.0~r61338-1
   comments: |
