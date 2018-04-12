@@ -1818,3 +1818,6 @@ nondeterminism_in_apertium_lrx_bin_files_generated_by_lrx_comp:
 nondeterminism_in_files_generated_by_hfst:
   description: |
     The hfst utilities generate non-determinstic .hfst files.
+nondeterminism_in_autolex_bin:
+  description: |
+    The apertium-* series of packages have non-determistic *.autolex.bin files.
