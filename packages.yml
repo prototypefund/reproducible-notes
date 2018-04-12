@@ -5759,6 +5759,10 @@ firehol:
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_documentation_generated_by_pandoc
     - fonts_in_pdf_files
+firetray:
+  version: 0.6.1+dfsg-1
+  bugs:
+    - 895451
 fis-gtm:
   version: 6.2-002A-2
   comments: |
@@ -14988,6 +14992,10 @@ mod-dnssd:
     - different_encoding
   bugs:
     - 828752
+mod-gnutls:
+  version: 0.8.2-3
+  bugs:
+    - 894874
 mod-mono:
   version: 3.8-3
   issues:
@@ -17428,6 +17436,10 @@ oroborus:
     https://gist.github.com/lamby/c303f0ff7c51aa04b25872ba37f9cc50/raw but also build path
   issues:
     - gcc_captures_build_path
+orocos-bfl:
+  version: 0.8.0-3
+  bugs:
+    - 895182
 orocos-kdl:
   version: 1.3.1+dfsg-1
   issues:
@@ -17504,6 +17516,10 @@ osmium-tool:
   version: 1.3.1-2
   issues:
     - gcc_captures_build_path
+osmo-bts:
+  version: 0.4.0-3
+  bugs:
+    - 895454
 osmo-trx:
   version: 0~20150325gitf147b17+dfsg-3
   issues:
