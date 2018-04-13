@@ -705,6 +705,10 @@ apertium-spa-ita:
   version: 0.2.0~r78826-2
   issues:
     - nondeterminism_in_apertium_lrx_bin_files_generated_by_lrx_comp
+apertium-swe-nor:
+  version: 0.2.0~r69544-1
+  bugs:
+    - 895506
 apertium-tat:
   version: 0.1.0~r60887-1
   comments: |
@@ -4221,6 +4225,8 @@ dnss:
   version: 0.0~git20161126.0.162090e-1
   issues:
     - golang_compiler_captures_build_path_in_binary
+  bugs:
+    - 895464
 dnssec-trigger:
   version: 0.13~svn685-4
   comments: |
@@ -4512,6 +4518,8 @@ dune-pdelab:
   version: 2.4.1-1
   issues:
     - records_build_flags
+  bugs:
+    - 895525
 dune-typetree:
   version: 2.5.0~rc2-1
   issues:
@@ -4989,6 +4997,10 @@ enigma:
     - gcc_captures_build_path
   bugs:
     - 811826
+enki-aseba:
+  version: 1:1.6.0-5
+  bugs:
+    - 895499
 ent:
   version: 1.2debian-1
   issues:
@@ -5297,6 +5309,10 @@ exabgp:
   version: 3.4.13-1
   issues:
     - captures_build_arch
+exactimage:
+  version: 1.0.1-1
+  bugs:
+    - 895511
 excalibur-logkit:
   version: 2.0-11
   bugs:
@@ -5924,6 +5940,8 @@ fmit:
   version: 1.0.0-1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 890669
 fmtlib:
   version: 4.0.0+ds-2
   bugs:
@@ -6515,6 +6533,8 @@ fwbuilder:
   version: 5.1.0-4
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 895476
 fwknop:
   version: 2.6.0-4
   issues:
@@ -10594,6 +10614,10 @@ keytouch-editor:
   version: 1:3.2.0~beta-3
   issues:
     - gcc_captures_build_path
+keyutils:
+  version: 1.5.9-9.2
+  bugs:
+    - 895463
 kf5-kdepimlibs:
   version: 4:16.04.2-2
   issues:
@@ -10746,6 +10770,8 @@ kimap:
   version: 16.04.2-1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 895494
 kimwitu:
   version: 4.6.1-7.1
   issues:
@@ -10875,6 +10901,8 @@ kmime:
   version: 16.04.2-1
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 895493
 kmplot:
   version: 4:16.04.2-1
   issues:
@@ -12589,6 +12617,10 @@ libkf5calendarsupport:
   version: 4:16.04.2-2
   issues:
     - gcc_captures_build_path
+libkf5eventviews:
+  version: 4:17.12.3-1
+  bugs:
+    - 895495
 libkf5incidenceeditor:
   version: 16.04.2-2
   issues:
@@ -14699,6 +14731,10 @@ metis:
   version: 5.1.0.dfsg-5
   issues:
     - build_id_differences_only
+mgba:
+  version: 0.5.2+dfsg1-3
+  bugs:
+    - 895496
 mgcv:
   version: 1.8-14-1
   issues:
@@ -17699,6 +17735,10 @@ pandas:
   bugs:
     - 877419
     - 889539
+pango1.0:
+  version: 1.42.1-1
+  bugs:
+    - 895235
 panko:
   version: 3.1.0-4
   comments: |
@@ -24311,6 +24351,10 @@ ruby-sigar:
     .
     https://gist.github.com/lamby/6ae0e4a6df1c53e0235a4e42f978cb8c/raw does not seem
     to fix it.
+ruby-slim:
+  version: 3.0.7-1
+  bugs:
+    - 895500
 ruby-spy:
   version: 0.4.3-1
   bugs:
@@ -26201,6 +26245,7 @@ synfig:
   version: 0.64.2-1
   bugs:
     - 820072
+    - 895503
 synopsis:
   version: 0.12-10
   issues:
@@ -26351,6 +26396,10 @@ task:
   version: 2.5.1+dfsg-1
   issues:
     - gcc_captures_build_path
+taskcoach:
+  version: 1.4.3-5
+  bugs:
+    - 895512
 taskd:
   version: 1.1.0+dfsg-2
   issues:
@@ -26657,6 +26706,10 @@ tidy-proxy:
   version: 0.97-4
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
+tiemu:
+  version: 3.04~git20110801-nogdb+dfsg-1
+  bugs:
+    - 895492
 tig:
   version: 2.0.2-2
   issues:
@@ -28238,6 +28291,10 @@ wxhexeditor:
   version: 0.23+repack-2
   bugs:
     - 853708
+wxpython4.0:
+  version: 4.0.1+dfsg-2
+  bugs:
+    - 895516
 x11proto-core:
   version: 7.0.26-1
   issues:
