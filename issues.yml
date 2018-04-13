@@ -1823,3 +1823,7 @@ nondeterminism_in_files_generated_by_hfst:
 nondeterminism_in_autolex_bin:
   description: |
     The apertium-* series of packages have non-determistic *.autolex.bin files.
+build_path_in_mip_files_generated_by_irafcl:
+  description: |
+    /usr/bin/irafcl from the iraf package creates .mip files with the absolute
+    filename.
