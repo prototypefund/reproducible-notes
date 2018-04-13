@@ -750,10 +750,6 @@ appstream:
   version: 0.10.6-2
   issues:
     - build_id_differences_only
-appstream-glib:
-  version: 0.7.4-1
-  bugs:
-    - 890893
 apr:
   version: 1.5.2-4
   comments: |
@@ -1872,8 +1868,6 @@ boxbackup:
   version: 0.11.1~r2837-4
   issues:
     - random_order_of_pdf_ids_generated_by_latex
-  bugs:
-    - 890997
 bplay:
   version: 0.991-10
   issues:
@@ -3986,10 +3980,6 @@ devio:
   version: 1.2-1.2
   issues:
     - gcc_captures_build_path
-dewalls:
-  version: 1.0.0+ds1-4
-  bugs:
-    - 887323
 dfvfs:
   version: 20171230-1
   bugs:
@@ -8043,7 +8033,6 @@ golang-github-ugorji-go-codec:
   version: 0.0~git20171019.0.bdcc60b-1
   bugs:
     - 879483
-    - 890886
 golang-github-vmware-govmomi:
   version: 0.15.0-1
   issues:
@@ -24177,7 +24166,6 @@ ruby-prof:
   version: 0.16.2+dfsg-2
   bugs:
     - 888192
-    - 889159
 ruby-progressbar:
   version: 1.4.2-1
   bugs:
@@ -24232,10 +24220,6 @@ ruby-redcloth:
   version: 4.2.9-5
   issues:
     - gcc_captures_build_path
-ruby-representable:
-  version: 3.0.4-1
-  bugs:
-    - 889159
 ruby-rest-client:
   version: 2.0.2-2
   bugs:
@@ -27497,7 +27481,6 @@ uwsgi:
   issues:
     - timestamps_from_cpp_macros
   bugs:
-    - 892074
     - 894624
 uzbl:
   version: 0.0.0~git.20120514-1.2
