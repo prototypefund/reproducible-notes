@@ -14310,6 +14310,8 @@ mailfront:
   version: 1.16-1
   issues:
     - random_order_in_md5sums
+  bugs:
+    - 895669
 mailman:
   version: 1:2.1.26-1
   bugs:
@@ -17337,6 +17339,7 @@ openstack-trove:
   version: 1:8.0.0-4
   bugs:
     - 892757
+    - 895640
 openstereogram:
   version: 0.1+20080921-2
   bugs:
