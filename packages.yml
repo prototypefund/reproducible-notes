@@ -129,8 +129,6 @@ acmetool:
   version: 0.0.51-1
   issues:
     - golang_compiler_captures_build_path_in_binary
-  bugs:
-    - 890925
 acpitool:
   version: 0.5.1-4
   issues:
@@ -3540,8 +3538,6 @@ cysignals:
   version: 1.1.1+ds-2
   issues:
     - pdf_id_varying_due_to_build_path
-  bugs:
-    - 888606
 cython:
   version: 0.23.4+git4-g7eed8d8-1
   issues:
@@ -4088,10 +4084,6 @@ dime:
   version: 0.20111205-2
   issues:
     - records_build_flags
-diodon:
-  version: 1.7.0-1
-  bugs:
-    - 891628
 dipy:
   version: 0.7.1-2
   bugs:
@@ -5260,10 +5252,6 @@ esys-particle:
     - randomness_in_documentation_generated_by_epydoc
     - timestamps_in_ps_generated_by_dvips
     - records_build_flags
-etcd:
-  version: 3.2.9+dfsg-3
-  bugs:
-    - 890939
 etcd-fs:
   version: 0.0+git20140621.0.395eacb-1
   issues:
@@ -7238,8 +7226,6 @@ giac:
   version: 1.2.3.57+dfsg1-2
   issues:
     - timestamps_in_ps_generated_by_dvips
-  bugs:
-    - 888911
 giella-sme:
   version: 0.0.20150917~r121176-2
   issues:
@@ -11985,10 +11971,6 @@ libdr-tarantool-perl:
   version: 0.45-2
   bugs:
     - 844433
-libdrm:
-  version: 2.4.90-1
-  bugs:
-    - 892960
 libdrumstick:
   version: 0.5.0-4
   issues:
@@ -15338,7 +15320,6 @@ mpfr4:
     - random_id_in_pdf_generated_by_dblatex
   bugs:
     - 888422
-    - 888911
 mpg123:
   version: 1.23.8-1
   issues:
@@ -19146,10 +19127,6 @@ prooftree:
   version: 0.12-2
   issues:
     - captures_build_path
-properties-cpp:
-  version: 0.0.1~bzr17+repack1-1
-  bugs:
-    - 883339
 prospector:
   version: 0.12.7-2
   issues:
@@ -24258,10 +24235,6 @@ ruby-re2:
   version: 0.7.0-1
   issues:
     - gcc_captures_build_path
-ruby-recursive-open-struct:
-  version: 1.0.2-1
-  bugs:
-    - 888167
 ruby-redcarpet:
   version: 3.3.4-2
   issues:
@@ -24339,10 +24312,6 @@ ruby-session:
   version: 3.2.0-2
   bugs:
     - 892561
-ruby-sexp-processor:
-  version: 4.7.0-1
-  bugs:
-    - 888196
 ruby-shadow:
   version: 2.4.1-1
   issues:
@@ -24643,7 +24612,6 @@ saxonb:
 saxonhe:
   version: 9.8.0.8+dfsg+1-1
   bugs:
-    - 892120
     - 892156
 sbcl:
   version: 2:1.2.14-1
