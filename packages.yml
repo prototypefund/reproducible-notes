@@ -711,6 +711,10 @@ apertium-tat:
   comments: |
     Zip file with non-standard extension. Should have been fixed by
     dh-stripnondeterminism matching .zhfst files, but there are differences.
+apertium-urd-hin:
+  version: 0.1.0~r64379-1
+  issues:
+    - nondeterminism_in_autolex_bin
 apitrace:
   version: 7.1+git20160531.2d78bef0+repack-1.1
   issues:
