@@ -27244,7 +27244,6 @@ ucspi-proxy:
 ucspi-unix:
   version: 0.36-4
   issues:
-    - timestamps_in_gzip_headers
     - random_order_in_md5sums
   bugs:
     - 777019
