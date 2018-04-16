@@ -1030,10 +1030,6 @@ asyncpg:
   version: 0.13.0-1
   bugs:
     - 882017
-at-spi2-core:
-  version: 2.26.2-2
-  bugs:
-    - 883359
 atdgen:
   version: 1.9.1-1
   issues:
@@ -11327,8 +11323,6 @@ latex2html:
     - timestamps_in_ps_generated_by_dvips
     - timestamps_in_dvi_generated_by_latex
     - captures_users_gecos
-  bugs:
-    - 827187
 latex2rtf:
   version: 2.3.10-1
   issues:
@@ -12444,8 +12438,6 @@ libjaxen-java:
   version: 1.1.6-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-  bugs:
-    - 893262
 libjaxp1.3-java:
   version: 1.3.05-2
   issues:
@@ -12462,8 +12454,6 @@ libjchart2d-java:
   version: 3.2.2+dfsg-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-  bugs:
-    - 893248
 libjdbm-java:
   version: 1.0-2
   bugs:
@@ -15500,10 +15490,6 @@ murano:
   version: 2015.1.0-9
   issues:
     - timestamps_in_documentation_generated_by_sphinx
-murano-dashboard:
-  version: 1:4.0.0-1
-  bugs:
-    - 891441
 murasaki:
   version: 1.68.6-6
   issues:
@@ -17338,7 +17324,6 @@ openssl1.0:
 openstack-trove:
   version: 1:8.0.0-4
   bugs:
-    - 892757
     - 895640
 openstereogram:
   version: 0.1+20080921-2
@@ -26782,8 +26767,6 @@ tj3:
     3) [tangential / doesn't affect reproducibility] tjp.vim is packaged twice, both in tj3:usr/share/taskjuggler/data/tjp.vim and in vim-tjp:usr/share/vim/addons/syntax/tjp.vim
     .
     4) Non-deterministic ordering difference in account.html
-  bugs:
-    - 892652
 tk-html3:
   version: 3.0~fossil20110109-6
   comments: |
@@ -28901,10 +28884,6 @@ yapsy:
     - randomness_in_documentation_generated_by_sphinx
   bugs:
     - 867900
-yard:
-  version: 0.9.12-1
-  bugs:
-    - 888198
 yash:
   version: 2.43-1
   issues:
