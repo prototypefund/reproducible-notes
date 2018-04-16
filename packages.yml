@@ -2909,6 +2909,10 @@ codetools:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
+cogl:
+  version: 1.22.2-3
+  bugs:
+    - 895732
 coin3:
   version: 3.1.4~abc9f50+dfsg1-1
   issues:
@@ -4912,6 +4916,8 @@ elki:
   version: 0.7.0-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
+  bugs:
+    - 895695
 elpa:
   version: 2013.11.008-4
   issues:
@@ -13145,6 +13151,10 @@ libqglviewer:
     - captures_build_path
   bugs:
     - 804218
+libqtdbustest:
+  version: 0.2+bzr42+repack1-2
+  bugs:
+    - 879937
 libqtxdg:
   version: 2.0.0-4
   issues:
@@ -23570,6 +23580,8 @@ ros-rospack:
   version: 2.3.1-1
   issues:
     - build_id_differences_only
+  bugs:
+    - 895708
 ros-rviz:
   version: 1.12.4+dfsg-2
   issues:
