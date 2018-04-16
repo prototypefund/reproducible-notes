@@ -20854,6 +20854,10 @@ qttools-opensource-src:
     - timestamps_in_qch
     - randomness_in_qdoc
     - captures_build_path
+qtwayland-opensource-src:
+  version: 5.10.1-3
+  issues:
+    - build_path_in_index_files_generated_by_qdoc
 qtwebchannel-opensource-src:
   version: 5.6.1-1
   issues:
