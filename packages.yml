@@ -13825,13 +13825,6 @@ linux:
   issues:
     - blacklisted_on_jenkins_armhf_only
     - ftbfs_in_jenkins_setup
-linux-grsec:
-  version: 4.3.3-7+grsec201601171913+1
-  issues:
-    - diffoscope_runs_forever
-  bugs:
-    - 814787
-    - 816439
 linux86:
   version: 0.16.17-3.1
   issues:
