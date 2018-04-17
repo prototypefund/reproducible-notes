@@ -782,10 +782,6 @@ aprx:
     $(DATE) ends up in the man page; $(RFCDATE) is unused.
   bugs:
     - 854111
-apscheduler:
-  version: 3.5.1-1
-  issues:
-    - randomness_in_python_setuptools_pkg_info
 apt:
   version: 1.4.2
   issues:
@@ -1139,10 +1135,6 @@ automoc:
   version: 1.0~version-0.9.88-5
   issues:
     - gcc_captures_build_path
-autosuspend:
-  version: 1.0.0-2
-  issues:
-    - randomness_in_python_setuptools_pkg_info
 autounit:
   version: 0.20.1-5
   issues:
@@ -4149,12 +4141,6 @@ django-polymorphic:
   version: 1.3-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
-django-q:
-  version: 0.9.4-1
-  comments: |
-    Cannot reproduce this locally and cannot be dict order due to that being deterministic in python3.5...
-  issues:
-    - randomness_in_python_setuptools_pkg_info
 django-ratelimit:
   version: 0.4.0+8+gd58c489-3
   bugs:
@@ -11431,12 +11417,6 @@ leveldb:
   version: 1.19-1
   issues:
     - random_order_in_static_libraries
-lexicon:
-  version: 2.2.1-1
-  issues:
-    - randomness_in_python_setuptools_pkg_info
-  bugs:
-    - 894493
 lft:
   version: 2.2-4
   issues:
@@ -19117,10 +19097,6 @@ prooftree:
   version: 0.12-2
   issues:
     - captures_build_path
-prospector:
-  version: 0.12.7-2
-  issues:
-    - randomness_in_python_setuptools_pkg_info
 protobuf:
   version: 3.0.0-9
   bugs:
@@ -19318,10 +19294,6 @@ pydl:
   version: 0.6.0-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
-pyeapi:
-  version: 0.8.1-1
-  issues:
-    - randomness_in_python_setuptools_pkg_info
 pyentropy:
   version: 0.4.1-2
   bugs:
@@ -19449,10 +19421,6 @@ pymc:
     - captures_build_path
   bugs:
     - 848740
-pymodbus:
-  version: 1.4.0+dfsg-2
-  issues:
-    - randomness_in_python_setuptools_pkg_info
 pymol:
   version: 1.7.2.1-1
   issues:
@@ -19568,10 +19536,6 @@ pyregion:
   version: 1.1.4-2
   issues:
     - random_order_in_python_environment_pickle
-pyresample:
-  version: 1.8.3-1
-  issues:
-    - randomness_in_python_setuptools_pkg_info
 pyrit:
   version: 0.4.0-7
   issues:
@@ -19620,10 +19584,6 @@ pythia8:
   version: 8.1.86-1.1
   issues:
     - random_order_in_static_libraries
-python-acme:
-  version: 0.22.2-1
-  issues:
-    - randomness_in_python_setuptools_pkg_info
 python-adns:
   version: 1.2.1-5
   issues:
@@ -19646,18 +19606,10 @@ python-asgi-ipc:
   version: 1.4.2-2
   bugs:
     - 894258
-python-asgi-redis:
-  version: 1.4.3-1
-  issues:
-    - randomness_in_python_setuptools_pkg_info
 python-asyncssh:
   version: 1.2.0-1
   issues:
     - randomness_in_documentation_indices_generated_by_sphinx
-python-bayespy:
-  version: 0.5.12-1
-  issues:
-    - randomness_in_python_setuptools_pkg_info
 python-bcrypt:
   version: 3.1.0-1
   issues:
@@ -19846,10 +19798,6 @@ python-feather-format:
   version: 0.3.0+dfsg1-1
   bugs:
     - 841552
-python-fedora:
-  version: 0.10.0-1
-  issues:
-    - randomness_in_python_setuptools_pkg_info
 python-fisx:
   version: 1.1.4-1
   bugs:
@@ -19902,10 +19850,6 @@ python-gnatpython:
   version: 54-3
   issues:
     - gcc_captures_build_path
-python-gnocchiclient:
-  version: 7.0.1-4
-  issues:
-    - randomness_in_python_setuptools_pkg_info
 python-gtkglext1:
   version: 1.1.0-9.1
   issues:
@@ -19922,14 +19866,6 @@ python-http-parser:
   version: 0.8.3-2
   issues:
     - gcc_captures_build_path
-python-hypothesis:
-  version: 3.44.1-2
-  issues:
-    - randomness_in_python_setuptools_pkg_info
-python-imageio:
-  version: 2.2.0-1
-  issues:
-    - randomness_in_python_setuptools_pkg_info
 python-iptables:
   version: 0.11.0-2
   issues:
@@ -19938,10 +19874,6 @@ python-jack-client:
   version: 0.4.4-1
   bugs:
     - 894883
-python-josepy:
-  version: 1.0.1-1
-  issues:
-    - randomness_in_python_setuptools_pkg_info
 python-jpype:
   version: 0.5.4.2-3
   issues:
@@ -19950,10 +19882,6 @@ python-kafka:
   version: 1.3.3-2
   bugs:
     - 880803
-python-keystoneauth1:
-  version: 3.4.0-2
-  issues:
-    - randomness_in_python_setuptools_pkg_info
 python-keystonemiddleware:
   version: 1.5.0-1
   issues:
@@ -20048,10 +19976,6 @@ python-numpy:
   version: 1.8.2-2
   issues:
     - timestamps_in_pdf_generated_by_matplotlib
-python-oauthlib:
-  version: 2.0.6-1
-  issues:
-    - randomness_in_python_setuptools_pkg_info
 python-omniorb:
   version: 3.6-1
   issues:
@@ -20081,14 +20005,6 @@ python-osd:
   version: 0.2.14-6
   issues:
     - gcc_captures_build_path
-python-oslo.db:
-  version: 4.33.0-2
-  issues:
-    - randomness_in_python_setuptools_pkg_info
-python-oslo.log:
-  version: 3.36.0-3
-  issues:
-    - randomness_in_python_setuptools_pkg_info
 python-oslo.utils:
   version: 3.16.0-2
   issues:
@@ -20101,10 +20017,6 @@ python-pam:
   version: 0.4.2-13.2
   issues:
     - gcc_captures_build_path
-python-parse-type:
-  version: 0.3.4-2
-  issues:
-    - randomness_in_python_setuptools_pkg_info
 python-pcs:
   version: 0.5+debian-1.2
   issues:
@@ -20118,10 +20030,6 @@ python-periodictable:
   version: 1.5.0-2
   issues:
     - timestamps_in_pdf_generated_by_matplotlib
-python-persistent:
-  version: 4.2.2-1
-  issues:
-    - randomness_in_python_setuptools_pkg_info
 python-pex:
   version: 1.1.0-2
   issues:
@@ -20162,10 +20070,6 @@ python-prctl:
   version: 1.1.1-1.2
   issues:
     - gcc_captures_build_path
-python-pskc:
-  version: 1.0-1
-  issues:
-    - randomness_in_python_setuptools_pkg_info
 python-pyalsa:
   version: 1.0.29-1
   issues:
@@ -20175,18 +20079,10 @@ python-pyaudio:
   issues:
     - random_order_in_python_environment_pickle
     - captures_build_path
-python-pydap:
-  version: 3.2.2+ds1-1
-  issues:
-    - randomness_in_python_setuptools_pkg_info
 python-pyftpdlib:
   version: 1.5.1-3
   bugs:
     - 790274
-python-pygal:
-  version: 2.4.0-1
-  issues:
-    - randomness_in_python_setuptools_pkg_info
 python-pygit2:
   version: 0.24.1-1
   issues:
@@ -20227,10 +20123,6 @@ python-pytc:
   version: 0.8-2
   bugs:
     - 827832
-python-pytest-benchmark:
-  version: 3.1.1-1
-  issues:
-    - randomness_in_python_setuptools_pkg_info
 python-qt4:
   version: 4.11.4+dfsg-2
   issues:
@@ -20246,10 +20138,6 @@ python-raven:
   version: 6.3.0-2
   bugs:
     - 892625
-python-rebulk:
-  version: 0.9.0-1
-  issues:
-    - randomness_in_python_setuptools_pkg_info
 python-reportlab:
   version: 3.1.8-3
   comments: |
@@ -20257,10 +20145,6 @@ python-reportlab:
     CreationDate and ID varying.
   issues:
     - gcc_captures_build_path
-python-repoze.lru:
-  version: 0.7-1
-  issues:
-    - randomness_in_python_setuptools_pkg_info
 python-rtslib-fb:
   version: 2.1.57+debian-4
   issues:
@@ -20281,18 +20165,12 @@ python-scrapy:
     - 891725
 python-setuptools:
   version: 39.0.1-1
-  issues:
-    - randomness_in_python_setuptools_pkg_info
   bugs:
     - 895516
 python-shade:
   version: 1.7.0-2
   bugs:
     - 882551
-python-shapely:
-  version: 1.6.4-1
-  issues:
-    - randomness_in_python_setuptools_pkg_info
 python-shogun:
   version: 3.2.0-5.2
   issues:
@@ -20315,10 +20193,6 @@ python-sponge:
   version: 0.3.1-1.1
   bugs:
     - 866470
-python-sqlalchemy-utils:
-  version: 0.32.21-1
-  issues:
-    - randomness_in_python_setuptools_pkg_info
 python-stdlib-extensions:
   version: 2.7.11-2
   issues:
@@ -20348,34 +20222,14 @@ python-tempest-lib:
   version: 0.14.0-3
   bugs:
     - 892747
-python-testfixtures:
-  version: 4.14.3-1
-  issues:
-    - randomness_in_python_setuptools_pkg_info
 python-testing.mysqld:
   version: 1.4.0-2
   bugs:
     - 894234
-python-textile:
-  version: 1:3.0.0-1
-  issues:
-    - randomness_in_python_setuptools_pkg_info
-python-thriftpy:
-  version: 0.3.9+ds1-1
-  issues:
-    - randomness_in_python_setuptools_pkg_info
 python-tidylib:
   version: 0.3.1~dfsg-1
   issues:
     - random_id_in_pdf_generated_by_dblatex
-python-tinyrpc:
-  version: 0.6-1
-  issues:
-    - randomness_in_python_setuptools_pkg_info
-python-tooz:
-  version: 1.58.0-2
-  issues:
-    - randomness_in_python_setuptools_pkg_info
 python-tornado:
   version: 5.0.0-1
   bugs:
@@ -20386,14 +20240,6 @@ python-traits:
   version: 4.6.0-1
   bugs:
     - 846771
-python-txaio:
-  version: 2.8.1-1
-  issues:
-    - randomness_in_python_setuptools_pkg_info
-python-u2flib-server:
-  version: 4.0.1-1
-  issues:
-    - randomness_in_python_setuptools_pkg_info
 python-utmp:
   version: 0.8.2
   issues:
@@ -20402,22 +20248,10 @@ python-visual:
   version: 1:5.12-1.6
   issues:
     - gcc_captures_build_path
-python-webob:
-  version: 1:1.7.3-2
-  issues:
-    - randomness_in_python_setuptools_pkg_info
-python-werkzeug:
-  version: 0.14.1+dfsg1-1
-  issues:
-    - randomness_in_python_setuptools_pkg_info
 python-whoosh:
   version: 2.7.0-1
   issues:
     - randomness_in_objects_inv
-python-wsgi-intercept:
-  version: 1.5.0-2
-  issues:
-    - randomness_in_python_setuptools_pkg_info
 python-x2go:
   version: 0.5.0.1-2
   issues:
@@ -23289,10 +23123,6 @@ reiser4progs:
   version: 1.1.0-1.1
   issues:
     - gcc_captures_build_path
-relatorio:
-  version: 0.8.0-2
-  issues:
-    - randomness_in_python_setuptools_pkg_info
 relaxngcc:
   version: 1.12-1
   issues:
@@ -23399,10 +23229,6 @@ rig:
   version: 1.11-1
   issues:
     - gcc_captures_build_path
-ripe-atlas-sagan:
-  version: 1.2.2-0.1
-  issues:
-    - randomness_in_python_setuptools_pkg_info
 ripmime:
   version: 1.4.0.10.debian.1-1
   comments: |
@@ -23686,10 +23512,6 @@ rtl-sdr:
   version: 0.5.3-11
   issues:
     - build_id_differences_only
-ruamel.yaml:
-  version: 0.15.34-1
-  issues:
-    - randomness_in_python_setuptools_pkg_info
 rubber:
   version: 1.4-2
   issues:
@@ -25439,10 +25261,6 @@ soci:
   version: 3.2.3-1
   issues:
     - build_id_differences_only
-social-auth-core:
-  version: 1.7.0-1
-  issues:
-    - randomness_in_python_setuptools_pkg_info
 socklog:
   version: 2.1.0-8
   issues:
@@ -27006,18 +26824,6 @@ trustedqsl:
   version: 2.2.2-1
   issues:
     - gcc_captures_build_path
-tryton-modules-party:
-  version: 4.6.0-1
-  issues:
-    - randomness_in_python_setuptools_pkg_info
-tryton-modules-purchase-shipment-cost:
-  version: 4.6.0-1
-  issues:
-    - randomness_in_python_setuptools_pkg_info
-tryton-server:
-  version: 4.6.2-1
-  issues:
-    - randomness_in_python_setuptools_pkg_info
 tsdecrypt:
   version: 10.0-2
   issues:

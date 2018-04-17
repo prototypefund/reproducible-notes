@@ -737,11 +737,6 @@ randomness_in_python_setuptools_requires_txt:
     python-setuptools generates requires.txt files with contents in arbitrary
     order.
   url: https://bugs.debian.org/804249
-randomness_in_python_setuptools_pkg_info:
-  description: |
-    python-setuptools from 39.0.1 onwards generates PKG-INFO files with
-    non-deterministic Provides-Extra vars.
-  url: https://bugs.debian.org/894215
 timezone_variance_because_of_automake_mdate:
   description: |
     automake's mdate-sh script pretty-prints the modification time of a file.
