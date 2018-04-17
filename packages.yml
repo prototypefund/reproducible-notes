@@ -14119,6 +14119,8 @@ lucene-solr:
     - timestamps_in_jar
     - blacklisted_on_jenkins_armhf_only
     - user_in_java_jar_manifest
+  bugs:
+    - 895797
 lucene2:
   version: 2.9.4+ds1-6
   issues:
@@ -17143,6 +17145,10 @@ openhackware:
   bugs:
     - 833444
     - 871094
+openhft-chronicle-bytes:
+  version: 1.1.15-1
+  bugs:
+    - 895795
 openhft-chronicle-core:
   version: 1.1.8-1
   bugs:
