@@ -9982,6 +9982,10 @@ jekyll:
   version: 3.1.6+dfsg-3
   bugs:
     - 846115
+jellyfish:
+  version: 2.2.8-3
+  comments: |
+    Captures build path, but is this due to the RPATH being set in debian/rules?
 jenkins-job-builder:
   version: 1.6.2-1
   bugs:
