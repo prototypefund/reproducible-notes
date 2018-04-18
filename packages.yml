@@ -7252,6 +7252,10 @@ ghc-testsuite:
     Contains testsuite output by design that has non-deterministic ordering (parallelism?)
   issues:
     - captures_build_path
+ghostscript:
+  version: 9.22~dfsg-2
+  bugs:
+    - 895320
 giac:
   version: 1.2.3.57+dfsg1-2
   issues:
@@ -8068,6 +8072,10 @@ golang-github-vmware-govmomi:
   version: 0.15.0-1
   issues:
     - randomness_in_binaries_generated_by_golang
+golang-github-weaveworks-mesh:
+  version: 0+git20161024.3dd75b1-1
+  bugs:
+    - 895889
 golang-github-xenolf-lego:
   version: 0.3.1-1
   issues:
@@ -12292,6 +12300,10 @@ libhtml5parser-java:
   version: 1.4+r1.3.1-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+libhtmlcleaner-java:
+  version: 2.21-2
+  bugs:
+    - 895899
 libhtmlparser-java:
   version: 1.6.20060610.dfsg0-7
   issues:
@@ -24008,6 +24020,10 @@ ruby-pg:
     Includes non-deterministic memory addresses but not clear exactly where from https://sources.debian.net/src/ruby-pg/0.18.4-1/lib/pg/connection.rb/\?hl\=19\#L21
   issues:
     - gcc_captures_build_path
+ruby-pkg-config:
+  version: 1.2.9-1
+  bugs:
+    - 895923
 ruby-posix-spawn:
   version: 0.3.11-1
   issues:
@@ -25134,6 +25150,10 @@ slt:
     - ftbfs_uninvestigated_test_failures
 slurm-drmaa:
   version: 1.0.7-1
+  bugs:
+    - 887924
+slurm-llnl:
+  version: 17.11.5-1
   bugs:
     - 887924
 sm:
