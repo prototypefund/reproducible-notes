@@ -27219,20 +27219,6 @@ unmo3:
   version: 0.6-1
   issues:
     - gcc_captures_build_path
-unrar-free:
-  version: 1:0.0.1+cvs20140707-1
-  comments: |
-    [i386 only]
-    │   │   │   │   │ -.IP "\fB-x\fP 	\fB\-\-extract\fP         " 10
-    │   │   │   │   │ +.IP "\fB-x\fP I\fB\-\-extract\fP         " 10
-    .
-    The first line contains <space><tab>.  I think that's because the source code has
-    │        <term><option>-x</option>
-    │	<option>--extract</option>
-    with a literal tab on the second line, so the so the «\n\t» in the SGML source becomes «\x20\t» in the resulting nroff.
-    (See Transpec/docbook-to-man.ts in docbook-to-man.)
-    .
-    Unclear why it's i386 only, or how the tab is transformed to an "I".  (Could be a broken "^I" escape, or a bitflip.)
 unshield:
   version: 1.4-1
   issues:
