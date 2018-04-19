@@ -149,8 +149,6 @@ activemq-activeio:
   version: 3.1.4-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-  bugs:
-    - 893219
 activemq-protobuf:
   version: 1.1-4
   issues:
@@ -7646,10 +7644,6 @@ gnome-todo:
   version: 3.28.0-1
   issues:
     - nondeterminstic_output_in_pkgconfig_files_generated_by_meson
-gnome-twitch:
-  version: 0.3.1-1
-  bugs:
-    - 880842
 gnome-vfs:
   version: 1:2.24.4-6.1
   bugs:
@@ -9716,8 +9710,6 @@ jackson-datatype-joda:
   version: 2.8.5-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-  bugs:
-    - 893218
 jackson-jaxrs-providers:
   version: 2.7.3-1
   issues:
@@ -14383,7 +14375,6 @@ mame:
     Need to sort here http://sources.debian.net/src/mame/0.176-3/src/lib/util/options.cpp/#L492
   bugs:
     - 869074
-    - 892559
 manderlbot:
   version: 0.9.2-19
   issues:
@@ -22996,8 +22987,6 @@ rakudo:
   version: 2015.09-2
   issues:
     - nondeterminstic_output_generated_by_moarvm
-  bugs:
-    - 880795
 rally:
   version: 0.2.0-1.2
   bugs:
@@ -23906,10 +23895,6 @@ ruby-license-finder:
   version: 2.1.2-2
   bugs:
     - 880324
-ruby-logging:
-  version: 2.0.0-1
-  bugs:
-    - 888151
 ruby-mecab:
   version: 0.99.6-2
   issues:
@@ -24084,8 +24069,6 @@ ruby-redcarpet:
   version: 3.3.4-2
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 890850
 ruby-redcloth:
   version: 4.2.9-5
   issues:
@@ -24192,7 +24175,6 @@ ruby-sshkit:
   version: 1.9.0-1
   bugs:
     - 853244
-    - 892194
 ruby-termios:
   version: 1.0.0-1
   issues:
