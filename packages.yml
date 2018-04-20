@@ -7330,6 +7330,10 @@ gitlab-workhorse:
   version: 0.7.2-1
   issues:
     - golang_compiler_captures_build_path_in_binary
+gitlint:
+  version: 0.9.0-2
+  bugs:
+    - 896070
 gitmagic:
   version: 20160304-1
   issues:
@@ -18371,6 +18375,8 @@ pidgin:
   version: 2.11.0-1
   issues:
     - captures_build_path
+  bugs:
+    - 862678
 pidgin-blinklight:
   version: 0.11.1-3
   issues:
@@ -19804,6 +19810,8 @@ python-escript:
     - users_and_groups_in_tarball
     - different_due_to_umask
     - fonts_in_pdf_files
+  bugs:
+    - 896104
 python-espeak:
   version: 0.5-1
   issues:
@@ -19964,6 +19972,10 @@ python-mhash:
   version: 1.4-1.1
   issues:
     - gcc_captures_build_path
+python-mne:
+  version: 0.15.2+dfsg-2
+  bugs:
+    - 896025
 python-nacl:
   version: 1.0.1-2
   comments: |
@@ -25426,6 +25438,10 @@ sphinx-intl:
   version: 0.9.10-1
   bugs:
     - 881258
+sphinxcontrib-bibtex:
+  version: 0.3.6-2
+  bugs:
+    - 895882
 sphinxcontrib-programoutput:
   version: 0.8-4
   comments: |
@@ -25994,6 +26010,8 @@ symfony:
   version: 2.7.5+dfsg-1
   issues:
     - ftbfs_uninvestigated_test_failures
+  bugs:
+    - 896108
 sympy:
   version: 0.7.5-4
   issues:
