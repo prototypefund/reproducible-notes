@@ -625,10 +625,6 @@ timestamps_in_qch:
     I suspect we just need a few sorts (and some time to build qt4-x11...)
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInDatabaseGeneratedByQhelpgenerator
   deterministic: True
-random_ispell_hash_files:
-  description: |
-    buildhash from ispell produces undeterministic .hash files.
-  url: https://bugs.debian.org/778862
 timestamps_in_java_stapler_files:
   description: |
     Another variation of timestamps_in_maven_version_files where someone's
