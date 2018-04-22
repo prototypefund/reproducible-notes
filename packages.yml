@@ -3210,12 +3210,6 @@ cortina:
   version: 1.1.1-1
   comments: |
     Seems to be missing some translations in the b build
-courier-authlib:
-  version: 0.66.4-3
-  comments: |
-    Captures SHELL but via autotools.. which should not be a problem due to export in debian/rules?
-  issues:
-    - captures_shell_variable_in_autofoo_script
 courier-unicode:
   version: 1.4-2
   comments: |
