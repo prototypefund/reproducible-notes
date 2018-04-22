@@ -27037,6 +27037,8 @@ u-boot:
   comments: |
     [armhf,arm64] On amd64, build path variations do not impact the
     only package built, u-boot-tools.
+    [armhf] 2018.05~rc2+: dra7xx_evm target may be using "lzop" which
+    makes archives containing timestamps and/or umask.
   issues:
     - gcc_captures_build_path
 u1db:
