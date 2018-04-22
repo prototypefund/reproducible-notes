@@ -1464,8 +1464,6 @@ beansbinding:
   version: 1.2.1-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
-  bugs:
-    - 893100
 beast-mcmc:
   version: 1.8.4+dfsg.1-1
   issues:
@@ -2548,8 +2546,6 @@ cglib:
   version: 3.2.4-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-  bugs:
-    - 892937
 cgoban:
   version: 1.9.14-17
   issues:
@@ -3315,10 +3311,6 @@ cronolog:
   version: 1.6.2+rpk-1
   issues:
     - gcc_captures_build_path
-cronometer:
-  version: 0.9.9+dfsg-1
-  bugs:
-    - 893122
 cronutils:
   version: 1.9-1
   bugs:
@@ -4635,10 +4627,6 @@ e2tools:
   version: 0.0.16-6.1
   issues:
     - gcc_captures_build_path
-easyconf:
-  version: 0.9.5-5
-  bugs:
-    - 893143
 easymock:
   version: 3.4+ds-1
   issues:
@@ -7334,10 +7322,6 @@ gitmagic:
   version: 20160304-1
   issues:
     - random_id_in_pdf_generated_by_dblatex
-gitpkg:
-  version: 0.28
-  bugs:
-    - 820842
 givaro:
   version: 4.0.1-2
   issues:
@@ -7474,7 +7458,6 @@ gmic:
   version: 1.6.0.1-1
   bugs:
     - 820742
-    - 892123
 gmime:
   version: 2.6.20-1
   comments: |
@@ -15070,8 +15053,6 @@ mongodb:
   issues:
     - timestamps_from_cpp_macros
     - diffoscope_runs_forever
-  bugs:
-    - 882643
 monkeysign:
   version: 2.2.1
   comments: |
@@ -23538,10 +23519,6 @@ ruby-awesome-print:
   version: 1.6.1-2
   bugs:
     - 888119
-ruby-backports:
-  version: 3.6.8-1
-  bugs:
-    - 888147
 ruby-bcrypt:
   version: 3.1.11-1
   issues:
@@ -23727,10 +23704,6 @@ ruby-filesystem:
   version: 0.5-5.1
   issues:
     - gcc_captures_build_path
-ruby-flipper:
-  version: 0.10.2-1
-  bugs:
-    - 877810
 ruby-ftw:
   version: 0.0.44-1
   bugs:
@@ -23762,7 +23735,6 @@ ruby-gpgme:
 ruby-grape:
   version: 0.16.2-2
   bugs:
-    - 877257
     - 890257
 ruby-grape-entity:
   version: 0.6.0-1
@@ -23990,10 +23962,6 @@ ruby-posix-spawn:
   version: 0.3.11-1
   issues:
     - gcc_captures_build_path
-ruby-powerpack:
-  version: 0.1.1-3
-  bugs:
-    - 888191
 ruby-prof:
   version: 0.16.2+dfsg-2
   bugs:
@@ -24540,7 +24508,6 @@ scim-unikey:
   version: 0.3.1+debian-3.1
   bugs:
     - 811766
-    - 831158
 sciscipy:
   version: 1.0.1-2
   issues:
@@ -27589,8 +27556,6 @@ vtk6:
     - timestamps_in_dvi_generated_by_latex
     - blacklisted_on_jenkins_armhf_only
     - ftbfs_in_jenkins_setup
-  bugs:
-    - 893789
 vtprint:
   version: 2.0.2-13
   issues:
