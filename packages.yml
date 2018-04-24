@@ -18292,6 +18292,10 @@ php-cache-lite:
   version: 1.7.16-2
   bugs:
     - 882888
+php-console-commandline:
+  version: 1.2.1-1
+  issues:
+    - timestamp_in_pear_registry_files
 php-crypt-chap:
   version: 1.5.0-2
   bugs:
@@ -18432,6 +18436,10 @@ php-net-dns2:
     - timestamp_in_pear_registry_files
 php-net-ftp:
   version: 1:1.4.0-2
+  issues:
+    - timestamp_in_pear_registry_files
+php-net-idna2:
+  version: 0.1.1-1
   issues:
     - timestamp_in_pear_registry_files
 php-net-imap:
