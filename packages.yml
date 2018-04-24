@@ -320,6 +320,8 @@ alembic:
   version: 0.8.7-2
   issues:
     - randomness_in_documentation_generated_by_sphinx
+  bugs:
+    - 896485
 allegro5:
   version: 2:5.0.11-1
   comments: |
@@ -1448,6 +1450,8 @@ bcfg2:
   version: 1.3.5-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
+  bugs:
+    - 896618
 bcftools:
   version: 1.3.1-1
   bugs:
@@ -1893,6 +1897,10 @@ botch:
   version: 0.5-1~experimental1
   issues:
     - randomness_in_ocaml_preprocessed_files
+bottleneck:
+  version: 1.2.0-6
+  bugs:
+    - 896619
 bouncycastle:
   version: 1.54-1
   issues:
@@ -2826,6 +2834,7 @@ cloud-sptheme:
   bugs:
     - 854332
     - 854342
+    - 896613
 cloudcompare:
   version: 2.9.1+git20180223-1
   bugs:
@@ -4131,6 +4140,7 @@ dipy:
   version: 0.7.1-2
   bugs:
     - 830425
+    - 896620
 dircproxy:
   version: 1.0.5-5.2
   issues:
@@ -4965,6 +4975,10 @@ elvish:
   version: 0.11+ds1-3
   issues:
     - randomness_in_binaries_generated_by_golang
+emacs-pdf-tools:
+  version: 0.80-1
+  bugs:
+    - 896562
 emacs24:
   version: 24.4+1-5
   issues:
@@ -8677,6 +8691,10 @@ guiqwt:
   version: 3.0.1-1
   issues:
     - captures_build_path
+gummi:
+  version: 0.6.6-4
+  bugs:
+    - 896566
 gunroar:
   version: 0.15.dfsg1-8
   bugs:
@@ -8873,6 +8891,8 @@ heat:
   version: 2014.1.3-7
   issues:
     - randomness_in_documentation_generated_by_sphinx
+  bugs:
+    - 896621
 hebcal:
   version: 3.5-2
   issues:
@@ -10278,6 +10298,8 @@ julia:
     .
     main binary package: Inconclusive: there are differences, but it is unknown whether they are
       fallout of the above issue or independent.
+  bugs:
+    - 896622
 juman:
   version: 7.0-3.2
   issues:
@@ -14370,6 +14392,10 @@ makefs:
   version: 20100306-6
   issues:
     - gcc_captures_build_path
+mako:
+  version: 1.0.7+ds1-1
+  bugs:
+    - 896623
 malaga:
   version: 7.12-5.2
   issues:
@@ -15400,6 +15426,10 @@ mrrescue:
   version: 1.02c-2
   issues:
     - different_due_to_umask
+mrs:
+  version: 6.0.5+dfsg-4
+  bugs:
+    - 893526
 mrtdreader:
   version: 0.1.6-1
   issues:
@@ -18920,6 +18950,8 @@ portabase:
   version: 2.1+git20120910-1.1
   issues:
     - randomness_in_documentation_generated_by_sphinx
+  bugs:
+    - 896611
 portlet-api-2.0-spec:
   version: 1.0-2.1
   issues:
@@ -19308,6 +19340,10 @@ prooftree:
   version: 0.12-2
   issues:
     - captures_build_path
+prospector:
+  version: 0.12.7-2
+  bugs:
+    - 896624
 protobuf:
   version: 3.0.0-9
   bugs:
@@ -19515,6 +19551,10 @@ pyepl:
     - captures_build_path
   bugs:
     - 840377
+pyevolve:
+  version: 0.6~rc1+svn398+dfsg-9
+  bugs:
+    - 896625
 pyexiv2:
   version: 0.3.2-8
   issues:
@@ -19536,6 +19576,8 @@ pyfr:
   version: 1.5.0-1
   issues:
     - randomness_in_property_annotations_generated_by_sphinx
+  bugs:
+    - 896626
 pyfribidi:
   version: 0.11.0+repack-1
   issues:
@@ -19563,6 +19605,10 @@ pygdchart2:
     - gcc_captures_build_path
   bugs:
     - 880780
+pygments:
+  version: 2.2.0+dfsg-1
+  bugs:
+    - 896627
 pygobject-2:
   version: 2.28.6-13
   issues:
@@ -19651,6 +19697,8 @@ pymvpa2:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - captures_build_path
+  bugs:
+    - 896628
 pynifti:
   version: 0.20100607.1-4.1
   issues:
@@ -19837,6 +19885,10 @@ python-bioblend:
   version: 0.7.0-2
   issues:
     - randomness_in_documentation_generated_by_sphinx
+python-biom-format:
+  version: 2.1.5+dfsg-7
+  bugs:
+    - 896629
 python-biopython:
   version: 1.68+dfsg-1
   issues:
@@ -19890,6 +19942,7 @@ python-click:
   version: 6.7-3.1
   bugs:
     - 895270
+    - 896630
 python-cogent:
   version: 1.5.3-2
   issues:
@@ -19909,6 +19962,8 @@ python-cryptography:
   version: 1.5.2-1
   issues:
     - captures_build_arch
+  bugs:
+    - 896631
 python-csb:
   version: 1.2.3+dfsg-3
   issues:
@@ -19999,6 +20054,8 @@ python-expyriment:
   version: 0.7.0+git34-g55a4e7e-3
   issues:
     - timestamps_in_pdf_generated_by_latex
+  bugs:
+    - 896632
 python-fabio:
   version: 0.4.0+dfsg-2
   comments: |
@@ -20189,6 +20246,8 @@ python-numpy:
   version: 1.8.2-2
   issues:
     - timestamps_in_pdf_generated_by_matplotlib
+  bugs:
+    - 896633
 python-omniorb:
   version: 3.6-1
   issues:
@@ -20366,6 +20425,10 @@ python-rtslib-fb:
   version: 2.1.57+debian-4
   issues:
     - randomness_in_documentation_generated_by_epydoc
+python-saharaclient:
+  version: 1.5.0-3
+  bugs:
+    - 896634
 python-schema-salad:
   version: 2.2.20170111180227-1
   issues:
@@ -20376,6 +20439,8 @@ python-scipy:
     - timestamps_in_documentation_generated_by_sphinx
     - timestamps_in_pdf_generated_by_matplotlib
     - blacklisted_on_jenkins_armhf_only
+  bugs:
+    - 896635
 python-scrapy:
   version: 1.5.0-1
   bugs:
@@ -20574,6 +20639,8 @@ pyxb:
   version: 1.2.6+dfsg-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
+  bugs:
+    - 896614
 pyxdg:
   version: 0.25-4
   bugs:
@@ -20963,6 +21030,10 @@ quantlib-swig:
   version: 1.8-2
   issues:
     - gcc_captures_build_path
+quark-sphinx-theme:
+  version: 0.5.0-1
+  bugs:
+    - 896606
 quelcom:
   version: 0.4.0-13
   issues:
@@ -24943,6 +25014,7 @@ sfepy:
   version: 2016.2-4
   bugs:
     - 882639
+    - 896616
 sfst:
   version: 1.4.7b-1
   comments: |
@@ -25604,6 +25676,10 @@ sphinx:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - randomness_in_documentation_indices_generated_by_sphinx
+sphinx-argparse:
+  version: 0.1.15-3
+  bugs:
+    - 896636
 sphinx-gallery:
   version: 0.1.13-1
   bugs:
@@ -26625,6 +26701,10 @@ texi2html:
     The $USER value the code uses may be the full name from GECOS.  That is currently set to "second user" on the second build and is null on the first build, which explains the observations.
   issues:
     - texi2html_captures_users_gecos
+texmaker:
+  version: 5.0.2-1
+  bugs:
+    - 896567
 textedit.app:
   version: 4.0+20061029-3.4
   issues:
@@ -26633,6 +26713,10 @@ textql:
   version: 2.0.3-2
   issues:
     - randomness_in_binaries_generated_by_golang
+texworks:
+  version: 0.6.2-2
+  bugs:
+    - 896568
 texworks-manual:
   version: 20150506-2
   issues:
