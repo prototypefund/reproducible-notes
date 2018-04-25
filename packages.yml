@@ -647,6 +647,10 @@ apertium-af-nl:
   version: 0.2.0~r58256-1
   issues:
     - nondeterminism_in_autolex_bin
+apertium-apy:
+  version: 0.9.1~r343-4
+  bugs:
+    - 896719
 apertium-arg-cat:
   version: 0.1.0~r64925-1
   issues:
@@ -850,6 +854,10 @@ apt-dpkg-ref:
     - timestamps_in_ps_generated_by_dvips
     - timestamps_in_dvi_generated_by_latex
     - random_id_in_pdf_generated_by_dblatex
+apt-listdifferences:
+  version: '1.20170813'
+  bugs:
+    - 896722
 aptly:
   version: 0.9.7-1
   issues:
@@ -1243,6 +1251,10 @@ aws-sdk-for-php:
   comments: |
     PDF CreationDate header is a repr of a Python instance that contains a
     non-deterministic memory address. This is caused by a bug in rst2pdf.
+awscli:
+  version: 1.14.44-1
+  bugs:
+    - 896723
 ax25-tools:
   version: 0.0.10-rc4-1
   issues:
@@ -1891,6 +1903,8 @@ botch:
   version: 0.5-1~experimental1
   issues:
     - randomness_in_ocaml_preprocessed_files
+  bugs:
+    - 896797
 bottleneck:
   version: 1.2.0-6
   bugs:
@@ -2262,6 +2276,10 @@ cantor:
   version: 4:16.08.3-1
   issues:
     - build_id_differences_only
+cappuccino:
+  version: 0.5.1-8
+  bugs:
+    - 896752
 captagent:
   version: 6.1.0.20-3
   bugs:
@@ -2323,6 +2341,10 @@ castxml:
   version: 0.1+git20160706-1
   issues:
     - gcc_captures_build_path
+catfish:
+  version: 1.4.4-1
+  bugs:
+    - 896724
 caveexpress:
   version: 2.4+git20160609-2
   issues:
@@ -2672,6 +2694,10 @@ chromaprint:
   version: 1.3.2-2
   issues:
     - build_id_variation_requiring_further_investigation
+chrome-gnome-shell:
+  version: 10-1
+  bugs:
+    - 896761
 chromium-browser:
   version: 48.0.2564.82-2
   issues:
@@ -4220,6 +4246,10 @@ dkg-handwriting:
   version: 0.15-1
   issues:
     - fontforge_resets_modification_time
+dkimpy:
+  version: 0.7.1-1
+  bugs:
+    - 896753
 dleyna-server:
   version: 0.4.0-1.1
   issues:
@@ -4228,6 +4258,10 @@ dlib:
   version: 18.18-1
   issues:
     - gcc_captures_build_path
+dlmodelbox:
+  version: 0.1.2-2
+  bugs:
+    - 896725
 dms:
   version: 1.0.8.1-1
   bugs:
@@ -4417,6 +4451,10 @@ doxygen:
   issues:
     - timezones_manpages_podman
     - captures_build_path
+doxyqml:
+  version: 0.3.0-1
+  bugs:
+    - 896754
 dpkg:
   version: 1.18.23
   bugs:
@@ -6443,6 +6481,10 @@ fregression:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
+frescobaldi:
+  version: 3.0.0+ds1-1
+  bugs:
+    - 896755
 fritzing:
   version: 0.9.3b+dfsg-3
   comments: |
@@ -6782,6 +6824,8 @@ gaupol:
   version: 1.3.1-1
   issues:
     - translations_missing_in_desktop_files
+  bugs:
+    - 896756
 gav:
   version: 0.9.0-3
   issues:
@@ -7058,6 +7102,10 @@ gedit-plugins:
       2) The .po suffix rules in po/Makefile.in.in
   issues:
     - translations_missing_in_desktop_files
+gedit-source-code-browser-plugin:
+  version: 3.0.3-5
+  bugs:
+    - 896726
 gegl:
   version: 0.2.0-7.1
   comments: |
@@ -7455,6 +7503,10 @@ globus-common:
   version: 16.4-1
   issues:
     - captures_build_path
+glogic:
+  version: 2.6-3
+  bugs:
+    - 896744
 glosstex:
   version: 0.4.dfsg.1-3
   issues:
@@ -7471,6 +7523,10 @@ glyr:
   version: 1.0.9-1
   issues:
     - build_id_differences_only
+gmailieer:
+  version: 0.6-1
+  bugs:
+    - 896727
 gmchess:
   version: 0.29.6-2
   issues:
@@ -7605,6 +7661,10 @@ gnome-games-app:
   version: 3.24.0.2-1
   issues:
     - gcc_captures_build_path
+gnome-gmail:
+  version: 2.5.4-2
+  bugs:
+    - 896757
 gnome-keyring:
   version: 3.20.0-2
   bugs:
@@ -8384,6 +8444,10 @@ graywolf:
   version: 0.1.4-1
   issues:
     - build_id_differences_only
+grc:
+  version: 1.11.1-1
+  bugs:
+    - 896743
 grcm:
   version: 0.1.6-1
   issues:
@@ -8431,6 +8495,10 @@ grig:
   version: 0.8.1-1
   issues:
     - gcc_captures_build_path
+gringo:
+  version: 5.2.2-5
+  bugs:
+    - 896791
 groestlcoin:
   version: 2.11.0+20160407-4
   bugs:
@@ -8439,6 +8507,10 @@ groff:
   version: 1.22.3-8
   issues:
     - captures_build_path
+grokevt:
+  version: 0.5.0-1
+  bugs:
+    - 896758
 gromacs:
   version: 5.1.2-1
   comments: |
@@ -8657,6 +8729,10 @@ guessit:
   version: 0.11.0-2
   bugs:
     - 881289
+gui-ufw:
+  version: 17.04.1-1.1
+  bugs:
+    - 896759
 guice:
   version: 4.0-1
   issues:
@@ -8891,6 +8967,10 @@ heimdal:
   version: 1.7~git20160515+dfsg-1
   issues:
     - captures_build_arch
+helpman:
+  version: 2.1-1
+  bugs:
+    - 896762
 hepmc:
   version: 2.06.09-1
   issues:
@@ -9456,6 +9536,10 @@ ion:
   version: 3.2.1+dfsg-1.1
   bugs:
     - 853456
+iotop:
+  version: 0.6-2
+  bugs:
+    - 896792
 ip4r:
   version: 2.1.1-1
   issues:
@@ -9976,6 +10060,10 @@ jd:
   version: 1:2.8.9-150226-5
   issues:
     - gcc_captures_build_path
+jdcal:
+  version: 1.0-1.2
+  bugs:
+    - 896763
 jdupes:
   version: 1.7-2
   issues:
@@ -10048,6 +10136,10 @@ jigsaw-generator:
   version: 0.2.4-1
   issues:
     - pdf_id_varying_due_to_build_path
+jinja2:
+  version: 2.10-1
+  bugs:
+    - 896751
 jmdns:
   version: 3.4.2-1
   issues:
@@ -11409,6 +11501,10 @@ lazarus:
   version: 1.6+dfsg-4
   issues:
     - diffoscope_runs_forever
+lazygal:
+  version: 0.9.1-1
+  bugs:
+    - 896730
 lcm:
   version: 1.3.1+repack1-1
   issues:
@@ -13817,6 +13913,10 @@ liggghts:
   version: 3.4.0+repack1-2
   issues:
     - build_id_differences_only
+lightdm-gtk-greeter-settings:
+  version: 1.2.2-1
+  bugs:
+    - 896731
 lightproof:
   version: 1.5+git20140515-1
   bugs:
@@ -14707,6 +14807,10 @@ menu:
   version: 2.1.47
   issues:
     - gcc_captures_build_path
+menulibre:
+  version: 2.2.0-1
+  bugs:
+    - 896732
 mercurial:
   version: 4.0-1
   bugs:
@@ -15370,6 +15474,8 @@ mplayer:
   version: 2:1.3.0-3
   issues:
     - gcc_captures_build_path
+  bugs:
+    - 896805
 mpm-itk:
   version: 2.4.7-04-1
   issues:
@@ -16050,6 +16156,8 @@ nfoview:
   version: 1.23-1
   issues:
     - translations_missing_in_desktop_files
+  bugs:
+    - 896765
 nfqueue-bindings:
   version: 0.6-1
   issues:
@@ -16380,6 +16488,10 @@ nordugrid-arc-doc:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - fonts_in_pdf_files
+nosexcover:
+  version: 1.0.11-1
+  bugs:
+    - 896733
 nostalgy:
   version: 0.2.33-1
   comments: |
@@ -17097,6 +17209,8 @@ openalpr:
   version: 2.3.0-1
   issues:
     - build_id_differences_only
+  bugs:
+    - 896793
 openambit:
   version: 0.3-1
   issues:
@@ -17352,6 +17466,10 @@ openscad:
   version: 2015.03-1+dfsg-3
   issues:
     - captures_build_path
+openscap-daemon:
+  version: 0.1.8-1
+  bugs:
+    - 896766
 opensips:
   version: 2.2.2-3
   issues:
@@ -18578,6 +18696,10 @@ piespy:
   version: 0.4.0-3
   issues:
     - timestamps_in_jar
+piglit:
+  version: 0~git20170210-508210dc1-1.1
+  bugs:
+    - 896801
 pike7.8:
   version: 7.8.866-3
   issues:
@@ -18725,6 +18847,10 @@ plastimatch:
   version: 1.6.3+dfsg-1
   issues:
     - gcc_captures_build_path
+playitslowly:
+  version: 1.5.0-1
+  bugs:
+    - 896768
 pldebugger:
   version: 9.5.0-10-gd663a19-1
   issues:
@@ -19743,6 +19869,14 @@ pyotherside:
   version: 1.2.0-1
   issues:
     - captures_build_path
+pypeg2:
+  version: 2.15.2-1
+  bugs:
+    - 896735
+pypolicyd-spf:
+  version: 2.0.2-1
+  bugs:
+    - 896772
 pyprotocols:
   version: 1.0a.svn20070625-7
   issues:
@@ -20011,6 +20145,10 @@ python-enable:
   version: 4.5.1-3
   issues:
     - gcc_captures_build_path
+python-enigma:
+  version: 0.1-1
+  bugs:
+    - 896774
 python-escript:
   version: 4.2.0.1-1
   issues:
@@ -20109,6 +20247,10 @@ python-gudev:
   version: 147.2-3
   issues:
     - gcc_captures_build_path
+python-hpilo:
+  version: 3.9-1
+  bugs:
+    - 896776
 python-http-parser:
   version: 0.8.3-2
   issues:
@@ -20332,6 +20474,10 @@ python-pyaudio:
   issues:
     - random_order_in_python_environment_pickle
     - captures_build_path
+python-pyelftools:
+  version: 0.24-4
+  bugs:
+    - 896779
 python-pyftpdlib:
   version: 1.5.1-3
   bugs:
@@ -20391,6 +20537,10 @@ python-qtconsole:
     [experimental/amd64]
   issues:
     - user_hostname_manually_added_requiring_further_investigation
+python-ratelimiter:
+  version: 1.2.0-1
+  bugs:
+    - 896736
 python-raven:
   version: 6.3.0-2
   bugs:
@@ -20402,6 +20552,10 @@ python-reportlab:
     CreationDate and ID varying.
   issues:
     - gcc_captures_build_path
+python-requests-cache:
+  version: 0.4.13-1
+  bugs:
+    - 896782
 python-rtslib-fb:
   version: 2.1.57+debian-4
   issues:
@@ -20448,6 +20602,10 @@ python-skbio:
     Differences in PNG images and random order in documentation.
   bugs:
     - 894326
+python-slip:
+  version: 0.6.5-2
+  bugs:
+    - 896783
 python-smbpasswd:
   version: 1.0.1-1.3
   issues:
@@ -21023,6 +21181,10 @@ quesoglc:
   version: 0.7.2-5
   issues:
     - gcc_captures_build_path
+quickcal:
+  version: 2.1-1
+  bugs:
+    - 896784
 quickfix:
   version: 1.13.3+dfsg-9
   issues:
@@ -21066,6 +21228,10 @@ quotecolors:
     https://sources.debian.net/src/quotecolors/0.3-4/debian/rules/#L11
   issues:
     - timestamps_in_jar
+qutebrowser:
+  version: 1.2.1-1
+  bugs:
+    - 896737
 quvi:
   version: 0.9.4-1.1
   comments: |
@@ -23200,6 +23366,10 @@ radare2:
   comments: |
     Embeds build date into source.
     https://sources.debian.net/src/radare2/0.9.6-3.1/binr/blob/version.c/#L7
+radicale:
+  version: 1.1.6-1
+  bugs:
+    - 896738
 radiusd-livingston:
   version: 2.1-21
   issues:
@@ -23394,6 +23564,10 @@ reiser4progs:
   version: 1.1.0-1.1
   issues:
     - gcc_captures_build_path
+relational:
+  version: 2.5-1
+  bugs:
+    - 896785
 relaxngcc:
   version: 1.12-1
   issues:
@@ -23454,6 +23628,10 @@ retro-gtk:
   version: 0.10.0-1
   issues:
     - gcc_captures_build_path
+revolt:
+  version: 0.0+git20170627.3f5112b-2.1
+  bugs:
+    - 896739
 rgain:
   version: 1.3.3-1
   issues:
@@ -23691,6 +23869,10 @@ routino:
   version: 3.1.1-3
   comments: |
     Uses Perl::Magick to write PNGs with differing image data.
+rows:
+  version: 0.3.1-2
+  bugs:
+    - 896740
 rox:
   version: 1:2.11-1
   issues:
@@ -23751,6 +23933,10 @@ rss-glx:
   version: 0.9.1-6
   issues:
     - gcc_captures_build_path
+rss2email:
+  version: 1:3.9-4
+  bugs:
+    - 896786
 rss2irc:
   version: 1.0.6-3
   bugs:
@@ -25555,6 +25741,10 @@ soqt:
   version: 1.6.0~e8310f-3
   issues:
     - records_build_flags
+sortedcollections:
+  version: 0.5.3-1
+  bugs:
+    - 896808
 sortmail:
   version: 1:2.4-1
   issues:
@@ -26251,6 +26441,8 @@ sympy:
   version: 0.7.5-4
   issues:
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
+  bugs:
+    - 896747
 synaesthesia:
   version: 2.4-5
   issues:
@@ -26717,6 +26909,10 @@ theano:
   version: 0.8.2-6
   issues:
     - ftbfs_in_jenkins_setup
+themole:
+  version: 0.3-1
+  bugs:
+    - 896741
 thepeg:
   version: 1.8.0-3
   bugs:
@@ -27366,6 +27562,10 @@ uftrace:
   issues:
     - captures_build_path_via_assert
     - max_output_size_reached
+ufw:
+  version: 0.35-5
+  bugs:
+    - 896787
 uhub:
   version: 0.4.1-3
   issues:
@@ -27900,6 +28100,8 @@ vulkan:
   version: 1.0.21.0+dfsg1-1
   issues:
     - build_id_differences_only
+  bugs:
+    - 896796
 w3cam:
   version: 0.7.2-6.2
   issues:
@@ -28034,6 +28236,10 @@ webkitgtk:
   issues:
     - diffoscope_runs_forever
     - blacklisted_on_jenkins_armhf_only
+weborf:
+  version: 0.14-1
+  bugs:
+    - 896795
 weechat:
   version: 1.5-1
   issues:
@@ -28075,6 +28281,10 @@ wget2:
   version: 0.0.20170806-1
   bugs:
     - 887630
+whatmaps:
+  version: 0.0.12-2
+  bugs:
+    - 896742
 whitedb:
   version: 0.7.3-3
   bugs:
@@ -28998,6 +29208,12 @@ yosys:
     - timestamps_in_pdf_generated_by_latex
     - fonts_in_pdf_files
     - records_build_flags
+  bugs:
+    - 896802
+youtube-dl:
+  version: 2018.03.14-1
+  bugs:
+    - 896789
 yp-tools:
   version: 3.3-5
   bugs:
