@@ -5692,8 +5692,6 @@ felix-latin:
   version: 2.0-8
   comments: |
     uses imagemagick to create help.tif. would be fixed by 819914
-  issues:
-    - timestamps_manually_added_needs_further_investigation
 felix-main:
   version: 5.0.0-4
   issues:
@@ -25443,8 +25441,6 @@ sketch:
     - captures_build_path
 skimage:
   version: 0.12.3-1
-  issues:
-    - timestamps_in_pdf_generated_by_matplotlib
   bugs:
     - 895769
 skinedit:
