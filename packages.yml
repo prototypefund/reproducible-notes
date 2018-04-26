@@ -16483,8 +16483,6 @@ nordugrid-arc:
   issues:
     - blacklisted_on_jenkins_armhf_only
     - timestamps_in_jar
-  bugs:
-    - 893425
 nordugrid-arc-doc:
   version: 1.5.0-1
   issues:
@@ -19012,10 +19010,6 @@ poe.app:
   version: 0.5.1-5
   issues:
     - gcc_captures_build_path
-policykit-1:
-  version: 0.105-18
-  bugs:
-    - 894205
 polkit-qt-1:
   version: 0.112.0-5
   issues:
@@ -19405,8 +19399,6 @@ prometheus-alertmanager:
   version: 0.3.0+ds-2
   issues:
     - golang_compiler_captures_build_path_in_binary
-  bugs:
-    - 892164
 prometheus-apache-exporter:
   version: 0.5.0+ds-1
   issues:
@@ -26789,8 +26781,6 @@ telepathy-qt:
   version: 0.9.6.1-6.1
   issues:
     - build_id_differences_only
-  bugs:
-    - 894154
 tempest-for-eliza:
   version: 1.0.5-2
   issues:
