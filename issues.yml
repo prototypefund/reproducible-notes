@@ -1818,3 +1818,7 @@ build_path_in_mip_files_generated_by_irafcl:
 build_path_in_index_files_generated_by_qdoc:
   description: |
     eg. .index files have a filepath XML attribute.
+member_search_index_json:
+  description: |
+    openjdk creates member-search-index.json files in zip files that appear to
+    use the current time?
