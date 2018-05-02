@@ -3289,10 +3289,6 @@ cppunit:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
-cpputest:
-  version: 3.8-5
-  bugs:
-    - 888598
 cpufreqd:
   version: 2.4.2-2
   issues:
@@ -4224,10 +4220,6 @@ django-ratelimit:
   version: 0.4.0+8+gd58c489-3
   bugs:
     - 806355
-django-sekizai:
-  version: 0.10.0-1
-  bugs:
-    - 865590
 django-tables:
   version: 1.14.2-1
   bugs:
@@ -5375,10 +5367,6 @@ exactimage:
   version: 1.0.1-1
   bugs:
     - 895511
-excalibur-logkit:
-  version: 2.0-11
-  bugs:
-    - 893145
 exim4:
   version: 4.87-3
   issues:
@@ -10002,10 +9990,6 @@ jboss-modules:
   version: 1.6.2-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-jboss-threads:
-  version: 2.3.1-1
-  bugs:
-    - 893358
 jbuilder:
   version: 1.0~beta19-1
   bugs:
@@ -10074,10 +10058,6 @@ jets3t:
   version: 0.8.1+dfsg-3
   bugs:
     - 893198
-jexcelapi:
-  version: 2.6.12-2
-  bugs:
-    - 893204
 jfractionlab:
   version: 0.91-3
   issues:
@@ -10304,8 +10284,6 @@ jsxgraph:
   issues:
     - timestamps_in_zip
     - timestamps_in_jsdoc_toolkit_documentation
-  bugs:
-    - 893607
 jta:
   version: 2.6+dfsg-6
   issues:
@@ -12179,8 +12157,6 @@ libfreemarker-java:
   version: 2.3.23-6
   issues:
     - random_order_in_documentation_generated_by_javadoc
-  bugs:
-    - 893288
 libfreenect:
   version: 1:0.5.3-1
   issues:
@@ -13559,10 +13535,6 @@ libtggraphlayout-java:
   version: 122-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
-libtgvoip:
-  version: 1.0~git20170704.445433f-4
-  bugs:
-    - 892824
 libtheora:
   version: 1.1.1+dfsg.1-14
   issues:
@@ -15980,10 +15952,6 @@ network-manager-strongswan:
   version: 1.4.2-2
   bugs:
     - 887951
-networking-l2gw:
-  version: 1:1.0.0+git20160927.29cb4fe3-1
-  bugs:
-    - 881212
 networking-ovs-dpdk:
   version: 2015.1.1+git20151118.35ac4c7-1
   bugs:
@@ -19616,10 +19584,6 @@ pyfribidi:
   version: 0.11.0+repack-1
   issues:
     - build_id_differences_only
-pygame:
-  version: 1.9.3+dfsg-2
-  bugs:
-    - 871910
 pygccjit:
   version: 0.4-3
   issues:
@@ -29116,7 +29080,6 @@ yp-tools:
   version: 3.3-5
   bugs:
     - 836021
-    - 853714
 yrmcds:
   version: 1.1.8-1
   comments: |
