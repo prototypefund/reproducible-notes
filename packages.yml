@@ -513,7 +513,6 @@ ann:
 ant:
   version: 1.9.4-3
   bugs:
-    - 893530
     - 893531
     - 893547
 antelope:
@@ -4914,10 +4913,6 @@ ekg2:
   version: 1:0.4~pre+20120506.1-12
   issues:
     - graphviz_nondeterminstic_output
-elastalert:
-  version: 0.1.28-1
-  bugs:
-    - 892615
 elastix:
   version: 4.8-12
   issues:
@@ -6642,10 +6637,6 @@ galax:
     - timestamps_in_pdf_generated_by_latex
     - user_hostname_manually_added_requiring_further_investigation
     - fonts_in_pdf_files
-galera-3:
-  version: 25.3.20-1
-  bugs:
-    - 853410
 galleta:
   version: 1.0+20040505-8
   issues:
@@ -8213,10 +8204,6 @@ gosu:
   version: 1.6-1
   issues:
     - golang_compiler_captures_build_path_in_binary
-gource:
-  version: 0.47-1
-  bugs:
-    - 888928
 govendor:
   version: 1.0.3+ds1-1
   issues:
@@ -9143,8 +9130,6 @@ httpunit:
   version: 1.7+dfsg-12
   issues:
     - random_order_in_documentation_generated_by_javadoc
-  bugs:
-    - 893158
 httrack:
   version: 3.48.23-1
   issues:
@@ -10271,8 +10256,6 @@ jss:
   version: 4.3.1-6
   issues:
     - timestamps_in_jar
-  bugs:
-    - 893217
 jssip:
   version: 0.6.34-3
   comments: |
@@ -14049,10 +14032,6 @@ logol:
   issues:
     - captures_build_path
     - timestamps_manually_added_needs_further_investigation
-logstalgia:
-  version: 1.1.0-1
-  bugs:
-    - 888927
 logtool:
   version: 1.2.8-8
   issues:
@@ -15120,7 +15099,6 @@ mongo-tools:
   issues:
     - golang_compiler_captures_build_path_in_binary
   bugs:
-    - 863139
     - 891013
 mongodb:
   version: 1:2.4.14-3
@@ -17363,8 +17341,6 @@ openorienteering-mapper:
       The first set of differences is six non-consecutive bytes having different values.
       The second set is a ~1800 bytes long block that has a different value and a different length.
       Q_OBJECT is defined in qtbase-opensource-src.
-  bugs:
-    - 876934
 openscad:
   version: 2015.03-1+dfsg-3
   issues:
@@ -17429,8 +17405,6 @@ openturns:
     https://sources.debian.net/src/openturns/1.5-7/lib/include/CMakeLists.txt/#L29
   issues:
     - randomness_in_r_rdb_rds_databases
-  bugs:
-    - 887005
 openvas-cli:
   version: 1.4.4-1
   issues:
@@ -18282,10 +18256,6 @@ php-image-text:
   version: 0.7.0-2
   issues:
     - timestamp_in_pear_registry_files
-php-invoker:
-  version: 1.1.4-3
-  bugs:
-    - 882906
 php-letodms-core:
   version: 3.4.2-1
   issues:
@@ -25940,20 +25910,10 @@ stardict-czech:
   version: 20171009-1
   issues:
     - timestamps_in_ifo_files_generated_by_python_stardicter
-starjava-topcat:
-  version: 4.5.1-1
-  bugs:
-    - 893531
 starjava-ttools:
   version: 3.1-1
   issues:
     - captures_users_gecos
-  bugs:
-    - 893530
-starjava-util:
-  version: 1.0+2017.09.28-1
-  bugs:
-    - 893529
 starlink-ast:
   version: 8.0.7+dfsg-1
   issues:
@@ -26055,10 +26015,6 @@ strucchange:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
-stylebook:
-  version: 1.0~b3~svn20061109-6
-  bugs:
-    - 893419
 stymulator:
   version: 0.21a~dfsg-1
   issues:
