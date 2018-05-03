@@ -17333,14 +17333,6 @@ openocd:
   version: 0.9.0-1
   issues:
     - random_id_in_pdf_generated_by_dblatex
-openorienteering-mapper:
-  version: 0.6.3-2
-  comments: |
-    1) Captures build date in "Mapper 0.6.3 Manual.qhc".
-    2) /usr/lib/openorienteering-mapper/bin/Mapper: Two distinct binary differences in _ZTS18OverridingShortcut in .rodata .
-      The first set of differences is six non-consecutive bytes having different values.
-      The second set is a ~1800 bytes long block that has a different value and a different length.
-      Q_OBJECT is defined in qtbase-opensource-src.
 openscad:
   version: 2015.03-1+dfsg-3
   issues:
