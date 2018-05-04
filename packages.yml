@@ -513,7 +513,6 @@ ann:
 ant:
   version: 1.9.4-3
   bugs:
-    - 893531
     - 893547
 antelope:
   version: 3.5.1-3
@@ -2120,8 +2119,6 @@ buzztrax:
   version: 0.10.2-4
   issues:
     - captures_build_path_via_assert
-  bugs:
-    - 894149
 bwbasic:
   version: 2.20pl2-11
   issues:
@@ -2446,10 +2443,6 @@ cdi-api:
   version: 1.0-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
-cdk:
-  version: 1:1.2.10-6
-  bugs:
-    - 894467
 cdo:
   version: 1.7.2+dfsg.1-1
   issues:
@@ -2899,10 +2892,6 @@ cmake:
   version: 3.6.1-1
   issues:
     - gcc_captures_build_path
-cmdreader:
-  version: 1.5-1
-  bugs:
-    - 893182
 cmocka:
   version: 1.0.1-2
   issues:
@@ -8350,7 +8339,6 @@ gradle:
   bugs:
     - 873227
     - 882181
-    - 894641
 grafana:
   version: 2.6.0+dfsg-3
   bugs:
@@ -11447,8 +11435,6 @@ lcm:
   issues:
     - captures_shell_variable_in_autofoo_script
     - records_build_flags
-  bugs:
-    - 893552
 lcms2:
   version: 2.8.4
   comments: |
@@ -12476,8 +12462,6 @@ libjackson-json-java:
   version: 1.9.2-8
   issues:
     - random_order_in_documentation_generated_by_javadoc
-  bugs:
-    - 893239
 libjama:
   version: 1.2.4-2
   issues:
@@ -15098,8 +15082,6 @@ mongo-tools:
   version: 3.2.11-1
   issues:
     - golang_compiler_captures_build_path_in_binary
-  bugs:
-    - 891013
 mongodb:
   version: 1:2.4.14-3
   issues:
@@ -20557,10 +20539,6 @@ python-zake:
   version: 0.1.6-1
   bugs:
     - 892746
-python-zeep:
-  version: 2.4.0-1
-  bugs:
-    - 893948
 python2.7:
   version: 2.7.10-2
   comments: |
@@ -20653,7 +20631,6 @@ pyzmq:
     - 818265
     - 818278
     - 846673
-    - 887819
 pyzor:
   version: 1:1.0.0-3
   bugs:
@@ -23691,10 +23668,6 @@ ros-roscpp-core:
   version: 0.6.0-1
   issues:
     - gcc_captures_build_path
-ros-rosinstall:
-  version: 0.7.8-1
-  bugs:
-    - 894699
 ros-rospack:
   version: 2.3.1-1
   issues:
@@ -24000,10 +23973,6 @@ ruby-ferret:
   version: 0.11.8.6-2
   issues:
     - gcc_captures_build_path
-ruby-ffaker:
-  version: 2.2.0-2
-  bugs:
-    - 888187
 ruby-ffi:
   version: 1.9.10debian-1
   issues:
@@ -24060,18 +24029,10 @@ ruby-grape:
   version: 0.16.2-2
   bugs:
     - 890257
-ruby-grape-entity:
-  version: 0.6.0-1
-  bugs:
-    - 888127
 ruby-grape-msgpack:
   version: 0.2.0-1
   bugs:
     - 895132
-ruby-graphviz:
-  version: 1.2.2-1
-  bugs:
-    - 888150
 ruby-grib:
   version: 0.3.0-1
   issues:
@@ -24160,10 +24121,6 @@ ruby-mini-magick:
   version: 4.4.0-1
   bugs:
     - 835078
-ruby-minitest-shared-description:
-  version: 1.0.0-1
-  bugs:
-    - 893823
 ruby-mixlib-install:
   version: 1.1.0-1
   bugs:
@@ -25690,10 +25647,6 @@ sphinx-gallery:
   version: 0.1.13-1
   bugs:
     - 888412
-sphinx-intl:
-  version: 0.9.10-1
-  bugs:
-    - 881258
 sphinxcontrib-autoprogram:
   version: 0.1.4-1
   bugs:
@@ -25749,10 +25702,6 @@ splat:
   version: 1.4.0-3
   issues:
     - gcc_captures_build_path
-spock:
-  version: 0.7-groovy-2.0-3
-  bugs:
-    - 893417
 spooles:
   version: 2.2-11
   comments: |
