@@ -3136,8 +3136,6 @@ condor:
   issues:
     - timestamps_from_cpp_macros
     - different_due_to_umask
-  bugs:
-    - 890007
 configshell:
   version: 1.6.1~g020d540-2
   issues:
@@ -3517,10 +3515,6 @@ cyclograph:
   version: 1.9.1-1
   comments: |
     /usr/share/cyclograph/qt/cyclograph_rc.py contains nondeterminstic image data, probably a timestamp
-cypari2:
-  version: 1.1.4-2
-  bugs:
-    - 895215
 cyphesis-cpp:
   version: 0.6.2-2
   bugs:
@@ -4180,10 +4174,6 @@ django-celery-transactions:
   version: 0.3.6-2
   bugs:
     - 881197
-django-countries:
-  version: 3.4.1-2.1
-  bugs:
-    - 865790
 django-floppyforms:
   version: 1.5.2+dfsg-1
   issues:
@@ -5341,10 +5331,6 @@ exabgp:
   version: 3.4.13-1
   issues:
     - captures_build_arch
-exactimage:
-  version: 1.0.1-1
-  bugs:
-    - 895511
 exim4:
   version: 4.87-3
   issues:
@@ -9434,8 +9420,6 @@ insubstantial:
   version: 7.3+dfsg3-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
-  bugs:
-    - 894288
 integrit:
   version: 4.1-1
   issues:
@@ -9850,8 +9834,6 @@ java-imaging-utilities:
   version: 0.14.3-2
   issues:
     - random_id_in_pdf_generated_by_dblatex
-  bugs:
-    - 894524
 java-policy:
   version: 0.55
   issues:
@@ -9864,10 +9846,6 @@ java3d:
   version: 1.5.2+dfsg-11
   issues:
     - gcc_captures_build_path
-javacc4:
-  version: 4.0-1
-  bugs:
-    - 893342
 javafxsvg:
   version: 1.2.1-1
   bugs:
@@ -10992,10 +10970,6 @@ konsole:
   version: 4:16.04.2-1
   issues:
     - build_id_differences_only
-kopanocore:
-  version: 8.3.4-4
-  bugs:
-    - 883957
 kore:
   version: 2.0.0-2
   issues:
@@ -12059,10 +12033,6 @@ libfastutil-java:
   version: 7.0.2-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-libffado:
-  version: 2.3.0-5
-  bugs:
-    - 887781
 libfile-map-perl:
   version: 0.64-2
   issues:
@@ -13307,10 +13277,6 @@ libsm:
   version: 2:1.2.2-1
   bugs:
     - 812899
-libsmali-java:
-  version: 2.2.2-1
-  bugs:
-    - 894676
 libsmbios:
   version: 2.3.0-1
   issues:
@@ -17629,7 +17595,6 @@ pandas:
     - cython_captures_build_path
   bugs:
     - 877419
-    - 889539
 pango1.0:
   version: 1.42.1-1
   bugs:
@@ -20567,8 +20532,6 @@ qemu:
       https://sources.debian.net/src/qemu/1:2.6%2Bdfsg-3/scripts/hxtool/#L48-L51
     The strings containing «\n» [two bytes] sequences are in *.hx files.
     Makefile invokes hxtool on those files.
-  bugs:
-    - 891375
 qevercloud:
   version: 3.0.3+ds-1
   issues:
@@ -24372,7 +24335,6 @@ runc:
   bugs:
     - 858250
     - 861966
-    - 889704
 runit:
   version: 2.1.2-3
   issues:
@@ -24522,8 +24484,6 @@ saxonb:
   version: 9.1.0.8+dfsg-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-  bugs:
-    - 893412
 saxonhe:
   version: 9.8.0.8+dfsg+1-1
   bugs:
@@ -26711,10 +26671,6 @@ tkdnd:
   version: 2.6-1
   issues:
     - gcc_captures_build_path
-tkmpeg:
-  version: 1.0.5-1
-  bugs:
-    - 890053
 tkrat:
   version: 1:2.2cvs20100105-true-dfsg-6
   issues:
@@ -27802,10 +27758,6 @@ wavbreaker:
   version: 0.11-1
   issues:
     - gcc_captures_build_path
-wavemon:
-  version: 0.8.0-1
-  bugs:
-    - 825544
 wavpack:
   version: 5.0.0-2
   issues:
@@ -28384,10 +28336,6 @@ xiphos:
   version: 4.0.4+dfsg1-1
   issues:
     - gcc_captures_build_path
-xjig:
-  version: 2.4-14
-  bugs:
-    - 777355
 xkbind:
   version: 2010.05.20-1
   issues:
