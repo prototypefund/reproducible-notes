@@ -5448,8 +5448,6 @@ faumachine:
   version: 20160511-1
   comments: |
     sim/Makefile.am has a _lot_ of unsorted wildcard includes. Patch would be quite invasive..
-  issues:
-    - captures_build_path
   bugs:
     - 837450
 faustworks:
