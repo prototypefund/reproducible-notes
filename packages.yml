@@ -5444,12 +5444,6 @@ faulthandler:
   version: 2.4-1
   issues:
     - gcc_captures_build_path
-faumachine:
-  version: 20160511-1
-  comments: |
-    sim/Makefile.am has a _lot_ of unsorted wildcard includes. Patch would be quite invasive..
-  bugs:
-    - 837450
 faustworks:
   version: 0.5~repack0-5
   bugs:
@@ -20508,13 +20502,6 @@ qdbm:
   issues:
     - timestamps_in_jar
     - captures_build_path
-qemu:
-  version: 1:2.6+dfsg-3
-  comments: |
-    «sh -c 'echo "\n"'» has implementation-defined meaning:
-      https://sources.debian.net/src/qemu/1:2.6%2Bdfsg-3/scripts/hxtool/#L48-L51
-    The strings containing «\n» [two bytes] sequences are in *.hx files.
-    Makefile invokes hxtool on those files.
 qevercloud:
   version: 3.0.3+ds-1
   issues:
