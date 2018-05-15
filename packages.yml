@@ -7873,6 +7873,10 @@ golang-github-coreos-go-tspi:
   version: 0.1.1-1
   bugs:
     - 849665
+golang-github-dataence-porter2:
+  version: 0.0~git20150829.56e4718-1
+  issues:
+    - randomness_in_binaries_generated_by_golang
 golang-github-dcso-bloom:
   version: 0.2.0-1
   issues:
@@ -7952,6 +7956,10 @@ golang-github-hashicorp-yamux:
     - ftbfs_uninvestigated_test_failures
   bugs:
     - 852964
+golang-github-influxdata-yarpc:
+  version: 0.0~git20180222.f0da2db-1
+  issues:
+    - randomness_in_binaries_generated_by_golang
 golang-github-jacobsa-ratelimit:
   version: 0.0~git20150723.0.2ca5e0c-1
   bugs:
