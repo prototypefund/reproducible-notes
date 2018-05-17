@@ -7013,7 +7013,6 @@ gegl:
     /usr/share/doc/libgegl-doc/gallery/OpenRaster-04.txt
     /usr/share/doc/libgegl-doc/gallery/clones.txt
   bugs:
-    - 894471
     - 895138
 geis:
   version: 2.2.17-1
@@ -7696,10 +7695,6 @@ gnumail:
     The reason is probably the d/rules changes.  (Adding gnustep-make's config.mk and rewriting override_dh_auto_build)
   issues:
     - gcc_captures_build_path
-gnumeric:
-  version: 1.12.35-1
-  bugs:
-    - 895208
 gnuplot:
   version: 5.0.3+dfsg3-5
   issues:
@@ -12202,8 +12197,6 @@ libhibernate3-java:
   version: 3.6.10.Final-4
   issues:
     - random_order_in_documentation_generated_by_javadoc
-  bugs:
-    - 893240
 libhmsbeagle:
   version: 2.1.2+20160525-1
   issues:
@@ -12853,10 +12846,6 @@ libonemind-commons-java-java:
   version: 1.5.5-6
   issues:
     - random_order_in_documentation_generated_by_javadoc
-liboobs:
-  version: 3.0.0-3
-  bugs:
-    - 876582
 libopenobex:
   version: 1.7.1-4
   issues:
@@ -17930,10 +17919,6 @@ phonon-backend-vlc:
   version: 0.9.0-1
   issues:
     - gcc_captures_build_path
-photoprint:
-  version: 0.4.2~pre2-2.4
-  bugs:
-    - 811806
 php-analog:
   version: 1.0.7-2
   bugs:
@@ -20373,10 +20358,6 @@ pyviennacl:
     - blacklisted_on_jenkins_armhf_only
   bugs:
     - 813083
-pyvo:
-  version: 0.6.1+dfsg-1
-  bugs:
-    - 891740
 pyvtk:
   version: 0.4.74-3.1
   issues:
@@ -23462,8 +23443,6 @@ ros-rospack:
   version: 2.3.1-1
   issues:
     - build_id_differences_only
-  bugs:
-    - 895708
 ros-rviz:
   version: 1.12.4+dfsg-2
   issues:
@@ -28704,10 +28683,6 @@ youtube-dl:
   version: 2018.03.14-1
   bugs:
     - 896789
-yp-tools:
-  version: 3.3-5
-  bugs:
-    - 836021
 yrmcds:
   version: 1.1.8-1
   comments: |
