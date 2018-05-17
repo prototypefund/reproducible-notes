@@ -8043,6 +8043,10 @@ golang-github-tinylib-msgp:
     Looks like its due to random variable numbers in generated code but these are actually deterministic due to golangs implicit rand.Seed(1) - I believe its some kind of arbitrary dict ordering instead
   issues:
     - golang_compiler_captures_build_path_in_binary
+golang-github-vbatts-tar-split:
+  version: 0.10.2-1
+  issues:
+    - randomness_in_binaries_generated_by_golang
 golang-github-vmware-govmomi:
   version: 0.15.0-1
   issues:
