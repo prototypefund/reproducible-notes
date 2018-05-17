@@ -4127,6 +4127,10 @@ directvnc:
   version: 0.7.7-1
   issues:
     - gcc_captures_build_path
+direnv:
+  version: 2.15.2-1
+  issues:
+    - randomness_in_binaries_generated_by_golang
 discover:
   version: 2.1.2-7
   issues:
@@ -7760,6 +7764,10 @@ gobgp:
     - golang_compiler_captures_build_path_in_binary
   bugs:
     - 871692
+gobuster:
+  version: 1.4.1-1
+  issues:
+    - randomness_in_binaries_generated_by_golang
 gocode:
   version: 20170907-2
   issues:
