@@ -5011,10 +5011,6 @@ enigma:
     - gcc_captures_build_path
   bugs:
     - 811826
-enki-aseba:
-  version: 1:1.6.0-5
-  bugs:
-    - 895499
 ent:
   version: 1.2debian-1
   issues:
@@ -9488,10 +9484,6 @@ ipxe:
   version: 1.0.0+git-20150424.a25a16d-1
   comments: |
     incomplete patch here https://gist.github.com/lamby/dfcd18bdf8542a6b72598303817093d0
-ipykernel:
-  version: 4.8.2-2
-  bugs:
-    - 893385
 ir.lv2:
   version: 1.3.3~dfsg0-1
   comments: |
@@ -20769,7 +20761,6 @@ python-tornado:
   version: 5.0.0-1
   bugs:
     - 893360
-    - 893385
     - 893474
 python-traits:
   version: 4.6.0-1
@@ -24862,10 +24853,6 @@ sasview:
     HTML output fixed in 885853 but PDF output still to be fixed.
   issues:
     - randomness_in_documentation_generated_by_sphinx
-sat4j:
-  version: 2.3.5-0.2
-  bugs:
-    - 893411
 sauce:
   version: 0.9.0+nmu3
   issues:
@@ -25445,8 +25432,6 @@ sipxtapi:
     https://sources.debian.net/src/sipxtapi/3.3.0~test17-1/config/sipXpkgtop.mak/
   issues:
     - user_hostname_manually_added_requiring_further_investigation
-  bugs:
-    - 862127
 sisc:
   version: 1.16.6-1.1
   issues:
@@ -27500,9 +27485,7 @@ ucspi-unix:
   issues:
     - random_order_in_md5sums
   bugs:
-    - 777019
     - 847037
-    - 884405
 udisks2:
   version: 2.1.8-1
   issues:
