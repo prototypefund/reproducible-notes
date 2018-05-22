@@ -121,10 +121,6 @@ acl2:
     Update 2017-04-28: tried 7.2dfsg-3 on testing/amd64 and the first build was autokilled after 18h… (so blacklisted again)
   issues:
     - blacklisted_on_jenkins
-acm:
-  version: 5.0-29.1
-  bugs:
-    - 889530
 acmetool:
   version: 0.0.51-1
   issues:
@@ -8747,7 +8743,6 @@ haskell-lambdabot-haskell-plugins:
   version: 5.1-2
   bugs:
     - 842740
-    - 844810
     - 846752
 haskell-mode:
   version: 13.10-3
@@ -9989,8 +9984,6 @@ jmol:
   version: 14.6.4+2016.11.05+dfsg1-3
   issues:
     - random_order_in_documentation_generated_by_javadoc
-  bugs:
-    - 875585
 jnettop:
   version: 0.13.0-1
   issues:
@@ -12867,10 +12860,6 @@ libpam-blue:
   version: 0.9.0-3
   issues:
     - gcc_captures_build_path
-libpam-chroot:
-  version: 0.9-4.2
-  bugs:
-    - 853502
 libpam-ldap:
   version: 186-1
   comments: |
@@ -12978,10 +12967,6 @@ libprintsys:
   version: 0.6-13
   issues:
     - gcc_captures_build_path
-libproxool-java:
-  version: 0.9.1-9
-  bugs:
-    - 893269
 libproxy:
   version: 0.4.11-5
   issues:
@@ -13731,10 +13716,6 @@ live-manual:
     - different_due_to_umask
     - timestamps_in_epub
     - timestamps_in_pdf_content
-livetribe-jsr223:
-  version: 2.0.6-1
-  bugs:
-    - 893297
 lizardfs:
   version: 3.10.0+dfsg-1
   issues:
@@ -14817,10 +14798,6 @@ mod-dnssd:
     - different_encoding
   bugs:
     - 828752
-mod-gnutls:
-  version: 0.8.2-3
-  bugs:
-    - 894874
 mod-mono:
   version: 3.8-3
   issues:
@@ -15206,10 +15183,6 @@ mrtg:
   version: 2.17.4-4
   issues:
     - gcc_captures_build_path
-mruby:
-  version: 1.4.0+20180418+git54905e98-1
-  bugs:
-    - 896162
 msgpack-c:
   version: 1.4.2-3
   issues:
@@ -15429,8 +15402,6 @@ n2n:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/n2n/1.3.1%7Esvn3789-5/Makefile/?hl=60#L60
-  bugs:
-    - 833819
 nacl:
   version: 20110221-4.1
   issues:
@@ -16123,8 +16094,6 @@ nomacs:
   version: 3.0.0+dfsg2-1
   issues:
     - build_id_differences_only
-  bugs:
-    - 896472
 nomad:
   version: 0.4.0+dfsg-1
   issues:
@@ -23447,10 +23416,6 @@ rally:
   version: 0.2.0-1.2
   bugs:
     - 881209
-range-v3:
-  version: 0.3.5-1
-  bugs:
-    - 893554
 rapache:
   version: 1.2.8-1
   issues:
@@ -24176,10 +24141,6 @@ ruby-fast-xs:
   version: 0.8.0-3
   issues:
     - gcc_captures_build_path
-ruby-fastimage:
-  version: 2.1.1-1
-  bugs:
-    - 895610
 ruby-fcgi:
   version: 0.9.2.1-2
   issues:
@@ -24779,8 +24740,6 @@ sambamba:
   version: 0.6.6-1
   issues:
     - buildpath_in_binaries_generated_by_d_compiler_gdc
-  bugs:
-    - 893664
 samhain:
   version: 4.1.4-2
   comments: |
@@ -28723,8 +28682,6 @@ xmlbeans:
   version: 2.6.0+dfsg-2
   comments: |
     Almost certainly in src/xmlcomp/org/apache/xmlbeans/impl/tool/SchemaCompiler.java
-  bugs:
-    - 893494
 xmlbeans-maven-plugin:
   version: 2.3.3-3
   issues:
