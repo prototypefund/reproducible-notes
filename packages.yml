@@ -15305,7 +15305,6 @@ muse-el:
 musescore:
   version: 2.0.3+dfsg1-2
   issues:
-    - build_id_variation_requiring_further_investigation
     - gcc_captures_build_path
 musl:
   version: 1.1.16-3
@@ -15397,11 +15396,6 @@ mythtvfs-fuse:
   version: 0.6.1-3
   issues:
     - gcc_captures_build_path
-n2n:
-  version: 1.3.1~svn3789-5
-  comments: |
-    Embeds the build date.
-    https://sources.debian.net/src/n2n/1.3.1%7Esvn3789-5/Makefile/?hl=60#L60
 nacl:
   version: 20110221-4.1
   issues:
