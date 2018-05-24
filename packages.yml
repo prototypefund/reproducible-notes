@@ -139,8 +139,6 @@ activemq:
     - random_order_in_documentation_generated_by_javadoc
     - timestamps_generated_by_xbean_spring
     - blacklisted_on_jenkins_armhf_only
-  bugs:
-    - 893236
 activemq-activeio:
   version: 3.1.4-1
   issues:
@@ -3187,10 +3185,6 @@ coq-float:
   version: 1:8.4-5
   bugs:
     - 813596
-corosync:
-  version: 2.4.4-1
-  bugs:
-    - 896441
 cortina:
   version: 1.1.1-1
   comments: |
@@ -3677,8 +3671,6 @@ davix:
   issues:
     - random_order_in_python_environment_pickle
     - captures_build_path
-  bugs:
-    - 896453
 dawg:
   version: 1.2-1
   issues:
@@ -5857,8 +5849,6 @@ flint:
   version: 2.5.2-9
   issues:
     - random_id_in_pdf_generated_by_dblatex
-  bugs:
-    - 896470
 flite:
   version: 1.4-release-12
   comments: |
@@ -7130,8 +7120,6 @@ gfal2:
   version: 2.11.1-1
   issues:
     - captures_build_path
-  bugs:
-    - 896454
 gflags:
   version: 2.1.2-3
   issues:
@@ -7385,10 +7373,6 @@ globus-common:
   version: 16.4-1
   issues:
     - captures_build_path
-glogic:
-  version: 2.6-3
-  bugs:
-    - 896744
 glosstex:
   version: 0.4.dfsg.1-3
   issues:
@@ -8396,8 +8380,6 @@ gromacs:
   version: 5.1.2-1
   comments: |
     Randomness in Doxygen graph.
-  bugs:
-    - 896194
 gromit:
   version: 20041213-9
   issues:
@@ -12181,10 +12163,6 @@ libhtml5parser-java:
   version: 1.4+r1.3.1-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-libhtmlcleaner-java:
-  version: 2.21-2
-  bugs:
-    - 895899
 libhtmlparser-java:
   version: 1.6.20060610.dfsg0-7
   issues:
@@ -12698,8 +12676,6 @@ libnb-platform18-java:
     - timestamps_in_pe_binaries
     - captures_build_path
     - different_encoding
-  bugs:
-    - 893270
 libncursesada:
   version: 5.9.20140726-1
   comments: |
@@ -16997,8 +16973,6 @@ openjpa:
   version: 2.4.0-4
   issues:
     - nondeterministic_java_bytecode
-  bugs:
-    - 893384
 openjpeg2:
   version: 2.1.1-1
   issues:
@@ -19897,8 +19871,6 @@ pyopencl:
     packaged in Debian.
   issues:
     - captures_build_arch
-  bugs:
-    - 893050
 pyopenssl:
   version: 17.5.0-1
   bugs:
@@ -21219,10 +21191,6 @@ quotecolors:
     https://sources.debian.net/src/quotecolors/0.3-4/debian/rules/#L11
   issues:
     - timestamps_in_jar
-qutebrowser:
-  version: 1.2.1-1
-  bugs:
-    - 896737
 quvi:
   version: 0.9.4-1.1
   comments: |
@@ -25357,10 +25325,6 @@ sketch:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - captures_build_path
-skimage:
-  version: 0.12.3-1
-  bugs:
-    - 895769
 skinedit:
   version: 1.27-2
   issues:
@@ -25769,10 +25733,6 @@ sphinx-gallery:
   version: 0.1.13-1
   bugs:
     - 888412
-sphinxcontrib-autoprogram:
-  version: 0.1.4-1
-  bugs:
-    - 896138
 sphinxcontrib-bibtex:
   version: 0.3.6-2
   bugs:
@@ -28087,10 +28047,6 @@ webkitgtk:
   issues:
     - diffoscope_runs_forever
     - blacklisted_on_jenkins_armhf_only
-weborf:
-  version: 0.14-1
-  bugs:
-    - 896795
 weechat:
   version: 1.5-1
   issues:
@@ -28739,10 +28695,6 @@ xorg-docs:
   issues:
     - timestamps_in_pdf_generated_by_apache_fop
     - different_encoding
-xorg-gtest:
-  version: 0.7.1-2
-  bugs:
-    - 891735
 xorg-server:
   version: 2:1.16.4-1
   issues:
