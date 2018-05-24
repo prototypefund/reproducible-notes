@@ -17849,6 +17849,10 @@ php-cache-lite:
   version: 1.7.16-2
   bugs:
     - 882888
+php-codesniffer:
+  version: 3.2.3-1
+  issues:
+    - timestamp_in_pear_registry_files
 php-console-commandline:
   version: 1.2.1-1
   issues:
@@ -17873,6 +17877,10 @@ php-db:
   version: 1.9.2-2
   bugs:
     - 889532
+php-db-dataobject:
+  version: 1.11.5-1
+  issues:
+    - timestamp_in_pear_registry_files
 php-enum:
   version: 2.3.1-1
   bugs:
@@ -18444,6 +18452,10 @@ php-log:
     - timestamp_in_pear_registry_files
 php-mail:
   version: 1.3.0-1
+  issues:
+    - timestamp_in_pear_registry_files
+php-mail-mime:
+  version: 1.10.2-0.1
   issues:
     - timestamp_in_pear_registry_files
 php-mdb2:
