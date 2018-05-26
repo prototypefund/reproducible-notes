@@ -798,10 +798,6 @@ appmenu-qt:
   version: 0.2.6-2
   issues:
     - gcc_captures_build_path
-approx:
-  version: 5.9-1
-  bugs:
-    - 869655
 appstream:
   version: 0.10.6-2
   issues:
@@ -4213,8 +4209,6 @@ dnss:
   version: 0.0~git20161126.0.162090e-1
   issues:
     - golang_compiler_captures_build_path_in_binary
-  bugs:
-    - 895464
 dnssec-trigger:
   version: 0.13~svn685-4
   comments: |
@@ -9066,8 +9060,6 @@ iaxmodem:
   version: 1.2.0~dfsg-2
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 888601
 ibam:
   version: 1:0.5.2-2.1
   bugs:
@@ -9877,10 +9869,6 @@ jellyfish:
   version: 2.2.8-3
   comments: |
     Captures build path, but is this due to the RPATH being set in debian/rules?
-jenkins-job-builder:
-  version: 1.6.2-1
-  bugs:
-    - 884002
 jenkins-json:
   version: 2.4-jenkins-3-4
   issues:
@@ -13562,10 +13550,6 @@ liggghts:
   version: 3.4.0+repack1-2
   issues:
     - build_id_differences_only
-lightdm-gtk-greeter-settings:
-  version: 1.2.2-1
-  bugs:
-    - 896731
 lightproof:
   version: 1.5+git20140515-1
   bugs:
@@ -16872,7 +16856,6 @@ openhackware:
     Embed build time:
     https://codesearch.debian.net/results/package%3Aopenhackware%20BUILD_%28DATE|TIME%29
   bugs:
-    - 833444
     - 871094
 openhft-chronicle-bytes:
   version: 1.1.15-1
@@ -20589,8 +20572,6 @@ python-skbio:
   version: 0.4.2-1
   comments: |
     Differences in PNG images and random order in documentation.
-  bugs:
-    - 894326
 python-slip:
   version: 0.6.5-2
   bugs:
@@ -20665,8 +20646,6 @@ python-xarray:
   version: 0.9.2-1
   issues:
     - captures_build_path
-  bugs:
-    - 892641
 python-xlib:
   version: 0.14+20091101-5
   issues:
