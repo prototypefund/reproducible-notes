@@ -36,11 +36,9 @@ a2ps:
     - different_encoding
     - timestamps_in_manpages_generated_by_help2man
 a7xpg:
-  version: 0.11.dfsg1-9
+  version: 0.11.dfsg1-10
   issues:
-    - build_id_differences_only
-  bugs:
-    - 894610
+    - buildpath_in_binaries_generated_by_d_compiler_gdc
 abci:
   version: 0.0~git20170124.0.f94ae5e-2
   issues:
@@ -1219,10 +1217,6 @@ avrdude:
   version: 6.3-1
   issues:
     - pdf_id_varying_due_to_build_path
-awesome:
-  version: 4.0-1
-  issues:
-    - gcc_captures_build_path
 awl:
   version: 0.59-1
   bugs:
@@ -3125,10 +3119,6 @@ conky:
     https://sources.debian.net/src/conky/1.9.0-6/configure.ac.in/#L93-L94
   issues:
     - captures_kernel_version
-connectagram:
-  version: 1.2.4-1
-  bugs:
-    - 896443
 connectome-workbench:
   version: 1.2.3-1
   issues:
@@ -3396,10 +3386,6 @@ custodia:
     - ftbfs_uninvestigated_test_failures
   bugs:
     - 891450
-cutemaze:
-  version: 1.2.0-1
-  bugs:
-    - 896444
 cutesdr:
   version: 1.13.42-2
   bugs:
@@ -8606,9 +8592,9 @@ gummi:
   bugs:
     - 896566
 gunroar:
-  version: 0.15.dfsg1-8
-  bugs:
-    - 896583
+  version: 0.15.dfsg1-9
+  issues:
+    - buildpath_in_binaries_generated_by_d_compiler_gdc
 gupnp-igd:
   version: 0.2.4-1
   issues:
@@ -9208,9 +9194,9 @@ ignition-transport:
   issues:
     - build_id_differences_only
 ii-esu:
-  version: 1.0a.dfsg1-7
-  bugs:
-    - 896584
+  version: 1.0a.dfsg1-8
+  issues:
+    - buildpath_in_binaries_generated_by_d_compiler_gdc
 ikarus:
   version: 0.0.3+bzr.2010.01.26-4
   comments: |
@@ -11577,6 +11563,10 @@ libb2:
   version: 0.97-2
   bugs:
     - 842379
+libbiod:
+  version: 0.1.0-5
+  issues:
+    - buildpath_in_binaries_generated_by_d_compiler_ldc
 libbitcoin:
   version: 2.11.0-1
   comments: |
@@ -13339,6 +13329,10 @@ libu2f-server:
   version: 0.0.0-1
   issues:
     - fonts_in_pdf_files
+libundead:
+  version:
+  issues:
+    - buildpath_in_binaries_generated_by_d_compiler_ldc
 libuninum:
   version: 2.7-1.1
   issues:
@@ -14472,10 +14466,6 @@ metis:
   version: 5.1.0.dfsg-5
   issues:
     - build_id_differences_only
-mgba:
-  version: 0.5.2+dfsg1-3
-  bugs:
-    - 895496
 mgcv:
   version: 1.8-14-1
   issues:
@@ -15172,9 +15162,9 @@ mtink:
   issues:
     - captures_build_path
 mu-cade:
-  version: 0.11.dfsg1-11
-  bugs:
-    - 896585
+  version: 0.11.dfsg1-12
+  issues:
+    - buildpath_in_binaries_generated_by_d_compiler_gdc
 multcomp:
   version: 1.4-6-1
   issues:
@@ -16338,6 +16328,10 @@ ocaml-bitstring:
   version: 2.0.4-2
   issues:
     - ocaml_captures_build_path
+ocaml-cry:
+  version: 0.6.1-1
+  issues:
+    - ocaml_captures_build_path
 ocaml-csv:
   version: 1.5-1
   issues:
@@ -16361,6 +16355,10 @@ ocaml-deriving-ocsigen:
     - ocaml_captures_build_path
 ocaml-dssi:
   version: 0.1.1-2
+  issues:
+    - ocaml_captures_build_path
+ocaml-dtools:
+  version: 0.3.4-1
   issues:
     - ocaml_captures_build_path
 ocaml-duppy:
@@ -17023,10 +17021,6 @@ openscad:
   version: 2015.03-1+dfsg-3
   issues:
     - captures_build_path
-openscap-daemon:
-  version: 0.1.8-1
-  bugs:
-    - 896766
 opensips:
   version: 2.2.2-3
   issues:
@@ -17448,9 +17442,8 @@ parchive:
   issues:
     - gcc_captures_build_path
 parsec47:
-  version: 0.2.dfsg1-8
-  bugs:
-    - 896586
+  version: 0.2.dfsg1-9
+    - buildpath_in_binaries_generated_by_d_compiler_gdc
 parso:
   version: 0.1.0-1
   bugs:
@@ -19398,9 +19391,9 @@ proj:
   issues:
     - graphviz_nondeterminstic_output
 projectl:
-  version: 1.001.dfsg1-8
-  bugs:
-    - 896587
+  version: 1.001.dfsg1-9
+  issues:
+    - buildpath_in_binaries_generated_by_d_compiler_gdc
 projectm:
   version: 2.1.0+dfsg-4
   issues:
@@ -26472,11 +26465,9 @@ tasque:
   issues:
     - timestamps_in_pe_binaries
 tatan:
-  version: 1.0.dfsg1-7
+  version: 1.0.dfsg1-8
   issues:
-    - build_id_differences_only
-  bugs:
-    - 896588
+    - buildpath_in_binaries_generated_by_d_compiler_gdc
 tcd-utils:
   version: 20061127-2
   issues:
@@ -26857,9 +26848,8 @@ tipa:
   issues:
     - random_id_in_pdf_generated_by_dblatex
 titanion:
-  version: 0.3.dfsg1-6
-  bugs:
-    - 896589
+  version: 0.3.dfsg1-7
+    - buildpath_in_binaries_generated_by_d_compiler_gdc
 tj3:
   version: 3.6.0-4
   comments: |
@@ -27255,6 +27245,10 @@ tycho:
   version: 0.25.0-1
   comments: |
     Contains a zip file with jar files inside. Candidate for manually calling strip-determinism?
+type-conv:
+  version: 113.00.02-2
+  issues:
+    - ocaml_captures_build_path
 typecatcher:
   version: 0.3-1
   bugs:
@@ -29052,6 +29046,10 @@ zbar:
   version: 0.10+doc-10
   issues:
     - gcc_captures_build_path
+zed:
+  version: 1.4-3
+  issues:
+    - ocaml_captures_build_path
 zelig:
   version: 4.2-1-1
   issues:
