@@ -13326,7 +13326,7 @@ libu2f-server:
   issues:
     - fonts_in_pdf_files
 libundead:
-  version:
+  version: 1.0.9-2
   issues:
     - buildpath_in_binaries_generated_by_d_compiler_ldc
 libuninum:
@@ -17429,6 +17429,7 @@ parchive:
     - gcc_captures_build_path
 parsec47:
   version: 0.2.dfsg1-9
+  issues:
     - buildpath_in_binaries_generated_by_d_compiler_gdc
 parso:
   version: 0.1.0-1
@@ -26820,6 +26821,7 @@ tipa:
     - random_id_in_pdf_generated_by_dblatex
 titanion:
   version: 0.3.dfsg1-7
+  issues:
     - buildpath_in_binaries_generated_by_d_compiler_gdc
 tj3:
   version: 3.6.0-4
