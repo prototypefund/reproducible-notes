@@ -10111,6 +10111,12 @@ jts:
   version: 1.14+ds-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+juce:
+  version: 5.3.2~repack-1
+  comments: |
+    so far this has only been observed on 32bit builds
+  issues:
+    - doxygen_fails_to_create_all_links_in_example_code
 judy:
   version: 1.0.5-5
   comments: |
