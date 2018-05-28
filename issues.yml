@@ -1826,3 +1826,7 @@ member_search_index_json:
   description: |
     openjdk creates member-search-index.json files in zip files that appear to
     use the current time?
+doxygen_fails_to_create_all_links_in_example_code:
+  description: |
+    doxygen-generated documentation *might* miss a few links to documented
+    classes in example code.
