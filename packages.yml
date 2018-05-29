@@ -1141,8 +1141,6 @@ auto-multiple-choice:
   version: 1.3.0-4
   issues:
     - timestamps_in_pdf_generated_by_rsvg_convert
-  bugs:
-    - 896948
 autoconf:
   version: 2.69-8
   issues:
@@ -3777,10 +3775,6 @@ deal.ii:
     on i386 and armhf affected by https://bugs.debian.org/835406
   issues:
     - ftbfs_in_jenkins_setup
-debci:
-  version: 1.7.1
-  bugs:
-    - 880804
 debconf-kde:
   version: 1.0.2-1
   issues:
@@ -4083,10 +4077,6 @@ dircproxy:
   version: 1.0.5-5.2
   issues:
     - gcc_captures_build_path
-directfb:
-  version: 1.2.10.0-5.1
-  bugs:
-    - 828745
 directvnc:
   version: 0.7.7-1
   issues:
@@ -8276,10 +8266,6 @@ graywolf:
   version: 0.1.4-1
   issues:
     - build_id_differences_only
-grc:
-  version: 1.11.1-1
-  bugs:
-    - 896743
 grcm:
   version: 0.1.6-1
   issues:
@@ -8774,8 +8760,6 @@ heat:
   version: 2014.1.3-7
   issues:
     - randomness_in_documentation_generated_by_sphinx
-  bugs:
-    - 896621
 hebcal:
   version: 3.5-2
   issues:
@@ -9897,10 +9881,6 @@ jigsaw-generator:
   version: 0.2.4-1
   issues:
     - pdf_id_varying_due_to_build_path
-jinja2:
-  version: 2.10-1
-  bugs:
-    - 896751
 jmdns:
   version: 3.4.2-1
   issues:
@@ -19859,10 +19839,6 @@ pypandoc:
   version: 1.4+ds0-1
   bugs:
     - 897111
-pypeg2:
-  version: 2.15.2-1
-  bugs:
-    - 896735
 pypolicyd-spf:
   version: 2.0.2-1
   bugs:
@@ -20530,10 +20506,6 @@ python-rtslib-fb:
   version: 2.1.57+debian-4
   issues:
     - randomness_in_documentation_generated_by_epydoc
-python-saharaclient:
-  version: 1.5.0-3
-  bugs:
-    - 896634
 python-schema-salad:
   version: 2.2.20170111180227-1
   issues:
@@ -20728,8 +20700,6 @@ pyxb:
   version: 1.2.6+dfsg-1
   issues:
     - randomness_in_documentation_generated_by_sphinx
-  bugs:
-    - 896614
 pyxdg:
   version: 0.25-4
   bugs:
@@ -20867,8 +20837,6 @@ qscintilla2:
   version: 2.9.2+dfsg-3
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 896459
 qstopmotion:
   version: 2.3.2-1
   bugs:
@@ -23554,10 +23522,6 @@ retro-gtk:
   version: 0.10.0-1
   issues:
     - gcc_captures_build_path
-revolt:
-  version: 0.0+git20170627.3f5112b-2.1
-  bugs:
-    - 896739
 rgain:
   version: 1.3.3-1
   issues:
@@ -24313,7 +24277,6 @@ ruby-pg:
 ruby-pkg-config:
   version: 1.2.9-1
   bugs:
-    - 895923
     - 896074
 ruby-posix-spawn:
   version: 0.3.11-1
@@ -26435,10 +26398,6 @@ tcd-utils:
   version: 20061127-2
   issues:
     - gcc_captures_build_path
-tcl-signal:
-  version: 1.4.3-1
-  bugs:
-    - 896139
 tcl8.5:
   version: 8.5.19-2
   issues:
