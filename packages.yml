@@ -1363,10 +1363,6 @@ basemap:
     - gcc_captures_build_path
   bugs:
     - 790235
-basex:
-  version: 8.5.1-1
-  bugs:
-    - 873210
 bash:
   version: 4.3-14
   comments: |
@@ -2579,8 +2575,6 @@ checkstyle:
     Capture build time in
     /usr/share/java/checkstyle.jar:checkstylecompilation.properties
     Also issues with locale in docs
-  bugs:
-    - 875346
 cheetah:
   version: 2.4.4-3
   issues:
@@ -6145,8 +6139,6 @@ fop:
   version: 1:2.1-5
   issues:
     - random_order_in_documentation_generated_by_javadoc
-  bugs:
-    - 893150
 foptions:
   version: 3022.85-2
   issues:
@@ -10625,8 +10617,6 @@ kimap:
   version: 16.04.2-1
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 895494
 kimwitu:
   version: 4.6.1-7.1
   issues:
@@ -13435,8 +13425,6 @@ libxbean-java:
   version: 4.4-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-  bugs:
-    - 874660
 libxerces2-java:
   version: 2.11.0-7
   bugs:
@@ -14006,10 +13994,6 @@ madplay:
   version: 0.15.2b-8.1
   issues:
     - gcc_captures_build_path
-maffilter:
-  version: 1.2.1+dfsg-1
-  bugs:
-    - 896486
 magic:
   version: 8.0.210-2
   issues:
@@ -20439,10 +20423,6 @@ python-pymzml:
     - pdf_id_varying_due_to_build_path
   bugs:
     - 872242
-python-pyngus:
-  version: 2.2.2-2
-  bugs:
-    - 896571
 python-pyocr:
   version: 0.3.0-1
   bugs:
@@ -20459,10 +20439,6 @@ python-pyrax:
   version: 1.9.6-1
   bugs:
     - 882095
-python-pysaml2:
-  version: 4.0.2-2
-  bugs:
-    - 891127
 python-pysnmp4:
   version: 4.4.3-1
   bugs:
@@ -24577,26 +24553,6 @@ salt:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - timestamps_in_manpages_generated_by_rst2man
-salt-formula-ceilometer:
-  version: 2016.12.1-1
-  bugs:
-    - 889927
-salt-formula-cinder:
-  version: 2016.12.1-1
-  bugs:
-    - 889928
-salt-formula-glance:
-  version: 2016.12.1-1
-  bugs:
-    - 889933
-salt-formula-keystone:
-  version: 2016.12.1-1
-  bugs:
-    - 889929
-salt-formula-kubernetes:
-  version: 2016.12.1-1
-  bugs:
-    - 889932
 samba:
   version: 2:4.6.7+dfsg-1
   comments: |
@@ -24814,10 +24770,6 @@ scoop:
   bugs:
     - 802318
     - 835534
-scowl:
-  version: 2017.08.24-1
-  bugs:
-    - 890618
 screengrab:
   version: 1.95+20160128-3
   issues:
@@ -25019,10 +24971,6 @@ shellex:
   version: 0.2-1
   issues:
     - gcc_captures_build_path
-shelxle:
-  version: 1.0.888-1
-  bugs:
-    - 896451
 shiboken:
   version: 1.2.2-3
   issues:
@@ -26475,10 +26423,6 @@ tcptraceroute:
     - captures_build_arch
   bugs:
     - 828786
-tcpxtract:
-  version: 1.0.1-11
-  bugs:
-    - 891523
 tcs:
   version: 1-11
   issues:
@@ -26625,10 +26569,6 @@ textql:
   version: 2.0.3-2
   issues:
     - randomness_in_binaries_generated_by_golang
-texworks:
-  version: 0.6.2-2
-  bugs:
-    - 896568
 texworks-manual:
   version: 20150506-2
   issues:
@@ -28022,8 +27962,6 @@ wide-dhcpv6:
   version: 20080615-19
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 893008
 widelands:
   version: 1:18-3
   issues:
