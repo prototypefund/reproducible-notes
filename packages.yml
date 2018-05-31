@@ -6297,10 +6297,6 @@ fregression:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
-frescobaldi:
-  version: 3.0.0+ds1-1
-  bugs:
-    - 896755
 fritzing:
   version: 0.9.3b+dfsg-3
   comments: |
@@ -13860,8 +13856,6 @@ lucene-solr:
     - timestamps_in_jar
     - blacklisted_on_jenkins_armhf_only
     - user_in_java_jar_manifest
-  bugs:
-    - 895797
 lucene2:
   version: 2.9.4+ds1-6
   issues:
@@ -15950,10 +15944,6 @@ node-static-extend:
   version: 0.1.2-1
   bugs:
     - 892661
-node-temp:
-  version: 0.8.1-1
-  bugs:
-    - 834915
 node-timed-out:
   version: 4.0.1-1
   bugs:
@@ -20190,10 +20180,6 @@ python-gudev:
   version: 147.2-3
   issues:
     - gcc_captures_build_path
-python-hpilo:
-  version: 3.9-1
-  bugs:
-    - 896776
 python-http-parser:
   version: 0.8.3-2
   issues:
@@ -20469,10 +20455,6 @@ python-reportlab:
     CreationDate and ID varying.
   issues:
     - gcc_captures_build_path
-python-requests-cache:
-  version: 0.4.13-1
-  bugs:
-    - 896782
 python-rtslib-fb:
   version: 2.1.57+debian-4
   issues:
@@ -27132,8 +27114,6 @@ u-boot:
     makes archives containing timestamps and/or umask.
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 896526
 u1db:
   version: 13.10-6.2
   issues:
