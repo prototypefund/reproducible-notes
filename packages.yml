@@ -2127,10 +2127,6 @@ cadaver:
   version: 0.23.3-2
   issues:
     - gcc_captures_build_path
-cadvisor:
-  version: 0.25.0+dfsg-1
-  bugs:
-    - 879489
 cafeobj:
   version: 1.5.2-2
   issues:
@@ -7632,10 +7628,6 @@ gnutls28:
   version: 3.5.15-2
   issues:
     - build_path_captured_in_assembly_objects
-go-dep:
-  version: 0.3.2-2
-  bugs:
-    - 890926
 go-md2man:
   version: 1.0.6+git20170603.6.23709d0+ds-1
   issues:
@@ -9857,8 +9849,6 @@ jmodeltest:
   version: 2.1.10+dfsg-3
   issues:
     - random_id_in_pdf_generated_by_dblatex
-  bugs:
-    - 896484
 jmol:
   version: 14.6.4+2016.11.05+dfsg1-3
   issues:
@@ -9996,10 +9986,6 @@ jsmath-fonts-sprite:
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
   bugs:
     - 792597
-json-glib:
-  version: 1.4.2-2
-  bugs:
-    - 882383
 json-simple:
   version: 2.3.0-1
   issues:
@@ -11872,10 +11858,6 @@ libflorist:
     - unknown_ada_issue
     - captures_build_path
     - records_build_flags
-libfm:
-  version: 1.2.5-1
-  bugs:
-    - 876614
 libforms:
   version: 1.2.3-1.2
   issues:
@@ -15555,10 +15537,6 @@ network-manager-openconnect:
   version: 1.2.4-1
   bugs:
     - 862884
-network-manager-strongswan:
-  version: 1.4.2-2
-  bugs:
-    - 887951
 networking-ovs-dpdk:
   version: 2015.1.1+git20151118.35ac4c7-1
   bugs:
@@ -16657,10 +16635,6 @@ opam:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - fonts_in_pdf_files
-opari2:
-  version: 2.0.2-3
-  bugs:
-    - 891412
 open-build-service:
   version: 2.7.1-1
   comments: |
@@ -20374,10 +20348,6 @@ python-pyaudio:
   issues:
     - random_order_in_python_environment_pickle
     - captures_build_path
-python-pyelftools:
-  version: 0.24-4
-  bugs:
-    - 896779
 python-pyftpdlib:
   version: 1.5.1-3
   bugs:
@@ -23699,10 +23669,6 @@ routino:
   version: 3.1.1-3
   comments: |
     Uses Perl::Magick to write PNGs with differing image data.
-rows:
-  version: 0.3.1-2
-  bugs:
-    - 896740
 rox:
   version: 1:2.11-1
   issues:
@@ -26790,10 +26756,6 @@ tomcat8:
   issues:
     - blacklisted_on_jenkins_armhf_only
     - ftbfs_in_jenkins_setup
-tomcatjss:
-  version: 7.1.4-4
-  bugs:
-    - 846677
 topal:
   version: 75-2
   comments: |
@@ -27895,10 +27857,6 @@ wget2:
   version: 0.0.20170806-1
   bugs:
     - 887630
-whatmaps:
-  version: 0.0.12-2
-  bugs:
-    - 896742
 whitedb:
   version: 0.7.3-3
   bugs:
