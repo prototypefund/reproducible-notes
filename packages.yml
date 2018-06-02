@@ -1371,8 +1371,6 @@ bash:
     Included header file (/usr/include/bash/config.h) varies depending on the kernel version.
     https://sources.debian.net/src/bash/4.3-14/configure.ac/#L1088
   issues:
-    - timestamps_in_documentation_generated_by_man2html
-    - captures_build_path
     - records_build_flags
     - random_id_in_pdf_generated_by_dblatex
 batmon.app:
@@ -11466,10 +11464,6 @@ libaunit:
   version: 3.7.1-2
   issues:
     - timestamps_in_pdf_generated_by_latex
-    - captures_build_path
-libauthcas-perl:
-  version: 1.5-1
-  issues:
     - captures_build_path
 libauthen-libwrap-perl:
   version: 0.23-1
