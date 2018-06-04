@@ -21118,6 +21118,10 @@ r-bioc-deseq2:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
+r-bioc-dirichletmultinomial:
+  version: 1.22.0-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-bioc-dnacopy:
   version: 1.46.0-1
   issues:
@@ -21632,6 +21636,10 @@ r-cran-doparallel:
   version: 1.0.10-3
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-dorng:
+  version: 1.6.6-2
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-dosefinding:
   version: 0.9-13-1
   issues:
@@ -22035,6 +22043,10 @@ r-cran-lambda.r:
     - timestamps_in_description_files_generated_by_r-base-dev
     - random_order_in_java_jar_manifest_mf
     - randomness_in_r_rdb_rds_databases
+r-cran-later:
+  version: 0.7.2-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-lava:
   version: 1.5.1-1
   issues:
@@ -22179,6 +22191,10 @@ r-cran-mcmcpack:
   version: 1.3-8-1
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-mda:
+  version: 0.4-10-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-medadherence:
   version: 1.03-2
   issues:
@@ -22315,6 +22331,10 @@ r-cran-openssl:
   version: 0.9.4-1
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-openxlsx:
+  version: 4.0.17-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-optparse:
   version: 1.2.0-1
   issues:
@@ -22437,6 +22457,10 @@ r-cran-profilemodel:
     - randomness_in_r_rdb_rds_databases
 r-cran-progress:
   version: 1.1.2-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-promises:
+  version: 1.0.1-1
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-proto:
@@ -22734,6 +22758,10 @@ r-cran-runit:
     - randomness_in_r_rdb_rds_databases
 r-cran-rwave:
   version: 2.4-8-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-samr:
+  version: 2.0-1
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-scales:
