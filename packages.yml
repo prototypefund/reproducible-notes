@@ -749,10 +749,6 @@ apertium-swe-dan:
   version: 0.7.0~r66063-1
   issues:
     - nondeterminism_in_autolex_bin
-apertium-swe-nor:
-  version: 0.2.0~r69544-1
-  bugs:
-    - 895506
 apertium-tat:
   version: 0.1.0~r60887-1
   comments: |
@@ -1222,10 +1218,6 @@ aws-sdk-for-php:
   comments: |
     PDF CreationDate header is a repr of a Python instance that contains a
     non-deterministic memory address. This is caused by a bug in rst2pdf.
-awscli:
-  version: 1.14.44-1
-  bugs:
-    - 896723
 ax25-tools:
   version: 0.0.10-rc4-1
   issues:
@@ -3871,10 +3863,6 @@ debos:
   version: 1.0.0+git20180112.6e577d4-1
   issues:
     - randomness_in_binaries_generated_by_golang
-dee:
-  version: 1.0.10-3.1
-  bugs:
-    - 876594
 deepin-image-viewer:
   version: 1.2.16.8-1
   bugs:
@@ -6724,10 +6712,6 @@ gcc-avr:
     deki said: maybe 'libcilkrts/runtime/sysdep-unix.c contains __DATE__ and __TIME__' also, not sure whether it uses the same source
   issues:
     - different_due_to_umask
-gcc-defaults:
-  version: 1.135
-  bugs:
-    - 878338
 gcc-h8300-hms:
   version: 1:3.4.6+dfsg2-4
   issues:
@@ -7362,8 +7346,6 @@ gnash:
   version: 0.8.11~git20160608-1.1
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 853424
 gnat-gps:
   version: 5.3dfsg-1
   issues:
@@ -13892,8 +13874,6 @@ madness:
     - captures_build_path
     - user_hostname_manually_added_requiring_further_investigation
     - records_build_flags
-  bugs:
-    - 869990
 madplay:
   version: 0.15.2b-8.1
   issues:
@@ -14548,10 +14528,6 @@ mmorph:
     Randomess in example.db file, probably struct mem
   issues:
     - randomness_in_berkeley_db_files
-mnemosyne:
-  version: 2.4-0.1
-  bugs:
-    - 868595
 mnormt:
   version: 1.5-4-2
   issues:
@@ -20928,10 +20904,6 @@ quantlib-swig:
   version: 1.8-2
   issues:
     - gcc_captures_build_path
-quark-sphinx-theme:
-  version: 0.5.0-1
-  bugs:
-    - 896606
 quelcom:
   version: 0.4.0-13
   issues:
@@ -27131,10 +27103,6 @@ uftrace:
   issues:
     - captures_build_path_via_assert
     - max_output_size_reached
-ufw:
-  version: 0.35-5
-  bugs:
-    - 896787
 uhub:
   version: 0.4.1-3
   issues:
