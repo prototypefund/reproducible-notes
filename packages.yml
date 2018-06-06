@@ -8669,6 +8669,10 @@ heimdal:
   version: 1.7~git20160515+dfsg-1
   issues:
     - captures_build_arch
+hellfire:
+  version: 0.0~git20170319.c2272fb-1
+  issues:
+    - randomness_in_binaries_generated_by_golang
 helpman:
   version: 2.1-1
   bugs:
