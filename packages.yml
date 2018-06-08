@@ -11136,6 +11136,10 @@ ldaptor:
     - captures_home_dir
   bugs:
     - 827419
+ldm:
+  version: 2:2.2.19-1
+  comments: |
+    Headers for "Language" in ldmrc.mo vary, but only for french, and other french .mo in the same package do not vary either.
 ldns:
   version: 1.6.17-5
   bugs:
@@ -27066,7 +27070,6 @@ u-boot:
   comments: |
     [armhf,arm64] On amd64, build path variations do not impact the
     only package built, u-boot-tools.
-    The "Language" header in ldmrc.mo for french varies, but not other languages.
   issues:
     - gcc_captures_build_path
 u1db:
