@@ -244,7 +244,6 @@ afl:
   version: 2.34b-2
   bugs:
     - 852049
-    - 895618
 afnix:
   version: 2.2.0-2
   comments: |
@@ -636,10 +635,6 @@ apertium-af-nl:
   version: 0.2.0~r58256-1
   issues:
     - nondeterminism_in_autolex_bin
-apertium-apy:
-  version: 0.9.1~r343-4
-  bugs:
-    - 896719
 apertium-arg-cat:
   version: 0.1.0~r64925-1
   issues:
@@ -13355,10 +13350,6 @@ libzia:
   version: 4.06-2
   issues:
     - records_build_flags
-libzstd:
-  version: 1.3.4+dfsg-2
-  bugs:
-    - 897904
 libzypp:
   version: 15.3.0-1
   bugs:
@@ -18656,10 +18647,6 @@ plasma-framework:
     - different_due_to_umask
   bugs:
     - 828021
-plasma-gmailfeed:
-  version: 1.1-1
-  bugs:
-    - 897089
 plasma-mediacenter:
   version: 5.7.3-1
   issues:
@@ -25481,10 +25468,6 @@ spark:
   issues:
     - cython_captures_build_path
     - captures_build_path
-sparql-wrapper-python:
-  version: 1.7.6-2
-  bugs:
-    - 884674
 sparskit:
   version: 2.0.0-3
   issues:
@@ -27575,10 +27558,6 @@ vlfeat:
   version: 0.9.20+dfsg0-1
   issues:
     - build_dir_in_tags_generated_by_doxygen
-vmdb2:
-  version: 0.12-1
-  bugs:
-    - 897107
 vmfs-tools:
   version: 0.2.5-1
   issues:
