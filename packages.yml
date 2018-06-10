@@ -2750,10 +2750,6 @@ clif:
   version: 0.93-9.1
   issues:
     - gcc_captures_build_path
-clipper:
-  version: 2.1.20130601-2
-  bugs:
-    - 787804
 clisp:
   version: 1:2.49-10
   comments: |
@@ -9047,8 +9043,6 @@ ifrit:
   version: 4.1.2-5
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 897114
 ifstat:
   version: 1.1-8
   issues:
@@ -12365,7 +12359,6 @@ liblockfile:
 liblog-dispatch-filerotate-perl:
   version: 1.19-1
   bugs:
-    - 878550
     - 896546
 liblog4ada:
   version: 1.2-5
@@ -13290,8 +13283,6 @@ libxalan2-java:
   issues:
     - random_order_in_java_jar_manifest_mf
     - different_encoding
-  bugs:
-    - 893295
 libxbean-java:
   version: 4.4-1
   issues:
@@ -25011,8 +25002,6 @@ signond:
   version: 8.57+20150423-3
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 865797
 sigx:
   version: 2.0.2-5
   bugs:
@@ -27979,8 +27968,6 @@ wmweather+:
   comments: |
     Embeds the build date.
     https://sources.debian.net/src/wmweather%2B/2.15-1.1/configure.ac/#L14
-  bugs:
-    - 833440
 wmwork:
   version: 0.2.6-2
   issues:
