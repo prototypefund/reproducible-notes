@@ -10166,6 +10166,10 @@ kcov:
     - captures_build_path
   bugs:
     - 790912
+kcptun:
+  version: 20171201+ds-1
+  issues:
+    - randomness_in_binaries_generated_by_golang
 kcrash:
   version: 5.28.0-1
   issues:
