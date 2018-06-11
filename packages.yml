@@ -7824,6 +7824,10 @@ golang-github-pelletier-go-toml:
   version: 1.0.1-1
   issues:
     - randomness_in_binaries_generated_by_golang
+golang-github-pointlander-peg:
+  version: 1.0.0-5
+  issues:
+    - randomness_in_binaries_generated_by_golang
 golang-github-rackspace-gophercloud:
   version: 1.0.0+git20161013.1012.e00690e8-1
   bugs:
@@ -9324,6 +9328,10 @@ irssi-plugin-robustirc:
   version: 0.5-1
   issues:
     - gcc_captures_build_path
+irtt:
+  version: 0.9.0-2
+  issues:
+    - randomness_in_binaries_generated_by_golang
 isakmpd:
   version: 20041012-7.3
   issues:
@@ -19303,6 +19311,10 @@ psycopg2:
   version: 2.6.1-1
   issues:
     - gcc_captures_build_path
+pt-websocket:
+  version: 0.2-8
+  issues:
+    - randomness_in_binaries_generated_by_golang
 pth:
   version: 2.0.7-20
   issues:
