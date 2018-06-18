@@ -7544,6 +7544,10 @@ gnutls28:
   version: 3.5.15-2
   issues:
     - build_path_captured_in_assembly_objects
+go-cve-dictionary:
+  version: 0.1.1+git20180404.0.4ee71e8-1
+  issues:
+    - randomness_in_binaries_generated_by_golang
 go-md2man:
   version: 1.0.6+git20170603.6.23709d0+ds-1
   issues:
@@ -7688,6 +7692,10 @@ golang-github-docker-goamz:
   version: 0.0~git20160206.0.f0a21f5-1
   bugs:
     - 866857
+golang-github-docker-libnetwork:
+  version: 0.8.0-dev.2+git20170202.599.45b4086-4
+  issues:
+    - randomness_in_binaries_generated_by_golang
 golang-github-dvsekhvalnov-jose2go:
   version: 1.2-1
   bugs:
@@ -7837,6 +7845,10 @@ golang-github-tinylib-msgp:
     Looks like its due to random variable numbers in generated code but these are actually deterministic due to golangs implicit rand.Seed(1) - I believe its some kind of arbitrary dict ordering instead
   issues:
     - golang_compiler_captures_build_path_in_binary
+golang-github-ugorji-go-codec:
+  version: 1.1.1-1
+  issues:
+    - randomness_in_binaries_generated_by_golang
 golang-github-vbatts-tar-split:
   version: 0.10.2-1
   issues:
