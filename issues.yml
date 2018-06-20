@@ -1323,10 +1323,6 @@ captures_home_dir:
 captures_execution_time:
   description:
     Captures execution time, which may vary between builds.
-max_output_size_reached:
-  description: |
-    diffoscope output doesn't show all differences.
-    Symptoms<colon> a diffoscope error message (in the output) such as "Max output size reached" or "Max diff block lines reached".
 golang_compiler_captures_build_path_in_binary:
   description: |
     The golang compiler embeds the source/build paths into binaries.

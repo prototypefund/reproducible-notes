@@ -1506,7 +1506,6 @@ biboumi:
   issues:
     - captures_kernel_version_via_CMAKE_SYSTEM
     - captures_build_path_via_assert
-    - max_output_size_reached
 bibtex2html:
   version: 1.98-4
   comments: |
@@ -1795,8 +1794,6 @@ boolstuff:
     - records_build_flags
 boost1.62:
   version: 1.62.0+dfsg-1
-  issues:
-    - max_output_size_reached
   bugs:
     - 884184
     - 884185
@@ -2766,7 +2763,6 @@ clsparse:
   issues:
     - captures_build_path
     - captures_build_path_via_assert
-    - max_output_size_reached
 clsync:
   version: 0.4.2-1
   bugs:
@@ -3232,7 +3228,6 @@ cryfs:
   version: 0.9.5-4
   issues:
     - captures_build_path_via_assert
-    - max_output_size_reached
 cryptokit:
   version: 1.10-1
   issues:
@@ -4370,7 +4365,6 @@ dune-grid:
   issues:
     - captures_build_path_via_assert
     - records_build_flags
-    - max_output_size_reached
 dune-grid-glue:
   version: 2.5.0~20161206g666200e-2
   issues:
@@ -4396,7 +4390,6 @@ dune-typetree:
 dune-uggrid:
   version: 2.5.0~rc2-1
   issues:
-    - max_output_size_reached
     - captures_build_path_via_assert
     - records_build_flags
 dustmite:
@@ -4404,7 +4397,6 @@ dustmite:
   comments: |
     Huge diff of .debug_str section; presumably either fallout of build path or random order.
   issues:
-    - max_output_size_reached
     - build_id_differences_only
 dustrac:
   version: 2.0.1-1
@@ -5167,7 +5159,6 @@ exim4:
   version: 4.87-3
   issues:
     - captures_build_arch
-    - max_output_size_reached
 exiv2:
   version: 0.25-3
   comments: |
@@ -5634,8 +5625,6 @@ flamerobin:
     First difference is in the '.debug_info' section, however, I couldn't find a length difference in the dumped portion of it.
     │ -  [31] .debug_info       PROGBITS        0000000000000000 0046db ed695d 00   C  0   0  1
     │ +  [31] .debug_info       PROGBITS        0000000000000000 0046db ed69d1 00   C  0   0  1
-  issues:
-    - max_output_size_reached
 flann:
   version: 1.8.4-4.1
   issues:
@@ -8692,7 +8681,6 @@ hhsuite:
   comments: |
     Package-specific issue: the default value of '-pre_evalue_thresh' in the man page differs due to #851764.
   issues:
-    - max_output_size_reached
     - captures_build_path_via_assert
 hhvm:
   version: 3.21.0+dfsg-2
@@ -9258,7 +9246,6 @@ ir.lv2:
     The build path is captured not via assert() but via debug symbols.  (But there is no separate issue tag for that)
   issues:
     - captures_build_path_via_assert
-    - max_output_size_reached
 ircd-irc2:
   version: 2.11.2p3~dfsg-5
   issues:
@@ -10227,8 +10214,6 @@ kdesignerplugin:
     however, the `--debug=aranges` shows no such difference.
     .
     There are also various ordering differences in .strtab, .debug_abbrev, possibly others.
-  issues:
-    - max_output_size_reached
 kdesrc-build:
   version: 1.15.1-1.1
   bugs:
@@ -10603,7 +10588,6 @@ kmer:
   version: 0~20150903+r2013-3
   issues:
     - captures_build_path_via_assert
-    - max_output_size_reached
 kmetronome:
   version: 0.10.1-2
   issues:
@@ -11815,8 +11799,6 @@ libgdchart-gd2:
     Possibly more issues once these two are fixed.
     .
     Also: debian/rules has a copyright notice but no license notice (and not covered by debian/copyright either).
-  issues:
-    - max_output_size_reached
 libgdf:
   version: 0.1.2-2
   issues:
@@ -14095,8 +14077,6 @@ maxima-sage:
   comments: |
     Temporary filenames of the form mktemp("/tmp/eclinitXXXXXX.c") in .debug_info (--debug=info) section.
     Compare 'ecl' package.
-  issues:
-    - max_output_size_reached
 mayavi2:
   version: 4.3.1-3.1
   comments: |
@@ -14172,8 +14152,6 @@ mediawiki2latex:
     The contents of the files src/babel/?? are embedded as a (basename => file
     contents) hash(?) in the .rodata section; the order of the literals
     differs.
-  issues:
-    - max_output_size_reached
 medit:
   version: 1.2.0-2
   issues:
@@ -14714,8 +14692,6 @@ moon-buggy:
     The difference in the .ps file is that "/seven" is missing from one of the embedded fonts.  I suppose this is because the build date is 27th on the left build, 28th one the right build, and the digit 7 happens to not be used anywhere else in the .ps file in that font; i.e., it's just a side-effect of the mdate.sh issue.
     .
     Note the source package ships upstream's source as a tar.gz file.
-  issues:
-    - max_output_size_reached
 moonshot-gss-eap:
   version: 0.9.5-3
   bugs:
@@ -14987,7 +14963,6 @@ muparserx:
   version: 4.0.7+dfsg-1
   issues:
     - captures_build_path_via_assert
-    - max_output_size_reached
 mupdf:
   version: 1.9a+ds1-1.2
   comments: |
@@ -15522,7 +15497,6 @@ nginx:
   issues:
     - captures_build_path_via_assert
     - records_build_flags
-    - max_output_size_reached
 ngraph-gtk:
   version: 6.07.02-2
   issues:
@@ -17104,7 +17078,6 @@ pakcs:
   version: 1.14.1-2
   issues:
     - leaks_path_environment_variable
-    - max_output_size_reached
 pal:
   version: 0.4.3-8.1
   issues:
@@ -19291,7 +19264,6 @@ puma:
   comments: |
     Absolute filenames embdeded in debug symbols.
   issues:
-    - max_output_size_reached
     - gcc_captures_build_path
 puppetdb:
   version: 4.4.1-1
@@ -19561,10 +19533,6 @@ pyodbc:
   version: 3.0.6-2
   issues:
     - gcc_captures_build_path
-pyode:
-  version: 1.2.0-4+cvs20090320.2
-  issues:
-    - max_output_size_reached
 pyopencl:
   version: 2016.1+git20160809-3
   comments: |
@@ -20055,7 +20023,6 @@ python-nacl:
     This could explain most or all of the other differences (through diffoscope's #838569)
   issues:
     - captures_build_arch
-    - max_output_size_reached
 python-ncclient:
   version: 0.5.3-4
   bugs:
@@ -20549,7 +20516,6 @@ qmc:
   version: 0.94-3.1
   issues:
     - captures_build_path_via_assert
-    - max_output_size_reached
 qmmp:
   version: 1.0.5-1.1
   issues:
@@ -24417,7 +24383,6 @@ sagetex:
     https://sources.debian.net/src/sagetex/3.0%2Bds-2/example.tex/#L31
   issues:
     - timestamps_in_tex_documents
-    - max_output_size_reached
 sailcut:
   version: 1.3.6-1
   comments: |
@@ -24572,8 +24537,6 @@ scheme48:
     Captures building username and build date in 'scheme48.image' (a file which has differences).  Generated by build/build-usual-image.
     .
     That file also sees the build path but it is unclear whether that affects the output (diffoscope output was truncated).
-  issues:
-    - max_output_size_reached
 scheme9:
   version: 2015.07.14-1
   issues:
@@ -24897,7 +24860,6 @@ shim:
     Provisional patch here: https://gist.github.com/lamby/543afd9420d9d740d1320d77faf8c4fc/raw
   issues:
     - cryptographic_signature
-    - max_output_size_reached
     - user_hostname_manually_added_requiring_further_investigation
 shishi:
   version: 1.0.2-6
@@ -25326,7 +25288,6 @@ sogo:
     unused (see debian/patches/0005-Remove-build-date.patch) but varies.
   issues:
     - records_build_flags
-    - max_output_size_reached
 solfege:
   version: 3.22.2-2
   issues:
@@ -25801,7 +25762,6 @@ subversion:
     (2) swig embedding non-$SOURCE_ROOT_DIR-relative paths into generated files.
   issues:
     - captures_build_path_via_assert
-    - max_output_size_reached
 subvertpy:
   version: 0.10.1-1
   issues:
@@ -25818,7 +25778,6 @@ sugar-browse-activity:
   version: 200-1
   issues:
     - translations_missing_in_desktop_files
-    - max_output_size_reached
 sugar-calculate-activity:
   version: 44-3
   comments: |
@@ -25831,7 +25790,6 @@ sugar-read-activity:
   version: 115~dfsg-3
   issues:
     - translations_missing_in_desktop_files
-    - max_output_size_reached
 sugar-toolkit:
   version: 0.98.1-7
   issues:
@@ -26118,8 +26076,6 @@ tacacs+:
       +checking if children need to be reaped with SIG_IGN... no
     .
     Consequently, `wait3` is present in the .dynstr section in the left build but not in the right build.
-  issues:
-    - max_output_size_reached
 tachyon:
   version: 0.99~b6+dsx-3
   comments: |
@@ -27067,7 +27023,6 @@ uftrace:
   version: 0.6.0.20161014-1
   issues:
     - captures_build_path_via_assert
-    - max_output_size_reached
 uhub:
   version: 0.4.1-3
   issues:
