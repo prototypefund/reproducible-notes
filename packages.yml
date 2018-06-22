@@ -1538,12 +1538,6 @@ binpac:
   version: 0.44-1
   issues:
     - gcc_captures_build_path
-binutils:
-  version: 2.26-11
-  comments: |
-    Includes test summary which changes due to a failed test..which isn't causing a failed build...
-  issues:
-    - ftbfs_in_jenkins_setup
 binutils-avr:
   version: 2.26.20160125+Atmel3.6.0-1
   bugs:
@@ -16224,10 +16218,6 @@ octave-communications:
   version: 1.2.1-1
   issues:
     - pdf_created_by_ghostscript
-octave-ltfat:
-  version: 2.2.0+dfsg-7
-  issues:
-    - ftbfs_in_jenkins_setup
 octave-ocs:
   version: 0.1.5-2
   issues:
