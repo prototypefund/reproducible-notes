@@ -546,9 +546,6 @@ ftbfs_in_jenkins_setup:
        allowed but pbuilder doesn't support this yet (this should only be interesting
        for debian-installer)
     3) something else, the machine is heavily loaded all the time...
-ftbfs_in_jenkins_setup_due_to_socket_binding:
-  description: |
-    FTBFS due to some socket binding issue (not re-using ports like ftbfs_in_jenkins_setup)
 timestamps_in_description_files_generated_by_r-base-dev:
   description: |
     r-base-dev leaves a build timestamp (showing date + time + timezone) in
