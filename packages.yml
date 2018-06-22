@@ -163,12 +163,8 @@ adacgi:
     - timestamps_in_ada_library_information_files
 adacontrol:
   version: 1.16r11-3
-  comments: |
-    Parses the gcc version, which breaks with the modified gcc.
   issues:
-    - timestamps_in_pdf_generated_by_latex
     - unknown_ada_issue
-    - ftbfs_in_jenkins_setup
 adasockets:
   version: 1.9-1
   comments: |
@@ -1217,14 +1213,6 @@ axe-demultiplexer:
   version: 0.3.2+dfsg1-1
   issues:
     - build_id_differences_only
-axiom:
-  version: 20140801-10
-  comments: |
-    Warning: The debbindiff.txt for this package has a size of 1039300134 bytes
-  issues:
-    - timestamps_in_dvi_generated_by_latex
-    - blacklisted_on_jenkins_armhf_only
-    - ftbfs_in_jenkins_setup
 axis:
   version: 1.4-25
   issues:
@@ -1267,8 +1255,6 @@ bacula-doc:
     - captures_users_gecos
 bagel:
   version: 0.0~git20170109-1
-  issues:
-    - ftbfs_in_jenkins_setup
   bugs:
     - 811449
 baitfisher:
@@ -2376,8 +2362,7 @@ cecil-flowanalysis:
 cegui-mk2:
   version: 0.8.7-2
   issues:
-    - build_dir_in_documentation_generated_by_doxygen
-    - ftbfs_in_jenkins_setup
+    - captures build path
 ceilometer:
   version: 2015.1.0-6
   comments: |
@@ -2601,7 +2586,6 @@ chromium-browser:
   version: 48.0.2564.82-2
   issues:
     - blacklisted_on_jenkins_armhf_only
-    - ftbfs_in_jenkins_setup
 chron:
   version: 2.3-47-2
   issues:
@@ -3704,8 +3688,6 @@ deal.ii:
     Embeds the current year as copyright year into documentation.
     https://sources.debian.net/src/deal.ii/8.1.0-5/doc/doxygen/scripts/mod_header.pl.in/#L11
     on i386 and armhf affected by https://bugs.debian.org/835406
-  issues:
-    - ftbfs_in_jenkins_setup
 debconf-kde:
   version: 1.0.2-1
   issues:
@@ -4697,7 +4679,7 @@ eigen3:
   version: 3.3~beta1-2
   issues:
     - blacklisted_on_jenkins_armhf_only
-    - ftbfs_in_jenkins_setup
+    - captures_build_path
 eja:
   version: 9.5.20-1
   comments: |
@@ -5576,7 +5558,6 @@ firefox:
   issues:
     - captures_build_path
     - blacklisted_on_jenkins_armhf_only
-    - ftbfs_in_jenkins_setup
   bugs:
     - 888634
 firefox-esr:
@@ -5584,7 +5565,6 @@ firefox-esr:
   issues:
     - captures_build_path
     - blacklisted_on_jenkins_armhf_only
-    - ftbfs_in_jenkins_setup
 firehol:
   version: 2.0.1+ds-1
   issues:
@@ -6121,7 +6101,6 @@ freedict:
   version: 2014.10.22-2
   issues:
     - timestamps_in_dictionaries
-    - ftbfs_in_jenkins_setup
 freedict-swa-eng:
   version: 1:0.0.2-1
   bugs:
@@ -6607,61 +6586,26 @@ gcc-5:
       b_gnat1.adb, b_gnat1.ads, b_gnatb.adb, b_gnatb.ads, gnatvsn.ads.
     
       No clue: b~lto13.adb, b~lto13.ads.
-  issues:
-    - blacklisted_on_jenkins
-    - ftbfs_in_jenkins_setup
-gcc-5-cross:
-  version: 26
-  issues:
-    - ftbfs_in_jenkins_setup
 gcc-5-cross-ports:
   version: 8
   issues:
     - diffoscope_runs_forever
-    - ftbfs_in_jenkins_setup
 gcc-6:
   version: 6.1.1-3
   issues:
-    - blacklisted_on_jenkins
-    - ftbfs_in_jenkins_setup
+    - blacklisted_on_jenkins_armhf_only
   bugs:
     - 862113
-gcc-6-cross:
-  version: 26
-  issues:
-    - ftbfs_in_jenkins_setup
 gcc-6-cross-ports:
   version: 8
   issues:
     - diffoscope_runs_forever
-    - ftbfs_in_jenkins_setup
 gcc-7:
   version: 7-20170407-1
   issues:
     - blacklisted_on_jenkins_armhf_only
-    - ftbfs_in_jenkins_setup
   bugs:
     - 853709
-gcc-7-cross:
-  version: 8
-  issues:
-    - ftbfs_in_jenkins_setup
-gcc-7-cross-ports:
-  version: 6
-  issues:
-    - ftbfs_in_jenkins_setup
-gcc-8:
-  version: 8-20180207-2
-  issues:
-    - ftbfs_in_jenkins_setup
-gcc-8-cross:
-  version: 4
-  issues:
-    - ftbfs_in_jenkins_setup
-gcc-8-cross-ports:
-  version: 1
-  issues:
-    - ftbfs_in_jenkins_setup
 gcc-avr:
   version: 1:4.8.1+Atmel3.4.4-2
   comments: |
@@ -6683,7 +6627,6 @@ gcc-mingw-w64:
   version: 17
   issues:
     - captures_shell_variable_in_autofoo_script
-    - ftbfs_in_jenkins_setup
 gcc-msp430:
   version: 4.6.3~mspgcc-20120406-7
   issues:
@@ -6697,10 +6640,12 @@ gcc-python-plugin:
     - randomness_in_documentation_generated_by_sphinx
 gcc-snapshot:
   version: 20160125-1
+  comments: |
+    Blacklisted because this package just FTBFSes most of the time.  It's only
+    used by the GCC maintainer to experiment and test new releases before
+    updating the gcc-X packages, so no big deal.
   issues:
-    - blacklisted_on_jenkins_armhf_only
-    - diffoscope_runs_forever
-    - ftbfs_in_jenkins_setup
+    - blacklisted_on_jenkins
 gcl:
   version: 2.6.12-1
   issues:
@@ -8674,10 +8619,6 @@ hhsuite:
     Package-specific issue: the default value of '-pre_evalue_thresh' in the man page differs due to #851764.
   issues:
     - captures_build_path_via_assert
-hhvm:
-  version: 3.21.0+dfsg-2
-  issues:
-    - ftbfs_in_jenkins_setup
 hibernate:
   version: 2.0+15+g88d54a8-1
   comments: |
@@ -12788,7 +12729,6 @@ libregexp-java:
 libreoffice:
   version: 1:4.4.4~rc2-1
   issues:
-    - ftbfs_in_jenkins_setup
     - blacklisted_on_jenkins_armhf_only
 librep:
   version: 0.90.2-1.4
@@ -13350,7 +13290,6 @@ linux:
   version: 4.6.3-1
   issues:
     - blacklisted_on_jenkins_armhf_only
-    - ftbfs_in_jenkins_setup
 linux86:
   version: 0.16.17-3.1
   issues:
@@ -18322,17 +18261,10 @@ php7.0:
     - captures_users_gecos
     - leaks_path_environment_variable
     - records_build_flags
-    - ftbfs_in_jenkins_setup
-php7.1:
-  version: 7.1.13-1
-  issues:
-    - ftbfs_in_jenkins_setup
 php7.2:
   version: 7.2.2-1
   comments: |
     See also https://www.mail-archive.com/internals@lists.php.net/msg93532.html
-  issues:
-    - ftbfs_in_jenkins_setup
   bugs:
     - 889128
 php7cc:
@@ -24313,7 +24245,6 @@ rustc:
     Reported to upstream at https://github.com/rust-lang/rust/issues/34902 - more details there
   issues:
     - blacklisted_on_jenkins_armhf_only
-    - ftbfs_in_jenkins_setup
 s3d:
   version: 0.2.2-14
   issues:
@@ -24525,8 +24456,6 @@ science.js:
     - 876618
 scilab:
   version: 5.5.2-4
-  issues:
-    - ftbfs_in_jenkins_setup
   bugs:
     - 863117
     - 875790
@@ -26363,10 +26292,6 @@ the:
     - random_order_in_md5sums
   bugs:
     - 842550
-theano:
-  version: 0.8.2-6
-  issues:
-    - ftbfs_in_jenkins_setup
 themole:
   version: 0.3-1
   bugs:
@@ -26599,7 +26524,6 @@ tomcat8:
   version: 8.0.32-1
   issues:
     - blacklisted_on_jenkins_armhf_only
-    - ftbfs_in_jenkins_setup
 topal:
   version: 75-2
   comments: |
@@ -26706,7 +26630,6 @@ trilinos:
   version: 12.6.3-1
   issues:
     - diffoscope_runs_forever
-    - ftbfs_in_jenkins_setup
   bugs:
     - 835406
     - 836130
@@ -27490,7 +27413,6 @@ vtk6:
     - diffoscope_runs_forever
     - timestamps_in_dvi_generated_by_latex
     - blacklisted_on_jenkins_armhf_only
-    - ftbfs_in_jenkins_setup
 vtprint:
   version: 2.0.2-13
   issues:
@@ -28478,7 +28400,6 @@ yade:
   issues:
     - diffoscope_runs_forever
     - timestamps_in_tex_documents
-    - ftbfs_in_jenkins_setup
 yadifa:
   version: 2.2.1-1
   issues:
