@@ -14340,6 +14340,10 @@ mmorph:
     Randomess in example.db file, probably struct mem
   issues:
     - randomness_in_berkeley_db_files
+mnemosyne:
+  version: 2.6+ds-1
+  issues:
+    - nondeterminism_added_by_pyqt5_pyrcc5
 mnormt:
   version: 1.5-4-2
   issues:
