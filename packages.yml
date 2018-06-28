@@ -3994,6 +3994,10 @@ dislocker:
   version: 0.6.1-6
   issues:
     - build_id_differences_only
+dita-ot:
+  version: 1.5.3+dfsg-1
+  comments: |
+    Nondeterminism in build.xml which is generated from build_template.xml but can't find where this happens right now.
 django-celery:
   version: 3.1.17-3
   issues:
