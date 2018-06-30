@@ -7099,6 +7099,10 @@ gli:
     - captures_build_path
   bugs:
     - 888933
+glib-d:
+  version: 2.0.0-1
+  issues:
+    - buildpath_in_binaries_generated_by_d_compiler_ldc
 glib-networking:
   version: 2.56.0-1
   issues:
