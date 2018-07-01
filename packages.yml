@@ -7879,6 +7879,10 @@ govendor:
   version: 1.0.3+ds1-1
   issues:
     - golang_compiler_captures_build_path_in_binary
+gox:
+  version: 0.3.0-3
+  issues:
+    - randomness_in_binaries_generated_by_golang
 gp2c:
   version: 0.0.9pl5-1
   issues:
