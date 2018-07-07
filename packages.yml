@@ -785,6 +785,10 @@ appstream:
   version: 0.10.6-2
   issues:
     - build_id_differences_only
+appstream-generator:
+  version: 0.7.3-1
+  issues:
+    - buildpath_in_binaries_generated_by_d_compiler_ldc
 apr:
   version: 1.5.2-4
   comments: |
@@ -941,10 +945,6 @@ ascd:
     - gcc_captures_build_path
 ascii2binary:
   version: 2.14-1
-  issues:
-    - gcc_captures_build_path
-asciijump:
-  version: 1.0.2~beta-7
   issues:
     - gcc_captures_build_path
 asclock:
@@ -1423,11 +1423,9 @@ beignet:
     - different_encoding
     - captures_build_path
 belenios:
-  version: 1.4+dfsg-1
+  version: 1.6+dfsg-1
   issues:
-    - captures_build_path
-  bugs:
-    - 878980
+    - ocaml_captures_build_path
 ben:
   version: 0.7.4
   issues:
@@ -1799,6 +1797,10 @@ bosixnet:
   version: 1.9-1
   issues:
     - gcc_captures_build_path
+boswars:
+  version: 2.7+svn160110-4
+  issues:
+    - gcc_captures_build_path
 botan1.10:
   version: 1.10.8-2
   comments: |
@@ -1895,8 +1897,6 @@ brltty:
     - timestamps_in_documentation_generated_by_doxygen
     - timestamps_in_jar
     - captures_build_path
-  bugs:
-    - 871155
 broccoli:
   version: 1.97-3
   comments: |
@@ -3950,6 +3950,10 @@ didjvu:
   version: 0.8.1-2
   bugs:
     - 887752
+diet-ng:
+  version: 1.4.4-2
+  issues:
+    - buildpath_in_binaries_generated_by_d_compiler_ldc
 dietlibc:
   version: 0.34~cvs20160606-6
   issues:
@@ -4321,6 +4325,10 @@ dumpet:
   version: 2.1-9
   issues:
     - gcc_captures_build_path
+dune:
+  version: 1.0~beta20-1
+  issues:
+    - ocaml_captures_build_path
 dune-common:
   version: 2.4.0-1
   issues:
@@ -4902,6 +4910,10 @@ erlang-cl:
   issues:
     - captures_build_path_in_beam_files
     - timestamps_in_documentation_generated_by_edoc
+erlang-cowboy:
+  version: 2.0.0~pre.1+dfsg1-4
+  issues:
+    - captures_build_path_in_beam_files
 erlang-cowlib:
   version: 1.3.0-1
   comments: |
@@ -4918,6 +4930,14 @@ erlang-folsom:
     - captures_build_path_in_beam_files
 erlang-fs-listener:
   version: 2.12.0-1
+  issues:
+    - captures_build_path_in_beam_files
+erlang-getopt:
+  version: 1.0.1-2
+  issues:
+    - captures_build_path_in_beam_files
+erlang-goldrush:
+  version: 0.2.0-1
   issues:
     - captures_build_path_in_beam_files
 erlang-jiffy:
@@ -5158,10 +5178,6 @@ extlib:
   version: 1.7.0-2
   issues:
     - captures_build_path
-extremetuxracer:
-  version: 0.7.4-1
-  issues:
-    - gcc_captures_build_path
 extundelete:
   version: 0.2.4-1
   bugs:
@@ -6157,6 +6173,10 @@ freetts:
   version: 1.2.2-3
   issues:
     - user_in_java_jar_manifest
+freeture:
+  version: 1.2.1-1
+  issues:
+    - timestamps_in_manpages_generated_by_help2man
 freewnn:
   version: 1.1.1~a021+cvs20130302-4
   issues:
@@ -6977,6 +6997,10 @@ gip:
   version: 1.7.0-1-4
   bugs:
     - 842868
+gir-to-d:
+  version: 0.15.0-2
+  issues:
+    - buildpath_in_binaries_generated_by_d_compiler_ldc
 girara:
   version: 0.2.6-1
   issues:
@@ -12631,6 +12655,10 @@ libproxy:
   version: 0.4.11-5
   issues:
     - gcc_captures_build_path
+libpsm2:
+  version: 10.3.58-1
+  issues:
+    - build_path_captured_in_assembly_objects
 libpthread-workqueue:
   version: 0.9.1-1
   bugs:
@@ -12753,10 +12781,6 @@ libreswan:
   version: 3.19-1
   issues:
     - captures_build_path_via_assert
-libretro-beetle-wswan:
-  version: 0.9.35.1+git20160623-1
-  issues:
-    - gcc_captures_build_path
 libretro-desmume:
   version: 0.9.11+git20160819+dfsg1-1
   bugs:
@@ -14695,6 +14719,10 @@ mpdcon.app:
   version: 1.1.99-5
   issues:
     - gcc_captures_build_path
+mpeg2dec:
+  version: 0.5.1-8
+  issues:
+    - build_path_captured_in_assembly_objects
 mpfi:
   version: 1.5.1+ds-4
   issues:
@@ -14825,6 +14853,10 @@ multcomp:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
+multiboot:
+  version: 0.6.96+20101113-2
+  issues:
+    - build_path_captured_in_assembly_objects
 multiverse-core:
   version: 0.7.0-3
   issues:
@@ -16101,6 +16133,10 @@ ocaml-res:
   version: 4.0.3-3
   issues:
     - ocaml_captures_build_path
+ocaml-rope:
+  version: 0.6.1-1
+  issues:
+    - ocaml_captures_build_path
 ocaml-shine:
   version: 0.2.0-1
   issues:
@@ -16449,10 +16485,6 @@ openclipart:
   version: 1:0.18+dfsg-14
   issues:
     - blacklisted_on_jenkins_armhf_only
-openclonk:
-  version: 7.0-3
-  issues:
-    - gcc_captures_build_path
 opencolorio:
   version: 1.0.9~dfsg0-6
   issues:
@@ -17165,6 +17197,10 @@ pcscada:
     - captures_build_path
     - random_order_in_static_libraries
     - records_build_flags
+pcsx2:
+  version: 1.4.0+dfsg-2
+  issues:
+    - build_path_captured_in_assembly_objects
 pd-fftease:
   version: 2.5.2.git20121005-1
   issues:
@@ -18405,6 +18441,10 @@ pixelmed:
     - different_encoding
   bugs:
     - 893409
+pixman:
+  version: 0.34.0-2
+  issues:
+    - build_path_captured_in_assembly_objects
 pk4:
   version: '5'
   issues:
@@ -18426,14 +18466,6 @@ plainbox:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - randomness_in_documentation_indices_generated_by_sphinx
-planetblupi:
-  version: 1.12.1-22-g13a7e27-2
-  issues:
-    - serial_numbers_in_ogg_via_sox
-planner:
-  version: 0.14.6-5
-  bugs:
-    - 876577
 plasma-desktop:
   version: 4:5.8.6-1
   issues:
@@ -18825,6 +18857,10 @@ powerdevil:
   version: 4:5.4.3-1
   issues:
     - build_id_differences_only
+powermanga:
+  version: 0.93.1-2
+  issues:
+    - build_path_captured_in_assembly_objects
 poxml:
   version: 4:15.12.0-3
   issues:
@@ -23229,6 +23265,10 @@ retro-gtk:
   version: 0.10.0-1
   issues:
     - gcc_captures_build_path
+retroarch:
+  version: 1.3.6+dfsg1-1
+  issues:
+    - build_path_captured_in_assembly_objects
 rgain:
   version: 1.3.3-1
   issues:
@@ -25155,10 +25195,6 @@ sogo:
     unused (see debian/patches/0005-Remove-build-date.patch) but varies.
   issues:
     - records_build_flags
-solfege:
-  version: 3.22.2-2
-  issues:
-    - gcc_captures_build_path
 solid:
   version: 5.26.0-1
   issues:
@@ -26343,10 +26379,6 @@ timew:
   version: 1.0.0~beta1+ds-1
   issues:
     - gcc_captures_build_path
-timidity:
-  version: 2.13.2-40.5
-  issues:
-    - gcc_captures_build_path
 timingframework:
   version: 1.0-1
   issues:
@@ -26680,23 +26712,9 @@ tulip:
     - 793137
     - 853688
 tumiki-fighters:
-  version: 0.2.dfsg1-8
-  comments: |
-    The order of two DW_TAG_label items (debug symbols for C ^H^H^H D labels, I believe) differs between the two builds.
-    .
-    Current status:
-      amd64 sid: unreproducible
-      armhf sid: unreproducible
-      amd64 stretch: reproducible
-      armhf stretch: reproducible
-      i386 *: reproducible
-      arm64 *: depwait
-    .
-    Given that all stretch builds pass, this might be specific to sid or to the
-    build path variation.  On the other hand, the failure might be purely random,
-    and the fact that all three stretch builds passed is due to pure chance (12.5%).
-  bugs:
-    - 896591
+  version: 0.2.dfsg1-9
+  issues:
+    - buildpath_in_binaries_generated_by_d_compiler_gdc
 tupi:
   version: 0.2+git05-3
   comments: |
@@ -27094,9 +27112,9 @@ vagalume:
   issues:
     - captures_build_arch
 val-and-rick:
-  version: 0.1a.dfsg1-5
-  bugs:
-    - 896592
+  version: 0.1a.dfsg1-6
+  issues:
+    - buildpath_in_binaries_generated_by_d_compiler_gdc
 vala-terminal:
   version: 1.3-6
   bugs:
@@ -27688,7 +27706,6 @@ wmii-doc:
   version: 1:1-15
   issues:
     - timestamps_in_ps_generated_by_dvips
-    - random_id_in_pdf_generated_by_dblatex
 wml:
   version: 2.0.12ds1-10
   issues:
@@ -27809,6 +27826,10 @@ wxpython4.0:
   version: 4.0.1+dfsg-2
   bugs:
     - 895516
+wyrd:
+  version: 1.4.6-4
+  issues:
+    - ocaml_captures_build_path
 x11proto-core:
   version: 7.0.26-1
   issues:
