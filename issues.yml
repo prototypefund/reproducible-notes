@@ -1827,6 +1827,13 @@ member_search_index_json:
   description: |
     openjdk creates member-search-index.json files in zip files that appear to
     use the current time?
+variations_from_march_native:
+  description: |
+    when packages invoke gcc or g++ with -march=native or -mcpu=native or
+    -mtune=native, the resulting binaries will vary depending on the build
+    system's CPU type. When such binaries are built on newer CPUs, they can
+    cause segfaults when run on older CPUs due to invalid opcode.
+    See also https://bugzilla.opensuse.org/show_bug.cgi?id=1100677
 doxygen_fails_to_create_all_links_in_example_code:
   description: |
     doxygen-generated documentation *might* miss a few links to documented
