@@ -12286,6 +12286,18 @@ libmapper:
   version: 0.3~git+20141027-1
   issues:
     - gcc_captures_build_path
+libmarc-charset-perl:
+  version: 1.35-2
+  comments: |
+    The file created from the tied DB $self->{db} (ISA GDBM_File)
+    is not deterministic. We already set $Storable::canonical = 1 so:
+     - either the data is inserted into that tied DB in a non-deterministic
+       manner;
+     - or the GDBM_File backend creates files from the tied DB in a
+       non-deterministic manner; one might have more luck with another
+       backend (to do so, put that other backend first in the @AnyDBM_File::ISA
+       list in lib/MARC/Charset/Table.pm; DB_File with BTREE + LC_ALL=C
+       was tried already and does not produce deterministic output).
 libmarpa-r2-perl:
   version: 2.086000~dfsg-6
   issues:
