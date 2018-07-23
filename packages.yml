@@ -11522,6 +11522,10 @@ libcrcutil:
   version: 1.0-4
   issues:
     - random_id_in_pdf_generated_by_dblatex
+libcrypt-openssl-rsa-perl
+  version: 0.30-1
+  issues:
+    - captures_build_path_via_assert
 libcsp:
   version: 1.4+fdd49b7+dfsg-3
   comments: |
