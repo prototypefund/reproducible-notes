@@ -7127,13 +7127,6 @@ glib-networking:
   version: 2.56.0-1
   issues:
     - gcc_captures_build_path
-glibc:
-  version: 2.24-7
-  issues:
-    - timestamps_in_tarball
-    - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-  bugs:
-    - 844420
 glide:
   version: 2002.04.10ds1-11
   issues:
