@@ -24767,10 +24767,6 @@ slepc:
     Embeds build date, hostname, `uname -a`:
     https://sources.debian.net/src/slepc/3.7.2%2Bdfsg1-3/makefile/?hl=94#L93
   issues:
-    - user_hostname_manually_added_requiring_further_investigation
-    - captures_kernel_version
-    - captures_build_path
-    - different_encoding
     - records_build_flags
 slib:
   version: 3b1-5
@@ -28215,7 +28211,6 @@ yoshimi:
 yosys:
   version: 0.6-4
   issues:
-    - timestamps_in_pdf_generated_by_latex
     - fonts_in_pdf_files
     - records_build_flags
   bugs:
