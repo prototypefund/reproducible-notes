@@ -307,10 +307,6 @@ alembic:
   version: 0.8.7-2
   issues:
     - randomness_in_documentation_generated_by_sphinx
-allegro4.4:
-  version: 2:4.4.2-11
-  bugs:
-    - 901587
 allegro5:
   version: 2:5.0.11-1
   comments: |
@@ -575,10 +571,6 @@ apache-directory-jdbm:
   version: 2.0.0~M2-1
   issues:
     - random_order_in_java_jar_manifest_mf
-apache-directory-server:
-  version: 2.0.0~M15-4
-  bugs:
-    - 889840
 apache-log4j-extras1.2:
   version: 1.2.17-1
   issues:
@@ -754,10 +746,6 @@ apitrace:
   version: 7.1+git20160531.2d78bef0+repack-1.1
   issues:
     - gcc_captures_build_path
-aplpy:
-  version: 1.1.1-1
-  bugs:
-    - 896481
 aplus-fsf:
   version: 4.22.1-7
   issues:
@@ -1214,8 +1202,6 @@ axis:
   version: 1.4-25
   issues:
     - random_order_in_documentation_generated_by_javadoc
-  bugs:
-    - 893098
 axmlrpc:
   version: 1.9.0-2
   issues:
@@ -1307,10 +1293,6 @@ bareos:
     - timestamps_from_cpp_macros
     - different_due_to_umask
     - records_build_flags
-baresip:
-  version: 0.5.7-1
-  bugs:
-    - 889522
 barnowl:
   version: 1.9-1
   comments: |
@@ -1673,8 +1655,6 @@ blitz++:
     - user_hostname_manually_added_requiring_further_investigation
     - records_build_flags
     - random_id_in_pdf_generated_by_dblatex
-  bugs:
-    - 853333
 blkreplay:
   version: 1.0-3
   issues:
@@ -1874,10 +1854,6 @@ brickos:
   version: 0.9.0.dfsg-12
   comments: |
     Tried adding SOURCE_DATE_EPOCH with https://gist.github.com/lamby/2d9f1c62ec4f633b63c9 to remove timestamp but not working for some reason
-bridge-method-injector:
-  version: 1.18-1
-  bugs:
-    - 893101
 brightside:
   version: 1.4.0-4.2
   issues:
@@ -2369,10 +2345,6 @@ celery:
   version: 3.1.13-3
   issues:
     - randomness_in_documentation_generated_by_sphinx
-celery-haystack:
-  version: 0.10-1
-  bugs:
-    - 881198
 cen64:
   version: 0.3+git20160403-1
   issues:
@@ -2697,10 +2669,6 @@ clif:
   version: 0.93-9.1
   issues:
     - gcc_captures_build_path
-clipper:
-  version: 2.1.20160809-1
-  bugs:
-    - 902745
 clisp:
   version: 1:2.49-10
   comments: |
@@ -3041,8 +3009,6 @@ consul:
   version: 0.6.4~dfsg-3
   issues:
     - golang_compiler_captures_build_path_in_binary
-  bugs:
-    - 871687
 containerd:
   version: 0.2.3+git20170126.85.aa8187d~ds1-2
   bugs:
@@ -3806,10 +3772,6 @@ debos:
   version: 1.0.0+git20180112.6e577d4-1
   issues:
     - randomness_in_binaries_generated_by_golang
-deepin-image-viewer:
-  version: 1.2.16.8-1
-  bugs:
-    - 892643
 deja-dup:
   version: 34.3-1
   issues:
@@ -3882,10 +3844,6 @@ dh-make-golang:
   version: 0.0~git20150913.0.1221041-1
   issues:
     - golang_compiler_captures_build_path_in_binary
-dh-python:
-  version: '2.20170125'
-  bugs:
-    - 893242
 dhcp-probe:
   version: 1.3.0-10.1
   issues:
@@ -4007,7 +3965,6 @@ django-celery:
   issues:
     - randomness_in_documentation_generated_by_sphinx
   bugs:
-    - 881196
     - 881198
 django-celery-transactions:
   version: 0.3.6-2
@@ -4121,8 +4078,6 @@ docker-registry:
     [experimental/amd64]
   issues:
     - golang_compiler_captures_build_path_in_binary
-  bugs:
-    - 841575
 docker-runc:
   version: 1.0.0~rc2+git+docker1.13.1~ds1-3
   issues:
@@ -4156,7 +4111,6 @@ dogtag-pki:
 dojo:
   version: 1.11.0+dfsg-1
   bugs:
-    - 852923
     - 869864
 dokujclient:
   version: 3.9.0-1
@@ -4230,10 +4184,6 @@ doxygen:
   issues:
     - timezones_manpages_podman
     - captures_build_path
-doxyqml:
-  version: 0.3.0-1
-  bugs:
-    - 896754
 dpkg:
   version: 1.18.23
   bugs:
@@ -4747,8 +4697,6 @@ elixir-lang:
   version: 1.3.3-2
   issues:
     - captures_build_path
-  bugs:
-    - 871120
 elkcode:
   version: 2.3.22-1
   bugs:
@@ -4831,10 +4779,6 @@ enigma:
     - gcc_captures_build_path
   bugs:
     - 811826
-enigmail:
-  version: 2:2.0.7-2
-  bugs:
-    - 901611
 ent:
   version: 1.2debian-1
   issues:
@@ -5167,10 +5111,6 @@ ext3grep:
   version: 0.10.2-3
   bugs:
     - 894650
-ext4magic:
-  version: 0.3.2-7
-  bugs:
-    - 894649
 extlib:
   version: 1.7.0-2
   issues:
@@ -6395,10 +6335,6 @@ gammu:
   version: 1.33.0-3
   issues:
     - timestamps_from_cpp_macros
-ganeti:
-  version: 2.16.0~rc2-3
-  bugs:
-    - 896496
 gant:
   version: 1.9.9-3
   issues:
@@ -6753,10 +6689,6 @@ gedit-plugins:
       2) The .po suffix rules in po/Makefile.in.in
   issues:
     - translations_missing_in_desktop_files
-gedit-source-code-browser-plugin:
-  version: 3.0.3-5
-  bugs:
-    - 896726
 gegl:
   version: 0.2.0-7.1
   comments: |
@@ -7038,8 +6970,6 @@ gitano:
   version: 1.0-1
   issues:
     - random_id_in_pdf_generated_by_dblatex
-  bugs:
-    - 897108
 gitlab-shell:
   version: 6.0.4+dfsg-1
   issues:
@@ -7413,8 +7343,6 @@ gnudatalanguage:
   version: 0.9.6v2-3
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 895119
 gnugo:
   version: 3.8-9
   issues:
@@ -7566,8 +7494,6 @@ golang-github-appc-docker2aci:
   version: 0.9.2-2
   issues:
     - golang_compiler_captures_build_path_in_binary
-  bugs:
-    - 895207
 golang-github-appc-spec:
   version: 0.7.1+dfsg-1
   issues:
@@ -7616,10 +7542,6 @@ golang-github-dcso-bloom:
   version: 0.2.0-1
   issues:
     - randomness_in_binaries_generated_by_golang
-golang-github-dnephin-cobra:
-  version: 1.5+git20161103.0.a3c0924-1
-  bugs:
-    - 868617
 golang-github-docker-docker-credential-helpers:
   version: 0.6.1-1
   issues:
@@ -7628,10 +7550,6 @@ golang-github-docker-engine-api:
   version: 0.4.0-2
   bugs:
     - 871654
-golang-github-docker-goamz:
-  version: 0.0~git20160206.0.f0a21f5-1
-  bugs:
-    - 866857
 golang-github-docker-libnetwork:
   version: 0.8.0-dev.2+git20170202.599.45b4086-4
   issues:
@@ -7763,10 +7681,6 @@ golang-github-rakyll-statik:
   version: 0.1.1-3
   issues:
     - randomness_in_binaries_generated_by_golang
-golang-github-robfig-cron:
-  version: 1-1
-  bugs:
-    - 839433
 golang-github-smartystreets-go-aws-auth:
   version: 0.0~git20160722.0.2043e6d-1
   bugs:
@@ -7837,8 +7751,6 @@ golang-gopkg-ini.v1:
   version: 1.8.5-1
   comments: |
     https://sources.debian.net/src/golang-gopkg-ini.v1/1.8.5-1/struct_test.go/#L208
-  bugs:
-    - 890936
 golang-goprotobuf:
   version: 0.0~git20170808.0.1909bc2-1
   issues:
@@ -8493,10 +8405,6 @@ haskell-protobuf:
   version: 0.2.1.1-2
   bugs:
     - 862278
-haskell-secret-sharing:
-  version: 1.0.0.3-3
-  bugs:
-    - 867195
 haskell-shell-conduit:
   version: 4.6.1-2
   comments: |
@@ -8747,8 +8655,6 @@ htsjdk:
   version: 2.8.1+dfsg-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-  bugs:
-    - 894289
 htslib:
   version: 1.3.1-2
   issues:
@@ -9021,10 +8927,6 @@ indent:
   version: 2.2.11-4
   issues:
     - texi2html_captures_users_gecos
-indexed-gzip:
-  version: 0.3.1-1
-  bugs:
-    - 861463
 indigo:
   version: 1.1.12-1.1
   issues:
@@ -9043,8 +8945,6 @@ influxdb:
   version: 0.13.0+dfsg1-4
   issues:
     - golang_compiler_captures_build_path_in_binary
-  bugs:
-    - 880270
 infon:
   version: 0~r198-8
   issues:
@@ -9145,10 +9045,6 @@ ippusbxd:
   version: 1.23-1
   issues:
     - gcc_captures_build_path
-ipsec-tools:
-  version: 1:0.8.2+20140711-10
-  bugs:
-    - 892831
 ipsvd:
   version: 1.0.0-3
   issues:
@@ -9544,7 +9440,6 @@ jaxb:
   issues:
     - random_order_in_documentation_generated_by_javadoc
   bugs:
-    - 882525
     - 893214
 jaxb-api:
   version: 2.2.9-1
@@ -9638,10 +9533,6 @@ jericho-html:
   version: 3.1-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
-jets3t:
-  version: 0.8.1+dfsg-3
-  bugs:
-    - 893198
 jfractionlab:
   version: 0.91-3
   issues:
@@ -10620,8 +10511,6 @@ kore:
   version: 2.0.0-2
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 853478
 koules:
   version: 1.4-23
   issues:
@@ -11957,10 +11846,6 @@ libio-pty-perl:
     - gcc_captures_build_path
   bugs:
     - 841703
-libio-socket-multicast6-perl:
-  version: 0.03-3
-  bugs:
-    - 788759
 libiptcdata:
   version: 1.0.4-6
   bugs:
@@ -12876,10 +12761,6 @@ libsndfile:
   issues:
     - captures_shell_variable_in_autofoo_script
     - records_build_flags
-libsocialweb:
-  version: 0.25.20-6
-  bugs:
-    - 862766
 libsodium:
   version: 1.0.11-2
   issues:
@@ -13233,10 +13114,6 @@ libzia:
   version: 4.06-2
   issues:
     - records_build_flags
-libzypp:
-  version: 15.3.0-1
-  bugs:
-    - 841769
 lie:
   version: 2.2.2+dfsg-2
   comments: |
@@ -13783,10 +13660,6 @@ mailfront:
     - random_order_in_md5sums
   bugs:
     - 895669
-mailman:
-  version: 1:2.1.26-1
-  bugs:
-    - 889637
 mailsync:
   version: 5.2.2-3.1
   issues:
@@ -14413,8 +14286,6 @@ mochiweb:
   version: 2.15.0-1
   issues:
     - captures_build_path
-  bugs:
-    - 837271
 mockito:
   version: 1.9.5+ds-2
   issues:
@@ -14837,10 +14708,6 @@ msrtool:
   version: 1:20141027-1.1
   bugs:
     - 847093
-msxpertsuite:
-  version: 5.0.0-1
-  bugs:
-    - 896141
 mtail:
   version: 0.0+git20160716.f911b02-1
   issues:
@@ -14866,10 +14733,6 @@ multiverse-core:
   version: 0.7.0-3
   issues:
     - random_order_in_documentation_generated_by_javadoc
-mumble:
-  version: 1.2.19-1
-  bugs:
-    - 893604
 mummer:
   version: 3.23~dfsg-2
   issues:
@@ -15208,8 +15071,6 @@ netbeans:
   issues:
     - timestamps_in_zip
     - blacklisted_on_jenkins_armhf_only
-  bugs:
-    - 882525
 netcdf:
   version: 1:4.4.1-2
   issues:
@@ -15631,10 +15492,6 @@ node-merge-stream:
   version: 1.0.1-1
   bugs:
     - 854495
-node-mocha:
-  version: 1.20.1-7
-  bugs:
-    - 872613
 node-module-deps:
   version: 4.1.1-1
   bugs:
@@ -15711,8 +15568,6 @@ nomad:
   issues:
     - captures_build_path
     - golang_compiler_captures_build_path_in_binary
-  bugs:
-    - 861547
 nordlicht:
   version: 0.4.4-3
   issues:
@@ -15859,10 +15714,6 @@ ntopng:
   version: 2.4+dfsg1-3
   issues:
     - captures_build_path_via_assert
-nuitka:
-  version: 0.5.28.2+ds-1
-  bugs:
-    - 884666
 nunit:
   version: 2.6.3+dfsg-1
   issues:
@@ -15933,10 +15784,6 @@ oasis3:
   version: 3.mct+dfsg.121022-7
   issues:
     - captures_build_path
-oath-toolkit:
-  version: 2.6.1-1
-  bugs:
-    - 876120
 obconf-qt:
   version: 0.9.0+20151227-2
   issues:
@@ -16306,10 +16153,6 @@ ogre-1.9:
   version: 1.9.0+dfsg1-7
   issues:
     - build_id_differences_only
-ohai:
-  version: 8.21.0-1
-  bugs:
-    - 892196
 ohcount:
   version: 3.0.0-8.2
   issues:
@@ -16785,10 +16628,6 @@ oroborus:
     https://gist.github.com/lamby/c303f0ff7c51aa04b25872ba37f9cc50/raw but also build path
   issues:
     - gcc_captures_build_path
-orocos-bfl:
-  version: 0.8.0-3
-  bugs:
-    - 895182
 orocos-kdl:
   version: 1.3.1+dfsg-1
   issues:
@@ -16847,8 +16686,6 @@ osgi-foundation-ee:
   version: 4.2.0-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
-  bugs:
-    - 893382
 osm2pgrouting:
   version: 2.2.0-1
   issues:
@@ -17056,10 +16893,6 @@ pandas:
     - cython_captures_build_path
   bugs:
     - 877419
-pango1.0:
-  version: 1.42.1-1
-  bugs:
-    - 895235
 panko:
   version: 3.1.0-4
   comments: |
@@ -17411,8 +17244,6 @@ pgloader:
   version: 3.3.1+dfsg-1
   comments: |
     Looks like the .fasl compiled lisp intermediate files contain the build time, then the whole thing gets compressed when combined in the pgloader binary so it becomes opaque at the package diffoscope level.
-  bugs:
-    - 879442
 pgmemcache:
   version: 2.3.0-2
   issues:
@@ -18408,10 +18239,6 @@ pink-pony:
   version: 1.4.1-2
   issues:
     - captures_build_path
-pinot:
-  version: 1.05-1.1
-  bugs:
-    - 828503
 pinpoint:
   version: 1:0.1.8-2
   issues:
@@ -18524,10 +18351,6 @@ plastimatch:
   version: 1.6.3+dfsg-1
   issues:
     - gcc_captures_build_path
-playitslowly:
-  version: 1.5.0-1
-  bugs:
-    - 896768
 pldebugger:
   version: 9.5.0-10-gd663a19-1
   issues:
@@ -19405,10 +19228,6 @@ pylibssh2:
   version: 1.0.0-1.2
   issues:
     - gcc_captures_build_path
-pylint:
-  version: 1.8.3-1
-  bugs:
-    - 894607
 pylint-celery:
   version: 0.3-3
   bugs:
@@ -19454,8 +19273,6 @@ pymvpa2:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - captures_build_path
-  bugs:
-    - 896628
 pynifti:
   version: 0.20100607.1-4.1
   issues:
@@ -19500,7 +19317,6 @@ pyopencl:
 pyopenssl:
   version: 17.5.0-1
   bugs:
-    - 891727
     - 897469
 pyorbit:
   version: 2.24.0-7.1
@@ -19510,10 +19326,6 @@ pyotherside:
   version: 1.2.0-1
   issues:
     - captures_build_path
-pypolicyd-spf:
-  version: 2.0.2-1
-  bugs:
-    - 896772
 pyprotocols:
   version: 1.0a.svn20070625-7
   issues:
@@ -19547,10 +19359,6 @@ pyqwt5:
   version: 5.2.1~cvs20091107+dfsg-8
   issues:
     - gcc_captures_build_path
-pyraf:
-  version: 2.1.14+dfsg-6
-  bugs:
-    - 901428
 pyregion:
   version: 1.1.4-2
   issues:
@@ -19631,10 +19439,6 @@ python-bioblend:
   version: 0.7.0-2
   issues:
     - randomness_in_documentation_generated_by_sphinx
-python-biom-format:
-  version: 2.1.5+dfsg-7
-  bugs:
-    - 896629
 python-biopython:
   version: 1.68+dfsg-1
   issues:
@@ -19688,7 +19492,6 @@ python-click:
   version: 6.7-3.1
   bugs:
     - 895270
-    - 896630
 python-cogent:
   version: 1.5.3-2
   issues:
@@ -19707,8 +19510,6 @@ python-cryptography:
   version: 1.5.2-1
   issues:
     - captures_build_arch
-  bugs:
-    - 896631
 python-csb:
   version: 1.2.3+dfsg-3
   issues:
@@ -19789,10 +19590,6 @@ python-ethtool:
   version: 0.11-3
   issues:
     - gcc_captures_build_path
-python-eventlet:
-  version: 0.20.0-4
-  bugs:
-    - 891727
 python-expyriment:
   version: 0.7.0+git34-g55a4e7e-3
   issues:
@@ -19966,8 +19763,6 @@ python-networkx:
     Also contains differing png files.
   issues:
     - timestamps_in_pdf_generated_by_latex
-  bugs:
-    - 872241
 python-neuroshare:
   version: 0.9.2-1
   issues:
@@ -20083,8 +19878,6 @@ python-pygit2:
   version: 0.24.1-1
   issues:
     - captures_build_arch
-  bugs:
-    - 893242
 python-pymzml:
   version: 0.7.6-dfsg-2
   issues:
@@ -23176,10 +22969,6 @@ recordmydesktop:
   version: 0.3.8.1+svn602-1
   issues:
     - gcc_captures_build_path
-redisearch:
-  version: 1.0.10-1
-  bugs:
-    - 896593
 redmine-recaptcha:
   version: 0.1.0+git20121018-3
   bugs:
@@ -23736,10 +23525,6 @@ ruby-encryptor:
   version: 3.0.0-1
   bugs:
     - 880276
-ruby-enumerize:
-  version: 1.1.1-1
-  bugs:
-    - 895116
 ruby-escape-utils:
   version: 1.1.0-1
   issues:
@@ -23752,10 +23537,6 @@ ruby-exif:
   version: 0.1.2-21
   issues:
     - gcc_captures_build_path
-ruby-fakefs:
-  version: 0.6.7-1
-  bugs:
-    - 888186
 ruby-fast-stemmer:
   version: 1.0.2-1
   issues:
@@ -23856,10 +23637,6 @@ ruby-hpricot:
   version: 0.8.6-6
   issues:
     - gcc_captures_build_path
-ruby-html-pipeline:
-  version: 1.11.0-1
-  bugs:
-    - 891755
 ruby-http:
   version: 1.0.2-4
   bugs:
@@ -24042,10 +23819,6 @@ ruby-protected-attributes:
   version: 1.1.3-2
   bugs:
     - 861459
-ruby-psych:
-  version: 2.2.4-6
-  bugs:
-    - 892508
 ruby-rails-admin:
   version: 0.8.1+dfsg-3
   bugs:
@@ -24094,8 +23867,6 @@ ruby-rjb:
   version: 1.5.3-2
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 897664
 ruby-rpatricia:
   version: 1.0.1-1
   issues:
@@ -24257,7 +24028,6 @@ runc:
   issues:
     - golang_compiler_captures_build_path_in_binary
   bugs:
-    - 858250
     - 861966
 runit:
   version: 2.1.2-3
@@ -24686,10 +24456,6 @@ sexplib310:
     - captures_build_path
   bugs:
     - 877496
-sezpoz:
-  version: 1.10-2
-  bugs:
-    - 893416
 sfcgal:
   version: 1.2.2-1
   issues:
@@ -25047,14 +24813,6 @@ slt:
   version: 0.0.git20140301-1
   issues:
     - ftbfs_uninvestigated_test_failures
-slurm-drmaa:
-  version: 1.0.7-1
-  bugs:
-    - 887924
-slurm-llnl:
-  version: 17.11.5-1
-  bugs:
-    - 887924
 sm:
   version: 2.2-5.4-1
   issues:
@@ -25331,10 +25089,6 @@ sphinx:
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - randomness_in_documentation_indices_generated_by_sphinx
-sphinx-argparse:
-  version: 0.1.15-3
-  bugs:
-    - 896636
 sphinx-gallery:
   version: 0.2.0-1
   issues:
@@ -25575,7 +25329,6 @@ statsmodels:
     - captures_build_path
   bugs:
     - 880245
-    - 894572
 stdsyslog:
   version: 0.03.1-3
   issues:
@@ -25716,8 +25469,6 @@ sugar-toolkit-gtk3:
   version: 0.106.1-1
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 895235
 summain:
   version: 0.20-1
   issues:
@@ -25916,7 +25667,6 @@ synfig:
   version: 0.64.2-1
   bugs:
     - 820072
-    - 895503
 synopsis:
   version: 0.12-10
   issues:
@@ -26046,8 +25796,6 @@ tarantool:
   version: 1.6.8.740.g45fc77f-1
   issues:
     - records_build_flags
-  bugs:
-    - 881481
 tarantool-lts:
   version: 1.5.5-18-g2998d20-1
   issues:
@@ -26311,10 +26059,6 @@ the:
     - random_order_in_md5sums
   bugs:
     - 842550
-themole:
-  version: 0.3-1
-  bugs:
-    - 896741
 thepeg:
   version: 1.8.0-3
   bugs:
@@ -26574,10 +26318,6 @@ torrus:
     - captures_shell_variable_in_autofoo_script
   bugs:
     - 847024
-torus-trooper:
-  version: 0.22.dfsg1-11
-  bugs:
-    - 896590
 totem:
   version: 3.26.0-3
   issues:
@@ -26599,8 +26339,6 @@ trafficserver:
   issues:
     - records_build_flags
     - different_due_to_umask
-  bugs:
-    - 887503
 traildb:
   version: 0.6+dfsg1-1
   bugs:
@@ -27118,10 +26856,6 @@ val-and-rick:
   version: 0.1a.dfsg1-6
   issues:
     - buildpath_in_binaries_generated_by_d_compiler_gdc
-vala-terminal:
-  version: 1.3-6
-  bugs:
-    - 896462
 valabind:
   version: 0.10.0-0.1
   issues:
@@ -27381,10 +27115,6 @@ voxbo:
   version: 1.8.5~svn1246-2
   bugs:
     - 853702
-vpcs:
-  version: 0.5b2-1
-  bugs:
-    - 887694
 vsdump:
   version: 0.0.45-1
   issues:
@@ -28189,8 +27919,6 @@ xorg-server:
     - captures_kernel_version
     - different_due_to_umask
     - random_order_in_tarball
-  bugs:
-    - 868843
 xorp:
   version: 1.8.5-4
   comments: |
@@ -28665,7 +28393,3 @@ zyne:
   version: 0.1.2-2
   bugs:
     - 797027
-zypper:
-  version: 1.12.4-1
-  bugs:
-    - 812243
