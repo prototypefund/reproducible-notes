@@ -2484,10 +2484,6 @@ cheetah:
   version: 2.4.4-3
   issues:
     - gcc_captures_build_path
-chemeq:
-  version: 2.13-1
-  bugs:
-    - 901763
 chemical-structures:
   version: 2.2.dfsg.0-12
   issues:
@@ -3964,8 +3960,6 @@ django-celery:
   version: 3.1.17-3
   issues:
     - randomness_in_documentation_generated_by_sphinx
-  bugs:
-    - 881198
 django-celery-transactions:
   version: 0.3.6-2
   bugs:
@@ -9435,8 +9429,6 @@ jaxb:
   version: 2.2.5-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-  bugs:
-    - 893214
 jaxb-api:
   version: 2.2.9-1
   issues:
@@ -18209,10 +18201,6 @@ pike7.8:
   issues:
     - timestamps_from_cpp_macros
     - captures_kernel_version
-pike8.0:
-  version: 8.0.498-1
-  bugs:
-    - 892574
 pillow:
   version: 3.3.1-1
   issues:
