@@ -19901,10 +19901,6 @@ python-schema-salad:
   version: 2.2.20170111180227-1
   issues:
     - help2man_puts_traceback_in_generated_man_page
-python-scipy:
-  version: 0.14.1-1
-  issues:
-    - blacklisted_on_jenkins_armhf_only
 python-scrapy:
   version: 1.5.0-1
   bugs:
@@ -24296,10 +24292,6 @@ sdb:
   issues:
     - timestamps_in_pe_binaries
     - clilibs_line_order
-sdcc:
-  version: 3.5.0+dfsg-2
-  comments: |
-    ... also PDF header includes random path name under /tmp
 sdcv:
   version: 0.5.0~beta4-1
   issues:
