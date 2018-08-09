@@ -2369,10 +2369,6 @@ cffi:
     - different_due_to_umask
     - timestamps_in_ps_generated_by_dvips
     - timestamps_in_dvi_generated_by_latex
-cfflib:
-  version: 2.0.5-2
-  bugs:
-    - 877151
 cfi:
   version: 3.0-10
   issues:
@@ -19567,8 +19563,6 @@ python-gevent:
   version: 1.1.1-2
   issues:
     - captures_build_arch
-  bugs:
-    - 889140
 python-gflags:
   version: 1.5.1-2
   comments: |
