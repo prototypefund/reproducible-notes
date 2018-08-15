@@ -3792,10 +3792,6 @@ devio:
   version: 1.2-1.2
   issues:
     - gcc_captures_build_path
-dewalls:
-  version: 1.0.0+ds1-5
-  bugs:
-    - 896449
 dh-kpatches:
   version: 0.99.36+nmu3
   issues:
@@ -10080,10 +10076,6 @@ keytouch-editor:
   version: 1:3.2.0~beta-3
   issues:
     - gcc_captures_build_path
-keyutils:
-  version: 1.5.9-9.2
-  bugs:
-    - 895463
 kf5-kdepimlibs:
   version: 4:16.04.2-2
   issues:
@@ -18389,8 +18381,6 @@ pocl:
   version: 0.10-10
   issues:
     - captures_build_path
-  bugs:
-    - 764563
 poco:
   version: 1.3.6p1-5.1
   issues:
@@ -19644,10 +19634,6 @@ python-nacl:
     This could explain most or all of the other differences (through diffoscope's #838569)
   issues:
     - captures_build_arch
-python-ncclient:
-  version: 0.5.3-4
-  bugs:
-    - 894432
 python-neovim:
   version: 0.1.13-2
   bugs:
@@ -28127,8 +28113,6 @@ yosys:
   issues:
     - fonts_in_pdf_files
     - records_build_flags
-  bugs:
-    - 896802
 yrmcds:
   version: 1.1.8-1
   comments: |
