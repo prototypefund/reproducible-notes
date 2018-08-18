@@ -1842,3 +1842,6 @@ python_sphinx_gallery_adds_timing_to_output:
   description: |
     Adds total running time to HTML and RST output. to HTML and RST output.
   url: https://bugs.debian.org/901307
+jekyll_site_time_timestamp:
+  description: |
+    The Jekyll site generator uses Time.now as site.time.
