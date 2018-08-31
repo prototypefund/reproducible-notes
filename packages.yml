@@ -18692,6 +18692,10 @@ prometheus-bind-exporter:
   version: 0.2~git20161221+dfsg-1
   issues:
     - randomness_in_binaries_generated_by_golang
+prometheus-bird-exporter:
+  version: 1.2.1-1
+  issues:
+    - golang_compiler_captures_build_path_in_binary
 prometheus-blackbox-exporter:
   version: 0.3.0+ds1-1
   issues:
@@ -18706,6 +18710,10 @@ prometheus-mongodb-exporter:
     - golang_compiler_captures_build_path_in_binary
 prometheus-mysqld-exporter:
   version: 0.8.1+ds-1
+  issues:
+    - golang_compiler_captures_build_path_in_binary
+prometheus-nginx-vts-exporter:
+  version: 0.10.3+git20180501.43b4556+ds-1
   issues:
     - golang_compiler_captures_build_path_in_binary
 prometheus-node-exporter:
