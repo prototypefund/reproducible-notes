@@ -1640,10 +1640,6 @@ blktap:
   version: 2.0.90-4
   bugs:
     - 883212
-blktrace:
-  version: 1.1.0-2
-  issues:
-    - timestamps_in_ps_generated_by_dvips
 blobandconquer:
   version: 1.11-dfsg+20-1.1
   issues:
@@ -4558,7 +4554,6 @@ eigen3:
   version: 3.3~beta1-2
   issues:
     - blacklisted_on_jenkins_armhf_only
-    - captures_build_path
 eja:
   version: 9.5.20-1
   comments: |
@@ -24567,9 +24562,7 @@ sjeng:
 skalibs:
   version: 0.47-1
   issues:
-    - timestamps_in_gzip_headers
     - random_order_in_md5sums
-    - captures_kernel_version
 sketch:
   version: 1:0.3.7-1
   issues:
