@@ -19459,6 +19459,10 @@ python-jpype:
   version: 0.5.4.2-3
   issues:
     - gcc_captures_build_path
+python-jsonschema:
+  version: 2.6.0-4
+  issues:
+    - randomness_in_frozenset_representations_in_sphinx
 python-kafka:
   version: 1.3.3-2
   bugs:
@@ -19771,6 +19775,10 @@ python-tidylib:
   version: 0.3.1~dfsg-1
   issues:
     - random_id_in_pdf_generated_by_dblatex
+python-tooz:
+  version: 1.62.0-2
+  issues:
+    - randomness_in_frozenset_representations_in_sphinx
 python-tornado:
   version: 5.0.0-1
   bugs:
