@@ -1103,6 +1103,10 @@ autoconf2.59:
   issues:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+autodeb:
+  version: 0.20.0-1
+  issues:
+    - golang_compiler_captures_build_path_in_binary
 autogen:
   version: 1:5.18.10-2
   issues:
