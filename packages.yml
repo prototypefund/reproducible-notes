@@ -7662,6 +7662,10 @@ golang-gogoprotobuf:
   version: 0.5-1
   issues:
     - randomness_in_binaries_generated_by_golang
+golang-gogottrpc:
+  version: 0.0~git20180205.d452837-1
+  issues:
+    - golang_compiler_captures_build_path_in_binary
 golang-golang-x-exp:
   version: 0.0~git20150826.1.eb7c1fa-1
   issues:
