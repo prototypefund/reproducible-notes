@@ -10275,8 +10275,6 @@ kleopatra:
     - build_id_differences_only
 klibc:
   version: 2.0.4-8
-  comments: |
-    Excludes permission fixing for "klibc-", which matches "/usr/share/initramfs-tools/hooks/klibc-utils"
   bugs:
     - 907404
 klick:
