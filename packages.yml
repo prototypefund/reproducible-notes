@@ -3488,11 +3488,6 @@ db4o:
   version: 8.0.184.15484+dfsg2-3
   issues:
     - clilibs_line_order
-db5.3:
-  version: 5.3.28-11
-  comments: |
-    Builds in random path:
-    -fsource-filename=/tmp/fileMkiA7M
 dballe:
   version: 6.8-1
   issues:
@@ -25469,12 +25464,6 @@ sunflow:
   version: 0.07.2.svn396+dfsg-14
   issues:
     - random_order_in_documentation_generated_by_javadoc
-sunpinyin:
-  version: 3.0.0~git20160910-1
-  comments: |
-    Random order of files from os.walk call at:
-    https://sources.debian.net/src/sunpinyin/3.0.0~git20160910-1/SConstruct/?hl=430#L430-L432
-    https://sources.debian.net/src/sunpinyin/3.0.0~git20160910-1/SConstruct/?hl=430#L194-L195
 sunxi-tools:
   version: 1.4.1-1
   issues:
