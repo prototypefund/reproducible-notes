@@ -16340,8 +16340,6 @@ openms:
     The «*» on the find(1) command line may introduce a locale dependency (shell globs are expanded in a locale-sensitive sorted order), depending on the names of immediate children of ${binDir} (to which the script cd's).
   issues:
     - collation_order_varies_by_locale
-  bugs:
-    - 865240
 openocd:
   version: 0.9.0-1
   issues:
