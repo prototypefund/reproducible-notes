@@ -7478,10 +7478,6 @@ golang-github-docker-engine-api:
   version: 0.4.0-2
   bugs:
     - 871654
-golang-github-docker-libnetwork:
-  version: 0.8.0-dev.2+git20170202.599.45b4086-4
-  issues:
-    - randomness_in_binaries_generated_by_golang
 golang-github-dvsekhvalnov-jose2go:
   version: 1.2-1
   bugs:
@@ -25676,12 +25672,6 @@ syslog-ng:
   version: 3.13.2-2
   comments: |
     Uses cmake CMAKE_SOURCE_DIR via SYSLOG_NG_PATH_TOPSRC_DIR which then gets embedded in the binary. Should be an easy patch but it appears to need this local/build dir to run the testsuite.
-systemd-docker:
-  version: 0.2.1+dfsg-2
-  issues:
-    - golang_compiler_captures_build_path_in_binary
-  bugs:
-    - 861549
 systemd-ui:
   version: 3-4
   issues:
