@@ -1083,6 +1083,10 @@ augeas:
   issues:
     - random_order_in_documentation_generated_by_naturaldocs
     - captures_build_path
+authbind:
+  version: 2.1.2
+  issues:
+    - build_id_differences_only
 auto-07p:
   version: 0.9.1+dfsg-3
   issues:
@@ -1254,6 +1258,10 @@ bandit:
     Embeds output of sys.argv in bandit.yaml which include build path in:
     https://sources.debian.net/src/bandit/1.1.0-2/bandit/cli/config_generator.py/?hl=33#L33
     https://sources.debian.net/src/bandit/1.1.0-2/bandit/cli/config_generator.py/?hl=162#L162
+bandwidthd:
+  version: 2.0.1+cvs20090917-11
+  issues:
+    - build_id_differences_only
 banshee:
   version: 2.6.2-6
   issues:
@@ -2705,6 +2713,10 @@ cmake:
   version: 3.6.1-1
   issues:
     - gcc_captures_build_path
+cmdliner:
+  version: 1.0.2-1
+  issues:
+    - ocaml_captures_build_path
 cmocka:
   version: 1.0.1-2
   issues:
