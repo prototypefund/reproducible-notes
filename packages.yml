@@ -2976,6 +2976,10 @@ consul:
   version: 0.6.4~dfsg-3
   issues:
     - golang_compiler_captures_build_path_in_binary
+consulfs:
+  version: 0.2-1
+  issues:
+    - golang_compiler_captures_build_path_in_binary
 containerd:
   version: 0.2.3+git20170126.85.aa8187d~ds1-2
   bugs:
