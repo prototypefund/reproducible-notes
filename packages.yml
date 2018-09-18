@@ -13089,8 +13089,12 @@ linssid:
     - gcc_captures_build_path
 linux:
   version: 4.6.3-1
+  comments: |
+    user/group tarball variation fixed in git:
+    https://salsa.debian.org/kernel-team/linux/commit/65bccba1ae0e64f380ce3ed60a9c87ed90a1e083
   issues:
     - blacklisted_on_jenkins_armhf_only
+    - users_and_groups_in_tarball
 linux86:
   version: 0.16.17-3.1
   issues:
