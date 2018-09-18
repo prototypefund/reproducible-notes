@@ -1761,13 +1761,6 @@ timestamps_in_pdf_generated_by_rsvg_convert:
     Forwarded upstream https://gitlab.gnome.org/GNOME/librsvg/merge_requests/10
   deterministic: True
   url: https://bugs.debian.org/890027
-timestamp_in_fonts_generated_by_ufo2ft:
-  description: |
-    ufo2ft (fontmake etc.) generates .otf files with a timestamp of the current
-    time. https://sources.debian.org/src/ufo2ft/1.1.0-1/Lib/ufo2ft/outlineCompiler.py/#L246
-    .
-    https://github.com/googlei18n/ufo2ft/pull/219 upstream
-  url: https://bugs.debian.org/890280
 randomness_in_berkeley_db_files:
   description: |
     Creating an empty Berkeley DB file (or ones with the same contents) results
