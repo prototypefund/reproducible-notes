@@ -20447,6 +20447,10 @@ r-bioc-bsgenome:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
+r-bioc-cner:
+  version: 1.16.1+dfsg-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-bioc-cummerbund:
   version: 2.14.0-2
   issues:
@@ -22005,6 +22009,10 @@ r-cran-purrr:
   version: 0.2.3-1
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-purrrlyr:
+  version: 0.0.3-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-pvclust:
   version: 2.0-0-3
   issues:
@@ -22532,6 +22540,10 @@ r-cran-taxize:
     - randomness_in_r_rdb_rds_databases
 r-cran-tcltk2:
   version: 1.2-11-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-tcr:
+  version: 2.2.2-1
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-teachingdemos:
