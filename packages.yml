@@ -13090,7 +13090,6 @@ linux:
     https://salsa.debian.org/kernel-team/linux/commit/65bccba1ae0e64f380ce3ed60a9c87ed90a1e083
   issues:
     - blacklisted_on_jenkins_armhf_only
-    - users_and_groups_in_tarball
 linux86:
   version: 0.16.17-3.1
   issues:
@@ -14139,7 +14138,6 @@ mnormt:
 moap:
   version: 0.2.7-1.1
   issues:
-    - captures_build_path
     - randomness_in_documentation_generated_by_epydoc
 moarvm:
   version: 2016.07+dfsg-1
