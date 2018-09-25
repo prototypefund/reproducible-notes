@@ -18417,13 +18417,6 @@ postfix:
     - collation_order_varies_by_locale
     - captures_build_path
     - captures_kernel_version
-postgis:
-  version: 2.1.8+dfsg-4
-  issues:
-    - timestamps_in_png
-    - timestamps_in_jar
-    - timestamp_in_java_bnd_manifest
-    - timestamps_in_documentation_generated_by_doxygen
 postgresql-9.6:
   version: 9.6~rc1-1
   issues:
