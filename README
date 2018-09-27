@@ -19,11 +19,22 @@ Open questions for multi project notes.git:
 -------------------------------------------
 - to mark a note for a project, we add the project and even name and version
   are optional? (would that be correct yaml?)
+  + 'version' can probably be made mandatory?
+  + to mark a note for a project, can we do
+      socat.debian.version: 1.7.2.4-1
+      socat.upstream.version: null
+    meaning '1.7.2.4-1 is the newest debian package version known to have the bug'
+    and "as of this writing, upstream doesn't have the bug"?
 - shall we keep a hard-coded list of projects or how to detect them? (not all
   projects starts capitalized, eg coreboot)
 - also see the file ideas_on_sharing_notes_between_distros in this directory…
   (instead of using "distro"-keys as suggested there we use distros.yaml to
   save people lots of "distro"-typing and intending in (packages|issues).yaml)
+- instead of socat.debian.bugs: and socat.bugs:, change the latter to
+  socat.upstream.bugs:?
+- Allow specifying 'bug: http://foo/bar' and *not* have that appended to
+  bug-base:, in case some bugs are canonically tracked in an external bug
+  tracker (e.g., some at bugs.${project}.org and some at github)
 
 packages.yml
 ------------
