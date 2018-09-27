@@ -48,7 +48,7 @@ A full entry looks like the following:
        version: 1.7.3.2
        issues:
          - ftbfs_due_to_gcc7_transition
-       arch-x86
+       arch-x86:
          comments: |
            another silly comment explaining architectures can be called differently.
      freebsd:
