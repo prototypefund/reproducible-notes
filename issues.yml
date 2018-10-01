@@ -1848,3 +1848,7 @@ jekyll_site_time_timestamp:
 randomness_in_pdf2htmlex_html_output:
   description: |
     Converts PDFs to HTML, font headers are nondeterministic.
+randomness_in_python_changelog_references:
+  description: |
+    The python-changelog library generates references in a nondeterminstic order.
+  url: https://bitbucket.org/zzzeek/changelog/pull-requests/1/please-make-the-references-reproducible/diff
