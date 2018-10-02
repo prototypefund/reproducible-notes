@@ -1852,3 +1852,12 @@ randomness_in_python_changelog_references:
   description: |
     The python-changelog library generates references in a nondeterminstic order.
   url: https://bitbucket.org/zzzeek/changelog/pull-requests/1/please-make-the-references-reproducible/diff
+cmake_rpath_contains_build_path:
+  description: |
+    When an executable is linked with a shared library from the same project,
+    RPATH will contain the build path. Even if this is stripped on installation,
+    the build-id will remain unchanged.
+    .
+    Packages can set `-DCMAKE_SKIP_RPATH=ON` as workaround, but then possibly
+    have to set `LD_LIBRARY_PATH` while running tests.
+  url: https://gitlab.kitware.com/cmake/cmake/issues/18413
