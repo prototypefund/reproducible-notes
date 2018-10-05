@@ -25172,6 +25172,10 @@ squeak-vm:
     - timestamps_from_cpp_macros
     - user_hostname_manually_added_requiring_further_investigation
     - captures_kernel_version
+squid:
+  version: 4.2-2
+  comments: |
+    BUILDCXXFLAGS ends up embedding the build path via prefix-map. cannot see exactly which file at the moment. SQUID_BUILD_INFO perhaps?
 squid3:
   version: 3.5.19-1
   issues:
