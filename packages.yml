@@ -16943,6 +16943,10 @@ pdftk:
     │ +    <b801b>   DW_AT_producer    : (indirect string, offset: 0x894a4): GNU Java 6.3.0 20161229 [...] -faux-classpath /tmp/ccxzjNBg.zip
   bugs:
     - 853608
+pdl:
+  version: 1:2.019-4
+  comments: |
+    PDL_BUILD_DIR and F77CONF made absolute via Makefile.PL
 pdmenu:
   version: 1.3.4
   issues:
