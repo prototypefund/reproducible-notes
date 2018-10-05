@@ -1861,3 +1861,7 @@ cmake_rpath_contains_build_path:
     Packages can set `-DCMAKE_SKIP_RPATH=ON` as workaround, but then possibly
     have to set `LD_LIBRARY_PATH` while running tests.
   url: https://gitlab.kitware.com/cmake/cmake/issues/18413
+build_path_in_texi_figure_documentation:
+  description: |
+    eg. "@float Figure,fig:qn_closed_single" in octave-queueing.
+  deterministic: True
