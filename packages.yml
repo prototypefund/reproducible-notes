@@ -646,6 +646,10 @@ apertium-dan-nor:
   version: 1.3.0~r67099-1
   issues:
     - nondeterminism_in_autolex_bin
+apertium-en-gl:
+  version: 0.5.2~r57551-2
+  issues:
+    - build_path_in_apertium_mode_files
 apertium-eo-en:
   version: 1.0.0~r63833-2
   issues:
@@ -687,10 +691,18 @@ apertium-kaz-tat:
   version: 0.2.1~r57554-1
   issues:
     - nondeterminism_in_autolex_bin
+apertium-mk-bg:
+  version: 0.2.0~r49489-2
+  issues:
+    - build_path_in_apertium_mode_files
 apertium-nno-nob:
   version: 1.1.0~r66076-1
   issues:
     - nondeterminism_in_autolex_bin
+apertium-oc-es:
+  version: 1.0.6~r57551-3
+  issues:
+    - build_path_in_apertium_mode_files
 apertium-pt-ca:
   version: 0.8.2+svn~57507-3
   issues:
@@ -778,6 +790,13 @@ apr:
     Seems to be unreproducible because semaphore support is not detected on one build.
     (APR_HAS_POSIXSEM_SERIALIZE is 0 in /usr/include/apr-1.0/apr.h)
     https://sources.debian.net/src/apr/1.5.2-4/debian/rules/#L84-L95
+  issues:
+    - captures_build_path
+apr-util:
+  version: 1.6.1-3
+  comments: |
+    Embeds the build path in apu-1-config script
+    https://sources.debian.org/src/apr-util/1.6.1-3/apu-config.in/#L40
   issues:
     - captures_build_path
 apron:
@@ -1077,6 +1096,10 @@ augeas:
   issues:
     - random_order_in_documentation_generated_by_naturaldocs
     - captures_build_path
+augustus:
+  version: 3.3.1+dfsg-2
+  issues:
+    - gcc_captures_build_path
 authbind:
   version: 2.1.2
   issues:
@@ -1717,11 +1740,6 @@ boolstuff:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
-boost1.62:
-  version: 1.62.0+dfsg-1
-  bugs:
-    - 884184
-    - 884185
 boost1.67:
   version: 1.67.0-6
   comments: |
@@ -1783,10 +1801,6 @@ bouncycastle:
     - random_order_in_documentation_generated_by_javadoc
 bovo:
   version: 4:16.04.0-1
-  issues:
-    - gcc_captures_build_path
-box2d:
-  version: 2.3.1+ds-3
   issues:
     - gcc_captures_build_path
 boxbackup:
@@ -2295,6 +2309,12 @@ cdo:
   version: 1.7.2+dfsg.1-1
   issues:
     - records_build_flags
+cdparanoia:
+  version: 3.10.2+debian-13
+  comments: |
+    does not honour dpkg-buildflags
+  issues:
+    - gcc_captures_build_path
 cdrkit:
   version: 9:1.1.11-3
   issues:
@@ -3084,6 +3104,10 @@ cppdb:
   version: 0.3.1+dfsg-4
   issues:
     - build_id_differences_only
+cppo:
+  version: 1.6.4-2
+  issues:
+    - ocaml_captures_build_path
 cppreference-doc:
   version: 20151129+dfsg0-1
   bugs:
@@ -5730,29 +5754,14 @@ fonts-kacst-one:
   version: 5.0+svn11846-7
   issues:
     - fontforge_resets_modification_time
+fonts-league-spartan:
+  version: 0.2+sursly-1
+  issues:
+    - fontforge_resets_modification_time
 fonts-levien-typoscript:
   version: 000.001-4
   issues:
     - fontforge_resets_modification_time
-fonts-liberation2:
-  version: 2.00.1-3
-  comments: |
-    │   │   │   │   │ -head checksum=0f968da5 actual=e7229089 diff=e8b41d2c offset=300 len=54
-    │   │   │   │   │ +head checksum=0b7c70e9 actual=eb3cad45 diff=e040ddac offset=300 len=54
-    ⋮
-    │   │   │   │   │ -	checksumAdj=d78c02e4
-    │   │   │   │   │ +	checksumAdj=dfc03c5c
-    ⋮
-    │   │   │   │   │  	create[0]=0
-    │   │   │   │   │ -	 create[1]=d655a1e1
-    │   │   │   │   │ -	File created: Tue Dec 12 15:10:25 2017
-    │   │   │   │   │ +	 create[1]=d4489383
-    │   │   │   │   │ +	File created: Wed Nov  9 08:49:07 2016
-    │   │   │   │   │  	modtime[0]=0
-    │   │   │   │   │ -	 modtime[1]=d655a1e1
-    │   │   │   │   │ -	File modified: Tue Dec 12 15:10:25 2017
-    │   │   │   │   │ +	 modtime[1]=d4489383
-    │   │   │   │   │ +	File modified: Wed Nov  9 08:49:07 2016⋮
 fonts-linuxlibertine:
   version: 5.3.0-2
   issues:
@@ -6840,6 +6849,12 @@ gifticlib:
   version: 1.0.9-1
   issues:
     - build_id_differences_only
+gigalomania:
+  version: 1.0+ds1-1
+  comments: |
+    does not honour dpkg-buildflags
+  issues:
+    - gcc_captures_build_path
 gigedit:
   version: 0.2.0-1
   issues:
@@ -8497,6 +8512,12 @@ hiro:
   version: 0.2-2
   bugs:
     - 855908
+hivelytracker:
+  version: 0+git20180223-3
+  comments: |
+    does not honour dpkg-buildflags
+  issues:
+    - gcc_captures_build_path
 hivex:
   version: 1.3.13-2
   issues:
@@ -9716,10 +9737,6 @@ junior-doc:
     - timestamps_in_gzip_headers
     - different_encoding
     - timestamps_in_ps_generated_by_dvips
-jupyter-notebook:
-  version: 5.4.0-1
-  bugs:
-    - 894571
 jxrlib:
   version: 1.1-6
   issues:
@@ -9782,6 +9799,12 @@ kamerka:
   version: 0.8.1-1
   issues:
     - captures_build_path
+kanatest:
+  version: 0.4.8-4
+  comments: |
+    does not honour dpkg-buildflags
+  issues:
+    - gcc_captures_build_path
 kannel:
   version: 1.4.3-2
   comments: |
@@ -12993,6 +13016,12 @@ libxpp3-java:
   version: 1.1.4c-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
+libxsettings-client:
+  version: 0.17-10
+  comments: |
+    does not honour dpkg-buildflags
+  issues:
+    - gcc_captures_build_path
 libxss:
   version: 1:1.2.2-1
   issues:
@@ -13075,6 +13104,11 @@ lincity-ng:
   version: 2.9~git20150314-1
   issues:
     - captures_build_path
+link-grammar:
+  version: 5.5.0-1
+  comments: |
+    embeds C(PP)FLAGS into header file
+    https://sources.debian.org/src/link-grammar/5.5.0-1/link-grammar/link-features.h.in/#L39
 linssid:
   version: 2.9-3
   issues:
@@ -13461,6 +13495,12 @@ lyx:
   version: 2.2.0-2
   issues:
     - captures_build_path
+lzip:
+  version: 1.20-3
+  comments: |
+    does not honour dpkg-buildflags
+  issues:
+    - gcc_captures_build_path
 m2crypto:
   version: 0.24.0-1.1
   issues:
@@ -13496,6 +13536,12 @@ madness:
     - records_build_flags
 madplay:
   version: 0.15.2b-8.1
+  issues:
+    - gcc_captures_build_path
+maffilter:
+  version: 1.3.1+dfsg-1
+  comments: |
+    does not honour dpkg-buildflags
   issues:
     - gcc_captures_build_path
 magic:
@@ -13779,6 +13825,12 @@ mblaze:
   version: 0.4-1
   bugs:
     - 907537
+mbr:
+  version: 1.2.1
+  comments: |
+    does not honour dpkg-buildflags
+  issues:
+    - gcc_captures_build_path
 mbw:
   version: 1.2.2-1
   issues:
@@ -14092,6 +14144,12 @@ mm:
   version: 1.4.2-5
   issues:
     - records_build_flags
+mm3d:
+  version: 1.3.10-1
+  comments: |
+    does not honour dpkg-buildflags/CXXFLAGS
+  issues:
+    - gcc_captures_build_path
 mm-common:
   version: 0.9.10-1
   issues:
@@ -16983,6 +17041,12 @@ pegasus-wms:
     - timestamps_in_jar
     - timestamp_in_java_bnd_manifest
     - captures_build_path
+pente:
+  version: 2.2.5-8
+  comments: |
+    does not honour dpkg-buildflags
+  issues:
+    - gcc_captures_build_path
 perceptualdiff:
   version: 1.2-2
   issues:
@@ -19372,8 +19436,6 @@ python-dmidecode:
   version: 3.12.2-2
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 867609
 python-docutils:
   version: 0.12+dfsg-1
   comments: |
@@ -19754,6 +19816,11 @@ python-smbpasswd:
   version: 1.0.1-1.3
   issues:
     - gcc_captures_build_path
+python-social-auth:
+  version: 1:0.2.21+dfsg-3
+  issues:
+    - different_due_to_umask
+    - users_and_groups_in_tarball
 python-sponge:
   version: 0.3.1-1.1
   bugs:
@@ -22939,6 +23006,12 @@ rdiff-backup:
   version: 1.2.8-7
   issues:
     - gcc_captures_build_path
+rdiff-backup-fs:
+  version: 1.0.0-5
+  comments: |
+    does not honour dpkg-buildflags
+  issues:
+    - gcc_captures_build_path
 rdist:
   version: 6.1.5-18
   issues:
@@ -24629,11 +24702,9 @@ simstring:
     - captures_build_path
     - records_build_flags
 simulavr:
-  version: 0.1.2.2-7
+  version: 1.0.0+git20160221.e53413b-1
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 744509
 simutrans-pak128.britain:
   version: 1.17-1
   issues:
@@ -27006,6 +27077,12 @@ vmmlib:
   version: 1.0-2
   bugs:
     - 834472
+vnlog:
+  version: 1.12-1
+  comments: |
+    does not honour dpkg-buildflags
+  issues:
+    - gcc_captures_build_path
 vokoscreen:
   version: 2.5.0-1
   issues:
@@ -27286,10 +27363,6 @@ why:
     https://sources.debian.net/src/why/2.34-2/version.sh/
 wide-dhcpv6:
   version: 20080615-19
-  issues:
-    - gcc_captures_build_path
-widelands:
-  version: 1:18-3
   issues:
     - gcc_captures_build_path
 wildmidi:
