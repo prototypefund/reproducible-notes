@@ -11099,19 +11099,6 @@ libbiod:
   version: 0.1.0-5
   issues:
     - buildpath_in_binaries_generated_by_d_compiler_ldc
-libbitcoin:
-  version: 2.11.0-1
-  comments: |
-    The build installs to /usr/share/doc/libbitcoin-dev/examples/, besides
-    main.cpp, its automake wrapper and the intermediate build artifact main.o
-    (compressed 'gcc -c' output).  The issues occur in the automake wrapper.
-  issues:
-    - leaks_path_environment_variable
-    - captures_shell_variable_in_autofoo_script
-    - captures_build_path
-    - records_build_flags
-  bugs:
-    - 841620
 libbluray:
   version: 1:0.9.3-2
   issues:
