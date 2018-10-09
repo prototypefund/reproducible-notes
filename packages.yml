@@ -26275,6 +26275,17 @@ tomcat8:
   version: 8.0.32-1
   issues:
     - blacklisted_on_jenkins_armhf_only
+tootle:
+  version: 0.1.5-1
+  comments: |
+    (testing)
+    tootle(1) contains a time-stamped error message from some tool.
+    Note that the DESCRIPTION section is also broken.
+    Best fix would be to generate the man page headlessly (without X11), but
+    for the purposes of reproducibility, running some parts of the build
+    under xvfb(1) might suffice.
+    .
+    This has been reported (without patch) as #909186.
 topal:
   version: 75-2
   comments: |
