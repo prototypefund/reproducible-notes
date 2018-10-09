@@ -19254,6 +19254,10 @@ python-adns:
   version: 1.2.1-5
   issues:
     - gcc_captures_build_path
+python-aiosmtpd:
+  version: 1.1-6
+  comments: |
+    [amd64,i386,arm64] tests fail due to expired cert with future builds
 python-argcomplete:
   version: 1.8.1-1
   bugs:
