@@ -13067,6 +13067,10 @@ link-grammar:
   comments: |
     embeds C(PP)FLAGS into header file
     https://sources.debian.org/src/link-grammar/5.5.0-1/link-grammar/link-features.h.in/#L39
+linphone:
+  version: 3.12.0-3
+  comments: |
+    metadoc.py appears to generate nondeterminstic output but cannoto tell exactly where. the input XML appears appear to be consistent between builds.
 linssid:
   version: 2.9-3
   issues:
