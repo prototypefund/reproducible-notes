@@ -5494,7 +5494,6 @@ flamerobin:
 flann:
   version: 1.8.4-4.1
   issues:
-    - timestamps_in_pdf_generated_by_latex
     - fonts_in_pdf_files
 flannel:
   version: 0.5.5~ds1-2
@@ -18958,8 +18957,6 @@ pyentropy:
     - 813981
 pyepl:
   version: 1.1.0+git12-g365f8e3-2
-  issues:
-    - captures_build_path
   bugs:
     - 840377
 pyevolve:
