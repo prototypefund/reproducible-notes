@@ -5491,6 +5491,10 @@ flamerobin:
     First difference is in the '.debug_info' section, however, I couldn't find a length difference in the dumped portion of it.
     │ -  [31] .debug_info       PROGBITS        0000000000000000 0046db ed695d 00   C  0   0  1
     │ +  [31] .debug_info       PROGBITS        0000000000000000 0046db ed69d1 00   C  0   0  1
+flameshot:
+  version: 0.6.0-5
+  issues:
+    - build_id_differences_only 
 flann:
   version: 1.8.4-4.1
   issues:
