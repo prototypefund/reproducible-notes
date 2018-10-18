@@ -18534,6 +18534,10 @@ ppx-deriving:
   version: 4.1-1.1
   issues:
     - ocaml_captures_build_path
+ppx-tools:
+  version: 5.0+4.05.0-1
+  issues:
+    - ocaml_captures_build_path
 praw:
   version: 5.3.0-1
   comments: |
@@ -28000,6 +28004,10 @@ xstarfish:
   version: 1.1-11.1
   issues:
     - gcc_captures_build_path
+xstr:
+  version: 0.2.1-22
+  issues:
+    - ocaml_captures_build_path
 xstrp4:
   version: 1.8.2-1
   issues:
