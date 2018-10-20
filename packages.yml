@@ -1128,11 +1128,16 @@ autogen:
 automake-1.15:
   version: 1:1.15-1
   issues:
-    - captures_shell_variable_in_autofoo_script
+    - timestamp_in_info_file_created_by_makeinfo
+automake-1.16:
+  version: 1:1.16.1-1.1
+  issues:
+    - timestamp_in_info_file_created_by_makeinfo
 automake1.11:
   version: 1:1.11.6-3
   issues:
     - timezone_variance_because_of_automake_mdate
+    - timestamp_in_info_file_created_by_makeinfo
     - captures_shell_variable_in_autofoo_script
 automoc:
   version: 1.0~version-0.9.88-5
@@ -1731,6 +1736,10 @@ boolstuff:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
+boost1.62:
+  version: 1.62.0+dfsg-10
+  issues:
+    - build_path_captured_in_assembly_objects
 boost1.67:
   version: 1.67.0-6
   comments: |
@@ -2498,6 +2507,10 @@ chipmunk:
     - gcc_captures_build_path
 chise-base:
   version: 0.3.0-2
+  issues:
+    - gcc_captures_build_path
+chkservice:
+  version: 0.1-3
   issues:
     - gcc_captures_build_path
 chktex:
@@ -8636,6 +8649,10 @@ i2p:
   version: 0.9.30-4
   issues:
     - random_order_in_documentation_generated_by_javadoc
+i3lock:
+  version: 2.11.1-1
+  issues:
+    - gcc_captures_build_path
 iagno:
   version: 1:3.26.1-2
   issues:
@@ -9550,8 +9567,6 @@ jpylyzer:
   version: 1.14.2-1
   issues:
     - random_id_in_pdf_generated_by_dblatex
-  bugs:
-    - 897106
 jquery-jplayer:
   version: 2.7.1+dfsg-1
   issues:
@@ -13301,6 +13316,10 @@ lprng-doc:
   version: 3.8.A~rc2-3
   issues:
     - pdf_created_by_ghostscript
+lr:
+  version: 1.4-1
+  issues:
+    - gcc_captures_build_path
 lrzsz:
   version: 0.12.21-8
   issues:
@@ -13849,6 +13868,10 @@ memcached:
   version: 1.4.24-2
   bugs:
     - 789835
+memstat:
+  version: 1.1
+  issues:
+    - gcc_captures_build_path
 memtailor:
   version: 1.0~git20160302-1
   issues:
@@ -13869,6 +13892,10 @@ menu:
     - gcc_captures_build_path
 mergelog:
   version: 4.5.1-9
+  issues:
+    - gcc_captures_build_path
+mergerfs:
+  version: 2.24.2-3
   issues:
     - gcc_captures_build_path
 merkleeyes:
@@ -14574,6 +14601,10 @@ multiboot:
   version: 0.6.96+20101113-2
   issues:
     - build_path_captured_in_assembly_objects
+multimail:
+  version: 0.49-2
+  issues:
+    - build_id_differences_only
 multiverse-core:
   version: 0.7.0-3
   issues:
@@ -15455,6 +15486,10 @@ nproc:
   version: 0.5.1-2
   issues:
     - captures_build_path
+nq:
+  version: 0.3.1-1
+  issues:
+    - gcc_captures_build_path
 nqp:
   version: 2015.09.1-2
   issues:
@@ -15549,6 +15584,10 @@ nut:
     - fonts_in_pdf_files
 nuttcp:
   version: 6.1.2-4
+  issues:
+    - gcc_captures_build_path
+nuxwdog:
+  version: 1.0.5-1
   issues:
     - gcc_captures_build_path
 nvidia-texture-tools:
@@ -16748,6 +16787,10 @@ parchive:
   version: 1.1-4
   issues:
     - gcc_captures_build_path
+parprouted:
+  version: 0.70-3
+  issues:
+    - gcc_captures_build_path
 parsec47:
   version: 0.2.dfsg1-9
   issues:
@@ -17132,6 +17175,10 @@ phonon-backend-gstreamer:
     - gcc_captures_build_path
 phonon-backend-vlc:
   version: 0.9.0-1
+  issues:
+    - gcc_captures_build_path
+photoprint:
+  version: 0.4.2~pre2-2.5
   issues:
     - gcc_captures_build_path
 php-analog:
@@ -18078,6 +18125,10 @@ pixman:
   version: 0.34.0-2
   issues:
     - build_path_captured_in_assembly_objects
+pixmap:
+  version: 2.6pl4-20
+  issues:
+    - build_id_differences_only
 pjproject:
   version: 2.7.2~dfsg-4
   bugs:
@@ -19847,11 +19898,9 @@ python3.6:
     - records_build_flags
     - captures_build_arch
 pythonqt:
-  version: 3.0-2
+  version: 3.2-10
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 877311
 pythontracer:
   version: 8.10.16-1.2
   issues:
@@ -24526,10 +24575,9 @@ shim:
     - cryptographic_signature
     - user_hostname_manually_added_requiring_further_investigation
 shishi:
-  version: 1.0.2-6
+  version: 1.0.2-6.1
   issues:
     - timestamps_in_ps_generated_by_dvips
-    - random_id_in_pdf_generated_by_dblatex
 shogun:
   version: 3.2.0-7.4
   issues:
@@ -26055,10 +26103,6 @@ tidy-proxy:
   version: 0.97-4
   issues:
     - timestamps_in_manpages_generated_by_docbook_xsl
-tig:
-  version: 2.0.2-2
-  issues:
-    - random_id_in_pdf_generated_by_dblatex
 tightvnc:
   version: 1:1.3.9-9
   comments: |
@@ -27627,6 +27671,10 @@ xdu:
   version: 3.0-18
   issues:
     - gcc_captures_build_path
+xe:
+  version: 0.11-3
+  issues:
+    - gcc_captures_build_path
 xemacs21:
   version: 21.4.24-2
   issues:
@@ -27826,6 +27874,10 @@ xmount:
   version: 0.7.3-1
   issues:
     - gcc_captures_build_path
+xmountains:
+  version: 2.9-5
+  issues:
+    - gcc_captures_build_path
 xnee:
   version: 3.19-1
   comments: |
@@ -27979,6 +28031,10 @@ xsp:
     - gcc_captures_build_path
 xss-lock:
   version: 0.3.0-4
+  issues:
+    - gcc_captures_build_path
+xssproxy:
+  version: 1.0.0-1
   issues:
     - gcc_captures_build_path
 xstarfish:
