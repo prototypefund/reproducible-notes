@@ -16274,6 +16274,10 @@ openjdk-8-jre-dcevm:
     https://sources.debian.net/src/openjdk-8-jre-dcevm/8u74-1/src/share/vm/runtime/vm_version.cpp/?hl=263,267#L267
   issues:
     - user_hostname_manually_added_requiring_further_investigation
+openjdk-10:
+  version: 10.0.2+13-2
+  issues:
+    - diffoscope_runs_forever
 openjfx:
   version: 8u40-b25-3
   comments: |
