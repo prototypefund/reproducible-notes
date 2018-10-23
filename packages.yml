@@ -8030,6 +8030,10 @@ grub:
   issues:
     - timestamps_in_manpages_generated_by_help2man
     - texi2html_captures_users_gecos
+grub-installer:
+  version: 1.157
+  issues:
+    - build_id_difference_only
 grub2:
   version: 2.02~beta2-23
   issues:
