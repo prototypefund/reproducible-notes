@@ -1186,8 +1186,6 @@ avrdude:
     - pdf_id_varying_due_to_build_path
 avro-c:
   version: 1.8.2-1
-  comments: |
-    Build ID differences: NT_GNU_BUILD_ID, gnu_debuglink, usr/lib/debug/.build-id/
   issues:
     - build_id_differences_only
 awesome:
@@ -2525,8 +2523,6 @@ chktex:
     - timestamps_in_dvi_generated_by_latex
 choose-mirror:
   version: 2.94
-  comments: |
-    Build ID differences: NT_GNU_BUILD_ID
   issues:
     - build_id_differences_only
 choqok:
@@ -2894,11 +2890,8 @@ colobot:
     - build_id_differences_only
 colorcode:
   version: 0.8.5-1
-  comments: |
-    Build ID differences: NT_GNU_BUILD_ID, gnu_debuglink, usr/lib/debug/.build-id/
-    Also differences in .rodata
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 colord:
   version: 1.2.1-1
   issues:
@@ -23355,8 +23348,6 @@ ros-geometry:
     - build_id_differences_only
 ros-geometry2:
   version: 0.6.2-8
-  comments: |
-    Build ID differences: NT_GNU_BUILD_ID, gnu_debuglink, usr/lib/debug/.build-id/
   issues:
     - build_id_differences_only
 ros-geometry-experimental:
@@ -27632,11 +27623,8 @@ x2vnc:
     - gcc_captures_build_path
 x2goclient:
   version: 4.1.2.1-2
-  comments: |
-    Build ID differences: NT_GNU_BUILD_ID, gnu_debuglink, usr/lib/debug/.build-id/
-    Also differences in .rodata
   issues:
-    - build_id_variation_requiring_further_investigation
+    - build_id_differences_only
 x52pro:
   version: 0.1.1-2.3
   issues:
