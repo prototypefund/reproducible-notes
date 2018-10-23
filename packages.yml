@@ -3268,6 +3268,10 @@ cvc3:
     - gcc_captures_build_path
   bugs:
     - 873975
+cvc4:
+  version: 1.6-2
+  issues:
+    - diffoscope_runs_forever
 cvm:
   version: 0.96-1.2
   issues:
