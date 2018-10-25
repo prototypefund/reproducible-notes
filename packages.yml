@@ -19955,6 +19955,10 @@ python3.6:
   issues:
     - records_build_flags
     - captures_build_arch
+python3.7:
+  version: 3.7.1-1
+  issues:
+    - gcc_captures_build_path
 pythonqt:
   version: 3.2-10
   issues:
