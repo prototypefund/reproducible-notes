@@ -3481,6 +3481,10 @@ dahdi-tools:
   version: 1:2.10.2-2
   issues:
     - gcc_captures_build_path
+danmaq:
+  version: 0.2.3.1-4
+  comments: |
+    cmake package so likely not getting all the -fdebug-prefix-map flags, but trying that did not work.
 dansguardian:
   version: 2.10.1.1-5.1
   issues:
