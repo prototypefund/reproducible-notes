@@ -14068,10 +14068,6 @@ minetest:
   version: 0.4.14+repack-5
   issues:
     - gcc_captures_build_path
-mingw-w64:
-  version: 4.0.6-1
-  issues:
-    - captures_build_path
 mini-buildd:
   version: 1.0.9
   issues:
@@ -16422,10 +16418,6 @@ openms:
     The «*» on the find(1) command line may introduce a locale dependency (shell globs are expanded in a locale-sensitive sorted order), depending on the names of immediate children of ${binDir} (to which the script cd's).
   issues:
     - collation_order_varies_by_locale
-openni:
-  version: 1.5.4.0-14
-  issues:
-    - implementation_version_in_java_manifest_mf
 openocd:
   version: 0.9.0-1
   issues:
