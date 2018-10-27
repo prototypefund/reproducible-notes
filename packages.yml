@@ -2735,6 +2735,10 @@ clutter-gesture:
   version: 0.0.2.1-7.1
   issues:
     - gcc_captures_build_path
+clzip:
+  version: 1.10-2
+  issues:
+    - gcc_captures_build_path
 cmake:
   version: 3.6.1-1
   issues:
@@ -7849,6 +7853,10 @@ gpsbabel:
   version: 1.5.0-3
   issues:
     - timestamps_in_pdf_generated_by_apache_fop
+gpsd:
+  version: 3.17-5
+  issues:
+    - gcc_captures_build_path
 gpsshogi:
   version: 0.7.0-2
   comments: |
@@ -23600,6 +23608,10 @@ ruby-compass-rails:
   version: 2.0.5-5
   bugs:
     - 875612
+ruby-concurrent-ext:
+  version: 1.0.5-1
+  issues:
+    - gcc_captures_build_path
 ruby-curb:
   version: 0.9.3-1
   issues:
@@ -23664,6 +23676,10 @@ ruby-eventmachine:
     - 816640
 ruby-exif:
   version: 0.1.2-21
+  issues:
+    - gcc_captures_build_path
+ruby-fast-blank:
+  version: 1.0.0-1
   issues:
     - gcc_captures_build_path
 ruby-fast-stemmer:
@@ -23948,6 +23964,10 @@ ruby-protected-attributes:
   version: 1.1.3-2
   bugs:
     - 861459
+ruby-psych:
+  version: 3.0.3~pre1-2
+  issues:
+    - gcc_captures_build_path
 ruby-rails-admin:
   version: 0.8.1+dfsg-3
   bugs:
@@ -24521,6 +24541,9 @@ senlin:
     - random_order_in_python_environment_pickle
     - captures_build_path
     - user_hostname_manually_added_requiring_further_investigation
+seqtk:
+  version: 1.3-1
+  issues: gcc_captures_build_path
 serf:
   version: 1.3.8-3
   comments: |
