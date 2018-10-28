@@ -24899,6 +24899,10 @@ slic3r:
   version: 1.1.7+dfsg-2
   issues:
     - randomness_in_c_files_generated_by_extutils_parsexs
+slic3r-prusa:
+  version: 1.39.2+dfsg-1
+  comments: |
+    Appears to embed https://sources.debian.org/src/slic3r-prusa/1.39.2+dfsg-1/xs/CMakeLists.txt/#L312
 slime:
   version: 2:2.15-1
   issues:
