@@ -1871,3 +1871,7 @@ build_path_in_texi_figure_documentation:
   description: |
     eg. "@float Figure,fig:qn_closed_single" in octave-queueing.
   deterministic: True
+randomness_in_fonts_created_by_fontcustom:
+  description: |
+    fontcustom appears to embed the build date, some kind of version and some
+    other randomness.
