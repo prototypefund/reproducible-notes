@@ -27220,6 +27220,14 @@ volk:
   version: 1.2.2-1
   issues:
     - build_id_differences_only
+volume-key:
+  version: 0.3.12-2
+  comments: |
+    Makefile:
+      Has difference in $SHELL environment variable. Can be changed to /bin/sh by default.
+      Captures absolute build paths.
+  issues:
+    - captures_build_path
 voms-api-java:
   version: 3.2.0-1
   issues:
