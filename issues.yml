@@ -1877,3 +1877,8 @@ randomness_in_fonts_created_by_fontcustom:
   description: |
     fontcustom appears to embed the build date, some kind of version and some
     other randomness.
+dc_created_timestamp_in_javadoc:
+  description: |
+    javadoc appears to add a dc.created field with today's date.
+    .
+    openjdk 11 related?
