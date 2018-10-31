@@ -15151,8 +15151,8 @@ netty-3.9:
     - nondeterministic_java_bytecode
 network-manager-iodine:
   version: 1.2.0-3
-  comments: |
-    Package cannot build because of a deprecated system dependency g_type_class_add_private. Use G_ADD_PRIVATE.
+  bugs:
+    - 908017
 networking-ovs-dpdk:
   version: 2015.1.1+git20151118.35ac4c7-1
   bugs:
