@@ -1455,6 +1455,10 @@ biber:
   version: 2.5-1
   issues:
     - random_id_in_pdf_generated_by_dblatex
+bible-kjv:
+  version: 4.3
+  issues:
+    - build_id_differences_only
 bibledit-bibletime:
   version: 1.1.1-3
   issues:
@@ -1469,10 +1473,6 @@ bibletime:
   version: 2.10.1-3
   issues:
     - gcc_captures_build_path
-bible-kjv:
-  version: 4.30
-  issues:
-    - build_id_differences_only
 biboumi:
   version: 4.0-1
   issues:
@@ -17275,14 +17275,14 @@ pgmodeler:
   version: 0.8.2-1
   issues:
     - gcc_captures_build_path
-pgpgpg:
-  version: 0.13-9.1
-  issues:
-    - build_id_differences_only
 pgocaml:
   version: 2.2-1
   issues:
     - captures_build_path
+pgpgpg:
+  version: 0.13-9.1
+  issues:
+    - build_id_differences_only
 pgrouting:
   version: 2.2.4-1
   issues:
