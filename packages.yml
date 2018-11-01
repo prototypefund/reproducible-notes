@@ -4084,10 +4084,6 @@ docker-registry:
     [experimental/amd64]
   issues:
     - golang_compiler_captures_build_path_in_binary
-docker-runc:
-  version: 1.0.0~rc2+git+docker1.13.1~ds1-3
-  issues:
-    - randomness_in_binaries_generated_by_golang
 docker-swarm:
   version: 1.0.1+dfsg-1
   issues:
