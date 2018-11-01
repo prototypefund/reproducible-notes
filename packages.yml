@@ -13110,6 +13110,11 @@ libzia:
   version: 4.06-2
   issues:
     - records_build_flags
+libzorpll:
+  version: 7.0.1.0~alpha1-1
+  comments: |
+    Enables stack dump on i386 by calling uname
+    Patch pending at upstream https://github.com/Balasys/libzorpll/pull/1
 libzypp:
   version: 17.7.0-1
   issues:
