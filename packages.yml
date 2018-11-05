@@ -3411,8 +3411,6 @@ cyrus-imapd:
   issues:
     - records_build_flags
     - gcc_captures_build_path
-  bugs:
-    - 883951
 cyrus-imspd:
   version: 1.8-3
   issues:
@@ -3635,10 +3633,6 @@ dcmtk:
   version: 3.6.1~20160216-4
   issues:
     - build_id_differences_only
-dctrl-tools:
-  version: 2.24-2
-  bugs:
-    - 826760
 dd2:
   version: 0.2.2-3
   issues:
