@@ -4110,7 +4110,7 @@ doctorj:
 dogecoin:
   version: 1.10.0-5
   issues:
-    - gcc_captures_build_path
+    - random_order_in_tarball
 dogtag-pki:
   version: 10.2.0-4
   issues:
@@ -20188,6 +20188,10 @@ qastools:
   version: 0.21.0-1
   issues:
     - gcc_captures_build_path
+qbittorrent:
+  version: 4.1.3-1
+  issues:
+    - random_order_in_tarball
 qbs:
   version: 1.3.3+dfsg-4
   issues:
