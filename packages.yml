@@ -3411,8 +3411,6 @@ cyrus-imapd:
   issues:
     - records_build_flags
     - gcc_captures_build_path
-  bugs:
-    - 883951
 cyrus-imspd:
   version: 1.8-3
   issues:
@@ -3635,10 +3633,6 @@ dcmtk:
   version: 3.6.1~20160216-4
   issues:
     - build_id_differences_only
-dctrl-tools:
-  version: 2.24-2
-  bugs:
-    - 826760
 dd2:
   version: 0.2.2-3
   issues:
@@ -15272,14 +15266,6 @@ neuron:
   version: 7.5-1
   bugs:
     - 889886
-neutron-vpnaas:
-  version: 1:8.0.0-2
-  comments: |
-    captures build path:
-    https://sources.debian.net/src/neutron-vpnaas/1:8.0.0-2/neutron_vpnaas/services/vpn/device_drivers/ipsec.py/?hl=65#L45
-    https://sources.debian.net/src/neutron-vpnaas/1:8.0.0-2/neutron_vpnaas/services/vpn/device_drivers/strongswan_ipsec.py/?hl=37#L27
-  issues:
-    - captures_build_path
 neverball:
   version: 1.6.0-7
   issues:
@@ -19799,6 +19785,10 @@ python-mne:
   version: 0.15.2+dfsg-2
   bugs:
     - 896025
+python-multipletau:
+  version: 0.3.0+ds-1
+  bugs:
+    - 912957
 python-nacl:
   version: 1.0.1-2
   comments: |
@@ -28405,12 +28395,6 @@ xvier:
   version: 1.0-7.6
   issues:
     - build_id_differences_only
-xview:
-  version: 3.2p1.4-28.2
-  issues:
-    - gcc_captures_build_path
-  bugs:
-    - 887648
 xvkbd:
   version: 3.3-1
   issues:
