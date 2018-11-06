@@ -5617,14 +5617,14 @@ flexml:
   version: 1.9.6-5
   issues:
     - gcc_captures_build_path
-flexpart: 
-    version: 9.02-19
-    issues:
-        - gfortran_mod_captures_build_path
-flextra: 
-    version: 5.0-10
-    issues: 
-        - gfortran_mod_captures_build_path
+flexpart:
+  version: 9.02-19
+  issues:
+    - gfortran_mod_captures_build_path
+flextra:
+  version: 5.0-10
+  issues:
+    - gfortran_mod_captures_build_path
 flif:
   version: 0.3-1
   bugs:
@@ -15822,9 +15822,9 @@ nxcl:
   issues:
     - gcc_captures_build_path
 nyquist:
-   version:3.12+ds-3
-   issues:
-      - gcc_captures_build_path
+  version: 3.12+ds-3
+  issues:
+    - gcc_captures_build_path
 o3dgc:
   version: 0~20131011-2
   issues:
@@ -17363,8 +17363,8 @@ pgrouting:
   issues:
     - gcc_captures_build_path
 pgsphere:
-    version: 1.1.1+2018.10.13-1
-    issues: 
+  version: 1.1.1+2018.10.13-1
+  issues:
     - captures_build_path
 pgsql-asn1oid:
   version: 0.0.20100818-3.2
@@ -19109,10 +19109,10 @@ pugl:
   version: 0~svn32+dfsg0-2
   issues:
     - gcc_captures_build_path
-pulseaudio: 
-   version: 12.2-2
-   issues:
-      - random_order_in_tarball
+pulseaudio:
+  version: 12.2-2
+  issues:
+    - random_order_in_tarball
 pulseview:
   version: 0.2.0-1.2
   issues:
