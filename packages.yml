@@ -6558,6 +6558,10 @@ gcc-6:
     - blacklisted_on_jenkins_armhf_only
   bugs:
     - 862113
+gcc-6-cross:
+  version: 32
+  issues:
+    - diffoscope_runs_forever
 gcc-6-cross-ports:
   version: 8
   issues:
