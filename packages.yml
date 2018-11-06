@@ -4524,8 +4524,6 @@ eclipse-mylyn-tasks-github:
     - 871191
 eclipse-ptp:
   version: 8.1.1-1
-  issues:
-    - captures_build_path
   bugs:
     - 871205
 eclipse-pydev:
@@ -4544,8 +4542,6 @@ eclipse-rse:
     - 871196
 eclipse-subclipse:
   version: 1.10.3-1
-  issues:
-    - captures_build_path
   bugs:
     - 871188
 eclipse-titan:
@@ -4562,9 +4558,7 @@ eclipse-wtp:
   comments: |
     Blacklisted on armhf because a (single) build takes more than 18h…
   issues:
-    - timestamps_in_jar
     - blacklisted_on_jenkins_armhf_only
-    - captures_build_path
   bugs:
     - 871359
 eclipse-xsd:
@@ -4996,10 +4990,6 @@ erlang-redis-client:
     - captures_build_path_in_beam_files
 erlang-uuid:
   version: 0.4.6-2
-  issues:
-    - captures_build_path_in_beam_files
-erlsvc:
-  version: 1.02-2
   issues:
     - captures_build_path_in_beam_files
 esajpip:
@@ -16609,10 +16599,6 @@ openmpi:
   bugs:
     - 896861
     - 904626
-openmprtl:
-  version: 3.8.0-2
-  issues:
-    - captures_build_path
 openms:
   version: 2.0.0-4
   comments: |
