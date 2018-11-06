@@ -5527,6 +5527,8 @@ firehol:
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_documentation_generated_by_pandoc
     - fonts_in_pdf_files
+  comments: |
+    Patch pending at https://salsa.debian.org/debian/firehol/merge_requests/1 (for fixing timestamp issue)
 firetray:
   version: 0.6.1+dfsg-1
   bugs:
