@@ -9,4 +9,4 @@ test:
     - hooks/pre-receive
     - git clone --depth=1 https://salsa.debian.org/reproducible-builds/reproducible-misc.git misc
     - misc/clean-notes
-    - if [ "$(git status --porcelain)" != "?? misc" ]; then echo "NOTES NOT CLEAN!" ; git diff ; exit 1 ; else echo "Then notes are clean ☺" ; fi
+    - if ! git diff-index --quiet HEAD -- ; then printf "NOTES NOT CLEAN!\n\n" ; git diff ; exit 1 ; else echo "Then notes are clean ☺" ; fi
