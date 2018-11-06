@@ -11695,6 +11695,10 @@ libgmpada:
     - unknown_ada_issue
     - captures_build_path
     - records_build_flags
+libgnatcoll:
+  version: 18-2 
+  issues:
+    - diffoscope_runs_forever
 libgnome-keyring:
   version: 3.12.0-1
   bugs:
