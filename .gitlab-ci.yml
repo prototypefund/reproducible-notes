@@ -1,0 +1,12 @@
+before_script:
+  - apt-get -q update
+  - env DEBIAN_FRONTEND=noninteractive apt-get -q -y install git python3-apt python3-yaml
+
+
+test:
+  image: debian:unstable
+  script:
+    - hooks/pre-receive
+    - git clone --depth=1 https://salsa.debian.org/reproducible-builds/reproducible-misc.git misc
+    - misc/clean-notes
+    - if [ "$(git status --porcelain)" != "?? misc" ]; then echo "NOTES NOT CLEAN!" ; git diff ; exit 1 ; else echo "Then notes are clean ☺" ; fi
