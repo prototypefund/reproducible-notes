@@ -1,22 +1,22 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
-from __future__ import print_function
-
-import os.path
 import subprocess
 import sys
 import yaml
+
 
 def read_from_git(ref, path):
     return subprocess.check_output(
         ['git', 'show', '%s:%s' % (ref, path)],
         shell=False, close_fds=True)
 
+
 def validate_issues(issues):
     for name, data in issues.iteritems():
         if 'description' not in data:
             print('ERROR: issue %s is missing a description' % name, file=sys.stderr)
             sys.exit(1)
+
 
 def ensure_issues_are_known(issues, packages):
     for package, data in packages.iteritems():
@@ -25,6 +25,7 @@ def ensure_issues_are_known(issues, packages):
                 print('ERROR: issue %s not listed in issues.yml' % issue, file=sys.stderr)
                 sys.exit(1)
 
+
 def main():
     for ref_line in sys.stdin:
         old_value, new_value, ref_name = ref_line.strip().split(' ', 3)
@@ -32,6 +33,7 @@ def main():
         packages = yaml.safe_load(read_from_git(new_value, 'packages.yml'))
         validate_issues(issues)
         ensure_issues_are_known(issues, packages)
+
 
 if __name__ == '__main__':
     main()
