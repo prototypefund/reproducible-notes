@@ -5617,55 +5617,14 @@ flexml:
   version: 1.9.6-5
   issues:
     - gcc_captures_build_path
-flexpart:
-  version: None
-  issues:
-    - 9
-    - .
-    - 0
-    - 2
-    - ['None']
-    - 1
-    - 9
-    - None
-    - ['None']
-    - None
-    - g
-    - f
-    - o
-    - r
-    - t
-    - r
-    - a
-    - n
-    - _
-    - m
-    - o
-    - d
-    - _
-    - c
-    - a
-    - p
-    - t
-    - u
-    - r
-    - e
-    - s
-    - _
-    - b
-    - u
-    - i
-    - l
-    - d
-    - _
-    - p
-    - a
-    - t
-    - h
-flextra:
-  version: 5.0-10
-  issues:
-    - gfortran_mod_captures_build_path
+flexpart: 
+    version: 
+    issues: 9.02-19
+        - gfortran_mod_captures_build_path
+flextra: 
+    version: 5.0-10
+    issues: 
+        - gfortran_mod_captures_build_path
 flif:
   version: 0.3-1
   bugs:
