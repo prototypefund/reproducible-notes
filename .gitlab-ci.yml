@@ -1,6 +1,6 @@
 before_script:
   - apt-get -q update
-  - env DEBIAN_FRONTEND=noninteractive apt-get -q -y install git python3-apt python3-yaml
+  - env DEBIAN_FRONTEND=noninteractive apt-get -q -y install git python3-apt python3-psycopg2 python3-requests python3-yaml
 
 
 test:
