@@ -1882,3 +1882,12 @@ dc_created_timestamp_in_javadoc:
     javadoc appears to add a dc.created field with today's date.
     .
     openjdk 11 related?
+cflags_recorded_in_in_ada_ali_files:
+  description: |
+    For example
+    .
+    -A -fdebug-prefix-map=/home/lamby/temp/cdt.20181107083218.xPYfSWqN3H.repro.libgnatcoll-bindings/build-a/libgnatcoll-bindings-18=.
+    +A -fdebug-prefix-map=/home/lamby/temp/cdt.20181107083218.xPYfSWqN3H.repro.libgnatcoll-bindings/build-b/libgnatcoll-bindings-18=.
+    .
+    Probably easily stripped with dh-ada-library; it seems to have some related
+    code.
