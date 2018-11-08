@@ -6987,10 +6987,6 @@ git-lfs:
   version: 2.3.4-1
   issues:
     - randomness_in_binaries_generated_by_golang
-git-remote-hg:
-  version: 0.3-2
-  bugs:
-    - 844939
 git-sizer:
   version: 1.2.0+dfsg-1
   issues:
@@ -10837,10 +10833,6 @@ lammps:
   version: 0~20150313.gitfa668e1-1
   issues:
     - random_id_in_pdf_generated_by_dblatex
-landslide:
-  version: 1.1.3-0.0
-  bugs:
-    - 882579
 lasi:
   version: 1.1.0-1.1
   issues:
@@ -16341,8 +16333,6 @@ open-build-service:
       src/api/Makefile:17:  $(INSTALL) -m 0755 -d $(DESTDIR)$(OBS_API_PREFIX)/db/sphinx{,/production}
   issues:
     - bin_sh_is_bash
-  bugs:
-    - 894778
 open-coarrays:
   version: 1.9.3-1
   comments: |
@@ -24558,10 +24548,6 @@ schroot:
   version: 1.6.10-5
   bugs:
     - 902804
-science.js:
-  version: 1.9.3-1
-  bugs:
-    - 876618
 scilab-ann:
   version: 0.4.2.4-1
   issues:
