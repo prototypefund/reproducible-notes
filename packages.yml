@@ -1422,10 +1422,6 @@ bglibs:
   version: 1.106-1.1
   issues:
     - random_order_in_md5sums
-bgoffice:
-  version: 4.1-3
-  issues:
-    - timestamps_in_gzip_headers
 bgw-replstatus:
   version: 1.0.1
   issues:
@@ -5939,10 +5935,6 @@ fonts-smc-suruma:
     - timestamp_in_fonts_generated_by_opentype
 fonts-tibetan-machine:
   version: 1.901b-5
-  issues:
-    - fontforge_resets_modification_time
-fonts-tlwg:
-  version: 1:0.6.1-2
   issues:
     - fontforge_resets_modification_time
 fonts-tuffy:
