@@ -3928,6 +3928,10 @@ dime:
   version: 0.20111205-2
   issues:
     - records_build_flags
+diploma:
+  version: 1.2.12
+  issues:
+    - different_due_to_umask
 dipy:
   version: 0.7.1-2
   bugs:
@@ -15520,6 +15524,10 @@ node-jquery:
   version: 2.2.4+dfsg-1
   bugs:
     - 886001
+node-js-yaml:
+  version: 3.7.0+dfsg-1
+  issues:
+    - different_due_to_umask
 node-liftoff:
   version: 2.3.0-2
   bugs:
@@ -15581,6 +15589,10 @@ node-static-extend:
   version: 0.1.2-1
   bugs:
     - 892661
+node-tap:
+  version: 8.0.0-3
+  issues:
+    - different_due_to_unmask
 node-temp:
   version: 0.8.3-1
   bugs:
