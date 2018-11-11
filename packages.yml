@@ -20389,6 +20389,10 @@ qtsensors-opensource-src:
     - timestamps_in_qch
     - randomness_in_qdoc
     - captures_build_path
+qtserialbus-everywhere-src:
+  version: 5.11.2-1
+  issues:
+    - captures_build_dir_in_qmake_prl_files
 qtserialport-opensource-src:
   version: 5.3.2-2
   issues:
