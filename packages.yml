@@ -2771,8 +2771,6 @@ coco-java:
   version: 20110419-3.1
   issues:
     - timestamps_in_jar
-  bugs:
-    - 873973
 code-saturne:
   version: 4.2.1+repack-1
   issues:
@@ -3352,10 +3350,6 @@ cyclograph:
   version: 1.9.1-1
   comments: |
     /usr/share/cyclograph/qt/cyclograph_rc.py contains nondeterminstic image data, probably a timestamp
-cyphesis-cpp:
-  version: 0.6.2-2
-  bugs:
-    - 853363
 cyrus-imapd:
   version: 2.5.9-2
   comments: |
@@ -5712,10 +5706,6 @@ font-manager:
   version: 0.5.7-4
   issues:
     - captures_build_path
-fontawesomefx:
-  version: 8.9-1
-  bugs:
-    - 893194
 fontchooser:
   version: 1.0.0-2
   issues:
@@ -16515,7 +16505,6 @@ openjfx:
     - 850921
     - 874132
     - 893190
-    - 893194
     - 893345
     - 893348
 openjpa:
