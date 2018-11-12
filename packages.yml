@@ -7206,10 +7206,6 @@ gnokii:
   version: 0.6.30+dfsg-1.1
   issues:
     - gcc_captures_build_path
-gnome-bluetooth:
-  version: 3.28.0-1
-  issues:
-    - nondeterminstic_output_in_pkgconfig_files_generated_by_meson
 gnome-commander:
   version: 1.4.8-1.1
   bugs:
@@ -7278,10 +7274,6 @@ gnome-subtitles:
   version: 1.2-4
   issues:
     - gcc_captures_build_path
-gnome-todo:
-  version: 3.28.0-1
-  issues:
-    - nondeterminstic_output_in_pkgconfig_files_generated_by_meson
 gnome-vfs:
   version: 1:2.24.4-6.1
   bugs:
@@ -11727,10 +11719,6 @@ libguestfs:
     - timestamps_in_tarball
     - captures_build_path
     - varying_mtimes_in_data_tar_gz_or_control_tar_gz
-libgweather:
-  version: 3.28.0-2
-  issues:
-    - nondeterminstic_output_in_pkgconfig_files_generated_by_meson
 libhamcrest-java:
   version: 1.3-6
   issues:
@@ -14099,10 +14087,6 @@ mesa:
   version: 13.0.6-1
   issues:
     - build_path_captured_in_assembly_objects
-meson:
-  version: 0.43.0-1
-  issues:
-    - nondeterminstic_output_in_pkgconfig_files_generated_by_meson
 metapixel:
   version: 1.0.2-7.4
   issues:
@@ -26551,10 +26535,6 @@ torrus:
   version: 2.08-4
   issues:
     - captures_shell_variable_in_autofoo_script
-totem:
-  version: 3.26.0-3
-  issues:
-    - nondeterminstic_output_in_pkgconfig_files_generated_by_meson
 toxiproxy:
   version: 2.0.0+dfsg1-3
   issues:
@@ -28551,10 +28531,6 @@ zfec:
   version: 1.4.5-2
   issues:
     - gcc_captures_build_path
-zimlib:
-  version: 2.0.0-2
-  issues:
-    - nondeterminstic_output_in_pkgconfig_files_generated_by_meson
 zimpl:
   version: 3.3.2-1
   issues:
