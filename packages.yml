@@ -10955,6 +10955,10 @@ libacpi:
   version: 0.2-4.1
   issues:
     - gcc_captures_build_path
+libalien-sdl-perl:
+  version: 1.446-3
+  comments: |
+    ConfigData.pm appears to include SDL_LIBS, thus varying on /usr/lib64 on amd64 kernels.
 libalog:
   version: 0.5.0-1
   issues:
