@@ -18925,6 +18925,10 @@ prometheus-postgres-exporter:
   version: 0.1.1+ds-1
   issues:
     - random_build_path_by_golang_compiler
+prometheus-process-exporter:
+  version: 0.4.0-1
+  issues:
+    - golang_compiler_captures_build_path_in_binary
 prometheus-pushgateway:
   version: 0.3.0+ds-2
   issues:
