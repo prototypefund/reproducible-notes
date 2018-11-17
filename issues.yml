@@ -1785,7 +1785,7 @@ captures_build_path_in_mdb_files:
     cli/mono packages can generate mdb files that contain build paths.
 randomness_in_binaries_generated_by_golang:
   description: |
-          "New" (Feb 2018) undiagnosed issue with golang, fixed upstream, but a new src:golang-go has not yet been uploaded to Debian.
+    Fixed upstream, but a new src:golang-go has not yet been uploaded to Debian.
   url: https://salsa.debian.org/go-team/packages/dh-golang/merge_requests/6
 timestamps_in_preamble_generated_by_node_package_preamble:
   description: |
