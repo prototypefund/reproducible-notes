@@ -14900,6 +14900,10 @@ mysql-ocaml:
   version: 1.2.0-2
   issues:
     - gcc_captures_build_path
+mysql-sandbox:
+  version: 3.2.05-1
+  issues:
+    - paths_vary_due_to_usrmerge
 mysql-workbench:
   version: 6.3.4+dfsg-3
   issues:
@@ -18548,6 +18552,10 @@ popt:
   version: 1.16-10
   issues:
     - build_id_differences_only
+porg:
+  version: 2:0.10-1.1
+  issues:
+    - paths_vary_due_to_usrmerge
 portabase:
   version: 2.1+git20120910-1.1
   issues:
@@ -23683,6 +23691,10 @@ rplay:
   version: 3.3.2-16
   issues:
     - gcc_captures_build_path
+rpm:
+  version: 4.14.2+dfsg1-1
+  issues:
+    - paths_vary_due_to_usrmerge
 rpy:
   version: 1.0.3-30
   issues:
