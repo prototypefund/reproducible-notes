@@ -12761,6 +12761,10 @@ libsdl-console:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
+libsdl2-gfx:
+  version: 1.0.4+dfsg-3
+  issues:
+    - build_dir_in_documentation_generated_by_doxygen
 libsendmail-milter-perl:
   version: 0.18-8
   bugs:
