@@ -15129,13 +15129,6 @@ netkit-rwho:
   version: 0.17-13
   issues:
     - gcc_captures_build_path
-netmrg:
-  version: 0.20-7
-  comments: |
-    zero.rrd is created with rrdtool, which uses ~$now as time by default (rrdcreate(1)).
-    Could be fixed by using `--start $changelog_epoch`.
-    .
-    http://sources.debian.net/src/netmrg/0.20-7.2/var/lib/rrd/Makefile.am/#L14
 netpbm-free:
   version: 2:10.0-15.3
   issues:
