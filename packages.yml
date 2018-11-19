@@ -17322,6 +17322,10 @@ pgtop:
   version: 3.7.0-2
   issues:
     - gcc_captures_build_path
+phast:
+  version: 1.5+dfsg-1
+  comments: |
+    PHAST_HOME is the current build dir which gets embedded via exoniphy.c. Tried setting this debian/rules but this does not work.
 phatch:
   version: 0.2.7.1-5
   bugs:
