@@ -8293,6 +8293,10 @@ gyoto:
   issues:
     - records_build_flags
     - random_id_in_pdf_generated_by_dblatex
+gzip:
+  version: 1.9-2.1
+  issues:
+    - paths_vary_due_to_usrmerge
 h2database:
   version: 1.4.185-1
   comments: |
@@ -23196,6 +23200,10 @@ rakudo:
   version: 2015.09-2
   issues:
     - nondeterminstic_output_generated_by_moarvm
+rancid:
+  version: 3.8-2
+  issues:
+    - paths_vary_due_to_usrmerge
 rapache:
   version: 1.2.8-1
   issues:
@@ -23674,6 +23682,10 @@ rozofs:
   version: 2.0.18-1
   issues:
     - captures_build_path
+rp-pppoe:
+  version: 3.12-1.1
+  issues:
+    - paths_vary_due_to_usrmerge
 rpart:
   version: 4.1-10-2
   issues:
