@@ -5923,6 +5923,10 @@ foolscap:
   version: 0.12.6-1
   bugs:
     - 850537
+foomatic-db-engine:
+  version: 4.0.13-1
+  issues:
+    - paths_vary_due_to_usrmerge
 fop:
   version: 1:2.1-5
   issues:
@@ -27888,6 +27892,10 @@ wyrd:
   version: 1.4.6-4
   issues:
     - ocaml_captures_build_path
+x11-apps:
+  version: 7.7+7
+  issues:
+    - paths_vary_due_to_usrmerge
 x11proto-core:
   version: 7.0.26-1
   issues:
