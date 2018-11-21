@@ -1209,12 +1209,6 @@ date_added_by_ui_auto:
     probably need autoreconfing and extra Build-Depends, alas. Patch in itself
     shouldn't be too hard (ui-auto:src/m4/ui-auto.m4)
   deterministic: True
-timestamps_added_by_xbean_spring:
-  description: |
-    Adds a timestamp to META-INF/spring.handlers, META-INF/spring.schemas  etc.
-    Package is likely libxbean-java but not immediately obvious where the date
-    actually comes from.
-  deterministic: True
 nondeterminism_added_by_pyqt5_pyrcc5:
   description: |
     Unknown non-determinism added by this tool that turns files into Python.
