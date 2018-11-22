@@ -2382,8 +2382,6 @@ cfingerd:
     - 831021
 cfitsio:
   version: 3.450-2
-  issues:
-    - hevea_captures_build_path
   bugs:
     - 914176
 cfourcc:
@@ -10424,8 +10422,6 @@ knot-resolver:
   version: 1.0.0~beta3-78-g3429619-1
   comments: |
     There is a timestamp in the manpage.
-  issues:
-    - timestamps_manually_added_needs_further_investigation
 knotifications:
   version: 5.28.0-1
   issues:
