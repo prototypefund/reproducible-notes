@@ -1,0 +1,47 @@
+digraph {
+    graph [pad="0.5", nodesep="0.5", ranksep="2"];
+    node [shape=plain]
+    rankdir=LR;
+
+
+Issues [label=<
+<table border="0" cellborder="1" cellspacing="0">
+  <tr><td><i>Issues</i></td></tr>
+  <tr><td port="url">url</td></tr>
+  <tr><td >description</td></tr>
+  <tr><td port="distro_issue">distro</td></tr>
+</table>>];
+
+
+Package [label=<
+<table border="0" cellborder="1" cellspacing="0">
+  <tr><td><i>Package</i></td></tr>
+  <tr><td port="issues">issues</td></tr>
+  <tr><td>comments</td></tr>
+  <tr><td>bugs</td></tr>
+  <tr><td port="distros">distros</td></tr>
+</table>>];
+
+
+Distro_issue[label=<
+<table border="0" cellborder="1" cellspacing="0">
+  <tr><td><i>Distro Issue</i></td></tr>
+  <tr><td port="comment">comment</td></tr>
+  <tr><td port="state">state</td></tr>
+</table>>];
+
+Distro_package[label=<
+<table border="0" cellborder="1" cellspacing="0">
+  <tr><td><i>Distro Package</i></td></tr>
+  <tr><td port="comment">comment</td></tr>
+  <tr><td port="bugs">bugs</td></tr>
+  <tr><td port="issues">issues</td></tr>
+  <tr><td port="version">version</td></tr>
+</table>>];
+
+
+Distro_issue -> Issues:distro_issue [arrowhead="crow"];
+Distro_package:issues -> Distro_issue [arrowhead="crow"];
+Package:issues -> Issues [arrowhead="crow"];
+Package:distros -> Distro_package [arrowhead="crow"];
+}
