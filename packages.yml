@@ -1122,6 +1122,10 @@ automoc:
   version: 1.0~version-0.9.88-5
   issues:
     - gcc_captures_build_path
+autoproject:
+  version: 0.20-10
+  issues:
+    - paths_vary_due_to_usrmerge
 autounit:
   version: 0.20.1-5
   issues:
@@ -28442,6 +28446,10 @@ xxgdb:
   version: 1.12-17
   issues:
     - gcc_captures_build_path
+xymon:
+  version: 4.3.28-3
+  issues:
+    - paths_vary_due_to_usrmerge
 xz-utils:
   version: 5.1.1alpha+20120614-2
   issues:
