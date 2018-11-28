@@ -17254,7 +17254,9 @@ perl:
   version: 5.22.2-3
   issues:
     - records_build_flags
+    - paths_vary_due_to_usrmerge
   bugs:
+    - 914128
     - 914133
 perl-byacc:
   version: 2.0-8
