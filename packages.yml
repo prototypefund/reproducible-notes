@@ -1880,6 +1880,10 @@ bsaf:
   version: 1.9.2-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+bsdowl:
+  version: 2.2.2-1
+  issues:
+    - paths_vary_due_to_usrmerge
 bsh:
   version: 2.0b4-15
   issues:
@@ -3052,6 +3056,10 @@ coq-float:
   version: 1:8.4-5
   bugs:
     - 813596
+corosync:
+  version: 2.4.4-3
+  issues:
+    - paths_vary_due_to_usrmerge
 cortina:
   version: 1.1.1-1
   comments: |
@@ -3060,6 +3068,10 @@ courier:
   version: 0.78.0-2
   issues:
     - captures_build_path
+courier-authlib:
+  version: 0.69.0-1
+  issues:
+    - paths_vary_due_to_usrmerge
 courier-unicode:
   version: 1.4-2
   comments: |
@@ -3951,6 +3963,10 @@ dislocker:
   version: 0.6.1-6
   issues:
     - build_id_differences_only
+dist:
+  version: 1:3.5-236-0.1
+  issues:
+    - paths_vary_due_to_usrmerge
 dita-ot:
   version: 1.5.3+dfsg-1
   comments: |
@@ -4745,6 +4761,10 @@ enblend-enfuse:
     - pdf_created_by_ghostscript
     - fonts_in_pdf_files
     - records_build_flags
+enca:
+  version: 1.19-1
+  issues:
+    - paths_vary_due_to_usrmerge
 encfs:
   version: 1.8.1-3
   issues:
@@ -5366,6 +5386,10 @@ felix-shell:
   version: 1.4.3-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+fence-agents:
+  version: 4.3.1-1
+  issues:
+    - paths_vary_due_to_usrmerge
 ferret-vis:
   version: 7.0-1
   issues:
@@ -6327,6 +6351,10 @@ gammu:
   version: 1.33.0-3
   issues:
     - timestamps_from_cpp_macros
+ganeti-2.15:
+  version: 2.15.2-12
+  issues:
+    - paths_vary_due_to_usrmerge
 gant:
   version: 1.9.9-3
   issues:
@@ -7189,6 +7217,10 @@ gnokii:
   version: 0.6.30+dfsg-1.1
   issues:
     - gcc_captures_build_path
+gnome-applets:
+  version: 3.30.0-1
+  issues:
+    - paths_vary_due_to_usrmerge
 gnome-commander:
   version: 1.4.8-1.1
   bugs:
@@ -12116,6 +12148,10 @@ libksysguard:
   version: 4:5.8.2-1
   issues:
     - build_id_differences_only
+libktoblzcheck:
+  version: 1.49-4
+  issues:
+    - paths_vary_due_to_usrmerge
 liblas:
   version: 1.8.0-12
   issues:
@@ -12191,6 +12227,10 @@ libm4ri:
   version: 20140914-2
   issues:
     - records_build_flags
+libmail-mbox-messageparser-perl:
+  version: 1.5111-1
+  issues:
+    - paths_vary_due_to_usrmerge
 libmapper:
   version: 0.3~git+20141027-1
   issues:
@@ -13718,6 +13758,10 @@ maildirsync:
     - different_due_to_umask
   bugs:
     - 776933
+maildrop:
+  version: 2.9.3-2
+  issues:
+    - paths_vary_due_to_usrmerge
 mailfilter:
   version: 0.8.4-2
   issues:
@@ -13729,6 +13773,10 @@ mailfront:
     - random_order_in_md5sums
   bugs:
     - 895669
+mailman:
+  version: 1:2.1.29-1
+  issues:
+    - paths_vary_due_to_usrmerge
 mailsync:
   version: 5.2.2-3.1
   issues:
@@ -13998,6 +14046,10 @@ mcrl2:
   comments: |
     Embeds the build date into manpages.
     https://sources.debian.net/src/mcrl2/201409.0-1/libraries/utilities/source/command_line_interface.cpp/#L547-L550
+mcrypt:
+  version: 2.6.8-1.3
+  issues:
+    - paths_vary_due_to_usrmerge
 mdocml:
   version: 1.13.3-3
   issues:
@@ -14631,6 +14683,10 @@ mp4parser:
   version: 1.0.4.2-1
   issues:
     - captures_build_path
+mpb:
+  version: 1.5-3
+  issues:
+    - paths_vary_due_to_usrmerge
 mpdcon.app:
   version: 1.1.99-5
   issues:
@@ -15108,6 +15164,10 @@ netcdf-parallel:
   version: 1:4.6.1-4
   bugs:
     - 914672
+netcf:
+  version: 1:0.2.8-1
+  issues:
+    - paths_vary_due_to_usrmerge
 netdiag:
   version: 1.1-2
   issues:
@@ -16791,6 +16851,10 @@ p3scan:
   version: 2:2.3.2-8.1
   issues:
     - timestamps_in_gzip_headers
+p4vasp:
+  version: 0.3.30+dfsg-4
+  issues:
+    - paths_vary_due_to_usrmerge
 p7zip:
   version: 16.02+dfsg-2
   issues:
@@ -23414,6 +23478,10 @@ resample:
   version: 1.8.1-1
   issues:
     - gcc_captures_build_path
+resource-agents:
+  version: 1:4.2.0-1
+  issues:
+    - paths_vary_due_to_usrmerge
 resteasy:
   version: 3.1.4-1
   bugs:
@@ -27114,6 +27182,10 @@ user-mode-linux:
   version: 4.7-1um-1
   issues:
     - user_hostname_manually_added_requiring_further_investigation
+usermode:
+  version: 1.109-1
+  issues:
+    - paths_vary_due_to_usrmerge
 userv:
   version: 1.1.1
   issues:
@@ -27182,6 +27254,10 @@ varnish:
   version: 4.0.2-1
   issues:
     - gcc_captures_build_path
+vbackup:
+  version: 1.0.1-1
+  issues:
+    - paths_vary_due_to_usrmerge
 vboot-utils:
   version: 0~R52-8350.B-1
   issues:
