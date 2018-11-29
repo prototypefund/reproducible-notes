@@ -1891,6 +1891,6 @@ timestamp_added_by_gnuradio_grcc:
     .
     Code is in ./grc/core/generator/flow_graph.tmpl
   url: https://bugs.debian.org/914252
-ffile_prefix_map_passed_to_clang
+ffile_prefix_map_passed_to_clang:
   description: |
     clang doesn't understand -ffile-prefix-map= but gets it passed.
