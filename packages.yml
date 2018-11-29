@@ -3026,6 +3026,10 @@ containerd:
   version: 0.2.3+git20170126.85.aa8187d~ds1-2
   bugs:
     - 857819
+continuity:
+  version: 0.0~git20180216.d8fb858-1
+  issues:
+    - golang_compiler_captures_build_path_in_binary
 controlsfx:
   version: 8.40.12-1
   comments: |
