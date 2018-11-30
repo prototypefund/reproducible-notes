@@ -13392,6 +13392,8 @@ llvm-toolchain-6.0:
   version: 1:6.0.1-9.2
   issues:
     - ffile_prefix_map_passed_to_clang
+  bugs:
+    - 857653
 llvm-toolchain-7:
   version: 1:7.0.1~+rc2-7
   issues:
