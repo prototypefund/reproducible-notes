@@ -788,6 +788,10 @@ apron:
   version: 0.9.10-9
   issues:
     - texi2html_captures_users_gecos
+apsfilter:
+  version: 7.2.6-1.3
+  issues:
+    - paths_vary_due_to_usrmerge
 apt:
   version: 1.4.2
   issues:
@@ -826,6 +830,10 @@ arc-gui-clients:
   version: 0.4.6-3
   issues:
     - gcc_captures_build_path
+archmbox:
+  version: 4.10.0-2
+  issues:
+    - paths_vary_due_to_usrmerge
 arduino-mighty-1284p:
   version: 1-2
   comments: |
@@ -1370,6 +1378,10 @@ beanbag:
   version: 1.9.2-1.1
   bugs:
     - 867504
+beancounter:
+  version: 0.8.10
+  issues:
+    - paths_vary_due_to_usrmerge
 beansbinding:
   version: 1.2.1-2
   issues:
@@ -1872,6 +1884,10 @@ broccoli-ruby:
   version: 1.58-2
   issues:
     - gcc_captures_build_path
+broctl:
+  version: 1.4-1
+  issues:
+    - paths_vary_due_to_usrmerge
 browserpass:
   version: 2.0.11+dfsg-2
   issues:
@@ -3963,6 +3979,10 @@ discover:
   version: 2.1.2-7
   issues:
     - gcc_captures_build_path
+disk-manager:
+  version: 1.1.1-2
+  issues:
+    - paths_vary_due_to_usrmerge
 diskscan:
   version: 0.19-1
   issues:
@@ -4394,6 +4414,10 @@ dynare:
     - user_hostname_manually_added_requiring_further_investigation
     - texi2html_captures_users_gecos
     - records_build_flags
+e2fsprogs:
+  version: 1.44.4-2
+  issues:
+    - paths_vary_due_to_usrmerge
 e2guardian:
   version: 3.4.0.3-1
   issues:
@@ -6347,6 +6371,10 @@ gammu:
   version: 1.33.0-3
   issues:
     - timestamps_from_cpp_macros
+ganeti:
+  version: 2.16.0-2
+  issues:
+    - paths_vary_due_to_usrmerge
 ganeti-2.15:
   version: 2.15.2-12
   issues:
@@ -8664,6 +8692,10 @@ hsqldb1.8.0:
   version: 1.8.0.10+dfsg-3
   issues:
     - user_in_java_jar_manifest
+htdig:
+  version: 1:3.2.0b6-17
+  issues:
+    - paths_vary_due_to_usrmerge
 html2canvas:
   version: 0.5.0~beta4+ds1-1
   issues:
@@ -8802,6 +8834,10 @@ ibus-table-others:
   version: 1.3.5-2
   issues:
     - random_order_in_ibus_table_createdb_output
+icecc:
+  version: 1.1-2
+  issues:
+    - paths_vary_due_to_usrmerge
 icedtea-web:
   version: 1.5.2-1
   issues:
@@ -12851,6 +12887,10 @@ libsmf:
   version: 1.3-2
   issues:
     - gcc_captures_build_path
+libsmi:
+  version: 0.4.8+dfsg2-15
+  issues:
+    - paths_vary_due_to_usrmerge
 libsndfile:
   version: 1.0.25-10
   issues:
@@ -13754,6 +13794,10 @@ mah-jong:
   version: 1.11-2
   issues:
     - gcc_captures_build_path
+mailagent:
+  version: 1:3.1-81-4
+  issues:
+    - paths_vary_due_to_usrmerge
 mailavenger:
   version: 0.8.4-4.1
   bugs:
@@ -14446,6 +14490,10 @@ module-assistant:
   version: 0.11.8
   issues:
     - random_order_in_tarball
+modules:
+  version: 4.2.1-1
+  issues:
+    - paths_vary_due_to_usrmerge
 moin:
   version: 1.9.9-1
   bugs:
@@ -14485,6 +14533,10 @@ mongodb:
   issues:
     - timestamps_from_cpp_macros
     - diffoscope_runs_forever
+monitoring-plugins:
+  version: 2.2-4
+  issues:
+    - paths_vary_due_to_usrmerge
 monkeysign:
   version: 2.2.1
   comments: |
@@ -15793,6 +15845,10 @@ nuxwdog:
   version: 1.0.5-1
   issues:
     - gcc_captures_build_path
+nvi:
+  version: 1.81.6-13
+  issues:
+    - paths_vary_due_to_usrmerge
 nvidia-texture-tools:
   version: 2.0.8-1+dfsg-8.1
   issues:
@@ -17000,6 +17056,10 @@ parchive:
   version: 1.1-4
   issues:
     - gcc_captures_build_path
+pari:
+  version: 2.11.0-1
+  issues:
+    - paths_vary_due_to_usrmerge
 parprouted:
   version: 0.70-3
   issues:
@@ -17234,6 +17294,10 @@ pegasus-wms:
     - timestamps_in_jar
     - timestamp_in_java_bnd_manifest
     - captures_build_path
+pekwm:
+  version: 0.1.17-3
+  issues:
+    - paths_vary_due_to_usrmerge
 pente:
   version: 2.2.5-8
   comments: |
@@ -18517,6 +18581,10 @@ plume-creator:
   version: 0.66+dfsg1-3.1
   bugs:
     - 887534
+plymouth:
+  version: 0.9.4-1
+  issues:
+    - paths_vary_due_to_usrmerge
 pmacct:
   version: 1.6.0-1
   issues:
@@ -23261,6 +23329,10 @@ rapmap:
   version: 0.3.0+dfsg-1
   issues:
     - gcc_captures_build_path
+rarian:
+  version: 0.8.1-6
+  issues:
+    - paths_vary_due_to_usrmerge
 raspell:
   version: 1.3-1
   issues:
@@ -23772,6 +23844,10 @@ rserve:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
+rsnapshot:
+  version: 1.4.2-1
+  issues:
+    - paths_vary_due_to_usrmerge
 rsprng:
   version: 1.0-3
   issues:
@@ -25545,6 +25621,10 @@ springlobby:
   version: 0.255+dfsg-1
   issues:
     - gcc_captures_build_path
+sptk:
+  version: 3.9-2
+  issues:
+    - paths_vary_due_to_usrmerge
 spykeutils:
   version: 0.4.3-1
   bugs:
@@ -26117,6 +26197,10 @@ systemtap:
   issues:
     - different_encoding_in_html_by_docbook_xsl
     - fonts_in_pdf_files
+systraq:
+  version: 20160803-3
+  issues:
+    - paths_vary_due_to_usrmerge
 t-digest:
   version: 1:3.0-1
   issues:
@@ -26689,6 +26773,10 @@ toppler:
   version: 1.1.6-2
   issues:
     - gcc_captures_build_path
+toppred:
+  version: 1.10-6
+  issues:
+    - paths_vary_due_to_usrmerge
 tora:
   version: 2.1.3-3
   issues:
@@ -27378,6 +27466,10 @@ vflib3:
   version: 3.6.14.dfsg-3+nmu2
   issues:
     - gcc_captures_build_path
+vigor:
+  version: 0.016-26
+  issues:
+    - paths_vary_due_to_usrmerge
 viking:
   version: 1.6-1
   comments: |
@@ -27436,6 +27528,10 @@ vlfeat:
   version: 0.9.20+dfsg0-1
   issues:
     - build_dir_in_tags_generated_by_doxygen
+vm:
+  version: 8.2.0b-4
+  issues:
+    - paths_vary_due_to_usrmerge
 vmfs-tools:
   version: 0.2.5-1
   issues:
@@ -27629,6 +27725,10 @@ wayland:
   version: 1.9.0-1
   issues:
     - different_encoding_in_html_by_docbook_xsl
+wbar:
+  version: 2.3.4-8
+  issues:
+    - paths_vary_due_to_usrmerge
 wbox:
   version: 5-1
   issues:
@@ -28261,6 +28361,10 @@ xmlstreambuffer:
   version: 1.5.4-1
   issues:
     - random_order_in_java_jar_manifest_mf
+xmlto:
+  version: 0.0.28-2
+  issues:
+    - paths_vary_due_to_usrmerge
 xmlunit:
   version: 1.5-1
   issues:
