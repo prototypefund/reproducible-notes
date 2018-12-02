@@ -18765,6 +18765,10 @@ postfix:
     - collation_order_varies_by_locale
     - captures_build_path
     - captures_kernel_version
+postgis:
+  version: 2.5.1+dfsg-1
+  issues:
+    - ffile_prefix_map_passed_to_clang
 postgresql-9.6:
   version: 9.6~rc1-1
   issues:
