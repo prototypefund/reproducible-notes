@@ -11263,6 +11263,10 @@ libbiod:
   version: 0.1.0-5
   issues:
     - buildpath_in_binaries_generated_by_d_compiler_ldc
+libblocksruntime:
+  version: 0.4.1-1.1
+  issues:
+    - ffile_prefix_map_passed_to_clang
 libbluray:
   version: 1:0.9.3-2
   issues:
