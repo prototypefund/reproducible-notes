@@ -8752,6 +8752,10 @@ httpfs2:
   version: 0.1.4-1.1
   issues:
     - build_id_differences_only
+httping:
+  version: 2.5-5
+  issues:
+    - ffile_prefix_map_passed_to_clang
 httpunit:
   version: 1.7+dfsg-12
   issues:
