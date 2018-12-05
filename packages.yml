@@ -3487,14 +3487,6 @@ dacs:
     - captures_kernel_version
     - captures_build_path
     - captures_build_arch
-dactyl:
-  version: 1.2~hg7166-1
-  comments: |
-    Timezone difference in
-    /usr/share/xul-ext/pentadactyl/chrome/common/modules/config.jsm
-  bugs:
-    - 776618
-    - 859299
 daemontools:
   version: 1:0.76-6.1
   issues:
