@@ -3493,8 +3493,6 @@ daemontools:
   version: 1:0.76-6.1
   issues:
     - random_order_in_md5sums
-  bugs:
-    - 854145
 dafny:
   version: 1.9.7-1
   issues:
@@ -4500,79 +4498,29 @@ eclipse-aether:
   version: 1.0.2-1
   issues:
     - random_order_in_sisu_javax_inject_named
-eclipse-anyedit:
-  version: 2.4.4-1
-  bugs:
-    - 871209
 eclipse-cdt:
   version: 8.6.0-2
   issues:
     - captures_kernel_version
-  bugs:
-    - 871201
 eclipse-cdt-pkg-config:
   version: 1.0.0~git
   issues:
     - snapshot_placeholder_replaced_with_timestamp_in_pom_properties
     - captures_build_path
-  bugs:
-    - 871198
-eclipse-eclox:
-  version: 0.10.1-2
-  bugs:
-    - 871200
-eclipse-egit:
-  version: 3.7.0-2
-  bugs:
-    - 871189
-eclipse-gef:
-  version: 3.9.100-1
-  bugs:
-    - 869089
-eclipse-linuxtools:
-  version: 3.1.0-1
-  bugs:
-    - 871193
 eclipse-mercurialeclipse:
   version: 1.9.4-2
   comments: |
     The line number table varies slightly, sometimes. 10% on my machine, more on Jenkins.
     The build is relatively complex (using java helper --..eclipse..), but doesn't generate
     any code or anything; it looks like it must be a bug inside ecj (run via. ant in a crazy way).
-  bugs:
-    - 871212
 eclipse-mylyn:
   version: 3.12.0-1
   issues:
     - snapshot_placeholder_replaced_with_timestamp_in_pom_properties
-  bugs:
-    - 871341
-eclipse-mylyn-tasks-github:
-  version: 3.3.0-2
-  bugs:
-    - 871191
-eclipse-ptp:
-  version: 8.1.1-1
-  bugs:
-    - 871205
-eclipse-pydev:
-  version: 3.9.2-5
-  bugs:
-    - 871211
-eclipse-remote-services-api:
-  version: 8.0.0-1
-  bugs:
-    - 871192
 eclipse-rse:
   version: 3.4.2-1
   issues:
     - snapshot_placeholder_replaced_with_timestamp_in_pom_properties
-  bugs:
-    - 871196
-eclipse-subclipse:
-  version: 1.10.3-1
-  bugs:
-    - 871188
 eclipse-titan:
   version: 5.4.1-1
   comments: |
@@ -4588,12 +4536,6 @@ eclipse-wtp:
     Blacklisted on armhf because a (single) build takes more than 18h…
   issues:
     - blacklisted_on_jenkins_armhf_only
-  bugs:
-    - 871359
-eclipse-xsd:
-  version: 2.9.0-1
-  bugs:
-    - 869221
 eclipselink:
   version: 2.5.1-4
   issues:
@@ -5564,10 +5506,6 @@ firehol:
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_documentation_generated_by_pandoc
     - fonts_in_pdf_files
-firetray:
-  version: 0.6.1+dfsg-1
-  bugs:
-    - 895451
 fis-gtm:
   version: 6.2-002A-2
   comments: |
@@ -8331,10 +8269,6 @@ guessit:
   version: 0.11.0-2
   bugs:
     - 881289
-gui-ufw:
-  version: 17.04.1-1.1
-  bugs:
-    - 896759
 guice:
   version: 4.0-1
   issues:
@@ -16880,10 +16814,6 @@ osmium-tool:
   version: 1.3.1-2
   issues:
     - gcc_captures_build_path
-osmo-iuh:
-  version: 0.2.0-1
-  bugs:
-    - 896529
 osmo-trx:
   version: 0~20150325gitf147b17+dfsg-3
   issues:
@@ -23448,7 +23378,6 @@ rcpp:
 rcs-blame:
   version: 1.3.1-4
   bugs:
-    - 778101
     - 868970
 rdflib:
   version: 4.1.2-3
@@ -26952,10 +26881,6 @@ tth:
   version: 4.08+ds-2
   issues:
     - gcc_captures_build_path
-ttyload:
-  version: 0.5-8
-  bugs:
-    - 786508
 ttyrec:
   version: 1.0.8-5
   issues:
