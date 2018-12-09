@@ -6687,6 +6687,10 @@ gearmand:
   issues:
     - leaks_path_environment_variable
     - captures_shell_variable_in_autofoo_script
+geary:
+  version: 0.12.4-2
+  issues:
+    - build_path_captured_by_valac
 gedit:
   version: 3.20.2-2
   comments: |
