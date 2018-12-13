@@ -93,9 +93,10 @@ issue:
       state: fixed # state: open/fixed/unknown
       comment:     # 
 
-package:
+package: foo
   distros:      # a list of distro-specific objects, keyed by distro name (e.g., debian, arch, freebsd)
     debian:
+      package: debfoo  # optional
       issues:   # issue pointers that match the id under issues.yml
         - issue1
         - issue2 / free text            #   ← fixed issue
