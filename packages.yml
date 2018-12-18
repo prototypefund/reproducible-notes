@@ -5676,6 +5676,10 @@ fmit:
     - gcc_captures_build_path
   bugs:
     - 890669
+fmtlib:
+  version: 5.2.1+ds-1
+  comments: |
+    Error in documentation generation in output leaks build path
 fmultivar:
   version: 3011.78-2
   issues:
