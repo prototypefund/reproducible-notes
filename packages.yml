@@ -1356,8 +1356,6 @@ bbdb3:
   comments: |
     Embeds the build time into bbdb-site.el:
     https://sources.debian.net/src/bbdb3/3.1.2-6/lisp/bbdb-site.el.in/?hl=27#L27
-  issues:
-    - timestamps_in_emacs_autoloads
 bbrun:
   version: 1.6-6.1
   issues:
@@ -10508,10 +10506,6 @@ komi:
   version: 1.04-5
   issues:
     - gcc_captures_build_path
-komparator:
-  version: 4:1.0-3
-  issues:
-    - captures_build_path
 kompare:
   version: 4:16.08.0-1
   issues:
