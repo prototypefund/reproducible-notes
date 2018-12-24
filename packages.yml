@@ -10818,6 +10818,10 @@ lam:
     - captures_shell_variable_in_autofoo_script
     - random_order_in_static_libraries
     - captures_build_path
+lambda-term:
+  version: 1.10.1-2
+  issues:
+    - ocaml_captures_build_path
 lammps:
   version: 0~20150313.gitfa668e1-1
   issues:
