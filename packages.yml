@@ -14652,10 +14652,6 @@ moon-buggy:
     The difference in the .ps file is that "/seven" is missing from one of the embedded fonts.  I suppose this is because the build date is 27th on the left build, 28th one the right build, and the digit 7 happens to not be used anywhere else in the .ps file in that font; i.e., it's just a side-effect of the mdate.sh issue.
     .
     Note the source package ships upstream's source as a tar.gz file.
-moonshot-gss-eap:
-  version: 0.9.5-3
-  bugs:
-    - 866712
 moonshot-trust-router:
   version: 1.4.1-1
   bugs:
