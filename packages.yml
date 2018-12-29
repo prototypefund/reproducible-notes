@@ -1479,8 +1479,6 @@ bibtex2html:
   version: 1.98-4
   comments: |
     Uses `\today' in manual.tex.
-  issues:
-    - timestamps_in_tex_documents
 bibtool:
   version: 2.65+ds-1
   issues:
@@ -26295,10 +26293,6 @@ tarantool-lts:
   version: 1.5.5-18-g2998d20-1
   issues:
     - gcc_captures_build_path
-tarlz:
-  version: 0.4-2
-  issues:
-    - captures_build_path
 task:
   version: 2.5.1+dfsg-1
   issues:
