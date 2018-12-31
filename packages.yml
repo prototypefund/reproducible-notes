@@ -269,10 +269,6 @@ ahven:
   issues:
     - timestamps_in_ada_library_information_files
     - captures_build_path
-aiocoap:
-  version: 0.3-1
-  bugs:
-    - 855091
 aiohttp-cors:
   version: 0.5.3-1
   bugs:
@@ -13100,8 +13096,6 @@ libvirt:
     #2. Order of symbols in the .debug_str section varies randomly.
     .
     #3. Difference in file order in the .symtab section.
-  bugs:
-    - 888133
 libvistaio:
   version: 1.2.19-1
   issues:
@@ -27501,10 +27495,6 @@ viking:
     - timestamps_in_manpages_generated_by_docbook_xsl
   bugs:
     - 820603
-virt-manager:
-  version: 1:1.4.3-1
-  bugs:
-    - 888133
 virt-top:
   version: 1.0.8-1
   issues:
