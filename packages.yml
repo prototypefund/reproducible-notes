@@ -429,14 +429,6 @@ android-platform-art:
   version: 8.1.0+r23-1
   issues:
     - ffile_prefix_map_passed_to_clang
-android-platform-build:
-  version: 1:7.0.0+r33-1
-  bugs:
-    - 853310
-android-platform-frameworks-base:
-  version: 1:7.0.0+r33-1
-  bugs:
-    - 853311
 android-platform-libcore:
   version: 6.0.1+r10-1
   issues:
@@ -444,9 +436,7 @@ android-platform-libcore:
 android-platform-system-core:
   version: 1:7.0.0+r33-2
   bugs:
-    - 853310
     - 853311
-    - 853312
     - 886122
     - 886204
 android-platform-tools-base:
@@ -19618,10 +19608,6 @@ python-demgengeo:
   version: 1.2-1
   issues:
     - gcc_captures_build_path
-python-django:
-  version: 1:1.11.10-1
-  bugs:
-    - 891753
 python-django-celery-beat:
   version: 1.1.0-2
   issues:
