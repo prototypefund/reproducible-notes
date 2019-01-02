@@ -18558,6 +18558,12 @@ poa:
   version: 2.0+20060928-4
   issues:
     - gcc_captures_build_path
+pocketsphinx:
+  version: 0.8+5prealpha+1-2
+  comments: |
+    This is due to dh-python having different behavior depending on file order in directory
+  bugs:
+    - 903698
 pocl:
   version: 0.10-10
   issues:
@@ -25555,6 +25561,12 @@ sphinx-gallery:
     - python_sphinx_gallery_adds_timing_to_output
   bugs:
     - 901307
+sphinxbase:
+  version: 0.8+5prealpha+1-3
+  comments: |
+    This is due to dh-python having different behavior depending on file order in directory
+  bugs:
+    - 903698
 sphinxcontrib-programoutput:
   version: 0.8-4
   comments: |
