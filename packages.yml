@@ -436,7 +436,6 @@ android-platform-libcore:
 android-platform-system-core:
   version: 1:7.0.0+r33-2
   bugs:
-    - 853311
     - 886122
     - 886204
 android-platform-tools-base:
@@ -7210,10 +7209,6 @@ gnome-applets:
     - paths_vary_due_to_usrmerge
   bugs:
     - 915658
-gnome-commander:
-  version: 1.4.8-1.1
-  bugs:
-    - 891436
 gnome-contacts:
   version: 3.22.1-1
   bugs:
@@ -13160,10 +13155,6 @@ libxml++2.6:
   version: 2.38.1-1
   bugs:
     - 812895
-libxml-saxon-xslt2-perl:
-  version: 0.010-2
-  bugs:
-    - 892121
 libxml-security-java:
   version: 1.5.8-1
   issues:
@@ -17282,7 +17273,6 @@ perl:
     - paths_vary_due_to_usrmerge
   bugs:
     - 914128
-    - 914133
     - 915209
 perl-byacc:
   version: 2.0-8
