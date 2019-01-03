@@ -7455,14 +7455,10 @@ golang-1.7:
   version: 1.7.1-2
   issues:
     - captures_build_path
-  bugs:
-    - 853428
 golang-1.8:
   version: 1.8~rc2-1
   issues:
     - golang_compiler_captures_build_path_in_binary
-  bugs:
-    - 863195
 golang-bindata:
   version: 3.0.7+git20151023.72.a0ff256-3
   issues:
@@ -14077,8 +14073,6 @@ mdds:
   version: 1.4.3-1
   issues:
     - paths_vary_due_to_usrmerge
-  bugs:
-    - 915413
 mdocml:
   version: 1.13.3-3
   issues:
