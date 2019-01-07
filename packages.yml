@@ -7723,8 +7723,6 @@ golang-petname:
     - randomness_in_binaries_generated_by_golang
 goldencheetah:
   version: 4.0.0~DEV1607-1
-  issues:
-    - captures_build_path
   bugs:
     - 811867
 goldendict:
@@ -14786,10 +14784,6 @@ mtail:
   version: 0.0+git20160716.f911b02-1
   issues:
     - golang_compiler_captures_build_path_in_binary
-mtink:
-  version: 1.0.16-9
-  issues:
-    - captures_build_path
 mu-cade:
   version: 0.11.dfsg1-12
   issues:
