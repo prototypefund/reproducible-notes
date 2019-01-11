@@ -1476,7 +1476,6 @@ bin-prot:
   version: 111.03.00-1
   issues:
     - randomness_in_ocaml_preprocessed_files
-    - captures_build_path
 binaryornot:
   version: 0.4.0-1
   bugs:
@@ -3817,8 +3816,6 @@ derby:
     - random_order_in_documentation_generated_by_javadoc
 derivations:
   version: 0.53.20120414-2
-  issues:
-    - timestamps_in_ps_generated_by_dvips
   bugs:
     - 884476
 desklaunch:
