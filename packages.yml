@@ -3849,6 +3849,10 @@ devio:
   version: 1.2-1.2
   issues:
     - gcc_captures_build_path
+dh-ada-library:
+  version: '6.15'
+  issues:
+    - buildpath_in_binaries_generated_by_ada_compiler
 dh-kpatches:
   version: 0.99.36+nmu3
   issues:
