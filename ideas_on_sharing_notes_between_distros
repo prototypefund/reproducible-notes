@@ -116,9 +116,6 @@ These are quite open, as none of these fields are formalized in a specification 
 
 Here's a list of the current issues found with the current schema (
 
-- There doesn't seem to be a useful cross-distro mechanism for packages that
-  don't share the same name. THis means we may need a list of aliases in the
-  existing schema.
 - the cross-distro bugs and issues keys seem to need re-thinking
 - the version key seems to be a string, which raises doubts about how to
   separate many-to-one issues when a package across different versions
