@@ -7448,10 +7448,6 @@ golang-ginkgo:
     - golang_compiler_captures_build_path_in_binary
   bugs:
     - 819214
-golang-gitaly-proto:
-  version: 0.26.0+dfsg-1
-  bugs:
-    - 887941
 golang-github-alecthomas-chroma:
   version: 0.2.1-1
   issues:
@@ -8443,8 +8439,6 @@ heartbeat:
   version: 1:3.0.6-8
   issues:
     - paths_vary_due_to_usrmerge
-  bugs:
-    - 915312
 heartbleeder:
   version: 0.1.1-2
   issues:
@@ -15759,8 +15753,6 @@ nvi:
   version: 1.81.6-13
   issues:
     - paths_vary_due_to_usrmerge
-  bugs:
-    - 915170
 nvidia-texture-tools:
   version: 2.0.8-1+dfsg-8.1
   issues:
@@ -16571,8 +16563,6 @@ opentk:
   issues:
     - clilibs_line_order
     - timestamps_in_pe_binaries
-  bugs:
-    - 855120
 opentoken:
   version: 6.0b-3
   comments: |
@@ -19216,8 +19206,6 @@ pygdchart2:
   version: 0.beta1-3.7
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 880780
 pygobject-2:
   version: 2.28.6-13
   issues:
