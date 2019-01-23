@@ -1916,3 +1916,14 @@ buildpath_in_binaries_generated_by_ada_compiler:
 randomness_in_ids_generated_by_org-html-publish-to-html:
   description: |
     eg. outline-container-orgb2aa480 vs outline-container-org7a7f99f
+ftbfs_due_to_f_debug_prefix_map:
+  description: |
+    An example of failure related to this are programs that expect
+    __FILE__ to expand to some absolute path, but instead finding themselves
+    a relative one.
+    .
+    In our unstable and experimental build systems we export
+        DEB_BUILD_OPTIONS=reproducible=+all
+    that makes dpkg-buildflags enable the reproducible/fixfilepath feature, adding
+        -ffile-prefix-map=BUILDPATH=.
+    to CFLAGS, CXXFLAGS, OBJCFLAGS, OBJCXXFLAGS, GCJFLAGS, FFLAGS and FCFLAGS.
