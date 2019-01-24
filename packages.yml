@@ -6446,13 +6446,9 @@ gbrowse:
     - 833885
 gcc-6:
   version: 6.1.1-3
-  issues:
-    - blacklisted_on_jenkins_armhf_only
-  bugs:
-    - 862113
   comments: |
     Comments imported from gcc-5
-
+    
     * Uses profile-guided optimizations on major architectures
     
       https://sources.debian.net/src/gcc-5/5.3.1-7/debian/rules2/?hl=731#L731
@@ -6490,6 +6486,10 @@ gcc-6:
       b_gnat1.adb, b_gnat1.ads, b_gnatb.adb, b_gnatb.ads, gnatvsn.ads.
     
       No clue: b~lto13.adb, b~lto13.ads.
+  issues:
+    - blacklisted_on_jenkins_armhf_only
+  bugs:
+    - 862113
 gcc-6-cross:
   version: 32
   issues:
