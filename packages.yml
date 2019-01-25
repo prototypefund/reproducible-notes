@@ -7530,6 +7530,10 @@ golang-github-hashicorp-yamux:
     - ftbfs_uninvestigated_test_failures
   bugs:
     - 852964
+golang-github-influxdata-tail:
+  version: 1.0.0+git20180327.c434825-1
+  issues:
+    - golang_compiler_captures_build_path_in_binary
 golang-github-influxdata-yarpc:
   version: 0.0~git20180222.f0da2db-1
   issues:
@@ -7546,6 +7550,10 @@ golang-github-mailru-easyjson:
   version: 0.0~git20161103.0.159cdb8-1
   bugs:
     - 854743
+golang-github-mendersoftware-mender-artifact:
+  version: 2.4.0-2
+  issues:
+    - golang_compiler_captures_build_path_in_binary
 golang-github-mesos-mesos-go:
   version: 0.0.2+dfsg-2
   bugs:
@@ -7598,6 +7606,10 @@ golang-github-rakyll-statik:
   version: 0.1.1-3
   issues:
     - randomness_in_binaries_generated_by_golang
+golang-github-sebest-xff:
+  version: 0.0~git20160910.6c115e0-1
+  issues:
+    - golang_compiler_captures_build_path_in_binary
 golang-github-smartystreets-go-aws-auth:
   version: 0.0~git20160722.0.2043e6d-1
   bugs:
