@@ -10735,6 +10735,10 @@ lam:
     - captures_shell_variable_in_autofoo_script
     - random_order_in_static_libraries
     - captures_build_path
+lambda-align2:
+  version: 2.0.0-4
+  bugs:
+    - 920591
 lambda-term:
   version: 1.10.1-2
   issues:
