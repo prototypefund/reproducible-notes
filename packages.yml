@@ -466,6 +466,10 @@ ann:
     [arm64]
   issues:
     - captures_shell_variable_in_autofoo_script
+ansible:
+  version: 2.7.6+dfsg-1
+  bugs:
+    - 920792
 ant:
   version: 1.9.4-3
   bugs:
