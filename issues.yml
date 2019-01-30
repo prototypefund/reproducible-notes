@@ -445,6 +445,12 @@ randomness_in_property_annotations_generated_by_sphinx:
   description: |
     visit_desc_annotation in sphinx/writers/html.py (?) causes -- for example -- sets
     to be serialised in a nondeterminstic order.
+randomness_in_documentation_underscore_downloads_generated_by_sphinx:
+  description: |
+    eg. usr/share/doc/python-treq-doc/html/_downloads/04f29e03a7917886a0c8589f0f9018d6/basic_post.py.
+    .
+    Unclear why the source is duplicated. Likely regression/feature introduced
+    in python-sphinx 1.8.3 or 1.8.2.
 captures_build_path_in_sphinx_attr_links:
   description: |
     Sphinx docs can contain hyperlinks to other parts of the doc, which include
