@@ -1627,10 +1627,6 @@ blkreplay:
   version: 1.0-3
   issues:
     - gcc_captures_build_path
-blktap:
-  version: 2.0.90-4
-  bugs:
-    - 883212
 blobandconquer:
   version: 1.11-dfsg+20-1.1
   issues:
@@ -2235,8 +2231,6 @@ cctools:
     - user_hostname_manually_added_requiring_further_investigation
     - captures_home_dir
     - captures_kernel_version
-  bugs:
-    - 917626
 cdbackup:
   version: 0.7.0-5
   issues:
@@ -2339,7 +2333,6 @@ ceph:
     - blacklisted_on_jenkins_armhf_only
   bugs:
     - 791913
-    - 893149
 ceres-solver:
   version: 1.11.0~dfsg0-5
   issues:
@@ -23451,10 +23444,6 @@ resource-agents:
     - paths_vary_due_to_usrmerge
   bugs:
     - 915848
-resteasy:
-  version: 3.1.4-1
-  bugs:
-    - 888081
 restic:
   version: 0.8.3+ds-1
   issues:
