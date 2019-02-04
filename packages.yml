@@ -2712,6 +2712,10 @@ cmake:
   version: 3.6.1-1
   issues:
     - gcc_captures_build_path
+cmark-gfm:
+  version: 0.28.3.gfm.19-3
+  issues:
+    - build_id_differences_only
 cmdliner:
   version: 1.0.2-1
   issues:
@@ -2728,10 +2732,6 @@ cmor:
     Command to find where are set the timestamps: ack-grep -B3 snprintf.*ptr
   issues:
     - gcc_captures_build_path
-cmark-gfm:
-  version: 0.28.3.gfm.19-3
-  issues:
-    - build_id_differences_only
 cmtk:
   version: 3.2.2-1.4
   issues:
