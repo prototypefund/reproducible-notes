@@ -5446,6 +5446,10 @@ firehol:
     - timestamps_in_pdf_generated_by_latex
     - timestamps_in_documentation_generated_by_pandoc
     - fonts_in_pdf_files
+firmware-microbit-micropython:
+  version: 1.0.1-1
+  issues:
+    - ftbfs_due_to_f-file-prefix-map
 fis-gtm:
   version: 6.2-002A-2
   comments: |
