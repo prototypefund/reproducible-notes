@@ -19665,9 +19665,10 @@ python-nids:
     - gcc_captures_build_path
 python-octaviaclient:
   version: 1.6.0-2
+  comments: |
+    Upstream https://github.com/openstack/python-octaviaclient/pull/1
   bugs:
     - 921511
-  comment: Upstream: https://github.com/openstack/python-octaviaclient/pull/1
 python-omniorb:
   version: 3.6-1
   issues:
