@@ -451,6 +451,10 @@ randomness_in_documentation_underscore_downloads_generated_by_sphinx:
     .
     Unclear why the source is duplicated. Likely regression/feature introduced
     in python-sphinx 1.8.3 or 1.8.2.
+randomness_in_documentation_graphviz_generated_by_sphinx:
+  description: |
+    html/_images/graphviz-9e71e0f9ba91d0842b51211b676ec4adb7e7afb8.png varies
+    on build path.
 captures_build_path_in_sphinx_attr_links:
   description: |
     Sphinx docs can contain hyperlinks to other parts of the doc, which include
