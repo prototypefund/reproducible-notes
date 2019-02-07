@@ -16441,6 +16441,10 @@ opensips:
   version: 2.2.2-3
   issues:
     - gcc_captures_build_path
+opensmtpd:
+  version: 6.0.3p1-5
+  issues:
+    - paths_vary_due_to_usrmerge
 opensp:
   version: 1.5.2-13
   issues:
