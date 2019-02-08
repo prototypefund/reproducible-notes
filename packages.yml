@@ -12060,8 +12060,6 @@ libktoblzcheck:
   version: 1.49-4
   issues:
     - paths_vary_due_to_usrmerge
-  bugs:
-    - 915309
 liblas:
   version: 1.8.0-12
   issues:
@@ -15434,10 +15432,6 @@ node-parse-glob:
   version: 3.0.4+dfsg-1
   bugs:
     - 884545
-node-postgres:
-  version: 0.13.3-1
-  bugs:
-    - 802213
 node-promise:
   version: 8.0.1-1
   bugs:
@@ -15445,7 +15439,6 @@ node-promise:
 node-redis:
   version: 0.12.1-2
   bugs:
-    - 830215
     - 842209
 node-rollup:
   version: 0.50.0-1
