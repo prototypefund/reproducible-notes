@@ -3984,6 +3984,10 @@ dns2tcp:
   version: 0.5.2-1.1
   issues:
     - gcc_captures_build_path
+dnscrypt-proxy:
+  version: 2.0.19+ds1-2
+  issues:
+    - golang_compiler_captures_build_path_in_binary
 dnsmasq:
   version: 2.76-5
   issues:
