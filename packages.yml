@@ -1740,10 +1740,6 @@ boswars:
   version: 2.7+svn160110-4
   issues:
     - gcc_captures_build_path
-botan:
-  version: 2.6.0-3
-  bugs:
-    - 909476
 botan1.10:
   version: 1.10.8-2
   comments: |
@@ -8187,8 +8183,6 @@ guile-2.0:
   issues:
     - captures_shell_variable_in_autofoo_script
     - records_build_flags
-  bugs:
-    - 896581
 guile-2.2:
   version: 2.2.3+1-1
   comments: |
