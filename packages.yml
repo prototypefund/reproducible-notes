@@ -378,6 +378,10 @@ amanda:
   issues:
     - captures_shell_variable_in_autofoo_script
     - records_build_flags
+amazon-ecr-credential-helper:
+  version: 0.2.0-1
+  issues:
+    - golang_compiler_captures_build_path_in_binary
 amideco:
   version: 0.31e-3.1
   bugs:
