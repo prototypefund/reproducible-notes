@@ -23689,13 +23689,6 @@ rsymphony:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
-rsync:
-  version: 3.1.1-2
-  issues:
-    - random_order_in_md5sums
-    - build_id_differences_only
-  bugs:
-    - 787123
 rt-extension-customfieldsonupdate:
   version: 0.01-1
   issues:
