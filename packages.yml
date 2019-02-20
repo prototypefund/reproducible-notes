@@ -18046,14 +18046,6 @@ picocom:
   version: 1.7-1
   issues:
     - gcc_captures_build_path
-picviz:
-  version: 0.5-1
-  comments: |
-    full-archi.kivio is a zip file, but unclear how it varies given that its not seemingly built from any source. (Which is a problem in itself)
-  issues:
-    - captures_build_path
-  bugs:
-    - 844967
 pidgin:
   version: 2.11.0-1
   issues:
