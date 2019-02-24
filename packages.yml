@@ -26249,6 +26249,10 @@ texi2html:
     The $USER value the code uses may be the full name from GECOS.  That is currently set to "second user" on the second build and is null on the first build, which explains the observations.
   issues:
     - texi2html_captures_users_gecos
+texlive-bin:
+  version: 2018.20181218.49446-1
+  comments: |
+    Somewhere under ./libs/luajit/LuaJIT-src/src ../..
 textedit.app:
   version: 4.0+20061029-3.4
   issues:
