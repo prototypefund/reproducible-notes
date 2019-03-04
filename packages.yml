@@ -18456,6 +18456,10 @@ postgresql-9.6:
     - captures_build_path
     - records_build_flags
     - captures_build_arch
+postgresql-debversion:
+  version: 1.1.1-2
+  issues:
+    - randomness_in_postgres_opcodes
 postgresql-hll:
   version: 2.7-2.1
   issues:
