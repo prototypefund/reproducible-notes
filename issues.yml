@@ -1938,3 +1938,6 @@ ftbfs_due_to_f-file-prefix-map:
     that makes dpkg-buildflags enable the reproducible/fixfilepath feature, adding
         -ffile-prefix-map=BUILDPATH=.
     to CFLAGS, CXXFLAGS, OBJCFLAGS, OBJCXXFLAGS, GCJFLAGS, FFLAGS and FCFLAGS.
+randomness_in_postgres_opcodes:
+  description: |
+    randomness in bc files
