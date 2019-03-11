@@ -198,6 +198,10 @@ fontforge_resets_modification_time:
     Related upstream bug at https://github.com/fontforge/fontforge/issues/2490
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInFontsGeneratedWithFontForge
   deterministic: True
+build_time_embedded_by_fontforge:
+  description: |
+    When a fontforge script is used, it can appear to use the current build
+    time in embedded metadata in a field (not the "modification time").
 varying_mtimes_in_data_tar_gz_or_control_tar_gz:
   description: |
     We currently adjust the file mtimes in dh_builddeb. Packages which
