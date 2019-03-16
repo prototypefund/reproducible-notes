@@ -24893,6 +24893,10 @@ sketch:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - captures_build_path
+skiboot:
+  version: 6.2-1
+  issues:
+    - captures_build_path_via_assert
 skinedit:
   version: 1.27-2
   issues:
