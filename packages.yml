@@ -15028,6 +15028,10 @@ netkit-bootparamd:
   version: 0.17-9
   issues:
     - gcc_captures_build_path
+netkit-rsh:
+  version: 0.17-20
+  issues:
+    - captures_build_path_via_assert
 netkit-rusers:
   version: 0.17-8
   issues:
