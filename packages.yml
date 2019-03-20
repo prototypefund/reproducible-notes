@@ -26469,6 +26469,10 @@ tomcat8:
   version: 8.0.32-1
   issues:
     - blacklisted_on_jenkins_armhf_only
+tomcat9:
+  version: 9.0.16-3
+  issues:
+    - bundle_name_in_java_manifest_mf
 topal:
   version: 75-2
   comments: |
