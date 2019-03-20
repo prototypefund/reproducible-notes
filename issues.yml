@@ -385,6 +385,9 @@ timestamp_in_java_bnd_manifest:
   description: |
     bndtools bnd outputs Bnd-LastModified and other entropy
   deterministic: True
+bundle_name_in_java_manifest_mf:
+  description: |
+    Bundle-Name, Bundle-Symbolic name
 implementation_version_in_java_manifest_mf:
   description: |
     Captures build time, build host and kernel version with
