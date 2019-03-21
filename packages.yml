@@ -18782,6 +18782,10 @@ prometheus-sql-exporter:
   version: 0.2.0.ds-3
   issues:
     - randomness_in_binaries_generated_by_golang
+prometheus-squid-exporter:
+  version: 1.4+ds-1
+  issues:
+    - randomness_in_binaries_generated_by_golang
 prometheus-varnish-exporter:
   version: 1.0-2
   issues:
