@@ -5557,10 +5557,6 @@ flowscan:
     - different_due_to_umask
   bugs:
     - 786927
-fltk1.1:
-  version: 1.1.10-25
-  bugs:
-    - 909078
 fltk1.3:
   version: 1.3.2-6
   issues:
@@ -15355,10 +15351,6 @@ node-fuzzaldrin-plus:
   version: 0.3.1+git.20161008.da2cb58+dfsg-4
   issues:
     - nondeterminstic_output_from_uglifyjs
-node-grunt-contrib-concat:
-  version: 1.0.1-2
-  bugs:
-    - 878337
 node-gulp:
   version: 3.9.1-6
   bugs:
@@ -19851,10 +19843,6 @@ python-xlrd:
     Non-deterministically selects python vs python3.X in shebang
   issues:
     - python_shebang_and_dependency_nondeterministically_3_or_3_point_5
-python-xmp-toolkit:
-  version: 2.0.1+git20140309.5437b0a-3
-  bugs:
-    - 853819
 python2.7:
   version: 2.7.10-2
   comments: |
@@ -23260,10 +23248,6 @@ rebar:
     https://sources.debian.net/src/rebar/2.6.0-1/bootstrap/#L123-L126
     .
     ... and something else.
-reconserver:
-  version: 0.15.2-1
-  bugs:
-    - 866357
 recordmydesktop:
   version: 0.3.8.1+svn602-1
   issues:
