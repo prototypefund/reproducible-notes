@@ -28333,6 +28333,10 @@ yadifa:
   version: 2.2.1-1
   issues:
     - gcc_captures_build_path
+yagf:
+  version: 0.9.3.2-1
+  comments: |
+    Checks CMAKE_SIZEOF_VOID_P so on i386 with a 64-bit kernel installs files to /usr/lib64
 yahtzeesharp:
   version: 1.1-5
   issues:
