@@ -7454,6 +7454,10 @@ golang-github-google-gofuzz:
   version: 0.0~git20150903.0.e4af62d-2
   bugs:
     - 850200
+golang-github-google-pprof:
+  version: 0.0~git20190109.e84dfd6-1
+  comments: |
+    Deliberately generates a cpu profile in debian/rules (that is not reproducible)
 golang-github-gopherjs-gopherjs:
   version: 0.0~git20170927.0.4152256-2
   bugs:
