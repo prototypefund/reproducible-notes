@@ -17118,6 +17118,10 @@ pgloader:
   version: 3.3.1+dfsg-1
   comments: |
     Looks like the .fasl compiled lisp intermediate files contain the build time, then the whole thing gets compressed when combined in the pgloader binary so it becomes opaque at the package diffoscope level.
+pglogical:
+  version: 2.2.1-4
+  issues:
+    - randomness_in_postgres_opcodes
 pgmemcache:
   version: 2.3.0-2
   issues:
