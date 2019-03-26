@@ -13327,6 +13327,10 @@ lockfile-progs:
   version: 0.1.17
   issues:
     - gcc_captures_build_path
+log4c:
+  version: 1.2.4-1
+  comments: |
+    Will generate a file called ./usr/share/man/man3/log4c__home_lamby_temp_cdt.20190326095958.osFOeOO1ZZ.repro.log4c_build-b_log4c-1.2.4_src_log4c_.3.gz which I can't seem to rename with STRIP_FROM_PATH = @abs_top_srcdir@/src/ which is probably for files contents, not the filenames.
 log4cpp:
   version: 1.0-4.1
   issues:
