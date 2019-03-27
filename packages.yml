@@ -16026,6 +16026,10 @@ odb-api:
   version: 0.17.6-2
   issues:
     - gfortran_mod_captures_build_path
+odin:
+  version: 2.0.3-1
+  comments: |
+    Embeds the CFLAGS in the binary but I can\'t see exactly how it goes from the dynamic variable in, for example, odindiaglog_idea.cpp to it actually ending up in the headers.
 ogamesim:
   version: 20130107-2
   issues:
