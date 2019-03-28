@@ -24031,6 +24031,10 @@ ruby-oj:
   version: 2.17.1-1
   issues:
     - gcc_captures_build_path
+ruby-openssl:
+  version: 2.1.2-1
+  issues:
+    - captures_build_path_via_assert
 ruby-ox:
   version: 2.1.1-2
   issues:
