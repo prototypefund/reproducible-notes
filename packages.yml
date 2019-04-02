@@ -14922,6 +14922,10 @@ nbibtex:
     - timestamps_in_ps_generated_by_dvips
   bugs:
     - 812704
+nbsphinx:
+  version: 0.4.2+ds-1
+  comments: |
+    calls numpy.random.randint, needs to be seeded via https://docs.scipy.org/doc/numpy/reference/generated/numpy.random.seed.html
 nbtscan:
   version: 1.5.1-6
   issues:
