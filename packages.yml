@@ -23433,6 +23433,10 @@ rig:
   version: 1.11-1
   issues:
     - gcc_captures_build_path
+ring:
+  version: 20190215.1.f152c98~ds1-1
+  comments: |
+    Embeds build path in binary via TOP_BUILDDIR preprocessor flag.
 ripmime:
   version: 1.4.0.10.debian.1-1
   comments: |
