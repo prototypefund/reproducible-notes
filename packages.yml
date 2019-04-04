@@ -7978,6 +7978,10 @@ gron:
   version: 0.6.0-1
   issues:
     - golang_compiler_captures_build_path_in_binary
+groonga:
+  version: 9.0.1-1
+  comments: |
+    Seems to capture all environment/build variables, including CFLAGS
 groovebasin:
   version: 1.4.0-1
   issues:
