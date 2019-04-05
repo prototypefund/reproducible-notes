@@ -17140,6 +17140,10 @@ pg-comparator:
   version: 2.2.6-2
   issues:
     - gcc_captures_build_path
+pg-dirtyread:
+  version: 2.0-3
+  issues:
+    - randomness_in_postgres_opcodes
 pg-partman:
   version: 2.2.2-1
   issues:
