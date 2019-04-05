@@ -15479,6 +15479,10 @@ not-yet-commons-ssl:
   version: 0.3.15-2
   issues:
     - random_order_in_documentation_generated_by_javadoc
+notary:
+  version: 0.6.1~ds1-3
+  comments: |
+    Generates test certificate at build/test time which gets installed to the binary package
 notify-python:
   version: 0.1.1-4
   issues:
