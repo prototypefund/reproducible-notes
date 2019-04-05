@@ -8915,6 +8915,10 @@ input-utils:
   version: 1.0-1.1
   issues:
     - gcc_captures_build_path
+insserv:
+  version: 1.18.0-2
+  issues:
+    - captures_build_path_via_assert
 installation-guide:
   version: 20170312
   issues:
