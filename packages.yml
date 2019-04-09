@@ -12037,6 +12037,10 @@ libkgapi:
   version: 5.1.0-2
   issues:
     - build_id_differences_only
+libkiwix:
+  version: 3.1.1-1
+  comments: |
+    Captures absolute build path in binary by storing path to a results.tmpl file
 libkml:
   version: 1.3.0-3
   issues:
