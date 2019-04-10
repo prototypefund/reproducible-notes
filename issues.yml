@@ -21,7 +21,7 @@ timestamps_from_cpp_macros_in_haskell:
     The Haskell compiler also support C-like `__DATE__` and `__TIME__` macros, which
     embed the build time/date into the object files.
     .
-    eg. https://sources.debian.net/src/darcs/2.12.0-1/darcs/darcs.hs/#L85
+    eg. https://sources.debian.net/src/darcs/latest/darcs/darcs.hs/#L85
   deterministic: True
 timestamps_in_cpio_archive:
   description: |
@@ -112,7 +112,7 @@ timestamps_in_ps_generated_by_dvips:
   description: |
     eg. %%CreationDate (or DVIPSSource?) in header
     .
-    https://sources.debian.net/src/texlive-bin/2016.20160513.41080-4/texk/web2c/pdftexdir/pdftex.web/#L14449
+    https://sources.debian.net/src/texlive-bin/latest/texk/web2c/pdftexdir/pdftex.web/#L14449
     .
     DVIPSSource date Can be set to SOURCE_DATE_EPOCH by setting FORCE_SOURCE_DATE to 1.
   deterministic: True
@@ -161,7 +161,7 @@ randomness_in_documentation_generated_by_scilab:
     .
      <span·class="top"><a·href="section_be5547c931fe4d46ae907fad928a7cc2.html">ANN·toolbox</a></span>
     .
-    Source is likely https://sources.debian.net/src/scilab/5.5.2-2/modules/helptools/macros/xmltoformat.sci/#L1569
+    Source is likely https://sources.debian.net/src/scilab/latest/modules/helptools/macros/xmltoformat.sci/#L1569
 randomness_in_documentation_generated_by_epydoc:
   description: |
     Epydoc will add timestamps to the HTML file it produces. It can also generates
@@ -275,14 +275,14 @@ random_order_in_documentation_generated_by_javadoc:
     jdk9_dev/langtools/src/jdk.javadoc/share/classes/com/sun/tools/javadoc/DocLocale.java +172
     .
     Workaround is
-    https://sources.debian.net/src/maven-debian-helper/2.1.3/share/cdbs/1/class/maven.mk/?hl=136#L136
+    https://sources.debian.net/src/maven-debian-helper/latest/share/cdbs/1/class/maven.mk/?hl=136#L136
 nondeterministic_java_bytecode:
   description: |
     Source unknown.
 timestamps_in_documentation_generated_by_groovydoc:
   description: |
     Groovydoc will add timestamps to the HTML file it produces.
-    https://sources.debian.net/src/groovy/1.8.6-4/src/main/org/codehaus/groovy/tools/groovydoc/gstringTemplates/topLevel/index-all.html/#L19
+    https://sources.debian.net/src/groovy/latest/src/main/org/codehaus/groovy/tools/groovydoc/gstringTemplates/topLevel/index-all.html/#L19
   deterministic: True
 timestamps_in_jar:
   description: |
@@ -334,8 +334,8 @@ randomness_in_documentation_generated_by_lua_ldoc:
 timestamps_in_documentation_generated_by_lua_ldoc:
   description: |
     lua-ldoc adds build timestamp, varying by the timezone
-    https://sources.debian.net/src/lua-ldoc/1.4.3-1/ldoc/html/ldoc_ltp.lua/?hl=293#L293
-    https://sources.debian.net/src/lua-ldoc/1.4.3-1/ldoc.lua/?hl=784#L784
+    https://sources.debian.net/src/lua-ldoc/latest/ldoc/html/ldoc_ltp.lua/?hl=293#L293
+    https://sources.debian.net/src/lua-ldoc/latest/ldoc.lua/?hl=784#L784
   deterministic: True
   url: https://bugs.debian.org/820240
 pdf_created_by_ghostscript:
@@ -352,7 +352,7 @@ serial_numbers_in_ogg_via_sox:
   description: |
     Ogg streams must include unique serial numbers. By default sox includes
     a random serial number in the header.
-  url: https://sources.debian.org/src/sox/14.4.2-3/src/vorbis.c/#L334
+  url: https://sources.debian.org/src/sox/latest/src/vorbis.c/#L334
 timestamps_in_pdf_generated_by_apache_fop:
   description: |
     PDF files generated with Apache FOP will contain CreationDate and
@@ -625,8 +625,8 @@ random_order_in_maven_plugin_xml:
     mvn plugin.xml (-plugin packages) is generated in a random order.
     .
     Should be fixed in 3.3-1.
-    https://sources.debian.net/src/maven-plugin-tools/3.2-2/maven-plugin-tools-generators/src/main/java/org/apache/maven/tools/plugin/generator/PluginDescriptorGenerator.java/#L167
-    https://sources.debian.net/src/maven-plugin-tools/3.3-1/maven-plugin-tools-generators/src/main/java/org/apache/maven/tools/plugin/generator/PluginDescriptorGenerator.java/#L166
+    https://sources.debian.net/src/maven-plugin-tools/latest/maven-plugin-tools-generators/src/main/java/org/apache/maven/tools/plugin/generator/PluginDescriptorGenerator.java/#L167
+    https://sources.debian.net/src/maven-plugin-tools/latest/maven-plugin-tools-generators/src/main/java/org/apache/maven/tools/plugin/generator/PluginDescriptorGenerator.java/#L166
   url: https://jira.codehaus.org/browse/MPLUGIN-261
 timestamps_in_documentation_generated_by_edoc:
   description: |
@@ -644,7 +644,7 @@ timestamps_in_qch:
     generator is using various file IDs which become non-determinstic due to
     map access. For example
     .
-    https://sources.debian.net/src/qt4-x11/4:4.8.7%2Bdfsg-3/tools/assistant/lib/qhelpgenerator.cpp/?hl=742#L742
+    https://sources.debian.net/src/qt4-x11/latest/tools/assistant/lib/qhelpgenerator.cpp/?hl=742#L742
     .
     I suspect we just need a few sorts (and some time to build qt4-x11...)
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInDatabaseGeneratedByQhelpgenerator
@@ -742,7 +742,7 @@ build_path_in_qdoc:
 randomness_in_qdoc:
   description: |
     Non-deterministic order of <tag> and <file> elements in XML. See
-    https://sources.debian.net/src/qtbase-opensource-src/5.3.2%2Bdfsg-4/src/tools/qdoc/helpprojectwriter.cpp/?hl=630#L787
+    https://sources.debian.net/src/qtbase-opensource-src/latest/src/tools/qdoc/helpprojectwriter.cpp/?hl=630#L787
     etc.
 randomness_in_qdoc_page_id:
   description: |
@@ -1069,19 +1069,19 @@ timestamps_in_documentation_generated_with_libwibble:
   description: |
     libwibble can generate manpages for applications using it.
     While doing so, it embeds the current date into the manpage.
-  url: https://sources.debian.net/src/libwibble/1.1-1/wibble/commandline/doc.cpp/#L320
+  url: https://sources.debian.net/src/libwibble/latest/wibble/commandline/doc.cpp/#L320
   deterministic: True
 copyright_year_in_documentation_generated_by_sphinx:
   description: |
     Sphinx is embedding the current year into copyright statements in generated documentation.
   See also: https://bugs.debian.org/820895
-  url: https://sources.debian.net/src/sphinx/1.3.1-8/sphinx/themes/basic/layout.html/#L191
+  url: https://sources.debian.net/src/sphinx/latest/sphinx/themes/basic/layout.html/#L191
 timestamps_in_documentation_generated_by_glib_genpod:
   description: |
     Glib::GenPod in libglib-perl generates POD documentation that embeds
     the current year in a copyright notice.
     .
-    https://sources.debian.net/src/libglib-perl/3:1.320-2/lib/Glib/GenPod.pm/#L43
+    https://sources.debian.net/src/libglib-perl/latest/lib/Glib/GenPod.pm/#L43
     .
     Fixed in libglib-perl 3:1.321-1.
   deterministic: True
@@ -1104,9 +1104,9 @@ timestamps_in_sym_l_files_generated_by_malaga:
     Malaga, a system for automatic language analysis, includes the current time
     in its output header files.
     .
-    https://sources.debian.net/src/malaga/7.12-5.2/malaga_files.h/#L34
-    https://sources.debian.net/src/malaga/7.12-5.2/malaga_files.c/#L79
-    https://sources.debian.net/src/malaga/7.12-5.2/malaga_files.c/#L88
+    https://sources.debian.net/src/malaga/latest/malaga_files.h/#L34
+    https://sources.debian.net/src/malaga/latest/malaga_files.c/#L79
+    https://sources.debian.net/src/malaga/latest/malaga_files.c/#L88
   deterministic: True
 timestamps_in_edj_files_generated_by_edje_cc:
   description:
@@ -1215,8 +1215,8 @@ ruby_mkmf_makefile_unsorted_objects:
     Many of those packages are likely affected:
     https://codesearch.debian.net/perpackage-results/path%3Aextconf.rb%20create_makefile/2/page_0
     .
-    ruby: https://sources.debian.net/src/ruby2.3/2.3.1-1/lib/mkmf.rb/#L2180
-    jruby: https://sources.debian.net/src/jruby/1.7.22-2/lib/ruby/shared/mkmf.rb/#L1488
+    ruby: https://sources.debian.net/src/ruby2.3/latest/lib/mkmf.rb/#L2180
+    jruby: https://sources.debian.net/src/jruby/latest/lib/ruby/shared/mkmf.rb/#L1488
   url: https://bugs.debian.org/825569
 timestamps_in_pdf_generated_by_imagemagick:
   description: |
@@ -1251,7 +1251,7 @@ cryptographic_signature:
 r_base_appends_built_header_to_description_files:
   description: |
     r-base appends "Built: blah" header to DESCRIPTION files.
-    https://sources.debian.net/src/r-base/3.3.1-1/share/make/basepkg.mk/#L101
+    https://sources.debian.net/src/r-base/latest/share/make/basepkg.mk/#L101
   deterministic: True
   url: https://bugs.debian.org/774031
 timestamps_in_documentation_generated_by_mkdocs:
@@ -1270,7 +1270,7 @@ random_order_of_pdf_ids_generated_by_latex:
     .
     (Might be caused by PSOutputDev::setupFonts in embedded poppler PDFDoc.cc)
     .
-    (Or http://sources.debian.net/src/texlive-bin/2017.20170613.44572-2/texk/web2c/pdftexdir/pdftex.web/#L20122-L20129)
+    (Or http://sources.debian.net/src/texlive-bin/latest/texk/web2c/pdftexdir/pdftex.web/#L20122-L20129)
     .
     (This might be tagged the same as random_id_in_pdf_generated_by_dblatex)
   url: http://tug.org/pipermail/tex-live/2017-June/040398.html
@@ -1302,7 +1302,7 @@ randomness_in_binaries_generated_by_sbcl:
 random_xspp_identifier_by_extutils_xspp:
   description: |
     ExtUtils::XSPP generates random identifiers that are included in generated C code.
-    https://sources.debian.net/src/libextutils-xspp-perl/0.1800-2/lib/ExtUtils/XSpp/Lexer.pm/#L141
+    https://sources.debian.net/src/libextutils-xspp-perl/latest/lib/ExtUtils/XSpp/Lexer.pm/#L141
     .
     Possible solution is seeding the rng with srand($SOURCE_DATE_EPOCH) in ExtUtils/XSpp/Cmd.pm.
 ftbfs_with_-fdebug-prefix-map_error:
@@ -1389,21 +1389,21 @@ perl_extutils_xspp_captures_build_path:
   description:
     ExtUtils::XSpp captures the build path in the headers.
     .
-    https://sources.debian.net/src/libmodule-build-withxspp-perl/0.14-2/lib/Module/Build/WithXSpp.pm/#L230
+    https://sources.debian.net/src/libmodule-build-withxspp-perl/latest/lib/Module/Build/WithXSpp.pm/#L230
   url: https://bugs.debian.org/835447
   deterministic: True
 href_links_mangled_by_node_marked:
   description:
     marked html-encodes email addresses in an unreproducible way.
     .
-    https://sources.debian.net/src/node-marked/0.3.2%2Bdfsg-1/lib/marked.js/#L740
+    https://sources.debian.net/src/node-marked/latest/lib/marked.js/#L740
 uname_output_in_python_debugging_symbols_caused_by_sysconfig_getplatform:
   description: |
     encoded in tempfile. Affects building on i386 as it does not distinguish
     between userland vs kernel.
     .
-    https://sources.debian.net/src/python2.7/2.7.12-2/Lib/sysconfig.py/#L572-L584
-    https://sources.debian.net/src/python3.5/3.5.2-3/Lib/sysconfig.py/#L646-L658
+    https://sources.debian.net/src/python2.7/latest/Lib/sysconfig.py/#L572-L584
+    https://sources.debian.net/src/python3.5/latest/Lib/sysconfig.py/#L646-L658
   url: https://bugs.debian.org/835805
   deterministic: True
 cython_captures_build_path:
@@ -1416,7 +1416,7 @@ timestamp_in_enc_files_added_by_texlive_fontinst:
    -%    date = "generated 2017/09/15",
    +%    date = "generated 2016/08/14",
    .
-   https://sources.debian.net/src/texlive-extra/2016.20160819-1/texmf-dist/tex/fontinst/base/finstmsc.sty/#L899
+   https://sources.debian.net/src/texlive-extra/latest/texmf-dist/tex/fontinst/base/finstmsc.sty/#L899
   deterministic: True
 random_id_in_pdf_generated_by_dblatex:
   description: |
@@ -1431,7 +1431,7 @@ random_id_in_pdf_generated_by_dblatex:
     .
     (This might be tagged the same as random_order_of_pdf_ids_generated_by_latex)
     .
-    (Or http://sources.debian.net/src/texlive-bin/2017.20170613.44572-2/texk/web2c/pdftexdir/pdftex.web/#L20122-L20129)
+    (Or http://sources.debian.net/src/texlive-bin/latest/texk/web2c/pdftexdir/pdftex.web/#L20122-L20129)
   url: http://tug.org/pipermail/tex-live/2017-June/040398.html
 random_order_in_sisu_javax_inject_named:
   description: |
@@ -1578,7 +1578,7 @@ nondeterminstic_ordering_in_casacore_tables:
   description: |
     src:casacore generates index.dat and table.f0 files with random order.
     .
-    I believe this is somewhere near http://sources.debian.net/src/casacore/2.1.0-3/tables/Tables/TableProxy.cc/?hl=1448#L1448
+    I believe this is somewhere near http://sources.debian.net/src/casacore/latest/tables/Tables/TableProxy.cc/?hl=1448#L1448
 translations_missing_in_desktop_files:
   description: |
     A file contains a list of «Name[xx] = "String"» lines, where «xx» is a language code;
@@ -1627,9 +1627,9 @@ formatdb_from_ncbi_blastplus_captures_build_time:
   description: |
     formatdb calls such as [1] capture the build time.
     The build time is captured in [2] and written out in [3].
-    [1] https://sources.debian.net/src/metastudent-data/2.0.1-2/Makefile.am/#L24
-    [2] http://sources.debian.net/src/ncbi-blast%2B/2.6.0-1/c%2B%2B/src/objtools/blast/seqdb_writer/writedb_impl.cpp/#L78-L87
-    [3] http://sources.debian.net/src/ncbi-blast%2B/2.6.0-1/c%2B%2B/src/objtools/blast/seqdb_writer/writedb_files.cpp/#L267
+    [1] https://sources.debian.net/src/metastudent-data/latest/Makefile.am/#L24
+    [2] http://sources.debian.net/src/ncbi-blast%2B/latest/c%2B%2B/src/objtools/blast/seqdb_writer/writedb_impl.cpp/#L78-L87
+    [3] http://sources.debian.net/src/ncbi-blast%2B/latest/c%2B%2B/src/objtools/blast/seqdb_writer/writedb_files.cpp/#L267
   deterministic: True
 randomness_in_t3g_files_generated_tslmendian:
   description: |
@@ -1664,7 +1664,7 @@ timestamp_in_jboss_messagebundle_generated_code:
     JBoss @MessageBundle (translation) generated classes contain a generation date and time. This
     timestamp is only retained in the generated code, so doesn't appear in the binary unless you
     generate documentation from it.
-    https://sources.debian.net/src/jboss-logging-tools/2.0.2-1/processor/src/main/java/org/jboss/logging/processor/generator/model/ClassModel.java/#L146
+    https://sources.debian.net/src/jboss-logging-tools/latest/processor/src/main/java/org/jboss/logging/processor/generator/model/ClassModel.java/#L146
   deterministic: True
 portable_executable_strong_name_varies:
   description: |
@@ -1674,7 +1674,7 @@ timestamps_in_manpages_created_by_libwibble:
     libwibble ("Library of various useful C++ code") can generate manpages but
     they use the current time.
     .
-    http://sources.debian.net/src/libwibble/1.1-1/wibble/commandline/doc.cpp/#L232
+    http://sources.debian.net/src/libwibble/latest/wibble/commandline/doc.cpp/#L232
   url: https://bugs.debian.org/861672
 timestamps_in_cbd_files_generated_by_canna_mkbindic:
   description: |
@@ -1769,7 +1769,7 @@ timestamps_in_rcc_files_generated_by_rcc:
     /usr/lib/qt5/bin/rcc from qtbase5-dev-tools (src qtbase-opensource-src)
     embeds a last modified timestamp in the generated .rcc file.
     .
-    http://sources.debian.net/src/qtbase-opensource-src/5.9.1%2Bdfsg-9/src/tools/rcc/rcc.cpp/#L207-L212
+    http://sources.debian.net/src/qtbase-opensource-src/latest/src/tools/rcc/rcc.cpp/#L207-L212
 nondeterminism_in_documentation_generated_by_pydoctor:
   description: |
     eg. non-deterministic HTML id attributes.
@@ -1782,7 +1782,7 @@ gfortran_mod_captures_build_path:
     gfortran generates .mod and .smod files that can capture the build path.
     A patch for gfortran : https://bugs.debian.org/889133
     Also, a small workaround script to fix mod files is here: 
-       https://sources.debian.org/src/eccodes/2.6.0-2/debian/sanitize-mod/
+       https://sources.debian.org/src/eccodes/latest/debian/sanitize-mod/
 timestamps_in_pdf_generated_by_rsvg_convert:
   description: |
     PDF files generated with rsvg-convert will contain CreationDate set to the
@@ -1797,7 +1797,7 @@ randomness_in_berkeley_db_files:
     in a different file.
     .
     This comes from:
-    https://sources.debian.org/src/db5.3/5.3.28-13.1/src/os/os_uid.c/#L20 but
+    https://sources.debian.org/src/db5.3/latest/src/os/os_uid.c/#L20 but
     it's unclear where to "set" this only on the creation case - we definitely
     want the uid to change if one adds stuff later.
     .
@@ -1930,7 +1930,7 @@ timestamps_embedded_in_manpages_by_scdoc:
   description: |
     YYYY-MM-DD
     .
-    https://sources.debian.org/src/scdoc/1.5.2-1/src/main.c/#L71
+    https://sources.debian.org/src/scdoc/latest/src/main.c/#L71
 buildpath_in_binaries_generated_by_ada_compiler:
   description: |
     Adb files?
