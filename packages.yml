@@ -28298,6 +28298,10 @@ xracer:
   version: 0.96.9.1-8
   issues:
     - gcc_captures_build_path
+xrdp:
+  version: 0.9.9-1
+  comments: |
+    Embeds build flags in binary so captures fprefixmap etc
 xscorch:
   version: 0.2.1-1+nmu1
   issues:
