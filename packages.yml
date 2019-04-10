@@ -18827,6 +18827,10 @@ prometheus-mysqld-exporter:
   version: 0.8.1+ds-1
   issues:
     - golang_compiler_captures_build_path_in_binary
+prometheus-nginx-exporter:
+  version: 0.1.0-1
+  issues:
+    - randomness_in_binaries_generated_by_golang
 prometheus-nginx-vts-exporter:
   version: 0.10.3+git20180501.43b4556+ds-1
   issues:
