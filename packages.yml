@@ -311,21 +311,21 @@ alljoyn-core-1504:
   version: 15.04b-5
   comments: |
     Embed build time, username:
-    https://sources.debian.net/src/alljoyn-core-1504/15.04b-7/build_core/tools/scons/genversion.py/?hl=127#L127
+    https://sources.debian.net/src/alljoyn-core-1504/latest/build_core/tools/scons/genversion.py/?hl=127#L127
   issues:
     - user_hostname_manually_added_requiring_further_investigation
 alljoyn-core-1509:
   version: 15.09a-3
   comments: |
     Embed build time, username:
-    https://sources.debian.net/src/alljoyn-core-1509/15.09a-4/build_core/tools/scons/genversion.py/?hl=127#L127
+    https://sources.debian.net/src/alljoyn-core-1509/latest/build_core/tools/scons/genversion.py/?hl=127#L127
   issues:
     - user_hostname_manually_added_requiring_further_investigation
 alljoyn-core-1604:
   version: 16.04-2
   comments: |
     Embed build time, username:
-    https://sources.debian.net/src/alljoyn-core-1604/16.04-4/build_core/tools/scons/genversion.py/?hl=127#L127
+    https://sources.debian.net/src/alljoyn-core-1604/latest/build_core/tools/scons/genversion.py/?hl=127#L127
   issues:
     - user_hostname_manually_added_requiring_further_investigation
 alljoyn-services-1504:
@@ -514,7 +514,7 @@ aodh:
   version: 1.0.0-11
   comments: |
     Embed hostname:
-    https://sources.debian.net/src/aodh/2.0.0-2/aodh/service.py/?hl=34#L32
+    https://sources.debian.net/src/aodh/latest/aodh/service.py/?hl=34#L32
   issues:
     - randomness_in_documentation_generated_by_sphinx
 aoflagger:
@@ -757,7 +757,7 @@ apr:
   comments: |
     Seems to be unreproducible because semaphore support is not detected on one build.
     (APR_HAS_POSIXSEM_SERIALIZE is 0 in /usr/include/apr-1.0/apr.h)
-    https://sources.debian.net/src/apr/1.5.2-4/debian/rules/#L84-L95
+    https://sources.debian.net/src/apr/latest/debian/rules/#L84-L95
   issues:
     - captures_build_path
 apr-util:
@@ -903,7 +903,7 @@ as31:
 asc:
   version: 2.6.1.0-2
   comments: |
-    http://sources.debian.net/src/asc/2.6.1.0-2/source/tools/mount.cpp/\#L444 method takes a glob pattern which is expanded without sorting so main.ascdat file has non-determinstic contents
+    http://sources.debian.net/src/asc/latest/source/tools/mount.cpp/\#L444 method takes a glob pattern which is expanded without sorting so main.ascdat file has non-determinstic contents
 ascd:
   version: 0.13.2-6
   issues:
@@ -1241,8 +1241,8 @@ bandit:
   version: 0.13.2-3
   comments: |
     Embeds output of sys.argv in bandit.yaml which include build path in:
-    https://sources.debian.net/src/bandit/1.1.0-2/bandit/cli/config_generator.py/?hl=33#L33
-    https://sources.debian.net/src/bandit/1.1.0-2/bandit/cli/config_generator.py/?hl=162#L162
+    https://sources.debian.net/src/bandit/latest/bandit/cli/config_generator.py/?hl=33#L33
+    https://sources.debian.net/src/bandit/latest/bandit/cli/config_generator.py/?hl=162#L162
 bandwidthd:
   version: 2.0.1+cvs20090917-11
   issues:
@@ -1291,7 +1291,7 @@ bash:
     Uses a private copy of man2html.
     .
     Included header file (/usr/include/bash/config.h) varies depending on the kernel version.
-    https://sources.debian.net/src/bash/4.3-14/configure.ac/#L1088
+    https://sources.debian.net/src/bash/latest/configure.ac/#L1088
   issues:
     - records_build_flags
     - random_id_in_pdf_generated_by_dblatex
@@ -1321,7 +1321,7 @@ bbdb3:
   version: 3.1.2-1
   comments: |
     Embeds the build time into bbdb-site.el:
-    https://sources.debian.net/src/bbdb3/3.1.2-6/lisp/bbdb-site.el.in/?hl=27#L27
+    https://sources.debian.net/src/bbdb3/latest/lisp/bbdb-site.el.in/?hl=27#L27
 bbrun:
   version: 1.6-6.1
   issues:
@@ -1463,7 +1463,7 @@ bind9:
   version: 1:9.10.3.dfsg.P4-10
   comments: |
     Embeds current year into copyright header.
-    https://sources.debian.net/src/bind9/1:9.10.3.dfsg.P4-10/lib/dns/gen.c/#L117
+    https://sources.debian.net/src/bind9/latest/lib/dns/gen.c/#L117
   issues:
     - gcc_captures_build_path
 biniou:
@@ -1482,7 +1482,7 @@ binutils-m68hc1x:
   version: 1:2.18-7
   comments: |
     Varying order in tarball.
-    https://sources.debian.net/src/binutils-m68hc1x/1:2.18-7/debian/rules/#L66
+    https://sources.debian.net/src/binutils-m68hc1x/latest/debian/rules/#L66
   issues:
     - random_order_in_tarball
 binutils-mingw-w64:
@@ -1521,7 +1521,7 @@ biosig4c++:
     Shell expansion of *.o differs depending on the locale, because of
     different sorting.
     .
-    https://sources.debian.net/src/biosig4c%2B%2B/1.3.0-2.1/Makefile/#L550
+    https://sources.debian.net/src/biosig4c++/1.3.0-2.2/Makefile/#L550
   issues:
     - random_order_in_static_libraries
     - gcc_captures_build_path
@@ -1707,7 +1707,7 @@ boost1.62:
 boost1.67:
   version: 1.67.0-6
   comments: |
-    https://sources.debian.org/src/boost1.67/1.67.0-6/tools/quickbook/src/state.cpp/\#L72-L75 needs SOURCE_DATE_EPOCH
+    https://sources.debian.org/src/boost1.67/latest/tools/quickbook/src/state.cpp/\#L72-L75 needs SOURCE_DATE_EPOCH
 boot:
   version: 1.3-18-2
   issues:
@@ -1733,7 +1733,7 @@ borgbackup:
   version: 1.0.6-2
   comments: |
     Depends on dictionary (hash) order:
-      https://sources.debian.net/src/borgbackup/1.0.6-2/borg/archiver.py/#L863-L864
+      https://sources.debian.net/src/borgbackup/1.0.9-1/borg/archiver.py/#L863-L864
     Declaring it as an OrderedDict() or iterating it with sorted() should fix the issue.
 bosixnet:
   version: 1.9-1
@@ -1821,7 +1821,7 @@ broccoli:
   version: 1.97-3
   comments: |
     Embeds the build date and hostname.
-    https://sources.debian.net/src/broccoli/1.97-3/CMakeLists.txt/#L25
+    https://sources.debian.net/src/broccoli/latest/CMakeLists.txt/#L25
   issues:
     - different_encoding
     - user_hostname_manually_added_requiring_further_investigation
@@ -2027,7 +2027,7 @@ calcoo:
 calibre:
   version: 2.60.0+dfsg-1
   comments: |
-    [i386] readdir() order dependency: https://sources.debian.net/src/calibre/2.60.0%2Bdfsg-1/setup/gui.py/#L49-L51
+    [i386] readdir() order dependency: https://sources.debian.net/src/calibre/latest/setup/gui.py/#L49-L51
 calligra:
   version: 1:2.8.5+dfsg-1
   issues:
@@ -2203,8 +2203,8 @@ cctools:
   version: 4.0-1
   comments: |
     Embed build time, username, hostname, and kernel version:
-    https://sources.debian.net/src/cctools/4.0-1/configure/?hl=43,45,46,1003#L43
-    https://sources.debian.net/src/cctools/4.0-1/dttools/src/cctools.c/?hl=24#L24
+    https://sources.debian.net/src/cctools/latest/configure/?hl=43,45,46,1003#L43
+    https://sources.debian.net/src/cctools/latest/dttools/src/cctools.c/?hl=24#L24
   issues:
     - user_hostname_manually_added_requiring_further_investigation
     - captures_home_dir
@@ -2290,7 +2290,7 @@ ceilometer:
   version: 2015.1.0-6
   comments: |
     Embed hostname:
-    https://sources.debian.net/src/ceilometer/1:6.0.0-2/ceilometer/service.py/?hl=30#L30
+    https://sources.debian.net/src/ceilometer/latest/ceilometer/service.py/?hl=30#L30
   issues:
     - randomness_in_documentation_generated_by_sphinx
     - user_hostname_manually_added_requiring_further_investigation
@@ -3069,7 +3069,7 @@ cp2k:
   version: 2.6.1-2
   comments: |
     Embeds the build date and hostname.
-    https://sources.debian.net/src/cp2k/2.6.1-2/makefiles/Makefile/#L360-L361
+    https://sources.debian.net/src/cp2k/latest/makefiles/Makefile/#L429-L433
     .
     Part of patch is https://gist.github.com/lamby/f73b5ada8dd849518671fd532d73d4ee/raw
     .
@@ -3143,7 +3143,7 @@ crmsh:
   version: 1.2.6+git+e77add-1.3
   comments: |
     Embed timezone:
-    https://sources.debian.net/src/crmsh/2.2.1-1/doc/website-v1/make-news.py/?hl=89#L69
+    https://sources.debian.net/src/crmsh/latest/doc/website-v1/make-news.py/?hl=89#L69
 cronolog:
   version: 1.6.2+rpk-1
   issues:
@@ -3226,8 +3226,8 @@ cupt:
   version: 2.9.0
   comments: |
     Uses txt2tags `%%date` macro in some documentation:
-    https://sources.debian.net/src/cupt/2.9.0/doc/functionalselectors.t2t/?hl=3
-    https://sources.debian.net/src/cupt/2.9.0/doc/tutorial.t2t/?hl=3
+    https://sources.debian.net/src/cupt/latest/doc/functionalselectors.t2t/?hl=3#L3
+    https://sources.debian.net/src/cupt/latest/doc/tutorial.t2t/?hl=3#L3
     `%%mtime` could probably be used instead.
   issues:
     - timezones_manpages_podman
