@@ -13226,6 +13226,8 @@ linux:
   comments: |
     user/group tarball variation fixed in git:
     https://salsa.debian.org/kernel-team/linux/commit/65bccba1ae0e64f380ce3ed60a9c87ed90a1e083
+    4.18+ linux-signed-template: files.json listed modules in an arbitrary order, fixed in git:
+    https://salsa.debian.org/kernel-team/linux/commit/58ef63e9e2c71ffd8a21e9c620db71cb96d2d5a9
   issues:
     - blacklisted_on_jenkins_armhf_only
 linux86:
