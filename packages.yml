@@ -12336,6 +12336,10 @@ libnet-z3950-simpleserver-perl:
   version: 1.15-1
   issues:
     - gcc_captures_build_path
+libnewlib-nano:
+  version: 2.11.2-1
+  issues:
+    - captures_build_path_via_assert
 libnfo:
   version: 1.0.1-1.1
   issues:
