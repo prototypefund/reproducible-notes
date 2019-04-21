@@ -17299,6 +17299,10 @@ pgsql-ogr-fdw:
   version: 1.0.2-1
   issues:
     - gcc_captures_build_path
+pgstat:
+  version: 1.0.1-1
+  issues:
+    - captures_build_path_via_assert
 pgtop:
   version: 3.7.0-2
   issues:
