@@ -1963,3 +1963,6 @@ build_path_in_typelib_files_generated_by_gir_compiler:
 randomness_in_perl6_precompiled_libraries:
   description:
     Pretty sure Debian shouldn't be shipping these, just like .pyc files.
+build_date_in_egg_info_directory_name:
+  description:
+    setup.cfg file contains tag_date=true which results in date-specific egg-info dir.
