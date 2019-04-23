@@ -25340,6 +25340,10 @@ snmpkit:
   version: 0.9-16
   issues:
     - gcc_captures_build_path
+snooze:
+  version: 0.3-1
+  issues:
+    - captures_build_path_via_assert
 snort:
   version: 2.9.7.0-4
   issues:
@@ -25989,6 +25993,10 @@ supertuxkart:
   version: 0.9.1-3
   issues:
     - gcc_captures_build_path
+suricata:
+  version: 1:4.1.3-1
+  issues:
+    - captures_build_path_via_assert
 survex:
   version: 1.2.30-1
   issues:
