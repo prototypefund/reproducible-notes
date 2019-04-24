@@ -6913,6 +6913,10 @@ git-lfs:
   version: 2.3.4-1
   issues:
     - randomness_in_binaries_generated_by_golang
+git-repair:
+  version: 1.20151215-1.2
+  issues:
+    - captures_build_path_via_assert
 git-sizer:
   version: 1.2.0+dfsg-1
   issues:
