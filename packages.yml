@@ -16223,6 +16223,10 @@ opa-ff:
   version: 10.7.0.0.133+dfsg.1-2
   issues:
     - diffoscope_runs_forever
+opa-fm:
+  version: 10.8.0.0.202+dfsg.1-2
+  comments: |
+    opafmxmlextract binary contains absolute build directory as some sort of data dir
 opam:
   version: 2.0.0-4
   comments: |
