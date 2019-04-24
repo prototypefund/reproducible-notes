@@ -6915,6 +6915,8 @@ git-lfs:
     - randomness_in_binaries_generated_by_golang
 git-repair:
   version: 1.20151215-1.2
+  comments: |
+    This looks like some kind of assertion lines in generated code as it references /tmp/ghcXXXXX/ghc_47.c
   issues:
     - captures_build_path_via_assert
 git-sizer:
