@@ -1129,6 +1129,7 @@ nondeterminstic_output_generated_by_moarvm:
   description:
     moarvm creates .moarvm files that have non-deterministic identifiers,
     possibly to ensure uniqueness. unknown source.
+    The upcoming 2019.04 moarvm release should fix all these issues.
 nondeterminstic_output_in_warnings_generated_by_breathe:
   description:
     If you use "doxygenfunction" sphinx directive provided by breathe and the
