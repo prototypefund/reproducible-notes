@@ -3812,6 +3812,10 @@ dhcpd-pools:
   version: 2.28-1
   issues:
     - captures_shell_variable_in_autofoo_script
+dhex:
+  version: 0.69-1
+  issues:
+    - captures_build_path_via_assert
 dia:
   version: 0.97.3+git20160930-1
   issues:
