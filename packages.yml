@@ -11274,6 +11274,10 @@ libcec:
     to ./configure but the binaries are also non-determinstic.
   issues:
     - captures_kernel_version
+libcereal:
+  version: 1.2.2-3
+  issues:
+    - build_dir_in_documentation_generated_by_doxygen
 libcgicc:
   version: 3.2.9-3
   issues:
