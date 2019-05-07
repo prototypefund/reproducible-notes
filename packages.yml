@@ -18688,6 +18688,10 @@ postgresql-mysql-fdw:
   version: 2.1.2-2
   issues:
     - gcc_captures_build_path
+postgresql-numeral:
+  version: 1.0-2
+  issues:
+    - randomness_in_postgres_opcodes
 postgresql-ocaml:
   version: 2.0.5-2
   issues:
