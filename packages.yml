@@ -20805,6 +20805,10 @@ r-bioc-rbgl:
   version: 1.50.0+dfsg1-1
   issues:
     - gcc_captures_build_path
+r-bioc-rhdf5lib:
+  version: 1.4.3+dfsg-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-bioc-rsamtools:
   version: 1.24.0-1
   issues:
@@ -21755,6 +21759,10 @@ r-cran-interp:
   version: 1.0-31-1
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-inum:
+  version: 1.0-0-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-ipred:
   version: 0.9-6-1
   issues:
@@ -21789,6 +21797,10 @@ r-cran-isoweek:
     - randomness_in_r_rdb_rds_databases
 r-cran-iterators:
   version: 1.0.8-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-jpeg:
+  version: 0.1-8-1
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-jsonld:
@@ -22097,6 +22109,10 @@ r-cran-multicore:
   version: 0.2-1
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-multilevel:
+  version: 2.6-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-munsell:
   version: 0.4.2-1
   issues:
@@ -22171,6 +22187,10 @@ r-cran-parallelmap:
     - randomness_in_r_rdb_rds_databases
 r-cran-paramhelpers:
   version: 1.11-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-partykit:
+  version: 1.2-3-1
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-pbapply:
@@ -22367,6 +22387,22 @@ r-cran-psy:
     - randomness_in_r_rdb_rds_databases
 r-cran-psych:
   version: 1.7.8-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-psychometric:
+  version: 2.2-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-psychotools:
+  version: 0.5-0-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-psychotree:
+  version: 0.15-2-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-psyphy:
+  version: 0.1-9-1
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-purrr:
@@ -23033,6 +23069,10 @@ r-cran-tidyselect:
     - randomness_in_r_rdb_rds_databases
 r-cran-tidyverse:
   version: 1.2.1-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-tiff:
+  version: 0.1-5-1
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-tigger:
