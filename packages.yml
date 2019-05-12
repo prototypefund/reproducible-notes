@@ -27841,6 +27841,10 @@ webkitgtk:
   issues:
     - diffoscope_runs_forever
     - blacklisted_on_jenkins_armhf_only
+websocketd:
+  version: 0.3.1-1
+  issues:
+    - randomness_in_binaries_generated_by_golang
 weechat:
   version: 1.5-1
   issues:
