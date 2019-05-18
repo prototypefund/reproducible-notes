@@ -20801,6 +20801,10 @@ r-bioc-rbgl:
   version: 1.50.0+dfsg1-1
   issues:
     - gcc_captures_build_path
+r-bioc-rhdf5:
+  version: 2.26.2+dfsg-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-bioc-rhdf5lib:
   version: 1.4.3+dfsg-1
   issues:
@@ -20897,6 +20901,10 @@ r-cran-amore:
     - randomness_in_r_rdb_rds_databases
 r-cran-animation:
   version: 2.5+dfsg-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-apcluster:
+  version: 1.4.7-1
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-ape:
@@ -21243,6 +21251,10 @@ r-cran-dichromat:
   version: 1:2.0-0-1
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-diffobj:
+  version: 0.2.2-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-digest:
   version: 0.6.10-1
   issues:
@@ -21467,6 +21479,10 @@ r-cran-fnn:
   version: 1.1.2.2-1
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-fontquiver:
+  version: 0.2.1-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-forcats:
   version: 0.2.0-1
   issues:
@@ -21589,6 +21605,10 @@ r-cran-ggridges:
     - randomness_in_r_rdb_rds_databases
 r-cran-ggsci:
   version: 2.8-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-ggthemes:
+  version: 4.1.1-1
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-ggvis:
@@ -23187,6 +23207,10 @@ r-cran-vegan:
   version: 2.4-0-1
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-venndiagram:
+  version: 1.6.20-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-vgam:
   version: 1.0-2-1
   issues:
@@ -23342,6 +23366,10 @@ r-other-nitpick:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
+r-other-wasabi:
+  version: 1.0.0-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-other-x4r:
   version: 1.0.1+git20150806.c6bd9bd-1
   issues:
