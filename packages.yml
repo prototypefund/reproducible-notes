@@ -6887,10 +6887,6 @@ ghc-testsuite:
     Contains testsuite output by design that has non-deterministic ordering (parallelism?)
   issues:
     - captures_build_path
-ghostscript:
-  version: 9.22~dfsg-2
-  bugs:
-    - 895320
 giac:
   version: 1.2.3.57+dfsg1-2
   issues:
@@ -7983,8 +7979,6 @@ graphviz:
   issues:
     - pdf_created_by_ghostscript
     - fonts_in_pdf_files
-  bugs:
-    - 895320
 grass:
   version: 7.0.4-3
   comments: |
@@ -14346,10 +14340,6 @@ mixmaster:
   version: 3.0.0-8
   issues:
     - gcc_captures_build_path
-mk-configure:
-  version: 0.29.1-2
-  bugs:
-    - 895320
 mknfonts.tool:
   version: 0.5-11
   issues:
