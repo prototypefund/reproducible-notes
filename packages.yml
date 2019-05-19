@@ -28497,6 +28497,10 @@ xorg-docs:
   issues:
     - timestamps_in_pdf_generated_by_apache_fop
     - different_encoding
+xorg-gtest:
+  version: 0.7.1-5
+  issues:
+    - build_dir_in_documentation_generated_by_doxygen
 xorg-server:
   version: 2:1.16.4-1
   issues:
