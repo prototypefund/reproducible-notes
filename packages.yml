@@ -20414,6 +20414,10 @@ qttools-opensource-src:
     - timestamps_in_qch
     - randomness_in_qdoc
     - captures_build_path
+qtvirtualkeyboard-opensource-src:
+  version: 5.11.3+dfsg-2
+  issues:
+    - build_path_in_qdoc
 qtwayland-opensource-src:
   version: 5.10.1-3
   issues:
