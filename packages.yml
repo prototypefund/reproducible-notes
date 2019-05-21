@@ -4145,6 +4145,10 @@ dovecot:
   version: 1:2.2.25-1
   issues:
     - build_id_differences_only
+dovecot-antispam:
+  version: 2.0+20171229-1
+  issues:
+    - captures_build_path_via_assert
 doxia:
   version: 1.1.4-2
   issues:
