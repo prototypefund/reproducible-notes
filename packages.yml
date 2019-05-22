@@ -3985,6 +3985,10 @@ dlib:
   version: 18.18-1
   issues:
     - gcc_captures_build_path
+dmarc-cat:
+  version: 0.9.2-2
+  issues:
+    - captures_build_path_via_assert
 dms:
   version: 1.0.8.1-1
   bugs:
