@@ -24131,6 +24131,10 @@ ruby-eb:
   version: 2.6-3
   issues:
     - gcc_captures_build_path
+ruby-ed25519:
+  version: 1.2.4-1
+  issues:
+    - captures_build_path_via_assert
 ruby-encryptor:
   version: 3.0.0-1
   bugs:
