@@ -7940,6 +7940,10 @@ gr-iqbal:
   version: 0.37.2-7
   issues:
     - build_id_variation_requiring_further_investigation
+gr-limesdr:
+  version: 0.9~beta-1
+  comments: |
+    Includes build path in docs but also the .xml output is in a nondeterministic order.
 gr-osmosdr:
   version: 0.1.4-12
   issues:
