@@ -3690,15 +3690,6 @@ debian-reference:
   issues:
     - different_due_to_umask
     - timestamps_in_epub
-debian-security-support:
-  version: 2016.05.24
-  comments: |
-    [i386/armhf] Tests fail due to «date -d 2213-05-23 +%Y%m%d» dying with stderr «date: invalid date '2213-05-23'» and no stdout.
-    The code is https://sources.debian.net/src/debian-security-support/2016.05.24/check-support-status.in/#L203
-    .
-    I believe the date is not invalid by itself, but when the current timezone
-    is applied, it becomes invalid. I can't seem to reproduce this locally
-    though so not filing a patch.
 debian-xcontrol:
   version: 0.0.4-1.1
   issues:
