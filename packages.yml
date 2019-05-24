@@ -18893,6 +18893,10 @@ proftpd-mod-clamav:
     leaving the path in the linker input.
   issues:
     - build_id_differences_only
+proftpd-mod-counter:
+  version: 0.6.1-2
+  issues:
+    - captures_build_path_via_assert
 proftpd-mod-dnsbl:
   version: 0.1.5-3
   comments: |
