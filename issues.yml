@@ -1967,3 +1967,6 @@ randomness_in_perl6_precompiled_libraries:
 build_date_in_egg_info_directory_name:
   description:
     setup.cfg file contains tag_date=true which results in date-specific egg-info dir.
+randomness_in_output_from_perl_deparse:
+  description:
+    generates list of constants in nondeterministic order
