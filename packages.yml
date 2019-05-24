@@ -7417,6 +7417,10 @@ go-mtpfs:
   version: 0.0~git20150802.0.3ef47f9-2
   issues:
     - golang_compiler_captures_build_path_in_binary
+go-qrcode:
+  version: 0.0~git20190110.dc11ecd-1
+  issues:
+    - randomness_in_binaries_generated_by_golang
 go-wire:
   version: 0~20161027~0git287d8ca-1
   issues:
