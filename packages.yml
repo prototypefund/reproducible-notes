@@ -25983,6 +25983,10 @@ stdsyslog:
   version: 0.03.1-3
   issues:
     - gcc_captures_build_path
+stdx-allocator:
+  version: 3.0.1-2
+  issues:
+    - captures_build_path_via_assert
 stealth:
   version: 4.01.05-1
   issues:
