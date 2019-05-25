@@ -17392,6 +17392,10 @@ pgpgpg:
   version: 0.13-9.1
   issues:
     - build_id_differences_only
+pgpool2:
+  version: 4.0.2-1
+  issues:
+    - captures_build_path_via_assert
 pgrouting:
   version: 2.2.4-1
   issues:
@@ -26432,6 +26436,10 @@ tarantool-lts:
   version: 1.5.5-18-g2998d20-1
   issues:
     - gcc_captures_build_path
+tarlz:
+  version: 0.13-1
+  issues:
+    - captures_build_path_via_assert
 task:
   version: 2.5.1+dfsg-1
   issues:
