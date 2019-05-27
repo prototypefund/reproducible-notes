@@ -1970,3 +1970,9 @@ build_date_in_egg_info_directory_name:
 randomness_in_output_from_perl_deparse:
   description:
     generates list of constants in nondeterministic order
+randomness_in_fontconfig_uuid_files:
+  description:
+    This is usually a runtime problem but if fontconfig is called in a build it
+    can effect build artifacts too. See
+    https://redmine.tails.boum.org/code/issues/16732 and countless upstream
+    threads.
