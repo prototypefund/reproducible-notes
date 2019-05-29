@@ -16269,6 +16269,10 @@ okteta:
   version: 4:16.08.2-1
   issues:
     - build_id_differences_only
+olive-editor:
+  version: 20181223-2
+  issues:
+    - captures_build_path_via_assert
 olpc-kbdshim:
   version: 27-1
   issues:
@@ -27551,6 +27555,10 @@ vdr:
   version: 2.2.0-6
   issues:
     - records_build_flags
+vdr-plugin-dvbsddevice:
+  version: 2.2.0-9
+  issues:
+    - captures_build_path_via_assert
 vdr-plugin-epgsearch:
   version: 1.0.1~beta6+git20150211-4
   issues:
