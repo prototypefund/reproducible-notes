@@ -18773,6 +18773,10 @@ postgresql-prioritize:
   version: 1.0.4-1.2
   issues:
     - gcc_captures_build_path
+postgresql-q3c:
+  version: 1.6.0-1
+  issues:
+    - randomness_in_postgres_opcodes
 postgresql-unit:
   version: 1.0
   issues:
