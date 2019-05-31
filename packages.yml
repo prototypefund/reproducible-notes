@@ -6894,6 +6894,10 @@ ghc-testsuite:
     Contains testsuite output by design that has non-deterministic ordering (parallelism?)
   issues:
     - captures_build_path
+ghmm:
+  version: 0.9~rc3-1
+  bugs:
+    - 929791
 giac:
   version: 1.2.3.57+dfsg1-2
   issues:
