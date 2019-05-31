@@ -14208,6 +14208,10 @@ mender-cli:
   version: 1.1.0-1
   issues:
     - randomness_in_binaries_generated_by_golang
+mender-client:
+  version: 1.7.0-4
+  issues:
+    - captures_build_path_via_assert
 menhir:
   version: 20160808+dfsg-1
   issues:
