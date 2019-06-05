@@ -26524,6 +26524,10 @@ taurus:
   version: 4.5.0+dfsg-1
   issues:
     - randomness_in_documentation_underscore_downloads_generated_by_sphinx
+tbb:
+  version: 2019~U7-1
+  comments: |
+    Whilst Doxygen's FULL_PATH_NAMES is false, the graphviz plugin or similar uses an absolute build path in a .dot label.
 tcd-utils:
   version: 20061127-2
   issues:
