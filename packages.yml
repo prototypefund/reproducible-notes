@@ -24031,6 +24031,10 @@ rquantlib:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
+rr:
+  version: 5.2.0-4
+  comments: |
+    embeds absolute build path for preload and build subdirs but cannot find that in the code right now.
 rrdcollect:
   version: 0.2.10-2
   issues:
