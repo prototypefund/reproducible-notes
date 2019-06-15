@@ -24130,6 +24130,10 @@ ruby-bcrypt:
   version: 3.1.11-1
   issues:
     - gcc_captures_build_path
+ruby-bcrypt-pbkdf:
+  version: 1.0.0-2
+  issues:
+    - captures_build_path_via_assert
 ruby-benchmark-suite:
   version: 1.0.0+git.20130122.5bded6-2
   bugs:
