@@ -418,6 +418,10 @@ android-platform-art:
   version: 8.1.0+r23-1
   issues:
     - ffile_prefix_map_passed_to_clang
+android-platform-external-boringssl:
+  version: 8.1.0+r23-2
+  issues:
+    - captures_build_path_via_assert
 android-platform-external-libunwind:
   version: 8.1.0+r23-2
   issues:
