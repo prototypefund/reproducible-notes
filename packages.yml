@@ -1981,6 +1981,10 @@ c-blosc:
     - gcc_captures_build_path
   bugs:
     - 852050
+c-graph:
+  version: 2.0.1-3.1
+  issues:
+    - captures_build_path_via_assert
 c-icap:
   version: 1:0.4.3-2
   issues:
