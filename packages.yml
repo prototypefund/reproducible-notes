@@ -9563,6 +9563,10 @@ jboss-modules:
   version: 1.6.2-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
+jboss-xnio:
+  version: 3.7.0-1
+  comments: |
+    Embeds build date in documentation via some compile-time Java annotation?
 jcal:
   version: 0.4.1-2
   issues:
