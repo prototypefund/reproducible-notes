@@ -20478,6 +20478,10 @@ qtmultimedia-opensource-src:
     - timestamps_in_qch
     - randomness_in_qdoc
     - captures_build_path
+qtnetworkauth-everywhere-src:
+  version: 5.11.3-2
+  issues:
+    - captures_build_path_via_assert
 qtquickcontrols-opensource-src:
   version: 5.4.2-2
   issues:
