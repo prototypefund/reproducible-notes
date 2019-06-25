@@ -6745,6 +6745,10 @@ genht:
   version: 1.0.1-1
   issues:
     - captures_build_path_via_assert
+genius:
+  version: 1.0.24-2
+  comments: |
+    Embeds build path to genius.c but not as a typical assertion
 genromfs:
   version: 0.5.2-2
   issues:
