@@ -3129,6 +3129,10 @@ cpufrequtils:
   version: 008-1
   issues:
     - gcc_captures_build_path
+crac:
+  version: 2.5.0+dfsg-3
+  comments: |
+    The .sam ('Sequence Alighnment Map') files include the current build date. They are shipped under /usr/share/doc/examples/ but they are also tests, so it would not simply be a case of removing them.
 crack:
   version: 5.0a-9.3
   comments: |
