@@ -15924,6 +15924,10 @@ nyquist:
   version: 3.12+ds-3
   issues:
     - gcc_captures_build_path
+o2:
+  version: 1.0~repack-1
+  comments: |
+    Encodes assert-like build paths but not in the usual way
 o3dgc:
   version: 0~20131011-2
   issues:
