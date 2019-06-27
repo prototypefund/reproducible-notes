@@ -14306,6 +14306,10 @@ metis:
   version: 5.1.0.dfsg-5
   issues:
     - build_id_differences_only
+metview:
+  version: 5.3.0-2
+  comments: |
+    Includes .cmake files in the -data package that embed the absolute build path
 mgcv:
   version: 1.8-14-1
   issues:
