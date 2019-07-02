@@ -24819,6 +24819,10 @@ rustc:
     Reported to upstream at https://github.com/rust-lang/rust/issues/34902 - more details there
   issues:
     - blacklisted_on_jenkins_armhf_only
+s-nail:
+  version: 14.9.11-3
+  comments: |
+    Appears to embed its own CFLAGS in the binary and thus prefix-map absolute build path.
 s3d:
   version: 0.2.2-14
   issues:
