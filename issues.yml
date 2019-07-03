@@ -1976,3 +1976,7 @@ randomness_in_fontconfig_uuid_files:
     can effect build artifacts too. See
     https://redmine.tails.boum.org/code/issues/16732 and countless upstream
     threads.
+codadef_coda_data_files:
+  description:
+    .codadef files are zip files but are not yet normalised by
+    strip-nondetermism (added 20190703 in 6a40d5dbfa).
