@@ -16828,6 +16828,10 @@ oregano:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
+org-mode:
+  version: 9.2.3+dfsg-1
+  comments: |
+    Appears like /usr/share/emacs/site-lisp/elpa-src/org-9.2.3/org-autoloads.el is not being regenerated in regular builds, but does in the b build.
 oroborus:
   version: 2.0.20
   comments: |
