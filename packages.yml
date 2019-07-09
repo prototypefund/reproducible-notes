@@ -6914,6 +6914,10 @@ ghc-testsuite:
     Contains testsuite output by design that has non-deterministic ordering (parallelism?)
   issues:
     - captures_build_path
+ghdl:
+  version: 0.35+git20181129+dfsg-3
+  comments: |
+    Captures the build date in a lot of files such as /usr/lib/ghdl/gcc/vhdl/ieee/v93/ieee-obj93.cf etc etc
 giac:
   version: 1.2.3.57+dfsg1-2
   issues:
