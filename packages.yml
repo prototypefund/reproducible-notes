@@ -302,7 +302,7 @@ alembic:
 allegro5:
   version: 2:5.0.11-1
   comments: |
-    Includes build timestamp from docs/scripts/insert_timestamp.c but also non-determinstic order of method sigs from docs/scripts/make_man.c
+    Includes build timestamp from docs/scripts/insert_timestamp.c but also non-deterministic order of method sigs from docs/scripts/make_man.c
 alliance:
   version: 5.1.1-1.1
   issues:
@@ -348,7 +348,7 @@ alsa-lib:
   version: 1.1.2-1
   issues:
     - captures_home_dir
-    - graphviz_nondeterminstic_output
+    - graphviz_nondeterministic_output
 alsa-tools:
   version: 1.1.0-1
   issues:
@@ -907,7 +907,7 @@ as31:
 asc:
   version: 2.6.1.0-2
   comments: |
-    http://sources.debian.net/src/asc/latest/source/tools/mount.cpp/\#L444 method takes a glob pattern which is expanded without sorting so main.ascdat file has non-determinstic contents
+    http://sources.debian.net/src/asc/latest/source/tools/mount.cpp/\#L444 method takes a glob pattern which is expanded without sorting so main.ascdat file has non-deterministic contents
 ascd:
   version: 0.13.2-6
   issues:
@@ -2160,15 +2160,15 @@ casacore-data-igrf:
 casacore-data-lines:
   version: 0+git2016.11.26-1
   issues:
-    - nondeterminstic_ordering_in_casacore_tables
+    - nondeterministic_ordering_in_casacore_tables
 casacore-data-observatories:
   version: 0+git2016.11.02-1
   issues:
-    - nondeterminstic_ordering_in_casacore_tables
+    - nondeterministic_ordering_in_casacore_tables
 casacore-data-sources:
   version: 2-1
   issues:
-    - nondeterminstic_ordering_in_casacore_tables
+    - nondeterministic_ordering_in_casacore_tables
 cassbeam:
   version: 1.1-1
   issues:
@@ -2693,7 +2693,7 @@ clucene-core:
 clustalo:
   version: 1.2.3-1
   issues:
-    - graphviz_nondeterminstic_output
+    - graphviz_nondeterministic_output
 cluster:
   version: 2.0.4-2
   issues:
@@ -2762,7 +2762,7 @@ code-saturne:
   issues:
     - fonts_in_pdf_files
     - different_pot_creation_date_in_gettext_mo_files
-    - graphviz_nondeterminstic_output
+    - graphviz_nondeterministic_output
 codeblocks:
   version: 16.01+dfsg-2
   issues:
@@ -2822,7 +2822,7 @@ coinor-dylp:
   version: 1.6.0-1.1
   issues:
     - records_build_flags
-    - graphviz_nondeterminstic_output
+    - graphviz_nondeterministic_output
 coinor-ipopt:
   version: 3.11.9-2.1
   issues:
@@ -2830,7 +2830,7 @@ coinor-ipopt:
 coinor-osi:
   version: 0.106.9-2
   issues:
-    - graphviz_nondeterminstic_output
+    - graphviz_nondeterministic_output
 coinor-symphony:
   version: 5.6.1-1
   issues:
@@ -2840,7 +2840,7 @@ coinor-vol:
   version: 1.1.7-1
   issues:
     - captures_build_path
-    - graphviz_nondeterminstic_output
+    - graphviz_nondeterministic_output
     - records_build_flags
 coinst:
   version: 1.9.3-1
@@ -2849,7 +2849,7 @@ coinst:
 coinutils:
   version: 2.9.15-3.1
   issues:
-    - graphviz_nondeterminstic_output
+    - graphviz_nondeterministic_output
 collada-dom:
   version: 2.4.4+ds1-2
   issues:
@@ -3354,7 +3354,7 @@ cyclades-serial-client:
 cyclograph:
   version: 1.9.1-1
   comments: |
-    /usr/share/cyclograph/qt/cyclograph_rc.py contains nondeterminstic image data, probably a timestamp
+    /usr/share/cyclograph/qt/cyclograph_rc.py contains nondeterministic image data, probably a timestamp
 cyrus-imapd:
   version: 2.5.9-2
   comments: |
@@ -4581,7 +4581,7 @@ ejabberd-contrib:
 ekg2:
   version: 1:0.4~pre+20120506.1-12
   issues:
-    - graphviz_nondeterminstic_output
+    - graphviz_nondeterministic_output
 elastix:
   version: 4.8-12
   issues:
@@ -6961,7 +6961,7 @@ gir-to-d:
 girara:
   version: 0.2.6-1
   issues:
-    - graphviz_nondeterminstic_output
+    - graphviz_nondeterministic_output
 git:
   version: 1:2.11.0+next.20170110-1
   comments: |
@@ -7030,7 +7030,7 @@ gitmagic:
 givaro:
   version: 4.0.1-2
   issues:
-    - graphviz_nondeterminstic_output
+    - graphviz_nondeterministic_output
     - records_build_flags
 gjay:
   version: 0.3.2-1.2
@@ -8185,7 +8185,7 @@ gsoap:
   version: 2.8.28-2
   issues:
     - timestamps_in_documentation_generated_by_doxygen
-    - graphviz_nondeterminstic_output
+    - graphviz_nondeterministic_output
 gspiceui:
   version: 1.1.00+dfsg-1
   bugs:
@@ -8732,7 +8732,7 @@ htdig:
 html2canvas:
   version: 0.5.0~beta4+ds1-1
   issues:
-    - nondeterminstic_output_from_uglifyjs
+    - nondeterministic_output_from_uglifyjs
 htp:
   version: 1.19-2
   comments: |
@@ -9462,7 +9462,7 @@ jansson:
 janus:
   version: 0.4.4-1
   issues:
-    - graphviz_nondeterminstic_output
+    - graphviz_nondeterministic_output
 jargon:
   version: 4.0.0-5.1
   issues:
@@ -11376,7 +11376,7 @@ libcec:
     Embed build time.
     https://sources.debian.net/src/libcec/2.2.0%2Bdfsg1-1/configure.ac/?hl=351:255#L351
     Can be removed by passing HAVE_DATE=no HAVE_WHOAMI=no HAVE_HOSTNAME=no HAVE_UNAME=no
-    to ./configure but the binaries are also non-determinstic.
+    to ./configure but the binaries are also non-deterministic.
   issues:
     - captures_kernel_version
 libcereal:
@@ -11620,7 +11620,7 @@ libevdev:
   version: 1.5.2+dfsg-1
   issues:
     - captures_build_path
-    - graphviz_nondeterminstic_output
+    - graphviz_nondeterministic_output
 libevhtp:
   version: 1.2.11-1
   issues:
@@ -13405,7 +13405,7 @@ link-grammar:
 linphone:
   version: 3.12.0-3
   comments: |
-    metadoc.py appears to generate nondeterminstic output but cannoto tell exactly where. the input XML appears appear to be consistent between builds.
+    metadoc.py appears to generate nondeterministic output but cannoto tell exactly where. the input XML appears appear to be consistent between builds.
 linssid:
   version: 2.9-3
   issues:
@@ -15660,7 +15660,7 @@ node-deflate-js:
 node-fuzzaldrin-plus:
   version: 0.3.1+git.20161008.da2cb58+dfsg-4
   issues:
-    - nondeterminstic_output_from_uglifyjs
+    - nondeterministic_output_from_uglifyjs
 node-loose-envify:
   version: 1.3.0+dfsg1-1
   issues:
@@ -15797,7 +15797,7 @@ nq:
 nqp:
   version: 2015.09.1-2
   issues:
-    - nondeterminstic_output_generated_by_moarvm
+    - nondeterministic_output_generated_by_moarvm
 nrefactory:
   version: 5.3.0+20130718.73b6d0f-3
   comments: |
@@ -19063,7 +19063,7 @@ proftpd-mod-vroot:
 proj:
   version: 4.9.3-1
   issues:
-    - graphviz_nondeterminstic_output
+    - graphviz_nondeterministic_output
 projectl:
   version: 1.001.dfsg1-9
   issues:
@@ -20009,7 +20009,7 @@ python-phply:
 python-pip:
   version: 8.1.2-2
   issues:
-    - nondeterminstic_ordering_in_python_wheel_metadata_versions
+    - nondeterministic_ordering_in_python_wheel_metadata_versions
 python-poppler:
   version: 0.12.1-8.1
   issues:
@@ -23578,7 +23578,7 @@ rakarrack:
 rakudo:
   version: 2015.09-2
   issues:
-    - nondeterminstic_output_generated_by_moarvm
+    - nondeterministic_output_generated_by_moarvm
 rancid:
   version: 3.8-2
   issues:
@@ -23735,7 +23735,7 @@ refcard:
   version: 5.0.9
   issues:
     - timestamps_in_pdf_generated_by_latex
-    - graphviz_nondeterminstic_output
+    - graphviz_nondeterministic_output
 refind:
   version: 0.10.4-1
   bugs:
@@ -24772,7 +24772,7 @@ runit:
 rustc:
   version: 1.19.0+dfsg3-3
   comments: |
-    Non-determistic JSON serialisation https://sources.debian.net/src/rustc/1.0.0%2Bdfsg1-1/src/librustdoc/html/render.rs/#L1299
+    Non-deterministic JSON serialisation https://sources.debian.net/src/rustc/1.0.0%2Bdfsg1-1/src/librustdoc/html/render.rs/#L1299
     Reported to upstream at https://github.com/rust-lang/rust/issues/34902 - more details there
   issues:
     - blacklisted_on_jenkins_armhf_only
@@ -24816,7 +24816,7 @@ sailcut:
   comments: |
     Generates PNGs with inkscape, dot, etc. Content-related, so probably caused by dot.
   issues:
-    - graphviz_nondeterminstic_output
+    - graphviz_nondeterministic_output
 saint:
   version: 2.5.0+dfsg-2
   issues:
@@ -26497,7 +26497,7 @@ tachyon:
 tagainijisho:
   version: 1.0.2-1
   issues:
-    - qt_translate_noop_nondeterminstic_ordering
+    - qt_translate_noop_nondeterministic_ordering
     - gcc_captures_build_path
 tagcoll2:
   version: 2.0.14-2
@@ -26506,7 +26506,7 @@ tagcoll2:
 taglib:
   version: 1.11+dfsg.1-0.3
   issues:
-    - graphviz_nondeterminstic_output
+    - graphviz_nondeterministic_output
 taglibs-standard:
   version: 1.2.5-2
   issues:
@@ -27009,7 +27009,7 @@ tntnet:
 toastinfo:
   version: 1.1-2
   comments: |
-    Build process generates a nondeterminstic toastinfo.bc file
+    Build process generates a nondeterministic toastinfo.bc file
 toil:
   version: 3.18.0-2
   bugs:
@@ -27352,7 +27352,7 @@ udisks2:
 udpcast:
   version: 20120424-1
   comments: |
-    Current date in docs. Package has a mechanism in for putting a determinstic
+    Current date in docs. Package has a mechanism in for putting a deterministic
     date in there via version.h but that file doesn't appear.
 udpkg:
   version: 1.18
