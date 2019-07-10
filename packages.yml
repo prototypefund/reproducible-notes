@@ -169,7 +169,7 @@ adasockets:
   comments: |
     A few of the Ada source files are copied with the cp command by make
     before being indexed in the .ali file. The original deterministic
-    mtime is lost during the cp and a non-determinisic mtime gets indexed
+    mtime is lost during the cp and a non-deterministic mtime gets indexed
     in the .ali file.  Also, the sockets-constants.ads file is generated
     by src/constants.sh, which embeds the current time in a comment.
     Embeds build date, `uname -a`:
@@ -2113,7 +2113,7 @@ canl-java:
 canna:
   version: 3.7p3-13
   comments: |
-    Tool executed during build adds timestamps. I thik it is https://sources.debian.net/src/canna/3.7p3-13/cmd/crxdic/crxdic.c/#L966
+    Tool executed during build adds timestamps. I think it is https://sources.debian.net/src/canna/3.7p3-13/cmd/crxdic/crxdic.c/#L966
   issues:
     - timestamps_in_dvi_generated_by_latex
 canna-shion:
@@ -3136,7 +3136,7 @@ cpufrequtils:
 crac:
   version: 2.5.0+dfsg-3
   comments: |
-    The .sam ('Sequence Alighnment Map') files include the current build date. They are shipped under /usr/share/doc/examples/ but they are also tests, so it would not simply be a case of removing them.
+    The .sam ('Sequence Alignment Map') files include the current build date. They are shipped under /usr/share/doc/examples/ but they are also tests, so it would not simply be a case of removing them.
 crack:
   version: 5.0a-9.3
   comments: |
@@ -4171,12 +4171,12 @@ dovecot-antispam:
 doxia:
   version: 1.1.4-2
   issues:
-    - random_order_in_plexus_comonents_xml
+    - random_order_in_plexus_components_xml
     - random_order_in_documentation_generated_by_javadoc
 doxia-sitetools:
   version: 1.1.4-1
   issues:
-    - random_order_in_plexus_comonents_xml
+    - random_order_in_plexus_components_xml
     - random_order_in_documentation_generated_by_javadoc
 doxygen:
   version: 1.8.9.1-1
@@ -4363,7 +4363,7 @@ dxf2gcode:
 dynare:
   version: 4.4.3-1
   comments: |
-    Embeds hostname, kernel version, PATH enviroment variable:
+    Embeds hostname, kernel version, PATH environment variable:
     https://sources.debian.net/src/dynare/4.4.3-3/configure/?hl=2065#L2065
     https://sources.debian.net/src/dynare/4.4.3-3/configure/?hl=2067#L2067
     https://sources.debian.net/src/dynare/4.4.3-3/configure/?hl=2069#L2069
@@ -5751,7 +5751,7 @@ fonts-f500:
 fonts-fantasque-sans:
   version: 1.6.4~dfsg-1
   comments: |
-    Python script using fontforge module (embeded in a shell script, yay):
+    Python script using fontforge module (embedded in a shell script, yay):
     https://sources.debian.net/src/fonts-fantasque-sans/1.6.4~dfsg-1/validate-generate.sh/
   issues:
     - fontforge_resets_modification_time
@@ -6135,7 +6135,7 @@ fregression:
 fritzing:
   version: 0.9.3b+dfsg-3
   comments: |
-    Checks`uname -m' to define LINUX_32 or LINUX_64.
+    Checks `uname -m' to define LINUX_32 or LINUX_64.
     https://sources.debian.net/src/fritzing/0.9.2b%2Bdfsg-4/phoenix.pro/#L101
 frown:
   version: 0.6.2.3-2
@@ -7253,7 +7253,7 @@ gnome-do:
 gnome-do-plugins:
   version: 0.8.5-3
   comments: |
-    Unidentified varation in Resource Table in /usr/lib/gnome-do/plugins/Empathy.dll
+    Unidentified variation in Resource Table in /usr/lib/gnome-do/plugins/Empathy.dll
 gnome-documents:
   version: 3.14.2-1
   comments: |
@@ -8858,7 +8858,7 @@ ibam:
 ibm-3270:
   version: 3.6ga4-3
   comments: |
-    captures username buid date date, etc etc
+    captures username, build date, etc
 ibus-chewing:
   version: 1.5.1-1
   issues:
@@ -9047,7 +9047,7 @@ indigo:
 infinipath-psm:
   version: 3.3+7.gec1d6d2-3
   comments: |
-    Embeds the bild date.
+    Embeds the build date.
     https://sources.debian.net/src/infinipath-psm/3.3%2B7.g05f6f14.open-1/ipath/Makefile/#L73
     https://sources.debian.net/src/infinipath-psm/3.3%2B7.g05f6f14.open-1/Makefile/#L273
   issues:
@@ -13413,7 +13413,7 @@ link-grammar:
 linphone:
   version: 3.12.0-3
   comments: |
-    metadoc.py appears to generate nondeterministic output but cannoto tell exactly where. the input XML appears appear to be consistent between builds.
+    metadoc.py appears to generate nondeterministic output but cannot tell exactly where. the input XML appears appear to be consistent between builds.
 linssid:
   version: 2.9-3
   issues:
@@ -14073,7 +14073,7 @@ matplotlib:
 maven:
   version: 3.0.5-3
   issues:
-    - random_order_in_plexus_comonents_xml
+    - random_order_in_plexus_components_xml
     - random_order_in_sisu_javax_inject_named
 maven-antrun-extended-plugin:
   version: 1.42-1
@@ -14127,7 +14127,7 @@ maven-shared-io:
 maven-shared-jar:
   version: 1.1-1
   issues:
-    - random_order_in_plexus_comonents_xml
+    - random_order_in_plexus_components_xml
 maven-shared-utils:
   version: 3.0.0-1
   issues:
@@ -14500,7 +14500,7 @@ mm3d:
 mmorph:
   version: 2.3.4.2-15
   comments: |
-    Randomess in example.db file, probably struct mem
+    Randomness in example.db file, probably struct mem
   issues:
     - randomness_in_berkeley_db_files
 mnemosyne:
@@ -14833,7 +14833,7 @@ mp4h:
 mp4parser:
   version: 1.1.22-1
   comments: |
-    jar contains a buidinfo-type document that has the paths passed to javac, including the absolute build path
+    jar contains a buildinfo-type document that has the paths passed to javac, including the absolute build path
 mpb:
   version: 1.5-3
   issues:
@@ -16789,7 +16789,7 @@ opticalraytracer:
 opus:
   version: 1.1.1-1
   comments: |
-    Embeds the current year as coypright year.
+    Embeds the current year as copyright year.
     https://sources.debian.net/src/opus/1.1.1-1/doc/footer.html/#L13
   issues:
     - gcc_captures_build_path
@@ -18588,7 +18588,7 @@ plexus-digest:
 plexus-i18n:
   version: 1.0-beta-10-3
   issues:
-    - random_order_in_plexus_comonents_xml
+    - random_order_in_plexus_components_xml
 plexus-interactivity-api:
   version: 1.0-alpha-6-7
   issues:
@@ -19275,7 +19275,7 @@ pulseview:
 puma:
   version: 3.6.0-1
   comments: |
-    Absolute filenames embdeded in debug symbols.
+    Absolute filenames embedded in debug symbols.
   issues:
     - gcc_captures_build_path
 puredata-import:
@@ -27957,12 +27957,12 @@ waffle:
 wagon:
   version: 1.0.0-5
   issues:
-    - random_order_in_plexus_comonents_xml
+    - random_order_in_plexus_components_xml
     - random_order_in_documentation_generated_by_javadoc
 wagon2:
   version: 2.7-1
   issues:
-    - random_order_in_plexus_comonents_xml
+    - random_order_in_plexus_components_xml
 waili:
   version: 19990723-22.1
   issues:
