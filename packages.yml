@@ -20751,6 +20751,10 @@ r-bioc-biobase:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
+r-bioc-biocfilecache:
+  version: 1.8.0+dfsg-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-bioc-biocgenerics:
   version: 0.18.0-1
   issues:
@@ -21087,6 +21091,14 @@ r-cran-askpass:
   version: 1.1-1
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-assertive.base:
+  version: 0.0-7-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-assertive.sets:
+  version: 0.0-3-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-assertthat:
   version: 0.1-1
   issues:
@@ -21295,6 +21307,10 @@ r-cran-clisymbols:
   version: 1.2.0-1
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-clue:
+  version: 0.3-57-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-clustergeneration:
   version: 1.3.4-1
   issues:
@@ -21337,6 +21353,10 @@ r-cran-conting:
     - randomness_in_r_rdb_rds_databases
 r-cran-corpcor:
   version: 1.6.8-3
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-cowplot:
+  version: 0.9.4+dfsg-1
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-crayon:
@@ -21429,6 +21449,10 @@ r-cran-dimred:
     - randomness_in_r_rdb_rds_databases
 r-cran-diptest:
   version: 0.75-7-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-discriminer:
+  version: 0.1-29-1
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-distory:
@@ -21609,6 +21633,10 @@ r-cran-fastmatch:
     - randomness_in_r_rdb_rds_databases
 r-cran-fauxpas:
   version: 0.2.0-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-fdrtool:
+  version: 1.2.15-1
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-ffield:
