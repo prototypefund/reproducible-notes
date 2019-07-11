@@ -1980,3 +1980,6 @@ codadef_coda_data_files:
   description:
     .codadef files are zip files but are not yet normalised by
     strip-nondeterminism (added 20190703 in 6a40d5dbfa).
+timestamps_in_manpages_generated_by_lopsubgen:
+  description:
+    Uses localtime(3) instead of SOURCE_DATE_EPOCH.
