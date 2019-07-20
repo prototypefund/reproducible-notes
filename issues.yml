@@ -1987,3 +1987,6 @@ timestamps_in_manpages_generated_by_lopsubgen:
   description:
     Uses localtime(3) instead of SOURCE_DATE_EPOCH.
   url: https://bugs.debian.org/931854
+umask_in_java_jar_file:
+  description:
+    Permissions differ between builds
