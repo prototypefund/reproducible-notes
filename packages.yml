@@ -8535,6 +8535,10 @@ hdf5:
     - gfortran_mod_captures_build_path
     - records_build_flags
     - captures_build_arch
+hdrhistogram:
+  version: 2.1.11-1
+  issues:
+    - built_by-in_java_manifest_mf
 hdup:
   version: 2.0.14-4
   issues:
@@ -9677,6 +9681,14 @@ jheatchart:
   version: 0.6-1
   issues:
     - dc_created_timestamp_in_javadoc
+jiconfont:
+  version: 1.0.0-1
+  issues:
+    - built_by-in_java_manifest_mf
+jiconfont-font-awesome:
+  version: 4.7.0.0-1
+  issues:
+    - built_by-in_java_manifest_mf
 jiconfont-swing:
   version: 1.0.1-1
   issues:
