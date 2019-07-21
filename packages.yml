@@ -328,18 +328,6 @@ alljoyn-core-1604:
     https://sources.debian.net/src/alljoyn-core-1604/latest/build_core/tools/scons/genversion.py/?hl=127#L127
   issues:
     - user_hostname_manually_added_requiring_further_investigation
-alljoyn-services-1504:
-  version: 15.04-4
-  issues:
-    - captures_build_path
-alljoyn-services-1509:
-  version: 15.09-2
-  issues:
-    - captures_build_path
-alljoyn-services-1604:
-  version: 16.04-1
-  issues:
-    - captures_build_path
 alltray:
   version: 0.71b-1
   issues:
@@ -4762,10 +4750,6 @@ epubcheck:
   version: 4.0.1-2
   issues:
     - random_order_in_java_jar_manifest_mf
-ergo:
-  version: 3.5-1
-  issues:
-    - captures_build_path
 erlang:
   version: 1:18.0-dfsg-1
   issues:
