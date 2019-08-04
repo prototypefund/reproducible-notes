@@ -1990,3 +1990,7 @@ timestamps_in_manpages_generated_by_lopsubgen:
 umask_in_java_jar_file:
   description:
     Permissions differ between builds
+timezone_specific_files_due_to_haskell_devscripts:
+  description:
+    haskell-devscripts runs touch -d ... on very old files without an
+    explicit timezone.
