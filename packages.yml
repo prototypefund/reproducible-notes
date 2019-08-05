@@ -3505,8 +3505,6 @@ dateutils:
   comments: |
     Included manpage generator "yuck" embeds the build date.
     https://sources.debian.net/src/dateutils/0.3.1-1.1/build-aux/yuck.c/#L1435-L1443
-  bugs:
-    - 889050
 davical:
   version: 1.1.4-1
   comments: |
@@ -15101,10 +15099,6 @@ nat:
   version: 1:1.0-6
   issues:
     - gcc_captures_build_path
-natbraille:
-  version: 2.0rc3-4
-  bugs:
-    - 859957
 nautilus-image-converter:
   version: 0.3.1~git20110416-1
   issues:
@@ -18399,10 +18393,6 @@ pkg-config:
   version: 0.29-4
   issues:
     - gcc_captures_build_path
-pkg-mozilla-archive-keyring:
-  version: 1.1
-  bugs:
-    - 846892
 pktools:
   version: 2.6.7-3
   issues:
@@ -19218,8 +19208,6 @@ purify:
   version: 2.0.0-1
   issues:
     - captures_build_path_via_assert
-  bugs:
-    - 867273
 purpose:
   version: 1.1-2
   issues:
@@ -19601,10 +19589,6 @@ python-bleach:
   version: 1.4.2-1
   bugs:
     - 798441
-python-blessed:
-  version: 1.14.1-1
-  bugs:
-    - 864337
 python-box2d:
   version: 2.0.2+svn20100109.244-1.2
   issues:
@@ -28274,10 +28258,6 @@ wget:
   version: 1.18-2
   issues:
     - gcc_captures_build_path
-whitedb:
-  version: 0.7.3-3
-  bugs:
-    - 878589
 whitedune:
   version: 0.30.10-2.1
   comments: |
