@@ -3496,11 +3496,6 @@ date:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
-dateutils:
-  version: 0.3.1-1.1
-  comments: |
-    Included manpage generator "yuck" embeds the build date.
-    https://sources.debian.net/src/dateutils/0.3.1-1.1/build-aux/yuck.c/#L1435-L1443
 davical:
   version: 1.1.4-1
   comments: |
@@ -15818,10 +15813,6 @@ nunit:
     - timestamps_in_pe_binaries
     - captures_kernel_version
     - different_due_to_umask
-nut:
-  version: 2.7.2-3
-  issues:
-    - fonts_in_pdf_files
 nuttcp:
   version: 6.1.2-4
   issues:
