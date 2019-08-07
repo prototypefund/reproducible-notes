@@ -3190,6 +3190,10 @@ cryptgps:
   version: 0.2.1-9
   issues:
     - ocaml_captures_build_path
+cryptokit:
+  version: 1.13-2
+  issues:
+    - captures_build_path_in_beam_files
 crystalhd:
   version: 1:0.0~git20110715.fdd2f19-11
   issues:
@@ -16100,6 +16104,10 @@ ocaml-sqlite3:
   version: 4.0.5-1
   issues:
     - ocaml_captures_build_path
+ocaml-ssl:
+  version: 0.5.9-1
+  issues:
+    - captures_build_path_in_beam_files
 ocaml-taglib:
   version: 0.3.1-1
   issues:
@@ -16247,6 +16255,10 @@ octomap:
   version: 1.8.0+dfsg-2
   issues:
     - captures_build_path
+ocurl:
+  version: 0.8.2-1
+  issues:
+    - captures_build_path_in_beam_files
 odb-api:
   version: 0.17.6-2
   issues:
