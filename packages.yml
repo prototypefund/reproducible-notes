@@ -2968,10 +2968,6 @@ condor:
   issues:
     - timestamps_from_cpp_macros
     - different_due_to_umask
-configshell:
-  version: 1.6.1~g020d540-2
-  issues:
-    - fonts_in_pdf_files
 confuse:
   version: 2.7-5
   issues:
@@ -5482,10 +5478,6 @@ flextra:
   version: 5.0-10
   issues:
     - gfortran_mod_captures_build_path
-flif:
-  version: 0.3-1
-  bugs:
-    - 896109
 flightcrew:
   version: 0.7.2+dfsg-8
   issues:
@@ -9352,26 +9344,6 @@ jaminid:
     - timestamps_in_documentation_generated_by_javadoc
   bugs:
     - 859960
-janest-core:
-  version: 113.00.00-4
-  issues:
-    - captures_build_path
-  bugs:
-    - 843312
-    - 852890
-    - 856966
-janest-core-extended:
-  version: 113.00.00-2
-  issues:
-    - captures_build_path
-  bugs:
-    - 843320
-janest-core-kernel:
-  version: 113.00.00-3
-  issues:
-    - captures_build_path
-  bugs:
-    - 843315
 jansi:
   version: 1.4-3
   issues:
@@ -12951,12 +12923,6 @@ libstxxl:
   version: 1.4.1-2
   issues:
     - random_id_in_pdf_generated_by_dblatex
-libswe-doc:
-  version: 1.80.00.0001-1
-  issues:
-    - timestamps_in_pdf_generated_by_latex
-  bugs:
-    - 783936
 libswingx-java:
   version: 1:1.6.2-2
   issues:
@@ -16080,10 +16046,6 @@ ocaml-re:
   version: 1.6.1-1
   issues:
     - ocaml_captures_build_path
-ocaml-re2:
-  version: 113.00.00+dfsg-2
-  issues:
-    - ocaml_captures_build_path
 ocaml-reins:
   version: 0.1a-6
   issues:
@@ -16122,10 +16084,6 @@ ocaml-taglib:
     - ocaml_captures_build_path
 ocaml-text:
   version: 0.6-3
-  issues:
-    - ocaml_captures_build_path
-ocaml-textutils:
-  version: 112.17.00-3
   issues:
     - ocaml_captures_build_path
 ocaml-theora:
