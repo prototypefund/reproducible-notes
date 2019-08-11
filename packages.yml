@@ -26921,6 +26921,10 @@ twisted:
   version: 16.3.0-1
   issues:
     - gcc_captures_build_path
+twitter-bootstrap4:
+  version: 4.3.1+dfsg2-1
+  comments: |
+    Not 100-percent sure but this might be due to the change of path length due the multiple ../../../
 twittering-mode:
   version: 3.0.0-1
   issues:
