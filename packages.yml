@@ -4700,10 +4700,6 @@ ent:
   version: 1.2debian-1
   issues:
     - gcc_captures_build_path
-enumerate:
-  version: 111.08.00-2
-  issues:
-    - captures_build_path
 eom:
   version: 1.18.3-1
   issues:
@@ -8486,10 +8482,6 @@ hercules:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
-herelib:
-  version: 112.35.00-1
-  issues:
-    - captures_build_path
 herisvm:
   version: 0.7.0-1
   bugs:
@@ -10193,8 +10185,6 @@ khelpcenter:
     - build_id_variation_requiring_further_investigation
 khmerconverter:
   version: 1.4-1
-  issues:
-    - timestamps_in_png
   bugs:
     - 779164
 kholidays:
@@ -17478,10 +17468,6 @@ php-auth-sasl:
   version: 1.0.6-3
   issues:
     - timestamp_in_pear_registry_files
-php-cache-lite:
-  version: 1.8.2-1
-  issues:
-    - timestamp_in_pear_registry_files
 php-codesniffer:
   version: 3.2.3-1
   issues:
@@ -17522,10 +17508,6 @@ php-horde-activesync:
   version: 2.39.2-1
   issues:
     - timestamp_in_pear_registry_files
-php-horde-compress:
-  version: 2.2.1-4
-  issues:
-    - timestamp_in_pear_registry_files
 php-horde-core:
   version: 2.31.2+debian0-2
   issues:
@@ -17538,20 +17520,8 @@ php-horde-groupware:
   version: 5.2.22-3
   issues:
     - timestamp_in_pear_registry_files
-php-horde-icalendar:
-  version: 2.1.7-3
-  issues:
-    - timestamp_in_pear_registry_files
 php-horde-idna:
   version: 1.1.1-3
-  issues:
-    - timestamp_in_pear_registry_files
-php-horde-imp:
-  version: 6.2.21-3
-  issues:
-    - timestamp_in_pear_registry_files
-php-horde-kolab-storage:
-  version: 2.2.3-3
   issues:
     - timestamp_in_pear_registry_files
 php-horde-nag:
@@ -17562,48 +17532,12 @@ php-horde-passwd:
   version: 5.0.7-3
   issues:
     - timestamp_in_pear_registry_files
-php-horde-service-weather:
-  version: 2.5.4-3
-  issues:
-    - timestamp_in_pear_registry_files
-php-horde-smtp:
-  version: 1.9.5-3
-  issues:
-    - timestamp_in_pear_registry_files
-php-horde-test:
-  version: 2.6.3+debian0-3
-  issues:
-    - timestamp_in_pear_registry_files
 php-horde-text-filter:
   version: 2.3.5-3
   issues:
     - timestamp_in_pear_registry_files
 php-horde-timeobjects:
   version: 2.1.4-3
-  issues:
-    - timestamp_in_pear_registry_files
-php-horde-translation:
-  version: 2.2.2-3
-  issues:
-    - timestamp_in_pear_registry_files
-php-horde-turba:
-  version: 4.2.21-3
-  issues:
-    - timestamp_in_pear_registry_files
-php-horde-vfs:
-  version: 2.4.0-3
-  issues:
-    - timestamp_in_pear_registry_files
-php-horde-webmail:
-  version: 5.2.22-3
-  issues:
-    - timestamp_in_pear_registry_files
-php-horde-whups:
-  version: 3.0.12-3
-  issues:
-    - timestamp_in_pear_registry_files
-php-horde-wicked:
-  version: 2.0.8-3
   issues:
     - timestamp_in_pear_registry_files
 php-htmlpurifier:
@@ -17896,10 +17830,6 @@ pinfo:
     - gcc_captures_build_path
 pinpoint:
   version: 1:0.1.8-2
-  issues:
-    - captures_build_path
-pipebang:
-  version: 113.00.00-1
   issues:
     - captures_build_path
 pipemeter:
