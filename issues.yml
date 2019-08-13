@@ -1995,3 +1995,7 @@ timezone_specific_files_due_to_haskell_devscripts:
     haskell-devscripts runs touch -d ... on very old files without an
     explicit timezone.
   url: https://bugs.debian.org/933834
+captures_varying_number_of_build_path_directory_components:
+  description:
+    eg. /tmp/buildd/one/two vs /tmp/buildd/one/two/three can result in
+    relative URIs (eg. ../../../usr/some/share/dir) differing.
