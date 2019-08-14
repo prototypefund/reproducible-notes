@@ -1468,6 +1468,10 @@ bind9:
     https://sources.debian.net/src/bind9/latest/lib/dns/gen.c/#L117
   issues:
     - gcc_captures_build_path
+binfmtc:
+  version: 0.17-2
+  issues:
+    - build_id_differences_only
 biniou:
   version: 1.0.12-2
   issues:
