@@ -15912,6 +15912,10 @@ ocaml-bitstring:
   version: 2.0.4-2
   issues:
     - ocaml_captures_build_path
+ocaml-cairo2:
+  version: 0.6.1+dfsg-2
+  issues:
+    - captures_build_path_in_beam_files
 ocaml-cry:
   version: 0.6.1-1
   issues:
@@ -15965,6 +15969,10 @@ ocaml-faad:
   version: 0.3.2-2
   issues:
     - ocaml_captures_build_path
+ocaml-ffmpeg:
+  version: 0.2.1-2
+  issues:
+    - captures_build_path_in_beam_files
 ocaml-fileutils:
   version: 0.4.5-4
   issues:
@@ -15989,6 +15997,10 @@ ocaml-inifiles:
   version: 1.2-3
   issues:
     - ocaml_captures_build_path
+ocaml-integers:
+  version: 0.3.0-1
+  issues:
+    - captures_build_path_in_beam_files
 ocaml-ipaddr:
   version: 2.7.0-2
   issues:
@@ -16061,6 +16073,10 @@ ocaml-rope:
   version: 0.6.1-1
   issues:
     - ocaml_captures_build_path
+ocaml-sexplib0:
+  version: 0.12.0-1
+  issues:
+    - captures_build_path_in_beam_files
 ocaml-shine:
   version: 0.2.0-1
   issues:
