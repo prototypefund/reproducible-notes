@@ -17480,6 +17480,10 @@ phonon-backend-vlc:
   version: 0.9.0-1
   issues:
     - gcc_captures_build_path
+photutils:
+  version: 0.7-1
+  issues:
+    - captures_varying_number_of_build_path_directory_components
 php-apcu:
   version: 5.1.7+4.0.11-2
   issues:
