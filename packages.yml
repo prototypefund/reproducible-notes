@@ -9346,6 +9346,10 @@ jaminid:
     - timestamps_in_documentation_generated_by_javadoc
   bugs:
     - 859960
+janest-base:
+  version: 0.12.2-2
+  issues:
+    - captures_build_path_in_beam_cma_cmt_files
 janest-ocaml-compiler-libs:
   version: 0.12.0-1
   issues:
@@ -10757,6 +10761,10 @@ lablgtk-extras:
   version: 1.5-1
   issues:
     - captures_build_path
+lablgtk3:
+  version: 3.0~beta6-1
+  issues:
+    - captures_build_path_in_beam_cma_cmt_files
 lablie:
   version: 0.6.0-1
   comments: |
@@ -16016,6 +16024,10 @@ ocaml-lo:
   version: 0.1.0-1
   issues:
     - ocaml_captures_build_path
+ocaml-mccs:
+  version: 1.1+10-2
+  issues:
+    - captures_build_path_in_beam_cma_cmt_files
 ocaml-melt:
   version: 1.4.0-1
   issues:
