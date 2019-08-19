@@ -16375,10 +16375,6 @@ open-vm-tools:
   version: 2:10.0.7-3227872-4.1
   issues:
     - gcc_captures_build_path
-openafs:
-  version: 1.8.2-1
-  issues:
-    - captures_build_path
 openal-soft:
   version: 1:1.17.2-1
   issues:
@@ -17502,10 +17498,6 @@ php-finder-facade:
     - captures_build_path
 php-horde-activesync:
   version: 2.39.2-1
-  issues:
-    - timestamp_in_pear_registry_files
-php-horde-form:
-  version: 2.0.18-3
   issues:
     - timestamp_in_pear_registry_files
 php-horde-text-filter:
