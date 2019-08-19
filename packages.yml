@@ -3196,7 +3196,7 @@ cryptgps:
 cryptokit:
   version: 1.13-2
   issues:
-    - captures_build_path_in_beam_files
+    - captures_build_path_in_beam_cma_cmt_files
 crystalhd:
   version: 1:0.0~git20110715.fdd2f19-11
   issues:
@@ -4740,11 +4740,11 @@ erlang:
 erlang-asciideck:
   version: 0.0+git20170714.48cbfe8b-1
   issues:
-    - captures_build_path_in_beam_files
+    - captures_build_path_in_beam_cma_cmt_files
 erlang-bbmustache:
   version: 1.6.1+dfsg-1
   issues:
-    - captures_build_path_in_beam_files
+    - captures_build_path_in_beam_cma_cmt_files
 erlang-bear:
   version: 0.8.2+dfsg-1
   issues:
@@ -4752,72 +4752,72 @@ erlang-bear:
 erlang-bitcask:
   version: 2.0.2+dfsg-1
   issues:
-    - captures_build_path_in_beam_files
+    - captures_build_path_in_beam_cma_cmt_files
 erlang-cf:
   version: 0.3.1-1
   issues:
-    - captures_build_path_in_beam_files
+    - captures_build_path_in_beam_cma_cmt_files
 erlang-cl:
   version: 1.2.1-2
   issues:
-    - captures_build_path_in_beam_files
+    - captures_build_path_in_beam_cma_cmt_files
     - timestamps_in_documentation_generated_by_edoc
 erlang-cowboy:
   version: 2.0.0~pre.1+dfsg1-4
   issues:
-    - captures_build_path_in_beam_files
+    - captures_build_path_in_beam_cma_cmt_files
 erlang-cowlib:
   version: 1.3.0-1
   comments: |
     Apparent non-determinism in compilation of the .beam files, potentially interesting.
   issues:
-    - captures_build_path_in_beam_files
+    - captures_build_path_in_beam_cma_cmt_files
 erlang-cuttlefish:
   version: 2.0.6+dfsg-1
   issues:
-    - captures_build_path_in_beam_files
+    - captures_build_path_in_beam_cma_cmt_files
 erlang-erlware-commons:
   version: 1.3.1+dfsg-2
   issues:
-    - captures_build_path_in_beam_files
+    - captures_build_path_in_beam_cma_cmt_files
 erlang-folsom:
   version: 0.8.2+dfsg-1
   issues:
-    - captures_build_path_in_beam_files
+    - captures_build_path_in_beam_cma_cmt_files
 erlang-getopt:
   version: 1.0.1-2
   issues:
-    - captures_build_path_in_beam_files
+    - captures_build_path_in_beam_cma_cmt_files
 erlang-jiffy:
   version: 0.14.6+dfsg-1
   issues:
-    - captures_build_path_in_beam_files
+    - captures_build_path_in_beam_cma_cmt_files
 erlang-meck:
   version: 0.8.4+dfsg-1
   issues:
-    - captures_build_path_in_beam_files
+    - captures_build_path_in_beam_cma_cmt_files
 erlang-metrics:
   version: 2.5.0-2
   issues:
-    - captures_build_path_in_beam_files
+    - captures_build_path_in_beam_cma_cmt_files
 erlang-p1-stringprep:
   version: 1.0.5-1
   issues:
-    - captures_build_path_in_beam_files
+    - captures_build_path_in_beam_cma_cmt_files
 erlang-proper:
   version: 1.1+dfsg-1
   issues:
-    - captures_build_path_in_beam_files
+    - captures_build_path_in_beam_cma_cmt_files
     - timestamps_in_documentation_generated_by_edoc
 erlang-ranch:
   version: 1.1.0-1
   issues:
-    - captures_build_path_in_beam_files
+    - captures_build_path_in_beam_cma_cmt_files
     - timestamps_in_documentation_generated_by_edoc
 erlang-uuid:
   version: 0.4.6-2
   issues:
-    - captures_build_path_in_beam_files
+    - captures_build_path_in_beam_cma_cmt_files
 esajpip:
   version: 0.1~bzr33-4
   issues:
@@ -9349,7 +9349,7 @@ jaminid:
 janest-ocaml-compiler-libs:
   version: 0.12.0-1
   issues:
-    - captures_build_path_in_beam_files
+    - captures_build_path_in_beam_cma_cmt_files
 jansi:
   version: 1.4-3
   issues:
@@ -15910,7 +15910,7 @@ ocaml-bitstring:
 ocaml-cairo2:
   version: 0.6.1+dfsg-2
   issues:
-    - captures_build_path_in_beam_files
+    - captures_build_path_in_beam_cma_cmt_files
 ocaml-cry:
   version: 0.6.1-1
   issues:
@@ -15967,7 +15967,7 @@ ocaml-faad:
 ocaml-ffmpeg:
   version: 0.2.1-2
   issues:
-    - captures_build_path_in_beam_files
+    - captures_build_path_in_beam_cma_cmt_files
 ocaml-fileutils:
   version: 0.4.5-4
   issues:
@@ -15995,7 +15995,7 @@ ocaml-inifiles:
 ocaml-integers:
   version: 0.3.0-1
   issues:
-    - captures_build_path_in_beam_files
+    - captures_build_path_in_beam_cma_cmt_files
 ocaml-ipaddr:
   version: 2.7.0-2
   issues:
@@ -16071,7 +16071,7 @@ ocaml-rope:
 ocaml-sexplib0:
   version: 0.12.0-1
   issues:
-    - captures_build_path_in_beam_files
+    - captures_build_path_in_beam_cma_cmt_files
 ocaml-shine:
   version: 0.2.0-1
   issues:
@@ -16091,7 +16091,7 @@ ocaml-sqlite3:
 ocaml-ssl:
   version: 0.5.9-1
   issues:
-    - captures_build_path_in_beam_files
+    - captures_build_path_in_beam_cma_cmt_files
 ocaml-taglib:
   version: 0.3.1-1
   issues:
@@ -16123,7 +16123,7 @@ ocaml-vorbis:
 ocaml-zarith:
   version: 1.8-1
   issues:
-    - captures_build_path_in_beam_files
+    - captures_build_path_in_beam_cma_cmt_files
 ocamlagrep:
   version: 1.0-11
   issues:
@@ -16136,7 +16136,7 @@ ocamlbricks:
 ocamlbuild:
   version: 0.14.0-1
   issues:
-    - captures_build_path_in_beam_files
+    - captures_build_path_in_beam_cma_cmt_files
 ocamlcreal:
   version: 0.7-6
   issues:
@@ -16238,7 +16238,7 @@ octomap:
 ocurl:
   version: 0.8.2-1
   issues:
-    - captures_build_path_in_beam_files
+    - captures_build_path_in_beam_cma_cmt_files
 odb-api:
   version: 0.17.6-2
   issues:
@@ -26760,7 +26760,7 @@ tstools:
 tsung:
   version: 1.7.0-3
   issues:
-    - captures_build_path_in_beam_files
+    - captures_build_path_in_beam_cma_cmt_files
 ttf-freefont:
   version: 20100919-1
   issues:
@@ -27749,7 +27749,7 @@ winff:
 wings3d:
   version: 2.2.4-3
   issues:
-    - captures_build_path_in_beam_files
+    - captures_build_path_in_beam_cma_cmt_files
 winrmcp:
   version: 0.0~git20160310.f1bcf36-1
   issues:

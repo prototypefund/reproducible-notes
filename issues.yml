@@ -1345,7 +1345,7 @@ captures_build_path:
      • https://lists.alioth.debian.org/pipermail/reproducible-builds/Week-of-Mon-20160905/006984.html
      • https://lists.alioth.debian.org/pipermail/reproducible-builds/Week-of-Mon-20160912/007076.html
   deterministic: True
-captures_build_path_in_beam_files:
+captures_build_path_in_beam_cma_cmt_files:
   description: |
     Erlang beam files contain the beam path, in a field apparently named "source".
   deterministic: True
