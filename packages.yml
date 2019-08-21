@@ -17284,6 +17284,9 @@ perftest:
     - 863158
 perl:
   version: 5.22.2-3
+  comments: |
+    Also second build varies with /lib64 addition to various paths due to (I
+    think) 64-bit kernel.
   issues:
     - records_build_flags
     - paths_vary_due_to_usrmerge
