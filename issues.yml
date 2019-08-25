@@ -1999,3 +1999,5 @@ captures_varying_number_of_build_path_directory_components:
   description:
     eg. /tmp/buildd/one/two vs /tmp/buildd/one/two/three can result in
     relative URIs (eg. ../../../usr/some/share/dir) differing.
+embeds_build_data_via_node_rollup:
+    eg "Copyright 2019 Mike Bostock"
