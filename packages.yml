@@ -10978,6 +10978,10 @@ libacpi:
   version: 0.2-4.1
   issues:
     - gcc_captures_build_path
+libaio-ocaml:
+  version: 1.0.1-1
+  issues:
+    - captures_build_path_via_assert
 libalien-sdl-perl:
   version: 1.446-3
   comments: |
