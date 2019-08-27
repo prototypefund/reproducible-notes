@@ -1463,6 +1463,10 @@ binaryornot:
   version: 0.4.0-1
   bugs:
     - 854084
+bind:
+  version: 1:9.13.3-1
+  issues:
+    - records_build_flags
 bind9:
   version: 1:9.10.3.dfsg.P4-10
   comments: |
@@ -10974,6 +10978,10 @@ libacpi:
   version: 0.2-4.1
   issues:
     - gcc_captures_build_path
+libaio-ocaml:
+  version: 1.0.1-1
+  issues:
+    - captures_build_path_via_assert
 libalien-sdl-perl:
   version: 1.446-3
   comments: |
@@ -14910,6 +14918,10 @@ musescore:
   version: 2.0.3+dfsg1-2
   issues:
     - gcc_captures_build_path
+musescore-snapshot:
+  version: 3.2.s20190704+dfsg1-1
+  bugs:
+    - 935846
 music123:
   version: 16.4-3
   issues:
@@ -15488,7 +15500,7 @@ node-css:
 node-d3:
   version: 4.13.0-5
   issues:
-    - embeds_build_data_via_node_rollup
+    - embeds_build_data_via_node_preamble
 node-d3-axis:
   version: 1.0.8-3
   issues:
@@ -15532,11 +15544,11 @@ node-d3-hierarchy:
 node-d3-queue:
   version: 3.0.7-9
   issues:
-    - embeds_build_data_via_node_rollup
+    - embeds_build_data_via_node_preamble
 node-d3-scale:
   version: 1.0.7-6
   issues:
-    - embeds_build_data_via_node_rollup
+    - embeds_build_data_via_node_preamble
 node-d3-scale-chromatic:
   version: 1.3.3-1
   bugs:
@@ -15596,6 +15608,10 @@ node-sshpk:
   version: 1.13.0+dfsg-1
   issues:
     - timestamps_embedded_in_manpages_by_node_marked_man
+node-url-parse:
+  version: 1.4.7-3
+  issues:
+    - captures_varying_number_of_build_path_directory_components
 node-webpack-sources:
   version: 1.0.1-1
   bugs:
