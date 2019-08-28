@@ -15582,6 +15582,10 @@ node-promise:
   version: 8.0.1-1
   bugs:
     - 886277
+node-prop-types:
+  version: 15.6.0+ds-3
+  issues:
+    - captures_varying_number_of_build_path_directory_components
 node-rollup:
   version: 0.50.0-1
   comments: |
@@ -27527,6 +27531,10 @@ vtwm:
     https://sources.debian.net/src/vtwm/5.4.7-2.2/Imakefile/?hl=177:178#L177
   issues:
     - gcc_captures_build_path
+vue.js:
+  version: 2.5.17+dfsg-4
+  issues:
+    - captures_varying_number_of_build_path_directory_components
 vulkan:
   version: 1.0.21.0+dfsg1-1
   issues:
