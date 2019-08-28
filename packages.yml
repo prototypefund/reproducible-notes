@@ -15596,6 +15596,10 @@ node-sqlite3:
   version: 4.0.9+ds1-1
   comments: |
     Not 100-percent sure but this might be another due to the change of path length due the multiple ../../../ ../.. the other one was a JS package too, twitter-bootstrap IIRC
+node-srs:
+  version: 0.4.8+dfsg-4
+  issues:
+    - captures_varying_number_of_build_path_directory_components
 node-sshpk:
   version: 1.13.0+dfsg-1
   issues:
@@ -28635,6 +28639,10 @@ yrmcds:
   version: 1.1.8-1
   comments: |
     Fixed upstream: https://github.com/cybozu/yrmcds/commit/04cda93
+yt:
+  version: 3.5.0-1
+  issues:
+    - captures_varying_number_of_build_path_directory_components
 ytree:
   version: 1.94-1.1
   issues:
