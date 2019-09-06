@@ -12383,6 +12383,10 @@ libnb-platform18-java:
     - timestamps_in_pe_binaries
     - captures_build_path
     - different_encoding
+libnbd:
+  version: 1.0.0-1
+  issues:
+    - captures_build_path_in_beam_cma_cmt_files
 libncursesada:
   version: 5.9.20140726-1
   comments: |
