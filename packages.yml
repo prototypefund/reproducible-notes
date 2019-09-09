@@ -25608,6 +25608,10 @@ ssh-contact:
   version: 0.7-1
   issues:
     - gcc_captures_build_path
+sshesame:
+  version: 0.0~git20161116.b74f93f-1
+  issues:
+    - randomness_in_binaries_generated_by_golang
 sslh:
   version: 1.18-1
   bugs:
