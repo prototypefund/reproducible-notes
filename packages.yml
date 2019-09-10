@@ -13209,6 +13209,8 @@ libzeep:
   version: 3.0.5-2
   comments: |
     Setting FULL_PATH_NAMES etc in doc/Jamefile.v2 doesn't seem to have any affect.
+  issues:
+    - build_dir_in_documentation_generated_by_doxygen
 libzhuyin:
   version: 0.9.99.20140929-1
   issues:
