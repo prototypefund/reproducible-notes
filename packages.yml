@@ -13205,6 +13205,10 @@ libxss:
   version: 1:1.2.2-1
   issues:
     - gcc_captures_build_path
+libzeep:
+  version: 3.0.5-2
+  comments: |
+    Setting FULL_PATH_NAMES etc in doc/Jamefile.v2 doesn't seem to have any affect.
 libzhuyin:
   version: 0.9.99.20140929-1
   issues:
