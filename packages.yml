@@ -5377,6 +5377,10 @@ firmware-microbit-micropython:
   version: 1.0.1-1
   issues:
     - ftbfs_due_to_f-file-prefix-map
+firmware-tomu:
+  version: 2.0~rc7-1
+  issues:
+    - captures_build_path_via_assert
 fis-gtm:
   version: 6.2-002A-2
   comments: |
