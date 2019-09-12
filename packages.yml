@@ -17744,11 +17744,6 @@ piuparts:
   version: 0.84
   issues:
     - randomness_in_binaries_generated_by_golang
-pixelmed:
-  version: 20140816-1
-  comments: |
-    Embeds the build date into BUILDDATE:
-    https://sources.debian.net/src/pixelmed/20150917-1/Makefile/?hl=368#L368
 pixman:
   version: 0.34.0-2
   issues:
@@ -26348,10 +26343,6 @@ tempest-for-eliza:
   version: 1.0.5-2
   issues:
     - captures_build_path
-templayer:
-  version: 1.5.1-1
-  comments: |
-    Timestamps (and bogus HTML) in tutorial.html.
 tenace:
   version: 0.14-1
   issues:
