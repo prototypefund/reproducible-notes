@@ -2753,10 +2753,6 @@ coccinelle:
   version: 1.0.0~rc22
   issues:
     - timestamps_in_pdf_generated_by_latex
-coco-java:
-  version: 20110419-3.1
-  issues:
-    - timestamps_in_jar
 coda:
   version: 2.20-3
   bugs:
@@ -4076,10 +4072,6 @@ docopt.cpp:
   version: 0.6.2-1
   issues:
     - gcc_captures_build_path
-doctorj:
-  version: 5.0.0-5
-  issues:
-    - timestamps_in_jar
 dogecoin:
   version: 1.10.0-5
   issues:
@@ -17745,9 +17737,6 @@ pixelmed:
   comments: |
     Embeds the build date into BUILDDATE:
     https://sources.debian.net/src/pixelmed/20150917-1/Makefile/?hl=368#L368
-  issues:
-    - captures_build_path
-    - different_encoding
 pixman:
   version: 0.34.0-2
   issues:
