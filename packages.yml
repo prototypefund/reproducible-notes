@@ -4230,6 +4230,10 @@ duff:
   version: 0.5.2-1.1
   issues:
     - gcc_captures_build_path
+duktape:
+  version: 2.4.0-1
+  issues:
+    - captures_build_path_via_assert
 duma:
   version: 2.5.15-2
   issues:
@@ -8304,6 +8308,10 @@ hackrf:
   version: 2015.07.2-11
   issues:
     - build_id_differences_only
+hacktv:
+  version: 0+git20190909-1
+  issues:
+    - captures_build_path_via_assert
 haildb:
   version: 2.3.2-1.4
   issues:
@@ -26853,6 +26861,10 @@ tvc:
   version: 5.0.3+dfsg-1
   comments: |
     [experimental/amd64]
+tvoe:
+  version: 0.1-1
+  issues:
+    - captures_build_path_via_assert
 tvtime:
   version: 1.0.2-14
   issues:
