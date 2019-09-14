@@ -14110,10 +14110,6 @@ mediawiki2latex:
     The contents of the files src/babel/?? are embedded as a (basename => file
     contents) hash(?) in the .rodata section; the order of the literals
     differs.
-medit:
-  version: 1.2.0-2
-  issues:
-    - captures_build_path
 megaglest:
   version: 3.12.0-2
   issues:
@@ -26849,10 +26845,6 @@ tuxcmd-modules:
   version: 0.6.70+ds-5
   issues:
     - gcc_captures_build_path
-tuxguitar:
-  version: 1.2-20
-  issues:
-    - timestamps_in_jar
 tuxpaint:
   version: 1:0.9.22-2
   comments: |
