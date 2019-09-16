@@ -25234,6 +25234,10 @@ snd:
   version: 16.7-1
   issues:
     - gcc_captures_build_path
+snek:
+  version: 1.1-1
+  issues:
+    - captures_build_path_via_assert
 sni-qt:
   version: 0.2.7+15.10.20150729-2
   issues:
