@@ -23260,6 +23260,10 @@ rdist:
   version: 6.1.5-18
   issues:
     - gcc_captures_build_path
+rdkit:
+  version: 201903.1-2
+  issues:
+    - buildpath_in_postgres_opcodes
 rdp-classifier:
   version: 2.10.2-1
   issues:
