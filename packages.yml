@@ -947,6 +947,10 @@ aspcud:
   version: 1:1.9.1-2
   issues:
     - gcc_captures_build_path
+aspectc++:
+  version: 1:2.2+git20181008-2
+  issues:
+    - captures_build_path_via_assert
 aspectj:
   version: 1.8.5-1
   issues:
