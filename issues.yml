@@ -2003,3 +2003,6 @@ embeds_build_data_via_node_preamble:
   description:
     eg "Copyright 2019 Mike Bostock"
   url: https://bugs.debian.org/935790
+ghc_captures_build_path_via_tempdir:
+  description: |
+    A filename of the form "/tmp/ghcXXXX_0" is embedded into the binaries.
