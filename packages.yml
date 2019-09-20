@@ -9973,8 +9973,6 @@ kdbg:
   issues:
     - captures_build_path
     - different_encoding
-  bugs:
-    - 823393
 kdbusaddons:
   version: 5.28.0-1
   issues:
@@ -10042,10 +10040,6 @@ kdesignerplugin:
     however, the `--debug=aranges` shows no such difference.
     .
     There are also various ordering differences in .strtab, .debug_abbrev, possibly others.
-kdesrc-build:
-  version: 1.15.1-1.1
-  bugs:
-    - 826473
 kdesu:
   version: 5.28.0-2
   issues:
