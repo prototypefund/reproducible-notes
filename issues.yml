@@ -2009,3 +2009,7 @@ embeds_build_data_via_node_preamble:
 ghc_captures_build_path_via_tempdir:
   description: |
     A filename of the form "/tmp/ghcXXXX_0" is embedded into the binaries.
+buildpath_in_code_generated_by_bison:
+  description: |
+    Without `--no-lines` (and I think `--name-prefix`) the output will include
+    the absolute build path.
