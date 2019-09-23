@@ -8260,7 +8260,14 @@ guile-2.0:
 guile-2.2:
   version: 2.2.3+1-1
   comments: |
-    Installs generated Makefiles into the dev packages that have absolute build paths
+    Installs generated Makefiles into the dev packages that have
+    absolute build paths, record CFLAGS/etc. and SHELL.
+    .go files embed randomly generated symbols:
+    https://issues.guix.gnu.org/issue/20272
+    maybe worked around by disabling parallel build?
+  issues:
+    - captures_shell_variable_in_autofoo_script
+    - records_build_flags
 guiqwt:
   version: 3.0.1-1
   issues:
