@@ -3163,6 +3163,10 @@ cronutils:
   version: 1.9-1
   bugs:
     - 863072
+cross-toolchain-base-ports:
+  version: '35'
+  comments: |
+    Generates the version name with some script that varies across builds for some reason.
 crossroads:
   version: 2.81-1
   issues:
