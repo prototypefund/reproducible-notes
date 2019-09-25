@@ -19362,6 +19362,10 @@ python-pysnmp4:
   version: 4.4.3-1
   bugs:
     - 886003
+python-pytc:
+  version: 0.8-3
+  comments: |
+    includes build path but this might be a toolchain issue in the Python extension compilation process rather than in this leaf packagee
 python-qt4:
   version: 4.11.4+dfsg-2
   issues:
