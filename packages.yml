@@ -18069,6 +18069,10 @@ postgresql-11:
   version: 11.2-2
   issues:
     - randomness_in_postgres_opcodes
+postgresql-12:
+  version: 12.0-1
+  issues:
+    - buildpath_in_postgres_opcodes
 postgresql-9.6:
   version: 9.6~rc1-1
   issues:
