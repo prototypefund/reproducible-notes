@@ -16754,6 +16754,10 @@ opgpcard:
   version: 0.1.4-1
   bugs:
     - 902270
+ophcrack:
+  version: 3.8.0-2
+  comments: |
+    Does not respect dpkg-buildflags re. hardening etc. but exporting build flags does not magically result in package becoming reproducible
 opsin:
   version: 2.4.0-1
   issues:
