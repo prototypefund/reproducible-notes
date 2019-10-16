@@ -5054,11 +5054,6 @@ fbpager:
   version: 0.1.5~git20090221.1.8e0927e6-1.1
   issues:
     - gcc_captures_build_path
-fbreader:
-  version: 0.12.10dfsg2-2
-  comments: |
-    Filenames in debug symbols are differently ordered.
-    Probably readdir() order via https://sources.debian.net/src/fbreader/0.12.10dfsg2-2/fbreader/Makefile/#L24
 fceux:
   version: 2.2.2+dfsg0-1
   comments: |
