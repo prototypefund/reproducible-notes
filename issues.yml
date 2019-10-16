@@ -70,6 +70,11 @@ nondeterministic_ordering_in_documentation_generated_by_doxygen:
   description: |
     "Additional Inherited Members" has nondeterministic children in the (HTML?)
     docs.
+nondeterministic_ordering_in_include_graphs_generated_by_doxygen:
+  description: |
+    INCLUDE_GRAPHS generates a PNG (or similar) to represent the dependencies
+    between header files. However, these can be nondeterministically laid out
+    in the image.
 timestamps_in_manpages_generated_by_yat2m:
   description: |
     yat2m adds a timestamp in manpages it generates.
