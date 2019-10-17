@@ -9015,6 +9015,10 @@ input-utils:
   version: 1.0-1.1
   issues:
     - gcc_captures_build_path
+insighttoolkit4:
+  version: 4.12.2-dfsg1-4.1
+  comments: |
+    Embeds absolute build path in VCL_SOURCE_ROOT_DIR header, but this also likely is in the binaries too.
 insserv:
   version: 1.18.0-2
   issues:
