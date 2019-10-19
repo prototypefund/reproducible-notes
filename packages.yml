@@ -15680,12 +15680,6 @@ nordlicht:
   version: 0.4.4-3
   issues:
     - build_id_variation_requiring_further_investigation
-nordugrid-arc:
-  version: 5.0.1-1
-  comments: |
-    manpages have dates injected by ./configure.ac line 2239
-  issues:
-    - blacklisted_on_jenkins_armhf_only
 nordugrid-arc-doc:
   version: 1.5.0-1
   issues:
