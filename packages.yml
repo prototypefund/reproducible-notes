@@ -3972,6 +3972,10 @@ dmarc-cat:
   version: 0.9.2-2
   issues:
     - captures_build_path_via_assert
+dmrconfig:
+  version: 1.1+git20190918.511ed5c-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 dms:
   version: 1.0.8.1-1
   bugs:
@@ -16817,6 +16821,10 @@ os-autoinst:
   version: 4.3-1
   issues:
     - captures_build_path
+oscar:
+  version: 1.1.0-testing-3-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 osdclock:
   version: 0.5-23
   issues:
@@ -20204,6 +20212,10 @@ r-bioc-metagenomeseq:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
+r-bioc-multiassayexperiment:
+  version: 1.10.4+dfsg-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-bioc-multtest:
   version: 2.26.0-1
   issues:
@@ -20410,6 +20422,10 @@ r-cran-bayesfactor:
   version: 0.9.12-2-2
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-bayesfm:
+  version: 0.1.2-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-bayesm:
   version: 3.0-2-2
   issues:
@@ -20542,6 +20558,10 @@ r-cran-ca:
   version: 0.64-1
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-caic4:
+  version: 0.8-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-cairo:
   version: 1.5-9-1
   issues:
@@ -20658,6 +20678,10 @@ r-cran-corrplot:
   version: 0.84-1
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-covr:
+  version: 3.3.1+dfsg-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-cowplot:
   version: 0.9.4+dfsg-1
   issues:
@@ -20684,6 +20708,10 @@ r-cran-curl:
     - randomness_in_r_rdb_rds_databases
 r-cran-cvst:
   version: 0.2-1-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-d3network:
+  version: 0.5.2.1-1
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-data.table:
@@ -20962,6 +20990,10 @@ r-cran-filehash:
   version: 2.3-1
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-fit.models:
+  version: 0.5-14-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-fitbitscraper:
   version: 0.1.7-1
   issues:
@@ -21028,6 +21060,10 @@ r-cran-fs:
     - randomness_in_r_rdb_rds_databases
 r-cran-fts:
   version: 0.9.9-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-furrr:
+  version: 0.1.0-1
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-futile.logger:
@@ -21126,6 +21162,10 @@ r-cran-ggeffects:
   version: 0.5.0-1
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-ggm:
+  version: 2.3-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-ggplot2:
   version: 2.1.0-3
   issues:
@@ -21156,6 +21196,10 @@ r-cran-gh:
     - randomness_in_r_rdb_rds_databases
 r-cran-git2r:
   version: 0.21.0-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-glasso:
+  version: 1.10-1
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-glmmtmb:
@@ -21200,6 +21244,10 @@ r-cran-googlevis:
     - randomness_in_r_rdb_rds_databases
 r-cran-gower:
   version: 0.1.2-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-gparotation:
+  version: 2014.11-1-1
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-gprofiler:
@@ -21294,6 +21342,10 @@ r-cran-httr:
   version: 1.1.0-1
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-huge:
+  version: 1.3.3-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-hwriter:
   version: 1.3.2-1
   issues:
@@ -21382,6 +21434,10 @@ r-cran-jpeg:
   version: 0.1-8-1
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-jrc:
+  version: 0.1.1-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-jsonld:
   version: 2.0+dfsg-2
   issues:
@@ -21462,6 +21518,10 @@ r-cran-libcoin:
     - randomness_in_r_rdb_rds_databases
 r-cran-linprog:
   version: 0.9-2-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-lisreltor:
+  version: 0.1.4-1
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-listenv:
@@ -21756,6 +21816,10 @@ r-cran-ncmeta:
   version: 0.0.3-1
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-nfactors:
+  version: 2.3.3.1-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-nleqslv:
   version: 3.0.3-1
   issues:
@@ -22024,8 +22088,16 @@ r-cran-progress:
   version: 1.1.2-1
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-projpred:
+  version: 1.1.2-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-promises:
   version: 1.0.1-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-propclust:
+  version: 1.4-6-1
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-proto:
@@ -22156,6 +22228,10 @@ r-cran-randomforest:
   version: 4.6-12-1
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-randomglm:
+  version: 1.02-1-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-ranger:
   version: 0.10.1-1
   issues:
@@ -22202,6 +22278,10 @@ r-cran-rcppeigen:
     - randomness_in_r_rdb_rds_databases
 r-cran-rcppgsl:
   version: 0.3.0-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-rcppparallel:
+  version: 4.4.3+dfsg-1
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-rcppprogress:
@@ -22410,6 +22490,10 @@ r-cran-rprotobuf:
     - randomness_in_r_rdb_rds_databases
 r-cran-rredlist:
   version: 0.1.0-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-rsample:
+  version: 0.0.5-1
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-rsclient:
@@ -22747,6 +22831,10 @@ r-cran-sys:
     - randomness_in_r_rdb_rds_databases
 r-cran-systemfit:
   version: 1.1-22-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-systemfonts:
+  version: 0.1.1-1
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-taxize:
