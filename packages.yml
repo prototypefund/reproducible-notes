@@ -2466,6 +2466,8 @@ checkstyle:
     Also issues with locale in docs
 cheesecutter:
   version: 2.9+git20190611-1
+  comments: |
+    com.util.versionInfo in util.d
   issues:
     - timestamps_from_cpp_macros_in_d
 cheetah:
