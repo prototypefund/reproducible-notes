@@ -2464,6 +2464,10 @@ checkstyle:
     Capture build time in
     /usr/share/java/checkstyle.jar:checkstylecompilation.properties
     Also issues with locale in docs
+cheesecutter:
+  version: 2.9+git20190611-1
+  issues:
+    - timestamps_from_cpp_macros_in_d
 cheetah:
   version: 2.4.4-3
   issues:
