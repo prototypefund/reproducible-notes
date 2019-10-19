@@ -4424,6 +4424,10 @@ echoping:
     https://sources.debian.net/src/echoping/6.0.2-8/configure.ac/#L337-L338
   issues:
     - gcc_captures_build_path
+eckit:
+  version: 1.4.2-2
+  comments: |
+    eckit_ecbuild_config.h embeds kernel, cflags, buildpath, buildtime etc etc
 ecl:
   version: 15.3.7+dfsg1-1
   comments: |
