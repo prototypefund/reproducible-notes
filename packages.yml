@@ -19290,6 +19290,10 @@ python-osd:
   version: 0.2.14-6
   issues:
     - gcc_captures_build_path
+python-oslo.concurrency:
+  version: 3.30.0-2
+  comments: |
+    I think this is actually a problem in sphinx's apidoc combined with the use of apidoc_module_dir = '../../' in this package?
 python-oslo.utils:
   version: 3.16.0-2
   issues:
