@@ -739,7 +739,7 @@ berkeley_db_variation_requiring_further_investigation:
     Berkeley databases are not reproducibly.
     This issue requires further poking to understand way.
     https://github.com/libzhuyin/libzhuyin/issues/7
-  url: https://lists.alioth.debian.org/pipermail/reproducible-builds/Week-of-Mon-20150302/001188.html
+  url: https://alioth-lists.debian.net/pipermail/reproducible-builds/Week-of-Mon-20150302/001188.html
 different_due_to_umask:
   description: |
     Files have varying permissions because of different umasks.
@@ -995,7 +995,7 @@ randomness_in_r_rdb_rds_databases:
     packages will need to be investigated and fixed individually, see our blog
     post on how to do that:
     .
-    https://reproducible.alioth.debian.org/blog/posts/reproducing-r-packages/
+    https://reproducible-builds.org/news/2017/05/03/reproduciing-r-packages/
 python-ply_compiled_parse_tables:
   description: |
     python-ply generates parse tables (eg. parsetab.py) that are
@@ -1346,9 +1346,9 @@ captures_build_path:
     .
     For more background information see:
     .
-     • https://lists.alioth.debian.org/pipermail/reproducible-builds/Week-of-Mon-20160822/006788.html
-     • https://lists.alioth.debian.org/pipermail/reproducible-builds/Week-of-Mon-20160905/006984.html
-     • https://lists.alioth.debian.org/pipermail/reproducible-builds/Week-of-Mon-20160912/007076.html
+     • https://alioth-lists.debian.net/pipermail/reproducible-builds/Week-of-Mon-20160822/006788.html
+     • https://alioth-lists.debian.net/pipermail/reproducible-builds/Week-of-Mon-20160905/006984.html
+     • https://alioth-lists.debian.net/pipermail/reproducible-builds/Week-of-Mon-20160912/007076.html
   deterministic: True
 captures_build_path_in_beam_cma_cmt_files:
   description: |
@@ -1481,9 +1481,9 @@ records_build_flags:
     .
     For more background information see:
     .
-     • https://lists.alioth.debian.org/pipermail/reproducible-builds/Week-of-Mon-20160822/006788.html
-     • https://lists.alioth.debian.org/pipermail/reproducible-builds/Week-of-Mon-20160905/006984.html
-     • https://lists.alioth.debian.org/pipermail/reproducible-builds/Week-of-Mon-20160912/007076.html
+     • https://alioth-lists.debian.net/pipermail/reproducible-builds/Week-of-Mon-20160822/006788.html
+     • https://alioth-lists.debian.net/pipermail/reproducible-builds/Week-of-Mon-20160905/006984.html
+     • https://alioth-lists.debian.net/pipermail/reproducible-builds/Week-of-Mon-20160912/007076.html
   deterministic: False  # XXX FIXME this is also true
 clilibs_line_order:
   description: |
@@ -1525,9 +1525,9 @@ captures_build_path_via_assert:
     .
     For more background information see:
     .
-     • https://lists.alioth.debian.org/pipermail/reproducible-builds/Week-of-Mon-20160822/006788.html
-     • https://lists.alioth.debian.org/pipermail/reproducible-builds/Week-of-Mon-20160905/006984.html
-     • https://lists.alioth.debian.org/pipermail/reproducible-builds/Week-of-Mon-20160912/007076.html
+     • https://alioth-lists.debian.net/pipermail/reproducible-builds/Week-of-Mon-20160822/006788.html
+     • https://alioth-lists.debian.net/pipermail/reproducible-builds/Week-of-Mon-20160905/006984.html
+     • https://alioth-lists.debian.net/pipermail/reproducible-builds/Week-of-Mon-20160912/007076.html
 captures_build_arch:
   description: |
     Captures the build arch (`uname -m`, typically i686 v. x86_64).
