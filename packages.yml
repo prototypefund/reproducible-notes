@@ -25538,6 +25538,10 @@ speech-tools:
     /usr/lib/speech_tools/config/system.mak
   issues:
     - records_build_flags
+speedcrunch:
+  version: 0.12.0-4
+  comments: |
+    Embeds a bunch of SQL sql statements and I think even a sqlite database in the /usr/bin/speedcrunch binary but I do not see where in the source package.
 speex:
   version: 1.2~rc1.2-1
   issues:
