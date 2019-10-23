@@ -19730,6 +19730,10 @@ qtbase-opensource-src:
     - 876901
     - 876917
     - 876933
+qtbase-opensource-src-gles:
+  version: 5.12.5+dfsg-1
+  issues:
+    - captures_build_dir_in_qmake_prl_files
 qtcharts-opensource-src:
   version: 5.7.1-1
   issues:
