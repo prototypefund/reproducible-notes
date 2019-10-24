@@ -13375,8 +13375,6 @@ litl:
   version: 0.1.9-5
   issues:
     - build_dir_in_tags_generated_by_doxygen
-  bugs:
-    - 936453
 littler:
   version: 0.3.1-1
   comments: |
@@ -14981,8 +14979,6 @@ myghty:
   version: 1.1-5
   comments: |
     https://sources.debian.net/src/myghty/1.1-5/doc/components/doclib.myt/#L171 embeds the last modification of the source file into the generated html documents, but sadly it does vary that with the timezone...
-  bugs:
-    - 835637
 mygui:
   version: 3.2.2-5
   issues:
