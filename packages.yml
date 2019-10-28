@@ -23696,6 +23696,10 @@ ros-class-loader:
   version: 0.3.4-1
   issues:
     - gcc_captures_build_path
+ros-dynamic-reconfigure:
+  version: 1.6.0-3
+  issues:
+    - nondeterminstic_output_in_code_generated_by_ros_genpy
 ros-geometric-shapes:
   version: 0.4.4-1
   issues:
@@ -23724,6 +23728,10 @@ ros-laser-geometry:
   version: 1.6.4-2
   issues:
     - gcc_captures_build_path
+ros-navigation-msgs:
+  version: 1.13.1-1
+  issues:
+    - nondeterminstic_output_in_code_generated_by_ros_genpy
 ros-nodelet-core:
   version: 1.9.5-2
   issues:
@@ -23733,6 +23741,10 @@ ros-opencv-apps:
   issues:
     - captures_build_path
     - captures_build_path_via_assert
+ros-pcl-msgs:
+  version: 0.2.0-10
+  issues:
+    - nondeterminstic_output_in_code_generated_by_ros_genpy
 ros-pluginlib:
   version: 1.10.3-1
   issues:
