@@ -13849,10 +13849,6 @@ maint-guide:
     - different_due_to_umask
     - timestamps_in_epub
     - timestamps_in_pdf_content
-maitreya:
-  version: 7.0.7-1
-  issues:
-    - captures_build_path
 make-dfsg:
   version: 4.1-9.1
   issues:
@@ -25074,8 +25070,6 @@ simgrid:
   version: 3.18+dfsg-1
   comments: |
     Encodes lib directory in binary
-  issues:
-    - captures_build_path
 simh:
   version: 3.8.1-5
   issues:
