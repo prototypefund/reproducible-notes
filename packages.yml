@@ -23692,6 +23692,10 @@ ros-class-loader:
   version: 0.3.4-1
   issues:
     - gcc_captures_build_path
+ros-common-msgs:
+  version: 1.12.7-2
+  issues:
+    - nondeterminstic_output_in_code_generated_by_ros_genpy
 ros-dynamic-reconfigure:
   version: 1.6.0-3
   issues:
@@ -23757,6 +23761,10 @@ ros-ros-comm:
   version: 1.12.6-2
   issues:
     - build_id_differences_only
+ros-ros-comm-msgs:
+  version: 1.11.2-10
+  issues:
+    - nondeterminstic_output_in_code_generated_by_ros_genpy
 ros-roscpp-core:
   version: 0.6.0-1
   issues:
