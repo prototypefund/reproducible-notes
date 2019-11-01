@@ -3650,10 +3650,6 @@ debian-builder:
     - timestamps_in_gzip_headers
   bugs:
     - 777009
-debian-edu-doc:
-  version: 2.10.19
-  issues:
-    - timestamps_in_pdf_generated_by_imagemagick
 debian-faq:
   version: 5.0.3
   issues:
