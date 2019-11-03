@@ -7098,8 +7098,6 @@ gmt:
   comments: |
     Pending: https://anonscm.debian.org/cgit/pkg-grass/gmt.git/tree/debian/patches/source_date_epoch.patch
   issues:
-    - timestamps_in_pdf_generated_by_latex
-    - captures_build_path
     - pdf_id_varying_due_to_build_path
 gmysqlcc:
   version: 0.3.0-5
@@ -14131,10 +14129,6 @@ mender-client:
   version: 1.7.0-4
   issues:
     - captures_build_path_via_assert
-menhir:
-  version: 20160808+dfsg-1
-  issues:
-    - captures_build_path
 menu:
   version: 2.1.47
   issues:
