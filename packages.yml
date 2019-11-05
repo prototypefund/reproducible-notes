@@ -13690,6 +13690,8 @@ lysdr:
     - gcc_captures_build_path
 lz4:
   version: 1.9.2-1
+  comments: |
+    Does not respect CFLAGS, CPPFLAGS etc so does not pick up debug-prefix-map etc. from dpkg-buildflags.
   issues:
     - captures_build_path_via_assert
 lz4-java:
