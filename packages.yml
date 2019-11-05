@@ -14122,6 +14122,10 @@ mender-client:
   version: 1.7.0-4
   issues:
     - captures_build_path_via_assert
+menhir:
+  version: 20190924-1
+  issues:
+    - captures_build_path
 menu:
   version: 2.1.47
   issues:
