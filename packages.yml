@@ -13688,6 +13688,10 @@ lysdr:
   version: 1.0~git20141206+dfsg1-1
   issues:
     - gcc_captures_build_path
+lz4:
+  version: 1.9.2-1
+  issues:
+    - captures_build_path_via_assert
 lz4-java:
   version: 1.5.1-2
   comments: |
