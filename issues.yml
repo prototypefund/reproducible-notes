@@ -2022,7 +2022,7 @@ buildpath_in_code_generated_by_bison:
   description: |
     Without `--no-lines` (and I think `--name-prefix`) the output will include
     the absolute build path.
-nondetermistic_defaults_in_documentation_generated_by_python_traitlets:
+nondeterministic_defaults_in_documentation_generated_by_python_traitlets:
   description: |
     python-traitlets can generate .rst doctrings for various values. If the
     value is of their "Set" type, then the repr() value of this is
