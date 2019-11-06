@@ -248,7 +248,6 @@ ahcpd:
 ahven:
   version: 2.4+repack-1
   issues:
-    - timestamps_in_ada_library_information_files
     - captures_build_path
 aircrack-ng:
   version: 1:1.2.0~rc4-2
@@ -6402,22 +6401,6 @@ gcc-6:
     
       Add post-processing in libjava/Makefile.am?
       Or touch before creating tools.zip in libjava/classpath/tools/Makefile.am?
-    
-    * Timestamps in ADA interfaces (.ali)
-    
-      - gcc/ada/ali-util.ali
-    
-      Might be fixable by adding the right `touch` in gcc/ada/Make-generated.in
-      where the following files are generated:
-      nmake.adb, nmake.ads, sdefault.adb, snames.adb, snames.ads, treeprs.ads.
-    
-      In gcc/ada/gcc-interface/Makefile.in for:
-      s-oscons.ads, system.ads, b_gnatl.adb, b_gnatl.ads, b_gnatm.adb, b_gnatm.ads.
-    
-      In gcc/ada/gcc-interface/Make-lang.in for:
-      b_gnat1.adb, b_gnat1.ads, b_gnatb.adb, b_gnatb.ads, gnatvsn.ads.
-    
-      No clue: b~lto13.adb, b~lto13.ads.
   issues:
     - blacklisted_on_jenkins_armhf_only
   bugs:
@@ -7100,9 +7083,9 @@ gnat-gps:
   issues:
     - timestamps_in_pdf_generated_by_latex
 gnat-mingw-w64:
-  version: 15.1
+  version: 22~exp1
   issues:
-    - timestamps_in_ada_library_information_files
+    - diffoscope_runs_forever
 gniall:
   version: 0.7.1-7.1
   issues:
@@ -12348,12 +12331,9 @@ libnbd:
   issues:
     - captures_build_path_in_beam_cma_cmt_files
 libncursesada:
-  version: 5.9.20140726-1
-  comments: |
-    Also random order of files contained in static library.
+  version: 6.1.20180127-3
   issues:
-    - timestamps_in_ada_library_information_files
-    - captures_build_path
+    - unknown_ada_issue
     - records_build_flags
 libnes:
   version: 1.1.4-1
@@ -13129,9 +13109,9 @@ libxmlenc-java:
   issues:
     - random_order_in_documentation_generated_by_javadoc
 libxmlezout:
-  version: 1.06.1-7
+  version: 1.06.1-13
   issues:
-    - timestamps_in_ada_library_information_files
+    - cflags_recorded_in_in_ada_ali_files
     - unknown_ada_issue
     - records_build_flags
 libxmlrpc3-java:
@@ -17157,11 +17137,12 @@ pcsc-cyberjack:
   issues:
     - gcc_captures_build_path
 pcscada:
-  version: 0.7.2-1
+  version: 0.7.3-1
+  comments: |
+    Reproducible on amd64, not on i386.
+    Random order of object files.
   issues:
-    - timestamps_in_ada_library_information_files
     - random_order_in_static_libraries
-    - records_build_flags
 pcsx2:
   version: 1.4.0+dfsg-2
   issues:
@@ -17976,10 +17957,9 @@ polyml:
   issues:
     - captures_build_path
 polyorb:
-  version: 2.11~20140418-3
+  version: 2.11~20140418-3.2
   issues:
-    - timestamps_in_ada_library_information_files
-    - captures_build_path
+    - unknown_ada_issue
 pomegranate-clojure:
   version: 0.2.0-1
   issues:

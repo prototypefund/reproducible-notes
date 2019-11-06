@@ -541,6 +541,8 @@ timezones_manpages_podman:
 timestamps_in_ada_library_information_files:
   description: |
     Ada Library Information (.ali) files contain the mtime of the Ada source (.ads) files that they index.
+    .
+    Fixed in gcc >= 7-20170302-1.
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInAdaLibraryInformationFiles
   deterministic: False
 ftbfs_wdatetime:
