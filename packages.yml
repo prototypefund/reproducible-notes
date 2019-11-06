@@ -160,19 +160,6 @@ adacontrol:
   version: 1.16r11-3
   issues:
     - unknown_ada_issue
-adasockets:
-  version: 1.9-1
-  comments: |
-    A few of the Ada source files are copied with the cp command by make
-    before being indexed in the .ali file. The original deterministic
-    mtime is lost during the cp and a non-deterministic mtime gets indexed
-    in the .ali file.  Also, the sockets-constants.ads file is generated
-    by src/constants.sh, which embeds the current time in a comment.
-    Embeds build date, `uname -a`:
-    https://sources.debian.net/src/adasockets/1.9-1.1/src/constants.sh/?hl=60#L59
-  issues:
-    - timestamps_in_ada_library_information_files
-    - random_id_in_pdf_generated_by_dblatex
 adcli:
   version: 0.7.5-1
   issues:
