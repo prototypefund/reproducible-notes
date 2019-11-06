@@ -11654,13 +11654,14 @@ libgnatcoll:
   issues:
     - diffoscope_runs_forever
 libgnatcoll-bindings:
-  version: 18-2
+  version: 19-1
   issues:
-    - cflags_recorded_in_in_ada_ali_files
+    - buildpath_in_binaries_generated_by_ada_compiler
 libgnatcoll-db:
   version: 18-4
   issues:
-    - cflags_recorded_in_in_ada_ali_files
+    - unknown_ada_issue
+    - random_order_in_static_libraries
 libgnuinet-java:
   version: 1.1.2-2
   issues:
@@ -13111,7 +13112,7 @@ libxmlenc-java:
 libxmlezout:
   version: 1.06.1-13
   issues:
-    - cflags_recorded_in_in_ada_ali_files
+    - cflags_recorded_in_ada_ali_files
     - unknown_ada_issue
     - records_build_flags
 libxmlrpc3-java:

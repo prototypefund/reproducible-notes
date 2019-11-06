@@ -1916,15 +1916,14 @@ dc_created_timestamp_in_javadoc:
     .
     openjdk 11 related?
   url: https://bugs.debian.org/913132
-cflags_recorded_in_in_ada_ali_files:
+cflags_recorded_in_ada_ali_files:
   description: |
     For example
     .
     -A -fdebug-prefix-map=/home/lamby/temp/cdt.20181107083218.xPYfSWqN3H.repro.libgnatcoll-bindings/build-a/libgnatcoll-bindings-18=.
     +A -fdebug-prefix-map=/home/lamby/temp/cdt.20181107083218.xPYfSWqN3H.repro.libgnatcoll-bindings/build-b/libgnatcoll-bindings-18=.
     .
-    Probably easily stripped with dh-ada-library; it seems to have some related
-    code.
+    Fixed in gcc >= 8.2.0-13, broken in >= 9, hopefully fixed in >= 9.2.1-18.
 paths_vary_due_to_usrmerge:
   description: |
     eg. /bin/ vs /usr/bin/
