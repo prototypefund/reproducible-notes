@@ -1929,6 +1929,8 @@ cflags_recorded_in_ada_ali_files:
     +A -fdebug-prefix-map=/home/lamby/temp/cdt.20181107083218.xPYfSWqN3H.repro.libgnatcoll-bindings/build-b/libgnatcoll-bindings-18=.
     .
     Fixed in gcc >= 8.2.0-13, broken in >= 9, hopefully fixed in >= 9.2.1-18.
+    .
+    Also can vary due to things like `gnatem=/tmp/GNAT-TEMP-000010.TMP` in cflags
 paths_vary_due_to_usrmerge:
   description: |
     eg. /bin/ vs /usr/bin/
