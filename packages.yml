@@ -15984,6 +15984,10 @@ ocaml-mmap:
   version: 1.1.0-1
   issues:
     - captures_build_path_in_beam_cma_cmt_files
+ocaml-num:
+  version: 1.2-2
+  issues:
+    - ocaml_captures_build_path
 ocaml-ogg:
   version: 0.5.2-1
   issues:
@@ -16022,6 +16026,10 @@ ocaml-res:
     - ocaml_captures_build_path
 ocaml-rope:
   version: 0.6.1-1
+  issues:
+    - ocaml_captures_build_path
+ocaml-sedlex:
+  version: 2.1-1
   issues:
     - ocaml_captures_build_path
 ocaml-sexplib0:
@@ -16160,6 +16168,10 @@ ocp:
     - captures_build_path
 ocp-indent:
   version: 1.7.0-1
+  issues:
+    - ocaml_captures_build_path
+ocplib-endian:
+  version: 1.0-1
   issues:
     - ocaml_captures_build_path
 ocplib-simplex:
