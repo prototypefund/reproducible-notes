@@ -1720,6 +1720,10 @@ ocaml_captures_build_path:
   description: |
     Captures build path, e.g., /build/1st/foo-42.0 v. /build/foo-42.0/2nd
   deterministic: False
+ocaml_dune_captures_build_path:
+  description: |
+    Captures build path, e.g., /build/1st/foo-42.0/_build v. /build/foo-42.0/2nd/_build
+  deterministic: False
 jellyfish_creates_nondeterministic_json:
   description: |
     /usr/bin/jellyfish can generate non-deterministic JSON.
