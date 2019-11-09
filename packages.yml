@@ -13577,6 +13577,10 @@ lwipv6:
   version: 1.5a-2
   issues:
     - gcc_captures_build_path
+lwt:
+  version: 4.3.0-1
+  issues:
+    - ocaml_dune_captures_build_path
 lxlauncher:
   version: 0.2.5-1
   issues:
@@ -14597,6 +14601,10 @@ morsegen:
   version: 0.2.1-1
   bugs:
     - 782219
+morsmall:
+  version: 0.3.0-1
+  issues:
+    - ocaml_dune_captures_build_path
 morty:
   version: 0.1.0-1
   issues:
