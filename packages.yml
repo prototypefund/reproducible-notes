@@ -19451,12 +19451,6 @@ pythontracer:
   version: 8.10.16-1.2
   issues:
     - gcc_captures_build_path
-pyviennacl:
-  version: 1.0.2+dfsg-1
-  issues:
-    - blacklisted_on_jenkins_armhf_only
-  bugs:
-    - 813083
 pyx:
   version: 0.12.1-6
   issues:
