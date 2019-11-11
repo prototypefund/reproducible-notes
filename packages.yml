@@ -6697,6 +6697,10 @@ gforth:
   version: 0.7.3+dfsg-3
   issues:
     - records_build_flags
+gfpoken:
+  version: 1-2
+  comments: |
+    Writes png files using internal glib/gdk routines which I think have timestamps, etc.
 gfxboot:
   version: 4.5.2-1.1-5
   issues:
