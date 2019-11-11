@@ -17690,6 +17690,10 @@ pkg-config:
   version: 0.29-4
   issues:
     - gcc_captures_build_path
+pkgconf:
+  version: 1.6.3-4
+  issues:
+    - paths_vary_due_to_usrmerge
 pktools:
   version: 2.6.7-3
   issues:
