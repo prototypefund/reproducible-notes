@@ -20028,6 +20028,10 @@ r-bioc-cummerbund:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
+r-bioc-dada2:
+  version: 1.14.0+dfsg-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-bioc-delayedarray:
   version: 0.4.1-1
   issues:
@@ -22989,6 +22993,10 @@ r-cran-utf8:
     - randomness_in_r_rdb_rds_databases
 r-cran-uuid:
   version: 0.1.2-6
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-uwot:
+  version: 0.1.4-1
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-v8:
