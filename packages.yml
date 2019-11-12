@@ -16884,6 +16884,10 @@ p7zip:
   version: 16.02+dfsg-2
   issues:
     - gcc_captures_build_path
+pa-ounit:
+  version: 113.00.00-3
+  issues:
+    - ocaml_dune_captures_build_path
 pacapt:
   version: 2.3.14-1
   bugs:
@@ -27021,6 +27025,10 @@ typespeed:
   version: 0.6.5-2.1
   issues:
     - gcc_captures_build_path
+tyxml:
+  version: 4.1.0-1
+  issues:
+    - ocaml_dune_captures_build_path
 tzc:
   version: 2.6.15-5.3
   issues:
@@ -27330,6 +27338,10 @@ validator.js:
   version: 4.7.1+dfsg1-1.1
   bugs:
     - 882541
+variantslib:
+  version: 113.33.03-2
+  issues:
+    - ocaml_dune_captures_build_path
 varnish:
   version: 4.0.2-1
   issues:
