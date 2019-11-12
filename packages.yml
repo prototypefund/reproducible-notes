@@ -9761,6 +9761,10 @@ junior-doc:
     - timestamps_in_gzip_headers
     - different_encoding
     - timestamps_in_ps_generated_by_dvips
+junit5:
+  version: 5.3.2-1
+  issues:
+    - user_in_java_jar_manifest
 jupyter-notebook:
   version: 5.7.4-2.1
   issues:
