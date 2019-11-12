@@ -14437,6 +14437,10 @@ mona:
     - captures_build_path
     - records_build_flags
     - libtool_captures_shell_build-flags_build-path_path-env
+mongo-c-driver:
+  version: 1.15.2-1
+  issues:
+    - records_build_flags
 mongo-tools:
   version: 3.2.11-1
   issues:
