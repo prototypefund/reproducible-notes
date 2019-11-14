@@ -23518,8 +23518,10 @@ resource-agents:
   version: 1:4.2.0-1
   issues:
     - paths_vary_due_to_usrmerge
+    - bin_sh_is_bash
   bugs:
     - 915848
+    - 944694
 restic:
   version: 0.8.3+ds-1
   issues:
