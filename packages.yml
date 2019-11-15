@@ -19950,6 +19950,10 @@ r-bioc-affyio:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
+r-bioc-all:
+  version: 1.28.0-2
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-bioc-altcdfenvs:
   version: 1:2.34.0-1
   issues:
@@ -22172,6 +22176,10 @@ r-cran-pwt9:
     - randomness_in_r_rdb_rds_databases
 r-cran-qap:
   version: 0.1-1-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-qgraph:
+  version: 1.6.3-1
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-qpdf:
