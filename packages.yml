@@ -7125,6 +7125,10 @@ gnome-sharp2:
     - timestamps_in_pe_binaries
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
+gnome-shell-extension-arc-menu:
+  version: 38.3-dev-1
+  issues:
+    - different_pot_creation_date_in_gettext_mo_files
 gnome-shell-mailnag:
   version: 3.26.0-1
   issues:
