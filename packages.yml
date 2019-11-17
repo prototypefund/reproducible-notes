@@ -20015,6 +20015,10 @@ r-bioc-biocparallel:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
+r-bioc-biocversion:
+  version: 3.10.1-3
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-bioc-biomart:
   version: 2.28.0-1
   issues:
@@ -20046,6 +20050,10 @@ r-bioc-bsgenome:
     - gcc_captures_build_path
 r-bioc-cner:
   version: 1.16.1+dfsg-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-bioc-consensusclusterplus:
+  version: 1.50.0-1
   issues:
     - randomness_in_r_rdb_rds_databases
 r-bioc-cummerbund:
