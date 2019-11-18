@@ -2427,10 +2427,6 @@ chemeq:
   version: 2.18-1
   issues:
     - captures_build_path
-chemical-structures:
-  version: 2.2.dfsg.0-12
-  issues:
-    - timestamps_in_mdl_molfile
 chemps2:
   version: 1.8-1
   issues:
@@ -10225,8 +10221,6 @@ kido:
   comments: |
     Embeds the build path via CMAKE_SOURCE_DIR
     https://sources.debian.net/src/kido/0.1.0%2Bdfsg-2/kido/config.hpp.in/?hl=51#L52
-  issues:
-    - captures_build_path
 kig:
   version: 4:16.04.1-1
   issues:
