@@ -111,6 +111,10 @@ acl2:
     Update 2017-04-28: tried 7.2dfsg-3 on testing/amd64 and the first build was autokilled after 18h… (so blacklisted again)
   issues:
     - blacklisted_on_jenkins
+acme:
+  version: 1:0.96.4-4
+  issues:
+    - captures_build_path
 acmetool:
   version: 0.0.51-1
   issues:
