@@ -1469,6 +1469,7 @@ binpac:
   issues:
     - gcc_captures_build_path
 binutils:
+  version: 2.33.1-2
   comments: |
     fails to build reproducibly on 32-bit architectures (i386, armhf).
     fails to build reproducibly on 64-bit architectures only in
