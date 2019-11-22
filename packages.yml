@@ -1472,8 +1472,8 @@ binutils:
     unstable (probably build paths).
 binutils-djgpp:
   version: '1.1'
-  issues:
-    - timestamps_in_manpages_generated_by_help2man
+  comments: |
+    calls pod2man. the mtimes might be weird as we've unpacked a tarball though. see also binutils-mingw-w64
 binutils-m68hc1x:
   version: 1:2.18-7
   comments: |
@@ -1484,7 +1484,7 @@ binutils-m68hc1x:
 binutils-mingw-w64:
   version: 7.4
   comments: |
-    upstream/ld/Makefile.am calls pod2man. the mtimes might be weird as we've unpacked a tarball though
+    upstream/ld/Makefile.am calls pod2man. the mtimes might be weird as we've unpacked a tarball though. see also binutils-djgpp.
 binutils-msp430:
   version: 2.22~msp20120406-5
   issues:
