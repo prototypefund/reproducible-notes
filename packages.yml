@@ -1771,6 +1771,10 @@ bovo:
   version: 4:16.04.0-1
   issues:
     - gcc_captures_build_path
+bowtie2:
+  version: 2.3.5.1-1
+  comments: |
+    Spits out a imp python deprecation warning that contains the full build path which ends in the manpage.
 boxbackup:
   version: 0.11.1~r2837-4
   issues:
