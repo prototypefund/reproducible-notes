@@ -15440,6 +15440,10 @@ node-es6-promise:
   version: 4.2.8-6
   issues:
     - captures_varying_number_of_build_path_directory_components
+node-expat:
+  version: 2.3.18-1
+  issues:
+    - captures_build_path_via_assert
 node-fuzzaldrin-plus:
   version: 0.3.1+git.20161008.da2cb58+dfsg-4
   issues:
@@ -15456,6 +15460,10 @@ node-magic-string:
   version: 0.25.3-2
   issues:
     - captures_varying_number_of_build_path_directory_components
+node-mapnik:
+  version: 3.7.2+dfsg-5
+  issues:
+    - captures_build_path_via_assert
 node-mocha:
   version: 4.1.0+ds1-2
   issues:
