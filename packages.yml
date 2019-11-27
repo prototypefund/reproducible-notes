@@ -5538,10 +5538,6 @@ fonts-arphic-bsmi00lp:
   comments: |
     fontforge script:
     https://sources.debian.net/src/fonts-arphic-bsmi00lp/2.10-14/fix-0uFE4F.pe/
-fonts-atarismall:
-  version: 2.2-1
-  issues:
-    - fontforge_resets_modification_time
 fonts-beteckna:
   version: 0.5-1
   issues:
@@ -5626,10 +5622,6 @@ fonts-ocr-a:
   comments: |
     fontforge script:
     https://sources.debian.net/src/fonts-ocr-a/1.0-6/debian/scripts/ConvertFont.ff/
-fonts-ocr-b:
-  version: 0.2~dfsg1-2
-  issues:
-    - fontforge_resets_modification_time
 fonts-oldstandard:
   version: 2.2really-3
   issues:
@@ -16823,10 +16815,6 @@ owx:
   version: 0~20110415-3.1
   issues:
     - gcc_captures_build_path
-oxygen-fonts:
-  version: 4:5.3.1-1
-  issues:
-    - fontforge_resets_modification_time
 oxygen-icons5:
   version: 5:5.28.0-1
   comments: |
@@ -26945,10 +26933,6 @@ tsung:
     - captures_build_path_in_beam_cma_cmt_files
 ttf-freefont:
   version: 20100919-1
-  issues:
-    - fontforge_resets_modification_time
-ttf-staypuft:
-  version: 0.04-6
   issues:
     - fontforge_resets_modification_time
 tth:
