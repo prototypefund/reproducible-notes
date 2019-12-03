@@ -3362,7 +3362,8 @@ cyrus-imapd:
     locales.
     .
     Hence, sort()ing the arguments in the Perl script should fix this issue:
-      https://anonscm.debian.org/cgit/users/danielsh-guest/reproducible-patches.git/plain/cyrus-imapd-2.5.9-2.diff
+      https://salsa.debian.org/danielsh-guest/reproducible-patches/blob/master/cyrus-imapd-2.5.9-2.diff
+      https://salsa.debian.org/debian/cyrus-imapd/commit/0e1488be31999626abaec69286619af30f149dff#note_124081
     .
     [1] https://sources.debian.net/src/cyrus-imapd/2.5.9-2/lib/mkchartable.pl/#L77
     [2] https://sources.debian.net/src/cyrus-imapd/2.5.9-2/Makefile.am/#L1262
@@ -17972,7 +17973,7 @@ postfix:
     Issue #3: usr/share/doc/postfix-doc/examples/LICENSE missing from first build.
     Cause: locale-sensitive shell glob https://sources.debian.net/src/postfix/3.1.0-5/debian/rules/#L126 «[a-z]*» (matches aBbCcDd…xYyZz)
     .
-    Patch for #1, #2, and #3: https://anonscm.debian.org/cgit/users/danielsh-guest/reproducible-patches.git/plain/postfix_3.1.0-5.diff
+    Patch for #1, #2, and #3: https://salsa.debian.org/danielsh-guest/reproducible-patches/blob/master/postfix_3.1.0-5.diff
       It builds fine, but I'm unable to verify whether it resolves #2.
   issues:
     - collation_order_varies_by_locale
