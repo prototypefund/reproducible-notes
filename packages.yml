@@ -25625,6 +25625,20 @@ sqlalchemy:
   version: 0.9.8+dfsg-0.1
   issues:
     - randomness_in_documentation_generated_by_sphinx
+sqlite3:
+  version: 3.11.1-1
+  comments: |
+    Capture shell in libtool file:
+    ./usr/lib/tcltk/sqlite3/libtclsqlite3.la
+    .la files should not be shipped in Debian packages
+  issues:
+    - captures_shell_variable_in_autofoo_script
+    - captures_build_path
+    - records_build_flags
+sqlite3-pcre:
+  version: 0~git20070120091816+4229ecc-1
+  issues:
+    - gcc_captures_build_path
 sqlitebrowser:
   version: 3.11.2-1
   comments: |
@@ -25690,20 +25704,6 @@ sqlitebrowser:
     sqlitebrowser, and looking for «Q_INIT_RESOURCE(translations)» in
     codesearch.debian.net has four matches in three packages, none of them
     obviously relevant (kid3, flightgear, clementine).
-sqlite3:
-  version: 3.11.1-1
-  comments: |
-    Capture shell in libtool file:
-    ./usr/lib/tcltk/sqlite3/libtclsqlite3.la
-    .la files should not be shipped in Debian packages
-  issues:
-    - captures_shell_variable_in_autofoo_script
-    - captures_build_path
-    - records_build_flags
-sqlite3-pcre:
-  version: 0~git20070120091816+4229ecc-1
-  issues:
-    - gcc_captures_build_path
 sqljet:
   version: 1.1.10-1
   issues:
