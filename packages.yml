@@ -3323,6 +3323,8 @@ cyclograph:
 cyrus-imapd:
   version: 2.5.9-2
   comments: |
+    [The issue described by these comments was fixed upstream in https://github.com/cyrusimap/cyrus-imapd/pull/2931.]
+    .
     The differences in /usr/lib/x86_64-linux-gnu/libcyrus.so.0.0.0 are 100% ordering differences:
     each hexdump line (four 32-bit words) appears on both the left and right side of the diff,
     but the lines are in a different order.
