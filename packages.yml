@@ -5576,10 +5576,6 @@ fonts-gamaliel:
   version: 0.1-1
   issues:
     - build_time_embedded_by_fontforge
-fonts-gotico-antiqua:
-  version: 0+git20190704-1
-  issues:
-    - fontforge_resets_modification_time
 fonts-goudybookletter:
   version: 2010.07.03-2
   issues:
@@ -18853,7 +18849,6 @@ python-biopython:
   version: 1.68+dfsg-1
   issues:
     - pdf_id_varying_due_to_build_path
-    - timestamps_in_tex_documents
 python-bleach:
   version: 3.1.0-1
   bugs:
