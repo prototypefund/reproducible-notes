@@ -15235,6 +15235,10 @@ nfs-utils:
   version: 1:1.2.8-9.2
   issues:
     - gcc_captures_build_path
+nftables:
+  version: 0.9.3-1
+  bugs:
+    - 946332
 nginx:
   version: 1.11.5-1~exp1
   comments: |
