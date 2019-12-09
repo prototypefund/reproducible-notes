@@ -15480,6 +15480,10 @@ node-qs:
   version: 6.9.0+ds-1
   issues:
     - randomness_in_browserify_lite_output
+node-react:
+  version: 16.2.0-4
+  comments: |
+    I think this is exposed by nondeterminstic filesystem ordering but the root cause in that it generates an AST-like graph of all the source files in order to inject debug calls; my clue for this is the "but could not be resolved" error messages in the build log diffs.
 node-semver:
   version: 5.3.0-1
   issues:
