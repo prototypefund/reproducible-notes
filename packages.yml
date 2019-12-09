@@ -14007,14 +14007,9 @@ merkleeyes:
   issues:
     - golang_compiler_captures_build_path_in_binary
 mes:
-  version: 0.20-1
-  comments: |
-    SHELL variable is set in configure to the full path of bash or sh,
-    which triggers issues when built on a usrmerge system
-    vs. non-usermerge.
+  version: 0.21-3
   issues:
-    - paths_vary_due_to_usrmerge
-    - captures_shell_variable_in_autofoo_script
+    - gcc_captures_build_path
 mesa:
   version: 13.0.6-1
   issues:
