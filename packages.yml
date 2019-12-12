@@ -16116,11 +16116,6 @@ oclgrind:
     Generates two ".pch" files using clang with a couple of unreproducible bytes; no obvious cause.
   issues:
     - captures_build_path
-ocp:
-  version: 1:0.1.21-1.1
-  issues:
-    - timestamps_in_gzip_headers
-    - captures_build_path
 ocp-indent:
   version: 1.7.0-1
   issues:
