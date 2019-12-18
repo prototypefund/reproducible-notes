@@ -2202,6 +2202,10 @@ cc1111:
   version: 2.9.0-7
   issues:
     - build_id_differences_only
+cc65:
+  version: 2.18-1
+  comments: |
+    does not respect dpkg-buildflags so no GCC prefix stripping
 ccbuild:
   version: 2.0.7-2
   issues:
