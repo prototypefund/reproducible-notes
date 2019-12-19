@@ -26113,6 +26113,10 @@ swapspace:
   version: 1.10-4
   issues:
     - gcc_captures_build_path
+swarm-cluster:
+  version: 3.0.0+dfsg-1
+  issues:
+    - captures_build_path_via_assert
 sweethome3d-furniture:
   version: 1.4.2-1
   issues:
