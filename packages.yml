@@ -3163,6 +3163,10 @@ cryptgps:
   version: 0.2.1-9
   issues:
     - ocaml_captures_build_path
+cryptokit:
+  version: 1.14-1
+  issues:
+    - captures_build_path_via_assert
 crystalhd:
   version: 1:0.0~git20110715.fdd2f19-11
   issues:
@@ -7066,6 +7070,10 @@ gnucash-docs:
   version: 2.6.9-1
   issues:
     - timestamps_in_pdf_generated_by_apache_fop
+gnucobol:
+  version: 2.2-5
+  issues:
+    - captures_build_path_via_assert
 gnudatalanguage:
   version: 0.9.6v2-3
   issues:
