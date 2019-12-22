@@ -8544,6 +8544,10 @@ hunt:
   version: 1.5-6.1
   issues:
     - gcc_captures_build_path
+hwinfo:
+  version: 21.67-1.1
+  comments: |
+    I think this caused by getAllIncludeFilesRecursively in doxygen
 hwloc:
   version: 1.11.5-1
   issues:
