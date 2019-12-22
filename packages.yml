@@ -1010,8 +1010,6 @@ ats2-lang:
   version: 0.2.9-1
   comments: |
     I think this buildpath is in utils/atscc dynload method?
-  issues:
-    - captures_build_path
 attica:
   version: 0.4.2-2
   issues:
@@ -3165,10 +3163,6 @@ cryptgps:
   version: 0.2.1-9
   issues:
     - ocaml_captures_build_path
-cryptokit:
-  version: 1.13-2
-  issues:
-    - captures_build_path_in_beam_cma_cmt_files
 crystalhd:
   version: 1:0.0~git20110715.fdd2f19-11
   issues:
@@ -13244,10 +13238,6 @@ llvmlite:
   version: 0.15.0+git20161228.95d8c7c-2
   issues:
     - python_versioneer_uses_parentdir
-lmdb:
-  version: 0.9.18-4
-  issues:
-    - captures_build_path
 lme4:
   version: 1.1-12-2
   issues:
@@ -25018,8 +25008,6 @@ simgrid:
   version: 3.18+dfsg-1
   comments: |
     Encodes lib directory in binary
-  issues:
-    - captures_build_path
 simh:
   version: 3.8.1-5
   issues:
