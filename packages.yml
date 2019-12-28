@@ -556,6 +556,10 @@ apertium-af-nl:
   version: 0.2.0~r58256-1
   issues:
     - nondeterminism_in_autolex_bin
+apertium-afr-nld:
+  version: 0.3.0-1
+  issues:
+    - nondeterminism_in_autolex_bin
 apertium-arg-cat:
   version: 0.1.0~r64925-1
   issues:
@@ -580,6 +584,10 @@ apertium-en-gl:
   version: 0.5.2~r57551-2
   issues:
     - build_path_in_apertium_mode_files
+apertium-eng-cat:
+  version: 1.0.1-1
+  issues:
+    - nondeterminism_in_autolex_bin
 apertium-eo-en:
   version: 1.0.0~r63833-2
   issues:
@@ -633,6 +641,14 @@ apertium-oc-es:
   version: 1.0.6~r57551-3
   issues:
     - build_path_in_apertium_mode_files
+apertium-oci-fra:
+  version: 0.3.0-1
+  issues:
+    - nondeterminism_in_autolex_bin
+apertium-por-cat:
+  version: 0.9.0-1
+  issues:
+    - nondeterminism_in_autolex_bin
 apertium-pt-ca:
   version: 0.8.2+svn~57507-4
   issues:
