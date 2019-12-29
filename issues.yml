@@ -2050,6 +2050,8 @@ nondeterministic_devhelp_documentation_generated_by_gtk_doc:
   url: https://bugs.debian.org/946331
 markdown_random_email_address_html_entities:
   description: |
-    markdown will use srand-om email addresses in HTML in an attempt to thwart
-    spammers.
-  url: https://bugs.debian.org/947608
+    /usr/bin/markdown will use srand-om email addresses in HTML in an attempt to thwart
+    spammers. This binary is provided by both markdown and
+    libtext-markdown-perl which both have/had issues (see https://bugs.debian.org/947608
+    for the former and https://bugs.debian.org/947708 for the latter)
+  url: https://bugs.debian.org/947708
