@@ -447,7 +447,8 @@ randomness_in_documentation_generated_by_sphinx:
   url: https://wiki.debian.org/ReproducibleBuilds/SphinxIssues
 randomness_in_frozenset_representations_in_sphinx:
   description: |
-    frozensets are non-deterministic
+    frozensets are non-deterministic. fixed upstream, waiting for Debian
+    release/upload
   url: https://github.com/sphinx-doc/sphinx/pull/5388
 randomness_in_documentation_indices_generated_by_sphinx:
   description: |
