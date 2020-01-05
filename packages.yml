@@ -7489,6 +7489,10 @@ golang-github-spf13-cobra:
   version: 0.0~git20160607.0.1238ba1-1
   issues:
     - golang_compiler_captures_build_path_in_binary
+golang-github-sylabs-sif:
+  version: 1.0.9-1
+  comments: |
+    Generates and ships .sif files that contain an uuid/ctime/mtime without using SOURCE_DATE_EPOCH (https://sources.debian.org/src/golang-github-sylabs-sif/1.0.9-1/pkg/sif/sif.go/#L27) but we could just skip these files as they appear to be test data that is not really needed at runtime.
 golang-github-tdewolff-minify:
   version: 2.1.0+git20170802.25.b6ab3cd-1
   issues:
