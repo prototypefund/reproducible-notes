@@ -27195,9 +27195,6 @@ tzc:
     - gcc_captures_build_path
 u-boot:
   version: 2016.09+dfsg1-2
-  comments: |
-    [armhf,arm64] On amd64, build path variations do not impact the
-    only package built, u-boot-tools.
   issues:
     - gcc_captures_build_path
 u1db:
