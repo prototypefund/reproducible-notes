@@ -16500,6 +16500,10 @@ openjpeg2:
     - gcc_captures_build_path
   bugs:
     - 899126
+openkim-models:
+  version: 20190331-4
+  comments: |
+    Embeds build path either due to Debug.h but more likely implicitly via some Fortan routines- the embedded memory error strings are from some stdlib.
 openlayer:
   version: 2.1-2.1
   issues:
