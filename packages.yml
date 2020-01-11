@@ -1026,10 +1026,6 @@ ats2-lang:
   version: 0.2.9-1
   comments: |
     I think this buildpath is in utils/atscc dynload method?
-attica:
-  version: 0.4.2-2
-  issues:
-    - gcc_captures_build_path
 auctex:
   version: 11.87-3+deb8u1
   comments: |
@@ -1102,10 +1098,6 @@ automake1.11:
     - timezone_variance_because_of_automake_mdate
     - timestamp_in_info_file_created_by_makeinfo
     - captures_shell_variable_in_autofoo_script
-automoc:
-  version: 1.0~version-0.9.88-5
-  issues:
-    - gcc_captures_build_path
 autoproject:
   version: 0.20-10
   issues:
@@ -1793,10 +1785,6 @@ bouncycastle:
   version: 1.54-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-bovo:
-  version: 4:16.04.0-1
-  issues:
-    - gcc_captures_build_path
 boxbackup:
   version: 0.11.1~r2837-4
   issues:
@@ -9718,12 +9706,6 @@ kaa-metadata:
   version: 0.7.7+svn4596-4
   issues:
     - gcc_captures_build_path
-kaccessible:
-  version: 4:16.08.0-1
-  comments: |
-    Will probably have build_id_differences_only once the assert is fixed.
-  issues:
-    - captures_build_path_via_assert
 kaccounts-integration:
   version: 16.04.2-1
   issues:
@@ -9732,10 +9714,6 @@ kactivities-kf5:
   version: 5.26.0-1
   issues:
     - build_id_differences_only
-kactivities-stats:
-  version: 5.28.0-1
-  issues:
-    - gcc_captures_build_path
 kactivitymanagerd:
   version: 5.8.0-1
   issues:
@@ -9777,14 +9755,6 @@ kapptemplate:
   issues:
     - users_and_groups_in_tarball
     - different_due_to_umask
-karchive:
-  version: 5.25.0-1
-  bugs:
-    - 876901
-kate:
-  version: 4:16.04.2-1
-  issues:
-    - gcc_captures_build_path
 kauth:
   version: 5.25.0-1
   issues:
@@ -9800,10 +9770,6 @@ kbd:
     - gcc_captures_build_path
 kbdd:
   version: 0.6-4
-  issues:
-    - gcc_captures_build_path
-kbookmarks:
-  version: 5.28.0-1
   issues:
     - gcc_captures_build_path
 kbuild:
@@ -9828,10 +9794,6 @@ kcollectd:
   version: 0.9-4
   issues:
     - gcc_captures_build_path
-kcompletion:
-  version: 5.28.0-1
-  issues:
-    - gcc_captures_build_path
 kconfig:
   version: 5.26.0-1
   issues:
@@ -9844,32 +9806,10 @@ kcptun:
   version: 20171201+ds-1
   issues:
     - randomness_in_binaries_generated_by_golang
-kcrash:
-  version: 5.28.0-1
-  issues:
-    - gcc_captures_build_path
-kdbusaddons:
-  version: 5.28.0-1
-  issues:
-    - gcc_captures_build_path
 kde-cli-tools:
   version: 4:5.8.4-2
   issues:
     - build_id_differences_only
-kde-dev-utils:
-  version: 4:15.12.2-2
-  issues:
-    - gcc_captures_build_path
-kde4libs:
-  version: 4:4.14.2-5
-  comments: |
-    Records kernel version:
-    https://sources.debian.net/src/kde4libs/4:4.14.2-5/config-compiler.h.cmake/?hl=4#L4
-    https://sources.debian.net/src/kde4libs/4:4.14.2-5/kdeui/dialogs/kbugreport.cpp/?hl=494#L494
-    Also the build date is recorded in kdecmake.1 manpage.
-  issues:
-    - captures_kernel_version
-    - different_encoding
 kdeclarative:
   version: 5.26.0-1
   issues:
@@ -9890,10 +9830,6 @@ kdegraphics-mobipocket:
   version: 4:16.08.0-1
   issues:
     - build_id_variation_requiring_further_investigation
-kdepim:
-  version: 4:16.04.3-3
-  issues:
-    - build_id_differences_only
 kdepim-addons:
   version: 16.04.3-1
   issues:
@@ -9906,15 +9842,6 @@ kdeplasma-addons:
   version: 4:5.8.5-2
   issues:
     - build_id_differences_only
-kdesignerplugin:
-  version: 5.26.0-1
-  comments: |
-    Most KDE packages are affected by `build_id_differences_only` only, but this package has additional issues.
-    .
-    The `readelf --wide --sections` output suggests the first section having a length difference is `.debug_aranges`,
-    however, the `--debug=aranges` shows no such difference.
-    .
-    There are also various ordering differences in .strtab, .debug_abbrev, possibly others.
 kdesu:
   version: 5.28.0-2
   issues:
@@ -9923,10 +9850,6 @@ kdevelop:
   version: 4:5.0.3-1
   issues:
     - build_id_differences_only
-kdevelop-pg-qt:
-  version: 1.0.0-3
-  issues:
-    - gcc_captures_build_path
 kdevelop-php:
   version: 1.7.0-1
   issues:
@@ -9936,14 +9859,6 @@ kdevelop-python:
   version: 5.0.3-1
   issues:
     - build_id_differences_only
-kdevplatform:
-  version: 5.0.3-1
-  issues:
-    - build_id_differences_only
-kdewebkit:
-  version: 5.28.0-1
-  issues:
-    - gcc_captures_build_path
 kdf:
   version: 4:15.08.0-2
   issues:
@@ -9952,14 +9867,6 @@ kdgcommons-java:
   version: 1.0.13-1
   issues:
     - user_in_java_jar_manifest
-kdiagram:
-  version: 2.6.0-1
-  issues:
-    - captures_build_path_via_assert
-kdnssd-kf5:
-  version: 5.28.0-1
-  issues:
-    - gcc_captures_build_path
 keepalived:
   version: 1:1.2.13-1
   bugs:
@@ -10011,26 +9918,14 @@ keytouch-editor:
   version: 1:3.2.0~beta-3
   issues:
     - gcc_captures_build_path
-kf5-kdepimlibs:
-  version: 4:16.04.2-2
-  issues:
-    - build_id_differences_only
 kf5-messagelib:
   version: 4:16.04.3-2
-  issues:
-    - build_id_differences_only
-kfilemetadata:
-  version: 4:4.14.3-1
   issues:
     - build_id_differences_only
 kfilemetadata-kf5:
   version: 5.26.0-1
   issues:
     - build_id_differences_only
-kfloppy:
-  version: 4:16.04.0-2
-  issues:
-    - gcc_captures_build_path
 kfourinline:
   version: 4:16.04.0-1
   issues:
@@ -10122,28 +10017,12 @@ kid3:
   version: 3.4.1-1
   issues:
     - captures_build_path
-kidentitymanagement:
-  version: 16.04.2-1
-  issues:
-    - gcc_captures_build_path
 kidletime:
   version: 5.25.0-1
   issues:
     - build_id_variation_requiring_further_investigation
-kig:
-  version: 4:16.04.1-1
-  issues:
-    - gcc_captures_build_path
 kile:
   version: 4:2.1.3-4
-  issues:
-    - gcc_captures_build_path
-kimageformats:
-  version: 5.25.0-1
-  issues:
-    - gcc_captures_build_path
-kimap:
-  version: 16.04.2-1
   issues:
     - gcc_captures_build_path
 kimwitu:
@@ -10170,16 +10049,8 @@ kio-extras:
   version: 4:16.08.3-1
   issues:
     - build_id_differences_only
-kio-mtp:
-  version: 0.75+git20140304-2
-  issues:
-    - gcc_captures_build_path
 kissplice:
   version: 2.4.0-p1-1
-  issues:
-    - gcc_captures_build_path
-kitemviews:
-  version: 5.28.0-1
   issues:
     - gcc_captures_build_path
 kiten:
@@ -10233,10 +10104,6 @@ klustakwik:
   version: 2.0.1-1
   issues:
     - gcc_captures_build_path
-kmag:
-  version: 4:16.08.0-1
-  bugs:
-    - 881666
 kmail:
   version: 18.08.1-1
   issues:
@@ -10249,10 +10116,6 @@ kmc:
   version: 2.3+dfsg-5
   issues:
     - gcc_captures_build_path
-kmediaplayer:
-  version: 5.28.0-1
-  issues:
-    - gcc_captures_build_path
 kmenuedit:
   version: 4:5.4.3-1
   issues:
@@ -10261,14 +10124,6 @@ kmer:
   version: 0~20150903+r2013-3
   issues:
     - captures_build_path_via_assert
-kmime:
-  version: 16.04.2-1
-  issues:
-    - gcc_captures_build_path
-kmplot:
-  version: 4:16.04.2-1
-  issues:
-    - gcc_captures_build_path
 knewstuff:
   version: 5.28.0-1
   issues:
@@ -10284,10 +10139,6 @@ knotifications:
   issues:
     - gcc_captures_build_path
     - ftbfs_due_to_f-file-prefix-map
-knotifyconfig:
-  version: 5.28.0-1
-  issues:
-    - gcc_captures_build_path
 knowthelist:
   version: 2.3.0-2
   comments: |
@@ -10371,10 +10222,6 @@ koules:
   version: 1.4-23
   issues:
     - gcc_captures_build_path
-kover:
-  version: 1:4-8
-  issues:
-    - gcc_captures_build_path
 kpackage:
   version: 5.25.0-1
   issues:
@@ -10399,10 +10246,6 @@ kpimtextedit:
   version: 18.08.3-1
   comments: |
     Appears to enumerate over some widgets in an .widgets file in a nondeterministic order
-kplotting:
-  version: 5.28.0-1
-  issues:
-    - gcc_captures_build_path
 kproperty:
   version: 3.0.2-1
   issues:
@@ -10432,27 +10275,15 @@ kross:
   version: 5.26.0-1
   issues:
     - build_id_differences_only
-kross-interpreters:
-  version: 4:16.08.0-1
-  issues:
-    - gcc_captures_build_path
 krunner:
   version: 5.25.0-1
   issues:
     - different_due_to_umask
     - users_and_groups_in_tarball
-krusader:
-  version: 1:2.4.0~beta3-2
-  issues:
-    - gcc_captures_build_path
 kryo-serializers:
   version: 0.22-3
   bugs:
     - 875594
-ksaneplugin:
-  version: 4:16.08.0-1
-  issues:
-    - gcc_captures_build_path
 kservice:
   version: 5.28.0-1
   issues:
@@ -10477,18 +10308,10 @@ ksirk:
   version: 18.04.1-1
   issues:
     - build_id_differences_only
-kspaceduel:
-  version: 4:14.12.2-2
-  issues:
-    - gcc_captures_build_path
 kst:
   version: 2.0.3-5
   issues:
     - build_id_differences_only
-kstars:
-  version: 4:16.04.1-1
-  issues:
-    - gcc_captures_build_path
 ksyntax-highlighting:
   version: 5.28.0-1
   issues:
@@ -10501,18 +10324,10 @@ ktexteditor:
   version: 5.25.0-1
   issues:
     - build_id_variation_requiring_further_investigation
-ktextwidgets:
-  version: 5.25.0-1
-  issues:
-    - gcc_captures_build_path
 ktikz:
   version: 0.11.ds1-1
   issues:
     - timestamps_in_qch
-ktnef:
-  version: 16.04.2-1
-  issues:
-    - gcc_captures_build_path
 ktp-common-internals:
   version: 15.08.3-1
   issues:
@@ -10529,14 +10344,6 @@ kubernetes-addon-heapster:
   version: 1.2.0+dfsg-1
   bugs:
     - 882466
-kubrick:
-  version: 4:17.08.3-1
-  bugs:
-    - 883626
-kunitconversion:
-  version: 5.28.0-1
-  issues:
-    - gcc_captures_build_path
 kup-backup:
   version: 0.6.1+dfsg-1
   issues:
@@ -11692,10 +11499,6 @@ libimglib2-java:
   version: 4.5.0-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-libindi:
-  version: 1.2.0-3
-  issues:
-    - build_id_differences_only
 libindicator:
   version: 0.5.0-3
   issues:
@@ -11924,32 +11727,14 @@ libkcddb:
   version: 4:16.08.3-1
   issues:
     - build_id_differences_only
-libkdegames:
-  version: 4:16.08.0-1
-  issues:
-    - build_id_differences_only
 libkdtree++:
   version: 0.7.1+git20101123-4
-  issues:
-    - gcc_captures_build_path
-libkf5calendarsupport:
-  version: 4:16.04.2-2
   issues:
     - gcc_captures_build_path
 libkf5incidenceeditor:
   version: 16.04.2-2
   issues:
     - build_id_variation_requiring_further_investigation
-libkf5kdgantt2:
-  version: 4:16.04.2-1
-  issues:
-    - gcc_captures_build_path
-libkf5kface:
-  version: 15.12.0-3
-  comments: |
-    Same issue as supercollider-sc3-plugins.
-  issues:
-    - gcc_captures_build_path
 libkf5kgeomap:
   version: 16.04.0-2
   issues:
@@ -11958,10 +11743,6 @@ libkf5ksieve:
   version: 4:16.04.3-2
   issues:
     - build_id_differences_only
-libkf5libkleo:
-  version: 4:16.04.2-1
-  issues:
-    - gcc_captures_build_path
 libkf5mailcommon:
   version: 4:16.04.2-2
   issues:
@@ -13747,10 +13528,6 @@ mapsembler2:
   comments: |
     Stores date and uname:
     https://sources.debian.net/src/mapsembler2/2.2.3%2Bdfsg-2/mapsembler2_extremities/thirdparty/gatb-core/src/gatb/system/api/config.hpp.in/?hl=23,27
-marble:
-  version: 4:16.04.1-3
-  issues:
-    - build_id_differences_only
 maria:
   version: 1.3.5-4
   issues:
@@ -17568,10 +17345,6 @@ picard-tools:
   version: 1.138+dfsg.1-1
   issues:
     - random_order_in_javahelper_substvars
-picmi:
-  version: 4:16.04.0-1
-  issues:
-    - gcc_captures_build_path
 picocom:
   version: 1.7-1
   issues:
@@ -17705,10 +17478,6 @@ plasma-mediacenter:
     - build_id_differences_only
 plasma-nm:
   version: 4:5.8.0-1
-  issues:
-    - build_id_differences_only
-plasma-pa:
-  version: 5.8.0-1
   issues:
     - build_id_differences_only
 plasma-workspace:
@@ -18115,10 +17884,6 @@ powermanga:
   version: 0.93.1-2
   issues:
     - build_path_captured_in_assembly_objects
-poxml:
-  version: 4:15.12.0-3
-  issues:
-    - gcc_captures_build_path
 ppl:
   version: 1:1.2-1
   issues:
@@ -19538,10 +19303,6 @@ qiime:
   issues:
     - random_order_in_python_environment_pickle
     - randomness_in_documentation_generated_by_sphinx
-qimageblitz:
-  version: 1:0.0.6-4
-  issues:
-    - build_id_variation_requiring_further_investigation
 qlandkartegt:
   version: 1.8.1+ds-7
   issues:
@@ -19728,12 +19489,6 @@ qtquickcontrols2-opensource-src:
   version: 5.9.1-3
   issues:
     - captures_build_dir_in_qmake_prl_files
-qtruby:
-  version: 4:4.14.3-1
-  issues:
-    - timestamps_in_tarball
-    - different_due_to_umask
-    - captures_build_path
 qtscript-opensource-src:
   version: 5.3.2+dfsg-2
   issues:
@@ -19798,11 +19553,6 @@ qtwebengine-opensource-src:
   version: 5.9.1+dfsg-4
   issues:
     - captures_build_dir_in_qmake_prl_files
-qtwebkit:
-  version: 2.3.4.dfsg-3
-  issues:
-    - timestamps_from_cpp_macros
-    - captures_build_path
 qtwebsockets-opensource-src:
   version: 5.3.2-5
   issues:
@@ -25431,10 +25181,6 @@ snek:
   version: 1.1-1
   issues:
     - captures_build_path_via_assert
-sni-qt:
-  version: 0.2.7+15.10.20150729-2
-  issues:
-    - gcc_captures_build_path
 snimpy:
   version: 0.8.11-1
   issues:
@@ -26190,10 +25936,6 @@ survival:
   version: 2.39-5-1
   issues:
     - randomness_in_r_rdb_rds_databases
-    - gcc_captures_build_path
-svgpart:
-  version: 4:16.08.0-1
-  issues:
     - gcc_captures_build_path
 svgsalamander:
   version: 1.1.1+dfsg-1
