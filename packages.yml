@@ -535,6 +535,7 @@ apache2:
     Note: this would be the third tweak to the tgz creation; see #839977 for previous iterations.
   issues:
     - records_build_flags
+    - paths_vary_due_to_usrmerge
 apache2-mod-xforward:
   version: 0.6-1
   issues:
