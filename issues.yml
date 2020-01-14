@@ -2055,3 +2055,6 @@ markdown_random_email_address_html_entities:
     libtext-markdown-perl which both have/had issues (see https://bugs.debian.org/947608
     for the former and https://bugs.debian.org/947708 for the latter)
   url: https://bugs.debian.org/947708
+captures_build_path_via_haskell_adddependentfile:
+  description: |
+    adds build path in p_hi via addDependentFile
