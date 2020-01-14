@@ -8229,8 +8229,6 @@ haskell-gtk-traymanager:
     - build_id_differences_only
 haskell-hledger:
   version: 1.2-1
-  comments: |
-    adds build path in p_hi via addDependentFile
   issues:
     - captures_build_path_via_haskell_adddependentfile
 haskell-iso8601-time:
