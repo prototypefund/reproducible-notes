@@ -1200,6 +1200,10 @@ bacula-doc:
     - fonts_in_pdf_files
     - pdf_created_by_ghostscript
     - captures_users_gecos
+badger:
+  version: 2.0.0-2
+  issues:
+    - captures_build_path_in_golang_compiler
 bagel:
   version: 0.0~git20170109-1
   bugs:
