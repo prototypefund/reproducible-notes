@@ -938,6 +938,9 @@ collation_order_varies_by_locale:
     order produced by invocations like ls *.  This can usually be
     fixed with LC_COLLATE=C.UTF-8 or LC_COLLATE=C.
   deterministic: True
+captures_build_path_in_golang_compiler:
+  description: |
+    Possibly when embedding third party libraries?
 random_build_path_by_golang_compiler:
   description: |
     The golang compiler embeds paths with a random component into object files.
