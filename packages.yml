@@ -3238,6 +3238,10 @@ curlpp:
   version: 0.8.1-1
   issues:
     - gcc_captures_build_path
+curry-frontend:
+  version: 1.0.4-3
+  issues:
+    - captures_build_path_via_haskell_adddependentfile
 curry-libs:
   version: 1.0.0-1
   issues:
@@ -8227,6 +8231,8 @@ haskell-hledger:
   version: 1.2-1
   comments: |
     adds build path in p_hi via addDependentFile
+  issues:
+    - captures_build_path_via_haskell_adddependentfile
 haskell-iso8601-time:
   version: 0.1.4-4
   issues:
