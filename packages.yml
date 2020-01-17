@@ -17914,6 +17914,10 @@ ppx-deriving-yojson:
   version: 3.5.1-2
   issues:
     - ocaml_dune_captures_build_path
+ppx-optcomp:
+  version: 1:0.13.0-1
+  issues:
+    - ocaml_captures_build_path
 ppx-tools:
   version: 5.0+4.05.0-1
   issues:
@@ -23220,6 +23224,10 @@ re2c:
     - 934697
 react:
   version: 1.2.0-3
+  issues:
+    - ocaml_captures_build_path
+reactivedata:
+  version: 0.2.2-1
   issues:
     - ocaml_captures_build_path
 readline:
