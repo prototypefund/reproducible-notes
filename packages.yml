@@ -8826,6 +8826,10 @@ indent:
   version: 2.2.11-4
   issues:
     - texi2html_captures_users_gecos
+indigo:
+  version: 1.2.3-2
+  comments: |
+    Embeds the build path into the .jar files' Class-Path which won't work at binary/runtime. Assuming that the package works right now (ie. with broken paths) then I would guess this line could be completely removed as we would be falling back to /usr/share/java/ for our classpath.
 infinipath-psm:
   version: 3.3+7.gec1d6d2-3
   comments: |
