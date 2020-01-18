@@ -5374,6 +5374,10 @@ flameshot:
   version: 0.6.0-5
   issues:
     - build_id_differences_only
+flang:
+  version: 20181226-2
+  issues:
+    - ffile_prefix_map_passed_to_clang
 flann:
   version: 1.8.4-4.1
   issues:
@@ -7798,6 +7802,7 @@ grantlee5:
   version: 5.1.0-2
   issues:
     - build_id_differences_only
+    - ftbfs_due_to_f-file-prefix-map
 grap:
   version: 1.45-1
   bugs:
@@ -8764,6 +8769,10 @@ ifstat:
   version: 1.1-8
   issues:
     - gcc_captures_build_path
+ignition-common:
+  version: 1.1.1-1
+  issues:
+    - ftbfs_due_to_f-file-prefix-map
 ignition-math2:
   version: 2.5.0-1
   issues:
@@ -9739,6 +9748,7 @@ kalarmcal:
   version: 16.04.2-2
   issues:
     - gcc_captures_build_path
+    - ftbfs_due_to_f-file-prefix-map
 kalzium:
   version: 4:16.04.0-1
   issues:
@@ -9801,6 +9811,7 @@ kcodecs:
   version: 5.25.0-1
   issues:
     - captures_build_path
+    - ftbfs_due_to_f-file-prefix-map
   bugs:
     - 876933
 kcollectd:
@@ -9827,6 +9838,7 @@ kdeclarative:
   version: 5.26.0-1
   issues:
     - build_id_differences_only
+    - ftbfs_due_to_f-file-prefix-map
 kdeconnect:
   version: 1.0.1-1
   issues:
@@ -10243,6 +10255,7 @@ kparts:
   version: 5.25.0-1
   issues:
     - captures_build_path
+    - ftbfs_due_to_f-file-prefix-map
 kpartsplugin:
   version: 20120605-1
   comments: |
@@ -11772,6 +11785,7 @@ libkgapi:
   version: 5.1.0-2
   issues:
     - build_id_differences_only
+    - ftbfs_due_to_f-file-prefix-map
 libkiwix:
   version: 3.1.1-1
   comments: |
@@ -13562,6 +13576,10 @@ marisa:
   version: 0.2.4-8
   issues:
     - gcc_captures_build_path
+massif-visualizer:
+  version: 0.7.0-1
+  issues:
+    - ftbfs_due_to_f-file-prefix-map
 massxpert:
   version: 3.4.1-1
   issues:
@@ -15999,6 +16017,7 @@ okteta:
   version: 4:16.08.2-1
   issues:
     - build_id_differences_only
+    - ftbfs_due_to_f-file-prefix-map
 olive-editor:
   version: 20181223-2
   issues:
@@ -24603,6 +24622,10 @@ scoop:
   bugs:
     - 802318
     - 835534
+scram:
+  version: 0.16.2-1
+  issues:
+    - ftbfs_due_to_f-file-prefix-map
 scrcpy:
   version: 1.11+ds-1
   issues:
@@ -24696,6 +24719,14 @@ senlin:
     - random_order_in_python_environment_pickle
     - captures_build_path
     - user_hostname_manually_added_requiring_further_investigation
+seqan:
+  version: 1.4.2+dfsg-3
+  issues:
+    - ftbfs_due_to_f-file-prefix-map
+seqan2:
+  version: 2.4.0+dfsg-11
+  issues:
+    - ftbfs_due_to_f-file-prefix-map
 seqan3:
   version: 3.0.0+ds2-1
   issues:
@@ -26350,6 +26381,10 @@ telepathy-qt:
   version: 0.9.6.1-6.1
   issues:
     - build_id_differences_only
+tellico:
+  version: 3.1.4-1
+  issues:
+    - ftbfs_due_to_f-file-prefix-map
 tempest-for-eliza:
   version: 1.0.5-2
   issues:
