@@ -6495,6 +6495,7 @@ geoip:
     - captures_build_path
     - captures_shell_variable_in_autofoo_script
     - records_build_flags
+    - paths_vary_due_to_usrmerge
 geomview:
   version: 1.9.5-1
   comments: |
@@ -12045,6 +12046,7 @@ libnet:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
+    - paths_vary_due_to_usrmerge
 libnet-ldapapi-perl:
   version: 3.0.3-7
   issues:
