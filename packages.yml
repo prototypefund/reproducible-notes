@@ -5416,14 +5416,15 @@ fldigi:
   issues:
     - gcc_captures_build_path
 flex:
-  version: 2.6.0-11
+  version: 2.6.4-6.2
+  comments: |
+    example Makefiles embed build path in various variable
+    definitions as well as SHELL, GREP, CFLAGS, etc.
   issues:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
-    - random_id_in_pdf_generated_by_dblatex
-  bugs:
-    - 841360
+    - paths_vary_due_to_usrmerge
 flex-old:
   version: 2.5.4a-10
   issues:
