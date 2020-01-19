@@ -24766,11 +24766,12 @@ setbfree:
   issues:
     - gcc_captures_build_path
 setools:
-  version: 3.3.8+20151215-1
+  version: 4.0.1-6
   comments: |
-    order depends of filesystem or locale in libqpol_a_LIBADD ?
+    python3-setoolsgui embeds timestamp/timezone in
+    /usr/share/setools/apol.qhc
   issues:
-    - random_order_in_static_libraries
+    - timestamps_in_qch
 sexplib310:
   version: 111.25.00-1
   issues:
