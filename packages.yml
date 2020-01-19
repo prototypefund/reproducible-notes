@@ -25424,6 +25424,10 @@ spew:
   version: 1.0.8-1
   issues:
     - gcc_captures_build_path
+spglib:
+  version: 1.14.1-4
+  issues:
+    - captures_build_path_via_assert
 sphinx:
   version: 1.2.3+dfsg-1
   issues:
@@ -28802,6 +28806,10 @@ zfec:
   version: 1.4.5-2
   issues:
     - gcc_captures_build_path
+zfs-fuse:
+  version: 0.7.0-20
+  issues:
+    - captures_build_path_via_assert
 zimpl:
   version: 3.3.2-1
   issues:
