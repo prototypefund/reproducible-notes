@@ -6572,8 +6572,10 @@ gettext:
   version: 0.19.5.1-1
   comments: |
     https://sources.debian.net/src/gettext/0.19.7-2/gettext-runtime/intl-java/Makefile.am/#L48
+    uses embedded copy of help2man which does not support SOURCE_DATE_EPOCH
   issues:
     - timestamps_in_jar
+    - timestamps_in_manpages_generated_by_help2man
 gf-complete:
   version: 1.0.2-2
   issues:
