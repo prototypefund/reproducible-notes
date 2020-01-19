@@ -9764,9 +9764,6 @@ kannel:
   comments: |
     The build date is also embedded into the content of a PDF file.
   issues:
-    - timestamps_in_pdf_generated_by_latex
-    - timestamps_in_dvi_generated_by_latex
-    - timestamps_in_ps_generated_by_dvips
     - records_build_flags
 kannel-sqlbox:
   version: 0.7.2-3
@@ -9810,7 +9807,6 @@ kcalutils:
 kcodecs:
   version: 5.25.0-1
   issues:
-    - captures_build_path
     - ftbfs_due_to_f-file-prefix-map
   bugs:
     - 876933
@@ -10254,7 +10250,6 @@ kpackage:
 kparts:
   version: 5.25.0-1
   issues:
-    - captures_build_path
     - ftbfs_due_to_f-file-prefix-map
 kpartsplugin:
   version: 20120605-1
@@ -24626,10 +24621,6 @@ scram:
   version: 0.16.2-1
   issues:
     - ftbfs_due_to_f-file-prefix-map
-scrcpy:
-  version: 1.11+ds-1
-  issues:
-    - timestamps_in_zip
 screengrab:
   version: 1.95+20160128-3
   issues:
