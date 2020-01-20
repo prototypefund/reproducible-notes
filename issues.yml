@@ -1598,9 +1598,10 @@ nondeterministic_ordering_in_python_wheel_metadata_versions:
       │   │   │   │   │ -Requires-Dist: PySocks (>=1.5.6,<2.0); extra == 'socks'
       │   │   │   │   │ +Requires-Dist: PySocks (<2.0,>=1.5.6); extra == 'socks'
   url: https://bugs.debian.org/845325
-timestamp_in_casacore_tables:
+timestamp_in_tables_generated_by_casacore_measuresdata:
   description: |
-    src:casacore generates .dat files that embed the build date
+    src:casacore's measuresdata script generates .dat files that embed the
+    build date
 nondeterministic_ordering_in_casacore_tables:
   description: |
     src:casacore generates index.dat and table.f0 files with random order.
