@@ -6498,6 +6498,9 @@ geoip:
     - captures_shell_variable_in_autofoo_script
     - records_build_flags
     - paths_vary_due_to_usrmerge
+  bugs:
+    - 949273
+    - 949275
 geomview:
   version: 1.9.5-1
   comments: |
@@ -12672,6 +12675,9 @@ libtool:
   issues:
     - records_build_flags
     - paths_vary_due_to_usrmerge
+  bugs:
+    - 949270
+    - 949271
 libtorrent-rasterbar:
   version: 1.0.7-1
   issues:
