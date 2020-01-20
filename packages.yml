@@ -9819,7 +9819,6 @@ kcalutils:
 kcodecs:
   version: 5.25.0-1
   issues:
-    - captures_build_path
     - ftbfs_due_to_f-file-prefix-map
   bugs:
     - 876933
@@ -10263,7 +10262,6 @@ kpackage:
 kparts:
   version: 5.25.0-1
   issues:
-    - captures_build_path
     - ftbfs_due_to_f-file-prefix-map
 kpartsplugin:
   version: 20120605-1
@@ -24632,10 +24630,6 @@ scram:
   version: 0.16.2-1
   issues:
     - ftbfs_due_to_f-file-prefix-map
-scrcpy:
-  version: 1.11+ds-1
-  issues:
-    - timestamps_in_zip
 screengrab:
   version: 1.95+20160128-3
   issues:
