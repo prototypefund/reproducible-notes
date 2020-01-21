@@ -5429,6 +5429,9 @@ flex:
     - captures_build_path
     - records_build_flags
     - paths_vary_due_to_usrmerge
+  bugs:
+    - 949342
+    - 949343
 flex-old:
   version: 2.5.4a-10
   issues:
@@ -6584,6 +6587,8 @@ gettext:
   issues:
     - timestamps_in_jar
     - timestamps_in_manpages_generated_by_help2man
+  bugs:
+    - 949338
 gf-complete:
   version: 1.0.2-2
   issues:
@@ -7906,6 +7911,8 @@ groff:
   issues:
     - captures_build_path
     - paths_vary_due_to_usrmerge
+  bugs:
+    - 949324
 gromacs:
   version: 5.1.2-1
   comments: |
@@ -12062,6 +12069,9 @@ libnet:
     - captures_build_path
     - records_build_flags
     - paths_vary_due_to_usrmerge
+  bugs:
+    - 949346
+    - 949348
 libnet-ldapapi-perl:
   version: 3.0.3-7
   issues:
@@ -25554,6 +25564,8 @@ sqlite3:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
+  bugs:
+    - 949341
 sqlite3-pcre:
   version: 0~git20070120091816+4229ecc-1
   issues:
