@@ -27904,7 +27904,8 @@ wipe:
 wireguard:
   version: 0.0.20171221-2
   comments: |
-    Curious ordering of every - see https://sources.debian.org/src/wireguard/0.0.20171221-2/src/tools/show.c/#L173-L179
+    Unreproducible on 32bit archs only
+    might be related to https://sources.debian.org/src/wireguard/0.0.20171221-2/src/tools/show.c/#L173-L179
 wireshark:
   version: 1.12.7+g7fc8978-1
   comments: |
