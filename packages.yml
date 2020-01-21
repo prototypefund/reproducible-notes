@@ -12455,8 +12455,6 @@ librevenge:
   version: 0.0.4-1
   comments: |
     umask differences in dbgsym but not clear where from - package is somewhat simple
-  issues:
-    - different_due_to_umask
 librime:
   version: 1.2.9+dfsg1-1
   issues:
@@ -16003,10 +16001,6 @@ octavia:
   version: 3.0.0-1
   bugs:
     - 908222
-octomap:
-  version: 1.8.0+dfsg-2
-  issues:
-    - captures_build_path
 ocurl:
   version: 0.8.2-1
   issues:
@@ -16325,8 +16319,6 @@ openkim-models:
   version: 20190331-4
   comments: |
     Embeds build path either due to Debug.h but more likely implicitly via some Fortan routines- the embedded memory error strings are from some stdlib.
-  issues:
-    - captures_build_path
 openlayer:
   version: 2.1-2.1
   issues:
@@ -17942,8 +17934,6 @@ pps-tools:
     - gcc_captures_build_path
 ppx-core:
   version: 113.33.03-1
-  issues:
-    - captures_build_path
   bugs:
     - 877507
 ppx-derivers:
