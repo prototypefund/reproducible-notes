@@ -16319,6 +16319,8 @@ openkim-models:
   version: 20190331-4
   comments: |
     Embeds build path either due to Debug.h but more likely implicitly via some Fortan routines- the embedded memory error strings are from some stdlib.
+  issues:
+    - captures_build_path
 openlayer:
   version: 2.1-2.1
   issues:
@@ -17928,14 +17930,6 @@ ppl:
   version: 1:1.2-1
   issues:
     - gcc_captures_build_path
-pps-tools:
-  version: 0.20120406+g0deb9c7e-2
-  issues:
-    - gcc_captures_build_path
-ppx-core:
-  version: 113.33.03-1
-  bugs:
-    - 877507
 ppx-derivers:
   version: 1.2-1
   issues:
