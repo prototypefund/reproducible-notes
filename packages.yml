@@ -4710,6 +4710,10 @@ epix:
     - timestamps_in_tarball
     - different_due_to_umask
     - timestamps_in_ps_generated_by_dvips
+epm:
+  version: 4.2-8
+  issues:
+    - paths_vary_due_to_usrmerge
 epr-api:
   version: 2.3~dev20150708-2
   issues:
