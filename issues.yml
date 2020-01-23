@@ -2061,3 +2061,10 @@ markdown_random_email_address_html_entities:
 captures_build_path_via_haskell_adddependentfile:
   description: |
     adds build path in p_hi via addDependentFile
+png_generated_by_plantuml_captures_kernel_version_and_builddate:
+  description: |
+    plantuml can generate PNG images of UML state diagrams. the iTXt component
+    of these images contains a bunch of system properties that vary between
+    build such as the OS Version (kernel version) as well as a timezone-varying
+    date as part of plantuml's own version string identifier. See
+    src/net/sourceforge/plantuml/version/Version.java etc.
