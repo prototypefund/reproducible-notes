@@ -25048,6 +25048,10 @@ singular:
   version: 4.0.3-p1+ds-3
   issues:
     - records_build_flags
+singularity-container:
+  version: 3.5.2+ds1-1
+  comments: |
+    Ships a config.go file which is probably not useful in the binary package but embeds an absolute BUILDDIR and SOURCEDIR.
 sip4:
   version: 4.18.1+dfsg-1
   issues:
