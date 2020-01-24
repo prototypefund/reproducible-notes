@@ -20002,6 +20002,10 @@ r-bioc-multtest:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
+r-bioc-org.hs.eg.db:
+  version: 3.10.0-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-bioc-pcamethods:
   version: 1.70.0-1
   issues:
