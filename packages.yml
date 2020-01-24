@@ -27953,6 +27953,8 @@ witty:
     - captures_build_path
 wlcs:
   version: 1.1.0+dfsg-1
+  comments: |
+    Uses -ffile-prefix-map= but still encodes the absolute build dir to some source files.
   issues:
     - captures_build_path
 wmcalc:
