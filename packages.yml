@@ -25052,6 +25052,8 @@ singularity-container:
   version: 3.5.2+ds1-1
   comments: |
     Ships a config.go file which is probably not useful in the binary package but embeds an absolute BUILDDIR and SOURCEDIR.
+  issues:
+    - randomness_in_binaries_generated_by_golang
 sip4:
   version: 4.18.1+dfsg-1
   issues:
