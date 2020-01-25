@@ -15285,6 +15285,10 @@ node-jsonld:
   version: 1.6.2-2
   issues:
     - captures_varying_number_of_build_path_directory_components
+node-lolex:
+  version: 5.1.2+ds-2
+  issues:
+    - randomness_in_browserify_lite_output
 node-loose-envify:
   version: 1.3.0+dfsg1-1
   issues:
