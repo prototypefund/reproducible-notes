@@ -5770,7 +5770,7 @@ freebsd-glue:
 freecad:
   version: 0.16+dfsg2-3
   issues:
-    - build_id_differences_only
+    - nondeterminism_added_by_pyqt5_pyrcc5
 freecdb:
   version: 0.75
   issues:
