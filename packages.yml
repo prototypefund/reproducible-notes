@@ -11242,6 +11242,10 @@ libept:
   issues:
     - random_order_in_static_libraries
     - captures_build_path
+libesedb:
+  version: 20181229-3.1
+  issues:
+    - captures_build_path_via_assert
 libevdev:
   version: 1.5.2+dfsg-1
   issues:
@@ -11258,6 +11262,10 @@ libevocosm:
     - captures_shell_variable_in_autofoo_script
     - records_build_flags
     - libtool_captures_shell_build-flags_build-path_path-env
+libevt:
+  version: 20181227-1.1
+  issues:
+    - captures_build_path_via_assert
 libexif-gtk:
   version: 0.3.5-5
   issues:
@@ -11883,6 +11891,10 @@ liblip:
   version: 2.0.0-1.2
   issues:
     - timestamps_in_gzip_headers
+liblnk:
+  version: 20181227-1.1
+  issues:
+    - captures_build_path_via_assert
 libloader:
   version: 1.1.6.dfsg-4
   issues:
