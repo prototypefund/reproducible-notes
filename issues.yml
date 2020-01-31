@@ -2063,3 +2063,7 @@ png_generated_by_plantuml_captures_kernel_version_and_builddate:
     build such as the OS Version (kernel version) as well as a timezone-varying
     date as part of plantuml's own version string identifier. See
     src/net/sourceforge/plantuml/version/Version.java etc.
+random_identifiers_in_epub_files_generated_by_asciidoc:
+  description: |
+    The "a2x" tool from asciidoc appears to inject random bookId UUIDs or
+    similar like _idm45416569061424 into the generated files.
