@@ -4933,6 +4933,7 @@ exo:
     No clue. But seems to be similar to garcon.
   issues:
     - different_encoding
+    - translations_missing_in_desktop_files
 exodusii:
   version: 6.02.dfsg.1-7
   issues:
@@ -6210,6 +6211,8 @@ garcon:
   version: 0.4.0-2
   comments: |
     Desktop launcher file missing a whole bunch of entries when run with a non-utf8 locale
+  issues:
+    - translations_missing_in_desktop_files
 gauche:
   version: 0.9.4-6
   issues:
