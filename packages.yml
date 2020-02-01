@@ -1496,6 +1496,9 @@ binutils:
     fails to build reproducibly on 32-bit architectures (i386, armhf).
     fails to build reproducibly on 64-bit architectures only in
     unstable (probably build paths).
+    binutils-dev includes logs and summaries of the tests in
+    /usr/share/doc/binutils/tests/.
+
 binutils-djgpp:
   version: '1.1'
   comments: |
