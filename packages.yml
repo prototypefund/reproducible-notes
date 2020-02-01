@@ -4938,10 +4938,6 @@ exonerate:
   version: 2.4.0-2
   issues:
     - captures_build_path
-extlib:
-  version: 1.7.0-2
-  issues:
-    - captures_build_path
 eye:
   version: 19.0221.2026~ds-1
   issues:
@@ -8162,10 +8158,6 @@ guile-2.2:
     - records_build_flags
   bugs:
     - 948771
-guiqwt:
-  version: 3.0.1-1
-  issues:
-    - captures_build_path
 gunroar:
   version: 0.15.dfsg1-9
   issues:
@@ -15663,7 +15655,6 @@ ocaml-astring:
 ocaml-atd:
   version: 1.1.2-1
   issues:
-    - timestamps_in_pdf_generated_by_latex
     - fonts_in_pdf_files
     - ocaml_captures_build_path
 ocaml-base64:
@@ -24881,7 +24872,6 @@ sexplib310:
   version: 111.25.00-1
   issues:
     - randomness_in_ocaml_preprocessed_files
-    - captures_build_path
   bugs:
     - 877496
 sfcgal:
