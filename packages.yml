@@ -2673,10 +2673,6 @@ closure-compiler:
   version: 20130227+dfsg1-8
   issues:
     - timestamps_in_jar
-cloudkitty:
-  version: 11.0.0-2
-  bugs:
-    - 942847
 cloudsql-proxy:
   version: 1.11+git20180420.74e2f41-1
   issues:
@@ -3771,10 +3767,6 @@ derby:
   version: 10.10.2.0-1
   issues:
     - random_order_in_documentation_generated_by_javadoc
-designate:
-  version: 1:9.0.0-2
-  bugs:
-    - 942848
 desklaunch:
   version: 1.1.8
   issues:
@@ -19051,10 +19043,6 @@ python-oslo.concurrency:
   version: 3.30.0-2
   comments: |
     I think this is actually a problem in sphinx's apidoc combined with the use of apidoc_module_dir = '../../' in this package?
-python-oslo.reports:
-  version: 1.30.0-2
-  bugs:
-    - 942767
 python-oslo.utils:
   version: 3.16.0-2
   issues:
