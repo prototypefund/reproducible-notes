@@ -1077,6 +1077,10 @@ autoconf:
     - timestamps_in_ps_generated_by_dvips
     - captures_shell_variable_in_autofoo_script
     - random_id_in_pdf_generated_by_dblatex
+  bugs:
+    - 950415
+    - 950416
+    - 950417
 autoconf2.59:
   version: 2.59+dfsg-0.1
   issues:
@@ -1096,6 +1100,8 @@ autogen:
     - captures_shell_variable_in_autofoo_script
     - random_id_in_pdf_generated_by_dblatex
     - paths_vary_due_to_usrmerge
+  bugs:
+    - 950410
 automake-1.15:
   version: 1:1.15-1
   issues:
@@ -6204,6 +6210,8 @@ garcon:
     Desktop launcher file missing a whole bunch of entries when run with a non-utf8 locale
   issues:
     - translations_missing_in_desktop_files
+  bugs:
+    - 950437
 gauche:
   version: 0.9.4-6
   issues:
@@ -13421,6 +13429,8 @@ m4:
   issues:
     - timezone_variance_because_of_automake_mdate
     - timestamp_in_info_file_created_by_makeinfo
+  bugs:
+    - 950419
 mac-widgets:
   version: 0.10.0+svn416-dfsg1-1
   issues:
