@@ -14065,10 +14065,6 @@ mknfonts.tool:
   version: 0.5-11
   issues:
     - gcc_captures_build_path
-mksh:
-  version: 57-5
-  comments: |
-    debian/meat finding different libraries due to /usr merge? (eg. the readlink -f). Section could be removed in favour of the .buildinfo.
 mldonkey:
   version: 3.1.5-3
   issues:
