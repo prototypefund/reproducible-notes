@@ -6386,6 +6386,8 @@ gdb:
   comments: |
     Capture build time and hostname in
     /usr/share/doc/gdb/check.log.gz
+    export FORCE_SOURCE_DATE=1 in debian/rules did not fix dvi/ps
+    issues.
   issues:
     - timestamps_in_jar
     - timestamps_in_dvi_generated_by_latex
