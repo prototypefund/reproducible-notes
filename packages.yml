@@ -26937,6 +26937,10 @@ trilinos:
     - diffoscope_runs_forever
   bugs:
     - 836130
+trinityrnaseq:
+  version: 2.6.6+dfsg-6
+  issues:
+    - captures_build_path_via_assert
 triod-postnaja:
   version: 20130809-2
   issues:
