@@ -1603,7 +1603,7 @@ translations_missing_in_desktop_files:
     A file contains a list of «Name[xx] = "String"» lines, where «xx» is a language code;
     some or all of the lines are present in one build only.
     .
-    Possibly a bug (race condition between multiple invocations?) in intltool-merge. Maybe fixed by https://bugs.launchpad.net/intltool/+bug/1687644
+    Possibly a bug (race condition between multiple invocations?) in intltool-merge. Maybe fixed by https://bugs.launchpad.net/intltool/+bug/1687644 and https://bugs.debian.org/950444
     .
     Also occurs in .directory files?
   deterministic: False
