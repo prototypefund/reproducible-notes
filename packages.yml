@@ -4893,6 +4893,10 @@ eurephia:
     https://sources.debian.net/src/eurephia/1.1.0-5/eurephiadm/mk_buildinfo.sh/
   issues:
     - gcc_captures_build_path
+euslisp:
+  version: 9.26+dfsg-2
+  issues:
+    - user_hostname_manually_added_requiring_further_investigation
 evolution-data-server:
   version: 3.12.9~git20141128.5242b0-2
   comments: |
