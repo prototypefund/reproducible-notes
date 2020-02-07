@@ -2016,11 +2016,6 @@ bzr:
   version: 2.7.0+bzr6619-5
   issues:
     - randomness_in_documentation_generated_by_sphinx
-c++-annotations:
-  version: 10.5.0-1
-  issues:
-    - timestamps_in_ps_generated_by_dvips
-    - timestamps_in_dvi_generated_by_latex
 c-blosc:
   version: 1.9.1-1
   issues:
@@ -15915,10 +15910,6 @@ ocaml-stdcompat:
   version: 10-1
   issues:
     - ocaml_captures_build_path
-ocaml-stdio:
-  version: 0.12.0-1
-  issues:
-    - captures_build_path_in_beam_cma_cmt_files
 ocaml-taglib:
   version: 0.3.1-1
   issues:
@@ -28814,8 +28805,6 @@ ygl:
     - gcc_captures_build_path
 yodl:
   version: 3.08.01-1
-  issues:
-    - timestamps_in_ps_generated_by_dvips
   bugs:
     - 950603
 yojson:
