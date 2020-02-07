@@ -17419,6 +17419,10 @@ php7.3:
     https://www.mail-archive.com/internals@lists.php.net/msg93532.html
   issues:
     - captures_build_path
+php7.4:
+  version: 7.4.1-1
+  comments: |
+    Testsuite results require sanitisation of hostname, build paths, etc.
 phpab:
   version: 1.21.0-2
   comments: |
