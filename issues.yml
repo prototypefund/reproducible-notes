@@ -2067,3 +2067,10 @@ random_identifiers_in_epub_files_generated_by_asciidoc:
   description: |
     The "a2x" tool from asciidoc appears to inject random bookId UUIDs or
     similar like _idm45416569061424 into the generated files.
+dpkg-dev_extracts_origtgz_with_bad_permissions:
+  description: |
+    dpkg-dev uses 0777 instead of the permissions in the orig tarball
+    when extracting (after umask filtering), so the permission bits of
+    files in the working copy are wrong; this can affect archives
+    created at build time from these files
+  url: https://bugs.debian.org/796257

@@ -14648,10 +14648,14 @@ muse-el:
   issues:
     - timestamps_in_pdf_generated_by_latex
     - random_id_in_pdf_generated_by_dblatex
+musescore:
+  version: 3.2.3+dfsg1-4
+  issues:
+    - dpkg-dev_extracts_origtgz_with_bad_permissions
 musescore-snapshot:
   version: 3.2.s20190704+dfsg1-1
-  bugs:
-    - 935846
+  issues:
+    - dpkg-dev_extracts_origtgz_with_bad_permissions
 music:
   version: 1.1.16-1
   issues:
