@@ -4711,6 +4711,8 @@ epiphany:
     - records_build_flags
 epiphany-browser:
   version: 3.34.1-1
+  comments: |
+    libephymisc.so contains absolute build path to a ephy-profile-migrator script/dir.
   issues:
     - captures_build_path
 epix:
