@@ -4709,6 +4709,10 @@ epiphany:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
+epiphany-browser:
+  version: 3.34.1-1
+  issues:
+    - captures_build_path
 epix:
   version: 1.2.14-1
   comments: |
