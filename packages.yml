@@ -1772,6 +1772,10 @@ boot:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
+bootcd:
+  version: '6.01'
+  comments: |
+    Will insert another space when /bin/sh is set to Bash due to some somewhat arcane newline folding. See rst2lib_usage in bootcdrst.
 bootchart2:
   version: 0.14.4-3
   issues:
