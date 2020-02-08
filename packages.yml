@@ -19057,6 +19057,10 @@ python-oslo.concurrency:
   version: 3.30.0-2
   comments: |
     I think this is actually a problem in sphinx's apidoc combined with the use of apidoc_module_dir = '../../' in this package?
+python-oslo.reports:
+  version: 1.30.0-2
+  bugs:
+    - 950942
 python-oslo.utils:
   version: 3.16.0-2
   issues:
