@@ -25098,6 +25098,10 @@ simh:
   version: 3.8.1-5
   issues:
     - gcc_captures_build_path
+simka:
+  version: 1.5.1-4
+  issues:
+    - captures_build_path_via_assert
 simpleid:
   version: 0.8.1-15
   comments: |
