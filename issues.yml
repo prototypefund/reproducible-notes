@@ -661,6 +661,10 @@ timestamps_in_qch:
     Also
     .
     https://sources.debian.org/src/qttools-opensource-src/latest/src/assistant/help/qhelpcollectionhandler.cpp/?hl=1639#L1639
+    .
+    debian bug https://bugs.debian.org/875847
+    .
+    upstream bug https://bugreports.qt.io/browse/QTBUG-62697
   url: https://wiki.debian.org/ReproducibleBuilds/TimestampsInDatabaseGeneratedByQhelpgenerator
   deterministic: True
 timestamps_in_java_stapler_files:
