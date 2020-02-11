@@ -542,7 +542,6 @@ apache2:
     - records_build_flags
     - paths_vary_due_to_usrmerge
   bugs:
-    - 948757
     - 948759
 apache2-mod-xforward:
   version: 0.6-1
@@ -24013,10 +24012,6 @@ ruby-ed25519:
   version: 1.2.4-1
   issues:
     - captures_build_path_via_assert
-ruby-encryptor:
-  version: 3.0.0-1
-  bugs:
-    - 880276
 ruby-escape-utils:
   version: 1.1.0-1
   issues:
