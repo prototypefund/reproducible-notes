@@ -779,6 +779,10 @@ apt-dpkg-ref:
     - timestamps_in_ps_generated_by_dvips
     - timestamps_in_dvi_generated_by_latex
     - random_id_in_pdf_generated_by_dblatex
+apt-offline:
+  version: 1.8.2-1
+  issues:
+    - timestamps_in_source_generated_by_rcc
 aptly:
   version: 0.9.7-1
   issues:
