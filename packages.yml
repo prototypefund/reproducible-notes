@@ -8892,8 +8892,10 @@ imagemagick:
   comments: |
     Embedded timestamp issue (ReleaseDate) fixed in experimental.
     But there are differences in png images that have to be investigated.
+    delegates.xml embeds path to mv command.
   issues:
     - records_build_flags
+    - paths_vary_due_to_usrmerge
 impressive:
   version: 0.11.1-1
   issues:
