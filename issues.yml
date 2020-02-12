@@ -2084,3 +2084,6 @@ dpkg-dev_extracts_origtgz_with_bad_permissions:
     files in the working copy are wrong; this can affect archives
     created at build time from these files
   url: https://bugs.debian.org/796257
+build_path_in_code_generated_by_dgbus_codegen:
+  description: |
+    C ifdefs use the absolute build path (eg. ___BUILD_1ST_PACKAGE_1.0)
