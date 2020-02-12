@@ -14309,9 +14309,12 @@ mono:
   comments: |
     PE timestamps are fixed, documentation tool is using timestamps.
     See https://bugzilla.xamarin.com/show_bug.cgi?id=37367
+    timestamp, user and uid captured in mono-src.tar.*
+    timestamp embedded in binaries
   issues:
     - captures_build_path
     - timestamps_in_pe_binaries
+    - timestamps_in_zip
   bugs:
     - 849655
 mono-addins:
