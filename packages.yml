@@ -7301,6 +7301,10 @@ golang-1.11:
   version: 1.11.2-2
   issues:
     - golang_compiler_captures_build_path_in_binary
+golang-1.13:
+  version: 1.13.8-1
+  issues:
+    - captures_build_path_in_golang_compiler
 golang-1.14:
   version: 1.14~beta1-2
   issues:
