@@ -9685,6 +9685,8 @@ jssc:
   version: 2.8.0-2
   comments: |
     Differs based on the required java version level. I suspect this is due to a manual pass of -source 1.6 and -target 1.6 to javac via the jh_build but what this fixed or removal might cause is uninvestigated at this time.
+  issues:
+    - random_argument_handling_in_javatools_jh_build
 jssip:
   version: 0.6.34-3
   comments: |
