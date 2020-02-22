@@ -13126,6 +13126,10 @@ llvm-toolchain-3.7:
   issues:
     - timestamps_in_documentation_generated_by_groff
     - blacklisted_on_jenkins_armhf_only
+llvm-toolchain-10:
+  version: 1:10.0.0~+rc2-1
+  issues:
+    - ffile_prefix_map_passed_to_clang
 llvm-toolchain-3.8:
   version: 1:3.8-1
   issues:
@@ -13156,10 +13160,6 @@ llvm-toolchain-8:
     - ffile_prefix_map_passed_to_clang
 llvm-toolchain-9:
   version: 1:9.0.1-8
-  issues:
-    - ffile_prefix_map_passed_to_clang
-llvm-toolchain-10:
-  version: 1:10.0.0~+rc2-1
   issues:
     - ffile_prefix_map_passed_to_clang
 llvm-toolchain-snapshot:
