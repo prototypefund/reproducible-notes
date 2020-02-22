@@ -17140,6 +17140,10 @@ pente:
     does not honour dpkg-buildflags
   issues:
     - gcc_captures_build_path
+peony-extensions:
+  version: 2.0.0-1
+  issues:
+    - captures_build_path_via_assert
 perceptualdiff:
   version: 1.2-2
   issues:
