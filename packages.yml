@@ -13121,6 +13121,10 @@ lltdscan:
   version: 0+20180223-1
   issues:
     - captures_build_path_via_assert
+llvm-toolchain-10:
+  version: 1:10.0.0~+rc2-1
+  issues:
+    - ffile_prefix_map_passed_to_clang
 llvm-toolchain-3.7:
   version: 1:3.7.1-1
   issues:
