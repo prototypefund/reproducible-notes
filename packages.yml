@@ -15331,6 +15331,10 @@ node-fuzzaldrin-plus:
   version: 0.3.1+git.20161008.da2cb58+dfsg-4
   issues:
     - nondeterministic_output_from_uglifyjs
+node-jschardet:
+  version: 2.1.1+dfsg-2
+  issues:
+    - captures_varying_number_of_build_path_directory_components
 node-jsonld:
   version: 1.6.2-2
   issues:
