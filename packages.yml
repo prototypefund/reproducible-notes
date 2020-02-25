@@ -1204,6 +1204,8 @@ axmlrpc:
     - random_order_in_documentation_generated_by_javadoc
 azure-uamqp-python:
   version: 1.2.6-1
+  comments: |
+    We appear to be passing -fdebug-prefix-map etc in all the right places but it still seems to capture it via LogError's __FILE__.
   issues:
     - captures_build_path_via_assert
 babeld:
