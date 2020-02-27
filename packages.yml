@@ -12178,10 +12178,6 @@ libnss-lwres:
   version: 0.93-7
   issues:
     - gcc_captures_build_path
-libnxt:
-  version: 0.3-2
-  issues:
-    - captures_build_path
 libnzb:
   version: 0.0.20050629-6.2
   issues:
@@ -14824,8 +14820,6 @@ namazu2:
     - captures_build_path
 nant:
   version: 0.92~rc1+dfsg-4
-  issues:
-    - timestamps_in_pe_binaries
   bugs:
     - 845733
 nasm:
@@ -16947,10 +16941,6 @@ pathspider:
     ("automethod" parses the Python class, but Python loses class attribute
     definition order so you can't get the original order back out. ie. needs
     a sort)
-patsy:
-  version: 0.4.1-2
-  issues:
-    - captures_build_path
 pavucontrol-qt:
   version: 0.1.0-2
   issues:
