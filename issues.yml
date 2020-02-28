@@ -2091,3 +2091,6 @@ random_argument_handling_in_javatools_jh_build:
   description:
     Conflict in handling of -o option leads to nondeterministic behaviour.
   url: https://bugs.debian.org/951573
+openstack_pkg_tools_python_shebang_and_dependencies:
+  description:
+    Timing/race etc. causing nondeterminstic shebangs and package dependencies.
