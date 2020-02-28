@@ -12172,6 +12172,10 @@ libnss-lwres:
   version: 0.93-7
   issues:
     - gcc_captures_build_path
+libnxt:
+  version: 0.3-9.1
+  issues:
+    - captures_build_path_via_assert
 libnzb:
   version: 0.0.20050629-6.2
   issues:
