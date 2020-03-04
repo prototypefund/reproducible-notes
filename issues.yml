@@ -2095,3 +2095,7 @@ openstack_pkg_tools_python_shebang_and_dependencies:
   description:
     Timing/race etc. causing nondeterminstic shebangs and package dependencies.
   url: https://bugs.debian.org/952762
+nondeterministic_gtk_icon_cache:
+  description:
+    Possible filesystem ordering or hash table nondeterminism.
+  url: https://bugs.debian.org/953105
