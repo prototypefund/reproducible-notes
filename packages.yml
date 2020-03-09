@@ -12756,7 +12756,6 @@ libtool:
     - records_build_flags
     - paths_vary_due_to_usrmerge
   bugs:
-    - 949271
     - 951031
 libtorrent-rasterbar:
   version: 1.0.7-1
@@ -17182,7 +17181,6 @@ perl:
     - paths_vary_due_to_usrmerge
   bugs:
     - 914128
-    - 915209
 perl-byacc:
   version: 2.0-8
   issues:
@@ -18649,8 +18647,6 @@ pynwb:
   version: 1.2.1-1
   comments: |
     Think this is caused by file_create_date in src/pynwb/file.py.
-  bugs:
-    - 950936
 pyodbc:
   version: 3.0.6-2
   issues:
