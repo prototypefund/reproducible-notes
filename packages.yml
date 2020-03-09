@@ -18643,10 +18643,6 @@ pyntor:
     - timestamps_in_gzip_headers
   bugs:
     - 777488
-pynwb:
-  version: 1.2.1-1
-  comments: |
-    Think this is caused by file_create_date in src/pynwb/file.py.
 pyodbc:
   version: 3.0.6-2
   issues:
