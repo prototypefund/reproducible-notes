@@ -25893,6 +25893,10 @@ ssocr:
   version: 2.19.0-2
   issues:
     - captures_build_path_via_assert
+ssreflect:
+  version: 1.10.0+dfsg-2
+  issues:
+    - nondeterministic_vo_files_generated_by_coq
 st:
   version: 1.9-3.1
   bugs:
