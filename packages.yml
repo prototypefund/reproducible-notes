@@ -16323,6 +16323,10 @@ opencolorio:
   version: 1.0.9~dfsg0-6
   issues:
     - random_id_in_pdf_generated_by_dblatex
+opencpn:
+  version: 5.0.0+dfsg-1
+  comments: |
+    I think this is nondeterministic directory ordering, so it is putting zh_CN vs zh_TW in a different order.
 opencryptoki:
   version: 3.5+dfsg-2
   issues:
