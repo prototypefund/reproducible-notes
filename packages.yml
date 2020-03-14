@@ -2307,9 +2307,6 @@ cdebootstrap:
   comments: |
     Some trivial gzip and tar --mtime issues, then the nested helper .debs each
     have fresh timestamps as they are built as part of the package build.
-  issues:
-    - different_due_to_umask
-    - timestamps_in_tarball
 cdecl:
   version: 2.5-13
   issues:
