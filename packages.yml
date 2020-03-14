@@ -2302,11 +2302,6 @@ cdebconf:
   version: 0.227
   issues:
     - gcc_captures_build_path
-cdebootstrap:
-  version: 0.6.4
-  comments: |
-    Some trivial gzip and tar --mtime issues, then the nested helper .debs each
-    have fresh timestamps as they are built as part of the package build.
 cdecl:
   version: 2.5-13
   issues:
