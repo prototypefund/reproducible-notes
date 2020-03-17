@@ -7279,18 +7279,10 @@ golang-1.11:
   version: 1.11.2-2
   issues:
     - golang_compiler_captures_build_path_in_binary
-golang-1.13:
-  version: 1.13.8-1
-  issues:
-    - captures_build_path_in_golang_compiler
 golang-1.14:
   version: 1.14~beta1-2
   issues:
     - randomness_in_binaries_generated_by_golang
-golang-1.8:
-  version: 1.8~rc2-1
-  issues:
-    - golang_compiler_captures_build_path_in_binary
 golang-bindata:
   version: 3.0.7+git20151023.72.a0ff256-3
   issues:
