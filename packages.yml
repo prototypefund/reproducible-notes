@@ -11780,7 +11780,7 @@ libjpf-java:
 libjs-webrtc-adapter:
   version: 7.4.0~ds-1
   issues:
-    - nondeterministic_output_from_uglifyjs
+    - randomness_in_browserify_lite_output
 libjson-rpc-cpp:
   version: 0.7.0-1
   issues:
