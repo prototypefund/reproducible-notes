@@ -14565,6 +14565,10 @@ mrtg:
   version: 2.17.4-4
   issues:
     - gcc_captures_build_path
+mrtrix:
+  version: 0.2.13-2
+  issues:
+    - captures_build_path_via_assert
 msgpack-c:
   version: 3.0.1-3
   bugs:
@@ -28978,6 +28982,10 @@ zeroconf-ioslave:
   version: 4:15.12.0-2
   issues:
     - gcc_captures_build_path
+zeroinstall-injector:
+  version: 2.15.1-1
+  issues:
+    - captures_build_path_via_assert
 zfec:
   version: 1.4.5-2
   issues:
