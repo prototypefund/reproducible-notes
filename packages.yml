@@ -27859,8 +27859,6 @@ wammu:
     
        192	    def build_appdata_file(self, translations):
        213	        for loc in translations.keys():
-  bugs:
-    - 862451
 wannier90:
   version: 3.0.0+ds-2
   issues:
@@ -29070,10 +29068,6 @@ zsh-antigen:
   version: 2.2.3-2
   bugs:
     - 911757
-zshdb:
-  version: 0.92-3
-  bugs:
-    - 848739
 zulucrypt:
   version: 5.0.2-2
   issues:
