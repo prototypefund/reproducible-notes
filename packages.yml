@@ -20052,6 +20052,10 @@ r-bioc-metagenomeseq:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
+r-bioc-mofa:
+  version: 1.2.0+dfsg-2
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-bioc-multiassayexperiment:
   version: 1.10.4+dfsg-1
   issues:
@@ -20624,6 +20628,10 @@ r-cran-desolve:
     - randomness_in_r_rdb_rds_databases
 r-cran-devtools:
   version: 1.13.4-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-dfoptim:
+  version: 2018.2-1-1
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-diagnosismed:
@@ -21884,6 +21892,10 @@ r-cran-partykit:
   version: 1.2-3-1
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-patchwork:
+  version: 1.0.0-2
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-pbapply:
   version: 1.1-3-1
   issues:
@@ -22466,6 +22478,10 @@ r-cran-rngtools:
     - randomness_in_r_rdb_rds_databases
 r-cran-rniftilib:
   version: 0.0-35.r79-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-robumeta:
+  version: 2.0-1
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-robust:
