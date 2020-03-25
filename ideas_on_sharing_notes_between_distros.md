@@ -1,7 +1,10 @@
-This is from the Reproducible Summit in Athens.
+# Sharing notes between distributions
+
+*This is from the Reproducible Summit in Athens.*
 
 
 * use cases for sharing notes
+
   + for upstream toolchain developers: what am i breaking
   + non toolchain upstream about what's wrong with their package
   + distro people wanting to check out the status and *history* on other distros and comparing
@@ -31,6 +34,7 @@ This is from the Reproducible Summit in Athens.
 
 * format:
 
+```
 issue:
   url:
   description:
@@ -54,7 +58,7 @@ package:
   comments:
   bugs: []
   issues: []
-
+```
 
 Before the reproducible builds summit in Paris
 
@@ -85,13 +89,14 @@ Comparing against the requirements listed above:
 an inline copy of the current schema with "comments" is embedded so as to
 describe what exactly would each field entail.
 
-issue: 
+```
+issue:
   url:          # a url/id of this issue
   description:  # a human-readable description of such issue
   distro:       # a list of distro-specific objects, keyed by distro name (e.g., debian, arch, freebsd)
-    debian:     
+    debian:
       state: fixed # state: open/fixed/unknown
-      comment:     # 
+      comment:     #
 
 package: foo
   distros:      # a list of distro-specific objects, keyed by distro name (e.g., debian, arch, freebsd)
@@ -109,6 +114,7 @@ package: foo
   comments:     # cross-distro comments regarding this package
   bugs: []      # upstream bugs opened
   issues: []    # reproducible-issue identifiers that are cross-distro
+```
 
 These are quite open, as none of these fields are formalized in a specification (yet!)
 
@@ -121,4 +127,4 @@ Here's a list of the current issues found with the current schema (
   separate many-to-one issues when a package across different versions
 - We may want to formalize the ER diagram of all of these keys, as to avoid
   issues like the one above. A proposal was added as er.gv and it can be compiled as:
-    dot er.gv -Tsvg -o output.svg
+    `dot er.gv -Tsvg -o output.svg`
