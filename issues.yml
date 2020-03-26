@@ -70,6 +70,13 @@ nondeterministic_ordering_in_documentation_generated_by_doxygen:
   description: |
     "Additional Inherited Members" has nondeterministic children in the (HTML?)
     docs.
+    .
+    This can also happen when there is a real C function and a hash-define with
+    the same name. Doxygen sorts the member names but it only appears to use
+    the name so it is not stable relative to their type, resulting in
+    nondeterministic output.
+    .
+    MemberNameSDict::compareValues in doxygen's membername.cpp is suspicious.
 build_path_in_include_graphs_generated_by_doxygen:
   description: |
     INCLUDE_GRAPHS generates a PNG (or similar) to represent the dependencies
