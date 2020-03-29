@@ -8678,6 +8678,8 @@ hyperestraier:
     - captures_build_path
 hyperic-sigar:
   version: 1.6.4+dfsg-4
+  comments: |
+    I think this may be an issue where JNI java extensions do not have CFLAGS passed to them, so they capture the build path via assert calls. For example sigar_util.c:113.
   issues:
     - captures_build_path
 i2p:
