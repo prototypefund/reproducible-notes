@@ -1006,6 +1006,10 @@ async-http-client:
   version: 1.6.5-4
   issues:
     - random_order_in_documentation_generated_by_javadoc
+atf:
+  version: 0.21-1
+  comments: |
+    Embeds CFLAGS and CXXFLAGS via ATF_BUILD_CFLAGS and ATF_BUILD_CXXFLAGS - see m4/runtime-tool.m4 etc.
 atinject-jsr330:
   version: 1.0+ds1-2
   issues:
