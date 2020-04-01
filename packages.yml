@@ -28901,6 +28901,10 @@ yaws:
     - captures_shell_variable_in_autofoo_script
     - timestamps_in_ps_generated_by_dvips
     - timestamps_in_documentation_generated_by_edoc
+yaz:
+  version: 5.29.0-2
+  bugs:
+    - 955501
 yersinia:
   version: 0.7.3-1
   issues:
