@@ -15029,6 +15029,10 @@ netgen:
     - captures_shell_variable_in_autofoo_script
     - captures_build_path
     - records_build_flags
+netgen-lvs:
+  version: 1.5.133-1
+  bugs:
+    - 955783
 netkit-bootparamd:
   version: 0.17-9
   issues:
