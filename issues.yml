@@ -1498,7 +1498,7 @@ timestamps_in_org_mode_html_output:
     be able to be adapted for fixing org-mode mode generally.
 records_build_flags:
   description: |
-    Records $CFLAGS, which vary intentionally due to the «-fdebug-prefix-map=${BIKESHED}=.» flag.
+    Records $CFLAGS, which vary intentionally due to the «-fdebug-prefix-map=${BUILDPATH}=.» flag.
     .
     We have a patch pending to GCC to fix this issue centrally:
     .
