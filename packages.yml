@@ -11683,6 +11683,10 @@ libjcalendar-java:
   version: 1.3.3-3
   issues:
     - dc_created_timestamp_in_javadoc
+libjcat:
+  version: 0.1.0-2
+  comments: |
+    Has a nondeterminstic test signature in build. You can force some components of the gnutls certtool template such as activation_date=foo and serial=bar but something is still sneaking in the current build time via a signing_time attribute
 libjchart2d-java:
   version: 3.2.2+dfsg-1
   issues:
