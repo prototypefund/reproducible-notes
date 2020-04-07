@@ -19882,6 +19882,10 @@ r-bioc-bitseq:
   version: 1.24.0+dfsg-1
   issues:
     - randomness_in_r_rdb_rds_databases
+r-bioc-bladderbatch:
+  version: 1.24.0-2
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-bioc-bsgenome:
   version: 1.40.0-1
   issues:
@@ -19916,6 +19920,10 @@ r-bioc-demixt:
   version: 1.2.5-2
   issues:
     - randomness_in_r_rdb_rds_databases
+r-bioc-deseq:
+  version: 1.38.0-2
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-bioc-deseq2:
   version: 1.12.3-1
   issues:
@@ -19935,6 +19943,10 @@ r-bioc-ebseq:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
+r-bioc-edaseq:
+  version: 2.20.0+dfsg-2
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-bioc-edger:
   version: 3.14.0+dfsg-1
   issues:
@@ -20078,6 +20090,14 @@ r-bioc-multtest:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
+r-bioc-mutationalpatterns:
+  version: 1.12.0-2
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-bioc-nanostringqcpro:
+  version: 1.18.0-2
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-bioc-org.hs.eg.db:
   version: 3.10.0-1
   issues:
@@ -20172,6 +20192,10 @@ r-bioc-summarizedexperiment:
   issues:
     - randomness_in_r_rdb_rds_databases
     - gcc_captures_build_path
+r-bioc-sva:
+  version: 3.34.0-2
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-bioc-tfbstools:
   version: 1.18.0+dfsg-1
   issues:
@@ -20571,6 +20595,10 @@ r-cran-corrplot:
   version: 0.84-1
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-covid19us:
+  version: 0.1.1-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-covr:
   version: 3.3.1+dfsg-1
   issues:
@@ -20847,6 +20875,10 @@ r-cran-evd:
   version: 2.3-0-1
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-exactranktests:
+  version: 0.8-31-2
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-expint:
   version: 0.1-6-1
   issues:
@@ -21079,6 +21111,10 @@ r-cran-ggally:
   version: 1.4.0-1
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-gganimate:
+  version: 1.0.5-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-ggbeeswarm:
   version: 0.6.0-1
   issues:
@@ -21103,6 +21139,10 @@ r-cran-ggplot2:
   version: 2.1.0-3
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-ggpubr:
+  version: 0.2.5-2
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-ggraph:
   version: 2.0.0-2
   issues:
@@ -21117,6 +21157,10 @@ r-cran-ggridges:
     - randomness_in_r_rdb_rds_databases
 r-cran-ggsci:
   version: 2.8-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-ggsignif:
+  version: 0.6.0-1
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-ggthemes:
@@ -21207,6 +21251,14 @@ r-cran-gridgraphics:
   version: 0.4-1-1
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-gridsvg:
+  version: 1.7-1-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-grimport2:
+  version: 0.2-0-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-gsa:
   version: 1.03-1
   issues:
@@ -21233,6 +21285,10 @@ r-cran-gwidgets:
     - randomness_in_r_rdb_rds_databases
 r-cran-gwidgetsrgtk2:
   version: 0.0-86-2
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-gwidgetstcltk:
+  version: 0.0-55-2
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-haplo.stats:
@@ -21415,8 +21471,16 @@ r-cran-kernlab:
   version: 0.9-24-1
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-km.ci:
+  version: 0.5-2-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-kmi:
   version: 0.5.4-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-kmsurv:
+  version: 0.1-5-1
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-knitr:
@@ -21631,6 +21695,10 @@ r-cran-matrixstats:
     - randomness_in_r_rdb_rds_databases
 r-cran-maxlik:
   version: 1.2-0-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-maxstat:
+  version: 0.7-25-1
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-mclust:
@@ -22005,6 +22073,10 @@ r-cran-pkgbuild:
   version: 1.0.0-1
   issues:
     - randomness_in_r_rdb_rds_databases
+r-cran-pkgcond:
+  version: 0.1.0-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
 r-cran-pkgconfig:
   version: 2.0.1-2
   issues:
@@ -22071,6 +22143,10 @@ r-cran-polycor:
     - randomness_in_r_rdb_rds_databases
 r-cran-polycub:
   version: 0.5-1-1
+  issues:
+    - randomness_in_r_rdb_rds_databases
+r-cran-polynom:
+  version: 1.4-0-1
   issues:
     - randomness_in_r_rdb_rds_databases
 r-cran-popepi:
