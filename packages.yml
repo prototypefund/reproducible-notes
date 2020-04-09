@@ -23967,6 +23967,10 @@ ros-opencv-apps:
   issues:
     - captures_build_path
     - captures_build_path_via_assert
+ros-perception-pcl:
+  version: 1.7.0-1
+  issues:
+    - ros_dynamic_reconfigure_captures_build_path
 ros-pluginlib:
   version: 1.10.3-1
   issues:
