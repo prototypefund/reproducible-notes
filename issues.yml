@@ -2116,3 +2116,6 @@ captures_build_path_in_hd5_database_files:
   description:
     Absolute build path stored in headers, see h5py. Might be caused by
     libhdf5-dev low-level itself.
+ros_dynamic_reconfigure_captures_build_path:
+   description:
+     eg. srcfile as well as other reference to the original source files.
