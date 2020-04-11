@@ -1199,8 +1199,6 @@ azure-uamqp-python:
     We appear to be passing -fdebug-prefix-map etc in all the right places but it still seems to capture it via LogError's __FILE__.
   issues:
     - captures_build_path_via_assert
-  bugs:
-    - 952555
 babeld:
   version: 1.7.0-1
   issues:
