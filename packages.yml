@@ -17317,6 +17317,10 @@ pgpgpg:
   version: 0.13-9.1
   issues:
     - build_id_differences_only
+pgpointcloud:
+  version: 1.2.1-2
+  comments: |
+    Does not obey dpkg-buildflags in all calls to gcc, but some of them do. I think this is due to CFLAGS etc being populated via the pg_config script.
 pgpool2:
   version: 4.0.2-1
   issues:
