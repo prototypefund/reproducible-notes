@@ -8459,11 +8459,6 @@ hhsuite:
     Package-specific issue: the default value of '-pre_evalue_thresh' in the man page differs due to #851764.
   issues:
     - captures_build_path_via_assert
-hibernate:
-  version: 2.0+15+g88d54a8-1
-  comments: |
-    Embeds the build date into manpage.
-    https://sources.debian.net/src/hibernate/2.0%2B15%2Bg88d54a8-1/gen-manpages.sh/#L3
 hidrd:
   version: 0.2.0-12
   issues:
@@ -27606,11 +27601,6 @@ userv:
   issues:
     - timestamps_in_gzip_headers
     - timestamps_in_ps_generated_by_dvips
-uswsusp:
-  version: 1.0+20120915-6
-  comments: |
-    Embeds the build date/time.
-    https://sources.debian.net/src/uswsusp/1.0%2B20120915-6/wlcsv2c.pl/#L70
 utalk:
   version: 1.0.1.beta-8
   issues:
