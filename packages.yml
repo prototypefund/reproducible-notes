@@ -8808,6 +8808,10 @@ ignition-common:
   version: 1.1.1-1
   issues:
     - ftbfs_due_to_f-file-prefix-map
+ignition-math:
+  version: 6.4.0+ds-7
+  issues:
+    - build_dir_in_tags_generated_by_doxygen
 ignition-math2:
   version: 2.5.0-1
   issues:
