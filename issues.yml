@@ -2119,3 +2119,6 @@ captures_build_path_in_hd5_database_files:
 ros_dynamic_reconfigure_captures_build_path:
    description:
      eg. srcfile as well as other reference to the original source files.
+cargo_installs_crates2_json:
+   description:
+     cargo install adds an unreproducible .crates2.json file to /usr (!)
