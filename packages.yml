@@ -15110,6 +15110,10 @@ nexus:
   version: 4.3.2-svn1921-2
   issues:
     - timestamps_in_jar
+nfdump:
+  version: 1.6.20-1
+  issues:
+    - captures_build_path_via_assert
 nfft:
   version: 3.3.2~rc2-2
   comments: |
