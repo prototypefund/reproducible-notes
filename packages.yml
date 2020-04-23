@@ -6289,8 +6289,6 @@ gcc-7:
   version: 7-20170407-1
   issues:
     - blacklisted_on_jenkins_armhf_only
-  bugs:
-    - 853709
 gcc-avr:
   version: 1:4.8.1+Atmel3.4.4-2
   comments: |
@@ -10407,10 +10405,6 @@ ktp-text-ui:
   version: 15.08.3-1
   issues:
     - build_id_differences_only
-kubernetes:
-  version: 1.5.5+dfsg-1
-  bugs:
-    - 860502
 kubernetes-addon-heapster:
   version: 1.2.0+dfsg-1
   bugs:
@@ -28484,8 +28478,6 @@ xbubble:
   version: 0.5.11.2-3.3
   issues:
     - gcc_captures_build_path
-  bugs:
-    - 853709
 xc3sprog:
   version: 0+svn795+dfsg-1
   issues:
