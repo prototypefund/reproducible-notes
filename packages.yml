@@ -7178,8 +7178,6 @@ gnustep-gui:
 gnustep-make:
   version: 2.6.6-3
   issues:
-    - timestamps_in_pdf_generated_by_latex
-    - timestamp_in_info_file_created_by_makeinfo
     - fonts_in_pdf_files
 gnutls28:
   version: 3.5.15-2
@@ -27365,10 +27363,6 @@ type-conv:
   version: 113.00.02-2
   issues:
     - ocaml_captures_build_path
-typerep:
-  version: 113.00.00-3
-  issues:
-    - captures_build_path_in_beam_cma_cmt_files
 typespeed:
   version: 0.6.5-2.1
   issues:
